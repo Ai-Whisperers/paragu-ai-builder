@@ -1,0 +1,94 @@
+{
+  "id": "spa",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "Tu Santuario de Bienestar",
+    "subheadline": "Relajate, renueva y reconnectate en {{businessName}}",
+    "ctaPrimary": "Reservar Experiencia",
+    "ctaSecondary": "Ver Tratamientos"
+  },
+
+  "treatmentsPage": {
+    "title": "Menu de Tratamientos",
+    "categories": [
+      {
+        "key": "masajes",
+        "title": "Masajes Terapeuticos",
+        "defaultServices": [
+          { "name": "Masaje Sueco", "duration": "60/90 min", "price": null, "description": "Tecnica suave para relajacion profunda" },
+          { "name": "Masaje Deep Tissue", "duration": "60/90 min", "price": null, "description": "Alivio muscular profundo" },
+          { "name": "Masaje Hot Stone", "duration": "75 min", "price": null, "description": "Piedras calientes para tension" },
+          { "name": "Masaje de Parejas", "duration": "60 min", "price": null, "description": "Experiencia compartida" }
+        ]
+      },
+      {
+        "key": "faciales",
+        "title": "Tratamientos Faciales",
+        "defaultServices": [
+          { "name": "Limpieza Facial", "duration": "45 min", "price": null, "description": "Profunda limpieza e hidratacion" },
+          { "name": "Hydrafacial", "duration": "60 min", "price": null, "description": "Tecnologia avanzada" },
+          { "name": "Anti-aging", "duration": "60 min", "price": null, "description": "Reduce lineas de expresion" }
+        ]
+      },
+      {
+        "key": "corporales",
+        "title": "Tratamientos Corporales",
+        "defaultServices": [
+          { "name": "Exfoliacion Corporal", "duration": "45 min", "price": null, "description": "Renueva y suaviza la piel" },
+          { "name": "Envoltura de Arcilla", "duration": "60 min", "price": null, "description": "Desintoxicacion natural" },
+          { "name": "Aromaterapia", "duration": "75 min", "price": null, "description": "Relajacion con aceites esenciales" }
+        ]
+      }
+    ]
+  },
+
+  "packagesPage": {
+    "title": "Paquetes Especiales",
+    "defaultPackages": [
+      {
+        "name": "Dia de Spa Completo",
+        "includes": ["Masaje Relajante 60 min", "Facial Hidratante 45 min", "Sauna 30 min", "Hidromasaje"],
+        "price": null,
+        "savings": null
+      },
+      {
+        "name": "Experiencia Parejas",
+        "includes": ["2 Masajes Relajantes", "Hidromasaje privado", "Te y frutas"],
+        "price": null,
+        "savings": null
+      },
+      {
+        "name": "Regalo Perfecto",
+        "includes": ["Vale personalizado", "Presentacion de regalo"],
+        "price": null,
+        "savings": null
+      }
+    ],
+    "giftVoucher": {
+      "title": "Vale de Regalo",
+      "description": "El regalo perfecto para alguien especial"
+    }
+  },
+
+  "aboutPage": {
+    "title": "Nuestro Espacio",
+    "storyPlaceholder": "Descubre un refugio donde el tiempo se detiene. En {{businessName}} creamos experiencias de bienestar que renuevan cuerpo y alma."
+  },
+
+  "faq": [
+    { "q": "Necesito reservar con anticipacion?", "a": "Recomendamos reservar con al menos 24 horas de anticipacion, especialmente para fines de semana." },
+    { "q": "Que debo traer?", "a": "Solo traete a ti. Nosotros proporcionamos todo lo necesario: bata, sandalias, toallas." }
+  ],
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Tratamientos", "Paquetes", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera reservar una experiencia en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  }
+}

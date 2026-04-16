@@ -1,0 +1,72 @@
+{
+  "id": "peluqueria",
+  "nameEs": "Peluqueria",
+  "nameEn": "Hair Salon",
+
+  "tokens": "peluqueria",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "galleryPreview", "team", "locationBlock", "testimonial", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "team": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "fresha", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": true, "filterable": true },
+    "portfolio": { "enabled": true, "minImages": 20, "categories": ["cortes", "color", "mechas", "peinados"] },
+    "beforeAfter": { "enabled": false, "optional": true },
+    "staffProfiles": { "enabled": true, "showInstagram": true, "bookable": true },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["cortes", "coloracion", "tratamientos", "peinados", "extensiones"],
+
+  "targetAudience": {
+    "primary": "Women 25-45, middle-class, repeat customers",
+    "secondary": "Men, Youth 18-25 for trends"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Peluqueria en {{city}} | Servicios y Precios",
+    "descriptionTemplate": "Cortes, coloracion y tratamientos en {{city}}. Reserva tu cita online. Precios desde {{lowestPrice}}.",
+    "schemaType": "BeautySalon",
+    "keywords": ["peluqueria {{city}}", "corte de cabello {{neighborhood}}", "salon de belleza {{city}}", "coloracion {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Tu Mejor Look en {{city}}",
+    "subheadlineTemplate": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+    "ctaPrimary": { "text": "Reservar Cita", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}

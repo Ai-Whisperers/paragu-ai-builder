@@ -1,0 +1,75 @@
+{
+  "name": "Spa/Wellness",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["serene", "calming", "nature-inspired", "luxurious"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Serene Nature",
+      "colors": {
+        "primary": "#8f9e8a",
+        "secondary": "#c4a77d",
+        "accent": "#e8dcc8",
+        "background": "#fdfbf7",
+        "surface": "#ffffff",
+        "text": "#36454f",
+        "textLight": "#6b7c7c",
+        "darkAccent": "#2d4a3e",
+        "success": "#4a7c59",
+        "error": "#c0392b"
+      }
+    },
+    "optionB": {
+      "name": "Luxury Navy",
+      "colors": {
+        "primary": "#1a2744",
+        "secondary": "#c9a227",
+        "accent": "#e8f4f8",
+        "background": "#fdfbf7",
+        "surface": "#ffffff",
+        "text": "#2c3e50",
+        "textLight": "#7f8c8d",
+        "darkAccent": "#0d1520",
+        "success": "#27ae60",
+        "error": "#c0392b"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Cormorant Garamond', serif",
+    "body": "'Lato', sans-serif",
+    "accent": "'Montserrat', sans-serif",
+    "headingWeight": "500",
+    "bodyWeight": "300",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Cormorant+Garamond:wght@400;500;600", "Lato:wght@300;400;700", "Montserrat:wght@300;400;500"],
+
+  "borderRadius": "lg",
+  "buttonStyle": "rounded",
+
+  "components": {
+    "button": {
+      "padding": "14px 32px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "treatmentCard": {
+      "borderRadius": "12px",
+      "imageRatio": "4:3"
+    },
+    "packageBanner": {
+      "fullWidth": true,
+      "hasOverlay": true
+    },
+    "gallery": {
+      "layout": "grid"
+    }
+  }
+}

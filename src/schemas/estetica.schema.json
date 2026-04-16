@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "estetica",
+  "title": "Aesthetic Clinic Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "medicalDirector": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "title": { "type": "string" },
+        "license": { "type": "string" },
+        "certifications": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "treatmentTypes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["faciales", "inyectables", "laser", "corporales"] }
+    },
+    "offersInjectables": { "type": "boolean", "default": false },
+    "beforeAfterPhotos": {
+      "type": "object",
+      "properties": {
+        "available": { "type": "boolean" },
+        "count": { "type": "integer" },
+        "canTakeNew": { "type": "boolean" }
+      }
+    },
+    "freeConsultation": { "type": "boolean", "default": true },
+    "virtualConsultation": { "type": "boolean", "default": false },
+    "numberOfPractitioners": { "type": "integer" }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "medicalDirector", "services"],
+    "priority2": ["team", "beforeAfterPhotos", "treatmentTypes"],
+    "priority3": ["freeConsultation", "virtualConsultation", "seo.googleBusinessProfileUrl"]
+  }
+}

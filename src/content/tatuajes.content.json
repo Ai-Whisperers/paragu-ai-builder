@@ -1,0 +1,91 @@
+{
+  "id": "tatuajes",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Arte en Tu Piel",
+    "subheadline": "Tatuajes personalizados, higiene impecable",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Ver Portafolio"
+  },
+
+  "portfolioPage": {
+    "title": "Portafolio",
+    "styleCategories": ["Tradicional", "Realismo", "Blackwork", "Japones", "Minimal"],
+    "filterLabels": {
+      "style": "Estilo",
+      "artist": "Artista",
+      "bodyPart": "Zona del cuerpo"
+    }
+  },
+
+  "artistsPage": {
+    "title": "Nuestros Artistas",
+    "memberTemplate": {
+      "buttonText": "Ver Trabajo de {{name}}",
+      "availabilityLabel": "Disponibilidad"
+    }
+  },
+
+  "piercingSection": {
+    "title": "Piercings",
+    "defaultServices": [
+      { "name": "Lobulo", "price": null },
+      { "name": "Cartilago", "price": null },
+      { "name": "Nariz", "price": null },
+      { "name": "Ombligo", "price": null },
+      { "name": "Industrial", "price": null }
+    ]
+  },
+
+  "consultationForm": {
+    "title": "Agenda Tu Consulta",
+    "fields": [
+      { "name": "fullName", "label": "Nombre completo", "type": "text", "required": true },
+      { "name": "phone", "label": "Telefono", "type": "tel", "required": true },
+      { "name": "email", "label": "Email", "type": "email", "required": false },
+      { "name": "tattooType", "label": "Que tipo de tatuaje buscas?", "type": "select", "options": ["Custom", "Tradicional", "Realismo", "Blackwork", "Japones", "Minimal", "Cover-up"] },
+      { "name": "bodyLocation", "label": "Donde quieres el tatuaje?", "type": "text" },
+      { "name": "approximateSize", "label": "Tamano aproximado?", "type": "text" },
+      { "name": "referenceImage", "label": "Tienes referencia de diseno?", "type": "file" },
+      { "name": "description", "label": "Descripcion de tu idea", "type": "textarea" },
+      { "name": "isFirstTattoo", "label": "Es tu primer tatuaje?", "type": "select", "options": ["Si", "No"] }
+    ],
+    "submitText": "Enviar Consulta",
+    "confirmationText": "Te contactaremos en 24-48 horas para confirmar tu cita"
+  },
+
+  "aftercare": {
+    "title": "Cuidados Post-Tatuaje",
+    "steps": [
+      "Mantener el vendaje por 2-4 horas",
+      "Lavar suavemente con jabon antibacterial",
+      "Aplicar crema cicatrizante 3 veces al dia",
+      "Evitar sol directo por 2 semanas",
+      "No rascarse durante la cicatrizacion",
+      "Evitar piscinas y playa por 2 semanas"
+    ]
+  },
+
+  "faq": [
+    { "q": "Cuanto duele?", "a": "El dolor varia segun la zona y tolerancia personal. Las zonas con mas hueso tienden a doler mas." },
+    { "q": "Cuanto tarda en sanar?", "a": "La cicatrizacion completa toma 2-4 semanas. Seguir los cuidados post-tatuaje es esencial." },
+    { "q": "Hay limite de edad?", "a": "Debes ser mayor de 18 anos. Menores con autorizacion de padres." }
+  ],
+
+  "firstTimerCta": {
+    "text": "Primer tatuaje?",
+    "linkText": "Lee nuestra guia",
+    "action": "scrollTo:aftercare"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Portafolio", "Artistas", "Info", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una consulta para tatuaje en {{businessName}}"
+  }
+}

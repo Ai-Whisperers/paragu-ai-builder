@@ -1,0 +1,107 @@
+{
+  "id": "gimnasio",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "TRANSFORMA TU CUERPO EN {{businessName}}",
+    "subheadline": "Entrena con los mejores profesionales en instalaciones de primera",
+    "stats": ["{{memberCount}}+ MIEMBROS", "{{classCount}}+ CLASES SEMANALES", "{{accessHours}} DISPONIBLE"],
+    "ctaPrimary": "PRUEBA 7 DIAS FREE",
+    "ctaSecondary": "VER MEMBRESIAS"
+  },
+
+  "whyUs": {
+    "title": "Por que elegirnos?",
+    "defaultItems": [
+      "Equipamiento de ultima generacion",
+      "Entrenadores certificados",
+      "Clases ilimitadas incluidas",
+      "Horarios flexibles"
+    ]
+  },
+
+  "pricingPage": {
+    "title": "Membresias",
+    "tiers": [
+      {
+        "key": "basico",
+        "name": "BASICO",
+        "price": null,
+        "frequency": "Facturacion mensual",
+        "features": {
+          "included": ["Acceso a sala de maquinas", "2 clases grupales por semana", "Area de vestuarios"],
+          "excluded": ["Toallas", "Acceso sauna"]
+        },
+        "cta": "ELEGIR BASICO"
+      },
+      {
+        "key": "pro",
+        "name": "PRO",
+        "badge": "MAS POPULAR",
+        "price": null,
+        "frequency": "Facturacion mensual",
+        "features": {
+          "included": ["Acceso ilimitado a sala", "Clases ilimitadas", "1 sesion PT/mes", "Toallas incluidas"],
+          "excluded": ["Acceso sauna"]
+        },
+        "cta": "ELEGIR PRO",
+        "highlighted": true
+      },
+      {
+        "key": "elite",
+        "name": "ELITE",
+        "price": null,
+        "frequency": "Facturacion mensual",
+        "features": {
+          "included": ["Acceso 24/7", "Clases ilimitadas", "4 sesiones PT/mes", "Toallas y amenities", "Acceso sauna y vapor"],
+          "excluded": []
+        },
+        "cta": "ELEGIR ELITE"
+      }
+    ],
+    "dayPass": { "label": "Pase Diario", "price": null }
+  },
+
+  "schedulePage": {
+    "title": "Horario de Clases",
+    "filters": {
+      "day": ["Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"],
+      "classType": ["Todas", "Yoga", "HIIT", "Spinning", "Pilates", "Boxeo"],
+      "instructor": "dynamic"
+    },
+    "statusLabels": {
+      "available": "Disponible",
+      "full": "Completo",
+      "waitlist": "Waitlist"
+    }
+  },
+
+  "trainersPage": {
+    "title": "Nuestros Entrenadores",
+    "memberTemplate": {
+      "buttonText": "Reservar Sesion"
+    }
+  },
+
+  "faq": [
+    { "q": "Hay permanencia?", "a": "Puedes cancelar en cualquier momento con 30 dias de anticipacion." },
+    { "q": "Puedo congelar mi membresia?", "a": "Si, puedes congelar hasta 2 meses al ano." },
+    { "q": "Puedo ir con un invitado?", "a": "Si, con nuestra politica de invitados puedes traer a un amigo." }
+  ],
+
+  "ctaBanner": {
+    "title": "Empieza tu transformacion hoy",
+    "buttonText": "PRUEBA FREE"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Clases", "Planes", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera informacion sobre membresias en {{businessName}}",
+    "trialMessage": "Hola! Quisiera agendar mi prueba gratis en {{businessName}}"
+  }
+}

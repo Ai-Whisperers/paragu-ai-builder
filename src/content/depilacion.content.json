@@ -1,0 +1,67 @@
+{
+  "id": "depilacion",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Depilacion Laser Definitiva",
+    "subheadline": "Tecnologia de ultima generacion, resultados permanentes",
+    "ctaPrimary": "Consulta Sin Cargo",
+    "ctaSecondary": "Ver Tratamientos"
+  },
+
+  "treatmentsPage": {
+    "title": "Tratamientos y Precios",
+    "areas": [
+      { "name": "Bozo", "pricePerSession": null },
+      { "name": "Axilas", "pricePerSession": null },
+      { "name": "Ingles", "pricePerSession": null },
+      { "name": "Ingles Completas", "pricePerSession": null },
+      { "name": "Piernas Completas", "pricePerSession": null },
+      { "name": "Cuerpo Completo", "pricePerSession": null }
+    ],
+    "packages": [
+      { "sessions": 6, "discount": 20, "label": "6 sesiones - 20% descuento" },
+      { "sessions": 8, "discount": 30, "label": "8 sesiones - 30% descuento" },
+      { "sessions": 10, "discount": 40, "label": "10 sesiones - 40% descuento" }
+    ],
+    "waxingSection": {
+      "title": "Depilacion con Cera",
+      "note": "Cera tibia profesional. Depilacion masculina disponible."
+    }
+  },
+
+  "technologyPage": {
+    "title": "Nuestra Tecnologia",
+    "highlights": [
+      { "icon": "shield", "label": "FDA Approved", "description": "Equipo certificado internacionalmente" },
+      { "icon": "dna", "label": "Alexandrite + Nd:YAG", "description": "Doble longitud de onda" },
+      { "icon": "zap", "label": "Rapido y casi indoloro", "description": "Sesiones cortas y comodas" },
+      { "icon": "leaf", "label": "Para todo tipo de piel", "description": "Tecnologia adaptativa" }
+    ],
+    "howItWorks": {
+      "title": "Como funciona?",
+      "facts": [
+        "Sesiones: 6-8 para resultados optimos",
+        "Intervalo: 4-6 semanas entre sesiones",
+        "Compatible: todo tipo de piel",
+        "Resultados: hasta 90% reduccion permanente"
+      ]
+    }
+  },
+
+  "faq": [
+    { "q": "Cuantas sesiones necesito?", "a": "En promedio 6-8 sesiones para resultados optimos, dependiendo de la zona y tipo de piel." },
+    { "q": "Es doloroso?", "a": "Con nuestra tecnologia, la sensacion es minima. La mayoria de los pacientes lo describen como un pequeno pellizco." },
+    { "q": "Funciona en piel oscura?", "a": "Si, nuestra tecnologia Nd:YAG es segura y efectiva para todos los tipos de piel." }
+  ],
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Tratamientos", "Tecnologia", "Resultados", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una consulta gratis de depilacion laser en {{businessName}}"
+  }
+}

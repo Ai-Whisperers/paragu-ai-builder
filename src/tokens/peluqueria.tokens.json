@@ -1,0 +1,74 @@
+{
+  "name": "Peluqueria (Hair Salon)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["elegant", "warm", "feminine", "professional"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Elegant Rose",
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#b76e79",
+        "background": "#faf9f7",
+        "surface": "#ffffff",
+        "text": "#333333",
+        "textLight": "#666666",
+        "success": "#4a7c59",
+        "error": "#c0392b",
+        "secondaryHover": "#a05a65"
+      }
+    },
+    "optionB": {
+      "name": "Modern Copper",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#b87333",
+        "background": "#f5f5f5",
+        "surface": "#ffffff",
+        "text": "#1a1a1a",
+        "textLight": "#555555",
+        "accent": "#d4a574",
+        "success": "#4a7c59",
+        "error": "#c0392b"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Montserrat', sans-serif",
+    "accent": "'Cormorant Garamond', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Playfair+Display:wght@400;700", "Montserrat:wght@300;400;500;600", "Cormorant+Garamond:wght@400;500;600"],
+
+  "borderRadius": "sm",
+  "buttonStyle": "rounded-sm",
+
+  "components": {
+    "button": {
+      "padding": "12px 24px",
+      "borderRadius": "4px",
+      "hoverTranslateY": "-2px"
+    },
+    "serviceCard": {
+      "borderRadius": "8px",
+      "hoverTranslateY": "-4px",
+      "imageRatio": "16:9"
+    },
+    "teamCard": {
+      "imageShape": "circle",
+      "imageSize": "150px"
+    },
+    "gallery": {
+      "layout": "masonry"
+    }
+  }
+}

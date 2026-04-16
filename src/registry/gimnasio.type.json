@@ -1,0 +1,74 @@
+{
+  "id": "gimnasio",
+  "nameEs": "Gimnasio/Fitness",
+  "nameEn": "Gym/Fitness Center",
+
+  "tokens": "gimnasio",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "whyUs", "pricingPreview", "classesPreview", "trainers", "locationBlock", "footer"],
+      "requiredSections": ["header", "hero", "pricingPreview", "contact", "footer"]
+    },
+    "pricing": {
+      "sections": ["header", "pricingTiers", "faq", "footer"],
+      "requiredSections": ["header", "pricingTiers", "footer"]
+    },
+    "schedule": {
+      "sections": ["header", "classSchedule", "footer"],
+      "requiredSections": ["header", "classSchedule", "footer"]
+    },
+    "trainers": {
+      "sections": ["header", "trainerProfiles", "footer"],
+      "requiredSections": ["header", "trainerProfiles", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "mindbody", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "showPrices": true },
+    "portfolio": { "enabled": false, "optional": true },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": true, "label": "Entrenadores", "showCertifications": true },
+    "pricingDisplay": { "enabled": true, "showTiers": true, "highlightPopular": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": true, "filterByDay": true, "filterByType": true, "filterByInstructor": true },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "freeTrial": { "enabled": true, "days": 7 }
+  },
+
+  "serviceCategories": ["membresias", "clases_grupales", "entrenamiento_personal", "amenidades"],
+
+  "targetAudience": {
+    "primary": "Adults 25-45, fitness-conscious, comparing options",
+    "secondary": "Athletes, Seniors, Youth"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Gimnasio en {{city}} | Membresias y Clases",
+    "descriptionTemplate": "Gimnasio en {{city}} con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde {{lowestPrice}}/mes.",
+    "schemaType": "SportsActivityLocation",
+    "keywords": ["gimnasio {{city}}", "gym cerca de mi", "clases de fitness {{city}}", "entrenador personal {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Clases", "Planes", "Equipo", "Contacto"],
+    "cta": { "text": "Prueba Free", "action": "freeTrial" }
+  },
+
+  "hero": {
+    "style": "video",
+    "headlineTemplate": "TRANSFORMA TU CUERPO EN {{businessName}}",
+    "subheadlineTemplate": "Entrena con los mejores profesionales en instalaciones de primera",
+    "stats": ["{{memberCount}}+ MIEMBROS", "{{classCount}}+ CLASES SEMANALES", "{{accessHours}} DISPONIBLE"],
+    "ctaPrimary": { "text": "PRUEBA 7 DIAS FREE", "action": "freeTrial" },
+    "ctaSecondary": { "text": "VER MEMBRESIAS", "action": "scrollTo:pricing" }
+  }
+}

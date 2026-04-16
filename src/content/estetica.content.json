@@ -1,0 +1,72 @@
+{
+  "id": "estetica",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Belleza y Ciencia",
+    "subheadline": "Tratamientos avanzados con tecnologia de punta y resultados reales",
+    "ctaPrimary": "Reservar Consulta",
+    "ctaSecondary": "Ver Resultados"
+  },
+
+  "treatmentsPage": {
+    "title": "Tratamientos",
+    "pricingNote": "Precios varian segun evaluacion. Primera consulta sin cargo.",
+    "categories": [
+      {
+        "key": "faciales",
+        "title": "Tratamientos Faciales",
+        "defaultServices": [
+          { "name": "Hydrafacial", "priceFrom": null, "description": "Limpieza, hidratacion, luminosidad" },
+          { "name": "Microagujas", "priceFrom": null, "description": "Estimula colageno, reduce cicatrices" },
+          { "name": "Luz Pulsada", "priceFrom": null, "description": "Rejuvenecimiento, manchas" },
+          { "name": "Botox", "priceFrom": null, "description": "Relaja lineas de expresion" }
+        ]
+      },
+      {
+        "key": "corporales",
+        "title": "Tratamientos Corporales",
+        "defaultServices": [
+          { "name": "Criolipolis", "priceFrom": null, "description": "Eliminacion de grasa localizada" },
+          { "name": "Radiofrecuencia", "priceFrom": null, "description": "Tensado de piel" },
+          { "name": "Drenaje Linfatico", "priceFrom": null, "description": "Retencion de liquidos" }
+        ]
+      }
+    ]
+  },
+
+  "resultsPage": {
+    "title": "Resultados Reales",
+    "subtitle": "Antes y Despues",
+    "consentNote": "Fotos con consentimiento del paciente"
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo Medico",
+    "credentialLabels": {
+      "education": "Formacion",
+      "certifications": "Certificaciones",
+      "experience": "Experiencia",
+      "treatmentCount": "Tratamientos realizados"
+    },
+    "memberTemplate": {
+      "buttonText": "Reservar con {{name}}"
+    }
+  },
+
+  "faq": [
+    { "q": "La consulta tiene costo?", "a": "No, la primera consulta es sin cargo. Evaluamos tu caso y te recomendamos el mejor tratamiento." },
+    { "q": "Los tratamientos son dolorosos?", "a": "La mayoria de los tratamientos son minima o nulamente dolorosos. Usamos tecnicas y productos para maximizar tu comodidad." }
+  ],
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Tratamientos", "Resultados", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una consulta en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera consultar sobre {{serviceName}} en {{businessName}}"
+  }
+}

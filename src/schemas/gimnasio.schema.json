@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gimnasio",
+  "title": "Gym/Fitness Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "membershipTiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "price": { "type": "integer" },
+          "features": { "type": "array", "items": { "type": "string" } },
+          "highlighted": { "type": "boolean", "default": false }
+        }
+      }
+    },
+    "classSchedule": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "className": { "type": "string" },
+          "day": { "type": "string" },
+          "time": { "type": "string" },
+          "instructor": { "type": "string" },
+          "capacity": { "type": "integer" }
+        }
+      }
+    },
+    "weeklyClassCount": { "type": "integer" },
+    "memberCount": { "type": "integer" },
+    "is24Hours": { "type": "boolean", "default": false },
+    "amenities": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["pool", "sauna", "showers", "lockers", "parking", "24_7_access", "steam_room"] }
+    },
+    "dayPassPrice": { "type": "integer" },
+    "equipmentBrands": { "type": "array", "items": { "type": "string" } },
+    "facilitySize": { "type": "string" }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "membershipTiers", "classSchedule"],
+    "priority2": ["team", "amenities", "hours", "memberCount"],
+    "priority3": ["equipmentBrands", "facilitySize", "seo.googleBusinessProfileUrl"]
+  }
+}

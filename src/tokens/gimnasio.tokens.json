@@ -1,0 +1,79 @@
+{
+  "name": "Gimnasio/Fitness (Gym)",
+  "extends": "base",
+  "theme": "dark",
+  "mood": ["energetic", "bold", "athletic", "high-contrast"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Energy Black",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#0066ff",
+        "accent": "#00d4ff",
+        "background": "#0a0a0a",
+        "surface": "#1a1a1a",
+        "surfaceLight": "#2d2d2d",
+        "text": "#ffffff",
+        "textMuted": "#888888",
+        "success": "#00ff88",
+        "warning": "#ffaa00",
+        "error": "#ff4444"
+      }
+    },
+    "optionB": {
+      "name": "Premium Gold",
+      "colors": {
+        "primary": "#2d2d2d",
+        "secondary": "#c9a227",
+        "accent": "#e8d48b",
+        "background": "#ffffff",
+        "surface": "#f8f8f8",
+        "surfaceLight": "#eeeeee",
+        "text": "#1a1a1a",
+        "textMuted": "#666666",
+        "success": "#27ae60",
+        "warning": "#f39c12",
+        "error": "#e74c3c"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Oswald', sans-serif",
+    "body": "'Open Sans', sans-serif",
+    "accent": "'Montserrat', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "uppercase"
+  },
+
+  "googleFonts": ["Oswald:wght@400;500;600;700", "Open+Sans:wght@300;400;500;600", "Montserrat:wght@400;500;600"],
+
+  "borderRadius": "none",
+  "buttonStyle": "sharp",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "0px",
+      "hoverTranslateY": "-2px",
+      "textTransform": "uppercase",
+      "fontWeight": "600"
+    },
+    "pricingCard": {
+      "borderRadius": "0px",
+      "highlightBadge": true
+    },
+    "scheduleGrid": {
+      "colorCoded": true
+    },
+    "hero": {
+      "preferVideo": true,
+      "heightDesktop": "80vh"
+    }
+  }
+}

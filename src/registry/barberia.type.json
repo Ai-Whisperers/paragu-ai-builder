@@ -1,0 +1,68 @@
+{
+  "id": "barberia",
+  "nameEs": "Barberia",
+  "nameEn": "Barbershop",
+
+  "tokens": "barberia",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "serviceMenu", "galleryPreview", "barbers", "policyBlock", "contactBlock", "footer"],
+      "requiredSections": ["header", "hero", "serviceMenu", "contactBlock", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "policyBlock", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "square", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "style": "traditional-list", "showPrices": true, "showDuration": true },
+    "portfolio": { "enabled": true, "minImages": 20, "categories": ["fades", "clasico", "barbas"], "noStockPhotos": true },
+    "beforeAfter": { "enabled": true },
+    "staffProfiles": { "enabled": true, "label": "Barberos" },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": true },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["cortes", "afeitado", "arreglo_barba", "paquetes"],
+
+  "targetAudience": {
+    "primary": "Men 18-55, grooming-conscious",
+    "secondary": "Boys, Grooms, Older gentlemen"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Barberia en {{city}} | Cortes y Afeitado",
+    "descriptionTemplate": "Barberia en {{city}}. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos.",
+    "schemaType": "BarberShop",
+    "keywords": ["barberia {{city}}", "corte de pelo hombre {{city}}", "barber shop {{city}}", "fade {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - El Arte del Corte",
+    "subheadlineTemplate": "Tradicion y maestria en cada detalle",
+    "ctaPrimary": { "text": "Reservar Cita", "action": "booking" },
+    "ctaSecondary": { "text": "Walk-In", "action": "scrollTo:contact" }
+  }
+}

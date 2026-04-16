@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "base-business",
+  "title": "Base Business Schema",
+  "description": "Universal fields required by all business types for website generation",
+  "type": "object",
+  "required": ["businessName", "businessType", "contact", "location"],
+  "properties": {
+    "businessName": {
+      "type": "string",
+      "description": "The official business name"
+    },
+    "businessType": {
+      "type": "string",
+      "enum": [
+        "peluqueria",
+        "gimnasio",
+        "spa",
+        "unas",
+        "tatuajes",
+        "barberia",
+        "estetica",
+        "maquillaje",
+        "depilacion"
+      ],
+      "description": "Business category determining template selection"
+    },
+    "tagline": {
+      "type": "string",
+      "description": "Optional business tagline or slogan"
+    },
+    "ownerName": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "object",
+      "required": ["phone"],
+      "properties": {
+        "phone": { "type": "string", "pattern": "^\\+?[0-9\\s\\-()]+$" },
+        "whatsapp": { "type": "string", "pattern": "^\\+?[0-9]+$" },
+        "email": { "type": "string", "format": "email" },
+        "instagram": { "type": "string" },
+        "facebook": { "type": "string" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "required": ["address", "city"],
+      "properties": {
+        "address": { "type": "string" },
+        "neighborhood": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "postalCode": { "type": "string" },
+        "country": { "type": "string", "default": "Paraguay" },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": { "type": "number" },
+            "lng": { "type": "number" }
+          }
+        },
+        "googleMapsUrl": { "type": "string", "format": "uri" },
+        "parkingInfo": { "type": "string" }
+      }
+    },
+    "hours": {
+      "type": "object",
+      "properties": {
+        "monday": { "$ref": "#/$defs/dayHours" },
+        "tuesday": { "$ref": "#/$defs/dayHours" },
+        "wednesday": { "$ref": "#/$defs/dayHours" },
+        "thursday": { "$ref": "#/$defs/dayHours" },
+        "friday": { "$ref": "#/$defs/dayHours" },
+        "saturday": { "$ref": "#/$defs/dayHours" },
+        "sunday": { "$ref": "#/$defs/dayHours" }
+      }
+    },
+    "services": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/service" },
+      "description": "List of services offered"
+    },
+    "team": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/teamMember" },
+      "description": "Staff/team members"
+    },
+    "portfolio": {
+      "type": "object",
+      "properties": {
+        "images": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/portfolioImage" }
+        },
+        "categories": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "branding": {
+      "type": "object",
+      "properties": {
+        "hasLogo": { "type": "boolean", "default": false },
+        "logoUrl": { "type": "string", "format": "uri" },
+        "preferredColors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "paletteOverride": { "type": "string", "description": "Override default palette (e.g. 'optionA', 'optionB')" },
+        "referenceWebsites": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "booking": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["fresha", "glossgenius", "square", "mindbody", "glofox", "whatsapp_only", "consultation_form", "inquiry_form", "walk_in"]
+        },
+        "platformId": { "type": "string", "description": "External booking platform business ID" },
+        "acceptsWalkIns": { "type": "boolean", "default": false },
+        "whatsappMessage": { "type": "string", "description": "Pre-filled WhatsApp message template" }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "googleBusinessProfileUrl": { "type": "string", "format": "uri" },
+        "existingWebsite": { "type": "string", "format": "uri" },
+        "targetKeywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "yearsInOperation": { "type": "integer", "minimum": 0 },
+    "multipleLocations": { "type": "boolean", "default": false },
+    "additionalLocations": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "dayHours": {
+      "type": "object",
+      "properties": {
+        "open": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
+        "close": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
+        "closed": { "type": "boolean", "default": false }
+      }
+    },
+    "service": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "category": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "integer", "description": "Price in Guaranies" },
+        "priceFrom": { "type": "integer", "description": "Starting price for variable pricing" },
+        "priceTo": { "type": "integer" },
+        "duration": { "type": "integer", "description": "Duration in minutes" },
+        "isAddon": { "type": "boolean", "default": false },
+        "featured": { "type": "boolean", "default": false },
+        "imageUrl": { "type": "string", "format": "uri" }
+      }
+    },
+    "teamMember": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "title": { "type": "string" },
+        "specialties": { "type": "array", "items": { "type": "string" } },
+        "experience": { "type": "string" },
+        "bio": { "type": "string" },
+        "photoUrl": { "type": "string", "format": "uri" },
+        "instagram": { "type": "string" },
+        "certifications": { "type": "array", "items": { "type": "string" } },
+        "bookable": { "type": "boolean", "default": true }
+      }
+    },
+    "portfolioImage": {
+      "type": "object",
+      "required": ["url"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "alt": { "type": "string" },
+        "category": { "type": "string" },
+        "featured": { "type": "boolean", "default": false }
+      }
+    }
+  }
+}

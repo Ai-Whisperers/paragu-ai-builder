@@ -1,0 +1,63 @@
+{
+  "name": "Depilacion (Hair Removal)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["clinical", "clean", "professional", "trust-focused"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Clinical Clean",
+      "colors": {
+        "primary": "#2c3e50",
+        "secondary": "#3498db",
+        "accent": "#1abc9c",
+        "background": "#f8f9fa",
+        "surface": "#ffffff",
+        "text": "#333333",
+        "textLight": "#7f8c8d",
+        "trust": "#27ae60",
+        "success": "#27ae60",
+        "error": "#e74c3c"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Montserrat', sans-serif",
+    "body": "'Open Sans', sans-serif",
+    "accent": "'Lato', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Montserrat:wght@400;500;600;700", "Open+Sans:wght@300;400;500;600", "Lato:wght@300;400;700"],
+
+  "borderRadius": "sm",
+  "buttonStyle": "rounded-sm",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "4px",
+      "hoverTranslateY": "-2px"
+    },
+    "technologyShowcase": {
+      "showFdaBadge": true,
+      "showSkinTypeCompatibility": true,
+      "showPainlessHighlight": true
+    },
+    "pricingTable": {
+      "areaBasedPricing": true,
+      "showPackageDiscounts": true,
+      "packageTiers": [6, 8, 10]
+    },
+    "consultationCta": {
+      "prominent": true,
+      "freeConsultation": true
+    }
+  }
+}

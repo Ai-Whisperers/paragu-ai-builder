@@ -1,0 +1,125 @@
+{
+  "$schema": "https://design-tokens.org/draft/2024",
+  "name": "Paragu Builder - Base Tokens",
+  "description": "Shared design tokens used across all business type templates",
+
+  "spacing": {
+    "xs": { "value": "4px", "type": "dimension" },
+    "sm": { "value": "8px", "type": "dimension" },
+    "md": { "value": "16px", "type": "dimension" },
+    "lg": { "value": "24px", "type": "dimension" },
+    "xl": { "value": "32px", "type": "dimension" },
+    "2xl": { "value": "48px", "type": "dimension" },
+    "3xl": { "value": "64px", "type": "dimension" },
+    "4xl": { "value": "96px", "type": "dimension" }
+  },
+
+  "sectionPadding": {
+    "desktop": { "value": "80px", "type": "dimension" },
+    "tablet": { "value": "60px", "type": "dimension" },
+    "mobile": { "value": "40px", "type": "dimension" }
+  },
+
+  "breakpoints": {
+    "mobile": { "value": "480px", "type": "dimension" },
+    "tablet": { "value": "768px", "type": "dimension" },
+    "desktop": { "value": "1024px", "type": "dimension" },
+    "wide": { "value": "1440px", "type": "dimension" }
+  },
+
+  "maxContentWidth": { "value": "1200px", "type": "dimension" },
+
+  "borderRadius": {
+    "none": { "value": "0px", "type": "dimension" },
+    "sm": { "value": "4px", "type": "dimension" },
+    "md": { "value": "8px", "type": "dimension" },
+    "lg": { "value": "16px", "type": "dimension" },
+    "full": { "value": "9999px", "type": "dimension" }
+  },
+
+  "shadows": {
+    "card": { "value": "0 2px 8px rgba(0,0,0,0.08)", "type": "shadow" },
+    "cardHover": { "value": "0 8px 24px rgba(0,0,0,0.12)", "type": "shadow" },
+    "button": { "value": "0 4px 12px rgba(0,0,0,0.15)", "type": "shadow" },
+    "nav": { "value": "0 2px 4px rgba(0,0,0,0.06)", "type": "shadow" }
+  },
+
+  "animation": {
+    "duration": {
+      "fast": { "value": "0.2s", "type": "duration" },
+      "default": { "value": "0.3s", "type": "duration" },
+      "slow": { "value": "0.6s", "type": "duration" }
+    },
+    "easing": {
+      "default": { "value": "ease", "type": "cubicBezier" },
+      "easeOut": { "value": "ease-out", "type": "cubicBezier" },
+      "easeIn": { "value": "ease-in", "type": "cubicBezier" }
+    },
+    "scrollFadeUp": {
+      "translateY": { "value": "30px", "type": "dimension" },
+      "stagger": { "value": "0.1s", "type": "duration" }
+    }
+  },
+
+  "typography": {
+    "scale": {
+      "h1": { "value": "3rem", "type": "dimension", "comment": "48px - Hero headlines" },
+      "h2": { "value": "2.25rem", "type": "dimension", "comment": "36px - Section titles" },
+      "h3": { "value": "1.5rem", "type": "dimension", "comment": "24px - Card titles" },
+      "h4": { "value": "1.25rem", "type": "dimension", "comment": "20px - Subtitles" },
+      "body": { "value": "1rem", "type": "dimension", "comment": "16px" },
+      "small": { "value": "0.875rem", "type": "dimension", "comment": "14px" },
+      "caption": { "value": "0.75rem", "type": "dimension", "comment": "12px" }
+    },
+    "lineHeight": {
+      "tight": { "value": "1.2", "type": "number" },
+      "normal": { "value": "1.5", "type": "number" },
+      "relaxed": { "value": "1.75", "type": "number" }
+    }
+  },
+
+  "layout": {
+    "header": {
+      "heightDesktop": { "value": "80px", "type": "dimension" },
+      "heightMobile": { "value": "70px", "type": "dimension" }
+    },
+    "hero": {
+      "heightDesktop": { "value": "70vh", "type": "dimension" },
+      "heightMobile": { "value": "60vh", "type": "dimension" }
+    },
+    "grid": {
+      "desktopColumns": { "value": "3", "type": "number" },
+      "tabletColumns": { "value": "2", "type": "number" },
+      "mobileColumns": { "value": "1", "type": "number" },
+      "gap": { "value": "24px", "type": "dimension" }
+    },
+    "gallery": {
+      "desktopColumns": { "value": "4", "type": "number" },
+      "tabletColumns": { "value": "3", "type": "number" },
+      "mobileColumns": { "value": "2", "type": "number" }
+    }
+  },
+
+  "images": {
+    "hero": { "width": 1920, "height": 1080, "maxSizeKb": 200 },
+    "gallery": { "width": 1200, "height": 1200, "maxSizeKb": 150 },
+    "thumbnail": { "width": 400, "height": 400, "maxSizeKb": 50 },
+    "service": { "width": 800, "height": 600, "maxSizeKb": 100 },
+    "team": { "width": 600, "height": 600, "maxSizeKb": 80 },
+    "format": "webp",
+    "fallbackFormat": "jpeg"
+  },
+
+  "performance": {
+    "lcp": { "value": "2.5s", "type": "duration", "comment": "Largest Contentful Paint target" },
+    "fid": { "value": "100ms", "type": "duration", "comment": "First Input Delay target" },
+    "cls": { "value": "0.1", "type": "number", "comment": "Cumulative Layout Shift target" },
+    "ttfb": { "value": "600ms", "type": "duration", "comment": "Time to First Byte target" }
+  },
+
+  "accessibility": {
+    "minContrastRatio": { "value": "4.5", "type": "number", "comment": "WCAG 2.1 AA" },
+    "minTapTarget": { "value": "44px", "type": "dimension" },
+    "minFontSize": { "value": "16px", "type": "dimension" }
+  }
+}

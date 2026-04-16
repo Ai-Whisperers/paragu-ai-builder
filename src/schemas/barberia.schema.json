@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "barberia",
+  "title": "Barbershop Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "numberOfBarbers": { "type": "integer", "minimum": 1 },
+    "walkInsWelcome": { "type": "boolean", "default": true },
+    "appointmentRequired": { "type": "string", "enum": ["yes", "no", "preferred"] },
+    "individualProfilesNeeded": { "type": "boolean", "default": false }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "services", "portfolio.images"],
+    "priority2": ["team", "hours", "walkInsWelcome"],
+    "priority3": ["contact.instagram", "seo.googleBusinessProfileUrl"]
+  }
+}

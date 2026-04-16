@@ -1,0 +1,69 @@
+{
+  "id": "tatuajes",
+  "nameEs": "Tatuajes/Piercing",
+  "nameEn": "Tattoo/Piercing Studio",
+
+  "tokens": "tatuajes",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "styleGallery", "artistSpotlight", "piercingServices", "infoBlock", "footer"],
+      "requiredSections": ["header", "hero", "styleGallery", "artistSpotlight", "footer"]
+    },
+    "portfolio": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "artists": {
+      "sections": ["header", "artistProfiles", "footer"],
+      "requiredSections": ["header", "artistProfiles", "footer"]
+    },
+    "info": {
+      "sections": ["header", "aftercareGuide", "faq", "consultationForm", "contactBlock", "footer"],
+      "requiredSections": ["header", "faq", "contactBlock", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false, "method": "consultation_form", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": false },
+    "portfolio": { "enabled": true, "minImages": 50, "categories": ["tradicional", "realismo", "blackwork", "japones", "minimal"], "filterByArtist": true, "filterByStyle": true },
+    "beforeAfter": { "enabled": true, "label": "Cover-ups" },
+    "staffProfiles": { "enabled": true, "label": "Artistas", "showStyles": true },
+    "pricingDisplay": { "enabled": false, "showBySize": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": true, "prominent": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "consultationForm": { "enabled": true, "fields": ["name", "phone", "email", "tattooType", "bodyLocation", "approximateSize", "referenceImage", "description", "isFirstTattoo", "howFoundUs"] }
+  },
+
+  "serviceCategories": ["tatuajes_custom", "tatuajes_tradicional", "tatuajes_realismo", "tatuajes_blackwork", "piercing"],
+
+  "targetAudience": {
+    "primary": "Adults 18-45, seeking custom tattoo or piercing",
+    "secondary": "First-timers, Cover-up customers, Collectors"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Tatuajes en {{city}} | Estudio de Tatuaje",
+    "descriptionTemplate": "Tatuajes personalizados en {{city}}. Artistas profesionales, higiene impecable. Agenda tu consulta.",
+    "schemaType": "LocalBusiness",
+    "keywords": ["tatuajes {{city}}", "tattoo {{city}}", "piercing {{city}}", "estudio tatuaje {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Portafolio", "Artistas", "Info", "Contacto"],
+    "cta": { "text": "Consulta", "action": "consultationForm" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Arte en Tu Piel",
+    "subheadlineTemplate": "Tatuajes personalizados, higiene impecable",
+    "ctaPrimary": { "text": "Agendar Consulta", "action": "consultationForm" },
+    "ctaSecondary": { "text": "Ver Portafolio", "action": "scrollTo:portfolio" }
+  }
+}

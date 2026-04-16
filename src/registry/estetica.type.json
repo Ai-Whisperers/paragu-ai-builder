@@ -1,0 +1,73 @@
+{
+  "id": "estetica",
+  "nameEs": "Estetica/Facial",
+  "nameEn": "Aesthetic Clinic",
+
+  "tokens": "estetica",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "beforeAfterPreview", "treatmentCategories", "team", "trustSignals", "contactBlock", "footer"],
+      "requiredSections": ["header", "hero", "treatmentCategories", "team", "footer"]
+    },
+    "treatments": {
+      "sections": ["header", "treatmentMenu", "footer"],
+      "requiredSections": ["header", "treatmentMenu", "footer"]
+    },
+    "results": {
+      "sections": ["header", "beforeAfterGallery", "footer"],
+      "requiredSections": ["header", "beforeAfterGallery", "footer"]
+    },
+    "team": {
+      "sections": ["header", "practitionerProfiles", "footer"],
+      "requiredSections": ["header", "practitionerProfiles", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false, "method": "consultation_form", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "label": "Tratamientos", "showPrices": "from", "showDescription": true },
+    "portfolio": { "enabled": true, "label": "Resultados" },
+    "beforeAfter": { "enabled": true, "prominent": true, "sliderStyle": true, "minPairs": 20 },
+    "staffProfiles": { "enabled": true, "label": "Equipo Medico", "showCredentials": true, "showTreatmentCount": true },
+    "pricingDisplay": { "enabled": true, "showFromPrice": true, "note": "Precios varian segun evaluacion. Primera consulta sin cargo." },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "freeConsultation": { "enabled": true }
+  },
+
+  "serviceCategories": ["faciales", "inyectables", "corporales", "laser"],
+
+  "targetAudience": {
+    "primary": "Women 30-60, seeking professional skincare/anti-aging",
+    "secondary": "Younger (acne), Men, Post-procedure"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Estetica en {{city}} | Tratamientos Avanzados",
+    "descriptionTemplate": "Clinica estetica en {{city}}. Tratamientos faciales, corporales y mas. Consulta sin cargo.",
+    "schemaType": "MedicalBusiness",
+    "keywords": ["estetica {{city}}", "tratamiento facial {{city}}", "botox {{city}}", "clinica estetica {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Tratamientos", "Resultados", "Equipo", "Contacto"],
+    "cta": { "text": "Consulta", "action": "consultationForm" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Belleza y Ciencia",
+    "subheadlineTemplate": "Tratamientos avanzados con tecnologia de punta y resultados reales",
+    "ctaPrimary": { "text": "Reservar Consulta", "action": "consultationForm" },
+    "ctaSecondary": { "text": "Ver Resultados", "action": "scrollTo:results" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tatuajes",
+  "title": "Tattoo/Piercing Studio Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "artists": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "photo": { "type": "string", "format": "uri" },
+          "styles": { "type": "array", "items": { "type": "string" } },
+          "yearsExperience": { "type": "integer" },
+          "instagram": { "type": "string" }
+        }
+      }
+    },
+    "tattooStyles": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["tradicional", "realismo", "blackwork", "japones", "minimal", "geometric", "watercolor", "lettering", "cover_up"] }
+    },
+    "piercingServices": { "type": "boolean", "default": false },
+    "consultationRequired": { "type": "boolean", "default": true },
+    "pricingBySize": {
+      "type": "object",
+      "properties": {
+        "small": { "type": "integer" },
+        "medium": { "type": "integer" },
+        "large": { "type": "integer" }
+      }
+    },
+    "healthCertifications": { "type": "array", "items": { "type": "string" } }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "artists", "portfolio.images"],
+    "priority2": ["tattooStyles", "piercingServices", "healthCertifications"],
+    "priority3": ["pricingBySize", "seo.googleBusinessProfileUrl"]
+  }
+}

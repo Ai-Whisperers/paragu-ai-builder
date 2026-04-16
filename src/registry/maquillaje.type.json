@@ -1,0 +1,73 @@
+{
+  "id": "maquillaje",
+  "nameEs": "Maquillaje",
+  "nameEn": "Makeup Artist",
+
+  "tokens": "maquillaje",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "portfolioPreview", "servicesOverview", "aboutArtist", "contactBlock", "footer"],
+      "requiredSections": ["header", "hero", "portfolioPreview", "servicesOverview", "footer"]
+    },
+    "portfolio": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "about": {
+      "sections": ["header", "aboutArtist", "footer"],
+      "requiredSections": ["header", "aboutArtist", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false, "method": "inquiry_form", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showInclusions": true },
+    "portfolio": { "enabled": true, "minImages": 30, "categories": ["bridal", "eventos", "editorial", "lecciones"], "beforeAfter": true },
+    "beforeAfter": { "enabled": true },
+    "staffProfiles": { "enabled": true, "label": "Artista", "singleArtist": true },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": false, "useServiceArea": true },
+    "trialService": { "enabled": true, "label": "Prueba incluida" }
+  },
+
+  "serviceCategories": ["novia", "eventos", "editorial", "lecciones"],
+
+  "targetAudience": {
+    "primary": "Women 22-40, special events (weddings, parties)",
+    "secondary": "Editorial/Commercial, Bridal parties"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Maquillaje Profesional en {{city}}",
+    "descriptionTemplate": "Maquillaje profesional en {{city}}. Novias, eventos y editorial. Reserva tu fecha.",
+    "schemaType": "BeautySalon",
+    "keywords": ["maquillaje {{city}}", "maquillaje novia {{city}}", "makeup artist {{city}}", "maquillaje profesional {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Portafolio", "Servicios", "Sobre Mi", "Contacto"],
+    "cta": { "text": "Contacto", "action": "inquiryForm" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "Resalta Tu Belleza Natural",
+    "subheadlineTemplate": "Maquillaje profesional para tu momento especial",
+    "ctaPrimary": { "text": "Reservar Fecha", "action": "inquiryForm" },
+    "ctaSecondary": { "text": "Ver Portafolio", "action": "scrollTo:portfolio" }
+  }
+}
