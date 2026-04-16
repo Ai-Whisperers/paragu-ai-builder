@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "diseno_grafico",
+  "title": "Graphic Design Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "isIndividualDesigner": { "type": "boolean", "default": true },
+    "designerName": { "type": "string" },
+    "serviceArea": { "type": "string", "description": "Geographic area served or 'Remote/Digital'" },
+    "yearsInBusiness": { "type": "integer" },
+    "specialties": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["book_covers", "editorial", "branding", "mockups", "social_media", "illustration"] }
+    },
+    "portfolioCategories": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["portadas", "premade", "mockups", "branding", "editorial"] }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "price": { "type": "string" },
+          "imageUrl": { "type": "string" },
+          "category": { "type": "string" },
+          "available": { "type": "boolean", "default": true }
+        },
+        "required": ["name"]
+      }
+    },
+    "acceptsCommissions": { "type": "boolean", "default": true },
+    "turnaroundDays": { "type": "integer", "description": "Average turnaround time in days" },
+    "bookingStatus": { "type": "string", "enum": ["open", "waitlist", "closed"], "default": "open" }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.whatsapp", "contact.email", "products", "portfolio.images"],
+    "priority2": ["specialties", "yearsInBusiness", "turnaroundDays", "portfolioCategories"],
+    "priority3": ["contact.instagram", "acceptsCommissions", "bookingStatus"]
+  }
+}

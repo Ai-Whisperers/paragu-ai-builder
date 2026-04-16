@@ -22,6 +22,7 @@ export type SectionType =
   | 'header'
   | 'hero'
   | 'services'
+  | 'productCatalog'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -60,6 +61,14 @@ export interface BusinessData {
     duration?: number
     imageUrl?: string
     category?: string
+  }>
+  products?: Array<{
+    name: string
+    description?: string
+    price?: string
+    imageUrl?: string
+    category?: string
+    available?: boolean
   }>
   team?: Array<{
     name: string
@@ -153,6 +162,13 @@ interface ContentTemplate {
   galleryPage?: { title: string; subtitle?: string }
   contactPage?: { title: string }
   faq?: Array<{ q: string; a: string }>
+  productCatalogPage?: {
+    title: string
+    subtitle?: string
+    orderButtonText?: string
+    orderMessageTemplate?: string
+    categories?: string[]
+  }
   ctaBanner?: { title: string; buttonText: string }
   footer: {
     quickLinks: string[]
@@ -175,6 +191,7 @@ const SECTION_MAP: Record<string, SectionType> = {
   teamProfiles: 'team',
   testimonial: 'testimonials',
   testimonials: 'testimonials',
+  productCatalog: 'productCatalog',
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
@@ -350,6 +367,24 @@ function buildSectionData(
         hours: business.hours,
       }
 
+    case 'productCatalog': {
+      const products = business.products || []
+      if (products.length === 0) return null
+      const catalogContent = content.productCatalogPage
+      return {
+        title: catalogContent?.title || 'Catalogo',
+        subtitle: catalogContent?.subtitle,
+        products,
+        categories: catalogContent?.categories,
+        showPrices: registry.features?.pricingDisplay?.enabled ?? true,
+        whatsappPhone: business.whatsapp,
+        orderButtonText: catalogContent?.orderButtonText || 'Consultar por WhatsApp',
+        orderMessageTemplate: catalogContent?.orderMessageTemplate ||
+          'Hola! Me interesa: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
+        emailAddress: business.email,
+      }
+    }
+
     case 'faq':
       if (!content.faq || content.faq.length === 0) return null
       return {
@@ -406,6 +441,7 @@ function generatePlaceholderGallery(
     maquillaje: { colors: ['#e91e63', '#9b59b6', '#f39c12'], categories: ['Social', 'Novias', 'Artistico'] },
     depilacion: { colors: ['#3498db', '#1abc9c', '#e8d5f5'], categories: ['Laser', 'Cera', 'Resultados'] },
     pestanas: { colors: ['#c4788b', '#d4a574', '#1a1a1a'], categories: ['Clasicas', 'Volumen', 'Cejas'] },
+    diseno_grafico: { colors: ['#c4788b', '#d4af37', '#e8b4c8'], categories: ['Portadas', 'Premade', 'Mockups', 'Branding'] },
   }
 
   const theme = PLACEHOLDER_THEMES[businessType] || PLACEHOLDER_THEMES.peluqueria

@@ -14,6 +14,7 @@ export const BUSINESS_TYPES = [
   'maquillaje',
   'depilacion',
   'pestanas',
+  'diseno_grafico',
 ] as const
 
 export type BusinessType = (typeof BUSINESS_TYPES)[number]

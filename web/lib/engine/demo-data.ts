@@ -100,6 +100,42 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
       { quote: 'El mejor spa de Asuncion sin duda. Servicio impecable.', author: 'Diana R.', rating: 5 },
     ],
   },
+
+  'dayah-litworks': {
+    name: 'Dayah LitWorks',
+    slug: 'dayah-litworks',
+    type: 'diseno_grafico',
+    tagline: 'Donde la fantasia se convierte en realidad',
+    city: 'Asuncion',
+    email: 'dayah@litworks.com',
+    whatsapp: '+595981000000',
+    instagram: '@dayah.litworks',
+    services: [
+      { name: 'Portada Personalizada - Ebook', price: 'Consultar', description: 'Diseno exclusivo para tu ebook, incluye revisiones', category: 'Portadas Personalizadas' },
+      { name: 'Portada Personalizada - Tapa Blanda', price: 'Consultar', description: 'Portada completa (frente, lomo y contra) para impresion', category: 'Portadas Personalizadas' },
+      { name: 'Mockup 3D Estatico', price: 'Consultar', description: 'Imagen realista de tu libro en 3D', category: 'Mockups 3D' },
+      { name: 'Video Mockup 3D', price: 'Consultar', description: 'Animacion profesional de tu portada', category: 'Mockups 3D' },
+    ],
+    products: [
+      { name: 'Susurros del Bosque', price: '$35', description: 'Portada premade - Fantasia/Romance', category: 'Fantasia', imageUrl: '', available: true },
+      { name: 'Corazon de Cenizas', price: '$35', description: 'Portada premade - Romance Oscuro', category: 'Romance', imageUrl: '', available: true },
+      { name: 'El Ultimo Codigo', price: '$30', description: 'Portada premade - Thriller/Suspenso', category: 'Thriller', imageUrl: '', available: true },
+      { name: 'Galaxia Interior', price: '$35', description: 'Portada premade - Ciencia Ficcion', category: 'Ciencia Ficcion', imageUrl: '', available: true },
+      { name: 'Sombras en el Espejo', price: '$30', description: 'Portada premade - Terror/Horror', category: 'Terror', imageUrl: '', available: true },
+      { name: 'Alas de Cristal', price: '$35', description: 'Portada premade - Fantasia Juvenil', category: 'Fantasia', imageUrl: '', available: true },
+      { name: 'Renacer', price: '$30', description: 'Portada premade - No Ficcion/Autoayuda', category: 'No Ficcion', imageUrl: '', available: true },
+      { name: 'Laberinto de Rosas', price: '$35', description: 'Portada premade - Romance Historico', category: 'Romance', imageUrl: '', available: true },
+      { name: 'Noche Eterna', price: '$30', description: 'Portada premade - Fantasia Oscura', category: 'Fantasia', imageUrl: '', available: true },
+      { name: 'El Despertar', price: '$35', description: 'Portada premade - Ciencia Ficcion', category: 'Ciencia Ficcion', imageUrl: '', available: true },
+      { name: 'Fuego y Destino', price: '$35', description: 'Portada premade - Fantasia Epica', category: 'Fantasia', imageUrl: '', available: true },
+      { name: 'Verdades Ocultas', price: '$30', description: 'Portada premade - Thriller Psicologico', category: 'Thriller', imageUrl: '', available: true },
+    ],
+    testimonials: [
+      { quote: 'Mi portada quedo increible! Dayah entendio perfectamente la esencia de mi libro.', author: 'Maria G.', rating: 5 },
+      { quote: 'Profesional, creativa y super rapida. Mi portada premade fue amor a primera vista.', author: 'Carlos R.', rating: 5 },
+      { quote: 'El mockup 3D le dio vida a mi libro antes de publicarlo. Totalmente recomendada.', author: 'Ana L.', rating: 5 },
+    ],
+  },
 }
 
 /**
