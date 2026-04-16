@@ -1,3 +1,4 @@
+import { Instagram, Facebook, MessageCircle } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 
 export interface FooterSectionProps {
@@ -89,16 +90,16 @@ export function FooterSection({
               <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider opacity-60">
                 Redes Sociales
               </h4>
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 {instagram && (
                   <a
                     href={`https://instagram.com/${instagram.replace('@', '')}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="opacity-80 transition-opacity hover:opacity-100"
+                    className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-white/20 hover:scale-110"
                     aria-label="Instagram"
                   >
-                    Instagram
+                    <Instagram size={18} />
                   </a>
                 )}
                 {facebook && (
@@ -106,10 +107,10 @@ export function FooterSection({
                     href={`https://facebook.com/${facebook}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="opacity-80 transition-opacity hover:opacity-100"
+                    className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-white/20 hover:scale-110"
                     aria-label="Facebook"
                   >
-                    Facebook
+                    <Facebook size={18} />
                   </a>
                 )}
                 {whatsapp && (
@@ -117,10 +118,10 @@ export function FooterSection({
                     href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="opacity-80 transition-opacity hover:opacity-100"
+                    className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-white/20 hover:scale-110"
                     aria-label="WhatsApp"
                   >
-                    WhatsApp
+                    <MessageCircle size={18} />
                   </a>
                 )}
               </div>

@@ -1,3 +1,7 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+
 export interface WhatsAppFloatProps {
   phone: string
   message?: string
@@ -7,15 +11,27 @@ export function WhatsAppFloat({
   phone,
   message = 'Hola! Quisiera mas informacion',
 }: WhatsAppFloatProps) {
+  const [visible, setVisible] = useState(false)
   const cleanPhone = phone.replace(/\D/g, '')
   const encodedMessage = encodeURIComponent(message)
+
+  // Delay entrance for smooth animation after page load
+  useEffect(() => {
+    const timer = setTimeout(() => setVisible(true), 1500)
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
     <a
       href={`https://wa.me/${cleanPhone}?text=${encodedMessage}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110"
+      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all duration-normal hover:scale-110 hover:shadow-xl"
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? 'scale(1)' : 'scale(0.3)',
+        transition: 'opacity 0.4s ease-out, transform 0.4s ease-out, box-shadow 0.3s ease',
+      }}
       aria-label="Contactar por WhatsApp"
     >
       <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current">
