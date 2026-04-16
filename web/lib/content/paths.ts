@@ -1,23 +1,25 @@
 /**
  * Path resolution for bundled JSON content (schemas, tokens, registry, content).
  *
- * The JSON lives in `<repo>/src/*`. This module resolves those paths
- * relative to this file rather than `process.cwd()`, so loads succeed
- * regardless of where `next` / `tsx` is invoked from.
+ * The JSON lives in `<repo>/src/*`. Next.js always invokes the app with
+ * `process.cwd()` equal to the `web/` directory (both `next dev` and
+ * `next build` chdir there), so we anchor there and walk up one level to
+ * reach the repo root — this matches the original loader's behavior and
+ * survives Turbopack bundling, where `__dirname` would point into the
+ * emitted chunk rather than the source tree.
+ *
+ * `PARAGU_REPO_ROOT` env overrides the anchor for unusual invocations
+ * (e.g. a `tsx` script run from the repo root or a test harness).
  */
 
 import { resolve } from 'path'
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
 
-// Handle both CJS (__dirname) and ESM (import.meta.url) runtimes.
-const here =
-  typeof __dirname !== 'undefined'
-    ? __dirname
-    : dirname(fileURLToPath(import.meta.url))
+function computeRepoRoot(): string {
+  if (process.env.PARAGU_REPO_ROOT) return process.env.PARAGU_REPO_ROOT
+  return resolve(process.cwd(), '..')
+}
 
-// web/lib/content → repo root
-const REPO_ROOT = resolve(here, '..', '..', '..')
+const REPO_ROOT = computeRepoRoot()
 
 export const CONTENT_ROOTS = {
   schemas: resolve(REPO_ROOT, 'src/schemas'),

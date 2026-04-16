@@ -40,10 +40,18 @@ export default defineConfig(() => ({
       exclude: [
         'node_modules/**',
         '.next/**',
-        'tests/__fixtures__/**',
-        'tests/__mocks__/**',
+        'tests/**',
         '**/*.d.ts',
         '**/*.config.*',
+        // Covered by Playwright e2e, not unit tests.
+        'app/**',
+        'components/**',
+        'middleware.ts',
+        'scripts/**',
+        // Environment + infra wrappers — exercised implicitly by importers.
+        'lib/env.ts',
+        'lib/logger.ts',
+        'lib/supabase/**',
       ],
       thresholds: {
         lines: 50,
