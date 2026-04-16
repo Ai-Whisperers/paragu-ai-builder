@@ -1,0 +1,68 @@
+{
+  "id": "unas",
+  "nameEs": "Unas",
+  "nameEn": "Nail Salon",
+
+  "tokens": "unas",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "galleryPreview", "team", "contactBlock", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "galleryPreview", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "fresha", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": true, "tabbed": true },
+    "portfolio": { "enabled": true, "minImages": 30, "categories": ["natural", "gel", "acrilico", "nail_art", "bridal"] },
+    "beforeAfter": { "enabled": true },
+    "staffProfiles": { "enabled": true, "label": "Nail Artists" },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["manicure", "pedicure", "nail_art", "addons"],
+
+  "targetAudience": {
+    "primary": "Women 20-45, beauty-conscious, nail art enthusiasts",
+    "secondary": "Brides, Special events"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Unas en {{city}} | Manicure, Pedicure y Nail Art",
+    "descriptionTemplate": "Unas perfectas en {{city}}. Diseno profesional, productos de calidad. Reserva tu cita.",
+    "schemaType": "BeautySalon",
+    "keywords": ["unas {{city}}", "manicure {{city}}", "nail art {{city}}", "pedicure {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "Unas Perfectas en {{city}}",
+    "subheadlineTemplate": "Diseno profesional, productos de calidad, higiene garantizada",
+    "ctaPrimary": { "text": "Reservar Cita", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Galeria", "action": "scrollTo:gallery" }
+  }
+}

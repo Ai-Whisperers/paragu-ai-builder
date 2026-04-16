@@ -1,0 +1,62 @@
+{
+  "name": "Tatuajes/Piercing (Tattoo Studio)",
+  "extends": "base",
+  "theme": "dark",
+  "mood": ["dark", "artistic", "edgy", "portfolio-driven"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Dark Studio",
+      "colors": {
+        "primary": "#0a0a0a",
+        "secondary": "#ffffff",
+        "accent": "#c9a227",
+        "background": "#111111",
+        "surface": "#1a1a1a",
+        "text": "#e0e0e0",
+        "textMuted": "#888888",
+        "highlight": "#ff4444",
+        "success": "#00ff88",
+        "error": "#ff4444"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Oswald', sans-serif",
+    "body": "'Roboto', sans-serif",
+    "accent": "'Bebas Neue', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "uppercase"
+  },
+
+  "googleFonts": ["Oswald:wght@400;500;700", "Roboto:wght@300;400;500", "Bebas+Neue"],
+
+  "borderRadius": "none",
+  "buttonStyle": "sharp",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "0px",
+      "hoverTranslateY": "-2px",
+      "textTransform": "uppercase"
+    },
+    "gallery": {
+      "layout": "masonry",
+      "desktopColumns": 4,
+      "tabletColumns": 3,
+      "mobileColumns": 2,
+      "filterByStyle": true,
+      "filterByArtist": true,
+      "modalFullScreen": true
+    },
+    "artistCard": {
+      "hasPortfolioTab": true
+    }
+  }
+}

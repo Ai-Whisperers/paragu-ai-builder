@@ -1,0 +1,137 @@
+{
+  "name": "Paragu AI Builder - Business Type Registry",
+  "version": "1.0.0",
+  "description": "Master registry of all supported business types for website generation",
+
+  "types": {
+    "peluqueria": {
+      "id": "peluqueria",
+      "nameEs": "Peluqueria",
+      "nameEn": "Hair Salon",
+      "icon": "scissors",
+      "tokens": "peluqueria",
+      "content": "peluqueria",
+      "schema": "peluqueria",
+      "leadCount": 2393,
+      "noWebsitePercent": 81,
+      "priorityALeads": 1653
+    },
+    "gimnasio": {
+      "id": "gimnasio",
+      "nameEs": "Gimnasio/Fitness",
+      "nameEn": "Gym/Fitness Center",
+      "icon": "dumbbell",
+      "tokens": "gimnasio",
+      "content": "gimnasio",
+      "schema": "gimnasio",
+      "leadCount": 1087,
+      "noWebsitePercent": 72,
+      "priorityALeads": 761
+    },
+    "spa": {
+      "id": "spa",
+      "nameEs": "Spa/Wellness",
+      "nameEn": "Spa/Wellness",
+      "icon": "flower",
+      "tokens": "spa",
+      "content": "spa",
+      "schema": "spa",
+      "leadCount": 927,
+      "noWebsitePercent": 76,
+      "priorityALeads": 649
+    },
+    "unas": {
+      "id": "unas",
+      "nameEs": "Unas",
+      "nameEn": "Nail Salon",
+      "icon": "hand",
+      "tokens": "unas",
+      "content": "unas",
+      "schema": "unas",
+      "leadCount": 488,
+      "noWebsitePercent": 75,
+      "priorityALeads": 342
+    },
+    "tatuajes": {
+      "id": "tatuajes",
+      "nameEs": "Tatuajes/Piercing",
+      "nameEn": "Tattoo/Piercing Studio",
+      "icon": "pen-tool",
+      "tokens": "tatuajes",
+      "content": "tatuajes",
+      "schema": "tatuajes",
+      "leadCount": 272,
+      "noWebsitePercent": 70,
+      "priorityALeads": 190
+    },
+    "barberia": {
+      "id": "barberia",
+      "nameEs": "Barberia",
+      "nameEn": "Barbershop",
+      "icon": "user",
+      "tokens": "barberia",
+      "content": "barberia",
+      "schema": "barberia",
+      "leadCount": 39,
+      "noWebsitePercent": 77,
+      "priorityALeads": 27
+    },
+    "estetica": {
+      "id": "estetica",
+      "nameEs": "Estetica/Facial",
+      "nameEn": "Aesthetic Clinic",
+      "icon": "sparkles",
+      "tokens": "estetica",
+      "content": "estetica",
+      "schema": "estetica",
+      "leadCount": 137,
+      "noWebsitePercent": 77,
+      "priorityALeads": 96
+    },
+    "maquillaje": {
+      "id": "maquillaje",
+      "nameEs": "Maquillaje",
+      "nameEn": "Makeup Artist",
+      "icon": "palette",
+      "tokens": "maquillaje",
+      "content": "maquillaje",
+      "schema": "maquillaje",
+      "leadCount": 130,
+      "noWebsitePercent": 72,
+      "priorityALeads": 91
+    },
+    "depilacion": {
+      "id": "depilacion",
+      "nameEs": "Depilacion",
+      "nameEn": "Hair Removal Clinic",
+      "icon": "zap",
+      "tokens": "depilacion",
+      "content": "depilacion",
+      "schema": "depilacion",
+      "leadCount": 9,
+      "noWebsitePercent": 78,
+      "priorityALeads": 7
+    }
+  },
+
+  "universalSections": [
+    "header",
+    "hero",
+    "services",
+    "team",
+    "contact",
+    "footer",
+    "whatsappFloat"
+  ],
+
+  "universalFeatures": [
+    "mobileResponsive",
+    "sslCertificate",
+    "contactForm",
+    "googleMapsEmbed",
+    "socialMediaLinks",
+    "whatsappIntegration",
+    "seoMetaTags",
+    "schemaOrgMarkup"
+  ]
+}

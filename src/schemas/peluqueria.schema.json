@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "peluqueria",
+  "title": "Hair Salon Business Input Schema",
+  "description": "Additional fields required from hair salons beyond the base schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "numberOfStylists": { "type": "integer", "minimum": 1 },
+    "serviceCategories": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["cortes", "coloracion", "tratamientos", "peinados", "extensiones"] }
+    },
+    "portfolioTypes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["cortes", "color", "mechas", "peinados"] }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "location.city", "services", "portfolio.images"],
+    "priority2": ["team", "branding.logoUrl", "hours", "contact.instagram"],
+    "priority3": ["seo.googleBusinessProfileUrl", "branding.referenceWebsites", "faq"]
+  }
+}

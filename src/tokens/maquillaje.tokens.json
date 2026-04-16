@@ -1,0 +1,58 @@
+{
+  "name": "Maquillaje (Makeup Artist)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["editorial", "glamorous", "sophisticated", "fashion"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Editorial Glam",
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#d4af37",
+        "accent": "#ff9eb5",
+        "background": "#faf9f7",
+        "surface": "#ffffff",
+        "text": "#333333",
+        "textLight": "#666666",
+        "glam": "#c0c0c0",
+        "success": "#4a7c59",
+        "error": "#c0392b"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Montserrat', sans-serif",
+    "accent": "'Cormorant Garamond', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "italic",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Playfair+Display:ital,wght@0,400;0,700;1,400", "Montserrat:wght@300;400;500", "Cormorant+Garamond:wght@400;500;600"],
+
+  "borderRadius": "sm",
+  "buttonStyle": "elegant",
+
+  "components": {
+    "button": {
+      "padding": "12px 28px",
+      "borderRadius": "4px",
+      "hoverTranslateY": "-2px"
+    },
+    "gallery": {
+      "layout": "masonry",
+      "desktopColumns": 3,
+      "tabletColumns": 2,
+      "mobileColumns": 1,
+      "largeImagery": true,
+      "beforeAfter": true,
+      "categories": ["bridal", "editorial", "special_event", "lessons"]
+    }
+  }
+}

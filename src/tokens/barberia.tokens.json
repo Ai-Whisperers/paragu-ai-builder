@@ -1,0 +1,61 @@
+{
+  "name": "Barberia (Barbershop)",
+  "extends": "base",
+  "theme": "dark",
+  "mood": ["classic", "masculine", "sharp", "grooming"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Classic Sharp",
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#c9a227",
+        "accent": "#ffffff",
+        "background": "#0d0d0d",
+        "surface": "#1f1f1f",
+        "text": "#ffffff",
+        "textMuted": "#aaaaaa",
+        "barberPole": "#bf0a30",
+        "success": "#27ae60",
+        "error": "#e74c3c"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Oswald', sans-serif",
+    "body": "'Montserrat', sans-serif",
+    "accent": "'Playfair Display', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "uppercase"
+  },
+
+  "googleFonts": ["Oswald:wght@400;500;700", "Montserrat:wght@300;400;500;600", "Playfair+Display:wght@400;700"],
+
+  "borderRadius": "none",
+  "buttonStyle": "sharp",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "0px",
+      "hoverTranslateY": "-2px",
+      "textTransform": "uppercase"
+    },
+    "serviceMenu": {
+      "style": "traditional-list",
+      "showDuration": true,
+      "showPrice": true,
+      "walkInBadge": true
+    },
+    "gallery": {
+      "layout": "grid",
+      "desktopColumns": 3,
+      "beforeAfter": true
+    }
+  }
+}

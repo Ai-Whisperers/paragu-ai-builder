@@ -1,0 +1,70 @@
+{
+  "id": "depilacion",
+  "nameEs": "Depilacion",
+  "nameEn": "Hair Removal Clinic",
+
+  "tokens": "depilacion",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "treatmentAreas", "packages", "technology", "trustSignals", "contactBlock", "footer"],
+      "requiredSections": ["header", "hero", "treatmentAreas", "contactBlock", "footer"]
+    },
+    "treatments": {
+      "sections": ["header", "areaPricingTable", "packageTiers", "footer"],
+      "requiredSections": ["header", "areaPricingTable", "footer"]
+    },
+    "technology": {
+      "sections": ["header", "technologyShowcase", "faq", "footer"],
+      "requiredSections": ["header", "technologyShowcase", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false, "method": "consultation_form", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "label": "Tratamientos", "showPrices": true, "areaBasedPricing": true },
+    "portfolio": { "enabled": false },
+    "beforeAfter": { "enabled": false, "optional": true },
+    "staffProfiles": { "enabled": false, "optional": true },
+    "pricingDisplay": { "enabled": true, "showPerSession": true, "showPackageDiscounts": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": true, "tiers": [6, 8, 10], "discounts": [20, 30, 40] },
+    "aftercareInfo": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "freeConsultation": { "enabled": true, "prominent": true },
+    "technologyShowcase": { "enabled": true, "showFdaBadge": true, "showSkinTypeInfo": true }
+  },
+
+  "serviceCategories": ["laser", "cera", "electrolisis", "paquetes"],
+
+  "targetAudience": {
+    "primary": "Women 20-45, seeking permanent hair reduction",
+    "secondary": "Men, PCOS transformations"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Depilacion Laser en {{city}} | Resultados Permanentes",
+    "descriptionTemplate": "Depilacion laser definitiva en {{city}}. Tecnologia avanzada, resultados permanentes. Consulta gratis.",
+    "schemaType": "MedicalBusiness",
+    "keywords": ["depilacion laser {{city}}", "depilacion definitiva {{city}}", "laser hair removal {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Tratamientos", "Tecnologia", "Resultados", "Contacto"],
+    "cta": { "text": "Consulta Gratis", "action": "consultationForm" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Depilacion Laser Definitiva",
+    "subheadlineTemplate": "Tecnologia de ultima generacion, resultados permanentes",
+    "ctaPrimary": { "text": "Consulta Sin Cargo", "action": "consultationForm" },
+    "ctaSecondary": { "text": "Ver Tratamientos", "action": "scrollTo:treatments" }
+  }
+}

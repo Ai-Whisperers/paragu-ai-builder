@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "spa",
+  "title": "Spa/Wellness Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "includes": { "type": "array", "items": { "type": "string" } },
+          "price": { "type": "integer" },
+          "savings": { "type": "integer" }
+        }
+      }
+    },
+    "giftVouchersAvailable": { "type": "boolean", "default": false },
+    "numberOfTreatmentRooms": { "type": "integer" },
+    "numberOfTherapists": { "type": "integer" },
+    "amenities": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["sauna", "steam_room", "jacuzzi", "pool", "relaxation_area"] }
+    },
+    "atmosphereDescription": { "type": "string" }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "services", "packages"],
+    "priority2": ["team", "amenities", "hours", "giftVouchersAvailable"],
+    "priority3": ["atmosphereDescription", "seo.googleBusinessProfileUrl"]
+  }
+}

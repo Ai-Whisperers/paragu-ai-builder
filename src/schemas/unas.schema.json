@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "unas",
+  "title": "Nail Salon Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "numberOfTechnicians": { "type": "integer", "minimum": 1 },
+    "nailArtStyles": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["natural", "gel", "acrilico", "shellac", "nail_art", "chrome", "3d", "french", "bridal"] }
+    },
+    "brandsUsed": { "type": "array", "items": { "type": "string" } },
+    "specialtiesPerTechnician": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "services", "portfolio.images"],
+    "priority2": ["team", "nailArtStyles", "hours", "contact.instagram"],
+    "priority3": ["brandsUsed", "seo.googleBusinessProfileUrl"]
+  }
+}

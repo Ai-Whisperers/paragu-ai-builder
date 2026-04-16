@@ -1,0 +1,61 @@
+{
+  "name": "Unas (Nail Salon)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["chic", "trendy", "fashion-forward", "gallery-like"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Chic Minimal",
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#e8c4c4",
+        "accent": "#d4af37",
+        "background": "#fafafa",
+        "surface": "#ffffff",
+        "text": "#333333",
+        "textLight": "#777777",
+        "highlight": "#ff9eb5",
+        "success": "#4a7c59",
+        "error": "#c0392b"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Montserrat', sans-serif",
+    "accent": "'Cormorant Garamond', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Playfair+Display:wght@400;700", "Montserrat:wght@300;400;500", "Cormorant+Garamond:wght@400;500"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-sm",
+
+  "components": {
+    "button": {
+      "padding": "12px 24px",
+      "borderRadius": "6px",
+      "hoverTranslateY": "-2px"
+    },
+    "gallery": {
+      "layout": "masonry",
+      "desktopColumns": 4,
+      "tabletColumns": 3,
+      "mobileColumns": 2,
+      "imageRatio": "1:1",
+      "hoverEffect": "zoom"
+    },
+    "serviceCard": {
+      "borderRadius": "8px",
+      "imageRatio": "1:1"
+    }
+  }
+}

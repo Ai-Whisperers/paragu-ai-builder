@@ -1,0 +1,68 @@
+{
+  "id": "maquillaje",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "Resalta Tu Belleza Natural",
+    "subheadline": "Maquillaje profesional para tu momento especial",
+    "ctaPrimary": "Reservar Fecha",
+    "ctaSecondary": "Ver Portafolio"
+  },
+
+  "servicesPage": {
+    "title": "Servicios y Precios",
+    "categories": [
+      {
+        "key": "novia",
+        "title": "Maquillaje Novia",
+        "defaultServices": [
+          { "name": "Maquillaje de Novia", "price": null, "description": "Dia de tu boda, prueba incluida, kit de retoques" },
+          { "name": "Paquete Novia + Mama", "price": null, "description": "Novia y madres" },
+          { "name": "Bridal Party (por persona)", "price": null, "description": "Hasta 5 personas, looks coordinados" }
+        ]
+      },
+      {
+        "key": "eventos",
+        "title": "Eventos Especiales",
+        "defaultServices": [
+          { "name": "Maquillaje Evento", "price": null, "description": "Fiesta, graduacion, photoshoot" },
+          { "name": "Maquillaje de Fiesta", "price": null, "description": "Glam look, 2 horas" }
+        ]
+      },
+      {
+        "key": "editorial",
+        "title": "Editorial/Comercial",
+        "note": "Precios variables segun proyecto. Consultar."
+      },
+      {
+        "key": "lecciones",
+        "title": "Clases de Maquillaje",
+        "defaultServices": [
+          { "name": "Leccion Personal", "price": null, "description": "1 hora personalizada" },
+          { "name": "Maquillaje Basico", "price": null, "description": "Tecnicas esenciales" }
+        ]
+      }
+    ]
+  },
+
+  "portfolioPage": {
+    "title": "Portafolio",
+    "categories": ["Novia", "Eventos", "Editorial", "Lecciones"]
+  },
+
+  "aboutPage": {
+    "title": "Sobre Mi",
+    "template": "{{yearsExperience}} anos de experiencia transformando miradas. Especialista en {{specialties}}."
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Portafolio", "Servicios", "Sobre Mi", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera reservar maquillaje en {{businessName}}",
+    "bridalMessage": "Hola! Quisiera consultar sobre maquillaje de novia con {{businessName}}"
+  }
+}

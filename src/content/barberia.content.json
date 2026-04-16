@@ -1,0 +1,69 @@
+{
+  "id": "barberia",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - El Arte del Corte",
+    "subheadline": "Tradicion y maestria en cada detalle",
+    "ctaPrimary": "Reservar Cita",
+    "ctaSecondary": "Walk-In"
+  },
+
+  "servicesPage": {
+    "title": "Servicios",
+    "categories": [
+      {
+        "key": "cortes",
+        "title": "Cortes",
+        "defaultServices": [
+          { "name": "Corte Clasico", "price": null, "duration": 30, "description": "Tijera y peine, estilo terminado" },
+          { "name": "Corte Fade", "price": null, "duration": 35, "description": "Skin fade, lineas de diseno" },
+          { "name": "Barberia Completa", "price": null, "duration": 45, "description": "Corte + barba + toalla caliente" }
+        ]
+      },
+      {
+        "key": "barba",
+        "title": "Barba y Afeitado",
+        "defaultServices": [
+          { "name": "Arreglo de Barba", "price": null, "duration": 20, "description": "Shape + line-up" },
+          { "name": "Hot Towel Shave", "price": null, "duration": 30, "description": "Navaja tradicional con toalla caliente" },
+          { "name": "Corte + Barba", "price": null, "duration": 50, "description": "Paquete completo" }
+        ]
+      }
+    ]
+  },
+
+  "policy": {
+    "title": "Politica del Local",
+    "items": [
+      "Aceptamos walk-ins segun disponibilidad",
+      "Reservaciones recomendadas para fines de semana",
+      "Cancelaciones: 24h de anticipacion",
+      "Llegar 5 min antes de tu hora"
+    ]
+  },
+
+  "galleryPage": {
+    "title": "Nuestros Trabajos",
+    "categories": ["Fades", "Clasico", "Barbas"],
+    "note": "Fotos reales de nuestros clientes"
+  },
+
+  "teamPage": {
+    "title": "Nuestros Barberos",
+    "memberTemplate": {
+      "buttonText": "Reservar con {{name}}"
+    }
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera reservar un turno en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  }
+}

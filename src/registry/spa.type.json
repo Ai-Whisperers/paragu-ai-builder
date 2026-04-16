@@ -1,0 +1,73 @@
+{
+  "id": "spa",
+  "nameEs": "Spa/Wellness",
+  "nameEn": "Spa/Wellness",
+
+  "tokens": "spa",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "featuredTreatments", "packagesBanner", "atmosphere", "contactBlock", "footer"],
+      "requiredSections": ["header", "hero", "featuredTreatments", "contact", "footer"]
+    },
+    "treatments": {
+      "sections": ["header", "treatmentMenu", "footer"],
+      "requiredSections": ["header", "treatmentMenu", "footer"]
+    },
+    "packages": {
+      "sections": ["header", "packageCards", "giftVouchers", "footer"],
+      "requiredSections": ["header", "packageCards", "footer"]
+    },
+    "about": {
+      "sections": ["header", "aboutSplit", "teamProfiles", "footer"],
+      "requiredSections": ["header", "aboutSplit", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "fresha", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "label": "Tratamientos", "showPrices": true, "showDuration": true },
+    "portfolio": { "enabled": false, "optional": true },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": true, "label": "Terapeutas" },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": true, "showSavings": true },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "giftVouchers": { "enabled": true }
+  },
+
+  "serviceCategories": ["masajes", "faciales", "corporales", "paquetes"],
+
+  "targetAudience": {
+    "primary": "Women 30-55, seeking relaxation and self-care",
+    "secondary": "Couples, Business travelers, Mums"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Spa en {{city}} | Tratamientos y Paquetes",
+    "descriptionTemplate": "Spa en {{city}}. Masajes, faciales y tratamientos corporales. Reserva tu experiencia de relajacion.",
+    "schemaType": "HealthAndBeautyBusiness",
+    "keywords": ["spa {{city}}", "masajes {{city}}", "tratamiento facial {{city}}", "relajacion {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Tratamientos", "Paquetes", "Equipo", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "Tu Santuario de Bienestar",
+    "subheadlineTemplate": "Relajate, renueva y reconnectate en {{businessName}}",
+    "ctaPrimary": { "text": "Reservar Experiencia", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Tratamientos", "action": "scrollTo:treatments" }
+  }
+}

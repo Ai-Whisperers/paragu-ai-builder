@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "depilacion",
+  "title": "Hair Removal Clinic Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "technology": {
+      "type": "object",
+      "properties": {
+        "equipmentBrand": { "type": "string" },
+        "laserTypes": { "type": "array", "items": { "type": "string" } },
+        "isFdaCertified": { "type": "boolean", "default": false },
+        "isCeCertified": { "type": "boolean", "default": false }
+      }
+    },
+    "treatmentAreas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "area": { "type": "string" },
+          "pricePerSession": { "type": "integer" },
+          "package6Price": { "type": "integer" },
+          "package10Price": { "type": "integer" }
+        }
+      }
+    },
+    "offersWaxing": { "type": "boolean", "default": false },
+    "offersMaleServices": { "type": "boolean", "default": false },
+    "freeConsultation": { "type": "boolean", "default": true },
+    "skinTypeAssessment": { "type": "boolean", "default": true }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "technology", "treatmentAreas"],
+    "priority2": ["freeConsultation", "hours", "offersWaxing"],
+    "priority3": ["offersMaleServices", "seo.googleBusinessProfileUrl"]
+  }
+}

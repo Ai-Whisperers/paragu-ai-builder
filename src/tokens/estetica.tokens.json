@@ -1,0 +1,63 @@
+{
+  "name": "Estetica/Facial (Aesthetic Clinic)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["clinical", "professional", "trust-building", "luxurious"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Clinical Luxury",
+      "colors": {
+        "primary": "#1a2744",
+        "secondary": "#c9a227",
+        "accent": "#e8f4f8",
+        "background": "#f8f9fa",
+        "surface": "#ffffff",
+        "text": "#2c3e50",
+        "textLight": "#7f8c8d",
+        "medical": "#3498db",
+        "success": "#27ae60",
+        "error": "#e74c3c"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Montserrat', sans-serif",
+    "body": "'Open Sans', sans-serif",
+    "accent": "'Cormorant Garamond', serif",
+    "headingWeight": "600",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Montserrat:wght@400;500;600;700", "Open+Sans:wght@300;400;500;600", "Cormorant+Garamond:wght@400;500"],
+
+  "borderRadius": "sm",
+  "buttonStyle": "rounded-sm",
+
+  "components": {
+    "button": {
+      "padding": "12px 24px",
+      "borderRadius": "4px",
+      "hoverTranslateY": "-2px"
+    },
+    "beforeAfter": {
+      "prominent": true,
+      "sliderStyle": true
+    },
+    "credentialsBadge": {
+      "showCertifications": true,
+      "showYearsExperience": true,
+      "showTreatmentCount": true
+    },
+    "treatmentCard": {
+      "showScienceSection": true,
+      "showRecoveryTime": true,
+      "showSafetyInfo": true
+    }
+  }
+}

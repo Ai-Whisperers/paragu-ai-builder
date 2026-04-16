@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "maquillaje",
+  "title": "Makeup Artist Business Input Schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "isIndividualArtist": { "type": "boolean", "default": true },
+    "artistName": { "type": "string" },
+    "serviceArea": { "type": "string", "description": "Geographic area served (e.g., 'Asuncion y Gran Asuncion')" },
+    "yearsInBusiness": { "type": "integer" },
+    "trainingEducation": { "type": "string" },
+    "notableWork": { "type": "string", "description": "Publications, celebrities, etc." },
+    "portfolioCategories": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["bridal", "eventos", "editorial", "lecciones"] }
+    },
+    "beforeAfterPairs": { "type": "integer" },
+    "offersTrials": { "type": "boolean", "default": true }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "serviceArea", "services", "portfolio.images"],
+    "priority2": ["yearsInBusiness", "trainingEducation", "portfolioCategories"],
+    "priority3": ["notableWork", "contact.instagram", "seo.googleBusinessProfileUrl"]
+  }
+}

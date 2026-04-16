@@ -1,0 +1,63 @@
+{
+  "id": "unas",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "Unas Perfectas en {{city}}",
+    "subheadline": "Diseno profesional, productos de calidad, higiene garantizada",
+    "ctaPrimary": "Reservar Cita",
+    "ctaSecondary": "Ver Galeria"
+  },
+
+  "servicesPage": {
+    "title": "Servicios y Precios",
+    "categories": [
+      {
+        "key": "manicure",
+        "title": "Manicure",
+        "defaultServices": [
+          { "name": "Clasico", "price": null, "duration": 30, "description": "Cuidado de cuticulas + esmalte" },
+          { "name": "Gel", "price": null, "duration": 45, "description": "Esmalte gel duradero, sin chip" },
+          { "name": "Acrilico", "price": null, "duration": 60, "description": "Extensiones acrilicas" },
+          { "name": "Shellac", "price": null, "duration": 40, "description": "Brillo duradero" }
+        ]
+      },
+      {
+        "key": "pedicure",
+        "title": "Pedicure",
+        "defaultServices": [
+          { "name": "Spa Pedicure", "price": null, "duration": 50, "description": "Exfoliacion + masaje + esmalte" },
+          { "name": "Gel Pedicure", "price": null, "duration": 55, "description": "Esmalte gel en pies" },
+          { "name": "Medico", "price": null, "duration": 40, "description": "Callosidades, cuidado del pie" }
+        ]
+      },
+      {
+        "key": "nail_art",
+        "title": "Nail Art",
+        "defaultServices": [
+          { "name": "Diseno Simple", "price": null, "description": "French, puntos, basico" },
+          { "name": "Diseno Especial", "price": null, "description": "Arte personalizado por una" },
+          { "name": "Chrome/Foil", "price": null, "description": "Acabado metalico" },
+          { "name": "3D Art", "price": null, "description": "Elementos decorativos en relieve" }
+        ]
+      }
+    ]
+  },
+
+  "galleryPage": {
+    "title": "Galeria de Disenos",
+    "categories": ["Natural", "Gel", "Acrilico", "Nail Art", "Novia"],
+    "ctaText": "Ver Todos los Disenos"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "peluqueria",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Tu Mejor Look en {{city}}",
+    "subheadline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+    "ctaPrimary": "Reservar Cita",
+    "ctaSecondary": "Ver Servicios"
+  },
+
+  "servicesPage": {
+    "title": "Servicios y Precios",
+    "categories": [
+      {
+        "key": "cortes",
+        "title": "Cortes de Cabello",
+        "description": "Cortes personalizados para cada tipo de rostro y estilo de vida",
+        "defaultServices": [
+          { "name": "Corte Dama", "price": null, "duration": 45, "description": "Corte y style profesional" },
+          { "name": "Corte Caballero", "price": null, "duration": 30, "description": "Corte moderno y clasico" },
+          { "name": "Corte Nino", "price": null, "duration": 25, "description": "Para los mas pequenos" },
+          { "name": "Recorte de Bangs", "price": null, "duration": 15, "description": "Retoque de fleco" }
+        ]
+      },
+      {
+        "key": "coloracion",
+        "title": "Coloracion y Cambios",
+        "description": "Tecnicas avanzadas para un color perfecto y natural",
+        "defaultServices": [
+          { "name": "Coloracion Completa", "priceFrom": null, "duration": 90, "description": "Color base completo" },
+          { "name": "Mechas/Highlighting", "priceFrom": null, "duration": 120, "description": "Para brillo natural" },
+          { "name": "Balayage", "priceFrom": null, "duration": 150, "description": "Tecnica francesa de mano alzada" },
+          { "name": "Ombre", "priceFrom": null, "duration": 120, "description": "Degradado natural" },
+          { "name": "Retoque de Raices", "price": null, "duration": 60, "description": "Mantenimiento mensual" }
+        ]
+      },
+      {
+        "key": "tratamientos",
+        "title": "Tratamientos Especiales",
+        "description": "Cuidados intensivos para cabello danado y salud del cuero cabelludo",
+        "defaultServices": [
+          { "name": "Keratina Intensiva", "price": null, "duration": 120, "description": "Alisa y repara" },
+          { "name": "Tratamiento Capilar", "price": null, "duration": 45, "description": "Hidratacion profunda" },
+          { "name": "Masaje Scalp", "price": null, "duration": 30, "description": "Relajacion y salud capilar" }
+        ]
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo",
+    "memberTemplate": {
+      "buttonText": "Reservar con {{name}}"
+    }
+  },
+
+  "galleryPage": {
+    "title": "Galeria",
+    "subtitle": "Descubre nuestro trabajo",
+    "categories": ["Cortes", "Color", "Mechas", "Peinados"],
+    "ctaText": "Ver Galeria Completa"
+  },
+
+  "contactPage": {
+    "title": "Contacto",
+    "locationTitle": "Visitanos en {{neighborhood}}",
+    "formFields": ["name", "phone", "service", "preferredDate", "message"],
+    "formSubmitText": "Enviar Consulta"
+  },
+
+  "faq": [
+    { "q": "Cuanto tiempo dura un color?", "a": "Depende del tipo de color y cuidado. En promedio 4-6 semanas." },
+    { "q": "Cuanto tiempo dura la keratina?", "a": "Con cuidado adecuado, puede durar 3-4 meses." }
+  ],
+
+  "ctaBanner": {
+    "title": "Lista para tu nuevo look?",
+    "buttonText": "Reservar Ahora"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  },
+
+  "seo": {
+    "altTextTemplates": {
+      "service": "{{serviceName}} en {{businessName}}, {{city}}",
+      "portfolio": "Resultado de {{serviceName}} por {{businessName}}",
+      "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
+    }
+  }
+}
