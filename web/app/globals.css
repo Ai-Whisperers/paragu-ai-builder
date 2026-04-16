@@ -125,3 +125,15 @@ html {
   );
   opacity: 0.15;
 }
+
+/* Homepage section scroll animation */
+.section-fade {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.section-fade.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
