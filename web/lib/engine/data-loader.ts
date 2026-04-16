@@ -1,18 +1,19 @@
 /**
  * Business Data Loader
  *
- * Abstracts the data source for business data. In development, loads from
- * demo-data.ts. In production with Supabase configured, loads from the
- * database. This allows the site generation pipeline to work identically
- * regardless of data source.
+ * Abstracts the data source for business data. Currently loads from
+ * demo-data.ts and optional generated lead data. Supabase integration
+ * will be added once the database is configured.
  *
- * To switch to Supabase:
+ * To enable Supabase (future):
  *   1. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY
  *   2. Run migrations (001_initial_schema.sql, 002_seed_demo_data.sql)
  *   3. Import leads via: npx tsx scripts/import-leads.ts
+ *   4. Uncomment the Supabase section in this file
  *
- * The loader automatically falls back to demo data when Supabase is not
- * configured or when a database query fails.
+ * IMPORTANT: Do NOT import @/lib/supabase/* here until Supabase is
+ * configured. Even dynamic imports get traced by webpack and trigger
+ * cookies() calls that break static generation on Cloudflare Pages.
  */
 
 import type { BusinessData } from './compose'
@@ -28,29 +29,12 @@ try {
   // Lead data not generated yet — that's fine, will use demo data only
 }
 
-// Check if Supabase is configured with real credentials
-const SUPABASE_CONFIGURED =
-  process.env.NEXT_PUBLIC_SUPABASE_URL &&
-  !process.env.NEXT_PUBLIC_SUPABASE_URL.includes('placeholder') &&
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY &&
-  !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY.includes('placeholder')
-
 /**
  * Load a single business by slug.
- * Tries Supabase first (if configured), falls back to demo data.
+ * Checks lead data first, then demo data.
  */
 export async function loadBusiness(slug: string): Promise<BusinessData | null> {
-  if (SUPABASE_CONFIGURED) {
-    try {
-      const business = await loadBusinessFromSupabase(slug)
-      if (business) return business
-    } catch (error) {
-      console.error(`[DataLoader] Supabase query failed for "${slug}":`, error)
-      // Fall through to demo data
-    }
-  }
-
-  // Try lead data before demo data
+  // Lead data takes priority over demo data
   if (LEAD_BUSINESSES[slug]) return LEAD_BUSINESSES[slug]
 
   return getDemoBusiness(slug)
@@ -58,20 +42,10 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
 
 /**
  * Load all business slugs for static generation.
- * Returns demo slugs + lead slugs + any Supabase slugs.
+ * Returns demo slugs + any lead slugs.
  */
 export async function loadAllSlugs(): Promise<string[]> {
   const slugs = new Set([...getAllDemoSlugs(), ...Object.keys(LEAD_BUSINESSES)])
-
-  if (SUPABASE_CONFIGURED) {
-    try {
-      const dbSlugs = await loadSlugsFromSupabase()
-      dbSlugs.forEach(s => slugs.add(s))
-    } catch (error) {
-      console.error('[DataLoader] Failed to load slugs from Supabase:', error)
-    }
-  }
-
   return Array.from(slugs)
 }
 
@@ -79,113 +53,26 @@ export async function loadAllSlugs(): Promise<string[]> {
  * Load all businesses (for admin dashboard).
  */
 export async function loadAllBusinesses(): Promise<BusinessData[]> {
-  const businesses: BusinessData[] = [
+  return [
     ...Object.values(DEMO_BUSINESSES),
     ...Object.values(LEAD_BUSINESSES),
   ]
-
-  if (SUPABASE_CONFIGURED) {
-    try {
-      const dbBusinesses = await loadAllFromSupabase()
-      // Merge: DB businesses take priority over demo data with same slug
-      const slugSet = new Set(dbBusinesses.map(b => b.slug))
-      const filtered = businesses.filter(b => !slugSet.has(b.slug))
-      return [...dbBusinesses, ...filtered]
-    } catch (error) {
-      console.error('[DataLoader] Failed to load businesses from Supabase:', error)
-    }
-  }
-
-  return businesses
 }
 
-// ─── Supabase Queries ──────────────────────────────────────────────────
-
-interface SupabaseBusinessRow {
-  slug: string
-  name: string
-  type: string
-  phone: string | null
-  email: string | null
-  whatsapp: string | null
-  instagram: string | null
-  facebook: string | null
-  address: string | null
-  neighborhood: string | null
-  city: string
-  state: string | null
-  coordinates: { lat: number; lng: number } | null
-  google_maps_url: string | null
-  tagline: string | null
-  hours: Record<string, string> | null
-  data_json: Record<string, unknown>
-  status: string
-}
-
-function rowToBusinessData(row: SupabaseBusinessRow): BusinessData {
-  const dataJson = row.data_json || {}
-
-  return {
-    name: row.name,
-    slug: row.slug,
-    type: row.type as BusinessData['type'],
-    tagline: row.tagline || undefined,
-    city: row.city,
-    neighborhood: row.neighborhood || undefined,
-    address: row.address || undefined,
-    phone: row.phone || undefined,
-    email: row.email || undefined,
-    whatsapp: row.whatsapp || undefined,
-    instagram: row.instagram || undefined,
-    facebook: row.facebook || undefined,
-    googleMapsUrl: row.google_maps_url || undefined,
-    hours: row.hours || undefined,
-    services: (dataJson.services as BusinessData['services']) || undefined,
-    team: (dataJson.team as BusinessData['team']) || undefined,
-    gallery: (dataJson.gallery as BusinessData['gallery']) || undefined,
-    testimonials: (dataJson.testimonials as BusinessData['testimonials']) || undefined,
-    heroImage: (dataJson.heroImage as string) || undefined,
-  }
-}
-
-async function loadBusinessFromSupabase(slug: string): Promise<BusinessData | null> {
-  const { createClient } = await import('@/lib/supabase/server')
-  const supabase = await createClient()
-
-  const { data, error } = await supabase
-    .from('businesses')
-    .select('*')
-    .eq('slug', slug)
-    .eq('status', 'active')
-    .single()
-
-  if (error || !data) return null
-  return rowToBusinessData(data as SupabaseBusinessRow)
-}
-
-async function loadSlugsFromSupabase(): Promise<string[]> {
-  const { createClient } = await import('@/lib/supabase/server')
-  const supabase = await createClient()
-
-  const { data, error } = await supabase
-    .from('businesses')
-    .select('slug')
-    .eq('status', 'active')
-
-  if (error || !data) return []
-  return data.map((row: { slug: string }) => row.slug)
-}
-
-async function loadAllFromSupabase(): Promise<BusinessData[]> {
-  const { createClient } = await import('@/lib/supabase/server')
-  const supabase = await createClient()
-
-  const { data, error } = await supabase
-    .from('businesses')
-    .select('*')
-    .eq('status', 'active')
-    .order('name')
-
-  if (error || !data) return []
-  return (data as SupabaseBusinessRow[]).map(rowToBusinessData)
-}
+// ─── Supabase Integration (Uncomment when DB is configured) ────────────
+//
+// To enable: set real NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY,
+// then uncomment the code below and update the functions above to call these.
+//
+// async function loadBusinessFromSupabase(slug: string): Promise<BusinessData | null> {
+//   const { createClient } = await import('@/lib/supabase/server')
+//   const supabase = await createClient()
+//   const { data, error } = await supabase
+//     .from('businesses')
+//     .select('*')
+//     .eq('slug', slug)
+//     .eq('status', 'active')
+//     .single()
+//   if (error || !data) return null
+//   return rowToBusinessData(data)
+// }
