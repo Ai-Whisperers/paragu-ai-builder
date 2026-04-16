@@ -62,11 +62,13 @@ export const env = {
   },
 
   get SUPABASE_ANON_KEY(): string {
+    // Supabase renamed "anon key" to "publishable key" — accept both
     const value = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+      || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
     if (!value) {
       if (typeof window === 'undefined') {
         throw new Error(
-          `[ENV ERROR] Missing required: NEXT_PUBLIC_SUPABASE_ANON_KEY\n` +
+          `[ENV ERROR] Missing required: NEXT_PUBLIC_SUPABASE_ANON_KEY (or NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY)\n` +
             `Set this in your .env.local file.`
         )
       }
