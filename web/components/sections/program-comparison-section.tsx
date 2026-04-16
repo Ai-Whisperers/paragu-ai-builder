@@ -5,13 +5,17 @@ import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { useLocale } from '@/lib/i18n/language-context'
 
 export interface ProgramItem {
   id: string
   name: string
+  nameEn?: string
   price: string
   description: string
+  descriptionEn?: string
   duration?: string
+  durationEn?: string
   highlighted?: boolean
   badge?: string
   ctaText?: string
@@ -20,15 +24,19 @@ export interface ProgramItem {
 
 export interface ComparisonFeature {
   feature: string
+  featureEn?: string
   [programId: string]: string | boolean | undefined
 }
 
 export interface ProgramComparisonSectionProps {
   title: string
+  titleEn?: string
   subtitle?: string
+  subtitleEn?: string
   programs: ProgramItem[]
   features: ComparisonFeature[]
   paymentNote?: string
+  paymentNoteEn?: string
   whatsappPhone?: string
   emailAddress?: string
   calendarUrl?: string
@@ -36,14 +44,18 @@ export interface ProgramComparisonSectionProps {
 
 export function ProgramComparisonSection({
   title,
+  titleEn,
   subtitle,
+  subtitleEn,
   programs,
   features,
   paymentNote,
+  paymentNoteEn,
   whatsappPhone,
   emailAddress,
   calendarUrl,
 }: ProgramComparisonSectionProps) {
+  const { t } = useLocale()
   const handleCTA = (program: ProgramItem) => {
     if (calendarUrl) {
       window.open(calendarUrl, '_blank')
@@ -66,11 +78,11 @@ export function ProgramComparisonSection({
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2} className="mb-3 text-center" style={{ color: 'var(--primary)' }}>
-            {title}
+            {t(title, titleEn)}
           </Heading>
           {subtitle && (
             <p className="mx-auto mb-12 max-w-2xl text-center text-lg" style={{ color: 'var(--text-muted)' }}>
-              {subtitle}
+              {t(subtitle, subtitleEn)}
             </p>
           )}
         </AnimatedSectionHeader>
@@ -101,7 +113,7 @@ export function ProgramComparisonSection({
 
                 <div className="mb-6 text-center">
                   <h3 className="mb-2 text-2xl font-bold" style={{ color: 'var(--primary)', fontFamily: 'var(--font-heading)' }}>
-                    {program.name}
+                    {t(program.name, program.nameEn)}
                   </h3>
                   <div className="mb-3 text-4xl font-bold" style={{ color: 'var(--secondary)' }}>
                     {program.price}
@@ -114,7 +126,7 @@ export function ProgramComparisonSection({
                 </div>
 
                 <p className="mb-6 flex-grow text-center" style={{ color: 'var(--text-muted)', lineHeight: '1.7' }}>
-                  {program.description}
+                  {t(program.description, program.descriptionEn)}
                 </p>
 
                 <Button
@@ -162,7 +174,7 @@ export function ProgramComparisonSection({
                 }}
               >
                 <div className="text-sm" style={{ color: 'var(--text)' }}>
-                  {feature.feature}
+                  {t(feature.feature, feature.featureEn)}
                 </div>
                 {programs.map((p) => {
                   const value = feature[p.id]
@@ -187,7 +199,7 @@ export function ProgramComparisonSection({
 
         {paymentNote && (
           <p className="mt-6 text-center text-sm" style={{ color: 'var(--text-muted)' }}>
-            {paymentNote}
+            {t(paymentNote, paymentNoteEn)}
           </p>
         )}
       </Container>

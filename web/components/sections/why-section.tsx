@@ -1,16 +1,23 @@
+'use client'
+
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { useLocale } from '@/lib/i18n/language-context'
 
 export interface WhyPoint {
   title: string
+  titleEn?: string
   description: string
+  descriptionEn?: string
   icon?: string
 }
 
 export interface WhySectionProps {
   title: string
+  titleEn?: string
   subtitle?: string
+  subtitleEn?: string
   points: WhyPoint[]
 }
 
@@ -21,17 +28,19 @@ const POINT_ICONS: Record<string, string> = {
   process: '⚡',
 }
 
-export function WhySection({ title, subtitle, points }: WhySectionProps) {
+export function WhySection({ title, titleEn, subtitle, subtitleEn, points }: WhySectionProps) {
+  const { t } = useLocale()
+
   return (
     <section id="por-que-paraguay" className="py-16 sm:py-20" style={{ backgroundColor: 'var(--surface-light)' }}>
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2} className="mb-3 text-center" style={{ color: 'var(--primary)' }}>
-            {title}
+            {t(title, titleEn)}
           </Heading>
           {subtitle && (
             <p className="mx-auto mb-12 max-w-2xl text-center text-lg" style={{ color: 'var(--text-muted)' }}>
-              {subtitle}
+              {t(subtitle, subtitleEn)}
             </p>
           )}
         </AnimatedSectionHeader>
@@ -58,10 +67,10 @@ export function WhySection({ title, subtitle, points }: WhySectionProps) {
                   className="mb-3 text-xl font-bold"
                   style={{ color: 'var(--primary)', fontFamily: 'var(--font-heading)' }}
                 >
-                  {point.title}
+                  {t(point.title, point.titleEn)}
                 </h3>
                 <p className="leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-                  {point.description}
+                  {t(point.description, point.descriptionEn)}
                 </p>
               </div>
             </AnimateOnScroll>

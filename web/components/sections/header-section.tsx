@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Container } from '@/components/ui/container'
+import { LanguageSelector } from '@/components/ui/language-selector'
+import { useLocale, type Locale } from '@/lib/i18n/language-context'
 
 export interface NavItem {
   label: string
@@ -14,6 +16,7 @@ export interface HeaderSectionProps {
   navItems: NavItem[]
   ctaText?: string
   ctaHref?: string
+  supportedLocales?: string[]
 }
 
 export function HeaderSection({
@@ -21,8 +24,11 @@ export function HeaderSection({
   navItems,
   ctaText,
   ctaHref = '#contacto',
+  supportedLocales,
 }: HeaderSectionProps) {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const { t } = useLocale()
+  const locales = (supportedLocales || ['es']) as Locale[]
 
   return (
     <header className="sticky top-0 z-50 bg-[var(--surface)] shadow-nav">
@@ -38,7 +44,7 @@ export function HeaderSection({
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden items-center gap-6 md:flex">
+          <nav className="hidden items-center gap-4 md:flex">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -48,9 +54,10 @@ export function HeaderSection({
                 {item.label}
               </a>
             ))}
+            <LanguageSelector supportedLocales={locales} />
             {ctaText && (
               <Button variant="primary" size="sm" href={ctaHref}>
-                {ctaText}
+                {t(ctaText, ctaText)}
               </Button>
             )}
           </nav>
@@ -60,6 +67,7 @@ export function HeaderSection({
             className="flex h-10 w-10 items-center justify-center rounded-md md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Menu"
+            aria-expanded={mobileOpen}
           >
             <span className="text-2xl text-[var(--text)]">{mobileOpen ? '✕' : '☰'}</span>
           </button>
@@ -78,9 +86,12 @@ export function HeaderSection({
                 {item.label}
               </a>
             ))}
+            <div className="py-3">
+              <LanguageSelector supportedLocales={locales} />
+            </div>
             {ctaText && (
               <Button variant="primary" size="sm" href={ctaHref} className="mt-2 w-full">
-                {ctaText}
+                {t(ctaText, ctaText)}
               </Button>
             )}
           </nav>

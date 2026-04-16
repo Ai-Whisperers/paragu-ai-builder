@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
 import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
+import { BusinessPageWrapper } from '@/components/business-page-wrapper'
 
 interface Props {
   params: Promise<{ business: string }>
@@ -55,17 +56,22 @@ export default async function BusinessPage({ params }: Props) {
         <link rel="stylesheet" href={page.theme.googleFontsUrl} />
       )}
 
-      {/* Render all composed sections */}
-      <div
-        className="min-h-screen"
-        style={{
-          fontFamily: 'var(--font-body)',
-          backgroundColor: 'var(--background)',
-          color: 'var(--text)',
-        }}
+      {/* Render all composed sections with i18n context */}
+      <BusinessPageWrapper
+        supportedLocales={page.i18n.supportedLocales}
+        defaultLocale={page.i18n.defaultLocale}
       >
-        {renderSections(page.sections)}
-      </div>
+        <div
+          className="min-h-screen"
+          style={{
+            fontFamily: 'var(--font-body)',
+            backgroundColor: 'var(--background)',
+            color: 'var(--text)',
+          }}
+        >
+          {renderSections(page.sections)}
+        </div>
+      </BusinessPageWrapper>
     </>
   )
 }

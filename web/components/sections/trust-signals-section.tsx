@@ -1,9 +1,13 @@
+'use client'
+
 import { Container } from '@/components/ui/container'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
 import { Heading } from '@/components/ui/heading'
+import { useLocale } from '@/lib/i18n/language-context'
 
 export interface TrustSignalItem {
   text: string
+  textEn?: string
   icon?: string
 }
 
@@ -13,6 +17,8 @@ export interface TrustSignalsSectionProps {
 }
 
 export function TrustSignalsSection({ title, items }: TrustSignalsSectionProps) {
+  const { t } = useLocale()
+
   return (
     <section className="py-12 sm:py-16" style={{ backgroundColor: 'var(--background)' }}>
       <Container>
@@ -39,7 +45,7 @@ export function TrustSignalsSection({ title, items }: TrustSignalsSectionProps) 
                   </svg>
                 </div>
                 <p className="text-sm font-medium leading-snug" style={{ color: 'var(--text)' }}>
-                  {item.text}
+                  {t(item.text, item.textEn)}
                 </p>
               </div>
             </AnimateOnScroll>

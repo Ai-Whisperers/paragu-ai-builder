@@ -5,19 +5,24 @@ import { ChevronDown } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { useLocale } from '@/lib/i18n/language-context'
 
 export interface FAQItem {
   q: string
+  qEn?: string
   a: string
+  aEn?: string
 }
 
 export interface FAQSectionProps {
   title: string
+  titleEn?: string
   items: FAQItem[]
 }
 
 function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
   const [isOpen, setIsOpen] = useState(false)
+  const { t } = useLocale()
 
   return (
     <AnimateOnScroll stagger={index}>
@@ -26,7 +31,7 @@ function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
           onClick={() => setIsOpen(!isOpen)}
           className="flex w-full items-center justify-between py-5 text-left transition-colors hover:text-[var(--secondary)]"
         >
-          <span className="pr-4 font-medium text-[var(--text)]">{item.q}</span>
+          <span className="pr-4 font-medium text-[var(--text)]">{t(item.q, item.qEn)}</span>
           <ChevronDown
             size={18}
             className="flex-shrink-0 text-[var(--text-muted)] transition-transform duration-normal"
@@ -40,19 +45,21 @@ function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
             opacity: isOpen ? 1 : 0,
           }}
         >
-          <p className="pb-5 leading-relaxed text-[var(--text-muted)]">{item.a}</p>
+          <p className="pb-5 leading-relaxed text-[var(--text-muted)]">{t(item.a, item.aEn)}</p>
         </div>
       </div>
     </AnimateOnScroll>
   )
 }
 
-export function FAQSection({ title, items }: FAQSectionProps) {
+export function FAQSection({ title, titleEn, items }: FAQSectionProps) {
+  const { t } = useLocale()
+
   return (
     <section className="bg-[var(--surface)] py-16 sm:py-20">
       <Container size="md">
         <AnimatedSectionHeader>
-          <Heading level={2}>{title}</Heading>
+          <Heading level={2}>{t(title, titleEn)}</Heading>
         </AnimatedSectionHeader>
 
         <div className="mx-auto max-w-3xl">

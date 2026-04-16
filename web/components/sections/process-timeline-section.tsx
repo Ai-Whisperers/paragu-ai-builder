@@ -3,20 +3,26 @@
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { useLocale } from '@/lib/i18n/language-context'
 
 export interface ProcessStep {
   step: number
   title: string
+  titleEn?: string
   description: string
+  descriptionEn?: string
   duration?: string
   icon?: string
 }
 
 export interface ProcessTimelineSectionProps {
   title: string
+  titleEn?: string
   subtitle?: string
+  subtitleEn?: string
   steps: ProcessStep[]
   totalTime?: string
+  totalTimeEn?: string
 }
 
 const STEP_ICONS: Record<string, string> = {
@@ -33,16 +39,18 @@ export function ProcessTimelineSection({
   steps,
   totalTime,
 }: ProcessTimelineSectionProps) {
+  const { t } = useLocale()
+
   return (
     <section id="proceso" className="py-20" style={{ backgroundColor: 'var(--background)' }}>
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2} className="mb-3 text-center" style={{ color: 'var(--primary)' }}>
-            {title}
+            {t(title, titleEn)}
           </Heading>
           {subtitle && (
             <p className="mx-auto mb-16 max-w-2xl text-center text-lg" style={{ color: 'var(--text-muted)' }}>
-              {subtitle}
+              {t(subtitle, subtitleEn)}
             </p>
           )}
         </AnimatedSectionHeader>
@@ -87,7 +95,7 @@ export function ProcessTimelineSection({
                       {step.icon && STEP_ICONS[step.icon] ? (
                         <span className="mr-2">{STEP_ICONS[step.icon]}</span>
                       ) : null}
-                      {step.title}
+                      {t(step.title, step.titleEn)}
                     </h3>
                     {step.duration && (
                       <span
@@ -103,7 +111,7 @@ export function ProcessTimelineSection({
                     )}
                   </div>
                   <p className="leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-                    {step.description}
+                    {t(step.description, step.descriptionEn)}
                   </p>
                 </div>
               </div>
@@ -121,7 +129,7 @@ export function ProcessTimelineSection({
               }}
             >
               <p className="text-lg font-semibold" style={{ fontFamily: 'var(--font-heading)' }}>
-                {totalTime}
+                {t(totalTime, totalTimeEn)}
               </p>
             </div>
           </AnimateOnScroll>

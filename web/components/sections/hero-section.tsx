@@ -1,25 +1,37 @@
+'use client'
+
 import { Button } from '@/components/ui/button'
 import { Container } from '@/components/ui/container'
+import { useLocale } from '@/lib/i18n/language-context'
 
 export interface HeroSectionProps {
   headline: string
+  headlineEn?: string
   subheadline: string
+  subheadlineEn?: string
   ctaPrimaryText: string
+  ctaPrimaryTextEn?: string
   ctaPrimaryHref?: string
   ctaSecondaryText?: string
+  ctaSecondaryTextEn?: string
   ctaSecondaryHref?: string
   backgroundImage?: string
 }
 
 export function HeroSection({
   headline,
+  headlineEn,
   subheadline,
+  subheadlineEn,
   ctaPrimaryText,
+  ctaPrimaryTextEn,
   ctaPrimaryHref = '#contacto',
   ctaSecondaryText,
+  ctaSecondaryTextEn,
   ctaSecondaryHref = '#servicios',
   backgroundImage,
 }: HeroSectionProps) {
+  const { t } = useLocale()
   return (
     <section
       className="relative flex min-h-[70vh] items-center justify-center overflow-hidden bg-[var(--primary)]"
@@ -43,7 +55,7 @@ export function HeroSection({
             textTransform: 'var(--heading-transform)' as React.CSSProperties['textTransform'],
           }}
         >
-          {headline}
+          {t(headline, headlineEn)}
         </h1>
         <p
           className="mx-auto mb-10 max-w-2xl text-lg sm:text-xl"
@@ -52,15 +64,15 @@ export function HeroSection({
             color: backgroundImage ? 'rgba(255,255,255,0.9)' : 'var(--text-light)',
           }}
         >
-          {subheadline}
+          {t(subheadline, subheadlineEn)}
         </p>
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button variant="primary" size="lg" href={ctaPrimaryHref}>
-            {ctaPrimaryText}
+            {t(ctaPrimaryText, ctaPrimaryTextEn)}
           </Button>
           {ctaSecondaryText && (
             <Button variant="secondary" size="lg" href={ctaSecondaryHref}>
-              {ctaSecondaryText}
+              {t(ctaSecondaryText, ctaSecondaryTextEn)}
             </Button>
           )}
         </div>

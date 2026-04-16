@@ -109,6 +109,10 @@ export interface ComposedPage {
     googleFontsUrl: string
     isDark: boolean
   }
+  i18n: {
+    supportedLocales: string[]
+    defaultLocale: string
+  }
 }
 
 function loadJson<T>(relativePath: string): T {
@@ -320,6 +324,12 @@ export async function composePage(business: BusinessData): Promise<ComposedPage>
   const { resolveTokens } = await import('@/lib/tokens/resolver')
   const tokens = resolveTokens(business.type)
 
+  // Determine supported locales from registry features
+  const multiLang = registry.features?.multiLanguage
+  const supportedLocales = multiLang?.enabled && multiLang.languages
+    ? multiLang.languages as string[]
+    : ['es']
+
   return {
     business,
     sections,
@@ -328,6 +338,10 @@ export async function composePage(business: BusinessData): Promise<ComposedPage>
       cssString: tokens.cssString,
       googleFontsUrl: tokens.googleFontsUrl,
       isDark: tokens.theme === 'dark',
+    },
+    i18n: {
+      supportedLocales,
+      defaultLocale: 'es',
     },
   }
 }
@@ -341,24 +355,36 @@ function buildSectionData(
   registry: RegistryType
 ): Record<string, unknown> | null {
   switch (type) {
-    case 'header':
+    case 'header': {
+      const multiLang = registry.features?.multiLanguage
+      const locales = multiLang?.enabled && multiLang.languages
+        ? multiLang.languages as string[]
+        : ['es']
       return {
         businessName: business.name,
         navItems,
         ctaText: registry.nav.cta?.text,
-        ctaHref: '#contacto',
+        ctaHref: business.calendarUrl || '#contacto',
+        supportedLocales: locales,
       }
+    }
 
-    case 'hero':
+    case 'hero': {
+      const heroContent = content.hero as Record<string, unknown>
       return {
         headline: fillTemplate(content.hero.headline, templateData),
+        headlineEn: heroContent.headlineEn ? fillTemplate(heroContent.headlineEn as string, templateData) : undefined,
         subheadline: fillTemplate(content.hero.subheadline, templateData),
+        subheadlineEn: heroContent.subheadlineEn ? fillTemplate(heroContent.subheadlineEn as string, templateData) : undefined,
         ctaPrimaryText: content.hero.ctaPrimary,
+        ctaPrimaryTextEn: heroContent.ctaPrimaryEn,
         ctaPrimaryHref: business.calendarUrl || '#contacto',
         ctaSecondaryText: content.hero.ctaSecondary,
+        ctaSecondaryTextEn: heroContent.ctaSecondaryEn,
         ctaSecondaryHref: '#programas',
         backgroundImage: business.heroImage,
       }
+    }
 
     case 'services': {
       // Use business-provided services, or fall back to content template defaults
@@ -459,36 +485,36 @@ function buildSectionData(
 
     case 'programComparison': {
       if (!content.programComparison) return null
-      const pc = content.programComparison
+      const pc = content.programComparison as Record<string, unknown>
       return {
-        title: pc.title,
-        subtitle: pc.subtitle,
-        programs: pc.programs,
-        features: pc.features,
-        paymentNote: pc.paymentNote,
+        ...content.programComparison,
         whatsappPhone: business.whatsapp,
         emailAddress: business.email,
         calendarUrl: business.calendarUrl,
+        titleEn: pc.titleEn,
+        subtitleEn: pc.subtitleEn,
+        paymentNoteEn: pc.paymentNoteEn,
       }
     }
 
     case 'processTimeline': {
       if (!content.processTimeline) return null
-      const pt = content.processTimeline
+      const pt = content.processTimeline as Record<string, unknown>
       return {
-        title: pt.title,
-        subtitle: pt.subtitle,
-        steps: pt.steps,
-        totalTime: pt.totalTime,
+        ...content.processTimeline,
+        titleEn: pt.titleEn,
+        subtitleEn: pt.subtitleEn,
+        totalTimeEn: pt.totalTimeEn,
       }
     }
 
     case 'whySection': {
       if (!content.whyParaguay) return null
+      const wp = content.whyParaguay as Record<string, unknown>
       return {
-        title: content.whyParaguay.title,
-        subtitle: content.whyParaguay.subtitle,
-        points: content.whyParaguay.points,
+        ...content.whyParaguay,
+        titleEn: wp.titleEn,
+        subtitleEn: wp.subtitleEn,
       }
     }
 
@@ -504,16 +530,21 @@ function buildSectionData(
       if (!content.faq || content.faq.length === 0) return null
       return {
         title: 'Preguntas Frecuentes',
+        titleEn: 'Frequently Asked Questions',
         items: content.faq,
       }
 
-    case 'ctaBanner':
+    case 'ctaBanner': {
       if (!content.ctaBanner) return null
+      const cta = content.ctaBanner as Record<string, unknown>
       return {
         title: fillTemplate(content.ctaBanner.title, templateData),
+        titleEn: cta.titleEn ? fillTemplate(cta.titleEn as string, templateData) : undefined,
         buttonText: content.ctaBanner.buttonText,
+        buttonTextEn: cta.buttonTextEn,
         buttonHref: business.calendarUrl || '#contacto',
       }
+    }
 
     case 'footer':
       return {
