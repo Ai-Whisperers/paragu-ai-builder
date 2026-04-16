@@ -39,10 +39,10 @@ describe('validateBusiness', () => {
     expect(result.success).toBe(false)
   })
 
-  it('validates all 9 business types', () => {
+  it('validates all 11 business types', () => {
     const types = [
-      'peluqueria', 'gimnasio', 'spa', 'unas', 'tatuajes',
-      'barberia', 'estetica', 'maquillaje', 'depilacion',
+      'peluqueria', 'salon_belleza', 'gimnasio', 'spa', 'unas', 'tatuajes',
+      'barberia', 'estetica', 'maquillaje', 'depilacion', 'pestanas',
     ]
 
     for (const type of types) {

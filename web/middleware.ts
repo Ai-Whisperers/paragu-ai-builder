@@ -32,12 +32,23 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   response.headers.set('x-pathname', path)
 
   // Public routes: skip auth to reduce latency
-  const isProtectedRoute = path.startsWith('/admin')
-  if (!isProtectedRoute) {
+  // Note: /admin is temporarily unprotected until Supabase auth is configured.
+  // Once login flow is implemented, remove '/admin' from this list.
+  const isPublicRoute = !path.startsWith('/admin') || path === '/login'
+  if (isPublicRoute) {
     return response
   }
 
-  // Refresh session for protected routes (critical for Supabase SSR)
+  // Refresh session for protected routes (critical for Supabase SSR).
+  // Skip auth check entirely when Supabase isn't configured with real credentials
+  // to allow admin access during development.
+  if (
+    !env.SUPABASE_URL ||
+    env.SUPABASE_URL.includes('placeholder')
+  ) {
+    return response
+  }
+
   const supabase = createServerClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY, {
     cookies: {
       getAll() {
