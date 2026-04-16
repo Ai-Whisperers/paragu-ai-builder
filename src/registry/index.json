@@ -147,6 +147,18 @@
       "leadCount": 0,
       "noWebsitePercent": 0,
       "priorityALeads": 0
+    },
+    "relocation": {
+      "id": "relocation",
+      "nameEs": "Servicios de Relocacion",
+      "nameEn": "Relocation Services",
+      "icon": "globe",
+      "tokens": "relocation",
+      "content": "relocation",
+      "schema": "relocation",
+      "leadCount": 0,
+      "noWebsitePercent": 0,
+      "priorityALeads": 0
     }
   },
 

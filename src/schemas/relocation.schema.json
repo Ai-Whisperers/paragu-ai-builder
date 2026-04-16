@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Relocation Service Business",
+  "description": "Schema for relocation and investment facilitation services (extends base-business)",
+  "type": "object",
+  "extends": "base-business",
+
+  "properties": {
+    "programTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "enum": ["business", "investor"] },
+          "name": { "type": "string" },
+          "price": { "type": "string" },
+          "currency": { "type": "string", "default": "USD" },
+          "description": { "type": "string" },
+          "duration": { "type": "string" },
+          "inclusions": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "highlighted": { "type": "boolean", "default": false }
+        },
+        "required": ["id", "name", "price"]
+      }
+    },
+    "targetMarkets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["NL", "DE", "AT", "CH", "BE", "SE", "DK", "NO", "FI", "FR", "UK", "US"]
+      }
+    },
+    "languagesSupported": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["nl", "en", "de", "es", "fr"]
+      }
+    },
+    "processPhases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step": { "type": "integer" },
+          "titleEs": { "type": "string" },
+          "titleEn": { "type": "string" },
+          "descriptionEs": { "type": "string" },
+          "descriptionEn": { "type": "string" },
+          "duration": { "type": "string" },
+          "icon": { "type": "string" }
+        },
+        "required": ["step", "titleEs", "titleEn"]
+      }
+    },
+    "comparisonFeatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "feature": { "type": "string" },
+          "featureEn": { "type": "string" },
+          "business": { "type": ["string", "boolean"] },
+          "investor": { "type": ["string", "boolean"] }
+        },
+        "required": ["feature"]
+      }
+    },
+    "teamRoles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string" },
+          "roleEn": { "type": "string" },
+          "description": { "type": "string" },
+          "descriptionEn": { "type": "string" },
+          "location": { "type": "string" }
+        }
+      }
+    },
+    "consultationType": {
+      "type": "string",
+      "enum": ["free_initial", "paid", "both"],
+      "default": "free_initial"
+    },
+    "consultationDuration": {
+      "type": "integer",
+      "default": 30,
+      "description": "Duration in minutes"
+    },
+    "calendarUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Calendly or similar booking URL"
+    }
+  },
+
+  "inputForm": {
+    "priority": [
+      "programTypes",
+      "processPhases",
+      "comparisonFeatures",
+      "teamRoles",
+      "targetMarkets",
+      "languagesSupported"
+    ]
+  }
+}

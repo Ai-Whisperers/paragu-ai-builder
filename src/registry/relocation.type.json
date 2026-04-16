@@ -1,0 +1,73 @@
+{
+  "id": "relocation",
+  "nameEs": "Servicios de Relocacion",
+  "nameEn": "Relocation Services",
+
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "programComparison",
+        "processTimeline",
+        "team",
+        "testimonials",
+        "faq",
+        "ctaBanner",
+        "contact",
+        "footer",
+        "whatsappFloat"
+      ],
+      "requiredSections": ["header", "hero", "programComparison", "processTimeline", "contact", "footer"]
+    }
+  },
+
+  "features": {
+    "programComparison": { "enabled": true, "showPrices": true, "highlightRecommended": true },
+    "processTimeline": { "enabled": true, "showDuration": true },
+    "consultationBooking": { "enabled": true, "type": "calendly" },
+    "pricingDisplay": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "testimonials": { "enabled": true },
+    "faq": { "enabled": true },
+    "blog": { "enabled": false },
+    "multiLanguage": { "enabled": true, "languages": ["es", "en"] }
+  },
+
+  "serviceCategories": [
+    { "key": "migratorios", "titleEs": "Servicios Migratorios", "titleEn": "Migration Services" },
+    { "key": "empresariales", "titleEs": "Servicios Empresariales", "titleEn": "Business Services" },
+    { "key": "bancarios", "titleEs": "Servicios Bancarios", "titleEn": "Banking Services" },
+    { "key": "contables", "titleEs": "Servicios Contables y Fiscales", "titleEn": "Accounting & Tax Services" },
+    { "key": "logisticos", "titleEs": "Servicios Logisticos", "titleEn": "Logistical Support" },
+    { "key": "inversion", "titleEs": "Servicios de Inversion", "titleEn": "Investment Services" }
+  ],
+
+  "targetAudience": {
+    "primary": "European entrepreneurs, investors and professionals seeking to establish operations in Paraguay",
+    "segments": ["investors", "tax_optimizers", "lifestyle_migrants"]
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} — Establecimiento Operativo en Paraguay",
+    "descriptionTemplate": "{{businessName}}: Residencia, sociedad y cuenta bancaria en Paraguay. Todo en un solo programa, un solo viaje, un equipo de profesionales.",
+    "keywords": [
+      "residencia Paraguay", "empresa en Paraguay", "invertir en Paraguay",
+      "relocacion Paraguay", "cuenta bancaria Paraguay", "Paraguay residency",
+      "start a business in Paraguay", "invest in Paraguay"
+    ]
+  },
+
+  "nav": {
+    "items": ["Programas", "Proceso", "Por que Paraguay", "Equipo", "FAQ", "Contacto"],
+    "cta": { "text": "Agendar Consulta", "action": "#contacto" }
+  },
+
+  "hero": {
+    "headlineTemplate": "Establezca su operacion en Paraguay",
+    "subheadlineTemplate": "Residencia, sociedad y cuenta bancaria — todo en un solo programa, un solo viaje, un equipo de profesionales a su lado.",
+    "ctaPrimary": { "text": "Agendar Consulta Gratuita" },
+    "ctaSecondary": { "text": "Ver Programas" }
+  }
+}

@@ -101,6 +101,46 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     ],
   },
 
+  'lealtis-py': {
+    name: 'Lealtis',
+    slug: 'lealtis-py',
+    type: 'relocation',
+    tagline: 'Establecimiento operativo en Paraguay. Profesional, integrado, sin sorpresas.',
+    city: 'Asuncion',
+    address: 'Asuncion, Paraguay',
+    phone: '+595981000000',
+    email: 'info@lealtis.com',
+    whatsapp: '+595981000000',
+    instagram: '@lealtis.py',
+    hours: {
+      'Lunes - Viernes': '09:00 - 18:00',
+      'Sabado': '10:00 - 14:00',
+      'Domingo': 'Cerrado',
+    },
+    services: [
+      { name: 'Residencia Paraguaya', description: 'Gestion integral del proceso de residencia permanente. Validacion documental, presentacion ante autoridades, seguimiento hasta emision (45-60 dias).', category: 'Servicios Migratorios' },
+      { name: 'Cedula de Identidad', description: 'Gestion coordinada del documento de identidad nacional, procesada junto con la residencia.', category: 'Servicios Migratorios' },
+      { name: 'Constitucion de Sociedad', description: 'Analisis del tipo societario (EAS, SA), redaccion de estatutos, inscripcion registral. Sociedad operativa desde el primer dia.', category: 'Servicios Empresariales' },
+      { name: 'Registro Fiscal (RUC)', description: 'Inscripcion ante DNIT, estructuracion de obligaciones fiscales, habilitacion para facturacion.', category: 'Servicios Empresariales' },
+      { name: 'Cuenta Bancaria Empresarial', description: 'Preparacion de perfil financiero, coordinacion institucional, documentacion AML/KYC, seguimiento hasta habilitacion.', category: 'Servicios Bancarios' },
+      { name: 'Tour Inmobiliario Estrategico', description: 'Visitas privadas a desarrolladoras, proyectos en curso, analisis tecnico y conversaciones con actores del sector.', category: 'Servicios de Inversion' },
+      { name: 'Contabilidad Empresarial (12 meses)', description: 'Gestion contable mensual, presentaciones tributarias, reportes de cumplimiento fiscal.', category: 'Contabilidad y Asesoria' },
+      { name: 'Asesoria Legal y Fiscal (12 meses)', description: 'Consultas legales continuas, revision de contratos, evaluacion normativa, estructuracion fiscal.', category: 'Contabilidad y Asesoria' },
+    ],
+    team: [
+      { name: 'Daniel', role: 'Director de Operaciones', bio: 'Liderazgo operativo en Paraguay. Relaciones institucionales y bancarias construidas durante anos. Supervision del equipo tecnico.' },
+      { name: 'Equipo Legal', role: 'Abogados', bio: 'Expedientes migratorios, constitucion societaria y asesoria juridica continua. Experiencia directa en el mercado paraguayo.' },
+      { name: 'Equipo Contable', role: 'Contadores', bio: 'Gestion fiscal, contabilidad, cumplimiento tributario e inscripcion de RUC ante DNIT.' },
+      { name: 'Asesor Financiero', role: 'Coordinacion Bancaria', bio: 'Perfil KYC, coordinacion con entidades bancarias, orientacion de inversiones.' },
+      { name: 'Coordinacion', role: 'Logistica y Seguimiento', bio: 'Chofer exclusivo, traslados, coordinacion de agenda y seguimiento de procesos.' },
+    ],
+    testimonials: [
+      { quote: 'Todo el proceso fue impecable. Llegue a Paraguay y en una manana tenia todo presentado. Increible eficiencia.', author: 'Jan V.', role: 'Inversor, Paises Bajos', rating: 5 },
+      { quote: 'La apertura de cuenta bancaria es lo mas dificil para extranjeros, y ellos lo resolvieron de manera profesional.', author: 'Thomas K.', role: 'Consultor, Alemania', rating: 5 },
+      { quote: 'Un equipo que habla nuestro idioma y entiende nuestras preocupaciones. Nos sentimos acompanados en cada paso.', author: 'Erik & Sophie', role: 'Familia, Belgica', rating: 5 },
+    ],
+  },
+
   'dayah-litworks': {
     name: 'Dayah LitWorks',
     slug: 'dayah-litworks',

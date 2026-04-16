@@ -23,6 +23,8 @@ export type SectionType =
   | 'hero'
   | 'services'
   | 'productCatalog'
+  | 'programComparison'
+  | 'processTimeline'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -169,6 +171,34 @@ interface ContentTemplate {
     orderMessageTemplate?: string
     categories?: string[]
   }
+  programComparison?: {
+    title: string
+    subtitle?: string
+    programs: Array<{
+      id: string
+      name: string
+      price: string
+      description: string
+      duration?: string
+      highlighted?: boolean
+      badge?: string
+      ctaText?: string
+    }>
+    features: Array<Record<string, string | boolean | undefined>>
+    paymentNote?: string
+  }
+  processTimeline?: {
+    title: string
+    subtitle?: string
+    steps: Array<{
+      step: number
+      title: string
+      description: string
+      duration?: string
+      icon?: string
+    }>
+    totalTime?: string
+  }
   ctaBanner?: { title: string; buttonText: string }
   footer: {
     quickLinks: string[]
@@ -192,6 +222,8 @@ const SECTION_MAP: Record<string, SectionType> = {
   testimonial: 'testimonials',
   testimonials: 'testimonials',
   productCatalog: 'productCatalog',
+  programComparison: 'programComparison',
+  processTimeline: 'processTimeline',
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
@@ -385,6 +417,31 @@ function buildSectionData(
       }
     }
 
+    case 'programComparison': {
+      if (!content.programComparison) return null
+      const pc = content.programComparison
+      return {
+        title: pc.title,
+        subtitle: pc.subtitle,
+        programs: pc.programs,
+        features: pc.features,
+        paymentNote: pc.paymentNote,
+        whatsappPhone: business.whatsapp,
+        emailAddress: business.email,
+      }
+    }
+
+    case 'processTimeline': {
+      if (!content.processTimeline) return null
+      const pt = content.processTimeline
+      return {
+        title: pt.title,
+        subtitle: pt.subtitle,
+        steps: pt.steps,
+        totalTime: pt.totalTime,
+      }
+    }
+
     case 'faq':
       if (!content.faq || content.faq.length === 0) return null
       return {
@@ -442,6 +499,7 @@ function generatePlaceholderGallery(
     depilacion: { colors: ['#3498db', '#1abc9c', '#e8d5f5'], categories: ['Laser', 'Cera', 'Resultados'] },
     pestanas: { colors: ['#c4788b', '#d4a574', '#1a1a1a'], categories: ['Clasicas', 'Volumen', 'Cejas'] },
     diseno_grafico: { colors: ['#c4788b', '#d4af37', '#e8b4c8'], categories: ['Portadas', 'Premade', 'Mockups', 'Branding'] },
+    relocation: { colors: ['#1B2A4A', '#C9A96E', '#2C3E6B'], categories: ['Paraguay', 'Oficina', 'Equipo', 'Inversiones'] },
   }
 
   const theme = PLACEHOLDER_THEMES[businessType] || PLACEHOLDER_THEMES.peluqueria

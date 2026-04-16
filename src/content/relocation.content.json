@@ -1,0 +1,355 @@
+{
+  "locale": "es-PY",
+  "localeSecondary": "en",
+
+  "hero": {
+    "headline": "Establezca su operacion en Paraguay",
+    "headlineEn": "Establish Your Operations in Paraguay",
+    "subheadline": "Residencia, sociedad y cuenta bancaria — todo en un solo programa, un solo viaje, un equipo de profesionales a su lado.",
+    "subheadlineEn": "Residency, company formation and bank account — all in one program, one trip, one team of professionals by your side.",
+    "ctaPrimary": "Agendar Consulta Gratuita",
+    "ctaPrimaryEn": "Book a Free Consultation",
+    "ctaSecondary": "Ver Programas",
+    "ctaSecondaryEn": "View Programs"
+  },
+
+  "servicesPage": {
+    "title": "Nuestros Servicios",
+    "titleEn": "Our Services",
+    "categories": [
+      {
+        "key": "migratorios",
+        "title": "Servicios Migratorios",
+        "titleEn": "Migration Services",
+        "description": "Gestion integral del proceso de residencia y documentacion en Paraguay.",
+        "defaultServices": [
+          { "name": "Residencia Paraguaya", "description": "Gestion completa desde validacion documental hasta emision final (45-60 dias)" },
+          { "name": "Cedula de Identidad", "description": "Gestion coordinada del documento de identidad nacional" }
+        ]
+      },
+      {
+        "key": "empresariales",
+        "title": "Servicios Empresariales",
+        "titleEn": "Business Services",
+        "description": "Constitucion de sociedad y registro fiscal para operar desde el primer dia.",
+        "defaultServices": [
+          { "name": "Constitucion de Sociedad", "description": "Analisis del tipo societario, redaccion de estatutos, inscripcion registral" },
+          { "name": "Inscripcion de RUC (DNIT)", "description": "Registro fiscal, estructuracion de obligaciones, habilitacion para facturacion" }
+        ]
+      },
+      {
+        "key": "bancarios",
+        "title": "Servicios Bancarios",
+        "titleEn": "Banking Services",
+        "description": "Resolvemos el principal obstaculo para extranjeros: la apertura de cuenta bancaria.",
+        "defaultServices": [
+          { "name": "Apertura de Cuenta Bancaria", "description": "Perfil financiero, coordinacion institucional, documentacion AML/KYC, seguimiento" }
+        ]
+      },
+      {
+        "key": "contables",
+        "title": "Contabilidad y Asesoria",
+        "titleEn": "Accounting & Advisory",
+        "description": "Acompanamiento contable, fiscal y estrategico durante 12 meses.",
+        "defaultServices": [
+          { "name": "Gestion Contable (12 meses)", "description": "Contabilidad mensual, presentaciones tributarias, reportes de cumplimiento" },
+          { "name": "Asesoria Legal y Fiscal (12 meses)", "description": "Consultas continuas, revision de contratos, estructuracion fiscal" }
+        ]
+      },
+      {
+        "key": "logisticos",
+        "title": "Soporte Logistico",
+        "titleEn": "Logistical Support",
+        "description": "Acompanamiento exclusivo durante toda la jornada operativa.",
+        "defaultServices": [
+          { "name": "Jornada Operativa", "description": "Chofer exclusivo, traslados, coordinacion integral — todo en un solo dia" },
+          { "name": "Asesoramiento Integral", "description": "Orientacion juridica, fiscal y contable durante todo el programa" }
+        ]
+      },
+      {
+        "key": "inversion",
+        "title": "Servicios de Inversion",
+        "titleEn": "Investment Services",
+        "description": "Acceso directo al mercado inmobiliario y de inversiones paraguayo.",
+        "defaultServices": [
+          { "name": "Tour Estrategico Inmobiliario", "description": "Visitas a desarrolladoras, analisis tecnico, conversaciones con actores del sector" },
+          { "name": "Analisis de Inversiones (12 meses)", "description": "Evaluacion de proyectos inmobiliarios y productivos, recomendaciones estrategicas" }
+        ]
+      }
+    ]
+  },
+
+  "programComparison": {
+    "title": "Nuestros Programas",
+    "titleEn": "Our Programs",
+    "subtitle": "Elija el programa que mejor se adapte a sus necesidades",
+    "subtitleEn": "Choose the program that best fits your needs",
+    "programs": [
+      {
+        "id": "business",
+        "name": "Paraguay Business",
+        "nameEn": "Paraguay Business",
+        "price": "USD 4.400",
+        "description": "Disenado para el empresario o profesional que necesita operar en Paraguay con capacidad real: residencia, sociedad y cuenta bancaria.",
+        "descriptionEn": "Designed for the entrepreneur or professional who needs to operate in Paraguay with real capacity: residency, company and bank account.",
+        "duration": "8-12 semanas",
+        "durationEn": "8-12 weeks",
+        "highlighted": false,
+        "ctaText": "Consultar sobre este programa",
+        "ctaTextEn": "Inquire about this program"
+      },
+      {
+        "id": "investor",
+        "name": "Paraguay Investor Program",
+        "nameEn": "Paraguay Investor Program",
+        "price": "USD 6.900",
+        "description": "Para el inversor o familia de alto patrimonio que busca un socio estrategico durante todo el primer ano en Paraguay.",
+        "descriptionEn": "For the investor or high-net-worth family seeking a strategic partner throughout the first year in Paraguay.",
+        "duration": "12 meses",
+        "durationEn": "12 months",
+        "highlighted": true,
+        "badge": "Mas Completo",
+        "badgeEn": "Most Complete",
+        "ctaText": "Consultar sobre este programa",
+        "ctaTextEn": "Inquire about this program"
+      }
+    ],
+    "features": [
+      { "feature": "Residencia Paraguaya", "featureEn": "Paraguayan Residency", "business": true, "investor": true },
+      { "feature": "Cedula de Identidad", "featureEn": "Identity Card", "business": true, "investor": true },
+      { "feature": "Constitucion de Sociedad", "featureEn": "Company Formation", "business": true, "investor": true },
+      { "feature": "Registro Fiscal (RUC)", "featureEn": "Tax Registration (RUC)", "business": true, "investor": true },
+      { "feature": "Cuenta Bancaria Empresarial", "featureEn": "Business Bank Account", "business": true, "investor": true },
+      { "feature": "Validacion Documental Previa", "featureEn": "Pre-travel Document Validation", "business": true, "investor": true },
+      { "feature": "Jornada Operativa (1 dia)", "featureEn": "Operational Day (1 day)", "business": true, "investor": true },
+      { "feature": "Acompanamiento Logistico", "featureEn": "Logistical Support", "business": true, "investor": true },
+      { "feature": "Tour Inmobiliario Estrategico", "featureEn": "Strategic Real Estate Tour", "business": true, "investor": true },
+      { "feature": "Asesoramiento Integral", "featureEn": "Comprehensive Advisory", "business": "Durante el programa", "investor": "12 meses" },
+      { "feature": "Contabilidad Empresarial", "featureEn": "Business Accounting", "business": false, "investor": "12 meses" },
+      { "feature": "Asesoria Juridica y Fiscal", "featureEn": "Legal & Tax Advisory", "business": false, "investor": "12 meses" },
+      { "feature": "Analisis de Inversiones", "featureEn": "Investment Analysis", "business": false, "investor": "12 meses" }
+    ],
+    "paymentNote": "Pago anticipado. Sin cargos adicionales.",
+    "paymentNoteEn": "Advance payment. No additional charges."
+  },
+
+  "processTimeline": {
+    "title": "Como Funciona",
+    "titleEn": "How It Works",
+    "subtitle": "Un proceso claro, paso a paso",
+    "subtitleEn": "A clear, step-by-step process",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Consulta Inicial",
+        "titleEn": "Initial Consultation",
+        "description": "Conversamos sobre su situacion, objetivos y necesidades. Le recomendamos el programa mas adecuado.",
+        "descriptionEn": "We discuss your situation, goals and needs. We recommend the most suitable program.",
+        "duration": "30 min",
+        "icon": "phone"
+      },
+      {
+        "step": 2,
+        "title": "Validacion Documental",
+        "titleEn": "Document Validation",
+        "description": "Nuestro equipo legal revisa toda su documentacion antes de su viaje. No viaja hasta que todo este en orden.",
+        "descriptionEn": "Our legal team reviews all your documentation before your trip. You don't travel until everything is in order.",
+        "duration": "1-2 semanas",
+        "icon": "file-check"
+      },
+      {
+        "step": 3,
+        "title": "Jornada Operativa",
+        "titleEn": "Operational Day",
+        "description": "En un solo dia, ejecutamos todos los tramites presenciales: residencia, identidad, y coordinaciones necesarias.",
+        "descriptionEn": "In a single day, we execute all in-person procedures: residency, identity, and necessary coordination.",
+        "duration": "1 dia",
+        "icon": "calendar-check"
+      },
+      {
+        "step": 4,
+        "title": "Constitucion Empresarial",
+        "titleEn": "Company Formation",
+        "description": "Mientras regresa a su pais, constituimos su sociedad, activamos su RUC y coordinamos la apertura bancaria.",
+        "descriptionEn": "While you return home, we form your company, activate your tax registration and coordinate bank account opening.",
+        "duration": "2-6 semanas",
+        "icon": "building"
+      },
+      {
+        "step": 5,
+        "title": "Entrega y Seguimiento",
+        "titleEn": "Delivery & Follow-up",
+        "description": "Recibe sus documentos definitivos y cerramos el programa con orientacion final.",
+        "descriptionEn": "You receive your final documents and we close the program with final guidance.",
+        "duration": "45-60 dias",
+        "icon": "check-circle"
+      }
+    ],
+    "totalTime": "Tiempo total estimado: 8-12 semanas",
+    "totalTimeEn": "Estimated total time: 8-12 weeks"
+  },
+
+  "whyParaguay": {
+    "title": "Por que Paraguay",
+    "titleEn": "Why Paraguay",
+    "points": [
+      {
+        "title": "Entorno Fiscal Competitivo",
+        "titleEn": "Competitive Tax Environment",
+        "description": "Sistema territorial con impuesto del 10%. Solo se gravan rentas de fuente paraguaya.",
+        "descriptionEn": "Territorial system with 10% tax rate. Only Paraguay-sourced income is taxed."
+      },
+      {
+        "title": "Economia en Crecimiento",
+        "titleEn": "Growing Economy",
+        "description": "Crecimiento sostenido, inflacion controlada y mercado inmobiliario en desarrollo.",
+        "descriptionEn": "Sustained growth, controlled inflation and developing real estate market."
+      },
+      {
+        "title": "Calidad de Vida",
+        "titleEn": "Quality of Life",
+        "description": "Clima calido, comunidad internacional creciente y mayor poder adquisitivo que en Europa.",
+        "descriptionEn": "Warm climate, growing international community and greater purchasing power than Europe."
+      },
+      {
+        "title": "Proceso Accesible",
+        "titleEn": "Accessible Process",
+        "description": "Residencia y empresa operativa desde el primer viaje, con el equipo adecuado.",
+        "descriptionEn": "Residency and operational company from your first trip, with the right team."
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo",
+    "titleEn": "Our Team"
+  },
+
+  "contactPage": {
+    "title": "De el Primer Paso",
+    "titleEn": "Take the First Step",
+    "subtitle": "Agende una consulta gratuita de 30 minutos para evaluar su situacion.",
+    "subtitleEn": "Book a free 30-minute consultation to evaluate your situation."
+  },
+
+  "faq": [
+    {
+      "q": "Cuanto tiempo toma todo el proceso?",
+      "qEn": "How long does the entire process take?",
+      "a": "La tramitacion presencial se realiza en un solo dia. La emision de residencia y cedula toma entre 45 y 60 dias. La constitucion de sociedad y apertura bancaria se completan en 2-4 semanas. Tiempo total: 8-12 semanas.",
+      "aEn": "In-person processing is completed in a single day. Residency and ID card issuance takes 45-60 days. Company formation and bank account opening are completed in 2-4 weeks. Total time: 8-12 weeks."
+    },
+    {
+      "q": "Cuantos viajes necesito hacer a Paraguay?",
+      "qEn": "How many trips do I need to make to Paraguay?",
+      "a": "Nuestro programa esta disenado para que un solo viaje sea suficiente para dejar todo encaminado.",
+      "aEn": "Our program is designed so that a single trip is sufficient to get everything underway."
+    },
+    {
+      "q": "Que incluye el precio?",
+      "qEn": "What does the price include?",
+      "a": "Honorarios profesionales, IVA, tasas oficiales de Migraciones, gastos administrativos, coordinacion bancaria, tour inmobiliario y asesoramiento integral. No hay cargos adicionales.",
+      "aEn": "Professional fees, VAT, official Migration fees, administrative costs, banking coordination, real estate tour and comprehensive advisory. No additional charges."
+    },
+    {
+      "q": "Que no esta incluido?",
+      "qEn": "What is NOT included?",
+      "a": "Vuelos internacionales, alojamiento, gastos personales, traducciones juradas y apostillas en su pais de origen.",
+      "aEn": "International flights, accommodation, personal expenses, sworn translations and apostilles in your home country."
+    },
+    {
+      "q": "Necesito hablar espanol?",
+      "qEn": "Do I need to speak Spanish?",
+      "a": "No. Nuestro equipo le acompana en todo momento y la comunicacion es en neerlandes, ingles, aleman y espanol.",
+      "aEn": "No. Our team accompanies you at all times and communication is in Dutch, English, German and Spanish."
+    },
+    {
+      "q": "Puedo abrir una cuenta bancaria siendo extranjero?",
+      "qEn": "Can I open a bank account as a foreigner?",
+      "a": "Si, pero es el proceso mas complejo para extranjeros. Preparamos su perfil financiero y coordinamos directamente con la entidad bancaria.",
+      "aEn": "Yes, but it's the most complex process for foreigners. We prepare your financial profile and coordinate directly with the bank."
+    },
+    {
+      "q": "Que tipo de sociedad se constituye?",
+      "qEn": "What type of company is formed?",
+      "a": "Nuestro equipo legal analiza su situacion y recomienda el tipo societario mas conveniente (generalmente EAS o SA).",
+      "aEn": "Our legal team analyzes your situation and recommends the most suitable company type (generally EAS or SA)."
+    },
+    {
+      "q": "El proceso es 100% legal?",
+      "qEn": "Is the process 100% legal?",
+      "a": "Absolutamente. Operamos con estricto apego a la legislacion paraguaya y normativas internacionales.",
+      "aEn": "Absolutely. We operate in strict compliance with Paraguayan law and international regulations."
+    },
+    {
+      "q": "Que pasa si falta algun documento?",
+      "qEn": "What if a document is missing?",
+      "a": "Lo detectamos antes de su viaje. Nuestro proceso de validacion previa esta disenado para que llegue con todo en orden.",
+      "aEn": "We detect it before your trip. Our pre-validation process is designed so you arrive with everything in order."
+    },
+    {
+      "q": "Puedo traer a mi familia?",
+      "qEn": "Can I bring my family?",
+      "a": "Si. Cada miembro de la familia requiere su propio proceso de residencia. Contactenos para evaluar su caso.",
+      "aEn": "Yes. Each family member requires their own residency process. Contact us to evaluate your case."
+    },
+    {
+      "q": "Que pasa despues del primer ano (Investor Program)?",
+      "qEn": "What happens after the first year (Investor Program)?",
+      "a": "Presentamos una propuesta de continuidad adaptada a sus necesidades actuales.",
+      "aEn": "We present a continuity proposal adapted to your current needs."
+    },
+    {
+      "q": "Ofrecen garantia de apertura bancaria?",
+      "qEn": "Do you guarantee bank account opening?",
+      "a": "La decision final es de la entidad bancaria. Garantizamos la preparacion profesional de su expediente y la coordinacion institucional directa.",
+      "aEn": "The final decision belongs to the bank. We guarantee professional preparation of your file and direct institutional coordination."
+    },
+    {
+      "q": "Como se realiza el pago?",
+      "qEn": "How is payment made?",
+      "a": "Pago anticipado por transferencia bancaria. El monto cubre la totalidad del programa sin cargos adicionales.",
+      "aEn": "Advance payment by bank transfer. The amount covers the entire program with no additional charges."
+    },
+    {
+      "q": "Puedo contratar solo la residencia?",
+      "qEn": "Can I hire only the residency service?",
+      "a": "Nuestros programas estan disenados como soluciones integrales. Contactenos para discutir su situacion especifica.",
+      "aEn": "Our programs are designed as comprehensive solutions. Contact us to discuss your specific situation."
+    },
+    {
+      "q": "Que pasa si cambian las leyes durante mi proceso?",
+      "qEn": "What happens if laws change during my process?",
+      "a": "Monitoreamos constantemente el entorno regulatorio. Si hay cambios relevantes, le informamos inmediatamente y adaptamos la estrategia.",
+      "aEn": "We constantly monitor the regulatory environment. If there are relevant changes, we inform you immediately and adapt the strategy."
+    }
+  ],
+
+  "ctaBanner": {
+    "title": "Listo para establecer su operacion en Paraguay?",
+    "titleEn": "Ready to establish your operations in Paraguay?",
+    "buttonText": "Agendar Consulta Gratuita",
+    "buttonTextEn": "Book a Free Consultation"
+  },
+
+  "footer": {
+    "quickLinks": ["Programas", "Proceso", "Equipo", "FAQ", "Contacto"],
+    "copyright": "© {{year}} {{businessName}}. Todos los derechos reservados.",
+    "tagline": "Establecimiento operativo en Paraguay. Profesional, integrado, sin sorpresas.",
+    "taglineEn": "Operational establishment in Paraguay. Professional, integrated, no surprises."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Me interesa obtener mas informacion sobre los programas de {{businessName}} para establecerme en Paraguay.",
+    "defaultMessageEn": "Hello! I'm interested in learning more about {{businessName}}'s programs for establishing operations in Paraguay."
+  },
+
+  "trustSignals": {
+    "items": [
+      { "text": "Equipo multidisciplinario de primer nivel", "textEn": "First-class multidisciplinary team" },
+      { "text": "Proceso comprobado con clientes internacionales", "textEn": "Proven process with international clients" },
+      { "text": "Precio todo incluido, sin sorpresas", "textEn": "All-inclusive pricing, no surprises" },
+      { "text": "Un solo programa, un solo viaje", "textEn": "One program, one trip" }
+    ]
+  }
+}
