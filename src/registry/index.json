@@ -72,9 +72,9 @@
       "tokens": "barberia",
       "content": "barberia",
       "schema": "barberia",
-      "leadCount": 39,
+      "leadCount": 778,
       "noWebsitePercent": 77,
-      "priorityALeads": 27
+      "priorityALeads": 545
     },
     "estetica": {
       "id": "estetica",
@@ -108,9 +108,33 @@
       "tokens": "depilacion",
       "content": "depilacion",
       "schema": "depilacion",
-      "leadCount": 9,
+      "leadCount": 20,
       "noWebsitePercent": 78,
       "priorityALeads": 7
+    },
+    "salon_belleza": {
+      "id": "salon_belleza",
+      "nameEs": "Salon de Belleza",
+      "nameEn": "Full-Service Beauty Salon",
+      "icon": "sparkles",
+      "tokens": "salon_belleza",
+      "content": "salon_belleza",
+      "schema": "salon_belleza",
+      "leadCount": 1210,
+      "noWebsitePercent": 75,
+      "priorityALeads": 847
+    },
+    "pestanas": {
+      "id": "pestanas",
+      "nameEs": "Pestanas y Cejas",
+      "nameEn": "Lashes & Brows Studio",
+      "icon": "eye",
+      "tokens": "pestanas",
+      "content": "pestanas",
+      "schema": "pestanas",
+      "leadCount": 49,
+      "noWebsitePercent": 76,
+      "priorityALeads": 34
     }
   },
 
