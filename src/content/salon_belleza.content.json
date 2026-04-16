@@ -1,0 +1,122 @@
+{
+  "id": "salon_belleza",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Tu Centro de Belleza en {{city}}",
+    "subheadline": "Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar",
+    "ctaPrimary": "Reservar Cita",
+    "ctaSecondary": "Ver Servicios"
+  },
+
+  "servicesPage": {
+    "title": "Servicios y Precios",
+    "categories": [
+      {
+        "key": "cabello",
+        "title": "Cabello",
+        "description": "Cortes, coloracion y tratamientos capilares para todo tipo de cabello",
+        "defaultServices": [
+          { "name": "Corte Dama", "price": null, "duration": 45, "description": "Corte y styling profesional" },
+          { "name": "Coloracion Completa", "priceFrom": null, "duration": 90, "description": "Color base completo y personalizado" },
+          { "name": "Mechas / Highlights", "priceFrom": null, "duration": 120, "description": "Iluminaciones y reflejos naturales" },
+          { "name": "Keratina", "price": null, "duration": 120, "description": "Alisado y reparacion intensiva" }
+        ]
+      },
+      {
+        "key": "unas",
+        "title": "Uñas",
+        "description": "Manicura, pedicura y diseños personalizados",
+        "defaultServices": [
+          { "name": "Manicura Clasica", "price": null, "duration": 30, "description": "Limado, cutículas y esmaltado" },
+          { "name": "Pedicura Completa", "price": null, "duration": 45, "description": "Cuidado completo de pies y esmaltado" },
+          { "name": "Uñas en Gel", "price": null, "duration": 60, "description": "Aplicacion de gel con diseño a eleccion" },
+          { "name": "Nail Art", "priceFrom": null, "duration": 75, "description": "Diseños personalizados y creativos" }
+        ]
+      },
+      {
+        "key": "maquillaje",
+        "title": "Maquillaje",
+        "description": "Maquillaje profesional para toda ocasion",
+        "defaultServices": [
+          { "name": "Maquillaje Social", "price": null, "duration": 45, "description": "Para eventos y reuniones especiales" },
+          { "name": "Maquillaje de Novia", "price": null, "duration": 90, "description": "Look completo con prueba previa" },
+          { "name": "Maquillaje Quinceañera", "price": null, "duration": 60, "description": "Diseño especial para tu gran dia" }
+        ]
+      },
+      {
+        "key": "tratamientos_faciales",
+        "title": "Tratamientos Faciales",
+        "description": "Cuidados profesionales para una piel radiante",
+        "defaultServices": [
+          { "name": "Limpieza Facial Profunda", "price": null, "duration": 60, "description": "Limpieza, extraccion y mascarilla" },
+          { "name": "Tratamiento Anti-Age", "price": null, "duration": 75, "description": "Rejuvenecimiento y firmeza para la piel" },
+          { "name": "Hidratacion Facial", "price": null, "duration": 45, "description": "Nutricion intensiva y luminosidad" }
+        ]
+      },
+      {
+        "key": "paquetes",
+        "title": "Paquetes",
+        "description": "Combina servicios y ahorra con nuestros paquetes especiales",
+        "defaultServices": [
+          { "name": "Spa Day", "priceFrom": null, "duration": 180, "description": "Facial + manicura + pedicura + masaje" },
+          { "name": "Novia Completa", "priceFrom": null, "duration": 240, "description": "Maquillaje + peinado + manicura + prueba previa" },
+          { "name": "Dia de Chicas", "priceFrom": null, "duration": 150, "description": "Paquete grupal: mani + pedi + facial para 3+ personas" }
+        ]
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo",
+    "memberTemplate": {
+      "buttonText": "Reservar con {{name}}"
+    }
+  },
+
+  "galleryPage": {
+    "title": "Galeria",
+    "subtitle": "Conoce nuestro trabajo",
+    "categories": ["Cabello", "Uñas", "Maquillaje", "Tratamientos"],
+    "ctaText": "Ver Galeria Completa"
+  },
+
+  "contactPage": {
+    "title": "Contacto",
+    "locationTitle": "Visitanos en {{neighborhood}}",
+    "formFields": ["name", "phone", "service", "preferredDate", "message"],
+    "formSubmitText": "Enviar Consulta"
+  },
+
+  "faq": [
+    { "q": "Puedo combinar varios servicios en una sola visita?", "a": "Si, ofrecemos paquetes combinados y podes agendar multiples servicios el mismo dia para mayor comodidad." },
+    { "q": "Tienen paquetes para novias?", "a": "Si, nuestro paquete Novia Completa incluye maquillaje, peinado, manicura y una prueba previa para asegurar tu look perfecto." },
+    { "q": "Ofrecen descuentos para grupos?", "a": "Si, tenemos el paquete Dia de Chicas y opciones especiales para despedidas, cumpleaños y eventos grupales." },
+    { "q": "Cuanto tiempo dura un tratamiento facial?", "a": "Depende del tipo de tratamiento. Una limpieza facial profunda dura aproximadamente 60 minutos." },
+    { "q": "Necesito reservar con anticipacion?", "a": "Recomendamos reservar con al menos 24 horas de anticipacion, especialmente para servicios de novia y paquetes." }
+  ],
+
+  "ctaBanner": {
+    "title": "Lista para consentirte?",
+    "buttonText": "Reservar Ahora"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  },
+
+  "seo": {
+    "altTextTemplates": {
+      "service": "{{serviceName}} en {{businessName}}, {{city}}",
+      "portfolio": "Resultado de {{serviceName}} por {{businessName}}",
+      "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
+    }
+  }
+}
