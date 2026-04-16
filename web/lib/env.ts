@@ -137,6 +137,5 @@ export const env = {
 export type Env = typeof env
 
 if (env.isDev && typeof window === 'undefined') {
-  // eslint-disable-next-line no-console
   console.info('[ENV] Environment variables validated successfully')
 }

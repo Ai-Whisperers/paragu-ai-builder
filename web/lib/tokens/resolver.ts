@@ -9,61 +9,16 @@
  */
 
 import type { BusinessType } from '@/lib/types'
-import { readFileSync } from 'fs'
-import { resolve } from 'path'
+import { loadContent } from '@/lib/content/loader'
+import {
+  baseTokensSchema,
+  typeTokensSchema,
+  type BaseTokens,
+  type TypeTokens,
+} from '@/lib/content/schemas'
 
-export interface TokenColors {
-  primary: string
-  secondary: string
-  accent?: string
-  background: string
-  surface: string
-  text: string
-  textLight?: string
-  textMuted?: string
-  success?: string
-  error?: string
-  warning?: string
-  surfaceLight?: string
-  secondaryHover?: string
-}
-
-export interface TokenTypography {
-  heading: string
-  body: string
-  accent?: string
-  headingWeight: string
-  bodyWeight: string
-  textTransform?: string
-}
-
-export interface TypeTokens {
-  name: string
-  extends: string
-  theme: 'light' | 'dark'
-  mood: string[]
-  palettes: Record<string, { name: string; colors: TokenColors }>
-  defaultPalette: string
-  typography: TokenTypography
-  googleFonts: string[]
-  borderRadius: string
-  buttonStyle: string
-  components: Record<string, Record<string, unknown>>
-}
-
-export interface BaseTokens {
-  spacing: Record<string, { value: string }>
-  borderRadius: Record<string, { value: string }>
-  shadows: Record<string, { value: string }>
-  typography: {
-    scale: Record<string, { value: string }>
-    lineHeight: Record<string, { value: string }>
-  }
-  animation: {
-    duration: Record<string, { value: string }>
-  }
-  layout: Record<string, Record<string, { value: string }>>
-}
+// Re-exported for consumers that want the structural types.
+export type { BaseTokens, TypeTokens } from '@/lib/content/schemas'
 
 export interface ResolvedTokens {
   cssVariables: Record<string, string>
@@ -72,10 +27,12 @@ export interface ResolvedTokens {
   theme: 'light' | 'dark'
 }
 
-function loadJsonFile<T>(relativePath: string): T {
-  const fullPath = resolve(process.cwd(), '..', relativePath)
-  const content = readFileSync(fullPath, 'utf-8')
-  return JSON.parse(content)
+function loadBaseTokens(): BaseTokens {
+  return loadContent('tokens', 'base.tokens.json', baseTokensSchema)
+}
+
+function loadTypeTokens(businessType: BusinessType): TypeTokens {
+  return loadContent('tokens', `${businessType}.tokens.json`, typeTokensSchema)
 }
 
 /**
@@ -85,13 +42,15 @@ export function resolveTokens(
   businessType: BusinessType,
   paletteOverride?: string
 ): ResolvedTokens {
-  const base = loadJsonFile<BaseTokens>('src/tokens/base.tokens.json')
-  const type = loadJsonFile<TypeTokens>(`src/tokens/${businessType}.tokens.json`)
+  const base = loadBaseTokens()
+  const type = loadTypeTokens(businessType)
 
   const paletteName = paletteOverride || type.defaultPalette
   const palette = type.palettes[paletteName]
   if (!palette) {
-    throw new Error(`[TokenResolver] Palette "${paletteName}" not found for ${businessType}`)
+    throw new Error(
+      `[TokenResolver] Palette "${paletteName}" not found for ${businessType}`
+    )
   }
   const colors = palette.colors
 
@@ -153,25 +112,26 @@ export function resolveTokens(
   vars['--transition-slow'] = base.animation.duration.slow.value
 
   // Layout from base
-  if (base.layout?.grid) {
-    vars['--grid-gap'] = base.layout.grid.gap.value
-  }
+  const gridGap = base.layout?.grid?.gap?.value
+  if (gridGap) vars['--grid-gap'] = gridGap
 
   // Button component overrides from type
-  if (type.components?.button) {
-    const btn = type.components.button
-    if (btn.borderRadius) vars['--button-radius'] = btn.borderRadius as string
-    if (btn.padding) vars['--button-padding'] = btn.padding as string
-    if (btn.textTransform) vars['--button-transform'] = btn.textTransform as string
-    if (btn.fontWeight) vars['--button-weight'] = btn.fontWeight as string
+  const btn = type.components?.button
+  if (btn) {
+    if (typeof btn.borderRadius === 'string') vars['--button-radius'] = btn.borderRadius
+    if (typeof btn.padding === 'string') vars['--button-padding'] = btn.padding
+    if (typeof btn.textTransform === 'string') vars['--button-transform'] = btn.textTransform
+    if (typeof btn.fontWeight === 'string') vars['--button-weight'] = btn.fontWeight
   }
 
   // Google Fonts URL
-  const googleFontsUrl = type.googleFonts.length > 0
-    ? `https://fonts.googleapis.com/css2?${type.googleFonts.map((f) => `family=${f}`).join('&')}&display=swap`
-    : ''
+  const googleFontsUrl =
+    type.googleFonts.length > 0
+      ? `https://fonts.googleapis.com/css2?${type.googleFonts
+          .map((f) => `family=${f}`)
+          .join('&')}&display=swap`
+      : ''
 
-  // Build CSS string
   const cssString = Object.entries(vars)
     .map(([key, value]) => `${key}: ${value};`)
     .join('\n  ')
@@ -190,7 +150,7 @@ export function resolveTokens(
 export function getAvailablePalettes(
   businessType: BusinessType
 ): Array<{ id: string; name: string }> {
-  const type = loadJsonFile<TypeTokens>(`src/tokens/${businessType}.tokens.json`)
+  const type = loadTypeTokens(businessType)
   return Object.entries(type.palettes).map(([id, palette]) => ({
     id,
     name: palette.name,

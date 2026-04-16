@@ -142,7 +142,6 @@ function log(level: LogLevel, message: string, contextOrError?: LogContext | Err
       console.warn(output)
       break
     default:
-      // eslint-disable-next-line no-console
       console.log(output)
   }
 }

@@ -13,10 +13,19 @@
  * ```
  */
 
-import { SupabaseClient } from '@supabase/supabase-js'
+import { SupabaseClient, PostgrestError } from '@supabase/supabase-js'
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type QueryFilter = (query: any) => any
+/**
+ * A query filter narrows a PostgREST builder (`.eq`, `.lt`, `.order`, …).
+ *
+ * The PostgREST builders carry heavy generics (schema, table row type,
+ * relation graph) that don't add value when we're just forwarding `.eq()`
+ * calls, so we erase them at this boundary. The real typing lives in each
+ * caller, which asserts the expected row shape via `<T>` on `select/insert`.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any -- postgrest generics are intentionally erased at this boundary
+type AnyBuilder = any
+type QueryFilter = (query: AnyBuilder) => AnyBuilder
 
 const SLOW_QUERY_THRESHOLD_MS = 1000
 
@@ -46,33 +55,43 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
         single?: boolean
         count?: 'exact' | 'planned' | 'estimated'
       }
-    ): Promise<{ data: T[] | T | null; error: Error | null; count?: number }> => {
+    ): Promise<{ data: T[] | T | null; error: PostgrestError | null; count?: number }> => {
       const startTime = performance.now()
 
-      let query = supabase.from(table).select(columns, { count: options?.count })
-      query = query.eq('business_id', businessId)
+      let query = supabase
+        .from(table)
+        .select(columns, { count: options?.count })
+        .eq('business_id', businessId) as AnyBuilder
 
       if (options?.filter) {
         query = options.filter(query)
       }
 
       if (options?.single) {
-        const result = await query.single()
+        const result = await (query).single()
         trackQuery(table, 'select', performance.now() - startTime, result.data ? 1 : 0)
-        return { data: result.data as T | null, error: result.error, count: result.count ?? undefined }
+        return {
+          data: result.data as T | null,
+          error: result.error,
+          count: result.count ?? undefined,
+        }
       }
 
       const result = await query
       const rowCount = Array.isArray(result.data) ? result.data.length : undefined
       trackQuery(table, 'select', performance.now() - startTime, rowCount)
-      return { data: result.data as T[] | null, error: result.error, count: result.count ?? undefined }
+      return {
+        data: result.data as T[] | null,
+        error: result.error,
+        count: result.count ?? undefined,
+      }
     },
 
     insert: async <T = unknown>(
       table: string,
       data: Record<string, unknown> | Record<string, unknown>[],
       options?: { returning?: boolean }
-    ): Promise<{ data: T[] | null; error: Error | null }> => {
+    ): Promise<{ data: T[] | null; error: PostgrestError | null }> => {
       const startTime = performance.now()
       const records = Array.isArray(data) ? data : [data]
 
@@ -84,7 +103,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
       const baseQuery = supabase.from(table).insert(scopedRecords)
       const result = options?.returning !== false ? await baseQuery.select() : await baseQuery
       trackQuery(table, 'insert', performance.now() - startTime, scopedRecords.length)
-      return { data: result.data as T[] | null, error: result.error }
+      return { data: (result.data as T[] | null) ?? null, error: result.error }
     },
 
     update: async <T = unknown>(
@@ -92,26 +111,32 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
       data: Record<string, unknown>,
       filter: QueryFilter,
       options?: { returning?: boolean }
-    ): Promise<{ data: T[] | null; error: Error | null }> => {
+    ): Promise<{ data: T[] | null; error: PostgrestError | null }> => {
       const startTime = performance.now()
-      // Prevent cross-business moves
-      const { business_id: _, ...safeData } = data
+      // Strip business_id to prevent cross-business moves.
+      const { business_id: _stripped, ...safeData } = data
+      void _stripped
 
       const baseQuery = filter(
-        supabase.from(table).update(safeData).eq('business_id', businessId)
+        supabase.from(table).update(safeData).eq('business_id', businessId) as AnyBuilder
       )
 
-      const result = options?.returning !== false ? await baseQuery.select() : await baseQuery
+      const result = options?.returning !== false
+        ? await (baseQuery).select()
+        : await baseQuery
       const rowCount = Array.isArray(result.data) ? result.data.length : undefined
       trackQuery(table, 'update', performance.now() - startTime, rowCount)
-      return { data: result.data as T[] | null, error: result.error }
+      return { data: (result.data as T[] | null) ?? null, error: result.error }
     },
 
-    delete: async (table: string, filter: QueryFilter): Promise<{ error: Error | null }> => {
+    delete: async (
+      table: string,
+      filter: QueryFilter
+    ): Promise<{ error: PostgrestError | null }> => {
       const startTime = performance.now()
-      let query = supabase.from(table).delete()
-      query = query.eq('business_id', businessId)
-      query = filter(query)
+      const query = filter(
+        supabase.from(table).delete().eq('business_id', businessId) as AnyBuilder
+      )
 
       const result = await query
       trackQuery(table, 'delete', performance.now() - startTime)
@@ -121,10 +146,12 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     count: async (
       table: string,
       filter?: QueryFilter
-    ): Promise<{ count: number; error: Error | null }> => {
+    ): Promise<{ count: number; error: PostgrestError | null }> => {
       const startTime = performance.now()
-      let query = supabase.from(table).select('*', { count: 'exact', head: true })
-      query = query.eq('business_id', businessId)
+      let query = supabase
+        .from(table)
+        .select('*', { count: 'exact', head: true })
+        .eq('business_id', businessId) as AnyBuilder
 
       if (filter) {
         query = filter(query)
@@ -138,7 +165,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     exists: async (
       table: string,
       id: string
-    ): Promise<{ exists: boolean; error: Error | null }> => {
+    ): Promise<{ exists: boolean; error: PostgrestError | null }> => {
       const { count, error } = await supabase
         .from(table)
         .select('*', { count: 'exact', head: true })
@@ -152,7 +179,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
       table: string,
       id: string,
       columns: string = 'id, business_id'
-    ): Promise<{ data: T | null; valid: boolean; error: Error | null }> => {
+    ): Promise<{ data: T | null; valid: boolean; error: PostgrestError | null }> => {
       const { data, error } = await supabase
         .from(table)
         .select(columns)
