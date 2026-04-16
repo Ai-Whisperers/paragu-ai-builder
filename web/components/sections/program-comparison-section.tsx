@@ -147,7 +147,7 @@ export function ProgramComparisonSection({
 
         {/* Comparison Table */}
         <AnimateOnScroll>
-          <div className="mx-auto max-w-4xl overflow-hidden rounded-xl" style={{ border: '1px solid var(--border)' }}>
+          <div className="mx-auto max-w-4xl overflow-x-auto rounded-xl" style={{ border: '1px solid var(--border)' }} role="table" aria-label={t(title, titleEn)}>
             <div
               className="grid items-center gap-4 px-6 py-4"
               style={{
@@ -181,9 +181,9 @@ export function ProgramComparisonSection({
                   return (
                     <div key={p.id} className="text-center text-sm">
                       {value === true ? (
-                        <span style={{ color: 'var(--secondary)', fontSize: '1.25rem' }}>✓</span>
+                        <span style={{ color: 'var(--secondary)', fontSize: '1.25rem' }} aria-label="Included">✓</span>
                       ) : value === false ? (
-                        <span style={{ color: 'var(--text-light)' }}>—</span>
+                        <span style={{ color: 'var(--text-light)' }} aria-label="Not included">—</span>
                       ) : (
                         <span className="text-xs font-medium" style={{ color: 'var(--secondary)' }}>
                           {value}

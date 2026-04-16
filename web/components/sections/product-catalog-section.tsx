@@ -71,7 +71,7 @@ function ProductCard({
   return (
     <AnimateOnScroll stagger={index}>
       <Card className="flex flex-col overflow-hidden">
-        {product.imageUrl && (
+        {product.imageUrl?.trim() && (
           <CardImage src={product.imageUrl} alt={product.name} className="h-64" />
         )}
         <CardContent className="flex flex-1 flex-col">
@@ -155,8 +155,11 @@ export function ProductCatalogSection({
 
         {/* Category filter tabs */}
         {hasCategories && (
-          <div className="mb-10 flex flex-wrap justify-center gap-2">
+          <div className="mb-10 flex flex-wrap justify-center gap-2" role="tablist" aria-label="Filter by category">
             <button
+              role="tab"
+              aria-selected={activeCategory === null}
+              aria-pressed={activeCategory === null}
               onClick={() => setActiveCategory(null)}
               className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-normal ${
                 activeCategory === null
@@ -169,6 +172,9 @@ export function ProductCatalogSection({
             {allCategories.map((cat) => (
               <button
                 key={cat}
+                role="tab"
+                aria-selected={activeCategory === cat}
+                aria-pressed={activeCategory === cat}
                 onClick={() => setActiveCategory(cat)}
                 className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-normal ${
                   activeCategory === cat

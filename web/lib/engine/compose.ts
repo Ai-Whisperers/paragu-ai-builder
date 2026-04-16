@@ -22,6 +22,7 @@ export type SectionType =
   | 'header'
   | 'hero'
   | 'services'
+  | 'serviceCategories'
   | 'productCatalog'
   | 'programComparison'
   | 'processTimeline'
@@ -235,9 +236,10 @@ interface ContentTemplate {
 const SECTION_MAP: Record<string, SectionType> = {
   header: 'header',
   hero: 'hero',
-  servicesPreview: 'services',
+  servicesPreview: 'serviceCategories',
   serviceMenu: 'services',
   services: 'services',
+  serviceCategories: 'serviceCategories',
   galleryPreview: 'gallery',
   portfolioGallery: 'gallery',
   gallery: 'gallery',
@@ -407,6 +409,19 @@ function buildSectionData(
         services,
         showPrices: registry.features?.pricingDisplay?.enabled ?? true,
         showDuration: true,
+      }
+    }
+
+    case 'serviceCategories': {
+      // Rich category display with descriptions and sub-services
+      if (!content.servicesPage.categories || content.servicesPage.categories.length === 0) {
+        return null
+      }
+      const sp = content.servicesPage as Record<string, unknown>
+      return {
+        title: content.servicesPage.title,
+        titleEn: sp.titleEn,
+        categories: content.servicesPage.categories,
       }
     }
 

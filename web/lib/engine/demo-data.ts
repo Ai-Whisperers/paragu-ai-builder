@@ -151,6 +151,11 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     email: 'dayah@litworks.com',
     whatsapp: '+595981000000',
     instagram: '@dayah.litworks',
+    hours: {
+      'Lunes - Viernes': '09:00 - 18:00',
+      'Sabado': '10:00 - 15:00',
+      'Domingo': 'Cerrado',
+    },
     services: [
       { name: 'Portada Personalizada - Ebook', price: 'Consultar', description: 'Diseno exclusivo para tu ebook, incluye revisiones', category: 'Portadas Personalizadas' },
       { name: 'Portada Personalizada - Tapa Blanda', price: 'Consultar', description: 'Portada completa (frente, lomo y contra) para impresion', category: 'Portadas Personalizadas' },

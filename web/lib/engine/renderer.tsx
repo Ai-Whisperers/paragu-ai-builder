@@ -9,6 +9,7 @@ import type { ComposedSection } from './compose'
 import { HeaderSection } from '@/components/sections/header-section'
 import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
+import { ServiceCategoriesSection } from '@/components/sections/service-categories-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { ProgramComparisonSection } from '@/components/sections/program-comparison-section'
 import { ProcessTimelineSection } from '@/components/sections/process-timeline-section'
@@ -29,6 +30,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   header: HeaderSection,
   hero: HeroSection,
   services: ServicesSection,
+  serviceCategories: ServiceCategoriesSection,
   productCatalog: ProductCatalogSection,
   programComparison: ProgramComparisonSection,
   processTimeline: ProcessTimelineSection,
