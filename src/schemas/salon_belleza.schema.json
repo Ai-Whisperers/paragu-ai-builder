@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "salon_belleza",
+  "title": "Full-Service Beauty Salon Business Input Schema",
+  "description": "Additional fields required from full-service beauty salons beyond the base schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "numberOfStylists": { "type": "integer", "minimum": 1 },
+    "serviceCategories": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["cabello", "unas", "maquillaje", "tratamientos_faciales", "tratamientos_corporales", "paquetes"] }
+    },
+    "portfolioTypes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["cabello", "unas", "maquillaje", "tratamientos"] }
+    },
+    "specialties": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["novias", "quinceaneras", "eventos", "spa"] }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "location.city", "services", "portfolio.images"],
+    "priority2": ["team", "branding.logoUrl", "hours", "contact.instagram"],
+    "priority3": ["seo.googleBusinessProfileUrl", "branding.referenceWebsites", "faq"]
+  }
+}

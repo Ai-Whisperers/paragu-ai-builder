@@ -1,0 +1,76 @@
+{
+  "name": "Salon de Belleza (Full-Service Beauty Salon)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["sophisticated", "premium", "welcoming", "professional"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Golden Elegance",
+      "colors": {
+        "primary": "#1c1c1c",
+        "secondary": "#a67c52",
+        "background": "#faf8f5",
+        "surface": "#ffffff",
+        "text": "#2b2b2b",
+        "textLight": "#666666",
+        "accent": "#d4b88c",
+        "success": "#4a7c59",
+        "error": "#c0392b",
+        "surfaceLight": "#f5f0eb",
+        "secondaryHover": "#8e6a45"
+      }
+    },
+    "optionB": {
+      "name": "Plum Luxe",
+      "colors": {
+        "primary": "#1a1520",
+        "secondary": "#8b5e83",
+        "background": "#faf7f9",
+        "surface": "#ffffff",
+        "text": "#2d2d2d",
+        "textLight": "#666666",
+        "accent": "#c9a0ba",
+        "success": "#4a7c59",
+        "error": "#c0392b"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Lora', serif",
+    "body": "'Source Sans 3', sans-serif",
+    "accent": "'Lora', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Lora:wght@400;500;600;700", "Source+Sans+3:wght@300;400;500;600"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-md",
+
+  "components": {
+    "button": {
+      "padding": "12px 28px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "serviceCard": {
+      "borderRadius": "12px",
+      "hoverTranslateY": "-4px",
+      "imageRatio": "4:3"
+    },
+    "teamCard": {
+      "imageShape": "circle",
+      "imageSize": "160px"
+    },
+    "gallery": {
+      "layout": "masonry"
+    }
+  }
+}
