@@ -31,6 +31,7 @@ export type SectionType =
   | 'team'
   | 'testimonials'
   | 'contact'
+  | 'contactForm'
   | 'faq'
   | 'ctaBanner'
   | 'footer'
@@ -249,6 +250,7 @@ const SECTION_MAP: Record<string, SectionType> = {
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
+  contactForm: 'contactForm',
   faq: 'faq',
   ctaBanner: 'ctaBanner',
   footer: 'footer',
@@ -417,6 +419,22 @@ function buildSectionData(
         phone: business.phone,
         email: business.email,
         whatsapp: business.whatsapp,
+        googleMapsUrl: business.googleMapsUrl,
+        hours: business.hours,
+      }
+
+    case 'contactForm':
+      return {
+        title: content.contactPage?.title || 'Contacto',
+        subtitle: (content.contactPage as Record<string, unknown>)?.subtitle as string | undefined,
+        businessName: business.name,
+        address: business.address,
+        neighborhood: business.neighborhood,
+        city: business.city,
+        phone: business.phone,
+        email: business.email,
+        whatsapp: business.whatsapp,
+        calendarUrl: business.calendarUrl,
         googleMapsUrl: business.googleMapsUrl,
         hours: business.hours,
       }

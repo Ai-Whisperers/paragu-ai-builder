@@ -18,6 +18,7 @@ import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
 import { ContactSection } from '@/components/sections/contact-section'
+import { ContactFormSection } from '@/components/sections/contact-form-section'
 import { FAQSection } from '@/components/sections/faq-section'
 import { CTABannerSection } from '@/components/sections/cta-banner-section'
 import { FooterSection } from '@/components/sections/footer-section'
@@ -37,6 +38,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   team: TeamSection,
   testimonials: TestimonialsSection,
   contact: ContactSection,
+  contactForm: ContactFormSection,
   faq: FAQSection,
   ctaBanner: CTABannerSection,
   footer: FooterSection,
