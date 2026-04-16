@@ -17,8 +17,8 @@ CREATE TABLE businesses (
   slug TEXT UNIQUE NOT NULL,
   name TEXT NOT NULL,
   type TEXT NOT NULL CHECK (type IN (
-    'peluqueria', 'gimnasio', 'spa', 'unas', 'tatuajes',
-    'barberia', 'estetica', 'maquillaje', 'depilacion'
+    'peluqueria', 'salon_belleza', 'gimnasio', 'spa', 'unas', 'tatuajes',
+    'barberia', 'estetica', 'maquillaje', 'depilacion', 'pestanas'
   )),
   -- Contact
   phone TEXT,
