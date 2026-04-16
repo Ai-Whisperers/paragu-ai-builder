@@ -1,0 +1,69 @@
+{
+  "id": "diseno_grafico",
+  "nameEs": "Diseno Grafico",
+  "nameEn": "Graphic Design",
+
+  "tokens": "diseno_grafico",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesOverview", "productCatalog", "portfolioGallery", "testimonials", "contact", "footer"],
+      "requiredSections": ["header", "hero", "productCatalog", "portfolioGallery", "footer"]
+    },
+    "portfolio": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "catalog": {
+      "sections": ["header", "productCatalog", "footer"],
+      "requiredSections": ["header", "productCatalog", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false, "method": "whatsapp", "fallback": "email" },
+    "serviceMenu": { "enabled": true, "showPrices": true },
+    "productCatalog": { "enabled": true, "showPrices": true, "whatsappOrder": true },
+    "portfolio": { "enabled": true, "minImages": 12, "categories": ["portadas", "premade", "mockups", "branding"] },
+    "staffProfiles": { "enabled": false },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": false },
+    "testimonials": { "enabled": true }
+  },
+
+  "serviceCategories": ["portadas_personalizadas", "portadas_premade", "mockups_3d", "branding"],
+
+  "targetAudience": {
+    "primary": "Independent authors, self-publishing writers",
+    "secondary": "Small publishers, content creators, bloggers"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Diseno Grafico Profesional en {{city}}",
+    "descriptionTemplate": "Diseno grafico profesional en {{city}}. Portadas de libros, diseno editorial y branding creativo. Consulta nuestro catalogo.",
+    "schemaType": "ProfessionalService",
+    "keywords": ["diseno grafico {{city}}", "portadas de libros {{city}}", "diseno editorial {{city}}", "book cover design {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Catalogo", "Portafolio", "Contacto"],
+    "cta": { "text": "Contactame", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "Donde la fantasia se convierte en realidad",
+    "subheadlineTemplate": "Diseno de portadas y arte visual para tu proyecto",
+    "ctaPrimary": { "text": "Ver Catalogo", "action": "scrollTo:catalogo" },
+    "ctaSecondary": { "text": "Trabajemos Juntos", "action": "whatsapp" }
+  }
+}
