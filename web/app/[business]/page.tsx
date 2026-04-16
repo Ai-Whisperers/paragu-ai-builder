@@ -7,6 +7,9 @@ interface Props {
   params: Promise<{ business: string }>
 }
 
+// Only serve statically generated slugs — return 404 for unknown slugs
+export const dynamicParams = false
+
 /**
  * Pre-generate demo business sites at build time.
  */
