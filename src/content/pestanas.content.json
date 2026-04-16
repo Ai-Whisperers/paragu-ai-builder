@@ -1,0 +1,87 @@
+{
+  "id": "pestanas",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Tu Mirada Perfecta en {{city}}",
+    "subheadline": "Extensiones de pestañas, microblading y diseño de cejas que realzan tu belleza natural",
+    "ctaPrimary": "Reservar Cita",
+    "ctaSecondary": "Ver Servicios"
+  },
+
+  "servicesPage": {
+    "title": "Servicios y Precios",
+    "categories": [
+      {
+        "key": "pestanas",
+        "title": "Pestañas",
+        "description": "Extensiones y tratamientos para una mirada irresistible",
+        "defaultServices": [
+          { "name": "Extensiones Clasicas", "price": null, "duration": 120, "description": "Pestañas pelo a pelo para un look natural y elegante" },
+          { "name": "Extensiones Volumen", "price": null, "duration": 150, "description": "Mayor densidad con abanicos de 2-5 pestañas por pelo natural" },
+          { "name": "Extensiones Mega Volumen", "price": null, "duration": 180, "description": "Maxima densidad y dramatismo para una mirada impactante" },
+          { "name": "Lifting de Pestañas", "price": null, "duration": 60, "description": "Curvatura natural sin extensiones, incluye tinte" },
+          { "name": "Tinte de Pestañas", "price": null, "duration": 30, "description": "Color intenso para pestañas mas definidas" }
+        ]
+      },
+      {
+        "key": "cejas",
+        "title": "Cejas",
+        "description": "Diseño y cuidado profesional para enmarcar tu mirada",
+        "defaultServices": [
+          { "name": "Diseño de Cejas", "price": null, "duration": 30, "description": "Diseño personalizado segun la forma de tu rostro" },
+          { "name": "Depilacion con Hilo", "price": null, "duration": 20, "description": "Tecnica precisa y delicada para una forma perfecta" },
+          { "name": "Microblading", "priceFrom": null, "duration": 120, "description": "Micropigmentacion pelo a pelo para cejas naturales y definidas" },
+          { "name": "Laminado de Cejas", "price": null, "duration": 45, "description": "Cejas peinadas y fijadas con efecto laminado" },
+          { "name": "Tinte de Cejas", "price": null, "duration": 20, "description": "Color y definicion para cejas mas expresivas" }
+        ]
+      }
+    ]
+  },
+
+  "galleryPage": {
+    "title": "Nuestro Trabajo",
+    "subtitle": "Transformaciones que hablan por si solas",
+    "categories": ["Pestañas", "Cejas", "Microblading"],
+    "ctaText": "Ver Galeria Completa"
+  },
+
+  "contactPage": {
+    "title": "Contacto",
+    "locationTitle": "Visitanos en {{neighborhood}}",
+    "formFields": ["name", "phone", "service", "preferredDate", "message"],
+    "formSubmitText": "Enviar Consulta"
+  },
+
+  "faq": [
+    { "q": "Cuanto duran las extensiones de pestañas?", "a": "Las extensiones duran entre 3 y 4 semanas. Recomendamos retoques cada 2-3 semanas para mantenerlas perfectas." },
+    { "q": "Que cuidados debo tener despues de colocarme extensiones?", "a": "Evita mojarlas las primeras 24 horas, no uses productos oleosos cerca de los ojos y peinadas con el cepillito todos los dias." },
+    { "q": "Cuanto tiempo tarda en sanar el microblading?", "a": "El proceso de cicatrizacion completo toma entre 4 y 6 semanas. Los primeros dias el color se vera mas intenso y luego se suavizara." },
+    { "q": "Las extensiones dañan mis pestañas naturales?", "a": "No, cuando son aplicadas correctamente por una profesional, las extensiones no dañan las pestañas naturales." },
+    { "q": "Cada cuanto debo hacer retoque de microblading?", "a": "Se recomienda un retoque entre 4 y 6 semanas despues de la primera sesion, y luego un mantenimiento anual." }
+  ],
+
+  "ctaBanner": {
+    "title": "Lista para realzar tu mirada?",
+    "buttonText": "Reservar Ahora"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Servicios", "Galeria", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+    "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  },
+
+  "seo": {
+    "altTextTemplates": {
+      "service": "{{serviceName}} en {{businessName}}, {{city}}",
+      "portfolio": "Resultado de {{serviceName}} por {{businessName}}",
+      "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
+    }
+  }
+}

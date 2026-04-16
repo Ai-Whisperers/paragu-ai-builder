@@ -1,0 +1,72 @@
+{
+  "id": "salon_belleza",
+  "nameEs": "Salon de Belleza",
+  "nameEn": "Beauty Salon",
+
+  "tokens": "salon_belleza",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "galleryPreview", "team", "testimonial", "locationBlock", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "team": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "fresha", "fallback": "whatsapp" },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": true, "filterable": true, "filterableCategories": true },
+    "portfolio": { "enabled": true, "minImages": 20, "categories": ["cabello", "unas", "maquillaje", "tratamientos"] },
+    "beforeAfter": { "enabled": false, "optional": true },
+    "staffProfiles": { "enabled": true, "showInstagram": true, "bookable": true },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["cabello", "unas", "maquillaje", "tratamientos_faciales", "tratamientos_corporales", "paquetes"],
+
+  "targetAudience": {
+    "primary": "Women 25-55, middle to upper-class, seeking premium multi-service beauty care",
+    "secondary": "Brides, quinceañeras, event clients"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Salon de Belleza en {{city}} | Todos los Servicios",
+    "descriptionTemplate": "Cabello, uñas, maquillaje y tratamientos faciales en {{city}}. Reserva tu cita online. Tu centro de belleza integral.",
+    "schemaType": "BeautySalon",
+    "keywords": ["salon de belleza {{city}}", "centro de belleza {{city}}", "maquillaje profesional {{city}}", "manicura {{city}}", "tratamiento facial {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Tu Salon de Belleza en {{city}}",
+    "subheadlineTemplate": "Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar",
+    "ctaPrimary": { "text": "Reservar Cita", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}
