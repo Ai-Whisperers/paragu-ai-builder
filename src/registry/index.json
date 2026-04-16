@@ -135,6 +135,18 @@
       "leadCount": 49,
       "noWebsitePercent": 76,
       "priorityALeads": 34
+    },
+    "diseno_grafico": {
+      "id": "diseno_grafico",
+      "nameEs": "Diseno Grafico",
+      "nameEn": "Graphic Design",
+      "icon": "palette",
+      "tokens": "diseno_grafico",
+      "content": "diseno_grafico",
+      "schema": "diseno_grafico",
+      "leadCount": 0,
+      "noWebsitePercent": 0,
+      "priorityALeads": 0
     }
   },
 

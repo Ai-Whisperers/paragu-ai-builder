@@ -1,0 +1,94 @@
+{
+  "id": "diseno_grafico",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "Donde la Fantasia se Convierte en Realidad",
+    "subheadline": "Diseno de portadas y arte visual que da vida a tus historias",
+    "ctaPrimary": "Ver Catalogo",
+    "ctaSecondary": "Trabajemos Juntos"
+  },
+
+  "servicesPage": {
+    "title": "Servicios",
+    "categories": [
+      {
+        "key": "portadas_personalizadas",
+        "title": "Portadas Personalizadas",
+        "description": "Diseno unico y exclusivo para tu libro",
+        "defaultServices": [
+          { "name": "Portada Personalizada - Ebook", "price": null, "description": "Diseno exclusivo para tu ebook, incluye revisiones" },
+          { "name": "Portada Personalizada - Tapa Blanda", "price": null, "description": "Portada completa (frente, lomo y contra) para impresion" },
+          { "name": "Portada Personalizada - Tapa Dura", "price": null, "description": "Diseno premium con sobrecubierta y guardas" }
+        ]
+      },
+      {
+        "key": "portadas_premade",
+        "title": "Portadas Pre-hechas",
+        "description": "Disenos listos para personalizar con tu titulo",
+        "defaultServices": [
+          { "name": "Portada Premade - Ebook", "price": null, "description": "Diseno listo, se personaliza con tu titulo y nombre" },
+          { "name": "Portada Premade - Pack Completo", "price": null, "description": "Ebook + Tapa blanda, mismo diseno" }
+        ]
+      },
+      {
+        "key": "mockups_3d",
+        "title": "Mockups y Videos 3D",
+        "description": "Visualizaciones profesionales de tu libro",
+        "defaultServices": [
+          { "name": "Mockup 3D Estatico", "price": null, "description": "Imagen realista de tu libro en 3D" },
+          { "name": "Video Mockup 3D", "price": null, "description": "Animacion profesional de tu portada" }
+        ]
+      },
+      {
+        "key": "branding",
+        "title": "Branding para Autores",
+        "description": "Identidad visual completa para tu marca como autor",
+        "defaultServices": [
+          { "name": "Logo + Marca Personal", "price": null, "description": "Logo, paleta de colores y tipografias" },
+          { "name": "Kit Redes Sociales", "price": null, "description": "Templates para Instagram, Facebook y mas" }
+        ]
+      }
+    ]
+  },
+
+  "productCatalogPage": {
+    "title": "Catalogo",
+    "subtitle": "Explora nuestros disenos disponibles",
+    "orderButtonText": "Consultar por WhatsApp",
+    "orderMessageTemplate": "Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.",
+    "categories": ["Romance", "Fantasia", "Thriller", "No Ficcion", "Ciencia Ficcion", "Terror"]
+  },
+
+  "galleryPage": {
+    "title": "Portafolio",
+    "subtitle": "Una muestra de nuestro trabajo"
+  },
+
+  "contactPage": {
+    "title": "Contacto"
+  },
+
+  "faq": [
+    { "q": "Cuanto tiempo toma una portada personalizada?", "a": "El proceso completo toma entre 1 a 3 semanas, dependiendo de la complejidad del diseno y las revisiones." },
+    { "q": "Que necesito para empezar?", "a": "El titulo de tu libro, una sinopsis breve, el genero, y cualquier referencia visual que te guste. Cuanto mas detalle, mejor!" },
+    { "q": "Puedo pedir cambios al diseno?", "a": "Si! Todas las portadas personalizadas incluyen rondas de revision para que quedes satisfecho/a con el resultado." },
+    { "q": "Cual es la diferencia entre premade y personalizada?", "a": "Las portadas premade son disenos ya creados que se personalizan con tu titulo. Las personalizadas se crean desde cero para tu libro." },
+    { "q": "Hacen envios internacionales?", "a": "Trabajamos de forma 100% digital. Recibis tus archivos por email, listos para publicar o imprimir." }
+  ],
+
+  "ctaBanner": {
+    "title": "Listo para darle vida a tu historia?",
+    "buttonText": "Empecemos"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Inicio", "Servicios", "Catalogo", "Portafolio", "Contacto"],
+    "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera consultar sobre servicios de diseno con {{businessName}}"
+  }
+}

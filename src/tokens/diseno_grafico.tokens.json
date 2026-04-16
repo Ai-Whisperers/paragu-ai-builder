@@ -1,0 +1,85 @@
+{
+  "name": "Diseno Grafico (Graphic Design)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["creative", "fantasy", "elegant", "artistic"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Fantasy Rose",
+      "colors": {
+        "primary": "#c4788b",
+        "secondary": "#d4af37",
+        "accent": "#e8b4c8",
+        "background": "#fdf8f9",
+        "surface": "#ffffff",
+        "surfaceLight": "#fef5f7",
+        "text": "#2d2d2d",
+        "textLight": "#5a5a5a",
+        "textMuted": "#8a8a8a",
+        "success": "#4a7c59",
+        "error": "#c0392b",
+        "warning": "#f39c12",
+        "secondaryHover": "#c9982e"
+      }
+    },
+    "optionB": {
+      "name": "Modern Creative",
+      "colors": {
+        "primary": "#1a1a2e",
+        "secondary": "#e94560",
+        "accent": "#0f3460",
+        "background": "#fafafa",
+        "surface": "#ffffff",
+        "surfaceLight": "#f5f5f5",
+        "text": "#1a1a2e",
+        "textLight": "#555555",
+        "textMuted": "#888888",
+        "success": "#27ae60",
+        "error": "#e74c3c",
+        "warning": "#f1c40f",
+        "secondaryHover": "#d63a52"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Lato', sans-serif",
+    "accent": "'Cormorant Garamond', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Playfair+Display:wght@400;700", "Lato:wght@300;400;700", "Cormorant+Garamond:wght@400;500;600"],
+
+  "borderRadius": "md",
+  "buttonStyle": "elegant",
+
+  "components": {
+    "button": {
+      "padding": "12px 32px",
+      "borderRadius": "8px",
+      "textTransform": "none",
+      "fontWeight": "600"
+    },
+    "gallery": {
+      "layout": "grid",
+      "desktopColumns": 3,
+      "tabletColumns": 2,
+      "mobileColumns": 1,
+      "largeImagery": true,
+      "categories": ["portadas", "premade", "mockups", "branding"]
+    },
+    "productCatalog": {
+      "layout": "grid",
+      "desktopColumns": 3,
+      "tabletColumns": 2,
+      "mobileColumns": 1,
+      "showWhatsAppOrder": true
+    }
+  }
+}
