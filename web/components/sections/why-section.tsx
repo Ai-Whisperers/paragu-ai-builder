@@ -47,7 +47,7 @@ export function WhySection({ title, titleEn, subtitle, subtitleEn, points }: Why
 
         <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-2">
           {points.map((point, idx) => (
-            <AnimateOnScroll key={idx} delay={idx * 0.1}>
+            <AnimateOnScroll key={idx} stagger={idx}>
               <div
                 className="rounded-xl p-8 transition-shadow duration-300 hover:shadow-lg"
                 style={{

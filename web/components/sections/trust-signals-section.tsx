@@ -32,7 +32,7 @@ export function TrustSignalsSection({ title, items }: TrustSignalsSectionProps) 
 
         <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, idx) => (
-            <AnimateOnScroll key={idx} delay={idx * 0.08}>
+            <AnimateOnScroll key={idx} stagger={idx}>
               <div className="flex flex-col items-center gap-3 rounded-xl p-6 text-center transition-shadow duration-300 hover:shadow-md"
                 style={{ backgroundColor: 'var(--surface)', border: '1px solid var(--border)' }}
               >

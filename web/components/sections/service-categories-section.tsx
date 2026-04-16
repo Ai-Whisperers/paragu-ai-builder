@@ -71,7 +71,7 @@ export function ServiceCategoriesSection({
             const icon = CATEGORY_ICONS[cat.key] || '📋'
 
             return (
-              <AnimateOnScroll key={cat.key} delay={idx * 0.08}>
+              <AnimateOnScroll key={cat.key} stagger={idx}>
                 <div
                   className="overflow-hidden rounded-xl transition-shadow duration-300"
                   style={{

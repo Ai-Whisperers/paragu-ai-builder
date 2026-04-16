@@ -90,7 +90,7 @@ export function ProgramComparisonSection({
         {/* Program Cards */}
         <div className="mx-auto mb-16 grid max-w-5xl gap-8 md:grid-cols-2">
           {programs.map((program, idx) => (
-            <AnimateOnScroll key={program.id} delay={idx * 0.15}>
+            <AnimateOnScroll key={program.id} stagger={idx}>
               <div
                 className="relative flex h-full flex-col rounded-xl p-8 transition-shadow duration-300"
                 style={{
@@ -105,7 +105,7 @@ export function ProgramComparisonSection({
               >
                 {program.badge && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                    <Badge variant="secondary" className="px-4 py-1 text-sm font-semibold">
+                    <Badge variant="default" className="px-4 py-1 text-sm font-semibold">
                       {program.badge}
                     </Badge>
                   </div>
@@ -130,7 +130,7 @@ export function ProgramComparisonSection({
                 </p>
 
                 <Button
-                  variant="default"
+                  variant="primary"
                   className="w-full"
                   onClick={() => handleCTA(program)}
                   style={{

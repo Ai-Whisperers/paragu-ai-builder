@@ -35,9 +35,12 @@ const STEP_ICONS: Record<string, string> = {
 
 export function ProcessTimelineSection({
   title,
+  titleEn,
   subtitle,
+  subtitleEn,
   steps,
   totalTime,
+  totalTimeEn,
 }: ProcessTimelineSectionProps) {
   const { t } = useLocale()
 
@@ -57,7 +60,7 @@ export function ProcessTimelineSection({
 
         <div className="mx-auto max-w-3xl">
           {steps.map((step, idx) => (
-            <AnimateOnScroll key={step.step} delay={idx * 0.12}>
+            <AnimateOnScroll key={step.step} stagger={idx}>
               <div className="relative flex gap-6 pb-12 last:pb-0">
                 {/* Timeline Line */}
                 {idx < steps.length - 1 && (

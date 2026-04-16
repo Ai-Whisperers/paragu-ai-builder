@@ -130,7 +130,7 @@ interface RegistryType {
       requiredSections: string[]
     }
   }
-  features: Record<string, { enabled: boolean }>
+  features: Record<string, { enabled: boolean; languages?: string[]; [key: string]: unknown }>
   nav: {
     items: string[]
     cta?: { text: string; action: string }

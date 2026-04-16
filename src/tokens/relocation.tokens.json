@@ -1,91 +1,70 @@
 {
+  "name": "Relocation Services",
   "extends": "base",
   "theme": "light",
   "mood": ["premium", "trust", "professional", "international"],
 
-  "colorPalettes": {
+  "palettes": {
     "optionA": {
       "name": "Navy & Gold Premium",
-      "primary": "#1B2A4A",
-      "primaryLight": "#2C3E6B",
-      "primaryDark": "#0F1A2E",
-      "secondary": "#C9A96E",
-      "secondaryLight": "#D4BC8E",
-      "secondaryDark": "#A88A4E",
-      "accent": "#E8F0FE",
-      "background": "#FAFBFD",
-      "surface": "#FFFFFF",
-      "surfaceLight": "#F5F7FA",
-      "text": "#1A1A2E",
-      "textMuted": "#5A6577",
-      "textLight": "#8892A0",
-      "border": "#E2E8F0",
-      "success": "#16A34A",
-      "error": "#DC2626"
+      "colors": {
+        "primary": "#1B2A4A",
+        "secondary": "#C9A96E",
+        "accent": "#E8F0FE",
+        "background": "#FAFBFD",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F5F7FA",
+        "text": "#1A1A2E",
+        "textLight": "#8892A0",
+        "textMuted": "#5A6577",
+        "success": "#16A34A",
+        "error": "#DC2626",
+        "warning": "#F59E0B",
+        "secondaryHover": "#A88A4E"
+      }
     },
     "optionB": {
       "name": "Dark Trust",
-      "primary": "#0D1B2A",
-      "primaryLight": "#1B2838",
-      "primaryDark": "#060F18",
-      "secondary": "#D4AF37",
-      "secondaryLight": "#E0C45C",
-      "secondaryDark": "#B89A2E",
-      "accent": "#415A77",
-      "background": "#0D1B2A",
-      "surface": "#1B2838",
-      "surfaceLight": "#253545",
-      "text": "#E0E1DD",
-      "textMuted": "#A0A4A8",
-      "textLight": "#778DA9",
-      "border": "#2A3A4A",
-      "success": "#22C55E",
-      "error": "#EF4444"
+      "colors": {
+        "primary": "#0D1B2A",
+        "secondary": "#D4AF37",
+        "accent": "#415A77",
+        "background": "#0D1B2A",
+        "surface": "#1B2838",
+        "surfaceLight": "#253545",
+        "text": "#E0E1DD",
+        "textLight": "#778DA9",
+        "textMuted": "#A0A4A8",
+        "success": "#22C55E",
+        "error": "#EF4444",
+        "warning": "#F59E0B",
+        "secondaryHover": "#B89A2E"
+      }
     }
   },
 
-  "selectedPalette": "optionA",
+  "defaultPalette": "optionA",
 
   "typography": {
-    "headingFont": "Playfair Display",
-    "bodyFont": "Inter",
-    "accentFont": "Cormorant Garamond",
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Cormorant Garamond', serif",
     "headingWeight": "700",
     "bodyWeight": "400",
-    "headingSizes": {
-      "h1": "3rem",
-      "h2": "2.25rem",
-      "h3": "1.5rem",
-      "h4": "1.25rem"
-    },
-    "bodySizes": {
-      "base": "1rem",
-      "lg": "1.125rem",
-      "sm": "0.875rem"
-    },
-    "lineHeights": {
-      "heading": "1.2",
-      "body": "1.7"
-    }
+    "textTransform": "none"
   },
 
-  "spacing": {
-    "sectionPadding": "5rem",
-    "containerMax": "1200px",
-    "cardPadding": "2rem"
-  },
+  "googleFonts": ["Playfair+Display:wght@400;700;900", "Inter:wght@300;400;500;600;700", "Cormorant+Garamond:wght@400;500;600"],
+
+  "borderRadius": "md",
+  "buttonStyle": "premium",
 
   "components": {
     "button": {
-      "style": "premium",
-      "borderRadius": "0.375rem",
-      "paddingX": "2rem",
-      "paddingY": "0.875rem"
-    },
-    "card": {
-      "borderRadius": "0.75rem",
-      "shadow": "0 4px 20px rgba(27,42,74,0.08)",
-      "hoverShadow": "0 8px 30px rgba(27,42,74,0.15)"
+      "padding": "14px 32px",
+      "borderRadius": "6px",
+      "textTransform": "none",
+      "fontWeight": "600"
     },
     "programComparison": {
       "columns": 2,
