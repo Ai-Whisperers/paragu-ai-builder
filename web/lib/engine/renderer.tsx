@@ -12,6 +12,8 @@ import { ServicesSection } from '@/components/sections/services-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { ProgramComparisonSection } from '@/components/sections/program-comparison-section'
 import { ProcessTimelineSection } from '@/components/sections/process-timeline-section'
+import { WhySection } from '@/components/sections/why-section'
+import { TrustSignalsSection } from '@/components/sections/trust-signals-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
@@ -29,6 +31,8 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   productCatalog: ProductCatalogSection,
   programComparison: ProgramComparisonSection,
   processTimeline: ProcessTimelineSection,
+  whySection: WhySection,
+  trustSignals: TrustSignalsSection,
   gallery: GallerySection,
   team: TeamSection,
   testimonials: TestimonialsSection,

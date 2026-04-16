@@ -111,6 +111,7 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     phone: '+595981000000',
     email: 'info@lealtis.com',
     whatsapp: '+595981000000',
+    calendarUrl: 'https://calendly.com/lealtis/consulta-gratuita',
     instagram: '@lealtis.py',
     hours: {
       'Lunes - Viernes': '09:00 - 18:00',

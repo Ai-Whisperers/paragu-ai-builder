@@ -25,6 +25,8 @@ export type SectionType =
   | 'productCatalog'
   | 'programComparison'
   | 'processTimeline'
+  | 'whySection'
+  | 'trustSignals'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -91,6 +93,7 @@ export interface BusinessData {
     rating?: number
   }>
   heroImage?: string
+  calendarUrl?: string
 }
 
 export interface ComposedPage {
@@ -199,6 +202,22 @@ interface ContentTemplate {
     }>
     totalTime?: string
   }
+  whyParaguay?: {
+    title: string
+    subtitle?: string
+    points: Array<{
+      title: string
+      description: string
+      icon?: string
+    }>
+  }
+  trustSignals?: {
+    title?: string
+    items: Array<{
+      text: string
+      icon?: string
+    }>
+  }
   ctaBanner?: { title: string; buttonText: string }
   footer: {
     quickLinks: string[]
@@ -224,6 +243,9 @@ const SECTION_MAP: Record<string, SectionType> = {
   productCatalog: 'productCatalog',
   programComparison: 'programComparison',
   processTimeline: 'processTimeline',
+  whySection: 'whySection',
+  whyParaguay: 'whySection',
+  trustSignals: 'trustSignals',
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
@@ -330,9 +352,9 @@ function buildSectionData(
         headline: fillTemplate(content.hero.headline, templateData),
         subheadline: fillTemplate(content.hero.subheadline, templateData),
         ctaPrimaryText: content.hero.ctaPrimary,
-        ctaPrimaryHref: '#contacto',
+        ctaPrimaryHref: business.calendarUrl || '#contacto',
         ctaSecondaryText: content.hero.ctaSecondary,
-        ctaSecondaryHref: '#servicios',
+        ctaSecondaryHref: '#programas',
         backgroundImage: business.heroImage,
       }
 
@@ -428,6 +450,7 @@ function buildSectionData(
         paymentNote: pc.paymentNote,
         whatsappPhone: business.whatsapp,
         emailAddress: business.email,
+        calendarUrl: business.calendarUrl,
       }
     }
 
@@ -439,6 +462,23 @@ function buildSectionData(
         subtitle: pt.subtitle,
         steps: pt.steps,
         totalTime: pt.totalTime,
+      }
+    }
+
+    case 'whySection': {
+      if (!content.whyParaguay) return null
+      return {
+        title: content.whyParaguay.title,
+        subtitle: content.whyParaguay.subtitle,
+        points: content.whyParaguay.points,
+      }
+    }
+
+    case 'trustSignals': {
+      if (!content.trustSignals) return null
+      return {
+        title: content.trustSignals.title,
+        items: content.trustSignals.items,
       }
     }
 
@@ -454,7 +494,7 @@ function buildSectionData(
       return {
         title: fillTemplate(content.ctaBanner.title, templateData),
         buttonText: content.ctaBanner.buttonText,
-        buttonHref: '#contacto',
+        buttonHref: business.calendarUrl || '#contacto',
       }
 
     case 'footer':
