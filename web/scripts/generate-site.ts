@@ -49,7 +49,7 @@ Options:
   }
 
   console.error(`Composing site for: ${business.name} (${business.type})`)
-  const page = composePage(business)
+  const page = await composePage(business)
 
   if (showSections) {
     console.log(JSON.stringify(page.sections.map(s => ({ type: s.type, order: s.order })), null, 2))

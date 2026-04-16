@@ -15,18 +15,18 @@ const ContentSecurityPolicy = isDev
   ? `
     default-src 'self';
     script-src 'self' 'unsafe-inline' 'unsafe-eval';
-    style-src 'self' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co;
-    font-src 'self';
+    font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://*.supabase.co wss://*.supabase.co;
     frame-ancestors 'self';
   `
   : `
     default-src 'self';
     script-src 'self' 'unsafe-inline';
-    style-src 'self' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co;
-    font-src 'self';
+    font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://*.supabase.co wss://*.supabase.co;
     frame-ancestors 'self';
   `
@@ -54,47 +54,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  eslint: {
-    ignoreDuringBuilds: false,
-  },
 
-  webpack: (config, { dev, isServer }) => {
-    if (dev) {
-      config.watchOptions = {
-        poll: 1000,
-        aggregateTimeout: 300,
-      }
-    }
-
-    if (!dev && !isServer) {
-      config.optimization = {
-        ...config.optimization,
-        splitChunks: {
-          ...config.optimization.splitChunks,
-          chunks: 'all',
-          maxSize: 512000,
-          minSize: 100000,
-          cacheGroups: {
-            ...config.optimization.splitChunks?.cacheGroups,
-            vendor: {
-              test: /[\\/]node_modules[\\/](react|react-dom|lucide-react|clsx)[\\/]/,
-              name: 'core-vendor',
-              chunks: 'all',
-              priority: 20,
-            },
-            dataLibs: {
-              test: /[\\/]node_modules[\\/](@supabase)[\\/]/,
-              name: 'data-libs',
-              chunks: 'all',
-              priority: 15,
-            },
-          },
-        },
-      }
-    }
-
-    return config
-  },
+  // Next.js 16 uses Turbopack by default
+  turbopack: {},
 
   images: {
     remotePatterns: [

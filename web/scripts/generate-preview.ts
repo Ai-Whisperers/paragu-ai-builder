@@ -39,7 +39,7 @@ async function main() {
 
   for (const business of businesses) {
     try {
-      const page = composePage(business)
+      const page = await composePage(business)
       results.push({
         slug: business.slug,
         name: business.name,

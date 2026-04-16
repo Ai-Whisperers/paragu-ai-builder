@@ -187,7 +187,7 @@ const SECTION_MAP: Record<string, SectionType> = {
 /**
  * Compose a full page for a business from its type registry and data.
  */
-export function composePage(business: BusinessData): ComposedPage {
+export async function composePage(business: BusinessData): Promise<ComposedPage> {
   const registry = loadJson<RegistryType>(`src/registry/${business.type}.type.json`)
   const content = loadJson<ContentTemplate>(`src/content/${business.type}.content.json`)
 
@@ -243,8 +243,8 @@ export function composePage(business: BusinessData): ComposedPage {
   const title = fillTemplate(registry.seo.titleTemplate, templateData)
   const description = fillTemplate(registry.seo.descriptionTemplate, templateData)
 
-  // Resolve tokens
-  const { resolveTokens } = require('@/lib/tokens/resolver')
+  // Resolve tokens (dynamic import to avoid circular dependency)
+  const { resolveTokens } = await import('@/lib/tokens/resolver')
   const tokens = resolveTokens(business.type)
 
   return {
