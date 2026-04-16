@@ -373,16 +373,25 @@ function buildSectionData(
 
     case 'hero': {
       const heroContent = content.hero as Record<string, unknown>
+      const fillOpt = (v: unknown) => (typeof v === 'string' ? fillTemplate(v, templateData) : undefined)
       return {
         headline: fillTemplate(content.hero.headline, templateData),
-        headlineEn: heroContent.headlineEn ? fillTemplate(heroContent.headlineEn as string, templateData) : undefined,
+        headlineEn: fillOpt(heroContent.headlineEn),
+        headlineNl: fillOpt(heroContent.headlineNl),
+        headlineDe: fillOpt(heroContent.headlineDe),
         subheadline: fillTemplate(content.hero.subheadline, templateData),
-        subheadlineEn: heroContent.subheadlineEn ? fillTemplate(heroContent.subheadlineEn as string, templateData) : undefined,
+        subheadlineEn: fillOpt(heroContent.subheadlineEn),
+        subheadlineNl: fillOpt(heroContent.subheadlineNl),
+        subheadlineDe: fillOpt(heroContent.subheadlineDe),
         ctaPrimaryText: content.hero.ctaPrimary,
         ctaPrimaryTextEn: heroContent.ctaPrimaryEn,
+        ctaPrimaryTextNl: heroContent.ctaPrimaryNl,
+        ctaPrimaryTextDe: heroContent.ctaPrimaryDe,
         ctaPrimaryHref: business.calendarUrl || '#contacto',
         ctaSecondaryText: content.hero.ctaSecondary,
         ctaSecondaryTextEn: heroContent.ctaSecondaryEn,
+        ctaSecondaryTextNl: heroContent.ctaSecondaryNl,
+        ctaSecondaryTextDe: heroContent.ctaSecondaryDe,
         ctaSecondaryHref: '#programas',
         backgroundImage: business.heroImage,
       }

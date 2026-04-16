@@ -7,13 +7,21 @@ import { useLocale } from '@/lib/i18n/language-context'
 export interface HeroSectionProps {
   headline: string
   headlineEn?: string
+  headlineNl?: string
+  headlineDe?: string
   subheadline: string
   subheadlineEn?: string
+  subheadlineNl?: string
+  subheadlineDe?: string
   ctaPrimaryText: string
   ctaPrimaryTextEn?: string
+  ctaPrimaryTextNl?: string
+  ctaPrimaryTextDe?: string
   ctaPrimaryHref?: string
   ctaSecondaryText?: string
   ctaSecondaryTextEn?: string
+  ctaSecondaryTextNl?: string
+  ctaSecondaryTextDe?: string
   ctaSecondaryHref?: string
   backgroundImage?: string
 }
@@ -21,13 +29,21 @@ export interface HeroSectionProps {
 export function HeroSection({
   headline,
   headlineEn,
+  headlineNl,
+  headlineDe,
   subheadline,
   subheadlineEn,
+  subheadlineNl,
+  subheadlineDe,
   ctaPrimaryText,
   ctaPrimaryTextEn,
+  ctaPrimaryTextNl,
+  ctaPrimaryTextDe,
   ctaPrimaryHref = '#contacto',
   ctaSecondaryText,
   ctaSecondaryTextEn,
+  ctaSecondaryTextNl,
+  ctaSecondaryTextDe,
   ctaSecondaryHref = '#servicios',
   backgroundImage,
 }: HeroSectionProps) {
@@ -55,7 +71,7 @@ export function HeroSection({
             textTransform: 'var(--heading-transform)' as React.CSSProperties['textTransform'],
           }}
         >
-          {t(headline, headlineEn)}
+          {t(headline, headlineEn, headlineNl, headlineDe)}
         </h1>
         <p
           className="mx-auto mb-10 max-w-2xl text-lg sm:text-xl"
@@ -64,15 +80,15 @@ export function HeroSection({
             color: backgroundImage ? 'rgba(255,255,255,0.9)' : 'var(--text-light)',
           }}
         >
-          {t(subheadline, subheadlineEn)}
+          {t(subheadline, subheadlineEn, subheadlineNl, subheadlineDe)}
         </p>
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button variant="primary" size="lg" href={ctaPrimaryHref}>
-            {t(ctaPrimaryText, ctaPrimaryTextEn)}
+            {t(ctaPrimaryText, ctaPrimaryTextEn, ctaPrimaryTextNl, ctaPrimaryTextDe)}
           </Button>
           {ctaSecondaryText && (
             <Button variant="secondary" size="lg" href={ctaSecondaryHref}>
-              {t(ctaSecondaryText, ctaSecondaryTextEn)}
+              {t(ctaSecondaryText, ctaSecondaryTextEn, ctaSecondaryTextNl, ctaSecondaryTextDe)}
             </Button>
           )}
         </div>

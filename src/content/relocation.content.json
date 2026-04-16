@@ -5,12 +5,20 @@
   "hero": {
     "headline": "Establezca su operacion en Paraguay",
     "headlineEn": "Establish Your Operations in Paraguay",
+    "headlineNl": "Vestig uw activiteiten in Paraguay",
+    "headlineDe": "Etablieren Sie Ihren Betrieb in Paraguay",
     "subheadline": "Residencia, sociedad y cuenta bancaria — todo en un solo programa, un solo viaje, un equipo de profesionales a su lado.",
     "subheadlineEn": "Residency, company formation and bank account — all in one program, one trip, one team of professionals by your side.",
+    "subheadlineNl": "Verblijfsvergunning, bedrijfsoprichting en bankrekening — alles in een programma, een reis, een team van professionals aan uw zijde.",
+    "subheadlineDe": "Aufenthaltserlaubnis, Firmengruendung und Bankkonto — alles in einem Programm, einer Reise, einem Team von Fachleuten an Ihrer Seite.",
     "ctaPrimary": "Agendar Consulta Gratuita",
     "ctaPrimaryEn": "Book a Free Consultation",
+    "ctaPrimaryNl": "Boek een gratis consultatie",
+    "ctaPrimaryDe": "Kostenlose Beratung buchen",
     "ctaSecondary": "Ver Programas",
-    "ctaSecondaryEn": "View Programs"
+    "ctaSecondaryEn": "View Programs",
+    "ctaSecondaryNl": "Bekijk programma's",
+    "ctaSecondaryDe": "Programme ansehen"
   },
 
   "servicesPage": {

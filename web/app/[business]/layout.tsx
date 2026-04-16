@@ -1,4 +1,5 @@
 import { CookieConsent } from '@/components/ui/cookie-consent'
+import { GA4 } from '@/components/analytics/ga4'
 
 /**
  * Business site layout.
@@ -10,6 +11,7 @@ export default function BusinessLayout({ children }: { children: React.ReactNode
     <>
       {children}
       <CookieConsent />
+      <GA4 measurementId={process.env.NEXT_PUBLIC_GA4_ID} />
     </>
   )
 }

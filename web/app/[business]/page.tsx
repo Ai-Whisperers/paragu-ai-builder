@@ -3,6 +3,9 @@ import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
 import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
 import { BusinessPageWrapper } from '@/components/business-page-wrapper'
+import { OrganizationJsonLd, FAQJsonLd, ServiceJsonLd } from '@/components/seo/structured-data'
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragu-ai-builder.pages.dev'
 
 interface Props {
   params: Promise<{ business: string }>
@@ -26,9 +29,30 @@ export async function generateMetadata({ params }: Props) {
   if (!businessData) return { title: 'No encontrado' }
 
   const page = await composePage(businessData)
+  const url = `${BASE_URL}/${slug}`
   return {
     title: page.meta.title,
     description: page.meta.description,
+    openGraph: {
+      title: page.meta.title,
+      description: page.meta.description,
+      url,
+      siteName: businessData.name,
+      type: 'website',
+      locale: page.i18n.defaultLocale,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: page.meta.title,
+      description: page.meta.description,
+    },
+    alternates: {
+      canonical: url,
+      languages: page.i18n.supportedLocales.reduce<Record<string, string>>((acc, loc) => {
+        acc[loc] = url
+        return acc
+      }, {}),
+    },
   }
 }
 
@@ -46,6 +70,10 @@ export default async function BusinessPage({ params }: Props) {
 
   const page = await composePage(businessData)
 
+  // Extract FAQ items for structured data
+  const faqSection = page.sections.find((s) => s.type === 'faq')
+  const faqItems = (faqSection?.data.items as Array<{ q: string; a: string }> | undefined) || []
+
   return (
     <>
       {/* Inject theme CSS variables from tokens */}
@@ -54,6 +82,13 @@ export default async function BusinessPage({ params }: Props) {
       {/* Google Fonts */}
       {page.theme.googleFontsUrl && (
         <link rel="stylesheet" href={page.theme.googleFontsUrl} />
+      )}
+
+      {/* JSON-LD Structured Data */}
+      <OrganizationJsonLd business={businessData} baseUrl={BASE_URL} />
+      {faqItems.length > 0 && <FAQJsonLd items={faqItems} />}
+      {businessData.services && businessData.services.length > 0 && (
+        <ServiceJsonLd business={businessData} services={businessData.services} />
       )}
 
       {/* Render all composed sections with i18n context */}
