@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
-import { getDemoBusiness, getAllDemoSlugs } from '@/lib/engine/demo-data'
+import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
 
 interface Props {
   params: Promise<{ business: string }>
@@ -11,15 +11,17 @@ interface Props {
 export const dynamicParams = false
 
 /**
- * Pre-generate demo business sites at build time.
+ * Pre-generate business sites at build time.
+ * Loads slugs from both demo data and Supabase (when configured).
  */
 export async function generateStaticParams() {
-  return getAllDemoSlugs().map((slug) => ({ business: slug }))
+  const slugs = await loadAllSlugs()
+  return slugs.map((slug) => ({ business: slug }))
 }
 
 export async function generateMetadata({ params }: Props) {
   const { business: slug } = await params
-  const businessData = getDemoBusiness(slug)
+  const businessData = await loadBusiness(slug)
   if (!businessData) return { title: 'No encontrado' }
 
   const page = composePage(businessData)
@@ -33,10 +35,12 @@ export async function generateMetadata({ params }: Props) {
  * Generated business site page.
  * Composition engine reads registry + tokens + content,
  * fills templates with business data, and renders all sections.
+ *
+ * Data source: Supabase (when configured) or demo-data.ts (fallback).
  */
 export default async function BusinessPage({ params }: Props) {
   const { business: slug } = await params
-  const businessData = getDemoBusiness(slug)
+  const businessData = await loadBusiness(slug)
   if (!businessData) notFound()
 
   const page = composePage(businessData)
