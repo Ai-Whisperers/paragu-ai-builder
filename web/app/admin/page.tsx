@@ -1,8 +1,9 @@
-import { DEMO_BUSINESSES } from '@/lib/engine/demo-data'
+import { loadAllBusinesses } from '@/lib/engine/data-loader'
 import { BUSINESS_TYPES } from '@/lib/types'
 
 const TYPE_LABELS: Record<string, string> = {
   peluqueria: 'Peluqueria',
+  salon_belleza: 'Salon de Belleza',
   gimnasio: 'Gimnasio',
   spa: 'Spa',
   unas: 'Unas',
@@ -11,6 +12,7 @@ const TYPE_LABELS: Record<string, string> = {
   estetica: 'Estetica',
   maquillaje: 'Maquillaje',
   depilacion: 'Depilacion',
+  pestanas: 'Pestanas y Cejas',
 }
 
 const STATUS_COLORS: Record<string, string> = {
@@ -19,8 +21,8 @@ const STATUS_COLORS: Record<string, string> = {
   error: 'bg-red-100 text-red-800',
 }
 
-export default function AdminDashboard() {
-  const businesses = Object.values(DEMO_BUSINESSES)
+export default async function AdminDashboard() {
+  const businesses = await loadAllBusinesses()
 
   return (
     <main className="min-h-screen bg-gray-50">
