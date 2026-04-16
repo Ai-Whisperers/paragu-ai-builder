@@ -15,7 +15,7 @@ jobs:
         working-directory: web
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: actions/setup-node@v4
         with:
@@ -44,7 +44,7 @@ jobs:
       NEXT_PUBLIC_SUPABASE_ANON_KEY: placeholder-anon-key
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: actions/setup-node@v4
         with:
@@ -70,7 +70,7 @@ jobs:
       NEXT_PUBLIC_SUPABASE_ANON_KEY: placeholder-anon-key
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: actions/setup-node@v4
         with:
