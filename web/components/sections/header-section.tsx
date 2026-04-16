@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Container } from '@/components/ui/container'
 
@@ -25,7 +26,7 @@ export function HeaderSection({
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-[var(--surface)] shadow-nav">
+    <header className="sticky top-0 z-50 border-b border-[var(--surface-light)] bg-[var(--surface)]/95 shadow-nav backdrop-blur-sm">
       <Container>
         <div className="flex h-[70px] items-center justify-between sm:h-20">
           {/* Logo / Name */}
@@ -38,12 +39,12 @@ export function HeaderSection({
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden items-center gap-6 md:flex">
+          <nav className="hidden items-center gap-8 md:flex">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--secondary)]"
+                className="relative text-sm font-medium text-[var(--text-muted)] transition-colors duration-normal hover:text-[var(--secondary)] after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-[var(--secondary)] after:transition-all after:duration-normal hover:after:w-full"
               >
                 {item.label}
               </a>
@@ -57,17 +58,23 @@ export function HeaderSection({
 
           {/* Mobile toggle */}
           <button
-            className="flex h-10 w-10 items-center justify-center rounded-md md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-md text-[var(--text)] transition-colors hover:bg-[var(--surface-light)] md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Menu"
+            aria-label={mobileOpen ? 'Cerrar menu' : 'Abrir menu'}
           >
-            <span className="text-2xl text-[var(--text)]">{mobileOpen ? '✕' : '☰'}</span>
+            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
 
-        {/* Mobile Nav */}
-        {mobileOpen && (
-          <nav className="border-t border-[var(--surface-light)] pb-4 md:hidden">
+        {/* Mobile Nav — always in DOM, animated via max-height */}
+        <nav
+          className="overflow-hidden transition-all duration-normal md:hidden"
+          style={{
+            maxHeight: mobileOpen ? '400px' : '0px',
+            opacity: mobileOpen ? 1 : 0,
+          }}
+        >
+          <div className="border-t border-[var(--surface-light)] pb-4 pt-2">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -83,8 +90,8 @@ export function HeaderSection({
                 {ctaText}
               </Button>
             )}
-          </nav>
-        )}
+          </div>
+        </nav>
       </Container>
     </header>
   )
