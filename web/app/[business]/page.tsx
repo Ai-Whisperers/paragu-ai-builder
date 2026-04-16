@@ -1,34 +1,64 @@
 import { notFound } from 'next/navigation'
+import { composePage } from '@/lib/engine/compose'
+import { renderSections } from '@/lib/engine/renderer'
+import { getDemoBusiness, getAllDemoSlugs } from '@/lib/engine/demo-data'
 
 interface Props {
   params: Promise<{ business: string }>
 }
 
 /**
- * Generated business site landing page.
- * Each business type gets themed via CSS variables from design tokens.
- *
- * TODO: Implement with template composition engine:
- * 1. Load business data from Supabase
- * 2. Resolve business type from registry
- * 3. Load tokens and inject CSS variables
- * 4. Compose sections from registry definition
- * 5. Render with content template placeholders filled
+ * Pre-generate demo business sites at build time.
+ */
+export async function generateStaticParams() {
+  return getAllDemoSlugs().map((slug) => ({ business: slug }))
+}
+
+export async function generateMetadata({ params }: Props) {
+  const { business: slug } = await params
+  const businessData = getDemoBusiness(slug)
+  if (!businessData) return { title: 'No encontrado' }
+
+  const page = composePage(businessData)
+  return {
+    title: page.meta.title,
+    description: page.meta.description,
+  }
+}
+
+/**
+ * Generated business site page.
+ * Composition engine reads registry + tokens + content,
+ * fills templates with business data, and renders all sections.
  */
 export default async function BusinessPage({ params }: Props) {
-  const { business } = await params
+  const { business: slug } = await params
+  const businessData = getDemoBusiness(slug)
+  if (!businessData) notFound()
 
-  // Placeholder until generation engine is built
-  if (!business) notFound()
+  const page = composePage(businessData)
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8">
-      <h1 className="mb-4 text-2xl font-bold text-[var(--primary)]">
-        {business}
-      </h1>
-      <p className="text-[var(--secondary)]">
-        Sitio en construccion. Vuelva pronto.
-      </p>
-    </main>
+    <>
+      {/* Inject theme CSS variables from tokens */}
+      <style dangerouslySetInnerHTML={{ __html: page.theme.cssString }} />
+
+      {/* Google Fonts */}
+      {page.theme.googleFontsUrl && (
+        <link rel="stylesheet" href={page.theme.googleFontsUrl} />
+      )}
+
+      {/* Render all composed sections */}
+      <div
+        className="min-h-screen"
+        style={{
+          fontFamily: 'var(--font-body)',
+          backgroundColor: 'var(--background)',
+          color: 'var(--text)',
+        }}
+      >
+        {renderSections(page.sections)}
+      </div>
+    </>
   )
 }
