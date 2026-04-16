@@ -127,8 +127,8 @@ export default async function HomePage() {
               <a href="#proyectos" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
                 Proyectos
               </a>
-              <a href="#como-funciona" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
-                Como Funciona
+              <a href="/pricing" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
+                Precios
               </a>
               <a href="#funcionalidades" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
                 Funcionalidades
@@ -136,10 +136,16 @@ export default async function HomePage() {
             </div>
             <div className="flex items-center gap-3">
               <a
-                href="/admin"
-                className="rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-medium text-[var(--text)] transition-all hover:bg-[var(--surface-light)]"
+                href="/login"
+                className="rounded-lg px-4 py-2 text-sm font-medium text-[var(--text-light)] transition-all hover:text-[var(--text)]"
               >
-                Panel Admin
+                Iniciar Sesion
+              </a>
+              <a
+                href="/onboarding"
+                className="rounded-lg bg-[var(--primary)] px-4 py-2 text-sm font-medium text-[var(--primary-foreground)] shadow-button transition-all hover:-translate-y-0.5 hover:shadow-card-hover"
+              >
+                Crear Mi Sitio
               </a>
             </div>
           </div>
@@ -179,17 +185,17 @@ export default async function HomePage() {
 
               <div className="hero-animate-delay-2 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <a
-                  href="#plantillas"
+                  href="/onboarding"
                   className="inline-flex items-center gap-2 rounded-xl bg-[var(--primary)] px-8 py-3.5 text-base font-semibold text-[var(--primary-foreground)] shadow-button transition-all duration-normal hover:-translate-y-0.5 hover:shadow-card-hover"
                 >
-                  Ver Plantillas
+                  Crear Mi Sitio Gratis
                   <ArrowRight size={18} />
                 </a>
                 <a
-                  href="#proyectos"
+                  href="#plantillas"
                   className="inline-flex items-center gap-2 rounded-xl border-2 border-[var(--border)] px-8 py-3.5 text-base font-semibold text-[var(--text)] transition-all duration-normal hover:border-[var(--primary)] hover:text-[var(--primary)]"
                 >
-                  Ver Proyectos
+                  Ver Plantillas
                   <ChevronRight size={18} />
                 </a>
               </div>
@@ -499,17 +505,17 @@ export default async function HomePage() {
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <a
-                  href="/admin"
+                  href="/onboarding"
                   className="inline-flex items-center gap-2 rounded-xl bg-white px-8 py-3.5 text-base font-semibold text-[var(--primary)] shadow-button transition-all duration-normal hover:-translate-y-0.5 hover:shadow-card-hover"
                 >
                   Comenzar Ahora
                   <ArrowRight size={18} />
                 </a>
                 <a
-                  href="#plantillas"
+                  href="/pricing"
                   className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-8 py-3.5 text-base font-semibold text-white transition-all duration-normal hover:border-white/60"
                 >
-                  Explorar Plantillas
+                  Ver Precios
                 </a>
               </div>
             </div>
@@ -547,13 +553,18 @@ export default async function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="#proyectos" className="transition-colors hover:text-[var(--primary)]">
-                    Proyectos
+                  <a href="/pricing" className="transition-colors hover:text-[var(--primary)]">
+                    Precios
                   </a>
                 </li>
                 <li>
-                  <a href="#funcionalidades" className="transition-colors hover:text-[var(--primary)]">
-                    Funcionalidades
+                  <a href="/onboarding" className="transition-colors hover:text-[var(--primary)]">
+                    Crear Mi Sitio
+                  </a>
+                </li>
+                <li>
+                  <a href="/login" className="transition-colors hover:text-[var(--primary)]">
+                    Iniciar Sesion
                   </a>
                 </li>
                 <li>

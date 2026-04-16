@@ -32,9 +32,9 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   response.headers.set('x-pathname', path)
 
   // Public routes: skip auth to reduce latency
-  // Note: /admin is temporarily unprotected until Supabase auth is configured.
-  // Once login flow is implemented, remove '/admin' from this list.
-  const isPublicRoute = !path.startsWith('/admin') || path === '/login'
+  // Admin routes are protected; everything else is public.
+  const publicPrefixes = ['/login', '/signup', '/forgot-password', '/pricing', '/onboarding', '/testimonials', '/api']
+  const isPublicRoute = !path.startsWith('/admin') || publicPrefixes.some((p) => path.startsWith(p))
   if (isPublicRoute) {
     return response
   }

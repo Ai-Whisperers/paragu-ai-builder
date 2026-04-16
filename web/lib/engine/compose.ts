@@ -348,6 +348,8 @@ function buildSectionData(
         whatsapp: business.whatsapp,
         googleMapsUrl: business.googleMapsUrl,
         hours: business.hours,
+        businessSlug: business.slug,
+        businessName: business.name,
       }
 
     case 'faq':

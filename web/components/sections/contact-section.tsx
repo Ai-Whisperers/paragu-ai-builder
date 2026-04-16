@@ -3,6 +3,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { ContactForm } from './contact-form'
 
 export interface ContactSectionProps {
   title: string
@@ -14,6 +15,10 @@ export interface ContactSectionProps {
   whatsapp?: string
   googleMapsUrl?: string
   hours?: Record<string, string>
+  /** Business slug for contact form submission */
+  businessSlug?: string
+  /** Business name for success message */
+  businessName?: string
 }
 
 export function ContactSection({
@@ -26,6 +31,8 @@ export function ContactSection({
   whatsapp,
   googleMapsUrl,
   hours,
+  businessSlug,
+  businessName,
 }: ContactSectionProps) {
   return (
     <section id="contacto" className="bg-[var(--surface)] py-16 sm:py-20">
@@ -109,28 +116,40 @@ export function ContactSection({
             </div>
           </AnimateOnScroll>
 
-          {/* Map */}
-          <AnimateOnScroll stagger={1}>
-            <div className="min-h-[300px] overflow-hidden rounded-lg bg-[var(--surface-light)] shadow-card">
-              {googleMapsUrl ? (
-                <iframe
-                  src={googleMapsUrl}
-                  width="100%"
-                  height="100%"
-                  className="min-h-[300px] border-0"
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title={`Mapa de ${city}`}
+          {/* Map + Contact Form */}
+          <div className="space-y-6">
+            <AnimateOnScroll stagger={1}>
+              <div className="min-h-[300px] overflow-hidden rounded-lg bg-[var(--surface-light)] shadow-card">
+                {googleMapsUrl ? (
+                  <iframe
+                    src={googleMapsUrl}
+                    width="100%"
+                    height="100%"
+                    className="min-h-[300px] border-0"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={`Mapa de ${city}`}
+                  />
+                ) : (
+                  <div className="flex h-full min-h-[300px] flex-col items-center justify-center gap-2 text-[var(--text-muted)]">
+                    <MapPin size={32} className="opacity-40" />
+                    <p className="text-sm">{address ? `${address}, ${city}` : city}</p>
+                  </div>
+                )}
+              </div>
+            </AnimateOnScroll>
+
+            {businessSlug && (
+              <AnimateOnScroll stagger={2}>
+                <ContactForm
+                  businessSlug={businessSlug}
+                  businessName={businessName || 'este negocio'}
+                  whatsapp={whatsapp}
                 />
-              ) : (
-                <div className="flex h-full min-h-[300px] flex-col items-center justify-center gap-2 text-[var(--text-muted)]">
-                  <MapPin size={32} className="opacity-40" />
-                  <p className="text-sm">{address ? `${address}, ${city}` : city}</p>
-                </div>
-              )}
-            </div>
-          </AnimateOnScroll>
+              </AnimateOnScroll>
+            )}
+          </div>
         </div>
       </Container>
     </section>
