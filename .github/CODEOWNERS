@@ -1,0 +1,12 @@
+# Default owners for everything
+* @ai-whisperers
+
+# Data layer (schemas, tokens, registry, content)
+/src/ @ai-whisperers
+
+# Web application
+/web/ @ai-whisperers
+
+# Infrastructure
+/web/Dockerfile @ai-whisperers
+/.github/ @ai-whisperers
