@@ -23,6 +23,7 @@ import { getDemoBusiness, getAllDemoSlugs, DEMO_BUSINESSES } from './demo-data'
 let LEAD_BUSINESSES: Record<string, BusinessData> = {}
 try {
   // This file is auto-generated and may not exist yet
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const leadData = require('./lead-data')
   LEAD_BUSINESSES = leadData.LEAD_BUSINESSES || {}
 } catch {

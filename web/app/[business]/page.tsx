@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props) {
   const businessData = await loadBusiness(slug)
   if (!businessData) return { title: 'No encontrado' }
 
-  const page = composePage(businessData)
+  const page = await composePage(businessData)
   return {
     title: page.meta.title,
     description: page.meta.description,
@@ -43,7 +43,7 @@ export default async function BusinessPage({ params }: Props) {
   const businessData = await loadBusiness(slug)
   if (!businessData) notFound()
 
-  const page = composePage(businessData)
+  const page = await composePage(businessData)
 
   return (
     <>

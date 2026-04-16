@@ -21,10 +21,10 @@ import {
   Wand2,
   ExternalLink,
   MapPin,
-  Clock,
   Users,
   TrendingUp,
 } from 'lucide-react'
+import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 import { HomeAnimations } from '@/components/home/home-animations'
@@ -46,7 +46,6 @@ const TEMPLATES = [
 ] as const
 
 const TOTAL_LEADS = 7491
-const TOTAL_PRIORITY_A = 5215
 
 const FEATURES = [
   {
@@ -112,14 +111,14 @@ export default async function HomePage() {
       <nav className="fixed top-0 z-50 w-full border-b border-[var(--border)] bg-[var(--background)]/90 backdrop-blur-md">
         <Container>
           <div className="flex h-16 items-center justify-between">
-            <a href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)]">
                 <Wand2 size={20} />
               </div>
               <span className="text-lg font-bold text-[var(--text)]">
                 Paragu<span className="text-[var(--primary)]">AI</span>
               </span>
-            </a>
+            </Link>
             <div className="hidden items-center gap-8 md:flex">
               <a href="#plantillas" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
                 Plantillas
@@ -135,12 +134,12 @@ export default async function HomePage() {
               </a>
             </div>
             <div className="flex items-center gap-3">
-              <a
+              <Link
                 href="/admin"
                 className="rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-medium text-[var(--text)] transition-all hover:bg-[var(--surface-light)]"
               >
                 Panel Admin
-              </a>
+              </Link>
             </div>
           </div>
         </Container>
@@ -358,12 +357,12 @@ export default async function HomePage() {
             </div>
 
             <div className="section-fade mt-10 text-center">
-              <a
+              <Link
                 href="/admin"
                 className="inline-flex items-center gap-2 text-sm font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--primary)]"
               >
                 Ver todos en el panel admin <ArrowRight size={14} />
-              </a>
+              </Link>
             </div>
           </Container>
         </section>
@@ -498,13 +497,13 @@ export default async function HomePage() {
                 estan listos para crecer con presencia web profesional.
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <a
+                <Link
                   href="/admin"
                   className="inline-flex items-center gap-2 rounded-xl bg-white px-8 py-3.5 text-base font-semibold text-[var(--primary)] shadow-button transition-all duration-normal hover:-translate-y-0.5 hover:shadow-card-hover"
                 >
                   Comenzar Ahora
                   <ArrowRight size={18} />
-                </a>
+                </Link>
                 <a
                   href="#plantillas"
                   className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-8 py-3.5 text-base font-semibold text-white transition-all duration-normal hover:border-white/60"
@@ -557,9 +556,9 @@ export default async function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="/admin" className="transition-colors hover:text-[var(--primary)]">
+                  <Link href="/admin" className="transition-colors hover:text-[var(--primary)]">
                     Panel Admin
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
