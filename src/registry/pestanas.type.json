@@ -1,0 +1,68 @@
+{
+  "id": "pestanas",
+  "nameEs": "Pestañas y Cejas",
+  "nameEn": "Lashes & Brows",
+
+  "tokens": "pestanas",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "galleryPreview", "testimonial", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "whatsappFloat": { "enabled": true },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": true, "filterable": true },
+    "portfolio": { "enabled": true, "minImages": 12, "categories": ["pestanas", "cejas", "microblading"] },
+    "beforeAfter": { "enabled": false, "optional": true },
+    "staffProfiles": { "enabled": false },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "onlineBooking": { "enabled": true, "method": "whatsapp", "fallback": "whatsapp" },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["pestanas", "cejas", "microblading", "lifting"],
+
+  "targetAudience": {
+    "primary": "Women 20-40, Instagram-driven, beauty-conscious",
+    "secondary": "Brides, event attendees, beauty professionals"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Pestañas y Cejas en {{city}}",
+    "descriptionTemplate": "Extensiones de pestañas, microblading y diseño de cejas en {{city}}. Reserva tu cita por WhatsApp. Precios desde {{lowestPrice}}.",
+    "schemaType": "BeautySalon",
+    "keywords": ["pestañas {{city}}", "extensiones de pestañas {{city}}", "microblading {{city}}", "diseño de cejas {{city}}", "lash extensions {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Galeria", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Tu Mirada Perfecta en {{city}}",
+    "subheadlineTemplate": "Extensiones de pestañas, microblading y diseño de cejas que realzan tu belleza natural",
+    "ctaPrimary": { "text": "Reservar Cita", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}
