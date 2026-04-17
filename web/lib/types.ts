@@ -72,3 +72,5 @@ export interface GenerationLog {
   error?: string
   createdAt: string
 }
+
+export type PageType = 'homepage' | 'services' | 'gallery' | 'team' | 'contact'

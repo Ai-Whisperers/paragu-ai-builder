@@ -13,6 +13,7 @@
  */
 
 import type { BusinessType } from '@/lib/types'
+import type { PageType } from '@/lib/types'
 import { fillTemplate } from '@/lib/utils'
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
@@ -118,6 +119,22 @@ interface RegistryType {
       sections: string[]
       requiredSections: string[]
     }
+    services?: {
+      sections: string[]
+      requiredSections: string[]
+    }
+    gallery?: {
+      sections: string[]
+      requiredSections: string[]
+    }
+    team?: {
+      sections: string[]
+      requiredSections: string[]
+    }
+    contact?: {
+      sections: string[]
+      requiredSections: string[]
+    }
   }
   features: Record<string, { enabled: boolean }>
   nav: {
@@ -203,8 +220,12 @@ const SECTION_MAP: Record<string, SectionType> = {
 
 /**
  * Compose a full page for a business from its type registry and data.
+ * Supports multiple page types: homepage, services, gallery, team, contact.
  */
-export async function composePage(business: BusinessData): Promise<ComposedPage> {
+export async function composePageForType(
+  business: BusinessData,
+  pageType: PageType
+): Promise<ComposedPage> {
   const registry = loadJson<RegistryType>(`src/registry/${business.type}.type.json`)
   const content = loadJson<ContentTemplate>(`src/content/${business.type}.content.json`)
 
@@ -215,31 +236,34 @@ export async function composePage(business: BusinessData): Promise<ComposedPage>
     year: new Date().getFullYear(),
   }
 
-  // Build nav items
   const navItems = registry.nav.items.map((label) => ({
     label,
-    href: `#${label.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`,
+    href: `/${business.slug}/${label.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`,
   }))
 
-  // Determine homepage sections from registry
-  const registrySections = registry.pages.homepage.sections
   const sections: ComposedSection[] = []
   let order = 0
+
+  const pageConfig = registry.pages[pageType]
+  if (!pageConfig) {
+    console.warn(`[Compose] No config for page type: ${pageType}, falling back to homepage`)
+    return composePage(business)
+  }
+
+  const registrySections = pageConfig.sections
 
   for (const sectionKey of registrySections) {
     const type = SECTION_MAP[sectionKey]
     if (!type) continue
 
-    // Skip duplicates
     if (sections.some((s) => s.type === type)) continue
 
-    const sectionData = buildSectionData(type, business, content, templateData, navItems, registry)
+    const sectionData = buildSectionData(type, business, content, templateData, navItems, registry, pageType)
     if (sectionData) {
       sections.push({ type, order: order++, data: sectionData })
     }
   }
 
-  // Always add whatsappFloat if enabled and business has whatsapp
   if (
     business.whatsapp &&
     registry.features?.whatsappFloat?.enabled &&
@@ -256,11 +280,9 @@ export async function composePage(business: BusinessData): Promise<ComposedPage>
     })
   }
 
-  // SEO metadata
   const title = fillTemplate(registry.seo.titleTemplate, templateData)
   const description = fillTemplate(registry.seo.descriptionTemplate, templateData)
 
-  // Resolve tokens (dynamic import to avoid circular dependency)
   const { resolveTokens } = await import('@/lib/tokens/resolver')
   const tokens = resolveTokens(business.type)
 
@@ -276,13 +298,18 @@ export async function composePage(business: BusinessData): Promise<ComposedPage>
   }
 }
 
+export async function composePage(business: BusinessData): Promise<ComposedPage> {
+  return composePageForType(business, 'homepage')
+}
+
 function buildSectionData(
   type: SectionType,
   business: BusinessData,
   content: ContentTemplate,
   templateData: Record<string, string | number>,
   navItems: Array<{ label: string; href: string }>,
-  registry: RegistryType
+  registry: RegistryType,
+  pageType?: string
 ): Record<string, unknown> | null {
   switch (type) {
     case 'header':
