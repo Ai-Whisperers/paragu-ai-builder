@@ -63,7 +63,8 @@ export default async function TenantPage({ params }: Props) {
   let composed
   try {
     composed = composeSitePage({ siteSlug, locale: locale as Locale, pageSlug })
-  } catch {
+  } catch (error) {
+    console.error('[TenantPage] Error composing page:', error)
     notFound()
   }
 
