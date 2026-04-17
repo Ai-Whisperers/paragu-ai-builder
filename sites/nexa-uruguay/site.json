@@ -1,0 +1,33 @@
+{
+  "vertical": "relocacion",
+  "country": "Uruguay",
+  "domain": "nexauruguay.com",
+  "stagingDomain": "staging.nexauruguay.com",
+  "defaultLocale": "en",
+  "locales": ["en", "es"],
+  "navigation": [
+    { "labelKey": "navigation.home", "path": "" },
+    { "labelKey": "navigation.programs", "path": "programas" },
+    { "labelKey": "navigation.whyCountry", "path": "por-que-uruguay" },
+    { "labelKey": "navigation.process", "path": "proceso" },
+    { "labelKey": "navigation.about", "path": "sobre" },
+    { "labelKey": "navigation.faq", "path": "faq" },
+    { "labelKey": "navigation.contact", "path": "contacto" }
+  ],
+  "integrations": {
+    "booking": "calendly",
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "testimonials": false,
+    "blog": false,
+    "whatsappFloat": true
+  },
+  "contact": {
+    "whatsapp": "598000000000",
+    "email": "hola@nexauruguay.com"
+  },
+  "bookingUrl": "https://calendly.com/nexauruguay/consult"
+}

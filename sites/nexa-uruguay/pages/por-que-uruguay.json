@@ -1,0 +1,42 @@
+{
+  "slug": "por-que-paraguay",
+  "titleKey": "whyCountryPage.seo.title",
+  "descriptionKey": "whyCountryPage.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "whyCountryPage.hero"
+    },
+    {
+      "id": "why-destination",
+      "variant": "alternating",
+      "content": "whyCountryPage.pillars"
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "whyCountryPage.trust"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "whyCountryPage.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}
