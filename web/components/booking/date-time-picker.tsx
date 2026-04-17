@@ -57,7 +57,9 @@ export default function DateTimePicker({
 
   useEffect(() => {
     if (selectedDate) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setAvailableSlots(generateTimeSlots())
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedTime('')
     }
   }, [selectedDate])

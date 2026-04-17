@@ -92,24 +92,24 @@ describe('demo-data.ts', () => {
   })
 
   describe('data integrity', () => {
-    it('should have 12 business types in types.ts', () => {
-      const { BUSINESS_TYPES } = require('../lib/types')
+    it('should have 12 business types in types.ts', async () => {
+      const { BUSINESS_TYPES } = await import('../lib/types')
       expect(BUSINESS_TYPES.length).toBe(12)
     })
 
-    it('should have matching registry files', () => {
-      const fs = require('fs')
+    it('should have matching registry files', async () => {
+      const fs = await import('fs')
       const registryDir = '../src/registry'
       const files = fs.readdirSync(registryDir)
-      const jsonFiles = files.filter(f => f.endsWith('.type.json'))
+      const jsonFiles = files.filter((f: string) => f.endsWith('.type.json'))
       expect(jsonFiles.length).toBeGreaterThanOrEqual(12)
     })
 
-    it('should have matching content files', () => {
-      const fs = require('fs')
+    it('should have matching content files', async () => {
+      const fs = await import('fs')
       const contentDir = '../src/content'
       const files = fs.readdirSync(contentDir)
-      const jsonFiles = files.filter(f => f.endsWith('.content.json'))
+      const jsonFiles = files.filter((f: string) => f.endsWith('.content.json'))
       expect(jsonFiles.length).toBeGreaterThanOrEqual(10)
     })
   })

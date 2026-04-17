@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
@@ -62,6 +62,8 @@ export function LeadFormSection({
 }: LeadFormSectionProps) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
   const [errorText, setErrorText] = useState('')
+  // eslint-disable-next-line react-hooks/purity
+  const startedAtRef = useRef(Date.now())
 
   async function handleSubmit(evt: React.FormEvent<HTMLFormElement>) {
     evt.preventDefault()
@@ -144,7 +146,7 @@ export function LeadFormSection({
               (compact ? 'max-w-xl' : 'max-w-2xl sm:grid-cols-2')
             }
           >
-            <input type="hidden" name="startedAt" value={Date.now()} />
+            <input type="hidden" name="startedAt" value={startedAtRef.current} />
             <input
               type="text"
               name="honey"

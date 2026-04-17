@@ -47,14 +47,16 @@ export function loadBlogPost(
   const raw = readFileSync(file, 'utf-8')
   const { frontmatter, body } = parseFrontmatter(raw)
   if (frontmatter.draft) return null
+  const asString = (v: string | number | boolean | undefined): string | undefined =>
+    v === undefined ? undefined : String(v)
   return {
     slug,
-    title: frontmatter.title || slug,
-    date: frontmatter.date,
-    author: frontmatter.author,
-    category: frontmatter.category,
-    excerpt: frontmatter.excerpt,
-    coverImage: frontmatter.coverImage,
+    title: asString(frontmatter.title) || slug,
+    date: asString(frontmatter.date),
+    author: asString(frontmatter.author),
+    category: asString(frontmatter.category),
+    excerpt: asString(frontmatter.excerpt),
+    coverImage: asString(frontmatter.coverImage),
     readingMinutes: frontmatter.readingMinutes
       ? Number(frontmatter.readingMinutes)
       : estimateReadingMinutes(body),
