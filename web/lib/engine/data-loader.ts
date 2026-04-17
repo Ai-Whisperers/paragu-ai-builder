@@ -98,9 +98,10 @@ export async function loadAllSlugs(): Promise<string[]> {
 }
 
 export async function loadAllBusinesses(): Promise<BusinessData[]> {
-  const businesses: BusinessData[] = [...Object.values(DEMO_BUSINESSES), ...Object.values(LEAD_BUSINESSES)]
+  const bySlug = new Map<string, BusinessData>()
+  for (const b of Object.values(DEMO_BUSINESSES)) bySlug.set(b.slug, b)
+  for (const b of Object.values(LEAD_BUSINESSES)) bySlug.set(b.slug, b)
 
-  // Try to get businesses from Supabase
   try {
     const { createClient } = await import('@/lib/supabase/server')
     const supabase = await createClient()
@@ -108,14 +109,16 @@ export async function loadAllBusinesses(): Promise<BusinessData[]> {
       .from('businesses')
       .select('*')
       .eq('status', 'active')
-    
+
     if (data) {
-      const supabaseBusinesses = data.map(rowToBusinessData)
-      return supabaseBusinesses
+      for (const row of data) {
+        const biz = rowToBusinessData(row)
+        bySlug.set(biz.slug, biz)
+      }
     }
-  } catch {
-    // Supabase not available
+  } catch (e) {
+    console.warn('[DataLoader/loadAllBusinesses] Supabase unavailable:', e)
   }
 
-  return businesses
+  return Array.from(bySlug.values())
 }

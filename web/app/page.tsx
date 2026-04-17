@@ -32,17 +32,44 @@ import { HomeAnimations } from '@/components/home/home-animations'
 /* ── Registry data (static, no DB needed) ─────────────────────────── */
 
 const TEMPLATES = [
-  { id: 'peluqueria', name: 'Peluqueria', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79' },
-  { id: 'salon_belleza', name: 'Salon de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574' },
-  { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f' },
-  { id: 'spa', name: 'Spa & Wellness', icon: Flower2, leads: 927, pct: 76, color: '#7c9885' },
-  { id: 'barberia', name: 'Barberia', icon: User, leads: 778, pct: 77, color: '#8b6914' },
-  { id: 'unas', name: 'Unas', icon: Hand, leads: 488, pct: 75, color: '#c77dba' },
-  { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e' },
-  { id: 'estetica', name: 'Estetica / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8' },
-  { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#c44569' },
-  { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7' },
-  { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055' },
+  { id: 'peluqueria', name: 'Peluqueria', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: 'salon-maria' },
+  { id: 'salon_belleza', name: 'Salon de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'studio-belleza' },
+  { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoSlug: 'gymfit-py' },
+  { id: 'spa', name: 'Spa & Wellness', icon: Flower2, leads: 927, pct: 76, color: '#7c9885', demoSlug: 'spa-serenidad' },
+  { id: 'barberia', name: 'Barberia', icon: User, leads: 778, pct: 77, color: '#8b6914', demoSlug: 'barberia-clasica' },
+  { id: 'unas', name: 'Unas', icon: Hand, leads: 488, pct: 75, color: '#c77dba', demoSlug: 'unas-y-mas' },
+  { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e', demoSlug: 'tinta-viva' },
+  { id: 'estetica', name: 'Estetica / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8', demoSlug: 'belleza-integral' },
+  { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#c44569', demoSlug: 'maquillaje-arte' },
+  { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
+  { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
+] as const
+
+const TENANTS = [
+  {
+    slug: 'nexa-paraguay',
+    name: 'Nexa Paraguay',
+    tagline: 'Tu mudanza de Europa a Paraguay, sin fricciones',
+    vertical: 'Relocacion',
+    flag: 'PY',
+    locales: ['nl', 'en', 'de', 'es'],
+    defaultLocale: 'nl',
+    href: '/s/nl/nexa-paraguay',
+    domain: 'nexaparaguay.com',
+    accent: '#1b5e3a',
+  },
+  {
+    slug: 'nexa-uruguay',
+    name: 'Nexa Uruguay',
+    tagline: 'Relocation services for Europeans moving to Uruguay',
+    vertical: 'Relocacion',
+    flag: 'UY',
+    locales: ['en', 'es'],
+    defaultLocale: 'en',
+    href: '/s/en/nexa-uruguay',
+    domain: 'nexauruguay.com',
+    accent: '#2563eb',
+  },
 ] as const
 
 const TOTAL_LEADS = 7463
@@ -103,6 +130,10 @@ const STEPS = [
 export default async function HomePage() {
   const businesses = await loadAllBusinesses()
 
+  const oneBusinessPerType = Array.from(
+    new Map(businesses.map((b) => [b.type, b])).values(),
+  )
+
   return (
     <>
       <HomeAnimations />
@@ -125,6 +156,9 @@ export default async function HomePage() {
               </a>
               <a href="#proyectos" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
                 Ejemplos
+              </a>
+              <a href="#tenants" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
+                Tenants
               </a>
               <a href="#como-funciona" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
                 Como Funciona
@@ -232,9 +266,10 @@ export default async function HomePage() {
               {TEMPLATES.map((t) => {
                 const Icon = t.icon
                 return (
-                  <div
+                  <Link
                     key={t.id}
-                    className="group relative overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all duration-normal hover:-translate-y-1 hover:shadow-card-hover"
+                    href={`/${t.demoSlug}`}
+                    className="group relative block overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all duration-normal hover:-translate-y-1 hover:shadow-card-hover"
                   >
                     <div
                       className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl transition-transform duration-normal group-hover:scale-110"
@@ -258,7 +293,7 @@ export default async function HomePage() {
                         style={{ width: `${t.pct}%`, backgroundColor: t.color }}
                       />
                     </div>
-                  </div>
+                  </Link>
                 )
               })}
             </div>
@@ -282,7 +317,7 @@ export default async function HomePage() {
             </div>
 
             <div className="section-fade grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {businesses.map((biz) => {
+              {oneBusinessPerType.map((biz) => {
                 const template = TEMPLATES.find((t) => t.id === biz.type)
                 const Icon = template?.icon || Star
                 const color = template?.color || '#2563eb'
@@ -363,6 +398,94 @@ export default async function HomePage() {
               >
                 Ver mas ejemplos en el panel admin <ArrowRight size={14} />
               </Link>
+            </div>
+          </Container>
+        </section>
+
+        {/* ── Tenants en produccion ──────────────────────────────── */}
+        <section id="tenants" className="scroll-mt-20 bg-[var(--surface-light)] py-20 md:py-28">
+          <Container>
+            <div className="section-fade mx-auto mb-14 max-w-2xl text-center">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--primary)]">
+                Tenants en produccion
+              </p>
+              <h2 className="mb-4 text-3xl font-bold text-[var(--text)] sm:text-4xl">
+                Sitios reales desplegados
+              </h2>
+              <p className="text-[var(--text-light)]">
+                Tenants en vivo con nuestro motor multi-idioma y multi-pais.
+                Arquitectura basada en verticales: una misma base sirve a cada tenant
+                con su dominio, idiomas y contenido propios.
+              </p>
+            </div>
+
+            <div className="section-fade grid gap-6 md:grid-cols-2">
+              {TENANTS.map((t) => (
+                <div
+                  key={t.slug}
+                  className="group relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all duration-normal hover:-translate-y-1 hover:shadow-card-hover"
+                >
+                  <div
+                    className="relative flex h-40 items-end p-6"
+                    style={{
+                      background: `linear-gradient(135deg, ${t.accent}dd, ${t.accent}88)`,
+                    }}
+                  >
+                    <div className="absolute top-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/20 text-xs font-bold text-white backdrop-blur-sm">
+                      {t.flag}
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white">{t.name}</h3>
+                      <p className="mt-1 text-sm text-white/80">{t.tagline}</p>
+                    </div>
+                  </div>
+
+                  <div className="p-6">
+                    <div className="mb-4 flex flex-wrap gap-2">
+                      <span
+                        className="inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium"
+                        style={{ backgroundColor: `${t.accent}15`, color: t.accent }}
+                      >
+                        <Globe size={12} />
+                        {t.vertical}
+                      </span>
+                      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-700">
+                        En vivo
+                      </span>
+                    </div>
+
+                    <div className="space-y-2 text-sm text-[var(--text-muted)]">
+                      <div className="flex items-center gap-2">
+                        <Globe size={14} />
+                        <span>{t.domain}</span>
+                      </div>
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="text-[var(--text-muted)]">Idiomas:</span>
+                        {t.locales.map((locale) => (
+                          <a
+                            key={locale}
+                            href={`/s/${locale}/${t.slug}`}
+                            className={`rounded-md border px-2 py-0.5 text-xs font-semibold uppercase tracking-wide transition-colors ${
+                              locale === t.defaultLocale
+                                ? 'border-[var(--primary)] text-[var(--primary)]'
+                                : 'border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
+                            }`}
+                          >
+                            {locale}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+
+                    <Link
+                      href={t.href}
+                      className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--primary)] transition-all group-hover:gap-3"
+                    >
+                      Visitar sitio ({t.defaultLocale.toUpperCase()}) <ExternalLink size={14} />
+                    </Link>
+                  </div>
+                </div>
+              ))}
             </div>
           </Container>
         </section>
@@ -555,6 +678,11 @@ export default async function HomePage() {
                 <li>
                   <a href="#proyectos" className="transition-colors hover:text-[var(--primary)]">
                     Ejemplos
+                  </a>
+                </li>
+                <li>
+                  <a href="#tenants" className="transition-colors hover:text-[var(--primary)]">
+                    Tenants
                   </a>
                 </li>
                 <li>

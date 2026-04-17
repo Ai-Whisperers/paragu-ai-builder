@@ -396,6 +396,39 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
       { quote: 'Personal muy profesional y locales immaculados.', author: 'Lorena P.', rating: 5 },
     ],
   },
+
+  'maquillaje-arte': {
+    name: 'Maquillaje Arte',
+    slug: 'maquillaje-arte',
+    type: 'maquillaje',
+    tagline: 'Tu look perfecto para cada ocasion',
+    city: 'Asuncion',
+    neighborhood: 'Villa Morra',
+    address: 'Av. Espana 1450',
+    phone: '+595981555444',
+    whatsapp: '+595981555444',
+    instagram: '@maquillajearte.py',
+    hours: {
+      'Lunes - Viernes': '09:00 - 19:00',
+      'Sabado': '08:00 - 18:00',
+      'Domingo': 'Solo con cita previa',
+    },
+    services: [
+      { name: 'Maquillaje Social', price: '180.000 Gs', duration: 60, description: 'Ideal para eventos, fiestas y reuniones' },
+      { name: 'Maquillaje de Novia', price: '650.000 Gs', duration: 120, description: 'Incluye prueba previa y retoque el dia del evento' },
+      { name: 'Maquillaje XV Anos', price: '350.000 Gs', duration: 90, description: 'Look glamoroso para tu fiesta de quince' },
+      { name: 'Maquillaje Editorial', priceFrom: '250.000 Gs', duration: 90, description: 'Para sesiones de fotos y producciones' },
+      { name: 'Curso Basico de Automaquillaje', price: '400.000 Gs', duration: 180, description: 'Aprende a maquillarte paso a paso' },
+    ],
+    team: [
+      { name: 'Lucia Benitez', role: 'Makeup Artist Senior', bio: 'Certificada en Make Up For Ever Academy, 10 anos de experiencia en novias y editorial.' },
+      { name: 'Camila Ortega', role: 'Makeup Artist', bio: 'Especialista en maquillaje social y efectos para produccion fotografica.' },
+    ],
+    testimonials: [
+      { quote: 'Lucia hizo mi maquillaje de novia y fue un sueno. Duro todo el dia impecable.', author: 'Valeria C.', rating: 5 },
+      { quote: 'La mejor experiencia para mis XV. El look fue exactamente lo que queria.', author: 'Sofia M.', rating: 5 },
+    ],
+  },
 }
 
 /**
