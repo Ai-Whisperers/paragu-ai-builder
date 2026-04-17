@@ -1,0 +1,70 @@
+{
+  "name": "Relocation Services",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["professional", "trustworthy", "modern", "corporate"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Trust Blue",
+      "colors": {
+        "primary": "#1e3a5f",
+        "secondary": "#c9a227",
+        "background": "#f8f9fa",
+        "surface": "#ffffff",
+        "text": "#1a1a1a",
+        "textLight": "#5a6c7d",
+        "success": "#2e7d32",
+        "error": "#c62828",
+        "accent": "#4a90a4"
+      }
+    },
+    "optionB": {
+      "name": "Corporate Green",
+      "colors": {
+        "primary": "#1b4332",
+        "secondary": "#d4a017",
+        "background": "#f5f5f4",
+        "surface": "#ffffff",
+        "text": "#1a1a1a",
+        "textLight": "#555555",
+        "accent": "#40916c",
+        "success": "#2d6a4f",
+        "error": "#9c1b1b"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Inter', sans-serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Inter', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Inter:wght@300;400;500;600;700"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-md",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "card": {
+      "padding": "24px",
+      "borderRadius": "12px",
+      "shadow": "md"
+    },
+    "section": {
+      "padding": "64px 0"
+    }
+  }
+}

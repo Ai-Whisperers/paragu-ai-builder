@@ -406,8 +406,70 @@ export function getDemoBusiness(slug: string): BusinessData | null {
 }
 
 /**
+ * Relocation service demo businesses (Nexa Paraguay)
+ */
+export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
+  'nexaparaguay': {
+    name: 'Nexa Paraguay',
+    slug: 'nexaparaguay',
+    type: 'relocation',
+    tagline: 'Tu nuevo comienzo en Paraguay, simple y tranquilo.',
+    city: 'Asuncion',
+    neighborhood: 'Asuncion',
+    address: 'Asuncion, Paraguay',
+    phone: '+595984561234',
+    email: 'contact@nexaparaguay.com',
+    whatsapp: '+595984561234',
+    instagram: '@nexaparaguay',
+    facebook: 'nexaparaguay',
+    hours: {
+      'Lunes - Viernes': '09:00 - 18:00',
+      'Sabado': '10:00 - 14:00',
+      'Domingo': 'Cerrado',
+    },
+    services: [
+      { name: 'Paraguay Base', price: 'Consultar', duration: 0, description: 'Residencia + cédula. Entrada al sistema.', category: 'Residencia' },
+      { name: 'Paraguay Business', price: 'Consultar', duration: 0, description: 'Residencia + sociedad + cuenta bancaria.', category: 'Negocio' },
+      { name: 'Paraguay Investor', price: 'Consultar', duration: 0, description: 'Todo + 12 meses acompañamiento.', category: 'Inversion' },
+      { name: 'Compra de Tierras', price: 'Consultar', duration: 0, description: 'Asesoría integral para adquisición de tierras.', category: 'Inmuebles' },
+    ],
+    features: [
+      { title: 'Un solo programa', description: 'No coordine entre múltiples proveedores. Todo está integrado.' },
+      { title: 'Un solo viaje', description: 'La tramitación presencial se completa en una jornada.' },
+      { title: 'Precio transparente', description: 'Sin cargos ocultos. Todo incluido.' },
+      { title: 'Equipo profesional', description: 'Abogados, contadores y asesores con experiencia real.' },
+      { title: 'Acceso bancario', description: 'Resolvemos el principal obstáculo para foreigners.' },
+    ],
+    processSteps: [
+      { number: 1, title: 'Consulta inicial', description: 'Conversamos sobre su situación y objetivos.' },
+      { number: 2, title: 'Validación documental', description: 'Revisamos toda su documentación antes del viaje.' },
+      { number: 3, title: 'Jornada operativa', description: 'Ejecutamos todos los trámites en un día.' },
+      { number: 4, title: 'Constitución y bancaria', description: 'Constituimos su sociedad y activamos cuenta.' },
+      { number: 5, title: 'Entrega y seguimiento', description: 'Recibe documentos y orientación final.' },
+    ],
+    team: [
+      { name: 'Dirección de Operaciones', role: 'Liderazgo operativo en Paraguay', bio: 'Coordinación del equipo técnico.' },
+      { name: 'Dirección Comercial', role: 'Puente cultural y lingüístico', bio: 'Atención a clientes internacionales.' },
+      { name: 'Equipo Legal', role: 'Expedientes migratorios y societarios', bio: 'Abogados especializados.' },
+    ],
+    testimonials: [
+      { quote: 'Todo el proceso fue transparente y profesional. Recomendado.', author: 'Cliente荷兰', rating: 5 },
+      { quote: 'En un solo viaje resolvimos todo. Increible.', author: 'Cliente德国', rating: 5 },
+      { quote: 'El equipo legal es excelente. Muy recomendados.', author: 'Cliente荷兰', rating: 5 },
+    ],
+  },
+}
+
+/**
  * Get all demo business slugs for static generation.
  */
 export function getAllDemoSlugs(): string[] {
-  return Object.keys(DEMO_BUSINESSES)
+  return [...Object.keys(DEMO_BUSINESSES), ...Object.keys(RELOCATION_DEMO_BUSINESSES)]
+}
+
+/**
+ * Get a demo business from any category.
+ */
+export function getDemoBusinessBySlug(slug: string): BusinessData | null {
+  return DEMO_BUSINESSES[slug] || RELOCATION_DEMO_BUSINESSES[slug] || null
 }
