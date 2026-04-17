@@ -6,7 +6,7 @@
  */
 
 import type { BusinessData } from './compose'
-import { getDemoBusiness, getAllDemoSlugs, DEMO_BUSINESSES } from './demo-data'
+import { getDemoBusiness, getDemoBusinessBySlug, getAllDemoSlugs, RELOCATION_DEMO_BUSINESSES, DEMO_BUSINESSES } from './demo-data'
 
 // Conditionally import lead data
 let LEAD_BUSINESSES: Record<string, BusinessData> = {}
@@ -72,7 +72,7 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
   if (LEAD_BUSINESSES[slug]) return LEAD_BUSINESSES[slug]
 
   // Fall back to demo data
-  return getDemoBusiness(slug)
+  return getDemoBusinessBySlug(slug)
 }
 
 export async function loadAllSlugs(): Promise<string[]> {
