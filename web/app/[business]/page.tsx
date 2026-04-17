@@ -8,7 +8,7 @@ interface Props {
   params: Promise<{ business: string }>
 }
 
-export const dynamicParams = true // Enable SSR for all business pages (including new types)
+export const dynamicParams = true // Force SSR - no static generation for business pages
 
 export async function generateStaticParams() {
   // Only generate homepage for demo businesses - rely on SSR for new types
