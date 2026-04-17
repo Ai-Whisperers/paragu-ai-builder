@@ -147,17 +147,20 @@
       "leadCount": 0,
       "noWebsitePercent": 0,
       "priorityALeads": 0
-    },
-    "relocation": {
-      "id": "relocation",
-      "nameEs": "Servicios de Reubicación",
+    }
+  },
+
+  "verticals": {
+    "description": "Multi-tenant verticals managed via src/verticals/<id>/. Each vertical is a catalog + starter kits consumed by tenants in sites/<slug>/. Unlike `types` above (flat beauty-era pattern), verticals support i18n, hreflang, per-tenant content, site-scoped leads, and sublinear scaling to new countries/tenants.",
+    "relocacion": {
+      "id": "relocacion",
+      "nameEs": "Servicios de Relocación",
       "nameEn": "Relocation Services",
       "icon": "globe",
-      "tokens": "relocation",
-      "content": "relocation",
-      "schema": "relocation",
-      "multilingual": true,
-      "locales": ["es", "en", "nl", "de"]
+      "path": "src/verticals/relocacion",
+      "firstTenant": "sites/nexa-paraguay",
+      "locales": ["nl", "en", "de", "es"],
+      "defaultLocale": "nl"
     }
   },
 
