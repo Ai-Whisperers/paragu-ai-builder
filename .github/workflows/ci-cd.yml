@@ -1,0 +1,175 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  # Lint & Type Check
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - run: cd web && npm run typecheck
+        name: TypeScript Check
+      
+      - run: cd web && npm run lint
+        name: ESLint
+
+  # Unit Tests
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - run: cd web && npm run test:unit
+        name: Unit Tests
+        continue-on-error: true
+      
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coverage-report
+          path: web/coverage
+          retention-days: 7
+
+  # E2E Tests
+  e2e-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: [lint]
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - name: Install Playwright browsers
+        run: cd web && npx playwright install --with-deps chromium
+      
+      - run: cd web && npm run test:e2e
+        name: E2E Tests
+        continue-on-error: true
+      
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: e2e-report
+          path: web/playwright-report
+          retention-days: 7
+
+  # Build for Cloudflare
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [lint, unit-tests]
+    
+    outputs:
+      deployment-available: ${{ steps.deploy.outputs.url != '' }}
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - name: Build Next.js
+        run: cd web && npm run build
+        id: build
+      
+      - name: Build for Cloudflare
+        run: cd web && npm run build:cloudflare
+        id: cloudflare-build
+      
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-build
+          path: web/.vercel/output/static
+          retention-days: 1
+
+  # Deploy to Cloudflare Pages (develop branch)
+  deploy-develop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [build]
+    if: github.ref == 'refs/heads/develop'
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/download-artifact@v4
+        with:
+          name: cloudflare-build
+          path: .vercel/output/static
+      
+      - name: Deploy to Cloudflare Pages (develop)
+        uses: cloudflare/pages-action@v1
+        with:
+          api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          project-name: paragu-ai-builder
+          branch: develop
+        id: deploy
+
+  # Deploy to Cloudflare Pages (main branch - PRODUCTION)
+  deploy-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [build, e2e-tests]
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/download-artifact@v4
+        with:
+          name: cloudflare-build
+          path: .vercel/output/static
+      
+      - name: Deploy to Cloudflare Pages (production)
+        uses: cloudflare/pages-action@v1
+        with:
+          api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          project-name: paragu-ai-builder
+          branch: main
+        id: deploy
+
+      - name: Post deployment URL to PR
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "::set-output name=url::${{ steps.deploy.outputs.url }}"
