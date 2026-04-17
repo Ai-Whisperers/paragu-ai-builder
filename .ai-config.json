@@ -1,0 +1,113 @@
+{
+  "name": "paragu-ai-builder",
+  "version": "1.0.0",
+  "description": "AI agent configuration for Paragu-AI Builder project",
+  "project": {
+    "type": "nextjs-supabase",
+    "stack": ["nextjs", "typescript", "tailwindcss", "supabase", "cloudflare"],
+    "language": "spanish-for-content",
+    "code": "english"
+  },
+  "ai": {
+    "model": "claude-sonnet-4-5",
+    "mode": "code-first",
+    "autoRun": true,
+    "askBefore": ["git-push", "destructive-operations", "production-deploy"]
+  },
+  "coding": {
+    "style": "functional-prefer",
+    "typescript": "strict",
+    "components": "server-first",
+    "styling": "css-variables",
+    "colors": "never-hardcoded",
+    "errors": "always-log-or-rethrow"
+  },
+  "patterns": {
+    "businessTypes": {
+      "location": "src/registry/*.type.json",
+      "pattern": "reuse-existing-sections",
+      "createComponents": false
+    },
+    "sections": {
+      "location": "web/components/sections/*-section.tsx",
+      "props": "interface-first",
+      "theme": "css-variables-only"
+    },
+    "database": {
+      "queries": "always-filter-by-business-id",
+      "rls": "required-for-all-tables",
+      "migrations": "supabase/migrations/"
+    }
+  },
+  "workflows": {
+    "addBusinessType": {
+      "steps": [
+        "Create registry/[type].type.json",
+        "Create tokens/[type].tokens.json",
+        "Create content/[type].content.json",
+        "Add to web/lib/types.ts BUSINESS_TYPES",
+        "Add demo data in web/lib/engine/demo-data.ts",
+        "Test with npm run build"
+      ],
+      "timeEstimate": "5-10 minutes"
+    },
+    "fixBuildError": {
+      "checklist": [
+        "npm run typecheck",
+        "npm run lint",
+        "Check tailwind version (must be 3.4.19)",
+        "Check for hardcoded colors",
+        "Check business_id in queries"
+      ]
+    },
+    "databaseChange": {
+      "location": "supabase/migrations/000_complete_schema.sql",
+      "rules": ["Add at end", "Include RLS", "Add indexes", "Create views if needed"]
+    }
+  },
+  "skills": {
+    "installed": [
+      "firecrawl",
+      "firecrawl-scrape",
+      "firecrawl-crawl",
+      "firecrawl-search",
+      "firecrawl-map",
+      "firecrawl-agent",
+      "firecrawl-download"
+    ],
+    "useFor": {
+      "research": "Competitor analysis, pricing research",
+      "validation": "Business info verification",
+      "content": "Extract from existing websites"
+    },
+    "dontUseFor": ["database-ops", "template-rendering", "auth"]
+  },
+  "commands": {
+    "build": "cd web && npm run build",
+    "test": "cd web && npm run typecheck",
+    "deploy": "cd web && npm run deploy",
+    "importLeads": "cd web && npm run import:leads",
+    "validate": "cd web && npm run validate:all"
+  },
+  "critical": {
+    "never": [
+      "upgrade-tailwind-v4",
+      "hardcode-colors",
+      "skip-business-id-filter",
+      "commit-env-files",
+      "silently-catch-errors"
+    ],
+    "always": [
+      "log-or-rethrow-errors",
+      "use-css-variables",
+      "filter-by-business-id",
+      "reuse-existing-sections"
+    ]
+  },
+  "documentation": {
+    "primary": "CLAUDE.md",
+    "agents": "AGENTS.md",
+    "strategy": "docs/STRATEGY_NEXT_STEPS.md",
+    "deployment": "docs/DEPLOYMENT.md"
+  }
+}
