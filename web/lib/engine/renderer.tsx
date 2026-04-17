@@ -30,6 +30,7 @@ import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
 import { FeaturesSection } from '@/components/sections/features-section'
 import { PricingTableSection } from '@/components/sections/pricing-table-section'
 import { ProcessSection } from '@/components/sections/process-section'
+import { SavingsCalculatorSection } from '@/components/sections/savings-calculator-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -58,6 +59,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   features: FeaturesSection,
   pricing: PricingTableSection,
   process: ProcessSection,
+  savingsCalculator: SavingsCalculatorSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {

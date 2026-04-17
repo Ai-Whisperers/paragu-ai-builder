@@ -23,6 +23,7 @@ import {
   MapPin,
   Users,
   TrendingUp,
+  ShoppingCart,
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
@@ -52,6 +53,7 @@ const TEMPLATES = [
   { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed' },
   { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669' },
   { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706' },
+  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a' },
 ] as const
 
 const TOTAL_LEADS = 7463
@@ -84,8 +86,8 @@ const FEATURES = [
   },
   {
     icon: Layers,
-    title: '11 Plantillas',
-    desc: 'Plantillas iniciales para belleza y bienestar, con motor IA adaptable a cualquier rubro.',
+    title: '13 Plantillas',
+    desc: 'Disenos especializados para multiples tipos de negocio: belleza, bienestar, diseno, meal prep, reubicacion y mas.'
   },
 ]
 
