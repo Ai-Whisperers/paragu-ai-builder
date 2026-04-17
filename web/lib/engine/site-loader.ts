@@ -7,8 +7,13 @@ import type {
   VerticalDefinition,
 } from './site-types'
 
+// Static site paths - hardcoded for Edge Runtime compatibility
+const SITES_DIR = '/home/ai-whisperers/paragu-ai-builder/sites'
+const SRC_DIR = '/home/ai-whisperers/paragu-ai-builder/src'
+
 function repoPath(...segments: string[]): string {
-  return resolve(process.cwd(), '..', ...segments)
+  const base = typeof __dirname !== 'undefined' ? resolve(__dirname, '..', '..') : SITES_DIR
+  return resolve(base, ...segments)
 }
 
 function readJson<T>(path: string): T {

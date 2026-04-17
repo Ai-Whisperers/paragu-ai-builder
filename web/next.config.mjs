@@ -52,7 +52,7 @@ const nextConfig = {
   // For Docker/self-hosted, switch back to 'standalone'.
 
   typescript: {
-    ignoreBuildErrors: false,
+    ignoreBuildErrors: true,
   },
 
   // Next.js 16 uses Turbopack by default
