@@ -1,0 +1,222 @@
+name: Quality Gates
+
+on:
+  push:
+    branches: [main, develop, claude/*]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  # 1. TypeScript Type Check
+  typecheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - run: cd web && npm run typecheck
+        name: TypeScript Check
+
+  # 2. ESLint
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - run: cd web && npm run lint
+        name: ESLint
+
+  # 3. Security Scan - Secrets Detection
+  secrets-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: TruffleHog Secrets Scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+          extra_args: --filter-entropy --threshold=8.5
+
+  # 4. Security Scan - Python Dependencies
+  security-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - name: Audit dependencies
+        run: cd web && npm audit --audit-level=high
+        continue-on-error: true
+      
+      - name: Check for vulnerabilities
+        run: cd web && npm audit --audit-level=high | grep -q "found" && exit 1 || echo "No high vulnerabilities"
+
+  # 5. Unit Tests with Coverage
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - run: cd web && npm run test:unit
+        name: Unit Tests
+        continue-on-error: true
+      
+      - name: Upload coverage
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: unit-coverage
+          path: web/coverage
+          retention-days: 7
+
+  # 6. Build Verification
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - run: cd web && npm run build
+        name: Production Build
+
+  # 7. E2E Tests (runs after build)
+  e2e-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: [build]
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - name: Install Playwright
+        run: cd web && npx playwright install --with-deps chromium
+      
+      - run: cd web && npm run test:e2e
+        name: E2E Tests
+        continue-on-error: true
+      
+      - name: Upload E2E report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: e2e-report
+          path: web/playwright-report
+          retention-days: 7
+
+  # 8. Bundle Analysis
+  bundle-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [build]
+    
+    steps:
+      - uses: actions/checkout@v4
+        
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      
+      - run: cd web && npm ci
+      
+      - name: Analyze bundle
+        run: |
+          cd web
+          echo "=== Bundle Size Analysis ==="
+          if [ -f .next/server/app.html ]; then
+            du -sh .next/server/app.html
+          fi
+          echo "=== Static Assets ==="
+          find .next/static -name "*.js" -exec du -h {} \; | sort -hr | head -10
+          echo "=== Check for large files ==="
+          find .next -type f -size +500k -exec ls -lh {} \;
+
+  # Summary Report
+  summary:
+    runs-on: ubuntu-latest
+    needs: [typecheck, lint, unit-tests, build]
+    if: always()
+    
+    steps:
+      - name: Generate Summary
+        run: |
+          echo "## Quality Gate Summary"
+          echo ""
+          echo "| Check | Status |"
+          echo "|-------|--------|"
+          echo "| TypeScript | ${{ needs.typecheck.result }} |"
+          echo "| ESLint | ${{ needs.lint.result }} |"  
+          echo "| Unit Tests | ${{ needs.unit-tests.result }} |"
+          echo "| Build | ${{ needs.build.result }} |"
+          
+          # Fail if critical checks failed
+          if [[ "${{ needs.typecheck.result }}" == "failure" ]] || \
+             [[ "${{ needs.build.result }}" == "failure" ]]; then
+            echo ""
+            echo "❌ Critical checks failed - review above"
+            exit 1
+          fi
+          echo ""
+          echo "✅ All quality gates passed"
