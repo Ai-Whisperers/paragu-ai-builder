@@ -31,11 +31,11 @@ function getPath() {
 
 function repoPath(...segments: string[]): string {
   const p = getPath()
-  if (isEdge || !p) {
-    return p ? p.resolve(SITES_DIR, ...segments) : SITES_DIR + '/' + segments.join('/')
+  if (!p) {
+    return SITES_DIR + '/' + segments.join('/')
   }
-  const base = typeof __dirname !== 'undefined' ? p.resolve(__dirname, '..', '..') : SITES_DIR
-  return p.resolve(base, ...segments)
+  // Always use hardcoded absolute path for reliability
+  return p.resolve(SITES_DIR, ...segments)
 }
 
 function readJson<T>(path: string): T {
