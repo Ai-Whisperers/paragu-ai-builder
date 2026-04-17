@@ -39,10 +39,10 @@ describe('validateBusiness', () => {
     expect(result.success).toBe(false)
   })
 
-  it('validates all 11 business types', () => {
+  it('validates all 12 business types', () => {
     const types = [
       'peluqueria', 'salon_belleza', 'gimnasio', 'spa', 'unas', 'tatuajes',
-      'barberia', 'estetica', 'maquillaje', 'depilacion', 'pestanas',
+      'barberia', 'estetica', 'maquillaje', 'depilacion', 'pestanas', 'diseno_grafico',
     ]
 
     for (const type of types) {
@@ -76,5 +76,73 @@ describe('validateBusiness', () => {
     })
 
     expect(result.success).toBe(true)
+  })
+
+  it('validates business with class schedule', () => {
+    const result = validateBusiness({
+      name: 'GymFit',
+      type: 'gimnasio',
+      contact: { whatsapp: '+595981234567' },
+      location: { city: 'Asuncion' },
+      classSchedule: [
+        {
+          day: 'Lunes',
+          classes: [
+            { time: '07:00', name: 'Crossfit', instructor: 'Carlos', duration: 45, spots: 15 },
+          ],
+        },
+      ],
+    })
+
+    expect(result.success).toBe(true)
+  })
+
+  it('validates business with membership plans', () => {
+    const result = validateBusiness({
+      name: 'GymFit',
+      type: 'gimnasio',
+      contact: { whatsapp: '+595981234567' },
+      location: { city: 'Asuncion' },
+      membershipPlans: [
+        {
+          name: 'Basico',
+          price: '150.000',
+          period: 'mes',
+          description: 'Acceso a sala de pesas',
+          features: ['Sala de pesas', 'Maquinas'],
+          popular: false,
+        },
+        {
+          name: 'Premium',
+          price: '300.000',
+          period: 'mes',
+          description: 'Todo incluido',
+          features: ['Sala de pesas', 'Clases ilimitadas', 'Personal trainer'],
+          popular: true,
+        },
+      ],
+    })
+
+    expect(result.success).toBe(true)
+  })
+
+  it('rejects invalid class schedule structure', () => {
+    const result = validateBusiness({
+      name: 'GymFit',
+      type: 'gimnasio',
+      contact: {},
+      location: { city: 'Asuncion' },
+      classSchedule: [
+        {
+          day: 'Lunes',
+          classes: [
+            // Invalid: missing required 'name' field
+            { time: '07:00', instructor: 'Carlos' },
+          ],
+        },
+      ],
+    })
+
+    expect(result.success).toBe(false)
   })
 })
