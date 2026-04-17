@@ -45,8 +45,11 @@ function rowToBusinessData(row: any): BusinessData {
 
 async function loadFromSupabase(slug: string): Promise<BusinessData | null> {
   try {
-    const { createClient } = await import('@/lib/supabase/server')
-    const supabase = await createClient()
+    // Try direct import without cookies for static generation
+    const { createClient } = await import('@supabase/supabase-js')
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://qyvokpribmbrosafntqa.supabase.co'
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'sb_publishable_KQ-sFNr7r6AauoG0B4nyTg_vuPHmeCm'
+    const supabase = createClient(supabaseUrl, supabaseKey)
 
     const { data, error } = await supabase
       .from('businesses')

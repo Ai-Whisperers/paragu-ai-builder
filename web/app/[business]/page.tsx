@@ -8,13 +8,16 @@ interface Props {
   params: Promise<{ business: string }>
 }
 
-export const dynamicParams = true // Force SSR - no static generation for business pages
+export const dynamicParams = true 
+export const dynamic = 'force-dynamic' // Force SSR on every request
 
 export async function generateStaticParams() {
-  // Only generate homepage for demo businesses - rely on SSR for new types
-  const demoSlugs = ['salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks', 
+  // Only generate known working demos - Nexa will use SSR fallback
+  const demoSlugs = [
+    'salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks', 
     'barberia-clasica', 'tinta-viva', 'belleza-integral', 'studio-belleza', 
-    'pestanas-flore', 'depilacion-perfecta']
+    'pestanas-flore', 'depilacion-perfecta'
+  ]
   return demoSlugs.map((slug) => ({ business: slug }))
 }
 
