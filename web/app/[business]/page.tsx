@@ -12,11 +12,11 @@ export const dynamicParams = true
 export const dynamic = 'force-dynamic' // Force SSR on every request
 
 export async function generateStaticParams() {
-  // Only generate known working demos - Nexa will use SSR fallback
+  // Include Nexa Paraguay in static generation with fallback data
   const demoSlugs = [
     'salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks', 
     'barberia-clasica', 'tinta-viva', 'belleza-integral', 'studio-belleza', 
-    'pestanas-flore', 'depilacion-perfecta'
+    'pestanas-flore', 'depilacion-perfecta', 'nexaparaguay'
   ]
   return demoSlugs.map((slug) => ({ business: slug }))
 }
