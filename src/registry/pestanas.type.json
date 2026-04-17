@@ -7,20 +7,20 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "servicesPreview", "galleryPreview", "testimonial", "ctaBanner", "footer"],
-      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+      "sections": ["header", "hero", "services", "booking", "portfolio", "gallery", "testimonials", "contact", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
     },
     "services": {
-      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
-      "requiredSections": ["header", "serviceMenu", "footer"]
+      "sections": ["header", "services", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "gallery": {
-      "sections": ["header", "portfolioGallery", "footer"],
-      "requiredSections": ["header", "portfolioGallery", "footer"]
+      "sections": ["header", "portfolio", "gallery", "footer"],
+      "requiredSections": ["header", "portfolio", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 

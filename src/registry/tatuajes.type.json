@@ -7,8 +7,8 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "styleGallery", "artistSpotlight", "piercingServices", "infoBlock", "footer"],
-      "requiredSections": ["header", "hero", "styleGallery", "artistSpotlight", "footer"]
+      "sections": ["header", "hero", "portfolio", "team", "contact", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "portfolio", "contact", "footer"]
     },
     "portfolio": {
       "sections": ["header", "portfolioGallery", "footer"],

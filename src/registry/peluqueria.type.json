@@ -7,7 +7,7 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "servicesPreview", "galleryPreview", "team", "locationBlock", "testimonial", "ctaBanner", "footer"],
+      "sections": ["header", "hero", "servicesPreview", "booking", "galleryPreview", "team", "locationBlock", "testimonial", "ctaBanner", "footer"],
       "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
     },
     "services": {

@@ -7,24 +7,24 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "beforeAfterPreview", "treatmentCategories", "team", "trustSignals", "contactBlock", "footer"],
-      "requiredSections": ["header", "hero", "treatmentCategories", "team", "footer"]
+      "sections": ["header", "hero", "services", "beforeAfter", "team", "testimonials", "contact", "quoteForm", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
     },
     "treatments": {
-      "sections": ["header", "treatmentMenu", "footer"],
-      "requiredSections": ["header", "treatmentMenu", "footer"]
+      "sections": ["header", "services", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "results": {
-      "sections": ["header", "beforeAfterGallery", "footer"],
-      "requiredSections": ["header", "beforeAfterGallery", "footer"]
+      "sections": ["header", "beforeAfter", "footer"],
+      "requiredSections": ["header", "beforeAfter", "footer"]
     },
     "team": {
-      "sections": ["header", "practitionerProfiles", "footer"],
-      "requiredSections": ["header", "practitionerProfiles", "footer"]
+      "sections": ["header", "team", "footer"],
+      "requiredSections": ["header", "team", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 

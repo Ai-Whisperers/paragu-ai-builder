@@ -1,0 +1,10 @@
+// Universal Components - F1 to F8
+export { default as WhatsAppButton } from './whatsapp-button'
+export { default as BusinessHeader } from './business-header'
+export { default as BusinessInfoCard } from './business-info-card'
+export { default as ServiceMenu } from './service-menu'
+export { default as PhotoGallery } from './photo-gallery'
+export { default as Testimonials } from './testimonials'
+export { default as ContactForm } from './contact-form'
+export { default as BusinessHours } from './business-hours'
+export { default as GoogleMaps } from './google-maps'

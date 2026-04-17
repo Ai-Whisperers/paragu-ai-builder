@@ -7,20 +7,20 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "treatmentAreas", "packages", "technology", "trustSignals", "contactBlock", "footer"],
-      "requiredSections": ["header", "hero", "treatmentAreas", "contactBlock", "footer"]
+      "sections": ["header", "hero", "services", "beforeAfter", "quoteForm", "contact", "testimonials", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
     },
     "treatments": {
-      "sections": ["header", "areaPricingTable", "packageTiers", "footer"],
-      "requiredSections": ["header", "areaPricingTable", "footer"]
+      "sections": ["header", "services", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "technology": {
-      "sections": ["header", "technologyShowcase", "faq", "footer"],
-      "requiredSections": ["header", "technologyShowcase", "footer"]
+      "sections": ["header", "services", "faq", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 
@@ -28,7 +28,7 @@
     "onlineBooking": { "enabled": false, "method": "consultation_form", "fallback": "whatsapp" },
     "serviceMenu": { "enabled": true, "label": "Tratamientos", "showPrices": true, "areaBasedPricing": true },
     "portfolio": { "enabled": false },
-    "beforeAfter": { "enabled": false, "optional": true },
+    "beforeAfter": { "enabled": true, "label": "Resultados" },
     "staffProfiles": { "enabled": false, "optional": true },
     "pricingDisplay": { "enabled": true, "showPerSession": true, "showPackageDiscounts": true },
     "walkInPolicy": { "enabled": false },

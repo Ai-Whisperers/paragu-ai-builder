@@ -9,6 +9,15 @@ import type { ComposedSection } from './compose'
 import { HeaderSection } from '@/components/sections/header-section'
 import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
+import { BookingSection } from '@/components/sections/booking-section'
+import { PortfolioSection } from '@/components/sections/portfolio-section'
+import { BeforeAfterSection } from '@/components/sections/before-after-section'
+import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
+import { MembershipPlansSection } from '@/components/sections/membership-plans-section'
+import { RoomBookingSection } from '@/components/sections/room-booking-section'
+import { EventVenuesSection } from '@/components/sections/event-venues-section'
+import { QuoteFormSection } from '@/components/sections/quote-form-section'
+import { EmergencyIndicatorSection } from '@/components/sections/emergency-indicator-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
@@ -24,6 +33,15 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   header: HeaderSection,
   hero: HeroSection,
   services: ServicesSection,
+  booking: BookingSection,
+  portfolio: PortfolioSection,
+  beforeAfter: BeforeAfterSection,
+  classSchedule: ClassScheduleSection,
+  membershipPlans: MembershipPlansSection,
+  roomBooking: RoomBookingSection,
+  eventVenues: EventVenuesSection,
+  quoteForm: QuoteFormSection,
+  emergencyIndicator: EmergencyIndicatorSection,
   productCatalog: ProductCatalogSection,
   gallery: GallerySection,
   team: TeamSection,
