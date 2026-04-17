@@ -28,6 +28,9 @@ export function BlogIndexSection({
   posts,
   emptyLabel = 'No posts yet.',
 }: BlogIndexSectionProps) {
+  // Ensure posts is an array
+  const safePosts = posts || []
+  
   return (
     <section className="bg-[var(--background)] py-16 sm:py-24">
       <Container>
@@ -38,12 +41,12 @@ export function BlogIndexSection({
           )}
         </AnimatedSectionHeader>
 
-        {posts.length === 0 ? (
+        {safePosts.length === 0 ? (
           <p className="mt-12 text-center text-[var(--text-muted)]">{emptyLabel}</p>
         ) : variant === 'list' ? (
-          <List posts={posts} />
+          <List posts={safePosts} />
         ) : (
-          <Grid posts={posts} />
+          <Grid posts={safePosts} />
         )}
       </Container>
     </section>
