@@ -53,7 +53,7 @@ export default function Testimonials({
               </div>
             )}
             <blockquote className="text-lg text-gray-700 italic mb-4">
-              "{testimonials[0].quote}"
+              &ldquo;{testimonials[0].quote}&rdquo;
             </blockquote>
             <div className="font-medium text-[var(--primary)]">
               {testimonials[0].author}
@@ -82,7 +82,7 @@ export default function Testimonials({
                 </div>
               )}
               <blockquote className="text-lg text-gray-700 italic mb-4 text-center">
-                "{testimonials[currentIndex].quote}"
+                &ldquo;{testimonials[currentIndex].quote}&rdquo;
               </blockquote>
               <div className="text-center font-medium text-[var(--primary)]">
                 {testimonials[currentIndex].author}

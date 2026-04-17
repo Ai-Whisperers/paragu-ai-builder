@@ -9,13 +9,14 @@ import BookingForm from './booking-form'
 interface Service { name: string; price?: string; duration?: number; category?: string }
 interface Staff { name: string; role?: string; image?: string; bio?: string; specialties?: string[] }
 interface BookingData { date: Date; time: string; service?: Service; staff?: Staff | null }
+interface BookingFormData { name: string; email: string; phone: string; notes?: string }
 
 interface BookingWizardProps {
   services: Service[]
   categories?: string[]
   staff?: Staff[]
   workingHours?: { start: string; end: string }
-  onComplete: (data: any) => Promise<void>
+  onComplete: (data: BookingFormData & Partial<BookingData>) => Promise<void>
   whatsappPhone?: string
 }
 
@@ -46,7 +47,7 @@ export default function BookingWizard({
     setStep(3)
   }
 
-  const handleFormSubmit = async (formData: any) => {
+  const handleFormSubmit = async (formData: BookingFormData) => {
     // If WhatsApp enabled, open WhatsApp with booking details
     if (whatsappPhone && selectedService && bookingData) {
       const message = `Hola! Quiero reservar:\n\n*Servicio:* ${selectedService.name}\n*Fecha:* ${bookingData.date.toLocaleDateString('es-PY')}\n*Hora:* ${bookingData.time}\n*Cliente:* ${formData.name}\n*Teléfono:* ${formData.phone}`

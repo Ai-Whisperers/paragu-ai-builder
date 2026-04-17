@@ -10,7 +10,7 @@ interface StaffMember {
 
 interface StaffSelectorProps {
   staff: StaffMember[]
-  onSelect: (staff: StaffMember) => void
+  onSelect: (staff: StaffMember | null) => void
   selectedStaff?: StaffMember | null
 }
 
@@ -25,7 +25,7 @@ export default function StaffSelector({
       
       <div className="flex gap-2 overflow-x-auto pb-2">
         <button
-          onClick={() => onSelect(null as any)}
+          onClick={() => onSelect(null)}
           className={`flex-shrink-0 px-4 py-2 rounded-full border transition-colors ${
             !selectedStaff 
               ? 'border-[var(--primary)] bg-[var(--primary)] text-white' 

@@ -80,7 +80,7 @@ const SelectContent = React.forwardRef<HTMLDivElement, SelectContentProps>(
 )
 SelectContent.displayName = "SelectContent"
 
-interface SelectItemProps extends React.HTMLAttributes<HTMLDivElement> {
+interface SelectItemProps extends Omit<React.HTMLAttributes<HTMLDivElement>, "onSelect"> {
   value: string
   children: React.ReactNode
   onSelect?: (value: string) => void

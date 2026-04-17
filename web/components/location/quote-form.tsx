@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 interface QuoteFormProps {
-  onSubmit: (data: any) => Promise<void>
+  onSubmit: (data: Record<string, string>) => Promise<void>
   services?: string[]
 }
 
