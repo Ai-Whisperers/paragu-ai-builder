@@ -1,0 +1,48 @@
+{
+  "slug": "programas",
+  "titleKey": "programasPage.seo.title",
+  "descriptionKey": "programasPage.seo.description",
+  "schemaType": "Service",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "programasPage.hero"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "programasPage.programs"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "matrix",
+      "content": "programasPage.matrix"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "programasPage.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "programasPage.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

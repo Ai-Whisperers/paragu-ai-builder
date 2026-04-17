@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-service-booking",
+  "title": "Service-booking vertical content schema",
+  "type": "object",
+  "properties": {
+    "siteName": { "type": "string" },
+    "placeholders": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "neighborhood": { "type": "string" }
+      }
+    },
+    "home": {
+      "type": "object",
+      "properties": {
+        "seo": { "type": "object" },
+        "hero": { "type": "object" },
+        "plans": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "plans": { "type": "array" }
+          }
+        },
+        "schedule": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "classes": { "type": "array" }
+          }
+        }
+      }
+    }
+  }
+}

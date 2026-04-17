@@ -1,0 +1,28 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Your privacy",
+      "body": "We use essential cookies for the site to function and optional analytics cookies to improve the experience. You can change your choice any time from the footer.",
+      "acceptAll": "Accept all",
+      "acceptEssential": "Essential only",
+      "manage": "Preferences",
+      "privacyLabel": "View privacy policy"
+    },
+    "footerCopyright": "© {{year}} {{siteName}}. All rights reserved."
+  },
+  "defaults": {
+    "hero": {
+      "headline": "Establish your operation in {{country}}. Professional, integrated, no surprises.",
+      "subheadline": "Residency, company and bank account — one program, one trip, a full team of professionals beside you.",
+      "ctaPrimaryText": "Book a free consultation",
+      "ctaSecondaryText": "See programs"
+    },
+    "whyCountryHonestNote": "The opportunity is real, but the process isn't simple without the right guidance. That is exactly why we exist.",
+    "process": {
+      "eyebrow": "How it works",
+      "title": "A clear process, step by step",
+      "totalDuration": "Typical total duration: {{processWeeks}}.",
+      "ctaLabel": "Start my process"
+    }
+  }
+}

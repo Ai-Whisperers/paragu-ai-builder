@@ -1,0 +1,28 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Su privacidad",
+      "body": "Usamos cookies esenciales para el funcionamiento del sitio y cookies de análisis (opcional) para mejorar la experiencia. Puede cambiar su decisión en cualquier momento desde el pie de página.",
+      "acceptAll": "Aceptar todas",
+      "acceptEssential": "Solo esenciales",
+      "manage": "Preferencias",
+      "privacyLabel": "Ver política de privacidad"
+    },
+    "footerCopyright": "© {{year}} {{siteName}}. Todos los derechos reservados."
+  },
+  "defaults": {
+    "hero": {
+      "headline": "Establezca su operación en {{country}}. Profesional, integrado, sin sorpresas.",
+      "subheadline": "Residencia, sociedad y cuenta bancaria — todo en un solo programa, un equipo de profesionales a su lado.",
+      "ctaPrimaryText": "Agendar consulta gratuita",
+      "ctaSecondaryText": "Ver programas"
+    },
+    "whyCountryHonestNote": "La oportunidad es real, pero el proceso no es sencillo sin guía adecuada. Existimos para resolver exactamente eso.",
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Un proceso claro, paso a paso",
+      "totalDuration": "Tiempo estimado total: {{processWeeks}}.",
+      "ctaLabel": "Iniciar mi proceso"
+    }
+  }
+}

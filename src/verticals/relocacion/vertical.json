@@ -1,0 +1,34 @@
+{
+  "id": "relocacion",
+  "name": "Relocation Services",
+  "description": "Professional relocation: residency, company incorporation, bank account, investment advisory. Country-agnostic — used by Nexa Paraguay, Nexa Uruguay, etc.",
+  "features": {
+    "i18n": true,
+    "booking": true,
+    "blog": true,
+    "gdpr": true,
+    "multiCurrency": false,
+    "testimonials": true,
+    "trustSignals": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "programs-comparison",
+    "process-timeline",
+    "why-destination",
+    "trust-signals",
+    "team",
+    "testimonials",
+    "contact",
+    "faq",
+    "cta-banner",
+    "booking-embed",
+    "blog-index",
+    "blog-post",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "full"
+}

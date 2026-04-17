@@ -1,0 +1,28 @@
+{
+  "name": "Portfolio editorial defaults",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Editorial Mono",
+      "colors": {
+        "primary": "#111111",
+        "secondary": "#8B5CF6",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F4F4F5",
+        "text": "#111111",
+        "textLight": "#333333",
+        "textMuted": "#6B7280"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Space Grotesk', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Space+Grotesk:wght@500;600;700", "Inter:wght@400;500;600"]
+}
