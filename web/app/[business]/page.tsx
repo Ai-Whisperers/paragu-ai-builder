@@ -8,7 +8,7 @@ interface Props {
   params: Promise<{ business: string }>
 }
 
-export const dynamicParams = false
+export const dynamicParams = true // Allow any business slug
 
 export async function generateStaticParams() {
   const demoSlugs = [
