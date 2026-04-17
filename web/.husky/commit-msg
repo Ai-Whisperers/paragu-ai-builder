@@ -1,0 +1,31 @@
+#!/bin/sh
+# Commit message hook - validates conventional commit format
+
+commit_msg=$(cat "$1")
+echo "📝 Validating commit message..."
+
+# Conventional commit pattern
+pattern="^(feat|fix|docs|style|refactor|test|chore|ci|perf|bump)(\(.+\))?: .+"
+
+if ! echo "$commit_msg" | grep -qE "$pattern"; then
+  echo "❌ Invalid commit message format"
+  echo ""
+  echo "Your commit message should follow Conventional Commits:"
+  echo "  feat: Add new feature"
+  echo "  fix: Bug fix"
+  echo "  docs: Documentation changes"
+  echo "  style: Code style changes (formatting)"
+  echo "  refactor: Code refactoring"
+  echo "  test: Adding/updating tests"
+  echo "  chore: Maintenance tasks"
+  echo "  ci: CI/CD changes"
+  echo "  perf: Performance improvements"
+  echo ""
+  echo "Example: 'feat: add new booking wizard component'"
+  echo ""
+  echo "Note: This check can be skipped with --no-verify"
+  exit 1
+fi
+
+echo "✅ Commit message validated!"
+exit 0
