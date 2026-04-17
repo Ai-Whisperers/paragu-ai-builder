@@ -12,7 +12,10 @@ export const dynamicParams = true // Enable SSR for all business pages (includin
 
 export async function generateStaticParams() {
   const slugs = await loadAllSlugs()
-  return slugs.map((slug) => ({ business: slug }))
+  // Ensure key demos are always generated
+  const extraSlugs = ['nexaparaguay', 'nexa']
+  const allSlugs = [...new Set([...slugs, ...extraSlugs])]
+  return allSlugs.map((slug) => ({ business: slug }))
 }
 
 function generateJsonLd(business: { type: string; name: string; slug: string; address?: string; city: string; phone?: string; email?: string; whatsapp?: string; googleMapsUrl?: string; services?: Array<{ name: string; price?: string; description?: string }> }, baseUrl: string) {
