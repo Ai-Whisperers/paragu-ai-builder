@@ -50,9 +50,10 @@ export default async function BusinessPage({ params }: Props) {
       {/* Inject theme CSS variables from tokens */}
       <style dangerouslySetInnerHTML={{ __html: page.theme.cssString }} />
 
-      {/* Google Fonts */}
+      {/* Google Fonts — precedence tells React 19 to manage this as a
+          blocking style resource so it doesn't get orphan-preloaded. */}
       {page.theme.googleFontsUrl && (
-        <link rel="stylesheet" href={page.theme.googleFontsUrl} />
+        <link rel="stylesheet" href={page.theme.googleFontsUrl} precedence="default" />
       )}
 
       {/* Render all composed sections */}
