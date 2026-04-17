@@ -1,0 +1,30 @@
+{
+  "id": "legal",
+  "nameEs": "Servicios Legales",
+  "nameEn": "Legal Services",
+
+  "tokens": "legal",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "services", "process", "team", "testimonials", "faq", "contact", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
+    }
+  },
+
+  "features": {
+    "serviceMenu": { "enabled": true },
+    "processSteps": { "enabled": true },
+    "whatsappFloat": { "enabled": true }
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Servicios Legales en {{city}}",
+    "schemaType": "LegalService"
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Proceso", "Equipo", "Contacto"],
+    "cta": { "text": "Consulta", "action": "contact" }
+  }
+}
