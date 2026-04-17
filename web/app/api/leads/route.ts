@@ -78,7 +78,11 @@ export async function POST(req: Request) {
     )
   }
 
-  return NextResponse.json({ ok: true, leadId: supabaseResult.id }, { status: 201 })
+  return NextResponse.json({ 
+  ok: true, 
+  leadId: (supabaseResult as { id?: string }).id || 'unknown',
+  message: 'Lead created successfully' 
+}, { status: 201 })
 }
 
 async function forwardLeadToAdapters(
