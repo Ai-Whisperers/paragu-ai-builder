@@ -25,6 +25,10 @@
     "contacto": {
       "sections": ["header", "contact", "footer"],
       "requiredSections": ["header", "contact", "footer"]
+    },
+    "galeria": {
+      "sections": ["header", "hero", "footer"],
+      "requiredSections": ["header", "footer"]
     }
   },
 
@@ -34,6 +38,8 @@
     "testimonials": { "enabled": true, "showRating": true },
     "faq": { "enabled": true, "categories": false },
     "team": { "enabled": true, "showRole": true },
+    "portfolio": { "enabled": false },
+    "beforeAfter": { "enabled": false },
     "whatsappFloat": { "enabled": true },
     "googleMapsEmbed": { "enabled": false }
   },
