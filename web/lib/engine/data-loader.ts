@@ -34,12 +34,15 @@ function rowToBusinessData(row: any): BusinessData {
     facebook: row.facebook,
     googleMapsUrl: row.google_maps_url,
     hours: row.hours,
-    services: data.services,
-    products: data.products,
-    team: data.team,
-    gallery: data.gallery,
-    testimonials: data.testimonials,
+    services: data.services || [],
+    products: data.products || [],
+    team: data.team || [],
+    gallery: data.gallery || [],
+    testimonials: data.testimonials || [],
     heroImage: data.heroImage,
+    // Relocation-specific fields
+    features: data.features,
+    processSteps: data.processSteps,
   }
 }
 
