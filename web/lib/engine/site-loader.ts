@@ -89,18 +89,21 @@ export function loadSite(slug: string): SiteDefinition {
 }
 
 export function loadPage(siteSlug: string, pageSlug: string): PageDefinition | null {
+  // Validate page exists in static config (if it's a static site)
   if (siteSlug in SITES) {
     const pages = SITES[siteSlug as SiteSlug]?.pages ?? []
     if (!(pages as readonly string[]).includes(pageSlug)) return null
-    return {
-      slug: pageSlug,
-      sections: [],
-    }
+    // Fall through to load from disk below
   }
+
+  // Load actual page definition from JSON file
   const f = getFs()
-  const path = repoPath('sites', siteSlug, 'pages', `${pageSlug}.json`)
-  if (!f?.existsSync(path)) return null
-  return readJson<PageDefinition>(path)
+  const p = getPath()
+  if (!f || !p) return null
+
+  const pagePath = repoPath('sites', siteSlug, 'pages', `${pageSlug}.json`)
+  if (!f.existsSync(pagePath)) return null
+  return readJson<PageDefinition>(pagePath)
 }
 
 export function listPageSlugs(siteSlug: string): string[] {
