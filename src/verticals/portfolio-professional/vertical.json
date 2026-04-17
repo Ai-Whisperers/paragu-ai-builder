@@ -1,0 +1,38 @@
+{
+  "id": "portfolio-professional",
+  "name": "Portfolio / Professional Services",
+  "description": "Project-showcase businesses: photographers, videographers, architects, interior designers, agencies, freelance designers. Portfolio + case-study + quote-request flow.",
+  "features": {
+    "i18n": true,
+    "booking": false,
+    "blog": true,
+    "gdpr": true,
+    "portfolio": true,
+    "quoteForm": true,
+    "beforeAfter": true,
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "portfolio",
+    "before-after",
+    "services",
+    "process-timeline",
+    "trust-signals",
+    "team",
+    "testimonials",
+    "quote-form",
+    "faq",
+    "cta-banner",
+    "contact",
+    "lead-form",
+    "blog-index",
+    "blog-post",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "full",
+  "locales": ["es"]
+}

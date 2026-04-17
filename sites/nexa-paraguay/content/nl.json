@@ -1,0 +1,312 @@
+{
+  "siteName": "Nexa Paraguay",
+  "tagline": "Uw nieuwe start in Paraguay, eenvoudig en met vertrouwen",
+  "placeholders": {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "currency": "USD",
+    "taxRate": "10%",
+    "processWeeks": "8–12 weken",
+    "flagEmoji": "🇵🇾"
+  },
+  "navigation": {
+    "businessName": "Nexa Paraguay",
+    "navItems": [
+      { "label": "Home", "href": "/s/nl/nexa-paraguay" },
+      { "label": "Programma's", "href": "/s/nl/nexa-paraguay/programas" },
+      { "label": "Waarom Paraguay", "href": "/s/nl/nexa-paraguay/por-que-paraguay" },
+      { "label": "Proces", "href": "/s/nl/nexa-paraguay/proceso" },
+      { "label": "Over Nexa", "href": "/s/nl/nexa-paraguay/sobre" },
+      { "label": "FAQ", "href": "/s/nl/nexa-paraguay/faq" },
+      { "label": "Blog", "href": "/s/nl/nexa-paraguay/blog" },
+      { "label": "Contact", "href": "/s/nl/nexa-paraguay/contacto" }
+    ],
+    "ctaText": "Plan consult",
+    "ctaHref": "/s/nl/nexa-paraguay/contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Nexa Paraguay — Vestig uw onderneming in Paraguay",
+      "description": "Verblijfsvergunning, vennootschap en bankrekening in Paraguay. Eén programma, één reis, een professioneel team."
+    },
+    "hero": {
+      "headline": "Vestig uw onderneming in Paraguay. Professioneel, geïntegreerd, zonder verrassingen.",
+      "subheadline": "Verblijfsvergunning, vennootschap, bankrekening en grondaankoop — gecoördineerd door Nexa Paraguay, uitgevoerd door ons vertrouwde technische team.",
+      "ctaPrimaryText": "Plan uw gratis consult",
+      "ctaPrimaryHref": "/s/nl/nexa-paraguay/contacto",
+      "ctaSecondaryText": "Bekijk programma's",
+      "ctaSecondaryHref": "/s/nl/nexa-paraguay/programas"
+    },
+    "trust": {
+      "eyebrow": "Waarom Nexa Paraguay",
+      "title": "Een integraal systeem, geen administratief kantoor",
+      "items": [
+        { "icon": "Package", "title": "Eén programma", "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd." },
+        { "icon": "Plane", "title": "Eén reis", "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag." },
+        { "icon": "Users", "title": "Eén team", "description": "Advocaten, accountants, notarissen en financieel adviseurs." },
+        { "icon": "Shield", "title": "Transparante prijs", "description": "Alles inbegrepen. Geen verborgen kosten." }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Programma's",
+      "title": "Vier routes naar vestiging in Paraguay",
+      "subtitle": "Kies het programma dat bij uw doel past. Altijd transparante prijs en professionele begeleiding.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Paraguayaanse verblijfsvergunning en identiteitskaart.",
+          "price": "Nader te bepalen",
+          "priceNote": "LEALTIS-groothandelskosten in afwachting + Nexa-marge",
+          "included": [
+            "Paraguayaanse verblijfsvergunning",
+            "Identiteitskaart",
+            "Documentanalyse vooraf",
+            "Operationele dag (één dag)",
+            "Logistieke begeleiding"
+          ],
+          "ctaLabel": "Consult aanvragen",
+          "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=base"
+        },
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Verblijfsvergunning + vennootschap + bankrekening.",
+          "price": "USD 4.400+",
+          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "badge": "Meest gekozen",
+          "highlighted": true,
+          "included": [
+            "Alles van Base",
+            "Oprichting vennootschap",
+            "RUC-registratie",
+            "Opening zakelijke bankrekening",
+            "Strategische vastgoedrondleiding",
+            "Honoraria, btw en leges inbegrepen"
+          ],
+          "ctaLabel": "Consult aanvragen",
+          "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=business"
+        },
+        {
+          "id": "investor",
+          "name": "Paraguay Investor Program",
+          "description": "Alles van Business + 12 maanden begeleiding.",
+          "price": "USD 6.900+",
+          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "included": [
+            "Alles van Business",
+            "Boekhouding (12 maanden)",
+            "Juridisch en fiscaal advies (12 maanden)",
+            "Investeringsanalyse",
+            "Directe toegang tot het technische team"
+          ],
+          "ctaLabel": "Consult aanvragen",
+          "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=investor"
+        },
+        {
+          "id": "tierras",
+          "name": "Grondaankoop",
+          "description": "Eigen dienst van Nexa. Integraal advies.",
+          "price": "Nader te bepalen",
+          "priceNote": "Scope en prijzen in ontwikkeling.",
+          "included": [
+            "Profiel- en criteriadefinitie",
+            "Zoektocht en shortlist",
+            "Juridische en technische due diligence",
+            "Onderhandeling en notariële akte",
+            "Registratie in het kadaster"
+          ],
+          "ctaLabel": "Verkennend gesprek",
+          "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras"
+        }
+      ]
+    },
+    "whyCountry": {
+      "eyebrow": "Waarom Paraguay",
+      "title": "Een reële kans voor de Europese investeerder",
+      "pillars": [
+        {
+          "icon": "TrendingUp",
+          "title": "Economisch klimaat",
+          "description": "Gestage groei, beheerste inflatie, {{taxRate}} inkomstenbelasting, territoriaal systeem.",
+          "bullets": ["Vennootschapsbelasting {{taxRate}}", "Territoriaal systeem", "Open economie"]
+        },
+        {
+          "icon": "Building2",
+          "title": "Investeringskansen",
+          "description": "Groeiende vastgoedmarkt, sterke landbouwindustrie, open economie.",
+          "bullets": ["Groeiend vastgoed", "Toonaangevende agroindustrie", "Jong ondernemersklimaat"]
+        },
+        {
+          "icon": "Heart",
+          "title": "Levenskwaliteit",
+          "description": "Warm klimaat, groeiende internationale gemeenschap, aanzienlijke koopkracht.",
+          "bullets": ["Gunstige levenskosten", "Internationale community", "Persoonlijke veiligheid"]
+        }
+      ],
+      "honestNote": "De kans is reëel, maar het proces is niet eenvoudig zonder goede begeleiding. Daar zijn wij voor."
+    },
+    "process": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Een helder proces, stap voor stap",
+      "totalDuration": "Verwachte totale doorlooptijd: 8–12 weken.",
+      "ctaLabel": "Start mijn traject",
+      "ctaHref": "/s/nl/nexa-paraguay/contacto",
+      "steps": [
+        { "number": 1, "title": "Eerste consult", "description": "We bespreken uw situatie, doelen en het passende programma.", "icon": "MessageCircle" },
+        { "number": 2, "title": "Documentvalidatie", "description": "Alles wordt vooraf door ons team geverifieerd. U reist pas als alles klopt.", "icon": "FileCheck" },
+        { "number": 3, "title": "Operationele dag", "description": "In één dag voeren we alle persoonlijke afhandelingen uit.", "icon": "MapPin" },
+        { "number": 4, "title": "Vennootschap en bank", "description": "Wij richten uw vennootschap op en coördineren de bankopening.", "icon": "Building" },
+        { "number": 5, "title": "Oplevering en nazorg", "description": "U ontvangt de definitieve documenten en we sluiten het programma af.", "icon": "CheckCircle" }
+      ]
+    },
+    "finalCta": {
+      "title": "Zet de eerste stap",
+      "subtitle": "Plan een gratis consult van 30 minuten.",
+      "buttonText": "Plan consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "programasPage": {
+    "seo": { "title": "Programma's — Nexa Paraguay", "description": "Vier programma's om u in Paraguay te vestigen: Base, Business (USD 4.400+), Investor (USD 6.900+) en Grondaankoop." },
+    "hero": { "headline": "Onze programma's", "subheadline": "Transparante prijzen. Alles inbegrepen. Geen verrassingen." },
+    "programs": { "$ref": "home.programs" },
+    "matrix": { "$ref": "home.programs" },
+    "faq": {
+      "title": "Vragen over prijzen en programma's",
+      "items": [
+        { "q": "Wat is in de prijs inbegrepen?", "a": "Honoraria, btw, overheidsleges, bankcoördinatie en integraal advies." },
+        { "q": "Wat is NIET inbegrepen?", "a": "Vluchten, accommodatie, apostille in land van herkomst, persoonlijke uitgaven." },
+        { "q": "Hoe wordt betaald?", "a": "Vooraf per overschrijving. Geen bijkomende kosten." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "whyCountryPage": {
+    "seo": { "title": "Waarom Paraguay — Nexa Paraguay", "description": "Paraguay: concurrerend fiscaal klimaat, groeiende economie, levenskwaliteit." },
+    "hero": { "headline": "Waarom Paraguay", "subheadline": "Een reële kans — eerlijk uitgelegd." },
+    "pillars": { "$ref": "home.whyCountry" },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "processPage": {
+    "seo": { "title": "Hoe het werkt — Nexa Paraguay", "description": "Ons proces in 5 stappen: van eerste consult tot oplevering. Totaal 8–12 weken." },
+    "hero": { "headline": "Een helder proces, stap voor stap", "subheadline": "Geen improvisatie. Geen verrassingen." },
+    "process": { "$ref": "home.process" },
+    "faq": {
+      "title": "Vragen over het proces",
+      "items": [
+        { "q": "Hoeveel reizen heb ik nodig?", "a": "Eén reis volstaat." },
+        { "q": "Hoe lang duurt het?", "a": "Persoonlijke afhandeling in één dag. Afgifte documenten: 45–60 dagen." },
+        { "q": "Wat als er een document ontbreekt?", "a": "We signaleren dat vóór uw reis — u vertrekt pas als alles klopt." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "aboutPage": {
+    "seo": { "title": "Over Nexa Paraguay", "description": "Een multidisciplinair technisch team: advocaten, accountants, notarissen en financieel adviseurs." },
+    "hero": { "headline": "Over Nexa Paraguay", "subheadline": "Geen administratief kantoor. Een integraal systeem." },
+    "differentiators": {
+      "eyebrow": "Ons verschil",
+      "title": "Wat ons onderscheidt",
+      "pillars": [
+        { "icon": "Users", "title": "Multidisciplinair team", "description": "Advocaten, accountants, notarissen en financieel adviseurs in coördinatie." },
+        { "icon": "Shield", "title": "Relationeel kapitaal", "description": "Institutionele toegang opgebouwd met banken, notarissen en autoriteiten." },
+        { "icon": "Clock", "title": "Tijd als waarde", "description": "Wij verdichten tot één dag wat anders meerdere reizen zou vergen." }
+      ]
+    },
+    "team": {
+      "title": "Ons team",
+      "members": [
+        { "name": "Operationele directie (Paraguay)", "role": "Operationeel leiderschap, institutionele relaties" },
+        { "name": "Commerciële directie (Europa)", "role": "Klantacquisitie, culturele brug" },
+        { "name": "Juridisch team", "role": "Migratiedossiers, oprichting vennootschap" },
+        { "name": "Boekhoudteam", "role": "Fiscaal beheer, compliance" }
+      ]
+    },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "faqPage": {
+    "seo": { "title": "Veelgestelde vragen — Nexa Paraguay", "description": "Antwoorden op de 15 meest gestelde vragen over ons proces, prijzen en programma's." },
+    "hero": { "headline": "Veelgestelde vragen", "subheadline": "De antwoorden die onze klanten het vaakst vragen." },
+    "full": {
+      "title": "Veelgestelde vragen",
+      "items": [
+        { "q": "Hoe lang duurt het volledige proces?", "a": "Persoonlijke afhandeling in één dag. Uitgifte documenten: 45–60 dagen. Totaal: 8–12 weken." },
+        { "q": "Hoeveel reizen moet ik maken?", "a": "Eén reis volstaat." },
+        { "q": "Wat is in de prijs inbegrepen?", "a": "Honoraria, btw, leges, bankcoördinatie en integraal advies. Geen bijkomende kosten." },
+        { "q": "Wat is NIET inbegrepen?", "a": "Vluchten, accommodatie, apostille en officiële vertalingen in land van herkomst." },
+        { "q": "Moet ik Spaans spreken?", "a": "Nee. Ons team communiceert in Nederlands, Engels en Duits." },
+        { "q": "Kan een buitenlander een bankrekening openen?", "a": "Ja. Dit is het meest complexe onderdeel; wij bereiden uw profiel en coördineren institutioneel." },
+        { "q": "Welk type vennootschap wordt opgericht?", "a": "Ons team adviseert het meest geschikte type (meestal EAS of SA)." },
+        { "q": "Is het proces 100% legaal?", "a": "Absoluut. Strikt volgens Paraguayaanse en internationale wetgeving." },
+        { "q": "Wat als er een document ontbreekt?", "a": "Dat detecteren we vóór uw reis. Onze voorafgaande validatie garandeert dat u compleet aankomt." },
+        { "q": "Garanderen jullie bankopening?", "a": "Beslissing ligt bij de bank. Wij garanderen professionele voorbereiding en institutionele coördinatie." },
+        { "q": "Kan ik mijn gezin meenemen?", "a": "Ja. Ieder gezinslid heeft een eigen verblijfsprocedure." },
+        { "q": "Hoe wordt betaald?", "a": "Vooraf per bankoverschrijving. Geen bijkomende kosten." },
+        { "q": "Kan ik alleen de verblijfsvergunning nemen?", "a": "De programma's zijn per definitie integraal. Neem contact op voor uw specifieke situatie." },
+        { "q": "Wat na het eerste jaar (Investor)?", "a": "Wij presenteren een passend vervolgvoorstel." },
+        { "q": "Wat als de wetgeving verandert tijdens mijn traject?", "a": "Wij monitoren continu en informeren u direct bij relevante wijzigingen." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "contactPage": {
+    "seo": { "title": "Contact — Nexa Paraguay", "description": "Plan een gratis consult van 30 minuten." },
+    "hero": { "headline": "Zet de eerste stap", "subheadline": "Gratis consult van 30 minuten. Vrijblijvend." },
+    "booking": {
+      "title": "Plan uw consult",
+      "subtitle": "Kies een moment dat u schikt.",
+      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "provider": "calendly",
+      "ctaLabel": "Open agenda"
+    },
+    "contact": {
+      "title": "Of mail ons direct",
+      "address": "Asunción, Paraguay",
+      "neighborhood": "Centro",
+      "city": "Asunción",
+      "email": "hola@nexaparaguay.com",
+      "whatsapp": "595000000000"
+    }
+  },
+  "privacyPage": {
+    "seo": { "title": "Privacybeleid — Nexa Paraguay", "description": "Privacy- en cookiebeleid (GDPR-conform)." },
+    "hero": { "headline": "Privacybeleid", "subheadline": "Hoe wij uw gegevens verzamelen en verwerken. GDPR-conform." },
+    "body": {
+      "title": "Belangrijkste punten",
+      "items": [
+        { "q": "Welke gegevens verzamelen wij?", "a": "Naam, e-mail, telefoon (optioneel), land, programma-interesse en doel wanneer u een formulier invult." },
+        { "q": "Waarvoor gebruiken wij ze?", "a": "Uitsluitend om op uw verzoek te reageren en, indien u dat expliciet toestaat, relevante informatie per e-mail te sturen." },
+        { "q": "Met wie delen wij ze?", "a": "CRM (HubSpot) en e-mailprovider (Mailchimp) onder verwerkersovereenkomst. Wij verkopen of delen geen gegevens aan derden voor marketing." },
+        { "q": "Hoe lang bewaren wij ze?", "a": "24 maanden na het laatste contact, tenzij wettelijk vereist." },
+        { "q": "Hoe oefen ik mijn rechten uit?", "a": "Mail naar hola@nexaparaguay.com en wij reageren binnen 30 dagen (inzage, rectificatie, verwijdering, overdraagbaarheid)." }
+      ]
+    }
+  },
+  "blog": {
+    "index": {
+      "seo": { "title": "Blog — Nexa Paraguay", "description": "Gidsen, analyses en bronnen over verblijf, bedrijf en leven in Paraguay." },
+      "title": "Blog",
+      "subtitle": "Eerlijke gidsen over verblijf, vennootschap en investeren in Paraguay."
+    }
+  },
+  "footer": {
+    "businessName": "Nexa Paraguay",
+    "city": "Asunción",
+    "email": "hola@nexaparaguay.com",
+    "whatsapp": "595000000000",
+    "instagram": "https://instagram.com/nexaparaguay",
+    "navLinks": [
+      { "label": "Programma's", "href": "/s/nl/nexa-paraguay/programas" },
+      { "label": "Proces", "href": "/s/nl/nexa-paraguay/proceso" },
+      { "label": "Over", "href": "/s/nl/nexa-paraguay/sobre" },
+      { "label": "Privacy", "href": "/s/nl/nexa-paraguay/privacidad" }
+    ]
+  },
+  "whatsapp": {
+    "phone": "595000000000",
+    "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "description": "Full 9-page kit mirroring the Nexa Paraguay spec. Copy into a new site's pages/ directory and edit.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "titleKey": "home.seo.title",
+      "descriptionKey": "home.seo.description",
+      "schemaType": "LocalBusiness",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "split", "content": "home.hero" },
+        { "id": "trust-signals", "variant": "credentials", "content": "home.trust" },
+        { "id": "programs-comparison", "variant": "tiered", "content": "home.programs" },
+        { "id": "why-destination", "variant": "three-col", "content": "home.whyCountry" },
+        { "id": "process-timeline", "variant": "horizontal", "content": "home.process" },
+        { "id": "testimonials", "variant": "grid", "content": "home.testimonials", "enabledWhen": "testimonials" },
+        { "id": "cta-banner", "variant": "gradient", "content": "home.finalCta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "programas": {
+      "slug": "programas",
+      "titleKey": "programasPage.seo.title",
+      "descriptionKey": "programasPage.seo.description",
+      "schemaType": "Service",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "programasPage.hero" },
+        { "id": "programs-comparison", "variant": "tiered", "content": "programasPage.programs" },
+        { "id": "programs-comparison", "variant": "matrix", "content": "programasPage.matrix" },
+        { "id": "faq", "variant": "accordion", "content": "programasPage.faq" },
+        { "id": "cta-banner", "variant": "solid", "content": "programasPage.cta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "por-que-paraguay": {
+      "slug": "por-que-paraguay",
+      "titleKey": "whyCountryPage.seo.title",
+      "descriptionKey": "whyCountryPage.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "whyCountryPage.hero" },
+        { "id": "why-destination", "variant": "alternating", "content": "whyCountryPage.pillars" },
+        { "id": "trust-signals", "variant": "credentials", "content": "whyCountryPage.trust" },
+        { "id": "cta-banner", "variant": "gradient", "content": "whyCountryPage.cta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "proceso": {
+      "slug": "proceso",
+      "titleKey": "processPage.seo.title",
+      "descriptionKey": "processPage.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "processPage.hero" },
+        { "id": "process-timeline", "variant": "vertical", "content": "processPage.process" },
+        { "id": "faq", "variant": "accordion", "content": "processPage.faq" },
+        { "id": "cta-banner", "variant": "solid", "content": "processPage.cta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "sobre": {
+      "slug": "sobre",
+      "titleKey": "aboutPage.seo.title",
+      "descriptionKey": "aboutPage.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "aboutPage.hero" },
+        { "id": "why-destination", "variant": "three-col", "content": "aboutPage.differentiators" },
+        { "id": "team", "variant": "cards", "content": "aboutPage.team" },
+        { "id": "trust-signals", "variant": "credentials", "content": "aboutPage.trust" },
+        { "id": "cta-banner", "variant": "solid", "content": "aboutPage.cta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "faq": {
+      "slug": "faq",
+      "titleKey": "faqPage.seo.title",
+      "descriptionKey": "faqPage.seo.description",
+      "schemaType": "FAQPage",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "faqPage.hero" },
+        { "id": "faq", "variant": "accordion", "content": "faqPage.full" },
+        { "id": "cta-banner", "variant": "solid", "content": "faqPage.cta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "blog": {
+      "slug": "blog",
+      "titleKey": "blog.index.seo.title",
+      "descriptionKey": "blog.index.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "blog-index", "variant": "grid", "content": "blog.index" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "contacto": {
+      "slug": "contacto",
+      "titleKey": "contactPage.seo.title",
+      "descriptionKey": "contactPage.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "contactPage.hero" },
+        { "id": "booking-embed", "variant": "iframe", "content": "contactPage.booking" },
+        { "id": "contact", "variant": "split", "content": "contactPage.contact" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "privacidad": {
+      "slug": "privacidad",
+      "titleKey": "privacyPage.seo.title",
+      "descriptionKey": "privacyPage.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "privacyPage.hero" },
+        { "id": "faq", "variant": "accordion", "content": "privacyPage.body" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    }
+  }
+}

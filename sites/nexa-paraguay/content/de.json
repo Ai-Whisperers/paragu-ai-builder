@@ -1,0 +1,234 @@
+{
+  "siteName": "Nexa Paraguay",
+  "tagline": "Ihr neuer Anfang in Paraguay, einfach und souverän",
+  "placeholders": {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "currency": "USD",
+    "taxRate": "10%",
+    "processWeeks": "8–12 Wochen",
+    "flagEmoji": "🇵🇾"
+  },
+  "navigation": {
+    "businessName": "Nexa Paraguay",
+    "navItems": [
+      { "label": "Start", "href": "/s/de/nexa-paraguay" },
+      { "label": "Programme", "href": "/s/de/nexa-paraguay/programas" },
+      { "label": "Warum Paraguay", "href": "/s/de/nexa-paraguay/por-que-paraguay" },
+      { "label": "Ablauf", "href": "/s/de/nexa-paraguay/proceso" },
+      { "label": "Über uns", "href": "/s/de/nexa-paraguay/sobre" },
+      { "label": "FAQ", "href": "/s/de/nexa-paraguay/faq" },
+      { "label": "Blog", "href": "/s/de/nexa-paraguay/blog" },
+      { "label": "Kontakt", "href": "/s/de/nexa-paraguay/contacto" }
+    ],
+    "ctaText": "Beratung buchen",
+    "ctaHref": "/s/de/nexa-paraguay/contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Nexa Paraguay — Etablieren Sie Ihr Geschäft in Paraguay",
+      "description": "Aufenthaltserlaubnis, Gesellschaft und Bankkonto in Paraguay. Ein Programm, eine Reise, ein professionelles Team."
+    },
+    "hero": {
+      "headline": "Etablieren Sie Ihre Geschäftstätigkeit in Paraguay. Professionell, integriert, ohne Überraschungen.",
+      "subheadline": "Aufenthaltserlaubnis, Gesellschaft, Bankkonto und Landkauf — koordiniert von Nexa Paraguay, ausgeführt von unserem vertrauten Fachteam.",
+      "ctaPrimaryText": "Kostenloses Beratungsgespräch",
+      "ctaPrimaryHref": "/s/de/nexa-paraguay/contacto",
+      "ctaSecondaryText": "Programme ansehen",
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas"
+    },
+    "trust": {
+      "eyebrow": "Warum Nexa Paraguay",
+      "title": "Ein integriertes System, keine Agentur für Papierkram",
+      "items": [
+        { "icon": "Package", "title": "Ein Programm", "description": "Aufenthalt, Gesellschaft und Bankkonto integriert." },
+        { "icon": "Plane", "title": "Eine Reise", "description": "Alle Präsenz-Schritte an einem koordinierten Tag." },
+        { "icon": "Users", "title": "Ein Team", "description": "Anwälte, Steuerberater, Notare und Finanzberater." },
+        { "icon": "Shield", "title": "Transparenter Preis", "description": "Alles inklusive. Keine versteckten Kosten." }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Programme",
+      "title": "Vier Wege, sich in Paraguay zu etablieren",
+      "subtitle": "Wählen Sie das Programm, das zu Ihrem Ziel passt.",
+      "tiers": [
+        { "id": "base", "name": "Paraguay Base", "description": "Aufenthalt + Identitätskarte.", "price": "TBD", "priceNote": "LEALTIS-Großhandelspreis offen + Nexa-Marge", "included": ["Aufenthaltserlaubnis", "Identitätskarte", "Dokumentenprüfung vorab", "Operativer Tag", "Logistische Begleitung"], "ctaLabel": "Beratung anfragen", "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base" },
+        { "id": "business", "name": "Paraguay Business", "description": "Aufenthalt + Gesellschaft + Bankkonto.", "price": "USD 4.400+", "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.", "badge": "Am beliebtesten", "highlighted": true, "included": ["Alles aus Base", "Gesellschaftsgründung", "Steuerregistrierung (RUC)", "Firmenbankkonto", "Strategische Immobilientour", "Honorare, MwSt. und Gebühren inklusive"], "ctaLabel": "Beratung anfragen", "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business" },
+        { "id": "investor", "name": "Paraguay Investor Program", "description": "Alles aus Business + 12 Monate Begleitung.", "price": "USD 6.900+", "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.", "included": ["Alles aus Business", "Buchhaltung (12 Monate)", "Rechts- und Steuerberatung (12 Monate)", "Investitionsanalyse", "Direktzugang zum Fachteam"], "ctaLabel": "Beratung anfragen", "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor" },
+        { "id": "tierras", "name": "Landkauf", "description": "Eigene Dienstleistung von Nexa.", "price": "TBD", "priceNote": "Umfang und Preise in Definition.", "included": ["Profil- und Kriteriendefinition", "Suche und Short-List", "Rechtliche und technische Due Diligence", "Verhandlung und Beurkundung", "Registereintragung"], "ctaLabel": "Sondierungsgespräch", "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras" }
+      ]
+    },
+    "whyCountry": {
+      "eyebrow": "Warum Paraguay",
+      "title": "Eine reale Chance für europäische Investoren",
+      "pillars": [
+        { "icon": "TrendingUp", "title": "Wirtschaftliches Umfeld", "description": "Stetiges Wachstum, kontrollierte Inflation, {{taxRate}} Einkommensteuer, Territorialsystem.", "bullets": ["Körperschaftsteuer {{taxRate}}", "Territorialsystem", "Offene Wirtschaft"] },
+        { "icon": "Building2", "title": "Investitionsmöglichkeiten", "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.", "bullets": ["Expandierende Immobilien", "Führende Agroindustrie", "Junges Gründer-Ökosystem"] },
+        { "icon": "Heart", "title": "Lebensqualität", "description": "Warmes Klima, wachsende internationale Community, erhebliche Kaufkraft.", "bullets": ["Günstige Lebenshaltung", "Internationale Community", "Persönliche Sicherheit"] }
+      ],
+      "honestNote": "Die Chance ist real, aber der Prozess ist ohne geeignete Anleitung nicht einfach. Genau dafür sind wir da."
+    },
+    "process": {
+      "eyebrow": "So funktioniert's",
+      "title": "Ein klarer Prozess, Schritt für Schritt",
+      "totalDuration": "Gesamtdauer: 8–12 Wochen.",
+      "ctaLabel": "Prozess starten",
+      "ctaHref": "/s/de/nexa-paraguay/contacto",
+      "steps": [
+        { "number": 1, "title": "Erstgespräch", "description": "Wir klären Ihre Situation, Ziele und das passende Programm.", "icon": "MessageCircle" },
+        { "number": 2, "title": "Dokumentenprüfung", "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.", "icon": "FileCheck" },
+        { "number": 3, "title": "Operativer Tag", "description": "An einem Tag erledigen wir alle Präsenz-Schritte.", "icon": "MapPin" },
+        { "number": 4, "title": "Gesellschaft und Bank", "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.", "icon": "Building" },
+        { "number": 5, "title": "Übergabe und Nachbetreuung", "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.", "icon": "CheckCircle" }
+      ]
+    },
+    "finalCta": {
+      "title": "Machen Sie den ersten Schritt",
+      "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
+      "buttonText": "Beratung buchen",
+      "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
+  },
+  "programasPage": {
+    "seo": { "title": "Programme — Nexa Paraguay", "description": "Vier Programme: Base, Business (USD 4.400+), Investor (USD 6.900+) und Landkauf." },
+    "hero": { "headline": "Unsere Programme", "subheadline": "Transparente Preise. Alles inklusive. Keine Überraschungen." },
+    "programs": { "$ref": "home.programs" },
+    "matrix": { "$ref": "home.programs" },
+    "faq": {
+      "title": "Fragen zu Preisen und Programmen",
+      "items": [
+        { "q": "Was ist im Preis enthalten?", "a": "Honorare, MwSt., amtliche Gebühren, Bankkoordination und integrierte Beratung." },
+        { "q": "Was ist NICHT enthalten?", "a": "Flüge, Unterkunft, Apostillen im Ursprungsland, persönliche Ausgaben." },
+        { "q": "Wie wird bezahlt?", "a": "Vorauszahlung per Überweisung. Keine Zusatzkosten." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "whyCountryPage": {
+    "seo": { "title": "Warum Paraguay — Nexa Paraguay", "description": "Paraguay: wettbewerbsfähiges Steuerumfeld, wachsende Wirtschaft, Lebensqualität." },
+    "hero": { "headline": "Warum Paraguay", "subheadline": "Eine reale Chance — ehrlich erklärt." },
+    "pillars": { "$ref": "home.whyCountry" },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "processPage": {
+    "seo": { "title": "Ablauf — Nexa Paraguay", "description": "Unser 5-Schritte-Prozess: vom Erstgespräch bis zur Übergabe. Gesamt 8–12 Wochen." },
+    "hero": { "headline": "Ein klarer Prozess, Schritt für Schritt", "subheadline": "Keine Improvisation. Keine Überraschungen." },
+    "process": { "$ref": "home.process" },
+    "faq": {
+      "title": "Fragen zum Ablauf",
+      "items": [
+        { "q": "Wie viele Reisen brauche ich?", "a": "Eine einzige genügt." },
+        { "q": "Wie lange dauert es?", "a": "Präsenz an einem Tag. Dokumentenausstellung: 45–60 Tage." },
+        { "q": "Was, wenn ein Dokument fehlt?", "a": "Das erkennen wir vor Ihrer Reise — Sie reisen erst, wenn alles vorliegt." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "aboutPage": {
+    "seo": { "title": "Über Nexa Paraguay", "description": "Ein multidisziplinäres Fachteam: Anwälte, Steuerberater, Notare und Finanzberater." },
+    "hero": { "headline": "Über Nexa Paraguay", "subheadline": "Keine Verwaltungsagentur. Ein integriertes System." },
+    "differentiators": {
+      "eyebrow": "Unser Unterschied",
+      "title": "Was uns auszeichnet",
+      "pillars": [
+        { "icon": "Users", "title": "Multidisziplinäres Team", "description": "Anwälte, Steuerberater, Notare und Finanzberater arbeiten koordiniert." },
+        { "icon": "Shield", "title": "Beziehungsnetz", "description": "Über Jahre aufgebauter institutioneller Zugang zu Banken, Notaren und Behörden." },
+        { "icon": "Clock", "title": "Zeit als Wert", "description": "Wir verdichten in einen Tag, was sonst mehrere Reisen erfordert." }
+      ]
+    },
+    "team": {
+      "title": "Unser Team",
+      "members": [
+        { "name": "Leitung Operations (Paraguay)", "role": "Operatives Leadership, institutionelle Beziehungen" },
+        { "name": "Leitung Commercial (Europa)", "role": "Kundengewinnung, kulturelle Brücke" },
+        { "name": "Juristisches Team", "role": "Migrationsakten, Gesellschaftsgründung" },
+        { "name": "Steuerteam", "role": "Steuerliches Management, Compliance" }
+      ]
+    },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "faqPage": {
+    "seo": { "title": "FAQ — Nexa Paraguay", "description": "Antworten auf die 15 häufigsten Fragen zu Ablauf, Preisen und Programmen." },
+    "hero": { "headline": "Häufig gestellte Fragen", "subheadline": "Die Antworten, die unsere Kunden am häufigsten suchen." },
+    "full": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        { "q": "Wie lange dauert der gesamte Prozess?", "a": "Präsenz an einem Tag. Ausstellung: 45–60 Tage. Gesellschaft + Bank: 2–4 Wochen. Gesamt: 8–12 Wochen." },
+        { "q": "Wie viele Reisen brauche ich?", "a": "Eine Reise genügt." },
+        { "q": "Was ist im Preis enthalten?", "a": "Honorare, MwSt., Gebühren, Bankkoordination und integrierte Beratung. Keine Zusatzkosten." },
+        { "q": "Was ist NICHT enthalten?", "a": "Flüge, Unterkunft, persönliche Ausgaben, beglaubigte Übersetzungen und Apostillen im Ursprungsland." },
+        { "q": "Muss ich Spanisch sprechen?", "a": "Nein. Unser Team begleitet Sie auf Niederländisch, Englisch und Deutsch." },
+        { "q": "Kann ein Ausländer ein Bankkonto eröffnen?", "a": "Ja. Es ist der komplexeste Schritt; wir bereiten Ihr Profil vor und koordinieren direkt mit der Bank." },
+        { "q": "Welche Gesellschaftsform wird gegründet?", "a": "Unser Rechtsteam empfiehlt die geeignetste Form (meist EAS oder SA)." },
+        { "q": "Ist der Prozess 100% legal?", "a": "Absolut. Strikte Einhaltung paraguayischer und internationaler Vorschriften." },
+        { "q": "Was, wenn ein Dokument fehlt?", "a": "Das erkennen wir vor der Reise. Unsere Vorprüfung stellt sicher, dass alles passt." },
+        { "q": "Garantieren Sie die Kontoeröffnung?", "a": "Die Entscheidung liegt bei der Bank. Wir garantieren professionelle Vorbereitung und institutionelle Koordination." },
+        { "q": "Kann ich meine Familie mitbringen?", "a": "Ja. Jedes Familienmitglied benötigt ein eigenes Aufenthaltsverfahren." },
+        { "q": "Wie wird bezahlt?", "a": "Vorauszahlung per Banküberweisung. Keine Zusatzkosten." },
+        { "q": "Kann ich nur die Aufenthaltserlaubnis buchen?", "a": "Die Programme sind integriert konzipiert. Kontaktieren Sie uns für Ihren Fall." },
+        { "q": "Was passiert nach dem ersten Jahr (Investor)?", "a": "Wir präsentieren ein passendes Folgeangebot." },
+        { "q": "Was, wenn sich die Gesetze während meines Prozesses ändern?", "a": "Wir überwachen das Regulierungsumfeld und informieren Sie umgehend bei relevanten Änderungen." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "contactPage": {
+    "seo": { "title": "Kontakt — Nexa Paraguay", "description": "Buchen Sie ein kostenloses 30-Minuten-Gespräch." },
+    "hero": { "headline": "Machen Sie den ersten Schritt", "subheadline": "Kostenloses 30-Minuten-Gespräch. Unverbindlich." },
+    "booking": {
+      "title": "Gespräch buchen",
+      "subtitle": "Wählen Sie einen passenden Termin.",
+      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "provider": "calendly",
+      "ctaLabel": "Kalender öffnen"
+    },
+    "contact": {
+      "title": "Oder schreiben Sie uns direkt",
+      "address": "Asunción, Paraguay",
+      "neighborhood": "Centro",
+      "city": "Asunción",
+      "email": "hola@nexaparaguay.com",
+      "whatsapp": "595000000000"
+    }
+  },
+  "privacyPage": {
+    "seo": { "title": "Datenschutz — Nexa Paraguay", "description": "Datenschutz- und Cookie-Richtlinie (DSGVO-konform)." },
+    "hero": { "headline": "Datenschutzerklärung", "subheadline": "Wie wir Ihre Daten erheben und verarbeiten. DSGVO-konform." },
+    "body": {
+      "title": "Wichtige Punkte",
+      "items": [
+        { "q": "Welche Daten erheben wir?", "a": "Name, E-Mail, Telefon (optional), Land, Programm-Interesse und angegebenes Ziel, wenn Sie ein Formular absenden." },
+        { "q": "Wofür nutzen wir sie?", "a": "Nur zur Beantwortung Ihrer Anfrage und, bei ausdrücklichem Opt-in, zum Versand relevanter Informationen." },
+        { "q": "Mit wem teilen wir sie?", "a": "CRM (HubSpot) und E-Mail-Anbieter (Mailchimp) unter Auftragsverarbeitungsverträgen. Keine Weitergabe oder Verkauf an Dritte für Marketing." },
+        { "q": "Wie lange speichern wir?", "a": "24 Monate nach dem letzten Kontakt, sofern nicht gesetzlich anders gefordert." },
+        { "q": "Wie mache ich meine Rechte geltend?", "a": "Schreiben Sie an hola@nexaparaguay.com; wir antworten innerhalb von 30 Tagen (Auskunft, Berichtigung, Löschung, Portabilität)." }
+      ]
+    }
+  },
+  "blog": {
+    "index": {
+      "seo": { "title": "Blog — Nexa Paraguay", "description": "Guides, Analysen und Ressourcen zu Aufenthalt, Gesellschaft und Leben in Paraguay." },
+      "title": "Blog",
+      "subtitle": "Ehrliche Guides zu Aufenthalt, Gesellschaften und Investitionen in Paraguay."
+    }
+  },
+  "footer": {
+    "businessName": "Nexa Paraguay",
+    "city": "Asunción",
+    "email": "hola@nexaparaguay.com",
+    "whatsapp": "595000000000",
+    "instagram": "https://instagram.com/nexaparaguay",
+    "navLinks": [
+      { "label": "Programme", "href": "/s/de/nexa-paraguay/programas" },
+      { "label": "Ablauf", "href": "/s/de/nexa-paraguay/proceso" },
+      { "label": "Über", "href": "/s/de/nexa-paraguay/sobre" },
+      { "label": "Datenschutz", "href": "/s/de/nexa-paraguay/privacidad" }
+    ]
+  },
+  "whatsapp": {
+    "phone": "595000000000",
+    "message": "Hallo, ich möchte mehr über die Programme von Nexa Paraguay erfahren."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Uw privacy",
+      "body": "We gebruiken essentiële cookies voor de werking van de site en (optionele) analyse-cookies om de ervaring te verbeteren. U kunt uw keuze altijd wijzigen via de voettekst.",
+      "acceptAll": "Alles accepteren",
+      "acceptEssential": "Alleen essentieel",
+      "manage": "Voorkeuren",
+      "privacyLabel": "Privacybeleid bekijken"
+    },
+    "footerCopyright": "© {{year}} {{siteName}}. Alle rechten voorbehouden."
+  },
+  "defaults": {
+    "hero": {
+      "headline": "Vestig uw onderneming in {{country}}. Professioneel, geïntegreerd, zonder verrassingen.",
+      "subheadline": "Verblijfsvergunning, vennootschap en bankrekening — alles in één programma, met een team van professionals aan uw zijde.",
+      "ctaPrimaryText": "Plan uw gratis consult",
+      "ctaSecondaryText": "Bekijk programma's"
+    },
+    "whyCountryHonestNote": "De kans is reëel, maar het proces is niet eenvoudig zonder goede begeleiding. Daar zijn wij voor.",
+    "process": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Een helder proces, stap voor stap",
+      "totalDuration": "Totale doorlooptijd: {{processWeeks}}.",
+      "ctaLabel": "Start mijn traject"
+    }
+  }
+}

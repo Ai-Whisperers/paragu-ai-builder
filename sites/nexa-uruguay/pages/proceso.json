@@ -1,0 +1,42 @@
+{
+  "slug": "proceso",
+  "titleKey": "processPage.seo.title",
+  "descriptionKey": "processPage.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "processPage.hero"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "vertical",
+      "content": "processPage.process"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "processPage.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "processPage.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

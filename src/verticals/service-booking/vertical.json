@@ -1,0 +1,35 @@
+{
+  "id": "service-booking",
+  "name": "Service Booking",
+  "description": "Any business whose core offering is a bookable service: gyms, yoga studios, pilates, crossfit, dance academies, language academies, music schools, swimming pools, martial arts, personal trainers, nutritionists, therapists, masseurs. Shares the same page composition, parameterised by data only.",
+  "features": {
+    "i18n": true,
+    "booking": true,
+    "blog": false,
+    "gdpr": true,
+    "membershipPlans": true,
+    "classSchedule": true,
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "membership-plans",
+    "class-schedule",
+    "trust-signals",
+    "team",
+    "testimonials",
+    "gallery",
+    "booking",
+    "faq",
+    "cta-banner",
+    "contact",
+    "lead-form",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "full",
+  "locales": ["es"]
+}

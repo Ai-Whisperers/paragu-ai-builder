@@ -1,0 +1,176 @@
+{
+  "siteName": "Nexa Uruguay",
+  "tagline": "Establézcase en Uruguay con confianza",
+  "placeholders": {
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "currency": "USD",
+    "taxRate": "25% (progresivo)",
+    "processWeeks": "10–14 semanas",
+    "flagEmoji": "🇺🇾"
+  },
+  "navigation": {
+    "businessName": "Nexa Uruguay",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/nexa-uruguay" },
+      { "label": "Programas", "href": "/s/es/nexa-uruguay/programas" },
+      { "label": "Por qué Uruguay", "href": "/s/es/nexa-uruguay/por-que-uruguay" },
+      { "label": "Proceso", "href": "/s/es/nexa-uruguay/proceso" },
+      { "label": "Sobre Nexa", "href": "/s/es/nexa-uruguay/sobre" },
+      { "label": "FAQ", "href": "/s/es/nexa-uruguay/faq" },
+      { "label": "Contacto", "href": "/s/es/nexa-uruguay/contacto" }
+    ],
+    "ctaText": "Agendar consulta",
+    "ctaHref": "/s/es/nexa-uruguay/contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Nexa Uruguay — Establezca su operación en Uruguay",
+      "description": "Residencia, sociedad y cuenta bancaria en Uruguay. Servicio profesional integral."
+    },
+    "hero": {
+      "headline": "Establezca su operación en Uruguay. Profesional, integrado, sin sorpresas.",
+      "subheadline": "Residencia, sociedad y cuenta bancaria — un programa, un equipo coordinado, soporte orientado a Europa.",
+      "ctaPrimaryText": "Agendar consulta gratuita",
+      "ctaPrimaryHref": "/s/es/nexa-uruguay/contacto",
+      "ctaSecondaryText": "Ver programas",
+      "ctaSecondaryHref": "/s/es/nexa-uruguay/programas"
+    },
+    "trust": {
+      "eyebrow": "Por qué Nexa Uruguay",
+      "title": "Equipo local con sensibilidad europea",
+      "items": [
+        { "icon": "Package", "title": "Un programa", "description": "Residencia, sociedad y cuenta bancaria." },
+        { "icon": "Plane", "title": "Un viaje", "description": "Trámites presenciales en una visita coordinada." },
+        { "icon": "Users", "title": "Un equipo", "description": "Abogados, contadores, escribanos y asesores." },
+        { "icon": "Shield", "title": "Precio transparente", "description": "Todo incluido." }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Programas",
+      "title": "Tres caminos para establecerse en Uruguay",
+      "subtitle": "Elija el programa según su objetivo.",
+      "tiers": [
+        { "id": "base", "name": "Uruguay Base", "description": "Residencia + RUT.", "price": "A definir", "priceNote": "Precios en definición", "included": ["Solicitud de residencia", "RUT", "Validación documental", "Visita operativa"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=base" },
+        { "id": "business", "name": "Uruguay Business", "description": "Residencia + sociedad + cuenta bancaria.", "price": "A definir", "priceNote": "Precios en definición", "highlighted": true, "badge": "Más elegido", "included": ["Todo lo de Base", "Constitución (SAS)", "Cuenta bancaria", "Tour estratégico", "Honorarios + IVA incluidos"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=business" },
+        { "id": "investor", "name": "Uruguay Investor Program", "description": "Business + 12 meses de asesoría.", "price": "A definir", "priceNote": "Precios en definición", "included": ["Todo lo de Business", "Contabilidad (12 meses)", "Asesoría legal y fiscal (12 meses)", "Análisis de inversiones"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=investor" }
+      ]
+    },
+    "whyCountry": {
+      "eyebrow": "Por qué Uruguay",
+      "title": "Estabilidad, previsibilidad, apertura",
+      "pillars": [
+        { "icon": "TrendingUp", "title": "Estabilidad primero", "description": "Uruguay combina fortaleza institucional, baja corrupción y estado de derecho predecible.", "bullets": ["Democracia sólida", "Hub financiero regional", "Grado de inversión"] },
+        { "icon": "Building2", "title": "Oportunidades de inversión", "description": "Zonas francas, inmobiliario, agroindustria, tecnología.", "bullets": ["Zonas francas", "Sector tecnológico en crecimiento", "Inmobiliario en Punta del Este"] },
+        { "icon": "Heart", "title": "Calidad de vida", "description": "Seguridad, educación, clima, comunidad internacional.", "bullets": ["Seguridad pública", "Educación pública y privada sólida", "Playa + ciudad"] }
+      ],
+      "honestNote": "Uruguay no es barato — es estable. Ese tradeoff es la clave. Si prioriza el costo, Paraguay puede ser mejor opción; se lo diremos."
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Un proceso claro, paso a paso",
+      "totalDuration": "Tiempo estimado total: 10–14 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "/s/es/nexa-uruguay/contacto",
+      "steps": [
+        { "number": 1, "title": "Consulta inicial", "description": "Evaluamos su situación y el programa adecuado.", "icon": "MessageCircle" },
+        { "number": 2, "title": "Validación documental", "description": "Revisión completa antes de su viaje.", "icon": "FileCheck" },
+        { "number": 3, "title": "Visita operativa", "description": "Trámites presenciales en Montevideo.", "icon": "MapPin" },
+        { "number": 4, "title": "Sociedad y banca", "description": "Constitución y apertura de cuenta.", "icon": "Building" },
+        { "number": 5, "title": "Entrega y seguimiento", "description": "Recibe documentos definitivos.", "icon": "CheckCircle" }
+      ]
+    },
+    "finalCta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-uruguay/contacto"
+    }
+  },
+  "programasPage": {
+    "seo": { "title": "Programas — Nexa Uruguay", "description": "Tres programas para establecerse en Uruguay." },
+    "hero": { "headline": "Nuestros programas", "subheadline": "Precios transparentes. Todo incluido." },
+    "programs": { "$ref": "home.programs" },
+    "matrix": { "$ref": "home.programs" },
+    "faq": {
+      "title": "Preguntas sobre precios",
+      "items": [
+        { "q": "¿Qué incluye el precio?", "a": "Honorarios, IVA, tasas oficiales y asesoría integral." },
+        { "q": "¿Cómo se paga?", "a": "Anticipado por transferencia bancaria." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "whyCountryPage": {
+    "seo": { "title": "Por qué Uruguay — Nexa Uruguay", "description": "Uruguay: estabilidad, economía abierta, fortaleza institucional." },
+    "hero": { "headline": "Por qué Uruguay", "subheadline": "Una oportunidad real — explicada con honestidad." },
+    "pillars": { "$ref": "home.whyCountry" },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "processPage": {
+    "seo": { "title": "Cómo funciona — Nexa Uruguay", "description": "Proceso de 5 pasos, 10–14 semanas." },
+    "hero": { "headline": "Un proceso claro, paso a paso", "subheadline": "Sin sorpresas." },
+    "process": { "$ref": "home.process" },
+    "faq": { "title": "Preguntas sobre el proceso", "items": [{ "q": "¿Cuántos viajes?", "a": "Uno suele ser suficiente." }] },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "aboutPage": {
+    "seo": { "title": "Sobre Nexa Uruguay", "description": "Equipo técnico multidisciplinario en Montevideo." },
+    "hero": { "headline": "Sobre Nexa Uruguay", "subheadline": "Equipo local con sensibilidad europea." },
+    "differentiators": {
+      "eyebrow": "Nuestra diferencia",
+      "title": "Qué nos hace diferentes",
+      "pillars": [
+        { "icon": "Users", "title": "Local + europeo", "description": "Operaciones totalmente bilingües Europa ↔ Uruguay." },
+        { "icon": "Shield", "title": "Acceso institucional", "description": "Relaciones directas con bancos y escribanías." }
+      ]
+    },
+    "team": { "title": "Nuestro equipo", "members": [{ "name": "Dirección de Operaciones (Uruguay)", "role": "Liderazgo operativo" }, { "name": "Dirección Comercial (Europa)", "role": "Adquisición de clientes" }] },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "faqPage": {
+    "seo": { "title": "FAQ — Nexa Uruguay", "description": "Respuestas a las preguntas más frecuentes." },
+    "hero": { "headline": "Preguntas frecuentes", "subheadline": "Lo que los clientes consultan más." },
+    "full": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "¿Cuánto dura el proceso?", "a": "Normalmente 10–14 semanas de principio a fin." },
+        { "q": "¿Pueden los extranjeros abrir cuenta bancaria?", "a": "Sí. Uruguay es más estricto que otras jurisdicciones regionales; coordinamos la preparación KYC." },
+        { "q": "¿Es legal el proceso?", "a": "Absolutamente. Estricto apego a la normativa uruguaya e internacional." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "contactPage": {
+    "seo": { "title": "Contacto — Nexa Uruguay", "description": "Agende una consulta gratuita." },
+    "hero": { "headline": "Dé el primer paso", "subheadline": "Consulta gratuita de 30 minutos. Sin compromiso." },
+    "booking": { "title": "Agende su consulta", "subtitle": "Elija un horario.", "bookingUrl": "https://calendly.com/nexauruguay/consult", "provider": "calendly", "ctaLabel": "Abrir calendario" },
+    "contact": { "title": "O escríbanos directamente", "address": "Montevideo, Uruguay", "city": "Montevideo", "email": "hola@nexauruguay.com", "whatsapp": "598000000000" }
+  },
+  "privacyPage": {
+    "seo": { "title": "Privacidad — Nexa Uruguay", "description": "Política de privacidad y cookies." },
+    "hero": { "headline": "Política de privacidad", "subheadline": "Cómo tratamos sus datos. GDPR-compliant." },
+    "body": {
+      "title": "Puntos clave",
+      "items": [
+        { "q": "¿Qué datos recogemos?", "a": "Solo los datos que usted envía por formulario." },
+        { "q": "¿Cuánto los guardamos?", "a": "24 meses desde el último contacto." }
+      ]
+    }
+  },
+  "blog": { "index": { "seo": { "title": "Blog", "description": "Blog" }, "title": "Blog", "subtitle": "Próximamente." } },
+  "footer": {
+    "businessName": "Nexa Uruguay",
+    "city": "Montevideo",
+    "email": "hola@nexauruguay.com",
+    "whatsapp": "598000000000",
+    "navLinks": [
+      { "label": "Programas", "href": "/s/es/nexa-uruguay/programas" },
+      { "label": "Proceso", "href": "/s/es/nexa-uruguay/proceso" },
+      { "label": "Privacidad", "href": "/s/es/nexa-uruguay/privacidad" }
+    ]
+  },
+  "whatsapp": { "phone": "598000000000", "message": "Hola, quiero saber más sobre los programas de Nexa Uruguay." }
+}

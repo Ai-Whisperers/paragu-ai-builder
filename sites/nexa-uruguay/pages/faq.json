@@ -1,0 +1,38 @@
+{
+  "slug": "faq",
+  "titleKey": "faqPage.seo.title",
+  "descriptionKey": "faqPage.seo.description",
+  "schemaType": "FAQPage",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "faqPage.hero"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "faqPage.full"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "faqPage.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

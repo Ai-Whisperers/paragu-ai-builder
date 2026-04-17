@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-relocacion",
+  "title": "Relocation vertical site content schema",
+  "description": "Shape a site's content/<locale>.json may fill. All fields optional — starter kits decide what a page consumes. Sites can extend freely.",
+  "type": "object",
+  "properties": {
+    "siteName": { "type": "string" },
+    "tagline": { "type": "string" },
+    "placeholders": {
+      "type": "object",
+      "description": "Country-level fill-ins for {{placeholder}} substitution in vertical copy.",
+      "properties": {
+        "country": { "type": "string" },
+        "capital": { "type": "string" },
+        "currency": { "type": "string" },
+        "taxRate": { "type": "string" },
+        "processWeeks": { "type": "string" },
+        "flagEmoji": { "type": "string" }
+      }
+    },
+    "home": {
+      "type": "object",
+      "properties": {
+        "seo": { "$ref": "#/$defs/seo" },
+        "hero": { "$ref": "#/$defs/hero" },
+        "trust": { "$ref": "#/$defs/trustItems" },
+        "programs": { "$ref": "#/$defs/programs" },
+        "whyCountry": { "$ref": "#/$defs/whyCountry" },
+        "process": { "$ref": "#/$defs/process" },
+        "testimonials": { "$ref": "#/$defs/testimonials" },
+        "finalCta": { "$ref": "#/$defs/ctaBanner" }
+      }
+    },
+    "programasPage": { "type": "object" },
+    "whyCountryPage": { "type": "object" },
+    "processPage": { "type": "object" },
+    "aboutPage": { "type": "object" },
+    "faqPage": { "type": "object" },
+    "contactPage": { "type": "object" },
+    "privacyPage": { "type": "object" },
+    "blog": {
+      "type": "object",
+      "properties": {
+        "index": { "type": "object" },
+        "posts": { "type": "array" }
+      }
+    },
+    "cookieBanner": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "body": { "type": "string" },
+        "acceptAll": { "type": "string" },
+        "acceptEssential": { "type": "string" },
+        "manage": { "type": "string" },
+        "privacyLabel": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      }
+    },
+    "hero": {
+      "type": "object",
+      "properties": {
+        "headline": { "type": "string" },
+        "subheadline": { "type": "string" },
+        "ctaPrimaryText": { "type": "string" },
+        "ctaPrimaryHref": { "type": "string" },
+        "ctaSecondaryText": { "type": "string" },
+        "ctaSecondaryHref": { "type": "string" },
+        "backgroundImage": { "type": "string" }
+      }
+    },
+    "trustItems": {
+      "type": "object",
+      "properties": {
+        "items": { "type": "array", "items": { "$ref": "#/$defs/trustItem" } }
+      }
+    },
+    "trustItem": {
+      "type": "object",
+      "properties": {
+        "icon": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "value": { "type": "string" }
+      }
+    },
+    "programs": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "tiers": { "type": "array", "items": { "$ref": "#/$defs/programTier" } },
+        "comparisonRows": { "type": "array" }
+      }
+    },
+    "programTier": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "string" },
+        "priceNote": { "type": "string" },
+        "badge": { "type": "string" },
+        "highlighted": { "type": "boolean" },
+        "included": { "type": "array", "items": { "type": "string" } },
+        "excluded": { "type": "array", "items": { "type": "string" } },
+        "ctaLabel": { "type": "string" },
+        "ctaHref": { "type": "string" }
+      }
+    },
+    "whyCountry": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "pillars": { "type": "array", "items": { "$ref": "#/$defs/pillar" } },
+        "honestNote": { "type": "string" }
+      }
+    },
+    "pillar": {
+      "type": "object",
+      "properties": {
+        "icon": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "bullets": { "type": "array", "items": { "type": "string" } },
+        "imageUrl": { "type": "string" }
+      }
+    },
+    "process": {
+      "type": "object",
+      "properties": {
+        "eyebrow": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "totalDuration": { "type": "string" },
+        "ctaLabel": { "type": "string" },
+        "ctaHref": { "type": "string" },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": { "type": "integer" },
+              "title": { "type": "string" },
+              "description": { "type": "string" },
+              "icon": { "type": "string" },
+              "duration": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "testimonials": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "testimonials": { "type": "array" }
+      }
+    },
+    "ctaBanner": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "buttonText": { "type": "string" },
+        "buttonHref": { "type": "string" }
+      }
+    }
+  }
+}
