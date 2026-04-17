@@ -78,7 +78,40 @@ export function resolveSiteTokens(
   const base = readJson<BaseTokens>('src/tokens/base.tokens.json')
   const vertical = loadVerticalTokens(verticalId) as TokensFile
   const site = loadSiteTokens(siteSlug) as TokensFile
-  const merged = mergeTokens(vertical, site)
+
+  // Fallback to empty tokens object if files don't exist (Edge runtime or missing files)
+  const safeVertical = vertical.palettes ? vertical : ({
+    theme: 'light',
+    palettes: {
+      default: {
+        name: 'Default',
+        colors: {
+          primary: '#1B2A4A',
+          secondary: '#C9A96E',
+          background: '#FFFFFF',
+          surface: '#FFFFFF',
+          text: '#1B2A4A',
+          textLight: '#4A4A4A',
+          textMuted: '#777777',
+          surfaceLight: '#F5F3EE',
+          success: '#4a7c59',
+          error: '#c0392b',
+          warning: '#d9a441',
+        }
+      }
+    },
+    defaultPalette: 'default',
+    typography: {
+      heading: "'Playfair Display', serif",
+      body: "'Inter', sans-serif",
+      headingWeight: '700',
+      bodyWeight: '400',
+    },
+    googleFonts: ['Playfair+Display:wght@500;600;700', 'Inter:wght@400;500;600;700'],
+    components: {}
+  } as TokensFile)
+
+  const merged = mergeTokens(safeVertical, site)
 
   const paletteName = merged.defaultPalette || 'default'
   const palette = merged.palettes?.[paletteName]
