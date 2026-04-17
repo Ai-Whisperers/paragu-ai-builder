@@ -23,6 +23,7 @@ import {
   MapPin,
   Users,
   TrendingUp,
+  ShoppingCart,
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
@@ -43,6 +44,7 @@ const TEMPLATES = [
   { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#c44569' },
   { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7' },
   { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055' },
+  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a' },
 ] as const
 
 const TOTAL_LEADS = 7491
@@ -75,8 +77,8 @@ const FEATURES = [
   },
   {
     icon: Layers,
-    title: '11 Plantillas',
-    desc: 'Disenos especializados para cada tipo de negocio de belleza y bienestar.',
+    title: '12 Plantillas',
+    desc: 'Disenos especializados para multiples tipos de negocio: belleza, bienestar, diseno, meal prep.',
   },
 ]
 

@@ -147,6 +147,18 @@
       "leadCount": 0,
       "noWebsitePercent": 0,
       "priorityALeads": 0
+    },
+    "meal_prep": {
+      "id": "meal_prep",
+      "nameEs": "Meal Prep & Compras",
+      "nameEn": "Meal Prep & Personal Shopping",
+      "icon": "shopping-cart",
+      "tokens": "meal_prep",
+      "content": "meal_prep",
+      "schema": "meal_prep",
+      "leadCount": 0,
+      "noWebsitePercent": 0,
+      "priorityALeads": 0
     }
   },
 
