@@ -1,0 +1,145 @@
+{
+  "name": "paragu-ai-builder",
+  "description": "Universal website generation engine for Paraguayan businesses",
+  "version": "1.0.0",
+  "aiAgent": {
+    "compatibility": ["claude", "claude-code", "anthropic-console", "openai-codex"],
+    "configurationFiles": [
+      "AGENTS.md",
+      ".ai-config.json",
+      ".claude-config.toml"
+    ]
+  },
+  "project": {
+    "type": "nextjs-fullstack",
+    "language": "typescript",
+    "framework": "nextjs-15",
+    "styling": "tailwindcss-3.4",
+    "database": "supabase-postgresql",
+    "deployment": "cloudflare-pages",
+    "contentLanguage": "spanish"
+  },
+  "structure": {
+    "dataLayer": {
+      "path": "src/",
+      "files": {
+        "registry": "src/registry/*.type.json",
+        "tokens": "src/tokens/*.tokens.json",
+        "content": "src/content/*.content.json",
+        "schemas": "src/schemas/*.schema.json"
+      }
+    },
+    "appLayer": {
+      "path": "web/",
+      "routes": "web/app/",
+      "components": "web/components/",
+      "lib": "web/lib/",
+      "scripts": "web/scripts/"
+    },
+    "database": {
+      "migrations": "supabase/migrations/",
+      "schema": "supabase/migrations/000_complete_schema.sql"
+    }
+  },
+  "workflows": {
+    "addBusinessType": {
+      "estimatedTime": "5-10 minutes",
+      "filesToCreate": [
+        "src/registry/{type}.type.json",
+        "src/tokens/{type}.tokens.json",
+        "src/content/{type}.content.json"
+      ],
+      "filesToUpdate": [
+        "web/lib/types.ts",
+        "web/lib/engine/demo-data.ts"
+      ],
+      "commands": ["npm run build"]
+    },
+    "addSection": {
+      "estimatedTime": "10-20 minutes",
+      "filesToCreate": ["web/components/sections/{name}-section.tsx"],
+      "filesToUpdate": [
+        "web/lib/engine/compose.ts",
+        "web/lib/engine/renderer.tsx"
+      ]
+    },
+    "fixBuildError": {
+      "checklist": [
+        "npm run typecheck",
+        "npm run lint",
+        "Check tailwind version",
+        "Search for hardcoded colors",
+        "Check business_id filters"
+      ]
+    }
+  },
+  "rules": {
+    "critical": [
+      "Never upgrade Tailwind to v4",
+      "Never hardcode colors (use CSS variables)",
+      "Always filter database queries by business_id",
+      "Never commit .env files",
+      "Never silently catch errors"
+    ],
+    "styling": {
+      "useCssVariables": true,
+      "tailwindVersion": "3.4.19",
+      "noHardcodedColors": true
+    },
+    "database": {
+      "alwaysUseRls": true,
+      "alwaysFilterByBusinessId": true,
+      "migrationsIn": "supabase/migrations/"
+    },
+    "components": {
+      "serverFirst": true,
+      "reuseExisting": true,
+      "sectionsLocation": "web/components/sections/"
+    }
+  },
+  "skills": {
+    "installed": [
+      {
+        "name": "firecrawl-scrape",
+        "useFor": ["single-page-extraction", "content-research"],
+        "dontUseFor": ["database-ops", "auth"]
+      },
+      {
+        "name": "firecrawl-crawl",
+        "useFor": ["site-wide-crawling", "competitor-analysis"],
+        "dontUseFor": ["template-rendering", "payments"]
+      },
+      {
+        "name": "firecrawl-search",
+        "useFor": ["web-search", "research"],
+        "dontUseFor": ["business-logic", "auth"]
+      },
+      {
+        "name": "firecrawl-agent",
+        "useFor": ["structured-extraction", "data-validation"],
+        "dontUseFor": ["database-queries", "rendering"]
+      }
+    ]
+  },
+  "commands": {
+    "development": {
+      "dev": "cd web && npm run dev",
+      "build": "cd web && npm run build",
+      "test": "cd web && npm run typecheck"
+    },
+    "deployment": {
+      "deploy": "cd web && npm run deploy",
+      "setup": "cd web && npm run deploy:setup"
+    },
+    "data": {
+      "importLeads": "cd web && npm run import:leads",
+      "validate": "cd web && npm run validate:all"
+    }
+  },
+  "documentation": {
+    "primary": "CLAUDE.md",
+    "aiGuide": "AGENTS.md",
+    "deployment": "docs/DEPLOYMENT.md",
+    "strategy": "docs/STRATEGY_NEXT_STEPS.md"
+  }
+}
