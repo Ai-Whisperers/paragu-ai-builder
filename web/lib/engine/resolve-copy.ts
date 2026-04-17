@@ -17,10 +17,32 @@ function getByPath(root: Record<string, unknown>, path: string): unknown {
 
 export function resolveRef(ref: string, ctx: CopyContext): unknown {
   const siteHit = getByPath(ctx.siteContent, ref)
-  if (siteHit !== undefined) return fillDeep(siteHit, ctx.placeholders)
+  if (siteHit !== undefined) return followRefs(siteHit, ctx)
   const verticalHit = getByPath(ctx.verticalCopy, ref)
-  if (verticalHit !== undefined) return fillDeep(verticalHit, ctx.placeholders)
+  if (verticalHit !== undefined) return followRefs(verticalHit, ctx)
   return undefined
+}
+
+function followRefs(value: unknown, ctx: CopyContext, depth = 0): unknown {
+  if (depth > 10) return value
+  if (value && typeof value === 'object' && !Array.isArray(value)) {
+    const rec = value as Record<string, unknown>
+    if (typeof rec.$ref === 'string') {
+      const resolved = resolveRef(rec.$ref, ctx)
+      return resolved !== undefined
+        ? followRefs(resolved, ctx, depth + 1)
+        : fillDeep(value, ctx.placeholders)
+    }
+    const out: Record<string, unknown> = {}
+    for (const [k, v] of Object.entries(rec)) {
+      out[k] = followRefs(v, ctx, depth + 1)
+    }
+    return fillDeep(out, ctx.placeholders)
+  }
+  if (Array.isArray(value)) {
+    return value.map((v) => followRefs(v, ctx, depth + 1))
+  }
+  return fillDeep(value, ctx.placeholders)
 }
 
 export function fillDeep(
