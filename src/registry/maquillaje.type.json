@@ -7,24 +7,24 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "portfolioPreview", "servicesOverview", "aboutArtist", "contactBlock", "footer"],
-      "requiredSections": ["header", "hero", "portfolioPreview", "servicesOverview", "footer"]
+      "sections": ["header", "hero", "portfolio", "services", "beforeAfter", "team", "testimonials", "contact", "quoteForm", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
     },
     "portfolio": {
-      "sections": ["header", "portfolioGallery", "footer"],
-      "requiredSections": ["header", "portfolioGallery", "footer"]
+      "sections": ["header", "portfolio", "footer"],
+      "requiredSections": ["header", "portfolio", "footer"]
     },
     "services": {
-      "sections": ["header", "serviceMenu", "footer"],
-      "requiredSections": ["header", "serviceMenu", "footer"]
+      "sections": ["header", "services", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "about": {
-      "sections": ["header", "aboutArtist", "footer"],
-      "requiredSections": ["header", "aboutArtist", "footer"]
+      "sections": ["header", "team", "footer"],
+      "requiredSections": ["header", "team", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 

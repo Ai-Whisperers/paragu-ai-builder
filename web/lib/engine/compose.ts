@@ -23,6 +23,15 @@ export type SectionType =
   | 'header'
   | 'hero'
   | 'services'
+  | 'booking'
+  | 'portfolio'
+  | 'beforeAfter'
+  | 'classSchedule'
+  | 'membershipPlans'
+  | 'roomBooking'
+  | 'eventVenues'
+  | 'quoteForm'
+  | 'emergencyIndicator'
   | 'productCatalog'
   | 'gallery'
   | 'team'
@@ -90,6 +99,25 @@ export interface BusinessData {
     rating?: number
   }>
   heroImage?: string
+  classSchedule?: Array<{
+    day: string
+    classes: Array<{
+      time: string
+      name: string
+      instructor?: string
+      duration?: number
+      spots?: number
+    }>
+  }>
+  membershipPlans?: Array<{
+    name: string
+    price: string
+    period?: string
+    description?: string
+    features: string[]
+    popular?: boolean
+    cta?: string
+  }>
 }
 
 export interface ComposedPage {
@@ -201,8 +229,27 @@ const SECTION_MAP: Record<string, SectionType> = {
   servicesPreview: 'services',
   serviceMenu: 'services',
   services: 'services',
+  booking: 'booking',
+  onlineBooking: 'booking',
+  portfolio: 'portfolio',
+  portfolioGallery: 'portfolio',
+  beforeAfter: 'beforeAfter',
+  coverUps: 'beforeAfter',
+  classSchedule: 'classSchedule',
+  schedule: 'classSchedule',
+  membershipPlans: 'membershipPlans',
+  memberships: 'membershipPlans',
+  plans: 'membershipPlans',
+  roomBooking: 'roomBooking',
+  rooms: 'roomBooking',
+  eventVenues: 'eventVenues',
+  venues: 'eventVenues',
+  quoteForm: 'quoteForm',
+  presupuesto: 'quoteForm',
+  consultationForm: 'quoteForm',
+  emergencyIndicator: 'emergencyIndicator',
+  emergency: 'emergencyIndicator',
   galleryPreview: 'gallery',
-  portfolioGallery: 'gallery',
   gallery: 'gallery',
   team: 'team',
   teamProfiles: 'team',
@@ -321,21 +368,37 @@ function buildSectionData(
       }
 
     case 'hero':
+      const heroContent = content as { hero?: { headline: string; subheadline: string; ctaPrimary: string; ctaSecondary?: string } }
       return {
-        headline: fillTemplate(content.hero.headline, templateData),
-        subheadline: fillTemplate(content.hero.subheadline, templateData),
-        ctaPrimaryText: content.hero.ctaPrimary,
+        headline: fillTemplate(heroContent?.hero?.headline || '', templateData),
+        subheadline: fillTemplate(heroContent?.hero?.subheadline || '', templateData),
+        ctaPrimaryText: heroContent?.hero?.ctaPrimary || 'Reservar',
         ctaPrimaryHref: '#contacto',
-        ctaSecondaryText: content.hero.ctaSecondary,
+        ctaSecondaryText: heroContent?.hero?.ctaSecondary,
         ctaSecondaryHref: '#servicios',
         backgroundImage: business.heroImage,
       }
 
     case 'services': {
-      // Use business-provided services, or fall back to content template defaults
+      type ServicesContentType = {
+        servicesPage?: {
+          title?: string
+          categories?: Array<{
+            title: string
+            defaultServices?: Array<{
+              name: string
+              description?: string
+              price?: string | null
+              priceFrom?: string | null
+              duration?: number
+            }>
+          }>
+        }
+      }
+      const servicesContent = (content as ServicesContentType).servicesPage
       let services = business.services || []
-      if (services.length === 0 && content.servicesPage.categories) {
-        services = content.servicesPage.categories.flatMap(
+      if (services.length === 0 && servicesContent?.categories) {
+        services = servicesContent.categories.flatMap(
           (cat) =>
             cat.defaultServices?.map((s) => ({
               name: s.name,
@@ -348,29 +411,148 @@ function buildSectionData(
         )
       }
       return {
-        title: content.servicesPage.title,
+        title: servicesContent?.title || 'Nuestros Servicios',
         services,
         showPrices: registry.features?.pricingDisplay?.enabled ?? true,
         showDuration: true,
       }
     }
 
+    case 'booking': {
+      if (!registry.features?.onlineBooking?.enabled) return null
+      const services = business.services || []
+      if (services.length === 0 && content.servicesPage.categories) {
+        services.push(...content.servicesPage.categories.flatMap(
+          (cat) =>
+            cat.defaultServices?.map((s) => ({
+              name: s.name,
+              description: s.description,
+              price: s.price || undefined,
+              priceFrom: s.priceFrom || undefined,
+              duration: s.duration,
+              category: cat.title,
+            })) || []
+        ))
+      }
+      const hours = business.hours
+      const weekdayHours = hours?.['Lunes - Viernes'] || '08:00 - 20:00'
+      const [start, end] = weekdayHours.split(' - ')
+      return {
+        title: 'Reserva Tu Cita',
+        subtitle: 'Selecciona el servicio, fecha y hora que más te convenga',
+        services,
+        staff: business.team || [],
+        workingHours: { start: start?.trim() || '08:00', end: end?.trim() || '20:00' },
+        whatsappPhone: business.whatsapp,
+      }
+    }
+
+    case 'portfolio': {
+      if (!registry.features?.portfolio?.enabled) return null
+      const items = (business.gallery || []).map(img => ({
+        title: img.alt || 'Proyecto',
+        image: img.src,
+        category: img.category
+      }))
+      const portfolioConfig = registry.features?.portfolio as { enabled: boolean; categories?: string[] } | undefined
+      const categories = portfolioConfig?.categories
+      return {
+        title: content.galleryPage?.title || 'Nuestro Portafolio',
+        subtitle: content.galleryPage?.subtitle,
+        items,
+        categories,
+        columns: 3,
+      }
+    }
+
+case 'beforeAfter': {
+      if (!registry.features?.beforeAfter?.enabled) return null
+      const baConfig = registry.features?.beforeAfter as { enabled: boolean; label?: string } | undefined
+      return {
+        title: baConfig?.label || 'Antes y Después',
+        subtitle: 'Transformaciones reales de nuestros clientes',
+        items: [],
+      }
+    }
+
+    case 'classSchedule': {
+      if (!registry.features?.classSchedule?.enabled) return null
+      const scheduleContent = content as { classSchedule?: { schedule?: Array<{ day: string; classes: Array<{ time: string; name: string; instructor?: string; duration?: number }> }> } }
+      const schedule = business.classSchedule || scheduleContent?.classSchedule?.schedule || []
+      return {
+        title: 'Horario de Clases',
+        subtitle: 'Consulta nuestros horarios y reserva tu clase',
+        schedule,
+      }
+    }
+
+    case 'membershipPlans': {
+      if (!registry.features?.packageBuilder?.enabled) return null
+      const plansContent = content as { membershipPlans?: { plans?: Array<{ name: string; price: string; period?: string; description?: string; features: string[]; popular?: boolean }> } }
+      const plans = business.membershipPlans || plansContent?.membershipPlans?.plans || []
+      return {
+        title: 'Planes de Membresía',
+        subtitle: 'Elige el plan que mejor se adapte a tus necesidades',
+        plans,
+        whatsappPhone: business.whatsapp,
+      }
+    }
+
+    case 'roomBooking': {
+      return {
+        title: 'Reserva de Salas',
+        subtitle: 'Espacios equipados para tus reuniones y eventos',
+        rooms: [],
+        whatsappPhone: business.whatsapp,
+      }
+    }
+
+    case 'eventVenues': {
+      return {
+        title: 'Espacios para Eventos',
+        subtitle: 'Celebra tus momentos especiales en nuestros espacios',
+        venues: [],
+        whatsappPhone: business.whatsapp,
+      }
+    }
+
+    case 'quoteForm': {
+      const categories = (registry as { serviceCategories?: string[] }).serviceCategories || []
+      return {
+        title: 'Solicita un Presupuesto',
+        subtitle: 'Te respondemos en menos de 24 horas',
+        services: categories,
+        whatsappPhone: business.whatsapp,
+      }
+    }
+
+    case 'emergencyIndicator': {
+      if (!business.phone) return null
+      return {
+        type: 'emergencia',
+        phone: business.phone,
+        description: 'Servicio de emergencia disponible',
+      }
+    }
+
     case 'gallery': {
+      const galleryContent = content as { galleryPage?: { title?: string; subtitle?: string } }
       const galleryImages = business.gallery && business.gallery.length > 0
         ? business.gallery
         : generatePlaceholderGallery(business.type, business.name)
       return {
-        title: content.galleryPage?.title || 'Galeria',
-        subtitle: content.galleryPage?.subtitle,
+        title: galleryContent?.galleryPage?.title || 'Galeria',
+        subtitle: galleryContent?.galleryPage?.subtitle,
         images: galleryImages,
         columns: 3,
       }
     }
 
     case 'team':
+      const teamContent = (content as { teamPage?: { title?: string } }).teamPage
       if (!business.team || business.team.length === 0) return null
       return {
-        title: content.teamPage?.title || 'Nuestro Equipo',
+        title: teamContent?.title || 'Nuestro Equipo',
         members: business.team,
       }
 
@@ -382,8 +564,9 @@ function buildSectionData(
       }
 
     case 'contact':
+      const contactContent = (content as { contactPage?: { title?: string } }).contactPage
       return {
-        title: content.contactPage?.title || 'Contacto',
+        title: contactContent?.title || 'Contacto',
         address: business.address,
         neighborhood: business.neighborhood,
         city: business.city,
@@ -397,7 +580,7 @@ function buildSectionData(
     case 'productCatalog': {
       const products = business.products || []
       if (products.length === 0) return null
-      const catalogContent = content.productCatalogPage
+      const catalogContent = (content as { productCatalogPage?: { title?: string; subtitle?: string; categories?: string[]; orderButtonText?: string; orderMessageTemplate?: string } }).productCatalogPage
       return {
         title: catalogContent?.title || 'Catalogo',
         subtitle: catalogContent?.subtitle,
@@ -413,17 +596,19 @@ function buildSectionData(
     }
 
     case 'faq':
-      if (!content.faq || content.faq.length === 0) return null
+      const faqContent = content as { faq?: Array<{ q: string; a: string }> }
+      if (!faqContent?.faq || faqContent.faq.length === 0) return null
       return {
         title: 'Preguntas Frecuentes',
-        items: content.faq,
+        items: faqContent.faq,
       }
 
     case 'ctaBanner':
-      if (!content.ctaBanner) return null
+      const ctaContent = content as { ctaBanner?: { title: string; buttonText: string } }
+      if (!ctaContent?.ctaBanner) return null
       return {
-        title: fillTemplate(content.ctaBanner.title, templateData),
-        buttonText: content.ctaBanner.buttonText,
+        title: fillTemplate(ctaContent.ctaBanner.title, templateData),
+        buttonText: ctaContent.ctaBanner.buttonText,
         buttonHref: '#contacto',
       }
 

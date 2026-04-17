@@ -75,6 +75,51 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
       { quote: 'Baje 15 kilos en 6 meses. El equipo de GymFit es increible.', author: 'Roberto G.', rating: 5 },
       { quote: 'Las clases de crossfit son brutales pero los resultados hablan.', author: 'Marcos V.', rating: 5 },
     ],
+    classSchedule: [
+      { day: 'Lunes', classes: [
+        { time: '07:00', name: 'Crossfit', instructor: 'Carlos', duration: 45, spots: 15 },
+        { time: '09:00', name: 'Yoga Flow', instructor: 'Lucia', duration: 60, spots: 20 },
+        { time: '12:00', name: 'Spinning', instructor: 'Maria', duration: 45, spots: 25 },
+        { time: '18:00', name: 'HIIT', instructor: 'Carlos', duration: 30, spots: 15 },
+        { time: '19:30', name: 'Pilates', instructor: 'Lucia', duration: 50, spots: 20 },
+      ]},
+      { day: 'Martes', classes: [
+        { time: '07:00', name: 'Funcional', instructor: 'Pedro', duration: 45, spots: 15 },
+        { time: '09:00', name: 'Yoga Principiantes', instructor: 'Lucia', duration: 60, spots: 20 },
+        { time: '12:00', name: 'Musculacion', instructor: 'Carlos', duration: 60, spots: 30 },
+        { time: '18:00', name: 'Boxeo', instructor: 'Pedro', duration: 45, spots: 20 },
+        { time: '20:00', name: 'Stretching', instructor: 'Lucia', duration: 45, spots: 20 },
+      ]},
+      { day: 'Miercoles', classes: [
+        { time: '07:00', name: 'Crossfit', instructor: 'Carlos', duration: 45, spots: 15 },
+        { time: '09:00', name: 'Yoga Vinyasa', instructor: 'Lucia', duration: 60, spots: 20 },
+        { time: '12:00', name: 'Spinning', instructor: 'Maria', duration: 45, spots: 25 },
+        { time: '18:00', name: 'TRX', instructor: 'Pedro', duration: 45, spots: 15 },
+        { time: '19:30', name: 'Yoga Restaurativo', instructor: 'Lucia', duration: 60, spots: 20 },
+      ]},
+      { day: 'Jueves', classes: [
+        { time: '07:00', name: 'Funcional', instructor: 'Pedro', duration: 45, spots: 15 },
+        { time: '09:00', name: 'Yoga Flow', instructor: 'Lucia', duration: 60, spots: 20 },
+        { time: '12:00', name: 'Musculacion', instructor: 'Carlos', duration: 60, spots: 30 },
+        { time: '18:00', name: 'HIIT', instructor: 'Carlos', duration: 30, spots: 15 },
+        { time: '20:00', name: 'Boxeo', instructor: 'Pedro', duration: 45, spots: 20 },
+      ]},
+      { day: 'Viernes', classes: [
+        { time: '07:00', name: 'Crossfit', instructor: 'Carlos', duration: 45, spots: 15 },
+        { time: '09:00', name: 'Yoga Principiantes', instructor: 'Lucia', duration: 60, spots: 20 },
+        { time: '12:00', name: 'Spinning', instructor: 'Maria', duration: 45, spots: 25 },
+        { time: '18:00', name: 'Funcional', instructor: 'Pedro', duration: 45, spots: 15 },
+      ]},
+      { day: 'Sabado', classes: [
+        { time: '09:00', name: 'Crossfit', instructor: 'Carlos', duration: 60, spots: 15 },
+        { time: '11:00', name: 'Yoga', instructor: 'Lucia', duration: 60, spots: 20 },
+      ]},
+    ],
+    membershipPlans: [
+      { name: 'Basico', price: '120.000', period: 'mes', description: 'Acceso a sala de pesas', features: ['Sala de pesas', 'Guardarropa', 'Agua'], popular: false },
+      { name: 'Clases Ilimitadas', price: '200.000', period: 'mes', description: 'Acceso a todas las clases', features: ['Sala de pesas', 'Todas las clases', 'Spinning', 'Acceso 24/7'], popular: true },
+      { name: 'Premium', price: '350.000', period: 'mes', description: 'Todo incluido + trainer', features: ['Todo del Plan Clases', '4 trainer/month', 'Plan nutricional', 'App propia'], popular: false },
+    ],
   },
 
   'spa-serenidad': {

@@ -7,24 +7,24 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "featuredTreatments", "packagesBanner", "atmosphere", "contactBlock", "footer"],
-      "requiredSections": ["header", "hero", "featuredTreatments", "contact", "footer"]
+      "sections": ["header", "hero", "services", "booking", "gallery", "team", "testimonials", "contact", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
     },
     "treatments": {
-      "sections": ["header", "treatmentMenu", "footer"],
-      "requiredSections": ["header", "treatmentMenu", "footer"]
+      "sections": ["header", "services", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "packages": {
-      "sections": ["header", "packageCards", "giftVouchers", "footer"],
-      "requiredSections": ["header", "packageCards", "footer"]
+      "sections": ["header", "membershipPlans", "quoteForm", "footer"],
+      "requiredSections": ["header", "membershipPlans", "footer"]
     },
-    "about": {
-      "sections": ["header", "aboutSplit", "teamProfiles", "footer"],
-      "requiredSections": ["header", "aboutSplit", "footer"]
+    "team": {
+      "sections": ["header", "team", "footer"],
+      "requiredSections": ["header", "team", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 

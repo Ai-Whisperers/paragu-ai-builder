@@ -7,24 +7,24 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "whyUs", "pricingPreview", "classesPreview", "trainers", "locationBlock", "footer"],
-      "requiredSections": ["header", "hero", "pricingPreview", "contact", "footer"]
+      "sections": ["header", "hero", "services", "classSchedule", "membershipPlans", "team", "contact", "testimonials", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "membershipPlans", "contact", "footer"]
     },
     "pricing": {
-      "sections": ["header", "pricingTiers", "faq", "footer"],
-      "requiredSections": ["header", "pricingTiers", "footer"]
+      "sections": ["header", "membershipPlans", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "membershipPlans", "footer"]
     },
     "schedule": {
       "sections": ["header", "classSchedule", "footer"],
       "requiredSections": ["header", "classSchedule", "footer"]
     },
-    "trainers": {
-      "sections": ["header", "trainerProfiles", "footer"],
-      "requiredSections": ["header", "trainerProfiles", "footer"]
+    "team": {
+      "sections": ["header", "team", "footer"],
+      "requiredSections": ["header", "team", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 
@@ -37,7 +37,7 @@
     "pricingDisplay": { "enabled": true, "showTiers": true, "highlightPopular": true },
     "walkInPolicy": { "enabled": false },
     "classSchedule": { "enabled": true, "filterByDay": true, "filterByType": true, "filterByInstructor": true },
-    "packageBuilder": { "enabled": false },
+    "packageBuilder": { "enabled": true },
     "aftercareInfo": { "enabled": false },
     "whatsappFloat": { "enabled": true },
     "googleMapsEmbed": { "enabled": true },

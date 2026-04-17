@@ -7,24 +7,24 @@
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "servicesOverview", "productCatalog", "portfolioGallery", "testimonials", "contact", "footer"],
-      "requiredSections": ["header", "hero", "productCatalog", "portfolioGallery", "footer"]
+      "sections": ["header", "hero", "services", "productCatalog", "portfolio", "testimonials", "quoteForm", "contact", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "services", "portfolio", "contact", "footer"]
     },
     "portfolio": {
-      "sections": ["header", "portfolioGallery", "footer"],
-      "requiredSections": ["header", "portfolioGallery", "footer"]
+      "sections": ["header", "portfolio", "footer"],
+      "requiredSections": ["header", "portfolio", "footer"]
     },
     "catalog": {
       "sections": ["header", "productCatalog", "footer"],
       "requiredSections": ["header", "productCatalog", "footer"]
     },
     "services": {
-      "sections": ["header", "serviceMenu", "footer"],
-      "requiredSections": ["header", "serviceMenu", "footer"]
+      "sections": ["header", "services", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
     },
     "contact": {
-      "sections": ["header", "contactSplit", "footer"],
-      "requiredSections": ["header", "contactSplit", "footer"]
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
     }
   },
 
