@@ -64,6 +64,35 @@ export const businessSchema = z.object({
       })
     )
     .optional(),
+  classSchedule: z
+    .array(
+      z.object({
+        day: z.string(),
+        classes: z.array(
+          z.object({
+            time: z.string(),
+            name: z.string(),
+            instructor: z.string().optional(),
+            duration: z.number().optional(),
+            spots: z.number().optional(),
+          })
+        ),
+      })
+    )
+    .optional(),
+  membershipPlans: z
+    .array(
+      z.object({
+        name: z.string(),
+        price: z.string(),
+        period: z.string().optional(),
+        description: z.string().optional(),
+        features: z.array(z.string()),
+        popular: z.boolean().optional(),
+        cta: z.string().optional(),
+      })
+    )
+    .optional(),
 })
 
 export type BusinessInput = z.infer<typeof businessSchema>
