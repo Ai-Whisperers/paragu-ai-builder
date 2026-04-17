@@ -58,6 +58,9 @@ const nextConfig = {
   // Next.js 16 uses Turbopack by default
   turbopack: {},
 
+  // Ensure trailing slashes for static generation
+  trailingSlash: true,
+
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: '*.supabase.co', pathname: '/storage/v1/object/**' },
