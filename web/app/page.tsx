@@ -32,6 +32,7 @@ import { HomeAnimations } from '@/components/home/home-animations'
 /* ── Registry data (static, no DB needed) ─────────────────────────── */
 
 const TEMPLATES = [
+  // Beauty/Wellness
   { id: 'peluqueria', name: 'Peluqueria', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79' },
   { id: 'salon_belleza', name: 'Salon de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574' },
   { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f' },
@@ -43,6 +44,14 @@ const TEMPLATES = [
   { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#c44569' },
   { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7' },
   { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055' },
+  // Service/Consulting
+  { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f' },
+  { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f' },
+  { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a' },
+  { id: 'consultoria', name: 'Consultoria', icon: BarChart3, leads: 0, pct: 0, color: '#4a90a4' },
+  { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed' },
+  { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669' },
+  { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706' },
 ] as const
 
 const TOTAL_LEADS = 7463

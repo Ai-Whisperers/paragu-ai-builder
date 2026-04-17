@@ -41,6 +41,10 @@ export type SectionType =
   | 'ctaBanner'
   | 'footer'
   | 'whatsappFloat'
+  // Service/Consulting business types
+  | 'features'
+  | 'pricing'
+  | 'process'
 
 export interface ComposedSection {
   type: SectionType
@@ -117,6 +121,17 @@ export interface BusinessData {
     features: string[]
     popular?: boolean
     cta?: string
+  }>
+  // Relocation/Service business types
+  features?: Array<{
+    title: string
+    description: string
+    icon?: string
+  }>
+  processSteps?: Array<{
+    number: number
+    title: string
+    description: string
   }>
 }
 

@@ -1,0 +1,30 @@
+{
+  "name": "Business Consulting",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["professional", "innovative", "modern"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Modern Blue",
+      "colors": {
+        "primary": "#1d4ed8",
+        "secondary": "#7c3aed",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#1e293b",
+        "textLight": "#64748b",
+        "success": "#10b981",
+        "error": "#ef4444"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Inter', sans-serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": ["Inter:wght@400;500;600;700"],
+  "borderRadius": "md"
+}

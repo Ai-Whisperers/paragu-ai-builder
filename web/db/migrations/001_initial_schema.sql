@@ -18,7 +18,8 @@ CREATE TABLE businesses (
   name TEXT NOT NULL,
   type TEXT NOT NULL CHECK (type IN (
     'peluqueria', 'salon_belleza', 'gimnasio', 'spa', 'unas', 'tatuajes',
-    'barberia', 'estetica', 'maquillaje', 'depilacion', 'pestanas'
+    'barberia', 'estetica', 'maquillaje', 'depilacion', 'pestanas',
+    'relocation', 'inmobiliaria', 'legal', 'consultoria', 'educacion', 'salud', 'inversiones'
   )),
   -- Contact
   phone TEXT,

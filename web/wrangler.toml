@@ -4,3 +4,5 @@ compatibility_flags = ["nodejs_compat"]
 
 [vars]
 NEXT_PUBLIC_APP_URL = "https://builder.paragu-ai.com"
+NEXT_PUBLIC_SUPABASE_URL = "https://qyvokpribmbrosafntqa.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_KQ-sFNr7r6AauoG0B4nyTg_vuPHmeCm"

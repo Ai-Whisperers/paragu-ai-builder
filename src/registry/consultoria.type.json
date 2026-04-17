@@ -1,0 +1,30 @@
+{
+  "id": "consultoria",
+  "nameEs": "Consultoria",
+  "nameEn": "Business Consulting",
+
+  "tokens": "consultoria",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "features", "pricing", "process", "team", "testimonials", "contact", "footer"],
+      "requiredSections": ["header", "hero", "features", "contact", "footer"]
+    }
+  },
+
+  "features": {
+    "packages": { "enabled": true },
+    "testimonials": { "enabled": true },
+    "whatsappFloat": { "enabled": true }
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - consultoria en {{city}}",
+    "schemaType": "ProfessionalService"
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Proceso", "Equipo", "Contacto"],
+    "cta": { "text": "Hablar con un experto", "action": "contact" }
+  }
+}

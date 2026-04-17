@@ -3,6 +3,7 @@
  */
 
 export const BUSINESS_TYPES = [
+  // Beauty/Wellness
   'peluqueria',
   'salon_belleza',
   'gimnasio',
@@ -15,6 +16,14 @@ export const BUSINESS_TYPES = [
   'depilacion',
   'pestanas',
   'diseno_grafico',
+  // Service/Consulting
+  'relocation',
+  'inmobiliaria',
+  'legal',
+  'consultoria',
+  'educacion',
+  'salud',
+  'inversiones',
 ] as const
 
 export type BusinessType = (typeof BUSINESS_TYPES)[number]

@@ -1,0 +1,71 @@
+{
+  "id": "relocation",
+  "nameEs": "Servicios de Reubicacion",
+  "nameEn": "Relocation Services",
+
+  "tokens": "relocation",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "features", "pricing", "process", "team", "testimonials", "faq", "contact", "footer"],
+      "requiredSections": ["header", "hero", "features", "pricing", "contact", "footer"]
+    },
+    "servicios": {
+      "sections": ["header", "services", "pricing", "ctaBanner", "footer"],
+      "requiredSections": ["header", "services", "footer"]
+    },
+    "proceso": {
+      "sections": ["header", "process", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "process", "footer"]
+    },
+    "equipo": {
+      "sections": ["header", "team", "footer"],
+      "requiredSections": ["header", "team", "footer"]
+    },
+    "contacto": {
+      "sections": ["header", "contact", "footer"],
+      "requiredSections": ["header", "contact", "footer"]
+    },
+    "galeria": {
+      "sections": ["header", "hero", "footer"],
+      "requiredSections": ["header", "footer"]
+    }
+  },
+
+  "features": {
+    "packages": { "enabled": true, "showPrices": false, "popular": true },
+    "processSteps": { "enabled": true, "steps": 5 },
+    "testimonials": { "enabled": true, "showRating": true },
+    "faq": { "enabled": true, "categories": false },
+    "team": { "enabled": true, "showRole": true },
+    "portfolio": { "enabled": false },
+    "beforeAfter": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": false }
+  },
+
+  "targetAudience": {
+    "primary": "European entrepreneurs and investors",
+    "secondary": "Families seeking residency"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Reubicacion en Paraguay",
+    "descriptionTemplate": "Residencia, sociedad y cuenta bancaria en Paraguay. Proceso simplificado para europeos.",
+    "schemaType": "ProfessionalService",
+    "keywords": ["relocation Paraguay", "residency Paraguay", "business Paraguay", "invertir Paraguay"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Paquetes", "Proceso", "Equipo", "FAQ", "Contacto"],
+    "cta": { "text": "Consulta Gratis", "action": "contact" }
+  },
+
+  "hero": {
+    "style": "centered",
+    "headlineTemplate": "Tu nuevo comienzo en Paraguay, simple y tranquilo.",
+    "subheadlineTemplate": "Residencia, sociedad, cuenta bancaria y compra de tierras - todo coordinado por nuestro equipo.",
+    "ctaPrimary": { "text": "Agendar consulta", "action": "contact" },
+    "ctaSecondary": { "text": "Ver paquetes", "action": "scrollTo:packages" }
+  }
+}
