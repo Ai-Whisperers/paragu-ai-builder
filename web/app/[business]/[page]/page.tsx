@@ -9,7 +9,7 @@ interface Props {
   params: Promise<{ business: string; page: string }>
 }
 
-export const dynamicParams = false
+export const dynamicParams = true // Enable SSR for all pages
 
 export async function generateStaticParams() {
   const slugs = await loadAllSlugs()
