@@ -9,6 +9,61 @@
     "ctaSecondary": "Ver Tratamientos"
   },
 
+  "servicesPage": {
+    "title": "Tratamientos y Servicios",
+    "categories": [
+      {
+        "key": "masajes",
+        "title": "Masajes",
+        "defaultServices": [
+          { "name": "Masaje Relajante", "price": "180.000 Gs", "duration": 60, "description": "Masaje suave para relajacion profunda" },
+          { "name": "Masaje Terapeutico", "price": "220.000 Gs", "duration": 60, "description": "Alivio muscular y tension" },
+          { "name": "Masaje Hot Stone", "price": "250.000 Gs", "duration": 75, "description": "Piedras calientes para maxima relajacion" },
+          { "name": "Masaje de Parejas", "price": "350.000 Gs", "duration": 60, "description": "Experiencia compartida en cabina privada" }
+        ]
+      },
+      {
+        "key": "faciales",
+        "title": "Faciales",
+        "defaultServices": [
+          { "name": "Limpieza Facial", "price": "150.000 Gs", "duration": 45, "description": "Limpieza profunda e hidratacion" },
+          { "name": "Hydrafacial", "price": "280.000 Gs", "duration": 60, "description": "Tecnologia avanzada de limpieza" },
+          { "name": "Anti-Aging", "price": "220.000 Gs", "duration": 60, "description": "Tratamiento rejuvenecedor" }
+        ]
+      },
+      {
+        "key": "corporales",
+        "title": "Corporales",
+        "defaultServices": [
+          { "name": "Exfoliacion Corporal", "price": "120.000 Gs", "duration": 45, "description": "Renueva y suaviza la piel" },
+          { "name": "Envoltura Corporal", "price": "180.000 Gs", "duration": 60, "description": "Desintoxicacion con arcilla" },
+          { "name": "Aromaterapia", "price": "200.000 Gs", "duration": 75, "description": "Relajacion con aceites esenciales" }
+        ]
+      }
+    ]
+  },
+
+  "membershipPlans": {
+    "plans": [
+      { "name": "Tratamiento Mensual", "price": "350.000", "period": "mes", "description": "1 tratamiento mensual a elegir", "features": ["1 facial o corporal/mes", "15% descuento extras", "Vale de regalo"], "popular": false },
+      { "name": "Relax Total", "price": "550.000", "period": "mes", "description": "2 tratamientos mensuales", "features": ["2 tratamientos/mes", "20% descuento extras", "Sauna ilimitado", "Vale de regalo"], "popular": true },
+      { "name": "Spa Premium", "price": "900.000", "period": "mes", "description": "Todo incluido", "features": ["Tratamientos ilimitados", "Sauna e hidromasaje", "Productos exclusivos", "4 vales/ano"], "popular": false }
+    ]
+  },
+
+  "galleryPage": {
+    "title": "Galeria",
+    "subtitle": "Nuestro espacio de relax y bienestar"
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo"
+  },
+
+  "contactPage": {
+    "title": "Contacto"
+  },
+
   "treatmentsPage": {
     "title": "Menu de Tratamientos",
     "categories": [

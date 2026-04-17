@@ -10,6 +10,97 @@
     "ctaSecondary": "VER MEMBRESIAS"
   },
 
+  "servicesPage": {
+    "title": "Servicios y Membresias",
+    "categories": [
+      {
+        "key": "membresias",
+        "title": "Membresias",
+        "defaultServices": [
+          { "name": "Plan Basico", "price": "150.000 Gs/mes", "description": "Acceso a sala de pesas y maquinas" },
+          { "name": "Plan Clases", "price": "200.000 Gs/mes", "description": "Acceso a todas las clases grupales" },
+          { "name": "Plan Full", "price": "300.000 Gs/mes", "description": "Todo incluido + sesiones de trainer" },
+          { "name": "Personal Trainer", "price": "400.000 Gs/mes", "description": "Entrenamiento personalizado" }
+        ]
+      },
+      {
+        "key": "clases",
+        "title": "Clases Grupales",
+        "defaultServices": [
+          { "name": "Crossfit", "price": "Incluido", "duration": 45, "description": "Alta intensidad funcional" },
+          { "name": "Yoga", "price": "Incluido", "duration": 60, "description": "Yoga Vinyasa y restaurativo" },
+          { "name": "Spinning", "price": "Incluido", "duration": 45, "description": "Clases de bicicleta estatica" },
+          { "name": "Pilates", "price": "Incluido", "duration": 50, "description": "Core y flexibilidad" },
+          { "name": "Boxeo", "price": "Incluido", "duration": 45, "description": "Tecnica y cardio" }
+        ]
+      }
+    ]
+  },
+
+  "classSchedule": {
+    "schedule": [
+      { "day": "Lunes", "classes": [
+        { "time": "07:00", "name": "Crossfit", "instructor": "Carlos", "duration": 45 },
+        { "time": "09:00", "name": "Yoga", "instructor": "Lucia", "duration": 60 },
+        { "time": "12:00", "name": "Spinning", "instructor": "Maria", "duration": 45 },
+        { "time": "18:00", "name": "HIIT", "instructor": "Carlos", "duration": 30 },
+        { "time": "19:30", "name": "Pilates", "instructor": "Lucia", "duration": 50 }
+      ]},
+      { "day": "Martes", "classes": [
+        { "time": "07:00", "name": "Funcional", "instructor": "Pedro", "duration": 45 },
+        { "time": "09:00", "name": "Yoga Principiantes", "instructor": "Lucia", "duration": 60 },
+        { "time": "12:00", "name": "Musculacion", "instructor": "Carlos", "duration": 60 },
+        { "time": "18:00", "name": "Boxeo", "instructor": "Pedro", "duration": 45 },
+        { "time": "20:00", "name": "Stretching", "instructor": "Lucia", "duration": 45 }
+      ]},
+      { "day": "Miercoles", "classes": [
+        { "time": "07:00", "name": "Crossfit", "instructor": "Carlos", "duration": 45 },
+        { "time": "09:00", "name": "Yoga Vinyasa", "instructor": "Lucia", "duration": 60 },
+        { "time": "12:00", "name": "Spinning", "instructor": "Maria", "duration": 45 },
+        { "time": "18:00", "name": "TRX", "instructor": "Pedro", "duration": 45 },
+        { "time": "19:30", "name": "Yoga Restaurativo", "instructor": "Lucia", "duration": 60 }
+      ]},
+      { "day": "Jueves", "classes": [
+        { "time": "07:00", "name": "Funcional", "instructor": "Pedro", "duration": 45 },
+        { "time": "09:00", "name": "Yoga Flow", "instructor": "Lucia", "duration": 60 },
+        { "time": "12:00", "name": "Musculacion", "instructor": "Carlos", "duration": 60 },
+        { "time": "18:00", "name": "HIIT", "instructor": "Carlos", "duration": 30 },
+        { "time": "20:00", "name": "Boxeo", "instructor": "Pedro", "duration": 45 }
+      ]},
+      { "day": "Viernes", "classes": [
+        { "time": "07:00", "name": "Crossfit", "instructor": "Carlos", "duration": 45 },
+        { "time": "09:00", "name": "Yoga Principiantes", "instructor": "Lucia", "duration": 60 },
+        { "time": "12:00", "name": "Spinning", "instructor": "Maria", "duration": 45 },
+        { "time": "18:00", "name": "Funcional", "instructor": "Pedro", "duration": 45 }
+      ]},
+      { "day": "Sabado", "classes": [
+        { "time": "09:00", "name": "Crossfit", "instructor": "Carlos", "duration": 60 },
+        { "time": "11:00", "name": "Yoga", "instructor": "Lucia", "duration": 60 }
+      ]}
+    ]
+  },
+
+  "membershipPlans": {
+    "plans": [
+      { "name": "Basico", "price": "150.000", "period": "mes", "description": "Acceso a sala de pesas", "features": ["Sala de pesas", "Maquinas", "Vestuarios", "Agua"], "popular": false },
+      { "name": "Clases Ilimitadas", "price": "220.000", "period": "mes", "description": "Acceso total a clases", "features": ["Sala de pesas", "Todas las clases", "Spinning", "Acceso 24/7", "App de workouts"], "popular": true },
+      { "name": "Premium", "price": "380.000", "period": "mes", "description": "Todo incluido + trainer", "features": ["Plan Clases", "4 trainer/mes", "Plan nutricional", "Analisis corporal", "Sauna"], "popular": false }
+    ]
+  },
+
+  "galleryPage": {
+    "title": "Galeria",
+    "subtitle": "Conoce nuestras instalaciones y metodologia"
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo"
+  },
+
+  "contactPage": {
+    "title": "Contacto"
+  },
+
   "whyUs": {
     "title": "Por que elegirnos?",
     "defaultItems": [
