@@ -18,7 +18,7 @@
 
 | Rule | Details |
 |------|---------|
-| **Multi-business** | All queries MUST filter by `business_id` |
+| **Multi-business** | All queries MUST filter by `business_id` — see [docs/TENANTS.md](./docs/TENANTS.md) |
 | **Theme variables** | Use `var(--primary)`, NEVER `bg-blue-500` |
 | **Generated site language** | All generated site UI text in Spanish |
 | **Server-first** | Default to Server Components |
@@ -258,6 +258,7 @@ npm run generate:site    # Generate a site from business data
 | Design tokens | `src/tokens/` |
 | Business type registry | `src/registry/` |
 | Content templates | `src/content/` |
+| Tenancy model | `docs/TENANTS.md` |
 
 ### Technology Stack
 
