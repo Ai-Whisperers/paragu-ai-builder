@@ -59,6 +59,15 @@ function followRef(value: unknown, root: Record<string, unknown>, depth = 0): un
   return value
 }
 
+function isFeatureEnabled(
+  expr: string | undefined,
+  features: Record<string, boolean> | undefined,
+): boolean {
+  if (!expr) return true
+  if (expr.startsWith('!')) return !features?.[expr.slice(1)]
+  return !!features?.[expr]
+}
+
 function resolveRefInLocale(ref: string, siteContent: Record<string, unknown>, verticalCopy: Record<string, unknown>): unknown {
   const site = getByPath(siteContent, ref)
   if (site !== undefined) return followRef(site, siteContent)
@@ -73,7 +82,15 @@ function main() {
 
   for (const siteSlug of sites) {
     let site
-    try { site = readJson<{ vertical: string; locales: string[]; domain?: string; defaultLocale: string }>(repoPath('sites', siteSlug, 'site.json')) } catch (e) {
+    try {
+      site = readJson<{
+        vertical: string
+        locales: string[]
+        domain?: string
+        defaultLocale: string
+        features?: Record<string, boolean>
+      }>(repoPath('sites', siteSlug, 'site.json'))
+    } catch (e) {
       problems.push({ site: siteSlug, kind: 'site.json', detail: `missing or invalid: ${(e as Error).message}` })
       continue
     }
@@ -105,8 +122,9 @@ function main() {
       const verticalCopy = existsSync(verticalCopyPath) ? readJson<Record<string, unknown>>(verticalCopyPath) : {}
 
       for (const pageSlug of pages) {
-        const page = readJson<{ sections: Array<{ id: string; variant?: string; content?: string }> }>(repoPath('sites', siteSlug, 'pages', `${pageSlug}.json`))
+        const page = readJson<{ sections: Array<{ id: string; variant?: string; content?: string; enabledWhen?: string }> }>(repoPath('sites', siteSlug, 'pages', `${pageSlug}.json`))
         for (const section of page.sections) {
+          if (!isFeatureEnabled(section.enabledWhen, site.features)) continue
           const manifest = SECTION_CATALOG[section.id]
           if (!manifest) {
             problems.push({ site: siteSlug, page: pageSlug, kind: 'section', detail: `unknown section id "${section.id}"` })
