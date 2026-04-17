@@ -31,11 +31,16 @@ function getPath() {
 
 function repoPath(...segments: string[]): string {
   const p = getPath()
+  // If first segment is 'src', use SRC_DIR (project root source)
+  // Otherwise use SITES_DIR (sites directory)
+  const baseDir = segments[0] === 'src' ? SRC_DIR : SITES_DIR
+  const actualSegments = segments[0] === 'src' ? segments.slice(1) : segments
+  
   if (!p) {
-    return SITES_DIR + '/' + segments.join('/')
+    return baseDir + '/' + actualSegments.join('/')
   }
   // Always use hardcoded absolute path for reliability
-  return p.resolve(SITES_DIR, ...segments)
+  return p.resolve(baseDir, ...actualSegments)
 }
 
 function readJson<T>(path: string): T {
@@ -49,6 +54,20 @@ function loadSiteFromStatic(slug: SiteSlug): SiteDefinition {
   if (!site) {
     throw new Error(`Site not found: ${slug}`)
   }
+  
+  // Load full site configuration from site.json
+  const f = getFs()
+  const siteJsonPath = repoPath(slug, 'site.json')
+  let siteConfig: Partial<SiteDefinition> = {}
+  
+  if (f?.existsSync(siteJsonPath)) {
+    try {
+      siteConfig = readJson<Partial<SiteDefinition>>(siteJsonPath)
+    } catch {
+      // If site.json fails to load, use defaults
+    }
+  }
+  
   return {
     slug: site.slug,
     vertical: site.vertical,
@@ -56,10 +75,11 @@ function loadSiteFromStatic(slug: SiteSlug): SiteDefinition {
     domain: site.domain,
     defaultLocale: site.defaultLocale as 'nl' | 'en' | 'de' | 'es',
     locales: [...site.locales] as Array<'nl' | 'en' | 'de' | 'es'>,
-    navigation: [],
-    integrations: {},
-    features: {},
-    contact: { whatsapp: '', email: '' },
+    navigation: siteConfig.navigation ?? [],
+    integrations: siteConfig.integrations ?? {},
+    features: siteConfig.features ?? {},
+    contact: siteConfig.contact ?? { whatsapp: '', email: '' },
+    ...siteConfig, // Spread any additional properties from site.json
   }
 }
 
@@ -80,7 +100,7 @@ export function loadSite(slug: string): SiteDefinition {
   if (!f || !p) {
     throw new Error(`Site not found: ${slug}`)
   }
-  const sitePath = repoPath('sites', slug, 'site.json')
+  const sitePath = repoPath(slug, 'site.json')
   if (!f.existsSync(sitePath)) {
     throw new Error(`Site not found: ${slug}`)
   }
@@ -101,7 +121,7 @@ export function loadPage(siteSlug: string, pageSlug: string): PageDefinition | n
   const p = getPath()
   if (!f || !p) return null
 
-  const pagePath = repoPath('sites', siteSlug, 'pages', `${pageSlug}.json`)
+  const pagePath = repoPath(siteSlug, 'pages', `${pageSlug}.json`)
   if (!f.existsSync(pagePath)) return null
   return readJson<PageDefinition>(pagePath)
 }
@@ -111,7 +131,7 @@ export function listPageSlugs(siteSlug: string): string[] {
     return loadPagesFromStatic(siteSlug as SiteSlug)
   }
   const f = getFs()
-  const dir = repoPath('sites', siteSlug, 'pages')
+  const dir = repoPath(siteSlug, 'pages')
   if (!f?.existsSync(dir)) return []
   return f.readdirSync(dir)
     .filter((file: string) => file.endsWith('.json'))
@@ -123,7 +143,7 @@ export function loadSiteContent(
   locale: Locale,
 ): Record<string, unknown> {
   const f = getFs()
-  const path = repoPath('sites', siteSlug, 'content', `${locale}.json`)
+  const path = repoPath(siteSlug, 'content', `${locale}.json`)
   if (!f?.existsSync(path)) return {}
   return readJson<Record<string, unknown>>(path)
 }
@@ -194,7 +214,7 @@ export function loadSiteTokens(siteSlug: string): Record<string, unknown> {
     return {}
   }
   const f = getFs()
-  const path = repoPath('sites', siteSlug, 'tokens.json')
+  const path = repoPath(siteSlug, 'tokens.json')
   if (!f?.existsSync(path)) return {}
   return readJson<Record<string, unknown>>(path)
 }
