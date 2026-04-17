@@ -1,6 +1,6 @@
 {
   "name": "Paragu AI Builder - Business Type Registry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Master registry of all supported business types for website generation",
 
   "types": {
@@ -147,6 +147,17 @@
       "leadCount": 0,
       "noWebsitePercent": 0,
       "priorityALeads": 0
+    },
+    "relocation": {
+      "id": "relocation",
+      "nameEs": "Servicios de Reubicación",
+      "nameEn": "Relocation Services",
+      "icon": "globe",
+      "tokens": "relocation",
+      "content": "relocation",
+      "schema": "relocation",
+      "multilingual": true,
+      "locales": ["es", "en", "nl", "de"]
     }
   },
 
