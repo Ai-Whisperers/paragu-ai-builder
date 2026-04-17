@@ -6,7 +6,7 @@
  */
 
 import type { BusinessData } from './compose'
-import { getDemoBusiness, getAllDemoSlugs, DEMO_BUSINESSES } from './demo-data'
+import { getDemoBusiness, getDemoBusinessBySlug, getAllDemoSlugs, RELOCATION_DEMO_BUSINESSES, DEMO_BUSINESSES } from './demo-data'
 
 // Conditionally import lead data
 let LEAD_BUSINESSES: Record<string, BusinessData> = {}
@@ -34,12 +34,15 @@ function rowToBusinessData(row: any): BusinessData {
     facebook: row.facebook,
     googleMapsUrl: row.google_maps_url,
     hours: row.hours,
-    services: data.services,
-    products: data.products,
-    team: data.team,
-    gallery: data.gallery,
-    testimonials: data.testimonials,
+    services: data.services || [],
+    products: data.products || [],
+    team: data.team || [],
+    gallery: data.gallery || [],
+    testimonials: data.testimonials || [],
     heroImage: data.heroImage,
+    // Relocation-specific fields
+    features: data.features,
+    processSteps: data.processSteps,
   }
 }
 
@@ -72,7 +75,7 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
   if (LEAD_BUSINESSES[slug]) return LEAD_BUSINESSES[slug]
 
   // Fall back to demo data
-  return getDemoBusiness(slug)
+  return getDemoBusinessBySlug(slug)
 }
 
 export async function loadAllSlugs(): Promise<string[]> {
