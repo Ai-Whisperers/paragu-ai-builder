@@ -37,6 +37,9 @@
     "test:coverage:html": "vitest run --coverage --coverage.reporter=html",
     "validate:schemas": "npx tsx scripts/validate-schemas.ts",
     "validate:tokens": "npx tsx scripts/validate-tokens.ts",
+    "validate:sites": "npx tsx scripts/validate-sites.ts",
+    "validate:vertical": "npx tsx scripts/validate-vertical.ts",
+    "validate:all": "npm run validate:sites && npm run validate:vertical relocacion",
     "generate:site": "npx tsx scripts/generate-site.ts",
     "generate:preview": "npx tsx scripts/generate-preview.ts"
   },
