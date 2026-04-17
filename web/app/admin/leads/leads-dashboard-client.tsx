@@ -193,7 +193,7 @@ export function LeadsDashboardClient({
           <h1 className="text-3xl font-bold text-gray-900">Lead Management</h1>
           <div className="flex gap-2">
             <Link href="/admin">
-              <Button variant="outline">Volver al Admin</Button>
+              <Button variant="secondary">Volver al Admin</Button>
             </Link>
           </div>
         </div>
@@ -492,7 +492,7 @@ export function LeadsDashboardClient({
           </div>
           <div className="flex items-center gap-2">
             <Button
-              variant="outline"
+              variant="secondary"
               size="sm"
               onClick={() => goToPage(pagination.currentPage - 1)}
               disabled={pagination.currentPage === 1}
@@ -503,7 +503,7 @@ export function LeadsDashboardClient({
               Página {pagination.currentPage} de {pagination.totalPages}
             </span>
             <Button
-              variant="outline"
+              variant="secondary"
               size="sm"
               onClick={() => goToPage(pagination.currentPage + 1)}
               disabled={pagination.currentPage === pagination.totalPages}
