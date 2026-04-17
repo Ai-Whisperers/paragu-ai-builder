@@ -58,8 +58,8 @@ const nextConfig = {
   // Next.js 16 uses Turbopack by default
   turbopack: {},
 
-  // Ensure trailing slashes for static generation
-  trailingSlash: true,
+  // Disable trailing slash to match catch-all route behavior
+  trailingSlash: false,
 
   images: {
     remotePatterns: [

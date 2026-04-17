@@ -41,7 +41,8 @@
     "validate:vertical": "npx tsx scripts/validate-vertical.ts",
     "validate:all": "npm run validate:sites && npm run validate:vertical relocacion && npm run validate:vertical service-booking && npm run validate:vertical hospitality && npm run validate:vertical portfolio-professional",
     "generate:site": "npx tsx scripts/generate-site.ts",
-    "generate:preview": "npx tsx scripts/generate-preview.ts"
+    "generate:preview": "npx tsx scripts/generate-preview.ts",
+    "import:leads": "npx tsx scripts/import-leads.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
