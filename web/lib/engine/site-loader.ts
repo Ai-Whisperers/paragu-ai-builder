@@ -19,12 +19,14 @@ let path: typeof import('path') | null = null
 
 function getFs() {
   if (isEdge) return null
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   if (!fs) fs = require('fs')
   return fs
 }
 
 function getPath() {
   if (isEdge) return null
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   if (!path) path = require('path')
   return path
 }

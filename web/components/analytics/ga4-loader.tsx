@@ -17,6 +17,7 @@ export function Ga4Loader({ measurementId, anonymizeIp = true }: {
 
   useEffect(() => {
     const consent = readConsent()
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (consent?.analytics) setHasConsent(true)
     function onUpdate(evt: Event) {
       const c = (evt as CustomEvent).detail as { analytics?: boolean }

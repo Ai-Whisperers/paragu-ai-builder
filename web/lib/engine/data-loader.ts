@@ -45,6 +45,8 @@ interface BusinessRow {
     gallery?: BusinessData['gallery']
     testimonials?: BusinessData['testimonials']
     heroImage?: string
+    features?: BusinessData['features']
+    processSteps?: BusinessData['processSteps']
   }
 }
 
