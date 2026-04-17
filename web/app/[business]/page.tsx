@@ -28,6 +28,8 @@ function generateJsonLd(business: { type: string; name: string; slug: string; ad
     maquillaje: 'BeautySalon',
     depilacion: 'HealthAndBeautyBusiness',
     pestanas: 'BeautySalon',
+    diseno_grafico: 'ProfessionalService',
+    meal_prep: 'FoodService',
   }
 
   const schema = {

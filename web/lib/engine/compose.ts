@@ -32,6 +32,7 @@ export type SectionType =
   | 'ctaBanner'
   | 'footer'
   | 'whatsappFloat'
+  | 'savingsCalculator'
 
 export interface ComposedSection {
   type: SectionType
@@ -192,6 +193,14 @@ interface ContentTemplate {
     copyright: string
   }
   whatsapp?: { defaultMessage: string }
+  savingsCalculator?: {
+    title?: string
+    subtitle?: string
+    disclaimer?: string
+    tierOptions?: Array<{ key: string; label: string; monthlyGs: number }>
+    inputs?: Record<string, string>
+    outputs?: Record<string, string>
+  }
 }
 
 // Map registry section names to our component types
@@ -216,6 +225,7 @@ const SECTION_MAP: Record<string, SectionType> = {
   ctaBanner: 'ctaBanner',
   footer: 'footer',
   whatsappFloat: 'whatsappFloat',
+  savingsCalculator: 'savingsCalculator',
 }
 
 /**
@@ -419,6 +429,20 @@ function buildSectionData(
         items: content.faq,
       }
 
+    case 'savingsCalculator': {
+      if (!registry.features?.savingsCalculator?.enabled) return null
+      const calc = content.savingsCalculator
+      return {
+        title: calc?.title,
+        subtitle: calc?.subtitle,
+        disclaimer: calc?.disclaimer,
+        tierOptions: calc?.tierOptions,
+        inputLabels: calc?.inputs,
+        outputLabels: calc?.outputs,
+        whatsappPhone: business.whatsapp,
+      }
+    }
+
     case 'ctaBanner':
       if (!content.ctaBanner) return null
       return {
@@ -469,6 +493,7 @@ function generatePlaceholderGallery(
     depilacion: { colors: ['#3498db', '#1abc9c', '#e8d5f5'], categories: ['Laser', 'Cera', 'Resultados'] },
     pestanas: { colors: ['#c4788b', '#d4a574', '#1a1a1a'], categories: ['Clasicas', 'Volumen', 'Cejas'] },
     diseno_grafico: { colors: ['#c4788b', '#d4af37', '#e8b4c8'], categories: ['Portadas', 'Premade', 'Mockups', 'Branding'] },
+    meal_prep: { colors: ['#3a6b4a', '#c2663a', '#d4a15a'], categories: ['Cortes de Carne', 'Mise en Place', 'Freezer Meals', 'Mercado'] },
   }
 
   const theme = PLACEHOLDER_THEMES[businessType] || PLACEHOLDER_THEMES.peluqueria

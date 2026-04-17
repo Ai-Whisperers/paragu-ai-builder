@@ -18,6 +18,7 @@ import { FAQSection } from '@/components/sections/faq-section'
 import { CTABannerSection } from '@/components/sections/cta-banner-section'
 import { FooterSection } from '@/components/sections/footer-section'
 import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
+import { SavingsCalculatorSection } from '@/components/sections/savings-calculator-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -33,6 +34,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   ctaBanner: CTABannerSection,
   footer: FooterSection,
   whatsappFloat: WhatsAppFloat,
+  savingsCalculator: SavingsCalculatorSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {

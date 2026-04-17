@@ -1,0 +1,75 @@
+{
+  "name": "Meal Prep & Compras",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["honest", "warm", "grounded", "artisanal"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Mercado Verde",
+      "colors": {
+        "primary": "#3a6b4a",
+        "secondary": "#c2663a",
+        "background": "#f6f1e7",
+        "surface": "#ffffff",
+        "text": "#1f1f1f",
+        "textLight": "#5a5246",
+        "accent": "#d4a15a",
+        "success": "#3a6b4a",
+        "error": "#b0453e",
+        "secondaryHover": "#a8542f"
+      }
+    },
+    "optionB": {
+      "name": "Abasto Terracota",
+      "colors": {
+        "primary": "#b04b2a",
+        "secondary": "#2d5a3d",
+        "background": "#faf5eb",
+        "surface": "#ffffff",
+        "text": "#1a1a1a",
+        "textLight": "#55463a",
+        "accent": "#d4a15a",
+        "success": "#3a6b4a",
+        "error": "#a33e36"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Fraunces', 'Playfair Display', serif",
+    "body": "'Inter', 'Open Sans', sans-serif",
+    "accent": "'Fraunces', serif",
+    "headingWeight": "600",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Fraunces:wght@400;500;600;700", "Inter:wght@300;400;500;600;700"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-md",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "serviceCard": {
+      "borderRadius": "12px",
+      "hoverTranslateY": "-4px",
+      "imageRatio": "4:3"
+    },
+    "teamCard": {
+      "imageShape": "rounded",
+      "imageSize": "180px"
+    },
+    "gallery": {
+      "layout": "grid"
+    }
+  }
+}
