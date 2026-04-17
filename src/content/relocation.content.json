@@ -1,0 +1,138 @@
+{
+  "name": "Relocation Services",
+  "type": "relocation",
+
+  "hero": {
+    "title": "Tu nuevo comienzo en Paraguay, simple y tranquilo.",
+    "subtitle": "Residencia, sociedad, cuenta bancaria y compra de tierras — todo coordinado por nuestro equipo, ejecutado por profesionales de confianza.",
+    "cta": "Agendar consulta gratuita"
+  },
+
+  "features": {
+    "title": "Por qué elegirnos",
+    "items": [
+      { "title": "Un solo programa", "description": "No coordine entre múltiples proveedores. Todo está integrado.", "icon": "✓" },
+      { "title": "Un solo viaje", "description": "La tramitación presencial se completa en una jornada.", "icon": "✓" },
+      { "title": "Precio transparente", "description": "Sin cargos ocultos. Todo incluido.", "icon": "✓" },
+      { "title": "Equipo profesional", "description": "Abogados, contadores y asesores con experiencia real.", "icon": "✓" },
+      { "title": "Acceso bancario", "description": "Resolvemos el principal obstáculo para extranjeros.", "icon": "✓" },
+      { "title": "Acompañamiento integral", "description": "Le guidamos en cada paso del proceso.", "icon": "✓" }
+    ]
+  },
+
+  "packages": {
+    "title": "Nuestros Paquetes",
+    "subtitle": "Elija el programa que mejor se adapte a sus necesidades",
+    "cta": "Solicitar información",
+    "items": [
+      {
+        "name": "Paraguay Base",
+        "description": "Residencia + cédula. Entrada al sistema paraguayo.",
+        "price": "Consultar",
+        "features": [
+          { "text": "Residencia Paraguaya", "included": true },
+          { "text": "Cédula de Identidad", "included": true },
+          { "text": "Análisis documental previo", "included": true },
+          { "text": "Jornada de tramitación", "included": true },
+          { "text": "Acompañamiento logístico", "included": true },
+          { "text": "Constitución de sociedad", "included": false },
+          { "text": "Cuenta bancaria", "included": false }
+        ]
+      },
+      {
+        "name": "Paraguay Business",
+        "description": "Residencia + sociedad + cuenta bancaria.",
+        "price": "Consultar",
+        "popular": true,
+        "features": [
+          { "text": "Residencia Paraguaya", "included": true },
+          { "text": "Cédula de Identidad", "included": true },
+          { "text": "Constitución de sociedad", "included": true },
+          { "text": "Cuenta bancaria", "included": true },
+          { "text": "Análisis documental", "included": true },
+          { "text": "Jornada de tramitación", "included": true },
+          { "text": "Tour inmobiliario", "included": true },
+          { "text": "Asesoramiento integral", "included": true }
+        ]
+      },
+      {
+        "name": "Paraguay Investor",
+        "description": "Todo lo anterior + 12 meses de acompañamiento.",
+        "price": "Consultar",
+        "features": [
+          { "text": "Todo en Paraguay Business", "included": true },
+          { "text": "Contabilidad 12 meses", "included": true },
+          { "text": "Asesoramiento jurídico 12 meses", "included": true },
+          { "text": "Análisis de inversiones", "included": true },
+          { "text": "Acceso directo al equipo", "included": true },
+          { "text": "Seguimiento personalizado", "included": true }
+        ]
+      },
+      {
+        "name": "Compra de Tierras",
+        "description": "Asesoría para adquirir tierras en Paraguay.",
+        "price": "Consultar",
+        "features": [
+          { "text": "Definición de perfil", "included": true },
+          { "text": "Búsqueda de propiedades", "included": true },
+          { "text": "Due diligence legal", "included": true },
+          { "text": "Due diligence técnica", "included": true },
+          { "text": "Negociación", "included": true },
+          { "text": "Coordinación de escribanía", "included": true },
+          { "text": "Inscripción registral", "included": true }
+        ]
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Un proceso claro, paso a paso",
+    "steps": [
+      { "number": 1, "title": "Consulta inicial", "description": "Conversamos sobre su situación, objetivos y necesidades. Le recomendamos el programa más adecuado." },
+      { "number": 2, "title": "Validación documental", "description": "Nuestro equipo legal revisa toda su documentación antes de su viaje. No viaja hasta que todo esté en orden." },
+      { "number": 3, "title": "Jornada operativa", "description": "En un solo día, ejecutamos todos los trámites presenciales: residencia, identidad y coordinaciones." },
+      { "number": 4, "title": "Constitución y bancaria", "description": "Mientras usted regresa, constituimos su sociedad, activamos su RUC y coordinamos la cuenta bancaria." },
+      { "number": 5, "title": "Entrega y seguimiento", "description": "Recibe sus documentos definitivos y cerramos el programa con orientación final." }
+    ],
+    "cta": "Iniciar mi proceso"
+  },
+
+  "about": {
+    "title": "Un equipo, una misión: su establecimiento en Paraguay",
+    "description": "Operamos con un equipo técnico de primer nivel: abogados, contadores, asesores financieros y escribanos con amplia experiencia en el mercado paraguayo.",
+    "team": [
+      { "name": "Dirección de Operaciones", "role": "Liderazgo operativo y coordinación del equipo técnico" },
+      { "name": "Dirección Comercial", "role": "Adquisición de clientes y puente cultural" },
+      { "name": "Equipo Legal", "role": "Expedientes migratorios y constitución societaria" },
+      { "name": "Equipo Contable", "role": "Gestión fiscal y cumplimiento tributario" }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "question": "¿Cuánto tiempo toma todo el proceso?", "answer": "La tramitación presencial se realiza en un solo día. La emisión de residencia y cédula toma entre 45 y 60 días. La constitución de sociedad y apertura bancaria se completan en 2–4 semanas." },
+      { "question": "¿Cuántos viajes necesito hacer a Paraguay?", "answer": "Nuestro programa está diseñado para que un solo viaje sea suficiente." },
+      { "question": "¿Qué incluye el precio?", "answer": "Honorarios profesionales, IVA, tasas oficiales, gastos administrativos, coordinación bancaria y asesoramiento integral. No hay cargos adicionales." },
+      { "question": "¿Qué no está incluido?", "answer": "Vuelos internacionales, alojamiento, gastos personales, traducciones juradas y apostillas en su país de origen." },
+      { "question": "¿Necesito hablar español?", "answer": "No. Nuestro equipo le acompaña en neerlandés, inglés y alemán." },
+      { "question": "¿Puedo abrir una cuenta bancaria siendo extranjero?", "answer": "Sí. Preparamos su perfil financiero y coordinamos directamente con la entidad bancaria." }
+    ]
+  },
+
+  "contact": {
+    "title": "Dé el primer paso",
+    "description": "Agende una consulta gratuita de 30 minutos para evaluar su situación.",
+    "fields": ["name", "email", "phone", "country", "program", "message"],
+    "cta": "Enviar mensaje"
+  },
+
+  "seo": {
+    "keywords": {
+      "es": ["residencia Paraguay europeos", "empresa en Paraguay", "invertir en Paraguay", "relocalización Paraguay"],
+      "en": ["Paraguay residency for Europeans", "start a business in Paraguay", "invest in Paraguay", "relocate to Paraguay"],
+      "nl": ["wonen in Paraguay", "bedrijf starten Paraguay", "residencia Paraguay", "investeren Paraguay"],
+      "de": ["Auswandern nach Paraguay", "Unternehmen gründen Paraguay", "Investieren in Paraguay", "Aufenthaltserlaubnis Paraguay"]
+    }
+  }
+}

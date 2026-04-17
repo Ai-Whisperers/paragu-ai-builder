@@ -147,6 +147,83 @@
       "leadCount": 0,
       "noWebsitePercent": 0,
       "priorityALeads": 0
+    },
+    "relocation": {
+      "id": "relocation",
+      "nameEs": "Servicios de Reubicacion",
+      "nameEn": "Relocation Services",
+      "icon": "plane",
+      "tokens": "relocation",
+      "content": "relocation",
+      "schema": "relocation",
+      "categories": ["immigration", "real_estate", "legal", "consulting"],
+      "sections": ["hero", "features", "pricing", "process", "team", "testimonials", "faq", "contact"]
+    },
+    "inmobiliaria": {
+      "id": "inmobiliaria",
+      "nameEs": "Inmobiliaria",
+      "nameEn": "Real Estate",
+      "icon": "home",
+      "tokens": "inmobiliaria",
+      "content": "inmobiliaria",
+      "schema": "inmobiliaria",
+      "categories": ["real_estate", "property_management"],
+      "sections": ["hero", "properties", "features", "process", "team", "testimonials", "contact"]
+    },
+    "legal": {
+      "id": "legal",
+      "nameEs": "Servicios Legales",
+      "nameEn": "Legal Services",
+      "icon": "book-open",
+      "tokens": "legal",
+      "content": "legal",
+      "schema": "legal",
+      "categories": ["lawyer", "accountant", "notary"],
+      "sections": ["hero", "services", "process", "team", "testimonials", "faq", "contact"]
+    },
+    "consultoria": {
+      "id": "consultoria",
+      "nameEs": "Consultoria",
+      "nameEn": "Business Consulting",
+      "icon": "briefcase",
+      "tokens": "consultoria",
+      "content": "consultoria",
+      "schema": "consultoria",
+      "categories": ["consulting", "advisory"],
+      "sections": ["hero", "features", "pricing", "process", "team", "testimonials", "contact"]
+    },
+    "educacion": {
+      "id": "educacion",
+      "nameEs": "Educacion",
+      "nameEn": "Education/Training",
+      "icon": "graduation-cap",
+      "tokens": "educacion",
+      "content": "educacion",
+      "schema": "educacion",
+      "categories": ["school", "training", "language"],
+      "sections": ["hero", "programs", "features", "process", "team", "testimonials", "faq", "contact"]
+    },
+    "salud": {
+      "id": "salud",
+      "nameEs": "Salud",
+      "nameEn": "Healthcare",
+      "icon": "heart",
+      "tokens": "salud",
+      "content": "salud",
+      "schema": "salud",
+      "categories": ["medical", "dental", "health_tourism"],
+      "sections": ["hero", "services", "team", "testimonials", "faq", "contact"]
+    },
+    "inversiones": {
+      "id": "inversiones",
+      "nameEs": "Inversiones",
+      "nameEn": "Financial Services",
+      "icon": "trending-up",
+      "tokens": "inversiones",
+      "content": "inversiones",
+      "schema": "inversiones",
+      "categories": ["investment", "forex", "banking"],
+      "sections": ["hero", "features", "pricing", "process", "team", "testimonials", "faq", "contact"]
     }
   },
 
