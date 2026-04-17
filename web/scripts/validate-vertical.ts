@@ -30,16 +30,22 @@ function main() {
 
   const problems: string[] = []
 
-  const vertical = readJson<{ allowedSections?: string[] }>(join(base, 'vertical.json'))
+  const vertical = readJson<{ allowedSections?: string[]; locales?: string[] }>(
+    join(base, 'vertical.json'),
+  )
   if (!existsSync(join(base, 'schema.json'))) problems.push('missing schema.json')
   if (!existsSync(join(base, 'defaults.tokens.json'))) problems.push('missing defaults.tokens.json')
+
+  const requiredLocales: readonly string[] = vertical.locales?.length
+    ? vertical.locales
+    : ALL_LOCALES
 
   const copyDir = join(base, 'copy')
   if (!existsSync(copyDir)) {
     problems.push('missing copy/ directory')
   } else {
     const files = readdirSync(copyDir).map((f) => f.replace(/\.json$/, ''))
-    for (const loc of ALL_LOCALES) {
+    for (const loc of requiredLocales) {
       if (!files.includes(loc)) problems.push(`copy missing for locale ${loc}`)
     }
   }

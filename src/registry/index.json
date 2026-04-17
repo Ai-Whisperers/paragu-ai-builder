@@ -161,6 +161,36 @@
       "firstTenant": "sites/nexa-paraguay",
       "locales": ["nl", "en", "de", "es"],
       "defaultLocale": "nl"
+    },
+    "service-booking": {
+      "id": "service-booking",
+      "nameEs": "Reservas de Servicios",
+      "nameEn": "Service Booking",
+      "icon": "calendar",
+      "path": "src/verticals/service-booking",
+      "description": "Gyms, yoga, pilates, crossfit, academies, therapists, trainers, masseurs",
+      "locales": ["es"],
+      "defaultLocale": "es"
+    },
+    "hospitality": {
+      "id": "hospitality",
+      "nameEs": "Hospitalidad",
+      "nameEn": "Hospitality",
+      "icon": "bed",
+      "path": "src/verticals/hospitality",
+      "description": "Hotels, hostels, boutique lodgings, event venues, camping",
+      "locales": ["es", "en"],
+      "defaultLocale": "es"
+    },
+    "portfolio-professional": {
+      "id": "portfolio-professional",
+      "nameEs": "Portfolio / Servicios Profesionales",
+      "nameEn": "Portfolio / Professional Services",
+      "icon": "briefcase",
+      "path": "src/verticals/portfolio-professional",
+      "description": "Photographers, videographers, architects, designers, agencies",
+      "locales": ["es"],
+      "defaultLocale": "es"
     }
   },
 

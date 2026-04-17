@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-hospitality",
+  "title": "Hospitality vertical content schema",
+  "type": "object",
+  "properties": {
+    "siteName": { "type": "string" },
+    "home": {
+      "type": "object",
+      "properties": {
+        "rooms": { "type": "object", "properties": { "rooms": { "type": "array" } } },
+        "venues": { "type": "object", "properties": { "venues": { "type": "array" } } },
+        "whyStay": { "type": "object" }
+      }
+    }
+  }
+}
