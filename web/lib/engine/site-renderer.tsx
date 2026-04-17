@@ -26,6 +26,16 @@ import { TrustSignalsSection } from '@/components/sections/trust-signals-section
 import { BookingEmbedSection } from '@/components/sections/booking-embed-section'
 import { BlogIndexSection } from '@/components/sections/blog-index-section'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
+import { LeadFormSection } from '@/components/sections/lead-form-section'
+import { BeforeAfterSection } from '@/components/sections/before-after-section'
+import { BookingSection } from '@/components/sections/booking-section'
+import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
+import { EmergencyIndicatorSection } from '@/components/sections/emergency-indicator-section'
+import { EventVenuesSection } from '@/components/sections/event-venues-section'
+import { MembershipPlansSection } from '@/components/sections/membership-plans-section'
+import { PortfolioSection } from '@/components/sections/portfolio-section'
+import { QuoteFormSection } from '@/components/sections/quote-form-section'
+import { RoomBookingSection } from '@/components/sections/room-booking-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -48,6 +58,16 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'booking-embed': BookingEmbedSection,
   'blog-index': BlogIndexSection,
   'blog-post': BlogPostSection,
+  'lead-form': LeadFormSection,
+  'before-after': BeforeAfterSection,
+  booking: BookingSection,
+  'class-schedule': ClassScheduleSection,
+  'emergency-indicator': EmergencyIndicatorSection,
+  'event-venues': EventVenuesSection,
+  'membership-plans': MembershipPlansSection,
+  portfolio: PortfolioSection,
+  'quote-form': QuoteFormSection,
+  'room-booking': RoomBookingSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {

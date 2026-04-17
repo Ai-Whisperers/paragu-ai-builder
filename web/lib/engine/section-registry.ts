@@ -116,6 +116,64 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'standard',
     variants: ['standard'],
   },
+  'before-after': {
+    id: 'before-after',
+    defaultVariant: 'slider',
+    variants: ['slider'],
+    requiredContentFields: ['items'],
+  },
+  booking: {
+    id: 'booking',
+    defaultVariant: 'wizard',
+    variants: ['wizard'],
+    requiredContentFields: ['services'],
+  },
+  'class-schedule': {
+    id: 'class-schedule',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+    requiredContentFields: ['classes'],
+  },
+  'emergency-indicator': {
+    id: 'emergency-indicator',
+    defaultVariant: 'banner',
+    variants: ['banner'],
+  },
+  'event-venues': {
+    id: 'event-venues',
+    defaultVariant: 'cards',
+    variants: ['cards'],
+    requiredContentFields: ['venues'],
+  },
+  'membership-plans': {
+    id: 'membership-plans',
+    defaultVariant: 'cards',
+    variants: ['cards'],
+    requiredContentFields: ['plans'],
+  },
+  portfolio: {
+    id: 'portfolio',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+    requiredContentFields: ['items'],
+  },
+  'quote-form': {
+    id: 'quote-form',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+  },
+  'room-booking': {
+    id: 'room-booking',
+    defaultVariant: 'cards',
+    variants: ['cards'],
+    requiredContentFields: ['rooms'],
+  },
+  'lead-form': {
+    id: 'lead-form',
+    defaultVariant: 'standard',
+    variants: ['standard', 'compact'],
+    requiredContentFields: ['title'],
+  },
 }
 
 export function hasSection(id: string): boolean {
