@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
-import ClassScheduleSection from '@/components/sections/class-schedule-section'
+import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
 
 describe('class-schedule-section.tsx', () => {
   const mockSchedule = [

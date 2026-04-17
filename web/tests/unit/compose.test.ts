@@ -1,8 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { buildSectionData, SECTION_MAP, type SectionType } from '../lib/engine/compose'
-import type { RegistryType } from '../lib/engine/compose'
-import type { BusinessData } from '../lib/engine/compose'
-import type { ContentTemplate } from '../lib/engine/compose'
+import { buildSectionData, SECTION_MAP, type SectionType } from '../../lib/engine/compose'
+import type { RegistryType } from '../../lib/engine/compose'
+import type { BusinessData } from '../../lib/engine/compose'
+import type { ContentTemplate } from '../../lib/engine/compose'
 
 describe('compose.ts - SECTION_MAP', () => {
   const sectionTypes = [

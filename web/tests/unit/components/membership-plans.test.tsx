@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
-import MembershipPlansSection from '@/components/sections/membership-plans-section'
+import { MembershipPlansSection } from '@/components/sections/membership-plans-section'
 
 describe('membership-plans-section.tsx', () => {
   const mockPlans = [

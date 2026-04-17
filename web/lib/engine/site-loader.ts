@@ -9,9 +9,15 @@ import { SITES, type SiteSlug } from './static-sites'
 declare const EdgeRuntime: string | undefined
 const isEdge = typeof EdgeRuntime !== 'undefined'
 
-// Static site paths - hardcoded for Edge Runtime compatibility
-const SITES_DIR = '/home/ai-whisperers/paragu-ai-builder/sites'
-const SRC_DIR = '/home/ai-whisperers/paragu-ai-builder/src'
+// Derive repo paths from the `web/` working directory. Tests (vitest),
+// Next build, and prod all run from `web/`, so the repo root is `..`.
+// Fall back to an absolute path only if `process` is unavailable (Edge).
+const REPO_ROOT =
+  typeof process !== 'undefined' && typeof process.cwd === 'function'
+    ? `${process.cwd()}/..`
+    : '/home/ai-whisperers/paragu-ai-builder'
+const SITES_DIR = `${REPO_ROOT}/sites`
+const SRC_DIR = `${REPO_ROOT}/src`
 
 // Lazy load Node modules only when needed (not on Edge)
 let fs: typeof import('fs') | null = null

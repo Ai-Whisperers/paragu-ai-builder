@@ -81,7 +81,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
 export function renderSection(section: ComposedSection): React.ReactNode {
   const Component = SECTION_COMPONENTS[section.type]
   if (!Component) {
-    console.warn(`[Renderer] Unknown section type: ${section.type}`)
+    console.warn('[Renderer] Unknown section type:', section.type)
     return null
   }
 

@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
-import { renderSection, renderSections } from '../lib/engine/renderer'
-import type { ComposedSection } from '../lib/engine/compose'
+import { renderSection, renderSections } from '../../lib/engine/renderer'
+import type { ComposedSection } from '../../lib/engine/compose'
 
 describe('renderer.tsx - renderSection', () => {
   it('should render header section', () => {

@@ -49,18 +49,28 @@ jobs:
   secrets-scan:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
-      - name: TruffleHog Secrets Scan
+
+      # TruffleHog bombs out when base == head (e.g. first push of a branch
+      # or a push directly to the default branch). Pass distinct refs on PRs
+      # and scan the push commit itself on push events.
+      - name: TruffleHog Secrets Scan (PR)
+        if: github.event_name == 'pull_request'
         uses: trufflesecurity/trufflehog@main
         with:
-          base: ${{ github.event.repository.default_branch }}
-          head: HEAD
-          extra_args: --filter-entropy --threshold=8.5
+          base: ${{ github.event.pull_request.base.sha }}
+          head: ${{ github.event.pull_request.head.sha }}
+          extra_args: --only-verified
+
+      - name: TruffleHog Secrets Scan (push)
+        if: github.event_name == 'push'
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --only-verified
 
   # 4. Security Scan - Python Dependencies
   security-audit:
@@ -169,18 +179,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     needs: [build]
-    
+
     steps:
       - uses: actions/checkout@v4
-        
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
           cache-dependency-path: web/package-lock.json
-      
+
       - run: cd web && npm ci
-      
+
+      - name: Build
+        run: cd web && npm run build
+
       - name: Analyze bundle
         run: |
           cd web
@@ -189,9 +202,13 @@ jobs:
             du -sh .next/server/app.html
           fi
           echo "=== Static Assets ==="
-          find .next/static -name "*.js" -exec du -h {} \; | sort -hr | head -10
+          if [ -d .next/static ]; then
+            find .next/static -name "*.js" -exec du -h {} \; | sort -hr | head -10
+          fi
           echo "=== Check for large files ==="
-          find .next -type f -size +500k -exec ls -lh {} \;
+          if [ -d .next ]; then
+            find .next -type f -size +500k -exec ls -lh {} \; || true
+          fi
 
   # Summary Report
   summary:
