@@ -31,15 +31,31 @@ npm run build 2>&1 | tail -20
 # Step 3: Create deployment package
 echo "📦 Step 3: Creating deployment package..."
 cd /home/ai-whisperers/paragu-ai-builder
-tar -czf /tmp/paragu-ai-deploy.tar.gz \
-  web/.next/standalone/ \
-  web/.next/static/ \
-  web/public/ \
-  sites/ \
-  src/ \
-  Dockerfile.prod \
-  web/package.json \
-  switch-runtime.sh
+
+# Create a staging directory with the right structure
+rm -rf /tmp/deploy-staging
+mkdir -p /tmp/deploy-staging
+
+# Copy built Next.js app
+cp -r web/.next/standalone/* /tmp/deploy-staging/
+cp -r web/.next/static /tmp/deploy-staging/.next/
+cp -r web/public /tmp/deploy-staging/
+
+# Copy package.json
+cp web/package*.json /tmp/deploy-staging/
+
+# Copy sites and src
+cp -r sites /tmp/deploy-staging/
+cp -r src /tmp/deploy-staging/
+
+# Copy Dockerfile
+cp Dockerfile.prod /tmp/deploy-staging/
+
+# Create tarball
+cd /tmp/deploy-staging
+tar -czf /tmp/paragu-ai-deploy.tar.gz .
+
+echo "   Package size: $(du -h /tmp/paragu-ai-deploy.tar.gz | cut -f1)"
 
 echo "   Package size: $(du -h /tmp/paragu-ai-deploy.tar.gz | cut -f1)"
 
