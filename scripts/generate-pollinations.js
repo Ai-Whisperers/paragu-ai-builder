@@ -11,7 +11,8 @@
  *   - heroes (20 images) - Hero backgrounds
  *   - team (34 images) - Team headshots
  *   - services (20 images) - Service images
- *   - all (generates everything: 74 images)
+ *   - sushi (15 images) - Sushi bar & kaiten zushi
+ *   - all (generates everything: 89 images)
  */
 
 // Use native fetch (Node.js v24+)
@@ -142,6 +143,12 @@ const BATCHES = {
     promptFile: 'prompts/batch-3-services.txt',
     type: 'service',
     count: 20
+  },
+  sushi: {
+    name: 'Sushi Bar & Kaiten Images',
+    promptFile: '../prompts/batch-4-sushi.txt',
+    type: 'service',
+    count: 15
   }
 };
 

@@ -2,7 +2,7 @@
  * Static config with embedded JSON content
  * Generated at build time - DO NOT EDIT MANUALLY
  * 
- * Generated: 2026-04-18T20:47:10.207Z
+ * Generated: 2026-04-18T22:05:13.506Z
  */
 
 export const REGISTRY_MAP: Record<string, unknown> = {
@@ -2292,6 +2292,530 @@ export const REGISTRY_MAP: Record<string, unknown> = {
       'ctaSecondary': {
         'text': 'Ver paquetes',
         'action': 'scrollTo:packages'
+      }
+    }
+  },
+  'restaurant': {
+    'id': 'restaurant',
+    'nameEs': 'Restaurante',
+    'nameEn': 'Restaurant',
+    'tokens': 'restaurant',
+    'pages': {
+      'homepage': {
+        'sections': [
+          'header',
+          'hero',
+          'about',
+          'featuredMenu',
+          'reservations',
+          'gallery',
+          'testimonials',
+          'location',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'hero',
+          'location',
+          'footer'
+        ]
+      },
+      'menu': {
+        'sections': [
+          'header',
+          'fullMenu',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'fullMenu',
+          'footer'
+        ]
+      },
+      'reservations': {
+        'sections': [
+          'header',
+          'reservationForm',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'reservationForm',
+          'footer'
+        ]
+      },
+      'gallery': {
+        'sections': [
+          'header',
+          'photoGallery',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'photoGallery',
+          'footer'
+        ]
+      },
+      'contact': {
+        'sections': [
+          'header',
+          'contactInfo',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'contactInfo',
+          'footer'
+        ]
+      }
+    },
+    'features': {
+      'onlineOrdering': {
+        'enabled': true,
+        'method': 'direct',
+        'fallback': 'whatsapp'
+      },
+      'reservations': {
+        'enabled': true,
+        'method': 'form',
+        'platform': 'internal'
+      },
+      'menuDisplay': {
+        'enabled': true,
+        'showPrices': true,
+        'categories': true,
+        'dietaryTags': true
+      },
+      'gallery': {
+        'enabled': true,
+        'categories': [
+          'food',
+          'interior',
+          'team',
+          'events'
+        ]
+      },
+      'reviews': {
+        'enabled': true,
+        'platforms': [
+          'google',
+          'yelp'
+        ]
+      },
+      'socialMedia': {
+        'enabled': true,
+        'platforms': [
+          'instagram',
+          'facebook'
+        ]
+      },
+      'whatsappFloat': {
+        'enabled': true
+      },
+      'googleMapsEmbed': {
+        'enabled': true
+      }
+    },
+    'menuCategories': [
+      'appetizers',
+      'main_courses',
+      'sides',
+      'desserts',
+      'beverages'
+    ],
+    'targetAudience': {
+      'primary': 'Local customers, families, food enthusiasts',
+      'secondary': 'Tourists, business diners, event planners'
+    },
+    'seo': {
+      'titleTemplate': '{{businessName}} - Restaurante en {{city}} | Menú y Reservas',
+      'descriptionTemplate': 'Disfruta de la mejor gastronomía en {{city}}. Reserva tu mesa online. Menú variado con precios accesibles.',
+      'schemaType': 'Restaurant',
+      'keywords': [
+        'restaurante {{city}}',
+        'comida {{city}}',
+        'donde comer {{neighborhood}}',
+        'reservas {{city}}'
+      ]
+    },
+    'nav': {
+      'items': [
+        'Inicio',
+        'Menú',
+        'Reservas',
+        'Galería',
+        'Contacto'
+      ],
+      'cta': {
+        'text': 'Reservar',
+        'action': 'booking'
+      }
+    },
+    'hero': {
+      'style': 'image',
+      'headlineTemplate': '{{businessName}} - Sabores Auténticos en {{city}}',
+      'subheadlineTemplate': 'Disfruta de una experiencia culinaria única con los mejores ingredientes',
+      'ctaPrimary': {
+        'text': 'Reservar Mesa',
+        'action': 'booking'
+      },
+      'ctaSecondary': {
+        'text': 'Ver Menú',
+        'action': 'scrollTo:menu'
+      }
+    }
+  },
+  'sushi_bar': {
+    'id': 'sushi_bar',
+    'nameEs': 'Sushi Bar',
+    'nameEn': 'Sushi Bar',
+    'extends': 'restaurant',
+    'tokens': 'sushi',
+    'pages': {
+      'homepage': {
+        'sections': [
+          'header',
+          'hero',
+          'about',
+          'featuredMenu',
+          'omakase',
+          'reservations',
+          'gallery',
+          'sakePairing',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'hero',
+          'location',
+          'footer'
+        ]
+      },
+      'menu': {
+        'sections': [
+          'header',
+          'fullMenu',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'fullMenu',
+          'footer'
+        ]
+      },
+      'omakase': {
+        'sections': [
+          'header',
+          'omakaseExperience',
+          'reservationForm',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'omakaseExperience',
+          'footer'
+        ]
+      },
+      'gallery': {
+        'sections': [
+          'header',
+          'photoGallery',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'photoGallery',
+          'footer'
+        ]
+      }
+    },
+    'features': {
+      'onlineOrdering': {
+        'enabled': true,
+        'method': 'direct',
+        'fallback': 'whatsapp'
+      },
+      'reservations': {
+        'enabled': true,
+        'method': 'form',
+        'platform': 'internal'
+      },
+      'omakaseBooking': {
+        'enabled': true,
+        'seatings': [
+          '17:00',
+          '19:00',
+          '21:00'
+        ],
+        'maxGuests': 12
+      },
+      'menuDisplay': {
+        'enabled': true,
+        'showPrices': true,
+        'categories': true,
+        'dietaryTags': true,
+        'japaneseNames': true
+      },
+      'gallery': {
+        'enabled': true,
+        'categories': [
+          'sashimi',
+          'nigiri',
+          'maki',
+          'omakase',
+          'interior',
+          'chef'
+        ]
+      },
+      'reviews': {
+        'enabled': true,
+        'platforms': [
+          'google',
+          'yelp'
+        ]
+      },
+      'socialMedia': {
+        'enabled': true,
+        'platforms': [
+          'instagram',
+          'facebook',
+          'tiktok'
+        ]
+      },
+      'whatsappFloat': {
+        'enabled': true
+      },
+      'googleMapsEmbed': {
+        'enabled': true
+      },
+      'sakeMenu': {
+        'enabled': true
+      }
+    },
+    'menuCategories': [
+      'appetizers',
+      'sashimi',
+      'nigiri',
+      'maki_rolls',
+      'specialty_rolls',
+      'hand_rolls',
+      'hibachi',
+      'desserts',
+      'sake'
+    ],
+    'targetAudience': {
+      'primary': 'Sushi enthusiasts, Japanese cuisine lovers, date nights',
+      'secondary': 'Business dinners, celebrations, omakase seekers'
+    },
+    'seo': {
+      'titleTemplate': '{{businessName}} - Sushi Bar en {{city}} | Auténtico Japonés',
+      'descriptionTemplate': 'El mejor sushi en {{city}}. Frescura garantizada, auténtico sabor japonés. Reserva tu experiencia omakase.',
+      'schemaType': 'Restaurant',
+      'keywords': [
+        'sushi {{city}}',
+        'restaurante japonés {{city}}',
+        'omakase {{city}}',
+        'sashimi {{city}}'
+      ]
+    },
+    'nav': {
+      'items': [
+        'Inicio',
+        'Menú',
+        'Omakase',
+        'Reservas',
+        'Galería'
+      ],
+      'cta': {
+        'text': 'Reservar',
+        'action': 'booking'
+      }
+    },
+    'hero': {
+      'style': 'image',
+      'headlineTemplate': '{{businessName}} - Auténtico Sushi en {{city}}',
+      'subheadlineTemplate': 'Frescura y tradición en cada pieza. Descubre el arte del sushi.',
+      'ctaPrimary': {
+        'text': 'Reservar Mesa',
+        'action': 'booking'
+      },
+      'ctaSecondary': {
+        'text': 'Ver Menú',
+        'action': 'scrollTo:menu'
+      }
+    },
+    'omakaseOptions': {
+      'enabled': true,
+      'tiers': [
+        {
+          'name': 'Clásico',
+          'price': '250.000 Gs',
+          'courses': 8,
+          'description': 'Selección tradicional del chef'
+        },
+        {
+          'name': 'Premium',
+          'price': '450.000 Gs',
+          'courses': 12,
+          'description': 'Experiencia completa con sake pairing'
+        },
+        {
+          'name': 'Ejecutivo',
+          'price': '650.000 Gs',
+          'courses': 15,
+          'description': 'Lo mejor del chef + botella de sake'
+        }
+      ]
+    }
+  },
+  'kaiten_zushi': {
+    'id': 'kaiten_zushi',
+    'nameEs': 'Sushi Cinta Transportadora',
+    'nameEn': 'Conveyor Belt Sushi',
+    'extends': 'sushi_bar',
+    'tokens': 'kaiten',
+    'pages': {
+      'homepage': {
+        'sections': [
+          'header',
+          'hero',
+          'about',
+          'conveyorBelt',
+          'featuredMenu',
+          'howItWorks',
+          'reservations',
+          'gallery',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'hero',
+          'conveyorBelt',
+          'footer'
+        ]
+      },
+      'menu': {
+        'sections': [
+          'header',
+          'colorCodedMenu',
+          'footer'
+        ],
+        'requiredSections': [
+          'header',
+          'colorCodedMenu',
+          'footer'
+        ]
+      }
+    },
+    'features': {
+      'onlineOrdering': {
+        'enabled': false
+      },
+      'reservations': {
+        'enabled': true,
+        'method': 'form',
+        'walkins': true
+      },
+      'conveyorBelt': {
+        'enabled': true,
+        'plateColors': true,
+        'tabletOrdering': true
+      },
+      'menuDisplay': {
+        'enabled': true,
+        'showPrices': true,
+        'colorCoded': true,
+        'platePricing': true
+      },
+      'gallery': {
+        'enabled': true,
+        'categories': [
+          'conveyor',
+          'plates',
+          'interior',
+          'team'
+        ]
+      },
+      'whatsappFloat': {
+        'enabled': true
+      },
+      'googleMapsEmbed': {
+        'enabled': true
+      }
+    },
+    'menuCategories': [
+      'green_plates',
+      'yellow_plates',
+      'orange_plates',
+      'red_plates',
+      'black_plates',
+      'special_order'
+    ],
+    'platePricing': {
+      'green': {
+        'color': '#22c55e',
+        'price': '15.000 Gs',
+        'description': 'Platos básicos'
+      },
+      'yellow': {
+        'color': '#eab308',
+        'price': '25.000 Gs',
+        'description': 'Favoritos populares'
+      },
+      'orange': {
+        'color': '#f97316',
+        'price': '35.000 Gs',
+        'description': 'Especiales'
+      },
+      'red': {
+        'color': '#ef4444',
+        'price': '50.000 Gs',
+        'description': 'Premium'
+      },
+      'black': {
+        'color': '#1a1a1a',
+        'price': '75.000 Gs',
+        'description': 'Ultra premium'
+      }
+    },
+    'targetAudience': {
+      'primary': 'Families, casual diners, quick lunch seekers',
+      'secondary': 'Sushi beginners, groups, kids'
+    },
+    'seo': {
+      'titleTemplate': '{{businessName}} - Sushi en Cinta en {{city}} | Rápido y Divertido',
+      'descriptionTemplate': 'La experiencia de sushi más divertida en {{city}}. Plato por plato en cinta transportadora. Precios por colores.',
+      'schemaType': 'Restaurant',
+      'keywords': [
+        'sushi cinta {{city}}',
+        'kaiten sushi {{city}}',
+        'sushi divertido {{city}}',
+        'sushi para niños {{city}}'
+      ]
+    },
+    'nav': {
+      'items': [
+        'Inicio',
+        'Menú',
+        'Cómo Funciona',
+        'Reservas'
+      ],
+      'cta': {
+        'text': 'Visítanos',
+        'action': 'scrollTo:location'
+      }
+    },
+    'hero': {
+      'style': 'image',
+      'headlineTemplate': '{{businessName}} - Sushi en Movimiento',
+      'subheadlineTemplate': 'La experiencia japonesa más divertida. Elige tus favoritos de la cinta.',
+      'ctaPrimary': {
+        'text': 'Ver Menú',
+        'action': 'scrollTo:menu'
+      },
+      'ctaSecondary': {
+        'text': 'Cómo Funciona',
+        'action': 'scrollTo:howItWorks'
       }
     }
   }
@@ -5045,6 +5569,558 @@ export const CONTENT_MAP: Record<string, unknown> = {
           'Aufenthaltserlaubnis Paraguay'
         ]
       }
+    }
+  },
+  'restaurant': {
+    'id': 'restaurant',
+    'locale': 'es-PY',
+    'hero': {
+      'headline': '{{businessName}} - Sabores Auténticos en {{city}}',
+      'subheadline': 'Disfruta de una experiencia culinaria única con los mejores ingredientes',
+      'ctaPrimary': 'Reservar Mesa',
+      'ctaSecondary': 'Ver Menú'
+    },
+    'about': {
+      'title': 'Nuestra Historia',
+      'subtitle': 'Pasión por la buena comida desde {{year}}',
+      'content': 'En {{businessName}} creemos que cada comida debe ser una experiencia memorable. Utilizamos ingredientes frescos y de temporada para crear platos que deleitan todos los sentidos.',
+      'highlights': [
+        {
+          'title': 'Ingredientes Frescos',
+          'description': 'Seleccionamos los mejores productos locales'
+        },
+        {
+          'title': 'Recetas Tradicionales',
+          'description': 'Preparación artesanal con técnicas clásicas'
+        },
+        {
+          'title': 'Ambiente Único',
+          'description': 'Un espacio diseñado para tu disfrute'
+        }
+      ]
+    },
+    'menuPage': {
+      'title': 'Nuestro Menú',
+      'subtitle': 'Platos preparados con amor y dedicación',
+      'categories': [
+        {
+          'key': 'appetizers',
+          'title': 'Entradas',
+          'description': 'Comienza tu experiencia con nuestras deliciosas entradas'
+        },
+        {
+          'key': 'main_courses',
+          'title': 'Platos Principales',
+          'description': 'Especialidades de la casa'
+        },
+        {
+          'key': 'sides',
+          'title': 'Acompañamientos',
+          'description': 'Complementos perfectos'
+        },
+        {
+          'key': 'desserts',
+          'title': 'Postres',
+          'description': 'El dulce final'
+        },
+        {
+          'key': 'beverages',
+          'title': 'Bebidas',
+          'description': 'Refrescos, jugos y más'
+        }
+      ],
+      'dietaryLabels': {
+        'V': 'Vegetariano',
+        'VG': 'Vegano',
+        'GF': 'Sin Gluten',
+        'SP': 'Picante'
+      }
+    },
+    'reservations': {
+      'title': 'Reserva tu Mesa',
+      'subtitle': 'Asegura tu lugar para una experiencia inolvidable',
+      'formLabels': {
+        'name': 'Nombre completo',
+        'phone': 'Teléfono',
+        'email': 'Email',
+        'date': 'Fecha',
+        'time': 'Hora',
+        'guests': 'Número de personas',
+        'specialRequests': 'Solicitudes especiales (alergias, celebraciones)'
+      },
+      'submitButton': 'Confirmar Reserva',
+      'successMessage': '¡Reserva confirmada! Te esperamos.',
+      'timeSlots': [
+        '12:00',
+        '12:30',
+        '13:00',
+        '13:30',
+        '14:00',
+        '19:00',
+        '19:30',
+        '20:00',
+        '20:30',
+        '21:00',
+        '21:30',
+        '22:00'
+      ]
+    },
+    'gallery': {
+      'title': 'Galería',
+      'subtitle': 'Descubre nuestra esencia',
+      'categories': {
+        'food': 'Platos',
+        'interior': 'Ambiente',
+        'team': 'Equipo',
+        'events': 'Eventos'
+      }
+    },
+    'contact': {
+      'title': 'Contacto',
+      'subtitle': 'Estamos aquí para atenderte',
+      'addressLabel': 'Dirección',
+      'phoneLabel': 'Teléfono',
+      'emailLabel': 'Email',
+      'hoursLabel': 'Horarios',
+      'directionsButton': 'Cómo Llegar',
+      'callButton': 'Llamar Ahora',
+      'whatsappButton': 'WhatsApp'
+    },
+    'footer': {
+      'tagline': 'Sabores que enamoran desde {{year}}',
+      'quickLinks': 'Enlaces Rápidos',
+      'contact': 'Contacto',
+      'followUs': 'Síguenos'
+    },
+    'whatsapp': {
+      'defaultMessage': 'Hola! Quisiera hacer una reserva en {{businessName}}',
+      'orderMessage': 'Hola! Quisiera hacer un pedido para llevar'
+    }
+  },
+  'sushi_bar': {
+    'id': 'sushi_bar',
+    'locale': 'es-PY',
+    'hero': {
+      'headline': '{{businessName}} - Auténtico Sushi en {{city}}',
+      'subheadline': 'Frescura y tradición en cada pieza. Descubre el arte del sushi.',
+      'ctaPrimary': 'Reservar Mesa',
+      'ctaSecondary': 'Ver Menú'
+    },
+    'about': {
+      'title': 'Nuestra Filosofía',
+      'subtitle': 'Mutan - Nada se agrega, solo la esencia pura',
+      'content': 'En {{businessName}} honramos la tradición del sushi Edomae. Cada pieza es una obra de arte preparada con pescado fresco del mercado, arroz de grano corto premium y wasabi auténtico.',
+      'highlights': [
+        {
+          'title': 'Pescado Fresco',
+          'description': 'Selección diaria de la mejor calidad'
+        },
+        {
+          'title': 'Chef Experto',
+          'description': 'Formación tradicional japonesa'
+        },
+        {
+          'title': 'Técnicas Clásicas',
+          'description': 'Edomae: preparación ancestral'
+        }
+      ]
+    },
+    'menuPage': {
+      'title': 'Menú de Sushi',
+      'subtitle': 'Auténtico sabor japonés',
+      'categories': [
+        {
+          'key': 'appetizers',
+          'title': 'Entradas',
+          'description': 'Edamame, Gyoza, Miso Soup'
+        },
+        {
+          'key': 'sashimi',
+          'title': 'Sashimi',
+          'description': 'Lonchas de pescado fresco sin arroz'
+        },
+        {
+          'key': 'nigiri',
+          'title': 'Nigiri',
+          'description': 'Pescado sobre arroz vinagreado'
+        },
+        {
+          'key': 'maki_rolls',
+          'title': 'Maki Rolls',
+          'description': 'Rollos tradicionales con alga nori'
+        },
+        {
+          'key': 'specialty_rolls',
+          'title': 'Rollos Especiales',
+          'description': 'Creaciones únicas de la casa'
+        },
+        {
+          'key': 'hand_rolls',
+          'title': 'Temaki (Hand Rolls)',
+          'description': 'Conos de sushi para comer con la mano'
+        },
+        {
+          'key': 'hibachi',
+          'title': 'Hibachi',
+          'description': 'Platos teppanyaki a la parrilla'
+        },
+        {
+          'key': 'sake',
+          'title': 'Sake & Bebidas',
+          'description': 'Selección premium de Japón'
+        }
+      ],
+      'dietaryLabels': {
+        'V': 'Vegetariano',
+        'VG': 'Vegano',
+        'GF': 'Sin Gluten',
+        'SP': 'Picante',
+        'RAW': 'Crudo'
+      },
+      'japaneseTerms': {
+        'maguro': 'Atún rojo',
+        'salmon': 'Salmón',
+        'hamachi': 'Pez limón',
+        'unagi': 'Anguila',
+        'tamago': 'Tortilla dulce',
+        'ebi': 'Camarón'
+      }
+    },
+    'omakase': {
+      'title': 'Experiencia Omakase',
+      'subtitle': 'Confía en el chef - 'Te dejo a ti'',
+      'description': 'Omakase es la forma más pura de disfrutar sushi. El chef selecciona y prepara cada pieza según los ingredientes más frescos del día. Una experiencia gastronómica única e irrepetible.',
+      'tiers': [
+        {
+          'name': 'Clásico',
+          'courses': 8,
+          'duration': '60 minutos',
+          'features': [
+            'Selección tradicional',
+            'Nigiri premium',
+            'Sashimi de temporada'
+          ]
+        },
+        {
+          'name': 'Premium',
+          'courses': 12,
+          'duration': '90 minutos',
+          'features': [
+            'Todo del Clásico',
+            'Sake pairing incluido',
+            'Postre especial'
+          ]
+        },
+        {
+          'name': 'Ejecutivo',
+          'courses': 15,
+          'duration': '120 minutos',
+          'features': [
+            'Todo del Premium',
+            'Botella de sake',
+            'Receta exclusiva'
+          ]
+        }
+      ],
+      'notes': [
+        'Reservación obligatoria 24 horas antes',
+        'Informar alergias al reservar',
+        'No se aceptan cambios de menú',
+        'Duración aproximada según ritmo'
+      ]
+    },
+    'reservations': {
+      'title': 'Reserva tu Mesa',
+      'subtitle': 'Asegura tu experiencia gastronómica',
+      'formLabels': {
+        'name': 'Nombre completo',
+        'phone': 'Teléfono',
+        'email': 'Email',
+        'date': 'Fecha',
+        'time': 'Hora',
+        'guests': 'Número de personas',
+        'experience': 'Tipo de experiencia',
+        'specialRequests': 'Alergias o solicitudes especiales'
+      },
+      'experienceTypes': [
+        {
+          'value': 'regular',
+          'label': 'Mesa Regular'
+        },
+        {
+          'value': 'counter',
+          'label': 'Barra del Chef'
+        },
+        {
+          'value': 'omakase',
+          'label': 'Omakase'
+        }
+      ],
+      'submitButton': 'Confirmar Reserva',
+      'successMessage': '¡Reserva confirmada! Te esperamos para una experiencia inolvidable.',
+      'timeSlots': [
+        '12:00',
+        '12:30',
+        '13:00',
+        '13:30',
+        '14:00',
+        '19:00',
+        '19:30',
+        '20:00',
+        '20:30',
+        '21:00',
+        '21:30',
+        '22:00'
+      ]
+    },
+    'gallery': {
+      'title': 'Galería',
+      'subtitle': 'El arte del sushi',
+      'categories': {
+        'sashimi': 'Sashimi',
+        'nigiri': 'Nigiri',
+        'maki': 'Maki',
+        'omakase': 'Omakase',
+        'interior': 'Ambiente',
+        'chef': 'Chef'
+      }
+    },
+    'sake': {
+      'title': 'Sake & Bebidas',
+      'subtitle': 'La compañía perfecta para tu sushi',
+      'description': 'Descubre nuestra selección de sake premium importado de Japón, cervezas artesanales japonesas y té matcha auténtico.',
+      'types': [
+        {
+          'name': 'Junmai',
+          'description': 'Sake puro, sin aditivos'
+        },
+        {
+          'name': 'Ginjo',
+          'description': 'Aroma frutal, muy refinado'
+        },
+        {
+          'name': 'Daiginjo',
+          'description': 'Premium, elaborado con 50% del grano'
+        }
+      ]
+    },
+    'contact': {
+      'title': 'Contacto',
+      'subtitle': 'Estamos aquí para atenderte',
+      'addressLabel': 'Dirección',
+      'phoneLabel': 'Teléfono',
+      'emailLabel': 'Email',
+      'hoursLabel': 'Horarios',
+      'directionsButton': 'Cómo Llegar',
+      'callButton': 'Llamar',
+      'whatsappButton': 'WhatsApp'
+    },
+    'footer': {
+      'tagline': 'Tradición japonesa en cada pieza',
+      'quickLinks': 'Enlaces',
+      'contact': 'Contacto',
+      'followUs': 'Síguenos'
+    },
+    'whatsapp': {
+      'defaultMessage': 'Hola! Quisiera hacer una reserva en {{businessName}}',
+      'orderMessage': 'Hola! Quisiera hacer un pedido de sushi para llevar',
+      'omakaseMessage': 'Hola! Me interesa reservar la experiencia Omakase'
+    },
+    'culturalNotes': {
+      'itadakimasu': 'Decimos 'itadakimasu' antes de comer - agradecemos los ingredientes y el trabajo',
+      'freshness': 'Nuestro pescado llega fresco todos los días del mercado',
+      'technique': 'Usamos técnicas Edomae: sujime (curado), yaki (ligero asado)',
+      'wasabi': 'Wasabi fresco rallado al momento - más suave y aromático'
+    }
+  },
+  'kaiten_zushi': {
+    'id': 'kaiten_zushi',
+    'locale': 'es-PY',
+    'hero': {
+      'headline': '{{businessName}} - Sushi en Movimiento',
+      'subheadline': 'La experiencia japonesa más divertida. Elige tus favoritos de la cinta.',
+      'ctaPrimary': 'Ver Menú',
+      'ctaSecondary': 'Cómo Funciona'
+    },
+    'about': {
+      'title': 'Sushi Divertido',
+      'subtitle': 'Kaiten-zushi: tradición en movimiento',
+      'content': 'En {{businessName}} traemos la auténtica experiencia de sushi cinta transportadora de Japón. Cada plato pasa frente a ti - simplemente toma lo que te gusta. Perfecto para familias, niños, y quienes quieren probar un poco de todo.',
+      'highlights': [
+        {
+          'title': 'Fresco Constantemente',
+          'description': 'Nuevos platos cada pocos minutos'
+        },
+        {
+          'title': 'Precios por Colores',
+          'description': 'Sabes exactamente cuánto pagas'
+        },
+        {
+          'title': 'Para Toda la Familia',
+          'description': 'Niños aman la experiencia interactiva'
+        }
+      ]
+    },
+    'howItWorks': {
+      'title': 'Cómo Funciona',
+      'subtitle': 'Tu primera vez en Kaiten Sushi',
+      'steps': [
+        {
+          'number': 1,
+          'title': 'Toma un Asiento',
+          'description': 'Elige tu lugar junto a la cinta transportadora'
+        },
+        {
+          'number': 2,
+          'title': 'Elige tus Platos',
+          'description': 'Toma lo que te gusta de la cinta. Cada color = diferente precio'
+        },
+        {
+          'number': 3,
+          'title': 'Pide Especiales',
+          'description': 'Usa la tableta para ordenar platos que no ves en la cinta'
+        },
+        {
+          'number': 4,
+          'title': 'Disfruta',
+          'description': 'Come a tu ritmo. Apilamos tus platos para contar al final'
+        }
+      ],
+      'tips': [
+        'Los platos verdes son los más económicos (básicos)',
+        'Los negros son premium (unagi, wagyu)',
+        'Puedes pedir cantidades específicas en la tableta',
+        'El té verde está incluido (sin límite)'
+      ]
+    },
+    'menuPage': {
+      'title': 'Menú por Colores',
+      'subtitle': 'Cada color, un precio. Tú eliges.',
+      'description': 'Nuestro sistema de colores te permite controlar tu presupuesto. Desde platos básicos hasta ultra premium.',
+      'plates': {
+        'green': {
+          'title': 'Platos Verdes',
+          'price': '15.000 Gs',
+          'items': [
+            'Tamago Maki',
+            'Kappa Maki',
+            'Inari',
+            'Platos básicos'
+          ],
+          'color': '#22c55e'
+        },
+        'yellow': {
+          'title': 'Platos Amarillos',
+          'price': '25.000 Gs',
+          'items': [
+            'Sake Nigiri',
+            'Maguro Nigiri',
+            'California Roll',
+            'Favoritos populares'
+          ],
+          'color': '#eab308'
+        },
+        'orange': {
+          'title': 'Platos Naranjas',
+          'price': '35.000 Gs',
+          'items': [
+            'Sake Aburi',
+            'Ebi Nigiri',
+            'Spicy Tuna Roll',
+            'Especiales'
+          ],
+          'color': '#f97316'
+        },
+        'red': {
+          'title': 'Platos Rojos',
+          'price': '50.000 Gs',
+          'items': [
+            'Hamachi',
+            'Hotate',
+            'Dragon Roll',
+            'Premium'
+          ],
+          'color': '#ef4444'
+        },
+        'black': {
+          'title': 'Platos Negros',
+          'price': '75.000 Gs',
+          'items': [
+            'Unagi',
+            'Wagyu Nigiri',
+            'Otoro',
+            'Ultra premium'
+          ],
+          'color': '#1a1a1a'
+        }
+      },
+      'specialOrder': {
+        'title': 'Pedidos Especiales',
+        'description': 'No ves lo que quieres? Ordena desde la tableta',
+        'items': [
+          'Ramen',
+          'Tempura',
+          'Postres',
+          'Bebidas especiales'
+        ]
+      }
+    },
+    'reservations': {
+      'title': 'Reservaciones',
+      'subtitle': 'Walk-ins bienvenidos, pero reservar asegura tu lugar',
+      'formLabels': {
+        'name': 'Nombre',
+        'phone': 'Teléfono',
+        'date': 'Fecha',
+        'time': 'Hora',
+        'guests': 'Personas',
+        'notes': 'Notas especiales'
+      },
+      'walkInInfo': {
+        'title': 'Walk-ins',
+        'description': '¡No tienes reserva? No hay problema! Tenemos espacio para walk-ins. Solo toma un número y te llamamos cuando haya lugar.'
+      },
+      'submitButton': 'Reservar',
+      'successMessage': '¡Reserva confirmada! Nos vemos pronto.'
+    },
+    'gallery': {
+      'title': 'Galería',
+      'subtitle': 'La magia de la cinta transportadora',
+      'categories': {
+        'conveyor': 'Cinta en Acción',
+        'plates': 'Nuestros Platos',
+        'interior': 'Ambiente',
+        'team': 'Equipo'
+      }
+    },
+    'contact': {
+      'title': 'Visítanos',
+      'subtitle': 'Experiencia Kaiten te espera',
+      'addressLabel': 'Dirección',
+      'phoneLabel': 'Teléfono',
+      'hoursLabel': 'Horarios',
+      'directionsButton': 'Cómo Llegar',
+      'callButton': 'Llamar',
+      'whatsappButton': 'WhatsApp'
+    },
+    'footer': {
+      'tagline': 'Sushi divertido para toda la familia',
+      'quickLinks': 'Enlaces',
+      'contact': 'Contacto',
+      'followUs': 'Síguenos'
+    },
+    'whatsapp': {
+      'defaultMessage': 'Hola! Quisiera saber si tienen mesas disponibles en {{businessName}}',
+      'birthdayMessage': 'Hola! Quisiera reservar para un cumpleaños'
+    },
+    'kidFriendly': {
+      'title': 'Perfecto para Niños',
+      'features': [
+        'Sillas altas disponibles',
+        'Menú infantil con precios especiales',
+        'Platos sin wasabi disponibles',
+        'Ambiente divertido y casual'
+      ]
     }
   }
 }

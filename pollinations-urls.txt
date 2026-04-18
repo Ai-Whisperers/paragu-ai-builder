@@ -1,0 +1,93 @@
+# SUSHI BAR IMAGES (9 images)
+# Open each URL in browser, save image, then rename according to filename
+
+## 1. sushi-bar-hero
+# Filename: sushi_bar/sushi-bar-hero.jpg
+# Size: 1920x1080
+https://image.pollinations.ai/prompt/Elegant%20traditional%20Japanese%20sushi%20bar%20interior%2C%20chef%20preparing%20sushi%20behind%20wooden%20counter%2C%20warm%20ambient%20lighting%20with%20paper%20lanterns%2C%20fresh%20fish%20display%20case%2C%20minimalist%20zen%20decor%20with%20bamboo%20accents.%20Authentic%20Japanese%20restaurant%20atmosphere%2C%20dark%20wood%20tones%20with%20subtle%20red%20accents%2C%20professional%20food%20photography%2C%208K%20quality%2C%20wide%20angle?width=1920&height=1080&nologo=true&seed=4628
+
+## 2. sushi-bar-interior
+# Filename: sushi_bar/sushi-bar-interior.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Upscale%20sushi%20restaurant%20dining%20area%20with%20modern%20Japanese%20aesthetic%2C%20wooden%20tables%20with%20clean%20lines%2C%20subtle%20lighting%20creating%20intimate%20atmosphere%2C%20sake%20bottles%20displayed%20on%20shelves%2C%20shoji%20screen%20dividers.%20Contemporary%20Japanese%20interior%20design%2C%20warm%20wood%20and%20black%20accents%2C%20architectural%20photography?width=1200&height=800&nologo=true&seed=8401
+
+## 3. sushi-bar-chef-action
+# Filename: sushi_bar/sushi-bar-chef-action.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Master%20sushi%20chef%20in%20white%20uniform%20carefully%20preparing%20nigiri%20at%20counter%2C%20skilled%20hands%20shaping%20rice%20and%20placing%20fresh%20fish%2C%20focused%20concentration%2C%20wooden%20counter%20with%20fresh%20ingredients%20organized%2C%20traditional%20Japanese%20kitchen%20atmosphere.%20Professional%20culinary%20photography%2C%20dramatic%20lighting?width=1200&height=800&nologo=true&seed=2231
+
+## 4. sushi-bar-sashimi
+# Filename: sushi_bar/sushi-bar-sashimi.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Artistic%20sashimi%20platter%20with%20fresh%20fish%20slices%20arranged%20beautifully%20on%20black%20slate%2C%20garnished%20with%20shredded%20daikon%20and%20shiso%20leaves%2C%20wasabi%20and%20ginger%20accents%2C%20dark%20wooden%20table%20background.%20Premium%20Japanese%20cuisine%20photography%2C%20vibrant%20colors%20of%20fresh%20tuna%20salmon%20and%20yellowtail?width=1200&height=800&nologo=true&seed=2062
+
+## 5. sushi-bar-nigiri
+# Filename: sushi_bar/sushi-bar-nigiri.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Close-up%20of%20assorted%20nigiri%20sushi%20pieces%20on%20wooden%20board%2C%20glistening%20fresh%20fish%20atop%20perfectly%20formed%20rice%2C%20variety%20including%20salmon%20tuna%20shrimp%20and%20eel%2C%20slight%20soy%20sauce%20glaze%20visible.%20Traditional%20Edomae%20style%20sushi%20photography%2C%20shallow%20depth%20of%20field%2C%20warm%20lighting?width=1200&height=800&nologo=true&seed=2087
+
+## 6. sushi-bar-maki
+# Filename: sushi_bar/sushi-bar-maki.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Colorful%20maki%20sushi%20rolls%20arranged%20in%20artistic%20pattern%20on%20ceramic%20plate%2C%20inside-out%20California%20rolls%20and%20traditional%20hosomaki%20visible%2C%20sesame%20seeds%20and%20fish%20roe%20toppings%2C%20soy%20sauce%20dish%20nearby.%20Fresh%20sushi%20photography%2C%20vibrant%20appetizing%20colors%2C%20clean%20composition?width=1200&height=800&nologo=true&seed=4960
+
+## 7. sushi-bar-temaki
+# Filename: sushi_bar/sushi-bar-temaki.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Hand%20roll%20temaki%20cones%20standing%20upright%20on%20wooden%20holder%2C%20crispy%20nori%20seaweed%20filled%20with%20rice%20and%20fresh%20ingredients%2C%20salmon%20and%20avocado%20visible%2C%20traditional%20Japanese%20presentation.%20Casual%20sushi%20dining%20photography%2C%20natural%20lighting%2C%20appetizing%20food%20styling?width=1200&height=800&nologo=true&seed=7214
+
+## 8. sushi-bar-omakase
+# Filename: sushi_bar/sushi-bar-omakase.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Premium%20omakase%20dining%20experience%2C%20chef%20presenting%20curated%20selection%20of%20sushi%20pieces%20to%20customer%20at%20counter%2C%20elegant%20progression%20of%20dishes%20on%20dark%20ceramic%20plates%2C%20sake%20glass%20visible.%20Luxury%20Japanese%20dining%20photography%2C%20intimate%20counter%20seating%20atmosphere%2C%20refined%20presentation?width=1200&height=800&nologo=true&seed=1312
+
+## 9. sushi-bar-sake
+# Filename: sushi_bar/sushi-bar-sake.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Traditional%20sake%20service%20with%20ceramic%20tokkuri%20flask%20and%20ochoko%20cups%2C%20premium%20Japanese%20sake%20bottles%20displayed%2C%20warm%20amber%20liquid%2C%20elegant%20minimalist%20presentation%20on%20wooden%20tray.%20Japanese%20beverage%20photography%2C%20refined%20drinking%20culture%20aesthetic%2C%20warm%20ambient%20lighting?width=1200&height=800&nologo=true&seed=7973
+
+
+# KAITEN ZUSHI IMAGES (6 images)
+
+## 1. kaiten-hero
+# Filename: kaiten_zushi/kaiten-hero.jpg
+# Size: 1920x1080
+https://image.pollinations.ai/prompt/Modern%20conveyor%20belt%20sushi%20restaurant%20interior%2C%20colorful%20sushi%20plates%20moving%20on%20rotating%20belt%2C%20customers%20seated%20around%20counter%20selecting%20dishes%2C%20bright%20contemporary%20lighting%2C%20Japanese%20pop%20culture%20decor%20elements.%20Fun%20casual%20dining%20atmosphere%2C%20clean%20modern%20design%2C%20energetic%20environment?width=1920&height=1080&nologo=true&seed=8558
+
+## 2. kaiten-conveyor
+# Filename: kaiten_zushi/kaiten-conveyor.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Close-up%20of%20sushi%20plates%20moving%20on%20conveyor%20belt%20system%2C%20variety%20of%20sushi%20types%20on%20color-coded%20plates%20passing%20by%2C%20steam%20rising%20from%20hot%20dishes%2C%20modern%20restaurant%20setting.%20Dynamic%20food%20service%20photography%2C%20appetizing%20presentation?width=1200&height=800&nologo=true&seed=1446
+
+## 3. kaiten-family
+# Filename: kaiten_zushi/kaiten-family.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Family%20enjoying%20conveyor%20belt%20sushi%20together%2C%20parents%20and%20children%20selecting%20plates%20from%20moving%20belt%2C%20happy%20casual%20dining%20experience%2C%20colorful%20plates%20accumulated%20on%20table%2C%20modern%20family%20restaurant%20atmosphere.%20Lifestyle%20food%20photography%2C%20warm%20candid%20moments?width=1200&height=800&nologo=true&seed=534
+
+## 4. kaiten-tablet
+# Filename: kaiten_zushi/kaiten-tablet.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Customer%20using%20touchscreen%20tablet%20to%20order%20custom%20sushi%20at%20table%2C%20modern%20technology%20meets%20traditional%20cuisine%2C%20clean%20interface%20showing%20menu%20options%2C%20conveyor%20belt%20visible%20in%20background.%20Tech-integrated%20dining%20photography%2C%20contemporary%20restaurant%20experience?width=1200&height=800&nologo=true&seed=8517
+
+## 5. kaiten-plates
+# Filename: kaiten_zushi/kaiten-plates.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Stack%20of%20colorful%20conveyor%20belt%20sushi%20plates%20accumulated%20on%20table%2C%20tower%20of%20empty%20plates%20showing%20satisfying%20meal%20completion%2C%20variety%20of%20plate%20colors%20representing%20different%20prices%2C%20casual%20fun%20atmosphere.%20Satisfying%20food%20photography%2C%20playful%20dining%20experience?width=1200&height=800&nologo=true&seed=9975
+
+## 6. kaiten-guests
+# Filename: kaiten_zushi/kaiten-guests.jpg
+# Size: 1200x800
+https://image.pollinations.ai/prompt/Diverse%20group%20of%20customers%20seated%20at%20conveyor%20belt%20sushi%20counter%2C%20selecting%20fresh%20plates%20as%20they%20pass%20by%2C%20engaged%20and%20happy%20dining%20experience%2C%20modern%20open%20restaurant%20design.%20Social%20dining%20photography%2C%20casual%20restaurant%20atmosphere?width=1200&height=800&nologo=true&seed=5141
+
+
+# INSTRUCTIONS:
+# 1. Copy each URL
+# 2. Paste into browser address bar
+# 3. Wait for image to load (10-30 seconds)
+# 4. Right-click → Save image as...
+# 5. Navigate to sites/shared-images/
+# 6. Save with correct filename
+# 7. Repeat for all images
+#
+# ALTERNATIVE: Use bulk download tool or wget:
+# wget -O sites/shared-images/sushi_bar/sushi-bar-hero.jpg "URL_HERE"

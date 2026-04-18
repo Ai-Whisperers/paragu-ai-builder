@@ -1,23 +1,38 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 import { composePageForType } from '@/lib/engine/compose'
+import { validateBusinessData } from '@/lib/generation/validate'
+import { createRequestLogger, createPerformanceTracker } from '@/lib/logger'
 
 export const runtime = 'nodejs'
 
 export async function POST(request: NextRequest) {
+  const log = createRequestLogger(request)
+  const perf = createPerformanceTracker(log.requestId)
+
+  const errorResponse = (status: number, body: Record<string, unknown>) =>
+    NextResponse.json({ ...body, requestId: log.requestId }, {
+      status,
+      headers: { 'x-request-id': log.requestId },
+    })
+
   try {
     const supabase = await createClient()
+    perf.checkpoint('supabase-client')
 
     const { data: { user }, error: authError } = await supabase.auth.getUser()
+    perf.checkpoint('auth')
     if (authError || !user) {
-      return NextResponse.json({ error: 'No autorizado' }, { status: 401 })
+      log.warn('Unauthorized /api/generate request', { error: authError?.message })
+      return errorResponse(401, { error: 'No autorizado' })
     }
 
     const body = await request.json()
     const { businessId, pageType = 'homepage' } = body
 
     if (!businessId) {
-      return NextResponse.json({ error: 'Falta businessId' }, { status: 400 })
+      log.warn('Missing businessId on /api/generate', { userId: user.id })
+      return errorResponse(400, { error: 'Falta businessId' })
     }
 
     const { data: business, error: businessError } = await supabase
@@ -26,10 +41,18 @@ export async function POST(request: NextRequest) {
       .eq('id', businessId)
       .eq('user_id', user.id)
       .single()
+    perf.checkpoint('business-fetch')
 
     if (businessError || !business) {
-      return NextResponse.json({ error: 'Negocio no encontrado' }, { status: 404 })
+      log.warn('Business not found or not owned by user', {
+        businessId,
+        userId: user.id,
+        error: businessError?.message,
+      })
+      return errorResponse(404, { error: 'Negocio no encontrado' })
     }
+
+    log.info('Composing page', { businessId, businessType: business.type, pageType })
 
     const businessData = {
       name: business.name,
@@ -54,21 +77,37 @@ export async function POST(request: NextRequest) {
       heroImage: business.hero_image,
     }
 
-    const composed = await composePageForType(businessData, pageType)
-
-    return NextResponse.json({
-      success: true,
-      business: business.slug,
-      page: pageType,
-      meta: composed.meta,
-      sectionsCount: composed.sections.length,
-      generatedAt: new Date().toISOString(),
+    const validation = validateBusinessData(businessData, {
+      businessSlug: business.slug,
+      source: 'api/generate',
     })
-  } catch (error) {
-    console.error('[API/generate] Error:', error)
+    if (!validation.success) {
+      return errorResponse(422, {
+        error: 'Datos del negocio invalidos',
+        validationErrors: validation.errors,
+      })
+    }
+    perf.checkpoint('validate')
+
+    const composed = await composePageForType(validation.data!, pageType)
+    perf.checkpoint('compose')
+    const duration = perf.finish({ businessId, businessType: business.type, pageType })
+
     return NextResponse.json(
-      { error: 'Error interno del servidor' },
-      { status: 500 }
+      {
+        success: true,
+        business: business.slug,
+        page: pageType,
+        meta: composed.meta,
+        sectionsCount: composed.sections.length,
+        generatedAt: new Date().toISOString(),
+        requestId: log.requestId,
+        durationMs: duration,
+      },
+      { headers: { 'x-request-id': log.requestId } },
     )
+  } catch (error) {
+    log.error('Unhandled error in /api/generate', error instanceof Error ? error : new Error(String(error)))
+    return errorResponse(500, { error: 'Error interno del servidor' })
   }
 }

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { logger } from '@/lib/logger'
 
 interface BookingFormProps {
   service?: { name: string; price?: string; duration?: number }
@@ -44,6 +45,10 @@ export default function BookingForm({
       await onSubmit(formData)
       setStatus('success')
     } catch (err) {
+      logger.warn('Booking form submission failed', {
+        action: 'bookingForm.submit',
+        error: err instanceof Error ? err.message : String(err),
+      })
       setStatus('error')
     }
   }

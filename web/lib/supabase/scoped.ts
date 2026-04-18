@@ -14,18 +14,52 @@
  */
 
 import { SupabaseClient } from '@supabase/supabase-js'
+import { logger } from '@/lib/logger'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type QueryFilter = (query: any) => any
 
-const SLOW_QUERY_THRESHOLD_MS = 1000
+const SLOW_QUERY_THRESHOLD_MS = parseInt(process.env.SLOW_QUERY_THRESHOLD_MS || '1000', 10)
 
-function trackQuery(table: string, operation: string, duration: number, rowCount?: number): void {
+function trackQuery(
+  table: string,
+  operation: string,
+  duration: number,
+  businessId: string,
+  rowCount?: number,
+  error?: Error | null,
+): void {
+  const ms = Math.round(duration)
+  if (error) {
+    logger.error('Scoped query failed', {
+      action: 'scopedQuery',
+      table,
+      operation,
+      businessId,
+      duration: ms,
+      rowCount,
+      error: error.message,
+    })
+    return
+  }
   if (duration > SLOW_QUERY_THRESHOLD_MS) {
-    console.warn(
-      `[SLOW QUERY] ${operation} ${table}: ${Math.round(duration)}ms` +
-        (rowCount !== undefined ? ` (${rowCount} rows)` : '')
-    )
+    logger.warn('Slow scoped query', {
+      action: 'scopedQuery',
+      table,
+      operation,
+      businessId,
+      duration: ms,
+      rowCount,
+    })
+  } else {
+    logger.debug('Scoped query', {
+      action: 'scopedQuery',
+      table,
+      operation,
+      businessId,
+      duration: ms,
+      rowCount,
+    })
   }
 }
 
@@ -58,13 +92,13 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
 
       if (options?.single) {
         const result = await query.single()
-        trackQuery(table, 'select', performance.now() - startTime, result.data ? 1 : 0)
+        trackQuery(table, 'select', performance.now() - startTime, businessId, result.data ? 1 : 0, result.error)
         return { data: result.data as T | null, error: result.error, count: result.count ?? undefined }
       }
 
       const result = await query
       const rowCount = Array.isArray(result.data) ? result.data.length : undefined
-      trackQuery(table, 'select', performance.now() - startTime, rowCount)
+      trackQuery(table, 'select', performance.now() - startTime, businessId, rowCount, result.error)
       return { data: result.data as T[] | null, error: result.error, count: result.count ?? undefined }
     },
 
@@ -83,7 +117,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
 
       const baseQuery = supabase.from(table).insert(scopedRecords)
       const result = options?.returning !== false ? await baseQuery.select() : await baseQuery
-      trackQuery(table, 'insert', performance.now() - startTime, scopedRecords.length)
+      trackQuery(table, 'insert', performance.now() - startTime, businessId, scopedRecords.length, result.error)
       return { data: result.data as T[] | null, error: result.error }
     },
 
@@ -103,7 +137,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
 
       const result = options?.returning !== false ? await baseQuery.select() : await baseQuery
       const rowCount = Array.isArray(result.data) ? result.data.length : undefined
-      trackQuery(table, 'update', performance.now() - startTime, rowCount)
+      trackQuery(table, 'update', performance.now() - startTime, businessId, rowCount, result.error)
       return { data: result.data as T[] | null, error: result.error }
     },
 
@@ -114,7 +148,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
       query = filter(query)
 
       const result = await query
-      trackQuery(table, 'delete', performance.now() - startTime)
+      trackQuery(table, 'delete', performance.now() - startTime, businessId, undefined, result.error)
       return { error: result.error }
     },
 
@@ -131,7 +165,7 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
       }
 
       const result = await query
-      trackQuery(table, 'count', performance.now() - startTime, result.count || 0)
+      trackQuery(table, 'count', performance.now() - startTime, businessId, result.count || 0, result.error)
       return { count: result.count || 0, error: result.error }
     },
 

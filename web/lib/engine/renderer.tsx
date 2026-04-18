@@ -6,6 +6,7 @@
  */
 
 import type { ComposedSection } from './compose'
+import { logger } from '@/lib/logger'
 import { HeaderSection } from '@/components/sections/header-section'
 import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
@@ -35,6 +36,9 @@ import { TrustSignalsSection } from '@/components/sections/trust-signals-section
 import { ProgramsComparisonSection } from '@/components/sections/programs-comparison-section'
 import { WhyDestinationSection } from '@/components/sections/why-destination-section'
 import { ProcessTimelineSection } from '@/components/sections/process-timeline-section'
+import { OmakaseSection } from '@/components/sections/omakase-section'
+import { SakeMenuSection } from '@/components/sections/sake-menu-section'
+import { ConveyorBeltSection } from '@/components/sections/conveyor-belt-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -76,12 +80,22 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'process-timeline': ProcessTimelineSection,
   'cta-banner': CTABannerSection,
   'whatsapp-float': WhatsAppFloat,
+  // Restaurant/Sushi sections
+  omakase: OmakaseSection,
+  sakeMenu: SakeMenuSection,
+  conveyorBelt: ConveyorBeltSection,
+  'sake-menu': SakeMenuSection,
+  'conveyor-belt': ConveyorBeltSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {
   const Component = SECTION_COMPONENTS[section.type]
   if (!Component) {
-    console.warn(`[Renderer] Unknown section type: ${section.type}`)
+    logger.warn('Unknown section type — skipping render', {
+      action: 'renderSection',
+      sectionType: section.type,
+      order: section.order,
+    })
     return null
   }
 

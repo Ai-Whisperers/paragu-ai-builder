@@ -6,7 +6,8 @@ import {
   Palette, Zap, Eye, Star, Globe, Smartphone, Search, MessageCircle,
   ArrowRight, ChevronRight, BarChart3, Layers, Wand2, ExternalLink,
   MapPin, Users, TrendingUp, ShoppingCart, Check, X, HelpCircle, Mail,
-  Quote, Menu, X as XIcon, ChevronDown, ArrowUp, PlayCircle
+  Quote, Menu, X as XIcon, ChevronDown, ArrowUp, PlayCircle,
+  UtensilsCrossed, Fish, CircleDot
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
@@ -28,6 +29,9 @@ const TEMPLATES = [
   { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
   { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
+  { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 800, pct: 65, color: '#8B4513', demoSlug: 'la-trattoria' },
+  { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 350, pct: 70, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
+  { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 200, pct: 75, color: '#2196F3', demoSlug: 'kaiten-express' },
   { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#e84393', demoSlug: null },
   { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
   { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a', demoSlug: null },
@@ -45,7 +49,7 @@ const FEATURES = [
   { icon: Search, title: 'SEO Integrado', desc: 'Meta tags, Schema.org y contenido optimizado para posicionar en Google.' },
   { icon: MessageCircle, title: 'WhatsApp Directo', desc: 'Botón flotante de WhatsApp para que tus clientes te contacten al instante.' },
   { icon: Globe, title: 'Dominio Propio', desc: 'Cada negocio con su propia URL profesional y certificado SSL.' },
-  { icon: Layers, title: '20 Plantillas', desc: 'Diseños especializados para múltiples tipos de negocio con más en camino.' },
+  { icon: Layers, title: '23 Plantillas', desc: 'Diseños especializados para múltiples tipos de negocio con más en camino.' },
 ]
 
 const STEPS = [
@@ -389,7 +393,7 @@ export default function HomePage() {
               <FadeIn delay={600}>
                 <div className="mx-auto mt-20 grid max-w-3xl grid-cols-2 gap-8 rounded-2xl border border-[var(--border)] bg-[var(--surface)]/80 p-8 backdrop-blur-sm sm:grid-cols-4">
                   {[
-                    { value: '20', label: 'Plantillas' },
+                    { value: '23', label: 'Plantillas' },
                     { value: '7.4K+', label: 'Negocios' },
                     { value: `${heroCount2}%`, label: 'Sin Web' },
                     { value: '15min', label: 'Para crear' },

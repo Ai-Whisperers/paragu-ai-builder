@@ -12,9 +12,10 @@ export const dynamicParams = true // Allow any business slug
 
 export async function generateStaticParams() {
   const demoSlugs = [
-    'salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks', 
-    'barberia-clasica', 'tinta-viva', 'belleza-integral', 'studio-belleza', 
-    'pestanas-flore', 'depilacion-perfecta', 'unas-y-mas', 'de-abasto-a-casa'
+    'salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks',
+    'barberia-clasica', 'tinta-viva', 'belleza-integral', 'studio-belleza',
+    'pestanas-flore', 'depilacion-perfecta', 'unas-y-mas', 'de-abasto-a-casa',
+    'sakura-sushi', 'kaiten-express', 'la-trattoria'
   ]
   return demoSlugs.map((slug) => ({ business: slug }))
 }
@@ -34,6 +35,9 @@ function generateJsonLd(business: { type: string; name: string; slug: string; ad
     pestanas: 'BeautySalon',
     diseno_grafico: 'ProfessionalService',
     meal_prep: 'FoodService',
+    restaurant: 'Restaurant',
+    sushi_bar: 'Restaurant',
+    kaiten_zushi: 'Restaurant',
   }
 
   const schema = {

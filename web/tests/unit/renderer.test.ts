@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
-import { renderSection, renderSections } from '../lib/engine/renderer'
-import type { ComposedSection } from '../lib/engine/compose'
+import { renderSection, renderSections } from '@/lib/engine/renderer'
+import type { ComposedSection } from '@/lib/engine/compose'
 
 describe('renderer.tsx - renderSection', () => {
   it('should render header section', () => {
@@ -272,7 +272,10 @@ describe('renderer.tsx - renderSection', () => {
   })
 
   it('should log warning for unknown section type', () => {
-    const consoleSpy = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    // logger.warn calls console.log under the hood (see lib/logger.ts). We
+    // assert the warning is surfaced to stdout with the section type in the
+    // structured context, without coupling to exact formatter output.
+    const consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {})
     const section: ComposedSection = {
       type: 'unknown' as never,
       order: 0,
@@ -280,7 +283,10 @@ describe('renderer.tsx - renderSection', () => {
     }
     const result = renderSection(section)
     expect(result).toBeNull()
-    expect(consoleSpy).toHaveBeenCalledWith('[Renderer] Unknown section type:', 'unknown')
+    expect(consoleSpy).toHaveBeenCalled()
+    const logged = consoleSpy.mock.calls.map((c) => String(c[0])).join('\n')
+    expect(logged).toContain('Unknown section type')
+    expect(logged).toContain('unknown')
     consoleSpy.mockRestore()
   })
 })
