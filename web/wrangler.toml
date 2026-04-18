@@ -1,10 +1,14 @@
 name = "paragu-ai-builder"
 main = ".open-next/worker.js"
-compatibility_date = "2025-09-23"
+compatibility_date = "2025-04-01"
 compatibility_flags = ["nodejs_compat"]
 
-workers_dev = true
+[observability]
+enabled = true
 
 [assets]
 directory = ".open-next/assets"
 binding = "ASSETS"
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://paragu-ai.com"
