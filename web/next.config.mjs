@@ -48,8 +48,8 @@ const securityHeaders = [
 ]
 
 const nextConfig = {
-  // NOTE: Do NOT set output: 'standalone' — Cloudflare Pages uses its own adapter.
-  // For Docker/self-hosted, switch back to 'standalone'.
+  // Enable standalone output for VPS/Docker deployment
+  output: 'standalone',
 
   typescript: {
     ignoreBuildErrors: true,

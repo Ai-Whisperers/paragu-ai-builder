@@ -14,7 +14,7 @@ import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import { LeadsDashboardClient } from './leads-dashboard-client'
 
-export const runtime = 'edge'
+export const runtime = 'nodejs'
 
 export const metadata = {
   title: 'Admin - Lead Management | Paragu-AI',
