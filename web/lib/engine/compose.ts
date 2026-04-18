@@ -15,8 +15,7 @@
 import type { BusinessType } from '@/lib/types'
 import type { PageType } from '@/lib/types'
 import { fillTemplate } from '@/lib/utils'
-import { readFileSync } from 'fs'
-import { resolve } from 'path'
+import { getRegistry, getContent } from './static-config'
 
 // Section types matching our component library
 export type SectionType =
@@ -150,15 +149,12 @@ export interface ComposedPage {
   }
 }
 
-function loadJson<T>(relativePath: string): T | null {
-  try {
-    const fullPath = resolve(process.cwd(), '..', relativePath)
-    const content = readFileSync(fullPath, 'utf-8')
-    return JSON.parse(content)
-  } catch (error) {
-    console.error(`[Compose] Failed to load JSON from ${relativePath}:`, error)
-    return null
-  }
+function loadRegistry(type: string): RegistryType | null {
+  return getRegistry(type) as RegistryType | null
+}
+
+function loadContent(type: string): ContentTemplate | null {
+  return getContent(type) as ContentTemplate | null
 }
 
 interface RegistryType {
@@ -303,8 +299,8 @@ export async function composePageForType(
   business: BusinessData,
   pageType: PageType
 ): Promise<ComposedPage> {
-  const registry = loadJson<RegistryType>(`src/registry/${business.type}.type.json`)
-  const content = loadJson<ContentTemplate>(`src/content/${business.type}.content.json`)
+  const registry = loadRegistry(business.type)
+  const content = loadContent(business.type)
 
   if (!registry || !content) {
     throw new Error(
