@@ -1,0 +1,68 @@
+{
+  "id": "inversiones",
+  "nameEs": "Inversiones",
+  "nameEn": "Investment",
+
+  "tokens": "inversiones",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "team", "testimonial", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "servicios": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "equipo": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contacto": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false },
+    "serviceMenu": { "enabled": true, "showPrices": false, "showDuration": false, "filterable": false },
+    "portfolio": { "enabled": false },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": true, "showInstagram": false, "bookable": false },
+    "pricingDisplay": { "enabled": false },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["asesoria", "inmuebles", "fondos", "retiro", "riesgo"],
+
+  "targetAudience": {
+    "primary": "High net worth individuals, professionals 35-60",
+    "secondary": "Business owners, retirees"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Asesoria de Inversiones en {{city}}",
+    "descriptionTemplate": "Gestion de inversiones y planificacion financiera en {{city}}. Hacemos crecer tu capital.",
+    "schemaType": "FinancialService",
+    "keywords": ["inversiones {{city}}", "asesoria financiera {{city}}", "fondos de inversion {{city}}", "plan de retiro {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Equipo", "Contacto"],
+    "cta": { "text": "Consultar", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Hacemos Crecer tu Capital",
+    "subheadlineTemplate": "Asesoria financiera profesional y gestion de inversiones",
+    "ctaPrimary": { "text": "Consultar Ahora", "action": "whatsapp" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}

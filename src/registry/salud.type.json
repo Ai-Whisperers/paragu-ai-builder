@@ -1,0 +1,68 @@
+{
+  "id": "salud",
+  "nameEs": "Salud",
+  "nameEn": "Health",
+
+  "tokens": "salud",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "team", "testimonial", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "servicios": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "equipo": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contacto": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "whatsapp", "fallback": "phone" },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": true, "filterable": true },
+    "portfolio": { "enabled": false },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": true, "showInstagram": false, "bookable": true },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": true },
+    "classSchedule": { "enabled": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["medicina general", "especialidades", "laboratorio", "emergencias"],
+
+  "targetAudience": {
+    "primary": "Families, adults 25-55",
+    "secondary": "Children, elderly patients"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Centro de Salud en {{city}} | Medicina Integral",
+    "descriptionTemplate": "Atencion medica integral en {{city}}. Consultas, especialidades y laboratorio.",
+    "schemaType": "MedicalClinic",
+    "keywords": ["medico {{city}}", "clinica {{city}}", "consultorio medico {{city}}", "laboratorio {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Servicios", "Equipo", "Contacto"],
+    "cta": { "text": "Agendar Cita", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Tu Salud en Buenas Manos",
+    "subheadlineTemplate": "Atencion medica integral con los mejores profesionales",
+    "ctaPrimary": { "text": "Agendar Cita", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}
