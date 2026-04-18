@@ -1,6 +1,8 @@
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 import { BUSINESS_TYPES } from '@/lib/types'
 
+export const runtime = 'edge'
+
 const TYPE_LABELS: Record<string, string> = {
   peluqueria: 'Peluqueria',
   salon_belleza: 'Salon de Belleza',
