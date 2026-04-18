@@ -36,12 +36,23 @@ cd /home/ai-whisperers/paragu-ai-builder
 rm -rf /tmp/deploy-staging
 mkdir -p /tmp/deploy-staging
 
-# Copy built Next.js app (standalone output is in web/.next/standalone/web/)
+# Copy built Next.js app (standalone output already includes .next and server)
 cp -r web/.next/standalone/web/* /tmp/deploy-staging/
 
-# Create .next directory and copy static files
-mkdir -p /tmp/deploy-staging/.next
+# Copy server files and metadata (for production server)
+mkdir -p /tmp/deploy-staging/.next/server
+cp -r web/.next/server /tmp/deploy-staging/.next/
+cp web/.next/BUILD_ID /tmp/deploy-staging/.next/
+cp web/.next/package.json /tmp/deploy-staging/.next/
+cp web/.next/required-server-files.json /tmp/deploy-staging/.next/
+cp web/.next/routes-manifest.json /tmp/deploy-staging/.next/
+cp web/.next/prerender-manifest.json /tmp/deploy-staging/.next/
+cp web/.next/build-manifest.json /tmp/deploy-staging/.next/
+cp web/.next/fallback-build-manifest.json /tmp/deploy-staging/.next/
+cp web/.next/app-path-routes-manifest.json /tmp/deploy-staging/.next/
 cp -r web/.next/static /tmp/deploy-staging/.next/
+
+# Copy public (static files)
 cp -r web/public /tmp/deploy-staging/
 
 # Copy sites and src (needed by site-loader)
