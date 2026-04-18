@@ -1,0 +1,65 @@
+{
+  "siteName": "Nexa Propiedades",
+  "tagline": "Your new home in Paraguay awaits",
+  "placeholders": {
+    "country": "Paraguay",
+    "city": "Asunción",
+    "propertyCount": "500+",
+    "agentCount": "15",
+    "experienceYears": "10"
+  },
+  "navigation": {
+    "businessName": "Nexa Propiedades",
+    "navItems": [
+      { "label": "Home", "href": "/s/en/nexa-propiedades" },
+      { "label": "Properties", "href": "/s/en/nexa-propiedades/propiedades" },
+      { "label": "Services", "href": "/s/en/nexa-propiedades/servicios" },
+      { "label": "Contact", "href": "/s/en/nexa-propiedades/contacto" }
+    ],
+    "ctaText": "Search Properties",
+    "ctaHref": "/s/en/nexa-propiedades/contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Nexa Propiedades — Houses and Apartments in Paraguay",
+      "description": "Find your ideal home in Paraguay. Houses, apartments and land in Asunción and surroundings."
+    },
+    "hero": {
+      "headline": "Find your dream home in Paraguay",
+      "subheadline": "Over 500 properties available in Asunción and the best areas of the country.",
+      "ctaPrimaryText": "View Properties",
+      "ctaPrimaryHref": "/s/en/nexa-propiedades/propiedades",
+      "ctaSecondaryText": "Contact Agent",
+      "ctaSecondaryHref": "/s/en/nexa-propiedades/contacto"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need for your real estate investment",
+    "services": [
+      { "name": "Property Purchase", "description": "We accompany you from search to deed.", "price": "Inquire" },
+      { "name": "Property Sale", "description": "Fair valuation and professional marketing.", "price": "2% commission" },
+      { "name": "Rentals", "description": "Complete rental property management.", "price": "10% monthly" },
+      { "name": "Legal Advice", "description": "Complete document verification.", "price": "From $200" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We are here to help you",
+    "phone": "+595 981 234 567",
+    "email": "info@nexapropiedades.com",
+    "address": "Av. Aviadores del Chaco 1234, Asunción",
+    "hours": "Monday to Friday: 9:00 - 18:00"
+  },
+  "footer": {
+    "businessName": "Nexa Propiedades",
+    "tagline": "Your trusted real estate partner",
+    "address": "Av. Aviadores del Chaco 1234, Asunción, Paraguay",
+    "phone": "+595 981 234 567",
+    "email": "info@nexapropiedades.com"
+  },
+  "whatsapp": {
+    "phone": "+595 981 234 567",
+    "message": "Hello, I'm interested in learning more about available properties."
+  }
+}

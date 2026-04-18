@@ -4,7 +4,7 @@ import { loadSite } from '@/lib/engine/site-loader'
 import { resolveAdapters } from '@/lib/integrations/registry'
 import type { Lead } from '@/lib/integrations/types'
 
-export const runtime = 'nodejs'
+export const runtime = 'edge'
 
 const LeadSchema = z.object({
   siteSlug: z.string().min(1),

@@ -2,7 +2,7 @@
  * Supported locales across the platform.
  * Sites opt into a subset via `site.json.locales`.
  */
-export const ALL_LOCALES = ['nl', 'en', 'de', 'es'] as const
+export const ALL_LOCALES = ['nl', 'en', 'de', 'es', 'pt'] as const
 export type Locale = (typeof ALL_LOCALES)[number]
 
 export const LOCALE_LABELS: Record<Locale, string> = {
@@ -10,6 +10,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   en: 'English',
   de: 'Deutsch',
   es: 'Español',
+  pt: 'Português',
 }
 
 export const LOCALE_HTML_LANG: Record<Locale, string> = {
@@ -17,6 +18,7 @@ export const LOCALE_HTML_LANG: Record<Locale, string> = {
   en: 'en-US',
   de: 'de-DE',
   es: 'es',
+  pt: 'pt-BR',
 }
 
 export function isLocale(value: string): value is Locale {

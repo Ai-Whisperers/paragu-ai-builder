@@ -22,6 +22,15 @@ export const SITES = {
     locales: ['en', 'es'],
     pages: ['home', 'programas', 'por-que-uruguay', 'proceso', 'sobre', 'faq', 'contacto'],
   },
+  'nexa-propiedades': {
+    slug: 'nexa-propiedades',
+    vertical: 'inmobiliaria',
+    country: 'Paraguay',
+    domain: 'nexapropiedades.com',
+    defaultLocale: 'es',
+    locales: ['es', 'en', 'pt'],
+    pages: ['home', 'propiedades', 'servicios', 'contacto'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

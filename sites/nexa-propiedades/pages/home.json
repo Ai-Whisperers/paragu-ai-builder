@@ -1,0 +1,38 @@
+{
+  "slug": "home",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "schemaType": "RealEstateAgent",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "split",
+      "content": "home.hero"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "services"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}
