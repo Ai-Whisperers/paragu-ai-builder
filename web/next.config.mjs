@@ -55,8 +55,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
 
-  // Use webpack instead of Turbopack for better optimization control
-  turbopack: false,
+  // Use Turbopack (default in Next.js 16)
+  // Empty config to enable it explicitly
+  turbopack: {},
 
   // Disable trailing slash to match catch-all route behavior
   trailingSlash: false,
@@ -88,58 +89,6 @@ const nextConfig = {
       '@supabase/supabase-js',
     ],
   },
-
-  // Webpack optimization for smaller bundles
-  webpack: (config, { isServer, nextRuntime }) => {
-    // Optimize chunks
-    if (!isServer) {
-      config.optimization = {
-        ...config.optimization,
-        splitChunks: {
-          chunks: 'all',
-          cacheGroups: {
-            default: false,
-            vendors: false,
-            // Vendor chunk for node_modules
-            vendor: {
-              name: 'vendor',
-              chunks: 'all',
-              test: /[\\/]node_modules[\\/]/,
-              priority: 20,
-            },
-            // Common chunk for shared code
-            common: {
-              name: 'common',
-              minChunks: 2,
-              chunks: 'all',
-              priority: 10,
-              reuseExistingChunk: true,
-              enforce: true,
-            },
-          },
-        },
-        runtimeChunk: {
-          name: 'runtime',
-        },
-      }
-    }
-
-    // Edge runtime specific optimizations
-    if (nextRuntime === 'edge') {
-      // Minimize polyfills
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        path: false,
-        crypto: false,
-      }
-    }
-
-    return config
-  },
-
-  // Minification settings
-  swcMinify: true,
 
   // Compress output
   compress: true,
