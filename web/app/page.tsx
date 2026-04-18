@@ -16,18 +16,25 @@ import { useInView, useScrollProgress, useActiveSection, useCountUp } from '@/li
 
 const TEMPLATES = [
   { id: 'peluqueria', name: 'Peluqueria', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: 'salon-maria' },
-  { id: 'salon_belleza', name: 'Salon de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'salon-bella-vista' },
+  { id: 'salon_belleza', name: 'Salon de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'studio-belleza' },
   { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoSlug: 'gymfit-py' },
   { id: 'spa', name: 'Spa & Wellness', icon: Flower2, leads: 927, pct: 76, color: '#7c9885', demoSlug: 'spa-serenidad' },
-  { id: 'barberia', name: 'Barberia', icon: User, leads: 778, pct: 77, color: '#8b6914', demoSlug: 'barberia-el-rey' },
-  { id: 'unas', name: 'Unas', icon: Hand, leads: 488, pct: 75, color: '#c77dba', demoSlug: 'uñas-nails-py' },
-  { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e', demoSlug: 'ink-arte-py' },
-  { id: 'estetica', name: 'Estetica / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8', demoSlug: 'estetica-bella' },
-  { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#c44569', demoSlug: 'makeup-artist-py' },
-  { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flix' },
-  { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-py' },
-  { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'relocation-services' },
-  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'meal-prep-py' },
+  { id: 'barberia', name: 'Barberia', icon: User, leads: 778, pct: 77, color: '#8b6914', demoSlug: 'barberia-clasica' },
+  { id: 'unas', name: 'Unas', icon: Hand, leads: 488, pct: 75, color: '#c77dba', demoSlug: 'unas-y-mas' },
+  { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e', demoSlug: 'tinta-viva' },
+  { id: 'estetica', name: 'Estetica / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8', demoSlug: 'belleza-integral' },
+  { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: Palette, leads: 100, pct: 80, color: '#c44569', demoSlug: 'dayah-litworks' },
+  { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
+  { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
+  { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
+  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
+  { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#e84393', demoSlug: null },
+  { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
+  { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a', demoSlug: null },
+  { id: 'consultoria', name: 'Consultoria', icon: BarChart3, leads: 0, pct: 0, color: '#4a90a4', demoSlug: null },
+  { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed', demoSlug: null },
+  { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669', demoSlug: null },
+  { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706', demoSlug: null },
 ] as const
 
 const TOTAL_LEADS = 7463
@@ -38,7 +45,7 @@ const FEATURES = [
   { icon: Search, title: 'SEO Integrado', desc: 'Meta tags, Schema.org y contenido optimizado para posicionar en Google.' },
   { icon: MessageCircle, title: 'WhatsApp Directo', desc: 'Botón flotante de WhatsApp para que tus clientes te contacten al instante.' },
   { icon: Globe, title: 'Dominio Propio', desc: 'Cada negocio con su propia URL profesional y certificado SSL.' },
-  { icon: Layers, title: '18 Plantillas', desc: 'Diseños especializados para múltiples tipos de negocio con más en camino.' },
+  { icon: Layers, title: '20 Plantillas', desc: 'Diseños especializados para múltiples tipos de negocio con más en camino.' },
 ]
 
 const STEPS = [
@@ -382,7 +389,7 @@ export default function HomePage() {
               <FadeIn delay={600}>
                 <div className="mx-auto mt-20 grid max-w-3xl grid-cols-2 gap-8 rounded-2xl border border-[var(--border)] bg-[var(--surface)]/80 p-8 backdrop-blur-sm sm:grid-cols-4">
                   {[
-                    { value: '18', label: 'Plantillas' },
+                    { value: '20', label: 'Plantillas' },
                     { value: '7.4K+', label: 'Negocios' },
                     { value: `${heroCount2}%`, label: 'Sin Web' },
                     { value: '15min', label: 'Para crear' },
