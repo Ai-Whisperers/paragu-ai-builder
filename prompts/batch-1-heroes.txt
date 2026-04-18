@@ -1,0 +1,168 @@
+# BATCH 1: HERO BACKGROUNDS (Day 1 - 20 images)
+# Copy each prompt individually into gemini.google.com
+# Generate one at a time, download immediately
+
+## HERO 1/20 - PELUQUERIA (Hair Salon)
+Wide-angle interior of modern upscale hair salon in Latin America, sleek styling stations with large mirrors, professional hairdresser working on female client with long flowing hair, warm ambient lighting, contemporary design with exposed brick and pendant lights. Professional beauty photography, aspirational atmosphere, 8K quality.
+
+Save as: hero-peluqueria.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 2/20 - BARBERIA (Barbershop)
+Classic modern barbershop interior with vintage leather chairs, skilled barber giving precision fade haircut to male client, American traditional decor with warm wood tones, large mirrors, shaving station visible. Professional grooming photography, masculine yet welcoming atmosphere, golden hour lighting, 8K quality.
+
+Save as: hero-barberia.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 3/20 - SALON BELLEZA (Beauty Salon)
+Luxurious full-service beauty salon interior in Latin America, multiple service stations - hair styling, manicure area, makeup station, elegant chandelier lighting, marble accents, female clients receiving various treatments simultaneously. High-end spa photography, feminine elegant atmosphere, soft natural light, 8K quality.
+
+Save as: hero-salon-belleza.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 4/20 - SPA
+Serene luxury spa interior with massage treatment room, candlelit atmosphere, fresh white towels neatly arranged, tropical plants, massage therapist preparing treatment table with oils and stones. Tranquil wellness photography, zen peaceful atmosphere, soft diffused lighting, 8K quality.
+
+Save as: hero-spa.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 5/20 - ESTETICA (Aesthetics Clinic)
+Modern medical aesthetic clinic interior, clean clinical yet welcoming environment, advanced skincare equipment, female esthetician consulting with client over skincare products, white and soft pink color scheme, professional medical photography, trustworthy clinical atmosphere, bright even lighting, 8K quality.
+
+Save as: hero-estetica.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 6/20 - MAQUILLAJE (Makeup)
+Professional makeup studio with large ring lights and Hollywood-style vanity mirrors, makeup artist applying bridal makeup to beautiful Latina bride, organized makeup palette and brushes visible, elegant white and gold decor. Bridal beauty photography, glamorous professional atmosphere, perfect studio lighting, 8K quality.
+
+Save as: hero-maquillaje.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 7/20 - UNAS (Nails)
+Chic nail salon interior with modern minimalist design, nail technician meticulously applying gel polish to client's hands, colorful nail polish display wall, comfortable plush seating, Instagram-worthy decor with neon accent lighting. Trendy nail studio photography, fashionable aesthetic, bright crisp lighting, 8K quality.
+
+Save as: hero-unas.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 8/20 - PESTANAS (Lashes)
+Intimate lash studio setting, lash artist carefully applying individual eyelash extensions to reclining female client, magnifying lamp visible, ultra-clean white environment, precision tools organized on tray. Detailed beauty photography, focused meticulous atmosphere, clinical bright lighting, 8K quality.
+
+Save as: hero-pestanas.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 9/20 - GIMNASIO (Gym)
+Modern fitness gym interior during peak hours, diverse group of people training with professional equipment, personal trainer coaching client on squat rack, large windows with natural light, motivational atmosphere, contemporary industrial design with exposed beams. Dynamic fitness photography, energetic inspiring mood, dramatic lighting, 8K quality.
+
+Save as: hero-gimnasio.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 10/20 - DEPILACION (Hair Removal)
+Clean modern laser hair removal clinic, advanced IPL/laser technology equipment, technician performing treatment on client, clinical white and silver color scheme, medical-grade cleanliness, soothing spa-like elements. Professional medical aesthetics photography, safe clinical atmosphere, bright clean lighting, 8K quality.
+
+Save as: hero-depilacion.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 11/20 - CONSULTORIA (Consulting)
+Professional business consulting office with panoramic city view through floor-to-ceiling windows, consultant reviewing documents with client at modern glass conference table, whiteboard with strategy diagrams visible, corporate but approachable atmosphere. Executive business photography, successful professional mood, natural window light, 8K quality.
+
+Save as: hero-consultoria.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 12/20 - LEGAL
+Prestigious law firm interior with traditional wood-paneled walls, leather-bound legal books, attorney in formal suit reviewing contracts with client, scales of justice subtly visible, professional legal library atmosphere. Classic legal photography, trustworthy authoritative mood, warm ambient lighting, 8K quality.
+
+Save as: hero-legal.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 13/20 - RELOCATION SERVICES
+International business traveler at modern airport lounge with laptop, rolling suitcase visible, world map or destination board in background, sense of journey and new beginnings, professional business attire, optimistic forward-looking mood. Travel business photography, aspirational global citizen atmosphere, bright modern lighting, 8K quality.
+
+Save as: hero-relocation.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 14/20 - MEAL PREP
+Professional meal prep kitchen with organized ingredient stations, chef portioning healthy meals into containers, fresh vegetables and proteins being prepared, stainless steel surfaces, meal containers with labels being arranged. Food service photography, healthy organized atmosphere, bright kitchen lighting, 8K quality.
+
+Save as: hero-meal-prep.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 15/20 - TATUAJES (Tattoo)
+Professional tattoo studio with dramatic lighting, tattoo artist carefully working on intricate design on client's arm, tattoo equipment and colorful ink caps organized, artistic dark interior with flash art on walls, creative focused atmosphere. Alternative art photography, edgy artistic mood, dramatic directional lighting, 8K quality.
+
+Save as: hero-tatuajes.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 16/20 - DISENO GRAFICO (Graphic Design)
+Creative design studio with large iMac displays showing branding projects, designer working on digital tablet, mood boards and color swatches on wall, modern open workspace, creative tools and cameras visible. Creative professional photography, inspiring artistic atmosphere, bright colorful lighting, 8K quality.
+
+Save as: hero-diseno-grafico.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 17/20 - INMOBILIARIA (Real Estate)
+Stunning luxury modern house exterior in premium Latin American neighborhood, contemporary architecture with clean lines, large glass windows, swimming pool with crystal clear water, manicured tropical garden, real estate sign visible. High-end real estate photography, aspirational lifestyle, golden hour lighting, 8K quality.
+
+Save as: hero-inmobiliaria.jpg
+Location: sites/shared-images/heroes/
+
+---
+
+## HERO 18/20 - NEXA PARAGUAY
+Wide-angle professional photograph of modern Asunción Paraguay skyline at golden hour sunset, showing the iconic buildings and lush greenery. Warm golden light reflecting off glass buildings, clear blue sky with soft clouds. Professional business atmosphere, inviting and aspirational. High-end cityscape photography, shot from elevated vantage point. 8K quality.
+
+Save as: nexa-paraguay-hero-bg.jpg
+Location: sites/nexa-paraguay/images/
+
+---
+
+## HERO 19/20 - NEXA URUGUAY
+Breathtaking panoramic photograph of Montevideo Uruguay skyline at sunset, showing iconic Palacio Salvo and modern Torres Nauticas along Rambla. Golden hour light reflecting on Rio de la Plata, dramatic sky with pink and orange clouds. World-class cityscape photography, cinematic composition, ultra-wide angle, 8K quality.
+
+Save as: nexa-uruguay-hero-bg.jpg
+Location: sites/nexa-uruguay/images/
+
+---
+
+## HERO 20/20 - NEXA PROPIEDADES
+Stunning luxury modern house exterior in premium Asunción Paraguay neighborhood, contemporary architecture with clean lines, large glass windows, swimming pool with crystal clear water reflecting blue sky, manicured tropical garden with palm trees. Golden hour lighting, aspirational lifestyle. Professional real estate photography, wide angle, 8K ultra-detailed, magazine quality.
+
+Save as: nexa-propiedades-hero-bg.jpg
+Location: sites/nexa-propiedades/images/
+
+---
+
+# END OF BATCH 1
+# Total: 20 images
+# Estimated time: 25-30 minutes
+# Next: Run ./scripts/organize-downloads.sh to sort downloaded images
