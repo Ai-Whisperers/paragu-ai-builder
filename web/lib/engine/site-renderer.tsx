@@ -1,41 +1,43 @@
 /**
- * Site section renderer.
+ * Site section renderer - OPTIMIZED with Lazy Loading
  *
- * Maps catalog section ids to React components. This is the
- * counterpart to `renderer.tsx` but operates on the tenant-site
- * composition (ResolvedPage) rather than the beauty-vertical
- * ComposedSection.
+ * Maps catalog section ids to React components with code splitting.
  */
+import { lazy, Suspense } from 'react'
 import type { ResolvedPage } from './site-types'
+
+// Core sections - always loaded
 import { HeaderSection } from '@/components/sections/header-section'
-import { HeroSection } from '@/components/sections/hero-section'
-import { ServicesSection } from '@/components/sections/services-section'
-import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
-import { GallerySection } from '@/components/sections/gallery-section'
-import { TeamSection } from '@/components/sections/team-section'
-import { TestimonialsSection } from '@/components/sections/testimonials-section'
-import { ContactSection } from '@/components/sections/contact-section'
-import { FAQSection } from '@/components/sections/faq-section'
-import { CTABannerSection } from '@/components/sections/cta-banner-section'
 import { FooterSection } from '@/components/sections/footer-section'
 import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
-import { ProgramsComparisonSection } from '@/components/sections/programs-comparison-section'
-import { ProcessTimelineSection } from '@/components/sections/process-timeline-section'
-import { WhyDestinationSection } from '@/components/sections/why-destination-section'
-import { TrustSignalsSection } from '@/components/sections/trust-signals-section'
-import { BookingEmbedSection } from '@/components/sections/booking-embed-section'
-import { BlogIndexSection } from '@/components/sections/blog-index-section'
-import { BlogPostSection } from '@/components/sections/blog-post-section'
-import { LeadFormSection } from '@/components/sections/lead-form-section'
-import { BeforeAfterSection } from '@/components/sections/before-after-section'
-import { BookingSection } from '@/components/sections/booking-section'
-import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
-import { EmergencyIndicatorSection } from '@/components/sections/emergency-indicator-section'
-import { EventVenuesSection } from '@/components/sections/event-venues-section'
-import { MembershipPlansSection } from '@/components/sections/membership-plans-section'
-import { PortfolioSection } from '@/components/sections/portfolio-section'
-import { QuoteFormSection } from '@/components/sections/quote-form-section'
-import { RoomBookingSection } from '@/components/sections/room-booking-section'
+
+// Lazy load all other sections
+const HeroSection = lazy(() => import('@/components/sections/hero-section'))
+const ServicesSection = lazy(() => import('@/components/sections/services-section'))
+const ProductCatalogSection = lazy(() => import('@/components/sections/product-catalog-section'))
+const GallerySection = lazy(() => import('@/components/sections/gallery-section'))
+const TeamSection = lazy(() => import('@/components/sections/team-section'))
+const TestimonialsSection = lazy(() => import('@/components/sections/testimonials-section'))
+const ContactSection = lazy(() => import('@/components/sections/contact-section'))
+const FAQSection = lazy(() => import('@/components/sections/faq-section'))
+const CTABannerSection = lazy(() => import('@/components/sections/cta-banner-section'))
+const ProgramsComparisonSection = lazy(() => import('@/components/sections/programs-comparison-section'))
+const ProcessTimelineSection = lazy(() => import('@/components/sections/process-timeline-section'))
+const WhyDestinationSection = lazy(() => import('@/components/sections/why-destination-section'))
+const TrustSignalsSection = lazy(() => import('@/components/sections/trust-signals-section'))
+const BookingEmbedSection = lazy(() => import('@/components/sections/booking-embed-section'))
+const BlogIndexSection = lazy(() => import('@/components/sections/blog-index-section'))
+const BlogPostSection = lazy(() => import('@/components/sections/blog-post-section'))
+const LeadFormSection = lazy(() => import('@/components/sections/lead-form-section'))
+const BeforeAfterSection = lazy(() => import('@/components/sections/before-after-section'))
+const BookingSection = lazy(() => import('@/components/sections/booking-section'))
+const ClassScheduleSection = lazy(() => import('@/components/sections/class-schedule-section'))
+const EmergencyIndicatorSection = lazy(() => import('@/components/sections/emergency-indicator-section'))
+const EventVenuesSection = lazy(() => import('@/components/sections/event-venues-section'))
+const MembershipPlansSection = lazy(() => import('@/components/sections/membership-plans-section'))
+const PortfolioSection = lazy(() => import('@/components/sections/portfolio-section'))
+const QuoteFormSection = lazy(() => import('@/components/sections/quote-form-section'))
+const RoomBookingSection = lazy(() => import('@/components/sections/room-booking-section'))
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -70,6 +72,15 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'room-booking': RoomBookingSection,
 }
 
+// Simple loading placeholder
+function SectionLoader() {
+  return (
+    <div className="py-16 flex items-center justify-center">
+      <div className="animate-pulse bg-gray-200 rounded-lg w-full max-w-4xl h-64" />
+    </div>
+  )
+}
+
 export function renderPage(page: ResolvedPage): React.ReactNode {
   return page.sections.map((s, i) => {
     const C = COMPONENTS[s.id]
@@ -79,6 +90,20 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
       }
       return null
     }
-    return <C key={`${s.id}-${i}`} variant={s.variant} {...s.props} />
+
+    const props = s.props as Record<string, unknown>
+    const key = `${s.id}-${i}`
+
+    // Core sections render immediately
+    if (s.id === 'header' || s.id === 'footer' || s.id === 'whatsapp-float') {
+      return <C key={key} {...props} />
+    }
+
+    // Lazy-loaded sections wrapped in Suspense
+    return (
+      <Suspense key={key} fallback={<SectionLoader />}>
+        <C {...props} />
+      </Suspense>
+    )
   })
 }
