@@ -25,6 +25,10 @@ export const BUSINESS_TYPES = [
   'salud',
   'inversiones',
   'meal_prep',
+  // Food/Restaurant
+  'restaurant',
+  'sushi_bar',
+  'kaiten_zushi',
 ] as const
 
 export type BusinessType = (typeof BUSINESS_TYPES)[number]

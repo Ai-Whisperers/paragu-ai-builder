@@ -27,6 +27,9 @@ const BUSINESS_TYPES = [
   'depilacion',
   'meal_prep',
   'relocation',
+  'restaurant',
+  'sushi_bar',
+  'kaiten_zushi',
 ]
 
 // Paths

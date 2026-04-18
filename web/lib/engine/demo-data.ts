@@ -499,6 +499,129 @@ export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
       { quote: 'El equipo legal es excelente. Muy recomendados.', author: 'Cliente Netherlands', rating: 5 },
     ],
   },
+
+  // Restaurant Demo - Sakura Sushi (Traditional Sushi Bar)
+  'sakura-sushi': {
+    name: 'Sakura Sushi',
+    slug: 'sakura-sushi',
+    type: 'sushi_bar',
+    tagline: 'Auténtico sushi japonés con tradición y excelencia',
+    city: 'Asuncion',
+    neighborhood: 'Villa Morra',
+    address: 'Av. Mariscal López 3456, Paseo La Galería',
+    phone: '+595981234567',
+    email: 'info@sakurasushi.com.py',
+    whatsapp: '+595981234567',
+    instagram: '@sakurasushi.py',
+    facebook: 'SakuraSushiPY',
+    hours: {
+      'Lunes - Jueves': '12:00 - 15:00, 19:00 - 23:00',
+      'Viernes - Sábado': '12:00 - 15:00, 19:00 - 00:00',
+      'Domingo': '18:00 - 22:00'
+    },
+    services: [
+      { name: 'Sashimi Mixto', price: '85.000 Gs', duration: 0, description: '5 variedades de pescado fresco del día', category: 'Sashimi' },
+      { name: 'Nigiri de Salmón', price: '35.000 Gs', duration: 0, description: '2 piezas de salmón noruego sobre arroz', category: 'Nigiri' },
+      { name: 'Nigiri de Atún', price: '45.000 Gs', duration: 0, description: '2 piezas de atún rojo sobre arroz', category: 'Nigiri' },
+      { name: 'California Roll', price: '38.000 Gs', duration: 0, description: '8 piezas con cangrejo, aguacate y pepino', category: 'Maki' },
+      { name: 'Sakura Roll', price: '52.000 Gs', duration: 0, description: '8 piezas especialidad de la casa con langostino tempura', category: 'Especial' },
+      { name: 'Dragon Roll', price: '58.000 Gs', duration: 0, description: '8 piezas con anguila, aguacate y salsa unagi', category: 'Especial' },
+      { name: 'Temaki de Salmón', price: '25.000 Gs', duration: 0, description: 'Cono de alga nori con salmón fresco', category: 'Temaki' },
+      { name: 'Edamame', price: '18.000 Gs', duration: 0, description: 'Porción de vainas de soja al vapor con sal', category: 'Entradas' },
+      { name: 'Gyozas', price: '28.000 Gs', duration: 0, description: '5 empanadas japonesas rellenas de cerdo', category: 'Entradas' },
+      { name: 'Miso Soup', price: '12.000 Gs', duration: 0, description: 'Sopa tradicional de miso con tofu y alga wakame', category: 'Entradas' },
+      { name: 'Omakase Clásico', price: '250.000 Gs', duration: 60, description: '8 piezas seleccionadas por el chef', category: 'Omakase' },
+      { name: 'Omakase Premium', price: '450.000 Gs', duration: 90, description: '12 piezas con sake pairing incluido', category: 'Omakase' }
+    ],
+    team: [
+      { name: 'Takeshi Yamamoto', role: 'Chef Principal', bio: 'Formado en Tokio durante 15 años. Especialista en sushi Edomae y omakase.' },
+      { name: 'Carlos Sato', role: 'Sous Chef', bio: '10 años de experiencia en restaurantes japoneses. Experto en sashimi.' },
+      { name: 'Ana Nakamura', role: 'Hostess', bio: 'Te ayuda a elegir entre nuestro menú y explica cada platillo.' }
+    ],
+    testimonials: [
+      { quote: 'El mejor sushi que he probado en Paraguay. El omakase es una experiencia inolvidable.', author: 'María González', rating: 5 },
+      { quote: 'Auténtico sabor japonés. Se nota la dedicación del chef en cada pieza.', author: 'Roberto Martínez', rating: 5 },
+      { quote: 'Ambiente elegante y servicio impecable. Perfecto para citas especiales.', author: 'Lucía Benítez', rating: 5 }
+    ]
+  },
+
+  // Kaiten (Conveyor Belt) Demo - Kaiten Express
+  'kaiten-express': {
+    name: 'Kaiten Express',
+    slug: 'kaiten-express',
+    type: 'kaiten_zushi',
+    tagline: 'Sushi divertido en cinta transportadora para toda la familia',
+    city: 'Asuncion',
+    neighborhood: 'Shopping Mariscal',
+    address: 'Av. Mariscal López 3550, Piso 2, Local 45',
+    phone: '+595982345678',
+    email: 'hola@kaitenexpress.com.py',
+    whatsapp: '+595982345678',
+    instagram: '@kaitenexpress.py',
+    facebook: 'KaitenExpressPY',
+    hours: {
+      'Lunes - Domingo': '11:00 - 22:00'
+    },
+    services: [
+      { name: 'Plato Verde - Básicos', price: '15.000 Gs', duration: 0, description: 'Tamago maki, kappa maki, inari', category: 'Green' },
+      { name: 'Plato Amarillo - Populares', price: '25.000 Gs', duration: 0, description: 'Sake nigiri, maguro nigiri, california roll', category: 'Yellow' },
+      { name: 'Plato Naranja - Especiales', price: '35.000 Gs', duration: 0, description: 'Sake aburi, ebi nigiri, spicy tuna roll', category: 'Orange' },
+      { name: 'Plato Rojo - Premium', price: '50.000 Gs', duration: 0, description: 'Hamachi, hotate, dragon roll', category: 'Red' },
+      { name: 'Plato Negro - Ultra Premium', price: '75.000 Gs', duration: 0, description: 'Unagi, wagyu nigiri, otoro', category: 'Black' },
+      { name: 'Ramen Especial', price: '45.000 Gs', duration: 0, description: 'Sopa de fideos con cerdo y huevo', category: 'Special' },
+      { name: 'Tempura Mix', price: '38.000 Gs', duration: 0, description: 'Mariscos y vegetales empanizados', category: 'Special' }
+    ],
+    team: [
+      { name: 'Kenji Tanaka', role: 'Chef Principal', bio: 'Especialista en kaiten-zushi con experiencia en Japón.' },
+      { name: 'María López', role: 'Supervisora', bio: 'Te ayuda a entender el sistema de colores.' }
+    ],
+    testimonials: [
+      { quote: 'A mis hijos les encanta! Divertido y rápido.', author: 'Carmen Ruiz', rating: 5 },
+      { quote: 'Perfecto para almuerzos de trabajo. Económico y bueno.', author: 'Pedro González', rating: 5 },
+      { quote: 'El sistema por colores es genial. Sabes cuánto gastas.', author: 'Ana Fernández', rating: 5 }
+    ]
+  },
+
+  // General Restaurant Demo - La Trattoria
+  'la-trattoria': {
+    name: 'La Trattoria',
+    slug: 'la-trattoria',
+    type: 'restaurant',
+    tagline: 'Auténtica cocina italiana en el corazón de Asunción',
+    city: 'Asuncion',
+    neighborhood: 'Carmelitas',
+    address: 'Calle 25 de Mayo 1024, esq. Brasilia',
+    phone: '+595983456789',
+    email: 'reservas@latrattoria.com.py',
+    whatsapp: '+595983456789',
+    instagram: '@latrattoria.py',
+    facebook: 'LaTrattoriaPY',
+    hours: {
+      'Martes - Jueves': '12:00 - 15:00, 19:00 - 23:00',
+      'Viernes - Sábado': '12:00 - 15:00, 19:00 - 00:00',
+      'Domingo': '12:00 - 16:00',
+      'Lunes': 'Cerrado'
+    },
+    services: [
+      { name: 'Pasta Carbonara', price: '55.000 Gs', duration: 0, description: 'Spaghetti con huevo, panceta y queso parmesano', category: 'Pastas' },
+      { name: 'Risotto de Hongos', price: '62.000 Gs', duration: 0, description: 'Arroz cremoso con hongos frescos', category: 'Risottos' },
+      { name: 'Pizza Margherita', price: '48.000 Gs', duration: 0, description: 'Tomate, mozzarella y albahaca', category: 'Pizzas' },
+      { name: 'Ossobuco alla Milanese', price: '85.000 Gs', duration: 0, description: 'Chamorro de ternera con gremolata', category: 'Carnes' },
+      { name: 'Branzino al Sale', price: '95.000 Gs', duration: 0, description: 'Robalo al horno en costra de sal', category: 'Pescados' },
+      { name: 'Tiramisú', price: '28.000 Gs', duration: 0, description: 'Postre clásico italiano', category: 'Postres' },
+      { name: 'Panna Cotta', price: '25.000 Gs', duration: 0, description: 'Crema cocida con salsa de frutos rojos', category: 'Postres' }
+    ],
+    team: [
+      { name: 'Marco Rossi', role: 'Chef Ejecutivo', bio: 'Nacido en Roma, 20 años de experiencia en cocina italiana auténtica.' },
+      { name: 'Giovanna Bianchi', role: 'Sous Chef', bio: 'Especialista en pastas frescas y risottos.' },
+      { name: 'Carlos Méndez', role: 'Maître', bio: 'Te recomienda el vino perfecto para cada plato.' }
+    ],
+    testimonials: [
+      { quote: 'La mejor pasta de Asunción. Sabe a Italia de verdad.', author: 'Laura Fernández', rating: 5 },
+      { quote: 'Ambiente romántico y comida deliciosa. Ideal para aniversarios.', author: 'Juan Pérez', rating: 5 },
+      { quote: 'El tiramisú es el mejor que he probado fuera de Italia.', author: 'Sofía González', rating: 5 }
+    ]
+  }
 }
 
 /**

@@ -7,6 +7,7 @@
  * ComposedSection.
  */
 import type { ResolvedPage } from './site-types'
+import { logger } from '@/lib/logger'
 import { HeaderSection } from '@/components/sections/header-section'
 import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
@@ -74,9 +75,11 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
   return page.sections.map((s, i) => {
     const C = COMPONENTS[s.id]
     if (!C) {
-      if (process.env.NODE_ENV !== 'production') {
-        console.warn(`[site-renderer] No component bound for section "${s.id}"`)
-      }
+      logger.warn('No component bound for section — skipping render', {
+        action: 'renderPage',
+        sectionId: s.id,
+        index: i,
+      })
       return null
     }
 

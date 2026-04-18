@@ -16,6 +16,7 @@ import type { BusinessType } from '@/lib/types'
 import type { PageType } from '@/lib/types'
 import { fillTemplate } from '@/lib/utils'
 import { getRegistry, getContent } from './static-config'
+import { logger } from '@/lib/logger'
 
 // Section types matching our component library
 export type SectionType =
@@ -299,15 +300,33 @@ export async function composePageForType(
   business: BusinessData,
   pageType: PageType
 ): Promise<ComposedPage> {
+  const start = performance.now()
+  const baseContext = {
+    action: 'composePageForType',
+    businessType: business.type,
+    businessSlug: business.slug,
+    pageType,
+  }
+
   const registry = loadRegistry(business.type)
   const content = loadContent(business.type)
 
   if (!registry || !content) {
+    logger.error('Composition failed — missing registry or content', {
+      ...baseContext,
+      registryLoaded: !!registry,
+      contentLoaded: !!content,
+    })
     throw new Error(
       `[Compose] Failed to load registry or content for business type: ${business.type}. ` +
       `Registry: ${registry ? 'OK' : 'MISSING'}, Content: ${content ? 'OK' : 'MISSING'}`
     )
   }
+
+  logger.debug('Composition: registry + content loaded', {
+    ...baseContext,
+    registrySections: registry.pages[pageType]?.sections.length ?? 0,
+  })
 
   const templateData: Record<string, string | number> = {
     businessName: business.name,
@@ -326,7 +345,12 @@ export async function composePageForType(
 
   const pageConfig = registry.pages[pageType]
   if (!pageConfig) {
-    console.warn(`[Compose] No config for page type: ${pageType}, falling back to homepage`)
+    logger.warn('No registry config for page type, falling back to homepage', {
+      action: 'composePageForType',
+      businessType: business.type,
+      businessSlug: business.slug,
+      requestedPageType: pageType,
+    })
     return composePage(business)
   }
 
@@ -365,6 +389,13 @@ export async function composePageForType(
 
   const { resolveTokens } = await import('@/lib/tokens/resolver')
   const tokens = resolveTokens(business.type)
+
+  const duration = Math.round(performance.now() - start)
+  logger.info('Composition completed', {
+    ...baseContext,
+    sectionCount: sections.length,
+    durationMs: duration,
+  })
 
   return {
     business,
@@ -674,6 +705,41 @@ case 'beforeAfter': {
 
     case 'whatsappFloat':
       return null // Handled separately
+
+    case 'omakase': {
+      const omakaseContent = content as { omakase?: { title?: string; subtitle?: string; description?: string; tiers?: Array<{ name: string; price: string; courses: number; duration: string; features: string[] }>; notes?: string[] }> }
+      if (!omakaseContent?.omakase) return null
+      return {
+        title: omakaseContent.omakase.title || 'Experiencia Omakase',
+        subtitle: omakaseContent.omakase.subtitle,
+        description: omakaseContent.omakase.description,
+        tiers: omakaseContent.omakase.tiers || [],
+        notes: omakaseContent.omakase.notes,
+      }
+    }
+
+    case 'sakeMenu': {
+      const sakeContent = content as { sake?: { title?: string; subtitle?: string; description?: string; types?: Array<{ name: string; description: string }> }> }
+      if (!sakeContent?.sake) return null
+      return {
+        title: sakeContent.sake.title || 'Sake & Bebidas',
+        subtitle: sakeContent.sake.subtitle,
+        description: sakeContent.sake.description,
+        types: sakeContent.sake.types || [],
+      }
+    }
+
+    case 'conveyorBelt': {
+      const conveyorContent = content as { howItWorks?: { title?: string; subtitle?: string; steps?: Array<{ number: number; title: string; description: string }>; tips?: string[] }; plateColors?: Array<{ color: string; name: string; price: string; description: string }> }>
+      if (!conveyorContent?.howItWorks) return null
+      return {
+        title: conveyorContent.howItWorks.title || 'Cómo Funciona',
+        subtitle: conveyorContent.howItWorks.subtitle,
+        steps: conveyorContent.howItWorks.steps || [],
+        plateColors: conveyorContent.plateColors || [],
+        tips: conveyorContent.howItWorks.tips,
+      }
+    }
 
     default:
       return null

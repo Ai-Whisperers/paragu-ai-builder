@@ -9,6 +9,7 @@ import { jsonLdForPage } from '@/lib/engine/schema-org'
 import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
 import { loadVerticalCopy } from '@/lib/engine/site-loader'
+import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
 
@@ -22,7 +23,16 @@ export async function generateStaticParams() {
   const params: Array<{ locale: string; site: string; page?: string[] }> = []
   for (const slug of listSiteSlugs()) {
     let site
-    try { site = loadSite(slug) } catch { continue }
+    try {
+      site = loadSite(slug)
+    } catch (error) {
+      logger.warn('generateStaticParams: skipping site — loadSite failed', {
+        action: 'generateStaticParams',
+        siteSlug: slug,
+        error: error instanceof Error ? error.message : String(error),
+      })
+      continue
+    }
     for (const loc of site.locales) {
       const pages = listPageSlugs(slug)
       for (const pageSlug of pages) {
@@ -66,7 +76,14 @@ export default async function TenantPage({ params }: Props) {
   try {
     composed = composeSitePage({ siteSlug, locale: locale as Locale, pageSlug })
   } catch (error) {
-    console.error(`[TenantPage] Error composing page for ${siteSlug}/${pageSlug}:`, error)
+    logger.error('TenantPage composition failed — rendering 404', {
+      action: 'composeSitePage',
+      siteSlug,
+      locale,
+      pageSlug,
+      error: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+    })
     notFound()
   }
 

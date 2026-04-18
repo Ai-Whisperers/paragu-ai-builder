@@ -5,6 +5,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { logger } from '@/lib/logger'
 
 export type LeadFormVariant = 'standard' | 'compact'
 
@@ -117,6 +118,10 @@ export function LeadFormSection({
       }
       setStatus('success')
     } catch (err) {
+      logger.warn('Lead form submission network error', {
+        action: 'leadFormSection.submit',
+        error: err instanceof Error ? err.message : String(err),
+      })
       setErrorText(err instanceof Error ? err.message : errorMessage)
       setStatus('error')
     }

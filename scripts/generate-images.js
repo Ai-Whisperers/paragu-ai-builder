@@ -8,14 +8,17 @@
  *   node generate-images.js [batch-name]
  * 
  * Batches:
- *   - heroes (20 images) - Day 1
- *   - team (34 images) - Day 2-3
- *   - services (20 images) - Day 3
- *   - portfolios-tatuajes (50 images) - Day 4
- *   - portfolios-beauty (80 images) - Day 5
- *   - portfolios-creative (35 images) - Day 6
- *   - before-after (80 images) - Day 7
- *   - all (generates everything)
+ *   - heroes (20 images) - Day 1: Hero backgrounds for all business types
+ *   - team (34 images) - Day 2-3: Team member headshots
+ *   - services (20 images) - Day 3: Service/action shots
+ *   - sushi (9 images) - Day 4: Traditional sushi bar imagery
+ *   - kaiten (6 images) - Day 4: Conveyor belt sushi images
+ *   - all (89 images) - Generates everything
+ * 
+ * Examples:
+ *   node generate-images.js heroes    # Generate hero backgrounds
+ *   node generate-images.js sushi     # Generate sushi bar images
+ *   node generate-images.js all       # Generate all images
  */
 
 const { GoogleGenerativeAI } = require('@google/generative-ai');
@@ -429,15 +432,107 @@ const SERVICE_IMAGES = [
   }
 ];
 
+// ============================================================================
+// BATCH 4: SUSHI BAR IMAGES (15 images)
+// Traditional sushi restaurant imagery
+// ============================================================================
+const SUSHI_BAR_IMAGES = [
+  {
+    id: 'sushi-bar-hero',
+    filename: 'sushi_bar/sushi-bar-hero.jpg',
+    prompt: `Elegant traditional Japanese sushi bar interior, chef preparing sushi behind wooden counter, warm ambient lighting with paper lanterns, fresh fish display case, minimalist zen decor with bamboo accents. Authentic Japanese restaurant atmosphere, dark wood tones with subtle red accents, professional food photography, 8K quality, wide angle 16:9.`
+  },
+  {
+    id: 'sushi-bar-interior',
+    filename: 'sushi_bar/sushi-bar-interior.jpg',
+    prompt: `Upscale sushi restaurant dining area with modern Japanese aesthetic, wooden tables with clean lines, subtle lighting creating intimate atmosphere, sake bottles displayed on shelves, shoji screen dividers. Contemporary Japanese interior design, warm wood and black accents, architectural photography, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-chef-action',
+    filename: 'sushi_bar/sushi-bar-chef-action.jpg',
+    prompt: `Master sushi chef in white uniform carefully preparing nigiri at counter, skilled hands shaping rice and placing fresh fish, focused concentration, wooden counter with fresh ingredients organized, traditional Japanese kitchen atmosphere. Professional culinary photography, dramatic lighting highlighting the chef's craft, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-sashimi',
+    filename: 'sushi_bar/sushi-bar-sashimi.jpg',
+    prompt: `Artistic sashimi platter with fresh fish slices arranged beautifully on black slate, garnished with shredded daikon and shiso leaves, wasabi and ginger accents, dark wooden table background. Premium Japanese cuisine photography, vibrant colors of fresh tuna salmon and yellowtail, professional food styling, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-nigiri',
+    filename: 'sushi_bar/sushi-bar-nigiri.jpg',
+    prompt: `Close-up of assorted nigiri sushi pieces on wooden board, glistening fresh fish atop perfectly formed rice, variety including salmon tuna shrimp and eel, slight soy sauce glaze visible. Traditional Edomae style sushi photography, shallow depth of field, warm lighting, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-maki',
+    filename: 'sushi_bar/sushi-bar-maki.jpg',
+    prompt: `Colorful maki sushi rolls arranged in artistic pattern on ceramic plate, inside-out California rolls and traditional hosomaki visible, sesame seeds and fish roe toppings, soy sauce dish nearby. Fresh sushi photography, vibrant appetizing colors, clean composition, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-temaki',
+    filename: 'sushi_bar/sushi-bar-temaki.jpg',
+    prompt: `Hand roll temaki cones standing upright on wooden holder, crispy nori seaweed filled with rice and fresh ingredients, salmon and avocado visible, traditional Japanese presentation. Casual sushi dining photography, natural lighting, appetizing food styling, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-omakase',
+    filename: 'sushi_bar/sushi-bar-omakase.jpg',
+    prompt: `Premium omakase dining experience, chef presenting curated selection of sushi pieces to customer at counter, elegant progression of dishes on dark ceramic plates, sake glass visible. Luxury Japanese dining photography, intimate counter seating atmosphere, refined presentation, 8K quality.`
+  },
+  {
+    id: 'sushi-bar-sake',
+    filename: 'sushi_bar/sushi-bar-sake.jpg',
+    prompt: `Traditional sake service with ceramic tokkuri flask and ochoko cups, premium Japanese sake bottles displayed, warm amber liquid, elegant minimalist presentation on wooden tray. Japanese beverage photography, refined drinking culture aesthetic, warm ambient lighting, 8K quality.`
+  }
+];
+
+// ============================================================================
+// BATCH 5: KAITEN ZUSHI (Conveyor Belt Sushi) IMAGES (8 images)
+// Modern conveyor belt sushi restaurant
+// ============================================================================
+const KAITEN_ZUSHI_IMAGES = [
+  {
+    id: 'kaiten-hero',
+    filename: 'kaiten_zushi/kaiten-hero.jpg',
+    prompt: `Modern conveyor belt sushi restaurant interior, colorful sushi plates moving on rotating belt, customers seated around counter selecting dishes, bright contemporary lighting, Japanese pop culture decor elements. Fun casual dining atmosphere, clean modern design, energetic environment photography, 8K quality.`
+  },
+  {
+    id: 'kaiten-conveyor-action',
+    filename: 'kaiten_zushi/kaiten-conveyor-action.jpg',
+    prompt: `Close-up of sushi plates moving on conveyor belt system, variety of sushi types on color-coded plates passing by, steam rising from hot dishes, modern restaurant setting. Dynamic food service photography, motion blur suggesting movement, appetizing presentation, 8K quality.`
+  },
+  {
+    id: 'kaiten-family',
+    filename: 'kaiten_zushi/kaiten-family.jpg',
+    prompt: `Family enjoying conveyor belt sushi together, parents and children selecting plates from moving belt, happy casual dining experience, colorful plates accumulated on table, modern family restaurant atmosphere. Lifestyle food photography, warm candid moments, natural lighting, 8K quality.`
+  },
+  {
+    id: 'kaiten-tablet-ordering',
+    filename: 'kaiten_zushi/kaiten-tablet.jpg',
+    prompt: `Customer using touchscreen tablet to order custom sushi at table, modern technology meets traditional cuisine, clean interface showing menu options, conveyor belt visible in background. Tech-integrated dining photography, contemporary restaurant experience, bright lighting, 8K quality.`
+  },
+  {
+    id: 'kaiten-plates-stack',
+    filename: 'kaiten_zushi/kaiten-plates-stack.jpg',
+    prompt: `Stack of colorful conveyor belt sushi plates accumulated on table, tower of empty plates showing satisfying meal completion, variety of plate colors representing different prices, casual fun atmosphere. Satisfying food photography, playful dining experience, clean composition, 8K quality.`
+  },
+  {
+    id: 'kaiten-guests-seated',
+    filename: 'kaiten_zushi/kaiten-guests-seated.jpg',
+    prompt: `Diverse group of customers seated at conveyor belt sushi counter, selecting fresh plates as they pass by, engaged and happy dining experience, modern open restaurant design. Social dining photography, casual restaurant atmosphere, natural lighting, 8K quality.`
+  }
+];
+
 // All batches
 const ALL_BATCHES = {
   heroes: HERO_IMAGES,
   team: TEAM_IMAGES,
   services: SERVICE_IMAGES,
+  sushi: SUSHI_BAR_IMAGES,
+  kaiten: KAITEN_ZUSHI_IMAGES,
   'day-1': HERO_IMAGES,
   'day-2-3': TEAM_IMAGES,
   'day-3': SERVICE_IMAGES,
-  all: [...HERO_IMAGES, ...TEAM_IMAGES, ...SERVICE_IMAGES]
+  'day-4': SUSHI_BAR_IMAGES,
+  all: [...HERO_IMAGES, ...TEAM_IMAGES, ...SERVICE_IMAGES, ...SUSHI_BAR_IMAGES, ...KAITEN_ZUSHI_IMAGES]
 };
 
 // ============================================================================
@@ -558,10 +653,13 @@ async function main() {
     console.error('     heroes     - Day 1: 20 hero backgrounds');
     console.error('     team       - Day 2-3: 34 team headshots');
     console.error('     services   - Day 3: 20 service images');
+    console.error('     sushi      - Day 4: 9 sushi bar images');
+    console.error('     kaiten     - Day 4: 6 conveyor belt sushi images');
     console.error('     day-1      - Same as heroes');
     console.error('     day-2-3    - Same as team');
     console.error('     day-3      - Same as services');
-    console.error('     all        - Everything (74 images)');
+    console.error('     day-4      - Same as sushi');
+    console.error('     all        - Everything (89 images)');
     process.exit(1);
   }
   
