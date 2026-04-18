@@ -3,7 +3,7 @@
  */
 import { redirect } from 'next/navigation'
 
-export const runtime = 'nodejs'
+export const runtime = 'edge'
 
 export function GET() {
   return redirect('/s/nl/nexa-paraguay')
