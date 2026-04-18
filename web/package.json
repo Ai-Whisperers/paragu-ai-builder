@@ -21,7 +21,7 @@
     "start": "next start",
     "preview:cloudflare": "npx wrangler dev .open-next/worker.js --port 3000",
     "preview:cloudflare:staging": "npx wrangler dev .open-next/worker.js --env staging --port 3000",
-    "deploy:cloudflare": "npx @opennextjs/cloudflare build && npx wrangler deploy",
+    "deploy:cloudflare": "npx @opennextjs/cloudflare build && node scripts/copy-static-html.js && npx wrangler deploy",
     "deploy:cloudflare:staging": "npx @opennextjs/cloudflare build && npx wrangler deploy --env staging",
     "deploy:cloudflare:prod": "npx @opennextjs/cloudflare build && npx wrangler deploy --env production",
     "lint": "eslint",
