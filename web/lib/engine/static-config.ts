@@ -2,2820 +2,2820 @@
  * Static config with embedded JSON content
  * Generated at build time - DO NOT EDIT MANUALLY
  * 
- * Generated: 2026-04-18T22:05:13.506Z
+ * Generated: 2026-04-18T22:18:47.855Z
  */
 
 export const REGISTRY_MAP: Record<string, unknown> = {
   'salon_belleza': {
-    'id': 'salon_belleza',
-    'nameEs': 'Salon de Belleza',
-    'nameEn': 'Beauty Salon',
-    'tokens': 'salon_belleza',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'booking',
-          'gallery',
-          'portfolio',
-          'team',
-          'testimonials',
-          'contact',
-          'ctaBanner',
-          'footer'
+    "id": "salon_belleza",
+    "nameEs": "Salon de Belleza",
+    "nameEn": "Beauty Salon",
+    "tokens": "salon_belleza",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "booking",
+          "gallery",
+          "portfolio",
+          "team",
+          "testimonials",
+          "contact",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'portfolio',
-          'gallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "portfolio",
+          "gallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolio',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolio",
+          "footer"
         ]
       },
-      'team': {
-        'sections': [
-          'header',
-          'team',
-          'footer'
+      "team": {
+        "sections": [
+          "header",
+          "team",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'team',
-          'footer'
+        "requiredSections": [
+          "header",
+          "team",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'fresha',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": true,
+        "method": "fresha",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true,
-        'showDuration': true,
-        'filterable': true,
-        'filterableCategories': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true,
+        "showDuration": true,
+        "filterable": true,
+        "filterableCategories": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 20,
-        'categories': [
-          'cabello',
-          'unas',
-          'maquillaje',
-          'tratamientos'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 20,
+        "categories": [
+          "cabello",
+          "unas",
+          "maquillaje",
+          "tratamientos"
         ]
       },
-      'beforeAfter': {
-        'enabled': false,
-        'optional': true
+      "beforeAfter": {
+        "enabled": false,
+        "optional": true
       },
-      'staffProfiles': {
-        'enabled': true,
-        'showInstagram': true,
-        'bookable': true
+      "staffProfiles": {
+        "enabled": true,
+        "showInstagram": true,
+        "bookable": true
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': false
+      "packageBuilder": {
+        "enabled": false
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'cabello',
-      'unas',
-      'maquillaje',
-      'tratamientos_faciales',
-      'tratamientos_corporales',
-      'paquetes'
+    "serviceCategories": [
+      "cabello",
+      "unas",
+      "maquillaje",
+      "tratamientos_faciales",
+      "tratamientos_corporales",
+      "paquetes"
     ],
-    'targetAudience': {
-      'primary': 'Women 25-55, middle to upper-class, seeking premium multi-service beauty care',
-      'secondary': 'Brides, quinceañeras, event clients'
+    "targetAudience": {
+      "primary": "Women 25-55, middle to upper-class, seeking premium multi-service beauty care",
+      "secondary": "Brides, quinceañeras, event clients"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Salon de Belleza en {{city}} | Todos los Servicios',
-      'descriptionTemplate': 'Cabello, uñas, maquillaje y tratamientos faciales en {{city}}. Reserva tu cita online. Tu centro de belleza integral.',
-      'schemaType': 'BeautySalon',
-      'keywords': [
-        'salon de belleza {{city}}',
-        'centro de belleza {{city}}',
-        'maquillaje profesional {{city}}',
-        'manicura {{city}}',
-        'tratamiento facial {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Salon de Belleza en {{city}} | Todos los Servicios",
+      "descriptionTemplate": "Cabello, uñas, maquillaje y tratamientos faciales en {{city}}. Reserva tu cita online. Tu centro de belleza integral.",
+      "schemaType": "BeautySalon",
+      "keywords": [
+        "salon de belleza {{city}}",
+        "centro de belleza {{city}}",
+        "maquillaje profesional {{city}}",
+        "manicura {{city}}",
+        "tratamiento facial {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Tu Salon de Belleza en {{city}}',
-      'subheadlineTemplate': 'Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar',
-      'ctaPrimary': {
-        'text': 'Reservar Cita',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Tu Salon de Belleza en {{city}}",
+      "subheadlineTemplate": "Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar",
+      "ctaPrimary": {
+        "text": "Reservar Cita",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Servicios',
-        'action': 'scrollTo:services'
+      "ctaSecondary": {
+        "text": "Ver Servicios",
+        "action": "scrollTo:services"
       }
     }
   },
   'peluqueria': {
-    'id': 'peluqueria',
-    'nameEs': 'Peluqueria',
-    'nameEn': 'Hair Salon',
-    'tokens': 'peluqueria',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'servicesPreview',
-          'booking',
-          'galleryPreview',
-          'team',
-          'locationBlock',
-          'testimonial',
-          'ctaBanner',
-          'footer'
+    "id": "peluqueria",
+    "nameEs": "Peluqueria",
+    "nameEn": "Hair Salon",
+    "tokens": "peluqueria",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "servicesPreview",
+          "booking",
+          "galleryPreview",
+          "team",
+          "locationBlock",
+          "testimonial",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'servicesPreview',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "servicesPreview",
+          "contact",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'serviceMenu',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "serviceMenu",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'serviceMenu',
-          'footer'
+        "requiredSections": [
+          "header",
+          "serviceMenu",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'portfolioGallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "portfolioGallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolioGallery',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolioGallery",
+          "footer"
         ]
       },
-      'team': {
-        'sections': [
-          'header',
-          'teamProfiles',
-          'footer'
+      "team": {
+        "sections": [
+          "header",
+          "teamProfiles",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'teamProfiles',
-          'footer'
+        "requiredSections": [
+          "header",
+          "teamProfiles",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contactSplit',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contactSplit",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contactSplit',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contactSplit",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'fresha',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": true,
+        "method": "fresha",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true,
-        'showDuration': true,
-        'filterable': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true,
+        "showDuration": true,
+        "filterable": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 20,
-        'categories': [
-          'cortes',
-          'color',
-          'mechas',
-          'peinados'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 20,
+        "categories": [
+          "cortes",
+          "color",
+          "mechas",
+          "peinados"
         ]
       },
-      'beforeAfter': {
-        'enabled': false,
-        'optional': true
+      "beforeAfter": {
+        "enabled": false,
+        "optional": true
       },
-      'staffProfiles': {
-        'enabled': true,
-        'showInstagram': true,
-        'bookable': true
+      "staffProfiles": {
+        "enabled": true,
+        "showInstagram": true,
+        "bookable": true
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': false
+      "packageBuilder": {
+        "enabled": false
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'cortes',
-      'coloracion',
-      'tratamientos',
-      'peinados',
-      'extensiones'
+    "serviceCategories": [
+      "cortes",
+      "coloracion",
+      "tratamientos",
+      "peinados",
+      "extensiones"
     ],
-    'targetAudience': {
-      'primary': 'Women 25-45, middle-class, repeat customers',
-      'secondary': 'Men, Youth 18-25 for trends'
+    "targetAudience": {
+      "primary": "Women 25-45, middle-class, repeat customers",
+      "secondary": "Men, Youth 18-25 for trends"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Peluqueria en {{city}} | Servicios y Precios',
-      'descriptionTemplate': 'Cortes, coloracion y tratamientos en {{city}}. Reserva tu cita online. Precios desde {{lowestPrice}}.',
-      'schemaType': 'BeautySalon',
-      'keywords': [
-        'peluqueria {{city}}',
-        'corte de cabello {{neighborhood}}',
-        'salon de belleza {{city}}',
-        'coloracion {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Peluqueria en {{city}} | Servicios y Precios",
+      "descriptionTemplate": "Cortes, coloracion y tratamientos en {{city}}. Reserva tu cita online. Precios desde {{lowestPrice}}.",
+      "schemaType": "BeautySalon",
+      "keywords": [
+        "peluqueria {{city}}",
+        "corte de cabello {{neighborhood}}",
+        "salon de belleza {{city}}",
+        "coloracion {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Tu Mejor Look en {{city}}',
-      'subheadlineTemplate': 'Cortes profesionales, coloracion y tratamientos que transforman tu estilo',
-      'ctaPrimary': {
-        'text': 'Reservar Cita',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Tu Mejor Look en {{city}}",
+      "subheadlineTemplate": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+      "ctaPrimary": {
+        "text": "Reservar Cita",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Servicios',
-        'action': 'scrollTo:services'
+      "ctaSecondary": {
+        "text": "Ver Servicios",
+        "action": "scrollTo:services"
       }
     }
   },
   'gimnasio': {
-    'id': 'gimnasio',
-    'nameEs': 'Gimnasio/Fitness',
-    'nameEn': 'Gym/Fitness Center',
-    'tokens': 'gimnasio',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'classSchedule',
-          'membershipPlans',
-          'team',
-          'contact',
-          'testimonials',
-          'ctaBanner',
-          'footer'
+    "id": "gimnasio",
+    "nameEs": "Gimnasio/Fitness",
+    "nameEn": "Gym/Fitness Center",
+    "tokens": "gimnasio",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "classSchedule",
+          "membershipPlans",
+          "team",
+          "contact",
+          "testimonials",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'membershipPlans',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "membershipPlans",
+          "contact",
+          "footer"
         ]
       },
-      'pricing': {
-        'sections': [
-          'header',
-          'membershipPlans',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "pricing": {
+        "sections": [
+          "header",
+          "membershipPlans",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'membershipPlans',
-          'footer'
+        "requiredSections": [
+          "header",
+          "membershipPlans",
+          "footer"
         ]
       },
-      'schedule': {
-        'sections': [
-          'header',
-          'classSchedule',
-          'footer'
+      "schedule": {
+        "sections": [
+          "header",
+          "classSchedule",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'classSchedule',
-          'footer'
+        "requiredSections": [
+          "header",
+          "classSchedule",
+          "footer"
         ]
       },
-      'team': {
-        'sections': [
-          'header',
-          'team',
-          'footer'
+      "team": {
+        "sections": [
+          "header",
+          "team",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'team',
-          'footer'
+        "requiredSections": [
+          "header",
+          "team",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'mindbody',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": true,
+        "method": "mindbody",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true
       },
-      'portfolio': {
-        'enabled': false,
-        'optional': true
+      "portfolio": {
+        "enabled": false,
+        "optional": true
       },
-      'beforeAfter': {
-        'enabled': false
+      "beforeAfter": {
+        "enabled": false
       },
-      'staffProfiles': {
-        'enabled': true,
-        'label': 'Entrenadores',
-        'showCertifications': true
+      "staffProfiles": {
+        "enabled": true,
+        "label": "Entrenadores",
+        "showCertifications": true
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showTiers': true,
-        'highlightPopular': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showTiers": true,
+        "highlightPopular": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': true,
-        'filterByDay': true,
-        'filterByType': true,
-        'filterByInstructor': true
+      "classSchedule": {
+        "enabled": true,
+        "filterByDay": true,
+        "filterByType": true,
+        "filterByInstructor": true
       },
-      'packageBuilder': {
-        'enabled': true
+      "packageBuilder": {
+        "enabled": true
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       },
-      'freeTrial': {
-        'enabled': true,
-        'days': 7
+      "freeTrial": {
+        "enabled": true,
+        "days": 7
       }
     },
-    'serviceCategories': [
-      'membresias',
-      'clases_grupales',
-      'entrenamiento_personal',
-      'amenidades'
+    "serviceCategories": [
+      "membresias",
+      "clases_grupales",
+      "entrenamiento_personal",
+      "amenidades"
     ],
-    'targetAudience': {
-      'primary': 'Adults 25-45, fitness-conscious, comparing options',
-      'secondary': 'Athletes, Seniors, Youth'
+    "targetAudience": {
+      "primary": "Adults 25-45, fitness-conscious, comparing options",
+      "secondary": "Athletes, Seniors, Youth"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Gimnasio en {{city}} | Membresias y Clases',
-      'descriptionTemplate': 'Gimnasio en {{city}} con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde {{lowestPrice}}/mes.',
-      'schemaType': 'SportsActivityLocation',
-      'keywords': [
-        'gimnasio {{city}}',
-        'gym cerca de mi',
-        'clases de fitness {{city}}',
-        'entrenador personal {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Gimnasio en {{city}} | Membresias y Clases",
+      "descriptionTemplate": "Gimnasio en {{city}} con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde {{lowestPrice}}/mes.",
+      "schemaType": "SportsActivityLocation",
+      "keywords": [
+        "gimnasio {{city}}",
+        "gym cerca de mi",
+        "clases de fitness {{city}}",
+        "entrenador personal {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Clases',
-        'Planes',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Clases",
+        "Planes",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Prueba Free',
-        'action': 'freeTrial'
+      "cta": {
+        "text": "Prueba Free",
+        "action": "freeTrial"
       }
     },
-    'hero': {
-      'style': 'video',
-      'headlineTemplate': 'TRANSFORMA TU CUERPO EN {{businessName}}',
-      'subheadlineTemplate': 'Entrena con los mejores profesionales en instalaciones de primera',
-      'stats': [
-        '{{memberCount}}+ MIEMBROS',
-        '{{classCount}}+ CLASES SEMANALES',
-        '{{accessHours}} DISPONIBLE'
+    "hero": {
+      "style": "video",
+      "headlineTemplate": "TRANSFORMA TU CUERPO EN {{businessName}}",
+      "subheadlineTemplate": "Entrena con los mejores profesionales en instalaciones de primera",
+      "stats": [
+        "{{memberCount}}+ MIEMBROS",
+        "{{classCount}}+ CLASES SEMANALES",
+        "{{accessHours}} DISPONIBLE"
       ],
-      'ctaPrimary': {
-        'text': 'PRUEBA 7 DIAS FREE',
-        'action': 'freeTrial'
+      "ctaPrimary": {
+        "text": "PRUEBA 7 DIAS FREE",
+        "action": "freeTrial"
       },
-      'ctaSecondary': {
-        'text': 'VER MEMBRESIAS',
-        'action': 'scrollTo:pricing'
+      "ctaSecondary": {
+        "text": "VER MEMBRESIAS",
+        "action": "scrollTo:pricing"
       }
     }
   },
   'spa': {
-    'id': 'spa',
-    'nameEs': 'Spa/Wellness',
-    'nameEn': 'Spa/Wellness',
-    'tokens': 'spa',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'booking',
-          'gallery',
-          'team',
-          'testimonials',
-          'contact',
-          'ctaBanner',
-          'footer'
+    "id": "spa",
+    "nameEs": "Spa/Wellness",
+    "nameEn": "Spa/Wellness",
+    "tokens": "spa",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "booking",
+          "gallery",
+          "team",
+          "testimonials",
+          "contact",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'treatments': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "treatments": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'packages': {
-        'sections': [
-          'header',
-          'membershipPlans',
-          'quoteForm',
-          'footer'
+      "packages": {
+        "sections": [
+          "header",
+          "membershipPlans",
+          "quoteForm",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'membershipPlans',
-          'footer'
+        "requiredSections": [
+          "header",
+          "membershipPlans",
+          "footer"
         ]
       },
-      'team': {
-        'sections': [
-          'header',
-          'team',
-          'footer'
+      "team": {
+        "sections": [
+          "header",
+          "team",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'team',
-          'footer'
+        "requiredSections": [
+          "header",
+          "team",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'fresha',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": true,
+        "method": "fresha",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'label': 'Tratamientos',
-        'showPrices': true,
-        'showDuration': true
+      "serviceMenu": {
+        "enabled": true,
+        "label": "Tratamientos",
+        "showPrices": true,
+        "showDuration": true
       },
-      'portfolio': {
-        'enabled': false,
-        'optional': true
+      "portfolio": {
+        "enabled": false,
+        "optional": true
       },
-      'beforeAfter': {
-        'enabled': false
+      "beforeAfter": {
+        "enabled": false
       },
-      'staffProfiles': {
-        'enabled': true,
-        'label': 'Terapeutas'
+      "staffProfiles": {
+        "enabled": true,
+        "label": "Terapeutas"
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': true,
-        'showSavings': true
+      "packageBuilder": {
+        "enabled": true,
+        "showSavings": true
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       },
-      'giftVouchers': {
-        'enabled': true
+      "giftVouchers": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'masajes',
-      'faciales',
-      'corporales',
-      'paquetes'
+    "serviceCategories": [
+      "masajes",
+      "faciales",
+      "corporales",
+      "paquetes"
     ],
-    'targetAudience': {
-      'primary': 'Women 30-55, seeking relaxation and self-care',
-      'secondary': 'Couples, Business travelers, Mums'
+    "targetAudience": {
+      "primary": "Women 30-55, seeking relaxation and self-care",
+      "secondary": "Couples, Business travelers, Mums"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Spa en {{city}} | Tratamientos y Paquetes',
-      'descriptionTemplate': 'Spa en {{city}}. Masajes, faciales y tratamientos corporales. Reserva tu experiencia de relajacion.',
-      'schemaType': 'HealthAndBeautyBusiness',
-      'keywords': [
-        'spa {{city}}',
-        'masajes {{city}}',
-        'tratamiento facial {{city}}',
-        'relajacion {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Spa en {{city}} | Tratamientos y Paquetes",
+      "descriptionTemplate": "Spa en {{city}}. Masajes, faciales y tratamientos corporales. Reserva tu experiencia de relajacion.",
+      "schemaType": "HealthAndBeautyBusiness",
+      "keywords": [
+        "spa {{city}}",
+        "masajes {{city}}",
+        "tratamiento facial {{city}}",
+        "relajacion {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Tratamientos',
-        'Paquetes',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Tratamientos",
+        "Paquetes",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': 'Tu Santuario de Bienestar',
-      'subheadlineTemplate': 'Relajate, renueva y reconnectate en {{businessName}}',
-      'ctaPrimary': {
-        'text': 'Reservar Experiencia',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "Tu Santuario de Bienestar",
+      "subheadlineTemplate": "Relajate, renueva y reconnectate en {{businessName}}",
+      "ctaPrimary": {
+        "text": "Reservar Experiencia",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Tratamientos',
-        'action': 'scrollTo:treatments'
+      "ctaSecondary": {
+        "text": "Ver Tratamientos",
+        "action": "scrollTo:treatments"
       }
     }
   },
   'barberia': {
-    'id': 'barberia',
-    'nameEs': 'Barberia',
-    'nameEn': 'Barbershop',
-    'tokens': 'barberia',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'booking',
-          'portfolio',
-          'beforeAfter',
-          'team',
-          'contact',
-          'testimonials',
-          'ctaBanner',
-          'footer'
+    "id": "barberia",
+    "nameEs": "Barberia",
+    "nameEn": "Barbershop",
+    "tokens": "barberia",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "booking",
+          "portfolio",
+          "beforeAfter",
+          "team",
+          "contact",
+          "testimonials",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'portfolio',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "portfolio",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolio',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolio",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'square',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": true,
+        "method": "square",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'style': 'traditional-list',
-        'showPrices': true,
-        'showDuration': true
+      "serviceMenu": {
+        "enabled": true,
+        "style": "traditional-list",
+        "showPrices": true,
+        "showDuration": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 20,
-        'categories': [
-          'fades',
-          'clasico',
-          'barbas'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 20,
+        "categories": [
+          "fades",
+          "clasico",
+          "barbas"
         ],
-        'noStockPhotos': true
+        "noStockPhotos": true
       },
-      'beforeAfter': {
-        'enabled': true
+      "beforeAfter": {
+        "enabled": true
       },
-      'staffProfiles': {
-        'enabled': true,
-        'label': 'Barberos'
+      "staffProfiles": {
+        "enabled": true,
+        "label": "Barberos"
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'walkInPolicy': {
-        'enabled': true
+      "walkInPolicy": {
+        "enabled": true
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': false
+      "packageBuilder": {
+        "enabled": false
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'cortes',
-      'afeitado',
-      'arreglo_barba',
-      'paquetes'
+    "serviceCategories": [
+      "cortes",
+      "afeitado",
+      "arreglo_barba",
+      "paquetes"
     ],
-    'targetAudience': {
-      'primary': 'Men 18-55, grooming-conscious',
-      'secondary': 'Boys, Grooms, Older gentlemen'
+    "targetAudience": {
+      "primary": "Men 18-55, grooming-conscious",
+      "secondary": "Boys, Grooms, Older gentlemen"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Barberia en {{city}} | Cortes y Afeitado',
-      'descriptionTemplate': 'Barberia en {{city}}. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos.',
-      'schemaType': 'BarberShop',
-      'keywords': [
-        'barberia {{city}}',
-        'corte de pelo hombre {{city}}',
-        'barber shop {{city}}',
-        'fade {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Barberia en {{city}} | Cortes y Afeitado",
+      "descriptionTemplate": "Barberia en {{city}}. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos.",
+      "schemaType": "BarberShop",
+      "keywords": [
+        "barberia {{city}}",
+        "corte de pelo hombre {{city}}",
+        "barber shop {{city}}",
+        "fade {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - El Arte del Corte',
-      'subheadlineTemplate': 'Tradicion y maestria en cada detalle',
-      'ctaPrimary': {
-        'text': 'Reservar Cita',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - El Arte del Corte",
+      "subheadlineTemplate": "Tradicion y maestria en cada detalle",
+      "ctaPrimary": {
+        "text": "Reservar Cita",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Walk-In',
-        'action': 'scrollTo:contact'
+      "ctaSecondary": {
+        "text": "Walk-In",
+        "action": "scrollTo:contact"
       }
     }
   },
   'unas': {
-    'id': 'unas',
-    'nameEs': 'Unas',
-    'nameEn': 'Nail Salon',
-    'tokens': 'unas',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'booking',
-          'portfolio',
-          'gallery',
-          'team',
-          'contact',
-          'testimonials',
-          'ctaBanner',
-          'footer'
+    "id": "unas",
+    "nameEs": "Unas",
+    "nameEn": "Nail Salon",
+    "tokens": "unas",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "booking",
+          "portfolio",
+          "gallery",
+          "team",
+          "contact",
+          "testimonials",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'portfolio',
-          'gallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "portfolio",
+          "gallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolio',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolio",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'fresha',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": true,
+        "method": "fresha",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true,
-        'showDuration': true,
-        'tabbed': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true,
+        "showDuration": true,
+        "tabbed": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 30,
-        'categories': [
-          'natural',
-          'gel',
-          'acrilico',
-          'nail_art',
-          'bridal'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 30,
+        "categories": [
+          "natural",
+          "gel",
+          "acrilico",
+          "nail_art",
+          "bridal"
         ]
       },
-      'beforeAfter': {
-        'enabled': true
+      "beforeAfter": {
+        "enabled": true
       },
-      'staffProfiles': {
-        'enabled': true,
-        'label': 'Nail Artists'
+      "staffProfiles": {
+        "enabled": true,
+        "label": "Nail Artists"
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': false
+      "packageBuilder": {
+        "enabled": false
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'manicure',
-      'pedicure',
-      'nail_art',
-      'addons'
+    "serviceCategories": [
+      "manicure",
+      "pedicure",
+      "nail_art",
+      "addons"
     ],
-    'targetAudience': {
-      'primary': 'Women 20-45, beauty-conscious, nail art enthusiasts',
-      'secondary': 'Brides, Special events'
+    "targetAudience": {
+      "primary": "Women 20-45, beauty-conscious, nail art enthusiasts",
+      "secondary": "Brides, Special events"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Unas en {{city}} | Manicure, Pedicure y Nail Art',
-      'descriptionTemplate': 'Unas perfectas en {{city}}. Diseno profesional, productos de calidad. Reserva tu cita.',
-      'schemaType': 'BeautySalon',
-      'keywords': [
-        'unas {{city}}',
-        'manicure {{city}}',
-        'nail art {{city}}',
-        'pedicure {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Unas en {{city}} | Manicure, Pedicure y Nail Art",
+      "descriptionTemplate": "Unas perfectas en {{city}}. Diseno profesional, productos de calidad. Reserva tu cita.",
+      "schemaType": "BeautySalon",
+      "keywords": [
+        "unas {{city}}",
+        "manicure {{city}}",
+        "nail art {{city}}",
+        "pedicure {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': 'Unas Perfectas en {{city}}',
-      'subheadlineTemplate': 'Diseno profesional, productos de calidad, higiene garantizada',
-      'ctaPrimary': {
-        'text': 'Reservar Cita',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "Unas Perfectas en {{city}}",
+      "subheadlineTemplate": "Diseno profesional, productos de calidad, higiene garantizada",
+      "ctaPrimary": {
+        "text": "Reservar Cita",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Galeria',
-        'action': 'scrollTo:gallery'
+      "ctaSecondary": {
+        "text": "Ver Galeria",
+        "action": "scrollTo:gallery"
       }
     }
   },
   'tatuajes': {
-    'id': 'tatuajes',
-    'nameEs': 'Tatuajes/Piercing',
-    'nameEn': 'Tattoo/Piercing Studio',
-    'tokens': 'tatuajes',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'portfolio',
-          'team',
-          'contact',
-          'ctaBanner',
-          'footer'
+    "id": "tatuajes",
+    "nameEs": "Tatuajes/Piercing",
+    "nameEn": "Tattoo/Piercing Studio",
+    "tokens": "tatuajes",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "portfolio",
+          "team",
+          "contact",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'portfolio',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "portfolio",
+          "contact",
+          "footer"
         ]
       },
-      'portfolio': {
-        'sections': [
-          'header',
-          'portfolioGallery',
-          'footer'
+      "portfolio": {
+        "sections": [
+          "header",
+          "portfolioGallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolioGallery',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolioGallery",
+          "footer"
         ]
       },
-      'artists': {
-        'sections': [
-          'header',
-          'artistProfiles',
-          'footer'
+      "artists": {
+        "sections": [
+          "header",
+          "artistProfiles",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'artistProfiles',
-          'footer'
+        "requiredSections": [
+          "header",
+          "artistProfiles",
+          "footer"
         ]
       },
-      'info': {
-        'sections': [
-          'header',
-          'aftercareGuide',
-          'faq',
-          'consultationForm',
-          'contactBlock',
-          'footer'
+      "info": {
+        "sections": [
+          "header",
+          "aftercareGuide",
+          "faq",
+          "consultationForm",
+          "contactBlock",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'faq',
-          'contactBlock',
-          'footer'
-        ]
-      }
-    },
-    'features': {
-      'onlineBooking': {
-        'enabled': false,
-        'method': 'consultation_form',
-        'fallback': 'whatsapp'
-      },
-      'serviceMenu': {
-        'enabled': false
-      },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 50,
-        'categories': [
-          'tradicional',
-          'realismo',
-          'blackwork',
-          'japones',
-          'minimal'
-        ],
-        'filterByArtist': true,
-        'filterByStyle': true
-      },
-      'beforeAfter': {
-        'enabled': true,
-        'label': 'Cover-ups'
-      },
-      'staffProfiles': {
-        'enabled': true,
-        'label': 'Artistas',
-        'showStyles': true
-      },
-      'pricingDisplay': {
-        'enabled': false,
-        'showBySize': true
-      },
-      'walkInPolicy': {
-        'enabled': false
-      },
-      'classSchedule': {
-        'enabled': false
-      },
-      'packageBuilder': {
-        'enabled': false
-      },
-      'aftercareInfo': {
-        'enabled': true,
-        'prominent': true
-      },
-      'whatsappFloat': {
-        'enabled': true
-      },
-      'googleMapsEmbed': {
-        'enabled': true
-      },
-      'consultationForm': {
-        'enabled': true,
-        'fields': [
-          'name',
-          'phone',
-          'email',
-          'tattooType',
-          'bodyLocation',
-          'approximateSize',
-          'referenceImage',
-          'description',
-          'isFirstTattoo',
-          'howFoundUs'
+        "requiredSections": [
+          "header",
+          "faq",
+          "contactBlock",
+          "footer"
         ]
       }
     },
-    'serviceCategories': [
-      'tatuajes_custom',
-      'tatuajes_tradicional',
-      'tatuajes_realismo',
-      'tatuajes_blackwork',
-      'piercing'
+    "features": {
+      "onlineBooking": {
+        "enabled": false,
+        "method": "consultation_form",
+        "fallback": "whatsapp"
+      },
+      "serviceMenu": {
+        "enabled": false
+      },
+      "portfolio": {
+        "enabled": true,
+        "minImages": 50,
+        "categories": [
+          "tradicional",
+          "realismo",
+          "blackwork",
+          "japones",
+          "minimal"
+        ],
+        "filterByArtist": true,
+        "filterByStyle": true
+      },
+      "beforeAfter": {
+        "enabled": true,
+        "label": "Cover-ups"
+      },
+      "staffProfiles": {
+        "enabled": true,
+        "label": "Artistas",
+        "showStyles": true
+      },
+      "pricingDisplay": {
+        "enabled": false,
+        "showBySize": true
+      },
+      "walkInPolicy": {
+        "enabled": false
+      },
+      "classSchedule": {
+        "enabled": false
+      },
+      "packageBuilder": {
+        "enabled": false
+      },
+      "aftercareInfo": {
+        "enabled": true,
+        "prominent": true
+      },
+      "whatsappFloat": {
+        "enabled": true
+      },
+      "googleMapsEmbed": {
+        "enabled": true
+      },
+      "consultationForm": {
+        "enabled": true,
+        "fields": [
+          "name",
+          "phone",
+          "email",
+          "tattooType",
+          "bodyLocation",
+          "approximateSize",
+          "referenceImage",
+          "description",
+          "isFirstTattoo",
+          "howFoundUs"
+        ]
+      }
+    },
+    "serviceCategories": [
+      "tatuajes_custom",
+      "tatuajes_tradicional",
+      "tatuajes_realismo",
+      "tatuajes_blackwork",
+      "piercing"
     ],
-    'targetAudience': {
-      'primary': 'Adults 18-45, seeking custom tattoo or piercing',
-      'secondary': 'First-timers, Cover-up customers, Collectors'
+    "targetAudience": {
+      "primary": "Adults 18-45, seeking custom tattoo or piercing",
+      "secondary": "First-timers, Cover-up customers, Collectors"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Tatuajes en {{city}} | Estudio de Tatuaje',
-      'descriptionTemplate': 'Tatuajes personalizados en {{city}}. Artistas profesionales, higiene impecable. Agenda tu consulta.',
-      'schemaType': 'LocalBusiness',
-      'keywords': [
-        'tatuajes {{city}}',
-        'tattoo {{city}}',
-        'piercing {{city}}',
-        'estudio tatuaje {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Tatuajes en {{city}} | Estudio de Tatuaje",
+      "descriptionTemplate": "Tatuajes personalizados en {{city}}. Artistas profesionales, higiene impecable. Agenda tu consulta.",
+      "schemaType": "LocalBusiness",
+      "keywords": [
+        "tatuajes {{city}}",
+        "tattoo {{city}}",
+        "piercing {{city}}",
+        "estudio tatuaje {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Portafolio',
-        'Artistas',
-        'Info',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Portafolio",
+        "Artistas",
+        "Info",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Consulta',
-        'action': 'consultationForm'
+      "cta": {
+        "text": "Consulta",
+        "action": "consultationForm"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Arte en Tu Piel',
-      'subheadlineTemplate': 'Tatuajes personalizados, higiene impecable',
-      'ctaPrimary': {
-        'text': 'Agendar Consulta',
-        'action': 'consultationForm'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Arte en Tu Piel",
+      "subheadlineTemplate": "Tatuajes personalizados, higiene impecable",
+      "ctaPrimary": {
+        "text": "Agendar Consulta",
+        "action": "consultationForm"
       },
-      'ctaSecondary': {
-        'text': 'Ver Portafolio',
-        'action': 'scrollTo:portfolio'
+      "ctaSecondary": {
+        "text": "Ver Portafolio",
+        "action": "scrollTo:portfolio"
       }
     }
   },
   'estetica': {
-    'id': 'estetica',
-    'nameEs': 'Estetica/Facial',
-    'nameEn': 'Aesthetic Clinic',
-    'tokens': 'estetica',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'beforeAfter',
-          'team',
-          'testimonials',
-          'contact',
-          'quoteForm',
-          'ctaBanner',
-          'footer'
+    "id": "estetica",
+    "nameEs": "Estetica/Facial",
+    "nameEn": "Aesthetic Clinic",
+    "tokens": "estetica",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "beforeAfter",
+          "team",
+          "testimonials",
+          "contact",
+          "quoteForm",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'treatments': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "treatments": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'results': {
-        'sections': [
-          'header',
-          'beforeAfter',
-          'footer'
+      "results": {
+        "sections": [
+          "header",
+          "beforeAfter",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'beforeAfter',
-          'footer'
+        "requiredSections": [
+          "header",
+          "beforeAfter",
+          "footer"
         ]
       },
-      'team': {
-        'sections': [
-          'header',
-          'team',
-          'footer'
+      "team": {
+        "sections": [
+          "header",
+          "team",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'team',
-          'footer'
+        "requiredSections": [
+          "header",
+          "team",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': false,
-        'method': 'consultation_form',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": false,
+        "method": "consultation_form",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'label': 'Tratamientos',
-        'showPrices': 'from',
-        'showDescription': true
+      "serviceMenu": {
+        "enabled": true,
+        "label": "Tratamientos",
+        "showPrices": "from",
+        "showDescription": true
       },
-      'portfolio': {
-        'enabled': true,
-        'label': 'Resultados'
+      "portfolio": {
+        "enabled": true,
+        "label": "Resultados"
       },
-      'beforeAfter': {
-        'enabled': true,
-        'prominent': true,
-        'sliderStyle': true,
-        'minPairs': 20
+      "beforeAfter": {
+        "enabled": true,
+        "prominent": true,
+        "sliderStyle": true,
+        "minPairs": 20
       },
-      'staffProfiles': {
-        'enabled': true,
-        'label': 'Equipo Medico',
-        'showCredentials': true,
-        'showTreatmentCount': true
+      "staffProfiles": {
+        "enabled": true,
+        "label": "Equipo Medico",
+        "showCredentials": true,
+        "showTreatmentCount": true
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showFromPrice': true,
-        'note': 'Precios varian segun evaluacion. Primera consulta sin cargo.'
+      "pricingDisplay": {
+        "enabled": true,
+        "showFromPrice": true,
+        "note": "Precios varian segun evaluacion. Primera consulta sin cargo."
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': false
+      "packageBuilder": {
+        "enabled": false
       },
-      'aftercareInfo': {
-        'enabled': true
+      "aftercareInfo": {
+        "enabled": true
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       },
-      'freeConsultation': {
-        'enabled': true
+      "freeConsultation": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'faciales',
-      'inyectables',
-      'corporales',
-      'laser'
+    "serviceCategories": [
+      "faciales",
+      "inyectables",
+      "corporales",
+      "laser"
     ],
-    'targetAudience': {
-      'primary': 'Women 30-60, seeking professional skincare/anti-aging',
-      'secondary': 'Younger (acne), Men, Post-procedure'
+    "targetAudience": {
+      "primary": "Women 30-60, seeking professional skincare/anti-aging",
+      "secondary": "Younger (acne), Men, Post-procedure"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Estetica en {{city}} | Tratamientos Avanzados',
-      'descriptionTemplate': 'Clinica estetica en {{city}}. Tratamientos faciales, corporales y mas. Consulta sin cargo.',
-      'schemaType': 'MedicalBusiness',
-      'keywords': [
-        'estetica {{city}}',
-        'tratamiento facial {{city}}',
-        'botox {{city}}',
-        'clinica estetica {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Estetica en {{city}} | Tratamientos Avanzados",
+      "descriptionTemplate": "Clinica estetica en {{city}}. Tratamientos faciales, corporales y mas. Consulta sin cargo.",
+      "schemaType": "MedicalBusiness",
+      "keywords": [
+        "estetica {{city}}",
+        "tratamiento facial {{city}}",
+        "botox {{city}}",
+        "clinica estetica {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Tratamientos',
-        'Resultados',
-        'Equipo',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Tratamientos",
+        "Resultados",
+        "Equipo",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Consulta',
-        'action': 'consultationForm'
+      "cta": {
+        "text": "Consulta",
+        "action": "consultationForm"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Belleza y Ciencia',
-      'subheadlineTemplate': 'Tratamientos avanzados con tecnologia de punta y resultados reales',
-      'ctaPrimary': {
-        'text': 'Reservar Consulta',
-        'action': 'consultationForm'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Belleza y Ciencia",
+      "subheadlineTemplate": "Tratamientos avanzados con tecnologia de punta y resultados reales",
+      "ctaPrimary": {
+        "text": "Reservar Consulta",
+        "action": "consultationForm"
       },
-      'ctaSecondary': {
-        'text': 'Ver Resultados',
-        'action': 'scrollTo:results'
+      "ctaSecondary": {
+        "text": "Ver Resultados",
+        "action": "scrollTo:results"
       }
     }
   },
   'diseno_grafico': {
-    'id': 'diseno_grafico',
-    'nameEs': 'Diseno Grafico',
-    'nameEn': 'Graphic Design',
-    'tokens': 'diseno_grafico',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'productCatalog',
-          'portfolio',
-          'testimonials',
-          'quoteForm',
-          'contact',
-          'ctaBanner',
-          'footer'
+    "id": "diseno_grafico",
+    "nameEs": "Diseno Grafico",
+    "nameEn": "Graphic Design",
+    "tokens": "diseno_grafico",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "productCatalog",
+          "portfolio",
+          "testimonials",
+          "quoteForm",
+          "contact",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'portfolio',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "portfolio",
+          "contact",
+          "footer"
         ]
       },
-      'portfolio': {
-        'sections': [
-          'header',
-          'portfolio',
-          'footer'
+      "portfolio": {
+        "sections": [
+          "header",
+          "portfolio",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolio',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolio",
+          "footer"
         ]
       },
-      'catalog': {
-        'sections': [
-          'header',
-          'productCatalog',
-          'footer'
+      "catalog": {
+        "sections": [
+          "header",
+          "productCatalog",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'productCatalog',
-          'footer'
+        "requiredSections": [
+          "header",
+          "productCatalog",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': false,
-        'method': 'whatsapp',
-        'fallback': 'email'
+    "features": {
+      "onlineBooking": {
+        "enabled": false,
+        "method": "whatsapp",
+        "fallback": "email"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true
       },
-      'productCatalog': {
-        'enabled': true,
-        'showPrices': true,
-        'whatsappOrder': true
+      "productCatalog": {
+        "enabled": true,
+        "showPrices": true,
+        "whatsappOrder": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 12,
-        'categories': [
-          'portadas',
-          'premade',
-          'mockups',
-          'branding'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 12,
+        "categories": [
+          "portadas",
+          "premade",
+          "mockups",
+          "branding"
         ]
       },
-      'staffProfiles': {
-        'enabled': false
+      "staffProfiles": {
+        "enabled": false
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': false
+      "googleMapsEmbed": {
+        "enabled": false
       },
-      'testimonials': {
-        'enabled': true
+      "testimonials": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'portadas_personalizadas',
-      'portadas_premade',
-      'mockups_3d',
-      'branding'
+    "serviceCategories": [
+      "portadas_personalizadas",
+      "portadas_premade",
+      "mockups_3d",
+      "branding"
     ],
-    'targetAudience': {
-      'primary': 'Independent authors, self-publishing writers',
-      'secondary': 'Small publishers, content creators, bloggers'
+    "targetAudience": {
+      "primary": "Independent authors, self-publishing writers",
+      "secondary": "Small publishers, content creators, bloggers"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Diseno Grafico Profesional en {{city}}',
-      'descriptionTemplate': 'Diseno grafico profesional en {{city}}. Portadas de libros, diseno editorial y branding creativo. Consulta nuestro catalogo.',
-      'schemaType': 'ProfessionalService',
-      'keywords': [
-        'diseno grafico {{city}}',
-        'portadas de libros {{city}}',
-        'diseno editorial {{city}}',
-        'book cover design {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Diseno Grafico Profesional en {{city}}",
+      "descriptionTemplate": "Diseno grafico profesional en {{city}}. Portadas de libros, diseno editorial y branding creativo. Consulta nuestro catalogo.",
+      "schemaType": "ProfessionalService",
+      "keywords": [
+        "diseno grafico {{city}}",
+        "portadas de libros {{city}}",
+        "diseno editorial {{city}}",
+        "book cover design {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Servicios',
-        'Catalogo',
-        'Portafolio',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Servicios",
+        "Catalogo",
+        "Portafolio",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Contactame',
-        'action': 'whatsapp'
+      "cta": {
+        "text": "Contactame",
+        "action": "whatsapp"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': 'Donde la fantasia se convierte en realidad',
-      'subheadlineTemplate': 'Diseno de portadas y arte visual para tu proyecto',
-      'ctaPrimary': {
-        'text': 'Ver Catalogo',
-        'action': 'scrollTo:catalogo'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "Donde la fantasia se convierte en realidad",
+      "subheadlineTemplate": "Diseno de portadas y arte visual para tu proyecto",
+      "ctaPrimary": {
+        "text": "Ver Catalogo",
+        "action": "scrollTo:catalogo"
       },
-      'ctaSecondary': {
-        'text': 'Trabajemos Juntos',
-        'action': 'whatsapp'
+      "ctaSecondary": {
+        "text": "Trabajemos Juntos",
+        "action": "whatsapp"
       }
     }
   },
   'pestanas': {
-    'id': 'pestanas',
-    'nameEs': 'Pestañas y Cejas',
-    'nameEn': 'Lashes & Brows',
-    'tokens': 'pestanas',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'booking',
-          'portfolio',
-          'gallery',
-          'testimonials',
-          'contact',
-          'ctaBanner',
-          'footer'
+    "id": "pestanas",
+    "nameEs": "Pestañas y Cejas",
+    "nameEn": "Lashes & Brows",
+    "tokens": "pestanas",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "booking",
+          "portfolio",
+          "gallery",
+          "testimonials",
+          "contact",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'portfolio',
-          'gallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "portfolio",
+          "gallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolio',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolio",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'whatsappFloat': {
-        'enabled': true
+    "features": {
+      "whatsappFloat": {
+        "enabled": true
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true,
-        'showDuration': true,
-        'filterable': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true,
+        "showDuration": true,
+        "filterable": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 12,
-        'categories': [
-          'pestanas',
-          'cejas',
-          'microblading'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 12,
+        "categories": [
+          "pestanas",
+          "cejas",
+          "microblading"
         ]
       },
-      'beforeAfter': {
-        'enabled': false,
-        'optional': true
+      "beforeAfter": {
+        "enabled": false,
+        "optional": true
       },
-      'staffProfiles': {
-        'enabled': false
+      "staffProfiles": {
+        "enabled": false
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': false
+      "packageBuilder": {
+        "enabled": false
       },
-      'aftercareInfo': {
-        'enabled': false
+      "aftercareInfo": {
+        "enabled": false
       },
-      'onlineBooking': {
-        'enabled': true,
-        'method': 'whatsapp',
-        'fallback': 'whatsapp'
+      "onlineBooking": {
+        "enabled": true,
+        "method": "whatsapp",
+        "fallback": "whatsapp"
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'pestanas',
-      'cejas',
-      'microblading',
-      'lifting'
+    "serviceCategories": [
+      "pestanas",
+      "cejas",
+      "microblading",
+      "lifting"
     ],
-    'targetAudience': {
-      'primary': 'Women 20-40, Instagram-driven, beauty-conscious',
-      'secondary': 'Brides, event attendees, beauty professionals'
+    "targetAudience": {
+      "primary": "Women 20-40, Instagram-driven, beauty-conscious",
+      "secondary": "Brides, event attendees, beauty professionals"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Pestañas y Cejas en {{city}}',
-      'descriptionTemplate': 'Extensiones de pestañas, microblading y diseño de cejas en {{city}}. Reserva tu cita por WhatsApp. Precios desde {{lowestPrice}}.',
-      'schemaType': 'BeautySalon',
-      'keywords': [
-        'pestañas {{city}}',
-        'extensiones de pestañas {{city}}',
-        'microblading {{city}}',
-        'diseño de cejas {{city}}',
-        'lash extensions {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Pestañas y Cejas en {{city}}",
+      "descriptionTemplate": "Extensiones de pestañas, microblading y diseño de cejas en {{city}}. Reserva tu cita por WhatsApp. Precios desde {{lowestPrice}}.",
+      "schemaType": "BeautySalon",
+      "keywords": [
+        "pestañas {{city}}",
+        "extensiones de pestañas {{city}}",
+        "microblading {{city}}",
+        "diseño de cejas {{city}}",
+        "lash extensions {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Tu Mirada Perfecta en {{city}}',
-      'subheadlineTemplate': 'Extensiones de pestañas, microblading y diseño de cejas que realzan tu belleza natural',
-      'ctaPrimary': {
-        'text': 'Reservar Cita',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Tu Mirada Perfecta en {{city}}",
+      "subheadlineTemplate": "Extensiones de pestañas, microblading y diseño de cejas que realzan tu belleza natural",
+      "ctaPrimary": {
+        "text": "Reservar Cita",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Servicios',
-        'action': 'scrollTo:services'
+      "ctaSecondary": {
+        "text": "Ver Servicios",
+        "action": "scrollTo:services"
       }
     }
   },
   'depilacion': {
-    'id': 'depilacion',
-    'nameEs': 'Depilacion',
-    'nameEn': 'Hair Removal Clinic',
-    'tokens': 'depilacion',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'services',
-          'beforeAfter',
-          'quoteForm',
-          'contact',
-          'testimonials',
-          'ctaBanner',
-          'footer'
+    "id": "depilacion",
+    "nameEs": "Depilacion",
+    "nameEn": "Hair Removal Clinic",
+    "tokens": "depilacion",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "beforeAfter",
+          "quoteForm",
+          "contact",
+          "testimonials",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'services',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "contact",
+          "footer"
         ]
       },
-      'treatments': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "treatments": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'technology': {
-        'sections': [
-          'header',
-          'services',
-          'faq',
-          'footer'
+      "technology": {
+        "sections": [
+          "header",
+          "services",
+          "faq",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': false,
-        'method': 'consultation_form',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineBooking": {
+        "enabled": false,
+        "method": "consultation_form",
+        "fallback": "whatsapp"
       },
-      'serviceMenu': {
-        'enabled': true,
-        'label': 'Tratamientos',
-        'showPrices': true,
-        'areaBasedPricing': true
+      "serviceMenu": {
+        "enabled": true,
+        "label": "Tratamientos",
+        "showPrices": true,
+        "areaBasedPricing": true
       },
-      'portfolio': {
-        'enabled': false
+      "portfolio": {
+        "enabled": false
       },
-      'beforeAfter': {
-        'enabled': true,
-        'label': 'Resultados'
+      "beforeAfter": {
+        "enabled": true,
+        "label": "Resultados"
       },
-      'staffProfiles': {
-        'enabled': false,
-        'optional': true
+      "staffProfiles": {
+        "enabled": false,
+        "optional": true
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showPerSession': true,
-        'showPackageDiscounts': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showPerSession": true,
+        "showPackageDiscounts": true
       },
-      'walkInPolicy': {
-        'enabled': false
+      "walkInPolicy": {
+        "enabled": false
       },
-      'classSchedule': {
-        'enabled': false
+      "classSchedule": {
+        "enabled": false
       },
-      'packageBuilder': {
-        'enabled': true,
-        'tiers': [
+      "packageBuilder": {
+        "enabled": true,
+        "tiers": [
           6,
           8,
           10
         ],
-        'discounts': [
+        "discounts": [
           20,
           30,
           40
         ]
       },
-      'aftercareInfo': {
-        'enabled': true
+      "aftercareInfo": {
+        "enabled": true
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       },
-      'freeConsultation': {
-        'enabled': true,
-        'prominent': true
+      "freeConsultation": {
+        "enabled": true,
+        "prominent": true
       },
-      'technologyShowcase': {
-        'enabled': true,
-        'showFdaBadge': true,
-        'showSkinTypeInfo': true
+      "technologyShowcase": {
+        "enabled": true,
+        "showFdaBadge": true,
+        "showSkinTypeInfo": true
       }
     },
-    'serviceCategories': [
-      'laser',
-      'cera',
-      'electrolisis',
-      'paquetes'
+    "serviceCategories": [
+      "laser",
+      "cera",
+      "electrolisis",
+      "paquetes"
     ],
-    'targetAudience': {
-      'primary': 'Women 20-45, seeking permanent hair reduction',
-      'secondary': 'Men, PCOS transformations'
+    "targetAudience": {
+      "primary": "Women 20-45, seeking permanent hair reduction",
+      "secondary": "Men, PCOS transformations"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Depilacion Laser en {{city}} | Resultados Permanentes',
-      'descriptionTemplate': 'Depilacion laser definitiva en {{city}}. Tecnologia avanzada, resultados permanentes. Consulta gratis.',
-      'schemaType': 'MedicalBusiness',
-      'keywords': [
-        'depilacion laser {{city}}',
-        'depilacion definitiva {{city}}',
-        'laser hair removal {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Depilacion Laser en {{city}} | Resultados Permanentes",
+      "descriptionTemplate": "Depilacion laser definitiva en {{city}}. Tecnologia avanzada, resultados permanentes. Consulta gratis.",
+      "schemaType": "MedicalBusiness",
+      "keywords": [
+        "depilacion laser {{city}}",
+        "depilacion definitiva {{city}}",
+        "laser hair removal {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Tratamientos',
-        'Tecnologia',
-        'Resultados',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Tratamientos",
+        "Tecnologia",
+        "Resultados",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Consulta Gratis',
-        'action': 'consultationForm'
+      "cta": {
+        "text": "Consulta Gratis",
+        "action": "consultationForm"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Depilacion Laser Definitiva',
-      'subheadlineTemplate': 'Tecnologia de ultima generacion, resultados permanentes',
-      'ctaPrimary': {
-        'text': 'Consulta Sin Cargo',
-        'action': 'consultationForm'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Depilacion Laser Definitiva",
+      "subheadlineTemplate": "Tecnologia de ultima generacion, resultados permanentes",
+      "ctaPrimary": {
+        "text": "Consulta Sin Cargo",
+        "action": "consultationForm"
       },
-      'ctaSecondary': {
-        'text': 'Ver Tratamientos',
-        'action': 'scrollTo:treatments'
+      "ctaSecondary": {
+        "text": "Ver Tratamientos",
+        "action": "scrollTo:treatments"
       }
     }
   },
   'meal_prep': {
-    'id': 'meal_prep',
-    'nameEs': 'Meal Prep & Compras',
-    'nameEn': 'Meal Prep & Personal Shopping',
-    'tokens': 'meal_prep',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'servicesPreview',
-          'savingsCalculator',
-          'galleryPreview',
-          'team',
-          'testimonial',
-          'faq',
-          'contact',
-          'ctaBanner',
-          'footer'
+    "id": "meal_prep",
+    "nameEs": "Meal Prep & Compras",
+    "nameEn": "Meal Prep & Personal Shopping",
+    "tokens": "meal_prep",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "servicesPreview",
+          "savingsCalculator",
+          "galleryPreview",
+          "team",
+          "testimonial",
+          "faq",
+          "contact",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'servicesPreview',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "servicesPreview",
+          "contact",
+          "footer"
         ]
       },
-      'services': {
-        'sections': [
-          'header',
-          'serviceMenu',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "services": {
+        "sections": [
+          "header",
+          "serviceMenu",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'serviceMenu',
-          'footer'
+        "requiredSections": [
+          "header",
+          "serviceMenu",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'portfolioGallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "portfolioGallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'portfolioGallery',
-          'footer'
+        "requiredSections": [
+          "header",
+          "portfolioGallery",
+          "footer"
         ]
       },
-      'team': {
-        'sections': [
-          'header',
-          'teamProfiles',
-          'footer'
+      "team": {
+        "sections": [
+          "header",
+          "teamProfiles",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'teamProfiles',
-          'footer'
+        "requiredSections": [
+          "header",
+          "teamProfiles",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contactSplit',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contactSplit",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contactSplit',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contactSplit",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineBooking': {
-        'enabled': false
+    "features": {
+      "onlineBooking": {
+        "enabled": false
       },
-      'serviceMenu': {
-        'enabled': true,
-        'showPrices': true,
-        'showDuration': true,
-        'filterable': true
+      "serviceMenu": {
+        "enabled": true,
+        "showPrices": true,
+        "showDuration": true,
+        "filterable": true
       },
-      'portfolio': {
-        'enabled': true,
-        'minImages': 6,
-        'categories': [
-          'cortes_de_carne',
-          'mise_en_place',
-          'freezer_meals',
-          'mercado'
+      "portfolio": {
+        "enabled": true,
+        "minImages": 6,
+        "categories": [
+          "cortes_de_carne",
+          "mise_en_place",
+          "freezer_meals",
+          "mercado"
         ]
       },
-      'beforeAfter': {
-        'enabled': false
+      "beforeAfter": {
+        "enabled": false
       },
-      'staffProfiles': {
-        'enabled': true,
-        'showInstagram': true,
-        'bookable': false
+      "staffProfiles": {
+        "enabled": true,
+        "showInstagram": true,
+        "bookable": false
       },
-      'pricingDisplay': {
-        'enabled': true,
-        'showExactPrice': true
+      "pricingDisplay": {
+        "enabled": true,
+        "showExactPrice": true
       },
-      'savingsCalculator': {
-        'enabled': true,
-        'defaultTierMonthlyGs': 1600000,
-        'defaultHourlyValueGs': 25000
+      "savingsCalculator": {
+        "enabled": true,
+        "defaultTierMonthlyGs": 1600000,
+        "defaultHourlyValueGs": 25000
       },
-      'seasonalCalendar': {
-        'enabled': false,
-        'optional': true
+      "seasonalCalendar": {
+        "enabled": false,
+        "optional": true
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'serviceCategories': [
-      'compras',
-      'prep',
-      'cocinado',
-      'add-on'
+    "serviceCategories": [
+      "compras",
+      "prep",
+      "cocinado",
+      "add-on"
     ],
-    'targetAudience': {
-      'primary': 'Remote workers 25-45 in San Lorenzo, USD earners, time-poor professionals',
-      'secondary': 'Busy households, couples, clinic doctors, students'
+    "targetAudience": {
+      "primary": "Remote workers 25-45 in San Lorenzo, USD earners, time-poor professionals",
+      "secondary": "Busy households, couples, clinic doctors, students"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Meal Prep y Compras en {{city}} | Tu tiempo vale mas',
-      'descriptionTemplate': 'Hacemos tu mercado, prep semanal y comidas listas. Whole-animal, mayorista, sin conservantes. Entregamos en {{city}}. Calcula tu ahorro.',
-      'schemaType': 'FoodService',
-      'keywords': [
-        'meal prep {{city}}',
-        'compras personalizadas {{city}}',
-        'mercado {{neighborhood}}',
-        'comida saludable San Lorenzo Paraguay',
-        'prep semanal'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Meal Prep y Compras en {{city}} | Tu tiempo vale mas",
+      "descriptionTemplate": "Hacemos tu mercado, prep semanal y comidas listas. Whole-animal, mayorista, sin conservantes. Entregamos en {{city}}. Calcula tu ahorro.",
+      "schemaType": "FoodService",
+      "keywords": [
+        "meal prep {{city}}",
+        "compras personalizadas {{city}}",
+        "mercado {{neighborhood}}",
+        "comida saludable San Lorenzo Paraguay",
+        "prep semanal"
       ]
     },
-    'nav': {
-      'items': [
-        'Servicios',
-        'Calculadora',
-        'Galeria',
-        'FAQ',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Servicios",
+        "Calculadora",
+        "Galeria",
+        "FAQ",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Pedir por WhatsApp',
-        'action': 'whatsapp'
+      "cta": {
+        "text": "Pedir por WhatsApp",
+        "action": "whatsapp"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': 'Convertimos el caos del mercado en comida lista',
-      'subheadlineTemplate': '{{businessName}}: compras, prep y freezer meals puerta a puerta en {{city}}. Whole-animal, mayorista, sin humo.',
-      'ctaPrimary': {
-        'text': 'Calcula tu ahorro',
-        'action': 'scrollTo:calculadora'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "Convertimos el caos del mercado en comida lista",
+      "subheadlineTemplate": "{{businessName}}: compras, prep y freezer meals puerta a puerta en {{city}}. Whole-animal, mayorista, sin humo.",
+      "ctaPrimary": {
+        "text": "Calcula tu ahorro",
+        "action": "scrollTo:calculadora"
       },
-      'ctaSecondary': {
-        'text': 'Pedir por WhatsApp',
-        'action': 'whatsapp'
+      "ctaSecondary": {
+        "text": "Pedir por WhatsApp",
+        "action": "whatsapp"
       }
     }
   },
   'relocation': {
-    'id': 'relocation',
-    'nameEs': 'Servicios de Reubicacion',
-    'nameEn': 'Relocation Services',
-    'tokens': 'relocation',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'features',
-          'pricing',
-          'process',
-          'team',
-          'testimonials',
-          'faq',
-          'contact',
-          'footer'
+    "id": "relocation",
+    "nameEs": "Servicios de Reubicacion",
+    "nameEn": "Relocation Services",
+    "tokens": "relocation",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "features",
+          "pricing",
+          "process",
+          "team",
+          "testimonials",
+          "faq",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'features',
-          'pricing',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "features",
+          "pricing",
+          "contact",
+          "footer"
         ]
       },
-      'servicios': {
-        'sections': [
-          'header',
-          'services',
-          'pricing',
-          'ctaBanner',
-          'footer'
+      "servicios": {
+        "sections": [
+          "header",
+          "services",
+          "pricing",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'services',
-          'footer'
+        "requiredSections": [
+          "header",
+          "services",
+          "footer"
         ]
       },
-      'proceso': {
-        'sections': [
-          'header',
-          'process',
-          'faq',
-          'ctaBanner',
-          'footer'
+      "proceso": {
+        "sections": [
+          "header",
+          "process",
+          "faq",
+          "ctaBanner",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'process',
-          'footer'
+        "requiredSections": [
+          "header",
+          "process",
+          "footer"
         ]
       },
-      'equipo': {
-        'sections': [
-          'header',
-          'team',
-          'footer'
+      "equipo": {
+        "sections": [
+          "header",
+          "team",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'team',
-          'footer'
+        "requiredSections": [
+          "header",
+          "team",
+          "footer"
         ]
       },
-      'contacto': {
-        'sections': [
-          'header',
-          'contact',
-          'footer'
+      "contacto": {
+        "sections": [
+          "header",
+          "contact",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contact',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contact",
+          "footer"
         ]
       },
-      'galeria': {
-        'sections': [
-          'header',
-          'hero',
-          'footer'
+      "galeria": {
+        "sections": [
+          "header",
+          "hero",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'footer'
+        "requiredSections": [
+          "header",
+          "footer"
         ]
       }
     },
-    'features': {
-      'packages': {
-        'enabled': true,
-        'showPrices': false,
-        'popular': true
+    "features": {
+      "packages": {
+        "enabled": true,
+        "showPrices": false,
+        "popular": true
       },
-      'processSteps': {
-        'enabled': true,
-        'steps': 5
+      "processSteps": {
+        "enabled": true,
+        "steps": 5
       },
-      'testimonials': {
-        'enabled': true,
-        'showRating': true
+      "testimonials": {
+        "enabled": true,
+        "showRating": true
       },
-      'faq': {
-        'enabled': true,
-        'categories': false
+      "faq": {
+        "enabled": true,
+        "categories": false
       },
-      'team': {
-        'enabled': true,
-        'showRole': true
+      "team": {
+        "enabled": true,
+        "showRole": true
       },
-      'portfolio': {
-        'enabled': false
+      "portfolio": {
+        "enabled": false
       },
-      'beforeAfter': {
-        'enabled': false
+      "beforeAfter": {
+        "enabled": false
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': false
+      "googleMapsEmbed": {
+        "enabled": false
       }
     },
-    'targetAudience': {
-      'primary': 'European entrepreneurs and investors',
-      'secondary': 'Families seeking residency'
+    "targetAudience": {
+      "primary": "European entrepreneurs and investors",
+      "secondary": "Families seeking residency"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Reubicacion en Paraguay',
-      'descriptionTemplate': 'Residencia, sociedad y cuenta bancaria en Paraguay. Proceso simplificado para europeos.',
-      'schemaType': 'ProfessionalService',
-      'keywords': [
-        'relocation Paraguay',
-        'residency Paraguay',
-        'business Paraguay',
-        'invertir Paraguay'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Reubicacion en Paraguay",
+      "descriptionTemplate": "Residencia, sociedad y cuenta bancaria en Paraguay. Proceso simplificado para europeos.",
+      "schemaType": "ProfessionalService",
+      "keywords": [
+        "relocation Paraguay",
+        "residency Paraguay",
+        "business Paraguay",
+        "invertir Paraguay"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Paquetes',
-        'Proceso',
-        'Equipo',
-        'FAQ',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Paquetes",
+        "Proceso",
+        "Equipo",
+        "FAQ",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Consulta Gratis',
-        'action': 'contact'
+      "cta": {
+        "text": "Consulta Gratis",
+        "action": "contact"
       }
     },
-    'hero': {
-      'style': 'centered',
-      'headlineTemplate': 'Tu nuevo comienzo en Paraguay, simple y tranquilo.',
-      'subheadlineTemplate': 'Residencia, sociedad, cuenta bancaria y compra de tierras - todo coordinado por nuestro equipo.',
-      'ctaPrimary': {
-        'text': 'Agendar consulta',
-        'action': 'contact'
+    "hero": {
+      "style": "centered",
+      "headlineTemplate": "Tu nuevo comienzo en Paraguay, simple y tranquilo.",
+      "subheadlineTemplate": "Residencia, sociedad, cuenta bancaria y compra de tierras - todo coordinado por nuestro equipo.",
+      "ctaPrimary": {
+        "text": "Agendar consulta",
+        "action": "contact"
       },
-      'ctaSecondary': {
-        'text': 'Ver paquetes',
-        'action': 'scrollTo:packages'
+      "ctaSecondary": {
+        "text": "Ver paquetes",
+        "action": "scrollTo:packages"
       }
     }
   },
   'restaurant': {
-    'id': 'restaurant',
-    'nameEs': 'Restaurante',
-    'nameEn': 'Restaurant',
-    'tokens': 'restaurant',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'about',
-          'featuredMenu',
-          'reservations',
-          'gallery',
-          'testimonials',
-          'location',
-          'footer'
+    "id": "restaurant",
+    "nameEs": "Restaurante",
+    "nameEn": "Restaurant",
+    "tokens": "restaurant",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "about",
+          "featuredMenu",
+          "reservations",
+          "gallery",
+          "testimonials",
+          "location",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'location',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "location",
+          "footer"
         ]
       },
-      'menu': {
-        'sections': [
-          'header',
-          'fullMenu',
-          'footer'
+      "menu": {
+        "sections": [
+          "header",
+          "fullMenu",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'fullMenu',
-          'footer'
+        "requiredSections": [
+          "header",
+          "fullMenu",
+          "footer"
         ]
       },
-      'reservations': {
-        'sections': [
-          'header',
-          'reservationForm',
-          'footer'
+      "reservations": {
+        "sections": [
+          "header",
+          "reservationForm",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'reservationForm',
-          'footer'
+        "requiredSections": [
+          "header",
+          "reservationForm",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'photoGallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "photoGallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'photoGallery',
-          'footer'
+        "requiredSections": [
+          "header",
+          "photoGallery",
+          "footer"
         ]
       },
-      'contact': {
-        'sections': [
-          'header',
-          'contactInfo',
-          'footer'
+      "contact": {
+        "sections": [
+          "header",
+          "contactInfo",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'contactInfo',
-          'footer'
+        "requiredSections": [
+          "header",
+          "contactInfo",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineOrdering': {
-        'enabled': true,
-        'method': 'direct',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineOrdering": {
+        "enabled": true,
+        "method": "direct",
+        "fallback": "whatsapp"
       },
-      'reservations': {
-        'enabled': true,
-        'method': 'form',
-        'platform': 'internal'
+      "reservations": {
+        "enabled": true,
+        "method": "form",
+        "platform": "internal"
       },
-      'menuDisplay': {
-        'enabled': true,
-        'showPrices': true,
-        'categories': true,
-        'dietaryTags': true
+      "menuDisplay": {
+        "enabled": true,
+        "showPrices": true,
+        "categories": true,
+        "dietaryTags": true
       },
-      'gallery': {
-        'enabled': true,
-        'categories': [
-          'food',
-          'interior',
-          'team',
-          'events'
+      "gallery": {
+        "enabled": true,
+        "categories": [
+          "food",
+          "interior",
+          "team",
+          "events"
         ]
       },
-      'reviews': {
-        'enabled': true,
-        'platforms': [
-          'google',
-          'yelp'
+      "reviews": {
+        "enabled": true,
+        "platforms": [
+          "google",
+          "yelp"
         ]
       },
-      'socialMedia': {
-        'enabled': true,
-        'platforms': [
-          'instagram',
-          'facebook'
+      "socialMedia": {
+        "enabled": true,
+        "platforms": [
+          "instagram",
+          "facebook"
         ]
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'menuCategories': [
-      'appetizers',
-      'main_courses',
-      'sides',
-      'desserts',
-      'beverages'
+    "menuCategories": [
+      "appetizers",
+      "main_courses",
+      "sides",
+      "desserts",
+      "beverages"
     ],
-    'targetAudience': {
-      'primary': 'Local customers, families, food enthusiasts',
-      'secondary': 'Tourists, business diners, event planners'
+    "targetAudience": {
+      "primary": "Local customers, families, food enthusiasts",
+      "secondary": "Tourists, business diners, event planners"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Restaurante en {{city}} | Menú y Reservas',
-      'descriptionTemplate': 'Disfruta de la mejor gastronomía en {{city}}. Reserva tu mesa online. Menú variado con precios accesibles.',
-      'schemaType': 'Restaurant',
-      'keywords': [
-        'restaurante {{city}}',
-        'comida {{city}}',
-        'donde comer {{neighborhood}}',
-        'reservas {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Restaurante en {{city}} | Menú y Reservas",
+      "descriptionTemplate": "Disfruta de la mejor gastronomía en {{city}}. Reserva tu mesa online. Menú variado con precios accesibles.",
+      "schemaType": "Restaurant",
+      "keywords": [
+        "restaurante {{city}}",
+        "comida {{city}}",
+        "donde comer {{neighborhood}}",
+        "reservas {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Menú',
-        'Reservas',
-        'Galería',
-        'Contacto'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Menú",
+        "Reservas",
+        "Galería",
+        "Contacto"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Sabores Auténticos en {{city}}',
-      'subheadlineTemplate': 'Disfruta de una experiencia culinaria única con los mejores ingredientes',
-      'ctaPrimary': {
-        'text': 'Reservar Mesa',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Sabores Auténticos en {{city}}",
+      "subheadlineTemplate": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+      "ctaPrimary": {
+        "text": "Reservar Mesa",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Menú',
-        'action': 'scrollTo:menu'
+      "ctaSecondary": {
+        "text": "Ver Menú",
+        "action": "scrollTo:menu"
       }
     }
   },
   'sushi_bar': {
-    'id': 'sushi_bar',
-    'nameEs': 'Sushi Bar',
-    'nameEn': 'Sushi Bar',
-    'extends': 'restaurant',
-    'tokens': 'sushi',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'about',
-          'featuredMenu',
-          'omakase',
-          'reservations',
-          'gallery',
-          'sakePairing',
-          'footer'
+    "id": "sushi_bar",
+    "nameEs": "Sushi Bar",
+    "nameEn": "Sushi Bar",
+    "extends": "restaurant",
+    "tokens": "sushi",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "about",
+          "featuredMenu",
+          "omakase",
+          "reservations",
+          "gallery",
+          "sakePairing",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'location',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "location",
+          "footer"
         ]
       },
-      'menu': {
-        'sections': [
-          'header',
-          'fullMenu',
-          'footer'
+      "menu": {
+        "sections": [
+          "header",
+          "fullMenu",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'fullMenu',
-          'footer'
+        "requiredSections": [
+          "header",
+          "fullMenu",
+          "footer"
         ]
       },
-      'omakase': {
-        'sections': [
-          'header',
-          'omakaseExperience',
-          'reservationForm',
-          'footer'
+      "omakase": {
+        "sections": [
+          "header",
+          "omakaseExperience",
+          "reservationForm",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'omakaseExperience',
-          'footer'
+        "requiredSections": [
+          "header",
+          "omakaseExperience",
+          "footer"
         ]
       },
-      'gallery': {
-        'sections': [
-          'header',
-          'photoGallery',
-          'footer'
+      "gallery": {
+        "sections": [
+          "header",
+          "photoGallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'photoGallery',
-          'footer'
+        "requiredSections": [
+          "header",
+          "photoGallery",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineOrdering': {
-        'enabled': true,
-        'method': 'direct',
-        'fallback': 'whatsapp'
+    "features": {
+      "onlineOrdering": {
+        "enabled": true,
+        "method": "direct",
+        "fallback": "whatsapp"
       },
-      'reservations': {
-        'enabled': true,
-        'method': 'form',
-        'platform': 'internal'
+      "reservations": {
+        "enabled": true,
+        "method": "form",
+        "platform": "internal"
       },
-      'omakaseBooking': {
-        'enabled': true,
-        'seatings': [
-          '17:00',
-          '19:00',
-          '21:00'
+      "omakaseBooking": {
+        "enabled": true,
+        "seatings": [
+          "17:00",
+          "19:00",
+          "21:00"
         ],
-        'maxGuests': 12
+        "maxGuests": 12
       },
-      'menuDisplay': {
-        'enabled': true,
-        'showPrices': true,
-        'categories': true,
-        'dietaryTags': true,
-        'japaneseNames': true
+      "menuDisplay": {
+        "enabled": true,
+        "showPrices": true,
+        "categories": true,
+        "dietaryTags": true,
+        "japaneseNames": true
       },
-      'gallery': {
-        'enabled': true,
-        'categories': [
-          'sashimi',
-          'nigiri',
-          'maki',
-          'omakase',
-          'interior',
-          'chef'
+      "gallery": {
+        "enabled": true,
+        "categories": [
+          "sashimi",
+          "nigiri",
+          "maki",
+          "omakase",
+          "interior",
+          "chef"
         ]
       },
-      'reviews': {
-        'enabled': true,
-        'platforms': [
-          'google',
-          'yelp'
+      "reviews": {
+        "enabled": true,
+        "platforms": [
+          "google",
+          "yelp"
         ]
       },
-      'socialMedia': {
-        'enabled': true,
-        'platforms': [
-          'instagram',
-          'facebook',
-          'tiktok'
+      "socialMedia": {
+        "enabled": true,
+        "platforms": [
+          "instagram",
+          "facebook",
+          "tiktok"
         ]
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       },
-      'sakeMenu': {
-        'enabled': true
+      "sakeMenu": {
+        "enabled": true
       }
     },
-    'menuCategories': [
-      'appetizers',
-      'sashimi',
-      'nigiri',
-      'maki_rolls',
-      'specialty_rolls',
-      'hand_rolls',
-      'hibachi',
-      'desserts',
-      'sake'
+    "menuCategories": [
+      "appetizers",
+      "sashimi",
+      "nigiri",
+      "maki_rolls",
+      "specialty_rolls",
+      "hand_rolls",
+      "hibachi",
+      "desserts",
+      "sake"
     ],
-    'targetAudience': {
-      'primary': 'Sushi enthusiasts, Japanese cuisine lovers, date nights',
-      'secondary': 'Business dinners, celebrations, omakase seekers'
+    "targetAudience": {
+      "primary": "Sushi enthusiasts, Japanese cuisine lovers, date nights",
+      "secondary": "Business dinners, celebrations, omakase seekers"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Sushi Bar en {{city}} | Auténtico Japonés',
-      'descriptionTemplate': 'El mejor sushi en {{city}}. Frescura garantizada, auténtico sabor japonés. Reserva tu experiencia omakase.',
-      'schemaType': 'Restaurant',
-      'keywords': [
-        'sushi {{city}}',
-        'restaurante japonés {{city}}',
-        'omakase {{city}}',
-        'sashimi {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Sushi Bar en {{city}} | Auténtico Japonés",
+      "descriptionTemplate": "El mejor sushi en {{city}}. Frescura garantizada, auténtico sabor japonés. Reserva tu experiencia omakase.",
+      "schemaType": "Restaurant",
+      "keywords": [
+        "sushi {{city}}",
+        "restaurante japonés {{city}}",
+        "omakase {{city}}",
+        "sashimi {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Menú',
-        'Omakase',
-        'Reservas',
-        'Galería'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Menú",
+        "Omakase",
+        "Reservas",
+        "Galería"
       ],
-      'cta': {
-        'text': 'Reservar',
-        'action': 'booking'
+      "cta": {
+        "text": "Reservar",
+        "action": "booking"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Auténtico Sushi en {{city}}',
-      'subheadlineTemplate': 'Frescura y tradición en cada pieza. Descubre el arte del sushi.',
-      'ctaPrimary': {
-        'text': 'Reservar Mesa',
-        'action': 'booking'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Auténtico Sushi en {{city}}",
+      "subheadlineTemplate": "Frescura y tradición en cada pieza. Descubre el arte del sushi.",
+      "ctaPrimary": {
+        "text": "Reservar Mesa",
+        "action": "booking"
       },
-      'ctaSecondary': {
-        'text': 'Ver Menú',
-        'action': 'scrollTo:menu'
+      "ctaSecondary": {
+        "text": "Ver Menú",
+        "action": "scrollTo:menu"
       }
     },
-    'omakaseOptions': {
-      'enabled': true,
-      'tiers': [
+    "omakaseOptions": {
+      "enabled": true,
+      "tiers": [
         {
-          'name': 'Clásico',
-          'price': '250.000 Gs',
-          'courses': 8,
-          'description': 'Selección tradicional del chef'
+          "name": "Clásico",
+          "price": "250.000 Gs",
+          "courses": 8,
+          "description": "Selección tradicional del chef"
         },
         {
-          'name': 'Premium',
-          'price': '450.000 Gs',
-          'courses': 12,
-          'description': 'Experiencia completa con sake pairing'
+          "name": "Premium",
+          "price": "450.000 Gs",
+          "courses": 12,
+          "description": "Experiencia completa con sake pairing"
         },
         {
-          'name': 'Ejecutivo',
-          'price': '650.000 Gs',
-          'courses': 15,
-          'description': 'Lo mejor del chef + botella de sake'
+          "name": "Ejecutivo",
+          "price": "650.000 Gs",
+          "courses": 15,
+          "description": "Lo mejor del chef + botella de sake"
         }
       ]
     }
   },
   'kaiten_zushi': {
-    'id': 'kaiten_zushi',
-    'nameEs': 'Sushi Cinta Transportadora',
-    'nameEn': 'Conveyor Belt Sushi',
-    'extends': 'sushi_bar',
-    'tokens': 'kaiten',
-    'pages': {
-      'homepage': {
-        'sections': [
-          'header',
-          'hero',
-          'about',
-          'conveyorBelt',
-          'featuredMenu',
-          'howItWorks',
-          'reservations',
-          'gallery',
-          'footer'
+    "id": "kaiten_zushi",
+    "nameEs": "Sushi Cinta Transportadora",
+    "nameEn": "Conveyor Belt Sushi",
+    "extends": "sushi_bar",
+    "tokens": "kaiten",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "about",
+          "conveyorBelt",
+          "featuredMenu",
+          "howItWorks",
+          "reservations",
+          "gallery",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'hero',
-          'conveyorBelt',
-          'footer'
+        "requiredSections": [
+          "header",
+          "hero",
+          "conveyorBelt",
+          "footer"
         ]
       },
-      'menu': {
-        'sections': [
-          'header',
-          'colorCodedMenu',
-          'footer'
+      "menu": {
+        "sections": [
+          "header",
+          "colorCodedMenu",
+          "footer"
         ],
-        'requiredSections': [
-          'header',
-          'colorCodedMenu',
-          'footer'
+        "requiredSections": [
+          "header",
+          "colorCodedMenu",
+          "footer"
         ]
       }
     },
-    'features': {
-      'onlineOrdering': {
-        'enabled': false
+    "features": {
+      "onlineOrdering": {
+        "enabled": false
       },
-      'reservations': {
-        'enabled': true,
-        'method': 'form',
-        'walkins': true
+      "reservations": {
+        "enabled": true,
+        "method": "form",
+        "walkins": true
       },
-      'conveyorBelt': {
-        'enabled': true,
-        'plateColors': true,
-        'tabletOrdering': true
+      "conveyorBelt": {
+        "enabled": true,
+        "plateColors": true,
+        "tabletOrdering": true
       },
-      'menuDisplay': {
-        'enabled': true,
-        'showPrices': true,
-        'colorCoded': true,
-        'platePricing': true
+      "menuDisplay": {
+        "enabled": true,
+        "showPrices": true,
+        "colorCoded": true,
+        "platePricing": true
       },
-      'gallery': {
-        'enabled': true,
-        'categories': [
-          'conveyor',
-          'plates',
-          'interior',
-          'team'
+      "gallery": {
+        "enabled": true,
+        "categories": [
+          "conveyor",
+          "plates",
+          "interior",
+          "team"
         ]
       },
-      'whatsappFloat': {
-        'enabled': true
+      "whatsappFloat": {
+        "enabled": true
       },
-      'googleMapsEmbed': {
-        'enabled': true
+      "googleMapsEmbed": {
+        "enabled": true
       }
     },
-    'menuCategories': [
-      'green_plates',
-      'yellow_plates',
-      'orange_plates',
-      'red_plates',
-      'black_plates',
-      'special_order'
+    "menuCategories": [
+      "green_plates",
+      "yellow_plates",
+      "orange_plates",
+      "red_plates",
+      "black_plates",
+      "special_order"
     ],
-    'platePricing': {
-      'green': {
-        'color': '#22c55e',
-        'price': '15.000 Gs',
-        'description': 'Platos básicos'
+    "platePricing": {
+      "green": {
+        "color": "#22c55e",
+        "price": "15.000 Gs",
+        "description": "Platos básicos"
       },
-      'yellow': {
-        'color': '#eab308',
-        'price': '25.000 Gs',
-        'description': 'Favoritos populares'
+      "yellow": {
+        "color": "#eab308",
+        "price": "25.000 Gs",
+        "description": "Favoritos populares"
       },
-      'orange': {
-        'color': '#f97316',
-        'price': '35.000 Gs',
-        'description': 'Especiales'
+      "orange": {
+        "color": "#f97316",
+        "price": "35.000 Gs",
+        "description": "Especiales"
       },
-      'red': {
-        'color': '#ef4444',
-        'price': '50.000 Gs',
-        'description': 'Premium'
+      "red": {
+        "color": "#ef4444",
+        "price": "50.000 Gs",
+        "description": "Premium"
       },
-      'black': {
-        'color': '#1a1a1a',
-        'price': '75.000 Gs',
-        'description': 'Ultra premium'
+      "black": {
+        "color": "#1a1a1a",
+        "price": "75.000 Gs",
+        "description": "Ultra premium"
       }
     },
-    'targetAudience': {
-      'primary': 'Families, casual diners, quick lunch seekers',
-      'secondary': 'Sushi beginners, groups, kids'
+    "targetAudience": {
+      "primary": "Families, casual diners, quick lunch seekers",
+      "secondary": "Sushi beginners, groups, kids"
     },
-    'seo': {
-      'titleTemplate': '{{businessName}} - Sushi en Cinta en {{city}} | Rápido y Divertido',
-      'descriptionTemplate': 'La experiencia de sushi más divertida en {{city}}. Plato por plato en cinta transportadora. Precios por colores.',
-      'schemaType': 'Restaurant',
-      'keywords': [
-        'sushi cinta {{city}}',
-        'kaiten sushi {{city}}',
-        'sushi divertido {{city}}',
-        'sushi para niños {{city}}'
+    "seo": {
+      "titleTemplate": "{{businessName}} - Sushi en Cinta en {{city}} | Rápido y Divertido",
+      "descriptionTemplate": "La experiencia de sushi más divertida en {{city}}. Plato por plato en cinta transportadora. Precios por colores.",
+      "schemaType": "Restaurant",
+      "keywords": [
+        "sushi cinta {{city}}",
+        "kaiten sushi {{city}}",
+        "sushi divertido {{city}}",
+        "sushi para niños {{city}}"
       ]
     },
-    'nav': {
-      'items': [
-        'Inicio',
-        'Menú',
-        'Cómo Funciona',
-        'Reservas'
+    "nav": {
+      "items": [
+        "Inicio",
+        "Menú",
+        "Cómo Funciona",
+        "Reservas"
       ],
-      'cta': {
-        'text': 'Visítanos',
-        'action': 'scrollTo:location'
+      "cta": {
+        "text": "Visítanos",
+        "action": "scrollTo:location"
       }
     },
-    'hero': {
-      'style': 'image',
-      'headlineTemplate': '{{businessName}} - Sushi en Movimiento',
-      'subheadlineTemplate': 'La experiencia japonesa más divertida. Elige tus favoritos de la cinta.',
-      'ctaPrimary': {
-        'text': 'Ver Menú',
-        'action': 'scrollTo:menu'
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}} - Sushi en Movimiento",
+      "subheadlineTemplate": "La experiencia japonesa más divertida. Elige tus favoritos de la cinta.",
+      "ctaPrimary": {
+        "text": "Ver Menú",
+        "action": "scrollTo:menu"
       },
-      'ctaSecondary': {
-        'text': 'Cómo Funciona',
-        'action': 'scrollTo:howItWorks'
+      "ctaSecondary": {
+        "text": "Cómo Funciona",
+        "action": "scrollTo:howItWorks"
       }
     }
   }
@@ -2823,3303 +2823,3303 @@ export const REGISTRY_MAP: Record<string, unknown> = {
 
 export const CONTENT_MAP: Record<string, unknown> = {
   'salon_belleza': {
-    'id': 'salon_belleza',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Tu Centro de Belleza en {{city}}',
-      'subheadline': 'Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar',
-      'ctaPrimary': 'Reservar Cita',
-      'ctaSecondary': 'Ver Servicios'
+    "id": "salon_belleza",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Tu Centro de Belleza en {{city}}",
+      "subheadline": "Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar",
+      "ctaPrimary": "Reservar Cita",
+      "ctaSecondary": "Ver Servicios"
     },
-    'servicesPage': {
-      'title': 'Servicios y Precios',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios y Precios",
+      "categories": [
         {
-          'key': 'cabello',
-          'title': 'Cabello',
-          'description': 'Cortes, coloracion y tratamientos capilares para todo tipo de cabello',
-          'defaultServices': [
+          "key": "cabello",
+          "title": "Cabello",
+          "description": "Cortes, coloracion y tratamientos capilares para todo tipo de cabello",
+          "defaultServices": [
             {
-              'name': 'Corte Dama',
-              'price': null,
-              'duration': 45,
-              'description': 'Corte y styling profesional'
+              "name": "Corte Dama",
+              "price": null,
+              "duration": 45,
+              "description": "Corte y styling profesional"
             },
             {
-              'name': 'Coloracion Completa',
-              'priceFrom': null,
-              'duration': 90,
-              'description': 'Color base completo y personalizado'
+              "name": "Coloracion Completa",
+              "priceFrom": null,
+              "duration": 90,
+              "description": "Color base completo y personalizado"
             },
             {
-              'name': 'Mechas / Highlights',
-              'priceFrom': null,
-              'duration': 120,
-              'description': 'Iluminaciones y reflejos naturales'
+              "name": "Mechas / Highlights",
+              "priceFrom": null,
+              "duration": 120,
+              "description": "Iluminaciones y reflejos naturales"
             },
             {
-              'name': 'Keratina',
-              'price': null,
-              'duration': 120,
-              'description': 'Alisado y reparacion intensiva'
+              "name": "Keratina",
+              "price": null,
+              "duration": 120,
+              "description": "Alisado y reparacion intensiva"
             }
           ]
         },
         {
-          'key': 'unas',
-          'title': 'Uñas',
-          'description': 'Manicura, pedicura y diseños personalizados',
-          'defaultServices': [
+          "key": "unas",
+          "title": "Uñas",
+          "description": "Manicura, pedicura y diseños personalizados",
+          "defaultServices": [
             {
-              'name': 'Manicura Clasica',
-              'price': null,
-              'duration': 30,
-              'description': 'Limado, cutículas y esmaltado'
+              "name": "Manicura Clasica",
+              "price": null,
+              "duration": 30,
+              "description": "Limado, cutículas y esmaltado"
             },
             {
-              'name': 'Pedicura Completa',
-              'price': null,
-              'duration': 45,
-              'description': 'Cuidado completo de pies y esmaltado'
+              "name": "Pedicura Completa",
+              "price": null,
+              "duration": 45,
+              "description": "Cuidado completo de pies y esmaltado"
             },
             {
-              'name': 'Uñas en Gel',
-              'price': null,
-              'duration': 60,
-              'description': 'Aplicacion de gel con diseño a eleccion'
+              "name": "Uñas en Gel",
+              "price": null,
+              "duration": 60,
+              "description": "Aplicacion de gel con diseño a eleccion"
             },
             {
-              'name': 'Nail Art',
-              'priceFrom': null,
-              'duration': 75,
-              'description': 'Diseños personalizados y creativos'
+              "name": "Nail Art",
+              "priceFrom": null,
+              "duration": 75,
+              "description": "Diseños personalizados y creativos"
             }
           ]
         },
         {
-          'key': 'maquillaje',
-          'title': 'Maquillaje',
-          'description': 'Maquillaje profesional para toda ocasion',
-          'defaultServices': [
+          "key": "maquillaje",
+          "title": "Maquillaje",
+          "description": "Maquillaje profesional para toda ocasion",
+          "defaultServices": [
             {
-              'name': 'Maquillaje Social',
-              'price': null,
-              'duration': 45,
-              'description': 'Para eventos y reuniones especiales'
+              "name": "Maquillaje Social",
+              "price": null,
+              "duration": 45,
+              "description": "Para eventos y reuniones especiales"
             },
             {
-              'name': 'Maquillaje de Novia',
-              'price': null,
-              'duration': 90,
-              'description': 'Look completo con prueba previa'
+              "name": "Maquillaje de Novia",
+              "price": null,
+              "duration": 90,
+              "description": "Look completo con prueba previa"
             },
             {
-              'name': 'Maquillaje Quinceañera',
-              'price': null,
-              'duration': 60,
-              'description': 'Diseño especial para tu gran dia'
+              "name": "Maquillaje Quinceañera",
+              "price": null,
+              "duration": 60,
+              "description": "Diseño especial para tu gran dia"
             }
           ]
         },
         {
-          'key': 'tratamientos_faciales',
-          'title': 'Tratamientos Faciales',
-          'description': 'Cuidados profesionales para una piel radiante',
-          'defaultServices': [
+          "key": "tratamientos_faciales",
+          "title": "Tratamientos Faciales",
+          "description": "Cuidados profesionales para una piel radiante",
+          "defaultServices": [
             {
-              'name': 'Limpieza Facial Profunda',
-              'price': null,
-              'duration': 60,
-              'description': 'Limpieza, extraccion y mascarilla'
+              "name": "Limpieza Facial Profunda",
+              "price": null,
+              "duration": 60,
+              "description": "Limpieza, extraccion y mascarilla"
             },
             {
-              'name': 'Tratamiento Anti-Age',
-              'price': null,
-              'duration': 75,
-              'description': 'Rejuvenecimiento y firmeza para la piel'
+              "name": "Tratamiento Anti-Age",
+              "price": null,
+              "duration": 75,
+              "description": "Rejuvenecimiento y firmeza para la piel"
             },
             {
-              'name': 'Hidratacion Facial',
-              'price': null,
-              'duration': 45,
-              'description': 'Nutricion intensiva y luminosidad'
+              "name": "Hidratacion Facial",
+              "price": null,
+              "duration": 45,
+              "description": "Nutricion intensiva y luminosidad"
             }
           ]
         },
         {
-          'key': 'paquetes',
-          'title': 'Paquetes',
-          'description': 'Combina servicios y ahorra con nuestros paquetes especiales',
-          'defaultServices': [
+          "key": "paquetes",
+          "title": "Paquetes",
+          "description": "Combina servicios y ahorra con nuestros paquetes especiales",
+          "defaultServices": [
             {
-              'name': 'Spa Day',
-              'priceFrom': null,
-              'duration': 180,
-              'description': 'Facial + manicura + pedicura + masaje'
+              "name": "Spa Day",
+              "priceFrom": null,
+              "duration": 180,
+              "description": "Facial + manicura + pedicura + masaje"
             },
             {
-              'name': 'Novia Completa',
-              'priceFrom': null,
-              'duration': 240,
-              'description': 'Maquillaje + peinado + manicura + prueba previa'
+              "name": "Novia Completa",
+              "priceFrom": null,
+              "duration": 240,
+              "description": "Maquillaje + peinado + manicura + prueba previa"
             },
             {
-              'name': 'Dia de Chicas',
-              'priceFrom': null,
-              'duration': 150,
-              'description': 'Paquete grupal: mani + pedi + facial para 3+ personas'
+              "name": "Dia de Chicas",
+              "priceFrom": null,
+              "duration": 150,
+              "description": "Paquete grupal: mani + pedi + facial para 3+ personas"
             }
           ]
         }
       ]
     },
-    'teamPage': {
-      'title': 'Nuestro Equipo',
-      'memberTemplate': {
-        'buttonText': 'Reservar con {{name}}'
+    "teamPage": {
+      "title": "Nuestro Equipo",
+      "memberTemplate": {
+        "buttonText": "Reservar con {{name}}"
       }
     },
-    'galleryPage': {
-      'title': 'Galeria',
-      'subtitle': 'Conoce nuestro trabajo',
-      'categories': [
-        'Cabello',
-        'Uñas',
-        'Maquillaje',
-        'Tratamientos'
+    "galleryPage": {
+      "title": "Galeria",
+      "subtitle": "Conoce nuestro trabajo",
+      "categories": [
+        "Cabello",
+        "Uñas",
+        "Maquillaje",
+        "Tratamientos"
       ],
-      'ctaText': 'Ver Galeria Completa'
+      "ctaText": "Ver Galeria Completa"
     },
-    'contactPage': {
-      'title': 'Contacto',
-      'locationTitle': 'Visitanos en {{neighborhood}}',
-      'formFields': [
-        'name',
-        'phone',
-        'service',
-        'preferredDate',
-        'message'
+    "contactPage": {
+      "title": "Contacto",
+      "locationTitle": "Visitanos en {{neighborhood}}",
+      "formFields": [
+        "name",
+        "phone",
+        "service",
+        "preferredDate",
+        "message"
       ],
-      'formSubmitText': 'Enviar Consulta'
+      "formSubmitText": "Enviar Consulta"
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Puedo combinar varios servicios en una sola visita?',
-        'a': 'Si, ofrecemos paquetes combinados y podes agendar multiples servicios el mismo dia para mayor comodidad.'
+        "q": "Puedo combinar varios servicios en una sola visita?",
+        "a": "Si, ofrecemos paquetes combinados y podes agendar multiples servicios el mismo dia para mayor comodidad."
       },
       {
-        'q': 'Tienen paquetes para novias?',
-        'a': 'Si, nuestro paquete Novia Completa incluye maquillaje, peinado, manicura y una prueba previa para asegurar tu look perfecto.'
+        "q": "Tienen paquetes para novias?",
+        "a": "Si, nuestro paquete Novia Completa incluye maquillaje, peinado, manicura y una prueba previa para asegurar tu look perfecto."
       },
       {
-        'q': 'Ofrecen descuentos para grupos?',
-        'a': 'Si, tenemos el paquete Dia de Chicas y opciones especiales para despedidas, cumpleaños y eventos grupales.'
+        "q": "Ofrecen descuentos para grupos?",
+        "a": "Si, tenemos el paquete Dia de Chicas y opciones especiales para despedidas, cumpleaños y eventos grupales."
       },
       {
-        'q': 'Cuanto tiempo dura un tratamiento facial?',
-        'a': 'Depende del tipo de tratamiento. Una limpieza facial profunda dura aproximadamente 60 minutos.'
+        "q": "Cuanto tiempo dura un tratamiento facial?",
+        "a": "Depende del tipo de tratamiento. Una limpieza facial profunda dura aproximadamente 60 minutos."
       },
       {
-        'q': 'Necesito reservar con anticipacion?',
-        'a': 'Recomendamos reservar con al menos 24 horas de anticipacion, especialmente para servicios de novia y paquetes.'
+        "q": "Necesito reservar con anticipacion?",
+        "a": "Recomendamos reservar con al menos 24 horas de anticipacion, especialmente para servicios de novia y paquetes."
       }
     ],
-    'ctaBanner': {
-      'title': 'Lista para consentirte?',
-      'buttonText': 'Reservar Ahora'
+    "ctaBanner": {
+      "title": "Lista para consentirte?",
+      "buttonText": "Reservar Ahora"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una cita en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera reservar {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
     },
-    'seo': {
-      'altTextTemplates': {
-        'service': '{{serviceName}} en {{businessName}}, {{city}}',
-        'portfolio': 'Resultado de {{serviceName}} por {{businessName}}',
-        'team': '{{memberName}} - {{memberTitle}} en {{businessName}}'
+    "seo": {
+      "altTextTemplates": {
+        "service": "{{serviceName}} en {{businessName}}, {{city}}",
+        "portfolio": "Resultado de {{serviceName}} por {{businessName}}",
+        "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
       }
     }
   },
   'peluqueria': {
-    'id': 'peluqueria',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Tu Mejor Look en {{city}}',
-      'subheadline': 'Cortes profesionales, coloracion y tratamientos que transforman tu estilo',
-      'ctaPrimary': 'Reservar Cita',
-      'ctaSecondary': 'Ver Servicios'
+    "id": "peluqueria",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Tu Mejor Look en {{city}}",
+      "subheadline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+      "ctaPrimary": "Reservar Cita",
+      "ctaSecondary": "Ver Servicios"
     },
-    'servicesPage': {
-      'title': 'Servicios y Precios',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios y Precios",
+      "categories": [
         {
-          'key': 'cortes',
-          'title': 'Cortes de Cabello',
-          'description': 'Cortes personalizados para cada tipo de rostro y estilo de vida',
-          'defaultServices': [
+          "key": "cortes",
+          "title": "Cortes de Cabello",
+          "description": "Cortes personalizados para cada tipo de rostro y estilo de vida",
+          "defaultServices": [
             {
-              'name': 'Corte Dama',
-              'price': null,
-              'duration': 45,
-              'description': 'Corte y style profesional'
+              "name": "Corte Dama",
+              "price": null,
+              "duration": 45,
+              "description": "Corte y style profesional"
             },
             {
-              'name': 'Corte Caballero',
-              'price': null,
-              'duration': 30,
-              'description': 'Corte moderno y clasico'
+              "name": "Corte Caballero",
+              "price": null,
+              "duration": 30,
+              "description": "Corte moderno y clasico"
             },
             {
-              'name': 'Corte Nino',
-              'price': null,
-              'duration': 25,
-              'description': 'Para los mas pequenos'
+              "name": "Corte Nino",
+              "price": null,
+              "duration": 25,
+              "description": "Para los mas pequenos"
             },
             {
-              'name': 'Recorte de Bangs',
-              'price': null,
-              'duration': 15,
-              'description': 'Retoque de fleco'
+              "name": "Recorte de Bangs",
+              "price": null,
+              "duration": 15,
+              "description": "Retoque de fleco"
             }
           ]
         },
         {
-          'key': 'coloracion',
-          'title': 'Coloracion y Cambios',
-          'description': 'Tecnicas avanzadas para un color perfecto y natural',
-          'defaultServices': [
+          "key": "coloracion",
+          "title": "Coloracion y Cambios",
+          "description": "Tecnicas avanzadas para un color perfecto y natural",
+          "defaultServices": [
             {
-              'name': 'Coloracion Completa',
-              'priceFrom': null,
-              'duration': 90,
-              'description': 'Color base completo'
+              "name": "Coloracion Completa",
+              "priceFrom": null,
+              "duration": 90,
+              "description": "Color base completo"
             },
             {
-              'name': 'Mechas/Highlighting',
-              'priceFrom': null,
-              'duration': 120,
-              'description': 'Para brillo natural'
+              "name": "Mechas/Highlighting",
+              "priceFrom": null,
+              "duration": 120,
+              "description": "Para brillo natural"
             },
             {
-              'name': 'Balayage',
-              'priceFrom': null,
-              'duration': 150,
-              'description': 'Tecnica francesa de mano alzada'
+              "name": "Balayage",
+              "priceFrom": null,
+              "duration": 150,
+              "description": "Tecnica francesa de mano alzada"
             },
             {
-              'name': 'Ombre',
-              'priceFrom': null,
-              'duration': 120,
-              'description': 'Degradado natural'
+              "name": "Ombre",
+              "priceFrom": null,
+              "duration": 120,
+              "description": "Degradado natural"
             },
             {
-              'name': 'Retoque de Raices',
-              'price': null,
-              'duration': 60,
-              'description': 'Mantenimiento mensual'
+              "name": "Retoque de Raices",
+              "price": null,
+              "duration": 60,
+              "description": "Mantenimiento mensual"
             }
           ]
         },
         {
-          'key': 'tratamientos',
-          'title': 'Tratamientos Especiales',
-          'description': 'Cuidados intensivos para cabello danado y salud del cuero cabelludo',
-          'defaultServices': [
+          "key": "tratamientos",
+          "title": "Tratamientos Especiales",
+          "description": "Cuidados intensivos para cabello danado y salud del cuero cabelludo",
+          "defaultServices": [
             {
-              'name': 'Keratina Intensiva',
-              'price': null,
-              'duration': 120,
-              'description': 'Alisa y repara'
+              "name": "Keratina Intensiva",
+              "price": null,
+              "duration": 120,
+              "description": "Alisa y repara"
             },
             {
-              'name': 'Tratamiento Capilar',
-              'price': null,
-              'duration': 45,
-              'description': 'Hidratacion profunda'
+              "name": "Tratamiento Capilar",
+              "price": null,
+              "duration": 45,
+              "description": "Hidratacion profunda"
             },
             {
-              'name': 'Masaje Scalp',
-              'price': null,
-              'duration': 30,
-              'description': 'Relajacion y salud capilar'
+              "name": "Masaje Scalp",
+              "price": null,
+              "duration": 30,
+              "description": "Relajacion y salud capilar"
             }
           ]
         }
       ]
     },
-    'teamPage': {
-      'title': 'Nuestro Equipo',
-      'memberTemplate': {
-        'buttonText': 'Reservar con {{name}}'
+    "teamPage": {
+      "title": "Nuestro Equipo",
+      "memberTemplate": {
+        "buttonText": "Reservar con {{name}}"
       }
     },
-    'galleryPage': {
-      'title': 'Galeria',
-      'subtitle': 'Descubre nuestro trabajo',
-      'categories': [
-        'Cortes',
-        'Color',
-        'Mechas',
-        'Peinados'
+    "galleryPage": {
+      "title": "Galeria",
+      "subtitle": "Descubre nuestro trabajo",
+      "categories": [
+        "Cortes",
+        "Color",
+        "Mechas",
+        "Peinados"
       ],
-      'ctaText': 'Ver Galeria Completa'
+      "ctaText": "Ver Galeria Completa"
     },
-    'contactPage': {
-      'title': 'Contacto',
-      'locationTitle': 'Visitanos en {{neighborhood}}',
-      'formFields': [
-        'name',
-        'phone',
-        'service',
-        'preferredDate',
-        'message'
+    "contactPage": {
+      "title": "Contacto",
+      "locationTitle": "Visitanos en {{neighborhood}}",
+      "formFields": [
+        "name",
+        "phone",
+        "service",
+        "preferredDate",
+        "message"
       ],
-      'formSubmitText': 'Enviar Consulta'
+      "formSubmitText": "Enviar Consulta"
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Cuanto tiempo dura un color?',
-        'a': 'Depende del tipo de color y cuidado. En promedio 4-6 semanas.'
+        "q": "Cuanto tiempo dura un color?",
+        "a": "Depende del tipo de color y cuidado. En promedio 4-6 semanas."
       },
       {
-        'q': 'Cuanto tiempo dura la keratina?',
-        'a': 'Con cuidado adecuado, puede durar 3-4 meses.'
+        "q": "Cuanto tiempo dura la keratina?",
+        "a": "Con cuidado adecuado, puede durar 3-4 meses."
       }
     ],
-    'ctaBanner': {
-      'title': 'Lista para tu nuevo look?',
-      'buttonText': 'Reservar Ahora'
+    "ctaBanner": {
+      "title": "Lista para tu nuevo look?",
+      "buttonText": "Reservar Ahora"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una cita en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera reservar {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
     },
-    'seo': {
-      'altTextTemplates': {
-        'service': '{{serviceName}} en {{businessName}}, {{city}}',
-        'portfolio': 'Resultado de {{serviceName}} por {{businessName}}',
-        'team': '{{memberName}} - {{memberTitle}} en {{businessName}}'
+    "seo": {
+      "altTextTemplates": {
+        "service": "{{serviceName}} en {{businessName}}, {{city}}",
+        "portfolio": "Resultado de {{serviceName}} por {{businessName}}",
+        "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
       }
     }
   },
   'gimnasio': {
-    'id': 'gimnasio',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': 'TRANSFORMA TU CUERPO EN {{businessName}}',
-      'subheadline': 'Entrena con los mejores profesionales en instalaciones de primera',
-      'stats': [
-        '{{memberCount}}+ MIEMBROS',
-        '{{classCount}}+ CLASES SEMANALES',
-        '{{accessHours}} DISPONIBLE'
+    "id": "gimnasio",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "TRANSFORMA TU CUERPO EN {{businessName}}",
+      "subheadline": "Entrena con los mejores profesionales en instalaciones de primera",
+      "stats": [
+        "{{memberCount}}+ MIEMBROS",
+        "{{classCount}}+ CLASES SEMANALES",
+        "{{accessHours}} DISPONIBLE"
       ],
-      'ctaPrimary': 'PRUEBA 7 DIAS FREE',
-      'ctaSecondary': 'VER MEMBRESIAS'
+      "ctaPrimary": "PRUEBA 7 DIAS FREE",
+      "ctaSecondary": "VER MEMBRESIAS"
     },
-    'servicesPage': {
-      'title': 'Servicios y Membresias',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios y Membresias",
+      "categories": [
         {
-          'key': 'membresias',
-          'title': 'Membresias',
-          'defaultServices': [
+          "key": "membresias",
+          "title": "Membresias",
+          "defaultServices": [
             {
-              'name': 'Plan Basico',
-              'price': '150.000 Gs/mes',
-              'description': 'Acceso a sala de pesas y maquinas'
+              "name": "Plan Basico",
+              "price": "150.000 Gs/mes",
+              "description": "Acceso a sala de pesas y maquinas"
             },
             {
-              'name': 'Plan Clases',
-              'price': '200.000 Gs/mes',
-              'description': 'Acceso a todas las clases grupales'
+              "name": "Plan Clases",
+              "price": "200.000 Gs/mes",
+              "description": "Acceso a todas las clases grupales"
             },
             {
-              'name': 'Plan Full',
-              'price': '300.000 Gs/mes',
-              'description': 'Todo incluido + sesiones de trainer'
+              "name": "Plan Full",
+              "price": "300.000 Gs/mes",
+              "description": "Todo incluido + sesiones de trainer"
             },
             {
-              'name': 'Personal Trainer',
-              'price': '400.000 Gs/mes',
-              'description': 'Entrenamiento personalizado'
+              "name": "Personal Trainer",
+              "price": "400.000 Gs/mes",
+              "description": "Entrenamiento personalizado"
             }
           ]
         },
         {
-          'key': 'clases',
-          'title': 'Clases Grupales',
-          'defaultServices': [
+          "key": "clases",
+          "title": "Clases Grupales",
+          "defaultServices": [
             {
-              'name': 'Crossfit',
-              'price': 'Incluido',
-              'duration': 45,
-              'description': 'Alta intensidad funcional'
+              "name": "Crossfit",
+              "price": "Incluido",
+              "duration": 45,
+              "description": "Alta intensidad funcional"
             },
             {
-              'name': 'Yoga',
-              'price': 'Incluido',
-              'duration': 60,
-              'description': 'Yoga Vinyasa y restaurativo'
+              "name": "Yoga",
+              "price": "Incluido",
+              "duration": 60,
+              "description": "Yoga Vinyasa y restaurativo"
             },
             {
-              'name': 'Spinning',
-              'price': 'Incluido',
-              'duration': 45,
-              'description': 'Clases de bicicleta estatica'
+              "name": "Spinning",
+              "price": "Incluido",
+              "duration": 45,
+              "description": "Clases de bicicleta estatica"
             },
             {
-              'name': 'Pilates',
-              'price': 'Incluido',
-              'duration': 50,
-              'description': 'Core y flexibilidad'
+              "name": "Pilates",
+              "price": "Incluido",
+              "duration": 50,
+              "description": "Core y flexibilidad"
             },
             {
-              'name': 'Boxeo',
-              'price': 'Incluido',
-              'duration': 45,
-              'description': 'Tecnica y cardio'
-            }
-          ]
-        }
-      ]
-    },
-    'classSchedule': {
-      'schedule': [
-        {
-          'day': 'Lunes',
-          'classes': [
-            {
-              'time': '07:00',
-              'name': 'Crossfit',
-              'instructor': 'Carlos',
-              'duration': 45
-            },
-            {
-              'time': '09:00',
-              'name': 'Yoga',
-              'instructor': 'Lucia',
-              'duration': 60
-            },
-            {
-              'time': '12:00',
-              'name': 'Spinning',
-              'instructor': 'Maria',
-              'duration': 45
-            },
-            {
-              'time': '18:00',
-              'name': 'HIIT',
-              'instructor': 'Carlos',
-              'duration': 30
-            },
-            {
-              'time': '19:30',
-              'name': 'Pilates',
-              'instructor': 'Lucia',
-              'duration': 50
-            }
-          ]
-        },
-        {
-          'day': 'Martes',
-          'classes': [
-            {
-              'time': '07:00',
-              'name': 'Funcional',
-              'instructor': 'Pedro',
-              'duration': 45
-            },
-            {
-              'time': '09:00',
-              'name': 'Yoga Principiantes',
-              'instructor': 'Lucia',
-              'duration': 60
-            },
-            {
-              'time': '12:00',
-              'name': 'Musculacion',
-              'instructor': 'Carlos',
-              'duration': 60
-            },
-            {
-              'time': '18:00',
-              'name': 'Boxeo',
-              'instructor': 'Pedro',
-              'duration': 45
-            },
-            {
-              'time': '20:00',
-              'name': 'Stretching',
-              'instructor': 'Lucia',
-              'duration': 45
-            }
-          ]
-        },
-        {
-          'day': 'Miercoles',
-          'classes': [
-            {
-              'time': '07:00',
-              'name': 'Crossfit',
-              'instructor': 'Carlos',
-              'duration': 45
-            },
-            {
-              'time': '09:00',
-              'name': 'Yoga Vinyasa',
-              'instructor': 'Lucia',
-              'duration': 60
-            },
-            {
-              'time': '12:00',
-              'name': 'Spinning',
-              'instructor': 'Maria',
-              'duration': 45
-            },
-            {
-              'time': '18:00',
-              'name': 'TRX',
-              'instructor': 'Pedro',
-              'duration': 45
-            },
-            {
-              'time': '19:30',
-              'name': 'Yoga Restaurativo',
-              'instructor': 'Lucia',
-              'duration': 60
-            }
-          ]
-        },
-        {
-          'day': 'Jueves',
-          'classes': [
-            {
-              'time': '07:00',
-              'name': 'Funcional',
-              'instructor': 'Pedro',
-              'duration': 45
-            },
-            {
-              'time': '09:00',
-              'name': 'Yoga Flow',
-              'instructor': 'Lucia',
-              'duration': 60
-            },
-            {
-              'time': '12:00',
-              'name': 'Musculacion',
-              'instructor': 'Carlos',
-              'duration': 60
-            },
-            {
-              'time': '18:00',
-              'name': 'HIIT',
-              'instructor': 'Carlos',
-              'duration': 30
-            },
-            {
-              'time': '20:00',
-              'name': 'Boxeo',
-              'instructor': 'Pedro',
-              'duration': 45
-            }
-          ]
-        },
-        {
-          'day': 'Viernes',
-          'classes': [
-            {
-              'time': '07:00',
-              'name': 'Crossfit',
-              'instructor': 'Carlos',
-              'duration': 45
-            },
-            {
-              'time': '09:00',
-              'name': 'Yoga Principiantes',
-              'instructor': 'Lucia',
-              'duration': 60
-            },
-            {
-              'time': '12:00',
-              'name': 'Spinning',
-              'instructor': 'Maria',
-              'duration': 45
-            },
-            {
-              'time': '18:00',
-              'name': 'Funcional',
-              'instructor': 'Pedro',
-              'duration': 45
-            }
-          ]
-        },
-        {
-          'day': 'Sabado',
-          'classes': [
-            {
-              'time': '09:00',
-              'name': 'Crossfit',
-              'instructor': 'Carlos',
-              'duration': 60
-            },
-            {
-              'time': '11:00',
-              'name': 'Yoga',
-              'instructor': 'Lucia',
-              'duration': 60
+              "name": "Boxeo",
+              "price": "Incluido",
+              "duration": 45,
+              "description": "Tecnica y cardio"
             }
           ]
         }
       ]
     },
-    'membershipPlans': {
-      'plans': [
+    "classSchedule": {
+      "schedule": [
         {
-          'name': 'Basico',
-          'price': '150.000',
-          'period': 'mes',
-          'description': 'Acceso a sala de pesas',
-          'features': [
-            'Sala de pesas',
-            'Maquinas',
-            'Vestuarios',
-            'Agua'
-          ],
-          'popular': false
+          "day": "Lunes",
+          "classes": [
+            {
+              "time": "07:00",
+              "name": "Crossfit",
+              "instructor": "Carlos",
+              "duration": 45
+            },
+            {
+              "time": "09:00",
+              "name": "Yoga",
+              "instructor": "Lucia",
+              "duration": 60
+            },
+            {
+              "time": "12:00",
+              "name": "Spinning",
+              "instructor": "Maria",
+              "duration": 45
+            },
+            {
+              "time": "18:00",
+              "name": "HIIT",
+              "instructor": "Carlos",
+              "duration": 30
+            },
+            {
+              "time": "19:30",
+              "name": "Pilates",
+              "instructor": "Lucia",
+              "duration": 50
+            }
+          ]
         },
         {
-          'name': 'Clases Ilimitadas',
-          'price': '220.000',
-          'period': 'mes',
-          'description': 'Acceso total a clases',
-          'features': [
-            'Sala de pesas',
-            'Todas las clases',
-            'Spinning',
-            'Acceso 24/7',
-            'App de workouts'
-          ],
-          'popular': true
+          "day": "Martes",
+          "classes": [
+            {
+              "time": "07:00",
+              "name": "Funcional",
+              "instructor": "Pedro",
+              "duration": 45
+            },
+            {
+              "time": "09:00",
+              "name": "Yoga Principiantes",
+              "instructor": "Lucia",
+              "duration": 60
+            },
+            {
+              "time": "12:00",
+              "name": "Musculacion",
+              "instructor": "Carlos",
+              "duration": 60
+            },
+            {
+              "time": "18:00",
+              "name": "Boxeo",
+              "instructor": "Pedro",
+              "duration": 45
+            },
+            {
+              "time": "20:00",
+              "name": "Stretching",
+              "instructor": "Lucia",
+              "duration": 45
+            }
+          ]
         },
         {
-          'name': 'Premium',
-          'price': '380.000',
-          'period': 'mes',
-          'description': 'Todo incluido + trainer',
-          'features': [
-            'Plan Clases',
-            '4 trainer/mes',
-            'Plan nutricional',
-            'Analisis corporal',
-            'Sauna'
-          ],
-          'popular': false
+          "day": "Miercoles",
+          "classes": [
+            {
+              "time": "07:00",
+              "name": "Crossfit",
+              "instructor": "Carlos",
+              "duration": 45
+            },
+            {
+              "time": "09:00",
+              "name": "Yoga Vinyasa",
+              "instructor": "Lucia",
+              "duration": 60
+            },
+            {
+              "time": "12:00",
+              "name": "Spinning",
+              "instructor": "Maria",
+              "duration": 45
+            },
+            {
+              "time": "18:00",
+              "name": "TRX",
+              "instructor": "Pedro",
+              "duration": 45
+            },
+            {
+              "time": "19:30",
+              "name": "Yoga Restaurativo",
+              "instructor": "Lucia",
+              "duration": 60
+            }
+          ]
+        },
+        {
+          "day": "Jueves",
+          "classes": [
+            {
+              "time": "07:00",
+              "name": "Funcional",
+              "instructor": "Pedro",
+              "duration": 45
+            },
+            {
+              "time": "09:00",
+              "name": "Yoga Flow",
+              "instructor": "Lucia",
+              "duration": 60
+            },
+            {
+              "time": "12:00",
+              "name": "Musculacion",
+              "instructor": "Carlos",
+              "duration": 60
+            },
+            {
+              "time": "18:00",
+              "name": "HIIT",
+              "instructor": "Carlos",
+              "duration": 30
+            },
+            {
+              "time": "20:00",
+              "name": "Boxeo",
+              "instructor": "Pedro",
+              "duration": 45
+            }
+          ]
+        },
+        {
+          "day": "Viernes",
+          "classes": [
+            {
+              "time": "07:00",
+              "name": "Crossfit",
+              "instructor": "Carlos",
+              "duration": 45
+            },
+            {
+              "time": "09:00",
+              "name": "Yoga Principiantes",
+              "instructor": "Lucia",
+              "duration": 60
+            },
+            {
+              "time": "12:00",
+              "name": "Spinning",
+              "instructor": "Maria",
+              "duration": 45
+            },
+            {
+              "time": "18:00",
+              "name": "Funcional",
+              "instructor": "Pedro",
+              "duration": 45
+            }
+          ]
+        },
+        {
+          "day": "Sabado",
+          "classes": [
+            {
+              "time": "09:00",
+              "name": "Crossfit",
+              "instructor": "Carlos",
+              "duration": 60
+            },
+            {
+              "time": "11:00",
+              "name": "Yoga",
+              "instructor": "Lucia",
+              "duration": 60
+            }
+          ]
         }
       ]
     },
-    'galleryPage': {
-      'title': 'Galeria',
-      'subtitle': 'Conoce nuestras instalaciones y metodologia'
-    },
-    'teamPage': {
-      'title': 'Nuestro Equipo'
-    },
-    'contactPage': {
-      'title': 'Contacto'
-    },
-    'whyUs': {
-      'title': 'Por que elegirnos?',
-      'defaultItems': [
-        'Equipamiento de ultima generacion',
-        'Entrenadores certificados',
-        'Clases ilimitadas incluidas',
-        'Horarios flexibles'
+    "membershipPlans": {
+      "plans": [
+        {
+          "name": "Basico",
+          "price": "150.000",
+          "period": "mes",
+          "description": "Acceso a sala de pesas",
+          "features": [
+            "Sala de pesas",
+            "Maquinas",
+            "Vestuarios",
+            "Agua"
+          ],
+          "popular": false
+        },
+        {
+          "name": "Clases Ilimitadas",
+          "price": "220.000",
+          "period": "mes",
+          "description": "Acceso total a clases",
+          "features": [
+            "Sala de pesas",
+            "Todas las clases",
+            "Spinning",
+            "Acceso 24/7",
+            "App de workouts"
+          ],
+          "popular": true
+        },
+        {
+          "name": "Premium",
+          "price": "380.000",
+          "period": "mes",
+          "description": "Todo incluido + trainer",
+          "features": [
+            "Plan Clases",
+            "4 trainer/mes",
+            "Plan nutricional",
+            "Analisis corporal",
+            "Sauna"
+          ],
+          "popular": false
+        }
       ]
     },
-    'pricingPage': {
-      'title': 'Membresias',
-      'tiers': [
+    "galleryPage": {
+      "title": "Galeria",
+      "subtitle": "Conoce nuestras instalaciones y metodologia"
+    },
+    "teamPage": {
+      "title": "Nuestro Equipo"
+    },
+    "contactPage": {
+      "title": "Contacto"
+    },
+    "whyUs": {
+      "title": "Por que elegirnos?",
+      "defaultItems": [
+        "Equipamiento de ultima generacion",
+        "Entrenadores certificados",
+        "Clases ilimitadas incluidas",
+        "Horarios flexibles"
+      ]
+    },
+    "pricingPage": {
+      "title": "Membresias",
+      "tiers": [
         {
-          'key': 'basico',
-          'name': 'BASICO',
-          'price': null,
-          'frequency': 'Facturacion mensual',
-          'features': {
-            'included': [
-              'Acceso a sala de maquinas',
-              '2 clases grupales por semana',
-              'Area de vestuarios'
+          "key": "basico",
+          "name": "BASICO",
+          "price": null,
+          "frequency": "Facturacion mensual",
+          "features": {
+            "included": [
+              "Acceso a sala de maquinas",
+              "2 clases grupales por semana",
+              "Area de vestuarios"
             ],
-            'excluded': [
-              'Toallas',
-              'Acceso sauna'
+            "excluded": [
+              "Toallas",
+              "Acceso sauna"
             ]
           },
-          'cta': 'ELEGIR BASICO'
+          "cta": "ELEGIR BASICO"
         },
         {
-          'key': 'pro',
-          'name': 'PRO',
-          'badge': 'MAS POPULAR',
-          'price': null,
-          'frequency': 'Facturacion mensual',
-          'features': {
-            'included': [
-              'Acceso ilimitado a sala',
-              'Clases ilimitadas',
-              '1 sesion PT/mes',
-              'Toallas incluidas'
+          "key": "pro",
+          "name": "PRO",
+          "badge": "MAS POPULAR",
+          "price": null,
+          "frequency": "Facturacion mensual",
+          "features": {
+            "included": [
+              "Acceso ilimitado a sala",
+              "Clases ilimitadas",
+              "1 sesion PT/mes",
+              "Toallas incluidas"
             ],
-            'excluded': [
-              'Acceso sauna'
+            "excluded": [
+              "Acceso sauna"
             ]
           },
-          'cta': 'ELEGIR PRO',
-          'highlighted': true
+          "cta": "ELEGIR PRO",
+          "highlighted": true
         },
         {
-          'key': 'elite',
-          'name': 'ELITE',
-          'price': null,
-          'frequency': 'Facturacion mensual',
-          'features': {
-            'included': [
-              'Acceso 24/7',
-              'Clases ilimitadas',
-              '4 sesiones PT/mes',
-              'Toallas y amenities',
-              'Acceso sauna y vapor'
+          "key": "elite",
+          "name": "ELITE",
+          "price": null,
+          "frequency": "Facturacion mensual",
+          "features": {
+            "included": [
+              "Acceso 24/7",
+              "Clases ilimitadas",
+              "4 sesiones PT/mes",
+              "Toallas y amenities",
+              "Acceso sauna y vapor"
             ],
-            'excluded': []
+            "excluded": []
           },
-          'cta': 'ELEGIR ELITE'
+          "cta": "ELEGIR ELITE"
         }
       ],
-      'dayPass': {
-        'label': 'Pase Diario',
-        'price': null
+      "dayPass": {
+        "label": "Pase Diario",
+        "price": null
       }
     },
-    'schedulePage': {
-      'title': 'Horario de Clases',
-      'filters': {
-        'day': [
-          'Lun',
-          'Mar',
-          'Mie',
-          'Jue',
-          'Vie',
-          'Sab',
-          'Dom'
+    "schedulePage": {
+      "title": "Horario de Clases",
+      "filters": {
+        "day": [
+          "Lun",
+          "Mar",
+          "Mie",
+          "Jue",
+          "Vie",
+          "Sab",
+          "Dom"
         ],
-        'classType': [
-          'Todas',
-          'Yoga',
-          'HIIT',
-          'Spinning',
-          'Pilates',
-          'Boxeo'
+        "classType": [
+          "Todas",
+          "Yoga",
+          "HIIT",
+          "Spinning",
+          "Pilates",
+          "Boxeo"
         ],
-        'instructor': 'dynamic'
+        "instructor": "dynamic"
       },
-      'statusLabels': {
-        'available': 'Disponible',
-        'full': 'Completo',
-        'waitlist': 'Waitlist'
+      "statusLabels": {
+        "available": "Disponible",
+        "full": "Completo",
+        "waitlist": "Waitlist"
       }
     },
-    'trainersPage': {
-      'title': 'Nuestros Entrenadores',
-      'memberTemplate': {
-        'buttonText': 'Reservar Sesion'
+    "trainersPage": {
+      "title": "Nuestros Entrenadores",
+      "memberTemplate": {
+        "buttonText": "Reservar Sesion"
       }
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Hay permanencia?',
-        'a': 'Puedes cancelar en cualquier momento con 30 dias de anticipacion.'
+        "q": "Hay permanencia?",
+        "a": "Puedes cancelar en cualquier momento con 30 dias de anticipacion."
       },
       {
-        'q': 'Puedo congelar mi membresia?',
-        'a': 'Si, puedes congelar hasta 2 meses al ano.'
+        "q": "Puedo congelar mi membresia?",
+        "a": "Si, puedes congelar hasta 2 meses al ano."
       },
       {
-        'q': 'Puedo ir con un invitado?',
-        'a': 'Si, con nuestra politica de invitados puedes traer a un amigo.'
+        "q": "Puedo ir con un invitado?",
+        "a": "Si, con nuestra politica de invitados puedes traer a un amigo."
       }
     ],
-    'ctaBanner': {
-      'title': 'Empieza tu transformacion hoy',
-      'buttonText': 'PRUEBA FREE'
+    "ctaBanner": {
+      "title": "Empieza tu transformacion hoy",
+      "buttonText": "PRUEBA FREE"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Clases',
-        'Planes',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Clases",
+        "Planes",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera informacion sobre membresias en {{businessName}}',
-      'trialMessage': 'Hola! Quisiera agendar mi prueba gratis en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera informacion sobre membresias en {{businessName}}",
+      "trialMessage": "Hola! Quisiera agendar mi prueba gratis en {{businessName}}"
     }
   },
   'spa': {
-    'id': 'spa',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': 'Tu Santuario de Bienestar',
-      'subheadline': 'Relajate, renueva y reconnectate en {{businessName}}',
-      'ctaPrimary': 'Reservar Experiencia',
-      'ctaSecondary': 'Ver Tratamientos'
+    "id": "spa",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "Tu Santuario de Bienestar",
+      "subheadline": "Relajate, renueva y reconnectate en {{businessName}}",
+      "ctaPrimary": "Reservar Experiencia",
+      "ctaSecondary": "Ver Tratamientos"
     },
-    'servicesPage': {
-      'title': 'Tratamientos y Servicios',
-      'categories': [
+    "servicesPage": {
+      "title": "Tratamientos y Servicios",
+      "categories": [
         {
-          'key': 'masajes',
-          'title': 'Masajes',
-          'defaultServices': [
+          "key": "masajes",
+          "title": "Masajes",
+          "defaultServices": [
             {
-              'name': 'Masaje Relajante',
-              'price': '180.000 Gs',
-              'duration': 60,
-              'description': 'Masaje suave para relajacion profunda'
+              "name": "Masaje Relajante",
+              "price": "180.000 Gs",
+              "duration": 60,
+              "description": "Masaje suave para relajacion profunda"
             },
             {
-              'name': 'Masaje Terapeutico',
-              'price': '220.000 Gs',
-              'duration': 60,
-              'description': 'Alivio muscular y tension'
+              "name": "Masaje Terapeutico",
+              "price": "220.000 Gs",
+              "duration": 60,
+              "description": "Alivio muscular y tension"
             },
             {
-              'name': 'Masaje Hot Stone',
-              'price': '250.000 Gs',
-              'duration': 75,
-              'description': 'Piedras calientes para maxima relajacion'
+              "name": "Masaje Hot Stone",
+              "price": "250.000 Gs",
+              "duration": 75,
+              "description": "Piedras calientes para maxima relajacion"
             },
             {
-              'name': 'Masaje de Parejas',
-              'price': '350.000 Gs',
-              'duration': 60,
-              'description': 'Experiencia compartida en cabina privada'
+              "name": "Masaje de Parejas",
+              "price": "350.000 Gs",
+              "duration": 60,
+              "description": "Experiencia compartida en cabina privada"
             }
           ]
         },
         {
-          'key': 'faciales',
-          'title': 'Faciales',
-          'defaultServices': [
+          "key": "faciales",
+          "title": "Faciales",
+          "defaultServices": [
             {
-              'name': 'Limpieza Facial',
-              'price': '150.000 Gs',
-              'duration': 45,
-              'description': 'Limpieza profunda e hidratacion'
+              "name": "Limpieza Facial",
+              "price": "150.000 Gs",
+              "duration": 45,
+              "description": "Limpieza profunda e hidratacion"
             },
             {
-              'name': 'Hydrafacial',
-              'price': '280.000 Gs',
-              'duration': 60,
-              'description': 'Tecnologia avanzada de limpieza'
+              "name": "Hydrafacial",
+              "price": "280.000 Gs",
+              "duration": 60,
+              "description": "Tecnologia avanzada de limpieza"
             },
             {
-              'name': 'Anti-Aging',
-              'price': '220.000 Gs',
-              'duration': 60,
-              'description': 'Tratamiento rejuvenecedor'
+              "name": "Anti-Aging",
+              "price": "220.000 Gs",
+              "duration": 60,
+              "description": "Tratamiento rejuvenecedor"
             }
           ]
         },
         {
-          'key': 'corporales',
-          'title': 'Corporales',
-          'defaultServices': [
+          "key": "corporales",
+          "title": "Corporales",
+          "defaultServices": [
             {
-              'name': 'Exfoliacion Corporal',
-              'price': '120.000 Gs',
-              'duration': 45,
-              'description': 'Renueva y suaviza la piel'
+              "name": "Exfoliacion Corporal",
+              "price": "120.000 Gs",
+              "duration": 45,
+              "description": "Renueva y suaviza la piel"
             },
             {
-              'name': 'Envoltura Corporal',
-              'price': '180.000 Gs',
-              'duration': 60,
-              'description': 'Desintoxicacion con arcilla'
+              "name": "Envoltura Corporal",
+              "price": "180.000 Gs",
+              "duration": 60,
+              "description": "Desintoxicacion con arcilla"
             },
             {
-              'name': 'Aromaterapia',
-              'price': '200.000 Gs',
-              'duration': 75,
-              'description': 'Relajacion con aceites esenciales'
-            }
-          ]
-        }
-      ]
-    },
-    'membershipPlans': {
-      'plans': [
-        {
-          'name': 'Tratamiento Mensual',
-          'price': '350.000',
-          'period': 'mes',
-          'description': '1 tratamiento mensual a elegir',
-          'features': [
-            '1 facial o corporal/mes',
-            '15% descuento extras',
-            'Vale de regalo'
-          ],
-          'popular': false
-        },
-        {
-          'name': 'Relax Total',
-          'price': '550.000',
-          'period': 'mes',
-          'description': '2 tratamientos mensuales',
-          'features': [
-            '2 tratamientos/mes',
-            '20% descuento extras',
-            'Sauna ilimitado',
-            'Vale de regalo'
-          ],
-          'popular': true
-        },
-        {
-          'name': 'Spa Premium',
-          'price': '900.000',
-          'period': 'mes',
-          'description': 'Todo incluido',
-          'features': [
-            'Tratamientos ilimitados',
-            'Sauna e hidromasaje',
-            'Productos exclusivos',
-            '4 vales/ano'
-          ],
-          'popular': false
-        }
-      ]
-    },
-    'galleryPage': {
-      'title': 'Galeria',
-      'subtitle': 'Nuestro espacio de relax y bienestar'
-    },
-    'teamPage': {
-      'title': 'Nuestro Equipo'
-    },
-    'contactPage': {
-      'title': 'Contacto'
-    },
-    'treatmentsPage': {
-      'title': 'Menu de Tratamientos',
-      'categories': [
-        {
-          'key': 'masajes',
-          'title': 'Masajes Terapeuticos',
-          'defaultServices': [
-            {
-              'name': 'Masaje Sueco',
-              'duration': '60/90 min',
-              'price': null,
-              'description': 'Tecnica suave para relajacion profunda'
-            },
-            {
-              'name': 'Masaje Deep Tissue',
-              'duration': '60/90 min',
-              'price': null,
-              'description': 'Alivio muscular profundo'
-            },
-            {
-              'name': 'Masaje Hot Stone',
-              'duration': '75 min',
-              'price': null,
-              'description': 'Piedras calientes para tension'
-            },
-            {
-              'name': 'Masaje de Parejas',
-              'duration': '60 min',
-              'price': null,
-              'description': 'Experiencia compartida'
-            }
-          ]
-        },
-        {
-          'key': 'faciales',
-          'title': 'Tratamientos Faciales',
-          'defaultServices': [
-            {
-              'name': 'Limpieza Facial',
-              'duration': '45 min',
-              'price': null,
-              'description': 'Profunda limpieza e hidratacion'
-            },
-            {
-              'name': 'Hydrafacial',
-              'duration': '60 min',
-              'price': null,
-              'description': 'Tecnologia avanzada'
-            },
-            {
-              'name': 'Anti-aging',
-              'duration': '60 min',
-              'price': null,
-              'description': 'Reduce lineas de expresion'
-            }
-          ]
-        },
-        {
-          'key': 'corporales',
-          'title': 'Tratamientos Corporales',
-          'defaultServices': [
-            {
-              'name': 'Exfoliacion Corporal',
-              'duration': '45 min',
-              'price': null,
-              'description': 'Renueva y suaviza la piel'
-            },
-            {
-              'name': 'Envoltura de Arcilla',
-              'duration': '60 min',
-              'price': null,
-              'description': 'Desintoxicacion natural'
-            },
-            {
-              'name': 'Aromaterapia',
-              'duration': '75 min',
-              'price': null,
-              'description': 'Relajacion con aceites esenciales'
+              "name": "Aromaterapia",
+              "price": "200.000 Gs",
+              "duration": 75,
+              "description": "Relajacion con aceites esenciales"
             }
           ]
         }
       ]
     },
-    'packagesPage': {
-      'title': 'Paquetes Especiales',
-      'defaultPackages': [
+    "membershipPlans": {
+      "plans": [
         {
-          'name': 'Dia de Spa Completo',
-          'includes': [
-            'Masaje Relajante 60 min',
-            'Facial Hidratante 45 min',
-            'Sauna 30 min',
-            'Hidromasaje'
+          "name": "Tratamiento Mensual",
+          "price": "350.000",
+          "period": "mes",
+          "description": "1 tratamiento mensual a elegir",
+          "features": [
+            "1 facial o corporal/mes",
+            "15% descuento extras",
+            "Vale de regalo"
           ],
-          'price': null,
-          'savings': null
+          "popular": false
         },
         {
-          'name': 'Experiencia Parejas',
-          'includes': [
-            '2 Masajes Relajantes',
-            'Hidromasaje privado',
-            'Te y frutas'
+          "name": "Relax Total",
+          "price": "550.000",
+          "period": "mes",
+          "description": "2 tratamientos mensuales",
+          "features": [
+            "2 tratamientos/mes",
+            "20% descuento extras",
+            "Sauna ilimitado",
+            "Vale de regalo"
           ],
-          'price': null,
-          'savings': null
+          "popular": true
         },
         {
-          'name': 'Regalo Perfecto',
-          'includes': [
-            'Vale personalizado',
-            'Presentacion de regalo'
+          "name": "Spa Premium",
+          "price": "900.000",
+          "period": "mes",
+          "description": "Todo incluido",
+          "features": [
+            "Tratamientos ilimitados",
+            "Sauna e hidromasaje",
+            "Productos exclusivos",
+            "4 vales/ano"
           ],
-          'price': null,
-          'savings': null
+          "popular": false
+        }
+      ]
+    },
+    "galleryPage": {
+      "title": "Galeria",
+      "subtitle": "Nuestro espacio de relax y bienestar"
+    },
+    "teamPage": {
+      "title": "Nuestro Equipo"
+    },
+    "contactPage": {
+      "title": "Contacto"
+    },
+    "treatmentsPage": {
+      "title": "Menu de Tratamientos",
+      "categories": [
+        {
+          "key": "masajes",
+          "title": "Masajes Terapeuticos",
+          "defaultServices": [
+            {
+              "name": "Masaje Sueco",
+              "duration": "60/90 min",
+              "price": null,
+              "description": "Tecnica suave para relajacion profunda"
+            },
+            {
+              "name": "Masaje Deep Tissue",
+              "duration": "60/90 min",
+              "price": null,
+              "description": "Alivio muscular profundo"
+            },
+            {
+              "name": "Masaje Hot Stone",
+              "duration": "75 min",
+              "price": null,
+              "description": "Piedras calientes para tension"
+            },
+            {
+              "name": "Masaje de Parejas",
+              "duration": "60 min",
+              "price": null,
+              "description": "Experiencia compartida"
+            }
+          ]
+        },
+        {
+          "key": "faciales",
+          "title": "Tratamientos Faciales",
+          "defaultServices": [
+            {
+              "name": "Limpieza Facial",
+              "duration": "45 min",
+              "price": null,
+              "description": "Profunda limpieza e hidratacion"
+            },
+            {
+              "name": "Hydrafacial",
+              "duration": "60 min",
+              "price": null,
+              "description": "Tecnologia avanzada"
+            },
+            {
+              "name": "Anti-aging",
+              "duration": "60 min",
+              "price": null,
+              "description": "Reduce lineas de expresion"
+            }
+          ]
+        },
+        {
+          "key": "corporales",
+          "title": "Tratamientos Corporales",
+          "defaultServices": [
+            {
+              "name": "Exfoliacion Corporal",
+              "duration": "45 min",
+              "price": null,
+              "description": "Renueva y suaviza la piel"
+            },
+            {
+              "name": "Envoltura de Arcilla",
+              "duration": "60 min",
+              "price": null,
+              "description": "Desintoxicacion natural"
+            },
+            {
+              "name": "Aromaterapia",
+              "duration": "75 min",
+              "price": null,
+              "description": "Relajacion con aceites esenciales"
+            }
+          ]
+        }
+      ]
+    },
+    "packagesPage": {
+      "title": "Paquetes Especiales",
+      "defaultPackages": [
+        {
+          "name": "Dia de Spa Completo",
+          "includes": [
+            "Masaje Relajante 60 min",
+            "Facial Hidratante 45 min",
+            "Sauna 30 min",
+            "Hidromasaje"
+          ],
+          "price": null,
+          "savings": null
+        },
+        {
+          "name": "Experiencia Parejas",
+          "includes": [
+            "2 Masajes Relajantes",
+            "Hidromasaje privado",
+            "Te y frutas"
+          ],
+          "price": null,
+          "savings": null
+        },
+        {
+          "name": "Regalo Perfecto",
+          "includes": [
+            "Vale personalizado",
+            "Presentacion de regalo"
+          ],
+          "price": null,
+          "savings": null
         }
       ],
-      'giftVoucher': {
-        'title': 'Vale de Regalo',
-        'description': 'El regalo perfecto para alguien especial'
+      "giftVoucher": {
+        "title": "Vale de Regalo",
+        "description": "El regalo perfecto para alguien especial"
       }
     },
-    'aboutPage': {
-      'title': 'Nuestro Espacio',
-      'storyPlaceholder': 'Descubre un refugio donde el tiempo se detiene. En {{businessName}} creamos experiencias de bienestar que renuevan cuerpo y alma.'
+    "aboutPage": {
+      "title": "Nuestro Espacio",
+      "storyPlaceholder": "Descubre un refugio donde el tiempo se detiene. En {{businessName}} creamos experiencias de bienestar que renuevan cuerpo y alma."
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Necesito reservar con anticipacion?',
-        'a': 'Recomendamos reservar con al menos 24 horas de anticipacion, especialmente para fines de semana.'
+        "q": "Necesito reservar con anticipacion?",
+        "a": "Recomendamos reservar con al menos 24 horas de anticipacion, especialmente para fines de semana."
       },
       {
-        'q': 'Que debo traer?',
-        'a': 'Solo traete a ti. Nosotros proporcionamos todo lo necesario: bata, sandalias, toallas.'
+        "q": "Que debo traer?",
+        "a": "Solo traete a ti. Nosotros proporcionamos todo lo necesario: bata, sandalias, toallas."
       }
     ],
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Tratamientos',
-        'Paquetes',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Tratamientos",
+        "Paquetes",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera reservar una experiencia en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera reservar {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera reservar una experiencia en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
     }
   },
   'barberia': {
-    'id': 'barberia',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - El Arte del Corte',
-      'subheadline': 'Tradicion y maestria en cada detalle',
-      'ctaPrimary': 'Reservar Cita',
-      'ctaSecondary': 'Walk-In'
+    "id": "barberia",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - El Arte del Corte",
+      "subheadline": "Tradicion y maestria en cada detalle",
+      "ctaPrimary": "Reservar Cita",
+      "ctaSecondary": "Walk-In"
     },
-    'servicesPage': {
-      'title': 'Servicios',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios",
+      "categories": [
         {
-          'key': 'cortes',
-          'title': 'Cortes',
-          'defaultServices': [
+          "key": "cortes",
+          "title": "Cortes",
+          "defaultServices": [
             {
-              'name': 'Corte Clasico',
-              'price': null,
-              'duration': 30,
-              'description': 'Tijera y peine, estilo terminado'
+              "name": "Corte Clasico",
+              "price": null,
+              "duration": 30,
+              "description": "Tijera y peine, estilo terminado"
             },
             {
-              'name': 'Corte Fade',
-              'price': null,
-              'duration': 35,
-              'description': 'Skin fade, lineas de diseno'
+              "name": "Corte Fade",
+              "price": null,
+              "duration": 35,
+              "description": "Skin fade, lineas de diseno"
             },
             {
-              'name': 'Barberia Completa',
-              'price': null,
-              'duration': 45,
-              'description': 'Corte + barba + toalla caliente'
+              "name": "Barberia Completa",
+              "price": null,
+              "duration": 45,
+              "description": "Corte + barba + toalla caliente"
             }
           ]
         },
         {
-          'key': 'barba',
-          'title': 'Barba y Afeitado',
-          'defaultServices': [
+          "key": "barba",
+          "title": "Barba y Afeitado",
+          "defaultServices": [
             {
-              'name': 'Arreglo de Barba',
-              'price': null,
-              'duration': 20,
-              'description': 'Shape + line-up'
+              "name": "Arreglo de Barba",
+              "price": null,
+              "duration": 20,
+              "description": "Shape + line-up"
             },
             {
-              'name': 'Hot Towel Shave',
-              'price': null,
-              'duration': 30,
-              'description': 'Navaja tradicional con toalla caliente'
+              "name": "Hot Towel Shave",
+              "price": null,
+              "duration": 30,
+              "description": "Navaja tradicional con toalla caliente"
             },
             {
-              'name': 'Corte + Barba',
-              'price': null,
-              'duration': 50,
-              'description': 'Paquete completo'
+              "name": "Corte + Barba",
+              "price": null,
+              "duration": 50,
+              "description": "Paquete completo"
             }
           ]
         }
       ]
     },
-    'policy': {
-      'title': 'Politica del Local',
-      'items': [
-        'Aceptamos walk-ins segun disponibilidad',
-        'Reservaciones recomendadas para fines de semana',
-        'Cancelaciones: 24h de anticipacion',
-        'Llegar 5 min antes de tu hora'
+    "policy": {
+      "title": "Politica del Local",
+      "items": [
+        "Aceptamos walk-ins segun disponibilidad",
+        "Reservaciones recomendadas para fines de semana",
+        "Cancelaciones: 24h de anticipacion",
+        "Llegar 5 min antes de tu hora"
       ]
     },
-    'galleryPage': {
-      'title': 'Nuestros Trabajos',
-      'categories': [
-        'Fades',
-        'Clasico',
-        'Barbas'
+    "galleryPage": {
+      "title": "Nuestros Trabajos",
+      "categories": [
+        "Fades",
+        "Clasico",
+        "Barbas"
       ],
-      'note': 'Fotos reales de nuestros clientes'
+      "note": "Fotos reales de nuestros clientes"
     },
-    'teamPage': {
-      'title': 'Nuestros Barberos',
-      'memberTemplate': {
-        'buttonText': 'Reservar con {{name}}'
+    "teamPage": {
+      "title": "Nuestros Barberos",
+      "memberTemplate": {
+        "buttonText": "Reservar con {{name}}"
       }
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera reservar un turno en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera reservar {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera reservar un turno en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
     }
   },
   'unas': {
-    'id': 'unas',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': 'Unas Perfectas en {{city}}',
-      'subheadline': 'Diseno profesional, productos de calidad, higiene garantizada',
-      'ctaPrimary': 'Reservar Cita',
-      'ctaSecondary': 'Ver Galeria'
+    "id": "unas",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "Unas Perfectas en {{city}}",
+      "subheadline": "Diseno profesional, productos de calidad, higiene garantizada",
+      "ctaPrimary": "Reservar Cita",
+      "ctaSecondary": "Ver Galeria"
     },
-    'servicesPage': {
-      'title': 'Servicios y Precios',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios y Precios",
+      "categories": [
         {
-          'key': 'manicure',
-          'title': 'Manicure',
-          'defaultServices': [
+          "key": "manicure",
+          "title": "Manicure",
+          "defaultServices": [
             {
-              'name': 'Clasico',
-              'price': null,
-              'duration': 30,
-              'description': 'Cuidado de cuticulas + esmalte'
+              "name": "Clasico",
+              "price": null,
+              "duration": 30,
+              "description": "Cuidado de cuticulas + esmalte"
             },
             {
-              'name': 'Gel',
-              'price': null,
-              'duration': 45,
-              'description': 'Esmalte gel duradero, sin chip'
+              "name": "Gel",
+              "price": null,
+              "duration": 45,
+              "description": "Esmalte gel duradero, sin chip"
             },
             {
-              'name': 'Acrilico',
-              'price': null,
-              'duration': 60,
-              'description': 'Extensiones acrilicas'
+              "name": "Acrilico",
+              "price": null,
+              "duration": 60,
+              "description": "Extensiones acrilicas"
             },
             {
-              'name': 'Shellac',
-              'price': null,
-              'duration': 40,
-              'description': 'Brillo duradero'
+              "name": "Shellac",
+              "price": null,
+              "duration": 40,
+              "description": "Brillo duradero"
             }
           ]
         },
         {
-          'key': 'pedicure',
-          'title': 'Pedicure',
-          'defaultServices': [
+          "key": "pedicure",
+          "title": "Pedicure",
+          "defaultServices": [
             {
-              'name': 'Spa Pedicure',
-              'price': null,
-              'duration': 50,
-              'description': 'Exfoliacion + masaje + esmalte'
+              "name": "Spa Pedicure",
+              "price": null,
+              "duration": 50,
+              "description": "Exfoliacion + masaje + esmalte"
             },
             {
-              'name': 'Gel Pedicure',
-              'price': null,
-              'duration': 55,
-              'description': 'Esmalte gel en pies'
+              "name": "Gel Pedicure",
+              "price": null,
+              "duration": 55,
+              "description": "Esmalte gel en pies"
             },
             {
-              'name': 'Medico',
-              'price': null,
-              'duration': 40,
-              'description': 'Callosidades, cuidado del pie'
+              "name": "Medico",
+              "price": null,
+              "duration": 40,
+              "description": "Callosidades, cuidado del pie"
             }
           ]
         },
         {
-          'key': 'nail_art',
-          'title': 'Nail Art',
-          'defaultServices': [
+          "key": "nail_art",
+          "title": "Nail Art",
+          "defaultServices": [
             {
-              'name': 'Diseno Simple',
-              'price': null,
-              'description': 'French, puntos, basico'
+              "name": "Diseno Simple",
+              "price": null,
+              "description": "French, puntos, basico"
             },
             {
-              'name': 'Diseno Especial',
-              'price': null,
-              'description': 'Arte personalizado por una'
+              "name": "Diseno Especial",
+              "price": null,
+              "description": "Arte personalizado por una"
             },
             {
-              'name': 'Chrome/Foil',
-              'price': null,
-              'description': 'Acabado metalico'
+              "name": "Chrome/Foil",
+              "price": null,
+              "description": "Acabado metalico"
             },
             {
-              'name': '3D Art',
-              'price': null,
-              'description': 'Elementos decorativos en relieve'
+              "name": "3D Art",
+              "price": null,
+              "description": "Elementos decorativos en relieve"
             }
           ]
         }
       ]
     },
-    'galleryPage': {
-      'title': 'Galeria de Disenos',
-      'categories': [
-        'Natural',
-        'Gel',
-        'Acrilico',
-        'Nail Art',
-        'Novia'
+    "galleryPage": {
+      "title": "Galeria de Disenos",
+      "categories": [
+        "Natural",
+        "Gel",
+        "Acrilico",
+        "Nail Art",
+        "Novia"
       ],
-      'ctaText': 'Ver Todos los Disenos'
+      "ctaText": "Ver Todos los Disenos"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una cita en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera reservar {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
     }
   },
   'tatuajes': {
-    'id': 'tatuajes',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Arte en Tu Piel',
-      'subheadline': 'Tatuajes personalizados, higiene impecable',
-      'ctaPrimary': 'Agendar Consulta',
-      'ctaSecondary': 'Ver Portafolio'
+    "id": "tatuajes",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Arte en Tu Piel",
+      "subheadline": "Tatuajes personalizados, higiene impecable",
+      "ctaPrimary": "Agendar Consulta",
+      "ctaSecondary": "Ver Portafolio"
     },
-    'portfolioPage': {
-      'title': 'Portafolio',
-      'styleCategories': [
-        'Tradicional',
-        'Realismo',
-        'Blackwork',
-        'Japones',
-        'Minimal'
+    "portfolioPage": {
+      "title": "Portafolio",
+      "styleCategories": [
+        "Tradicional",
+        "Realismo",
+        "Blackwork",
+        "Japones",
+        "Minimal"
       ],
-      'filterLabels': {
-        'style': 'Estilo',
-        'artist': 'Artista',
-        'bodyPart': 'Zona del cuerpo'
+      "filterLabels": {
+        "style": "Estilo",
+        "artist": "Artista",
+        "bodyPart": "Zona del cuerpo"
       }
     },
-    'artistsPage': {
-      'title': 'Nuestros Artistas',
-      'memberTemplate': {
-        'buttonText': 'Ver Trabajo de {{name}}',
-        'availabilityLabel': 'Disponibilidad'
+    "artistsPage": {
+      "title": "Nuestros Artistas",
+      "memberTemplate": {
+        "buttonText": "Ver Trabajo de {{name}}",
+        "availabilityLabel": "Disponibilidad"
       }
     },
-    'piercingSection': {
-      'title': 'Piercings',
-      'defaultServices': [
+    "piercingSection": {
+      "title": "Piercings",
+      "defaultServices": [
         {
-          'name': 'Lobulo',
-          'price': null
+          "name": "Lobulo",
+          "price": null
         },
         {
-          'name': 'Cartilago',
-          'price': null
+          "name": "Cartilago",
+          "price": null
         },
         {
-          'name': 'Nariz',
-          'price': null
+          "name": "Nariz",
+          "price": null
         },
         {
-          'name': 'Ombligo',
-          'price': null
+          "name": "Ombligo",
+          "price": null
         },
         {
-          'name': 'Industrial',
-          'price': null
+          "name": "Industrial",
+          "price": null
         }
       ]
     },
-    'consultationForm': {
-      'title': 'Agenda Tu Consulta',
-      'fields': [
+    "consultationForm": {
+      "title": "Agenda Tu Consulta",
+      "fields": [
         {
-          'name': 'fullName',
-          'label': 'Nombre completo',
-          'type': 'text',
-          'required': true
+          "name": "fullName",
+          "label": "Nombre completo",
+          "type": "text",
+          "required": true
         },
         {
-          'name': 'phone',
-          'label': 'Telefono',
-          'type': 'tel',
-          'required': true
+          "name": "phone",
+          "label": "Telefono",
+          "type": "tel",
+          "required": true
         },
         {
-          'name': 'email',
-          'label': 'Email',
-          'type': 'email',
-          'required': false
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": false
         },
         {
-          'name': 'tattooType',
-          'label': 'Que tipo de tatuaje buscas?',
-          'type': 'select',
-          'options': [
-            'Custom',
-            'Tradicional',
-            'Realismo',
-            'Blackwork',
-            'Japones',
-            'Minimal',
-            'Cover-up'
+          "name": "tattooType",
+          "label": "Que tipo de tatuaje buscas?",
+          "type": "select",
+          "options": [
+            "Custom",
+            "Tradicional",
+            "Realismo",
+            "Blackwork",
+            "Japones",
+            "Minimal",
+            "Cover-up"
           ]
         },
         {
-          'name': 'bodyLocation',
-          'label': 'Donde quieres el tatuaje?',
-          'type': 'text'
+          "name": "bodyLocation",
+          "label": "Donde quieres el tatuaje?",
+          "type": "text"
         },
         {
-          'name': 'approximateSize',
-          'label': 'Tamano aproximado?',
-          'type': 'text'
+          "name": "approximateSize",
+          "label": "Tamano aproximado?",
+          "type": "text"
         },
         {
-          'name': 'referenceImage',
-          'label': 'Tienes referencia de diseno?',
-          'type': 'file'
+          "name": "referenceImage",
+          "label": "Tienes referencia de diseno?",
+          "type": "file"
         },
         {
-          'name': 'description',
-          'label': 'Descripcion de tu idea',
-          'type': 'textarea'
+          "name": "description",
+          "label": "Descripcion de tu idea",
+          "type": "textarea"
         },
         {
-          'name': 'isFirstTattoo',
-          'label': 'Es tu primer tatuaje?',
-          'type': 'select',
-          'options': [
-            'Si',
-            'No'
+          "name": "isFirstTattoo",
+          "label": "Es tu primer tatuaje?",
+          "type": "select",
+          "options": [
+            "Si",
+            "No"
           ]
         }
       ],
-      'submitText': 'Enviar Consulta',
-      'confirmationText': 'Te contactaremos en 24-48 horas para confirmar tu cita'
+      "submitText": "Enviar Consulta",
+      "confirmationText": "Te contactaremos en 24-48 horas para confirmar tu cita"
     },
-    'aftercare': {
-      'title': 'Cuidados Post-Tatuaje',
-      'steps': [
-        'Mantener el vendaje por 2-4 horas',
-        'Lavar suavemente con jabon antibacterial',
-        'Aplicar crema cicatrizante 3 veces al dia',
-        'Evitar sol directo por 2 semanas',
-        'No rascarse durante la cicatrizacion',
-        'Evitar piscinas y playa por 2 semanas'
+    "aftercare": {
+      "title": "Cuidados Post-Tatuaje",
+      "steps": [
+        "Mantener el vendaje por 2-4 horas",
+        "Lavar suavemente con jabon antibacterial",
+        "Aplicar crema cicatrizante 3 veces al dia",
+        "Evitar sol directo por 2 semanas",
+        "No rascarse durante la cicatrizacion",
+        "Evitar piscinas y playa por 2 semanas"
       ]
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Cuanto duele?',
-        'a': 'El dolor varia segun la zona y tolerancia personal. Las zonas con mas hueso tienden a doler mas.'
+        "q": "Cuanto duele?",
+        "a": "El dolor varia segun la zona y tolerancia personal. Las zonas con mas hueso tienden a doler mas."
       },
       {
-        'q': 'Cuanto tarda en sanar?',
-        'a': 'La cicatrizacion completa toma 2-4 semanas. Seguir los cuidados post-tatuaje es esencial.'
+        "q": "Cuanto tarda en sanar?",
+        "a": "La cicatrizacion completa toma 2-4 semanas. Seguir los cuidados post-tatuaje es esencial."
       },
       {
-        'q': 'Hay limite de edad?',
-        'a': 'Debes ser mayor de 18 anos. Menores con autorizacion de padres.'
+        "q": "Hay limite de edad?",
+        "a": "Debes ser mayor de 18 anos. Menores con autorizacion de padres."
       }
     ],
-    'firstTimerCta': {
-      'text': 'Primer tatuaje?',
-      'linkText': 'Lee nuestra guia',
-      'action': 'scrollTo:aftercare'
+    "firstTimerCta": {
+      "text": "Primer tatuaje?",
+      "linkText": "Lee nuestra guia",
+      "action": "scrollTo:aftercare"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Portafolio',
-        'Artistas',
-        'Info',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Portafolio",
+        "Artistas",
+        "Info",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una consulta para tatuaje en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una consulta para tatuaje en {{businessName}}"
     }
   },
   'estetica': {
-    'id': 'estetica',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Belleza y Ciencia',
-      'subheadline': 'Tratamientos avanzados con tecnologia de punta y resultados reales',
-      'ctaPrimary': 'Reservar Consulta',
-      'ctaSecondary': 'Ver Resultados'
+    "id": "estetica",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Belleza y Ciencia",
+      "subheadline": "Tratamientos avanzados con tecnologia de punta y resultados reales",
+      "ctaPrimary": "Reservar Consulta",
+      "ctaSecondary": "Ver Resultados"
     },
-    'treatmentsPage': {
-      'title': 'Tratamientos',
-      'pricingNote': 'Precios varian segun evaluacion. Primera consulta sin cargo.',
-      'categories': [
+    "treatmentsPage": {
+      "title": "Tratamientos",
+      "pricingNote": "Precios varian segun evaluacion. Primera consulta sin cargo.",
+      "categories": [
         {
-          'key': 'faciales',
-          'title': 'Tratamientos Faciales',
-          'defaultServices': [
+          "key": "faciales",
+          "title": "Tratamientos Faciales",
+          "defaultServices": [
             {
-              'name': 'Hydrafacial',
-              'priceFrom': null,
-              'description': 'Limpieza, hidratacion, luminosidad'
+              "name": "Hydrafacial",
+              "priceFrom": null,
+              "description": "Limpieza, hidratacion, luminosidad"
             },
             {
-              'name': 'Microagujas',
-              'priceFrom': null,
-              'description': 'Estimula colageno, reduce cicatrices'
+              "name": "Microagujas",
+              "priceFrom": null,
+              "description": "Estimula colageno, reduce cicatrices"
             },
             {
-              'name': 'Luz Pulsada',
-              'priceFrom': null,
-              'description': 'Rejuvenecimiento, manchas'
+              "name": "Luz Pulsada",
+              "priceFrom": null,
+              "description": "Rejuvenecimiento, manchas"
             },
             {
-              'name': 'Botox',
-              'priceFrom': null,
-              'description': 'Relaja lineas de expresion'
+              "name": "Botox",
+              "priceFrom": null,
+              "description": "Relaja lineas de expresion"
             }
           ]
         },
         {
-          'key': 'corporales',
-          'title': 'Tratamientos Corporales',
-          'defaultServices': [
+          "key": "corporales",
+          "title": "Tratamientos Corporales",
+          "defaultServices": [
             {
-              'name': 'Criolipolis',
-              'priceFrom': null,
-              'description': 'Eliminacion de grasa localizada'
+              "name": "Criolipolis",
+              "priceFrom": null,
+              "description": "Eliminacion de grasa localizada"
             },
             {
-              'name': 'Radiofrecuencia',
-              'priceFrom': null,
-              'description': 'Tensado de piel'
+              "name": "Radiofrecuencia",
+              "priceFrom": null,
+              "description": "Tensado de piel"
             },
             {
-              'name': 'Drenaje Linfatico',
-              'priceFrom': null,
-              'description': 'Retencion de liquidos'
+              "name": "Drenaje Linfatico",
+              "priceFrom": null,
+              "description": "Retencion de liquidos"
             }
           ]
         }
       ]
     },
-    'resultsPage': {
-      'title': 'Resultados Reales',
-      'subtitle': 'Antes y Despues',
-      'consentNote': 'Fotos con consentimiento del paciente'
+    "resultsPage": {
+      "title": "Resultados Reales",
+      "subtitle": "Antes y Despues",
+      "consentNote": "Fotos con consentimiento del paciente"
     },
-    'teamPage': {
-      'title': 'Nuestro Equipo Medico',
-      'credentialLabels': {
-        'education': 'Formacion',
-        'certifications': 'Certificaciones',
-        'experience': 'Experiencia',
-        'treatmentCount': 'Tratamientos realizados'
+    "teamPage": {
+      "title": "Nuestro Equipo Medico",
+      "credentialLabels": {
+        "education": "Formacion",
+        "certifications": "Certificaciones",
+        "experience": "Experiencia",
+        "treatmentCount": "Tratamientos realizados"
       },
-      'memberTemplate': {
-        'buttonText': 'Reservar con {{name}}'
+      "memberTemplate": {
+        "buttonText": "Reservar con {{name}}"
       }
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'La consulta tiene costo?',
-        'a': 'No, la primera consulta es sin cargo. Evaluamos tu caso y te recomendamos el mejor tratamiento.'
+        "q": "La consulta tiene costo?",
+        "a": "No, la primera consulta es sin cargo. Evaluamos tu caso y te recomendamos el mejor tratamiento."
       },
       {
-        'q': 'Los tratamientos son dolorosos?',
-        'a': 'La mayoria de los tratamientos son minima o nulamente dolorosos. Usamos tecnicas y productos para maximizar tu comodidad.'
+        "q": "Los tratamientos son dolorosos?",
+        "a": "La mayoria de los tratamientos son minima o nulamente dolorosos. Usamos tecnicas y productos para maximizar tu comodidad."
       }
     ],
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Tratamientos',
-        'Resultados',
-        'Equipo',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Tratamientos",
+        "Resultados",
+        "Equipo",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una consulta en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera consultar sobre {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una consulta en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera consultar sobre {{serviceName}} en {{businessName}}"
     }
   },
   'diseno_grafico': {
-    'id': 'diseno_grafico',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': 'Donde la Fantasia se Convierte en Realidad',
-      'subheadline': 'Diseno de portadas y arte visual que da vida a tus historias',
-      'ctaPrimary': 'Ver Catalogo',
-      'ctaSecondary': 'Trabajemos Juntos'
+    "id": "diseno_grafico",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "Donde la Fantasia se Convierte en Realidad",
+      "subheadline": "Diseno de portadas y arte visual que da vida a tus historias",
+      "ctaPrimary": "Ver Catalogo",
+      "ctaSecondary": "Trabajemos Juntos"
     },
-    'servicesPage': {
-      'title': 'Servicios',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios",
+      "categories": [
         {
-          'key': 'portadas_personalizadas',
-          'title': 'Portadas Personalizadas',
-          'description': 'Diseno unico y exclusivo para tu libro',
-          'defaultServices': [
+          "key": "portadas_personalizadas",
+          "title": "Portadas Personalizadas",
+          "description": "Diseno unico y exclusivo para tu libro",
+          "defaultServices": [
             {
-              'name': 'Portada Personalizada - Ebook',
-              'price': null,
-              'description': 'Diseno exclusivo para tu ebook, incluye revisiones'
+              "name": "Portada Personalizada - Ebook",
+              "price": null,
+              "description": "Diseno exclusivo para tu ebook, incluye revisiones"
             },
             {
-              'name': 'Portada Personalizada - Tapa Blanda',
-              'price': null,
-              'description': 'Portada completa (frente, lomo y contra) para impresion'
+              "name": "Portada Personalizada - Tapa Blanda",
+              "price": null,
+              "description": "Portada completa (frente, lomo y contra) para impresion"
             },
             {
-              'name': 'Portada Personalizada - Tapa Dura',
-              'price': null,
-              'description': 'Diseno premium con sobrecubierta y guardas'
+              "name": "Portada Personalizada - Tapa Dura",
+              "price": null,
+              "description": "Diseno premium con sobrecubierta y guardas"
             }
           ]
         },
         {
-          'key': 'portadas_premade',
-          'title': 'Portadas Pre-hechas',
-          'description': 'Disenos listos para personalizar con tu titulo',
-          'defaultServices': [
+          "key": "portadas_premade",
+          "title": "Portadas Pre-hechas",
+          "description": "Disenos listos para personalizar con tu titulo",
+          "defaultServices": [
             {
-              'name': 'Portada Premade - Ebook',
-              'price': null,
-              'description': 'Diseno listo, se personaliza con tu titulo y nombre'
+              "name": "Portada Premade - Ebook",
+              "price": null,
+              "description": "Diseno listo, se personaliza con tu titulo y nombre"
             },
             {
-              'name': 'Portada Premade - Pack Completo',
-              'price': null,
-              'description': 'Ebook + Tapa blanda, mismo diseno'
+              "name": "Portada Premade - Pack Completo",
+              "price": null,
+              "description": "Ebook + Tapa blanda, mismo diseno"
             }
           ]
         },
         {
-          'key': 'mockups_3d',
-          'title': 'Mockups y Videos 3D',
-          'description': 'Visualizaciones profesionales de tu libro',
-          'defaultServices': [
+          "key": "mockups_3d",
+          "title": "Mockups y Videos 3D",
+          "description": "Visualizaciones profesionales de tu libro",
+          "defaultServices": [
             {
-              'name': 'Mockup 3D Estatico',
-              'price': null,
-              'description': 'Imagen realista de tu libro en 3D'
+              "name": "Mockup 3D Estatico",
+              "price": null,
+              "description": "Imagen realista de tu libro en 3D"
             },
             {
-              'name': 'Video Mockup 3D',
-              'price': null,
-              'description': 'Animacion profesional de tu portada'
+              "name": "Video Mockup 3D",
+              "price": null,
+              "description": "Animacion profesional de tu portada"
             }
           ]
         },
         {
-          'key': 'branding',
-          'title': 'Branding para Autores',
-          'description': 'Identidad visual completa para tu marca como autor',
-          'defaultServices': [
+          "key": "branding",
+          "title": "Branding para Autores",
+          "description": "Identidad visual completa para tu marca como autor",
+          "defaultServices": [
             {
-              'name': 'Logo + Marca Personal',
-              'price': null,
-              'description': 'Logo, paleta de colores y tipografias'
+              "name": "Logo + Marca Personal",
+              "price": null,
+              "description": "Logo, paleta de colores y tipografias"
             },
             {
-              'name': 'Kit Redes Sociales',
-              'price': null,
-              'description': 'Templates para Instagram, Facebook y mas'
+              "name": "Kit Redes Sociales",
+              "price": null,
+              "description": "Templates para Instagram, Facebook y mas"
             }
           ]
         }
       ]
     },
-    'productCatalogPage': {
-      'title': 'Catalogo',
-      'subtitle': 'Explora nuestros disenos disponibles',
-      'orderButtonText': 'Consultar por WhatsApp',
-      'orderMessageTemplate': 'Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
-      'categories': [
-        'Romance',
-        'Fantasia',
-        'Thriller',
-        'No Ficcion',
-        'Ciencia Ficcion',
-        'Terror'
+    "productCatalogPage": {
+      "title": "Catalogo",
+      "subtitle": "Explora nuestros disenos disponibles",
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.",
+      "categories": [
+        "Romance",
+        "Fantasia",
+        "Thriller",
+        "No Ficcion",
+        "Ciencia Ficcion",
+        "Terror"
       ]
     },
-    'galleryPage': {
-      'title': 'Portafolio',
-      'subtitle': 'Una muestra de nuestro trabajo'
+    "galleryPage": {
+      "title": "Portafolio",
+      "subtitle": "Una muestra de nuestro trabajo"
     },
-    'contactPage': {
-      'title': 'Contacto'
+    "contactPage": {
+      "title": "Contacto"
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Cuanto tiempo toma una portada personalizada?',
-        'a': 'El proceso completo toma entre 1 a 3 semanas, dependiendo de la complejidad del diseno y las revisiones.'
+        "q": "Cuanto tiempo toma una portada personalizada?",
+        "a": "El proceso completo toma entre 1 a 3 semanas, dependiendo de la complejidad del diseno y las revisiones."
       },
       {
-        'q': 'Que necesito para empezar?',
-        'a': 'El titulo de tu libro, una sinopsis breve, el genero, y cualquier referencia visual que te guste. Cuanto mas detalle, mejor!'
+        "q": "Que necesito para empezar?",
+        "a": "El titulo de tu libro, una sinopsis breve, el genero, y cualquier referencia visual que te guste. Cuanto mas detalle, mejor!"
       },
       {
-        'q': 'Puedo pedir cambios al diseno?',
-        'a': 'Si! Todas las portadas personalizadas incluyen rondas de revision para que quedes satisfecho/a con el resultado.'
+        "q": "Puedo pedir cambios al diseno?",
+        "a": "Si! Todas las portadas personalizadas incluyen rondas de revision para que quedes satisfecho/a con el resultado."
       },
       {
-        'q': 'Cual es la diferencia entre premade y personalizada?',
-        'a': 'Las portadas premade son disenos ya creados que se personalizan con tu titulo. Las personalizadas se crean desde cero para tu libro.'
+        "q": "Cual es la diferencia entre premade y personalizada?",
+        "a": "Las portadas premade son disenos ya creados que se personalizan con tu titulo. Las personalizadas se crean desde cero para tu libro."
       },
       {
-        'q': 'Hacen envios internacionales?',
-        'a': 'Trabajamos de forma 100% digital. Recibis tus archivos por email, listos para publicar o imprimir.'
+        "q": "Hacen envios internacionales?",
+        "a": "Trabajamos de forma 100% digital. Recibis tus archivos por email, listos para publicar o imprimir."
       }
     ],
-    'ctaBanner': {
-      'title': 'Listo para darle vida a tu historia?',
-      'buttonText': 'Empecemos'
+    "ctaBanner": {
+      "title": "Listo para darle vida a tu historia?",
+      "buttonText": "Empecemos"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Servicios',
-        'Catalogo',
-        'Portafolio',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Servicios",
+        "Catalogo",
+        "Portafolio",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera consultar sobre servicios de diseno con {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera consultar sobre servicios de diseno con {{businessName}}"
     }
   },
   'pestanas': {
-    'id': 'pestanas',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Tu Mirada Perfecta en {{city}}',
-      'subheadline': 'Extensiones de pestañas, microblading y diseño de cejas que realzan tu belleza natural',
-      'ctaPrimary': 'Reservar Cita',
-      'ctaSecondary': 'Ver Servicios'
+    "id": "pestanas",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Tu Mirada Perfecta en {{city}}",
+      "subheadline": "Extensiones de pestañas, microblading y diseño de cejas que realzan tu belleza natural",
+      "ctaPrimary": "Reservar Cita",
+      "ctaSecondary": "Ver Servicios"
     },
-    'servicesPage': {
-      'title': 'Servicios y Precios',
-      'categories': [
+    "servicesPage": {
+      "title": "Servicios y Precios",
+      "categories": [
         {
-          'key': 'pestanas',
-          'title': 'Pestañas',
-          'description': 'Extensiones y tratamientos para una mirada irresistible',
-          'defaultServices': [
+          "key": "pestanas",
+          "title": "Pestañas",
+          "description": "Extensiones y tratamientos para una mirada irresistible",
+          "defaultServices": [
             {
-              'name': 'Extensiones Clasicas',
-              'price': null,
-              'duration': 120,
-              'description': 'Pestañas pelo a pelo para un look natural y elegante'
+              "name": "Extensiones Clasicas",
+              "price": null,
+              "duration": 120,
+              "description": "Pestañas pelo a pelo para un look natural y elegante"
             },
             {
-              'name': 'Extensiones Volumen',
-              'price': null,
-              'duration': 150,
-              'description': 'Mayor densidad con abanicos de 2-5 pestañas por pelo natural'
+              "name": "Extensiones Volumen",
+              "price": null,
+              "duration": 150,
+              "description": "Mayor densidad con abanicos de 2-5 pestañas por pelo natural"
             },
             {
-              'name': 'Extensiones Mega Volumen',
-              'price': null,
-              'duration': 180,
-              'description': 'Maxima densidad y dramatismo para una mirada impactante'
+              "name": "Extensiones Mega Volumen",
+              "price": null,
+              "duration": 180,
+              "description": "Maxima densidad y dramatismo para una mirada impactante"
             },
             {
-              'name': 'Lifting de Pestañas',
-              'price': null,
-              'duration': 60,
-              'description': 'Curvatura natural sin extensiones, incluye tinte'
+              "name": "Lifting de Pestañas",
+              "price": null,
+              "duration": 60,
+              "description": "Curvatura natural sin extensiones, incluye tinte"
             },
             {
-              'name': 'Tinte de Pestañas',
-              'price': null,
-              'duration': 30,
-              'description': 'Color intenso para pestañas mas definidas'
+              "name": "Tinte de Pestañas",
+              "price": null,
+              "duration": 30,
+              "description": "Color intenso para pestañas mas definidas"
             }
           ]
         },
         {
-          'key': 'cejas',
-          'title': 'Cejas',
-          'description': 'Diseño y cuidado profesional para enmarcar tu mirada',
-          'defaultServices': [
+          "key": "cejas",
+          "title": "Cejas",
+          "description": "Diseño y cuidado profesional para enmarcar tu mirada",
+          "defaultServices": [
             {
-              'name': 'Diseño de Cejas',
-              'price': null,
-              'duration': 30,
-              'description': 'Diseño personalizado segun la forma de tu rostro'
+              "name": "Diseño de Cejas",
+              "price": null,
+              "duration": 30,
+              "description": "Diseño personalizado segun la forma de tu rostro"
             },
             {
-              'name': 'Depilacion con Hilo',
-              'price': null,
-              'duration': 20,
-              'description': 'Tecnica precisa y delicada para una forma perfecta'
+              "name": "Depilacion con Hilo",
+              "price": null,
+              "duration": 20,
+              "description": "Tecnica precisa y delicada para una forma perfecta"
             },
             {
-              'name': 'Microblading',
-              'priceFrom': null,
-              'duration': 120,
-              'description': 'Micropigmentacion pelo a pelo para cejas naturales y definidas'
+              "name": "Microblading",
+              "priceFrom": null,
+              "duration": 120,
+              "description": "Micropigmentacion pelo a pelo para cejas naturales y definidas"
             },
             {
-              'name': 'Laminado de Cejas',
-              'price': null,
-              'duration': 45,
-              'description': 'Cejas peinadas y fijadas con efecto laminado'
+              "name": "Laminado de Cejas",
+              "price": null,
+              "duration": 45,
+              "description": "Cejas peinadas y fijadas con efecto laminado"
             },
             {
-              'name': 'Tinte de Cejas',
-              'price': null,
-              'duration': 20,
-              'description': 'Color y definicion para cejas mas expresivas'
+              "name": "Tinte de Cejas",
+              "price": null,
+              "duration": 20,
+              "description": "Color y definicion para cejas mas expresivas"
             }
           ]
         }
       ]
     },
-    'galleryPage': {
-      'title': 'Nuestro Trabajo',
-      'subtitle': 'Transformaciones que hablan por si solas',
-      'categories': [
-        'Pestañas',
-        'Cejas',
-        'Microblading'
+    "galleryPage": {
+      "title": "Nuestro Trabajo",
+      "subtitle": "Transformaciones que hablan por si solas",
+      "categories": [
+        "Pestañas",
+        "Cejas",
+        "Microblading"
       ],
-      'ctaText': 'Ver Galeria Completa'
+      "ctaText": "Ver Galeria Completa"
     },
-    'contactPage': {
-      'title': 'Contacto',
-      'locationTitle': 'Visitanos en {{neighborhood}}',
-      'formFields': [
-        'name',
-        'phone',
-        'service',
-        'preferredDate',
-        'message'
+    "contactPage": {
+      "title": "Contacto",
+      "locationTitle": "Visitanos en {{neighborhood}}",
+      "formFields": [
+        "name",
+        "phone",
+        "service",
+        "preferredDate",
+        "message"
       ],
-      'formSubmitText': 'Enviar Consulta'
+      "formSubmitText": "Enviar Consulta"
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Cuanto duran las extensiones de pestañas?',
-        'a': 'Las extensiones duran entre 3 y 4 semanas. Recomendamos retoques cada 2-3 semanas para mantenerlas perfectas.'
+        "q": "Cuanto duran las extensiones de pestañas?",
+        "a": "Las extensiones duran entre 3 y 4 semanas. Recomendamos retoques cada 2-3 semanas para mantenerlas perfectas."
       },
       {
-        'q': 'Que cuidados debo tener despues de colocarme extensiones?',
-        'a': 'Evita mojarlas las primeras 24 horas, no uses productos oleosos cerca de los ojos y peinadas con el cepillito todos los dias.'
+        "q": "Que cuidados debo tener despues de colocarme extensiones?",
+        "a": "Evita mojarlas las primeras 24 horas, no uses productos oleosos cerca de los ojos y peinadas con el cepillito todos los dias."
       },
       {
-        'q': 'Cuanto tiempo tarda en sanar el microblading?',
-        'a': 'El proceso de cicatrizacion completo toma entre 4 y 6 semanas. Los primeros dias el color se vera mas intenso y luego se suavizara.'
+        "q": "Cuanto tiempo tarda en sanar el microblading?",
+        "a": "El proceso de cicatrizacion completo toma entre 4 y 6 semanas. Los primeros dias el color se vera mas intenso y luego se suavizara."
       },
       {
-        'q': 'Las extensiones dañan mis pestañas naturales?',
-        'a': 'No, cuando son aplicadas correctamente por una profesional, las extensiones no dañan las pestañas naturales.'
+        "q": "Las extensiones dañan mis pestañas naturales?",
+        "a": "No, cuando son aplicadas correctamente por una profesional, las extensiones no dañan las pestañas naturales."
       },
       {
-        'q': 'Cada cuanto debo hacer retoque de microblading?',
-        'a': 'Se recomienda un retoque entre 4 y 6 semanas despues de la primera sesion, y luego un mantenimiento anual.'
+        "q": "Cada cuanto debo hacer retoque de microblading?",
+        "a": "Se recomienda un retoque entre 4 y 6 semanas despues de la primera sesion, y luego un mantenimiento anual."
       }
     ],
-    'ctaBanner': {
-      'title': 'Lista para realzar tu mirada?',
-      'buttonText': 'Reservar Ahora'
+    "ctaBanner": {
+      "title": "Lista para realzar tu mirada?",
+      "buttonText": "Reservar Ahora"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Servicios',
-        'Galeria',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Servicios",
+        "Galeria",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una cita en {{businessName}}',
-      'serviceMessage': 'Hola! Quisiera reservar {{serviceName}} en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
+      "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
     },
-    'seo': {
-      'altTextTemplates': {
-        'service': '{{serviceName}} en {{businessName}}, {{city}}',
-        'portfolio': 'Resultado de {{serviceName}} por {{businessName}}',
-        'team': '{{memberName}} - {{memberTitle}} en {{businessName}}'
+    "seo": {
+      "altTextTemplates": {
+        "service": "{{serviceName}} en {{businessName}}, {{city}}",
+        "portfolio": "Resultado de {{serviceName}} por {{businessName}}",
+        "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
       }
     }
   },
   'depilacion': {
-    'id': 'depilacion',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Depilacion Laser Definitiva',
-      'subheadline': 'Tecnologia de ultima generacion, resultados permanentes',
-      'ctaPrimary': 'Consulta Sin Cargo',
-      'ctaSecondary': 'Ver Tratamientos'
+    "id": "depilacion",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Depilacion Laser Definitiva",
+      "subheadline": "Tecnologia de ultima generacion, resultados permanentes",
+      "ctaPrimary": "Consulta Sin Cargo",
+      "ctaSecondary": "Ver Tratamientos"
     },
-    'treatmentsPage': {
-      'title': 'Tratamientos y Precios',
-      'areas': [
+    "treatmentsPage": {
+      "title": "Tratamientos y Precios",
+      "areas": [
         {
-          'name': 'Bozo',
-          'pricePerSession': null
+          "name": "Bozo",
+          "pricePerSession": null
         },
         {
-          'name': 'Axilas',
-          'pricePerSession': null
+          "name": "Axilas",
+          "pricePerSession": null
         },
         {
-          'name': 'Ingles',
-          'pricePerSession': null
+          "name": "Ingles",
+          "pricePerSession": null
         },
         {
-          'name': 'Ingles Completas',
-          'pricePerSession': null
+          "name": "Ingles Completas",
+          "pricePerSession": null
         },
         {
-          'name': 'Piernas Completas',
-          'pricePerSession': null
+          "name": "Piernas Completas",
+          "pricePerSession": null
         },
         {
-          'name': 'Cuerpo Completo',
-          'pricePerSession': null
+          "name": "Cuerpo Completo",
+          "pricePerSession": null
         }
       ],
-      'packages': [
+      "packages": [
         {
-          'sessions': 6,
-          'discount': 20,
-          'label': '6 sesiones - 20% descuento'
+          "sessions": 6,
+          "discount": 20,
+          "label": "6 sesiones - 20% descuento"
         },
         {
-          'sessions': 8,
-          'discount': 30,
-          'label': '8 sesiones - 30% descuento'
+          "sessions": 8,
+          "discount": 30,
+          "label": "8 sesiones - 30% descuento"
         },
         {
-          'sessions': 10,
-          'discount': 40,
-          'label': '10 sesiones - 40% descuento'
+          "sessions": 10,
+          "discount": 40,
+          "label": "10 sesiones - 40% descuento"
         }
       ],
-      'waxingSection': {
-        'title': 'Depilacion con Cera',
-        'note': 'Cera tibia profesional. Depilacion masculina disponible.'
+      "waxingSection": {
+        "title": "Depilacion con Cera",
+        "note": "Cera tibia profesional. Depilacion masculina disponible."
       }
     },
-    'technologyPage': {
-      'title': 'Nuestra Tecnologia',
-      'highlights': [
+    "technologyPage": {
+      "title": "Nuestra Tecnologia",
+      "highlights": [
         {
-          'icon': 'shield',
-          'label': 'FDA Approved',
-          'description': 'Equipo certificado internacionalmente'
+          "icon": "shield",
+          "label": "FDA Approved",
+          "description": "Equipo certificado internacionalmente"
         },
         {
-          'icon': 'dna',
-          'label': 'Alexandrite + Nd:YAG',
-          'description': 'Doble longitud de onda'
+          "icon": "dna",
+          "label": "Alexandrite + Nd:YAG",
+          "description": "Doble longitud de onda"
         },
         {
-          'icon': 'zap',
-          'label': 'Rapido y casi indoloro',
-          'description': 'Sesiones cortas y comodas'
+          "icon": "zap",
+          "label": "Rapido y casi indoloro",
+          "description": "Sesiones cortas y comodas"
         },
         {
-          'icon': 'leaf',
-          'label': 'Para todo tipo de piel',
-          'description': 'Tecnologia adaptativa'
+          "icon": "leaf",
+          "label": "Para todo tipo de piel",
+          "description": "Tecnologia adaptativa"
         }
       ],
-      'howItWorks': {
-        'title': 'Como funciona?',
-        'facts': [
-          'Sesiones: 6-8 para resultados optimos',
-          'Intervalo: 4-6 semanas entre sesiones',
-          'Compatible: todo tipo de piel',
-          'Resultados: hasta 90% reduccion permanente'
+      "howItWorks": {
+        "title": "Como funciona?",
+        "facts": [
+          "Sesiones: 6-8 para resultados optimos",
+          "Intervalo: 4-6 semanas entre sesiones",
+          "Compatible: todo tipo de piel",
+          "Resultados: hasta 90% reduccion permanente"
         ]
       }
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Cuantas sesiones necesito?',
-        'a': 'En promedio 6-8 sesiones para resultados optimos, dependiendo de la zona y tipo de piel.'
+        "q": "Cuantas sesiones necesito?",
+        "a": "En promedio 6-8 sesiones para resultados optimos, dependiendo de la zona y tipo de piel."
       },
       {
-        'q': 'Es doloroso?',
-        'a': 'Con nuestra tecnologia, la sensacion es minima. La mayoria de los pacientes lo describen como un pequeno pellizco.'
+        "q": "Es doloroso?",
+        "a": "Con nuestra tecnologia, la sensacion es minima. La mayoria de los pacientes lo describen como un pequeno pellizco."
       },
       {
-        'q': 'Funciona en piel oscura?',
-        'a': 'Si, nuestra tecnologia Nd:YAG es segura y efectiva para todos los tipos de piel.'
+        "q": "Funciona en piel oscura?",
+        "a": "Si, nuestra tecnologia Nd:YAG es segura y efectiva para todos los tipos de piel."
       }
     ],
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Inicio',
-        'Tratamientos',
-        'Tecnologia',
-        'Resultados',
-        'Contacto'
+      "quickLinks": [
+        "Inicio",
+        "Tratamientos",
+        "Tecnologia",
+        "Resultados",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}}. Todos los derechos reservados.'
+      "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera agendar una consulta gratis de depilacion laser en {{businessName}}'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera agendar una consulta gratis de depilacion laser en {{businessName}}"
     }
   },
   'meal_prep': {
-    'id': 'meal_prep',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': 'Convertimos el caos del mercado en comida lista',
-      'subheadline': 'Compras, prep y freezer meals puerta a puerta en {{city}}. Whole-animal, mayorista, sin conservantes.',
-      'ctaPrimary': 'Calcula tu ahorro',
-      'ctaSecondary': 'Pedir por WhatsApp'
+    "id": "meal_prep",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "Convertimos el caos del mercado en comida lista",
+      "subheadline": "Compras, prep y freezer meals puerta a puerta en {{city}}. Whole-animal, mayorista, sin conservantes.",
+      "ctaPrimary": "Calcula tu ahorro",
+      "ctaSecondary": "Pedir por WhatsApp"
     },
-    'servicesPage': {
-      'title': 'Nuestros Niveles de Servicio',
-      'subtitle': 'Elegi lo que se adapta a tu semana. Precios referenciales, ajustables segun tu hogar.',
-      'categories': [
+    "servicesPage": {
+      "title": "Nuestros Niveles de Servicio",
+      "subtitle": "Elegi lo que se adapta a tu semana. Precios referenciales, ajustables segun tu hogar.",
+      "categories": [
         {
-          'key': 'compras',
-          'title': 'Nivel 1 - Compra por Lista (Raw)',
-          'description': 'Vos nos mandas la lista, nosotros traemos los ingredientes enteros desde Abasto y mercado. Vos cocinas.',
-          'defaultServices': [
+          "key": "compras",
+          "title": "Nivel 1 - Compra por Lista (Raw)",
+          "description": "Vos nos mandas la lista, nosotros traemos los ingredientes enteros desde Abasto y mercado. Vos cocinas.",
+          "defaultServices": [
             {
-              'name': 'Basico',
-              'price': '250.000 Gs/semana',
-              'duration': 120,
-              'description': 'Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido.'
+              "name": "Basico",
+              "price": "250.000 Gs/semana",
+              "duration": 120,
+              "description": "Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido."
             },
             {
-              'name': 'Completo',
-              'price': '400.000 Gs/semana',
-              'duration': 180,
-              'description': 'Lista completa + Abasto + mercado + almacen. Delivery y organizado en cocina.'
+              "name": "Completo",
+              "price": "400.000 Gs/semana",
+              "duration": 180,
+              "description": "Lista completa + Abasto + mercado + almacen. Delivery y organizado en cocina."
             }
           ]
         },
         {
-          'key': 'prep',
-          'title': 'Nivel 2 - Mise-en-Place Semanal (mas elegido)',
-          'description': 'Compramos, lavamos, porcionamos y organizamos tu heladera y freezer. Listo para cocinar en minutos.',
-          'defaultServices': [
+          "key": "prep",
+          "title": "Nivel 2 - Mise-en-Place Semanal (mas elegido)",
+          "description": "Compramos, lavamos, porcionamos y organizamos tu heladera y freezer. Listo para cocinar en minutos.",
+          "defaultServices": [
             {
-              'name': 'Individual (1 persona)',
-              'price': '400.000 Gs/semana',
-              'duration': 240,
-              'description': 'Prep basico. Proteina + carbos + vegetales porcionados y sellados al vacio.'
+              "name": "Individual (1 persona)",
+              "price": "400.000 Gs/semana",
+              "duration": 240,
+              "description": "Prep basico. Proteina + carbos + vegetales porcionados y sellados al vacio."
             },
             {
-              'name': 'Pareja (2 personas)',
-              'price': '650.000 Gs/semana',
-              'duration': 300,
-              'description': 'Prep completo para 2. Organizacion de heladera y freezer.'
+              "name": "Pareja (2 personas)",
+              "price": "650.000 Gs/semana",
+              "duration": 300,
+              "description": "Prep completo para 2. Organizacion de heladera y freezer."
             },
             {
-              'name': 'Familia (3-4 personas)',
-              'price': '900.000 Gs/semana',
-              'duration': 360,
-              'description': 'Prep familiar. Variedad, porciones y sustituciones incluidas.'
+              "name": "Familia (3-4 personas)",
+              "price": "900.000 Gs/semana",
+              "duration": 360,
+              "description": "Prep familiar. Variedad, porciones y sustituciones incluidas."
             }
           ]
         },
         {
-          'key': 'cocinado',
-          'title': 'Nivel 3 - Comidas Listas (proximamente)',
-          'description': 'Comidas completas selladas al vacio, listas para recalentar. Requiere habilitacion INAN en curso.',
-          'defaultServices': [
+          "key": "cocinado",
+          "title": "Nivel 3 - Comidas Listas (proximamente)",
+          "description": "Comidas completas selladas al vacio, listas para recalentar. Requiere habilitacion INAN en curso.",
+          "defaultServices": [
             {
-              'name': '10 comidas/semana',
-              'priceFrom': '1.200.000 Gs/semana',
-              'duration': 480,
-              'description': '5 almuerzos + 5 cenas para 1 persona. Variedad rotativa.'
+              "name": "10 comidas/semana",
+              "priceFrom": "1.200.000 Gs/semana",
+              "duration": 480,
+              "description": "5 almuerzos + 5 cenas para 1 persona. Variedad rotativa."
             },
             {
-              'name': '15 comidas/semana',
-              'priceFrom': '1.700.000 Gs/semana',
-              'duration': 540,
-              'description': 'Pack familiar. 3 comidas/dia durante 5 dias laborables.'
+              "name": "15 comidas/semana",
+              "priceFrom": "1.700.000 Gs/semana",
+              "duration": 540,
+              "description": "Pack familiar. 3 comidas/dia durante 5 dias laborables."
             }
           ]
         },
         {
-          'key': 'add-on',
-          'title': 'Add-ons opcionales',
-          'description': 'Sumables a cualquier nivel.',
-          'defaultServices': [
+          "key": "add-on",
+          "title": "Add-ons opcionales",
+          "description": "Sumables a cualquier nivel.",
+          "defaultServices": [
             {
-              'name': 'Desayunos',
-              'price': '+400.000 Gs/mes',
-              'description': 'Desayunos listos para la semana.'
+              "name": "Desayunos",
+              "price": "+400.000 Gs/mes",
+              "description": "Desayunos listos para la semana."
             },
             {
-              'name': 'Postres',
-              'price': '+200.000 Gs/mes',
-              'description': 'Postres caseros sumados al pack.'
+              "name": "Postres",
+              "price": "+200.000 Gs/mes",
+              "description": "Postres caseros sumados al pack."
             },
             {
-              'name': 'Bebidas / snacks',
-              'price': '+300.000 Gs/mes',
-              'description': 'Bebidas y snacks saludables.'
+              "name": "Bebidas / snacks",
+              "price": "+300.000 Gs/mes",
+              "description": "Bebidas y snacks saludables."
             }
           ]
         }
       ]
     },
-    'teamPage': {
-      'title': 'Quien esta detras',
-      'memberTemplate': {
-        'buttonText': 'Escribile a {{name}}'
+    "teamPage": {
+      "title": "Quien esta detras",
+      "memberTemplate": {
+        "buttonText": "Escribile a {{name}}"
       }
     },
-    'galleryPage': {
-      'title': 'Cortes y calidad',
-      'subtitle': 'Whole-animal, mayorista, lo mejor del mercado.',
-      'categories': [
-        'Cortes de Carne',
-        'Mise en Place',
-        'Freezer Meals',
-        'Mercado'
+    "galleryPage": {
+      "title": "Cortes y calidad",
+      "subtitle": "Whole-animal, mayorista, lo mejor del mercado.",
+      "categories": [
+        "Cortes de Carne",
+        "Mise en Place",
+        "Freezer Meals",
+        "Mercado"
       ],
-      'ctaText': 'Ver mas'
+      "ctaText": "Ver mas"
     },
-    'contactPage': {
-      'title': 'Pedinos tu propuesta',
-      'locationTitle': 'Cobertura en {{city}}',
-      'formFields': [
-        'name',
-        'phone',
-        'plan',
-        'message'
+    "contactPage": {
+      "title": "Pedinos tu propuesta",
+      "locationTitle": "Cobertura en {{city}}",
+      "formFields": [
+        "name",
+        "phone",
+        "plan",
+        "message"
       ],
-      'formSubmitText': 'Enviar Consulta'
+      "formSubmitText": "Enviar Consulta"
     },
-    'faq': [
+    "faq": [
       {
-        'q': 'Que incluye el servicio?',
-        'a': 'Incluye: compras en Abasto + mercado, prep (lavado, cortado, porcionado), sellado al vacio, 2 entregas por mes puerta a puerta con cadena de frio, sustituciones hasta 3 menus por mes, precio fijo 6 meses y pausa de vacaciones. No incluye desayunos, bebidas ni postres (disponibles como add-on).'
+        "q": "Que incluye el servicio?",
+        "a": "Incluye: compras en Abasto + mercado, prep (lavado, cortado, porcionado), sellado al vacio, 2 entregas por mes puerta a puerta con cadena de frio, sustituciones hasta 3 menus por mes, precio fijo 6 meses y pausa de vacaciones. No incluye desayunos, bebidas ni postres (disponibles como add-on)."
       },
       {
-        'q': 'Como son las entregas?',
-        'a': 'Compramos martes y jueves. Entregamos el mismo dia, puerta a puerta, con cadena de frio. Coordinamos horario por WhatsApp.'
+        "q": "Como son las entregas?",
+        "a": "Compramos martes y jueves. Entregamos el mismo dia, puerta a puerta, con cadena de frio. Coordinamos horario por WhatsApp."
       },
       {
-        'q': 'Puedo pausar el servicio?',
-        'a': 'Si. Tenes 1 mes por ano de pausa sin costo (vacaciones, viajes, etc). Avisanos con 48 hrs.'
+        "q": "Puedo pausar el servicio?",
+        "a": "Si. Tenes 1 mes por ano de pausa sin costo (vacaciones, viajes, etc). Avisanos con 48 hrs."
       },
       {
-        'q': 'Que pasa si no me gusta una comida?',
-        'a': 'Garantia de satisfaccion: si algo sale mal, lo reemplazamos sin cargo en la proxima entrega.'
+        "q": "Que pasa si no me gusta una comida?",
+        "a": "Garantia de satisfaccion: si algo sale mal, lo reemplazamos sin cargo en la proxima entrega."
       },
       {
-        'q': 'En que casos NO me conviene?',
-        'a': 'Honestidad total: si te encanta cocinar, si tu gasto actual es menor a Gs. 2M/mes para 3 personas, o si no tenes freezer. Mejor no te suscribas.'
+        "q": "En que casos NO me conviene?",
+        "a": "Honestidad total: si te encanta cocinar, si tu gasto actual es menor a Gs. 2M/mes para 3 personas, o si no tenes freezer. Mejor no te suscribas."
       },
       {
-        'q': 'Como pago?',
-        'a': 'Transferencia bancaria o efectivo. Sin compromiso en el primer mes. Precio fijo 6 meses al suscribirte.'
+        "q": "Como pago?",
+        "a": "Transferencia bancaria o efectivo. Sin compromiso en el primer mes. Precio fijo 6 meses al suscribirte."
       },
       {
-        'q': 'Atienden fuera de San Lorenzo?',
-        'a': 'Por ahora solo San Lorenzo (ciudad completa). Proximamente Asuncion centro.'
+        "q": "Atienden fuera de San Lorenzo?",
+        "a": "Por ahora solo San Lorenzo (ciudad completa). Proximamente Asuncion centro."
       },
       {
-        'q': 'Tienen habilitacion INAN?',
-        'a': 'Nivel 1 y Nivel 2 no requieren habilitacion especial (solo compra y prep). Nivel 3 (comidas cocidas listas) esta en proceso de habilitacion INAN.'
+        "q": "Tienen habilitacion INAN?",
+        "a": "Nivel 1 y Nivel 2 no requieren habilitacion especial (solo compra y prep). Nivel 3 (comidas cocidas listas) esta en proceso de habilitacion INAN."
       }
     ],
-    'ctaBanner': {
-      'title': 'Pedi tu propuesta en 5 min por WhatsApp',
-      'buttonText': 'Escribir ahora'
+    "ctaBanner": {
+      "title": "Pedi tu propuesta en 5 min por WhatsApp",
+      "buttonText": "Escribir ahora"
     },
-    'footer': {
-      'columns': [
-        'about',
-        'quickLinks',
-        'contact',
-        'social'
+    "footer": {
+      "columns": [
+        "about",
+        "quickLinks",
+        "contact",
+        "social"
       ],
-      'quickLinks': [
-        'Servicios',
-        'Calculadora',
-        'Galeria',
-        'FAQ',
-        'Contacto'
+      "quickLinks": [
+        "Servicios",
+        "Calculadora",
+        "Galeria",
+        "FAQ",
+        "Contacto"
       ],
-      'copyright': '{{year}} {{businessName}} - San Lorenzo, Paraguay.'
+      "copyright": "{{year}} {{businessName}} - San Lorenzo, Paraguay."
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Vi el sitio de {{businessName}} y quiero saber mas sobre Nivel 2 (mise-en-place).',
-      'serviceMessage': 'Hola! Me interesa {{serviceName}} de {{businessName}}. Podemos conversar?'
+    "whatsapp": {
+      "defaultMessage": "Hola! Vi el sitio de {{businessName}} y quiero saber mas sobre Nivel 2 (mise-en-place).",
+      "serviceMessage": "Hola! Me interesa {{serviceName}} de {{businessName}}. Podemos conversar?"
     },
-    'savingsCalculator': {
-      'title': 'Calcula tu ahorro real',
-      'subtitle': 'Numeros honestos. Si no te conviene, te lo decimos.',
-      'inputs': {
-        'groceriesLabel': 'Super + carniceria + feria (mes)',
-        'deliveryLabel': 'Delivery + comer afuera (mes)',
-        'wasteLabel': 'Comida tirada + compras impulsivas (mes)',
-        'utilitiesLabel': 'Gas/luz extra cocinando (mes)',
-        'householdLabel': 'Personas en el hogar',
-        'hourlyValueLabel': 'Valor de tu hora en Gs.',
-        'hoursPerMonthLabel': 'Horas por mes cocinando + comprando',
-        'tierLabel': 'Nivel a comparar'
+    "savingsCalculator": {
+      "title": "Calcula tu ahorro real",
+      "subtitle": "Numeros honestos. Si no te conviene, te lo decimos.",
+      "inputs": {
+        "groceriesLabel": "Super + carniceria + feria (mes)",
+        "deliveryLabel": "Delivery + comer afuera (mes)",
+        "wasteLabel": "Comida tirada + compras impulsivas (mes)",
+        "utilitiesLabel": "Gas/luz extra cocinando (mes)",
+        "householdLabel": "Personas en el hogar",
+        "hourlyValueLabel": "Valor de tu hora en Gs.",
+        "hoursPerMonthLabel": "Horas por mes cocinando + comprando",
+        "tierLabel": "Nivel a comparar"
       },
-      'tierOptions': [
+      "tierOptions": [
         {
-          'key': 'nivel1_completo',
-          'label': 'Nivel 1 Completo (1.600.000 Gs/mes)',
-          'monthlyGs': 1600000
+          "key": "nivel1_completo",
+          "label": "Nivel 1 Completo (1.600.000 Gs/mes)",
+          "monthlyGs": 1600000
         },
         {
-          'key': 'nivel2_individual',
-          'label': 'Nivel 2 Individual (1.600.000 Gs/mes)',
-          'monthlyGs': 1600000
+          "key": "nivel2_individual",
+          "label": "Nivel 2 Individual (1.600.000 Gs/mes)",
+          "monthlyGs": 1600000
         },
         {
-          'key': 'nivel2_pareja',
-          'label': 'Nivel 2 Pareja (2.600.000 Gs/mes)',
-          'monthlyGs': 2600000
+          "key": "nivel2_pareja",
+          "label": "Nivel 2 Pareja (2.600.000 Gs/mes)",
+          "monthlyGs": 2600000
         },
         {
-          'key': 'nivel2_familia',
-          'label': 'Nivel 2 Familia (3.600.000 Gs/mes)',
-          'monthlyGs': 3600000
+          "key": "nivel2_familia",
+          "label": "Nivel 2 Familia (3.600.000 Gs/mes)",
+          "monthlyGs": 3600000
         }
       ],
-      'outputs': {
-        'cashTotalLabel': 'Plata real hoy',
-        'timeValueLabel': 'Valor de tu tiempo hoy',
-        'totalTodayLabel': 'Costo TOTAL hoy',
-        'ourServiceLabel': 'Nuestro servicio (mes)',
-        'savingsLabel': 'Ahorro mensual estimado',
-        'hoursRecoveredLabel': 'Horas recuperadas por mes',
-        'negativeCopy': 'Hoy ya sos muy eficiente. Probablemente no te conviene - pero si queres probar 1 mes sin compromiso, escribinos igual.',
-        'positiveCopy': 'Si tu ahorro es grande, tiene sentido probar 1 mes sin compromiso.',
-        'ctaText': 'Seguir por WhatsApp con mis numeros'
+      "outputs": {
+        "cashTotalLabel": "Plata real hoy",
+        "timeValueLabel": "Valor de tu tiempo hoy",
+        "totalTodayLabel": "Costo TOTAL hoy",
+        "ourServiceLabel": "Nuestro servicio (mes)",
+        "savingsLabel": "Ahorro mensual estimado",
+        "hoursRecoveredLabel": "Horas recuperadas por mes",
+        "negativeCopy": "Hoy ya sos muy eficiente. Probablemente no te conviene - pero si queres probar 1 mes sin compromiso, escribinos igual.",
+        "positiveCopy": "Si tu ahorro es grande, tiene sentido probar 1 mes sin compromiso.",
+        "ctaText": "Seguir por WhatsApp con mis numeros"
       },
-      'disclaimer': 'Estimacion referencial. Precios finales se ajustan segun tu hogar y nivel de servicio.'
+      "disclaimer": "Estimacion referencial. Precios finales se ajustan segun tu hogar y nivel de servicio."
     },
-    'howItWorks': {
-      'title': 'Como funciona',
-      'steps': [
+    "howItWorks": {
+      "title": "Como funciona",
+      "steps": [
         {
-          'num': '01',
-          'title': 'Conversamos',
-          'desc': '10 min por WhatsApp. Armamos tu plan segun presupuesto, personas y dias que queres recibir.'
+          "num": "01",
+          "title": "Conversamos",
+          "desc": "10 min por WhatsApp. Armamos tu plan segun presupuesto, personas y dias que queres recibir."
         },
         {
-          'num': '02',
-          'title': 'Planeamos tu semana',
-          'desc': 'Menu base, sustituciones, proveedores, horarios de compra y entrega.'
+          "num": "02",
+          "title": "Planeamos tu semana",
+          "desc": "Menu base, sustituciones, proveedores, horarios de compra y entrega."
         },
         {
-          'num': '03',
-          'title': 'Compramos y prepeamos',
-          'desc': 'Martes y jueves en Abasto y mercado. Prep en cocina certificada. Sellado al vacio.'
+          "num": "03",
+          "title": "Compramos y prepeamos",
+          "desc": "Martes y jueves en Abasto y mercado. Prep en cocina certificada. Sellado al vacio."
         },
         {
-          'num': '04',
-          'title': 'Entregamos',
-          'desc': 'Puerta a puerta, con cadena de frio. Organizamos tu heladera y freezer si lo pedis.'
+          "num": "04",
+          "title": "Entregamos",
+          "desc": "Puerta a puerta, con cadena de frio. Organizamos tu heladera y freezer si lo pedis."
         }
       ]
     },
-    'qualitySourcing': {
-      'title': 'Como compramos',
-      'pillars': [
+    "qualitySourcing": {
+      "title": "Como compramos",
+      "pillars": [
         {
-          'title': 'Whole-animal',
-          'desc': 'Animales enteros, cortados y porcionados por nosotros. Mejor calidad, mejor precio por kilo.'
+          "title": "Whole-animal",
+          "desc": "Animales enteros, cortados y porcionados por nosotros. Mejor calidad, mejor precio por kilo."
         },
         {
-          'title': 'Mayorista Abasto',
-          'desc': 'Proveedores directos, sin intermediarios. Precios de mercado mayorista trasladados al cliente.'
+          "title": "Mayorista Abasto",
+          "desc": "Proveedores directos, sin intermediarios. Precios de mercado mayorista trasladados al cliente."
         },
         {
-          'title': 'Estacional',
-          'desc': 'Respetamos el calendario de Paraguay. Compramos lo que esta en temporada, mas barato y mas rico.'
+          "title": "Estacional",
+          "desc": "Respetamos el calendario de Paraguay. Compramos lo que esta en temporada, mas barato y mas rico."
         },
         {
-          'title': 'Sin conservantes',
-          'desc': 'Congelamos al instante despues del prep. Nunca usamos aditivos ni conservantes.'
+          "title": "Sin conservantes",
+          "desc": "Congelamos al instante despues del prep. Nunca usamos aditivos ni conservantes."
         }
       ]
     },
-    'seo': {
-      'altTextTemplates': {
-        'service': '{{serviceName}} en {{businessName}}, {{city}}',
-        'portfolio': '{{serviceName}} de {{businessName}} - Paraguay',
-        'team': '{{memberName}} - {{memberTitle}} en {{businessName}}'
+    "seo": {
+      "altTextTemplates": {
+        "service": "{{serviceName}} en {{businessName}}, {{city}}",
+        "portfolio": "{{serviceName}} de {{businessName}} - Paraguay",
+        "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
       }
     }
   },
   'relocation': {
-    'name': 'Relocation Services',
-    'type': 'relocation',
-    'hero': {
-      'title': 'Tu nuevo comienzo en Paraguay, simple y tranquilo.',
-      'subtitle': 'Residencia, sociedad, cuenta bancaria y compra de tierras — todo coordinado por nuestro equipo, ejecutado por profesionales de confianza.',
-      'cta': 'Agendar consulta gratuita'
+    "name": "Relocation Services",
+    "type": "relocation",
+    "hero": {
+      "title": "Tu nuevo comienzo en Paraguay, simple y tranquilo.",
+      "subtitle": "Residencia, sociedad, cuenta bancaria y compra de tierras — todo coordinado por nuestro equipo, ejecutado por profesionales de confianza.",
+      "cta": "Agendar consulta gratuita"
     },
-    'features': {
-      'title': 'Por qué elegirnos',
-      'items': [
+    "features": {
+      "title": "Por qué elegirnos",
+      "items": [
         {
-          'title': 'Un solo programa',
-          'description': 'No coordine entre múltiples proveedores. Todo está integrado.',
-          'icon': '✓'
+          "title": "Un solo programa",
+          "description": "No coordine entre múltiples proveedores. Todo está integrado.",
+          "icon": "✓"
         },
         {
-          'title': 'Un solo viaje',
-          'description': 'La tramitación presencial se completa en una jornada.',
-          'icon': '✓'
+          "title": "Un solo viaje",
+          "description": "La tramitación presencial se completa en una jornada.",
+          "icon": "✓"
         },
         {
-          'title': 'Precio transparente',
-          'description': 'Sin cargos ocultos. Todo incluido.',
-          'icon': '✓'
+          "title": "Precio transparente",
+          "description": "Sin cargos ocultos. Todo incluido.",
+          "icon": "✓"
         },
         {
-          'title': 'Equipo profesional',
-          'description': 'Abogados, contadores y asesores con experiencia real.',
-          'icon': '✓'
+          "title": "Equipo profesional",
+          "description": "Abogados, contadores y asesores con experiencia real.",
+          "icon": "✓"
         },
         {
-          'title': 'Acceso bancario',
-          'description': 'Resolvemos el principal obstáculo para extranjeros.',
-          'icon': '✓'
+          "title": "Acceso bancario",
+          "description": "Resolvemos el principal obstáculo para extranjeros.",
+          "icon": "✓"
         },
         {
-          'title': 'Acompañamiento integral',
-          'description': 'Le guidamos en cada paso del proceso.',
-          'icon': '✓'
+          "title": "Acompañamiento integral",
+          "description": "Le guidamos en cada paso del proceso.",
+          "icon": "✓"
         }
       ]
     },
-    'packages': {
-      'title': 'Nuestros Paquetes',
-      'subtitle': 'Elija el programa que mejor se adapte a sus necesidades',
-      'cta': 'Solicitar información',
-      'items': [
+    "packages": {
+      "title": "Nuestros Paquetes",
+      "subtitle": "Elija el programa que mejor se adapte a sus necesidades",
+      "cta": "Solicitar información",
+      "items": [
         {
-          'name': 'Paraguay Base',
-          'description': 'Residencia + cédula. Entrada al sistema paraguayo.',
-          'price': 'Consultar',
-          'features': [
+          "name": "Paraguay Base",
+          "description": "Residencia + cédula. Entrada al sistema paraguayo.",
+          "price": "Consultar",
+          "features": [
             {
-              'text': 'Residencia Paraguaya',
-              'included': true
+              "text": "Residencia Paraguaya",
+              "included": true
             },
             {
-              'text': 'Cédula de Identidad',
-              'included': true
+              "text": "Cédula de Identidad",
+              "included": true
             },
             {
-              'text': 'Análisis documental previo',
-              'included': true
+              "text": "Análisis documental previo",
+              "included": true
             },
             {
-              'text': 'Jornada de tramitación',
-              'included': true
+              "text": "Jornada de tramitación",
+              "included": true
             },
             {
-              'text': 'Acompañamiento logístico',
-              'included': true
+              "text": "Acompañamiento logístico",
+              "included": true
             },
             {
-              'text': 'Constitución de sociedad',
-              'included': false
+              "text": "Constitución de sociedad",
+              "included": false
             },
             {
-              'text': 'Cuenta bancaria',
-              'included': false
+              "text": "Cuenta bancaria",
+              "included": false
             }
           ]
         },
         {
-          'name': 'Paraguay Business',
-          'description': 'Residencia + sociedad + cuenta bancaria.',
-          'price': 'Consultar',
-          'popular': true,
-          'features': [
+          "name": "Paraguay Business",
+          "description": "Residencia + sociedad + cuenta bancaria.",
+          "price": "Consultar",
+          "popular": true,
+          "features": [
             {
-              'text': 'Residencia Paraguaya',
-              'included': true
+              "text": "Residencia Paraguaya",
+              "included": true
             },
             {
-              'text': 'Cédula de Identidad',
-              'included': true
+              "text": "Cédula de Identidad",
+              "included": true
             },
             {
-              'text': 'Constitución de sociedad',
-              'included': true
+              "text": "Constitución de sociedad",
+              "included": true
             },
             {
-              'text': 'Cuenta bancaria',
-              'included': true
+              "text": "Cuenta bancaria",
+              "included": true
             },
             {
-              'text': 'Análisis documental',
-              'included': true
+              "text": "Análisis documental",
+              "included": true
             },
             {
-              'text': 'Jornada de tramitación',
-              'included': true
+              "text": "Jornada de tramitación",
+              "included": true
             },
             {
-              'text': 'Tour inmobiliario',
-              'included': true
+              "text": "Tour inmobiliario",
+              "included": true
             },
             {
-              'text': 'Asesoramiento integral',
-              'included': true
+              "text": "Asesoramiento integral",
+              "included": true
             }
           ]
         },
         {
-          'name': 'Paraguay Investor',
-          'description': 'Todo lo anterior + 12 meses de acompañamiento.',
-          'price': 'Consultar',
-          'features': [
+          "name": "Paraguay Investor",
+          "description": "Todo lo anterior + 12 meses de acompañamiento.",
+          "price": "Consultar",
+          "features": [
             {
-              'text': 'Todo en Paraguay Business',
-              'included': true
+              "text": "Todo en Paraguay Business",
+              "included": true
             },
             {
-              'text': 'Contabilidad 12 meses',
-              'included': true
+              "text": "Contabilidad 12 meses",
+              "included": true
             },
             {
-              'text': 'Asesoramiento jurídico 12 meses',
-              'included': true
+              "text": "Asesoramiento jurídico 12 meses",
+              "included": true
             },
             {
-              'text': 'Análisis de inversiones',
-              'included': true
+              "text": "Análisis de inversiones",
+              "included": true
             },
             {
-              'text': 'Acceso directo al equipo',
-              'included': true
+              "text": "Acceso directo al equipo",
+              "included": true
             },
             {
-              'text': 'Seguimiento personalizado',
-              'included': true
+              "text": "Seguimiento personalizado",
+              "included": true
             }
           ]
         },
         {
-          'name': 'Compra de Tierras',
-          'description': 'Asesoría para adquirir tierras en Paraguay.',
-          'price': 'Consultar',
-          'features': [
+          "name": "Compra de Tierras",
+          "description": "Asesoría para adquirir tierras en Paraguay.",
+          "price": "Consultar",
+          "features": [
             {
-              'text': 'Definición de perfil',
-              'included': true
+              "text": "Definición de perfil",
+              "included": true
             },
             {
-              'text': 'Búsqueda de propiedades',
-              'included': true
+              "text": "Búsqueda de propiedades",
+              "included": true
             },
             {
-              'text': 'Due diligence legal',
-              'included': true
+              "text": "Due diligence legal",
+              "included": true
             },
             {
-              'text': 'Due diligence técnica',
-              'included': true
+              "text": "Due diligence técnica",
+              "included": true
             },
             {
-              'text': 'Negociación',
-              'included': true
+              "text": "Negociación",
+              "included": true
             },
             {
-              'text': 'Coordinación de escribanía',
-              'included': true
+              "text": "Coordinación de escribanía",
+              "included": true
             },
             {
-              'text': 'Inscripción registral',
-              'included': true
+              "text": "Inscripción registral",
+              "included": true
             }
           ]
         }
       ]
     },
-    'process': {
-      'title': 'Un proceso claro, paso a paso',
-      'steps': [
+    "process": {
+      "title": "Un proceso claro, paso a paso",
+      "steps": [
         {
-          'number': 1,
-          'title': 'Consulta inicial',
-          'description': 'Conversamos sobre su situación, objetivos y necesidades. Le recomendamos el programa más adecuado.'
+          "number": 1,
+          "title": "Consulta inicial",
+          "description": "Conversamos sobre su situación, objetivos y necesidades. Le recomendamos el programa más adecuado."
         },
         {
-          'number': 2,
-          'title': 'Validación documental',
-          'description': 'Nuestro equipo legal revisa toda su documentación antes de su viaje. No viaja hasta que todo esté en orden.'
+          "number": 2,
+          "title": "Validación documental",
+          "description": "Nuestro equipo legal revisa toda su documentación antes de su viaje. No viaja hasta que todo esté en orden."
         },
         {
-          'number': 3,
-          'title': 'Jornada operativa',
-          'description': 'En un solo día, ejecutamos todos los trámites presenciales: residencia, identidad y coordinaciones.'
+          "number": 3,
+          "title": "Jornada operativa",
+          "description": "En un solo día, ejecutamos todos los trámites presenciales: residencia, identidad y coordinaciones."
         },
         {
-          'number': 4,
-          'title': 'Constitución y bancaria',
-          'description': 'Mientras usted regresa, constituimos su sociedad, activamos su RUC y coordinamos la cuenta bancaria.'
+          "number": 4,
+          "title": "Constitución y bancaria",
+          "description": "Mientras usted regresa, constituimos su sociedad, activamos su RUC y coordinamos la cuenta bancaria."
         },
         {
-          'number': 5,
-          'title': 'Entrega y seguimiento',
-          'description': 'Recibe sus documentos definitivos y cerramos el programa con orientación final.'
+          "number": 5,
+          "title": "Entrega y seguimiento",
+          "description": "Recibe sus documentos definitivos y cerramos el programa con orientación final."
         }
       ],
-      'cta': 'Iniciar mi proceso'
+      "cta": "Iniciar mi proceso"
     },
-    'about': {
-      'title': 'Un equipo, una misión: su establecimiento en Paraguay',
-      'description': 'Operamos con un equipo técnico de primer nivel: abogados, contadores, asesores financieros y escribanos con amplia experiencia en el mercado paraguayo.',
-      'team': [
+    "about": {
+      "title": "Un equipo, una misión: su establecimiento en Paraguay",
+      "description": "Operamos con un equipo técnico de primer nivel: abogados, contadores, asesores financieros y escribanos con amplia experiencia en el mercado paraguayo.",
+      "team": [
         {
-          'name': 'Dirección de Operaciones',
-          'role': 'Liderazgo operativo y coordinación del equipo técnico'
+          "name": "Dirección de Operaciones",
+          "role": "Liderazgo operativo y coordinación del equipo técnico"
         },
         {
-          'name': 'Dirección Comercial',
-          'role': 'Adquisición de clientes y puente cultural'
+          "name": "Dirección Comercial",
+          "role": "Adquisición de clientes y puente cultural"
         },
         {
-          'name': 'Equipo Legal',
-          'role': 'Expedientes migratorios y constitución societaria'
+          "name": "Equipo Legal",
+          "role": "Expedientes migratorios y constitución societaria"
         },
         {
-          'name': 'Equipo Contable',
-          'role': 'Gestión fiscal y cumplimiento tributario'
+          "name": "Equipo Contable",
+          "role": "Gestión fiscal y cumplimiento tributario"
         }
       ]
     },
-    'faq': {
-      'title': 'Preguntas frecuentes',
-      'items': [
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
         {
-          'question': '¿Cuánto tiempo toma todo el proceso?',
-          'answer': 'La tramitación presencial se realiza en un solo día. La emisión de residencia y cédula toma entre 45 y 60 días. La constitución de sociedad y apertura bancaria se completan en 2–4 semanas.'
+          "question": "¿Cuánto tiempo toma todo el proceso?",
+          "answer": "La tramitación presencial se realiza en un solo día. La emisión de residencia y cédula toma entre 45 y 60 días. La constitución de sociedad y apertura bancaria se completan en 2–4 semanas."
         },
         {
-          'question': '¿Cuántos viajes necesito hacer a Paraguay?',
-          'answer': 'Nuestro programa está diseñado para que un solo viaje sea suficiente.'
+          "question": "¿Cuántos viajes necesito hacer a Paraguay?",
+          "answer": "Nuestro programa está diseñado para que un solo viaje sea suficiente."
         },
         {
-          'question': '¿Qué incluye el precio?',
-          'answer': 'Honorarios profesionales, IVA, tasas oficiales, gastos administrativos, coordinación bancaria y asesoramiento integral. No hay cargos adicionales.'
+          "question": "¿Qué incluye el precio?",
+          "answer": "Honorarios profesionales, IVA, tasas oficiales, gastos administrativos, coordinación bancaria y asesoramiento integral. No hay cargos adicionales."
         },
         {
-          'question': '¿Qué no está incluido?',
-          'answer': 'Vuelos internacionales, alojamiento, gastos personales, traducciones juradas y apostillas en su país de origen.'
+          "question": "¿Qué no está incluido?",
+          "answer": "Vuelos internacionales, alojamiento, gastos personales, traducciones juradas y apostillas en su país de origen."
         },
         {
-          'question': '¿Necesito hablar español?',
-          'answer': 'No. Nuestro equipo le acompaña en neerlandés, inglés y alemán.'
+          "question": "¿Necesito hablar español?",
+          "answer": "No. Nuestro equipo le acompaña en neerlandés, inglés y alemán."
         },
         {
-          'question': '¿Puedo abrir una cuenta bancaria siendo extranjero?',
-          'answer': 'Sí. Preparamos su perfil financiero y coordinamos directamente con la entidad bancaria.'
+          "question": "¿Puedo abrir una cuenta bancaria siendo extranjero?",
+          "answer": "Sí. Preparamos su perfil financiero y coordinamos directamente con la entidad bancaria."
         }
       ]
     },
-    'contact': {
-      'title': 'Dé el primer paso',
-      'description': 'Agende una consulta gratuita de 30 minutos para evaluar su situación.',
-      'fields': [
-        'name',
-        'email',
-        'phone',
-        'country',
-        'program',
-        'message'
+    "contact": {
+      "title": "Dé el primer paso",
+      "description": "Agende una consulta gratuita de 30 minutos para evaluar su situación.",
+      "fields": [
+        "name",
+        "email",
+        "phone",
+        "country",
+        "program",
+        "message"
       ],
-      'cta': 'Enviar mensaje'
+      "cta": "Enviar mensaje"
     },
-    'seo': {
-      'keywords': {
-        'es': [
-          'residencia Paraguay europeos',
-          'empresa en Paraguay',
-          'invertir en Paraguay',
-          'relocalización Paraguay'
+    "seo": {
+      "keywords": {
+        "es": [
+          "residencia Paraguay europeos",
+          "empresa en Paraguay",
+          "invertir en Paraguay",
+          "relocalización Paraguay"
         ],
-        'en': [
-          'Paraguay residency for Europeans',
-          'start a business in Paraguay',
-          'invest in Paraguay',
-          'relocate to Paraguay'
+        "en": [
+          "Paraguay residency for Europeans",
+          "start a business in Paraguay",
+          "invest in Paraguay",
+          "relocate to Paraguay"
         ],
-        'nl': [
-          'wonen in Paraguay',
-          'bedrijf starten Paraguay',
-          'residencia Paraguay',
-          'investeren Paraguay'
+        "nl": [
+          "wonen in Paraguay",
+          "bedrijf starten Paraguay",
+          "residencia Paraguay",
+          "investeren Paraguay"
         ],
-        'de': [
-          'Auswandern nach Paraguay',
-          'Unternehmen gründen Paraguay',
-          'Investieren in Paraguay',
-          'Aufenthaltserlaubnis Paraguay'
+        "de": [
+          "Auswandern nach Paraguay",
+          "Unternehmen gründen Paraguay",
+          "Investieren in Paraguay",
+          "Aufenthaltserlaubnis Paraguay"
         ]
       }
     }
   },
   'restaurant': {
-    'id': 'restaurant',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Sabores Auténticos en {{city}}',
-      'subheadline': 'Disfruta de una experiencia culinaria única con los mejores ingredientes',
-      'ctaPrimary': 'Reservar Mesa',
-      'ctaSecondary': 'Ver Menú'
+    "id": "restaurant",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Sabores Auténticos en {{city}}",
+      "subheadline": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+      "ctaPrimary": "Reservar Mesa",
+      "ctaSecondary": "Ver Menú"
     },
-    'about': {
-      'title': 'Nuestra Historia',
-      'subtitle': 'Pasión por la buena comida desde {{year}}',
-      'content': 'En {{businessName}} creemos que cada comida debe ser una experiencia memorable. Utilizamos ingredientes frescos y de temporada para crear platos que deleitan todos los sentidos.',
-      'highlights': [
+    "about": {
+      "title": "Nuestra Historia",
+      "subtitle": "Pasión por la buena comida desde {{year}}",
+      "content": "En {{businessName}} creemos que cada comida debe ser una experiencia memorable. Utilizamos ingredientes frescos y de temporada para crear platos que deleitan todos los sentidos.",
+      "highlights": [
         {
-          'title': 'Ingredientes Frescos',
-          'description': 'Seleccionamos los mejores productos locales'
+          "title": "Ingredientes Frescos",
+          "description": "Seleccionamos los mejores productos locales"
         },
         {
-          'title': 'Recetas Tradicionales',
-          'description': 'Preparación artesanal con técnicas clásicas'
+          "title": "Recetas Tradicionales",
+          "description": "Preparación artesanal con técnicas clásicas"
         },
         {
-          'title': 'Ambiente Único',
-          'description': 'Un espacio diseñado para tu disfrute'
+          "title": "Ambiente Único",
+          "description": "Un espacio diseñado para tu disfrute"
         }
       ]
     },
-    'menuPage': {
-      'title': 'Nuestro Menú',
-      'subtitle': 'Platos preparados con amor y dedicación',
-      'categories': [
+    "menuPage": {
+      "title": "Nuestro Menú",
+      "subtitle": "Platos preparados con amor y dedicación",
+      "categories": [
         {
-          'key': 'appetizers',
-          'title': 'Entradas',
-          'description': 'Comienza tu experiencia con nuestras deliciosas entradas'
+          "key": "appetizers",
+          "title": "Entradas",
+          "description": "Comienza tu experiencia con nuestras deliciosas entradas"
         },
         {
-          'key': 'main_courses',
-          'title': 'Platos Principales',
-          'description': 'Especialidades de la casa'
+          "key": "main_courses",
+          "title": "Platos Principales",
+          "description": "Especialidades de la casa"
         },
         {
-          'key': 'sides',
-          'title': 'Acompañamientos',
-          'description': 'Complementos perfectos'
+          "key": "sides",
+          "title": "Acompañamientos",
+          "description": "Complementos perfectos"
         },
         {
-          'key': 'desserts',
-          'title': 'Postres',
-          'description': 'El dulce final'
+          "key": "desserts",
+          "title": "Postres",
+          "description": "El dulce final"
         },
         {
-          'key': 'beverages',
-          'title': 'Bebidas',
-          'description': 'Refrescos, jugos y más'
+          "key": "beverages",
+          "title": "Bebidas",
+          "description": "Refrescos, jugos y más"
         }
       ],
-      'dietaryLabels': {
-        'V': 'Vegetariano',
-        'VG': 'Vegano',
-        'GF': 'Sin Gluten',
-        'SP': 'Picante'
+      "dietaryLabels": {
+        "V": "Vegetariano",
+        "VG": "Vegano",
+        "GF": "Sin Gluten",
+        "SP": "Picante"
       }
     },
-    'reservations': {
-      'title': 'Reserva tu Mesa',
-      'subtitle': 'Asegura tu lugar para una experiencia inolvidable',
-      'formLabels': {
-        'name': 'Nombre completo',
-        'phone': 'Teléfono',
-        'email': 'Email',
-        'date': 'Fecha',
-        'time': 'Hora',
-        'guests': 'Número de personas',
-        'specialRequests': 'Solicitudes especiales (alergias, celebraciones)'
+    "reservations": {
+      "title": "Reserva tu Mesa",
+      "subtitle": "Asegura tu lugar para una experiencia inolvidable",
+      "formLabels": {
+        "name": "Nombre completo",
+        "phone": "Teléfono",
+        "email": "Email",
+        "date": "Fecha",
+        "time": "Hora",
+        "guests": "Número de personas",
+        "specialRequests": "Solicitudes especiales (alergias, celebraciones)"
       },
-      'submitButton': 'Confirmar Reserva',
-      'successMessage': '¡Reserva confirmada! Te esperamos.',
-      'timeSlots': [
-        '12:00',
-        '12:30',
-        '13:00',
-        '13:30',
-        '14:00',
-        '19:00',
-        '19:30',
-        '20:00',
-        '20:30',
-        '21:00',
-        '21:30',
-        '22:00'
+      "submitButton": "Confirmar Reserva",
+      "successMessage": "¡Reserva confirmada! Te esperamos.",
+      "timeSlots": [
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
       ]
     },
-    'gallery': {
-      'title': 'Galería',
-      'subtitle': 'Descubre nuestra esencia',
-      'categories': {
-        'food': 'Platos',
-        'interior': 'Ambiente',
-        'team': 'Equipo',
-        'events': 'Eventos'
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "Descubre nuestra esencia",
+      "categories": {
+        "food": "Platos",
+        "interior": "Ambiente",
+        "team": "Equipo",
+        "events": "Eventos"
       }
     },
-    'contact': {
-      'title': 'Contacto',
-      'subtitle': 'Estamos aquí para atenderte',
-      'addressLabel': 'Dirección',
-      'phoneLabel': 'Teléfono',
-      'emailLabel': 'Email',
-      'hoursLabel': 'Horarios',
-      'directionsButton': 'Cómo Llegar',
-      'callButton': 'Llamar Ahora',
-      'whatsappButton': 'WhatsApp'
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos aquí para atenderte",
+      "addressLabel": "Dirección",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Email",
+      "hoursLabel": "Horarios",
+      "directionsButton": "Cómo Llegar",
+      "callButton": "Llamar Ahora",
+      "whatsappButton": "WhatsApp"
     },
-    'footer': {
-      'tagline': 'Sabores que enamoran desde {{year}}',
-      'quickLinks': 'Enlaces Rápidos',
-      'contact': 'Contacto',
-      'followUs': 'Síguenos'
+    "footer": {
+      "tagline": "Sabores que enamoran desde {{year}}",
+      "quickLinks": "Enlaces Rápidos",
+      "contact": "Contacto",
+      "followUs": "Síguenos"
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera hacer una reserva en {{businessName}}',
-      'orderMessage': 'Hola! Quisiera hacer un pedido para llevar'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera hacer una reserva en {{businessName}}",
+      "orderMessage": "Hola! Quisiera hacer un pedido para llevar"
     }
   },
   'sushi_bar': {
-    'id': 'sushi_bar',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Auténtico Sushi en {{city}}',
-      'subheadline': 'Frescura y tradición en cada pieza. Descubre el arte del sushi.',
-      'ctaPrimary': 'Reservar Mesa',
-      'ctaSecondary': 'Ver Menú'
+    "id": "sushi_bar",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Auténtico Sushi en {{city}}",
+      "subheadline": "Frescura y tradición en cada pieza. Descubre el arte del sushi.",
+      "ctaPrimary": "Reservar Mesa",
+      "ctaSecondary": "Ver Menú"
     },
-    'about': {
-      'title': 'Nuestra Filosofía',
-      'subtitle': 'Mutan - Nada se agrega, solo la esencia pura',
-      'content': 'En {{businessName}} honramos la tradición del sushi Edomae. Cada pieza es una obra de arte preparada con pescado fresco del mercado, arroz de grano corto premium y wasabi auténtico.',
-      'highlights': [
+    "about": {
+      "title": "Nuestra Filosofía",
+      "subtitle": "Mutan - Nada se agrega, solo la esencia pura",
+      "content": "En {{businessName}} honramos la tradición del sushi Edomae. Cada pieza es una obra de arte preparada con pescado fresco del mercado, arroz de grano corto premium y wasabi auténtico.",
+      "highlights": [
         {
-          'title': 'Pescado Fresco',
-          'description': 'Selección diaria de la mejor calidad'
+          "title": "Pescado Fresco",
+          "description": "Selección diaria de la mejor calidad"
         },
         {
-          'title': 'Chef Experto',
-          'description': 'Formación tradicional japonesa'
+          "title": "Chef Experto",
+          "description": "Formación tradicional japonesa"
         },
         {
-          'title': 'Técnicas Clásicas',
-          'description': 'Edomae: preparación ancestral'
+          "title": "Técnicas Clásicas",
+          "description": "Edomae: preparación ancestral"
         }
       ]
     },
-    'menuPage': {
-      'title': 'Menú de Sushi',
-      'subtitle': 'Auténtico sabor japonés',
-      'categories': [
+    "menuPage": {
+      "title": "Menú de Sushi",
+      "subtitle": "Auténtico sabor japonés",
+      "categories": [
         {
-          'key': 'appetizers',
-          'title': 'Entradas',
-          'description': 'Edamame, Gyoza, Miso Soup'
+          "key": "appetizers",
+          "title": "Entradas",
+          "description": "Edamame, Gyoza, Miso Soup"
         },
         {
-          'key': 'sashimi',
-          'title': 'Sashimi',
-          'description': 'Lonchas de pescado fresco sin arroz'
+          "key": "sashimi",
+          "title": "Sashimi",
+          "description": "Lonchas de pescado fresco sin arroz"
         },
         {
-          'key': 'nigiri',
-          'title': 'Nigiri',
-          'description': 'Pescado sobre arroz vinagreado'
+          "key": "nigiri",
+          "title": "Nigiri",
+          "description": "Pescado sobre arroz vinagreado"
         },
         {
-          'key': 'maki_rolls',
-          'title': 'Maki Rolls',
-          'description': 'Rollos tradicionales con alga nori'
+          "key": "maki_rolls",
+          "title": "Maki Rolls",
+          "description": "Rollos tradicionales con alga nori"
         },
         {
-          'key': 'specialty_rolls',
-          'title': 'Rollos Especiales',
-          'description': 'Creaciones únicas de la casa'
+          "key": "specialty_rolls",
+          "title": "Rollos Especiales",
+          "description": "Creaciones únicas de la casa"
         },
         {
-          'key': 'hand_rolls',
-          'title': 'Temaki (Hand Rolls)',
-          'description': 'Conos de sushi para comer con la mano'
+          "key": "hand_rolls",
+          "title": "Temaki (Hand Rolls)",
+          "description": "Conos de sushi para comer con la mano"
         },
         {
-          'key': 'hibachi',
-          'title': 'Hibachi',
-          'description': 'Platos teppanyaki a la parrilla'
+          "key": "hibachi",
+          "title": "Hibachi",
+          "description": "Platos teppanyaki a la parrilla"
         },
         {
-          'key': 'sake',
-          'title': 'Sake & Bebidas',
-          'description': 'Selección premium de Japón'
+          "key": "sake",
+          "title": "Sake & Bebidas",
+          "description": "Selección premium de Japón"
         }
       ],
-      'dietaryLabels': {
-        'V': 'Vegetariano',
-        'VG': 'Vegano',
-        'GF': 'Sin Gluten',
-        'SP': 'Picante',
-        'RAW': 'Crudo'
+      "dietaryLabels": {
+        "V": "Vegetariano",
+        "VG": "Vegano",
+        "GF": "Sin Gluten",
+        "SP": "Picante",
+        "RAW": "Crudo"
       },
-      'japaneseTerms': {
-        'maguro': 'Atún rojo',
-        'salmon': 'Salmón',
-        'hamachi': 'Pez limón',
-        'unagi': 'Anguila',
-        'tamago': 'Tortilla dulce',
-        'ebi': 'Camarón'
+      "japaneseTerms": {
+        "maguro": "Atún rojo",
+        "salmon": "Salmón",
+        "hamachi": "Pez limón",
+        "unagi": "Anguila",
+        "tamago": "Tortilla dulce",
+        "ebi": "Camarón"
       }
     },
-    'omakase': {
-      'title': 'Experiencia Omakase',
-      'subtitle': 'Confía en el chef - 'Te dejo a ti'',
-      'description': 'Omakase es la forma más pura de disfrutar sushi. El chef selecciona y prepara cada pieza según los ingredientes más frescos del día. Una experiencia gastronómica única e irrepetible.',
-      'tiers': [
+    "omakase": {
+      "title": "Experiencia Omakase",
+      "subtitle": "Confía en el chef - 'Te dejo a ti'",
+      "description": "Omakase es la forma más pura de disfrutar sushi. El chef selecciona y prepara cada pieza según los ingredientes más frescos del día. Una experiencia gastronómica única e irrepetible.",
+      "tiers": [
         {
-          'name': 'Clásico',
-          'courses': 8,
-          'duration': '60 minutos',
-          'features': [
-            'Selección tradicional',
-            'Nigiri premium',
-            'Sashimi de temporada'
+          "name": "Clásico",
+          "courses": 8,
+          "duration": "60 minutos",
+          "features": [
+            "Selección tradicional",
+            "Nigiri premium",
+            "Sashimi de temporada"
           ]
         },
         {
-          'name': 'Premium',
-          'courses': 12,
-          'duration': '90 minutos',
-          'features': [
-            'Todo del Clásico',
-            'Sake pairing incluido',
-            'Postre especial'
+          "name": "Premium",
+          "courses": 12,
+          "duration": "90 minutos",
+          "features": [
+            "Todo del Clásico",
+            "Sake pairing incluido",
+            "Postre especial"
           ]
         },
         {
-          'name': 'Ejecutivo',
-          'courses': 15,
-          'duration': '120 minutos',
-          'features': [
-            'Todo del Premium',
-            'Botella de sake',
-            'Receta exclusiva'
+          "name": "Ejecutivo",
+          "courses": 15,
+          "duration": "120 minutos",
+          "features": [
+            "Todo del Premium",
+            "Botella de sake",
+            "Receta exclusiva"
           ]
         }
       ],
-      'notes': [
-        'Reservación obligatoria 24 horas antes',
-        'Informar alergias al reservar',
-        'No se aceptan cambios de menú',
-        'Duración aproximada según ritmo'
+      "notes": [
+        "Reservación obligatoria 24 horas antes",
+        "Informar alergias al reservar",
+        "No se aceptan cambios de menú",
+        "Duración aproximada según ritmo"
       ]
     },
-    'reservations': {
-      'title': 'Reserva tu Mesa',
-      'subtitle': 'Asegura tu experiencia gastronómica',
-      'formLabels': {
-        'name': 'Nombre completo',
-        'phone': 'Teléfono',
-        'email': 'Email',
-        'date': 'Fecha',
-        'time': 'Hora',
-        'guests': 'Número de personas',
-        'experience': 'Tipo de experiencia',
-        'specialRequests': 'Alergias o solicitudes especiales'
+    "reservations": {
+      "title": "Reserva tu Mesa",
+      "subtitle": "Asegura tu experiencia gastronómica",
+      "formLabels": {
+        "name": "Nombre completo",
+        "phone": "Teléfono",
+        "email": "Email",
+        "date": "Fecha",
+        "time": "Hora",
+        "guests": "Número de personas",
+        "experience": "Tipo de experiencia",
+        "specialRequests": "Alergias o solicitudes especiales"
       },
-      'experienceTypes': [
+      "experienceTypes": [
         {
-          'value': 'regular',
-          'label': 'Mesa Regular'
+          "value": "regular",
+          "label": "Mesa Regular"
         },
         {
-          'value': 'counter',
-          'label': 'Barra del Chef'
+          "value": "counter",
+          "label": "Barra del Chef"
         },
         {
-          'value': 'omakase',
-          'label': 'Omakase'
+          "value": "omakase",
+          "label": "Omakase"
         }
       ],
-      'submitButton': 'Confirmar Reserva',
-      'successMessage': '¡Reserva confirmada! Te esperamos para una experiencia inolvidable.',
-      'timeSlots': [
-        '12:00',
-        '12:30',
-        '13:00',
-        '13:30',
-        '14:00',
-        '19:00',
-        '19:30',
-        '20:00',
-        '20:30',
-        '21:00',
-        '21:30',
-        '22:00'
+      "submitButton": "Confirmar Reserva",
+      "successMessage": "¡Reserva confirmada! Te esperamos para una experiencia inolvidable.",
+      "timeSlots": [
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00"
       ]
     },
-    'gallery': {
-      'title': 'Galería',
-      'subtitle': 'El arte del sushi',
-      'categories': {
-        'sashimi': 'Sashimi',
-        'nigiri': 'Nigiri',
-        'maki': 'Maki',
-        'omakase': 'Omakase',
-        'interior': 'Ambiente',
-        'chef': 'Chef'
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "El arte del sushi",
+      "categories": {
+        "sashimi": "Sashimi",
+        "nigiri": "Nigiri",
+        "maki": "Maki",
+        "omakase": "Omakase",
+        "interior": "Ambiente",
+        "chef": "Chef"
       }
     },
-    'sake': {
-      'title': 'Sake & Bebidas',
-      'subtitle': 'La compañía perfecta para tu sushi',
-      'description': 'Descubre nuestra selección de sake premium importado de Japón, cervezas artesanales japonesas y té matcha auténtico.',
-      'types': [
+    "sake": {
+      "title": "Sake & Bebidas",
+      "subtitle": "La compañía perfecta para tu sushi",
+      "description": "Descubre nuestra selección de sake premium importado de Japón, cervezas artesanales japonesas y té matcha auténtico.",
+      "types": [
         {
-          'name': 'Junmai',
-          'description': 'Sake puro, sin aditivos'
+          "name": "Junmai",
+          "description": "Sake puro, sin aditivos"
         },
         {
-          'name': 'Ginjo',
-          'description': 'Aroma frutal, muy refinado'
+          "name": "Ginjo",
+          "description": "Aroma frutal, muy refinado"
         },
         {
-          'name': 'Daiginjo',
-          'description': 'Premium, elaborado con 50% del grano'
+          "name": "Daiginjo",
+          "description": "Premium, elaborado con 50% del grano"
         }
       ]
     },
-    'contact': {
-      'title': 'Contacto',
-      'subtitle': 'Estamos aquí para atenderte',
-      'addressLabel': 'Dirección',
-      'phoneLabel': 'Teléfono',
-      'emailLabel': 'Email',
-      'hoursLabel': 'Horarios',
-      'directionsButton': 'Cómo Llegar',
-      'callButton': 'Llamar',
-      'whatsappButton': 'WhatsApp'
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos aquí para atenderte",
+      "addressLabel": "Dirección",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Email",
+      "hoursLabel": "Horarios",
+      "directionsButton": "Cómo Llegar",
+      "callButton": "Llamar",
+      "whatsappButton": "WhatsApp"
     },
-    'footer': {
-      'tagline': 'Tradición japonesa en cada pieza',
-      'quickLinks': 'Enlaces',
-      'contact': 'Contacto',
-      'followUs': 'Síguenos'
+    "footer": {
+      "tagline": "Tradición japonesa en cada pieza",
+      "quickLinks": "Enlaces",
+      "contact": "Contacto",
+      "followUs": "Síguenos"
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera hacer una reserva en {{businessName}}',
-      'orderMessage': 'Hola! Quisiera hacer un pedido de sushi para llevar',
-      'omakaseMessage': 'Hola! Me interesa reservar la experiencia Omakase'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera hacer una reserva en {{businessName}}",
+      "orderMessage": "Hola! Quisiera hacer un pedido de sushi para llevar",
+      "omakaseMessage": "Hola! Me interesa reservar la experiencia Omakase"
     },
-    'culturalNotes': {
-      'itadakimasu': 'Decimos 'itadakimasu' antes de comer - agradecemos los ingredientes y el trabajo',
-      'freshness': 'Nuestro pescado llega fresco todos los días del mercado',
-      'technique': 'Usamos técnicas Edomae: sujime (curado), yaki (ligero asado)',
-      'wasabi': 'Wasabi fresco rallado al momento - más suave y aromático'
+    "culturalNotes": {
+      "itadakimasu": "Decimos 'itadakimasu' antes de comer - agradecemos los ingredientes y el trabajo",
+      "freshness": "Nuestro pescado llega fresco todos los días del mercado",
+      "technique": "Usamos técnicas Edomae: sujime (curado), yaki (ligero asado)",
+      "wasabi": "Wasabi fresco rallado al momento - más suave y aromático"
     }
   },
   'kaiten_zushi': {
-    'id': 'kaiten_zushi',
-    'locale': 'es-PY',
-    'hero': {
-      'headline': '{{businessName}} - Sushi en Movimiento',
-      'subheadline': 'La experiencia japonesa más divertida. Elige tus favoritos de la cinta.',
-      'ctaPrimary': 'Ver Menú',
-      'ctaSecondary': 'Cómo Funciona'
+    "id": "kaiten_zushi",
+    "locale": "es-PY",
+    "hero": {
+      "headline": "{{businessName}} - Sushi en Movimiento",
+      "subheadline": "La experiencia japonesa más divertida. Elige tus favoritos de la cinta.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Cómo Funciona"
     },
-    'about': {
-      'title': 'Sushi Divertido',
-      'subtitle': 'Kaiten-zushi: tradición en movimiento',
-      'content': 'En {{businessName}} traemos la auténtica experiencia de sushi cinta transportadora de Japón. Cada plato pasa frente a ti - simplemente toma lo que te gusta. Perfecto para familias, niños, y quienes quieren probar un poco de todo.',
-      'highlights': [
+    "about": {
+      "title": "Sushi Divertido",
+      "subtitle": "Kaiten-zushi: tradición en movimiento",
+      "content": "En {{businessName}} traemos la auténtica experiencia de sushi cinta transportadora de Japón. Cada plato pasa frente a ti - simplemente toma lo que te gusta. Perfecto para familias, niños, y quienes quieren probar un poco de todo.",
+      "highlights": [
         {
-          'title': 'Fresco Constantemente',
-          'description': 'Nuevos platos cada pocos minutos'
+          "title": "Fresco Constantemente",
+          "description": "Nuevos platos cada pocos minutos"
         },
         {
-          'title': 'Precios por Colores',
-          'description': 'Sabes exactamente cuánto pagas'
+          "title": "Precios por Colores",
+          "description": "Sabes exactamente cuánto pagas"
         },
         {
-          'title': 'Para Toda la Familia',
-          'description': 'Niños aman la experiencia interactiva'
+          "title": "Para Toda la Familia",
+          "description": "Niños aman la experiencia interactiva"
         }
       ]
     },
-    'howItWorks': {
-      'title': 'Cómo Funciona',
-      'subtitle': 'Tu primera vez en Kaiten Sushi',
-      'steps': [
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Tu primera vez en Kaiten Sushi",
+      "steps": [
         {
-          'number': 1,
-          'title': 'Toma un Asiento',
-          'description': 'Elige tu lugar junto a la cinta transportadora'
+          "number": 1,
+          "title": "Toma un Asiento",
+          "description": "Elige tu lugar junto a la cinta transportadora"
         },
         {
-          'number': 2,
-          'title': 'Elige tus Platos',
-          'description': 'Toma lo que te gusta de la cinta. Cada color = diferente precio'
+          "number": 2,
+          "title": "Elige tus Platos",
+          "description": "Toma lo que te gusta de la cinta. Cada color = diferente precio"
         },
         {
-          'number': 3,
-          'title': 'Pide Especiales',
-          'description': 'Usa la tableta para ordenar platos que no ves en la cinta'
+          "number": 3,
+          "title": "Pide Especiales",
+          "description": "Usa la tableta para ordenar platos que no ves en la cinta"
         },
         {
-          'number': 4,
-          'title': 'Disfruta',
-          'description': 'Come a tu ritmo. Apilamos tus platos para contar al final'
+          "number": 4,
+          "title": "Disfruta",
+          "description": "Come a tu ritmo. Apilamos tus platos para contar al final"
         }
       ],
-      'tips': [
-        'Los platos verdes son los más económicos (básicos)',
-        'Los negros son premium (unagi, wagyu)',
-        'Puedes pedir cantidades específicas en la tableta',
-        'El té verde está incluido (sin límite)'
+      "tips": [
+        "Los platos verdes son los más económicos (básicos)",
+        "Los negros son premium (unagi, wagyu)",
+        "Puedes pedir cantidades específicas en la tableta",
+        "El té verde está incluido (sin límite)"
       ]
     },
-    'menuPage': {
-      'title': 'Menú por Colores',
-      'subtitle': 'Cada color, un precio. Tú eliges.',
-      'description': 'Nuestro sistema de colores te permite controlar tu presupuesto. Desde platos básicos hasta ultra premium.',
-      'plates': {
-        'green': {
-          'title': 'Platos Verdes',
-          'price': '15.000 Gs',
-          'items': [
-            'Tamago Maki',
-            'Kappa Maki',
-            'Inari',
-            'Platos básicos'
+    "menuPage": {
+      "title": "Menú por Colores",
+      "subtitle": "Cada color, un precio. Tú eliges.",
+      "description": "Nuestro sistema de colores te permite controlar tu presupuesto. Desde platos básicos hasta ultra premium.",
+      "plates": {
+        "green": {
+          "title": "Platos Verdes",
+          "price": "15.000 Gs",
+          "items": [
+            "Tamago Maki",
+            "Kappa Maki",
+            "Inari",
+            "Platos básicos"
           ],
-          'color': '#22c55e'
+          "color": "#22c55e"
         },
-        'yellow': {
-          'title': 'Platos Amarillos',
-          'price': '25.000 Gs',
-          'items': [
-            'Sake Nigiri',
-            'Maguro Nigiri',
-            'California Roll',
-            'Favoritos populares'
+        "yellow": {
+          "title": "Platos Amarillos",
+          "price": "25.000 Gs",
+          "items": [
+            "Sake Nigiri",
+            "Maguro Nigiri",
+            "California Roll",
+            "Favoritos populares"
           ],
-          'color': '#eab308'
+          "color": "#eab308"
         },
-        'orange': {
-          'title': 'Platos Naranjas',
-          'price': '35.000 Gs',
-          'items': [
-            'Sake Aburi',
-            'Ebi Nigiri',
-            'Spicy Tuna Roll',
-            'Especiales'
+        "orange": {
+          "title": "Platos Naranjas",
+          "price": "35.000 Gs",
+          "items": [
+            "Sake Aburi",
+            "Ebi Nigiri",
+            "Spicy Tuna Roll",
+            "Especiales"
           ],
-          'color': '#f97316'
+          "color": "#f97316"
         },
-        'red': {
-          'title': 'Platos Rojos',
-          'price': '50.000 Gs',
-          'items': [
-            'Hamachi',
-            'Hotate',
-            'Dragon Roll',
-            'Premium'
+        "red": {
+          "title": "Platos Rojos",
+          "price": "50.000 Gs",
+          "items": [
+            "Hamachi",
+            "Hotate",
+            "Dragon Roll",
+            "Premium"
           ],
-          'color': '#ef4444'
+          "color": "#ef4444"
         },
-        'black': {
-          'title': 'Platos Negros',
-          'price': '75.000 Gs',
-          'items': [
-            'Unagi',
-            'Wagyu Nigiri',
-            'Otoro',
-            'Ultra premium'
+        "black": {
+          "title": "Platos Negros",
+          "price": "75.000 Gs",
+          "items": [
+            "Unagi",
+            "Wagyu Nigiri",
+            "Otoro",
+            "Ultra premium"
           ],
-          'color': '#1a1a1a'
+          "color": "#1a1a1a"
         }
       },
-      'specialOrder': {
-        'title': 'Pedidos Especiales',
-        'description': 'No ves lo que quieres? Ordena desde la tableta',
-        'items': [
-          'Ramen',
-          'Tempura',
-          'Postres',
-          'Bebidas especiales'
+      "specialOrder": {
+        "title": "Pedidos Especiales",
+        "description": "No ves lo que quieres? Ordena desde la tableta",
+        "items": [
+          "Ramen",
+          "Tempura",
+          "Postres",
+          "Bebidas especiales"
         ]
       }
     },
-    'reservations': {
-      'title': 'Reservaciones',
-      'subtitle': 'Walk-ins bienvenidos, pero reservar asegura tu lugar',
-      'formLabels': {
-        'name': 'Nombre',
-        'phone': 'Teléfono',
-        'date': 'Fecha',
-        'time': 'Hora',
-        'guests': 'Personas',
-        'notes': 'Notas especiales'
+    "reservations": {
+      "title": "Reservaciones",
+      "subtitle": "Walk-ins bienvenidos, pero reservar asegura tu lugar",
+      "formLabels": {
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "date": "Fecha",
+        "time": "Hora",
+        "guests": "Personas",
+        "notes": "Notas especiales"
       },
-      'walkInInfo': {
-        'title': 'Walk-ins',
-        'description': '¡No tienes reserva? No hay problema! Tenemos espacio para walk-ins. Solo toma un número y te llamamos cuando haya lugar.'
+      "walkInInfo": {
+        "title": "Walk-ins",
+        "description": "¡No tienes reserva? No hay problema! Tenemos espacio para walk-ins. Solo toma un número y te llamamos cuando haya lugar."
       },
-      'submitButton': 'Reservar',
-      'successMessage': '¡Reserva confirmada! Nos vemos pronto.'
+      "submitButton": "Reservar",
+      "successMessage": "¡Reserva confirmada! Nos vemos pronto."
     },
-    'gallery': {
-      'title': 'Galería',
-      'subtitle': 'La magia de la cinta transportadora',
-      'categories': {
-        'conveyor': 'Cinta en Acción',
-        'plates': 'Nuestros Platos',
-        'interior': 'Ambiente',
-        'team': 'Equipo'
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "La magia de la cinta transportadora",
+      "categories": {
+        "conveyor": "Cinta en Acción",
+        "plates": "Nuestros Platos",
+        "interior": "Ambiente",
+        "team": "Equipo"
       }
     },
-    'contact': {
-      'title': 'Visítanos',
-      'subtitle': 'Experiencia Kaiten te espera',
-      'addressLabel': 'Dirección',
-      'phoneLabel': 'Teléfono',
-      'hoursLabel': 'Horarios',
-      'directionsButton': 'Cómo Llegar',
-      'callButton': 'Llamar',
-      'whatsappButton': 'WhatsApp'
+    "contact": {
+      "title": "Visítanos",
+      "subtitle": "Experiencia Kaiten te espera",
+      "addressLabel": "Dirección",
+      "phoneLabel": "Teléfono",
+      "hoursLabel": "Horarios",
+      "directionsButton": "Cómo Llegar",
+      "callButton": "Llamar",
+      "whatsappButton": "WhatsApp"
     },
-    'footer': {
-      'tagline': 'Sushi divertido para toda la familia',
-      'quickLinks': 'Enlaces',
-      'contact': 'Contacto',
-      'followUs': 'Síguenos'
+    "footer": {
+      "tagline": "Sushi divertido para toda la familia",
+      "quickLinks": "Enlaces",
+      "contact": "Contacto",
+      "followUs": "Síguenos"
     },
-    'whatsapp': {
-      'defaultMessage': 'Hola! Quisiera saber si tienen mesas disponibles en {{businessName}}',
-      'birthdayMessage': 'Hola! Quisiera reservar para un cumpleaños'
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera saber si tienen mesas disponibles en {{businessName}}",
+      "birthdayMessage": "Hola! Quisiera reservar para un cumpleaños"
     },
-    'kidFriendly': {
-      'title': 'Perfecto para Niños',
-      'features': [
-        'Sillas altas disponibles',
-        'Menú infantil con precios especiales',
-        'Platos sin wasabi disponibles',
-        'Ambiente divertido y casual'
+    "kidFriendly": {
+      "title": "Perfecto para Niños",
+      "features": [
+        "Sillas altas disponibles",
+        "Menú infantil con precios especiales",
+        "Platos sin wasabi disponibles",
+        "Ambiente divertido y casual"
       ]
     }
   }

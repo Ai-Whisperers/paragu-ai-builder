@@ -52,7 +52,6 @@ function readJsonFile(filePath: string): unknown {
  */
 function formatAsTsObject(obj: unknown): string {
   return JSON.stringify(obj, null, 2)
-    .replace(/"/g, "'") // Use single quotes
     .replace(/\n/g, '\n  ') // Add indentation
 }
 
