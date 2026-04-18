@@ -1,0 +1,58 @@
+{
+  "description": "Portfolio + professional services kit: photographers, videographers, architects, designers, agencies.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "titleKey": "home.seo.title",
+      "descriptionKey": "home.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "split", "content": "home.hero" },
+        { "id": "trust-signals", "variant": "logos-row", "content": "home.trust" },
+        { "id": "portfolio", "variant": "grid", "content": "home.portfolio", "enabledWhen": "portfolio" },
+        { "id": "before-after", "variant": "slider", "content": "home.beforeAfter", "enabledWhen": "beforeAfter" },
+        { "id": "process-timeline", "variant": "horizontal", "content": "home.process" },
+        { "id": "testimonials", "variant": "grid", "content": "home.testimonials", "enabledWhen": "testimonials" },
+        { "id": "cta-banner", "variant": "gradient", "content": "home.finalCta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "portfolio": {
+      "slug": "portfolio",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "portfolioPage.hero" },
+        { "id": "portfolio", "variant": "grid", "content": "portfolioPage.portfolio" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "servicios": {
+      "slug": "servicios",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "services", "variant": "cards", "content": "servicesPage.services" },
+        { "id": "process-timeline", "variant": "stepped", "content": "servicesPage.process" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "presupuesto": {
+      "slug": "presupuesto",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "quotePage.hero" },
+        { "id": "quote-form", "variant": "standard", "content": "quotePage.quote" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "contacto": {
+      "slug": "contacto",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "contact", "variant": "split", "content": "contactPage.contact" },
+        { "id": "lead-form", "variant": "standard", "content": "contactPage.lead" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    }
+  }
+}

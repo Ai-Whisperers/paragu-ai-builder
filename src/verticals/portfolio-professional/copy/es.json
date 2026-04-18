@@ -1,0 +1,20 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Su privacidad",
+      "body": "Cookies esenciales + analíticas opcionales.",
+      "acceptAll": "Aceptar todas",
+      "acceptEssential": "Solo esenciales",
+      "manage": "Preferencias",
+      "privacyLabel": "Ver política de privacidad"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{siteName}}",
+      "subheadline": "Trabajos que hablan por sí mismos.",
+      "ctaPrimaryText": "Ver portfolio",
+      "ctaSecondaryText": "Solicitar presupuesto"
+    }
+  }
+}

@@ -8,21 +8,52 @@
 import type { BusinessData } from './compose'
 import { getDemoBusiness, getDemoBusinessBySlug, getAllDemoSlugs, RELOCATION_DEMO_BUSINESSES, DEMO_BUSINESSES } from './demo-data'
 
-// Conditionally import lead data
+type BusinessType = BusinessData['type']
+
+type LeadDataModule = { LEAD_BUSINESSES?: Record<string, BusinessData> }
+
+// Conditionally import lead data (module is generated optionally during site
+// generation and may be absent in fresh checkouts).
 let LEAD_BUSINESSES: Record<string, BusinessData> = {}
 try {
-  const leadData = require('./lead-data')
+  // eslint-disable-next-line @typescript-eslint/no-require-imports -- optional module load
+  const leadData: LeadDataModule = require('./lead-data')
   LEAD_BUSINESSES = leadData.LEAD_BUSINESSES || {}
 } catch {
   // Lead data not generated yet
 }
 
-function rowToBusinessData(row: any): BusinessData {
+interface BusinessRow {
+  slug: string
+  name: string
+  type: string
+  tagline?: string
+  city?: string
+  neighborhood?: string
+  address?: string
+  phone?: string
+  email?: string
+  whatsapp?: string
+  instagram?: string
+  facebook?: string
+  google_maps_url?: string
+  hours?: Record<string, string>
+  data_json?: {
+    services?: BusinessData['services']
+    products?: BusinessData['products']
+    team?: BusinessData['team']
+    gallery?: BusinessData['gallery']
+    testimonials?: BusinessData['testimonials']
+    heroImage?: string
+  }
+}
+
+function rowToBusinessData(row: BusinessRow): BusinessData {
   const data = row.data_json || {}
   return {
     slug: row.slug,
     name: row.name,
-    type: row.type,
+    type: row.type as BusinessType,
     tagline: row.tagline,
     city: row.city || 'Asuncion',
     neighborhood: row.neighborhood,
@@ -91,7 +122,7 @@ export async function loadAllSlugs(): Promise<string[]> {
       .eq('status', 'active')
     
     if (data) {
-      data.forEach((row: any) => slugs.add(row.slug))
+      data.forEach((row: { slug: string }) => slugs.add(row.slug))
     }
   } catch {
     // Supabase not available, use local data only

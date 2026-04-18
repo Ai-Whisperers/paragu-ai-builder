@@ -1,0 +1,38 @@
+{
+  "vertical": "relocacion",
+  "country": "Paraguay",
+  "domain": "nexaparaguay.com",
+  "stagingDomain": "staging.nexaparaguay.com",
+  "defaultLocale": "nl",
+  "locales": ["nl", "en", "de", "es"],
+  "navigation": [
+    { "labelKey": "navigation.home", "path": "" },
+    { "labelKey": "navigation.programs", "path": "programas" },
+    { "labelKey": "navigation.whyCountry", "path": "por-que-paraguay" },
+    { "labelKey": "navigation.process", "path": "proceso" },
+    { "labelKey": "navigation.about", "path": "sobre" },
+    { "labelKey": "navigation.faq", "path": "faq" },
+    { "labelKey": "navigation.blog", "path": "blog" },
+    { "labelKey": "navigation.contact", "path": "contacto" }
+  ],
+  "integrations": {
+    "booking": "calendly",
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "testimonials": false,
+    "blog": true,
+    "whatsappFloat": true
+  },
+  "contact": {
+    "whatsapp": "595000000000",
+    "email": "hola@nexaparaguay.com"
+  },
+  "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/nexa-paraguay",
+    "instagram": "https://instagram.com/nexaparaguay"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Su privacidad",
+      "body": "Usamos cookies esenciales y cookies de análisis opcionales.",
+      "acceptAll": "Aceptar todas",
+      "acceptEssential": "Solo esenciales",
+      "manage": "Preferencias",
+      "privacyLabel": "Ver política de privacidad"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{siteName}} — {{city}}",
+      "subheadline": "Entrene, aprenda, transfórmese. Con instructores profesionales.",
+      "ctaPrimaryText": "Agendar clase",
+      "ctaSecondaryText": "Ver planes"
+    }
+  }
+}

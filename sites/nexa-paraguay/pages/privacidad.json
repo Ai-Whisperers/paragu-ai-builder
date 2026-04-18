@@ -1,0 +1,27 @@
+{
+  "slug": "privacidad",
+  "titleKey": "privacyPage.seo.title",
+  "descriptionKey": "privacyPage.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "privacyPage.hero"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "privacyPage.body"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    }
+  ]
+}

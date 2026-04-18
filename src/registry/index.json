@@ -1,6 +1,6 @@
 {
   "name": "Paragu AI Builder - Business Type Registry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Master registry of all supported business types for website generation",
 
   "types": {
@@ -224,6 +224,62 @@
       "schema": "inversiones",
       "categories": ["investment", "forex", "banking"],
       "sections": ["hero", "features", "pricing", "process", "team", "testimonials", "faq", "contact"]
+    },
+    "meal_prep": {
+      "id": "meal_prep",
+      "nameEs": "Meal Prep & Compras",
+      "nameEn": "Meal Prep & Personal Shopping",
+      "icon": "shopping-cart",
+      "tokens": "meal_prep",
+      "content": "meal_prep",
+      "schema": "meal_prep",
+      "leadCount": 0,
+      "noWebsitePercent": 0,
+      "priorityALeads": 0
+    }
+  },
+
+  "verticals": {
+    "description": "Multi-tenant verticals managed via src/verticals/<id>/. Each vertical is a catalog + starter kits consumed by tenants in sites/<slug>/. Unlike `types` above (flat beauty-era pattern), verticals support i18n, hreflang, per-tenant content, site-scoped leads, and sublinear scaling to new countries/tenants.",
+    "relocacion": {
+      "id": "relocacion",
+      "nameEs": "Servicios de Relocación",
+      "nameEn": "Relocation Services",
+      "icon": "globe",
+      "path": "src/verticals/relocacion",
+      "firstTenant": "sites/nexa-paraguay",
+      "locales": ["nl", "en", "de", "es"],
+      "defaultLocale": "nl"
+    },
+    "service-booking": {
+      "id": "service-booking",
+      "nameEs": "Reservas de Servicios",
+      "nameEn": "Service Booking",
+      "icon": "calendar",
+      "path": "src/verticals/service-booking",
+      "description": "Gyms, yoga, pilates, crossfit, academies, therapists, trainers, masseurs",
+      "locales": ["es"],
+      "defaultLocale": "es"
+    },
+    "hospitality": {
+      "id": "hospitality",
+      "nameEs": "Hospitalidad",
+      "nameEn": "Hospitality",
+      "icon": "bed",
+      "path": "src/verticals/hospitality",
+      "description": "Hotels, hostels, boutique lodgings, event venues, camping",
+      "locales": ["es", "en"],
+      "defaultLocale": "es"
+    },
+    "portfolio-professional": {
+      "id": "portfolio-professional",
+      "nameEs": "Portfolio / Servicios Profesionales",
+      "nameEn": "Portfolio / Professional Services",
+      "icon": "briefcase",
+      "path": "src/verticals/portfolio-professional",
+      "description": "Photographers, videographers, architects, designers, agencies",
+      "locales": ["es"],
+      "defaultLocale": "es"
     }
   },
 

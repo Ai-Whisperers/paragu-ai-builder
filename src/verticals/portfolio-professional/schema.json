@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-portfolio-professional",
+  "title": "Portfolio / professional services schema",
+  "type": "object",
+  "properties": {
+    "siteName": { "type": "string" },
+    "home": {
+      "type": "object",
+      "properties": {
+        "portfolio": { "type": "object", "properties": { "items": { "type": "array" } } },
+        "beforeAfter": { "type": "object", "properties": { "items": { "type": "array" } } },
+        "process": { "type": "object" }
+      }
+    }
+  }
+}

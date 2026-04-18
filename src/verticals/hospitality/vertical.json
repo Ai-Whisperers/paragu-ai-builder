@@ -1,0 +1,37 @@
+{
+  "id": "hospitality",
+  "name": "Hospitality",
+  "description": "Hotels, hostels, boutique lodgings, event venues, camping/glamping. Room-catalog + venue-booking flows.",
+  "features": {
+    "i18n": true,
+    "booking": true,
+    "blog": true,
+    "gdpr": true,
+    "roomBooking": true,
+    "eventVenues": true,
+    "whatsappFloat": true,
+    "testimonials": true,
+    "gallery": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "room-booking",
+    "event-venues",
+    "gallery",
+    "why-destination",
+    "trust-signals",
+    "testimonials",
+    "booking-embed",
+    "faq",
+    "cta-banner",
+    "contact",
+    "lead-form",
+    "blog-index",
+    "blog-post",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "full",
+  "locales": ["es", "en"]
+}

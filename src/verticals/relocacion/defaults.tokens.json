@@ -1,0 +1,44 @@
+{
+  "name": "Relocation — Premium Navy/Gold (default)",
+  "theme": "light",
+  "mood": ["premium", "trustworthy", "editorial", "calm"],
+  "palettes": {
+    "default": {
+      "name": "Navy + Champagne",
+      "colors": {
+        "primary": "#1B2A4A",
+        "secondary": "#C9A96E",
+        "accent": "#C9A96E",
+        "background": "#FFFFFF",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F5F3EE",
+        "text": "#1B2A4A",
+        "textLight": "#4A4A4A",
+        "textMuted": "#777777",
+        "success": "#4a7c59",
+        "error": "#c0392b",
+        "warning": "#d9a441"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Playfair Display', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "textTransform": "none"
+  },
+  "googleFonts": [
+    "Playfair+Display:wght@500;600;700",
+    "Inter:wght@400;500;600;700"
+  ],
+  "components": {
+    "button": {
+      "borderRadius": "4px",
+      "padding": "14px 28px",
+      "fontWeight": "600"
+    }
+  }
+}

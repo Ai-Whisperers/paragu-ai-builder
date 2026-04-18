@@ -1,0 +1,23 @@
+{
+  "description": "Single-page tenant (long-scroll landing). Fastest path to live.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "titleKey": "home.seo.title",
+      "descriptionKey": "home.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "image", "content": "home.hero" },
+        { "id": "trust-signals", "variant": "credentials", "content": "home.trust" },
+        { "id": "programs-comparison", "variant": "tiered", "content": "home.programs" },
+        { "id": "why-destination", "variant": "three-col", "content": "home.whyCountry" },
+        { "id": "process-timeline", "variant": "horizontal", "content": "home.process" },
+        { "id": "faq", "variant": "accordion", "content": "home.faq" },
+        { "id": "booking-embed", "variant": "link", "content": "home.booking" },
+        { "id": "cta-banner", "variant": "gradient", "content": "home.finalCta" },
+        { "id": "footer", "variant": "minimal", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    }
+  }
+}

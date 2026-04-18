@@ -1,0 +1,381 @@
+{
+  "siteName": "Nexa Paraguay",
+  "tagline": "Tu nuevo comienzo en Paraguay, simple y tranquilo",
+  "placeholders": {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "currency": "USD",
+    "taxRate": "10%",
+    "processWeeks": "8–12 semanas",
+    "flagEmoji": "🇵🇾"
+  },
+  "navigation": {
+    "businessName": "Nexa Paraguay",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/nexa-paraguay" },
+      { "label": "Programas", "href": "/s/es/nexa-paraguay/programas" },
+      { "label": "Por qué Paraguay", "href": "/s/es/nexa-paraguay/por-que-paraguay" },
+      { "label": "Proceso", "href": "/s/es/nexa-paraguay/proceso" },
+      { "label": "Sobre Nexa", "href": "/s/es/nexa-paraguay/sobre" },
+      { "label": "FAQ", "href": "/s/es/nexa-paraguay/faq" },
+      { "label": "Blog", "href": "/s/es/nexa-paraguay/blog" },
+      { "label": "Contacto", "href": "/s/es/nexa-paraguay/contacto" }
+    ],
+    "ctaText": "Agendar consulta",
+    "ctaHref": "/s/es/nexa-paraguay/contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Nexa Paraguay — Establezca su operación en Paraguay",
+      "description": "Residencia, sociedad y cuenta bancaria en Paraguay. Un solo programa, un solo viaje, un equipo profesional a su lado."
+    },
+    "hero": {
+      "headline": "Establezca su operación en Paraguay. Profesional, integrado, sin sorpresas.",
+      "subheadline": "Residencia, sociedad, cuenta bancaria y compra de tierras — todo coordinado por Nexa Paraguay, ejecutado por nuestro equipo técnico de confianza.",
+      "ctaPrimaryText": "Agendar consulta gratuita",
+      "ctaPrimaryHref": "/s/es/nexa-paraguay/contacto",
+      "ctaSecondaryText": "Ver programas",
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas"
+    },
+    "trust": {
+      "eyebrow": "Por qué Nexa Paraguay",
+      "title": "Un sistema integral, no una gestoría de trámites",
+      "items": [
+        { "icon": "Package", "title": "Un solo programa", "description": "Residencia, sociedad y cuenta bancaria integrados." },
+        { "icon": "Plane", "title": "Un solo viaje", "description": "Tramitación presencial en una jornada coordinada." },
+        { "icon": "Users", "title": "Un solo equipo", "description": "Abogados, contadores, escribanos, asesores financieros." },
+        { "icon": "Shield", "title": "Precio transparente", "description": "Todo incluido. Sin cargos ocultos." }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Programas",
+      "title": "Cuatro caminos para establecerse en Paraguay",
+      "subtitle": "Elija el programa según su objetivo. Todos con precio transparente y acompañamiento profesional.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Residencia y cédula paraguaya.",
+          "price": "A definir",
+          "priceNote": "Costo mayorista pendiente de LEALTIS + margen Nexa",
+          "included": [
+            "Residencia Paraguaya",
+            "Cédula de Identidad",
+            "Análisis documental previo",
+            "Jornada operativa (un día)",
+            "Acompañamiento logístico"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base"
+        },
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residencia + sociedad + cuenta bancaria.",
+          "price": "USD 4.400+",
+          "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir.",
+          "badge": "Más elegido",
+          "highlighted": true,
+          "included": [
+            "Todo lo de Base",
+            "Constitución de sociedad",
+            "Obtención de RUC",
+            "Apertura de cuenta bancaria",
+            "Tour estratégico inmobiliario",
+            "Honorarios, IVA y tasas incluidas"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business"
+        },
+        {
+          "id": "investor",
+          "name": "Paraguay Investor Program",
+          "description": "Todo lo de Business + 12 meses de acompañamiento.",
+          "price": "USD 6.900+",
+          "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir.",
+          "included": [
+            "Todo lo de Business",
+            "Contabilidad empresarial (12 meses)",
+            "Asesoramiento jurídico y fiscal (12 meses)",
+            "Análisis de inversiones",
+            "Acceso directo al equipo técnico"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor"
+        },
+        {
+          "id": "tierras",
+          "name": "Compra de Tierras",
+          "description": "Servicio propio de Nexa. Asesoría integral.",
+          "price": "A definir",
+          "priceNote": "Alcance y pricing en definición.",
+          "included": [
+            "Definición de perfil y criterios",
+            "Búsqueda y short-list",
+            "Due diligence legal y técnica",
+            "Negociación y escrituración",
+            "Inscripción registral"
+          ],
+          "ctaLabel": "Conversación exploratoria",
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
+        }
+      ]
+    },
+    "whyCountry": {
+      "eyebrow": "Por qué Paraguay",
+      "title": "Una oportunidad real para el inversor europeo",
+      "pillars": [
+        {
+          "icon": "TrendingUp",
+          "title": "Entorno económico",
+          "description": "Crecimiento sostenido, inflación controlada, impuesto del {{taxRate}} sobre la renta, sistema territorial.",
+          "bullets": ["Impuesto corporativo {{taxRate}}", "Sistema territorial", "Economía abierta"]
+        },
+        {
+          "icon": "Building2",
+          "title": "Oportunidades de inversión",
+          "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
+          "bullets": ["Inmobiliario en expansión", "Agroindustria líder", "Ecosistema emprendedor joven"]
+        },
+        {
+          "icon": "Heart",
+          "title": "Calidad de vida",
+          "description": "Clima cálido, comunidad internacional creciente, poder adquisitivo significativo.",
+          "bullets": ["Costo de vida favorable", "Comunidad internacional", "Seguridad personal"]
+        }
+      ],
+      "honestNote": "La oportunidad es real, pero el proceso no es sencillo sin guía adecuada. Existimos para resolver exactamente eso."
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Un proceso claro, paso a paso",
+      "totalDuration": "Tiempo estimado total: 8–12 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "/s/es/nexa-paraguay/contacto",
+      "steps": [
+        { "number": 1, "title": "Consulta inicial", "description": "Evaluamos su situación, objetivos y programa adecuado.", "icon": "MessageCircle" },
+        { "number": 2, "title": "Validación documental", "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.", "icon": "FileCheck" },
+        { "number": 3, "title": "Jornada operativa", "description": "En un solo día, ejecutamos todos los trámites presenciales.", "icon": "MapPin" },
+        { "number": 4, "title": "Sociedad y banca", "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.", "icon": "Building" },
+        { "number": 5, "title": "Entrega y seguimiento", "description": "Recibe documentos definitivos y cerramos el programa.", "icon": "CheckCircle" }
+      ]
+    },
+    "finalCta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "programasPage": {
+    "seo": {
+      "title": "Programas — Nexa Paraguay",
+      "description": "Cuatro programas para establecerse en Paraguay: Base, Business (USD 4.400+), Investor (USD 6.900+) y Compra de Tierras."
+    },
+    "hero": {
+      "headline": "Nuestros programas",
+      "subheadline": "Precios transparentes. Todo incluido. Sin sorpresas."
+    },
+    "programs": { "$ref": "home.programs" },
+    "matrix": {
+      "eyebrow": "Comparación detallada",
+      "title": "Qué incluye cada programa",
+      "tiers": [
+        { "id": "base", "name": "Base", "ctaLabel": "Consulta", "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base", "included": [] },
+        { "id": "business", "name": "Business", "ctaLabel": "Consulta", "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business", "included": [] },
+        { "id": "investor", "name": "Investor", "ctaLabel": "Consulta", "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor", "included": [] },
+        { "id": "tierras", "name": "Tierras", "ctaLabel": "Consulta", "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras", "included": [] }
+      ],
+      "comparisonRows": [
+        { "feature": "Residencia + Cédula", "values": [true, true, true, false] },
+        { "feature": "Sociedad + RUC", "values": [false, true, true, false] },
+        { "feature": "Cuenta bancaria", "values": [false, true, true, false] },
+        { "feature": "Tour inmobiliario", "values": [false, true, true, false] },
+        { "feature": "Contabilidad 12 meses", "values": [false, false, true, false] },
+        { "feature": "Asesoría fiscal 12 meses", "values": [false, false, true, false] },
+        { "feature": "Búsqueda y compra de tierras", "values": [false, false, false, true] },
+        { "feature": "Costo LEALTIS (USD)", "values": ["Pendiente", "4.400", "6.900", "No aplica"] }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre precios y programas",
+      "items": [
+        { "q": "¿Qué incluye el precio?", "a": "Honorarios profesionales, IVA, tasas oficiales, coordinación bancaria y asesoramiento integral." },
+        { "q": "¿Qué no está incluido?", "a": "Vuelos, alojamiento, apostillas en país de origen, gastos personales." },
+        { "q": "¿Cómo se paga?", "a": "Anticipado por transferencia. Sin cargos adicionales en el trámite regular." }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para elegir su programa?",
+      "buttonText": "Agendar consulta gratuita",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "whyCountryPage": {
+    "seo": {
+      "title": "Por qué Paraguay — Nexa Paraguay",
+      "description": "Paraguay: entorno fiscal competitivo, economía en crecimiento, calidad de vida. Lo que debe saber antes de establecerse."
+    },
+    "hero": {
+      "headline": "Por qué Paraguay",
+      "subheadline": "Una oportunidad real — explicada con honestidad."
+    },
+    "pillars": { "$ref": "home.whyCountry" },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "processPage": {
+    "seo": {
+      "title": "Cómo funciona — Nexa Paraguay",
+      "description": "Nuestro proceso en 5 pasos: desde la consulta inicial hasta la entrega final. 8–12 semanas totales."
+    },
+    "hero": {
+      "headline": "Un proceso claro, paso a paso",
+      "subheadline": "Sin improvisación. Sin sorpresas."
+    },
+    "process": { "$ref": "home.process" },
+    "faq": {
+      "title": "Preguntas sobre el proceso",
+      "items": [
+        { "q": "¿Cuántos viajes necesito?", "a": "Uno solo es suficiente." },
+        { "q": "¿Cuánto tiempo toma?", "a": "Trámite presencial en un día. Emisión: 45–60 días." },
+        { "q": "¿Qué pasa si falta un documento?", "a": "Lo detectamos antes de su viaje — no viaja hasta que todo esté listo." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "aboutPage": {
+    "seo": {
+      "title": "Sobre Nexa Paraguay",
+      "description": "Un equipo técnico multidisciplinario: abogados, contadores, escribanos, asesores financieros."
+    },
+    "hero": {
+      "headline": "Sobre Nexa Paraguay",
+      "subheadline": "No somos una gestoría. Somos un sistema integral."
+    },
+    "differentiators": {
+      "eyebrow": "Nuestra diferencia",
+      "title": "Qué nos hace diferentes",
+      "pillars": [
+        { "icon": "Users", "title": "Equipo multidisciplinario", "description": "Abogados, contadores, escribanos, asesores financieros trabajando en coordinación." },
+        { "icon": "Shield", "title": "Capital relacional", "description": "Acceso institucional construido durante años con bancos, notarías y autoridades." },
+        { "icon": "Clock", "title": "Tiempo como valor", "description": "Comprimimos en una jornada lo que sin estructura requiere múltiples viajes." }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "members": [
+        { "name": "Dirección de Operaciones (Paraguay)", "role": "Liderazgo operativo, relaciones institucionales" },
+        { "name": "Dirección Comercial (Europa)", "role": "Adquisición de clientes, puente cultural" },
+        { "name": "Equipo Legal", "role": "Expedientes migratorios, constitución societaria" },
+        { "name": "Equipo Contable", "role": "Gestión fiscal, cumplimiento tributario" }
+      ]
+    },
+    "trust": { "$ref": "home.trust" },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas frecuentes — Nexa Paraguay",
+      "description": "Respuestas a las 15 preguntas más frecuentes sobre nuestro proceso, precios y programas."
+    },
+    "hero": {
+      "headline": "Preguntas frecuentes",
+      "subheadline": "Las respuestas que nuestros clientes más consultan."
+    },
+    "full": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "¿Cuánto tiempo toma todo el proceso?", "a": "Tramitación presencial en un día. Emisión de residencia y cédula: 45–60 días. Constitución de sociedad y cuenta bancaria: 2–4 semanas. Total: 8–12 semanas." },
+        { "q": "¿Cuántos viajes necesito hacer a Paraguay?", "a": "Nuestro programa está diseñado para que un solo viaje sea suficiente." },
+        { "q": "¿Qué incluye el precio?", "a": "Honorarios profesionales, IVA, tasas oficiales, coordinación bancaria, tour inmobiliario y asesoramiento integral. No hay cargos adicionales en el trámite regular." },
+        { "q": "¿Qué NO está incluido?", "a": "Vuelos internacionales, alojamiento, gastos personales, traducciones juradas y apostillas en su país de origen." },
+        { "q": "¿Necesito hablar español?", "a": "No. Nuestro equipo le acompaña en todo momento y la comunicación comercial es en neerlandés, inglés y alemán." },
+        { "q": "¿Puedo abrir una cuenta bancaria siendo extranjero?", "a": "Sí. Es el proceso más complejo, pero preparamos su perfil financiero y coordinamos con la entidad para maximizar las probabilidades de aprobación." },
+        { "q": "¿Qué tipo de sociedad se constituye?", "a": "Nuestro equipo legal recomienda el tipo societario más conveniente (generalmente EAS o SA) según su caso." },
+        { "q": "¿El proceso es 100% legal?", "a": "Absolutamente. Estricto apego a la legislación paraguaya e internacional." },
+        { "q": "¿Qué pasa si falta algún documento?", "a": "Lo detectamos antes de su viaje. Nuestra validación previa garantiza que llegue con todo en orden." },
+        { "q": "¿Ofrecen garantía de apertura bancaria?", "a": "La decisión final es del banco. Garantizamos preparación profesional y coordinación institucional." },
+        { "q": "¿Puedo traer a mi familia?", "a": "Sí. Cada miembro requiere su propio proceso de residencia." },
+        { "q": "¿Cómo se realiza el pago?", "a": "Pago anticipado por transferencia bancaria. Sin cargos adicionales." },
+        { "q": "¿Puedo contratar solo la residencia?", "a": "Programas integrales por diseño. Contáctenos para su caso específico." },
+        { "q": "¿Qué pasa después del primer año (Investor)?", "a": "Propuesta de continuidad adaptada a sus necesidades actuales." },
+        { "q": "¿Qué pasa si cambian las leyes durante mi proceso?", "a": "Monitoreamos el entorno regulatorio y le informamos inmediatamente si hay cambios relevantes." }
+      ]
+    },
+    "cta": { "$ref": "home.finalCta" }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contacto — Nexa Paraguay",
+      "description": "Agende una consulta gratuita de 30 minutos."
+    },
+    "hero": {
+      "headline": "Dé el primer paso",
+      "subheadline": "Consulta gratuita de 30 minutos. Sin compromiso."
+    },
+    "booking": {
+      "title": "Agende su consulta",
+      "subtitle": "Elija el horario que mejor le convenga.",
+      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "provider": "calendly",
+      "ctaLabel": "Abrir calendario"
+    },
+    "contact": {
+      "title": "O escríbanos directamente",
+      "address": "Asunción, Paraguay",
+      "neighborhood": "Centro",
+      "city": "Asunción",
+      "email": "hola@nexaparaguay.com",
+      "whatsapp": "595000000000"
+    }
+  },
+  "privacyPage": {
+    "seo": {
+      "title": "Política de privacidad — Nexa Paraguay",
+      "description": "Política de privacidad y cookies de Nexa Paraguay (cumplimiento GDPR)."
+    },
+    "hero": {
+      "headline": "Política de privacidad",
+      "subheadline": "Cómo recogemos y tratamos sus datos. Cumplimiento GDPR."
+    },
+    "body": {
+      "title": "Puntos clave",
+      "items": [
+        { "q": "¿Qué datos recogemos?", "a": "Nombre, email, teléfono (opcional), país, programa de interés y objetivo declarado, cuando usted completa un formulario." },
+        { "q": "¿Para qué los usamos?", "a": "Solo para responder a su consulta y, si lo autoriza expresamente, enviarle información relevante por email." },
+        { "q": "¿Con quién los compartimos?", "a": "CRM (HubSpot) y proveedor de email (Mailchimp) bajo contrato de tratamiento. No los vendemos ni cedemos a terceros para marketing." },
+        { "q": "¿Cuánto tiempo los guardamos?", "a": "24 meses desde el último contacto, salvo requerimiento legal." },
+        { "q": "¿Cómo ejerzo mis derechos?", "a": "Escriba a hola@nexaparaguay.com y responderemos en un plazo máximo de 30 días (acceso, rectificación, supresión, portabilidad)." }
+      ]
+    }
+  },
+  "blog": {
+    "index": {
+      "seo": {
+        "title": "Blog — Nexa Paraguay",
+        "description": "Guías, análisis y recursos sobre residencia, empresa y vida en Paraguay."
+      },
+      "title": "Blog",
+      "subtitle": "Guías honestas sobre residencia, empresa e inversión en Paraguay."
+    }
+  },
+  "footer": {
+    "businessName": "Nexa Paraguay",
+    "city": "Asunción",
+    "email": "hola@nexaparaguay.com",
+    "whatsapp": "595000000000",
+    "instagram": "https://instagram.com/nexaparaguay",
+    "facebook": null,
+    "navLinks": [
+      { "label": "Programas", "href": "/s/es/nexa-paraguay/programas" },
+      { "label": "Proceso", "href": "/s/es/nexa-paraguay/proceso" },
+      { "label": "Sobre", "href": "/s/es/nexa-paraguay/sobre" },
+      { "label": "Privacidad", "href": "/s/es/nexa-paraguay/privacidad" }
+    ]
+  },
+  "whatsapp": {
+    "phone": "595000000000",
+    "message": "Hola, quiero saber más sobre los programas de Nexa Paraguay."
+  }
+}

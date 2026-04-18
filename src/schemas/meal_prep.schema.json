@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "meal_prep",
+  "title": "Meal Prep & Personal Shopping Business Input Schema",
+  "description": "Additional fields required from meal prep / personal shopping businesses beyond the base schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "serviceCategories": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["compras", "prep", "cocinado", "add-on"] }
+    },
+    "portfolioTypes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["cortes_de_carne", "mise_en_place", "freezer_meals", "mercado"] }
+    },
+    "coverageArea": {
+      "type": "string",
+      "description": "Free-text coverage area (e.g. 'San Lorenzo ciudad completa')"
+    },
+    "sourcing": {
+      "type": "object",
+      "properties": {
+        "wholeAnimal": { "type": "boolean", "default": true },
+        "wholesaleMarkets": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Wholesale markets used (e.g. 'Abasto', 'Mercado San Lorenzo')"
+        },
+        "seasonal": { "type": "boolean", "default": true },
+        "preservativeFree": { "type": "boolean", "default": true }
+      }
+    },
+    "shoppingDays": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Days of week shopping is done (e.g. ['martes', 'jueves'])"
+    },
+    "inanLicensed": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the business holds an INAN license for cooked meals (Nivel 3)"
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "contact.whatsapp", "location.city", "services"],
+    "priority2": ["team", "tagline", "portfolio.images", "hours", "coverageArea"],
+    "priority3": ["branding.logoUrl", "faq", "sourcing", "inanLicensed"]
+  }
+}

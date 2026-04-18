@@ -3,8 +3,18 @@ name: CI
 on:
   push:
     branches: [Main]
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - '.github/CODEOWNERS'
+      - 'LICENSE'
   pull_request:
     branches: [Main]
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - '.github/CODEOWNERS'
+      - 'LICENSE'
 
 jobs:
   lint-and-typecheck:

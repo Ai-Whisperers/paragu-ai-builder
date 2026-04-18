@@ -1,0 +1,27 @@
+{
+  "slug": "blog",
+  "titleKey": "blog.index.seo.title",
+  "descriptionKey": "blog.index.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "blog.index"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

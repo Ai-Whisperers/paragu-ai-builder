@@ -1,0 +1,28 @@
+{
+  "name": "Hospitality warm defaults",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Warm Terracotta",
+      "colors": {
+        "primary": "#2F2A24",
+        "secondary": "#C26B4C",
+        "accent": "#E4C9A0",
+        "background": "#FDFAF5",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F5EDE0",
+        "text": "#2F2A24",
+        "textLight": "#4A4238",
+        "textMuted": "#7A7066"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Cormorant Garamond', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Cormorant+Garamond:wght@500;600;700", "Inter:wght@400;500;600"]
+}

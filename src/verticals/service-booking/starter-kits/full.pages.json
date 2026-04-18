@@ -1,0 +1,60 @@
+{
+  "description": "Full service-booking kit. Starting point for gyms, yoga studios, pilates, crossfit, dance academies, martial arts, swimming pools, language academies, music schools, therapists, nutritionists.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "titleKey": "home.seo.title",
+      "descriptionKey": "home.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "image", "content": "home.hero" },
+        { "id": "trust-signals", "variant": "credentials", "content": "home.trust" },
+        { "id": "services", "variant": "cards", "content": "home.services" },
+        { "id": "class-schedule", "variant": "grid", "content": "home.schedule", "enabledWhen": "classSchedule" },
+        { "id": "membership-plans", "variant": "cards", "content": "home.plans", "enabledWhen": "membershipPlans" },
+        { "id": "team", "variant": "cards", "content": "home.team" },
+        { "id": "testimonials", "variant": "grid", "content": "home.testimonials", "enabledWhen": "testimonials" },
+        { "id": "cta-banner", "variant": "gradient", "content": "home.finalCta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "reservar": {
+      "slug": "reservar",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "bookingPage.hero" },
+        { "id": "booking", "variant": "wizard", "content": "bookingPage.booking" },
+        { "id": "lead-form", "variant": "compact", "content": "bookingPage.lead" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "horarios": {
+      "slug": "horarios",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "class-schedule", "variant": "grid", "content": "schedulePage.schedule" },
+        { "id": "cta-banner", "variant": "solid", "content": "schedulePage.cta" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "planes": {
+      "slug": "planes",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "membership-plans", "variant": "cards", "content": "plansPage.plans" },
+        { "id": "faq", "variant": "accordion", "content": "plansPage.faq" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "contacto": {
+      "slug": "contacto",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "contact", "variant": "split", "content": "contactPage.contact" },
+        { "id": "lead-form", "variant": "standard", "content": "contactPage.lead" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    }
+  }
+}
