@@ -28,13 +28,13 @@ const TEMPLATES = [
   { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
   { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
-  { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#e84393', demoSlug: null },
-  { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
-  { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a', demoSlug: null },
-  { id: 'consultoria', name: 'Consultoria', icon: BarChart3, leads: 0, pct: 0, color: '#4a90a4', demoSlug: null },
-  { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed', demoSlug: null },
-  { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669', demoSlug: null },
-  { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706', demoSlug: null },
+  { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#e84393', demoSlug: 'makeup-studio' },
+  { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: 'inmobiliaria-py' },
+  { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a', demoSlug: 'legal-services' },
+  { id: 'consultoria', name: 'Consultoria', icon: BarChart3, leads: 0, pct: 0, color: '#4a90a4', demoSlug: 'consultora-py' },
+  { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed', demoSlug: 'academia-py' },
+  { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669', demoSlug: 'centro-salud' },
+  { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706', demoSlug: 'inversiones-py' },
 ] as const
 
 const TOTAL_LEADS = 7463
