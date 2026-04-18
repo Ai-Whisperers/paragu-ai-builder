@@ -10,6 +10,8 @@ import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
 import { loadVerticalCopy } from '@/lib/engine/site-loader'
 
+export const runtime = 'edge'
+
 interface Props {
   params: Promise<{ locale: string; site: string; page?: string[] }>
 }

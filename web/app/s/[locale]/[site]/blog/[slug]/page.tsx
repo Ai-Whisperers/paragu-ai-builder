@@ -7,6 +7,8 @@ import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
 import { alternatesFor } from '@/lib/i18n/routing'
 
+export const runtime = 'edge'
+
 interface Props {
   params: Promise<{ locale: string; site: string; slug: string }>
 }
