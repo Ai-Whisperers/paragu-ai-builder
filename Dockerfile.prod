@@ -1,18 +1,27 @@
 # Production Dockerfile for Hostinger VPS
+# This Dockerfile expects the standalone Next.js build files
+# to be in the build context root (not in .next/standalone/)
+
 FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy package files from web directory
+# Copy package files
 COPY package*.json ./
 
 # Install dependencies
 RUN npm ci --only=production
 
-# Copy built application
-COPY .next/standalone ./
-COPY .next/static ./.next/static
+# Copy built application (server.js should be in root)
+COPY server.js ./
+COPY .next ./.next
 COPY public ./public
+
+# Copy application code
+COPY app ./app
+COPY components ./components
+COPY lib ./lib
+COPY middleware.ts ./
 
 # Copy sites and src directories needed by site-loader
 COPY sites ./sites
