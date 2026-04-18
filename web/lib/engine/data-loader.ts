@@ -80,6 +80,11 @@ function rowToBusinessData(row: BusinessRow): BusinessData {
 }
 
 async function loadFromSupabase(slug: string): Promise<BusinessData | null> {
+  // Skip Supabase during static generation to avoid cookie usage
+  if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
+    return null
+  }
+
   try {
     const { createClient } = await import('@/lib/supabase/server')
     const supabase = await createClient()
@@ -94,7 +99,13 @@ async function loadFromSupabase(slug: string): Promise<BusinessData | null> {
     if (error || !data) return null
     return rowToBusinessData(data)
   } catch (e) {
-    console.warn('[DataLoader] Supabase not available:', e)
+    // Check if it's a dynamic server usage error (cookies not available during static generation)
+    const errorMessage = e instanceof Error ? e.message : String(e)
+    if (errorMessage.includes('Dynamic server usage') || errorMessage.includes('cookies')) {
+      console.log('[DataLoader] Skipping Supabase during static generation')
+    } else {
+      console.warn('[DataLoader] Supabase error:', errorMessage)
+    }
     return null
   }
 }
@@ -113,6 +124,11 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
 
 export async function loadAllSlugs(): Promise<string[]> {
   const slugs = new Set([...getAllDemoSlugs(), ...Object.keys(LEAD_BUSINESSES)])
+
+  // Skip Supabase during static generation
+  if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
+    return Array.from(slugs)
+  }
 
   // Try to get slugs from Supabase
   try {
@@ -135,6 +151,11 @@ export async function loadAllSlugs(): Promise<string[]> {
 
 export async function loadAllBusinesses(): Promise<BusinessData[]> {
   const businesses: BusinessData[] = [...Object.values(DEMO_BUSINESSES), ...Object.values(LEAD_BUSINESSES)]
+
+  // Skip Supabase during static generation
+  if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
+    return businesses
+  }
 
   // Try to get businesses from Supabase
   try {
