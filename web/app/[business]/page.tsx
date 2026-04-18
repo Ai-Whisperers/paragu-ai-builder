@@ -16,7 +16,7 @@ export async function generateStaticParams() {
   const demoSlugs = [
     'salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks', 
     'barberia-clasica', 'tinta-viva', 'belleza-integral', 'studio-belleza', 
-    'pestanas-flore', 'depilacion-perfecta', 'unas-y-mas', 'nexaparaguay', 'de-abasto-a-casa'
+    'pestanas-flore', 'depilacion-perfecta', 'unas-y-mas', 'de-abasto-a-casa'
   ]
   return demoSlugs.map((slug) => ({ business: slug }))
 }
