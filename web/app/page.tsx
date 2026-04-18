@@ -29,7 +29,7 @@ import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 
-export const runtime = 'edge'
+export const runtime = 'nodejs'
 import { HomeAnimations } from '@/components/home/home-animations'
 
 /* ── Registry data (static, no DB needed) ─────────────────────────── */

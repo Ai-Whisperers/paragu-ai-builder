@@ -4,7 +4,7 @@ import { renderSections } from '@/lib/engine/renderer'
 import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
 import type { Metadata } from 'next'
 
-export const runtime = 'edge'
+export const runtime = 'nodejs'
 
 interface Props {
   params: Promise<{ business: string }>
