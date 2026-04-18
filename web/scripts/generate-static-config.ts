@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// Define the 12 business types to include
+// Define the business types to include
 const BUSINESS_TYPES = [
   'salon_belleza',
   'peluqueria',
@@ -26,6 +26,7 @@ const BUSINESS_TYPES = [
   'pestanas',
   'depilacion',
   'meal_prep',
+  'relocation',
 ]
 
 // Paths
