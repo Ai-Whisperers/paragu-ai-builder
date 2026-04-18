@@ -115,27 +115,45 @@ export function useCountUp(end: number, duration: number = 2000, start: boolean 
 }
 
 export function useMediaQuery(query: string) {
-  const [matches, setMatches] = useState(false)
+  const [matches, setMatches] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return window.matchMedia(query).matches
+  })
 
   useEffect(() => {
     const media = window.matchMedia(query)
-    setMatches(media.matches)
-
     const listener = (e: MediaQueryListEvent) => setMatches(e.matches)
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (media.matches !== matches) setMatches(media.matches)
     media.addEventListener('change', listener)
     return () => media.removeEventListener('change', listener)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query])
 
   return matches
 }
 
 export function useLocalStorage<T>(key: string, initialValue: T) {
-  const [storedValue, setStoredValue] = useState<T>(initialValue)
+  const [storedValue, setStoredValue] = useState<T>(() => {
+    if (typeof window === 'undefined') return initialValue
+    try {
+      const item = window.localStorage.getItem(key)
+      return item ? (JSON.parse(item) as T) : initialValue
+    } catch (error) {
+      logger.warn('localStorage read failed', {
+        action: 'useLocalStorage.read',
+        storageKey: key,
+        error: error instanceof Error ? error.message : String(error),
+      })
+      return initialValue
+    }
+  })
 
   useEffect(() => {
     try {
       const item = window.localStorage.getItem(key)
       if (item) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setStoredValue(JSON.parse(item))
       }
     } catch (error) {

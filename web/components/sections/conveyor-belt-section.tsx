@@ -59,7 +59,7 @@ export function ConveyorBeltSection({
 
       <Container className="relative">
         <AnimatedSectionHeader className="mb-12 text-center">
-          <Heading as="h2" size="h2" className="mb-4">
+          <Heading as="h2" level={2} className="mb-4">
             {title}
           </Heading>
           {subtitle && (
@@ -93,7 +93,7 @@ export function ConveyorBeltSection({
         </div>
 
         <div className="mb-12">
-          <Heading as="h3" size="h3" className="mb-8 text-center">
+          <Heading as="h3" level={3} className="mb-8 text-center">
             {pricingTitle}
           </Heading>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -127,7 +127,7 @@ export function ConveyorBeltSection({
 
         {tips && tips.length > 0 && (
           <div className="mx-auto max-w-3xl rounded-xl border border-[var(--primary)]/10 bg-[var(--surface-light)] p-8 shadow-sm">
-            <Heading as="h4" size="h4" className="mb-4 text-center">
+            <Heading as="h4" level={4} className="mb-4 text-center">
               {tipsTitle}
             </Heading>
             <ul className="space-y-3">

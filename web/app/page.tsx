@@ -666,7 +666,7 @@ export default function HomePage() {
                       ))}
                     </ul>
 
-                    <a
+                    <Link
                       href="/admin"
                       className={`block w-full rounded-2xl py-4 text-center text-lg font-bold transition-all ${
                         plan.popular
@@ -675,7 +675,7 @@ export default function HomePage() {
                       }`}
                     >
                       {plan.cta}
-                    </a>
+                    </Link>
                   </div>
                 </FadeIn>
               ))}

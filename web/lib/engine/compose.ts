@@ -46,6 +46,10 @@ export type SectionType =
   | 'pricing'
   | 'process'
   | 'savingsCalculator'
+  // Restaurant / sushi / kaiten-zushi
+  | 'omakase'
+  | 'sakeMenu'
+  | 'conveyorBelt'
 
 export interface ComposedSection {
   type: SectionType

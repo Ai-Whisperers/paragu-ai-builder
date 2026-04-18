@@ -29,7 +29,7 @@ export function SakeMenuSection({
       </div>
       <Container className="relative">
         <AnimatedSectionHeader className="mb-12 text-center">
-          <Heading as="h2" size="h2" className="mb-4">
+          <Heading as="h2" level={2} className="mb-4">
             {title}
           </Heading>
           {subtitle && (
