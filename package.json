@@ -2,6 +2,8 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "glob": "^13.0.6",
+    "node-fetch": "^3.3.2",
+    "replicate": "^1.4.0",
     "sharp": "^0.34.5"
   }
 }

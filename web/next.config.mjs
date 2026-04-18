@@ -48,8 +48,9 @@ const securityHeaders = [
 ]
 
 const nextConfig = {
-  // Enable standalone output for VPS/Docker deployment
+  // Simple standalone output 
   output: 'standalone',
+  outputFileTracing: false,
 
   typescript: {
     ignoreBuildErrors: true,
@@ -61,6 +62,9 @@ const nextConfig = {
 
   // Disable trailing slash to match catch-all route behavior
   trailingSlash: false,
+
+  // Ensure / is pre-rendered
+  dynamicParams: 'force-static',
 
   images: {
     remotePatterns: [

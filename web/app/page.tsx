@@ -29,6 +29,7 @@ import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 
+export const dynamic = 'force-static'
 export const runtime = 'nodejs'
 import { HomeAnimations } from '@/components/home/home-animations'
 
