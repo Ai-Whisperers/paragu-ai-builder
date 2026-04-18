@@ -1,0 +1,39 @@
+{
+  "vertical": "inmobiliaria",
+  "country": "Paraguay",
+  "domain": "nexapropiedades.com",
+  "stagingDomain": "staging.nexapropiedades.com",
+  "defaultLocale": "es",
+  "locales": ["es", "en", "pt"],
+  "navigation": [
+    { "labelKey": "navigation.home", "path": "" },
+    { "labelKey": "navigation.properties", "path": "propiedades" },
+    { "labelKey": "navigation.services", "path": "servicios" },
+    { "labelKey": "navigation.contact", "path": "contacto" }
+  ],
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4",
+    "maps": "google-maps"
+  },
+  "features": {
+    "propertySearch": true,
+    "agentProfiles": true,
+    "testimonials": true,
+    "whatsappFloat": true
+  },
+  "contact": {
+    "whatsapp": "595981123456",
+    "email": "info@nexapropiedades.com",
+    "phone": "+595 21 123 4567"
+  },
+  "social": {
+    "facebook": "https://facebook.com/nexapropiedades",
+    "instagram": "https://instagram.com/nexapropiedades"
+  },
+  "seoDefaults": {
+    "titleTemplate": "{{pageTitle}} — Nexa Propiedades Paraguay",
+    "defaultDescription": "Encuentra tu hogar ideal en Paraguay. Casas, departamentos y terrenos en Asunción."
+  }
+}
