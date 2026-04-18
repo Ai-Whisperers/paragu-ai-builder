@@ -11,6 +11,10 @@ web/out/
 web/build/
 web/.next/standalone/
 
+# OpenNext / Cloudflare Workers build artifacts
+web/.open-next/
+.open-next/
+
 # Environment variables
 .env
 .env.local

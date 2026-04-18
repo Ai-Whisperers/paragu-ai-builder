@@ -236,6 +236,41 @@
       "leadCount": 0,
       "noWebsitePercent": 0,
       "priorityALeads": 0
+    },
+    "restaurant": {
+      "id": "restaurant",
+      "nameEs": "Restaurante",
+      "nameEn": "Restaurant",
+      "icon": "utensils",
+      "tokens": "restaurant",
+      "content": "restaurant",
+      "schema": "restaurant",
+      "categories": ["dining", "food_service"],
+      "sections": ["hero", "about", "featuredMenu", "reservations", "gallery", "testimonials", "location", "contact"]
+    },
+    "sushi_bar": {
+      "id": "sushi_bar",
+      "nameEs": "Sushi Bar",
+      "nameEn": "Sushi Bar",
+      "icon": "utensils",
+      "tokens": "sushi_bar",
+      "content": "sushi_bar",
+      "schema": "sushi_bar",
+      "extends": "restaurant",
+      "categories": ["dining", "japanese", "sushi"],
+      "sections": ["hero", "about", "featuredMenu", "omakase", "reservations", "gallery", "sakePairing", "contact"]
+    },
+    "kaiten_zushi": {
+      "id": "kaiten_zushi",
+      "nameEs": "Sushi Cinta Transportadora",
+      "nameEn": "Conveyor Belt Sushi",
+      "icon": "utensils",
+      "tokens": "kaiten_zushi",
+      "content": "kaiten_zushi",
+      "schema": "kaiten_zushi",
+      "extends": "sushi_bar",
+      "categories": ["dining", "japanese", "sushi", "family_friendly"],
+      "sections": ["hero", "about", "conveyorBelt", "featuredMenu", "howItWorks", "specialOrder", "reservations", "gallery", "contact"]
     }
   },
 

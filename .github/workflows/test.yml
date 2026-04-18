@@ -39,13 +39,12 @@ jobs:
           npm run lint
         id: lint
         
-      - name: Run unit tests
+      - name: Run unit + integration tests with coverage gate
         run: |
           cd web
-          npm run test:unit
+          npm run test:ci
         id: unit
-        continue-on-error: true
-        
+
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
         if: always()
@@ -121,7 +120,6 @@ jobs:
           cd web
           npm run build
         id: build
-        continue-on-error: true
         
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4

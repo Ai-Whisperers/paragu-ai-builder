@@ -7,6 +7,11 @@
 
 import type { BusinessData } from './compose'
 import { getDemoBusiness, getDemoBusinessBySlug, getAllDemoSlugs, RELOCATION_DEMO_BUSINESSES, DEMO_BUSINESSES } from './demo-data'
+import { logger } from '@/lib/logger'
+
+function isStaticGenerationCookieError(message: string): boolean {
+  return message.includes('Dynamic server usage') || message.includes('cookies')
+}
 
 type BusinessType = BusinessData['type']
 
@@ -80,6 +85,11 @@ function rowToBusinessData(row: BusinessRow): BusinessData {
 }
 
 async function loadFromSupabase(slug: string): Promise<BusinessData | null> {
+  // Skip Supabase during static generation to avoid cookie usage
+  if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
+    return null
+  }
+
   try {
     const { createClient } = await import('@/lib/supabase/server')
     const supabase = await createClient()
@@ -94,7 +104,16 @@ async function loadFromSupabase(slug: string): Promise<BusinessData | null> {
     if (error || !data) return null
     return rowToBusinessData(data)
   } catch (e) {
-    console.warn('[DataLoader] Supabase not available:', e)
+    const errorMessage = e instanceof Error ? e.message : String(e)
+    if (isStaticGenerationCookieError(errorMessage)) {
+      logger.debug('Skipping Supabase during static generation', { slug, action: 'loadFromSupabase' })
+    } else {
+      logger.warn('Supabase load failed, falling back to demo/lead data', {
+        slug,
+        action: 'loadFromSupabase',
+        error: errorMessage,
+      })
+    }
     return null
   }
 }
@@ -114,6 +133,11 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
 export async function loadAllSlugs(): Promise<string[]> {
   const slugs = new Set([...getAllDemoSlugs(), ...Object.keys(LEAD_BUSINESSES)])
 
+  // Skip Supabase during static generation
+  if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
+    return Array.from(slugs)
+  }
+
   // Try to get slugs from Supabase
   try {
     const { createClient } = await import('@/lib/supabase/server')
@@ -126,8 +150,14 @@ export async function loadAllSlugs(): Promise<string[]> {
     if (data) {
       data.forEach((row: { slug: string }) => slugs.add(row.slug))
     }
-  } catch {
-    // Supabase not available, use local data only
+  } catch (e) {
+    const errorMessage = e instanceof Error ? e.message : String(e)
+    if (!isStaticGenerationCookieError(errorMessage)) {
+      logger.warn('Supabase slug listing failed, using local data only', {
+        action: 'loadAllSlugs',
+        error: errorMessage,
+      })
+    }
   }
 
   return Array.from(slugs)
@@ -135,6 +165,11 @@ export async function loadAllSlugs(): Promise<string[]> {
 
 export async function loadAllBusinesses(): Promise<BusinessData[]> {
   const businesses: BusinessData[] = [...Object.values(DEMO_BUSINESSES), ...Object.values(LEAD_BUSINESSES)]
+
+  // Skip Supabase during static generation
+  if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
+    return businesses
+  }
 
   // Try to get businesses from Supabase
   try {
@@ -149,8 +184,14 @@ export async function loadAllBusinesses(): Promise<BusinessData[]> {
       const supabaseBusinesses = data.map(rowToBusinessData)
       return supabaseBusinesses
     }
-  } catch {
-    // Supabase not available
+  } catch (e) {
+    const errorMessage = e instanceof Error ? e.message : String(e)
+    if (!isStaticGenerationCookieError(errorMessage)) {
+      logger.warn('Supabase business listing failed, using local data only', {
+        action: 'loadAllBusinesses',
+        error: errorMessage,
+      })
+    }
   }
 
   return businesses

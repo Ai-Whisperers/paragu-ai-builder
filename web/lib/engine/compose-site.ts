@@ -29,6 +29,7 @@ import {
   hasVariant,
   defaultVariant,
 } from './section-registry'
+import { logger } from '@/lib/logger'
 
 const DEFAULT_PAGE_SLUG = 'home'
 
@@ -41,16 +42,26 @@ export interface ComposeInput {
 export function composeSitePage(input: ComposeInput): ResolvedPage {
   const { siteSlug, locale } = input
   const pageSlug = input.pageSlug || DEFAULT_PAGE_SLUG
+  const start = performance.now()
+  const baseContext = { action: 'composeSitePage', siteSlug, locale, pageSlug }
+
   const site: SiteDefinition = loadSite(siteSlug)
 
   if (!site.locales.includes(locale)) {
+    logger.error('Site composition: locale not enabled', {
+      ...baseContext,
+      enabledLocales: site.locales,
+    })
     throw new Error(
       `[compose-site] Locale "${locale}" not enabled for site "${siteSlug}"`,
     )
   }
 
   const page: PageDefinition | null = loadPage(siteSlug, pageSlug)
-  if (!page) throw new Error(`[compose-site] Page "${pageSlug}" not found for site "${siteSlug}"`)
+  if (!page) {
+    logger.error('Site composition: page not found', baseContext)
+    throw new Error(`[compose-site] Page "${pageSlug}" not found for site "${siteSlug}"`)
+  }
 
   const siteContent = loadSiteContent(siteSlug, locale)
   const verticalCopy = loadVerticalCopy(site.vertical, locale)
@@ -69,28 +80,45 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     .filter((s) => shouldInclude(s.enabledWhen, site.features))
     .map((s) => {
       if (!hasSection(s.id)) {
+        logger.error('Site composition: unknown section id', { ...baseContext, sectionId: s.id })
         throw new Error(
           `[compose-site] Unknown section id "${s.id}" on page "${pageSlug}"`,
         )
       }
       const variant = s.variant || defaultVariant(s.id)
       if (!hasVariant(s.id, variant)) {
+        logger.error('Site composition: unknown section variant', {
+          ...baseContext,
+          sectionId: s.id,
+          variant,
+        })
         throw new Error(
           `[compose-site] Variant "${variant}" not available for section "${s.id}"`,
         )
       }
 
-      const base = s.content ? (resolveRef(s.content, copyCtx) as Record<string, unknown>) : {}
-      const merged = mergeOverrides(base, s.overrides)
-      const filled = fillDeep(merged, placeholders) as Record<string, unknown>
+      try {
+        const base = s.content ? (resolveRef(s.content, copyCtx) as Record<string, unknown>) : {}
+        const merged = mergeOverrides(base, s.overrides)
+        const filled = fillDeep(merged, placeholders) as Record<string, unknown>
 
-      const props: Record<string, unknown> = {
-        ...filled,
-        __siteSlug: site.slug,
-        __locale: locale,
-        __country: site.country,
+        const props: Record<string, unknown> = {
+          ...filled,
+          __siteSlug: site.slug,
+          __locale: locale,
+          __country: site.country,
+        }
+        return { id: s.id, variant, props }
+      } catch (err) {
+        logger.error('Site composition: section content resolution failed', {
+          ...baseContext,
+          sectionId: s.id,
+          variant,
+          contentRef: s.content,
+          error: err instanceof Error ? err.message : String(err),
+        })
+        throw err
       }
-      return { id: s.id, variant, props }
     })
 
   if (vertical.allowedSections) {
@@ -98,6 +126,11 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
       (s) => !vertical.allowedSections!.includes(s.id),
     )
     if (disallowed) {
+      logger.error('Site composition: section disallowed for vertical', {
+        ...baseContext,
+        vertical: site.vertical,
+        disallowedSection: disallowed.id,
+      })
       throw new Error(
         `[compose-site] Section "${disallowed.id}" not allowed for vertical "${site.vertical}"`,
       )
@@ -108,6 +141,14 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
   const description = resolveMeta(page.descriptionKey, copyCtx) || ''
   const path = pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug
   const tokens = resolveSiteTokens(site.vertical, siteSlug)
+
+  const duration = Math.round(performance.now() - start)
+  logger.info('Site composition completed', {
+    ...baseContext,
+    vertical: site.vertical,
+    sectionCount: resolvedSections.length,
+    durationMs: duration,
+  })
 
   return {
     site,

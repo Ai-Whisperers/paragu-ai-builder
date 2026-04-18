@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { loadSite } from '@/lib/engine/site-loader'
 import { resolveAdapters } from '@/lib/integrations/registry'
+import { createRequestLogger, createPerformanceTracker } from '@/lib/logger'
 import type { Lead } from '@/lib/integrations/types'
 
 export const runtime = 'nodejs'
@@ -26,29 +27,52 @@ const LeadSchema = z.object({
 })
 
 export async function POST(req: Request) {
+  const log = createRequestLogger(req)
+  const perf = createPerformanceTracker(log.requestId)
+
+  const respond = (status: number, body: Record<string, unknown>) =>
+    NextResponse.json({ ...body, requestId: log.requestId }, {
+      status,
+      headers: { 'x-request-id': log.requestId },
+    })
+
   let json: unknown
   try {
     json = await req.json()
   } catch {
-    return NextResponse.json({ error: 'invalid json' }, { status: 400 })
+    log.warn('Invalid JSON body on /api/leads')
+    return respond(400, { error: 'invalid json' })
   }
 
   const parsed = LeadSchema.safeParse(json)
   if (!parsed.success) {
-    return NextResponse.json({ error: 'validation', detail: parsed.error.flatten() }, { status: 400 })
+    log.warn('Lead validation failed', { issues: parsed.error.flatten().fieldErrors })
+    return respond(400, { error: 'validation', detail: parsed.error.flatten() })
   }
   const data = parsed.data
+  perf.checkpoint('validate')
 
   if (!data.consent.privacyPolicy) {
-    return NextResponse.json({ error: 'privacy_not_accepted' }, { status: 400 })
+    log.info('Lead rejected: privacy policy not accepted', { siteSlug: data.siteSlug })
+    return respond(400, { error: 'privacy_not_accepted' })
+  }
+
+  if (data.honey) {
+    log.warn('Bot submission detected (honeypot)', { siteSlug: data.siteSlug })
+    return respond(400, { error: 'bot detected' })
   }
 
   let site
   try {
     site = loadSite(data.siteSlug)
-  } catch {
-    return NextResponse.json({ error: 'unknown_site' }, { status: 404 })
+  } catch (e) {
+    log.warn('Unknown site on /api/leads', {
+      siteSlug: data.siteSlug,
+      error: e instanceof Error ? e.message : String(e),
+    })
+    return respond(404, { error: 'unknown_site' })
   }
+  perf.checkpoint('load-site')
 
   const lead: Lead = {
     siteSlug: data.siteSlug,
@@ -65,24 +89,54 @@ export async function POST(req: Request) {
     createdAt: new Date().toISOString(),
   }
 
+  log.info('Processing lead', { siteSlug: data.siteSlug, locale: data.locale, source: data.source })
+
   const [supabaseResult, forwardResults] = await Promise.all([
     persistLeadToSupabase(lead).catch((e) => ({ ok: false, error: String(e) })),
     forwardLeadToAdapters(lead, site.integrations, data.consent.marketing),
   ])
+  perf.checkpoint('persist-and-forward')
+
+  if (!supabaseResult.ok) {
+    log.warn('Supabase lead persistence failed', {
+      siteSlug: data.siteSlug,
+      error: 'error' in supabaseResult ? supabaseResult.error : 'unknown',
+    })
+  }
+  for (const r of forwardResults) {
+    if (!r.ok) {
+      log.warn('Integration adapter failed', {
+        siteSlug: data.siteSlug,
+        adapter: r.name,
+        error: r.error,
+      })
+    } else {
+      log.debug('Integration adapter succeeded', { siteSlug: data.siteSlug, adapter: r.name })
+    }
+  }
 
   const ok = supabaseResult.ok || forwardResults.some((r) => r.ok)
   if (!ok) {
-    return NextResponse.json(
-      { error: 'all_destinations_failed', details: { supabase: supabaseResult, forwards: forwardResults } },
-      { status: 502 },
-    )
+    log.error('All lead destinations failed', {
+      siteSlug: data.siteSlug,
+      supabase: supabaseResult,
+      forwards: forwardResults,
+    })
+    return respond(502, {
+      error: 'all_destinations_failed',
+      details: { supabase: supabaseResult, forwards: forwardResults },
+    })
   }
 
-  return NextResponse.json({ 
-  ok: true, 
-  leadId: (supabaseResult as { id?: string }).id || 'unknown',
-  message: 'Lead created successfully' 
-}, { status: 201 })
+  const leadId = (supabaseResult as { id?: string }).id || 'unknown'
+  const duration = perf.finish({ siteSlug: data.siteSlug, leadId })
+  log.info('Lead accepted', { siteSlug: data.siteSlug, leadId, durationMs: duration })
+
+  return respond(201, {
+    ok: true,
+    leadId,
+    message: 'Lead created successfully',
+  })
 }
 
 async function forwardLeadToAdapters(

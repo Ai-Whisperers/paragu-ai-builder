@@ -9,6 +9,7 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { createServerClient } from '@supabase/ssr'
+import { logger } from '@/lib/logger'
 
 export async function middleware(request: NextRequest): Promise<NextResponse> {
   const path = request.nextUrl.pathname
@@ -39,7 +40,12 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
         return NextResponse.rewrite(url)
       }
     } catch (error) {
-      console.warn('[middleware] hostname rewrite skipped:', error)
+      logger.warn('Hostname rewrite skipped — falling back to original path', {
+        requestId,
+        host,
+        path,
+        error: error instanceof Error ? error.message : String(error),
+      })
     }
   }
 

@@ -1,0 +1,85 @@
+{
+  "id": "salud",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Tu Salud en Buenas Manos",
+    "subheadline": "Atencion medica integral con los mejores profesionales de la salud",
+    "ctaPrimary": "Agendar Cita",
+    "ctaSecondary": "Ver Servicios"
+  },
+
+  "servicesPage": {
+    "title": "Servicios Medicos",
+    "categories": [
+      {
+        "key": "medicina",
+        "title": "Medicina General",
+        "description": "Atencion primaria y preventiva para toda la familia",
+        "defaultServices": [
+          { "name": "Consulta General", "price": null, "duration": 30, "description": "Atencion medica integral" },
+          { "name": "Control Pediatrico", "price": null, "duration": 30, "description": "Seguimiento del desarrollo infantil" },
+          { "name": "Chequeo Anual", "price": null, "duration": 60, "description": "Evaluacion completa de salud" }
+        ]
+      },
+      {
+        "key": "especialidades",
+        "title": "Especialidades",
+        "description": "Consultas con especialistas en diversas areas",
+        "defaultServices": [
+          { "name": "Cardiologia", "price": null, "duration": 45, "description": "Estudios cardiacos" },
+          { "name": "Ginecologia", "price": null, "duration": 45, "description": "Salud de la mujer" },
+          { "name": "Dermatologia", "price": null, "duration": 30, "description": "Cuidado de la piel" },
+          { "name": "Nutricion", "price": null, "duration": 45, "description": "Planes alimenticios" }
+        ]
+      },
+      {
+        "key": "laboratorio",
+        "title": "Laboratorio",
+        "description": "Analisis clinicos con resultados rapidos y confiables",
+        "defaultServices": [
+          { "name": "Hemograma Completo", "price": null, "duration": 0, "description": "Analisis de sangre" },
+          { "name": "Perfil Lipidico", "price": null, "duration": 0, "description": "Colesterol y trigliceridos" },
+          { "name": "Glucosa", "price": null, "duration": 0, "description": "Nivel de azucar en sangre" },
+          { "name": "Orina Completa", "price": null, "duration": 0, "description": "Analisis de orina" }
+        ]
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Nuestros Medicos",
+    "subtitle": "Equipo de profesionales con amplia experiencia"
+  },
+
+  "testimonials": {
+    "title": "Pacientes satisfechos",
+    "items": [
+      { "quote": "Excelente atencion y muy buenos precios. Mi familia entera se atiende aqui.", "author": "Paciente", "role": "Consulta General" },
+      { "quote": "Moderno, limpio y el personal muy amable. Totalmente recomendado.", "author": "Paciente", "role": "Laboratorio" },
+      { "quote": "Los medicos son muy profesionales y se toman el tiempo para explicar todo.", "author": "Paciente", "role": "Cardiologia" }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "Necesito turno previo?", "answer": "Recomendamos agendar, pero tambien atendemos por orden de llegada." },
+      { "question": "Aceptan seguros medicos?", "answer": "Si, trabajamos con las principales companias de seguros." },
+      { "question": "Cuanto tardan los resultados de laboratorio?", "answer": "La mayoria de analisis estan listos en 24-48 horas." }
+    ]
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Agenda tu cita o consulta por nuestros servicios",
+    "addressLabel": "Direccion",
+    "phoneLabel": "Telefono",
+    "emailLabel": "Email",
+    "hoursLabel": "Horario de Atencion"
+  },
+
+  "footer": {
+    "tagline": "Cuidando tu salud y la de tu familia"
+  }
+}

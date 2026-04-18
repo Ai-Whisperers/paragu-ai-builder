@@ -1,0 +1,74 @@
+{
+  "name": "Inversiones (Investment)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["premium", "trustworthy", "sophisticated", "professional"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Wealth Gold",
+      "colors": {
+        "primary": "#1e3a5f",
+        "secondary": "#d97706",
+        "background": "#fafaf9",
+        "surface": "#ffffff",
+        "text": "#292524",
+        "textLight": "#78716c",
+        "success": "#22c55e",
+        "error": "#ef4444",
+        "secondaryHover": "#b45309"
+      }
+    },
+    "optionB": {
+      "name": "Executive Navy",
+      "colors": {
+        "primary": "#0f172a",
+        "secondary": "#475569",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "textLight": "#64748b",
+        "accent": "#94a3b8",
+        "success": "#22c55e",
+        "error": "#ef4444"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Playfair Display', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Playfair+Display:wght@400;500;700", "Inter:wght@300;400;500;600"],
+
+  "borderRadius": "sm",
+  "buttonStyle": "rounded-sm",
+
+  "components": {
+    "button": {
+      "padding": "16px 32px",
+      "borderRadius": "4px",
+      "hoverTranslateY": "-2px"
+    },
+    "serviceCard": {
+      "borderRadius": "8px",
+      "hoverTranslateY": "-4px",
+      "imageRatio": "16:9"
+    },
+    "teamCard": {
+      "imageShape": "circle",
+      "imageSize": "150px"
+    },
+    "gallery": {
+      "layout": "grid"
+    }
+  }
+}

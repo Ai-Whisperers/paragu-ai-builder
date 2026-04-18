@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { logger } from '@/lib/logger'
 
 interface ContactFormProps {
   businessEmail?: string
@@ -42,6 +43,10 @@ export default function ContactForm({
       setStatus('success')
       setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
     } catch (err) {
+      logger.warn('Contact form submission failed', {
+        action: 'contactForm.submit',
+        error: err instanceof Error ? err.message : String(err),
+      })
       setStatus('error')
       setErrorMessage('Hubo un error. Por favor intenta de nuevo.')
     }

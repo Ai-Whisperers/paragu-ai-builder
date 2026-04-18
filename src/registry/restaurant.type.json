@@ -1,0 +1,74 @@
+{
+  "id": "restaurant",
+  "nameEs": "Restaurante",
+  "nameEn": "Restaurant",
+
+  "tokens": "restaurant",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "about", "featuredMenu", "reservations", "gallery", "testimonials", "location", "footer"],
+      "requiredSections": ["header", "hero", "location", "footer"]
+    },
+    "menu": {
+      "sections": ["header", "fullMenu", "footer"],
+      "requiredSections": ["header", "fullMenu", "footer"]
+    },
+    "reservations": {
+      "sections": ["header", "reservationForm", "footer"],
+      "requiredSections": ["header", "reservationForm", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "photoGallery", "footer"],
+      "requiredSections": ["header", "photoGallery", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactInfo", "footer"],
+      "requiredSections": ["header", "contactInfo", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineOrdering": { "enabled": true, "method": "direct", "fallback": "whatsapp" },
+    "reservations": { "enabled": true, "method": "form", "platform": "internal" },
+    "menuDisplay": { "enabled": true, "showPrices": true, "categories": true, "dietaryTags": true },
+    "gallery": { "enabled": true, "categories": ["food", "interior", "team", "events"] },
+    "reviews": { "enabled": true, "platforms": ["google", "yelp"] },
+    "socialMedia": { "enabled": true, "platforms": ["instagram", "facebook"] },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "menuCategories": [
+    "appetizers",
+    "main_courses",
+    "sides",
+    "desserts",
+    "beverages"
+  ],
+
+  "targetAudience": {
+    "primary": "Local customers, families, food enthusiasts",
+    "secondary": "Tourists, business diners, event planners"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Restaurante en {{city}} | Menú y Reservas",
+    "descriptionTemplate": "Disfruta de la mejor gastronomía en {{city}}. Reserva tu mesa online. Menú variado con precios accesibles.",
+    "schemaType": "Restaurant",
+    "keywords": ["restaurante {{city}}", "comida {{city}}", "donde comer {{neighborhood}}", "reservas {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Menú", "Reservas", "Galería", "Contacto"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Sabores Auténticos en {{city}}",
+    "subheadlineTemplate": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+    "ctaPrimary": { "text": "Reservar Mesa", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Menú", "action": "scrollTo:menu" }
+  }
+}

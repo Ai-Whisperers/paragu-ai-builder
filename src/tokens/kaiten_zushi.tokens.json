@@ -1,0 +1,74 @@
+{
+  "name": "Kaiten Zushi (Conveyor Belt)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["fun", "modern", "casual", "family-friendly"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Playful Colors",
+      "colors": {
+        "primary": "#2196F3",
+        "secondary": "#FF5722",
+        "accent": "#FFC107",
+        "background": "#FFFFFF",
+        "surface": "#FAFAFA",
+        "surfaceLight": "#F5F5F5",
+        "text": "#212121",
+        "textLight": "#616161",
+        "textMuted": "#9E9E9E",
+        "success": "#4CAF50",
+        "error": "#F44336",
+        "warning": "#FF9800",
+        "secondaryHover": "#E64A19"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Fredoka', sans-serif",
+    "body": "'Nunito', sans-serif",
+    "accent": "'Fredoka', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Fredoka:wght@400;600", "Nunito:wght@400;600"],
+
+  "borderRadius": "lg",
+  "buttonStyle": "rounded-xl",
+
+  "components": {
+    "button": {
+      "padding": "16px 32px",
+      "borderRadius": "12px",
+      "hoverTranslateY": "-3px",
+      "shadow": "0 4px 12px rgba(0,0,0,0.15)"
+    },
+    "plateCard": {
+      "borderRadius": "16px",
+      "plateIndicatorSize": "48px",
+      "priceBadgeSize": "large"
+    },
+    "conveyorBelt": {
+      "animationSpeed": "20s",
+      "plateSpacing": "80px",
+      "beltColor": "#37474F"
+    },
+    "howItWorks": {
+      "stepNumberSize": "64px",
+      "stepNumberColor": "#2196F3",
+      "stepIconSize": "32px"
+    }
+  },
+
+  "platePricing": {
+    "showColorLegend": true,
+    "showPriceOnPlate": true,
+    "animatePlateArrival": true
+  }
+}

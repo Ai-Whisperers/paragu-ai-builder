@@ -1,0 +1,108 @@
+{
+  "name": "Sushi Bar",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["elegant", "authentic", "minimalist", "refined"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Traditional Japanese",
+      "colors": {
+        "primary": "#1A1A1A",
+        "secondary": "#C41E3A",
+        "accent": "#8B6914",
+        "background": "#FAFAFA",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F5F5F5",
+        "text": "#1A1A1A",
+        "textLight": "#4A4A4A",
+        "textMuted": "#7A7A7A",
+        "success": "#2E7D32",
+        "error": "#C41E3A",
+        "warning": "#F57C00",
+        "secondaryHover": "#A3182F"
+      }
+    },
+    "optionB": {
+      "name": "Ocean Fresh",
+      "colors": {
+        "primary": "#00695C",
+        "secondary": "#00897B",
+        "accent": "#4DD0E1",
+        "background": "#E0F2F1",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#E0F7FA",
+        "text": "#004D40",
+        "textLight": "#00695C",
+        "textMuted": "#00897B",
+        "success": "#00796B",
+        "error": "#D32F2F",
+        "warning": "#F57C00",
+        "secondaryHover": "#00695C"
+      }
+    },
+    "optionC": {
+      "name": "Premium Black",
+      "colors": {
+        "primary": "#0D0D0D",
+        "secondary": "#D4AF37",
+        "accent": "#B8860B",
+        "background": "#1A1A1A",
+        "surface": "#262626",
+        "surfaceLight": "#333333",
+        "text": "#FFFFFF",
+        "textLight": "#E0E0E0",
+        "textMuted": "#9E9E9E",
+        "success": "#4CAF50",
+        "error": "#EF5350",
+        "warning": "#FFA726",
+        "secondaryHover": "#C5A028"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Noto Serif JP', serif",
+    "body": "'Noto Sans JP', sans-serif",
+    "accent": "'Noto Serif JP', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Noto+Serif+JP:wght@400;700", "Noto+Sans+JP:wght@300;400;500"],
+
+  "borderRadius": "sm",
+  "buttonStyle": "rounded-sm",
+
+  "components": {
+    "button": {
+      "padding": "16px 32px",
+      "borderRadius": "4px",
+      "hoverTranslateY": "-2px"
+    },
+    "menuCard": {
+      "borderRadius": "8px",
+      "hoverShadow": "0 12px 32px rgba(0,0,0,0.15)",
+      "imageRatio": "1:1",
+      "japaneseNameSize": "0.75rem"
+    },
+    "omakaseCard": {
+      "borderWidth": "2px",
+      "premiumBorder": "gold"
+    },
+    "hero": {
+      "overlayOpacity": 0.3,
+      "textShadow": "0 2px 8px rgba(0,0,0,0.4)"
+    }
+  },
+
+  "culturalElements": {
+    "enableJapaneseTerms": true,
+    "showPronunciation": true,
+    "includeCulturalNotes": true
+  }
+}

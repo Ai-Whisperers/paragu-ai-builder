@@ -13,6 +13,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import { LeadsDashboardClient } from './leads-dashboard-client'
+import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
 
@@ -100,7 +101,11 @@ async function getLeads(
   const { data, error, count } = await query
   
   if (error) {
-    console.error('[Admin Leads] Error fetching leads:', error)
+    logger.error('Admin leads fetch failed', {
+      action: 'getLeads',
+      error: error.message,
+      filters: searchParams,
+    })
     return { leads: [], count: 0 }
   }
   
@@ -116,7 +121,10 @@ async function getStats(): Promise<Stats> {
     .select('status', { count: 'exact' })
   
   if (statusError) {
-    console.error('[Admin Leads] Error fetching stats:', statusError)
+    logger.error('Admin leads stats fetch failed', {
+      action: 'getStats',
+      error: statusError.message,
+    })
     return { total: 0, new: 0, contacted: 0, responded: 0, paying: 0, byType: {}, byCity: {} }
   }
   

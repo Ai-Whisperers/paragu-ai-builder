@@ -1,0 +1,86 @@
+{
+  "id": "sushi_bar",
+  "nameEs": "Sushi Bar",
+  "nameEn": "Sushi Bar",
+
+  "extends": "restaurant",
+  "tokens": "sushi_bar",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "about", "featuredMenu", "omakase", "reservations", "gallery", "sakePairing", "footer"],
+      "requiredSections": ["header", "hero", "location", "footer"]
+    },
+    "menu": {
+      "sections": ["header", "fullMenu", "footer"],
+      "requiredSections": ["header", "fullMenu", "footer"]
+    },
+    "omakase": {
+      "sections": ["header", "omakaseExperience", "reservationForm", "footer"],
+      "requiredSections": ["header", "omakaseExperience", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "photoGallery", "footer"],
+      "requiredSections": ["header", "photoGallery", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineOrdering": { "enabled": true, "method": "direct", "fallback": "whatsapp" },
+    "reservations": { "enabled": true, "method": "form", "platform": "internal" },
+    "omakaseBooking": { "enabled": true, "seatings": ["17:00", "19:00", "21:00"], "maxGuests": 12 },
+    "menuDisplay": { "enabled": true, "showPrices": true, "categories": true, "dietaryTags": true, "japaneseNames": true },
+    "gallery": { "enabled": true, "categories": ["sashimi", "nigiri", "maki", "omakase", "interior", "chef"] },
+    "reviews": { "enabled": true, "platforms": ["google", "yelp"] },
+    "socialMedia": { "enabled": true, "platforms": ["instagram", "facebook", "tiktok"] },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "sakeMenu": { "enabled": true }
+  },
+
+  "menuCategories": [
+    "appetizers",
+    "sashimi",
+    "nigiri",
+    "maki_rolls",
+    "specialty_rolls",
+    "hand_rolls",
+    "hibachi",
+    "desserts",
+    "sake"
+  ],
+
+  "targetAudience": {
+    "primary": "Sushi enthusiasts, Japanese cuisine lovers, date nights",
+    "secondary": "Business dinners, celebrations, omakase seekers"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Sushi Bar en {{city}} | Auténtico Japonés",
+    "descriptionTemplate": "El mejor sushi en {{city}}. Frescura garantizada, auténtico sabor japonés. Reserva tu experiencia omakase.",
+    "schemaType": "Restaurant",
+    "keywords": ["sushi {{city}}", "restaurante japonés {{city}}", "omakase {{city}}", "sashimi {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Menú", "Omakase", "Reservas", "Galería"],
+    "cta": { "text": "Reservar", "action": "booking" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Auténtico Sushi en {{city}}",
+    "subheadlineTemplate": "Frescura y tradición en cada pieza. Descubre el arte del sushi.",
+    "ctaPrimary": { "text": "Reservar Mesa", "action": "booking" },
+    "ctaSecondary": { "text": "Ver Menú", "action": "scrollTo:menu" }
+  },
+
+  "omakaseOptions": {
+    "enabled": true,
+    "tiers": [
+      { "name": "Clásico", "price": "250.000 Gs", "courses": 8, "description": "Selección tradicional del chef" },
+      { "name": "Premium", "price": "450.000 Gs", "courses": 12, "description": "Experiencia completa con sake pairing" },
+      { "name": "Ejecutivo", "price": "650.000 Gs", "courses": 15, "description": "Lo mejor del chef + botella de sake" }
+    ]
+  }
+}
