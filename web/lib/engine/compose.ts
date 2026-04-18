@@ -15,7 +15,7 @@
 import type { BusinessType } from '@/lib/types'
 import type { PageType } from '@/lib/types'
 import { fillTemplate } from '@/lib/utils'
-import { getRegistry, getContent, REGISTRY_MAP, CONTENT_MAP } from './static-config'
+import { getRegistry, getContent } from './static-config'
 
 // Section types matching our component library
 export type SectionType =
@@ -299,22 +299,8 @@ export async function composePageForType(
   business: BusinessData,
   pageType: PageType
 ): Promise<ComposedPage> {
-  console.log(`[Compose] Starting composition for business: ${business.slug}, type: ${business.type}, page: ${pageType}`)
-  
   const registry = loadRegistry(business.type)
   const content = loadContent(business.type)
-  
-  console.log(`[Compose] Registry loaded: ${registry ? 'YES' : 'NO'}, Content loaded: ${content ? 'YES' : 'NO'}`)
-  
-  if (!registry) {
-    console.error(`[Compose] Registry missing for type: ${business.type}`)
-    console.error(`[Compose] Available types in REGISTRY_MAP:`, Object.keys(REGISTRY_MAP || {}))
-  }
-  
-  if (!content) {
-    console.error(`[Compose] Content missing for type: ${business.type}`)
-    console.error(`[Compose] Available types in CONTENT_MAP:`, Object.keys(CONTENT_MAP || {}))
-  }
 
   if (!registry || !content) {
     throw new Error(
