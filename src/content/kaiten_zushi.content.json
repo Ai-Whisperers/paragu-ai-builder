@@ -1,0 +1,161 @@
+{
+  "id": "kaiten_zushi",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Sushi en Movimiento",
+    "subheadline": "La experiencia japonesa más divertida. Elige tus favoritos de la cinta.",
+    "ctaPrimary": "Ver Menú",
+    "ctaSecondary": "Cómo Funciona"
+  },
+
+  "about": {
+    "title": "Sushi Divertido",
+    "subtitle": "Kaiten-zushi: tradición en movimiento",
+    "content": "En {{businessName}} traemos la auténtica experiencia de sushi cinta transportadora de Japón. Cada plato pasa frente a ti - simplemente toma lo que te gusta. Perfecto para familias, niños, y quienes quieren probar un poco de todo.",
+    "highlights": [
+      { "title": "Fresco Constantemente", "description": "Nuevos platos cada pocos minutos" },
+      { "title": "Precios por Colores", "description": "Sabes exactamente cuánto pagas" },
+      { "title": "Para Toda la Familia", "description": "Niños aman la experiencia interactiva" }
+    ]
+  },
+
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Tu primera vez en Kaiten Sushi",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Toma un Asiento",
+        "description": "Elige tu lugar junto a la cinta transportadora"
+      },
+      {
+        "number": 2,
+        "title": "Elige tus Platos",
+        "description": "Toma lo que te gusta de la cinta. Cada color = diferente precio"
+      },
+      {
+        "number": 3,
+        "title": "Pide Especiales",
+        "description": "Usa la tableta para ordenar platos que no ves en la cinta"
+      },
+      {
+        "number": 4,
+        "title": "Disfruta",
+        "description": "Come a tu ritmo. Apilamos tus platos para contar al final"
+      }
+    ],
+    "tips": [
+      "Los platos verdes son los más económicos (básicos)",
+      "Los negros son premium (unagi, wagyu)",
+      "Puedes pedir cantidades específicas en la tableta",
+      "El té verde está incluido (sin límite)"
+    ]
+  },
+
+  "menuPage": {
+    "title": "Menú por Colores",
+    "subtitle": "Cada color, un precio. Tú eliges.",
+    "description": "Nuestro sistema de colores te permite controlar tu presupuesto. Desde platos básicos hasta ultra premium.",
+    "plates": {
+      "green": {
+        "title": "Platos Verdes",
+        "price": "15.000 Gs",
+        "items": ["Tamago Maki", "Kappa Maki", "Inari", "Platos básicos"],
+        "color": "#22c55e"
+      },
+      "yellow": {
+        "title": "Platos Amarillos",
+        "price": "25.000 Gs",
+        "items": ["Sake Nigiri", "Maguro Nigiri", "California Roll", "Favoritos populares"],
+        "color": "#eab308"
+      },
+      "orange": {
+        "title": "Platos Naranjas",
+        "price": "35.000 Gs",
+        "items": ["Sake Aburi", "Ebi Nigiri", "Spicy Tuna Roll", "Especiales"],
+        "color": "#f97316"
+      },
+      "red": {
+        "title": "Platos Rojos",
+        "price": "50.000 Gs",
+        "items": ["Hamachi", "Hotate", "Dragon Roll", "Premium"],
+        "color": "#ef4444"
+      },
+      "black": {
+        "title": "Platos Negros",
+        "price": "75.000 Gs",
+        "items": ["Unagi", "Wagyu Nigiri", "Otoro", "Ultra premium"],
+        "color": "#1a1a1a"
+      }
+    },
+    "specialOrder": {
+      "title": "Pedidos Especiales",
+      "description": "No ves lo que quieres? Ordena desde la tableta",
+      "items": ["Ramen", "Tempura", "Postres", "Bebidas especiales"]
+    }
+  },
+
+  "reservations": {
+    "title": "Reservaciones",
+    "subtitle": "Walk-ins bienvenidos, pero reservar asegura tu lugar",
+    "formLabels": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "date": "Fecha",
+      "time": "Hora",
+      "guests": "Personas",
+      "notes": "Notas especiales"
+    },
+    "walkInInfo": {
+      "title": "Walk-ins",
+      "description": "¡No tienes reserva? No hay problema! Tenemos espacio para walk-ins. Solo toma un número y te llamamos cuando haya lugar."
+    },
+    "submitButton": "Reservar",
+    "successMessage": "¡Reserva confirmada! Nos vemos pronto."
+  },
+
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "La magia de la cinta transportadora",
+    "categories": {
+      "conveyor": "Cinta en Acción",
+      "plates": "Nuestros Platos",
+      "interior": "Ambiente",
+      "team": "Equipo"
+    }
+  },
+
+  "contact": {
+    "title": "Visítanos",
+    "subtitle": "Experiencia Kaiten te espera",
+    "addressLabel": "Dirección",
+    "phoneLabel": "Teléfono",
+    "hoursLabel": "Horarios",
+    "directionsButton": "Cómo Llegar",
+    "callButton": "Llamar",
+    "whatsappButton": "WhatsApp"
+  },
+
+  "footer": {
+    "tagline": "Sushi divertido para toda la familia",
+    "quickLinks": "Enlaces",
+    "contact": "Contacto",
+    "followUs": "Síguenos"
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera saber si tienen mesas disponibles en {{businessName}}",
+    "birthdayMessage": "Hola! Quisiera reservar para un cumpleaños"
+  },
+
+  "kidFriendly": {
+    "title": "Perfecto para Niños",
+    "features": [
+      "Sillas altas disponibles",
+      "Menú infantil con precios especiales",
+      "Platos sin wasabi disponibles",
+      "Ambiente divertido y casual"
+    ]
+  }
+}

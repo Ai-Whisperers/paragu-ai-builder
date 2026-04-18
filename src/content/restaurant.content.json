@@ -1,0 +1,112 @@
+{
+  "id": "restaurant",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Sabores Auténticos en {{city}}",
+    "subheadline": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+    "ctaPrimary": "Reservar Mesa",
+    "ctaSecondary": "Ver Menú"
+  },
+
+  "about": {
+    "title": "Nuestra Historia",
+    "subtitle": "Pasión por la buena comida desde {{year}}",
+    "content": "En {{businessName}} creemos que cada comida debe ser una experiencia memorable. Utilizamos ingredientes frescos y de temporada para crear platos que deleitan todos los sentidos.",
+    "highlights": [
+      { "title": "Ingredientes Frescos", "description": "Seleccionamos los mejores productos locales" },
+      { "title": "Recetas Tradicionales", "description": "Preparación artesanal con técnicas clásicas" },
+      { "title": "Ambiente Único", "description": "Un espacio diseñado para tu disfrute" }
+    ]
+  },
+
+  "menuPage": {
+    "title": "Nuestro Menú",
+    "subtitle": "Platos preparados con amor y dedicación",
+    "categories": [
+      {
+        "key": "appetizers",
+        "title": "Entradas",
+        "description": "Comienza tu experiencia con nuestras deliciosas entradas"
+      },
+      {
+        "key": "main_courses",
+        "title": "Platos Principales",
+        "description": "Especialidades de la casa"
+      },
+      {
+        "key": "sides",
+        "title": "Acompañamientos",
+        "description": "Complementos perfectos"
+      },
+      {
+        "key": "desserts",
+        "title": "Postres",
+        "description": "El dulce final"
+      },
+      {
+        "key": "beverages",
+        "title": "Bebidas",
+        "description": "Refrescos, jugos y más"
+      }
+    ],
+    "dietaryLabels": {
+      "V": "Vegetariano",
+      "VG": "Vegano",
+      "GF": "Sin Gluten",
+      "SP": "Picante"
+    }
+  },
+
+  "reservations": {
+    "title": "Reserva tu Mesa",
+    "subtitle": "Asegura tu lugar para una experiencia inolvidable",
+    "formLabels": {
+      "name": "Nombre completo",
+      "phone": "Teléfono",
+      "email": "Email",
+      "date": "Fecha",
+      "time": "Hora",
+      "guests": "Número de personas",
+      "specialRequests": "Solicitudes especiales (alergias, celebraciones)"
+    },
+    "submitButton": "Confirmar Reserva",
+    "successMessage": "¡Reserva confirmada! Te esperamos.",
+    "timeSlots": ["12:00", "12:30", "13:00", "13:30", "14:00", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00"]
+  },
+
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Descubre nuestra esencia",
+    "categories": {
+      "food": "Platos",
+      "interior": "Ambiente",
+      "team": "Equipo",
+      "events": "Eventos"
+    }
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Estamos aquí para atenderte",
+    "addressLabel": "Dirección",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Email",
+    "hoursLabel": "Horarios",
+    "directionsButton": "Cómo Llegar",
+    "callButton": "Llamar Ahora",
+    "whatsappButton": "WhatsApp"
+  },
+
+  "footer": {
+    "tagline": "Sabores que enamoran desde {{year}}",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "followUs": "Síguenos"
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera hacer una reserva en {{businessName}}",
+    "orderMessage": "Hola! Quisiera hacer un pedido para llevar"
+  }
+}

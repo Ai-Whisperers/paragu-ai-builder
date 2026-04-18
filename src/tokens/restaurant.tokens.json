@@ -1,0 +1,97 @@
+{
+  "name": "Restaurant (General)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["warm", "inviting", "appetizing", "comfortable"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Warm & Rustic",
+      "colors": {
+        "primary": "#8B4513",
+        "secondary": "#D2691E",
+        "accent": "#F4A460",
+        "background": "#FFFAF0",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FFF8DC",
+        "text": "#3D2914",
+        "textLight": "#6B4423",
+        "textMuted": "#8B7355",
+        "success": "#228B22",
+        "error": "#DC143C",
+        "warning": "#FF8C00",
+        "secondaryHover": "#A0522D"
+      }
+    },
+    "optionB": {
+      "name": "Modern Minimal",
+      "colors": {
+        "primary": "#1A1A1A",
+        "secondary": "#C9A227",
+        "accent": "#E8D4B8",
+        "background": "#FAFAFA",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F5F5F5",
+        "text": "#1A1A1A",
+        "textLight": "#4A4A4A",
+        "textMuted": "#7A7A7A",
+        "success": "#2E7D32",
+        "error": "#C62828",
+        "warning": "#EF6C00",
+        "secondaryHover": "#B8941F"
+      }
+    },
+    "optionC": {
+      "name": "Fresh & Natural",
+      "colors": {
+        "primary": "#2E7D32",
+        "secondary": "#F57C00",
+        "accent": "#AED581",
+        "background": "#F1F8E9",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#E8F5E9",
+        "text": "#1B5E20",
+        "textLight": "#33691E",
+        "textMuted": "#558B2F",
+        "success": "#388E3C",
+        "error": "#D32F2F",
+        "warning": "#F57C00",
+        "secondaryHover": "#E65100"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Source Sans 3', sans-serif",
+    "accent": "'Playfair Display', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Playfair+Display:wght@400;700", "Source+Sans+3:wght@300;400;600"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-lg",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "menuCard": {
+      "borderRadius": "12px",
+      "hoverShadow": "0 8px 24px rgba(0,0,0,0.12)",
+      "imageRatio": "4:3"
+    },
+    "hero": {
+      "overlayOpacity": 0.4,
+      "textShadow": "0 2px 4px rgba(0,0,0,0.3)"
+    }
+  }
+}

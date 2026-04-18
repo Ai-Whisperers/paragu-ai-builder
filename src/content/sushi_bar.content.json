@@ -1,0 +1,195 @@
+{
+  "id": "sushi_bar",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Auténtico Sushi en {{city}}",
+    "subheadline": "Frescura y tradición en cada pieza. Descubre el arte del sushi.",
+    "ctaPrimary": "Reservar Mesa",
+    "ctaSecondary": "Ver Menú"
+  },
+
+  "about": {
+    "title": "Nuestra Filosofía",
+    "subtitle": "Mutan - Nada se agrega, solo la esencia pura",
+    "content": "En {{businessName}} honramos la tradición del sushi Edomae. Cada pieza es una obra de arte preparada con pescado fresco del mercado, arroz de grano corto premium y wasabi auténtico.",
+    "highlights": [
+      { "title": "Pescado Fresco", "description": "Selección diaria de la mejor calidad" },
+      { "title": "Chef Experto", "description": "Formación tradicional japonesa" },
+      { "title": "Técnicas Clásicas", "description": "Edomae: preparación ancestral" }
+    ]
+  },
+
+  "menuPage": {
+    "title": "Menú de Sushi",
+    "subtitle": "Auténtico sabor japonés",
+    "categories": [
+      {
+        "key": "appetizers",
+        "title": "Entradas",
+        "description": "Edamame, Gyoza, Miso Soup"
+      },
+      {
+        "key": "sashimi",
+        "title": "Sashimi",
+        "description": "Lonchas de pescado fresco sin arroz"
+      },
+      {
+        "key": "nigiri",
+        "title": "Nigiri",
+        "description": "Pescado sobre arroz vinagreado"
+      },
+      {
+        "key": "maki_rolls",
+        "title": "Maki Rolls",
+        "description": "Rollos tradicionales con alga nori"
+      },
+      {
+        "key": "specialty_rolls",
+        "title": "Rollos Especiales",
+        "description": "Creaciones únicas de la casa"
+      },
+      {
+        "key": "hand_rolls",
+        "title": "Temaki (Hand Rolls)",
+        "description": "Conos de sushi para comer con la mano"
+      },
+      {
+        "key": "hibachi",
+        "title": "Hibachi",
+        "description": "Platos teppanyaki a la parrilla"
+      },
+      {
+        "key": "sake",
+        "title": "Sake & Bebidas",
+        "description": "Selección premium de Japón"
+      }
+    ],
+    "dietaryLabels": {
+      "V": "Vegetariano",
+      "VG": "Vegano",
+      "GF": "Sin Gluten",
+      "SP": "Picante",
+      "RAW": "Crudo"
+    },
+    "japaneseTerms": {
+      "maguro": "Atún rojo",
+      "salmon": "Salmón",
+      "hamachi": "Pez limón",
+      "unagi": "Anguila",
+      "tamago": "Tortilla dulce",
+      "ebi": "Camarón"
+    }
+  },
+
+  "omakase": {
+    "title": "Experiencia Omakase",
+    "subtitle": "Confía en el chef - 'Te dejo a ti'",
+    "description": "Omakase es la forma más pura de disfrutar sushi. El chef selecciona y prepara cada pieza según los ingredientes más frescos del día. Una experiencia gastronómica única e irrepetible.",
+    "tiers": [
+      {
+        "name": "Clásico",
+        "courses": 8,
+        "duration": "60 minutos",
+        "features": ["Selección tradicional", "Nigiri premium", "Sashimi de temporada"]
+      },
+      {
+        "name": "Premium",
+        "courses": 12,
+        "duration": "90 minutos",
+        "features": ["Todo del Clásico", "Sake pairing incluido", "Postre especial"]
+      },
+      {
+        "name": "Ejecutivo",
+        "courses": 15,
+        "duration": "120 minutos",
+        "features": ["Todo del Premium", "Botella de sake", "Receta exclusiva"]
+      }
+    ],
+    "notes": [
+      "Reservación obligatoria 24 horas antes",
+      "Informar alergias al reservar",
+      "No se aceptan cambios de menú",
+      "Duración aproximada según ritmo"
+    ]
+  },
+
+  "reservations": {
+    "title": "Reserva tu Mesa",
+    "subtitle": "Asegura tu experiencia gastronómica",
+    "formLabels": {
+      "name": "Nombre completo",
+      "phone": "Teléfono",
+      "email": "Email",
+      "date": "Fecha",
+      "time": "Hora",
+      "guests": "Número de personas",
+      "experience": "Tipo de experiencia",
+      "specialRequests": "Alergias o solicitudes especiales"
+    },
+    "experienceTypes": [
+      { "value": "regular", "label": "Mesa Regular" },
+      { "value": "counter", "label": "Barra del Chef" },
+      { "value": "omakase", "label": "Omakase" }
+    ],
+    "submitButton": "Confirmar Reserva",
+    "successMessage": "¡Reserva confirmada! Te esperamos para una experiencia inolvidable.",
+    "timeSlots": ["12:00", "12:30", "13:00", "13:30", "14:00", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00"]
+  },
+
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "El arte del sushi",
+    "categories": {
+      "sashimi": "Sashimi",
+      "nigiri": "Nigiri",
+      "maki": "Maki",
+      "omakase": "Omakase",
+      "interior": "Ambiente",
+      "chef": "Chef"
+    }
+  },
+
+  "sake": {
+    "title": "Sake & Bebidas",
+    "subtitle": "La compañía perfecta para tu sushi",
+    "description": "Descubre nuestra selección de sake premium importado de Japón, cervezas artesanales japonesas y té matcha auténtico.",
+    "types": [
+      { "name": "Junmai", "description": "Sake puro, sin aditivos" },
+      { "name": "Ginjo", "description": "Aroma frutal, muy refinado" },
+      { "name": "Daiginjo", "description": "Premium, elaborado con 50% del grano" }
+    ]
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Estamos aquí para atenderte",
+    "addressLabel": "Dirección",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Email",
+    "hoursLabel": "Horarios",
+    "directionsButton": "Cómo Llegar",
+    "callButton": "Llamar",
+    "whatsappButton": "WhatsApp"
+  },
+
+  "footer": {
+    "tagline": "Tradición japonesa en cada pieza",
+    "quickLinks": "Enlaces",
+    "contact": "Contacto",
+    "followUs": "Síguenos"
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera hacer una reserva en {{businessName}}",
+    "orderMessage": "Hola! Quisiera hacer un pedido de sushi para llevar",
+    "omakaseMessage": "Hola! Me interesa reservar la experiencia Omakase"
+  },
+
+  "culturalNotes": {
+    "itadakimasu": "Decimos 'itadakimasu' antes de comer - agradecemos los ingredientes y el trabajo",
+    "freshness": "Nuestro pescado llega fresco todos los días del mercado",
+    "technique": "Usamos técnicas Edomae: sujime (curado), yaki (ligero asado)",
+    "wasabi": "Wasabi fresco rallado al momento - más suave y aromático"
+  }
+}
