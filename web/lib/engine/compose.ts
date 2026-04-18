@@ -150,10 +150,15 @@ export interface ComposedPage {
   }
 }
 
-function loadJson<T>(relativePath: string): T {
-  const fullPath = resolve(process.cwd(), '..', relativePath)
-  const content = readFileSync(fullPath, 'utf-8')
-  return JSON.parse(content)
+function loadJson<T>(relativePath: string): T | null {
+  try {
+    const fullPath = resolve(process.cwd(), '..', relativePath)
+    const content = readFileSync(fullPath, 'utf-8')
+    return JSON.parse(content)
+  } catch (error) {
+    console.error(`[Compose] Failed to load JSON from ${relativePath}:`, error)
+    return null
+  }
 }
 
 interface RegistryType {
@@ -300,6 +305,13 @@ export async function composePageForType(
 ): Promise<ComposedPage> {
   const registry = loadJson<RegistryType>(`src/registry/${business.type}.type.json`)
   const content = loadJson<ContentTemplate>(`src/content/${business.type}.content.json`)
+
+  if (!registry || !content) {
+    throw new Error(
+      `[Compose] Failed to load registry or content for business type: ${business.type}. ` +
+      `Registry: ${registry ? 'OK' : 'MISSING'}, Content: ${content ? 'OK' : 'MISSING'}`
+    )
+  }
 
   const templateData: Record<string, string | number> = {
     businessName: business.name,
