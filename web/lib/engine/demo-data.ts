@@ -575,110 +575,6 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     ],
   },
 
-  'academia-py': {
-    name: 'Academia Paraguay',
-    slug: 'academia-py',
-    type: 'educacion',
-    tagline: 'Aprende con los mejores',
-    city: 'Asuncion',
-    neighborhood: 'Villa Morra',
-    address: 'Av. Santa Rosa 1800',
-    phone: '+595985556677',
-    whatsapp: '+595985556677',
-    instagram: '@academiapy',
-    facebook: 'academiapy',
-    hours: {
-      'Lunes - Viernes': '07:00 - 21:00',
-      'Sabado': '08:00 - 14:00',
-      'Domingo': 'Cerrado',
-    },
-    services: [
-      { name: 'Cursos de Ingles', price: '350.000 Gs/mes', duration: 0, description: 'Todos los niveles, profesores nativos', category: 'Idiomas' },
-      { name: 'Cursos de Portugues', price: '300.000 Gs/mes', duration: 0, description: 'Preparacion para el MERCOSUR', category: 'Idiomas' },
-      { name: 'Programacion', price: '450.000 Gs/mes', duration: 0, description: 'Web development, Python, Data Science', category: 'Tecnologia' },
-      { name: 'Diseño Grafico', price: '400.000 Gs/mes', duration: 0, description: 'Adobe Creative Suite, branding', category: 'Diseno' },
-      { name: 'Preparacion SAT/TOEFL', price: '500.000 Gs/mes', duration: 0, description: 'Preparacion intensiva para examenes', category: 'Examenes' },
-    ],
-    team: [
-      { name: 'Sarah Johnson', role: 'Directora Academica', bio: 'Doctora en Educacion. 15 años liderando instituciones educativas.' },
-      { name: 'John Smith', role: 'Profesor de Ingles', bio: 'Nativo de EEUU, certificado TEFL.' },
-      { name: 'Marcos Silva', role: 'Instructor de Programacion', bio: 'Ingeniero senior con experiencia en Silicon Valley.' },
-    ],
-    testimonials: [
-      { quote: 'Los mejores cursos de ingles. Aprendi mas en 6 meses que en años escolares.', author: 'Pedro A.', rating: 5 },
-      { quote: 'El curso de programacion me cambio la vida. Consegui trabajo remoto.', author: 'Ana B.', rating: 5 },
-    ],
-  },
-
-  'centro-salud': {
-    name: 'Centro de Salud Integral',
-    slug: 'centro-salud',
-    type: 'salud',
-    tagline: 'Tu salud en buenas manos',
-    city: 'Asuncion',
-    neighborhood: 'San Jorge',
-    address: 'Av. San Jorge 2200',
-    phone: '+595986667788',
-    whatsapp: '+595986667788',
-    instagram: '@centrosaludpy',
-    facebook: 'centrosaludpy',
-    hours: {
-      'Lunes - Viernes': '07:00 - 20:00',
-      'Sabado': '08:00 - 14:00',
-      'Domingo': 'Emergencias',
-    },
-    services: [
-      { name: 'Consulta General', price: '100.000 Gs', duration: 30, description: 'Atencion medica integral', category: 'Medicina' },
-      { name: 'Pediatria', price: '120.000 Gs', duration: 30, description: 'Atencion especializada para niños', category: 'Especialidades' },
-      { name: 'Ginecologia', price: '150.000 Gs', duration: 45, description: 'Salud de la mujer', category: 'Especialidades' },
-      { name: 'Cardiologia', price: '200.000 Gs', duration: 45, description: 'Estudios cardiacos', category: 'Especialidades' },
-      { name: 'Laboratorio', price: 'Desde 50.000 Gs', duration: 0, description: 'Analisis clinicos completos', category: 'Laboratorio' },
-    ],
-    team: [
-      { name: 'Dr. Martinez', role: 'Medico General', bio: '20 años de experiencia en medicina familiar.' },
-      { name: 'Dra. Lopez', role: 'Pediatra', bio: 'Especialista en neonatologia y desarrollo infantil.' },
-      { name: 'Dr. Fernandez', role: 'Cardiologo', bio: 'Especialista en enfermedades cardiovasculares.' },
-    ],
-    testimonials: [
-      { quote: 'Excelente atencion y muy buenos precios. Mi familia entera se atiende aqui.', author: 'Maria C.', rating: 5 },
-      { quote: 'Moderno, limpio y el personal muy amable.', author: 'Juan P.', rating: 5 },
-    ],
-  },
-
-  'inversiones-py': {
-    name: 'Inversiones Paraguay',
-    slug: 'inversiones-py',
-    type: 'inversiones',
-    tagline: 'Hacemos crecer tu capital',
-    city: 'Asuncion',
-    neighborhood: 'Centro',
-    address: 'Edificio World Trade Center, Piso 15',
-    phone: '+595987778899',
-    whatsapp: '+595987778899',
-    instagram: '@inversionespy',
-    facebook: 'inversionespy',
-    hours: {
-      'Lunes - Viernes': '08:00 - 17:00',
-      'Sabado': 'Cerrado',
-      'Domingo': 'Cerrado',
-    },
-    services: [
-      { name: 'Asesoria Financiera', price: 'Consultar', duration: 0, description: 'Planificacion financiera personalizada', category: 'Asesoria' },
-      { name: 'Inversiones Inmobiliarias', price: 'Consultar', duration: 0, description: 'Portafolio de propiedades de inversion', category: 'Inmuebles' },
-      { name: 'Fondos de Inversion', price: 'Desde 5.000.000 Gs', duration: 0, description: 'Diversificacion de portafolio', category: 'Fondos' },
-      { name: 'Plan de Retiro', price: 'Consultar', duration: 0, description: 'Preparacion para el retiro', category: 'Retiro' },
-      { name: 'Gestion de Riesgo', price: 'Consultar', duration: 0, description: 'Proteccion de activos', category: 'Riesgo' },
-    ],
-    team: [
-      { name: 'Eduardo Gonzalez', role: 'Director de Inversiones', bio: 'MBA en Finanzas. Ex director de banco de inversion.' },
-      { name: 'Ana Maria Ruiz', role: 'Asesora Senior', bio: 'Certificada en planificacion financiera (CFP).' },
-      { name: 'Carlos Mendez', role: 'Analista de Mercado', bio: 'Especialista en inversiones inmobiliarias.' },
-    ],
-    testimonials: [
-      { quote: 'Me ayudaron a invertir mis ahorros de forma inteligente. Excelente retorno.', author: 'Roberto S.', rating: 5 },
-      { quote: 'Muy profesionales. Confiabilidad total en la gestion de mis activos.', author: 'Luisa M.', rating: 5 },
-    ],
-  },
 }
 
 /**
@@ -736,9 +632,9 @@ export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
       { name: 'Equipo Legal', role: 'Expedientes migratorios y societarios', bio: 'Abogados especializados.' },
     ],
     testimonials: [
-      { quote: 'Todo el proceso fue transparente y profesional. Recomendado.', author: 'Cliente荷兰', rating: 5 },
-      { quote: 'En un solo viaje resolvimos todo. Increible.', author: 'Cliente德国', rating: 5 },
-      { quote: 'El equipo legal es excelente. Muy recomendados.', author: 'Cliente荷兰', rating: 5 },
+      { quote: 'Todo el proceso fue transparente y profesional. Recomendado.', author: 'Cliente Netherlands', rating: 5 },
+      { quote: 'En un solo viaje resolvimos todo. Increible.', author: 'Cliente Alemania', rating: 5 },
+      { quote: 'El equipo legal es excelente. Muy recomendados.', author: 'Cliente Netherlands', rating: 5 },
     ],
   },
 }
