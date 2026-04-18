@@ -1,0 +1,84 @@
+{
+  "id": "educacion",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Aprende con los Mejores",
+    "subheadline": "Cursos de idiomas, tecnologia y habilidades profesionales para tu futuro",
+    "ctaPrimary": "Ver Cursos",
+    "ctaSecondary": "Contactar"
+  },
+
+  "servicesPage": {
+    "title": "Nuestros Cursos",
+    "categories": [
+      {
+        "key": "idiomas",
+        "title": "Idiomas",
+        "description": "Aprende ingles, portugues y otros idiomas con profesores nativos",
+        "defaultServices": [
+          { "name": "Ingles Basico", "price": null, "duration": 0, "description": "Desde cero hasta conversacion" },
+          { "name": "Ingles Intermedio", "price": null, "duration": 0, "description": "Mejora tu fluidez" },
+          { "name": "Ingles Avanzado", "price": null, "duration": 0, "description": "Dominio profesional" },
+          { "name": "Portugues", "price": null, "duration": 0, "description": "Para el MERCOSUR" }
+        ]
+      },
+      {
+        "key": "tecnologia",
+        "title": "Tecnologia",
+        "description": "Cursos de programacion, diseno web y herramientas digitales",
+        "defaultServices": [
+          { "name": "Programacion Web", "price": null, "duration": 0, "description": "HTML, CSS, JavaScript" },
+          { "name": "Python", "price": null, "duration": 0, "description": "Desde cero hasta Data Science" },
+          { "name": "Excel Avanzado", "price": null, "duration": 0, "description": "Para el mundo laboral" }
+        ]
+      },
+      {
+        "key": "profesional",
+        "title": "Desarrollo Profesional",
+        "description": "Habilidades blandas y preparacion para el mercado laboral",
+        "defaultServices": [
+          { "name": "Oratoria", "price": null, "duration": 0, "description": "Habla en publico con confianza" },
+          { "name": "Liderazgo", "price": null, "duration": 0, "description": "Gestiona equipos de trabajo" },
+          { "name": "Preparacion SAT/TOEFL", "price": null, "duration": 0, "description": "Examenes internacionales" }
+        ]
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Nuestros Profesores",
+    "subtitle": "Docentes calificados con experiencia internacional"
+  },
+
+  "testimonials": {
+    "title": "Lo que dicen nuestros estudiantes",
+    "items": [
+      { "quote": "Los mejores cursos de ingles. Aprendi mas en 6 meses que en anos escolares.", "author": "Estudiante", "role": "Curso de Ingles" },
+      { "quote": "El curso de programacion me cambio la vida. Consegui trabajo remoto.", "author": "Graduado", "role": "Curso de Python" },
+      { "quote": "Profesores nativos y metodologia moderna. Muy recomendado.", "author": "Estudiante", "role": "Curso de Portugues" }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "Necesito conocimientos previos?", "answer": "No, tenemos cursos desde nivel principiante hasta avanzado." },
+      { "question": "Emiten certificados?", "answer": "Si, todos nuestros cursos incluyen certificado de aprobacion." },
+      { "question": "Puedo tomar clases online?", "answer": "Si, ofrecemos modalidad presencial, online y hibrida." }
+    ]
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Consulta sobre nuestros cursos y horarios",
+    "addressLabel": "Direccion",
+    "phoneLabel": "Telefono",
+    "emailLabel": "Email",
+    "hoursLabel": "Horario de Atencion"
+  },
+
+  "footer": {
+    "tagline": "Capacitando profesionales desde 2020"
+  }
+}

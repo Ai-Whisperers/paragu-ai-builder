@@ -1,0 +1,94 @@
+{
+  "id": "inversiones",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "{{businessName}} - Hacemos Crecer tu Capital",
+    "subheadline": "Asesoria financiera profesional y gestion de inversiones personalizada",
+    "ctaPrimary": "Consultar Ahora",
+    "ctaSecondary": "Ver Servicios"
+  },
+
+  "servicesPage": {
+    "title": "Nuestros Servicios",
+    "categories": [
+      {
+        "key": "asesoria",
+        "title": "Asesoria Financiera",
+        "description": "Planificacion financiera personalizada para tus objetivos",
+        "defaultServices": [
+          { "name": "Planificacion Patrimonial", "price": null, "duration": 0, "description": "Protege y haz crecer tu patrimonio" },
+          { "name": "Analisis de Portafolio", "price": null, "duration": 0, "description": "Evaluacion de inversiones actuales" },
+          { "name": "Estrategia de Inversion", "price": null, "duration": 0, "description": "Plan a mediano y largo plazo" }
+        ]
+      },
+      {
+        "key": "inmuebles",
+        "title": "Inversiones Inmobiliarias",
+        "description": "Portafolio de propiedades con potencial de valorizacion",
+        "defaultServices": [
+          { "name": "Compra de Propiedades", "price": null, "duration": 0, "description": "Asesoria en adquisicion" },
+          { "name": "REITs", "price": null, "duration": 0, "description": "Fondos de inversion inmobiliaria" },
+          { "name": "Desarrollo de Proyectos", "price": null, "duration": 0, "description": "Inversion en construccion" }
+        ]
+      },
+      {
+        "key": "fondos",
+        "title": "Fondos de Inversion",
+        "description": "Diversificacion profesional de tu portafolio",
+        "defaultServices": [
+          { "name": "Fondos de Renta Variable", "price": null, "duration": 0, "description": "Inversion en acciones" },
+          { "name": "Fondos de Renta Fija", "price": null, "duration": 0, "description": "Bonos y valores de deuda" },
+          { "name": "Fondos Mixtos", "price": null, "duration": 0, "description": "Combinacion balanceada" },
+          { "name": "Fondos Internacionales", "price": null, "duration": 0, "description": "Diversificacion global" }
+        ]
+      },
+      {
+        "key": "retiro",
+        "title": "Planificacion para el Retiro",
+        "description": "Preparate para una jubilacion tranquila y digna",
+        "defaultServices": [
+          { "name": "Plan de Retiro Personal", "price": null, "duration": 0, "description": "Calcula tus necesidades futuras" },
+          { "name": "Planes de Pension", "price": null, "duration": 0, "description": "Ahorro previsional" },
+          { "name": "Ingresos Pasivos", "price": null, "duration": 0, "description": "Flujo de ingresos continuo" }
+        ]
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Nuestro Equipo",
+    "subtitle": "Profesionales con experiencia en mercados financieros globales"
+  },
+
+  "testimonials": {
+    "title": "Clientes satisfechos",
+    "items": [
+      { "quote": "Me ayudaron a invertir mis ahorros de forma inteligente. Excelente retorno.", "author": "Inversionista", "role": "Asesoria Financiera" },
+      { "quote": "Muy profesionales. Confiabilidad total en la gestion de mis activos.", "author": "Cliente", "role": "Fondos de Inversion" },
+      { "quote": "Gracias a su plan de retiro, puedo pensar en mi futuro con tranquilidad.", "author": "Cliente", "role": "Planificacion Patrimonial" }
+    ]
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "Cuanto necesito para empezar a invertir?", "answer": "Depende del tipo de inversion. Fondos desde 5 millones Gs, asesoria personalizada desde 50 millones." },
+      { "question": "Son inversiones seguras?", "answer": "Toda inversion tiene riesgo. Evaluamos tu perfil para recomendar opciones adecuadas." },
+      { "question": "Como puedo hacer seguimiento de mis inversiones?", "answer": "Ofrecemos reportes mensuales y acceso a plataforma online." }
+    ]
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Agenda una consulta inicial gratuita",
+    "addressLabel": "Direccion",
+    "phoneLabel": "Telefono",
+    "emailLabel": "Email",
+    "hoursLabel": "Horario de Atencion"
+  },
+
+  "footer": {
+    "tagline": "Tu socio financiero de confianza"
+  }
+}
