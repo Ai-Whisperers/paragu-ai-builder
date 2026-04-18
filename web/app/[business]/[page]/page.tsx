@@ -5,7 +5,7 @@ import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
 import type { Metadata } from 'next'
 import type { PageType } from '@/lib/types'
 
-export const runtime = 'nodejs'
+export const runtime = 'edge'
 
 interface Props {
   params: Promise<{ business: string; page: string }>

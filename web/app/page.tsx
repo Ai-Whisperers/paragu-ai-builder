@@ -30,7 +30,7 @@ import { Container } from '@/components/ui/container'
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 
 export const dynamic = 'force-static'
-export const runtime = 'nodejs'
+export const runtime = 'edge'
 import { HomeAnimations } from '@/components/home/home-animations'
 
 /* ── Registry data (static, no DB needed) ─────────────────────────── */
