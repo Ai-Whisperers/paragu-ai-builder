@@ -1,0 +1,165 @@
+{
+  "id": "meal_prep",
+  "locale": "es-PY",
+
+  "hero": {
+    "headline": "Convertimos el caos del mercado en comida lista",
+    "subheadline": "Compras, prep y freezer meals puerta a puerta en {{city}}. Whole-animal, mayorista, sin conservantes.",
+    "ctaPrimary": "Calcula tu ahorro",
+    "ctaSecondary": "Pedir por WhatsApp"
+  },
+
+  "servicesPage": {
+    "title": "Nuestros Niveles de Servicio",
+    "subtitle": "Elegi lo que se adapta a tu semana. Precios referenciales, ajustables segun tu hogar.",
+    "categories": [
+      {
+        "key": "compras",
+        "title": "Nivel 1 - Compra por Lista (Raw)",
+        "description": "Vos nos mandas la lista, nosotros traemos los ingredientes enteros desde Abasto y mercado. Vos cocinas.",
+        "defaultServices": [
+          { "name": "Basico", "price": "250.000 Gs/semana", "duration": 120, "description": "Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido." },
+          { "name": "Completo", "price": "400.000 Gs/semana", "duration": 180, "description": "Lista completa + Abasto + mercado + almacen. Delivery y organizado en cocina." }
+        ]
+      },
+      {
+        "key": "prep",
+        "title": "Nivel 2 - Mise-en-Place Semanal (mas elegido)",
+        "description": "Compramos, lavamos, porcionamos y organizamos tu heladera y freezer. Listo para cocinar en minutos.",
+        "defaultServices": [
+          { "name": "Individual (1 persona)", "price": "400.000 Gs/semana", "duration": 240, "description": "Prep basico. Proteina + carbos + vegetales porcionados y sellados al vacio." },
+          { "name": "Pareja (2 personas)", "price": "650.000 Gs/semana", "duration": 300, "description": "Prep completo para 2. Organizacion de heladera y freezer." },
+          { "name": "Familia (3-4 personas)", "price": "900.000 Gs/semana", "duration": 360, "description": "Prep familiar. Variedad, porciones y sustituciones incluidas." }
+        ]
+      },
+      {
+        "key": "cocinado",
+        "title": "Nivel 3 - Comidas Listas (proximamente)",
+        "description": "Comidas completas selladas al vacio, listas para recalentar. Requiere habilitacion INAN en curso.",
+        "defaultServices": [
+          { "name": "10 comidas/semana", "priceFrom": "1.200.000 Gs/semana", "duration": 480, "description": "5 almuerzos + 5 cenas para 1 persona. Variedad rotativa." },
+          { "name": "15 comidas/semana", "priceFrom": "1.700.000 Gs/semana", "duration": 540, "description": "Pack familiar. 3 comidas/dia durante 5 dias laborables." }
+        ]
+      },
+      {
+        "key": "add-on",
+        "title": "Add-ons opcionales",
+        "description": "Sumables a cualquier nivel.",
+        "defaultServices": [
+          { "name": "Desayunos", "price": "+400.000 Gs/mes", "description": "Desayunos listos para la semana." },
+          { "name": "Postres", "price": "+200.000 Gs/mes", "description": "Postres caseros sumados al pack." },
+          { "name": "Bebidas / snacks", "price": "+300.000 Gs/mes", "description": "Bebidas y snacks saludables." }
+        ]
+      }
+    ]
+  },
+
+  "teamPage": {
+    "title": "Quien esta detras",
+    "memberTemplate": {
+      "buttonText": "Escribile a {{name}}"
+    }
+  },
+
+  "galleryPage": {
+    "title": "Cortes y calidad",
+    "subtitle": "Whole-animal, mayorista, lo mejor del mercado.",
+    "categories": ["Cortes de Carne", "Mise en Place", "Freezer Meals", "Mercado"],
+    "ctaText": "Ver mas"
+  },
+
+  "contactPage": {
+    "title": "Pedinos tu propuesta",
+    "locationTitle": "Cobertura en {{city}}",
+    "formFields": ["name", "phone", "plan", "message"],
+    "formSubmitText": "Enviar Consulta"
+  },
+
+  "faq": [
+    { "q": "Que incluye el servicio?", "a": "Incluye: compras en Abasto + mercado, prep (lavado, cortado, porcionado), sellado al vacio, 2 entregas por mes puerta a puerta con cadena de frio, sustituciones hasta 3 menus por mes, precio fijo 6 meses y pausa de vacaciones. No incluye desayunos, bebidas ni postres (disponibles como add-on)." },
+    { "q": "Como son las entregas?", "a": "Compramos martes y jueves. Entregamos el mismo dia, puerta a puerta, con cadena de frio. Coordinamos horario por WhatsApp." },
+    { "q": "Puedo pausar el servicio?", "a": "Si. Tenes 1 mes por ano de pausa sin costo (vacaciones, viajes, etc). Avisanos con 48 hrs." },
+    { "q": "Que pasa si no me gusta una comida?", "a": "Garantia de satisfaccion: si algo sale mal, lo reemplazamos sin cargo en la proxima entrega." },
+    { "q": "En que casos NO me conviene?", "a": "Honestidad total: si te encanta cocinar, si tu gasto actual es menor a Gs. 2M/mes para 3 personas, o si no tenes freezer. Mejor no te suscribas." },
+    { "q": "Como pago?", "a": "Transferencia bancaria o efectivo. Sin compromiso en el primer mes. Precio fijo 6 meses al suscribirte." },
+    { "q": "Atienden fuera de San Lorenzo?", "a": "Por ahora solo San Lorenzo (ciudad completa). Proximamente Asuncion centro." },
+    { "q": "Tienen habilitacion INAN?", "a": "Nivel 1 y Nivel 2 no requieren habilitacion especial (solo compra y prep). Nivel 3 (comidas cocidas listas) esta en proceso de habilitacion INAN." }
+  ],
+
+  "ctaBanner": {
+    "title": "Pedi tu propuesta en 5 min por WhatsApp",
+    "buttonText": "Escribir ahora"
+  },
+
+  "footer": {
+    "columns": ["about", "quickLinks", "contact", "social"],
+    "quickLinks": ["Servicios", "Calculadora", "Galeria", "FAQ", "Contacto"],
+    "copyright": "{{year}} {{businessName}} - San Lorenzo, Paraguay."
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola! Vi el sitio de {{businessName}} y quiero saber mas sobre Nivel 2 (mise-en-place).",
+    "serviceMessage": "Hola! Me interesa {{serviceName}} de {{businessName}}. Podemos conversar?"
+  },
+
+  "savingsCalculator": {
+    "title": "Calcula tu ahorro real",
+    "subtitle": "Numeros honestos. Si no te conviene, te lo decimos.",
+    "inputs": {
+      "groceriesLabel": "Super + carniceria + feria (mes)",
+      "deliveryLabel": "Delivery + comer afuera (mes)",
+      "wasteLabel": "Comida tirada + compras impulsivas (mes)",
+      "utilitiesLabel": "Gas/luz extra cocinando (mes)",
+      "householdLabel": "Personas en el hogar",
+      "hourlyValueLabel": "Valor de tu hora en Gs.",
+      "hoursPerMonthLabel": "Horas por mes cocinando + comprando",
+      "tierLabel": "Nivel a comparar"
+    },
+    "tierOptions": [
+      { "key": "nivel1_completo", "label": "Nivel 1 Completo (1.600.000 Gs/mes)", "monthlyGs": 1600000 },
+      { "key": "nivel2_individual", "label": "Nivel 2 Individual (1.600.000 Gs/mes)", "monthlyGs": 1600000 },
+      { "key": "nivel2_pareja", "label": "Nivel 2 Pareja (2.600.000 Gs/mes)", "monthlyGs": 2600000 },
+      { "key": "nivel2_familia", "label": "Nivel 2 Familia (3.600.000 Gs/mes)", "monthlyGs": 3600000 }
+    ],
+    "outputs": {
+      "cashTotalLabel": "Plata real hoy",
+      "timeValueLabel": "Valor de tu tiempo hoy",
+      "totalTodayLabel": "Costo TOTAL hoy",
+      "ourServiceLabel": "Nuestro servicio (mes)",
+      "savingsLabel": "Ahorro mensual estimado",
+      "hoursRecoveredLabel": "Horas recuperadas por mes",
+      "negativeCopy": "Hoy ya sos muy eficiente. Probablemente no te conviene - pero si queres probar 1 mes sin compromiso, escribinos igual.",
+      "positiveCopy": "Si tu ahorro es grande, tiene sentido probar 1 mes sin compromiso.",
+      "ctaText": "Seguir por WhatsApp con mis numeros"
+    },
+    "disclaimer": "Estimacion referencial. Precios finales se ajustan segun tu hogar y nivel de servicio."
+  },
+
+  "howItWorks": {
+    "title": "Como funciona",
+    "steps": [
+      { "num": "01", "title": "Conversamos", "desc": "10 min por WhatsApp. Armamos tu plan segun presupuesto, personas y dias que queres recibir." },
+      { "num": "02", "title": "Planeamos tu semana", "desc": "Menu base, sustituciones, proveedores, horarios de compra y entrega." },
+      { "num": "03", "title": "Compramos y prepeamos", "desc": "Martes y jueves en Abasto y mercado. Prep en cocina certificada. Sellado al vacio." },
+      { "num": "04", "title": "Entregamos", "desc": "Puerta a puerta, con cadena de frio. Organizamos tu heladera y freezer si lo pedis." }
+    ]
+  },
+
+  "qualitySourcing": {
+    "title": "Como compramos",
+    "pillars": [
+      { "title": "Whole-animal", "desc": "Animales enteros, cortados y porcionados por nosotros. Mejor calidad, mejor precio por kilo." },
+      { "title": "Mayorista Abasto", "desc": "Proveedores directos, sin intermediarios. Precios de mercado mayorista trasladados al cliente." },
+      { "title": "Estacional", "desc": "Respetamos el calendario de Paraguay. Compramos lo que esta en temporada, mas barato y mas rico." },
+      { "title": "Sin conservantes", "desc": "Congelamos al instante despues del prep. Nunca usamos aditivos ni conservantes." }
+    ]
+  },
+
+  "seo": {
+    "altTextTemplates": {
+      "service": "{{serviceName}} en {{businessName}}, {{city}}",
+      "portfolio": "{{serviceName}} de {{businessName}} - Paraguay",
+      "team": "{{memberName}} - {{memberTitle}} en {{businessName}}"
+    }
+  }
+}

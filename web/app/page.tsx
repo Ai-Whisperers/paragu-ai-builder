@@ -23,6 +23,7 @@ import {
   MapPin,
   Users,
   TrendingUp,
+  ShoppingCart,
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
@@ -52,9 +53,10 @@ const TEMPLATES = [
   { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed' },
   { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669' },
   { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706' },
+  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a' },
 ] as const
 
-const TOTAL_LEADS = 7491
+const TOTAL_LEADS = 7463
 
 const FEATURES = [
   {
@@ -84,8 +86,8 @@ const FEATURES = [
   },
   {
     icon: Layers,
-    title: '11 Plantillas',
-    desc: 'Disenos especializados para cada tipo de negocio de belleza y bienestar.',
+    title: '13 Plantillas',
+    desc: 'Disenos especializados para multiples tipos de negocio: belleza, bienestar, diseno, meal prep, reubicacion y mas.'
   },
 ]
 
@@ -93,7 +95,7 @@ const STEPS = [
   {
     num: '01',
     title: 'Selecciona tu tipo de negocio',
-    desc: 'Elegí entre 11 categorias de belleza y bienestar con plantillas especializadas.',
+    desc: 'Elegi entre nuestras plantillas iniciales o pedi una generacion IA adaptada a tu rubro.',
   },
   {
     num: '02',
@@ -133,7 +135,7 @@ export default async function HomePage() {
                 Plantillas
               </a>
               <a href="#proyectos" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
-                Proyectos
+                Ejemplos
               </a>
               <a href="#como-funciona" className="text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]">
                 Como Funciona
@@ -172,17 +174,17 @@ export default async function HomePage() {
               </div>
 
               <h1 className="hero-animate-delay-1 mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-[var(--text)] sm:text-5xl md:text-6xl lg:text-7xl">
-                Sitios web para{' '}
+                Sitios web profesionales para tu{' '}
                 <span className="bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] bg-clip-text text-transparent">
-                  belleza y bienestar
-                </span>{' '}
-                en Paraguay
+                  negocio en Paraguay
+                </span>
               </h1>
 
               <p className="hero-animate-delay-2 mx-auto mb-10 max-w-2xl text-lg text-[var(--text-light)] md:text-xl">
-                Motor de generacion con IA que crea sitios web profesionales para peluquerias,
-                spas, gimnasios y mas. Diseñados para el mercado paraguayo, optimizados para
-                convertir visitantes en clientes.
+                Motor de generacion con IA que crea sitios web profesionales, rapidos y
+                optimizados para cualquier tipo de negocio. Empezamos con 11 plantillas
+                especializadas para belleza y bienestar, y seguimos expandiendo a mas
+                rubros.
               </p>
 
               <div className="hero-animate-delay-2 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -197,7 +199,7 @@ export default async function HomePage() {
                   href="#proyectos"
                   className="inline-flex items-center gap-2 rounded-xl border-2 border-[var(--border)] px-8 py-3.5 text-base font-semibold text-[var(--text)] transition-all duration-normal hover:border-[var(--primary)] hover:text-[var(--primary)]"
                 >
-                  Ver Proyectos
+                  Ver Ejemplos
                   <ChevronRight size={18} />
                 </a>
               </div>
@@ -231,8 +233,9 @@ export default async function HomePage() {
                 11 Diseños Especializados
               </h2>
               <p className="text-[var(--text-light)]">
-                Cada categoria de negocio tiene su propia plantilla con secciones, contenido
-                y diseño pensados especificamente para ese rubro.
+                Cada una de nuestras 11 plantillas iniciales esta pensada para un rubro
+                especifico de belleza y bienestar. Pronto sumaremos mas categorias y el
+                motor IA puede generar sitios adaptados a cualquier negocio.
               </p>
             </div>
 
@@ -278,14 +281,14 @@ export default async function HomePage() {
           <Container>
             <div className="section-fade mx-auto mb-14 max-w-2xl text-center">
               <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--primary)]">
-                Proyectos
+                Ejemplos
               </p>
               <h2 className="mb-4 text-3xl font-bold text-[var(--text)] sm:text-4xl">
-                Sitios Generados
+                Ejemplos de Sitios
               </h2>
               <p className="text-[var(--text-light)]">
-                Explora sitios web reales generados por nuestra plataforma para diferentes
-                tipos de negocios.
+                Estos son ejemplos demo generados con nuestra plataforma. Te muestran
+                como luce un sitio real para cada tipo de negocio.
               </p>
             </div>
 
@@ -329,9 +332,8 @@ export default async function HomePage() {
                           <Icon size={12} />
                           {template?.name || biz.type}
                         </span>
-                        <span className="inline-flex items-center gap-1 rounded-full bg-green-50 px-3 py-1 text-xs font-medium text-green-700">
-                          <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
-                          Activo
+                        <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-700">
+                          Demo
                         </span>
                       </div>
 
@@ -370,7 +372,7 @@ export default async function HomePage() {
                 href="/admin"
                 className="inline-flex items-center gap-2 text-sm font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--primary)]"
               >
-                Ver todos en el panel admin <ArrowRight size={14} />
+                Ver mas ejemplos en el panel admin <ArrowRight size={14} />
               </Link>
             </div>
           </Container>
@@ -457,17 +459,18 @@ export default async function HomePage() {
                 Paraguay necesita presencia digital
               </h2>
               <p className="mb-12 text-[var(--text-light)]">
-                Nuestro analisis de mercado revela una oportunidad masiva: la mayoria de
-                negocios de belleza y bienestar aun no tienen presencia web.
+                Nuestro analisis de mercado en el sector belleza y bienestar en Paraguay
+                revela una oportunidad masiva: la mayoria aun no tiene presencia web.
+                El patron se repite en otros rubros.
               </p>
             </div>
 
             <div className="section-fade grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { icon: BarChart3, value: '7,491', label: 'Negocios Identificados', sub: 'En todo Paraguay' },
-                { icon: TrendingUp, value: '75%', label: 'Sin Sitio Web', sub: 'Oportunidad directa' },
-                { icon: Star, value: '5,215', label: 'Leads Prioritarios', sub: 'Listos para contactar' },
-                { icon: MapPin, value: '209', label: 'Ciudades Cubiertas', sub: 'Cobertura nacional' },
+                { icon: BarChart3, value: '+7,400', label: 'Negocios Identificados', sub: 'En todo Paraguay' },
+                { icon: TrendingUp, value: '75%', label: 'Sin Sitio Web', sub: '+5,600 negocios' },
+                { icon: Star, value: '+3,900', label: 'Leads Prioritarios', sub: 'Priority A (con telefono, sin web)' },
+                { icon: MapPin, value: '209', label: 'Ciudades Cubiertas', sub: 'Con oportunidades identificadas' },
               ].map((stat) => {
                 const Icon = stat.icon
                 return (
@@ -485,6 +488,11 @@ export default async function HomePage() {
                 )
               })}
             </div>
+
+            <p className="section-fade mt-8 text-center text-xs text-[var(--text-muted)]">
+              Datos de nuestro analisis de mercado (abril 2026, Google Maps Places API,
+              sector belleza y bienestar).
+            </p>
           </Container>
         </section>
 
@@ -502,8 +510,8 @@ export default async function HomePage() {
                 Lleva tu negocio al mundo digital
               </h2>
               <p className="mb-8 text-lg text-[var(--primary-foreground)]/80">
-                Unite a los miles de negocios de belleza y bienestar en Paraguay que
-                estan listos para crecer con presencia web profesional.
+                Unite a los negocios paraguayos que estan listos para crecer con una
+                presencia web profesional, rapida y pensada para convertir.
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link
@@ -540,8 +548,9 @@ export default async function HomePage() {
                 </span>
               </div>
               <p className="max-w-sm text-sm leading-relaxed text-[var(--text-muted)]">
-                Motor de generacion de sitios web con inteligencia artificial para negocios
-                de belleza y bienestar en Paraguay.
+                Motor de generacion de sitios web con inteligencia artificial para
+                negocios en Paraguay. Empezamos con belleza y bienestar, expandiendonos
+                a todos los rubros.
               </p>
             </div>
 
@@ -556,7 +565,7 @@ export default async function HomePage() {
                 </li>
                 <li>
                   <a href="#proyectos" className="transition-colors hover:text-[var(--primary)]">
-                    Proyectos
+                    Ejemplos
                   </a>
                 </li>
                 <li>
@@ -582,7 +591,7 @@ export default async function HomePage() {
                 <li>Barberias</li>
                 <li>
                   <a href="#plantillas" className="text-[var(--primary)]">
-                    +6 categorias mas
+                    +7 categorias mas
                   </a>
                 </li>
               </ul>

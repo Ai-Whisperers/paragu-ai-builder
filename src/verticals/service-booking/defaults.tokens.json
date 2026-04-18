@@ -1,0 +1,28 @@
+{
+  "name": "Service booking neutral defaults",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Active Green",
+      "colors": {
+        "primary": "#0F2A1D",
+        "secondary": "#2EB872",
+        "accent": "#F4A261",
+        "background": "#FFFFFF",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F1F5F2",
+        "text": "#0F2A1D",
+        "textLight": "#3D4A44",
+        "textMuted": "#6F7A74"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Oswald', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Oswald:wght@500;600;700", "Inter:wght@400;500;600;700"]
+}

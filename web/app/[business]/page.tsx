@@ -32,6 +32,8 @@ function generateJsonLd(business: { type: string; name: string; slug: string; ad
     maquillaje: 'BeautySalon',
     depilacion: 'HealthAndBeautyBusiness',
     pestanas: 'BeautySalon',
+    diseno_grafico: 'ProfessionalService',
+    meal_prep: 'FoodService',
   }
 
   const schema = {
@@ -118,8 +120,10 @@ export default async function BusinessPage({ params }: Props) {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: page.theme.cssString }} />
+      {/* Google Fonts — precedence tells React 19 to manage this as a
+          blocking style resource so it doesn't get orphan-preloaded. */}
       {page.theme.googleFontsUrl && (
-        <link rel="stylesheet" href={page.theme.googleFontsUrl} />
+        <link rel="stylesheet" href={page.theme.googleFontsUrl} precedence="default" />
       )}
       <div
         className="min-h-screen"

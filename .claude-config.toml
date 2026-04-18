@@ -1,0 +1,135 @@
+# CLAUDE.md - AI Assistant Configuration
+# 
+# This file configures how Claude (and similar AI assistants) should work
+# with this codebase. It extends AGENTS.md with tool-specific instructions.
+
+[core]
+project = "Paragu-AI Builder"
+type = "nextjs-supabase-website-generator"
+language = "typescript"
+content_language = "spanish"
+
+[critical_rules]
+# These are non-negotiable - always enforce
+no_tailwind_v4 = true
+no_hardcoded_colors = true
+always_use_css_variables = true
+always_filter_by_business_id = true
+never_silently_catch_errors = true
+never_commit_env_files = true
+
+[coding_preferences]
+component_type = "server-first"
+error_handling = "log-and-rethrow"
+styling = "css-variables-only"
+typescript_strictness = "strict"
+reuse_strategy = "existing-sections-first"
+
+[file_patterns]
+business_types = "src/registry/*.type.json"
+tokens = "src/tokens/*.tokens.json"
+content = "src/content/*.content.json"
+sections = "web/components/sections/*-section.tsx"
+schemas = "supabase/migrations/*.sql"
+
+[common_tasks]
+add_business_type.steps = """
+1. Read src/registry/index.json for examples
+2. Create src/registry/[type].type.json
+3. Create src/tokens/[type].tokens.json  
+4. Create src/content/[type].content.json
+5. Add type to web/lib/types.ts BUSINESS_TYPES
+6. Add demo data in web/lib/engine/demo-data.ts
+7. Test with npm run build
+"""
+
+fix_build_error.checklist = """
+1. Run: npm run typecheck
+2. Run: npm run lint
+3. Check web/package.json for tailwind version (must be 3.4.19)
+4. Search for hardcoded colors (bg-blue-500, text-red-600, etc)
+5. Check database queries filter by business_id
+"""
+
+add_section.steps = """
+1. Read web/components/sections/hero-section.tsx as example
+2. Create web/components/sections/[name]-section.tsx
+3. Use CSS variables: var(--primary), var(--background)
+4. Add to web/lib/engine/renderer.tsx SECTION_COMPONENTS
+5. Add to web/lib/engine/compose.ts SectionType
+6. Test with npm run build
+"""
+
+[database]
+migrations_dir = "supabase/migrations"
+rls_required = true
+indexes_required = true
+testing_required = true
+
+[tools]
+# Firecrawl skills available
+skills = ["firecrawl-scrape", "firecrawl-crawl", "firecrawl-search", "firecrawl-map", "firecrawl-agent"]
+
+# When to use tools
+use_skills_for = ["research", "competitor-analysis", "content-extraction", "validation"]
+
+# Never use tools for
+dont_use_skills_for = ["database-queries", "template-rendering", "auth", "payments"]
+
+[workflows]
+quick_deploy.steps = """
+1. Check .env.local exists with Supabase credentials
+2. Verify supabase/migrations/000_complete_schema.sql has been run
+3. Run npm run build to test
+4. Deploy to Cloudflare Pages
+5. Run npm run import:leads if needed
+"""
+
+lead_to_customer.steps = """
+1. Query lead from leads table
+2. Generate preview site using composePage()
+3. Create wa.me link with templated message
+4. Log outreach event to outreach_events table
+5. On response: update lead status to 'responded'
+6. On payment: create subscription record
+"""
+
+[communication]
+commit_style = "conventional"
+commit_examples = [
+  "feat: Add dentist business type",
+  "fix: Resolve token resolution for missing palettes",
+  "refactor: Simplify hostname mapping",
+  "docs: Update deployment guide",
+  "test: Add unit tests for compose engine"
+]
+
+pr_template = """
+## Summary
+- What changed: 
+- Why: 
+- Testing: 
+"""
+
+[testing]
+required_before_push = ["typecheck", "build"]
+optional = ["unit-tests", "e2e-tests"]
+quick_check = "npm run typecheck && npm run build"
+
+[emergency]
+production_down.steps = ["Check Cloudflare status", "Check Supabase status", "Rollback if needed", "Check error logs"]
+security_incident.steps = ["Rotate API keys", "Check access logs", "Review recent deploys", "Document incident"]
+
+[references]
+architecture = "CLAUDE.md"
+agents_guide = "AGENTS.md"
+strategy = "docs/STRATEGY_NEXT_STEPS.md"
+deployment = "docs/DEPLOYMENT.md"
+tenants = "docs/TENANTS.md"
+
+[examples]
+# Path to example files for reference
+simple_business_type = "src/registry/peluqueria.type.json"
+complex_business_type = "src/registry/relocation.type.json"
+section_component = "web/components/sections/hero-section.tsx"
+compose_engine = "web/lib/engine/compose.ts"

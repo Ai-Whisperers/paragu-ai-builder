@@ -1,0 +1,70 @@
+{
+  "id": "meal_prep",
+  "nameEs": "Meal Prep & Compras",
+  "nameEn": "Meal Prep & Personal Shopping",
+
+  "tokens": "meal_prep",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "savingsCalculator", "galleryPreview", "team", "testimonial", "faq", "contact", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "services": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "gallery": {
+      "sections": ["header", "portfolioGallery", "footer"],
+      "requiredSections": ["header", "portfolioGallery", "footer"]
+    },
+    "team": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": true, "filterable": true },
+    "portfolio": { "enabled": true, "minImages": 6, "categories": ["cortes_de_carne", "mise_en_place", "freezer_meals", "mercado"] },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": true, "showInstagram": true, "bookable": false },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "savingsCalculator": { "enabled": true, "defaultTierMonthlyGs": 1600000, "defaultHourlyValueGs": 25000 },
+    "seasonalCalendar": { "enabled": false, "optional": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["compras", "prep", "cocinado", "add-on"],
+
+  "targetAudience": {
+    "primary": "Remote workers 25-45 in San Lorenzo, USD earners, time-poor professionals",
+    "secondary": "Busy households, couples, clinic doctors, students"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Meal Prep y Compras en {{city}} | Tu tiempo vale mas",
+    "descriptionTemplate": "Hacemos tu mercado, prep semanal y comidas listas. Whole-animal, mayorista, sin conservantes. Entregamos en {{city}}. Calcula tu ahorro.",
+    "schemaType": "FoodService",
+    "keywords": ["meal prep {{city}}", "compras personalizadas {{city}}", "mercado {{neighborhood}}", "comida saludable San Lorenzo Paraguay", "prep semanal"]
+  },
+
+  "nav": {
+    "items": ["Servicios", "Calculadora", "Galeria", "FAQ", "Contacto"],
+    "cta": { "text": "Pedir por WhatsApp", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "Convertimos el caos del mercado en comida lista",
+    "subheadlineTemplate": "{{businessName}}: compras, prep y freezer meals puerta a puerta en {{city}}. Whole-animal, mayorista, sin humo.",
+    "ctaPrimary": { "text": "Calcula tu ahorro", "action": "scrollTo:calculadora" },
+    "ctaSecondary": { "text": "Pedir por WhatsApp", "action": "whatsapp" }
+  }
+}

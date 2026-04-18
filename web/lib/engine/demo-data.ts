@@ -368,6 +368,46 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     ],
   },
 
+  'de-abasto-a-casa': {
+    name: 'De Abasto a Casa',
+    slug: 'de-abasto-a-casa',
+    type: 'meal_prep',
+    tagline: 'Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.',
+    city: 'San Lorenzo',
+    neighborhood: 'Ciudad Universitaria',
+    address: 'San Lorenzo (ciudad completa)',
+    phone: '+595000000000',
+    email: 'hola@deabastoacasa.com.py',
+    whatsapp: '+595000000000',
+    instagram: '@deabastoacasa',
+    hours: {
+      'Lunes - Viernes': '08:00 - 19:00 (coordinacion por WhatsApp)',
+      'Martes y Jueves': 'Compras en Abasto + mercado',
+      'Sabado': '09:00 - 14:00 (entregas)',
+      'Domingo': 'Cerrado',
+    },
+    services: [
+      { name: 'Nivel 1 - Basico', price: '250.000 Gs/semana', duration: 120, description: 'Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido.', category: 'Compras (Raw)' },
+      { name: 'Nivel 1 - Completo', price: '400.000 Gs/semana', duration: 180, description: 'Lista completa + Abasto + mercado + almacen. Delivery y organizado.', category: 'Compras (Raw)' },
+      { name: 'Nivel 2 - Individual', price: '400.000 Gs/semana', duration: 240, description: '1 persona. Prep basico: proteina + carbos + vegetales, sellado al vacio.', category: 'Mise-en-Place' },
+      { name: 'Nivel 2 - Pareja', price: '650.000 Gs/semana', duration: 300, description: '2 personas. Prep completo + organizacion de heladera/freezer.', category: 'Mise-en-Place' },
+      { name: 'Nivel 2 - Familia', price: '900.000 Gs/semana', duration: 360, description: '3-4 personas. Variedad, sustituciones y porciones para la semana.', category: 'Mise-en-Place' },
+      { name: 'Nivel 3 - 10 comidas/sem', priceFrom: '1.200.000 Gs/semana', duration: 480, description: 'Comidas listas, selladas al vacio. Proximamente (en habilitacion INAN).', category: 'Comidas Listas' },
+      { name: 'Nivel 3 - 15 comidas/sem', priceFrom: '1.700.000 Gs/semana', duration: 540, description: 'Pack familiar, 3 comidas/dia. Proximamente (en habilitacion INAN).', category: 'Comidas Listas' },
+      { name: 'Add-on: Desayunos', price: '+400.000 Gs/mes', description: 'Desayunos listos para la semana.', category: 'Add-on' },
+      { name: 'Add-on: Postres', price: '+200.000 Gs/mes', description: 'Postres caseros sumados al pack.', category: 'Add-on' },
+      { name: 'Add-on: Bebidas/snacks', price: '+300.000 Gs/mes', description: 'Bebidas y snacks saludables.', category: 'Add-on' },
+    ],
+    team: [
+      { name: 'Ivan Weiss van der Pol', role: 'Fundador & Chef de Mercado', bio: 'Del caos del mercado y la cocina a sistemas que funcionan. Proveedor propio en Abasto, prep semanal para clientes en San Lorenzo desde 2025.' },
+    ],
+    testimonials: [
+      { quote: 'Recupere 20+ horas al mes. No vuelvo a cocinar todos los dias. [Testimonio ilustrativo - clientes reales pronto]', author: 'Remoto Global', role: 'Cliente ilustrativo', rating: 5 },
+      { quote: 'La proteina sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo. [Testimonio ilustrativo]', author: 'Profesional Medico', role: 'Cliente ilustrativo', rating: 5 },
+      { quote: 'Primera vez que pago un servicio con numeros honestos. No me inflan, me muestran. [Testimonio ilustrativo]', author: 'Pareja Commuter', role: 'Clientes ilustrativos', rating: 5 },
+    ],
+  },
+
   'depilacion-perfecta': {
     name: 'Depilacion Perfecta',
     slug: 'depilacion-perfecta',

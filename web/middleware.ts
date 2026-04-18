@@ -14,6 +14,35 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   const path = request.nextUrl.pathname
   const requestId = crypto.randomUUID()
 
+  // Tenant hostname rewrite: nexaparaguay.com → /s/<defaultLocale>/nexa-paraguay/...
+  // Map built from sites/*/site.json at request time (cached inside helper).
+  const host = request.headers.get('host')?.split(':')[0] || ''
+  const isBuilderRoot =
+    host.endsWith('.pages.dev') ||
+    host.endsWith('.vercel.app') ||
+    host === 'localhost' ||
+    host === '127.0.0.1'
+  if (
+    host &&
+    !isBuilderRoot &&
+    !path.startsWith('/s/') &&
+    !path.startsWith('/api/') &&
+    !path.startsWith('/admin')
+  ) {
+    try {
+      const { lookupSiteByHostname } = await import('@/lib/engine/hostname-mapping')
+      const mapping = lookupSiteByHostname(host)
+      if (mapping) {
+        const locale = request.cookies.get('NEXT_LOCALE')?.value || mapping.defaultLocale
+        const url = request.nextUrl.clone()
+        url.pathname = `/s/${locale}/${mapping.slug}${path === '/' ? '' : path}`
+        return NextResponse.rewrite(url)
+      }
+    } catch (error) {
+      console.warn('[middleware] hostname rewrite skipped:', error)
+    }
+  }
+
   // Skip root path and static files
   if (path === '/') {
     return NextResponse.next()

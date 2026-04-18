@@ -1,0 +1,20 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Your privacy",
+      "body": "Essential + optional analytics cookies.",
+      "acceptAll": "Accept all",
+      "acceptEssential": "Essential only",
+      "manage": "Preferences",
+      "privacyLabel": "View privacy policy"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{siteName}}",
+      "subheadline": "A stay with character in {{city}}.",
+      "ctaPrimaryText": "See rooms",
+      "ctaSecondaryText": "Book now"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "description": "7-email nurture sequence per docs/cuestionario-marketing-imagen-web.md question 28. Import into Mailchimp as a Customer Journey with trigger 'Tag: nexa-paraguay-lead' and delays matching `dayOffset`.",
+  "sequence": [
+    {
+      "dayOffset": 0,
+      "locales": {
+        "nl": { "subject": "Bedankt voor uw interesse in Paraguay", "body": "Welkom. Hieronder een korte samenvatting van onze programma's en wat u van het proces kunt verwachten." },
+        "en": { "subject": "Thank you for your interest in Paraguay", "body": "Welcome. Here's a short summary of our programs and what to expect from the process." },
+        "de": { "subject": "Vielen Dank für Ihr Interesse an Paraguay", "body": "Willkommen. Hier eine kurze Übersicht unserer Programme und des Ablaufs." },
+        "es": { "subject": "Gracias por su interés en Paraguay", "body": "Bienvenido. Un resumen breve de nuestros programas y del proceso." }
+      }
+    },
+    {
+      "dayOffset": 3,
+      "locales": {
+        "nl": { "subject": "Waarom Paraguay anders is", "body": "Korte lezing over het fiscale en economische klimaat." },
+        "en": { "subject": "What makes Paraguay different", "body": "A short read on the fiscal and economic environment." },
+        "de": { "subject": "Was Paraguay besonders macht", "body": "Kurzer Einblick ins fiskalische und wirtschaftliche Umfeld." },
+        "es": { "subject": "Por qué Paraguay es distinto", "body": "Una lectura breve sobre el entorno fiscal y económico." }
+      }
+    },
+    {
+      "dayOffset": 7,
+      "locales": {
+        "nl": { "subject": "Ons proces, stap voor stap", "body": "Van eerste consult tot oplevering. CTA: ik heb vragen." },
+        "en": { "subject": "Our process, step by step", "body": "From first consultation to delivery. CTA: I have questions." },
+        "de": { "subject": "Unser Ablauf, Schritt für Schritt", "body": "Vom Erstgespräch bis zur Übergabe. CTA: Ich habe Fragen." },
+        "es": { "subject": "Nuestro proceso paso a paso", "body": "De la consulta inicial a la entrega. CTA: Tengo preguntas." }
+      }
+    },
+    {
+      "dayOffset": 12,
+      "locales": {
+        "nl": { "subject": "Alles in één reis — zo werkt het", "body": "Een detail over hoe de operationele dag verloopt." },
+        "en": { "subject": "Everything in one trip — how it works", "body": "A detail on how the operational day unfolds." },
+        "de": { "subject": "Alles in einer Reise — so geht's", "body": "Ein Detail zum Ablauf des operativen Tages." },
+        "es": { "subject": "Todo en un solo viaje — así funciona", "body": "Un detalle sobre cómo transcurre la jornada operativa." }
+      }
+    },
+    {
+      "dayOffset": 18,
+      "locales": {
+        "nl": { "subject": "Wat niemand u vertelt over banken in Paraguay", "body": "De banking-uitdaging en hoe wij die oplossen." },
+        "en": { "subject": "What no one tells you about banking in Paraguay", "body": "The banking challenge and how we solve it." },
+        "de": { "subject": "Was Ihnen niemand über Banken in Paraguay sagt", "body": "Die Banken-Herausforderung und unsere Lösung." },
+        "es": { "subject": "Lo que nadie le cuenta sobre la banca en Paraguay", "body": "El desafío bancario y cómo lo resolvemos." }
+      }
+    },
+    {
+      "dayOffset": 25,
+      "locales": {
+        "nl": { "subject": "Welk programma past bij u?", "body": "Business vs. Investor. CTA: plan een gesprek." },
+        "en": { "subject": "Which program is right for you?", "body": "Business vs. Investor. CTA: book a call." },
+        "de": { "subject": "Welches Programm passt zu Ihnen?", "body": "Business vs. Investor. CTA: Gespräch buchen." },
+        "es": { "subject": "¿Qué programa es para usted?", "body": "Business vs. Investor. CTA: agendar una consulta." }
+      }
+    },
+    {
+      "dayOffset": 35,
+      "locales": {
+        "nl": { "subject": "Klaar voor de volgende stap?", "body": "Samenvatting, testimonials (indien beschikbaar), finale CTA." },
+        "en": { "subject": "Ready for the next step?", "body": "Summary, testimonials (if available), final CTA." },
+        "de": { "subject": "Bereit für den nächsten Schritt?", "body": "Zusammenfassung, Testimonials (falls verfügbar), finale CTA." },
+        "es": { "subject": "¿Listo para el siguiente paso?", "body": "Resumen, testimonios (si disponibles), CTA final." }
+      }
+    }
+  ]
+}

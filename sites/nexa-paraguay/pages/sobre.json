@@ -1,0 +1,47 @@
+{
+  "slug": "sobre",
+  "titleKey": "aboutPage.seo.title",
+  "descriptionKey": "aboutPage.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "aboutPage.hero"
+    },
+    {
+      "id": "why-destination",
+      "variant": "three-col",
+      "content": "aboutPage.differentiators"
+    },
+    {
+      "id": "team",
+      "variant": "cards",
+      "content": "aboutPage.team"
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "aboutPage.trust"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "aboutPage.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

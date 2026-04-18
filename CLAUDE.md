@@ -38,7 +38,7 @@
 
 | Rule | Details |
 |------|---------|
-| **Multi-business** | All queries MUST filter by `business_id` |
+| **Multi-business** | All queries MUST filter by `business_id` — see [docs/TENANTS.md](./docs/TENANTS.md) |
 | **Theme variables** | Use `var(--primary)`, NEVER `bg-blue-500` |
 | **Generated site language** | All generated site UI text in Spanish |
 | **Server-first** | Default to Server Components |
@@ -243,9 +243,17 @@ npm run test            # Run tests
 | Purpose | Location |
 |--------|----------|
 | Section components | `web/components/sections/` |
+| Supabase client (server) | `web/lib/supabase/server.ts` |
+| Supabase client (browser) | `web/lib/supabase/client.ts` |
+| Business-scoped queries | `web/lib/supabase/scoped.ts` |
+| Environment variables | `web/lib/env.ts` |
+| Structured logger | `web/lib/logger.ts` |
+| Business type schemas | `src/schemas/` |
 | Business registry | `src/registry/` |
 | Theme tokens | `src/tokens/` |
+| Content templates | `src/content/` |
 | Demo data | `web/lib/engine/demo-data.ts` |
+| Tenancy model | `docs/TENANTS.md` |
 
 ### Technology Stack
 

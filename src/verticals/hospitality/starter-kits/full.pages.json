@@ -1,0 +1,51 @@
+{
+  "description": "Hospitality kit: hotels, boutique lodgings, event venues. Copy into sites/<slug>/pages and remix.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "titleKey": "home.seo.title",
+      "descriptionKey": "home.seo.description",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "image", "content": "home.hero" },
+        { "id": "trust-signals", "variant": "credentials", "content": "home.trust" },
+        { "id": "room-booking", "variant": "cards", "content": "home.rooms", "enabledWhen": "roomBooking" },
+        { "id": "why-destination", "variant": "three-col", "content": "home.whyStay" },
+        { "id": "gallery", "variant": "grid", "content": "home.gallery" },
+        { "id": "testimonials", "variant": "grid", "content": "home.testimonials", "enabledWhen": "testimonials" },
+        { "id": "cta-banner", "variant": "gradient", "content": "home.finalCta" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    },
+    "habitaciones": {
+      "slug": "habitaciones",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "roomsPage.hero" },
+        { "id": "room-booking", "variant": "cards", "content": "roomsPage.rooms" },
+        { "id": "booking-embed", "variant": "iframe", "content": "roomsPage.booking" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "eventos": {
+      "slug": "eventos",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "minimal", "content": "eventsPage.hero" },
+        { "id": "event-venues", "variant": "cards", "content": "eventsPage.venues", "enabledWhen": "eventVenues" },
+        { "id": "lead-form", "variant": "standard", "content": "eventsPage.lead" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    },
+    "contacto": {
+      "slug": "contacto",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "contact", "variant": "split", "content": "contactPage.contact" },
+        { "id": "lead-form", "variant": "standard", "content": "contactPage.lead" },
+        { "id": "footer", "variant": "standard", "content": "footer" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "common": {
+    "cookieBanner": {
+      "title": "Ihre Privatsphäre",
+      "body": "Wir verwenden essentielle Cookies für die Funktion der Seite und (optionale) Analyse-Cookies zur Verbesserung der Nutzung. Sie können Ihre Entscheidung jederzeit in der Fußzeile ändern.",
+      "acceptAll": "Alle akzeptieren",
+      "acceptEssential": "Nur essentielle",
+      "manage": "Einstellungen",
+      "privacyLabel": "Datenschutzerklärung"
+    },
+    "footerCopyright": "© {{year}} {{siteName}}. Alle Rechte vorbehalten."
+  },
+  "defaults": {
+    "hero": {
+      "headline": "Etablieren Sie Ihre Geschäftstätigkeit in {{country}}. Professionell, integriert, ohne Überraschungen.",
+      "subheadline": "Aufenthaltserlaubnis, Gesellschaft und Bankkonto — alles in einem Programm, mit einem Team von Fachleuten an Ihrer Seite.",
+      "ctaPrimaryText": "Kostenloses Beratungsgespräch",
+      "ctaSecondaryText": "Programme ansehen"
+    },
+    "whyCountryHonestNote": "Die Chance ist real, aber der Prozess ist ohne geeignete Anleitung nicht einfach. Genau dafür sind wir da.",
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "Ein klarer Prozess, Schritt für Schritt",
+      "totalDuration": "Gesamtdauer: {{processWeeks}}.",
+      "ctaLabel": "Prozess starten"
+    }
+  }
+}

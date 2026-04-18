@@ -23,7 +23,9 @@
         "estetica",
         "maquillaje",
         "depilacion",
-        "pestanas"
+        "pestanas",
+        "diseno_grafico",
+        "meal_prep"
       ],
       "description": "Business category determining template selection"
     },

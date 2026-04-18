@@ -30,6 +30,11 @@ import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
 import { FeaturesSection } from '@/components/sections/features-section'
 import { PricingTableSection } from '@/components/sections/pricing-table-section'
 import { ProcessSection } from '@/components/sections/process-section'
+import { SavingsCalculatorSection } from '@/components/sections/savings-calculator-section'
+import { TrustSignalsSection } from '@/components/sections/trust-signals-section'
+import { ProgramsComparisonSection } from '@/components/sections/programs-comparison-section'
+import { WhyDestinationSection } from '@/components/sections/why-destination-section'
+import { ProcessTimelineSection } from '@/components/sections/process-timeline-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -58,6 +63,19 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   features: FeaturesSection,
   pricing: PricingTableSection,
   process: ProcessSection,
+  savingsCalculator: SavingsCalculatorSection,
+  // Nexa/Relocation sections (camelCase)
+  trustSignals: TrustSignalsSection,
+  programsComparison: ProgramsComparisonSection,
+  whyDestination: WhyDestinationSection,
+  processTimeline: ProcessTimelineSection,
+  // Nexa/Relocation sections (kebab-case from registry)
+  'trust-signals': TrustSignalsSection,
+  'programs-comparison': ProgramsComparisonSection,
+  'why-destination': WhyDestinationSection,
+  'process-timeline': ProcessTimelineSection,
+  'cta-banner': CTABannerSection,
+  'whatsapp-float': WhatsAppFloat,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {
