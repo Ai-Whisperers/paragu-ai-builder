@@ -707,7 +707,7 @@ case 'beforeAfter': {
       return null // Handled separately
 
     case 'omakase': {
-      const omakaseContent = content as { omakase?: { title?: string; subtitle?: string; description?: string; tiers?: Array<{ name: string; price: string; courses: number; duration: string; features: string[] }>; notes?: string[] }> }
+      const omakaseContent = content as { omakase?: { title?: string; subtitle?: string; description?: string; tiers?: Array<{ name: string; price: string; courses: number; duration: string; features: string[] }>; notes?: string[] } }
       if (!omakaseContent?.omakase) return null
       return {
         title: omakaseContent.omakase.title || 'Experiencia Omakase',
@@ -719,7 +719,7 @@ case 'beforeAfter': {
     }
 
     case 'sakeMenu': {
-      const sakeContent = content as { sake?: { title?: string; subtitle?: string; description?: string; types?: Array<{ name: string; description: string }> }> }
+      const sakeContent = content as { sake?: { title?: string; subtitle?: string; description?: string; types?: Array<{ name: string; description: string }> } }
       if (!sakeContent?.sake) return null
       return {
         title: sakeContent.sake.title || 'Sake & Bebidas',
@@ -730,7 +730,7 @@ case 'beforeAfter': {
     }
 
     case 'conveyorBelt': {
-      const conveyorContent = content as { howItWorks?: { title?: string; subtitle?: string; steps?: Array<{ number: number; title: string; description: string }>; tips?: string[] }; plateColors?: Array<{ color: string; name: string; price: string; description: string }> }>
+      const conveyorContent = content as { howItWorks?: { title?: string; subtitle?: string; steps?: Array<{ number: number; title: string; description: string }>; tips?: string[] }; plateColors?: Array<{ color: string; name: string; price: string; description: string }> }
       if (!conveyorContent?.howItWorks) return null
       return {
         title: conveyorContent.howItWorks.title || 'Cómo Funciona',
