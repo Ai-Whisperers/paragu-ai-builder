@@ -514,34 +514,43 @@ export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
     whatsapp: '+595981234567',
     instagram: '@sakurasushi.py',
     facebook: 'SakuraSushiPY',
+    heroImage: '/images/sakura-sushi/sushi-bar-hero.png',
     hours: {
       'Lunes - Jueves': '12:00 - 15:00, 19:00 - 23:00',
       'Viernes - Sábado': '12:00 - 15:00, 19:00 - 00:00',
       'Domingo': '18:00 - 22:00'
     },
     services: [
-      { name: 'Sashimi Mixto', price: '85.000 Gs', duration: 0, description: '5 variedades de pescado fresco del día', category: 'Sashimi' },
-      { name: 'Nigiri de Salmón', price: '35.000 Gs', duration: 0, description: '2 piezas de salmón noruego sobre arroz', category: 'Nigiri' },
-      { name: 'Nigiri de Atún', price: '45.000 Gs', duration: 0, description: '2 piezas de atún rojo sobre arroz', category: 'Nigiri' },
-      { name: 'California Roll', price: '38.000 Gs', duration: 0, description: '8 piezas con cangrejo, aguacate y pepino', category: 'Maki' },
-      { name: 'Sakura Roll', price: '52.000 Gs', duration: 0, description: '8 piezas especialidad de la casa con langostino tempura', category: 'Especial' },
-      { name: 'Dragon Roll', price: '58.000 Gs', duration: 0, description: '8 piezas con anguila, aguacate y salsa unagi', category: 'Especial' },
-      { name: 'Temaki de Salmón', price: '25.000 Gs', duration: 0, description: 'Cono de alga nori con salmón fresco', category: 'Temaki' },
+      { name: 'Sashimi Mixto', price: '85.000 Gs', duration: 0, description: '5 variedades de pescado fresco del día', category: 'Sashimi', imageUrl: '/images/sakura-sushi/sushi-bar-sashimi.png' },
+      { name: 'Nigiri de Salmón', price: '35.000 Gs', duration: 0, description: '2 piezas de salmón noruego sobre arroz', category: 'Nigiri', imageUrl: '/images/sakura-sushi/sushi-bar-nigiri.png' },
+      { name: 'Nigiri de Atún', price: '45.000 Gs', duration: 0, description: '2 piezas de atún rojo sobre arroz', category: 'Nigiri', imageUrl: '/images/sakura-sushi/sushi-bar-nigiri.png' },
+      { name: 'California Roll', price: '38.000 Gs', duration: 0, description: '8 piezas con cangrejo, aguacate y pepino', category: 'Maki', imageUrl: '/images/sakura-sushi/sushi-bar-maki.png' },
+      { name: 'Sakura Roll', price: '52.000 Gs', duration: 0, description: '8 piezas especialidad de la casa con langostino tempura', category: 'Especial', imageUrl: '/images/sakura-sushi/sushi-bar-maki.png' },
+      { name: 'Dragon Roll', price: '58.000 Gs', duration: 0, description: '8 piezas con anguila, aguacate y salsa unagi', category: 'Especial', imageUrl: '/images/sakura-sushi/sushi-bar-maki.png' },
+      { name: 'Temaki de Salmón', price: '25.000 Gs', duration: 0, description: 'Cono de alga nori con salmón fresco', category: 'Temaki', imageUrl: '/images/sakura-sushi/sushi-bar-temaki.png' },
       { name: 'Edamame', price: '18.000 Gs', duration: 0, description: 'Porción de vainas de soja al vapor con sal', category: 'Entradas' },
       { name: 'Gyozas', price: '28.000 Gs', duration: 0, description: '5 empanadas japonesas rellenas de cerdo', category: 'Entradas' },
       { name: 'Miso Soup', price: '12.000 Gs', duration: 0, description: 'Sopa tradicional de miso con tofu y alga wakame', category: 'Entradas' },
-      { name: 'Omakase Clásico', price: '250.000 Gs', duration: 60, description: '8 piezas seleccionadas por el chef', category: 'Omakase' },
-      { name: 'Omakase Premium', price: '450.000 Gs', duration: 90, description: '12 piezas con sake pairing incluido', category: 'Omakase' }
+      { name: 'Omakase Clásico', price: '250.000 Gs', duration: 60, description: '8 piezas seleccionadas por el chef', category: 'Omakase', imageUrl: '/images/sakura-sushi/sushi-bar-omakase.png' },
+      { name: 'Omakase Premium', price: '450.000 Gs', duration: 90, description: '12 piezas con sake pairing incluido', category: 'Omakase', imageUrl: '/images/sakura-sushi/sushi-bar-sake.png' }
     ],
     team: [
-      { name: 'Takeshi Yamamoto', role: 'Chef Principal', bio: 'Formado en Tokio durante 15 años. Especialista en sushi Edomae y omakase.' },
-      { name: 'Carlos Sato', role: 'Sous Chef', bio: '10 años de experiencia en restaurantes japoneses. Experto en sashimi.' },
+      { name: 'Takeshi Yamamoto', role: 'Chef Principal', bio: 'Formado en Tokio durante 15 años. Especialista en sushi Edomae y omakase.', imageUrl: '/images/sakura-sushi/sushi-bar-chef-action.png' },
+      { name: 'Carlos Sato', role: 'Sous Chef', bio: '10 años de experiencia en restaurantes japoneses. Experto en sashimi.', imageUrl: '/images/sakura-sushi/sushi-bar-chef-action.png' },
       { name: 'Ana Nakamura', role: 'Hostess', bio: 'Te ayuda a elegir entre nuestro menú y explica cada platillo.' }
     ],
     testimonials: [
       { quote: 'El mejor sushi que he probado en Paraguay. El omakase es una experiencia inolvidable.', author: 'María González', rating: 5 },
       { quote: 'Auténtico sabor japonés. Se nota la dedicación del chef en cada pieza.', author: 'Roberto Martínez', rating: 5 },
       { quote: 'Ambiente elegante y servicio impecable. Perfecto para citas especiales.', author: 'Lucía Benítez', rating: 5 }
+    ],
+    gallery: [
+      { src: '/images/sakura-sushi/sushi-bar-interior.png', alt: 'Interior elegante de Sakura Sushi', category: 'Ambiente' },
+      { src: '/images/sakura-sushi/sushi-bar-sashimi.png', alt: 'Sashimi fresco del día', category: 'Platos' },
+      { src: '/images/sakura-sushi/sushi-bar-nigiri.png', alt: 'Nigiri de salmón premium', category: 'Platos' },
+      { src: '/images/sakura-sushi/sushi-bar-maki.png', alt: 'Rollos especiales', category: 'Platos' },
+      { src: '/images/sakura-sushi/sushi-bar-omakase.png', alt: 'Experiencia Omakase', category: 'Especial' },
+      { src: '/images/sakura-sushi/sushi-bar-sake.png', alt: 'Sake premium', category: 'Bebidas' }
     ]
   },
 
@@ -559,26 +568,35 @@ export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
     whatsapp: '+595982345678',
     instagram: '@kaitenexpress.py',
     facebook: 'KaitenExpressPY',
+    heroImage: '/images/kaiten-express/kaiten-hero.png',
     hours: {
       'Lunes - Domingo': '11:00 - 22:00'
     },
     services: [
-      { name: 'Plato Verde - Básicos', price: '15.000 Gs', duration: 0, description: 'Tamago maki, kappa maki, inari', category: 'Green' },
-      { name: 'Plato Amarillo - Populares', price: '25.000 Gs', duration: 0, description: 'Sake nigiri, maguro nigiri, california roll', category: 'Yellow' },
-      { name: 'Plato Naranja - Especiales', price: '35.000 Gs', duration: 0, description: 'Sake aburi, ebi nigiri, spicy tuna roll', category: 'Orange' },
-      { name: 'Plato Rojo - Premium', price: '50.000 Gs', duration: 0, description: 'Hamachi, hotate, dragon roll', category: 'Red' },
-      { name: 'Plato Negro - Ultra Premium', price: '75.000 Gs', duration: 0, description: 'Unagi, wagyu nigiri, otoro', category: 'Black' },
-      { name: 'Ramen Especial', price: '45.000 Gs', duration: 0, description: 'Sopa de fideos con cerdo y huevo', category: 'Special' },
-      { name: 'Tempura Mix', price: '38.000 Gs', duration: 0, description: 'Mariscos y vegetales empanizados', category: 'Special' }
+      { name: 'Plato Verde - Básicos', price: '15.000 Gs', duration: 0, description: 'Tamago maki, kappa maki, inari', category: 'Green', imageUrl: '/images/kaiten-express/kaiten-green-plate.png' },
+      { name: 'Plato Amarillo - Populares', price: '25.000 Gs', duration: 0, description: 'Sake nigiri, maguro nigiri, california roll', category: 'Yellow', imageUrl: '/images/kaiten-express/kaiten-green-plate.png' },
+      { name: 'Plato Naranja - Especiales', price: '35.000 Gs', duration: 0, description: 'Sake aburi, ebi nigiri, spicy tuna roll', category: 'Orange', imageUrl: '/images/kaiten-express/kaiten-green-plate.png' },
+      { name: 'Plato Rojo - Premium', price: '50.000 Gs', duration: 0, description: 'Hamachi, hotate, dragon roll', category: 'Red', imageUrl: '/images/kaiten-express/kaiten-green-plate.png' },
+      { name: 'Plato Negro - Ultra Premium', price: '75.000 Gs', duration: 0, description: 'Unagi, wagyu nigiri, otoro', category: 'Black', imageUrl: '/images/kaiten-express/kaiten-black-plate.png' },
+      { name: 'Ramen Especial', price: '45.000 Gs', duration: 0, description: 'Sopa de fideos con cerdo y huevo', category: 'Special', imageUrl: '/images/kaiten-express/kaiten-green-plate.png' },
+      { name: 'Tempura Mix', price: '38.000 Gs', duration: 0, description: 'Mariscos y vegetales empanizados', category: 'Special', imageUrl: '/images/kaiten-express/kaiten-green-plate.png' }
     ],
     team: [
-      { name: 'Kenji Tanaka', role: 'Chef Principal', bio: 'Especialista en kaiten-zushi con experiencia en Japón.' },
-      { name: 'María López', role: 'Supervisora', bio: 'Te ayuda a entender el sistema de colores.' }
+      { name: 'Kenji Tanaka', role: 'Chef Principal', bio: 'Especialista en kaiten-zushi con experiencia en Japón.', imageUrl: '/images/kaiten-express/kaiten-guests-seated.png' },
+      { name: 'María López', role: 'Supervisora', bio: 'Te ayuda a entender el sistema de colores.', imageUrl: '/images/kaiten-express/kaiten-family.png' }
     ],
     testimonials: [
       { quote: 'A mis hijos les encanta! Divertido y rápido.', author: 'Carmen Ruiz', rating: 5 },
       { quote: 'Perfecto para almuerzos de trabajo. Económico y bueno.', author: 'Pedro González', rating: 5 },
       { quote: 'El sistema por colores es genial. Sabes cuánto gastas.', author: 'Ana Fernández', rating: 5 }
+    ],
+    gallery: [
+      { src: '/images/kaiten-express/kaiten-hero.png', alt: 'Vista de la cinta transportadora', category: 'Ambiente' },
+      { src: '/images/kaiten-express/kaiten-guests-seated.png', alt: 'Clientes disfrutando', category: 'Clientes' },
+      { src: '/images/kaiten-express/kaiten-family.png', alt: 'Familia comiendo sushi', category: 'Familia' },
+      { src: '/images/kaiten-express/kaiten-green-plate.png', alt: 'Plato verde - básicos', category: 'Platos' },
+      { src: '/images/kaiten-express/kaiten-black-plate.png', alt: 'Plato negro - ultra premium', category: 'Premium' },
+      { src: '/images/kaiten-express/kaiten-tablet.png', alt: 'Sistema de pedidos digital', category: 'Tecnología' }
     ]
   },
 
@@ -596,6 +614,7 @@ export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
     whatsapp: '+595983456789',
     instagram: '@latrattoria.py',
     facebook: 'LaTrattoriaPY',
+    heroImage: '/images/la-trattoria/hero.jpg',
     hours: {
       'Martes - Jueves': '12:00 - 15:00, 19:00 - 23:00',
       'Viernes - Sábado': '12:00 - 15:00, 19:00 - 00:00',
@@ -603,23 +622,29 @@ export const RELOCATION_DEMO_BUSINESSES: Record<string, BusinessData> = {
       'Lunes': 'Cerrado'
     },
     services: [
-      { name: 'Pasta Carbonara', price: '55.000 Gs', duration: 0, description: 'Spaghetti con huevo, panceta y queso parmesano', category: 'Pastas' },
-      { name: 'Risotto de Hongos', price: '62.000 Gs', duration: 0, description: 'Arroz cremoso con hongos frescos', category: 'Risottos' },
-      { name: 'Pizza Margherita', price: '48.000 Gs', duration: 0, description: 'Tomate, mozzarella y albahaca', category: 'Pizzas' },
-      { name: 'Ossobuco alla Milanese', price: '85.000 Gs', duration: 0, description: 'Chamorro de ternera con gremolata', category: 'Carnes' },
-      { name: 'Branzino al Sale', price: '95.000 Gs', duration: 0, description: 'Robalo al horno en costra de sal', category: 'Pescados' },
-      { name: 'Tiramisú', price: '28.000 Gs', duration: 0, description: 'Postre clásico italiano', category: 'Postres' },
-      { name: 'Panna Cotta', price: '25.000 Gs', duration: 0, description: 'Crema cocida con salsa de frutos rojos', category: 'Postres' }
+      { name: 'Pasta Carbonara', price: '55.000 Gs', duration: 0, description: 'Spaghetti con huevo, panceta y queso parmesano', category: 'Pastas', imageUrl: '/images/la-trattoria/gallery-1.jpg' },
+      { name: 'Risotto de Hongos', price: '62.000 Gs', duration: 0, description: 'Arroz cremoso con hongos frescos', category: 'Risottos', imageUrl: '/images/la-trattoria/gallery-2.jpg' },
+      { name: 'Pizza Margherita', price: '48.000 Gs', duration: 0, description: 'Tomate, mozzarella y albahaca', category: 'Pizzas', imageUrl: '/images/la-trattoria/gallery-3.jpg' },
+      { name: 'Ossobuco alla Milanese', price: '85.000 Gs', duration: 0, description: 'Chamorro de ternera con gremolata', category: 'Carnes', imageUrl: '/images/la-trattoria/gallery-1.jpg' },
+      { name: 'Branzino al Sale', price: '95.000 Gs', duration: 0, description: 'Robalo al horno en costra de sal', category: 'Pescados', imageUrl: '/images/la-trattoria/gallery-2.jpg' },
+      { name: 'Tiramisú', price: '28.000 Gs', duration: 0, description: 'Postre clásico italiano', category: 'Postres', imageUrl: '/images/la-trattoria/gallery-3.jpg' },
+      { name: 'Panna Cotta', price: '25.000 Gs', duration: 0, description: 'Crema cocida con salsa de frutos rojos', category: 'Postres', imageUrl: '/images/la-trattoria/gallery-1.jpg' }
     ],
     team: [
-      { name: 'Marco Rossi', role: 'Chef Ejecutivo', bio: 'Nacido en Roma, 20 años de experiencia en cocina italiana auténtica.' },
-      { name: 'Giovanna Bianchi', role: 'Sous Chef', bio: 'Especialista en pastas frescas y risottos.' },
-      { name: 'Carlos Méndez', role: 'Maître', bio: 'Te recomienda el vino perfecto para cada plato.' }
+      { name: 'Marco Rossi', role: 'Chef Ejecutivo', bio: 'Nacido en Roma, 20 años de experiencia en cocina italiana auténtica.', imageUrl: '/images/la-trattoria/gallery-1.jpg' },
+      { name: 'Giovanna Bianchi', role: 'Sous Chef', bio: 'Especialista en pastas frescas y risottos.', imageUrl: '/images/la-trattoria/gallery-2.jpg' },
+      { name: 'Carlos Méndez', role: 'Maître', bio: 'Te recomienda el vino perfecto para cada plato.', imageUrl: '/images/la-trattoria/gallery-3.jpg' }
     ],
     testimonials: [
       { quote: 'La mejor pasta de Asunción. Sabe a Italia de verdad.', author: 'Laura Fernández', rating: 5 },
       { quote: 'Ambiente romántico y comida deliciosa. Ideal para aniversarios.', author: 'Juan Pérez', rating: 5 },
       { quote: 'El tiramisú es el mejor que he probado fuera de Italia.', author: 'Sofía González', rating: 5 }
+    ],
+    gallery: [
+      { src: '/images/la-trattoria/hero.jpg', alt: 'Interior de La Trattoria', category: 'Ambiente' },
+      { src: '/images/la-trattoria/gallery-1.jpg', alt: 'Pasta fresca artesanal', category: 'Platos' },
+      { src: '/images/la-trattoria/gallery-2.jpg', alt: 'Risotto de hongos', category: 'Platos' },
+      { src: '/images/la-trattoria/gallery-3.jpg', alt: 'Pizza al horno de leña', category: 'Platos' }
     ]
   }
 }

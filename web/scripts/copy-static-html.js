@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Copy static HTML files from Next.js output to OpenNext assets
- * This ensures tenant pages are served as static files
+ * Copy static HTML files and images from Next.js output to OpenNext assets
+ * This ensures tenant pages and images are served as static files
  */
 
 import * as fs from 'fs'
@@ -12,6 +12,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const SOURCE_DIR = path.join(__dirname, '../.next/server/app')
+const PUBLIC_DIR = path.join(__dirname, '../public')
 const DEST_DIR = path.join(__dirname, '../.open-next/assets')
 
 // Business slugs to copy
@@ -43,6 +44,24 @@ function copyFile(src, dest) {
   }
 }
 
+function copyDirectory(src, dest) {
+  if (!fs.existsSync(src)) return
+  
+  fs.mkdirSync(dest, { recursive: true })
+  const entries = fs.readdirSync(src, { withFileTypes: true })
+  
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name)
+    const destPath = path.join(dest, entry.name)
+    
+    if (entry.isDirectory()) {
+      copyDirectory(srcPath, destPath)
+    } else {
+      copyFile(srcPath, destPath)
+    }
+  }
+}
+
 function main() {
   console.log('Copying static HTML files to assets...')
   
@@ -57,7 +76,19 @@ function main() {
     }
   }
   
-  console.log('Done!')
+  // Copy images directory
+  console.log('\nCopying images to assets...')
+  const imagesSource = path.join(PUBLIC_DIR, 'images')
+  const imagesDest = path.join(DEST_DIR, 'images')
+  
+  if (fs.existsSync(imagesSource)) {
+    copyDirectory(imagesSource, imagesDest)
+    console.log('✓ Images copied successfully')
+  } else {
+    console.warn('⚠ Images directory not found')
+  }
+  
+  console.log('\nDone!')
 }
 
 main()
