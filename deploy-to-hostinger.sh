@@ -36,15 +36,14 @@ cd /home/ai-whisperers/paragu-ai-builder
 rm -rf /tmp/deploy-staging
 mkdir -p /tmp/deploy-staging
 
-# Copy built Next.js app
-cp -r web/.next/standalone/* /tmp/deploy-staging/
+# Copy built Next.js app (standalone output is in web/.next/standalone/web/)
+cp -r web/.next/standalone/web/* /tmp/deploy-staging/
+
+# Copy static files
 cp -r web/.next/static /tmp/deploy-staging/.next/
 cp -r web/public /tmp/deploy-staging/
 
-# Copy package.json
-cp web/package*.json /tmp/deploy-staging/
-
-# Copy sites and src
+# Copy sites and src (needed by site-loader)
 cp -r sites /tmp/deploy-staging/
 cp -r src /tmp/deploy-staging/
 
