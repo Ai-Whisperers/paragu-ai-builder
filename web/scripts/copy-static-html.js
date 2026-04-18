@@ -27,7 +27,10 @@ const BUSINESS_SLUGS = [
   'pestanas-flore',
   'depilacion-perfecta',
   'unas-y-mas',
-  'de-abasto-a-casa'
+  'de-abasto-a-casa',
+  'sakura-sushi',
+  'kaiten-express',
+  'la-trattoria'
 ]
 
 function copyFile(src, dest) {
