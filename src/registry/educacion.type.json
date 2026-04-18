@@ -1,0 +1,68 @@
+{
+  "id": "educacion",
+  "nameEs": "Educacion",
+  "nameEn": "Education",
+
+  "tokens": "educacion",
+
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "team", "testimonial", "ctaBanner", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    },
+    "servicios": {
+      "sections": ["header", "serviceMenu", "faq", "ctaBanner", "footer"],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "equipo": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contacto": {
+      "sections": ["header", "contactSplit", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
+  },
+
+  "features": {
+    "onlineBooking": { "enabled": false },
+    "serviceMenu": { "enabled": true, "showPrices": true, "showDuration": false, "filterable": true },
+    "portfolio": { "enabled": false },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": true, "showInstagram": false, "bookable": false },
+    "pricingDisplay": { "enabled": true, "showExactPrice": true },
+    "walkInPolicy": { "enabled": false },
+    "classSchedule": { "enabled": true, "showCalendar": false },
+    "packageBuilder": { "enabled": false },
+    "aftercareInfo": { "enabled": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+
+  "serviceCategories": ["idiomas", "tecnologia", "diseno", "examenes", "profesional"],
+
+  "targetAudience": {
+    "primary": "Students 16-35, professionals seeking skills",
+    "secondary": "Adults 35-55, corporate training"
+  },
+
+  "seo": {
+    "titleTemplate": "{{businessName}} - Cursos en {{city}} | Educacion y Capacitacion",
+    "descriptionTemplate": "Cursos de idiomas, tecnologia y diseno en {{city}}. Certificaciones profesionales.",
+    "schemaType": "School",
+    "keywords": ["cursos {{city}}", "academia {{city}}", "clases de ingles {{city}}", "cursos online {{city}}"]
+  },
+
+  "nav": {
+    "items": ["Inicio", "Cursos", "Equipo", "Contacto"],
+    "cta": { "text": "Inscribirse", "action": "whatsapp" }
+  },
+
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Aprende con los Mejores",
+    "subheadlineTemplate": "Cursos de idiomas, tecnologia y habilidades profesionales",
+    "ctaPrimary": { "text": "Ver Cursos", "action": "scrollTo:services" },
+    "ctaSecondary": { "text": "Contactar", "action": "whatsapp" }
+  }
+}
