@@ -1,0 +1,74 @@
+{
+  "name": "Salud (Health)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["clean", "trustworthy", "professional", "calming"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Medical Teal",
+      "colors": {
+        "primary": "#0d9488",
+        "secondary": "#14b8a6",
+        "background": "#f0fdfa",
+        "surface": "#ffffff",
+        "text": "#134e4a",
+        "textLight": "#5eead4",
+        "success": "#22c55e",
+        "error": "#ef4444",
+        "secondaryHover": "#0d9488"
+      }
+    },
+    "optionB": {
+      "name": "Clinical Blue",
+      "colors": {
+        "primary": "#0369a1",
+        "secondary": "#38bdf8",
+        "background": "#f0f9ff",
+        "surface": "#ffffff",
+        "text": "#0c4a6e",
+        "textLight": "#7dd3fc",
+        "accent": "#0ea5e9",
+        "success": "#22c55e",
+        "error": "#ef4444"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Inter', sans-serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Merriweather', serif",
+    "headingWeight": "600",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Inter:wght@300;400;500;600", "Merriweather:wght@400;700"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-md",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "serviceCard": {
+      "borderRadius": "12px",
+      "hoverTranslateY": "-4px",
+      "imageRatio": "16:9"
+    },
+    "teamCard": {
+      "imageShape": "circle",
+      "imageSize": "150px"
+    },
+    "gallery": {
+      "layout": "grid"
+    }
+  }
+}
