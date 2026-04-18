@@ -39,7 +39,8 @@ mkdir -p /tmp/deploy-staging
 # Copy built Next.js app (standalone output is in web/.next/standalone/web/)
 cp -r web/.next/standalone/web/* /tmp/deploy-staging/
 
-# Copy static files
+# Create .next directory and copy static files
+mkdir -p /tmp/deploy-staging/.next
 cp -r web/.next/static /tmp/deploy-staging/.next/
 cp -r web/public /tmp/deploy-staging/
 
