@@ -4,11 +4,11 @@
   "nameEn": "Conveyor Belt Sushi",
 
   "extends": "sushi_bar",
-  "tokens": "kaiten",
+  "tokens": "kaiten_zushi",
 
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "about", "conveyorBelt", "featuredMenu", "howItWorks", "reservations", "gallery", "footer"],
+      "sections": ["header", "hero", "about", "conveyorBelt", "featuredMenu", "howItWorks", "specialOrder", "reservations", "gallery", "footer"],
       "requiredSections": ["header", "hero", "conveyorBelt", "footer"]
     },
     "menu": {
@@ -29,20 +29,12 @@
 
   "menuCategories": [
     "green_plates",
-    "yellow_plates", 
+    "yellow_plates",
     "orange_plates",
     "red_plates",
     "black_plates",
     "special_order"
   ],
-
-  "platePricing": {
-    "green": { "color": "#22c55e", "price": "15.000 Gs", "description": "Platos básicos" },
-    "yellow": { "color": "#eab308", "price": "25.000 Gs", "description": "Favoritos populares" },
-    "orange": { "color": "#f97316", "price": "35.000 Gs", "description": "Especiales" },
-    "red": { "color": "#ef4444", "price": "50.000 Gs", "description": "Premium" },
-    "black": { "color": "#1a1a1a", "price": "75.000 Gs", "description": "Ultra premium" }
-  },
 
   "targetAudience": {
     "primary": "Families, casual diners, quick lunch seekers",

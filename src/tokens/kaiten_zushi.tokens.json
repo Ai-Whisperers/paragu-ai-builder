@@ -20,12 +20,7 @@
         "success": "#4CAF50",
         "error": "#F44336",
         "warning": "#FF9800",
-        "secondaryHover": "#E64A19",
-        "plateGreen": "#4CAF50",
-        "plateYellow": "#FFC107",
-        "plateOrange": "#FF9800",
-        "plateRed": "#F44336",
-        "plateBlack": "#212121"
+        "secondaryHover": "#E64A19"
       }
     }
   },
