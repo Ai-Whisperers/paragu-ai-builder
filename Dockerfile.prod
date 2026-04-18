@@ -3,16 +3,16 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy package files
-COPY web/package*.json ./
+# Copy package files from web directory
+COPY package*.json ./
 
 # Install dependencies
 RUN npm ci --only=production
 
 # Copy built application
-COPY web/.next/standalone ./
-COPY web/.next/static ./.next/static
-COPY web/public ./public
+COPY .next/standalone ./
+COPY .next/static ./.next/static
+COPY public ./public
 
 # Copy sites and src directories needed by site-loader
 COPY sites ./sites

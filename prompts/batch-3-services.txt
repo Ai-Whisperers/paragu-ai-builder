@@ -1,0 +1,167 @@
+# BATCH 3: SERVICE CATEGORY IMAGES (Day 3 - 20 images)
+# Reusable service action shots across multiple businesses
+
+## SERVICE 1/20 - Hair Cutting
+Professional hairdresser cutting female client's hair with precision, sectioning hair with comb and scissors, modern salon environment, focused professional atmosphere. Service photography, clean aesthetic, bright lighting. 800x600px, 4:3 aspect.
+
+Save as: service-hair-cut.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 2/20 - Hair Coloring
+Professional colorist applying hair dye to client's sections with brush, foils visible, modern salon color station, chemical processing in progress. Service photography, technical precision, bright lighting. 800x600px.
+
+Save as: service-hair-color.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 3/20 - Blow Dry Styling
+Hair stylist blow drying and styling client's long hair with round brush and dryer, beautiful movement and shine, final styling stage, salon station setting. Service photography, glamorous result, warm lighting. 800x600px.
+
+Save as: service-blow-dry.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 4/20 - Manicure
+Nail technician carefully painting client's fingernails with polish, detailed close-up of hands, organized polish bottles visible, nail station setting. Service photography, meticulous detail, bright clean lighting. 800x600px.
+
+Save as: service-manicure.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 5/20 - Facial Treatment
+Esthetician applying facial mask or treatment cream to reclining female client, spa bed setting, peaceful relaxing atmosphere, professional skincare products visible. Service photography, pampering experience, soft lighting. 800x600px.
+
+Save as: service-facial.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 6/20 - Massage Therapy
+Professional massage therapist giving back massage to client on spa table, peaceful spa room setting, proper draping, relaxation atmosphere. Service photography, wellness experience, soft natural lighting. 800x600px.
+
+Save as: service-massage.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 7/20 - Makeup Application
+Makeup artist applying eyeshadow to client with brush, ring light visible, professional makeup station setup, artistic application process. Service photography, beauty transformation, perfect studio lighting. 800x600px.
+
+Save as: service-makeup.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 8/20 - Eyelash Extensions
+Lash technician applying individual lash extensions with tweezers, close-up of eye area, precision application, lash studio setting with magnifying lamp. Service photography, detailed close-up, clinical bright lighting. 800x600px.
+
+Save as: service-lash-extensions.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 9/20 - Personal Training
+Personal trainer coaching client performing exercise with proper form, modern gym setting, motivating professional atmosphere, fitness equipment visible. Service photography, active lifestyle, energetic lighting. 800x600px.
+
+Save as: service-personal-training.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 10/20 - Group Fitness Class
+Group of people participating in fitness class with instructor leading, modern studio with mirrors, energetic group atmosphere, synchronized movement. Service photography, community fitness, bright energetic lighting. 800x600px.
+
+Save as: service-group-class.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 11/20 - Laser Treatment
+Technician performing laser hair removal treatment on client, professional IPL equipment visible, clinical clean setting, protective eyewear. Service photography, medical aesthetics, clinical bright lighting. 800x600px.
+
+Save as: service-laser-treatment.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 12/20 - Body Treatment
+Spa therapist performing body wrap or scrub treatment on client, luxury spa setting, exfoliation process, pampering atmosphere. Service photography, body wellness, soft warm lighting. 800x600px.
+
+Save as: service-body-treatment.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 13/20 - Business Consultation
+Business consultant presenting strategy on laptop to client in modern office, professional meeting atmosphere, documents and charts visible. Service photography, professional advisory, office lighting. 800x600px.
+
+Save as: service-consultation.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 14/20 - Legal Review
+Lawyer reviewing contract documents with client at conference table, professional legal office, important paperwork spread out, serious professional atmosphere. Service photography, legal services, professional lighting. 800x600px.
+
+Save as: service-legal-review.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 15/20 - Property Showing
+Real estate agent showing modern home interior to potential buyers, bright spacious living room, professional presentation, aspirational property. Service photography, real estate showing, natural lighting. 800x600px.
+
+Save as: service-property-showing.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 16/20 - Meal Prep Service
+Chef portioning healthy prepared meals into containers, organized kitchen setup, fresh ingredients visible, professional meal prep process. Service photography, food service, bright kitchen lighting. 800x600px.
+
+Save as: service-meal-prep.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 17/20 - Tattoo Session
+Tattoo artist tattooing detailed design on client's arm, close-up of tattoo machine in action, ink caps and equipment visible, professional tattoo studio. Service photography, artistic process, dramatic lighting. 800x600px.
+
+Save as: service-tattoo-session.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 18/20 - Design Work
+Graphic designer working on digital tablet with stylus, large monitor showing design project, creative studio environment, artistic tools around. Service photography, creative process, bright creative lighting. 800x600px.
+
+Save as: service-design-work.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 19/20 - Barber Cut
+Barber giving precision haircut with clippers, client in classic barber chair, traditional barbershop atmosphere, grooming in progress. Service photography, barber craft, warm lighting. 800x600px.
+
+Save as: service-barber-cut.jpg
+Location: sites/shared-images/services/
+
+---
+
+## SERVICE 20/20 - Barber Shave
+Barber performing hot towel straight razor shave, classic grooming service, lather and brush visible, traditional barbering. Service photography, classic shave, warm intimate lighting. 800x600px.
+
+Save as: service-barber-shave.jpg
+Location: sites/shared-images/services/
+
+---
+
+# END OF BATCH 3
+# Total: 20 images
+# Estimated time: 25-30 minutes
+# These are reusable across multiple businesses!
