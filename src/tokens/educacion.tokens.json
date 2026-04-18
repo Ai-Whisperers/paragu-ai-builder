@@ -1,0 +1,74 @@
+{
+  "name": "Educacion (Education)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["modern", "bright", "knowledge", "friendly"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Academic Blue",
+      "colors": {
+        "primary": "#1e3a8a",
+        "secondary": "#3b82f6",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#1e293b",
+        "textLight": "#64748b",
+        "success": "#22c55e",
+        "error": "#ef4444",
+        "secondaryHover": "#2563eb"
+      }
+    },
+    "optionB": {
+      "name": "Creative Purple",
+      "colors": {
+        "primary": "#581c87",
+        "secondary": "#9333ea",
+        "background": "#faf5ff",
+        "surface": "#ffffff",
+        "text": "#3b0764",
+        "textLight": "#7c3aed",
+        "accent": "#a855f7",
+        "success": "#22c55e",
+        "error": "#ef4444"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+
+  "typography": {
+    "heading": "'Inter', sans-serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Playfair Display', serif",
+    "headingWeight": "700",
+    "bodyWeight": "400",
+    "headingStyle": "normal",
+    "textTransform": "none"
+  },
+
+  "googleFonts": ["Inter:wght@300;400;500;600;700", "Playfair+Display:wght@400;700"],
+
+  "borderRadius": "md",
+  "buttonStyle": "rounded-md",
+
+  "components": {
+    "button": {
+      "padding": "14px 28px",
+      "borderRadius": "8px",
+      "hoverTranslateY": "-2px"
+    },
+    "serviceCard": {
+      "borderRadius": "12px",
+      "hoverTranslateY": "-4px",
+      "imageRatio": "16:9"
+    },
+    "teamCard": {
+      "imageShape": "circle",
+      "imageSize": "150px"
+    },
+    "gallery": {
+      "layout": "grid"
+    }
+  }
+}
