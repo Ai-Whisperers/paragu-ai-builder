@@ -50,6 +50,10 @@ export type SectionType =
   | 'omakase'
   | 'sakeMenu'
   | 'conveyorBelt'
+  | 'featuredMenu'
+  | 'fullMenu'
+  | 'colorCodedMenu'
+  | 'specialOrder'
 
 export interface ComposedSection {
   type: SectionType
@@ -294,6 +298,22 @@ const SECTION_MAP: Record<string, SectionType> = {
   footer: 'footer',
   whatsappFloat: 'whatsappFloat',
   savingsCalculator: 'savingsCalculator',
+  // Restaurant / sushi / kaiten
+  omakase: 'omakase',
+  omakaseExperience: 'omakase',
+  sakeMenu: 'sakeMenu',
+  sakePairing: 'sakeMenu',
+  conveyorBelt: 'conveyorBelt',
+  howItWorks: 'conveyorBelt',
+  featuredMenu: 'featuredMenu',
+  fullMenu: 'fullMenu',
+  colorCodedMenu: 'colorCodedMenu',
+  specialOrder: 'specialOrder',
+  reservationForm: 'contact',
+  reservations: 'contact',
+  location: 'contact',
+  contactInfo: 'contact',
+  photoGallery: 'gallery',
 }
 
 /**
@@ -734,14 +754,155 @@ case 'beforeAfter': {
     }
 
     case 'conveyorBelt': {
-      const conveyorContent = content as { howItWorks?: { title?: string; subtitle?: string; steps?: Array<{ number: number; title: string; description: string }>; tips?: string[] }; plateColors?: Array<{ color: string; name: string; price: string; description: string }> }
+      type KaitenContent = {
+        howItWorks?: {
+          title?: string
+          subtitle?: string
+          steps?: Array<{ number: number; title: string; description: string }>
+          tips?: string[]
+        }
+        menuPage?: {
+          plates?: Record<
+            string,
+            { title: string; price: string; color: string; items: string[] }
+          >
+        }
+        plateColors?: Array<{ color: string; name: string; price: string; description: string }>
+      }
+      const conveyorContent = content as KaitenContent
       if (!conveyorContent?.howItWorks) return null
+      const platesFromMenu = conveyorContent.menuPage?.plates
+        ? Object.entries(conveyorContent.menuPage.plates).map(([key, v]) => ({
+            color: v.color,
+            name: v.title,
+            price: v.price,
+            description: key,
+          }))
+        : []
       return {
         title: conveyorContent.howItWorks.title || 'Cómo Funciona',
         subtitle: conveyorContent.howItWorks.subtitle,
         steps: conveyorContent.howItWorks.steps || [],
-        plateColors: conveyorContent.plateColors || [],
+        plateColors: conveyorContent.plateColors || platesFromMenu,
         tips: conveyorContent.howItWorks.tips,
+      }
+    }
+
+    case 'featuredMenu': {
+      type FeaturedContent = {
+        menuPage?: {
+          title?: string
+          subtitle?: string
+          categories?: Array<{
+            key: string
+            title: string
+            description?: string
+            items?: Array<{
+              name: string
+              nameJa?: string
+              description?: string
+              price?: string
+              dietaryTags?: string[]
+            }>
+          }>
+          dietaryLabels?: Record<string, string>
+        }
+      }
+      const featuredContent = content as FeaturedContent
+      const categories = featuredContent.menuPage?.categories
+      if (!categories || categories.length === 0) return null
+      return {
+        title: featuredContent.menuPage?.title || 'Nuestro Menú',
+        subtitle: featuredContent.menuPage?.subtitle,
+        categories: categories.slice(0, 6),
+        dietaryLabels: featuredContent.menuPage?.dietaryLabels,
+        ctaText: 'Ver Menú Completo',
+        ctaHref: `/${business.slug}/menu`,
+      }
+    }
+
+    case 'fullMenu': {
+      type FullMenuContent = {
+        menuPage?: {
+          title?: string
+          subtitle?: string
+          categories?: Array<{
+            key: string
+            title: string
+            description?: string
+            items?: Array<{
+              name: string
+              nameJa?: string
+              description?: string
+              price?: string
+              dietaryTags?: string[]
+            }>
+          }>
+          dietaryLabels?: Record<string, string>
+          japaneseTerms?: Record<string, string>
+        }
+      }
+      const fullMenuContent = content as FullMenuContent
+      const categories = fullMenuContent.menuPage?.categories
+      if (!categories || categories.length === 0) return null
+      return {
+        title: fullMenuContent.menuPage?.title || 'Menú Completo',
+        subtitle: fullMenuContent.menuPage?.subtitle,
+        categories,
+        dietaryLabels: fullMenuContent.menuPage?.dietaryLabels,
+        japaneseTerms: fullMenuContent.menuPage?.japaneseTerms,
+      }
+    }
+
+    case 'colorCodedMenu': {
+      type ColorMenuContent = {
+        menuPage?: {
+          title?: string
+          subtitle?: string
+          description?: string
+          plates?: Record<
+            string,
+            { title: string; price: string; items: string[]; color: string; description?: string }
+          >
+        }
+      }
+      const colorMenuContent = content as ColorMenuContent
+      const plates = colorMenuContent.menuPage?.plates
+      if (!plates) return null
+      const plateList = Object.entries(plates).map(([key, v]) => ({
+        key,
+        title: v.title,
+        price: v.price,
+        items: v.items,
+        color: v.color,
+        description: v.description,
+      }))
+      if (plateList.length === 0) return null
+      return {
+        title: colorMenuContent.menuPage?.title || 'Menú por Colores',
+        subtitle: colorMenuContent.menuPage?.subtitle,
+        description: colorMenuContent.menuPage?.description,
+        plates: plateList,
+      }
+    }
+
+    case 'specialOrder': {
+      type SpecialOrderContent = {
+        menuPage?: {
+          specialOrder?: {
+            title?: string
+            description?: string
+            items?: Array<string | { name: string; description?: string; price?: string }>
+          }
+        }
+      }
+      const specialContent = content as SpecialOrderContent
+      const special = specialContent.menuPage?.specialOrder
+      if (!special || !special.items || special.items.length === 0) return null
+      return {
+        title: special.title || 'Pedidos Especiales',
+        description: special.description,
+        items: special.items,
       }
     }
 

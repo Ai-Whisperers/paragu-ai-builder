@@ -2,7 +2,7 @@
  * Static config with embedded JSON content
  * Generated at build time - DO NOT EDIT MANUALLY
  * 
- * Generated: 2026-04-18T22:18:47.855Z
+ * Generated: 2026-04-19T00:23:36.730Z
  */
 
 export const REGISTRY_MAP: Record<string, unknown> = {
@@ -2470,7 +2470,7 @@ export const REGISTRY_MAP: Record<string, unknown> = {
     "nameEs": "Sushi Bar",
     "nameEn": "Sushi Bar",
     "extends": "restaurant",
-    "tokens": "sushi",
+    "tokens": "sushi_bar",
     "pages": {
       "homepage": {
         "sections": [
@@ -2673,7 +2673,7 @@ export const REGISTRY_MAP: Record<string, unknown> = {
     "nameEs": "Sushi Cinta Transportadora",
     "nameEn": "Conveyor Belt Sushi",
     "extends": "sushi_bar",
-    "tokens": "kaiten",
+    "tokens": "kaiten_zushi",
     "pages": {
       "homepage": {
         "sections": [
@@ -2683,6 +2683,7 @@ export const REGISTRY_MAP: Record<string, unknown> = {
           "conveyorBelt",
           "featuredMenu",
           "howItWorks",
+          "specialOrder",
           "reservations",
           "gallery",
           "footer"
@@ -2751,33 +2752,6 @@ export const REGISTRY_MAP: Record<string, unknown> = {
       "black_plates",
       "special_order"
     ],
-    "platePricing": {
-      "green": {
-        "color": "#22c55e",
-        "price": "15.000 Gs",
-        "description": "Platos básicos"
-      },
-      "yellow": {
-        "color": "#eab308",
-        "price": "25.000 Gs",
-        "description": "Favoritos populares"
-      },
-      "orange": {
-        "color": "#f97316",
-        "price": "35.000 Gs",
-        "description": "Especiales"
-      },
-      "red": {
-        "color": "#ef4444",
-        "price": "50.000 Gs",
-        "description": "Premium"
-      },
-      "black": {
-        "color": "#1a1a1a",
-        "price": "75.000 Gs",
-        "description": "Ultra premium"
-      }
-    },
     "targetAudience": {
       "primary": "Families, casual diners, quick lunch seekers",
       "secondary": "Sushi beginners, groups, kids"

@@ -39,6 +39,14 @@ import { ProcessTimelineSection } from '@/components/sections/process-timeline-s
 import { OmakaseSection } from '@/components/sections/omakase-section'
 import { SakeMenuSection } from '@/components/sections/sake-menu-section'
 import { ConveyorBeltSection } from '@/components/sections/conveyor-belt-section'
+import {
+  ColorCodedMenuSection,
+  SpecialOrderSection,
+} from '@/components/sections/color-coded-menu-section'
+import {
+  FeaturedMenuSection,
+  FullMenuSection,
+} from '@/components/sections/sushi-menu-sections'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -84,8 +92,16 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   omakase: OmakaseSection,
   sakeMenu: SakeMenuSection,
   conveyorBelt: ConveyorBeltSection,
+  featuredMenu: FeaturedMenuSection,
+  fullMenu: FullMenuSection,
+  colorCodedMenu: ColorCodedMenuSection,
+  specialOrder: SpecialOrderSection,
   'sake-menu': SakeMenuSection,
   'conveyor-belt': ConveyorBeltSection,
+  'featured-menu': FeaturedMenuSection,
+  'full-menu': FullMenuSection,
+  'color-coded-menu': ColorCodedMenuSection,
+  'special-order': SpecialOrderSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {
