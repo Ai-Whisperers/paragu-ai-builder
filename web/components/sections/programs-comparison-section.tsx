@@ -25,7 +25,7 @@ export interface ProgramsComparisonSectionProps {
   eyebrow?: string
   title: string
   subtitle?: string
-  tiers: ProgramTier[]
+  tiers?: ProgramTier[]
   comparisonRows?: Array<{ feature: string; values: Array<string | boolean> }>
 }
 
@@ -34,9 +34,10 @@ export function ProgramsComparisonSection({
   eyebrow,
   title,
   subtitle,
-  tiers,
+  tiers = [],
   comparisonRows,
 }: ProgramsComparisonSectionProps) {
+  if (tiers.length === 0) return null
   return (
     <section id="programas" className="bg-[var(--background)] py-16 sm:py-24">
       <Container>
@@ -103,7 +104,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               </div>
             )}
             <ul className="mt-6 flex-1 space-y-3">
-              {tier.included.map((item, i) => (
+              {(tier.included || []).map((item, i) => (
                 <li key={`inc-${i}`} className="flex gap-3 text-sm text-[var(--text)]">
                   <Check size={18} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
                   <span>{item}</span>

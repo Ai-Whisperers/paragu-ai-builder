@@ -16,6 +16,9 @@ Allow: /
 Sitemap: ${base}/s/${locale}/${slug}/sitemap.xml
 `
   return new NextResponse(body, {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+      'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+    },
   })
 }
