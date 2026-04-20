@@ -43,6 +43,8 @@ import { ConveyorBeltSection } from '@/components/sections/conveyor-belt-section
 import { MenuCategorizedPricedSection } from '@/components/sections/menu-categorized-priced-section'
 import { PropertyListingsSection } from '@/components/sections/property-listings-section'
 import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
+import { TieredServiceLadderSection } from '@/components/sections/tiered-service-ladder-section'
+import { RegulatoryStatusBadgeSection } from '@/components/sections/regulatory-status-badge-section'
 // Egg farm sections
 import { StockIndicator } from '@/components/sections/stock-indicator-section'
 import { DeliveryCalculator } from '@/components/sections/delivery-calculator-section'
@@ -112,6 +114,10 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'preorder': PreOrderSection,
   // Lead capture (service businesses, creators, relocation)
   'intake-questionnaire': IntakeQuestionnaireSection,
+  // Subscription / tiered-service progression
+  'tiered-service-ladder': TieredServiceLadderSection,
+  // Compliance / licenses / certifications
+  'regulatory-status-badge': RegulatoryStatusBadgeSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {

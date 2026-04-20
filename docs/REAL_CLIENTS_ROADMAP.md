@@ -1,234 +1,222 @@
-# Real Clients — Build & Improve Roadmap
+# Real Clients — Build & Improve Roadmap (100 items)
 
-> Six real tenants as of April 2026. Three live in `sites/` as proper tenants, three still live in `web/lib/engine/demo-data.ts` and need migration. Every improvement below should land as a **reusable engine capability**, not a client-specific patch.
+> Six real tenants as of April 2026. Analysis + catalog of reusable engine capabilities. Items marked ✅ are shipped; ⏳ in progress; ⬜ planned; ❌ anti-pattern (do not build).
 
-## The clients
+## Clients
 
 | # | Slug | Business | Vertical | Where | Stage |
 |---|------|----------|----------|-------|-------|
-| 1 | **nexa-paraguay** | EU → PY relocation | real-estate-relocation | `sites/` | Staging green, prod-blocked by stakeholder decisions |
-| 2 | **nexa-propiedades** | PY residential real estate | real-estate-relocation (inmobiliaria) | `sites/` | MVP — only home page authored |
-| 3 | **nexa-uruguay** | EU → UY relocation | real-estate-relocation | `sites/` | Reproducibility spike; staging deployable |
-| 4 | **nexaparaguay** (legacy) | Same business as #1 | relocation | `demo-data.ts` | Legacy alias; unify with sites/nexa-paraguay |
-| 5 | **dayah-litworks** | Indie book cover design | portfolio-professional (diseno_grafico) | `demo-data.ts` | Needs migration to `sites/` |
-| 6 | **de-abasto-a-casa** | Weekly groceries + mise-en-place delivery, San Lorenzo | food-beverage (meal_prep) | `demo-data.ts` | Needs migration + custom flows |
+| 1 | **nexa-paraguay** | EU → PY relocation (flagship) | real-estate-relocation | `sites/nexa-paraguay/` | Staging green, prod-blocked by 12 stakeholder items |
+| 2 | **nexa-propiedades** | PY residential real estate | real-estate-relocation | `sites/nexa-propiedades/` | MVP — 4 pages authored, some routes still sparse |
+| 3 | **nexa-uruguay** | EU → UY relocation | real-estate-relocation | `sites/nexa-uruguay/` | Reproducibility spike, en locale incomplete |
+| 4 | **nexaparaguay** | Legacy alias | real-estate-relocation | `sites/nexaparaguay/` | Migrated out of demo-data.ts |
+| 5 | **dayah-litworks** | Indie book cover designer | portfolio-professional | `sites/dayah-litworks/` | Migrated, needs product-catalog + genre filter |
+| 6 | **de-abasto-a-casa** | Weekly meal prep (Ivan's biz) | food-beverage | `sites/de-abasto-a-casa/` | Migrated, needs weekly-cadence + portal |
 
 ---
 
-## Cross-client action: migration out of demo-data.ts
+## P0 — Foundation (SHIPPED)
 
-Three real tenants (#4, #5, #6) currently live in `web/lib/engine/demo-data.ts` — a file explicitly deprecated as "Paraguay-era fixtures". Treating real clients as fixtures risks accidental deletion during cleanup.
+| # | Item | Status | Who benefits | Note |
+|---|------|--------|--------------|------|
+| 1 | Migration script `cli migrate-demo-to-site` | ✅ | 3 real clients | `web/scripts/migrate-demo-to-site.ts` |
+| 2 | Run migration for 3 real clients | ✅ | All real clients | nexaparaguay / dayah / de-abasto now in sites/ |
+| 3 | Multi-currency price formatter (`formatPrice`) | ✅ | Dayah (USD), De Abasto (Gs), Nexa × 3 | `web/lib/currency.ts` + 12 tests |
+| 4 | `intake-questionnaire` section | ✅ | De Abasto, Dayah, Nexa — any tenant needing structured lead intake | `components/sections/intake-questionnaire-section.tsx` |
+| 5 | Translation-quality flag + build gate | ✅ | Nexa × 3 | Marks DE as `machine`; validate-sites blocks prod |
+| 6 | `cli audit-duplicates` | ✅ | Ops | Flags slug drift between demo-data.ts and sites/ |
 
-**Action**: create `sites/<slug>/` folders with `site.json`, `content/es.json` (+ more locales as needed), `pages/*.json`, `tokens.json`. Everything they need is already in the demo-data entry — it's a structural move, not authoring.
+## P1 — Extend the library (SHIPPED)
 
-**Reusable deliverable**: a `npm run cli migrate-demo-to-site <slug>` subcommand that reads the demo-data entry and emits the tenant folder.
+| # | Item | Status | Who benefits | Note |
+|---|------|--------|--------------|------|
+| 7 | `pricing-with-confidential-cta` variant | ✅ | Nexa × 3, B2B tenants | `variant: "confidential"` hides amounts |
+| 8 | `tiered-service-ladder` section | ✅ | De Abasto, gyms, SaaS | L1→L2→L3 progression |
+| 9 | `creative-commission-process` variant | ✅ | Dayah, photographers, designers | `process` variant `commission` |
+| 10 | Lead enrichment (`/api/leads`) | ✅ | All tenants | `lib/leads/enrich.ts` — UA/device/ipCountry/referrer |
+| 11 | `regulatory-status-badge` section | ✅ | De Abasto INAN, finance, health, pharma | `components/sections/regulatory-status-badge-section.tsx` |
 
----
+## P2 — Data + state infrastructure (planned)
 
-## 1. Nexa Paraguay — flagship
+| # | Item | Status | Who benefits | Effort |
+|---|------|--------|--------------|--------|
+| 12 | Supabase `properties` table + `/api/properties` | ⬜ | Nexa Propiedades | 2 days |
+| 13 | `mortgage-calculator` section (PY + EU rates) | ⬜ | Nexa Propiedades | 1 day |
+| 14 | `listings-from-api` variant of `property-listings` | ⬜ | Nexa Propiedades | 0.5 day |
+| 15 | Customer portal MVP (auth + pause/resume) | ⬜ | De Abasto, Nexa post-sale | 1 week |
+| 16 | `weekly-cadence-calendar` section | ⬜ | De Abasto, CSAs, weekly subs | 1 day |
+| 17 | `sample-week-preview` section | ⬜ | De Abasto, meal plans, box services | 0.5 day |
+| 18 | `delivery-slot-picker` (Cal.com) | ⬜ | De Abasto, any delivery window | 1 day |
+| 19 | Legal-review flag + build gate | ⬜ | Nexa × 3, finance/health/law | 0.5 day |
 
-### Current state
-- 9 pages × 4 locales (nl/en/de/es), blog index + posts per locale
-- HubSpot + Mailchimp + Calendly + GA4 integrations declared
-- Launch runbook + DNS cutover guide in `docs/`
-- Navy + Champagne Playfair theme
+## P3 — Polish and later (planned)
 
-### Reality gaps
-| Gap | Impact | Reusable fix |
-|-----|--------|--------------|
-| 12 stakeholder decisions blocking prod | Can't go live | Not code — external |
-| No paying customer dashboard | Customers have no visibility after signup | `customer-portal` vertical addon (Nexa Uruguay + future countries benefit) |
-| Hardcoded program prices say "TBD" / "Consultar" | Conversion-killing | `pricing-with-confidential-cta` variant of `pricing` section (hide amount, show "request quote") |
-| No lead-scoring on HubSpot handoff | Sales sees raw submissions | Enrichment step in `/api/leads` (adds geolocation, source, locale, UTM) — used by every site |
-| Machine-quality DE translation flagged but not gated | SEO risk | Translation-quality metadata in locale files; build warns if flagged locales ship |
-
-### Priority engine work (benefits all 3 Nexa tenants)
-1. **Lead enrichment middleware** in `/api/leads` — attach UTM, locale, source, client IP → country, before CRM forward. ~1 day.
-2. **`pricing-with-confidential-cta` section variant** — reusable for any B2B vertical that can't publish prices. ~half day.
-3. **Translation quality flag in locale content** — `_meta.translationQuality: "machine" | "human" | "reviewed"` + build warning. Benefits every multi-locale tenant. ~half day.
-4. **SEPRELAD / AML disclosure section** — compliance-type section for finance-adjacent and relocation-adjacent verticals. ~half day.
-5. **Email nurture → Mailchimp Customer Journey importer** — `sites/nexa-paraguay/email-nurture.json` already declares the 7-email sequence; need the importer script. ~1 day.
-
----
-
-## 2. Nexa Propiedades — real estate MVP
-
-### Current state
-- `site.json` declares 4 pages (home, propiedades, servicios, contacto) but only home exists
-- Features flag `mortgageCalculator: true` but no implementation wired
-- IG + FB + phone all real
-
-### Reality gaps
-| Gap | Impact | Reusable fix |
-|-----|--------|--------------|
-| `/propiedades` 404s — navigation broken | User can't actually browse listings | Author page using the existing `property-listings` section component |
-| No property data source | Nothing to list | Supabase `properties` table + `/api/properties` — reusable by every inmobiliaria tenant |
-| `mortgageCalculator: true` but no section | Flag lies | Build `mortgage-calculator-section.tsx` (note: we just deleted a Granja-Cabral one — different shape; this one is real-estate specific with PY/EU bank rates) |
-| No agent profiles despite `agentProfiles: true` | Flag lies | Reuse existing `team` section; add `realtor` sub-profile with listings-owned count |
-| No PT-BR content despite locale declared | Brazilian buyers see Spanish | Author pt.json (blocker for Ciudad del Este / border market) |
-
-### Priority engine work
-1. **`properties` data model in Supabase** + `/api/properties` GET/filter. Reusable by: nexa-propiedades, future PY/UY/regional real-estate clients. ~2 days.
-2. **`mortgage-calculator` section with locale-aware rates** — EU mortgage intent for expats is a key conversion path. ~1 day.
-3. **`listings-from-api` variant of `property-listings`** so the section can render from `/api/properties` instead of inline content. ~half day.
-4. **PT-BR locale scaffolding** — benefits every PY border-adjacent tenant. Ship empty `pt.json` first, populate as content authored.
+| # | Item | Status | Who benefits | Effort |
+|---|------|--------|--------------|--------|
+| 20 | Email-nurture → Mailchimp Customer Journey importer | ⬜ | Nexa × 3 | 1 day |
+| 21 | `digital-product-catalog` with Stripe checkout | ⬜ | Dayah premades, creator tenants | 2 days |
+| 22 | `book_cover_designer` narrow type | ⬜ | Dayah | 2 hours |
+| 23 | Per-locale hreflang automation | ⬜ | All multi-locale | 2 hours |
 
 ---
 
-## 3. Nexa Uruguay — reproducibility proof
+## P4 — More reusable section components
 
-### Current state
-- Full 9-page clone of nexa-paraguay, theme swapped, 2 locales (en/es)
-- Explicitly called "reproducibility spike" in its docs
-- Likely not yet pitched to real customers
+| # | Section | Who benefits | Pattern |
+|---|---------|--------------|---------|
+| 24 | `before-after-split` — transformation visualiser | Nexa (before/after relocating), meal prep, fitness | Side-by-side |
+| 25 | `pricing-range` — "from X to Y" pricing with factors | Photographers, architects | Adaptive price |
+| 26 | `trust-signals-logos` — client logos wall | B2B, agencies, consulting | Logo grid |
+| 27 | `faq-categorized` with search | Nexa, legal, complex services | Multi-category FAQ |
+| 28 | `compare-plans-matrix` — feature comparison | SaaS, gyms, Nexa programs | Matrix |
+| 29 | `timeline-history` — company milestones | About pages, trust building | Vertical timeline |
+| 30 | `testimonial-video` — video testimonials | All — higher conversion than text | Video embeds |
+| 31 | `instagram-feed` — live IG grid | Beauty, food, creators | IG API + fallback |
+| 32 | `google-reviews-widget` — real reviews | Local businesses | Google Places API |
+| 33 | `open-hours-status` — "Open now" real-time | All local businesses | Hours-aware badge |
+| 34 | `currency-toggle` — switch display currency | Dayah, international tenants | Wrapper around formatPrice |
+| 35 | `multi-step-form` — wizard alternative to intake | Complex qualification flows | Stateful stepper |
+| 36 | `countdown-timer` — event / launch | Weddings, product launches | Client-side timer |
+| 37 | `newsletter-signup` — inline email capture | All | Simple form → Mailchimp |
+| 38 | `language-selector` — dropdown | Multi-locale tenants | Swap in header |
+| 39 | `compliance-disclaimer-footer` | Nexa, finance, health | Small-print banner |
+| 40 | `service-area-map-with-zones` | Trades, delivery | Interactive zones |
 
-### Reality gaps
-| Gap | Impact | Reusable fix |
-|-----|--------|--------------|
-| Uruguay law ≠ Paraguay law — content copy-pasted | Legal risk if customer acts on it | Legal-review flag per locale/page; build fails on unsigned pages for high-regulation verticals |
-| No custom domain cutover yet | Staging only | Same DNS runbook as nexa-paraguay, no new work |
-| No UY tax-residency pricing | Can't convert | Uruguay has a 10-year tax holiday that's a huge selling point — `tax-holiday-banner` section variant (reusable for any country-specific program) |
+## P5 — API + webhooks
 
-### Priority engine work
-1. **Legal-review flag + build gate** — each page/locale declares `reviewedBy: "<lawyer-name>" | null`; build fails in `regulation: high` verticals if any `null`. Reusable for all finance/health/legal verticals. ~1 day.
-2. **Country-specific "why-here" section** — already exists as `why-destination`; needs a variant that accepts program-specific highlights (tax holiday, residency route, bilateral treaties). ~half day.
-3. **Programmatic hreflang generation** — right now each tenant declares locales manually; automate from `site.json.locales`. ~2 hours.
+| # | Endpoint | Purpose |
+|---|----------|---------|
+| 41 | `/api/properties` GET + filter | Real-estate listings |
+| 42 | `/api/properties/:id` GET | Single property detail |
+| 43 | `/api/subscriptions/pause` POST | De Abasto self-serve pause |
+| 44 | `/api/subscriptions/skip` POST | Skip a week |
+| 45 | `/api/subscriptions/preferences` PATCH | Update diet/household |
+| 46 | `/api/calendly-webhook` POST | Booked slot → CRM |
+| 47 | `/api/mailchimp-journey-import` POST | One-shot journey import |
+| 48 | `/api/hubspot-cron-sync` | Drift detection CRM ↔ Supabase |
+| 49 | `/api/whatsapp-webhook` | Inbound WA messages → CRM |
+| 50 | `/api/og-image/:slug` GET | Dynamic OG image per tenant |
 
----
+## P6 — Tenant content remaining
 
-## 4. nexaparaguay (legacy demo-data entry)
+| # | Task | Tenant | Blocker |
+|---|------|--------|---------|
+| 51 | Author PT-BR content | nexa-propiedades | Translation pass needed |
+| 52 | Complete EN locale | nexa-uruguay | Missing home.* refs |
+| 53 | Professional DE translation | nexa-paraguay | Stakeholder decision #8 |
+| 54 | Author `/propiedades` page content | nexa-propiedades | Source of listings TBD |
+| 55 | Author `/servicios` page content | nexa-propiedades | Partially done |
+| 56 | De Abasto weekly menu content | de-abasto-a-casa | Weekly content cadence |
+| 57 | De Abasto FAQ (cold chain, pausing, minimums) | de-abasto-a-casa | Author pass |
+| 58 | Dayah portfolio expansion (finished covers grid) | dayah-litworks | Get Dayah's CSV |
+| 59 | Testimonial collection flow | de-abasto-a-casa | "can we publish?" email |
+| 60 | Replace placeholder testimonials | de-abasto-a-casa | Real client quotes |
 
-### Reality
-Duplicate of #1 living in demo-data.ts. Probably served as a stopgap before `sites/nexa-paraguay/` was scaffolded.
+## P7 — CLI & operator DX
 
-### Action
-**Delete after verifying `/nexaparaguay` URL is routed to `sites/nexa-paraguay/`.** Runs the risk of serving stale data right now — two representations of the same business drifting.
+| # | Command | Purpose |
+|---|---------|---------|
+| 61 | `cli doctor` — full pre-flight | Runs all validators + reports |
+| 62 | `cli diff-tenant <a> <b>` | Compare two tenants' configs |
+| 63 | `cli export-tenant <slug>` | Archive tenant as tarball |
+| 64 | `cli pull-content <slug>` | Pull live content back to repo |
+| 65 | `cli new-tenant` | Interactive wizard for new tenant |
+| 66 | `cli lint-content` | Grammar / link / i18n checks |
+| 67 | `cli perf-budget <slug>` | Lighthouse perf report |
+| 68 | `cli screenshots <slug>` | Visual-regression baselines |
+| 69 | `cli check-links <slug>` | Broken link detector |
+| 70 | `cli rotate-secrets` | Credential hygiene |
 
-**Reusable deliverable**: `npm run cli audit-duplicates` subcommand that finds slugs appearing in both demo-data.ts AND `sites/` and flags drift.
+## P8 — SEO / performance
 
----
+| # | Item | Who benefits |
+|---|------|--------------|
+| 71 | Per-locale sitemap generation | All multi-locale |
+| 72 | Per-tenant `robots.txt` | All |
+| 73 | Dynamic OG image generator | All |
+| 74 | JSON-LD per section type (not just LocalBusiness) | Every type |
+| 75 | Critical CSS extraction | All |
+| 76 | Image optimization pipeline | All (heavy image tenants) |
+| 77 | Font subsetting per tenant | All |
+| 78 | Lazy-hydration for below-fold sections | All |
+| 79 | Preload LCP asset | All |
+| 80 | Per-page Lighthouse budget in CI | All |
 
-## 5. Dayah LitWorks — indie book cover designer
+## P9 — Compliance / legal
 
-### Current state
-- Type: `diseno_grafico` (generic graphic design)
-- Sells: custom ebook + paperback covers, 3D mockups (static + animated video), pre-made cover packs per genre (fantasy, romance, thriller, sci-fi, horror)
-- Products are listed as inventory items (USD pricing, "Susurros del Bosque" $35, etc.)
-- No hours, no address — fully online; WhatsApp + IG only
-- Target: indie authors / self-publishers
+| # | Item | Who benefits |
+|---|------|--------------|
+| 81 | GDPR consent banner (already exists — variant per locale) | EU-facing tenants |
+| 82 | Privacy policy template per jurisdiction (PY, UY, EU) | All |
+| 83 | ToS template per vertical | All |
+| 84 | AML disclaimer template | Nexa × 3, finance |
+| 85 | Cookie classification + banner granularity | EU-facing |
+| 86 | Data request flow (GDPR right-to-delete) | All with EU users |
+| 87 | INAN disclaimer for food tenants | De Abasto, future F&B |
+| 88 | SEPRELAD attestation form | Nexa × 3 |
 
-### Reality gaps
-| Gap | Impact | Reusable fix |
-|-----|--------|--------------|
-| `diseno_grafico` is too generic | Missing book-cover-specific sections | New type `book_cover_designer` extending `diseno_grafico` with premade-cover catalog + mockup showcase |
-| Pre-made covers are sold as products but site has no checkout | Lost sales on productized offering | **Reusable**: a `digital-product-catalog` section with "buy now via WhatsApp / Stripe" flow — applies to any creator selling pre-made assets |
-| USD pricing but no multi-currency support | Friction for PY buyers | Multi-currency rendering (already partially in Nexa's `currency` placeholder pattern; extract as shared util) |
-| No before/after gallery of cover commissions | Portfolio thin | `portfolio-before-after` variant — reusable for designers, photographers, tattoo artists, architects |
-| No creator process explanation | Objection: "how does this work?" | `process` section already exists; needs a `creative-commission-process` variant (brief → sketches → revisions → delivery) |
-| No genre filter on premade covers | Bad UX with 6+ products | Reuse `product-catalog` with `categories` filter (already supported!) — just need content authored |
+## P10 — Analytics & observability
 
-### Priority engine work
-1. **New type: `book_cover_designer`** extending `diseno_grafico` with book-specific serviceCategories (custom-ebook, custom-paperback, mockup-static, mockup-video, premade). Reusable for any indie creator serving authors.
-2. **`digital-product-catalog` section** — WhatsApp-first checkout for productized services (premade covers, digital templates, Notion templates, preset packs). Reusable for every creator vertical.
-3. **Multi-currency rendering utility** (`formatPrice(amount, currency, locale)`) — reuse from Nexa's pattern, apply globally.
-4. **`creative-commission-process` variant** of `process` section — 4-step brief/sketch/review/deliver template applicable to designers, tattoo artists, photographers, videographers.
-5. **Migration to `sites/dayah-litworks/`** with English locale (indie authors globally, not just PY).
+| # | Item | Who benefits |
+|---|------|--------------|
+| 89 | Conversion-funnel events per tenant | All |
+| 90 | A/B testing harness (flag-gated section swaps) | All |
+| 91 | Error boundary with Sentry | All |
+| 92 | Real User Monitoring (Web Vitals → Cloudflare) | All |
+| 93 | Per-section impression tracking | All |
+| 94 | CTA click heatmap | All |
 
----
+## P11 — Accessibility
 
-## 6. De Abasto a Casa — weekly meal prep, San Lorenzo
+| # | Item | Who benefits |
+|---|------|--------------|
+| 95 | WCAG 2.1 AA audit | All — legal requirement EU |
+| 96 | Keyboard nav on all forms | All |
+| 97 | aria-labels audit | All |
+| 98 | Color contrast validator in CI | All |
+| 99 | Reduced-motion preference honored | All animated sections |
 
-### Current state (your business)
-- Type: `meal_prep`
-- Three service levels with transparent per-week pricing (250k, 400k, 650k, 900k, 1.2M, 1.7M Gs/week)
-- Add-ons (desayunos, postres, bebidas)
-- "Comidas Listas" tier marked "Proximamente (en habilitacion INAN)" — INAN is Paraguay's food safety authority
-- Hours tied to market-shop days (Martes y Jueves: Compras en Abasto)
-- Testimonials marked "[Testimonio ilustrativo]" — honest placeholder
-- Single-founder team
+## P12 — Capstone
 
-### Reality gaps
-| Gap | Impact | Reusable fix |
-|-----|--------|--------------|
-| Weekly cadence is core to the model but not surfaced | Customers don't understand they're buying a rhythm, not a one-off | **New section**: `weekly-cadence-calendar` — visualizes "Monday: lista due → Tue: Abasto → Wed-Thu: prep → Fri-Sat: delivery". Reusable by any CSA, laundry service, cleaning subscription |
-| Service levels are a ladder (L1 → L2 → L3) but shown as flat list | Customers can't see upgrade path | **Reusable**: `tiered-service-ladder` section — visualizes progression between plans. Applies to gyms, SaaS, meal-prep, any subscription |
-| INAN habilitation status is a selling point (trust signal) but buried in a price tag line | Wastes credibility | **Reusable**: `regulatory-status-badge` section — food/health/pharma/financial businesses benefit |
-| No "what you'll receive this week" preview | Buyers want concreteness before subscribing | **Reusable**: `sample-week-preview` section — works for any weekly-recurring service |
-| No signup intake form (what household size, dietary constraints, dislikes, delivery window) | Sales friction — everything must go through WhatsApp free-text | **Reusable**: `intake-questionnaire` section — food, fitness coaches, personal stylists, concierges all need this |
-| No testimonials yet (real), but the placeholder is labeled as such | Good instinct; needs a follow-up flow | **Reusable**: first-30-customers email capture + automated "can we publish your feedback?" sequence |
-| Hours tied to market days but no calendar integration | Delivery scheduling is manual | **Reusable**: `delivery-slot-picker` integrated with Calendly or Cal.com — works for any delivery-scheduled business |
-| Guaranies pricing only | Expats ordering might want USD | Same multi-currency utility from Dayah |
-| No FAQ | Known objections (cold chain? minimum commitment? pause a week?) unanswered | Just author `faq` content — no new engine work |
-| No "pause / skip a week" flow | Critical for subscription retention | **Reusable**: `subscription-lifecycle` customer portal — admin UI + customer self-serve pause/resume |
-
-### Priority engine work (high leverage — you are both operator AND platform owner)
-1. **`weekly-cadence-calendar` section** — you specifically benefit; reusable across subscription categories.
-2. **`tiered-service-ladder` section** — L1/L2/L3 visualization; reusable across subscription verticals.
-3. **`intake-questionnaire` section with validations** — per-vertical question packs (food prefs, dietary, household size, address, delivery window). Reusable as a pattern across services.
-4. **`sample-week-preview` section** — "this is what last week's customers received" content block. Reusable across CSAs, meal plans, box services.
-5. **`delivery-slot-picker` integration** — Cal.com or Calendly variant for delivery windows.
-6. **Customer portal MVP** — authenticated area where paying customers manage their subscription (pause/skip/update dietary/view past weeks). Benefits Nexa customer retention too.
-7. **Migration to `sites/de-abasto-a-casa/`** so your own business is treated as a first-class tenant with a real domain path.
-
----
-
-## Extracted common patterns (the real reusable wins)
-
-Ranked by leverage across the real client base:
-
-### P0 — ships in < 1 week, benefits ≥ 3 clients
-| Deliverable | Who benefits | Why P0 |
-|-------------|--------------|--------|
-| `intake-questionnaire` section | De Abasto, Dayah, Nexa × 3, future SMBs | Every service business has this; WhatsApp-only is a friction |
-| Multi-currency price rendering | Dayah (USD), De Abasto, Nexa × 3 | Unblocks international pricing everywhere |
-| Migration script: demo-data → sites/ | dayah-litworks, de-abasto-a-casa, nexaparaguay | One-shot cleanup prevents accidental deletion of real clients |
-| Translation quality flag + build gate | Nexa × 3 | Prevents shipping machine translations to prod |
-| `audit-duplicates` CLI subcommand | Operations | Drift detection before it bites |
-
-### P1 — ships in 1-2 weeks, benefits ≥ 2 clients
-| Deliverable | Who benefits | Why P1 |
-|-------------|--------------|--------|
-| `pricing-with-confidential-cta` variant | Nexa × 3, future B2B | Can't publish enterprise prices but can't show "TBD" |
-| `tiered-service-ladder` section | De Abasto, gyms, SaaS tenants | Visualizes subscription upgrade paths |
-| `creative-commission-process` variant | Dayah, future photographers/tattoo/videographers | Standardizes creator-service flow |
-| Lead enrichment middleware | Nexa × 3, all future tenants | Better CRM handoff quality |
-| `regulatory-status-badge` section | De Abasto (INAN), finance, health, pharma | Compliance-as-marketing |
-
-### P2 — infrastructure investments, benefit a future pipeline
-| Deliverable | Who benefits | Why P2 |
-|-------------|--------------|--------|
-| `properties` Supabase table + `/api/properties` | Nexa Propiedades + future real-estate | Inmobiliaria without a CMS is hand-editing JSON |
-| `mortgage-calculator` section | Nexa Propiedades, future real-estate | Key conversion surface |
-| Customer portal MVP | De Abasto retention, Nexa post-sale | Subscription management |
-| `weekly-cadence-calendar` section | De Abasto, CSAs, laundry/cleaning subs | Weekly model needs a weekly visual |
-| `sample-week-preview` section | De Abasto, meal plans, box services | Buyers need concreteness |
-| `delivery-slot-picker` (Cal.com) | De Abasto, any delivery-window service | Replaces manual scheduling |
-| Legal-review flag + build gate | Nexa × 3, finance/health tenants | Gates bad-faith deployments |
-
-### P3 — later
-| Deliverable | Who benefits | Why P3 |
-|-------------|--------------|--------|
-| Email nurture → Mailchimp importer | Nexa × 3 | Sequence authored, importer missing |
-| `digital-product-catalog` with Stripe | Dayah premades, future creator tenants | Commerce layer adds operational overhead |
-| `book_cover_designer` type | Dayah + future book-cover specialists | Narrow niche; works today as `diseno_grafico` |
-| Per-locale hreflang automation | All multi-locale tenants | Manual is fine at 3 tenants |
+| # | Item | Note |
+|---|------|------|
+| 100 | `cli health <slug>` — tenant readiness scorecard | Aggregates perf, a11y, validation, completeness |
 
 ---
 
-## Recommended execution order
+## Anti-recommendations (DO NOT build)
 
-1. **Week 1 — migrate real clients out of demo-data.ts.** Build the migration script; run it for `nexaparaguay`, `dayah-litworks`, `de-abasto-a-casa`. Confirms they won't be lost in any future cleanup.
-2. **Week 1 — P0 batch.** `intake-questionnaire`, multi-currency util, translation quality flag, duplicate audit. Each is < 1 day.
-3. **Week 2 — P1 engine sections.** `pricing-confidential-cta`, `tiered-service-ladder`, `creative-commission-process`, `regulatory-status-badge`. All extend the existing section library — no new infrastructure needed.
-4. **Week 3-4 — Nexa Propiedades unblock.** Supabase properties table, API, mortgage calculator, listings from API. Turns a 1-page MVP into a real product.
-5. **Week 3-4 — De Abasto engine contributions.** `weekly-cadence-calendar`, `sample-week-preview`, `delivery-slot-picker`. Your own business benefits immediately; reusable for future subscription tenants.
-6. **Week 5+ — Customer portal MVP.** Auth + subscription management. Unlocks retention work for Nexa + De Abasto.
+| # | Item | Why not |
+|---|------|---------|
+| ❌ | Per-client custom React code | Goes in `sites/<slug>/content/` — the whole scalability model depends on this |
+| ❌ | Checkout for every creator before retention stack for De Abasto | Revenue-per-customer × LTV says meal-prep retention first |
+| ❌ | UY-law paragraphs in component layer | Country-specific content lives in tenant content, not components |
+| ❌ | Stripe before WhatsApp-order for LATAM tenants | LATAM buyers overwhelmingly prefer WhatsApp; Stripe adds checkout abandonment |
+| ❌ | Full i18n SSR pipeline when only 4 locales in use | YAGNI — tenant `locales: []` + copy JSON per locale is fine at this scale |
+| ❌ | Custom CMS UI before admin panel improvements | Content is JSON in git — authors can PR. A full CMS adds 6+ weeks of unrelated surface |
+| ❌ | Migrate away from Next.js App Router | Router gives us ISR + middleware + edge — swapping out would delete months of gains for no client win |
 
 ---
 
-## Anti-patterns to avoid
+## Summary
 
-- **Custom code per client.** Every pattern above lands in the engine. If a requirement is truly client-specific (e.g., Nexa's SEPRELAD disclaimer wording), it goes into that tenant's content files, not the engine.
-- **Deleting demo-data.ts before migration.** Would destroy real client data. Migrate first, delete second.
-- **Building checkout infrastructure for Dayah's $35 covers before meal-prep subscription retention for De Abasto.** Low-volume vs high-LTV prioritization.
-- **Hand-coding Uruguay-specific UY-law paragraphs in the component layer.** Keep all country-specific content in `sites/<tenant>/content/` — the whole reproducibility spike depends on this discipline.
+- **11 items shipped** this round (P0 + P1)
+- **89 items documented** as planned / patterns / anti-patterns
+- Every shipped item is **reusable** — lives in the engine, not per-client
+- Every planned item has a **clear beneficiary** among the 6 real tenants
+- **Anti-recommendations** prevent scope drift into custom-per-client work
+
+## What's live for each real client today
+
+| Client | Shipped improvements (this round) |
+|--------|-----------------------------------|
+| **nexa-paraguay** | Translation-quality gate flags DE; confidential-pricing variant available for "Consultar" tiers; lead enrichment on submissions |
+| **nexa-propiedades** | Migrated vertical id to canonical `real-estate-relocation`; enrichment + currency utility available |
+| **nexa-uruguay** | Gets translation-quality gate (en still flagged as incomplete); enrichment |
+| **nexaparaguay** | Migrated into `sites/nexaparaguay/` as proper tenant; contact/whatsapp refs wired |
+| **dayah-litworks** | Migrated into `sites/dayah-litworks/`; multi-currency formatter unlocks USD display; intake-questionnaire available for book-brief flow |
+| **de-abasto-a-casa** | Migrated into `sites/de-abasto-a-casa/`; tiered-service-ladder section available for L1/L2/L3; regulatory-status-badge ready for INAN surfacing; intake-questionnaire ready for household/dietary capture |
+
+---
+
+_Last updated: 2026-04-20._
