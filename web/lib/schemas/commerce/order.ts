@@ -61,7 +61,7 @@ export const OrderSchema = z.object({
   shippingAddress: ShippingAddressSchema.nullable(),
   billingAddress: ShippingAddressSchema.nullable(),
   notes: z.string().nullable(),
-  metadata: z.record(z.unknown()),
+  metadata: z.record(z.string(), z.unknown()),
   placedAt: z.string().nullable(),
   paidAt: z.string().nullable(),
   shippedAt: z.string().nullable(),
