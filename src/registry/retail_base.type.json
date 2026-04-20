@@ -18,6 +18,23 @@
     "whatsappFloat": { "enabled": true },
     "googleMapsEmbed": { "enabled": true }
   },
+  "commerce": {
+    "enabled": true,
+    "launchPhase": "beta",
+    "provider": "mercado_pago",
+    "currency": "PYG",
+    "catalog": { "source": "supabase" },
+    "checkout": {
+      "anonymousAllowed": true,
+      "shippingRequired": true,
+      "phoneRequired": true
+    },
+    "shopperUx": {
+      "productAspectRatio": "4:5",
+      "showLowStockBadge": true,
+      "showWhatsappShare": true
+    }
+  },
   "seo": {
     "schemaType": "Store",
     "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",

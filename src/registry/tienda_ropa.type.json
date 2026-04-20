@@ -23,5 +23,10 @@
     "mujer",
     "hombre",
     "accesorios"
-  ]
+  ],
+  "commerce": {
+    "enabled": true,
+    "provider": "mercado_pago",
+    "currency": "PYG"
+  }
 }
