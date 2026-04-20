@@ -18,20 +18,12 @@ export const metadata: Metadata = {
     siteName: 'ParaguAI Builder',
     title: 'ParaguAI Builder — Sitios Web con IA para Negocios',
     description: 'Motor de generación con IA que crea sitios web profesionales, rápidos y optimizados para cualquier tipo de negocio en Paraguay.',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'ParaguAI Builder - Sitios Web con IA',
-      },
-    ],
+    // Image is provided by app/opengraph-image.tsx (dynamic via next/og).
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ParaguAI Builder',
     description: 'Sitios web profesionales con IA para negocios en Paraguay',
-    images: ['/og-image.png'],
   },
   robots: {
     index: true,

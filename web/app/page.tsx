@@ -17,6 +17,10 @@ import { FadeIn } from '@/components/landing/fade-in'
 import { FAQItem } from '@/components/landing/faq-item'
 import { TestimonialCarousel } from '@/components/landing/testimonial-carousel'
 import { NewsletterForm } from '@/components/landing/newsletter-form'
+import { LogoStrip } from '@/components/landing/logo-strip'
+import { VideoBlock } from '@/components/landing/video-block'
+import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta'
+import { ActivityTicker } from '@/components/landing/activity-ticker'
 import {
   FloatingShape,
   ScrollProgress,
@@ -244,11 +248,11 @@ function Navigation() {
   }, [])
 
   const navLinks = [
-    { href: '#clientes', label: 'Clientes' },
-    { href: '#plantillas', label: 'Plantillas' },
-    { href: '#como-funciona', label: 'Cómo funciona' },
-    { href: '#precios', label: 'Precios' },
-    { href: '#faq', label: 'FAQ' },
+    { href: '/casos', label: 'Casos' },
+    { href: '/p', label: 'Plantillas' },
+    { href: '/precios', label: 'Precios' },
+    { href: '/comparacion', label: 'Comparación' },
+    { href: '/demo', label: 'Demo' },
   ]
 
   return (
@@ -402,11 +406,14 @@ export default function HomePage() {
           <Container>
             <div className="mx-auto max-w-5xl text-center">
               <FadeIn delay={0}>
-                <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-[var(--border)] bg-[var(--surface)]/80 px-5 py-2.5 backdrop-blur-sm">
-                  <span className="inline-block h-2.5 w-2.5 animate-pulse rounded-full bg-[var(--success)]" />
-                  <span className="text-sm font-medium text-[var(--text-light)]">
-                    {heroCount1.toLocaleString()} negocios identificados en Paraguay
-                  </span>
+                <div className="mb-4 flex flex-col items-center gap-3">
+                  <div className="inline-flex items-center gap-3 rounded-full border border-[var(--border)] bg-[var(--surface)]/80 px-5 py-2.5 backdrop-blur-sm">
+                    <span className="inline-block h-2.5 w-2.5 animate-pulse rounded-full bg-[var(--success)]" />
+                    <span className="text-sm font-medium text-[var(--text-light)]">
+                      {heroCount1.toLocaleString()} negocios identificados en Paraguay
+                    </span>
+                  </div>
+                  <ActivityTicker />
                 </div>
               </FadeIn>
 
@@ -463,6 +470,17 @@ export default function HomePage() {
                       <p className="mt-1 text-sm text-[var(--text-muted)]">{stat.label}</p>
                     </div>
                   ))}
+                </div>
+              </FadeIn>
+
+              {/* Real-client logo strip + video walkthrough */}
+              <FadeIn delay={700}>
+                <LogoStrip />
+              </FadeIn>
+
+              <FadeIn delay={750}>
+                <div className="mt-16">
+                  <VideoBlock fallbackHref="#como-funciona" />
                 </div>
               </FadeIn>
 
@@ -939,16 +957,20 @@ export default function HomePage() {
               </p>
             </div>
             <div>
-              <h4 className="mb-4 font-bold text-[var(--text)]">Plataforma</h4>
+              <h4 className="mb-4 font-bold text-[var(--text)]">Producto</h4>
               <ul className="space-y-2 text-[var(--text-muted)]">
-                <li><a href="#plantillas" className="hover:text-[var(--primary)]">Plantillas</a></li>
-                <li><a href="#funcionalidades" className="hover:text-[var(--primary)]">Funcionalidades</a></li>
-                <li><a href="#precios" className="hover:text-[var(--primary)]">Precios</a></li>
+                <li><Link href="/p" className="hover:text-[var(--primary)]">Plantillas</Link></li>
+                <li><Link href="/precios" className="hover:text-[var(--primary)]">Precios</Link></li>
+                <li><Link href="/comparacion" className="hover:text-[var(--primary)]">Comparación</Link></li>
+                <li><Link href="/demo" className="hover:text-[var(--primary)]">Pedir demo</Link></li>
               </ul>
             </div>
             <div>
-              <h4 className="mb-4 font-bold text-[var(--text)]">Soporte</h4>
+              <h4 className="mb-4 font-bold text-[var(--text)]">Recursos</h4>
               <ul className="space-y-2 text-[var(--text-muted)]">
+                <li><Link href="/casos" className="hover:text-[var(--primary)]">Casos reales</Link></li>
+                <li><Link href="/blog" className="hover:text-[var(--primary)]">Blog</Link></li>
+                <li><Link href="/seguridad" className="hover:text-[var(--primary)]">Privacidad</Link></li>
                 <li><a href="#faq" className="hover:text-[var(--primary)]">FAQ</a></li>
                 <li><Link href="/admin" className="hover:text-[var(--primary)]">Panel Admin</Link></li>
               </ul>
@@ -962,6 +984,7 @@ export default function HomePage() {
 
       <FloatingWhatsApp />
       <BackToTop />
+      <StickyMobileCTA />
     </>
   )
 }
