@@ -52,9 +52,19 @@ const buildHero: SectionBuilder = ({ business, content, templateData }) => {
   }
 }
 
+type ServiceItem = {
+  name: string
+  description?: string
+  price?: string
+  priceFrom?: string
+  duration?: number
+  category?: string
+}
+
 type ServicesContent = {
   servicesPage?: {
     title?: string
+    // Category-based format (e.g., peluqueria, estetica)
     categories?: Array<{
       title: string
       defaultServices?: Array<{
@@ -65,10 +75,40 @@ type ServicesContent = {
         duration?: number
       }>
     }>
+    // Direct services format (e.g., nexa-propiedades) - can be array or {title, services: []} object
+    services?: ServiceItem[] | { title?: string; services: ServiceItem[] }
   }
 }
 
 function resolveServicesFromContent(servicesContent: ServicesContent['servicesPage']): BusinessData['services'] {
+  // Handle nested services object format: { title, services: [...] }
+  if (servicesContent?.services && !Array.isArray(servicesContent.services)) {
+    const nestedServices = servicesContent.services.services
+    if (Array.isArray(nestedServices)) {
+      return nestedServices.map((s) => ({
+        name: s.name,
+        description: s.description,
+        price: s.price,
+        priceFrom: s.priceFrom,
+        duration: s.duration,
+        category: s.category,
+      }))
+    }
+  }
+  
+  // Handle direct services array format
+  if (servicesContent?.services && Array.isArray(servicesContent.services)) {
+    return servicesContent.services.map((s) => ({
+      name: s.name,
+      description: s.description,
+      price: s.price,
+      priceFrom: s.priceFrom,
+      duration: s.duration,
+      category: s.category,
+    }))
+  }
+  
+  // Handle category-based format (e.g., peluqueria, estetica)
   return (servicesContent?.categories || []).flatMap(
     (cat) =>
       cat.defaultServices?.map((s) => ({
