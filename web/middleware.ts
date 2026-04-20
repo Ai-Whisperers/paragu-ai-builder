@@ -77,26 +77,13 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   response.headers.set('traceparent', traceparent)
   response.headers.set('x-pathname', path)
   
-  // SECURITY HEADERS - Added as part of security remediation
-  // Content Security Policy
-  const cspHeader = `
-    default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline';
-    style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: data: https://*.supabase.co;
-    font-src 'self';
-    connect-src 'self' https://*.supabase.co;
-    frame-ancestors 'none';
-    base-uri 'self';
-    form-action 'self';
-  `.replace(/\s+/g, ' ').trim()
-  
-  response.headers.set('Content-Security-Policy', cspHeader)
-  response.headers.set('X-Frame-Options', 'DENY')
-  response.headers.set('X-Content-Type-Options', 'nosniff')
-  response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
-  response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
-  response.headers.set('X-XSS-Protection', '1; mode=block')
+  // NOTE: Security headers (CSP, HSTS, X-Frame-Options, Referrer-Policy,
+  // Permissions-Policy) are set in next.config.mjs → headers() so they apply
+  // to static + dynamic routes uniformly. An earlier version of this
+  // middleware also emitted a stricter CSP that blocked Google Fonts for
+  // every tenant site — removed 2026-04. If you need route-specific CSP,
+  // add a `<meta http-equiv="Content-Security-Policy">` tag in that route's
+  // layout rather than overriding here.
 
   // Public routes: skip auth to reduce latency
   // Admin routes (/admin, /admin/*) are protected; everything else is public.
