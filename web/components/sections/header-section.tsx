@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Container } from '@/components/ui/container'
+import { LOCALE_LABELS, type Locale } from '@/lib/i18n/config'
+import { buildLocaleUrl } from '@/lib/i18n/routing'
 
 export interface NavItem {
   label: string
@@ -14,6 +16,10 @@ export interface HeaderSectionProps {
   navItems: NavItem[]
   ctaText?: string
   ctaHref?: string
+  __siteSlug?: string
+  __locale?: Locale
+  __availableLocales?: Locale[]
+  __currentPath?: string
 }
 
 export function HeaderSection({
@@ -21,8 +27,47 @@ export function HeaderSection({
   navItems,
   ctaText,
   ctaHref = '#contacto',
+  __siteSlug,
+  __locale,
+  __availableLocales,
+  __currentPath = '',
 }: HeaderSectionProps) {
   const [mobileOpen, setMobileOpen] = useState(false)
+
+  const showLocaleSwitch =
+    !!__siteSlug && !!__locale && !!__availableLocales && __availableLocales.length > 1
+
+  const renderLocaleSwitch = (variant: 'desktop' | 'mobile') => {
+    if (!showLocaleSwitch) return null
+    const wrapperClass =
+      variant === 'desktop'
+        ? 'ml-2 hidden items-center gap-2 border-l border-[var(--surface-light)] pl-4 md:flex'
+        : 'mt-3 flex items-center gap-3 border-t border-[var(--surface-light)] pt-3'
+    return (
+      <nav aria-label="Language" className={wrapperClass}>
+        {__availableLocales!.map((loc) => {
+          const href = buildLocaleUrl(loc, __siteSlug!, __currentPath)
+          const active = loc === __locale
+          return (
+            <a
+              key={loc}
+              href={href}
+              hrefLang={loc}
+              aria-current={active ? 'true' : undefined}
+              title={LOCALE_LABELS[loc]}
+              className={
+                active
+                  ? 'text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]'
+                  : 'text-xs uppercase tracking-wider text-[var(--text-muted)] transition-colors hover:text-[var(--text)]'
+              }
+            >
+              {loc}
+            </a>
+          )
+        })}
+      </nav>
+    )
+  }
 
   return (
     <header className="sticky top-0 z-50 bg-[var(--surface)] shadow-nav">
@@ -53,6 +98,7 @@ export function HeaderSection({
                 {ctaText}
               </Button>
             )}
+            {renderLocaleSwitch('desktop')}
           </nav>
 
           {/* Mobile toggle */}
@@ -83,6 +129,7 @@ export function HeaderSection({
                 {ctaText}
               </Button>
             )}
+            {renderLocaleSwitch('mobile')}
           </nav>
         )}
       </Container>
