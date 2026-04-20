@@ -4,7 +4,7 @@ When something breaks, this is the playbook. The codebase has **one
 structured logger** (`lib/obs/logger.ts`, re-exported as `@/lib/logger`) plus
 three external pipes (Sentry / Axiom / Analytics Engine). The sections
 below cover day-to-day debugging. For the architectural setup, see
-[`OBSERVABILITY.md`](./OBSERVABILITY.md).
+[`../observability/`](../observability/) — split into `logging.md`, `tracing.md`, `metrics.md`.
 
 ## 1. The structured logger
 

@@ -6,7 +6,7 @@
  * `@/lib/obs/logger` or — when adding route handlers — use the
  * `withRequestLog` wrapper from `@/lib/api/with-request-log`.
  *
- * See `docs/DEBUGGING.md` for the full observability reference.
+ * See `docs/how-to/debug.md` + `docs/observability/` for the full reference.
  */
 
 export {

@@ -1,6 +1,6 @@
 # Archive — April 2026
 
-Point-in-time status reports and completion summaries moved here as part of the [docs consolidation](../../DOCS_CONSOLIDATION_PLAN.md) (Phase B.1).
+Point-in-time status reports, completion summaries, and superseded plans moved here as part of the [docs consolidation](../../DOCS_CONSOLIDATION_PLAN.md) (Phases B.1, D, E, G).
 
 These files are **preserved for historical audit trail** — they describe work completed or state snapshots at specific moments. They are NOT current documentation.
 
@@ -34,6 +34,19 @@ For the current state of the repo, see:
 | `CLOUDFLARE_DEPLOY.md` | root | Cloudflare Workers deploy — superseded by `docs/how-to/deploy.md` |
 | `HOSTINGER_CLOUDFLARE_SETUP.md` | root | VPS + CF-DNS walkthrough — contains stale Supabase refs; VPS section merged into canonical deploy doc |
 | `DEPLOYMENT.md` | `docs/` | Original Supabase+Pages walkthrough — superseded |
+| `HOMEPAGE_IMPROVEMENT_PLAN.md` | `docs/` | Completed plan — homepage redesign shipped |
+| `UX_UI_REDESIGN_PLAN.md` | `docs/` | Completed plan — UX/UI redesign shipped; see also `UXUI_BEAUTIFICATION.md` in docs root for the design-system explainer |
+| `COMPLETE_REMEDIATION_PLAN.md` | `docs/` | 1,896-line 6-week remediation plan — executed |
+| `COMPREHENSIVE_AUDIT_REPORT.md` | `docs/` | Point-in-time audit snapshot |
+| `FEATURE_GAP_ANALYSIS.md` | `docs/` | Historical gap analysis — issues since resolved or tracked in `EPIC_PLAN.md` |
+| `BUSINESS_ANALYSIS_COMPLETE.md` | `docs/` | Business-analysis completion report |
+| `CRITICAL_FIXES_QUICK_REFERENCE.md` | `docs/` | Point-in-time fix list |
+| `UNIVERSAL_COMPONENTS_SUMMARY.md` | `docs/` | Summary of `UNIVERSAL_COMPONENTS.md` — the full doc remains live |
+| `20_DOLLAR_BEST_VALUE.md` | `docs/` | Superseded by `PRICING_FRAMEWORK_SUMMARY.md` + `03_PRICING_MODEL.md` |
+| `100_WINS_COMPLETE.md` | `docs/` | Completion snapshot of the 100-wins ledger; `100_EASY_WINS.md` remains live as the active backlog |
+| `EPIC_PLANNING_SUMMARY.md` | `docs/` | Summary of `EPIC_PLAN.md` — the full plan remains live |
+| `TENANTS_ANALYSIS_AND_IMAGES.md` | `docs/` | Analysis snapshot — live tenant data in `reference/TENANTS.md` + `reference/BUSINESS_TYPES.md` |
+| `TENANTS_STATUS_AND_IMAGE_REQUIREMENTS.md` | `docs/` | Status snapshot — image-pipeline content folded into `how-to/generate-images.md` |
 
 > **Security note:** `QUICK_DEPLOY.md` and `HOSTINGER_CLOUDFLARE_SETUP.md` contain **two different Supabase project URLs + publishable keys** hard-coded. Publishable (anon) keys are designed to be client-exposed under RLS, but shipping them in committed docs is sloppy. The projects referenced (`okddppczckbjdotrxiev` and `qyvokpribmbrosafntqa`) should be verified — if either is current, rotate the publishable key as a hygiene step and remove from the archive with a redacted stub.
 
@@ -51,7 +64,7 @@ If you need the content:
 
 Do not create new files like these. Instead:
 
-- **What changed in a release** → [`CHANGELOG.md`](../../../CHANGELOG.md) _(planned)_
+- **What changed in a release** → [`CHANGELOG.md`](../../../CHANGELOG.md)
 - **What this PR does** → the PR description
 - **Architecture rationale** → update the relevant `docs/explanation/` file
 - **Completed roadmap items** → tick them in `docs/02_STRATEGY/EPIC_PLAN.md` and reference the merge commit
