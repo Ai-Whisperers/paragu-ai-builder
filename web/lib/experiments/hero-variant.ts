@@ -49,9 +49,20 @@ export function useHeroVariant(): HeroVariant | null {
   const [variant, setVariant] = useState<HeroVariant | null>(null)
 
   useEffect(() => {
+    // URL param override: ?v=A or ?v=B forces the variant for this load
+    // (and pins the cookie so reloads stay consistent). Used for manual QA
+    // and stakeholder previews before stats are meaningful.
+    const params = new URLSearchParams(window.location.search)
+    const override = params.get('v')
+    const overrideVariant: HeroVariant | null =
+      override === 'A' || override === 'B' ? override : null
+
     const existing = readCookie(COOKIE_NAME) as HeroVariant | null
     let assigned: HeroVariant
-    if (existing === 'A' || existing === 'B') {
+    if (overrideVariant) {
+      assigned = overrideVariant
+      writeCookie(COOKIE_NAME, assigned, COOKIE_TTL_DAYS)
+    } else if (existing === 'A' || existing === 'B') {
       assigned = existing
     } else {
       assigned = pickVariant()
