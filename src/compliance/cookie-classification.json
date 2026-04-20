@@ -1,0 +1,38 @@
+{
+  "$schema": "./cookie-classification.schema.json",
+  "description": "Cookie classification used by the GDPR consent banner. Categorized per GDPR art. 6, CNIL and ePrivacy guidance. Each tenant includes only the categories it actually uses (see sites/<slug>/site.json integrations block).",
+  "categories": {
+    "strictly-necessary": {
+      "description": "Funcionamiento básico del sitio. No requieren consentimiento.",
+      "examples": ["session", "csrf-token", "consent-preference"],
+      "defaultAllowed": true,
+      "canReject": false
+    },
+    "functional": {
+      "description": "Preferencias del usuario (idioma, moneda, etc.). Opt-in.",
+      "examples": ["locale", "currency-preference", "theme"],
+      "defaultAllowed": false,
+      "canReject": true
+    },
+    "analytics": {
+      "description": "Medición de uso agregada y anónima.",
+      "examples": ["_ga", "_ga_*", "cf-analytics"],
+      "defaultAllowed": false,
+      "canReject": true
+    },
+    "marketing": {
+      "description": "Remarketing y publicidad dirigida. Opt-in explícito.",
+      "examples": ["_fbp", "_gcl_au", "li_fat_id"],
+      "defaultAllowed": false,
+      "canReject": true
+    }
+  },
+  "providers": {
+    "google-analytics-4": { "category": "analytics", "retention": "14 months" },
+    "meta-pixel": { "category": "marketing", "retention": "90 days" },
+    "hubspot-tracking": { "category": "marketing", "retention": "2 years" },
+    "mailchimp": { "category": "marketing", "retention": "unsubscribe" },
+    "cloudflare-analytics": { "category": "analytics", "retention": "6 months" },
+    "hotjar": { "category": "analytics", "retention": "365 days" }
+  }
+}
