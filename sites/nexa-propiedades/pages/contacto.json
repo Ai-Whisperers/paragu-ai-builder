@@ -1,7 +1,7 @@
 {
-  "slug": "home",
-  "titleKey": "home.seo.title",
-  "descriptionKey": "home.seo.description",
+  "slug": "contacto",
+  "titleKey": "contactPage.seo.title",
+  "descriptionKey": "contactPage.seo.description",
   "schemaType": "RealEstateAgent",
   "sections": [
     {
@@ -11,18 +11,13 @@
     },
     {
       "id": "hero",
-      "variant": "split",
-      "content": "home.hero"
-    },
-    {
-      "id": "services",
-      "variant": "cards",
-      "content": "servicesPage.services"
+      "variant": "minimal",
+      "content": "contactPage.hero"
     },
     {
       "id": "contact",
       "variant": "split",
-      "content": "contact"
+      "content": "contactPage.contact"
     },
     {
       "id": "footer",

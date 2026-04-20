@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Dayah LitWorks",
+    "lastReviewed": "2026-04-20"
+  },
+  "siteName": "Dayah LitWorks",
+  "tagline": "Donde la fantasia se convierte en realidad",
+  "placeholders": {
+    "businessName": "Dayah LitWorks",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Dayah LitWorks",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Dayah LitWorks — Donde la fantasia se convierte en realidad",
+      "description": "Donde la fantasia se convierte en realidad"
+    },
+    "hero": {
+      "headline": "Dayah LitWorks",
+      "subheadline": "Donde la fantasia se convierte en realidad",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "items": [
+        {
+          "name": "Portada Personalizada - Ebook",
+          "price": "Consultar",
+          "description": "Diseno exclusivo para tu ebook, incluye revisiones",
+          "category": "Portadas Personalizadas"
+        },
+        {
+          "name": "Portada Personalizada - Tapa Blanda",
+          "price": "Consultar",
+          "description": "Portada completa (frente, lomo y contra) para impresion",
+          "category": "Portadas Personalizadas"
+        },
+        {
+          "name": "Mockup 3D Estatico",
+          "price": "Consultar",
+          "description": "Imagen realista de tu libro en 3D",
+          "category": "Mockups 3D"
+        },
+        {
+          "name": "Video Mockup 3D",
+          "price": "Consultar",
+          "description": "Animacion profesional de tu portada",
+          "category": "Mockups 3D"
+        }
+      ]
+    },
+    "products": {
+      "title": "Productos",
+      "items": [
+        {
+          "name": "Susurros del Bosque",
+          "price": "$35",
+          "description": "Portada premade - Fantasia/Romance",
+          "category": "Fantasia",
+          "imageUrl": "",
+          "available": true
+        },
+        {
+          "name": "Corazon de Cenizas",
+          "price": "$35",
+          "description": "Portada premade - Romance Oscuro",
+          "category": "Romance",
+          "imageUrl": "",
+          "available": true
+        },
+        {
+          "name": "El Ultimo Codigo",
+          "price": "$30",
+          "description": "Portada premade - Thriller/Suspenso",
+          "category": "Thriller",
+          "imageUrl": "",
+          "available": true
+        },
+        {
+          "name": "Galaxia Interior",
+          "price": "$35",
+          "description": "Portada premade - Ciencia Ficcion",
+          "category": "Ciencia Ficcion",
+          "imageUrl": "",
+          "available": true
+        },
+        {
+          "name": "Sombras en el Espejo",
+          "price": "$30",
+          "description": "Portada premade - Terror/Horror",
+          "category": "Terror",
+          "imageUrl": "",
+          "available": true
+        },
+        {
+          "name": "Alas de Cristal",
+          "price": "$35",
+          "description": "Portada premade - Fantasia Juvenil",
+          "category": "Fantasia",
+          "imageUrl": "",
+          "available": true
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonios",
+      "items": [
+        {
+          "quote": "Mi portada quedo increible! Dayah entendio perfectamente la esencia de mi libro.",
+          "author": "Maria G.",
+          "rating": 5
+        },
+        {
+          "quote": "Profesional, creativa y super rapida. Mi portada premade fue amor a primera vista.",
+          "author": "Carlos R.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Respuesta en el dia",
+      "whatsapp": "+595981000000",
+      "email": "dayah@litworks.com",
+      "instagram": "@dayah.litworks"
+    }
+  },
+  "footer": {
+    "businessName": "Dayah LitWorks",
+    "city": "Asuncion",
+    "copyright": "© 2026 Dayah LitWorks"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, me interesa una portada para mi libro"
+  }
+}

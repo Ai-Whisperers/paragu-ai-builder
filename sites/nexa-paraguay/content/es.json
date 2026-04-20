@@ -477,6 +477,7 @@
     "pillars": {
       "eyebrow": "Por qué Paraguay",
       "title": "Una oportunidad real para el inversor europeo",
+      "honestNote": "La oportunidad es real, pero el proceso no es sencillo sin guía adecuada. Existimos para resolver exactamente eso.",
       "pillars": [
         {
           "icon": "TrendingUp",
@@ -508,8 +509,7 @@
             "Seguridad personal"
           ]
         }
-      ],
-      "honestNote": "La oportunidad es real, pero el proceso no es sencillo sin guía adecuada. Existimos para resolver exactamente eso."
+      ]
     },
     "trust": {
       "eyebrow": "Por qué Nexa Paraguay",

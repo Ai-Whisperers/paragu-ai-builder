@@ -89,5 +89,103 @@
   "whatsapp": {
     "phone": "+595 981 234 567",
     "message": "Hello, I'm interested in learning more about available properties."
+  },
+  "propertiesPage": {
+    "seo": {
+      "title": "Properties for Sale — Nexa Propiedades Paraguay",
+      "description": "Explore our selection of houses, apartments and land in Paraguay."
+    },
+    "hero": {
+      "headline": "Our Properties",
+      "subheadline": "Find the perfect property for you."
+    },
+    "listings": {
+      "title": "Available Properties",
+      "properties": [
+        {
+          "id": "prop-1",
+          "title": "Modern House in Asunción",
+          "location": "Barrio Jara, Asunción",
+          "price": "$250,000",
+          "type": "House",
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "area": "350 m²",
+          "image": "/sites/nexa-propiedades/images/properties/casa-1.jpg"
+        },
+        {
+          "id": "prop-2",
+          "title": "Luxury Apartment",
+          "location": "Villa Morra, Asunción",
+          "price": "$180,000",
+          "type": "Apartment",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": "120 m²",
+          "image": "/sites/nexa-propiedades/images/properties/depto-1.jpg"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Didn't find what you were looking for?",
+      "buttonText": "Contact an Agent",
+      "buttonHref": "/s/en/nexa-propiedades/contacto"
+    }
+  },
+  "servicesPage": {
+    "seo": {
+      "title": "Real Estate Services — Nexa Propiedades",
+      "description": "Buy, sell, rent and legal advice for properties in Paraguay."
+    },
+    "hero": {
+      "headline": "Our Services",
+      "subheadline": "Complete solutions for your real estate needs."
+    },
+    "services": {
+      "title": "Services We Offer",
+      "services": [
+        {
+          "name": "Property Purchase",
+          "description": "We accompany you from search to deed."
+        },
+        {
+          "name": "Property Sale",
+          "description": "Fair valuation and professional marketing."
+        },
+        {
+          "name": "Rentals",
+          "description": "Complete rental property management."
+        },
+        {
+          "name": "Legal Advice",
+          "description": "Complete document verification."
+        }
+      ]
+    },
+    "calculator": {
+      "title": "Mortgage Calculator",
+      "description": "Estimate your monthly payment for buying a property in Paraguay."
+    },
+    "cta": {
+      "title": "Need a personalized service?",
+      "buttonText": "Contact Us",
+      "buttonHref": "/s/en/nexa-propiedades/contacto"
+    }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contact — Nexa Propiedades Paraguay",
+      "description": "Talk to our expert real estate agents."
+    },
+    "hero": {
+      "headline": "Contact",
+      "subheadline": "We are here to help you find your ideal property."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "phone": "+595 981 234 567",
+      "email": "info@nexapropiedades.com",
+      "address": "Av. Aviadores del Chaco 1234, Asunción"
+    }
   }
 }

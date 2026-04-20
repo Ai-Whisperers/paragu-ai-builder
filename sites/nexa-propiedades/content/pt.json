@@ -89,5 +89,103 @@
   "whatsapp": {
     "phone": "+595 981 234 567",
     "message": "Olá, tenho interesse em saber mais sobre os imóveis disponíveis."
+  },
+  "propertiesPage": {
+    "seo": {
+      "title": "Imóveis à Venda — Nexa Propiedades Paraguai",
+      "description": "Explore nossa seleção de casas, apartamentos e terrenos no Paraguai."
+    },
+    "hero": {
+      "headline": "Nossos Imóveis",
+      "subheadline": "Encontre o imóvel perfeito para você."
+    },
+    "listings": {
+      "title": "Imóveis Disponíveis",
+      "properties": [
+        {
+          "id": "prop-1",
+          "title": "Casa Moderna em Assunção",
+          "location": "Barrio Jara, Assunção",
+          "price": "$250.000",
+          "type": "Casa",
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "area": "350 m²",
+          "image": "/sites/nexa-propiedades/images/properties/casa-1.jpg"
+        },
+        {
+          "id": "prop-2",
+          "title": "Apartamento de Luxo",
+          "location": "Villa Morra, Assunção",
+          "price": "$180.000",
+          "type": "Apartamento",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": "120 m²",
+          "image": "/sites/nexa-propiedades/images/properties/depto-1.jpg"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Não encontrou o que procurava?",
+      "buttonText": "Falar com Corretor",
+      "buttonHref": "/s/pt/nexa-propiedades/contacto"
+    }
+  },
+  "servicesPage": {
+    "seo": {
+      "title": "Serviços Imobiliários — Nexa Propiedades",
+      "description": "Compra, venda, aluguel e assessoria jurídica para imóveis no Paraguai."
+    },
+    "hero": {
+      "headline": "Nossos Serviços",
+      "subheadline": "Soluções completas para suas necessidades imobiliárias."
+    },
+    "services": {
+      "title": "Serviços que Oferecemos",
+      "services": [
+        {
+          "name": "Compra de Imóveis",
+          "description": "Acompanharemos você desde a busca até a escritura."
+        },
+        {
+          "name": "Venda de Imóveis",
+          "description": "Avaliação justa e marketing profissional."
+        },
+        {
+          "name": "Aluguéis",
+          "description": "Gestão completa de imóveis para aluguel."
+        },
+        {
+          "name": "Assessoria Jurídica",
+          "description": "Verificação documental completa."
+        }
+      ]
+    },
+    "calculator": {
+      "title": "Calculadora de Hipoteca",
+      "description": "Estime sua parcela mensal para comprar um imóvel no Paraguai."
+    },
+    "cta": {
+      "title": "Precisa de um serviço personalizado?",
+      "buttonText": "Fale Conosco",
+      "buttonHref": "/s/pt/nexa-propiedades/contacto"
+    }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contato — Nexa Propiedades Paraguai",
+      "description": "Fale com nossos corretores imobiliários especialistas."
+    },
+    "hero": {
+      "headline": "Contato",
+      "subheadline": "Estamos aqui para ajudá-lo a encontrar seu imóvel ideal."
+    },
+    "contact": {
+      "title": "Informações de Contato",
+      "phone": "+595 981 234 567",
+      "email": "info@nexapropiedades.com",
+      "address": "Av. Aviadores del Chaco 1234, Assunção"
+    }
   }
 }

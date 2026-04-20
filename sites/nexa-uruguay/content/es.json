@@ -379,7 +379,8 @@
     "pillars": {
       "eyebrow": "Por qué Uruguay",
       "title": "Estabilidad, previsibilidad, apertura",
-      "items": [
+      "honestNote": "Uruguay no es barato — es estable. Ese tradeoff es la clave. Si prioriza el costo, Paraguay puede ser mejor opción; se lo diremos.",
+      "pillars": [
         {
           "icon": "TrendingUp",
           "title": "Estabilidad primero",
@@ -410,8 +411,7 @@
             "Playa + ciudad"
           ]
         }
-      ],
-      "honestNote": "Uruguay no es barato — es estable. Ese tradeoff es la clave. Si prioriza el costo, Paraguay puede ser mejor opción; se lo diremos."
+      ]
     },
     "trust": {
       "eyebrow": "Por qué Nexa Uruguay",

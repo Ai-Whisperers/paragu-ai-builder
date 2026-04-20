@@ -45,12 +45,166 @@
     "ctaHref": "/s/en/nexa-uruguay/contacto"
   },
   "home": {
+    "seo": {
+      "title": "Nexa Uruguay — Establish in Uruguay with Confidence",
+      "description": "Relocate to Uruguay with expert guidance. Residency, company formation, banking, and tax optimization."
+    },
+    "hero": {
+      "eyebrow": "Relocation Experts",
+      "headline": "Establish in Uruguay with confidence",
+      "subheadline": "Complete relocation services: residency, company formation, banking, and tax optimization.",
+      "ctaPrimary": "Book consultation",
+      "ctaSecondary": "Explore programs"
+    },
+    "trust": {
+      "eyebrow": "Why choose us",
+      "title": "Trusted by professionals worldwide",
+      "credentials": [
+        { "icon": "shield", "label": "Licensed & Regulated" },
+        { "icon": "users", "label": "500+ Clients Served" },
+        { "icon": "clock", "label": "10+ Years Experience" }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Programs",
+      "title": "Three paths to establish yourself in Uruguay",
+      "subtitle": "Choose your program based on your objective.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Uruguay Base",
+          "description": "Residency + RUT.",
+          "price": "To be defined",
+          "included": [
+            "Residency application",
+            "RUT",
+            "Document validation",
+            "Operational visit"
+          ],
+          "excluded": ["Company formation", "Bank account opening"],
+          "ctaLabel": "Learn more",
+          "ctaHref": "/s/en/nexa-uruguay/programas"
+        },
+        {
+          "id": "business",
+          "name": "Uruguay Business",
+          "description": "Residency + company + bank account.",
+          "price": "To be defined",
+          "highlighted": true,
+          "badge": "Most chosen",
+          "included": [
+            "Everything in Base",
+            "Company formation (SAS)",
+            "Bank account",
+            "Strategic tour",
+            "Fees + VAT included"
+          ],
+          "excluded": ["Ongoing accounting"],
+          "ctaLabel": "Learn more",
+          "ctaHref": "/s/en/nexa-uruguay/programas"
+        },
+        {
+          "id": "investor",
+          "name": "Uruguay Investor Program",
+          "description": "Business + 12 months advisory.",
+          "price": "To be defined",
+          "included": [
+            "Everything in Business",
+            "12 months advisory",
+            "Tax optimization",
+            "Investment guidance",
+            "Priority support"
+          ],
+          "ctaLabel": "Learn more",
+          "ctaHref": "/s/en/nexa-uruguay/programas"
+        }
+      ]
+    },
+    "whyCountry": {
+      "eyebrow": "Why Uruguay",
+      "title": "A stable and welcoming country",
+      "subtitle": "Uruguay offers political stability, strong institutions, and a high quality of life.",
+      "pillars": [
+        {
+          "icon": "scale",
+          "title": "Legal Security",
+          "description": "Strong legal framework protecting property rights and investments.",
+          "bullets": ["Property rights protection", "Contract enforcement", "Dispute resolution"]
+        },
+        {
+          "icon": "trending-up",
+          "title": "Economic Stability",
+          "description": "Stable economy with moderate inflation and solid banking system.",
+          "bullets": ["Low inflation history", "Solid banking system", "Free trade zones"]
+        },
+        {
+          "icon": "heart",
+          "title": "Quality of Life",
+          "description": "Excellent healthcare, education, and safety standards.",
+          "bullets": ["Public healthcare", "Free education", "Low crime rates"]
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Process",
+      "title": "Your journey to Uruguay",
+      "subtitle": "A clear, step-by-step process from initial consultation to full establishment.",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation",
+          "description": "Free initial consultation to understand your needs and recommend the best path."
+        },
+        {
+          "number": 2,
+          "title": "Documentation",
+          "description": "We guide you through gathering and validating all required documents."
+        },
+        {
+          "number": 3,
+          "title": "Application",
+          "description": "We handle all submissions to Uruguayan authorities on your behalf."
+        },
+        {
+          "number": 4,
+          "title": "Establishment",
+          "description": "Arrive in Uruguay and complete the final steps with our on-ground support."
+        }
+      ]
+    },
     "testimonials": {
       "eyebrow": "Testimonials",
       "title": "What our clients say",
       "subtitle": "Real stories from people who established their operations in Uruguay",
       "ctaText": "Read all testimonials",
-      "ctaHref": "/s/en/nexa-uruguay/testimonials"
+      "ctaHref": "/s/en/nexa-uruguay/testimonials",
+      "testimonials": [
+        {
+          "quote": "Nexa Uruguay made the entire relocation process smooth and stress-free. Highly recommended!",
+          "author": "Maria Garcia",
+          "role": "Business Owner",
+          "rating": 5
+        },
+        {
+          "quote": "Professional service from start to finish. They handled all the paperwork and legal requirements.",
+          "author": "John Smith",
+          "role": "Entrepreneur",
+          "rating": 5
+        },
+        {
+          "quote": "The team was incredibly knowledgeable about Uruguayan regulations and helped us establish our company quickly.",
+          "author": "Carlos Rodriguez",
+          "role": "CEO",
+          "rating": 5
+        }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Ready to start?",
+      "title": "Book your free consultation today",
+      "subtitle": "Speak with our experts and discover the best path for your needs.",
+      "ctaText": "Schedule consultation",
+      "ctaHref": "https://calendly.com/nexauruguay/consult"
     }
   },
   "programasPage": {
@@ -186,6 +340,7 @@
     "pillars": {
       "eyebrow": "Why Uruguay",
       "title": "Stable, predictable, open",
+      "honestNote": "Uruguay is not cheap — it is stable. That tradeoff is the whole point. If you need a lower cost of living, Paraguay may be the better fit; we will tell you so.",
       "pillars": [
         {
           "icon": "TrendingUp",
@@ -217,8 +372,7 @@
             "Beach + city combination"
           ]
         }
-      ],
-      "honestNote": "Uruguay is not cheap — it is stable. That tradeoff is the whole point. If you need a lower cost of living, Paraguay may be the better fit; we will tell you so."
+      ]
     },
     "trust": {
       "eyebrow": "Why Nexa Uruguay",

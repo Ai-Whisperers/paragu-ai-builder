@@ -1,0 +1,39 @@
+{
+  "vertical": "real-estate-relocation",
+  "businessType": "relocation",
+  "country": "Paraguay",
+  "domain": "nexaparaguay.com",
+  "stagingDomain": "staging.nexaparaguay.com",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "phone": "+595984561234",
+    "email": "contact@nexaparaguay.com",
+    "whatsapp": "+595984561234",
+    "instagram": "@nexaparaguay",
+    "facebook": "nexaparaguay"
+  },
+  "location": {
+    "address": "Asuncion, Paraguay",
+    "neighborhood": "Asuncion",
+    "city": "Asuncion"
+  },
+  "hours": {
+    "Lunes - Viernes": "09:00 - 18:00",
+    "Sabado": "10:00 - 14:00",
+    "Domingo": "Cerrado"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "migratedFrom": "web/lib/engine/demo-data.ts",
+  "migratedAt": "2026-04-20"
+}
