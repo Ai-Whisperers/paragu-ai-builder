@@ -1,203 +1,121 @@
-# 📚 Documentation Index
+# Documentation Hub
 
-> Complete guide to all project documentation  
-> Last Updated: April 20, 2026
+This is the documentation index. Docs are organised by **audience and intent**, following the [Diataxis framework](https://diataxis.fr/):
 
----
+- **Tutorials** — guided learning. "Walk me through X for the first time."
+- **How-to** — task recipes. "I know what I want; how do I do it?"
+- **Reference** — factual lookup. "What sections exist? What does this config field mean?"
+- **Explanation** — conceptual understanding. "Why is the system built this way?"
 
-## 🚀 START HERE
+The repo today has 141 markdown files — many predating this structure. The [docs consolidation plan](./DOCS_CONSOLIDATION_PLAN.md) maps each legacy doc to its target home. Until that migration is complete, both this canonical layout and the legacy numbered folders (`docs/01_BUSINESS_MODEL/` … `docs/08_CLIENTS/`) coexist.
 
-| Document | Purpose | Audience |
-|----------|---------|----------|
-| [PROJECT_TRANSFORMATION_COMPLETE.md](./PROJECT_TRANSFORMATION_COMPLETE.md) | Summary of all changes | Everyone |
-| [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) | Quick commands & links | Developers |
-| [README.md](../README.md) | Project overview | New team members |
+## Start here
 
----
+| If you are… | Read first |
+|---|---|
+| New to the repo | [/README.md](../README.md) → [/ARCHITECTURE.md](../ARCHITECTURE.md) |
+| Contributing code | [/CONTRIBUTING.md](../CONTRIBUTING.md) |
+| An AI agent working here | [/CLAUDE.md](../CLAUDE.md) + [/AGENTS.md](../AGENTS.md) |
+| Onboarding a new tenant | [how-to/add-tenant.md](./how-to/add-tenant.md) _(planned)_ |
+| Onboarding a new business type | [/web/docs/ADDING_BUSINESS_TYPES.md](../web/docs/ADDING_BUSINESS_TYPES.md) |
+| Looking up an API route | [reference/API.md](./reference/API.md) |
+| Looking up a section component | [reference/SECTIONS.md](./reference/SECTIONS.md) |
+| Looking up a business type or tenant | [reference/BUSINESS_TYPES.md](./reference/BUSINESS_TYPES.md) |
+| Shipping to production | `03_ARCHITECTURE/DEPLOYMENT.md`, `/CLOUDFLARE_DEPLOY.md` _(legacy — will collapse into `how-to/deploy.md`)_ |
+| Investigating an incident | [/ARCHITECTURE.md § Observability](../ARCHITECTURE.md#observability) + `03_ARCHITECTURE/OBSERVABILITY.md` |
 
-## 🚨 Security & Remediation
+## Canonical layout (target)
 
-### Critical (Must Read)
-| Document | Description | Priority |
-|----------|-------------|----------|
-| [COMPREHENSIVE_AUDIT_REPORT.md](./COMPREHENSIVE_AUDIT_REPORT.md) | Full security audit with 25 issues | 🔴 CRITICAL |
-| [CRITICAL_FIXES_QUICK_REFERENCE.md](./CRITICAL_FIXES_QUICK_REFERENCE.md) | Copy-paste fixes for security issues | 🔴 CRITICAL |
-| [COMPLETE_REMEDIATION_PLAN.md](./COMPLETE_REMEDIATION_PLAN.md) | 6-week plan to fix everything | 🔴 CRITICAL |
-| [SECURITY_REMEDIATION_COMPLETE.md](./SECURITY_REMEDIATION_COMPLETE.md) | What was fixed today | 🔴 CRITICAL |
-| [IMPLEMENTATION_CHECKLIST.md](./IMPLEMENTATION_CHECKLIST.md) | Daily task tracker | 🟠 HIGH |
+```
+docs/
+├── README.md                         (this file)
+├── DOCS_CONSOLIDATION_PLAN.md        (migration roadmap for the 141 legacy docs)
+│
+├── tutorials/                         step-by-step learning
+│   └── first-tenant-site.md          (planned)
+│
+├── how-to/                           task recipes
+│   ├── add-tenant.md                 (planned)
+│   ├── add-business-type.md          (→ web/docs/ADDING_BUSINESS_TYPES.md)
+│   ├── deploy.md                     (planned — merges 4 legacy deploy docs)
+│   └── run-tests.md                  (→ web/docs/TESTING.md)
+│
+├── reference/                        factual catalogs
+│   ├── SECTIONS.md                   83 section components
+│   ├── BUSINESS_TYPES.md             types + verticals + tenants
+│   ├── API.md                        21 API routes
+│   ├── TENANTS.md                    tenant model reference
+│   ├── TOKENS.md                     design tokens
+│   └── ENV_VARS.md                   env vars (planned)
+│
+├── explanation/                      conceptual
+│   ├── multi-tenancy.md
+│   ├── composition-pipeline.md
+│   └── theming.md
+│
+├── observability/
+│   ├── logging.md
+│   ├── tracing.md
+│   └── metrics.md
+│
+├── runbooks/                         one file per alert
+│
+└── archive/                          completed plans, status reports, historical
+    └── 2026-04/
+```
 
-### Status Reports
-| Document | Description | Updated |
-|----------|-------------|---------|
-| [PROJECT_STATUS_SUMMARY.md](./PROJECT_STATUS_SUMMARY.md) | Current project state | April 20, 2026 |
-| [100_WINS_COMPLETE.md](./100_WINS_COMPLETE.md) | Summary of 100 easy wins | April 20, 2026 |
+## What's live today (April 2026)
 
----
+**Canonical docs written in this PR:**
+- [/README.md](../README.md) — repo entry + map
+- [/ARCHITECTURE.md](../ARCHITECTURE.md) — matklad-style system tour
+- [/CONTRIBUTING.md](../CONTRIBUTING.md) — dev workflow
+- [docs/README.md](./README.md) — this file
+- [docs/reference/SECTIONS.md](./reference/SECTIONS.md) — 83 sections
+- [docs/reference/BUSINESS_TYPES.md](./reference/BUSINESS_TYPES.md) — types + verticals + tenants
+- [docs/reference/API.md](./reference/API.md) — 21 routes
+- [docs/DOCS_CONSOLIDATION_PLAN.md](./DOCS_CONSOLIDATION_PLAN.md) — migration map
 
-## ⚡ Performance & Optimization
+**Existing structure preserved as legacy (see the consolidation plan for per-file migration):**
 
-| Document | Description | Status |
-|----------|-------------|--------|
-| [SUPABASE_OPTIMIZATION_REPORT.md](./SUPABASE_OPTIMIZATION_REPORT.md) | Full Supabase analysis | ✅ Complete |
-| [SUPABASE_OPTIMIZATION_COMPLETE.md](./SUPABASE_OPTIMIZATION_COMPLETE.md) | Optimizations implemented | ✅ Complete |
-| [FEATURE_GAP_ANALYSIS.md](./FEATURE_GAP_ANALYSIS.md) | Missing features analysis | 🟡 Ongoing |
+| Legacy folder | What it holds | Fate |
+|---|---|---|
+| `docs/01_BUSINESS_MODEL/` | value prop, pricing, tiers, acquisition | Keep — link from README |
+| `docs/02_STRATEGY/` | roadmaps, plans, epics | Keep current; archive completed plans |
+| `docs/03_ARCHITECTURE/` | deployment, observability, tenants, components | Source of truth for explanations — move gradually to `explanation/` + `reference/` |
+| `docs/04_IMPLEMENTATION/` | how-to guides (Gemini, GitHub Projects, images) | Each → `how-to/` |
+| `docs/05_RESEARCH/` | taxonomies, competitor analysis | Keep as research archive |
+| `docs/06_REFERENCE/` | audit reports, AI guides, quick refs | Split — refs to `reference/`, status to `archive/` |
+| `docs/08_CLIENTS/` | per-client docs (Laura egg farm) | Move to `sites/<slug>/docs/` or external CRM |
 
----
+Per-tenant docs live under `sites/<slug>/docs/` (example: `sites/nexa-paraguay/docs/STAKEHOLDER-QA.md`). Application/developer docs live under `web/docs/`.
 
-## 🏗️ Architecture & Technical
+## Known redundancies
 
-### System Design
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [TENANTS.md](./TENANTS.md) | Multi-tenancy model | Architects |
-| [VETE_PATTERNS_ANALYSIS.md](./VETE_PATTERNS_ANALYSIS.md) | Patterns from Vete project | Developers |
-| [UNIVERSAL_COMPONENTS.md](./UNIVERSAL_COMPONENTS.md) | Component architecture | Frontend devs |
-| [OBSERVABILITY.md](./OBSERVABILITY.md) | Monitoring & logging | DevOps |
+Tracked in [DOCS_CONSOLIDATION_PLAN.md](./DOCS_CONSOLIDATION_PLAN.md). Summary:
 
-### Development Guides
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [DEBUGGING.md](./DEBUGGING.md) | Debugging guide | Developers |
-| [API_GENERATION_GUIDE.md](./API_GENERATION_GUIDE.md) | API documentation | Backend devs |
-| [DEPLOYMENT.md](./DEPLOYMENT.md) | Deployment procedures | DevOps |
+| Cluster | Files | Resolution |
+|---|---|---|
+| Deploy guides | `QUICK_DEPLOY.md`, `CLOUDFLARE_DEPLOY.md`, `HOSTINGER_CLOUDFLARE_SETUP.md`, `DEPLOY_STATUS.md` | Collapse → `how-to/deploy.md` |
+| Transformation/completion | `TRANSFORMATION_SUMMARY`, `IMPLEMENTATION_COMPLETE`, `IMPLEMENTATION_SUMMARY`, `PROJECT_TRANSFORMATION_COMPLETE`, `WINS_76_100_SUMMARY` | Archive — future summaries go in CHANGELOG or PR descriptions |
+| UX/UI | `UXUI_BEAUTIFICATION`, `UXUI_IMPLEMENTATION_SUMMARY`, `UX_UI_REDESIGN_PLAN` | Single design-system doc |
+| Business-model questionnaires | `BUSINESS_MODEL_QUESTIONNAIRE.md`, `BUSINESS_MODEL_QUESTIONNAIRE_ENHANCED.md`, `BUSINESS_MODEL_SIMPLE.md` | Keep one canonical, archive the others |
+| Win checklists | `100_EASY_WINS.md`, `100_WINS_COMPLETE.md` | Merge into a progress ledger or move to CHANGELOG |
+| Supabase optimization pair | `SUPABASE_OPTIMIZATION_REPORT.md`, `SUPABASE_OPTIMIZATION_COMPLETE.md` | Keep both (analysis + result) but mark completion as historical |
+| Universal components pair | `UNIVERSAL_COMPONENTS.md`, `UNIVERSAL_COMPONENTS_SUMMARY.md` | Keep both (reference + summary) |
 
----
+`.firecrawl/` contains 10 raw web scrapes used for research. They should move to `docs/archive/firecrawl-scrapes/` or be gitignored.
 
-## 🎨 UI/UX Design
+## Principles for new docs
 
-| Document | Description | Status |
-|----------|-------------|--------|
-| [UX_UI_REDESIGN_PLAN.md](./UX_UI_REDESIGN_PLAN.md) | Complete redesign plan | 🟡 Planned |
-| [UXUI_BEAUTIFICATION.md](./UXUI_BEAUTIFICATION.md) | UI improvements | 🟡 Ongoing |
-| [UXUI_IMPLEMENTATION_SUMMARY.md](./UXUI_IMPLEMENTATION_SUMMARY.md) | What was implemented | ✅ Complete |
-| [HOMEPAGE_IMPROVEMENT_PLAN.md](./HOMEPAGE_IMPROVEMENT_PLAN.md) | Homepage redesign | 🟡 Planned |
-
----
-
-## 📝 Business & Strategy
-
-### Planning
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [STRATEGY_NEXT_STEPS.md](./STRATEGY_NEXT_STEPS.md) | Strategic roadmap | Leadership |
-| [100_EASY_WINS.md](./100_EASY_WINS.md) | List of quick improvements | Developers |
-| [SUBSCRIPTION_COST_ANALYSIS.md](./SUBSCRIPTION_COST_ANALYSIS.md) | Pricing analysis | Business |
-
-### Templates & Guides
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [RESTAURANT_TEMPLATE_PLAN.md](./RESTAURANT_TEMPLATE_PLAN.md) | Restaurant vertical | Product |
-| [20_DOLLAR_BEST_VALUE.md](./20_DOLLAR_BEST_VALUE.md) | Value proposition | Marketing |
-| [PREMIUM_QUALITY_GUIDE.md](./PREMIUM_QUALITY_GUIDE.md) | Quality standards | Design |
-
----
-
-## 🔧 Implementation Guides
-
-### Image Generation
-| Document | Description | Tool |
-|----------|-------------|------|
-| [GEMINI_IMAGE_GENERATION_GUIDE.md](./GEMINI_IMAGE_GENERATION_GUIDE.md) | Gemini image prompts | Gemini |
-| [GEMINI_USAGE_GUIDE.md](./GEMINI_USAGE_GUIDE.md) | How to use Gemini | Gemini |
-| [GEMINI_TO_DRIVE_WORKFLOW.md](./GEMINI_TO_DRIVE_WORKFLOW.md) | Image workflow | Gemini + Drive |
-| [IMAGE_PROMPTS_QUICK_REFERENCE.md](./IMAGE_PROMPTS_QUICK_REFERENCE.md) | Prompt reference | All |
-
-### Data & Leads
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [LEADS_REPO_ANALYSIS.md](./LEADS_REPO_ANALYSIS.md) | Leads data analysis | Data team |
-| [TENANTS_ANALYSIS_AND_IMAGES.md](./TENANTS_ANALYSIS_AND_IMAGES.md) | Tenant analysis | Product |
-| [TENANTS_STATUS_AND_IMAGE_REQUIREMENTS.md](./TENANTS_STATUS_AND_IMAGE_REQUIREMENTS.md) | Image requirements | Design |
-
----
-
-## 📊 By Category
-
-### 🔴 CRITICAL (Security)
-- COMPREHENSIVE_AUDIT_REPORT.md
-- CRITICAL_FIXES_QUICK_REFERENCE.md
-- COMPLETE_REMEDIATION_PLAN.md
-- SECURITY_REMEDIATION_COMPLETE.md
-
-### 🟠 HIGH (Implementation)
-- IMPLEMENTATION_CHECKLIST.md
-- SUPABASE_OPTIMIZATION_REPORT.md
-- SUPABASE_OPTIMIZATION_COMPLETE.md
-
-### 🟡 MEDIUM (Planning)
-- STRATEGY_NEXT_STEPS.md
-- UX_UI_REDESIGN_PLAN.md
-- FEATURE_GAP_ANALYSIS.md
-
-### 🟢 LOW (Reference)
-- DEBUGGING.md
-- API_GENERATION_GUIDE.md
-- IMAGE_PROMPTS_QUICK_REFERENCE.md
+1. **One topic per file.** If two docs overlap, merge them.
+2. **Follow Diataxis.** Is this teaching (tutorial), a recipe (how-to), a lookup (reference), or a concept (explanation)?
+3. **Status reports are not docs.** Implementation summaries belong in PR descriptions or CHANGELOG.
+4. **Archive rather than delete.** Move outdated docs to `docs/archive/YYYY-MM/` with a one-line "superseded by X" header.
+5. **Cross-link.** Every reference doc links back to the relevant explanation; every how-to links to the reference it uses.
+6. **Short.** Individual docs ≤1000 lines. If one grows longer, split it.
+7. **No decorative emoji.** Tables and code blocks do the work.
 
 ---
 
-## 🔍 Quick Find
-
-### For Security Issues
-→ Start with [CRITICAL_FIXES_QUICK_REFERENCE.md](./CRITICAL_FIXES_QUICK_REFERENCE.md)
-
-### For Performance
-→ Read [SUPABASE_OPTIMIZATION_COMPLETE.md](./SUPABASE_OPTIMIZATION_COMPLETE.md)
-
-### For Status
-→ Check [PROJECT_STATUS_SUMMARY.md](./PROJECT_STATUS_SUMMARY.md)
-
-### For Next Steps
-→ See [STRATEGY_NEXT_STEPS.md](./STRATEGY_NEXT_STEPS.md)
-
----
-
-## 📈 Document Status
-
-| Category | Total | Complete | In Progress |
-|----------|-------|----------|-------------|
-| Security | 5 | 5 | 0 |
-| Performance | 2 | 2 | 0 |
-| Architecture | 4 | 2 | 2 |
-| UI/UX | 4 | 1 | 3 |
-| Business | 3 | 1 | 2 |
-| Implementation | 8 | 5 | 3 |
-| **TOTAL** | **36** | **21** | **12** |
-
----
-
-## 🎯 Recommended Reading Order
-
-### For New Team Members
-1. PROJECT_TRANSFORMATION_COMPLETE.md
-2. README.md
-3. TENANTS.md
-4. QUICK_REFERENCE.md
-
-### For Security Review
-1. COMPREHENSIVE_AUDIT_REPORT.md
-2. SECURITY_REMEDIATION_COMPLETE.md
-3. CRITICAL_FIXES_QUICK_REFERENCE.md
-
-### For Development
-1. DEBUGGING.md
-2. API_GENERATION_GUIDE.md
-3. SUPABASE_OPTIMIZATION_COMPLETE.md
-4. UNIVERSAL_COMPONENTS.md
-
-### For Leadership
-1. PROJECT_STATUS_SUMMARY.md
-2. STRATEGY_NEXT_STEPS.md
-3. SUBSCRIPTION_COST_ANALYSIS.md
-
----
-
-## 📝 Maintenance
-
-**Last Updated:** April 20, 2026  
-**Maintained by:** Development Team  
-**Update Frequency:** After major releases
-
----
-
-> 💡 **Tip:** Use Ctrl+F (Cmd+F on Mac) to search this index for keywords
+_Last reviewed: April 2026. Supersedes the previous 01–08 numbered index; that index lives on as the legacy navigation until consolidation completes._
