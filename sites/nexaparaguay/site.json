@@ -2,8 +2,9 @@
   "vertical": "relocacion",
   "businessType": "relocation",
   "country": "Paraguay",
-  "domain": "nexaparaguay.com",
-  "stagingDomain": "staging.nexaparaguay.com",
+  "_note": "Minimal Spanish-only landing variant. The full 4-locale Nexa Paraguay site at sites/nexa-paraguay/ owns the nexaparaguay.com hostname. This variant is reachable only via the flat path paragu-ai.com/nexaparaguay as a secondary entry; no hostname claim.",
+  "domain": null,
+  "stagingDomain": null,
   "defaultLocale": "es",
   "locales": [
     "es"

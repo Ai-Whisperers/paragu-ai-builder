@@ -196,7 +196,7 @@ const valid = missing.filter((t) => {
 
 let seeded = 0
 let skipped = 0
-let byVertical: Record<string, number> = {}
+const byVertical: Record<string, number> = {}
 
 for (const t of valid) {
   const registryPath = path.join(REGISTRY, `${t.id}.type.json`)
