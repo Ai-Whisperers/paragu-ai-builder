@@ -1,7 +1,7 @@
 {
-  "slug": "home",
-  "titleKey": "home.seo.title",
-  "descriptionKey": "home.seo.description",
+  "slug": "propiedades",
+  "titleKey": "propertiesPage.seo.title",
+  "descriptionKey": "propertiesPage.seo.description",
   "schemaType": "RealEstateAgent",
   "sections": [
     {
@@ -11,18 +11,18 @@
     },
     {
       "id": "hero",
-      "variant": "split",
-      "content": "home.hero"
+      "variant": "minimal",
+      "content": "propertiesPage.hero"
     },
     {
-      "id": "services",
-      "variant": "cards",
-      "content": "servicesPage.services"
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "servicesPage.cta"
     },
     {
-      "id": "contact",
-      "variant": "split",
-      "content": "contact"
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "propertiesPage.cta"
     },
     {
       "id": "footer",
