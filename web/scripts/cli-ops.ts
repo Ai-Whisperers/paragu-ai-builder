@@ -53,6 +53,8 @@ function cmdDoctor(): void {
     ['validate:tokens', () => safeRun('npm run validate:tokens --silent')],
     ['validate:sites', () => safeRun('npm run validate:sites --silent')],
     ['validate:schemas', () => safeRun('npm run validate:schemas --silent')],
+    ['validate:legal', () => safeRun('npx tsx scripts/legal-review-gate.ts')],
+    ['validate:contrast', () => safeRun('npx tsx scripts/contrast-audit.ts')],
     ['audit-duplicates', () => safeRun('npx tsx scripts/audit-duplicates.ts')],
     ['typecheck', () => safeRun('npx tsc --noEmit')],
     ['graph (orphans)', () => safeRun('npx tsx scripts/type-graph.ts --orphans')],
