@@ -30,6 +30,12 @@ For the current state of the repo, see:
 | `TRANSFORMATION_SUMMARY.md` | root | 5 security + 4 perf + 108 files executive summary |
 | `UXUI_IMPLEMENTATION_SUMMARY.md` | `docs/` | Summary of UI/UX implementation work |
 | `WINS_76_100_SUMMARY.md` | root | Progress tracking for the 76–100 "wins" effort |
+| `QUICK_DEPLOY.md` | root | "Paste-me-your-creds" deploy walkthrough — contains stale Supabase refs |
+| `CLOUDFLARE_DEPLOY.md` | root | Cloudflare Workers deploy — superseded by `docs/how-to/deploy.md` |
+| `HOSTINGER_CLOUDFLARE_SETUP.md` | root | VPS + CF-DNS walkthrough — contains stale Supabase refs; VPS section merged into canonical deploy doc |
+| `DEPLOYMENT.md` | `docs/` | Original Supabase+Pages walkthrough — superseded |
+
+> **Security note:** `QUICK_DEPLOY.md` and `HOSTINGER_CLOUDFLARE_SETUP.md` contain **two different Supabase project URLs + publishable keys** hard-coded. Publishable (anon) keys are designed to be client-exposed under RLS, but shipping them in committed docs is sloppy. The projects referenced (`okddppczckbjdotrxiev` and `qyvokpribmbrosafntqa`) should be verified — if either is current, rotate the publishable key as a hygiene step and remove from the archive with a redacted stub.
 
 ## Why they're archived, not deleted
 
