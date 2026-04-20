@@ -9,7 +9,7 @@
  */
 
 import type { BusinessType } from '@/lib/types'
-import { readFileSync } from 'fs'
+import { existsSync, readFileSync } from 'fs'
 import { resolve } from 'path'
 
 export interface TokenColors {
@@ -73,8 +73,15 @@ export interface ResolvedTokens {
   theme: 'light' | 'dark'
 }
 
+// See resolve-site-tokens.ts — same rationale.
+const PROJECT_ROOT = (() => {
+  if (process.env.SRC_DIR) return resolve(process.env.SRC_DIR, '..')
+  const cwd = process.cwd()
+  return existsSync(resolve(cwd, 'src')) ? cwd : resolve(cwd, '..')
+})()
+
 function loadJsonFile<T>(relativePath: string): T {
-  const fullPath = resolve(process.cwd(), '..', relativePath)
+  const fullPath = resolve(PROJECT_ROOT, relativePath)
   const content = readFileSync(fullPath, 'utf-8')
   return JSON.parse(content)
 }

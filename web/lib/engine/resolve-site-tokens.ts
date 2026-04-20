@@ -3,7 +3,7 @@
  *   base tokens  →  vertical defaults  →  site overrides
  * Produces CSS custom properties for injection.
  */
-import { readFileSync } from 'fs'
+import { existsSync, readFileSync } from 'fs'
 import { resolve } from 'path'
 import { loadSiteTokens, loadVerticalTokens } from './site-loader'
 
@@ -50,8 +50,19 @@ interface BaseTokens {
   semanticColors?: Record<string, { value: string }>
 }
 
+// Project root — the dir containing `src/` and `sites/`.
+// - Local dev (web/ is a subdir): `..` from cwd.
+// - Docker standalone (src/ and server.js sit at /app): cwd itself.
+// Detect by checking where `src/` actually lives. SRC_DIR env var wins
+// if set (runtime override).
+const PROJECT_ROOT = (() => {
+  if (process.env.SRC_DIR) return resolve(process.env.SRC_DIR, '..')
+  const cwd = process.cwd()
+  return existsSync(resolve(cwd, 'src')) ? cwd : resolve(cwd, '..')
+})()
+
 function readJson<T>(relPath: string): T {
-  const fullPath = resolve(process.cwd(), '..', relPath)
+  const fullPath = resolve(PROJECT_ROOT, relPath)
   return JSON.parse(readFileSync(fullPath, 'utf-8')) as T
 }
 

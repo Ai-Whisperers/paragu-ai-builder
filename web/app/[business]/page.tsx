@@ -1,16 +1,41 @@
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
 import { loadBusiness } from '@/lib/engine/data-loader'
 import { getRegistry, REGISTRY_MAP } from '@/lib/engine/static-config'
 import { getAllDemoSlugs } from '@/lib/engine/demo-data'
+import { listSiteSlugs, loadSite } from '@/lib/engine/site-loader'
 import type { Metadata } from 'next'
+
+/**
+ * If the flat slug corresponds to a modern tenant under `sites/`,
+ * redirect to the locale-prefixed route so /nexaparaguay becomes
+ * /s/es/nexaparaguay. Keeps the flat URL working as a convenience
+ * entry point while the canonical render lives at `/s/<locale>/<slug>`.
+ *
+ * Returns the locale-prefixed path if a matching site exists, else null.
+ */
+function siteRedirectPath(slug: string): string | null {
+  try {
+    const siteSlugs = listSiteSlugs()
+    if (!siteSlugs.includes(slug)) return null
+    const site = loadSite(slug)
+    const locale = site.defaultLocale || site.locales?.[0] || 'es'
+    return `/s/${locale}/${slug}`
+  } catch {
+    return null
+  }
+}
 
 interface Props {
   params: Promise<{ business: string }>
 }
 
-export const dynamicParams = true // Allow any business slug
+// Flat-pattern tenant handler. Forced dynamic so the runtime can
+// check sites/ for modern tenants and redirect/rewrite without
+// tripping Next.js's static→dynamic guard.
+export const dynamic = 'force-dynamic'
+export const dynamicParams = true
 
 /**
  * Pre-render slugs that warrant SSG. Priority order:
@@ -22,8 +47,21 @@ export const dynamicParams = true // Allow any business slug
  */
 const PRERENDER_TOP_N_TYPES = 50
 
+// Real-tenant slugs render fine at request time but currently throw
+// during prerender due to content-shape mismatches with the legacy
+// flat-pattern composer. Excluded here; they fall through to SSR via
+// dynamicParams=true. Remove entries as the underlying shape is fixed.
+const PRERENDER_SKIP = new Set([
+  'dayah-litworks',
+  'de-abasto-a-casa',
+  'nexaparaguay',
+  'nexa-paraguay',
+  'nexa-uruguay',
+  'nexa-propiedades',
+])
+
 export async function generateStaticParams() {
-  const demoSlugs = getAllDemoSlugs()
+  const demoSlugs = getAllDemoSlugs().filter((s) => !PRERENDER_SKIP.has(s))
 
   const topTypesBySlug = Object.entries(REGISTRY_MAP)
     .map(([id, entry]) => ({
@@ -96,6 +134,9 @@ function generateJsonLd(business: { type: string; name: string; slug: string; ad
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { business: slug } = await params
+  // Modern sites/ tenants redirect to locale-prefixed canonical — no
+  // need to generate metadata here; the redirect target's metadata wins.
+  if (siteRedirectPath(slug)) return {}
   const businessData = await loadBusiness(slug)
   if (!businessData) return { title: 'No encontrado' }
 
@@ -118,10 +159,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BusinessPage({ params }: Props) {
-  // TODO: Add ISR with revalidate for business pages
-  // TODO: Implement edge caching with Cloudflare Workers
-  // TODO: Add error boundary for graceful degradation
   const { business: slug } = await params
+
+  // Modern `sites/` tenants (nexaparaguay, dayah-litworks, de-abasto-a-casa,
+  // etc.) redirect to the locale-prefixed canonical route so the flat URL
+  // `paragu-ai.com/<slug>` still works as a convenience entry point.
+  const redirectTo = siteRedirectPath(slug)
+  if (redirectTo) redirect(redirectTo)
+
+  // Legacy demo + registry-driven businesses render inline.
   const businessData = await loadBusiness(slug)
   if (!businessData) notFound()
 
