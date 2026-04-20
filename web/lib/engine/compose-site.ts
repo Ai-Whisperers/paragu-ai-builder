@@ -108,6 +108,8 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
           __siteSlug: site.slug,
           __locale: locale,
           __country: site.country,
+          __availableLocales: site.locales,
+          __currentPath: pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug,
         }
         return { id: s.id, variant, props }
       } catch (err) {
