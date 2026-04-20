@@ -42,7 +42,19 @@ const COMPONENT_PLACEHOLDERS = new Set([
   'memberCount',
   'specialties',
   'yearsExperience',
+  'yearsInOperation', // service verticals (plomero, taller_mecanico, fotografia_bodas, electricista) for "X años en Y" copy
   'name', // common in client-rendered forms
+  // smart-WhatsApp message templates (e.g. egg_farm checkout flow) — filled
+  // by the cart/checkout component at submit time from form state.
+  'price',
+  'quantity',
+  'weeklyVolume',
+  'chickenType',
+  'pickupDate',
+  'address',
+  'productList',
+  'familySize',
+  'whatsapp',
 ])
 
 // Placeholders verticals supply via their content.placeholders map.
