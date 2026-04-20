@@ -419,6 +419,46 @@ const buildConveyorBelt: SectionBuilder = ({ content }) => {
   }
 }
 
+// Egg farm section builders
+const buildStockIndicator: SectionBuilder = ({ business }) => ({
+  products: business.products || [],
+})
+
+const buildDeliveryCalculator: SectionBuilder = ({ business }) => ({
+  phone: business.whatsapp || business.phone || '',
+})
+
+const buildRecipes: SectionBuilder = ({ content }) => {
+  const recipes = (content as { recipes?: unknown })?.recipes
+  return recipes ? { recipes } : null
+}
+
+const buildReviews: SectionBuilder = () => ({
+  // Reviews are client-side managed
+})
+
+const buildSubscription: SectionBuilder = ({ business }) => ({
+  phone: business.whatsapp || business.phone || '',
+  products: business.products || [],
+})
+
+const buildReferral: SectionBuilder = ({ business }) => ({
+  phone: business.whatsapp || business.phone || '',
+  businessName: business.name,
+})
+
+const buildPriceList: SectionBuilder = ({ business }) => ({
+  data: {
+    businessName: business.name,
+    products: business.products || [],
+    phone: business.whatsapp || business.phone || '',
+  },
+})
+
+const buildPreorder: SectionBuilder = ({ business }) => ({
+  phone: business.whatsapp || business.phone || '',
+})
+
 // ---------- registry -------------------------------------------------------
 
 export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
@@ -450,6 +490,15 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   omakase: buildOmakase,
   sakeMenu: buildSakeMenu,
   conveyorBelt: buildConveyorBelt,
+  // Egg farm sections
+  stockIndicator: buildStockIndicator,
+  deliveryCalculator: buildDeliveryCalculator,
+  recipes: buildRecipes,
+  reviews: buildReviews,
+  subscription: buildSubscription,
+  referral: buildReferral,
+  priceList: buildPriceList,
+  preorder: buildPreorder,
 }
 
 // ---------- helpers --------------------------------------------------------

@@ -370,7 +370,7 @@ export function RecipeCard({ recipe, className, phone }: RecipeCardProps) {
               context="product"
               productName="Huevos Frescos"
               price="800 Gs"
-              size="default"
+              size="md"
               variant="outline"
             >
               Comprar
