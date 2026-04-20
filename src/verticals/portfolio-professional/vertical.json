@@ -31,7 +31,15 @@
     "blog-index",
     "blog-post",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "product-catalog",
+    "gallery",
+    "photo-gallery",
+    "instagram-feed",
+    "pricing",
+    "pricing-range",
+    "tiered-service-ladder",
+    "cta-banner"
   ],
   "defaultStarterKit": "full",
   "locales": ["es"]

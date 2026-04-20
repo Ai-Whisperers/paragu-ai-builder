@@ -33,7 +33,11 @@
     "footer",
     "whatsapp-float",
     "property-listings",
-    "lead-form"
+    "lead-form",
+    "services",
+    "gallery",
+    "features",
+    "process"
   ],
   "defaultStarterKit": "full",
   "locales": ["es", "en", "de", "nl"]
