@@ -305,6 +305,20 @@ export const BUSINESS_SCOPED_TABLES = [
   'site_pages',
   'site_assets',
   'generation_logs',
+  'products',
+  'carts',
+  'cart_items',
+  'orders',
+  'order_items',
+  'storefront_transactions',
+  'business_counters',
+  'idempotency_keys',
+  'inventory_logs',
+  'shipping_zones',
+  'commerce_email_outbox',
+  'discounts',
+  'discount_redemptions',
+  'cart_recovery_touches',
 ] as const
 
 export type BusinessScopedTable = (typeof BUSINESS_SCOPED_TABLES)[number]

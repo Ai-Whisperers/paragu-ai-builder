@@ -23,5 +23,10 @@
     "alimentos",
     "accesorios",
     "higiene"
-  ]
+  ],
+  "commerce": {
+    "enabled": true,
+    "provider": "mercado_pago",
+    "currency": "PYG"
+  }
 }
