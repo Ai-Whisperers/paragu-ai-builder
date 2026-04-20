@@ -1,0 +1,22 @@
+{
+  "id": "tax_lawyer",
+  "nameEs": "Abogado Tributario",
+  "nameEn": "Tax Lawyer",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "tax_lawyer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Abogado Tributario en {{city}}",
+    "descriptionTemplate": "Abogado Tributario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "abogado tributario {{city}}",
+      "tax lawyer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Abogado Tributario",
+    "subheadlineTemplate": "Abogado Tributario profesional en {{city}}."
+  }
+}

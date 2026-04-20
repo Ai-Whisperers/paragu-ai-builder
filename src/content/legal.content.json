@@ -1,0 +1,34 @@
+{
+  "id": "legal",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Derecho con criterio",
+    "subheadline": "Estudio juridico con experiencia en derecho empresarial, civil y laboral en {{city}}.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Areas de Practica"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} brindamos asesoramiento legal claro y estrategico a empresas y particulares."
+  },
+  "services": {
+    "title": "Areas de Practica",
+    "categories": [
+      { "id": "empresarial", "name": "Derecho Empresarial", "description": "Contratos, sociedades, gobierno corporativo." },
+      { "id": "civil", "name": "Derecho Civil", "description": "Sucesiones, familia, inmuebles." },
+      { "id": "laboral", "name": "Derecho Laboral", "description": "Asesoria a empresas y trabajadores." },
+      { "id": "tributario", "name": "Tributario", "description": "Planificacion impositiva y defensa fiscal." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Resolvieron un caso complejo en tiempo record. Muy profesionales.", "author": "Cliente Corporativo", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Hacen consulta inicial sin cargo?", "a": "Si, la primera consulta de 30 minutos es sin cargo." },
+    { "q": "Atienden casos de urgencia?", "a": "Si, contamos con guardia para emergencias legales." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Estudio Juridico en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

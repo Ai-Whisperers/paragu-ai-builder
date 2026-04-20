@@ -1,0 +1,21 @@
+{
+  "id": "fonoaudiologia",
+  "nameEs": "Fonoaudiologia",
+  "nameEn": "Speech Therapy",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "fonoaudiologia",
+  "seo": {
+    "schemaType": "Physiotherapy",
+    "titleTemplate": "{{businessName}} - Fonoaudiologia en {{city}}",
+    "descriptionTemplate": "Terapia de lenguaje, voz y audicion para niños y adultos.",
+    "keywords": [
+      "fonoaudiologo {{city}}",
+      "terapia lenguaje {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Comunicacion y audicion en buenas manos",
+    "subheadlineTemplate": "Terapia de lenguaje, voz y audicion para niños y adultos."
+  }
+}

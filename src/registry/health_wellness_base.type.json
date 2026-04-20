@@ -1,0 +1,38 @@
+{
+  "id": "health_wellness_base",
+  "nameEs": "Base Salud",
+  "nameEn": "Health Base",
+  "verticalId": "health-wellness",
+  "abstract": true,
+  "tokens": "health_wellness_base",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "servicesPreview", "team", "insuranceList", "testimonial", "faq", "ctaBanner", "contact", "footer"],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    }
+  },
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "whatsapp", "fallback": "phone" },
+    "serviceMenu": { "enabled": true, "showPrices": false, "filterable": true },
+    "staffProfiles": { "enabled": true, "showCredentials": true, "bookable": true },
+    "insuranceList": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Atencion en {{city}}",
+    "descriptionTemplate": "Atencion profesional en {{city}}. Agenda tu consulta."
+  },
+  "nav": {
+    "items": ["Inicio", "Especialidades", "Profesionales", "Contacto"],
+    "cta": { "text": "Agendar Consulta", "action": "whatsapp" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}}",
+    "subheadlineTemplate": "Atencion profesional y humana en {{city}}",
+    "ctaPrimary": { "text": "Agendar Consulta", "action": "whatsapp" },
+    "ctaSecondary": { "text": "Ver Especialidades", "action": "scrollTo:services" }
+  }
+}

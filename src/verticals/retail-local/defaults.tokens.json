@@ -1,0 +1,28 @@
+{
+  "name": "Retail bright approachable",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Indigo & Coral",
+      "colors": {
+        "primary": "#4338CA",
+        "secondary": "#F97316",
+        "accent": "#FCD34D",
+        "background": "#FFFFFF",
+        "surface": "#FAFAFA",
+        "surfaceLight": "#F3F4F6",
+        "text": "#1F2937",
+        "textLight": "#4B5563",
+        "textMuted": "#9CA3AF"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Montserrat', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Montserrat:wght@600;700;800", "Inter:wght@400;500;600"]
+}

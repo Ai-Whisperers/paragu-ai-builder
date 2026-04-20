@@ -1,14 +1,10 @@
 'use client'
 
-import Link from 'next/link'
-
 interface BusinessHeaderProps {
   name: string
   tagline?: string
   logo?: string
   phone?: string
-  email?: string
-  address?: string
   showTagline?: boolean
 }
 
@@ -17,8 +13,6 @@ export default function BusinessHeader({
   tagline,
   logo,
   phone,
-  email,
-  address,
   showTagline = true
 }: BusinessHeaderProps) {
   return (
@@ -27,7 +21,7 @@ export default function BusinessHeader({
         <div className="flex items-center gap-4">
           {logo && (
             <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100">
-              <img src={logo} alt={name} className="w-full h-full object-cover" />
+              <img src={logo} alt={name} className="w-full h-full object-cover"  loading="lazy" decoding="async" />
             </div>
           )}
           <div>

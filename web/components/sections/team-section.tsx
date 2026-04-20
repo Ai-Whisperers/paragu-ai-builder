@@ -47,7 +47,7 @@ export function TeamSection({ title, subtitle, members }: TeamSectionProps) {
                   )}
                 </div>
 
-                <h3 className="text-lg font-semibold text-[var(--text)]">{member.name}</h3>
+                <Heading level={3} className="text-lg font-semibold text-[var(--text)]">{member.name}</Heading>
                 {member.role && (
                   <p className="mt-1 text-sm font-medium text-[var(--secondary)]">{member.role}</p>
                 )}

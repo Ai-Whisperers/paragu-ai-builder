@@ -1,0 +1,22 @@
+{
+  "id": "seafood_restaurant",
+  "nameEs": "Marisqueria",
+  "nameEn": "Seafood Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "seafood_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Marisqueria en {{city}}",
+    "descriptionTemplate": "Marisqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "marisqueria {{city}}",
+      "seafood restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Marisqueria",
+    "subheadlineTemplate": "Marisqueria profesional en {{city}}."
+  }
+}

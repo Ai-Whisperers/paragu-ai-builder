@@ -1,0 +1,22 @@
+{
+  "id": "sewing_fabric_shop",
+  "nameEs": "Tienda de Telas",
+  "nameEn": "Fabric Shop",
+  "verticalId": "retail-local",
+  "subVertical": "bookstore-hobby",
+  "extends": "retail_base",
+  "tokens": "sewing_fabric_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda de Telas en {{city}}",
+    "descriptionTemplate": "Tienda de Telas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda de telas {{city}}",
+      "fabric shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda de Telas",
+    "subheadlineTemplate": "Tienda de Telas profesional en {{city}}."
+  }
+}

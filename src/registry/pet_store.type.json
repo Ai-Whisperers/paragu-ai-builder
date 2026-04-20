@@ -1,0 +1,22 @@
+{
+  "id": "pet_store",
+  "nameEs": "Tienda Mascotas",
+  "nameEn": "Pet Store",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "pet_store",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Tienda Mascotas en {{city}}",
+    "descriptionTemplate": "Tienda Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda mascotas {{city}}",
+      "pet store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Mascotas",
+    "subheadlineTemplate": "Tienda Mascotas profesional en {{city}}."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-health-wellness",
+  "title": "Health & Wellness vertical content schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "type": "object",
+  "properties": {
+    "insuranceAccepted": { "type": "array", "items": { "type": "string" } },
+    "specialties": { "type": "array", "items": { "type": "string" } },
+    "credentials": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "consultora_ti",
+  "nameEs": "Consultora TI",
+  "nameEn": "IT Consulting",
+  "verticalId": "b2b-professional",
+  "extends": "professional_services_base",
+  "tokens": "consultora_ti",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultora TI en {{city}}",
+    "descriptionTemplate": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital.",
+    "keywords": [
+      "consultora ti {{city}}",
+      "erp {{city}}",
+      "cloud {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tecnologia que potencia tu negocio",
+    "subheadlineTemplate": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital."
+  }
+}

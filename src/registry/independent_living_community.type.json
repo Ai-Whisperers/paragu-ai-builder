@@ -1,0 +1,22 @@
+{
+  "id": "independent_living_community",
+  "nameEs": "Vivienda Senior",
+  "nameEn": "Independent Living",
+  "verticalId": "health-wellness",
+  "subVertical": "senior-homecare",
+  "extends": "health_wellness_base",
+  "tokens": "independent_living_community",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Vivienda Senior en {{city}}",
+    "descriptionTemplate": "Vivienda Senior profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "vivienda senior {{city}}",
+      "independent living {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Vivienda Senior",
+    "subheadlineTemplate": "Vivienda Senior profesional en {{city}}."
+  }
+}

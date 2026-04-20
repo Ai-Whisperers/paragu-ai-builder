@@ -61,6 +61,8 @@ export function EventVenuesSection({
                       src={venue.imageUrl}
                       alt={venue.name}
                       className="w-full h-full object-cover"
+                      loading="lazy"
+                      decoding="async"
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]">
@@ -73,7 +75,7 @@ export function EventVenuesSection({
 
                 <div className="p-6 flex flex-col">
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-[var(--text)] mb-2">{venue.name}</h3>
+                    <Heading level={3} className="text-xl font-bold text-[var(--text)] mb-2">{venue.name}</Heading>
                     
                     <div className="flex items-center gap-4 text-sm text-[var(--text-muted)] mb-3">
                       <span className="flex items-center gap-1">

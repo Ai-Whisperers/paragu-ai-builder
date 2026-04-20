@@ -1,0 +1,27 @@
+{
+  "id": "jardineria",
+  "nameEs": "Jardineria",
+  "nameEn": "Landscaping",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "jardineria",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Jardineria en {{city}}",
+    "descriptionTemplate": "Diseno, mantenimiento y paisajismo en {{city}}.",
+    "keywords": [
+      "jardineria {{city}}",
+      "mantenimiento jardin {{city}}",
+      "paisajismo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu jardin de revista",
+    "subheadlineTemplate": "Diseno, mantenimiento y paisajismo en {{city}}."
+  },
+  "serviceCategories": [
+    "mantenimiento",
+    "diseño",
+    "parquizacion"
+  ]
+}

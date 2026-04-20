@@ -1,0 +1,260 @@
+{
+  "$schema": "./catalog.schema.json",
+  "description": "SINGLE SOURCE OF TRUTH for vertical metadata. All seed scripts, the token resolver, the SEO generator and the registry index.json MUST read from here instead of maintaining parallel maps. See docs/GLOBAL_BUSINESS_TAXONOMY.md for the methodology that produced this list.",
+  "version": "3.0.0",
+  "verticals": {
+    "beauty-personal-care": {
+      "nameEs": "Cuidado Personal y Belleza",
+      "nameEn": "Beauty & Personal Care",
+      "baseType": "beauty_base",
+      "schemaType": "BeautySalon",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "health-wellness": {
+      "nameEs": "Salud y Bienestar",
+      "nameEn": "Health & Wellness",
+      "baseType": "health_wellness_base",
+      "schemaType": "MedicalBusiness",
+      "folderAlias": null,
+      "i18n": "partial",
+      "b2b": false,
+      "regulation": "high",
+      "culturallyVariant": false
+    },
+    "food-beverage": {
+      "nameEs": "Gastronomia",
+      "nameEn": "Food & Beverage",
+      "baseType": "restaurant",
+      "schemaType": "FoodEstablishment",
+      "folderAlias": null,
+      "i18n": "partial",
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "hospitality-tourism": {
+      "nameEs": "Hospitalidad y Turismo",
+      "nameEn": "Hospitality & Tourism",
+      "baseType": "restaurant",
+      "schemaType": "LodgingBusiness",
+      "folderAlias": "hospitality",
+      "i18n": true,
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "service-booking": {
+      "nameEs": "Servicios con Reserva",
+      "nameEn": "Service Booking",
+      "baseType": "gimnasio",
+      "schemaType": "ProfessionalService",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "portfolio-professional": {
+      "nameEs": "Creativos y Profesionales",
+      "nameEn": "Portfolio / Creative Professional",
+      "baseType": "diseno_grafico",
+      "schemaType": "ProfessionalService",
+      "folderAlias": null,
+      "i18n": "optional",
+      "b2b": false,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "trades-home-services": {
+      "nameEs": "Oficios y Servicios para el Hogar",
+      "nameEn": "Trades & Home Services",
+      "baseType": "trades_base",
+      "schemaType": "HomeAndConstructionBusiness",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "automotive": {
+      "nameEs": "Automotriz",
+      "nameEn": "Automotive",
+      "baseType": "automotive_base",
+      "schemaType": "AutomotiveBusiness",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "retail-local": {
+      "nameEs": "Comercio Local",
+      "nameEn": "Local Retail",
+      "baseType": "retail_base",
+      "schemaType": "Store",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "education-training": {
+      "nameEs": "Educacion y Formacion",
+      "nameEn": "Education & Training",
+      "baseType": "educacion",
+      "schemaType": "EducationalOrganization",
+      "folderAlias": null,
+      "i18n": "partial",
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "b2b-professional": {
+      "nameEs": "Profesionales B2B",
+      "nameEn": "B2B Professional Services",
+      "baseType": "professional_services_base",
+      "schemaType": "ProfessionalService",
+      "folderAlias": null,
+      "i18n": "optional",
+      "b2b": true,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "real-estate-relocation": {
+      "nameEs": "Inmobiliaria y Relocacion",
+      "nameEn": "Real Estate & Relocation",
+      "baseType": "inmobiliaria",
+      "schemaType": "RealEstateAgent",
+      "folderAlias": "relocacion",
+      "i18n": true,
+      "b2b": false,
+      "regulation": "high",
+      "culturallyVariant": false
+    },
+    "trades-industrial": {
+      "nameEs": "Industria y Manufactura",
+      "nameEn": "Industrial & Manufacturing",
+      "baseType": "industrial_base",
+      "schemaType": "ProfessionalService",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": true,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "agriculture-agribusiness": {
+      "nameEs": "Agricultura y Agronegocios",
+      "nameEn": "Agriculture & Agribusiness",
+      "baseType": "agriculture_base",
+      "schemaType": "LocalBusiness",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "logistics-transport": {
+      "nameEs": "Logistica y Transporte",
+      "nameEn": "Logistics & Transport",
+      "baseType": "logistics_base",
+      "schemaType": "ProfessionalService",
+      "folderAlias": null,
+      "i18n": true,
+      "b2b": true,
+      "regulation": "high",
+      "culturallyVariant": false
+    },
+    "finance-insurance": {
+      "nameEs": "Finanzas y Seguros",
+      "nameEn": "Finance & Insurance",
+      "baseType": "finance_insurance_base",
+      "schemaType": "FinancialService",
+      "folderAlias": null,
+      "i18n": true,
+      "b2b": false,
+      "regulation": "very-high",
+      "culturallyVariant": false
+    },
+    "technology-digital": {
+      "nameEs": "Tecnologia y Digital",
+      "nameEn": "Technology & Digital",
+      "baseType": "technology_base",
+      "schemaType": "ProfessionalService",
+      "folderAlias": null,
+      "i18n": true,
+      "b2b": true,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "arts-entertainment-venues": {
+      "nameEs": "Artes y Entretenimiento",
+      "nameEn": "Arts & Entertainment Venues",
+      "baseType": "entertainment_base",
+      "schemaType": "EntertainmentBusiness",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "sports-recreation": {
+      "nameEs": "Deportes y Recreacion",
+      "nameEn": "Sports & Recreation",
+      "baseType": "sports_base",
+      "schemaType": "SportsActivityLocation",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "pets-animals": {
+      "nameEs": "Mascotas y Animales",
+      "nameEn": "Pets & Animals",
+      "baseType": "pets_base",
+      "schemaType": "LocalBusiness",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "low",
+      "culturallyVariant": false
+    },
+    "media-publishing": {
+      "nameEs": "Medios y Publicacion",
+      "nameEn": "Media & Publishing",
+      "baseType": "media_base",
+      "schemaType": "Organization",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "medium",
+      "culturallyVariant": false
+    },
+    "membership-community": {
+      "nameEs": "Membresias y Comunidad",
+      "nameEn": "Membership & Community",
+      "baseType": "membership_base",
+      "schemaType": "Organization",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "variable",
+      "culturallyVariant": true
+    },
+    "death-care": {
+      "nameEs": "Servicios Funerarios",
+      "nameEn": "Death Care",
+      "baseType": "death_care_base",
+      "schemaType": "FuneralHome",
+      "folderAlias": null,
+      "i18n": false,
+      "b2b": false,
+      "regulation": "high",
+      "culturallyVariant": true
+    }
+  }
+}

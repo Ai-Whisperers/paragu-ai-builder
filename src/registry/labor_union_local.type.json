@@ -1,0 +1,25 @@
+{
+  "id": "labor_union_local",
+  "nameEs": "Sindicato",
+  "nameEn": "Labor Union",
+  "verticalId": "membership-community",
+  "subVertical": "trade-association",
+  "extends": "membership_base",
+  "tokens": "labor_union_local",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Sindicato en {{city}}",
+    "descriptionTemplate": "Sindicato profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sindicato {{city}}",
+      "labor union {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sindicato",
+    "subheadlineTemplate": "Sindicato profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

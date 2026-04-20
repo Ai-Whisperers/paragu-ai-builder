@@ -1,0 +1,25 @@
+{
+  "id": "localization_agency",
+  "nameEs": "Agencia Localizacion",
+  "nameEn": "Localization Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "translation-localization",
+  "extends": "professional_services_base",
+  "tokens": "localization_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Localizacion en {{city}}",
+    "descriptionTemplate": "Agencia Localizacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia localizacion {{city}}",
+      "localization agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Localizacion",
+    "subheadlineTemplate": "Agencia Localizacion profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "merchant_services_rep",
+  "nameEs": "Servicios Merchant",
+  "nameEn": "Merchant Services",
+  "verticalId": "finance-insurance",
+  "subVertical": "fintech-local",
+  "extends": "finance_insurance_base",
+  "tokens": "merchant_services_rep",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Servicios Merchant en {{city}}",
+    "descriptionTemplate": "Servicios Merchant profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicios merchant {{city}}",
+      "merchant services {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicios Merchant",
+    "subheadlineTemplate": "Servicios Merchant profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

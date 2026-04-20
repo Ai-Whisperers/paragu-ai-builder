@@ -1,0 +1,22 @@
+{
+  "id": "wedding_event_florist",
+  "nameEs": "Floreria Eventos",
+  "nameEn": "Event Florist",
+  "verticalId": "retail-local",
+  "subVertical": "florist",
+  "extends": "retail_base",
+  "tokens": "wedding_event_florist",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Floreria Eventos en {{city}}",
+    "descriptionTemplate": "Floreria Eventos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "floreria eventos {{city}}",
+      "event florist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Floreria Eventos",
+    "subheadlineTemplate": "Floreria Eventos profesional en {{city}}."
+  }
+}

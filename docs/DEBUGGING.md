@@ -1,150 +1,223 @@
 # Debugging & Logging Runbook
 
-When something breaks in Paragu-AI Builder, this is the playbook for finding out
-what happened, why, and how to reproduce it. The codebase has **one structured
-logger** (`web/lib/logger.ts`) and a handful of observability surfaces — this
-doc covers all of them.
+When something breaks, this is the playbook. The codebase has **one
+structured logger** (`lib/obs/logger.ts`, re-exported as `@/lib/logger`) plus
+three external pipes (Sentry / Axiom / Analytics Engine). The sections
+below cover day-to-day debugging. For the architectural setup, see
+[`OBSERVABILITY.md`](./OBSERVABILITY.md).
 
 ## 1. The structured logger
 
-All runtime code logs through `logger` from `@/lib/logger`. Every entry is
-either a pretty line (dev) or a single JSON object (prod) containing:
+All runtime code logs via `@/lib/logger` (a shim around `@/lib/obs/logger`).
+Every entry is a single line:
 
-| Field | Notes |
-|-------|-------|
-| `timestamp` | ISO 8601 |
-| `level` | `debug` / `info` / `warn` / `error` |
-| `message` | Human-readable headline |
-| `context` | Arbitrary structured fields — `requestId`, `businessId`, `siteSlug`, `action`, `duration`, etc. |
-| `error` | `{ name, message, stack }` on error-level entries |
+- **Dev:** ANSI-colored pretty text with request-id + path abbreviation.
+- **Prod:** ECS-aligned JSON with dotted field names.
 
-### Log levels
+### Canonical fields (ECS)
 
-- **debug** — noisy tracing (query timings under threshold, cache hits, etc.)
-- **info** — normal flow (request accepted, composition completed)
-- **warn** — recoverable issue (fallback used, slow query, 4xx from upstream)
-- **error** — unrecoverable (exception, 5xx, all destinations failed)
+| Field | Example | Who sets |
+|-------|---------|----------|
+| `@timestamp` | `"2026-04-19T23:59:00.123Z"` | logger |
+| `log.level` | `"info"` / `"warn"` / `"error"` / `"debug"` | logger |
+| `message` | `"Lead accepted"` | caller |
+| `service.name` | `"paragu-ai-builder"` | logger |
+| `service.version` | `"abc123"` | logger (from `NEXT_PUBLIC_APP_VERSION` or `NEXT_PUBLIC_COMMIT_SHA`) |
+| `trace.id` | `"f1e2d3…"` | middleware (upstream-aware) |
+| `span.id` | `"a1b2c3d4e5f6…"` | middleware (if upstream sent W3C traceparent) |
+| `http.method` | `"POST"` | `withRequestLog` |
+| `url.path` | `"/api/leads"` | `withRequestLog` |
+| `http.status` | `201` | caller |
+| `http.duration` | `137` | `createPerformanceTracker.finish()` |
+| `client.ip` | `"1.2.3.4"` | `createRequestLogger` |
+| `user.id` | `"u-…"` | caller |
+| `event.action` | `"compose.finish"` | caller |
+| `labels.business_id`, `labels.business_type`, `labels.business_slug`, `labels.site_slug`, `labels.locale`, `labels.vertical` | — | caller |
+| `error.{name,message,stack}` | — | logger (stack only in dev) |
 
-Default level: `debug` in dev, `info` in prod. Override with `LOG_LEVEL=debug`.
+**Backwards compatibility:** legacy keys (`requestId`, `businessId`, `siteSlug`,
+`method`, `path`, `duration`, …) still work and are automatically mirrored
+under their ECS names at emit time.
 
-### Format
+### Writing logs
 
-- Dev: ANSI-colored pretty lines.
-- Prod (Cloudflare Workers): JSON, one entry per line.
-- Force either with `LOG_FORMAT=pretty` or `LOG_FORMAT=json`.
+```typescript
+import { logger } from '@/lib/logger'
 
-### Request correlation
+logger.info('Lead accepted', {
+  'labels.site_slug': data.siteSlug,
+  leadId,
+})
 
-`middleware.ts` assigns every request a UUID and injects it as the
-`x-request-id` request header. API routes call `createRequestLogger(request)`
-which threads the ID into every log entry and echoes it on the response
-(`x-request-id` response header + `requestId` field in JSON bodies).
+// Legacy shape — still supported, gets aliased automatically.
+logger.info('Lead accepted', { siteSlug: data.siteSlug, leadId })
 
-**Ask users who hit errors for the `x-request-id` they see in the network tab
-or the error page — one ID traces the full lifecycle.**
+// Errors
+try {
+  await critical()
+} catch (err) {
+  logger.error('Critical path failed', err instanceof Error ? err : new Error(String(err)))
+  throw err
+}
 
-## 2. Reading production logs
+// Sampled hot-path debug
+logger.debug('Cache check', { key }, { sample: 0.01 })
+```
 
-Prod runs on Cloudflare Workers. Two ways to read logs:
+### What NOT to log
+
+- Email addresses — the redactor scrubs them, but don't rely on it.
+- Tokens / API keys / passwords — any key matching `token|apikey|password|secret|auth`
+  is masked before emit (see `lib/obs/redact.ts`).
+- Full lead / business records — pass IDs, not objects.
+- Freeform user-submitted strings without length caps — sanitiseContext
+  truncates >1KB but avoid the pattern anyway.
+
+## 2. Request-ID correlation
+
+Middleware inspects every request in this order:
+1. `x-request-id` header (validated: non-trivial, ≤128 chars)
+2. `x-correlation-id` header
+3. W3C `traceparent` header (extracts trace-id + parent span-id)
+4. generate UUIDv4
+
+The chosen ID is:
+- written to `x-request-id` and `traceparent` on the response (so the client
+  can report it, and any downstream hop sees a valid trace chain),
+- seeded into `AsyncLocalStorage` so every `logger.*` call inside the request
+  scope picks up `trace.id` automatically (no manual threading),
+- echoed in JSON response bodies as `requestId` on success and `{"requestId": …}`
+  on 5xx (from `withRequestLog`).
+
+**Ask users who hit errors for the `x-request-id`** they see in the network
+tab or the error page — one ID traces the full server + client lifecycle
+through Sentry + Axiom.
+
+## 3. Reading production logs
 
 ### Live tail (fastest for active debugging)
 
 ```bash
 cd web
-npx wrangler tail                     # all logs
-npx wrangler tail --format=pretty     # colored
-npx wrangler tail --search "businessSlug=nexa-paraguay"
-npx wrangler tail --search requestId=<uuid>
+npx wrangler tail --format=pretty
+npx wrangler tail --search "lead.accepted"
+npx wrangler tail --search "trace.id=<uuid>"
 ```
 
-### Durable storage
+### Durable history
 
-For anything older than a few minutes:
+| Sink | Source | Retention | Query |
+|------|--------|-----------|-------|
+| **Axiom** (if Logpush configured) | All stdout | 30d hot | APL saved queries — see `OBSERVABILITY.md` §2 |
+| **Sentry** | Unhandled exceptions only | 30d free / 90d paid | Sentry UI; group by fingerprint, trace, release |
+| **Supabase `generation_logs`** | `recordGenerationEvent()` calls | forever | SQL via Supabase dashboard |
+| **Cloudflare dashboard** | stdout (last 3 days) | 3d | Workers → Logs tab |
 
-1. **Cloudflare dashboard** → Workers → `paragu-ai-builder` → Logs tab.
-2. **Supabase `generation_logs` table** (queryable SQL) — written for any
-   step that calls `recordGenerationEvent()` from
-   `web/lib/generation/log-event.ts`. Use when debugging the generation
-   pipeline specifically.
+## 4. Sentry (error tracking)
 
-## 3. Health & diagnostics endpoints
+Enabled automatically when `NEXT_PUBLIC_SENTRY_DSN` is set.
+
+- **Server errors** → captured by `onRequestError` in `instrumentation.ts` +
+  the `withRequestLog` wrapper. Tagged with route + method.
+- **Client errors** → captured by each error boundary (`app/error.tsx`,
+  `app/global-error.tsx`, `app/[business]/error.tsx`, `app/s/[locale]/[site]/error.tsx`)
+  and tagged with `boundary`.
+- **Manual captures** → `import { captureException, captureMessage } from '@/lib/obs/sentry'`.
+
+Warnings do not ship to Sentry — only errors. Warn-level rate spikes are an
+Axiom / log-pipeline concern.
+
+## 5. Metrics (Analytics Engine)
+
+Custom time-series metrics emitted via `metrics.{inc,timing,observe}` from
+`@/lib/obs/metrics`. See `OBSERVABILITY.md` §3 for the schema and queries.
+In dev without a `METRICS` binding, writes are no-ops (logged at debug).
+
+## 6. Endpoints
 
 | Endpoint | Auth | Use when |
 |----------|------|----------|
 | `GET /api/health` | public | quick "is it up" — env vars present |
-| `GET /api/health?deep=1` | public | also pings Supabase (adds ~50–200ms) |
-| `GET /api/diagnostics` | admin user | snapshot of env flags, catalog sizes, last 25 generation_logs rows |
+| `GET /api/health?deep=1` | public | also pings Supabase (+50–200ms) |
+| `GET /api/diagnostics` | admin user | env flags, catalog sizes, last 25 generation_logs rows |
 
-All three return `requestId` in the body and response header so any weirdness
-is traceable.
+All return `requestId` in the body + response header so every interaction is
+traceable.
 
-## 4. Reproducing a bug locally
+## 7. Error boundaries (client)
 
-1. Grab the `requestId` from the user-facing error or prod logs.
-2. `npx wrangler tail --search requestId=<id>` to see the full request trace.
-3. If the failure is in the generation pipeline:
-   - Note the `businessSlug` and `pageType` from the log entries.
-   - Run `npm run generate:site <slug>` to reproduce composition locally.
-   - `--sections`, `--theme`, `--meta` flags narrow output.
-4. If the failure is in a lead-form adapter:
-   - Check which adapter failed (`adapter` field in the warn log).
-   - Adapter contract tests: `npm run test -- integrations/adapter-contracts`.
+| File | Scope |
+|------|-------|
+| `app/error.tsx` | Catches render errors in the normal route tree |
+| `app/global-error.tsx` | Catches errors in the root layout itself |
+| `app/[business]/error.tsx` | Scoped to flat-pattern tenant pages |
+| `app/s/[locale]/[site]/error.tsx` | Scoped to vertical tenant pages |
+| `components/ui/error-boundary.tsx` | Reusable component boundary |
 
-## 5. Error boundaries
+Each logs to `logger.error` + emits to Sentry with the error `digest`. The
+digest is shown to the user so they can report it.
 
-- `app/error.tsx` — catches render errors in the normal route tree.
-- `app/global-error.tsx` — catches errors in the root layout itself.
-- `app/[business]/error.tsx` — scoped to flat-pattern tenant pages.
-- `app/s/[locale]/[site]/error.tsx` — scoped to vertical tenant pages.
-
-Each logs to `logger.error` with the error `digest` so the stack in the log can
-be correlated with the digest shown to the user. Users should be asked to
-include the digest when reporting.
-
-## 6. Multi-tenant safety
+## 8. Multi-tenant safety
 
 Every per-business query must go through `scopedQueries(supabase, businessId)`
-from `web/lib/supabase/scoped.ts`. The helper:
+from `@/lib/supabase/scoped`. The helper:
 
 - Injects `.eq('business_id', businessId)` on select/update/delete/count/exists.
 - Injects `business_id` into insert payloads.
 - Strips `business_id` from update payloads to prevent cross-tenant moves.
-- Logs slow queries (`>SLOW_QUERY_THRESHOLD_MS`, default 1s) as warn.
+- Logs slow queries (>`SLOW_QUERY_THRESHOLD_MS`, default 1s) as warn.
 - Logs every query error with table + operation + businessId context.
 
-The test `tests/unit/scoped-query-audit.test.ts` fails the build if a raw
-`.from('<tenant_table>')` call appears anywhere except `scoped.ts` itself.
+`tests/unit/scoped-query-audit.test.ts` fails the build if a raw
+`.from('<tenant_table>')` call appears anywhere except `scoped.ts` itself
+(with an explicit allowlist for the admin diagnostics endpoint).
 
-## 7. Common failure modes
+## 9. Common failure modes
 
 | Symptom | Likely cause | First look |
 |---------|--------------|-----------|
-| 500 from `/api/generate` | Business data missing fields | Look for `BusinessData validation failed` warn with issue paths |
-| Tenant page renders 404 | `composeSitePage` threw | Search `TenantPage composition failed` in logs |
-| Lead form "all_destinations_failed" | No configured adapter succeeded | `All lead destinations failed` error has per-adapter breakdown |
-| Slow page load | Supabase query slow | Search `Slow scoped query` warn — includes table + duration |
-| Unknown section ID | Registry / section-registry mismatch | `Unknown section type` or `No component bound for section` warn |
+| 500 from `/api/generate` | Business data missing fields | `BusinessData validation failed` warn with issue paths |
+| Tenant page renders 404 | `composeSitePage` threw | `TenantPage composition failed` error in logs |
+| Lead form "all_destinations_failed" | No configured adapter succeeded | `All lead destinations failed` error with per-adapter breakdown |
+| Slow page load | Supabase query slow | `Slow scoped query` warn — includes table + duration |
+| Unknown section ID | Registry / section-registry mismatch | `Unknown section type` warn |
+| Sentry getting spammed | Warn-level events capture enabled somewhere | Only `logger.error` + explicit `captureException` should reach Sentry |
 
-## 8. Useful env vars
+## 10. Useful env vars
 
 | Var | Default | Effect |
 |-----|---------|--------|
 | `LOG_LEVEL` | `info` (prod) / `debug` (dev) | Minimum level logged |
 | `LOG_FORMAT` | `json` (prod) / `pretty` (dev) | Output format |
-| `SLOW_REQUEST_THRESHOLD_MS` | `1000` | `createPerformanceTracker.finish` warns above this |
-| `SLOW_QUERY_THRESHOLD_MS` | `1000` | scopedQueries warns above this |
-| `NEXT_PUBLIC_APP_VERSION` | `unknown` | Echoed in /api/health |
-| `NEXT_PUBLIC_COMMIT_SHA` | `unknown` | Echoed in /api/health |
+| `SLOW_REQUEST_THRESHOLD_MS` | `1000` | `perf.finish` warns above this |
+| `SLOW_QUERY_THRESHOLD_MS` | `1000` | `scopedQueries` warns above this |
+| `NEXT_PUBLIC_SENTRY_DSN` | — | Enables Sentry when set |
+| `SENTRY_TRACES_SAMPLE_RATE` | `0.1` | Server performance traces |
+| `NEXT_PUBLIC_SENTRY_TRACES_SAMPLE_RATE` | `0.1` | Browser performance traces |
+| `NEXT_PUBLIC_APP_VERSION` | `unknown` | Echoed in `service.version` + Sentry release |
+| `NEXT_PUBLIC_COMMIT_SHA` | `unknown` | Same as above, preferred |
+| `SERVICE_NAME` | `paragu-ai-builder` | `service.name` in log entries |
 
-## 9. Testing changes
+## 11. Testing changes
 
 ```bash
 cd web
 npm run test          # unit + integration (no coverage gate)
-npm run test:ci       # unit + integration + coverage gate (fails <75%)
+npm run test:ci       # unit + integration + coverage gate
 npm run test:e2e      # Playwright (needs dev server)
 npm run test:all      # ci + e2e
 ```
 
 CI (`.github/workflows/test.yml`) runs `test:ci` on every PR and fails the
 build on test or coverage failure.
+
+## 12. When in doubt
+
+1. Get the `x-request-id` from the user-facing error / logs.
+2. `wrangler tail --search trace.id=<id>` for live trace, or Axiom query for
+   history (see `OBSERVABILITY.md` §2).
+3. If there's a stack trace, Sentry has the grouped error with all sessions.
+4. If it's in the generation pipeline, run `npm run generate:site <slug>`
+   locally to reproduce.
+5. If nothing reproduces, `/api/diagnostics` (admin) dumps the relevant
+   runtime state: env var presence, catalog, last 25 generation_logs rows.

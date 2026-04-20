@@ -1,0 +1,22 @@
+{
+  "id": "optical_shop",
+  "nameEs": "Optica",
+  "nameEn": "Optical Shop",
+  "verticalId": "health-wellness",
+  "subVertical": "vision-hearing",
+  "extends": "health_wellness_base",
+  "tokens": "optical_shop",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Optica en {{city}}",
+    "descriptionTemplate": "Optica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "optica {{city}}",
+      "optical shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Optica",
+    "subheadlineTemplate": "Optica profesional en {{city}}."
+  }
+}

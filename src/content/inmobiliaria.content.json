@@ -1,0 +1,34 @@
+{
+  "id": "inmobiliaria",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Propiedades bien elegidas",
+    "subheadline": "Compra, venta y alquiler de inmuebles en {{city}} con asesoramiento integral.",
+    "ctaPrimary": "Ver Propiedades",
+    "ctaSecondary": "Consultar"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} acompañamos a nuestros clientes en cada etapa: desde la busqueda hasta la escritura."
+  },
+  "services": {
+    "title": "Servicios",
+    "categories": [
+      { "id": "venta", "name": "Venta", "description": "Comercializacion con tasacion incluida." },
+      { "id": "alquiler", "name": "Alquiler", "description": "Residencial, comercial, temporal." },
+      { "id": "tasacion", "name": "Tasacion", "description": "Informes para venta, garantia o sucesion." },
+      { "id": "administracion", "name": "Administracion de Propiedades", "description": "Cobranza, mantenimiento, gestion integral." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Profesionales, honestos y con muy buen conocimiento del mercado.", "author": "Propietario", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Hacen tasaciones?", "a": "Si, con informe tecnico firmado por corredor matriculado." },
+    { "q": "Trabajan con barrios cerrados?", "a": "Si, tenemos propiedades en los principales barrios cerrados de {{city}}." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Tu inmobiliaria de confianza",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

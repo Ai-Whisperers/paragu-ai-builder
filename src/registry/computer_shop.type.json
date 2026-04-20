@@ -1,0 +1,22 @@
+{
+  "id": "computer_shop",
+  "nameEs": "Tienda de Computadoras",
+  "nameEn": "Computer Shop",
+  "verticalId": "retail-local",
+  "subVertical": "electronics-appliance",
+  "extends": "retail_base",
+  "tokens": "computer_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda de Computadoras en {{city}}",
+    "descriptionTemplate": "Tienda de Computadoras profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda de computadoras {{city}}",
+      "computer shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda de Computadoras",
+    "subheadlineTemplate": "Tienda de Computadoras profesional en {{city}}."
+  }
+}

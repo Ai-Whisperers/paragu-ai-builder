@@ -1,0 +1,22 @@
+{
+  "id": "crypto_consulting_firm",
+  "nameEs": "Consultoria Crypto",
+  "nameEn": "Crypto Consulting",
+  "verticalId": "finance-insurance",
+  "subVertical": "crypto-local",
+  "extends": "finance_insurance_base",
+  "tokens": "crypto_consulting_firm",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Consultoria Crypto en {{city}}",
+    "descriptionTemplate": "Consultoria Crypto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultoria crypto {{city}}",
+      "crypto consulting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultoria Crypto",
+    "subheadlineTemplate": "Consultoria Crypto profesional en {{city}}."
+  }
+}

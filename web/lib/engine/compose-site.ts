@@ -30,6 +30,7 @@ import {
   defaultVariant,
 } from './section-registry'
 import { logger } from '@/lib/logger'
+import { metrics } from '@/lib/obs/metrics'
 
 const DEFAULT_PAGE_SLUG = 'home'
 
@@ -148,6 +149,12 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     vertical: site.vertical,
     sectionCount: resolvedSections.length,
     durationMs: duration,
+  })
+  metrics.timing('compose.duration', duration, {
+    siteSlug,
+    vertical: site.vertical,
+    locale,
+    pageSlug,
   })
 
   return {

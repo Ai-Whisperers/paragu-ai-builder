@@ -1,0 +1,25 @@
+{
+  "id": "incident_response_firm",
+  "nameEs": "Respuesta Incidentes",
+  "nameEn": "Incident Response",
+  "verticalId": "technology-digital",
+  "subVertical": "cybersecurity",
+  "extends": "technology_base",
+  "tokens": "incident_response_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Respuesta Incidentes en {{city}}",
+    "descriptionTemplate": "Respuesta Incidentes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "respuesta incidentes {{city}}",
+      "incident response {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Respuesta Incidentes",
+    "subheadlineTemplate": "Respuesta Incidentes profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

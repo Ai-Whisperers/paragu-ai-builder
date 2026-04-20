@@ -1,0 +1,22 @@
+{
+  "id": "watch_shop",
+  "nameEs": "Relojeria",
+  "nameEn": "Watch Shop",
+  "verticalId": "retail-local",
+  "subVertical": "jewelry-accessories",
+  "extends": "retail_base",
+  "tokens": "watch_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Relojeria en {{city}}",
+    "descriptionTemplate": "Relojeria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "relojeria {{city}}",
+      "watch shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Relojeria",
+    "subheadlineTemplate": "Relojeria profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "asbestos_lead_abatement",
+  "nameEs": "Remocion Asbesto",
+  "nameEn": "Asbestos Abatement",
+  "verticalId": "b2b-professional",
+  "subVertical": "environmental-consulting",
+  "extends": "professional_services_base",
+  "tokens": "asbestos_lead_abatement",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Remocion Asbesto en {{city}}",
+    "descriptionTemplate": "Remocion Asbesto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "remocion asbesto {{city}}",
+      "asbestos abatement {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Remocion Asbesto",
+    "subheadlineTemplate": "Remocion Asbesto profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

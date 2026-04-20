@@ -1,0 +1,22 @@
+{
+  "id": "supper_club",
+  "nameEs": "Club Cena",
+  "nameEn": "Supper Club",
+  "verticalId": "membership-community",
+  "subVertical": "social-club",
+  "extends": "membership_base",
+  "tokens": "supper_club",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Club Cena en {{city}}",
+    "descriptionTemplate": "Club Cena profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club cena {{city}}",
+      "supper club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Cena",
+    "subheadlineTemplate": "Club Cena profesional en {{city}}."
+  }
+}

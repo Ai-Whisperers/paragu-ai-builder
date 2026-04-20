@@ -1,5 +1,7 @@
 'use client'
 
+import { Heading } from '@/components/ui/heading'
+
 import BeforeAfterComponent from '@/components/portfolio/before-after'
 
 interface BeforeAfterItem {
@@ -29,9 +31,9 @@ export function BeforeAfterSection({
     <section className="bg-[var(--surface)] py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
             {title}
-          </h2>
+          </Heading>
           {subtitle && (
             <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
           )}

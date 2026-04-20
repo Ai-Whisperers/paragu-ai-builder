@@ -1,0 +1,22 @@
+{
+  "id": "treehouse_rental",
+  "nameEs": "Casa del Arbol",
+  "nameEn": "Treehouse Rental",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "short-term-rental",
+  "extends": "restaurant",
+  "tokens": "treehouse_rental",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Casa del Arbol en {{city}}",
+    "descriptionTemplate": "Casa del Arbol profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "casa del arbol {{city}}",
+      "treehouse rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Casa del Arbol",
+    "subheadlineTemplate": "Casa del Arbol profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "kickboxing_gym",
+  "nameEs": "Gimnasio Kickboxing",
+  "nameEn": "Kickboxing Gym",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "kickboxing_gym",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Gimnasio Kickboxing en {{city}}",
+    "descriptionTemplate": "Gimnasio Kickboxing profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio kickboxing {{city}}",
+      "kickboxing gym {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio Kickboxing",
+    "subheadlineTemplate": "Gimnasio Kickboxing profesional en {{city}}."
+  }
+}

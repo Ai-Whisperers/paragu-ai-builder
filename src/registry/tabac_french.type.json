@@ -1,0 +1,25 @@
+{
+  "id": "tabac_french",
+  "nameEs": "Tabac",
+  "nameEn": "Tabac",
+  "verticalId": "retail-local",
+  "subVertical": "tobacco-vape",
+  "extends": "retail_base",
+  "tokens": "tabac_french",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tabac en {{city}}",
+    "descriptionTemplate": "Tabac profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tabac {{city}}",
+      "tabac {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tabac",
+    "subheadlineTemplate": "Tabac profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

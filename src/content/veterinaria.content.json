@@ -1,0 +1,42 @@
+{
+  "id": "veterinaria",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Cuidamos a tu mejor amigo",
+    "subheadline": "Atencion veterinaria integral en {{city}} con profesionales especializados y emergencia 24 horas.",
+    "ctaPrimary": "Agendar Turno",
+    "ctaSecondary": "Emergencia 24h"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} tratamos a tus mascotas como parte de nuestra familia. Con equipamiento moderno y un equipo comprometido, brindamos atencion integral a perros, gatos y animales exoticos."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "categories": [
+      { "id": "consultas", "name": "Consultas Generales", "description": "Chequeos de rutina, revision clinica y orientacion." },
+      { "id": "vacunacion", "name": "Vacunacion y Desparasitacion", "description": "Calendarios completos para cachorros y adultos." },
+      { "id": "cirugia", "name": "Cirugia", "description": "Castraciones, cirugias generales y especializadas con quirofano propio." },
+      { "id": "peluqueria_canina", "name": "Peluqueria Canina", "description": "Bano, corte y estetica para todas las razas." },
+      { "id": "emergencias", "name": "Emergencias 24h", "description": "Guardia activa para urgencias las 24 horas." },
+      { "id": "internacion", "name": "Internacion", "description": "Monitoreo post-operatorio y tratamientos prolongados." }
+    ]
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "description": "Medicos veterinarios matriculados con especializacion en medicina interna, cirugia y emergencias."
+  },
+  "testimonials": [
+    { "quote": "Me salvaron a mi perrita en plena noche. Profesionales excepcionales.", "author": "Laura G.", "rating": 5 },
+    { "quote": "Trato carinoso a las mascotas y honestidad con los precios.", "author": "Roberto F.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Atienden emergencias de noche?", "a": "Si, contamos con guardia veterinaria 24 horas los 365 dias del ano." },
+    { "q": "Aceptan planes de salud para mascotas?", "a": "Si, trabajamos con los principales planes de salud animal. Consultanos." },
+    { "q": "Hacen cirugias?", "a": "Si, tenemos quirofano propio y realizamos desde castraciones hasta cirugias complejas." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - La salud de tus mascotas en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

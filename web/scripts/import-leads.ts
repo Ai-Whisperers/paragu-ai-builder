@@ -16,7 +16,7 @@ import { createClient } from '@supabase/supabase-js'
 import { parse } from 'csv-parse/sync'
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
-import { slugify } from '../lib/utils.js'
+import { slugify } from '@/lib/utils'
 
 // Parse CLI args
 const args = process.argv.slice(2).reduce((acc, arg) => {
@@ -110,23 +110,21 @@ async function importLeads() {
     records = records.slice(0, LIMIT)
   }
 
-  // Transform records
+  // Transform records - only include columns that exist in database
   const leads = records.map((record, index) => ({
     business_name: record.name || record.business_name || 'Unknown Business',
     slug: generateSlug(
       record.name || record.business_name || 'business',
-      record.place_id || record.google_maps_place_id
+      record.place_id || record.google_maps_place_id || String(index)
     ),
     business_type: mapBusinessType(record.category || record.business_type),
     
     // Contact
     phone: record.phone || record.phone_number || null,
-    phone_status: record.phone_status || 'unknown',
     email: record.email || null,
     whatsapp: record.whatsapp || record.phone || null,
     instagram: record.instagram || record.instagram_handle || null,
     facebook_url: record.facebook || record.facebook_url || null,
-    social_followers_estimate: record.social_followers ? parseInt(record.social_followers) : null,
     
     // Location
     address: record.address || record.formatted_address || null,
@@ -158,7 +156,6 @@ async function importLeads() {
     
     // Metadata
     imported_at: new Date().toISOString(),
-    last_enriched_at: record.last_enriched_at || null,
   }))
 
   console.log(`\n📝 Transformed ${leads.length} leads`)

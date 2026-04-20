@@ -45,7 +45,7 @@ export function BlogPostSection({
         {coverImage && (
           <div className="mt-8 overflow-hidden rounded-lg bg-[var(--surface-light)]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={coverImage} alt={title} className="h-auto w-full" />
+            <img src={coverImage} alt={title} className="h-auto w-full"  loading="lazy" decoding="async" />
           </div>
         )}
 

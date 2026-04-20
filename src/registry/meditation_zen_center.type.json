@@ -1,0 +1,22 @@
+{
+  "id": "meditation_zen_center",
+  "nameEs": "Centro Meditacion",
+  "nameEn": "Meditation Center",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "meditation_zen_center",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Centro Meditacion en {{city}}",
+    "descriptionTemplate": "Centro Meditacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro meditacion {{city}}",
+      "meditation center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro Meditacion",
+    "subheadlineTemplate": "Centro Meditacion profesional en {{city}}."
+  }
+}

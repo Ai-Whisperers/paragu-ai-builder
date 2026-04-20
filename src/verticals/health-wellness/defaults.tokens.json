@@ -1,0 +1,28 @@
+{
+  "name": "Health clinical calm",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Medical Blue",
+      "colors": {
+        "primary": "#1E6091",
+        "secondary": "#2D8DAE",
+        "accent": "#A8DADC",
+        "background": "#F8FAFC",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#E6F0F4",
+        "text": "#0F2C4A",
+        "textLight": "#3B4F66",
+        "textMuted": "#6B7B8E"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Source Serif Pro', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Source+Serif+Pro:wght@600;700", "Inter:wght@400;500;600"]
+}

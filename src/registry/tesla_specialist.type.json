@@ -1,0 +1,22 @@
+{
+  "id": "tesla_specialist",
+  "nameEs": "Especialista Tesla",
+  "nameEn": "Tesla Specialist",
+  "verticalId": "automotive",
+  "subVertical": "ev-hybrid",
+  "extends": "automotive_base",
+  "tokens": "tesla_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Especialista Tesla en {{city}}",
+    "descriptionTemplate": "Especialista Tesla profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista tesla {{city}}",
+      "tesla specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Tesla",
+    "subheadlineTemplate": "Especialista Tesla profesional en {{city}}."
+  }
+}

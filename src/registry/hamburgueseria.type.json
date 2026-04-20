@@ -1,0 +1,27 @@
+{
+  "id": "hamburgueseria",
+  "nameEs": "Hamburgueseria",
+  "nameEn": "Burger Joint",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "hamburgueseria",
+  "seo": {
+    "schemaType": "Restaurant",
+    "titleTemplate": "{{businessName}} - Hamburgueseria en {{city}}",
+    "descriptionTemplate": "Hamburguesas artesanales con carne 100% de calidad en {{city}}.",
+    "keywords": [
+      "hamburguesas {{city}}",
+      "burger {{city}}",
+      "smash burger {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hamburguesas smash, papas crispy",
+    "subheadlineTemplate": "Hamburguesas artesanales con carne 100% de calidad en {{city}}."
+  },
+  "serviceCategories": [
+    "burgers",
+    "papas",
+    "combos"
+  ]
+}

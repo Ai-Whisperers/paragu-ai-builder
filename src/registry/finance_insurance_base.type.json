@@ -1,0 +1,76 @@
+{
+  "id": "finance_insurance_base",
+  "nameEs": "Base Finanzas",
+  "nameEn": "Finance & Insurance Base",
+  "verticalId": "finance-insurance",
+  "abstract": true,
+  "tokens": "finance_insurance_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "services",
+        "features",
+        "process",
+        "team",
+        "testimonials",
+        "faq",
+        "leadForm",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "services",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "leadForm": {
+      "enabled": true
+    },
+    "credentials": {
+      "enabled": true
+    },
+    "legalDisclosures": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Finanzas profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Servicios",
+      "Profesionales",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Agendar Consulta",
+      "action": "leadForm"
+    }
+  },
+  "hero": {
+    "style": "minimal",
+    "headlineTemplate": "{{businessName}} - Asesoramiento con rigor",
+    "subheadlineTemplate": "Finanzas y seguros para proteger lo que te importa.",
+    "ctaPrimary": {
+      "text": "Agendar Consulta",
+      "action": "leadForm"
+    },
+    "ctaSecondary": {
+      "text": "Nuestros Servicios",
+      "action": "scrollTo:services"
+    }
+  }
+}

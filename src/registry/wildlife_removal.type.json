@@ -1,0 +1,22 @@
+{
+  "id": "wildlife_removal",
+  "nameEs": "Remocion Fauna",
+  "nameEn": "Wildlife Removal",
+  "verticalId": "trades-home-services",
+  "subVertical": "pest-control",
+  "extends": "trades_base",
+  "tokens": "wildlife_removal",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Remocion Fauna en {{city}}",
+    "descriptionTemplate": "Remocion Fauna profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "remocion fauna {{city}}",
+      "wildlife removal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Remocion Fauna",
+    "subheadlineTemplate": "Remocion Fauna profesional en {{city}}."
+  }
+}

@@ -22,9 +22,15 @@
     "analytics": "ga4"
   },
   "features": {
-    "testimonials": false,
+    "testimonials": true,
     "blog": true,
-    "whatsappFloat": true
+    "whatsappFloat": true,
+    "heroImages": true,
+    "processImages": true
+  },
+  "images": {
+    "manifest": "/sites/nexa-paraguay/images.json",
+    "hero": "/sites/nexa-paraguay/images/hero/hero-bg.jpg"
   },
   "contact": {
     "whatsapp": "595000000000",

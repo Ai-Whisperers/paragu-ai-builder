@@ -1,0 +1,25 @@
+{
+  "id": "leadership_training",
+  "nameEs": "Capacitacion Liderazgo",
+  "nameEn": "Leadership Training",
+  "verticalId": "education-training",
+  "subVertical": "corporate-training",
+  "extends": "educacion",
+  "tokens": "leadership_training",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Capacitacion Liderazgo en {{city}}",
+    "descriptionTemplate": "Capacitacion Liderazgo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capacitacion liderazgo {{city}}",
+      "leadership training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capacitacion Liderazgo",
+    "subheadlineTemplate": "Capacitacion Liderazgo profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bill_pay_kiosk",
+  "nameEs": "Cobranza Extrabancaria",
+  "nameEn": "Bill Pay Kiosk",
+  "verticalId": "finance-insurance",
+  "subVertical": "fintech-local",
+  "extends": "finance_insurance_base",
+  "tokens": "bill_pay_kiosk",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Cobranza Extrabancaria en {{city}}",
+    "descriptionTemplate": "Cobranza Extrabancaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cobranza extrabancaria {{city}}",
+      "bill pay kiosk {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cobranza Extrabancaria",
+    "subheadlineTemplate": "Cobranza Extrabancaria profesional en {{city}}."
+  }
+}

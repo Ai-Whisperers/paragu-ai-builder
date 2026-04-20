@@ -1,0 +1,22 @@
+{
+  "id": "pitch_and_putt",
+  "nameEs": "Pitch and Putt",
+  "nameEn": "Pitch and Putt",
+  "verticalId": "sports-recreation",
+  "subVertical": "golf",
+  "extends": "sports_base",
+  "tokens": "pitch_and_putt",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Pitch and Putt en {{city}}",
+    "descriptionTemplate": "Pitch and Putt profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pitch and putt {{city}}",
+      "pitch and putt {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pitch and Putt",
+    "subheadlineTemplate": "Pitch and Putt profesional en {{city}}."
+  }
+}

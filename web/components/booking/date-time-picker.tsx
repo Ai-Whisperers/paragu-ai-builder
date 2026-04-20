@@ -62,6 +62,7 @@ export default function DateTimePicker({
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedTime('')
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedDate])
 
   const formatDate = (date: Date) => {

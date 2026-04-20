@@ -1,0 +1,32 @@
+{
+  "id": "membership-community",
+  "name": "Membership & Community",
+  "nameEs": "Membresias y Comunidad",
+  "description": "Nonprofits, religious congregations, trade associations, professional societies, social clubs, coworking, community centers.",
+  "baseType": "membership_base",
+  "features": {
+    "i18n": false,
+    "events": true,
+    "donation": true,
+    "membersLogin": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "about",
+    "services",
+    "team",
+    "events-calendar",
+    "testimonials",
+    "faq",
+    "lead-form",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

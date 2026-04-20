@@ -1,0 +1,22 @@
+{
+  "common": {
+    "cta": {
+      "primary": "Consultar Productos",
+      "secondary": "Conocenos",
+      "whatsapp": "WhatsApp"
+    },
+    "labels": {
+      "products": "Productos",
+      "services": "Servicios",
+      "about": "Nuestra Tierra"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}} - Del campo a tu mesa",
+      "subheadline": "Produccion agricola y agronegocios con compromiso ambiental.",
+      "ctaPrimaryText": "Consultar Productos",
+      "ctaSecondaryText": "Conocenos"
+    }
+  }
+}

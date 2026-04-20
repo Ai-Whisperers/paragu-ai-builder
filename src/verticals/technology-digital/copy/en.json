@@ -1,0 +1,22 @@
+{
+  "common": {
+    "cta": {
+      "primary": "Solicitar Demo",
+      "secondary": "Casos de Exito",
+      "whatsapp": "WhatsApp"
+    },
+    "labels": {
+      "services": "Servicios",
+      "stack": "Stack Tecnologico",
+      "cases": "Casos"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}} - Tecnologia que impulsa",
+      "subheadline": "Soluciones digitales para empresas que buscan crecer.",
+      "ctaPrimaryText": "Solicitar Demo",
+      "ctaSecondaryText": "Casos de Exito"
+    }
+  }
+}

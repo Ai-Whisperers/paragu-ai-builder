@@ -1,0 +1,22 @@
+{
+  "id": "charter_bus_service",
+  "nameEs": "Alquiler de Autobus",
+  "nameEn": "Charter Bus",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "transport-tourism",
+  "extends": "restaurant",
+  "tokens": "charter_bus_service",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler de Autobus en {{city}}",
+    "descriptionTemplate": "Alquiler de Autobus profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler de autobus {{city}}",
+      "charter bus {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler de Autobus",
+    "subheadlineTemplate": "Alquiler de Autobus profesional en {{city}}."
+  }
+}

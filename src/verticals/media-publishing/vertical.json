@@ -1,0 +1,30 @@
+{
+  "id": "media-publishing",
+  "name": "Media & Publishing",
+  "nameEs": "Medios y Publicacion",
+  "description": "Local news, niche magazines, podcast studios, indie publishers, ad media, content creators. Mixed B2B/B2C.",
+  "baseType": "media_base",
+  "features": {
+    "i18n": false,
+    "blog": true,
+    "newsletterSignup": true,
+    "whatsappFloat": true,
+    "adSales": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "about",
+    "blog-index",
+    "services",
+    "testimonials",
+    "lead-form",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

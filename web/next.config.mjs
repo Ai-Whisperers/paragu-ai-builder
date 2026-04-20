@@ -4,7 +4,15 @@
  * @type {import('next').NextConfig}
  */
 
+import withBundleAnalyzer from '@next/bundle-analyzer'
+
 const isDev = process.env.NODE_ENV === 'development'
+const withAnalyzer = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+  openAnalyzer: false,
+  analyzerMode: 'static',
+  reportFilename: 'bundle-analysis.html',
+})
 
 /**
  * Content Security Policy
@@ -47,6 +55,46 @@ const securityHeaders = [
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
 ]
 
+/**
+ * Performance Budget Configuration
+ * Win 62: Add performance budget
+ */
+const performanceBudget = {
+  // JavaScript bundle size limits (in bytes)
+  javascript: {
+    main: 250 * 1024,        // 250KB for main bundle
+    vendor: 350 * 1024,      // 350KB for vendor chunk
+    framework: 100 * 1024,   // 100KB for framework code
+    total: 1024 * 1024,      // 1MB total JS budget
+  },
+  // CSS budget
+  css: {
+    total: 50 * 1024,       // 50KB for all CSS
+  },
+  // Image optimization
+  images: {
+    maxSize: 500 * 1024,      // 500KB max per image
+    formats: ['image/avif', 'image/webp'],
+  },
+  // Build time budget
+  buildTime: {
+    maxSeconds: 300,          // 5 minutes max build time
+  },
+}
+
+/**
+ * Bundle Analyzer Configuration
+ * Win 63: Bundle analyzer already configured via withBundleAnalyzer
+ */
+const bundleAnalyzerConfig = {
+  enabled: process.env.ANALYZE === 'true',
+  openAnalyzer: false,      // Don't open browser automatically in CI
+  analyzerMode: 'static',     // Generate static HTML report
+  reportFilename: 'bundle-analysis.html',
+  generateStatsFile: true,
+  statsFilename: 'bundle-stats.json',
+}
+
 const nextConfig = {
   // Simple standalone output 
   output: 'standalone',
@@ -55,6 +103,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  // Performance budget reference (for documentation)
+  // Actual enforcement happens via CI checks
+  performanceBudget,
 
   // Use Turbopack (default in Next.js 16)
   // Empty config to enable it explicitly
@@ -105,4 +157,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+export default withAnalyzer(nextConfig)

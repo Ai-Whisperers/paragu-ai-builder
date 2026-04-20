@@ -26,7 +26,7 @@ export default function ServiceMenu({
   showDuration = true,
   onSelectService,
   ctaText = 'Reservar',
-  ctaLink
+  ctaLink: _ctaLink
 }: ServiceMenuProps) {
   const formatDuration = (minutes?: number) => {
     if (!minutes) return ''

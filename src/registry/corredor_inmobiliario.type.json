@@ -1,0 +1,26 @@
+{
+  "id": "corredor_inmobiliario",
+  "nameEs": "Corredor Inmobiliario",
+  "nameEn": "Realtor",
+  "verticalId": "real-estate-relocation",
+  "extends": "inmobiliaria",
+  "tokens": "corredor_inmobiliario",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Corredor Inmobiliario en {{city}}",
+    "descriptionTemplate": "Compra, venta y alquiler con asesoramiento personalizado en {{city}}.",
+    "keywords": [
+      "corredor inmobiliario {{city}}",
+      "inmobiliaria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu corredor de confianza",
+    "subheadlineTemplate": "Compra, venta y alquiler con asesoramiento personalizado en {{city}}."
+  },
+  "serviceCategories": [
+    "compra",
+    "venta",
+    "alquiler"
+  ]
+}

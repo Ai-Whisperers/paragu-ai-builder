@@ -1,0 +1,31 @@
+{
+  "name": "Industrial Steel",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Industrial Steel",
+      "colors": {
+        "primary": "#1F2937",
+        "secondary": "#F59E0B",
+        "accent": "#64748B",
+        "background": "#F9FAFB",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FFFFFF",
+        "text": "#111827",
+        "textLight": "#111827",
+        "textMuted": "#64748B"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Rajdhani', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400"
+  },
+  "googleFonts": [
+    "Rajdhani:wght@500;600;700",
+    "Inter:wght@400;500;600"
+  ]
+}

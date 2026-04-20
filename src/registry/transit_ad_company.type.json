@@ -1,0 +1,25 @@
+{
+  "id": "transit_ad_company",
+  "nameEs": "Publicidad Transporte",
+  "nameEn": "Transit Ads",
+  "verticalId": "media-publishing",
+  "subVertical": "ad-media-local",
+  "extends": "media_base",
+  "tokens": "transit_ad_company",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Publicidad Transporte en {{city}}",
+    "descriptionTemplate": "Publicidad Transporte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "publicidad transporte {{city}}",
+      "transit ads {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Publicidad Transporte",
+    "subheadlineTemplate": "Publicidad Transporte profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

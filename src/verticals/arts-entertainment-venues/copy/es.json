@@ -1,0 +1,22 @@
+{
+  "common": {
+    "cta": {
+      "primary": "Ver Cartelera",
+      "secondary": "Comprar Entradas",
+      "whatsapp": "WhatsApp"
+    },
+    "labels": {
+      "events": "Eventos",
+      "tickets": "Entradas",
+      "about": "El Lugar"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}} - La experiencia en vivo",
+      "subheadline": "Conciertos, teatro, cine y entretenimiento en {{city}}.",
+      "ctaPrimaryText": "Ver Cartelera",
+      "ctaSecondaryText": "Comprar Entradas"
+    }
+  }
+}

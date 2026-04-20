@@ -1,0 +1,28 @@
+{
+  "name": "Pilates minimalist",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Charcoal & Blush",
+      "colors": {
+        "primary": "#374151",
+        "secondary": "#F472B6",
+        "accent": "#FBCFE8",
+        "background": "#FAFAFA",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F3F4F6",
+        "text": "#111827",
+        "textLight": "#374151",
+        "textMuted": "#9CA3AF"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Montserrat', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "500",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Montserrat:wght@400;500;600", "Inter:wght@400;500;600"]
+}

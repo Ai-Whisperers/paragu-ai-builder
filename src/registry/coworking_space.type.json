@@ -1,0 +1,22 @@
+{
+  "id": "coworking_space",
+  "nameEs": "Coworking",
+  "nameEn": "Coworking Space",
+  "verticalId": "membership-community",
+  "subVertical": "coworking-makerspace",
+  "extends": "membership_base",
+  "tokens": "coworking_space",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Coworking en {{city}}",
+    "descriptionTemplate": "Coworking profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coworking {{city}}",
+      "coworking space {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Coworking",
+    "subheadlineTemplate": "Coworking profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "traditional_ink_studio",
+  "nameEs": "Tatuaje Tradicional",
+  "nameEn": "Traditional Ink Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "tattoo-piercing",
+  "extends": "beauty_base",
+  "tokens": "traditional_ink_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Tatuaje Tradicional en {{city}}",
+    "descriptionTemplate": "Tatuaje Tradicional profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tatuaje tradicional {{city}}",
+      "traditional ink studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tatuaje Tradicional",
+    "subheadlineTemplate": "Tatuaje Tradicional profesional en {{city}}."
+  }
+}

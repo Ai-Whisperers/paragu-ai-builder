@@ -1,0 +1,22 @@
+{
+  "id": "budget_hotel_chain",
+  "nameEs": "Hotel Economico",
+  "nameEn": "Budget Hotel",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "hotel-resort",
+  "extends": "restaurant",
+  "tokens": "budget_hotel_chain",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Hotel Economico en {{city}}",
+    "descriptionTemplate": "Hotel Economico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hotel economico {{city}}",
+      "budget hotel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hotel Economico",
+    "subheadlineTemplate": "Hotel Economico profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "water_heater_specialist",
+  "nameEs": "Calentador de Agua",
+  "nameEn": "Water Heater Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "water_heater_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Calentador de Agua en {{city}}",
+    "descriptionTemplate": "Calentador de Agua profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "calentador de agua {{city}}",
+      "water heater specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Calentador de Agua",
+    "subheadlineTemplate": "Calentador de Agua profesional en {{city}}."
+  }
+}

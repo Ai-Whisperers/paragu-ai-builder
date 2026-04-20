@@ -1,0 +1,22 @@
+{
+  "id": "lockout_service",
+  "nameEs": "Apertura Autos",
+  "nameEn": "Lockout Service",
+  "verticalId": "automotive",
+  "subVertical": "towing-roadside",
+  "extends": "automotive_base",
+  "tokens": "lockout_service",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Apertura Autos en {{city}}",
+    "descriptionTemplate": "Apertura Autos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "apertura autos {{city}}",
+      "lockout service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Apertura Autos",
+    "subheadlineTemplate": "Apertura Autos profesional en {{city}}."
+  }
+}

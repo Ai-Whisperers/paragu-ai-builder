@@ -1,0 +1,22 @@
+{
+  "id": "maker_fab_lab",
+  "nameEs": "Makerspace",
+  "nameEn": "Maker Space",
+  "verticalId": "membership-community",
+  "subVertical": "coworking-makerspace",
+  "extends": "membership_base",
+  "tokens": "maker_fab_lab",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Makerspace en {{city}}",
+    "descriptionTemplate": "Makerspace profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "makerspace {{city}}",
+      "maker space {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Makerspace",
+    "subheadlineTemplate": "Makerspace profesional en {{city}}."
+  }
+}

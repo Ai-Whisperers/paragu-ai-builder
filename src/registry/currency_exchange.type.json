@@ -1,0 +1,25 @@
+{
+  "id": "currency_exchange",
+  "nameEs": "Cambio Divisas",
+  "nameEn": "Currency Exchange",
+  "verticalId": "finance-insurance",
+  "subVertical": "credit-union-community-bank",
+  "extends": "finance_insurance_base",
+  "tokens": "currency_exchange",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Cambio Divisas en {{city}}",
+    "descriptionTemplate": "Cambio Divisas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cambio divisas {{city}}",
+      "currency exchange {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cambio Divisas",
+    "subheadlineTemplate": "Cambio Divisas profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

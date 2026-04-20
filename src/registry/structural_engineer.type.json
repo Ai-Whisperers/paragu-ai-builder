@@ -1,0 +1,25 @@
+{
+  "id": "structural_engineer",
+  "nameEs": "Ingeniero Estructural",
+  "nameEn": "Structural Engineer",
+  "verticalId": "b2b-professional",
+  "subVertical": "engineering-consulting",
+  "extends": "professional_services_base",
+  "tokens": "structural_engineer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Ingeniero Estructural en {{city}}",
+    "descriptionTemplate": "Ingeniero Estructural profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ingeniero estructural {{city}}",
+      "structural engineer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ingeniero Estructural",
+    "subheadlineTemplate": "Ingeniero Estructural profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fumigacion",
+  "nameEs": "Fumigacion y Control de Plagas",
+  "nameEn": "Pest Control",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "fumigacion",
+  "seo": {
+    "schemaType": "PestControl",
+    "titleTemplate": "{{businessName}} - Fumigacion y Control de Plagas en {{city}}",
+    "descriptionTemplate": "Control profesional de insectos, roedores y termitas en {{city}}.",
+    "keywords": [
+      "fumigacion {{city}}",
+      "control plagas {{city}}",
+      "desratizacion {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu casa sin plagas, garantizado",
+    "subheadlineTemplate": "Control profesional de insectos, roedores y termitas en {{city}}."
+  },
+  "serviceCategories": [
+    "insectos",
+    "roedores",
+    "termitas",
+    "mosquitos"
+  ]
+}

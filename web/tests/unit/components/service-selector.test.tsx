@@ -1,6 +1,5 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
-import { useState } from 'react'
 import ServiceSelector from '@/components/booking/service-selector'
 
 interface Service {
@@ -25,28 +24,47 @@ describe('service-selector.tsx', () => {
     expect(screen.getByText('Corte Fade')).toBeInTheDocument()
   })
 
-  it('should display category tabs', () => {
+  it('displays category tabs when categories prop is provided', () => {
     const onSelect = vi.fn()
-    render(<ServiceSelector services={mockServices} onSelect={onSelect} />)
+    render(
+      <ServiceSelector
+        services={mockServices}
+        categories={['Cortes', 'Barba']}
+        onSelect={onSelect}
+      />,
+    )
     expect(screen.getByText('Todos')).toBeInTheDocument()
     expect(screen.getByText('Cortes')).toBeInTheDocument()
     expect(screen.getByText('Barba')).toBeInTheDocument()
   })
 
-  it('should filter services by category', () => {
+  it('filters services when a category tab is clicked', () => {
     const onSelect = vi.fn()
-    render(<ServiceSelector services={mockServices} onSelect={onSelect} />)
-    // Click Cortes filter
-    fireEvent.click(screen.getByText('Cortes'))
-    expect(screen.getByText('Corte de Pelo')).toBeInTheDocument()
-    expect(screen.getByText('Corte Fade')).toBeInTheDocument()
+    render(
+      <ServiceSelector
+        services={mockServices}
+        categories={['Cortes', 'Barba']}
+        onSelect={onSelect}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: 'Barba' }))
+    expect(screen.getByText('Arreglo de Barba')).toBeInTheDocument()
+    expect(screen.queryByText('Corte de Pelo')).not.toBeInTheDocument()
   })
 
-  it('should show all services with "all" category', () => {
+  it('resets to all services when "Todos" tab is clicked', () => {
     const onSelect = vi.fn()
-    render(<ServiceSelector services={mockServices} onSelect={onSelect} />)
-    fireEvent.click(screen.getByText('Todos'))
-    // Show all services is expected
+    render(
+      <ServiceSelector
+        services={mockServices}
+        categories={['Cortes', 'Barba']}
+        onSelect={onSelect}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: 'Barba' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Todos' }))
+    expect(screen.getByText('Corte de Pelo')).toBeInTheDocument()
+    expect(screen.getByText('Arreglo de Barba')).toBeInTheDocument()
   })
 
   it('should call onSelect when service clicked', () => {

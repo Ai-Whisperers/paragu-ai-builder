@@ -1,0 +1,34 @@
+{
+  "id": "technology-digital",
+  "name": "Technology & Digital",
+  "nameEs": "Tecnologia y Digital",
+  "description": "MSP, web agencies, SaaS, cybersecurity, data, AI/ML, IoT, AV integrators. B2B focus.",
+  "baseType": "technology_base",
+  "features": {
+    "i18n": true,
+    "caseStudies": true,
+    "leadForm": true,
+    "whatsappFloat": true,
+    "techStack": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "features",
+    "case-studies",
+    "process",
+    "team",
+    "testimonials",
+    "faq",
+    "lead-form",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es",
+    "en"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "inversiones",
+  "title": "Investment Advisory Business Input Schema",
+  "description": "Additional fields for financial advisors, wealth management, and investment firms",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "minTicket": { "type": "string", "description": "Minimum investment amount (human string)" }
+        }
+      }
+    },
+    "targetClients": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["personas", "empresas", "institucional", "fondos"] }
+    },
+    "assetClasses": {
+      "type": "array",
+      "description": "Asset classes covered (acciones, bonos, cripto, real-estate, private-equity, etc.)",
+      "items": { "type": "string" }
+    },
+    "regulatoryLicense": {
+      "type": "object",
+      "properties": {
+        "regulator": { "type": "string" },
+        "licenseNumber": { "type": "string" }
+      }
+    },
+    "performanceDisclaimer": { "type": "string" }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "contact.email", "services", "targetClients"],
+    "priority2": ["assetClasses", "team", "regulatoryLicense", "branding.logoUrl"],
+    "priority3": ["seo.googleBusinessProfileUrl", "faq", "performanceDisclaimer", "testimonials"]
+  }
+}

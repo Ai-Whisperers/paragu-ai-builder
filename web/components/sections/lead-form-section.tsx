@@ -226,10 +226,11 @@ export function LeadFormSection({
                 variant="primary"
                 size="lg"
                 type="submit"
-                disabled={status === 'sending'}
+                isLoading={status === 'sending'}
+                loadingText="Enviando…"
                 className="w-full sm:w-auto"
               >
-                {status === 'sending' ? '…' : submitLabel}
+                {submitLabel}
               </Button>
             </div>
 

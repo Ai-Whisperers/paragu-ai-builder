@@ -1,17 +1,26 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import {
   Scissors, Dumbbell, Flower2, Hand, PenTool, User, Sparkles,
   Palette, Zap, Eye, Star, Globe, Smartphone, Search, MessageCircle,
-  ArrowRight, ChevronRight, BarChart3, Layers, Wand2, ExternalLink,
-  MapPin, Users, TrendingUp, ShoppingCart, Check, X, HelpCircle, Mail,
+  ArrowRight, BarChart3, Layers, Wand2,
+  MapPin, Users, TrendingUp, ShoppingCart, Check, X,
   Quote, Menu, X as XIcon, ChevronDown, ArrowUp, PlayCircle,
-  UtensilsCrossed, Fish, CircleDot
+  UtensilsCrossed, Fish, CircleDot, Mail
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { useInView, useScrollProgress, useActiveSection, useCountUp } from '@/lib/hooks'
+import { FadeIn } from '@/components/landing/fade-in'
+import { FAQItem } from '@/components/landing/faq-item'
+import { TestimonialCarousel } from '@/components/landing/testimonial-carousel'
+import {
+  FloatingShape,
+  ScrollProgress,
+  FloatingWhatsApp,
+  BackToTop,
+} from '@/components/landing/chrome'
 
 /* ── Data Constants ─────────────────────────────────────────────── */
 
@@ -40,8 +49,6 @@ const TEMPLATES = [
   { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669', demoSlug: null },
   { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706', demoSlug: null },
 ] as const
-
-const TOTAL_LEADS = 7463
 
 const FEATURES = [
   { icon: Wand2, title: 'Generación con IA', desc: 'Contenido, diseño y SEO generados automáticamente para cada tipo de negocio.' },
@@ -114,32 +121,6 @@ const FAQS = [
 const SECTIONS = ['plantillas', 'proyectos', 'como-funciona', 'funcionalidades', 'precios', 'faq']
 
 /* ── Animation Components ───────────────────────────────────────── */
-
-function FadeIn({ children, delay = 0, className = '' }: { children: React.ReactNode; delay?: number; className?: string }) {
-  const { ref, isInView } = useInView({ threshold: 0.1 })
-  return (
-    <div
-      ref={ref}
-      className={`transition-all duration-700 ease-out ${className}`}
-      style={{
-        opacity: isInView ? 1 : 0,
-        transform: isInView ? 'translateY(0)' : 'translateY(30px)',
-        transitionDelay: `${delay}ms`,
-      }}
-    >
-      {children}
-    </div>
-  )
-}
-
-function FloatingShape({ className, style, delay = 0 }: { className?: string; style?: React.CSSProperties; delay?: number }) {
-  return (
-    <div
-      className={`absolute rounded-full blur-3xl opacity-30 animate-pulse ${className}`}
-      style={{ animationDuration: '4s', animationDelay: `${delay}s`, ...style }}
-    />
-  )
-}
 
 /* ── Navigation Component ───────────────────────────────────────── */
 
@@ -263,62 +244,11 @@ function Navigation() {
   )
 }
 
-/* ── Scroll Progress Bar ────────────────────────────────────────── */
-
-function ScrollProgress() {
-  const progress = useScrollProgress()
-  return (
-    <div className="fixed left-0 top-0 z-[51] h-0.5 w-full bg-transparent">
-      <div
-        className="h-full bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] transition-all duration-100"
-        style={{ width: `${progress}%` }}
-      />
-    </div>
-  )
-}
-
-/* ── Floating WhatsApp Button ───────────────────────────────────── */
-
-function FloatingWhatsApp() {
-  return (
-    <a
-      href="https://wa.me/595981234567?text=Hola,%20me%20interesa%20saber%20más%20sobre%20ParaguAI"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-110 hover:shadow-xl"
-      style={{ animation: 'pulse 2s infinite' }}
-    >
-      <MessageCircle size={28} fill="currentColor" />
-    </a>
-  )
-}
-
-/* ── Back to Top Button ─────────────────────────────────────────── */
-
-function BackToTop() {
-  const [visible, setVisible] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => setVisible(window.scrollY > 500)
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
-
-  if (!visible) return null
-
-  return (
-    <button
-      onClick={scrollToTop}
-      className="fixed bottom-24 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] shadow-md transition-all hover:bg-[var(--surface-light)]"
-    >
-      <ArrowUp size={20} />
-    </button>
-  )
-}
-
-/* ── Main Page Component ────────────────────────────────────────── */
+/* ── Main Page Component ──────────────────────────────────────────
+ * FloatingShape, ScrollProgress, FloatingWhatsApp, BackToTop live under
+ * components/landing/chrome.tsx. FadeIn, FAQItem, TestimonialCarousel
+ * live under components/landing/{fade-in,faq-item,testimonial-carousel}.
+ * Edit those files to change behaviour; this page just composes them.   */
 
 export default function HomePage() {
   const heroCount1 = useCountUp(7463, 2000, true)
@@ -605,7 +535,7 @@ export default function HomePage() {
               </div>
             </FadeIn>
 
-            <TestimonialCarousel />
+            <TestimonialCarousel testimonials={TESTIMONIALS} />
           </Container>
         </section>
 
@@ -666,7 +596,7 @@ export default function HomePage() {
                       ))}
                     </ul>
 
-                    <a
+                    <Link
                       href="/admin"
                       className={`block w-full rounded-2xl py-4 text-center text-lg font-bold transition-all ${
                         plan.popular
@@ -675,7 +605,7 @@ export default function HomePage() {
                       }`}
                     >
                       {plan.cta}
-                    </a>
+                    </Link>
                   </div>
                 </FadeIn>
               ))}
@@ -837,87 +767,7 @@ export default function HomePage() {
   )
 }
 
-/* ── Sub-components ────────────────────────────────────────────── */
-
-function FAQItem({ question, answer }: { question: string; answer: string }) {
-  const [isOpen, setIsOpen] = useState(false)
-
-  return (
-    <div className={`rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all ${isOpen ? 'bg-[var(--surface-light)]' : ''}`}>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between gap-4 p-6 text-left"
-      >
-        <span className="font-bold text-[var(--text)]">{question}</span>
-        <div className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--primary)]/10 text-[var(--primary)] transition-transform ${isOpen ? 'rotate-180' : ''}`}>
-          <ChevronDown size={20} />
-        </div>
-      </button>
-      <div
-        className="overflow-hidden transition-all duration-300"
-        style={{ maxHeight: isOpen ? '200px' : '0', opacity: isOpen ? 1 : 0 }}
-      >
-        <p className="px-6 pb-6 text-[var(--text-muted)]">{answer}</p>
-      </div>
-    </div>
-  )
-}
-
-function TestimonialCarousel() {
-  const [current, setCurrent] = useState(0)
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrent((c) => (c + 1) % TESTIMONIALS.length)
-    }, 5000)
-    return () => clearInterval(timer)
-  }, [])
-
-  return (
-    <div className="relative mx-auto max-w-3xl">
-      <div className="overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8 md:p-12">
-        {TESTIMONIALS.map((t, i) => (
-          <div
-            key={i}
-            className="transition-all duration-500"
-            style={{
-              display: i === current ? 'block' : 'none',
-              opacity: i === current ? 1 : 0,
-              transform: i === current ? 'translateX(0)' : 'translateX(20px)',
-            }}
-          >
-            <Quote size={48} className="mb-6 text-[var(--primary)]/20" />
-            <p className="mb-8 text-2xl font-medium italic text-[var(--text)] md:text-3xl">
-              &ldquo;{t.quote}&rdquo;
-            </p>
-            <div className="flex items-center gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[var(--primary)] to-[var(--accent)] text-lg font-bold text-[var(--primary-foreground)]">
-                {t.name[0]}
-              </div>
-              <div>
-                <p className="font-bold text-[var(--text)]">{t.name}</p>
-                <p className="text-sm text-[var(--text-muted)]">{t.business} • {t.location}</p>
-              </div>
-              <div className="ml-auto flex gap-1">
-                {[...Array(5)].map((_, j) => (
-                  <Star key={j} size={16} className={j < t.rating ? 'fill-amber-400 text-amber-400' : 'text-[var(--border)]'} />
-                ))}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Dots */}
-      <div className="mt-6 flex justify-center gap-2">
-        {TESTIMONIALS.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrent(i)}
-            className={`h-2 rounded-full transition-all ${i === current ? 'w-8 bg-[var(--primary)]' : 'w-2 bg-[var(--border)]'}`}
-          />
-        ))}
-      </div>
-    </div>
-  )
-}
+/* ── Sub-components ──────────────────────────────────────────────
+ * FadeIn, FAQItem, and TestimonialCarousel now live under
+ * `components/landing/` — see those files to edit the reveal / FAQ /
+ * carousel behaviour.                                                  */

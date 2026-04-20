@@ -47,6 +47,7 @@ interface BaseTokens {
     lineHeight: Record<string, { value: string }>
   }
   animation: { duration: Record<string, { value: string }> }
+  semanticColors?: Record<string, { value: string }>
 }
 
 function readJson<T>(relPath: string): T {
@@ -158,6 +159,21 @@ export function resolveSiteTokens(
   vars['--transition-fast'] = base.animation.duration.fast.value
   vars['--transition-normal'] = base.animation.duration.default.value
   vars['--transition-slow'] = base.animation.duration.slow.value
+
+  // Semantic colors — success/error/warning/info + matching surfaces. The
+  // palette can already override --success/--error/--warning above; here we
+  // also emit --color-* variants so components have one canonical name to
+  // reach for (--color-success, --color-error-surface, etc.).
+  if (base.semanticColors) {
+    for (const [key, token] of Object.entries(base.semanticColors)) {
+      const cssKey = key.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`)
+      vars[`--color-${cssKey}`] = token.value
+    }
+  }
+  // Backwards-compat: map the palette overrides onto the new names too.
+  if (colors.success && !vars['--color-success']) vars['--color-success'] = colors.success
+  if (colors.error && !vars['--color-error']) vars['--color-error'] = colors.error
+  if (colors.warning && !vars['--color-warning']) vars['--color-warning'] = colors.warning
 
   const googleFontsUrl = merged.googleFonts && merged.googleFonts.length > 0
     ? `https://fonts.googleapis.com/css2?${merged.googleFonts.map((f) => `family=${f}`).join('&')}&display=swap`

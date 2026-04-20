@@ -1,0 +1,25 @@
+{
+  "id": "public_warehouse",
+  "nameEs": "Deposito Publico",
+  "nameEn": "Public Warehouse",
+  "verticalId": "logistics-transport",
+  "subVertical": "warehousing",
+  "extends": "logistics_base",
+  "tokens": "public_warehouse",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Deposito Publico en {{city}}",
+    "descriptionTemplate": "Deposito Publico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "deposito publico {{city}}",
+      "public warehouse {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Deposito Publico",
+    "subheadlineTemplate": "Deposito Publico profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

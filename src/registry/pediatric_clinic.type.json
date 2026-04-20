@@ -1,0 +1,22 @@
+{
+  "id": "pediatric_clinic",
+  "nameEs": "Pediatria",
+  "nameEn": "Pediatric Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "primary-care",
+  "extends": "health_wellness_base",
+  "tokens": "pediatric_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Pediatria en {{city}}",
+    "descriptionTemplate": "Pediatria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pediatria {{city}}",
+      "pediatric clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pediatria",
+    "subheadlineTemplate": "Pediatria profesional en {{city}}."
+  }
+}

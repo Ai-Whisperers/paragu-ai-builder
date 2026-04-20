@@ -1,7 +1,33 @@
 {
   "name": "Paragu AI Builder - Business Type Registry",
-  "version": "1.1.0",
-  "description": "Master registry of all supported business types for website generation",
+  "version": "3.0.0",
+  "description": "Master registry of all supported business types for website generation. v3 scales to 1900+ types across 23 verticals based on NAICS + Schema.org + Google Business Profile taxonomies. Types declare `verticalId` linking to `src/verticals/<id>/`. See docs/GLOBAL_BUSINESS_TAXONOMY.md.",
+
+  "verticalsCatalog": {
+    "beauty-personal-care":      { "nameEs": "Cuidado Personal y Belleza",     "i18n": false },
+    "health-wellness":           { "nameEs": "Salud y Bienestar",              "i18n": "partial",  "regulation": "high" },
+    "food-beverage":             { "nameEs": "Gastronomia",                    "i18n": "partial" },
+    "hospitality-tourism":       { "nameEs": "Hospitalidad y Turismo",         "i18n": true,       "folderAlias": "hospitality" },
+    "service-booking":           { "nameEs": "Servicios con Reserva",          "i18n": false },
+    "portfolio-professional":    { "nameEs": "Creativos y Profesionales",      "i18n": "optional" },
+    "trades-home-services":      { "nameEs": "Oficios y Servicios para el Hogar", "i18n": false },
+    "automotive":                { "nameEs": "Automotriz",                     "i18n": false },
+    "retail-local":              { "nameEs": "Comercio Local",                 "i18n": false },
+    "education-training":        { "nameEs": "Educacion y Formacion",          "i18n": "partial" },
+    "b2b-professional":          { "nameEs": "Profesionales B2B",              "i18n": "optional" },
+    "real-estate-relocation":    { "nameEs": "Inmobiliaria y Relocacion",      "i18n": true,       "folderAlias": "relocacion", "regulation": "high" },
+    "trades-industrial":         { "nameEs": "Industria y Manufactura",        "i18n": false,      "b2b": true },
+    "agriculture-agribusiness":  { "nameEs": "Agricultura y Agronegocios",     "i18n": false },
+    "logistics-transport":       { "nameEs": "Logistica y Transporte",         "i18n": true,       "b2b": true,   "regulation": "high" },
+    "finance-insurance":         { "nameEs": "Finanzas y Seguros",             "i18n": true,       "regulation": "very-high" },
+    "technology-digital":        { "nameEs": "Tecnologia y Digital",           "i18n": true,       "b2b": true },
+    "arts-entertainment-venues": { "nameEs": "Artes y Entretenimiento",        "i18n": false },
+    "sports-recreation":         { "nameEs": "Deportes y Recreacion",          "i18n": false },
+    "pets-animals":              { "nameEs": "Mascotas y Animales",            "i18n": false },
+    "media-publishing":          { "nameEs": "Medios y Publicacion",           "i18n": false },
+    "membership-community":      { "nameEs": "Membresias y Comunidad",         "i18n": false,      "culturallyVariant": true },
+    "death-care":                { "nameEs": "Servicios Funerarios",           "i18n": false,      "culturallyVariant": true, "regulation": "high" }
+  },
 
   "types": {
     "peluqueria": {

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legal",
+  "title": "Legal Services Business Input Schema",
+  "description": "Additional fields for law firms and solo practitioners",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "practiceAreas": {
+      "type": "array",
+      "description": "Areas of law handled (civil, penal, laboral, tributario, mercantil, inmobiliario, familia, migratorio)",
+      "items": { "type": "string" }
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "feeStructure": {
+            "type": "string",
+            "enum": ["por-consulta", "por-hora", "por-caso", "igualas-mensuales", "exito-contingencia"]
+          },
+          "priceFrom": { "type": "string" }
+        }
+      }
+    },
+    "barRegistration": {
+      "type": "object",
+      "properties": {
+        "bar": { "type": "string" },
+        "registrationNumber": { "type": "string" }
+      }
+    },
+    "spokenLanguages": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["es", "en", "pt", "de", "fr"] }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "contact.email", "practiceAreas", "services"],
+    "priority2": ["team", "barRegistration", "spokenLanguages", "branding.logoUrl"],
+    "priority3": ["seo.googleBusinessProfileUrl", "faq", "testimonials"]
+  }
+}

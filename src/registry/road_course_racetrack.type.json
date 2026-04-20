@@ -1,0 +1,22 @@
+{
+  "id": "road_course_racetrack",
+  "nameEs": "Circuito",
+  "nameEn": "Road Course",
+  "verticalId": "sports-recreation",
+  "subVertical": "motorsports",
+  "extends": "sports_base",
+  "tokens": "road_course_racetrack",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Circuito en {{city}}",
+    "descriptionTemplate": "Circuito profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "circuito {{city}}",
+      "road course {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Circuito",
+    "subheadlineTemplate": "Circuito profesional en {{city}}."
+  }
+}

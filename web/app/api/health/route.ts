@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { createRequestLogger } from '@/lib/logger'
+import { withRequestLog } from '@/lib/api/with-request-log'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -62,12 +62,38 @@ function checkEnv(): Check {
   }
 }
 
-export async function GET(request: Request) {
-  const log = createRequestLogger(request)
+/**
+ * Observability-readiness check — reports whether the app is configured for
+ * durable error tracking + log shipping, without requiring them. Always
+ * returns `ok: true` (degraded observability isn't a service outage), but
+ * `detail` exposes which optional sinks are wired up.
+ */
+function checkObservability(): Check {
+  const start = performance.now()
+  const sentryConfigured = Boolean(process.env.NEXT_PUBLIC_SENTRY_DSN)
+  const metricsBinding = Boolean((globalThis as { METRICS?: unknown }).METRICS)
+  const logFormat = process.env.LOG_FORMAT || (process.env.NODE_ENV === 'production' ? 'json' : 'pretty')
+  const logLevel = process.env.LOG_LEVEL || (process.env.NODE_ENV === 'production' ? 'info' : 'debug')
+
+  const detail = [
+    `sentry=${sentryConfigured ? 'on' : 'off'}`,
+    `metrics=${metricsBinding ? 'on' : 'off'}`,
+    `logs=${logFormat}:${logLevel}`,
+  ].join(' ')
+
+  return {
+    name: 'observability',
+    ok: true,
+    durationMs: Math.round(performance.now() - start),
+    detail,
+  }
+}
+
+export const GET = withRequestLog(async (request, { log, requestId }) => {
   const url = new URL(request.url)
   const deep = url.searchParams.get('deep') === '1'
 
-  const checks: Check[] = [checkEnv()]
+  const checks: Check[] = [checkEnv(), checkObservability()]
   if (deep) {
     checks.push(await checkSupabase())
   }
@@ -81,7 +107,7 @@ export async function GET(request: Request) {
     commit: process.env.NEXT_PUBLIC_COMMIT_SHA || 'unknown',
     env: process.env.NODE_ENV || 'unknown',
     checks,
-    requestId: log.requestId,
+    requestId,
   }
 
   if (!allOk) {
@@ -92,6 +118,6 @@ export async function GET(request: Request) {
 
   return NextResponse.json(body, {
     status: allOk ? 200 : 503,
-    headers: { 'x-request-id': log.requestId, 'cache-control': 'no-store' },
+    headers: { 'cache-control': 'no-store' },
   })
-}
+})

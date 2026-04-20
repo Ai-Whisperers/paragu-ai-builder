@@ -272,10 +272,10 @@ describe('renderer.tsx - renderSection', () => {
   })
 
   it('should log warning for unknown section type', () => {
-    // logger.warn calls console.log under the hood (see lib/logger.ts). We
-    // assert the warning is surfaced to stdout with the section type in the
-    // structured context, without coupling to exact formatter output.
-    const consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {})
+    // logger.warn writes to console.warn (see lib/logger.ts). We assert the
+    // warning is surfaced with the section type in the structured context,
+    // without coupling to exact formatter output.
+    const consoleSpy = vi.spyOn(console, 'warn').mockImplementation(() => {})
     const section: ComposedSection = {
       type: 'unknown' as never,
       order: 0,

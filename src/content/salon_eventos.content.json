@@ -1,0 +1,43 @@
+{
+  "id": "salon_eventos",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Tu evento inolvidable",
+    "subheadline": "Salones y quintas en {{city}} para bodas, quinceaneras, cumpleanos y eventos corporativos.",
+    "ctaPrimary": "Cotizar Evento",
+    "ctaSecondary": "Ver Salones"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} hacemos realidad la fiesta que imaginaste. Espacios ampliamente equipados, equipo profesional y atencion personalizada para cada evento."
+  },
+  "venues": {
+    "title": "Nuestros Espacios",
+    "items": [
+      { "name": "Salon Principal", "capacity": "200 personas", "description": "Ideal para bodas, quinceaneras y eventos grandes. Aire acondicionado, escenario y pista de baile." },
+      { "name": "Salon Jardin", "capacity": "120 personas", "description": "Evento al aire libre con parque verde, gazebo y piscina." },
+      { "name": "Salon Intimate", "capacity": "60 personas", "description": "Para cumpleanos, bautismos y reuniones corporativas. Clima controlado." }
+    ]
+  },
+  "packages": {
+    "title": "Paquetes",
+    "items": [
+      { "name": "Paquete Bronce", "from": "Desde Gs. 8.500.000", "features": ["Salon por 6 horas", "Iluminacion basica", "Servicio de mesa", "Limpieza final"] },
+      { "name": "Paquete Plata", "from": "Desde Gs. 14.000.000", "features": ["Salon por 8 horas", "Catering con mozo", "DJ y sonido", "Ambientacion tematica"], "popular": true },
+      { "name": "Paquete Oro", "from": "Consultar", "features": ["Salon exclusivo", "Catering premium", "Show y animacion", "Fotografia y video incluidos"] }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Mi boda fue perfecta, todo organizado al detalle.", "author": "Andrea y Marcos", "rating": 5 },
+    { "quote": "Hicieron la quinceanera de mi hija inolvidable.", "author": "Familia Benitez", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Con cuanta anticipacion hay que reservar?", "a": "Para bodas y quinceaneras recomendamos reservar con 6-12 meses. Otros eventos con 1-3 meses." },
+    { "q": "Incluyen catering?", "a": "Tenemos paquetes con catering incluido o permitimos traer el tuyo con consulta previa." },
+    { "q": "Tienen estacionamiento?", "a": "Si, estacionamiento propio para 60 autos mas estacionamiento en via publica." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Tu evento inolvidable en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

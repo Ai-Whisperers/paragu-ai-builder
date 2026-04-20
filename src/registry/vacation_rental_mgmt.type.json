@@ -1,0 +1,22 @@
+{
+  "id": "vacation_rental_mgmt",
+  "nameEs": "Administracion Alquiler Temporal",
+  "nameEn": "STR Management",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "property-management",
+  "extends": "inmobiliaria",
+  "tokens": "vacation_rental_mgmt",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Administracion Alquiler Temporal en {{city}}",
+    "descriptionTemplate": "Administracion Alquiler Temporal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "administracion alquiler temporal {{city}}",
+      "str management {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Administracion Alquiler Temporal",
+    "subheadlineTemplate": "Administracion Alquiler Temporal profesional en {{city}}."
+  }
+}

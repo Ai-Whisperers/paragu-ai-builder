@@ -60,6 +60,8 @@ export function RoomBookingSection({
                     src={room.imageUrl}
                     alt={room.name}
                     className="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               ) : (
@@ -72,7 +74,7 @@ export function RoomBookingSection({
 
               <div className="p-5">
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="text-lg font-semibold text-[var(--text)]">{room.name}</h3>
+                  <Heading level={3} className="text-lg font-semibold text-[var(--text)]">{room.name}</Heading>
                   <span className="text-sm text-[var(--text-muted)]">
                     {room.capacity} personas
                   </span>

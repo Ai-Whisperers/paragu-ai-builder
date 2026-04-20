@@ -1,0 +1,22 @@
+{
+  "id": "kaiten_sushi",
+  "nameEs": "Sushi Giratorio",
+  "nameEn": "Conveyor Sushi",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "kaiten_sushi",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Sushi Giratorio en {{city}}",
+    "descriptionTemplate": "Sushi Giratorio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sushi giratorio {{city}}",
+      "conveyor sushi {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sushi Giratorio",
+    "subheadlineTemplate": "Sushi Giratorio profesional en {{city}}."
+  }
+}

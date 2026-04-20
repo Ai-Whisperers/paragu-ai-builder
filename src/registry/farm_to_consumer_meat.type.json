@@ -1,0 +1,22 @@
+{
+  "id": "farm_to_consumer_meat",
+  "nameEs": "Carne Directa Granja",
+  "nameEn": "Farm Meat Direct",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "csa-direct",
+  "extends": "agriculture_base",
+  "tokens": "farm_to_consumer_meat",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Carne Directa Granja en {{city}}",
+    "descriptionTemplate": "Carne Directa Granja profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "carne directa granja {{city}}",
+      "farm meat direct {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Carne Directa Granja",
+    "subheadlineTemplate": "Carne Directa Granja profesional en {{city}}."
+  }
+}

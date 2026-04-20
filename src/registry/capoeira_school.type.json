@@ -1,0 +1,22 @@
+{
+  "id": "capoeira_school",
+  "nameEs": "Escuela Capoeira",
+  "nameEn": "Capoeira School",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "capoeira_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Capoeira en {{city}}",
+    "descriptionTemplate": "Escuela Capoeira profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela capoeira {{city}}",
+      "capoeira school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Capoeira",
+    "subheadlineTemplate": "Escuela Capoeira profesional en {{city}}."
+  }
+}

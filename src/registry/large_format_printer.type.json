@@ -1,0 +1,22 @@
+{
+  "id": "large_format_printer",
+  "nameEs": "Gran Formato",
+  "nameEn": "Large Format",
+  "verticalId": "trades-industrial",
+  "subVertical": "printing-signage",
+  "extends": "industrial_base",
+  "tokens": "large_format_printer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Gran Formato en {{city}}",
+    "descriptionTemplate": "Gran Formato profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gran formato {{city}}",
+      "large format {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gran Formato",
+    "subheadlineTemplate": "Gran Formato profesional en {{city}}."
+  }
+}

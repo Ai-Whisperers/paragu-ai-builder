@@ -1,0 +1,22 @@
+{
+  "id": "bar_exam_prep",
+  "nameEs": "Preparacion Barra",
+  "nameEn": "Bar Exam Prep",
+  "verticalId": "education-training",
+  "subVertical": "test-prep",
+  "extends": "educacion",
+  "tokens": "bar_exam_prep",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Preparacion Barra en {{city}}",
+    "descriptionTemplate": "Preparacion Barra profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "preparacion barra {{city}}",
+      "bar exam prep {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Preparacion Barra",
+    "subheadlineTemplate": "Preparacion Barra profesional en {{city}}."
+  }
+}

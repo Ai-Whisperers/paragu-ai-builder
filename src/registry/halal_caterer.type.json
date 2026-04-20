@@ -1,0 +1,25 @@
+{
+  "id": "halal_caterer",
+  "nameEs": "Catering Halal",
+  "nameEn": "Halal Catering",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "halal_caterer",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Catering Halal en {{city}}",
+    "descriptionTemplate": "Catering Halal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "catering halal {{city}}",
+      "halal catering {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Catering Halal",
+    "subheadlineTemplate": "Catering Halal profesional en {{city}}."
+  },
+  "flags": [
+    "cultural"
+  ]
+}

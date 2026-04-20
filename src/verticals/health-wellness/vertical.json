@@ -1,0 +1,22 @@
+{
+  "id": "health-wellness",
+  "name": "Health & Wellness",
+  "nameEs": "Salud y Bienestar",
+  "description": "Medical/dental clinics, specialty practitioners, vets, labs, rehab. Insurance-aware, appointment-driven, credentials-forward.",
+  "baseType": "health_wellness_base",
+  "features": {
+    "i18n": "partial",
+    "appointmentRequest": true,
+    "insuranceList": true,
+    "credentials": true,
+    "whatsappFloat": true,
+    "emergencyIndicator": true
+  },
+  "allowedSections": [
+    "header", "hero", "service-menu", "team", "faq", "testimonials",
+    "insurance-list", "contact", "business-hours", "google-maps",
+    "emergency-indicator", "cta-banner", "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es", "en"]
+}

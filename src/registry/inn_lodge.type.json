@@ -1,0 +1,22 @@
+{
+  "id": "inn_lodge",
+  "nameEs": "Posada",
+  "nameEn": "Inn Lodge",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "hotel-resort",
+  "extends": "restaurant",
+  "tokens": "inn_lodge",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Posada en {{city}}",
+    "descriptionTemplate": "Posada profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "posada {{city}}",
+      "inn lodge {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Posada",
+    "subheadlineTemplate": "Posada profesional en {{city}}."
+  }
+}

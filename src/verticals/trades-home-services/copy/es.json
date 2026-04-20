@@ -1,0 +1,14 @@
+{
+  "common": {
+    "cta": { "quote": "Solicitar Presupuesto", "whatsapp": "Chatear por WhatsApp", "emergency": "Llamar Emergencia 24h" },
+    "labels": { "services": "Servicios", "area": "Zona de Cobertura", "process": "Como Trabajamos" }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}}",
+      "subheadline": "Servicios confiables en {{city}}. Presupuesto sin compromiso.",
+      "ctaPrimaryText": "Solicitar Presupuesto",
+      "ctaSecondaryText": "Ver Servicios"
+    }
+  }
+}

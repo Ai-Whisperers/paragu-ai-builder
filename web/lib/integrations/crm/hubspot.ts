@@ -1,4 +1,5 @@
 import type { CrmAdapter } from './types'
+import { integrationFetch } from '@/lib/integrations/http'
 
 export const hubspotAdapter: CrmAdapter = {
   name: 'hubspot',
@@ -24,19 +25,12 @@ export const hubspotAdapter: CrmAdapter = {
         pageName: `${lead.siteSlug} — lead form`,
       },
     }
-    try {
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
-      })
-      if (!res.ok) {
-        const text = await res.text()
-        return { ok: false, error: `hubspot ${res.status}: ${text.slice(0, 200)}` }
-      }
-      return { ok: true }
-    } catch (err) {
-      return { ok: false, error: err instanceof Error ? err.message : 'hubspot error' }
-    }
+    const res = await integrationFetch(url, {
+      adapter: 'hubspot',
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    })
+    return res.ok ? { ok: true } : { ok: false, error: res.error }
   },
 }

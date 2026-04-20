@@ -1,0 +1,25 @@
+{
+  "id": "shipyard_repair",
+  "nameEs": "Astillero",
+  "nameEn": "Shipyard",
+  "verticalId": "logistics-transport",
+  "subVertical": "marine-port",
+  "extends": "logistics_base",
+  "tokens": "shipyard_repair",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Astillero en {{city}}",
+    "descriptionTemplate": "Astillero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "astillero {{city}}",
+      "shipyard {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Astillero",
+    "subheadlineTemplate": "Astillero profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

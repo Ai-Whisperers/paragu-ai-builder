@@ -1,0 +1,14 @@
+{
+  "common": {
+    "cta": { "quote": "Cotizar Servicio", "whatsapp": "WhatsApp", "emergency": "Auxilio 24h" },
+    "labels": { "services": "Servicios", "hours": "Horarios", "contact": "Contacto" }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}}",
+      "subheadline": "Tu auto en manos expertas en {{city}}.",
+      "ctaPrimaryText": "Cotizar",
+      "ctaSecondaryText": "Ver Servicios"
+    }
+  }
+}

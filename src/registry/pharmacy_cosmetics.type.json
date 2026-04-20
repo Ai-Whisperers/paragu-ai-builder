@@ -1,0 +1,22 @@
+{
+  "id": "pharmacy_cosmetics",
+  "nameEs": "Dermofarmacia",
+  "nameEn": "Pharmacy Cosmetics",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "beauty-retail",
+  "extends": "beauty_base",
+  "tokens": "pharmacy_cosmetics",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Dermofarmacia en {{city}}",
+    "descriptionTemplate": "Dermofarmacia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "dermofarmacia {{city}}",
+      "pharmacy cosmetics {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Dermofarmacia",
+    "subheadlineTemplate": "Dermofarmacia profesional en {{city}}."
+  }
+}

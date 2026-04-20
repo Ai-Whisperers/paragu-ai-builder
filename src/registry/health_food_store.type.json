@@ -1,0 +1,22 @@
+{
+  "id": "health_food_store",
+  "nameEs": "Dietetica",
+  "nameEn": "Health Food Store",
+  "verticalId": "retail-local",
+  "subVertical": "grocery-market",
+  "extends": "retail_base",
+  "tokens": "health_food_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Dietetica en {{city}}",
+    "descriptionTemplate": "Dietetica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "dietetica {{city}}",
+      "health food store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Dietetica",
+    "subheadlineTemplate": "Dietetica profesional en {{city}}."
+  }
+}

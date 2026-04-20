@@ -1,0 +1,28 @@
+{
+  "name": "Event venue elegant",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Champagne & Burgundy",
+      "colors": {
+        "primary": "#7C2D12",
+        "secondary": "#B45309",
+        "accent": "#FBBF24",
+        "background": "#FFFBF5",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FEF3C7",
+        "text": "#1C1917",
+        "textLight": "#44403C",
+        "textMuted": "#78716C"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Cormorant Garamond', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "500",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Cormorant+Garamond:wght@500;600;700", "Inter:wght@400;500;600"]
+}

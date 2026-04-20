@@ -1,0 +1,22 @@
+{
+  "id": "craft_beer_taproom",
+  "nameEs": "Taproom",
+  "nameEn": "Craft Beer Taproom",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "craft_beer_taproom",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Taproom en {{city}}",
+    "descriptionTemplate": "Taproom profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taproom {{city}}",
+      "craft beer taproom {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taproom",
+    "subheadlineTemplate": "Taproom profesional en {{city}}."
+  }
+}

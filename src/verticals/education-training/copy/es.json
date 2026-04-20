@@ -1,0 +1,14 @@
+{
+  "common": {
+    "cta": { "enroll": "Inscribirse", "whatsapp": "Info por WhatsApp", "download": "Descargar Malla" },
+    "labels": { "programs": "Programas", "schedule": "Horarios", "team": "Docentes" }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}}",
+      "subheadline": "Formacion de calidad en {{city}}.",
+      "ctaPrimaryText": "Inscribirse",
+      "ctaSecondaryText": "Ver Programas"
+    }
+  }
+}

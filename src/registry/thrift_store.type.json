@@ -1,0 +1,22 @@
+{
+  "id": "thrift_store",
+  "nameEs": "Tienda de Segunda",
+  "nameEn": "Thrift Store",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "thrift_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda de Segunda en {{city}}",
+    "descriptionTemplate": "Tienda de Segunda profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda de segunda {{city}}",
+      "thrift store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda de Segunda",
+    "subheadlineTemplate": "Tienda de Segunda profesional en {{city}}."
+  }
+}

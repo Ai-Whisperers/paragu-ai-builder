@@ -1,0 +1,28 @@
+{
+  "name": "Trades trustworthy bold",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Steel & Safety Orange",
+      "colors": {
+        "primary": "#1E3A8A",
+        "secondary": "#EA580C",
+        "accent": "#FCD34D",
+        "background": "#F8FAFC",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#E2E8F0",
+        "text": "#0F172A",
+        "textLight": "#334155",
+        "textMuted": "#64748B"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Barlow Condensed', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Barlow+Condensed:wght@600;700;800", "Inter:wght@400;500;600"]
+}

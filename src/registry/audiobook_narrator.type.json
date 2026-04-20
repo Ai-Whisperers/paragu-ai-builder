@@ -1,0 +1,22 @@
+{
+  "id": "audiobook_narrator",
+  "nameEs": "Narrador Audiolibros",
+  "nameEn": "Audiobook Narrator",
+  "verticalId": "portfolio-professional",
+  "subVertical": "music-audio",
+  "extends": "diseno_grafico",
+  "tokens": "audiobook_narrator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Narrador Audiolibros en {{city}}",
+    "descriptionTemplate": "Narrador Audiolibros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "narrador audiolibros {{city}}",
+      "audiobook narrator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Narrador Audiolibros",
+    "subheadlineTemplate": "Narrador Audiolibros profesional en {{city}}."
+  }
+}

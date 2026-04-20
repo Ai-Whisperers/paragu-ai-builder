@@ -1,6 +1,7 @@
 'use client'
 
-import { useState } from 'react'
+import { Heading } from '@/components/ui/heading'
+
 import QuoteFormComponent from '@/components/location/quote-form'
 
 interface QuoteFormSectionProps {
@@ -29,9 +30,9 @@ export function QuoteFormSection({
     <section id="presupuesto" className="bg-[var(--surface)] py-16 sm:py-20">
       <div className="mx-auto max-w-2xl px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
             {title}
-          </h2>
+          </Heading>
           {subtitle && (
             <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
           )}

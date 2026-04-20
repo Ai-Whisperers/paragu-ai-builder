@@ -1,0 +1,22 @@
+{
+  "id": "retail-local",
+  "name": "Retail (Local)",
+  "nameEs": "Comercio Local",
+  "description": "Clothing, shoes, jewelry, bookstores, pet shops, hardware, mobile phones, butchers, liquor. WhatsApp-catalog primary flow.",
+  "baseType": "retail_base",
+  "features": {
+    "i18n": false,
+    "productCatalog": true,
+    "whatsappOrder": true,
+    "gallery": true,
+    "businessHours": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header", "hero", "product-catalog", "product-grid", "services",
+    "gallery", "testimonials", "faq", "business-hours", "google-maps",
+    "contact", "cta-banner", "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es"]
+}

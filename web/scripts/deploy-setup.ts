@@ -9,7 +9,7 @@
  */
 
 import { execSync } from 'child_process'
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
+import { writeFileSync, existsSync } from 'fs'
 import { resolve } from 'path'
 import readline from 'readline'
 
@@ -72,7 +72,7 @@ async function main() {
   log(2, 'Testing Supabase Connection')
   try {
     // Create a test SQL to verify connection
-    const testQuery = `SELECT count(*) FROM information_schema.tables WHERE table_schema = 'public';`
+    const _testQuery = `SELECT count(*) FROM information_schema.tables WHERE table_schema = 'public';`
     info('Testing connection...')
     
     // We can't actually test here without the client, but we'll verify format
@@ -84,8 +84,8 @@ async function main() {
     }
     
     success('Supabase credentials format looks valid')
-  } catch (e) {
-    error(`Connection check: ${e.message}`)
+  } catch (_e) {
+    error(`Connection check: ${_e.message}`)
   }
   
   // Step 3: Create .env.local

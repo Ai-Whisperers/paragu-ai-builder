@@ -1,0 +1,22 @@
+{
+  "id": "clown_entertainer",
+  "nameEs": "Payaso",
+  "nameEn": "Clown",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "clown_entertainer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Payaso en {{city}}",
+    "descriptionTemplate": "Payaso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "payaso {{city}}",
+      "clown {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Payaso",
+    "subheadlineTemplate": "Payaso profesional en {{city}}."
+  }
+}

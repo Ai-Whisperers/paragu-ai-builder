@@ -1,0 +1,22 @@
+{
+  "id": "golf_pro_shop",
+  "nameEs": "Pro Shop Golf",
+  "nameEn": "Golf Pro Shop",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "golf_pro_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Pro Shop Golf en {{city}}",
+    "descriptionTemplate": "Pro Shop Golf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pro shop golf {{city}}",
+      "golf pro shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pro Shop Golf",
+    "subheadlineTemplate": "Pro Shop Golf profesional en {{city}}."
+  }
+}

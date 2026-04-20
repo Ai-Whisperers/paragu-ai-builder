@@ -1,0 +1,31 @@
+{
+  "id": "death-care",
+  "name": "Death Care",
+  "nameEs": "Servicios Funerarios",
+  "description": "Funeral homes, cemeteries, cremation, pre-planning, monuments. High cultural sensitivity required.",
+  "baseType": "death_care_base",
+  "features": {
+    "i18n": false,
+    "consultationForm": true,
+    "whatsappFloat": true,
+    "plannerGuide": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "about",
+    "services",
+    "team",
+    "testimonials",
+    "faq",
+    "contact",
+    "business-hours",
+    "google-maps",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

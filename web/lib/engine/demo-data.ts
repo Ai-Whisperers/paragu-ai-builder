@@ -1,6 +1,17 @@
 /**
- * Demo business data for development and testing.
- * In production, this data comes from Supabase.
+ * DEPRECATED — Paraguay-era demo fixtures for development and testing.
+ *
+ * These hardcoded demo businesses (salon-maria, gymfit-py, sakura-sushi, etc.)
+ * predate the 1,900-type global catalog and assume Guaraní currency + Asuncion
+ * neighborhoods. They're still imported by `data-loader.ts` as the fallback
+ * when Supabase is unavailable, so we can't delete them yet.
+ *
+ * Migration path: replace with a synthetic factory
+ * (`new DemoBusinessFactory().build({ type, city })`) that generates test
+ * fixtures from the registry on demand. Until then, treat this file as a
+ * legacy fixtures layer — do not add new businesses here.
+ *
+ * In production, real business data comes from Supabase.
  */
 
 import type { BusinessData } from './compose'
@@ -434,6 +445,44 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     testimonials: [
       { quote: 'La mejor depilacion. Piel super suave por semanas.', author: 'Elena G.', rating: 5 },
       { quote: 'Personal muy profesional y locales immaculados.', author: 'Lorena P.', rating: 5 },
+    ],
+  },
+
+  'granja-cabral': {
+    name: 'Granja Cabral',
+    slug: 'granja-cabral',
+    type: 'egg_farm',
+    tagline: 'Huevos frescos de granja en Coronel Oviedo',
+    city: 'Coronel Oviedo',
+    address: 'Ruta 2, Km 125-140',
+    phone: '+595981000000',
+    whatsapp: '+595981000000',
+    email: 'info@granjacabral.com',
+    instagram: '@granjacabral',
+    hours: {
+      'Lunes - Sabado': '07:00 - 18:00',
+      'Domingo': 'Cerrado',
+    },
+    products: [
+      { name: 'Huevos por Unidad', price: '800 Gs', description: 'Huevos frescos recien recolectados', category: 'Huevos', available: true },
+      { name: 'Maple de 30 Huevos', price: '22.000 Gs', description: 'Caja de 30 unidades - ideal para familias', category: 'Huevos', available: true },
+      { name: 'Bandeja de 12 Huevos', price: '9.500 Gs', description: 'Docena fresca - perfecto para probar', category: 'Huevos', available: true },
+      { name: 'Pollo Entero', price: '35.000 Gs', description: 'Pollo limpio y listo para cocinar (aprox. 2-2.5kg) - Pedido 24hs antes', category: 'Pollo', available: true },
+      { name: 'Pollito Tierno', price: '22.000 Gs', description: 'Pollo joven, carne suave (aprox. 1-1.2kg) - Pedido 24hs antes', category: 'Pollo', available: true },
+      { name: 'Fertilizante Organico 10kg', price: '15.000 Gs', description: 'Gallinaza compostada, excelente para huertas', category: 'Fertilizante', available: true },
+    ],
+    services: [
+      { name: 'Delivery a Domicilio', price: 'Consultar', description: 'Llevamos tus huevos frescos hasta tu puerta en Coronel Oviedo y zonas cercanas de Ruta 2', category: 'Servicios' },
+      { name: 'Venta por Mayor', price: 'Desde 100 unidades', description: 'Precios especiales para restaurantes, hoteles, panaderias y supermercados', category: 'Mayorista' },
+      { name: 'Pedidos Programados', price: 'Consultar', description: 'Entrega semanal o quincenal para tu hogar o negocio', category: 'Servicios' },
+    ],
+    team: [
+      { name: 'Laura Cabral', role: 'Propietaria', bio: 'Apasionada por la produccion local y la calidad. Dirige Granja Cabral con dedicacion y compromiso con la comunidad.' },
+    ],
+    testimonials: [
+      { quote: 'Los huevos son fresquisimos, se nota la diferencia. El delivery es muy puntual.', author: 'Maria G. - Coronel Oviedo', rating: 5 },
+      { quote: 'Excelente calidad para mi panaderia. Mis clientes notan la diferencia en los productos horneados.', author: 'Don Jose - Panaderia San Jose', rating: 5 },
+      { quote: 'Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente.', author: 'Restaurante La Tradicion - Ruta 2', rating: 5 },
     ],
   },
 

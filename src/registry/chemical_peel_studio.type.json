@@ -1,0 +1,22 @@
+{
+  "id": "chemical_peel_studio",
+  "nameEs": "Peelings Quimicos",
+  "nameEn": "Chemical Peel Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "skin-aesthetic",
+  "extends": "beauty_base",
+  "tokens": "chemical_peel_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Peelings Quimicos en {{city}}",
+    "descriptionTemplate": "Peelings Quimicos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "peelings quimicos {{city}}",
+      "chemical peel studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Peelings Quimicos",
+    "subheadlineTemplate": "Peelings Quimicos profesional en {{city}}."
+  }
+}

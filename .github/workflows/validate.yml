@@ -22,6 +22,8 @@ jobs:
       - run: npm ci
       - name: Validate tenant sites (pages, sections, variants, locale parity)
         run: npm run validate:sites
+      - name: Validate content placeholders
+        run: npm run validate:content
       - name: Validate relocacion vertical (schema, copy, starter kits)
         run: npm run validate:vertical relocacion
       - name: Typecheck

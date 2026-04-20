@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-beauty-personal-care",
+  "title": "Beauty & Personal Care vertical content schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "type": "object",
+  "properties": {
+    "staffProfiles": { "type": "array", "items": { "$ref": "base-business#/$defs/teamMember" } },
+    "portfolio": { "type": "object" },
+    "bookingMethod": {
+      "type": "string",
+      "enum": ["fresha", "glossgenius", "square", "whatsapp_only", "walk_in"]
+    }
+  }
+}

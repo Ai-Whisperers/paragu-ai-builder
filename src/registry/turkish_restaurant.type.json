@@ -1,0 +1,22 @@
+{
+  "id": "turkish_restaurant",
+  "nameEs": "Restaurante Turco",
+  "nameEn": "Turkish Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "turkish_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante Turco en {{city}}",
+    "descriptionTemplate": "Restaurante Turco profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante turco {{city}}",
+      "turkish restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante Turco",
+    "subheadlineTemplate": "Restaurante Turco profesional en {{city}}."
+  }
+}

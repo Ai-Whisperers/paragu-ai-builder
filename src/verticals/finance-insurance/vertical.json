@@ -1,0 +1,34 @@
+{
+  "id": "finance-insurance",
+  "name": "Finance & Insurance",
+  "nameEs": "Finanzas y Seguros",
+  "description": "Financial advisors, insurance brokers, community banks/credit unions, tax prep, debt counseling. HIGHLY REGULATED.",
+  "baseType": "finance_insurance_base",
+  "features": {
+    "i18n": true,
+    "consultationForm": true,
+    "legalDisclosures": true,
+    "whatsappFloat": true,
+    "credentials": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "features",
+    "process",
+    "team",
+    "testimonials",
+    "faq",
+    "legal-disclaimer",
+    "lead-form",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es",
+    "en"
+  ]
+}

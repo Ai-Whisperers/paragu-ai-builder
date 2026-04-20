@@ -1,0 +1,32 @@
+{
+  "id": "agriculture-agribusiness",
+  "name": "Agriculture & Agribusiness",
+  "nameEs": "Agricultura y Agronegocios",
+  "description": "Crop farming, livestock, CSA, viticulture, aquaculture, apiculture, ag services and equipment. Mixed B2B/B2C.",
+  "baseType": "agriculture_base",
+  "features": {
+    "i18n": false,
+    "quoteForm": true,
+    "seasonalHours": true,
+    "whatsappFloat": true,
+    "productCatalog": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "about",
+    "services",
+    "product-catalog",
+    "gallery",
+    "testimonials",
+    "faq",
+    "contact",
+    "google-maps",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

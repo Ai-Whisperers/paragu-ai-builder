@@ -1,0 +1,22 @@
+{
+  "id": "residential_electrician",
+  "nameEs": "Electricista Residencial",
+  "nameEn": "Residential Electrician",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "residential_electrician",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Electricista Residencial en {{city}}",
+    "descriptionTemplate": "Electricista Residencial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "electricista residencial {{city}}",
+      "residential electrician {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Electricista Residencial",
+    "subheadlineTemplate": "Electricista Residencial profesional en {{city}}."
+  }
+}

@@ -2,28 +2,52 @@
   "id": "inmobiliaria",
   "nameEs": "Inmobiliaria",
   "nameEn": "Real Estate",
-
+  "verticalId": "real-estate-relocation",
   "tokens": "inmobiliaria",
-
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "features", "properties", "testimonials", "contact", "footer"],
-      "requiredSections": ["header", "hero", "properties", "contact", "footer"]
+      "sections": [
+        "header",
+        "hero",
+        "features",
+        "properties",
+        "testimonials",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "properties",
+        "contact",
+        "footer"
+      ]
     }
   },
-
   "features": {
-    "propertyListing": { "enabled": true, "filterPrice": true, "filterLocation": true },
-    "whatsappFloat": { "enabled": true }
+    "propertyListing": {
+      "enabled": true,
+      "filterPrice": true,
+      "filterLocation": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
   },
-
   "seo": {
     "titleTemplate": "{{businessName}} - Bienes Raices en {{city}}",
     "schemaType": "RealEstateAgent"
   },
-
   "nav": {
-    "items": ["Inicio", "Propiedades", "Nosotros", "Contacto"],
-    "cta": { "text": "Ver Propiedades", "action": "properties" }
+    "items": [
+      "Inicio",
+      "Propiedades",
+      "Nosotros",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Ver Propiedades",
+      "action": "properties"
+    }
   }
 }

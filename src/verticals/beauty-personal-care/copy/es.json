@@ -1,0 +1,15 @@
+{
+  "common": {
+    "cta": { "book": "Reservar", "whatsapp": "Chatear por WhatsApp", "viewServices": "Ver Servicios" },
+    "labels": { "services": "Servicios", "team": "Equipo", "gallery": "Galeria", "contact": "Contacto" }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}}",
+      "subheadline": "Tu belleza, nuestra pasion en {{city}}.",
+      "ctaPrimaryText": "Reservar Cita",
+      "ctaSecondaryText": "Ver Servicios"
+    },
+    "footer": { "tagline": "Agenda tu proxima cita con {{businessName}}." }
+  }
+}

@@ -1,7 +1,9 @@
 import { notFound } from 'next/navigation'
 import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
-import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
+import { loadBusiness } from '@/lib/engine/data-loader'
+import { getRegistry, REGISTRY_MAP } from '@/lib/engine/static-config'
+import { getAllDemoSlugs } from '@/lib/engine/demo-data'
 import type { Metadata } from 'next'
 
 interface Props {
@@ -10,39 +12,40 @@ interface Props {
 
 export const dynamicParams = true // Allow any business slug
 
+/**
+ * Pre-render slugs that warrant SSG. Priority order:
+ *   1. Demo fixtures still referenced by data-loader's fallback path.
+ *   2. Top-N types by declared leadCount (from src/registry/index.json).
+ *      These are the Paraguay priority types where fast first-paint matters.
+ *
+ * Everything else renders on-demand via ISR (dynamicParams=true above).
+ */
+const PRERENDER_TOP_N_TYPES = 50
+
 export async function generateStaticParams() {
-  const demoSlugs = [
-    'salon-maria', 'gymfit-py', 'spa-serenidad', 'dayah-litworks',
-    'barberia-clasica', 'tinta-viva', 'belleza-integral', 'studio-belleza',
-    'pestanas-flore', 'depilacion-perfecta', 'unas-y-mas', 'de-abasto-a-casa',
-    'sakura-sushi', 'kaiten-express', 'la-trattoria'
-  ]
-  return demoSlugs.map((slug) => ({ business: slug }))
+  const demoSlugs = getAllDemoSlugs()
+
+  const topTypesBySlug = Object.entries(REGISTRY_MAP)
+    .map(([id, entry]) => ({
+      id,
+      leadCount: (entry as { leadCount?: number }).leadCount ?? 0,
+    }))
+    .filter((e) => e.leadCount > 0)
+    .sort((a, b) => b.leadCount - a.leadCount)
+    .slice(0, PRERENDER_TOP_N_TYPES)
+    .map((e) => e.id)
+
+  const slugs = Array.from(new Set([...demoSlugs, ...topTypesBySlug]))
+  return slugs.map((slug) => ({ business: slug }))
 }
 
 function generateJsonLd(business: { type: string; name: string; slug: string; address?: string; city: string; phone?: string; email?: string; whatsapp?: string; googleMapsUrl?: string; services?: Array<{ name: string; price?: string; description?: string }> }, baseUrl: string) {
-  const schemaTypes: Record<string, string> = {
-    peluqueria: 'BeautySalon',
-    salon_belleza: 'BeautySalon',
-    gimnasio: 'FitnessCenter',
-    spa: 'HealthAndBeautyBusiness',
-    unas: 'NailSalon',
-    tatuajes: 'TattooParlor',
-    barberia: 'BarberShop',
-    estetica: 'BeautySalon',
-    maquillaje: 'BeautySalon',
-    depilacion: 'HealthAndBeautyBusiness',
-    pestanas: 'BeautySalon',
-    diseno_grafico: 'ProfessionalService',
-    meal_prep: 'FoodService',
-    restaurant: 'Restaurant',
-    sushi_bar: 'Restaurant',
-    kaiten_zushi: 'Restaurant',
-  }
+  const registry = getRegistry(business.type) as { seo?: { schemaType?: string } } | null
+  const schemaType = registry?.seo?.schemaType || 'LocalBusiness'
 
   const schema = {
     '@context': 'https://schema.org',
-    '@type': schemaTypes[business.type] || 'LocalBusiness',
+    '@type': schemaType,
     name: business.name,
     ...(business.address && {
       address: {
@@ -115,6 +118,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BusinessPage({ params }: Props) {
+  // TODO: Add ISR with revalidate for business pages
+  // TODO: Implement edge caching with Cloudflare Workers
+  // TODO: Add error boundary for graceful degradation
   const { business: slug } = await params
   const businessData = await loadBusiness(slug)
   if (!businessData) notFound()

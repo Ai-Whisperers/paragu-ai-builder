@@ -83,7 +83,7 @@ export default function PortfolioGallery({
                 src={item.image} 
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              />
+               loading="lazy" decoding="async" />
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -118,7 +118,7 @@ export default function PortfolioGallery({
                 src={filteredItems[currentIndex].image} 
                 alt={filteredItems[currentIndex].title}
                 className="max-w-full max-h-[70vh] object-contain"
-              />
+               loading="lazy" decoding="async" />
             )}
             <div className="text-white mt-4 text-center">
               <h4 className="text-xl font-medium">{filteredItems[currentIndex].title}</h4>

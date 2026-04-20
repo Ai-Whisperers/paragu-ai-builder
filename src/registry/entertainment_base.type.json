@@ -1,0 +1,75 @@
+{
+  "id": "entertainment_base",
+  "nameEs": "Base Entretenimiento",
+  "nameEn": "Entertainment Base",
+  "verticalId": "arts-entertainment-venues",
+  "abstract": true,
+  "tokens": "entertainment_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "about",
+        "eventsCalendar",
+        "gallery",
+        "testimonials",
+        "faq",
+        "contact",
+        "businessHours",
+        "googleMaps",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "eventsCalendar": {
+      "enabled": true
+    },
+    "ticketing": {
+      "enabled": true
+    },
+    "gallery": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Entretenimiento profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Cartelera",
+      "Entradas",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Ver Cartelera",
+      "action": "scrollTo:eventsCalendar"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - La experiencia en vivo",
+    "subheadlineTemplate": "Eventos y entretenimiento inolvidables.",
+    "ctaPrimary": {
+      "text": "Ver Cartelera",
+      "action": "scrollTo:eventsCalendar"
+    },
+    "ctaSecondary": {
+      "text": "Comprar Entradas",
+      "action": "whatsapp"
+    }
+  }
+}

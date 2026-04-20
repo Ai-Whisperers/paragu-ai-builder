@@ -1,7 +1,8 @@
 'use client'
 
+import { Heading } from '@/components/ui/heading'
+
 import { useState } from 'react'
-import PortfolioGalleryComponent from '@/components/portfolio/portfolio-gallery'
 
 interface PortfolioItem {
   title: string
@@ -18,15 +19,13 @@ interface PortfolioSectionProps {
   subtitle?: string
   items: PortfolioItem[]
   categories?: string[]
-  columns?: 2 | 3 | 4
 }
 
 export function PortfolioSection({
   title = 'Nuestro Portafolio',
   subtitle,
   items,
-  categories = [],
-  columns = 3
+  categories = []
 }: PortfolioSectionProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
 
@@ -46,9 +45,9 @@ export function PortfolioSection({
     <section id="portafolio" className="bg-[var(--background)] py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
             {title}
-          </h2>
+          </Heading>
           {subtitle && (
             <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
           )}
@@ -104,7 +103,7 @@ export function PortfolioSection({
               )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 transition-opacity duration-normal group-hover:opacity-100">
                 <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                  <Heading level={3} className="text-lg font-semibold text-white">{item.title}</Heading>
                   {item.category && (
                     <p className="text-sm text-white/80">{item.category}</p>
                   )}

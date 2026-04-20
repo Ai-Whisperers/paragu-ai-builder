@@ -1,0 +1,22 @@
+{
+  "id": "interfaith_minister",
+  "nameEs": "Ministro Interreligioso",
+  "nameEn": "Interfaith Minister",
+  "verticalId": "service-booking",
+  "subVertical": "officiant-celebrant",
+  "extends": "gimnasio",
+  "tokens": "interfaith_minister",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Ministro Interreligioso en {{city}}",
+    "descriptionTemplate": "Ministro Interreligioso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ministro interreligioso {{city}}",
+      "interfaith minister {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ministro Interreligioso",
+    "subheadlineTemplate": "Ministro Interreligioso profesional en {{city}}."
+  }
+}

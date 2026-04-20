@@ -1,0 +1,22 @@
+{
+  "id": "sports_team_fan_club",
+  "nameEs": "Club Peña",
+  "nameEn": "Fan Club",
+  "verticalId": "membership-community",
+  "subVertical": "alumni-fan",
+  "extends": "membership_base",
+  "tokens": "sports_team_fan_club",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Club Peña en {{city}}",
+    "descriptionTemplate": "Club Peña profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club peña {{city}}",
+      "fan club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Peña",
+    "subheadlineTemplate": "Club Peña profesional en {{city}}."
+  }
+}

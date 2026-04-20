@@ -1,0 +1,22 @@
+{
+  "id": "small_business_tax",
+  "nameEs": "Impuestos PYME",
+  "nameEn": "Small Business Tax",
+  "verticalId": "finance-insurance",
+  "subVertical": "tax-prep",
+  "extends": "finance_insurance_base",
+  "tokens": "small_business_tax",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Impuestos PYME en {{city}}",
+    "descriptionTemplate": "Impuestos PYME profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "impuestos pyme {{city}}",
+      "small business tax {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Impuestos PYME",
+    "subheadlineTemplate": "Impuestos PYME profesional en {{city}}."
+  }
+}

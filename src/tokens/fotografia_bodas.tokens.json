@@ -1,0 +1,28 @@
+{
+  "name": "Wedding photography elegant",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Blush & Ivory",
+      "colors": {
+        "primary": "#1F2937",
+        "secondary": "#BE185D",
+        "accent": "#FDE2E4",
+        "background": "#FFFEFC",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F9F5F3",
+        "text": "#1F2937",
+        "textLight": "#4B5563",
+        "textMuted": "#9CA3AF"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Cormorant Garamond', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "400",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Cormorant+Garamond:wght@300;400;500", "Inter:wght@400;500;600"]
+}

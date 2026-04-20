@@ -1,0 +1,22 @@
+{
+  "id": "campground",
+  "nameEs": "Camping",
+  "nameEn": "Campground",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "rv-camping",
+  "extends": "restaurant",
+  "tokens": "campground",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Camping en {{city}}",
+    "descriptionTemplate": "Camping profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "camping {{city}}",
+      "campground {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Camping",
+    "subheadlineTemplate": "Camping profesional en {{city}}."
+  }
+}

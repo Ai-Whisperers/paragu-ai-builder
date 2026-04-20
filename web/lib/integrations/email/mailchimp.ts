@@ -1,5 +1,6 @@
 import type { EmailAdapter } from './types'
 import { createHash } from 'crypto'
+import { integrationFetch } from '@/lib/integrations/http'
 
 function hashEmail(email: string): string {
   return createHash('md5').update(email.trim().toLowerCase()).digest('hex')
@@ -19,35 +20,29 @@ export const mailchimpAdapter: EmailAdapter = {
     const server = serverFromKey(config.apiKey)
     const subHash = hashEmail(lead.email)
     const url = `https://${server}.api.mailchimp.com/3.0/lists/${config.listId}/members/${subHash}`
-    try {
-      const res = await fetch(url, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Basic ${Buffer.from(`anystring:${config.apiKey}`).toString('base64')}`,
+
+    const res = await integrationFetch(url, {
+      adapter: 'mailchimp',
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Basic ${Buffer.from(`anystring:${config.apiKey}`).toString('base64')}`,
+      },
+      body: JSON.stringify({
+        email_address: lead.email,
+        status_if_new: 'subscribed',
+        status: 'subscribed',
+        language: lead.locale,
+        merge_fields: {
+          FNAME: lead.name.split(' ')[0] || lead.name,
+          LNAME: lead.name.split(' ').slice(1).join(' ') || '',
+          COUNTRY: lead.country || '',
+          PROGRAM: lead.programInterest || '',
+          SITE: lead.siteSlug,
         },
-        body: JSON.stringify({
-          email_address: lead.email,
-          status_if_new: 'subscribed',
-          status: 'subscribed',
-          language: lead.locale,
-          merge_fields: {
-            FNAME: lead.name.split(' ')[0] || lead.name,
-            LNAME: lead.name.split(' ').slice(1).join(' ') || '',
-            COUNTRY: lead.country || '',
-            PROGRAM: lead.programInterest || '',
-            SITE: lead.siteSlug,
-          },
-          tags: [lead.siteSlug, `locale:${lead.locale}`],
-        }),
-      })
-      if (!res.ok) {
-        const text = await res.text()
-        return { ok: false, error: `mailchimp ${res.status}: ${text.slice(0, 200)}` }
-      }
-      return { ok: true }
-    } catch (err) {
-      return { ok: false, error: err instanceof Error ? err.message : 'mailchimp error' }
-    }
+        tags: [lead.siteSlug, `locale:${lead.locale}`],
+      }),
+    })
+    return res.ok ? { ok: true } : { ok: false, error: res.error }
   },
 }

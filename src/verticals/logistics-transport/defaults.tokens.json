@@ -1,0 +1,31 @@
+{
+  "name": "Logistics Navy",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Logistics Navy",
+      "colors": {
+        "primary": "#1E3A8A",
+        "secondary": "#EA580C",
+        "accent": "#60A5FA",
+        "background": "#F8FAFC",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FFFFFF",
+        "text": "#0F172A",
+        "textLight": "#0F172A",
+        "textMuted": "#64748B"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Barlow', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": [
+    "Barlow:wght@500;600;700",
+    "Inter:wght@400;500;600"
+  ]
+}

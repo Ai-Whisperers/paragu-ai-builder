@@ -1,0 +1,22 @@
+{
+  "id": "homework_help_service",
+  "nameEs": "Ayuda con Tareas",
+  "nameEn": "Homework Help",
+  "verticalId": "service-booking",
+  "subVertical": "tutoring-private",
+  "extends": "gimnasio",
+  "tokens": "homework_help_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Ayuda con Tareas en {{city}}",
+    "descriptionTemplate": "Ayuda con Tareas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ayuda con tareas {{city}}",
+      "homework help {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ayuda con Tareas",
+    "subheadlineTemplate": "Ayuda con Tareas profesional en {{city}}."
+  }
+}

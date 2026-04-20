@@ -1,0 +1,22 @@
+{
+  "id": "direct_mail_agency",
+  "nameEs": "Marketing Directo",
+  "nameEn": "Direct Mail",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "direct_mail_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Marketing Directo en {{city}}",
+    "descriptionTemplate": "Marketing Directo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "marketing directo {{city}}",
+      "direct mail {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Marketing Directo",
+    "subheadlineTemplate": "Marketing Directo profesional en {{city}}."
+  }
+}

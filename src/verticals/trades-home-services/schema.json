@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-trades-home-services",
+  "allOf": [{ "$ref": "base-business" }],
+  "type": "object",
+  "properties": {
+    "serviceAreas": { "type": "array", "items": { "type": "string" } },
+    "emergency24h": { "type": "boolean", "default": false },
+    "insured": { "type": "boolean", "default": false },
+    "licenseNumber": { "type": "string" }
+  }
+}

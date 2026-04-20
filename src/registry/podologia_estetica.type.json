@@ -1,0 +1,25 @@
+{
+  "id": "podologia_estetica",
+  "nameEs": "Podologia Estetica",
+  "nameEn": "Podiatry & Pedicure",
+  "verticalId": "beauty-personal-care",
+  "extends": "beauty_base",
+  "tokens": "podologia_estetica",
+  "seo": {
+    "schemaType": "HealthAndBeautyBusiness",
+    "titleTemplate": "{{businessName}} - Podologia Estetica en {{city}}",
+    "descriptionTemplate": "Pedicuria estetica y clinica: uñas encarnadas, callosidades, hongos.",
+    "keywords": [
+      "podologia {{city}}",
+      "pedicuria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pies sanos, pies lindos",
+    "subheadlineTemplate": "Pedicuria estetica y clinica: uñas encarnadas, callosidades, hongos."
+  },
+  "serviceCategories": [
+    "pedicuria",
+    "clinica"
+  ]
+}

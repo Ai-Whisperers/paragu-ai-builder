@@ -1,0 +1,22 @@
+{
+  "id": "korean_jjimjilbang",
+  "nameEs": "Jjimjilbang Coreano",
+  "nameEn": "Jjimjilbang",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "korean_jjimjilbang",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Jjimjilbang Coreano en {{city}}",
+    "descriptionTemplate": "Jjimjilbang Coreano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "jjimjilbang coreano {{city}}",
+      "jjimjilbang {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Jjimjilbang Coreano",
+    "subheadlineTemplate": "Jjimjilbang Coreano profesional en {{city}}."
+  }
+}

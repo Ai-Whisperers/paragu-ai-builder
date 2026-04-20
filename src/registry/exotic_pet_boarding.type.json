@@ -1,0 +1,22 @@
+{
+  "id": "exotic_pet_boarding",
+  "nameEs": "Pension Exoticos",
+  "nameEn": "Exotic Pet Boarding",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-boarding-daycare",
+  "extends": "pets_base",
+  "tokens": "exotic_pet_boarding",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Pension Exoticos en {{city}}",
+    "descriptionTemplate": "Pension Exoticos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pension exoticos {{city}}",
+      "exotic pet boarding {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pension Exoticos",
+    "subheadlineTemplate": "Pension Exoticos profesional en {{city}}."
+  }
+}

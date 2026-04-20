@@ -1,0 +1,22 @@
+{
+  "id": "tanning_salon",
+  "nameEs": "Salon de Bronceado",
+  "nameEn": "Tanning Salon",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "beauty-retail",
+  "extends": "beauty_base",
+  "tokens": "tanning_salon",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Salon de Bronceado en {{city}}",
+    "descriptionTemplate": "Salon de Bronceado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "salon de bronceado {{city}}",
+      "tanning salon {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Salon de Bronceado",
+    "subheadlineTemplate": "Salon de Bronceado profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "common": {
+    "cta": {
+      "primary": "Agendar Turno",
+      "secondary": "Ver Servicios",
+      "whatsapp": "WhatsApp"
+    },
+    "labels": {
+      "services": "Servicios",
+      "catalog": "Productos",
+      "gallery": "Galeria"
+    }
+  },
+  "defaults": {
+    "hero": {
+      "headline": "{{businessName}} - Cuidado para tu mejor amigo",
+      "subheadline": "Servicios profesionales para mascotas y animales en {{city}}.",
+      "ctaPrimaryText": "Agendar Turno",
+      "ctaSecondaryText": "Ver Servicios"
+    }
+  }
+}

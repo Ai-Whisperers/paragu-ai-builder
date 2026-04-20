@@ -1,0 +1,22 @@
+{
+  "id": "cpa_firm",
+  "nameEs": "Contador Publico",
+  "nameEn": "CPA Firm",
+  "verticalId": "b2b-professional",
+  "subVertical": "accounting-tax",
+  "extends": "professional_services_base",
+  "tokens": "cpa_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Contador Publico en {{city}}",
+    "descriptionTemplate": "Contador Publico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "contador publico {{city}}",
+      "cpa firm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Contador Publico",
+    "subheadlineTemplate": "Contador Publico profesional en {{city}}."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "electricista",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Electricista matriculado",
+    "subheadline": "Instalaciones, reparaciones y emergencias electricas en {{city}}. Trabajos con garantia.",
+    "ctaPrimary": "Solicitar Presupuesto",
+    "ctaSecondary": "Emergencia 24h"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Electricista matriculado con {{yearsInOperation}} anos de experiencia. Trabajamos con materiales certificados, planos y habilitacion municipal."
+  },
+  "services": {
+    "title": "Servicios",
+    "categories": [
+      { "id": "instalaciones", "name": "Instalaciones Nuevas", "description": "Domiciliarias, comerciales e industriales con planos y habilitacion." },
+      { "id": "reparaciones", "name": "Reparaciones", "description": "Diagnostico y reparacion de fallas electricas de cualquier tipo." },
+      { "id": "tableros", "name": "Tableros y Tierras", "description": "Actualizacion de tableros, disyuntores, puesta a tierra y proteccion." },
+      { "id": "iluminacion", "name": "Iluminacion LED", "description": "Diseno e instalacion de iluminacion interior y exterior." },
+      { "id": "emergencias", "name": "Emergencias 24h", "description": "Cortes, chispazos, olor a quemado: llamanos a cualquier hora." }
+    ]
+  },
+  "process": {
+    "title": "Como Trabajamos",
+    "steps": [
+      { "number": 1, "title": "Evaluacion", "description": "Visitamos y evaluamos el trabajo." },
+      { "number": 2, "title": "Presupuesto detallado", "description": "Sin sorpresas: mano de obra y materiales." },
+      { "number": 3, "title": "Ejecucion", "description": "Trabajo con normas tecnicas y seguridad." },
+      { "number": 4, "title": "Garantia", "description": "Todos nuestros trabajos tienen garantia escrita." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Respondio en menos de una hora a mi emergencia. Super profesional.", "author": "Maria E.", "rating": 5 },
+    { "quote": "Instalacion impecable en mi casa nueva. Todo con planos y habilitacion.", "author": "Jose M.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Son matriculados?", "a": "Si, trabajamos con matricula profesional vigente y ART." },
+    { "q": "Trabajan de noche?", "a": "Emergencias 24/7. Trabajos programados de lunes a sabado." },
+    { "q": "En que zonas atienden?", "a": "Toda el area metropolitana de {{city}}. Consultanos por otras zonas." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Instalaciones electricas profesionales",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "type-registry",
+  "title": "Business Type Registry Entry",
+  "description": "Canonical shape for every src/registry/<id>.type.json. Required fields are the minimum the compose engine needs; optional fields are used by hand-curated types for richer output.",
+  "type": "object",
+  "required": ["id", "nameEs", "nameEn", "verticalId"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "snake_case identifier, stable across locales."
+    },
+    "nameEs": { "type": "string", "minLength": 1 },
+    "nameEn": { "type": "string", "minLength": 1 },
+    "verticalId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Must be a key in src/verticals/catalog.json."
+    },
+    "subVertical": { "type": "string" },
+    "extends": {
+      "type": "string",
+      "description": "Another type id that this extends (fields merged)."
+    },
+    "abstract": {
+      "type": "boolean",
+      "description": "When true, this type is not meant to be rendered directly — only used as an extends: target."
+    },
+    "tokens": { "type": "string" },
+    "flags": { "type": "array", "items": { "type": "string" } },
+    "pages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "sections": { "type": "array", "items": { "type": "string" } },
+          "requiredSections": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "features": { "type": "object" },
+    "serviceCategories": { "type": "array" },
+    "menuCategories": { "type": "array" },
+    "eventTypes": { "type": "array" },
+    "targetAudience": { "type": "object" },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "schemaType": { "type": "string" },
+        "titleTemplate": { "type": "string" },
+        "descriptionTemplate": { "type": "string" },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "nav": {
+      "type": "object",
+      "properties": {
+        "items": { "type": "array", "items": { "type": "string" } },
+        "cta": {
+          "type": "object",
+          "properties": { "text": { "type": "string" }, "action": { "type": "string" } }
+        }
+      }
+    },
+    "hero": {
+      "type": "object",
+      "properties": {
+        "style": { "type": "string" },
+        "headlineTemplate": { "type": "string" },
+        "subheadlineTemplate": { "type": "string" },
+        "ctaPrimary": { "type": "object" },
+        "ctaSecondary": { "type": "object" }
+      }
+    }
+  }
+}

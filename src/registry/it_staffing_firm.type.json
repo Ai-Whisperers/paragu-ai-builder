@@ -1,0 +1,25 @@
+{
+  "id": "it_staffing_firm",
+  "nameEs": "Staffing IT",
+  "nameEn": "IT Staffing",
+  "verticalId": "b2b-professional",
+  "subVertical": "hr-recruiting",
+  "extends": "professional_services_base",
+  "tokens": "it_staffing_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Staffing IT en {{city}}",
+    "descriptionTemplate": "Staffing IT profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "staffing it {{city}}",
+      "it staffing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Staffing IT",
+    "subheadlineTemplate": "Staffing IT profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

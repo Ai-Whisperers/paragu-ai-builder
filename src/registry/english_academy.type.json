@@ -1,0 +1,22 @@
+{
+  "id": "english_academy",
+  "nameEs": "Academia de Ingles",
+  "nameEn": "English Academy",
+  "verticalId": "education-training",
+  "subVertical": "language",
+  "extends": "educacion",
+  "tokens": "english_academy",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Academia de Ingles en {{city}}",
+    "descriptionTemplate": "Academia de Ingles profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "academia de ingles {{city}}",
+      "english academy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Academia de Ingles",
+    "subheadlineTemplate": "Academia de Ingles profesional en {{city}}."
+  }
+}

@@ -49,7 +49,7 @@ function LoginForm() {
 
           <form onSubmit={handleLogin} className="space-y-4">
             {error && (
-              <div className="rounded-md bg-red-50 p-3 text-sm text-red-600">
+              <div className="rounded-md bg-[var(--color-error-surface)] p-3 text-sm text-[var(--color-error)]">
                 {error}
               </div>
             )}
@@ -93,10 +93,12 @@ function LoginForm() {
             </button>
           </form>
 
-          <div className="mt-6 text-center text-sm text-gray-500">
-            <p>Credenciales de demo: (configurar en Supabase)</p>
-            <p className="mt-1 font-mono text-xs">admin@paragu-ai.builder / demo123</p>
-          </div>
+          {process.env.NODE_ENV === 'development' && (
+            <div className="mt-6 text-center text-sm text-gray-500">
+              <p>Credenciales de demo: (configurar en Supabase)</p>
+              <p className="mt-1 font-mono text-xs">admin@paragu-ai.builder / demo123</p>
+            </div>
+          )}
         </div>
 
         <p className="mt-4 text-center text-xs text-gray-400">

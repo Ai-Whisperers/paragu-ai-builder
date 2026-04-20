@@ -1,0 +1,22 @@
+{
+  "id": "enrolled_agent",
+  "nameEs": "Agente Inscrito",
+  "nameEn": "Enrolled Agent",
+  "verticalId": "b2b-professional",
+  "subVertical": "accounting-tax",
+  "extends": "professional_services_base",
+  "tokens": "enrolled_agent",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agente Inscrito en {{city}}",
+    "descriptionTemplate": "Agente Inscrito profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agente inscrito {{city}}",
+      "enrolled agent {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agente Inscrito",
+    "subheadlineTemplate": "Agente Inscrito profesional en {{city}}."
+  }
+}

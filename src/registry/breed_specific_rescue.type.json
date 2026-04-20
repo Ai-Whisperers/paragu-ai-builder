@@ -1,0 +1,22 @@
+{
+  "id": "breed_specific_rescue",
+  "nameEs": "Rescate Raza",
+  "nameEn": "Breed Rescue",
+  "verticalId": "pets-animals",
+  "subVertical": "animal-rescue-shelter",
+  "extends": "pets_base",
+  "tokens": "breed_specific_rescue",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Rescate Raza en {{city}}",
+    "descriptionTemplate": "Rescate Raza profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "rescate raza {{city}}",
+      "breed rescue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Rescate Raza",
+    "subheadlineTemplate": "Rescate Raza profesional en {{city}}."
+  }
+}

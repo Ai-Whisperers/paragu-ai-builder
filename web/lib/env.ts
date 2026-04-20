@@ -15,6 +15,7 @@
  * const client = createClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY)
  * ```
  */
+import { logger } from '@/lib/logger'
 
 function requireEnv(name: string): string {
   const value = process.env[name]
@@ -55,7 +56,10 @@ export const env = {
             `Set this in your .env.local file.`
         )
       }
-      console.error('[ENV ERROR] NEXT_PUBLIC_SUPABASE_URL is not defined')
+      logger.error('NEXT_PUBLIC_SUPABASE_URL is not defined (client)', {
+        action: 'env.check',
+        envVar: 'NEXT_PUBLIC_SUPABASE_URL',
+      })
       return ''
     }
     return value
@@ -72,7 +76,10 @@ export const env = {
             `Set this in your .env.local file.`
         )
       }
-      console.error('[ENV ERROR] NEXT_PUBLIC_SUPABASE_ANON_KEY is not defined')
+      logger.error('NEXT_PUBLIC_SUPABASE_ANON_KEY is not defined (client)', {
+        action: 'env.check',
+        envVar: 'NEXT_PUBLIC_SUPABASE_ANON_KEY',
+      })
       return ''
     }
     return value
@@ -137,6 +144,5 @@ export const env = {
 export type Env = typeof env
 
 if (env.isDev && typeof window === 'undefined') {
-  // eslint-disable-next-line no-console
-  console.info('[ENV] Environment variables validated successfully')
+  logger.debug('Environment variables validated', { action: 'env.init' })
 }

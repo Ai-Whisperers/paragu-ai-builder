@@ -1,0 +1,22 @@
+{
+  "id": "expat_country_club",
+  "nameEs": "Club Expatriados",
+  "nameEn": "Expat Club",
+  "verticalId": "membership-community",
+  "subVertical": "alumni-fan",
+  "extends": "membership_base",
+  "tokens": "expat_country_club",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Club Expatriados en {{city}}",
+    "descriptionTemplate": "Club Expatriados profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club expatriados {{city}}",
+      "expat club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Expatriados",
+    "subheadlineTemplate": "Club Expatriados profesional en {{city}}."
+  }
+}

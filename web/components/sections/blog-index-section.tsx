@@ -71,9 +71,9 @@ function Grid({ posts }: { posts: BlogPostSummary[] }) {
                   {p.category}
                 </p>
               )}
-              <h3 className="mb-2 text-lg font-semibold text-[var(--primary)] group-hover:underline" style={{ fontFamily: 'var(--font-heading)' }}>
+              <Heading level={3} className="mb-2 text-lg font-semibold text-[var(--primary)] group-hover:underline" style={{ fontFamily: 'var(--font-heading)' }}>
                 {p.title}
-              </h3>
+              </Heading>
               {p.excerpt && <p className="mb-3 text-sm text-[var(--text-light)]">{p.excerpt}</p>}
               <div className="flex items-center gap-3 text-xs text-[var(--text-muted)]">
                 {p.date && <time dateTime={p.date}>{p.date}</time>}
@@ -93,9 +93,9 @@ function List({ posts }: { posts: BlogPostSummary[] }) {
       {posts.map((p) => (
         <li key={p.slug} className="py-6">
           <a href={p.href} className="group block">
-            <h3 className="text-xl font-semibold text-[var(--primary)] group-hover:underline">
+            <Heading level={3} className="text-xl font-semibold text-[var(--primary)] group-hover:underline">
               {p.title}
-            </h3>
+            </Heading>
             {p.excerpt && <p className="mt-1 text-[var(--text-light)]">{p.excerpt}</p>}
             <div className="mt-2 flex items-center gap-3 text-xs text-[var(--text-muted)]">
               {p.date && <time dateTime={p.date}>{p.date}</time>}

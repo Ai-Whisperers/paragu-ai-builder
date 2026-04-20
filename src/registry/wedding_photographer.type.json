@@ -1,0 +1,22 @@
+{
+  "id": "wedding_photographer",
+  "nameEs": "Fotografo de Bodas",
+  "nameEn": "Wedding Photographer",
+  "verticalId": "service-booking",
+  "subVertical": "photography",
+  "extends": "gimnasio",
+  "tokens": "wedding_photographer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografo de Bodas en {{city}}",
+    "descriptionTemplate": "Fotografo de Bodas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fotografo de bodas {{city}}",
+      "wedding photographer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fotografo de Bodas",
+    "subheadlineTemplate": "Fotografo de Bodas profesional en {{city}}."
+  }
+}

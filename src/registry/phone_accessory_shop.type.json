@@ -1,0 +1,22 @@
+{
+  "id": "phone_accessory_shop",
+  "nameEs": "Accesorios Celular",
+  "nameEn": "Phone Accessory",
+  "verticalId": "retail-local",
+  "subVertical": "electronics-appliance",
+  "extends": "retail_base",
+  "tokens": "phone_accessory_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Accesorios Celular en {{city}}",
+    "descriptionTemplate": "Accesorios Celular profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "accesorios celular {{city}}",
+      "phone accessory {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Accesorios Celular",
+    "subheadlineTemplate": "Accesorios Celular profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "open_mic_venue",
+  "nameEs": "Microfono Abierto",
+  "nameEn": "Open Mic Venue",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "comedy-club",
+  "extends": "entertainment_base",
+  "tokens": "open_mic_venue",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Microfono Abierto en {{city}}",
+    "descriptionTemplate": "Microfono Abierto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "microfono abierto {{city}}",
+      "open mic venue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Microfono Abierto",
+    "subheadlineTemplate": "Microfono Abierto profesional en {{city}}."
+  }
+}

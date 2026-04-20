@@ -1,0 +1,25 @@
+{
+  "id": "medical_device_designer",
+  "nameEs": "Diseno Dispositivos Medicos",
+  "nameEn": "Medical Device Design",
+  "verticalId": "portfolio-professional",
+  "subVertical": "industrial-product-design",
+  "extends": "diseno_grafico",
+  "tokens": "medical_device_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Diseno Dispositivos Medicos en {{city}}",
+    "descriptionTemplate": "Diseno Dispositivos Medicos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "diseno dispositivos medicos {{city}}",
+      "medical device design {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Diseno Dispositivos Medicos",
+    "subheadlineTemplate": "Diseno Dispositivos Medicos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

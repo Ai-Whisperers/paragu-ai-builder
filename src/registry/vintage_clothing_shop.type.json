@@ -1,0 +1,22 @@
+{
+  "id": "vintage_clothing_shop",
+  "nameEs": "Ropa Vintage",
+  "nameEn": "Vintage Shop",
+  "verticalId": "retail-local",
+  "subVertical": "apparel-fashion",
+  "extends": "retail_base",
+  "tokens": "vintage_clothing_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Ropa Vintage en {{city}}",
+    "descriptionTemplate": "Ropa Vintage profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ropa vintage {{city}}",
+      "vintage shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ropa Vintage",
+    "subheadlineTemplate": "Ropa Vintage profesional en {{city}}."
+  }
+}

@@ -35,7 +35,7 @@ export default function ProductCard({
             src={product.image} 
             alt={product.name}
             className="w-full h-full object-cover hover:scale-105 transition-transform"
-          />
+           loading="lazy" decoding="async" />
         </div>
       )}
       <div className="p-4">
@@ -50,7 +50,7 @@ export default function ProductCard({
           </p>
         )}
         {showStock && product.inStock === false && (
-          <span className="text-xs text-red-500 mt-1 inline-block">Sin stock</span>
+          <span className="text-xs text-[var(--color-error)] mt-1 inline-block">Sin stock</span>
         )}
       </div>
     </div>

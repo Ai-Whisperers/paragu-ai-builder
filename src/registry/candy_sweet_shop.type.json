@@ -1,0 +1,22 @@
+{
+  "id": "candy_sweet_shop",
+  "nameEs": "Confiteria",
+  "nameEn": "Candy Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "candy_sweet_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Confiteria en {{city}}",
+    "descriptionTemplate": "Confiteria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "confiteria {{city}}",
+      "candy shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Confiteria",
+    "subheadlineTemplate": "Confiteria profesional en {{city}}."
+  }
+}

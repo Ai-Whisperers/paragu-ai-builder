@@ -34,6 +34,11 @@ function main() {
         if (!tokens.shadows) issues.push('missing shadows')
         if (!tokens.typography?.scale) issues.push('missing typography.scale')
         if (!tokens.animation?.duration) issues.push('missing animation.duration')
+      } else if (typeof tokens.extends === 'string') {
+        // Thin wrapper — delegates to a vertical default (e.g. "vertical:beauty-personal-care").
+        // No standalone palette required; validation is handled on the target file.
+        console.log(`↪ ${file} (extends ${tokens.extends})`)
+        continue
       } else {
         // Type tokens
         if (!tokens.name) issues.push('missing name')

@@ -1,0 +1,22 @@
+{
+  "id": "auto_ac_specialist",
+  "nameEs": "Aire Acondicionado Auto",
+  "nameEn": "Auto AC Specialist",
+  "verticalId": "automotive",
+  "subVertical": "repair-maintenance",
+  "extends": "automotive_base",
+  "tokens": "auto_ac_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Aire Acondicionado Auto en {{city}}",
+    "descriptionTemplate": "Aire Acondicionado Auto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "aire acondicionado auto {{city}}",
+      "auto ac specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Aire Acondicionado Auto",
+    "subheadlineTemplate": "Aire Acondicionado Auto profesional en {{city}}."
+  }
+}

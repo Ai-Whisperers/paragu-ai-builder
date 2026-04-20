@@ -1,0 +1,22 @@
+{
+  "id": "ymca_ywca",
+  "nameEs": "YMCA",
+  "nameEn": "YMCA",
+  "verticalId": "membership-community",
+  "subVertical": "community-center",
+  "extends": "membership_base",
+  "tokens": "ymca_ywca",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - YMCA en {{city}}",
+    "descriptionTemplate": "YMCA profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ymca {{city}}",
+      "ymca {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - YMCA",
+    "subheadlineTemplate": "YMCA profesional en {{city}}."
+  }
+}

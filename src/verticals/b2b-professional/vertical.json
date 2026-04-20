@@ -1,0 +1,21 @@
+{
+  "id": "b2b-professional",
+  "name": "B2B Professional Services",
+  "nameEs": "Servicios Profesionales B2B",
+  "description": "Law firms, accountants, consulting, HR, translation, customs brokers, IT services, agri-consulting. Case-study + team-credentials forward.",
+  "baseType": "professional_services_base",
+  "features": {
+    "i18n": "optional",
+    "caseStudies": true,
+    "teamCredentials": true,
+    "consultationForm": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header", "hero", "services", "features", "process",
+    "team", "testimonials", "case-studies", "faq", "lead-form",
+    "contact", "cta-banner", "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es", "en"]
+}

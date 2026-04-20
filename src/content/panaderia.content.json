@@ -1,0 +1,39 @@
+{
+  "id": "panaderia",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Pan y dulce todos los dias",
+    "subheadline": "Panes artesanales, chipa, pasteleria fina y tortas por encargo en {{city}}.",
+    "ctaPrimary": "Pedir por WhatsApp",
+    "ctaSecondary": "Ver Productos"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} amasamos todos los dias con ingredientes seleccionados. Desde el pan de cada manana hasta la torta que celebra tu cumpleanos."
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "categories": [
+      { "id": "panes", "name": "Panes", "description": "Pan frances, casero, baguette, lactal y sourdough." },
+      { "id": "viennoiserie", "name": "Viennoiserie", "description": "Croissants, medialunas, pan de queso, cuernitos." },
+      { "id": "pasteleria", "name": "Pasteleria", "description": "Milhojas, pasta frola, berlinesas, facturas." },
+      { "id": "chipa", "name": "Chipa y Mbeyu", "description": "Chipa almidon, chipa guasu, mbeyu recien hechos." },
+      { "id": "empanadas", "name": "Empanadas", "description": "Carne, pollo, jamon y queso, verdura." },
+      { "id": "tortas_especiales", "name": "Tortas por Encargo", "description": "Cumpleanos, bodas, eventos. Diseno personalizado." },
+      { "id": "bebidas", "name": "Cafeteria", "description": "Cafe, cocido, chocolate caliente y jugos naturales." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "La mejor chipa del barrio, recien hecha.", "author": "Miguel A.", "rating": 5 },
+    { "quote": "Hicieron la torta de mi hija y quedo hermosa y deliciosa.", "author": "Patricia R.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "A que hora abren?", "a": "Abrimos a las 06:00 de lunes a sabado. Domingos desde las 07:00." },
+    { "q": "Reciben encargos de tortas?", "a": "Si, tortas personalizadas con 48h de anticipacion. Consultanos por WhatsApp." },
+    { "q": "Tienen delivery?", "a": "Hacemos delivery en {{city}} y zonas cercanas. Pedidos minimos y tarifa segun distancia." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Pan artesanal en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

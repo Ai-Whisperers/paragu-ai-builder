@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-automotive",
+  "allOf": [{ "$ref": "base-business" }],
+  "type": "object",
+  "properties": {
+    "vehicleTypes": { "type": "array", "items": { "type": "string" } },
+    "brands": { "type": "array", "items": { "type": "string" } },
+    "towing24h": { "type": "boolean", "default": false }
+  }
+}

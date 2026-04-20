@@ -1,0 +1,22 @@
+{
+  "id": "surf_instructor",
+  "nameEs": "Instructor de Surf",
+  "nameEn": "Surf Instructor",
+  "verticalId": "service-booking",
+  "subVertical": "personal-training",
+  "extends": "gimnasio",
+  "tokens": "surf_instructor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Instructor de Surf en {{city}}",
+    "descriptionTemplate": "Instructor de Surf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instructor de surf {{city}}",
+      "surf instructor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instructor de Surf",
+    "subheadlineTemplate": "Instructor de Surf profesional en {{city}}."
+  }
+}

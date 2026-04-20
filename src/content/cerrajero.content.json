@@ -1,0 +1,38 @@
+{
+  "id": "cerrajero",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Cerrajero 24 horas",
+    "subheadline": "Aperturas, cerraduras y copias de llaves en {{city}}. Respondemos en menos de 30 minutos.",
+    "ctaPrimary": "Llamar Ahora",
+    "ctaSecondary": "WhatsApp"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Servicio de cerrajeria profesional en {{city}}. Te quedaste afuera de tu casa o auto? Llamanos: llegamos rapido y con tarifas claras."
+  },
+  "services": {
+    "title": "Servicios",
+    "categories": [
+      { "id": "aperturas", "name": "Aperturas de Emergencia", "description": "Puertas, departamentos y autos sin romper la cerradura." },
+      { "id": "cerraduras", "name": "Cambio de Cerraduras", "description": "Instalacion y cambio de cerraduras de seguridad." },
+      { "id": "copias_llaves", "name": "Copias de Llaves", "description": "Todo tipo de llaves: planas, codificadas, autos, motos." },
+      { "id": "autos", "name": "Cerrajeria Automotor", "description": "Aperturas, copias y programacion de llaves con chip." },
+      { "id": "cajas_fuertes", "name": "Cajas Fuertes", "description": "Apertura, cambio de clave y venta de cajas fuertes." },
+      { "id": "emergencias", "name": "Emergencias 24h", "description": "Llamanos a cualquier hora. Servicio los 365 dias del ano." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Me dejaron las llaves adentro del auto a la madrugada. Vinieron rapido.", "author": "Rodrigo L.", "rating": 5 },
+    { "quote": "Cambiaron la cerradura de mi casa en 20 minutos. Profesional.", "author": "Claudia B.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Cuanto tardan en llegar?", "a": "Entre 15 y 45 minutos en {{city}} centro. Consultanos por tu zona." },
+    { "q": "Pueden abrir cualquier cerradura sin romperla?", "a": "Si, tenemos herramientas para aperturas no destructivas en la mayoria de los casos." },
+    { "q": "Atienden autos con llave con chip?", "a": "Si, hacemos copias, programacion y decodificacion de llaves electronicas." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Cerrajero de confianza 24 horas",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

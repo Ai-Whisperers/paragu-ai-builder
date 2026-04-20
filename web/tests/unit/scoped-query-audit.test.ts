@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { readFileSync, readdirSync, statSync } from 'node:fs'
-import { resolve, join, sep } from 'node:path'
+import { resolve, join } from 'node:path'
 
 /**
  * Multi-tenant safety test.

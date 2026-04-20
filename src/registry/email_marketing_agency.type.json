@@ -1,0 +1,22 @@
+{
+  "id": "email_marketing_agency",
+  "nameEs": "Agencia Email",
+  "nameEn": "Email Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "email_marketing_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Email en {{city}}",
+    "descriptionTemplate": "Agencia Email profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia email {{city}}",
+      "email agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Email",
+    "subheadlineTemplate": "Agencia Email profesional en {{city}}."
+  }
+}

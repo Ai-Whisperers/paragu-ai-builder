@@ -21,7 +21,14 @@
     "propertySearch": true,
     "agentProfiles": true,
     "testimonials": true,
-    "whatsappFloat": true
+    "whatsappFloat": true,
+    "mortgageCalculator": true,
+    "heroImages": true,
+    "propertyImages": true
+  },
+  "images": {
+    "manifest": "/sites/nexa-propiedades/images.json",
+    "hero": "/sites/nexa-propiedades/images/hero/hero-bg.jpg"
   },
   "contact": {
     "whatsapp": "595981123456",

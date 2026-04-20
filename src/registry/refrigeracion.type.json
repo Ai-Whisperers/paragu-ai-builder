@@ -1,0 +1,21 @@
+{
+  "id": "refrigeracion",
+  "nameEs": "Refrigeracion",
+  "nameEn": "Refrigeration",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "refrigeracion",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Refrigeracion en {{city}}",
+    "descriptionTemplate": "Servicio tecnico de heladeras, camaras frigorificas y freezers.",
+    "keywords": [
+      "refrigeracion {{city}}",
+      "servicio heladeras {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cadena de frio sin interrupciones",
+    "subheadlineTemplate": "Servicio tecnico de heladeras, camaras frigorificas y freezers."
+  }
+}

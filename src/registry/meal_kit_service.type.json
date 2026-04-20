@@ -1,0 +1,22 @@
+{
+  "id": "meal_kit_service",
+  "nameEs": "Kit de Comida",
+  "nameEn": "Meal Kit",
+  "verticalId": "food-beverage",
+  "subVertical": "meal-prep-delivery",
+  "extends": "restaurant",
+  "tokens": "meal_kit_service",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Kit de Comida en {{city}}",
+    "descriptionTemplate": "Kit de Comida profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "kit de comida {{city}}",
+      "meal kit {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Kit de Comida",
+    "subheadlineTemplate": "Kit de Comida profesional en {{city}}."
+  }
+}

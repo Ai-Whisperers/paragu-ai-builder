@@ -1,0 +1,38 @@
+{
+  "id": "plomero",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Plomero y Gasista 24h",
+    "subheadline": "Destapaciones, reparaciones e instalaciones en {{city}}. Trabajamos con urgencia y garantia.",
+    "ctaPrimary": "Solicitar Servicio",
+    "ctaSecondary": "Emergencia 24h"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Plomeria y gas con {{yearsInOperation}} anos en {{city}}. Instalaciones habilitadas, respuesta rapida y presupuesto sin cargo."
+  },
+  "services": {
+    "title": "Servicios",
+    "categories": [
+      { "id": "destapaciones", "name": "Destapaciones", "description": "Canerias, banos, cocinas y descargas pluviales." },
+      { "id": "reparaciones", "name": "Reparaciones", "description": "Filtraciones, perdidas, canillas y grifos." },
+      { "id": "instalaciones", "name": "Instalaciones Nuevas", "description": "Bano completo, cocina, lavadero, riego." },
+      { "id": "gas", "name": "Instalacion de Gas", "description": "Tendido de canerias, habilitacion y mantenimiento." },
+      { "id": "termotanques", "name": "Termotanques y Calefones", "description": "Instalacion, reparacion y mantenimiento." },
+      { "id": "emergencias", "name": "Emergencias 24h", "description": "Urgencias dia y noche, fines de semana y feriados." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Me destapo la cocina en menos de una hora. Super rapido.", "author": "Silvia P.", "rating": 5 },
+    { "quote": "Instalacion impecable, trabajo prolijo y a tiempo.", "author": "Fernando R.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Cobran la visita?", "a": "El presupuesto es sin cargo en {{city}}. La mano de obra se cotiza tras evaluar el trabajo." },
+    { "q": "Instalan gas?", "a": "Si, con matricula habilitante y planos firmados por profesional." },
+    { "q": "Trabajan los domingos?", "a": "Si, emergencias 24/7 todos los dias del ano." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Plomeria confiable en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

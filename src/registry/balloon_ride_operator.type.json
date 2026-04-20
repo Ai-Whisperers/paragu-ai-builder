@@ -1,0 +1,22 @@
+{
+  "id": "balloon_ride_operator",
+  "nameEs": "Paseo en Globo",
+  "nameEn": "Balloon Ride",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "balloon_ride_operator",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Paseo en Globo en {{city}}",
+    "descriptionTemplate": "Paseo en Globo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "paseo en globo {{city}}",
+      "balloon ride {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Paseo en Globo",
+    "subheadlineTemplate": "Paseo en Globo profesional en {{city}}."
+  }
+}

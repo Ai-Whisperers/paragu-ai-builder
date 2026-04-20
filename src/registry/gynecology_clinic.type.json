@@ -1,0 +1,22 @@
+{
+  "id": "gynecology_clinic",
+  "nameEs": "Ginecologia",
+  "nameEn": "Gynecology",
+  "verticalId": "health-wellness",
+  "subVertical": "specialty-medical",
+  "extends": "health_wellness_base",
+  "tokens": "gynecology_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Ginecologia en {{city}}",
+    "descriptionTemplate": "Ginecologia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ginecologia {{city}}",
+      "gynecology {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ginecologia",
+    "subheadlineTemplate": "Ginecologia profesional en {{city}}."
+  }
+}

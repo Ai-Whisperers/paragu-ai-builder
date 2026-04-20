@@ -1,0 +1,40 @@
+{
+  "description": "Pets & Animals minimal starter kit.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "sections": [
+        {
+          "id": "header",
+          "variant": "standard",
+          "content": "navigation"
+        },
+        {
+          "id": "hero",
+          "variant": "image",
+          "content": "home.hero"
+        },
+        {
+          "id": "services",
+          "variant": "grid",
+          "content": "home.services"
+        },
+        {
+          "id": "contact",
+          "variant": "split",
+          "content": "home.contact"
+        },
+        {
+          "id": "footer",
+          "variant": "standard",
+          "content": "footer"
+        },
+        {
+          "id": "whatsapp-float",
+          "variant": "standard",
+          "content": "whatsapp"
+        }
+      ]
+    }
+  }
+}

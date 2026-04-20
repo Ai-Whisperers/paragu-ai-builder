@@ -1,0 +1,22 @@
+{
+  "id": "lighthouse_stay",
+  "nameEs": "Estancia en Faro",
+  "nameEn": "Lighthouse Stay",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "specialty-lodging",
+  "extends": "restaurant",
+  "tokens": "lighthouse_stay",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Estancia en Faro en {{city}}",
+    "descriptionTemplate": "Estancia en Faro profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estancia en faro {{city}}",
+      "lighthouse stay {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estancia en Faro",
+    "subheadlineTemplate": "Estancia en Faro profesional en {{city}}."
+  }
+}

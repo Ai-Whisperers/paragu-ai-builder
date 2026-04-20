@@ -1,0 +1,22 @@
+{
+  "id": "pain_management_clinic",
+  "nameEs": "Clinica del Dolor",
+  "nameEn": "Pain Management",
+  "verticalId": "health-wellness",
+  "subVertical": "specialty-medical",
+  "extends": "health_wellness_base",
+  "tokens": "pain_management_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica del Dolor en {{city}}",
+    "descriptionTemplate": "Clinica del Dolor profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica del dolor {{city}}",
+      "pain management {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica del Dolor",
+    "subheadlineTemplate": "Clinica del Dolor profesional en {{city}}."
+  }
+}

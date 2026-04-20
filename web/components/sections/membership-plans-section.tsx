@@ -64,7 +64,7 @@ export function MembershipPlansSection({
                 </span>
               )}
 
-              <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
+              <Heading level={3} className="text-xl font-bold mb-2">{plan.name}</Heading>
               <div className="mb-4">
                 <span className="text-3xl font-bold">{plan.price}</span>
                 {plan.period && (

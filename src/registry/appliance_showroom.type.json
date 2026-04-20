@@ -1,0 +1,22 @@
+{
+  "id": "appliance_showroom",
+  "nameEs": "Electrodomesticos",
+  "nameEn": "Appliance Showroom",
+  "verticalId": "retail-local",
+  "subVertical": "electronics-appliance",
+  "extends": "retail_base",
+  "tokens": "appliance_showroom",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Electrodomesticos en {{city}}",
+    "descriptionTemplate": "Electrodomesticos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "electrodomesticos {{city}}",
+      "appliance showroom {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Electrodomesticos",
+    "subheadlineTemplate": "Electrodomesticos profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "poultry_farm",
+  "nameEs": "Granja Avicola",
+  "nameEn": "Poultry Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "livestock-ranch",
+  "extends": "agriculture_base",
+  "tokens": "poultry_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja Avicola en {{city}}",
+    "descriptionTemplate": "Granja Avicola profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja avicola {{city}}",
+      "poultry farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja Avicola",
+    "subheadlineTemplate": "Granja Avicola profesional en {{city}}."
+  }
+}

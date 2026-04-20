@@ -1,0 +1,32 @@
+{
+  "id": "arts-entertainment-venues",
+  "name": "Arts & Entertainment Venues",
+  "nameEs": "Artes y Entretenimiento",
+  "description": "Music venues, theaters, cinemas, galleries, escape rooms, comedy clubs, arcades, nightclubs, festivals. Ticketing-centric.",
+  "baseType": "entertainment_base",
+  "features": {
+    "i18n": false,
+    "eventsCalendar": true,
+    "ticketing": true,
+    "gallery": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "about",
+    "events-calendar",
+    "gallery",
+    "testimonials",
+    "faq",
+    "contact",
+    "business-hours",
+    "google-maps",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

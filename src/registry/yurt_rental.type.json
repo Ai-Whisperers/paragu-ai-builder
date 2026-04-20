@@ -1,0 +1,22 @@
+{
+  "id": "yurt_rental",
+  "nameEs": "Alquiler de Yurta",
+  "nameEn": "Yurt Rental",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "rv-camping",
+  "extends": "restaurant",
+  "tokens": "yurt_rental",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler de Yurta en {{city}}",
+    "descriptionTemplate": "Alquiler de Yurta profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler de yurta {{city}}",
+      "yurt rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler de Yurta",
+    "subheadlineTemplate": "Alquiler de Yurta profesional en {{city}}."
+  }
+}

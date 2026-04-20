@@ -1,0 +1,22 @@
+{
+  "id": "seo_agency",
+  "nameEs": "Agencia SEO",
+  "nameEn": "SEO Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "seo_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia SEO en {{city}}",
+    "descriptionTemplate": "Agencia SEO profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia seo {{city}}",
+      "seo agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia SEO",
+    "subheadlineTemplate": "Agencia SEO profesional en {{city}}."
+  }
+}

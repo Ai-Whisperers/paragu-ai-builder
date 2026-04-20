@@ -1,0 +1,22 @@
+{
+  "id": "water_park",
+  "nameEs": "Parque Acuatico",
+  "nameEn": "Water Park",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "amusement-family",
+  "extends": "entertainment_base",
+  "tokens": "water_park",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Parque Acuatico en {{city}}",
+    "descriptionTemplate": "Parque Acuatico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "parque acuatico {{city}}",
+      "water park {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Parque Acuatico",
+    "subheadlineTemplate": "Parque Acuatico profesional en {{city}}."
+  }
+}

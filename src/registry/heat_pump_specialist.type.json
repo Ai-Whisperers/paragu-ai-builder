@@ -1,0 +1,22 @@
+{
+  "id": "heat_pump_specialist",
+  "nameEs": "Bomba de Calor",
+  "nameEn": "Heat Pump Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "hvac",
+  "extends": "trades_base",
+  "tokens": "heat_pump_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Bomba de Calor en {{city}}",
+    "descriptionTemplate": "Bomba de Calor profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bomba de calor {{city}}",
+      "heat pump specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bomba de Calor",
+    "subheadlineTemplate": "Bomba de Calor profesional en {{city}}."
+  }
+}

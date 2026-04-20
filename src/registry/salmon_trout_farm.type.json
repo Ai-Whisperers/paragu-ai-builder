@@ -1,0 +1,22 @@
+{
+  "id": "salmon_trout_farm",
+  "nameEs": "Granja Salmonera",
+  "nameEn": "Salmon Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "aquaculture",
+  "extends": "agriculture_base",
+  "tokens": "salmon_trout_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja Salmonera en {{city}}",
+    "descriptionTemplate": "Granja Salmonera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja salmonera {{city}}",
+      "salmon farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja Salmonera",
+    "subheadlineTemplate": "Granja Salmonera profesional en {{city}}."
+  }
+}

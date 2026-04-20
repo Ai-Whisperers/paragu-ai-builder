@@ -1,0 +1,22 @@
+{
+  "id": "process_service_investigator",
+  "nameEs": "Notificador",
+  "nameEn": "Process Service",
+  "verticalId": "b2b-professional",
+  "subVertical": "investigations-security",
+  "extends": "professional_services_base",
+  "tokens": "process_service_investigator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Notificador en {{city}}",
+    "descriptionTemplate": "Notificador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "notificador {{city}}",
+      "process service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Notificador",
+    "subheadlineTemplate": "Notificador profesional en {{city}}."
+  }
+}

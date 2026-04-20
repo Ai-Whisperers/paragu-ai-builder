@@ -1,0 +1,28 @@
+{
+  "name": "Food warm appetite",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Tomato & Cream",
+      "colors": {
+        "primary": "#B91C1C",
+        "secondary": "#92400E",
+        "accent": "#FCD34D",
+        "background": "#FFFBF5",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FEF3E2",
+        "text": "#1F1109",
+        "textLight": "#3D261A",
+        "textMuted": "#7A5F50"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Lora', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Lora:wght@500;600;700", "Inter:wght@400;500;600"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ux_design_bootcamp",
+  "nameEs": "Bootcamp UX",
+  "nameEn": "UX Bootcamp",
+  "verticalId": "education-training",
+  "subVertical": "tech-bootcamp",
+  "extends": "educacion",
+  "tokens": "ux_design_bootcamp",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Bootcamp UX en {{city}}",
+    "descriptionTemplate": "Bootcamp UX profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bootcamp ux {{city}}",
+      "ux bootcamp {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bootcamp UX",
+    "subheadlineTemplate": "Bootcamp UX profesional en {{city}}."
+  }
+}

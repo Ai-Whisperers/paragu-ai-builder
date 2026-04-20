@@ -1,0 +1,22 @@
+{
+  "id": "espresso_bar",
+  "nameEs": "Bar de Espresso",
+  "nameEn": "Espresso Bar",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "espresso_bar",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Bar de Espresso en {{city}}",
+    "descriptionTemplate": "Bar de Espresso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bar de espresso {{city}}",
+      "espresso bar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bar de Espresso",
+    "subheadlineTemplate": "Bar de Espresso profesional en {{city}}."
+  }
+}

@@ -6,7 +6,7 @@
  */
 
 import type { BusinessData } from './compose'
-import { getDemoBusiness, getDemoBusinessBySlug, getAllDemoSlugs, RELOCATION_DEMO_BUSINESSES, DEMO_BUSINESSES } from './demo-data'
+import { getDemoBusinessBySlug, getAllDemoSlugs, DEMO_BUSINESSES } from './demo-data'
 import { logger } from '@/lib/logger'
 
 function isStaticGenerationCookieError(message: string): boolean {
@@ -85,6 +85,8 @@ function rowToBusinessData(row: BusinessRow): BusinessData {
 }
 
 async function loadFromSupabase(slug: string): Promise<BusinessData | null> {
+  // TODO: Implement Redis caching for business data to reduce DB load
+  // TODO: Add stale-while-revalidate pattern for better performance
   // Skip Supabase during static generation to avoid cookie usage
   if (process.env.NEXT_PHASE === 'phase-production-build' || process.env.NEXT_PHASE === 'phase-export') {
     return null

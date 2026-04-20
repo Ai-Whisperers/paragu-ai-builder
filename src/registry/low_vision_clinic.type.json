@@ -1,0 +1,22 @@
+{
+  "id": "low_vision_clinic",
+  "nameEs": "Baja Vision",
+  "nameEn": "Low Vision Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "vision-hearing",
+  "extends": "health_wellness_base",
+  "tokens": "low_vision_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Baja Vision en {{city}}",
+    "descriptionTemplate": "Baja Vision profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "baja vision {{city}}",
+      "low vision clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Baja Vision",
+    "subheadlineTemplate": "Baja Vision profesional en {{city}}."
+  }
+}

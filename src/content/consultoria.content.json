@@ -1,0 +1,34 @@
+{
+  "id": "consultoria",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Consultoria que impulsa resultados",
+    "subheadline": "Asesoramiento estrategico para empresas en crecimiento en {{city}}.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Nuestros Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} ayudamos a empresas a identificar oportunidades, optimizar procesos y tomar decisiones basadas en datos."
+  },
+  "services": {
+    "title": "Servicios",
+    "categories": [
+      { "id": "estrategia", "name": "Estrategia", "description": "Planificacion estrategica y roadmap." },
+      { "id": "procesos", "name": "Optimizacion de Procesos", "description": "Mapeo, mejora y automatizacion." },
+      { "id": "gestion", "name": "Gestion y Control", "description": "KPIs, dashboards, reportes." },
+      { "id": "transformacion", "name": "Transformacion Digital", "description": "Adopcion de tecnologia y datos." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Nos ayudaron a reorganizar la operacion en 3 meses. Resultados medibles.", "author": "CEO, PYME", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Atienden PYMES?", "a": "Si, trabajamos con empresas de 5 a 500 empleados." },
+    { "q": "Cuanto dura un proyecto?", "a": "Entre 6 y 16 semanas segun alcance." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Consultoria en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

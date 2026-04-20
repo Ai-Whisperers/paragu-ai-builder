@@ -1,0 +1,22 @@
+{
+  "id": "jump_start_service",
+  "nameEs": "Servicio Arranque",
+  "nameEn": "Jump Start",
+  "verticalId": "automotive",
+  "subVertical": "towing-roadside",
+  "extends": "automotive_base",
+  "tokens": "jump_start_service",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Servicio Arranque en {{city}}",
+    "descriptionTemplate": "Servicio Arranque profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio arranque {{city}}",
+      "jump start {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio Arranque",
+    "subheadlineTemplate": "Servicio Arranque profesional en {{city}}."
+  }
+}
