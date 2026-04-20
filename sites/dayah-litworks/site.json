@@ -1,0 +1,30 @@
+{
+  "vertical": "portfolio-professional",
+  "businessType": "diseno_grafico",
+  "country": "Paraguay",
+  "domain": "dayah-litworks.com",
+  "stagingDomain": "staging.dayah-litworks.com",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "email": "dayah@litworks.com",
+    "whatsapp": "+595981000000",
+    "instagram": "@dayah.litworks"
+  },
+  "location": {
+    "city": "Asuncion"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "migratedFrom": "web/lib/engine/demo-data.ts",
+  "migratedAt": "2026-04-20"
+}

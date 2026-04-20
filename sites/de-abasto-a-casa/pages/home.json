@@ -1,8 +1,7 @@
 {
-  "slug": "home",
+  "slug": "",
   "titleKey": "home.seo.title",
   "descriptionKey": "home.seo.description",
-  "schemaType": "RealEstateAgent",
   "sections": [
     {
       "id": "header",
@@ -11,18 +10,28 @@
     },
     {
       "id": "hero",
-      "variant": "split",
+      "variant": "image",
       "content": "home.hero"
     },
     {
       "id": "services",
       "variant": "cards",
-      "content": "servicesPage.services"
+      "content": "home.services"
+    },
+    {
+      "id": "team",
+      "variant": "cards",
+      "content": "home.team"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
     },
     {
       "id": "contact",
       "variant": "split",
-      "content": "contact"
+      "content": "home.contact"
     },
     {
       "id": "footer",

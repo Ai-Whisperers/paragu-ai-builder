@@ -45,31 +45,49 @@
       "ctaSecondaryHref": "/s/es/nexa-propiedades/contacto"
     }
   },
-  "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Todo lo que necesitas para tu inversión inmobiliaria",
-    "services": [
-      {
-        "name": "Compra de Propiedades",
-        "description": "Te acompañamos desde la búsqueda hasta la escritura.",
-        "price": "Consultar"
-      },
-      {
-        "name": "Venta de Propiedades",
-        "description": "Valoración justa y marketing profesional.",
-        "price": "2% comisión"
-      },
-      {
-        "name": "Alquileres",
-        "description": "Gestión completa de propiedades en alquiler.",
-        "price": "10% mensual"
-      },
-      {
-        "name": "Asesoría Legal",
-        "description": "Verificación documental completa.",
-        "price": "Desde $200"
-      }
-    ]
+  "servicesPage": {
+    "seo": {
+      "title": "Servicios — Nexa Propiedades",
+      "description": "Servicios inmobiliarios integrales para comprar, vender o alquilar propiedades en Paraguay."
+    },
+    "hero": {
+      "headline": "Nuestros Servicios",
+      "subheadline": "Soluciones integrales para tus necesidades inmobiliarias."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "services": [
+        {
+          "name": "Compra de Propiedades",
+          "description": "Te acompañamos desde la búsqueda hasta la escritura.",
+          "price": "Consultar"
+        },
+        {
+          "name": "Venta de Propiedades",
+          "description": "Valoración justa y marketing profesional.",
+          "price": "2% comisión"
+        },
+        {
+          "name": "Alquileres",
+          "description": "Gestión completa de propiedades en alquiler.",
+          "price": "10% mensual"
+        },
+        {
+          "name": "Asesoría Legal",
+          "description": "Verificación documental completa.",
+          "price": "Desde $200"
+        }
+      ]
+    },
+    "calculator": {
+      "title": "Calculadora de Hipoteca",
+      "description": "Estima tu cuota mensual para comprar una propiedad en Paraguay."
+    },
+    "cta": {
+      "title": "¿Necesitas un servicio personalizado?",
+      "buttonText": "Contáctanos",
+      "buttonHref": "/s/es/nexa-propiedades/contacto"
+    }
   },
   "contact": {
     "title": "Contacto",
@@ -89,5 +107,63 @@
   "whatsapp": {
     "phone": "+595 981 234 567",
     "message": "Hola, me interesa conocer más sobre las propiedades disponibles."
+  },
+  "propertiesPage": {
+    "seo": {
+      "title": "Propiedades en Venta — Nexa Propiedades Paraguay",
+      "description": "Explora nuestra selección de casas, departamentos y terrenos en Paraguay."
+    },
+    "hero": {
+      "headline": "Nuestras Propiedades",
+      "subheadline": "Encuentra la propiedad perfecta para ti."
+    },
+    "listings": {
+      "title": "Propiedades Disponibles",
+      "properties": [
+        {
+          "id": "prop-1",
+          "title": "Casa Moderna en Asunción",
+          "location": "Barrio Jara, Asunción",
+          "price": "$250,000",
+          "type": "Casa",
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "area": "350 m²",
+          "image": "/sites/nexa-propiedades/images/properties/casa-1.jpg"
+        },
+        {
+          "id": "prop-2",
+          "title": "Departamento de Lujo",
+          "location": "Villa Morra, Asunción",
+          "price": "$180,000",
+          "type": "Departamento",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": "120 m²",
+          "image": "/sites/nexa-propiedades/images/properties/depto-1.jpg"
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿No encontraste lo que buscabas?",
+      "buttonText": "Contactar un Agente",
+      "buttonHref": "/s/es/nexa-propiedades/contacto"
+    }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contacto — Nexa Propiedades Paraguay",
+      "description": "Habla con nuestros agentes inmobiliarios expertos."
+    },
+    "hero": {
+      "headline": "Contacto",
+      "subheadline": "Estamos aquí para ayudarte a encontrar tu propiedad ideal."
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "phone": "+595 981 234 567",
+      "email": "info@nexapropiedades.com",
+      "address": "Av. Aviadores del Chaco 1234, Asunción"
+    }
   }
 }

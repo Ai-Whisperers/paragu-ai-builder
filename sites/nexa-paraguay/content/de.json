@@ -1,4 +1,8 @@
 {
+  "_meta": {
+    "translationQuality": "machine",
+    "notes": "Seeded MT output. Needs professional DE translation before production. Flagged in sites/nexa-paraguay/docs/LAUNCH.md item #8."
+  },
   "siteName": "Nexa Paraguay",
   "tagline": "Ihr neuer Anfang in Paraguay, einfach und souverän",
   "placeholders": {
@@ -444,6 +448,7 @@
     "pillars": {
       "eyebrow": "Warum Paraguay",
       "title": "Eine reale Chance für europäische Investoren",
+      "honestNote": "Die Chance ist real, aber der Prozess ist ohne geeignete Anleitung nicht einfach. Genau dafür sind wir da.",
       "pillars": [
         {
           "icon": "TrendingUp",
@@ -475,8 +480,7 @@
             "Persönliche Sicherheit"
           ]
         }
-      ],
-      "honestNote": "Die Chance ist real, aber der Prozess ist ohne geeignete Anleitung nicht einfach. Genau dafür sind wir da."
+      ]
     },
     "trust": {
       "eyebrow": "Warum Nexa Paraguay",
