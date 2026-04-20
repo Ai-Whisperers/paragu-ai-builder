@@ -3,15 +3,16 @@
 import { useState, useEffect } from 'react'
 import {
   Scissors, Dumbbell, Flower2, Hand, PenTool, User, Sparkles,
-  Palette, Zap, Eye, Star, Globe, Smartphone, Search, MessageCircle,
+  Palette, Zap, Eye, Globe, Smartphone, Search, MessageCircle,
   ArrowRight, BarChart3, Layers, Wand2,
   MapPin, Users, TrendingUp, ShoppingCart, Check, X,
-  Quote, Menu, X as XIcon, ChevronDown, ArrowUp, PlayCircle,
-  UtensilsCrossed, Fish, CircleDot, Mail
+  Menu, X as XIcon, ChevronDown, PlayCircle,
+  UtensilsCrossed, Fish, CircleDot, Mail,
+  RotateCcw, Activity, Unlock, ExternalLink,
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
-import { useInView, useScrollProgress, useActiveSection, useCountUp } from '@/lib/hooks'
+import { useActiveSection, useCountUp } from '@/lib/hooks'
 import { FadeIn } from '@/components/landing/fade-in'
 import { FAQItem } from '@/components/landing/faq-item'
 import { TestimonialCarousel } from '@/components/landing/testimonial-carousel'
@@ -38,9 +39,9 @@ const TEMPLATES = [
   { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
   { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
-  { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 800, pct: 65, color: '#8B4513', demoSlug: 'la-trattoria' },
-  { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 350, pct: 70, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
-  { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 200, pct: 75, color: '#2196F3', demoSlug: 'kaiten-express' },
+  { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
+  { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
+  { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3', demoSlug: 'kaiten-express' },
   { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#e84393', demoSlug: null },
   { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
   { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a', demoSlug: null },
@@ -60,65 +61,171 @@ const FEATURES = [
 ]
 
 const STEPS = [
-  { num: '01', title: 'Selecciona tu tipo de negocio', desc: 'Elegí entre nuestras plantillas o pedí una generación IA adaptada a tu rubro.' },
-  { num: '02', title: 'Completa tus datos', desc: 'Nombre, servicios, precios, horarios, equipo — todo lo que tu negocio necesita.' },
-  { num: '03', title: 'Tu sitio está listo', desc: 'En minutos tenés un sitio web profesional, optimizado y listo para recibir clientes.' },
+  { num: '01', title: 'Contanos por WhatsApp', desc: 'Nos mandás el nombre del negocio, tus servicios, precios y fotos. Sin formularios complicados.' },
+  { num: '02', title: 'Armamos tu demo', desc: 'En 24 horas te mandamos un link con tu sitio listo. Lo revisás, pedís ajustes, y recién después pagás.' },
+  { num: '03', title: 'Lanzamos y mantenemos', desc: 'Publicamos en tu dominio .com.py con SSL, SEO y analytics. Cambios mensuales incluidos por WhatsApp.' },
 ]
 
 const TESTIMONIALS = [
-  { name: 'María González', business: 'Peluquería María', location: 'Asunción', quote: 'En 15 minutos tenía mi sitio web listo. Mis clientes me encuentran en Google ahora.', rating: 5 },
-  { name: 'Carlos Ramírez', business: 'Gimnasio FitLife', location: 'Luque', quote: 'El dominio propio me dio mucha credibilidad. Mis inscriptos aumentaron un 40%.', rating: 5 },
-  { name: 'Ana López', business: 'Spa Serenidad', location: 'San Lorenzo', quote: 'Nunca pensé que tener una web sería tan fácil. El diseño quedó hermoso.', rating: 5 },
-  { name: 'Roberto Martínez', business: 'Barbería El Rey', location: 'Asunción', quote: 'Mis clientes reservan por WhatsApp desde el sitio. Me ahorró mucho tiempo.', rating: 5 },
+  {
+    name: 'Equipo Nexa Paraguay',
+    business: 'Nexa Paraguay · Reubicación Europa → PY',
+    location: 'Asunción',
+    quote: 'Necesitábamos un sitio serio en 4 idiomas (ES/EN/DE/NL) para clientes europeos que evalúan mudarse. ParaguAI lo entregó sin que toquemos código y lo replicó para Uruguay en días.',
+    rating: 5,
+  },
+  {
+    name: 'Dayah',
+    business: 'Dayah Litworks · Diseño de tapas de libros',
+    location: 'Remoto',
+    quote: 'Mi portafolio antes estaba en Instagram. Ahora los autores que me contratan me ven con un sitio profesional en USD, con proceso de encargo claro. Cerré 3 comisiones en el primer mes.',
+    rating: 5,
+  },
+  {
+    name: 'Iván',
+    business: 'De Abasto a Casa · Meal prep semanal',
+    location: 'Asunción',
+    quote: 'Mandé los datos por WhatsApp un jueves y el lunes el sitio estaba online con menú semanal, precios en Gs y botón de pedido. Los clientes reservan solos, dejé de perder pedidos en los grupos.',
+    rating: 5,
+  },
+]
+
+const GUARANTEES = [
+  { icon: PlayCircle, title: 'Demo antes de pagar', desc: 'Ves tu sitio primero, pagás después.' },
+  { icon: RotateCcw, title: '30 días de garantía', desc: 'Si no te convence, te devolvemos el setup.' },
+  { icon: Activity, title: 'Uptime 99.9%', desc: 'Infraestructura Cloudflare + Supabase.' },
+  { icon: Unlock, title: 'Sin permanencia', desc: 'Cancelás cuando quieras, te llevás tu dominio.' },
+]
+
+const REAL_CLIENTS = [
+  {
+    name: 'Nexa Paraguay',
+    tagline: 'Reubicación Europa → Paraguay',
+    vertical: 'Relocation · 4 idiomas',
+    href: '/s/es/nexa-paraguay',
+    color: '#1e3a5f',
+  },
+  {
+    name: 'Nexa Propiedades',
+    tagline: 'Inmobiliaria residencial PY',
+    vertical: 'Real estate · 3 idiomas',
+    href: '/s/es/nexa-propiedades',
+    color: '#2d6a4f',
+  },
+  {
+    name: 'Nexa Uruguay',
+    tagline: 'Reubicación Europa → Uruguay',
+    vertical: 'Relocation · replicado en días',
+    href: '/s/es/nexa-uruguay',
+    color: '#5b8bc9',
+  },
+  {
+    name: 'Dayah Litworks',
+    tagline: 'Diseño de tapas de libros',
+    vertical: 'Portfolio · pago en USD',
+    href: '/dayah-litworks',
+    color: '#c44569',
+  },
+  {
+    name: 'De Abasto a Casa',
+    tagline: 'Meal prep semanal en Asunción',
+    vertical: 'Food · pedidos por WhatsApp',
+    href: '/de-abasto-a-casa',
+    color: '#3a6b4a',
+  },
 ]
 
 const PLANS = [
   {
-    name: 'Básico',
-    price: 'Gratis',
-    period: '',
-    description: 'Perfecto para probar y comenzar',
+    name: 'Prueba',
+    setup: 'Gratis',
+    monthly: '6 meses',
+    period: 'sin costo',
+    description: 'Para validar antes de invertir',
     features: [
-      { text: 'Subdomain (negocio.paragu-ai.com)', included: true },
-      { text: '1 página básica', included: true },
-      { text: 'Botón de WhatsApp', included: true },
-      { text: 'Diseño profesional', included: true },
+      { text: 'Subdominio (negocio.paragu-ai.com)', included: true },
+      { text: '1 página lista para compartir', included: true },
+      { text: 'WhatsApp + Google Maps', included: true },
+      { text: 'Certificado SSL incluido', included: true },
       { text: 'Dominio propio', included: false },
-      { text: 'Sin anuncios', included: false },
-      { text: 'SEO avanzado', included: false },
+      { text: 'Sin branding ParaguAI', included: false },
+      { text: 'Soporte personalizado', included: false },
     ],
-    cta: 'Comenzar Gratis',
+    cta: 'Solicitar demo',
+    waMessage: 'Hola, quiero probar ParaguAI gratis para mi negocio.',
     popular: false,
   },
   {
-    name: 'Profesional',
-    price: '299.000',
-    period: 'Gs/mes',
-    description: 'Lo que tu negocio necesita',
+    name: 'Presencia',
+    setup: 'Gs 650.000',
+    monthly: 'Gs 100.000',
+    period: 'por mes',
+    description: 'Tu primer sitio profesional',
     features: [
-      { text: 'Dominio propio (.com.py)', included: true },
-      { text: 'Páginas ilimitadas', included: true },
-      { text: 'Sin anuncios de ParaguAI', included: true },
-      { text: 'SEO avanzado', included: true },
-      { text: 'WhatsApp Business', included: true },
-      { text: 'Analytics detallado', included: true },
-      { text: 'Soporte prioritario', included: true },
+      { text: 'Hasta 5 páginas', included: true },
+      { text: 'Dominio propio (.com.py) incluido 1 año', included: true },
+      { text: 'Hasta 15 fotos optimizadas', included: true },
+      { text: 'Formulario + WhatsApp Business', included: true },
+      { text: 'SEO básico + Google Maps', included: true },
+      { text: '2 cambios de contenido al mes', included: true },
+      { text: 'Soporte por WhatsApp', included: true },
     ],
-    cta: 'Elegir Profesional',
+    cta: 'Comenzar Presencia',
+    waMessage: 'Hola, me interesa el plan Presencia (Gs 650.000 + 100.000/mes).',
+    popular: false,
+  },
+  {
+    name: 'Crecimiento',
+    setup: 'Gs 1.200.000',
+    monthly: 'Gs 150.000',
+    period: 'por mes',
+    description: 'Reservas, blog y e-commerce',
+    features: [
+      { text: 'Todo lo de Presencia', included: true },
+      { text: 'Páginas ilimitadas', included: true },
+      { text: 'Sistema de reservas online', included: true },
+      { text: 'Catálogo con hasta 20 productos', included: true },
+      { text: 'Blog y analytics', included: true },
+      { text: 'SEO avanzado + Schema.org', included: true },
+      { text: '5 cambios al mes + soporte prioritario', included: true },
+    ],
+    cta: 'Comenzar Crecimiento',
+    waMessage: 'Hola, me interesa el plan Crecimiento (Gs 1.200.000 + 150.000/mes).',
     popular: true,
+  },
+  {
+    name: 'Profesional',
+    setup: 'Gs 2.200.000',
+    monthly: 'Gs 300.000',
+    period: 'por mes',
+    description: 'Cadenas, franquicias, multi-sucursal',
+    features: [
+      { text: 'Todo lo de Crecimiento', included: true },
+      { text: 'Hasta 5 sucursales / locales', included: true },
+      { text: 'Sitio multi-idioma (es/en/pt)', included: true },
+      { text: 'Integraciones personalizadas', included: true },
+      { text: 'Account manager dedicado', included: true },
+      { text: 'SLA 99.9% uptime', included: true },
+      { text: '10 horas de desarrollo al mes', included: true },
+    ],
+    cta: 'Hablar con ventas',
+    waMessage: 'Hola, me interesa el plan Profesional (Gs 2.200.000 + 300.000/mes).',
+    popular: false,
   },
 ]
 
 const FAQS = [
-  { question: '¿Cuánto tiempo tarda en estar listo mi sitio?', answer: 'En tan solo 15 minutos. Nuestro motor de IA genera tu sitio automáticamente basándose en el tipo de negocio y la información que proporciones.' },
-  { question: '¿Necesito conocimientos técnicos?', answer: 'No necesitas saber programar. Solo seleccionas tu tipo de negocio, completas tus datos y el resto lo hace nuestra IA.' },
-  { question: '¿Puedo cambiar el diseño después?', answer: 'Sí, puedes modificar colores, textos, imágenes y estructura desde tu panel de administración en cualquier momento.' },
-  { question: '¿Qué incluye el dominio propio?', answer: 'El plan Profesional incluye un dominio .com.py gratuito con certificado SSL. También puedes usar tu dominio existente.' },
-  { question: '¿Cómo funciona el pago?', answer: 'Aceptamos transferencia bancaria y Mercado Pago. El plan Profesional es de 299.000 Gs/mes con facturación mensual.' },
-  { question: '¿Puedo usar mi propio dominio?', answer: 'Sí, puedes conectar cualquier dominio que ya tengas. Te ayudamos con la configuración sin costo adicional.' },
+  { question: '¿Cuánto tiempo tarda en estar listo mi sitio?', answer: 'Entre 24 y 48 horas desde que recibimos tus datos. Nuestro motor genera el sitio base en minutos y un editor humano lo revisa, ajusta textos y optimiza imágenes antes de publicarlo. Vos no tocás nada.' },
+  { question: '¿Necesito conocimientos técnicos?', answer: 'Ninguno. Nosotros hacemos todo: diseño, textos, fotos, SEO, dominio y publicación. Vos nos mandás la info de tu negocio por WhatsApp y recibís el sitio listo.' },
+  { question: '¿Puedo probar antes de pagar?', answer: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 6 meses de prueba gratis en subdominio para validar que funciona.' },
+  { question: '¿Cómo funciona el pago?', answer: 'Setup único al inicio (una sola vez) + cuota mensual para hosting, dominio y soporte. Aceptamos Mercado Pago y transferencia bancaria. Sin contratos de permanencia.' },
+  { question: '¿Puedo cambiar el diseño después?', answer: 'Sí. Los planes Presencia y superiores incluyen cambios de contenido mensuales (2 a 10 según plan). Rediseños mayores se cotizan aparte.' },
+  { question: '¿Qué incluye el dominio propio?', answer: 'Los planes pagos incluyen un dominio .com.py gratis el primer año, configuración DNS, certificado SSL automático y emails profesionales (tunombre@tu-negocio.com.py).' },
+  { question: '¿Puedo usar mi dominio existente?', answer: 'Sí, conectamos cualquier dominio que ya tengas sin costo extra. También te ayudamos a migrar desde Wix, WordPress o tu web actual.' },
+  { question: '¿Qué pasa si no me gusta?', answer: 'Tenés 30 días de garantía. Si el sitio no te convence, te devolvemos el setup completo. Sin preguntas incómodas.' },
 ]
 
-const SECTIONS = ['plantillas', 'proyectos', 'como-funciona', 'funcionalidades', 'precios', 'faq']
+const SECTIONS = ['clientes', 'plantillas', 'como-funciona', 'funcionalidades', 'precios', 'testimonios', 'faq']
 
 /* ── Animation Components ───────────────────────────────────────── */
 
@@ -136,9 +243,9 @@ function Navigation() {
   }, [])
 
   const navLinks = [
+    { href: '#clientes', label: 'Clientes' },
     { href: '#plantillas', label: 'Plantillas' },
-    { href: '#como-funciona', label: 'Cómo Funciona' },
-    { href: '#funcionalidades', label: 'Funcionalidades' },
+    { href: '#como-funciona', label: 'Cómo funciona' },
     { href: '#precios', label: 'Precios' },
     { href: '#faq', label: 'FAQ' },
   ]
@@ -187,10 +294,19 @@ function Navigation() {
             <div className="flex items-center gap-3">
               <Link
                 href="/admin"
-                className="hidden rounded-xl bg-[var(--primary)] px-5 py-2.5 text-sm font-semibold text-[var(--primary-foreground)] transition-all hover:opacity-90 hover:shadow-lg md:block"
+                className="hidden text-sm font-medium text-[var(--text-light)] hover:text-[var(--primary)] md:block"
               >
-                Comenzar
+                Acceso clientes
               </Link>
+              <a
+                href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden rounded-xl bg-[var(--primary)] px-5 py-2.5 text-sm font-semibold text-[var(--primary-foreground)] transition-all hover:opacity-90 hover:shadow-lg md:inline-flex md:items-center md:gap-2"
+              >
+                <MessageCircle size={16} />
+                Pedir demo
+              </a>
               <button
                 onClick={() => setMobileMenuOpen(true)}
                 className="rounded-lg p-2 text-[var(--text)] md:hidden"
@@ -230,12 +346,22 @@ function Navigation() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--primary)] px-4 py-4 text-center text-lg font-semibold text-[var(--primary-foreground)]"
+            >
+              <MessageCircle size={18} />
+              Pedir demo por WhatsApp
+            </a>
             <Link
               href="/admin"
               onClick={() => setMobileMenuOpen(false)}
-              className="mt-4 rounded-xl bg-[var(--primary)] px-4 py-4 text-center text-lg font-semibold text-[var(--primary-foreground)]"
+              className="rounded-xl border border-[var(--border)] px-4 py-3 text-center text-sm font-medium text-[var(--text-light)]"
             >
-              Comenzar Ahora
+              Acceso clientes
             </Link>
           </div>
         </div>
@@ -285,36 +411,39 @@ export default function HomePage() {
 
               <FadeIn delay={150}>
                 <h1 className="mb-8 text-5xl font-extrabold leading-[1.1] tracking-tight text-[var(--text)] sm:text-6xl md:text-7xl lg:text-8xl">
-                  Sitios web{' '}
+                  Tu sitio web{' '}
                   <span className="bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] bg-clip-text text-transparent">
-                    profesionales
+                    profesional
                   </span>{' '}
-                  para tu negocio
+                  en 48 horas
                 </h1>
               </FadeIn>
 
               <FadeIn delay={300}>
                 <p className="mx-auto mb-10 max-w-2xl text-xl text-[var(--text-light)] md:text-2xl">
-                  Motor de generación con IA que crea sitios web profesionales, rápidos y optimizados. 
-                  En minutos, no en semanas.
+                  Todo incluido: diseño, textos, dominio, hosting, SEO y WhatsApp.
+                  Vos nos pasás los datos por WhatsApp, nosotros entregamos el sitio listo.
                 </p>
               </FadeIn>
 
               <FadeIn delay={450}>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                   <a
-                    href="#precios"
+                    href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
                   >
-                    Comenzar Ahora
+                    <MessageCircle size={20} />
+                    Pedir demo gratis
                     <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
                   </a>
                   <a
-                    href="#plantillas"
+                    href="#clientes"
                     className="group inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-8 py-4 text-lg font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
                   >
                     <PlayCircle size={20} />
-                    Ver Demo
+                    Ver clientes reales
                   </a>
                 </div>
               </FadeIn>
@@ -324,9 +453,9 @@ export default function HomePage() {
                 <div className="mx-auto mt-20 grid max-w-3xl grid-cols-2 gap-8 rounded-2xl border border-[var(--border)] bg-[var(--surface)]/80 p-8 backdrop-blur-sm sm:grid-cols-4">
                   {[
                     { value: '23', label: 'Plantillas' },
-                    { value: '7.4K+', label: 'Negocios' },
-                    { value: `${heroCount2}%`, label: 'Sin Web' },
-                    { value: '15min', label: 'Para crear' },
+                    { value: '7.4K+', label: 'Leads PY' },
+                    { value: `${heroCount2}%`, label: 'Sin web' },
+                    { value: '48h', label: 'Entrega' },
                   ].map((stat) => (
                     <div key={stat.label} className="text-center">
                       <p className="text-3xl font-bold text-[var(--primary)] md:text-4xl">{stat.value}</p>
@@ -343,6 +472,72 @@ export default function HomePage() {
                   <ChevronDown size={24} className="animate-bounce" />
                 </div>
               </FadeIn>
+            </div>
+          </Container>
+        </section>
+
+        {/* ── Guarantees Strip ───────────────────────────────────── */}
+        <section aria-label="Garantías" className="border-y border-[var(--border)] bg-[var(--surface)] py-10">
+          <Container>
+            <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+              {GUARANTEES.map((g) => {
+                const Icon = g.icon
+                return (
+                  <div key={g.title} className="flex items-start gap-3">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--primary)]/10 text-[var(--primary)]">
+                      <Icon size={20} />
+                    </div>
+                    <div>
+                      <p className="font-semibold text-[var(--text)]">{g.title}</p>
+                      <p className="text-sm text-[var(--text-muted)]">{g.desc}</p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </Container>
+        </section>
+
+        {/* ── Real Clients ───────────────────────────────────────── */}
+        <section id="clientes" className="scroll-mt-20 py-24 md:py-32">
+          <Container>
+            <FadeIn>
+              <div className="mx-auto mb-16 max-w-2xl text-center">
+                <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+                  Clientes reales
+                </p>
+                <h2 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+                  Sitios que están online hoy
+                </h2>
+                <p className="text-lg text-[var(--text-light)]">
+                  No son maquetas ni mockups. Son negocios paraguayos y de la región usando ParaguAI ahora mismo.
+                </p>
+              </div>
+            </FadeIn>
+
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+              {REAL_CLIENTS.map((c, i) => (
+                <FadeIn key={c.name} delay={i * 80}>
+                  <Link
+                    href={c.href}
+                    className="group relative block h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all duration-300 hover:-translate-y-2 hover:border-[var(--primary)]/30 hover:shadow-xl"
+                  >
+                    <div
+                      className="mb-4 h-1.5 w-12 rounded-full"
+                      style={{ backgroundColor: c.color }}
+                    />
+                    <h3 className="mb-2 text-lg font-bold text-[var(--text)]">{c.name}</h3>
+                    <p className="mb-1 text-sm text-[var(--text)]">{c.tagline}</p>
+                    <p className="mb-6 text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                      {c.vertical}
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)] opacity-70 transition-opacity group-hover:opacity-100">
+                      Visitar sitio
+                      <ExternalLink size={14} />
+                    </span>
+                  </Link>
+                </FadeIn>
+              ))}
             </div>
           </Container>
         </section>
@@ -392,8 +587,10 @@ export default function HomePage() {
                       <h3 className="mb-2 text-lg font-bold text-[var(--text)]">{t.name}</h3>
                       {t.leads > 0 ? (
                         <p className="mb-4 text-sm text-[var(--text-muted)]">
-                          {t.leads.toLocaleString()} negocios • {t.pct}% sin web
+                          Mercado PY: {t.leads.toLocaleString()} negocios · {t.pct}% sin web
                         </p>
+                      ) : isAvailable ? (
+                        <p className="mb-4 text-sm text-[var(--text-muted)]">Demo disponible</p>
                       ) : (
                         <p className="mb-4 text-sm text-[var(--text-muted)]">Próximamente</p>
                       )}
@@ -522,7 +719,7 @@ export default function HomePage() {
         </section>
 
         {/* ── Testimonials ────────────────────────────────────────── */}
-        <section className="bg-[var(--surface-light)] py-24 md:py-32">
+        <section id="testimonios" className="scroll-mt-20 bg-[var(--surface-light)] py-24 md:py-32">
           <Container>
             <FadeIn>
               <div className="mx-auto mb-16 max-w-2xl text-center">
@@ -556,11 +753,19 @@ export default function HomePage() {
               </div>
             </FadeIn>
 
-            <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
+            {/* ROI anchor */}
+            <FadeIn>
+              <p className="mx-auto mb-10 max-w-2xl text-center text-[var(--text-light)]">
+                <strong className="text-[var(--text)]">2 clientes nuevos al mes pagan tu plan.</strong>{' '}
+                Setup único + mensualidad baja. Sin permanencia, sin sorpresas. Pago en Gs por Mercado Pago o transferencia.
+              </p>
+            </FadeIn>
+
+            <div className="mx-auto grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {PLANS.map((plan, i) => (
-                <FadeIn key={plan.name} delay={i * 150}>
+                <FadeIn key={plan.name} delay={i * 100}>
                   <div
-                    className={`relative rounded-3xl border-2 p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${
+                    className={`relative flex h-full flex-col rounded-3xl border-2 p-7 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${
                       plan.popular
                         ? 'border-[var(--primary)] bg-gradient-to-b from-[var(--primary)]/5 to-transparent'
                         : 'border-[var(--border)] bg-[var(--surface)]'
@@ -568,25 +773,28 @@ export default function HomePage() {
                   >
                     {plan.popular && (
                       <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                        <span className="rounded-full bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] px-6 py-2 text-sm font-bold text-[var(--primary-foreground)] shadow-lg">
-                          Más Popular
+                        <span className="rounded-full bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] px-6 py-2 text-sm font-bold text-[var(--primary-foreground)] shadow-lg whitespace-nowrap">
+                          Más elegido
                         </span>
                       </div>
                     )}
 
                     <div className="mb-6 text-center">
-                      <h3 className="mb-2 text-2xl font-bold text-[var(--text)]">{plan.name}</h3>
-                      <div className="mb-2 flex items-baseline justify-center gap-2">
-                        <span className="text-5xl font-extrabold text-[var(--text)]">{plan.price}</span>
-                        {plan.period && <span className="text-[var(--text-muted)]">{plan.period}</span>}
+                      <h3 className="mb-2 text-xl font-bold text-[var(--text)]">{plan.name}</h3>
+                      <p className="mb-4 text-sm text-[var(--text-muted)]">{plan.description}</p>
+                      <div className="flex flex-col items-center gap-1 rounded-2xl bg-[var(--surface-light)] py-4 px-3">
+                        <span className="text-xs uppercase tracking-wider text-[var(--text-muted)]">Setup único</span>
+                        <span className="text-2xl font-extrabold text-[var(--text)]">{plan.setup}</span>
+                        <span className="mt-2 text-xs uppercase tracking-wider text-[var(--text-muted)]">Después</span>
+                        <span className="text-lg font-bold text-[var(--primary)]">{plan.monthly}</span>
+                        <span className="text-xs text-[var(--text-muted)]">{plan.period}</span>
                       </div>
-                      <p className="text-[var(--text-muted)]">{plan.description}</p>
                     </div>
 
-                    <ul className="mb-8 space-y-4">
+                    <ul className="mb-8 space-y-3">
                       {plan.features.map((feature, j) => (
-                        <li key={j} className="flex items-start gap-3">
-                          <div className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${feature.included ? 'bg-[var(--success)]/10 text-[var(--success)]' : 'bg-[var(--border)] text-[var(--text-muted)]'}`}>
+                        <li key={j} className="flex items-start gap-3 text-sm">
+                          <div className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${feature.included ? 'bg-[var(--success)]/10 text-[var(--success)]' : 'bg-[var(--border)] text-[var(--text-muted)]'}`}>
                             {feature.included ? <Check size={12} /> : <X size={12} />}
                           </div>
                           <span className={feature.included ? 'text-[var(--text)]' : 'text-[var(--text-muted)]'}>
@@ -596,16 +804,18 @@ export default function HomePage() {
                       ))}
                     </ul>
 
-                    <Link
-                      href="/admin"
-                      className={`block w-full rounded-2xl py-4 text-center text-lg font-bold transition-all ${
+                    <a
+                      href={`https://wa.me/595981234567?text=${encodeURIComponent(plan.waMessage)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`mt-auto block w-full rounded-2xl py-3.5 text-center text-sm font-bold transition-all ${
                         plan.popular
                           ? 'bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-[var(--primary-foreground)] hover:shadow-lg hover:opacity-90'
                           : 'border-2 border-[var(--border)] text-[var(--text)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
                       }`}
                     >
                       {plan.cta}
-                    </Link>
+                    </a>
                   </div>
                 </FadeIn>
               ))}
@@ -645,7 +855,7 @@ export default function HomePage() {
                     { value: '7.4K+', label: 'Negocios identificados' },
                     { value: '75%', label: 'Sin presencia web' },
                     { value: '209', label: 'Ciudades cubiertas' },
-                    { value: '15min', label: 'Para crear un sitio' },
+                    { value: '48h', label: 'De idea a online' },
                   ].map((stat) => (
                     <div key={stat.label} className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 text-center transition-all hover:-translate-y-1 hover:shadow-lg">
                       <p className="text-3xl font-bold text-[var(--primary)] md:text-4xl">{stat.value}</p>
@@ -674,13 +884,16 @@ export default function HomePage() {
                   Únete a los negocios paraguayos que están creciendo con una presencia web profesional.
                 </p>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-                  <Link
-                    href="/admin"
+                  <a
+                    href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-4 text-lg font-bold text-[var(--primary)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
                   >
-                    Comenzar Ahora
+                    <MessageCircle size={20} />
+                    Pedir demo por WhatsApp
                     <ArrowRight size={20} />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </FadeIn>
