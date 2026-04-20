@@ -250,6 +250,24 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['standard'],
     requiredContentFields: ['defaultPrincipal', 'currency', 'termYearsOptions', 'ratePresets'],
   },
+  'weekly-cadence-calendar': {
+    id: 'weekly-cadence-calendar',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['phases'],
+  },
+  'sample-week-preview': {
+    id: 'sample-week-preview',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['items'],
+  },
+  'delivery-slot-picker': {
+    id: 'delivery-slot-picker',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['slots'],
+  },
 }
 
 /**
