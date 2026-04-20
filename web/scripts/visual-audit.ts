@@ -97,6 +97,10 @@ async function capture(browser: Browser, route: RouteSpec, viewport: typeof VIEW
       viewport.name === 'mobile'
         ? 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1'
         : undefined,
+    // Respect prefers-reduced-motion so scroll-reveal animations (FadeIn)
+    // render opacity:1 immediately. Without this the fullPage screenshot
+    // captures below-the-fold sections at opacity:0.
+    reducedMotion: 'reduce',
   })
   const page = await context.newPage()
 
@@ -137,9 +141,23 @@ async function capture(browser: Browser, route: RouteSpec, viewport: typeof VIEW
     pageErrors.push(`goto failed: ${err instanceof Error ? err.message : String(err)}`)
   }
 
-  // Settle a little to let CSS + async renders finish
+  // Scroll through the whole page to trigger IntersectionObserver-based
+  // reveal animations (FadeIn / AnimateOnScroll). `triggerOnce: true` means
+  // once a section has passed through the viewport it stays visible — so we
+  // scroll bottom→top and then take the fullPage screenshot.
   if (!route.fast) {
-    await page.waitForTimeout(1200)
+    await page.waitForTimeout(600)
+    await page.evaluate(async () => {
+      const step = Math.max(300, window.innerHeight / 2)
+      const end = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)
+      for (let y = 0; y <= end; y += step) {
+        window.scrollTo(0, y)
+        await new Promise((r) => setTimeout(r, 120))
+      }
+      window.scrollTo(0, 0)
+      await new Promise((r) => setTimeout(r, 300))
+    })
+    await page.waitForTimeout(400)
   }
 
   const screenshotPath = resolve(OUT_DIR, `${route.name}.${viewport.name}.png`)
