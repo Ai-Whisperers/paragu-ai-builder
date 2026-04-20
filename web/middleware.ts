@@ -22,42 +22,8 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   const requestId = correlation.traceId
   const traceparent = toTraceparent(correlation.traceId, correlation.spanId)
 
-  // Tenant hostname rewrite: nexaparaguay.com → /s/<defaultLocale>/nexa-paraguay/...
-  // Map built from sites/*/site.json at request time (cached inside helper).
-  const host = request.headers.get('host')?.split(':')[0] || ''
-  const isBuilderRoot =
-    host.endsWith('.pages.dev') ||
-    host.endsWith('.vercel.app') ||
-    host === 'localhost' ||
-    host === '127.0.0.1'
-  if (
-    host &&
-    !isBuilderRoot &&
-    !path.startsWith('/s/') &&
-    !path.startsWith('/api/') &&
-    !path.startsWith('/admin')
-  ) {
-    try {
-      const { lookupSiteByHostname } = await import('@/lib/engine/hostname-mapping')
-      const mapping = lookupSiteByHostname(host)
-      if (mapping) {
-        const locale = request.cookies.get('NEXT_LOCALE')?.value || mapping.defaultLocale
-        const url = request.nextUrl.clone()
-        url.pathname = `/s/${locale}/${mapping.slug}${path === '/' ? '' : path}`
-        return NextResponse.rewrite(url)
-      }
-    } catch (error) {
-      logger.warn('Hostname rewrite skipped — falling back to original path', {
-        requestId,
-        host,
-        path,
-        error: error instanceof Error ? error.message : String(error),
-      })
-    }
-  }
-
   // Flat-slug rewrite: /<tenant-slug>[/...] → /s/<defaultLocale>/<slug>[/...]
-  // Lets `paragu-ai.com/nexaparaguay` resolve to the canonical locale route
+  // Lets `paragu-ai.com/nexa-paraguay` resolve to the canonical locale route
   // without duplicating tenant render logic in the flat `[business]` handler.
   // Only matches single-segment paths that correspond to a registered site.
   // Legacy demo tenants (salon-maria, gymfit-py, etc.) are NOT in sites/ so
@@ -71,7 +37,6 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
     path !== '/'
   ) {
     try {
-      const { lookupSiteByHostname: _lookup } = await import('@/lib/engine/hostname-mapping')
       const { listSiteSlugs, loadSite } = await import('@/lib/engine/site-loader')
       const firstSegment = path.split('/').filter(Boolean)[0] ?? ''
       const siteSlugs = listSiteSlugs()

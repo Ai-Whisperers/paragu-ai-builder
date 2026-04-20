@@ -8,9 +8,8 @@ export async function GET(
   { params }: { params: Promise<{ locale: string; site: string }> },
 ) {
   const { locale, site: slug } = await params
-  let site
-  try { site = loadSite(slug) } catch { return new NextResponse('Not found', { status: 404 }) }
-  const base = process.env.NEXT_PUBLIC_APP_URL || `https://${site.domain}`
+  try { loadSite(slug) } catch { return new NextResponse('Not found', { status: 404 }) }
+  const base = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
   const body = `User-agent: *
 Allow: /
 Sitemap: ${base}/s/${locale}/${slug}/sitemap.xml
