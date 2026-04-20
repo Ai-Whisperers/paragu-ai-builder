@@ -105,7 +105,7 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
               {verticalTemplates.map((t) => (
                 <Link
                   key={t.id}
-                  href={`/p/${t.seoSlug ?? t.id.replace(/_/g, '-')}`}
+                  href={`/c/${ciudad}/${t.seoSlug ?? t.id.replace(/_/g, '-')}`}
                   className="group rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
                 >
                   <div
@@ -114,13 +114,12 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
                     aria-hidden
                   />
                   <h3 className="text-lg font-bold text-[var(--text)]">{t.name}</h3>
-                  {t.leads > 0 && (
-                    <p className="mt-1 text-sm text-[var(--text-muted)]">
-                      Mercado PY total: {t.leads.toLocaleString('es-PY')} negocios
-                    </p>
-                  )}
+                  <p className="mt-1 text-sm text-[var(--text-muted)]">
+                    en {city.name}
+                    {t.leads > 0 && ` · mercado PY total ${t.leads.toLocaleString('es-PY')}`}
+                  </p>
                   <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]">
-                    Ver plantilla
+                    Ver landing local
                     <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                   </span>
                 </Link>

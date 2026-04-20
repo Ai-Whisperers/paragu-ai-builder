@@ -49,5 +49,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...verticalRoutes, ...caseRoutes, ...blogRoutes, ...cityRoutes]
+  // City × vertical long-tail SEO landings — all combinations.
+  const cityVerticalRoutes: MetadataRoute.Sitemap = CITIES.flatMap((c) =>
+    LIVE_TEMPLATES.map((t) => ({
+      url: `${BASE}/c/${c.slug}/${t.seoSlug ?? t.id.replace(/_/g, '-')}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    })),
+  )
+
+  return [
+    ...staticRoutes,
+    ...verticalRoutes,
+    ...caseRoutes,
+    ...blogRoutes,
+    ...cityRoutes,
+    ...cityVerticalRoutes,
+  ]
 }
