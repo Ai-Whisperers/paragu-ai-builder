@@ -1,0 +1,22 @@
+{
+  "id": "background_check_service",
+  "nameEs": "Verificacion Antecedentes",
+  "nameEn": "Background Check",
+  "verticalId": "b2b-professional",
+  "subVertical": "investigations-security",
+  "extends": "professional_services_base",
+  "tokens": "background_check_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Verificacion Antecedentes en {{city}}",
+    "descriptionTemplate": "Verificacion Antecedentes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "verificacion antecedentes {{city}}",
+      "background check {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Verificacion Antecedentes",
+    "subheadlineTemplate": "Verificacion Antecedentes profesional en {{city}}."
+  }
+}

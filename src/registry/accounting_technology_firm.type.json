@@ -1,0 +1,25 @@
+{
+  "id": "accounting_technology_firm",
+  "nameEs": "Firma Contabilidad Tech",
+  "nameEn": "Accounting Tech",
+  "verticalId": "finance-insurance",
+  "subVertical": "accounting-bookkeeping",
+  "extends": "finance_insurance_base",
+  "tokens": "accounting_technology_firm",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Firma Contabilidad Tech en {{city}}",
+    "descriptionTemplate": "Firma Contabilidad Tech profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "firma contabilidad tech {{city}}",
+      "accounting tech {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Firma Contabilidad Tech",
+    "subheadlineTemplate": "Firma Contabilidad Tech profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

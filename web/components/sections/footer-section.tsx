@@ -1,4 +1,5 @@
 import { Container } from '@/components/ui/container'
+import { Heading } from '@/components/ui/heading'
 
 export interface FooterSectionProps {
   businessName: string
@@ -31,12 +32,12 @@ export function FooterSection({
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* About */}
           <div>
-            <h3
+            <Heading level={3}
               className="mb-4 text-lg font-bold"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               {businessName}
-            </h3>
+            </Heading>
             <p className="text-sm opacity-80">
               {address && <span>{address}<br /></span>}
               {city}

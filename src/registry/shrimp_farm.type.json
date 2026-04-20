@@ -1,0 +1,22 @@
+{
+  "id": "shrimp_farm",
+  "nameEs": "Camaronera",
+  "nameEn": "Shrimp Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "aquaculture",
+  "extends": "agriculture_base",
+  "tokens": "shrimp_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Camaronera en {{city}}",
+    "descriptionTemplate": "Camaronera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "camaronera {{city}}",
+      "shrimp farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Camaronera",
+    "subheadlineTemplate": "Camaronera profesional en {{city}}."
+  }
+}

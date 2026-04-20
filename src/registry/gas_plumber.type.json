@@ -1,0 +1,25 @@
+{
+  "id": "gas_plumber",
+  "nameEs": "Gasista Matriculado",
+  "nameEn": "Gas Plumber",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "gas_plumber",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Gasista Matriculado en {{city}}",
+    "descriptionTemplate": "Gasista Matriculado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gasista matriculado {{city}}",
+      "gas plumber {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gasista Matriculado",
+    "subheadlineTemplate": "Gasista Matriculado profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

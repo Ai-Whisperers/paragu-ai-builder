@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { Button } from '@/components/ui/button'
 
 interface QuoteFormProps {
   onSubmit: (data: Record<string, string>) => Promise<void>
@@ -33,12 +34,12 @@ export default function QuoteForm({ onSubmit, services = [] }: QuoteFormProps) {
 
   if (status === 'success') {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-xl p-6 text-center">
-        <svg className="w-12 h-12 text-green-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div className="bg-[var(--color-success-surface)] border border-[var(--color-success)] rounded-xl p-6 text-center">
+        <svg className="w-12 h-12 text-[var(--color-success)] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
         </svg>
-        <h3 className="font-semibold text-green-800">¡Solicitud enviada!</h3>
-        <p className="text-green-600 text-sm mt-2">Te contactaremos con tu presupuesto pronto.</p>
+        <h3 className="font-semibold text-[var(--color-success)]">¡Solicitud enviada!</h3>
+        <p className="text-[var(--color-success)] text-sm mt-2">Te contactaremos con tu presupuesto pronto.</p>
       </div>
     )
   }
@@ -110,13 +111,15 @@ export default function QuoteForm({ onSubmit, services = [] }: QuoteFormProps) {
         />
       </div>
 
-      <button
+      <Button
         type="submit"
-        disabled={status === 'submitting'}
-        className="w-full bg-[var(--primary)] text-white font-medium py-3 rounded-lg hover:opacity-90 disabled:opacity-50"
+        size="lg"
+        isLoading={status === 'submitting'}
+        loadingText="Enviando…"
+        className="w-full bg-[var(--primary)] hover:opacity-90"
       >
-        {status === 'submitting' ? 'Enviando...' : 'Solicitar Presupuesto'}
-      </button>
+        Solicitar Presupuesto
+      </Button>
     </form>
   )
 }

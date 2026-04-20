@@ -1,0 +1,22 @@
+{
+  "id": "sugaring_studio",
+  "nameEs": "Depilacion con Azucar",
+  "nameEn": "Sugaring Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "body-hair-removal",
+  "extends": "beauty_base",
+  "tokens": "sugaring_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Depilacion con Azucar en {{city}}",
+    "descriptionTemplate": "Depilacion con Azucar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "depilacion con azucar {{city}}",
+      "sugaring studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Depilacion con Azucar",
+    "subheadlineTemplate": "Depilacion con Azucar profesional en {{city}}."
+  }
+}

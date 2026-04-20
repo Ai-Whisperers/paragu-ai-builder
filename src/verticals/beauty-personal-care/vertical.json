@@ -1,0 +1,24 @@
+{
+  "id": "beauty-personal-care",
+  "name": "Beauty & Personal Care",
+  "nameEs": "Cuidado Personal y Belleza",
+  "description": "Hair, nails, lashes, tattoo, makeup, spa. WhatsApp/Fresha booking, portfolio-driven, staff profiles, exact-price menus.",
+  "baseType": "beauty_base",
+  "features": {
+    "i18n": false,
+    "booking": true,
+    "portfolio": true,
+    "staffProfiles": true,
+    "whatsappFloat": true,
+    "testimonials": true,
+    "gallery": true
+  },
+  "allowedSections": [
+    "header", "hero", "services", "service-menu", "booking", "booking-wizard",
+    "staff-selector", "portfolio", "before-after", "gallery", "testimonials",
+    "faq", "cta-banner", "contact", "business-hours", "google-maps",
+    "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es"]
+}

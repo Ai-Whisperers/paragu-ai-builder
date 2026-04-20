@@ -1,0 +1,25 @@
+{
+  "id": "commercial_painter",
+  "nameEs": "Pintor Comercial",
+  "nameEn": "Commercial Painter",
+  "verticalId": "trades-home-services",
+  "subVertical": "painting-finishing",
+  "extends": "trades_base",
+  "tokens": "commercial_painter",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Pintor Comercial en {{city}}",
+    "descriptionTemplate": "Pintor Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pintor comercial {{city}}",
+      "commercial painter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pintor Comercial",
+    "subheadlineTemplate": "Pintor Comercial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

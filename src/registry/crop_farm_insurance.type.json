@@ -1,0 +1,22 @@
+{
+  "id": "crop_farm_insurance",
+  "nameEs": "Seguro Agricola",
+  "nameEn": "Crop Insurance",
+  "verticalId": "finance-insurance",
+  "subVertical": "insurance-specialty",
+  "extends": "finance_insurance_base",
+  "tokens": "crop_farm_insurance",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Seguro Agricola en {{city}}",
+    "descriptionTemplate": "Seguro Agricola profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "seguro agricola {{city}}",
+      "crop insurance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Seguro Agricola",
+    "subheadlineTemplate": "Seguro Agricola profesional en {{city}}."
+  }
+}

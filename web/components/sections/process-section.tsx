@@ -1,5 +1,7 @@
 'use client'
 
+import { Heading } from '@/components/ui/heading'
+
 import { useState } from 'react'
 
 interface ProcessStep {
@@ -33,9 +35,9 @@ export function ProcessSection({
     <section className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-4">
         {title && (
-          <h2 className="mb-4 text-3xl font-bold md:text-4xl" style={{ color: 'var(--primary)' }}>
+          <Heading level={2} className="mb-4 text-3xl font-bold md:text-4xl" style={{ color: 'var(--primary)' }}>
             {title}
-          </h2>
+          </Heading>
         )}
         {subtitle && (
           <p className="mb-12 max-w-2xl text-lg" style={{ color: 'var(--secondary)' }}>
@@ -75,12 +77,12 @@ export function ProcessSection({
                     >
                       Paso {step.number}
                     </span>
-                    <h3
+                    <Heading level={3}
                       className="mb-2 text-xl font-bold"
                       style={{ color: 'var(--foreground)' }}
                     >
                       {step.title}
-                    </h3>
+                    </Heading>
                     <p className="text-sm" style={{ color: 'var(--secondary)' }}>
                       {step.description}
                     </p>

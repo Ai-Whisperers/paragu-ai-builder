@@ -21,9 +21,15 @@
     "analytics": "ga4"
   },
   "features": {
-    "testimonials": false,
-    "blog": false,
-    "whatsappFloat": true
+    "testimonials": true,
+    "blog": true,
+    "whatsappFloat": true,
+    "heroImages": true,
+    "processImages": true
+  },
+  "images": {
+    "manifest": "/sites/nexa-uruguay/images.json",
+    "hero": "/sites/nexa-uruguay/images/hero/hero-bg.jpg"
   },
   "contact": {
     "whatsapp": "598000000000",

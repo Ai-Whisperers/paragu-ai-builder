@@ -1,0 +1,22 @@
+{
+  "id": "mobile_personal_trainer",
+  "nameEs": "Entrenador a Domicilio",
+  "nameEn": "Mobile Trainer",
+  "verticalId": "service-booking",
+  "subVertical": "personal-training",
+  "extends": "gimnasio",
+  "tokens": "mobile_personal_trainer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Entrenador a Domicilio en {{city}}",
+    "descriptionTemplate": "Entrenador a Domicilio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "entrenador a domicilio {{city}}",
+      "mobile trainer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Entrenador a Domicilio",
+    "subheadlineTemplate": "Entrenador a Domicilio profesional en {{city}}."
+  }
+}

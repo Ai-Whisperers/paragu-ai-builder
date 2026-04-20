@@ -1,0 +1,22 @@
+{
+  "id": "floor_leveling_specialist",
+  "nameEs": "Nivelado de Pisos",
+  "nameEn": "Floor Leveling",
+  "verticalId": "trades-home-services",
+  "subVertical": "flooring",
+  "extends": "trades_base",
+  "tokens": "floor_leveling_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Nivelado de Pisos en {{city}}",
+    "descriptionTemplate": "Nivelado de Pisos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "nivelado de pisos {{city}}",
+      "floor leveling {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Nivelado de Pisos",
+    "subheadlineTemplate": "Nivelado de Pisos profesional en {{city}}."
+  }
+}

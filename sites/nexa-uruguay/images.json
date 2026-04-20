@@ -1,0 +1,46 @@
+{
+  "tenant": "nexa-uruguay",
+  "totalImages": 8,
+  "images": {
+    "hero": {
+      "home": "/sites/nexa-uruguay/images/hero/hero-bg.jpg",
+      "alt": "Montevideo Uruguay skyline at sunset"
+    },
+    "whyUruguay": {
+      "economic": {
+        "src": "/sites/nexa-uruguay/images/why-uruguay/financial-district.jpg",
+        "alt": "Modern financial district in Montevideo"
+      },
+      "lifestyle": {
+        "src": "/sites/nexa-uruguay/images/why-uruguay/lifestyle.jpg",
+        "alt": "Uruguayan culture and lifestyle"
+      },
+      "education": {
+        "src": "/sites/nexa-uruguay/images/why-uruguay/education.jpg",
+        "alt": "Education and safety in Uruguay"
+      }
+    },
+    "process": {
+      "consultation": {
+        "src": "/sites/nexa-uruguay/images/process/consultation.jpg",
+        "alt": "Professional consultation"
+      },
+      "documents": {
+        "src": "/sites/nexa-uruguay/images/process/documents.jpg",
+        "alt": "Document validation"
+      },
+      "arrival": {
+        "src": "/sites/nexa-uruguay/images/process/arrival.jpg",
+        "alt": "Arrival in Uruguay"
+      },
+      "banking": {
+        "src": "/sites/nexa-uruguay/images/process/banking.jpg",
+        "alt": "Company and banking setup"
+      },
+      "completion": {
+        "src": "/sites/nexa-uruguay/images/process/completion.jpg",
+        "alt": "Delivery and follow-up"
+      }
+    }
+  }
+}

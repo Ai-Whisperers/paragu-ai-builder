@@ -1,0 +1,88 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+import { MessageCircle, ArrowUp } from 'lucide-react'
+import { useScrollProgress } from '@/lib/hooks'
+
+/**
+ * Decorative blurred blob used by the landing page hero + CTA sections.
+ * Pure visual — pass `className` for colour/position, `delay` to stagger
+ * the pulse animation across multiple blobs on the same screen.
+ */
+export function FloatingShape({
+  className,
+  style,
+  delay = 0,
+}: {
+  className?: string
+  style?: React.CSSProperties
+  delay?: number
+}) {
+  return (
+    <div
+      className={`absolute rounded-full blur-3xl opacity-30 animate-pulse ${className}`}
+      style={{ animationDuration: '4s', animationDelay: `${delay}s`, ...style }}
+    />
+  )
+}
+
+/** Thin progress bar pinned to the top of the viewport as the user scrolls. */
+export function ScrollProgress() {
+  const progress = useScrollProgress()
+  return (
+    <div className="fixed left-0 top-0 z-[51] h-0.5 w-full bg-transparent">
+      <div
+        className="h-full bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] transition-all duration-100"
+        style={{ width: `${progress}%` }}
+      />
+    </div>
+  )
+}
+
+/**
+ * Persistent WhatsApp CTA in the bottom-right corner. Phone number is
+ * hardcoded to the ParaguAI sales line — tenant sites use the
+ * WhatsAppFloat section component (which reads from business data) instead.
+ */
+export function FloatingWhatsApp() {
+  return (
+    <a
+      href="https://wa.me/595981234567?text=Hola,%20me%20interesa%20saber%20más%20sobre%20ParaguAI"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Escribinos por WhatsApp"
+      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-110 hover:shadow-xl"
+      style={{ animation: 'pulse 2s infinite' }}
+    >
+      <MessageCircle size={28} fill="currentColor" />
+    </a>
+  )
+}
+
+/**
+ * Back-to-top button that appears after scrolling 500px. Scrolls smoothly
+ * to the top when clicked.
+ */
+export function BackToTop() {
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => setVisible(window.scrollY > 500)
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+
+  if (!visible) return null
+
+  return (
+    <button
+      onClick={scrollToTop}
+      aria-label="Volver arriba"
+      className="fixed bottom-24 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] shadow-md transition-all hover:bg-[var(--surface-light)]"
+    >
+      <ArrowUp size={20} />
+    </button>
+  )
+}

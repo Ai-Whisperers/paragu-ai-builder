@@ -1,0 +1,22 @@
+{
+  "id": "canyoning_guide",
+  "nameEs": "Guia Barranquismo",
+  "nameEn": "Canyoning Guide",
+  "verticalId": "sports-recreation",
+  "subVertical": "climbing-adventure",
+  "extends": "sports_base",
+  "tokens": "canyoning_guide",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Guia Barranquismo en {{city}}",
+    "descriptionTemplate": "Guia Barranquismo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guia barranquismo {{city}}",
+      "canyoning guide {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guia Barranquismo",
+    "subheadlineTemplate": "Guia Barranquismo profesional en {{city}}."
+  }
+}

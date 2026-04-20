@@ -2,70 +2,151 @@
   "id": "kaiten_zushi",
   "nameEs": "Sushi Cinta Transportadora",
   "nameEn": "Conveyor Belt Sushi",
-
+  "verticalId": "food-beverage",
   "extends": "sushi_bar",
   "tokens": "kaiten",
-
   "pages": {
     "homepage": {
-      "sections": ["header", "hero", "about", "conveyorBelt", "featuredMenu", "howItWorks", "reservations", "gallery", "footer"],
-      "requiredSections": ["header", "hero", "conveyorBelt", "footer"]
+      "sections": [
+        "header",
+        "hero",
+        "about",
+        "conveyorBelt",
+        "featuredMenu",
+        "howItWorks",
+        "reservations",
+        "gallery",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "conveyorBelt",
+        "footer"
+      ]
     },
     "menu": {
-      "sections": ["header", "colorCodedMenu", "footer"],
-      "requiredSections": ["header", "colorCodedMenu", "footer"]
+      "sections": [
+        "header",
+        "colorCodedMenu",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "colorCodedMenu",
+        "footer"
+      ]
     }
   },
-
   "features": {
-    "onlineOrdering": { "enabled": false },
-    "reservations": { "enabled": true, "method": "form", "walkins": true },
-    "conveyorBelt": { "enabled": true, "plateColors": true, "tabletOrdering": true },
-    "menuDisplay": { "enabled": true, "showPrices": true, "colorCoded": true, "platePricing": true },
-    "gallery": { "enabled": true, "categories": ["conveyor", "plates", "interior", "team"] },
-    "whatsappFloat": { "enabled": true },
-    "googleMapsEmbed": { "enabled": true }
+    "onlineOrdering": {
+      "enabled": false
+    },
+    "reservations": {
+      "enabled": true,
+      "method": "form",
+      "walkins": true
+    },
+    "conveyorBelt": {
+      "enabled": true,
+      "plateColors": true,
+      "tabletOrdering": true
+    },
+    "menuDisplay": {
+      "enabled": true,
+      "showPrices": true,
+      "colorCoded": true,
+      "platePricing": true
+    },
+    "gallery": {
+      "enabled": true,
+      "categories": [
+        "conveyor",
+        "plates",
+        "interior",
+        "team"
+      ]
+    },
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "googleMapsEmbed": {
+      "enabled": true
+    }
   },
-
   "menuCategories": [
     "green_plates",
-    "yellow_plates", 
+    "yellow_plates",
     "orange_plates",
     "red_plates",
     "black_plates",
     "special_order"
   ],
-
   "platePricing": {
-    "green": { "color": "#22c55e", "price": "15.000 Gs", "description": "Platos básicos" },
-    "yellow": { "color": "#eab308", "price": "25.000 Gs", "description": "Favoritos populares" },
-    "orange": { "color": "#f97316", "price": "35.000 Gs", "description": "Especiales" },
-    "red": { "color": "#ef4444", "price": "50.000 Gs", "description": "Premium" },
-    "black": { "color": "#1a1a1a", "price": "75.000 Gs", "description": "Ultra premium" }
+    "green": {
+      "color": "#22c55e",
+      "price": "15.000 Gs",
+      "description": "Platos básicos"
+    },
+    "yellow": {
+      "color": "#eab308",
+      "price": "25.000 Gs",
+      "description": "Favoritos populares"
+    },
+    "orange": {
+      "color": "#f97316",
+      "price": "35.000 Gs",
+      "description": "Especiales"
+    },
+    "red": {
+      "color": "#ef4444",
+      "price": "50.000 Gs",
+      "description": "Premium"
+    },
+    "black": {
+      "color": "#1a1a1a",
+      "price": "75.000 Gs",
+      "description": "Ultra premium"
+    }
   },
-
   "targetAudience": {
     "primary": "Families, casual diners, quick lunch seekers",
     "secondary": "Sushi beginners, groups, kids"
   },
-
   "seo": {
     "titleTemplate": "{{businessName}} - Sushi en Cinta en {{city}} | Rápido y Divertido",
     "descriptionTemplate": "La experiencia de sushi más divertida en {{city}}. Plato por plato en cinta transportadora. Precios por colores.",
     "schemaType": "Restaurant",
-    "keywords": ["sushi cinta {{city}}", "kaiten sushi {{city}}", "sushi divertido {{city}}", "sushi para niños {{city}}"]
+    "keywords": [
+      "sushi cinta {{city}}",
+      "kaiten sushi {{city}}",
+      "sushi divertido {{city}}",
+      "sushi para niños {{city}}"
+    ]
   },
-
   "nav": {
-    "items": ["Inicio", "Menú", "Cómo Funciona", "Reservas"],
-    "cta": { "text": "Visítanos", "action": "scrollTo:location" }
+    "items": [
+      "Inicio",
+      "Menú",
+      "Cómo Funciona",
+      "Reservas"
+    ],
+    "cta": {
+      "text": "Visítanos",
+      "action": "scrollTo:location"
+    }
   },
-
   "hero": {
     "style": "image",
     "headlineTemplate": "{{businessName}} - Sushi en Movimiento",
     "subheadlineTemplate": "La experiencia japonesa más divertida. Elige tus favoritos de la cinta.",
-    "ctaPrimary": { "text": "Ver Menú", "action": "scrollTo:menu" },
-    "ctaSecondary": { "text": "Cómo Funciona", "action": "scrollTo:howItWorks" }
+    "ctaPrimary": {
+      "text": "Ver Menú",
+      "action": "scrollTo:menu"
+    },
+    "ctaSecondary": {
+      "text": "Cómo Funciona",
+      "action": "scrollTo:howItWorks"
+    }
   }
 }

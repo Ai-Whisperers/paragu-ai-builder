@@ -1,0 +1,22 @@
+{
+  "id": "honeymoon_specialist",
+  "nameEs": "Especialista Luna Miel",
+  "nameEn": "Honeymoon Specialist",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "travel-agency",
+  "extends": "restaurant",
+  "tokens": "honeymoon_specialist",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Especialista Luna Miel en {{city}}",
+    "descriptionTemplate": "Especialista Luna Miel profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista luna miel {{city}}",
+      "honeymoon specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Luna Miel",
+    "subheadlineTemplate": "Especialista Luna Miel profesional en {{city}}."
+  }
+}

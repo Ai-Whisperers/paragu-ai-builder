@@ -15,7 +15,10 @@
 
 import { SupabaseClient } from '@supabase/supabase-js'
 import { logger } from '@/lib/logger'
+import { cachedQuery, invalidateTag } from './cache'
 
+// Query filter — intentionally loose because Supabase's chainable builder
+// types (PostgrestFilterBuilder<T>) are heavy and change across versions.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type QueryFilter = (query: any) => any
 
@@ -68,6 +71,19 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     throw new Error('[ScopedQueries] business_id is required for scoped queries')
   }
 
+  // eslint-disable-next-line prefer-const -- queries references itself via
+  // selectCached / batchInsert, so we capture it as a named const before return.
+  let queries: ReturnType<typeof buildScopedQueries>
+  // eslint-disable-next-line @typescript-eslint/no-use-before-define
+  queries = buildScopedQueries(supabase, businessId, () => queries)
+  return queries
+}
+
+function buildScopedQueries(
+  supabase: SupabaseClient,
+  businessId: string,
+  self: () => ReturnType<typeof buildScopedQueries>,
+) {
   return {
     client: supabase,
     businessId,
@@ -129,7 +145,8 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     ): Promise<{ data: T[] | null; error: Error | null }> => {
       const startTime = performance.now()
       // Prevent cross-business moves
-      const { business_id: _, ...safeData } = data
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { business_id: _unused, ...safeData } = data
 
       const baseQuery = filter(
         supabase.from(table).update(safeData).eq('business_id', businessId)
@@ -196,10 +213,88 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
 
       return { data: data as T | null, valid: !!data, error }
     },
+
+    /**
+     * Execute a cached select query
+     */
+    selectCached: async <T = unknown>(
+      table: string,
+      columns: string = '*',
+      options?: {
+        filter?: QueryFilter
+        single?: boolean
+        cacheTtl?: number
+        cacheTags?: string[]
+      }
+    ): Promise<{ data: T[] | T | null; error: Error | null }> => {
+      const cacheKey = `scoped:${businessId}:${table}:${columns}:${JSON.stringify(options?.filter)}`
+      const ttl = options?.cacheTtl || 60000 // Default 1 minute
+
+      try {
+        const result = await cachedQuery(
+          cacheKey,
+          async () => {
+            const { data, error } = await self().select<T>(table, columns, {
+              filter: options?.filter,
+              single: options?.single,
+            })
+            if (error) throw error
+            return { data, error }
+          },
+          { ttl, tags: options?.cacheTags || [table, businessId] }
+        )
+        return result
+      } catch (error) {
+        return { data: null, error: error as Error }
+      }
+    },
+
+    /**
+     * Batch insert records
+     */
+    batchInsert: async <T = unknown>(
+      table: string,
+      records: Record<string, unknown>[],
+      options?: { batchSize?: number; returning?: boolean }
+    ): Promise<{ data: T[] | null; error: Error | null }> => {
+      const startTime = performance.now()
+      const batchSize = options?.batchSize || 100
+      const results: T[] = []
+
+      for (let i = 0; i < records.length; i += batchSize) {
+        const batch = records.slice(i, i + batchSize)
+        const { data, error } = await self().insert<T>(table, batch, {
+          returning: options?.returning,
+        })
+
+        if (error) {
+          trackQuery(table, 'batchInsert', performance.now() - startTime, businessId, results.length, error)
+          return { data: results.length > 0 ? results : null, error }
+        }
+
+        if (data) results.push(...data)
+      }
+
+      trackQuery(table, 'batchInsert', performance.now() - startTime, businessId, results.length, null)
+
+      // Invalidate cache for this table
+      invalidateTag(table)
+
+      return { data: results, error: null }
+    },
+
+    /**
+     * Invalidate cache for this business
+     */
+    invalidateCache: (pattern?: string): void => {
+      if (pattern) {
+        invalidateTag(pattern)
+      } else {
+        invalidateTag(businessId)
+      }
+    },
   }
 }
-
-export type ScopedQueries = ReturnType<typeof scopedQueries>
 
 /**
  * Tables that require business isolation

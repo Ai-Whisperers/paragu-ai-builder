@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import { logger } from '@/lib/logger'
+import { captureException } from '@/lib/obs/sentry'
 
 export default function GlobalError({
   error,
@@ -17,6 +18,11 @@ export default function GlobalError({
       message: error.message,
       digest: error.digest,
       stack: error.stack,
+    })
+    captureException(error, {
+      tags: { boundary: 'global' },
+      extra: { digest: error.digest },
+      level: 'fatal',
     })
   }, [error])
 

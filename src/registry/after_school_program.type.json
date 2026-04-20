@@ -1,0 +1,22 @@
+{
+  "id": "after_school_program",
+  "nameEs": "Programa Post Escolar",
+  "nameEn": "After School Program",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "after_school_program",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Programa Post Escolar en {{city}}",
+    "descriptionTemplate": "Programa Post Escolar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "programa post escolar {{city}}",
+      "after school program {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Programa Post Escolar",
+    "subheadlineTemplate": "Programa Post Escolar profesional en {{city}}."
+  }
+}

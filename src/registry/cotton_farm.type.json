@@ -1,0 +1,22 @@
+{
+  "id": "cotton_farm",
+  "nameEs": "Algodonera",
+  "nameEn": "Cotton Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "crop-farming",
+  "extends": "agriculture_base",
+  "tokens": "cotton_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Algodonera en {{city}}",
+    "descriptionTemplate": "Algodonera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "algodonera {{city}}",
+      "cotton farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Algodonera",
+    "subheadlineTemplate": "Algodonera profesional en {{city}}."
+  }
+}

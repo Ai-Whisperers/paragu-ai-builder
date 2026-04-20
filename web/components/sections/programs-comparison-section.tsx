@@ -85,12 +85,12 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
                 {tier.badge}
               </span>
             )}
-            <h3
+            <Heading level={3}
               className="text-2xl font-bold text-[var(--primary)]"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               {tier.name}
-            </h3>
+            </Heading>
             {tier.description && (
               <p className="mt-2 text-sm text-[var(--text-light)]">{tier.description}</p>
             )}

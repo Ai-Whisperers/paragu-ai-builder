@@ -1,0 +1,25 @@
+{
+  "id": "hr_consultant",
+  "nameEs": "Consultor RRHH",
+  "nameEn": "HR Consultant",
+  "verticalId": "b2b-professional",
+  "subVertical": "hr-recruiting",
+  "extends": "professional_services_base",
+  "tokens": "hr_consultant",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultor RRHH en {{city}}",
+    "descriptionTemplate": "Consultor RRHH profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultor rrhh {{city}}",
+      "hr consultant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultor RRHH",
+    "subheadlineTemplate": "Consultor RRHH profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

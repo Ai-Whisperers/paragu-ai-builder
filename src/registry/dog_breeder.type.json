@@ -1,0 +1,22 @@
+{
+  "id": "dog_breeder",
+  "nameEs": "Criador Perros",
+  "nameEn": "Dog Breeder",
+  "verticalId": "pets-animals",
+  "subVertical": "equestrian-breeding",
+  "extends": "pets_base",
+  "tokens": "dog_breeder",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Criador Perros en {{city}}",
+    "descriptionTemplate": "Criador Perros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "criador perros {{city}}",
+      "dog breeder {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Criador Perros",
+    "subheadlineTemplate": "Criador Perros profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "halal_grocery",
+  "nameEs": "Mercado Halal",
+  "nameEn": "Halal Grocery",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "halal_grocery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Mercado Halal en {{city}}",
+    "descriptionTemplate": "Mercado Halal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mercado halal {{city}}",
+      "halal grocery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mercado Halal",
+    "subheadlineTemplate": "Mercado Halal profesional en {{city}}."
+  },
+  "flags": [
+    "cultural"
+  ]
+}

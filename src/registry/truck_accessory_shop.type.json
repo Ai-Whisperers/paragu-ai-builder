@@ -1,0 +1,22 @@
+{
+  "id": "truck_accessory_shop",
+  "nameEs": "Accesorios Camioneta",
+  "nameEn": "Truck Accessories",
+  "verticalId": "automotive",
+  "subVertical": "specialty-service",
+  "extends": "automotive_base",
+  "tokens": "truck_accessory_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Accesorios Camioneta en {{city}}",
+    "descriptionTemplate": "Accesorios Camioneta profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "accesorios camioneta {{city}}",
+      "truck accessories {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Accesorios Camioneta",
+    "subheadlineTemplate": "Accesorios Camioneta profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "education-training",
+  "name": "Education & Training",
+  "nameEs": "Educacion y Formacion",
+  "description": "Schools, preschools, language academies, tutoring, technical institutes, music/art schools, test prep.",
+  "baseType": "education_base",
+  "features": {
+    "i18n": "partial",
+    "classSchedule": true,
+    "programsCatalog": true,
+    "enrollmentForm": true,
+    "testimonials": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header", "hero", "programs-comparison", "services", "class-schedule",
+    "team", "testimonials", "faq", "process", "contact",
+    "cta-banner", "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es", "en"]
+}

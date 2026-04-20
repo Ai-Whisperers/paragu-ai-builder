@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relocation",
+  "title": "Relocation Services Business Input Schema",
+  "description": "Additional fields for relocation / visa / expat-services businesses beyond the base schema",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "targetMarkets": {
+      "type": "array",
+      "description": "Countries / regions whose residents this service helps relocate to Paraguay",
+      "items": { "type": "string" }
+    },
+    "programs": {
+      "type": "array",
+      "description": "Relocation program packages offered (residency types, family plans, etc.)",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "durationWeeks": { "type": "integer", "minimum": 1 },
+          "priceFrom": { "type": "string" },
+          "includes": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "spokenLanguages": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["es", "en", "de", "nl", "fr", "it", "pt"] }
+    },
+    "processSteps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "title", "description"],
+        "properties": {
+          "number": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "contact.email", "spokenLanguages", "programs", "targetMarkets"],
+    "priority2": ["processSteps", "team", "branding.logoUrl", "contact.instagram"],
+    "priority3": ["seo.googleBusinessProfileUrl", "faq", "testimonials"]
+  }
+}

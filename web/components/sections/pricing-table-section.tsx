@@ -83,12 +83,12 @@ export function PricingTableSection({
               )}
 
               <div className="text-center">
-                <h3
+                <Heading level={3}
                   className="text-xl font-bold"
                   style={{ color: 'var(--foreground)' }}
                 >
                   {plan.name}
-                </h3>
+                </Heading>
                 {plan.price && (
                   <div className="mt-2">
                     <span

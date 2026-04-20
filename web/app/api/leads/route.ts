@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { loadSite } from '@/lib/engine/site-loader'
 import { resolveAdapters } from '@/lib/integrations/registry'
-import { createRequestLogger, createPerformanceTracker } from '@/lib/logger'
+import { withRequestLog } from '@/lib/api/with-request-log'
+import { metrics } from '@/lib/obs/metrics'
 import type { Lead } from '@/lib/integrations/types'
 
 export const runtime = 'nodejs'
@@ -26,15 +27,9 @@ const LeadSchema = z.object({
   honey: z.string().max(0, 'bot detected').optional().default(''),
 })
 
-export async function POST(req: Request) {
-  const log = createRequestLogger(req)
-  const perf = createPerformanceTracker(log.requestId)
-
+export const POST = withRequestLog(async (req, { log, perf, requestId }) => {
   const respond = (status: number, body: Record<string, unknown>) =>
-    NextResponse.json({ ...body, requestId: log.requestId }, {
-      status,
-      headers: { 'x-request-id': log.requestId },
-    })
+    NextResponse.json({ ...body, requestId }, { status })
 
   let json: unknown
   try {
@@ -90,6 +85,7 @@ export async function POST(req: Request) {
   }
 
   log.info('Processing lead', { siteSlug: data.siteSlug, locale: data.locale, source: data.source })
+  metrics.inc('lead.submitted', { siteSlug: data.siteSlug, source: data.source ?? 'unknown' })
 
   const [supabaseResult, forwardResults] = await Promise.all([
     persistLeadToSupabase(lead).catch((e) => ({ ok: false, error: String(e) })),
@@ -104,6 +100,11 @@ export async function POST(req: Request) {
     })
   }
   for (const r of forwardResults) {
+    metrics.inc('integration.call', {
+      siteSlug: data.siteSlug,
+      adapter: r.name,
+      outcome: r.ok ? 'success' : 'failure',
+    })
     if (!r.ok) {
       log.warn('Integration adapter failed', {
         siteSlug: data.siteSlug,
@@ -122,6 +123,7 @@ export async function POST(req: Request) {
       supabase: supabaseResult,
       forwards: forwardResults,
     })
+    metrics.inc('lead.rejected', { siteSlug: data.siteSlug, reason: 'all_destinations_failed' })
     return respond(502, {
       error: 'all_destinations_failed',
       details: { supabase: supabaseResult, forwards: forwardResults },
@@ -131,13 +133,14 @@ export async function POST(req: Request) {
   const leadId = (supabaseResult as { id?: string }).id || 'unknown'
   const duration = perf.finish({ siteSlug: data.siteSlug, leadId })
   log.info('Lead accepted', { siteSlug: data.siteSlug, leadId, durationMs: duration })
+  metrics.inc('lead.accepted', { siteSlug: data.siteSlug })
 
   return respond(201, {
     ok: true,
     leadId,
     message: 'Lead created successfully',
   })
-}
+})
 
 async function forwardLeadToAdapters(
   lead: Lead,

@@ -18,9 +18,9 @@ const TYPE_LABELS: Record<string, string> = {
 }
 
 const STATUS_COLORS: Record<string, string> = {
-  generated: 'bg-green-100 text-green-800',
+  generated: 'bg-[var(--color-success-surface)] text-[var(--color-success)]',
   draft: 'bg-gray-100 text-gray-800',
-  error: 'bg-red-100 text-red-800',
+  error: 'bg-[var(--color-error-surface)] text-[var(--color-error)]',
 }
 
 export default async function AdminDashboard() {
@@ -56,7 +56,7 @@ export default async function AdminDashboard() {
           </div>
           <div className="rounded-lg border bg-white p-6">
             <p className="text-sm font-medium text-gray-500">Sitios Generados</p>
-            <p className="mt-1 text-3xl font-bold text-green-600">{businesses.length}</p>
+            <p className="mt-1 text-3xl font-bold text-[var(--color-success)]">{businesses.length}</p>
           </div>
         </div>
 

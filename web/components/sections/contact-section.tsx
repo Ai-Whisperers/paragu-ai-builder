@@ -42,7 +42,7 @@ export function ContactSection({
               <div className="flex gap-3">
                 <MapPin size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
                 <div>
-                  <h3 className="mb-1 text-lg font-semibold text-[var(--text)]">Direccion</h3>
+                  <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">Direccion</Heading>
                   <p className="text-[var(--text-muted)]">
                     {address && <span>{address}<br /></span>}
                     {neighborhood && <span>{neighborhood}, </span>}
@@ -56,7 +56,7 @@ export function ContactSection({
                 <div className="flex gap-3">
                   <Phone size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
                   <div>
-                    <h3 className="mb-1 text-lg font-semibold text-[var(--text)]">Telefono</h3>
+                    <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">Telefono</Heading>
                     {phone && (
                       <a href={`tel:${phone}`} className="block text-[var(--secondary)] hover:underline">
                         {phone}
@@ -81,7 +81,7 @@ export function ContactSection({
                 <div className="flex gap-3">
                   <Mail size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
                   <div>
-                    <h3 className="mb-1 text-lg font-semibold text-[var(--text)]">Email</h3>
+                    <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">Email</Heading>
                     <a href={`mailto:${email}`} className="text-[var(--secondary)] hover:underline">
                       {email}
                     </a>
@@ -94,7 +94,7 @@ export function ContactSection({
                 <div className="flex gap-3">
                   <Clock size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
                   <div>
-                    <h3 className="mb-2 text-lg font-semibold text-[var(--text)]">Horarios</h3>
+                    <Heading level={3} className="mb-2 text-lg font-semibold text-[var(--text)]">Horarios</Heading>
                     <dl className="space-y-1">
                       {Object.entries(hours).map(([day, time]) => (
                         <div key={day} className="flex justify-between gap-4 text-sm">

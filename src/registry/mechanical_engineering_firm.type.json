@@ -1,0 +1,25 @@
+{
+  "id": "mechanical_engineering_firm",
+  "nameEs": "Ingenieria Mecanica",
+  "nameEn": "Mechanical Eng",
+  "verticalId": "b2b-professional",
+  "subVertical": "engineering-consulting",
+  "extends": "professional_services_base",
+  "tokens": "mechanical_engineering_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Ingenieria Mecanica en {{city}}",
+    "descriptionTemplate": "Ingenieria Mecanica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ingenieria mecanica {{city}}",
+      "mechanical eng {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ingenieria Mecanica",
+    "subheadlineTemplate": "Ingenieria Mecanica profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

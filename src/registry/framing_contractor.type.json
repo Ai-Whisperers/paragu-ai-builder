@@ -1,0 +1,22 @@
+{
+  "id": "framing_contractor",
+  "nameEs": "Contratista Estructura",
+  "nameEn": "Framing Contractor",
+  "verticalId": "trades-home-services",
+  "subVertical": "general-contracting",
+  "extends": "trades_base",
+  "tokens": "framing_contractor",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Contratista Estructura en {{city}}",
+    "descriptionTemplate": "Contratista Estructura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "contratista estructura {{city}}",
+      "framing contractor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Contratista Estructura",
+    "subheadlineTemplate": "Contratista Estructura profesional en {{city}}."
+  }
+}

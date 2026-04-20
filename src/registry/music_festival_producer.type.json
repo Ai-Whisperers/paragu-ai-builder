@@ -1,0 +1,22 @@
+{
+  "id": "music_festival_producer",
+  "nameEs": "Productor Festival",
+  "nameEn": "Festival Producer",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "events-festivals",
+  "extends": "entertainment_base",
+  "tokens": "music_festival_producer",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Productor Festival en {{city}}",
+    "descriptionTemplate": "Productor Festival profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "productor festival {{city}}",
+      "festival producer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Productor Festival",
+    "subheadlineTemplate": "Productor Festival profesional en {{city}}."
+  }
+}

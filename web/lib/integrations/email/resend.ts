@@ -1,4 +1,7 @@
 import type { EmailAdapter } from './types'
+import { integrationFetch } from '@/lib/integrations/http'
+
+const RESEND_URL = 'https://api.resend.com/emails'
 
 export const resendAdapter: EmailAdapter = {
   name: 'resend',
@@ -6,57 +9,43 @@ export const resendAdapter: EmailAdapter = {
     if (!config.transactionalApiKey || !config.fromAddress) {
       return { ok: false, error: 'resend transactionalApiKey + fromAddress required' }
     }
-    try {
-      const res = await fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${config.transactionalApiKey}`,
-        },
-        body: JSON.stringify({
-          from: `${config.fromName || lead.siteSlug} <${config.fromAddress}>`,
-          to: lead.email,
-          subject: welcomeSubject(lead.locale),
-          html: welcomeHtml(lead),
-        }),
-      })
-      if (!res.ok) {
-        const text = await res.text()
-        return { ok: false, error: `resend ${res.status}: ${text.slice(0, 200)}` }
-      }
-      const json = await res.json()
-      return { ok: true, externalId: json.id }
-    } catch (err) {
-      return { ok: false, error: err instanceof Error ? err.message : 'resend error' }
-    }
+    const res = await integrationFetch<{ id?: string }>(RESEND_URL, {
+      adapter: 'resend',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${config.transactionalApiKey}`,
+      },
+      body: JSON.stringify({
+        from: `${config.fromName || lead.siteSlug} <${config.fromAddress}>`,
+        to: lead.email,
+        subject: welcomeSubject(lead.locale),
+        html: welcomeHtml(lead),
+      }),
+    })
+    if (!res.ok) return { ok: false, error: res.error }
+    return { ok: true, externalId: res.data?.id }
   },
   async sendTransactional(to, subject, html, config) {
     if (!config.transactionalApiKey || !config.fromAddress) {
       return { ok: false, error: 'resend not configured' }
     }
-    try {
-      const res = await fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${config.transactionalApiKey}`,
-        },
-        body: JSON.stringify({
-          from: `${config.fromName || 'Nexa'} <${config.fromAddress}>`,
-          to,
-          subject,
-          html,
-        }),
-      })
-      if (!res.ok) {
-        const text = await res.text()
-        return { ok: false, error: `resend ${res.status}: ${text.slice(0, 200)}` }
-      }
-      const json = await res.json()
-      return { ok: true, externalId: json.id }
-    } catch (err) {
-      return { ok: false, error: err instanceof Error ? err.message : 'resend error' }
-    }
+    const res = await integrationFetch<{ id?: string }>(RESEND_URL, {
+      adapter: 'resend',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${config.transactionalApiKey}`,
+      },
+      body: JSON.stringify({
+        from: `${config.fromName || 'Nexa'} <${config.fromAddress}>`,
+        to,
+        subject,
+        html,
+      }),
+    })
+    if (!res.ok) return { ok: false, error: res.error }
+    return { ok: true, externalId: res.data?.id }
   },
 }
 

@@ -1,0 +1,33 @@
+{
+  "id": "logistics-transport",
+  "name": "Logistics & Transport",
+  "nameEs": "Logistica y Transporte",
+  "description": "Trucking, freight brokerage, warehousing, last-mile, marine/port, air cargo, rail/intermodal. B2B.",
+  "baseType": "logistics_base",
+  "features": {
+    "i18n": true,
+    "quoteForm": true,
+    "trackingIntegration": true,
+    "whatsappFloat": true,
+    "serviceAreaMap": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "features",
+    "process",
+    "service-area-map",
+    "trust-signals",
+    "faq",
+    "quote-form",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es",
+    "en"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "art_gallery_commercial",
+  "nameEs": "Galeria de Arte",
+  "nameEn": "Art Gallery",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "museum-gallery",
+  "extends": "entertainment_base",
+  "tokens": "art_gallery_commercial",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Galeria de Arte en {{city}}",
+    "descriptionTemplate": "Galeria de Arte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "galeria de arte {{city}}",
+      "art gallery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Galeria de Arte",
+    "subheadlineTemplate": "Galeria de Arte profesional en {{city}}."
+  }
+}

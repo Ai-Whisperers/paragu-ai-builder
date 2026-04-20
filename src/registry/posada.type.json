@@ -1,0 +1,26 @@
+{
+  "id": "posada",
+  "nameEs": "Posada",
+  "nameEn": "Inn",
+  "verticalId": "hospitality-tourism",
+  "extends": "restaurant",
+  "tokens": "posada",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Posada en {{city}}",
+    "descriptionTemplate": "Posada familiar con ambiente calido, cocina casera y mucha naturaleza.",
+    "keywords": [
+      "posada {{city}}",
+      "turismo rural {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hospitalidad con alma de campo",
+    "subheadlineTemplate": "Posada familiar con ambiente calido, cocina casera y mucha naturaleza."
+  },
+  "serviceCategories": [
+    "alojamiento",
+    "cocina",
+    "actividades"
+  ]
+}

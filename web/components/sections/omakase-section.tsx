@@ -1,6 +1,6 @@
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
-import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
+import { Card, CardContent, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
 
@@ -31,7 +31,7 @@ export function OmakaseSection({
     <section id="omakase" className="bg-[var(--surface)] py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader className="mb-12 text-center">
-          <Heading as="h2" size="h2" className="mb-4">
+          <Heading as="h2" level={2} className="mb-4">
             {title}
           </Heading>
           {subtitle && (

@@ -1,0 +1,38 @@
+{
+  "id": "yoga",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Respira. Conecta. Vive.",
+    "subheadline": "Estudio de yoga en {{city}} con clases para todos los niveles. Primera clase gratis.",
+    "ctaPrimary": "Primera Clase Gratis",
+    "ctaSecondary": "Ver Horarios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} ofrecemos un espacio calido para conectar con tu cuerpo y tu mente. Instructores certificados, grupos reducidos y practicas para todos los niveles."
+  },
+  "programs": {
+    "title": "Estilos de Yoga",
+    "items": [
+      { "name": "Hatha", "description": "Posturas sostenidas y respiracion consciente. Ideal para principiantes." },
+      { "name": "Vinyasa Flow", "description": "Fluidez entre posturas, conectadas con la respiracion. Dinamico." },
+      { "name": "Yin Yoga", "description": "Posturas profundas sostenidas. Estiramientos intensos y meditativos." },
+      { "name": "Restaurativo", "description": "Relajacion profunda con apoyos. Perfecto al final del dia." },
+      { "name": "Prenatal", "description": "Practicas adaptadas para acompanar el embarazo." },
+      { "name": "Yoga Kids", "description": "Clases para ninos desde 5 anos. Dinamicas y divertidas." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Cambio mi manera de vivir el estres del trabajo. Recomendadisimo.", "author": "Natalia V.", "rating": 5 },
+    { "quote": "Clases personalizadas y espacio hermoso.", "author": "Juan P.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Soy principiante, puedo venir?", "a": "Si, tenemos clases para todos los niveles. Tu primera clase es gratis." },
+    { "q": "Necesito traer mantel?", "a": "Tenemos manteles y props. Si preferis, podes traer el tuyo." },
+    { "q": "Hacen retiros?", "a": "Si, organizamos retiros trimestrales dentro y fuera de Paraguay." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Tu espacio de bienestar en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

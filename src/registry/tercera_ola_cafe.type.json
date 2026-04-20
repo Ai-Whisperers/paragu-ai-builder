@@ -1,0 +1,21 @@
+{
+  "id": "tercera_ola_cafe",
+  "nameEs": "Cafe de Especialidad",
+  "nameEn": "Specialty Coffee",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "tercera_ola_cafe",
+  "seo": {
+    "schemaType": "CafeOrCoffeeShop",
+    "titleTemplate": "{{businessName}} - Cafe de Especialidad en {{city}}",
+    "descriptionTemplate": "Granos seleccionados, metodos filtrados y espresso de alta gama.",
+    "keywords": [
+      "cafe especialidad {{city}}",
+      "cafe tercera ola {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cafe de origen, preparado con metodo",
+    "subheadlineTemplate": "Granos seleccionados, metodos filtrados y espresso de alta gama."
+  }
+}

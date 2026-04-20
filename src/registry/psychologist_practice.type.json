@@ -1,0 +1,22 @@
+{
+  "id": "psychologist_practice",
+  "nameEs": "Psicologo",
+  "nameEn": "Psychologist",
+  "verticalId": "health-wellness",
+  "subVertical": "mental-health",
+  "extends": "health_wellness_base",
+  "tokens": "psychologist_practice",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Psicologo en {{city}}",
+    "descriptionTemplate": "Psicologo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "psicologo {{city}}",
+      "psychologist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Psicologo",
+    "subheadlineTemplate": "Psicologo profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "fabric_mill",
+  "nameEs": "Fabrica Textil",
+  "nameEn": "Fabric Mill",
+  "verticalId": "trades-industrial",
+  "subVertical": "textiles-apparel-mfg",
+  "extends": "industrial_base",
+  "tokens": "fabric_mill",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fabrica Textil en {{city}}",
+    "descriptionTemplate": "Fabrica Textil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fabrica textil {{city}}",
+      "fabric mill {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fabrica Textil",
+    "subheadlineTemplate": "Fabrica Textil profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

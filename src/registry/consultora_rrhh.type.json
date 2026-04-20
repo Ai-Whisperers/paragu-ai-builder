@@ -1,0 +1,27 @@
+{
+  "id": "consultora_rrhh",
+  "nameEs": "Consultora de RRHH",
+  "nameEn": "HR Consulting",
+  "verticalId": "b2b-professional",
+  "extends": "professional_services_base",
+  "tokens": "consultora_rrhh",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultora de RRHH en {{city}}",
+    "descriptionTemplate": "Seleccion de personal, capacitacion y desarrollo organizacional en {{city}}.",
+    "keywords": [
+      "rrhh {{city}}",
+      "consultora rrhh {{city}}",
+      "reclutamiento {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - El mejor equipo para tu empresa",
+    "subheadlineTemplate": "Seleccion de personal, capacitacion y desarrollo organizacional en {{city}}."
+  },
+  "serviceCategories": [
+    "seleccion",
+    "capacitacion",
+    "clima"
+  ]
+}

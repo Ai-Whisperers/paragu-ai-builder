@@ -174,10 +174,158 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['standard', 'compact'],
     requiredContentFields: ['title'],
   },
+  'menu-categorized-priced': {
+    id: 'menu-categorized-priced',
+    defaultVariant: 'categorized',
+    variants: ['categorized'],
+    requiredContentFields: ['items'],
+  },
+  'property-listings': {
+    id: 'property-listings',
+    defaultVariant: 'cards',
+    variants: ['cards'],
+    requiredContentFields: ['properties'],
+  },
+  features: {
+    id: 'features',
+    defaultVariant: 'three-col',
+    variants: ['three-col', 'grid'],
+  },
+  pricing: {
+    id: 'pricing',
+    defaultVariant: 'tiered',
+    variants: ['tiered', 'table'],
+  },
+  process: {
+    id: 'process',
+    defaultVariant: 'steps',
+    variants: ['steps', 'horizontal'],
+  },
+  'savings-calculator': {
+    id: 'savings-calculator',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+  },
+  omakase: {
+    id: 'omakase',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+  },
+  'sake-menu': {
+    id: 'sake-menu',
+    defaultVariant: 'grouped',
+    variants: ['grouped'],
+  },
+  'conveyor-belt': {
+    id: 'conveyor-belt',
+    defaultVariant: 'animated',
+    variants: ['animated'],
+  },
+}
+
+/**
+ * Legacy section aliases — hand-curated types (peluqueria, gimnasio, etc.)
+ * reference sections by non-canonical names that predate kebab-case
+ * standardization. `resolveSectionAlias()` converts any of these to their
+ * canonical kebab-case id so the renderer, hasSection, and contract tests
+ * stay consistent.
+ */
+const SECTION_ALIASES: Record<string, string> = {
+  // camelCase/snake_case singular → canonical kebab
+  servicesPreview: 'services',
+  services_preview: 'services',
+  servicemenu: 'services',
+  'service-menu': 'services',
+  serviceMenu: 'services',
+  portfolioGallery: 'portfolio',
+  portfolio_gallery: 'portfolio',
+  photoGallery: 'gallery',
+  photo_gallery: 'gallery',
+  testimonial: 'testimonials',
+  teamProfiles: 'team',
+  team_profiles: 'team',
+  contactSplit: 'contact',
+  contactInfo: 'contact',
+  contact_split: 'contact',
+  locationBlock: 'contact',
+  location: 'contact',
+  googleMaps: 'contact',
+  'google-maps': 'contact',
+  businessHours: 'contact',
+  'business-hours': 'contact',
+  ctaBanner: 'cta-banner',
+  whatsappFloat: 'whatsapp-float',
+  emergencyIndicator: 'emergency-indicator',
+  classSchedule: 'class-schedule',
+  membershipPlans: 'membership-plans',
+  roomBooking: 'room-booking',
+  eventVenues: 'event-venues',
+  quoteForm: 'quote-form',
+  leadForm: 'lead-form',
+  productCatalog: 'product-catalog',
+  beforeAfter: 'before-after',
+  trustSignals: 'trust-signals',
+  programsComparison: 'programs-comparison',
+  whyDestination: 'why-destination',
+  processTimeline: 'process-timeline',
+  featuredMenu: 'menu-categorized-priced',
+  fullMenu: 'menu-categorized-priced',
+  colorCodedMenu: 'menu-categorized-priced',
+  reservations: 'booking',
+  reservationForm: 'booking',
+  availabilityCalendar: 'booking',
+  packages: 'pricing',
+  packageBuilder: 'pricing',
+  properties: 'property-listings',
+  caseStudies: 'features',
+  'case-studies': 'features',
+  eventsCalendar: 'event-venues',
+  'events-calendar': 'event-venues',
+  insuranceList: 'features',
+  'insurance-list': 'features',
+  sakeMenu: 'sake-menu',
+  conveyorBelt: 'conveyor-belt',
+  menuCategorizedPriced: 'menu-categorized-priced',
+  propertyListings: 'property-listings',
+  deliveryLinks: 'cta-banner',
+  'delivery-links': 'cta-banner',
+  serviceAreaMap: 'why-destination',
+  'service-area-map': 'why-destination',
+  howItWorks: 'process',
+  'how-it-works': 'process',
+  featured_menu: 'menu-categorized-priced',
+  'featured-menu': 'menu-categorized-priced',
+  galleryPreview: 'gallery',
+  'gallery-preview': 'gallery',
+  'location-block': 'contact',
+  location_block: 'contact',
+  sakePairing: 'sake-menu',
+  'sake-pairing': 'sake-menu',
+  'services-preview': 'services',
+  services_preview: 'services',
+  'portfolio-gallery': 'portfolio',
+  // Sections without direct component — route to "features" as a card grid.
+  about: 'features',
+  programs: 'features',
+  staffSelector: 'features',
+  'staff-selector': 'features',
+  ctaBanners: 'cta-banner',
+}
+
+export function resolveSectionAlias(id: string): string {
+  // Fast path — already canonical.
+  if (id in SECTION_CATALOG) return id
+  if (id in SECTION_ALIASES) return SECTION_ALIASES[id]
+  // camelCase → kebab fallback
+  const kebab = id.replace(/_/g, '-').replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
+  if (kebab in SECTION_CATALOG) return kebab
+  if (kebab in SECTION_ALIASES) return SECTION_ALIASES[kebab]
+  return id
 }
 
 export function hasSection(id: string): boolean {
-  return Object.prototype.hasOwnProperty.call(SECTION_CATALOG, id)
+  const resolved = resolveSectionAlias(id)
+  return Object.prototype.hasOwnProperty.call(SECTION_CATALOG, resolved)
 }
 
 export function hasVariant(id: string, variant: string): boolean {

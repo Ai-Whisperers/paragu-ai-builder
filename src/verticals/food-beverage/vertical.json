@@ -1,0 +1,24 @@
+{
+  "id": "food-beverage",
+  "name": "Food & Beverage",
+  "nameEs": "Gastronomia",
+  "description": "Restaurants, cafes, bakeries, bars, catering. Menu-centric, reservation or walk-in, delivery-platform aware.",
+  "baseType": "restaurant_base",
+  "features": {
+    "i18n": "partial",
+    "menu": true,
+    "reservations": true,
+    "delivery": true,
+    "gallery": true,
+    "whatsappFloat": true,
+    "businessHours": true
+  },
+  "allowedSections": [
+    "header", "hero", "about", "menu-categorized-priced", "services",
+    "gallery", "testimonials", "reservations", "delivery-links",
+    "business-hours", "google-maps", "contact", "cta-banner",
+    "footer", "whatsapp-float", "conveyor-belt", "omakase", "sake-menu"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es", "en"]
+}

@@ -1,0 +1,52 @@
+{
+  "tenant": "nexa-paraguay",
+  "totalImages": 10,
+  "images": {
+    "hero": {
+      "home": "/sites/nexa-paraguay/images/hero/hero-bg.jpg",
+      "alt": "Asunción Paraguay skyline at golden hour"
+    },
+    "whyParaguay": {
+      "economic": {
+        "src": "/sites/nexa-paraguay/images/why-paraguay/business-district.jpg",
+        "alt": "Modern business district in Asunción"
+      },
+      "investment": {
+        "src": "/sites/nexa-paraguay/images/why-paraguay/real-estate.jpg",
+        "alt": "Premium real estate development in Paraguay"
+      },
+      "lifestyle": {
+        "src": "/sites/nexa-paraguay/images/why-paraguay/lifestyle.jpg",
+        "alt": "Quality of life in Paraguay"
+      }
+    },
+    "process": {
+      "consultation": {
+        "src": "/sites/nexa-paraguay/images/process/consultation.jpg",
+        "alt": "Professional consultation"
+      },
+      "documents": {
+        "src": "/sites/nexa-paraguay/images/process/documents.jpg",
+        "alt": "Document validation"
+      },
+      "arrival": {
+        "src": "/sites/nexa-paraguay/images/process/arrival.jpg",
+        "alt": "Arrival in Paraguay"
+      },
+      "banking": {
+        "src": "/sites/nexa-paraguay/images/process/banking.jpg",
+        "alt": "Company and banking setup"
+      },
+      "completion": {
+        "src": "/sites/nexa-paraguay/images/process/completion.jpg",
+        "alt": "Delivery and follow-up"
+      }
+    },
+    "blog": {
+      "immigrationGuide": {
+        "src": "/sites/nexa-paraguay/images/blog/immigration-guide.jpg",
+        "alt": "Paraguay immigration guide"
+      }
+    }
+  }
+}

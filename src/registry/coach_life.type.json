@@ -1,0 +1,21 @@
+{
+  "id": "coach_life",
+  "nameEs": "Life Coach",
+  "nameEn": "Life Coach",
+  "verticalId": "service-booking",
+  "extends": "psicologia",
+  "tokens": "coach_life",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Life Coach en {{city}}",
+    "descriptionTemplate": "Coaching personal y profesional con metodologia estructurada.",
+    "keywords": [
+      "life coach {{city}}",
+      "coaching personal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acompañamiento para la vida que queres",
+    "subheadlineTemplate": "Coaching personal y profesional con metodologia estructurada."
+  }
+}

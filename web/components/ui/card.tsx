@@ -51,3 +51,11 @@ export function CardDescription({ className, children }: { className?: string; c
     </p>
   )
 }
+
+export function CardHeader({ className, children }: { className?: string; children: React.ReactNode }) {
+  return (
+    <div className={cn('p-6 pb-0', className)}>
+      {children}
+    </div>
+  )
+}

@@ -1,0 +1,47 @@
+{
+  "id": "taller_mecanico",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Mecanica integral",
+    "subheadline": "Diagnostico computarizado, reparacion y mantenimiento en {{city}}. Trabajamos con todas las marcas.",
+    "ctaPrimary": "Cotizar por WhatsApp",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} combinamos experiencia y tecnologia para mantener tu vehiculo en optimas condiciones. Somos un taller familiar con {{yearsInOperation}} anos en {{city}}."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "categories": [
+      { "id": "mecanica_general", "name": "Mecanica General", "description": "Reparaciones completas de motor, caja y embrague." },
+      { "id": "diagnostico", "name": "Diagnostico Computarizado", "description": "Escaneo OBD2 y diagnostico electronico de todas las marcas." },
+      { "id": "frenos", "name": "Frenos", "description": "Revision, cambio de pastillas, discos y rectificado." },
+      { "id": "suspension", "name": "Suspension", "description": "Amortiguadores, rotulas, bieletas y alineacion." },
+      { "id": "aceite_filtros", "name": "Service y Filtros", "description": "Cambio de aceite, filtros y revision de 15 puntos." },
+      { "id": "electricidad", "name": "Electricidad Automotor", "description": "Bateria, alternador, arranque, luces y alarma." }
+    ]
+  },
+  "process": {
+    "title": "Como Trabajamos",
+    "steps": [
+      { "number": 1, "title": "Diagnostico", "description": "Revisamos tu vehiculo y te explicamos que necesita." },
+      { "number": 2, "title": "Presupuesto sin cargo", "description": "Detallamos repuestos y mano de obra antes de empezar." },
+      { "number": 3, "title": "Reparacion", "description": "Trabajamos con repuestos originales o alternativos de calidad." },
+      { "number": 4, "title": "Entrega y garantia", "description": "Tu auto listo con garantia escrita del trabajo realizado." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Profesionales y honestos. Te explican todo antes de cobrar.", "author": "Carlos M.", "rating": 5 },
+    { "quote": "Mi auto quedo como nuevo despues del service. Recomendados.", "author": "Andrea L.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Trabajan con todas las marcas?", "a": "Si, atendemos vehiculos nacionales e importados, japoneses, americanos y europeos." },
+    { "q": "Hacen diagnostico sin cargo?", "a": "El diagnostico visual es gratis. El escaneo computarizado tiene un costo reducido que se descuenta si realizamos la reparacion." },
+    { "q": "Cuanto demora una reparacion?", "a": "Depende del trabajo. Servicios basicos el mismo dia, reparaciones mayores entre 2 y 5 dias habiles." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Tu taller de confianza en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

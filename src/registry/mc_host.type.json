@@ -1,0 +1,22 @@
+{
+  "id": "mc_host",
+  "nameEs": "Maestro de Ceremonias",
+  "nameEn": "MC Host",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "mc_host",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Maestro de Ceremonias en {{city}}",
+    "descriptionTemplate": "Maestro de Ceremonias profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "maestro de ceremonias {{city}}",
+      "mc host {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Maestro de Ceremonias",
+    "subheadlineTemplate": "Maestro de Ceremonias profesional en {{city}}."
+  }
+}

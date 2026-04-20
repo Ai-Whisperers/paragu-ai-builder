@@ -7,6 +7,7 @@
 
 import type { ComposedSection } from './compose'
 import { logger } from '@/lib/logger'
+import { resolveSectionAlias } from './section-registry'
 import { HeaderSection } from '@/components/sections/header-section'
 import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
@@ -39,7 +40,16 @@ import { ProcessTimelineSection } from '@/components/sections/process-timeline-s
 import { OmakaseSection } from '@/components/sections/omakase-section'
 import { SakeMenuSection } from '@/components/sections/sake-menu-section'
 import { ConveyorBeltSection } from '@/components/sections/conveyor-belt-section'
+import { MenuCategorizedPricedSection } from '@/components/sections/menu-categorized-priced-section'
+import { PropertyListingsSection } from '@/components/sections/property-listings-section'
 
+/**
+ * Section components keyed by kebab-case id — the canonical form used
+ * across the registry, section-registry, and starter kits. For backwards
+ * compatibility with callers that still pass camelCase ("trustSignals",
+ * "conveyorBelt", etc.), `renderSection` normalizes the incoming id via
+ * `toKebab()` before looking up the component.
+ */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   header: HeaderSection,
@@ -47,59 +57,56 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   services: ServicesSection,
   booking: BookingSection,
   portfolio: PortfolioSection,
-  beforeAfter: BeforeAfterSection,
-  classSchedule: ClassScheduleSection,
-  membershipPlans: MembershipPlansSection,
-  roomBooking: RoomBookingSection,
-  eventVenues: EventVenuesSection,
-  quoteForm: QuoteFormSection,
-  emergencyIndicator: EmergencyIndicatorSection,
-  productCatalog: ProductCatalogSection,
+  'before-after': BeforeAfterSection,
+  'class-schedule': ClassScheduleSection,
+  'membership-plans': MembershipPlansSection,
+  'room-booking': RoomBookingSection,
+  'event-venues': EventVenuesSection,
+  'quote-form': QuoteFormSection,
+  'emergency-indicator': EmergencyIndicatorSection,
+  'product-catalog': ProductCatalogSection,
   gallery: GallerySection,
   team: TeamSection,
   testimonials: TestimonialsSection,
   contact: ContactSection,
   faq: FAQSection,
-  ctaBanner: CTABannerSection,
+  'cta-banner': CTABannerSection,
   footer: FooterSection,
-  whatsappFloat: WhatsAppFloat,
-  // Service/Consulting sections
+  'whatsapp-float': WhatsAppFloat,
+  // Service / consulting
   features: FeaturesSection,
   pricing: PricingTableSection,
   process: ProcessSection,
-  savingsCalculator: SavingsCalculatorSection,
-  // Nexa/Relocation sections (camelCase)
-  trustSignals: TrustSignalsSection,
-  programsComparison: ProgramsComparisonSection,
-  whyDestination: WhyDestinationSection,
-  processTimeline: ProcessTimelineSection,
-  // Nexa/Relocation sections (kebab-case from registry)
+  'savings-calculator': SavingsCalculatorSection,
+  // Relocation / B2B
   'trust-signals': TrustSignalsSection,
   'programs-comparison': ProgramsComparisonSection,
   'why-destination': WhyDestinationSection,
   'process-timeline': ProcessTimelineSection,
-  'cta-banner': CTABannerSection,
-  'whatsapp-float': WhatsAppFloat,
-  // Restaurant/Sushi sections
+  // Restaurant / Sushi
   omakase: OmakaseSection,
-  sakeMenu: SakeMenuSection,
-  conveyorBelt: ConveyorBeltSection,
   'sake-menu': SakeMenuSection,
   'conveyor-belt': ConveyorBeltSection,
+  // Catalog / menu (categorized + priced)
+  'menu-categorized-priced': MenuCategorizedPricedSection,
+  // Real estate
+  'property-listings': PropertyListingsSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {
-  const Component = SECTION_COMPONENTS[section.type]
+  const kebab = resolveSectionAlias(section.type)
+  const Component = SECTION_COMPONENTS[kebab]
   if (!Component) {
     logger.warn('Unknown section type — skipping render', {
       action: 'renderSection',
       sectionType: section.type,
+      normalized: kebab,
       order: section.order,
     })
     return null
   }
 
-  return <Component key={`${section.type}-${section.order}`} {...section.data} />
+  return <Component key={`${kebab}-${section.order}`} {...section.data} />
 }
 
 export function renderSections(sections: ComposedSection[]): React.ReactNode[] {

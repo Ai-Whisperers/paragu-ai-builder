@@ -35,7 +35,7 @@ export function ConveyorBeltSection({
     <section id="como-funciona" className="bg-[var(--surface)] py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader className="mb-12 text-center">
-          <Heading as="h2" size="h2" className="mb-4">
+          <Heading as="h2" level={2} className="mb-4">
             {title}
           </Heading>
           {subtitle && (
@@ -52,7 +52,7 @@ export function ConveyorBeltSection({
                   <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--primary)] text-2xl font-bold text-[var(--primary-foreground)]">
                     {step.number}
                   </div>
-                  <h3 className="mb-2 text-lg font-semibold">{step.title}</h3>
+                  <Heading level={3} className="mb-2 text-lg font-semibold">{step.title}</Heading>
                   <p className="text-sm text-[var(--text-muted)]">{step.description}</p>
                 </div>
               </AnimateOnScroll>
@@ -62,7 +62,7 @@ export function ConveyorBeltSection({
 
         {/* Plate Colors / Pricing */}
         <div className="mb-12">
-          <Heading as="h3" size="h3" className="mb-8 text-center">
+          <Heading as="h3" level={3} className="mb-8 text-center">
             Precios por Color de Plato
           </Heading>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -91,7 +91,7 @@ export function ConveyorBeltSection({
         {/* Tips */}
         {tips && tips.length > 0 && (
           <div className="mx-auto max-w-3xl rounded-lg bg-[var(--surface-light)] p-8">
-            <Heading as="h4" size="h4" className="mb-4 text-center">
+            <Heading as="h4" level={4} className="mb-4 text-center">
               Tips para tu Primera Visita
             </Heading>
             <ul className="space-y-3">

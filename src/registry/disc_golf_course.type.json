@@ -1,0 +1,22 @@
+{
+  "id": "disc_golf_course",
+  "nameEs": "Disc Golf",
+  "nameEn": "Disc Golf",
+  "verticalId": "sports-recreation",
+  "subVertical": "golf",
+  "extends": "sports_base",
+  "tokens": "disc_golf_course",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Disc Golf en {{city}}",
+    "descriptionTemplate": "Disc Golf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disc golf {{city}}",
+      "disc golf {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disc Golf",
+    "subheadlineTemplate": "Disc Golf profesional en {{city}}."
+  }
+}

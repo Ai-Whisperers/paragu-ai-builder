@@ -1,0 +1,28 @@
+{
+  "name": "Bakery warm bread",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Wheat & Cocoa",
+      "colors": {
+        "primary": "#92400E",
+        "secondary": "#A16207",
+        "accent": "#FDE68A",
+        "background": "#FFFBEB",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FEF3C7",
+        "text": "#451A03",
+        "textLight": "#78350F",
+        "textMuted": "#A16207"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Playfair+Display:wght@500;600;700", "Inter:wght@400;500;600"]
+}

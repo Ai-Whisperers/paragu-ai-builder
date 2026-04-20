@@ -1,0 +1,28 @@
+{
+  "name": "Automotive industrial",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Carbon & Ignition Red",
+      "colors": {
+        "primary": "#1F2937",
+        "secondary": "#DC2626",
+        "accent": "#F59E0B",
+        "background": "#F9FAFB",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#E5E7EB",
+        "text": "#111827",
+        "textLight": "#374151",
+        "textMuted": "#6B7280"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Oswald', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Oswald:wght@600;700", "Inter:wght@400;500;600"]
+}

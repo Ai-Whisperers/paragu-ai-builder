@@ -1,0 +1,25 @@
+{
+  "id": "hospitality_broker",
+  "nameEs": "Broker Hotelero",
+  "nameEn": "Hospitality Broker",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "commercial-brokerage",
+  "extends": "inmobiliaria",
+  "tokens": "hospitality_broker",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Broker Hotelero en {{city}}",
+    "descriptionTemplate": "Broker Hotelero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "broker hotelero {{city}}",
+      "hospitality broker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Broker Hotelero",
+    "subheadlineTemplate": "Broker Hotelero profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

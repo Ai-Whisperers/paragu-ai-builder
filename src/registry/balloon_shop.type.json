@@ -1,0 +1,22 @@
+{
+  "id": "balloon_shop",
+  "nameEs": "Globos",
+  "nameEn": "Balloon Shop",
+  "verticalId": "retail-local",
+  "subVertical": "toys-gifts",
+  "extends": "retail_base",
+  "tokens": "balloon_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Globos en {{city}}",
+    "descriptionTemplate": "Globos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "globos {{city}}",
+      "balloon shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Globos",
+    "subheadlineTemplate": "Globos profesional en {{city}}."
+  }
+}

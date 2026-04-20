@@ -1,0 +1,22 @@
+{
+  "id": "running_shoe_specialist",
+  "nameEs": "Especialista Running",
+  "nameEn": "Running Specialist",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "running_shoe_specialist",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Especialista Running en {{city}}",
+    "descriptionTemplate": "Especialista Running profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista running {{city}}",
+      "running specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Running",
+    "subheadlineTemplate": "Especialista Running profesional en {{city}}."
+  }
+}

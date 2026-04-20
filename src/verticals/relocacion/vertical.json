@@ -1,7 +1,9 @@
 {
-  "id": "relocacion",
-  "name": "Relocation Services",
-  "description": "Professional relocation: residency, company incorporation, bank account, investment advisory. Country-agnostic — used by Nexa Paraguay, Nexa Uruguay, etc.",
+  "id": "real-estate-relocation",
+  "folderAlias": "relocacion",
+  "name": "Real Estate & Relocation",
+  "nameEs": "Inmobiliaria y Relocacion",
+  "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",
   "features": {
     "i18n": true,
     "booking": true,
@@ -10,7 +12,8 @@
     "multiCurrency": false,
     "testimonials": true,
     "trustSignals": true,
-    "whatsappFloat": true
+    "whatsappFloat": true,
+    "propertyListings": true
   },
   "allowedSections": [
     "header",
@@ -28,7 +31,10 @@
     "blog-index",
     "blog-post",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "property-listings",
+    "lead-form"
   ],
-  "defaultStarterKit": "full"
+  "defaultStarterKit": "full",
+  "locales": ["es", "en", "de", "nl"]
 }

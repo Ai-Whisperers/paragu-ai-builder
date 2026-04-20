@@ -1,0 +1,22 @@
+{
+  "id": "kondo_declutter_specialist",
+  "nameEs": "Especialista Declutter",
+  "nameEn": "Declutter Specialist",
+  "verticalId": "service-booking",
+  "subVertical": "home-organization",
+  "extends": "gimnasio",
+  "tokens": "kondo_declutter_specialist",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Especialista Declutter en {{city}}",
+    "descriptionTemplate": "Especialista Declutter profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista declutter {{city}}",
+      "declutter specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Declutter",
+    "subheadlineTemplate": "Especialista Declutter profesional en {{city}}."
+  }
+}

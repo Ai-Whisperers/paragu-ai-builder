@@ -1,4 +1,4 @@
-import type { BookingAdapter, BookingEmbed } from './types'
+import type { BookingAdapter } from './types'
 
 export const calendlyAdapter: BookingAdapter = {
   name: 'calendly',

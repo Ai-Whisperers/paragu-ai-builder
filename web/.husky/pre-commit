@@ -1,33 +1,27 @@
 #!/bin/sh
-# Pre-commit hook - runs quality checks before commit
+#
+# Pre-commit hook for Paragu-AI Builder
+# Runs lint-staged to check and fix code before commit
+#
 
-echo "🔍 Running pre-commit quality checks..."
+. "$(dirname "$0")/_/husky.sh"
 
-cd web
+echo "🔍 Running pre-commit checks..."
 
-# Check for TypeScript errors
-echo "📝 Type checking..."
+# Run typecheck
+echo "📦 Type checking..."
 npm run typecheck
 if [ $? -ne 0 ]; then
-  echo "❌ TypeScript check failed"
+  echo "❌ Type check failed. Please fix the errors above."
   exit 1
 fi
 
-# Check for lint errors
-echo "📏 Linting..."
-npm run lint
+# Run lint-staged
+echo "🔧 Running lint-staged..."
+npx lint-staged
 if [ $? -ne 0 ]; then
-  echo "❌ Lint check failed"
+  echo "❌ Lint-staged failed. Please fix the errors above."
   exit 1
 fi
 
-# Check formatting
-echo "🎨 Checking formatting..."
-npm run format:check
-if [ $? -ne 0 ]; then
-  echo "❌ Formatting issues found. Run 'npm run format' to fix."
-  exit 1
-fi
-
-echo "✅ All pre-commit checks passed!"
-exit 0
+echo "✅ Pre-commit checks passed!"

@@ -1,0 +1,23 @@
+{
+  "description": "Trades minimal kit: services, service area, quote form, emergency CTA.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "image", "content": "home.hero" },
+        { "id": "emergency-indicator", "variant": "banner", "content": "home.emergency", "enabledWhen": "emergencyIndicator" },
+        { "id": "services", "variant": "grid", "content": "home.services" },
+        { "id": "service-area-map", "variant": "embed", "content": "home.area", "enabledWhen": "serviceArea" },
+        { "id": "before-after", "variant": "carousel", "content": "home.beforeAfter", "enabledWhen": "beforeAfter" },
+        { "id": "process", "variant": "steps", "content": "home.process" },
+        { "id": "testimonials", "variant": "grid", "content": "home.testimonials" },
+        { "id": "faq", "variant": "accordion", "content": "home.faq" },
+        { "id": "quote-form", "variant": "inline", "content": "home.quote" },
+        { "id": "contact", "variant": "split", "content": "home.contact" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    }
+  }
+}

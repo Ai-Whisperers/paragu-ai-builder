@@ -1,0 +1,22 @@
+{
+  "id": "blow_dry_bar",
+  "nameEs": "Secado y Peinado",
+  "nameEn": "Blow Dry Bar",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "blow_dry_bar",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Secado y Peinado en {{city}}",
+    "descriptionTemplate": "Secado y Peinado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "secado y peinado {{city}}",
+      "blow dry bar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Secado y Peinado",
+    "subheadlineTemplate": "Secado y Peinado profesional en {{city}}."
+  }
+}

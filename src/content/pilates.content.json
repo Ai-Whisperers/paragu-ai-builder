@@ -1,0 +1,38 @@
+{
+  "id": "pilates",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Pilates autentico",
+    "subheadline": "Reformer, Mat y Tower en {{city}}. Grupos reducidos, atencion personalizada.",
+    "ctaPrimary": "Clase de Prueba",
+    "ctaSecondary": "Ver Horarios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Estudio de pilates con equipamiento profesional y instructoras certificadas internacionalmente. Metodo original Joseph Pilates adaptado a tus objetivos."
+  },
+  "programs": {
+    "title": "Tipos de Clase",
+    "items": [
+      { "name": "Reformer", "description": "Clases en camilla reformer. Grupos reducidos de hasta 4 personas." },
+      { "name": "Mat", "description": "Pilates en colchoneta con props. Trabajo de core y control corporal." },
+      { "name": "Tower", "description": "Ejercicios en torre para fuerza y flexibilidad intensiva." },
+      { "name": "Post-Rehabilitacion", "description": "Clases para recuperacion de lesiones con supervision de kinesiologa." },
+      { "name": "Prenatal", "description": "Pilates adaptado para embarazadas. Fortalecimiento sin impacto." },
+      { "name": "Personal", "description": "Clases 1 a 1 con instructora exclusiva y plan a medida." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Mi dolor de espalda desaparecio despues de 3 meses. Cambio mi vida.", "author": "Andrea C.", "rating": 5 },
+    { "quote": "Las instructoras son excelentes, corrigen la postura al detalle.", "author": "Lucia M.", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Nunca hice pilates, puedo empezar?", "a": "Si, tenemos clases introductorias. Recomendamos empezar con 2 clases 1 a 1." },
+    { "q": "Que diferencia hay con el yoga?", "a": "Pilates es mas focalizado en fuerza profunda del core y rehabilitacion. Yoga tiene dimension espiritual. Se complementan bien." },
+    { "q": "Tienen clases de pilates post-parto?", "a": "Si, trabajamos pilates post-parto con supervision de kinesiologa desde las 6 semanas." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Pilates profesional en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

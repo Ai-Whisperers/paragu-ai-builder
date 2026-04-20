@@ -1,0 +1,22 @@
+{
+  "id": "packaging_engineer",
+  "nameEs": "Ingeniero de Empaque",
+  "nameEn": "Packaging Engineer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "industrial-product-design",
+  "extends": "diseno_grafico",
+  "tokens": "packaging_engineer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Ingeniero de Empaque en {{city}}",
+    "descriptionTemplate": "Ingeniero de Empaque profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ingeniero de empaque {{city}}",
+      "packaging engineer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ingeniero de Empaque",
+    "subheadlineTemplate": "Ingeniero de Empaque profesional en {{city}}."
+  }
+}

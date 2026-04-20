@@ -1,0 +1,22 @@
+{
+  "id": "streetwear_boutique",
+  "nameEs": "Boutique Streetwear",
+  "nameEn": "Streetwear Boutique",
+  "verticalId": "retail-local",
+  "subVertical": "apparel-fashion",
+  "extends": "retail_base",
+  "tokens": "streetwear_boutique",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Boutique Streetwear en {{city}}",
+    "descriptionTemplate": "Boutique Streetwear profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "boutique streetwear {{city}}",
+      "streetwear boutique {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Boutique Streetwear",
+    "subheadlineTemplate": "Boutique Streetwear profesional en {{city}}."
+  }
+}

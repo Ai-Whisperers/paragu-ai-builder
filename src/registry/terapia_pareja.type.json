@@ -1,0 +1,20 @@
+{
+  "id": "terapia_pareja",
+  "nameEs": "Terapia de Pareja",
+  "nameEn": "Couples Therapy",
+  "verticalId": "service-booking",
+  "extends": "psicologia",
+  "tokens": "terapia_pareja",
+  "seo": {
+    "schemaType": "Psychologist",
+    "titleTemplate": "{{businessName}} - Terapia de Pareja en {{city}}",
+    "descriptionTemplate": "Terapia de pareja con enfoque sistemico y tecnicas probadas.",
+    "keywords": [
+      "terapia pareja {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Un espacio para ustedes",
+    "subheadlineTemplate": "Terapia de pareja con enfoque sistemico y tecnicas probadas."
+  }
+}

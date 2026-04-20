@@ -79,12 +79,12 @@ function ThreeCol({ pillars }: { pillars: WhyPillar[] }) {
             <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-[var(--secondary)]/10">
               <IconByName name={p.icon} />
             </div>
-            <h3
+            <Heading level={3}
               className="mb-3 text-xl font-semibold text-[var(--primary)]"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               {p.title}
-            </h3>
+            </Heading>
             <p className="text-[var(--text-light)]">{p.description}</p>
             {p.bullets && p.bullets.length > 0 && (
               <ul className="mt-4 space-y-2">
@@ -120,12 +120,12 @@ function Alternating({ pillars }: { pillars: WhyPillar[] }) {
                   <IconByName name={p.icon} />
                 </div>
               )}
-              <h3
+              <Heading level={3}
                 className="mb-3 text-2xl font-semibold text-[var(--primary)]"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
                 {p.title}
-              </h3>
+              </Heading>
               <p className="text-[var(--text-light)]">{p.description}</p>
               {p.bullets && (
                 <ul className="mt-4 space-y-2">

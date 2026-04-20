@@ -1,0 +1,21 @@
+{
+  "id": "concesionaria_autos",
+  "nameEs": "Concesionaria de Autos",
+  "nameEn": "Car Dealership",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "concesionaria_autos",
+  "seo": {
+    "schemaType": "AutoDealer",
+    "titleTemplate": "{{businessName}} - Concesionaria de Autos en {{city}}",
+    "descriptionTemplate": "Autos 0km y usados seleccionados. Financiacion y canje.",
+    "keywords": [
+      "concesionaria {{city}}",
+      "venta autos {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu proximo auto, con confianza",
+    "subheadlineTemplate": "Autos 0km y usados seleccionados. Financiacion y canje."
+  }
+}

@@ -66,7 +66,7 @@ export default function PhotoGallery({
               src={image.src} 
               alt={image.alt}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-            />
+             loading="lazy" decoding="async" />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
           </div>
         ))}
@@ -99,7 +99,7 @@ export default function PhotoGallery({
               src={images[currentIndex].src} 
               alt={images[currentIndex].alt}
               className="max-w-full max-h-[80vh] object-contain"
-            />
+             loading="lazy" decoding="async" />
             {images[currentIndex].alt && (
               <p className="text-white text-center mt-4">{images[currentIndex].alt}</p>
             )}

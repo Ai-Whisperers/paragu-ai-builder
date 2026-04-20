@@ -1,0 +1,25 @@
+{
+  "id": "refrigerated_trucking",
+  "nameEs": "Transporte Refrigerado",
+  "nameEn": "Reefer Trucking",
+  "verticalId": "logistics-transport",
+  "subVertical": "trucking-freight",
+  "extends": "logistics_base",
+  "tokens": "refrigerated_trucking",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Transporte Refrigerado en {{city}}",
+    "descriptionTemplate": "Transporte Refrigerado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "transporte refrigerado {{city}}",
+      "reefer trucking {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Transporte Refrigerado",
+    "subheadlineTemplate": "Transporte Refrigerado profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

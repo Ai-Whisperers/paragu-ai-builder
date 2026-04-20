@@ -1,0 +1,27 @@
+{
+  "id": "oftalmologia",
+  "nameEs": "Oftalmologia / Optica",
+  "nameEn": "Ophthalmology / Optician",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "oftalmologia",
+  "seo": {
+    "schemaType": "Optician",
+    "titleTemplate": "{{businessName}} - Oftalmologia / Optica en {{city}}",
+    "descriptionTemplate": "Examenes visuales, anteojos y lentes de contacto en {{city}}.",
+    "keywords": [
+      "oftalmologo {{city}}",
+      "optica {{city}}",
+      "anteojos {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidamos tu vision",
+    "subheadlineTemplate": "Examenes visuales, anteojos y lentes de contacto en {{city}}."
+  },
+  "serviceCategories": [
+    "examen",
+    "anteojos",
+    "lentes_contacto"
+  ]
+}

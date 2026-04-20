@@ -1,0 +1,22 @@
+{
+  "id": "general_veterinary_clinic",
+  "nameEs": "Clinica Veterinaria",
+  "nameEn": "Vet Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "general_veterinary_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica Veterinaria en {{city}}",
+    "descriptionTemplate": "Clinica Veterinaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica veterinaria {{city}}",
+      "vet clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica Veterinaria",
+    "subheadlineTemplate": "Clinica Veterinaria profesional en {{city}}."
+  }
+}

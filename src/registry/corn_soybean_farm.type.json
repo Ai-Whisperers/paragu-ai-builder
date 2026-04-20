@@ -1,0 +1,22 @@
+{
+  "id": "corn_soybean_farm",
+  "nameEs": "Granja Maiz Soja",
+  "nameEn": "Corn Soybean Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "crop-farming",
+  "extends": "agriculture_base",
+  "tokens": "corn_soybean_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja Maiz Soja en {{city}}",
+    "descriptionTemplate": "Granja Maiz Soja profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja maiz soja {{city}}",
+      "corn soybean farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja Maiz Soja",
+    "subheadlineTemplate": "Granja Maiz Soja profesional en {{city}}."
+  }
+}

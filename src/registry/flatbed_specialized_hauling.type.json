@@ -1,0 +1,25 @@
+{
+  "id": "flatbed_specialized_hauling",
+  "nameEs": "Transporte Plataforma",
+  "nameEn": "Flatbed Hauling",
+  "verticalId": "logistics-transport",
+  "subVertical": "trucking-freight",
+  "extends": "logistics_base",
+  "tokens": "flatbed_specialized_hauling",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Transporte Plataforma en {{city}}",
+    "descriptionTemplate": "Transporte Plataforma profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "transporte plataforma {{city}}",
+      "flatbed hauling {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Transporte Plataforma",
+    "subheadlineTemplate": "Transporte Plataforma profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

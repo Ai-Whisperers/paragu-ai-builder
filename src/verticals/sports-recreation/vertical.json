@@ -1,0 +1,33 @@
+{
+  "id": "sports-recreation",
+  "name": "Sports & Recreation",
+  "nameEs": "Deportes y Recreacion",
+  "description": "Climbing gyms, racquet sports, golf, water sports, winter sports, motorsports, martial arts, equestrian, esports. Waiver-required.",
+  "baseType": "sports_base",
+  "features": {
+    "i18n": false,
+    "booking": true,
+    "classSchedule": true,
+    "membershipPlans": true,
+    "whatsappFloat": true,
+    "waivers": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "class-schedule",
+    "membership-plans",
+    "gallery",
+    "testimonials",
+    "faq",
+    "booking",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

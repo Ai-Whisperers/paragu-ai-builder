@@ -1,0 +1,31 @@
+{
+  "name": "Agri Green",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Agri Green",
+      "colors": {
+        "primary": "#166534",
+        "secondary": "#CA8A04",
+        "accent": "#A7F3D0",
+        "background": "#F7FEE7",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#FFFFFF",
+        "text": "#14532D",
+        "textLight": "#14532D",
+        "textMuted": "#64748B"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Source Serif Pro', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": [
+    "Source+Serif+Pro:wght@600;700",
+    "Inter:wght@400;500;600"
+  ]
+}

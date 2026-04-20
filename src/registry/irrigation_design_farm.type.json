@@ -1,0 +1,25 @@
+{
+  "id": "irrigation_design_farm",
+  "nameEs": "Diseno Riego",
+  "nameEn": "Farm Irrigation Design",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "ag-services",
+  "extends": "agriculture_base",
+  "tokens": "irrigation_design_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Diseno Riego en {{city}}",
+    "descriptionTemplate": "Diseno Riego profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "diseno riego {{city}}",
+      "farm irrigation design {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Diseno Riego",
+    "subheadlineTemplate": "Diseno Riego profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

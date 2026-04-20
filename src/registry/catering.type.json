@@ -1,0 +1,27 @@
+{
+  "id": "catering",
+  "nameEs": "Catering",
+  "nameEn": "Catering",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "catering",
+  "seo": {
+    "schemaType": "FoodService",
+    "titleTemplate": "{{businessName}} - Catering en {{city}}",
+    "descriptionTemplate": "Catering para eventos corporativos, bodas y reuniones en {{city}}.",
+    "keywords": [
+      "catering {{city}}",
+      "catering bodas {{city}}",
+      "catering empresas {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - La gastronomia de tu evento",
+    "subheadlineTemplate": "Catering para eventos corporativos, bodas y reuniones en {{city}}."
+  },
+  "serviceCategories": [
+    "corporativo",
+    "social",
+    "finger_food"
+  ]
+}

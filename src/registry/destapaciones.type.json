@@ -1,0 +1,21 @@
+{
+  "id": "destapaciones",
+  "nameEs": "Destapaciones",
+  "nameEn": "Drain Cleaning",
+  "verticalId": "trades-home-services",
+  "extends": "plomero",
+  "tokens": "destapaciones",
+  "seo": {
+    "schemaType": "Plumber",
+    "titleTemplate": "{{businessName}} - Destapaciones en {{city}}",
+    "descriptionTemplate": "Destapaciones con maquina rotativa y cameras. Urgencias 24h.",
+    "keywords": [
+      "destapaciones {{city}}",
+      "destapar cañeria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Destapamos lo que sea, rapido",
+    "subheadlineTemplate": "Destapaciones con maquina rotativa y cameras. Urgencias 24h."
+  }
+}

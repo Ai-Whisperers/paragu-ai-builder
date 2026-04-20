@@ -1,0 +1,26 @@
+{
+  "id": "transfer_aeropuerto",
+  "nameEs": "Transfer al Aeropuerto",
+  "nameEn": "Airport Transfer",
+  "verticalId": "hospitality-tourism",
+  "extends": "automotive_base",
+  "tokens": "transfer_aeropuerto",
+  "seo": {
+    "schemaType": "TaxiService",
+    "titleTemplate": "{{businessName}} - Transfer al Aeropuerto en {{city}}",
+    "descriptionTemplate": "Traslados al aeropuerto Silvio Pettirossi y viceversa. Tarifa fija.",
+    "keywords": [
+      "transfer aeropuerto asuncion",
+      "traslado aeropuerto {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Llega y sali tranquilo",
+    "subheadlineTemplate": "Traslados al aeropuerto Silvio Pettirossi y viceversa. Tarifa fija."
+  },
+  "serviceCategories": [
+    "aeropuerto",
+    "corporativo",
+    "grupos"
+  ]
+}

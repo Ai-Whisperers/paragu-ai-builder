@@ -1,0 +1,37 @@
+{
+  "id": "retail_base",
+  "nameEs": "Base Retail",
+  "nameEn": "Retail Base",
+  "verticalId": "retail-local",
+  "abstract": true,
+  "tokens": "retail_base",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "productCatalog", "gallery", "testimonials", "businessHours", "googleMaps", "contact", "footer"],
+      "requiredSections": ["header", "hero", "productCatalog", "contact", "footer"]
+    }
+  },
+  "features": {
+    "productCatalog": { "enabled": true, "whatsappOrder": true, "showPrices": true },
+    "gallery": { "enabled": true },
+    "businessHours": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Productos de calidad en {{city}}. Compra por WhatsApp."
+  },
+  "nav": {
+    "items": ["Inicio", "Productos", "Ubicacion", "Contacto"],
+    "cta": { "text": "Pedir por WhatsApp", "action": "whatsapp" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}}",
+    "subheadlineTemplate": "Tu tienda de confianza en {{city}}",
+    "ctaPrimary": { "text": "Ver Catalogo", "action": "scrollTo:productCatalog" },
+    "ctaSecondary": { "text": "Pedir por WhatsApp", "action": "whatsapp" }
+  }
+}

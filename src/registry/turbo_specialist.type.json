@@ -1,0 +1,22 @@
+{
+  "id": "turbo_specialist",
+  "nameEs": "Especialista Turbo",
+  "nameEn": "Turbo Specialist",
+  "verticalId": "automotive",
+  "subVertical": "tuning-performance",
+  "extends": "automotive_base",
+  "tokens": "turbo_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Especialista Turbo en {{city}}",
+    "descriptionTemplate": "Especialista Turbo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista turbo {{city}}",
+      "turbo specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Turbo",
+    "subheadlineTemplate": "Especialista Turbo profesional en {{city}}."
+  }
+}

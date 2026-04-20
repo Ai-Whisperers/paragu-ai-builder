@@ -12,7 +12,7 @@
  * Exits non-zero on any failure with a readable report.
  */
 import { readFileSync, readdirSync, existsSync } from 'fs'
-import { resolve, join } from 'path'
+import { resolve } from 'path'
 import { SECTION_CATALOG } from '../lib/engine/section-registry'
 
 interface Problem {

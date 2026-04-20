@@ -1,0 +1,28 @@
+{
+  "id": "contador",
+  "nameEs": "Estudio Contable",
+  "nameEn": "Accounting Firm",
+  "verticalId": "b2b-professional",
+  "extends": "professional_services_base",
+  "tokens": "contador",
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Estudio Contable en {{city}}",
+    "descriptionTemplate": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en {{city}}.",
+    "keywords": [
+      "contador {{city}}",
+      "contabilidad {{city}}",
+      "estudio contable {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tus numeros en buenas manos",
+    "subheadlineTemplate": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en {{city}}."
+  },
+  "serviceCategories": [
+    "contabilidad",
+    "impuestos",
+    "sueldos",
+    "asesoria"
+  ]
+}

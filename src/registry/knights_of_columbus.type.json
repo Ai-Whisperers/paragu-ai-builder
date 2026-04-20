@@ -1,0 +1,22 @@
+{
+  "id": "knights_of_columbus",
+  "nameEs": "Caballeros Colon",
+  "nameEn": "Knights of Columbus",
+  "verticalId": "membership-community",
+  "subVertical": "fraternal-order",
+  "extends": "membership_base",
+  "tokens": "knights_of_columbus",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Caballeros Colon en {{city}}",
+    "descriptionTemplate": "Caballeros Colon profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "caballeros colon {{city}}",
+      "knights of columbus {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Caballeros Colon",
+    "subheadlineTemplate": "Caballeros Colon profesional en {{city}}."
+  }
+}

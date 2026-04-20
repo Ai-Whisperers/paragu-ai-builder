@@ -1,0 +1,25 @@
+{
+  "id": "concrete_aggregate_supplier",
+  "nameEs": "Hormigonera",
+  "nameEn": "Concrete Supplier",
+  "verticalId": "trades-industrial",
+  "subVertical": "chemicals-materials",
+  "extends": "industrial_base",
+  "tokens": "concrete_aggregate_supplier",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Hormigonera en {{city}}",
+    "descriptionTemplate": "Hormigonera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hormigonera {{city}}",
+      "concrete supplier {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hormigonera",
+    "subheadlineTemplate": "Hormigonera profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

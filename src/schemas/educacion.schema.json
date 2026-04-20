@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "educacion",
+  "title": "Education / Tutoring Business Input Schema",
+  "description": "Additional fields for schools, tutoring centres, and online academies",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "ageRanges": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["ninos", "adolescentes", "universitarios", "adultos", "tercera-edad"] }
+    },
+    "modalities": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["presencial", "virtual", "hibrida"] }
+    },
+    "subjects": {
+      "type": "array",
+      "description": "Subject areas covered (matemáticas, idiomas, música, etc.)",
+      "items": { "type": "string" }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "issuer": { "type": "string" }
+        }
+      }
+    },
+    "classSchedule": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["day", "classes"],
+        "properties": {
+          "day": { "type": "string" },
+          "classes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["time", "name"],
+              "properties": {
+                "time": { "type": "string" },
+                "name": { "type": "string" },
+                "instructor": { "type": "string" },
+                "duration": { "type": "integer" },
+                "spots": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "location.address", "subjects", "modalities", "ageRanges"],
+    "priority2": ["classSchedule", "team", "certifications", "branding.logoUrl"],
+    "priority3": ["seo.googleBusinessProfileUrl", "faq", "testimonials"]
+  }
+}

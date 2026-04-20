@@ -1,0 +1,28 @@
+{
+  "name": "Veterinary friendly",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Soft Teal",
+      "colors": {
+        "primary": "#0D9488",
+        "secondary": "#F59E0B",
+        "accent": "#A7F3D0",
+        "background": "#FFFFFF",
+        "surface": "#F0FDFA",
+        "surfaceLight": "#CCFBF1",
+        "text": "#134E4A",
+        "textLight": "#115E59",
+        "textMuted": "#5EEAD4"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Nunito', sans-serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "700",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Nunito:wght@600;700;800", "Inter:wght@400;500;600"]
+}

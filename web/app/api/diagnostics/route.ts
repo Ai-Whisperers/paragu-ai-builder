@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
-import { createRequestLogger } from '@/lib/logger'
+import { withRequestLog } from '@/lib/api/with-request-log'
 import { listSiteSlugs } from '@/lib/engine/site-loader'
 import { loadAllSlugs } from '@/lib/engine/data-loader'
 
@@ -8,27 +8,21 @@ export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
 /**
- * Admin-only diagnostics endpoint.
- *
- * Returns a snapshot of the runtime useful for debugging:
- * - Auth user
- * - Feature-flag / integration env var presence (names only, never values)
- * - Static site catalog (slugs from both flat + vertical patterns)
- * - Last N generation_logs rows (per-business scoped)
- *
- * Called via `GET /api/diagnostics`. Requires a logged-in admin user.
+ * Admin-only diagnostics endpoint. Returns a snapshot of the runtime:
+ *   - Auth user
+ *   - Feature-flag / integration env var presence (names only)
+ *   - Static site catalog (slugs from both flat + vertical patterns)
+ *   - Last N generation_logs rows (cross-tenant — admin view)
  */
-export async function GET(request: Request) {
-  const log = createRequestLogger(request)
-
+export const GET = withRequestLog(async (request, { log, requestId }) => {
   const supabase = await createClient()
   const { data: { user }, error: authError } = await supabase.auth.getUser()
 
   if (authError || !user) {
     log.warn('Unauthorized /api/diagnostics request', { error: authError?.message })
     return NextResponse.json(
-      { error: 'unauthorized', requestId: log.requestId },
-      { status: 401, headers: { 'x-request-id': log.requestId } },
+      { error: 'unauthorized', requestId },
+      { status: 401 },
     )
   }
 
@@ -80,27 +74,26 @@ export async function GET(request: Request) {
     })
   }
 
-  const payload = {
-    requestId: log.requestId,
-    timestamp: new Date().toISOString(),
-    user: { id: user.id, email: user.email },
-    env: {
-      nodeEnv: process.env.NODE_ENV,
-      appVersion: process.env.NEXT_PUBLIC_APP_VERSION || 'unknown',
-      commit: process.env.NEXT_PUBLIC_COMMIT_SHA || 'unknown',
-      envVarsPresent,
-    },
-    catalog: {
-      staticSiteCount: siteCatalog.length,
-      staticSiteSlugs: siteCatalog,
-      businessSlugCount: businessSlugs.length,
-    },
-    recentGenerationLogs: recentLogs,
-  }
-
   log.info('Diagnostics returned', { userId: user.id })
 
-  return NextResponse.json(payload, {
-    headers: { 'x-request-id': log.requestId, 'cache-control': 'no-store' },
-  })
-}
+  return NextResponse.json(
+    {
+      requestId,
+      timestamp: new Date().toISOString(),
+      user: { id: user.id, email: user.email },
+      env: {
+        nodeEnv: process.env.NODE_ENV,
+        appVersion: process.env.NEXT_PUBLIC_APP_VERSION || 'unknown',
+        commit: process.env.NEXT_PUBLIC_COMMIT_SHA || 'unknown',
+        envVarsPresent,
+      },
+      catalog: {
+        staticSiteCount: siteCatalog.length,
+        staticSiteSlugs: siteCatalog,
+        businessSlugCount: businessSlugs.length,
+      },
+      recentGenerationLogs: recentLogs,
+    },
+    { headers: { 'cache-control': 'no-store' } },
+  )
+})

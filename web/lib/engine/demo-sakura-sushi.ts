@@ -1,4 +1,8 @@
 /**
+ * DEPRECATED — single-tenant demo fixture. Kept because `data-loader.ts` still
+ * imports it as a fallback for the `sakura-sushi` slug. Replace with the
+ * synthetic factory pattern when the fallback path is refactored.
+ *
  * Demo business: Sakura Sushi - Traditional sushi bar
  * Location: Asuncion, Paraguay
  */

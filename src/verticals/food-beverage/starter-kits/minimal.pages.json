@@ -1,0 +1,22 @@
+{
+  "description": "Food minimal kit: menu, reservations, gallery, hours, location.",
+  "pages": {
+    "home": {
+      "slug": "",
+      "sections": [
+        { "id": "header", "variant": "standard", "content": "navigation" },
+        { "id": "hero", "variant": "image", "content": "home.hero" },
+        { "id": "about", "variant": "split", "content": "home.about" },
+        { "id": "menu-categorized-priced", "variant": "categorized", "content": "home.menu" },
+        { "id": "gallery", "variant": "grid", "content": "home.gallery", "enabledWhen": "gallery" },
+        { "id": "testimonials", "variant": "carousel", "content": "home.testimonials", "enabledWhen": "testimonials" },
+        { "id": "reservations", "variant": "form", "content": "home.reservations", "enabledWhen": "reservations" },
+        { "id": "delivery-links", "variant": "logos", "content": "home.delivery", "enabledWhen": "delivery" },
+        { "id": "business-hours", "variant": "inline", "content": "home.hours" },
+        { "id": "google-maps", "variant": "embed", "content": "home.location" },
+        { "id": "footer", "variant": "standard", "content": "footer" },
+        { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+      ]
+    }
+  }
+}

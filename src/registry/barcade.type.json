@@ -1,0 +1,25 @@
+{
+  "id": "barcade",
+  "nameEs": "Barcade",
+  "nameEn": "Barcade",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "escape-room-arcade",
+  "extends": "entertainment_base",
+  "tokens": "barcade",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Barcade en {{city}}",
+    "descriptionTemplate": "Barcade profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "barcade {{city}}",
+      "barcade {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Barcade",
+    "subheadlineTemplate": "Barcade profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

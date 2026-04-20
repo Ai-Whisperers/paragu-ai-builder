@@ -1,0 +1,22 @@
+{
+  "id": "technical_writer",
+  "nameEs": "Redactor Tecnico",
+  "nameEn": "Technical Writer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "writing-editorial",
+  "extends": "diseno_grafico",
+  "tokens": "technical_writer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Redactor Tecnico en {{city}}",
+    "descriptionTemplate": "Redactor Tecnico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "redactor tecnico {{city}}",
+      "technical writer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Redactor Tecnico",
+    "subheadlineTemplate": "Redactor Tecnico profesional en {{city}}."
+  }
+}

@@ -45,7 +45,7 @@ export default function StaffSelector({
             }`}
           >
             {member.image ? (
-              <img src={member.image} alt={member.name} className="w-6 h-6 rounded-full object-cover" />
+              <img src={member.image} alt={member.name} className="w-6 h-6 rounded-full object-cover"  loading="lazy" decoding="async" />
             ) : (
               <div className="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center">
                 <span className="text-xs">{member.name.charAt(0)}</span>

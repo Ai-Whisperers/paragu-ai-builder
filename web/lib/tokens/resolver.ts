@@ -63,6 +63,7 @@ export interface BaseTokens {
     duration: Record<string, { value: string }>
   }
   layout: Record<string, Record<string, { value: string }>>
+  semanticColors?: Record<string, { value: string }>
 }
 
 export interface ResolvedTokens {
@@ -78,6 +79,56 @@ function loadJsonFile<T>(relativePath: string): T {
   return JSON.parse(content)
 }
 
+import { verticalFolder } from '@/lib/verticals-catalog'
+import { getRegistry } from '@/lib/engine/static-config'
+
+/**
+ * Load type tokens. Three paths, in order:
+ *
+ * 1. The type has its own concrete token file with palettes → use it directly.
+ * 2. The type has a thin wrapper (`extends: "vertical:<id>"`) → merge the
+ *    wrapper overrides onto the vertical defaults.
+ * 3. The type token file doesn't exist at all (the common case after we
+ *    eliminated the ~1,800 wrapper stubs) → look up the verticalId from the
+ *    registry entry and load the vertical defaults straight.
+ *
+ * Every path resolves the on-disk folder via `verticalFolder()` which consults
+ * the single vertical catalog at src/verticals/catalog.json.
+ */
+function loadTypeTokens(businessType: BusinessType): TypeTokens {
+  let raw: (Partial<TypeTokens> & { extends?: string }) | null = null
+  try {
+    raw = loadJsonFile<Partial<TypeTokens> & { extends?: string }>(
+      `src/tokens/${businessType}.tokens.json`,
+    )
+  } catch {
+    // No per-type file — fall through to vertical defaults via registry lookup.
+  }
+
+  // Wrapper pattern: explicit `extends: "vertical:<id>"` → merge.
+  if (raw?.extends?.startsWith('vertical:')) {
+    const verticalId = raw.extends.slice('vertical:'.length)
+    const verticalDefaults = loadJsonFile<TypeTokens>(
+      `src/verticals/${verticalFolder(verticalId)}/defaults.tokens.json`,
+    )
+    return { ...verticalDefaults, ...raw, extends: raw.extends } as TypeTokens
+  }
+
+  // Concrete palette file present → use as-is.
+  if (raw?.palettes) return raw as TypeTokens
+
+  // No token file at all — derive vertical from the registry entry.
+  const registry = getRegistry(businessType) as { verticalId?: string } | null
+  if (!registry?.verticalId) {
+    throw new Error(
+      `[TokenResolver] No tokens found for "${businessType}" and no verticalId in registry. Create src/tokens/${businessType}.tokens.json or assign verticalId in registry.`,
+    )
+  }
+  return loadJsonFile<TypeTokens>(
+    `src/verticals/${verticalFolder(registry.verticalId)}/defaults.tokens.json`,
+  )
+}
+
 /**
  * Resolve tokens for a business type into CSS custom properties.
  */
@@ -86,7 +137,7 @@ export function resolveTokens(
   paletteOverride?: string
 ): ResolvedTokens {
   const base = loadJsonFile<BaseTokens>('src/tokens/base.tokens.json')
-  const type = loadJsonFile<TypeTokens>(`src/tokens/${businessType}.tokens.json`)
+  const type = loadTypeTokens(businessType)
 
   const paletteName = paletteOverride || type.defaultPalette
   const palette = type.palettes[paletteName]
@@ -138,6 +189,25 @@ export function resolveTokens(
   vars['--shadow-card-hover'] = base.shadows.cardHover.value
   vars['--shadow-button'] = base.shadows.button.value
   vars['--shadow-nav'] = base.shadows.nav.value
+
+  // Semantic colors (success/error/warning/info). Types can override by
+  // declaring their own `semanticColors` block; otherwise they inherit
+  // these neutral defaults.
+  if (base.semanticColors) {
+    for (const [key, token] of Object.entries(base.semanticColors)) {
+      // Camel → kebab for css (successSurface → success-surface)
+      const cssKey = key.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`)
+      vars[`--color-${cssKey}`] = token.value
+    }
+  }
+  const typeSemantic = (type as { semanticColors?: Record<string, { value: string } | string> }).semanticColors
+  if (typeSemantic) {
+    for (const [key, token] of Object.entries(typeSemantic)) {
+      const cssKey = key.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`)
+      const value = typeof token === 'string' ? token : token.value
+      vars[`--color-${cssKey}`] = value
+    }
+  }
 
   // Typography scale from base
   for (const [key, token] of Object.entries(base.typography.scale)) {

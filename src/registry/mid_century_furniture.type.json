@@ -1,0 +1,22 @@
+{
+  "id": "mid_century_furniture",
+  "nameEs": "Muebles Mid Century",
+  "nameEn": "Mid Century Store",
+  "verticalId": "retail-local",
+  "subVertical": "home-furnishings",
+  "extends": "retail_base",
+  "tokens": "mid_century_furniture",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Muebles Mid Century en {{city}}",
+    "descriptionTemplate": "Muebles Mid Century profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "muebles mid century {{city}}",
+      "mid century store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Muebles Mid Century",
+    "subheadlineTemplate": "Muebles Mid Century profesional en {{city}}."
+  }
+}

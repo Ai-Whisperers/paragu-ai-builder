@@ -1,0 +1,22 @@
+{
+  "id": "glam_bus_party_service",
+  "nameEs": "Glam Bus",
+  "nameEn": "Glam Bus",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "mobile-beauty",
+  "extends": "beauty_base",
+  "tokens": "glam_bus_party_service",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Glam Bus en {{city}}",
+    "descriptionTemplate": "Glam Bus profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "glam bus {{city}}",
+      "glam bus {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Glam Bus",
+    "subheadlineTemplate": "Glam Bus profesional en {{city}}."
+  }
+}

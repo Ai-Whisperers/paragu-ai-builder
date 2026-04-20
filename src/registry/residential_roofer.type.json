@@ -1,0 +1,22 @@
+{
+  "id": "residential_roofer",
+  "nameEs": "Techador Residencial",
+  "nameEn": "Residential Roofer",
+  "verticalId": "trades-home-services",
+  "subVertical": "roofing",
+  "extends": "trades_base",
+  "tokens": "residential_roofer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Techador Residencial en {{city}}",
+    "descriptionTemplate": "Techador Residencial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "techador residencial {{city}}",
+      "residential roofer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Techador Residencial",
+    "subheadlineTemplate": "Techador Residencial profesional en {{city}}."
+  }
+}

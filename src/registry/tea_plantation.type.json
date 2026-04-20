@@ -1,0 +1,22 @@
+{
+  "id": "tea_plantation",
+  "nameEs": "Plantacion Te",
+  "nameEn": "Tea Plantation",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "specialty-crop",
+  "extends": "agriculture_base",
+  "tokens": "tea_plantation",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Plantacion Te en {{city}}",
+    "descriptionTemplate": "Plantacion Te profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "plantacion te {{city}}",
+      "tea plantation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Plantacion Te",
+    "subheadlineTemplate": "Plantacion Te profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "auto_upholstery_shop",
+  "nameEs": "Tapicero Automotriz",
+  "nameEn": "Auto Upholstery",
+  "verticalId": "automotive",
+  "subVertical": "specialty-service",
+  "extends": "automotive_base",
+  "tokens": "auto_upholstery_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Tapicero Automotriz en {{city}}",
+    "descriptionTemplate": "Tapicero Automotriz profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tapicero automotriz {{city}}",
+      "auto upholstery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tapicero Automotriz",
+    "subheadlineTemplate": "Tapicero Automotriz profesional en {{city}}."
+  }
+}

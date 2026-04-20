@@ -1,0 +1,22 @@
+{
+  "id": "low_voltage_installer",
+  "nameEs": "Instalador Bajo Voltaje",
+  "nameEn": "Low Voltage",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "low_voltage_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador Bajo Voltaje en {{city}}",
+    "descriptionTemplate": "Instalador Bajo Voltaje profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador bajo voltaje {{city}}",
+      "low voltage {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador Bajo Voltaje",
+    "subheadlineTemplate": "Instalador Bajo Voltaje profesional en {{city}}."
+  }
+}

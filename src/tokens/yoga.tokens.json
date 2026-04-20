@@ -1,0 +1,28 @@
+{
+  "name": "Yoga earth calm",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Sage & Sand",
+      "colors": {
+        "primary": "#65785C",
+        "secondary": "#B89274",
+        "accent": "#D9C6A5",
+        "background": "#FBFAF6",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F2EEE6",
+        "text": "#2D2E26",
+        "textLight": "#4E5044",
+        "textMuted": "#7E806F"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Cormorant Garamond', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "400",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Cormorant+Garamond:wght@400;500;600", "Inter:wght@400;500;600"]
+}

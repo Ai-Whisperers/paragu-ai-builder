@@ -1,0 +1,22 @@
+{
+  "id": "marina_operator",
+  "nameEs": "Puerto Deportivo",
+  "nameEn": "Marina",
+  "verticalId": "logistics-transport",
+  "subVertical": "marine-port",
+  "extends": "logistics_base",
+  "tokens": "marina_operator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Puerto Deportivo en {{city}}",
+    "descriptionTemplate": "Puerto Deportivo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "puerto deportivo {{city}}",
+      "marina {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Puerto Deportivo",
+    "subheadlineTemplate": "Puerto Deportivo profesional en {{city}}."
+  }
+}

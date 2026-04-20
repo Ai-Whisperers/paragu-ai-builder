@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "inmobiliaria",
+  "title": "Real Estate Agency Business Input Schema",
+  "description": "Additional fields for real estate brokerages and agents",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "operationTypes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["venta", "alquiler", "alquiler-temporal", "administracion", "tasacion"] }
+    },
+    "propertyTypes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["casa", "departamento", "terreno", "local-comercial", "oficina", "galpon", "quinta"] }
+    },
+    "coverageAreas": {
+      "type": "array",
+      "description": "Cities / neighbourhoods the agency operates in",
+      "items": { "type": "string" }
+    },
+    "listings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "price"],
+        "properties": {
+          "title": { "type": "string" },
+          "price": { "type": "string" },
+          "currency": { "type": "string", "enum": ["USD", "PYG", "ARS", "EUR"] },
+          "operation": { "type": "string", "enum": ["venta", "alquiler"] },
+          "propertyType": { "type": "string" },
+          "city": { "type": "string" },
+          "neighborhood": { "type": "string" },
+          "bedrooms": { "type": "integer", "minimum": 0 },
+          "bathrooms": { "type": "integer", "minimum": 0 },
+          "areaSqm": { "type": "number", "minimum": 0 },
+          "imageUrls": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "brokerRegistration": {
+      "type": "object",
+      "properties": {
+        "registrar": { "type": "string" },
+        "registrationNumber": { "type": "string" }
+      }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "contact.whatsapp", "operationTypes", "propertyTypes", "coverageAreas"],
+    "priority2": ["listings", "team", "brokerRegistration", "branding.logoUrl"],
+    "priority3": ["seo.googleBusinessProfileUrl", "faq", "testimonials"]
+  }
+}

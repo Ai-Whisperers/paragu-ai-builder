@@ -1,0 +1,38 @@
+{
+  "id": "fotografia_bodas",
+  "nameEs": "Fotografia de Bodas",
+  "nameEn": "Wedding Photography",
+  "verticalId": "portfolio-professional",
+  "tokens": "fotografia_bodas",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "about", "portfolioGallery", "packages", "process", "testimonials", "faq", "quoteForm", "contact", "footer"],
+      "requiredSections": ["header", "hero", "portfolioGallery", "packages", "contact", "footer"]
+    }
+  },
+  "features": {
+    "portfolio": { "enabled": true, "minImages": 40, "categories": ["pre_boda", "ceremonia", "fiesta", "sesion_novios"] },
+    "packages": { "enabled": true, "showFrom": true },
+    "quoteForm": { "enabled": true },
+    "process": { "enabled": true, "steps": 5 },
+    "testimonials": { "enabled": true, "showRating": true },
+    "whatsappFloat": { "enabled": true }
+  },
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografia de Bodas en {{city}}",
+    "descriptionTemplate": "Fotografia de bodas en {{city}}. Capturamos cada momento especial de tu gran dia.",
+    "keywords": ["fotografo bodas {{city}}", "fotografia casamiento {{city}}", "fotografia boda {{city}}", "fotografo profesional {{city}}"]
+  },
+  "nav": {
+    "items": ["Inicio", "Portfolio", "Paquetes", "Proceso", "Contacto"],
+    "cta": { "text": "Consultar Fecha", "action": "whatsapp" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Momentos que duran para siempre",
+    "subheadlineTemplate": "Fotografia de bodas en {{city}}. Cada mirada, cada lagrima, cada baile.",
+    "ctaPrimary": { "text": "Ver Portfolio", "action": "scrollTo:portfolio" },
+    "ctaSecondary": { "text": "Consultar Fecha", "action": "whatsapp" }
+  }
+}

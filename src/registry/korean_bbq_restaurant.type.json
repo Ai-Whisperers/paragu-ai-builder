@@ -1,0 +1,22 @@
+{
+  "id": "korean_bbq_restaurant",
+  "nameEs": "BBQ Coreano",
+  "nameEn": "Korean BBQ",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "korean_bbq_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - BBQ Coreano en {{city}}",
+    "descriptionTemplate": "BBQ Coreano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bbq coreano {{city}}",
+      "korean bbq {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - BBQ Coreano",
+    "subheadlineTemplate": "BBQ Coreano profesional en {{city}}."
+  }
+}

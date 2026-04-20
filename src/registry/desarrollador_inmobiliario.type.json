@@ -1,0 +1,26 @@
+{
+  "id": "desarrollador_inmobiliario",
+  "nameEs": "Desarrolladora Inmobiliaria",
+  "nameEn": "Real Estate Developer",
+  "verticalId": "real-estate-relocation",
+  "extends": "inmobiliaria",
+  "tokens": "desarrollador_inmobiliario",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Desarrolladora Inmobiliaria en {{city}}",
+    "descriptionTemplate": "Desarrollos residenciales y comerciales con entrega garantizada.",
+    "keywords": [
+      "desarrollo inmobiliario {{city}}",
+      "preventa departamentos {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Proyectos que se construyen a tiempo",
+    "subheadlineTemplate": "Desarrollos residenciales y comerciales con entrega garantizada."
+  },
+  "serviceCategories": [
+    "residencial",
+    "comercial",
+    "preventa"
+  ]
+}

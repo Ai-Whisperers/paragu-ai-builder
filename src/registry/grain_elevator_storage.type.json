@@ -1,0 +1,25 @@
+{
+  "id": "grain_elevator_storage",
+  "nameEs": "Acopio de Granos",
+  "nameEn": "Grain Elevator",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "ag-services",
+  "extends": "agriculture_base",
+  "tokens": "grain_elevator_storage",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Acopio de Granos en {{city}}",
+    "descriptionTemplate": "Acopio de Granos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "acopio de granos {{city}}",
+      "grain elevator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acopio de Granos",
+    "subheadlineTemplate": "Acopio de Granos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

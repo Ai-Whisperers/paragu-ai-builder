@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vertical-education-training",
+  "allOf": [{ "$ref": "base-business" }],
+  "type": "object",
+  "properties": {
+    "ageRange": { "type": "string" },
+    "levels": { "type": "array", "items": { "type": "string" } },
+    "certifications": { "type": "array", "items": { "type": "string" } },
+    "modality": { "type": "string", "enum": ["presencial", "online", "hibrido"] }
+  }
+}

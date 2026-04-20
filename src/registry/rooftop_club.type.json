@@ -1,0 +1,25 @@
+{
+  "id": "rooftop_club",
+  "nameEs": "Club Terraza",
+  "nameEn": "Rooftop Club",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "nightlife-club",
+  "extends": "entertainment_base",
+  "tokens": "rooftop_club",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Club Terraza en {{city}}",
+    "descriptionTemplate": "Club Terraza profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club terraza {{city}}",
+      "rooftop club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Terraza",
+    "subheadlineTemplate": "Club Terraza profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

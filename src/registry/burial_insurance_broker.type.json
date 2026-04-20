@@ -1,0 +1,22 @@
+{
+  "id": "burial_insurance_broker",
+  "nameEs": "Seguro Sepelio",
+  "nameEn": "Burial Insurance",
+  "verticalId": "death-care",
+  "subVertical": "pre-planning",
+  "extends": "death_care_base",
+  "tokens": "burial_insurance_broker",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Seguro Sepelio en {{city}}",
+    "descriptionTemplate": "Seguro Sepelio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "seguro sepelio {{city}}",
+      "burial insurance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Seguro Sepelio",
+    "subheadlineTemplate": "Seguro Sepelio profesional en {{city}}."
+  }
+}

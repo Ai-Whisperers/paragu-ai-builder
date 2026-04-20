@@ -1,0 +1,22 @@
+{
+  "id": "mosquito_control",
+  "nameEs": "Control Mosquitos",
+  "nameEn": "Mosquito Control",
+  "verticalId": "trades-home-services",
+  "subVertical": "pest-control",
+  "extends": "trades_base",
+  "tokens": "mosquito_control",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Control Mosquitos en {{city}}",
+    "descriptionTemplate": "Control Mosquitos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "control mosquitos {{city}}",
+      "mosquito control {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Control Mosquitos",
+    "subheadlineTemplate": "Control Mosquitos profesional en {{city}}."
+  }
+}

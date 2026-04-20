@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { Heading } from '@/components/ui/heading'
 import { Container } from '@/components/ui/container'
 import { AnimateOnScroll } from '@/components/ui/animate-on-scroll'
 
@@ -32,12 +33,12 @@ export function CTABannerSection({
 
       <Container className="relative z-10 text-center">
         <AnimateOnScroll>
-          <h2
+          <Heading level={2}
             className="mb-4 text-3xl font-bold text-[var(--secondary-foreground)] sm:text-4xl"
             style={{ fontFamily: 'var(--font-heading)' }}
           >
             {title}
-          </h2>
+          </Heading>
           {subtitle && (
             <p className="mx-auto mb-8 max-w-xl text-lg text-[var(--secondary-foreground)] opacity-80">{subtitle}</p>
           )}

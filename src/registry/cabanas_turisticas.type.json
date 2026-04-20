@@ -1,0 +1,26 @@
+{
+  "id": "cabanas_turisticas",
+  "nameEs": "Cabañas Turisticas",
+  "nameEn": "Cabins",
+  "verticalId": "hospitality-tourism",
+  "extends": "restaurant",
+  "tokens": "cabanas_turisticas",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Cabañas Turisticas en {{city}}",
+    "descriptionTemplate": "Cabañas equipadas para descansar en contacto con la naturaleza.",
+    "keywords": [
+      "cabañas {{city}}",
+      "alquiler cabañas {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu escapada en medio de la naturaleza",
+    "subheadlineTemplate": "Cabañas equipadas para descansar en contacto con la naturaleza."
+  },
+  "serviceCategories": [
+    "cabanas",
+    "piscina",
+    "actividades"
+  ]
+}

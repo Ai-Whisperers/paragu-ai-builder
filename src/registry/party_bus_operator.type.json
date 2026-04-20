@@ -1,0 +1,22 @@
+{
+  "id": "party_bus_operator",
+  "nameEs": "Party Bus",
+  "nameEn": "Party Bus",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "transport-tourism",
+  "extends": "restaurant",
+  "tokens": "party_bus_operator",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Party Bus en {{city}}",
+    "descriptionTemplate": "Party Bus profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "party bus {{city}}",
+      "party bus {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Party Bus",
+    "subheadlineTemplate": "Party Bus profesional en {{city}}."
+  }
+}

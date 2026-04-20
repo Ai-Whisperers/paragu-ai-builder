@@ -12,22 +12,12 @@
     },
     "businessType": {
       "type": "string",
-      "enum": [
-        "peluqueria",
-        "salon_belleza",
-        "gimnasio",
-        "spa",
-        "unas",
-        "tatuajes",
-        "barberia",
-        "estetica",
-        "maquillaje",
-        "depilacion",
-        "pestanas",
-        "diseno_grafico",
-        "meal_prep"
-      ],
-      "description": "Business category determining template selection"
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Business category id matching a registered type in src/registry. Validated at runtime against the registry, not enumerated here, to allow the catalog to scale without touching this schema."
+    },
+    "verticalId": {
+      "type": "string",
+      "description": "Parent vertical id (e.g. beauty-personal-care, food-beverage). Optional; resolved from the registry if omitted."
     },
     "tagline": {
       "type": "string",

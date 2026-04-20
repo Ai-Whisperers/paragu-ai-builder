@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "consultoria",
+  "title": "Consulting Business Input Schema",
+  "description": "Additional fields for management, strategy, and business consultancies",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "practiceAreas": {
+      "type": "array",
+      "description": "Consulting verticals (estrategia, operaciones, rrhh, finanzas, marketing, tecnologia)",
+      "items": { "type": "string" }
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "deliverable": { "type": "string", "description": "What the client receives at the end of the engagement" },
+          "durationWeeks": { "type": "integer", "minimum": 1 },
+          "priceFrom": { "type": "string" }
+        }
+      }
+    },
+    "targetClients": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["startup", "pyme", "mediana-empresa", "corporativa", "ong", "gobierno"] }
+    },
+    "caseStudies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["client", "summary"],
+        "properties": {
+          "client": { "type": "string" },
+          "industry": { "type": "string" },
+          "summary": { "type": "string" },
+          "outcome": { "type": "string" }
+        }
+      }
+    },
+    "spokenLanguages": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["es", "en", "pt"] }
+    }
+  },
+  "inputForm": {
+    "priority1": ["businessName", "contact.phone", "contact.email", "practiceAreas", "services"],
+    "priority2": ["targetClients", "caseStudies", "team", "branding.logoUrl"],
+    "priority3": ["seo.googleBusinessProfileUrl", "faq", "testimonials"]
+  }
+}

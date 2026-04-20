@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import { logger } from '@/lib/logger'
+import { captureException } from '@/lib/obs/sentry'
 
 export default function TenantSiteError({
   error,
@@ -18,6 +19,10 @@ export default function TenantSiteError({
       digest: error.digest,
       stack: error.stack,
       path: typeof window !== 'undefined' ? window.location.pathname : undefined,
+    })
+    captureException(error, {
+      tags: { boundary: 'tenant-site' },
+      extra: { digest: error.digest },
     })
   }, [error])
 

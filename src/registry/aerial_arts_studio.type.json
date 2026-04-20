@@ -1,0 +1,22 @@
+{
+  "id": "aerial_arts_studio",
+  "nameEs": "Artes Aereas",
+  "nameEn": "Aerial Arts",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "aerial_arts_studio",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Artes Aereas en {{city}}",
+    "descriptionTemplate": "Artes Aereas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "artes aereas {{city}}",
+      "aerial arts {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Artes Aereas",
+    "subheadlineTemplate": "Artes Aereas profesional en {{city}}."
+  }
+}

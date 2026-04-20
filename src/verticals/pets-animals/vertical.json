@@ -1,0 +1,33 @@
+{
+  "id": "pets-animals",
+  "name": "Pets & Animals",
+  "nameEs": "Mascotas y Animales",
+  "description": "Pet grooming, boarding, training, retail, sitting/walking, rescue/shelter, breeding. Non-medical (vet stays in health).",
+  "baseType": "pets_base",
+  "features": {
+    "i18n": false,
+    "booking": true,
+    "productCatalog": true,
+    "whatsappFloat": true,
+    "photoGallery": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "product-catalog",
+    "gallery",
+    "testimonials",
+    "faq",
+    "booking",
+    "contact",
+    "business-hours",
+    "google-maps",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

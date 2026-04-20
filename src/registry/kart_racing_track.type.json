@@ -1,0 +1,22 @@
+{
+  "id": "kart_racing_track",
+  "nameEs": "Pista Karting",
+  "nameEn": "Kart Track",
+  "verticalId": "sports-recreation",
+  "subVertical": "motorsports",
+  "extends": "sports_base",
+  "tokens": "kart_racing_track",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Pista Karting en {{city}}",
+    "descriptionTemplate": "Pista Karting profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pista karting {{city}}",
+      "kart track {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pista Karting",
+    "subheadlineTemplate": "Pista Karting profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "day_camp",
+  "nameEs": "Campamento de Dia",
+  "nameEn": "Day Camp",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "day_camp",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Campamento de Dia en {{city}}",
+    "descriptionTemplate": "Campamento de Dia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "campamento de dia {{city}}",
+      "day camp {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Campamento de Dia",
+    "subheadlineTemplate": "Campamento de Dia profesional en {{city}}."
+  }
+}

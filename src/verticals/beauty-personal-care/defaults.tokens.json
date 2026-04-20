@@ -1,0 +1,28 @@
+{
+  "name": "Beauty warm neutrals",
+  "theme": "light",
+  "palettes": {
+    "default": {
+      "name": "Rose & Mocha",
+      "colors": {
+        "primary": "#B76E79",
+        "secondary": "#6F4E37",
+        "accent": "#E8C7C8",
+        "background": "#FDFAF7",
+        "surface": "#FFFFFF",
+        "surfaceLight": "#F5EDE7",
+        "text": "#2B1F1A",
+        "textLight": "#4A3A33",
+        "textMuted": "#8A7A72"
+      }
+    }
+  },
+  "defaultPalette": "default",
+  "typography": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "googleFonts": ["Playfair+Display:wght@500;600;700", "Inter:wght@400;500;600"]
+}

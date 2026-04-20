@@ -1,0 +1,22 @@
+{
+  "id": "seguridad_alarmas",
+  "nameEs": "Alarmas y Seguridad",
+  "nameEn": "Security & Alarms",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "seguridad_alarmas",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Alarmas y Seguridad en {{city}}",
+    "descriptionTemplate": "Sistemas de alarma, monitoreo y seguridad integral en {{city}}.",
+    "keywords": [
+      "alarmas {{city}}",
+      "seguridad hogar {{city}}",
+      "monitoreo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu hogar, protegido 24/7",
+    "subheadlineTemplate": "Sistemas de alarma, monitoreo y seguridad integral en {{city}}."
+  }
+}

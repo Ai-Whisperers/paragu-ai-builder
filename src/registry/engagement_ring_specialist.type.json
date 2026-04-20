@@ -1,0 +1,22 @@
+{
+  "id": "engagement_ring_specialist",
+  "nameEs": "Anillos Compromiso",
+  "nameEn": "Engagement Rings",
+  "verticalId": "retail-local",
+  "subVertical": "jewelry-accessories",
+  "extends": "retail_base",
+  "tokens": "engagement_ring_specialist",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Anillos Compromiso en {{city}}",
+    "descriptionTemplate": "Anillos Compromiso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "anillos compromiso {{city}}",
+      "engagement rings {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Anillos Compromiso",
+    "subheadlineTemplate": "Anillos Compromiso profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "string_quartet",
+  "nameEs": "Cuarteto de Cuerdas",
+  "nameEn": "String Quartet",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "string_quartet",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Cuarteto de Cuerdas en {{city}}",
+    "descriptionTemplate": "Cuarteto de Cuerdas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cuarteto de cuerdas {{city}}",
+      "string quartet {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuarteto de Cuerdas",
+    "subheadlineTemplate": "Cuarteto de Cuerdas profesional en {{city}}."
+  }
+}

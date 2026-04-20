@@ -1,0 +1,22 @@
+{
+  "id": "notary_public",
+  "nameEs": "Escribano",
+  "nameEn": "Notary Public",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "notary_public",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Escribano en {{city}}",
+    "descriptionTemplate": "Escribano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escribano {{city}}",
+      "notary public {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escribano",
+    "subheadlineTemplate": "Escribano profesional en {{city}}."
+  }
+}

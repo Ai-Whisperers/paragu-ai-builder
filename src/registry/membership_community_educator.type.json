@@ -1,0 +1,22 @@
+{
+  "id": "membership_community_educator",
+  "nameEs": "Educador Suscripcion",
+  "nameEn": "Membership Educator",
+  "verticalId": "education-training",
+  "subVertical": "online-courses",
+  "extends": "educacion",
+  "tokens": "membership_community_educator",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Educador Suscripcion en {{city}}",
+    "descriptionTemplate": "Educador Suscripcion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "educador suscripcion {{city}}",
+      "membership educator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Educador Suscripcion",
+    "subheadlineTemplate": "Educador Suscripcion profesional en {{city}}."
+  }
+}

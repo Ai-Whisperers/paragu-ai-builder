@@ -6,6 +6,14 @@ compatibility_flags = ["nodejs_compat"]
 [observability]
 enabled = true
 
+# Analytics Engine — custom time-series metrics (latency, counters).
+# See lib/obs/metrics.ts for the writer. Each write costs $0.25 / 1M.
+# Dataset can be queried via the Cloudflare GraphQL Analytics API:
+#   https://api.cloudflare.com/client/v4/accounts/<account>/analytics_engine/sql
+[[analytics_engine_datasets]]
+binding = "METRICS"
+dataset = "paragu_ai_metrics"
+
 [assets]
 directory = ".open-next/assets"
 binding = "ASSETS"

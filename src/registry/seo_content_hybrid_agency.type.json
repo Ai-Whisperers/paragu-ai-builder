@@ -1,0 +1,25 @@
+{
+  "id": "seo_content_hybrid_agency",
+  "nameEs": "Agencia Crecimiento",
+  "nameEn": "Growth Agency",
+  "verticalId": "technology-digital",
+  "subVertical": "web-digital-agency",
+  "extends": "technology_base",
+  "tokens": "seo_content_hybrid_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Crecimiento en {{city}}",
+    "descriptionTemplate": "Agencia Crecimiento profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia crecimiento {{city}}",
+      "growth agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Crecimiento",
+    "subheadlineTemplate": "Agencia Crecimiento profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

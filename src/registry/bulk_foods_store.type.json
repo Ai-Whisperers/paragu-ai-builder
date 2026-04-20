@@ -1,0 +1,22 @@
+{
+  "id": "bulk_foods_store",
+  "nameEs": "Productos a Granel",
+  "nameEn": "Bulk Foods",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "bulk_foods_store",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Productos a Granel en {{city}}",
+    "descriptionTemplate": "Productos a Granel profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "productos a granel {{city}}",
+      "bulk foods {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Productos a Granel",
+    "subheadlineTemplate": "Productos a Granel profesional en {{city}}."
+  }
+}

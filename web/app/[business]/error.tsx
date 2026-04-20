@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import { logger } from '@/lib/logger'
+import { captureException } from '@/lib/obs/sentry'
 
 export default function BusinessPageError({
   error,
@@ -18,6 +19,10 @@ export default function BusinessPageError({
       digest: error.digest,
       stack: error.stack,
       path: typeof window !== 'undefined' ? window.location.pathname : undefined,
+    })
+    captureException(error, {
+      tags: { boundary: 'business' },
+      extra: { digest: error.digest },
     })
   }, [error])
 

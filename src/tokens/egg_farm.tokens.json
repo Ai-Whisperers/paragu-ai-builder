@@ -1,0 +1,45 @@
+{
+  "$comment": "Granja Cabral - Warm, earthy farm aesthetic",
+  "extends": "vertical:agriculture-agribusiness",
+  "id": "egg_farm",
+  "name": "Granja Cabral Theme",
+  "colors": {
+    "primary": "#e67e22",
+    "primaryForeground": "#ffffff",
+    "primaryLight": "#f39c12",
+    "secondary": "#27ae60",
+    "secondaryForeground": "#ffffff",
+    "accent": "#f1c40f",
+    "accentForeground": "#2c3e50",
+    "background": "#fefcf8",
+    "backgroundAlt": "#f9f7f2",
+    "surface": "#ffffff",
+    "surfaceAlt": "#f5f3ef",
+    "text": "#2c3e50",
+    "textMuted": "#7f8c8d",
+    "border": "#e8e4dc",
+    "success": "#27ae60",
+    "warning": "#f39c12",
+    "error": "#e74c3c"
+  },
+  "typography": {
+    "fontHeading": "Merriweather",
+    "fontBody": "Inter",
+    "fontAccent": "Merriweather"
+  },
+  "theme": "light",
+  "images": {
+    "hero": { 
+      "style": "farm-aerial",
+      "keywords": ["chicken farm", "egg production", "free range chickens"]
+    },
+    "product": {
+      "style": "product-photography",
+      "background": "white",
+      "lighting": "natural"
+    },
+    "gallery": {
+      "categories": ["farm", "chickens", "eggs", "facilities", "team"]
+    }
+  }
+}

@@ -1,8 +1,33 @@
-import { describe, it, expect, beforeEach } from 'vitest'
-import { buildSectionData, SECTION_MAP, type SectionType } from '@/lib/engine/compose'
-import type { RegistryType } from '@/lib/engine/compose'
-import type { BusinessData } from '@/lib/engine/compose'
-import type { ContentTemplate } from '@/lib/engine/compose'
+import { describe, it, expect } from 'vitest'
+import {
+  buildSectionData as buildSectionDataRaw,
+  SECTION_MAP,
+  type SectionType,
+  type RegistryType,
+  type BusinessData,
+  type ContentTemplate,
+} from '@/lib/engine/compose'
+
+// Thin wrapper matching the shape older tests expect: (type, business, registry, content).
+// Supplies the additional arguments the real signature needs (templateData, navItems, pageType).
+function buildSectionData(
+  type: SectionType,
+  business: BusinessData,
+  registry: RegistryType,
+  content: ContentTemplate,
+): Record<string, unknown> | null {
+  const templateData: Record<string, string | number> = {
+    businessName: business.name,
+    city: business.city,
+    neighborhood: business.neighborhood || '',
+    year: new Date().getFullYear(),
+  }
+  const navItems = (registry.nav?.items || []).map((label) => ({
+    label,
+    href: `/${business.slug}/${label.toLowerCase()}`,
+  }))
+  return buildSectionDataRaw(type, business, content, templateData, navItems, registry, 'homepage')
+}
 
 describe('compose.ts - SECTION_MAP', () => {
   const sectionTypes = [

@@ -1,0 +1,22 @@
+{
+  "id": "trades-home-services",
+  "name": "Trades & Home Services",
+  "nameEs": "Oficios y Servicios para el Hogar",
+  "description": "Electricians, plumbers, locksmiths, HVAC, cleaning, pest control, landscaping. Emergency-CTA + quote-form + WhatsApp-lead.",
+  "baseType": "trades_base",
+  "features": {
+    "i18n": false,
+    "quoteForm": true,
+    "emergencyIndicator": true,
+    "serviceArea": true,
+    "beforeAfter": true,
+    "whatsappFloat": true
+  },
+  "allowedSections": [
+    "header", "hero", "services", "service-area-map", "process",
+    "before-after", "testimonials", "faq", "quote-form",
+    "emergency-indicator", "contact", "cta-banner", "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es"]
+}

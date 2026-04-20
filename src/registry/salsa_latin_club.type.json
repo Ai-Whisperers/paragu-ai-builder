@@ -1,0 +1,22 @@
+{
+  "id": "salsa_latin_club",
+  "nameEs": "Club Salsa",
+  "nameEn": "Salsa Club",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "live-music-venue",
+  "extends": "entertainment_base",
+  "tokens": "salsa_latin_club",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Club Salsa en {{city}}",
+    "descriptionTemplate": "Club Salsa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club salsa {{city}}",
+      "salsa club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Salsa",
+    "subheadlineTemplate": "Club Salsa profesional en {{city}}."
+  }
+}

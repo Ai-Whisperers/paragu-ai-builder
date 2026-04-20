@@ -10,8 +10,8 @@
  * - Quick status updates
  */
 
-import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
+import { createClient } from '@/lib/supabase/server'
 import { LeadsDashboardClient } from './leads-dashboard-client'
 import { logger } from '@/lib/logger'
 
@@ -95,7 +95,14 @@ async function getLeads(
   }
   
   if (searchParams.search) {
-    query = query.ilike('business_name', `%${searchParams.search}%`)
+    // Validate and sanitize search input to prevent SQL injection
+    const sanitizedSearch = searchParams.search
+      .replace(/[%_;]/g, '') // Remove SQL special characters
+      .substring(0, 100) // Limit length
+    
+    if (sanitizedSearch) {
+      query = query.ilike('business_name', `%${sanitizedSearch}%`)
+    }
   }
   
   const { data, error, count } = await query
@@ -169,13 +176,13 @@ async function getFilterOptions() {
   const supabase = await createClient()
   
   // Get unique cities
-  const { data: cities, error: citiesError } = await supabase
+  const { data: cities, error: _citiesError } = await supabase
     .from('leads')
     .select('city')
     .order('city')
   
   // Get unique business types
-  const { data: types, error: typesError } = await supabase
+  const { data: types, error: _typesError } = await supabase
     .from('leads')
     .select('business_type')
     .order('business_type')
@@ -194,10 +201,30 @@ export default async function AdminLeadsPage({
 }: {
   searchParams: { [key: string]: string | string[] | undefined }
 }) {
-  // Auth check (simplified - should use proper auth middleware)
-  // const supabase = await createClient()
-  // const { data: { user } } = await supabase.auth.getUser()
-  // if (!user) redirect('/login')
+  // Anonymous access is blocked by middleware.ts — if we reach this component,
+  // a Supabase session is already refreshed. We still check role here because
+  // role is business logic (admin vs. regular user), not authentication.
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  if (!user) {
+    // Defensive: middleware should have caught this, but do not render for
+    // anonymous in case someone added an exception above.
+    redirect('/login?error=unauthorized')
+  }
+
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('role')
+    .eq('id', user.id)
+    .single()
+
+  if (profile?.role !== 'admin') {
+    logger.warn('Non-admin attempted to access admin panel', {
+      userId: user.id,
+      role: profile?.role,
+    })
+    redirect('/unauthorized')
+  }
   
   // Normalize search params
   const params = {

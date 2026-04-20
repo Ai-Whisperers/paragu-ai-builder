@@ -1,0 +1,22 @@
+{
+  "id": "fireplace_stove_shop",
+  "nameEs": "Estufas y Chimeneas",
+  "nameEn": "Fireplace Shop",
+  "verticalId": "retail-local",
+  "subVertical": "hardware-garden",
+  "extends": "retail_base",
+  "tokens": "fireplace_stove_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Estufas y Chimeneas en {{city}}",
+    "descriptionTemplate": "Estufas y Chimeneas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estufas y chimeneas {{city}}",
+      "fireplace shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estufas y Chimeneas",
+    "subheadlineTemplate": "Estufas y Chimeneas profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "farm_boarding",
+  "nameEs": "Pension Rural",
+  "nameEn": "Farm Boarding",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-boarding-daycare",
+  "extends": "pets_base",
+  "tokens": "farm_boarding",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Pension Rural en {{city}}",
+    "descriptionTemplate": "Pension Rural profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pension rural {{city}}",
+      "farm boarding {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pension Rural",
+    "subheadlineTemplate": "Pension Rural profesional en {{city}}."
+  }
+}

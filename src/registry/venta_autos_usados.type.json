@@ -1,0 +1,21 @@
+{
+  "id": "venta_autos_usados",
+  "nameEs": "Autos Usados",
+  "nameEn": "Used Car Lot",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "venta_autos_usados",
+  "seo": {
+    "schemaType": "AutoDealer",
+    "titleTemplate": "{{businessName}} - Autos Usados en {{city}}",
+    "descriptionTemplate": "Autos usados con revision mecanica, financiacion y garantia.",
+    "keywords": [
+      "autos usados {{city}}",
+      "compra venta autos {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Usados revisados, precios justos",
+    "subheadlineTemplate": "Autos usados con revision mecanica, financiacion y garantia."
+  }
+}

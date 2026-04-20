@@ -1,0 +1,22 @@
+{
+  "id": "print_publication_designer",
+  "nameEs": "Disenador Editorial",
+  "nameEn": "Print Designer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "graphic-design",
+  "extends": "diseno_grafico",
+  "tokens": "print_publication_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Disenador Editorial en {{city}}",
+    "descriptionTemplate": "Disenador Editorial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disenador editorial {{city}}",
+      "print designer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disenador Editorial",
+    "subheadlineTemplate": "Disenador Editorial profesional en {{city}}."
+  }
+}

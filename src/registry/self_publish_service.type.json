@@ -1,0 +1,22 @@
+{
+  "id": "self_publish_service",
+  "nameEs": "Autopublicacion",
+  "nameEn": "Self-Publish Service",
+  "verticalId": "media-publishing",
+  "subVertical": "indie-publisher",
+  "extends": "media_base",
+  "tokens": "self_publish_service",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Autopublicacion en {{city}}",
+    "descriptionTemplate": "Autopublicacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "autopublicacion {{city}}",
+      "self-publish service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Autopublicacion",
+    "subheadlineTemplate": "Autopublicacion profesional en {{city}}."
+  }
+}

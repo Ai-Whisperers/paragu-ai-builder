@@ -1,0 +1,22 @@
+{
+  "id": "naturopathy_clinic",
+  "nameEs": "Naturopatia",
+  "nameEn": "Naturopathy",
+  "verticalId": "health-wellness",
+  "subVertical": "alternative-medicine",
+  "extends": "health_wellness_base",
+  "tokens": "naturopathy_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Naturopatia en {{city}}",
+    "descriptionTemplate": "Naturopatia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "naturopatia {{city}}",
+      "naturopathy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Naturopatia",
+    "subheadlineTemplate": "Naturopatia profesional en {{city}}."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "automotive",
+  "name": "Automotive",
+  "nameEs": "Automotriz",
+  "description": "Auto repair, body shops, car wash, tire shops, dealerships, driving schools, ride services. Quote-driven + before/after galleries.",
+  "baseType": "automotive_base",
+  "features": {
+    "i18n": false,
+    "quoteForm": true,
+    "beforeAfter": true,
+    "emergencyIndicator": true,
+    "whatsappFloat": true,
+    "businessHours": true
+  },
+  "allowedSections": [
+    "header", "hero", "services", "service-menu", "before-after",
+    "quote-form", "testimonials", "faq", "process", "contact",
+    "business-hours", "google-maps", "emergency-indicator",
+    "footer", "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": ["es"]
+}

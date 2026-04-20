@@ -1,0 +1,25 @@
+{
+  "id": "compressor_dealer",
+  "nameEs": "Compresores",
+  "nameEn": "Compressor Dealer",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-equipment",
+  "extends": "industrial_base",
+  "tokens": "compressor_dealer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Compresores en {{city}}",
+    "descriptionTemplate": "Compresores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "compresores {{city}}",
+      "compressor dealer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Compresores",
+    "subheadlineTemplate": "Compresores profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

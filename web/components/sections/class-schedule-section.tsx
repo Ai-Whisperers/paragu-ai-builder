@@ -82,7 +82,7 @@ export function ClassScheduleSection({
                       <span className="text-[var(--text-muted)]">{cls.duration} min</span>
                     )}
                     {cls.spots !== undefined && (
-                      <p className={`text-xs ${cls.spots > 5 ? 'text-green-600' : 'text-orange-600'}`}>
+                      <p className={`text-xs ${cls.spots > 5 ? 'text-[var(--color-success)]' : 'text-[var(--color-warning)]'}`}>
                         {cls.spots} lugares disponibles
                       </p>
                     )}

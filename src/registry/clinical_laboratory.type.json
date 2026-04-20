@@ -1,0 +1,22 @@
+{
+  "id": "clinical_laboratory",
+  "nameEs": "Laboratorio Clinico",
+  "nameEn": "Clinical Lab",
+  "verticalId": "health-wellness",
+  "subVertical": "diagnostics-imaging",
+  "extends": "health_wellness_base",
+  "tokens": "clinical_laboratory",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Laboratorio Clinico en {{city}}",
+    "descriptionTemplate": "Laboratorio Clinico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "laboratorio clinico {{city}}",
+      "clinical lab {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Laboratorio Clinico",
+    "subheadlineTemplate": "Laboratorio Clinico profesional en {{city}}."
+  }
+}

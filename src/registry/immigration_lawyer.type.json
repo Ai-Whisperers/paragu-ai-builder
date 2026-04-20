@@ -1,0 +1,22 @@
+{
+  "id": "immigration_lawyer",
+  "nameEs": "Abogado Migratorio",
+  "nameEn": "Immigration Lawyer",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "immigration_lawyer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Abogado Migratorio en {{city}}",
+    "descriptionTemplate": "Abogado Migratorio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "abogado migratorio {{city}}",
+      "immigration lawyer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Abogado Migratorio",
+    "subheadlineTemplate": "Abogado Migratorio profesional en {{city}}."
+  }
+}

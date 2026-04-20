@@ -170,7 +170,7 @@ export default function BusinessForm({
         </div>
 
         {error && (
-          <div className="mb-4 rounded-md bg-red-50 p-3 text-sm text-red-600">
+          <div className="mb-4 rounded-md bg-[var(--color-error-surface)] p-3 text-sm text-[var(--color-error)]">
             {error}
           </div>
         )}
@@ -342,7 +342,7 @@ export default function BusinessForm({
             <button
               type="submit"
               disabled={loading}
-              className="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+              className="rounded-md bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50"
             >
               {loading ? 'Guardando...' : 'Guardar'}
             </button>

@@ -1,0 +1,45 @@
+{
+  "id": "fotografia_bodas",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Momentos que duran para siempre",
+    "subheadline": "Fotografia y video de bodas en {{city}}. Cada mirada, cada lagrima, cada baile.",
+    "ctaPrimary": "Ver Portfolio",
+    "ctaSecondary": "Consultar Fecha"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Me especializo en fotografia de bodas con mirada documental. No solo poses: capturo lo que sientes. Con mas de {{yearsInOperation}} anos en {{city}}."
+  },
+  "packages": {
+    "title": "Paquetes",
+    "items": [
+      { "name": "Esencial", "from": "Desde Gs. 3.500.000", "features": ["8 horas de cobertura", "200 fotos editadas", "Album digital", "Entrega en 30 dias"] },
+      { "name": "Completo", "from": "Desde Gs. 6.500.000", "features": ["10 horas de cobertura", "400 fotos editadas", "Album impreso", "Sesion pre-boda", "Video highlight 3 min"], "popular": true },
+      { "name": "Premium", "from": "Consultar", "features": ["Cobertura completa", "Fotos ilimitadas editadas", "Album de lujo", "Video cinematografico 15 min", "Segundo fotografo"] }
+    ]
+  },
+  "process": {
+    "title": "Como Trabajamos",
+    "steps": [
+      { "number": 1, "title": "Consulta", "description": "Conversamos sobre tu evento, estilo y fecha." },
+      { "number": 2, "title": "Sesion pre-boda", "description": "Nos conocemos y creamos conexion frente a la camara." },
+      { "number": 3, "title": "El gran dia", "description": "Cubrimos desde la preparacion hasta el cierre de fiesta." },
+      { "number": 4, "title": "Edicion", "description": "Procesamos cada foto con dedicacion artistica." },
+      { "number": 5, "title": "Entrega", "description": "Recibis galeria online, album y video en el tiempo acordado." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Las fotos superaron todas mis expectativas. Vuelvo a revivirlas cada vez que las veo.", "author": "Sofia y Juan", "rating": 5 },
+    { "quote": "Profesional, discreto y con una sensibilidad increible.", "author": "Camila y Diego", "rating": 5 }
+  ],
+  "faq": [
+    { "q": "Cuanto reservan con anticipacion?", "a": "Recomendamos reservar con 6 a 12 meses. Las fechas populares se agotan rapido." },
+    { "q": "Cuando recibo las fotos?", "a": "Entre 30 y 45 dias despues de la boda. Te enviamos un avance en 7 dias." },
+    { "q": "Viajan al interior o exterior?", "a": "Si, cubrimos bodas en todo Paraguay y destinos internacionales con gastos aparte." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Tu historia en imagenes",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

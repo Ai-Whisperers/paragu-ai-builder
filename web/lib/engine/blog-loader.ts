@@ -9,7 +9,7 @@
  * free of server-only deps.
  */
 import { readFileSync, readdirSync, existsSync } from 'fs'
-import { resolve, join } from 'path'
+import { resolve } from 'path'
 import type { Locale } from '@/lib/i18n/config'
 
 export interface BlogPost {

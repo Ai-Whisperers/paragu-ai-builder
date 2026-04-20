@@ -65,12 +65,12 @@ export function FeaturesSection({
                   {feature.icon}
                 </div>
               )}
-              <h3
+              <Heading level={3}
                 className="mb-2 text-lg font-bold"
                 style={{ color: 'var(--foreground)' }}
               >
                 {feature.title}
-              </h3>
+              </Heading>
               <p
                 className="text-sm"
                 style={{ color: 'var(--secondary)' }}

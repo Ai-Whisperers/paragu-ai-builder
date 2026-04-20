@@ -10,10 +10,17 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { createServerClient } from '@supabase/ssr'
 import { logger } from '@/lib/logger'
+import { correlationFromRequest, toTraceparent } from '@/lib/obs/request-id'
 
 export async function middleware(request: NextRequest): Promise<NextResponse> {
   const path = request.nextUrl.pathname
-  const requestId = crypto.randomUUID()
+
+  // Honour upstream correlation: x-request-id, x-correlation-id, or W3C
+  // traceparent. Only generate a fresh id if none is supplied. This keeps
+  // traces intact across CDN / gateway / partner-integration hops.
+  const correlation = correlationFromRequest(request)
+  const requestId = correlation.traceId
+  const traceparent = toTraceparent(correlation.traceId, correlation.spanId)
 
   // Tenant hostname rewrite: nexaparaguay.com → /s/<defaultLocale>/nexa-paraguay/...
   // Map built from sites/*/site.json at request time (cached inside helper).
@@ -54,16 +61,42 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
     return NextResponse.next()
   }
 
-  // Add request ID and pathname headers
+  // Add request ID and pathname headers. Overwrite upstream correlation
+  // headers with the canonical ones we just resolved so every downstream
+  // hop sees the same traceId — even when the upstream sent a malformed
+  // value that correlationFromRequest rejected.
   const requestHeaders = new Headers(request.headers)
   requestHeaders.set('x-request-id', requestId)
+  requestHeaders.set('traceparent', traceparent)
   requestHeaders.set('x-pathname', path)
 
   let response = NextResponse.next({
     request: { headers: requestHeaders },
   })
   response.headers.set('x-request-id', requestId)
+  response.headers.set('traceparent', traceparent)
   response.headers.set('x-pathname', path)
+  
+  // SECURITY HEADERS - Added as part of security remediation
+  // Content Security Policy
+  const cspHeader = `
+    default-src 'self';
+    script-src 'self' 'unsafe-eval' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' blob: data: https://*.supabase.co;
+    font-src 'self';
+    connect-src 'self' https://*.supabase.co;
+    frame-ancestors 'none';
+    base-uri 'self';
+    form-action 'self';
+  `.replace(/\s+/g, ' ').trim()
+  
+  response.headers.set('Content-Security-Policy', cspHeader)
+  response.headers.set('X-Frame-Options', 'DENY')
+  response.headers.set('X-Content-Type-Options', 'nosniff')
+  response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
+  response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
+  response.headers.set('X-XSS-Protection', '1; mode=block')
 
   // Public routes: skip auth to reduce latency
   // Admin routes (/admin, /admin/*) are protected; everything else is public.
@@ -103,6 +136,7 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
           request: { headers: requestHeaders },
         })
         response.headers.set('x-request-id', requestId)
+        response.headers.set('traceparent', traceparent)
         response.headers.set('x-pathname', path)
         cookiesToSet.forEach(({ name, value, options }) => {
           response.cookies.set(name, value, options)

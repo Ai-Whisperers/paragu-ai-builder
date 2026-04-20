@@ -98,12 +98,12 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
                 <span className="text-xl font-bold text-[var(--secondary)]">{step.number ?? i + 1}</span>
               )}
             </div>
-            <h3
+            <Heading level={3}
               className="mb-2 text-lg font-semibold text-[var(--primary)]"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               {step.title}
-            </h3>
+            </Heading>
             <p className="text-sm text-[var(--text-light)]">{step.description}</p>
             {step.duration && (
               <p className="mt-2 text-xs uppercase tracking-wider text-[var(--text-muted)]">
@@ -126,12 +126,12 @@ function Vertical({ steps }: { steps: ProcessStep[] }) {
             <span className="absolute -left-[2.65rem] flex h-8 w-8 items-center justify-center rounded-full bg-[var(--secondary)] text-sm font-bold text-[var(--secondary-foreground)]">
               {step.number ?? i + 1}
             </span>
-            <h3
+            <Heading level={3}
               className="mb-1 text-xl font-semibold text-[var(--primary)]"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               {step.title}
-            </h3>
+            </Heading>
             <p className="text-[var(--text-light)]">{step.description}</p>
             {step.duration && (
               <p className="mt-1 text-xs uppercase tracking-wider text-[var(--text-muted)]">
@@ -157,9 +157,9 @@ function Stepped({ steps }: { steps: ProcessStep[] }) {
               </span>
             </div>
             <div className="flex-1">
-              <h3 className="mb-1 text-xl font-semibold text-[var(--primary)]">
+              <Heading level={3} className="mb-1 text-xl font-semibold text-[var(--primary)]">
                 {step.title}
-              </h3>
+              </Heading>
               <p className="text-[var(--text-light)]">{step.description}</p>
             </div>
             {step.duration && (

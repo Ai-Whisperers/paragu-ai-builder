@@ -1,0 +1,27 @@
+{
+  "id": "florista",
+  "nameEs": "Floreria",
+  "nameEn": "Florist",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "florista",
+  "seo": {
+    "schemaType": "Florist",
+    "titleTemplate": "{{businessName}} - Floreria en {{city}}",
+    "descriptionTemplate": "Ramos, coronas y decoracion floral con entrega a domicilio en {{city}}.",
+    "keywords": [
+      "floreria {{city}}",
+      "ramo flores {{city}}",
+      "envio flores {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Flores que emocionan",
+    "subheadlineTemplate": "Ramos, coronas y decoracion floral con entrega a domicilio en {{city}}."
+  },
+  "serviceCategories": [
+    "ramos",
+    "eventos",
+    "coronas"
+  ]
+}

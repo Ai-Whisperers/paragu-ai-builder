@@ -1,0 +1,25 @@
+{
+  "id": "cut_and_sew_shop",
+  "nameEs": "Corte y Costura",
+  "nameEn": "Cut and Sew",
+  "verticalId": "trades-industrial",
+  "subVertical": "textiles-apparel-mfg",
+  "extends": "industrial_base",
+  "tokens": "cut_and_sew_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Corte y Costura en {{city}}",
+    "descriptionTemplate": "Corte y Costura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "corte y costura {{city}}",
+      "cut and sew {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Corte y Costura",
+    "subheadlineTemplate": "Corte y Costura profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

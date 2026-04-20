@@ -1,37 +1,16 @@
 /**
  * Core type definitions for the builder.
+ *
+ * BUSINESS_TYPES is derived from the generated REGISTRY_MAP so adding a new
+ * type only requires authoring src/registry/<id>.type.json + re-running the
+ * generate-static-config script. No edits here.
  */
 
-export const BUSINESS_TYPES = [
-  // Beauty/Wellness
-  'peluqueria',
-  'salon_belleza',
-  'gimnasio',
-  'spa',
-  'unas',
-  'tatuajes',
-  'barberia',
-  'estetica',
-  'maquillaje',
-  'depilacion',
-  'pestanas',
-  'diseno_grafico',
-  // Service/Consulting
-  'relocation',
-  'inmobiliaria',
-  'legal',
-  'consultoria',
-  'educacion',
-  'salud',
-  'inversiones',
-  'meal_prep',
-  // Food/Restaurant
-  'restaurant',
-  'sushi_bar',
-  'kaiten_zushi',
-] as const
+import { REGISTRY_MAP } from './engine/static-config'
 
-export type BusinessType = (typeof BUSINESS_TYPES)[number]
+export const BUSINESS_TYPES = Object.keys(REGISTRY_MAP) as [string, ...string[]]
+
+export type BusinessType = string
 
 export interface Business {
   id: string

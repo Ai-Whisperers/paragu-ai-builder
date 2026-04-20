@@ -1,0 +1,22 @@
+{
+  "id": "leather_goods_maker",
+  "nameEs": "Artesano de Cuero",
+  "nameEn": "Leather Maker",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fashion-design",
+  "extends": "diseno_grafico",
+  "tokens": "leather_goods_maker",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Artesano de Cuero en {{city}}",
+    "descriptionTemplate": "Artesano de Cuero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "artesano de cuero {{city}}",
+      "leather maker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Artesano de Cuero",
+    "subheadlineTemplate": "Artesano de Cuero profesional en {{city}}."
+  }
+}

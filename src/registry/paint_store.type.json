@@ -1,0 +1,22 @@
+{
+  "id": "paint_store",
+  "nameEs": "Pinturerias",
+  "nameEn": "Paint Store",
+  "verticalId": "retail-local",
+  "subVertical": "hardware-garden",
+  "extends": "retail_base",
+  "tokens": "paint_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Pinturerias en {{city}}",
+    "descriptionTemplate": "Pinturerias profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pinturerias {{city}}",
+      "paint store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pinturerias",
+    "subheadlineTemplate": "Pinturerias profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hair_color_studio",
+  "nameEs": "Estudio de Color",
+  "nameEn": "Hair Color Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "hair_color_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Estudio de Color en {{city}}",
+    "descriptionTemplate": "Estudio de Color profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de color {{city}}",
+      "hair color studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Color",
+    "subheadlineTemplate": "Estudio de Color profesional en {{city}}."
+  }
+}

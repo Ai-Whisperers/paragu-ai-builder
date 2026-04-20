@@ -1,0 +1,26 @@
+{
+  "id": "boutique",
+  "nameEs": "Boutique",
+  "nameEn": "Boutique",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "boutique",
+  "seo": {
+    "schemaType": "ClothingStore",
+    "titleTemplate": "{{businessName}} - Boutique en {{city}}",
+    "descriptionTemplate": "Boutique con prendas exclusivas y seleccion personalizada en {{city}}.",
+    "keywords": [
+      "boutique {{city}}",
+      "ropa exclusiva {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Moda curada con amor",
+    "subheadlineTemplate": "Boutique con prendas exclusivas y seleccion personalizada en {{city}}."
+  },
+  "serviceCategories": [
+    "nueva_temporada",
+    "exclusivos",
+    "accesorios"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "trades-industrial",
+  "name": "Industrial & Manufacturing",
+  "nameEs": "Industria y Manufactura",
+  "description": "Machining, fabrication, contract manufacturing, printing, packaging, recycling. RFQ-first, spec-sheet heavy, B2B.",
+  "baseType": "industrial_base",
+  "features": {
+    "i18n": false,
+    "quoteForm": true,
+    "caseStudies": true,
+    "whatsappFloat": true,
+    "certifications": true
+  },
+  "allowedSections": [
+    "header",
+    "hero",
+    "services",
+    "features",
+    "process",
+    "case-studies",
+    "trust-signals",
+    "faq",
+    "quote-form",
+    "contact",
+    "footer",
+    "whatsapp-float"
+  ],
+  "defaultStarterKit": "minimal",
+  "locales": [
+    "es"
+  ]
+}

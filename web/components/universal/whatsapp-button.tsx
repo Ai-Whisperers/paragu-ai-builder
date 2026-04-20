@@ -17,7 +17,7 @@ export default function WhatsAppButton({
   showLabel = true,
   label = 'Envíanos un mensaje'
 }: WhatsAppButtonProps) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [_isOpen, _setIsOpen] = useState(false)
 
   const handleClick = () => {
     const cleanPhone = phone.replace(/\D/g, '')

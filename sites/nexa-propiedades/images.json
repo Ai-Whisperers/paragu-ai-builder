@@ -1,0 +1,72 @@
+{
+  "tenant": "nexa-propiedades",
+  "totalImages": 15,
+  "images": {
+    "hero": {
+      "home": "/sites/nexa-propiedades/images/hero/hero-bg.jpg",
+      "alt": "Luxury modern house in Paraguay"
+    },
+    "services": {
+      "purchase": {
+        "src": "/sites/nexa-propiedades/images/services/purchase.jpg",
+        "alt": "Property purchase services"
+      },
+      "sale": {
+        "src": "/sites/nexa-propiedades/images/services/sale.jpg",
+        "alt": "Property sale services"
+      },
+      "rentals": {
+        "src": "/sites/nexa-propiedades/images/services/rentals.jpg",
+        "alt": "Property rentals"
+      },
+      "legal": {
+        "src": "/sites/nexa-propiedades/images/services/legal.jpg",
+        "alt": "Legal advisory services"
+      },
+      "investment": {
+        "src": "/sites/nexa-propiedades/images/services/investment.jpg",
+        "alt": "Investment advisory"
+      },
+      "renovation": {
+        "src": "/sites/nexa-propiedades/images/services/renovation.jpg",
+        "alt": "Property renovation"
+      }
+    },
+    "agents": {
+      "male": {
+        "src": "/sites/nexa-propiedades/images/agents/agent-male.jpg",
+        "alt": "Real estate agent",
+        "name": "Carlos Rodríguez"
+      },
+      "female": {
+        "src": "/sites/nexa-propiedades/images/agents/agent-female.jpg",
+        "alt": "Real estate agent",
+        "name": "María González"
+      }
+    },
+    "properties": {
+      "luxuryInterior": {
+        "src": "/sites/nexa-propiedades/images/properties/luxury-interior.jpg",
+        "alt": "Luxury interior"
+      },
+      "kitchen": {
+        "src": "/sites/nexa-propiedades/images/properties/kitchen.jpg",
+        "alt": "Modern kitchen"
+      },
+      "exterior": {
+        "src": "/sites/nexa-propiedades/images/properties/exterior.jpg",
+        "alt": "House exterior"
+      }
+    },
+    "neighborhoods": {
+      "lasCarmelitas": {
+        "src": "/sites/nexa-propiedades/images/neighborhoods/las-carmelitas.jpg",
+        "alt": "Las Carmelitas neighborhood"
+      },
+      "villaMorra": {
+        "src": "/sites/nexa-propiedades/images/neighborhoods/villa-morra.jpg",
+        "alt": "Villa Morra neighborhood"
+      }
+    }
+  }
+}

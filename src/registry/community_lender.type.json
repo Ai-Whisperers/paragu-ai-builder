@@ -1,0 +1,25 @@
+{
+  "id": "community_lender",
+  "nameEs": "Prestamista Comunitario",
+  "nameEn": "Community Lender",
+  "verticalId": "finance-insurance",
+  "subVertical": "lending-retail",
+  "extends": "finance_insurance_base",
+  "tokens": "community_lender",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Prestamista Comunitario en {{city}}",
+    "descriptionTemplate": "Prestamista Comunitario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "prestamista comunitario {{city}}",
+      "community lender {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Prestamista Comunitario",
+    "subheadlineTemplate": "Prestamista Comunitario profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

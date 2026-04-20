@@ -1,0 +1,22 @@
+{
+  "id": "eyelash_extension_studio",
+  "nameEs": "Extensiones de Pestanas",
+  "nameEn": "Eyelash Extensions",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "makeup",
+  "extends": "beauty_base",
+  "tokens": "eyelash_extension_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Extensiones de Pestanas en {{city}}",
+    "descriptionTemplate": "Extensiones de Pestanas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "extensiones de pestanas {{city}}",
+      "eyelash extensions {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Extensiones de Pestanas",
+    "subheadlineTemplate": "Extensiones de Pestanas profesional en {{city}}."
+  }
+}

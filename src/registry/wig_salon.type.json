@@ -1,0 +1,22 @@
+{
+  "id": "wig_salon",
+  "nameEs": "Pelucas",
+  "nameEn": "Wig Salon",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "wig_salon",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Pelucas en {{city}}",
+    "descriptionTemplate": "Pelucas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pelucas {{city}}",
+      "wig salon {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pelucas",
+    "subheadlineTemplate": "Pelucas profesional en {{city}}."
+  }
+}
