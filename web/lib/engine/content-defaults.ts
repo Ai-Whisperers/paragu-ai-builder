@@ -66,5 +66,5 @@ export function defaultContentFor(typeId: string): ContentTemplate | null {
       tagline: `{{businessName}} - ${name} en {{city}}`,
       copyright: '© {{year}} {{businessName}}',
     },
-  } as ContentTemplate
+  } as unknown as ContentTemplate
 }

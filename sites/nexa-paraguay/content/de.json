@@ -58,6 +58,13 @@
         { "id": "tierras", "name": "Landkauf", "description": "Eigene Dienstleistung von Nexa.", "price": "TBD", "priceNote": "Umfang und Preise in Definition.", "included": ["Profil- und Kriteriendefinition", "Suche und Short-List", "Rechtliche und technische Due Diligence", "Verhandlung und Beurkundung", "Registereintragung"], "ctaLabel": "Sondierungsgespräch", "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras" }
       ]
     },
+    "testimonials": {
+      "eyebrow": "Kundenstimmen",
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
+      "ctaText": "Alle Testimonials lesen",
+      "ctaHref": "/s/de/nexa-paraguay/testimonials"
+    },
     "whyCountry": {
       "eyebrow": "Warum Paraguay",
       "title": "Eine reale Chance für europäische Investoren",

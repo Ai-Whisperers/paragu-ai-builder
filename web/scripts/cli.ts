@@ -78,6 +78,10 @@ const COMMANDS: Record<string, { description: string; run: Runner }> = {
     description: 'Regenerate static-config.ts + 23 vertical data shards',
     run: (a) => runScript('generate-static-config.ts', a),
   },
+  graph: {
+    description: 'Inspect registry: vertical counts, extends tree, orphans',
+    run: (a) => runScript('type-graph.ts', a),
+  },
   validate: {
     description: 'Run registry schema + tokens + content validators',
     run: () => {

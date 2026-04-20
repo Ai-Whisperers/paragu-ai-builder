@@ -218,10 +218,15 @@ const buildTeam: SectionBuilder = ({ business, content }) => {
   }
 }
 
-const buildTestimonials: SectionBuilder = ({ business }) => {
+const buildTestimonials: SectionBuilder = ({ business, content }) => {
   if (!business.testimonials || business.testimonials.length === 0) return null
+  
+  // Get title from content if available
+  const contentTestimonials = (content as { home?: { testimonials?: { title?: string; subtitle?: string } } })?.home?.testimonials
+  
   return {
-    title: 'Lo Que Dicen Nuestros Clientes',
+    title: contentTestimonials?.title || 'Lo Que Dicen Nuestros Clientes',
+    subtitle: contentTestimonials?.subtitle,
     testimonials: business.testimonials,
   }
 }
@@ -310,6 +315,75 @@ const buildFooter: SectionBuilder = ({ business, navItems }) => ({
 // is configured and the feature flag is on, after all normal sections.
 const buildWhatsappFloat: SectionBuilder = () => null
 
+/**
+ * Generic features grid — reads `content.features` (either array of
+ * {title, description, icon} or {items: [...]}). Used by the `features`
+ * section which many B2B / b2b-professional / consultoria types reference.
+ */
+const buildFeatures: SectionBuilder = ({ content, templateData }) => {
+  const c = content as { features?: unknown; featuresPage?: unknown }
+  const raw = c.features || c.featuresPage
+  if (!raw) return null
+  const items = Array.isArray(raw)
+    ? raw
+    : (raw as { items?: unknown[] }).items || []
+  if (!items.length) return null
+  const mapped = items.map((it) => {
+    const item = it as { title?: string; description?: string; icon?: string }
+    return {
+      title: fillTemplate(item.title || '', templateData),
+      description: fillTemplate(item.description || '', templateData),
+      icon: item.icon,
+    }
+  })
+  return { title: (raw as { title?: string }).title || '¿Por que elegirnos?', items: mapped }
+}
+
+/**
+ * Generic pricing tiers — reads `content.pricing` or `content.packages`.
+ * Maps to PricingTableSection / PackagesSection.
+ */
+const buildPricing: SectionBuilder = ({ content, templateData }) => {
+  const c = content as { pricing?: unknown; packages?: unknown }
+  const raw = c.pricing || c.packages
+  if (!raw) return null
+  const tiers = Array.isArray(raw) ? raw : (raw as { tiers?: unknown[]; items?: unknown[] }).tiers || (raw as { items?: unknown[] }).items || []
+  if (!tiers.length) return null
+  const mapped = tiers.map((t) => {
+    const tier = t as { name?: string; price?: string; from?: string; period?: string; description?: string; features?: string[]; popular?: boolean }
+    return {
+      name: fillTemplate(tier.name || '', templateData),
+      price: tier.price || tier.from,
+      period: tier.period,
+      description: fillTemplate(tier.description || '', templateData),
+      features: tier.features || [],
+      popular: !!tier.popular,
+    }
+  })
+  return { title: (raw as { title?: string }).title || 'Planes y Paquetes', tiers: mapped }
+}
+
+/**
+ * Process steps — reads `content.process` ({steps: [...]}) or
+ * `content.processSteps` (array of {number, title, description}).
+ */
+const buildProcess: SectionBuilder = ({ content, templateData }) => {
+  const c = content as { process?: unknown; processSteps?: unknown }
+  const raw = c.process || c.processSteps
+  if (!raw) return null
+  const steps = Array.isArray(raw) ? raw : (raw as { steps?: unknown[] }).steps || []
+  if (!steps.length) return null
+  const mapped = steps.map((s, idx) => {
+    const step = s as { number?: number; title?: string; description?: string }
+    return {
+      number: step.number ?? idx + 1,
+      title: fillTemplate(step.title || '', templateData),
+      description: fillTemplate(step.description || '', templateData),
+    }
+  })
+  return { title: (raw as { title?: string }).title || 'Como Trabajamos', steps: mapped }
+}
+
 const buildOmakase: SectionBuilder = ({ content }) => {
   const omakaseContent = (content as { omakase?: { title?: string; subtitle?: string; description?: string; tiers?: Array<{ name: string; price: string; courses: number; duration: string; features: string[] }>; notes?: string[] } }).omakase
   if (!omakaseContent) return null
@@ -369,9 +443,9 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   ctaBanner: buildCtaBanner,
   footer: buildFooter,
   whatsappFloat: buildWhatsappFloat,
-  features: () => null,
-  pricing: () => null,
-  process: () => null,
+  features: buildFeatures,
+  pricing: buildPricing,
+  process: buildProcess,
   savingsCalculator: buildSavingsCalculator,
   omakase: buildOmakase,
   sakeMenu: buildSakeMenu,

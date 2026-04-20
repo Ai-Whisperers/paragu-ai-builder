@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent } from '@/components/ui/card'
@@ -34,11 +35,12 @@ export function TeamSection({ title, subtitle, members }: TeamSectionProps) {
                 {/* Avatar */}
                 <div className="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full bg-[var(--surface-light)]">
                   {member.imageUrl ? (
-                    <img
+                    <Image
                       src={member.imageUrl}
                       alt={member.name}
+                      width={128}
+                      height={128}
                       className="h-full w-full object-cover"
-                      loading="lazy"
                     />
                   ) : (
                     <div className="flex h-full w-full items-center justify-center text-3xl font-bold text-[var(--text-muted)]">

@@ -108,9 +108,21 @@ export function DialogDescription({ className, children, ...props }: DialogDescr
 export interface DialogTriggerProps extends React.HTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode
   onClick?: () => void
+  asChild?: boolean
 }
 
-export function DialogTrigger({ className, children, onClick, ...props }: DialogTriggerProps) {
+export function DialogTrigger({ className, children, onClick, asChild, ...props }: DialogTriggerProps) {
+  if (asChild && React.isValidElement(children)) {
+    return React.cloneElement(children as React.ReactElement, {
+      className: cn("inline-flex items-center justify-center", className, (children.props as {className?: string}).className),
+      onClick: (e: React.MouseEvent) => {
+        onClick?.()
+        ;(children.props as {onClick?: (e: React.MouseEvent) => void}).onClick?.(e)
+      },
+      ...props,
+    } as Record<string, unknown>)
+  }
+
   return (
     <button
       type="button"
@@ -208,3 +220,4 @@ export function ConfirmationDialog({
     </Dialog>
   )
 }
+

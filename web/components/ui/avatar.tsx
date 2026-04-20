@@ -75,6 +75,24 @@ export function Avatar({
   )
 }
 
+export interface AvatarFallbackProps extends React.HTMLAttributes<HTMLDivElement> {
+  children: React.ReactNode
+}
+
+export function AvatarFallback({ className, children, ...props }: AvatarFallbackProps) {
+  return (
+    <div 
+      className={cn(
+        "flex h-full w-full items-center justify-center bg-[var(--surface-light)] font-medium text-[var(--text)]",
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </div>
+  )
+}
+
 export function AvatarGroup({ 
   className, 
   children,

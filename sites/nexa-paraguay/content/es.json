@@ -121,6 +121,13 @@
         }
       ]
     },
+    "testimonials": {
+      "eyebrow": "Testimonios",
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
+      "ctaText": "Leer todos los testimonios",
+      "ctaHref": "/s/es/nexa-paraguay/testimonials"
+    },
     "whyCountry": {
       "eyebrow": "Por qué Paraguay",
       "title": "Una oportunidad real para el inversor europeo",

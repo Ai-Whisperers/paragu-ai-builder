@@ -54,8 +54,8 @@ export interface SmartWhatsAppButtonProps {
   price?: string
   quantity?: string
   className?: string
-  size?: 'sm' | 'default' | 'lg'
-  variant?: 'default' | 'outline' | 'secondary'
+  size?: 'sm' | 'md' | 'lg'
+  variant?: 'primary' | 'secondary' | 'ghost' | 'link' | 'outline' | 'default'
   children?: React.ReactNode
 }
 
@@ -66,7 +66,7 @@ export function SmartWhatsAppButton({
   price,
   quantity = '1',
   className,
-  size = 'default',
+  size = 'md',
   variant = 'default',
   children
 }: SmartWhatsAppButtonProps) {

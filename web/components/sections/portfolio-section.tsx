@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { Heading } from '@/components/ui/heading'
 
 import { useState } from 'react'
@@ -88,11 +89,13 @@ export function PortfolioSection({
               className="group relative aspect-square overflow-hidden rounded-lg bg-[var(--surface-light)]"
             >
               {item.image || item.imageUrl ? (
-                <img
-                  src={item.image || item.imageUrl}
+                <Image
+                  src={item.image || item.imageUrl || ''}
                   alt={item.title}
-                  className="h-full w-full object-cover transition-transform duration-slow group-hover:scale-110"
-                  loading="lazy"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-slow group-hover:scale-110"
+                  unoptimized={(item.image || item.imageUrl || '').startsWith('data:')}
                 />
               ) : (
                 <div className="flex h-full items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]">
