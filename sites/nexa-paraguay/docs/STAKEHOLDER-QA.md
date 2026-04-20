@@ -817,7 +817,7 @@ Each person gives a go/no-go. No launch without 3 greens.
 **Our proposed scope:**
 - Repo access for your operations team
 - Documentation of every environment variable (we have this in `.env.example`)
-- Runbook for "lead just submitted but didn't arrive in HubSpot" (we add to `docs/DEBUGGING.md`)
+- Runbook for "lead just submitted but didn't arrive in HubSpot" (we add to `docs/how-to/debug.md`)
 - Runbook for "change copy in blog post 3" (we add to a new `docs/CONTENT-EDIT-GUIDE.md`)
 - 2-hour onboarding video call
 
