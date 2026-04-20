@@ -36,7 +36,7 @@ const typeFiles = fs
 const typeIds = new Set(typeFiles.map((f) => f.replace(/\.type\.json$/, '')))
 
 let errors = 0
-let warnings = 0
+const warnings = 0
 
 for (const file of typeFiles) {
   const filePath = path.join(REGISTRY_DIR, file)

@@ -21,6 +21,12 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci
       - name: Validate tenant sites (pages, sections, variants, locale parity)
+        # TEMPORARY: ALLOW_MACHINE_TRANSLATIONS=1 unblocks nexa-paraguay's
+        # German (de) locale which is machine-translated. Remove this env
+        # var once professional DE translation lands — tracked in
+        # sites/nexa-paraguay/docs/LAUNCH.md item #8.
+        env:
+          ALLOW_MACHINE_TRANSLATIONS: '1'
         run: npm run validate:sites
       - name: Validate content placeholders
         run: npm run validate:content

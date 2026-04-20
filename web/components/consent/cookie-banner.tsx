@@ -29,7 +29,7 @@ export function CookieBanner({ copy }: { copy: CookieBannerCopy }) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       if (!stored) setVisible(true)
     } catch {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
+       
       setVisible(true)
     }
   }, [])

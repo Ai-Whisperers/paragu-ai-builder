@@ -197,7 +197,7 @@ function loadContent(type: string): ContentTemplate | null {
 
   // Floor: synthesize from registry data. Lazy-require avoids circular import
   // with content-defaults → static-config.
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
+   
   const { defaultContentFor } = require('./content-defaults') as typeof import('./content-defaults')
   return defaultContentFor(type)
 }
