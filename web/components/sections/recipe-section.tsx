@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/badge'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import { cn } from '@/lib/utils'
 import { SmartWhatsAppButton } from './smart-whatsapp-section'
+import { Heading } from '@/components/ui/heading'
 
 export type Difficulty = 'Facil' | 'Medio' | 'Dificil'
 
@@ -413,7 +414,7 @@ export function RecipeSection({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">{title}</h2>
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">{title}</Heading>
           <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
             {subtitle}
           </p>
@@ -443,9 +444,9 @@ export function RecipeSection({
         {/* Featured Recipes */}
         {featuredRecipes.length > 0 && (
           <div className="mb-12">
-            <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
+            <Heading level={3} className="text-xl font-semibold mb-6 flex items-center gap-2">
               <Badge className="bg-[var(--primary)]">Destacadas</Badge>
-            </h3>
+            </Heading>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {featuredRecipes.map((recipe) => (
                 <RecipeCard key={recipe.id} recipe={recipe} phone={phone} />

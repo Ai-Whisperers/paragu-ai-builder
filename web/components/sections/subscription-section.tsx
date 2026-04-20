@@ -11,6 +11,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import { SmartWhatsAppButton } from './smart-whatsapp-section'
+import { Heading } from '@/components/ui/heading'
 
 export type SubscriptionFrequency = 'weekly' | 'biweekly' | 'monthly'
 
@@ -127,7 +128,7 @@ ${productList}
           <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <CheckCircle className="w-8 h-8 text-green-600" />
           </div>
-          <h3 className="text-xl font-semibold mb-2">Solicitud Enviada!</h3>
+          <Heading level={3} className="text-xl font-semibold mb-2">Solicitud Enviada!</Heading>
           <p className="text-[var(--text-muted)] mb-4">
             Te contactaremos por WhatsApp para confirmar tu suscripcion.
           </p>
@@ -390,9 +391,9 @@ export function SubscriptionSection({ phone, products, className }: Subscription
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-[var(--primary)]">Nuevo Servicio</Badge>
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             Pedidos Recurrentes
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
             Recibe huevos frescos regularmente sin tener que hacer pedidos cada vez. 
             Ideal para familias y negocios.

@@ -51,7 +51,7 @@ export function SampleWeekPreviewSection({
               {it.imageUrl && <CardImage src={it.imageUrl} alt={it.name} />}
               <CardContent className="p-4">
                 <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-semibold text-[var(--text)]">{it.name}</h3>
+                  <Heading level={3} className="font-semibold text-[var(--text)]">{it.name}</Heading>
                   {it.quantity && (
                     <span className="text-xs text-[var(--text-muted)] whitespace-nowrap">
                       {it.quantity}

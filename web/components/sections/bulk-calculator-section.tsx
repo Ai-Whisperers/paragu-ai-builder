@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
+import { Heading } from '@/components/ui/heading'
 
 export function BulkCalculator({ phone, className }: { phone: string; className?: string }) {
   const [quantity, setQuantity] = useState(100)
@@ -21,7 +22,7 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
             <Building2 className="w-4 h-4 mr-1" />
             Precios Mayoristas
           </Badge>
-          <h2 className="text-3xl font-bold mb-4">Calculadora Mayorista</h2>
+          <Heading level={2} className="text-3xl font-bold mb-4">Calculadora Mayorista</Heading>
           <p className="text-[var(--text-muted)]">Calculá tu ahorro al instante</p>
         </div>
 

@@ -36,7 +36,7 @@ export function BeforeAfterSplitSection({
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           <div className="rounded-lg border border-[var(--surface-light)] p-6 bg-[var(--surface)]">
-            <h3 className="font-semibold text-[var(--text-muted)] mb-3">{before.label}</h3>
+            <Heading level={3} className="font-semibold text-[var(--text-muted)] mb-3">{before.label}</Heading>
             <ul className="space-y-2">
               {before.items.map((x, i) => (
                 <li key={i} className="flex gap-2 text-sm text-[var(--text-muted)]">
@@ -47,7 +47,7 @@ export function BeforeAfterSplitSection({
             </ul>
           </div>
           <div className="rounded-lg border-2 border-[var(--primary)] p-6 bg-[var(--surface)]">
-            <h3 className="font-semibold text-[var(--primary)] mb-3">{after.label}</h3>
+            <Heading level={3} className="font-semibold text-[var(--primary)] mb-3">{after.label}</Heading>
             <ul className="space-y-2">
               {after.items.map((x, i) => (
                 <li key={i} className="flex gap-2 text-sm text-[var(--text)]">

@@ -8,6 +8,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import { SmartWhatsAppButton } from './smart-whatsapp-section'
+import { Heading } from '@/components/ui/heading'
 
 export interface FAQItem {
   id: string
@@ -133,9 +134,9 @@ export function FAQChatbot({ phone, className }: FAQChatbotProps) {
             <HelpCircle className="w-4 h-4 mr-1" />
             Preguntas Frecuentes
           </Badge>
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             ¿Tenés dudas? Tenemos respuestas
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)]">
             Buscá en nuestras preguntas frecuentes o escribinos por WhatsApp
           </p>
@@ -174,9 +175,9 @@ export function FAQChatbot({ phone, className }: FAQChatbotProps) {
         {/* Popular Questions (when no search) */}
         {!searchQuery && selectedCategory === 'Todas' && (
           <div className="mb-8">
-            <h3 className="text-sm font-semibold text-[var(--text-muted)] uppercase tracking-wide mb-4">
+            <Heading level={3} className="text-sm font-semibold text-[var(--text-muted)] uppercase tracking-wide mb-4">
               Preguntas más populares
-            </h3>
+            </Heading>
             <div className="grid md:grid-cols-2 gap-3">
               {popularFAQs.map((faq) => (
                 <button
@@ -248,7 +249,7 @@ export function FAQChatbot({ phone, className }: FAQChatbotProps) {
         {/* Still have questions? */}
         <Card className="bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] text-white">
           <CardContent className="p-8 text-center">
-            <h3 className="text-2xl font-bold mb-3">¿No encontraste tu respuesta?</h3>
+            <Heading level={3} className="text-2xl font-bold mb-3">¿No encontraste tu respuesta?</Heading>
             <p className="mb-6 opacity-90">
               Estamos aquí para ayudarte. Escribinos por WhatsApp y respondemos en minutos.
             </p>
