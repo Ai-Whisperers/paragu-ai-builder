@@ -11,7 +11,7 @@ export const SITES = {
     domain: 'nexaparaguay.com',
     defaultLocale: 'nl',
     locales: ['nl', 'en', 'de', 'es'],
-    pages: ['home', 'programas', 'por-que-paraguay', 'proceso', 'sobre', 'faq', 'blog', 'contacto'],
+    pages: ['home', 'programas', 'por-que-paraguay', 'proceso', 'sobre', 'faq', 'blog', 'contacto', 'privacidad'],
   },
   'nexa-uruguay': {
     slug: 'nexa-uruguay',
@@ -20,7 +20,7 @@ export const SITES = {
     domain: 'nexa-uruguay.com',
     defaultLocale: 'en',
     locales: ['en', 'es'],
-    pages: ['home', 'programas', 'por-que-uruguay', 'proceso', 'sobre', 'faq', 'contacto'],
+    pages: ['home', 'programas', 'por-que-uruguay', 'proceso', 'sobre', 'faq', 'blog', 'contacto', 'privacidad'],
   },
   'nexa-propiedades': {
     slug: 'nexa-propiedades',
@@ -29,7 +29,7 @@ export const SITES = {
     domain: 'nexapropiedades.com',
     defaultLocale: 'es',
     locales: ['es', 'en', 'pt'],
-    pages: ['home', 'propiedades', 'servicios', 'contacto'],
+    pages: ['home', 'propiedades', 'servicios', 'contacto', 'privacidad'],
   },
 } as const
 

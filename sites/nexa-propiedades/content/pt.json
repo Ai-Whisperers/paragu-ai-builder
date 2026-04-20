@@ -79,6 +79,41 @@
     "address": "Av. Aviadores del Chaco 1234, Assunção",
     "hours": "Segunda a Sexta: 9:00 - 18:00"
   },
+  "privacyPage": {
+    "seo": {
+      "title": "Política de privacidade — Nexa Propiedades",
+      "description": "Política de privacidade e cookies da Nexa Propiedades Paraguai."
+    },
+    "hero": {
+      "headline": "Política de privacidade",
+      "subheadline": "Como coletamos e tratamos seus dados quando você consulta um imóvel."
+    },
+    "body": {
+      "title": "Pontos-chave",
+      "items": [
+        {
+          "q": "Quais dados coletamos?",
+          "a": "Nome, e-mail, telefone, imóvel de interesse e orçamento aproximado, quando você preenche um formulário ou escreve pelo WhatsApp."
+        },
+        {
+          "q": "Para que os usamos?",
+          "a": "Para responder à sua consulta sobre um imóvel, agendar visitas e, com sua autorização, enviar novos imóveis que combinem com sua busca."
+        },
+        {
+          "q": "Com quem os compartilhamos?",
+          "a": "CRM (HubSpot) e provedor de e-mail (Mailchimp) sob contratos de tratamento de dados. Nunca compartilhamos seus dados com outros compradores, vendedores ou terceiros para marketing."
+        },
+        {
+          "q": "Por quanto tempo os guardamos?",
+          "a": "24 meses após o último contato, salvo exigência legal ou enquanto houver uma operação em andamento."
+        },
+        {
+          "q": "Como exerço meus direitos?",
+          "a": "Escreva para info@nexapropiedades.com e respondemos em até 30 dias (acesso, retificação, supressão, portabilidade)."
+        }
+      ]
+    }
+  },
   "footer": {
     "businessName": "Nexa Propiedades",
     "tagline": "Seu parceiro de confiança em imóveis",
