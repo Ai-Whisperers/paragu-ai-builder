@@ -134,6 +134,28 @@ export const env = {
   UPSTASH_REDIS_REST_TOKEN: optionalEnvOrUndefined('UPSTASH_REDIS_REST_TOKEN'),
 
   // ===========================================================================
+  // Commerce — Mercado Pago (required in production when commerce is enabled)
+  // ===========================================================================
+
+  MP_ACCESS_TOKEN: optionalEnvOrUndefined('MP_ACCESS_TOKEN'),
+  MP_WEBHOOK_SECRET: optionalEnvOrUndefined('MP_WEBHOOK_SECRET'),
+  MP_PUBLIC_KEY: optionalEnvOrUndefined('NEXT_PUBLIC_MP_PUBLIC_KEY'),
+
+  COMMERCE_SESSION_SECRET: optionalEnvOrUndefined('COMMERCE_SESSION_SECRET'),
+
+  get commerceConfigured(): boolean {
+    return Boolean(process.env.MP_ACCESS_TOKEN && process.env.MP_WEBHOOK_SECRET)
+  },
+
+  requireCommerceEnv(): { accessToken: string; webhookSecret: string; sessionSecret: string } {
+    return {
+      accessToken: requireEnv('MP_ACCESS_TOKEN'),
+      webhookSecret: requireEnv('MP_WEBHOOK_SECRET'),
+      sessionSecret: requireEnv('COMMERCE_SESSION_SECRET'),
+    }
+  },
+
+  // ===========================================================================
   // Debug/Development
   // ===========================================================================
 
