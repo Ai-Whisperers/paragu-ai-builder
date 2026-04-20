@@ -30,6 +30,18 @@ const eslintConfig = [
     },
   },
 
+  // Legacy CommonJS scripts under web/scripts/**.js are dev-only utilities
+  // (image optimization, content generation, etc.) — they are not part of the
+  // shipped runtime and predate the move to ESM. Allow require() there.
+  // Tests and ad-hoc audit scripts may also leave unused vars while iterating.
+  {
+    files: ['scripts/**/*.js', 'scripts/**/*.ts', 'tests/**/*.{ts,tsx}'],
+    rules: {
+      '@typescript-eslint/no-require-imports': 'off',
+      '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    },
+  },
+
   // Section / landing components must use the <Heading> primitive — never
   // raw <h1>/<h2>/<h3>. The primitive owns font-family + responsive scale.
   // All existing violations were migrated on 2026-04-20; this is now

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { MessageCircle, ArrowUp } from 'lucide-react'
 import { useScrollProgress } from '@/lib/hooks'
+import { waLink } from '@/lib/landing/marketing-data'
 
 /**
  * Decorative blurred blob used by the landing page hero + CTA sections.
@@ -40,14 +41,14 @@ export function ScrollProgress() {
 }
 
 /**
- * Persistent WhatsApp CTA in the bottom-right corner. Phone number is
- * hardcoded to the ParaguAI sales line — tenant sites use the
+ * Persistent WhatsApp CTA in the bottom-right corner. Number sourced from
+ * SITE_CONFIG.whatsapp via the waLink helper — tenant sites use the
  * WhatsAppFloat section component (which reads from business data) instead.
  */
 export function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/595981234567?text=Hola,%20me%20interesa%20saber%20más%20sobre%20ParaguAI"
+      href={waLink('Hola, me interesa saber más sobre ParaguAI')}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escribinos por WhatsApp"

@@ -21,6 +21,8 @@ import { LogoStrip } from '@/components/landing/logo-strip'
 import { VideoBlock } from '@/components/landing/video-block'
 import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta'
 import { ActivityTicker } from '@/components/landing/activity-ticker'
+import { PressStrip } from '@/components/landing/press-strip'
+import { waLink } from '@/lib/landing/marketing-data'
 import {
   FloatingShape,
   ScrollProgress,
@@ -304,7 +306,7 @@ function Navigation() {
                 Acceso clientes
               </Link>
               <a
-                href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+                href={waLink('Hola, quiero una demo gratis de ParaguAI para mi negocio.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden rounded-xl bg-[var(--primary)] px-5 py-2.5 text-sm font-semibold text-[var(--primary-foreground)] transition-all hover:opacity-90 hover:shadow-lg md:inline-flex md:items-center md:gap-2"
@@ -352,7 +354,7 @@ function Navigation() {
               </a>
             ))}
             <a
-              href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+              href={waLink('Hola, quiero una demo gratis de ParaguAI para mi negocio.')}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
@@ -437,7 +439,7 @@ export default function HomePage() {
               <FadeIn delay={450}>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                   <a
-                    href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+                    href={waLink('Hola, quiero una demo gratis de ParaguAI para mi negocio.')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
@@ -473,9 +475,13 @@ export default function HomePage() {
                 </div>
               </FadeIn>
 
-              {/* Real-client logo strip + video walkthrough */}
+              {/* Real-client logo strip + press mentions + video walkthrough */}
               <FadeIn delay={700}>
                 <LogoStrip />
+              </FadeIn>
+
+              <FadeIn delay={720}>
+                <PressStrip />
               </FadeIn>
 
               <FadeIn delay={750}>
@@ -824,7 +830,7 @@ export default function HomePage() {
                     </ul>
 
                     <a
-                      href={`https://wa.me/595981234567?text=${encodeURIComponent(plan.waMessage)}`}
+                      href={waLink(plan.waMessage)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`mt-auto block w-full rounded-2xl py-3.5 text-center text-sm font-bold transition-all ${
@@ -905,7 +911,7 @@ export default function HomePage() {
                 </p>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                   <a
-                    href="https://wa.me/595981234567?text=Hola,%20quiero%20una%20demo%20gratis%20de%20ParaguAI%20para%20mi%20negocio."
+                    href={waLink('Hola, quiero una demo gratis de ParaguAI para mi negocio.')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-4 text-lg font-bold text-[var(--primary)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
