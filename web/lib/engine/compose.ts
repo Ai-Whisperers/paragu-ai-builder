@@ -56,6 +56,15 @@ export type SectionType =
   | 'omakase'
   | 'sakeMenu'
   | 'conveyorBelt'
+  // Egg farm / agriculture types
+  | 'stockIndicator'
+  | 'deliveryCalculator'
+  | 'recipes'
+  | 'reviews'
+  | 'subscription'
+  | 'referral'
+  | 'priceList'
+  | 'preorder'
 
 export interface ComposedSection {
   type: SectionType
@@ -325,6 +334,15 @@ export const SECTION_MAP: Record<string, SectionType> = {
   footer: 'footer',
   whatsappFloat: 'whatsappFloat',
   savingsCalculator: 'savingsCalculator',
+  // Egg farm sections
+  stockIndicator: 'stockIndicator',
+  deliveryCalculator: 'deliveryCalculator',
+  recipes: 'recipes',
+  reviews: 'reviews',
+  subscription: 'subscription',
+  referral: 'referral',
+  priceList: 'priceList',
+  preorder: 'preorder',
 }
 
 /**

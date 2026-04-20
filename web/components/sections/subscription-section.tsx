@@ -247,7 +247,7 @@ ${productList}
                 <Label className="mb-2 block">Frecuencia de entrega</Label>
                 <RadioGroup
                   value={formData.frequency}
-                  onValueChange={(value) => setFormData(prev => ({ ...prev, frequency: value as SubscriptionFrequency }))}
+                  onValueChange={(value: string) => setFormData(prev => ({ ...prev, frequency: value as SubscriptionFrequency }))}
                   className="grid grid-cols-3 gap-2"
                 >
                   {(['weekly', 'biweekly', 'monthly'] as SubscriptionFrequency[]).map((freq) => (

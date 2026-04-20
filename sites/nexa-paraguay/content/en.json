@@ -12,14 +12,38 @@
   "navigation": {
     "businessName": "Nexa Paraguay",
     "navItems": [
-      { "label": "Home", "href": "/s/en/nexa-paraguay" },
-      { "label": "Programs", "href": "/s/en/nexa-paraguay/programas" },
-      { "label": "Why Paraguay", "href": "/s/en/nexa-paraguay/por-que-paraguay" },
-      { "label": "Process", "href": "/s/en/nexa-paraguay/proceso" },
-      { "label": "About", "href": "/s/en/nexa-paraguay/sobre" },
-      { "label": "FAQ", "href": "/s/en/nexa-paraguay/faq" },
-      { "label": "Blog", "href": "/s/en/nexa-paraguay/blog" },
-      { "label": "Contact", "href": "/s/en/nexa-paraguay/contacto" }
+      {
+        "label": "Home",
+        "href": "/s/en/nexa-paraguay"
+      },
+      {
+        "label": "Programs",
+        "href": "/s/en/nexa-paraguay/programas"
+      },
+      {
+        "label": "Why Paraguay",
+        "href": "/s/en/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Process",
+        "href": "/s/en/nexa-paraguay/proceso"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/nexa-paraguay/sobre"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/en/nexa-paraguay/faq"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/en/nexa-paraguay/blog"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/en/nexa-paraguay/contacto"
+      }
     ],
     "ctaText": "Book consultation",
     "ctaHref": "/s/en/nexa-paraguay/contacto"
@@ -41,10 +65,26 @@
       "eyebrow": "Why Nexa Paraguay",
       "title": "An integrated system, not a paperwork agency",
       "items": [
-        { "icon": "Package", "title": "One program", "description": "Residency, company and bank account integrated." },
-        { "icon": "Plane", "title": "One trip", "description": "All in-person steps done in a single coordinated day." },
-        { "icon": "Users", "title": "One team", "description": "Lawyers, accountants, notaries and financial advisors." },
-        { "icon": "Shield", "title": "Transparent pricing", "description": "All-inclusive. No hidden fees." }
+        {
+          "icon": "Package",
+          "title": "One program",
+          "description": "Residency, company and bank account integrated."
+        },
+        {
+          "icon": "Plane",
+          "title": "One trip",
+          "description": "All in-person steps done in a single coordinated day."
+        },
+        {
+          "icon": "Users",
+          "title": "One team",
+          "description": "Lawyers, accountants, notaries and financial advisors."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparent pricing",
+          "description": "All-inclusive. No hidden fees."
+        }
       ]
     },
     "programs": {
@@ -132,9 +172,36 @@
       "eyebrow": "Why Paraguay",
       "title": "A real opportunity for European investors",
       "pillars": [
-        { "icon": "TrendingUp", "title": "Economic environment", "description": "Sustained growth, controlled inflation, {{taxRate}} income tax, territorial system.", "bullets": ["Corporate tax {{taxRate}}", "Territorial system", "Open economy"] },
-        { "icon": "Building2", "title": "Investment opportunities", "description": "Developing real estate market, strong agribusiness, open economy.", "bullets": ["Expanding real estate", "Leading agribusiness", "Young entrepreneurial ecosystem"] },
-        { "icon": "Heart", "title": "Quality of life", "description": "Warm climate, growing international community, significant purchasing power.", "bullets": ["Favorable living costs", "International community", "Personal safety"] }
+        {
+          "icon": "TrendingUp",
+          "title": "Economic environment",
+          "description": "Sustained growth, controlled inflation, {{taxRate}} income tax, territorial system.",
+          "bullets": [
+            "Corporate tax {{taxRate}}",
+            "Territorial system",
+            "Open economy"
+          ]
+        },
+        {
+          "icon": "Building2",
+          "title": "Investment opportunities",
+          "description": "Developing real estate market, strong agribusiness, open economy.",
+          "bullets": [
+            "Expanding real estate",
+            "Leading agribusiness",
+            "Young entrepreneurial ecosystem"
+          ]
+        },
+        {
+          "icon": "Heart",
+          "title": "Quality of life",
+          "description": "Warm climate, growing international community, significant purchasing power.",
+          "bullets": [
+            "Favorable living costs",
+            "International community",
+            "Personal safety"
+          ]
+        }
       ],
       "honestNote": "The opportunity is real, but the process is not simple without the right guidance. That is exactly why we exist."
     },
@@ -145,11 +212,36 @@
       "ctaLabel": "Start my process",
       "ctaHref": "/s/en/nexa-paraguay/contacto",
       "steps": [
-        { "number": 1, "title": "Initial consultation", "description": "We review your situation, goals, and the right program.", "icon": "MessageCircle" },
-        { "number": 2, "title": "Document validation", "description": "Our team verifies everything before you travel. You only travel when ready.", "icon": "FileCheck" },
-        { "number": 3, "title": "Operational day", "description": "All in-person steps executed in a single day.", "icon": "MapPin" },
-        { "number": 4, "title": "Company and banking", "description": "We incorporate your company and coordinate the bank opening.", "icon": "Building" },
-        { "number": 5, "title": "Delivery and follow-up", "description": "You receive final documents and we close the program.", "icon": "CheckCircle" }
+        {
+          "number": 1,
+          "title": "Initial consultation",
+          "description": "We review your situation, goals, and the right program.",
+          "icon": "MessageCircle"
+        },
+        {
+          "number": 2,
+          "title": "Document validation",
+          "description": "Our team verifies everything before you travel. You only travel when ready.",
+          "icon": "FileCheck"
+        },
+        {
+          "number": 3,
+          "title": "Operational day",
+          "description": "All in-person steps executed in a single day.",
+          "icon": "MapPin"
+        },
+        {
+          "number": 4,
+          "title": "Company and banking",
+          "description": "We incorporate your company and coordinate the bank opening.",
+          "icon": "Building"
+        },
+        {
+          "number": 5,
+          "title": "Delivery and follow-up",
+          "description": "You receive final documents and we close the program.",
+          "icon": "CheckCircle"
+        }
       ]
     },
     "finalCta": {
@@ -160,59 +252,225 @@
     }
   },
   "programasPage": {
-    "seo": { "title": "Programs — Nexa Paraguay", "description": "Four programs: Base, Business (USD 4,400+), Investor (USD 6,900+), Land Purchase." },
-    "hero": { "headline": "Our programs", "subheadline": "Transparent pricing. All inclusive. No surprises." },
+    "seo": {
+      "title": "Programs — Nexa Paraguay",
+      "description": "Four programs: Base, Business (USD 4,400+), Investor (USD 6,900+), Land Purchase."
+    },
+    "hero": {
+      "headline": "Our programs",
+      "subheadline": "Transparent pricing. All inclusive. No surprises."
+    },
     "programs": {
       "eyebrow": "Programs",
       "title": "Four paths to establish yourself in Paraguay",
       "subtitle": "Choose your program based on your objective.",
       "tiers": [
-        { "id": "base", "name": "Paraguay Base", "description": "Residency and Paraguayan ID card.", "price": "To be defined", "priceNote": "Wholesale cost pending from LEALTIS + Nexa margin", "included": ["Paraguayan Residency", "ID Card", "Document pre-check", "Operational day (one day)", "Logistical support"], "ctaLabel": "Request consultation", "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base" },
-        { "id": "business", "name": "Paraguay Business", "description": "Residency + company + bank account.", "price": "USD 4,400+", "priceNote": "Base LEALTIS cost. Final Nexa price to be defined.", "highlighted": true, "badge": "Most chosen", "included": ["Everything in Base", "Company formation", "RUC acquisition", "Bank account opening", "Strategic real-estate tour", "Fees, VAT and taxes included"], "ctaLabel": "Request consultation", "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business" },
-        { "id": "investor", "name": "Paraguay Investor Program", "description": "Everything in Business + 12 months of support.", "price": "USD 6,900+", "priceNote": "Base LEALTIS cost. Final Nexa price to be defined.", "included": ["Everything in Business", "Corporate accounting (12 months)", "Legal and tax advisory (12 months)", "Investment analysis", "Direct access to technical team"], "ctaLabel": "Request consultation", "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor" },
-        { "id": "land", "name": "Paraguay Land Program", "description": "Everything in Investor + land purchase.", "price": "Custom quote", "priceNote": "Based on selected land and additional services.", "included": ["Everything in Investor", "Strategic land search", "Due diligence and legal verification", "Negotiation support", "Agricultural advisory (optional)"], "ctaLabel": "Request consultation", "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land" }
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Residency and Paraguayan ID card.",
+          "price": "To be defined",
+          "priceNote": "Wholesale cost pending from LEALTIS + Nexa margin",
+          "included": [
+            "Paraguayan Residency",
+            "ID Card",
+            "Document pre-check",
+            "Operational day (one day)",
+            "Logistical support"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base"
+        },
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residency + company + bank account.",
+          "price": "USD 4,400+",
+          "priceNote": "Base LEALTIS cost. Final Nexa price to be defined.",
+          "highlighted": true,
+          "badge": "Most chosen",
+          "included": [
+            "Everything in Base",
+            "Company formation",
+            "RUC acquisition",
+            "Bank account opening",
+            "Strategic real-estate tour",
+            "Fees, VAT and taxes included"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business"
+        },
+        {
+          "id": "investor",
+          "name": "Paraguay Investor Program",
+          "description": "Everything in Business + 12 months of support.",
+          "price": "USD 6,900+",
+          "priceNote": "Base LEALTIS cost. Final Nexa price to be defined.",
+          "included": [
+            "Everything in Business",
+            "Corporate accounting (12 months)",
+            "Legal and tax advisory (12 months)",
+            "Investment analysis",
+            "Direct access to technical team"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor"
+        },
+        {
+          "id": "land",
+          "name": "Paraguay Land Program",
+          "description": "Everything in Investor + land purchase.",
+          "price": "Custom quote",
+          "priceNote": "Based on selected land and additional services.",
+          "included": [
+            "Everything in Investor",
+            "Strategic land search",
+            "Due diligence and legal verification",
+            "Negotiation support",
+            "Agricultural advisory (optional)"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land"
+        }
       ]
     },
     "matrix": {
       "eyebrow": "Programs",
       "title": "Four paths to establish yourself in Paraguay",
       "tiers": [
-        { "id": "base", "name": "Paraguay Base", "description": "Residency and Paraguayan ID card.", "price": "To be defined", "included": ["Paraguayan Residency", "ID Card", "Document pre-check", "Operational day (one day)", "Logistical support"] },
-        { "id": "business", "name": "Paraguay Business", "description": "Residency + company + bank account.", "price": "USD 4,400+", "included": ["Everything in Base", "Company formation", "RUC acquisition", "Bank account opening", "Strategic real-estate tour", "Fees, VAT and taxes included"] },
-        { "id": "investor", "name": "Paraguay Investor Program", "description": "Everything in Business + 12 months of support.", "price": "USD 6,900+", "included": ["Everything in Business", "Corporate accounting (12 months)", "Legal and tax advisory (12 months)", "Investment analysis", "Direct access to technical team"] },
-        { "id": "land", "name": "Paraguay Land Program", "description": "Everything in Investor + land purchase.", "price": "Custom quote", "included": ["Everything in Investor", "Strategic land search", "Due diligence and legal verification", "Negotiation support", "Agricultural advisory (optional)"] }
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Residency and Paraguayan ID card.",
+          "price": "To be defined",
+          "included": [
+            "Paraguayan Residency",
+            "ID Card",
+            "Document pre-check",
+            "Operational day (one day)",
+            "Logistical support"
+          ]
+        },
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residency + company + bank account.",
+          "price": "USD 4,400+",
+          "included": [
+            "Everything in Base",
+            "Company formation",
+            "RUC acquisition",
+            "Bank account opening",
+            "Strategic real-estate tour",
+            "Fees, VAT and taxes included"
+          ]
+        },
+        {
+          "id": "investor",
+          "name": "Paraguay Investor Program",
+          "description": "Everything in Business + 12 months of support.",
+          "price": "USD 6,900+",
+          "included": [
+            "Everything in Business",
+            "Corporate accounting (12 months)",
+            "Legal and tax advisory (12 months)",
+            "Investment analysis",
+            "Direct access to technical team"
+          ]
+        },
+        {
+          "id": "land",
+          "name": "Paraguay Land Program",
+          "description": "Everything in Investor + land purchase.",
+          "price": "Custom quote",
+          "included": [
+            "Everything in Investor",
+            "Strategic land search",
+            "Due diligence and legal verification",
+            "Negotiation support",
+            "Agricultural advisory (optional)"
+          ]
+        }
       ]
     },
     "faq": {
       "title": "Pricing and program questions",
       "items": [
-        { "q": "What does the price include?", "a": "Fees, VAT, official taxes, bank coordination and integrated advisory." },
-        { "q": "What is NOT included?", "a": "Flights, accommodation, apostilles in country of origin, personal expenses." },
-        { "q": "How is payment made?", "a": "Upfront by wire transfer. No additional fees." }
+        {
+          "q": "What does the price include?",
+          "a": "Fees, VAT, official taxes, bank coordination and integrated advisory."
+        },
+        {
+          "q": "What is NOT included?",
+          "a": "Flights, accommodation, apostilles in country of origin, personal expenses."
+        },
+        {
+          "q": "How is payment made?",
+          "a": "Upfront by wire transfer. No additional fees."
+        }
       ]
     },
-    "cta": { "title": "Take the first step", "subtitle": "Book a free 30-minute consultation.", "buttonText": "Book consultation", "buttonHref": "/s/en/nexa-paraguay/contacto" }
+    "cta": {
+      "title": "Take the first step",
+      "subtitle": "Book a free 30-minute consultation.",
+      "buttonText": "Book consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
   },
   "whyCountryPage": {
-    "seo": { "title": "Why Paraguay — Nexa Paraguay", "description": "Paraguay: competitive tax environment, growing economy, quality of life." },
-    "hero": { "headline": "Why Paraguay", "subheadline": "A real opportunity — explained honestly." },
+    "seo": {
+      "title": "Why Paraguay — Nexa Paraguay",
+      "description": "Paraguay: competitive tax environment, growing economy, quality of life."
+    },
+    "hero": {
+      "headline": "Why Paraguay",
+      "subheadline": "A real opportunity — explained honestly."
+    },
     "pillars": {
       "eyebrow": "Why Paraguay",
       "title": "A real opportunity for European investors",
       "items": [
-        { "icon": "TrendingUp", "title": "Economic environment", "description": "Sustained growth, controlled inflation, 10% income tax, territorial system." },
-        { "icon": "Building2", "title": "Investment opportunities", "description": "Developing real estate market, strong agribusiness, open economy." },
-        { "icon": "Heart", "title": "Quality of life", "description": "Warm climate, growing international community, significant purchasing power." }
+        {
+          "icon": "TrendingUp",
+          "title": "Economic environment",
+          "description": "Sustained growth, controlled inflation, 10% income tax, territorial system."
+        },
+        {
+          "icon": "Building2",
+          "title": "Investment opportunities",
+          "description": "Developing real estate market, strong agribusiness, open economy."
+        },
+        {
+          "icon": "Heart",
+          "title": "Quality of life",
+          "description": "Warm climate, growing international community, significant purchasing power."
+        }
       ]
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
       "title": "An integrated system, not an administrative agency",
       "items": [
-        { "icon": "Package", "title": "One program", "description": "Residency, company and bank account integrated." },
-        { "icon": "Plane", "title": "One trip", "description": "In-person processing in a single coordinated day." },
-        { "icon": "Users", "title": "One team", "description": "Lawyers, accountants, notaries, financial advisors." },
-        { "icon": "Shield", "title": "Transparent pricing", "description": "All inclusive. No hidden fees." }
+        {
+          "icon": "Package",
+          "title": "One program",
+          "description": "Residency, company and bank account integrated."
+        },
+        {
+          "icon": "Plane",
+          "title": "One trip",
+          "description": "In-person processing in a single coordinated day."
+        },
+        {
+          "icon": "Users",
+          "title": "One team",
+          "description": "Lawyers, accountants, notaries, financial advisors."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparent pricing",
+          "description": "All inclusive. No hidden fees."
+        }
       ]
     },
     "cta": {
@@ -223,8 +481,14 @@
     }
   },
   "processPage": {
-    "seo": { "title": "How it works — Nexa Paraguay", "description": "Our 5-step process: from first consultation to final delivery. 8–12 weeks total." },
-    "hero": { "headline": "A clear process, step by step", "subheadline": "No improvisation. No surprises." },
+    "seo": {
+      "title": "How it works — Nexa Paraguay",
+      "description": "Our 5-step process: from first consultation to final delivery. 8–12 weeks total."
+    },
+    "hero": {
+      "headline": "A clear process, step by step",
+      "subheadline": "No improvisation. No surprises."
+    },
     "process": {
       "eyebrow": "How it works",
       "title": "A clear process, step by step",
@@ -232,84 +496,236 @@
       "ctaLabel": "Start my process",
       "ctaHref": "/s/en/nexa-paraguay/contacto",
       "steps": [
-        { "number": 1, "title": "Initial consultation", "description": "We review your situation, goals, and the right program.", "icon": "MessageCircle" },
-        { "number": 2, "title": "Document validation", "description": "Our team verifies everything before you travel. You only travel when ready.", "icon": "FileCheck" },
-        { "number": 3, "title": "Operational day", "description": "All in-person steps executed in a single day.", "icon": "MapPin" },
-        { "number": 4, "title": "Company and banking", "description": "We incorporate your company and coordinate the bank opening.", "icon": "Building" },
-        { "number": 5, "title": "Delivery and follow-up", "description": "You receive final documents and we close the program.", "icon": "CheckCircle" }
+        {
+          "number": 1,
+          "title": "Initial consultation",
+          "description": "We review your situation, goals, and the right program.",
+          "icon": "MessageCircle"
+        },
+        {
+          "number": 2,
+          "title": "Document validation",
+          "description": "Our team verifies everything before you travel. You only travel when ready.",
+          "icon": "FileCheck"
+        },
+        {
+          "number": 3,
+          "title": "Operational day",
+          "description": "All in-person steps executed in a single day.",
+          "icon": "MapPin"
+        },
+        {
+          "number": 4,
+          "title": "Company and banking",
+          "description": "We incorporate your company and coordinate the bank opening.",
+          "icon": "Building"
+        },
+        {
+          "number": 5,
+          "title": "Delivery and follow-up",
+          "description": "You receive final documents and we close the program.",
+          "icon": "CheckCircle"
+        }
       ]
     },
     "faq": {
       "title": "Process questions",
       "items": [
-        { "q": "How many trips do I need?", "a": "Just one." },
-        { "q": "How long does it take?", "a": "In-person in one day. Document issuance: 45–60 days." },
-        { "q": "What if a document is missing?", "a": "We detect it before your trip — you don't travel until everything is in order." }
+        {
+          "q": "How many trips do I need?",
+          "a": "Just one."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "In-person in one day. Document issuance: 45–60 days."
+        },
+        {
+          "q": "What if a document is missing?",
+          "a": "We detect it before your trip — you don't travel until everything is in order."
+        }
       ]
     },
-    "cta": { "title": "Take the first step", "subtitle": "Book a free 30-minute consultation.", "buttonText": "Book consultation", "buttonHref": "/s/en/nexa-paraguay/contacto" }
+    "cta": {
+      "title": "Take the first step",
+      "subtitle": "Book a free 30-minute consultation.",
+      "buttonText": "Book consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
   },
   "aboutPage": {
-    "seo": { "title": "About Nexa Paraguay", "description": "A multidisciplinary technical team: lawyers, accountants, notaries, financial advisors." },
-    "hero": { "headline": "About Nexa Paraguay", "subheadline": "Not an administrative agency. An integrated system." },
+    "seo": {
+      "title": "About Nexa Paraguay",
+      "description": "A multidisciplinary technical team: lawyers, accountants, notaries, financial advisors."
+    },
+    "hero": {
+      "headline": "About Nexa Paraguay",
+      "subheadline": "Not an administrative agency. An integrated system."
+    },
     "differentiators": {
       "eyebrow": "Our difference",
       "title": "What sets us apart",
       "pillars": [
-        { "icon": "Users", "title": "Multidisciplinary team", "description": "Lawyers, accountants, notaries and financial advisors working in coordination." },
-        { "icon": "Shield", "title": "Relational capital", "description": "Institutional access built over years with banks, notaries and authorities." },
-        { "icon": "Clock", "title": "Time as value", "description": "We compress into one day what otherwise requires multiple trips." }
+        {
+          "icon": "Users",
+          "title": "Multidisciplinary team",
+          "description": "Lawyers, accountants, notaries and financial advisors working in coordination."
+        },
+        {
+          "icon": "Shield",
+          "title": "Relational capital",
+          "description": "Institutional access built over years with banks, notaries and authorities."
+        },
+        {
+          "icon": "Clock",
+          "title": "Time as value",
+          "description": "We compress into one day what otherwise requires multiple trips."
+        }
       ]
     },
     "team": {
       "title": "Our team",
       "members": [
-        { "name": "Operations Director (Paraguay)", "role": "Operational leadership, institutional relationships" },
-        { "name": "Commercial Director (Europe)", "role": "Client acquisition, cultural bridge" },
-        { "name": "Legal team", "role": "Immigration files, company incorporation" },
-        { "name": "Accounting team", "role": "Tax management, compliance" }
+        {
+          "name": "Operations Director (Paraguay)",
+          "role": "Operational leadership, institutional relationships"
+        },
+        {
+          "name": "Commercial Director (Europe)",
+          "role": "Client acquisition, cultural bridge"
+        },
+        {
+          "name": "Legal team",
+          "role": "Immigration files, company incorporation"
+        },
+        {
+          "name": "Accounting team",
+          "role": "Tax management, compliance"
+        }
       ]
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
       "title": "An integrated system, not an administrative agency",
       "items": [
-        { "icon": "Package", "title": "One program", "description": "Residency, company and bank account integrated." },
-        { "icon": "Plane", "title": "One trip", "description": "In-person processing in a single coordinated day." },
-        { "icon": "Users", "title": "One team", "description": "Lawyers, accountants, notaries, financial advisors." },
-        { "icon": "Shield", "title": "Transparent pricing", "description": "All inclusive. No hidden fees." }
+        {
+          "icon": "Package",
+          "title": "One program",
+          "description": "Residency, company and bank account integrated."
+        },
+        {
+          "icon": "Plane",
+          "title": "One trip",
+          "description": "In-person processing in a single coordinated day."
+        },
+        {
+          "icon": "Users",
+          "title": "One team",
+          "description": "Lawyers, accountants, notaries, financial advisors."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparent pricing",
+          "description": "All inclusive. No hidden fees."
+        }
       ]
     },
-    "cta": { "title": "Take the first step", "subtitle": "Book a free 30-minute consultation.", "buttonText": "Book consultation", "buttonHref": "/s/en/nexa-paraguay/contacto" }
+    "cta": {
+      "title": "Take the first step",
+      "subtitle": "Book a free 30-minute consultation.",
+      "buttonText": "Book consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
   },
   "faqPage": {
-    "seo": { "title": "FAQ — Nexa Paraguay", "description": "Answers to our 15 most common questions about process, pricing and programs." },
-    "hero": { "headline": "Frequently asked questions", "subheadline": "The answers our clients ask about most often." },
+    "seo": {
+      "title": "FAQ — Nexa Paraguay",
+      "description": "Answers to our 15 most common questions about process, pricing and programs."
+    },
+    "hero": {
+      "headline": "Frequently asked questions",
+      "subheadline": "The answers our clients ask about most often."
+    },
     "full": {
       "title": "Frequently asked questions",
       "items": [
-        { "q": "How long does the whole process take?", "a": "In-person in one day. Issuance: 45–60 days. Company + bank: 2–4 weeks. Total: 8–12 weeks." },
-        { "q": "How many trips do I need?", "a": "One trip is sufficient." },
-        { "q": "What does the price include?", "a": "Professional fees, VAT, official taxes, bank coordination, real-estate tour and integrated advisory. No additional fees." },
-        { "q": "What is NOT included?", "a": "International flights, accommodation, personal expenses, sworn translations and apostilles in your country of origin." },
-        { "q": "Do I need to speak Spanish?", "a": "No. Our team accompanies you and communicates in Dutch, English and German." },
-        { "q": "Can a foreigner open a bank account?", "a": "Yes. It is the most complex step; we prepare your financial profile and coordinate directly with the bank." },
-        { "q": "What type of company is incorporated?", "a": "Our legal team recommends the most suitable structure (typically EAS or SA)." },
-        { "q": "Is the process 100% legal?", "a": "Absolutely. Strict adherence to Paraguayan and international regulations." },
-        { "q": "What if a document is missing?", "a": "We detect it before your trip. Our pre-validation ensures you arrive fully prepared." },
-        { "q": "Do you guarantee bank approval?", "a": "The decision is the bank's. We guarantee professional preparation and institutional coordination." },
-        { "q": "Can I bring my family?", "a": "Yes. Each family member requires their own residency process." },
-        { "q": "How is payment made?", "a": "Upfront by bank transfer. No additional fees." },
-        { "q": "Can I get only the residency?", "a": "Programs are integrated by design. Contact us for your specific case." },
-        { "q": "What happens after year one (Investor)?", "a": "We present a continuation proposal tailored to your needs." },
-        { "q": "What if laws change during my process?", "a": "We monitor the regulatory environment and inform you immediately of any relevant changes." }
+        {
+          "q": "How long does the whole process take?",
+          "a": "In-person in one day. Issuance: 45–60 days. Company + bank: 2–4 weeks. Total: 8–12 weeks."
+        },
+        {
+          "q": "How many trips do I need?",
+          "a": "One trip is sufficient."
+        },
+        {
+          "q": "What does the price include?",
+          "a": "Professional fees, VAT, official taxes, bank coordination, real-estate tour and integrated advisory. No additional fees."
+        },
+        {
+          "q": "What is NOT included?",
+          "a": "International flights, accommodation, personal expenses, sworn translations and apostilles in your country of origin."
+        },
+        {
+          "q": "Do I need to speak Spanish?",
+          "a": "No. Our team accompanies you and communicates in Dutch, English and German."
+        },
+        {
+          "q": "Can a foreigner open a bank account?",
+          "a": "Yes. It is the most complex step; we prepare your financial profile and coordinate directly with the bank."
+        },
+        {
+          "q": "What type of company is incorporated?",
+          "a": "Our legal team recommends the most suitable structure (typically EAS or SA)."
+        },
+        {
+          "q": "Is the process 100% legal?",
+          "a": "Absolutely. Strict adherence to Paraguayan and international regulations."
+        },
+        {
+          "q": "What if a document is missing?",
+          "a": "We detect it before your trip. Our pre-validation ensures you arrive fully prepared."
+        },
+        {
+          "q": "Do you guarantee bank approval?",
+          "a": "The decision is the bank's. We guarantee professional preparation and institutional coordination."
+        },
+        {
+          "q": "Can I bring my family?",
+          "a": "Yes. Each family member requires their own residency process."
+        },
+        {
+          "q": "How is payment made?",
+          "a": "Upfront by bank transfer. No additional fees."
+        },
+        {
+          "q": "Can I get only the residency?",
+          "a": "Programs are integrated by design. Contact us for your specific case."
+        },
+        {
+          "q": "What happens after year one (Investor)?",
+          "a": "We present a continuation proposal tailored to your needs."
+        },
+        {
+          "q": "What if laws change during my process?",
+          "a": "We monitor the regulatory environment and inform you immediately of any relevant changes."
+        }
       ]
     },
-    "cta": { "title": "Take the first step", "subtitle": "Book a free 30-minute consultation.", "buttonText": "Book consultation", "buttonHref": "/s/en/nexa-paraguay/contacto" }
+    "cta": {
+      "title": "Take the first step",
+      "subtitle": "Book a free 30-minute consultation.",
+      "buttonText": "Book consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
   },
   "contactPage": {
-    "seo": { "title": "Contact — Nexa Paraguay", "description": "Book a free 30-minute consultation." },
-    "hero": { "headline": "Take the first step", "subheadline": "Free 30-minute consultation. No commitment." },
+    "seo": {
+      "title": "Contact — Nexa Paraguay",
+      "description": "Book a free 30-minute consultation."
+    },
+    "hero": {
+      "headline": "Take the first step",
+      "subheadline": "Free 30-minute consultation. No commitment."
+    },
     "booking": {
       "title": "Book your consultation",
       "subtitle": "Pick a time that works for you.",
@@ -327,22 +743,46 @@
     }
   },
   "privacyPage": {
-    "seo": { "title": "Privacy policy — Nexa Paraguay", "description": "Privacy and cookie policy (GDPR-compliant)." },
-    "hero": { "headline": "Privacy policy", "subheadline": "How we collect and process your data. GDPR-compliant." },
+    "seo": {
+      "title": "Privacy policy — Nexa Paraguay",
+      "description": "Privacy and cookie policy (GDPR-compliant)."
+    },
+    "hero": {
+      "headline": "Privacy policy",
+      "subheadline": "How we collect and process your data. GDPR-compliant."
+    },
     "body": {
       "title": "Key points",
       "items": [
-        { "q": "What data do we collect?", "a": "Name, email, phone (optional), country, program interest and stated objective, when you submit a form." },
-        { "q": "What do we use it for?", "a": "Only to answer your inquiry and, if you explicitly opt in, to send relevant information by email." },
-        { "q": "With whom do we share it?", "a": "CRM (HubSpot) and email provider (Mailchimp) under data-processing agreements. We never sell or share data with third parties for marketing." },
-        { "q": "How long do we keep it?", "a": "24 months after last contact, unless required by law." },
-        { "q": "How do I exercise my rights?", "a": "Email hola@nexaparaguay.com and we respond within 30 days (access, rectification, deletion, portability)." }
+        {
+          "q": "What data do we collect?",
+          "a": "Name, email, phone (optional), country, program interest and stated objective, when you submit a form."
+        },
+        {
+          "q": "What do we use it for?",
+          "a": "Only to answer your inquiry and, if you explicitly opt in, to send relevant information by email."
+        },
+        {
+          "q": "With whom do we share it?",
+          "a": "CRM (HubSpot) and email provider (Mailchimp) under data-processing agreements. We never sell or share data with third parties for marketing."
+        },
+        {
+          "q": "How long do we keep it?",
+          "a": "24 months after last contact, unless required by law."
+        },
+        {
+          "q": "How do I exercise my rights?",
+          "a": "Email hola@nexaparaguay.com and we respond within 30 days (access, rectification, deletion, portability)."
+        }
       ]
     }
   },
   "blog": {
     "index": {
-      "seo": { "title": "Blog — Nexa Paraguay", "description": "Guides, analysis and resources on residency, company and life in Paraguay." },
+      "seo": {
+        "title": "Blog — Nexa Paraguay",
+        "description": "Guides, analysis and resources on residency, company and life in Paraguay."
+      },
       "title": "Blog",
       "subtitle": "Honest guides on residency, companies and investing in Paraguay."
     }
@@ -354,10 +794,22 @@
     "whatsapp": "595000000000",
     "instagram": "https://instagram.com/nexaparaguay",
     "navLinks": [
-      { "label": "Programs", "href": "/s/en/nexa-paraguay/programas" },
-      { "label": "Process", "href": "/s/en/nexa-paraguay/proceso" },
-      { "label": "About", "href": "/s/en/nexa-paraguay/sobre" },
-      { "label": "Privacy", "href": "/s/en/nexa-paraguay/privacidad" }
+      {
+        "label": "Programs",
+        "href": "/s/en/nexa-paraguay/programas"
+      },
+      {
+        "label": "Process",
+        "href": "/s/en/nexa-paraguay/proceso"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/nexa-paraguay/sobre"
+      },
+      {
+        "label": "Privacy",
+        "href": "/s/en/nexa-paraguay/privacidad"
+      }
     ]
   },
   "whatsapp": {

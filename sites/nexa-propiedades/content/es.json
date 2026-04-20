@@ -11,10 +11,22 @@
   "navigation": {
     "businessName": "Nexa Propiedades",
     "navItems": [
-      { "label": "Inicio", "href": "/s/es/nexa-propiedades" },
-      { "label": "Propiedades", "href": "/s/es/nexa-propiedades/propiedades" },
-      { "label": "Servicios", "href": "/s/es/nexa-propiedades/servicios" },
-      { "label": "Contacto", "href": "/s/es/nexa-propiedades/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/s/es/nexa-propiedades"
+      },
+      {
+        "label": "Propiedades",
+        "href": "/s/es/nexa-propiedades/propiedades"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/nexa-propiedades/servicios"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/nexa-propiedades/contacto"
+      }
     ],
     "ctaText": "Buscar Propiedad",
     "ctaHref": "/s/es/nexa-propiedades/contacto"
@@ -37,10 +49,26 @@
     "title": "Nuestros Servicios",
     "subtitle": "Todo lo que necesitas para tu inversión inmobiliaria",
     "services": [
-      { "name": "Compra de Propiedades", "description": "Te acompañamos desde la búsqueda hasta la escritura.", "price": "Consultar" },
-      { "name": "Venta de Propiedades", "description": "Valoración justa y marketing profesional.", "price": "2% comisión" },
-      { "name": "Alquileres", "description": "Gestión completa de propiedades en alquiler.", "price": "10% mensual" },
-      { "name": "Asesoría Legal", "description": "Verificación documental completa.", "price": "Desde $200" }
+      {
+        "name": "Compra de Propiedades",
+        "description": "Te acompañamos desde la búsqueda hasta la escritura.",
+        "price": "Consultar"
+      },
+      {
+        "name": "Venta de Propiedades",
+        "description": "Valoración justa y marketing profesional.",
+        "price": "2% comisión"
+      },
+      {
+        "name": "Alquileres",
+        "description": "Gestión completa de propiedades en alquiler.",
+        "price": "10% mensual"
+      },
+      {
+        "name": "Asesoría Legal",
+        "description": "Verificación documental completa.",
+        "price": "Desde $200"
+      }
     ]
   },
   "contact": {

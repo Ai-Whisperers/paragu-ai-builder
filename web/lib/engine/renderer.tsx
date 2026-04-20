@@ -42,6 +42,16 @@ import { SakeMenuSection } from '@/components/sections/sake-menu-section'
 import { ConveyorBeltSection } from '@/components/sections/conveyor-belt-section'
 import { MenuCategorizedPricedSection } from '@/components/sections/menu-categorized-priced-section'
 import { PropertyListingsSection } from '@/components/sections/property-listings-section'
+import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
+// Egg farm sections
+import { StockIndicator } from '@/components/sections/stock-indicator-section'
+import { DeliveryCalculator } from '@/components/sections/delivery-calculator-section'
+import { RecipeSection } from '@/components/sections/recipe-section'
+import { ReviewsSection } from '@/components/sections/reviews-section'
+import { SubscriptionSection } from '@/components/sections/subscription-section'
+import { ReferralSection } from '@/components/sections/referral-section'
+import { PriceListSection } from '@/components/sections/price-list-section'
+import { PreOrderSection } from '@/components/sections/preorder-calendar-section'
 
 /**
  * Section components keyed by kebab-case id — the canonical form used
@@ -91,6 +101,17 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'menu-categorized-priced': MenuCategorizedPricedSection,
   // Real estate
   'property-listings': PropertyListingsSection,
+  // Egg farm sections
+  'stock-indicator': StockIndicator,
+  'delivery-calculator': DeliveryCalculator,
+  'recipes': RecipeSection,
+  'reviews': ReviewsSection,
+  'subscription': SubscriptionSection,
+  'referral': ReferralSection,
+  'price-list': PriceListSection,
+  'preorder': PreOrderSection,
+  // Lead capture (service businesses, creators, relocation)
+  'intake-questionnaire': IntakeQuestionnaireSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {

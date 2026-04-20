@@ -11,10 +11,22 @@
   "navigation": {
     "businessName": "Nexa Propiedades",
     "navItems": [
-      { "label": "Início", "href": "/s/pt/nexa-propiedades" },
-      { "label": "Imóveis", "href": "/s/pt/nexa-propiedades/propiedades" },
-      { "label": "Serviços", "href": "/s/pt/nexa-propiedades/servicios" },
-      { "label": "Contato", "href": "/s/pt/nexa-propiedades/contacto" }
+      {
+        "label": "Início",
+        "href": "/s/pt/nexa-propiedades"
+      },
+      {
+        "label": "Imóveis",
+        "href": "/s/pt/nexa-propiedades/propiedades"
+      },
+      {
+        "label": "Serviços",
+        "href": "/s/pt/nexa-propiedades/servicios"
+      },
+      {
+        "label": "Contato",
+        "href": "/s/pt/nexa-propiedades/contacto"
+      }
     ],
     "ctaText": "Buscar Imóvel",
     "ctaHref": "/s/pt/nexa-propiedades/contacto"
@@ -37,10 +49,26 @@
     "title": "Nossos Serviços",
     "subtitle": "Tudo que você precisa para seu investimento imobiliário",
     "services": [
-      { "name": "Compra de Imóveis", "description": "Acompanharemos você desde a busca até a escritura.", "price": "Consultar" },
-      { "name": "Venda de Imóveis", "description": "Avaliação justa e marketing profissional.", "price": "2% comissão" },
-      { "name": "Aluguéis", "description": "Gestão completa de imóveis para aluguel.", "price": "10% mensal" },
-      { "name": "Assessoria Jurídica", "description": "Verificação documental completa.", "price": "Desde $200" }
+      {
+        "name": "Compra de Imóveis",
+        "description": "Acompanharemos você desde a busca até a escritura.",
+        "price": "Consultar"
+      },
+      {
+        "name": "Venda de Imóveis",
+        "description": "Avaliação justa e marketing profissional.",
+        "price": "2% comissão"
+      },
+      {
+        "name": "Aluguéis",
+        "description": "Gestão completa de imóveis para aluguel.",
+        "price": "10% mensal"
+      },
+      {
+        "name": "Assessoria Jurídica",
+        "description": "Verificação documental completa.",
+        "price": "Desde $200"
+      }
     ]
   },
   "contact": {
