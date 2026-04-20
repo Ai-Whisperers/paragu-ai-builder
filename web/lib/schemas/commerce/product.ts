@@ -33,7 +33,7 @@ export const ProductSchema = z.object({
   weightGrams: z.number().int().positive().nullable(),
   status: ProductStatusSchema,
   isSeed: z.boolean(),
-  metadata: z.record(z.unknown()),
+  metadata: z.record(z.string(), z.unknown()),
   createdAt: z.string(),
   updatedAt: z.string(),
 })
@@ -54,7 +54,7 @@ export const ProductCreateSchema = z.object({
   images: z.array(ProductImageSchema).max(8).default([]),
   weightGrams: z.number().int().positive().optional(),
   status: ProductStatusSchema.default('draft'),
-  metadata: z.record(z.unknown()).default({}),
+  metadata: z.record(z.string(), z.unknown()).default({}),
 })
 export type ProductCreate = z.infer<typeof ProductCreateSchema>
 

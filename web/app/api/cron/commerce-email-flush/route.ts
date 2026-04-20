@@ -43,6 +43,11 @@ export const POST = withRequestLog(async (request, { log }) => {
   let sent = 0
   let failed = 0
 
+  if (!resendAdapter.sendTransactional) {
+    log.warn('commerce.cron.email_flush.adapter_missing')
+    return NextResponse.json({ skipped: true, reason: 'adapter_missing' })
+  }
+
   for (const row of rows) {
     const result = await resendAdapter.sendTransactional(
       row.recipient_email,

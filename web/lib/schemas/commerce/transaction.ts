@@ -26,7 +26,7 @@ export const StorefrontTransactionSchema = z.object({
   status: TransactionStatusSchema,
   amountCents: z.number().int().nonnegative(),
   currency: z.string().length(3),
-  rawPayload: z.record(z.unknown()),
+  rawPayload: z.record(z.string(), z.unknown()),
   errorCode: z.string().nullable(),
   errorMessage: z.string().nullable(),
   createdAt: z.string(),
@@ -59,7 +59,7 @@ export const MpPaymentResourceSchema = z.object({
   payer: z
     .object({
       email: z.string().email().optional(),
-      identification: z.record(z.unknown()).optional(),
+      identification: z.record(z.string(), z.unknown()).optional(),
     })
     .optional(),
 })
