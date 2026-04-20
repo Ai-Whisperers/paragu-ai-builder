@@ -17,7 +17,10 @@
     "header", "hero", "about", "menu-categorized-priced", "services",
     "gallery", "testimonials", "reservations", "delivery-links",
     "business-hours", "google-maps", "contact", "cta-banner",
-    "footer", "whatsapp-float", "conveyor-belt", "omakase", "sake-menu"
+    "footer", "whatsapp-float", "conveyor-belt", "omakase", "sake-menu",
+    "team", "faq", "process", "savings-calculator", "features",
+    "newsletter-signup", "lead-form", "weekly-cadence-calendar",
+    "sample-week-preview", "delivery-slot-picker"
   ],
   "defaultStarterKit": "minimal",
   "locales": ["es", "en"]

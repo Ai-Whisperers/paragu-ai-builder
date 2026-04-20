@@ -18,7 +18,9 @@ export interface TrustSignalsSectionProps {
   eyebrow?: string
   title?: string
   subtitle?: string
-  items: TrustItem[]
+  items?: TrustItem[]
+  /** Legacy alias for `items` — some content files ship this key instead. */
+  credentials?: TrustItem[]
 }
 
 function IconByName({ name, size = 24 }: { name?: string; size?: number }) {
@@ -34,7 +36,10 @@ export function TrustSignalsSection({
   title,
   subtitle,
   items,
+  credentials,
 }: TrustSignalsSectionProps) {
+  const resolvedItems = items || credentials || []
+  if (resolvedItems.length === 0 && !title && !subtitle) return null
   return (
     <section className="bg-[var(--surface-light)] py-12 sm:py-16">
       <Container>
@@ -52,7 +57,7 @@ export function TrustSignalsSection({
           </AnimatedSectionHeader>
         )}
 
-        {variant === 'logos-row' ? <LogosRow items={items} /> : <Credentials items={items} />}
+        {variant === 'logos-row' ? <LogosRow items={resolvedItems} /> : <Credentials items={resolvedItems} />}
       </Container>
     </section>
   )
