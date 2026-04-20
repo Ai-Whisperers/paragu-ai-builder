@@ -846,6 +846,49 @@
       }
     ]
   },
+  "complianceDisclaimer": {
+    "paragraphs": [
+      "Nexa Paraguay bietet keine rechtliche, steuerliche oder investmentbezogene Beratung. Die beschriebenen Programme sind Begleitdienstleistungen für Aufenthalts- und Verwaltungsverfahren.",
+      "Nexa Paraguay ist als meldepflichtiges Unternehmen bei SEPRELAD (paraguayische Geldwäschebehörde) registriert und wendet KYC-Verfahren (Know Your Customer) gemäß geltenden Vorschriften an.",
+      "Die Ergebnisse hängen von der individuellen Erfüllung der Anforderungen ab und können variieren. Informationen unterliegen regulatorischen Änderungen."
+    ],
+    "licenseNumbers": [
+      { "label": "SEPRELAD", "number": "Registrierung ausstehend" }
+    ],
+    "linkText": "Vollständige AML-Erklärung",
+    "linkHref": "/s/de/nexa-paraguay/privacidad#aml"
+  },
+  "seprealadAttestation": {
+    "title": "SEPRELAD-Erklärungsformular",
+    "subtitle": "Vor Beginn der Dienstleistungen zur Gesellschaftsgründung, Kontoeröffnung oder Immobilienakquisition füllen Sie bitte diese eidesstattliche Erklärung aus.",
+    "submitLabel": "Erklärung absenden",
+    "successMessage": "Vielen Dank. Ein Compliance-Mitarbeiter wird Sie innerhalb von 72 Geschäftsstunden kontaktieren.",
+    "whatsappPhone": "595000000000",
+    "whatsappFallbackLabel": "Fragen? Kontaktieren Sie uns über WhatsApp",
+    "questions": [
+      { "id": "fullName", "kind": "text", "label": "Vollständiger Name (laut Ausweis)", "required": true },
+      { "id": "nationality", "kind": "text", "label": "Staatsangehörigkeit", "required": true },
+      { "id": "documentType", "kind": "radio", "label": "Ausweisart", "required": true, "options": [
+        { "value": "passport", "label": "Reisepass" },
+        { "value": "id", "label": "Personalausweis" },
+        { "value": "other", "label": "Andere" }
+      ]},
+      { "id": "economicActivity", "kind": "textarea", "label": "Hauptberufliche Tätigkeit", "helpText": "Beschreiben Sie Ihren Beruf oder Ihre Haupteinkommensquelle", "required": true },
+      { "id": "fundsOrigin", "kind": "radio", "label": "Mittelherkunft", "required": true, "options": [
+        { "value": "salary", "label": "Gehalt / Honorare" },
+        { "value": "business", "label": "Geschäftstätigkeit" },
+        { "value": "investment", "label": "Anlagen / passives Einkommen" },
+        { "value": "inheritance", "label": "Erbschaft oder Schenkung" },
+        { "value": "other", "label": "Sonstige (unten beschreiben)" }
+      ]},
+      { "id": "fundsOriginDetail", "kind": "textarea", "label": "Details zur Mittelherkunft", "helpText": "Ergänzen Sie die obige Auswahl. Nexa fordert Belege im formellen KYC-Prozess an." },
+      { "id": "pep", "kind": "radio", "label": "Sind Sie eine politisch exponierte Person (PEP) oder direktes Familienmitglied einer PEP?", "required": true, "options": [
+        { "value": "no", "label": "Nein" },
+        { "value": "yes", "label": "Ja" }
+      ]},
+      { "id": "truthfulDeclaration", "kind": "checkbox", "label": "Ich erkläre eidesstattlich, dass die Angaben wahrheitsgemäß sind, und autorisiere Nexa Paraguay, die erforderlichen Überprüfungen durchzuführen.", "required": true }
+    ]
+  },
   "whatsapp": {
     "phone": "595000000000",
     "message": "Hallo, ich möchte mehr über die Programme von Nexa Paraguay erfahren."

@@ -53,6 +53,7 @@ import { PropertyListingsSection } from '@/components/sections/property-listings
 import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
 import { TieredServiceLadderSection } from '@/components/sections/tiered-service-ladder-section'
 import { RegulatoryStatusBadgeSection } from '@/components/sections/regulatory-status-badge-section'
+import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
 // Egg farm sections
 import { StockIndicator } from '@/components/sections/stock-indicator-section'
 import { DeliveryCalculator } from '@/components/sections/delivery-calculator-section'
@@ -130,6 +131,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'tiered-service-ladder': TieredServiceLadderSection,
   // Compliance / licenses / certifications
   'regulatory-status-badge': RegulatoryStatusBadgeSection,
+  'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {

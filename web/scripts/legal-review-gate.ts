@@ -28,7 +28,18 @@ interface Tenant {
 }
 
 const catalog = JSON.parse(fs.readFileSync(CATALOG, 'utf-8')) as {
-  verticals: Record<string, { regulation?: string }>
+  verticals: Record<string, { regulation?: string; folderAlias?: string }>
+}
+
+// Build an alias→canonical map so tenants that store `folderAlias` in site.json
+// (e.g. "relocacion" instead of canonical "real-estate-relocation") still
+// resolve to their regulation tier.
+const ALIAS_MAP = new Map<string, string>()
+for (const [id, meta] of Object.entries(catalog.verticals)) {
+  if (meta.folderAlias) ALIAS_MAP.set(meta.folderAlias, id)
+}
+function resolveVerticalId(v: string): string {
+  return catalog.verticals[v] ? v : ALIAS_MAP.get(v) || v
 }
 
 const tenantDirs = fs
@@ -48,7 +59,8 @@ for (const slug of tenantDirs) {
   const sitePath = path.join(SITES, slug, 'site.json')
   if (!fs.existsSync(sitePath)) continue
   const site = JSON.parse(fs.readFileSync(sitePath, 'utf-8')) as Tenant
-  const verticalMeta = site.vertical ? catalog.verticals[site.vertical] : undefined
+  const canonical = site.vertical ? resolveVerticalId(site.vertical) : undefined
+  const verticalMeta = canonical ? catalog.verticals[canonical] : undefined
   if (!verticalMeta || !HIGH_REGULATION.has(verticalMeta.regulation || '')) continue
 
   const contentDir = path.join(SITES, slug, 'content')

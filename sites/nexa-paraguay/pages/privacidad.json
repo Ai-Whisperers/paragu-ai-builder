@@ -19,9 +19,19 @@
       "content": "privacyPage.body"
     },
     {
+      "id": "intake-questionnaire",
+      "variant": "standard",
+      "content": "seprealadAttestation"
+    },
+    {
       "id": "footer",
       "variant": "standard",
       "content": "footer"
+    },
+    {
+      "id": "compliance-disclaimer-footer",
+      "variant": "standard",
+      "content": "complianceDisclaimer"
     }
   ]
 }
