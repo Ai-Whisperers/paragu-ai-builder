@@ -221,6 +221,30 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'animated',
     variants: ['animated'],
   },
+  'intake-questionnaire': {
+    id: 'intake-questionnaire',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['title', 'questions'],
+  },
+  'tiered-service-ladder': {
+    id: 'tiered-service-ladder',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['tiers'],
+  },
+  'regulatory-status-badge': {
+    id: 'regulatory-status-badge',
+    defaultVariant: 'badge',
+    variants: ['badge', 'inline'],
+    requiredContentFields: ['items'],
+  },
+  'compliance-disclaimer-footer': {
+    id: 'compliance-disclaimer-footer',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['paragraphs'],
+  },
 }
 
 /**

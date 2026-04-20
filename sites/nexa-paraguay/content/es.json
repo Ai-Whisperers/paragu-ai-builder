@@ -877,6 +877,93 @@
       }
     ]
   },
+  "complianceDisclaimer": {
+    "paragraphs": [
+      "Nexa Paraguay no presta asesoría legal, fiscal ni de inversión. Los programas descritos son servicios de acompañamiento para trámites migratorios y administrativos.",
+      "Nexa Paraguay está registrada como sujeto obligado ante SEPRELAD (Secretaría de Prevención de Lavado de Dinero o Bienes) y aplica procesos KYC (Know Your Customer) conforme a las resoluciones vigentes.",
+      "Los resultados dependen del cumplimiento individual de requisitos y pueden variar. Información sujeta a cambios regulatorios."
+    ],
+    "licenseNumbers": [
+      { "label": "SEPRELAD", "number": "Pendiente de asignación" }
+    ],
+    "linkText": "Ver declaración AML completa",
+    "linkHref": "/s/es/nexa-paraguay/privacidad#aml"
+  },
+  "seprealadAttestation": {
+    "title": "Formulario de atestiguación SEPRELAD",
+    "subtitle": "Antes de iniciar servicios de constitución societaria, apertura bancaria o adquisición de inmuebles, completá esta declaración jurada.",
+    "submitLabel": "Enviar atestiguación",
+    "successMessage": "Gracias. Un oficial de cumplimiento te contactará en un plazo máximo de 72 horas hábiles.",
+    "whatsappPhone": "595000000000",
+    "whatsappFallbackLabel": "¿Dudas? Consultá por WhatsApp",
+    "questions": [
+      {
+        "id": "fullName",
+        "kind": "text",
+        "label": "Nombre completo (según documento)",
+        "required": true
+      },
+      {
+        "id": "nationality",
+        "kind": "text",
+        "label": "Nacionalidad",
+        "required": true
+      },
+      {
+        "id": "documentType",
+        "kind": "radio",
+        "label": "Tipo de documento",
+        "required": true,
+        "options": [
+          { "value": "passport", "label": "Pasaporte" },
+          { "value": "id", "label": "Documento nacional" },
+          { "value": "other", "label": "Otro" }
+        ]
+      },
+      {
+        "id": "economicActivity",
+        "kind": "textarea",
+        "label": "Actividad económica principal",
+        "helpText": "Describí tu actividad profesional o fuente principal de ingresos",
+        "required": true
+      },
+      {
+        "id": "fundsOrigin",
+        "kind": "radio",
+        "label": "Origen de los fondos",
+        "required": true,
+        "options": [
+          { "value": "salary", "label": "Salario / honorarios profesionales" },
+          { "value": "business", "label": "Actividad empresarial" },
+          { "value": "investment", "label": "Inversiones / rentas" },
+          { "value": "inheritance", "label": "Herencia o donación" },
+          { "value": "other", "label": "Otro (describir abajo)" }
+        ]
+      },
+      {
+        "id": "fundsOriginDetail",
+        "kind": "textarea",
+        "label": "Detalle del origen de fondos",
+        "helpText": "Ampliá la información marcada arriba. Nexa solicitará comprobantes en la fase KYC formal."
+      },
+      {
+        "id": "pep",
+        "kind": "radio",
+        "label": "¿Sos Persona Expuesta Políticamente (PEP) o familiar directo de una PEP?",
+        "required": true,
+        "options": [
+          { "value": "no", "label": "No" },
+          { "value": "yes", "label": "Sí" }
+        ]
+      },
+      {
+        "id": "truthfulDeclaration",
+        "kind": "checkbox",
+        "label": "Declaro bajo juramento que la información es verdadera y autorizo a Nexa Paraguay a realizar las verificaciones necesarias.",
+        "required": true
+      }
+    ]
+  },
   "whatsapp": {
     "phone": "595000000000",
     "message": "Hola, quiero saber más sobre los programas de Nexa Paraguay."
