@@ -1,0 +1,71 @@
+name: Deploy to Hostinger VPS
+
+on:
+  push:
+    branches:
+      - Main         # production
+      - staging      # staging environment
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - prod
+      ref:
+        description: 'Git ref to deploy'
+        required: false
+        default: ''
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      # One deploy per env at a time. Newer runs queue; no cancels so
+      # the current deploy finishes cleanly.
+      group: deploy-${{ github.event.inputs.environment || (github.ref == 'refs/heads/Main' && 'prod' || 'staging') }}
+      cancel-in-progress: false
+
+    steps:
+      - name: Resolve environment
+        id: env
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "env=${{ github.event.inputs.environment }}" >> $GITHUB_OUTPUT
+            echo "ref=${{ github.event.inputs.ref || github.ref_name }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.ref }}" = "refs/heads/Main" ]; then
+            echo "env=prod" >> $GITHUB_OUTPUT
+            echo "ref=Main" >> $GITHUB_OUTPUT
+          else
+            echo "env=staging" >> $GITHUB_OUTPUT
+            echo "ref=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H 72.61.44.159 >> ~/.ssh/known_hosts
+
+      - name: Deploy on VPS
+        run: |
+          ssh -o StrictHostKeyChecking=yes root@72.61.44.159 \
+            "/opt/stacks/paragu-ai-builder/deploy.sh ${{ steps.env.outputs.env }} ${{ steps.env.outputs.ref }}"
+
+      - name: Smoke test
+        run: |
+          URL="https://paragu-ai.com"
+          [ "${{ steps.env.outputs.env }}" = "staging" ] && URL="https://staging.paragu-ai.com"
+          # Allow ~30s for service update to roll
+          for i in 1 2 3 4 5 6; do
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$URL/api/health" || echo "000")
+            echo "attempt $i: $URL/api/health → $CODE"
+            [ "$CODE" = "200" ] && exit 0
+            sleep 10
+          done
+          echo "smoke test failed after 60s" >&2
+          exit 1

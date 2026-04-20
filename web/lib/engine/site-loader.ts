@@ -9,9 +9,12 @@ import { SITES, type SiteSlug } from './static-sites'
 declare const EdgeRuntime: string | undefined
 const isEdge = typeof EdgeRuntime !== 'undefined'
 
-// Static site paths - hardcoded for Edge Runtime compatibility
-const SITES_DIR = '/home/ai-whisperers/paragu-ai-builder/sites'
-const SRC_DIR = '/home/ai-whisperers/paragu-ai-builder/src'
+// Static site paths — env-var override with hardcoded dev default.
+// The hardcoded fallback is needed for Edge Runtime (can't read env at
+// module top-level). In Docker / Cloudflare / any non-local env, set
+// SITES_DIR and SRC_DIR to the correct paths (e.g. /app/sites, /app/src).
+const SITES_DIR = process.env.SITES_DIR || '/home/ai-whisperers/paragu-ai-builder/sites'
+const SRC_DIR = process.env.SRC_DIR || '/home/ai-whisperers/paragu-ai-builder/src'
 
 // Lazy load Node modules only when needed (not on Edge)
 let fs: typeof import('fs') | null = null

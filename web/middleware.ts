@@ -56,6 +56,45 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
     }
   }
 
+  // Flat-slug rewrite: /<tenant-slug>[/...] → /s/<defaultLocale>/<slug>[/...]
+  // Lets `paragu-ai.com/nexaparaguay` resolve to the canonical locale route
+  // without duplicating tenant render logic in the flat `[business]` handler.
+  // Only matches single-segment paths that correspond to a registered site.
+  // Legacy demo tenants (salon-maria, gymfit-py, etc.) are NOT in sites/ so
+  // they fall through to the existing [business] handler.
+  if (
+    !path.startsWith('/s/') &&
+    !path.startsWith('/api/') &&
+    !path.startsWith('/admin') &&
+    !path.startsWith('/_next') &&
+    !path.startsWith('/login') &&
+    path !== '/'
+  ) {
+    try {
+      const { lookupSiteByHostname: _lookup } = await import('@/lib/engine/hostname-mapping')
+      const { listSiteSlugs, loadSite } = await import('@/lib/engine/site-loader')
+      const firstSegment = path.split('/').filter(Boolean)[0] ?? ''
+      const siteSlugs = listSiteSlugs()
+      if (siteSlugs.includes(firstSegment)) {
+        const site = loadSite(firstSegment)
+        const locale = request.cookies.get('NEXT_LOCALE')?.value
+          || site.defaultLocale
+          || site.locales?.[0]
+          || 'es'
+        const remainder = path.slice(firstSegment.length + 1) // drop "/<slug>"
+        const url = request.nextUrl.clone()
+        url.pathname = `/s/${locale}/${firstSegment}${remainder ? remainder : ''}`
+        return NextResponse.rewrite(url)
+      }
+    } catch (error) {
+      logger.warn('Flat-slug rewrite skipped — falling back to original path', {
+        requestId,
+        path,
+        error: error instanceof Error ? error.message : String(error),
+      })
+    }
+  }
+
   // Skip root path and static files
   if (path === '/') {
     return NextResponse.next()

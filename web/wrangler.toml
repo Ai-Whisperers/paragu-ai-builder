@@ -8,11 +8,13 @@ enabled = true
 
 # Analytics Engine — custom time-series metrics (latency, counters).
 # See lib/obs/metrics.ts for the writer. Each write costs $0.25 / 1M.
-# Dataset can be queried via the Cloudflare GraphQL Analytics API:
-#   https://api.cloudflare.com/client/v4/accounts/<account>/analytics_engine/sql
-[[analytics_engine_datasets]]
-binding = "METRICS"
-dataset = "paragu_ai_metrics"
+# TEMPORARILY DISABLED 2026-04-20: Analytics Engine must be enabled on the
+# Cloudflare account before this binding can be published. Enable via
+# the dashboard (Workers → Analytics Engine). Until then, metrics emissions
+# are silent no-ops (lib/obs/metrics.ts falls back when binding is absent).
+# [[analytics_engine_datasets]]
+# binding = "METRICS"
+# dataset = "paragu_ai_metrics"
 
 [assets]
 directory = ".open-next/assets"

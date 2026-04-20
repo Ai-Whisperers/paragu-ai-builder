@@ -16,7 +16,9 @@ export interface Testimonial {
 export interface TestimonialsSectionProps {
   title: string
   subtitle?: string
-  testimonials: Testimonial[]
+  testimonials?: Testimonial[]
+  /** Legacy alias — some content files ship `items` instead of `testimonials`. */
+  items?: Testimonial[]
   /** Enable enhanced effects */
   enhanced?: boolean
 }
@@ -41,12 +43,15 @@ export interface TestimonialsSectionProps {
  *   enhanced
  * />
  */
-export function TestimonialsSection({ 
-  title, 
-  subtitle, 
+export function TestimonialsSection({
+  title,
+  subtitle,
   testimonials,
-  enhanced = false 
+  items,
+  enhanced = false,
 }: TestimonialsSectionProps) {
+  const resolved = testimonials || items || []
+  if (resolved.length === 0) return null
   return (
     <section className="relative overflow-hidden bg-[var(--background)] py-16 sm:py-20">
       {/* Decorative elements when enhanced */}
@@ -88,7 +93,7 @@ export function TestimonialsSection({
             animation="scale-in"
             className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
           >
-            {testimonials.map((testimonial, index) => (
+            {resolved.map((testimonial, index) => (
               <TiltCard key={index} maxTilt={5} scale={1.02} glare glareOpacity={0.15}>
                 <div className="h-full rounded-lg bg-[var(--surface)] p-6 shadow-card transition-shadow duration-300 hover:shadow-card-hover">
                   {/* Stars */}
@@ -125,7 +130,7 @@ export function TestimonialsSection({
         ) : (
           // Basic version (original behavior)
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {testimonials.map((testimonial, index) => (
+            {resolved.map((testimonial, index) => (
               <div key={index}>
                 <div className="h-full rounded-lg bg-[var(--surface)] p-6 shadow-card">
                   {/* Stars */}
