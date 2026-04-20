@@ -82,6 +82,58 @@ const COMMANDS: Record<string, { description: string; run: Runner }> = {
     description: 'Inspect registry: vertical counts, extends tree, orphans',
     run: (a) => runScript('type-graph.ts', a),
   },
+  'migrate-demo-to-site': {
+    description: 'Move a real-client entry from demo-data.ts to sites/<slug>/',
+    run: (a) => runScript('migrate-demo-to-site.ts', a),
+  },
+  'audit-duplicates': {
+    description: 'Find slugs in both demo-data.ts and sites/ (drift detection)',
+    run: (a) => runScript('audit-duplicates.ts', a),
+  },
+  doctor: {
+    description: 'Run every validator + typecheck and report pass/fail',
+    run: () => runScript('cli-ops.ts', ['doctor']),
+  },
+  'diff-tenant': {
+    description: 'diff-tenant <a> <b> — compare two tenants site.json',
+    run: (a) => runScript('cli-ops.ts', ['diff-tenant', ...a]),
+  },
+  'export-tenant': {
+    description: 'export-tenant <slug> — archive tenant folder as JSON',
+    run: (a) => runScript('cli-ops.ts', ['export-tenant', ...a]),
+  },
+  'pull-content': {
+    description: 'pull-content <slug> — sync live content back to repo (stub)',
+    run: (a) => runScript('cli-ops.ts', ['pull-content', ...a]),
+  },
+  'new-tenant': {
+    description: 'Interactive wizard for scaffolding a new tenant',
+    run: (a) => runScript('new-tenant.ts', a),
+  },
+  'lint-content': {
+    description: 'Detect TODO / placeholder / illustrative-testimonial text',
+    run: () => runScript('cli-ops.ts', ['lint-content']),
+  },
+  'perf-budget': {
+    description: 'perf-budget <slug> — content size budget check',
+    run: (a) => runScript('cli-ops.ts', ['perf-budget', ...a]),
+  },
+  screenshots: {
+    description: 'screenshots <slug> — visual-regression stub',
+    run: (a) => runScript('cli-ops.ts', ['screenshots', ...a]),
+  },
+  'check-links': {
+    description: 'check-links <slug> — list external URLs in tenant pages',
+    run: (a) => runScript('cli-ops.ts', ['check-links', ...a]),
+  },
+  'rotate-secrets': {
+    description: 'Report secrets due for rotation',
+    run: () => runScript('cli-ops.ts', ['rotate-secrets']),
+  },
+  health: {
+    description: 'health <slug> — readiness scorecard (capstone)',
+    run: (a) => runScript('tenant-health.ts', a),
+  },
   validate: {
     description: 'Run registry schema + tokens + content validators',
     run: () => {

@@ -14,6 +14,7 @@
 import { readFileSync, readdirSync, existsSync } from 'fs'
 import { resolve } from 'path'
 import { SECTION_CATALOG } from '../lib/engine/section-registry'
+import { verticalFolder } from '../lib/verticals-catalog'
 
 interface Problem {
   site: string
@@ -31,7 +32,11 @@ function readJson<T>(p: string): T { return JSON.parse(readFileSync(p, 'utf-8'))
 function listSites(): string[] {
   const dir = repoPath('sites')
   if (!existsSync(dir)) return []
-  return readdirSync(dir, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)
+  // shared-images/ isn't a tenant — it's the cross-tenant asset pool.
+  const NON_TENANT_DIRS = new Set(['shared-images', '.archive'])
+  return readdirSync(dir, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && !NON_TENANT_DIRS.has(d.name))
+    .map((d) => d.name)
 }
 
 function listPages(siteSlug: string): string[] {
@@ -95,9 +100,10 @@ function main() {
       continue
     }
 
-    const verticalPath = repoPath('src', 'verticals', site.vertical, 'vertical.json')
+    const verticalFolderName = verticalFolder(site.vertical)
+    const verticalPath = repoPath('src', 'verticals', verticalFolderName, 'vertical.json')
     if (!existsSync(verticalPath)) {
-      problems.push({ site: siteSlug, kind: 'vertical', detail: `unknown vertical "${site.vertical}"` })
+      problems.push({ site: siteSlug, kind: 'vertical', detail: `unknown vertical "${site.vertical}" (looked in src/verticals/${verticalFolderName}/)` })
       continue
     }
     const vertical = readJson<{ allowedSections?: string[] }>(verticalPath)
@@ -118,8 +124,32 @@ function main() {
         continue
       }
       const siteContent = readJson<Record<string, unknown>>(contentPath)
-      const verticalCopyPath = repoPath('src', 'verticals', site.vertical, 'copy', `${locale}.json`)
+      const verticalCopyPath = repoPath('src', 'verticals', verticalFolderName, 'copy', `${locale}.json`)
       const verticalCopy = existsSync(verticalCopyPath) ? readJson<Record<string, unknown>>(verticalCopyPath) : {}
+
+      // Translation-quality gate. `_meta.translationQuality` may be:
+      //   "human"    — default; fine to ship.
+      //   "reviewed" — explicitly reviewed (stricter than human).
+      //   "machine"  — raw MT output; allowed in staging but MUST NOT ship to
+      //                production tenants. Presence of a declared `domain` on
+      //                the site is the production signal.
+      //   "draft"    — authored but not yet reviewed; treated like machine for
+      //                strict sites.
+      const meta = (siteContent as { _meta?: { translationQuality?: string } })._meta
+      const quality = meta?.translationQuality
+      const isProduction = !!site.domain
+      if (quality === 'machine' || quality === 'draft') {
+        if (isProduction && !process.env.ALLOW_MACHINE_TRANSLATIONS) {
+          problems.push({
+            site: siteSlug,
+            locale,
+            kind: 'translation-quality',
+            detail: `locale flagged "${quality}" cannot ship to production (domain=${site.domain}). Set ALLOW_MACHINE_TRANSLATIONS=1 to override for staging.`,
+          })
+        } else {
+          console.warn(`  ⚠ [${siteSlug} locale=${locale}] translation quality = "${quality}"`)
+        }
+      }
 
       for (const pageSlug of pages) {
         const page = readJson<{ sections: Array<{ id: string; variant?: string; content?: string; enabledWhen?: string }> }>(repoPath('sites', siteSlug, 'pages', `${pageSlug}.json`))
