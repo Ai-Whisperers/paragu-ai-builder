@@ -71,10 +71,10 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     throw new Error('[ScopedQueries] business_id is required for scoped queries')
   }
 
-  // eslint-disable-next-line prefer-const -- queries references itself via
+   
   // selectCached / batchInsert, so we capture it as a named const before return.
   let queries: ReturnType<typeof buildScopedQueries>
-  // eslint-disable-next-line @typescript-eslint/no-use-before-define
+   
   queries = buildScopedQueries(supabase, businessId, () => queries)
   return queries
 }

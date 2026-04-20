@@ -166,7 +166,7 @@ describe('registry contract', () => {
     // component library but no type currently references them. That's fine
     // for library sections, just useful to see.
     if (unreachable.length) {
-      // eslint-disable-next-line no-console
+       
       console.log(`[contract] unreachable section components: ${unreachable.join(', ')}`)
     }
     expect(true).toBe(true)
