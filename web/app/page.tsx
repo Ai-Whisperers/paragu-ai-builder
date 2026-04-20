@@ -23,6 +23,7 @@ import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta'
 import { ActivityTicker } from '@/components/landing/activity-ticker'
 import { PressStrip } from '@/components/landing/press-strip'
 import { waLink } from '@/lib/landing/marketing-data'
+import { useHeroVariant } from '@/lib/experiments/hero-variant'
 import {
   FloatingShape,
   ScrollProgress,
@@ -386,6 +387,7 @@ function Navigation() {
 export default function HomePage() {
   const heroCount1 = useCountUp(7463, 2000, true)
   const heroCount2 = useCountUp(75, 2000, true)
+  const heroVariant = useHeroVariant() // null on first SSR pass; resolves to 'A' | 'B' on hydrate
 
   return (
     <>
@@ -420,19 +422,29 @@ export default function HomePage() {
               </FadeIn>
 
               <FadeIn delay={150}>
-                <h1 className="mb-8 text-5xl font-extrabold leading-[1.1] tracking-tight text-[var(--text)] sm:text-6xl md:text-7xl lg:text-8xl">
-                  Tu sitio web{' '}
-                  <span className="bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] bg-clip-text text-transparent">
-                    profesional
-                  </span>{' '}
-                  en 48 horas
-                </h1>
+                {heroVariant === 'B' ? (
+                  <h1 className="mb-8 text-5xl font-extrabold leading-[1.1] tracking-tight text-[var(--text)] sm:text-6xl md:text-7xl lg:text-8xl">
+                    Como las marcas de Paraguay y Uruguay que{' '}
+                    <span className="bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] bg-clip-text text-transparent">
+                      ya están con nosotros
+                    </span>
+                  </h1>
+                ) : (
+                  <h1 className="mb-8 text-5xl font-extrabold leading-[1.1] tracking-tight text-[var(--text)] sm:text-6xl md:text-7xl lg:text-8xl">
+                    Tu sitio web{' '}
+                    <span className="bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] bg-clip-text text-transparent">
+                      profesional
+                    </span>{' '}
+                    en 48 horas
+                  </h1>
+                )}
               </FadeIn>
 
               <FadeIn delay={300}>
                 <p className="mx-auto mb-10 max-w-2xl text-xl text-[var(--text-light)] md:text-2xl">
-                  Todo incluido: diseño, textos, dominio, hosting, SEO y WhatsApp.
-                  Vos nos pasás los datos por WhatsApp, nosotros entregamos el sitio listo.
+                  {heroVariant === 'B'
+                    ? 'Sitios profesionales para negocios paraguayos en 48 horas. Demo gratis antes de pagar — pagás solo si te convence.'
+                    : 'Todo incluido: diseño, textos, dominio, hosting, SEO y WhatsApp. Vos nos pasás los datos por WhatsApp, nosotros entregamos el sitio listo.'}
                 </p>
               </FadeIn>
 

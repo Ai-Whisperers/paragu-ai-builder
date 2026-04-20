@@ -1,11 +1,11 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Check, MessageCircle } from 'lucide-react'
 import { Heading } from '@/components/ui/heading'
 import { LIVE_TEMPLATES, TEMPLATES, waLink } from '@/lib/landing/marketing-data'
-import { trackButtonClick } from '@/lib/analytics/events'
+import { trackButtonClick, trackLeadCreated } from '@/lib/analytics/events'
 
 const SIZES = [
   { id: 'solo', label: 'Solo yo' },
@@ -35,6 +35,9 @@ export function DemoQualifier() {
     [liveSlugs],
   )
 
+  // Stable per-session lead id, only assigned when the qualifier completes.
+  const leadIdRef = useRef<string | null>(null)
+
   function next() {
     setStep((s) => {
       const target = Math.min(3, s + 1) as Step
@@ -47,6 +50,23 @@ export function DemoQualifier() {
         size: size || null,
         presence: presence || null,
       })
+
+      // When the user reaches step 3 (review screen), the qualifier is
+      // effectively complete — capture as a lead now so we have the data
+      // even if they never click "Enviar por WhatsApp".
+      if (target === 3 && leadIdRef.current === null) {
+        const id =
+          typeof crypto !== 'undefined' && 'randomUUID' in crypto
+            ? crypto.randomUUID()
+            : `lead_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`
+        leadIdRef.current = id
+        void trackLeadCreated(id, 'demo_qualifier', {
+          rubro,
+          size,
+          presence,
+          stage: 'qualifier_complete',
+        })
+      }
       return target
     })
   }
@@ -193,6 +213,7 @@ export function DemoQualifier() {
                   rubro,
                   size,
                   presence,
+                  leadId: leadIdRef.current,
                 })
               }}
               className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] px-8 py-4 font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1"
