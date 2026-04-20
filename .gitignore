@@ -53,3 +53,10 @@ web/next-env.d.ts
 # Misc
 *.log
 .vercel
+
+# Vercel / Cloudflare state (not deploy config — those are tracked)
+.vercel/
+web/.vercel/
+.wrangler/
+web/.wrangler/
+start-local.sh
