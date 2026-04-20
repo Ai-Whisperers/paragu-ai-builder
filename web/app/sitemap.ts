@@ -59,6 +59,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   )
 
+  // English vertical landings for international audiences (Nexa pattern).
+  const verticalRoutesEn: MetadataRoute.Sitemap = LIVE_TEMPLATES.map((t) => ({
+    url: `${BASE}/en/p/${t.seoSlug ?? t.id.replace(/_/g, '-')}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
   return [
     ...staticRoutes,
     ...verticalRoutes,
@@ -66,5 +74,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogRoutes,
     ...cityRoutes,
     ...cityVerticalRoutes,
+    ...verticalRoutesEn,
   ]
 }
