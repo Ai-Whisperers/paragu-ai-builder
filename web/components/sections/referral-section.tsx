@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
+import { Heading } from '@/components/ui/heading'
 import { cn } from '@/lib/utils'
 
 export interface ReferralProgramProps {
@@ -149,9 +150,9 @@ export function ReferralSection({ phone, businessName, className }: ReferralSect
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-[var(--primary)]">Gana Huevos Gratis</Badge>
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             Recomienda y Gana
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
             Comparte {businessName} con tus amigos y familia. 
             Ambos ganan: ellos 10% de descuento y vos un maple de huevos.

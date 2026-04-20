@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
+import { Heading } from '@/components/ui/heading'
 
 export interface PriceListProduct {
   name: string
@@ -257,9 +258,9 @@ export function PriceListSection({ data, className }: PriceListSectionProps) {
     <section className={cn('py-16 bg-[var(--surface)]', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             Precios Mayoristas
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)]">
             Descarga nuestra lista de precios actualizada para negocios
           </p>

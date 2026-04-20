@@ -5,6 +5,7 @@ import { Camera, MapPin, Users, Heart, Award } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
+import { Heading } from '@/components/ui/heading'
 
 export interface PhotoGalleryProps {
   className?: string
@@ -94,9 +95,9 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
             <Camera className="w-4 h-4 mr-1" />
             Galería
           </Badge>
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             Conocé nuestra granja
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
             Transparencia total: te mostramos dónde y cómo producimos tus huevos
           </p>
@@ -144,9 +145,9 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
                 <span className="text-5xl mb-3 group-hover:scale-110 transition-transform">
                   {item.emoji}
                 </span>
-                <h3 className="font-semibold text-[var(--text)] text-sm mb-1">
+                <Heading level={3} className="font-semibold text-[var(--text)] text-sm mb-1">
                   {item.title}
-                </h3>
+                </Heading>
               </div>
               
               {/* Hover Overlay */}
