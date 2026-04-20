@@ -6,7 +6,7 @@ import { Card, CardContent, CardImage } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 export interface PropertyListing {
   id: string
@@ -30,9 +30,64 @@ export interface PropertyListing {
 export interface PropertyListingsSectionProps {
   title: string
   subtitle?: string
-  properties: PropertyListing[]
+  /** Static listings. Ignored when `fetchFromApi` is set. */
+  properties?: PropertyListing[]
   whatsappPhone?: string
   showFilters?: boolean
+  /**
+   * When present, the section fetches /api/properties?siteSlug=... on mount
+   * and renders the returned rows instead of static `properties`. Use for
+   * tenants backed by the Supabase `properties` table (Nexa Propiedades).
+   */
+  fetchFromApi?: {
+    siteSlug: string
+    apiBase?: string
+  }
+}
+
+interface ApiPropertyRow {
+  id: string
+  title: string
+  transaction: 'venta' | 'alquiler' | 'temporal'
+  property_type: string
+  price: number
+  price_currency: string
+  neighborhood?: string | null
+  city?: string | null
+  bedrooms?: number | null
+  bathrooms?: number | null
+  area_m2?: number | null
+  description?: string | null
+  features?: unknown
+  images?: unknown
+  featured?: boolean
+  whatsapp_message?: string | null
+}
+
+function apiRowToListing(row: ApiPropertyRow): PropertyListing {
+  const images = Array.isArray(row.images) ? (row.images as string[]) : []
+  return {
+    id: row.id,
+    title: row.title,
+    type: row.transaction,
+    propertyType: row.property_type,
+    price: new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: row.price_currency || 'USD',
+      maximumFractionDigits: 0,
+    }).format(Number(row.price)),
+    priceCurrency: row.price_currency,
+    neighborhood: row.neighborhood ?? undefined,
+    city: row.city ?? undefined,
+    bedrooms: row.bedrooms ?? undefined,
+    bathrooms: row.bathrooms ?? undefined,
+    area: row.area_m2 ? `${row.area_m2} m²` : undefined,
+    imageUrl: images[0],
+    description: row.description ?? undefined,
+    features: Array.isArray(row.features) ? (row.features as string[]) : undefined,
+    featured: row.featured ?? false,
+    whatsappMessage: row.whatsapp_message ?? undefined,
+  }
 }
 
 const TRANSACTION_LABELS: Record<PropertyListing['type'], string> = {
@@ -52,12 +107,44 @@ function buildWhatsAppUrl(phone: string, property: PropertyListing): string {
 export function PropertyListingsSection({
   title,
   subtitle,
-  properties,
+  properties: staticProperties,
   whatsappPhone,
   showFilters = true,
+  fetchFromApi,
 }: PropertyListingsSectionProps) {
   const [transactionFilter, setTransactionFilter] = useState<string>('all')
   const [propertyTypeFilter, setPropertyTypeFilter] = useState<string>('all')
+  const [apiProperties, setApiProperties] = useState<PropertyListing[] | null>(
+    fetchFromApi ? null : null,
+  )
+  const [apiError, setApiError] = useState<string | null>(null)
+
+  useEffect(() => {
+    if (!fetchFromApi) return
+    const base = fetchFromApi.apiBase || ''
+    const url = `${base}/api/properties?siteSlug=${encodeURIComponent(fetchFromApi.siteSlug)}&pageSize=50`
+    let cancelled = false
+    fetch(url)
+      .then((r) => r.json())
+      .then((json: { data?: ApiPropertyRow[]; note?: string }) => {
+        if (cancelled) return
+        setApiProperties((json.data || []).map(apiRowToListing))
+        if (json.note) setApiError(json.note)
+      })
+      .catch((e: Error) => {
+        if (cancelled) return
+        setApiError(e.message)
+        setApiProperties([])
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [fetchFromApi])
+
+  const properties: PropertyListing[] = fetchFromApi
+    ? apiProperties ?? []
+    : staticProperties ?? []
+  const isLoading = fetchFromApi && apiProperties === null
 
   const propertyTypes = useMemo(() => {
     const seen = new Set<string>()
@@ -162,9 +249,14 @@ export function PropertyListingsSection({
           ))}
         </div>
 
-        {visible.length === 0 && (
+        {isLoading && (
+          <p className="text-center text-[var(--text-muted)] py-8">Cargando propiedades…</p>
+        )}
+        {!isLoading && visible.length === 0 && (
           <p className="text-center text-[var(--text-muted)] py-8">
-            No hay propiedades que coincidan con los filtros seleccionados.
+            {apiError
+              ? 'No hay propiedades publicadas todavía.'
+              : 'No hay propiedades que coincidan con los filtros seleccionados.'}
           </p>
         )}
       </Container>

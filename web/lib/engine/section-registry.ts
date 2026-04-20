@@ -183,8 +183,7 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   'property-listings': {
     id: 'property-listings',
     defaultVariant: 'cards',
-    variants: ['cards'],
-    requiredContentFields: ['properties'],
+    variants: ['cards', 'listings-from-api'],
   },
   features: {
     id: 'features',
@@ -244,6 +243,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'standard',
     variants: ['standard'],
     requiredContentFields: ['paragraphs'],
+  },
+  'mortgage-calculator': {
+    id: 'mortgage-calculator',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['defaultPrincipal', 'currency', 'termYearsOptions', 'ratePresets'],
   },
 }
 
