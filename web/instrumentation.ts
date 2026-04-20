@@ -5,7 +5,7 @@
  *   - Boot Sentry with the right runtime (nodejs / edge)
  *   - Set service-level tags (env, version)
  *
- * See docs/DEBUGGING.md for the observability architecture.
+ * See docs/observability/ for the architecture and docs/how-to/debug.md for runbooks.
  */
 import * as Sentry from '@sentry/nextjs'
 

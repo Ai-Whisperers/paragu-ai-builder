@@ -46,7 +46,7 @@ export async function createClient(keyType: 'anon' | 'service_role' = 'anon') {
     // NOTE: `db.pool` is not part of SupabaseClientOptions. Connection
     // pooling is configured at the PgBouncer / Supavisor layer, not from
     // the client. `POOL_CONFIG` is informational for local documentation
-    // only — see docs/DEBUGGING.md §8 for the real pool knobs.
+    // only — see docs/how-to/debug.md §8 for the real pool knobs.
     //
     // Global configuration
     global: {

@@ -254,41 +254,52 @@ Infrastructure; not user-facing docs.
 
 ## Migration sequencing
 
-Don't try to do this all at once. Proposed phases:
+**Phase A — Canonical foundation.** ✅ Shipped in PR #41 (`bc75807`).
+- Root `README`, `ARCHITECTURE`, `CONTRIBUTING`
+- `docs/README.md` (hub)
+- `docs/reference/SECTIONS.md`, `BUSINESS_TYPES.md`, `API.md`
+- `docs/DOCS_CONSOLIDATION_PLAN.md` (this file)
 
-**Phase A (this PR)** — Canonical foundation:
-- ✓ Root `README`, `ARCHITECTURE`, `CONTRIBUTING`
-- ✓ `docs/README.md` (hub)
-- ✓ `docs/reference/SECTIONS.md`, `BUSINESS_TYPES.md`, `API.md`
-- ✓ `docs/DOCS_CONSOLIDATION_PLAN.md` (this file)
+**Phase B — High-value consolidations.** ✅ Shipped in PRs #42, #43, #44.
+- PR #42 (`9ac6a87`): 15 status/completion reports → `docs/archive/2026-04/`
+- PR #43 (`df0f1f5`): `docs/how-to/deploy.md` merging 4 deploy docs
+- PR #44 (`3b26c1d`): observability monolith split into `docs/observability/{README,logging,tracing,metrics}.md`
 
-**Phase B** — High-value consolidations:
-- Create `docs/how-to/deploy.md` merging the 4 deploy docs
-- Create `docs/archive/2026-04/` and move the 10 status/completion docs
-- Split `03_ARCHITECTURE/OBSERVABILITY.md` into `docs/observability/{logging,tracing,metrics}.md`
+**Phase C — Reference completion.** ✅ Shipped in PR #45 (`2ee83c6`).
+- `docs/reference/TENANTS.md` (moved from `docs/03_ARCHITECTURE/`)
+- `docs/reference/TOKENS.md` (moved from `web/docs/TOKEN_SYSTEM.md`)
+- `docs/reference/ENV_VARS.md` (generated from `web/lib/env.ts`)
 
-**Phase C** — Reference completion:
-- Move `03_ARCHITECTURE/TENANTS.md` → `docs/reference/TENANTS.md` + expand `docs/explanation/multi-tenancy.md`
-- Move `web/docs/TOKEN_SYSTEM.md` → `docs/reference/TOKENS.md`
-- Generate `docs/reference/ENV_VARS.md` from `web/lib/env.ts`
+**Phase D — How-to harvest.** ✅ Shipped in PR #46 (`809334f`).
+- `docs/how-to/generate-images.md` merging 3 GEMINI docs + `IMAGES_START_HERE.md`
+- `docs/how-to/set-up-github-projects.md`, `docs/how-to/generate-apis.md`
+- `docs/reference/image-prompts.md`
 
-**Phase D** — How-to harvest:
-- Consolidate 4 GEMINI docs → `docs/how-to/generate-images.md`
-- Move `04_IMPLEMENTATION/*` to `docs/how-to/`
+**Phase E — Cleanup.** ✅ Shipped in PR #47 (`179c5b5`).
+- Questionnaire duplicates archived (`BUSINESS_MODEL_QUESTIONNAIRE.md`, `BUSINESS_MODEL_SIMPLE.md`)
+- Laura client docs → `docs/archive/2026-04/clients/laura/`
+- `.firecrawl/` scrapes → `docs/archive/2026-04/firecrawl-scrapes/`
 
-**Phase E** — Cleanup:
-- Archive questionnaire duplicates
-- Move Laura client docs to tenant dir
-- Move `.firecrawl/` out of root
-- Delete the `docs/legacy/` pointer when the legacy folder is empty
-
-**Phase F** — Add what's missing:
-- `CHANGELOG.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, `LICENSE`
+**Phase F — Canonical additions.** ✅ Shipped in PR #48 (`599963d`).
+- `CHANGELOG.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md` at repo root
 - `docs/tutorials/first-tenant-site.md`
-- First `docs/runbooks/<alert>.md` as alerts are defined
-- Adopt `next-openapi-gen` and auto-generate `docs/reference/api-spec.json`
+- **Deferred:** `LICENSE` (needs license choice), `next-openapi-gen` adoption
 
-Each phase is a standalone PR. None should be bundled.
+**Phase G — Finalization.** ✅ Shipped in this PR.
+- `docs/explanation/` created with `README.md` + 3 topic stubs (multi-tenancy, composition-pipeline, theming)
+- `docs/runbooks/README.md` placeholder + convention doc
+- `docs/DEBUGGING.md` → `docs/how-to/debug.md`; cross-references updated in `web/lib/logger.ts`, `web/instrumentation.ts`, `web/lib/supabase/server.ts`, `sites/nexa-paraguay/docs/STAKEHOLDER-QA.md`
+- `docs/QUICK_REFERENCE.md` → `docs/reference/animations.md`
+- Archived per plan: `HOMEPAGE_IMPROVEMENT_PLAN.md`, `UX_UI_REDESIGN_PLAN.md`, `COMPLETE_REMEDIATION_PLAN.md`, `COMPREHENSIVE_AUDIT_REPORT.md`, `FEATURE_GAP_ANALYSIS.md`, `BUSINESS_ANALYSIS_COMPLETE.md`, `CRITICAL_FIXES_QUICK_REFERENCE.md`, `UNIVERSAL_COMPONENTS_SUMMARY.md`, `20_DOLLAR_BEST_VALUE.md`, `100_WINS_COMPLETE.md`, `EPIC_PLANNING_SUMMARY.md`, `TENANTS_ANALYSIS_AND_IMAGES.md`, `TENANTS_STATUS_AND_IMAGE_REQUIREMENTS.md`
+
+**Still deferred** (need thoughtful prose merges, not mechanical moves):
+- `COMMIT_STRATEGY.md` + `PREMIUM_QUALITY_GUIDE.md` → merge into `CONTRIBUTING.md`
+- `UXUI_BEAUTIFICATION.md` + `UNIVERSAL_COMPONENTS.md` → `docs/explanation/design-system.md`
+- `SUPABASE_OPTIMIZATION_REPORT.md` → `docs/explanation/supabase-connection-pool.md`
+- `github-import-*.csv` (5 files) → decide: archive as historical backlog imports, or delete
+- `LICENSE` — pick a license and commit
+
+Each phase shipped as a standalone PR per the original rule — none were bundled.
 
 ---
 
@@ -301,4 +312,4 @@ Each phase is a standalone PR. None should be bundled.
 
 ---
 
-_Consolidation plan last reviewed: April 2026. Updates: open a PR against this file whenever a phase is executed, so we can tick off what's done._
+_Consolidation plan last reviewed: April 2026 (after Phase G). Phases A–G complete. Remaining work is flagged under "Still deferred" above._
