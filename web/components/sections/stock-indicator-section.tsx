@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
+import { Heading } from '@/components/ui/heading'
 
 export type StockStatus = 'in_stock' | 'low_stock' | 'out_of_stock' | 'preorder'
 
@@ -229,7 +230,7 @@ export interface StockManagerProps {
 export function StockManager({ products, onUpdateStock }: StockManagerProps) {
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-semibold">Gestion de Stock</h3>
+      <Heading level={3} className="text-lg font-semibold">Gestion de Stock</Heading>
       <div className="grid gap-3">
         {products.map((product) => (
           <div 

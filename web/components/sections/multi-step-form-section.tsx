@@ -110,7 +110,7 @@ export function MultiStepFormSection({
             />
           </div>
 
-          <h3 className="font-semibold text-[var(--text)] mb-4">{step.title}</h3>
+          <Heading level={3} className="font-semibold text-[var(--text)] mb-4">{step.title}</Heading>
 
           <div className="space-y-4">
             {step.fields.map((f) => (

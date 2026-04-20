@@ -10,6 +10,7 @@ import { Label } from '@/components/ui/label'
 import { Badge } from '@/components/ui/badge'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { cn } from '@/lib/utils'
+import { Heading } from '@/components/ui/heading'
 
 export type ReviewType = 'cliente' | 'negocio' | 'restaurante'
 
@@ -360,9 +361,9 @@ export function ReviewsSection({
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             Lo que dicen nuestros clientes
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
             Calidad comprobada por familias, panaderias y restaurantes de la zona
           </p>

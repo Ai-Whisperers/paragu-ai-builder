@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import { SmartWhatsAppButton } from './smart-whatsapp-section'
+import { Heading } from '@/components/ui/heading'
 
 export type AvailabilityStatus = 'available' | 'limited' | 'booked' | 'closed'
 
@@ -99,9 +100,9 @@ export function PreOrderCalendar({ availability, phone, productName, className }
           >
             <ChevronLeft className="w-5 h-5" />
           </Button>
-          <h3 className="font-semibold text-lg">
+          <Heading level={3} className="font-semibold text-lg">
             {monthNames[currentMonth.getMonth()]} {currentMonth.getFullYear()}
-          </h3>
+          </Heading>
           <Button
             variant="ghost"
             size="sm"
@@ -293,9 +294,9 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
     <section className={cn('py-16', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
             Reserva tu Pollo
-          </h2>
+          </Heading>
           <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
             Selecciona la fecha de retiro. Los pollos se preparan frescos 
             con 24 horas de anticipacion.

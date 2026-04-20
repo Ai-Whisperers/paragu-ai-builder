@@ -9,7 +9,7 @@ export const HOME_FAQS = [
   },
   {
     q: '¿Puedo probar antes de pagar?',
-    a: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 6 meses de prueba gratis en subdominio para validar que funciona.',
+    a: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 3 meses de prueba gratis en subdominio para validar que funciona.',
   },
   {
     q: '¿Cómo funciona el pago?',
