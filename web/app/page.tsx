@@ -22,6 +22,7 @@ import { VideoBlock } from '@/components/landing/video-block'
 import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta'
 import { ActivityTicker } from '@/components/landing/activity-ticker'
 import { PressStrip } from '@/components/landing/press-strip'
+import { HeroVariantChip } from '@/components/landing/hero-variant-chip'
 import { waLink } from '@/lib/landing/marketing-data'
 import { useHeroVariant } from '@/lib/experiments/hero-variant'
 import {
@@ -1003,6 +1004,7 @@ export default function HomePage() {
       <FloatingWhatsApp />
       <BackToTop />
       <StickyMobileCTA />
+      <HeroVariantChip />
     </>
   )
 }

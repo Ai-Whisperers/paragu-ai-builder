@@ -50,8 +50,41 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
 
   const sister = LIVE_TEMPLATES.filter((x) => x.id !== t.id).slice(0, 4)
 
+  // Service schema for richer Google snippets. Per-vertical so each landing
+  // emits its own structured data (e.g. "Sitio web para peluquerías" as a
+  // distinct service from "Sitio web para gimnasios").
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Sitio web para ${t.name.toLowerCase()}`,
+    serviceType: 'Website Builder',
+    description: lead,
+    provider: {
+      '@type': 'Organization',
+      name: 'ParaguAI Builder',
+      url: 'https://paragu-ai.com',
+    },
+    areaServed: { '@type': 'Country', name: 'Paraguay' },
+    audience: {
+      '@type': 'BusinessAudience',
+      audienceType: t.name,
+    },
+    offers: {
+      '@type': 'Offer',
+      price: '650000',
+      priceCurrency: 'PYG',
+      url: 'https://paragu-ai.com/precios',
+      availability: 'https://schema.org/InStock',
+      description: 'Plan Presencia: setup único Gs 650.000 + Gs 100.000/mes. Sin permanencia.',
+    },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <SiteNav />
 
       <main>
