@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Calculator, TrendingUp } from 'lucide-react'
+import { Heading } from '@/components/ui/heading'
 import { PLANS } from '@/lib/landing/marketing-data'
 
 const PRESENCIA = PLANS.find((p) => p.id === 'presencia')!
@@ -45,7 +46,7 @@ export function ROICalculator() {
           <Calculator size={22} />
         </div>
         <div>
-          <h3 className="text-xl font-bold text-[var(--text)]">¿Cuándo se paga sola?</h3>
+          <Heading level={3} className="text-xl">¿Cuándo se paga sola?</Heading>
           <p className="text-sm text-[var(--text-muted)]">
             Estimá tu retorno con tus números reales.
           </p>
