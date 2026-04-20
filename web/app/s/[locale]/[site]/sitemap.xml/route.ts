@@ -16,7 +16,7 @@ export async function GET(
   let site
   try { site = loadSite(slug) } catch { return new NextResponse('Not found', { status: 404 }) }
 
-  const base = process.env.NEXT_PUBLIC_APP_URL || `https://${site.domain}`
+  const base = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
 
   const pages = listPageSlugs(slug)
   const blogs = listBlogSlugs(slug, locale as Locale)

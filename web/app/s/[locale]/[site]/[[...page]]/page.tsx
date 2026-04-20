@@ -97,7 +97,7 @@ export default async function TenantPage({ params }: Props) {
     notFound()
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://nexaparaguay.com'
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
   const jsonLd = jsonLdForPage(composed, baseUrl)
 
   const verticalCopy = loadVerticalCopy(composed.site.vertical, composed.locale)
