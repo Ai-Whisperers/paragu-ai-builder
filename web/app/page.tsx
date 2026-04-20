@@ -7,7 +7,7 @@ import {
   ArrowRight, BarChart3, Layers, Wand2,
   MapPin, Users, TrendingUp, ShoppingCart, Check, X,
   Menu, X as XIcon, ChevronDown, PlayCircle,
-  UtensilsCrossed, Fish, CircleDot, Mail,
+  UtensilsCrossed, Fish, CircleDot,
   RotateCcw, Activity, Unlock, ExternalLink,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -16,6 +16,7 @@ import { useActiveSection, useCountUp } from '@/lib/hooks'
 import { FadeIn } from '@/components/landing/fade-in'
 import { FAQItem } from '@/components/landing/faq-item'
 import { TestimonialCarousel } from '@/components/landing/testimonial-carousel'
+import { NewsletterForm } from '@/components/landing/newsletter-form'
 import {
   FloatingShape,
   ScrollProgress,
@@ -26,18 +27,18 @@ import {
 /* ── Data Constants ─────────────────────────────────────────────── */
 
 const TEMPLATES = [
-  { id: 'peluqueria', name: 'Peluqueria', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: 'salon-maria' },
-  { id: 'salon_belleza', name: 'Salon de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'studio-belleza' },
+  { id: 'peluqueria', name: 'Peluquería', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: 'salon-maria' },
+  { id: 'salon_belleza', name: 'Salón de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'studio-belleza' },
   { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoSlug: 'gymfit-py' },
   { id: 'spa', name: 'Spa & Wellness', icon: Flower2, leads: 927, pct: 76, color: '#7c9885', demoSlug: 'spa-serenidad' },
-  { id: 'barberia', name: 'Barberia', icon: User, leads: 778, pct: 77, color: '#8b6914', demoSlug: 'barberia-clasica' },
-  { id: 'unas', name: 'Unas', icon: Hand, leads: 488, pct: 75, color: '#c77dba', demoSlug: 'unas-y-mas' },
+  { id: 'barberia', name: 'Barbería', icon: User, leads: 778, pct: 77, color: '#8b6914', demoSlug: 'barberia-clasica' },
+  { id: 'unas', name: 'Uñas', icon: Hand, leads: 488, pct: 75, color: '#c77dba', demoSlug: 'unas-y-mas' },
   { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e', demoSlug: 'tinta-viva' },
-  { id: 'estetica', name: 'Estetica / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8', demoSlug: 'belleza-integral' },
+  { id: 'estetica', name: 'Estética / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8', demoSlug: 'belleza-integral' },
   { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: Palette, leads: 100, pct: 80, color: '#c44569', demoSlug: 'dayah-litworks' },
-  { id: 'pestanas', name: 'Pestanas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
-  { id: 'depilacion', name: 'Depilacion', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
-  { id: 'relocation', name: 'Reubicacion', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
+  { id: 'pestanas', name: 'Pestañas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
+  { id: 'depilacion', name: 'Depilación', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
+  { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
@@ -45,19 +46,19 @@ const TEMPLATES = [
   { id: 'maquillaje', name: 'Maquillaje', icon: Palette, leads: 130, pct: 72, color: '#e84393', demoSlug: null },
   { id: 'inmobiliaria', name: 'Inmobiliaria', icon: MapPin, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
   { id: 'legal', name: 'Servicios Legales', icon: Layers, leads: 0, pct: 0, color: '#1a1a1a', demoSlug: null },
-  { id: 'consultoria', name: 'Consultoria', icon: BarChart3, leads: 0, pct: 0, color: '#4a90a4', demoSlug: null },
-  { id: 'educacion', name: 'Educacion', icon: Users, leads: 0, pct: 0, color: '#7c3aed', demoSlug: null },
+  { id: 'consultoria', name: 'Consultoría', icon: BarChart3, leads: 0, pct: 0, color: '#4a90a4', demoSlug: null },
+  { id: 'educacion', name: 'Educación', icon: Users, leads: 0, pct: 0, color: '#7c3aed', demoSlug: null },
   { id: 'salud', name: 'Salud', icon: TrendingUp, leads: 0, pct: 0, color: '#059669', demoSlug: null },
   { id: 'inversiones', name: 'Inversiones', icon: TrendingUp, leads: 0, pct: 0, color: '#d97706', demoSlug: null },
 ] as const
 
 const FEATURES = [
-  { icon: Wand2, title: 'Generación con IA', desc: 'Contenido, diseño y SEO generados automáticamente para cada tipo de negocio.' },
-  { icon: Smartphone, title: '100% Responsive', desc: 'Sitios optimizados para móvil, tablet y desktop desde el primer momento.' },
-  { icon: Search, title: 'SEO Integrado', desc: 'Meta tags, Schema.org y contenido optimizado para posicionar en Google.' },
-  { icon: MessageCircle, title: 'WhatsApp Directo', desc: 'Botón flotante de WhatsApp para que tus clientes te contacten al instante.' },
-  { icon: Globe, title: 'Dominio Propio', desc: 'Cada negocio con su propia URL profesional y certificado SSL.' },
-  { icon: Layers, title: '23 Plantillas', desc: 'Diseños especializados para múltiples tipos de negocio con más en camino.' },
+  { icon: Check, title: 'Todo incluido', desc: 'Diseño, textos, fotos, dominio, hosting, SEO y soporte. Vos no tocás nada, nosotros publicamos.' },
+  { icon: MessageCircle, title: 'WhatsApp directo', desc: 'Botón flotante que lleva a tu WhatsApp Business. Tus clientes te escriben con un clic.' },
+  { icon: Globe, title: 'Dominio propio', desc: 'Tu URL profesional .com.py con SSL y emails incluidos el primer año.' },
+  { icon: Search, title: 'SEO integrado', desc: 'Meta tags, Schema.org y contenido optimizado para aparecer en Google desde el día uno.' },
+  { icon: Smartphone, title: '100% responsive', desc: 'Se ve perfecto en móvil, tablet y desktop. Optimizado para la forma en que miran tus clientes.' },
+  { icon: Layers, title: '16 plantillas listas', desc: 'Diseños especializados por rubro, con 7 más en camino. Generados y ajustados por humanos antes de publicar.' },
 ]
 
 const STEPS = [
@@ -139,7 +140,7 @@ const PLANS = [
   {
     name: 'Prueba',
     setup: 'Gratis',
-    monthly: '6 meses',
+    monthly: '3 meses',
     period: 'sin costo',
     description: 'Para validar antes de invertir',
     features: [
@@ -217,7 +218,7 @@ const PLANS = [
 const FAQS = [
   { question: '¿Cuánto tiempo tarda en estar listo mi sitio?', answer: 'Entre 24 y 48 horas desde que recibimos tus datos. Nuestro motor genera el sitio base en minutos y un editor humano lo revisa, ajusta textos y optimiza imágenes antes de publicarlo. Vos no tocás nada.' },
   { question: '¿Necesito conocimientos técnicos?', answer: 'Ninguno. Nosotros hacemos todo: diseño, textos, fotos, SEO, dominio y publicación. Vos nos mandás la info de tu negocio por WhatsApp y recibís el sitio listo.' },
-  { question: '¿Puedo probar antes de pagar?', answer: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 6 meses de prueba gratis en subdominio para validar que funciona.' },
+  { question: '¿Puedo probar antes de pagar?', answer: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 3 meses de prueba gratis en subdominio para validar que funciona.' },
   { question: '¿Cómo funciona el pago?', answer: 'Setup único al inicio (una sola vez) + cuota mensual para hosting, dominio y soporte. Aceptamos Mercado Pago y transferencia bancaria. Sin contratos de permanencia.' },
   { question: '¿Puedo cambiar el diseño después?', answer: 'Sí. Los planes Presencia y superiores incluyen cambios de contenido mensuales (2 a 10 según plan). Rediseños mayores se cotizan aparte.' },
   { question: '¿Qué incluye el dominio propio?', answer: 'Los planes pagos incluyen un dominio .com.py gratis el primer año, configuración DNS, certificado SSL automático y emails profesionales (tunombre@tu-negocio.com.py).' },
@@ -452,8 +453,8 @@ export default function HomePage() {
               <FadeIn delay={600}>
                 <div className="mx-auto mt-20 grid max-w-3xl grid-cols-2 gap-8 rounded-2xl border border-[var(--border)] bg-[var(--surface)]/80 p-8 backdrop-blur-sm sm:grid-cols-4">
                   {[
-                    { value: '23', label: 'Plantillas' },
-                    { value: '7.4K+', label: 'Leads PY' },
+                    { value: '16', label: 'Plantillas listas' },
+                    { value: '7.4K+', label: 'Mercado PY' },
                     { value: `${heroCount2}%`, label: 'Sin web' },
                     { value: '48h', label: 'Entrega' },
                   ].map((stat) => (
@@ -774,7 +775,7 @@ export default function HomePage() {
                     {plan.popular && (
                       <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                         <span className="rounded-full bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] px-6 py-2 text-sm font-bold text-[var(--primary-foreground)] shadow-lg whitespace-nowrap">
-                          Más elegido
+                          Recomendado
                         </span>
                       </div>
                     )}
@@ -841,6 +842,7 @@ export default function HomePage() {
                     </p>
                     <p>
                       Nuestro análisis reveló algo impactante: más del 75% de los negocios de belleza y bienestar en Paraguay no tienen presencia web.
+                      <span className="mt-1 block text-xs text-[var(--text-muted)]">Fuente: análisis propio sobre 7.463 negocios mapeados en 209 ciudades del país (2026).</span>
                     </p>
                     <p>
                       Creamos un motor de IA que permite tener un sitio web profesional en minutos, no en semanas. Sin conocimientos técnicos, sin costos elevados.
@@ -911,23 +913,7 @@ export default function HomePage() {
                 <p className="mb-8 text-[var(--text-light)]">
                   Suscríbete para recibir actualizaciones sobre nuevas plantillas y funcionalidades.
                 </p>
-                <form className="flex flex-col gap-4 sm:flex-row">
-                  <div className="relative flex-1">
-                    <Mail className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--text-muted)]" />
-                    <input
-                      type="email"
-                      placeholder="Tu email"
-                      required
-                      className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] py-4 pl-12 pr-4 text-[var(--text)] placeholder-[var(--text-muted)] transition-all focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]/20"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="rounded-xl bg-[var(--primary)] px-8 py-4 font-bold text-[var(--primary-foreground)] transition-all hover:opacity-90"
-                  >
-                    Suscribirse
-                  </button>
-                </form>
+                <NewsletterForm />
               </div>
             </FadeIn>
           </Container>
