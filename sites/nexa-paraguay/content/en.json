@@ -270,7 +270,16 @@
         { "name": "Accounting team", "role": "Tax management, compliance" }
       ]
     },
-    "trust": { "$ref": "home.trust" },
+    "trust": {
+      "eyebrow": "Why Nexa Paraguay",
+      "title": "An integrated system, not an administrative agency",
+      "items": [
+        { "icon": "Package", "title": "One program", "description": "Residency, company and bank account integrated." },
+        { "icon": "Plane", "title": "One trip", "description": "In-person processing in a single coordinated day." },
+        { "icon": "Users", "title": "One team", "description": "Lawyers, accountants, notaries, financial advisors." },
+        { "icon": "Shield", "title": "Transparent pricing", "description": "All inclusive. No hidden fees." }
+      ]
+    },
     "cta": { "title": "Take the first step", "subtitle": "Book a free 30-minute consultation.", "buttonText": "Book consultation", "buttonHref": "/s/en/nexa-paraguay/contacto" }
   },
   "faqPage": {

@@ -2,10 +2,11 @@ import { describe, it, expect } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { PortfolioSection } from '@/components/sections/portfolio-section'
 
+// next/image's default loader validates URLs, so use real-looking paths.
 const mockItems = [
-  { title: 'Project 1', image: 'img1.jpg', category: 'Weddings' },
-  { title: 'Project 2', image: 'img2.jpg', category: 'Editorial' },
-  { title: 'Project 3', image: 'img3.jpg', category: 'Weddings' },
+  { title: 'Project 1', image: '/img/p1.jpg', category: 'Weddings' },
+  { title: 'Project 2', image: '/img/p2.jpg', category: 'Editorial' },
+  { title: 'Project 3', image: '/img/p3.jpg', category: 'Weddings' },
 ]
 
 describe('portfolio-section.tsx', () => {
