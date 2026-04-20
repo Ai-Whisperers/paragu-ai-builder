@@ -302,8 +302,6 @@ const SECTION_ALIASES: Record<string, string> = {
   sakePairing: 'sake-menu',
   'sake-pairing': 'sake-menu',
   'services-preview': 'services',
-  services_preview: 'services',
-  'portfolio-gallery': 'portfolio',
   // Sections without direct component — route to "features" as a card grid.
   about: 'features',
   programs: 'features',

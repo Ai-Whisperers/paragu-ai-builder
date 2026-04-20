@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { cva, type VariantProps } from 'class-variance-authority'
 import { cn } from '@/lib/utils'
 
@@ -43,6 +44,11 @@ export interface ButtonProps
   isLoading?: boolean
   /** Optional text to display next to the spinner while loading. */
   loadingText?: string
+  /**
+   * When true, merges props onto the child element instead of rendering a button.
+   * Useful for integrating with Link components or other wrappers.
+   */
+  asChild?: boolean
 }
 
 function Spinner({ className }: { className?: string }) {
@@ -70,6 +76,7 @@ export function Button({
   isLoading,
   loadingText,
   disabled,
+  asChild,
   ...props
 }: ButtonProps) {
   const spinnerSize = size === 'sm' ? 'w-3.5 h-3.5' : size === 'lg' ? 'w-5 h-5' : 'w-4 h-4'
@@ -89,6 +96,16 @@ export function Button({
         {children}
       </a>
     )
+  }
+
+  // Handle asChild - clone the child element and merge props
+  if (asChild && React.isValidElement(children)) {
+    return React.cloneElement(children as React.ReactElement, {
+      className: cn(buttonVariants({ variant, size }), className, (children.props as {className?: string}).className),
+      disabled: disabled || isLoading,
+      'aria-busy': isLoading || undefined,
+      ...props,
+    } as Record<string, unknown>)
   }
 
   return (

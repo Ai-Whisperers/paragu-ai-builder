@@ -22,7 +22,7 @@
     "analytics": "ga4"
   },
   "features": {
-    "testimonials": true,
+    "testimonials": false,
     "blog": true,
     "whatsappFloat": true,
     "heroImages": true,

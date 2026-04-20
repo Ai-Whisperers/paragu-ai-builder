@@ -85,13 +85,38 @@
       "subtitle": "Agende una consulta gratuita de 30 minutos.",
       "buttonText": "Agendar consulta",
       "buttonHref": "/s/es/nexa-uruguay/contacto"
+    },
+    "testimonials": {
+      "eyebrow": "Testimonios",
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Historias reales de personas que establecieron su operación en Uruguay",
+      "ctaText": "Leer todos los testimonios",
+      "ctaHref": "/s/es/nexa-uruguay/testimonials"
     }
   },
   "programasPage": {
     "seo": { "title": "Programas — Nexa Uruguay", "description": "Tres programas para establecerse en Uruguay." },
     "hero": { "headline": "Nuestros programas", "subheadline": "Precios transparentes. Todo incluido." },
-    "programs": { "$ref": "home.programs" },
-    "matrix": { "$ref": "home.programs" },
+    "programs": {
+      "eyebrow": "Programas",
+      "title": "Tres caminos para establecerse en Uruguay",
+      "subtitle": "Elija el programa según su objetivo.",
+      "tiers": [
+        { "id": "base", "name": "Uruguay Base", "description": "Residencia + RUT.", "price": "A definir", "priceNote": "Precios en definición", "included": ["Solicitud de residencia", "RUT", "Validación documental", "Visita operativa"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=base" },
+        { "id": "business", "name": "Uruguay Business", "description": "Residencia + sociedad + cuenta bancaria.", "price": "A definir", "priceNote": "Precios en definición", "highlighted": true, "badge": "Más elegido", "included": ["Todo lo de Base", "Constitución (SAS)", "Cuenta bancaria", "Tour estratégico", "Honorarios + IVA incluidos"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=business" },
+        { "id": "investor", "name": "Uruguay Investor Program", "description": "Business + 12 meses de asesoría.", "price": "A definir", "priceNote": "Precios en definición", "included": ["Todo lo de Business", "Contabilidad (12 meses)", "Asesoría legal y fiscal (12 meses)", "Análisis de inversiones"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=investor" }
+      ]
+    },
+    "matrix": {
+      "eyebrow": "Programas",
+      "title": "Tres caminos para establecerse en Uruguay",
+      "subtitle": "Elija el programa según su objetivo.",
+      "tiers": [
+        { "id": "base", "name": "Uruguay Base", "description": "Residencia + RUT.", "price": "A definir", "priceNote": "Precios en definición", "included": ["Solicitud de residencia", "RUT", "Validación documental", "Visita operativa"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=base" },
+        { "id": "business", "name": "Uruguay Business", "description": "Residencia + sociedad + cuenta bancaria.", "price": "A definir", "priceNote": "Precios en definición", "highlighted": true, "badge": "Más elegido", "included": ["Todo lo de Base", "Constitución (SAS)", "Cuenta bancaria", "Tour estratégico", "Honorarios + IVA incluidos"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=business" },
+        { "id": "investor", "name": "Uruguay Investor Program", "description": "Business + 12 meses de asesoría.", "price": "A definir", "priceNote": "Precios en definición", "included": ["Todo lo de Business", "Contabilidad (12 meses)", "Asesoría legal y fiscal (12 meses)", "Análisis de inversiones"], "ctaLabel": "Solicitar consulta", "ctaHref": "/s/es/nexa-uruguay/contacto?programa=investor" }
+      ]
+    },
     "faq": {
       "title": "Preguntas sobre precios",
       "items": [
@@ -99,21 +124,67 @@
         { "q": "¿Cómo se paga?", "a": "Anticipado por transferencia bancaria." }
       ]
     },
-    "cta": { "$ref": "home.finalCta" }
+    "cta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-uruguay/contacto"
+    }
   },
   "whyCountryPage": {
     "seo": { "title": "Por qué Uruguay — Nexa Uruguay", "description": "Uruguay: estabilidad, economía abierta, fortaleza institucional." },
     "hero": { "headline": "Por qué Uruguay", "subheadline": "Una oportunidad real — explicada con honestidad." },
-    "pillars": { "$ref": "home.whyCountry" },
-    "trust": { "$ref": "home.trust" },
-    "cta": { "$ref": "home.finalCta" }
+    "pillars": {
+      "eyebrow": "Por qué Uruguay",
+      "title": "Estabilidad, previsibilidad, apertura",
+      "items": [
+        { "icon": "TrendingUp", "title": "Estabilidad primero", "description": "Uruguay combina fortaleza institucional, baja corrupción y estado de derecho predecible.", "bullets": ["Democracia sólida", "Hub financiero regional", "Grado de inversión"] },
+        { "icon": "Building2", "title": "Oportunidades de inversión", "description": "Zonas francas, inmobiliario, agroindustria, tecnología.", "bullets": ["Zonas francas", "Sector tecnológico en crecimiento", "Inmobiliario en Punta del Este"] },
+        { "icon": "Heart", "title": "Calidad de vida", "description": "Seguridad, educación, clima, comunidad internacional.", "bullets": ["Seguridad pública", "Educación pública y privada sólida", "Playa + ciudad"] }
+      ],
+      "honestNote": "Uruguay no es barato — es estable. Ese tradeoff es la clave. Si prioriza el costo, Paraguay puede ser mejor opción; se lo diremos."
+    },
+    "trust": {
+      "eyebrow": "Por qué Nexa Uruguay",
+      "title": "Equipo local con sensibilidad europea",
+      "items": [
+        { "icon": "Package", "title": "Un programa", "description": "Residencia, sociedad y cuenta bancaria." },
+        { "icon": "Plane", "title": "Un viaje", "description": "Trámites presenciales en una visita coordinada." },
+        { "icon": "Users", "title": "Un equipo", "description": "Abogados, contadores, escribanos y asesores." },
+        { "icon": "Shield", "title": "Precio transparente", "description": "Todo incluido." }
+      ]
+    },
+    "cta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-uruguay/contacto"
+    }
   },
   "processPage": {
     "seo": { "title": "Cómo funciona — Nexa Uruguay", "description": "Proceso de 5 pasos, 10–14 semanas." },
     "hero": { "headline": "Un proceso claro, paso a paso", "subheadline": "Sin sorpresas." },
-    "process": { "$ref": "home.process" },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Un proceso claro, paso a paso",
+      "totalDuration": "Tiempo estimado total: 10–14 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "/s/es/nexa-uruguay/contacto",
+      "steps": [
+        { "number": 1, "title": "Consulta inicial", "description": "Evaluamos su situación y el programa adecuado.", "icon": "MessageCircle" },
+        { "number": 2, "title": "Validación documental", "description": "Revisión completa antes de su viaje.", "icon": "FileCheck" },
+        { "number": 3, "title": "Visita operativa", "description": "Trámites presenciales en Montevideo.", "icon": "MapPin" },
+        { "number": 4, "title": "Sociedad y banca", "description": "Constitución y apertura de cuenta.", "icon": "Building" },
+        { "number": 5, "title": "Entrega y seguimiento", "description": "Recibe documentos definitivos.", "icon": "CheckCircle" }
+      ]
+    },
     "faq": { "title": "Preguntas sobre el proceso", "items": [{ "q": "¿Cuántos viajes?", "a": "Uno suele ser suficiente." }] },
-    "cta": { "$ref": "home.finalCta" }
+    "cta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-uruguay/contacto"
+    }
   },
   "aboutPage": {
     "seo": { "title": "Sobre Nexa Uruguay", "description": "Equipo técnico multidisciplinario en Montevideo." },
@@ -127,8 +198,22 @@
       ]
     },
     "team": { "title": "Nuestro equipo", "members": [{ "name": "Dirección de Operaciones (Uruguay)", "role": "Liderazgo operativo" }, { "name": "Dirección Comercial (Europa)", "role": "Adquisición de clientes" }] },
-    "trust": { "$ref": "home.trust" },
-    "cta": { "$ref": "home.finalCta" }
+    "trust": {
+      "eyebrow": "Por qué Nexa Uruguay",
+      "title": "Equipo local con sensibilidad europea",
+      "items": [
+        { "icon": "Package", "title": "Un programa", "description": "Residencia, sociedad y cuenta bancaria." },
+        { "icon": "Plane", "title": "Un viaje", "description": "Trámites presenciales en una visita coordinada." },
+        { "icon": "Users", "title": "Un equipo", "description": "Abogados, contadores, escribanos y asesores." },
+        { "icon": "Shield", "title": "Precio transparente", "description": "Todo incluido." }
+      ]
+    },
+    "cta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-uruguay/contacto"
+    }
   },
   "faqPage": {
     "seo": { "title": "FAQ — Nexa Uruguay", "description": "Respuestas a las preguntas más frecuentes." },
@@ -141,7 +226,12 @@
         { "q": "¿Es legal el proceso?", "a": "Absolutamente. Estricto apego a la normativa uruguaya e internacional." }
       ]
     },
-    "cta": { "$ref": "home.finalCta" }
+    "cta": {
+      "title": "Dé el primer paso",
+      "subtitle": "Agende una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "/s/es/nexa-uruguay/contacto"
+    }
   },
   "contactPage": {
     "seo": { "title": "Contacto — Nexa Uruguay", "description": "Agende una consulta gratuita." },

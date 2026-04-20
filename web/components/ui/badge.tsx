@@ -13,7 +13,10 @@ const filterBadgeVariants = cva(
         secondary: "border-2 border-[var(--secondary)] text-[var(--secondary)] bg-transparent hover:bg-[var(--secondary)] hover:text-white",
         outline: "border-2 border-[var(--text-muted)] text-[var(--text)] bg-transparent hover:bg-[var(--surface-light)]",
         muted: "bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--surface)]",
-        success: "bg-[var(--success)] text-white",
+        success: "bg-[var(--color-success)] text-white",
+        destructive: "bg-[var(--color-error)] text-white",
+        warning: "bg-[var(--color-warning)] text-white",
+        info: "bg-[var(--color-info)] text-white",
       },
       size: {
         sm: "px-2 py-1 text-xs",

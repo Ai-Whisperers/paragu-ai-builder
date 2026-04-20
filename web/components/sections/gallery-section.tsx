@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -42,11 +43,15 @@ export function GallerySection({
               key={index}
               className="group relative aspect-square overflow-hidden rounded-lg bg-[var(--surface-light)]"
             >
-              <img
+              <Image
                 src={image.src}
                 alt={image.alt}
-                className="h-full w-full object-cover transition-transform duration-slow group-hover:scale-110"
-                loading="lazy"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover transition-transform duration-slow group-hover:scale-110"
+                // SVG data-URIs and external hosts we can't preoptimize stay unoptimized;
+                // next/image still gets us lazy-loading + blur/srcset for remote HTTPS.
+                unoptimized={image.src.startsWith('data:')}
               />
               {image.category && (
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 transition-opacity duration-normal group-hover:opacity-100">

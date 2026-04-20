@@ -112,23 +112,39 @@ describe('registry contract', () => {
     }
   })
 
-  it('concrete types fall back to synthesized default content when CONTENT_MAP misses', async () => {
-    // With the content-overlay pattern, ~95% of types have no on-disk content
-    // file — they fall through to defaultContentFor() which produces the hero
-    // / about / services / testimonials / faq / footer shape from the registry
-    // entry. Just verify the synthesizer returns valid content for any
-    // concrete type.
+  it('every concrete type resolves to valid content (curated or synthesized)', async () => {
+    // Iterate the FULL concrete catalog rather than sampling — at ~1,900 types
+    // and ~1-2ms per check this is still sub-second and catches any type that
+    // slips past the synthesizer contract.
     const { defaultContentFor } = await import('@/lib/engine/content-defaults')
-    // Filter to types without curated content so we're only testing the
-    // synthesizer (curated files can have any shape).
-    const idsForFallback = concreteIds.filter((id) => !CONTENT_MAP[id])
-    const samples = idsForFallback.slice(0, 30)
-    for (const id of samples) {
-      const synthesized = defaultContentFor(id)
-      expect(synthesized, `no default content for ${id}`).toBeTruthy()
-      const s = synthesized as { hero?: { headline?: string }; services?: { categories?: unknown[] } }
-      expect(s.hero?.headline, `${id} missing hero.headline`).toBeTruthy()
-      expect(s.services?.categories, `${id} missing services.categories`).toBeTruthy()
+    const failures: string[] = []
+    for (const id of concreteIds) {
+      const curated = CONTENT_MAP[id]
+      if (curated) continue // curated content can have any shape — enforced by authors
+      const synth = defaultContentFor(id)
+      if (!synth) {
+        failures.push(`${id}: defaultContentFor returned null`)
+        continue
+      }
+      const s = synth as { hero?: { headline?: string }; services?: { categories?: unknown[] } }
+      if (!s.hero?.headline) failures.push(`${id}: missing hero.headline`)
+      if (!s.services?.categories) failures.push(`${id}: missing services.categories`)
+    }
+    if (failures.length) {
+      throw new Error(`${failures.length} synthesizer failures:\n${failures.slice(0, 15).join('\n')}${failures.length > 15 ? `\n…and ${failures.length - 15} more` : ''}`)
+    }
+  })
+
+  it('every concrete type has its verticalId shard loaded (no orphan shards)', async () => {
+    // Ensures the sharded static-config generator covered every concrete type.
+    // If a type's shard isn't loaded, REGISTRY_MAP[id] returns undefined but
+    // TYPE_TO_VERTICAL still lists it — we catch that asymmetry here.
+    const missing: string[] = []
+    for (const id of concreteIds) {
+      if (!REGISTRY_MAP[id]) missing.push(id)
+    }
+    if (missing.length) {
+      throw new Error(`Types listed in index but not in any shard:\n${missing.slice(0, 10).join(', ')}`)
     }
   })
 

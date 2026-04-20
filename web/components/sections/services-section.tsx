@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Clock } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -88,14 +89,16 @@ export function ServicesSection({
             "overflow-hidden",
             enhanced ? "rounded-t-xl" : "rounded-t-lg"
           )}>
-            <img
+            <Image
               src={service.imageUrl}
               alt={service.name}
+              width={400}
+              height={192}
+              sizes="(max-width: 768px) 100vw, 400px"
               className={cn(
                 "h-48 w-full object-cover",
                 hoverEffect && "transition-transform duration-500 hover:scale-110"
               )}
-              loading="lazy"
             />
           </div>
         )}

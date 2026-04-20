@@ -20,7 +20,8 @@ const CACHE_CONFIG = {
 }
 
 // Create cache instance
-const queryCache = new LRUCache<string, unknown>(CACHE_CONFIG)
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const queryCache = new LRUCache<string, any>(CACHE_CONFIG)
 
 // Track pending requests for deduplication
 const pendingRequests = new Map<string, Promise<unknown>>()
@@ -154,10 +155,13 @@ export function getCacheStats(): {
   maxSize: number
   hitRate: number
 } {
+  // LRUCache v10 dropped the `hitRate` getter. We no longer track it live;
+  // the pending-request dedup map in this file is the closest proxy and
+  // isn't useful as a rate. Returning 0 keeps the API stable.
   return {
     size: queryCache.size,
     maxSize: CACHE_CONFIG.max,
-    hitRate: queryCache.hitRate,
+    hitRate: 0,
   }
 }
 

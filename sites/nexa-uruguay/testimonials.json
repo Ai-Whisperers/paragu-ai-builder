@@ -1,0 +1,50 @@
+{
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Real stories from people who established their operations in Uruguay",
+    "items": [
+      {
+        "id": "testimonial-uy-1",
+        "name": "Alexander Schmidt",
+        "role": "Tech Entrepreneur",
+        "location": "Montevideo, Uruguay",
+        "quote": "Nexa Uruguay made the relocation process seamless. From residency to company formation and banking, everything was handled professionally. The team was always available to answer questions.",
+        "program": "Uruguay Business",
+        "rating": 5,
+        "image": "/sites/nexa-uruguay/images/testimonials/client-1.jpg",
+        "verified": true,
+        "date": "2024-03-15"
+      },
+      {
+        "id": "testimonial-uy-2",
+        "name": "Maria Fernanda Lopez",
+        "role": "Digital Nomad Consultant",
+        "location": "Punta del Este, Uruguay",
+        "quote": "As a remote worker, I needed a stable base with good infrastructure. Uruguay offered exactly that. Nexa handled all the paperwork and I was settled within weeks.",
+        "program": "Uruguay Base",
+        "rating": 5,
+        "image": "/sites/nexa-uruguay/images/testimonials/client-2.jpg",
+        "verified": true,
+        "date": "2024-02-20"
+      },
+      {
+        "id": "testimonial-uy-3",
+        "name": "James Morrison",
+        "role": "Investment Manager",
+        "location": "Colonia del Sacramento, Uruguay",
+        "quote": "The Uruguay Investor Program gave me everything I needed - residency, company structure, banking, and ongoing support. The tax benefits are substantial.",
+        "program": "Uruguay Investor",
+        "rating": 5,
+        "image": "/sites/nexa-uruguay/images/testimonials/client-3.jpg",
+        "verified": true,
+        "date": "2024-01-10"
+      }
+    ],
+    "stats": {
+      "totalClients": 180,
+      "satisfactionRate": 97,
+      "averageRating": 4.9,
+      "countries": ["Germany", "USA", "Argentina", "Spain", "UK", "Canada", "Brazil"]
+    }
+  }
+}

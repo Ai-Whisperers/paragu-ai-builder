@@ -121,6 +121,13 @@
         }
       ]
     },
+    "testimonials": {
+      "eyebrow": "Getuigenissen",
+      "title": "Wat onze klanten zeggen",
+      "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
+      "ctaText": "Alle getuigenissen lezen",
+      "ctaHref": "/s/nl/nexa-paraguay/testimonials"
+    },
     "whyCountry": {
       "eyebrow": "Waarom Paraguay",
       "title": "Een reële kans voor de Europese investeerder",

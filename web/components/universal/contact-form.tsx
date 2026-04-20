@@ -62,9 +62,10 @@ export default function ContactForm({
   }
 
   const handleBlur = (name: keyof FieldErrors) => {
-    const partial = FormSchema.pick({ [name]: true } as Record<string, true>).safeParse({
-      [name]: formData[name],
-    })
+    // Zod 4 expects a concrete mask type; build the per-field pick dynamically.
+    const mask = { [name]: true } as { [K in keyof FieldErrors]?: true }
+    const fieldSchema = FormSchema.pick(mask as never)
+    const partial = fieldSchema.safeParse({ [name]: formData[name] })
     if (!partial.success) {
       const issue = partial.error.issues[0]
       setFieldErrors((prev) => ({ ...prev, [name]: issue?.message || 'Valor inválido' }))

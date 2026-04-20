@@ -13,7 +13,27 @@
  * (compat flag `nodejs_compat` is already enabled in wrangler.toml).
  */
 
-import { AsyncLocalStorage } from 'node:async_hooks'
+// AsyncLocalStorage lives in node:async_hooks. It's available in:
+//   - Node.js server runtime (app routes, scripts, API handlers)
+//   - Cloudflare Workers (nodejs_compat flag — set in wrangler.toml)
+//   - Vitest + jsdom (the Node process running the tests)
+// It is NOT available in the browser bundle. We can't key off `window`
+// because jsdom defines `window` even though we're on Node; instead we
+// probe the module itself inside a try/catch, which bundlers can
+// statically analyze and strip from client builds.
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let AsyncLocalStorage: any = null
+let als: unknown = null
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const asyncHooks = require('node:async_hooks')
+  AsyncLocalStorage = asyncHooks.AsyncLocalStorage
+} catch {
+  // Browser bundle — fall back to a pass-through (no context propagation).
+  AsyncLocalStorage = null
+}
 
 /**
  * Top-level enrichment keys the logger auto-merges into every emit.
@@ -34,11 +54,11 @@ export interface LoggerStoreFields {
   [key: string]: unknown
 }
 
-let als: AsyncLocalStorage<LoggerStoreFields> | null = null
-
-function storage(): AsyncLocalStorage<LoggerStoreFields> {
-  if (!als) {
-    als = new AsyncLocalStorage<LoggerStoreFields>()
+function storage(): unknown {
+  if (!als && AsyncLocalStorage) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const Ctor = AsyncLocalStorage as new () => any
+    als = new Ctor()
   }
   return als
 }
@@ -51,7 +71,12 @@ export function withLoggerContext<T>(
   seed: LoggerStoreFields,
   fn: () => T,
 ): T {
-  return storage().run({ ...seed }, fn)
+  const store = storage()
+  if (!store || typeof (store as { run?: unknown }).run !== 'function') {
+    // Fallback: run without context if AsyncLocalStorage unavailable
+    return fn()
+  }
+  return (store as { run: (store: LoggerStoreFields, fn: () => T) => T }).run({ ...seed }, fn)
 }
 
 /**
@@ -59,7 +84,11 @@ export function withLoggerContext<T>(
  * withLoggerContext scope (top-level scripts, cold starts).
  */
 export function getLoggerContext(): LoggerStoreFields | undefined {
-  return storage().getStore()
+  const store = storage()
+  if (!store || typeof (store as { getStore?: () => unknown }).getStore !== 'function') {
+    return undefined
+  }
+  return (store as { getStore: () => LoggerStoreFields | undefined }).getStore()
 }
 
 /**
@@ -68,7 +97,7 @@ export function getLoggerContext(): LoggerStoreFields | undefined {
  * fallback behaviour.
  */
 export function extendLoggerContext(fields: LoggerStoreFields): void {
-  const store = storage().getStore()
+  const store = getLoggerContext()
   if (!store) return
   Object.assign(store, fields)
 }
