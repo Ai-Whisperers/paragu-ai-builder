@@ -1,0 +1,66 @@
+{
+  "vertical": "retail-local",
+  "businessType": "sex_shop",
+  "country": "Paraguay",
+  "domain": null,
+  "path": "/fun4me",
+  "publicUrl": "https://paragu-ai.com/fun4me",
+  "stagingDomain": "fun4me.sunstein.cloud",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "phone": "+595976569739",
+    "email": "hola@fun4me.com.py",
+    "whatsapp": "+595976569739",
+    "instagram": "@fun4me_store",
+    "facebook": "FUN4MEStore"
+  },
+  "location": {
+    "address": "Herrera 875",
+    "city": "Asuncion",
+    "country": "Paraguay",
+    "coordinates": {
+      "lat": -25.2867,
+      "lng": -57.6474
+    }
+  },
+  "hours": {
+    "Lunes - Viernes": "09:00 - 20:00",
+    "Sabado": "09:00 - 18:00",
+    "Domingo": "Cerrado"
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion",
+    "ageGate": 18,
+    "delivery": {
+      "enabled": true,
+      "freeThreshold": 200000,
+      "zones": ["Asuncion", "Fernando de la Mora", "San Lorenzo", "Lambare", "Luque"],
+      "national": true
+    }
+  },
+  "integrations": {
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "ageGate": true,
+    "discretePackaging": true,
+    "faq": true
+  },
+  "placeholderFields": {
+    "googleMapsId": "ChIJxxxxxxxxxx from vete config — needs real Place ID for Herrera 875",
+    "domain": "Path-only on paragu-ai.com/fun4me for now. Custom domain (fun4me.com.py) deferred.",
+    "brandPartners": "Satisfyer/LELO/We-Vibe logos use placeholder SVGs — replace with real logos",
+    "team": "about.team empty — decide whether to publish team or keep anonymous"
+  },
+  "migratedFrom": "vete/web/.content_data/fun4me/",
+  "migratedAt": "2026-04-21",
+  "is_demo": false
+}

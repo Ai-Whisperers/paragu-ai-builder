@@ -1,0 +1,82 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "age-gate",
+      "variant": "modal",
+      "content": "ageGate"
+    },
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "features",
+      "variant": "cards",
+      "content": "home.features"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "strip",
+      "content": "home.promo"
+    },
+    {
+      "id": "categories",
+      "variant": "grid",
+      "content": "home.categories"
+    },
+    {
+      "id": "stats",
+      "variant": "counters",
+      "content": "home.stats"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "partners",
+      "variant": "logos",
+      "content": "home.partners"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
+      "id": "cta",
+      "variant": "split",
+      "content": "home.cta"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

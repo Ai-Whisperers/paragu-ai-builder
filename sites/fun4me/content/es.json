@@ -1,0 +1,259 @@
+{
+  "_meta": {
+    "translationQuality": "native",
+    "author": "Fun4Me",
+    "lastReviewed": "2026-04-21",
+    "notes": "Content ported from vete/web/.content_data/fun4me/. Original source: home.json, about.json, testimonials.json, faq.json, config.json. Placeholders flagged in site.json.placeholderFields. Awaiting owner confirmation.",
+    "placeholders": [
+      "home.partners.logos use placeholder SVGs — replace with real Satisfyer/LELO/We-Vibe logos",
+      "about.team empty — decide whether to publish team or keep anonymous for privacy",
+      "location.googleMapsId is ChIJxxxxxxxxxx — needs real Google Place ID for Herrera 875"
+    ]
+  },
+  "siteName": "Fun4Me",
+  "tagline": "Tu tienda de placer — envio discreto a todo Paraguay",
+  "placeholders": {
+    "businessName": "Fun4Me",
+    "city": "Asuncion",
+    "year": 2026,
+    "foundedYear": 2018
+  },
+  "navigation": {
+    "businessName": "Fun4Me",
+    "items": [
+      { "label": "Inicio", "href": "/" },
+      { "label": "Tienda", "href": "/store" },
+      { "label": "Nosotros", "href": "#about" },
+      { "label": "Contacto", "href": "#contact" }
+    ],
+    "ctaText": "WhatsApp",
+    "ctaHref": "https://wa.me/595976569739"
+  },
+  "home": {
+    "seo": {
+      "title": "Fun4Me — Sex Shop Online en Paraguay | Envio Discreto",
+      "description": "Juguetes para adultos, lenceria, accesorios y mas. Compra online con envio discreto a todo Paraguay. Tienda fisica en Asuncion. Solo mayores de 18."
+    },
+    "ageGate": {
+      "title": "Verificacion de Edad",
+      "message": "Este sitio contiene contenido para adultos. Debes ser mayor de 18 anos para continuar.",
+      "confirmText": "Soy mayor de 18",
+      "denyText": "Salir",
+      "denyHref": "https://google.com"
+    },
+    "hero": {
+      "badgeText": "Envio Discreto",
+      "headline": "Tu Tienda de Placer",
+      "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion.",
+      "ctaPrimaryText": "Explorar Tienda",
+      "ctaPrimaryHref": "/store",
+      "ctaSecondaryText": "Contactanos",
+      "ctaSecondaryHref": "https://wa.me/595976569739"
+    },
+    "trustBadges": [
+      { "icon": "truck", "text": "Envio a Todo el Pais" },
+      { "icon": "shield", "text": "Pago Seguro" },
+      { "icon": "package", "text": "Empaque Discreto" }
+    ],
+    "features": {
+      "badge": "Nuestras Ventajas",
+      "title": "Por que elegirnos?",
+      "subtitle": "Discrecion, calidad y variedad en cada compra.",
+      "items": [
+        {
+          "icon": "lock",
+          "title": "100% Discreto",
+          "text": "Empaque neutro, facturacion discreta y envio confidencial garantizado."
+        },
+        {
+          "icon": "truck",
+          "title": "Delivery a Todo el Pais",
+          "text": "Envios rapidos y seguros a cualquier punto de Paraguay."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Productos de Calidad",
+          "text": "Seleccion de las mejores marcas con garantia de calidad."
+        },
+        {
+          "icon": "heart",
+          "title": "Atencion Personalizada",
+          "text": "Te asesoramos para encontrar el producto perfecto para vos."
+        }
+      ]
+    },
+    "promo": {
+      "enabled": true,
+      "text": "Envio GRATIS en compras mayores a Gs. 200.000",
+      "href": "/store"
+    },
+    "categories": {
+      "title": "Categorias Destacadas",
+      "subtitle": "Todo lo que necesitas para disfrutar",
+      "items": [
+        { "id": "vibradores", "name": "Vibradores", "icon": "sparkles", "description": "Desde clasicos hasta tecnologia de punta" },
+        { "id": "dildos", "name": "Dildos", "icon": "adjustments-vertical", "description": "Realistas, fantasy y de todas las formas" },
+        { "id": "anal", "name": "Juguetes Anales", "icon": "arrow-uturn-down", "description": "Explora nuevos territorios de placer" },
+        { "id": "parejas", "name": "Para Parejas", "icon": "heart", "description": "Juguetes disenados para compartir" },
+        { "id": "bdsm", "name": "BDSM & Fetish", "icon": "link", "description": "Equipamiento para juegos de poder" },
+        { "id": "lenceria", "name": "Lenceria", "icon": "gift", "description": "Piezas sensuales y provocativas" },
+        { "id": "lubricantes", "name": "Lubricantes", "icon": "beaker", "description": "Mejora cada experiencia" },
+        { "id": "bienestar", "name": "Bienestar Intimo", "icon": "shield-check", "description": "Cuidado y salud sexual" }
+      ],
+      "ctaText": "Ver Todo el Catalogo",
+      "ctaHref": "/store"
+    },
+    "stats": {
+      "title": "Numeros que nos respaldan",
+      "items": [
+        { "value": "7+", "label": "Anos de Experiencia" },
+        { "value": "5.000+", "label": "Clientes Satisfechos" },
+        { "value": "200+", "label": "Productos Disponibles" },
+        { "value": "100%", "label": "Envio Discreto" }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Testimonios reales de clientes satisfechos.",
+      "items": [
+        {
+          "author": "Maria L.",
+          "location": "Asuncion",
+          "rating": 5,
+          "text": "Llevaba anos con verguenza de entrar a un sex shop. En Fun4Me me senti comoda desde el primer momento. La atencion fue super profesional y me ayudaron a encontrar exactamente lo que buscaba sin hacerme sentir juzgada.",
+          "verified": true
+        },
+        {
+          "author": "Mariana T.",
+          "location": "Encarnacion",
+          "rating": 5,
+          "text": "Vivo en el interior y el envio fue super rapido y discreto. El paquete llego perfecto, sin ninguna indicacion de que era. 10/10 por la discrecion.",
+          "verified": true
+        },
+        {
+          "author": "Lucas A.",
+          "location": "Ciudad del Este",
+          "rating": 5,
+          "text": "Compre un vibrador como regalo para mi pareja. La asesoria online fue excelente, me explicaron todo sobre el uso. El producto supero todas mis expectativas.",
+          "verified": true
+        },
+        {
+          "author": "Camila R.",
+          "location": "Lambare",
+          "rating": 5,
+          "text": "El Satisfyer Pro 2 cambio mi vida. Y lo mejor es que aca te explican como usarlo bien, no como en otras tiendas que te tiran el producto y chau.",
+          "verified": true
+        },
+        {
+          "author": "Diego V.",
+          "location": "Asuncion",
+          "rating": 5,
+          "text": "Excelente variedad de productos y precios accesibles. El delivery llego al dia siguiente y todo muy bien empacado. Definitivamente vuelvo a comprar.",
+          "verified": true
+        },
+        {
+          "author": "Ana P.",
+          "location": "Fernando de la Mora",
+          "rating": 5,
+          "text": "Primera vez comprando en una tienda asi y la experiencia fue genial. Sin presiones, respuestas claras a todas mis preguntas. Muy recomendado.",
+          "verified": true
+        }
+      ]
+    },
+    "partners": {
+      "title": "Marcas Disponibles",
+      "logos": [
+        { "name": "Satisfyer", "image": "/branding/fun4me/images/partner-satisfyer.svg" },
+        { "name": "LELO", "image": "/branding/fun4me/images/partner-lelo.svg" },
+        { "name": "We-Vibe", "image": "/branding/fun4me/images/partner-wevibe.svg" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "El envio es realmente discreto?",
+          "a": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicacion del contenido. Nadie sabra que hay dentro excepto vos."
+        },
+        {
+          "q": "Que formas de pago aceptan?",
+          "a": "Tarjetas de credito/debito (Visa, Mastercard), transferencia bancaria, billeteras electronicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asuncion."
+        },
+        {
+          "q": "Que aparece en mi estado de cuenta?",
+          "a": "El cargo aparece de forma discreta sin referencias explicitas al tipo de productos."
+        },
+        {
+          "q": "Cuanto tarda el envio?",
+          "a": "Asuncion: 24-48 horas. Gran Asuncion: 48-72 horas. Interior: 3-5 dias habiles. Envio express disponible con entrega el mismo dia en Asuncion."
+        },
+        {
+          "q": "Puedo devolver un producto?",
+          "a": "Por razones de higiene, no aceptamos devoluciones de productos intimos una vez abiertos. Si el producto llega defectuoso o danado, lo reemplazamos sin costo. Lenceria sin usar con etiquetas puede devolverse en 7 dias."
+        },
+        {
+          "q": "Los productos son seguros?",
+          "a": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona, ABS libre de ftalatos, o materiales seguros para el cuerpo."
+        },
+        {
+          "q": "Tienen envio gratis?",
+          "a": "Si, el envio es gratis en compras mayores a Gs. 200.000 a todo el pais."
+        },
+        {
+          "q": "Puedo visitar la tienda fisica?",
+          "a": "Claro! Te esperamos en Herrera 875, Asuncion. Lunes a viernes de 09:00 a 20:00 y sabados de 09:00 a 18:00."
+        },
+        {
+          "q": "Los productos tienen garantia?",
+          "a": "Los productos electronicos tienen garantia segun el fabricante. Satisfyer tiene 15 anos de garantia, LELO 1 ano, We-Vibe 2 anos."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Tenes alguna consulta?",
+      "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
+      "ctaPrimaryText": "Ver Tienda",
+      "ctaPrimaryHref": "/store",
+      "ctaSecondaryText": "Escribir por WhatsApp",
+      "ctaSecondaryHref": "https://wa.me/595976569739"
+    },
+    "contact": {
+      "title": "Visitanos o Escribinos",
+      "address": "Herrera 875, Asuncion, Paraguay",
+      "phone": "+595 976 569 739",
+      "email": "hola@fun4me.com.py",
+      "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado"
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "Sobre Fun4Me",
+      "text": "Fun4Me nacio en 2018 con la mision de ofrecer productos de calidad para adultos en Paraguay, con la discrecion y el profesionalismo que nuestros clientes merecen. Desde nuestra tienda en Herrera 875, Asuncion, atendemos a clientes de todo el pais con envios discretos y seguros. Creemos que cada persona tiene derecho a explorar su intimidad de manera segura y sin juicios."
+    },
+    "mission": {
+      "title": "Nuestra Mision",
+      "text": "Ofrecer productos de calidad para adultos con total discrecion, profesionalismo y respeto. Queremos que cada cliente se sienta comodo explorando su intimidad con productos seguros y de las mejores marcas."
+    },
+    "vision": {
+      "title": "Nuestra Vision",
+      "text": "Ser la tienda de referencia en Paraguay para productos de adultos, reconocida por la calidad, la discrecion de nuestro servicio y la confianza que generamos en nuestros clientes."
+    },
+    "values": [
+      { "icon": "eye-slash", "title": "Discrecion Total", "text": "Entendemos la importancia de la privacidad. Desde el empaque hasta la facturacion, todo es 100% discreto." },
+      { "icon": "truck", "title": "Envio a Todo el Pais", "text": "Delivery rapido y seguro a cualquier punto de Paraguay con total confidencialidad." },
+      { "icon": "shield-check", "title": "Productos de Calidad", "text": "Seleccionamos productos de marcas reconocidas para garantizar tu satisfaccion y seguridad." },
+      { "icon": "heart", "title": "Atencion Sin Juicios", "text": "Nuestro equipo esta capacitado para asesorarte con respeto y profesionalismo." }
+    ]
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos y Condiciones",
+    "legal": "Solo mayores de 18 anos."
+  },
+  "whatsapp": {
+    "number": "595976569739",
+    "message": "Hola! Quiero consultar sobre un producto.",
+    "label": "Chat con Fun4Me"
+  }
+}
