@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Centro de Colisiones Ciudad del Este - Reparacion Choques en Ciudad del Este",
-      "description": "Reparacion Choques profesional en Ciudad del Este. Servicios de calidad con atencion personalizada."
+      "description": "Reparacion Choques profesional en Ciudad del Este. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Centro de Colisiones Ciudad del Este - Reparacion Choques",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Centro de Colisiones Ciudad del Este",
     "copyright": "© {{year}} Demo Centro de Colisiones Ciudad del Este",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Centro de Colisiones y me interesa un sitio para mi negocio"

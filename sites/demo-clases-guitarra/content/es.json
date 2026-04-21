@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Clases de Guitarra Fernando de la Mora - Clases Guitarra en Fernando de la Mora",
-      "description": "Clases Guitarra profesional en Fernando de la Mora. Servicios de calidad con atencion personalizada."
+      "description": "Clases Guitarra profesional en Fernando de la Mora. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Clases de Guitarra Fernando de la Mora - Clases Guitarra",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Clases de Guitarra Fernando de la Mora",
     "copyright": "© {{year}} Demo Clases de Guitarra Fernando de la Mora",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Clases de Guitarra y me interesa un sitio para mi negocio"

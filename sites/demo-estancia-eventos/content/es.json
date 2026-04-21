@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Estancia para Eventos Ciudad del Este - Estancia para Eventos en Ciudad del Este",
-      "description": "Estancia para Eventos profesional en Ciudad del Este. Servicios de calidad con atencion personalizada."
+      "description": "Estancia para Eventos profesional en Ciudad del Este. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Estancia para Eventos Ciudad del Este - Estancia para Eventos",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Estancia para Eventos Ciudad del Este",
     "copyright": "© {{year}} Demo Estancia para Eventos Ciudad del Este",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Estancia para Eventos y me interesa un sitio para mi negocio"

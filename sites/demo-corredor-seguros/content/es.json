@@ -4,25 +4,25 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Corredor de Seguros Asuncion",
+  "siteName": "Demo Corredor de Seguros Asunción",
   "tagline": "Seguros de auto, hogar, vida, salud y empresariales.",
   "placeholders": {
-    "businessName": "Demo Corredor de Seguros Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Corredor de Seguros Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Corredor de Seguros Asuncion",
+    "businessName": "Demo Corredor de Seguros Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Corredor de Seguros Asuncion - Corredor de Seguros en Asuncion",
+      "title": "Demo Corredor de Seguros Asunción - Corredor de Seguros en Asunción",
       "description": "Seguros de auto, hogar, vida, salud y empresariales."
     },
     "hero": {
-      "headline": "Demo Corredor de Seguros Asuncion - Protege lo que te importa",
+      "headline": "Demo Corredor de Seguros Asunción - Protege lo que te importa",
       "subheadline": "Seguros de auto, hogar, vida, salud y empresariales.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Corredor%20de%20Seguros%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "broker_seguros"
     }
   },
   "footer": {
-    "businessName": "Demo Corredor de Seguros Asuncion",
-    "copyright": "© {{year}} Demo Corredor de Seguros Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Corredor de Seguros Asunción",
+    "copyright": "© {{year}} Demo Corredor de Seguros Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Corredor de Seguros y me interesa un sitio para mi negocio"

@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Medicina Familiar San Lorenzo - Medicina Familiar en San Lorenzo",
-      "description": "Medicina Familiar profesional en San Lorenzo. Servicios de calidad con atencion personalizada."
+      "description": "Medicina Familiar profesional en San Lorenzo. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Medicina Familiar San Lorenzo - Medicina Familiar",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Medicina Familiar San Lorenzo",
     "copyright": "© {{year}} Demo Medicina Familiar San Lorenzo",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Medicina Familiar y me interesa un sitio para mi negocio"

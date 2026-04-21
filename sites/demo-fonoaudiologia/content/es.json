@@ -22,7 +22,7 @@
       "description": "Terapia de lenguaje, voz y audicion para niños y adultos."
     },
     "hero": {
-      "headline": "Demo Fonoaudiologia Luque - Comunicacion y audicion en buenas manos",
+      "headline": "Demo Fonoaudiologia Luque - Comunicación y audicion en buenas manos",
       "subheadline": "Terapia de lenguaje, voz y audicion para niños y adultos.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fonoaudiologia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Fonoaudiologia Luque",
     "copyright": "© {{year}} Demo Fonoaudiologia Luque",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Fonoaudiologia y me interesa un sitio para mi negocio"

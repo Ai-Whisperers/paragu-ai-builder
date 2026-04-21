@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Farmacia Encarnacion",
     "copyright": "© {{year}} Demo Farmacia Encarnacion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Farmacia y me interesa un sitio para mi negocio"

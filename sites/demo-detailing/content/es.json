@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Detailing Luque",
     "copyright": "© {{year}} Demo Detailing Luque",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Detailing y me interesa un sitio para mi negocio"

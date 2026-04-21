@@ -4,25 +4,25 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Consultora TI Asuncion",
+  "siteName": "Demo Consultora TI Asunción",
   "tagline": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital.",
   "placeholders": {
-    "businessName": "Demo Consultora TI Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Consultora TI Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Consultora TI Asuncion",
+    "businessName": "Demo Consultora TI Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Consultora TI Asuncion - Consultora TI en Asuncion",
+      "title": "Demo Consultora TI Asunción - Consultora TI en Asunción",
       "description": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital."
     },
     "hero": {
-      "headline": "Demo Consultora TI Asuncion - Tecnologia que potencia tu negocio",
+      "headline": "Demo Consultora TI Asunción - Tecnologia que potencia tu negocio",
       "subheadline": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Consultora%20TI%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "consultora_ti"
     }
   },
   "footer": {
-    "businessName": "Demo Consultora TI Asuncion",
-    "copyright": "© {{year}} Demo Consultora TI Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Consultora TI Asunción",
+    "copyright": "© {{year}} Demo Consultora TI Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Consultora TI y me interesa un sitio para mi negocio"

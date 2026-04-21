@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Chapa y Pintura Lambare - Chaperia y Pintura en Lambare",
-      "description": "Chaperia y Pintura profesional en Lambare. Servicios de calidad con atencion personalizada."
+      "description": "Chaperia y Pintura profesional en Lambare. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Chapa y Pintura Lambare - Chaperia y Pintura",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Chapa y Pintura Lambare",
     "copyright": "© {{year}} Demo Chapa y Pintura Lambare",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Chapa y Pintura y me interesa un sitio para mi negocio"

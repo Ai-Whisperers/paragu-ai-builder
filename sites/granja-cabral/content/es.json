@@ -123,7 +123,7 @@
         },
         {
           "quote": "Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente. [Testimonio ilustrativo]",
-          "author": "Restaurante La Tradicion",
+          "author": "Restaurante La Tradición",
           "role": "Ruta 2",
           "rating": 5
         }
@@ -143,6 +143,6 @@
     "copyright": "© 2026 Granja Cabral"
   },
   "whatsapp": {
-    "defaultMessage": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas informacion?"
+    "defaultMessage": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas información?"
   }
 }
