@@ -8,7 +8,8 @@
       ],
       "numberOfRuns": 2,
       "startServerCommand": "npm run build && npm run start",
-      "startServerReadyPattern": "ready on"
+      "startServerReadyPattern": "Ready in",
+      "startServerReadyTimeout": 60000
     },
     "assert": {
       "assertions": {
