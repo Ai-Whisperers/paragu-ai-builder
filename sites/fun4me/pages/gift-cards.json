@@ -39,6 +39,11 @@
       "content": "footer"
     },
     {
+      "id": "compliance-disclaimer-footer",
+      "variant": "standard",
+      "content": "compliance"
+    },
+    {
       "id": "whatsapp-float",
       "variant": "standard",
       "content": "whatsapp"
