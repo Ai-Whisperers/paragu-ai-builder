@@ -2,6 +2,54 @@
 
 All notable changes to this project are documented here. Format follows [Common Changelog](https://common-changelog.org/). Versions are currently date-tagged (calendar releases) rather than semver — the project is pre-1.0 and pushes to production continuously.
 
+A public-facing version of this changelog is rendered at [`/changelog`](https://paragu-ai.com/changelog).
+
+## 2026-04-21 — security & observability hardening
+
+### Added
+- Public `/changelog` page that renders this file — closes BUG_HUNT_500 #499
+- `/api/cron/health` endpoint reports per-cron env-readiness; 503 if any required env unset — closes #436
+- `tests/integration/admin-route-auth-coverage.test.ts` — two regression-locking meta-tests: every API route must (a) import an auth helper or be in the public allowlist with a written reason, (b) be wrapped in `withRequestLog`
+- `/api/webhooks/resend` — Svix-signed bounce/complaint receiver, persists to `webhook_events` — closes #443
+- `<SkipToContent>` link in root layout for keyboard nav — closes #479
+- Per-route Cache-Control headers (admin/auth `no-store`; sitemap/robots/OG long-cached) — closes #482
+- 6 ADRs at `docs/decisions/` documenting Tailwind-3.4.19 pin, Hostinger crontab, env-allowlist admin, Pagopar primary, defer next/image, Supabase client cache — closes #489
+- Doc kit: `GLOSSARY`, `SALES_PLAYBOOK`, `DEMO_GIVEAWAY_SCRIPT`, `CUSTOMER_PLAYBOOK`, `REQUEST_LOG_AUDIT`, `IMAGE_OPTIMIZATION_AUDIT` — closes #490, #491, #492, #493
+- Runbook: `docs/runbooks/ADD_NEW_VERTICAL.md` — closes #485
+
+### Fixed (security)
+- `requireAdminUser` was accepting any signed-in Supabase user (would have let any tenant customer call any of 16+ commerce admin routes). Now also requires `isAdminEmail` per ADR 0003
+- `/api/leads/bulk-update` accepted any signed-in Supabase user → now `checkAdmin()` only
+- `/api/admin/daily-metrics` GET+POST had a fake auth check that accepted any literal `Bearer foo` → now `checkAdmin()`
+- `/api/analytics/track` GET had the same fake-Bearer pattern → now `checkAdmin()`
+- `/api/leads/[id]/notes` was completely unauthenticated; replaced hardcoded `createdBy: 'admin'` with the authenticated user's email
+- `/api/reminders` (GET/POST/PATCH/DELETE) was completely unauthenticated → now `checkAdmin()` on every method
+- `/api/outreach/track` was completely unauthenticated; allowed flipping any lead's `status` to `contacted` by knowing its UUID → now `checkAdmin()`
+- `/api/leads/[id]/generate-preview` was completely unauthenticated; allowed filesystem writes to `sites/preview-<id>/` + lead-status mutation → now `checkAdmin()`
+
+### Fixed (perf + correctness)
+- `/api/analytics/track` Supabase client memoized at module scope (was created fresh per request — cold-start cause); operator-precedence bug in `hashIp` salt fix — closes #423
+- Image audit + `<img>` lazy/async — closes #471
+- Removed unused `fonts.googleapis.com` preconnect — closes #472
+- Cron timezone clarity: every cron route header declares schedule in UTC + Asunción mapping — closes #457
+- Typecheck `npx tsc --noEmit` exits 0 — closes #381–#385
+- `/api/admin/leads` filter-options swallowed Supabase errors silently → explicit `logger.warn` — closes #388
+- Lint cleanup: dead `eslint-disable` directives + unused `generateCacheKey` + `POOL_CONFIG` — closes #393
+
+### Changed
+- README API route count `21 → 52`, section count `83 → 82`; added pointers to all runbooks — closes #483
+- `react/jsx-no-target-blank` enforced as ERROR in eslint — closes #414
+- `LOG_LEVEL` and `LOG_FORMAT` env vars documented in ENV_VARS.md — closes #391
+- `RESEND_WEBHOOK_SECRET` env var documented in ENV_VARS.md
+- All 5 cron routes wrapped in `withRequestLog` and audit-doc tracked — closes #392
+
+### Tests
+- 9 cron tests for `leads-digest` + `sitemap-ping` — closes #475
+- 6 tests for `/api/analytics/track` (incl. "client cached once across N requests")
+- 6 tests for `/api/webhooks/resend` Svix verification
+- 4 tests for `/api/cron/health`
+- 2 meta-tests for auth + request-log coverage
+
 ## 2026-04-20
 
 ### Added

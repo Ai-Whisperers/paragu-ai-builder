@@ -27,6 +27,7 @@ const FOOTER_GROUPS = [
     links: [
       { href: '/blog', label: 'Blog' },
       { href: '/c', label: 'Por ciudad' },
+      { href: '/changelog', label: 'Changelog' },
       { href: '/seguridad', label: 'Privacidad y datos' },
       { href: '/#faq', label: 'FAQ' },
       { href: '/admin', label: 'Acceso clientes' },

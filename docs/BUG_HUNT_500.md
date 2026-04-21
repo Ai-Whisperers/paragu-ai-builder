@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 88 | see closure log below |
+| ✅ Closed | 89 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 412 | the rest |
+| 🔴 Open | 411 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -202,6 +202,11 @@ Closure log:
   tests passing. Wired into CRON_STRATEGY.md as an hourly check. Wire
   this URL into your monitor of choice (Better Uptime, UptimeRobot, etc.)
   to get alerted before a cron silently no-ops on missing env.
+- **#499** — `/changelog` public page renders `CHANGELOG.md` with a small
+  in-file markdown→HTML converter (no new deps). SEO-indexable, linked
+  from the footer "Recursos" group. Doubles as live proof of engineering
+  velocity for prospects. Added a comprehensive 2026-04-21 entry to the
+  CHANGELOG covering all the wave's security + observability work.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
