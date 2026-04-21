@@ -10294,6 +10294,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "vertical"
       },
       {
+        "content": "processPage.highlights",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
         "content": "processPage.faq",
         "id": "faq",
         "variant": "accordion"
@@ -21463,6 +21468,33 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Ein klarer Prozess, Schritt für Schritt",
         "subheadline": "Keine Improvisation. Keine Überraschungen."
       },
+      "highlights": {
+        "columns": 4,
+        "images": [
+          {
+            "alt": "Apostillierte Dokumente",
+            "category": "Apostillierte Unterlagen – fertig vor der Reise.",
+            "src": "@src:process.apostilleStack"
+          },
+          {
+            "alt": "Operativer Tag",
+            "category": "Der operative Tag: alles an einem Termin.",
+            "src": "@src:process.operationalDay"
+          },
+          {
+            "alt": "Familie bei der Einwanderungsbehörde",
+            "category": "Familien-Residenz, vollständig koordiniert.",
+            "src": "@src:process.familyResidency"
+          },
+          {
+            "alt": "Kontoeröffnung bei Private Banking",
+            "category": "Firmen- oder Privatkonto-Eröffnung.",
+            "src": "@src:process.bankCustomerSide"
+          }
+        ],
+        "subtitle": "Die Details, die jede Phase funktionieren lassen.",
+        "title": "Schlüsselmomente der Reise"
+      },
       "process": {
         "ctaHref": "/s/de/nexa-paraguay/contacto",
         "ctaLabel": "Prozess starten",
@@ -23086,6 +23118,33 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "A clear process, step by step",
         "subheadline": "No improvisation. No surprises."
       },
+      "highlights": {
+        "columns": 4,
+        "images": [
+          {
+            "alt": "Apostilled documents ready",
+            "category": "Apostilled paperwork ready before you travel.",
+            "src": "@src:process.apostilleStack"
+          },
+          {
+            "alt": "Operational day",
+            "category": "The operational day: every signature in one visit.",
+            "src": "@src:process.operationalDay"
+          },
+          {
+            "alt": "Family at migrations office",
+            "category": "Family residency, coordinated end-to-end.",
+            "src": "@src:process.familyResidency"
+          },
+          {
+            "alt": "Private-banking account opening",
+            "category": "Corporate or personal bank-account opening.",
+            "src": "@src:process.bankCustomerSide"
+          }
+        ],
+        "subtitle": "The details that make every stage work.",
+        "title": "Key moments of the journey"
+      },
       "process": {
         "ctaHref": "/s/en/nexa-paraguay/contacto",
         "ctaLabel": "Start my process",
@@ -24678,6 +24737,33 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Un proceso claro, paso a paso",
         "subheadline": "Sin improvisación. Sin sorpresas."
+      },
+      "highlights": {
+        "columns": 4,
+        "images": [
+          {
+            "alt": "Documentos apostillados listos",
+            "category": "Documentación apostillada antes del viaje.",
+            "src": "@src:process.apostilleStack"
+          },
+          {
+            "alt": "Jornada operativa",
+            "category": "La jornada operativa: todo en un día.",
+            "src": "@src:process.operationalDay"
+          },
+          {
+            "alt": "Familia en migraciones",
+            "category": "Residencia familiar, proceso coordinado.",
+            "src": "@src:process.familyResidency"
+          },
+          {
+            "alt": "Apertura de cuenta en banca privada",
+            "category": "Apertura de cuenta empresarial o personal.",
+            "src": "@src:process.bankCustomerSide"
+          }
+        ],
+        "subtitle": "Los detalles que hacen que cada etapa funcione.",
+        "title": "Momentos clave del recorrido"
       },
       "process": {
         "ctaHref": "/s/es/nexa-paraguay/contacto",
@@ -26334,6 +26420,33 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Een helder proces, stap voor stap",
         "subheadline": "Geen improvisatie. Geen verrassingen."
+      },
+      "highlights": {
+        "columns": 4,
+        "images": [
+          {
+            "alt": "Geapostilleerde documenten",
+            "category": "Geapostilleerde papieren klaar vóór je vertrek.",
+            "src": "@src:process.apostilleStack"
+          },
+          {
+            "alt": "Operationele dag",
+            "category": "De operationele dag: alles in één bezoek.",
+            "src": "@src:process.operationalDay"
+          },
+          {
+            "alt": "Gezin bij immigratie",
+            "category": "Gezinsresidentie, volledig gecoördineerd.",
+            "src": "@src:process.familyResidency"
+          },
+          {
+            "alt": "Rekeningopening bij private banking",
+            "category": "Zakelijke of persoonlijke rekeningopening.",
+            "src": "@src:process.bankCustomerSide"
+          }
+        ],
+        "subtitle": "De details die elke fase laten werken.",
+        "title": "Belangrijke momenten uit het traject"
       },
       "process": {
         "ctaHref": "/s/nl/nexa-paraguay/contacto",

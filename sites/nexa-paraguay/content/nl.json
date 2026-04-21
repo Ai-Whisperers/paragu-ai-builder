@@ -691,6 +691,33 @@
       "subtitle": "Plan een gratis consult van 30 minuten.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    },
+    "highlights": {
+      "title": "Belangrijke momenten uit het traject",
+      "subtitle": "De details die elke fase laten werken.",
+      "columns": 4,
+      "images": [
+        {
+          "src": "@src:process.apostilleStack",
+          "alt": "Geapostilleerde documenten",
+          "category": "Geapostilleerde papieren klaar vóór je vertrek."
+        },
+        {
+          "src": "@src:process.operationalDay",
+          "alt": "Operationele dag",
+          "category": "De operationele dag: alles in één bezoek."
+        },
+        {
+          "src": "@src:process.familyResidency",
+          "alt": "Gezin bij immigratie",
+          "category": "Gezinsresidentie, volledig gecoördineerd."
+        },
+        {
+          "src": "@src:process.bankCustomerSide",
+          "alt": "Rekeningopening bij private banking",
+          "category": "Zakelijke of persoonlijke rekeningopening."
+        }
+      ]
     }
   },
   "aboutPage": {

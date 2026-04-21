@@ -724,6 +724,33 @@
       "subtitle": "Agende una consulta gratuita de 30 minutos.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
+    },
+    "highlights": {
+      "title": "Momentos clave del recorrido",
+      "subtitle": "Los detalles que hacen que cada etapa funcione.",
+      "columns": 4,
+      "images": [
+        {
+          "src": "@src:process.apostilleStack",
+          "alt": "Documentos apostillados listos",
+          "category": "Documentación apostillada antes del viaje."
+        },
+        {
+          "src": "@src:process.operationalDay",
+          "alt": "Jornada operativa",
+          "category": "La jornada operativa: todo en un día."
+        },
+        {
+          "src": "@src:process.familyResidency",
+          "alt": "Familia en migraciones",
+          "category": "Residencia familiar, proceso coordinado."
+        },
+        {
+          "src": "@src:process.bankCustomerSide",
+          "alt": "Apertura de cuenta en banca privada",
+          "category": "Apertura de cuenta empresarial o personal."
+        }
+      ]
     }
   },
   "aboutPage": {
