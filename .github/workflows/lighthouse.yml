@@ -8,6 +8,8 @@ on:
       - 'web/lib/tokens/**'
       - 'web/app/**'
       - 'sites/**'
+      - 'web/lighthouserc.json'
+      - '.github/workflows/lighthouse.yml'
   workflow_dispatch:
 
 jobs:
