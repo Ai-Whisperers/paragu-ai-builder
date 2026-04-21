@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { loadSite, listPageSlugs } from '@/lib/engine/site-loader'
+import { loadSite, listPageSlugs, loadPage } from '@/lib/engine/site-loader'
 import { listBlogSlugs } from '@/lib/engine/blog-loader'
 import { buildLocaleUrl, type Locale } from '@/lib/i18n/routing'
 import { isLocale } from '@/lib/i18n/config'
@@ -24,6 +24,10 @@ export async function GET(
   const urls: Array<{ loc: string; alternates: Array<{ hreflang: string; href: string }> }> = []
 
   for (const page of pages) {
+    // Skip pages that explicitly opt out of the sitemap (e.g. ad landings
+    // that must only be reached via attribution URLs).
+    const def = loadPage(slug, page)
+    if (def?.hiddenFromSitemap) continue
     const pathPart = page === 'home' ? '' : page
     const alternates = site.locales.map((l) => ({
       hreflang: l,

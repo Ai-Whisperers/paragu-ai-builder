@@ -84,6 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const composed = composeSitePage({ siteSlug, locale, pageSlug })
     const site = composed.site
+    const pageDef = (composed.page ?? {}) as { hiddenFromSitemap?: boolean }
     const alternates = alternatesFor(siteSlug, site.locales, pageSlug === 'home' ? '' : pageSlug)
     const isDemo = Boolean((site as { is_demo?: boolean }).is_demo)
     // Point OG image at the tenant-specific handler at
@@ -130,7 +131,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // Demo tenants must not compete in search with real client sites or
       // the marketing site itself. Excludes them from indexing while still
       // serving the page for prospects we link manually.
-      ...(isDemo && { robots: { index: false, follow: false } }),
+      // Hidden pages (`hiddenFromSitemap`) are ad landings — also noindex.
+      ...((isDemo || pageDef.hiddenFromSitemap) && {
+        robots: { index: false, follow: false },
+      }),
     }
   } catch {
     return { title: 'Not found' }
