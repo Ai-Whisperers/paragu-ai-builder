@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Fotografia de Producto Asuncion",
+  "tagline": "Fotografia profesional para e-commerce, catalogos y marketing.",
+  "placeholders": {
+    "businessName": "Demo Fotografia de Producto Asuncion",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Fotografia de Producto Asuncion",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Fotografia de Producto Asuncion - Fotografia de Producto en Asuncion",
+      "description": "Fotografia profesional para e-commerce, catalogos y marketing."
+    },
+    "hero": {
+      "headline": "Demo Fotografia de Producto Asuncion - Tus productos vendidos por la imagen",
+      "subheadline": "Fotografia profesional para e-commerce, catalogos y marketing.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Fotografia%20de%20Producto%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asuncion",
+      "formSource": "demo",
+      "demoRubro": "fotografia_producto"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Fotografia de Producto Asuncion",
+    "copyright": "© {{year}} Demo Fotografia de Producto Asuncion",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Fotografia de Producto y me interesa un sitio para mi negocio"
+  }
+}

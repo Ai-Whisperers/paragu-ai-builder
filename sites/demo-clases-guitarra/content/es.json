@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Clases de Guitarra Fernando de la Mora",
+  "tagline": "Clases Guitarra profesional en Fernando de la Mora.",
+  "placeholders": {
+    "businessName": "Demo Clases de Guitarra Fernando de la Mora",
+    "city": "Fernando de la Mora",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Clases de Guitarra Fernando de la Mora",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Clases de Guitarra Fernando de la Mora - Clases Guitarra en Fernando de la Mora",
+      "description": "Clases Guitarra profesional en Fernando de la Mora. Servicios de calidad con atencion personalizada."
+    },
+    "hero": {
+      "headline": "Demo Clases de Guitarra Fernando de la Mora - Clases Guitarra",
+      "subheadline": "Clases Guitarra profesional en Fernando de la Mora.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Clases%20de%20Guitarra%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Fernando de la Mora",
+      "formSource": "demo",
+      "demoRubro": "guitar_lessons"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Clases de Guitarra Fernando de la Mora",
+    "copyright": "© {{year}} Demo Clases de Guitarra Fernando de la Mora",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Clases de Guitarra y me interesa un sitio para mi negocio"
+  }
+}

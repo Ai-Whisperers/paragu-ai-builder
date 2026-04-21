@@ -1,0 +1,33 @@
+{
+  "vertical": "education-training",
+  "businessType": "guitar_lessons",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595981000000",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.guitar.lessons.py"
+  },
+  "location": {
+    "city": "Fernando de la Mora"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "guitar_lessons",
+  "demoWave": 2,
+  "demoCluster": "G Education",
+  "noindex": true,
+  "createdAt": "2026-04-21",
+  "source": "batch-create-demos"
+}
