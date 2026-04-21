@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Check, MessageCircle } from 'lucide-react'
 import { Heading } from '@/components/ui/heading'
@@ -28,6 +28,18 @@ export function DemoQualifier() {
   const [rubro, setRubro] = useState<string>('')
   const [size, setSize] = useState<string>('')
   const [presence, setPresence] = useState<string>('')
+
+  // BUG_HUNT_500 #379: pre-fill rubro from ?v=<id> query param. Visitors
+  // who came from a /p/[rubro] CTA arrive with their vertical preselected.
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const params = new URLSearchParams(window.location.search)
+    const v = params.get('v')
+    if (v && TEMPLATES.some((t) => t.id === v || t.seoSlug === v)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setRubro(TEMPLATES.find((t) => t.id === v || t.seoSlug === v)?.id ?? '')
+    }
+  }, [])
 
   const liveSlugs = useMemo(() => new Set(LIVE_TEMPLATES.map((t) => t.id)), [])
   const orderedTemplates = useMemo(
@@ -94,7 +106,10 @@ export function DemoQualifier() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      {/* Progress */}
+      {/* Progress: numeric label + bar (BUG_HUNT_500 #375) */}
+      <div className="mb-3 text-center text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+        Paso {Math.min(step + 1, 4)} de 4
+      </div>
       <div className="mb-8 flex items-center justify-center gap-2">
         {[0, 1, 2, 3].map((i) => (
           <div
@@ -197,10 +212,20 @@ export function DemoQualifier() {
               <Check size={28} />
             </div>
             <Heading level={2} className="mb-3 text-2xl">Listo. Mandanos el WhatsApp.</Heading>
-            <p className="mb-6 text-[var(--text-light)]">
-              Ya armamos el mensaje con la info que nos diste. Hacé clic abajo, revisalo si querés
-              y mandalo. Te respondemos en horario hábil.
-            </p>
+            {/* BUG_HUNT_500 #372: visitors who picked a vertical without a
+                live demo get a friendlier framing — we still want them. */}
+            {rubro && !liveSlugs.has(rubro) ? (
+              <p className="mb-6 text-[var(--text-light)]">
+                Tu rubro es uno donde todavía no tenemos plantilla productizada,
+                pero <strong className="text-[var(--text)]">vos podés ser nuestro primer caso</strong>.
+                Mandanos el WhatsApp y armamos algo a medida.
+              </p>
+            ) : (
+              <p className="mb-6 text-[var(--text-light)]">
+                Ya armamos el mensaje con la info que nos diste. Hacé clic abajo, revisalo si querés
+                y mandalo. Te respondemos en horario hábil.
+              </p>
+            )}
             <pre className="mb-6 whitespace-pre-wrap rounded-xl bg-[var(--surface-light)] p-4 text-left text-sm text-[var(--text)]">
               {waMessage}
             </pre>
