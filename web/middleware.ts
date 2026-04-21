@@ -42,13 +42,21 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
       const siteSlugs = listSiteSlugs()
       if (siteSlugs.includes(firstSegment)) {
         const site = loadSite(firstSegment)
-        const locale = request.cookies.get('NEXT_LOCALE')?.value
-          || site.defaultLocale
-          || site.locales?.[0]
-          || 'es'
+        // Locale priority:
+        //   1. `NEXT_LOCALE` cookie — respects the visitor's previous explicit choice
+        //   2. Best match of Accept-Language against the site's enabled locales
+        //   3. site.defaultLocale
+        //   4. First enabled locale
+        //   5. 'es' as universal fallback
+        const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value
+        const acceptHeader = request.headers.get('accept-language') || ''
+        const enabled = site.locales || []
+        const negotiated = cookieLocale && enabled.includes(cookieLocale)
+          ? cookieLocale
+          : pickBestLocale(acceptHeader, enabled) || site.defaultLocale || enabled[0] || 'es'
         const remainder = path.slice(firstSegment.length + 1) // drop "/<slug>"
         const url = request.nextUrl.clone()
-        url.pathname = `/s/${locale}/${firstSegment}${remainder ? remainder : ''}`
+        url.pathname = `/s/${negotiated}/${firstSegment}${remainder ? remainder : ''}`
         return NextResponse.rewrite(url)
       }
     } catch (error) {
@@ -153,6 +161,54 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   }
 
   return response
+}
+
+/**
+ * Pick the best-matching locale from an Accept-Language header against
+ * a set of enabled locales. Returns the first enabled locale that matches
+ * any language-tag in the header (in q-weighted order), or undefined if
+ * nothing matches.
+ *
+ * Handles three match levels in priority order:
+ *   1. Exact tag match (e.g. 'de-DE' in enabled → 'de-DE')
+ *   2. Primary subtag match (e.g. 'de-DE' in header → 'de' in enabled)
+ *   3. Case-insensitive
+ *
+ * Intentionally simple — we're not implementing full BCP-47 negotiation,
+ * just picking from a short list (usually 4 locales). No regex for the
+ * q-value parser — a simple split is fine for well-formed Accept-Language.
+ */
+function pickBestLocale(acceptLanguage: string, enabled: readonly string[]): string | undefined {
+  if (!acceptLanguage || enabled.length === 0) return undefined
+
+  // Parse "en-US,en;q=0.9,de;q=0.8" into [['en-US',1],['en',0.9],['de',0.8]]
+  const tags = acceptLanguage
+    .split(',')
+    .map((entry) => {
+      const [tag, ...params] = entry.trim().split(';')
+      const q = params
+        .map((p) => p.trim())
+        .find((p) => p.startsWith('q='))
+      const weight = q ? Number(q.slice(2)) : 1
+      return { tag: tag.trim().toLowerCase(), weight: Number.isFinite(weight) ? weight : 1 }
+    })
+    .filter((t) => t.tag)
+    .sort((a, b) => b.weight - a.weight)
+
+  const enabledLower = enabled.map((l) => l.toLowerCase())
+
+  // Pass 1: exact tag match (respecting q-order)
+  for (const { tag } of tags) {
+    const i = enabledLower.indexOf(tag)
+    if (i !== -1) return enabled[i]
+  }
+  // Pass 2: primary subtag match (de-DE → de)
+  for (const { tag } of tags) {
+    const primary = tag.split('-')[0]
+    const i = enabledLower.indexOf(primary)
+    if (i !== -1) return enabled[i]
+  }
+  return undefined
 }
 
 export const config = {
