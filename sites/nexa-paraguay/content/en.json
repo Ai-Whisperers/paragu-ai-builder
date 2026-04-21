@@ -70,22 +70,26 @@
         {
           "icon": "Package",
           "title": "One program",
-          "description": "Residency, company and bank account integrated."
+          "description": "Residency, company and bank account integrated.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "One trip",
-          "description": "All in-person steps done in a single coordinated day."
+          "description": "All in-person steps done in a single coordinated day.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "One team",
-          "description": "Lawyers, accountants, notaries and financial advisors."
+          "description": "Lawyers, accountants, notaries and financial advisors.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparent pricing",
-          "description": "All-inclusive. No hidden fees."
+          "description": "All-inclusive. No hidden fees.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -537,22 +541,26 @@
         {
           "icon": "Package",
           "title": "One program",
-          "description": "Residency, company and bank account integrated."
+          "description": "Residency, company and bank account integrated.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "One trip",
-          "description": "In-person processing in a single coordinated day."
+          "description": "In-person processing in a single coordinated day.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "One team",
-          "description": "Lawyers, accountants, notaries, financial advisors."
+          "description": "Lawyers, accountants, notaries, financial advisors.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparent pricing",
-          "description": "All inclusive. No hidden fees."
+          "description": "All inclusive. No hidden fees.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -723,22 +731,26 @@
         {
           "icon": "Package",
           "title": "One program",
-          "description": "Residency, company and bank account integrated."
+          "description": "Residency, company and bank account integrated.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "One trip",
-          "description": "In-person processing in a single coordinated day."
+          "description": "In-person processing in a single coordinated day.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "One team",
-          "description": "Lawyers, accountants, notaries, financial advisors."
+          "description": "Lawyers, accountants, notaries, financial advisors.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparent pricing",
-          "description": "All inclusive. No hidden fees."
+          "description": "All inclusive. No hidden fees.",
+          "image": "@src:trust.registry"
         }
       ]
     },

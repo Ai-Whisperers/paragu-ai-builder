@@ -70,22 +70,26 @@
         {
           "icon": "Package",
           "title": "Un solo programa",
-          "description": "Residencia, sociedad y cuenta bancaria integrados."
+          "description": "Residencia, sociedad y cuenta bancaria integrados.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Un solo viaje",
-          "description": "Tramitación presencial en una jornada coordinada."
+          "description": "Tramitación presencial en una jornada coordinada.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Un solo equipo",
-          "description": "Abogados, contadores, escribanos, asesores financieros."
+          "description": "Abogados, contadores, escribanos, asesores financieros.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Precio transparente",
-          "description": "Todo incluido. Sin cargos ocultos."
+          "description": "Todo incluido. Sin cargos ocultos.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -601,22 +605,26 @@
         {
           "icon": "Package",
           "title": "Un solo programa",
-          "description": "Residencia, sociedad y cuenta bancaria integrados."
+          "description": "Residencia, sociedad y cuenta bancaria integrados.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Un solo viaje",
-          "description": "Tramitación presencial en una jornada coordinada."
+          "description": "Tramitación presencial en una jornada coordinada.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Un solo equipo",
-          "description": "Abogados, contadores, escribanos, asesores financieros."
+          "description": "Abogados, contadores, escribanos, asesores financieros.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Precio transparente",
-          "description": "Todo incluido. Sin cargos ocultos."
+          "description": "Todo incluido. Sin cargos ocultos.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -787,22 +795,26 @@
         {
           "icon": "Package",
           "title": "Un solo programa",
-          "description": "Residencia, sociedad y cuenta bancaria integrados."
+          "description": "Residencia, sociedad y cuenta bancaria integrados.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Un solo viaje",
-          "description": "Tramitación presencial en una jornada coordinada."
+          "description": "Tramitación presencial en una jornada coordinada.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Un solo equipo",
-          "description": "Abogados, contadores, escribanos, asesores financieros."
+          "description": "Abogados, contadores, escribanos, asesores financieros.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Precio transparente",
-          "description": "Todo incluido. Sin cargos ocultos."
+          "description": "Todo incluido. Sin cargos ocultos.",
+          "image": "@src:trust.registry"
         }
       ]
     },

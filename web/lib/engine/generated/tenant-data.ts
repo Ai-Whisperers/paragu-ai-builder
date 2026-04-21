@@ -20199,21 +20199,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Ein Programm"
           },
           {
             "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Eine Reise"
           },
           {
             "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Ein Team"
           },
           {
             "description": "Alles inklusive. Keine versteckten Kosten.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparenter Preis"
           }
         ],
@@ -20568,21 +20572,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Ein Programm"
           },
           {
             "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Eine Reise"
           },
           {
             "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Ein Team"
           },
           {
             "description": "Alles inklusive. Keine versteckten Kosten.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparenter Preis"
           }
         ],
@@ -21199,21 +21207,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Ein Programm"
           },
           {
             "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Eine Reise"
           },
           {
             "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Ein Team"
           },
           {
             "description": "Alles inklusive. Keine versteckten Kosten.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparenter Preis"
           }
         ],
@@ -21322,21 +21334,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Residency, company and bank account integrated.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "One program"
           },
           {
             "description": "In-person processing in a single coordinated day.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "One trip"
           },
           {
             "description": "Lawyers, accountants, notaries, financial advisors.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "One team"
           },
           {
             "description": "All inclusive. No hidden fees.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparent pricing"
           }
         ],
@@ -21691,21 +21707,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Residency, company and bank account integrated.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "One program"
           },
           {
             "description": "All in-person steps done in a single coordinated day.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "One trip"
           },
           {
             "description": "Lawyers, accountants, notaries and financial advisors.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "One team"
           },
           {
             "description": "All-inclusive. No hidden fees.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparent pricing"
           }
         ],
@@ -22291,21 +22311,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Residency, company and bank account integrated.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "One program"
           },
           {
             "description": "In-person processing in a single coordinated day.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "One trip"
           },
           {
             "description": "Lawyers, accountants, notaries, financial advisors.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "One team"
           },
           {
             "description": "All inclusive. No hidden fees.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparent pricing"
           }
         ],
@@ -22414,21 +22438,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Residencia, sociedad y cuenta bancaria integrados.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Un solo programa"
           },
           {
             "description": "Tramitación presencial en una jornada coordinada.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Un solo viaje"
           },
           {
             "description": "Abogados, contadores, escribanos, asesores financieros.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Un solo equipo"
           },
           {
             "description": "Todo incluido. Sin cargos ocultos.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Precio transparente"
           }
         ],
@@ -22784,21 +22812,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Residencia, sociedad y cuenta bancaria integrados.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Un solo programa"
           },
           {
             "description": "Tramitación presencial en una jornada coordinada.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Un solo viaje"
           },
           {
             "description": "Abogados, contadores, escribanos, asesores financieros.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Un solo equipo"
           },
           {
             "description": "Todo incluido. Sin cargos ocultos.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Precio transparente"
           }
         ],
@@ -23448,21 +23480,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Residencia, sociedad y cuenta bancaria integrados.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Un solo programa"
           },
           {
             "description": "Tramitación presencial en una jornada coordinada.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Un solo viaje"
           },
           {
             "description": "Abogados, contadores, escribanos, asesores financieros.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Un solo equipo"
           },
           {
             "description": "Todo incluido. Sin cargos ocultos.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Precio transparente"
           }
         ],
@@ -23571,21 +23607,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Eén programma"
           },
           {
             "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Eén reis"
           },
           {
             "description": "Advocaten, accountants, notarissen en financieel adviseurs.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Eén team"
           },
           {
             "description": "Alles inbegrepen. Geen verborgen kosten.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparante prijs"
           }
         ],
@@ -23940,21 +23980,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Eén programma"
           },
           {
             "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Eén reis"
           },
           {
             "description": "Advocaten, accountants, notarissen en financieel adviseurs.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Eén team"
           },
           {
             "description": "Alles inbegrepen. Geen verborgen kosten.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparante prijs"
           }
         ],
@@ -24571,21 +24615,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd.",
             "icon": "Package",
+            "image": "@src:trust.certificate",
             "title": "Eén programma"
           },
           {
             "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag.",
             "icon": "Plane",
+            "image": "@src:trust.migraciones",
             "title": "Eén reis"
           },
           {
             "description": "Advocaten, accountants, notarissen en financieel adviseurs.",
             "icon": "Users",
+            "image": "@src:trust.cedula",
             "title": "Eén team"
           },
           {
             "description": "Alles inbegrepen. Geen verborgen kosten.",
             "icon": "Shield",
+            "image": "@src:trust.registry",
             "title": "Transparante prijs"
           }
         ],

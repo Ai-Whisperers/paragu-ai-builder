@@ -73,22 +73,26 @@
         {
           "icon": "Package",
           "title": "Ein Programm",
-          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert."
+          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eine Reise",
-          "description": "Alle Präsenz-Schritte an einem koordinierten Tag."
+          "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Ein Team",
-          "description": "Anwälte, Steuerberater, Notare und Finanzberater."
+          "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparenter Preis",
-          "description": "Alles inklusive. Keine versteckten Kosten."
+          "description": "Alles inklusive. Keine versteckten Kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -571,22 +575,26 @@
         {
           "icon": "Package",
           "title": "Ein Programm",
-          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert."
+          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eine Reise",
-          "description": "Alle Präsenz-Schritte an einem koordinierten Tag."
+          "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Ein Team",
-          "description": "Anwälte, Steuerberater, Notare und Finanzberater."
+          "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparenter Preis",
-          "description": "Alles inklusive. Keine versteckten Kosten."
+          "description": "Alles inklusive. Keine versteckten Kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -757,22 +765,26 @@
         {
           "icon": "Package",
           "title": "Ein Programm",
-          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert."
+          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eine Reise",
-          "description": "Alle Präsenz-Schritte an einem koordinierten Tag."
+          "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Ein Team",
-          "description": "Anwälte, Steuerberater, Notare und Finanzberater."
+          "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparenter Preis",
-          "description": "Alles inklusive. Keine versteckten Kosten."
+          "description": "Alles inklusive. Keine versteckten Kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },

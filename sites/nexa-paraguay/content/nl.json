@@ -70,22 +70,26 @@
         {
           "icon": "Package",
           "title": "Eén programma",
-          "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd."
+          "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eén reis",
-          "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag."
+          "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Eén team",
-          "description": "Advocaten, accountants, notarissen en financieel adviseurs."
+          "description": "Advocaten, accountants, notarissen en financieel adviseurs.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparante prijs",
-          "description": "Alles inbegrepen. Geen verborgen kosten."
+          "description": "Alles inbegrepen. Geen verborgen kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -568,22 +572,26 @@
         {
           "icon": "Package",
           "title": "Eén programma",
-          "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd."
+          "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eén reis",
-          "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag."
+          "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Eén team",
-          "description": "Advocaten, accountants, notarissen en financieel adviseurs."
+          "description": "Advocaten, accountants, notarissen en financieel adviseurs.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparante prijs",
-          "description": "Alles inbegrepen. Geen verborgen kosten."
+          "description": "Alles inbegrepen. Geen verborgen kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -754,22 +762,26 @@
         {
           "icon": "Package",
           "title": "Eén programma",
-          "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd."
+          "description": "Verblijfsvergunning, vennootschap en bankrekening geïntegreerd.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eén reis",
-          "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag."
+          "description": "Alle persoonlijke afhandelingen in één gecoördineerde dag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Eén team",
-          "description": "Advocaten, accountants, notarissen en financieel adviseurs."
+          "description": "Advocaten, accountants, notarissen en financieel adviseurs.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparante prijs",
-          "description": "Alles inbegrepen. Geen verborgen kosten."
+          "description": "Alles inbegrepen. Geen verborgen kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
