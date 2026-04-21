@@ -1,0 +1,33 @@
+{
+  "vertical": "real-estate-relocation",
+  "businessType": "inmobiliaria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595981000000",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.inmobiliaria.py"
+  },
+  "location": {
+    "city": "Asuncion"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "inmobiliaria",
+  "demoWave": 3,
+  "demoCluster": "D Lead-gen",
+  "noindex": true,
+  "createdAt": "2026-04-21",
+  "source": "batch-create-demos"
+}
