@@ -19,6 +19,7 @@ import { PriceDisplay } from '@/components/commerce/price-display'
 import { ReviewList } from '@/components/commerce/review-list'
 import { ReviewForm } from '@/components/commerce/review-form'
 import { ReviewStars } from '@/components/commerce/review-stars'
+import { PdpStickyMobileCta } from '@/components/commerce/pdp-sticky-mobile-cta'
 import {
   listApprovedReviews,
   getReviewAggregatesByBusiness,
@@ -166,7 +167,7 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
             <p className="mt-6 whitespace-pre-line text-[color:var(--text,#111)]">{product.description}</p>
           ) : null}
 
-          <div className="mt-6">
+          <div id="pdp-main-add-to-cart" className="mt-6">
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
           </div>
 
@@ -233,6 +234,20 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           </div>
         </section>
       ) : null}
+
+      {/* Mobile-only sticky CTA. Extra bottom padding on the page so content
+          isn't hidden behind the bar on mobile. */}
+      <div aria-hidden className="h-16 md:hidden" />
+      <PdpStickyMobileCta
+        siteSlug={site}
+        productId={product.id}
+        productName={product.name}
+        priceCents={product.priceCents}
+        currency={product.currency}
+        inventoryQty={product.inventoryQty}
+        inventoryPolicy={product.inventoryPolicy}
+        imageUrl={cover?.url ?? null}
+      />
     </div>
   )
 }
