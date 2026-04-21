@@ -1,6 +1,8 @@
 import { pagoparFetch, signPagopar, getPagoparTokens } from './client'
 import { initTransaction } from './transactions'
 import { verifyPagoparWebhook, mapPagoparStatus } from './webhooks'
+import { loadCommissionConfig } from '@/lib/commerce/business-commission'
+import { logger } from '@/lib/logger'
 import type { PagoparWebhookPayload } from './webhooks'
 import type { PaymentProviderAdapter } from '../types'
 
@@ -11,13 +13,39 @@ export const pagoparAdapter: PaymentProviderAdapter = {
     const { publicToken, privateToken } = getPagoparTokens()
     const cancelUrl = opts.returnUrl.replace(/([?&])status=\w+/, '') + (opts.returnUrl.includes('?') ? '&' : '?') + 'status=failure'
 
-    const { hashPedido, checkoutUrl } = await initTransaction(order, {
+    // Commission is loaded inside the adapter so the router/failover never
+    // needs to know about billing rules. Failures fall back to "no commission"
+    // rather than blocking the sale — better to miss a fee than lose a sale.
+    let commission
+    try {
+      commission = await loadCommissionConfig(order.businessId)
+    } catch (err) {
+      logger.warn('[pagopar] commission config lookup failed, skipping commission', {
+        action: 'pagopar.commission.lookup_failed',
+        businessId: order.businessId,
+        error: err instanceof Error ? err.message : String(err),
+      })
+      commission = undefined
+    }
+
+    const { hashPedido, checkoutUrl, commissionCents } = await initTransaction(order, {
       publicToken,
       privateToken,
       returnUrl: opts.returnUrl.includes('?') ? `${opts.returnUrl}&status=success` : `${opts.returnUrl}?status=success`,
       cancelUrl,
       webhookUrl: opts.webhookUrl,
+      commission,
     })
+
+    if (commissionCents > 0) {
+      logger.info('[commerce] commission split configured', {
+        action: 'commerce.commission.split',
+        businessId: order.businessId,
+        orderId: order.id,
+        commissionCents,
+        percent: commission?.percent,
+      })
+    }
 
     return {
       redirectUrl: checkoutUrl,

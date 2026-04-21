@@ -8,6 +8,7 @@ import { isLocale, type Locale } from '@/lib/i18n/config'
 import { jsonLdForPage } from '@/lib/engine/schema-org'
 import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
+import { DemoBadge } from '@/components/universal/demo-badge'
 import { loadVerticalCopy } from '@/lib/engine/site-loader'
 import { logger } from '@/lib/logger'
 
@@ -133,6 +134,8 @@ export default async function TenantPage({ params }: Props) {
       >
         {renderPage(composed)}
       </div>
+
+      <DemoBadge isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} vertical={composed.site.vertical} />
 
       {ga4MeasurementId && <Ga4Loader measurementId={ga4MeasurementId} />}
 

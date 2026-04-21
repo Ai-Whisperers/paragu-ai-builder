@@ -153,6 +153,11 @@ export interface BusinessData {
     title: string
     description: string
   }>
+  /**
+   * When true, the rendered page shows a `<DemoBadge>` ribbon so prospects
+   * know it's not a real client. Defaults false (real tenants).
+   */
+  isDemo?: boolean
 }
 
 export interface ComposedPage {
