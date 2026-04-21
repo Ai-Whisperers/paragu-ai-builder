@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 74 | see closure log below |
+| ✅ Closed | 75 | see closure log below |
 | 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 426 | the rest |
+| 🔴 Open | 425 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -103,6 +103,10 @@ Closure log:
   asserts `createClient` is called exactly once across 5 POSTs. Also fixed
   a real `hashIp` operator-precedence bug where `ip + process.env.SALT || 'fallback'`
   always took the first operand, making the salt fallback dead.
+- **#418** — verified `@typescript-eslint/ban-ts-comment` is enabled at error
+  level with default config (which forbids `@ts-ignore` outright — stricter
+  than the original "fail without explanation" ask). Zero existing
+  `@ts-ignore` / `@ts-nocheck` / `@ts-expect-error` in app code.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
