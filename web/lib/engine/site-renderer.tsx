@@ -49,6 +49,9 @@ import { RecipeSection } from '@/components/sections/recipe-section'
 import { TaxSavingsCalculatorSection } from '@/components/sections/tax-savings-calculator-section'
 import { IntakeWizardSection } from '@/components/sections/intake-wizard-section'
 import { FeaturesSection } from '@/components/sections/features-section'
+import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
+import { ProcessSection } from '@/components/sections/process-section'
+import { MenuCategorizedPricedSection } from '@/components/sections/menu-categorized-priced-section'
 import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
 import { PromoBannerSection } from '@/components/sections/promo-banner-section'
 import { NewsletterSignupSection } from '@/components/sections/newsletter-signup-section'
@@ -99,6 +102,9 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'tax-savings-calculator': TaxSavingsCalculatorSection,
   'intake-wizard': IntakeWizardSection,
   features: FeaturesSection,
+  'intake-questionnaire': IntakeQuestionnaireSection,
+  process: ProcessSection,
+  'menu-categorized-priced': MenuCategorizedPricedSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {
