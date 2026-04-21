@@ -108,7 +108,10 @@
             "Logistics support"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -127,7 +130,10 @@
             "Fees, VAT and official taxes included"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -143,7 +149,10 @@
             "Direct access to technical team"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -159,7 +168,10 @@
             "Land registry inscription"
           ],
           "ctaLabel": "Inquire",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -222,35 +234,45 @@
           "title": "Initial consultation",
           "description": "We review your situation, goals, and the right program.",
           "icon": "MessageCircle",
-          "image": { "$img": "process.consultation" }
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Document validation",
           "description": "Our team verifies everything before you travel. You only travel when ready.",
           "icon": "FileCheck",
-          "image": { "$img": "process.documents" }
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operational day",
           "description": "All in-person steps executed in a single day.",
           "icon": "MapPin",
-          "image": { "$img": "process.arrival" }
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Company and banking",
           "description": "We incorporate your company and coordinate the bank opening.",
           "icon": "Building",
-          "image": { "$img": "process.banking" }
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Delivery and follow-up",
           "description": "You receive final documents and we close the program.",
           "icon": "CheckCircle",
-          "image": { "$img": "process.completion" }
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -289,7 +311,10 @@
             "Logistical support"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -308,7 +333,10 @@
             "Fees, VAT and taxes included"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -324,7 +352,10 @@
             "Direct access to technical team"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "land",
@@ -340,7 +371,10 @@
             "Agricultural advisory (optional)"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -550,35 +584,45 @@
           "title": "Initial consultation",
           "description": "We review your situation, goals, and the right program.",
           "icon": "MessageCircle",
-          "image": { "$img": "process.consultation" }
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Document validation",
           "description": "Our team verifies everything before you travel. You only travel when ready.",
           "icon": "FileCheck",
-          "image": { "$img": "process.documents" }
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operational day",
           "description": "All in-person steps executed in a single day.",
           "icon": "MapPin",
-          "image": { "$img": "process.arrival" }
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Company and banking",
           "description": "We incorporate your company and coordinate the bank opening.",
           "icon": "Building",
-          "image": { "$img": "process.banking" }
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Delivery and follow-up",
           "description": "You receive final documents and we close the program.",
           "icon": "CheckCircle",
-          "image": { "$img": "process.completion" }
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },

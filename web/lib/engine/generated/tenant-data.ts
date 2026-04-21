@@ -20436,6 +20436,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Beratung anfragen",
             "description": "Aufenthalt + Identitätskarte.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Aufenthaltserlaubnis",
               "Identitätskarte",
@@ -20454,6 +20457,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Aufenthalt + Gesellschaft + Bankkonto.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Alles aus Base",
               "Gesellschaftsgründung",
@@ -20471,6 +20477,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Beratung anfragen",
             "description": "Alles aus Business + 12 Monate Begleitung.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Alles aus Business",
               "Buchhaltung (12 Monate)",
@@ -20487,6 +20496,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Anfragen",
             "description": "Eigene Dienstleistung von Nexa.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Profil- und Kriteriendefinition",
               "Suche und Short-List",
@@ -20859,6 +20871,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Beratung anfragen",
             "description": "Aufenthalt + Identitätskarte.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Aufenthaltserlaubnis",
               "Identitätskarte",
@@ -20877,6 +20892,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Aufenthalt + Gesellschaft + Bankkonto.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Alles aus Base",
               "Gesellschaftsgründung",
@@ -20894,6 +20912,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Beratung anfragen",
             "description": "Alles aus Business + 12 Monate Begleitung.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Alles aus Business",
               "Buchhaltung (12 Monate)",
@@ -20910,6 +20931,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Anfragen",
             "description": "Eigene Dienstleistung von Nexa.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Profil- und Kriteriendefinition",
               "Suche und Short-List",
@@ -21502,6 +21526,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Request consultation",
             "description": "Paraguayan residency + ID card.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Paraguayan residency",
               "Identity card",
@@ -21520,6 +21547,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Residency + company + bank account.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Everything in Base",
               "Company incorporation",
@@ -21537,6 +21567,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Request consultation",
             "description": "Everything in Business + 12-month support.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Everything in Business",
               "Accounting (12 months)",
@@ -21553,6 +21586,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Inquire",
             "description": "Nexa's own service. Full advisory.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Profile and criteria definition",
               "Search and short-listing",
@@ -21910,6 +21946,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Request consultation",
             "description": "Residency and Paraguayan ID card.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Paraguayan Residency",
               "ID Card",
@@ -21928,6 +21967,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Residency + company + bank account.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Everything in Base",
               "Company formation",
@@ -21945,6 +21987,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Request consultation",
             "description": "Everything in Business + 12 months of support.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Everything in Business",
               "Corporate accounting (12 months)",
@@ -21961,6 +22006,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Request consultation",
             "description": "Everything in Investor + land purchase.",
             "id": "land",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Everything in Investor",
               "Strategic land search",
@@ -22538,6 +22586,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Solicitar consulta",
             "description": "Residencia y cédula paraguaya.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Residencia Paraguaya",
               "Cédula de Identidad",
@@ -22556,6 +22607,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Residencia + sociedad + cuenta bancaria.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Todo lo de Base",
               "Constitución de sociedad",
@@ -22573,6 +22627,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Solicitar consulta",
             "description": "Todo lo de Business + 12 meses de acompañamiento.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Todo lo de Business",
               "Contabilidad empresarial (12 meses)",
@@ -22589,6 +22646,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar",
             "description": "Servicio propio de Nexa. Asesoría integral.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Definición de perfil y criterios",
               "Búsqueda y short-list",
@@ -22994,6 +23054,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Solicitar consulta",
             "description": "Residencia y cédula paraguaya.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Residencia Paraguaya",
               "Cédula de Identidad",
@@ -23012,6 +23075,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Residencia + sociedad + cuenta bancaria.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Todo lo de Base",
               "Constitución de sociedad",
@@ -23029,6 +23095,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Solicitar consulta",
             "description": "Todo lo de Business + 12 meses de acompañamiento.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Todo lo de Business",
               "Contabilidad empresarial (12 meses)",
@@ -23045,6 +23114,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar",
             "description": "Servicio propio de Nexa. Asesoría integral.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Definición de perfil y criterios",
               "Búsqueda y short-list",
@@ -23637,6 +23709,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consult aanvragen",
             "description": "Paraguayaanse verblijfsvergunning en identiteitskaart.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Paraguayaanse verblijfsvergunning",
               "Identiteitskaart",
@@ -23655,6 +23730,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Verblijfsvergunning + vennootschap + bankrekening.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Alles van Base",
               "Oprichting vennootschap",
@@ -23672,6 +23750,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consult aanvragen",
             "description": "Alles van Business + 12 maanden begeleiding.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Alles van Business",
               "Boekhouding (12 maanden)",
@@ -23688,6 +23769,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Informeer",
             "description": "Eigen dienst van Nexa. Integraal advies.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Profiel- en criteriadefinitie",
               "Zoektocht en shortlist",
@@ -24060,6 +24144,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consult aanvragen",
             "description": "Paraguayaanse verblijfsvergunning en identiteitskaart.",
             "id": "base",
+            "image": {
+              "$img": "programs.tierBase"
+            },
             "included": [
               "Paraguayaanse verblijfsvergunning",
               "Identiteitskaart",
@@ -24078,6 +24165,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Verblijfsvergunning + vennootschap + bankrekening.",
             "highlighted": true,
             "id": "business",
+            "image": {
+              "$img": "programs.tierBusiness"
+            },
             "included": [
               "Alles van Base",
               "Oprichting vennootschap",
@@ -24095,6 +24185,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consult aanvragen",
             "description": "Alles van Business + 12 maanden begeleiding.",
             "id": "investor",
+            "image": {
+              "$img": "programs.tierInvestor"
+            },
             "included": [
               "Alles van Business",
               "Boekhouding (12 maanden)",
@@ -24111,6 +24204,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Informeer",
             "description": "Eigen dienst van Nexa. Integraal advies.",
             "id": "tierras",
+            "image": {
+              "$img": "programs.tierTierras"
+            },
             "included": [
               "Profiel- en criteriadefinitie",
               "Zoektocht en shortlist",

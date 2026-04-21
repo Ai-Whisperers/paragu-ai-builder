@@ -108,7 +108,10 @@
             "Acompañamiento logístico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -127,7 +130,10 @@
             "Honorarios, IVA y tasas incluidas"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -143,7 +149,10 @@
             "Acceso directo al equipo técnico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -159,7 +168,10 @@
             "Inscripción registral"
           ],
           "ctaLabel": "Consultar",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -299,7 +311,10 @@
             "Acompañamiento logístico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -318,7 +333,10 @@
             "Honorarios, IVA y tasas incluidas"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -334,7 +352,10 @@
             "Acceso directo al equipo técnico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -350,7 +371,10 @@
             "Inscripción registral"
           ],
           "ctaLabel": "Consultar",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },

@@ -111,7 +111,10 @@
             "Logistische Begleitung"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -130,7 +133,10 @@
             "Honorare, MwSt. und Gebühren inklusive"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -146,7 +152,10 @@
             "Direktzugang zum Fachteam"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -162,7 +171,10 @@
             "Registereintragung"
           ],
           "ctaLabel": "Anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -302,7 +314,10 @@
             "Logistische Begleitung"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -321,7 +336,10 @@
             "Honorare, MwSt. und Gebühren inklusive"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -337,7 +355,10 @@
             "Direktzugang zum Fachteam"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -353,7 +374,10 @@
             "Registereintragung"
           ],
           "ctaLabel": "Anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
