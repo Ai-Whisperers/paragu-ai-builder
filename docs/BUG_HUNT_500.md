@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 80 | see closure log below |
+| ✅ Closed | 81 | see closure log below |
 | 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 420 | the rest |
+| 🔴 Open | 419 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -129,6 +129,12 @@ Closure log:
   a new tenant" pointer fixed to actual `docs/runbooks/ADD_NEW_TENANT.md` (was
   pointing to a "planned" file that already exists), plus links to ADD_NEW_VERTICAL,
   ENV_VARS, and ROLLBACK runbooks.
+- **#489** — `docs/decisions/` ADR log seeded with 6 records: Tailwind 3.4.19
+  pin (#0001), Hostinger crontab (#0002), env-allowlist admin (#0003), Pagopar
+  primary (#0004), defer next/image (#0005), Supabase client cache (#0006).
+  README + format documented at `docs/decisions/README.md`. Indexed from
+  `docs/README.md` so future "why did we pick X?" questions land at the ADRs
+  instead of grep through commit history.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
