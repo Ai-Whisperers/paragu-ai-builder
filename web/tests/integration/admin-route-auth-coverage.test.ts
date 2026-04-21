@@ -117,7 +117,45 @@ describe('admin route auth coverage', () => {
           `Either:\n` +
           `  (a) wire checkAdmin()/requireAdmin() into the route, OR\n` +
           `  (b) add the route to PUBLIC_ROUTE_ALLOWLIST in this test with a reason for why it's public.\n\n` +
-          `This test exists because we found 5 broken-auth bugs during the #392 audit.`,
+          `This test exists because we found 6 broken-auth bugs during the #392 audit.`,
+      )
+    }
+
+    expect(violations).toHaveLength(0)
+  })
+})
+
+/**
+ * Companion test to the auth coverage above. Locks in #392 (every API
+ * route wrapped in withRequestLog) so it can't regress when someone adds
+ * a new route. No allowlist — every route should be wrapped, period.
+ *
+ * Recognized as wrapped if the source mentions `withRequestLog`. Both
+ * the import and the call site use the same identifier, so this catches
+ * either form (`export const POST = withRequestLog(...)` or
+ * `withRequestLog<{ id: string }>(async (...) => {...})`).
+ */
+describe('request-log middleware coverage', () => {
+  it('every API route is wrapped in withRequestLog', () => {
+    const routeFiles = findRouteFiles(join(WEB_ROOT, 'app/api'))
+    const violations: string[] = []
+
+    for (const abs of routeFiles) {
+      const rel = abs.slice(WEB_ROOT.length + 1)
+      const src = readFileSync(abs, 'utf-8')
+      if (!/\bwithRequestLog\b/.test(src)) {
+        violations.push(rel)
+      }
+    }
+
+    if (violations.length > 0) {
+      const list = violations.map((v) => `  - ${v}`).join('\n')
+      throw new Error(
+        `These API routes are NOT wrapped in withRequestLog:\n${list}\n\n` +
+          `Wrap each with the pattern from docs/REQUEST_LOG_AUDIT.md:\n\n` +
+          `  export const POST = withRequestLog(async (req, { log }) => { ... })\n\n` +
+          `withRequestLog gives every request a request-id, trace context,\n` +
+          `perf tracker, and a structured 500 fallback. See #392 audit.`,
       )
     }
 
