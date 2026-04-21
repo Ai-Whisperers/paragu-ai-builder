@@ -13,6 +13,7 @@ import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { FeaturedProductsSection } from '@/components/sections/featured-products-section'
+import { CommerceCatalogSection } from '@/components/sections/commerce-catalog-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
@@ -51,6 +52,7 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   services: ServicesSection,
   'product-catalog': ProductCatalogSection,
   'featured-products': FeaturedProductsSection,
+  'commerce-catalog': CommerceCatalogSection,
   gallery: GallerySection,
   team: TeamSection,
   testimonials: TestimonialsSection,

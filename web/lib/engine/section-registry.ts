@@ -114,6 +114,16 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'grid',
     variants: ['grid'],
   },
+  'commerce-catalog': {
+    // Full DB-backed product grid for embedding the tienda experience
+    // on a marketing page (e.g. fun4me's /fun4me/store). Differs from
+    // `product-catalog` (static JSON, WhatsApp-to-order) and from
+    // `featured-products` (small homepage rail). Returns null when the
+    // business has no active products.
+    id: 'commerce-catalog',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+  },
   footer: {
     id: 'footer',
     defaultVariant: 'standard',

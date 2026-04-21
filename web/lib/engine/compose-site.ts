@@ -106,7 +106,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
         // Normalize legacy prop names for known section components
         const normalized = normalizeSectionProps(s.id, filled)
 
-        const props: Record<string, unknown> = {
+        const propsWithContext: Record<string, unknown> = {
           ...normalized,
           __siteSlug: site.slug,
           __locale: locale,
@@ -114,6 +114,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
           __availableLocales: site.locales,
           __currentPath: pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug,
         }
+        const props = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
         return { id: s.id, variant, props }
       } catch (err) {
         logger.error('Site composition: section content resolution failed', {
@@ -237,23 +238,18 @@ function normalizeSectionProps(sectionId: string, props: Record<string, unknown>
         }))
       }
       break
-    case 'footer':
-      if (normalized.city === undefined && normalized.location?.city) {
-        normalized.city = normalized.location.city
-      }
-      if (normalized.address === undefined && normalized.location?.address) {
-        normalized.address = normalized.location.address
-      }
-      if (normalized.phone === undefined && normalized.contact?.phone) {
-        normalized.phone = normalized.contact.phone
-      }
-      if (normalized.email === undefined && normalized.contact?.email) {
-        normalized.email = normalized.contact.email
-      }
-      if (normalized.whatsapp === undefined && normalized.contact?.whatsapp) {
-        normalized.whatsapp = normalized.contact.whatsapp
-      }
+    case 'footer': {
+      // `normalized` values are `unknown`; narrow location/contact before
+      // forwarding fields so TS stops complaining (matches runtime shape).
+      const loc = normalized.location as { city?: string; address?: string } | undefined
+      const con = normalized.contact as { phone?: string; email?: string; whatsapp?: string } | undefined
+      if (normalized.city === undefined && loc?.city) normalized.city = loc.city
+      if (normalized.address === undefined && loc?.address) normalized.address = loc.address
+      if (normalized.phone === undefined && con?.phone) normalized.phone = con.phone
+      if (normalized.email === undefined && con?.email) normalized.email = con.email
+      if (normalized.whatsapp === undefined && con?.whatsapp) normalized.whatsapp = con.whatsapp
       break
+    }
     case 'whatsapp-float':
     case 'whatsappFloat':
       if (normalized.number && !normalized.phone) {
@@ -268,4 +264,34 @@ function normalizeSectionProps(sectionId: string, props: Record<string, unknown>
   }
 
   return normalized
+}
+
+/**
+ * Sections whose components expect `siteSlug` / `businessName` as regular
+ * props — the compose-site pipeline normally injects only `__siteSlug`
+ * etc., so these commerce-aware sections get an explicit mapping to the
+ * unprefixed names after the rest of the props pipeline runs.
+ *
+ * Kept separate from `normalizeSectionProps` so it can run AFTER the
+ * `__` keys are merged in (normalizeSectionProps runs before).
+ */
+const COMMERCE_SECTIONS_NEEDING_SITE_CONTEXT = new Set<string>([
+  'commerce-catalog',
+  'featured-products',
+])
+
+function injectCommerceSiteContext(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteName: unknown,
+): Record<string, unknown> {
+  if (!COMMERCE_SECTIONS_NEEDING_SITE_CONTEXT.has(sectionId)) return props
+  const next = { ...props }
+  if (next.siteSlug === undefined && typeof next.__siteSlug === 'string') {
+    next.siteSlug = next.__siteSlug
+  }
+  if (next.businessName === undefined && typeof siteName === 'string') {
+    next.businessName = siteName
+  }
+  return next
 }
