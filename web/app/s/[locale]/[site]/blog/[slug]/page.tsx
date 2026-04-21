@@ -5,7 +5,9 @@ import { listSiteSlugs, loadSite } from '@/lib/engine/site-loader'
 import { listBlogSlugs, loadBlogPost, listBlogPosts } from '@/lib/engine/blog-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
+import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { alternatesFor } from '@/lib/i18n/routing'
+import { env } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -102,7 +104,7 @@ export default async function BlogPostPage({ params }: Props) {
       {tokens.googleFontsUrl && <link rel="stylesheet" href={tokens.googleFontsUrl} />}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbsJsonLd]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
       <div
         className="min-h-screen"
@@ -112,6 +114,14 @@ export default async function BlogPostPage({ params }: Props) {
           color: 'var(--text)',
         }}
       >
+        <Breadcrumbs
+          absoluteBaseUrl={env.APP_URL}
+          items={[
+            { label: 'Home', href: `/s/${locale}/${siteSlug}` },
+            { label: 'Blog', href: `/s/${locale}/${siteSlug}/blog` },
+            { label: post.title },
+          ]}
+        />
         <BlogPostSection
           title={post.title}
           date={post.date}

@@ -1,5 +1,6 @@
 import { notFound, redirect } from 'next/navigation'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import {
   countActiveProducts,
@@ -19,6 +20,24 @@ import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ site: string; locale: string; category: string }>
+}): Promise<Metadata> {
+  const { site, locale, category } = await params
+  const business = await resolveBusinessBySlug(site)
+  if (!business) return {}
+  const pretty = decodeURIComponent(category)
+  const canonical = `${env.APP_URL}/s/${locale}/${site}/tienda/categoria/${category}`
+  return {
+    title: `${pretty} — ${business.name}`,
+    description: `Productos de ${pretty} en ${business.name}. Envío discreto.`,
+    alternates: { canonical },
+    openGraph: { url: canonical, title: `${pretty} — ${business.name}` },
+  }
+}
 
 const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc']
 const PAGE_SIZE = 24

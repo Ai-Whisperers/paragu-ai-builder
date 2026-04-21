@@ -1,4 +1,5 @@
 import { createAdminClient } from '@/lib/supabase/admin'
+import { pickOne } from '@/lib/supabase/helpers'
 import { logger } from '@/lib/logger'
 
 /**
@@ -97,11 +98,6 @@ export async function findPendingBackInStockNotifications(limit = 50): Promise<P
     products: EmbeddedProduct | EmbeddedProduct[] | null
     businesses: EmbeddedBusiness | EmbeddedBusiness[] | null
   }>
-
-  const pickOne = <T,>(v: T | T[] | null): T | null => {
-    if (!v) return null
-    return Array.isArray(v) ? v[0] ?? null : v
-  }
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://paragu-ai.com'
 
