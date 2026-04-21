@@ -14,14 +14,34 @@
       "content": "home.hero"
     },
     {
+      "id": "our-story",
+      "variant": "narrative",
+      "content": "home.ourStory"
+    },
+    {
       "id": "services",
       "variant": "cards",
       "content": "home.services"
     },
     {
+      "id": "b2b-wholesale",
+      "variant": "tiered",
+      "content": "home.wholesale"
+    },
+    {
+      "id": "recipes",
+      "variant": "grid",
+      "content": "home.recipes"
+    },
+    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
+    },
+    {
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "home.enhancedFaq"
     },
     {
       "id": "contact",
