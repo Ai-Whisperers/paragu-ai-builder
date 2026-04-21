@@ -3,13 +3,15 @@
  * Copy each tenant's sites/<slug>/images/ into web/public/sites/<slug>/images/
  * so Next.js serves them as static assets at /sites/<slug>/images/...
  *
- * The tenant-data / images.json manifests emit URLs like
- * `/sites/nexa-paraguay/images/brand/og-default.webp`. Next.js only serves
- * static files out of web/public/, so without this step those URLs 404.
+ * The images.json manifests emit URLs like
+ * `/sites/nexa-paraguay/images/brand/og-default.webp`. Next.js only
+ * serves static files out of web/public/, so without this copy step
+ * those URLs 404. This has been broken for every tenant with a
+ * manifest since day one.
  *
  * Runs as part of `prebuild`. Idempotent — re-syncs on every build.
- * Target dir is gitignored (web/public/sites/) since the source of truth
- * is sites/<slug>/images/.
+ * Target dir is gitignored (web/public/sites/); source of truth stays
+ * at sites/<slug>/images/.
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -21,36 +23,32 @@ const sitesRoot = path.join(repoRoot, 'sites')
 const publicSitesRoot = path.resolve(__dirname, '../public/sites')
 
 if (!fs.existsSync(sitesRoot)) {
-  console.log('[copy-tenant-images] no sites/ dir found — skipping')
+  console.log('[copy-tenant-images] no sites/ dir — skipping')
   process.exit(0)
 }
 
-let copiedCount = 0
-let tenantCount = 0
+let totalFiles = 0
+let totalTenants = 0
 
 for (const tenantSlug of fs.readdirSync(sitesRoot)) {
   const tenantDir = path.join(sitesRoot, tenantSlug)
-  const stat = fs.statSync(tenantDir)
-  if (!stat.isDirectory()) continue
-
+  if (!fs.statSync(tenantDir).isDirectory()) continue
   const imagesSrc = path.join(tenantDir, 'images')
   if (!fs.existsSync(imagesSrc)) continue
 
   const imagesDst = path.join(publicSitesRoot, tenantSlug, 'images')
-
-  // Wipe destination first so renamed/deleted images on the source don't
-  // linger in the published bundle. Then copy fresh.
+  // Clean rebuild so renamed/deleted source files don't linger.
   fs.rmSync(imagesDst, { recursive: true, force: true })
   fs.mkdirSync(path.dirname(imagesDst), { recursive: true })
   fs.cpSync(imagesSrc, imagesDst, { recursive: true })
 
-  const count = countFiles(imagesDst)
-  copiedCount += count
-  tenantCount += 1
-  console.log(`[copy-tenant-images] ${tenantSlug}: ${count} files`)
+  const n = countFiles(imagesDst)
+  totalFiles += n
+  totalTenants += 1
+  console.log(`[copy-tenant-images] ${tenantSlug}: ${n} files`)
 }
 
-console.log(`[copy-tenant-images] done — ${tenantCount} tenants, ${copiedCount} files`)
+console.log(`[copy-tenant-images] done — ${totalTenants} tenants, ${totalFiles} files`)
 
 function countFiles(dir) {
   let n = 0
