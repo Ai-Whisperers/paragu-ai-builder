@@ -14,7 +14,7 @@
   "navigation": {
     "businessName": "Demo Alquiler Temporario Ciudad del Este",
     "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595981000000"
+    "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
@@ -25,14 +25,14 @@
       "headline": "Demo Alquiler Temporario Ciudad del Este - Tu casa temporal en Ciudad del Este",
       "subheadline": "Apartamentos y casas para estadias turisticas y corporativas.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Alquiler%20Temporario%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Alquiler%20Temporario%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
       "ctaSecondaryHref": "/demo"
     },
     "contact": {
       "title": "Contactanos",
       "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595981000000",
+      "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
       "city": "Ciudad del Este",
       "formSource": "demo",
