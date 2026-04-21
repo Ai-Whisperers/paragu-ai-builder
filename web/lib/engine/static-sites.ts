@@ -38,7 +38,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'quienes-somos', 'suscripciones', 'store', 'bundles', 'placer-plus', 'gift-cards', 'loyalty', 'blog', 'legal', 'reserva-en-tienda', 'size-guide'],
+    pages: ['home', 'quienes-somos', 'suscripciones', 'bundles', 'placer-plus', 'gift-cards', 'loyalty', 'blog', 'legal', 'reserva-en-tienda', 'size-guide'],
   },
   'dayah-litworks': {
     slug: 'dayah-litworks',

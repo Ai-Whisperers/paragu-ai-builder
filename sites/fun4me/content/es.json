@@ -78,7 +78,7 @@
       "headline": "Tu Tienda de Placer",
       "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion.",
       "ctaPrimaryText": "Explorar Tienda",
-      "ctaPrimaryHref": "/fun4me/store",
+      "ctaPrimaryHref": "/fun4me/tienda",
       "ctaSecondaryText": "Contactanos",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
@@ -129,7 +129,7 @@
     "promo": {
       "enabled": true,
       "text": "Envio GRATIS en compras mayores a Gs. 200.000",
-      "href": "/fun4me/store"
+      "href": "/fun4me/tienda"
     },
     "categories": {
       "title": "Categorias Destacadas",
@@ -185,7 +185,7 @@
         }
       ],
       "ctaText": "Ver Todo el Catalogo",
-      "ctaHref": "/fun4me/store"
+      "ctaHref": "/fun4me/tienda"
     },
     "stats": {
       "title": "Numeros que nos respaldan",
@@ -318,7 +318,7 @@
       "title": "Tenes alguna consulta?",
       "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
       "ctaPrimaryText": "Ver Tienda",
-      "ctaPrimaryHref": "/fun4me/store",
+      "ctaPrimaryHref": "/fun4me/tienda",
       "ctaSecondaryText": "Escribir por WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
@@ -742,7 +742,7 @@
       "headline": "Kits Curados",
       "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado.",
       "ctaPrimaryText": "Ver Kits",
-      "ctaPrimaryHref": "/fun4me/store"
+      "ctaPrimaryHref": "/fun4me/tienda"
     },
     "items": {
       "title": "Nuestros Kits",
@@ -1420,7 +1420,7 @@
       "title": "Empeza a armar tu pedido",
       "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
       "buttonText": "Ir a la Tienda",
-      "buttonHref": "/fun4me/store"
+      "buttonHref": "/fun4me/tienda"
     }
   },
   "blog": {

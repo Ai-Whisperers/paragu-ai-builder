@@ -20,6 +20,7 @@ import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
 import { TiendaQuickFilters } from '@/components/commerce/tienda-quick-filters'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
+import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
@@ -264,6 +265,8 @@ export default async function StorePage({
             ) : null}
           </>
         )}
+
+        <RecentlyViewedRail siteSlug={site} locale={locale} />
       </main>
     </div>
   )
