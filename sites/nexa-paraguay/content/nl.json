@@ -815,7 +815,8 @@
         {
           "$img": "office.teamHuddle"
         }
-      ]
+      ],
+      "lightbox": true
     }
   },
   "faqPage": {

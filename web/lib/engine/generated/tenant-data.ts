@@ -20346,6 +20346,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "$img": "office.teamHuddle"
           }
         ],
+        "lightbox": true,
         "subtitle": "Wo Beratung, Unterzeichnung und Bank tatsächlich stattfinden. KI-Platzhalter unten — vor Launch durch echte Fotos ersetzen.",
         "title": "Unser Büro in Asunción"
       },
@@ -21968,6 +21969,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "$img": "office.teamHuddle"
           }
         ],
+        "lightbox": true,
         "subtitle": "Where consultation, signing and banking actually happen. AI placeholders below — swap for real photos before launch.",
         "title": "Our office in Asunción"
       },
@@ -23559,6 +23561,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "$img": "office.teamHuddle"
           }
         ],
+        "lightbox": true,
         "subtitle": "Donde consulta, firma y banco realmente ocurren. Placeholders de IA abajo — reemplazar por fotos reales antes del lanzamiento.",
         "title": "Nuestra oficina en Asunción"
       },
@@ -25215,6 +25218,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "$img": "office.teamHuddle"
           }
         ],
+        "lightbox": true,
         "subtitle": "Waar consult, ondertekening en bank daadwerkelijk plaatsvinden. AI-placeholders hieronder — vervang voor echte foto's vóór de launch.",
         "title": "Ons kantoor in Asunción"
       },
