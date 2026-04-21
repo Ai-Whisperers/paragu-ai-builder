@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { unstable_noStore as noStore } from 'next/cache'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { listActiveProducts } from '@/lib/commerce/products'
@@ -42,6 +43,16 @@ export async function CommerceCatalogSection({
   limit = 24,
   locale = 'es',
 }: CommerceCatalogSectionProps) {
+  // Opt the host page out of static generation. The catch-all tenant
+  // route (/s/[locale]/[site]/[[...page]]) is SSG by default via
+  // generateStaticParams, but this section's data-fetch calls use cookies
+  // (via the Supabase admin client), which Next.js forbids at build time
+  // ("Dynamic server usage: ... used `cookies`"). noStore() tells Next.js
+  // to render any page containing this section at request time instead —
+  // fixing the hard 500 without forcing `dynamic = 'force-dynamic'` on
+  // the whole catch-all (which would regress SSG for every other tenant).
+  noStore()
+
   // Fail-soft: any crash in the data layer (missing business row, DB down,
   // env misconfig, registry file not resolvable) returns null rather than
   // 500ing the whole page. The tenant's store still renders its other
