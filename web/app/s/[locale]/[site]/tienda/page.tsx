@@ -5,9 +5,10 @@ import {
   listActiveProducts,
   countActiveProducts,
   listDistinctCategories,
+  listCategoryCounts,
   type ProductSort,
 } from '@/lib/commerce/products'
-import { recordSearchEvent } from '@/lib/commerce/search-events'
+import { recordSearchEvent, listTopSearches } from '@/lib/commerce/search-events'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductCard } from '@/components/commerce/product-card'
@@ -65,7 +66,13 @@ export default async function StorePage({
 
   const search = (sp.q ?? '').trim()
   const sortKey = parseSort(sp.sort)
-  const category = (sp.category ?? '').trim()
+  // Supports "a,b,c" comma-delimited multi-select; single "a" stays as a
+  // one-element array. Empty/undefined → empty array.
+  const categories = (sp.category ?? '')
+    .split(',')
+    .map((c) => c.trim())
+    .filter(Boolean)
+  const category = categories[0] ?? ''
   const minPriceCents = parsePositiveInt(sp.min)
   const maxPriceCents = parsePositiveInt(sp.max)
   const inStockOnly = sp.in_stock === '1' || sp.in_stock === 'true'
@@ -76,19 +83,27 @@ export default async function StorePage({
 
   const filterOpts = {
     search,
-    category: category || undefined,
+    categories: categories.length > 0 ? categories : undefined,
     minPriceCents: minPriceCents || undefined,
     maxPriceCents: maxPriceCents || undefined,
     inStockOnly,
     onSaleOnly,
   }
 
-  const [products, totalCount, rates, availableCategories] = await Promise.all([
+  const [products, totalCount, rates, availableCategories, categoryCounts, topSearches] = await Promise.all([
     listActiveProducts(business.id, { ...filterOpts, limit: perPage, offset, sort: sortKey }),
     countActiveProducts(business.id, filterOpts),
     loadPygRates(),
     listDistinctCategories(business.id),
+    listCategoryCounts(business.id),
+    listTopSearches(business.id, { windowDays: 30, limit: 8 }),
   ])
+  // Only surface suggestions with at least 1 result (non-zero-result).
+  // Dedup by normalized form, keep pretty sampleQuery.
+  const popularQueries = topSearches
+    .filter((s) => s.avgResults >= 1)
+    .slice(0, 5)
+    .map((s) => s.sampleQuery)
 
   // Record shopper searches only when there's an actual query term — avoids
   // a log entry on every tienda page view. Fire-and-forget, non-blocking.
@@ -103,7 +118,7 @@ export default async function StorePage({
 
   const totalPages = Math.max(1, Math.ceil(totalCount / perPage))
   const hasActiveFilters = Boolean(
-    search || category || minPriceCents || maxPriceCents || inStockOnly || onSaleOnly,
+    search || categories.length > 0 || minPriceCents || maxPriceCents || inStockOnly || onSaleOnly,
   )
 
   return (
@@ -115,13 +130,29 @@ export default async function StorePage({
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
 
         <TiendaQuickFilters />
+        {!search && popularQueries.length > 0 ? (
+          <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
+            <span className="font-medium text-[color:var(--text-muted,#6b7280)]">Búsquedas populares:</span>
+            {popularQueries.map((q) => (
+              <Link
+                key={q}
+                href={`/s/${locale}/${site}/tienda?q=${encodeURIComponent(q)}`}
+                className="rounded-full border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              >
+                {q}
+              </Link>
+            ))}
+          </div>
+        ) : null}
         <TiendaToolbar
           initialQuery={search}
           initialSort={sortKey}
           resultCount={products.length}
           totalCount={totalCount}
           initialCategory={category}
+          initialCategories={categories}
           availableCategories={availableCategories}
+          categoryCounts={categoryCounts}
           initialMinPrice={minPriceCents}
           initialMaxPrice={maxPriceCents}
           initialInStockOnly={inStockOnly}
