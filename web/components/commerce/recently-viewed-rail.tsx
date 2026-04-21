@@ -2,7 +2,11 @@
 
 import { useSyncExternalStore } from 'react'
 import Link from 'next/link'
-import { readRecentlyViewed, type RecentlyViewedItem } from '@/lib/stores/recently-viewed'
+import {
+  getRecentlyViewedSnapshot,
+  subscribeRecentlyViewed,
+  type RecentlyViewedItem,
+} from '@/lib/stores/recently-viewed'
 import { formatCents } from '@/lib/commerce/compute-totals'
 
 interface Props {
@@ -14,22 +18,21 @@ interface Props {
   limit?: number
 }
 
-// No live updates needed — the rail is read-once on mount. The empty
-// subscribe satisfies useSyncExternalStore so we get a clean
-// SSR-safe load without the "setState in effect" cascading-renders
-// lint warning that the useState+useEffect pattern triggers.
-const noopSubscribe = () => () => {}
+const SSR_EMPTY: RecentlyViewedItem[] = []
 
 /**
- * Reads recently-viewed items from localStorage and renders a horizontal
- * rail. SSR returns the empty list (returns null), then on the client
- * useSyncExternalStore swaps in the real items once mounted.
+ * Horizontal rail of recently-viewed products from localStorage. SSR
+ * renders nothing (empty array); client swaps in real items on mount.
+ *
+ * getSnapshot is the store's cached snapshot — returning a fresh array
+ * every call violates useSyncExternalStore's contract and caused React
+ * #185 (Maximum update depth exceeded) on /tienda.
  */
 export function RecentlyViewedRail({ siteSlug, locale, excludeId, limit = 6 }: Props) {
   const all = useSyncExternalStore<RecentlyViewedItem[]>(
-    noopSubscribe,
-    () => readRecentlyViewed(siteSlug),
-    () => [],
+    subscribeRecentlyViewed(siteSlug),
+    () => getRecentlyViewedSnapshot(siteSlug),
+    () => SSR_EMPTY,
   )
   const items = all.filter((it) => it.id !== excludeId).slice(0, limit)
 

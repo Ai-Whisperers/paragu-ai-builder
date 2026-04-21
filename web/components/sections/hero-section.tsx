@@ -32,6 +32,13 @@ export interface HeroSectionProps {
   __locale?: string
   /** Opt-out of the enhanced trust-badges row (some tenants prefer a clean hero). */
   trustBadgesEnabled?: boolean
+  /**
+   * Override the default 3-item locale triplet ("Professional · Transparent · Trustworthy")
+   * with tenant-specific proof points — numbers beat adjectives. Supply an
+   * array of exactly 3 short strings (ideally ≤16 chars each to fit the
+   * badge chip layout). Falls back to the locale default when omitted.
+   */
+  trustBadges?: string[]
 }
 
 // The enhanced hero optionally shows three small trust-badges (shield +
@@ -64,8 +71,12 @@ export function HeroSection({
   eyebrow,
   __locale,
   trustBadgesEnabled = true,
+  trustBadges: trustBadgesProp,
 }: HeroSectionProps) {
-  const trustBadges = TRUST_BADGE_LABELS[__locale ?? 'es'] ?? TRUST_BADGE_LABELS.es
+  const trustBadges =
+    Array.isArray(trustBadgesProp) && trustBadgesProp.length === 3
+      ? (trustBadgesProp as [string, string, string])
+      : TRUST_BADGE_LABELS[__locale ?? 'es'] ?? TRUST_BADGE_LABELS.es
   const content = (
     <Container className="relative z-10 py-16 sm:py-24 lg:py-32">
       <div className={cn("max-w-4xl mx-auto text-center", enhanced && "hero-content-animate")}>

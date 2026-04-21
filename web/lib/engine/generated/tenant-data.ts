@@ -20698,7 +20698,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
         "ctaSecondaryText": "Programme ansehen",
         "headline": "Etablieren Sie Ihre Geschäftstätigkeit in Paraguay. Professionell, integriert, ohne Überraschungen.",
-        "subheadline": "Aufenthaltserlaubnis, Gesellschaft, Bankkonto und Landkauf — koordiniert von Nexa Paraguay, ausgeführt von unserem vertrauten Fachteam."
+        "subheadline": "Aufenthaltserlaubnis, Gesellschaft, Bankkonto und Landkauf — koordiniert von Nexa Paraguay, ausgeführt von unserem vertrauten Fachteam.",
+        "trustBadges": [
+          "8–12 Wochen",
+          "250+ Kunden",
+          "Festpreis"
+        ]
       },
       "process": {
         "ctaHref": "/s/de/nexa-paraguay/contacto",
@@ -22642,7 +22647,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
         "ctaSecondaryText": "See programs",
         "headline": "Establish your operation in Paraguay. Professional, integrated, no surprises.",
-        "subheadline": "Residency, company, bank account and land purchase — coordinated by Nexa Paraguay, executed by our trusted technical team."
+        "subheadline": "Residency, company, bank account and land purchase — coordinated by Nexa Paraguay, executed by our trusted technical team.",
+        "trustBadges": [
+          "8–12 weeks",
+          "250+ clients",
+          "Fixed pricing"
+        ]
       },
       "process": {
         "ctaHref": "/s/en/nexa-paraguay/contacto",
@@ -24571,7 +24581,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
         "ctaSecondaryText": "Ver programas",
         "headline": "Establezca su operación en Paraguay. Profesional, integrado, sin sorpresas.",
-        "subheadline": "Residencia, sociedad, cuenta bancaria y compra de tierras — todo coordinado por Nexa Paraguay, ejecutado por nuestro equipo técnico de confianza."
+        "subheadline": "Residencia, sociedad, cuenta bancaria y compra de tierras — todo coordinado por Nexa Paraguay, ejecutado por nuestro equipo técnico de confianza.",
+        "trustBadges": [
+          "8–12 semanas",
+          "250+ clientes",
+          "Precio fijo"
+        ]
       },
       "process": {
         "ctaHref": "/s/es/nexa-paraguay/contacto",
@@ -26514,7 +26529,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "/s/nl/nexa-paraguay/programas",
         "ctaSecondaryText": "Bekijk programma's",
         "headline": "Vestig uw onderneming in Paraguay. Professioneel, geïntegreerd, zonder verrassingen.",
-        "subheadline": "Verblijfsvergunning, vennootschap, bankrekening en grondaankoop — gecoördineerd door Nexa Paraguay, uitgevoerd door ons vertrouwde technische team."
+        "subheadline": "Verblijfsvergunning, vennootschap, bankrekening en grondaankoop — gecoördineerd door Nexa Paraguay, uitgevoerd door ons vertrouwde technische team.",
+        "trustBadges": [
+          "8–12 weken",
+          "250+ klanten",
+          "Vaste prijs"
+        ]
       },
       "process": {
         "ctaHref": "/s/nl/nexa-paraguay/contacto",
