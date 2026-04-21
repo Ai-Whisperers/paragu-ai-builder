@@ -37,6 +37,14 @@
         "href": "/s/en/nexa-paraguay/sobre"
       },
       {
+        "label": "Cases",
+        "href": "/s/en/nexa-paraguay/casos-de-exito"
+      },
+      {
+        "label": "Founder",
+        "href": "/s/en/nexa-paraguay/fundador"
+      },
+      {
         "label": "FAQ",
         "href": "/s/en/nexa-paraguay/faq"
       },
@@ -1151,6 +1159,96 @@
     "cta": {
       "title": "Not sure which option fits?",
       "subtitle": "We'll help you decide — even if the answer isn't Nexa.",
+      "buttonText": "Book free consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
+  },
+  "founderPage": {
+    "seo": {
+      "title": "Founder — Nexa Paraguay",
+      "description": "Who is behind Nexa Paraguay. Experience, vision, and why this firm exists."
+    },
+    "hero": {
+      "headline": "Nexa Paraguay founder",
+      "subheadline": "[TODO client] Full name, role, and one line on why the firm was founded."
+    },
+    "team": {
+      "title": "Who runs Nexa",
+      "members": [
+        {
+          "name": "[TODO: Founder name]",
+          "role": "[TODO: Founder and Operations Director]",
+          "icon": "Briefcase",
+          "bio": "[TODO client] Short bio: years in Paraguay, previous relocation/legal/finance experience, languages spoken, LinkedIn. Appears on card hover."
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "The story",
+      "title": "Why Nexa Paraguay exists",
+      "pillars": [
+        {
+          "icon": "Users",
+          "title": "The problem we saw",
+          "description": "[TODO client] One paragraph: what was unaddressed in the market for European investors moving to Paraguay."
+        },
+        {
+          "icon": "Target",
+          "title": "The decision",
+          "description": "[TODO client] One paragraph: why found a new firm instead of joining an existing one, what makes Nexa different."
+        },
+        {
+          "icon": "Heart",
+          "title": "The commitment",
+          "description": "[TODO client] One paragraph: what Nexa guarantees beyond the contract. Response time, transparency, honesty on risks."
+        }
+      ],
+      "honestNote": "[TODO client] One personal closing line — what it means to you that a European trusts Nexa for a decision this important."
+    },
+    "cta": {
+      "title": "Prefer to talk directly?",
+      "subtitle": "The founder personally handles initial inquiries from European clients.",
+      "buttonText": "Book free consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
+  },
+  "caseStudiesPage": {
+    "seo": {
+      "title": "Case studies — Nexa Paraguay",
+      "description": "Real stories of Europeans who established residency and operations in Paraguay with Nexa."
+    },
+    "hero": {
+      "headline": "Case studies",
+      "subheadline": "[TODO client] 1 line on the type of clients Nexa works with and their outcomes."
+    },
+    "testimonials": {
+      "eyebrow": "Real clients",
+      "title": "What our clients achieved",
+      "subtitle": "[TODO client] Real stories with name, country, program, timeline. Replace placeholders when at least 3 real clients have given written consent.",
+      "testimonials": [
+        {
+          "name": "[TODO: Real client name]",
+          "role": "[TODO: Profession / country of origin]",
+          "quote": "[TODO client] Real 2-3 line quote — expectation vs what they got, what surprised them. Get written consent before publishing.",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Real client name]",
+          "role": "[TODO: Profession / country of origin]",
+          "quote": "[TODO client] Ideally with specific detail (timeline, objection overcome, concrete outcome).",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Real client name]",
+          "role": "[TODO: Profession / country of origin]",
+          "quote": "[TODO client] Ideally from a different profile than the others (retired vs founder vs investor) for ICP coverage.",
+          "imageUrl": ""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to be next?",
+      "subtitle": "Book a consultation and we'll discuss your specific case.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }

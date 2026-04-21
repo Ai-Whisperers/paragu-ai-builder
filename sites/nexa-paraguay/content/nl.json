@@ -37,6 +37,14 @@
         "href": "/s/nl/nexa-paraguay/sobre"
       },
       {
+        "label": "Cases",
+        "href": "/s/nl/nexa-paraguay/casos-de-exito"
+      },
+      {
+        "label": "Oprichter",
+        "href": "/s/nl/nexa-paraguay/fundador"
+      },
+      {
         "label": "FAQ",
         "href": "/s/nl/nexa-paraguay/faq"
       },
@@ -1182,6 +1190,96 @@
     "cta": {
       "title": "Niet zeker welke optie past?",
       "subtitle": "We helpen u beslissen — zelfs als het antwoord niet Nexa is.",
+      "buttonText": "Plan gratis consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "founderPage": {
+    "seo": {
+      "title": "Oprichter — Nexa Paraguay",
+      "description": "Wie zit er achter Nexa Paraguay. Ervaring, visie, en waarom deze firma bestaat."
+    },
+    "hero": {
+      "headline": "Oprichter van Nexa Paraguay",
+      "subheadline": "[TODO klant] Volledige naam, rol, en één zin over waarom de firma werd opgericht."
+    },
+    "team": {
+      "title": "Wie leidt Nexa",
+      "members": [
+        {
+          "name": "[TODO: Naam oprichter]",
+          "role": "[TODO: Oprichter en Operationeel directeur]",
+          "icon": "Briefcase",
+          "bio": "[TODO klant] Korte biografie: jaren in Paraguay, eerdere ervaring, talen, LinkedIn. Verschijnt bij hover."
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "Het verhaal",
+      "title": "Waarom Nexa Paraguay bestaat",
+      "pillars": [
+        {
+          "icon": "Users",
+          "title": "Het probleem dat we zagen",
+          "description": "[TODO klant] Eén alinea: wat niet was opgelost in de markt voor Europese investeerders naar Paraguay."
+        },
+        {
+          "icon": "Target",
+          "title": "De beslissing",
+          "description": "[TODO klant] Eén alinea: waarom een nieuwe firma oprichten in plaats van aansluiten bij bestaande."
+        },
+        {
+          "icon": "Heart",
+          "title": "De belofte",
+          "description": "[TODO klant] Eén alinea: wat Nexa garandeert voorbij het contract."
+        }
+      ],
+      "honestNote": "[TODO klant] Eén persoonlijke afsluiting van de oprichter."
+    },
+    "cta": {
+      "title": "Liever direct praten?",
+      "subtitle": "De oprichter handelt persoonlijk initiële aanvragen van Europese klanten af.",
+      "buttonText": "Plan gratis consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "caseStudiesPage": {
+    "seo": {
+      "title": "Case studies — Nexa Paraguay",
+      "description": "Echte verhalen van Europeanen die hun verblijf en operatie in Paraguay met Nexa vestigden."
+    },
+    "hero": {
+      "headline": "Case studies",
+      "subheadline": "[TODO klant] 1 zin over het type klant waar Nexa mee werkt en hun uitkomsten."
+    },
+    "testimonials": {
+      "eyebrow": "Echte klanten",
+      "title": "Wat onze klanten bereikten",
+      "subtitle": "[TODO klant] Echte verhalen met naam, land, programma, doorlooptijd. Vervangen zodra 3 echte klanten schriftelijk toestemming hebben gegeven.",
+      "testimonials": [
+        {
+          "name": "[TODO: Echte klantnaam]",
+          "role": "[TODO: Beroep / land van herkomst]",
+          "quote": "[TODO klant] Echte quote van 2-3 regels — verwachting vs wat ze kregen, wat hen verraste. Schriftelijke toestemming verplicht.",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Echte klantnaam]",
+          "role": "[TODO: Beroep / land van herkomst]",
+          "quote": "[TODO klant] Idealiter met specifiek detail (doorlooptijd, bezwaar overwonnen, concrete uitkomst).",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Echte klantnaam]",
+          "role": "[TODO: Beroep / land van herkomst]",
+          "quote": "[TODO klant] Idealiter van een ander profiel dan de anderen voor ICP-dekking.",
+          "imageUrl": ""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Wilt u de volgende zijn?",
+      "subtitle": "Plan een consult en we bespreken uw specifieke geval.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }

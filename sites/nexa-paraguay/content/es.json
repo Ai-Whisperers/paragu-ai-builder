@@ -37,6 +37,14 @@
         "href": "/s/es/nexa-paraguay/sobre"
       },
       {
+        "label": "Casos",
+        "href": "/s/es/nexa-paraguay/casos-de-exito"
+      },
+      {
+        "label": "Fundador",
+        "href": "/s/es/nexa-paraguay/fundador"
+      },
+      {
         "label": "FAQ",
         "href": "/s/es/nexa-paraguay/faq"
       },
@@ -1216,6 +1224,96 @@
     "cta": {
       "title": "¿Dudas sobre qué opción le conviene?",
       "subtitle": "Le ayudamos a decidir — incluso si la respuesta no es Nexa.",
+      "buttonText": "Agendar consulta gratuita",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "founderPage": {
+    "seo": {
+      "title": "Fundador — Nexa Paraguay",
+      "description": "Quién está detrás de Nexa Paraguay. Experiencia, visión y por qué existe esta firma."
+    },
+    "hero": {
+      "headline": "Fundador de Nexa Paraguay",
+      "subheadline": "[TODO cliente] Nombre completo, rol, y una línea sobre por qué fundó Nexa."
+    },
+    "team": {
+      "title": "Quién dirige Nexa",
+      "members": [
+        {
+          "name": "[TODO: Nombre del fundador]",
+          "role": "[TODO: Fundador y Director de Operaciones]",
+          "icon": "Briefcase",
+          "bio": "[TODO cliente] Breve biografía: años en Paraguay, experiencia previa en relocación / legal / finanzas, idiomas que habla, LinkedIn. Este bloque aparece al hacer hover sobre la tarjeta."
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "La historia",
+      "title": "Por qué existe Nexa Paraguay",
+      "pillars": [
+        {
+          "icon": "Users",
+          "title": "El problema que vimos",
+          "description": "[TODO cliente] Un párrafo: qué observó en el mercado que no estaba resuelto para inversores europeos mudándose a Paraguay."
+        },
+        {
+          "icon": "Target",
+          "title": "La decisión",
+          "description": "[TODO cliente] Un párrafo: por qué decidió fundar una firma propia en lugar de unirse a una existente, y qué hace diferente a Nexa."
+        },
+        {
+          "icon": "Heart",
+          "title": "El compromiso",
+          "description": "[TODO cliente] Un párrafo: qué garantiza Nexa al cliente, más allá del contrato. Response time, transparencia, honestidad sobre riesgos."
+        }
+      ],
+      "honestNote": "[TODO cliente] Una frase de cierre personal del fundador — qué significa para usted que un europeo confíe en Nexa para una decisión de esta magnitud."
+    },
+    "cta": {
+      "title": "¿Prefiere hablar directamente?",
+      "subtitle": "El fundador responde personalmente las consultas iniciales de europeos.",
+      "buttonText": "Agendar consulta gratuita",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "caseStudiesPage": {
+    "seo": {
+      "title": "Casos de éxito — Nexa Paraguay",
+      "description": "Historias reales de europeos que establecieron su residencia y operación en Paraguay con Nexa."
+    },
+    "hero": {
+      "headline": "Casos de éxito",
+      "subheadline": "[TODO cliente] 1 línea sobre el tipo de clientes que trabajan con Nexa y sus resultados."
+    },
+    "testimonials": {
+      "eyebrow": "Clientes reales",
+      "title": "Qué obtuvieron nuestros clientes",
+      "subtitle": "[TODO cliente] Historias reales con nombre, país, programa y tiempo. Reemplazar los placeholders cuando tenga consentimiento de al menos 3 clientes reales.",
+      "testimonials": [
+        {
+          "name": "[TODO: Nombre real del cliente]",
+          "role": "[TODO: Profesión / país de origen]",
+          "quote": "[TODO cliente] Cita real de 2-3 líneas sobre su experiencia trabajando con Nexa — qué esperaba, qué obtuvo, qué sorprendió. Pedir consentimiento escrito antes de publicar.",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Nombre real del cliente]",
+          "role": "[TODO: Profesión / país de origen]",
+          "quote": "[TODO cliente] Cita real — idealmente con detalle específico (timeline, objeción previa superada, resultado concreto).",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Nombre real del cliente]",
+          "role": "[TODO: Profesión / país de origen]",
+          "quote": "[TODO cliente] Cita real — idealmente de un perfil distinto a los otros dos (retirado vs fundador vs inversor) para cobertura del ICP.",
+          "imageUrl": ""
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Quiere ser el próximo?",
+      "subtitle": "Agende una consulta y conversamos sobre su caso específico.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
     }

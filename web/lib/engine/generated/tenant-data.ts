@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=148, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=150, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9900,6 +9900,43 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "blog",
     "titleKey": "blog.index.seo.title"
   },
+  "nexa-paraguay:casos-de-exito": {
+    "descriptionKey": "caseStudiesPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "caseStudiesPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "caseStudiesPage.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "caseStudiesPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "casos-de-exito",
+    "titleKey": "caseStudiesPage.seo.title"
+  },
   "nexa-paraguay:comparacion": {
     "descriptionKey": "comparisonPage.seo.description",
     "sections": [
@@ -10016,6 +10053,48 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "faq",
     "titleKey": "faqPage.seo.title"
+  },
+  "nexa-paraguay:fundador": {
+    "descriptionKey": "founderPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "founderPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "founderPage.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "founderPage.story",
+        "id": "why-destination",
+        "variant": "three-col"
+      },
+      {
+        "content": "founderPage.cta",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "fundador",
+    "titleKey": "founderPage.seo.title"
   },
   "nexa-paraguay:home": {
     "descriptionKey": "home.seo.description",
@@ -20176,6 +20255,47 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "buttonHref": "/s/de/nexa-paraguay/contacto",
+        "buttonText": "Kostenlose Beratung buchen",
+        "subtitle": "Buchen Sie ein Beratungsgespräch zu Ihrem Fall.",
+        "title": "Möchten Sie der Nächste sein?"
+      },
+      "hero": {
+        "headline": "Fallstudien",
+        "subheadline": "[TODO Kunde] 1 Zeile über den Kundentyp und die Ergebnisse."
+      },
+      "seo": {
+        "description": "Echte Geschichten von Europäern, die mit Nexa ihren Aufenthalt und ihre Operation in Paraguay etabliert haben.",
+        "title": "Fallstudien — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Echte Kunden",
+        "subtitle": "[TODO Kunde] Echte Geschichten mit Name, Land, Programm, Zeitrahmen. Placeholders ersetzen, sobald 3 echte Kunden schriftlich zugestimmt haben.",
+        "testimonials": [
+          {
+            "imageUrl": "",
+            "name": "[TODO: Echter Kundenname]",
+            "quote": "[TODO Kunde] Echtes 2-3-Zeilen-Zitat — Erwartung vs Ergebnis, was überrascht hat. Schriftliche Einwilligung vor Veröffentlichung.",
+            "role": "[TODO: Beruf / Herkunftsland]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Echter Kundenname]",
+            "quote": "[TODO Kunde] Idealerweise mit spezifischem Detail (Zeitrahmen, überwundene Bedenken, konkretes Ergebnis).",
+            "role": "[TODO: Beruf / Herkunftsland]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Echter Kundenname]",
+            "quote": "[TODO Kunde] Idealerweise aus einem anderen Profil als die anderen für ICP-Abdeckung.",
+            "role": "[TODO: Beruf / Herkunftsland]"
+          }
+        ],
+        "title": "Was unsere Kunden erreicht haben"
+      }
+    },
     "comparisonPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
@@ -20533,6 +20653,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "whatsapp": "595982515138"
     },
+    "founderPage": {
+      "cta": {
+        "buttonHref": "/s/de/nexa-paraguay/contacto",
+        "buttonText": "Kostenlose Beratung buchen",
+        "subtitle": "Der Gründer bearbeitet persönlich die Erstanfragen europäischer Kunden.",
+        "title": "Lieber direkt sprechen?"
+      },
+      "hero": {
+        "headline": "Gründer von Nexa Paraguay",
+        "subheadline": "[TODO Kunde] Vollständiger Name, Rolle, und ein Satz zur Gründung."
+      },
+      "seo": {
+        "description": "Wer hinter Nexa Paraguay steht. Erfahrung, Vision und warum diese Firma existiert.",
+        "title": "Gründer — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "Die Geschichte",
+        "honestNote": "[TODO Kunde] Ein persönlicher Abschlusssatz des Gründers.",
+        "pillars": [
+          {
+            "description": "[TODO Kunde] Ein Absatz: was im Markt für europäische Investoren nach Paraguay nicht gelöst war.",
+            "icon": "Users",
+            "title": "Das Problem, das wir sahen"
+          },
+          {
+            "description": "[TODO Kunde] Ein Absatz: warum eine neue Firma gründen statt einer bestehenden beitreten.",
+            "icon": "Target",
+            "title": "Die Entscheidung"
+          },
+          {
+            "description": "[TODO Kunde] Ein Absatz: was Nexa über den Vertrag hinaus garantiert.",
+            "icon": "Heart",
+            "title": "Das Versprechen"
+          }
+        ],
+        "title": "Warum Nexa Paraguay existiert"
+      },
+      "team": {
+        "members": [
+          {
+            "bio": "[TODO Kunde] Kurze Biografie: Jahre in Paraguay, bisherige Erfahrung, Sprachen, LinkedIn. Erscheint beim Hover.",
+            "icon": "Briefcase",
+            "name": "[TODO: Name des Gründers]",
+            "role": "[TODO: Gründer und operativer Leiter]"
+          }
+        ],
+        "title": "Wer Nexa leitet"
+      }
+    },
     "home": {
       "finalCta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
@@ -20764,6 +20933,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/sobre",
           "label": "Über uns"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/casos-de-exito",
+          "label": "Cases"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/fundador",
+          "label": "Gründer"
         },
         {
           "href": "/s/de/nexa-paraguay/faq",
@@ -21365,6 +21542,47 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "buttonHref": "/s/en/nexa-paraguay/contacto",
+        "buttonText": "Book free consultation",
+        "subtitle": "Book a consultation and we'll discuss your specific case.",
+        "title": "Want to be next?"
+      },
+      "hero": {
+        "headline": "Case studies",
+        "subheadline": "[TODO client] 1 line on the type of clients Nexa works with and their outcomes."
+      },
+      "seo": {
+        "description": "Real stories of Europeans who established residency and operations in Paraguay with Nexa.",
+        "title": "Case studies — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Real clients",
+        "subtitle": "[TODO client] Real stories with name, country, program, timeline. Replace placeholders when at least 3 real clients have given written consent.",
+        "testimonials": [
+          {
+            "imageUrl": "",
+            "name": "[TODO: Real client name]",
+            "quote": "[TODO client] Real 2-3 line quote — expectation vs what they got, what surprised them. Get written consent before publishing.",
+            "role": "[TODO: Profession / country of origin]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Real client name]",
+            "quote": "[TODO client] Ideally with specific detail (timeline, objection overcome, concrete outcome).",
+            "role": "[TODO: Profession / country of origin]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Real client name]",
+            "quote": "[TODO client] Ideally from a different profile than the others (retired vs founder vs investor) for ICP coverage.",
+            "role": "[TODO: Profession / country of origin]"
+          }
+        ],
+        "title": "What our clients achieved"
+      }
+    },
     "comparisonPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
@@ -21722,6 +21940,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "whatsapp": "595982515138"
     },
+    "founderPage": {
+      "cta": {
+        "buttonHref": "/s/en/nexa-paraguay/contacto",
+        "buttonText": "Book free consultation",
+        "subtitle": "The founder personally handles initial inquiries from European clients.",
+        "title": "Prefer to talk directly?"
+      },
+      "hero": {
+        "headline": "Nexa Paraguay founder",
+        "subheadline": "[TODO client] Full name, role, and one line on why the firm was founded."
+      },
+      "seo": {
+        "description": "Who is behind Nexa Paraguay. Experience, vision, and why this firm exists.",
+        "title": "Founder — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "The story",
+        "honestNote": "[TODO client] One personal closing line — what it means to you that a European trusts Nexa for a decision this important.",
+        "pillars": [
+          {
+            "description": "[TODO client] One paragraph: what was unaddressed in the market for European investors moving to Paraguay.",
+            "icon": "Users",
+            "title": "The problem we saw"
+          },
+          {
+            "description": "[TODO client] One paragraph: why found a new firm instead of joining an existing one, what makes Nexa different.",
+            "icon": "Target",
+            "title": "The decision"
+          },
+          {
+            "description": "[TODO client] One paragraph: what Nexa guarantees beyond the contract. Response time, transparency, honesty on risks.",
+            "icon": "Heart",
+            "title": "The commitment"
+          }
+        ],
+        "title": "Why Nexa Paraguay exists"
+      },
+      "team": {
+        "members": [
+          {
+            "bio": "[TODO client] Short bio: years in Paraguay, previous relocation/legal/finance experience, languages spoken, LinkedIn. Appears on card hover.",
+            "icon": "Briefcase",
+            "name": "[TODO: Founder name]",
+            "role": "[TODO: Founder and Operations Director]"
+          }
+        ],
+        "title": "Who runs Nexa"
+      }
+    },
     "home": {
       "finalCta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
@@ -21953,6 +22220,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/sobre",
           "label": "About"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/casos-de-exito",
+          "label": "Cases"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/fundador",
+          "label": "Founder"
         },
         {
           "href": "/s/en/nexa-paraguay/faq",
@@ -22523,6 +22798,47 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "buttonHref": "/s/es/nexa-paraguay/contacto",
+        "buttonText": "Agendar consulta gratuita",
+        "subtitle": "Agende una consulta y conversamos sobre su caso específico.",
+        "title": "¿Quiere ser el próximo?"
+      },
+      "hero": {
+        "headline": "Casos de éxito",
+        "subheadline": "[TODO cliente] 1 línea sobre el tipo de clientes que trabajan con Nexa y sus resultados."
+      },
+      "seo": {
+        "description": "Historias reales de europeos que establecieron su residencia y operación en Paraguay con Nexa.",
+        "title": "Casos de éxito — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Clientes reales",
+        "subtitle": "[TODO cliente] Historias reales con nombre, país, programa y tiempo. Reemplazar los placeholders cuando tenga consentimiento de al menos 3 clientes reales.",
+        "testimonials": [
+          {
+            "imageUrl": "",
+            "name": "[TODO: Nombre real del cliente]",
+            "quote": "[TODO cliente] Cita real de 2-3 líneas sobre su experiencia trabajando con Nexa — qué esperaba, qué obtuvo, qué sorprendió. Pedir consentimiento escrito antes de publicar.",
+            "role": "[TODO: Profesión / país de origen]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Nombre real del cliente]",
+            "quote": "[TODO cliente] Cita real — idealmente con detalle específico (timeline, objeción previa superada, resultado concreto).",
+            "role": "[TODO: Profesión / país de origen]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Nombre real del cliente]",
+            "quote": "[TODO cliente] Cita real — idealmente de un perfil distinto a los otros dos (retirado vs fundador vs inversor) para cobertura del ICP.",
+            "role": "[TODO: Profesión / país de origen]"
+          }
+        ],
+        "title": "Qué obtuvieron nuestros clientes"
+      }
+    },
     "comparisonPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
@@ -22881,6 +23197,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "whatsapp": "595982515138"
     },
+    "founderPage": {
+      "cta": {
+        "buttonHref": "/s/es/nexa-paraguay/contacto",
+        "buttonText": "Agendar consulta gratuita",
+        "subtitle": "El fundador responde personalmente las consultas iniciales de europeos.",
+        "title": "¿Prefiere hablar directamente?"
+      },
+      "hero": {
+        "headline": "Fundador de Nexa Paraguay",
+        "subheadline": "[TODO cliente] Nombre completo, rol, y una línea sobre por qué fundó Nexa."
+      },
+      "seo": {
+        "description": "Quién está detrás de Nexa Paraguay. Experiencia, visión y por qué existe esta firma.",
+        "title": "Fundador — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "La historia",
+        "honestNote": "[TODO cliente] Una frase de cierre personal del fundador — qué significa para usted que un europeo confíe en Nexa para una decisión de esta magnitud.",
+        "pillars": [
+          {
+            "description": "[TODO cliente] Un párrafo: qué observó en el mercado que no estaba resuelto para inversores europeos mudándose a Paraguay.",
+            "icon": "Users",
+            "title": "El problema que vimos"
+          },
+          {
+            "description": "[TODO cliente] Un párrafo: por qué decidió fundar una firma propia en lugar de unirse a una existente, y qué hace diferente a Nexa.",
+            "icon": "Target",
+            "title": "La decisión"
+          },
+          {
+            "description": "[TODO cliente] Un párrafo: qué garantiza Nexa al cliente, más allá del contrato. Response time, transparencia, honestidad sobre riesgos.",
+            "icon": "Heart",
+            "title": "El compromiso"
+          }
+        ],
+        "title": "Por qué existe Nexa Paraguay"
+      },
+      "team": {
+        "members": [
+          {
+            "bio": "[TODO cliente] Breve biografía: años en Paraguay, experiencia previa en relocación / legal / finanzas, idiomas que habla, LinkedIn. Este bloque aparece al hacer hover sobre la tarjeta.",
+            "icon": "Briefcase",
+            "name": "[TODO: Nombre del fundador]",
+            "role": "[TODO: Fundador y Director de Operaciones]"
+          }
+        ],
+        "title": "Quién dirige Nexa"
+      }
+    },
     "home": {
       "finalCta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
@@ -23112,6 +23477,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/sobre",
           "label": "Sobre Nexa"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/casos-de-exito",
+          "label": "Casos"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/fundador",
+          "label": "Fundador"
         },
         {
           "href": "/s/es/nexa-paraguay/faq",
@@ -23746,6 +24119,47 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "buttonHref": "/s/nl/nexa-paraguay/contacto",
+        "buttonText": "Plan gratis consult",
+        "subtitle": "Plan een consult en we bespreken uw specifieke geval.",
+        "title": "Wilt u de volgende zijn?"
+      },
+      "hero": {
+        "headline": "Case studies",
+        "subheadline": "[TODO klant] 1 zin over het type klant waar Nexa mee werkt en hun uitkomsten."
+      },
+      "seo": {
+        "description": "Echte verhalen van Europeanen die hun verblijf en operatie in Paraguay met Nexa vestigden.",
+        "title": "Case studies — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Echte klanten",
+        "subtitle": "[TODO klant] Echte verhalen met naam, land, programma, doorlooptijd. Vervangen zodra 3 echte klanten schriftelijk toestemming hebben gegeven.",
+        "testimonials": [
+          {
+            "imageUrl": "",
+            "name": "[TODO: Echte klantnaam]",
+            "quote": "[TODO klant] Echte quote van 2-3 regels — verwachting vs wat ze kregen, wat hen verraste. Schriftelijke toestemming verplicht.",
+            "role": "[TODO: Beroep / land van herkomst]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Echte klantnaam]",
+            "quote": "[TODO klant] Idealiter met specifiek detail (doorlooptijd, bezwaar overwonnen, concrete uitkomst).",
+            "role": "[TODO: Beroep / land van herkomst]"
+          },
+          {
+            "imageUrl": "",
+            "name": "[TODO: Echte klantnaam]",
+            "quote": "[TODO klant] Idealiter van een ander profiel dan de anderen voor ICP-dekking.",
+            "role": "[TODO: Beroep / land van herkomst]"
+          }
+        ],
+        "title": "Wat onze klanten bereikten"
+      }
+    },
     "comparisonPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
@@ -24103,6 +24517,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "whatsapp": "595982515138"
     },
+    "founderPage": {
+      "cta": {
+        "buttonHref": "/s/nl/nexa-paraguay/contacto",
+        "buttonText": "Plan gratis consult",
+        "subtitle": "De oprichter handelt persoonlijk initiële aanvragen van Europese klanten af.",
+        "title": "Liever direct praten?"
+      },
+      "hero": {
+        "headline": "Oprichter van Nexa Paraguay",
+        "subheadline": "[TODO klant] Volledige naam, rol, en één zin over waarom de firma werd opgericht."
+      },
+      "seo": {
+        "description": "Wie zit er achter Nexa Paraguay. Ervaring, visie, en waarom deze firma bestaat.",
+        "title": "Oprichter — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "Het verhaal",
+        "honestNote": "[TODO klant] Eén persoonlijke afsluiting van de oprichter.",
+        "pillars": [
+          {
+            "description": "[TODO klant] Eén alinea: wat niet was opgelost in de markt voor Europese investeerders naar Paraguay.",
+            "icon": "Users",
+            "title": "Het probleem dat we zagen"
+          },
+          {
+            "description": "[TODO klant] Eén alinea: waarom een nieuwe firma oprichten in plaats van aansluiten bij bestaande.",
+            "icon": "Target",
+            "title": "De beslissing"
+          },
+          {
+            "description": "[TODO klant] Eén alinea: wat Nexa garandeert voorbij het contract.",
+            "icon": "Heart",
+            "title": "De belofte"
+          }
+        ],
+        "title": "Waarom Nexa Paraguay bestaat"
+      },
+      "team": {
+        "members": [
+          {
+            "bio": "[TODO klant] Korte biografie: jaren in Paraguay, eerdere ervaring, talen, LinkedIn. Verschijnt bij hover.",
+            "icon": "Briefcase",
+            "name": "[TODO: Naam oprichter]",
+            "role": "[TODO: Oprichter en Operationeel directeur]"
+          }
+        ],
+        "title": "Wie leidt Nexa"
+      }
+    },
     "home": {
       "finalCta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
@@ -24334,6 +24797,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/sobre",
           "label": "Over Nexa"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/casos-de-exito",
+          "label": "Cases"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/fundador",
+          "label": "Oprichter"
         },
         {
           "href": "/s/nl/nexa-paraguay/faq",

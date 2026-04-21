@@ -40,6 +40,14 @@
         "href": "/s/de/nexa-paraguay/sobre"
       },
       {
+        "label": "Cases",
+        "href": "/s/de/nexa-paraguay/casos-de-exito"
+      },
+      {
+        "label": "Gründer",
+        "href": "/s/de/nexa-paraguay/fundador"
+      },
+      {
         "label": "FAQ",
         "href": "/s/de/nexa-paraguay/faq"
       },
@@ -1185,6 +1193,96 @@
     "cta": {
       "title": "Unsicher, welche Option passt?",
       "subtitle": "Wir helfen Ihnen — auch wenn die Antwort nicht Nexa ist.",
+      "buttonText": "Kostenlose Beratung buchen",
+      "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
+  },
+  "founderPage": {
+    "seo": {
+      "title": "Gründer — Nexa Paraguay",
+      "description": "Wer hinter Nexa Paraguay steht. Erfahrung, Vision und warum diese Firma existiert."
+    },
+    "hero": {
+      "headline": "Gründer von Nexa Paraguay",
+      "subheadline": "[TODO Kunde] Vollständiger Name, Rolle, und ein Satz zur Gründung."
+    },
+    "team": {
+      "title": "Wer Nexa leitet",
+      "members": [
+        {
+          "name": "[TODO: Name des Gründers]",
+          "role": "[TODO: Gründer und operativer Leiter]",
+          "icon": "Briefcase",
+          "bio": "[TODO Kunde] Kurze Biografie: Jahre in Paraguay, bisherige Erfahrung, Sprachen, LinkedIn. Erscheint beim Hover."
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "Die Geschichte",
+      "title": "Warum Nexa Paraguay existiert",
+      "pillars": [
+        {
+          "icon": "Users",
+          "title": "Das Problem, das wir sahen",
+          "description": "[TODO Kunde] Ein Absatz: was im Markt für europäische Investoren nach Paraguay nicht gelöst war."
+        },
+        {
+          "icon": "Target",
+          "title": "Die Entscheidung",
+          "description": "[TODO Kunde] Ein Absatz: warum eine neue Firma gründen statt einer bestehenden beitreten."
+        },
+        {
+          "icon": "Heart",
+          "title": "Das Versprechen",
+          "description": "[TODO Kunde] Ein Absatz: was Nexa über den Vertrag hinaus garantiert."
+        }
+      ],
+      "honestNote": "[TODO Kunde] Ein persönlicher Abschlusssatz des Gründers."
+    },
+    "cta": {
+      "title": "Lieber direkt sprechen?",
+      "subtitle": "Der Gründer bearbeitet persönlich die Erstanfragen europäischer Kunden.",
+      "buttonText": "Kostenlose Beratung buchen",
+      "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
+  },
+  "caseStudiesPage": {
+    "seo": {
+      "title": "Fallstudien — Nexa Paraguay",
+      "description": "Echte Geschichten von Europäern, die mit Nexa ihren Aufenthalt und ihre Operation in Paraguay etabliert haben."
+    },
+    "hero": {
+      "headline": "Fallstudien",
+      "subheadline": "[TODO Kunde] 1 Zeile über den Kundentyp und die Ergebnisse."
+    },
+    "testimonials": {
+      "eyebrow": "Echte Kunden",
+      "title": "Was unsere Kunden erreicht haben",
+      "subtitle": "[TODO Kunde] Echte Geschichten mit Name, Land, Programm, Zeitrahmen. Placeholders ersetzen, sobald 3 echte Kunden schriftlich zugestimmt haben.",
+      "testimonials": [
+        {
+          "name": "[TODO: Echter Kundenname]",
+          "role": "[TODO: Beruf / Herkunftsland]",
+          "quote": "[TODO Kunde] Echtes 2-3-Zeilen-Zitat — Erwartung vs Ergebnis, was überrascht hat. Schriftliche Einwilligung vor Veröffentlichung.",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Echter Kundenname]",
+          "role": "[TODO: Beruf / Herkunftsland]",
+          "quote": "[TODO Kunde] Idealerweise mit spezifischem Detail (Zeitrahmen, überwundene Bedenken, konkretes Ergebnis).",
+          "imageUrl": ""
+        },
+        {
+          "name": "[TODO: Echter Kundenname]",
+          "role": "[TODO: Beruf / Herkunftsland]",
+          "quote": "[TODO Kunde] Idealerweise aus einem anderen Profil als die anderen für ICP-Abdeckung.",
+          "imageUrl": ""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Möchten Sie der Nächste sein?",
+      "subtitle": "Buchen Sie ein Beratungsgespräch zu Ihrem Fall.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
