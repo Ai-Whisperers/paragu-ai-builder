@@ -7,7 +7,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { createOrder, getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { rankProvidersForOrder, NoEligibleProviderError } from '@/lib/payments/router'
 import { createCheckoutWithFailover, NoAvailableProviderError } from '@/lib/payments/failover'
-import { listAvailableProviders } from '@/lib/commerce/payment-credentials'
+import { availableProvidersForCheckout } from '@/lib/commerce/payment-credentials'
 import { applyDiscount } from '@/lib/commerce/discounts'
 import { getCartById } from '@/lib/commerce/cart'
 import { computeCartTotals } from '@/lib/commerce/compute-totals'
@@ -113,16 +113,26 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
 
   // Pick provider via capability matrix; failover on gateway 5xx/timeout.
-  // Restrict the rank to providers the merchant has installed credentials
-  // for. Falls back to "no restriction" if the merchant has none configured
-  // — in that case the platform's env-level Pagopar tokens are used.
-  const installed = await listAvailableProviders(business.id)
+  //
+  // `available` is the UNION of:
+  //   1. Providers the merchant has installed active credentials for
+  //      (via admin UI → business_payment_credentials).
+  //   2. Providers the PLATFORM has env-level fallback tokens set for
+  //      (pagopar + bancard whenever their env vars are present).
+  //
+  // That union is what gives every tenant multi-provider availability
+  // out of the box: a merchant with only Pagopar installed still gets
+  // Bancard as a failover target when Pagopar returns 5xx, and a
+  // merchant with ZERO installed creds still gets both providers
+  // ranked via the capability matrix (with `preferredProvider` from
+  // site.json as the tie-breaker).
+  const available = await availableProvidersForCheckout(business.id)
   let providers: PaymentProvider[]
   try {
     providers = rankProvidersForOrder(
       order,
       business.preferredProvider as PaymentProvider | undefined,
-      installed.length > 0 ? installed : undefined,
+      available,
     )
   } catch (err) {
     if (err instanceof NoEligibleProviderError) {

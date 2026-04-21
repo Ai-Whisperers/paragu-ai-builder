@@ -48,4 +48,31 @@ describe('rankProviders', () => {
     const ranked = rankProviders({ country: 'py', currency: 'pyg' })
     expect(ranked[0]).toBe('pagopar')
   })
+
+  it('PY/PYG with available=[pagopar, bancard] → both ranked, pagopar first', () => {
+    // Simulates a tenant with both platform-fallback providers available.
+    // This is the default state after availableProvidersForCheckout runs
+    // and the platform env has both sets of tokens.
+    const ranked = rankProviders({
+      country: 'PY',
+      currency: 'PYG',
+      available: ['pagopar', 'bancard'],
+    })
+    expect(ranked).toEqual(['pagopar', 'bancard'])
+  })
+
+  it('PY/PYG with available=[pagopar, bancard] and preferred=bancard → bancard first but pagopar still offered', () => {
+    // Tenant configures site.json integrations.payments.provider="bancard"
+    // but platform Pagopar env is also set; both should end up in the
+    // ranked list so failover can retry across providers.
+    const ranked = rankProviders({
+      country: 'PY',
+      currency: 'PYG',
+      preferred: 'bancard',
+      available: ['pagopar', 'bancard'],
+    })
+    expect(ranked[0]).toBe('bancard')
+    expect(ranked).toContain('pagopar')
+    expect(ranked).toHaveLength(2)
+  })
 })

@@ -116,6 +116,52 @@ export async function listAvailableProviders(businessId: string): Promise<Paymen
   return (Array.isArray(data) ? data : []).map((r) => r.provider as PaymentProvider)
 }
 
+/**
+ * Providers that have platform-level env fallback credentials configured.
+ *
+ * Any tenant without per-merchant credentials installed still gets these
+ * as usable options — that's how "out of the box every PY tenant accepts
+ * Pagopar AND Bancard" works. The adapter itself reads process.env, so
+ * availability here is synonymous with "env is set".
+ *
+ * Pulled from process.env directly (not the `env` module) so it's safe
+ * to call in any runtime without pulling the full env validator chain.
+ */
+export function platformFallbackProviders(): PaymentProvider[] {
+  const out: PaymentProvider[] = []
+  if (process.env.PAGOPAR_PUBLIC_TOKEN && process.env.PAGOPAR_PRIVATE_TOKEN) {
+    out.push('pagopar')
+  }
+  if (process.env.BANCARD_PUBLIC_KEY && process.env.BANCARD_PRIVATE_KEY) {
+    out.push('bancard')
+  }
+  return out
+}
+
+/**
+ * Union of merchant-installed credentials + platform env fallbacks.
+ *
+ * This is the set the router should consider when ranking providers:
+ * the merchant's own accounts are preferred (lower-priority wins in
+ * tie-breaks via `preferredProvider`), but a tenant who installed only
+ * Pagopar still gets Bancard as a failover target when the platform
+ * has Bancard env creds set — no admin action required per tenant.
+ *
+ * Returns `undefined` when neither installed nor fallback creds exist,
+ * which signals the router to fall back to the full unrestricted
+ * capability set rather than returning an empty list (backwards
+ * compatibility with pre-widening behavior).
+ */
+export async function availableProvidersForCheckout(
+  businessId: string,
+): Promise<PaymentProvider[] | undefined> {
+  const installed = await listAvailableProviders(businessId)
+  const fallback = platformFallbackProviders()
+  const set = new Set<PaymentProvider>([...installed, ...fallback])
+  if (set.size === 0) return undefined
+  return Array.from(set)
+}
+
 export async function deleteCredentials(businessId: string, provider: PaymentProvider): Promise<void> {
   const supabase = await createAdminClient()
   const { error } = await supabase
