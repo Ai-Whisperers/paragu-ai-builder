@@ -20560,10 +20560,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Warum Paraguay"
         },
         {
-          "href": "/s/de/nexa-paraguay/prensa",
-          "label": "Presse"
-        },
-        {
           "href": "/s/de/nexa-paraguay/calidad-de-vida",
           "label": "Lebensqualität"
         },
@@ -21460,10 +21456,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/recursos",
           "label": "Ressourcen"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/prensa",
-          "label": "Presse"
         },
         {
           "href": "/s/de/nexa-paraguay/contacto",
@@ -22487,10 +22479,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Why Paraguay"
         },
         {
-          "href": "/s/en/nexa-paraguay/prensa",
-          "label": "Press"
-        },
-        {
           "href": "/s/en/nexa-paraguay/calidad-de-vida",
           "label": "Quality of life"
         },
@@ -23387,10 +23375,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/recursos",
           "label": "Resources"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/prensa",
-          "label": "Press"
         },
         {
           "href": "/s/en/nexa-paraguay/contacto",
@@ -24399,10 +24383,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Por qué Paraguay"
         },
         {
-          "href": "/s/es/nexa-paraguay/prensa",
-          "label": "Prensa"
-        },
-        {
           "href": "/s/es/nexa-paraguay/calidad-de-vida",
           "label": "Calidad de vida"
         },
@@ -25299,10 +25279,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/recursos",
           "label": "Recursos"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/prensa",
-          "label": "Prensa"
         },
         {
           "href": "/s/es/nexa-paraguay/contacto",
@@ -26325,10 +26301,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Waarom Paraguay"
         },
         {
-          "href": "/s/nl/nexa-paraguay/prensa",
-          "label": "Pers"
-        },
-        {
           "href": "/s/nl/nexa-paraguay/calidad-de-vida",
           "label": "Levenskwaliteit"
         },
@@ -27225,10 +27197,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/recursos",
           "label": "Bronnen"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/prensa",
-          "label": "Pers"
         },
         {
           "href": "/s/nl/nexa-paraguay/contacto",
