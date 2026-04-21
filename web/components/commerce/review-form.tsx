@@ -15,6 +15,7 @@ interface Props {
  */
 export function ReviewForm({ siteSlug, productId }: Props) {
   const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
   const [rating, setRating] = useState<number | null>(null)
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
@@ -28,11 +29,19 @@ export function ReviewForm({ siteSlug, productId }: Props) {
       const res = await fetch(`/api/storefront/${siteSlug}/reviews`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productId, authorName: name, rating, title: title || undefined, content }),
+        body: JSON.stringify({
+          productId,
+          authorName: name,
+          authorEmail: email.trim() || undefined,
+          rating,
+          title: title || undefined,
+          content,
+        }),
       })
       setState(res.ok ? 'ok' : 'err')
       if (res.ok) {
         setName('')
+        setEmail('')
         setRating(null)
         setTitle('')
         setContent('')
@@ -84,6 +93,20 @@ export function ReviewForm({ siteSlug, productId }: Props) {
               className="mt-1 block w-full rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm"
               placeholder="Ej. Ana, LuciC, etc."
             />
+          </label>
+          <label className="block text-sm">
+            Email <span className="text-[color:var(--text-muted,#6b7280)]">(opcional, no se publica)</span>:
+            <input
+              type="email"
+              maxLength={160}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="mt-1 block w-full rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm"
+              placeholder="tu@email.com"
+            />
+            <span className="mt-1 block text-xs text-[color:var(--text-muted,#6b7280)]">
+              Si usás el mismo email que en tu pedido, tu reseña se marca como "Compra verificada".
+            </span>
           </label>
           <label className="block text-sm">
             Título (opcional):

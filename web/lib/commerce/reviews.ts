@@ -101,15 +101,58 @@ export async function getReviewAggregatesByBusiness(
 }
 
 /**
+ * Auto-detect verified-purchase status. Joins orders (customer_email match)
+ * with order_items (product match) for the business, filtered to completed
+ * states. Returns true if the author actually bought the product from this
+ * business. Email comparison is case-insensitive.
+ *
+ * Kept separate from createReview so the query can be reused (e.g., a
+ * batch job that retroactively marks verified older reviews).
+ */
+export async function isVerifiedPurchase(
+  businessId: string,
+  productId: string,
+  email: string,
+): Promise<boolean> {
+  if (!email) return false
+  const supabase = await createAdminClient()
+  const { data, error } = await supabase
+    .from('orders')
+    .select('id, order_items!inner(product_id)')
+    .eq('business_id', businessId)
+    .ilike('customer_email', email.trim())
+    .in('status', ['paid', 'fulfilled', 'shipped', 'delivered'])
+    .eq('order_items.product_id', productId)
+    .limit(1)
+  if (error) {
+    logger.warn('[reviews] verified-purchase query failed', {
+      action: 'reviews.verify_purchase',
+      businessId,
+      productId,
+      error: error.message,
+    })
+    return false
+  }
+  return Array.isArray(data) && data.length > 0
+}
+
+/**
  * Creates a pending (un-approved) review. Admin must approve before it
  * appears on the storefront. Spam is mitigated by the is_approved=false
  * default + rate limiting at the API boundary.
+ *
+ * If `authorEmail` is provided, auto-detects verified-purchase status
+ * so legit buyers get the "Compra verificada" badge without admin
+ * intervention once approved.
  */
 export async function createReview(
   businessId: string,
   input: ReviewCreate,
 ): Promise<Review | null> {
   const supabase = await createAdminClient()
+  const verified = input.authorEmail
+    ? await isVerifiedPurchase(businessId, input.productId, input.authorEmail)
+    : false
   const { data, error } = await supabase
     .from('reviews')
     .insert({
@@ -120,7 +163,7 @@ export async function createReview(
       rating: input.rating,
       title: input.title ?? null,
       content: input.content,
-      is_verified_purchase: false,
+      is_verified_purchase: verified,
       is_approved: false,
     })
     .select('*')

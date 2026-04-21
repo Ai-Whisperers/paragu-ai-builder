@@ -26,7 +26,7 @@ import { loadPygRates } from '@/lib/commerce/currency-server'
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic' // search/sort/filter params kill static caching
 
-const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc', 'popularity']
+const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc', 'popularity', 'rating']
 const DEFAULT_PER_PAGE = 12
 const PER_PAGE_OPTIONS = [12, 24, 48, 96]
 const MAX_PER_PAGE = 96
@@ -107,11 +107,12 @@ export default async function StorePage({
     onSaleOnly,
   }
 
-  // Popularity sort requires all matching rows up front so we can re-sort by
-  // the order_items aggregate before paginating. For any other sort the DB
+  // Popularity + rating sorts require all matching rows up front so we can
+  // re-sort by aggregates before paginating. For any other sort the DB
   // paginates natively.
-  const fetchLimit = sortKey === 'popularity' ? 500 : perPage
-  const fetchOffset = sortKey === 'popularity' ? 0 : offset
+  const needsPostSort = sortKey === 'popularity' || sortKey === 'rating'
+  const fetchLimit = needsPostSort ? 500 : perPage
+  const fetchOffset = needsPostSort ? 0 : offset
 
   const [fetchedProducts, totalCount, rates, availableCategories, categoryCounts, topSearches, availableBrands, availableTags, reviewAggregates, popularityMap] =
     await Promise.all([
@@ -127,11 +128,27 @@ export default async function StorePage({
       sortKey === 'popularity' ? getPopularityByBusiness(business.id) : Promise.resolve(new Map<string, number>()),
     ])
 
-  const products = sortKey === 'popularity'
-    ? [...fetchedProducts]
-        .sort((a, b) => (popularityMap.get(b.id) ?? 0) - (popularityMap.get(a.id) ?? 0))
-        .slice(offset, offset + perPage)
-    : fetchedProducts
+  let products = fetchedProducts
+  if (sortKey === 'popularity') {
+    products = [...fetchedProducts]
+      .sort((a, b) => (popularityMap.get(b.id) ?? 0) - (popularityMap.get(a.id) ?? 0))
+      .slice(offset, offset + perPage)
+  } else if (sortKey === 'rating') {
+    // Rank by avg rating desc, tiebreak by count desc, tiebreak by created_at desc.
+    products = [...fetchedProducts]
+      .sort((a, b) => {
+        const ra = reviewAggregates[a.id]
+        const rb = reviewAggregates[b.id]
+        const aAvg = ra?.avg ?? 0
+        const bAvg = rb?.avg ?? 0
+        if (bAvg !== aAvg) return bAvg - aAvg
+        const aCount = ra?.count ?? 0
+        const bCount = rb?.count ?? 0
+        if (bCount !== aCount) return bCount - aCount
+        return Date.parse(b.createdAt) - Date.parse(a.createdAt)
+      })
+      .slice(offset, offset + perPage)
+  }
   // Only surface suggestions with at least 1 result (non-zero-result).
   // Dedup by normalized form, keep pretty sampleQuery.
   const popularQueries = topSearches
