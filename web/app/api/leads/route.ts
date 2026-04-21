@@ -11,7 +11,7 @@ export const runtime = 'nodejs'
 const LeadSchema = z.object({
   siteSlug: z.string().min(1),
   locale: z.string().min(2).max(5),
-  name: z.string().min(2).max(200),
+  name: z.string().min(2).max(200).optional(),
   email: z.string().email(),
   phone: z.string().max(40).optional(),
   country: z.string().max(80).optional(),
@@ -55,6 +55,15 @@ export const POST = withRequestLog(async (req, { log, perf, requestId }) => {
   if (data.honey) {
     log.warn('Bot submission detected (honeypot)', { siteSlug: data.siteSlug })
     return respond(400, { error: 'bot detected' })
+  }
+
+  // Synthesize name from email for lightweight submissions (newsletter,
+  // exit-intent). The NOT NULL constraint on public.leads.name is enforced
+  // at the DB level; rather than null-out the column, derive a reasonable
+  // placeholder. The CRM adapter layer still gets a usable Lead shape.
+  if (!data.name || data.name.trim().length < 2) {
+    const localPart = data.email.split('@')[0] || 'Subscriber'
+    data.name = localPart.slice(0, 200)
   }
 
   let site
@@ -209,6 +218,12 @@ async function persistLeadToSupabase(
     })
     if (!res.ok) {
       const text = await res.text()
+      // 409 = unique-constraint violation on (site_slug, lower(email)) —
+      // treat as success because the lead was already captured by a
+      // previous submission. Re-submission is effectively idempotent.
+      if (res.status === 409) {
+        return { ok: true, id: 'dedup' }
+      }
       return { ok: false, error: `supabase ${res.status}: ${text.slice(0, 200)}` }
     }
     const rows = await res.json()

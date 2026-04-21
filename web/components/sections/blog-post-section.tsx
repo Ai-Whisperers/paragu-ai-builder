@@ -1,5 +1,10 @@
 import { BlogSocialShare } from './blog-social-share'
 import { Container } from '@/components/ui/container'
+
+function categoryToSlug(s: string): string {
+  return s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+}
+
 import { Heading } from '@/components/ui/heading'
 
 export interface BlogPostSectionProps {
@@ -49,9 +54,12 @@ export function BlogPostSection({
           </a>
         )}
         {category && (
-          <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+          <a
+            href={`../blog/categoria/${categoryToSlug(category)}`}
+            className="mb-3 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)] hover:underline"
+          >
             {category}
-          </p>
+          </a>
         )}
         <Heading level={1}>{title}</Heading>
         <div className="mt-4 flex items-center gap-3 text-sm text-[var(--text-muted)]">
@@ -97,9 +105,17 @@ export function BlogPostSection({
                   </div>
                   <div className="p-5">
                     {p.category && (
+<<<<<<< HEAD
+                      <span
+                        className="mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]"
+                      >
+                        {p.category}
+                      </span>
+=======
                       <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
                         {p.category}
                       </p>
+>>>>>>> origin/Main
                     )}
                     <Heading
                       level={3}

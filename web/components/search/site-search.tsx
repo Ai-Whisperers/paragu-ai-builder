@@ -1,7 +1,11 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+<<<<<<< HEAD
+import { Search, X, FileText, HelpCircle, BookOpen, Home, Calculator, ClipboardList, Mail, MessageCircle } from 'lucide-react'
+=======
 import { Search, X, FileText, HelpCircle, BookOpen, Home } from 'lucide-react'
+>>>>>>> origin/Main
 import { BLOG_POSTS, CONTENT } from '@/lib/engine/generated/tenant-data'
 
 /**
@@ -106,6 +110,55 @@ function iconFor(type: SearchItem['type']) {
   }
 }
 
+<<<<<<< HEAD
+function actionIcon(name: QuickAction['icon']) {
+  switch (name) {
+    case 'FileText': return FileText
+    case 'HelpCircle': return HelpCircle
+    case 'BookOpen': return BookOpen
+    case 'Home': return Home
+    case 'Calculator': return Calculator
+    case 'ClipboardList': return ClipboardList
+    case 'MessageCircle': return MessageCircle
+    case 'Mail': return Mail
+  }
+}
+
+interface QuickAction {
+  labelKey: string
+  href: string
+  icon: 'FileText' | 'HelpCircle' | 'BookOpen' | 'Home' | 'Calculator' | 'ClipboardList' | 'MessageCircle' | 'Mail'
+}
+
+const ACTIONS: Record<string, Array<{ label: string; href: string; icon: QuickAction['icon'] }>> = {
+  de: [
+    { label: 'Programm-Assistent starten', href: '/asistente', icon: 'ClipboardList' },
+    { label: 'Kostenlose Beratung buchen', href: '/contacto', icon: 'Mail' },
+    { label: 'Steuerersparnis-Rechner', href: '/', icon: 'Calculator' },
+    { label: 'Programme & Preise', href: '/programas', icon: 'FileText' },
+  ],
+  en: [
+    { label: 'Start program wizard', href: '/asistente', icon: 'ClipboardList' },
+    { label: 'Book free consultation', href: '/contacto', icon: 'Mail' },
+    { label: 'Tax savings calculator', href: '/', icon: 'Calculator' },
+    { label: 'Programs & pricing', href: '/programas', icon: 'FileText' },
+  ],
+  es: [
+    { label: 'Iniciar asistente de programas', href: '/asistente', icon: 'ClipboardList' },
+    { label: 'Agendar consulta gratuita', href: '/contacto', icon: 'Mail' },
+    { label: 'Calculadora de ahorro fiscal', href: '/', icon: 'Calculator' },
+    { label: 'Programas y precios', href: '/programas', icon: 'FileText' },
+  ],
+  nl: [
+    { label: 'Programma-assistent starten', href: '/asistente', icon: 'ClipboardList' },
+    { label: 'Gratis consult plannen', href: '/contacto', icon: 'Mail' },
+    { label: 'Belastingbesparing-calculator', href: '/', icon: 'Calculator' },
+    { label: 'Programma\'s en prijzen', href: '/programas', icon: 'FileText' },
+  ],
+}
+
+=======
+>>>>>>> origin/Main
 const PLACEHOLDERS: Record<string, string> = {
   de: 'Artikel, FAQs, Glossar durchsuchen…',
   en: 'Search articles, FAQs, glossary…',
@@ -185,6 +238,30 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
             <X size={18} />
           </button>
         </div>
+<<<<<<< HEAD
+        {!query.trim() && (
+          <ul className="border-b border-[var(--border)] py-2">
+            <li className="px-4 pb-1 pt-2 text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+              Acciones rápidas
+            </li>
+            {(ACTIONS[locale] || ACTIONS.es).map((a) => {
+              const Icon = actionIcon(a.icon)
+              return (
+                <li key={a.href}>
+                  <a
+                    href={`/s/${locale}/${siteSlug}${a.href}`}
+                    className="flex items-center gap-3 px-4 py-2 text-sm hover:bg-[var(--surface-light)]"
+                  >
+                    <Icon size={18} className="flex-shrink-0 text-[var(--secondary)]" />
+                    <span className="text-[var(--text)]">{a.label}</span>
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+        )}
+=======
+>>>>>>> origin/Main
         <ul className="max-h-[60vh] overflow-y-auto py-2">
           {results.length === 0 ? (
             <li className="px-6 py-8 text-center text-sm text-[var(--text-muted)]">—</li>
