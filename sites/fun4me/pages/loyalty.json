@@ -5,10 +5,6 @@
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
     { "id": "hero", "variant": "minimal", "content": "loyalty.hero" },
-    { "id": "services", "variant": "cards", "content": "loyalty.howItWorks" },
-    { "id": "services", "variant": "cards", "content": "loyalty.tiers" },
-    { "id": "services", "variant": "list", "content": "loyalty.earningRules" },
-    { "id": "services", "variant": "cards", "content": "loyalty.redemptionOptions" },
     { "id": "faq", "variant": "accordion", "content": "loyalty.faq" },
     { "id": "cta-banner", "variant": "gradient", "content": "loyalty.cta" },
     { "id": "footer", "variant": "standard", "content": "footer" },

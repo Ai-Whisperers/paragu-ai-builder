@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=116, pages=136, content=122, blog=10, verticals=23. */
+/** Counts: sites=117, pages=144, content=137, blog=10, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -125,6 +125,7 @@ export const SITE_SLUGS: readonly string[] = [
   "demo-unas",
   "demo-veterinaria",
   "demo-yoga",
+  "fun4me",
   "granja-cabral",
   "nexa-paraguay",
   "nexa-propiedades",
@@ -4540,6 +4541,207 @@ export const SITES: Record<string, JsonRecord> = {
     "source": "batch-create-demos",
     "vertical": "health-wellness"
   },
+  "fun4me": {
+    "businessType": "sex_shop",
+    "contact": {
+      "email": "hola@fun4me.com.py",
+      "facebook": "FUN4MEStore",
+      "instagram": "@fun4me_store",
+      "phone": "+595976569739",
+      "supportEmails": {
+        "compliance": "compliance@fun4me.com.py",
+        "general": "hola@fun4me.com.py",
+        "legal": "legal@fun4me.com.py",
+        "moderation": "moderacion@fun4me.com.py",
+        "privacy": "privacidad@fun4me.com.py",
+        "returns": "devoluciones@fun4me.com.py"
+      },
+      "whatsapp": "+595976569739"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "domain": null,
+    "featurePhases": {
+      "phase1": [
+        "productCatalog",
+        "pagoparCheckout",
+        "wishlist",
+        "giftCards",
+        "bundles",
+        "blog"
+      ],
+      "phase2": [
+        "reviews",
+        "sizeGuides",
+        "discreteAccountNames",
+        "ageGateHardening"
+      ],
+      "phase3": [
+        "subscriptions",
+        "referral",
+        "loyalty",
+        "whatsappBusinessApi",
+        "liveChat"
+      ],
+      "phase4": [
+        "storePickupReserve",
+        "events",
+        "timbradoInvoicing",
+        "discreteBillingToggle"
+      ]
+    },
+    "features": {
+      "abandonedCartRecovery": true,
+      "ageGate": true,
+      "backInStockNotifications": true,
+      "blog": true,
+      "bundles": true,
+      "discreteAccountNames": true,
+      "discretePackaging": true,
+      "faq": true,
+      "giftCards": true,
+      "loyalty": true,
+      "productCatalog": true,
+      "referral": true,
+      "reviews": true,
+      "sizeGuides": true,
+      "storePickupReserve": true,
+      "subscriptions": true,
+      "testimonials": true,
+      "whatsappFloat": true,
+      "wishlist": true
+    },
+    "fiscalInfo": {
+      "invoicingActive": false,
+      "legalName": null,
+      "ruc": null,
+      "taxRegime": null,
+      "timbrado": null
+    },
+    "fullRolloutStartedAt": "2026-04-21",
+    "hours": {
+      "Domingo": "Cerrado",
+      "Lunes - Viernes": "09:00 - 20:00",
+      "Sabado": "09:00 - 18:00"
+    },
+    "integrations": {
+      "analytics": "ga4",
+      "email": {
+        "newsletter": true,
+        "optInRequired": true,
+        "provider": "sendgrid",
+        "transactional": true
+      },
+      "invoicing": {
+        "enabled": false,
+        "plannedPhase": 4,
+        "provider": "facture"
+      },
+      "messaging": {
+        "liveChat": {
+          "enabled": false,
+          "plannedPhase": 3,
+          "provider": null
+        },
+        "whatsappBusinessApi": {
+          "enabled": false,
+          "plannedPhase": 3,
+          "provider": "360dialog"
+        },
+        "whatsappClickToChat": true
+      },
+      "payments": {
+        "merchantIdEnvVar": "PAGOPAR_MERCHANT_KEY_FUN4ME",
+        "provider": "pagopar",
+        "secretKeyEnvVar": "PAGOPAR_SECRET_KEY_FUN4ME",
+        "statementDescriptor": "F4M COMERCIAL"
+      }
+    },
+    "is_demo": false,
+    "legal": {
+      "ageMinimum": 18,
+      "complianceReviewedAt": "2026-05-01",
+      "documents": {
+        "ageCompliance": "/fun4me/legal/age-compliance",
+        "privacy": "/fun4me/legal/privacy",
+        "returns": "/fun4me/legal/returns",
+        "terms": "/fun4me/legal/terms"
+      }
+    },
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Herrera 875",
+      "city": "Asuncion",
+      "coordinates": {
+        "lat": -25.2867,
+        "lng": -57.6474
+      },
+      "country": "Paraguay",
+      "googleMapsId": null
+    },
+    "migratedAt": "2026-04-21",
+    "migratedFrom": "vete/web/.content_data/fun4me/",
+    "path": "/fun4me",
+    "placeholderFields": {
+      "brandPartners": "Satisfyer/LELO/We-Vibe logos use placeholder SVGs — replace with real logos",
+      "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py deferred.",
+      "fiscalInfo": "RUC and Timbrado to be collected via owner onboarding questionnaire Parte E",
+      "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials required. See docs/runbooks/pagopar-setup.md",
+      "location.googleMapsId": "null — needs real Place ID for Herrera 875. See docs/runbooks/google-maps-place-id.md",
+      "team": "about.team empty — decide whether to publish team or keep anonymous"
+    },
+    "publicUrl": "https://paragu-ai.com/fun4me",
+    "seo": {
+      "priceRange": "$$",
+      "primaryKeywords": [
+        "sex shop paraguay",
+        "sex shop asuncion",
+        "juguetes adultos paraguay",
+        "lenceria asuncion",
+        "tienda erotica paraguay"
+      ],
+      "schemaType": "Store"
+    },
+    "settings": {
+      "ageGate": {
+        "cookieDays": 30,
+        "enabled": true,
+        "method": "self_declare",
+        "minAge": 18,
+        "reverifyMonths": 24
+      },
+      "currency": "PYG",
+      "delivery": {
+        "enabled": true,
+        "expressAvailable": true,
+        "expressCutoff": "15:00",
+        "expressFee": 50000,
+        "freeThreshold": 200000,
+        "national": true,
+        "pickupAddress": "Herrera 875, Asuncion",
+        "pickupAvailable": true,
+        "zones": [
+          "Asuncion",
+          "Fernando de la Mora",
+          "San Lorenzo",
+          "Lambare",
+          "Luque"
+        ]
+      },
+      "discretion": {
+        "billingName": "Fun4Me Comercial",
+        "invoiceConcept": "Articulo de salud y bienestar personal",
+        "packaging": "neutral_no_logo",
+        "statementDescriptor": "F4M COMERCIAL"
+      },
+      "locale": "es-PY",
+      "timezone": "America/Asuncion"
+    },
+    "stagingDomain": "fun4me.sunstein.cloud",
+    "vertical": "retail-local"
+  },
   "granja-cabral": {
     "businessType": "egg_farm",
     "contact": {
@@ -5240,6 +5442,51 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
   "demo-yoga": {
     "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:health-wellness"
+  },
+  "fun4me": {
+    "$comment": "Fun4Me — purple/pink Material-inspired palette ported from vete theme.json. Primary #9C27B0, secondary #E91E63. Extends retail-local vertical defaults.",
+    "colors": {
+      "accent": "#FF4081",
+      "accentForeground": "#FFFFFF",
+      "background": "#FDF8FC",
+      "backgroundAlt": "#F8F0F6",
+      "border": "#E8D5ED",
+      "borderDark": "#D4B8DC",
+      "error": "#F44336",
+      "heroBg": "#4A148C",
+      "primary": "#9C27B0",
+      "primaryDark": "#7B1FA2",
+      "primaryForeground": "#FFFFFF",
+      "primaryLight": "#BA68C8",
+      "secondary": "#E91E63",
+      "secondaryDark": "#C2185B",
+      "secondaryForeground": "#FFFFFF",
+      "secondaryLight": "#F06292",
+      "success": "#4CAF50",
+      "surface": "#FFFFFF",
+      "surfaceAlt": "#FDF8FC",
+      "text": "#2D1B36",
+      "textMuted": "#5C4066",
+      "textSubtle": "#8B7394",
+      "warning": "#FF9800"
+    },
+    "extends": "vertical:retail-local",
+    "gradients": {
+      "accent": "linear-gradient(135deg, #E91E63 0%, #C2185B 100%)",
+      "hero": "linear-gradient(135deg, #4A148C 0%, #7B1FA2 50%, #9C27B0 100%)",
+      "primary": "linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%)",
+      "vibrant": "linear-gradient(135deg, #9C27B0 0%, #E91E63 100%)"
+    },
+    "typography": {
+      "fontAccent": "Poppins",
+      "fontBody": "Inter",
+      "fontHeading": "Poppins"
+    },
+    "ui": {
+      "borderRadius": "16px",
+      "borderRadiusLg": "24px",
+      "borderRadiusSm": "8px"
+    }
   },
   "granja-cabral": {
     "$comment": "Granja Cabral — warm earthy farm palette. Extends agriculture-agribusiness vertical defaults; overrides primary/secondary/accent to the egg_farm tokens (orange/green/yellow).",
@@ -8941,6 +9188,356 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "",
     "titleKey": "home.seo.title"
+  },
+  "fun4me:bundles": {
+    "descriptionKey": "bundles.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "bundles.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "bundles",
+    "titleKey": "bundles.seo.title"
+  },
+  "fun4me:gift-cards": {
+    "descriptionKey": "giftCards.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "giftCards.hero",
+        "id": "hero",
+        "variant": "split"
+      },
+      {
+        "content": "giftCards.designs",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "giftCards.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "giftCards.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "gift-cards",
+    "titleKey": "giftCards.seo.title"
+  },
+  "fun4me:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.features",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.promo",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "home.categories",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.stats",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.partners",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "fun4me:loyalty": {
+    "descriptionKey": "loyalty.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "loyalty.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "loyalty.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "loyalty.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "placer-plus",
+    "titleKey": "loyalty.seo.title"
+  },
+  "fun4me:reserva-en-tienda": {
+    "descriptionKey": "storeReserve.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "storeReserve.hero",
+        "id": "hero",
+        "variant": "split"
+      },
+      {
+        "content": "storeReserve.howItWorks",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "storeReserve.location",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "storeReserve.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "reserva-en-tienda",
+    "titleKey": "storeReserve.seo.title"
+  },
+  "fun4me:size-guide": {
+    "descriptionKey": "sizeGuide.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "sizeGuide.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "sizeGuide.instructions",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "sizeGuide.charts",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "sizeGuide.brandNotes",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "sizeGuide.returnPolicy",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "guia-talles",
+    "titleKey": "sizeGuide.seo.title"
+  },
+  "fun4me:store": {
+    "descriptionKey": "store.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "store.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.promo",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "id": "product-catalog",
+        "variant": "grid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "store",
+    "titleKey": "store.seo.title"
+  },
+  "fun4me:subscriptions": {
+    "descriptionKey": "subscriptions.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "subscriptions.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "subscriptions.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "subscriptions.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "subscriptions.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "suscripciones",
+    "titleKey": "subscriptions.seo.title"
   },
   "granja-cabral:home": {
     "descriptionKey": "home.seo.description",
@@ -13873,6 +14470,144 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Gimnasio y me interesa un sitio para mi negocio"
     }
   },
+  "demo-gimnasio:home.promo": {
+    "promotions": [
+      {
+        "bgColor": "bg-gradient-to-r from-orange-500 to-red-500",
+        "code": "VERANO2026",
+        "description": "3 meses sin matrícula + 1 mes gratis",
+        "expiresAt": "2026-12-31T23:59:59",
+        "id": "1",
+        "textColor": "text-white",
+        "title": "¡Verano Fit!"
+      },
+      {
+        "bgColor": "bg-gradient-to-r from-blue-500 to-cyan-500",
+        "code": "PAREJA30",
+        "description": "2 membresías con 30% de descuento",
+        "expiresAt": "2026-12-31T23:59:59",
+        "id": "2",
+        "textColor": "text-white",
+        "title": "Pack Pareja"
+      }
+    ],
+    "settings": {
+      "autoRotate": true,
+      "dismissible": true,
+      "position": "top",
+      "rotateInterval": 5000
+    }
+  },
+  "demo-gimnasio:home.team": {
+    "members": [
+      {
+        "bio": "Entrenador certificado con 10 años de experiencia. Especialista en CrossFit y HIIT.",
+        "id": "juan-perez",
+        "imageUrl": "https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&h=400&fit=crop",
+        "instagram": "juan.crossfit",
+        "name": "Juan Pérez",
+        "rating": 5,
+        "reviewCount": 143,
+        "role": "Head Coach - CrossFit",
+        "slug": "juan-perez",
+        "specialties": [
+          "CrossFit",
+          "HIIT",
+          "Pérdida de Peso"
+        ]
+      },
+      {
+        "bio": "Instructora certificada de yoga con 7 años de experiencia. Especialista en yoga terapéutico.",
+        "id": "sofia-fernandez",
+        "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop",
+        "instagram": "sofia.yoga",
+        "name": "Sofía Fernández",
+        "rating": 4.9,
+        "reviewCount": 112,
+        "role": "Instructora - Yoga & Pilates",
+        "slug": "sofia-fernandez",
+        "specialties": [
+          "Yoga",
+          "Pilates",
+          "Flexibilidad"
+        ]
+      },
+      {
+        "bio": "Personal trainer especializado en hipertrofia y definición muscular.",
+        "id": "diego-martinez",
+        "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&h=400&fit=crop",
+        "instagram": "diego.pt",
+        "name": "Diego Martínez",
+        "rating": 4.8,
+        "reviewCount": 98,
+        "role": "Personal Trainer - Musculación",
+        "slug": "diego-martinez",
+        "specialties": [
+          "Musculación",
+          "Hipertrofia",
+          "Nutrición"
+        ]
+      },
+      {
+        "bio": "Apasionada por el cardio y las clases grupales. Especialista en spinning.",
+        "id": "valentina-silva",
+        "imageUrl": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&h=400&fit=crop",
+        "instagram": "valentina.spin",
+        "name": "Valentina Silva",
+        "rating": 4.9,
+        "reviewCount": 87,
+        "role": "Instructora - Spinning & Cardio",
+        "slug": "valentina-silva",
+        "specialties": [
+          "Spinning",
+          "Cardio",
+          "Clases Grupales"
+        ]
+      }
+    ],
+    "subtitle": "Profesionales certificados para guiarte en tu transformación",
+    "title": "Nuestros Entrenadores"
+  },
+  "demo-gimnasio:home.transformations": {
+    "transformations": [
+      {
+        "afterImage": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop",
+        "clientQuote": "En 6 meses cambié mi vida. Bajé 15kg y gané músculo.",
+        "id": "1",
+        "rating": 5,
+        "service": "Transformación 6 Meses",
+        "stylist": "Con Entrenador Personal"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
+        "clientQuote": "Nunca pensé que podría hacerlo. Ahora no puedo parar.",
+        "id": "2",
+        "rating": 5,
+        "service": "CrossFit Journey",
+        "stylist": "CrossFit PowerGym"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop",
+        "clientQuote": "Mi dolor de espalda desapareció. Me siento 10 años más joven.",
+        "id": "3",
+        "rating": 5,
+        "service": "Yoga & Flexibilidad",
+        "stylist": "Clases de Yoga"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1583454155154-4a29d4f9008e?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1581009146145-b5ef050c149a?w=800&h=600&fit=crop",
+        "clientQuote": "El mejor año de mi vida. Gracias al equipo de PowerGym.",
+        "id": "4",
+        "rating": 5,
+        "service": "Plan Premium 12 Meses",
+        "stylist": "Todos los Entrenadores"
+      }
+    ]
+  },
   "demo-ginecologia:es": {
     "_meta": {
       "author": "batch-create-demos",
@@ -15073,6 +15808,153 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Peluqueria y me interesa un sitio para mi negocio"
     }
   },
+  "demo-peluqueria:home.promo": {
+    "promotions": [
+      {
+        "bgColor": "bg-gradient-to-r from-pink-500 to-rose-500",
+        "code": "MARTES20",
+        "description": "20% de descuento en todos los servicios",
+        "expiresAt": "2026-12-31T23:59:59",
+        "id": "1",
+        "textColor": "text-white",
+        "title": "¡Martes de Mujeres!"
+      },
+      {
+        "bgColor": "bg-gradient-to-r from-purple-500 to-indigo-500",
+        "code": "NOVIA2026",
+        "description": "Trial + Día de tu boda por solo 450.000 Gs",
+        "expiresAt": "2026-12-31T23:59:59",
+        "id": "2",
+        "textColor": "text-white",
+        "title": "Pack Novia"
+      }
+    ],
+    "settings": {
+      "autoRotate": true,
+      "dismissible": true,
+      "position": "top",
+      "rotateInterval": 5000
+    }
+  },
+  "demo-peluqueria:home.team": {
+    "members": [
+      {
+        "bio": "Especialista en coloración con 8 años de experiencia. Experta en balayage y mechas.",
+        "id": "maria-gonzalez",
+        "imageUrl": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&h=400&fit=crop",
+        "instagram": "maria.estilista",
+        "name": "María González",
+        "rating": 4.9,
+        "reviewCount": 127,
+        "role": "Estilista Senior - Colorista",
+        "slug": "maria-gonzalez",
+        "specialties": [
+          "Coloración",
+          "Balayage",
+          "Mechas"
+        ]
+      },
+      {
+        "bio": "Experto en cortes modernos para hombres. Especialista en degradados y barba.",
+        "id": "carlos-ruiz",
+        "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+        "instagram": "carlos.barber",
+        "name": "Carlos Ruiz",
+        "rating": 4.8,
+        "reviewCount": 89,
+        "role": "Barbero - Cortes Masculinos",
+        "slug": "carlos-ruiz",
+        "specialties": [
+          "Degradados",
+          "Barba",
+          "Diseños"
+        ]
+      },
+      {
+        "bio": "Especialista en tratamientos capilares y alisados. Certificada en keratina.",
+        "id": "lucia-benitez",
+        "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+        "instagram": "lucia.tratamientos",
+        "name": "Lucía Benítez",
+        "rating": 4.9,
+        "reviewCount": 94,
+        "role": "Estilista - Tratamientos",
+        "slug": "lucia-benitez",
+        "specialties": [
+          "Keratina",
+          "Botox Capilar",
+          "Alisado"
+        ]
+      },
+      {
+        "bio": "Apasionada por el nail art y el cuidado de manos. Especialista en uñas acrílicas.",
+        "id": "ana-maria-lopez",
+        "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
+        "instagram": "ana.nails",
+        "name": "Ana María López",
+        "rating": 4.7,
+        "reviewCount": 76,
+        "role": "Manicurista - Nail Art",
+        "slug": "ana-maria-lopez",
+        "specialties": [
+          "Nail Art",
+          "Uñas Acrílicas",
+          "Manicure"
+        ]
+      }
+    ],
+    "subtitle": "Profesionales dedicados a realzar tu belleza",
+    "title": "Nuestro Equipo"
+  },
+  "demo-peluqueria:home.transformations": {
+    "transformations": [
+      {
+        "afterImage": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop",
+        "clientQuote": "María entendió exactamente lo que quería. ¡Me siento renovada!",
+        "id": "1",
+        "rating": 5,
+        "service": "Corte y Coloración",
+        "stylist": "María González"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1620122830785-a4cb998ce8fe?w=800&h=600&fit=crop",
+        "clientQuote": "Increíble resultado. Mi cabello nunca se había visto tan saludable.",
+        "id": "2",
+        "rating": 5,
+        "service": "Keratina",
+        "stylist": "Lucía Benítez"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=600&fit=crop",
+        "clientQuote": "Carlos es un artista. El mejor corte que he tenido.",
+        "id": "3",
+        "rating": 5,
+        "service": "Corte Moderno",
+        "stylist": "Carlos Ruiz"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&h=600&fit=crop",
+        "clientQuote": "El color quedó perfecto, muy natural y luminoso.",
+        "id": "4",
+        "rating": 5,
+        "service": "Mechas Balayage",
+        "stylist": "Ana María López"
+      },
+      {
+        "afterImage": "https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=800&h=600&fit=crop",
+        "beforeImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&h=600&fit=crop",
+        "clientQuote": "Sofía me salvó de mi cabello rebelde. ¡Gracias!",
+        "id": "5",
+        "rating": 5,
+        "service": "Alisado Permanente",
+        "stylist": "Sofía Fernández"
+      }
+    ]
+  },
   "demo-pensionado-canino:es": {
     "_meta": {
       "author": "batch-create-demos",
@@ -15721,6 +16603,2312 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Estudio de Yoga profesional en Capiata.",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Yoga y me interesa un sitio para mi negocio"
+    }
+  },
+  "fun4me:bundles": {
+    "_meta": {
+      "description": "Curated product bundles. Each bundle renders as a product with a virtual SKU and a composition of real SKUs. Pricing is set with a discount vs the sum of line items."
+    },
+    "bundles": [
+      {
+        "ageGate": 18,
+        "audience": "beginner",
+        "bundlePrice": 449000,
+        "category": "parejas",
+        "composition": [
+          {
+            "individualPrice": 420000,
+            "name": "Vibrador Satisfyer Pro 2 (beginner-friendly)",
+            "sku": "SAT-PRO2"
+          },
+          {
+            "individualPrice": 45000,
+            "name": "Lubricante base agua 100ml",
+            "sku": "LUB-H2O-100"
+          },
+          {
+            "individualPrice": 38000,
+            "name": "Limpiador para juguetes 50ml",
+            "sku": "CLEAN-TOY-50"
+          },
+          {
+            "individualPrice": 0,
+            "name": "Guía PDF: Primera vez con vibrador (digital)",
+            "sku": "GUIDE-FV-PDF"
+          }
+        ],
+        "ctaText": "Agregar Kit",
+        "description": "Kit curado para quienes exploran juguetes por primera vez. Productos suaves, fáciles de usar, con guía de inicio incluida.",
+        "headline": "Todo lo que necesitas para empezar, sin complicaciones.",
+        "id": "bundle-primera-vez",
+        "listPrice": 503000,
+        "mainImage": "/branding/fun4me/images/bundles/primera-vez.jpg",
+        "name": "Para la Primera Vez",
+        "savings": 54000,
+        "sku": "BDL-FV-001",
+        "stockPolicy": "in_stock_when_all_components_available",
+        "tags": [
+          "bestseller",
+          "regalo",
+          "primera-vez"
+        ]
+      },
+      {
+        "ageGate": 18,
+        "audience": "couples",
+        "bundlePrice": 979000,
+        "category": "parejas",
+        "composition": [
+          {
+            "individualPrice": 950000,
+            "name": "We-Vibe Chorus (para parejas)",
+            "sku": "WV-CHORUS"
+          },
+          {
+            "individualPrice": 65000,
+            "name": "Lubricante base agua 200ml",
+            "sku": "LUB-H2O-200"
+          },
+          {
+            "individualPrice": 55000,
+            "name": "Aceite de masaje con efecto calor",
+            "sku": "MASS-OIL-CAND"
+          },
+          {
+            "individualPrice": 25000,
+            "name": "Antifaz de satén",
+            "sku": "BLIND-SATIN"
+          }
+        ],
+        "ctaText": "Agregar Kit",
+        "description": "Combo diseñado para parejas que quieren explorar juntos. Productos de uso compartido, sensorial y sin intimidación.",
+        "headline": "Para conectar, jugar y descubrir juntos.",
+        "id": "bundle-parejas-clasico",
+        "listPrice": 1095000,
+        "mainImage": "/branding/fun4me/images/bundles/parejas-clasico.jpg",
+        "name": "Kit Parejas Clásico",
+        "savings": 116000,
+        "sku": "BDL-PC-001",
+        "tags": [
+          "premium",
+          "parejas"
+        ]
+      },
+      {
+        "ageGate": 18,
+        "audience": "couples",
+        "bundlePrice": 1079000,
+        "category": "parejas",
+        "composition": [
+          {
+            "individualPrice": 850000,
+            "name": "LELO Sona 2 (clítoris)",
+            "sku": "LELO-SONA2"
+          },
+          {
+            "individualPrice": 95000,
+            "name": "Lubricante silicona premium 100ml",
+            "sku": "LUB-SILK-100"
+          },
+          {
+            "individualPrice": 75000,
+            "name": "Vela de masaje",
+            "sku": "CANDLE-MASS"
+          },
+          {
+            "individualPrice": 180000,
+            "name": "Conjunto lencería talle M",
+            "sizeRequired": true,
+            "sku": "LINGERIE-M"
+          },
+          {
+            "individualPrice": 0,
+            "name": "Tarjeta regalo discreta",
+            "sku": "CARD-GIFT"
+          }
+        ],
+        "ctaText": "Agregar Kit",
+        "description": "Regalo perfecto para aniversarios. Incluye velas masaje, lencería discreta, lubricante premium y juguete para parejas.",
+        "giftWrap": {
+          "default": true,
+          "free": true
+        },
+        "headline": "Una noche para recordar.",
+        "id": "bundle-aniversario",
+        "listPrice": 1200000,
+        "mainImage": "/branding/fun4me/images/bundles/aniversario.jpg",
+        "name": "Kit Aniversario",
+        "savings": 121000,
+        "sku": "BDL-AN-001",
+        "tags": [
+          "regalo",
+          "aniversario",
+          "premium"
+        ]
+      },
+      {
+        "ageGate": 18,
+        "audience": "solo_female",
+        "bundlePrice": 529000,
+        "category": "vibradores",
+        "composition": [
+          {
+            "individualPrice": 380000,
+            "name": "Satisfyer Curvy 3",
+            "sku": "SAT-CURVY3"
+          },
+          {
+            "individualPrice": 120000,
+            "name": "Mini bullet vibrador",
+            "sku": "GEN-BULLET"
+          },
+          {
+            "individualPrice": 45000,
+            "name": "Lubricante base agua 100ml",
+            "sku": "LUB-H2O-100"
+          },
+          {
+            "individualPrice": 38000,
+            "name": "Limpiador para juguetes 50ml",
+            "sku": "CLEAN-TOY-50"
+          },
+          {
+            "individualPrice": 25000,
+            "name": "Bolsa discreta con cierre",
+            "sku": "BAG-DISCREET"
+          }
+        ],
+        "ctaText": "Agregar Kit",
+        "description": "Selección variada para quienes exploran su propio placer. Tres estímulos diferentes (clítoris, interno, externo) + kit de cuidado.",
+        "headline": "Conocete, sentite, disfrutate.",
+        "id": "bundle-descubrimiento-solo",
+        "listPrice": 608000,
+        "mainImage": "/branding/fun4me/images/bundles/descubrimiento-solo.jpg",
+        "name": "Kit Descubrimiento en Solitario",
+        "savings": 79000,
+        "sku": "BDL-DS-001",
+        "tags": [
+          "solo",
+          "descubrimiento"
+        ]
+      },
+      {
+        "ageGate": 18,
+        "audience": "couples_advanced",
+        "bundlePrice": 199000,
+        "category": "bdsm",
+        "composition": [
+          {
+            "individualPrice": 85000,
+            "name": "Esposas de velcro (seguras para principiantes)",
+            "sku": "BDSM-CUFFS-VEL"
+          },
+          {
+            "individualPrice": 25000,
+            "name": "Antifaz de satén",
+            "sku": "BLIND-SATIN"
+          },
+          {
+            "individualPrice": 35000,
+            "name": "Pluma para sensorial",
+            "sku": "BDSM-FEATHER"
+          },
+          {
+            "individualPrice": 95000,
+            "name": "Paleta suave de neopreno",
+            "sku": "BDSM-PADDLE-SOFT"
+          },
+          {
+            "individualPrice": 0,
+            "name": "Guía PDF: BDSM para principiantes + checklist de consenso",
+            "sku": "GUIDE-BDSM-PDF"
+          }
+        ],
+        "ctaText": "Agregar Kit",
+        "description": "Kit básico para quienes quieren explorar BDSM con seguridad. Materiales de calidad, instrucciones de uso incluidas, énfasis en consenso.",
+        "headline": "Introducción segura al juego de roles.",
+        "id": "bundle-bdsm-iniciacion",
+        "listPrice": 240000,
+        "mainImage": "/branding/fun4me/images/bundles/bdsm-iniciacion.jpg",
+        "name": "Kit BDSM Iniciación",
+        "safetyNote": "Incluye checklist de consenso y guía de semáforo (verde/amarillo/rojo). Lectura obligatoria antes del uso.",
+        "savings": 41000,
+        "sku": "BDL-BDSM-001",
+        "tags": [
+          "bdsm",
+          "principiantes",
+          "consenso"
+        ]
+      }
+    ],
+    "displayConfig": {
+      "cardStyle": "bundle",
+      "defaultSort": "bestseller",
+      "sectionSubtitle": "Combinaciones pensadas. Ahorras vs comprar por separado.",
+      "sectionTitle": "Kits Curados",
+      "showIndividualComponents": true,
+      "showSavingsBadge": true
+    }
+  },
+  "fun4me:checkout": {
+    "_meta": {
+      "description": "Checkout flow copy and configuration for Fun4Me. Consumed by web/app/[business]/checkout/* components via the site-loader."
+    },
+    "discretion": {
+      "billing": {
+        "text": "El cargo en tu tarjeta y la factura electronica aparecen como 'F4M COMERCIAL'. Podes editar la razon social que queres que aparezca en la factura (sujeto a validacion con datos SET).",
+        "title": "Facturacion discreta"
+      },
+      "packaging": {
+        "bulletpoints": [
+          "Caja o sobre sin logos ni nombre de la tienda",
+          "Remitente generico: 'F4M Comercial'",
+          "Sin referencias al contenido en el exterior"
+        ],
+        "title": "Empaque 100% discreto"
+      }
+    },
+    "emptyCart": {
+      "ctaHref": "/fun4me/store",
+      "ctaText": "Ir a la Tienda",
+      "text": "Explora nuestras categorias y agrega productos.",
+      "title": "Tu carrito esta vacio"
+    },
+    "errors": {
+      "age_not_verified": "Debes confirmar que sos mayor de 18 anos antes de finalizar la compra.",
+      "delivery_unavailable": "No hacemos delivery a esta zona todavia. Podes elegir retiro en tienda o contactarnos.",
+      "out_of_stock": "Este producto ya no esta disponible. Lo removemos de tu carrito.",
+      "payment_declined": "El pago fue rechazado. Probá con otro metodo o contactanos por WhatsApp."
+    },
+    "fulfillment": {
+      "options": [
+        {
+          "availableZones": [
+            "Asuncion"
+          ],
+          "cutoff": "15:00",
+          "fee": 50000,
+          "id": "delivery_same_day",
+          "label": "Envio express (mismo dia en Asuncion)"
+        },
+        {
+          "availableZones": [
+            "Asuncion",
+            "Fernando de la Mora",
+            "San Lorenzo",
+            "Lambare",
+            "Luque"
+          ],
+          "fee": 25000,
+          "freeThreshold": 200000,
+          "id": "delivery_gran_asu",
+          "label": "Delivery Gran Asuncion (24-48hs)"
+        },
+        {
+          "availableZones": [
+            "resto_pais"
+          ],
+          "fee": 45000,
+          "freeThreshold": 200000,
+          "id": "delivery_interior",
+          "label": "Envio al interior (3-5 dias habiles)"
+        },
+        {
+          "availableZones": [
+            "Asuncion"
+          ],
+          "fee": 0,
+          "id": "pickup_in_store",
+          "instructions": "Te avisamos cuando este listo. Retiras con el codigo de tu pedido.",
+          "label": "Retiro en tienda (Herrera 875)"
+        }
+      ]
+    },
+    "giftFlow": {
+      "enabled": true,
+      "fields": [
+        {
+          "id": "recipient_name",
+          "label": "Nombre de quien lo recibe",
+          "required": false
+        },
+        {
+          "conditionalOn": "shipToOther",
+          "id": "recipient_address",
+          "label": "Direccion diferente a la de envio",
+          "required": false
+        },
+        {
+          "id": "gift_message",
+          "label": "Mensaje (se imprime en tarjeta discreta)",
+          "maxLength": 200,
+          "required": false
+        },
+        {
+          "default": true,
+          "id": "hide_prices",
+          "label": "Ocultar precios en factura",
+          "type": "toggle"
+        }
+      ],
+      "giftWrap": {
+        "available": true,
+        "fee": 15000,
+        "label": "Envoltorio de regalo discreto"
+      },
+      "toggleLabel": "Es un regalo"
+    },
+    "orderFlow": {
+      "steps": [
+        {
+          "id": "cart",
+          "label": "Carrito"
+        },
+        {
+          "id": "shipping",
+          "label": "Envio"
+        },
+        {
+          "id": "gift",
+          "label": "Regalo",
+          "optional": true
+        },
+        {
+          "id": "payment",
+          "label": "Pago"
+        },
+        {
+          "id": "confirmation",
+          "label": "Confirmacion"
+        }
+      ]
+    },
+    "payment": {
+      "methods": [
+        {
+          "enabled": true,
+          "icon": "credit-card",
+          "id": "card",
+          "label": "Tarjeta de credito/debito"
+        },
+        {
+          "enabled": true,
+          "icon": "bank",
+          "id": "transfer",
+          "label": "Transferencia bancaria"
+        },
+        {
+          "enabled": true,
+          "icon": "wallet",
+          "id": "tigo_money",
+          "label": "Tigo Money"
+        },
+        {
+          "enabled": true,
+          "icon": "wallet",
+          "id": "personal_pay",
+          "label": "Personal Pay"
+        },
+        {
+          "availableInZones": [
+            "Asuncion"
+          ],
+          "enabled": true,
+          "icon": "cash",
+          "id": "cash_on_delivery",
+          "label": "Efectivo contra entrega"
+        }
+      ],
+      "provider": "pagopar",
+      "providerOptions": {
+        "countryCode": "PY",
+        "currency": "PYG",
+        "statementDescriptor": "F4M COMERCIAL"
+      }
+    },
+    "trustBadges": [
+      {
+        "icon": "lock",
+        "text": "Pago 100% seguro via Pagopar"
+      },
+      {
+        "icon": "shield",
+        "text": "Datos no compartidos con terceros"
+      },
+      {
+        "icon": "package",
+        "text": "Empaque discreto garantizado"
+      },
+      {
+        "icon": "refresh",
+        "text": "Cambios en 7 dias (lenceria sin uso)"
+      }
+    ]
+  },
+  "fun4me:es": {
+    "_meta": {
+      "author": "Fun4Me",
+      "lastReviewed": "2026-04-21",
+      "notes": "Content ported from vete/web/.content_data/fun4me/. Original source: home.json, about.json, testimonials.json, faq.json, config.json. Placeholders flagged in site.json.placeholderFields. Awaiting owner confirmation.",
+      "placeholders": [
+        "home.partners.logos use placeholder SVGs — replace with real Satisfyer/LELO/We-Vibe logos",
+        "about.team empty — decide whether to publish team or keep anonymous for privacy",
+        "location.googleMapsId is ChIJxxxxxxxxxx — needs real Google Place ID for Herrera 875"
+      ],
+      "translationQuality": "native"
+    },
+    "about": {
+      "intro": {
+        "text": "Fun4Me nacio en 2018 con la mision de ofrecer productos de calidad para adultos en Paraguay, con la discrecion y el profesionalismo que nuestros clientes merecen. Desde nuestra tienda en Herrera 875, Asuncion, atendemos a clientes de todo el pais con envios discretos y seguros. Creemos que cada persona tiene derecho a explorar su intimidad de manera segura y sin juicios.",
+        "title": "Sobre Fun4Me"
+      },
+      "mission": {
+        "text": "Ofrecer productos de calidad para adultos con total discrecion, profesionalismo y respeto. Queremos que cada cliente se sienta comodo explorando su intimidad con productos seguros y de las mejores marcas.",
+        "title": "Nuestra Mision"
+      },
+      "values": [
+        {
+          "icon": "eye-slash",
+          "text": "Entendemos la importancia de la privacidad. Desde el empaque hasta la facturacion, todo es 100% discreto.",
+          "title": "Discrecion Total"
+        },
+        {
+          "icon": "truck",
+          "text": "Delivery rapido y seguro a cualquier punto de Paraguay con total confidencialidad.",
+          "title": "Envio a Todo el Pais"
+        },
+        {
+          "icon": "shield-check",
+          "text": "Seleccionamos productos de marcas reconocidas para garantizar tu satisfaccion y seguridad.",
+          "title": "Productos de Calidad"
+        },
+        {
+          "icon": "heart",
+          "text": "Nuestro equipo esta capacitado para asesorarte con respeto y profesionalismo.",
+          "title": "Atencion Sin Juicios"
+        }
+      ],
+      "vision": {
+        "text": "Ser la tienda de referencia en Paraguay para productos de adultos, reconocida por la calidad, la discrecion de nuestro servicio y la confianza que generamos en nuestros clientes.",
+        "title": "Nuestra Vision"
+      }
+    },
+    "bundles": {
+      "benefits": {
+        "features": [
+          {
+            "description": "Descuento de 10-15% vs comprar por separado.",
+            "icon": "savings",
+            "title": "Ahorras plata"
+          },
+          {
+            "description": "Productos que funcionan juntos, elegidos por nuestro equipo.",
+            "icon": "check",
+            "title": "Combinaciones pensadas"
+          },
+          {
+            "description": "PDFs con instrucciones de uso, seguridad y recomendaciones.",
+            "icon": "book",
+            "title": "Guias incluidas"
+          },
+          {
+            "description": "Envoltorio discreto disponible. Tarjeta regalo opcional.",
+            "icon": "gift",
+            "title": "Listos para regalar"
+          }
+        ],
+        "title": "Por que elegir un kit"
+      },
+      "hero": {
+        "badgeText": "Kits",
+        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryText": "Ver Kits",
+        "headline": "Kits Curados",
+        "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado."
+      },
+      "items": {
+        "items": [
+          {
+            "description": "Vibrador Satisfyer Pro 2 + lubricante agua + limpiador + guia. Ahorro de Gs. 54.000.",
+            "name": "Para la Primera Vez",
+            "price": "Gs. 449.000"
+          },
+          {
+            "description": "We-Vibe Chorus + lubricante + aceite masaje + antifaz. Ahorro Gs. 116.000.",
+            "name": "Kit Parejas Clasico",
+            "price": "Gs. 979.000"
+          },
+          {
+            "description": "LELO Sona 2 + lubricante silicona + vela masaje + lenceria + tarjeta regalo. Ahorro Gs. 121.000.",
+            "name": "Kit Aniversario",
+            "price": "Gs. 1.079.000"
+          },
+          {
+            "description": "Satisfyer Curvy 3 + bullet + lubricante + limpiador + bolsa discreta. Ahorro Gs. 79.000.",
+            "name": "Kit Descubrimiento Solo",
+            "price": "Gs. 529.000"
+          },
+          {
+            "description": "Esposas velcro + antifaz + pluma + paleta suave + guia consenso. Ahorro Gs. 41.000.",
+            "name": "Kit BDSM Iniciacion",
+            "price": "Gs. 199.000"
+          }
+        ],
+        "subtitle": "Elegi el que mejor se adapta a lo que buscas.",
+        "title": "Nuestros Kits"
+      },
+      "seo": {
+        "description": "Kits armados para ahorrar. Primera vez, parejas, aniversario, BDSM, solitario. Cada kit ahorra vs comprar por separado.",
+        "title": "Kits Curados Fun4Me | Combinaciones con ahorro"
+      }
+    },
+    "footer": {
+      "legal": "Solo mayores de 18 anos.",
+      "privacy": "Politica de Privacidad",
+      "rights": "Todos los derechos reservados.",
+      "terms": "Terminos y Condiciones"
+    },
+    "giftCards": {
+      "cta": {
+        "buttonHref": "/fun4me/gift-cards#buy",
+        "buttonText": "Comprar Gift Card",
+        "subtitle": "Gift cards listas en 60 segundos. Entrega inmediata por email o WhatsApp.",
+        "title": "Regala sin dudas"
+      },
+      "denominations": {
+        "items": [
+          {
+            "description": "Para probar algo pequeño.",
+            "name": "Gs. 100.000",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "La opcion mas popular.",
+            "name": "Gs. 150.000",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Incluye envio gratis.",
+            "name": "Gs. 200.000",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Para un regalo generoso.",
+            "name": "Gs. 300.000",
+            "price": "Gs. 300.000"
+          },
+          {
+            "description": "Experiencia completa.",
+            "name": "Gs. 500.000",
+            "price": "Gs. 500.000"
+          },
+          {
+            "description": "Carta blanca total.",
+            "name": "Gs. 1.000.000",
+            "price": "Gs. 1.000.000"
+          }
+        ],
+        "title": "Elegi el monto"
+      },
+      "designs": {
+        "items": [
+          {
+            "image": "/branding/fun4me/images/gift-cards/classic.svg",
+            "name": "Clasica"
+          },
+          {
+            "image": "/branding/fun4me/images/gift-cards/birthday.svg",
+            "name": "Cumpleaños"
+          },
+          {
+            "image": "/branding/fun4me/images/gift-cards/anniversary.svg",
+            "name": "Aniversario"
+          },
+          {
+            "image": "/branding/fun4me/images/gift-cards/valentines.svg",
+            "name": "San Valentin"
+          },
+          {
+            "image": "/branding/fun4me/images/gift-cards/minimal.svg",
+            "name": "Minimalista"
+          }
+        ],
+        "title": "Estilos de tarjeta"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Si, a los 24 meses desde la emision.",
+            "q": "Expiran las gift cards?"
+          },
+          {
+            "a": "Si, podes usar parte del saldo y el resto queda disponible hasta la expiracion.",
+            "q": "Puedo usar solo una parte del monto?"
+          },
+          {
+            "a": "Si, son combinables con promociones.",
+            "q": "Se pueden combinar con cupones?"
+          },
+          {
+            "a": "Si no fue canjeado, si. Con comprobante de compra.",
+            "q": "Si pierdo el codigo, me lo reemplazan?"
+          },
+          {
+            "a": "Si, el codigo puede compartirse. Se acepta del primer comprador registrado.",
+            "q": "Puedo transferir mi gift card?"
+          }
+        ],
+        "title": "Preguntas sobre Gift Cards"
+      },
+      "hero": {
+        "headline": "Regala Placer",
+        "subheadline": "El regalo perfecto cuando no sabes que elegir. Sin talles, sin preferencias, sin errores."
+      },
+      "howItWorks": {
+        "items": [
+          {
+            "description": "Denominaciones preestablecidas o monto personalizado.",
+            "name": "1. Elegis el monto"
+          },
+          {
+            "description": "Email, reenvio por WhatsApp o tarjeta fisica.",
+            "name": "2. Seleccionas entrega"
+          },
+          {
+            "description": "Mensaje opcional discreto (hasta 250 caracteres).",
+            "name": "3. Personalizas el mensaje"
+          },
+          {
+            "description": "Pagas online. Recibis/enviamos inmediatamente segun el metodo elegido.",
+            "name": "4. Compras"
+          }
+        ],
+        "title": "Como funciona"
+      },
+      "seo": {
+        "description": "Regala placer con gift cards Fun4Me. 6 denominaciones, entrega por email/WhatsApp/fisica. 100% discreto.",
+        "title": "Gift Cards Fun4Me | El regalo perfecto, discreto"
+      }
+    },
+    "home": {
+      "ageGate": {
+        "confirmText": "Soy mayor de 18",
+        "denyHref": "https://google.com",
+        "denyText": "Salir",
+        "message": "Este sitio contiene contenido para adultos. Debes ser mayor de 18 anos para continuar.",
+        "title": "Verificacion de Edad"
+      },
+      "categories": {
+        "ctaHref": "/store",
+        "ctaText": "Ver Todo el Catalogo",
+        "items": [
+          {
+            "description": "Desde clasicos hasta tecnologia de punta",
+            "icon": "sparkles",
+            "id": "vibradores",
+            "name": "Vibradores"
+          },
+          {
+            "description": "Realistas, fantasy y de todas las formas",
+            "icon": "adjustments-vertical",
+            "id": "dildos",
+            "name": "Dildos"
+          },
+          {
+            "description": "Explora nuevos territorios de placer",
+            "icon": "arrow-uturn-down",
+            "id": "anal",
+            "name": "Juguetes Anales"
+          },
+          {
+            "description": "Juguetes disenados para compartir",
+            "icon": "heart",
+            "id": "parejas",
+            "name": "Para Parejas"
+          },
+          {
+            "description": "Equipamiento para juegos de poder",
+            "icon": "link",
+            "id": "bdsm",
+            "name": "BDSM & Fetish"
+          },
+          {
+            "description": "Piezas sensuales y provocativas",
+            "icon": "gift",
+            "id": "lenceria",
+            "name": "Lenceria"
+          },
+          {
+            "description": "Mejora cada experiencia",
+            "icon": "beaker",
+            "id": "lubricantes",
+            "name": "Lubricantes"
+          },
+          {
+            "description": "Cuidado y salud sexual",
+            "icon": "shield-check",
+            "id": "bienestar",
+            "name": "Bienestar Intimo"
+          }
+        ],
+        "subtitle": "Todo lo que necesitas para disfrutar",
+        "title": "Categorias Destacadas"
+      },
+      "contact": {
+        "address": "Herrera 875, Asuncion, Paraguay",
+        "email": "hola@fun4me.com.py",
+        "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado",
+        "phone": "+595 976 569 739",
+        "title": "Visitanos o Escribinos"
+      },
+      "cta": {
+        "ctaPrimaryHref": "/store",
+        "ctaPrimaryText": "Ver Tienda",
+        "ctaSecondaryHref": "https://wa.me/595976569739",
+        "ctaSecondaryText": "Escribir por WhatsApp",
+        "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
+        "title": "Tenes alguna consulta?"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicacion del contenido. Nadie sabra que hay dentro excepto vos.",
+            "q": "El envio es realmente discreto?"
+          },
+          {
+            "a": "Tarjetas de credito/debito (Visa, Mastercard), transferencia bancaria, billeteras electronicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asuncion.",
+            "q": "Que formas de pago aceptan?"
+          },
+          {
+            "a": "El cargo aparece de forma discreta sin referencias explicitas al tipo de productos.",
+            "q": "Que aparece en mi estado de cuenta?"
+          },
+          {
+            "a": "Asuncion: 24-48 horas. Gran Asuncion: 48-72 horas. Interior: 3-5 dias habiles. Envio express disponible con entrega el mismo dia en Asuncion.",
+            "q": "Cuanto tarda el envio?"
+          },
+          {
+            "a": "Por razones de higiene, no aceptamos devoluciones de productos intimos una vez abiertos. Si el producto llega defectuoso o danado, lo reemplazamos sin costo. Lenceria sin usar con etiquetas puede devolverse en 7 dias.",
+            "q": "Puedo devolver un producto?"
+          },
+          {
+            "a": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona, ABS libre de ftalatos, o materiales seguros para el cuerpo.",
+            "q": "Los productos son seguros?"
+          },
+          {
+            "a": "Si, el envio es gratis en compras mayores a Gs. 200.000 a todo el pais.",
+            "q": "Tienen envio gratis?"
+          },
+          {
+            "a": "Claro! Te esperamos en Herrera 875, Asuncion. Lunes a viernes de 09:00 a 20:00 y sabados de 09:00 a 18:00.",
+            "q": "Puedo visitar la tienda fisica?"
+          },
+          {
+            "a": "Los productos electronicos tienen garantia segun el fabricante. Satisfyer tiene 15 anos de garantia, LELO 1 ano, We-Vibe 2 anos.",
+            "q": "Los productos tienen garantia?"
+          }
+        ],
+        "title": "Preguntas Frecuentes"
+      },
+      "features": {
+        "badge": "Nuestras Ventajas",
+        "items": [
+          {
+            "icon": "lock",
+            "text": "Empaque neutro, facturacion discreta y envio confidencial garantizado.",
+            "title": "100% Discreto"
+          },
+          {
+            "icon": "truck",
+            "text": "Envios rapidos y seguros a cualquier punto de Paraguay.",
+            "title": "Delivery a Todo el Pais"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Seleccion de las mejores marcas con garantia de calidad.",
+            "title": "Productos de Calidad"
+          },
+          {
+            "icon": "heart",
+            "text": "Te asesoramos para encontrar el producto perfecto para vos.",
+            "title": "Atencion Personalizada"
+          }
+        ],
+        "subtitle": "Discrecion, calidad y variedad en cada compra.",
+        "title": "Por que elegirnos?"
+      },
+      "hero": {
+        "badgeText": "Envio Discreto",
+        "ctaPrimaryHref": "/store",
+        "ctaPrimaryText": "Explorar Tienda",
+        "ctaSecondaryHref": "https://wa.me/595976569739",
+        "ctaSecondaryText": "Contactanos",
+        "headline": "Tu Tienda de Placer",
+        "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion."
+      },
+      "partners": {
+        "logos": [
+          {
+            "image": "/branding/fun4me/images/partner-satisfyer.svg",
+            "name": "Satisfyer"
+          },
+          {
+            "image": "/branding/fun4me/images/partner-lelo.svg",
+            "name": "LELO"
+          },
+          {
+            "image": "/branding/fun4me/images/partner-wevibe.svg",
+            "name": "We-Vibe"
+          }
+        ],
+        "title": "Marcas Disponibles"
+      },
+      "promo": {
+        "enabled": true,
+        "href": "/store",
+        "text": "Envio GRATIS en compras mayores a Gs. 200.000"
+      },
+      "seo": {
+        "description": "Juguetes para adultos, lenceria, accesorios y mas. Compra online con envio discreto a todo Paraguay. Tienda fisica en Asuncion. Solo mayores de 18.",
+        "title": "Fun4Me — Sex Shop Online en Paraguay | Envio Discreto"
+      },
+      "stats": {
+        "items": [
+          {
+            "label": "Anos de Experiencia",
+            "value": "7+"
+          },
+          {
+            "label": "Clientes Satisfechos",
+            "value": "5.000+"
+          },
+          {
+            "label": "Productos Disponibles",
+            "value": "200+"
+          },
+          {
+            "label": "Envio Discreto",
+            "value": "100%"
+          }
+        ],
+        "title": "Numeros que nos respaldan"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Maria L.",
+            "location": "Asuncion",
+            "rating": 5,
+            "text": "Llevaba anos con verguenza de entrar a un sex shop. En Fun4Me me senti comoda desde el primer momento. La atencion fue super profesional y me ayudaron a encontrar exactamente lo que buscaba sin hacerme sentir juzgada.",
+            "verified": true
+          },
+          {
+            "author": "Mariana T.",
+            "location": "Encarnacion",
+            "rating": 5,
+            "text": "Vivo en el interior y el envio fue super rapido y discreto. El paquete llego perfecto, sin ninguna indicacion de que era. 10/10 por la discrecion.",
+            "verified": true
+          },
+          {
+            "author": "Lucas A.",
+            "location": "Ciudad del Este",
+            "rating": 5,
+            "text": "Compre un vibrador como regalo para mi pareja. La asesoria online fue excelente, me explicaron todo sobre el uso. El producto supero todas mis expectativas.",
+            "verified": true
+          },
+          {
+            "author": "Camila R.",
+            "location": "Lambare",
+            "rating": 5,
+            "text": "El Satisfyer Pro 2 cambio mi vida. Y lo mejor es que aca te explican como usarlo bien, no como en otras tiendas que te tiran el producto y chau.",
+            "verified": true
+          },
+          {
+            "author": "Diego V.",
+            "location": "Asuncion",
+            "rating": 5,
+            "text": "Excelente variedad de productos y precios accesibles. El delivery llego al dia siguiente y todo muy bien empacado. Definitivamente vuelvo a comprar.",
+            "verified": true
+          },
+          {
+            "author": "Ana P.",
+            "location": "Fernando de la Mora",
+            "rating": 5,
+            "text": "Primera vez comprando en una tienda asi y la experiencia fue genial. Sin presiones, respuestas claras a todas mis preguntas. Muy recomendado.",
+            "verified": true
+          }
+        ],
+        "subtitle": "Testimonios reales de clientes satisfechos.",
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": [
+        {
+          "icon": "truck",
+          "text": "Envio a Todo el Pais"
+        },
+        {
+          "icon": "shield",
+          "text": "Pago Seguro"
+        },
+        {
+          "icon": "package",
+          "text": "Empaque Discreto"
+        }
+      ]
+    },
+    "loyalty": {
+      "cta": {
+        "buttonHref": "/fun4me/account/signup",
+        "buttonText": "Crear cuenta",
+        "subtitle": "Es gratis. Te damos 100 pts por registrarte y 200 pts adicionales en tu primera compra.",
+        "title": "Todavia no estas en Placer Plus?"
+      },
+      "earningRules": {
+        "items": [
+          {
+            "description": "1 pt por cada Gs. 1.000 (base). Multiplicador segun nivel.",
+            "name": "Compras"
+          },
+          {
+            "description": "+100 pts al completar perfil.",
+            "name": "Registro inicial"
+          },
+          {
+            "description": "+200 pts extra.",
+            "name": "Primera compra"
+          },
+          {
+            "description": "+500 pts por referido exitoso.",
+            "name": "Invitar un amigo que compre"
+          },
+          {
+            "description": "+50 pts por resena aprobada.",
+            "name": "Review verificada"
+          },
+          {
+            "description": "+500 pts anuales.",
+            "name": "Cumpleaños"
+          },
+          {
+            "description": "+50 pts al suscribirte.",
+            "name": "Newsletter"
+          }
+        ],
+        "title": "Como ganar puntos"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Si, a los 18 meses desde que se ganaron.",
+            "q": "Expiran los puntos?"
+          },
+          {
+            "a": "Solo al momento de la revision anual si las compras anuales bajan. Una vez que llegas a un nivel, queda asegurado por ese año.",
+            "q": "Puedo bajar de nivel?"
+          },
+          {
+            "a": "Cada año, con base en los 12 meses anteriores.",
+            "q": "Cuando se revisa el nivel?"
+          },
+          {
+            "a": "Los puntos ganados por esa compra se restan automaticamente.",
+            "q": "Que pasa si devuelvo un producto?"
+          },
+          {
+            "a": "Si, pero no con descuentos de nivel en la misma orden.",
+            "q": "Puedo combinar puntos con cupones?"
+          }
+        ],
+        "title": "Preguntas sobre Placer Plus"
+      },
+      "hero": {
+        "headline": "Placer Plus",
+        "subheadline": "Mas comprás, mas beneficios. Sin suscripcion. Sin trampas."
+      },
+      "howItWorks": {
+        "items": [
+          {
+            "description": "Ganas 1 punto por cada Gs. 1.000 gastados (base Plata).",
+            "name": "Comprás"
+          },
+          {
+            "description": "Los puntos suman automaticamente al estar registrado.",
+            "name": "Acumulas"
+          },
+          {
+            "description": "Oro a Gs. 1.5M anual. Platino a Gs. 5M anual. Mas nivel = mas beneficios.",
+            "name": "Subis de nivel"
+          },
+          {
+            "description": "100 puntos = Gs. 1.000 de descuento. O canjeas productos gratis.",
+            "name": "Canjeas"
+          }
+        ],
+        "title": "Como funciona"
+      },
+      "redemptionOptions": {
+        "items": [
+          {
+            "description": "Canje basico.",
+            "name": "Gs. 1.000 de descuento",
+            "price": "100 pts"
+          },
+          {
+            "description": "Con bonus 10%.",
+            "name": "Gs. 5.500 de descuento",
+            "price": "500 pts"
+          },
+          {
+            "description": "Producto completo.",
+            "name": "Lubricante 100ml gratis",
+            "price": "1.000 pts"
+          },
+          {
+            "description": "Valido 60 dias.",
+            "name": "Envio express gratis",
+            "price": "2.500 pts"
+          },
+          {
+            "description": "Con bonus 10%.",
+            "name": "Gs. 55.000 descuento",
+            "price": "5.000 pts"
+          },
+          {
+            "description": "Seleccion de la casa.",
+            "name": "Producto sorpresa Gs. 130.000+",
+            "price": "10.000 pts"
+          }
+        ],
+        "title": "Como canjear"
+      },
+      "seo": {
+        "description": "Sumas puntos con cada compra. 3 niveles (Plata, Oro, Platino) con beneficios crecientes. Sin costo.",
+        "title": "Placer Plus | Programa de puntos Fun4Me"
+      },
+      "tiers": {
+        "items": [
+          {
+            "description": "10% descuento cumpleaños. 1 pt por Gs. 1.000.",
+            "name": "Plata",
+            "price": "Gratis desde el primer dia"
+          },
+          {
+            "description": "15% cumpleaños. 1.5x puntos. Envio gratis desde Gs. 100k. Acceso anticipado 48hs.",
+            "name": "Oro",
+            "price": "Desde Gs. 1.500.000 anuales"
+          },
+          {
+            "description": "20% cumpleaños + sorpresa. 2x puntos. Envio express siempre gratis. Atencion VIP. Consulta trimestral.",
+            "name": "Platino",
+            "price": "Desde Gs. 5.000.000 anuales"
+          }
+        ],
+        "title": "Los 3 niveles"
+      }
+    },
+    "navigation": {
+      "businessName": "Fun4Me",
+      "ctaHref": "https://wa.me/595976569739",
+      "ctaText": "WhatsApp",
+      "items": [
+        {
+          "href": "/",
+          "label": "Inicio"
+        },
+        {
+          "href": "/fun4me/store",
+          "label": "Tienda"
+        },
+        {
+          "href": "/fun4me/bundles",
+          "label": "Kits"
+        },
+        {
+          "href": "/fun4me/suscripciones",
+          "label": "Cajas Mensuales"
+        },
+        {
+          "href": "/fun4me/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/fun4me/gift-cards",
+          "label": "Regalá"
+        },
+        {
+          "href": "/fun4me/placer-plus",
+          "label": "Placer Plus"
+        },
+        {
+          "href": "#contact",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "placeholders": {
+      "businessName": "Fun4Me",
+      "city": "Asuncion",
+      "foundedYear": 2018,
+      "year": 2026
+    },
+    "siteName": "Fun4Me",
+    "sizeGuide": {
+      "brandNotes": {
+        "items": [
+          {
+            "a": "Tallan chico. Elegi un talle arriba de lo que indicas en tus medidas.",
+            "q": "Marcas PY genericas"
+          },
+          {
+            "a": "Tallan segun europeo (mas ceñido). Misma logica o un talle arriba si estas entre dos.",
+            "q": "Marcas importadas premium"
+          },
+          {
+            "a": "Tallan grande. Elegi el talle exacto de tus medidas.",
+            "q": "Lenceria erotica (Leg Avenue, Dreamgirl)"
+          },
+          {
+            "a": "Empieza en XL (= L/M de marcas regulares). Verifica la tabla especifica del producto.",
+            "q": "Plus size / curvy"
+          },
+          {
+            "a": "Generalmente ajusta S-L, no mas. Si sos XL o mas, no elijas one size.",
+            "q": "One size"
+          },
+          {
+            "a": "Restan 5cm a tu cintura natural. El corset esta disenado para ceñir.",
+            "q": "Corsets"
+          }
+        ],
+        "title": "Notas por marca"
+      },
+      "charts": {
+        "items": [
+          {
+            "description": "Busto 78-82cm, bajo busto 64-68cm, cintura 60-64cm, cadera 82-86cm.",
+            "name": "XS"
+          },
+          {
+            "description": "Busto 83-87cm, bajo busto 69-73cm, cintura 65-69cm, cadera 87-91cm.",
+            "name": "S"
+          },
+          {
+            "description": "Busto 88-92cm, bajo busto 74-78cm, cintura 70-74cm, cadera 92-96cm.",
+            "name": "M"
+          },
+          {
+            "description": "Busto 93-97cm, bajo busto 79-83cm, cintura 75-79cm, cadera 97-101cm.",
+            "name": "L"
+          },
+          {
+            "description": "Busto 98-102cm, bajo busto 84-88cm, cintura 80-84cm, cadera 102-106cm.",
+            "name": "XL"
+          },
+          {
+            "description": "Busto 103-107cm, bajo busto 89-93cm, cintura 85-89cm, cadera 107-111cm.",
+            "name": "XXL"
+          }
+        ],
+        "title": "Tablas de talles"
+      },
+      "hero": {
+        "headline": "Guia de Talles",
+        "subheadline": "Medite bien una vez y acertas siempre. Tablas en cm."
+      },
+      "instructions": {
+        "items": [
+          {
+            "description": "Justo debajo del busto, donde apoya la banda del sosten. Paralela al piso.",
+            "name": "1. Contorno bajo busto"
+          },
+          {
+            "description": "La parte mas llena, con sosten sin relleno. Paralela al piso.",
+            "name": "2. Contorno de busto"
+          },
+          {
+            "description": "La parte mas angosta, entre costillas y ombligo.",
+            "name": "3. Cintura"
+          },
+          {
+            "description": "La parte mas ancha, con pies juntos.",
+            "name": "4. Cadera"
+          }
+        ],
+        "title": "Como medirte"
+      },
+      "returnPolicy": {
+        "buttonHref": "/fun4me/legal/returns",
+        "buttonText": "Ver politica completa",
+        "subtitle": "Lenceria sin usar con etiquetas: 7 dias. Bombachas/tangas abiertas: no por higiene.",
+        "title": "Politica de cambios por talle"
+      },
+      "seo": {
+        "description": "Como elegir tu talle de lenceria sin probarlo. Tablas en cm, consejos por marca, politica de cambios.",
+        "title": "Guia de talles Fun4Me | Lenceria, arneses, anillos"
+      }
+    },
+    "store": {
+      "bundlesPreview": {
+        "items": [
+          {
+            "description": "Kit completo de iniciacion con guia digital.",
+            "name": "Para la Primera Vez",
+            "price": "Gs. 449.000"
+          },
+          {
+            "description": "Productos pensados para explorar en pareja.",
+            "name": "Kit Parejas Clasico",
+            "price": "Gs. 979.000"
+          },
+          {
+            "description": "Regalo premium con envoltorio gratis.",
+            "name": "Kit Aniversario",
+            "price": "Gs. 1.079.000"
+          }
+        ],
+        "subtitle": "Combinaciones pensadas para ahorrar y empezar bien.",
+        "title": "Kits Curados"
+      },
+      "hero": {
+        "headline": "Tu Placer, Nuestra Prioridad",
+        "subheadline": "Encuentra productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
+      },
+      "seo": {
+        "description": "Explora todo el catalogo de Fun4Me. Vibradores, lenceria, lubricantes, BDSM y mas. Envio 100% discreto a todo Paraguay.",
+        "title": "Tienda Fun4Me | Catalogo online con envio discreto"
+      },
+      "trust": {
+        "items": [
+          {
+            "icon": "shield",
+            "text": "Procesado por Pagopar con estandar PCI-DSS.",
+            "title": "Pago seguro"
+          },
+          {
+            "icon": "package",
+            "text": "Sin logos, sin referencias, sin curiosos.",
+            "title": "Empaque discreto"
+          },
+          {
+            "icon": "truck",
+            "text": "24-48hs Asuncion, 3-5 dias interior.",
+            "title": "Envio rapido"
+          },
+          {
+            "icon": "heart",
+            "text": "Equipo capacitado para asesorarte.",
+            "title": "Atencion sin juicios"
+          }
+        ],
+        "title": "Por que comprar acá"
+      }
+    },
+    "storeReserve": {
+      "cta": {
+        "buttonHref": "/fun4me/store",
+        "buttonText": "Ir a la Tienda",
+        "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
+        "title": "Empeza a armar tu pedido"
+      },
+      "hero": {
+        "headline": "Reserva y Retira",
+        "subheadline": "Pagas online, venis a buscar con el codigo. Cero espera, cero interaccion publica."
+      },
+      "howItWorks": {
+        "items": [
+          {
+            "description": "Armás tu carrito como cualquier compra online.",
+            "name": "1. Elegis productos online"
+          },
+          {
+            "description": "En el checkout. Pagas con cualquier metodo.",
+            "name": "2. Seleccionas 'Retiro en tienda'"
+          },
+          {
+            "description": "Por WhatsApp. Generalmente en 2-4 horas habiles.",
+            "name": "3. Te avisamos cuando esta listo"
+          },
+          {
+            "description": "Herrera 875. Das el codigo, retiras, te vas.",
+            "name": "4. Venis con el codigo"
+          }
+        ],
+        "title": "4 pasos simples"
+      },
+      "location": {
+        "address": "Herrera 875, Asuncion, Paraguay",
+        "email": "hola@fun4me.com.py",
+        "phone": "+595 976 569 739",
+        "subtitle": "Herrera 875, Asuncion — Lun-Vie 09:00-20:00, Sab 09:00-18:00.",
+        "title": "Donde estamos"
+      },
+      "seo": {
+        "description": "Pagas online, venis a buscar. Cero interaccion publica. En Herrera 875, Asuncion.",
+        "title": "Reserva y retira en tienda | Fun4Me Herrera 875"
+      }
+    },
+    "subscriptions": {
+      "boxes": {
+        "items": [
+          {
+            "description": "3-4 productos mensuales. Valor de mercado Gs. 200-280k. Para explorar sin compromiso.",
+            "name": "Discovery — Gs. 149.000/mes",
+            "price": "Gs. 1.590.000/año (ahorra 198k)"
+          },
+          {
+            "description": "Producto premium + 2-3 complementos + cupon 15% off. Marcas reconocidas (Satisfyer, We-Vibe, LELO). Valor Gs. 450-550k.",
+            "name": "Premium — Gs. 299.000/mes",
+            "price": "Gs. 3.190.000/año (ahorra 398k)"
+          },
+          {
+            "description": "Producto flagship + complementos premium + consulta pre-caja 30min + cupon 25% + envio express. Valor Gs. 900k+. Solo 20 cupos/mes.",
+            "name": "VIP — Gs. 599.000/mes",
+            "price": "Gs. 6.490.000/año (ahorra 698k)"
+          }
+        ],
+        "subtitle": "Todas las cajas llegan en empaque discreto. Cancelas cuando quieras, sin penalidad.",
+        "title": "Elegi tu nivel"
+      },
+      "cta": {
+        "buttonHref": "/fun4me/suscripciones#elegir-nivel",
+        "buttonText": "Suscribirme",
+        "subtitle": "Primer envio en menos de 30 dias. Cancelas cuando quieras.",
+        "title": "Arranca hoy"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "El 10 de cada mes. Si te suscribes despues del 25, arrancas el mes siguiente.",
+            "q": "Cuando llega la caja?"
+          },
+          {
+            "a": "Si, en cualquier momento desde tu cuenta. El cambio se refleja en el proximo ciclo.",
+            "q": "Puedo cambiar de nivel?"
+          },
+          {
+            "a": "Si, hasta 3 meses. Se reactiva automaticamente.",
+            "q": "Puedo pausar?"
+          },
+          {
+            "a": "Un click en tu cuenta. Sin penalidad. La caja del mes actual se envia igual.",
+            "q": "Como cancelo?"
+          },
+          {
+            "a": "Podes cambiar las preferencias para el proximo mes. Un producto defectuoso se reemplaza sin costo.",
+            "q": "Que pasa si no me gusta algo?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "hero": {
+        "headline": "Caja Sorpresa Mensual",
+        "subheadline": "Sorpresa y curaduria todos los meses. Cancelas cuando quieras."
+      },
+      "howItWorks": {
+        "items": [
+          {
+            "description": "Discovery, Premium o VIP. Cancelas cuando quieras.",
+            "name": "1. Elegis tu nivel"
+          },
+          {
+            "description": "Que categorias preferís, que evitar, talle si aplica.",
+            "name": "2. Personalizas preferencias"
+          },
+          {
+            "description": "Empaque discreto. Seguimiento por WhatsApp.",
+            "name": "3. Enviamos el 10 de cada mes"
+          },
+          {
+            "description": "Sin letra chica. Desde tu cuenta, en cualquier momento.",
+            "name": "4. Pausas o cancelas con un click"
+          }
+        ],
+        "title": "Como funciona"
+      },
+      "seo": {
+        "description": "Caja mensual con productos curados. 3 niveles: Discovery (Gs. 149k), Premium (Gs. 299k), VIP (Gs. 599k). Cancelas cuando querés.",
+        "title": "Cajas Sorpresa Fun4Me | Suscripcion mensual"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Carla B.",
+            "location": "Asuncion",
+            "rating": 5,
+            "text": "Llevo 6 meses con Premium. Cada caja es una sorpresa y siempre acertada. No me arrepiento.",
+            "verified": true
+          },
+          {
+            "author": "Luis P.",
+            "location": "Ciudad del Este",
+            "rating": 5,
+            "text": "VIP vale la pena si sos fan de la calidad. La consulta previa hace toda la diferencia.",
+            "verified": true
+          },
+          {
+            "author": "Florencia R.",
+            "location": "Lambare",
+            "rating": 5,
+            "text": "Discovery es perfecta para empezar. No gastas mucho y descubris lo que te gusta.",
+            "verified": true
+          }
+        ],
+        "title": "Que dicen las suscriptoras"
+      }
+    },
+    "tagline": "Tu tienda de placer — envio discreto a todo Paraguay",
+    "whatsapp": {
+      "label": "Chat con Fun4Me",
+      "message": "Hola! Quiero consultar sobre un producto.",
+      "number": "595976569739"
+    }
+  },
+  "fun4me:gift-cards": {
+    "_meta": {
+      "description": "Gift card SKUs and flow configuration. Gift cards sold as products with SKU prefix GC-. Redeemable as discount codes at checkout."
+    },
+    "businessRules": {
+      "accounting": "Gift cards emitidas aparecen como pasivo hasta canjeo. Ver docs/runbooks/gift-cards-accounting.md.",
+      "commissionOnEarn": 0,
+      "commissionOnRedeem": "Se cobra comisión solo al canjearlo (neutro para flujo de caja hasta el uso)."
+    },
+    "customAmount": {
+      "enabled": true,
+      "label": "Otro monto",
+      "max": 5000000,
+      "min": 50000,
+      "step": 10000
+    },
+    "deliveryMethods": [
+      {
+        "description": "El destinatario recibe un email con el código. El asunto es genérico: 'Tenés un regalo'. Podés programar la fecha de envío.",
+        "fee": 0,
+        "fields": [
+          "recipient_email",
+          "recipient_name",
+          "message",
+          "delivery_date"
+        ],
+        "id": "email",
+        "label": "Por email al destinatario"
+      },
+      {
+        "description": "Recibís el código por WhatsApp y lo compartís cuando quieras. 100% discreto.",
+        "fee": 0,
+        "fields": [
+          "message"
+        ],
+        "id": "whatsapp_forward",
+        "label": "Te enviamos el código y vos lo reenviás"
+      },
+      {
+        "description": "Enviamos una tarjeta física con el código, en sobre discreto. 3-5 días hábiles.",
+        "fee": 35000,
+        "fields": [
+          "shipping_address",
+          "message"
+        ],
+        "id": "physical_card",
+        "label": "Tarjeta física impresa"
+      }
+    ],
+    "denominations": [
+      {
+        "amount": 100000,
+        "label": "Gs. 100.000",
+        "popular": false,
+        "sku": "GC-100K"
+      },
+      {
+        "amount": 150000,
+        "label": "Gs. 150.000",
+        "popular": true,
+        "sku": "GC-150K"
+      },
+      {
+        "amount": 200000,
+        "label": "Gs. 200.000",
+        "popular": true,
+        "sku": "GC-200K"
+      },
+      {
+        "amount": 300000,
+        "label": "Gs. 300.000",
+        "popular": false,
+        "sku": "GC-300K"
+      },
+      {
+        "amount": 500000,
+        "label": "Gs. 500.000",
+        "popular": false,
+        "sku": "GC-500K"
+      },
+      {
+        "amount": 1000000,
+        "label": "Gs. 1.000.000",
+        "popular": false,
+        "sku": "GC-1M"
+      }
+    ],
+    "design": {
+      "messageMaxLength": 250,
+      "templates": [
+        {
+          "default": true,
+          "id": "classic",
+          "image": "/branding/fun4me/images/gift-cards/classic.svg",
+          "name": "Clásica"
+        },
+        {
+          "id": "birthday",
+          "image": "/branding/fun4me/images/gift-cards/birthday.svg",
+          "name": "Cumpleaños"
+        },
+        {
+          "id": "anniversary",
+          "image": "/branding/fun4me/images/gift-cards/anniversary.svg",
+          "name": "Aniversario"
+        },
+        {
+          "id": "valentines",
+          "image": "/branding/fun4me/images/gift-cards/valentines.svg",
+          "name": "San Valentín"
+        },
+        {
+          "id": "minimal",
+          "image": "/branding/fun4me/images/gift-cards/minimal.svg",
+          "name": "Minimalista (ultra-discreta)"
+        }
+      ]
+    },
+    "displayConfig": {
+      "ctaText": "Comprar gift card",
+      "featureOnHomepage": true,
+      "sectionSubtitle": "El regalo perfecto cuando no sabés qué elegir. Sin talles, sin preferencias, sin errores.",
+      "sectionTitle": "Regala Placer"
+    },
+    "policy": {
+      "combinableWithCoupons": true,
+      "expiration": "24 meses desde la fecha de emisión",
+      "lostCards": "Podemos reemplazar códigos no utilizados con comprobante de compra. Códigos ya canjeados no son reembolsables.",
+      "nonRefundable": true,
+      "partialUse": true,
+      "partialUseNote": "Podés usar parte del saldo y el resto queda disponible para futuras compras hasta la expiración.",
+      "transferable": true,
+      "transferableNote": "El código puede ser compartido. Se acepta del primer comprador registrado."
+    }
+  },
+  "fun4me:loyalty": {
+    "_meta": {
+      "description": "Loyalty program tiers, earning rules, and benefit definitions for Fun4Me. Points ledger lives in Supabase (see docs/runbooks/loyalty-schema.md)."
+    },
+    "currency": {
+      "earningRate": "1 pt = Gs. 1.000 gastados",
+      "effectiveDiscountRate": "10%",
+      "name": "Puntos",
+      "redemptionRate": "100 pts = Gs. 1.000 de descuento",
+      "symbol": "pts"
+    },
+    "earningRules": [
+      {
+        "action": "purchase",
+        "rate": "1 pt per Gs. 1.000 (base, Plata)",
+        "tierMultiplier": {
+          "oro": 1.5,
+          "platino": 2
+        }
+      },
+      {
+        "action": "signup",
+        "condition": "profile_complete",
+        "oneTime": true,
+        "points": 100
+      },
+      {
+        "action": "first_purchase",
+        "oneTime": true,
+        "points": 200
+      },
+      {
+        "action": "referral_signup",
+        "condition": "referred_user_completes_signup",
+        "points": 100
+      },
+      {
+        "action": "referral_first_purchase",
+        "condition": "referred_user_first_order",
+        "points": 500
+      },
+      {
+        "action": "review_verified_purchase",
+        "condition": "review_approved_by_moderator",
+        "points": 50
+      },
+      {
+        "action": "birthday",
+        "annually": true,
+        "condition": "birthday_in_profile",
+        "points": 500
+      },
+      {
+        "action": "newsletter_subscribe",
+        "oneTime": true,
+        "points": 50
+      }
+    ],
+    "programName": "Placer Plus",
+    "programTagline": "Más comprás, más beneficios.",
+    "redemptionOptions": [
+      {
+        "points": 100,
+        "reward": "Gs. 1.000 de descuento"
+      },
+      {
+        "points": 500,
+        "reward": "Gs. 5.500 de descuento (bonus 10%)"
+      },
+      {
+        "points": 1000,
+        "reward": "Lubricante 100ml gratis"
+      },
+      {
+        "points": 2500,
+        "reward": "Envío express gratis (1 uso, 60 dias)"
+      },
+      {
+        "points": 5000,
+        "reward": "Gs. 55.000 de descuento (bonus 10%)"
+      },
+      {
+        "points": 10000,
+        "reward": "Producto sorpresa valorado en Gs. 130.000+"
+      }
+    ],
+    "rules": {
+      "excludedFromPoints": [
+        "shipping",
+        "gift_wrap_fee",
+        "refunds"
+      ],
+      "pointsExpire": "18 months from earning date",
+      "stackingRules": "Points can be combined with coupons but not with tier discounts on same order",
+      "tierDowngrade": "If annual spend drops below tier minimum, customer moves to lower tier at next review",
+      "tierLockInOnEarn": "Reaching a tier locks it until the next review, even if spend would otherwise downgrade mid-year",
+      "tierReviewPeriod": "annual (rolling 12 months)"
+    },
+    "tiers": [
+      {
+        "benefits": [
+          {
+            "icon": "gift",
+            "text": "10% de descuento en regalo de cumpleaños"
+          },
+          {
+            "icon": "truck",
+            "text": "Envío gratis desde Gs. 200.000 (igual al público general)"
+          },
+          {
+            "icon": "star",
+            "text": "1 punto por cada Gs. 1.000 gastados"
+          }
+        ],
+        "color": "#C0C0C0",
+        "id": "plata",
+        "minAnnualSpend": 0,
+        "name": "Plata"
+      },
+      {
+        "benefits": [
+          {
+            "icon": "gift",
+            "text": "15% de descuento en regalo de cumpleaños"
+          },
+          {
+            "icon": "truck",
+            "text": "Envío gratis desde Gs. 100.000"
+          },
+          {
+            "icon": "star",
+            "text": "1.5 puntos por cada Gs. 1.000 gastados"
+          },
+          {
+            "icon": "clock",
+            "text": "Acceso anticipado a productos nuevos (48hs antes)"
+          },
+          {
+            "icon": "percent",
+            "text": "Acceso a promos exclusivas de Oro"
+          }
+        ],
+        "color": "#FFD700",
+        "id": "oro",
+        "minAnnualSpend": 1500000,
+        "name": "Oro"
+      },
+      {
+        "benefits": [
+          {
+            "icon": "gift",
+            "text": "20% de descuento en regalo de cumpleaños + producto sorpresa"
+          },
+          {
+            "icon": "truck",
+            "text": "Envío express gratis siempre"
+          },
+          {
+            "icon": "star",
+            "text": "2 puntos por cada Gs. 1.000 gastados"
+          },
+          {
+            "icon": "clock",
+            "text": "Acceso anticipado a productos nuevos (1 semana antes)"
+          },
+          {
+            "icon": "phone",
+            "text": "Atención prioritaria via WhatsApp VIP"
+          },
+          {
+            "icon": "heart",
+            "text": "Consulta de personalización trimestral (30min)"
+          },
+          {
+            "icon": "package",
+            "text": "Empaque VIP (caja rígida, papel de seda)"
+          },
+          {
+            "icon": "percent",
+            "text": "Promos exclusivas Platino"
+          }
+        ],
+        "color": "#E5E4E2",
+        "id": "platino",
+        "minAnnualSpend": 5000000,
+        "name": "Platino"
+      }
+    ],
+    "uiStrings": {
+      "currentPointsLabel": "Puntos disponibles",
+      "dashboardTitle": "Mi programa Placer Plus",
+      "historyTitle": "Historial de puntos",
+      "inviteFriendCta": "Invitar a un amigo (+500 pts)",
+      "nextTierLabel": "Para llegar a {nextTier}:",
+      "nextTierShortfall": "Te faltan Gs. {amount} de compras anuales",
+      "progressLabel": "Progreso al siguiente nivel",
+      "redeemCta": "Canjear puntos",
+      "tierLabel": "Tu nivel"
+    }
+  },
+  "fun4me:referral": {
+    "_meta": {
+      "description": "Referral program configuration for Fun4Me. Uses discount code + attribution tracking. Discreet by default — referred user's first email does not mention Fun4Me by name in subject line."
+    },
+    "antiAbuseRules": [
+      "Mismo método de pago no puede ser usado por referrer y referred",
+      "Misma IP + mismo método de pago = flagged (manual review)",
+      "Máximo 10 referrals exitosos por mes por usuario",
+      "Códigos de gift card no activan referral reward",
+      "Devolución del pedido del referred anula el crédito del referrer"
+    ],
+    "codeLength": 8,
+    "discretionNotes": {
+      "emailSubjectLines": [
+        "Te mando un regalo",
+        "Algo para vos",
+        "Te comparto un código",
+        "Mira esto"
+      ],
+      "rule": "Ningún email automatizado del programa de referidos menciona 'Fun4Me' o 'sex shop' en el asunto. Solo en el cuerpo después de que el usuario abre."
+    },
+    "programName": "Invita y Ganás",
+    "programTagline": "Por cada amigo que compra, ganás Gs. 30.000.",
+    "referralLinkStructure": "https://paragu-ai.com/fun4me/r/{referrerCode}",
+    "referredReward": {
+      "amount": 20000,
+      "code": "{auto_generated_per_referrer}",
+      "currency": "PYG",
+      "expirationDays": 30,
+      "label": "Gs. 20.000 de descuento en tu primera compra",
+      "minimumOrder": 100000,
+      "triggerEvent": "on_signup",
+      "type": "discount_code"
+    },
+    "referrerReward": {
+      "amount": 30000,
+      "currency": "PYG",
+      "label": "Gs. 30.000 en crédito de tienda",
+      "minimumOrderForTrigger": 100000,
+      "triggerEvent": "referred_user_first_completed_order",
+      "type": "store_credit"
+    },
+    "shareChannels": [
+      {
+        "id": "whatsapp",
+        "label": "Compartir por WhatsApp",
+        "prefilled": "Hola! Te recomiendo Fun4Me, tienda de productos para adultos en Paraguay con envío discreto. Usa mi link y te descuentan Gs. 20.000 en tu primera compra: {link}"
+      },
+      {
+        "id": "copy_link",
+        "label": "Copiar link",
+        "successMessage": "Link copiado!"
+      },
+      {
+        "body": "Hola,\n\nTe comparto un código de descuento de Gs. 20.000. Podés usarlo acá: {link}\n\nSaludos.",
+        "id": "email",
+        "label": "Compartir por email",
+        "subject": "Te mando un regalo"
+      },
+      {
+        "id": "instagram_story",
+        "imageTemplate": "/branding/fun4me/images/referral/story-template.jpg",
+        "label": "Story de Instagram"
+      }
+    ],
+    "terms": {
+      "effectiveDate": "2026-05-01",
+      "link": "/fun4me/legal/referral-terms",
+      "version": "1.0"
+    },
+    "uiStrings": {
+      "dashboardTitle": "Invita a amigos",
+      "statsCreditEarned": "Crédito ganado",
+      "statsPurchases": "Amigos que compraron",
+      "statsSent": "Invitaciones enviadas",
+      "statsSignups": "Amigos registrados",
+      "statsTitle": "Tu impacto",
+      "termsLinkText": "Ver términos del programa",
+      "yourLinkLabel": "Tu link personal"
+    }
+  },
+  "fun4me:reviews": {
+    "_meta": {
+      "description": "Product review system configuration. Reviews are pseudonymous and verified (linked to order). Moderation required before publishing."
+    },
+    "businessLogic": {
+      "min_reviews_for_rating_display": 3,
+      "review_affects_product_ranking": true,
+      "review_feeds_homepage_testimonials": "opt-in per review",
+      "review_triggers_loyalty_points": true
+    },
+    "config": {
+      "allowAnonymousDisplayNames": true,
+      "autoPublishThreshold": {
+        "maxLength": 1000,
+        "minLength": 20,
+        "minRating": 3,
+        "profanityCheck": true
+      },
+      "enabled": true,
+      "moderationRequired": true,
+      "pointsForReview": 50,
+      "pointsTrigger": "review_approved",
+      "requireVerifiedPurchase": true
+    },
+    "curatedPlaceholders": [
+      {
+        "productCategory": "vibradores",
+        "samples": [
+          {
+            "body": "Primera vez comprando algo así. Me costó animarme pero el asesoramiento fue excelente. El producto llegó rápido y discreto. No me arrepiento para nada.",
+            "displayName": "Mar L.",
+            "rating": 5,
+            "recommend": true,
+            "title": "Superó mis expectativas",
+            "verified": true
+          },
+          {
+            "body": "El producto en sí es genial, calidad evidente. El único detalle es que la batería dura menos de lo que dice la caja (me aguantó unas 2 horas de uso continuo, decía 4). Igual lo recomiendo.",
+            "displayName": "Pilar_27",
+            "rating": 4,
+            "recommend": true,
+            "title": "Muy bueno pero la batería dura menos que lo anunciado",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "productCategory": "lubricantes",
+        "samples": [
+          {
+            "body": "Lubricante base agua, no mancha, no se pega, fácil de limpiar. Lo uso con juguetes de silicona sin problema. 10/10.",
+            "displayName": "Anon_Asu",
+            "rating": 5,
+            "recommend": true,
+            "title": "Perfecto para todo uso",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "displayConfig": {
+      "defaultSort": "most_helpful",
+      "photoReviewsSectionFirst": true,
+      "reviewsPerPage": 10,
+      "showPhotoReviews": true,
+      "showRatingDistribution": true,
+      "showVerifiedBadge": true,
+      "sortOptions": [
+        "most_helpful",
+        "most_recent",
+        "highest_rating",
+        "lowest_rating"
+      ]
+    },
+    "moderationPolicy": {
+      "appealProcess": "Reviews rechazadas pueden ser apeladas por email a moderacion@fun4me.com.py",
+      "rejectReasons": [
+        "Contenido ofensivo o discriminatorio",
+        "Información personal identificable (nombre real, teléfono, dirección)",
+        "Promoción de otro vendedor o producto",
+        "Contenido explícitamente sexual (fuera de reseña del producto)",
+        "Spam o contenido generado automáticamente",
+        "Fotos con caras identificables",
+        "Difamación o ataque personal al personal de Fun4Me"
+      ],
+      "responseSLA": "Reviews aprobadas o rechazadas en 48 horas hábiles"
+    },
+    "reviewForm": {
+      "disclaimer": "Al publicar esta review aceptás nuestros términos. Las reviews se moderan antes de publicar. Mantenete respetuoso/a — no publicamos contenido ofensivo o fuera de tema.",
+      "fields": [
+        {
+          "id": "rating",
+          "label": "Calificación",
+          "required": true,
+          "type": "stars"
+        },
+        {
+          "id": "title",
+          "label": "Título breve",
+          "maxLength": 80,
+          "required": true,
+          "type": "text"
+        },
+        {
+          "id": "body",
+          "label": "Tu experiencia",
+          "maxLength": 1000,
+          "minLength": 20,
+          "required": true,
+          "type": "textarea"
+        },
+        {
+          "helperText": "Tu nombre real NUNCA aparece en la review. Elegí un pseudónimo si preferís.",
+          "id": "displayName",
+          "label": "Nombre a mostrar",
+          "maxLength": 30,
+          "placeholder": "Puede ser un pseudónimo",
+          "required": true,
+          "type": "text"
+        },
+        {
+          "id": "location",
+          "label": "Ciudad (opcional)",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "id": "recommend",
+          "label": "¿Lo recomendarías?",
+          "required": true,
+          "type": "boolean"
+        },
+        {
+          "accept": "image/*",
+          "helperText": "Sin caras ni identificadores. Las fotos se moderan antes de publicar.",
+          "id": "photos",
+          "label": "Fotos (opcional)",
+          "maxCount": 3,
+          "maxSize": 5000000,
+          "type": "file"
+        }
+      ]
+    }
+  },
+  "fun4me:size-guides": {
+    "_meta": {
+      "description": "Size guides for lingerie and wearable products. Rendered as modal or accordion on product pages. Measurements in cm (PY uses metric)."
+    },
+    "displayConfig": {
+      "position": "near_size_selector",
+      "renderAs": "modal",
+      "triggerText": "Ver guía de talles"
+    },
+    "intimateApparel": {
+      "items": [
+        {
+          "fitTip": "Debe ajustar firme pero no cortar circulación. Probá con dos dedos de espacio.",
+          "product": "Arneses",
+          "sizing": "Ajustables en la mayoría de los casos. Consultá medidas específicas en cada producto."
+        },
+        {
+          "fitTip": "Pueden usarse en muñecas o tobillos.",
+          "product": "Esposas de velcro",
+          "sizing": "One size, ajustables de 15 a 25 cm de circunferencia."
+        },
+        {
+          "fitTip": "Para seguridad, elegí modelos con llave de escape rápido en primeras veces.",
+          "product": "Esposas de cuero/metal",
+          "sizing": "Medí circunferencia de muñeca. Tamaños S (14-17cm), M (17-20cm), L (20-23cm)."
+        }
+      ],
+      "title": "Guía de talles — Apparel íntimo / BDSM"
+    },
+    "lingerie": {
+      "brandNotes": {
+        "corsets": "Para corsets, elegí 5 cm menos que tu cintura natural (el corset ciñe). Esto NO aplica a corpiños ni babydolls.",
+        "elastic": "Productos con mucho elastano suelen ser indulgentes en el talle. Si dice 'one size', suele ajustar de S a L.",
+        "general": "Los talles son aproximados. Si estás entre dos talles, recomendamos el mayor."
+      },
+      "charts": [
+        {
+          "chartTitle": "Talles para Tops / Corpiños / Babydolls",
+          "headers": [
+            "Talle",
+            "Busto (cm)",
+            "Bajo busto (cm)"
+          ],
+          "rows": [
+            {
+              "bajoBusto": "64-68",
+              "busto": "78-82",
+              "talle": "XS"
+            },
+            {
+              "bajoBusto": "69-73",
+              "busto": "83-87",
+              "talle": "S"
+            },
+            {
+              "bajoBusto": "74-78",
+              "busto": "88-92",
+              "talle": "M"
+            },
+            {
+              "bajoBusto": "79-83",
+              "busto": "93-97",
+              "talle": "L"
+            },
+            {
+              "bajoBusto": "84-88",
+              "busto": "98-102",
+              "talle": "XL"
+            },
+            {
+              "bajoBusto": "89-93",
+              "busto": "103-107",
+              "talle": "XXL"
+            }
+          ],
+          "type": "top"
+        },
+        {
+          "chartTitle": "Talles para Bombachas / Tangas",
+          "headers": [
+            "Talle",
+            "Cintura (cm)",
+            "Cadera (cm)"
+          ],
+          "rows": [
+            {
+              "cadera": "82-86",
+              "cintura": "60-64",
+              "talle": "XS"
+            },
+            {
+              "cadera": "87-91",
+              "cintura": "65-69",
+              "talle": "S"
+            },
+            {
+              "cadera": "92-96",
+              "cintura": "70-74",
+              "talle": "M"
+            },
+            {
+              "cadera": "97-101",
+              "cintura": "75-79",
+              "talle": "L"
+            },
+            {
+              "cadera": "102-106",
+              "cintura": "80-84",
+              "talle": "XL"
+            },
+            {
+              "cadera": "107-111",
+              "cintura": "85-89",
+              "talle": "XXL"
+            }
+          ],
+          "type": "bottom"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Medí alrededor de la parte más llena del busto, con sostén sin relleno. Mantené la cinta paralela al piso.",
+          "title": "Contorno de busto"
+        },
+        {
+          "step": 2,
+          "text": "Medí justo debajo del busto, donde apoya la banda del sostén.",
+          "title": "Contorno bajo busto"
+        },
+        {
+          "step": 3,
+          "text": "Medí la parte más ancha de la cadera, con los pies juntos.",
+          "title": "Cadera"
+        },
+        {
+          "step": 4,
+          "text": "Medí la parte más angosta de la cintura, entre costillas y ombligo.",
+          "title": "Cintura"
+        }
+      ],
+      "returnPolicy": "Lencería puede devolverse en 7 días siempre que no haya sido usada y mantenga etiquetas intactas. Por higiene, bombachas y tangas NO admiten devolución abiertos.",
+      "title": "Guía de talles — Lencería"
+    },
+    "ringToys": {
+      "chart": {
+        "headers": [
+          "Talle",
+          "Diámetro (cm)",
+          "Circunferencia (cm)"
+        ],
+        "rows": [
+          {
+            "circunferencia": "11.0",
+            "diametro": "3.5",
+            "talle": "S"
+          },
+          {
+            "circunferencia": "12.5",
+            "diametro": "4.0",
+            "talle": "M"
+          },
+          {
+            "circunferencia": "14.0",
+            "diametro": "4.5",
+            "talle": "L"
+          }
+        ]
+      },
+      "instructions": [
+        "Medí circunferencia en estado relajado.",
+        "Sumar 1-1.5 cm para selección de talle."
+      ],
+      "safetyNote": "Máximo 20-30 minutos de uso continuo. Remover si hay dolor, cambio de color o adormecimiento.",
+      "title": "Anillos para pene"
+    }
+  },
+  "fun4me:subscriptions": {
+    "_meta": {
+      "description": "Subscription box tiers for Fun4Me. Each tier ships monthly with curated products. Requires recurring billing integration — see docs/runbooks/subscriptions.md."
+    },
+    "boxes": [
+      {
+        "cancellationPolicy": "Cancelas cuando quieras, sin penalidad. Avisa antes del 25 para evitar el cargo del mes siguiente.",
+        "customization": "minimal",
+        "description": "Para quienes quieren explorar sin compromiso. Una caja mensual con 3-4 productos de valor de mercado Gs. 200-280k: un juguete pequeño o lencería + accesorios + lubricante + sorpresa.",
+        "headline": "Una pequeña sorpresa cada mes.",
+        "id": "box-discovery",
+        "includes": [
+          "1 juguete pequeño o pieza de lencería",
+          "1 accesorio (antifaz, plumas, dados, etc.)",
+          "1 lubricante (alternado entre agua y silicona)",
+          "1 sorpresa seleccionada por el equipo"
+        ],
+        "mailerValue": "Gs. 200.000 - 280.000",
+        "mainImage": "/branding/fun4me/images/subscriptions/discovery.jpg",
+        "name": "Caja Discovery",
+        "personalizationQuestions": [
+          "Preferencia de uso: solo / con pareja",
+          "Sensibilidad (alta/media/baja) para evitar productos muy fuertes"
+        ],
+        "priceMonthly": 149000,
+        "priceQuarterly": 420000,
+        "priceYearly": 1590000,
+        "shippingIncluded": true,
+        "sku": "SUB-DISC-MO",
+        "tier": "discovery",
+        "yearlySavings": 198000
+      },
+      {
+        "cancellationPolicy": "Cancelas cuando quieras. Aviso antes del 25 para el próximo mes.",
+        "customization": "medium",
+        "description": "Cada mes, una caja curada con productos de marcas premium. Valor de mercado Gs. 450-550k. Incluye un juguete de marca reconocida (Satisfyer, We-Vibe, LELO) + accesorios premium.",
+        "featured": true,
+        "headline": "Un placer cuidado, seleccionado y enviado a tu puerta.",
+        "id": "box-premium",
+        "includes": [
+          "1 juguete premium de marca reconocida (rotación mensual)",
+          "2 complementos de alta gama",
+          "1 accesorio sensorial o lencería premium",
+          "1 cupón de 15% off para compra adicional en la tienda"
+        ],
+        "mailerValue": "Gs. 450.000 - 550.000",
+        "mainImage": "/branding/fun4me/images/subscriptions/premium.jpg",
+        "name": "Caja Premium",
+        "personalizationQuestions": [
+          "Preferencia de uso: solo / con pareja",
+          "Categorías preferidas (vibradores, BDSM, lencería, etc.)",
+          "Categorías que NO queres recibir",
+          "Talle de lencería (si aplica)"
+        ],
+        "priceMonthly": 299000,
+        "priceQuarterly": 849000,
+        "priceYearly": 3190000,
+        "shippingIncluded": true,
+        "sku": "SUB-PREM-MO",
+        "tier": "premium",
+        "yearlySavings": 398000
+      },
+      {
+        "cancellationPolicy": "Cancelas cuando quieras. Compromiso mínimo: ninguno.",
+        "capacity": 20,
+        "capacityNote": "Solo 20 cupos por mes para garantizar personalización.",
+        "customization": "high",
+        "description": "Experiencia máxima. Caja mensual con consulta previa: te llamamos (o WhatsApp) antes de armar la caja para personalizar. Valor de mercado Gs. 900k+. Incluye un producto flagship + complementos premium + bonus.",
+        "headline": "Lo mejor de lo mejor, personalizado para vos.",
+        "id": "box-vip",
+        "includes": [
+          "1 producto flagship (LELO, We-Vibe top, Satisfyer signature)",
+          "3-4 complementos premium seleccionados a medida",
+          "1 accesorio de lujo (lencería de diseñador, seda, cuero premium)",
+          "1 consulta de 30min con nuestro equipo pre-box",
+          "1 cupón de 25% off",
+          "Envío express prioritario"
+        ],
+        "mailerValue": "Gs. 900.000+",
+        "mainImage": "/branding/fun4me/images/subscriptions/vip.jpg",
+        "name": "Caja VIP",
+        "personalizationQuestions": [
+          "Consulta previa via WhatsApp o llamada discreta",
+          "Preferencias detalladas (materiales, intensidad, uso)",
+          "Historial de productos que te gustaron / no"
+        ],
+        "priceMonthly": 599000,
+        "priceQuarterly": 1699000,
+        "priceYearly": 6490000,
+        "shippingIncluded": true,
+        "sku": "SUB-VIP-MO",
+        "tier": "vip",
+        "waitlist": true,
+        "yearlySavings": 698000
+      }
+    ],
+    "displayConfig": {
+      "comparisonMode": "table",
+      "highlightTier": "premium",
+      "sectionSubtitle": "Sorpresa y curaduría todos los meses. Cancelas cuando quieras.",
+      "sectionTitle": "Suscripción Mensual"
+    },
+    "globalPolicy": {
+      "ageVerificationRequired": true,
+      "customerPortalUrl": "/fun4me/account/subscriptions",
+      "pauseSupported": true,
+      "privacyNote": "Todas las cajas llegan en empaque discreto. El cargo aparece como 'F4M COMERCIAL'.",
+      "shippingFrequency": "monthly_on_10th",
+      "skipMonthSupported": true
     }
   },
   "granja-cabral:es": {
