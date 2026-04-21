@@ -128,6 +128,13 @@ export function ImageLightbox({
 
   return (
     <>
+      {/*
+        Passing `open` down is safe — it's a stable useCallback that only
+        touches refs when the consumer invokes it from a user-event
+        handler (post-render). The react-hooks/refs rule can't tell the
+        difference statically.
+      */}
+      {/* eslint-disable-next-line react-hooks/refs */}
       {children({ open, isOpen, activeIndex })}
 
       {isOpen && active && (
