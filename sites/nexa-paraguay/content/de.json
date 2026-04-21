@@ -224,31 +224,46 @@
           "number": 1,
           "title": "Erstgespräch",
           "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Dokumentenprüfung",
           "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operativer Tag",
           "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Gesellschaft und Bank",
           "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Übergabe und Nachbetreuung",
           "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -578,31 +593,46 @@
           "number": 1,
           "title": "Erstgespräch",
           "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Dokumentenprüfung",
           "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operativer Tag",
           "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Gesellschaft und Bank",
           "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Übergabe und Nachbetreuung",
           "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },

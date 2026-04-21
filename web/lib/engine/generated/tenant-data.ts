@@ -20381,30 +20381,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Erstgespräch"
           },
           {
             "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Dokumentenprüfung"
           },
           {
             "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Operativer Tag"
           },
           {
             "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Gesellschaft und Bank"
           },
           {
             "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Übergabe und Nachbetreuung"
           }
@@ -20682,30 +20697,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Erstgespräch"
           },
           {
             "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Dokumentenprüfung"
           },
           {
             "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Operativer Tag"
           },
           {
             "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Gesellschaft und Bank"
           },
           {
             "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Übergabe und Nachbetreuung"
           }
@@ -21417,30 +21447,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "We review your situation, goals, and the right program.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Initial consultation"
           },
           {
             "description": "Our team verifies everything before you travel. You only travel when ready.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Document validation"
           },
           {
             "description": "All in-person steps executed in a single day.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Operational day"
           },
           {
             "description": "We incorporate your company and coordinate the bank opening.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Company and banking"
           },
           {
             "description": "You receive final documents and we close the program.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Delivery and follow-up"
           }
@@ -21718,30 +21763,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "We review your situation, goals, and the right program.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Initial consultation"
           },
           {
             "description": "Our team verifies everything before you travel. You only travel when ready.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Document validation"
           },
           {
             "description": "All in-person steps executed in a single day.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Operational day"
           },
           {
             "description": "We incorporate your company and coordinate the bank opening.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Company and banking"
           },
           {
             "description": "You receive final documents and we close the program.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Delivery and follow-up"
           }
@@ -22423,30 +22483,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Evaluamos su situación, objetivos y programa adecuado.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Consulta inicial"
           },
           {
             "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Validación documental"
           },
           {
             "description": "En un solo día, ejecutamos todos los trámites presenciales.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Jornada operativa"
           },
           {
             "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Sociedad y banca"
           },
           {
             "description": "Recibe documentos definitivos y cerramos el programa.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Entrega y seguimiento"
           }
@@ -22724,30 +22799,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Evaluamos su situación, objetivos y programa adecuado.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Consulta inicial"
           },
           {
             "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Validación documental"
           },
           {
             "description": "En un solo día, ejecutamos todos los trámites presenciales.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Jornada operativa"
           },
           {
             "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Sociedad y banca"
           },
           {
             "description": "Recibe documentos definitivos y cerramos el programa.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Entrega y seguimiento"
           }
@@ -23492,30 +23582,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "We bespreken uw situatie, doelen en het passende programma.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Eerste consult"
           },
           {
             "description": "Alles wordt vooraf door ons team geverifieerd. U reist pas als alles klopt.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Documentvalidatie"
           },
           {
             "description": "In één dag voeren we alle persoonlijke afhandelingen uit.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Operationele dag"
           },
           {
             "description": "Wij richten uw vennootschap op en coördineren de bankopening.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Vennootschap en bank"
           },
           {
             "description": "U ontvangt de definitieve documenten en we sluiten het programma af.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Oplevering en nazorg"
           }
@@ -23793,30 +23898,45 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "We bespreken uw situatie, doelen en het passende programma.",
             "icon": "MessageCircle",
+            "image": {
+              "$img": "process.consultation"
+            },
             "number": 1,
             "title": "Eerste consult"
           },
           {
             "description": "Alles wordt vooraf door ons team geverifieerd. U reist pas als alles klopt.",
             "icon": "FileCheck",
+            "image": {
+              "$img": "process.documents"
+            },
             "number": 2,
             "title": "Documentvalidatie"
           },
           {
             "description": "In één dag voeren we alle persoonlijke afhandelingen uit.",
             "icon": "MapPin",
+            "image": {
+              "$img": "process.arrival"
+            },
             "number": 3,
             "title": "Operationele dag"
           },
           {
             "description": "Wij richten uw vennootschap op en coördineren de bankopening.",
             "icon": "Building",
+            "image": {
+              "$img": "process.banking"
+            },
             "number": 4,
             "title": "Vennootschap en bank"
           },
           {
             "description": "U ontvangt de definitieve documenten en we sluiten het programma af.",
             "icon": "CheckCircle",
+            "image": {
+              "$img": "process.completion"
+            },
             "number": 5,
             "title": "Oplevering en nazorg"
           }

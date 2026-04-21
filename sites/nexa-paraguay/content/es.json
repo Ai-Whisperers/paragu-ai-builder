@@ -221,31 +221,46 @@
           "number": 1,
           "title": "Consulta inicial",
           "description": "Evaluamos su situación, objetivos y programa adecuado.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Validación documental",
           "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Jornada operativa",
           "description": "En un solo día, ejecutamos todos los trámites presenciales.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Sociedad y banca",
           "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Entrega y seguimiento",
           "description": "Recibe documentos definitivos y cerramos el programa.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -608,31 +623,46 @@
           "number": 1,
           "title": "Consulta inicial",
           "description": "Evaluamos su situación, objetivos y programa adecuado.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Validación documental",
           "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Jornada operativa",
           "description": "En un solo día, ejecutamos todos los trámites presenciales.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Sociedad y banca",
           "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Entrega y seguimiento",
           "description": "Recibe documentos definitivos y cerramos el programa.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },

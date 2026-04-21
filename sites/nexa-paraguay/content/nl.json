@@ -221,31 +221,46 @@
           "number": 1,
           "title": "Eerste consult",
           "description": "We bespreken uw situatie, doelen en het passende programma.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Documentvalidatie",
           "description": "Alles wordt vooraf door ons team geverifieerd. U reist pas als alles klopt.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operationele dag",
           "description": "In één dag voeren we alle persoonlijke afhandelingen uit.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Vennootschap en bank",
           "description": "Wij richten uw vennootschap op en coördineren de bankopening.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Oplevering en nazorg",
           "description": "U ontvangt de definitieve documenten en we sluiten het programma af.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -575,31 +590,46 @@
           "number": 1,
           "title": "Eerste consult",
           "description": "We bespreken uw situatie, doelen en het passende programma.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Documentvalidatie",
           "description": "Alles wordt vooraf door ons team geverifieerd. U reist pas als alles klopt.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operationele dag",
           "description": "In één dag voeren we alle persoonlijke afhandelingen uit.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Vennootschap en bank",
           "description": "Wij richten uw vennootschap op en coördineren de bankopening.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Oplevering en nazorg",
           "description": "U ontvangt de definitieve documenten en we sluiten het programma af.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },

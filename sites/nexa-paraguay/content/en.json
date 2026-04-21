@@ -221,31 +221,36 @@
           "number": 1,
           "title": "Initial consultation",
           "description": "We review your situation, goals, and the right program.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": { "$img": "process.consultation" }
         },
         {
           "number": 2,
           "title": "Document validation",
           "description": "Our team verifies everything before you travel. You only travel when ready.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": { "$img": "process.documents" }
         },
         {
           "number": 3,
           "title": "Operational day",
           "description": "All in-person steps executed in a single day.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": { "$img": "process.arrival" }
         },
         {
           "number": 4,
           "title": "Company and banking",
           "description": "We incorporate your company and coordinate the bank opening.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": { "$img": "process.banking" }
         },
         {
           "number": 5,
           "title": "Delivery and follow-up",
           "description": "You receive final documents and we close the program.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": { "$img": "process.completion" }
         }
       ]
     },
@@ -544,31 +549,36 @@
           "number": 1,
           "title": "Initial consultation",
           "description": "We review your situation, goals, and the right program.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": { "$img": "process.consultation" }
         },
         {
           "number": 2,
           "title": "Document validation",
           "description": "Our team verifies everything before you travel. You only travel when ready.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": { "$img": "process.documents" }
         },
         {
           "number": 3,
           "title": "Operational day",
           "description": "All in-person steps executed in a single day.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": { "$img": "process.arrival" }
         },
         {
           "number": 4,
           "title": "Company and banking",
           "description": "We incorporate your company and coordinate the bank opening.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": { "$img": "process.banking" }
         },
         {
           "number": 5,
           "title": "Delivery and follow-up",
           "description": "You receive final documents and we close the program.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": { "$img": "process.completion" }
         }
       ]
     },
