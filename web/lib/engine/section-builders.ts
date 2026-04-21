@@ -41,14 +41,16 @@ const buildHeader: SectionBuilder = ({ business, navItems, registry }) => ({
 
 const buildHero: SectionBuilder = ({ business, content, templateData }) => {
   const hero = (content as { hero?: { headline: string; subheadline: string; ctaPrimary: string; ctaSecondary?: string } }).hero
+  // Admin content editor wins over registry defaults when set.
+  const override = business.contentOverrides?.hero
   return {
-    headline: fillTemplate(hero?.headline || '', templateData),
-    subheadline: fillTemplate(hero?.subheadline || '', templateData),
-    ctaPrimaryText: hero?.ctaPrimary || 'Reservar',
-    ctaPrimaryHref: '#contacto',
-    ctaSecondaryText: hero?.ctaSecondary,
-    ctaSecondaryHref: '#servicios',
-    backgroundImage: business.heroImage,
+    headline: override?.headline || fillTemplate(hero?.headline || '', templateData),
+    subheadline: override?.subheadline || fillTemplate(hero?.subheadline || '', templateData),
+    ctaPrimaryText: override?.ctaPrimaryText || hero?.ctaPrimary || 'Reservar',
+    ctaPrimaryHref: override?.ctaPrimaryHref || '#contacto',
+    ctaSecondaryText: override?.ctaSecondaryText || hero?.ctaSecondary,
+    ctaSecondaryHref: override?.ctaSecondaryHref || '#servicios',
+    backgroundImage: override?.backgroundImageUrl || business.heroImage,
   }
 }
 
@@ -304,7 +306,15 @@ const buildProductCatalog: SectionBuilder = ({ business, content, registry }) =>
   }
 }
 
-const buildFaq: SectionBuilder = ({ content }) => {
+const buildFaq: SectionBuilder = ({ business, content }) => {
+  // Prefer admin-edited FAQ when set; fall back to registry-default content.
+  const adminItems = business.contentOverrides?.faq?.items
+  if (adminItems && adminItems.length > 0) {
+    return {
+      title: 'Preguntas Frecuentes',
+      items: adminItems.map((i) => ({ q: i.question, a: i.answer })),
+    }
+  }
   const faqContent = content as { faq?: Array<{ q: string; a: string }> }
   if (!faqContent?.faq || faqContent.faq.length === 0) return null
   return {
