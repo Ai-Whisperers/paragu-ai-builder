@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 57 | see closure log below |
+| ✅ Closed | 58 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 443 | the rest |
+| 🔴 Open | 442 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -64,7 +64,11 @@ Closure log:
 - **#463, #470** — Lighthouse baseline run on 4 prod URLs; report saved to
   `docs/LIGHTHOUSE_BASELINE.md` with action items. Landing now 81/100 perf.
 - **#270** — "Esta es una demostración" banner — covered by `<DemoBadge>`.
-- **#485** — `docs/runbooks/ADD_NEW_VERTICAL.md` runbook published. Branch `docs/add-new-vertical`.
+- **#485** — `docs/runbooks/ADD_NEW_VERTICAL.md` runbook published.
+- **#457** — every cron route header now declares its schedule in UTC
+  with the Asunción mapping called out, plus a pointer to the canonical
+  table in `docs/runbooks/CRON_STRATEGY.md`. No more guessing what
+  timezone "0 9 * * *" is in. (5 cron routes updated.)
 
 ## Blocked on user input
 

@@ -17,10 +17,11 @@ export const runtime = 'nodejs'
  * on their schedule. We keep the Google ping for completeness; it's a
  * no-op but doesn't hurt.
  *
- * Schedule:
+
+ * Schedule (UTC — see docs/runbooks/CRON_STRATEGY.md for the canonical table):
  *   POST https://paragu-ai.com/api/cron/sitemap-ping
  *   x-cron-secret: <CRON_SECRET>
- *   Cron: 0 8 * * 1   (Mondays 8am)
+ *   Crontab: 0 11 * * 1   (Mondays 11:00 UTC = 8:00 Asunción standard time)
  */
 
 const SITEMAP_URL = 'https://paragu-ai.com/sitemap.xml'

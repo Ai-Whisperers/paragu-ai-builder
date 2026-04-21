@@ -9,6 +9,9 @@ export const runtime = 'nodejs'
  * Identifies open carts older than the per-step threshold with a customer
  * email attached (via guest checkout attempts or signed-in users) and
  * enqueues a recovery email. Three touches: 24h, 72h, 7d.
+ *
+ * Schedule (UTC): every 4 hours. See docs/runbooks/CRON_STRATEGY.md
+ * for the canonical table. Protected by CRON_SECRET header.
  */
 const STEPS = [
   { step: 1, hoursAgo: 24 },
