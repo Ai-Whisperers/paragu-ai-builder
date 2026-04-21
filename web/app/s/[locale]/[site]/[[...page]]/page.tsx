@@ -14,6 +14,24 @@ import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
 
+/**
+ * Force dynamic rendering across all tenant pages.
+ *
+ * Why: tenant pages can include sections (commerce-catalog, featured-products)
+ * whose data fetches hit the Supabase admin client, which uses `cookies()`
+ * internally — forbidden during SSG. A section-level `noStore()` isn't
+ * enough because Next.js still logs DYNAMIC_SERVER_USAGE and bubbles a 500
+ * when the route was pre-scheduled for static generation.
+ *
+ * Rather than hunt every transitive dynamic API or gate sections at compose
+ * time, opt the whole catch-all out of static generation. The SSG benefit
+ * for tenant marketing pages was already limited (dynamicParams=true,
+ * frequent content edits), and PRERENDER_SKIP_SITES was growing anyway.
+ * This trade gives unambiguous correctness: no more 500s when a tenant
+ * opts in to a commerce section.
+ */
+export const dynamic = 'force-dynamic'
+
 interface Props {
   params: Promise<{ locale: string; site: string; page?: string[] }>
 }
