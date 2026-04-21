@@ -404,6 +404,26 @@
         {
           "q": "¿Cómo se paga?",
           "a": "Pago anticipado por transferencia bancaria internacional. Aceptamos USD o EUR. Sin cargos ocultos ni adicionales durante el trámite regular. Emitimos factura formal desde nuestra entidad paraguaya al momento del pago."
+        },
+        {
+          "q": "¿Puedo cambiar de programa una vez empezado?",
+          "a": "Sí. Si a mitad de proceso decidís escalar (por ejemplo de Base a Business) aplicamos lo pagado al nuevo programa y facturamos la diferencia. Sin cobrar dos veces."
+        },
+        {
+          "q": "¿Necesito estar en Paraguay para arrancar?",
+          "a": "No. Toda la prevalidación documental se hace remotamente. Solo viajás para el día operativo único (migración + cédula + banco, todo coordinado)."
+        },
+        {
+          "q": "¿Cuánto tarda el proceso completo?",
+          "a": "8–12 semanas habituales. 6 semanas de preparación documental + 1 viaje + 2–4 semanas para aprobación de residencia y emisión de cédula."
+        },
+        {
+          "q": "¿Qué pasa si rechazan mi residencia?",
+          "a": "Los rechazos son raros con la preparación documental adecuada. Si ocurre por algo de nuestro alcance (por ejemplo requisito omitido) reingresamos a nuestro costo."
+        },
+        {
+          "q": "¿El 10% de renta territorial está garantizado?",
+          "a": "El 10% de IRE es la tasa vigente bajo la Ley 6380. Te mantenemos informado de reformas y estructuramos tu setup para cumplir con las reglas aplicables en cada momento."
         }
       ]
     },

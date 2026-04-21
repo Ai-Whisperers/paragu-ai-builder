@@ -404,6 +404,26 @@
         {
           "q": "Hoe wordt betaald?",
           "a": "Vooraf per overschrijving. Geen bijkomende kosten."
+        },
+        {
+          "q": "Kan ik van programma wisselen na de start?",
+          "a": "Ja. Als u tijdens het proces wilt upgraden (bijvoorbeeld van Base naar Business), verrekenen we het reeds betaalde bedrag met het nieuwe programma en factureren we alleen het verschil."
+        },
+        {
+          "q": "Moet ik in Paraguay zijn om te beginnen?",
+          "a": "Nee. De volledige documentvoorvalidatie doen we remote. U reist alleen voor de ene gecoördineerde operationele dag (migratie + identiteitskaart + bank)."
+        },
+        {
+          "q": "Hoe lang duurt het hele proces?",
+          "a": "8–12 weken gebruikelijk. 6 weken documentvoorbereiding + 1 reis + 2–4 weken residentiegoedkeuring en ID-afgifte."
+        },
+        {
+          "q": "Wat als mijn residentie wordt afgewezen?",
+          "a": "Afwijzingen zijn zeldzaam bij goede voorbereiding. Gebeurt het door iets dat binnen onze verantwoordelijkheid valt (bijv. een gemiste vereiste), dan dienen wij op onze kosten opnieuw in."
+        },
+        {
+          "q": "Is het 10% territoriale belastingtarief gegarandeerd?",
+          "a": "Het 10% IRE-tarief geldt onder de huidige Paraguayaanse wet (Wet 6380). We houden u op de hoogte van hervormingen en structureren uw setup zo dat deze voldoet aan de geldende regels."
         }
       ]
     },
