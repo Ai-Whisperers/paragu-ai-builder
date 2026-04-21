@@ -3,14 +3,12 @@
   "titleKey": "store.seo.title",
   "descriptionKey": "store.seo.description",
   "sections": [
-    { "id": "age-gate", "variant": "modal", "content": "ageGate" },
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "store-hero", "variant": "minimal", "content": "store.hero" },
-    { "id": "store-promo", "variant": "strip", "content": "home.promo" },
-    { "id": "store-filters", "variant": "sidebar-and-sort", "content": "store.filters" },
-    { "id": "product-catalog", "variant": "grid", "content": "store.catalog" },
-    { "id": "bundles-highlight", "variant": "carousel", "content": "bundles" },
-    { "id": "trust-strip", "variant": "strip", "content": "store.trust" },
+    { "id": "hero", "variant": "minimal", "content": "store.hero" },
+    { "id": "cta-banner", "variant": "solid", "content": "home.promo" },
+    { "id": "product-catalog", "variant": "grid" },
+    { "id": "services", "variant": "cards", "content": "store.bundlesPreview" },
+    { "id": "services", "variant": "cards", "content": "store.trust" },
     { "id": "footer", "variant": "standard", "content": "footer" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
