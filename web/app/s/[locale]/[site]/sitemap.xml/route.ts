@@ -3,8 +3,17 @@ import { loadSite, listPageSlugs, loadPage } from '@/lib/engine/site-loader'
 import { listBlogSlugs } from '@/lib/engine/blog-loader'
 import { buildLocaleUrl, type Locale } from '@/lib/i18n/routing'
 import { isLocale } from '@/lib/i18n/config'
+import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
+import { isCommerceEnabled } from '@/lib/commerce/capability'
+import { listActiveProducts, listDistinctCategories } from '@/lib/commerce/products'
+import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
+
+// Include at most this many PDPs per tenant to keep the sitemap under
+// Google's 50k-URL / 50MB limits on very large catalogs. We'll paginate
+// with sitemap-index files if any tenant ever crosses this.
+const MAX_PDP_URLS = 5000
 
 export async function GET(
   _req: Request,
@@ -64,6 +73,49 @@ export async function GET(
     urls.push({
       loc: `${base}${buildLocaleUrl(locale as Locale, slug, pathPart)}`,
       alternates,
+    })
+  }
+
+  // Commerce URLs — product detail pages + category index pages, included
+  // only for tenants with commerce enabled. A catalog of real products is
+  // the single highest-impact sitemap addition for a commerce tenant.
+  try {
+    const business = await resolveBusinessBySlug(slug)
+    if (business && (await isCommerceEnabled(business.type))) {
+      const [products, categories] = await Promise.all([
+        listActiveProducts(business.id, { limit: MAX_PDP_URLS, sort: 'newest' }),
+        listDistinctCategories(business.id),
+      ])
+      for (const category of categories) {
+        const pathPart = `tienda/categoria/${encodeURIComponent(category)}`
+        const alternates = site.locales.map((l) => ({
+          hreflang: l,
+          href: `${base}${buildLocaleUrl(l, slug, pathPart)}`,
+        }))
+        urls.push({
+          loc: `${base}${buildLocaleUrl(locale as Locale, slug, pathPart)}`,
+          alternates,
+        })
+      }
+      for (const product of products) {
+        const pathPart = `producto/${product.slug}`
+        const alternates = site.locales.map((l) => ({
+          hreflang: l,
+          href: `${base}${buildLocaleUrl(l, slug, pathPart)}`,
+        }))
+        urls.push({
+          loc: `${base}${buildLocaleUrl(locale as Locale, slug, pathPart)}`,
+          alternates,
+        })
+      }
+    }
+  } catch (err) {
+    // A commerce query failure shouldn't 500 the whole sitemap — core
+    // tenant pages still render; Google will retry later. Log so we see it.
+    logger.warn('[sitemap] commerce URLs skipped', {
+      action: 'sitemap.commerce_skip',
+      slug,
+      error: err instanceof Error ? err.message : String(err),
     })
   }
 

@@ -59,9 +59,9 @@
       "content": "home.partners"
     },
     {
-      "id": "faq",
-      "variant": "accordion",
-      "content": "home.faq"
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "home.enhancedFaq"
     },
     {
       "id": "newsletter-signup",
