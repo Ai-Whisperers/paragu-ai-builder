@@ -9,9 +9,14 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 47 | see closure log below |
+| ✅ Closed | 56 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 453 | the rest |
+| 🔴 Open | 444 | the rest |
+| 🔴 Blocked on user | ~30 | listed at bottom |
+
+**Lighthouse delta** (post W4):
+- Landing: perf **44 → 81** (+37), a11y **89 → 96** (+7), TBT 2,250ms → 140ms
+- All 4 audited pages still flagged for is-crawlable: Cloudflare `x-robots-tag` injection (LAUNCH BLOCKER, you fix in dashboard)
 
 Closure log:
 
@@ -48,6 +53,35 @@ Closure log:
 - **#406** — verified husky pre-commit hook already runs typecheck + lint-staged.
 - **#414** — verified all `target="_blank"` on landing have `rel="noopener"`.
 - **#417** — verified only 1 `console.log` in app code, in logger itself (legitimate).
+- **#330, #334, #337** — landing TBT 2,250ms → 140ms via `next/dynamic`
+  on 9 floating components (ScrollProgress, FloatingWhatsApp, BackToTop,
+  StickyMobileCTA, ActivityTicker, TestimonialCarousel, NewsletterForm,
+  HeroVariantChip, ScrollDepthTracker). PR #114.
+- **#332** — color-contrast `text-muted` #888 → #6b6b6b (3.5:1 → 5.0:1, AA pass).
+  Same for `muted-foreground`. PR #112.
+- **#464** — heading-order: footer `<h4>` → `<h3>` in inline footer + `<SiteFooter>`.
+  Mobile menu buttons gain `aria-label`. PR #112.
+- **#463, #470** — Lighthouse baseline run on 4 prod URLs; report saved to
+  `docs/LIGHTHOUSE_BASELINE.md` with action items. Landing now 81/100 perf.
+- **#270** — "Esta es una demostración" banner — covered by `<DemoBadge>`.
+
+## Blocked on user input
+
+These need real data, decisions, or external action before I can close:
+
+- **#001, #017** — runtime verification on real WhatsApp + Calendly link
+- **#003** — DE translation for Nexa Paraguay (cost decision: pay vs remove)
+- **#005, #016, #042, #058, #066, #084, #119, #125, #135, #149** — real or
+  AI-generated images for hero / services / portraits per tenant
+- **#011, #043, #054, #065, #085, #104, #119, #134, #149, #164, #179, #194, #209, #224, #239** — logos
+- **#014, #045, #056, #069, #109, #126** — real testimonials
+- **#018** — per-locale OG images (manual design)
+- **#030, #178** — real listings data for Nexa Propiedades
+- **#041** — geo-IP currency switcher decision (Dayah USD/Gs)
+- **#051** — De Abasto menu rotation owner
+- **#319-320 (Cloudflare noindex)** — see LIGHTHOUSE_BASELINE.md, "x-robots-tag"
+- All of section B per-demo polish (#062-260) until AI image pipeline + content
+  authoring time invested per `docs/DEMO_POLISH_PLAYBOOK.md`
 
 
 >
