@@ -2,6 +2,11 @@
 
 > **Question from launch questionnaire (§9):** "i think all should be in
 > hostinger what do yopu suggest analyze and choose the best option"
+>
+> **Status (2026-04-21):** ✅ **Installed.** `paragu-cron` wrapper at
+> `/usr/local/bin/paragu-cron` on `72.61.44.159`. Crontab live with all 5
+> entries. Logs at `/var/log/paragu-ai-crons.log` (logrotate configured).
+> First leads-digest scheduled to fire at next 12:00 UTC (9am Asunción).
 
 ## TL;DR
 

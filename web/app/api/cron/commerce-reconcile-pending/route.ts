@@ -33,14 +33,14 @@ export const POST = withRequestLog(async (request, { log }) => {
   for (const order of rows) {
     const { data: tx } = await supabase
       .from('storefront_transactions')
-      .select('provider_payment_id, provider_preference_id')
+      .select('provider, provider_payment_id, provider_preference_id')
       .eq('order_id', order.id)
       .not('provider_payment_id', 'is', null)
       .order('updated_at', { ascending: false })
       .limit(1)
       .maybeSingle()
 
-    if (!tx?.provider_payment_id) {
+    if (!tx?.provider_payment_id || !tx?.provider) {
       skipped++
       continue
     }
@@ -49,7 +49,7 @@ export const POST = withRequestLog(async (request, { log }) => {
       await reconcileFromProvider({
         businessId: order.business_id,
         orderId: order.id,
-        provider: 'mercado_pago',
+        provider: tx.provider,
         providerPaymentId: tx.provider_payment_id,
         providerPreferenceId: tx.provider_preference_id,
       })
