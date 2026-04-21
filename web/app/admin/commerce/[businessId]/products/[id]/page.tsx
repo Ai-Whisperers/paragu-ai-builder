@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { scopedQueries } from '@/lib/supabase/scoped'
 import { EditProductForm } from '@/components/admin/commerce/edit-product-form'
+import { ProductImageUploader } from '@/components/admin/commerce/product-image-uploader'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -37,6 +38,15 @@ export default async function EditProductPage({ params }: { params: Promise<{ bu
         ← Volver
       </Link>
       <h1 className="mb-6 text-2xl font-bold">Editar producto</h1>
+
+      <div className="mb-6">
+        <ProductImageUploader
+          businessId={businessId}
+          productId={product.id}
+          images={product.images ?? []}
+        />
+      </div>
+
       <EditProductForm
         businessId={businessId}
         product={{
