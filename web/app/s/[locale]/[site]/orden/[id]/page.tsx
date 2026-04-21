@@ -12,10 +12,10 @@ export default async function OrderPage({
   params,
   searchParams,
 }: {
-  params: Promise<{ site: string; id: string }>
+  params: Promise<{ site: string; locale: string; id: string }>
   searchParams: Promise<{ status?: string }>
 }) {
-  const { site, id } = await params
+  const { site, locale, id } = await params
   const { status } = await searchParams
   const business = await resolveBusinessBySlug(site)
   if (!business || !(await isCommerceEnabled(business.type))) notFound()
@@ -32,8 +32,8 @@ export default async function OrderPage({
 
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CommerceHeader siteSlug={site} businessName={business.name} />
-      <OrderConfirmation siteSlug={site} initialOrder={order} initialStatus={initial} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      <OrderConfirmation siteSlug={site} locale={locale} initialOrder={order} initialStatus={initial} />
     </div>
   )
 }

@@ -7,9 +7,10 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 
 interface Props {
   siteSlug: string
+  locale?: string
 }
 
-export function CheckoutForm({ siteSlug }: Props) {
+export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
   const router = useRouter()
   const cart = useCartStore((s) => s.cart)
   const [submitting, setSubmitting] = useState(false)
@@ -113,7 +114,7 @@ export function CheckoutForm({ siteSlug }: Props) {
         window.location.href = data.redirectUrl
         return
       }
-      router.push(`/s/es/${siteSlug}/orden/${data.orderId}`)
+      router.push(`/s/${locale}/${siteSlug}/orden/${data.orderId}`)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Error al procesar el pedido')
       setSubmitting(false)
@@ -224,6 +225,14 @@ export function CheckoutForm({ siteSlug }: Props) {
               <span>−{formatCents(discountAmount, cart.currency)}</span>
             </div>
           ) : null}
+          <div className="flex justify-between text-[color:var(--text-muted,#6b7280)]">
+            <span>Envío</span>
+            <span>
+              {discountStatus.kind === 'applied' && discountStatus.freeShipping
+                ? 'Gratis'
+                : 'Se calcula al confirmar'}
+            </span>
+          </div>
           <div className="flex justify-between pt-1 text-base font-semibold text-[color:var(--text,#111)]">
             <span>Total</span>
             <span>{formatCents(total, cart.currency)}</span>
@@ -241,10 +250,10 @@ export function CheckoutForm({ siteSlug }: Props) {
           disabled={submitting}
           className="mt-4 w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-60"
         >
-          {submitting ? 'Procesando…' : 'Pagar con Mercado Pago'}
+          {submitting ? 'Procesando…' : 'Confirmar pedido'}
         </button>
         <p className="mt-3 text-center text-xs text-[color:var(--text-muted,#6b7280)]">
-          Pago seguro · Mercado Pago · Visa · Mastercard · Tigo Money
+          Te llevamos a la siguiente pantalla para completar el pago.
         </p>
       </aside>
     </form>

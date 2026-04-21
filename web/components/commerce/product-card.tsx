@@ -13,9 +13,10 @@ interface Props {
   product: Product
   priority?: boolean
   rates?: Record<string, number>
+  locale?: string
 }
 
-export function ProductCard({ siteSlug, product, priority, rates }: Props) {
+export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
   const cover = product.images.find((i) => i.isCover) ?? product.images[0] ?? null
@@ -38,7 +39,7 @@ export function ProductCard({ siteSlug, product, priority, rates }: Props) {
 
   return (
     <article className="group flex flex-col">
-      <Link href={`/s/es/${siteSlug}/producto/${product.slug}`} className="block">
+      <Link href={`/s/${locale}/${siteSlug}/producto/${product.slug}`} className="block">
         <div className="relative">
           <ProductImage image={cover} alt={product.name} priority={priority} isSeed={product.isSeed} />
           {discount ? (

@@ -91,17 +91,40 @@ export async function getOrCreateCart(
   return rowToCart(data[0], [])
 }
 
+interface CartItemRowJoined extends CartItemRow {
+  products?: {
+    name: string | null
+    slug: string | null
+    images: Array<{ url?: string; isCover?: boolean }> | null
+  } | null
+}
+
 async function fetchItems(businessId: string, cartId: string): Promise<CartItem[]> {
   const supabase = await createAdminClient()
-  const scoped = scopedQueries(supabase, businessId)
-  const { data, error } = await scoped.select<CartItemRow>('cart_items', '*', {
-    filter: (q) => q.eq('cart_id', cartId).order('created_at'),
-  })
+  // Single query with embedded product join — we need name/slug/cover image
+  // so the cart drawer can render "Remera azul talle M" instead of a UUID
+  // fragment. PostgREST syntax: `products(name, slug, images)` embeds the
+  // related row via the product_id FK.
+  const { data, error } = await supabase
+    .from('cart_items')
+    .select('*, products(name, slug, images)')
+    .eq('cart_id', cartId)
+    .eq('business_id', businessId)
+    .order('created_at')
   if (error) {
     logger.error('[commerce] fetchItems failed', { action: 'commerce.cart.items', cartId, error: error.message })
     return []
   }
-  return (Array.isArray(data) ? data : []).map(rowToCartItem)
+  return (Array.isArray(data) ? data : []).map((row) => {
+    const joined = row as CartItemRowJoined
+    const cover = joined.products?.images?.find((i) => i?.isCover) ?? joined.products?.images?.[0]
+    return {
+      ...rowToCartItem(joined),
+      productName: joined.products?.name ?? null,
+      productSlug: joined.products?.slug ?? null,
+      productImageUrl: cover?.url ?? null,
+    }
+  })
 }
 
 export async function addItem(
