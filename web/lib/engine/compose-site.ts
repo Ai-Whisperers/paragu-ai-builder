@@ -260,6 +260,11 @@ function normalizeSectionProps(sectionId: string, props: Record<string, unknown>
         normalized.phone = normalized.number
       }
       break
+    case 'product-catalog':
+      if (normalized.items && !normalized.products) {
+        normalized.products = normalized.items
+      }
+      break
   }
 
   return normalized
