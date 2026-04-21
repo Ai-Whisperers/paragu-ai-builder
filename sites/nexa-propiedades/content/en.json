@@ -74,7 +74,7 @@
   "contact": {
     "title": "Contact",
     "subtitle": "We are here to help you",
-    "phone": "+595 981 234 567",
+    "phone": "+595 982 515 138",
     "email": "info@nexapropiedades.com",
     "address": "Av. Aviadores del Chaco 1234, Asunción",
     "hours": "Monday to Friday: 9:00 - 18:00"
@@ -118,11 +118,11 @@
     "businessName": "Nexa Propiedades",
     "tagline": "Your trusted real estate partner",
     "address": "Av. Aviadores del Chaco 1234, Asunción, Paraguay",
-    "phone": "+595 981 234 567",
+    "phone": "+595 982 515 138",
     "email": "info@nexapropiedades.com"
   },
   "whatsapp": {
-    "phone": "+595 981 234 567",
+    "phone": "+595 982 515 138",
     "message": "Hello, I'm interested in learning more about available properties."
   },
   "propertiesPage": {
@@ -218,7 +218,7 @@
     },
     "contact": {
       "title": "Contact Information",
-      "phone": "+595 981 234 567",
+      "phone": "+595 982 515 138",
       "email": "info@nexapropiedades.com",
       "address": "Av. Aviadores del Chaco 1234, Asunción"
     }
