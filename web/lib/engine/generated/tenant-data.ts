@@ -21993,7 +21993,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Territorialsystem",
               "Offene Wirtschaft"
             ],
-            "description": "Stetiges Wachstum, kontrollierte Inflation, {{taxRate}} Einkommensteuer, Territorialsystem.",
+            "description": "BIP-Wachstum 4,2 % in 2023. 10 % IRE-Körperschaftssteuer. 2,1 % Inflation. Territoriales System — ausländische Einkünfte bleiben unbesteuert.",
             "icon": "TrendingUp",
             "imageUrl": "@src:whyParaguay.economic",
             "title": "Wirtschaftliches Umfeld"
@@ -22004,7 +22004,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Führende Agroindustrie",
               "Junges Gründer-Ökosystem"
             ],
-            "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.",
+            "description": "Keine Kapitalverkehrskontrollen. FDI in allen Sektoren offen. Premium-Immobilien in Asunción +30 % in 5 Jahren.",
             "icon": "Building2",
             "imageUrl": "@src:whyParaguay.investment",
             "title": "Investitionsmöglichkeiten"
@@ -22015,43 +22015,43 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Internationale Community",
               "Persönliche Sicherheit"
             ],
-            "description": "Warmes Klima, wachsende internationale Community, erhebliche Kaufkraft.",
+            "description": "30–50 % niedrigere Lebenshaltungskosten als Berlin oder Madrid. USD 4.000/Monat reicht für Familie, Privatschule und Haushaltshilfe.",
             "icon": "Heart",
             "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Lebensqualität"
           },
           {
-            "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+            "description": "10 % IRE seit 2020 (Gesetz 6380). Stabiles Territorialsystem über politische Zyklen hinweg. Doppelbesteuerungsabkommen mit Spanien, Chile, Taiwan.",
             "icon": "Landmark",
             "imageUrl": "@src:whyParaguay.tax",
             "title": "Steuerliche Stabilität"
           },
           {
-            "description": "Kontinuierliches BIP-Wachstum und sichtbare Stadtentwicklung in Asunción.",
+            "description": "BIP-Wachstum 4–5 % jährlich 2021–2024. Bausektor +12 %. Aktiver Infrastrukturausbau.",
             "icon": "LineChart",
             "imageUrl": "@src:whyParaguay.growth",
             "title": "Wachstumsdynamik"
           },
           {
-            "description": "Einer der weltweit führenden Exporteure von Soja und Rindfleisch, mit aktiven Landmärkten.",
+            "description": "Viertgrößter Soja-Exporteur weltweit. Großer Rindfleisch-Exporteur. ~100.000 Hektar Landtransaktionen pro Jahr.",
             "icon": "Wheat",
             "imageUrl": "@src:whyParaguay.agribusiness",
             "title": "Agrarwirtschaft"
           },
           {
-            "description": "Wachsende Community aus Expats und Investoren, die lokale Kenntnisse teilen.",
+            "description": "Etablierte deutsche, spanische, italienische und niederländische Gemeinschaften. 5.000+ Europäer in den letzten zehn Jahren umgezogen.",
             "icon": "Users",
             "imageUrl": "@src:whyParaguay.community",
             "title": "Internationale Community"
           },
           {
-            "description": "Zugängliche Parks und Landschaften ohne den Lärm überfüllter Hauptstädte.",
+            "description": "25 Millionen Hektar Chaco-Wildnis. 5 Nationalparks innerhalb von 200 km um Asunción. Niedrige Bevölkerungsdichte außerhalb der Hauptstadt.",
             "icon": "TreePine",
             "imageUrl": "@src:whyParaguay.nature",
             "title": "Natur und Grünflächen"
           },
           {
-            "description": "Tereré, Chipa, herzliche Gastfreundschaft — Details, die Paraguay langfristig lebenswert machen.",
+            "description": "Zweisprachige spanisch + guaraní-Kultur. Mordrate deutlich unter Buenos Aires oder São Paulo.",
             "icon": "Coffee",
             "imageUrl": "@src:whyParaguay.culture",
             "title": "Kultur und Alltag"
@@ -23931,55 +23931,55 @@ export const CONTENT: Record<string, JsonRecord> = {
         "eyebrow": "Why Paraguay",
         "pillars": [
           {
-            "description": "Sustained growth, controlled inflation, 10% income tax, territorial system.",
+            "description": "4.2% GDP growth in 2023. 10% IRE corporate tax. 2.1% inflation. Territorial system — foreign income not taxed locally.",
             "icon": "TrendingUp",
             "imageUrl": "@src:whyParaguay.economic",
             "title": "Economic environment"
           },
           {
-            "description": "Developing real estate market, strong agribusiness, open economy.",
+            "description": "No capital controls. FDI open to all sectors. Real estate in premium Asunción zones up ~30% in 5 years.",
             "icon": "Building2",
             "imageUrl": "@src:whyParaguay.investment",
             "title": "Investment opportunities"
           },
           {
-            "description": "Warm climate, growing international community, significant purchasing power.",
+            "description": "30–50% lower cost of living than Berlin or Madrid. USD 4,000/month covers family, private school, and help at home.",
             "icon": "Heart",
             "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Quality of life"
           },
           {
-            "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+            "description": "10% IRE since 2020 (Ley 6380). Territorial system stable across political cycles. Double-tax treaties with Spain, Chile, Taiwan.",
             "icon": "Landmark",
             "imageUrl": "@src:whyParaguay.tax",
             "title": "Tax stability"
           },
           {
-            "description": "Consistent GDP growth and visible urban development across Asunción.",
+            "description": "4–5% annual GDP growth 2021–2024. Construction sector growing at 12%+. Infrastructure build-out active.",
             "icon": "LineChart",
             "imageUrl": "@src:whyParaguay.growth",
             "title": "Growth trajectory"
           },
           {
-            "description": "One of the world's leading exporters of soy and beef with active land markets.",
+            "description": "4th largest soy exporter globally. Major beef exporter. ~100,000 hectares in land transactions yearly.",
             "icon": "Wheat",
             "imageUrl": "@src:whyParaguay.agribusiness",
             "title": "Agribusiness powerhouse"
           },
           {
-            "description": "A growing community of expats and investors sharing know-how on the ground.",
+            "description": "Established German, Spanish, Italian and Dutch communities. 5,000+ Europeans relocated in the past decade.",
             "icon": "Users",
             "imageUrl": "@src:whyParaguay.community",
             "title": "International community"
           },
           {
-            "description": "Accessible parks and landscapes without the noise of saturated capitals.",
+            "description": "25M hectares of Chaco wilderness. 5 national parks within 200km of Asunción. Low population density outside the capital.",
             "icon": "TreePine",
             "imageUrl": "@src:whyParaguay.nature",
             "title": "Nature and green space"
           },
           {
-            "description": "Tereré, chipa, warm hospitality — details that make Paraguay livable long term.",
+            "description": "Bilingual Spanish + Guaraní culture. Homicide rate materially lower than Buenos Aires or São Paulo.",
             "icon": "Coffee",
             "imageUrl": "@src:whyParaguay.culture",
             "title": "Culture and daily life"
@@ -25865,7 +25865,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Sistema territorial",
               "Economía abierta"
             ],
-            "description": "Crecimiento sostenido, inflación controlada, impuesto del {{taxRate}} sobre la renta, sistema territorial.",
+            "description": "Crecimiento PBI 4,2% en 2023. IRE 10%. Inflación 2,1%. Sistema territorial — la renta extranjera no tributa localmente.",
             "icon": "TrendingUp",
             "imageUrl": "@src:whyParaguay.economic",
             "title": "Entorno económico"
@@ -25876,7 +25876,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Agroindustria líder",
               "Ecosistema emprendedor joven"
             ],
-            "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
+            "description": "Sin control de cambios. IED abierta a todos los sectores. Propiedades en zonas premium de Asunción +30% en 5 años.",
             "icon": "Building2",
             "imageUrl": "@src:whyParaguay.investment",
             "title": "Oportunidades de inversión"
@@ -25887,43 +25887,43 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Comunidad internacional",
               "Seguridad personal"
             ],
-            "description": "Clima cálido, comunidad internacional creciente, poder adquisitivo significativo.",
+            "description": "30–50% menos costo de vida que Berlín o Madrid. USD 4.000/mes cubre familia, escuela privada y ayuda doméstica.",
             "icon": "Heart",
             "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Calidad de vida"
           },
           {
-            "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+            "description": "IRE 10% desde 2020 (Ley 6380). Sistema territorial estable entre ciclos políticos. Tratados de doble imposición con España, Chile, Taiwán.",
             "icon": "Landmark",
             "imageUrl": "@src:whyParaguay.tax",
             "title": "Estabilidad fiscal"
           },
           {
-            "description": "Crecimiento del PIB consistente y desarrollo urbano visible en Asunción.",
+            "description": "PBI creciendo 4–5% anual 2021–2024. Sector construcción +12% anual. Inversión en infraestructura activa.",
             "icon": "LineChart",
             "imageUrl": "@src:whyParaguay.growth",
             "title": "Trayectoria de crecimiento"
           },
           {
-            "description": "Uno de los mayores exportadores mundiales de soja y carne, con mercados activos de tierras.",
+            "description": "4.º exportador mundial de soja. Gran exportador de carne. ~100.000 hectáreas transadas por año.",
             "icon": "Wheat",
             "imageUrl": "@src:whyParaguay.agribusiness",
             "title": "Potencia agroindustrial"
           },
           {
-            "description": "Comunidad creciente de expatriados e inversionistas que comparten conocimiento en terreno.",
+            "description": "Comunidades alemana, española, italiana y holandesa establecidas. +5.000 europeos radicados en la última década.",
             "icon": "Users",
             "imageUrl": "@src:whyParaguay.community",
             "title": "Comunidad internacional"
           },
           {
-            "description": "Parques y paisajes accesibles sin el ruido de las capitales saturadas.",
+            "description": "25M hectáreas de Chaco. 5 parques nacionales a menos de 200 km de Asunción. Baja densidad fuera de la capital.",
             "icon": "TreePine",
             "imageUrl": "@src:whyParaguay.nature",
             "title": "Naturaleza y espacio verde"
           },
           {
-            "description": "Tereré, chipa, hospitalidad cálida — detalles que hacen Paraguay habitable a largo plazo.",
+            "description": "Cultura bilingüe español + guaraní. Tasa de homicidio muy inferior a Buenos Aires o São Paulo.",
             "icon": "Coffee",
             "imageUrl": "@src:whyParaguay.culture",
             "title": "Cultura y vida diaria"
@@ -27809,7 +27809,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Territoriaal systeem",
               "Open economie"
             ],
-            "description": "Gestage groei, beheerste inflatie, {{taxRate}} inkomstenbelasting, territoriaal systeem.",
+            "description": "BBP-groei 4,2% in 2023. 10% IRE-vennootschapsbelasting. 2,1% inflatie. Territoriaal systeem — buitenlands inkomen niet lokaal belast.",
             "icon": "TrendingUp",
             "imageUrl": "@src:whyParaguay.economic",
             "title": "Economisch klimaat"
@@ -27820,7 +27820,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Toonaangevende agroindustrie",
               "Jong ondernemersklimaat"
             ],
-            "description": "Groeiende vastgoedmarkt, sterke landbouwindustrie, open economie.",
+            "description": "Geen kapitaalcontroles. FDI open voor alle sectoren. Premium-vastgoed in Asunción +30% in 5 jaar.",
             "icon": "Building2",
             "imageUrl": "@src:whyParaguay.investment",
             "title": "Investeringskansen"
@@ -27831,43 +27831,43 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Internationale community",
               "Persoonlijke veiligheid"
             ],
-            "description": "Warm klimaat, groeiende internationale gemeenschap, aanzienlijke koopkracht.",
+            "description": "30–50% lagere levenskosten dan Berlijn of Madrid. USD 4.000/maand dekt gezin, privéschool en huishoudelijke hulp.",
             "icon": "Heart",
             "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Levenskwaliteit"
           },
           {
-            "description": "Territoriaal belastingstelsel met transparante regels en voorspelbaar fiscaal klimaat.",
+            "description": "10% IRE sinds 2020 (Wet 6380). Stabiel territoriaal systeem over politieke cycli heen. Dubbele-belastingverdragen met Spanje, Chili, Taiwan.",
             "icon": "Landmark",
             "imageUrl": "@src:whyParaguay.tax",
             "title": "Fiscale stabiliteit"
           },
           {
-            "description": "Gestage BBP-groei en zichtbare stedelijke ontwikkeling in Asunción.",
+            "description": "BBP-groei 4–5% per jaar 2021–2024. Bouwsector +12%. Actieve infrastructuuruitbouw.",
             "icon": "LineChart",
             "imageUrl": "@src:whyParaguay.growth",
             "title": "Groeiperspectief"
           },
           {
-            "description": "Een van 's werelds grootste exporteurs van soja en rundvlees, met actieve landmarkten.",
+            "description": "4e grootste soja-exporteur ter wereld. Grote rundvlees-exporteur. ~100.000 hectare landtransacties per jaar.",
             "icon": "Wheat",
             "imageUrl": "@src:whyParaguay.agribusiness",
             "title": "Agro-industrie"
           },
           {
-            "description": "Groeiende community van expats en investeerders die lokale kennis delen.",
+            "description": "Gevestigde Duitse, Spaanse, Italiaanse en Nederlandse gemeenschappen. 5.000+ Europeanen verhuisd in het afgelopen decennium.",
             "icon": "Users",
             "imageUrl": "@src:whyParaguay.community",
             "title": "Internationale gemeenschap"
           },
           {
-            "description": "Toegankelijke parken en landschappen zonder het gedruis van overvolle hoofdsteden.",
+            "description": "25 miljoen hectare Chaco-wildernis. 5 nationale parken binnen 200 km van Asunción. Lage bevolkingsdichtheid buiten de hoofdstad.",
             "icon": "TreePine",
             "imageUrl": "@src:whyParaguay.nature",
             "title": "Natuur en groene ruimte"
           },
           {
-            "description": "Tereré, chipa, warme gastvrijheid — details die Paraguay op lange termijn leefbaar maken.",
+            "description": "Tweetalige Spaans + Guaraní cultuur. Moordcijfer aanzienlijk lager dan Buenos Aires of São Paulo.",
             "icon": "Coffee",
             "imageUrl": "@src:whyParaguay.culture",
             "title": "Cultuur en dagelijks leven"

@@ -450,7 +450,7 @@
         {
           "icon": "TrendingUp",
           "title": "Entorno económico",
-          "description": "Crecimiento sostenido, inflación controlada, impuesto del {{taxRate}} sobre la renta, sistema territorial.",
+          "description": "Crecimiento PBI 4,2% en 2023. IRE 10%. Inflación 2,1%. Sistema territorial — la renta extranjera no tributa localmente.",
           "bullets": [
             "Impuesto corporativo {{taxRate}}",
             "Sistema territorial",
@@ -461,7 +461,7 @@
         {
           "icon": "Building2",
           "title": "Oportunidades de inversión",
-          "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
+          "description": "Sin control de cambios. IED abierta a todos los sectores. Propiedades en zonas premium de Asunción +30% en 5 años.",
           "bullets": [
             "Inmobiliario en expansión",
             "Agroindustria líder",
@@ -472,7 +472,7 @@
         {
           "icon": "Heart",
           "title": "Calidad de vida",
-          "description": "Clima cálido, comunidad internacional creciente, poder adquisitivo significativo.",
+          "description": "30–50% menos costo de vida que Berlín o Madrid. USD 4.000/mes cubre familia, escuela privada y ayuda doméstica.",
           "bullets": [
             "Costo de vida favorable",
             "Comunidad internacional",
@@ -483,37 +483,37 @@
         {
           "icon": "Landmark",
           "title": "Estabilidad fiscal",
-          "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+          "description": "IRE 10% desde 2020 (Ley 6380). Sistema territorial estable entre ciclos políticos. Tratados de doble imposición con España, Chile, Taiwán.",
           "imageUrl": "@src:whyParaguay.tax"
         },
         {
           "icon": "LineChart",
           "title": "Trayectoria de crecimiento",
-          "description": "Crecimiento del PIB consistente y desarrollo urbano visible en Asunción.",
+          "description": "PBI creciendo 4–5% anual 2021–2024. Sector construcción +12% anual. Inversión en infraestructura activa.",
           "imageUrl": "@src:whyParaguay.growth"
         },
         {
           "icon": "Wheat",
           "title": "Potencia agroindustrial",
-          "description": "Uno de los mayores exportadores mundiales de soja y carne, con mercados activos de tierras.",
+          "description": "4.º exportador mundial de soja. Gran exportador de carne. ~100.000 hectáreas transadas por año.",
           "imageUrl": "@src:whyParaguay.agribusiness"
         },
         {
           "icon": "Users",
           "title": "Comunidad internacional",
-          "description": "Comunidad creciente de expatriados e inversionistas que comparten conocimiento en terreno.",
+          "description": "Comunidades alemana, española, italiana y holandesa establecidas. +5.000 europeos radicados en la última década.",
           "imageUrl": "@src:whyParaguay.community"
         },
         {
           "icon": "TreePine",
           "title": "Naturaleza y espacio verde",
-          "description": "Parques y paisajes accesibles sin el ruido de las capitales saturadas.",
+          "description": "25M hectáreas de Chaco. 5 parques nacionales a menos de 200 km de Asunción. Baja densidad fuera de la capital.",
           "imageUrl": "@src:whyParaguay.nature"
         },
         {
           "icon": "Coffee",
           "title": "Cultura y vida diaria",
-          "description": "Tereré, chipa, hospitalidad cálida — detalles que hacen Paraguay habitable a largo plazo.",
+          "description": "Cultura bilingüe español + guaraní. Tasa de homicidio muy inferior a Buenos Aires o São Paulo.",
           "imageUrl": "@src:whyParaguay.culture"
         }
       ]

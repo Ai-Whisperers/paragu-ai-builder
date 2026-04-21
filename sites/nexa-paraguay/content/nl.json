@@ -451,7 +451,7 @@
         {
           "icon": "TrendingUp",
           "title": "Economisch klimaat",
-          "description": "Gestage groei, beheerste inflatie, {{taxRate}} inkomstenbelasting, territoriaal systeem.",
+          "description": "BBP-groei 4,2% in 2023. 10% IRE-vennootschapsbelasting. 2,1% inflatie. Territoriaal systeem — buitenlands inkomen niet lokaal belast.",
           "bullets": [
             "Vennootschapsbelasting {{taxRate}}",
             "Territoriaal systeem",
@@ -462,7 +462,7 @@
         {
           "icon": "Building2",
           "title": "Investeringskansen",
-          "description": "Groeiende vastgoedmarkt, sterke landbouwindustrie, open economie.",
+          "description": "Geen kapitaalcontroles. FDI open voor alle sectoren. Premium-vastgoed in Asunción +30% in 5 jaar.",
           "bullets": [
             "Groeiend vastgoed",
             "Toonaangevende agroindustrie",
@@ -473,7 +473,7 @@
         {
           "icon": "Heart",
           "title": "Levenskwaliteit",
-          "description": "Warm klimaat, groeiende internationale gemeenschap, aanzienlijke koopkracht.",
+          "description": "30–50% lagere levenskosten dan Berlijn of Madrid. USD 4.000/maand dekt gezin, privéschool en huishoudelijke hulp.",
           "bullets": [
             "Gunstige levenskosten",
             "Internationale community",
@@ -484,37 +484,37 @@
         {
           "icon": "Landmark",
           "title": "Fiscale stabiliteit",
-          "description": "Territoriaal belastingstelsel met transparante regels en voorspelbaar fiscaal klimaat.",
+          "description": "10% IRE sinds 2020 (Wet 6380). Stabiel territoriaal systeem over politieke cycli heen. Dubbele-belastingverdragen met Spanje, Chili, Taiwan.",
           "imageUrl": "@src:whyParaguay.tax"
         },
         {
           "icon": "LineChart",
           "title": "Groeiperspectief",
-          "description": "Gestage BBP-groei en zichtbare stedelijke ontwikkeling in Asunción.",
+          "description": "BBP-groei 4–5% per jaar 2021–2024. Bouwsector +12%. Actieve infrastructuuruitbouw.",
           "imageUrl": "@src:whyParaguay.growth"
         },
         {
           "icon": "Wheat",
           "title": "Agro-industrie",
-          "description": "Een van 's werelds grootste exporteurs van soja en rundvlees, met actieve landmarkten.",
+          "description": "4e grootste soja-exporteur ter wereld. Grote rundvlees-exporteur. ~100.000 hectare landtransacties per jaar.",
           "imageUrl": "@src:whyParaguay.agribusiness"
         },
         {
           "icon": "Users",
           "title": "Internationale gemeenschap",
-          "description": "Groeiende community van expats en investeerders die lokale kennis delen.",
+          "description": "Gevestigde Duitse, Spaanse, Italiaanse en Nederlandse gemeenschappen. 5.000+ Europeanen verhuisd in het afgelopen decennium.",
           "imageUrl": "@src:whyParaguay.community"
         },
         {
           "icon": "TreePine",
           "title": "Natuur en groene ruimte",
-          "description": "Toegankelijke parken en landschappen zonder het gedruis van overvolle hoofdsteden.",
+          "description": "25 miljoen hectare Chaco-wildernis. 5 nationale parken binnen 200 km van Asunción. Lage bevolkingsdichtheid buiten de hoofdstad.",
           "imageUrl": "@src:whyParaguay.nature"
         },
         {
           "icon": "Coffee",
           "title": "Cultuur en dagelijks leven",
-          "description": "Tereré, chipa, warme gastvrijheid — details die Paraguay op lange termijn leefbaar maken.",
+          "description": "Tweetalige Spaans + Guaraní cultuur. Moordcijfer aanzienlijk lager dan Buenos Aires of São Paulo.",
           "imageUrl": "@src:whyParaguay.culture"
         }
       ]
