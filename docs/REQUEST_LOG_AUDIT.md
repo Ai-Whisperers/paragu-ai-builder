@@ -43,10 +43,12 @@ to the "Wrapped routes" table.
 | `app/api/admin/daily-metrics/route.ts` | PR #144 | Fixed broken `if (!authHeader?.startsWith('Bearer '))` check (validated nothing) → `checkAdmin()`. Plus module-scoped Supabase client cache per ADR 0006. |
 | `app/api/reminders/route.ts` | PR #145 | All 4 methods unauth → `checkAdmin()`. Dropped dead `ReminderScheduler` instance. |
 | `app/api/analytics/track/route.ts` | PR #145 | POST stays public (browser ingest). GET had the same broken `Bearer <anything>` pattern → `checkAdmin()`. |
+| `app/api/outreach/track/route.ts` | This PR | Added by parallel agent unauthenticated. Route mutates `leads.status` to 'contacted' on `whatsapp_sent` events — anonymous attackers could flip any lead's status by knowing its UUID. Now `checkAdmin()`. |
+| `app/api/leads/[id]/generate-preview/route.ts` | This PR | Added by parallel agent unauthenticated. Writes files to `sites/preview-<id>/` + mutates `leads.status` to 'demo_ready'. Anonymous disk-write attack surface. Now `checkAdmin()`. |
 
 ## Hidden security finds during the audit
 
-The wrap-every-route exercise surfaced 3 real broken-auth bugs that
+The wrap-every-route exercise surfaced 5 real broken-auth bugs that
 the original audit didn't flag:
 
 1. **`bulk-update`** — accepted any signed-in Supabase user (any
@@ -55,6 +57,12 @@ the original audit didn't flag:
    Bearer foo` (validated NOTHING). Fixed PR #144.
 3. **`analytics/track` GET** — same broken Bearer pattern, exposed
    the analytics_events dump. Fixed PR #145.
+4. **`outreach/track`** — completely unauthenticated; could mutate
+   any lead's status to 'contacted' just by knowing its UUID. Fixed
+   alongside the wrap.
+5. **`leads/[id]/generate-preview`** — completely unauthenticated;
+   anonymous callers could trigger filesystem writes (`sites/preview-<id>/`)
+   plus a `leads.status = 'demo_ready'` mutation. Fixed alongside the wrap.
 
 Wrap-for-observability ended up doubling as a security audit. Worth
 running similar passes on any future "every route does X" sweeps.

@@ -176,6 +176,13 @@ Closure log:
   for the first week / monthly cadence / what we do NOT do (Instagram,
   ads, logo design) / pricing / cancellation / honest "this isn't magic"
   reminder. In Spanish.
+- **#460 partial #5** — Wrapped 2 NEW unauthenticated routes added by
+  parallel agents and added `checkAdmin()`: `/api/outreach/track` (was
+  letting anonymous callers flip any lead's `status` to 'contacted' via
+  a `whatsapp_sent` event) and `/api/leads/[id]/generate-preview` (was
+  letting anonymous callers trigger filesystem writes to `sites/preview-<id>/`
+  plus mutate `leads.status` to 'demo_ready'). Audit now lists 5 hidden
+  security finds total.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
