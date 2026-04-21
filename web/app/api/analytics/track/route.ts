@@ -3,19 +3,28 @@
  * Win 68: Page view tracking API
  */
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import { logger } from '@/lib/logger'
 
-// Lazy client: creating it at request time (not module top-level) lets
-// `next build` collect page data without Supabase env vars being set.
-// The runtime error only fires when a real request hits without config.
-function getSupabase() {
+// Module-scoped, memoized client. First request pays the init cost (~tens
+// of ms — just wrapper construction, no network); every subsequent request
+// reuses the same instance. Previous implementation created a fresh client
+// per request, which shows up as cold-start latency on the first POST
+// after a container restart.
+//
+// Not memoized at module top-level because `next build` page-data collection
+// runs without Supabase env vars — would throw there.
+let cachedClient: SupabaseClient | null = null
+
+function getSupabase(): SupabaseClient {
+  if (cachedClient) return cachedClient
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY
   if (!url || !key) throw new Error('Missing Supabase credentials')
-  return createClient(url, key, {
+  cachedClient = createClient(url, key, {
     auth: { autoRefreshToken: false, persistSession: false },
   })
+  return cachedClient
 }
 
 // Valid event types
@@ -210,9 +219,12 @@ export async function GET(request: NextRequest) {
 
 // Helper functions
 async function hashIp(ip: string): Promise<string> {
-  // Simple hash for privacy
+  // Salt for k-anonymity. Operator precedence: + binds tighter than ||,
+  // so the previous `ip + process.env.SALT || 'paragu-ai'` always took
+  // the first operand (a non-empty string), making the fallback dead.
+  const salt = process.env.ANALYTICS_SALT || 'paragu-ai'
   const encoder = new TextEncoder()
-  const data = encoder.encode(ip + process.env.ANALYTICS_SALT || 'paragu-ai')
+  const data = encoder.encode(ip + salt)
   const hashBuffer = await crypto.subtle.digest('SHA-256', data)
   const hashArray = Array.from(new Uint8Array(hashBuffer))
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 16)
