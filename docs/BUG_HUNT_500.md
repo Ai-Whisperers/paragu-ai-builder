@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 59 | see closure log below |
+| ✅ Closed | 61 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 441 | the rest |
+| 🔴 Open | 439 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -72,6 +72,12 @@ Closure log:
 - **#414** — `react/jsx-no-target-blank` rule enabled as ERROR in
   `eslint.config.mjs` (next preset turned it off, we override). Codebase
   already clean — zero violations. Prevents reverse-tabnabbing regressions.
+- **#391** — `LOG_LEVEL` and `LOG_FORMAT` env vars documented in
+  `docs/runbooks/ENV_VARS.md` with values, defaults, and where in the
+  code they're read (`web/lib/obs/logger.ts:106,111`).
+- **#388** — `_citiesError` / `_typesError` in `app/admin/leads/page.tsx`
+  were silently swallowed — replaced with explicit `logger.warn` calls
+  per error-handling rules (no more silent failure on filter dropdowns).
 
 ## Blocked on user input
 
