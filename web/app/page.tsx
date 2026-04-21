@@ -604,7 +604,7 @@ export default function HomePage() {
                         <Star key={i} size={16} className="fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <p className="mb-6 text-lg leading-relaxed">"{t.quote}"</p>
+                    <p className="mb-6 text-lg leading-relaxed">&ldquo;{t.quote}&rdquo;</p>
                     <div className="flex items-center gap-3">
                       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-lg font-bold">
                         {t.name.charAt(0)}
@@ -779,18 +779,18 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-gray-900">Producto</h4>
               <ul className="mt-4 space-y-2 text-sm">
-                <li><a href="/p" className="text-gray-600 hover:text-blue-600">Rubros</a></li>
-                <li><a href="/precios" className="text-gray-600 hover:text-blue-600">Precios</a></li>
-                <li><a href="/demo" className="text-gray-600 hover:text-blue-600">Demo</a></li>
+                <li><Link href="/p" className="text-gray-600 hover:text-blue-600">Rubros</Link></li>
+                <li><Link href="/precios" className="text-gray-600 hover:text-blue-600">Precios</Link></li>
+                <li><Link href="/demo" className="text-gray-600 hover:text-blue-600">Demo</Link></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold text-gray-900">Recursos</h4>
               <ul className="mt-4 space-y-2 text-sm">
-                <li><a href="/casos" className="text-gray-600 hover:text-blue-600">Casos</a></li>
-                <li><a href="/blog" className="text-gray-600 hover:text-blue-600">Blog</a></li>
-                <li><a href="/seguridad" className="text-gray-600 hover:text-blue-600">Privacidad</a></li>
+                <li><Link href="/casos" className="text-gray-600 hover:text-blue-600">Casos</Link></li>
+                <li><Link href="/blog" className="text-gray-600 hover:text-blue-600">Blog</Link></li>
+                <li><Link href="/seguridad" className="text-gray-600 hover:text-blue-600">Privacidad</Link></li>
               </ul>
             </div>
 
@@ -807,7 +807,7 @@ export default function HomePage() {
                     WhatsApp
                   </a>
                 </li>
-                <li><a href="/admin" className="text-gray-600 hover:text-blue-600">Acceso clientes</a></li>
+                <li><Link href="/admin" className="text-gray-600 hover:text-blue-600">Acceso clientes</Link></li>
               </ul>
             </div>
           </div>
