@@ -97,7 +97,7 @@
     "title": "Tu carrito esta vacio",
     "text": "Explora nuestras categorias y agrega productos.",
     "ctaText": "Ir a la Tienda",
-    "ctaHref": "/fun4me/store"
+    "ctaHref": "/fun4me/tienda"
   },
   "errors": {
     "payment_declined": "El pago fue rechazado. Probá con otro metodo o contactanos por WhatsApp.",
