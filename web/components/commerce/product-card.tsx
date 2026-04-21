@@ -55,6 +55,15 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
     product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents
       ? Math.round(((product.compareAtPriceCents - product.priceCents) / product.compareAtPriceCents) * 100)
       : null
+  // "Nuevo" badge for anything created in the last 14 days. Parsed lazily to
+  // avoid a `new Date()` during SSR hydration mismatch — createdAt is ISO from
+  // the DB so Date parsing is deterministic.
+  const isNew = (() => {
+    if (!product.createdAt) return false
+    const t = Date.parse(product.createdAt)
+    if (!Number.isFinite(t)) return false
+    return Date.now() - t < 14 * 24 * 60 * 60 * 1000
+  })()
 
   const saved = useSyncExternalStore(
     subscribeWishlist,
@@ -134,6 +143,16 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
           {discount ? (
             <span className="absolute left-2 top-2 rounded bg-red-600 px-2 py-0.5 text-xs font-semibold text-white" aria-label={`Descuento del ${discount} por ciento`}>
               −{discount}%
+            </span>
+          ) : null}
+          {isNew && !discount ? (
+            <span className="absolute left-2 top-2 rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">
+              NUEVO
+            </span>
+          ) : null}
+          {isNew && discount ? (
+            <span className="absolute left-2 top-9 rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">
+              NUEVO
             </span>
           ) : null}
           {lowStock ? (

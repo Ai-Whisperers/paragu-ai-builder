@@ -10,10 +10,14 @@ interface Props {
   initialSort: ProductSort
   resultCount: number
   totalCount: number
-  /** Active category filter (empty string = all). */
+  /** Active category filter (empty string = all). Deprecated — use initialCategories. */
   initialCategory: string
+  /** Active categories (multi-select). Empty array = all. */
+  initialCategories: string[]
   /** Distinct categories offered (from DB). */
   availableCategories: string[]
+  /** Product counts per category for faceted display. */
+  categoryCounts?: Record<string, number>
   /** Price bounds in cents, active filter (0 = no bound). */
   initialMinPrice: number
   initialMaxPrice: number
@@ -59,7 +63,9 @@ export function TiendaToolbar({
   resultCount,
   totalCount,
   initialCategory,
+  initialCategories,
   availableCategories,
+  categoryCounts,
   initialMinPrice,
   initialMaxPrice,
   initialInStockOnly,
@@ -104,6 +110,14 @@ export function TiendaToolbar({
     pushParams({ min: cleanMin || null, max: cleanMax || null })
   }
 
+  function toggleCategory(cat: string) {
+    const set = new Set(initialCategories)
+    if (set.has(cat)) set.delete(cat)
+    else set.add(cat)
+    const next = Array.from(set)
+    pushParams({ category: next.length === 0 ? null : next.join(',') })
+  }
+
   function clearAll() {
     setQuery('')
     setMinPrice('')
@@ -124,11 +138,14 @@ export function TiendaToolbar({
       },
     })
   }
-  if (initialCategory) {
+  for (const cat of initialCategories) {
     activeFilters.push({
-      key: 'category',
-      label: initialCategory,
-      clear: () => pushParams({ category: null }),
+      key: `category:${cat}`,
+      label: cat,
+      clear: () => {
+        const next = initialCategories.filter((c) => c !== cat)
+        pushParams({ category: next.length === 0 ? null : next.join(',') })
+      },
     })
   }
   if (initialMinPrice || initialMaxPrice) {
@@ -242,30 +259,37 @@ export function TiendaToolbar({
           <button
             type="button"
             onClick={() => pushParams({ category: null })}
-            aria-pressed={!initialCategory}
+            aria-pressed={initialCategories.length === 0}
             className={`rounded-full border px-3 py-1 text-xs ${
-              !initialCategory
+              initialCategories.length === 0
                 ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
                 : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
             }`}
           >
             Todo
           </button>
-          {availableCategories.map((cat) => (
-            <button
-              key={cat}
-              type="button"
-              onClick={() => pushParams({ category: cat })}
-              aria-pressed={initialCategory === cat}
-              className={`rounded-full border px-3 py-1 text-xs capitalize ${
-                initialCategory === cat
-                  ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                  : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
+          {availableCategories.map((cat) => {
+            const count = categoryCounts?.[cat]
+            const active = initialCategories.includes(cat)
+            return (
+              <button
+                key={cat}
+                type="button"
+                onClick={() => toggleCategory(cat)}
+                aria-pressed={active}
+                className={`rounded-full border px-3 py-1 text-xs capitalize ${
+                  active
+                    ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
+                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                }`}
+              >
+                {cat}
+                {typeof count === 'number' ? (
+                  <span className="ml-1 opacity-70">({count})</span>
+                ) : null}
+              </button>
+            )
+          })}
         </div>
       ) : null}
 
