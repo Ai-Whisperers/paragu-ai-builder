@@ -31,11 +31,23 @@ export function NewProductForm({ businessId }: Props) {
     setSubmitting(true)
     setError(null)
     const form = new FormData(event.currentTarget)
+    const tagsRaw = String(form.get('tags') ?? '').trim()
     const payload = {
       slug: slug || slugify(name),
       name,
       description: String(form.get('description') ?? '') || undefined,
       category: String(form.get('category') ?? '') || undefined,
+      brand: String(form.get('brand') ?? '') || undefined,
+      tags: tagsRaw
+        ? Array.from(
+            new Set(
+              tagsRaw
+                .split(/[,\s]+/)
+                .map((t) => t.trim().toLowerCase())
+                .filter(Boolean),
+            ),
+          )
+        : [],
       priceCents: parseInt(String(form.get('priceCents') ?? '0').replace(/[^0-9]/g, ''), 10),
       inventoryQty: parseInt(String(form.get('inventoryQty') ?? '0'), 10) || 0,
       inventoryPolicy: 'deny' as const,
@@ -84,7 +96,15 @@ export function NewProductForm({ businessId }: Props) {
         <span className="mb-1 block text-xs font-medium text-[color:var(--text-muted,#6b7280)]">Descripción</span>
         <textarea name="description" rows={4} className="w-full rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm" />
       </label>
-      <Field label="Categoría" name="category" placeholder="ej: mujer, hombre, accesorios" />
+      <div className="grid grid-cols-2 gap-4">
+        <Field label="Categoría" name="category" placeholder="ej: mujer, hombre, accesorios" />
+        <Field label="Marca" name="brand" placeholder="Opcional" />
+      </div>
+      <Field
+        label="Etiquetas"
+        name="tags"
+        placeholder="silicona, impermeable, recargable"
+      />
       <div className="grid grid-cols-2 gap-4">
         <Field label="Precio (Gs)" name="priceCents" type="text" placeholder="150000" required />
         <Field label="Stock" name="inventoryQty" type="number" placeholder="10" required />

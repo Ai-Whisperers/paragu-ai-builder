@@ -9,6 +9,8 @@ interface ProductProps {
   name: string
   description: string
   category: string
+  brand: string
+  tags: string[]
   priceCents: number
   inventoryQty: number
   status: 'active' | 'draft' | 'archived'
@@ -31,10 +33,22 @@ export function EditProductForm({ businessId, product }: Props) {
     setSubmitting(true)
     setError(null)
     const form = new FormData(event.currentTarget)
+    const tagsRaw = String(form.get('tags') ?? '').trim()
     const payload = {
       name: String(form.get('name') ?? ''),
       description: String(form.get('description') ?? '') || undefined,
       category: String(form.get('category') ?? '') || undefined,
+      brand: String(form.get('brand') ?? '') || undefined,
+      tags: tagsRaw
+        ? Array.from(
+            new Set(
+              tagsRaw
+                .split(/[,\s]+/)
+                .map((t) => t.trim().toLowerCase())
+                .filter(Boolean),
+            ),
+          )
+        : [],
       priceCents: parseInt(String(form.get('priceCents') ?? '0').replace(/[^0-9]/g, ''), 10),
       inventoryQty: parseInt(String(form.get('inventoryQty') ?? '0'), 10) || 0,
       status: String(form.get('status') ?? 'active') as 'active' | 'draft' | 'archived',
@@ -91,7 +105,16 @@ export function EditProductForm({ businessId, product }: Props) {
           className="w-full rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm"
         />
       </label>
-      <Field label="Categoría" name="category" defaultValue={product.category} />
+      <div className="grid grid-cols-2 gap-4">
+        <Field label="Categoría" name="category" defaultValue={product.category} />
+        <Field label="Marca" name="brand" defaultValue={product.brand} hint="Opcional — habilita el filtro de marca en la tienda." />
+      </div>
+      <Field
+        label="Etiquetas"
+        name="tags"
+        defaultValue={product.tags.join(', ')}
+        hint="Coma-separadas. Ej: silicona, impermeable, recargable. Se usan en los filtros de #Características."
+      />
       <div className="grid grid-cols-2 gap-4">
         <Field label="Precio (Gs)" name="priceCents" defaultValue={String(product.priceCents)} required />
         <Field label="Stock" name="inventoryQty" type="number" defaultValue={String(product.inventoryQty)} required />
