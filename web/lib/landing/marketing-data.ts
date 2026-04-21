@@ -33,7 +33,7 @@ export const TEMPLATES: readonly Template[] = [
   { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: 'Palette', leads: 100, pct: 80, color: '#c44569', demoSlug: 'dayah-litworks', seoHeadline: 'Sitio web para diseñadores gráficos — portfolio profesional en minutos', seoLead: 'Portfolio en grilla, proceso de trabajo, precios en USD o Gs y contacto directo. Ideal para freelancers.' },
   { id: 'pestanas', name: 'Pestañas y Cejas', icon: 'Eye', leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore', seoHeadline: 'Sitio web para pestañas y cejas — catálogo visual y reservas', seoLead: 'Catálogo de estilos, duración del trabajo, precios y turnos por WhatsApp. Optimizado para Instagram.' },
   { id: 'depilacion', name: 'Depilación', icon: 'Zap', leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta', seoHeadline: 'Sitio web para centros de depilación — zonas, precios y turnos', seoLead: 'Zonas por sesión, paquetes, preguntas frecuentes y reservas por WhatsApp en una sola página.' },
-  { id: 'relocation', name: 'Reubicación', icon: 'Globe', leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay', seoHeadline: 'Sitio web para servicios de reubicación — multi-idioma y profesional', seoLead: 'Sitio serio para clientes internacionales, multi-idioma, con proceso de trabajo, casos de éxito y contacto directo.' },
+  { id: 'relocation', name: 'Reubicación', icon: 'Globe', leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexa-paraguay', seoHeadline: 'Sitio web para servicios de reubicación — multi-idioma y profesional', seoLead: 'Sitio serio para clientes internacionales, multi-idioma, con proceso de trabajo, casos de éxito y contacto directo.' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: 'ShoppingCart', leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa', seoHeadline: 'Sitio web para meal prep y entregas — menú semanal y pedidos por WhatsApp', seoLead: 'Menú semanal con precios en Gs, selección de platos y checkout directo por WhatsApp. Listo para escalar.' },
   { id: 'restaurant', name: 'Restaurante', icon: 'UtensilsCrossed', leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria', seoHeadline: 'Sitio web para restaurantes — menú, reservas y pedidos', seoLead: 'Menú digital, galería del local, reservas online o por WhatsApp. Optimizado para mobile.' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: 'Fish', leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi', seoHeadline: 'Sitio web para sushi bar — menú premium y delivery', seoLead: 'Diseño minimal japonés, menú con fotos, delivery por WhatsApp y galería del local.' },
@@ -255,7 +255,7 @@ export const FEATURES = [
   { icon: 'Globe', title: 'Dominio propio', desc: 'Tu URL profesional .com.py con SSL y emails incluidos el primer año.' },
   { icon: 'Search', title: 'SEO integrado', desc: 'Meta tags, Schema.org y contenido optimizado para aparecer en Google desde el día uno.' },
   { icon: 'Smartphone', title: '100% responsive', desc: 'Se ve perfecto en móvil, tablet y desktop. Optimizado para la forma en que miran tus clientes.' },
-  { icon: 'Layers', title: '16 plantillas listas', desc: 'Diseños especializados por rubro, con 7 más en camino. Generados y ajustados por humanos antes de publicar.' },
+  { icon: 'Layers', title: 'Plantillas por rubro', desc: 'Diseños especializados pensados para tu tipo de negocio. Cada cliente arranca con la base correcta y ajustamos a tu marca.' },
 ] as const
 
 export const STEPS = [
@@ -265,7 +265,7 @@ export const STEPS = [
 ] as const
 
 export const SITE_CONFIG = {
-  whatsapp: '595981234567',
+  whatsapp: '595981324569',
   domain: 'paragu-ai.com',
   companyName: 'ParaguAI Builder',
   marketSize: 7463,

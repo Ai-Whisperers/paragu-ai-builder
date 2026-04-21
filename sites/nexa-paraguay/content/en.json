@@ -739,7 +739,7 @@
       "neighborhood": "Centro",
       "city": "Asunción",
       "email": "hola@nexaparaguay.com",
-      "whatsapp": "595000000000"
+      "whatsapp": "595982515138"
     }
   },
   "privacyPage": {
@@ -791,7 +791,7 @@
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
     "email": "hola@nexaparaguay.com",
-    "whatsapp": "595000000000",
+    "whatsapp": "595982515138",
     "instagram": "https://instagram.com/nexaparaguay",
     "navLinks": [
       {
@@ -812,8 +812,51 @@
       }
     ]
   },
+  "complianceDisclaimer": {
+    "paragraphs": [
+      "Nexa Paraguay does not provide legal, tax or investment advice. The programs described are advisory services for immigration and administrative procedures.",
+      "Nexa Paraguay is registered as a reporting entity with SEPRELAD (Paraguayan AML authority) and applies KYC (Know Your Customer) procedures in accordance with current regulations.",
+      "Results depend on individual compliance with requirements and may vary. Information subject to regulatory change."
+    ],
+    "licenseNumbers": [
+      { "label": "SEPRELAD", "number": "Pending registration" }
+    ],
+    "linkText": "Read full AML disclosure",
+    "linkHref": "/s/en/nexa-paraguay/privacidad#aml"
+  },
+  "seprealadAttestation": {
+    "title": "SEPRELAD attestation form",
+    "subtitle": "Before starting corporate incorporation, bank account opening or real-estate acquisition services, please complete this sworn statement.",
+    "submitLabel": "Submit attestation",
+    "successMessage": "Thank you. A compliance officer will contact you within 72 business hours.",
+    "whatsappPhone": "595982515138",
+    "whatsappFallbackLabel": "Questions? Reach us on WhatsApp",
+    "questions": [
+      { "id": "fullName", "kind": "text", "label": "Full legal name (as on ID)", "required": true },
+      { "id": "nationality", "kind": "text", "label": "Nationality", "required": true },
+      { "id": "documentType", "kind": "radio", "label": "Document type", "required": true, "options": [
+        { "value": "passport", "label": "Passport" },
+        { "value": "id", "label": "National ID" },
+        { "value": "other", "label": "Other" }
+      ]},
+      { "id": "economicActivity", "kind": "textarea", "label": "Primary economic activity", "helpText": "Describe your profession or main source of income", "required": true },
+      { "id": "fundsOrigin", "kind": "radio", "label": "Source of funds", "required": true, "options": [
+        { "value": "salary", "label": "Salary / professional fees" },
+        { "value": "business", "label": "Business activity" },
+        { "value": "investment", "label": "Investments / passive income" },
+        { "value": "inheritance", "label": "Inheritance or gift" },
+        { "value": "other", "label": "Other (describe below)" }
+      ]},
+      { "id": "fundsOriginDetail", "kind": "textarea", "label": "Details on source of funds", "helpText": "Expand on the selection above. Nexa will request supporting documents during formal KYC." },
+      { "id": "pep", "kind": "radio", "label": "Are you a Politically Exposed Person (PEP) or a direct family member of one?", "required": true, "options": [
+        { "value": "no", "label": "No" },
+        { "value": "yes", "label": "Yes" }
+      ]},
+      { "id": "truthfulDeclaration", "kind": "checkbox", "label": "I declare under oath that the information is true and authorise Nexa Paraguay to perform the necessary verifications.", "required": true }
+    ]
+  },
   "whatsapp": {
-    "phone": "595000000000",
+    "phone": "595982515138",
     "message": "Hi, I would like to know more about Nexa Paraguay's programs."
   }
 }
