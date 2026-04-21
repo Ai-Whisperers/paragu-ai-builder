@@ -288,6 +288,23 @@ const buildContact: SectionBuilder = ({ business, content }) => {
   }
 }
 
+const buildAgeGate: SectionBuilder = ({ content, registry }) => {
+  // Opt-in via registry.features.ageGate.enabled. Returns null when the
+  // feature is off so a stray `age-gate` section in page config doesn't
+  // render the modal on verticals that don't need it.
+  const feat = (registry.features as { ageGate?: { enabled?: boolean; minAge?: number } } | undefined)?.ageGate
+  if (!feat?.enabled) return null
+  const cfg = (content as { home?: { ageGate?: { title?: string; message?: string; confirmText?: string; denyText?: string; denyHref?: string } } }).home?.ageGate
+  return {
+    title: cfg?.title,
+    message: cfg?.message,
+    confirmText: cfg?.confirmText,
+    denyText: cfg?.denyText,
+    denyHref: cfg?.denyHref,
+    minAge: feat.minAge ?? 18,
+  }
+}
+
 const buildCommerceCatalog: SectionBuilder = ({ business, content }) => {
   // Full DB-backed grid for path-based tenant routes that want the tienda
   // experience inline on a marketing page. The component fetches products
@@ -557,6 +574,7 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   productCatalog: buildProductCatalog,
   featuredProducts: buildFeaturedProducts,
   commerceCatalog: buildCommerceCatalog,
+  ageGate: buildAgeGate,
   gallery: buildGallery,
   team: buildTeam,
   testimonials: buildTestimonials,

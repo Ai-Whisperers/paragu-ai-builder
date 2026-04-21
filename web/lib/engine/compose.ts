@@ -41,6 +41,7 @@ export type SectionType =
   | 'productCatalog'
   | 'featuredProducts'
   | 'commerceCatalog'
+  | 'ageGate'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -370,6 +371,8 @@ export const SECTION_MAP: Record<string, SectionType> = {
   'featured-products': 'featuredProducts',
   commerceCatalog: 'commerceCatalog',
   'commerce-catalog': 'commerceCatalog',
+  ageGate: 'ageGate',
+  'age-gate': 'ageGate',
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
