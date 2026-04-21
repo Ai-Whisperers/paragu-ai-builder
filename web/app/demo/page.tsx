@@ -15,7 +15,7 @@ export default function DemoPage() {
   return (
     <>
       <SiteNav />
-      <main className="pt-24 pb-20">
+      <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-10 max-w-2xl text-center">
             <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">

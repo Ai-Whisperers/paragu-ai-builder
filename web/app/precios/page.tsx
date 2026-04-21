@@ -51,7 +51,7 @@ export default function PreciosPage() {
     <>
       <SiteNav />
 
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="pt-32 pb-12 md:pt-40">
           <Container>

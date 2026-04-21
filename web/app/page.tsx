@@ -513,7 +513,7 @@ export default function HomePage() {
       />
       <Navigation />
 
-      <main>
+      <main id="main-content">
         {/* ── Hero ──────────────────────────────────────────────── */}
         <section className="relative min-h-screen overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
           <div className="absolute inset-0 -z-10">
