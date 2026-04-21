@@ -320,6 +320,7 @@ export const BUSINESS_SCOPED_TABLES = [
   'discounts',
   'discount_redemptions',
   'cart_recovery_touches',
+  'business_payment_credentials',
 ] as const
 
 export type BusinessScopedTable = (typeof BUSINESS_SCOPED_TABLES)[number]
