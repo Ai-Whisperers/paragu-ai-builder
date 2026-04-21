@@ -13,9 +13,9 @@ export const pagoparAdapter: PaymentProviderAdapter = {
     const { publicToken, privateToken } = getPagoparTokens()
     const cancelUrl = opts.returnUrl.replace(/([?&])status=\w+/, '') + (opts.returnUrl.includes('?') ? '&' : '?') + 'status=failure'
 
-    // Commission is loaded inside the adapter so the router/failover never
+    // Commission is loaded INSIDE the adapter so the router/failover never
     // needs to know about billing rules. Failures fall back to "no commission"
-    // rather than blocking the sale — better to miss a fee than lose a sale.
+    // rather than blocking the sale — better to miss a fee than to lose a sale.
     let commission
     try {
       commission = await loadCommissionConfig(order.businessId)
