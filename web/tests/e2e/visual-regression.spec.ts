@@ -14,7 +14,6 @@ import { test, expect } from '@playwright/test'
 const TENANTS = [
   { slug: 'nexa-paraguay', path: '/s/es/nexa-paraguay', label: 'nexa-paraguay-es' },
   { slug: 'nexa-paraguay', path: '/s/en/nexa-paraguay', label: 'nexa-paraguay-en' },
-  { slug: 'nexa-uruguay', path: '/s/es/nexa-uruguay', label: 'nexa-uruguay-es' },
   { slug: 'nexa-propiedades', path: '/s/es/nexa-propiedades', label: 'nexa-propiedades' },
   { slug: 'dayah-litworks', path: '/dayah-litworks', label: 'dayah-litworks' },
   { slug: 'de-abasto-a-casa', path: '/de-abasto-a-casa', label: 'de-abasto-a-casa' },

@@ -81,15 +81,6 @@ export const REAL_CLIENTS: readonly RealClient[] = [
     summary: 'Listado de propiedades, buscador por zona y contacto por WhatsApp. Reusa la infraestructura de Nexa.',
   },
   {
-    slug: 'nexa-uruguay',
-    name: 'Nexa Uruguay',
-    tagline: 'Reubicación Europa → Uruguay',
-    vertical: 'Relocation · replicado en días',
-    href: '/s/es/nexa-uruguay',
-    color: '#5b8bc9',
-    summary: 'Réplica del sitio de Nexa Paraguay adaptada a Uruguay. De decisión a producción en días, no meses.',
-  },
-  {
     slug: 'dayah-litworks',
     name: 'Dayah Litworks',
     tagline: 'Diseño de tapas de libros',

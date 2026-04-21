@@ -22,11 +22,6 @@ const SITES = [
     imagesDir: 'sites/nexa-paraguay/images'
   },
   {
-    name: 'nexa-uruguay',
-    contentFile: 'sites/nexa-uruguay/content/es.json',
-    imagesDir: 'sites/nexa-uruguay/images'
-  },
-  {
     name: 'nexa-propiedades',
     contentFile: 'sites/nexa-propiedades/content/es.json',
     imagesDir: 'sites/nexa-propiedades/images'

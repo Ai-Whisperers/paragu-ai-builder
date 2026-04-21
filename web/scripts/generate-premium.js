@@ -136,13 +136,6 @@ const HERO_IMAGES = [
     height: 1080
   },
   {
-    id: 'nexa-uruguay-hero-bg',
-    filename: '../nexa-uruguay/images/nexa-uruguay-hero-bg.jpg',
-    prompt: 'Cinematic breathtaking panoramic photograph of Montevideo Uruguay skyline at sunset, showing iconic Palacio Salvo and modern Torres Nauticas along the Rambla. Golden hour light reflecting on Rio de la Plata, dramatic sky with pink and orange clouds. World-class cityscape photography, cinematic composition, ultra-wide angle, 8K ultra-detailed',
-    width: 1920,
-    height: 1080
-  },
-  {
     id: 'nexa-propiedades-hero-bg',
     filename: '../nexa-propiedades/images/nexa-propiedades-hero-bg.jpg',
     prompt: 'Cinematic stunning luxury modern house exterior in premium Asunción Paraguay neighborhood, contemporary architecture with clean lines, large glass windows reflecting blue sky, infinity swimming pool with crystal clear water, manicured tropical garden with palm trees. Golden hour lighting, aspirational luxury lifestyle. Professional real estate photography, wide angle, 8K ultra-detailed, magazine quality',

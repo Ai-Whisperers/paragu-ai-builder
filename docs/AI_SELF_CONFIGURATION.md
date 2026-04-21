@@ -340,12 +340,6 @@ const TENANT_CONFIGS = {
     contentStructure: 'full-relocation'
   },
   
-  'nexa-uruguay': {
-    vertical: 'relocacion',
-    locales: ['en', 'es'],
-    features: { testimonials: true, blog: true },
-    contentStructure: 'full-relocation'
-  },
   
   'nexa-propiedades': {
     vertical: 'inmobiliaria',
@@ -409,7 +403,6 @@ Stage 3: Build Verification (120 seconds)
 ```bash
 # Test specific tenant sites
 curl -s http://localhost:3000/s/es/nexa-propiedades | grep -i error
-curl -s http://localhost:3000/s/en/nexa-uruguay | grep -i error
 curl -s http://localhost:3000/s/nl/nexa-paraguay | grep -i error
 
 # Test business demo sites

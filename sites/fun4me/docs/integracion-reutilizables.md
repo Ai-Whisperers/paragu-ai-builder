@@ -68,10 +68,10 @@ array de `src/verticals/retail-local/vertical.json`.
 
 | Sección | De dónde viene | Aplicación en fun4me | Effort | Recomendación |
 |---------|----------------|----------------------|--------|---------------|
-| **why-destination** (3-col) | nexa-paraguay, nexa-uruguay | "¿Por qué fun4me?" — 3 columnas: "Discreto" / "Seguro" / "Rápido" — alternativa al hero genérico | 1h | **SÍ** |
+| **why-destination** (3-col) | nexa-paraguay | "¿Por qué fun4me?" — 3 columnas: "Discreto" / "Seguro" / "Rápido" — alternativa al hero genérico | 1h | **SÍ** |
 | **process-timeline** (vertical) | nexa-paraguay | "Así funciona tu pedido": elegís → pagás → empacamos discreto → llega a tu puerta. Idéntico a /proceso de nexa pero semantizado al flujo de tienda | 1.5h | **SÍ** |
 | **enhanced-faq** (searchable) | granja-cabral | La FAQ de fun4me ya tiene 15+ entries — añadir search mejora UX sin rehacer contenido | 30min | **SÍ** |
-| **programs-comparison** (matrix) | nexa-paraguay, nexa-uruguay | Tabla de comparación para /suscripciones y /placer-plus — hoy son solo cards | 2h | **SÍ** |
+| **programs-comparison** (matrix) | nexa-paraguay | Tabla de comparación para /suscripciones y /placer-plus — hoy son solo cards | 2h | **SÍ** |
 | **our-story** (narrative) | granja-cabral | Brand story en /quienes-somos — fun4me hoy solo tiene hero+CTA ahí | 1h | **SÍ si cliente da texto** |
 | **compliance-disclaimer-footer** | nexa-paraguay | Aviso legal "sólo adultos / jurisdicción PY" visible en todas las páginas además del age-gate | 30min | **SÍ** |
 | **newsletter-signup** | Plataforma base | Captura de email con consentimiento para marketing — footer o popup post-compra | 45min | **SÍ** |

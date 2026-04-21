@@ -43,24 +43,6 @@ export const CASE_STUDIES: readonly CaseStudy[] = [
     liveUrl: '/s/es/nexa-paraguay',
   },
   {
-    slug: 'nexa-uruguay',
-    vertical: 'Reubicación · replicado en días',
-    headline: 'Nexa Uruguay: réplica de Nexa Paraguay en cuestión de días, no meses',
-    lead:
-      'Una vez funcionando Nexa Paraguay, expandirse a Uruguay no fue empezar de cero. Reusamos plantilla, idiomas y flujos — solo cambiamos el contenido específico del país.',
-    period: '2026 · Q1',
-    outcomes: [
-      'De decisión a producción en días, no meses',
-      'Misma arquitectura multi-idioma sin re-implementar nada',
-      'Cero costo extra de mantenimiento por sitio adicional',
-    ],
-    challenge:
-      'Mantener la calidad y consistencia de Nexa Paraguay en un segundo país, sin duplicar el esfuerzo de ingeniería ni romper el sitio original.',
-    approach:
-      'La capa de tenants de ParaguAI permite que cada país tenga sus propios contenidos, monedas y configuraciones, compartiendo el mismo código base. Las mejoras en uno se propagan al otro automáticamente.',
-    liveUrl: '/s/es/nexa-uruguay',
-  },
-  {
     slug: 'nexa-propiedades',
     vertical: 'Real estate · 3 idiomas',
     headline: 'Nexa Propiedades: extender la marca Nexa al mercado inmobiliario residencial',

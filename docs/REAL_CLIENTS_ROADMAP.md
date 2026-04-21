@@ -8,8 +8,7 @@
 |---|------|----------|----------|-------|-------|
 | 1 | **nexa-paraguay** | EU → PY relocation (flagship) | real-estate-relocation | `sites/nexa-paraguay/` | Staging green, prod-blocked by 12 stakeholder items |
 | 2 | **nexa-propiedades** | PY residential real estate | real-estate-relocation | `sites/nexa-propiedades/` | MVP — 4 pages authored, some routes still sparse |
-| 3 | **nexa-uruguay** | EU → UY relocation | real-estate-relocation | `sites/nexa-uruguay/` | Reproducibility spike, en locale incomplete |
-| 4 | **nexaparaguay** | Legacy alias | real-estate-relocation | `sites/nexaparaguay/` | Migrated out of demo-data.ts |
+| 3 | **nexaparaguay** | Legacy alias | real-estate-relocation | `sites/nexaparaguay/` | Migrated out of demo-data.ts |
 | 5 | **dayah-litworks** | Indie book cover designer | portfolio-professional | `sites/dayah-litworks/` | Migrated, needs product-catalog + genre filter |
 | 6 | **de-abasto-a-casa** | Weekly meal prep (Ivan's biz) | food-beverage | `sites/de-abasto-a-casa/` | Migrated, needs weekly-cadence + portal |
 
@@ -102,7 +101,6 @@
 | # | Task | Tenant | Blocker |
 |---|------|--------|---------|
 | 51 | Author PT-BR content | nexa-propiedades | Translation pass needed |
-| 52 | Complete EN locale | nexa-uruguay | Missing home.* refs |
 | 53 | Professional DE translation | nexa-paraguay | Stakeholder decision #8 |
 | 54 | Author `/propiedades` page content | nexa-propiedades | Source of listings TBD |
 | 55 | Author `/servicios` page content | nexa-propiedades | Partially done |
@@ -212,7 +210,6 @@
 |--------|-----------------------------------|
 | **nexa-paraguay** | Translation-quality gate flags DE; confidential-pricing variant available for "Consultar" tiers; lead enrichment on submissions |
 | **nexa-propiedades** | Migrated vertical id to canonical `real-estate-relocation`; enrichment + currency utility available |
-| **nexa-uruguay** | Gets translation-quality gate (en still flagged as incomplete); enrichment |
 | **nexaparaguay** | Migrated into `sites/nexaparaguay/` as proper tenant; contact/whatsapp refs wired |
 | **dayah-litworks** | Migrated into `sites/dayah-litworks/`; multi-currency formatter unlocks USD display; intake-questionnaire available for book-brief flow |
 | **de-abasto-a-casa** | Migrated into `sites/de-abasto-a-casa/`; tiered-service-ladder section available for L1/L2/L3; regulatory-status-badge ready for INAN surfacing; intake-questionnaire ready for household/dietary capture |

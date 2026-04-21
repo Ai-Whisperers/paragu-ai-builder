@@ -13,15 +13,6 @@ export const SITES = {
     locales: ['nl', 'en', 'de', 'es'],
     pages: ['home', 'programas', 'por-que-paraguay', 'proceso', 'sobre', 'faq', 'blog', 'contacto', 'privacidad'],
   },
-  'nexa-uruguay': {
-    slug: 'nexa-uruguay',
-    vertical: 'relocacion',
-    country: 'Uruguay',
-    domain: 'nexa-uruguay.com',
-    defaultLocale: 'en',
-    locales: ['en', 'es'],
-    pages: ['home', 'programas', 'por-que-uruguay', 'proceso', 'sobre', 'faq', 'blog', 'contacto', 'privacidad'],
-  },
   'nexa-propiedades': {
     slug: 'nexa-propiedades',
     vertical: 'inmobiliaria',
