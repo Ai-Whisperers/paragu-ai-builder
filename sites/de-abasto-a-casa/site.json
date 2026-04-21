@@ -35,5 +35,6 @@
     "testimonials": true
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
-  "migratedAt": "2026-04-20"
+  "migratedAt": "2026-04-20",
+  "is_demo": false
 }
