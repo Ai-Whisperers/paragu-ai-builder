@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { MiniCartBadge } from './mini-cart-badge'
 import { CartDrawer } from './cart-drawer'
 import { CurrencyToggle } from './currency-toggle'
+import { HeaderSearch } from './header-search'
 
 interface Props {
   siteSlug: string
@@ -23,7 +24,8 @@ export function CommerceHeader({ siteSlug, businessName, locale = 'es' }: Props)
           <Link href={`/s/${locale}/${siteSlug}`} className="text-lg font-semibold">
             {businessName}
           </Link>
-          <nav className="flex items-center gap-4 text-sm">
+          <nav className="flex items-center gap-3 text-sm sm:gap-4">
+            <HeaderSearch siteSlug={siteSlug} locale={locale} />
             <Link href={`/s/${locale}/${siteSlug}/tienda`} className="hover:underline">
               Tienda
             </Link>

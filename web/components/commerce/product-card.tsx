@@ -1,12 +1,17 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useSyncExternalStore } from 'react'
 import type { Product } from '@/lib/schemas/commerce/product'
 import { ProductImage } from './product-image'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { useCartStore } from '@/lib/stores/cart-store'
 import { PriceDisplay } from './price-display'
+import {
+  addToWishlist,
+  isInWishlist,
+  removeFromWishlist,
+} from '@/lib/stores/wishlist'
 
 interface Props {
   siteSlug: string
@@ -16,16 +21,44 @@ interface Props {
   locale?: string
 }
 
+const WISHLIST_EVENT = 'paragu:wishlist-change'
+
+function subscribeWishlist(cb: () => void) {
+  window.addEventListener(WISHLIST_EVENT, cb)
+  window.addEventListener('storage', cb)
+  return () => {
+    window.removeEventListener(WISHLIST_EVENT, cb)
+    window.removeEventListener('storage', cb)
+  }
+}
+
+function getServerWishlistSnapshot(): boolean {
+  return false
+}
+
 export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
   const cover = product.images.find((i) => i.isCover) ?? product.images[0] ?? null
-  const lowStock = product.inventoryPolicy === 'deny' && product.inventoryQty > 0 && product.inventoryQty <= (product.lowStockThreshold ?? 3)
+  // Secondary image for hover swap — first non-cover image if the product
+  // has more than one. Keeps the grid unchanged for single-image products.
+  const hoverImage =
+    product.images.length > 1 ? product.images.find((i) => i !== cover) ?? null : null
+  const lowStock =
+    product.inventoryPolicy === 'deny' &&
+    product.inventoryQty > 0 &&
+    product.inventoryQty <= (product.lowStockThreshold ?? 3)
   const outOfStock = product.inventoryPolicy === 'deny' && product.inventoryQty === 0
   const discount =
     product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents
       ? Math.round(((product.compareAtPriceCents - product.priceCents) / product.compareAtPriceCents) * 100)
       : null
+
+  const saved = useSyncExternalStore(
+    subscribeWishlist,
+    () => isInWishlist(siteSlug, product.id),
+    getServerWishlistSnapshot,
+  )
 
   const handleAdd = async () => {
     if (outOfStock || adding) return
@@ -37,11 +70,50 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
     }
   }
 
+  function toggleWishlist(event: React.MouseEvent) {
+    event.preventDefault()
+    event.stopPropagation()
+    if (saved) {
+      removeFromWishlist(siteSlug, product.id)
+    } else {
+      addToWishlist(siteSlug, {
+        id: product.id,
+        slug: product.slug,
+        name: product.name,
+        priceCents: product.priceCents,
+        currency: product.currency,
+        imageUrl: cover?.url ?? null,
+      })
+    }
+  }
+
   return (
     <article className="group flex flex-col">
       <Link href={`/s/${locale}/${siteSlug}/producto/${product.slug}`} className="block">
         <div className="relative">
           <ProductImage image={cover} alt={product.name} priority={priority} isSeed={product.isSeed} />
+          {/* Hover image: crossfades over the cover when present. Only the
+              primary card-level listener fires — no runtime cost on products
+              with a single image. */}
+          {hoverImage ? (
+            <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <ProductImage image={hoverImage} alt={product.name} isSeed={product.isSeed} />
+            </div>
+          ) : null}
+
+          {/* Wishlist heart — absolute so clicks bypass the PDP Link. */}
+          <button
+            type="button"
+            onClick={toggleWishlist}
+            aria-pressed={saved}
+            aria-label={saved ? `Quitar ${product.name} de favoritos` : `Guardar ${product.name} en favoritos`}
+            className="absolute right-2 bottom-2 rounded-full bg-white/90 p-2 text-base shadow hover:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
+          >
+            <span aria-hidden="true" className={saved ? 'text-red-500' : 'text-[color:var(--text-muted,#6b7280)]'}>
+              {saved ? '♥' : '♡'}
+            </span>
+          </button>
+
           {discount ? (
             <span className="absolute left-2 top-2 rounded bg-red-600 px-2 py-0.5 text-xs font-semibold text-white" aria-label={`Descuento del ${discount} por ciento`}>
               −{discount}%
