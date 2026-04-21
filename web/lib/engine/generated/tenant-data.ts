@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=116, pages=149, content=135, blog=24, images=3, verticals=23. */
+/** Counts: sites=116, pages=150, content=135, blog=24, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9835,6 +9835,53 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "asistente",
     "titleKey": "intakeWizardPage.seo.title"
+  },
+  "nexa-paraguay:benelux": {
+    "descriptionKey": "beneluxPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "beneluxPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "beneluxPage.trust",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "beneluxPage.pillars",
+        "id": "why-destination",
+        "variant": "three-col"
+      },
+      {
+        "content": "beneluxPage.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "beneluxPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "benelux",
+    "titleKey": "beneluxPage.seo.title"
   },
   "nexa-paraguay:blog": {
     "descriptionKey": "blog.index.seo.description",
@@ -20374,6 +20421,85 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Ein integriertes System, keine Agentur für Papierkram"
       }
     },
+    "beneluxPage": {
+      "cta": {
+        "ctaHref": "/s/de/nexa-paraguay/contacto",
+        "ctaText": "Kostenloses Beratungsgespräch",
+        "eyebrow": "",
+        "subtitle": "Planen Sie ein 30-Minuten-Gespräch — auf Niederländisch, Englisch oder Spanisch.",
+        "title": "Sprechen wir Niederländisch?"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Nach Emigration und Lösung der Bindungen (woonplaatsverklaring) entfällt Box 3. Wir stimmen das Timing ab.",
+            "q": "Wie interagiert Paraguay mit Box 3?"
+          },
+          {
+            "a": "Die Steuer auf wesentliche Beteiligungen (aanmerkelijk belang) kann unter der richtigen Struktur aufgeschoben werden.",
+            "q": "Wegzugsteuer auf eine BV?"
+          },
+          {
+            "a": "Kein bilaterales Abkommen per 2026, aber das Territorialsystem macht dies für die meisten Szenarien unnötig.",
+            "q": "Doppelbesteuerungsabkommen mit NL/BE?"
+          },
+          {
+            "a": "Ja — Paraguay-Residenz + EU-Holding für bestimmte Geschäftslinien ist eine gängige Struktur.",
+            "q": "BV / BVBA nach der Emigration behalten?"
+          }
+        ],
+        "title": "Benelux-spezifische Fragen"
+      },
+      "hero": {
+        "headline": "Benelux Desk",
+        "subheadline": "Für niederländische und belgische Investoren, die Paraguay in Betracht ziehen. Niederländisch-muttersprachliche Führung in Europa."
+      },
+      "pillars": {
+        "pillars": [
+          {
+            "description": "Territorialsystem — keine Steuer auf ausländische Einkünfte. Deutlich unter NL 25% / BE 25% / DE 30%.",
+            "icon": "Percent",
+            "title": "10% IRE + 0% ausländisch"
+          },
+          {
+            "description": "Vollständige Residenz, kein \"Digital Nomad\"-Visum. Geeignet für steuerliche Emigration, sobald NL/BE-Bindungen gelöst sind.",
+            "icon": "FileCheck",
+            "title": "Echter Emigrationspfad"
+          },
+          {
+            "description": "Paraguay steht nicht auf der EU-Steuerparadiesliste. Weniger Reibung bei NL/BE-Banken.",
+            "icon": "Shield",
+            "title": "Nicht auf EU-Blacklist"
+          }
+        ],
+        "title": "Warum Benelux-Investoren Paraguay wählen"
+      },
+      "seo": {
+        "description": "Spezielle Desk für niederländische und belgische Investoren. Niederländischsprachiger Gründer, Box-3-/Wegzugsteuer-Erfahrung.",
+        "title": "Benelux Desk — Nexa Paraguay"
+      },
+      "trust": {
+        "eyebrow": "Für Niederländer und Belgier",
+        "items": [
+          {
+            "description": "Tägliche Kommunikation auf Niederländisch. Keine Übersetzungsreibung.",
+            "icon": "Globe",
+            "title": "Muttersprachlich Niederländisch"
+          },
+          {
+            "description": "Wir planen den Umzug mit Kenntnis dessen, was die Belastingdienst nach der Emigration fragen wird.",
+            "icon": "Landmark",
+            "title": "Box 3 + Wegzugsteuer"
+          },
+          {
+            "description": "Europäische Reaktionszeit aus Amsterdam, paraguayische Umsetzung aus Asunción.",
+            "icon": "Clock",
+            "title": "CET + UTC-3 Abdeckung"
+          }
+        ],
+        "title": "Was ein niederländisch-muttersprachlicher Gründer wirklich ändert"
+      }
+    },
     "blog": {
       "index": {
         "seo": {
@@ -20941,8 +21067,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Registereintragung"
             ],
             "name": "Landkauf",
-            "price": "Ab USD 3.500",
-            "priceNote": "Je nach Umfang der Suche und Due Diligence."
+            "price": "Auf Anfrage",
+            "priceNote": "Abhängig von Suchumfang, Landpreis und Due-Diligence."
           }
         ],
         "title": "Vier Wege, sich in Paraguay zu etablieren"
@@ -21874,8 +22000,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Registereintragung"
             ],
             "name": "Landkauf",
-            "price": "Ab USD 3.500",
-            "priceNote": "Je nach Umfang der Suche und Due Diligence."
+            "price": "Auf Anfrage",
+            "priceNote": "Abhängig von Suchumfang, Landpreis und Due-Diligence."
           }
         ],
         "title": "Vier Wege, sich in Paraguay zu etablieren"
@@ -22372,6 +22498,85 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "An integrated system, not an administrative agency"
+      }
+    },
+    "beneluxPage": {
+      "cta": {
+        "ctaHref": "/s/en/nexa-paraguay/contacto",
+        "ctaText": "Book free consultation",
+        "eyebrow": "",
+        "subtitle": "Schedule a 30-minute call — in Dutch, English or Spanish.",
+        "title": "Spreken we Nederlands of Vlaams?"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Once you emigrate and cut ties (woonplaatsverklaring uit Nederland), box 3 no longer applies. We coordinate the timing so you do not double-book a tax year.",
+            "q": "How does Paraguay interact with box 3?"
+          },
+          {
+            "a": "The exit tax on substantial interest (aanmerkelijk belang) can be deferred under the right structure. We work with Dutch tax counsel in parallel — we do not replace them.",
+            "q": "What about the emigratieheffing on a Dutch BV?"
+          },
+          {
+            "a": "No bilateral DTA as of 2026, but Paraguay's territorial system means most practical scenarios do not need one. We structure around the reality.",
+            "q": "Does Paraguay have a DTA with the Netherlands or Belgium?"
+          },
+          {
+            "a": "Yes, common arrangement — Paraguay residency + retained EU holding for specific business lines. We map the setup so both sides work.",
+            "q": "Can I keep my BV / BVBA after emigrating?"
+          }
+        ],
+        "title": "Benelux-specific questions"
+      },
+      "hero": {
+        "headline": "Benelux desk",
+        "subheadline": "For Nederlandse and Belgian investors considering Paraguay — native Dutch speaker leading Europe, EU tax context built in."
+      },
+      "pillars": {
+        "pillars": [
+          {
+            "description": "Territorial system — no tax on foreign-source income. Substantially below NL 25% / BE 25% / DE 30%.",
+            "icon": "Percent",
+            "title": "10% IRE + 0% foreign"
+          },
+          {
+            "description": "Full residency, not just a \"digital nomad\" visa. Works for permanent tax residency once NL/BE ties are unwound.",
+            "icon": "FileCheck",
+            "title": "Real emigration path"
+          },
+          {
+            "description": "Paraguay is not on the EU tax-haven list. Fewer friction points with NL/BE banks when reporting the move.",
+            "icon": "Shield",
+            "title": "No EU blacklist"
+          }
+        ],
+        "title": "Why Benelux investors pick Paraguay"
+      },
+      "seo": {
+        "description": "Dedicated desk for Dutch- and Belgian-speaking investors. Native Dutch founder, box 3 and emigratieheffing insight, EU tax-aware advisory.",
+        "title": "Benelux desk — Nexa Paraguay"
+      },
+      "trust": {
+        "eyebrow": "Voor Nederlanders en Belgen",
+        "items": [
+          {
+            "description": "Dagelijkse communicatie in Nederlands. No translation friction.",
+            "icon": "Globe",
+            "title": "Native Dutch"
+          },
+          {
+            "description": "We plan the move knowing what the Belastingdienst will ask post-emigration.",
+            "icon": "Landmark",
+            "title": "Box 3 + emigratieheffing aware"
+          },
+          {
+            "description": "European-hours response from Amsterdam, Paraguay-hours execution from Asunción.",
+            "icon": "Clock",
+            "title": "CET + UTC-3 coverage"
+          }
+        ],
+        "title": "What a Dutch-native founder actually changes"
       }
     },
     "blog": {
@@ -22941,8 +23146,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Land registry inscription"
             ],
             "name": "Land Purchase",
-            "price": "From USD 3,500",
-            "priceNote": "Depending on search scope and due diligence."
+            "price": "Quote on request",
+            "priceNote": "Depending on search scope, land cost and due diligence."
           }
         ],
         "title": "Four paths to establish in Paraguay"
@@ -23874,8 +24079,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Agricultural advisory (optional)"
             ],
             "name": "Paraguay Land Program",
-            "price": "From USD 3,500+",
-            "priceNote": "Starting price for advisory. Land cost varies by parcel and scope."
+            "price": "Quote on request",
+            "priceNote": "Depending on search scope, land cost and due diligence."
           }
         ],
         "title": "Four paths to establish yourself in Paraguay"
@@ -24356,6 +24561,85 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Un sistema integral, no una gestoría de trámites"
+      }
+    },
+    "beneluxPage": {
+      "cta": {
+        "ctaHref": "/s/es/nexa-paraguay/contacto",
+        "ctaText": "Agendar consulta gratuita",
+        "eyebrow": "",
+        "subtitle": "Agendá una llamada de 30 minutos — en neerlandés, inglés o español.",
+        "title": "¿Hablamos en neerlandés?"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Tras la emigración y corte de vínculos (woonplaatsverklaring), box 3 deja de aplicar. Coordinamos los tiempos.",
+            "q": "¿Cómo interactúa Paraguay con box 3?"
+          },
+          {
+            "a": "El impuesto de salida sobre participación sustancial puede diferirse con la estructura adecuada. Trabajamos en paralelo con asesores fiscales holandeses.",
+            "q": "¿Qué pasa con la emigratieheffing sobre una BV?"
+          },
+          {
+            "a": "No hay convenio bilateral en 2026, pero el sistema territorial de Paraguay lo hace innecesario en la mayoría de casos prácticos.",
+            "q": "¿Paraguay tiene convenio fiscal con NL o BE?"
+          },
+          {
+            "a": "Sí, es una estructura común — residencia paraguaya + holding UE para líneas específicas de negocio.",
+            "q": "¿Puedo mantener mi BV / BVBA tras emigrar?"
+          }
+        ],
+        "title": "Preguntas específicas del Benelux"
+      },
+      "hero": {
+        "headline": "Benelux desk",
+        "subheadline": "Para inversores holandeses y belgas que están evaluando Paraguay. Liderazgo nativo en neerlandés en Europa, contexto fiscal europeo incorporado."
+      },
+      "pillars": {
+        "pillars": [
+          {
+            "description": "Sistema territorial — sin impuesto sobre renta extranjera. Muy por debajo de NL 25% / BE 25% / DE 30%.",
+            "icon": "Percent",
+            "title": "10% IRE + 0% extranjero"
+          },
+          {
+            "description": "Residencia completa, no solo visa \"digital nomad\". Sirve para residencia fiscal permanente una vez deshechos los vínculos con NL/BE.",
+            "icon": "FileCheck",
+            "title": "Vía migratoria real"
+          },
+          {
+            "description": "Paraguay no está en la lista de paraísos fiscales UE. Menor fricción con bancos NL/BE al informar la mudanza.",
+            "icon": "Shield",
+            "title": "Fuera de la lista UE"
+          }
+        ],
+        "title": "Por qué los inversores del Benelux eligen Paraguay"
+      },
+      "seo": {
+        "description": "Mesa dedicada a inversores holandeses y belgas. Fundador neerlandófono nativo, conocimiento de box 3 y emigratieheffing.",
+        "title": "Benelux desk — Nexa Paraguay"
+      },
+      "trust": {
+        "eyebrow": "Para holandeses y belgas",
+        "items": [
+          {
+            "description": "Comunicación diaria en neerlandés. Sin fricción de traducción.",
+            "icon": "Globe",
+            "title": "Neerlandés nativo"
+          },
+          {
+            "description": "Planificamos la mudanza conociendo lo que la Belastingdienst preguntará tras la emigración.",
+            "icon": "Landmark",
+            "title": "Box 3 + emigratieheffing"
+          },
+          {
+            "description": "Respuesta horaria europea desde Ámsterdam, ejecución paraguaya desde Asunción.",
+            "icon": "Clock",
+            "title": "Cobertura CET + UTC-3"
+          }
+        ],
+        "title": "Qué cambia tener un fundador neerlandófono"
       }
     },
     "blog": {
@@ -24926,8 +25210,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Inscripción registral"
             ],
             "name": "Compra de Tierras",
-            "price": "Desde USD 3.500",
-            "priceNote": "Según alcance de búsqueda y auditoría legal."
+            "price": "Consultar",
+            "priceNote": "Depende del alcance de búsqueda, valor de tierras y due diligence."
           }
         ],
         "title": "Cuatro caminos para establecerse en Paraguay"
@@ -25858,8 +26142,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Inscripción registral"
             ],
             "name": "Compra de Tierras",
-            "price": "Desde USD 3.500",
-            "priceNote": "Según alcance de búsqueda y auditoría legal."
+            "price": "Consultar",
+            "priceNote": "Depende del alcance de búsqueda, valor de tierras y due diligence."
           }
         ],
         "title": "Cuatro caminos para establecerse en Paraguay"
@@ -26356,6 +26640,85 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Een integraal systeem, geen administratief kantoor"
+      }
+    },
+    "beneluxPage": {
+      "cta": {
+        "ctaHref": "/s/nl/nexa-paraguay/contacto",
+        "ctaText": "Plan gratis consult",
+        "eyebrow": "",
+        "subtitle": "Plan een gesprek van 30 minuten — in het Nederlands, Engels of Spaans.",
+        "title": "Spreken we Nederlands?"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Zodra u emigreert en banden doorknipt (woonplaatsverklaring uit Nederland), vervalt box 3. We stemmen de timing af zodat u geen belastingjaar dubbel boekt.",
+            "q": "Hoe werkt Paraguay met box 3?"
+          },
+          {
+            "a": "De exitheffing op aanmerkelijk belang kan onder de juiste structuur worden uitgesteld. We werken parallel met Nederlandse fiscalisten — we vervangen ze niet.",
+            "q": "Wat met de emigratieheffing op een BV?"
+          },
+          {
+            "a": "Geen bilateraal verdrag per 2026, maar het territoriale systeem van Paraguay maakt dat voor de meeste praktische situaties overbodig. We structureren rond de realiteit.",
+            "q": "Heeft Paraguay een belastingverdrag met Nederland of België?"
+          },
+          {
+            "a": "Ja, een veelvoorkomende opzet — Paraguayaanse verblijfsvergunning + behouden EU-holding voor specifieke bedrijfslijnen. We brengen beide kanten op elkaar aan.",
+            "q": "Kan ik mijn BV / BVBA behouden na emigratie?"
+          }
+        ],
+        "title": "Benelux-specifieke vragen"
+      },
+      "hero": {
+        "headline": "Benelux desk",
+        "subheadline": "Voor Nederlandse en Belgische investeerders die Paraguay overwegen. Nederlandstalige leiding in Europa, EU-fiscale context ingebouwd."
+      },
+      "pillars": {
+        "pillars": [
+          {
+            "description": "Territoriaal systeem — geen belasting op buitenlands inkomen. Substantieel onder NL 25% / BE 25% / DE 30%.",
+            "icon": "Percent",
+            "title": "10% IRE + 0% buitenland"
+          },
+          {
+            "description": "Volledige verblijfsvergunning, geen \"digital nomad\" visum. Werkt voor fiscale emigratie zodra NL/BE banden ontbonden zijn.",
+            "icon": "FileCheck",
+            "title": "Echt emigratiepad"
+          },
+          {
+            "description": "Paraguay staat niet op de EU lijst van belastingparadijzen. Minder wrijving bij NL/BE banken bij rapportage.",
+            "icon": "Shield",
+            "title": "Niet op EU-blacklist"
+          }
+        ],
+        "title": "Waarom Benelux-investeerders voor Paraguay kiezen"
+      },
+      "seo": {
+        "description": "Speciale desk voor Nederlandse en Belgische investeerders. Nederlandstalige oprichter, box 3 + emigratieheffing kennis, EU-fiscaal bewust.",
+        "title": "Benelux desk — Nexa Paraguay"
+      },
+      "trust": {
+        "eyebrow": "Voor Nederlanders en Belgen",
+        "items": [
+          {
+            "description": "Dagelijkse communicatie in het Nederlands. Geen vertaalwrijving.",
+            "icon": "Globe",
+            "title": "Native Nederlands"
+          },
+          {
+            "description": "We plannen de verhuizing wetende wat de Belastingdienst na emigratie zal vragen.",
+            "icon": "Landmark",
+            "title": "Box 3 + emigratieheffing"
+          },
+          {
+            "description": "Europese respons vanuit Amsterdam, Paraguayaanse uitvoering vanuit Asunción.",
+            "icon": "Clock",
+            "title": "CET + UTC-3 dekking"
+          }
+        ],
+        "title": "Wat een Nederlandstalige oprichter echt verandert"
       }
     },
     "blog": {
@@ -26925,8 +27288,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Registratie in het kadaster"
             ],
             "name": "Grondaankoop",
-            "price": "Vanaf USD 3.500",
-            "priceNote": "Afhankelijk van zoekomvang en due diligence."
+            "price": "Op aanvraag",
+            "priceNote": "Afhankelijk van zoekopdracht, grondprijs en due diligence."
           }
         ],
         "title": "Vier routes naar vestiging in Paraguay"
@@ -27858,8 +28221,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Registratie in het kadaster"
             ],
             "name": "Grondaankoop",
-            "price": "Vanaf USD 3.500",
-            "priceNote": "Afhankelijk van zoekomvang en due diligence."
+            "price": "Op aanvraag",
+            "priceNote": "Afhankelijk van zoekopdracht, grondprijs en due diligence."
           }
         ],
         "title": "Vier routes naar vestiging in Paraguay"

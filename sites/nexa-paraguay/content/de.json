@@ -174,8 +174,8 @@
           "id": "tierras",
           "name": "Landkauf",
           "description": "Eigene Dienstleistung von Nexa.",
-          "price": "Ab USD 3.500",
-          "priceNote": "Je nach Umfang der Suche und Due Diligence.",
+          "price": "Auf Anfrage",
+          "priceNote": "Abhängig von Suchumfang, Landpreis und Due-Diligence.",
           "included": [
             "Profil- und Kriteriendefinition",
             "Suche und Short-List",
@@ -401,8 +401,8 @@
           "id": "tierras",
           "name": "Landkauf",
           "description": "Eigene Dienstleistung von Nexa.",
-          "price": "Ab USD 3.500",
-          "priceNote": "Je nach Umfang der Suche und Due Diligence.",
+          "price": "Auf Anfrage",
+          "priceNote": "Abhängig von Suchumfang, Landpreis und Due-Diligence.",
           "included": [
             "Profil- und Kriteriendefinition",
             "Suche und Short-List",
@@ -1998,6 +1998,85 @@
       "recommendationTitle": "Empfohlenes Programm",
       "recommendationCta": "Mit Nexa sprechen",
       "stepProgressLabel": "Schritt"
+    }
+  },
+  "beneluxPage": {
+    "seo": {
+      "title": "Benelux Desk — Nexa Paraguay",
+      "description": "Spezielle Desk für niederländische und belgische Investoren. Niederländischsprachiger Gründer, Box-3-/Wegzugsteuer-Erfahrung."
+    },
+    "hero": {
+      "headline": "Benelux Desk",
+      "subheadline": "Für niederländische und belgische Investoren, die Paraguay in Betracht ziehen. Niederländisch-muttersprachliche Führung in Europa."
+    },
+    "trust": {
+      "eyebrow": "Für Niederländer und Belgier",
+      "title": "Was ein niederländisch-muttersprachlicher Gründer wirklich ändert",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Muttersprachlich Niederländisch",
+          "description": "Tägliche Kommunikation auf Niederländisch. Keine Übersetzungsreibung."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Box 3 + Wegzugsteuer",
+          "description": "Wir planen den Umzug mit Kenntnis dessen, was die Belastingdienst nach der Emigration fragen wird."
+        },
+        {
+          "icon": "Clock",
+          "title": "CET + UTC-3 Abdeckung",
+          "description": "Europäische Reaktionszeit aus Amsterdam, paraguayische Umsetzung aus Asunción."
+        }
+      ]
+    },
+    "pillars": {
+      "title": "Warum Benelux-Investoren Paraguay wählen",
+      "pillars": [
+        {
+          "icon": "Percent",
+          "title": "10% IRE + 0% ausländisch",
+          "description": "Territorialsystem — keine Steuer auf ausländische Einkünfte. Deutlich unter NL 25% / BE 25% / DE 30%."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Echter Emigrationspfad",
+          "description": "Vollständige Residenz, kein \"Digital Nomad\"-Visum. Geeignet für steuerliche Emigration, sobald NL/BE-Bindungen gelöst sind."
+        },
+        {
+          "icon": "Shield",
+          "title": "Nicht auf EU-Blacklist",
+          "description": "Paraguay steht nicht auf der EU-Steuerparadiesliste. Weniger Reibung bei NL/BE-Banken."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Benelux-spezifische Fragen",
+      "items": [
+        {
+          "q": "Wie interagiert Paraguay mit Box 3?",
+          "a": "Nach Emigration und Lösung der Bindungen (woonplaatsverklaring) entfällt Box 3. Wir stimmen das Timing ab."
+        },
+        {
+          "q": "Wegzugsteuer auf eine BV?",
+          "a": "Die Steuer auf wesentliche Beteiligungen (aanmerkelijk belang) kann unter der richtigen Struktur aufgeschoben werden."
+        },
+        {
+          "q": "Doppelbesteuerungsabkommen mit NL/BE?",
+          "a": "Kein bilaterales Abkommen per 2026, aber das Territorialsystem macht dies für die meisten Szenarien unnötig."
+        },
+        {
+          "q": "BV / BVBA nach der Emigration behalten?",
+          "a": "Ja — Paraguay-Residenz + EU-Holding für bestimmte Geschäftslinien ist eine gängige Struktur."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Sprechen wir Niederländisch?",
+      "subtitle": "Planen Sie ein 30-Minuten-Gespräch — auf Niederländisch, Englisch oder Spanisch.",
+      "ctaText": "Kostenloses Beratungsgespräch",
+      "ctaHref": "/s/de/nexa-paraguay/contacto"
     }
   }
 }

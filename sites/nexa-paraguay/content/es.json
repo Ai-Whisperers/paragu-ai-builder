@@ -171,8 +171,8 @@
           "id": "tierras",
           "name": "Compra de Tierras",
           "description": "Servicio propio de Nexa. Asesoría integral.",
-          "price": "Desde USD 3.500",
-          "priceNote": "Según alcance de búsqueda y auditoría legal.",
+          "price": "Consultar",
+          "priceNote": "Depende del alcance de búsqueda, valor de tierras y due diligence.",
           "included": [
             "Definición de perfil y criterios",
             "Búsqueda y short-list",
@@ -398,8 +398,8 @@
           "id": "tierras",
           "name": "Compra de Tierras",
           "description": "Servicio propio de Nexa. Asesoría integral.",
-          "price": "Desde USD 3.500",
-          "priceNote": "Según alcance de búsqueda y auditoría legal.",
+          "price": "Consultar",
+          "priceNote": "Depende del alcance de búsqueda, valor de tierras y due diligence.",
           "included": [
             "Definición de perfil y criterios",
             "Búsqueda y short-list",
@@ -1995,6 +1995,85 @@
       "recommendationTitle": "Programa recomendado",
       "recommendationCta": "Hablar con Nexa",
       "stepProgressLabel": "Paso"
+    }
+  },
+  "beneluxPage": {
+    "seo": {
+      "title": "Benelux desk — Nexa Paraguay",
+      "description": "Mesa dedicada a inversores holandeses y belgas. Fundador neerlandófono nativo, conocimiento de box 3 y emigratieheffing."
+    },
+    "hero": {
+      "headline": "Benelux desk",
+      "subheadline": "Para inversores holandeses y belgas que están evaluando Paraguay. Liderazgo nativo en neerlandés en Europa, contexto fiscal europeo incorporado."
+    },
+    "trust": {
+      "eyebrow": "Para holandeses y belgas",
+      "title": "Qué cambia tener un fundador neerlandófono",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Neerlandés nativo",
+          "description": "Comunicación diaria en neerlandés. Sin fricción de traducción."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Box 3 + emigratieheffing",
+          "description": "Planificamos la mudanza conociendo lo que la Belastingdienst preguntará tras la emigración."
+        },
+        {
+          "icon": "Clock",
+          "title": "Cobertura CET + UTC-3",
+          "description": "Respuesta horaria europea desde Ámsterdam, ejecución paraguaya desde Asunción."
+        }
+      ]
+    },
+    "pillars": {
+      "title": "Por qué los inversores del Benelux eligen Paraguay",
+      "pillars": [
+        {
+          "icon": "Percent",
+          "title": "10% IRE + 0% extranjero",
+          "description": "Sistema territorial — sin impuesto sobre renta extranjera. Muy por debajo de NL 25% / BE 25% / DE 30%."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Vía migratoria real",
+          "description": "Residencia completa, no solo visa \"digital nomad\". Sirve para residencia fiscal permanente una vez deshechos los vínculos con NL/BE."
+        },
+        {
+          "icon": "Shield",
+          "title": "Fuera de la lista UE",
+          "description": "Paraguay no está en la lista de paraísos fiscales UE. Menor fricción con bancos NL/BE al informar la mudanza."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas específicas del Benelux",
+      "items": [
+        {
+          "q": "¿Cómo interactúa Paraguay con box 3?",
+          "a": "Tras la emigración y corte de vínculos (woonplaatsverklaring), box 3 deja de aplicar. Coordinamos los tiempos."
+        },
+        {
+          "q": "¿Qué pasa con la emigratieheffing sobre una BV?",
+          "a": "El impuesto de salida sobre participación sustancial puede diferirse con la estructura adecuada. Trabajamos en paralelo con asesores fiscales holandeses."
+        },
+        {
+          "q": "¿Paraguay tiene convenio fiscal con NL o BE?",
+          "a": "No hay convenio bilateral en 2026, pero el sistema territorial de Paraguay lo hace innecesario en la mayoría de casos prácticos."
+        },
+        {
+          "q": "¿Puedo mantener mi BV / BVBA tras emigrar?",
+          "a": "Sí, es una estructura común — residencia paraguaya + holding UE para líneas específicas de negocio."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "¿Hablamos en neerlandés?",
+      "subtitle": "Agendá una llamada de 30 minutos — en neerlandés, inglés o español.",
+      "ctaText": "Agendar consulta gratuita",
+      "ctaHref": "/s/es/nexa-paraguay/contacto"
     }
   }
 }
