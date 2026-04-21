@@ -9,7 +9,11 @@ export const HOME_FAQS = [
   },
   {
     q: '¿Puedo probar antes de pagar?',
-    a: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 3 meses de prueba gratis en subdominio para validar que funciona.',
+    a: 'Sí. Todos los planes incluyen una demo de tu sitio antes de pagar el setup. Además tenés 3 meses con la experiencia Profesional completa sin costo — todo desbloqueado, sin tarjeta. Después podés seguir gratis (con marca ParaguAI) o pasar a un plan pago para conservar el dominio propio y la marca limpia.',
+  },
+  {
+    q: '¿Qué es el "período Profesional incluido" en los planes pagos?',
+    a: 'Los planes pagos arrancan con la experiencia Profesional completa por más tiempo del que cubre tu plan: Presencia da 7 meses Profesional, Crecimiento da 8. Después de ese período el sitio sigue funcionando con las features de tu plan elegido. Es nuestra forma de que conozcas todo antes de decidir si necesitás escalar.',
   },
   {
     q: '¿Cómo funciona el pago?',
