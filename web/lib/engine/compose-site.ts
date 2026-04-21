@@ -103,8 +103,11 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
         const merged = mergeOverrides(base, s.overrides)
         const filled = fillDeep(merged, placeholders) as Record<string, unknown>
 
+        // Normalize legacy prop names for known section components
+        const normalized = normalizeSectionProps(s.id, filled)
+
         const props: Record<string, unknown> = {
-          ...filled,
+          ...normalized,
           __siteSlug: site.slug,
           __locale: locale,
           __country: site.country,
@@ -193,4 +196,71 @@ function shouldInclude(
     ? !features?.[enabledWhen.slice(1)]
     : !!features?.[enabledWhen]
   return truthy
+}
+
+/**
+ * Normalize legacy/alternative prop names to canonical names that components expect.
+ * This handles cases where content files use different field names (e.g., `items` vs `services`).
+ */
+function normalizeSectionProps(sectionId: string, props: Record<string, unknown>): Record<string, unknown> {
+  const normalized = { ...props }
+
+  switch (sectionId) {
+    case 'header':
+      if (normalized.items && !normalized.navItems) {
+        normalized.navItems = normalized.items
+      }
+      if (normalized.businessName === undefined && normalized.siteName) {
+        normalized.businessName = normalized.siteName
+      }
+      break
+    case 'services':
+      if (normalized.items && !normalized.services) {
+        normalized.services = normalized.items
+      }
+      break
+    case 'testimonials':
+      if (normalized.items && !normalized.testimonials) {
+        normalized.testimonials = normalized.items
+      }
+      break
+    case 'faq':
+      if (normalized.questions && !normalized.items) {
+        normalized.items = normalized.questions
+      }
+      break
+    case 'gallery':
+      if (normalized.logos && !normalized.images) {
+        normalized.images = (normalized.logos as Array<Record<string, unknown>>).map((logo) => ({
+          src: (logo.src as string) || (logo.image as string) || '',
+          alt: (logo.alt as string) || (logo.name as string) || '',
+        }))
+      }
+      break
+    case 'footer':
+      if (normalized.city === undefined && normalized.location?.city) {
+        normalized.city = normalized.location.city
+      }
+      if (normalized.address === undefined && normalized.location?.address) {
+        normalized.address = normalized.location.address
+      }
+      if (normalized.phone === undefined && normalized.contact?.phone) {
+        normalized.phone = normalized.contact.phone
+      }
+      if (normalized.email === undefined && normalized.contact?.email) {
+        normalized.email = normalized.contact.email
+      }
+      if (normalized.whatsapp === undefined && normalized.contact?.whatsapp) {
+        normalized.whatsapp = normalized.contact.whatsapp
+      }
+      break
+    case 'whatsapp-float':
+    case 'whatsappFloat':
+      if (normalized.number && !normalized.phone) {
+        normalized.phone = normalized.number
+      }
+      break
+  }
+
+  return normalized
 }

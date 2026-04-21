@@ -14,8 +14,11 @@ export interface NavItem {
 }
 
 export interface HeaderSectionProps {
-  businessName: string
-  navItems: NavItem[]
+  businessName?: string
+  /** Primary nav items */
+  navItems?: NavItem[]
+  /** Legacy alias — some content files ship `items` instead of `navItems`. */
+  items?: NavItem[]
   ctaText?: string
   ctaHref?: string
   __siteSlug?: string
@@ -26,7 +29,7 @@ export interface HeaderSectionProps {
 
 /**
  * Enhanced Header section with improved UX and navigation.
- * 
+ *
  * Improvements:
  * - Better mobile menu with slide animation
  * - Improved sticky header with backdrop blur
@@ -36,7 +39,8 @@ export interface HeaderSectionProps {
  */
 export function HeaderSection({
   businessName,
-  navItems,
+  navItems: navItemsProp,
+  items,
   ctaText,
   ctaHref = '#contacto',
   __siteSlug,
@@ -44,6 +48,7 @@ export function HeaderSection({
   __availableLocales,
   __currentPath = '',
 }: HeaderSectionProps) {
+  const navItems = navItemsProp || items || []
   const [mobileOpen, setMobileOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
