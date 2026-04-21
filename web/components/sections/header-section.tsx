@@ -28,14 +28,15 @@ export interface HeaderSectionProps {
 }
 
 /**
- * Enhanced Header section with improved UX and navigation.
+ * Header section with hide-on-scroll-down / reveal-on-scroll-up behavior.
  *
- * Improvements:
- * - Better mobile menu with slide animation
- * - Improved sticky header with backdrop blur
- * - Better touch targets for navigation
- * - Enhanced language switcher styling
- * - Scroll behavior detection for header styling
+ * Rules:
+ *  - Top of page (scrollY < 80): always visible, no shadow.
+ *  - Scrolling down past threshold: slides out (translate-y-[-100%]).
+ *  - Scrolling up by >6px: slides back in.
+ *  - Mobile menu auto-closes on hide so the panel doesn't linger off-screen.
+ * Previously used surface/95 + backdrop-blur which made the nav unreadable
+ * over hero content — now the header is either fully opaque or fully offscreen.
  */
 export function HeaderSection({
   businessName,
@@ -51,12 +52,38 @@ export function HeaderSection({
   const navItems = navItemsProp || items || []
   const [mobileOpen, setMobileOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [hidden, setHidden] = useState(false)
 
-  // Detect scroll for header styling
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
+    let lastY = typeof window !== 'undefined' ? window.scrollY : 0
+    let ticking = false
+
+    const update = () => {
+      const currentY = window.scrollY
+      const delta = currentY - lastY
+
+      setScrolled(currentY > 20)
+
+      if (currentY < 80) {
+        setHidden(false)
+      } else if (delta > 6) {
+        setHidden(true)
+        setMobileOpen(false)
+      } else if (delta < -6) {
+        setHidden(false)
+      }
+
+      lastY = currentY
+      ticking = false
     }
+
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update)
+        ticking = true
+      }
+    }
+
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
@@ -100,8 +127,9 @@ export function HeaderSection({
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-shadow duration-300 bg-[var(--surface)]',
-        scrolled ? 'shadow-md' : 'shadow-sm'
+        'fixed top-0 left-0 right-0 z-50 transition-transform duration-300 will-change-transform bg-[var(--surface)]',
+        scrolled ? 'shadow-md' : 'shadow-sm',
+        hidden ? '-translate-y-full' : 'translate-y-0'
       )}
       style={{
         borderBottom: '1px solid rgba(0,0,0,0.08)',
