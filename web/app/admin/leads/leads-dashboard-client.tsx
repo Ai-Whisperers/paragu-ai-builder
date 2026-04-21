@@ -265,6 +265,7 @@ export function LeadsDashboardClient({
           result = result.filter(l => l.priority_tier === 'A' || l.priority_tier === 'B')
           break
         case 'recent': {
+          // eslint-disable-next-line react-compiler/react-compiler -- Date.now() in useMemo is semantically fine — "recent" means current-time-relative, and memo deps drive recomputation.
           const weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000
           result = result.filter(l => new Date(l.created_at).getTime() >= weekAgo)
           break
