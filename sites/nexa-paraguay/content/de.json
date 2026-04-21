@@ -720,24 +720,35 @@
         {
           "name": "Leitung Operations (Paraguay)",
           "role": "Operatives Leadership, institutionelle Beziehungen",
-          "icon": "Briefcase"
+          "icon": "Briefcase",
+          "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Leitung Commercial (Europa)",
           "role": "Kundengewinnung, kulturelle Brücke",
-          "icon": "Globe"
+          "icon": "Globe",
+          "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Juristisches Team",
           "role": "Migrationsakten, Gesellschaftsgründung",
-          "icon": "Scale"
+          "icon": "Scale",
+          "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Steuerteam",
           "role": "Steuerliches Management, Compliance",
-          "icon": "Calculator"
+          "icon": "Calculator",
+          "imageUrl": "@src:team.accountingLead"
+        },
+        {
+          "name": "Client Success",
+          "role": "Onboarding, Koordination, langfristige Betreuung",
+          "icon": "UserCheck",
+          "imageUrl": "@src:team.clientSuccess"
         }
-      ]
+      ],
+      "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json."
     },
     "trust": {
       "eyebrow": "Warum Nexa Paraguay",
@@ -770,6 +781,28 @@
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
       "buttonText": "Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    },
+    "gallery": {
+      "title": "Unser Büro in Asunción",
+      "subtitle": "Wo Beratung, Unterzeichnung und Bank tatsächlich stattfinden. KI-Platzhalter unten — vor Launch durch echte Fotos ersetzen.",
+      "columns": 3,
+      "images": [
+        {
+          "$img": "office.exterior"
+        },
+        {
+          "$img": "office.reception"
+        },
+        {
+          "$img": "office.meetingRoom"
+        },
+        {
+          "$img": "office.signing"
+        },
+        {
+          "$img": "office.teamHuddle"
+        }
+      ]
     }
   },
   "faqPage": {

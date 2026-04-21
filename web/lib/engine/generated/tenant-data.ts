@@ -10284,6 +10284,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
+        "content": "aboutPage.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
         "content": "aboutPage.trust",
         "id": "trust-signals",
         "variant": "credentials"
@@ -20122,6 +20127,28 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Was uns auszeichnet"
       },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "$img": "office.exterior"
+          },
+          {
+            "$img": "office.reception"
+          },
+          {
+            "$img": "office.meetingRoom"
+          },
+          {
+            "$img": "office.signing"
+          },
+          {
+            "$img": "office.teamHuddle"
+          }
+        ],
+        "subtitle": "Wo Beratung, Unterzeichnung und Bank tatsächlich stattfinden. KI-Platzhalter unten — vor Launch durch echte Fotos ersetzen.",
+        "title": "Unser Büro in Asunción"
+      },
       "hero": {
         "headline": "Über Nexa Paraguay",
         "subheadline": "Keine Verwaltungsagentur. Ein integriertes System."
@@ -20131,26 +20158,37 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Über Nexa Paraguay"
       },
       "team": {
+        "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json.",
         "members": [
           {
             "icon": "Briefcase",
+            "imageUrl": "@src:team.operationsDirector",
             "name": "Leitung Operations (Paraguay)",
             "role": "Operatives Leadership, institutionelle Beziehungen"
           },
           {
             "icon": "Globe",
+            "imageUrl": "@src:team.commercialDirector",
             "name": "Leitung Commercial (Europa)",
             "role": "Kundengewinnung, kulturelle Brücke"
           },
           {
             "icon": "Scale",
+            "imageUrl": "@src:team.legalLead",
             "name": "Juristisches Team",
             "role": "Migrationsakten, Gesellschaftsgründung"
           },
           {
             "icon": "Calculator",
+            "imageUrl": "@src:team.accountingLead",
             "name": "Steuerteam",
             "role": "Steuerliches Management, Compliance"
+          },
+          {
+            "icon": "UserCheck",
+            "imageUrl": "@src:team.clientSuccess",
+            "name": "Client Success",
+            "role": "Onboarding, Koordination, langfristige Betreuung"
           }
         ],
         "title": "Unser Team"
@@ -21212,6 +21250,28 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "What sets us apart"
       },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "$img": "office.exterior"
+          },
+          {
+            "$img": "office.reception"
+          },
+          {
+            "$img": "office.meetingRoom"
+          },
+          {
+            "$img": "office.signing"
+          },
+          {
+            "$img": "office.teamHuddle"
+          }
+        ],
+        "subtitle": "Where consultation, signing and banking actually happen. AI placeholders below — swap for real photos before launch.",
+        "title": "Our office in Asunción"
+      },
       "hero": {
         "headline": "About Nexa Paraguay",
         "subheadline": "Not an administrative agency. An integrated system."
@@ -21221,26 +21281,37 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "About Nexa Paraguay"
       },
       "team": {
+        "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json.",
         "members": [
           {
             "icon": "Briefcase",
+            "imageUrl": "@src:team.operationsDirector",
             "name": "Operations Director (Paraguay)",
             "role": "Operational leadership, institutional relationships"
           },
           {
             "icon": "Globe",
+            "imageUrl": "@src:team.commercialDirector",
             "name": "Commercial Director (Europe)",
             "role": "Client acquisition, cultural bridge"
           },
           {
             "icon": "Scale",
+            "imageUrl": "@src:team.legalLead",
             "name": "Legal team",
             "role": "Immigration files, company incorporation"
           },
           {
             "icon": "Calculator",
+            "imageUrl": "@src:team.accountingLead",
             "name": "Accounting team",
             "role": "Tax management, compliance"
+          },
+          {
+            "icon": "UserCheck",
+            "imageUrl": "@src:team.clientSuccess",
+            "name": "Client Success",
+            "role": "Onboarding, coordination, long-term support"
           }
         ],
         "title": "Our team"
@@ -22271,6 +22342,28 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Qué nos hace diferentes"
       },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "$img": "office.exterior"
+          },
+          {
+            "$img": "office.reception"
+          },
+          {
+            "$img": "office.meetingRoom"
+          },
+          {
+            "$img": "office.signing"
+          },
+          {
+            "$img": "office.teamHuddle"
+          }
+        ],
+        "subtitle": "Donde consulta, firma y banco realmente ocurren. Placeholders de IA abajo — reemplazar por fotos reales antes del lanzamiento.",
+        "title": "Nuestra oficina en Asunción"
+      },
       "hero": {
         "headline": "Sobre Nexa Paraguay",
         "subheadline": "No somos una gestoría. Somos un sistema integral."
@@ -22280,26 +22373,37 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Sobre Nexa Paraguay"
       },
       "team": {
+        "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json.",
         "members": [
           {
             "icon": "Briefcase",
+            "imageUrl": "@src:team.operationsDirector",
             "name": "Dirección de Operaciones (Paraguay)",
             "role": "Liderazgo operativo, relaciones institucionales"
           },
           {
             "icon": "Globe",
+            "imageUrl": "@src:team.commercialDirector",
             "name": "Dirección Comercial (Europa)",
             "role": "Adquisición de clientes, puente cultural"
           },
           {
             "icon": "Scale",
+            "imageUrl": "@src:team.legalLead",
             "name": "Equipo Legal",
             "role": "Expedientes migratorios, constitución societaria"
           },
           {
             "icon": "Calculator",
+            "imageUrl": "@src:team.accountingLead",
             "name": "Equipo Contable",
             "role": "Gestión fiscal, cumplimiento tributario"
+          },
+          {
+            "icon": "UserCheck",
+            "imageUrl": "@src:team.clientSuccess",
+            "name": "Client Success",
+            "role": "Onboarding, coordinación y acompañamiento a largo plazo"
           }
         ],
         "title": "Nuestro equipo"
@@ -23395,6 +23499,28 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Wat ons onderscheidt"
       },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "$img": "office.exterior"
+          },
+          {
+            "$img": "office.reception"
+          },
+          {
+            "$img": "office.meetingRoom"
+          },
+          {
+            "$img": "office.signing"
+          },
+          {
+            "$img": "office.teamHuddle"
+          }
+        ],
+        "subtitle": "Waar consult, ondertekening en bank daadwerkelijk plaatsvinden. AI-placeholders hieronder — vervang voor echte foto's vóór de launch.",
+        "title": "Ons kantoor in Asunción"
+      },
       "hero": {
         "headline": "Over Nexa Paraguay",
         "subheadline": "Geen administratief kantoor. Een integraal systeem."
@@ -23404,26 +23530,37 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Over Nexa Paraguay"
       },
       "team": {
+        "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json.",
         "members": [
           {
             "icon": "Briefcase",
+            "imageUrl": "@src:team.operationsDirector",
             "name": "Operationele directie (Paraguay)",
             "role": "Operationeel leiderschap, institutionele relaties"
           },
           {
             "icon": "Globe",
+            "imageUrl": "@src:team.commercialDirector",
             "name": "Commerciële directie (Europa)",
             "role": "Klantacquisitie, culturele brug"
           },
           {
             "icon": "Scale",
+            "imageUrl": "@src:team.legalLead",
             "name": "Juridisch team",
             "role": "Migratiedossiers, oprichting vennootschap"
           },
           {
             "icon": "Calculator",
+            "imageUrl": "@src:team.accountingLead",
             "name": "Boekhoudteam",
             "role": "Fiscaal beheer, compliance"
+          },
+          {
+            "icon": "UserCheck",
+            "imageUrl": "@src:team.clientSuccess",
+            "name": "Client Success",
+            "role": "Onboarding, coördinatie, begeleiding op lange termijn"
           }
         ],
         "title": "Ons team"

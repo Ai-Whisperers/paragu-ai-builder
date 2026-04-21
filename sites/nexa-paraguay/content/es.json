@@ -750,24 +750,35 @@
         {
           "name": "Dirección de Operaciones (Paraguay)",
           "role": "Liderazgo operativo, relaciones institucionales",
-          "icon": "Briefcase"
+          "icon": "Briefcase",
+          "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Dirección Comercial (Europa)",
           "role": "Adquisición de clientes, puente cultural",
-          "icon": "Globe"
+          "icon": "Globe",
+          "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Equipo Legal",
           "role": "Expedientes migratorios, constitución societaria",
-          "icon": "Scale"
+          "icon": "Scale",
+          "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Equipo Contable",
           "role": "Gestión fiscal, cumplimiento tributario",
-          "icon": "Calculator"
+          "icon": "Calculator",
+          "imageUrl": "@src:team.accountingLead"
+        },
+        {
+          "name": "Client Success",
+          "role": "Onboarding, coordinación y acompañamiento a largo plazo",
+          "icon": "UserCheck",
+          "imageUrl": "@src:team.clientSuccess"
         }
-      ]
+      ],
+      "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json."
     },
     "trust": {
       "eyebrow": "Por qué Nexa Paraguay",
@@ -800,6 +811,28 @@
       "subtitle": "Agende una consulta gratuita de 30 minutos.",
       "buttonText": "Agendar consulta",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
+    },
+    "gallery": {
+      "title": "Nuestra oficina en Asunción",
+      "subtitle": "Donde consulta, firma y banco realmente ocurren. Placeholders de IA abajo — reemplazar por fotos reales antes del lanzamiento.",
+      "columns": 3,
+      "images": [
+        {
+          "$img": "office.exterior"
+        },
+        {
+          "$img": "office.reception"
+        },
+        {
+          "$img": "office.meetingRoom"
+        },
+        {
+          "$img": "office.signing"
+        },
+        {
+          "$img": "office.teamHuddle"
+        }
+      ]
     }
   },
   "faqPage": {
