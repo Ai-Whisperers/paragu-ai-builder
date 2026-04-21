@@ -1591,7 +1591,7 @@
     "guides": {
       "title": "Downloadbare gidsen",
       "subtitle": "Nuttige documenten om uw dossier voor te bereiden en het proces te begrijpen.",
-      "items": [
+      "features": [
         {
           "icon": "FileText",
           "title": "Documentenchecklist",
