@@ -45,4 +45,15 @@ One file per pageable alert. A runbook tells the on-call engineer: *what fired, 
 
 ## Existing runbooks
 
-_None yet — this folder is a placeholder for the first alert-driven writeup. Observability primitives live in [../observability/](../observability/); this folder is for the response playbooks._
+### Operational (alert-driven)
+
+- [`ROLLBACK.md`](./ROLLBACK.md) — Last deploy broke prod
+- [`ENV_VARS.md`](./ENV_VARS.md) — Rotating secrets across envs
+- [`CRON_STRATEGY.md`](./CRON_STRATEGY.md) — Cron schedule + failure modes
+
+### Onboarding (lifecycle)
+
+- [`ADD_NEW_TENANT.md`](./ADD_NEW_TENANT.md) — Promote a business onto ParaguAI
+- [`ADD_NEW_VERTICAL.md`](./ADD_NEW_VERTICAL.md) — Add a new industry vertical
+
+Observability primitives live in [../observability/](../observability/); this folder is for the response playbooks.
