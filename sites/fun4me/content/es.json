@@ -675,9 +675,9 @@
     "legalHref": "/fun4me/legal"
   },
   "whatsapp": {
-    "number": "595976569739",
     "message": "Hola! Quiero consultar sobre un producto.",
-    "label": "Chat con Fun4Me"
+    "label": "Chat con Fun4Me",
+    "phone": "595976569739"
   },
   "store": {
     "seo": {

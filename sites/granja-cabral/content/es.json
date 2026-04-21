@@ -110,9 +110,18 @@
       "title": "Sobre Granja Cabral",
       "content": "Somos una granja familiar en Coronel Oviedo dedicada a la produccion local de huevos frescos. Nuestras gallinas son criadas en ambiente natural, con alimentacion balanceada y cuidado diario. Recolectamos los huevos todos los dias para garantizar maxima frescura.",
       "stats": [
-        { "value": "500+", "label": "Gallinas ponedoras" },
-        { "value": "100%", "label": "Produccion local" },
-        { "value": "Diario", "label": "Recoleccion fresca" }
+        {
+          "value": "500+",
+          "label": "Gallinas ponedoras"
+        },
+        {
+          "value": "100%",
+          "label": "Produccion local"
+        },
+        {
+          "value": "Diario",
+          "label": "Recoleccion fresca"
+        }
       ]
     },
     "team": {
@@ -185,11 +194,26 @@
           ]
         },
         "stats": [
-          { "value": "500+", "label": "Gallinas ponedoras" },
-          { "value": "100%", "label": "Produccion local" },
-          { "value": "Diario", "label": "Recoleccion fresca" },
-          { "value": "300+", "label": "Negocios atendidos" },
-          { "value": "4-5", "label": "Semanas de frescura" }
+          {
+            "value": "500+",
+            "label": "Gallinas ponedoras"
+          },
+          {
+            "value": "100%",
+            "label": "Produccion local"
+          },
+          {
+            "value": "Diario",
+            "label": "Recoleccion fresca"
+          },
+          {
+            "value": "300+",
+            "label": "Negocios atendidos"
+          },
+          {
+            "value": "4-5",
+            "label": "Semanas de frescura"
+          }
         ],
         "sustainability": {
           "composting": true,
@@ -208,10 +232,22 @@
           "delivery": "/sites/granja-cabral/images/trust/delivery.png"
         },
         "process": [
-          { "step": "Recolección diaria", "imageUrl": "/sites/granja-cabral/images/process/recoleccion.png" },
-          { "step": "Selección y control de calidad", "imageUrl": "/sites/granja-cabral/images/process/seleccion.png" },
-          { "step": "Empaque cuidadoso", "imageUrl": "/sites/granja-cabral/images/process/empaque.png" },
-          { "step": "Entrega puntual", "imageUrl": "/sites/granja-cabral/images/process/entrega.png" }
+          {
+            "step": "Recolección diaria",
+            "imageUrl": "/sites/granja-cabral/images/process/recoleccion.png"
+          },
+          {
+            "step": "Selección y control de calidad",
+            "imageUrl": "/sites/granja-cabral/images/process/seleccion.png"
+          },
+          {
+            "step": "Empaque cuidadoso",
+            "imageUrl": "/sites/granja-cabral/images/process/empaque.png"
+          },
+          {
+            "step": "Entrega puntual",
+            "imageUrl": "/sites/granja-cabral/images/process/entrega.png"
+          }
         ],
         "gallery": [
           "/sites/granja-cabral/images/gallery/coop.png",
@@ -231,9 +267,18 @@
         "city": "Coronel Oviedo",
         "heroImage": "/sites/granja-cabral/images/b2b/hero.png",
         "industries": [
-          { "name": "Panaderías", "imageUrl": "/sites/granja-cabral/images/b2b/panaderia.png" },
-          { "name": "Restaurantes", "imageUrl": "/sites/granja-cabral/images/b2b/restaurante.png" },
-          { "name": "Supermercados", "imageUrl": "/sites/granja-cabral/images/b2b/supermercado.png" }
+          {
+            "name": "Panaderías",
+            "imageUrl": "/sites/granja-cabral/images/b2b/panaderia.png"
+          },
+          {
+            "name": "Restaurantes",
+            "imageUrl": "/sites/granja-cabral/images/b2b/restaurante.png"
+          },
+          {
+            "name": "Supermercados",
+            "imageUrl": "/sites/granja-cabral/images/b2b/supermercado.png"
+          }
         ]
       }
     },
@@ -265,6 +310,7 @@
     "copyright": "© 2026 Granja Cabral"
   },
   "whatsapp": {
-    "defaultMessage": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas información?"
+    "phone": "+595981324569",
+    "message": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas información?"
   }
 }

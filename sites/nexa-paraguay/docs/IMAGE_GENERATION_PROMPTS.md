@@ -474,15 +474,7 @@ flag fabric swatch in the corner, all on a warm wooden desk surface, moody direc
 light, shallow DoF, symbolism of residency.
 ```
 
-### 37. `blog/comparativa-fiscal.jpg` — "Paraguay vs Uruguay fiscal"
-```
-Split-frame composition: left half a skyline silhouette of Asunción at golden hour,
-right half a skyline silhouette of Montevideo at blue hour, a thin champagne vertical
-divider between them, a subtle "10% / 25%" typographic treatment suggested in negative
-space but not rendered as legible text, editorial infographic-photographic hybrid.
-```
-
-### 38. `blog/propiedades.jpg` — "Comprar propiedades en Paraguay"
+### 37. `blog/propiedades.jpg` — "Comprar propiedades en Paraguay"
 ```
 Elevated aerial photograph of a leafy Asunción residential neighborhood with a mix of
 modern condominium towers and gated houses, pools visible in gardens, warm afternoon
@@ -534,14 +526,6 @@ no legible school branding.
 Street-level photograph of a tree-lined residential street in Villa Morra at golden
 hour, a couple walking small dogs in the distance (not recognizable), boutique café
 on the corner, jacarandá trees in bloom, warm sunset light, charming and walkable.
-```
-
-### 45. `blog/paraguay-uruguay-panama.jpg` — "Paraguay vs Uruguay vs Panama"
-```
-Minimalist editorial graphic-photograph: a wooden world globe rotated to South America
-with three push-pins (simple unbranded red-colored pins) stuck into Asunción, Montevideo,
-and Panama City, soft moody side-light, navy background, shallow DoF on the center pin
-(Paraguay).
 ```
 
 ---
@@ -1112,21 +1096,6 @@ When real partnerships ship, swap the placeholder labels for actual
 logos (obtain from the partner's brand guidelines, don't scrape).
 
 ## P4.6 — Standalone comparison infographic
-
-### 26. `infographics/paraguay-vs-uruguay-panama.png` — aspect 4:3
-```
-Editorial comparison infographic, 3-column layout, one country per
-column (Paraguay, Uruguay, Panama), column headers as minimal flag
-strips in brand navy/champagne palette (not national flag colors),
-5 rows comparing: income tax rate, VAT, patrimony tax, dividends tax,
-residency timeline. Rows use numeric callouts + tiny icons. Source
-footnote in small italic at bottom. Feels like The Economist's Pocket
-World in Figures — tight typographic grid, disciplined use of accent
-colour on only the "winner" cell per row.
-```
-
-**Wiring:** hero of the matching blog post + standalone on
-`/por-que-paraguay` + downloadable PDF on `/prensa`.
 
 ---
 
