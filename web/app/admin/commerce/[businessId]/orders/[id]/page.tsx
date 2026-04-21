@@ -51,6 +51,18 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
               {order.shippingAddress.city}
               {order.shippingAddress.department ? `, ${order.shippingAddress.department}` : ''}
             </p>
+            {order.trackingCarrier || order.trackingNumber ? (
+              <div className="mt-3 rounded bg-[color:var(--surface-muted,#f9fafb)] p-3 text-sm">
+                <p className="text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Seguimiento</p>
+                {order.trackingCarrier ? <p>{order.trackingCarrier}</p> : null}
+                {order.trackingNumber ? <p className="font-mono">{order.trackingNumber}</p> : null}
+                {order.trackingUrl ? (
+                  <a href={order.trackingUrl} target="_blank" rel="noopener noreferrer" className="text-xs text-[color:var(--primary,#111)] underline">
+                    Abrir en transportista →
+                  </a>
+                ) : null}
+              </div>
+            ) : null}
           </section>
         ) : null}
 
