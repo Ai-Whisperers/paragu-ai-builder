@@ -288,6 +288,21 @@ const buildContact: SectionBuilder = ({ business, content }) => {
   }
 }
 
+const buildCommerceCatalog: SectionBuilder = ({ business, content }) => {
+  // Full DB-backed grid for path-based tenant routes that want the tienda
+  // experience inline on a marketing page. The component fetches products
+  // at render time; builder emits only the siteSlug and display copy.
+  const cfg = (content as { commerceCatalog?: { title?: string; subtitle?: string; viewAllText?: string; limit?: number } }).commerceCatalog
+  return {
+    siteSlug: business.slug,
+    businessName: business.name,
+    title: cfg?.title ?? 'Nuestros productos',
+    subtitle: cfg?.subtitle,
+    viewAllText: cfg?.viewAllText ?? 'Ver catálogo completo',
+    limit: typeof cfg?.limit === 'number' ? Math.max(1, Math.min(96, cfg.limit)) : 24,
+  }
+}
+
 const buildFeaturedProducts: SectionBuilder = ({ business, content }) => {
   // Render-time section: the actual products are fetched from the commerce
   // DB inside the React component, not here. The builder just emits the
@@ -541,6 +556,7 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   emergencyIndicator: buildEmergencyIndicator,
   productCatalog: buildProductCatalog,
   featuredProducts: buildFeaturedProducts,
+  commerceCatalog: buildCommerceCatalog,
   gallery: buildGallery,
   team: buildTeam,
   testimonials: buildTestimonials,

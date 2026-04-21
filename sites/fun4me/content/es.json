@@ -21,14 +21,38 @@
   "navigation": {
     "businessName": "Fun4Me",
     "items": [
-      { "label": "Inicio", "href": "/" },
-      { "label": "Tienda", "href": "/fun4me/store" },
-      { "label": "Kits", "href": "/fun4me/bundles" },
-      { "label": "Cajas Mensuales", "href": "/fun4me/suscripciones" },
-      { "label": "Blog", "href": "/fun4me/blog" },
-      { "label": "Regalá", "href": "/fun4me/gift-cards" },
-      { "label": "Placer Plus", "href": "/fun4me/placer-plus" },
-      { "label": "Contacto", "href": "#contact" }
+      {
+        "label": "Inicio",
+        "href": "/"
+      },
+      {
+        "label": "Tienda",
+        "href": "/fun4me/store"
+      },
+      {
+        "label": "Kits",
+        "href": "/fun4me/bundles"
+      },
+      {
+        "label": "Cajas Mensuales",
+        "href": "/fun4me/suscripciones"
+      },
+      {
+        "label": "Blog",
+        "href": "/fun4me/blog"
+      },
+      {
+        "label": "Regalá",
+        "href": "/fun4me/gift-cards"
+      },
+      {
+        "label": "Placer Plus",
+        "href": "/fun4me/placer-plus"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contact"
+      }
     ],
     "ctaText": "WhatsApp",
     "ctaHref": "https://wa.me/595976569739"
@@ -55,9 +79,18 @@
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
     "trustBadges": [
-      { "icon": "truck", "text": "Envio a Todo el Pais" },
-      { "icon": "shield", "text": "Pago Seguro" },
-      { "icon": "package", "text": "Empaque Discreto" }
+      {
+        "icon": "truck",
+        "text": "Envio a Todo el Pais"
+      },
+      {
+        "icon": "shield",
+        "text": "Pago Seguro"
+      },
+      {
+        "icon": "package",
+        "text": "Empaque Discreto"
+      }
     ],
     "features": {
       "badge": "Nuestras Ventajas",
@@ -95,14 +128,54 @@
       "title": "Categorias Destacadas",
       "subtitle": "Todo lo que necesitas para disfrutar",
       "items": [
-        { "id": "vibradores", "name": "Vibradores", "icon": "sparkles", "description": "Desde clasicos hasta tecnologia de punta" },
-        { "id": "dildos", "name": "Dildos", "icon": "adjustments-vertical", "description": "Realistas, fantasy y de todas las formas" },
-        { "id": "anal", "name": "Juguetes Anales", "icon": "arrow-uturn-down", "description": "Explora nuevos territorios de placer" },
-        { "id": "parejas", "name": "Para Parejas", "icon": "heart", "description": "Juguetes disenados para compartir" },
-        { "id": "bdsm", "name": "BDSM & Fetish", "icon": "link", "description": "Equipamiento para juegos de poder" },
-        { "id": "lenceria", "name": "Lenceria", "icon": "gift", "description": "Piezas sensuales y provocativas" },
-        { "id": "lubricantes", "name": "Lubricantes", "icon": "beaker", "description": "Mejora cada experiencia" },
-        { "id": "bienestar", "name": "Bienestar Intimo", "icon": "shield-check", "description": "Cuidado y salud sexual" }
+        {
+          "id": "vibradores",
+          "name": "Vibradores",
+          "icon": "sparkles",
+          "description": "Desde clasicos hasta tecnologia de punta"
+        },
+        {
+          "id": "dildos",
+          "name": "Dildos",
+          "icon": "adjustments-vertical",
+          "description": "Realistas, fantasy y de todas las formas"
+        },
+        {
+          "id": "anal",
+          "name": "Juguetes Anales",
+          "icon": "arrow-uturn-down",
+          "description": "Explora nuevos territorios de placer"
+        },
+        {
+          "id": "parejas",
+          "name": "Para Parejas",
+          "icon": "heart",
+          "description": "Juguetes disenados para compartir"
+        },
+        {
+          "id": "bdsm",
+          "name": "BDSM & Fetish",
+          "icon": "link",
+          "description": "Equipamiento para juegos de poder"
+        },
+        {
+          "id": "lenceria",
+          "name": "Lenceria",
+          "icon": "gift",
+          "description": "Piezas sensuales y provocativas"
+        },
+        {
+          "id": "lubricantes",
+          "name": "Lubricantes",
+          "icon": "beaker",
+          "description": "Mejora cada experiencia"
+        },
+        {
+          "id": "bienestar",
+          "name": "Bienestar Intimo",
+          "icon": "shield-check",
+          "description": "Cuidado y salud sexual"
+        }
       ],
       "ctaText": "Ver Todo el Catalogo",
       "ctaHref": "/fun4me/store"
@@ -110,10 +183,22 @@
     "stats": {
       "title": "Numeros que nos respaldan",
       "items": [
-        { "value": "7+", "label": "Anos de Experiencia" },
-        { "value": "5.000+", "label": "Clientes Satisfechos" },
-        { "value": "200+", "label": "Productos Disponibles" },
-        { "value": "100%", "label": "Envio Discreto" }
+        {
+          "value": "7+",
+          "label": "Anos de Experiencia"
+        },
+        {
+          "value": "5.000+",
+          "label": "Clientes Satisfechos"
+        },
+        {
+          "value": "200+",
+          "label": "Productos Disponibles"
+        },
+        {
+          "value": "100%",
+          "label": "Envio Discreto"
+        }
       ]
     },
     "testimonials": {
@@ -167,9 +252,18 @@
     "partners": {
       "title": "Marcas Disponibles",
       "logos": [
-        { "name": "Satisfyer", "image": "/branding/fun4me/images/partner-satisfyer.svg" },
-        { "name": "LELO", "image": "/branding/fun4me/images/partner-lelo.svg" },
-        { "name": "We-Vibe", "image": "/branding/fun4me/images/partner-wevibe.svg" }
+        {
+          "name": "Satisfyer",
+          "image": "/branding/fun4me/images/partner-satisfyer.svg"
+        },
+        {
+          "name": "LELO",
+          "image": "/branding/fun4me/images/partner-lelo.svg"
+        },
+        {
+          "name": "We-Vibe",
+          "image": "/branding/fun4me/images/partner-wevibe.svg"
+        }
       ]
     },
     "faq": {
@@ -243,10 +337,26 @@
       "text": "Ser la tienda de referencia en Paraguay para productos de adultos, reconocida por la calidad, la discrecion de nuestro servicio y la confianza que generamos en nuestros clientes."
     },
     "values": [
-      { "icon": "eye-slash", "title": "Discrecion Total", "text": "Entendemos la importancia de la privacidad. Desde el empaque hasta la facturacion, todo es 100% discreto." },
-      { "icon": "truck", "title": "Envio a Todo el Pais", "text": "Delivery rapido y seguro a cualquier punto de Paraguay con total confidencialidad." },
-      { "icon": "shield-check", "title": "Productos de Calidad", "text": "Seleccionamos productos de marcas reconocidas para garantizar tu satisfaccion y seguridad." },
-      { "icon": "heart", "title": "Atencion Sin Juicios", "text": "Nuestro equipo esta capacitado para asesorarte con respeto y profesionalismo." }
+      {
+        "icon": "eye-slash",
+        "title": "Discrecion Total",
+        "text": "Entendemos la importancia de la privacidad. Desde el empaque hasta la facturacion, todo es 100% discreto."
+      },
+      {
+        "icon": "truck",
+        "title": "Envio a Todo el Pais",
+        "text": "Delivery rapido y seguro a cualquier punto de Paraguay con total confidencialidad."
+      },
+      {
+        "icon": "shield-check",
+        "title": "Productos de Calidad",
+        "text": "Seleccionamos productos de marcas reconocidas para garantizar tu satisfaccion y seguridad."
+      },
+      {
+        "icon": "heart",
+        "title": "Atencion Sin Juicios",
+        "text": "Nuestro equipo esta capacitado para asesorarte con respeto y profesionalismo."
+      }
     ]
   },
   "legal": {
@@ -264,48 +374,120 @@
       "title": "Terminos y Condiciones",
       "subtitle": "Ultima actualizacion: 2026-05-01",
       "items": [
-        { "q": "Aceptacion de los terminos", "a": "Al usar paragu-ai.com/fun4me aceptas estos Terminos y nuestra Politica de Privacidad. Si no estas de acuerdo, no uses el sitio." },
-        { "q": "Edad minima", "a": "Este sitio es EXCLUSIVAMENTE para mayores de 18 anos. Al usarlo, declaras tener 18+ cumplidos y capacidad legal para contratar segun legislacion paraguaya. Proveer informacion falsa sobre edad cancela pedidos sin reembolso." },
-        { "q": "Precios y pagos", "a": "Precios en guaranies (PYG) con IVA incluido. Aceptamos tarjetas Visa/Mastercard via Pagopar, transferencia bancaria, Tigo Money, Personal Pay, y efectivo contra entrega solo en Asuncion. La descripcion en el estado de cuenta sera 'PAGOPAR - F4M COMERCIAL' o similar." },
-        { "q": "Envios", "a": "Asuncion y Gran Asuncion 24-72hs habiles. Interior 3-5 dias habiles. Express mismo dia con cargo adicional. Envio gratis en compras > Gs. 200.000. Empaque 100% discreto sin logos. La entrega requiere persona mayor de edad presente con documento." },
-        { "q": "Limitacion de responsabilidad", "a": "Fun4Me no se responsabiliza por uso indebido de productos (especialmente BDSM), reacciones alergicas no informadas, o daños derivados de no seguir instrucciones de uso. Nuestra responsabilidad maxima se limita al monto pagado por el producto." },
-        { "q": "Ley aplicable", "a": "Estos terminos se rigen por la legislacion de Paraguay. Jurisdiccion: tribunales ordinarios de Asuncion." }
+        {
+          "q": "Aceptacion de los terminos",
+          "a": "Al usar paragu-ai.com/fun4me aceptas estos Terminos y nuestra Politica de Privacidad. Si no estas de acuerdo, no uses el sitio."
+        },
+        {
+          "q": "Edad minima",
+          "a": "Este sitio es EXCLUSIVAMENTE para mayores de 18 anos. Al usarlo, declaras tener 18+ cumplidos y capacidad legal para contratar segun legislacion paraguaya. Proveer informacion falsa sobre edad cancela pedidos sin reembolso."
+        },
+        {
+          "q": "Precios y pagos",
+          "a": "Precios en guaranies (PYG) con IVA incluido. Aceptamos tarjetas Visa/Mastercard via Pagopar, transferencia bancaria, Tigo Money, Personal Pay, y efectivo contra entrega solo en Asuncion. La descripcion en el estado de cuenta sera 'PAGOPAR - F4M COMERCIAL' o similar."
+        },
+        {
+          "q": "Envios",
+          "a": "Asuncion y Gran Asuncion 24-72hs habiles. Interior 3-5 dias habiles. Express mismo dia con cargo adicional. Envio gratis en compras > Gs. 200.000. Empaque 100% discreto sin logos. La entrega requiere persona mayor de edad presente con documento."
+        },
+        {
+          "q": "Limitacion de responsabilidad",
+          "a": "Fun4Me no se responsabiliza por uso indebido de productos (especialmente BDSM), reacciones alergicas no informadas, o daños derivados de no seguir instrucciones de uso. Nuestra responsabilidad maxima se limita al monto pagado por el producto."
+        },
+        {
+          "q": "Ley aplicable",
+          "a": "Estos terminos se rigen por la legislacion de Paraguay. Jurisdiccion: tribunales ordinarios de Asuncion."
+        }
       ]
     },
     "privacy": {
       "title": "Politica de Privacidad",
       "subtitle": "Nunca vendemos tus datos. Envio discreto siempre.",
       "items": [
-        { "q": "Que datos recolectamos", "a": "Datos voluntarios: nombre, email, telefono, direccion de envio, fecha de nacimiento (verificacion de edad), preferencias. Datos tecnicos automaticos: IP truncada a 30 dias, navegador, paginas visitadas. NO recolectamos GPS, contactos del telefono, ni info financiera completa." },
-        { "q": "Para que usamos tus datos", "a": "Procesar tu pedido, facturacion electronica, notificaciones del pedido, atencion al cliente, recomendaciones (opcional), prevencion de fraude, cumplimiento legal. Nunca para publicidad externa ni venta a terceros." },
-        { "q": "Con quien compartimos", "a": "Solo con Pagopar (procesa pagos), transportistas (nombre/direccion/telefono), Google Analytics con IP anonimizada, SendGrid (emails). NUNCA con Facebook Pixel, Google Ads conversion, redes sociales, brokers de datos, otros anunciantes." },
-        { "q": "Tus derechos (Ley 6534/20)", "a": "Acceso a tus datos, rectificacion, borrado (derecho al olvido), oposicion al marketing, portabilidad en formato legible, limitacion del uso. Respondemos en max 15 dias habiles. Email: privacidad@fun4me.com.py" },
-        { "q": "Cuanto tiempo guardamos datos", "a": "Datos de cuenta activa: mientras la mantengas. Pedidos: 5 años (obligacion fiscal). Navegacion: 30 dias en bruto, luego agregados anonimos. Logs de seguridad: 90 dias. Marketing: hasta que te des de baja." },
-        { "q": "Seguridad", "a": "HTTPS en todo el sitio (TLS 1.3+), contraseñas hasheadas, acceso interno con 2FA, auditorias periodicas, backups cifrados. Si hay brecha de seguridad te avisamos en 72hs con que datos se vieron afectados y que medidas tomamos." }
+        {
+          "q": "Que datos recolectamos",
+          "a": "Datos voluntarios: nombre, email, telefono, direccion de envio, fecha de nacimiento (verificacion de edad), preferencias. Datos tecnicos automaticos: IP truncada a 30 dias, navegador, paginas visitadas. NO recolectamos GPS, contactos del telefono, ni info financiera completa."
+        },
+        {
+          "q": "Para que usamos tus datos",
+          "a": "Procesar tu pedido, facturacion electronica, notificaciones del pedido, atencion al cliente, recomendaciones (opcional), prevencion de fraude, cumplimiento legal. Nunca para publicidad externa ni venta a terceros."
+        },
+        {
+          "q": "Con quien compartimos",
+          "a": "Solo con Pagopar (procesa pagos), transportistas (nombre/direccion/telefono), Google Analytics con IP anonimizada, SendGrid (emails). NUNCA con Facebook Pixel, Google Ads conversion, redes sociales, brokers de datos, otros anunciantes."
+        },
+        {
+          "q": "Tus derechos (Ley 6534/20)",
+          "a": "Acceso a tus datos, rectificacion, borrado (derecho al olvido), oposicion al marketing, portabilidad en formato legible, limitacion del uso. Respondemos en max 15 dias habiles. Email: privacidad@fun4me.com.py"
+        },
+        {
+          "q": "Cuanto tiempo guardamos datos",
+          "a": "Datos de cuenta activa: mientras la mantengas. Pedidos: 5 años (obligacion fiscal). Navegacion: 30 dias en bruto, luego agregados anonimos. Logs de seguridad: 90 dias. Marketing: hasta que te des de baja."
+        },
+        {
+          "q": "Seguridad",
+          "a": "HTTPS en todo el sitio (TLS 1.3+), contraseñas hasheadas, acceso interno con 2FA, auditorias periodicas, backups cifrados. Si hay brecha de seguridad te avisamos en 72hs con que datos se vieron afectados y que medidas tomamos."
+        }
       ]
     },
     "returns": {
       "title": "Politica de Cambios y Devoluciones",
       "subtitle": "Que SI se puede cambiar y que no.",
       "items": [
-        { "q": "Producto defectuoso de fabrica", "a": "Contactanos en 24-48hs desde que recibis con foto/video. Reemplazo gratuito o reembolso completo segun stock. Retiramos el producto defectuoso sin costo." },
-        { "q": "Garantia de fabricante", "a": "Satisfyer: 15 años lineas premium, 2 años entry. LELO: 1 año. We-Vibe: 2 años. Otras marcas: segun empaque. Tiempo tipico de resolucion 30-60 dias." },
-        { "q": "Cambio de lenceria por talle", "a": "SI se puede en 7 dias si: no fue usada, etiquetas intactas, empaque original. Contactanos por WhatsApp, coordinamos retiro, te mandamos nuevo talle o reembolso. NO aplica a bombachas, tangas, medias (por higiene)." },
-        { "q": "Que NO admite devolucion", "a": "Por higiene sanitaria: juguetes sexuales abiertos/usados, lubricantes abiertos, preservativos, bombachas/tangas/medias, mordazas, enemas, gift cards." },
-        { "q": "Reembolsos", "a": "Tarjeta: 7-10 dias habiles. Transferencia: 3-5 dias. Tigo Money/Personal Pay: 1-2 dias. Efectivo contra entrega: devolucion por transferencia (requerimos CBU). Sin comision por reembolso." },
-        { "q": "Envios fallidos", "a": "Si no estas en 3 intentos: paquete vuelve, cargo administrativo Gs. 25.000. Podes pedir re-envio (pagando nuevo envio) o reembolso descontando el cargo administrativo." }
+        {
+          "q": "Producto defectuoso de fabrica",
+          "a": "Contactanos en 24-48hs desde que recibis con foto/video. Reemplazo gratuito o reembolso completo segun stock. Retiramos el producto defectuoso sin costo."
+        },
+        {
+          "q": "Garantia de fabricante",
+          "a": "Satisfyer: 15 años lineas premium, 2 años entry. LELO: 1 año. We-Vibe: 2 años. Otras marcas: segun empaque. Tiempo tipico de resolucion 30-60 dias."
+        },
+        {
+          "q": "Cambio de lenceria por talle",
+          "a": "SI se puede en 7 dias si: no fue usada, etiquetas intactas, empaque original. Contactanos por WhatsApp, coordinamos retiro, te mandamos nuevo talle o reembolso. NO aplica a bombachas, tangas, medias (por higiene)."
+        },
+        {
+          "q": "Que NO admite devolucion",
+          "a": "Por higiene sanitaria: juguetes sexuales abiertos/usados, lubricantes abiertos, preservativos, bombachas/tangas/medias, mordazas, enemas, gift cards."
+        },
+        {
+          "q": "Reembolsos",
+          "a": "Tarjeta: 7-10 dias habiles. Transferencia: 3-5 dias. Tigo Money/Personal Pay: 1-2 dias. Efectivo contra entrega: devolucion por transferencia (requerimos CBU). Sin comision por reembolso."
+        },
+        {
+          "q": "Envios fallidos",
+          "a": "Si no estas en 3 intentos: paquete vuelve, cargo administrativo Gs. 25.000. Podes pedir re-envio (pagando nuevo envio) o reembolso descontando el cargo administrativo."
+        }
       ]
     },
     "ageCompliance": {
       "title": "Verificacion de Edad (18+)",
       "subtitle": "Por que preguntamos tu edad y como la verificamos.",
       "items": [
-        { "q": "Por que verificamos edad", "a": "Paraguay establece mayoria de edad para contratar a los 18 años (Codigo Civil). Ley 1680/01 prohibe contenido sexualmente explicito dirigido a menores. Aplicamos ademas estandares internacionales 18+ universal." },
-        { "q": "Modal al ingresar", "a": "Primer contacto: modal obligatorio 'Soy mayor de 18' o 'Salir'. Registramos confirmacion por cookie 30 dias. Si borras cookies, aparece nuevamente." },
-        { "q": "Al crear cuenta", "a": "Solicitamos fecha de nacimiento. Si la edad calculada < 18 la cuenta se rechaza automaticamente. Queda registrado para auditoria y regalo de cumpleaños." },
-        { "q": "Al comprar", "a": "Confirmacion adicional de mayoria de edad. Para pedidos > Gs. 500.000 puede solicitarse documento. La entrega requiere firma de persona mayor de edad con documento." },
-        { "q": "Contenido del sitio", "a": "Paginas de producto con imagenes NO explicitas (producto sobre fondo neutro, sin modelo humano en uso). Blog y paginas educativas: contenido informativo, sin imagenes explicitas." },
-        { "q": "Si detectamos un menor", "a": "Cuenta cerrada inmediatamente, datos eliminados, pedidos cancelados con reembolso, notificacion a padre/madre si email familiar detectable. Denuncias: compliance@fun4me.com.py" }
+        {
+          "q": "Por que verificamos edad",
+          "a": "Paraguay establece mayoria de edad para contratar a los 18 años (Codigo Civil). Ley 1680/01 prohibe contenido sexualmente explicito dirigido a menores. Aplicamos ademas estandares internacionales 18+ universal."
+        },
+        {
+          "q": "Modal al ingresar",
+          "a": "Primer contacto: modal obligatorio 'Soy mayor de 18' o 'Salir'. Registramos confirmacion por cookie 30 dias. Si borras cookies, aparece nuevamente."
+        },
+        {
+          "q": "Al crear cuenta",
+          "a": "Solicitamos fecha de nacimiento. Si la edad calculada < 18 la cuenta se rechaza automaticamente. Queda registrado para auditoria y regalo de cumpleaños."
+        },
+        {
+          "q": "Al comprar",
+          "a": "Confirmacion adicional de mayoria de edad. Para pedidos > Gs. 500.000 puede solicitarse documento. La entrega requiere firma de persona mayor de edad con documento."
+        },
+        {
+          "q": "Contenido del sitio",
+          "a": "Paginas de producto con imagenes NO explicitas (producto sobre fondo neutro, sin modelo humano en uso). Blog y paginas educativas: contenido informativo, sin imagenes explicitas."
+        },
+        {
+          "q": "Si detectamos un menor",
+          "a": "Cuenta cerrada inmediatamente, datos eliminados, pedidos cancelados con reembolso, notificacion a padre/madre si email familiar detectable. Denuncias: compliance@fun4me.com.py"
+        }
       ]
     },
     "cta": {
@@ -342,19 +524,53 @@
       "title": "Kits Curados",
       "subtitle": "Combinaciones pensadas para ahorrar y empezar bien.",
       "items": [
-        { "name": "Para la Primera Vez", "price": "Gs. 449.000", "description": "Kit completo de iniciacion con guia digital." },
-        { "name": "Kit Parejas Clasico", "price": "Gs. 979.000", "description": "Productos pensados para explorar en pareja." },
-        { "name": "Kit Aniversario", "price": "Gs. 1.079.000", "description": "Regalo premium con envoltorio gratis." }
+        {
+          "name": "Para la Primera Vez",
+          "price": "Gs. 449.000",
+          "description": "Kit completo de iniciacion con guia digital."
+        },
+        {
+          "name": "Kit Parejas Clasico",
+          "price": "Gs. 979.000",
+          "description": "Productos pensados para explorar en pareja."
+        },
+        {
+          "name": "Kit Aniversario",
+          "price": "Gs. 1.079.000",
+          "description": "Regalo premium con envoltorio gratis."
+        }
       ]
     },
     "trust": {
       "title": "Por que comprar acá",
       "items": [
-        { "icon": "shield", "title": "Pago seguro", "text": "Procesado por Pagopar con estandar PCI-DSS." },
-        { "icon": "package", "title": "Empaque discreto", "text": "Sin logos, sin referencias, sin curiosos." },
-        { "icon": "truck", "title": "Envio rapido", "text": "24-48hs Asuncion, 3-5 dias interior." },
-        { "icon": "heart", "title": "Atencion sin juicios", "text": "Equipo capacitado para asesorarte." }
+        {
+          "icon": "shield",
+          "title": "Pago seguro",
+          "text": "Procesado por Pagopar con estandar PCI-DSS."
+        },
+        {
+          "icon": "package",
+          "title": "Empaque discreto",
+          "text": "Sin logos, sin referencias, sin curiosos."
+        },
+        {
+          "icon": "truck",
+          "title": "Envio rapido",
+          "text": "24-48hs Asuncion, 3-5 dias interior."
+        },
+        {
+          "icon": "heart",
+          "title": "Atencion sin juicios",
+          "text": "Equipo capacitado para asesorarte."
+        }
       ]
+    },
+    "catalog": {
+      "title": "Todo el catálogo",
+      "subtitle": "Explorá nuestros productos. Agregalos al carrito y pagá con envío discreto.",
+      "viewAllText": "Ver más productos",
+      "limit": 24
     }
   },
   "bundles": {
@@ -373,20 +589,56 @@
       "title": "Nuestros Kits",
       "subtitle": "Elegi el que mejor se adapta a lo que buscas.",
       "items": [
-        { "name": "Para la Primera Vez", "price": "Gs. 449.000", "description": "Vibrador Satisfyer Pro 2 + lubricante agua + limpiador + guia. Ahorro de Gs. 54.000." },
-        { "name": "Kit Parejas Clasico", "price": "Gs. 979.000", "description": "We-Vibe Chorus + lubricante + aceite masaje + antifaz. Ahorro Gs. 116.000." },
-        { "name": "Kit Aniversario", "price": "Gs. 1.079.000", "description": "LELO Sona 2 + lubricante silicona + vela masaje + lenceria + tarjeta regalo. Ahorro Gs. 121.000." },
-        { "name": "Kit Descubrimiento Solo", "price": "Gs. 529.000", "description": "Satisfyer Curvy 3 + bullet + lubricante + limpiador + bolsa discreta. Ahorro Gs. 79.000." },
-        { "name": "Kit BDSM Iniciacion", "price": "Gs. 199.000", "description": "Esposas velcro + antifaz + pluma + paleta suave + guia consenso. Ahorro Gs. 41.000." }
+        {
+          "name": "Para la Primera Vez",
+          "price": "Gs. 449.000",
+          "description": "Vibrador Satisfyer Pro 2 + lubricante agua + limpiador + guia. Ahorro de Gs. 54.000."
+        },
+        {
+          "name": "Kit Parejas Clasico",
+          "price": "Gs. 979.000",
+          "description": "We-Vibe Chorus + lubricante + aceite masaje + antifaz. Ahorro Gs. 116.000."
+        },
+        {
+          "name": "Kit Aniversario",
+          "price": "Gs. 1.079.000",
+          "description": "LELO Sona 2 + lubricante silicona + vela masaje + lenceria + tarjeta regalo. Ahorro Gs. 121.000."
+        },
+        {
+          "name": "Kit Descubrimiento Solo",
+          "price": "Gs. 529.000",
+          "description": "Satisfyer Curvy 3 + bullet + lubricante + limpiador + bolsa discreta. Ahorro Gs. 79.000."
+        },
+        {
+          "name": "Kit BDSM Iniciacion",
+          "price": "Gs. 199.000",
+          "description": "Esposas velcro + antifaz + pluma + paleta suave + guia consenso. Ahorro Gs. 41.000."
+        }
       ]
     },
     "benefits": {
       "title": "Por que elegir un kit",
       "features": [
-        { "icon": "savings", "title": "Ahorras plata", "description": "Descuento de 10-15% vs comprar por separado." },
-        { "icon": "check", "title": "Combinaciones pensadas", "description": "Productos que funcionan juntos, elegidos por nuestro equipo." },
-        { "icon": "book", "title": "Guias incluidas", "description": "PDFs con instrucciones de uso, seguridad y recomendaciones." },
-        { "icon": "gift", "title": "Listos para regalar", "description": "Envoltorio discreto disponible. Tarjeta regalo opcional." }
+        {
+          "icon": "savings",
+          "title": "Ahorras plata",
+          "description": "Descuento de 10-15% vs comprar por separado."
+        },
+        {
+          "icon": "check",
+          "title": "Combinaciones pensadas",
+          "description": "Productos que funcionan juntos, elegidos por nuestro equipo."
+        },
+        {
+          "icon": "book",
+          "title": "Guias incluidas",
+          "description": "PDFs con instrucciones de uso, seguridad y recomendaciones."
+        },
+        {
+          "icon": "gift",
+          "title": "Listos para regalar",
+          "description": "Envoltorio discreto disponible. Tarjeta regalo opcional."
+        }
       ]
     }
   },
@@ -402,41 +654,107 @@
     "denominations": {
       "title": "Elegi el monto",
       "items": [
-        { "name": "Gs. 100.000", "price": "Gs. 100.000", "description": "Para probar algo pequeño." },
-        { "name": "Gs. 150.000", "price": "Gs. 150.000", "description": "La opcion mas popular." },
-        { "name": "Gs. 200.000", "price": "Gs. 200.000", "description": "Incluye envio gratis." },
-        { "name": "Gs. 300.000", "price": "Gs. 300.000", "description": "Para un regalo generoso." },
-        { "name": "Gs. 500.000", "price": "Gs. 500.000", "description": "Experiencia completa." },
-        { "name": "Gs. 1.000.000", "price": "Gs. 1.000.000", "description": "Carta blanca total." }
+        {
+          "name": "Gs. 100.000",
+          "price": "Gs. 100.000",
+          "description": "Para probar algo pequeño."
+        },
+        {
+          "name": "Gs. 150.000",
+          "price": "Gs. 150.000",
+          "description": "La opcion mas popular."
+        },
+        {
+          "name": "Gs. 200.000",
+          "price": "Gs. 200.000",
+          "description": "Incluye envio gratis."
+        },
+        {
+          "name": "Gs. 300.000",
+          "price": "Gs. 300.000",
+          "description": "Para un regalo generoso."
+        },
+        {
+          "name": "Gs. 500.000",
+          "price": "Gs. 500.000",
+          "description": "Experiencia completa."
+        },
+        {
+          "name": "Gs. 1.000.000",
+          "price": "Gs. 1.000.000",
+          "description": "Carta blanca total."
+        }
       ]
     },
     "howItWorks": {
       "title": "Como funciona",
       "items": [
-        { "name": "1. Elegis el monto", "description": "Denominaciones preestablecidas o monto personalizado." },
-        { "name": "2. Seleccionas entrega", "description": "Email, reenvio por WhatsApp o tarjeta fisica." },
-        { "name": "3. Personalizas el mensaje", "description": "Mensaje opcional discreto (hasta 250 caracteres)." },
-        { "name": "4. Compras", "description": "Pagas online. Recibis/enviamos inmediatamente segun el metodo elegido." }
+        {
+          "name": "1. Elegis el monto",
+          "description": "Denominaciones preestablecidas o monto personalizado."
+        },
+        {
+          "name": "2. Seleccionas entrega",
+          "description": "Email, reenvio por WhatsApp o tarjeta fisica."
+        },
+        {
+          "name": "3. Personalizas el mensaje",
+          "description": "Mensaje opcional discreto (hasta 250 caracteres)."
+        },
+        {
+          "name": "4. Compras",
+          "description": "Pagas online. Recibis/enviamos inmediatamente segun el metodo elegido."
+        }
       ]
     },
     "designs": {
       "title": "Estilos de tarjeta",
       "items": [
-        { "name": "Clasica", "image": "/branding/fun4me/images/gift-cards/classic.svg" },
-        { "name": "Cumpleaños", "image": "/branding/fun4me/images/gift-cards/birthday.svg" },
-        { "name": "Aniversario", "image": "/branding/fun4me/images/gift-cards/anniversary.svg" },
-        { "name": "San Valentin", "image": "/branding/fun4me/images/gift-cards/valentines.svg" },
-        { "name": "Minimalista", "image": "/branding/fun4me/images/gift-cards/minimal.svg" }
+        {
+          "name": "Clasica",
+          "image": "/branding/fun4me/images/gift-cards/classic.svg"
+        },
+        {
+          "name": "Cumpleaños",
+          "image": "/branding/fun4me/images/gift-cards/birthday.svg"
+        },
+        {
+          "name": "Aniversario",
+          "image": "/branding/fun4me/images/gift-cards/anniversary.svg"
+        },
+        {
+          "name": "San Valentin",
+          "image": "/branding/fun4me/images/gift-cards/valentines.svg"
+        },
+        {
+          "name": "Minimalista",
+          "image": "/branding/fun4me/images/gift-cards/minimal.svg"
+        }
       ]
     },
     "faq": {
       "title": "Preguntas sobre Gift Cards",
       "items": [
-        { "q": "Expiran las gift cards?", "a": "Si, a los 24 meses desde la emision." },
-        { "q": "Puedo usar solo una parte del monto?", "a": "Si, podes usar parte del saldo y el resto queda disponible hasta la expiracion." },
-        { "q": "Se pueden combinar con cupones?", "a": "Si, son combinables con promociones." },
-        { "q": "Si pierdo el codigo, me lo reemplazan?", "a": "Si no fue canjeado, si. Con comprobante de compra." },
-        { "q": "Puedo transferir mi gift card?", "a": "Si, el codigo puede compartirse. Se acepta del primer comprador registrado." }
+        {
+          "q": "Expiran las gift cards?",
+          "a": "Si, a los 24 meses desde la emision."
+        },
+        {
+          "q": "Puedo usar solo una parte del monto?",
+          "a": "Si, podes usar parte del saldo y el resto queda disponible hasta la expiracion."
+        },
+        {
+          "q": "Se pueden combinar con cupones?",
+          "a": "Si, son combinables con promociones."
+        },
+        {
+          "q": "Si pierdo el codigo, me lo reemplazan?",
+          "a": "Si no fue canjeado, si. Con comprobante de compra."
+        },
+        {
+          "q": "Puedo transferir mi gift card?",
+          "a": "Si, el codigo puede compartirse. Se acepta del primer comprador registrado."
+        }
       ]
     },
     "cta": {
@@ -458,51 +776,135 @@
     "howItWorks": {
       "title": "Como funciona",
       "items": [
-        { "name": "Comprás", "description": "Ganas 1 punto por cada Gs. 1.000 gastados (base Plata)." },
-        { "name": "Acumulas", "description": "Los puntos suman automaticamente al estar registrado." },
-        { "name": "Subis de nivel", "description": "Oro a Gs. 1.5M anual. Platino a Gs. 5M anual. Mas nivel = mas beneficios." },
-        { "name": "Canjeas", "description": "100 puntos = Gs. 1.000 de descuento. O canjeas productos gratis." }
+        {
+          "name": "Comprás",
+          "description": "Ganas 1 punto por cada Gs. 1.000 gastados (base Plata)."
+        },
+        {
+          "name": "Acumulas",
+          "description": "Los puntos suman automaticamente al estar registrado."
+        },
+        {
+          "name": "Subis de nivel",
+          "description": "Oro a Gs. 1.5M anual. Platino a Gs. 5M anual. Mas nivel = mas beneficios."
+        },
+        {
+          "name": "Canjeas",
+          "description": "100 puntos = Gs. 1.000 de descuento. O canjeas productos gratis."
+        }
       ]
     },
     "tiers": {
       "title": "Los 3 niveles",
       "items": [
-        { "name": "Plata", "price": "Gratis desde el primer dia", "description": "10% descuento cumpleaños. 1 pt por Gs. 1.000." },
-        { "name": "Oro", "price": "Desde Gs. 1.500.000 anuales", "description": "15% cumpleaños. 1.5x puntos. Envio gratis desde Gs. 100k. Acceso anticipado 48hs." },
-        { "name": "Platino", "price": "Desde Gs. 5.000.000 anuales", "description": "20% cumpleaños + sorpresa. 2x puntos. Envio express siempre gratis. Atencion VIP. Consulta trimestral." }
+        {
+          "name": "Plata",
+          "price": "Gratis desde el primer dia",
+          "description": "10% descuento cumpleaños. 1 pt por Gs. 1.000."
+        },
+        {
+          "name": "Oro",
+          "price": "Desde Gs. 1.500.000 anuales",
+          "description": "15% cumpleaños. 1.5x puntos. Envio gratis desde Gs. 100k. Acceso anticipado 48hs."
+        },
+        {
+          "name": "Platino",
+          "price": "Desde Gs. 5.000.000 anuales",
+          "description": "20% cumpleaños + sorpresa. 2x puntos. Envio express siempre gratis. Atencion VIP. Consulta trimestral."
+        }
       ]
     },
     "earningRules": {
       "title": "Como ganar puntos",
       "items": [
-        { "name": "Compras", "description": "1 pt por cada Gs. 1.000 (base). Multiplicador segun nivel." },
-        { "name": "Registro inicial", "description": "+100 pts al completar perfil." },
-        { "name": "Primera compra", "description": "+200 pts extra." },
-        { "name": "Invitar un amigo que compre", "description": "+500 pts por referido exitoso." },
-        { "name": "Review verificada", "description": "+50 pts por resena aprobada." },
-        { "name": "Cumpleaños", "description": "+500 pts anuales." },
-        { "name": "Newsletter", "description": "+50 pts al suscribirte." }
+        {
+          "name": "Compras",
+          "description": "1 pt por cada Gs. 1.000 (base). Multiplicador segun nivel."
+        },
+        {
+          "name": "Registro inicial",
+          "description": "+100 pts al completar perfil."
+        },
+        {
+          "name": "Primera compra",
+          "description": "+200 pts extra."
+        },
+        {
+          "name": "Invitar un amigo que compre",
+          "description": "+500 pts por referido exitoso."
+        },
+        {
+          "name": "Review verificada",
+          "description": "+50 pts por resena aprobada."
+        },
+        {
+          "name": "Cumpleaños",
+          "description": "+500 pts anuales."
+        },
+        {
+          "name": "Newsletter",
+          "description": "+50 pts al suscribirte."
+        }
       ]
     },
     "redemptionOptions": {
       "title": "Como canjear",
       "items": [
-        { "name": "Gs. 1.000 de descuento", "price": "100 pts", "description": "Canje basico." },
-        { "name": "Gs. 5.500 de descuento", "price": "500 pts", "description": "Con bonus 10%." },
-        { "name": "Lubricante 100ml gratis", "price": "1.000 pts", "description": "Producto completo." },
-        { "name": "Envio express gratis", "price": "2.500 pts", "description": "Valido 60 dias." },
-        { "name": "Gs. 55.000 descuento", "price": "5.000 pts", "description": "Con bonus 10%." },
-        { "name": "Producto sorpresa Gs. 130.000+", "price": "10.000 pts", "description": "Seleccion de la casa." }
+        {
+          "name": "Gs. 1.000 de descuento",
+          "price": "100 pts",
+          "description": "Canje basico."
+        },
+        {
+          "name": "Gs. 5.500 de descuento",
+          "price": "500 pts",
+          "description": "Con bonus 10%."
+        },
+        {
+          "name": "Lubricante 100ml gratis",
+          "price": "1.000 pts",
+          "description": "Producto completo."
+        },
+        {
+          "name": "Envio express gratis",
+          "price": "2.500 pts",
+          "description": "Valido 60 dias."
+        },
+        {
+          "name": "Gs. 55.000 descuento",
+          "price": "5.000 pts",
+          "description": "Con bonus 10%."
+        },
+        {
+          "name": "Producto sorpresa Gs. 130.000+",
+          "price": "10.000 pts",
+          "description": "Seleccion de la casa."
+        }
       ]
     },
     "faq": {
       "title": "Preguntas sobre Placer Plus",
       "items": [
-        { "q": "Expiran los puntos?", "a": "Si, a los 18 meses desde que se ganaron." },
-        { "q": "Puedo bajar de nivel?", "a": "Solo al momento de la revision anual si las compras anuales bajan. Una vez que llegas a un nivel, queda asegurado por ese año." },
-        { "q": "Cuando se revisa el nivel?", "a": "Cada año, con base en los 12 meses anteriores." },
-        { "q": "Que pasa si devuelvo un producto?", "a": "Los puntos ganados por esa compra se restan automaticamente." },
-        { "q": "Puedo combinar puntos con cupones?", "a": "Si, pero no con descuentos de nivel en la misma orden." }
+        {
+          "q": "Expiran los puntos?",
+          "a": "Si, a los 18 meses desde que se ganaron."
+        },
+        {
+          "q": "Puedo bajar de nivel?",
+          "a": "Solo al momento de la revision anual si las compras anuales bajan. Una vez que llegas a un nivel, queda asegurado por ese año."
+        },
+        {
+          "q": "Cuando se revisa el nivel?",
+          "a": "Cada año, con base en los 12 meses anteriores."
+        },
+        {
+          "q": "Que pasa si devuelvo un producto?",
+          "a": "Los puntos ganados por esa compra se restan automaticamente."
+        },
+        {
+          "q": "Puedo combinar puntos con cupones?",
+          "a": "Si, pero no con descuentos de nivel en la misma orden."
+        }
       ]
     },
     "cta": {
@@ -525,36 +927,93 @@
       "title": "Elegi tu nivel",
       "subtitle": "Todas las cajas llegan en empaque discreto. Cancelas cuando quieras, sin penalidad.",
       "items": [
-        { "name": "Discovery — Gs. 149.000/mes", "price": "Gs. 1.590.000/año (ahorra 198k)", "description": "3-4 productos mensuales. Valor de mercado Gs. 200-280k. Para explorar sin compromiso." },
-        { "name": "Premium — Gs. 299.000/mes", "price": "Gs. 3.190.000/año (ahorra 398k)", "description": "Producto premium + 2-3 complementos + cupon 15% off. Marcas reconocidas (Satisfyer, We-Vibe, LELO). Valor Gs. 450-550k." },
-        { "name": "VIP — Gs. 599.000/mes", "price": "Gs. 6.490.000/año (ahorra 698k)", "description": "Producto flagship + complementos premium + consulta pre-caja 30min + cupon 25% + envio express. Valor Gs. 900k+. Solo 20 cupos/mes." }
+        {
+          "name": "Discovery — Gs. 149.000/mes",
+          "price": "Gs. 1.590.000/año (ahorra 198k)",
+          "description": "3-4 productos mensuales. Valor de mercado Gs. 200-280k. Para explorar sin compromiso."
+        },
+        {
+          "name": "Premium — Gs. 299.000/mes",
+          "price": "Gs. 3.190.000/año (ahorra 398k)",
+          "description": "Producto premium + 2-3 complementos + cupon 15% off. Marcas reconocidas (Satisfyer, We-Vibe, LELO). Valor Gs. 450-550k."
+        },
+        {
+          "name": "VIP — Gs. 599.000/mes",
+          "price": "Gs. 6.490.000/año (ahorra 698k)",
+          "description": "Producto flagship + complementos premium + consulta pre-caja 30min + cupon 25% + envio express. Valor Gs. 900k+. Solo 20 cupos/mes."
+        }
       ]
     },
     "howItWorks": {
       "title": "Como funciona",
       "items": [
-        { "name": "1. Elegis tu nivel", "description": "Discovery, Premium o VIP. Cancelas cuando quieras." },
-        { "name": "2. Personalizas preferencias", "description": "Que categorias preferís, que evitar, talle si aplica." },
-        { "name": "3. Enviamos el 10 de cada mes", "description": "Empaque discreto. Seguimiento por WhatsApp." },
-        { "name": "4. Pausas o cancelas con un click", "description": "Sin letra chica. Desde tu cuenta, en cualquier momento." }
+        {
+          "name": "1. Elegis tu nivel",
+          "description": "Discovery, Premium o VIP. Cancelas cuando quieras."
+        },
+        {
+          "name": "2. Personalizas preferencias",
+          "description": "Que categorias preferís, que evitar, talle si aplica."
+        },
+        {
+          "name": "3. Enviamos el 10 de cada mes",
+          "description": "Empaque discreto. Seguimiento por WhatsApp."
+        },
+        {
+          "name": "4. Pausas o cancelas con un click",
+          "description": "Sin letra chica. Desde tu cuenta, en cualquier momento."
+        }
       ]
     },
     "testimonials": {
       "title": "Que dicen las suscriptoras",
       "items": [
-        { "author": "Carla B.", "location": "Asuncion", "rating": 5, "text": "Llevo 6 meses con Premium. Cada caja es una sorpresa y siempre acertada. No me arrepiento.", "verified": true },
-        { "author": "Luis P.", "location": "Ciudad del Este", "rating": 5, "text": "VIP vale la pena si sos fan de la calidad. La consulta previa hace toda la diferencia.", "verified": true },
-        { "author": "Florencia R.", "location": "Lambare", "rating": 5, "text": "Discovery es perfecta para empezar. No gastas mucho y descubris lo que te gusta.", "verified": true }
+        {
+          "author": "Carla B.",
+          "location": "Asuncion",
+          "rating": 5,
+          "text": "Llevo 6 meses con Premium. Cada caja es una sorpresa y siempre acertada. No me arrepiento.",
+          "verified": true
+        },
+        {
+          "author": "Luis P.",
+          "location": "Ciudad del Este",
+          "rating": 5,
+          "text": "VIP vale la pena si sos fan de la calidad. La consulta previa hace toda la diferencia.",
+          "verified": true
+        },
+        {
+          "author": "Florencia R.",
+          "location": "Lambare",
+          "rating": 5,
+          "text": "Discovery es perfecta para empezar. No gastas mucho y descubris lo que te gusta.",
+          "verified": true
+        }
       ]
     },
     "faq": {
       "title": "Preguntas frecuentes",
       "items": [
-        { "q": "Cuando llega la caja?", "a": "El 10 de cada mes. Si te suscribes despues del 25, arrancas el mes siguiente." },
-        { "q": "Puedo cambiar de nivel?", "a": "Si, en cualquier momento desde tu cuenta. El cambio se refleja en el proximo ciclo." },
-        { "q": "Puedo pausar?", "a": "Si, hasta 3 meses. Se reactiva automaticamente." },
-        { "q": "Como cancelo?", "a": "Un click en tu cuenta. Sin penalidad. La caja del mes actual se envia igual." },
-        { "q": "Que pasa si no me gusta algo?", "a": "Podes cambiar las preferencias para el proximo mes. Un producto defectuoso se reemplaza sin costo." }
+        {
+          "q": "Cuando llega la caja?",
+          "a": "El 10 de cada mes. Si te suscribes despues del 25, arrancas el mes siguiente."
+        },
+        {
+          "q": "Puedo cambiar de nivel?",
+          "a": "Si, en cualquier momento desde tu cuenta. El cambio se refleja en el proximo ciclo."
+        },
+        {
+          "q": "Puedo pausar?",
+          "a": "Si, hasta 3 meses. Se reactiva automaticamente."
+        },
+        {
+          "q": "Como cancelo?",
+          "a": "Un click en tu cuenta. Sin penalidad. La caja del mes actual se envia igual."
+        },
+        {
+          "q": "Que pasa si no me gusta algo?",
+          "a": "Podes cambiar las preferencias para el proximo mes. Un producto defectuoso se reemplaza sin costo."
+        }
       ]
     },
     "cta": {
@@ -576,32 +1035,80 @@
     "instructions": {
       "title": "Como medirte",
       "items": [
-        { "name": "1. Contorno bajo busto", "description": "Justo debajo del busto, donde apoya la banda del sosten. Paralela al piso." },
-        { "name": "2. Contorno de busto", "description": "La parte mas llena, con sosten sin relleno. Paralela al piso." },
-        { "name": "3. Cintura", "description": "La parte mas angosta, entre costillas y ombligo." },
-        { "name": "4. Cadera", "description": "La parte mas ancha, con pies juntos." }
+        {
+          "name": "1. Contorno bajo busto",
+          "description": "Justo debajo del busto, donde apoya la banda del sosten. Paralela al piso."
+        },
+        {
+          "name": "2. Contorno de busto",
+          "description": "La parte mas llena, con sosten sin relleno. Paralela al piso."
+        },
+        {
+          "name": "3. Cintura",
+          "description": "La parte mas angosta, entre costillas y ombligo."
+        },
+        {
+          "name": "4. Cadera",
+          "description": "La parte mas ancha, con pies juntos."
+        }
       ]
     },
     "charts": {
       "title": "Tablas de talles",
       "items": [
-        { "name": "XS", "description": "Busto 78-82cm, bajo busto 64-68cm, cintura 60-64cm, cadera 82-86cm." },
-        { "name": "S", "description": "Busto 83-87cm, bajo busto 69-73cm, cintura 65-69cm, cadera 87-91cm." },
-        { "name": "M", "description": "Busto 88-92cm, bajo busto 74-78cm, cintura 70-74cm, cadera 92-96cm." },
-        { "name": "L", "description": "Busto 93-97cm, bajo busto 79-83cm, cintura 75-79cm, cadera 97-101cm." },
-        { "name": "XL", "description": "Busto 98-102cm, bajo busto 84-88cm, cintura 80-84cm, cadera 102-106cm." },
-        { "name": "XXL", "description": "Busto 103-107cm, bajo busto 89-93cm, cintura 85-89cm, cadera 107-111cm." }
+        {
+          "name": "XS",
+          "description": "Busto 78-82cm, bajo busto 64-68cm, cintura 60-64cm, cadera 82-86cm."
+        },
+        {
+          "name": "S",
+          "description": "Busto 83-87cm, bajo busto 69-73cm, cintura 65-69cm, cadera 87-91cm."
+        },
+        {
+          "name": "M",
+          "description": "Busto 88-92cm, bajo busto 74-78cm, cintura 70-74cm, cadera 92-96cm."
+        },
+        {
+          "name": "L",
+          "description": "Busto 93-97cm, bajo busto 79-83cm, cintura 75-79cm, cadera 97-101cm."
+        },
+        {
+          "name": "XL",
+          "description": "Busto 98-102cm, bajo busto 84-88cm, cintura 80-84cm, cadera 102-106cm."
+        },
+        {
+          "name": "XXL",
+          "description": "Busto 103-107cm, bajo busto 89-93cm, cintura 85-89cm, cadera 107-111cm."
+        }
       ]
     },
     "brandNotes": {
       "title": "Notas por marca",
       "items": [
-        { "q": "Marcas PY genericas", "a": "Tallan chico. Elegi un talle arriba de lo que indicas en tus medidas." },
-        { "q": "Marcas importadas premium", "a": "Tallan segun europeo (mas ceñido). Misma logica o un talle arriba si estas entre dos." },
-        { "q": "Lenceria erotica (Leg Avenue, Dreamgirl)", "a": "Tallan grande. Elegi el talle exacto de tus medidas." },
-        { "q": "Plus size / curvy", "a": "Empieza en XL (= L/M de marcas regulares). Verifica la tabla especifica del producto." },
-        { "q": "One size", "a": "Generalmente ajusta S-L, no mas. Si sos XL o mas, no elijas one size." },
-        { "q": "Corsets", "a": "Restan 5cm a tu cintura natural. El corset esta disenado para ceñir." }
+        {
+          "q": "Marcas PY genericas",
+          "a": "Tallan chico. Elegi un talle arriba de lo que indicas en tus medidas."
+        },
+        {
+          "q": "Marcas importadas premium",
+          "a": "Tallan segun europeo (mas ceñido). Misma logica o un talle arriba si estas entre dos."
+        },
+        {
+          "q": "Lenceria erotica (Leg Avenue, Dreamgirl)",
+          "a": "Tallan grande. Elegi el talle exacto de tus medidas."
+        },
+        {
+          "q": "Plus size / curvy",
+          "a": "Empieza en XL (= L/M de marcas regulares). Verifica la tabla especifica del producto."
+        },
+        {
+          "q": "One size",
+          "a": "Generalmente ajusta S-L, no mas. Si sos XL o mas, no elijas one size."
+        },
+        {
+          "q": "Corsets",
+          "a": "Restan 5cm a tu cintura natural. El corset esta disenado para ceñir."
+        }
       ]
     },
     "returnPolicy": {
@@ -623,10 +1130,22 @@
     "howItWorks": {
       "title": "4 pasos simples",
       "items": [
-        { "name": "1. Elegis productos online", "description": "Armás tu carrito como cualquier compra online." },
-        { "name": "2. Seleccionas 'Retiro en tienda'", "description": "En el checkout. Pagas con cualquier metodo." },
-        { "name": "3. Te avisamos cuando esta listo", "description": "Por WhatsApp. Generalmente en 2-4 horas habiles." },
-        { "name": "4. Venis con el codigo", "description": "Herrera 875. Das el codigo, retiras, te vas." }
+        {
+          "name": "1. Elegis productos online",
+          "description": "Armás tu carrito como cualquier compra online."
+        },
+        {
+          "name": "2. Seleccionas 'Retiro en tienda'",
+          "description": "En el checkout. Pagas con cualquier metodo."
+        },
+        {
+          "name": "3. Te avisamos cuando esta listo",
+          "description": "Por WhatsApp. Generalmente en 2-4 horas habiles."
+        },
+        {
+          "name": "4. Venis con el codigo",
+          "description": "Herrera 875. Das el codigo, retiras, te vas."
+        }
       ]
     },
     "location": {
@@ -655,28 +1174,106 @@
     "categories": {
       "title": "Explora por categoria",
       "items": [
-        { "name": "Guias para principiantes", "description": "Lo basico que deberias saber antes de comprar tu primer producto." },
-        { "name": "Seguridad y cuidado", "description": "Materiales, limpieza, reemplazos, alergias." },
-        { "name": "Pareja y comunicacion", "description": "Como hablar, como escuchar, como probar juntos." },
-        { "name": "Privacidad y discrecion", "description": "Empaque, facturacion, tu privacidad es nuestra prioridad." },
-        { "name": "Rankings y comparativas", "description": "Los mejores productos segun reviews reales de clientes." },
-        { "name": "Guias avanzadas", "description": "BDSM, consenso, tecnicas mas alla de lo basico." }
+        {
+          "name": "Guias para principiantes",
+          "description": "Lo basico que deberias saber antes de comprar tu primer producto."
+        },
+        {
+          "name": "Seguridad y cuidado",
+          "description": "Materiales, limpieza, reemplazos, alergias."
+        },
+        {
+          "name": "Pareja y comunicacion",
+          "description": "Como hablar, como escuchar, como probar juntos."
+        },
+        {
+          "name": "Privacidad y discrecion",
+          "description": "Empaque, facturacion, tu privacidad es nuestra prioridad."
+        },
+        {
+          "name": "Rankings y comparativas",
+          "description": "Los mejores productos segun reviews reales de clientes."
+        },
+        {
+          "name": "Guias avanzadas",
+          "description": "BDSM, consenso, tecnicas mas alla de lo basico."
+        }
       ]
     },
     "posts": {
       "title": "Ultimos articulos",
       "subtitle": "Contenido actualizado semanalmente.",
       "items": [
-        { "name": "Guia de vibradores para principiantes en Paraguay", "description": "Primera vez comprando un vibrador? Tipos, materiales y como elegir sin abrumarte. 7 min de lectura.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/guia-vibradores-principiantes" },
-        { "name": "Lubricante base agua vs silicona: cual elegir", "description": "Que lubricante con que juguete, con que condon, para que uso. 5 min.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/lubricante-agua-vs-silicona" },
-        { "name": "Primera vez con BDSM: guia de consenso y seguridad", "description": "BDSM sano empieza con conversacion. Limites, palabras de seguridad, metodo semaforo. 10 min.", "category": "Avanzado", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/primera-vez-bdsm-consenso" },
-        { "name": "Como limpiar tus juguetes sexuales correctamente", "description": "Cada material necesita un cuidado diferente. Evita infecciones y extiende la vida util. 6 min.", "category": "Seguridad", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/como-limpiar-juguetes-sexuales" },
-        { "name": "Los 7 mejores juguetes para parejas en 2026", "description": "Ranking basado en 500+ reseñas reales. Que comprar y que evitar. 8 min.", "category": "Ranking", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/mejores-juguetes-parejas-2026" },
-        { "name": "Como elegir tu talle de lenceria sin probarlo", "description": "Con 4 mediciones aciertas el 90% de las veces. Tabla de talles, trucos. 7 min.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/guia-lenceria-talles" },
-        { "name": "Materiales seguros en juguetes sexuales: que evitar", "description": "Ftalatos, PVC, silicona grado medico. Guia para comprar sin poner en riesgo tu salud. 6 min.", "category": "Seguridad", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/ftalatos-materiales-seguros" },
-        { "name": "Como hablar de sexualidad con tu pareja sin tabues", "description": "Script de conversacion, errores a evitar, como introducir un juguete. 9 min.", "category": "Pareja", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/comunicacion-sexual-pareja" },
-        { "name": "Juguetes anales para principiantes: guia segura", "description": "Preparacion, tamaños, lubricantes especificos, errores a evitar. 8 min.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/juguetes-anal-principiantes" },
-        { "name": "Privacidad al comprar productos para adultos en Paraguay", "description": "Empaque, facturacion, metodos de pago, entrega. Todo lo que hacemos para protegerte. 5 min.", "category": "Privacidad", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/privacidad-compras-online" }
+        {
+          "name": "Guia de vibradores para principiantes en Paraguay",
+          "description": "Primera vez comprando un vibrador? Tipos, materiales y como elegir sin abrumarte. 7 min de lectura.",
+          "category": "Principiantes",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/guia-vibradores-principiantes"
+        },
+        {
+          "name": "Lubricante base agua vs silicona: cual elegir",
+          "description": "Que lubricante con que juguete, con que condon, para que uso. 5 min.",
+          "category": "Principiantes",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/lubricante-agua-vs-silicona"
+        },
+        {
+          "name": "Primera vez con BDSM: guia de consenso y seguridad",
+          "description": "BDSM sano empieza con conversacion. Limites, palabras de seguridad, metodo semaforo. 10 min.",
+          "category": "Avanzado",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/primera-vez-bdsm-consenso"
+        },
+        {
+          "name": "Como limpiar tus juguetes sexuales correctamente",
+          "description": "Cada material necesita un cuidado diferente. Evita infecciones y extiende la vida util. 6 min.",
+          "category": "Seguridad",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/como-limpiar-juguetes-sexuales"
+        },
+        {
+          "name": "Los 7 mejores juguetes para parejas en 2026",
+          "description": "Ranking basado en 500+ reseñas reales. Que comprar y que evitar. 8 min.",
+          "category": "Ranking",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/mejores-juguetes-parejas-2026"
+        },
+        {
+          "name": "Como elegir tu talle de lenceria sin probarlo",
+          "description": "Con 4 mediciones aciertas el 90% de las veces. Tabla de talles, trucos. 7 min.",
+          "category": "Principiantes",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/guia-lenceria-talles"
+        },
+        {
+          "name": "Materiales seguros en juguetes sexuales: que evitar",
+          "description": "Ftalatos, PVC, silicona grado medico. Guia para comprar sin poner en riesgo tu salud. 6 min.",
+          "category": "Seguridad",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/ftalatos-materiales-seguros"
+        },
+        {
+          "name": "Como hablar de sexualidad con tu pareja sin tabues",
+          "description": "Script de conversacion, errores a evitar, como introducir un juguete. 9 min.",
+          "category": "Pareja",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/comunicacion-sexual-pareja"
+        },
+        {
+          "name": "Juguetes anales para principiantes: guia segura",
+          "description": "Preparacion, tamaños, lubricantes especificos, errores a evitar. 8 min.",
+          "category": "Principiantes",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/juguetes-anal-principiantes"
+        },
+        {
+          "name": "Privacidad al comprar productos para adultos en Paraguay",
+          "description": "Empaque, facturacion, metodos de pago, entrega. Todo lo que hacemos para protegerte. 5 min.",
+          "category": "Privacidad",
+          "ctaText": "Leer",
+          "ctaHref": "/s/es/fun4me/blog/privacidad-compras-online"
+        }
       ]
     },
     "cta": {
@@ -698,19 +1295,55 @@
     "ways": {
       "title": "Como contactarnos",
       "items": [
-        { "name": "WhatsApp", "description": "Respuesta en menos de 1 hora en horario comercial.", "price": "+595 976 569 739", "ctaText": "Chatear", "ctaHref": "https://wa.me/595976569739" },
-        { "name": "Email", "description": "Para consultas mas detalladas o pedidos B2B.", "price": "hola@fun4me.com.py", "ctaText": "Enviar email", "ctaHref": "mailto:hola@fun4me.com.py" },
-        { "name": "Tienda fisica", "description": "Herrera 875, Asuncion. L-V 09:00-20:00, Sab 09:00-18:00.", "price": "Visitanos", "ctaText": "Ver en mapa", "ctaHref": "https://www.google.com/maps/search/?api=1&query=Herrera+875+Asuncion" },
-        { "name": "Instagram", "description": "Seguinos para novedades, promos y contenido.", "price": "@fun4me_store", "ctaText": "Seguir", "ctaHref": "https://instagram.com/fun4me_store" }
+        {
+          "name": "WhatsApp",
+          "description": "Respuesta en menos de 1 hora en horario comercial.",
+          "price": "+595 976 569 739",
+          "ctaText": "Chatear",
+          "ctaHref": "https://wa.me/595976569739"
+        },
+        {
+          "name": "Email",
+          "description": "Para consultas mas detalladas o pedidos B2B.",
+          "price": "hola@fun4me.com.py",
+          "ctaText": "Enviar email",
+          "ctaHref": "mailto:hola@fun4me.com.py"
+        },
+        {
+          "name": "Tienda fisica",
+          "description": "Herrera 875, Asuncion. L-V 09:00-20:00, Sab 09:00-18:00.",
+          "price": "Visitanos",
+          "ctaText": "Ver en mapa",
+          "ctaHref": "https://www.google.com/maps/search/?api=1&query=Herrera+875+Asuncion"
+        },
+        {
+          "name": "Instagram",
+          "description": "Seguinos para novedades, promos y contenido.",
+          "price": "@fun4me_store",
+          "ctaText": "Seguir",
+          "ctaHref": "https://instagram.com/fun4me_store"
+        }
       ]
     },
     "faq": {
       "title": "Preguntas frecuentes",
       "items": [
-        { "q": "Cual es el horario de atencion?", "a": "Lunes a viernes 09:00-20:00, sabados 09:00-18:00. Domingos cerrado. WhatsApp responde fuera de horario en 24hs." },
-        { "q": "Hacen delivery el mismo dia?", "a": "Si, en Asuncion con cargo adicional si pedis antes de las 15:00. Gran Asuncion 24-48hs. Interior 3-5 dias habiles." },
-        { "q": "Puedo visitar la tienda sin cita?", "a": "Si, pasa cuando quieras en horario comercial. No hace falta avisar." },
-        { "q": "Aceptan tarjeta en la tienda fisica?", "a": "Si, Visa y Mastercard con Pagopar, y tambien efectivo y transferencia." }
+        {
+          "q": "Cual es el horario de atencion?",
+          "a": "Lunes a viernes 09:00-20:00, sabados 09:00-18:00. Domingos cerrado. WhatsApp responde fuera de horario en 24hs."
+        },
+        {
+          "q": "Hacen delivery el mismo dia?",
+          "a": "Si, en Asuncion con cargo adicional si pedis antes de las 15:00. Gran Asuncion 24-48hs. Interior 3-5 dias habiles."
+        },
+        {
+          "q": "Puedo visitar la tienda sin cita?",
+          "a": "Si, pasa cuando quieras en horario comercial. No hace falta avisar."
+        },
+        {
+          "q": "Aceptan tarjeta en la tienda fisica?",
+          "a": "Si, Visa y Mastercard con Pagopar, y tambien efectivo y transferencia."
+        }
       ]
     },
     "hours": {

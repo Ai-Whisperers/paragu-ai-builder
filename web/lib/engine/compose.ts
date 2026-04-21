@@ -40,6 +40,7 @@ export type SectionType =
   | 'emergencyIndicator'
   | 'productCatalog'
   | 'featuredProducts'
+  | 'commerceCatalog'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -367,6 +368,8 @@ export const SECTION_MAP: Record<string, SectionType> = {
   productCatalog: 'productCatalog',
   featuredProducts: 'featuredProducts',
   'featured-products': 'featuredProducts',
+  commerceCatalog: 'commerceCatalog',
+  'commerce-catalog': 'commerceCatalog',
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
