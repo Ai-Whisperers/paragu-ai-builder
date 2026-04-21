@@ -43,6 +43,7 @@ export function OpenHoursStatusSection({
 }: OpenHoursStatusProps) {
   const [open, setOpen] = useState<boolean | null>(null)
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- Deferring Date computation to post-mount avoids SSR/client hydration mismatch.
     setOpen(isOpen(hours, new Date()))
   }, [hours])
 
