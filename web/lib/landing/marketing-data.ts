@@ -185,7 +185,7 @@ export const PLANS: readonly Plan[] = [
       { text: 'Dominio propio incluido', included: false },
       { text: 'Sin marca ParaguAI', included: false },
     ],
-    cta: 'Probar gratis',
+    cta: 'Pedir demo gratis',
     waMessage: 'Hola, quiero probar ParaguAI gratis (3 meses Profesional) para mi negocio.',
     popular: false,
     premiumGraceMonths: 3,

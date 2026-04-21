@@ -436,7 +436,7 @@ export default function HomePage() {
                     <span className="bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] bg-clip-text text-transparent">
                       profesional
                     </span>{' '}
-                    en 48 horas
+                    en 48{'\u00A0'}horas
                   </h1>
                 )}
               </FadeIn>
