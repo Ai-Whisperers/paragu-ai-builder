@@ -454,7 +454,7 @@
         {
           "icon": "TrendingUp",
           "title": "Wirtschaftliches Umfeld",
-          "description": "Stetiges Wachstum, kontrollierte Inflation, {{taxRate}} Einkommensteuer, Territorialsystem.",
+          "description": "BIP-Wachstum 4,2 % in 2023. 10 % IRE-Körperschaftssteuer. 2,1 % Inflation. Territoriales System — ausländische Einkünfte bleiben unbesteuert.",
           "bullets": [
             "Körperschaftsteuer {{taxRate}}",
             "Territorialsystem",
@@ -465,7 +465,7 @@
         {
           "icon": "Building2",
           "title": "Investitionsmöglichkeiten",
-          "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.",
+          "description": "Keine Kapitalverkehrskontrollen. FDI in allen Sektoren offen. Premium-Immobilien in Asunción +30 % in 5 Jahren.",
           "bullets": [
             "Expandierende Immobilien",
             "Führende Agroindustrie",
@@ -476,7 +476,7 @@
         {
           "icon": "Heart",
           "title": "Lebensqualität",
-          "description": "Warmes Klima, wachsende internationale Community, erhebliche Kaufkraft.",
+          "description": "30–50 % niedrigere Lebenshaltungskosten als Berlin oder Madrid. USD 4.000/Monat reicht für Familie, Privatschule und Haushaltshilfe.",
           "bullets": [
             "Günstige Lebenshaltung",
             "Internationale Community",
@@ -487,37 +487,37 @@
         {
           "icon": "Landmark",
           "title": "Steuerliche Stabilität",
-          "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+          "description": "10 % IRE seit 2020 (Gesetz 6380). Stabiles Territorialsystem über politische Zyklen hinweg. Doppelbesteuerungsabkommen mit Spanien, Chile, Taiwan.",
           "imageUrl": "@src:whyParaguay.tax"
         },
         {
           "icon": "LineChart",
           "title": "Wachstumsdynamik",
-          "description": "Kontinuierliches BIP-Wachstum und sichtbare Stadtentwicklung in Asunción.",
+          "description": "BIP-Wachstum 4–5 % jährlich 2021–2024. Bausektor +12 %. Aktiver Infrastrukturausbau.",
           "imageUrl": "@src:whyParaguay.growth"
         },
         {
           "icon": "Wheat",
           "title": "Agrarwirtschaft",
-          "description": "Einer der weltweit führenden Exporteure von Soja und Rindfleisch, mit aktiven Landmärkten.",
+          "description": "Viertgrößter Soja-Exporteur weltweit. Großer Rindfleisch-Exporteur. ~100.000 Hektar Landtransaktionen pro Jahr.",
           "imageUrl": "@src:whyParaguay.agribusiness"
         },
         {
           "icon": "Users",
           "title": "Internationale Community",
-          "description": "Wachsende Community aus Expats und Investoren, die lokale Kenntnisse teilen.",
+          "description": "Etablierte deutsche, spanische, italienische und niederländische Gemeinschaften. 5.000+ Europäer in den letzten zehn Jahren umgezogen.",
           "imageUrl": "@src:whyParaguay.community"
         },
         {
           "icon": "TreePine",
           "title": "Natur und Grünflächen",
-          "description": "Zugängliche Parks und Landschaften ohne den Lärm überfüllter Hauptstädte.",
+          "description": "25 Millionen Hektar Chaco-Wildnis. 5 Nationalparks innerhalb von 200 km um Asunción. Niedrige Bevölkerungsdichte außerhalb der Hauptstadt.",
           "imageUrl": "@src:whyParaguay.nature"
         },
         {
           "icon": "Coffee",
           "title": "Kultur und Alltag",
-          "description": "Tereré, Chipa, herzliche Gastfreundschaft — Details, die Paraguay langfristig lebenswert machen.",
+          "description": "Zweisprachige spanisch + guaraní-Kultur. Mordrate deutlich unter Buenos Aires oder São Paulo.",
           "imageUrl": "@src:whyParaguay.culture"
         }
       ]

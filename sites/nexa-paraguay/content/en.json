@@ -450,55 +450,55 @@
         {
           "icon": "TrendingUp",
           "title": "Economic environment",
-          "description": "Sustained growth, controlled inflation, 10% income tax, territorial system.",
+          "description": "4.2% GDP growth in 2023. 10% IRE corporate tax. 2.1% inflation. Territorial system — foreign income not taxed locally.",
           "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
           "title": "Investment opportunities",
-          "description": "Developing real estate market, strong agribusiness, open economy.",
+          "description": "No capital controls. FDI open to all sectors. Real estate in premium Asunción zones up ~30% in 5 years.",
           "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
           "title": "Quality of life",
-          "description": "Warm climate, growing international community, significant purchasing power.",
+          "description": "30–50% lower cost of living than Berlin or Madrid. USD 4,000/month covers family, private school, and help at home.",
           "imageUrl": "@src:whyParaguay.lifestyle"
         },
         {
           "icon": "Landmark",
           "title": "Tax stability",
-          "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+          "description": "10% IRE since 2020 (Ley 6380). Territorial system stable across political cycles. Double-tax treaties with Spain, Chile, Taiwan.",
           "imageUrl": "@src:whyParaguay.tax"
         },
         {
           "icon": "LineChart",
           "title": "Growth trajectory",
-          "description": "Consistent GDP growth and visible urban development across Asunción.",
+          "description": "4–5% annual GDP growth 2021–2024. Construction sector growing at 12%+. Infrastructure build-out active.",
           "imageUrl": "@src:whyParaguay.growth"
         },
         {
           "icon": "Wheat",
           "title": "Agribusiness powerhouse",
-          "description": "One of the world's leading exporters of soy and beef with active land markets.",
+          "description": "4th largest soy exporter globally. Major beef exporter. ~100,000 hectares in land transactions yearly.",
           "imageUrl": "@src:whyParaguay.agribusiness"
         },
         {
           "icon": "Users",
           "title": "International community",
-          "description": "A growing community of expats and investors sharing know-how on the ground.",
+          "description": "Established German, Spanish, Italian and Dutch communities. 5,000+ Europeans relocated in the past decade.",
           "imageUrl": "@src:whyParaguay.community"
         },
         {
           "icon": "TreePine",
           "title": "Nature and green space",
-          "description": "Accessible parks and landscapes without the noise of saturated capitals.",
+          "description": "25M hectares of Chaco wilderness. 5 national parks within 200km of Asunción. Low population density outside the capital.",
           "imageUrl": "@src:whyParaguay.nature"
         },
         {
           "icon": "Coffee",
           "title": "Culture and daily life",
-          "description": "Tereré, chipa, warm hospitality — details that make Paraguay livable long term.",
+          "description": "Bilingual Spanish + Guaraní culture. Homicide rate materially lower than Buenos Aires or São Paulo.",
           "imageUrl": "@src:whyParaguay.culture"
         }
       ]
