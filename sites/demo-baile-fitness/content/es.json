@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Baile Fitness Luque - Fitness de Baile en Luque",
-      "description": "Fitness de Baile profesional en Luque. Servicios de calidad con atencion personalizada."
+      "description": "Fitness de Baile profesional en Luque. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Baile Fitness Luque - Fitness de Baile",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Baile Fitness Luque",
     "copyright": "© {{year}} Demo Baile Fitness Luque",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Baile Fitness y me interesa un sitio para mi negocio"

@@ -5,7 +5,7 @@
     "lastReviewed": "2026-04-21"
   },
   "siteName": "Demo Hotel Boutique Encarnacion",
-  "tagline": "Hotel boutique con habitaciones tematicas y atencion personalizada en Encarnacion.",
+  "tagline": "Hotel boutique con habitaciones tematicas y atención personalizada en Encarnacion.",
   "placeholders": {
     "businessName": "Demo Hotel Boutique Encarnacion",
     "city": "Encarnacion",
@@ -19,11 +19,11 @@
   "home": {
     "seo": {
       "title": "Demo Hotel Boutique Encarnacion - Hotel Boutique en Encarnacion",
-      "description": "Hotel boutique con habitaciones tematicas y atencion personalizada en Encarnacion."
+      "description": "Hotel boutique con habitaciones tematicas y atención personalizada en Encarnacion."
     },
     "hero": {
       "headline": "Demo Hotel Boutique Encarnacion - Una experiencia unica en cada detalle",
-      "subheadline": "Hotel boutique con habitaciones tematicas y atencion personalizada en Encarnacion.",
+      "subheadline": "Hotel boutique con habitaciones tematicas y atención personalizada en Encarnacion.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Hotel%20Boutique%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Hotel Boutique Encarnacion",
     "copyright": "© {{year}} Demo Hotel Boutique Encarnacion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Hotel Boutique y me interesa un sitio para mi negocio"

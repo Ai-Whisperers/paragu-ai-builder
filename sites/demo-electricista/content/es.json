@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Electricista Asuncion",
-  "tagline": "Instalaciones, reparaciones y emergencias electricas en Asuncion",
+  "siteName": "Demo Electricista Asunción",
+  "tagline": "Instalaciones, reparaciones y emergencias electricas en Asunción",
   "placeholders": {
-    "businessName": "Demo Electricista Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Electricista Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Electricista Asuncion",
+    "businessName": "Demo Electricista Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Electricista Asuncion - Electricista en Asuncion",
-      "description": "Servicio electrico profesional en Asuncion. Instalaciones, reparaciones y emergencias 24h."
+      "title": "Demo Electricista Asunción - Electricista en Asunción",
+      "description": "Servicio electrico profesional en Asunción. Instalaciones, reparaciones y emergencias 24h."
     },
     "hero": {
-      "headline": "Demo Electricista Asuncion - Electricista matriculado",
-      "subheadline": "Instalaciones, reparaciones y emergencias electricas en Asuncion",
+      "headline": "Demo Electricista Asunción - Electricista matriculado",
+      "subheadline": "Instalaciones, reparaciones y emergencias electricas en Asunción",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Electricista%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "electricista"
     }
   },
   "footer": {
-    "businessName": "Demo Electricista Asuncion",
-    "copyright": "© {{year}} Demo Electricista Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Electricista Asunción",
+    "copyright": "© {{year}} Demo Electricista Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Electricista y me interesa un sitio para mi negocio"

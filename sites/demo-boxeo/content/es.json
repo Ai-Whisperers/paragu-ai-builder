@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Boxeo Fernando de la Mora - Gimnasio Boxeo en Fernando de la Mora",
-      "description": "Gimnasio Boxeo profesional en Fernando de la Mora. Servicios de calidad con atencion personalizada."
+      "description": "Gimnasio Boxeo profesional en Fernando de la Mora. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Boxeo Fernando de la Mora - Gimnasio Boxeo",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Boxeo Fernando de la Mora",
     "copyright": "© {{year}} Demo Boxeo Fernando de la Mora",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Boxeo y me interesa un sitio para mi negocio"

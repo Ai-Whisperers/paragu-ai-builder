@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Tasador Asuncion",
-  "tagline": "Tasador Comercial profesional en Asuncion.",
+  "siteName": "Demo Tasador Asunción",
+  "tagline": "Tasador Comercial profesional en Asunción.",
   "placeholders": {
-    "businessName": "Demo Tasador Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Tasador Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Tasador Asuncion",
+    "businessName": "Demo Tasador Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Tasador Asuncion - Tasador Comercial en Asuncion",
-      "description": "Tasador Comercial profesional en Asuncion. Servicios de calidad con atencion personalizada."
+      "title": "Demo Tasador Asunción - Tasador Comercial en Asunción",
+      "description": "Tasador Comercial profesional en Asunción. Servicios de calidad con atención personalizada."
     },
     "hero": {
-      "headline": "Demo Tasador Asuncion - Tasador Comercial",
-      "subheadline": "Tasador Comercial profesional en Asuncion.",
+      "headline": "Demo Tasador Asunción - Tasador Comercial",
+      "subheadline": "Tasador Comercial profesional en Asunción.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Tasador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "commercial_appraiser"
     }
   },
   "footer": {
-    "businessName": "Demo Tasador Asuncion",
-    "copyright": "© {{year}} Demo Tasador Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Tasador Asunción",
+    "copyright": "© {{year}} Demo Tasador Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Tasador y me interesa un sitio para mi negocio"

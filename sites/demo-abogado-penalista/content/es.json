@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Abogado Penalista Asuncion",
-  "tagline": "Abogado Penal profesional en Asuncion.",
+  "siteName": "Demo Abogado Penalista Asunción",
+  "tagline": "Abogado Penal profesional en Asunción.",
   "placeholders": {
-    "businessName": "Demo Abogado Penalista Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Abogado Penalista Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Abogado Penalista Asuncion",
+    "businessName": "Demo Abogado Penalista Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Abogado Penalista Asuncion - Abogado Penal en Asuncion",
-      "description": "Abogado Penal profesional en Asuncion. Servicios de calidad con atencion personalizada."
+      "title": "Demo Abogado Penalista Asunción - Abogado Penal en Asunción",
+      "description": "Abogado Penal profesional en Asunción. Servicios de calidad con atención personalizada."
     },
     "hero": {
-      "headline": "Demo Abogado Penalista Asuncion - Abogado Penal",
-      "subheadline": "Abogado Penal profesional en Asuncion.",
+      "headline": "Demo Abogado Penalista Asunción - Abogado Penal",
+      "subheadline": "Abogado Penal profesional en Asunción.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Abogado%20Penalista%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "criminal_defense_lawyer"
     }
   },
   "footer": {
-    "businessName": "Demo Abogado Penalista Asuncion",
-    "copyright": "© {{year}} Demo Abogado Penalista Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Abogado Penalista Asunción",
+    "copyright": "© {{year}} Demo Abogado Penalista Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Abogado Penalista y me interesa un sitio para mi negocio"

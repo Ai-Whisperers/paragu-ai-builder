@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Payaso Animador Capiata - Payaso en Capiata",
-      "description": "Payaso profesional en Capiata. Servicios de calidad con atencion personalizada."
+      "description": "Payaso profesional en Capiata. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Payaso Animador Capiata - Payaso",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Payaso Animador Capiata",
     "copyright": "© {{year}} Demo Payaso Animador Capiata",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Payaso Animador y me interesa un sitio para mi negocio"
