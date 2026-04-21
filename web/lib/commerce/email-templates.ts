@@ -112,6 +112,39 @@ export function backInStockEmail(ctx: BackInStockContext) {
   }
 }
 
+export interface ReviewRequestContext {
+  customerName: string
+  businessName: string
+  orderNumber: string
+  /** Products to ask the customer to review. Deep-links directly to the
+   * review-form anchor on each PDP so they don't have to hunt for it. */
+  products: Array<{ name: string; reviewUrl: string }>
+}
+
+export function reviewRequestEmail(ctx: ReviewRequestContext) {
+  const itemsHtml = ctx.products
+    .map(
+      (p) => `
+    <li style="margin:8px 0;">
+      <a href="${p.reviewUrl}" style="color:#111;text-decoration:underline;">${escape(p.name)}</a>
+    </li>`,
+    )
+    .join('')
+  return {
+    subject: `¿Cómo te fue con tu pedido ${ctx.orderNumber}? — ${ctx.businessName}`,
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;">¡Gracias por tu compra!</h1>
+  <p>Hola ${escape(ctx.customerName)},</p>
+  <p>Esperamos que hayas recibido tu pedido <strong>${escape(ctx.orderNumber)}</strong> y que te esté gustando lo que elegiste.</p>
+  <p>Nos ayuda muchísimo que otras personas que están decidiendo vean tu experiencia. ¿Te animás a dejar una reseña?</p>
+  <ul style="padding-left:20px;">${itemsHtml}</ul>
+  <p style="color:#666;font-size:12px;margin-top:24px;">Tu reseña pasa por moderación antes de publicarse. Podés escribir con nombre propio o un alias.</p>
+  <p style="color:#666;font-size:12px;">${escape(ctx.businessName)} · enviado desde Paragu-AI</p>
+</body></html>`.trim(),
+  }
+}
+
 function escape(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
 }
