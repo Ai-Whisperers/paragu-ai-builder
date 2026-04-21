@@ -148,11 +148,11 @@
           "name": "Compra de Tierras",
           "description": "Servicio propio de Nexa. Asesoría integral.",
           "price": "Desde USD 3.500",
-          "priceNote": "Según alcance de búsqueda y due diligence.",
+          "priceNote": "Según alcance de búsqueda y auditoría legal.",
           "included": [
             "Definición de perfil y criterios",
             "Búsqueda y short-list",
-            "Due diligence legal y técnica",
+            "Auditoría legal y técnica",
             "Negociación y escrituración",
             "Inscripción registral"
           ],
@@ -321,11 +321,11 @@
           "name": "Compra de Tierras",
           "description": "Servicio propio de Nexa. Asesoría integral.",
           "price": "Desde USD 3.500",
-          "priceNote": "Según alcance de búsqueda y due diligence.",
+          "priceNote": "Según alcance de búsqueda y auditoría legal.",
           "included": [
             "Definición de perfil y criterios",
             "Búsqueda y short-list",
-            "Due diligence legal y técnica",
+            "Auditoría legal y técnica",
             "Negociación y escrituración",
             "Inscripción registral"
           ],
@@ -447,15 +447,15 @@
       "items": [
         {
           "q": "¿Qué incluye el precio?",
-          "a": "Honorarios profesionales, IVA, tasas oficiales, coordinación bancaria y asesoramiento integral."
+          "a": "Honorarios profesionales de nuestro equipo multidisciplinario (legal, contable, notarial), IVA, tasas oficiales de Migraciones y del Registro Público, coordinación bancaria, tour estratégico inmobiliario y asesoramiento integral durante todo el trámite. No hay cargos adicionales en el proceso regular."
         },
         {
           "q": "¿Qué no está incluido?",
-          "a": "Vuelos, alojamiento, apostillas en país de origen, gastos personales."
+          "a": "Vuelos internacionales, alojamiento en Asunción, gastos personales, traducciones juradas y apostillas de documentos en su país de origen. Si requiere servicios adicionales —por ejemplo tramitación de título de conducir paraguayo, apoyo en búsqueda de vivienda definitiva, o consultas fiscales fuera del alcance del programa contratado— se cotizan por separado y siempre con presupuesto previo."
         },
         {
           "q": "¿Cómo se paga?",
-          "a": "Anticipado por transferencia. Sin cargos adicionales en el trámite regular."
+          "a": "Pago anticipado por transferencia bancaria internacional. Aceptamos USD o EUR. Sin cargos ocultos ni adicionales durante el trámite regular. Emitimos factura formal desde nuestra entidad paraguaya al momento del pago."
         }
       ]
     },
@@ -651,19 +651,23 @@
       "members": [
         {
           "name": "Dirección de Operaciones (Paraguay)",
-          "role": "Liderazgo operativo, relaciones institucionales"
+          "role": "Liderazgo operativo, relaciones institucionales",
+          "icon": "Briefcase"
         },
         {
           "name": "Dirección Comercial (Europa)",
-          "role": "Adquisición de clientes, puente cultural"
+          "role": "Adquisición de clientes, puente cultural",
+          "icon": "Globe"
         },
         {
           "name": "Equipo Legal",
-          "role": "Expedientes migratorios, constitución societaria"
+          "role": "Expedientes migratorios, constitución societaria",
+          "icon": "Scale"
         },
         {
           "name": "Equipo Contable",
-          "role": "Gestión fiscal, cumplimiento tributario"
+          "role": "Gestión fiscal, cumplimiento tributario",
+          "icon": "Calculator"
         }
       ]
     },

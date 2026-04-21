@@ -98,15 +98,13 @@ export function HeaderSection({
   }
 
   return (
-    <header 
+    <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        scrolled 
-          ? 'bg-[var(--surface)]/95 backdrop-blur-md shadow-lg' 
-          : 'bg-[var(--surface)]'
+        'fixed top-0 left-0 right-0 z-50 transition-shadow duration-300 bg-[var(--surface)]',
+        scrolled && 'shadow-md'
       )}
       style={{
-        borderBottom: scrolled ? '1px solid rgba(0,0,0,0.06)' : 'none',
+        borderBottom: scrolled ? '1px solid rgba(0,0,0,0.08)' : '1px solid transparent',
       }}
     >
       <Container>

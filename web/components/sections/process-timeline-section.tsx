@@ -87,32 +87,71 @@ export function ProcessTimelineSection({
 }
 
 function Horizontal({ steps }: { steps: ProcessStep[] }) {
+  const cols = Math.min(Math.max(steps.length, 2), 6)
+  const gridColsClass = (
+    cols === 2 ? 'md:grid-cols-2'
+    : cols === 3 ? 'md:grid-cols-3'
+    : cols === 4 ? 'md:grid-cols-4'
+    : cols === 5 ? 'md:grid-cols-5'
+    : 'md:grid-cols-6'
+  )
   return (
-    <div className="mt-12 grid gap-8 md:grid-cols-5">
-      {steps.map((step, i) => (
-        <AnimateOnScroll key={i} stagger={((i % 5) + 1) as 1 | 2 | 3 | 4 | 5}>
-          <div className="relative text-center">
-            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border-2 border-[var(--secondary)] bg-[var(--surface)]">
-              <IconByName name={step.icon} />
-              {!step.icon && (
-                <span className="text-xl font-bold text-[var(--secondary)]">{step.number ?? i + 1}</span>
+    <div className={`mt-12 grid gap-x-4 gap-y-10 ${gridColsClass} items-start`}>
+      {steps.map((step, i) => {
+        const isLast = i === steps.length - 1
+        return (
+          <AnimateOnScroll
+            key={i}
+            stagger={((i % 5) + 1) as 1 | 2 | 3 | 4 | 5}
+            className="relative"
+          >
+            {!isLast && (
+              <>
+                {/* Desktop connector: right-pointing arrow between columns */}
+                <Icons.ArrowRight
+                  aria-hidden="true"
+                  className="pointer-events-none absolute top-9 right-[-20px] hidden h-6 w-6 text-[var(--secondary)]/60 md:block"
+                />
+                {/* Mobile connector: down-pointing arrow below the card */}
+                <Icons.ArrowDown
+                  aria-hidden="true"
+                  className="pointer-events-none mx-auto mt-6 h-6 w-6 text-[var(--secondary)]/60 md:hidden"
+                />
+              </>
+            )}
+            <div className="text-center">
+              <div className="relative mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-[var(--secondary)] text-[var(--secondary-foreground)] shadow-[0_8px_24px_rgba(201,169,110,0.35)] ring-4 ring-[var(--surface)]">
+                {step.icon ? (
+                  <div className="text-[var(--secondary-foreground)]">
+                    <IconByName name={step.icon} size={28} />
+                  </div>
+                ) : (
+                  <span className="text-2xl font-bold">{step.number ?? i + 1}</span>
+                )}
+                <span
+                  aria-hidden="true"
+                  className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-[var(--primary)] text-xs font-bold text-white shadow-md"
+                >
+                  {step.number ?? i + 1}
+                </span>
+              </div>
+              <Heading
+                level={3}
+                className="mb-2 text-lg font-semibold text-[var(--primary)]"
+                style={{ fontFamily: 'var(--font-heading)' }}
+              >
+                {step.title}
+              </Heading>
+              <p className="text-sm text-[var(--text-light)]">{step.description}</p>
+              {step.duration && (
+                <p className="mt-2 text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                  {step.duration}
+                </p>
               )}
             </div>
-            <Heading level={3}
-              className="mb-2 text-lg font-semibold text-[var(--primary)]"
-              style={{ fontFamily: 'var(--font-heading)' }}
-            >
-              {step.title}
-            </Heading>
-            <p className="text-sm text-[var(--text-light)]">{step.description}</p>
-            {step.duration && (
-              <p className="mt-2 text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                {step.duration}
-              </p>
-            )}
-          </div>
-        </AnimateOnScroll>
-      ))}
+          </AnimateOnScroll>
+        )
+      })}
     </div>
   )
 }

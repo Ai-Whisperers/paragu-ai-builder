@@ -65,11 +65,11 @@ export function TrustSignalsSection({
 
 function Credentials({ items }: { items: TrustItem[] }) {
   return (
-    <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+    <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
       {items.map((item, i) => (
-        <AnimateOnScroll key={i} stagger={((i % 4) + 1) as 1 | 2 | 3 | 4}>
-          <div className="rounded-lg bg-[var(--surface)] p-6 text-center shadow-card">
-            <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-[var(--secondary)]/10">
+        <AnimateOnScroll key={i} stagger={((i % 4) + 1) as 1 | 2 | 3 | 4} className="h-full">
+          <div className="flex h-full flex-col rounded-lg bg-[var(--surface)] p-6 text-center shadow-card">
+            <div className="mx-auto mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--secondary)]/10">
               <IconByName name={item.icon} />
             </div>
             {item.value && (

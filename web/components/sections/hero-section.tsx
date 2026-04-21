@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 export interface HeroSectionProps {
   headline: string
   subheadline: string
-  ctaPrimaryText: string
+  ctaPrimaryText?: string
   ctaPrimaryHref?: string
   ctaSecondaryText?: string
   ctaSecondaryHref?: string
@@ -89,19 +89,23 @@ export function HeroSection({
           {subheadline}
         </p>
         
-        <div className={cn("flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6", enhanced && "hero-animate-delay-3")}>
-          <Button variant="primary" size="lg" href={ctaPrimaryHref}
-            className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
-            style={{ backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 8px 24px rgba(184, 134, 11, 0.35)' }}>
-            {ctaPrimaryText}
-          </Button>
-          {ctaSecondaryText && (
-            <Button variant="secondary" size="lg" href={ctaSecondaryHref}
-              className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
-              {ctaSecondaryText}
-            </Button>
-          )}
-        </div>
+        {(ctaPrimaryText || ctaSecondaryText) && (
+          <div className={cn("flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6", enhanced && "hero-animate-delay-3")}>
+            {ctaPrimaryText && (
+              <Button variant="primary" size="lg" href={ctaPrimaryHref}
+                className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
+                style={{ backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 8px 24px rgba(184, 134, 11, 0.35)' }}>
+                {ctaPrimaryText}
+              </Button>
+            )}
+            {ctaSecondaryText && (
+              <Button variant="secondary" size="lg" href={ctaSecondaryHref}
+                className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
+                {ctaSecondaryText}
+              </Button>
+            )}
+          </div>
+        )}
 
         {enhanced && trustBadgesEnabled && (
           <div className="mt-12 sm:mt-16 hero-animate-delay-4">

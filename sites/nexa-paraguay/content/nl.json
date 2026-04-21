@@ -618,19 +618,23 @@
       "members": [
         {
           "name": "Operationele directie (Paraguay)",
-          "role": "Operationeel leiderschap, institutionele relaties"
+          "role": "Operationeel leiderschap, institutionele relaties",
+          "icon": "Briefcase"
         },
         {
           "name": "Commerciële directie (Europa)",
-          "role": "Klantacquisitie, culturele brug"
+          "role": "Klantacquisitie, culturele brug",
+          "icon": "Globe"
         },
         {
           "name": "Juridisch team",
-          "role": "Migratiedossiers, oprichting vennootschap"
+          "role": "Migratiedossiers, oprichting vennootschap",
+          "icon": "Scale"
         },
         {
           "name": "Boekhoudteam",
-          "role": "Fiscaal beheer, compliance"
+          "role": "Fiscaal beheer, compliance",
+          "icon": "Calculator"
         }
       ]
     },

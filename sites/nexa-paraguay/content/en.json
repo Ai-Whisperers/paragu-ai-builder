@@ -587,19 +587,23 @@
       "members": [
         {
           "name": "Operations Director (Paraguay)",
-          "role": "Operational leadership, institutional relationships"
+          "role": "Operational leadership, institutional relationships",
+          "icon": "Briefcase"
         },
         {
           "name": "Commercial Director (Europe)",
-          "role": "Client acquisition, cultural bridge"
+          "role": "Client acquisition, cultural bridge",
+          "icon": "Globe"
         },
         {
           "name": "Legal team",
-          "role": "Immigration files, company incorporation"
+          "role": "Immigration files, company incorporation",
+          "icon": "Scale"
         },
         {
           "name": "Accounting team",
-          "role": "Tax management, compliance"
+          "role": "Tax management, compliance",
+          "icon": "Calculator"
         }
       ]
     },

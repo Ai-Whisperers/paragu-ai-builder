@@ -9193,6 +9193,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "blog.seo.description",
     "sections": [
       {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9235,6 +9240,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "bundles.seo.description",
     "sections": [
       {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9266,6 +9276,11 @@ export const PAGES: Record<string, JsonRecord> = {
   "fun4me:gift-cards": {
     "descriptionKey": "giftCards.seo.description",
     "sections": [
+      {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
       {
         "content": "navigation",
         "id": "header",
@@ -9308,6 +9323,11 @@ export const PAGES: Record<string, JsonRecord> = {
   "fun4me:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
+      {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
       {
         "content": "navigation",
         "id": "header",
@@ -9366,6 +9386,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "legal.seo.description",
     "sections": [
       {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9418,6 +9443,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "loyalty.seo.description",
     "sections": [
       {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9455,6 +9485,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "loyalty.seo.description",
     "sections": [
       {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9486,6 +9521,11 @@ export const PAGES: Record<string, JsonRecord> = {
   "fun4me:reserva-en-tienda": {
     "descriptionKey": "storeReserve.seo.description",
     "sections": [
+      {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
       {
         "content": "navigation",
         "id": "header",
@@ -9528,6 +9568,11 @@ export const PAGES: Record<string, JsonRecord> = {
   "fun4me:size-guide": {
     "descriptionKey": "sizeGuide.seo.description",
     "sections": [
+      {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
       {
         "content": "navigation",
         "id": "header",
@@ -9576,6 +9621,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "store.seo.description",
     "sections": [
       {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9612,6 +9662,11 @@ export const PAGES: Record<string, JsonRecord> = {
   "fun4me:suscripciones": {
     "descriptionKey": "subscriptions.seo.description",
     "sections": [
+      {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
       {
         "content": "navigation",
         "id": "header",
@@ -19660,18 +19715,22 @@ export const CONTENT: Record<string, JsonRecord> = {
       "team": {
         "members": [
           {
+            "icon": "Briefcase",
             "name": "Leitung Operations (Paraguay)",
             "role": "Operatives Leadership, institutionelle Beziehungen"
           },
           {
+            "icon": "Globe",
             "name": "Leitung Commercial (Europa)",
             "role": "Kundengewinnung, kulturelle Brücke"
           },
           {
+            "icon": "Scale",
             "name": "Juristisches Team",
             "role": "Migrationsakten, Gesellschaftsgründung"
           },
           {
+            "icon": "Calculator",
             "name": "Steuerteam",
             "role": "Steuerliches Management, Compliance"
           }
@@ -20630,18 +20689,22 @@ export const CONTENT: Record<string, JsonRecord> = {
       "team": {
         "members": [
           {
+            "icon": "Briefcase",
             "name": "Operations Director (Paraguay)",
             "role": "Operational leadership, institutional relationships"
           },
           {
+            "icon": "Globe",
             "name": "Commercial Director (Europe)",
             "role": "Client acquisition, cultural bridge"
           },
           {
+            "icon": "Scale",
             "name": "Legal team",
             "role": "Immigration files, company incorporation"
           },
           {
+            "icon": "Calculator",
             "name": "Accounting team",
             "role": "Tax management, compliance"
           }
@@ -21569,18 +21632,22 @@ export const CONTENT: Record<string, JsonRecord> = {
       "team": {
         "members": [
           {
+            "icon": "Briefcase",
             "name": "Dirección de Operaciones (Paraguay)",
             "role": "Liderazgo operativo, relaciones institucionales"
           },
           {
+            "icon": "Globe",
             "name": "Dirección Comercial (Europa)",
             "role": "Adquisición de clientes, puente cultural"
           },
           {
+            "icon": "Scale",
             "name": "Equipo Legal",
             "role": "Expedientes migratorios, constitución societaria"
           },
           {
+            "icon": "Calculator",
             "name": "Equipo Contable",
             "role": "Gestión fiscal, cumplimiento tributario"
           }
@@ -21888,13 +21955,13 @@ export const CONTENT: Record<string, JsonRecord> = {
             "included": [
               "Definición de perfil y criterios",
               "Búsqueda y short-list",
-              "Due diligence legal y técnica",
+              "Auditoría legal y técnica",
               "Negociación y escrituración",
               "Inscripción registral"
             ],
             "name": "Compra de Tierras",
             "price": "Desde USD 3.500",
-            "priceNote": "Según alcance de búsqueda y due diligence."
+            "priceNote": "Según alcance de búsqueda y auditoría legal."
           }
         ],
         "title": "Cuatro caminos para establecerse en Paraguay"
@@ -22137,15 +22204,15 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "a": "Honorarios profesionales, IVA, tasas oficiales, coordinación bancaria y asesoramiento integral.",
+            "a": "Honorarios profesionales de nuestro equipo multidisciplinario (legal, contable, notarial), IVA, tasas oficiales de Migraciones y del Registro Público, coordinación bancaria, tour estratégico inmobiliario y asesoramiento integral durante todo el trámite. No hay cargos adicionales en el proceso regular.",
             "q": "¿Qué incluye el precio?"
           },
           {
-            "a": "Vuelos, alojamiento, apostillas en país de origen, gastos personales.",
+            "a": "Vuelos internacionales, alojamiento en Asunción, gastos personales, traducciones juradas y apostillas de documentos en su país de origen. Si requiere servicios adicionales —por ejemplo tramitación de título de conducir paraguayo, apoyo en búsqueda de vivienda definitiva, o consultas fiscales fuera del alcance del programa contratado— se cotizan por separado y siempre con presupuesto previo.",
             "q": "¿Qué no está incluido?"
           },
           {
-            "a": "Anticipado por transferencia. Sin cargos adicionales en el trámite regular.",
+            "a": "Pago anticipado por transferencia bancaria internacional. Aceptamos USD o EUR. Sin cargos ocultos ni adicionales durante el trámite regular. Emitimos factura formal desde nuestra entidad paraguaya al momento del pago.",
             "q": "¿Cómo se paga?"
           }
         ],
@@ -22326,13 +22393,13 @@ export const CONTENT: Record<string, JsonRecord> = {
             "included": [
               "Definición de perfil y criterios",
               "Búsqueda y short-list",
-              "Due diligence legal y técnica",
+              "Auditoría legal y técnica",
               "Negociación y escrituración",
               "Inscripción registral"
             ],
             "name": "Compra de Tierras",
             "price": "Desde USD 3.500",
-            "priceNote": "Según alcance de búsqueda y due diligence."
+            "priceNote": "Según alcance de búsqueda y auditoría legal."
           }
         ],
         "title": "Cuatro caminos para establecerse en Paraguay"
@@ -22573,18 +22640,22 @@ export const CONTENT: Record<string, JsonRecord> = {
       "team": {
         "members": [
           {
+            "icon": "Briefcase",
             "name": "Operationele directie (Paraguay)",
             "role": "Operationeel leiderschap, institutionele relaties"
           },
           {
+            "icon": "Globe",
             "name": "Commerciële directie (Europa)",
             "role": "Klantacquisitie, culturele brug"
           },
           {
+            "icon": "Scale",
             "name": "Juridisch team",
             "role": "Migratiedossiers, oprichting vennootschap"
           },
           {
+            "icon": "Calculator",
             "name": "Boekhoudteam",
             "role": "Fiscaal beheer, compliance"
           }
@@ -26253,7 +26324,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "whatsapp-float",
       "commerce-catalog",
       "featured-products",
-      "trust-signals"
+      "trust-signals",
+      "age-gate"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",

@@ -621,19 +621,23 @@
       "members": [
         {
           "name": "Leitung Operations (Paraguay)",
-          "role": "Operatives Leadership, institutionelle Beziehungen"
+          "role": "Operatives Leadership, institutionelle Beziehungen",
+          "icon": "Briefcase"
         },
         {
           "name": "Leitung Commercial (Europa)",
-          "role": "Kundengewinnung, kulturelle Brücke"
+          "role": "Kundengewinnung, kulturelle Brücke",
+          "icon": "Globe"
         },
         {
           "name": "Juristisches Team",
-          "role": "Migrationsakten, Gesellschaftsgründung"
+          "role": "Migrationsakten, Gesellschaftsgründung",
+          "icon": "Scale"
         },
         {
           "name": "Steuerteam",
-          "role": "Steuerliches Management, Compliance"
+          "role": "Steuerliches Management, Compliance",
+          "icon": "Calculator"
         }
       ]
     },

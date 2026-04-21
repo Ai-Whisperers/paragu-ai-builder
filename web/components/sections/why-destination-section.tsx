@@ -72,11 +72,11 @@ export function WhyDestinationSection({
 
 function ThreeCol({ pillars }: { pillars: WhyPillar[] }) {
   return (
-    <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-stretch">
       {pillars.map((p, i) => (
-        <AnimateOnScroll key={i} stagger={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
-          <article className="rounded-lg border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card transition-all hover:shadow-card-hover">
-            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-[var(--secondary)]/10">
+        <AnimateOnScroll key={i} stagger={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6} className="h-full">
+          <article className="flex h-full flex-col rounded-lg border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card transition-all hover:shadow-card-hover">
+            <div className="mb-4 flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-[var(--secondary)]/10">
               <IconByName name={p.icon} />
             </div>
             <Heading level={3}
