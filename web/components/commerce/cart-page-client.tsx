@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useCartStore, cartSubtotalCents } from '@/lib/stores/cart-store'
 import { formatCents } from '@/lib/commerce/compute-totals'
 
-export function CartPageClient({ siteSlug }: { siteSlug: string }) {
+export function CartPageClient({ siteSlug, locale = 'es' }: { siteSlug: string; locale?: string }) {
   const cart = useCartStore((s) => s.cart)
   const status = useCartStore((s) => s.status)
   const refresh = useCartStore((s) => s.refresh)
@@ -19,7 +19,7 @@ export function CartPageClient({ siteSlug }: { siteSlug: string }) {
     return (
       <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
         <p className="text-[color:var(--text-muted,#6b7280)]">Tu carrito está vacío.</p>
-        <Link href={`/s/es/${siteSlug}/tienda`} className="mt-4 inline-block text-sm font-medium text-[color:var(--primary,#111)] underline">
+        <Link href={`/s/${locale}/${siteSlug}/tienda`} className="mt-4 inline-block text-sm font-medium text-[color:var(--primary,#111)] underline">
           Ir a la tienda
         </Link>
       </div>
@@ -31,34 +31,53 @@ export function CartPageClient({ siteSlug }: { siteSlug: string }) {
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
       <ul className="space-y-4">
-        {cart.items.map((it) => (
-          <li key={it.id} className="flex items-center gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
-            <div className="flex-1">
-              <p className="font-medium text-[color:var(--text,#111)]">{it.productId.slice(0, 8)}…</p>
-              <p className="text-sm text-[color:var(--text-muted,#6b7280)]">{formatCents(it.unitPriceCents, cart.currency)} c/u</p>
-            </div>
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={() => updateItem(siteSlug, it.id, Math.max(0, it.quantity - 1))}
-                className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm"
-                aria-label="Quitar uno"
-              >
-                −
-              </button>
-              <span className="min-w-[2rem] text-center">{it.quantity}</span>
-              <button
-                type="button"
-                onClick={() => updateItem(siteSlug, it.id, it.quantity + 1)}
-                className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm"
-                aria-label="Sumar uno"
-              >
-                +
-              </button>
-            </div>
-            <p className="w-24 text-right font-semibold">{formatCents(it.unitPriceCents * it.quantity, cart.currency)}</p>
-          </li>
-        ))}
+        {cart.items.map((it) => {
+          const displayName = it.productName ?? 'Producto'
+          return (
+            <li key={it.id} className="flex items-center gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+              {it.productImageUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={it.productImageUrl}
+                  alt=""
+                  className="h-16 w-16 flex-shrink-0 rounded object-cover"
+                />
+              ) : null}
+              <div className="flex-1">
+                {it.productSlug ? (
+                  <Link href={`/s/${locale}/${siteSlug}/producto/${it.productSlug}`} className="font-medium text-[color:var(--text,#111)] hover:underline">
+                    {displayName}
+                  </Link>
+                ) : (
+                  <p className="font-medium text-[color:var(--text,#111)]">{displayName}</p>
+                )}
+                <p className="text-sm text-[color:var(--text-muted,#6b7280)]">{formatCents(it.unitPriceCents, cart.currency)} c/u</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => updateItem(siteSlug, it.id, Math.max(0, it.quantity - 1))}
+                  className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm"
+                  aria-label={`Quitar uno de ${displayName}`}
+                >
+                  <span aria-hidden="true">−</span>
+                </button>
+                <span className="min-w-[2rem] text-center" aria-live="polite">
+                  <span className="sr-only">Cantidad: </span>{it.quantity}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => updateItem(siteSlug, it.id, it.quantity + 1)}
+                  className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm"
+                  aria-label={`Sumar uno a ${displayName}`}
+                >
+                  <span aria-hidden="true">+</span>
+                </button>
+              </div>
+              <p className="w-24 text-right font-semibold">{formatCents(it.unitPriceCents * it.quantity, cart.currency)}</p>
+            </li>
+          )
+        })}
       </ul>
 
       <aside className="h-fit rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
@@ -66,9 +85,9 @@ export function CartPageClient({ siteSlug }: { siteSlug: string }) {
           <span>Subtotal</span>
           <span>{formatCents(subtotal, cart.currency)}</span>
         </div>
-        <p className="mt-1 text-xs text-[color:var(--text-muted,#6b7280)]">Envío se calcula en el siguiente paso</p>
+        <p className="mt-1 text-xs text-[color:var(--text-muted,#6b7280)]">El envío se calcula al confirmar la dirección.</p>
         <Link
-          href={`/s/es/${siteSlug}/checkout`}
+          href={`/s/${locale}/${siteSlug}/checkout`}
           className="mt-4 block w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 text-center font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
         >
           {status === 'syncing' ? 'Actualizando…' : 'Finalizar compra'}

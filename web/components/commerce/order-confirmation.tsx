@@ -7,11 +7,12 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 
 interface Props {
   siteSlug: string
+  locale: string
   initialOrder: Order
   initialStatus?: 'success' | 'pending' | 'failure' | null
 }
 
-export function OrderConfirmation({ siteSlug, initialOrder, initialStatus }: Props) {
+export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatus }: Props) {
   const [order, setOrder] = useState(initialOrder)
   const [polling, setPolling] = useState(initialOrder.status === 'awaiting_payment')
 
@@ -65,7 +66,7 @@ export function OrderConfirmation({ siteSlug, initialOrder, initialStatus }: Pro
         </p>
 
         <Link
-          href={`/s/es/${siteSlug}/tienda`}
+          href={`/s/${locale}/${siteSlug}/tienda`}
           className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-4 py-2 font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
         >
           Seguir comprando
@@ -87,5 +88,5 @@ function bodyFor(status: Order['status'], initial: 'success' | 'pending' | 'fail
   if (status === 'paid') return 'Gracias por tu compra. Tu pedido se está preparando.'
   if (status === 'failed' || initial === 'failure') return 'No pudimos procesar tu pago. Intentá con otro método.'
   if (status === 'cancelled') return 'Esta orden fue cancelada. Si crees que es un error, contactanos.'
-  return 'Estamos esperando la confirmación de Mercado Pago. Esto puede tardar unos minutos.'
+  return 'Estamos esperando la confirmación del pago. Esto puede tardar unos minutos.'
 }

@@ -21,7 +21,7 @@ export function orderConfirmationEmail({ order, businessName, storeUrl }: Contex
 <!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
   <h1 style="font-size:20px;">Gracias por tu pedido</h1>
   <p>Hola ${escape(order.customerName)},</p>
-  <p>Recibimos tu pedido <strong>${order.orderNumber}</strong>. Estamos esperando la confirmación de Mercado Pago.</p>
+  <p>Recibimos tu pedido <strong>${order.orderNumber}</strong>. Estamos esperando la confirmación del pago.</p>
   <table style="width:100%;border-collapse:collapse;margin:16px 0;">
     ${itemsHtml}
     <tr><td style="padding:8px 0;border-top:1px solid #eee;font-weight:600;">Total</td><td style="padding:8px 0;border-top:1px solid #eee;text-align:right;font-weight:600;">${formatCents(order.totalCents, order.currency)}</td></tr>

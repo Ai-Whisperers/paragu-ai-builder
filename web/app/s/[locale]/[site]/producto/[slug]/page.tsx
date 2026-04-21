@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { getProductBySlug } from '@/lib/commerce/products'
@@ -32,8 +33,8 @@ export async function generateMetadata({ params }: { params: Promise<{ site: str
   }
 }
 
-export default async function ProductPage({ params }: { params: Promise<{ site: string; slug: string }> }) {
-  const { site, slug } = await params
+export default async function ProductPage({ params }: { params: Promise<{ site: string; locale: string; slug: string }> }) {
+  const { site, locale, slug } = await params
   const business = await resolveBusinessBySlug(site)
   if (!business || !(await isCommerceEnabled(business.type))) notFound()
 
@@ -64,9 +65,23 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={null} />
-      <CommerceHeader siteSlug={site} businessName={business.name} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+
+      <nav aria-label="Migas de pan" className="mx-auto max-w-5xl px-4 pt-4 text-sm text-[color:var(--text-muted,#6b7280)]">
+        <ol className="flex flex-wrap items-center gap-1.5">
+          <li>
+            <Link href={`/s/${locale}/${site}`} className="hover:underline">{business.name}</Link>
+          </li>
+          <li aria-hidden="true">/</li>
+          <li>
+            <Link href={`/s/${locale}/${site}/tienda`} className="hover:underline">Tienda</Link>
+          </li>
+          <li aria-hidden="true">/</li>
+          <li className="truncate text-[color:var(--text,#111)]" aria-current="page">{product.name}</li>
+        </ol>
+      </nav>
 
       <main className="mx-auto grid max-w-5xl gap-8 px-4 py-8 md:grid-cols-2">
         <div>
@@ -110,7 +125,7 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           </div>
 
           <div className="mt-8 rounded-lg bg-[color:var(--surface,#fff)] p-4 text-sm text-[color:var(--text-muted,#6b7280)]">
-            <p>✓ Pago seguro con Mercado Pago</p>
+            <p>✓ Pago seguro</p>
             <p>✓ Envío a todo el Paraguay</p>
             <p>✓ Atención por WhatsApp</p>
           </div>
