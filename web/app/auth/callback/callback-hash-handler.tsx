@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 
 /**
@@ -74,9 +75,9 @@ export function CallbackHashHandler({ next }: { next: string }) {
             ? 'El link ya fue usado o expiró. Pedí un link nuevo desde la página de login.'
             : errorMessage}
         </p>
-        <a href="/login" className="text-sm font-medium text-[color:var(--primary,#111)] underline">
+        <Link href="/login" className="text-sm font-medium text-[color:var(--primary,#111)] underline">
           Ir al login
-        </a>
+        </Link>
       </main>
     )
   }
