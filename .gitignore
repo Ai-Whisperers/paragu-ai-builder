@@ -63,3 +63,6 @@ web/.vercel/
 .wrangler/
 web/.wrangler/
 start-local.sh
+
+# Launch-readiness questionnaire (filled, contains real contact data)
+LAUNCH_READINESS_QUESTIONNAIRE.md
