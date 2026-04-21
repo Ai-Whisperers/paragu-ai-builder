@@ -11,11 +11,18 @@ import { ChevronDown } from 'lucide-react'
 export function FAQItem({
   question,
   answer,
+  defaultOpen = false,
 }: {
   question: string
   answer: string
+  /**
+   * Per BUG_HUNT_500 #327, the first FAQ row should default open so the
+   * answer is visible without an extra click. Pass `defaultOpen` on the
+   * first item only.
+   */
+  defaultOpen?: boolean
 }) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(defaultOpen)
 
   return (
     <div
@@ -39,7 +46,7 @@ export function FAQItem({
       </button>
       <div
         className="overflow-hidden transition-all duration-300"
-        style={{ maxHeight: isOpen ? '200px' : '0', opacity: isOpen ? 1 : 0 }}
+        style={{ maxHeight: isOpen ? '400px' : '0', opacity: isOpen ? 1 : 0 }}
       >
         <p className="px-6 pb-6 text-[var(--text-muted)]">{answer}</p>
       </div>
