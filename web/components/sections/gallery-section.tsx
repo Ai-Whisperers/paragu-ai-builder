@@ -1,3 +1,11 @@
+'use client'
+
+// Turbopack strictly forbids functions crossing the server→client
+// boundary. The lightbox variant below uses a render-prop children
+// (`<ImageLightbox>{({open}) => ...}</ImageLightbox>`) — that pattern
+// is only valid when this parent is ALSO a client component. Making
+// the whole section client is the cheapest fix; the non-lightbox
+// branch renders plain img grids and has no interactive cost.
 import Image from 'next/image'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
