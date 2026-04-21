@@ -9591,7 +9591,8 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "solid"
       },
       {
-        "id": "product-catalog",
+        "content": "store.catalog",
+        "id": "commerce-catalog",
         "variant": "grid"
       },
       {
@@ -18323,6 +18324,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Combinaciones pensadas para ahorrar y empezar bien.",
         "title": "Kits Curados"
       },
+      "catalog": {
+        "limit": 24,
+        "subtitle": "Explorá nuestros productos. Agregalos al carrito y pagá con envío discreto.",
+        "title": "Todo el catálogo",
+        "viewAllText": "Ver más productos"
+      },
       "hero": {
         "headline": "Tu Placer, Nuestra Prioridad",
         "subheadline": "Encuentra productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
@@ -26243,7 +26250,10 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "contact",
       "cta-banner",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "commerce-catalog",
+      "featured-products",
+      "trust-signals"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",
