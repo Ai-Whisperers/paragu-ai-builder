@@ -1,21 +1,29 @@
 /**
  * Admin Daily Metrics API
- * Win 71: Daily stats email API
+ *
+ * Auth: gated by `checkAdmin()` — was previously gated only on
+ * "Authorization header starts with 'Bearer '" which validated NOTHING
+ * (any literal string `Bearer foo` would pass). Real env-allowlist auth now.
  */
-import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { NextResponse } from 'next/server'
+import { createClient, type SupabaseClient } from '@supabase/supabase-js'
+import { withRequestLog } from '@/lib/api/with-request-log'
+import { checkAdmin } from '@/lib/auth/admin'
 import { logger } from '@/lib/logger'
 
-// Lazy client: creating it at request time (not module top-level) lets
-// `next build` collect page data without Supabase env vars being set.
-// The runtime error only fires when a real request hits without config.
-function getSupabase() {
+// Module-scoped client cache — same pattern as /api/analytics/track per ADR 0006.
+// First request initializes; subsequent requests reuse.
+let cachedClient: SupabaseClient | null = null
+
+function getSupabase(): SupabaseClient {
+  if (cachedClient) return cachedClient
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY
   if (!url || !key) throw new Error('Missing Supabase credentials')
-  return createClient(url, key, {
+  cachedClient = createClient(url, key, {
     auth: { autoRefreshToken: false, persistSession: false },
   })
+  return cachedClient
 }
 
 interface DailyMetrics {
@@ -48,100 +56,60 @@ interface DailyMetrics {
  * GET /api/admin/daily-metrics
  * Get daily metrics report
  */
-export async function GET(request: NextRequest) {
-  try {
-    // Verify admin authorization
-    const authHeader = request.headers.get('authorization')
-    if (!authHeader?.startsWith('Bearer ')) {
-      return NextResponse.json(
-        { success: false, error: 'Unauthorized' },
-        { status: 401 }
-      )
-    }
-
-    // Get date range from query params (default: yesterday)
-    const { searchParams } = new URL(request.url)
-    const days = parseInt(searchParams.get('days') || '1')
-    const endDate = new Date()
-    endDate.setDate(endDate.getDate() - 1)
-    const startDate = new Date(endDate)
-    startDate.setDate(startDate.getDate() - days + 1)
-
-    const startDateStr = startDate.toISOString().split('T')[0]
-    const endDateStr = endDate.toISOString().split('T')[0]
-
-    // Fetch metrics
-    const metrics = await fetchDailyMetrics(startDateStr, endDateStr)
-
-    return NextResponse.json({
-      success: true,
-      metrics,
-    })
-  } catch (error) {
-    logger.error('Failed to fetch daily metrics', { action: 'admin.dailyMetrics.fetch', error: error instanceof Error ? error.message : String(error) })
-    return NextResponse.json(
-      { success: false, error: 'Internal server error' },
-      { status: 500 }
-    )
+export const GET = withRequestLog(async (request) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ success: false, error: auth.reason }, { status: auth.status })
   }
-}
+
+  const { searchParams } = new URL(request.url)
+  const days = parseInt(searchParams.get('days') || '1')
+  const endDate = new Date()
+  endDate.setDate(endDate.getDate() - 1)
+  const startDate = new Date(endDate)
+  startDate.setDate(startDate.getDate() - days + 1)
+
+  const startDateStr = startDate.toISOString().split('T')[0]
+  const endDateStr = endDate.toISOString().split('T')[0]
+
+  const metrics = await fetchDailyMetrics(startDateStr, endDateStr)
+
+  return NextResponse.json({ success: true, metrics })
+})
 
 /**
  * POST /api/admin/daily-metrics
- * Generate and send daily metrics email
+ * Generate the daily metrics report. Email sending is intentionally NOT
+ * wired here — use the cron path (/api/cron/leads-digest pattern) when
+ * adding scheduled delivery; this route is for ad-hoc generation only.
  */
-export async function POST(request: NextRequest) {
-  try {
-    // Verify admin authorization
-    const authHeader = request.headers.get('authorization')
-    if (!authHeader?.startsWith('Bearer ')) {
-      return NextResponse.json(
-        { success: false, error: 'Unauthorized' },
-        { status: 401 }
-      )
-    }
-
-    const body = await request.json()
-    const { email, format = 'html' } = body
-
-    if (!email) {
-      return NextResponse.json(
-        { success: false, error: 'Email address required' },
-        { status: 400 }
-      )
-    }
-
-    // Get yesterday's metrics
-    const yesterday = new Date()
-    yesterday.setDate(yesterday.getDate() - 1)
-    const dateStr = yesterday.toISOString().split('T')[0]
-
-    const metrics = await fetchDailyMetrics(dateStr, dateStr)
-
-    // Generate report
-    let report: string
-    if (format === 'html') {
-      report = generateHtmlReport(metrics, dateStr)
-    } else {
-      report = generateTextReport(metrics, dateStr)
-    }
-
-    // TODO: Send email via your email service (Resend, SendGrid, etc.)
-    // For now, just return the report
-    return NextResponse.json({
-      success: true,
-      message: 'Report generated (email sending not implemented)',
-      report,
-      metrics,
-    })
-  } catch (error) {
-    logger.error('Failed to generate daily metrics', { action: 'admin.dailyMetrics.generate', error: error instanceof Error ? error.message : String(error) })
-    return NextResponse.json(
-      { success: false, error: 'Internal server error' },
-      { status: 500 }
-    )
+export const POST = withRequestLog(async (request) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ success: false, error: auth.reason }, { status: auth.status })
   }
-}
+
+  const body = await request.json().catch(() => ({}))
+  const { email, format = 'html' } = body as { email?: string; format?: string }
+
+  if (!email) {
+    return NextResponse.json({ success: false, error: 'Email address required' }, { status: 400 })
+  }
+
+  const yesterday = new Date()
+  yesterday.setDate(yesterday.getDate() - 1)
+  const dateStr = yesterday.toISOString().split('T')[0]
+
+  const metrics = await fetchDailyMetrics(dateStr, dateStr)
+  const report = format === 'html' ? generateHtmlReport(metrics, dateStr) : generateTextReport(metrics, dateStr)
+
+  return NextResponse.json({
+    success: true,
+    message: 'Report generated. Use a cron route to schedule delivery.',
+    report,
+    metrics,
+  })
+})
 
 async function fetchDailyMetrics(startDate: string, endDate: string): Promise<DailyMetrics> {
   const supabase = getSupabase()
