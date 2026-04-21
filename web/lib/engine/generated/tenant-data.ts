@@ -28967,7 +28967,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: banca paraguaya para extranjeros",
             "nl": "Blogomslag: Paraguayaans bankieren voor buitenlanders"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/banca.png",
           "src": "/sites/nexa-paraguay/images/blog/banca.webp"
         },
         "comparativaFiscal": {
@@ -28978,7 +28977,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: comparativa fiscal Paraguay vs países vecinos",
             "nl": "Blogomslag: fiscale vergelijking Paraguay vs buurlanden"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.png",
           "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp"
         },
         "costOfLiving": {
@@ -28989,7 +28987,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: costo de vida en Paraguay",
             "nl": "Blogomslag: kosten van levensonderhoud in Paraguay"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/cost-of-living.png",
           "src": "/sites/nexa-paraguay/images/blog/cost-of-living.webp"
         },
         "emprender": {
@@ -29000,7 +28997,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: emprender en Paraguay",
             "nl": "Blogomslag: ondernemen in Paraguay"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/emprender.png",
           "src": "/sites/nexa-paraguay/images/blog/emprender.webp"
         },
         "healthcare": {
@@ -29011,7 +29007,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: opciones de salud en Paraguay",
             "nl": "Blogomslag: zorgopties in Paraguay"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/healthcare.png",
           "src": "/sites/nexa-paraguay/images/blog/healthcare.webp"
         },
         "neighborhoods": {
@@ -29022,7 +29017,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: barrios en Asunción",
             "nl": "Blogomslag: wijken in Asunción"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/neighborhoods.png",
           "src": "/sites/nexa-paraguay/images/blog/neighborhoods.webp"
         },
         "paraguayUruguayPanama": {
@@ -29033,7 +29027,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: comparativa Paraguay vs Uruguay vs Panamá",
             "nl": "Blogomslag: vergelijking Paraguay vs Uruguay vs Panama"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.png",
           "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.webp"
         },
         "propiedades": {
@@ -29044,7 +29037,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: comprar propiedades en Paraguay",
             "nl": "Blogomslag: vastgoed kopen in Paraguay"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/propiedades.png",
           "src": "/sites/nexa-paraguay/images/blog/propiedades.webp"
         },
         "residencia2024": {
@@ -29055,7 +29047,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: requisitos de residencia 2024",
             "nl": "Blogomslag: vereisten voor residentie 2024"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/residencia-2024.png",
           "src": "/sites/nexa-paraguay/images/blog/residencia-2024.webp"
         },
         "schools": {
@@ -29066,7 +29057,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Portada de blog: colegios internacionales en Paraguay",
             "nl": "Blogomslag: internationale scholen in Paraguay"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/blog/schools.png",
           "src": "/sites/nexa-paraguay/images/blog/schools.webp"
         }
       },
@@ -29168,7 +29158,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Silueta de Asunción, Paraguay, al atardecer",
             "nl": "Skyline van Asunción, Paraguay, bij gouden uur"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-bg.webp"
         },
         "homeMobile": {
@@ -29179,7 +29168,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Silueta de Asunción, Paraguay (vertical, móvil)",
             "nl": "Skyline van Asunción, Paraguay (mobiel portret)"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.webp"
         },
         "localizedDe": {
@@ -29190,7 +29178,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Distrito de negocios de Asunción para el mercado alemán",
             "nl": "Zakendistrict van Asunción voor de Duitse markt"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-de.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-de.webp"
         },
         "localizedEn": {
@@ -29201,7 +29188,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Torre empresarial de Asunción y silueta profesional para el mercado inglés",
             "nl": "Zakentoren van Asunción en professionele silhouet voor de Engelstalige markt"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-en.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-en.webp"
         },
         "localizedEs": {
@@ -29212,7 +29198,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Patrimonio cultural de Asunción para el mercado hispanohablante",
             "nl": "Cultureel oriëntatiepunt van Asunción voor de Spaanstalige markt"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-es.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-es.webp"
         },
         "localizedNl": {
@@ -29223,7 +29208,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "es": "Puente entre Ámsterdam y Asunción para el mercado neerlandés",
             "nl": "Brug tussen Amsterdam en Asunción voor de Nederlandse markt"
           },
-          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-nl.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-nl.webp"
         }
       },

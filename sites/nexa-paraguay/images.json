@@ -60,7 +60,6 @@
       "home": {
         "src": "/sites/nexa-paraguay/images/hero/hero-bg.webp",
         "alt": "Asunción Paraguay skyline at golden hour",
-        "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg.png",
         "altByLocale": {
           "en": "Asunción Paraguay skyline at golden hour",
           "es": "Silueta de Asunción, Paraguay, al atardecer",
@@ -71,7 +70,6 @@
       "homeMobile": {
         "src": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.webp",
         "alt": "Asunción Paraguay skyline (mobile portrait)",
-        "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.png",
         "altByLocale": {
           "en": "Asunción Paraguay skyline (mobile portrait)",
           "es": "Silueta de Asunción, Paraguay (vertical, móvil)",
@@ -82,7 +80,6 @@
       "localizedNl": {
         "src": "/sites/nexa-paraguay/images/hero/hero-nl.webp",
         "alt": "Bridge between Amsterdam and Asunción for Dutch market",
-        "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-nl.png",
         "altByLocale": {
           "en": "Bridge between Amsterdam and Asunción for the Dutch market",
           "es": "Puente entre Ámsterdam y Asunción para el mercado neerlandés",
@@ -93,7 +90,6 @@
       "localizedEn": {
         "src": "/sites/nexa-paraguay/images/hero/hero-en.webp",
         "alt": "Asunción business tower and professional silhouette for English market",
-        "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-en.png",
         "altByLocale": {
           "en": "Asunción business tower and professional silhouette for the English market",
           "es": "Torre empresarial de Asunción y silueta profesional para el mercado inglés",
@@ -104,7 +100,6 @@
       "localizedDe": {
         "src": "/sites/nexa-paraguay/images/hero/hero-de.webp",
         "alt": "Neoclassical institutional bridge for German market",
-        "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-de.png",
         "altByLocale": {
           "en": "Business district of Asunción for the German market",
           "es": "Distrito de negocios de Asunción para el mercado alemán",
@@ -115,7 +110,6 @@
       "localizedEs": {
         "src": "/sites/nexa-paraguay/images/hero/hero-es.webp",
         "alt": "Family walking a Villa Morra street for Spanish market",
-        "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-es.png",
         "altByLocale": {
           "en": "Asunción cultural landmark for the Spanish market",
           "es": "Patrimonio cultural de Asunción para el mercado hispanohablante",
@@ -501,7 +495,6 @@
       "residencia2024": {
         "src": "/sites/nexa-paraguay/images/blog/residencia-2024.webp",
         "alt": "Guide to Paraguay residency 2024",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/residencia-2024.png",
         "altByLocale": {
           "en": "Blog cover: residency requirements 2024",
           "es": "Portada de blog: requisitos de residencia 2024",
@@ -512,7 +505,6 @@
       "comparativaFiscal": {
         "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp",
         "alt": "Paraguay vs Uruguay fiscal comparison",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.png",
         "altByLocale": {
           "en": "Blog cover: Paraguay tax comparison vs neighbouring countries",
           "es": "Portada de blog: comparativa fiscal Paraguay vs países vecinos",
@@ -523,7 +515,6 @@
       "propiedades": {
         "src": "/sites/nexa-paraguay/images/blog/propiedades.webp",
         "alt": "Buying property in Paraguay",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/propiedades.png",
         "altByLocale": {
           "en": "Blog cover: buying property in Paraguay",
           "es": "Portada de blog: comprar propiedades en Paraguay",
@@ -534,7 +525,6 @@
       "banca": {
         "src": "/sites/nexa-paraguay/images/blog/banca.webp",
         "alt": "Opening a bank account in Paraguay",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/banca.png",
         "altByLocale": {
           "en": "Blog cover: Paraguayan banking for foreigners",
           "es": "Portada de blog: banca paraguaya para extranjeros",
@@ -545,7 +535,6 @@
       "emprender": {
         "src": "/sites/nexa-paraguay/images/blog/emprender.webp",
         "alt": "Entrepreneurship opportunities in Paraguay",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/emprender.png",
         "altByLocale": {
           "en": "Blog cover: starting a business in Paraguay",
           "es": "Portada de blog: emprender en Paraguay",
@@ -556,7 +545,6 @@
       "costOfLiving": {
         "src": "/sites/nexa-paraguay/images/blog/cost-of-living.webp",
         "alt": "Cost of living in Paraguay",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/cost-of-living.png",
         "altByLocale": {
           "en": "Blog cover: cost of living in Paraguay",
           "es": "Portada de blog: costo de vida en Paraguay",
@@ -567,7 +555,6 @@
       "healthcare": {
         "src": "/sites/nexa-paraguay/images/blog/healthcare.webp",
         "alt": "Healthcare for expats in Paraguay",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/healthcare.png",
         "altByLocale": {
           "en": "Blog cover: healthcare options in Paraguay",
           "es": "Portada de blog: opciones de salud en Paraguay",
@@ -578,7 +565,6 @@
       "schools": {
         "src": "/sites/nexa-paraguay/images/blog/schools.webp",
         "alt": "International schools for expat families",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/schools.png",
         "altByLocale": {
           "en": "Blog cover: international schools in Paraguay",
           "es": "Portada de blog: colegios internacionales en Paraguay",
@@ -589,7 +575,6 @@
       "neighborhoods": {
         "src": "/sites/nexa-paraguay/images/blog/neighborhoods.webp",
         "alt": "Neighborhood guide: Villa Morra and Carmelitas",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/neighborhoods.png",
         "altByLocale": {
           "en": "Blog cover: neighbourhoods in Asunción",
           "es": "Portada de blog: barrios en Asunción",
@@ -600,7 +585,6 @@
       "paraguayUruguayPanama": {
         "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.webp",
         "alt": "Paraguay vs Uruguay vs Panama comparison",
-        "fallbackSrc": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.png",
         "altByLocale": {
           "en": "Blog cover: Paraguay vs Uruguay vs Panama comparison",
           "es": "Portada de blog: comparativa Paraguay vs Uruguay vs Panamá",
