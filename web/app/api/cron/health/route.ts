@@ -55,6 +55,11 @@ const CRONS: Array<Omit<CronCheck, 'status' | 'missing'>> = [
     schedule: '0 * * * * (UTC, hourly)',
     requiredEnv: ['CRON_SECRET'],
   },
+  {
+    path: '/api/cron/commerce-prune-search-events',
+    schedule: '17 3 * * * (UTC, daily 03:17)',
+    requiredEnv: ['CRON_SECRET'],
+  },
 ]
 
 function envCheck(required: string[]): { status: 'ok' | 'missing_env'; missing: string[] } {
