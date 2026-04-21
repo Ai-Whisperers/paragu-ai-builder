@@ -9,6 +9,7 @@ import {
   Menu, X as XIcon, PlayCircle,
   UtensilsCrossed, Fish, CircleDot,
   RotateCcw, Activity, Unlock,
+  type LucideIcon,
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
@@ -20,7 +21,17 @@ import { FloatingShape } from '@/components/landing/chrome'
 
 /* ── Data Constants ─────────────────────────────────────────────── */
 
-const TEMPLATES = [
+type Template = {
+  id: string
+  name: string
+  icon: LucideIcon
+  leads: number
+  pct: number
+  color: string
+  demoSlug?: string
+}
+
+const TEMPLATES: Template[] = [
   { id: 'peluqueria', name: 'Peluquería', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: 'salon-maria' },
   { id: 'salon_belleza', name: 'Salón de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'studio-belleza' },
   { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoSlug: 'gymfit-py' },
@@ -37,7 +48,7 @@ const TEMPLATES = [
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
   { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3', demoSlug: 'kaiten-express' },
-] as const
+]
 
 const FEATURES = [
   { icon: Check, title: 'Todo incluido', desc: 'Diseño, textos, fotos, dominio .com.py, hosting y soporte. Vos solo nos mandás la info por WhatsApp.' },
