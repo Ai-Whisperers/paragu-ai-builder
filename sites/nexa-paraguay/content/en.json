@@ -739,7 +739,7 @@
       "neighborhood": "Centro",
       "city": "Asunción",
       "email": "hola@nexaparaguay.com",
-      "whatsapp": "595000000000"
+      "whatsapp": "595982515138"
     }
   },
   "privacyPage": {
@@ -791,7 +791,7 @@
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
     "email": "hola@nexaparaguay.com",
-    "whatsapp": "595000000000",
+    "whatsapp": "595982515138",
     "instagram": "https://instagram.com/nexaparaguay",
     "navLinks": [
       {
@@ -829,7 +829,7 @@
     "subtitle": "Before starting corporate incorporation, bank account opening or real-estate acquisition services, please complete this sworn statement.",
     "submitLabel": "Submit attestation",
     "successMessage": "Thank you. A compliance officer will contact you within 72 business hours.",
-    "whatsappPhone": "595000000000",
+    "whatsappPhone": "595982515138",
     "whatsappFallbackLabel": "Questions? Reach us on WhatsApp",
     "questions": [
       { "id": "fullName", "kind": "text", "label": "Full legal name (as on ID)", "required": true },
@@ -856,7 +856,7 @@
     ]
   },
   "whatsapp": {
-    "phone": "595000000000",
+    "phone": "595982515138",
     "message": "Hi, I would like to know more about Nexa Paraguay's programs."
   }
 }

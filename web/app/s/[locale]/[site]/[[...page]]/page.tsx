@@ -25,7 +25,6 @@ export const dynamicParams = true
 const PRERENDER_SKIP_SITES = new Set<string>([
   'nexa-uruguay',
   'nexa-propiedades',
-  'nexaparaguay',
 ])
 
 export async function generateStaticParams() {

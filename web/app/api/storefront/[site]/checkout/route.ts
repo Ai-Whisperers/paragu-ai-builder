@@ -4,8 +4,10 @@ import { createAdminClient } from '@/lib/supabase/admin'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { createOrder, getOrder, CheckoutError } from '@/lib/commerce/orders'
-import { getAdapter } from '@/lib/payments/registry'
+import { rankProvidersForOrder, NoEligibleProviderError } from '@/lib/payments/router'
+import { createCheckoutWithFailover, NoAvailableProviderError } from '@/lib/payments/failover'
 import { CheckoutInputSchema } from '@/lib/schemas/commerce/order'
+import type { PaymentProvider } from '@/lib/schemas/commerce/transaction'
 
 export const runtime = 'nodejs'
 
@@ -61,22 +63,45 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   const order = await getOrder(business.id, orderId)
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
-  const adapter = getAdapter('mercado_pago')
-  const session = await adapter.createCheckoutSession(order, {
-    returnUrl: `${appUrl}/s/es/${site}/orden/${order.id}`,
-    webhookUrl: `${appUrl}/api/webhooks/mercado-pago`,
-  })
 
-  // Persist a transaction row so we can look up the preference later
+  // Pick provider via capability matrix; failover on gateway 5xx/timeout.
+  // business.commerce.provider (from registry) is the preferred hint;
+  // PR 4 will read merchant-installed providers from
+  // business_payment_credentials and pass that as `available`.
+  let providers: PaymentProvider[]
+  try {
+    providers = rankProvidersForOrder(order, business.preferredProvider as PaymentProvider | undefined)
+  } catch (err) {
+    if (err instanceof NoEligibleProviderError) {
+      return NextResponse.json({ error: 'no_eligible_payment_provider' }, { status: 422 })
+    }
+    throw err
+  }
+
+  let routingResult
+  try {
+    routingResult = await createCheckoutWithFailover(order, providers, {
+      returnUrl: `${appUrl}/s/es/${site}/orden/${order.id}`,
+      webhookUrlFor: (p) => `${appUrl}/api/webhooks/${p}`,
+    })
+  } catch (err) {
+    if (err instanceof NoAvailableProviderError) {
+      return NextResponse.json({ error: 'all_providers_unavailable' }, { status: 502 })
+    }
+    throw err
+  }
+
+  const { session, provider, attempted } = routingResult
+
   await supabase.from('storefront_transactions').insert({
     business_id: business.id,
     order_id: order.id,
-    provider: 'mercado_pago',
+    provider,
     provider_preference_id: session.providerRef,
     status: 'created',
     amount_cents: order.totalCents,
     currency: order.currency,
-    raw_payload: {},
+    raw_payload: { failover_attempts: attempted },
   })
 
   const responseBody = {

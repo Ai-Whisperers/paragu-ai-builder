@@ -14,7 +14,7 @@
   "navigation": {
     "businessName": "De Abasto a Casa",
     "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595000000000"
+    "ctaHref": "https://wa.me/595981324569"
   },
   "home": {
     "seo": {
@@ -25,7 +25,7 @@
       "headline": "De Abasto a Casa",
       "subheadline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595000000000"
+      "ctaPrimaryHref": "https://wa.me/595981324569"
     },
     "services": {
       "title": "Nuestros Servicios",
@@ -135,7 +135,7 @@
     "contact": {
       "title": "Contactanos",
       "subtitle": "Te respondemos por WhatsApp",
-      "whatsapp": "+595000000000",
+      "whatsapp": "+595981324569",
       "email": "hola@deabastoacasa.com.py"
     }
   },
