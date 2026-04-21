@@ -1,0 +1,19 @@
+{
+  "slug": "account",
+  "titleKey": "account.seo.title",
+  "descriptionKey": "account.seo.description",
+  "authRequired": true,
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "account-tabs", "variant": "sidebar", "content": "account.nav" },
+    { "id": "account-dashboard", "variant": "cards", "content": "account.dashboard" },
+    { "id": "account-orders", "variant": "table", "content": "account.orders" },
+    { "id": "account-wishlist", "variant": "grid", "content": "account.wishlist" },
+    { "id": "account-subscriptions", "variant": "cards", "content": "account.subscriptions" },
+    { "id": "account-loyalty", "variant": "progress", "content": "account.loyalty" },
+    { "id": "account-addresses", "variant": "cards", "content": "account.addresses" },
+    { "id": "account-settings", "variant": "form", "content": "account.settings" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}

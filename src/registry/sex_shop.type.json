@@ -35,15 +35,76 @@
   ],
   "features": {
     "productCatalog": { "enabled": true, "whatsappOrder": true, "showPrices": true },
-    "ageGate": { "enabled": true, "minAge": 18 },
+    "ageGate": { "enabled": true, "minAge": 18, "method": "self_declare" },
     "discretePackaging": { "enabled": true },
+    "discreteStatementDescriptor": { "enabled": true, "maxChars": 22 },
     "whatsappFloat": { "enabled": true },
     "deliveryCalculator": { "enabled": true },
-    "testimonials": { "enabled": true },
-    "faq": { "enabled": true }
+    "testimonials": { "enabled": true, "pseudonymous": true },
+    "reviews": { "enabled": true, "verifiedPurchaseOnly": true, "pseudonymous": true, "moderationRequired": true },
+    "faq": { "enabled": true },
+    "blog": { "enabled": true, "seoFocused": true },
+    "bundles": { "enabled": true },
+    "giftCards": { "enabled": true, "deliveryMethods": ["email", "whatsapp", "physical"] },
+    "subscriptions": { "enabled": true, "tiersSupported": 3 },
+    "loyalty": { "enabled": true, "tiersSupported": 3 },
+    "referral": { "enabled": true, "discreteEmails": true },
+    "wishlist": { "enabled": true, "anonymousSupported": true },
+    "sizeGuides": { "enabled": true, "units": "cm" },
+    "storePickupReserve": { "enabled": true },
+    "discreteAccountNames": { "enabled": true },
+    "backInStockNotifications": { "enabled": true }
   },
   "legal": {
     "requiresAgeVerification": true,
-    "privacyNotes": "Envio discreto, facturacion neutra, datos no compartidos"
-  }
+    "privacyNotes": "Envio discreto, facturacion neutra, datos no compartidos",
+    "requiredDocuments": ["terms", "privacy", "returns", "age-compliance"],
+    "marketingConstraints": {
+      "noExplicitImagery": true,
+      "emailSubjectLines": "neutral",
+      "referralEmails": "neutral_subject_line"
+    }
+  },
+  "compliance": {
+    "minimumAge": 18,
+    "paymentProviderRisk": "may_require_special_category",
+    "adsPlatforms": {
+      "googleAds": "restricted",
+      "facebookAds": "restricted",
+      "instagramOrganic": "allowed_with_neutral_content",
+      "tiktokOrganic": "restricted"
+    }
+  },
+  "recommendedPages": [
+    "home",
+    "store",
+    "blog",
+    "bundles",
+    "gift-cards",
+    "suscripciones",
+    "placer-plus",
+    "guia-talles",
+    "reserva-en-tienda",
+    "referidos",
+    "account",
+    "legal-index"
+  ],
+  "recommendedLegalDocs": [
+    "terms",
+    "privacy",
+    "returns",
+    "age-compliance"
+  ],
+  "suggestedCategoriesSchema": [
+    { "id": "vibradores", "nameEs": "Vibradores" },
+    { "id": "dildos", "nameEs": "Dildos" },
+    { "id": "anal", "nameEs": "Juguetes Anales" },
+    { "id": "parejas", "nameEs": "Para Parejas" },
+    { "id": "bdsm", "nameEs": "BDSM & Fetish" },
+    { "id": "lenceria", "nameEs": "Lenceria" },
+    { "id": "lubricantes", "nameEs": "Lubricantes" },
+    { "id": "bienestar", "nameEs": "Bienestar Intimo" },
+    { "id": "kits", "nameEs": "Kits Curados" },
+    { "id": "regalos", "nameEs": "Gift Cards y Regalos" }
+  ]
 }

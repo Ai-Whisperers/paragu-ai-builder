@@ -1,0 +1,16 @@
+{
+  "slug": "gift-cards",
+  "titleKey": "giftCards.seo.title",
+  "descriptionKey": "giftCards.seo.description",
+  "sections": [
+    { "id": "age-gate", "variant": "modal", "content": "ageGate" },
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "giftcards-hero", "variant": "split", "content": "giftCards.hero" },
+    { "id": "giftcards-denominations", "variant": "grid", "content": "giftCards.denominations" },
+    { "id": "giftcards-how-it-works", "variant": "steps", "content": "giftCards.howItWorks" },
+    { "id": "giftcards-design", "variant": "carousel", "content": "giftCards.designs" },
+    { "id": "giftcards-faq", "variant": "accordion", "content": "giftCards.faq" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}
