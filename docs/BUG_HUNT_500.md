@@ -9,23 +9,45 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 14 | #006, #022, #029, #032, #040, #049, #061, #081, #291, #292, #293, #294, #295, #297, #298, #309, #386 |
+| ✅ Closed | 47 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 486 | the rest |
+| 🔴 Open | 453 | the rest |
 
 Closure log:
 
 - **#006, #022, #309** — bulk accent fixes across 112 tenant content files
   (832 replacements: Asunción, atención, educación, etc.). PR #94.
+- **#008** — verified `alternatesFor()` already emits hreflang x-default. PR #101.
+- **#019** — Nexa Uruguay 7 occurrences of `598000000000` placeholder
+  → real shared sales line `595982515138`. PR #104.
 - **#029** — Nexa Propiedades "500 propiedades" claim → verifiable copy. PR #72.
-- **#032, #049** — De Abasto a Casa + ParaguAI WhatsApp numbers replaced. PR #72.
-- **#040** — Dayah contact phone already migrated to 595986868241.
-- **#061, #081** — demo-data.ts test phones (+595981234567, +595987654321)
-  → ParaguAI sales line. PR #92.
-- **#291, #292, #293, #294, #295, #297, #298** — DemoBadge component, schema
-  field, mounted on both render paths, 116 site.json explicit booleans,
-  noindex meta on demos, dismissible per-session. PR #92, #93, this batch.
-- **#386** — `let queries` → `const queries` in lib/supabase/scoped.ts. PR #93.
+- **#032, #033** — Nexa Propiedades phone in all 3 locale files: placeholder
+  → `595982515138`. PR #102.
+- **#040, #049** — De Abasto a Casa + Dayah WhatsApp numbers fixed. PR #72.
+- **#048** — Dayah hero subhead gains "Trabajos en USD" badge. PR #103.
+- **#052** — De Abasto tier names rewritten ("Compra básica semanal" etc.). PR #103.
+- **#061, #081** — demo-data.ts test phones → ParaguAI sales line. PR #92.
+- **#291–#298, #300** — DemoBadge component, schema field, dismissible,
+  screenshot mode, noindex meta on demos. PR #92, #93, #96.
+- **#321** — h1 widow on mobile: NBSP between "48" and "horas". PR #97.
+- **#322** — verified hero claim copy lives in marketing-data PLANS. (no fix needed).
+- **#324** — mobile bottom-stacking: WhatsApp + BackToTop above StickyMobileCTA. PR #101.
+- **#327** — FAQ first item open by default. PR #98.
+- **#329** — CTA text consistency: "Solicitar demo" → "Pedir demo gratis". PR #97.
+- **#335** — LogoStrip prefers `/casos/<slug>` over tenant URL. PR #99.
+- **#336** — verified one occurrence "Ver clientes reales" already correct.
+- **#338** — verified `scroll-behavior: smooth` already in globals.css.
+- **#339** — ScrollDepthTracker emits SECTION_VIEW at 25/50/75/100%. PR #98.
+- **#341–#345, #350** — vertical landings audit verified (no fix needed).
+- **#366–#369** — /demo qualifier checks verified.
+- **#371** — verified back/next buttons already wired in DemoQualifier.
+- **#372** — friendly "no demo yet" message on step 3. PR #100.
+- **#375** — "Paso N de 4" numeric label. PR #100.
+- **#379** — `?v=<id>` pre-fill rubro on mount. PR #100.
+- **#386** — `let queries` → `const queries` in scoped.ts. PR #93.
+- **#406** — verified husky pre-commit hook already runs typecheck + lint-staged.
+- **#414** — verified all `target="_blank"` on landing have `rel="noopener"`.
+- **#417** — verified only 1 `console.log` in app code, in logger itself (legitimate).
 
 
 >
