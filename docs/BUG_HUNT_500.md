@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 61 | see closure log below |
+| ✅ Closed | 66 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 439 | the rest |
+| 🔴 Open | 434 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -78,6 +78,12 @@ Closure log:
 - **#388** — `_citiesError` / `_typesError` in `app/admin/leads/page.tsx`
   were silently swallowed — replaced with explicit `logger.warn` calls
   per error-handling rules (no more silent failure on filter dropdowns).
+- **#381, #382, #383, #384, #385** — re-verified: typecheck errors in
+  hero-section.tsx, why-destination-section.tsx, commerce-email-flush
+  route, and commerce schemas all resolved by prior PRs. Plus removed
+  dead "Próximamente" branch in `app/page.tsx:667-680` (every TEMPLATE in
+  the local list has demoSlug, so else branch was unreachable and TS
+  narrowed `template` to `never`). `npx tsc --noEmit` in `web/` now exits 0.
 
 ## Blocked on user input
 
