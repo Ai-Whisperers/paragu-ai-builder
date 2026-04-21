@@ -33,7 +33,9 @@ function getSupabase(): SupabaseClient {
   return cachedClient
 }
 
-// Valid event types
+// Valid event types. `web_vital` is emitted by WebVitalsReporter on every
+// page load (LCP/CLS/INP/TTFB/FCP) — keep it in the whitelist so RUM data
+// isn't dropped with a 400.
 const VALID_EVENT_TYPES = [
   'page_view',
   'section_view',
@@ -49,6 +51,7 @@ const VALID_EVENT_TYPES = [
   'demo_generated',
   'lead_created',
   'conversion',
+  'web_vital',
 ] as const
 
 type EventType = typeof VALID_EVENT_TYPES[number]
@@ -65,14 +68,106 @@ interface TrackEventBody {
   userAgent?: string
 }
 
+interface TrackBatchBody {
+  batch: true
+  events: Array<TrackEventBody & { timestamp?: string }>
+}
+
 /**
  * POST /api/analytics/track
  * Track an analytics event. Public — no auth (events come from browsers).
+ *
+ * Accepts two payload shapes:
+ *   - Single:  { eventType, ... }
+ *   - Batched: { batch: true, events: [{ eventType, ... }, ...] }
+ *
+ * The client emitter (`lib/analytics/events.ts`) buffers events and flushes
+ * them as batches; the Core Web Vitals reporter sends single events per
+ * metric via `navigator.sendBeacon`. Supporting both here avoids dropping
+ * legitimate data with a 400.
  */
 export const POST = withRequestLog(async (request, { log }) => {
   const supabase = getSupabase()
-  const body: TrackEventBody = await request.json().catch(() => ({} as TrackEventBody))
+  const rawBody = (await request.json().catch(() => ({}))) as
+    | Partial<TrackEventBody & TrackBatchBody>
+    | Record<string, never>
 
+  const isBatch =
+    rawBody && (rawBody as TrackBatchBody).batch === true && Array.isArray((rawBody as TrackBatchBody).events)
+
+  const headers = request.headers
+  const ua = headers.get('user-agent') || 'unknown'
+  const ref = headers.get('referer') || 'direct'
+  const ip = headers.get('x-forwarded-for') || headers.get('x-real-ip') || 'unknown'
+  const ipHash = await hashIp(ip)
+  const sessionIdDefault = generateSessionId()
+
+  if (isBatch) {
+    const events = (rawBody as TrackBatchBody).events
+    if (events.length === 0) {
+      return NextResponse.json({ success: true, accepted: 0 })
+    }
+
+    const rejected: Array<{ index: number; reason: string }> = []
+    const rows: Array<Record<string, unknown>> = []
+
+    events.forEach((e, i) => {
+      if (!e?.eventType) {
+        rejected.push({ index: i, reason: 'missing eventType' })
+        return
+      }
+      if (!VALID_EVENT_TYPES.includes(e.eventType)) {
+        rejected.push({ index: i, reason: `invalid eventType: ${e.eventType}` })
+        return
+      }
+      rows.push({
+        event_type: e.eventType,
+        business_id: e.businessId || null,
+        lead_id: e.leadId || null,
+        page_url: e.pageUrl || null,
+        section_id: e.sectionId || null,
+        metadata: e.metadata || {},
+        session_id: e.sessionId || sessionIdDefault,
+        ip_hash: ipHash,
+        user_agent: (e.userAgent || ua).slice(0, 200),
+        referrer: (e.referrer || ref).slice(0, 500),
+        created_at: new Date().toISOString(),
+      })
+    })
+
+    if (rows.length === 0) {
+      // Entire batch invalid — don't hit the DB, but surface a 400 so
+      // the client sees this during development.
+      log.warn('analytics.track.batch_all_rejected', { rejected: rejected.length })
+      return NextResponse.json(
+        { success: false, error: 'All events rejected', rejected },
+        { status: 400 },
+      )
+    }
+
+    const { data, error } = await supabase
+      .from('analytics_events')
+      .insert(rows)
+      .select('id')
+
+    if (error) {
+      log.error('analytics.track.batch_insert_failed', new Error(error.message))
+      return NextResponse.json({ success: false, error: 'Failed to track events' }, { status: 500 })
+    }
+
+    if (rejected.length > 0) {
+      log.warn('analytics.track.batch_partial_reject', { accepted: data?.length ?? 0, rejected: rejected.length })
+    }
+
+    return NextResponse.json({
+      success: true,
+      accepted: data?.length ?? 0,
+      rejected: rejected.length > 0 ? rejected : undefined,
+    })
+  }
+
+  // Single-event path
+  const body = rawBody as TrackEventBody
   if (!body.eventType) {
     return NextResponse.json(
       { success: false, error: 'Missing required field: eventType' },
@@ -85,12 +180,6 @@ export const POST = withRequestLog(async (request, { log }) => {
       { status: 400 },
     )
   }
-    
-  const headers = request.headers
-  const userAgent = body.userAgent || headers.get('user-agent') || 'unknown'
-  const referrer = body.referrer || headers.get('referer') || 'direct'
-  const ip = headers.get('x-forwarded-for') || headers.get('x-real-ip') || 'unknown'
-  const ipHash = await hashIp(ip)
 
   const event = {
     event_type: body.eventType,
@@ -99,10 +188,10 @@ export const POST = withRequestLog(async (request, { log }) => {
     page_url: body.pageUrl || null,
     section_id: body.sectionId || null,
     metadata: body.metadata || {},
-    session_id: body.sessionId || generateSessionId(),
+    session_id: body.sessionId || sessionIdDefault,
     ip_hash: ipHash,
-    user_agent: userAgent.slice(0, 200),
-    referrer: referrer.slice(0, 500),
+    user_agent: (body.userAgent || ua).slice(0, 200),
+    referrer: (body.referrer || ref).slice(0, 500),
     created_at: new Date().toISOString(),
   }
 

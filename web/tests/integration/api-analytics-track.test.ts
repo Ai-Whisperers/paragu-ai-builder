@@ -10,9 +10,15 @@
  */
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 
-const mockSelect = vi.fn(() => ({
-  single: vi.fn(async () => ({ data: { id: 'evt-1' }, error: null })),
-}))
+// Select chain supports both .select().single() (single-insert path) and
+// .select() (batch-insert path) — the route resolves a Promise directly off
+// the select() call in batch mode. Make the chain awaitable + single-capable.
+const mockSelect = vi.fn(() => {
+  const p = Promise.resolve({ data: [{ id: 'evt-1' }], error: null })
+  return Object.assign(p, {
+    single: vi.fn(async () => ({ data: { id: 'evt-1' }, error: null })),
+  })
+})
 const mockFrom = vi.fn(() => ({
   insert: () => ({ select: mockSelect }),
 }))
@@ -77,6 +83,60 @@ describe('/api/analytics/track POST', () => {
     expect(body.success).toBe(true)
     expect(body.eventId).toBe('evt-1')
     expect(body.sessionId).toMatch(/^sess_/)
+  })
+
+  it('accepts web_vital event (RUM beacon from WebVitalsReporter)', async () => {
+    const { POST } = await import('@/app/api/analytics/track/route')
+    const req = new Request('http://localhost/api/analytics/track', {
+      method: 'POST',
+      body: JSON.stringify({
+        eventType: 'web_vital',
+        pageUrl: '/',
+        metadata: { name: 'LCP', value: 2100, rating: 'good' },
+      }),
+    })
+    const res = await POST(req as never)
+    expect(res.status).toBe(200)
+    const body = await res.json()
+    expect(body.success).toBe(true)
+  })
+
+  it('accepts batched events and returns accepted count', async () => {
+    const { POST } = await import('@/app/api/analytics/track/route')
+    const req = new Request('http://localhost/api/analytics/track', {
+      method: 'POST',
+      body: JSON.stringify({
+        batch: true,
+        events: [
+          { eventType: 'page_view', pageUrl: '/' },
+          { eventType: 'button_click', metadata: { buttonId: 'hero-cta' } },
+        ],
+      }),
+    })
+    const res = await POST(req as never)
+    expect(res.status).toBe(200)
+    const body = await res.json()
+    expect(body.success).toBe(true)
+    expect(body.accepted).toBe(1) // mockSelect returns 1-element array regardless of input length
+  })
+
+  it('rejects batch when every event has an invalid eventType', async () => {
+    const { POST } = await import('@/app/api/analytics/track/route')
+    const req = new Request('http://localhost/api/analytics/track', {
+      method: 'POST',
+      body: JSON.stringify({
+        batch: true,
+        events: [
+          { eventType: 'totally-bogus' },
+          { eventType: 'also-bogus' },
+        ],
+      }),
+    })
+    const res = await POST(req as never)
+    expect(res.status).toBe(400)
+    const body = await res.json()
+    expect(body.success).toBe(false)
+    expect(body.rejected).toHaveLength(2)
   })
 
   it('creates the Supabase client exactly once across many requests (cache works)', async () => {
