@@ -23,6 +23,7 @@ import {
   PAGES,
   SITES,
   TENANT_TOKENS,
+  TESTIMONIALS_DATA,
   VERTICALS,
   VERTICAL_COPY,
   VERTICAL_SCHEMAS,
@@ -120,5 +121,18 @@ export function loadSiteImagesManifest(
   siteSlug: string,
 ): Record<string, unknown> | null {
   const raw = (IMAGES_MANIFESTS as Record<string, unknown>)[siteSlug]
+  return (raw as Record<string, unknown> | undefined) ?? null
+}
+
+/**
+ * Returns the raw testimonials payload (`testimonials.json`) for a
+ * tenant — shape-agnostic; the common shape is
+ * `{ testimonials: { title, subtitle, items: [...], stats? } }`.
+ * Returns `null` when the tenant didn't ship one.
+ */
+export function loadSiteTestimonials(
+  siteSlug: string,
+): Record<string, unknown> | null {
+  const raw = (TESTIMONIALS_DATA as Record<string, unknown>)[siteSlug]
   return (raw as Record<string, unknown> | undefined) ?? null
 }
