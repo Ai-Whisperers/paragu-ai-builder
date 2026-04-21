@@ -46,7 +46,7 @@ const TEMPLATES = [
   { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: Palette, leads: 100, pct: 80, color: '#c44569', demoSlug: 'dayah-litworks' },
   { id: 'pestanas', name: 'Pestañas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
   { id: 'depilacion', name: 'Depilación', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
-  { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay' },
+  { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexa-paraguay' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
@@ -66,7 +66,7 @@ const FEATURES = [
   { icon: Globe, title: 'Dominio propio', desc: 'Tu URL profesional .com.py con SSL y emails incluidos el primer año.' },
   { icon: Search, title: 'SEO integrado', desc: 'Meta tags, Schema.org y contenido optimizado para aparecer en Google desde el día uno.' },
   { icon: Smartphone, title: '100% responsive', desc: 'Se ve perfecto en móvil, tablet y desktop. Optimizado para la forma en que miran tus clientes.' },
-  { icon: Layers, title: '16 plantillas listas', desc: 'Diseños especializados por rubro, con 7 más en camino. Generados y ajustados por humanos antes de publicar.' },
+  { icon: Layers, title: 'Plantillas por rubro', desc: 'Diseños especializados pensados para tu tipo de negocio. Cada cliente arranca con la base correcta y ajustamos a tu marca.' },
 ]
 
 const STEPS = [
@@ -475,7 +475,7 @@ export default function HomePage() {
               <FadeIn delay={600}>
                 <div className="mx-auto mt-20 grid max-w-3xl grid-cols-2 gap-8 rounded-2xl border border-[var(--border)] bg-[var(--surface)]/80 p-8 backdrop-blur-sm sm:grid-cols-4">
                   {[
-                    { value: '16', label: 'Plantillas listas' },
+                    { value: '16', label: 'Rubros cubiertos' },
                     { value: '7.4K+', label: 'Mercado PY' },
                     { value: `${heroCount2}%`, label: 'Sin web' },
                     { value: '48h', label: 'Entrega' },

@@ -37,7 +37,11 @@
     "services",
     "gallery",
     "features",
-    "process"
+    "process",
+    "intake-questionnaire",
+    "tiered-service-ladder",
+    "regulatory-status-badge",
+    "compliance-disclaimer-footer"
   ],
   "defaultStarterKit": "full",
   "locales": ["es", "en", "de", "nl"]

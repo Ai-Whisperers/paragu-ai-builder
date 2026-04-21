@@ -54,11 +54,21 @@
       "headline": "Establish in Uruguay with confidence",
       "subheadline": "Complete relocation services: residency, company formation, banking, and tax optimization.",
       "ctaPrimary": "Book consultation",
-      "ctaSecondary": "Explore programs"
+      "ctaPrimaryText": "Book consultation",
+      "ctaPrimaryHref": "/s/en/nexa-uruguay/contacto",
+      "ctaSecondary": "Explore programs",
+      "ctaSecondaryText": "Explore programs",
+      "ctaSecondaryHref": "/s/en/nexa-uruguay/programas"
     },
     "trust": {
       "eyebrow": "Why choose us",
       "title": "Trusted by professionals worldwide",
+      "items": [
+        { "icon": "Package", "title": "One program", "description": "Residency, company and bank account." },
+        { "icon": "Plane", "title": "One visit", "description": "All in-person steps coordinated in one trip." },
+        { "icon": "Users", "title": "One team", "description": "Lawyers, accountants, notaries, advisors." },
+        { "icon": "Shield", "title": "Transparent pricing", "description": "All-inclusive." }
+      ],
       "credentials": [
         { "icon": "shield", "label": "Licensed & Regulated" },
         { "icon": "users", "label": "500+ Clients Served" },
@@ -143,12 +153,16 @@
           "description": "Excellent healthcare, education, and safety standards.",
           "bullets": ["Public healthcare", "Free education", "Low crime rates"]
         }
-      ]
+      ],
+      "honestNote": "Uruguay is not cheap — it is stable. That tradeoff is the whole point. If you need a lower cost of living, Paraguay may be the better fit; we will tell you so."
     },
     "process": {
       "eyebrow": "Process",
       "title": "Your journey to Uruguay",
       "subtitle": "A clear, step-by-step process from initial consultation to full establishment.",
+      "totalDuration": "Estimated total: 10–14 weeks.",
+      "ctaLabel": "Start my process",
+      "ctaHref": "/s/en/nexa-uruguay/contacto",
       "steps": [
         {
           "number": 1,
@@ -204,7 +218,9 @@
       "title": "Book your free consultation today",
       "subtitle": "Speak with our experts and discover the best path for your needs.",
       "ctaText": "Schedule consultation",
-      "ctaHref": "https://calendly.com/nexauruguay/consult"
+      "ctaHref": "https://calendly.com/nexauruguay/consult",
+      "buttonText": "Schedule consultation",
+      "buttonHref": "https://calendly.com/nexauruguay/consult"
     }
   },
   "programasPage": {

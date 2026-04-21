@@ -3,7 +3,7 @@
   "country": "Paraguay",
   "domain": "nexaparaguay.com",
   "stagingDomain": "staging.nexaparaguay.com",
-  "defaultLocale": "nl",
+  "defaultLocale": "en",
   "locales": ["nl", "en", "de", "es"],
   "navigation": [
     { "labelKey": "navigation.home", "path": "" },
@@ -33,7 +33,7 @@
     "hero": "/sites/nexa-paraguay/images/hero/hero-bg.jpg"
   },
   "contact": {
-    "whatsapp": "595000000000",
+    "whatsapp": "595982515138",
     "email": "hola@nexaparaguay.com"
   },
   "bookingUrl": "https://calendly.com/nexaparaguay/consulta",

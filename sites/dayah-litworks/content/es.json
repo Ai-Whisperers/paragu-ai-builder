@@ -5,7 +5,7 @@
     "lastReviewed": "2026-04-20"
   },
   "siteName": "Dayah LitWorks",
-  "tagline": "Donde la fantasia se convierte en realidad",
+  "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
   "placeholders": {
     "businessName": "Dayah LitWorks",
     "city": "Asuncion",
@@ -14,18 +14,18 @@
   "navigation": {
     "businessName": "Dayah LitWorks",
     "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595981000000"
+    "ctaHref": "https://wa.me/595986868241"
   },
   "home": {
     "seo": {
       "title": "Dayah LitWorks — Donde la fantasia se convierte en realidad",
-      "description": "Donde la fantasia se convierte en realidad"
+      "description": "Diseño de tapas de libros — del manuscrito a la portada que vende"
     },
     "hero": {
       "headline": "Dayah LitWorks",
-      "subheadline": "Donde la fantasia se convierte en realidad",
+      "subheadline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
       "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595981000000"
+      "ctaPrimaryHref": "https://wa.me/595986868241"
     },
     "services": {
       "title": "Nuestros Servicios",
@@ -127,7 +127,7 @@
     "contact": {
       "title": "Contactanos",
       "subtitle": "Respuesta en el dia",
-      "whatsapp": "+595981000000",
+      "whatsapp": "+595986868241",
       "email": "dayah@litworks.com",
       "instagram": "@dayah.litworks"
     }

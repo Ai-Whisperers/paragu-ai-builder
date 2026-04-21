@@ -54,7 +54,6 @@ const PRERENDER_TOP_N_TYPES = 50
 const PRERENDER_SKIP = new Set([
   'dayah-litworks',
   'de-abasto-a-casa',
-  'nexaparaguay',
   'nexa-paraguay',
   'nexa-uruguay',
   'nexa-propiedades',

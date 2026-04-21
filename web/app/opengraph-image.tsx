@@ -91,7 +91,7 @@ export default async function Image() {
         >
           <div style={{ display: 'flex', gap: 32 }}>
             <span>🇵🇾 Paraguay</span>
-            <span>· 16 plantillas listas</span>
+            <span>· Plantillas por rubro</span>
             <span>· 7.4K negocios mapeados</span>
           </div>
           <div>paragu-ai.com</div>

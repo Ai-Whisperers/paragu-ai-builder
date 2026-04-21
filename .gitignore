@@ -23,6 +23,9 @@ web/.env
 web/.env.local
 web/.env.*.local
 
+# Filled-in launch questionnaire — contains real secrets and personal data
+LAUNCH_READINESS_QUESTIONNAIRE.md
+
 # IDE
 .vscode/
 .idea/
