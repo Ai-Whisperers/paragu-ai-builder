@@ -54,7 +54,7 @@ export function SiteFooter() {
           </div>
           {FOOTER_GROUPS.map((group) => (
             <div key={group.title}>
-              <h4 className="mb-4 font-bold text-[var(--text)]">{group.title}</h4>
+              <h3 className="mb-4 font-bold text-[var(--text)]">{group.title}</h3>
               <ul className="space-y-2 text-[var(--text-muted)]">
                 {group.links.map((link) => (
                   <li key={link.href}>

@@ -319,6 +319,7 @@ function Navigation() {
               </a>
               <button
                 onClick={() => setMobileMenuOpen(true)}
+                aria-label="Abrir menú"
                 className="rounded-lg p-2 text-[var(--text)] md:hidden"
               >
                 <Menu size={24} />
@@ -341,7 +342,7 @@ function Navigation() {
                 <span className="text-[var(--primary)]">AI</span>
               </span>
             </Link>
-            <button onClick={() => setMobileMenuOpen(false)} className="rounded-lg p-2 text-[var(--text)]">
+            <button onClick={() => setMobileMenuOpen(false)} aria-label="Cerrar menú" className="rounded-lg p-2 text-[var(--text)]">
               <XIcon size={24} />
             </button>
           </div>
@@ -977,7 +978,7 @@ export default function HomePage() {
               </p>
             </div>
             <div>
-              <h4 className="mb-4 font-bold text-[var(--text)]">Producto</h4>
+              <h3 className="mb-4 font-bold text-[var(--text)]">Producto</h3>
               <ul className="space-y-2 text-[var(--text-muted)]">
                 <li><Link href="/p" className="hover:text-[var(--primary)]">Plantillas</Link></li>
                 <li><Link href="/precios" className="hover:text-[var(--primary)]">Precios</Link></li>
@@ -986,7 +987,7 @@ export default function HomePage() {
               </ul>
             </div>
             <div>
-              <h4 className="mb-4 font-bold text-[var(--text)]">Recursos</h4>
+              <h3 className="mb-4 font-bold text-[var(--text)]">Recursos</h3>
               <ul className="space-y-2 text-[var(--text-muted)]">
                 <li><Link href="/casos" className="hover:text-[var(--primary)]">Casos reales</Link></li>
                 <li><Link href="/blog" className="hover:text-[var(--primary)]">Blog</Link></li>
