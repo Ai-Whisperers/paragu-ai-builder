@@ -15,7 +15,7 @@
   "navigation": {
     "businessName": "Granja Cabral",
     "ctaText": "Hacer pedido",
-    "ctaHref": "https://wa.me/595981000000"
+    "ctaHref": "https://wa.me/595981324569"
   },
   "home": {
     "seo": {
@@ -26,7 +26,7 @@
       "headline": "Granja Cabral",
       "subheadline": "Huevos frescos recolectados diariamente de nuestras gallinas criadas con cuidado. Delivery en Coronel Oviedo y Ruta 2.",
       "ctaPrimaryText": "Pedir por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595981000000"
+      "ctaPrimaryHref": "https://wa.me/595981324569"
     },
     "services": {
       "title": "Nuestros Productos",
@@ -132,7 +132,7 @@
     "contact": {
       "title": "Contactanos",
       "subtitle": "La forma mas rapida de hacer pedidos es por WhatsApp",
-      "whatsapp": "+595981000000",
+      "whatsapp": "+595981324569",
       "email": "info@granjacabral.com",
       "address": "Ruta 2, Km 125-140, Coronel Oviedo"
     }
