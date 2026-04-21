@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 90 | see closure log below |
+| ✅ Closed | 91 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 410 | the rest |
+| 🔴 Open | 409 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -214,6 +214,14 @@ Closure log:
   6 tests cover the GET verify-challenge flow + POST signed-inbound + 3
   failure modes. ENV_VARS.md updated. MP webhook half of #476 not needed
   per ADR 0004 (MP removed in favor of Pagopar).
+- **#476 (calendly half) + auth fix** — `/api/calendly-webhook` had a
+  TODO for signature verification — only checked the header EXISTS in
+  production, didn't verify it. Anyone could inject fake bookings.
+  Added Calendly `calendly-webhook-signature` HMAC verification using
+  `CALENDLY_SIGNING_KEY` (format `t=<unix>,v1=<hex>`), 5-minute
+  replay-protection window, fail-closed when unset. 7 tests cover
+  signature verification, replay rejection, and event handling.
+  ENV_VARS.md updated.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
