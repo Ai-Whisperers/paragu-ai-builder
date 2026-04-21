@@ -27,6 +27,7 @@ The [docs consolidation plan](./DOCS_CONSOLIDATION_PLAN.md) tracked the migratio
 | Debugging a live issue | [how-to/debug.md](./how-to/debug.md) + [observability/](./observability/) |
 | Understanding why the system is built this way | [explanation/](./explanation/) |
 | Responding to an alert | [runbooks/](./runbooks/) _(one file per alert, added as alerts are defined)_ |
+| Asking "why did we pick X?" | [decisions/](./decisions/) — ADR log of locked-in technical choices |
 
 ## Canonical layout
 
@@ -69,6 +70,9 @@ docs/
 │
 ├── runbooks/                         one file per pageable alert
 │   └── README.md                     convention (no runbooks yet — populated as alerts are defined)
+│
+├── decisions/                        ADRs — "why we picked X over Y"
+│   └── README.md                     index + format
 │
 └── archive/                          superseded/completed — preserved for audit
     └── 2026-04/                      39 files archived during the consolidation
