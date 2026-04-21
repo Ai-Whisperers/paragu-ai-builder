@@ -1,0 +1,24 @@
+{
+  "id": "watch_jeweler_shop",
+  "nameEs": "Relojeria y Joyeria",
+  "nameEn": "Watch & Jewelry Shop",
+  "verticalId": "retail-local",
+  "subVertical": "jewelry-accessories",
+  "extends": "retail_base",
+  "tokens": "watch_jeweler_shop",
+  "seo": {
+    "schemaType": "JewelryStore",
+    "titleTemplate": "{{businessName}} - Relojeria y Joyeria en {{city}}",
+    "descriptionTemplate": "Venta y reparacion de relojes y joyas en {{city}}. Cambio de malla, pila, pulido y tasacion.",
+    "keywords": [
+      "relojeria {{city}}",
+      "joyeria {{city}}",
+      "reparacion relojes {{neighborhood}}",
+      "cambio malla reloj {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Relojeria y Joyeria",
+    "subheadlineTemplate": "Venta y reparacion de relojes y joyas en {{city}}."
+  }
+}
