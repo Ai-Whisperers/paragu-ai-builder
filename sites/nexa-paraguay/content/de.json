@@ -62,7 +62,9 @@
       "ctaPrimaryText": "Kostenloses Beratungsgespräch",
       "ctaPrimaryHref": "/s/de/nexa-paraguay/contacto",
       "ctaSecondaryText": "Programme ansehen",
-      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedDe",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Warum Nexa Paraguay",
@@ -183,17 +185,8 @@
             "Körperschaftsteuer {{taxRate}}",
             "Territorialsystem",
             "Offene Wirtschaft"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Investitionsmöglichkeiten",
-          "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.",
-          "bullets": [
-            "Expandierende Immobilien",
-            "Führende Agroindustrie",
-            "Junges Gründer-Ökosystem"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -203,7 +196,19 @@
             "Günstige Lebenshaltung",
             "Internationale Community",
             "Persönliche Sicherheit"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Steuerliche Stabilität",
+          "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+          "bullets": [
+            "Territorialsystem",
+            "Stabiles Regulierungsumfeld",
+            "Keine Steuer auf ausländische Einkünfte"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "Die Chance ist real, aber der Prozess ist ohne geeignete Anleitung nicht einfach. Genau dafür sind wir da."
@@ -457,7 +462,8 @@
             "Körperschaftsteuer {{taxRate}}",
             "Territorialsystem",
             "Offene Wirtschaft"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
@@ -467,7 +473,8 @@
             "Expandierende Immobilien",
             "Führende Agroindustrie",
             "Junges Gründer-Ökosystem"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
@@ -477,7 +484,44 @@
             "Günstige Lebenshaltung",
             "Internationale Community",
             "Persönliche Sicherheit"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Steuerliche Stabilität",
+          "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Wachstumsdynamik",
+          "description": "Kontinuierliches BIP-Wachstum und sichtbare Stadtentwicklung in Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Agrarwirtschaft",
+          "description": "Einer der weltweit führenden Exporteure von Soja und Rindfleisch, mit aktiven Landmärkten.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "Internationale Community",
+          "description": "Wachsende Community aus Expats und Investoren, die lokale Kenntnisse teilen.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Natur und Grünflächen",
+          "description": "Zugängliche Parks und Landschaften ohne den Lärm überfüllter Hauptstädte.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Kultur und Alltag",
+          "description": "Tereré, Chipa, herzliche Gastfreundschaft — Details, die Paraguay langfristig lebenswert machen.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },

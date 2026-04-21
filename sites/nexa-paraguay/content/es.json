@@ -59,7 +59,9 @@
       "ctaPrimaryText": "Agendar consulta gratuita",
       "ctaPrimaryHref": "/s/es/nexa-paraguay/contacto",
       "ctaSecondaryText": "Ver programas",
-      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedEs",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Por qué Nexa Paraguay",
@@ -180,17 +182,8 @@
             "Impuesto corporativo {{taxRate}}",
             "Sistema territorial",
             "Economía abierta"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Oportunidades de inversión",
-          "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
-          "bullets": [
-            "Inmobiliario en expansión",
-            "Agroindustria líder",
-            "Ecosistema emprendedor joven"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -200,7 +193,19 @@
             "Costo de vida favorable",
             "Comunidad internacional",
             "Seguridad personal"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Estabilidad fiscal",
+          "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+          "bullets": [
+            "Sistema territorial",
+            "Marco regulatorio estable",
+            "Sin impuesto sobre rentas extranjeras"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "La oportunidad es real, pero el proceso no es sencillo sin guía adecuada. Existimos para resolver exactamente eso."
@@ -487,7 +492,8 @@
             "Impuesto corporativo {{taxRate}}",
             "Sistema territorial",
             "Economía abierta"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
@@ -497,7 +503,8 @@
             "Inmobiliario en expansión",
             "Agroindustria líder",
             "Ecosistema emprendedor joven"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
@@ -507,7 +514,44 @@
             "Costo de vida favorable",
             "Comunidad internacional",
             "Seguridad personal"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Estabilidad fiscal",
+          "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Trayectoria de crecimiento",
+          "description": "Crecimiento del PIB consistente y desarrollo urbano visible en Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Potencia agroindustrial",
+          "description": "Uno de los mayores exportadores mundiales de soja y carne, con mercados activos de tierras.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "Comunidad internacional",
+          "description": "Comunidad creciente de expatriados e inversionistas que comparten conocimiento en terreno.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Naturaleza y espacio verde",
+          "description": "Parques y paisajes accesibles sin el ruido de las capitales saturadas.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Cultura y vida diaria",
+          "description": "Tereré, chipa, hospitalidad cálida — detalles que hacen Paraguay habitable a largo plazo.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },

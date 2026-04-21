@@ -20364,6 +20364,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Machen Sie den ersten Schritt"
       },
       "hero": {
+        "backgroundImage": "@img:hero.localizedDe",
+        "backgroundImageMobile": "@img:hero.homeMobile",
         "ctaPrimaryHref": "/s/de/nexa-paraguay/contacto",
         "ctaPrimaryText": "Kostenloses Beratungsgespräch",
         "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
@@ -20533,17 +20535,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Stetiges Wachstum, kontrollierte Inflation, {{taxRate}} Einkommensteuer, Territorialsystem.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Wirtschaftliches Umfeld"
-          },
-          {
-            "bullets": [
-              "Expandierende Immobilien",
-              "Führende Agroindustrie",
-              "Junges Gründer-Ökosystem"
-            ],
-            "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.",
-            "icon": "Building2",
-            "title": "Investitionsmöglichkeiten"
           },
           {
             "bullets": [
@@ -20553,7 +20546,19 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Warmes Klima, wachsende internationale Community, erhebliche Kaufkraft.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Lebensqualität"
+          },
+          {
+            "bullets": [
+              "Territorialsystem",
+              "Stabiles Regulierungsumfeld",
+              "Keine Steuer auf ausländische Einkünfte"
+            ],
+            "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Steuerliche Stabilität"
           }
         ],
         "title": "Eine reale Chance für europäische Investoren"
@@ -21028,6 +21033,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Stetiges Wachstum, kontrollierte Inflation, {{taxRate}} Einkommensteuer, Territorialsystem.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Wirtschaftliches Umfeld"
           },
           {
@@ -21038,6 +21044,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.",
             "icon": "Building2",
+            "imageUrl": "@src:whyParaguay.investment",
             "title": "Investitionsmöglichkeiten"
           },
           {
@@ -21048,7 +21055,44 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Warmes Klima, wachsende internationale Community, erhebliche Kaufkraft.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Lebensqualität"
+          },
+          {
+            "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Steuerliche Stabilität"
+          },
+          {
+            "description": "Kontinuierliches BIP-Wachstum und sichtbare Stadtentwicklung in Asunción.",
+            "icon": "LineChart",
+            "imageUrl": "@src:whyParaguay.growth",
+            "title": "Wachstumsdynamik"
+          },
+          {
+            "description": "Einer der weltweit führenden Exporteure von Soja und Rindfleisch, mit aktiven Landmärkten.",
+            "icon": "Wheat",
+            "imageUrl": "@src:whyParaguay.agribusiness",
+            "title": "Agrarwirtschaft"
+          },
+          {
+            "description": "Wachsende Community aus Expats und Investoren, die lokale Kenntnisse teilen.",
+            "icon": "Users",
+            "imageUrl": "@src:whyParaguay.community",
+            "title": "Internationale Community"
+          },
+          {
+            "description": "Zugängliche Parks und Landschaften ohne den Lärm überfüllter Hauptstädte.",
+            "icon": "TreePine",
+            "imageUrl": "@src:whyParaguay.nature",
+            "title": "Natur und Grünflächen"
+          },
+          {
+            "description": "Tereré, Chipa, herzliche Gastfreundschaft — Details, die Paraguay langfristig lebenswert machen.",
+            "icon": "Coffee",
+            "imageUrl": "@src:whyParaguay.culture",
+            "title": "Kultur und Alltag"
           }
         ],
         "title": "Eine reale Chance für europäische Investoren"
@@ -21356,6 +21400,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Take the first step"
       },
       "hero": {
+        "backgroundImage": "@img:hero.localizedEn",
+        "backgroundImageMobile": "@img:hero.homeMobile",
         "ctaPrimaryHref": "/s/en/nexa-paraguay/contacto",
         "ctaPrimaryText": "Book a free consultation",
         "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
@@ -21525,17 +21571,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Sustained growth, controlled inflation, {{taxRate}} income tax, territorial system.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Economic environment"
-          },
-          {
-            "bullets": [
-              "Expanding real estate",
-              "Leading agribusiness",
-              "Young entrepreneurial ecosystem"
-            ],
-            "description": "Developing real estate market, strong agribusiness, open economy.",
-            "icon": "Building2",
-            "title": "Investment opportunities"
           },
           {
             "bullets": [
@@ -21545,7 +21582,19 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Warm climate, growing international community, significant purchasing power.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Quality of life"
+          },
+          {
+            "bullets": [
+              "Territorial system",
+              "Stable regulatory environment",
+              "No tax on foreign income"
+            ],
+            "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Tax stability"
           }
         ],
         "title": "A real opportunity for European investors"
@@ -21999,17 +22048,56 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Sustained growth, controlled inflation, 10% income tax, territorial system.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Economic environment"
           },
           {
             "description": "Developing real estate market, strong agribusiness, open economy.",
             "icon": "Building2",
+            "imageUrl": "@src:whyParaguay.investment",
             "title": "Investment opportunities"
           },
           {
             "description": "Warm climate, growing international community, significant purchasing power.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Quality of life"
+          },
+          {
+            "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Tax stability"
+          },
+          {
+            "description": "Consistent GDP growth and visible urban development across Asunción.",
+            "icon": "LineChart",
+            "imageUrl": "@src:whyParaguay.growth",
+            "title": "Growth trajectory"
+          },
+          {
+            "description": "One of the world's leading exporters of soy and beef with active land markets.",
+            "icon": "Wheat",
+            "imageUrl": "@src:whyParaguay.agribusiness",
+            "title": "Agribusiness powerhouse"
+          },
+          {
+            "description": "A growing community of expats and investors sharing know-how on the ground.",
+            "icon": "Users",
+            "imageUrl": "@src:whyParaguay.community",
+            "title": "International community"
+          },
+          {
+            "description": "Accessible parks and landscapes without the noise of saturated capitals.",
+            "icon": "TreePine",
+            "imageUrl": "@src:whyParaguay.nature",
+            "title": "Nature and green space"
+          },
+          {
+            "description": "Tereré, chipa, warm hospitality — details that make Paraguay livable long term.",
+            "icon": "Coffee",
+            "imageUrl": "@src:whyParaguay.culture",
+            "title": "Culture and daily life"
           }
         ],
         "title": "A real opportunity for European investors"
@@ -22318,6 +22406,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Dé el primer paso"
       },
       "hero": {
+        "backgroundImage": "@img:hero.localizedEs",
+        "backgroundImageMobile": "@img:hero.homeMobile",
         "ctaPrimaryHref": "/s/es/nexa-paraguay/contacto",
         "ctaPrimaryText": "Agendar consulta gratuita",
         "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
@@ -22487,17 +22577,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Crecimiento sostenido, inflación controlada, impuesto del {{taxRate}} sobre la renta, sistema territorial.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Entorno económico"
-          },
-          {
-            "bullets": [
-              "Inmobiliario en expansión",
-              "Agroindustria líder",
-              "Ecosistema emprendedor joven"
-            ],
-            "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
-            "icon": "Building2",
-            "title": "Oportunidades de inversión"
           },
           {
             "bullets": [
@@ -22507,7 +22588,19 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Clima cálido, comunidad internacional creciente, poder adquisitivo significativo.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Calidad de vida"
+          },
+          {
+            "bullets": [
+              "Sistema territorial",
+              "Marco regulatorio estable",
+              "Sin impuesto sobre rentas extranjeras"
+            ],
+            "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Estabilidad fiscal"
           }
         ],
         "title": "Una oportunidad real para el inversor europeo"
@@ -23015,6 +23108,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Crecimiento sostenido, inflación controlada, impuesto del {{taxRate}} sobre la renta, sistema territorial.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Entorno económico"
           },
           {
@@ -23025,6 +23119,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
             "icon": "Building2",
+            "imageUrl": "@src:whyParaguay.investment",
             "title": "Oportunidades de inversión"
           },
           {
@@ -23035,7 +23130,44 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Clima cálido, comunidad internacional creciente, poder adquisitivo significativo.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Calidad de vida"
+          },
+          {
+            "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Estabilidad fiscal"
+          },
+          {
+            "description": "Crecimiento del PIB consistente y desarrollo urbano visible en Asunción.",
+            "icon": "LineChart",
+            "imageUrl": "@src:whyParaguay.growth",
+            "title": "Trayectoria de crecimiento"
+          },
+          {
+            "description": "Uno de los mayores exportadores mundiales de soja y carne, con mercados activos de tierras.",
+            "icon": "Wheat",
+            "imageUrl": "@src:whyParaguay.agribusiness",
+            "title": "Potencia agroindustrial"
+          },
+          {
+            "description": "Comunidad creciente de expatriados e inversionistas que comparten conocimiento en terreno.",
+            "icon": "Users",
+            "imageUrl": "@src:whyParaguay.community",
+            "title": "Comunidad internacional"
+          },
+          {
+            "description": "Parques y paisajes accesibles sin el ruido de las capitales saturadas.",
+            "icon": "TreePine",
+            "imageUrl": "@src:whyParaguay.nature",
+            "title": "Naturaleza y espacio verde"
+          },
+          {
+            "description": "Tereré, chipa, hospitalidad cálida — detalles que hacen Paraguay habitable a largo plazo.",
+            "icon": "Coffee",
+            "imageUrl": "@src:whyParaguay.culture",
+            "title": "Cultura y vida diaria"
           }
         ],
         "title": "Una oportunidad real para el inversor europeo"
@@ -23343,6 +23475,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Zet de eerste stap"
       },
       "hero": {
+        "backgroundImage": "@img:hero.localizedNl",
+        "backgroundImageMobile": "@img:hero.homeMobile",
         "ctaPrimaryHref": "/s/nl/nexa-paraguay/contacto",
         "ctaPrimaryText": "Plan uw gratis consult",
         "ctaSecondaryHref": "/s/nl/nexa-paraguay/programas",
@@ -23512,17 +23646,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Gestage groei, beheerste inflatie, {{taxRate}} inkomstenbelasting, territoriaal systeem.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Economisch klimaat"
-          },
-          {
-            "bullets": [
-              "Groeiend vastgoed",
-              "Toonaangevende agroindustrie",
-              "Jong ondernemersklimaat"
-            ],
-            "description": "Groeiende vastgoedmarkt, sterke landbouwindustrie, open economie.",
-            "icon": "Building2",
-            "title": "Investeringskansen"
           },
           {
             "bullets": [
@@ -23532,7 +23657,19 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Warm klimaat, groeiende internationale gemeenschap, aanzienlijke koopkracht.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Levenskwaliteit"
+          },
+          {
+            "bullets": [
+              "Territoriaal systeem",
+              "Stabiele regelgeving",
+              "Geen belasting op buitenlandse inkomsten"
+            ],
+            "description": "Territoriaal belastingstelsel met transparante regels en voorspelbaar fiscaal klimaat.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Fiscale stabiliteit"
           }
         ],
         "title": "Een reële kans voor de Europese investeerder"
@@ -24007,6 +24144,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Gestage groei, beheerste inflatie, {{taxRate}} inkomstenbelasting, territoriaal systeem.",
             "icon": "TrendingUp",
+            "imageUrl": "@src:whyParaguay.economic",
             "title": "Economisch klimaat"
           },
           {
@@ -24017,6 +24155,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Groeiende vastgoedmarkt, sterke landbouwindustrie, open economie.",
             "icon": "Building2",
+            "imageUrl": "@src:whyParaguay.investment",
             "title": "Investeringskansen"
           },
           {
@@ -24027,7 +24166,44 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "description": "Warm klimaat, groeiende internationale gemeenschap, aanzienlijke koopkracht.",
             "icon": "Heart",
+            "imageUrl": "@src:whyParaguay.lifestyle",
             "title": "Levenskwaliteit"
+          },
+          {
+            "description": "Territoriaal belastingstelsel met transparante regels en voorspelbaar fiscaal klimaat.",
+            "icon": "Landmark",
+            "imageUrl": "@src:whyParaguay.tax",
+            "title": "Fiscale stabiliteit"
+          },
+          {
+            "description": "Gestage BBP-groei en zichtbare stedelijke ontwikkeling in Asunción.",
+            "icon": "LineChart",
+            "imageUrl": "@src:whyParaguay.growth",
+            "title": "Groeiperspectief"
+          },
+          {
+            "description": "Een van 's werelds grootste exporteurs van soja en rundvlees, met actieve landmarkten.",
+            "icon": "Wheat",
+            "imageUrl": "@src:whyParaguay.agribusiness",
+            "title": "Agro-industrie"
+          },
+          {
+            "description": "Groeiende community van expats en investeerders die lokale kennis delen.",
+            "icon": "Users",
+            "imageUrl": "@src:whyParaguay.community",
+            "title": "Internationale gemeenschap"
+          },
+          {
+            "description": "Toegankelijke parken en landschappen zonder het gedruis van overvolle hoofdsteden.",
+            "icon": "TreePine",
+            "imageUrl": "@src:whyParaguay.nature",
+            "title": "Natuur en groene ruimte"
+          },
+          {
+            "description": "Tereré, chipa, warme gastvrijheid — details die Paraguay op lange termijn leefbaar maken.",
+            "icon": "Coffee",
+            "imageUrl": "@src:whyParaguay.culture",
+            "title": "Cultuur en dagelijks leven"
           }
         ],
         "title": "Een reële kans voor de Europese investeerder"

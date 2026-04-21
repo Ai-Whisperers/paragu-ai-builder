@@ -59,7 +59,9 @@
       "ctaPrimaryText": "Book a free consultation",
       "ctaPrimaryHref": "/s/en/nexa-paraguay/contacto",
       "ctaSecondaryText": "See programs",
-      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedEn",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
@@ -180,17 +182,8 @@
             "Corporate tax {{taxRate}}",
             "Territorial system",
             "Open economy"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Investment opportunities",
-          "description": "Developing real estate market, strong agribusiness, open economy.",
-          "bullets": [
-            "Expanding real estate",
-            "Leading agribusiness",
-            "Young entrepreneurial ecosystem"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -200,7 +193,19 @@
             "Favorable living costs",
             "International community",
             "Personal safety"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Tax stability",
+          "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+          "bullets": [
+            "Territorial system",
+            "Stable regulatory environment",
+            "No tax on foreign income"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "The opportunity is real, but the process is not simple without the right guidance. That is exactly why we exist."
@@ -433,17 +438,56 @@
         {
           "icon": "TrendingUp",
           "title": "Economic environment",
-          "description": "Sustained growth, controlled inflation, 10% income tax, territorial system."
+          "description": "Sustained growth, controlled inflation, 10% income tax, territorial system.",
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
           "title": "Investment opportunities",
-          "description": "Developing real estate market, strong agribusiness, open economy."
+          "description": "Developing real estate market, strong agribusiness, open economy.",
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
           "title": "Quality of life",
-          "description": "Warm climate, growing international community, significant purchasing power."
+          "description": "Warm climate, growing international community, significant purchasing power.",
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Tax stability",
+          "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Growth trajectory",
+          "description": "Consistent GDP growth and visible urban development across Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Agribusiness powerhouse",
+          "description": "One of the world's leading exporters of soy and beef with active land markets.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "International community",
+          "description": "A growing community of expats and investors sharing know-how on the ground.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Nature and green space",
+          "description": "Accessible parks and landscapes without the noise of saturated capitals.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Culture and daily life",
+          "description": "Tereré, chipa, warm hospitality — details that make Paraguay livable long term.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },

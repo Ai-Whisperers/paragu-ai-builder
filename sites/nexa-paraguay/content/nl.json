@@ -59,7 +59,9 @@
       "ctaPrimaryText": "Plan uw gratis consult",
       "ctaPrimaryHref": "/s/nl/nexa-paraguay/contacto",
       "ctaSecondaryText": "Bekijk programma's",
-      "ctaSecondaryHref": "/s/nl/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/nl/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedNl",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Waarom Nexa Paraguay",
@@ -180,17 +182,8 @@
             "Vennootschapsbelasting {{taxRate}}",
             "Territoriaal systeem",
             "Open economie"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Investeringskansen",
-          "description": "Groeiende vastgoedmarkt, sterke landbouwindustrie, open economie.",
-          "bullets": [
-            "Groeiend vastgoed",
-            "Toonaangevende agroindustrie",
-            "Jong ondernemersklimaat"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -200,7 +193,19 @@
             "Gunstige levenskosten",
             "Internationale community",
             "Persoonlijke veiligheid"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Fiscale stabiliteit",
+          "description": "Territoriaal belastingstelsel met transparante regels en voorspelbaar fiscaal klimaat.",
+          "bullets": [
+            "Territoriaal systeem",
+            "Stabiele regelgeving",
+            "Geen belasting op buitenlandse inkomsten"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "De kans is reëel, maar het proces is niet eenvoudig zonder goede begeleiding. Daar zijn wij voor."
@@ -454,7 +459,8 @@
             "Vennootschapsbelasting {{taxRate}}",
             "Territoriaal systeem",
             "Open economie"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
@@ -464,7 +470,8 @@
             "Groeiend vastgoed",
             "Toonaangevende agroindustrie",
             "Jong ondernemersklimaat"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
@@ -474,7 +481,44 @@
             "Gunstige levenskosten",
             "Internationale community",
             "Persoonlijke veiligheid"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Fiscale stabiliteit",
+          "description": "Territoriaal belastingstelsel met transparante regels en voorspelbaar fiscaal klimaat.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Groeiperspectief",
+          "description": "Gestage BBP-groei en zichtbare stedelijke ontwikkeling in Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Agro-industrie",
+          "description": "Een van 's werelds grootste exporteurs van soja en rundvlees, met actieve landmarkten.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "Internationale gemeenschap",
+          "description": "Groeiende community van expats en investeerders die lokale kennis delen.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Natuur en groene ruimte",
+          "description": "Toegankelijke parken en landschappen zonder het gedruis van overvolle hoofdsteden.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Cultuur en dagelijks leven",
+          "description": "Tereré, chipa, warme gastvrijheid — details die Paraguay op lange termijn leefbaar maken.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },
