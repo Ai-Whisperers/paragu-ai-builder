@@ -66,3 +66,7 @@ start-local.sh
 
 # Launch-readiness questionnaire (filled, contains real contact data)
 LAUNCH_READINESS_QUESTIONNAIRE.md
+
+# Claude Code isolated agent worktrees — ephemeral, never commit
+# (tracking these as gitlinks without .gitmodules breaks Cloudflare Pages)
+.claude/worktrees/
