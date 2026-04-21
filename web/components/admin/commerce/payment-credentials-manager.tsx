@@ -31,12 +31,13 @@ const TEMPLATES: ProviderTemplate[] = [
   },
   {
     provider: 'bancard',
-    label: 'Bancard VPOS 2.0 (Phase 3 — direct cards)',
+    label: 'Bancard vPOS 2.0 (tarjetas directas — mejor para ticket alto)',
     fields: [
       { key: 'public_key', label: 'Public Key', placeholder: 'PK_xxx...' },
       { key: 'private_key', label: 'Private Key', placeholder: 'SK_xxx...', type: 'password' },
     ],
     publicConfigKeys: [{ key: 'environment', label: 'Entorno', default: 'sandbox' }],
+    helpUrl: 'https://comercios.bancard.com.py',
   },
   {
     provider: 'dlocal',
