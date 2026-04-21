@@ -20314,31 +20314,31 @@ export const CONTENT: Record<string, JsonRecord> = {
             "icon": "Briefcase",
             "imageUrl": "@src:team.operationsDirector",
             "name": "Leitung Operations (Paraguay)",
-            "role": "Operatives Leadership, institutionelle Beziehungen"
+            "role": "Leitung Operativ: 10+ Jahre Koordination mit Migraciones, DGII und Bankeröffnungen. Starkes institutionelles Netzwerk in Asunción."
           },
           {
             "icon": "Globe",
             "imageUrl": "@src:team.commercialDirector",
             "name": "Leitung Commercial (Europa)",
-            "role": "Kundengewinnung, kulturelle Brücke"
+            "role": "Leitung Europa: niederländisch- und deutschsprachig, ansässig in Amsterdam. Brücke zwischen EU-Steuerfragen und paraguayischer Praxis."
           },
           {
             "icon": "Scale",
             "imageUrl": "@src:team.legalLead",
             "name": "Juristisches Team",
-            "role": "Migrationsakten, Gesellschaftsgründung"
+            "role": "In Paraguay zugelassene Anwälte. Spezialisierung auf Immigration, Gesellschaftsrecht und Immobilien-Due-Diligence."
           },
           {
             "icon": "Calculator",
             "imageUrl": "@src:team.accountingLead",
             "name": "Steuerteam",
-            "role": "Steuerliches Management, Compliance"
+            "role": "Zertifizierte Buchhalter. Gesetz 6380 (IRE), Territorialbesteuerung, Strukturierung ausländischer Einkünfte."
           },
           {
             "icon": "UserCheck",
             "imageUrl": "@src:team.clientSuccess",
             "name": "Client Success",
-            "role": "Onboarding, Koordination, langfristige Betreuung"
+            "role": "Zweisprachiges ES/EN Onboarding und Nachbetreuung. Zentraler Ansprechpartner während der 8–12 Wochen."
           }
         ],
         "title": "Unser Team"
@@ -20523,8 +20523,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Asunción, Paraguay",
         "city": "Asunción",
         "email": "hola@nexaparaguay.com",
-        "neighborhood": "Centro",
-        "title": "Oder schreiben Sie uns direkt",
+        "hours": {
+          "Mo–Fr": "09:00 – 18:00 (UTC-3)",
+          "Sa": "10:00 – 14:00 (UTC-3)",
+          "So": "Geschlossen"
+        },
+        "neighborhood": "Villa Morra",
+        "phone": "+595 982 515 138",
+        "title": "Kontaktdaten",
         "whatsapp": "595982515138"
       },
       "hero": {
@@ -22308,31 +22314,31 @@ export const CONTENT: Record<string, JsonRecord> = {
             "icon": "Briefcase",
             "imageUrl": "@src:team.operationsDirector",
             "name": "Operations Director (Paraguay)",
-            "role": "Operational leadership, institutional relationships"
+            "role": "Operations lead: 10+ years coordinating migration, DGII and bank openings. Deep Asunción institutional network."
           },
           {
             "icon": "Globe",
             "imageUrl": "@src:team.commercialDirector",
             "name": "Commercial Director (Europe)",
-            "role": "Client acquisition, cultural bridge"
+            "role": "European client lead: native Dutch + German speaker, based in Amsterdam. Bridges EU tax concerns to Paraguayan practice."
           },
           {
             "icon": "Scale",
             "imageUrl": "@src:team.legalLead",
             "name": "Legal team",
-            "role": "Immigration files, company incorporation"
+            "role": "Paraguayan bar-admitted lawyers. Immigration, corporate, and real-estate due diligence specialization."
           },
           {
             "icon": "Calculator",
             "imageUrl": "@src:team.accountingLead",
             "name": "Accounting team",
-            "role": "Tax management, compliance"
+            "role": "CPA-licensed accountants. Ley 6380 IRE, territorial tax, and foreign-income structuring."
           },
           {
             "icon": "UserCheck",
             "imageUrl": "@src:team.clientSuccess",
             "name": "Client Success",
-            "role": "Onboarding, coordination, long-term support"
+            "role": "Bilingual ES/EN onboarding and post-arrival care. Single point of contact through the 8–12 week process."
           }
         ],
         "title": "Our team"
@@ -22517,8 +22523,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Asunción, Paraguay",
         "city": "Asunción",
         "email": "hola@nexaparaguay.com",
-        "neighborhood": "Centro",
-        "title": "Or write to us directly",
+        "hours": {
+          "Mon–Fri": "09:00 – 18:00 (UTC-3)",
+          "Sat": "10:00 – 14:00 (UTC-3)",
+          "Sun": "Closed"
+        },
+        "neighborhood": "Villa Morra",
+        "phone": "+595 982 515 138",
+        "title": "Contact details",
         "whatsapp": "595982515138"
       },
       "hero": {
@@ -24286,31 +24298,31 @@ export const CONTENT: Record<string, JsonRecord> = {
             "icon": "Briefcase",
             "imageUrl": "@src:team.operationsDirector",
             "name": "Dirección de Operaciones (Paraguay)",
-            "role": "Liderazgo operativo, relaciones institucionales"
+            "role": "Líder de operaciones: +10 años coordinando con Migraciones, DGII y aperturas bancarias. Red institucional sólida en Asunción."
           },
           {
             "icon": "Globe",
             "imageUrl": "@src:team.commercialDirector",
             "name": "Dirección Comercial (Europa)",
-            "role": "Adquisición de clientes, puente cultural"
+            "role": "Líder europea: holandés y alemán nativos, con base en Ámsterdam. Traduce inquietudes fiscales de la UE a la práctica paraguaya."
           },
           {
             "icon": "Scale",
             "imageUrl": "@src:team.legalLead",
             "name": "Equipo Legal",
-            "role": "Expedientes migratorios, constitución societaria"
+            "role": "Abogados matriculados en Paraguay. Especialización en inmigración, corporativo y due diligence inmobiliario."
           },
           {
             "icon": "Calculator",
             "imageUrl": "@src:team.accountingLead",
             "name": "Equipo Contable",
-            "role": "Gestión fiscal, cumplimiento tributario"
+            "role": "Contadores públicos matriculados. Ley 6380 IRE, renta territorial, estructuración de ingresos del exterior."
           },
           {
             "icon": "UserCheck",
             "imageUrl": "@src:team.clientSuccess",
             "name": "Client Success",
-            "role": "Onboarding, coordinación y acompañamiento a largo plazo"
+            "role": "Onboarding y acompañamiento bilingüe ES/EN. Punto de contacto único durante las 8–12 semanas del proceso."
           }
         ],
         "title": "Nuestro equipo"
@@ -24495,8 +24507,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Asunción, Paraguay",
         "city": "Asunción",
         "email": "hola@nexaparaguay.com",
-        "neighborhood": "Centro",
-        "title": "O escríbanos directamente",
+        "hours": {
+          "Dom": "Cerrado",
+          "Lun–Vie": "09:00 – 18:00 (UTC-3)",
+          "Sáb": "10:00 – 14:00 (UTC-3)"
+        },
+        "neighborhood": "Villa Morra",
+        "phone": "+595 982 515 138",
+        "title": "Datos de contacto",
         "whatsapp": "595982515138"
       },
       "hero": {
@@ -26280,31 +26298,31 @@ export const CONTENT: Record<string, JsonRecord> = {
             "icon": "Briefcase",
             "imageUrl": "@src:team.operationsDirector",
             "name": "Operationele directie (Paraguay)",
-            "role": "Operationeel leiderschap, institutionele relaties"
+            "role": "Operationeel lead: 10+ jaar coördinatie met Migraciones, DGII en bankopeningen. Sterk institutioneel netwerk in Asunción."
           },
           {
             "icon": "Globe",
             "imageUrl": "@src:team.commercialDirector",
             "name": "Commerciële directie (Europa)",
-            "role": "Klantacquisitie, culturele brug"
+            "role": "Europa-lead: native Nederlands + Duits sprekend, gevestigd in Amsterdam. Verbindt EU-fiscale zorgen met Paraguayaanse praktijk."
           },
           {
             "icon": "Scale",
             "imageUrl": "@src:team.legalLead",
             "name": "Juridisch team",
-            "role": "Migratiedossiers, oprichting vennootschap"
+            "role": "In Paraguay toegelaten advocaten. Specialisatie in immigratie, vennootschapsrecht en vastgoed due diligence."
           },
           {
             "icon": "Calculator",
             "imageUrl": "@src:team.accountingLead",
             "name": "Boekhoudteam",
-            "role": "Fiscaal beheer, compliance"
+            "role": "CPA-geregistreerde accountants. Wet 6380 IRE, territoriale belasting, buitenlands inkomen structurering."
           },
           {
             "icon": "UserCheck",
             "imageUrl": "@src:team.clientSuccess",
             "name": "Client Success",
-            "role": "Onboarding, coördinatie, begeleiding op lange termijn"
+            "role": "Tweetalige ES/EN onboarding en nazorg. Centraal aanspreekpunt gedurende de 8–12 weken."
           }
         ],
         "title": "Ons team"
@@ -26489,8 +26507,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Asunción, Paraguay",
         "city": "Asunción",
         "email": "hola@nexaparaguay.com",
-        "neighborhood": "Centro",
-        "title": "Of mail ons direct",
+        "hours": {
+          "Ma–Vr": "09:00 – 18:00 (UTC-3)",
+          "Za": "10:00 – 14:00 (UTC-3)",
+          "Zo": "Gesloten"
+        },
+        "neighborhood": "Villa Morra",
+        "phone": "+595 982 515 138",
+        "title": "Contactgegevens",
         "whatsapp": "595982515138"
       },
       "hero": {
