@@ -13,7 +13,9 @@ export interface FAQItem {
 
 export interface FAQSectionProps {
   title: string
-  items: FAQItem[]
+  items?: FAQItem[]
+  /** Legacy alias — some content files ship `questions` instead of `items`. */
+  questions?: FAQItem[]
 }
 
 function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
@@ -47,7 +49,10 @@ function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
   )
 }
 
-export function FAQSection({ title, items }: FAQSectionProps) {
+export function FAQSection({ title, items, questions }: FAQSectionProps) {
+  const resolved = items || questions || []
+  if (resolved.length === 0) return null
+
   return (
     <section className="bg-[var(--surface)] py-16 sm:py-20">
       <Container size="md">
@@ -56,7 +61,7 @@ export function FAQSection({ title, items }: FAQSectionProps) {
         </AnimatedSectionHeader>
 
         <div className="mx-auto max-w-3xl">
-          {items.map((item, index) => (
+          {resolved.map((item, index) => (
             <FAQAccordion key={index} item={item} index={index} />
           ))}
         </div>

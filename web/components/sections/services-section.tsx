@@ -21,7 +21,9 @@ export interface ServiceItem {
 export interface ServicesSectionProps {
   title: string
   subtitle?: string
-  services: ServiceItem[]
+  services?: ServiceItem[]
+  /** Legacy alias — some content files ship `items` instead of `services`. */
+  items?: ServiceItem[]
   showPrices?: boolean
   showDuration?: boolean
   /** Enable enhanced effects (spotlight cards, staggered animations) */
@@ -57,13 +59,17 @@ export interface ServicesSectionProps {
 export function ServicesSection({
   title,
   subtitle,
-  services,
+  services: servicesProp,
+  items,
   showPrices = true,
   showDuration = true,
   enhanced = false,
   cardStyle = 'default',
   hoverEffect = true,
 }: ServicesSectionProps) {
+  const services = servicesProp || items || []
+  if (services.length === 0) return null
+
   // Group services by category if categories exist
   const hasCategories = services.some((s) => s.category)
   const grouped = hasCategories
