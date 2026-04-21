@@ -3,6 +3,7 @@
 import { useState, useRef, type DragEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import type { ProductImage } from '@/lib/schemas/commerce/product'
+import { resizeImageIfNeeded } from '@/lib/commerce/client-image-resize'
 
 interface Props {
   businessId: string
@@ -24,13 +25,14 @@ export function ProductImageUploader({ businessId, productId, images: initialIma
     setError(null)
     setUploading(true)
     try {
-      for (const file of Array.from(files)) {
-        if (!file.type.startsWith('image/')) {
-          setError(`${file.name} no es una imagen`)
+      for (const original of Array.from(files)) {
+        if (!original.type.startsWith('image/')) {
+          setError(`${original.name} no es una imagen`)
           continue
         }
+        const { file } = await resizeImageIfNeeded(original)
         if (file.size > 5 * 1024 * 1024) {
-          setError(`${file.name} supera los 5MB`)
+          setError(`${original.name} supera los 5MB incluso después de reducir`)
           continue
         }
         const formData = new FormData()

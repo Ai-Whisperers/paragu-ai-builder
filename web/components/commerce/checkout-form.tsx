@@ -14,6 +14,14 @@ export function CheckoutForm({ siteSlug }: Props) {
   const cart = useCartStore((s) => s.cart)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [discountCode, setDiscountCode] = useState('')
+  const [discountInput, setDiscountInput] = useState('')
+  const [discountStatus, setDiscountStatus] = useState<
+    | { kind: 'idle' }
+    | { kind: 'checking' }
+    | { kind: 'applied'; amountCents: number; code: string; freeShipping: boolean }
+    | { kind: 'rejected'; reason: string }
+  >({ kind: 'idle' })
 
   if (!cart || cart.items.length === 0) {
     return (
@@ -24,6 +32,42 @@ export function CheckoutForm({ siteSlug }: Props) {
   }
 
   const subtotal = cartSubtotalCents(cart)
+  const discountAmount = discountStatus.kind === 'applied' ? discountStatus.amountCents : 0
+  const total = Math.max(0, subtotal - discountAmount)
+
+  async function applyDiscountCode() {
+    const code = discountInput.trim()
+    if (!code) return
+    setDiscountStatus({ kind: 'checking' })
+    try {
+      const res = await fetch(`/api/storefront/${siteSlug}/discount`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code, subtotalCents: subtotal }),
+      })
+      const data = await res.json()
+      if (data.valid) {
+        setDiscountStatus({
+          kind: 'applied',
+          amountCents: data.discountCents,
+          code: data.code,
+          freeShipping: Boolean(data.freeShipping),
+        })
+        setDiscountCode(data.code)
+      } else {
+        setDiscountStatus({ kind: 'rejected', reason: data.reason ?? 'invalid' })
+        setDiscountCode('')
+      }
+    } catch {
+      setDiscountStatus({ kind: 'rejected', reason: 'network_error' })
+    }
+  }
+
+  function removeDiscount() {
+    setDiscountCode('')
+    setDiscountInput('')
+    setDiscountStatus({ kind: 'idle' })
+  }
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -51,6 +95,7 @@ export function CheckoutForm({ siteSlug }: Props) {
         },
       },
       notes: String(form.get('notes') ?? '') || undefined,
+      discountCode: discountCode || undefined,
     }
 
     try {
@@ -120,9 +165,69 @@ export function CheckoutForm({ siteSlug }: Props) {
             </li>
           ))}
         </ul>
-        <div className="flex justify-between border-t border-[color:var(--border,#e5e7eb)] pt-3 text-base font-semibold">
-          <span>Total</span>
-          <span>{formatCents(subtotal, cart.currency)}</span>
+
+        {/* Discount code */}
+        <div className="mb-3 border-t border-[color:var(--border,#e5e7eb)] pt-3">
+          {discountStatus.kind !== 'applied' ? (
+            <div className="flex items-center gap-2">
+              <input
+                value={discountInput}
+                onChange={(e) => setDiscountInput(e.target.value.toUpperCase())}
+                placeholder="Código de descuento"
+                maxLength={80}
+                className="flex-1 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm uppercase focus:border-[color:var(--primary,#111)] focus:outline-none"
+              />
+              <button
+                type="button"
+                onClick={applyDiscountCode}
+                disabled={discountStatus.kind === 'checking' || !discountInput.trim()}
+                className="rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+              >
+                {discountStatus.kind === 'checking' ? '…' : 'Aplicar'}
+              </button>
+            </div>
+          ) : (
+            <div className="flex items-center justify-between gap-2 rounded bg-green-50 px-3 py-2 text-xs text-green-800">
+              <span>
+                ✓ <strong>{discountStatus.code}</strong>
+                {discountStatus.amountCents > 0 ? ` —${formatCents(discountStatus.amountCents, cart.currency)}` : ''}
+                {discountStatus.freeShipping ? ' · envío gratis' : ''}
+              </span>
+              <button type="button" onClick={removeDiscount} className="text-green-900 underline">
+                Quitar
+              </button>
+            </div>
+          )}
+          {discountStatus.kind === 'rejected' ? (
+            <p className="mt-1 text-xs text-red-700">
+              {discountStatus.reason === 'not_found'
+                ? 'Ese código no existe.'
+                : discountStatus.reason === 'expired'
+                ? 'Ese código venció.'
+                : discountStatus.reason === 'min_subtotal'
+                ? 'No alcanzás el subtotal mínimo para este código.'
+                : discountStatus.reason === 'usage_exceeded'
+                ? 'Ese código ya se usó el máximo de veces.'
+                : 'Código inválido.'}
+            </p>
+          ) : null}
+        </div>
+
+        <div className="space-y-1 border-t border-[color:var(--border,#e5e7eb)] pt-3 text-sm">
+          <div className="flex justify-between text-[color:var(--text-muted,#6b7280)]">
+            <span>Subtotal</span>
+            <span>{formatCents(subtotal, cart.currency)}</span>
+          </div>
+          {discountAmount > 0 ? (
+            <div className="flex justify-between text-green-700">
+              <span>Descuento</span>
+              <span>−{formatCents(discountAmount, cart.currency)}</span>
+            </div>
+          ) : null}
+          <div className="flex justify-between pt-1 text-base font-semibold text-[color:var(--text,#111)]">
+            <span>Total</span>
+            <span>{formatCents(total, cart.currency)}</span>
+          </div>
         </div>
 
         {error ? (
