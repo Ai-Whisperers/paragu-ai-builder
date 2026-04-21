@@ -21799,7 +21799,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "resourcesPage": {
       "guides": {
-        "items": [
+        "features": [
           {
             "description": "Vollständige Liste der für die paraguayische Aufenthaltserlaubnis erforderlichen Dokumente.",
             "icon": "FileText",
@@ -23581,7 +23581,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Logistical support"
             ],
             "name": "Paraguay Base",
-            "price": "To be defined",
+            "price": "USD 2,900",
             "priceNote": "Starting price. Final quote depends on case requirements."
           },
           {
@@ -23641,8 +23641,8 @@ export const CONTENT: Record<string, JsonRecord> = {
               "Agricultural advisory (optional)"
             ],
             "name": "Paraguay Land Program",
-            "price": "Custom quote",
-            "priceNote": "Based on selected land and additional services."
+            "price": "From USD 3,500+",
+            "priceNote": "Starting price for advisory. Land cost varies by parcel and scope."
           }
         ],
         "title": "Four paths to establish yourself in Paraguay"
@@ -23718,7 +23718,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "resourcesPage": {
       "guides": {
-        "items": [
+        "features": [
           {
             "description": "Complete list of documents needed for Paraguayan residency.",
             "icon": "FileText",
@@ -25621,7 +25621,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "resourcesPage": {
       "guides": {
-        "items": [
+        "features": [
           {
             "description": "Lista completa de documentos necesarios para residencia paraguaya.",
             "icon": "FileText",
@@ -27540,7 +27540,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "resourcesPage": {
       "guides": {
-        "items": [
+        "features": [
           {
             "description": "Volledige lijst van documenten nodig voor Paraguayaanse verblijfsvergunning.",
             "icon": "FileText",

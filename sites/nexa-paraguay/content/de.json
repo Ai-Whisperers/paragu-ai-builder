@@ -1594,7 +1594,7 @@
     "guides": {
       "title": "Herunterladbare Leitfäden",
       "subtitle": "Nützliche Dokumente zur Vorbereitung Ihrer Akte und zum Verständnis des Prozesses.",
-      "items": [
+      "features": [
         {
           "icon": "FileText",
           "title": "Dokumenten-Checkliste",

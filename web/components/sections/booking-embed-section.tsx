@@ -27,32 +27,32 @@ type BookingLabels = {
 
 const BOOKING_LABELS: Record<string, BookingLabels> = {
   de: {
-    unavailableTitle: 'Online-Buchung demnächst verfügbar',
-    unavailableBody: 'Bis dahin erreichen Sie uns direkt über WhatsApp oder E-Mail — wir antworten innerhalb eines Werktages.',
+    unavailableTitle: 'Termin per WhatsApp vereinbaren',
+    unavailableBody: 'Schnellste Antwort. Normalerweise innerhalb weniger Stunden an Werktagen. E-Mail-Kontakt ebenfalls möglich.',
     whatsappCta: 'Über WhatsApp schreiben',
     emailCta: 'E-Mail senden',
   },
   en: {
-    unavailableTitle: 'Online booking coming soon',
-    unavailableBody: 'Reach us directly via WhatsApp or email in the meantime — we reply within one business day.',
+    unavailableTitle: 'Book your consultation on WhatsApp',
+    unavailableBody: 'Fastest response — usually within a few hours on business days. Email works too.',
     whatsappCta: 'Message on WhatsApp',
     emailCta: 'Send email',
   },
   es: {
-    unavailableTitle: 'Reservas en línea próximamente',
-    unavailableBody: 'Mientras tanto, contáctenos directamente por WhatsApp o email — respondemos dentro de un día hábil.',
+    unavailableTitle: 'Reservá tu consulta por WhatsApp',
+    unavailableBody: 'Respuesta más rápida — normalmente en pocas horas en días hábiles. También podés escribir por email.',
     whatsappCta: 'Escribir por WhatsApp',
     emailCta: 'Enviar email',
   },
   nl: {
-    unavailableTitle: 'Online afspraken binnenkort beschikbaar',
-    unavailableBody: 'Neem in de tussentijd rechtstreeks contact op via WhatsApp of e-mail — we reageren binnen één werkdag.',
+    unavailableTitle: 'Plan je gesprek via WhatsApp',
+    unavailableBody: 'Snelste reactie — meestal binnen een paar uur op werkdagen. E-mail kan ook.',
     whatsappCta: 'Bericht via WhatsApp',
     emailCta: 'E-mail sturen',
   },
   pt: {
-    unavailableTitle: 'Agendamento online em breve',
-    unavailableBody: 'Entretanto, fale conosco diretamente por WhatsApp ou email — respondemos em até um dia útil.',
+    unavailableTitle: 'Agende sua consulta pelo WhatsApp',
+    unavailableBody: 'Resposta mais rápida — normalmente em poucas horas em dias úteis. Email também funciona.',
     whatsappCta: 'Mensagem no WhatsApp',
     emailCta: 'Enviar email',
   },

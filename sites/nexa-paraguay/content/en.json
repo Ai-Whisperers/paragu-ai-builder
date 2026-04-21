@@ -313,7 +313,7 @@
           "id": "base",
           "name": "Paraguay Base",
           "description": "Residency and Paraguayan ID card.",
-          "price": "To be defined",
+          "price": "USD 2,900",
           "priceNote": "Starting price. Final quote depends on case requirements.",
           "included": [
             "Paraguayan Residency",
@@ -373,8 +373,8 @@
           "id": "land",
           "name": "Paraguay Land Program",
           "description": "Everything in Investor + land purchase.",
-          "price": "Custom quote",
-          "priceNote": "Based on selected land and additional services.",
+          "price": "From USD 3,500+",
+          "priceNote": "Starting price for advisory. Land cost varies by parcel and scope.",
           "included": [
             "Everything in Investor",
             "Strategic land search",
@@ -1575,7 +1575,7 @@
     "guides": {
       "title": "Downloadable guides",
       "subtitle": "Useful documents to prepare your file and understand the process.",
-      "items": [
+      "features": [
         {
           "icon": "FileText",
           "title": "Document checklist",
