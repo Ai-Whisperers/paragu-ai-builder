@@ -81,6 +81,28 @@ export function OrderConfirmation({ siteSlug, locale, businessName, initialOrder
 
         <OrderStatusTimeline status={order.status} />
 
+        {order.trackingCarrier || order.trackingNumber || order.trackingUrl ? (
+          <div className="mb-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface-muted,#f9fafb)] p-3 text-left text-sm print:bg-white">
+            <p className="mb-1 text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">
+              Seguimiento del envío
+            </p>
+            {order.trackingCarrier ? <p className="text-[color:var(--text,#111)]">{order.trackingCarrier}</p> : null}
+            {order.trackingNumber ? (
+              <p className="font-mono text-[color:var(--text,#111)]">{order.trackingNumber}</p>
+            ) : null}
+            {order.trackingUrl ? (
+              <a
+                href={order.trackingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-block text-xs text-[color:var(--secondary,#b8860b)] underline print:hidden"
+              >
+                Ver estado en el transportista →
+              </a>
+            ) : null}
+          </div>
+        ) : null}
+
         <div className="mb-6 divide-y divide-[color:var(--border,#e5e7eb)] text-left">
           {(order.items ?? []).map((it) => {
             const canReview = order.status === 'shipped' || order.status === 'delivered'
