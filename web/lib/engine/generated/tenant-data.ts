@@ -21634,6 +21634,26 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "a": "Vorauszahlung per Überweisung. Keine Zusatzkosten.",
             "q": "Wie wird bezahlt?"
+          },
+          {
+            "a": "Ja. Wenn Sie sich während des Prozesses entscheiden zu upgraden (z. B. von Base auf Business) rechnen wir den bereits bezahlten Betrag auf das neue Programm an und stellen nur die Differenz in Rechnung.",
+            "q": "Kann ich nach dem Start das Programm wechseln?"
+          },
+          {
+            "a": "Nein. Die gesamte Dokumentenprüfung erfolgt remote. Sie reisen nur für den einen koordinierten operativen Tag (Migration + Personalausweis + Bank).",
+            "q": "Muss ich in Paraguay sein, um zu starten?"
+          },
+          {
+            "a": "8–12 Wochen typisch. 6 Wochen Dokumentenvorbereitung + 1 Reise + 2–4 Wochen Residenzgenehmigung und Ausweisausstellung.",
+            "q": "Wie lange dauert der gesamte Prozess?"
+          },
+          {
+            "a": "Ablehnungen sind bei sauberer Vorbereitung selten. Tritt es aus einem Grund ein, der in unseren Bereich fällt (z. B. übersehene Anforderung), reichen wir auf unsere Kosten neu ein.",
+            "q": "Was, wenn meine Residenz abgelehnt wird?"
+          },
+          {
+            "a": "Der 10% IRE-Satz gilt nach aktuellem paraguayischem Recht (Gesetz 6380). Wir informieren Sie über Reformen und strukturieren Ihr Setup so, dass es den jeweils geltenden Regeln entspricht.",
+            "q": "Ist die 10% Territorialsteuer garantiert?"
           }
         ],
         "title": "Fragen zu Preisen und Programmen"
@@ -23553,6 +23573,26 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "a": "Upfront by wire transfer. No additional fees.",
             "q": "How is payment made?"
+          },
+          {
+            "a": "Yes. If mid-process you decide to upgrade (e.g. from Base to Business) we roll the paid amount into the new program and invoice the delta. No double fees.",
+            "q": "Can I switch programs after starting?"
+          },
+          {
+            "a": "No. We handle document pre-validation remotely. You only travel for the single operational day (migration + cédula + bank, all coordinated).",
+            "q": "Do I need to be in Paraguay to start?"
+          },
+          {
+            "a": "8–12 weeks typical. 6 weeks document prep + 1 trip + 2–4 weeks for residency approval + cédula issuance.",
+            "q": "How long does the whole process take end-to-end?"
+          },
+          {
+            "a": "Rejections are rare with proper document prep. If it happens for a reason within our scope (e.g. missed requirement) we re-present at our cost.",
+            "q": "What happens if my residency is rejected?"
+          },
+          {
+            "a": "The 10% IRE rate is current Paraguayan law (Ley 6380). We keep you updated on any reforms and structure your setup to stay compliant under the rules that apply at the time.",
+            "q": "Is the 10% territorial tax guaranteed?"
           }
         ],
         "title": "Pricing and program questions"
@@ -25456,6 +25496,26 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "a": "Pago anticipado por transferencia bancaria internacional. Aceptamos USD o EUR. Sin cargos ocultos ni adicionales durante el trámite regular. Emitimos factura formal desde nuestra entidad paraguaya al momento del pago.",
             "q": "¿Cómo se paga?"
+          },
+          {
+            "a": "Sí. Si a mitad de proceso decidís escalar (por ejemplo de Base a Business) aplicamos lo pagado al nuevo programa y facturamos la diferencia. Sin cobrar dos veces.",
+            "q": "¿Puedo cambiar de programa una vez empezado?"
+          },
+          {
+            "a": "No. Toda la prevalidación documental se hace remotamente. Solo viajás para el día operativo único (migración + cédula + banco, todo coordinado).",
+            "q": "¿Necesito estar en Paraguay para arrancar?"
+          },
+          {
+            "a": "8–12 semanas habituales. 6 semanas de preparación documental + 1 viaje + 2–4 semanas para aprobación de residencia y emisión de cédula.",
+            "q": "¿Cuánto tarda el proceso completo?"
+          },
+          {
+            "a": "Los rechazos son raros con la preparación documental adecuada. Si ocurre por algo de nuestro alcance (por ejemplo requisito omitido) reingresamos a nuestro costo.",
+            "q": "¿Qué pasa si rechazan mi residencia?"
+          },
+          {
+            "a": "El 10% de IRE es la tasa vigente bajo la Ley 6380. Te mantenemos informado de reformas y estructuramos tu setup para cumplir con las reglas aplicables en cada momento.",
+            "q": "¿El 10% de renta territorial está garantizado?"
           }
         ],
         "title": "Preguntas sobre precios y programas"
@@ -27375,6 +27435,26 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "a": "Vooraf per overschrijving. Geen bijkomende kosten.",
             "q": "Hoe wordt betaald?"
+          },
+          {
+            "a": "Ja. Als u tijdens het proces wilt upgraden (bijvoorbeeld van Base naar Business), verrekenen we het reeds betaalde bedrag met het nieuwe programma en factureren we alleen het verschil.",
+            "q": "Kan ik van programma wisselen na de start?"
+          },
+          {
+            "a": "Nee. De volledige documentvoorvalidatie doen we remote. U reist alleen voor de ene gecoördineerde operationele dag (migratie + identiteitskaart + bank).",
+            "q": "Moet ik in Paraguay zijn om te beginnen?"
+          },
+          {
+            "a": "8–12 weken gebruikelijk. 6 weken documentvoorbereiding + 1 reis + 2–4 weken residentiegoedkeuring en ID-afgifte.",
+            "q": "Hoe lang duurt het hele proces?"
+          },
+          {
+            "a": "Afwijzingen zijn zeldzaam bij goede voorbereiding. Gebeurt het door iets dat binnen onze verantwoordelijkheid valt (bijv. een gemiste vereiste), dan dienen wij op onze kosten opnieuw in.",
+            "q": "Wat als mijn residentie wordt afgewezen?"
+          },
+          {
+            "a": "Het 10% IRE-tarief geldt onder de huidige Paraguayaanse wet (Wet 6380). We houden u op de hoogte van hervormingen en structureren uw setup zo dat deze voldoet aan de geldende regels.",
+            "q": "Is het 10% territoriale belastingtarief gegarandeerd?"
           }
         ],
         "title": "Vragen over prijzen en programma's"

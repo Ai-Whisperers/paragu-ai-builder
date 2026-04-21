@@ -407,6 +407,26 @@
         {
           "q": "Wie wird bezahlt?",
           "a": "Vorauszahlung per Überweisung. Keine Zusatzkosten."
+        },
+        {
+          "q": "Kann ich nach dem Start das Programm wechseln?",
+          "a": "Ja. Wenn Sie sich während des Prozesses entscheiden zu upgraden (z. B. von Base auf Business) rechnen wir den bereits bezahlten Betrag auf das neue Programm an und stellen nur die Differenz in Rechnung."
+        },
+        {
+          "q": "Muss ich in Paraguay sein, um zu starten?",
+          "a": "Nein. Die gesamte Dokumentenprüfung erfolgt remote. Sie reisen nur für den einen koordinierten operativen Tag (Migration + Personalausweis + Bank)."
+        },
+        {
+          "q": "Wie lange dauert der gesamte Prozess?",
+          "a": "8–12 Wochen typisch. 6 Wochen Dokumentenvorbereitung + 1 Reise + 2–4 Wochen Residenzgenehmigung und Ausweisausstellung."
+        },
+        {
+          "q": "Was, wenn meine Residenz abgelehnt wird?",
+          "a": "Ablehnungen sind bei sauberer Vorbereitung selten. Tritt es aus einem Grund ein, der in unseren Bereich fällt (z. B. übersehene Anforderung), reichen wir auf unsere Kosten neu ein."
+        },
+        {
+          "q": "Ist die 10% Territorialsteuer garantiert?",
+          "a": "Der 10% IRE-Satz gilt nach aktuellem paraguayischem Recht (Gesetz 6380). Wir informieren Sie über Reformen und strukturieren Ihr Setup so, dass es den jeweils geltenden Regeln entspricht."
         }
       ]
     },
