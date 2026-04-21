@@ -1,8 +1,33 @@
 # ParaguAI Bug Hunt & Polish Plan — 500 items
 
-> **Generated 2026-04-21.** A complete, prioritized inventory of everything
-> wrong, missing, or improvable across tenants, demos, marketing site, code,
-> infra, and docs. Treat as the source-of-truth backlog until launch.
+> **Generated 2026-04-21 · Last refreshed 2026-04-21.** A complete,
+> prioritized inventory of everything wrong, missing, or improvable across
+> tenants, demos, marketing site, code, infra, and docs. Treat as the
+> source-of-truth backlog until launch.
+
+## Progress · 2026-04-21
+
+| Status | Count | Items |
+|---|---|---|
+| ✅ Closed | 14 | #006, #022, #029, #032, #040, #049, #061, #081, #291, #292, #293, #294, #295, #297, #298, #309, #386 |
+| 🟡 In progress | 0 | — |
+| 🔴 Open | 486 | the rest |
+
+Closure log:
+
+- **#006, #022, #309** — bulk accent fixes across 112 tenant content files
+  (832 replacements: Asunción, atención, educación, etc.). PR #94.
+- **#029** — Nexa Propiedades "500 propiedades" claim → verifiable copy. PR #72.
+- **#032, #049** — De Abasto a Casa + ParaguAI WhatsApp numbers replaced. PR #72.
+- **#040** — Dayah contact phone already migrated to 595986868241.
+- **#061, #081** — demo-data.ts test phones (+595981234567, +595987654321)
+  → ParaguAI sales line. PR #92.
+- **#291, #292, #293, #294, #295, #297, #298** — DemoBadge component, schema
+  field, mounted on both render paths, 116 site.json explicit booleans,
+  noindex meta on demos, dismissible per-session. PR #92, #93, this batch.
+- **#386** — `let queries` → `const queries` in lib/supabase/scoped.ts. PR #93.
+
+
 >
 > **Format:** `[NNN] [P0|P1|P2|P3 · category · effort] Description`
 >
