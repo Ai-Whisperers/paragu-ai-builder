@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 68 | see closure log below |
+| ✅ Closed | 69 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 432 | the rest |
+| 🔴 Open | 431 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -91,6 +91,10 @@ Closure log:
   (system-ui sans-serif). Tenant sites load Google Fonts via
   `resolve-site-tokens.ts:190` which appends `&display=swap` (FOUT, no FOIT).
   Removed unused `fonts.googleapis.com` preconnect from root layout.
+- **#471** — image audit complete; 11/12 `<img>` tags already lazy+async,
+  fixed the 1 missing (`testimonials-section.tsx`). Cloudflare Polish handles
+  WebP negotiation. next/image migration deferred (needs dimension schema).
+  Full audit in `docs/IMAGE_OPTIMIZATION_AUDIT.md`.
 
 ## Blocked on user input
 
