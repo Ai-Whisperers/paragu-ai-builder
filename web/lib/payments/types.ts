@@ -27,6 +27,13 @@ export interface PaymentCapability {
   // Lower = preferred when multiple providers cover the same country.
   // Tie-breaker is feeTier (low → medium → high).
   basePriority: number
+  /**
+   * When true, this provider is only considered if the merchant has
+   * explicitly installed credentials for it (i.e., `available` is passed
+   * to the router AND includes this provider). Prevents universal-match
+   * adapters like `manual` from hijacking routes they shouldn't.
+   */
+  requiresExplicitAvailable?: boolean
 }
 
 export interface WebhookVerification {

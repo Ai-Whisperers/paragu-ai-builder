@@ -169,7 +169,7 @@
     }
   },
   "commerce": {
-    "enabled": true,
+    "enabled": false,
     "launchPhase": "pilot",
     "provider": "pagopar",
     "currency": "PYG",
