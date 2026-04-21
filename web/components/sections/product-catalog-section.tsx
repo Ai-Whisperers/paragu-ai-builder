@@ -135,6 +135,12 @@ export function ProductCatalogSection({
   emailAddress,
 }: ProductCatalogSectionProps) {
   const products = productsProp || items || []
+
+  // Hooks must be called before any early return — conditional hook calls
+  // break React's ordering invariant. Derive a stable category set even
+  // when there are zero products, then early-return just the render.
+  const [activeCategory, setActiveCategory] = useState<string | null>(null)
+
   if (products.length === 0) return null
 
   // Build categories list from products if not explicitly provided
@@ -142,8 +148,6 @@ export function ProductCatalogSection({
     ...new Set(products.filter((p) => p.category).map((p) => p.category!)),
   ]
   const hasCategories = allCategories.length > 0
-
-  const [activeCategory, setActiveCategory] = useState<string | null>(null)
 
   const filteredProducts = activeCategory
     ? products.filter((p) => p.category === activeCategory)

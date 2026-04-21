@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useSyncExternalStore } from 'react'
+import { Heading } from '@/components/ui/heading'
 
 export interface AgeGateSectionProps {
   title?: string
@@ -90,9 +91,9 @@ export function AgeGateSection({
       className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 px-4"
     >
       <div className="max-w-md rounded-lg bg-[color:var(--surface,#fff)] p-6 text-center shadow-xl">
-        <h2 id="agegate-title" className="mb-2 text-xl font-bold text-[color:var(--text,#111)]">
+        <Heading level={2} id="agegate-title" className="mb-2 text-xl font-bold text-[color:var(--text,#111)]">
           {title}
-        </h2>
+        </Heading>
         <p id="agegate-message" className="mb-6 text-sm text-[color:var(--text-muted,#6b7280)]">
           {resolvedMessage}
         </p>

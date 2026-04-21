@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
+import { Heading } from '@/components/ui/heading'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -54,7 +55,7 @@ export function PackagesSection({
       <Container>
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Promociones Especiales</h2>
+          <Heading level={2} className="text-3xl font-bold mb-4">Promociones Especiales</Heading>
           
           {/* Tabs */}
           {showGiftCards && giftCards && (
@@ -105,7 +106,7 @@ export function PackagesSection({
                 )}
                 
                 <CardHeader className="pb-4">
-                  <h3 className="text-xl font-bold">{pkg.name}</h3>
+                  <Heading level={3} className="text-xl font-bold">{pkg.name}</Heading>
                   <p className="text-sm text-[var(--muted-foreground)]">{pkg.description}</p>
                 </CardHeader>
                 
