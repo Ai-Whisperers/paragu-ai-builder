@@ -26786,473 +26786,584 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "ads": {
         "google300x250": {
           "alt": "Google display medium rectangle banner 300x250",
-          "src": "/sites/nexa-paraguay/images/ads/google-300x250.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/google-300x250.png",
+          "src": "/sites/nexa-paraguay/images/ads/google-300x250.webp"
         },
         "google336x280": {
           "alt": "Google display large rectangle banner 336x280",
-          "src": "/sites/nexa-paraguay/images/ads/google-336x280.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/google-336x280.png",
+          "src": "/sites/nexa-paraguay/images/ads/google-336x280.webp"
         },
         "google728x90": {
           "alt": "Google display leaderboard banner 728x90",
-          "src": "/sites/nexa-paraguay/images/ads/google-728x90.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/google-728x90.png",
+          "src": "/sites/nexa-paraguay/images/ads/google-728x90.webp"
         },
         "google970x250": {
           "alt": "Google display large leaderboard banner 970x250",
-          "src": "/sites/nexa-paraguay/images/ads/google-970x250.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/google-970x250.png",
+          "src": "/sites/nexa-paraguay/images/ads/google-970x250.webp"
         },
         "linkedinInvestorDe": {
           "alt": "LinkedIn sponsored ad, investor angle (German)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-de.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-investor-de.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-de.webp"
         },
         "linkedinInvestorEn": {
           "alt": "LinkedIn sponsored ad, investor angle (English)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-en.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-investor-en.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-en.webp"
         },
         "linkedinInvestorEs": {
           "alt": "LinkedIn sponsored ad, investor angle (Spanish)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-es.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-investor-es.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-es.webp"
         },
         "linkedinInvestorNl": {
           "alt": "LinkedIn sponsored ad, investor angle (Dutch)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-nl.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-investor-nl.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-investor-nl.webp"
         },
         "linkedinTrustDe": {
           "alt": "LinkedIn sponsored ad, institutional trust angle (German)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-de.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-trust-de.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-de.webp"
         },
         "linkedinTrustEn": {
           "alt": "LinkedIn sponsored ad, institutional trust angle (English)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-en.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-trust-en.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-en.webp"
         },
         "linkedinTrustEs": {
           "alt": "LinkedIn sponsored ad, institutional trust angle (Spanish)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-es.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-trust-es.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-es.webp"
         },
         "linkedinTrustNl": {
           "alt": "LinkedIn sponsored ad, institutional trust angle (Dutch)",
-          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-nl.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/linkedin-trust-nl.png",
+          "src": "/sites/nexa-paraguay/images/ads/linkedin-trust-nl.webp"
         },
         "metaFeedDe": {
           "alt": "Meta feed ad creative (German market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-feed-de.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-feed-de.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-feed-de.webp"
         },
         "metaFeedEn": {
           "alt": "Meta feed ad creative (English market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-feed-en.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-feed-en.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-feed-en.webp"
         },
         "metaFeedEs": {
           "alt": "Meta feed ad creative (Spanish market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-feed-es.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-feed-es.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-feed-es.webp"
         },
         "metaFeedNl": {
           "alt": "Meta feed ad creative (Dutch market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-feed-nl.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-feed-nl.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-feed-nl.webp"
         },
         "metaStoryDe": {
           "alt": "Meta story ad creative (German market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-story-de.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-story-de.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-story-de.webp"
         },
         "metaStoryEn": {
           "alt": "Meta story ad creative (English market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-story-en.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-story-en.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-story-en.webp"
         },
         "metaStoryEs": {
           "alt": "Meta story ad creative (Spanish market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-story-es.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-story-es.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-story-es.webp"
         },
         "metaStoryNl": {
           "alt": "Meta story ad creative (Dutch market)",
-          "src": "/sites/nexa-paraguay/images/ads/meta-story-nl.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/meta-story-nl.png",
+          "src": "/sites/nexa-paraguay/images/ads/meta-story-nl.webp"
         },
         "youtubeThumb1": {
           "alt": "YouTube pre-roll thumbnail: founder silhouette and Asunción skyline",
-          "src": "/sites/nexa-paraguay/images/ads/youtube-thumb-1.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/youtube-thumb-1.png",
+          "src": "/sites/nexa-paraguay/images/ads/youtube-thumb-1.webp"
         },
         "youtubeThumb2": {
           "alt": "YouTube pre-roll thumbnail: cédula placed on passport",
-          "src": "/sites/nexa-paraguay/images/ads/youtube-thumb-2.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/ads/youtube-thumb-2.png",
+          "src": "/sites/nexa-paraguay/images/ads/youtube-thumb-2.webp"
         }
       },
       "blog": {
         "banca": {
           "alt": "Opening a bank account in Paraguay",
-          "src": "/sites/nexa-paraguay/images/blog/banca.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/banca.png",
+          "src": "/sites/nexa-paraguay/images/blog/banca.webp"
         },
         "comparativaFiscal": {
           "alt": "Paraguay vs Uruguay fiscal comparison",
-          "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.png",
+          "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp"
         },
         "costOfLiving": {
           "alt": "Cost of living in Paraguay",
-          "src": "/sites/nexa-paraguay/images/blog/cost-of-living.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/cost-of-living.png",
+          "src": "/sites/nexa-paraguay/images/blog/cost-of-living.webp"
         },
         "emprender": {
           "alt": "Entrepreneurship opportunities in Paraguay",
-          "src": "/sites/nexa-paraguay/images/blog/emprender.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/emprender.png",
+          "src": "/sites/nexa-paraguay/images/blog/emprender.webp"
         },
         "healthcare": {
           "alt": "Healthcare for expats in Paraguay",
-          "src": "/sites/nexa-paraguay/images/blog/healthcare.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/healthcare.png",
+          "src": "/sites/nexa-paraguay/images/blog/healthcare.webp"
         },
         "neighborhoods": {
           "alt": "Neighborhood guide: Villa Morra and Carmelitas",
-          "src": "/sites/nexa-paraguay/images/blog/neighborhoods.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/neighborhoods.png",
+          "src": "/sites/nexa-paraguay/images/blog/neighborhoods.webp"
         },
         "paraguayUruguayPanama": {
           "alt": "Paraguay vs Uruguay vs Panama comparison",
-          "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.png",
+          "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.webp"
         },
         "propiedades": {
           "alt": "Buying property in Paraguay",
-          "src": "/sites/nexa-paraguay/images/blog/propiedades.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/propiedades.png",
+          "src": "/sites/nexa-paraguay/images/blog/propiedades.webp"
         },
         "residencia2024": {
           "alt": "Guide to Paraguay residency 2024",
-          "src": "/sites/nexa-paraguay/images/blog/residencia-2024.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/residencia-2024.png",
+          "src": "/sites/nexa-paraguay/images/blog/residencia-2024.webp"
         },
         "schools": {
           "alt": "International schools for expat families",
-          "src": "/sites/nexa-paraguay/images/blog/schools.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/blog/schools.png",
+          "src": "/sites/nexa-paraguay/images/blog/schools.webp"
         }
       },
       "brand": {
         "appleTouchIcon": {
           "alt": "Nexa Paraguay Apple touch icon",
-          "src": "/sites/nexa-paraguay/images/brand/apple-touch-icon.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/apple-touch-icon.png",
+          "src": "/sites/nexa-paraguay/images/brand/apple-touch-icon.webp"
         },
         "favicon": {
           "alt": "Nexa Paraguay favicon",
-          "src": "/sites/nexa-paraguay/images/brand/favicon.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/favicon.png",
+          "src": "/sites/nexa-paraguay/images/brand/favicon.webp"
         },
         "logo": {
           "alt": "Nexa Paraguay logo",
-          "src": "/sites/nexa-paraguay/images/brand/logo.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/logo.png",
+          "src": "/sites/nexa-paraguay/images/brand/logo.webp"
         },
         "logoDark": {
           "alt": "Nexa Paraguay logo (monochrome white)",
-          "src": "/sites/nexa-paraguay/images/brand/logo-dark.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/logo-dark.png",
+          "src": "/sites/nexa-paraguay/images/brand/logo-dark.webp"
         },
         "logoIcon": {
           "alt": "Nexa Paraguay icon mark",
-          "src": "/sites/nexa-paraguay/images/brand/logo-icon.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/logo-icon.png",
+          "src": "/sites/nexa-paraguay/images/brand/logo-icon.webp"
         },
         "maskable": {
           "alt": "Nexa Paraguay PWA maskable icon",
-          "src": "/sites/nexa-paraguay/images/brand/maskable-512.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/maskable-512.png",
+          "src": "/sites/nexa-paraguay/images/brand/maskable-512.webp"
         },
         "ogDefault": {
           "alt": "Nexa Paraguay Open Graph share card",
-          "src": "/sites/nexa-paraguay/images/brand/og-default.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/og-default.png",
+          "src": "/sites/nexa-paraguay/images/brand/og-default.webp"
         },
         "placeholder": {
           "alt": "Nexa Paraguay branded fallback",
-          "src": "/sites/nexa-paraguay/images/brand/placeholder.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/placeholder.png",
+          "src": "/sites/nexa-paraguay/images/brand/placeholder.webp"
         },
         "twitterCard": {
           "alt": "Nexa Paraguay Twitter summary card",
-          "src": "/sites/nexa-paraguay/images/brand/twitter-card.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/twitter-card.png",
+          "src": "/sites/nexa-paraguay/images/brand/twitter-card.webp"
         },
         "whatsappSquare": {
           "alt": "Nexa Paraguay WhatsApp link preview",
-          "src": "/sites/nexa-paraguay/images/brand/whatsapp-square.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/brand/whatsapp-square.png",
+          "src": "/sites/nexa-paraguay/images/brand/whatsapp-square.webp"
         }
       },
       "email": {
         "banking": {
           "alt": "Email nurture header: champagne bank card on leather desk",
-          "src": "/sites/nexa-paraguay/images/email/05-banking.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/05-banking.png",
+          "src": "/sites/nexa-paraguay/images/email/05-banking.webp"
         },
         "nextStep": {
           "alt": "Email nurture header: laptop with calendar booking interface",
-          "src": "/sites/nexa-paraguay/images/email/07-next-step.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/07-next-step.png",
+          "src": "/sites/nexa-paraguay/images/email/07-next-step.webp"
         },
         "oneTrip": {
           "alt": "Email nurture header: vintage map of Paraguay with pins",
-          "src": "/sites/nexa-paraguay/images/email/04-one-trip.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/04-one-trip.png",
+          "src": "/sites/nexa-paraguay/images/email/04-one-trip.webp"
         },
         "paraguayDifferent": {
           "alt": "Email nurture header: Asunción sunrise skyline",
-          "src": "/sites/nexa-paraguay/images/email/02-paraguay-different.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/02-paraguay-different.png",
+          "src": "/sites/nexa-paraguay/images/email/02-paraguay-different.webp"
         },
         "process": {
           "alt": "Email nurture header: five-step process flat-lay",
-          "src": "/sites/nexa-paraguay/images/email/03-process.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/03-process.png",
+          "src": "/sites/nexa-paraguay/images/email/03-process.webp"
         },
         "welcome": {
           "alt": "Email nurture header: welcome café scene",
-          "src": "/sites/nexa-paraguay/images/email/01-welcome.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/01-welcome.png",
+          "src": "/sites/nexa-paraguay/images/email/01-welcome.webp"
         },
         "whichProgram": {
           "alt": "Email nurture header: four leather folders with roman-numeral tabs",
-          "src": "/sites/nexa-paraguay/images/email/06-which-program.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/email/06-which-program.png",
+          "src": "/sites/nexa-paraguay/images/email/06-which-program.webp"
         }
       },
       "hero": {
         "home": {
           "alt": "Asunción Paraguay skyline at golden hour",
-          "src": "/sites/nexa-paraguay/images/hero/hero-bg.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg.png",
+          "src": "/sites/nexa-paraguay/images/hero/hero-bg.webp"
         },
         "homeMobile": {
           "alt": "Asunción Paraguay skyline (mobile portrait)",
-          "src": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.png",
+          "src": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.webp"
         },
         "localizedDe": {
           "alt": "Neoclassical institutional bridge for German market",
-          "src": "/sites/nexa-paraguay/images/hero/hero-de.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-de.png",
+          "src": "/sites/nexa-paraguay/images/hero/hero-de.webp"
         },
         "localizedEn": {
           "alt": "Asunción business tower and professional silhouette for English market",
-          "src": "/sites/nexa-paraguay/images/hero/hero-en.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-en.png",
+          "src": "/sites/nexa-paraguay/images/hero/hero-en.webp"
         },
         "localizedEs": {
           "alt": "Family walking a Villa Morra street for Spanish market",
-          "src": "/sites/nexa-paraguay/images/hero/hero-es.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-es.png",
+          "src": "/sites/nexa-paraguay/images/hero/hero-es.webp"
         },
         "localizedNl": {
           "alt": "Bridge between Amsterdam and Asunción for Dutch market",
-          "src": "/sites/nexa-paraguay/images/hero/hero-nl.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-nl.png",
+          "src": "/sites/nexa-paraguay/images/hero/hero-nl.webp"
         }
       },
       "office": {
         "exterior": {
           "alt": "Asunción boutique office exterior",
-          "src": "/sites/nexa-paraguay/images/office/exterior.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/office/exterior.png",
+          "src": "/sites/nexa-paraguay/images/office/exterior.webp"
         },
         "meetingRoom": {
           "alt": "Consultation in progress in meeting room",
-          "src": "/sites/nexa-paraguay/images/office/meeting-room.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/office/meeting-room.png",
+          "src": "/sites/nexa-paraguay/images/office/meeting-room.webp"
         },
         "reception": {
           "alt": "Boutique office reception",
-          "src": "/sites/nexa-paraguay/images/office/reception.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/office/reception.png",
+          "src": "/sites/nexa-paraguay/images/office/reception.webp"
         },
         "signing": {
           "alt": "Notary signing scene",
-          "src": "/sites/nexa-paraguay/images/office/signing.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/office/signing.png",
+          "src": "/sites/nexa-paraguay/images/office/signing.webp"
         },
         "teamHuddle": {
           "alt": "Team huddle around the whiteboard",
-          "src": "/sites/nexa-paraguay/images/office/team-huddle.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/office/team-huddle.png",
+          "src": "/sites/nexa-paraguay/images/office/team-huddle.webp"
         }
       },
       "press": {
         "brandBookCover": {
           "alt": "Press kit: brand book cover with embossed N",
-          "src": "/sites/nexa-paraguay/images/press/brand-book-cover.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/press/brand-book-cover.png",
+          "src": "/sites/nexa-paraguay/images/press/brand-book-cover.webp"
         },
         "countryDataInfographic": {
           "alt": "Press kit: Paraguay country-data infographic layout",
-          "src": "/sites/nexa-paraguay/images/press/country-data-infographic.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/press/country-data-infographic.png",
+          "src": "/sites/nexa-paraguay/images/press/country-data-infographic.webp"
         },
         "factsheetInfographic": {
           "alt": "Press kit: factsheet infographic layout",
-          "src": "/sites/nexa-paraguay/images/press/factsheet-infographic.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/press/factsheet-infographic.png",
+          "src": "/sites/nexa-paraguay/images/press/factsheet-infographic.webp"
         }
       },
       "process": {
         "apostilleStack": {
           "alt": "Overhead macro of apostilled documents",
-          "src": "/sites/nexa-paraguay/images/process/apostille-stack.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/apostille-stack.png",
+          "src": "/sites/nexa-paraguay/images/process/apostille-stack.webp"
         },
         "arrival": {
           "alt": "Arrival in Paraguay",
-          "src": "/sites/nexa-paraguay/images/process/arrival.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/arrival.png",
+          "src": "/sites/nexa-paraguay/images/process/arrival.webp"
         },
         "bankCustomerSide": {
           "alt": "Customer and bank officer at private-banking desk, rear view",
-          "src": "/sites/nexa-paraguay/images/process/bank-customer-side.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/bank-customer-side.png",
+          "src": "/sites/nexa-paraguay/images/process/bank-customer-side.webp"
         },
         "banking": {
           "alt": "Company and banking setup",
-          "src": "/sites/nexa-paraguay/images/process/banking.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/banking.png",
+          "src": "/sites/nexa-paraguay/images/process/banking.webp"
         },
         "completion": {
           "alt": "Delivery and follow-up",
-          "src": "/sites/nexa-paraguay/images/process/completion.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/completion.png",
+          "src": "/sites/nexa-paraguay/images/process/completion.webp"
         },
         "consultation": {
           "alt": "Professional consultation",
-          "src": "/sites/nexa-paraguay/images/process/consultation.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/consultation.png",
+          "src": "/sites/nexa-paraguay/images/process/consultation.webp"
         },
         "documents": {
           "alt": "Document validation",
-          "src": "/sites/nexa-paraguay/images/process/documents.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/documents.png",
+          "src": "/sites/nexa-paraguay/images/process/documents.webp"
         },
         "familyResidency": {
           "alt": "Family walking toward government building for residency",
-          "src": "/sites/nexa-paraguay/images/process/family-residency.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/family-residency.png",
+          "src": "/sites/nexa-paraguay/images/process/family-residency.webp"
         },
         "operationalDay": {
           "alt": "Operational day panorama: arrival, signing, handshake",
-          "src": "/sites/nexa-paraguay/images/process/operational-day.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/process/operational-day.png",
+          "src": "/sites/nexa-paraguay/images/process/operational-day.webp"
         }
       },
       "programs": {
         "tierBase": {
           "alt": "Base program tier: ID card, passport and lapacho flower",
-          "src": "/sites/nexa-paraguay/images/programs/tier-base.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-base.png",
+          "src": "/sites/nexa-paraguay/images/programs/tier-base.webp"
         },
         "tierBusiness": {
           "alt": "Business program tier: ID, passport, folder, bank card",
-          "src": "/sites/nexa-paraguay/images/programs/tier-business.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-business.png",
+          "src": "/sites/nexa-paraguay/images/programs/tier-business.webp"
         },
         "tierInvestor": {
           "alt": "Investor program tier: documents, real-estate brochure and keys",
-          "src": "/sites/nexa-paraguay/images/programs/tier-investor.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-investor.png",
+          "src": "/sites/nexa-paraguay/images/programs/tier-investor.webp"
         },
         "tierTierras": {
           "alt": "Tierras program tier: rural Paraguayan farmland",
-          "src": "/sites/nexa-paraguay/images/programs/tier-tierras.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-tierras.png",
+          "src": "/sites/nexa-paraguay/images/programs/tier-tierras.webp"
         }
       },
       "social": {
         "btsOffice": {
           "alt": "Social template: behind-the-scenes office life",
-          "src": "/sites/nexa-paraguay/images/social/bts-office.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/social/bts-office.png",
+          "src": "/sites/nexa-paraguay/images/social/bts-office.webp"
         },
         "carmelitas": {
           "alt": "Social template: Carmelitas tree-lined boulevard",
-          "src": "/sites/nexa-paraguay/images/social/carmelitas.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/social/carmelitas.png",
+          "src": "/sites/nexa-paraguay/images/social/carmelitas.webp"
         },
         "clientJourney": {
           "alt": "Social template: client journey still-life",
-          "src": "/sites/nexa-paraguay/images/social/client-journey.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/social/client-journey.png",
+          "src": "/sites/nexa-paraguay/images/social/client-journey.webp"
         },
         "dataTip": {
           "alt": "Social template: abstract navy-champagne data-tip background",
-          "src": "/sites/nexa-paraguay/images/social/data-tip.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/social/data-tip.png",
+          "src": "/sites/nexa-paraguay/images/social/data-tip.webp"
         },
         "sanBernardino": {
           "alt": "Social template: San Bernardino lakeside pier",
-          "src": "/sites/nexa-paraguay/images/social/san-bernardino.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/social/san-bernardino.png",
+          "src": "/sites/nexa-paraguay/images/social/san-bernardino.webp"
         },
         "villaMorra": {
           "alt": "Social template: Villa Morra café patio at golden hour",
-          "src": "/sites/nexa-paraguay/images/social/villa-morra.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/social/villa-morra.png",
+          "src": "/sites/nexa-paraguay/images/social/villa-morra.webp"
         }
       },
       "team": {
         "accountingLead": {
           "alt": "Accounting Lead portrait (staging placeholder)",
-          "src": "/sites/nexa-paraguay/images/team/accounting-lead.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/team/accounting-lead.png",
+          "src": "/sites/nexa-paraguay/images/team/accounting-lead.webp"
         },
         "clientSuccess": {
           "alt": "Client Success portrait (staging placeholder)",
-          "src": "/sites/nexa-paraguay/images/team/client-success.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/team/client-success.png",
+          "src": "/sites/nexa-paraguay/images/team/client-success.webp"
         },
         "commercialDirector": {
           "alt": "Commercial Director portrait (staging placeholder)",
-          "src": "/sites/nexa-paraguay/images/team/commercial-director.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/team/commercial-director.png",
+          "src": "/sites/nexa-paraguay/images/team/commercial-director.webp"
         },
         "group": {
           "alt": "Nexa Paraguay team group portrait (staging placeholder)",
-          "src": "/sites/nexa-paraguay/images/team/group-shot.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/team/group-shot.png",
+          "src": "/sites/nexa-paraguay/images/team/group-shot.webp"
         },
         "legalLead": {
           "alt": "Legal Lead portrait (staging placeholder)",
-          "src": "/sites/nexa-paraguay/images/team/legal-lead.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/team/legal-lead.png",
+          "src": "/sites/nexa-paraguay/images/team/legal-lead.webp"
         },
         "operationsDirector": {
           "alt": "Operations Director portrait (staging placeholder)",
-          "src": "/sites/nexa-paraguay/images/team/operations-director.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/team/operations-director.png",
+          "src": "/sites/nexa-paraguay/images/team/operations-director.webp"
         }
       },
       "testimonials": {
         "client1": {
           "alt": "Testimonial portrait: Argentine entrepreneur client",
-          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.webp"
         },
         "client2": {
           "alt": "Testimonial portrait: Latin American female consultant client",
-          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.webp"
         },
         "client3": {
           "alt": "Testimonial portrait: European professional client",
-          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.webp"
         },
         "client4": {
           "alt": "Testimonial portrait: senior investor client",
-          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.webp"
         },
         "client5": {
           "alt": "Testimonial portrait: family-relocation client",
-          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.webp"
         },
         "poster1": {
           "alt": "Video testimonial poster frame 1",
-          "src": "/sites/nexa-paraguay/images/testimonials/poster-1.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-1.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/poster-1.webp"
         },
         "poster2": {
           "alt": "Video testimonial poster frame 2",
-          "src": "/sites/nexa-paraguay/images/testimonials/poster-2.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-2.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/poster-2.webp"
         },
         "poster3": {
           "alt": "Video testimonial poster frame 3",
-          "src": "/sites/nexa-paraguay/images/testimonials/poster-3.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-3.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/poster-3.webp"
         },
         "poster4": {
           "alt": "Video testimonial poster frame 4",
-          "src": "/sites/nexa-paraguay/images/testimonials/poster-4.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-4.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/poster-4.webp"
         },
         "poster5": {
           "alt": "Video testimonial poster frame 5",
-          "src": "/sites/nexa-paraguay/images/testimonials/poster-5.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-5.png",
+          "src": "/sites/nexa-paraguay/images/testimonials/poster-5.webp"
         }
       },
       "trust": {
         "cedula": {
           "alt": "Paraguayan cédula held between fingers",
-          "src": "/sites/nexa-paraguay/images/trust/cedula-in-hand.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/trust/cedula-in-hand.png",
+          "src": "/sites/nexa-paraguay/images/trust/cedula-in-hand.webp"
         },
         "certificate": {
           "alt": "Corporate registration certificate",
-          "src": "/sites/nexa-paraguay/images/trust/company-certificate.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/trust/company-certificate.png",
+          "src": "/sites/nexa-paraguay/images/trust/company-certificate.webp"
         },
         "migraciones": {
           "alt": "Paraguayan immigration authority building",
-          "src": "/sites/nexa-paraguay/images/trust/migraciones.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/trust/migraciones.png",
+          "src": "/sites/nexa-paraguay/images/trust/migraciones.webp"
         },
         "registry": {
           "alt": "Commercial registry building exterior",
-          "src": "/sites/nexa-paraguay/images/trust/registry-exterior.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/trust/registry-exterior.png",
+          "src": "/sites/nexa-paraguay/images/trust/registry-exterior.webp"
         }
       },
       "whyParaguay": {
         "agribusiness": {
           "alt": "Paraguayan soybean field with quebracho tree (agribusiness)",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/agribusiness.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/agribusiness.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/agribusiness.webp"
         },
         "community": {
           "alt": "Relaxed expat community gathering on a terrace",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/community.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/community.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/community.webp"
         },
         "culture": {
           "alt": "Tereré and chipa on a Paraguayan wooden table",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/culture.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/culture.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/culture.webp"
         },
         "economic": {
           "alt": "Modern business district in Asunción",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/economic.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/economic.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/economic.webp"
         },
         "growth": {
           "alt": "Asunción high-rise construction (GDP growth)",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/growth.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/growth.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/growth.webp"
         },
         "investment": {
           "alt": "Premium real estate development in Paraguay",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/investment.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/investment.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/investment.webp"
         },
         "lifestyle": {
           "alt": "Quality of life in Paraguay",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/lifestyle.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/lifestyle.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/lifestyle.webp"
         },
         "nature": {
           "alt": "Ñu Guasu Park green space in Asunción",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/nature.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/nature.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/nature.webp"
         },
         "tax": {
           "alt": "Paraguayan tax authority building (fiscal stability)",
-          "src": "/sites/nexa-paraguay/images/why-paraguay/tax.png"
+          "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/tax.png",
+          "src": "/sites/nexa-paraguay/images/why-paraguay/tax.webp"
         }
       }
     },
