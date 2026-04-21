@@ -152,9 +152,13 @@ export function TestimonialsSection({
                   style={{ borderTop: '1px solid rgba(0,0,0,0.06)' }}
                 >
                   {testimonial.avatar ? (
-                    <img 
+                    <img
                       src={testimonial.avatar}
                       alt={testimonial.author}
+                      width={48}
+                      height={48}
+                      loading="lazy"
+                      decoding="async"
                       className="w-12 h-12 rounded-full object-cover"
                     />
                   ) : (
