@@ -22,6 +22,7 @@
     "build:analyze": "ANALYZE=true next build",
     "generate:tenant-data": "tsx scripts/generate-tenant-data.ts",
     "export:email-nurture": "tsx scripts/export-email-nurture.ts",
+    "export:content-calendar": "tsx scripts/export-content-calendar.ts",
     "convert:tenant-images": "tsx scripts/convert-tenant-images.ts",
     "validate:tenant-images": "tsx scripts/validate-tenant-images.ts",
     "start": "next start",
