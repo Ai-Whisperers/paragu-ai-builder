@@ -1052,10 +1052,6 @@
         "href": "/s/de/nexa-paraguay/calidad-de-vida"
       },
       {
-        "label": "Jurisdiktionen",
-        "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
         "label": "Glossar",
         "href": "/s/de/nexa-paraguay/glosario"
       },
@@ -1987,80 +1983,6 @@
       "title": "Gibt es einen Begriff, den Sie nicht verstehen?",
       "subtitle": "Schreiben Sie uns. Wir fügen ihn dem Glossar hinzu.",
       "ctaText": "Kontaktieren Sie uns",
-      "ctaHref": "/contacto"
-    }
-  },
-  "jurisdictionCompPage": {
-    "seo": {
-      "title": "Paraguay vs. Uruguay vs. Panama — Vergleich",
-      "description": "Welche Jurisdiktion wählen: Territorialität, Steuern, Lebenshaltungskosten, Aufenthalt."
-    },
-    "hero": {
-      "headline": "Paraguay, Uruguay oder Panama: welche Jurisdiktion?",
-      "subheadline": "Ehrlicher Vergleich der drei von europäischen Investoren am meisten nachgefragten Jurisdiktionen."
-    },
-    "matrix": {
-      "eyebrow": "Vergleich",
-      "title": "Drei Jurisdiktionen, drei Profile",
-      "featureColumnLabel": "Merkmal",
-      "tiers": [
-        {
-          "id": "paraguay",
-          "name": "Paraguay",
-          "description": "Kosteneffizient, territorial.",
-          "price": "USD 4.400+",
-          "priceNote": "Nexa Paraguay Business",
-          "highlighted": true,
-          "badge": "Kosteneffizientestes",
-          "included": [
-            "Territorial (besteuert kein Auslandseinkommen)",
-            "10 % IRE",
-            "Aufenthalt in 8–12 Wochen",
-            "Lebenshaltungskosten 30–50 % niedriger als UY",
-            "Weniger Bürokratie"
-          ],
-          "ctaLabel": "Paraguay wählen",
-          "ctaHref": "/contacto?programa=business"
-        },
-        {
-          "id": "uruguay",
-          "name": "Uruguay",
-          "description": "Stabil, teurer.",
-          "price": "USD 10.000+",
-          "priceNote": "gleichwertiges Programm",
-          "included": [
-            "Territorial (mit Bedingungen)",
-            "25 % IRAE",
-            "Aufenthalt in 4–6 Monaten",
-            "Hohe Lebenshaltungskosten",
-            "Mäßige Bürokratie"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        },
-        {
-          "id": "panama",
-          "name": "Panama",
-          "description": "Offshore, komplexer.",
-          "price": "USD 8.000+",
-          "priceNote": "gleichwertiges Programm",
-          "included": [
-            "Strikt territorial",
-            "25 % ISR",
-            "Friendly Nations-Aufenthalt in Monaten",
-            "Mittlere Lebenshaltungskosten",
-            "Gemischter internationaler Ruf"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ]
-    },
-    "cta": {
-      "eyebrow": "",
-      "title": "Noch unsicher?",
-      "subtitle": "Wir bereiten eine personalisierte Analyse Ihres Profils vor.",
-      "ctaText": "Analyse anfordern",
       "ctaHref": "/contacto"
     }
   },

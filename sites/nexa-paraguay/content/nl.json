@@ -1049,10 +1049,6 @@
         "href": "/s/nl/nexa-paraguay/calidad-de-vida"
       },
       {
-        "label": "Jurisdicties",
-        "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
         "label": "Woordenlijst",
         "href": "/s/nl/nexa-paraguay/glosario"
       },
@@ -1984,80 +1980,6 @@
       "title": "Heeft u een term die u niet begrijpt?",
       "subtitle": "Schrijf ons. We voegen hem toe aan de woordenlijst.",
       "ctaText": "Contact opnemen",
-      "ctaHref": "/contacto"
-    }
-  },
-  "jurisdictionCompPage": {
-    "seo": {
-      "title": "Paraguay vs. Uruguay vs. Panama — vergelijking",
-      "description": "Welke jurisdictie kiezen: territorialiteit, belastingen, kosten van levensonderhoud, verblijfsvergunning."
-    },
-    "hero": {
-      "headline": "Paraguay, Uruguay of Panama: welke jurisdictie?",
-      "subheadline": "Eerlijke vergelijking van de drie jurisdicties die Europese investeerders het meest vragen."
-    },
-    "matrix": {
-      "eyebrow": "Vergelijking",
-      "title": "Drie jurisdicties, drie profielen",
-      "featureColumnLabel": "Kenmerk",
-      "tiers": [
-        {
-          "id": "paraguay",
-          "name": "Paraguay",
-          "description": "Kostenefficiënt, territoriaal.",
-          "price": "USD 4.400+",
-          "priceNote": "Nexa Paraguay Business",
-          "highlighted": true,
-          "badge": "Meest kostenefficiënt",
-          "included": [
-            "Territoriaal (belast geen buitenlands inkomen)",
-            "10 % IRE",
-            "Verblijf in 8–12 weken",
-            "Kosten levensonderhoud 30–50 % lager dan UY",
-            "Minder bureaucratie"
-          ],
-          "ctaLabel": "Kies Paraguay",
-          "ctaHref": "/contacto?programa=business"
-        },
-        {
-          "id": "uruguay",
-          "name": "Uruguay",
-          "description": "Stabiel, duurder.",
-          "price": "USD 10.000+",
-          "priceNote": "equivalent programma",
-          "included": [
-            "Territoriaal (met voorwaarden)",
-            "25 % IRAE",
-            "Verblijf in 4–6 maanden",
-            "Hoge kosten levensonderhoud",
-            "Matige bureaucratie"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        },
-        {
-          "id": "panama",
-          "name": "Panama",
-          "description": "Offshore, complexer.",
-          "price": "USD 8.000+",
-          "priceNote": "equivalent programma",
-          "included": [
-            "Strikt territoriaal",
-            "25 % ISR",
-            "Friendly Nations-verblijf in maanden",
-            "Gemiddelde kosten levensonderhoud",
-            "Gemengde internationale reputatie"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ]
-    },
-    "cta": {
-      "eyebrow": "",
-      "title": "Nog niet zeker?",
-      "subtitle": "Wij bereiden een gepersonaliseerde analyse van uw profiel voor.",
-      "ctaText": "Analyse aanvragen",
       "ctaHref": "/contacto"
     }
   },
