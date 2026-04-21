@@ -329,6 +329,17 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['grid'],
     requiredContentFields: ['business'],
   },
+  'promo-banner': {
+    id: 'promo-banner',
+    defaultVariant: 'countdown',
+    variants: ['countdown', 'simple', 'carousel'],
+    requiredContentFields: ['promotions'],
+  },
+  'newsletter-signup': {
+    id: 'newsletter-signup',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+  },
 }
 
 /**
