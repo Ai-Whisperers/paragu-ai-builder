@@ -15,6 +15,7 @@ import { ProductCatalogSection } from '@/components/sections/product-catalog-sec
 import { FeaturedProductsSection } from '@/components/sections/featured-products-section'
 import { CommerceCatalogSection } from '@/components/sections/commerce-catalog-section'
 import { AgeGateSection } from '@/components/sections/age-gate-section'
+import { TrustBadgesSection } from '@/components/sections/trust-badges-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
@@ -55,6 +56,7 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'featured-products': FeaturedProductsSection,
   'commerce-catalog': CommerceCatalogSection,
   'age-gate': AgeGateSection,
+  'trust-badges': TrustBadgesSection,
   gallery: GallerySection,
   team: TeamSection,
   testimonials: TestimonialsSection,

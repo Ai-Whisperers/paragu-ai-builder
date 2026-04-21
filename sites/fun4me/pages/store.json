@@ -19,6 +19,11 @@
       "content": "store.hero"
     },
     {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
       "id": "cta-banner",
       "variant": "solid",
       "content": "home.promo"

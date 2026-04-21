@@ -92,6 +92,26 @@ export function cartRecoveryEmail(ctx: CartRecoveryContext) {
   }
 }
 
+export interface BackInStockContext {
+  productName: string
+  productUrl: string
+  businessName: string
+}
+
+export function backInStockEmail(ctx: BackInStockContext) {
+  return {
+    subject: `¡${ctx.productName} volvió al stock!`,
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;">Tu producto volvió</h1>
+  <p><strong>${escape(ctx.productName)}</strong> está otra vez disponible en ${escape(ctx.businessName)}.</p>
+  <p style="margin:24px 0;"><a href="${ctx.productUrl}" style="display:inline-block;background:#111;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600;">Comprar ahora</a></p>
+  <p style="color:#666;font-size:12px;margin-top:24px;">Este es el único aviso que vas a recibir por este producto. Si ya no te interesa, ignorá este mensaje.</p>
+  <p style="color:#666;font-size:12px;">${escape(ctx.businessName)} · enviado desde Paragu-AI</p>
+</body></html>`.trim(),
+  }
+}
+
 function escape(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
 }

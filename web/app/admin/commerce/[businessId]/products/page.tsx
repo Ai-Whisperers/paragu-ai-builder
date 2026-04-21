@@ -50,6 +50,9 @@ export default async function AdminProductsPage({ params }: { params: Promise<{ 
         <Link href={`/admin/commerce/${businessId}/reconciliation`} className="hover:underline">
           Conciliación
         </Link>
+        <Link href={`/admin/commerce/${businessId}/search-analytics`} className="hover:underline">
+          Búsquedas
+        </Link>
       </nav>
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-bold">Productos</h1>
