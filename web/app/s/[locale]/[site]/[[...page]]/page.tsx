@@ -7,6 +7,7 @@ import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { alternatesFor } from '@/lib/i18n/routing'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { jsonLdForPage } from '@/lib/engine/schema-org'
+import { buildLcpPreloadTags } from '@/lib/seo/lcp-preload'
 import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
 import { DemoBadge } from '@/components/universal/demo-badge'
@@ -164,6 +165,28 @@ export default async function TenantPage({ params }: Props) {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
   const jsonLd = jsonLdForPage(composed, baseUrl)
 
+  // Preload the LCP hero image on home + landing pages. The hero section
+  // is the first composed section with id "hero" — pull its background
+  // image props so the browser can start the fetch before HTML parsing.
+  // We only emit preload tags for pages where the hero is above the fold
+  // (home + landings); deeper pages don't benefit because the hero is
+  // already the main content. Skip if the section ships without imagery.
+  const heroPages = new Set(['home', 'inversor', 'trust', 'lifestyle', 'empresa'])
+  const isHeroPage = heroPages.has(pageSlug)
+  const heroSection = isHeroPage
+    ? composed.sections.find((s) => s.id === 'hero')
+    : undefined
+  const heroProps = heroSection?.props as {
+    backgroundImage?: string
+    backgroundImageMobile?: string
+  } | undefined
+  const lcpPreloadTags = heroProps
+    ? buildLcpPreloadTags({
+        heroImage: heroProps.backgroundImage,
+        heroImageMobile: heroProps.backgroundImageMobile,
+      })
+    : []
+
   const verticalCopy = loadVerticalCopy(composed.site.vertical, composed.locale)
   const cookieCopy = (verticalCopy.common as Record<string, unknown> | undefined)?.cookieBanner as
     | { title: string; body: string; acceptAll: string; acceptEssential: string; manage: string; privacyLabel: string }
@@ -179,6 +202,21 @@ export default async function TenantPage({ params }: Props) {
       {composed.theme.googleFontsUrl && (
         <link rel="stylesheet" href={composed.theme.googleFontsUrl} />
       )}
+
+      {lcpPreloadTags.map((tag, i) => (
+        <link
+          // eslint-disable-next-line react/no-unknown-property
+          key={`lcp-${i}`}
+          rel={tag.rel}
+          as={tag.as}
+          href={tag.href}
+          {...(tag.media ? { media: tag.media } : {})}
+          // React's types for `fetchPriority` on <link> lag behind Next 15
+          // (lowercase was non-standard, camelCase became the React prop
+          // name in 19). Emit both to cover SSR + CSR serialization.
+          fetchPriority={tag.fetchPriority as 'high'}
+        />
+      ))}
 
       {jsonLd.map((item, i) => (
         <script
