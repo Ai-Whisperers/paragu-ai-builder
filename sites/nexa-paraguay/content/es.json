@@ -1591,7 +1591,7 @@
     "guides": {
       "title": "Guías descargables",
       "subtitle": "Documentos útiles para preparar tu expediente y entender el proceso.",
-      "items": [
+      "features": [
         {
           "icon": "FileText",
           "title": "Checklist documental",
