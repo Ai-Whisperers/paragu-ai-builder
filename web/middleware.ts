@@ -213,6 +213,13 @@ function pickBestLocale(acceptLanguage: string, enabled: readonly string[]): str
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|.*\\.[\\w]+$).*)',
+    // Run middleware for everything EXCEPT API / Next internals / favicons /
+    // static assets. We explicitly list static asset extensions (css, js,
+    // fonts, images) so that meaningful content paths like /<tenant>/
+    // sitemap.xml and /<tenant>/robots.txt still go through the flat-slug
+    // rewrite — without this, tenant sitemaps 500 because they fall to
+    // the legacy `[business]/[page]` route instead of the canonical
+    // `/s/<locale>/<site>/sitemap.xml` handler.
+    '/((?!api|_next/static|_next/image|favicon\\.ico|.*\\.(?:css|js|mjs|map|woff2?|ttf|eot|otf|svg|png|jpg|jpeg|gif|webp|avif|ico|mp4|webm)$).*)',
   ],
 }
