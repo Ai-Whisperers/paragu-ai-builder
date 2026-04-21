@@ -40,6 +40,10 @@
       "path": "blog"
     },
     {
+      "labelKey": "navigation.press",
+      "path": "prensa"
+    },
+    {
       "labelKey": "navigation.contact",
       "path": "contacto"
     }

@@ -1,0 +1,49 @@
+{
+  "slug": "lifestyle",
+  "titleKey": "landingLifestyle.seo.title",
+  "descriptionKey": "landingLifestyle.seo.description",
+  "schemaType": "Service",
+  "hiddenFromSitemap": true,
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "split",
+      "content": "landingLifestyle.hero"
+    },
+    {
+      "id": "why-destination",
+      "variant": "three-col",
+      "content": "landingLifestyle.whyCountry"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "landingLifestyle.process"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "landingLifestyle.programs"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "landingLifestyle.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

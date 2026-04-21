@@ -50,6 +50,12 @@ export interface PageDefinition {
   descriptionKey?: string
   schemaType?: string
   sections: PageSection[]
+  /**
+   * Opt a page out of the public sitemap and mark it `noindex, nofollow`
+   * at runtime. Intended for ad-landing pages that should only be reached
+   * via a paid attribution click, never via Google.
+   */
+  hiddenFromSitemap?: boolean
 }
 
 export interface VerticalDefinition {

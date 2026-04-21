@@ -75,27 +75,41 @@ function ThreeCol({ pillars }: { pillars: WhyPillar[] }) {
     <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-stretch">
       {pillars.map((p, i) => (
         <AnimateOnScroll key={i} stagger={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6} className="h-full">
-          <article className="flex h-full flex-col rounded-lg border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card transition-all hover:shadow-card-hover">
-            <div className="mb-4 flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-[var(--secondary)]/10">
-              <IconByName name={p.icon} />
-            </div>
-            <Heading level={3}
-              className="mb-3 text-xl font-semibold text-[var(--primary)]"
-              style={{ fontFamily: 'var(--font-heading)' }}
-            >
-              {p.title}
-            </Heading>
-            <p className="text-[var(--text-light)]">{p.description}</p>
-            {p.bullets && p.bullets.length > 0 && (
-              <ul className="mt-4 space-y-2">
-                {p.bullets.map((b, j) => (
-                  <li key={j} className="flex gap-2 text-sm text-[var(--text)]">
-                    <span className="text-[var(--secondary)]">•</span>
-                    <span>{b}</span>
-                  </li>
-                ))}
-              </ul>
+          <article className="flex h-full flex-col overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--surface)] shadow-card transition-all hover:shadow-card-hover">
+            {p.imageUrl && (
+              <div className="aspect-[4/3] w-full overflow-hidden bg-[var(--surface-light)]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={p.imageUrl}
+                  alt={p.title}
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
             )}
+            <div className="flex flex-1 flex-col p-8">
+              <div className="mb-4 flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-[var(--secondary)]/10">
+                <IconByName name={p.icon} />
+              </div>
+              <Heading level={3}
+                className="mb-3 text-xl font-semibold text-[var(--primary)]"
+                style={{ fontFamily: 'var(--font-heading)' }}
+              >
+                {p.title}
+              </Heading>
+              <p className="text-[var(--text-light)]">{p.description}</p>
+              {p.bullets && p.bullets.length > 0 && (
+                <ul className="mt-4 space-y-2">
+                  {p.bullets.map((b, j) => (
+                    <li key={j} className="flex gap-2 text-sm text-[var(--text)]">
+                      <span className="text-[var(--secondary)]">•</span>
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </article>
         </AnimateOnScroll>
       ))}

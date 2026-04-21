@@ -11,7 +11,9 @@
         "quote": "Nexa Paraguay hizo que el proceso de radicación fuera increíblemente simple. En solo 8 semanas tenía mi residencia, sociedad y cuenta bancaria funcionando. El equipo técnico es profesional y siempre disponible.",
         "program": "Paraguay Business",
         "rating": 5,
-        "image": "/sites/nexa-paraguay/images/testimonials/client-1.jpg",
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-1.webp",
+        "videoUrl": "",
         "verified": true,
         "date": "2024-03-15"
       },
@@ -23,7 +25,9 @@
         "quote": "Como freelancer, necesitaba una estructura legal sólida sin complicaciones. El programa Paraguay Base me dio exactamente eso. El acompañamiento en cada paso del proceso fue excepcional.",
         "program": "Paraguay Base",
         "rating": 5,
-        "image": "/sites/nexa-paraguay/images/testimonials/client-2.jpg",
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-2.webp",
+        "videoUrl": "",
         "verified": true,
         "date": "2024-02-20"
       },
@@ -35,7 +39,9 @@
         "quote": "El Paraguay Investor Program incluyó un tour estratégico inmobiliario que me permitió identificar oportunidades de inversión únicas. Ya tengo 3 propiedades rentables en mi portafolio paraguayo.",
         "program": "Paraguay Investor",
         "rating": 5,
-        "image": "/sites/nexa-paraguay/images/testimonials/client-3.jpg",
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-3.webp",
+        "videoUrl": "",
         "verified": true,
         "date": "2024-01-10"
       },
@@ -47,7 +53,9 @@
         "quote": "La apertura de cuenta bancaria empresarial fue rápida y sin complicaciones. Nexa coordinó todo perfectamente con el banco. Ahora mi startup opera 100% desde Paraguay.",
         "program": "Paraguay Business",
         "rating": 5,
-        "image": "/sites/nexa-paraguay/images/testimonials/client-4.jpg",
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-4.webp",
+        "videoUrl": "",
         "verified": true,
         "date": "2024-04-05"
       },
@@ -59,7 +67,9 @@
         "quote": "Compre tierras productivas a través del programa Paraguay Land Acquisition. El análisis legal de la propiedad y el apoyo en la negociación fueron invaluables. Excelente retorno de inversión.",
         "program": "Paraguay Land",
         "rating": 5,
-        "image": "/sites/nexa-paraguay/images/testimonials/client-5.jpg",
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-5.webp",
+        "videoUrl": "",
         "verified": true,
         "date": "2024-03-28"
       }
@@ -68,7 +78,16 @@
       "totalClients": 250,
       "satisfactionRate": 98,
       "averageRating": 4.9,
-      "countries": ["Argentina", "Brasil", "Uruguay", "Chile", "Colombia", "España", "Estados Unidos"]
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Uruguay",
+        "Chile",
+        "Colombia",
+        "España",
+        "Estados Unidos"
+      ]
     }
-  }
+  },
+  "_note": "Testimonials feature is currently gated (features.testimonials=false on site.json). Images are AI-generated placeholders per docs/IMAGE_GENERATION_PROMPTS.md §ethics; do NOT flip testimonials:true until real consented photos replace them. See docs/TESTIMONIALS_GATING.md. videoPoster+videoUrl slots are wired: posters are ready but videoUrl stays empty on purpose, so the card renders a 'video coming soon' thumbnail when testimonials do re-enable."
 }

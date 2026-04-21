@@ -3,6 +3,11 @@
 > Ready-to-paste prompts for generating every image Nexa Paraguay needs, tuned for Antigravity, Cursor's image tools, Imagen 3, Flux.1, Midjourney v6+, DALL·E 3. Ordered by launch priority (P0 → P3).
 >
 > **Ethics note.** Prompts tagged 👤 produce human likenesses. Use AI output only as **temporary placeholders**. Before production, replace with photographs of real consented people (team, clients). AI-generated faces in testimonials would be a GDPR + consumer-trust problem — see `/privacidad` section F in `STAKEHOLDER-QA.md`.
+>
+> **Related asset catalogs** (distribution-layer indexes, not prompts):
+> - [`SOCIAL_ASSETS.md`](./SOCIAL_ASSETS.md) — 6 generic social templates + multilingual caption seeds.
+> - [`ADS_ASSETS.md`](./ADS_ASSETS.md) — 22 paid-ad creatives across Meta, LinkedIn, Google Display and YouTube.
+> - [`TESTIMONIALS_GATING.md`](./TESTIMONIALS_GATING.md) — how to unlock the testimonials feature once real consented photos replace the placeholders.
 
 ---
 
