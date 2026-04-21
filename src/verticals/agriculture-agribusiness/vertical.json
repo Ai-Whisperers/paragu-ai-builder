@@ -23,7 +23,11 @@
     "contact",
     "google-maps",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "enhanced-faq",
+    "our-story",
+    "b2b-wholesale",
+    "recipes"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

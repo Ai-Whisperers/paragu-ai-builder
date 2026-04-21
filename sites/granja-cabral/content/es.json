@@ -3,7 +3,15 @@
     "translationQuality": "native",
     "author": "Granja Cabral",
     "lastReviewed": "2026-04-20",
-    "notes": "Content sourced from web/lib/engine/demo-data.ts and src/content/egg_farm.content.json. Placeholders flagged in site.json.placeholderFields. Awaiting confirmation from owner Laura Cabral — see docs/onboarding-questionnaire.md."
+    "notes": "Content sourced from web/lib/engine/demo-data.ts and src/content/egg_farm.content.json. Placeholders flagged in site.json.placeholderFields. Awaiting confirmation from owner Laura Cabral — see docs/onboarding-questionnaire.md.",
+    "placeholders": [
+      "home.ourStory.business.story.founded — founding year needs confirmation from Laura Cabral",
+      "home.ourStory.business.story.mission/vision/values — drafted from research, pending Laura Cabral sign-off",
+      "home.ourStory.business.stats — counts are estimates (500 gallinas, 300 negocios); confirm with Laura Cabral",
+      "home.ourStory.business.sustainability — biogas flag is aspirational (planned, not yet operational)",
+      "home.enhancedFaq and home.wholesale — FAQ/tier/industry copy currently lives inside the components themselves (PR #108). Once those are moved to content-driven arrays, the text should be reviewed by Laura Cabral.",
+      "home.recipes — recipes list lives in web/lib/data/recipes.ts (15 Paraguayan recipes). Content-ref here only supplies business contact; recipe data itself is currently component-owned."
+    ]
   },
   "siteName": "Granja Cabral",
   "tagline": "Huevos frescos de granja en Coronel Oviedo",
@@ -135,6 +143,71 @@
       "whatsapp": "+595981324569",
       "email": "info@granjacabral.com",
       "address": "Ruta 2, Km 125-140, Coronel Oviedo"
+    },
+    "ourStory": {
+      "business": {
+        "name": "Granja Cabral",
+        "tagline": "Huevos frescos de granja en Coronel Oviedo",
+        "address": "Ruta 2, Km 125-140",
+        "city": "Coronel Oviedo",
+        "phone": "+595981324569",
+        "whatsapp": "+595981324569",
+        "email": "info@granjacabral.com",
+        "instagram": "@granjacabral",
+        "hours": {
+          "Lunes - Sabado": "07:00 - 18:00",
+          "Domingo": "Cerrado"
+        },
+        "story": {
+          "founded": "[AÑO]",
+          "mission": "Producir alimentos frescos, saludables y accesibles para las familias de Coronel Oviedo y zona, manteniendo practicas sostenibles y apoyando el desarrollo local.",
+          "vision": "Ser la granja avicola de referencia en Caaguazu, reconocida por calidad, sostenibilidad y compromiso comunitario. Expandir nuestro alcance mientras mantenemos los valores familiares que nos caracterizan.",
+          "values": [
+            "Calidad: Cada huevo es revisado antes de la venta",
+            "Sostenibilidad: Compostaje y gestion responsable del agua",
+            "Bienestar Animal: Gallinas en ambiente natural y saludable",
+            "Comunidad: Precios justos y apoyo a la economia local",
+            "Transparencia: Puertas abiertas para que conozcas nuestra granja"
+          ]
+        },
+        "stats": [
+          { "value": "500+", "label": "Gallinas ponedoras" },
+          { "value": "100%", "label": "Produccion local" },
+          { "value": "Diario", "label": "Recoleccion fresca" },
+          { "value": "300+", "label": "Negocios atendidos" },
+          { "value": "4-5", "label": "Semanas de frescura" }
+        ],
+        "sustainability": {
+          "composting": true,
+          "biogas": false,
+          "waterRecycling": true,
+          "organicFertilizer": true,
+          "description": "Creemos en producir alimentos de manera responsable con el medio ambiente. Implementamos compostaje de gallinaza, reutilizacion de agua y venta de fertilizante organico cerrando el ciclo de sustentabilidad."
+        }
+      }
+    },
+    "wholesale": {
+      "business": {
+        "name": "Granja Cabral",
+        "whatsapp": "+595981324569",
+        "phone": "+595981324569",
+        "email": "info@granjacabral.com",
+        "address": "Ruta 2, Km 125-140",
+        "city": "Coronel Oviedo"
+      }
+    },
+    "recipes": {
+      "business": {
+        "name": "Granja Cabral",
+        "whatsapp": "+595981324569"
+      }
+    },
+    "enhancedFaq": {
+      "business": {
+        "name": "Granja Cabral",
+        "whatsapp": "+595981324569",
+        "phone": "+595981324569"
+      }
     }
   },
   "footer": {
