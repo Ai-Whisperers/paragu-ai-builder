@@ -3,6 +3,7 @@
 import React, { Component, ErrorInfo, ReactNode } from 'react'
 import { AlertTriangle, RefreshCw } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { logger } from '@/lib/logger'
 
 interface Props {
   children: ReactNode
@@ -40,9 +41,8 @@ export class SectionErrorBoundary extends Component<Props, State> {
       this.props.onError(error, errorInfo)
     }
     
-    // Console error in development only
     if (process.env.NODE_ENV === 'development') {
-      console.error('Section error:', error, errorInfo)
+      logger.error('Section error', error instanceof Error ? error : undefined, { errorInfo })
     }
   }
 

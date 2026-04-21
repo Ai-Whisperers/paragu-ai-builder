@@ -264,10 +264,11 @@ export function LeadsDashboardClient({
         case 'high_priority':
           result = result.filter(l => l.priority_tier === 'A' || l.priority_tier === 'B')
           break
-        case 'recent':
-          const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
-          result = result.filter(l => new Date(l.created_at) >= weekAgo)
+        case 'recent': {
+          const weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000
+          result = result.filter(l => new Date(l.created_at).getTime() >= weekAgo)
           break
+        }
         case 'favorites':
           result = result.filter(l => l.isFavorite)
           break
