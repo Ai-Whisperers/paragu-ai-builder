@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 67 | see closure log below |
+| ✅ Closed | 68 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 433 | the rest |
+| 🔴 Open | 432 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -87,6 +87,10 @@ Closure log:
 - **#475** — cron tests for `leads-digest` (5 tests: 403, skipped, send-per-recipient,
   malformed-referrer, supabase-error) and `sitemap-ping` (4 tests: 403, all-targets-pinged,
   per-target-error-captured, GET=POST). 9/9 passing.
+- **#472** — FOIT verified absent. Marketing landing uses no custom fonts
+  (system-ui sans-serif). Tenant sites load Google Fonts via
+  `resolve-site-tokens.ts:190` which appends `&display=swap` (FOUT, no FOIT).
+  Removed unused `fonts.googleapis.com` preconnect from root layout.
 
 ## Blocked on user input
 
