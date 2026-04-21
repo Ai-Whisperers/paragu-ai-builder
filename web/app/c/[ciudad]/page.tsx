@@ -42,7 +42,7 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
   return (
     <>
       <SiteNav />
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="pt-32 pb-16 md:pt-40">
           <Container>

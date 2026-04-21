@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 70 | see closure log below |
+| ✅ Closed | 73 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 430 | the rest |
+| 🔴 Open | 427 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -98,6 +98,10 @@ Closure log:
 - **#482** — per-route Cache-Control headers in `next.config.mjs`:
   admin/auth/login → `no-store`; sitemap/robots → 1d browser, 1w CDN;
   OG images + favicon → 1d browser, 1w CDN, 30d SWR.
+- **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
+  added id to `<main>` on landing + 11 high-traffic marketing routes.
+- **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
+- **#488** — covered by `docs/runbooks/ENV_VARS.md` "How to rotate a secret" section (no separate doc needed).
 
 ## Blocked on user input
 
