@@ -193,7 +193,27 @@
       "title": "Lo que dicen nuestros clientes",
       "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
       "ctaText": "Leer todos los testimonios",
-      "ctaHref": "/s/es/nexa-paraguay/contacto"
+      "ctaHref": "/s/es/nexa-paraguay/contacto",
+      "items": [
+        {
+          "quote": "Empresa + banco + residencia en 9 semanas. Nexa gestionó todo de punta a punta mientras yo terminaba de cerrar en Munich. Cero fricción de mi lado.",
+          "author": "Marco W.",
+          "role": "Consultor, Alemania",
+          "rating": 5
+        },
+        {
+          "quote": "Necesitaba el Investor program porque mi estructura fiscal era compleja. Valió cada euro — coordinaron lo legal y contable durante el primer año.",
+          "author": "Laura v.d. M.",
+          "role": "Inversora, Países Bajos",
+          "rating": 5
+        },
+        {
+          "quote": "Saqué mi cédula y empecé a operar en Paraguay más rápido que mi NIE en España. Precio honesto, sin sorpresas.",
+          "author": "Carlos G.",
+          "role": "Freelance, España",
+          "rating": 5
+        }
+      ]
     },
     "whyCountry": {
       "eyebrow": "Por qué Paraguay",
@@ -436,6 +456,31 @@
       "title": "¿Listo para elegir su programa?",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
+    },
+    "testimonials": {
+      "eyebrow": "Testimonios",
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
+      "items": [
+        {
+          "quote": "Empresa + banco + residencia en 9 semanas. Nexa gestionó todo de punta a punta mientras yo terminaba de cerrar en Munich. Cero fricción de mi lado.",
+          "author": "Marco W.",
+          "role": "Consultor, Alemania",
+          "rating": 5
+        },
+        {
+          "quote": "Necesitaba el Investor program porque mi estructura fiscal era compleja. Valió cada euro — coordinaron lo legal y contable durante el primer año.",
+          "author": "Laura v.d. M.",
+          "role": "Inversora, Países Bajos",
+          "rating": 5
+        },
+        {
+          "quote": "Saqué mi cédula y empecé a operar en Paraguay más rápido que mi NIE en España. Precio honesto, sin sorpresas.",
+          "author": "Carlos G.",
+          "role": "Freelance, España",
+          "rating": 5
+        }
+      ]
     }
   },
   "whyCountryPage": {

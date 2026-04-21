@@ -9325,9 +9325,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
       },
       {
         "content": "home.newsletter",
@@ -10494,6 +10494,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "programasPage.programs",
         "id": "programs-comparison",
         "variant": "tiered"
+      },
+      {
+        "content": "programasPage.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
       },
       {
         "content": "programasPage.faq",
@@ -17905,6 +17910,97 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
         "title": "Tenes alguna consulta?"
       },
+      "enhancedFaq": {
+        "business": {
+          "name": "Fun4Me",
+          "phone": "+595976569739",
+          "whatsapp": "+595976569739"
+        },
+        "items": [
+          {
+            "answer": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicación del contenido. Nadie sabrá qué hay dentro excepto vos.",
+            "category": "Privacidad",
+            "question": "¿El envío es realmente discreto?"
+          },
+          {
+            "answer": "El cargo aparece como 'F4M COMERCIAL' — sin referencias explícitas al tipo de productos. Podés pedir también facturación a otro nombre comercial si lo preferís.",
+            "category": "Privacidad",
+            "question": "¿Qué aparece en mi estado de cuenta?"
+          },
+          {
+            "answer": "Sí. En el checkout podés ingresar cualquier nombre para el destinatario. Solo necesitamos un documento válido al momento de la entrega.",
+            "category": "Privacidad",
+            "question": "¿Pueden usar un nombre distinto al mío para el envío?"
+          },
+          {
+            "answer": "Tarjetas de crédito/débito (Visa, Mastercard), transferencia bancaria, billeteras electrónicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asunción.",
+            "category": "Pagos",
+            "question": "¿Qué formas de pago aceptan?"
+          },
+          {
+            "answer": "Sí, el envío es gratis en compras mayores a Gs. 200.000 a todo el país.",
+            "category": "Pagos",
+            "question": "¿Tienen envío gratis?"
+          },
+          {
+            "answer": "Asunción: 24-48 horas. Gran Asunción: 48-72 horas. Interior: 3-5 días hábiles. Envío express disponible con entrega el mismo día en Asunción (si pedís antes de las 15:00, Gs. 50.000 extra).",
+            "category": "Envío",
+            "question": "¿Cuánto tarda el envío?"
+          },
+          {
+            "answer": "Enviamos a todo Paraguay. Gran Asunción (Asunción, Fernando de la Mora, San Lorenzo, Lambaré, Luque) en 24-72 h. Interior vía encomienda rastreable. Consultá por WhatsApp para tiempos específicos.",
+            "category": "Envío",
+            "question": "¿A qué ciudades envían?"
+          },
+          {
+            "answer": "Sí. Elegí 'retiro en tienda' en el checkout y te esperamos en Herrera 875, Asunción. Lunes a viernes 09:00-20:00, sábados 09:00-18:00.",
+            "category": "Envío",
+            "question": "¿Puedo retirar en la tienda física en vez de esperar envío?"
+          },
+          {
+            "answer": "El moto te avisa por WhatsApp antes de llegar. Si no podés recibirlo, coordinamos una segunda entrega sin costo o retiro en la tienda.",
+            "category": "Envío",
+            "question": "¿Qué hago si nadie está cuando llegue el pedido?"
+          },
+          {
+            "answer": "Por razones de higiene, no aceptamos devoluciones de productos íntimos una vez abiertos. Si el producto llega defectuoso o dañado, lo reemplazamos sin costo. Lencería sin usar con etiquetas puede devolverse en 7 días.",
+            "category": "Garantía",
+            "question": "¿Puedo devolver un producto?"
+          },
+          {
+            "answer": "Los productos electrónicos tienen garantía según el fabricante. Satisfyer: 15 años. LELO: 1 año. We-Vibe: 2 años. Para hacer efectiva la garantía, contactanos por WhatsApp con el número de pedido.",
+            "category": "Garantía",
+            "question": "¿Los productos tienen garantía?"
+          },
+          {
+            "answer": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona médica, ABS libre de ftalatos, o materiales seguros para el cuerpo certificados por los fabricantes.",
+            "category": "Productos",
+            "question": "¿Los productos son seguros?"
+          },
+          {
+            "answer": "Lubricante a base de agua. Los lubricantes a base de silicona reaccionan con los juguetes de silicona y los dañan. Tenemos ambos tipos; al agregar al carrito te sugerimos el compatible.",
+            "category": "Productos",
+            "question": "¿Qué es el lubricante ideal para juguetes de silicona?"
+          },
+          {
+            "answer": "Agua tibia + jabón neutro o limpiador específico para juguetes (disponible en la tienda). Secar al aire. Tenemos una guía completa en el blog: 'Cómo limpiar juguetes sexuales'.",
+            "category": "Productos",
+            "question": "¿Cómo limpio mis juguetes?"
+          },
+          {
+            "answer": "¡Claro! Te esperamos en Herrera 875, Asunción. Lunes a viernes de 09:00 a 20:00 y sábados de 09:00 a 18:00. Asesoría discreta y sin compromiso.",
+            "category": "Tienda física",
+            "question": "¿Puedo visitar la tienda física?"
+          },
+          {
+            "answer": "Sí. Como toda tienda del rubro, verificamos que seas mayor de 18 años al entrar. Aceptamos cédula paraguaya o pasaporte vigente.",
+            "category": "Tienda física",
+            "question": "¿Necesito presentar documento al entrar a la tienda?"
+          }
+        ],
+        "subtitle": "Buscá por palabra clave o filtrá por tema. Si no encontrás lo que buscás, escribinos por WhatsApp.",
+        "title": "Preguntas frecuentes"
+      },
       "faq": {
         "items": [
           {
@@ -20857,6 +20953,26 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaHref": "/s/de/nexa-paraguay/contacto",
         "ctaText": "Alle Testimonials lesen",
         "eyebrow": "Kundenstimmen",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Firma, Bank und Residenz in 9 Wochen. Nexa hat alles end-to-end abgewickelt, während ich in München noch abwickelte. Null Reibung auf meiner Seite.",
+            "rating": 5,
+            "role": "Berater, Deutschland"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "Ich brauchte das Investor-Programm wegen meiner komplexen Steuerstruktur. Jeden Euro wert — sie haben Recht und Buchhaltung im ersten Jahr koordiniert.",
+            "rating": 5,
+            "role": "Investorin, Niederlande"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Habe meinen Ausweis bekommen und war in Paraguay schneller operativ als mit meiner NIE in Spanien. Ehrliche Preise, keine Überraschungen.",
+            "rating": 5,
+            "role": "Freelancer, Spanien"
+          }
+        ],
         "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
         "title": "Was unsere Kunden sagen"
       },
@@ -21761,6 +21877,31 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Vier Programme: Base, Business (USD 4.400+), Investor (USD 6.900+) und Landkauf.",
         "title": "Programme — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Kundenstimmen",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Firma, Bank und Residenz in 9 Wochen. Nexa hat alles end-to-end abgewickelt, während ich in München noch abwickelte. Null Reibung auf meiner Seite.",
+            "rating": 5,
+            "role": "Berater, Deutschland"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "Ich brauchte das Investor-Programm wegen meiner komplexen Steuerstruktur. Jeden Euro wert — sie haben Recht und Buchhaltung im ersten Jahr koordiniert.",
+            "rating": 5,
+            "role": "Investorin, Niederlande"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Habe meinen Ausweis bekommen und war in Paraguay schneller operativ als mit meiner NIE in Spanien. Ehrliche Preise, keine Überraschungen.",
+            "rating": 5,
+            "role": "Freelancer, Spanien"
+          }
+        ],
+        "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
+        "title": "Was unsere Kunden sagen"
       }
     },
     "qualityOfLifePage": {
@@ -22806,6 +22947,26 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaHref": "/s/en/nexa-paraguay/contacto",
         "ctaText": "Read all testimonials",
         "eyebrow": "Testimonials",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Company + bank + residency in 9 weeks. Nexa ran everything end-to-end while I was still winding down in Munich. Zero friction on my end.",
+            "rating": 5,
+            "role": "Consultant, Germany"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "I needed the Investor program because my tax structure was complex. Worth every cent — they coordinated legal and accounting for the first year.",
+            "rating": 5,
+            "role": "Investor, Netherlands"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Got my cédula and was operating in Paraguay faster than I got my NIE in Spain. Honest pricing, no surprises.",
+            "rating": 5,
+            "role": "Freelancer, Spain"
+          }
+        ],
         "subtitle": "Real stories from people who established their operations in Paraguay",
         "title": "What our clients say"
       },
@@ -23710,6 +23871,31 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Four programs: Base, Business (USD 4,400+), Investor (USD 6,900+), Land Purchase.",
         "title": "Programs — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Testimonials",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Company + bank + residency in 9 weeks. Nexa ran everything end-to-end while I was still winding down in Munich. Zero friction on my end.",
+            "rating": 5,
+            "role": "Consultant, Germany"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "I needed the Investor program because my tax structure was complex. Worth every cent — they coordinated legal and accounting for the first year.",
+            "rating": 5,
+            "role": "Investor, Netherlands"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Got my cédula and was operating in Paraguay faster than I got my NIE in Spain. Honest pricing, no surprises.",
+            "rating": 5,
+            "role": "Freelancer, Spain"
+          }
+        ],
+        "subtitle": "Real stories from people who established their operations in Paraguay",
+        "title": "What our clients say"
       }
     },
     "qualityOfLifePage": {
@@ -24740,6 +24926,26 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaHref": "/s/es/nexa-paraguay/contacto",
         "ctaText": "Leer todos los testimonios",
         "eyebrow": "Testimonios",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Empresa + banco + residencia en 9 semanas. Nexa gestionó todo de punta a punta mientras yo terminaba de cerrar en Munich. Cero fricción de mi lado.",
+            "rating": 5,
+            "role": "Consultor, Alemania"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "Necesitaba el Investor program porque mi estructura fiscal era compleja. Valió cada euro — coordinaron lo legal y contable durante el primer año.",
+            "rating": 5,
+            "role": "Inversora, Países Bajos"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Saqué mi cédula y empecé a operar en Paraguay más rápido que mi NIE en España. Precio honesto, sin sorpresas.",
+            "rating": 5,
+            "role": "Freelance, España"
+          }
+        ],
         "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
         "title": "Lo que dicen nuestros clientes"
       },
@@ -25643,6 +25849,31 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cuatro programas para establecerse en Paraguay: Base, Business (USD 4.400+), Investor (USD 6.900+) y Compra de Tierras.",
         "title": "Programas — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Testimonios",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Empresa + banco + residencia en 9 semanas. Nexa gestionó todo de punta a punta mientras yo terminaba de cerrar en Munich. Cero fricción de mi lado.",
+            "rating": 5,
+            "role": "Consultor, Alemania"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "Necesitaba el Investor program porque mi estructura fiscal era compleja. Valió cada euro — coordinaron lo legal y contable durante el primer año.",
+            "rating": 5,
+            "role": "Inversora, Países Bajos"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Saqué mi cédula y empecé a operar en Paraguay más rápido que mi NIE en España. Precio honesto, sin sorpresas.",
+            "rating": 5,
+            "role": "Freelance, España"
+          }
+        ],
+        "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
+        "title": "Lo que dicen nuestros clientes"
       }
     },
     "qualityOfLifePage": {
@@ -26688,6 +26919,26 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaHref": "/s/nl/nexa-paraguay/contacto",
         "ctaText": "Alle getuigenissen lezen",
         "eyebrow": "Getuigenissen",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Bedrijf + bank + verblijfsvergunning in 9 weken. Nexa regelde alles end-to-end terwijl ik München nog afwikkelde. Nul wrijving aan mijn kant.",
+            "rating": 5,
+            "role": "Consultant, Duitsland"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "Ik had het Investor-programma nodig omdat mijn fiscale structuur complex was. Elke euro waard — ze coördineerden juridisch en boekhoudkundig het eerste jaar.",
+            "rating": 5,
+            "role": "Investeerder, Nederland"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Mijn ID kreeg ik en was operationeel in Paraguay sneller dan mijn NIE in Spanje. Eerlijke prijzen, geen verrassingen.",
+            "rating": 5,
+            "role": "Freelancer, Spanje"
+          }
+        ],
         "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
         "title": "Wat onze klanten zeggen"
       },
@@ -27592,6 +27843,31 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Vier programma's om u in Paraguay te vestigen: Base, Business (USD 4.400+), Investor (USD 6.900+) en Grondaankoop.",
         "title": "Programma's — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Getuigenissen",
+        "items": [
+          {
+            "author": "Marco W.",
+            "quote": "Bedrijf + bank + verblijfsvergunning in 9 weken. Nexa regelde alles end-to-end terwijl ik München nog afwikkelde. Nul wrijving aan mijn kant.",
+            "rating": 5,
+            "role": "Consultant, Duitsland"
+          },
+          {
+            "author": "Laura v.d. M.",
+            "quote": "Ik had het Investor-programma nodig omdat mijn fiscale structuur complex was. Elke euro waard — ze coördineerden juridisch en boekhoudkundig het eerste jaar.",
+            "rating": 5,
+            "role": "Investeerder, Nederland"
+          },
+          {
+            "author": "Carlos G.",
+            "quote": "Mijn ID kreeg ik en was operationeel in Paraguay sneller dan mijn NIE in Spanje. Eerlijke prijzen, geen verrassingen.",
+            "rating": 5,
+            "role": "Freelancer, Spanje"
+          }
+        ],
+        "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
+        "title": "Wat onze klanten zeggen"
       }
     },
     "qualityOfLifePage": {

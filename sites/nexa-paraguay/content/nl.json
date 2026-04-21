@@ -193,7 +193,27 @@
       "title": "Wat onze klanten zeggen",
       "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
       "ctaText": "Alle getuigenissen lezen",
-      "ctaHref": "/s/nl/nexa-paraguay/contacto"
+      "ctaHref": "/s/nl/nexa-paraguay/contacto",
+      "items": [
+        {
+          "quote": "Bedrijf + bank + verblijfsvergunning in 9 weken. Nexa regelde alles end-to-end terwijl ik München nog afwikkelde. Nul wrijving aan mijn kant.",
+          "author": "Marco W.",
+          "role": "Consultant, Duitsland",
+          "rating": 5
+        },
+        {
+          "quote": "Ik had het Investor-programma nodig omdat mijn fiscale structuur complex was. Elke euro waard — ze coördineerden juridisch en boekhoudkundig het eerste jaar.",
+          "author": "Laura v.d. M.",
+          "role": "Investeerder, Nederland",
+          "rating": 5
+        },
+        {
+          "quote": "Mijn ID kreeg ik en was operationeel in Paraguay sneller dan mijn NIE in Spanje. Eerlijke prijzen, geen verrassingen.",
+          "author": "Carlos G.",
+          "role": "Freelancer, Spanje",
+          "rating": 5
+        }
+      ]
     },
     "whyCountry": {
       "eyebrow": "Waarom Paraguay",
@@ -437,6 +457,31 @@
       "subtitle": "Plan een gratis consult van 30 minuten.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    },
+    "testimonials": {
+      "eyebrow": "Getuigenissen",
+      "title": "Wat onze klanten zeggen",
+      "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
+      "items": [
+        {
+          "quote": "Bedrijf + bank + verblijfsvergunning in 9 weken. Nexa regelde alles end-to-end terwijl ik München nog afwikkelde. Nul wrijving aan mijn kant.",
+          "author": "Marco W.",
+          "role": "Consultant, Duitsland",
+          "rating": 5
+        },
+        {
+          "quote": "Ik had het Investor-programma nodig omdat mijn fiscale structuur complex was. Elke euro waard — ze coördineerden juridisch en boekhoudkundig het eerste jaar.",
+          "author": "Laura v.d. M.",
+          "role": "Investeerder, Nederland",
+          "rating": 5
+        },
+        {
+          "quote": "Mijn ID kreeg ik en was operationeel in Paraguay sneller dan mijn NIE in Spanje. Eerlijke prijzen, geen verrassingen.",
+          "author": "Carlos G.",
+          "role": "Freelancer, Spanje",
+          "rating": 5
+        }
+      ]
     }
   },
   "whyCountryPage": {

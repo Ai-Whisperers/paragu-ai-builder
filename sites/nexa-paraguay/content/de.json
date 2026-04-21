@@ -196,7 +196,27 @@
       "title": "Was unsere Kunden sagen",
       "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
       "ctaText": "Alle Testimonials lesen",
-      "ctaHref": "/s/de/nexa-paraguay/contacto"
+      "ctaHref": "/s/de/nexa-paraguay/contacto",
+      "items": [
+        {
+          "quote": "Firma, Bank und Residenz in 9 Wochen. Nexa hat alles end-to-end abgewickelt, während ich in München noch abwickelte. Null Reibung auf meiner Seite.",
+          "author": "Marco W.",
+          "role": "Berater, Deutschland",
+          "rating": 5
+        },
+        {
+          "quote": "Ich brauchte das Investor-Programm wegen meiner komplexen Steuerstruktur. Jeden Euro wert — sie haben Recht und Buchhaltung im ersten Jahr koordiniert.",
+          "author": "Laura v.d. M.",
+          "role": "Investorin, Niederlande",
+          "rating": 5
+        },
+        {
+          "quote": "Habe meinen Ausweis bekommen und war in Paraguay schneller operativ als mit meiner NIE in Spanien. Ehrliche Preise, keine Überraschungen.",
+          "author": "Carlos G.",
+          "role": "Freelancer, Spanien",
+          "rating": 5
+        }
+      ]
     },
     "whyCountry": {
       "eyebrow": "Warum Paraguay",
@@ -440,6 +460,31 @@
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    },
+    "testimonials": {
+      "eyebrow": "Kundenstimmen",
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
+      "items": [
+        {
+          "quote": "Firma, Bank und Residenz in 9 Wochen. Nexa hat alles end-to-end abgewickelt, während ich in München noch abwickelte. Null Reibung auf meiner Seite.",
+          "author": "Marco W.",
+          "role": "Berater, Deutschland",
+          "rating": 5
+        },
+        {
+          "quote": "Ich brauchte das Investor-Programm wegen meiner komplexen Steuerstruktur. Jeden Euro wert — sie haben Recht und Buchhaltung im ersten Jahr koordiniert.",
+          "author": "Laura v.d. M.",
+          "role": "Investorin, Niederlande",
+          "rating": 5
+        },
+        {
+          "quote": "Habe meinen Ausweis bekommen und war in Paraguay schneller operativ als mit meiner NIE in Spanien. Ehrliche Preise, keine Überraschungen.",
+          "author": "Carlos G.",
+          "role": "Freelancer, Spanien",
+          "rating": 5
+        }
+      ]
     }
   },
   "whyCountryPage": {

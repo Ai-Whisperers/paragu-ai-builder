@@ -193,7 +193,27 @@
       "title": "What our clients say",
       "subtitle": "Real stories from people who established their operations in Paraguay",
       "ctaText": "Read all testimonials",
-      "ctaHref": "/s/en/nexa-paraguay/contacto"
+      "ctaHref": "/s/en/nexa-paraguay/contacto",
+      "items": [
+        {
+          "quote": "Company + bank + residency in 9 weeks. Nexa ran everything end-to-end while I was still winding down in Munich. Zero friction on my end.",
+          "author": "Marco W.",
+          "role": "Consultant, Germany",
+          "rating": 5
+        },
+        {
+          "quote": "I needed the Investor program because my tax structure was complex. Worth every cent — they coordinated legal and accounting for the first year.",
+          "author": "Laura v.d. M.",
+          "role": "Investor, Netherlands",
+          "rating": 5
+        },
+        {
+          "quote": "Got my cédula and was operating in Paraguay faster than I got my NIE in Spain. Honest pricing, no surprises.",
+          "author": "Carlos G.",
+          "role": "Freelancer, Spain",
+          "rating": 5
+        }
+      ]
     },
     "whyCountry": {
       "eyebrow": "Why Paraguay",
@@ -437,6 +457,31 @@
       "subtitle": "Book a free 30-minute consultation.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What our clients say",
+      "subtitle": "Real stories from people who established their operations in Paraguay",
+      "items": [
+        {
+          "quote": "Company + bank + residency in 9 weeks. Nexa ran everything end-to-end while I was still winding down in Munich. Zero friction on my end.",
+          "author": "Marco W.",
+          "role": "Consultant, Germany",
+          "rating": 5
+        },
+        {
+          "quote": "I needed the Investor program because my tax structure was complex. Worth every cent — they coordinated legal and accounting for the first year.",
+          "author": "Laura v.d. M.",
+          "role": "Investor, Netherlands",
+          "rating": 5
+        },
+        {
+          "quote": "Got my cédula and was operating in Paraguay faster than I got my NIE in Spain. Honest pricing, no surprises.",
+          "author": "Carlos G.",
+          "role": "Freelancer, Spain",
+          "rating": 5
+        }
+      ]
     }
   },
   "whyCountryPage": {
