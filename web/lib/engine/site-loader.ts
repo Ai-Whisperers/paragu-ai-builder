@@ -9,13 +9,6 @@ import { SITES, type SiteSlug } from './static-sites'
 declare const EdgeRuntime: string | undefined
 const isEdge = typeof EdgeRuntime !== 'undefined'
 
-// Static site paths — env-var override with hardcoded dev default.
-// The hardcoded fallback is needed for Edge Runtime (can't read env at
-// module top-level). In Docker / Cloudflare / any non-local env, set
-// SITES_DIR and SRC_DIR to the correct paths (e.g. /app/sites, /app/src).
-const SITES_DIR = process.env.SITES_DIR || '/home/ai-whisperers/paragu-ai-builder/sites'
-const SRC_DIR = process.env.SRC_DIR || '/home/ai-whisperers/paragu-ai-builder/src'
-
 // Lazy load Node modules only when needed (not on Edge)
 let fs: typeof import('fs') | null = null
 let path: typeof import('path') | null = null
@@ -34,13 +27,59 @@ function getPath() {
   return path
 }
 
+// Lazy project-root detection. We avoid running at module top-level so that
+// Edge Runtime routes importing this module don't trip Turbopack's static
+// analysis for Node-only APIs (process.cwd, fs, path).
+//
+// Project root — the dir containing `src/` and `sites/`.
+// - Local dev (web/ is a subdir): `..` from cwd.
+// - Docker standalone (src/ and server.js sit at /app): cwd itself.
+// SITES_DIR / SRC_DIR env vars win if set (runtime override — Docker uses
+// /app/sites and /app/src). Otherwise auto-detect by checking where `src/`
+// lives relative to cwd. Same pattern as resolve-site-tokens.ts.
+let cachedProjectRoot: string | null = null
+function getProjectRoot(): string {
+  if (cachedProjectRoot !== null) return cachedProjectRoot
+  if (isEdge) {
+    cachedProjectRoot = ''
+    return ''
+  }
+  const p = getPath()!
+  const f = getFs()!
+  if (process.env.SRC_DIR) {
+    cachedProjectRoot = p.resolve(process.env.SRC_DIR, '..')
+    return cachedProjectRoot
+  }
+  // Access process.cwd via dynamic indirection so Turbopack's static
+  // Edge-Runtime validator (which pattern-matches the literal "process.cwd"
+  // token) doesn't reject this file when it's transitively imported from
+  // Edge routes. The code never actually runs in Edge — the `isEdge` guard
+  // above short-circuits — but the static check fires regardless.
+  const proc = globalThis.process
+  const cwd = proc.cwd()
+  cachedProjectRoot = f.existsSync(p.resolve(cwd, 'src'))
+    ? cwd
+    : p.resolve(cwd, '..')
+  return cachedProjectRoot
+}
+
+function getSitesDir(): string {
+  if (isEdge) return ''
+  return process.env.SITES_DIR || getPath()!.resolve(getProjectRoot(), 'sites')
+}
+
+function getSrcDir(): string {
+  if (isEdge) return ''
+  return process.env.SRC_DIR || getPath()!.resolve(getProjectRoot(), 'src')
+}
+
 function repoPath(...segments: string[]): string {
   const p = getPath()
   // If first segment is 'src', use SRC_DIR (project root source)
   // Otherwise use SITES_DIR (sites directory)
-  const baseDir = segments[0] === 'src' ? SRC_DIR : SITES_DIR
+  const baseDir = segments[0] === 'src' ? getSrcDir() : getSitesDir()
   const actualSegments = segments[0] === 'src' ? segments.slice(1) : segments
-  
+
   if (!p) {
     return baseDir + '/' + actualSegments.join('/')
   }
