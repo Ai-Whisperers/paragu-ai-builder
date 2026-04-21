@@ -60,6 +60,21 @@
 > `https://paragu-ai.com/googleb5b0b1b9be89eed8.html` resolves and Google
 > verifies.
 
+### Logging
+
+| Var | Values | Default | Notes |
+|---|---|---|---|
+| `LOG_LEVEL` | `debug` \| `info` \| `warn` \| `error` | `info` in prod, `debug` elsewhere | Read by `web/lib/obs/logger.ts:106`. Lower-cased before lookup. Anything unknown falls back to the default. |
+| `LOG_FORMAT` | `json` \| `pretty` | `json` in prod, `pretty` elsewhere | Read by `web/lib/obs/logger.ts:111`. `pretty` is colored single-line for terminals; `json` is one structured object per line for log aggregators (Axiom, Datadog, Loki). |
+
+Set both to `debug` + `pretty` on your laptop for readable local development.
+Leave both unset on the VPS — the production default is `info` + `json` which is what
+Cloudflare/Axiom expects.
+
+If you change `LOG_FORMAT=pretty` on the VPS for one-off debugging, remember
+that `docker service logs` will keep showing colorized output until you set
+it back. The diagnostics route at `/api/diagnostics` reflects current values.
+
 ### Mailchimp (deferred per Q8.2)
 
 Skip until the newsletter flow becomes a priority. When you wire it:
