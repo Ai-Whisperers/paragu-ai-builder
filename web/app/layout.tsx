@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { HOME_FAQS, HOME_PLANS_SCHEMA, HOME_REVIEWS } from '@/lib/landing/home-data'
 import { WebVitalsReporter } from '@/components/analytics/web-vitals-reporter'
+import { SkipToContent } from '@/components/ui/skip-to-content'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://paragu-ai.com'),
@@ -120,6 +121,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased">
+        <SkipToContent />
         <WebVitalsReporter />
         {children}
       </body>

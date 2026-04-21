@@ -115,7 +115,7 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
       />
       <SiteNav />
 
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24">
           <div

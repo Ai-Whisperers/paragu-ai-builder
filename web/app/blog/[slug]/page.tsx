@@ -59,7 +59,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
   return (
     <>
       <SiteNav />
-      <main className="pt-24 pb-20">
+      <main id="main-content" className="pt-24 pb-20">
         <Container size="md">
           <article className="mx-auto max-w-3xl">
             <Link
