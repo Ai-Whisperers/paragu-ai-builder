@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 69 | see closure log below |
+| ✅ Closed | 70 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 431 | the rest |
+| 🔴 Open | 430 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -95,6 +95,9 @@ Closure log:
   fixed the 1 missing (`testimonials-section.tsx`). Cloudflare Polish handles
   WebP negotiation. next/image migration deferred (needs dimension schema).
   Full audit in `docs/IMAGE_OPTIMIZATION_AUDIT.md`.
+- **#482** — per-route Cache-Control headers in `next.config.mjs`:
+  admin/auth/login → `no-store`; sitemap/robots → 1d browser, 1w CDN;
+  OG images + favicon → 1d browser, 1w CDN, 30d SWR.
 
 ## Blocked on user input
 
