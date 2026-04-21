@@ -50,17 +50,21 @@ APP_URL="https://paragu-ai.com"
 # shellcheck disable=SC1090
 set -a; source "$SECRETS"; set +a
 
+# Note: full docker build output is logged. Previously we piped through
+# `| tail -5` which hid every actual TS/build error behind Docker's stage
+# summary. If your CI job's log becomes huge, add log rotation instead —
+# don't drop signal.
 docker build -f web/Dockerfile \
   --build-arg NEXT_PUBLIC_SUPABASE_URL="$NEXT_PUBLIC_SUPABASE_URL" \
   --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY="$NEXT_PUBLIC_SUPABASE_ANON_KEY" \
   --build-arg SUPABASE_SERVICE_ROLE_KEY="$SUPABASE_SERVICE_ROLE_KEY" \
   --build-arg NEXT_PUBLIC_APP_URL="$APP_URL" \
-  -t "$TAG" . 2>&1 | tail -5
+  -t "$TAG" .
 
 SERVICE="paragu-ai_web"
 [ "$ENV" = "staging" ] && SERVICE="paragu-ai-staging_web"
 
 # --force triggers a new task even when tag is reused (build digest differs)
-docker service update --with-registry-auth --force --image "$TAG" "$SERVICE" 2>&1 | tail -5
+docker service update --with-registry-auth --force --image "$TAG" "$SERVICE"
 
 echo "[deploy] done. service=$SERVICE tag=$TAG"
