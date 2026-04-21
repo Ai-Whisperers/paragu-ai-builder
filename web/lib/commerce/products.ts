@@ -50,16 +50,44 @@ function rowToProduct(row: ProductRow): Product {
   }
 }
 
+export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc'
+
+export interface ListActiveProductsOpts {
+  category?: string
+  limit?: number
+  offset?: number
+  /** Free-text name search (ilike). Empty string is treated as no filter. */
+  search?: string
+  /** Sort order. Defaults to 'newest'. */
+  sort?: ProductSort
+}
+
+const SORT_FIELDS: Record<ProductSort, { column: string; ascending: boolean }> = {
+  newest: { column: 'created_at', ascending: false },
+  'price-asc': { column: 'price_cents', ascending: true },
+  'price-desc': { column: 'price_cents', ascending: false },
+  'name-asc': { column: 'name', ascending: true },
+}
+
 export async function listActiveProducts(
   businessId: string,
-  opts: { category?: string; limit?: number; offset?: number } = {},
+  opts: ListActiveProductsOpts = {},
 ): Promise<Product[]> {
   const supabase = await createAdminClient()
   const scoped = scopedQueries(supabase, businessId)
+  const sortKey = opts.sort && SORT_FIELDS[opts.sort] ? opts.sort : 'newest'
+  const sort = SORT_FIELDS[sortKey]
   const { data } = await scoped.select<ProductRow>('products', '*', {
     filter: (q) => {
-      let query = q.eq('status', 'active').order('created_at', { ascending: false })
+      let query = q.eq('status', 'active').order(sort.column, { ascending: sort.ascending })
       if (opts.category) query = query.eq('category', opts.category)
+      if (opts.search && opts.search.trim()) {
+        // ilike with leading/trailing wildcards = case-insensitive substring
+        // match. Cheap enough at the catalog sizes we expect; replace with
+        // a tsvector + GIN index when a tenant grows past ~5k products.
+        const pattern = `%${opts.search.trim().replace(/[\\%_]/g, (ch) => `\\${ch}`)}%`
+        query = query.ilike('name', pattern)
+      }
       if (opts.limit) query = query.limit(opts.limit)
       if (opts.offset) query = query.range(opts.offset, (opts.offset ?? 0) + (opts.limit ?? 50) - 1)
       return query
