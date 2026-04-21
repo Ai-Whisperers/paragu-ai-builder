@@ -10055,12 +10055,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whyCountryPage.pillars",
         "id": "why-destination",
-        "variant": "alternating"
-      },
-      {
-        "content": "whyCountryPage.trust",
-        "id": "trust-signals",
-        "variant": "credentials"
+        "variant": "three-col"
       },
       {
         "content": "whyCountryPage.cta",
@@ -17802,48 +17797,56 @@ export const CONTENT: Record<string, JsonRecord> = {
         "items": [
           {
             "description": "Desde clasicos hasta tecnologia de punta",
+            "href": "/fun4me/tienda/categoria/vibradores",
             "icon": "sparkles",
             "id": "vibradores",
             "name": "Vibradores"
           },
           {
             "description": "Realistas, fantasy y de todas las formas",
+            "href": "/fun4me/tienda/categoria/dildos",
             "icon": "adjustments-vertical",
             "id": "dildos",
             "name": "Dildos"
           },
           {
             "description": "Explora nuevos territorios de placer",
+            "href": "/fun4me/tienda/categoria/anal",
             "icon": "arrow-uturn-down",
             "id": "anal",
             "name": "Juguetes Anales"
           },
           {
             "description": "Juguetes disenados para compartir",
+            "href": "/fun4me/tienda/categoria/parejas",
             "icon": "heart",
             "id": "parejas",
             "name": "Para Parejas"
           },
           {
             "description": "Equipamiento para juegos de poder",
+            "href": "/fun4me/tienda/categoria/bdsm",
             "icon": "link",
             "id": "bdsm",
             "name": "BDSM & Fetish"
           },
           {
             "description": "Piezas sensuales y provocativas",
+            "href": "/fun4me/tienda/categoria/lenceria",
             "icon": "gift",
             "id": "lenceria",
             "name": "Lenceria"
           },
           {
             "description": "Mejora cada experiencia",
+            "href": "/fun4me/tienda/categoria/lubricantes",
             "icon": "beaker",
             "id": "lubricantes",
             "name": "Lubricantes"
           },
           {
             "description": "Cuidado y salud sexual",
+            "href": "/fun4me/tienda/categoria/bienestar",
             "icon": "shield-check",
             "id": "bienestar",
             "name": "Bienestar Intimo"
