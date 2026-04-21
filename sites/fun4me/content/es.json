@@ -294,8 +294,11 @@
       "description": "Kits armados para ahorrar. Primera vez, parejas, aniversario, BDSM, solitario. Cada kit ahorra vs comprar por separado."
     },
     "hero": {
+      "badgeText": "Kits",
       "headline": "Kits Curados",
-      "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado."
+      "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado.",
+      "ctaPrimaryText": "Ver Kits",
+      "ctaPrimaryHref": "/fun4me/store"
     },
     "items": {
       "title": "Nuestros Kits",
@@ -310,11 +313,11 @@
     },
     "benefits": {
       "title": "Por que elegir un kit",
-      "items": [
-        { "icon": "savings", "title": "Ahorras plata", "text": "Descuento de 10-15% vs comprar por separado." },
-        { "icon": "check", "title": "Combinaciones pensadas", "text": "Productos que funcionan juntos, elegidos por nuestro equipo." },
-        { "icon": "book", "title": "Guias incluidas", "text": "PDFs con instrucciones de uso, seguridad y recomendaciones." },
-        { "icon": "gift", "title": "Listos para regalar", "text": "Envoltorio discreto disponible. Tarjeta regalo opcional." }
+      "features": [
+        { "icon": "savings", "title": "Ahorras plata", "description": "Descuento de 10-15% vs comprar por separado." },
+        { "icon": "check", "title": "Combinaciones pensadas", "description": "Productos que funcionan juntos, elegidos por nuestro equipo." },
+        { "icon": "book", "title": "Guias incluidas", "description": "PDFs con instrucciones de uso, seguridad y recomendaciones." },
+        { "icon": "gift", "title": "Listos para regalar", "description": "Envoltorio discreto disponible. Tarjeta regalo opcional." }
       ]
     }
   },
