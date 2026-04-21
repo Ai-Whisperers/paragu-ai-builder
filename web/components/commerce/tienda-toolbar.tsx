@@ -3,6 +3,7 @@
 import { useState, useTransition } from 'react'
 import { useRouter, useSearchParams, usePathname } from 'next/navigation'
 import type { ProductSort } from '@/lib/commerce/products'
+import { cn } from '@/lib/utils'
 
 interface Props {
   initialQuery: string
@@ -18,7 +19,11 @@ interface Props {
   initialMaxPrice: number
   initialInStockOnly: boolean
   initialOnSaleOnly: boolean
+  /** Current page size. Defaults to 12. */
+  initialPerPage: number
 }
+
+const PER_PAGE_OPTIONS = [12, 24, 48, 96]
 
 const SORT_OPTIONS: Array<{ value: ProductSort; label: string }> = [
   { value: 'newest', label: 'Más nuevos' },
@@ -36,6 +41,7 @@ type FilterUpdate = {
   in_stock?: string | null
   on_sale?: string | null
   page?: string | null
+  per_page?: string | null
 }
 
 function formatPyg(cents: number): string {
@@ -58,6 +64,7 @@ export function TiendaToolbar({
   initialMaxPrice,
   initialInStockOnly,
   initialOnSaleOnly,
+  initialPerPage,
 }: Props) {
   const router = useRouter()
   const pathname = usePathname()
@@ -66,6 +73,7 @@ export function TiendaToolbar({
   const [minPrice, setMinPrice] = useState(initialMinPrice ? String(initialMinPrice) : '')
   const [maxPrice, setMaxPrice] = useState(initialMaxPrice ? String(initialMaxPrice) : '')
   const [pending, startTransition] = useTransition()
+  const [advancedOpen, setAdvancedOpen] = useState(false)
 
   function pushParams(next: FilterUpdate) {
     const params = new URLSearchParams(searchParams.toString())
@@ -174,22 +182,60 @@ export function TiendaToolbar({
           </button>
         </form>
 
-        <label className="flex items-center gap-2 text-sm">
-          <span className="text-xs text-[color:var(--text-muted,#6b7280)]">Ordenar:</span>
-          <select
-            value={initialSort}
-            onChange={(e) => pushParams({ sort: e.target.value === 'newest' ? null : e.target.value })}
-            className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm"
-          >
-            {SORT_OPTIONS.map((opt) => (
-              <option key={opt.value} value={opt.value}>
-                {opt.label}
-              </option>
-            ))}
-          </select>
-        </label>
+        <div className="flex flex-wrap items-center gap-3 text-sm">
+          <label className="flex items-center gap-2">
+            <span className="text-xs text-[color:var(--text-muted,#6b7280)]">Ordenar:</span>
+            <select
+              value={initialSort}
+              onChange={(e) => pushParams({ sort: e.target.value === 'newest' ? null : e.target.value })}
+              className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm"
+            >
+              {SORT_OPTIONS.map((opt) => (
+                <option key={opt.value} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="flex items-center gap-2">
+            <span className="text-xs text-[color:var(--text-muted,#6b7280)]">Por página:</span>
+            <select
+              value={initialPerPage}
+              onChange={(e) => pushParams({ per_page: e.target.value === '12' ? null : e.target.value })}
+              className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm"
+            >
+              {PER_PAGE_OPTIONS.map((n) => (
+                <option key={n} value={n}>
+                  {n}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
       </div>
 
+      {/* Mobile-only toggle for advanced filters. Hidden md+ where the
+          filters always show inline. */}
+      <button
+        type="button"
+        onClick={() => setAdvancedOpen((v) => !v)}
+        aria-expanded={advancedOpen}
+        className="flex items-center justify-between rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm md:hidden"
+      >
+        <span className="flex items-center gap-2">
+          <svg aria-hidden="true" className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 4h18M6 12h12M10 20h4" />
+          </svg>
+          Filtros
+          {(initialCategory || initialMinPrice || initialMaxPrice || initialInStockOnly || initialOnSaleOnly) ? (
+            <span className="rounded-full bg-[color:var(--secondary,#b8860b)] px-1.5 py-0.5 text-[10px] font-semibold text-white">•</span>
+          ) : null}
+        </span>
+        <span aria-hidden="true">{advancedOpen ? '▲' : '▼'}</span>
+      </button>
+
+      {/* Advanced filters: always visible on md+, collapsible on mobile. */}
+      <div className={cn('flex flex-col gap-3', advancedOpen ? 'block' : 'hidden', 'md:flex')}>
       {/* Category pills */}
       {availableCategories.length > 0 ? (
         <div className="flex flex-wrap gap-2">
@@ -275,6 +321,7 @@ export function TiendaToolbar({
             <span>En oferta</span>
           </label>
         </div>
+      </div>
       </div>
 
       {/* Active filter chips + result count + clear-all */}

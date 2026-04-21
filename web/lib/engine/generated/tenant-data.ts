@@ -18538,7 +18538,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
-          "href": "/fun4me/store",
+          "href": "/fun4me/tienda",
           "label": "Tienda"
         },
         {
