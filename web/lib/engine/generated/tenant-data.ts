@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=147, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=148, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9899,6 +9899,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "blog",
     "titleKey": "blog.index.seo.title"
+  },
+  "nexa-paraguay:comparacion": {
+    "descriptionKey": "comparisonPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "comparisonPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "comparisonPage.matrix",
+        "id": "programs-comparison",
+        "variant": "matrix"
+      },
+      {
+        "content": "comparisonPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "comparacion",
+    "titleKey": "comparisonPage.seo.title"
   },
   "nexa-paraguay:contacto": {
     "descriptionKey": "contactPage.seo.description",
@@ -20139,6 +20176,199 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "comparisonPage": {
+      "cta": {
+        "buttonHref": "/s/de/nexa-paraguay/contacto",
+        "buttonText": "Kostenlose Beratung buchen",
+        "subtitle": "Wir helfen Ihnen — auch wenn die Antwort nicht Nexa ist.",
+        "title": "Unsicher, welche Option passt?"
+      },
+      "hero": {
+        "headline": "Nexa, DIY oder ein Gestor?",
+        "subheadline": "Ehrlicher Vergleich der realen Optionen zur Etablierung Ihrer Operation in Paraguay."
+      },
+      "matrix": {
+        "comparisonRows": [
+          {
+            "feature": "Dauerhafter Aufenthalt + paraguayische ID",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Gesellschaftsgründung (SA/SRL) + RUC",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Bankkonto-Eröffnung (Koordination)",
+            "values": [
+              true,
+              false,
+              true,
+              "Hängt ab"
+            ]
+          },
+          {
+            "feature": "Dokumenten-Vorvalidierung vor der Reise",
+            "values": [
+              true,
+              false,
+              "Teilweise",
+              false
+            ]
+          },
+          {
+            "feature": "Operativer Tag",
+            "values": [
+              true,
+              false,
+              "Teilweise",
+              false
+            ]
+          },
+          {
+            "feature": "Koordiniertes multidisziplinäres Team",
+            "values": [
+              true,
+              "Sie koordinieren",
+              true,
+              false
+            ]
+          },
+          {
+            "feature": "Kommunikation auf Englisch / Niederländisch / Deutsch",
+            "values": [
+              true,
+              "Je Professional",
+              "Englisch",
+              false
+            ]
+          },
+          {
+            "feature": "Garantierte Antwortzeit (SLA 24h)",
+            "values": [
+              true,
+              false,
+              "Nicht veröffentlicht",
+              false
+            ]
+          },
+          {
+            "feature": "Buchhaltung + Steuerberatung 12 Monate",
+            "values": [
+              "Investor-Tier",
+              false,
+              "Upsell",
+              false
+            ]
+          },
+          {
+            "feature": "Investitionsanalyse + Landkauf",
+            "values": [
+              true,
+              false,
+              "Höhere Tier",
+              false
+            ]
+          },
+          {
+            "feature": "Transparente All-in-Preise",
+            "values": [
+              true,
+              "Nie",
+              "Teilweise",
+              false
+            ]
+          },
+          {
+            "feature": "Paraguayische Entität + RUC im Footer",
+            "values": [
+              "Beim Start",
+              "N/A",
+              true,
+              "Hängt ab"
+            ]
+          },
+          {
+            "feature": "Dokumentierter Prozess (SOPs + Checkliste)",
+            "values": [
+              true,
+              false,
+              "Teilweise",
+              false
+            ]
+          },
+          {
+            "feature": "Zeit bis zum Aufenthalt",
+            "values": [
+              "8–12 Wochen",
+              "12–20 Wochen",
+              "10–14 Wochen",
+              "Variabel"
+            ]
+          }
+        ],
+        "eyebrow": "Vergleich",
+        "subtitle": "Daten basierend auf echter Erfahrung, kein Marketing.",
+        "tiers": [
+          {
+            "badge": "Empfohlen",
+            "ctaHref": "/s/de/nexa-paraguay/contacto",
+            "ctaLabel": "Kostenlose Beratung buchen",
+            "description": "Lokales Team in Asunción + Commercial in Europa",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [],
+            "name": "Nexa Paraguay",
+            "price": "USD 4.400+",
+            "priceNote": "Integriertes Paket mit Ausführungsgarantien"
+          },
+          {
+            "ctaHref": "/s/de/nexa-paraguay/proceso",
+            "ctaLabel": "Prozess ansehen",
+            "description": "Sie beauftragen Anwalt + Steuerberater + Notar direkt",
+            "id": "diy",
+            "included": [],
+            "name": "Selbst (DIY)",
+            "price": "USD 1.500–3.000",
+            "priceNote": "Abhängig von Verhandlung"
+          },
+          {
+            "ctaHref": "https://paraguaypathways.com",
+            "ctaLabel": "Seite besuchen",
+            "description": "Dominante Firma, US/Kanadische ICP, Immobilien-Fokus",
+            "id": "pathways",
+            "included": [],
+            "name": "Paraguay Pathways",
+            "price": "USD 5.000+",
+            "priceNote": "Öffentliche Referenzpreise Stand April 2026"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Lokaler Papierabwickler ohne europäische Präsenz",
+            "id": "gestor",
+            "included": [],
+            "name": "Typischer paraguayischer Gestor",
+            "price": "USD 800–2.500",
+            "priceNote": "Günstig, aber kein SLA"
+          }
+        ],
+        "title": "Was Sie bei jeder Option bekommen"
+      },
+      "seo": {
+        "description": "Wie Nexa im Vergleich zu DIY, Paraguay Pathways oder einem typischen paraguayischen Gestor abschneidet.",
+        "title": "Vergleich: Nexa vs. Alternativen"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -20518,6 +20748,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/programas",
           "label": "Programme"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/comparacion",
+          "label": "Vergleich"
         },
         {
           "href": "/s/de/nexa-paraguay/por-que-paraguay",
@@ -21131,6 +21365,199 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "comparisonPage": {
+      "cta": {
+        "buttonHref": "/s/en/nexa-paraguay/contacto",
+        "buttonText": "Book free consultation",
+        "subtitle": "We'll help you decide — even if the answer isn't Nexa.",
+        "title": "Not sure which option fits?"
+      },
+      "hero": {
+        "headline": "Nexa, DIY, or a gestor?",
+        "subheadline": "Honest comparison of the real options to establish your operation in Paraguay."
+      },
+      "matrix": {
+        "comparisonRows": [
+          {
+            "feature": "Permanent residency + Paraguayan ID card",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Company formation (SA/SRL) + tax registration (RUC)",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Bank account opening (bank coordination)",
+            "values": [
+              true,
+              false,
+              true,
+              "Depends"
+            ]
+          },
+          {
+            "feature": "Document pre-validation before travel",
+            "values": [
+              true,
+              false,
+              "Partial",
+              false
+            ]
+          },
+          {
+            "feature": "One-day operational visit",
+            "values": [
+              true,
+              false,
+              "Partial",
+              false
+            ]
+          },
+          {
+            "feature": "Coordinated multidisciplinary team",
+            "values": [
+              true,
+              "You coordinate",
+              true,
+              false
+            ]
+          },
+          {
+            "feature": "Communication in English / Dutch / German",
+            "values": [
+              true,
+              "Depends on each pro",
+              "English",
+              false
+            ]
+          },
+          {
+            "feature": "Guaranteed response time (SLA 24h business)",
+            "values": [
+              true,
+              false,
+              "Not published",
+              false
+            ]
+          },
+          {
+            "feature": "12-month accounting + tax advisory",
+            "values": [
+              "Investor tier",
+              false,
+              "Upsell",
+              false
+            ]
+          },
+          {
+            "feature": "Investment analysis + land purchase",
+            "values": [
+              true,
+              false,
+              "Higher tier",
+              false
+            ]
+          },
+          {
+            "feature": "Transparent all-in pricing published",
+            "values": [
+              true,
+              "Never",
+              "Partial",
+              false
+            ]
+          },
+          {
+            "feature": "Paraguayan entity + RUC in footer",
+            "values": [
+              "At launch",
+              "N/A",
+              true,
+              "Depends"
+            ]
+          },
+          {
+            "feature": "Documented process (SOPs + checklist)",
+            "values": [
+              true,
+              false,
+              "Partial",
+              false
+            ]
+          },
+          {
+            "feature": "Time to residency",
+            "values": [
+              "8–12 weeks",
+              "12–20 weeks",
+              "10–14 weeks",
+              "Variable"
+            ]
+          }
+        ],
+        "eyebrow": "Comparison",
+        "subtitle": "Data based on real experience, not marketing. If our comparison seems unfair, write us.",
+        "tiers": [
+          {
+            "badge": "Recommended",
+            "ctaHref": "/s/en/nexa-paraguay/contacto",
+            "ctaLabel": "Book free consultation",
+            "description": "Local team in Asunción + commercial in Europe",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [],
+            "name": "Nexa Paraguay",
+            "price": "USD 4,400+",
+            "priceNote": "Integrated package with execution guarantees"
+          },
+          {
+            "ctaHref": "/s/en/nexa-paraguay/proceso",
+            "ctaLabel": "See process",
+            "description": "You hire lawyer + accountant + notary directly",
+            "id": "diy",
+            "included": [],
+            "name": "Solo (DIY)",
+            "price": "USD 1,500–3,000",
+            "priceNote": "Depends on how well you negotiate each fee"
+          },
+          {
+            "ctaHref": "https://paraguaypathways.com",
+            "ctaLabel": "Visit site",
+            "description": "Dominant firm, US/Canadian ICP, real-estate focused",
+            "id": "pathways",
+            "included": [],
+            "name": "Paraguay Pathways",
+            "price": "USD 5,000+",
+            "priceNote": "Public reference pricing as of April 2026"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Local paperwork handler, no European presence",
+            "id": "gestor",
+            "included": [],
+            "name": "Typical Paraguayan gestor",
+            "price": "USD 800–2,500",
+            "priceNote": "Cheap but no SLA, no guarantee"
+          }
+        ],
+        "title": "What you get with each option"
+      },
+      "seo": {
+        "description": "How Nexa compares to DIY, Paraguay Pathways, or a typical Paraguayan gestor.",
+        "title": "Comparison: Nexa vs alternatives — Nexa Paraguay"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -21510,6 +21937,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/programas",
           "label": "Programs"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/comparacion",
+          "label": "Comparison"
         },
         {
           "href": "/s/en/nexa-paraguay/por-que-paraguay",
@@ -22092,6 +22523,199 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "comparisonPage": {
+      "cta": {
+        "buttonHref": "/s/es/nexa-paraguay/contacto",
+        "buttonText": "Agendar consulta gratuita",
+        "subtitle": "Le ayudamos a decidir — incluso si la respuesta no es Nexa.",
+        "title": "¿Dudas sobre qué opción le conviene?"
+      },
+      "hero": {
+        "headline": "¿Nexa, DIY o un gestor?",
+        "subheadline": "Comparación honesta de las opciones reales para establecer su operación en Paraguay."
+      },
+      "matrix": {
+        "comparisonRows": [
+          {
+            "feature": "Residencia permanente + cédula paraguaya",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Constitución de sociedad (SA/SRL) + RUC",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Apertura de cuenta bancaria (coordinación bancaria)",
+            "values": [
+              true,
+              false,
+              true,
+              "Depende"
+            ]
+          },
+          {
+            "feature": "Validación documental previa al viaje",
+            "values": [
+              true,
+              false,
+              "Parcial",
+              false
+            ]
+          },
+          {
+            "feature": "Jornada operativa de 1 día",
+            "values": [
+              true,
+              false,
+              "Parcial",
+              false
+            ]
+          },
+          {
+            "feature": "Equipo multidisciplinario coordinado",
+            "values": [
+              true,
+              "Usted coordina",
+              true,
+              false
+            ]
+          },
+          {
+            "feature": "Comunicación en inglés / holandés / alemán",
+            "values": [
+              true,
+              "Depende de cada profesional",
+              "Inglés",
+              false
+            ]
+          },
+          {
+            "feature": "Response time garantizado (SLA 24h hábiles)",
+            "values": [
+              true,
+              false,
+              "No publicado",
+              false
+            ]
+          },
+          {
+            "feature": "Contabilidad + asesoría fiscal 12 meses",
+            "values": [
+              "Tier Investor",
+              false,
+              "Upsell",
+              false
+            ]
+          },
+          {
+            "feature": "Análisis de inversiones + compra de tierras",
+            "values": [
+              true,
+              false,
+              "Tier superior",
+              false
+            ]
+          },
+          {
+            "feature": "Precio transparente all-in publicado",
+            "values": [
+              true,
+              "Nunca",
+              "Parcial",
+              false
+            ]
+          },
+          {
+            "feature": "Sociedad paraguaya + RUC en footer",
+            "values": [
+              "Al lanzamiento",
+              "N/A",
+              true,
+              "Depende"
+            ]
+          },
+          {
+            "feature": "Proceso documentado (SOPs + checklist)",
+            "values": [
+              true,
+              false,
+              "Parcial",
+              false
+            ]
+          },
+          {
+            "feature": "Tiempo hasta residencia",
+            "values": [
+              "8–12 semanas",
+              "12–20 semanas",
+              "10–14 semanas",
+              "Variable"
+            ]
+          }
+        ],
+        "eyebrow": "Comparación",
+        "subtitle": "Datos basados en experiencia real, no en marketing. Si nuestra comparación parece injusta, escríbanos y la revisamos.",
+        "tiers": [
+          {
+            "badge": "Recomendado",
+            "ctaHref": "/s/es/nexa-paraguay/contacto",
+            "ctaLabel": "Agendar consulta gratuita",
+            "description": "Equipo local en Asunción + comercial en Europa",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [],
+            "name": "Nexa Paraguay",
+            "price": "USD 4.400+",
+            "priceNote": "Paquete integral con garantías de ejecución"
+          },
+          {
+            "ctaHref": "/s/es/nexa-paraguay/proceso",
+            "ctaLabel": "Ver proceso",
+            "description": "Usted contrata abogado + contador + escribano directo",
+            "id": "diy",
+            "included": [],
+            "name": "Solo (DIY)",
+            "price": "USD 1.500–3.000",
+            "priceNote": "Depende de qué tan bien negocie cada honorario"
+          },
+          {
+            "ctaHref": "https://paraguaypathways.com",
+            "ctaLabel": "Visitar sitio",
+            "description": "Firma dominante, ICP americano/canadiense, enfoque real-estate",
+            "id": "pathways",
+            "included": [],
+            "name": "Paraguay Pathways",
+            "price": "USD 5.000+",
+            "priceNote": "Pricing referencial público a abril 2026"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Tramitador local sin presencia ni comunicación en Europa",
+            "id": "gestor",
+            "included": [],
+            "name": "Gestor paraguayo típico",
+            "price": "USD 800–2.500",
+            "priceNote": "Precio bajo pero sin SLA, sin garantía"
+          }
+        ],
+        "title": "Qué obtiene con cada opción"
+      },
+      "seo": {
+        "description": "Cómo se compara Nexa con hacer el trámite solo, con Paraguay Pathways o con un gestor paraguayo típico.",
+        "title": "Comparación: Nexa vs alternativas — Nexa Paraguay"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -22472,6 +23096,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/programas",
           "label": "Programas"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/comparacion",
+          "label": "Comparación"
         },
         {
           "href": "/s/es/nexa-paraguay/por-que-paraguay",
@@ -23118,6 +23746,199 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "comparisonPage": {
+      "cta": {
+        "buttonHref": "/s/nl/nexa-paraguay/contacto",
+        "buttonText": "Plan gratis consult",
+        "subtitle": "We helpen u beslissen — zelfs als het antwoord niet Nexa is.",
+        "title": "Niet zeker welke optie past?"
+      },
+      "hero": {
+        "headline": "Nexa, DIY of een gestor?",
+        "subheadline": "Eerlijke vergelijking van de werkelijke opties om uw operatie in Paraguay te vestigen."
+      },
+      "matrix": {
+        "comparisonRows": [
+          {
+            "feature": "Permanente verblijfsvergunning + Paraguayaanse ID",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Vennootschapsoprichting (SA/SRL) + RUC",
+            "values": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Bankrekening opening (coördinatie)",
+            "values": [
+              true,
+              false,
+              true,
+              "Hangt af"
+            ]
+          },
+          {
+            "feature": "Documentvalidatie voor de reis",
+            "values": [
+              true,
+              false,
+              "Gedeeltelijk",
+              false
+            ]
+          },
+          {
+            "feature": "Operationele dag",
+            "values": [
+              true,
+              false,
+              "Gedeeltelijk",
+              false
+            ]
+          },
+          {
+            "feature": "Gecoördineerd multidisciplinair team",
+            "values": [
+              true,
+              "U coördineert",
+              true,
+              false
+            ]
+          },
+          {
+            "feature": "Communicatie in Engels / Nederlands / Duits",
+            "values": [
+              true,
+              "Per professional",
+              "Engels",
+              false
+            ]
+          },
+          {
+            "feature": "Gegarandeerde responstijd (SLA 24u)",
+            "values": [
+              true,
+              false,
+              "Niet gepubliceerd",
+              false
+            ]
+          },
+          {
+            "feature": "Boekhouding + fiscaal advies 12 maanden",
+            "values": [
+              "Investor-tier",
+              false,
+              "Upsell",
+              false
+            ]
+          },
+          {
+            "feature": "Investeringsanalyse + grondaankoop",
+            "values": [
+              true,
+              false,
+              "Hogere tier",
+              false
+            ]
+          },
+          {
+            "feature": "Transparante all-in prijs",
+            "values": [
+              true,
+              "Nooit",
+              "Gedeeltelijk",
+              false
+            ]
+          },
+          {
+            "feature": "Paraguayaanse entiteit + RUC in footer",
+            "values": [
+              "Bij lancering",
+              "N.v.t.",
+              true,
+              "Hangt af"
+            ]
+          },
+          {
+            "feature": "Gedocumenteerd proces (SOPs + checklist)",
+            "values": [
+              true,
+              false,
+              "Gedeeltelijk",
+              false
+            ]
+          },
+          {
+            "feature": "Doorlooptijd tot verblijfsvergunning",
+            "values": [
+              "8–12 weken",
+              "12–20 weken",
+              "10–14 weken",
+              "Variabel"
+            ]
+          }
+        ],
+        "eyebrow": "Vergelijking",
+        "subtitle": "Gegevens gebaseerd op echte ervaring, geen marketing.",
+        "tiers": [
+          {
+            "badge": "Aanbevolen",
+            "ctaHref": "/s/nl/nexa-paraguay/contacto",
+            "ctaLabel": "Plan gratis consult",
+            "description": "Lokaal team in Asunción + commercieel in Europa",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [],
+            "name": "Nexa Paraguay",
+            "price": "USD 4.400+",
+            "priceNote": "Geïntegreerd pakket met uitvoeringsgaranties"
+          },
+          {
+            "ctaHref": "/s/nl/nexa-paraguay/proceso",
+            "ctaLabel": "Zie proces",
+            "description": "U huurt advocaat + accountant + notaris zelf",
+            "id": "diy",
+            "included": [],
+            "name": "Zelf doen (DIY)",
+            "price": "USD 1.500–3.000",
+            "priceNote": "Afhankelijk van onderhandeling"
+          },
+          {
+            "ctaHref": "https://paraguaypathways.com",
+            "ctaLabel": "Bezoek site",
+            "description": "Dominante firma, US/Canadese ICP, vastgoed-gericht",
+            "id": "pathways",
+            "included": [],
+            "name": "Paraguay Pathways",
+            "price": "USD 5.000+",
+            "priceNote": "Publieke referentieprijs per april 2026"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Lokale papieren-behandelaar zonder Europese aanwezigheid",
+            "id": "gestor",
+            "included": [],
+            "name": "Typische Paraguayaanse gestor",
+            "price": "USD 800–2.500",
+            "priceNote": "Goedkoop maar geen SLA"
+          }
+        ],
+        "title": "Wat u krijgt bij elke optie"
+      },
+      "seo": {
+        "description": "Hoe Nexa zich verhoudt tot DIY, Paraguay Pathways of een typische Paraguayaanse gestor.",
+        "title": "Vergelijking: Nexa vs alternatieven"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -23497,6 +24318,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/programas",
           "label": "Programma's"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/comparacion",
+          "label": "Vergelijking"
         },
         {
           "href": "/s/nl/nexa-paraguay/por-que-paraguay",

@@ -21,6 +21,10 @@
         "href": "/s/nl/nexa-paraguay/programas"
       },
       {
+        "label": "Vergelijking",
+        "href": "/s/nl/nexa-paraguay/comparacion"
+      },
+      {
         "label": "Waarom Paraguay",
         "href": "/s/nl/nexa-paraguay/por-que-paraguay"
       },
@@ -988,5 +992,198 @@
   "whatsapp": {
     "phone": "595982515138",
     "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay."
+  },
+  "comparisonPage": {
+    "seo": {
+      "title": "Vergelijking: Nexa vs alternatieven",
+      "description": "Hoe Nexa zich verhoudt tot DIY, Paraguay Pathways of een typische Paraguayaanse gestor."
+    },
+    "hero": {
+      "headline": "Nexa, DIY of een gestor?",
+      "subheadline": "Eerlijke vergelijking van de werkelijke opties om uw operatie in Paraguay te vestigen."
+    },
+    "matrix": {
+      "eyebrow": "Vergelijking",
+      "title": "Wat u krijgt bij elke optie",
+      "subtitle": "Gegevens gebaseerd op echte ervaring, geen marketing.",
+      "tiers": [
+        {
+          "id": "nexa",
+          "name": "Nexa Paraguay",
+          "description": "Lokaal team in Asunción + commercieel in Europa",
+          "highlighted": true,
+          "badge": "Aanbevolen",
+          "price": "USD 4.400+",
+          "priceNote": "Geïntegreerd pakket met uitvoeringsgaranties",
+          "included": [],
+          "ctaLabel": "Plan gratis consult",
+          "ctaHref": "/s/nl/nexa-paraguay/contacto"
+        },
+        {
+          "id": "diy",
+          "name": "Zelf doen (DIY)",
+          "description": "U huurt advocaat + accountant + notaris zelf",
+          "price": "USD 1.500–3.000",
+          "priceNote": "Afhankelijk van onderhandeling",
+          "included": [],
+          "ctaLabel": "Zie proces",
+          "ctaHref": "/s/nl/nexa-paraguay/proceso"
+        },
+        {
+          "id": "pathways",
+          "name": "Paraguay Pathways",
+          "description": "Dominante firma, US/Canadese ICP, vastgoed-gericht",
+          "price": "USD 5.000+",
+          "priceNote": "Publieke referentieprijs per april 2026",
+          "included": [],
+          "ctaLabel": "Bezoek site",
+          "ctaHref": "https://paraguaypathways.com"
+        },
+        {
+          "id": "gestor",
+          "name": "Typische Paraguayaanse gestor",
+          "description": "Lokale papieren-behandelaar zonder Europese aanwezigheid",
+          "price": "USD 800–2.500",
+          "priceNote": "Goedkoop maar geen SLA",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        }
+      ],
+      "comparisonRows": [
+        {
+          "feature": "Permanente verblijfsvergunning + Paraguayaanse ID",
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Vennootschapsoprichting (SA/SRL) + RUC",
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Bankrekening opening (coördinatie)",
+          "values": [
+            true,
+            false,
+            true,
+            "Hangt af"
+          ]
+        },
+        {
+          "feature": "Documentvalidatie voor de reis",
+          "values": [
+            true,
+            false,
+            "Gedeeltelijk",
+            false
+          ]
+        },
+        {
+          "feature": "Operationele dag",
+          "values": [
+            true,
+            false,
+            "Gedeeltelijk",
+            false
+          ]
+        },
+        {
+          "feature": "Gecoördineerd multidisciplinair team",
+          "values": [
+            true,
+            "U coördineert",
+            true,
+            false
+          ]
+        },
+        {
+          "feature": "Communicatie in Engels / Nederlands / Duits",
+          "values": [
+            true,
+            "Per professional",
+            "Engels",
+            false
+          ]
+        },
+        {
+          "feature": "Gegarandeerde responstijd (SLA 24u)",
+          "values": [
+            true,
+            false,
+            "Niet gepubliceerd",
+            false
+          ]
+        },
+        {
+          "feature": "Boekhouding + fiscaal advies 12 maanden",
+          "values": [
+            "Investor-tier",
+            false,
+            "Upsell",
+            false
+          ]
+        },
+        {
+          "feature": "Investeringsanalyse + grondaankoop",
+          "values": [
+            true,
+            false,
+            "Hogere tier",
+            false
+          ]
+        },
+        {
+          "feature": "Transparante all-in prijs",
+          "values": [
+            true,
+            "Nooit",
+            "Gedeeltelijk",
+            false
+          ]
+        },
+        {
+          "feature": "Paraguayaanse entiteit + RUC in footer",
+          "values": [
+            "Bij lancering",
+            "N.v.t.",
+            true,
+            "Hangt af"
+          ]
+        },
+        {
+          "feature": "Gedocumenteerd proces (SOPs + checklist)",
+          "values": [
+            true,
+            false,
+            "Gedeeltelijk",
+            false
+          ]
+        },
+        {
+          "feature": "Doorlooptijd tot verblijfsvergunning",
+          "values": [
+            "8–12 weken",
+            "12–20 weken",
+            "10–14 weken",
+            "Variabel"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Niet zeker welke optie past?",
+      "subtitle": "We helpen u beslissen — zelfs als het antwoord niet Nexa is.",
+      "buttonText": "Plan gratis consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
   }
 }

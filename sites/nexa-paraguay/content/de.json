@@ -24,6 +24,10 @@
         "href": "/s/de/nexa-paraguay/programas"
       },
       {
+        "label": "Vergleich",
+        "href": "/s/de/nexa-paraguay/comparacion"
+      },
+      {
         "label": "Warum Paraguay",
         "href": "/s/de/nexa-paraguay/por-que-paraguay"
       },
@@ -991,5 +995,198 @@
   "whatsapp": {
     "phone": "595982515138",
     "message": "Hallo, ich möchte mehr über die Programme von Nexa Paraguay erfahren."
+  },
+  "comparisonPage": {
+    "seo": {
+      "title": "Vergleich: Nexa vs. Alternativen",
+      "description": "Wie Nexa im Vergleich zu DIY, Paraguay Pathways oder einem typischen paraguayischen Gestor abschneidet."
+    },
+    "hero": {
+      "headline": "Nexa, DIY oder ein Gestor?",
+      "subheadline": "Ehrlicher Vergleich der realen Optionen zur Etablierung Ihrer Operation in Paraguay."
+    },
+    "matrix": {
+      "eyebrow": "Vergleich",
+      "title": "Was Sie bei jeder Option bekommen",
+      "subtitle": "Daten basierend auf echter Erfahrung, kein Marketing.",
+      "tiers": [
+        {
+          "id": "nexa",
+          "name": "Nexa Paraguay",
+          "description": "Lokales Team in Asunción + Commercial in Europa",
+          "highlighted": true,
+          "badge": "Empfohlen",
+          "price": "USD 4.400+",
+          "priceNote": "Integriertes Paket mit Ausführungsgarantien",
+          "included": [],
+          "ctaLabel": "Kostenlose Beratung buchen",
+          "ctaHref": "/s/de/nexa-paraguay/contacto"
+        },
+        {
+          "id": "diy",
+          "name": "Selbst (DIY)",
+          "description": "Sie beauftragen Anwalt + Steuerberater + Notar direkt",
+          "price": "USD 1.500–3.000",
+          "priceNote": "Abhängig von Verhandlung",
+          "included": [],
+          "ctaLabel": "Prozess ansehen",
+          "ctaHref": "/s/de/nexa-paraguay/proceso"
+        },
+        {
+          "id": "pathways",
+          "name": "Paraguay Pathways",
+          "description": "Dominante Firma, US/Kanadische ICP, Immobilien-Fokus",
+          "price": "USD 5.000+",
+          "priceNote": "Öffentliche Referenzpreise Stand April 2026",
+          "included": [],
+          "ctaLabel": "Seite besuchen",
+          "ctaHref": "https://paraguaypathways.com"
+        },
+        {
+          "id": "gestor",
+          "name": "Typischer paraguayischer Gestor",
+          "description": "Lokaler Papierabwickler ohne europäische Präsenz",
+          "price": "USD 800–2.500",
+          "priceNote": "Günstig, aber kein SLA",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        }
+      ],
+      "comparisonRows": [
+        {
+          "feature": "Dauerhafter Aufenthalt + paraguayische ID",
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Gesellschaftsgründung (SA/SRL) + RUC",
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Bankkonto-Eröffnung (Koordination)",
+          "values": [
+            true,
+            false,
+            true,
+            "Hängt ab"
+          ]
+        },
+        {
+          "feature": "Dokumenten-Vorvalidierung vor der Reise",
+          "values": [
+            true,
+            false,
+            "Teilweise",
+            false
+          ]
+        },
+        {
+          "feature": "Operativer Tag",
+          "values": [
+            true,
+            false,
+            "Teilweise",
+            false
+          ]
+        },
+        {
+          "feature": "Koordiniertes multidisziplinäres Team",
+          "values": [
+            true,
+            "Sie koordinieren",
+            true,
+            false
+          ]
+        },
+        {
+          "feature": "Kommunikation auf Englisch / Niederländisch / Deutsch",
+          "values": [
+            true,
+            "Je Professional",
+            "Englisch",
+            false
+          ]
+        },
+        {
+          "feature": "Garantierte Antwortzeit (SLA 24h)",
+          "values": [
+            true,
+            false,
+            "Nicht veröffentlicht",
+            false
+          ]
+        },
+        {
+          "feature": "Buchhaltung + Steuerberatung 12 Monate",
+          "values": [
+            "Investor-Tier",
+            false,
+            "Upsell",
+            false
+          ]
+        },
+        {
+          "feature": "Investitionsanalyse + Landkauf",
+          "values": [
+            true,
+            false,
+            "Höhere Tier",
+            false
+          ]
+        },
+        {
+          "feature": "Transparente All-in-Preise",
+          "values": [
+            true,
+            "Nie",
+            "Teilweise",
+            false
+          ]
+        },
+        {
+          "feature": "Paraguayische Entität + RUC im Footer",
+          "values": [
+            "Beim Start",
+            "N/A",
+            true,
+            "Hängt ab"
+          ]
+        },
+        {
+          "feature": "Dokumentierter Prozess (SOPs + Checkliste)",
+          "values": [
+            true,
+            false,
+            "Teilweise",
+            false
+          ]
+        },
+        {
+          "feature": "Zeit bis zum Aufenthalt",
+          "values": [
+            "8–12 Wochen",
+            "12–20 Wochen",
+            "10–14 Wochen",
+            "Variabel"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Unsicher, welche Option passt?",
+      "subtitle": "Wir helfen Ihnen — auch wenn die Antwort nicht Nexa ist.",
+      "buttonText": "Kostenlose Beratung buchen",
+      "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
   }
 }
