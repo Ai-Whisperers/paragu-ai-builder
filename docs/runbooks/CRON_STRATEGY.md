@@ -34,6 +34,7 @@ No extra moving parts.**
 | `POST /api/cron/commerce-email-flush` | `*/5 * * * *` | `CRON_SECRET`, `RESEND_API_KEY`, `COMMERCE_EMAIL_FROM` | Send queued commerce emails |
 | `POST /api/cron/commerce-abandoned-cart` | `0 */4 * * *` | `CRON_SECRET` | Abandoned cart recovery |
 | `POST /api/cron/commerce-reconcile-pending` | `0 * * * *` | `CRON_SECRET` | Reconcile MP pending payments |
+| `POST /api/cron/health` | `0 * * * *` (UTC, hourly) | `CRON_SECRET` | Returns `{ ok, crons[] }` per-cron env-readiness. 503 if any required env is missing. Wire to your monitor of choice. |
 
 > Asunción is UTC-3 / UTC-4 (DST). Most ops choose to schedule in UTC and
 > ignore DST. The above uses UTC offsets matching standard time (UTC-3).
