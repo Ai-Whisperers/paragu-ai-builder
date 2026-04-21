@@ -1,6 +1,7 @@
 import { notFound, redirect } from 'next/navigation'
 import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
+import { DemoBadge } from '@/components/universal/demo-badge'
 import { loadBusiness } from '@/lib/engine/data-loader'
 import { getRegistry, REGISTRY_MAP } from '@/lib/engine/static-config'
 import { getAllDemoSlugs } from '@/lib/engine/demo-data'
@@ -194,6 +195,7 @@ export default async function BusinessPage({ params }: Props) {
       >
         {renderSections(page.sections)}
       </div>
+      <DemoBadge isDemo={businessData.isDemo} vertical={businessData.type} />
     </>
   )
 }

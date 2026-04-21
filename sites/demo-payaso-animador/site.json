@@ -29,5 +29,6 @@
   "demoCluster": "F Events",
   "noindex": true,
   "createdAt": "2026-04-21",
-  "source": "batch-create-demos"
+  "source": "batch-create-demos",
+  "is_demo": true
 }

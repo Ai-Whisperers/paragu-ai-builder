@@ -44,5 +44,6 @@
     "address": "Ruta 2 Km 125-140 is approximate — confirm exact km with Laura"
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
-  "migratedAt": "2026-04-20"
+  "migratedAt": "2026-04-20",
+  "is_demo": true
 }

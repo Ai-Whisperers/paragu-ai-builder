@@ -128,8 +128,10 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
   // Fall back to lead data
   if (LEAD_BUSINESSES[slug]) return LEAD_BUSINESSES[slug]
 
-  // Fall back to demo data
-  return getDemoBusinessBySlug(slug)
+  // Fall back to demo data — these are explicitly fictional, mark as demo so
+  // <DemoBadge> renders the warning ribbon.
+  const demo = getDemoBusinessBySlug(slug)
+  return demo ? { ...demo, isDemo: true } : null
 }
 
 export async function loadAllSlugs(): Promise<string[]> {

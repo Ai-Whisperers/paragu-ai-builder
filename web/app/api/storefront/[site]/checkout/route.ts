@@ -6,6 +6,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { createOrder, getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { rankProvidersForOrder, NoEligibleProviderError } from '@/lib/payments/router'
 import { createCheckoutWithFailover, NoAvailableProviderError } from '@/lib/payments/failover'
+import { listAvailableProviders } from '@/lib/commerce/payment-credentials'
 import { CheckoutInputSchema } from '@/lib/schemas/commerce/order'
 import type { PaymentProvider } from '@/lib/schemas/commerce/transaction'
 
@@ -65,12 +66,17 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
 
   // Pick provider via capability matrix; failover on gateway 5xx/timeout.
-  // business.commerce.provider (from registry) is the preferred hint;
-  // PR 4 will read merchant-installed providers from
-  // business_payment_credentials and pass that as `available`.
+  // Restrict the rank to providers the merchant has installed credentials
+  // for. Falls back to "no restriction" if the merchant has none configured
+  // — in that case the platform's env-level Pagopar tokens are used.
+  const installed = await listAvailableProviders(business.id)
   let providers: PaymentProvider[]
   try {
-    providers = rankProvidersForOrder(order, business.preferredProvider as PaymentProvider | undefined)
+    providers = rankProvidersForOrder(
+      order,
+      business.preferredProvider as PaymentProvider | undefined,
+      installed.length > 0 ? installed : undefined,
+    )
   } catch (err) {
     if (err instanceof NoEligibleProviderError) {
       return NextResponse.json({ error: 'no_eligible_payment_provider' }, { status: 422 })
