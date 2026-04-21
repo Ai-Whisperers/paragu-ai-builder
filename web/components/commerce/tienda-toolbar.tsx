@@ -18,6 +18,14 @@ interface Props {
   availableCategories: string[]
   /** Product counts per category for faceted display. */
   categoryCounts?: Record<string, number>
+  /** Active brand filters (multi). */
+  initialBrands: string[]
+  /** Distinct brands offered by the tenant. */
+  availableBrands: string[]
+  /** Active tag filters (must all match). */
+  initialTags: string[]
+  /** Distinct tags across active products. */
+  availableTags: string[]
   /** Price bounds in cents, active filter (0 = no bound). */
   initialMinPrice: number
   initialMaxPrice: number
@@ -46,6 +54,8 @@ type FilterUpdate = {
   on_sale?: string | null
   page?: string | null
   per_page?: string | null
+  brand?: string | null
+  tag?: string | null
 }
 
 function formatPyg(cents: number): string {
@@ -71,6 +81,10 @@ export function TiendaToolbar({
   initialInStockOnly,
   initialOnSaleOnly,
   initialPerPage,
+  initialBrands,
+  availableBrands,
+  initialTags,
+  availableTags,
 }: Props) {
   const router = useRouter()
   const pathname = usePathname()
@@ -118,6 +132,22 @@ export function TiendaToolbar({
     pushParams({ category: next.length === 0 ? null : next.join(',') })
   }
 
+  function toggleBrand(brand: string) {
+    const set = new Set(initialBrands)
+    if (set.has(brand)) set.delete(brand)
+    else set.add(brand)
+    const next = Array.from(set)
+    pushParams({ brand: next.length === 0 ? null : next.join(',') })
+  }
+
+  function toggleTag(tag: string) {
+    const set = new Set(initialTags)
+    if (set.has(tag)) set.delete(tag)
+    else set.add(tag)
+    const next = Array.from(set)
+    pushParams({ tag: next.length === 0 ? null : next.join(',') })
+  }
+
   function clearAll() {
     setQuery('')
     setMinPrice('')
@@ -145,6 +175,26 @@ export function TiendaToolbar({
       clear: () => {
         const next = initialCategories.filter((c) => c !== cat)
         pushParams({ category: next.length === 0 ? null : next.join(',') })
+      },
+    })
+  }
+  for (const brand of initialBrands) {
+    activeFilters.push({
+      key: `brand:${brand}`,
+      label: brand,
+      clear: () => {
+        const next = initialBrands.filter((b) => b !== brand)
+        pushParams({ brand: next.length === 0 ? null : next.join(',') })
+      },
+    })
+  }
+  for (const tag of initialTags) {
+    activeFilters.push({
+      key: `tag:${tag}`,
+      label: `#${tag}`,
+      clear: () => {
+        const next = initialTags.filter((t) => t !== tag)
+        pushParams({ tag: next.length === 0 ? null : next.join(',') })
       },
     })
   }
@@ -244,7 +294,7 @@ export function TiendaToolbar({
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 4h18M6 12h12M10 20h4" />
           </svg>
           Filtros
-          {(initialCategory || initialMinPrice || initialMaxPrice || initialInStockOnly || initialOnSaleOnly) ? (
+          {(initialCategories.length > 0 || initialBrands.length > 0 || initialTags.length > 0 || initialMinPrice || initialMaxPrice || initialInStockOnly || initialOnSaleOnly) ? (
             <span className="rounded-full bg-[color:var(--secondary,#b8860b)] px-1.5 py-0.5 text-[10px] font-semibold text-white">•</span>
           ) : null}
         </span>
@@ -287,6 +337,56 @@ export function TiendaToolbar({
                 {typeof count === 'number' ? (
                   <span className="ml-1 opacity-70">({count})</span>
                 ) : null}
+              </button>
+            )
+          })}
+        </div>
+      ) : null}
+
+      {/* Brand filter */}
+      {availableBrands.length > 0 ? (
+        <div className="flex flex-wrap items-center gap-2 text-xs">
+          <span className="text-[color:var(--text-muted,#6b7280)]">Marca:</span>
+          {availableBrands.map((b) => {
+            const active = initialBrands.includes(b)
+            return (
+              <button
+                key={b}
+                type="button"
+                onClick={() => toggleBrand(b)}
+                aria-pressed={active}
+                className={`rounded-full border px-3 py-1 ${
+                  active
+                    ? 'border-[color:var(--secondary,#b8860b)] bg-[color:var(--secondary,#b8860b)] text-white'
+                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                }`}
+              >
+                {b}
+              </button>
+            )
+          })}
+        </div>
+      ) : null}
+
+      {/* Tag filter */}
+      {availableTags.length > 0 ? (
+        <div className="flex flex-wrap items-center gap-2 text-xs">
+          <span className="text-[color:var(--text-muted,#6b7280)]">Características:</span>
+          {availableTags.map((t) => {
+            const active = initialTags.includes(t)
+            return (
+              <button
+                key={t}
+                type="button"
+                onClick={() => toggleTag(t)}
+                aria-pressed={active}
+                className={`rounded-full border px-2.5 py-0.5 ${
+                  active
+                    ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
+                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                }`}
+              >
+                #{t}
               </button>
             )
           })}

@@ -234,6 +234,8 @@ function dbRowToProduct(row: Record<string, unknown>): Product {
     name: row.name as string,
     description: (row.description as string | null) ?? null,
     category: (row.category as string | null) ?? null,
+    brand: (row.brand as string | null) ?? null,
+    tags: (row.tags as string[] | null) ?? [],
     priceCents: row.price_cents as number,
     compareAtPriceCents: (row.compare_at_price_cents as number | null) ?? null,
     currency: row.currency as string,
