@@ -354,6 +354,8 @@ export async function createProduct(
     name: input.name,
     description: input.description ?? null,
     category: input.category ?? null,
+    brand: input.brand ?? null,
+    tags: input.tags ?? [],
     price_cents: input.priceCents,
     compare_at_price_cents: input.compareAtPriceCents ?? null,
     currency: input.currency,
@@ -384,6 +386,8 @@ export async function updateProduct(
   if (patch.name !== undefined) dbPatch.name = patch.name
   if (patch.description !== undefined) dbPatch.description = patch.description
   if (patch.category !== undefined) dbPatch.category = patch.category
+  if (patch.brand !== undefined) dbPatch.brand = patch.brand
+  if (patch.tags !== undefined) dbPatch.tags = patch.tags
   if (patch.priceCents !== undefined) dbPatch.price_cents = patch.priceCents
   if (patch.compareAtPriceCents !== undefined) dbPatch.compare_at_price_cents = patch.compareAtPriceCents
   if (patch.currency !== undefined) dbPatch.currency = patch.currency

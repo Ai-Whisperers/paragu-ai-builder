@@ -14,6 +14,8 @@ interface ProductRow {
   name: string
   description: string | null
   category: string | null
+  brand: string | null
+  tags: string[] | null
   price_cents: number
   inventory_qty: number
   inventory_policy: 'deny' | 'continue'
@@ -55,6 +57,8 @@ export default async function EditProductPage({ params }: { params: Promise<{ bu
           name: product.name,
           description: product.description ?? '',
           category: product.category ?? '',
+          brand: product.brand ?? '',
+          tags: product.tags ?? [],
           priceCents: product.price_cents,
           inventoryQty: product.inventory_qty,
           status: product.status,
