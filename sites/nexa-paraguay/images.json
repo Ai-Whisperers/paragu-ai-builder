@@ -502,16 +502,6 @@
           "de": "Blog-Titelbild: Aufenthaltsanforderungen 2024"
         }
       },
-      "comparativaFiscal": {
-        "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp",
-        "alt": "Paraguay vs Uruguay fiscal comparison",
-        "altByLocale": {
-          "en": "Blog cover: Paraguay tax comparison vs neighbouring countries",
-          "es": "Portada de blog: comparativa fiscal Paraguay vs países vecinos",
-          "nl": "Blogomslag: fiscale vergelijking Paraguay vs buurlanden",
-          "de": "Blog-Titelbild: Steuervergleich Paraguay vs. Nachbarländer"
-        }
-      },
       "propiedades": {
         "src": "/sites/nexa-paraguay/images/blog/propiedades.webp",
         "alt": "Buying property in Paraguay",
@@ -580,16 +570,6 @@
           "es": "Portada de blog: barrios en Asunción",
           "nl": "Blogomslag: wijken in Asunción",
           "de": "Blog-Titelbild: Stadtviertel in Asunción"
-        }
-      },
-      "paraguayUruguayPanama": {
-        "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.webp",
-        "alt": "Paraguay vs Uruguay vs Panama comparison",
-        "altByLocale": {
-          "en": "Blog cover: Paraguay vs Uruguay vs Panama comparison",
-          "es": "Portada de blog: comparativa Paraguay vs Uruguay vs Panamá",
-          "nl": "Blogomslag: vergelijking Paraguay vs Uruguay vs Panama",
-          "de": "Blog-Titelbild: Vergleich Paraguay vs. Uruguay vs. Panama"
         }
       }
     },

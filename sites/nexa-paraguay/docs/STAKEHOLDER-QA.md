@@ -433,19 +433,18 @@ Buttons: "Aceptar todas" / "Solo esenciales" / "Preferencias"
 
 **Question:** 10 Spanish blog posts are ready. 0 English, 0 Dutch, 0 German. Do you want the blog live in ES only, or block the blog page until at least English is translated?
 
-**The 10 Spanish posts:**
+**The Spanish posts:**
 1. Guía Completa: Cómo Obtener la Residencia en Paraguay en 2024
-2. Comparativa Fiscal 2024: Paraguay vs Uruguay para Empresas
-3. Guía para Extranjeros: Cómo Comprar Propiedades en Paraguay
-4. Apertura de Cuenta Bancaria en Paraguay para Extranjeros
-5. Emprender en Paraguay: Oportunidades de Negocio 2024
-6. Los 5 Errores Más Comunes al Mudarte a Paraguay
-7. SEPRELAD y Compliance: Lo Que Todo Inversionista Extranjero Debe Saber
-8. Paraguay vs Portugal: Guía Comparativa para Residencia Europea
-9. Cómo Funciona el Sistema Tributario Territorial en Paraguay
-10. Las Mejores Zonas para Vivir en Asunción
+2. Guía para Extranjeros: Cómo Comprar Propiedades en Paraguay
+3. Apertura de Cuenta Bancaria en Paraguay para Extranjeros
+4. Emprender en Paraguay: Oportunidades de Negocio 2024
+5. Los 5 Errores Más Comunes al Mudarte a Paraguay
+6. SEPRELAD y Compliance: Lo Que Todo Inversionista Extranjero Debe Saber
+7. Paraguay vs Portugal: Guía Comparativa para Residencia Europea
+8. Cómo Funciona el Sistema Tributario Territorial en Paraguay
+9. Las Mejores Zonas para Vivir en Asunción
 
-**Our recommendation:** translate posts 1, 2, 8 to English + Dutch first (highest conversion value for European prospects). Posts 3, 4, 7 next. The rest can stay ES only or be progressively translated.
+**Our recommendation:** translate posts 1, 7 to English + Dutch first (highest conversion value for European prospects). Posts 2, 3, 6 next. The rest can stay ES only or be progressively translated.
 
 **Confirm:**
 - [ ] Prioritization order OK?

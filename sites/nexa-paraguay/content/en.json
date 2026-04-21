@@ -1018,10 +1018,6 @@
         "href": "/s/en/nexa-paraguay/calidad-de-vida"
       },
       {
-        "label": "Jurisdictions",
-        "href": "/s/en/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
         "label": "Glossary",
         "href": "/s/en/nexa-paraguay/glosario"
       },
@@ -1953,80 +1949,6 @@
       "title": "Got a term you don't understand?",
       "subtitle": "Write us. We'll add it to the glossary.",
       "ctaText": "Contact us",
-      "ctaHref": "/contacto"
-    }
-  },
-  "jurisdictionCompPage": {
-    "seo": {
-      "title": "Paraguay vs. Uruguay vs. Panama — comparison",
-      "description": "Which jurisdiction to choose: territoriality, taxes, cost of living, residency."
-    },
-    "hero": {
-      "headline": "Paraguay, Uruguay, or Panama: which jurisdiction?",
-      "subheadline": "Honest comparison of the three jurisdictions most demanded by European investors."
-    },
-    "matrix": {
-      "eyebrow": "Comparison",
-      "title": "Three jurisdictions, three profiles",
-      "featureColumnLabel": "Feature",
-      "tiers": [
-        {
-          "id": "paraguay",
-          "name": "Paraguay",
-          "description": "Cost-efficient, territorial.",
-          "price": "USD 4,400+",
-          "priceNote": "Nexa Paraguay Business",
-          "highlighted": true,
-          "badge": "Most cost-efficient",
-          "included": [
-            "Territorial (no tax on foreign income)",
-            "10 % IRE",
-            "Residency in 8–12 weeks",
-            "Cost of living 30–50 % lower than UY",
-            "Less bureaucracy"
-          ],
-          "ctaLabel": "Choose Paraguay",
-          "ctaHref": "/contacto?programa=business"
-        },
-        {
-          "id": "uruguay",
-          "name": "Uruguay",
-          "description": "Stable, more costly.",
-          "price": "USD 10,000+",
-          "priceNote": "equivalent program",
-          "included": [
-            "Territorial (with conditions)",
-            "25 % IRAE",
-            "Residency in 4–6 months",
-            "High cost of living",
-            "Moderate bureaucracy"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        },
-        {
-          "id": "panama",
-          "name": "Panama",
-          "description": "Offshore, more complex.",
-          "price": "USD 8,000+",
-          "priceNote": "equivalent program",
-          "included": [
-            "Strict territorial",
-            "25 % ISR",
-            "Friendly Nations residency in months",
-            "Medium cost of living",
-            "Mixed international reputation"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ]
-    },
-    "cta": {
-      "eyebrow": "",
-      "title": "Still uncertain?",
-      "subtitle": "We'll prepare a personalized analysis of your profile.",
-      "ctaText": "Request analysis",
       "ctaHref": "/contacto"
     }
   },
