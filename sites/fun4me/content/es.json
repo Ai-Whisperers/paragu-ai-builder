@@ -50,7 +50,7 @@
       "headline": "Tu Tienda de Placer",
       "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion.",
       "ctaPrimaryText": "Explorar Tienda",
-      "ctaPrimaryHref": "/store",
+      "ctaPrimaryHref": "/fun4me/store",
       "ctaSecondaryText": "Contactanos",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
@@ -89,7 +89,7 @@
     "promo": {
       "enabled": true,
       "text": "Envio GRATIS en compras mayores a Gs. 200.000",
-      "href": "/store"
+      "href": "/fun4me/store"
     },
     "categories": {
       "title": "Categorias Destacadas",
@@ -105,7 +105,7 @@
         { "id": "bienestar", "name": "Bienestar Intimo", "icon": "shield-check", "description": "Cuidado y salud sexual" }
       ],
       "ctaText": "Ver Todo el Catalogo",
-      "ctaHref": "/store"
+      "ctaHref": "/fun4me/store"
     },
     "stats": {
       "title": "Numeros que nos respaldan",
@@ -217,7 +217,7 @@
       "title": "Tenes alguna consulta?",
       "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
       "ctaPrimaryText": "Ver Tienda",
-      "ctaPrimaryHref": "/store",
+      "ctaPrimaryHref": "/fun4me/store",
       "ctaSecondaryText": "Escribir por WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
@@ -572,6 +572,84 @@
       "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
       "buttonText": "Ir a la Tienda",
       "buttonHref": "/fun4me/store"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog Fun4Me | Guias, educacion y consejos para adultos",
+      "description": "Guias de principiantes, materiales seguros, comunicacion de pareja, privacidad. Aprendé sin verguenza."
+    },
+    "hero": {
+      "headline": "Blog Fun4Me",
+      "subheadline": "Guias, educacion y consejos. Aprendé sin juicios."
+    },
+    "categories": {
+      "title": "Explora por categoria",
+      "items": [
+        { "name": "Guias para principiantes", "description": "Lo basico que deberias saber antes de comprar tu primer producto." },
+        { "name": "Seguridad y cuidado", "description": "Materiales, limpieza, reemplazos, alergias." },
+        { "name": "Pareja y comunicacion", "description": "Como hablar, como escuchar, como probar juntos." },
+        { "name": "Privacidad y discrecion", "description": "Empaque, facturacion, tu privacidad es nuestra prioridad." },
+        { "name": "Rankings y comparativas", "description": "Los mejores productos segun reviews reales de clientes." },
+        { "name": "Guias avanzadas", "description": "BDSM, consenso, tecnicas mas alla de lo basico." }
+      ]
+    },
+    "posts": {
+      "title": "Ultimos articulos",
+      "subtitle": "Contenido actualizado semanalmente.",
+      "items": [
+        { "name": "Guia de vibradores para principiantes en Paraguay", "description": "Primera vez comprando un vibrador? Tipos, materiales y como elegir sin abrumarte. 7 min de lectura.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/guia-vibradores-principiantes" },
+        { "name": "Lubricante base agua vs silicona: cual elegir", "description": "Que lubricante con que juguete, con que condon, para que uso. 5 min.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/lubricante-agua-vs-silicona" },
+        { "name": "Primera vez con BDSM: guia de consenso y seguridad", "description": "BDSM sano empieza con conversacion. Limites, palabras de seguridad, metodo semaforo. 10 min.", "category": "Avanzado", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/primera-vez-bdsm-consenso" },
+        { "name": "Como limpiar tus juguetes sexuales correctamente", "description": "Cada material necesita un cuidado diferente. Evita infecciones y extiende la vida util. 6 min.", "category": "Seguridad", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/como-limpiar-juguetes-sexuales" },
+        { "name": "Los 7 mejores juguetes para parejas en 2026", "description": "Ranking basado en 500+ reseñas reales. Que comprar y que evitar. 8 min.", "category": "Ranking", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/mejores-juguetes-parejas-2026" },
+        { "name": "Como elegir tu talle de lenceria sin probarlo", "description": "Con 4 mediciones aciertas el 90% de las veces. Tabla de talles, trucos. 7 min.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/guia-lenceria-talles" },
+        { "name": "Materiales seguros en juguetes sexuales: que evitar", "description": "Ftalatos, PVC, silicona grado medico. Guia para comprar sin poner en riesgo tu salud. 6 min.", "category": "Seguridad", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/ftalatos-materiales-seguros" },
+        { "name": "Como hablar de sexualidad con tu pareja sin tabues", "description": "Script de conversacion, errores a evitar, como introducir un juguete. 9 min.", "category": "Pareja", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/comunicacion-sexual-pareja" },
+        { "name": "Juguetes anales para principiantes: guia segura", "description": "Preparacion, tamaños, lubricantes especificos, errores a evitar. 8 min.", "category": "Principiantes", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/juguetes-anal-principiantes" },
+        { "name": "Privacidad al comprar productos para adultos en Paraguay", "description": "Empaque, facturacion, metodos de pago, entrega. Todo lo que hacemos para protegerte. 5 min.", "category": "Privacidad", "ctaText": "Leer", "ctaHref": "/s/es/fun4me/blog/privacidad-compras-online" }
+      ]
+    },
+    "cta": {
+      "title": "Te gustaria hablar con un experto?",
+      "subtitle": "Escribinos por WhatsApp. Asesoramos sin juicios y con discrecion.",
+      "buttonText": "Escribir por WhatsApp",
+      "buttonHref": "https://wa.me/595976569739"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto Fun4Me | Asuncion, Paraguay",
+      "description": "Visitanos en Herrera 875, Asuncion. Escribinos por WhatsApp o email. Envio discreto a todo Paraguay."
+    },
+    "hero": {
+      "headline": "Hablemos",
+      "subheadline": "WhatsApp es la via mas rapida. Tambien podes visitarnos en Herrera 875."
+    },
+    "ways": {
+      "title": "Como contactarnos",
+      "items": [
+        { "name": "WhatsApp", "description": "Respuesta en menos de 1 hora en horario comercial.", "price": "+595 976 569 739", "ctaText": "Chatear", "ctaHref": "https://wa.me/595976569739" },
+        { "name": "Email", "description": "Para consultas mas detalladas o pedidos B2B.", "price": "hola@fun4me.com.py", "ctaText": "Enviar email", "ctaHref": "mailto:hola@fun4me.com.py" },
+        { "name": "Tienda fisica", "description": "Herrera 875, Asuncion. L-V 09:00-20:00, Sab 09:00-18:00.", "price": "Visitanos", "ctaText": "Ver en mapa", "ctaHref": "https://www.google.com/maps/search/?api=1&query=Herrera+875+Asuncion" },
+        { "name": "Instagram", "description": "Seguinos para novedades, promos y contenido.", "price": "@fun4me_store", "ctaText": "Seguir", "ctaHref": "https://instagram.com/fun4me_store" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "Cual es el horario de atencion?", "a": "Lunes a viernes 09:00-20:00, sabados 09:00-18:00. Domingos cerrado. WhatsApp responde fuera de horario en 24hs." },
+        { "q": "Hacen delivery el mismo dia?", "a": "Si, en Asuncion con cargo adicional si pedis antes de las 15:00. Gran Asuncion 24-48hs. Interior 3-5 dias habiles." },
+        { "q": "Puedo visitar la tienda sin cita?", "a": "Si, pasa cuando quieras en horario comercial. No hace falta avisar." },
+        { "q": "Aceptan tarjeta en la tienda fisica?", "a": "Si, Visa y Mastercard con Pagopar, y tambien efectivo y transferencia." }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "weekdays": "Lunes - Viernes: 09:00 - 20:00",
+      "saturday": "Sabado: 09:00 - 18:00",
+      "sunday": "Domingo: Cerrado",
+      "holidays": "Feriados: Cerrado (consultar por WhatsApp para urgencias)"
     }
   }
 }

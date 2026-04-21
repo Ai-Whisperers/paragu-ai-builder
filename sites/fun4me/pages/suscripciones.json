@@ -1,0 +1,16 @@
+{
+  "slug": "suscripciones",
+  "titleKey": "subscriptions.seo.title",
+  "descriptionKey": "subscriptions.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "image", "content": "subscriptions.hero" },
+    { "id": "services", "variant": "cards", "content": "subscriptions.boxes" },
+    { "id": "services", "variant": "cards", "content": "subscriptions.howItWorks" },
+    { "id": "testimonials", "variant": "carousel", "content": "subscriptions.testimonials" },
+    { "id": "faq", "variant": "accordion", "content": "subscriptions.faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "subscriptions.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}
