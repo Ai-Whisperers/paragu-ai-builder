@@ -34,6 +34,23 @@ export async function GET(
       alternates,
     })
   }
+  // The /blog and /prensa routes are file-based, so they won't show up in
+  // listPageSlugs(). Include them explicitly when the site's content /
+  // navigation references them — nav includes both for all Nexa tenants.
+  const navPaths = new Set((site.navigation || []).map((n) => n.path))
+  const extraRoutes: string[] = []
+  if (blogs.length > 0 || navPaths.has('blog')) extraRoutes.push('blog')
+  if (navPaths.has('prensa')) extraRoutes.push('prensa')
+  for (const extra of extraRoutes) {
+    const alternates = site.locales.map((l) => ({
+      hreflang: l,
+      href: `${base}${buildLocaleUrl(l, slug, extra)}`,
+    }))
+    urls.push({
+      loc: `${base}${buildLocaleUrl(locale as Locale, slug, extra)}`,
+      alternates,
+    })
+  }
   for (const post of blogs) {
     const pathPart = `blog/${post}`
     const alternates = site.locales.map((l) => ({

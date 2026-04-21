@@ -1,13 +1,14 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { isLocale, type Locale } from '@/lib/i18n/config'
-import { listSiteSlugs, loadSite } from '@/lib/engine/site-loader'
+import { listSiteSlugs, loadSite, loadSiteContent } from '@/lib/engine/site-loader'
 import { listBlogSlugs, listBlogPosts, loadBlogPost } from '@/lib/engine/blog-loader'
 import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
 import { RelatedPostsSection } from '@/components/sections/related-posts-section'
 import { alternatesFor } from '@/lib/i18n/routing'
+import { buildBlogPosting, buildBreadcrumbList } from '@/lib/seo/json-ld'
 
 /**
  * Convert "my-post-slug" → "myPostSlug" for the images manifest lookup.
@@ -70,6 +71,14 @@ const RELATED_TITLE: Record<string, string> = {
   pt: 'Artigos relacionados',
 }
 
+const BLOG_CRUMB: Record<string, string> = {
+  en: 'Blog',
+  es: 'Blog',
+  nl: 'Blog',
+  de: 'Blog',
+  pt: 'Blog',
+}
+
 export const runtime = 'nodejs'
 
 interface Props {
@@ -99,11 +108,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: 'Not found' }
   let site
   try { site = loadSite(siteSlug) } catch { return { title: post.title } }
+
+  const coverImage = resolveCoverImage(post.coverImage, siteSlug, post.slug)
+
   return {
     title: `${post.title} — ${site.slug}`,
     description: post.excerpt,
     alternates: {
       languages: alternatesFor(siteSlug, site.locales, `blog/${slug}`),
+    },
+    openGraph: {
+      type: 'article',
+      title: post.title,
+      description: post.excerpt,
+      locale,
+      ...(post.date ? { publishedTime: post.date } : {}),
+      ...(post.author ? { authors: [post.author] } : {}),
+      ...(coverImage
+        ? { images: [{ url: coverImage, alt: post.title }] }
+        : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      ...(coverImage ? { images: [coverImage] } : {}),
     },
   }
 }
@@ -121,10 +150,62 @@ export default async function BlogPostPage({ params }: Props) {
   const related = pickRelated(siteSlug, locale as Locale, post.slug, post.category, 3)
   const relatedTitle = RELATED_TITLE[locale] ?? RELATED_TITLE.en
 
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
+  const manifest = loadImagesManifest(siteSlug)
+  let siteContent: { siteName?: string; tagline?: string } = {}
+  try {
+    const raw = loadSiteContent(siteSlug, locale as Locale) as Record<string, unknown>
+    siteContent = {
+      siteName: typeof raw.siteName === 'string' ? raw.siteName : undefined,
+      tagline: typeof raw.tagline === 'string' ? raw.tagline : undefined,
+    }
+  } catch {
+    // Fall through with empty content; JSON-LD still emits with the slug.
+  }
+
+  const blogPostingLd = buildBlogPosting(
+    {
+      slug: post.slug,
+      title: post.title,
+      date: post.date,
+      author: post.author,
+      excerpt: post.excerpt,
+      category: post.category,
+      coverImage,
+    },
+    {
+      slug: site!.slug,
+      country: site!.country,
+      defaultLocale: site!.defaultLocale,
+      contact: site!.contact,
+      social: site!.social,
+    },
+    siteContent,
+    manifest,
+    baseUrl,
+    locale,
+  )
+
+  const breadcrumbLd = buildBreadcrumbList([
+    { name: siteContent.siteName || site!.slug, url: `${baseUrl}/s/${locale}/${siteSlug}` },
+    { name: BLOG_CRUMB[locale] ?? BLOG_CRUMB.en, url: `${baseUrl}/s/${locale}/${siteSlug}/blog` },
+    { name: post.title, url: `${baseUrl}/s/${locale}/${siteSlug}/blog/${post.slug}` },
+  ])
+
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: tokens.cssString }} />
       {tokens.googleFontsUrl && <link rel="stylesheet" href={tokens.googleFontsUrl} />}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+
       <div
         className="min-h-screen"
         style={{

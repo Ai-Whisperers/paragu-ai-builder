@@ -14,6 +14,7 @@ import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { loadSite, loadSiteContent } from '@/lib/engine/site-loader'
 import { loadImagesManifest, resolveImage, type ImageAsset } from '@/lib/engine/images-loader'
 import { isLocale, type Locale } from '@/lib/i18n/config'
+import { buildImageGallery, buildBreadcrumbList } from '@/lib/seo/json-ld'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -119,10 +120,56 @@ export default async function PressPage({ params }: Props) {
   const brandAssets = collectAssets(manifest, BRAND_KEYS)
   const pressAssets = collectAssets(manifest, PRESS_KEYS)
 
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
+  const pageUrl = `${baseUrl}/s/${locale}/${siteSlug}/prensa`
+  let siteContentName = site!.slug
+  try {
+    const raw = loadSiteContent(siteSlug, locale as Locale) as { siteName?: string }
+    if (raw.siteName) siteContentName = raw.siteName
+  } catch {
+    // fall through — use slug
+  }
+
+  const galleryItems = [...brandAssets, ...pressAssets].map(({ label, asset }) => ({
+    src: asset.src,
+    alt: asset.alt || label,
+    caption: label,
+  }))
+
+  const galleryLd = galleryItems.length > 0
+    ? buildImageGallery(
+        galleryItems,
+        {
+          slug: site!.slug,
+          country: site!.country,
+          defaultLocale: site!.defaultLocale,
+        },
+        baseUrl,
+        pageUrl,
+        `${copy.title} — ${siteContentName}`,
+      )
+    : null
+
+  const breadcrumbLd = buildBreadcrumbList([
+    { name: siteContentName, url: `${baseUrl}/s/${locale}/${siteSlug}` },
+    { name: copy.title, url: pageUrl },
+  ])
+
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: tokens.cssString }} />
       {tokens.googleFontsUrl && <link rel="stylesheet" href={tokens.googleFontsUrl} />}
+
+      {galleryLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(galleryLd) }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
 
       <main
         className="min-h-screen py-16 sm:py-24"
