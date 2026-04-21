@@ -6,7 +6,7 @@
     { "id": "header", "variant": "standard", "content": "navigation" },
     { "id": "hero", "variant": "minimal", "content": "store.hero" },
     { "id": "cta-banner", "variant": "solid", "content": "home.promo" },
-    { "id": "commerce-catalog", "variant": "grid", "content": "store.catalog" },
+    { "id": "product-catalog", "variant": "grid" },
     { "id": "footer", "variant": "standard", "content": "footer" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
