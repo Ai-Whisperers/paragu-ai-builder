@@ -106,6 +106,23 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
         // Normalize legacy prop names for known section components
         const normalized = normalizeSectionProps(s.id, filled)
 
+        // Rewrite bare-'/' navItem hrefs to the tenant's home URL.
+        // Content authors reasonably write href:"/" for "Home", but on
+        // a tenant page that would bounce the shopper to the platform
+        // root (paragu-ai.com) instead of keeping them inside the
+        // tenant. Does nothing when navItems isn't an array or no item
+        // needs rewriting — safe on every section.
+        if (s.id === 'header' && Array.isArray(normalized.navItems)) {
+          const tenantHome = site.path ?? `/s/${locale}/${siteSlug}`
+          normalized.navItems = (normalized.navItems as Array<Record<string, unknown>>).map(
+            (item) => {
+              const href = typeof item.href === 'string' ? item.href : ''
+              if (href === '' || href === '/') return { ...item, href: tenantHome }
+              return item
+            },
+          )
+        }
+
         const propsWithContext: Record<string, unknown> = {
           ...normalized,
           __siteSlug: site.slug,
