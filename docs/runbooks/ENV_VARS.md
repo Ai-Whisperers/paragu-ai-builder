@@ -84,6 +84,12 @@ it back. The diagnostics route at `/api/diagnostics` reflects current values.
 | `WHATSAPP_APP_SECRET` | Meta App Dashboard → App settings → Basic → "App secret" | Used by POST `/api/whatsapp-webhook` to verify Meta's `x-hub-signature-256` HMAC. **Without this set, every POST is 401-rejected** (fail-closed). |
 | `WHATSAPP_PHONE_SITE_MAP` | Self-managed JSON, e.g. `{"5959810000":"nexa-paraguay"}` | Maps Meta `phone_number_id` to a tenant slug for inbound lead routing. |
 
+### Calendly webhook
+
+| Var | Where to get | Notes |
+|---|---|---|
+| `CALENDLY_SIGNING_KEY` | Calendly account → Webhooks → endpoint detail → "Signing key" | Used by POST `/api/calendly-webhook` to verify the `calendly-webhook-signature` HMAC (format `t=<unix>,v1=<hex>`). **Without this set, every POST is 401-rejected** (fail-closed). 5-minute replay-protection window. |
+
 ### Mailchimp (deferred per Q8.2)
 
 Skip until the newsletter flow becomes a priority. When you wire it:
