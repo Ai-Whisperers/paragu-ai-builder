@@ -61,6 +61,7 @@ export async function seedCatalog(businessId: string, businessType: string): Pro
         inventoryPolicy: 'deny',
         images: p.images,
         status: 'active',
+        tags: [],
         metadata: {},
         isSeed: true,
       })
