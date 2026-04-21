@@ -268,6 +268,31 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['standard'],
     requiredContentFields: ['slots'],
   },
+  // Egg-farm / granja-cabral sections (PR #108)
+  'enhanced-faq': {
+    id: 'enhanced-faq',
+    defaultVariant: 'searchable',
+    variants: ['searchable'],
+    requiredContentFields: ['business'],
+  },
+  'our-story': {
+    id: 'our-story',
+    defaultVariant: 'narrative',
+    variants: ['narrative'],
+    requiredContentFields: ['business'],
+  },
+  'b2b-wholesale': {
+    id: 'b2b-wholesale',
+    defaultVariant: 'tiered',
+    variants: ['tiered'],
+    requiredContentFields: ['business'],
+  },
+  recipes: {
+    id: 'recipes',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+    requiredContentFields: ['business'],
+  },
 }
 
 /**
