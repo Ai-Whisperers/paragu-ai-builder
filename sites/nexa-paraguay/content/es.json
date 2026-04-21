@@ -1083,10 +1083,6 @@
         "href": "/s/es/nexa-paraguay/calidad-de-vida"
       },
       {
-        "label": "Jurisdicciones",
-        "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
         "label": "Glosario",
         "href": "/s/es/nexa-paraguay/glosario"
       },
@@ -2018,80 +2014,6 @@
       "title": "¿Tenés un término que no entendés?",
       "subtitle": "Escribinos. Lo agregamos al glosario.",
       "ctaText": "Escribirnos",
-      "ctaHref": "/contacto"
-    }
-  },
-  "jurisdictionCompPage": {
-    "seo": {
-      "title": "Paraguay vs. Uruguay vs. Panamá — comparativa",
-      "description": "Cuál jurisdicción elegir: territorialidad, impuestos, costo de vida, residencia."
-    },
-    "hero": {
-      "headline": "Paraguay, Uruguay o Panamá: ¿cuál jurisdicción?",
-      "subheadline": "Comparativa honesta de las tres jurisdicciones más demandadas por inversores europeos."
-    },
-    "matrix": {
-      "eyebrow": "Comparativa",
-      "title": "Tres jurisdicciones, tres perfiles",
-      "featureColumnLabel": "Característica",
-      "tiers": [
-        {
-          "id": "paraguay",
-          "name": "Paraguay",
-          "description": "Costo-eficiente, territorial.",
-          "price": "USD 4.400+",
-          "priceNote": "Nexa Paraguay Business",
-          "highlighted": true,
-          "badge": "Más costo-eficiente",
-          "included": [
-            "Territorial (no grava renta extranjera)",
-            "IRE 10 %",
-            "Residencia en 8–12 semanas",
-            "Costo de vida 30–50 % menor que UY",
-            "Menos burocracia"
-          ],
-          "ctaLabel": "Elegir Paraguay",
-          "ctaHref": "/contacto?programa=business"
-        },
-        {
-          "id": "uruguay",
-          "name": "Uruguay",
-          "description": "Estable, más oneroso.",
-          "price": "USD 10.000+",
-          "priceNote": "programa equivalente",
-          "included": [
-            "Territorial (con condiciones)",
-            "IRAE 25 %",
-            "Residencia en 4–6 meses",
-            "Costo de vida alto",
-            "Burocracia moderada"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        },
-        {
-          "id": "panama",
-          "name": "Panamá",
-          "description": "Offshore, más complejo.",
-          "price": "USD 8.000+",
-          "priceNote": "programa equivalente",
-          "included": [
-            "Territorial estricto",
-            "ISR 25 %",
-            "Residencia Friendly Nations en meses",
-            "Costo de vida medio",
-            "Reputación internacional mixta"
-          ],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ]
-    },
-    "cta": {
-      "eyebrow": "",
-      "title": "¿Todavía en duda?",
-      "subtitle": "Te armamos un análisis personalizado de tu perfil.",
-      "ctaText": "Pedir análisis",
       "ctaHref": "/contacto"
     }
   },

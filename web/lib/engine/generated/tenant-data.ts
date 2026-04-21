@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=159, content=137, blog=25, images=4, verticals=23. */
+/** Counts: sites=117, pages=158, content=137, blog=24, images=4, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -10438,43 +10438,6 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "lifestyle",
     "titleKey": "landingLifestyle.seo.title"
-  },
-  "nexa-paraguay:paraguay-vs-uruguay-vs-panama": {
-    "descriptionKey": "jurisdictionCompPage.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "jurisdictionCompPage.hero",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "jurisdictionCompPage.matrix",
-        "id": "programs-comparison",
-        "variant": "matrix"
-      },
-      {
-        "content": "jurisdictionCompPage.cta",
-        "id": "cta-banner",
-        "variant": "gradient"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "paraguay-vs-uruguay-vs-panama",
-    "titleKey": "jurisdictionCompPage.seo.title"
   },
   "nexa-paraguay:por-que-paraguay": {
     "descriptionKey": "whyCountryPage.seo.description",
@@ -21060,10 +21023,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Lebensqualität"
         },
         {
-          "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
-          "label": "Jurisdiktionen"
-        },
-        {
           "href": "/s/de/nexa-paraguay/glosario",
           "label": "Glossar"
         },
@@ -21439,80 +21398,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "recommendationCta": "Mit Nexa sprechen",
         "recommendationTitle": "Empfohlenes Programm",
         "stepProgressLabel": "Schritt"
-      }
-    },
-    "jurisdictionCompPage": {
-      "cta": {
-        "ctaHref": "/contacto",
-        "ctaText": "Analyse anfordern",
-        "eyebrow": "",
-        "subtitle": "Wir bereiten eine personalisierte Analyse Ihres Profils vor.",
-        "title": "Noch unsicher?"
-      },
-      "hero": {
-        "headline": "Paraguay, Uruguay oder Panama: welche Jurisdiktion?",
-        "subheadline": "Ehrlicher Vergleich der drei von europäischen Investoren am meisten nachgefragten Jurisdiktionen."
-      },
-      "matrix": {
-        "eyebrow": "Vergleich",
-        "featureColumnLabel": "Merkmal",
-        "tiers": [
-          {
-            "badge": "Kosteneffizientestes",
-            "ctaHref": "/contacto?programa=business",
-            "ctaLabel": "Paraguay wählen",
-            "description": "Kosteneffizient, territorial.",
-            "highlighted": true,
-            "id": "paraguay",
-            "included": [
-              "Territorial (besteuert kein Auslandseinkommen)",
-              "10 % IRE",
-              "Aufenthalt in 8–12 Wochen",
-              "Lebenshaltungskosten 30–50 % niedriger als UY",
-              "Weniger Bürokratie"
-            ],
-            "name": "Paraguay",
-            "price": "USD 4.400+",
-            "priceNote": "Nexa Paraguay Business"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Stabil, teurer.",
-            "id": "uruguay",
-            "included": [
-              "Territorial (mit Bedingungen)",
-              "25 % IRAE",
-              "Aufenthalt in 4–6 Monaten",
-              "Hohe Lebenshaltungskosten",
-              "Mäßige Bürokratie"
-            ],
-            "name": "Uruguay",
-            "price": "USD 10.000+",
-            "priceNote": "gleichwertiges Programm"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Offshore, komplexer.",
-            "id": "panama",
-            "included": [
-              "Strikt territorial",
-              "25 % ISR",
-              "Friendly Nations-Aufenthalt in Monaten",
-              "Mittlere Lebenshaltungskosten",
-              "Gemischter internationaler Ruf"
-            ],
-            "name": "Panama",
-            "price": "USD 8.000+",
-            "priceNote": "gleichwertiges Programm"
-          }
-        ],
-        "title": "Drei Jurisdiktionen, drei Profile"
-      },
-      "seo": {
-        "description": "Welche Jurisdiktion wählen: Territorialität, Steuern, Lebenshaltungskosten, Aufenthalt.",
-        "title": "Paraguay vs. Uruguay vs. Panama — Vergleich"
       }
     },
     "landingEmpresa": {
@@ -23139,10 +23024,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Quality of life"
         },
         {
-          "href": "/s/en/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
-          "label": "Jurisdictions"
-        },
-        {
           "href": "/s/en/nexa-paraguay/glosario",
           "label": "Glossary"
         },
@@ -23518,80 +23399,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "recommendationCta": "Talk to Nexa",
         "recommendationTitle": "Recommended program",
         "stepProgressLabel": "Step"
-      }
-    },
-    "jurisdictionCompPage": {
-      "cta": {
-        "ctaHref": "/contacto",
-        "ctaText": "Request analysis",
-        "eyebrow": "",
-        "subtitle": "We'll prepare a personalized analysis of your profile.",
-        "title": "Still uncertain?"
-      },
-      "hero": {
-        "headline": "Paraguay, Uruguay, or Panama: which jurisdiction?",
-        "subheadline": "Honest comparison of the three jurisdictions most demanded by European investors."
-      },
-      "matrix": {
-        "eyebrow": "Comparison",
-        "featureColumnLabel": "Feature",
-        "tiers": [
-          {
-            "badge": "Most cost-efficient",
-            "ctaHref": "/contacto?programa=business",
-            "ctaLabel": "Choose Paraguay",
-            "description": "Cost-efficient, territorial.",
-            "highlighted": true,
-            "id": "paraguay",
-            "included": [
-              "Territorial (no tax on foreign income)",
-              "10 % IRE",
-              "Residency in 8–12 weeks",
-              "Cost of living 30–50 % lower than UY",
-              "Less bureaucracy"
-            ],
-            "name": "Paraguay",
-            "price": "USD 4,400+",
-            "priceNote": "Nexa Paraguay Business"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Stable, more costly.",
-            "id": "uruguay",
-            "included": [
-              "Territorial (with conditions)",
-              "25 % IRAE",
-              "Residency in 4–6 months",
-              "High cost of living",
-              "Moderate bureaucracy"
-            ],
-            "name": "Uruguay",
-            "price": "USD 10,000+",
-            "priceNote": "equivalent program"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Offshore, more complex.",
-            "id": "panama",
-            "included": [
-              "Strict territorial",
-              "25 % ISR",
-              "Friendly Nations residency in months",
-              "Medium cost of living",
-              "Mixed international reputation"
-            ],
-            "name": "Panama",
-            "price": "USD 8,000+",
-            "priceNote": "equivalent program"
-          }
-        ],
-        "title": "Three jurisdictions, three profiles"
-      },
-      "seo": {
-        "description": "Which jurisdiction to choose: territoriality, taxes, cost of living, residency.",
-        "title": "Paraguay vs. Uruguay vs. Panama — comparison"
       }
     },
     "landingEmpresa": {
@@ -25188,10 +24995,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Calidad de vida"
         },
         {
-          "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
-          "label": "Jurisdicciones"
-        },
-        {
           "href": "/s/es/nexa-paraguay/glosario",
           "label": "Glosario"
         },
@@ -25567,80 +25370,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "recommendationCta": "Hablar con Nexa",
         "recommendationTitle": "Programa recomendado",
         "stepProgressLabel": "Paso"
-      }
-    },
-    "jurisdictionCompPage": {
-      "cta": {
-        "ctaHref": "/contacto",
-        "ctaText": "Pedir análisis",
-        "eyebrow": "",
-        "subtitle": "Te armamos un análisis personalizado de tu perfil.",
-        "title": "¿Todavía en duda?"
-      },
-      "hero": {
-        "headline": "Paraguay, Uruguay o Panamá: ¿cuál jurisdicción?",
-        "subheadline": "Comparativa honesta de las tres jurisdicciones más demandadas por inversores europeos."
-      },
-      "matrix": {
-        "eyebrow": "Comparativa",
-        "featureColumnLabel": "Característica",
-        "tiers": [
-          {
-            "badge": "Más costo-eficiente",
-            "ctaHref": "/contacto?programa=business",
-            "ctaLabel": "Elegir Paraguay",
-            "description": "Costo-eficiente, territorial.",
-            "highlighted": true,
-            "id": "paraguay",
-            "included": [
-              "Territorial (no grava renta extranjera)",
-              "IRE 10 %",
-              "Residencia en 8–12 semanas",
-              "Costo de vida 30–50 % menor que UY",
-              "Menos burocracia"
-            ],
-            "name": "Paraguay",
-            "price": "USD 4.400+",
-            "priceNote": "Nexa Paraguay Business"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Estable, más oneroso.",
-            "id": "uruguay",
-            "included": [
-              "Territorial (con condiciones)",
-              "IRAE 25 %",
-              "Residencia en 4–6 meses",
-              "Costo de vida alto",
-              "Burocracia moderada"
-            ],
-            "name": "Uruguay",
-            "price": "USD 10.000+",
-            "priceNote": "programa equivalente"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Offshore, más complejo.",
-            "id": "panama",
-            "included": [
-              "Territorial estricto",
-              "ISR 25 %",
-              "Residencia Friendly Nations en meses",
-              "Costo de vida medio",
-              "Reputación internacional mixta"
-            ],
-            "name": "Panamá",
-            "price": "USD 8.000+",
-            "priceNote": "programa equivalente"
-          }
-        ],
-        "title": "Tres jurisdicciones, tres perfiles"
-      },
-      "seo": {
-        "description": "Cuál jurisdicción elegir: territorialidad, impuestos, costo de vida, residencia.",
-        "title": "Paraguay vs. Uruguay vs. Panamá — comparativa"
       }
     },
     "landingEmpresa": {
@@ -27300,10 +27029,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Levenskwaliteit"
         },
         {
-          "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
-          "label": "Jurisdicties"
-        },
-        {
           "href": "/s/nl/nexa-paraguay/glosario",
           "label": "Woordenlijst"
         },
@@ -27679,80 +27404,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "recommendationCta": "Praten met Nexa",
         "recommendationTitle": "Aanbevolen programma",
         "stepProgressLabel": "Stap"
-      }
-    },
-    "jurisdictionCompPage": {
-      "cta": {
-        "ctaHref": "/contacto",
-        "ctaText": "Analyse aanvragen",
-        "eyebrow": "",
-        "subtitle": "Wij bereiden een gepersonaliseerde analyse van uw profiel voor.",
-        "title": "Nog niet zeker?"
-      },
-      "hero": {
-        "headline": "Paraguay, Uruguay of Panama: welke jurisdictie?",
-        "subheadline": "Eerlijke vergelijking van de drie jurisdicties die Europese investeerders het meest vragen."
-      },
-      "matrix": {
-        "eyebrow": "Vergelijking",
-        "featureColumnLabel": "Kenmerk",
-        "tiers": [
-          {
-            "badge": "Meest kostenefficiënt",
-            "ctaHref": "/contacto?programa=business",
-            "ctaLabel": "Kies Paraguay",
-            "description": "Kostenefficiënt, territoriaal.",
-            "highlighted": true,
-            "id": "paraguay",
-            "included": [
-              "Territoriaal (belast geen buitenlands inkomen)",
-              "10 % IRE",
-              "Verblijf in 8–12 weken",
-              "Kosten levensonderhoud 30–50 % lager dan UY",
-              "Minder bureaucratie"
-            ],
-            "name": "Paraguay",
-            "price": "USD 4.400+",
-            "priceNote": "Nexa Paraguay Business"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Stabiel, duurder.",
-            "id": "uruguay",
-            "included": [
-              "Territoriaal (met voorwaarden)",
-              "25 % IRAE",
-              "Verblijf in 4–6 maanden",
-              "Hoge kosten levensonderhoud",
-              "Matige bureaucratie"
-            ],
-            "name": "Uruguay",
-            "price": "USD 10.000+",
-            "priceNote": "equivalent programma"
-          },
-          {
-            "ctaHref": "#",
-            "ctaLabel": "—",
-            "description": "Offshore, complexer.",
-            "id": "panama",
-            "included": [
-              "Strikt territoriaal",
-              "25 % ISR",
-              "Friendly Nations-verblijf in maanden",
-              "Gemiddelde kosten levensonderhoud",
-              "Gemengde internationale reputatie"
-            ],
-            "name": "Panama",
-            "price": "USD 8.000+",
-            "priceNote": "equivalent programma"
-          }
-        ],
-        "title": "Drie jurisdicties, drie profielen"
-      },
-      "seo": {
-        "description": "Welke jurisdictie kiezen: territorialiteit, belastingen, kosten van levensonderhoud, verblijfsvergunning.",
-        "title": "Paraguay vs. Uruguay vs. Panama — vergelijking"
       }
     },
     "landingEmpresa": {
@@ -31049,7 +30700,6 @@ export const BLOG_POSTS: Record<string, string> = {
   "nexa-paraguay:es:abrir-cuenta-bancaria-paraguay": "---\ntitle: \"La verdad sobre abrir una cuenta bancaria en Paraguay\"\nslug: \"abrir-cuenta-bancaria-paraguay\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Banking\"\nexcerpt: \"Por qué es el paso más difícil y cómo se resuelve profesionalmente.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nPor qué es el paso más difícil y cómo se resuelve profesionalmente.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
   "nexa-paraguay:es:apertura-cuenta-bancaria-paraguay": "---\ntitle: \"Apertura de Cuenta Bancaria en Paraguay para Extranjeros\"\ndate: 2024-03-20\nauthor: \"Nexa Paraguay\"\ncategory: \"Banca\"\nexcerpt: \"Guía práctica para abrir cuentas bancarias personales y empresariales en Paraguay. Requisitos, bancos recomendados y consejos prácticos.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/banca.webp\"\n---\n\n# Apertura de Cuenta Bancaria en Paraguay para Extranjeros\n\nEl sistema bancario paraguayo ha evolucionado significativamente en los últimos años, ofreciendo servicios modernos y competitivos para residentes y no residentes. Abrir una cuenta bancaria es un paso esencial para establecerse en el país.\n\n## Tipos de Cuentas Disponibles\n\n### Cuentas en Guaraníes (PYG)\n- Moneda local\n- Menores costos de transacción nacional\n- Ideal para operaciones locales\n\n### Cuentas en Dólares (USD)\n- Protección contra inflación\n- Ideal para ahorro e inversión\n- Recomendada para extranjeros\n\n### Cuentas en Reales (BRL)\n- Útil para comercio con Brasil\n- Menor costo de cambio\n\n## Bancos Principales en Paraguay\n\n### Banco Continental\n- Mayor banco privado del país\n- Excelente plataforma digital\n- Buena atención a empresas\n\n### Banco Itaú Paraguay\n- Parte del grupo brasileño\n- Fuerte en comercio internacional\n- Buena red de sucursales\n\n### Banco Basa\n- Tradicional y conservador\n- Excelente para grandes empresas\n- Servicios de private banking\n\n### Banco Atlas\n- Enfocado en pymes\n- Innovador en productos digitales\n- Buena opción para startups\n\n### Banco Sudameris\n- Creciente presencia internacional\n- Fuerte en comercio exterior\n\n## Requisitos para Abrir Cuenta\n\n### Cuenta Personal (con Residencia)\n1. Cédula de identidad paraguaya\n2. RUC (Registro Único de Contribuyente)\n3. Comprobante de domicilio\n4. Referencias comerciales o laborales\n5. Carta de trabajo o declaración de renta\n\n### Cuenta Empresarial\n1. Escritura de constitución de sociedad\n2. RUC de la empresa\n3. Cédulas de socios/directores\n4. Acta de asamblea autorizando apertura\n5. Contrato social vigente\n6. Estados financieros (empresas existentes)\n\n### Cuenta para No Residentes\n- Pasaporte vigente\n- Referencias bancarias internacionales\n- Comprobante de origen de fondos\n- Entrevista personal obligatoria\n- Depósito inicial más alto\n\n## Proceso de Apertura\n\n### Paso 1: Elegir el Banco\nConsidera:\n- Tarifas de mantenimiento\n- Costos de transferencias internacionales\n- Calidad de banca digital\n- Proximidad de sucursales\n\n### Paso 2: Reunir Documentación\nRevisa los requisitos específicos del banco elegido.\n\n### Paso 3: Entrevista Bancaria\n- Evaluación de perfil de riesgo\n- Conocimiento del cliente (KYC)\n- Verificación de documentos\n\n### Paso 4: Firma de Contratos\n- Contrato de cuenta\n- Reglamento de operaciones\n- Términos de servicios digitales\n\n### Paso 5: Depósito Inicial y Activación\n- Depósito inicial (varía según tipo de cuenta)\n- Recibo de tarjeta de débito\n- Activación de banca en línea\n\n## Tiempos de Apertura\n\n| Tipo de Cuenta | Tiempo Estimado |\n|----------------|------------------|\n| Personal (residente) | 24-72 horas |\n| Empresarial | 3-7 días hábiles |\n| No residente | 1-2 semanas |\n| Cuenta VIP/Empresarial | 1-2 días |\n\n## Costos Típicos\n\n| Concepto | Costo Aproximado |\n|----------|-------------------|\n| Apertura de cuenta | Gratis - USD 50 |\n| Mantenimiento mensual | USD 3 - 15 |\n| Transferencias nacionales | USD 1 - 5 |\n| Transferencias internacionales | USD 25 - 75 |\n| Tarjeta de débito | USD 5 - 15/año |\n| Tarjeta de crédito | USD 20 - 100/año |\n\n## Consideraciones para Extranjeros\n\n### Ventajas\n- Banca estable y regulada\n- Depósitos asegurados (hasta cierto monto)\n- Posibilidad de cuentas en dólares\n- Transferencias SWIFT disponibles\n\n### Desafíos\n- Proceso más complejo sin residencia\n- Requiere presencia personal\n- Límites en montos según perfil\n\n## Recomendación Nexa Paraguay\n\nPara una apertura exitosa:\n\n1. **Obtén tu residencia primero**: Facilita enormemente el proceso\n2. **Prepara documentación completa**: Evita retrasos\n3. **Evalúa múltiples bancos**: Compara servicios y costos\n4. **Considera cuentas en dólares**: Mejor para extranjeros\n5. **Activa todos los servicios digitales**: Banca online, app móvil\n\n## Nuestro Servicio de Acompañamiento\n\nIncluimos en nuestros programas:\n- Preparación de documentación\n- Agendamiento de entrevistas bancarias\n- Acompañamiento en firma de documentos\n- Coordinación con oficiales de cuenta\n- Activación de servicios digitales\n\n---\n\n*¿Necesitas ayuda con la apertura de tu cuenta bancaria? Es parte de nuestro servicio integral.*\n",
   "nexa-paraguay:es:checklist-documentos-establecerse": "---\ntitle: \"Documentos necesarios para establecerse en Paraguay: checklist completo\"\nslug: \"checklist-documentos-establecerse\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Process\"\nexcerpt: \"Apostillas, traducciones, certificados — qué traer, qué hacer allá.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nApostillas, traducciones, certificados — qué traer, qué hacer allá.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
-  "nexa-paraguay:es:comparativa-fiscal-paraguay-vs-uruguay": "---\ntitle: \"Comparativa Fiscal 2024: Paraguay vs Uruguay para Empresas\"\ndate: 2024-04-08\nauthor: \"Nexa Paraguay\"\ncategory: \"Fiscalidad\"\nexcerpt: \"Análisis detallado de las diferencias fiscales entre Paraguay y Uruguay para empresas e inversores. Descubre cuál es la mejor opción para tu negocio.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp\"\n---\n\n# Comparativa Fiscal 2024: Paraguay vs Uruguay para Empresas\n\nLa elección del país para establecer una empresa es una decisión crucial que impacta directamente en la rentabilidad y crecimiento del negocio. Dos de los destinos más atractivos de Sudamérica son Paraguay y Uruguay, cada uno con sus propias ventajas fiscales.\n\n## Resumen Comparativo Rápido\n\n| Aspecto | Paraguay | Uruguay |\n|---------|----------|---------|\n| IRP (Impuesto a la Renta Empresaria) | 10% | 25% |\n| IVA | 10% | 22% |\n| Patrimonio | 0% | 0.7% - 1.5% |\n| Dividendos | 0% (si reinvertidos) | 7% - 12% |\n| Maquila (Zona Franca) | Exención total | Beneficios parciales|\n\n## Paraguay: El Paraíso Fiscal Legal de Sudamérica\n\n### Ventajas Fiscales Paraguay\n\n1. **IRP del 10%**: Una de las tasas más bajas del continente\n2. **IVA del 10%**: Menor carga impositiva al consumo\n3. **Zona Franca Paraguay**: Exención total para empresas exportadoras\n4. **No cobro de impuesto al patrimonio**: Tus activos no generan carga fiscal\n5. **Exención de dividendos**: Si reinviertes utilidades, no pagas impuestos adicionales\n\n### Caso de Éxito Paraguay\n\nUna empresa de software que factura USD 1 millón anual:\n- Impuesto a la renta: USD 100,000\n- Dividendos reinvertidos: USD 0\n- IVA (si aplica): 10% sobre consumo\n\n## Uruguay: Estabilidad con Mayor Carga Fiscal\n\n### Ventajas Fiscales Uruguay\n\n1. **Estabilidad jurídica**: Sistema legal robusto y predecible\n2. **Residencia fiscal fácil**: Requisitos claros y accesibles\n3. **Zona Franca Uruguay**: Beneficios para operaciones offshore\n4. **Convenios de doble tributación**: Más extensos que Paraguay\n\n### Caso de Éxito Uruguay\n\nMisma empresa de software (USD 1 millón):\n- Impuesto a la renta: USD 250,000\n- Dividendos: USD 70,000 - 120,000 adicionales\n- IVA: 22% sobre consumo\n\n## Análisis por Tipo de Negocio\n\n### Empresas de Tecnología y Servicios\n**Ganador: Paraguay**\n\nLa combinación de IRP del 10% y exención de dividendos hace que Paraguay sea ideal para startups y empresas tech.\n\n### Trading y E-commerce\n**Ganador: Paraguay (Zona Franca)**\n\nLa Zona Franca paraguaya ofrece beneficios superiores para empresas de comercio internacional.\n\n### Consultoría Profesional\n**Ganador: Paraguay**\n\nMenor carga fiscal y facilidades para facturación internacional.\n\n## Consideraciones No Fiscales\n\n### Paraguay\n- ✅ Menor costo de vida\n- ✅ Mercado laboral en crecimiento\n- ✅ Ubicación estratégica (centro de Sudamérica)\n- ⚠️ Menor desarrollo financiero que Uruguay\n\n### Uruguay\n- ✅ Sistema bancario más desarrollado\n- ✅ Mayor aceptación internacional\n- ✅ Educación y salud de alta calidad\n- ⚠️ Costo de vida 40-60% mayor que Paraguay\n\n## Conclusión\n\nPara la mayoría de empresas, **Paraguay ofrece ventajas fiscales significativas** que pueden representar ahorros de 50-70% comparado con Uruguay. Sin embargo, la elección debe considerar también factores como:\n\n- Mercado objetivo\n- Proveedores y cadena de valor\n- Necesidades de talento humano\n- Proyección de crecimiento\n\n## Recomendación de Nexa Paraguay\n\nSi tu prioridad es **optimización fiscal y costos operativos**, Paraguay es la opción clara.\n\nSi necesitas **máxima estabilidad jurídica y reconocimiento internacional inmediato**, considera Uruguay.\n\n---\n\n*¿Necesitas ayuda para decidir? Agenda una consulta estratégica gratuita con nuestros asesores.*\n",
   "nexa-paraguay:es:comprar-propiedades-paraguay-extranjeros": "---\ntitle: \"Guía para Extranjeros: Cómo Comprar Propiedades en Paraguay\"\ndate: 2024-03-28\nauthor: \"Nexa Paraguay\"\ncategory: \"Inversión Inmobiliaria\"\nexcerpt: \"Todo el proceso legal y práctico para adquirir inmuebles en Paraguay siendo extranjero. Desde la búsqueda hasta la escrituración.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/propiedades.webp\"\n---\n\n# Guía para Extranjeros: Cómo Comprar Propiedades en Paraguay\n\nEl mercado inmobiliario paraguayo se ha posicionado como uno de los más atractivos de Sudamérica para inversores extranjeros. Con precios competitivos, alta rentabilidad y un marco legal favorable, comprar propiedades en Paraguay es más simple de lo que imaginas.\n\n## ¿Pueden los Extranjeros Comprar Propiedad en Paraguay?\n\n**Sí, absolutamente.** La Constitución paraguaya garantiza a extranjeros los mismos derechos de propiedad que a nacionales, con una sola excepción: la propiedad rural en zonas de frontera (50km), que requiere autorización especial.\n\n## Requisitos para Comprar\n\n### Si ya tienes Residencia Paraguaya\n- Cédula de identidad vigente\n- RUC (Registro Único de Contribuyente)\n- Solvencia fiscal\n\n### Si no tienes Residencia\n- Pasaporte vigente\n- Representante legal local (recomendado)\n- Poder notarial (si compras a distancia)\n\n## El Proceso de Compra\n\n### Paso 1: Búsqueda y Due Diligence\n- Identificación de propiedades según objetivo (inversión, vivienda, comercial)\n- Verificación de títulos de propiedad\n- Confirmación de no existencia de gravámenes\n- Revisión de impuestos municipales al día\n\n### Paso 2: Negociación y Reserva\n- Negociación de precio y condiciones\n- Firma de pre-contrato o reserva\n- Depósito de garantía (típicamente 10%)\n\n### Paso 3: Escrituración\n- Firma de escritura pública ante escribano\n- Transferencia de fondos\n- Registro de la propiedad\n\n### Paso 4: Posescrituración\n- Registro en Dirección General de Registros Públicos\n- Cambio de titularidad en servicios\n- Obtención de plano aprobado (si aplica)\n\n## Costos Asociados\n\n| Concepto | Porcentaje | Notas |\n|----------|------------|-------|\n| Impuesto Inmobiliario | 0.5% - 1% anual | Sobre valor fiscal |\n| Impuesto a la Renta (venta) | 10% | Solo sobre ganancia de capital |\n| Impuesto de Sellos | 0.5% - 2% | En escrituración |\n| Honorarios Escribano | 1% - 1.5% | Negociable |\n| Registro de Propiedad | 0.5% - 1% | Sobre valor de escritura |\n| Comisión Corretaje | 3% - 5% | Típicamente paga vendedor |\n\n## Zonas Más Atractivas para Inversión\n\n### Asunción y Gran Asunción\n- **Villa Morra**: Barrio premium, alta valorización\n- **Las Carmelitas**: Seguridad y exclusividad\n- **Mburucuyá**: Zona residencial en crecimiento\n- **San Lorenzo**: Precios accesibles con buena rentabilidad\n\n### Zonas Turísticas\n- **San Bernardino**: Lago Ypacaraí, alta demanda turística\n- **Areguá**: Capital del artesanato, creciente interés\n- **Ciudad del Este**: Centro comercial binacional\n\n### Agro\n- **Alto Paraná**: Tierra productiva para soja\n- **San Pedro**: Precios competitivos, alto rendimiento\n- **Caaguazú**: Creciente demanda agropecuaria\n\n## Rentabilidad Esperada\n\n### Inversión Residencial (Alquiler)\n- **Retorno anual**: 6% - 10% en dólares\n- **Plusvalía**: 8% - 12% anual en zonas premium\n- **Payback**: 10-15 años\n\n### Inversión Comercial\n- **Retorno anual**: 8% - 15%\n- **Más alto riesgo, más alta rentabilidad**\n\n### Inversión Agropecuaria\n- **Retorno anual**: 10% - 20%\n- **Requiere conocimiento técnico**\n\n## Errores Comunes a Evitar\n\n### 1. No Verificar Títulos\nSiempre contrata un abogado para hacer due diligence completa.\n\n### 2. Ignorar Impuestos Municipales\nVerifica que no haya deudas acumuladas que puedan afectar la compra.\n\n### 3. Comprar sin Ver el Inmueble\nSi no puedes viajar, contrata un representante de confianza.\n\n### 4. No Considerar Costos de Mantenimiento\nLos costos de mantenimiento pueden representar 1-3% del valor anual.\n\n## Servicios de Nexa Paraguay\n\nOfrecemos acompañamiento integral en la compra de propiedades:\n\n1. **Búsqueda estratégica** según tu perfil de inversión\n2. **Due diligence legal completa**\n3. **Negociación** con vendedores y corredores\n4. **Acompañamiento en escrituración**\n5. **Gestión post-compra** (servicios, alquileres, etc.)\n\n---\n\n*¿Interesado en invertir en propiedades paraguayas? Agenda una consulta con nuestro equipo inmobiliario.*\n",
   "nexa-paraguay:es:constituir-empresa-paraguay": "---\ntitle: \"Constituir una empresa en Paraguay: tipos societarios y pasos\"\nslug: \"constituir-empresa-paraguay\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Company\"\nexcerpt: \"EAS vs. SA. Cuándo usar qué, y qué documenta realmente cada estructura.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nEAS vs. SA. Cuándo usar qué, y qué documenta realmente cada estructura.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
   "nexa-paraguay:es:costo-de-vida-paraguay-europeos": "---\ntitle: \"Costo de vida en Paraguay: guía realista para europeos\"\nslug: \"costo-de-vida-paraguay-europeos\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Life\"\nexcerpt: \"Números concretos: vivienda, salud, educación, servicios — desde la perspectiva europea.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nNúmeros concretos: vivienda, salud, educación, servicios — desde la perspectiva europea.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
@@ -31375,16 +31025,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
           },
           "src": "/sites/nexa-paraguay/images/blog/banca.webp"
         },
-        "comparativaFiscal": {
-          "alt": "Paraguay vs Uruguay fiscal comparison",
-          "altByLocale": {
-            "de": "Blog-Titelbild: Steuervergleich Paraguay vs. Nachbarländer",
-            "en": "Blog cover: Paraguay tax comparison vs neighbouring countries",
-            "es": "Portada de blog: comparativa fiscal Paraguay vs países vecinos",
-            "nl": "Blogomslag: fiscale vergelijking Paraguay vs buurlanden"
-          },
-          "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp"
-        },
         "costOfLiving": {
           "alt": "Cost of living in Paraguay",
           "altByLocale": {
@@ -31424,16 +31064,6 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
             "nl": "Blogomslag: wijken in Asunción"
           },
           "src": "/sites/nexa-paraguay/images/blog/neighborhoods.webp"
-        },
-        "paraguayUruguayPanama": {
-          "alt": "Paraguay vs Uruguay vs Panama comparison",
-          "altByLocale": {
-            "de": "Blog-Titelbild: Vergleich Paraguay vs. Uruguay vs. Panama",
-            "en": "Blog cover: Paraguay vs Uruguay vs Panama comparison",
-            "es": "Portada de blog: comparativa Paraguay vs Uruguay vs Panamá",
-            "nl": "Blogomslag: vergelijking Paraguay vs Uruguay vs Panama"
-          },
-          "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.webp"
         },
         "propiedades": {
           "alt": "Buying property in Paraguay",
@@ -32402,7 +32032,6 @@ export const TESTIMONIALS_DATA: Record<string, JsonRecord> = {
         "countries": [
           "Argentina",
           "Brasil",
-          "Uruguay",
           "Chile",
           "Colombia",
           "España",

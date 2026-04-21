@@ -115,25 +115,25 @@ successive weeks to avoid caption fatigue.
 1. "Sistema territorial + 10% impuesto corporativo = previsibilidad."
 2. "Sistema fiscal territorial. En Paraguay, los ingresos generados fuera del país no pagan impuesto local."
 3. "Costo de vida vs. poder adquisitivo. El dato que cambia la ecuación para ingresos en euros o dólares."
-4. "Una sola residencia, acceso a MERCOSUR. Paraguay abre puertas operativas en Argentina, Brasil y Uruguay."
+4. "Una sola residencia, acceso a MERCOSUR. Paraguay abre puertas operativas en Argentina y Brasil."
 
 **English**
 1. "Territorial tax + 10% corporate rate = predictability."
 2. "Territorial tax system. In Paraguay, foreign-sourced income is not locally taxed."
 3. "Cost of living vs. purchasing power. The data point that changes the maths for euro / dollar incomes."
-4. "One residency, MERCOSUR access. Paraguay opens operational doors in Argentina, Brazil and Uruguay."
+4. "One residency, MERCOSUR access. Paraguay opens operational doors in Argentina and Brazil."
 
 **Nederlands**
 1. "Territoriaal belastingsysteem + 10% vennootschapsbelasting = voorspelbaarheid."
 2. "Territoriaal belastingstelsel. In Paraguay wordt inkomen uit het buitenland lokaal niet belast."
 3. "Kosten van levensonderhoud vs. koopkracht. Het datapunt dat de rekensom verandert voor euro-inkomen."
-4. "Één residentie, MERCOSUR-toegang. Paraguay opent operationele deuren in Argentinië, Brazilië en Uruguay."
+4. "Één residentie, MERCOSUR-toegang. Paraguay opent operationele deuren in Argentinië en Brazilië."
 
 **Deutsch**
 1. "Territorialsystem + 10% Körperschaftsteuer = Berechenbarkeit."
 2. "Territoriales Steuersystem. In Paraguay wird ausländisches Einkommen lokal nicht besteuert."
 3. "Lebenshaltungskosten vs. Kaufkraft. Der Datenpunkt, der die Rechnung für Euro-Einkommen verändert."
-4. "Eine Residenz, MERCOSUR-Zugang. Paraguay öffnet operative Türen in Argentinien, Brasilien und Uruguay."
+4. "Eine Residenz, MERCOSUR-Zugang. Paraguay öffnet operative Türen in Argentinien und Brasilien."
 
 ---
 
