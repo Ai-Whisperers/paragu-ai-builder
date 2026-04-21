@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import dynamic from 'next/dynamic'
 import {
   Scissors, Dumbbell, Flower2, Hand, PenTool, User, Sparkles,
   Palette, Zap, Eye, Globe, Smartphone, Search, MessageCircle,
@@ -15,23 +16,28 @@ import { Container } from '@/components/ui/container'
 import { useActiveSection, useCountUp } from '@/lib/hooks'
 import { FadeIn } from '@/components/landing/fade-in'
 import { FAQItem } from '@/components/landing/faq-item'
-import { TestimonialCarousel } from '@/components/landing/testimonial-carousel'
-import { NewsletterForm } from '@/components/landing/newsletter-form'
 import { LogoStrip } from '@/components/landing/logo-strip'
 import { VideoBlock } from '@/components/landing/video-block'
-import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta'
-import { ActivityTicker } from '@/components/landing/activity-ticker'
 import { PressStrip } from '@/components/landing/press-strip'
-import { HeroVariantChip } from '@/components/landing/hero-variant-chip'
-import { ScrollDepthTracker } from '@/components/landing/scroll-depth-tracker'
 import { waLink } from '@/lib/landing/marketing-data'
 import { useHeroVariant } from '@/lib/experiments/hero-variant'
-import {
-  FloatingShape,
-  ScrollProgress,
-  FloatingWhatsApp,
-  BackToTop,
-} from '@/components/landing/chrome'
+import { FloatingShape } from '@/components/landing/chrome'
+
+/**
+ * BUG_HUNT_500 perf — landing scored 44/100 with TBT 2,250ms because every
+ * floating component mounted in parallel with the hero. Defer the
+ * non-critical chrome until after first paint via next/dynamic. Hero
+ * render path stays synchronous; everything else hydrates lazily.
+ */
+const ScrollProgress = dynamic(() => import('@/components/landing/chrome').then((m) => m.ScrollProgress), { ssr: false, loading: () => null })
+const FloatingWhatsApp = dynamic(() => import('@/components/landing/chrome').then((m) => m.FloatingWhatsApp), { ssr: false, loading: () => null })
+const BackToTop = dynamic(() => import('@/components/landing/chrome').then((m) => m.BackToTop), { ssr: false, loading: () => null })
+const StickyMobileCTA = dynamic(() => import('@/components/landing/sticky-mobile-cta').then((m) => m.StickyMobileCTA), { ssr: false, loading: () => null })
+const ActivityTicker = dynamic(() => import('@/components/landing/activity-ticker').then((m) => m.ActivityTicker), { ssr: false, loading: () => null })
+const TestimonialCarousel = dynamic(() => import('@/components/landing/testimonial-carousel').then((m) => m.TestimonialCarousel), { ssr: false, loading: () => null })
+const NewsletterForm = dynamic(() => import('@/components/landing/newsletter-form').then((m) => m.NewsletterForm), { ssr: false, loading: () => null })
+const HeroVariantChip = dynamic(() => import('@/components/landing/hero-variant-chip').then((m) => m.HeroVariantChip), { ssr: false, loading: () => null })
+const ScrollDepthTracker = dynamic(() => import('@/components/landing/scroll-depth-tracker').then((m) => m.ScrollDepthTracker), { ssr: false, loading: () => null })
 
 /* ── Data Constants ─────────────────────────────────────────────── */
 
