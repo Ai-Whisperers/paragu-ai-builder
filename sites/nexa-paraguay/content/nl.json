@@ -770,7 +770,7 @@
       "neighborhood": "Centro",
       "city": "Asunción",
       "email": "hola@nexaparaguay.com",
-      "whatsapp": "595000000000"
+      "whatsapp": "595982515138"
     }
   },
   "privacyPage": {
@@ -822,7 +822,7 @@
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
     "email": "hola@nexaparaguay.com",
-    "whatsapp": "595000000000",
+    "whatsapp": "595982515138",
     "instagram": "https://instagram.com/nexaparaguay",
     "navLinks": [
       {
@@ -860,7 +860,7 @@
     "subtitle": "Vul deze beëdigde verklaring in voordat u diensten voor bedrijfsoprichting, bankrekeningopening of onroerend-goed-acquisitie start.",
     "submitLabel": "Verklaring indienen",
     "successMessage": "Bedankt. Een compliance-medewerker neemt binnen 72 werkuren contact met u op.",
-    "whatsappPhone": "595000000000",
+    "whatsappPhone": "595982515138",
     "whatsappFallbackLabel": "Vragen? Neem contact op via WhatsApp",
     "questions": [
       { "id": "fullName", "kind": "text", "label": "Volledige naam (volgens identiteitsbewijs)", "required": true },
@@ -887,7 +887,7 @@
     ]
   },
   "whatsapp": {
-    "phone": "595000000000",
+    "phone": "595982515138",
     "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay."
   }
 }
