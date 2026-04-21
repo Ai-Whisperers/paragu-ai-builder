@@ -1,0 +1,18 @@
+{
+  "slug": "placer-plus",
+  "titleKey": "loyalty.seo.title",
+  "descriptionKey": "loyalty.seo.description",
+  "sections": [
+    { "id": "age-gate", "variant": "modal", "content": "ageGate" },
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "loyalty-hero", "variant": "minimal", "content": "loyalty.hero" },
+    { "id": "loyalty-how-it-works", "variant": "steps", "content": "loyalty.howItWorks" },
+    { "id": "loyalty-tiers", "variant": "comparison-cards", "content": "loyalty.tiers" },
+    { "id": "loyalty-earning", "variant": "list", "content": "loyalty.earningRules" },
+    { "id": "loyalty-redemption", "variant": "grid", "content": "loyalty.redemptionOptions" },
+    { "id": "loyalty-faq", "variant": "accordion", "content": "loyalty.faq" },
+    { "id": "cta", "variant": "split", "content": "loyalty.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}

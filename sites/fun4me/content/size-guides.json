@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "description": "Size guides for lingerie and wearable products. Rendered as modal or accordion on product pages. Measurements in cm (PY uses metric)."
+  },
+  "lingerie": {
+    "title": "Guía de talles — Lencería",
+    "instructions": [
+      { "step": 1, "title": "Contorno de busto", "text": "Medí alrededor de la parte más llena del busto, con sostén sin relleno. Mantené la cinta paralela al piso." },
+      { "step": 2, "title": "Contorno bajo busto", "text": "Medí justo debajo del busto, donde apoya la banda del sostén." },
+      { "step": 3, "title": "Cadera", "text": "Medí la parte más ancha de la cadera, con los pies juntos." },
+      { "step": 4, "title": "Cintura", "text": "Medí la parte más angosta de la cintura, entre costillas y ombligo." }
+    ],
+    "charts": [
+      {
+        "type": "top",
+        "chartTitle": "Talles para Tops / Corpiños / Babydolls",
+        "headers": ["Talle", "Busto (cm)", "Bajo busto (cm)"],
+        "rows": [
+          { "talle": "XS", "busto": "78-82", "bajoBusto": "64-68" },
+          { "talle": "S", "busto": "83-87", "bajoBusto": "69-73" },
+          { "talle": "M", "busto": "88-92", "bajoBusto": "74-78" },
+          { "talle": "L", "busto": "93-97", "bajoBusto": "79-83" },
+          { "talle": "XL", "busto": "98-102", "bajoBusto": "84-88" },
+          { "talle": "XXL", "busto": "103-107", "bajoBusto": "89-93" }
+        ]
+      },
+      {
+        "type": "bottom",
+        "chartTitle": "Talles para Bombachas / Tangas",
+        "headers": ["Talle", "Cintura (cm)", "Cadera (cm)"],
+        "rows": [
+          { "talle": "XS", "cintura": "60-64", "cadera": "82-86" },
+          { "talle": "S", "cintura": "65-69", "cadera": "87-91" },
+          { "talle": "M", "cintura": "70-74", "cadera": "92-96" },
+          { "talle": "L", "cintura": "75-79", "cadera": "97-101" },
+          { "talle": "XL", "cintura": "80-84", "cadera": "102-106" },
+          { "talle": "XXL", "cintura": "85-89", "cadera": "107-111" }
+        ]
+      }
+    ],
+    "brandNotes": {
+      "general": "Los talles son aproximados. Si estás entre dos talles, recomendamos el mayor.",
+      "elastic": "Productos con mucho elastano suelen ser indulgentes en el talle. Si dice 'one size', suele ajustar de S a L.",
+      "corsets": "Para corsets, elegí 5 cm menos que tu cintura natural (el corset ciñe). Esto NO aplica a corpiños ni babydolls."
+    },
+    "returnPolicy": "Lencería puede devolverse en 7 días siempre que no haya sido usada y mantenga etiquetas intactas. Por higiene, bombachas y tangas NO admiten devolución abiertos."
+  },
+  "intimateApparel": {
+    "title": "Guía de talles — Apparel íntimo / BDSM",
+    "items": [
+      {
+        "product": "Arneses",
+        "sizing": "Ajustables en la mayoría de los casos. Consultá medidas específicas en cada producto.",
+        "fitTip": "Debe ajustar firme pero no cortar circulación. Probá con dos dedos de espacio."
+      },
+      {
+        "product": "Esposas de velcro",
+        "sizing": "One size, ajustables de 15 a 25 cm de circunferencia.",
+        "fitTip": "Pueden usarse en muñecas o tobillos."
+      },
+      {
+        "product": "Esposas de cuero/metal",
+        "sizing": "Medí circunferencia de muñeca. Tamaños S (14-17cm), M (17-20cm), L (20-23cm).",
+        "fitTip": "Para seguridad, elegí modelos con llave de escape rápido en primeras veces."
+      }
+    ]
+  },
+  "ringToys": {
+    "title": "Anillos para pene",
+    "instructions": [
+      "Medí circunferencia en estado relajado.",
+      "Sumar 1-1.5 cm para selección de talle."
+    ],
+    "chart": {
+      "headers": ["Talle", "Diámetro (cm)", "Circunferencia (cm)"],
+      "rows": [
+        { "talle": "S", "diametro": "3.5", "circunferencia": "11.0" },
+        { "talle": "M", "diametro": "4.0", "circunferencia": "12.5" },
+        { "talle": "L", "diametro": "4.5", "circunferencia": "14.0" }
+      ]
+    },
+    "safetyNote": "Máximo 20-30 minutos de uso continuo. Remover si hay dolor, cambio de color o adormecimiento."
+  },
+  "displayConfig": {
+    "renderAs": "modal",
+    "triggerText": "Ver guía de talles",
+    "position": "near_size_selector"
+  }
+}

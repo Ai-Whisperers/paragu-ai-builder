@@ -22,8 +22,12 @@
     "businessName": "Fun4Me",
     "items": [
       { "label": "Inicio", "href": "/" },
-      { "label": "Tienda", "href": "/store" },
-      { "label": "Nosotros", "href": "#about" },
+      { "label": "Tienda", "href": "/fun4me/store" },
+      { "label": "Kits", "href": "/fun4me/bundles" },
+      { "label": "Cajas Mensuales", "href": "/fun4me/suscripciones" },
+      { "label": "Blog", "href": "/fun4me/blog" },
+      { "label": "Regalá", "href": "/fun4me/gift-cards" },
+      { "label": "Placer Plus", "href": "/fun4me/placer-plus" },
       { "label": "Contacto", "href": "#contact" }
     ],
     "ctaText": "WhatsApp",
