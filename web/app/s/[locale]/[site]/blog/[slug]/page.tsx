@@ -205,14 +205,6 @@ export default async function BlogPostPage({ params }: Props) {
           color: 'var(--text)',
         }}
       >
-        <Breadcrumbs
-          absoluteBaseUrl={env.APP_URL}
-          items={[
-            { label: 'Home', href: `/s/${locale}/${siteSlug}` },
-            { label: 'Blog', href: `/s/${locale}/${siteSlug}/blog` },
-            { label: post.title },
-          ]}
-        />
         <BlogPostSection
           title={post.title}
           date={post.date}

@@ -105,9 +105,7 @@ export function BlogPostSection({
                   </div>
                   <div className="p-5">
                     {p.category && (
-                      <span
-                        className="mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]"
-                      >
+                      <span className="mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
                         {p.category}
                       </span>
                     )}
