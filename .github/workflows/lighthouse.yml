@@ -33,8 +33,7 @@ jobs:
       - name: Build + run Lighthouse against 3 representative pages
         env:
           NEXT_PUBLIC_APP_URL: http://localhost:3000
-        run: |
-          lhci autorun --config=./lighthouserc.json || echo "::warning::Lighthouse budgets exceeded — review report below"
+        run: lhci autorun --config=./lighthouserc.json
 
       - name: Upload Lighthouse report
         if: always()
