@@ -124,6 +124,15 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'grid',
     variants: ['grid'],
   },
+  'age-gate': {
+    // Self-declared 18+ modal for adult-content tenants. Registry flags
+    // `features.ageGate.enabled: true, minAge: N` on sex_shop,
+    // cigar_lounge_shop, onlyfans_creator_studio, etc. Returns null
+    // when the visitor has already confirmed (localStorage flag).
+    id: 'age-gate',
+    defaultVariant: 'modal',
+    variants: ['modal'],
+  },
   footer: {
     id: 'footer',
     defaultVariant: 'standard',

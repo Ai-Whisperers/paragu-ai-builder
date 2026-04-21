@@ -16,7 +16,7 @@
     "header", "hero", "product-catalog", "product-grid", "services",
     "gallery", "testimonials", "faq", "business-hours", "google-maps",
     "contact", "cta-banner", "footer", "whatsapp-float",
-    "commerce-catalog", "featured-products", "trust-signals"
+    "commerce-catalog", "featured-products", "trust-signals", "age-gate"
   ],
   "defaultStarterKit": "minimal",
   "locales": ["es"]
