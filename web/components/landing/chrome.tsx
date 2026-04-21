@@ -52,7 +52,7 @@ export function FloatingWhatsApp() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escribinos por WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-110 hover:shadow-xl"
+      className="fixed bottom-24 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-110 hover:shadow-xl md:bottom-6"
       style={{ animation: 'pulse 2s infinite' }}
     >
       <MessageCircle size={28} fill="currentColor" />
@@ -81,7 +81,7 @@ export function BackToTop() {
     <button
       onClick={scrollToTop}
       aria-label="Volver arriba"
-      className="fixed bottom-24 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] shadow-md transition-all hover:bg-[var(--surface-light)]"
+      className="fixed bottom-44 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] shadow-md transition-all hover:bg-[var(--surface-light)] md:bottom-24"
     >
       <ArrowUp size={20} />
     </button>
