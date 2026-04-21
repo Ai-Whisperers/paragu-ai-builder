@@ -22,6 +22,21 @@ export const CAPABILITIES: PaymentCapability[] = [
     basePriority: 1,
   },
   {
+    // Offline bank transfer + WhatsApp comprobante. Countries/currencies
+    // empty = works everywhere, but `requiresExplicitAvailable` stops it
+    // from being offered unless the merchant explicitly installed manual
+    // credentials via the admin payments page. That way the router's
+    // default behavior for a fresh PY merchant is still "try Pagopar",
+    // not "silently drop them into manual-transfer mode."
+    provider: 'manual',
+    countries: [],
+    currencies: [],
+    methods: ['bank_transfer'],
+    feeTier: 'low',
+    basePriority: 99,
+    requiresExplicitAvailable: true,
+  },
+  {
     provider: 'bancard',
     countries: ['PY'],
     currencies: ['PYG'],
