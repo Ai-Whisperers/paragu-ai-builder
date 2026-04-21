@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 84 | see closure log below |
+| ✅ Closed | 86 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 416 | the rest |
+| 🔴 Open | 414 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -165,9 +165,17 @@ Closure log:
   unauthenticated, now `checkAdmin`) and `/api/analytics/track` (POST stays
   public for browser ingest; GET had the same broken `Bearer foo` pattern,
   now `checkAdmin`). All 5 original audit routes done. Tests updated:
-  6/6 passing on analytics-track. New unwrapped route flagged in audit
-  doc as a parallel-agent addition (`generate-preview/route.ts`) for
-  follow-up.
+  6/6 passing on analytics-track.
+- **#492** — `docs/DEMO_GIVEAWAY_SCRIPT.md` covers the exact phrasing
+  for "let me build you a demo for free, no commitment", including
+  per-vertical leading hooks (10 verticals), turnaround conventions,
+  cold-prospect + referral variants, and what NOT to do. Pairs with
+  the SALES_PLAYBOOK objection handling.
+- **#490** — `docs/CUSTOMER_PLAYBOOK.md` is the customer-facing 1-pager
+  to send the day a tenant signs up: what we do / what they do / day-by-day
+  for the first week / monthly cadence / what we do NOT do (Instagram,
+  ads, logo design) / pricing / cancellation / honest "this isn't magic"
+  reminder. In Spanish.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
