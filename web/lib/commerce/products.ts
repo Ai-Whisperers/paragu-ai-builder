@@ -10,6 +10,8 @@ interface ProductRow {
   name: string
   description: string | null
   category: string | null
+  brand: string | null
+  tags: string[] | null
   price_cents: number
   compare_at_price_cents: number | null
   currency: string
@@ -34,6 +36,8 @@ function rowToProduct(row: ProductRow): Product {
     name: row.name,
     description: row.description,
     category: row.category,
+    brand: row.brand,
+    tags: row.tags ?? [],
     priceCents: row.price_cents,
     compareAtPriceCents: row.compare_at_price_cents,
     currency: row.currency,
@@ -51,10 +55,37 @@ function rowToProduct(row: ProductRow): Product {
   }
 }
 
-export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc'
+export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc' | 'popularity' | 'rating'
+
+/**
+ * Aggregate: units sold per product for a business. Sums order_items.quantity
+ * across all non-cancelled orders. Returns a Map so callers can lookup + sort
+ * products by popularity. Products with zero sales are absent from the map.
+ */
+export async function getPopularityByBusiness(
+  businessId: string,
+): Promise<Map<string, number>> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('order_items')
+    .select('product_id, quantity')
+    .eq('business_id', businessId)
+  const out = new Map<string, number>()
+  for (const r of (Array.isArray(data) ? data : []) as Array<{ product_id: string; quantity: number }>) {
+    out.set(r.product_id, (out.get(r.product_id) ?? 0) + r.quantity)
+  }
+  return out
+}
 
 export interface ListActiveProductsOpts {
+  /** Single-category filter — convenient when you already have one value. */
   category?: string
+  /** Multi-category filter. Takes precedence over `category` when both set. */
+  categories?: string[]
+  /** Exact-match filter on brand. Empty = no filter. */
+  brands?: string[]
+  /** Tag contains-all filter. Product must have every tag listed. */
+  tags?: string[]
   limit?: number
   offset?: number
   /** Free-text search — matches name OR description OR SKU (ilike). Empty string is no filter. */
@@ -76,6 +107,10 @@ const SORT_FIELDS: Record<ProductSort, { column: string; ascending: boolean }> =
   'price-asc': { column: 'price_cents', ascending: true },
   'price-desc': { column: 'price_cents', ascending: false },
   'name-asc': { column: 'name', ascending: true },
+  // popularity + rating are handled post-query (see /tienda/page.tsx) —
+  // default DB order is newest so the fallback is deterministic.
+  popularity: { column: 'created_at', ascending: false },
+  rating: { column: 'created_at', ascending: false },
 }
 
 /**
@@ -98,7 +133,19 @@ export async function listActiveProducts(
   const { data } = await scoped.select<ProductRow>('products', '*', {
     filter: (q) => {
       let query = q.eq('status', 'active').order(sort.column, { ascending: sort.ascending })
-      if (opts.category) query = query.eq('category', opts.category)
+      if (opts.categories && opts.categories.length > 0) {
+        query = query.in('category', opts.categories)
+      } else if (opts.category) {
+        query = query.eq('category', opts.category)
+      }
+      if (opts.brands && opts.brands.length > 0) {
+        query = query.in('brand', opts.brands)
+      }
+      if (opts.tags && opts.tags.length > 0) {
+        // PostgREST array-contains: tags @> '{tag1,tag2}' — product must
+        // contain ALL supplied tags. Use `.contains()` which generates `cs`.
+        query = query.contains('tags', opts.tags)
+      }
       if (opts.search && opts.search.trim()) {
         // Accent-insensitive search. The DB carries a generated
         // `search_haystack` column = lower(unaccent(name+desc+sku)). We
@@ -153,7 +200,13 @@ export async function countActiveProducts(
     .select('id', { count: 'exact', head: true })
     .eq('business_id', businessId)
     .eq('status', 'active')
-  if (opts.category) query = query.eq('category', opts.category)
+  if (opts.categories && opts.categories.length > 0) {
+    query = query.in('category', opts.categories)
+  } else if (opts.category) {
+    query = query.eq('category', opts.category)
+  }
+  if (opts.brands && opts.brands.length > 0) query = query.in('brand', opts.brands)
+  if (opts.tags && opts.tags.length > 0) query = query.contains('tags', opts.tags)
   if (opts.search && opts.search.trim()) {
     // See listActiveProducts for rationale — match the same shape as the
     // DB-side search_haystack column.
@@ -186,6 +239,61 @@ export async function listDistinctCategories(businessId: string): Promise<string
     if (row.category) set.add(row.category)
   }
   return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
+}
+
+export async function listDistinctBrands(businessId: string): Promise<string[]> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('brand')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+    .not('brand', 'is', null)
+  const set = new Set<string>()
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ brand: string | null }>) {
+    if (row.brand) set.add(row.brand)
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
+}
+
+export async function listDistinctTags(businessId: string): Promise<string[]> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('tags')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+  const set = new Set<string>()
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ tags: string[] | null }>) {
+    for (const t of row.tags ?? []) if (t) set.add(t)
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
+}
+
+/**
+ * Category counts for faceted filtering. Pulls every active product's
+ * category in one query and aggregates client-side — cheap enough for the
+ * product counts we care about (<5k active per tenant).
+ *
+ * Returns a map so the UI can render "Juguetes (12)" next to each pill.
+ * Categories with zero products are omitted.
+ */
+export async function listCategoryCounts(
+  businessId: string,
+): Promise<Record<string, number>> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('category')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+    .not('category', 'is', null)
+  const counts: Record<string, number> = {}
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ category: string | null }>) {
+    if (!row.category) continue
+    counts[row.category] = (counts[row.category] ?? 0) + 1
+  }
+  return counts
 }
 
 export async function getProductBySlug(businessId: string, slug: string): Promise<Product | null> {
@@ -247,6 +355,8 @@ export async function createProduct(
     name: input.name,
     description: input.description ?? null,
     category: input.category ?? null,
+    brand: input.brand ?? null,
+    tags: input.tags ?? [],
     price_cents: input.priceCents,
     compare_at_price_cents: input.compareAtPriceCents ?? null,
     currency: input.currency,
@@ -277,6 +387,8 @@ export async function updateProduct(
   if (patch.name !== undefined) dbPatch.name = patch.name
   if (patch.description !== undefined) dbPatch.description = patch.description
   if (patch.category !== undefined) dbPatch.category = patch.category
+  if (patch.brand !== undefined) dbPatch.brand = patch.brand
+  if (patch.tags !== undefined) dbPatch.tags = patch.tags
   if (patch.priceCents !== undefined) dbPatch.price_cents = patch.priceCents
   if (patch.compareAtPriceCents !== undefined) dbPatch.compare_at_price_cents = patch.compareAtPriceCents
   if (patch.currency !== undefined) dbPatch.currency = patch.currency

@@ -41,6 +41,9 @@ export default async function SearchAnalyticsPage({
         <Link href={`/admin/commerce/${businessId}/search-analytics`} className="font-semibold text-[color:var(--text,#111)] underline">
           Búsquedas
         </Link>
+        <Link href={`/admin/commerce/${businessId}/reviews`} className="hover:underline">
+          Reseñas
+        </Link>
       </nav>
 
       <h1 className="mb-2 text-2xl font-bold">Analíticas de búsqueda</h1>

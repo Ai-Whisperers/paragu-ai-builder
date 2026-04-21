@@ -29,11 +29,6 @@
       "content": "aboutPage.gallery"
     },
     {
-      "id": "trust-signals",
-      "variant": "credentials",
-      "content": "aboutPage.trust"
-    },
-    {
       "id": "cta-banner",
       "variant": "solid",
       "content": "aboutPage.cta"

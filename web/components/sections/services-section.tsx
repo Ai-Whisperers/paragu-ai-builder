@@ -16,6 +16,8 @@ export interface ServiceItem {
   duration?: number
   imageUrl?: string
   category?: string
+  /** Optional URL — when set the whole card becomes a clickable link. */
+  href?: string
 }
 
 export interface ServicesSectionProps {
@@ -145,10 +147,22 @@ export function ServicesSection({
       </>
     )
 
+    const wrap = (inner: React.ReactNode) =>
+      service.href ? (
+        <a
+          href={service.href}
+          className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--secondary)] rounded-xl"
+        >
+          {inner}
+        </a>
+      ) : (
+        inner
+      )
+
     if (enhanced) {
-      return (
-        <SpotlightCard 
-          rounded="xl" 
+      return wrap(
+        <SpotlightCard
+          rounded="xl"
           borderGlow={hoverEffect}
           className={cn(
             "bg-[var(--surface)]",
@@ -156,11 +170,11 @@ export function ServicesSection({
           )}
         >
           {cardContent}
-        </SpotlightCard>
+        </SpotlightCard>,
       )
     }
 
-    return (
+    return wrap(
       <div className={cn(
         "overflow-hidden rounded-lg bg-[var(--surface)] shadow-card",
         hoverEffect && "transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1"

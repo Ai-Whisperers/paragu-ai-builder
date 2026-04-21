@@ -189,28 +189,63 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
 
 function Vertical({ steps }: { steps: ProcessStep[] }) {
   return (
-    <ol className="mt-12 space-y-8 border-l-2 border-[var(--secondary)]/30 pl-8">
-      {steps.map((step, i) => (
-        <AnimateOnScroll key={i} stagger={((i % 5) + 1) as 1 | 2 | 3 | 4 | 5}>
-          <li className="relative">
-            <span className="absolute -left-[2.65rem] flex h-8 w-8 items-center justify-center rounded-full bg-[var(--secondary)] text-sm font-bold text-[var(--secondary-foreground)]">
-              {step.number ?? i + 1}
-            </span>
-            <Heading level={3}
-              className="mb-1 text-xl font-semibold text-[var(--primary)]"
-              style={{ fontFamily: 'var(--font-heading)' }}
-            >
-              {step.title}
-            </Heading>
-            <p className="text-[var(--text-light)]">{step.description}</p>
-            {step.duration && (
-              <p className="mt-1 text-xs uppercase tracking-wider text-[var(--text-muted)]">
-                {step.duration}
-              </p>
-            )}
-          </li>
-        </AnimateOnScroll>
-      ))}
+    <ol className="mt-12 space-y-10">
+      {steps.map((step, i) => {
+        const isLast = i === steps.length - 1
+        return (
+          <AnimateOnScroll
+            key={i}
+            stagger={((i % 5) + 1) as 1 | 2 | 3 | 4 | 5}
+          >
+            <li className="relative flex gap-6">
+              {/* Vertical connector — the line visually links this step
+                  to the next. Positioned behind the circle's center. */}
+              {!isLast && (
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute left-8 top-16 bottom-[-2.5rem] w-0.5 bg-[var(--secondary)]/30"
+                />
+              )}
+              {/* Numbered circle — matches the visual language of the
+                  horizontal variant: gold fill, white content, ring over
+                  the surface, a navy step-number badge at the top-right. */}
+              <div className="relative shrink-0">
+                <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-[var(--secondary)] text-[var(--secondary-foreground)] shadow-[0_6px_20px_rgba(201,169,110,0.35)] ring-4 ring-[var(--surface)]">
+                  {step.icon ? (
+                    <div className="text-[var(--secondary-foreground)]">
+                      <IconByName name={step.icon} size={26} />
+                    </div>
+                  ) : (
+                    <span className="text-xl font-bold">{step.number ?? i + 1}</span>
+                  )}
+                  <span
+                    aria-hidden="true"
+                    className="absolute -top-1 -right-1 flex h-6 w-6 items-center justify-center rounded-full bg-[var(--primary)] text-[10px] font-bold text-white shadow-md"
+                  >
+                    {step.number ?? i + 1}
+                  </span>
+                </div>
+              </div>
+              {/* Content */}
+              <div className="flex-1 pt-2">
+                <Heading
+                  level={3}
+                  className="mb-1 text-xl font-semibold text-[var(--primary)]"
+                  style={{ fontFamily: 'var(--font-heading)' }}
+                >
+                  {step.title}
+                </Heading>
+                <p className="text-[var(--text-light)]">{step.description}</p>
+                {step.duration && (
+                  <p className="mt-1 text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                    {step.duration}
+                  </p>
+                )}
+              </div>
+            </li>
+          </AnimateOnScroll>
+        )
+      })}
     </ol>
   )
 }

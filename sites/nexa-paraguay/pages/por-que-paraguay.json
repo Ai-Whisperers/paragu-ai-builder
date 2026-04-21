@@ -15,13 +15,8 @@
     },
     {
       "id": "why-destination",
-      "variant": "alternating",
+      "variant": "three-col",
       "content": "whyCountryPage.pillars"
-    },
-    {
-      "id": "trust-signals",
-      "variant": "credentials",
-      "content": "whyCountryPage.trust"
     },
     {
       "id": "cta-banner",

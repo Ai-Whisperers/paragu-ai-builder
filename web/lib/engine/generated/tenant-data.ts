@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=152, content=137, blog=25, images=3, verticals=23. */
+/** Counts: sites=117, pages=151, content=137, blog=25, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9748,58 +9748,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "size-guide",
     "titleKey": "sizeGuide.seo.title"
   },
-  "fun4me:store": {
-    "descriptionKey": "store.seo.description",
-    "sections": [
-      {
-        "content": "home.ageGate",
-        "id": "age-gate",
-        "variant": "modal"
-      },
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "store.hero",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.promo",
-        "id": "cta-banner",
-        "variant": "solid"
-      },
-      {
-        "content": "store.catalog",
-        "id": "commerce-catalog",
-        "variant": "grid"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "compliance",
-        "id": "compliance-disclaimer-footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "store",
-    "titleKey": "store.seo.title"
-  },
   "fun4me:suscripciones": {
     "descriptionKey": "subscriptions.seo.description",
     "sections": [
@@ -10258,12 +10206,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whyCountryPage.pillars",
         "id": "why-destination",
-        "variant": "alternating"
-      },
-      {
-        "content": "whyCountryPage.trust",
-        "id": "trust-signals",
-        "variant": "credentials"
+        "variant": "three-col"
       },
       {
         "content": "whyCountryPage.cta",
@@ -10438,11 +10381,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "aboutPage.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "aboutPage.trust",
-        "id": "trust-signals",
-        "variant": "credentials"
       },
       {
         "content": "aboutPage.cta",
@@ -17398,7 +17336,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "emptyCart": {
-      "ctaHref": "/fun4me/store",
+      "ctaHref": "/fun4me/tienda",
       "ctaText": "Ir a la Tienda",
       "text": "Explora nuestras categorias y agrega productos.",
       "title": "Tu carrito esta vacio"
@@ -17792,7 +17730,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "badgeText": "Kits",
-        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryHref": "/fun4me/tienda",
         "ctaPrimaryText": "Ver Kits",
         "headline": "Kits Curados",
         "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado."
@@ -18054,53 +17992,61 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Verificacion de Edad"
       },
       "categories": {
-        "ctaHref": "/fun4me/store",
+        "ctaHref": "/fun4me/tienda",
         "ctaText": "Ver Todo el Catalogo",
         "items": [
           {
             "description": "Desde clasicos hasta tecnologia de punta",
+            "href": "/fun4me/tienda/categoria/vibradores",
             "icon": "sparkles",
             "id": "vibradores",
             "name": "Vibradores"
           },
           {
             "description": "Realistas, fantasy y de todas las formas",
+            "href": "/fun4me/tienda/categoria/dildos",
             "icon": "adjustments-vertical",
             "id": "dildos",
             "name": "Dildos"
           },
           {
             "description": "Explora nuevos territorios de placer",
+            "href": "/fun4me/tienda/categoria/anal",
             "icon": "arrow-uturn-down",
             "id": "anal",
             "name": "Juguetes Anales"
           },
           {
             "description": "Juguetes disenados para compartir",
+            "href": "/fun4me/tienda/categoria/parejas",
             "icon": "heart",
             "id": "parejas",
             "name": "Para Parejas"
           },
           {
             "description": "Equipamiento para juegos de poder",
+            "href": "/fun4me/tienda/categoria/bdsm",
             "icon": "link",
             "id": "bdsm",
             "name": "BDSM & Fetish"
           },
           {
             "description": "Piezas sensuales y provocativas",
+            "href": "/fun4me/tienda/categoria/lenceria",
             "icon": "gift",
             "id": "lenceria",
             "name": "Lenceria"
           },
           {
             "description": "Mejora cada experiencia",
+            "href": "/fun4me/tienda/categoria/lubricantes",
             "icon": "beaker",
             "id": "lubricantes",
             "name": "Lubricantes"
           },
           {
             "description": "Cuidado y salud sexual",
+            "href": "/fun4me/tienda/categoria/bienestar",
             "icon": "shield-check",
             "id": "bienestar",
             "name": "Bienestar Intimo"
@@ -18117,7 +18063,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Visitanos o Escribinos"
       },
       "cta": {
-        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryHref": "/fun4me/tienda",
         "ctaPrimaryText": "Ver Tienda",
         "ctaSecondaryHref": "https://wa.me/595976569739",
         "ctaSecondaryText": "Escribir por WhatsApp",
@@ -18194,7 +18140,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "badgeText": "Envio Discreto",
-        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryHref": "/fun4me/tienda",
         "ctaPrimaryText": "Explorar Tienda",
         "ctaSecondaryHref": "https://wa.me/595976569739",
         "ctaSecondaryText": "Contactanos",
@@ -18262,7 +18208,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "promo": {
         "enabled": true,
-        "href": "/fun4me/store",
+        "href": "/fun4me/tienda",
         "text": "Envio GRATIS en compras mayores a Gs. 200.000"
       },
       "promoBanner": {
@@ -18737,13 +18683,14 @@ export const CONTENT: Record<string, JsonRecord> = {
       "businessName": "Fun4Me",
       "ctaHref": "https://wa.me/595976569739",
       "ctaText": "WhatsApp",
+      "enableSearch": true,
       "items": [
         {
           "href": "/",
           "label": "Inicio"
         },
         {
-          "href": "/fun4me/store",
+          "href": "/fun4me/tienda",
           "label": "Tienda"
         },
         {
@@ -18942,7 +18889,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "storeReserve": {
       "cta": {
-        "buttonHref": "/fun4me/store",
+        "buttonHref": "/fun4me/tienda",
         "buttonText": "Ir a la Tienda",
         "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
         "title": "Empeza a armar tu pedido"
@@ -20302,7 +20249,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20480,7 +20427,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20606,7 +20553,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20765,7 +20712,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nexa Paraguay — Etablieren Sie Ihr Geschäft in Paraguay"
       },
       "testimonials": {
-        "ctaHref": "/s/de/nexa-paraguay/testimonials",
+        "ctaHref": "/s/de/nexa-paraguay/contacto",
         "ctaText": "Alle Testimonials lesen",
         "eyebrow": "Kundenstimmen",
         "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
@@ -21324,7 +21271,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/de/nexa-paraguay/contacto",
-      "ctaText": "Beratung buchen",
+      "ctaText": "Kostenlose Beratung buchen",
       "navItems": [
         {
           "href": "/s/de/nexa-paraguay",
@@ -21410,23 +21357,23 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
       "faq": {
         "items": [
           {
-            "a": "Eine einzige genügt.",
-            "q": "Wie viele Reisen brauche ich?"
+            "a": "Unser Programm ist so konzipiert, dass eine einzige Reise ausreicht.",
+            "q": "Wie viele Reisen nach Paraguay sind nötig?"
           },
           {
-            "a": "Präsenz an einem Tag. Dokumentenausstellung: 45–60 Tage.",
-            "q": "Wie lange dauert es?"
+            "a": "Präsenzabwicklung an einem Tag. Ausstellung von Aufenthaltsgenehmigung und ID-Karte: 45–60 Tage. Gesellschaftsgründung und Bankkonto: 2–4 Wochen. Gesamt: 8–12 Wochen.",
+            "q": "Wie lange dauert der gesamte Prozess?"
           },
           {
-            "a": "Das erkennen wir vor Ihrer Reise — Sie reisen erst, wenn alles vorliegt.",
-            "q": "Was, wenn ein Dokument fehlt?"
+            "a": "Wir entdecken es vor Ihrer Reise. Unsere Vorprüfung stellt sicher, dass Sie mit allen Unterlagen ankommen.",
+            "q": "Was passiert, wenn ein Dokument fehlt?"
           }
         ],
         "title": "Fragen zum Ablauf"
@@ -21497,7 +21444,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "programasPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -21801,7 +21748,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -21925,7 +21872,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -22103,7 +22050,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -22229,7 +22176,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -22388,7 +22335,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nexa Paraguay — Establish your operation in Paraguay"
       },
       "testimonials": {
-        "ctaHref": "/s/en/nexa-paraguay/testimonials",
+        "ctaHref": "/s/en/nexa-paraguay/contacto",
         "ctaText": "Read all testimonials",
         "eyebrow": "Testimonials",
         "subtitle": "Real stories from people who established their operations in Paraguay",
@@ -22947,7 +22894,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/en/nexa-paraguay/contacto",
-      "ctaText": "Book consultation",
+      "ctaText": "Book free consultation",
       "navItems": [
         {
           "href": "/s/en/nexa-paraguay",
@@ -23033,23 +22980,23 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
       "faq": {
         "items": [
           {
-            "a": "Just one.",
-            "q": "How many trips do I need?"
+            "a": "Our program is designed so that a single trip is enough.",
+            "q": "How many trips do I need to make to Paraguay?"
           },
           {
-            "a": "In-person in one day. Document issuance: 45–60 days.",
-            "q": "How long does it take?"
+            "a": "On-site processing in one day. Residency and ID card issuance: 45–60 days. Company incorporation and bank account: 2–4 weeks. Total: 8–12 weeks.",
+            "q": "How long does the whole process take?"
           },
           {
-            "a": "We detect it before your trip — you don't travel until everything is in order.",
-            "q": "What if a document is missing?"
+            "a": "We detect it before your trip. Our pre-validation ensures you arrive with everything in order.",
+            "q": "What happens if a document is missing?"
           }
         ],
         "title": "Process questions"
@@ -23120,7 +23067,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "programasPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -23409,7 +23356,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -23517,7 +23464,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -23695,7 +23642,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -23822,7 +23769,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -23981,7 +23928,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nexa Paraguay — Establezca su operación en Paraguay"
       },
       "testimonials": {
-        "ctaHref": "/s/es/nexa-paraguay/testimonials",
+        "ctaHref": "/s/es/nexa-paraguay/contacto",
         "ctaText": "Leer todos los testimonios",
         "eyebrow": "Testimonios",
         "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
@@ -24540,7 +24487,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/es/nexa-paraguay/contacto",
-      "ctaText": "Agendar consulta",
+      "ctaText": "Agendar consulta gratuita",
       "navItems": [
         {
           "href": "/s/es/nexa-paraguay",
@@ -24626,23 +24573,23 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
       "faq": {
         "items": [
           {
-            "a": "Uno solo es suficiente.",
-            "q": "¿Cuántos viajes necesito?"
+            "a": "Nuestro programa está diseñado para que un solo viaje sea suficiente.",
+            "q": "¿Cuántos viajes necesito hacer a Paraguay?"
           },
           {
-            "a": "Trámite presencial en un día. Emisión: 45–60 días.",
-            "q": "¿Cuánto tiempo toma?"
+            "a": "Tramitación presencial en un día. Emisión de residencia y cédula: 45–60 días. Constitución de sociedad y cuenta bancaria: 2–4 semanas. Total: 8–12 semanas.",
+            "q": "¿Cuánto tiempo toma todo el proceso?"
           },
           {
-            "a": "Lo detectamos antes de su viaje — no viaja hasta que todo esté listo.",
-            "q": "¿Qué pasa si falta un documento?"
+            "a": "Lo detectamos antes de su viaje. Nuestra validación previa garantiza que llegue con todo en orden.",
+            "q": "¿Qué pasa si falta algún documento?"
           }
         ],
         "title": "Preguntas sobre el proceso"
@@ -25050,7 +24997,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -25174,7 +25121,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -25352,7 +25299,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -25478,7 +25425,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -25637,7 +25584,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nexa Paraguay — Vestig uw onderneming in Paraguay"
       },
       "testimonials": {
-        "ctaHref": "/s/nl/nexa-paraguay/testimonials",
+        "ctaHref": "/s/nl/nexa-paraguay/contacto",
         "ctaText": "Alle getuigenissen lezen",
         "eyebrow": "Getuigenissen",
         "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
@@ -26196,7 +26143,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/nl/nexa-paraguay/contacto",
-      "ctaText": "Plan consult",
+      "ctaText": "Plan gratis consult",
       "navItems": [
         {
           "href": "/s/nl/nexa-paraguay",
@@ -26282,23 +26229,23 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
       "faq": {
         "items": [
           {
-            "a": "Eén reis volstaat.",
-            "q": "Hoeveel reizen heb ik nodig?"
+            "a": "Ons programma is zo ontworpen dat één reis voldoende is.",
+            "q": "Hoeveel reizen moet ik naar Paraguay maken?"
           },
           {
-            "a": "Persoonlijke afhandeling in één dag. Afgifte documenten: 45–60 dagen.",
-            "q": "Hoe lang duurt het?"
+            "a": "Persoonlijke afhandeling in één dag. Uitgifte verblijfsvergunning en ID-kaart: 45–60 dagen. Vennootschapsoprichting en bankrekening: 2–4 weken. Totaal: 8–12 weken.",
+            "q": "Hoe lang duurt het hele proces?"
           },
           {
-            "a": "We signaleren dat vóór uw reis — u vertrekt pas als alles klopt.",
-            "q": "Wat als er een document ontbreekt?"
+            "a": "We detecteren het vóór uw reis. Onze voorafgaande validatie zorgt ervoor dat u met alles in orde aankomt.",
+            "q": "Wat gebeurt er als er een document ontbreekt?"
           }
         ],
         "title": "Vragen over het proces"
@@ -26369,7 +26316,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "programasPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -26673,7 +26620,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },

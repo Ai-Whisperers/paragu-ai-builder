@@ -131,11 +131,17 @@ export default async function CategoryPage({
           resultCount={products.length}
           totalCount={totalCount}
           initialCategory={match}
+          initialCategories={[match]}
           availableCategories={available}
           initialMinPrice={minPriceCents}
           initialMaxPrice={maxPriceCents}
           initialInStockOnly={inStockOnly}
           initialOnSaleOnly={onSaleOnly}
+          initialPerPage={12}
+          initialBrands={[]}
+          availableBrands={[]}
+          initialTags={[]}
+          availableTags={[]}
         />
 
         {products.length === 0 ? (

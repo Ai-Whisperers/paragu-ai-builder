@@ -27,7 +27,7 @@
       },
       {
         "label": "Tienda",
-        "href": "/fun4me/store"
+        "href": "/fun4me/tienda"
       },
       {
         "label": "Nosotros",
@@ -59,7 +59,8 @@
       }
     ],
     "ctaText": "WhatsApp",
-    "ctaHref": "https://wa.me/595976569739"
+    "ctaHref": "https://wa.me/595976569739",
+    "enableSearch": true
   },
   "home": {
     "seo": {
@@ -78,7 +79,7 @@
       "headline": "Tu Tienda de Placer",
       "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion.",
       "ctaPrimaryText": "Explorar Tienda",
-      "ctaPrimaryHref": "/fun4me/store",
+      "ctaPrimaryHref": "/fun4me/tienda",
       "ctaSecondaryText": "Contactanos",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
@@ -129,7 +130,7 @@
     "promo": {
       "enabled": true,
       "text": "Envio GRATIS en compras mayores a Gs. 200.000",
-      "href": "/fun4me/store"
+      "href": "/fun4me/tienda"
     },
     "categories": {
       "title": "Categorias Destacadas",
@@ -139,53 +140,61 @@
           "id": "vibradores",
           "name": "Vibradores",
           "icon": "sparkles",
-          "description": "Desde clasicos hasta tecnologia de punta"
+          "description": "Desde clasicos hasta tecnologia de punta",
+          "href": "/fun4me/tienda/categoria/vibradores"
         },
         {
           "id": "dildos",
           "name": "Dildos",
           "icon": "adjustments-vertical",
-          "description": "Realistas, fantasy y de todas las formas"
+          "description": "Realistas, fantasy y de todas las formas",
+          "href": "/fun4me/tienda/categoria/dildos"
         },
         {
           "id": "anal",
           "name": "Juguetes Anales",
           "icon": "arrow-uturn-down",
-          "description": "Explora nuevos territorios de placer"
+          "description": "Explora nuevos territorios de placer",
+          "href": "/fun4me/tienda/categoria/anal"
         },
         {
           "id": "parejas",
           "name": "Para Parejas",
           "icon": "heart",
-          "description": "Juguetes disenados para compartir"
+          "description": "Juguetes disenados para compartir",
+          "href": "/fun4me/tienda/categoria/parejas"
         },
         {
           "id": "bdsm",
           "name": "BDSM & Fetish",
           "icon": "link",
-          "description": "Equipamiento para juegos de poder"
+          "description": "Equipamiento para juegos de poder",
+          "href": "/fun4me/tienda/categoria/bdsm"
         },
         {
           "id": "lenceria",
           "name": "Lenceria",
           "icon": "gift",
-          "description": "Piezas sensuales y provocativas"
+          "description": "Piezas sensuales y provocativas",
+          "href": "/fun4me/tienda/categoria/lenceria"
         },
         {
           "id": "lubricantes",
           "name": "Lubricantes",
           "icon": "beaker",
-          "description": "Mejora cada experiencia"
+          "description": "Mejora cada experiencia",
+          "href": "/fun4me/tienda/categoria/lubricantes"
         },
         {
           "id": "bienestar",
           "name": "Bienestar Intimo",
           "icon": "shield-check",
-          "description": "Cuidado y salud sexual"
+          "description": "Cuidado y salud sexual",
+          "href": "/fun4me/tienda/categoria/bienestar"
         }
       ],
       "ctaText": "Ver Todo el Catalogo",
-      "ctaHref": "/fun4me/store"
+      "ctaHref": "/fun4me/tienda"
     },
     "stats": {
       "title": "Numeros que nos respaldan",
@@ -318,7 +327,7 @@
       "title": "Tenes alguna consulta?",
       "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
       "ctaPrimaryText": "Ver Tienda",
-      "ctaPrimaryHref": "/fun4me/store",
+      "ctaPrimaryHref": "/fun4me/tienda",
       "ctaSecondaryText": "Escribir por WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
@@ -742,7 +751,7 @@
       "headline": "Kits Curados",
       "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado.",
       "ctaPrimaryText": "Ver Kits",
-      "ctaPrimaryHref": "/fun4me/store"
+      "ctaPrimaryHref": "/fun4me/tienda"
     },
     "items": {
       "title": "Nuestros Kits",
@@ -1420,7 +1429,7 @@
       "title": "Empeza a armar tu pedido",
       "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
       "buttonText": "Ir a la Tienda",
-      "buttonHref": "/fun4me/store"
+      "buttonHref": "/fun4me/tienda"
     }
   },
   "blog": {

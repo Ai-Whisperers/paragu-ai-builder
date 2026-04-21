@@ -13,6 +13,8 @@ import {
   removeFromWishlist,
 } from '@/lib/stores/wishlist'
 import { QuickViewModal } from './quick-view-modal'
+import { ReviewStars } from './review-stars'
+import { Highlight } from './highlight'
 
 interface Props {
   siteSlug: string
@@ -20,6 +22,10 @@ interface Props {
   priority?: boolean
   rates?: Record<string, number>
   locale?: string
+  /** Optional review aggregate for rendering stars on the card. */
+  reviewAggregate?: { avg: number; count: number }
+  /** When set, matched substrings in the product name are <mark>-highlighted. */
+  highlight?: string
 }
 
 const WISHLIST_EVENT = 'paragu:wishlist-change'
@@ -37,7 +43,7 @@ function getServerWishlistSnapshot(): boolean {
   return false
 }
 
-export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' }: Props) {
+export function ProductCard({ siteSlug, product, priority, rates, locale = 'es', reviewAggregate, highlight }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
   const [quickViewOpen, setQuickViewOpen] = useState(false)
@@ -55,6 +61,15 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
     product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents
       ? Math.round(((product.compareAtPriceCents - product.priceCents) / product.compareAtPriceCents) * 100)
       : null
+  // "Nuevo" badge for anything created in the last 14 days. Parsed lazily to
+  // avoid a `new Date()` during SSR hydration mismatch — createdAt is ISO from
+  // the DB so Date parsing is deterministic.
+  const isNew = (() => {
+    if (!product.createdAt) return false
+    const t = Date.parse(product.createdAt)
+    if (!Number.isFinite(t)) return false
+    return Date.now() - t < 14 * 24 * 60 * 60 * 1000
+  })()
 
   const saved = useSyncExternalStore(
     subscribeWishlist,
@@ -136,6 +151,16 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
               −{discount}%
             </span>
           ) : null}
+          {isNew && !discount ? (
+            <span className="absolute left-2 top-2 rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">
+              NUEVO
+            </span>
+          ) : null}
+          {isNew && discount ? (
+            <span className="absolute left-2 top-9 rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">
+              NUEVO
+            </span>
+          ) : null}
           {lowStock ? (
             <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded bg-amber-500 px-2 py-0.5 text-xs font-semibold text-white">
               <span aria-hidden="true">⚠</span>
@@ -152,7 +177,14 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
       </Link>
 
       <div className="mt-3 flex flex-1 flex-col">
-        <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">{product.name}</h3>
+        <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">
+          {highlight ? <Highlight text={product.name} term={highlight} /> : product.name}
+        </h3>
+        {reviewAggregate && reviewAggregate.count > 0 ? (
+          <div className="mt-1">
+            <ReviewStars rating={reviewAggregate.avg} count={reviewAggregate.count} size="sm" />
+          </div>
+        ) : null}
         <div className="mt-1 flex items-baseline gap-2">
           {rates && product.currency === 'PYG' ? (
             <PriceDisplay className="text-base font-semibold text-[color:var(--text,#111)]" pygCents={product.priceCents} rates={rates} />

@@ -13,6 +13,16 @@ export const metadata: Metadata = {
   description:
     'Sitios web profesionales para negocios paraguayos en 48 horas. Todo incluido: diseño, dominio .com.py, SEO, WhatsApp y hosting. Demo gratis antes de pagar. 4 planes desde Gs 650.000.',
   keywords: ['sitios web Paraguay', 'diseño web Asunción', 'página web negocio', 'dominio .com.py', 'web peluquería', 'web spa', 'web restaurante', 'Mercado Pago', 'ParaguAI'],
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' }],
+    other: [{ rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#1A1A2E' }],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'es_PY',
@@ -20,12 +30,26 @@ export const metadata: Metadata = {
     siteName: 'ParaguAI Builder',
     title: 'ParaguAI Builder — Sitios Web con IA para Negocios',
     description: 'Motor de generación con IA que crea sitios web profesionales, rápidos y optimizados para cualquier tipo de negocio en Paraguay.',
-    // Image is provided by app/opengraph-image.tsx (dynamic via next/og).
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'ParaguAI Builder — Sitios web profesionales en 48 horas',
+      },
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'ParaguAI Builder — Sitios web profesionales en 48 horas',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ParaguAI Builder',
     description: 'Sitios web profesionales con IA para negocios en Paraguay',
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,
