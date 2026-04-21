@@ -12,6 +12,7 @@ import { HeaderSection } from '@/components/sections/header-section'
 import { HeroSection } from '@/components/sections/hero-section'
 import { ServicesSection } from '@/components/sections/services-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
+import { FeaturedProductsSection } from '@/components/sections/featured-products-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
@@ -49,6 +50,7 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   hero: HeroSection,
   services: ServicesSection,
   'product-catalog': ProductCatalogSection,
+  'featured-products': FeaturedProductsSection,
   gallery: GallerySection,
   team: TeamSection,
   testimonials: TestimonialsSection,
@@ -93,7 +95,11 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
       return null
     }
 
-    const props = s.props as Record<string, unknown>
+    // Thread the page's locale into every section as an optional prop.
+    // Sections that need it (e.g. featured-products, any future section
+    // generating URLs with the locale prefix) pick it up; the rest
+    // ignore the extra key harmlessly.
+    const props = { ...s.props, locale: page.locale } as Record<string, unknown>
     return <C key={`${s.id}-${i}`} {...props} />
   })
 }
