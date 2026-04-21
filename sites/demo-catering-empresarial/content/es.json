@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Catering Empresarial Asuncion",
-  "tagline": "Catering a Domicilio profesional en Asuncion.",
+  "siteName": "Demo Catering Empresarial Asunción",
+  "tagline": "Catering a Domicilio profesional en Asunción.",
   "placeholders": {
-    "businessName": "Demo Catering Empresarial Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Catering Empresarial Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Catering Empresarial Asuncion",
+    "businessName": "Demo Catering Empresarial Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Catering Empresarial Asuncion - Catering a Domicilio en Asuncion",
-      "description": "Catering a Domicilio profesional en Asuncion. Servicios de calidad con atencion personalizada."
+      "title": "Demo Catering Empresarial Asunción - Catering a Domicilio en Asunción",
+      "description": "Catering a Domicilio profesional en Asunción. Servicios de calidad con atención personalizada."
     },
     "hero": {
-      "headline": "Demo Catering Empresarial Asuncion - Catering a Domicilio",
-      "subheadline": "Catering a Domicilio profesional en Asuncion.",
+      "headline": "Demo Catering Empresarial Asunción - Catering a Domicilio",
+      "subheadline": "Catering a Domicilio profesional en Asunción.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Catering%20Empresarial%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "drop_off_caterer"
     }
   },
   "footer": {
-    "businessName": "Demo Catering Empresarial Asuncion",
-    "copyright": "© {{year}} Demo Catering Empresarial Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Catering Empresarial Asunción",
+    "copyright": "© {{year}} Demo Catering Empresarial Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Catering Empresarial y me interesa un sitio para mi negocio"

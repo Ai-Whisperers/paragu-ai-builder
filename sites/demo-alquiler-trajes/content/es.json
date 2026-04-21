@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Alquiler de Trajes Asuncion",
-  "tagline": "Alquiler Smoking profesional en Asuncion.",
+  "siteName": "Demo Alquiler de Trajes Asunción",
+  "tagline": "Alquiler Smoking profesional en Asunción.",
   "placeholders": {
-    "businessName": "Demo Alquiler de Trajes Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Alquiler de Trajes Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Alquiler de Trajes Asuncion",
+    "businessName": "Demo Alquiler de Trajes Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Alquiler de Trajes Asuncion - Alquiler Smoking en Asuncion",
-      "description": "Alquiler Smoking profesional en Asuncion. Servicios de calidad con atencion personalizada."
+      "title": "Demo Alquiler de Trajes Asunción - Alquiler Smoking en Asunción",
+      "description": "Alquiler Smoking profesional en Asunción. Servicios de calidad con atención personalizada."
     },
     "hero": {
-      "headline": "Demo Alquiler de Trajes Asuncion - Alquiler Smoking",
-      "subheadline": "Alquiler Smoking profesional en Asuncion.",
+      "headline": "Demo Alquiler de Trajes Asunción - Alquiler Smoking",
+      "subheadline": "Alquiler Smoking profesional en Asunción.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Alquiler%20de%20Trajes%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "formalwear_rental"
     }
   },
   "footer": {
-    "businessName": "Demo Alquiler de Trajes Asuncion",
-    "copyright": "© {{year}} Demo Alquiler de Trajes Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Alquiler de Trajes Asunción",
+    "copyright": "© {{year}} Demo Alquiler de Trajes Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Alquiler de Trajes y me interesa un sitio para mi negocio"

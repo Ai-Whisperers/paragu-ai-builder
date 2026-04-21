@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Ilustrador Encarnacion - Estudio de Ilustracion en Encarnacion",
-      "description": "Estudio de Ilustracion profesional en Encarnacion. Servicios de calidad con atencion personalizada."
+      "description": "Estudio de Ilustracion profesional en Encarnacion. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Ilustrador Encarnacion - Estudio de Ilustracion",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Ilustrador Encarnacion",
     "copyright": "© {{year}} Demo Ilustrador Encarnacion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Ilustrador y me interesa un sitio para mi negocio"

@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Paseador de Perros Luque - Paseador Canino en Luque",
-      "description": "Paseador Canino profesional en Luque. Servicios de calidad con atencion personalizada."
+      "description": "Paseador Canino profesional en Luque. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Paseador de Perros Luque - Paseador Canino",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Paseador de Perros Luque",
     "copyright": "© {{year}} Demo Paseador de Perros Luque",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Paseador de Perros y me interesa un sitio para mi negocio"

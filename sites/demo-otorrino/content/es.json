@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Otorrinolaringologia Asuncion",
-  "tagline": "Otorrinolaringologia profesional en Asuncion.",
+  "siteName": "Demo Otorrinolaringologia Asunción",
+  "tagline": "Otorrinolaringologia profesional en Asunción.",
   "placeholders": {
-    "businessName": "Demo Otorrinolaringologia Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Otorrinolaringologia Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Otorrinolaringologia Asuncion",
+    "businessName": "Demo Otorrinolaringologia Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Otorrinolaringologia Asuncion - Otorrinolaringologia en Asuncion",
-      "description": "Otorrinolaringologia profesional en Asuncion. Servicios de calidad con atencion personalizada."
+      "title": "Demo Otorrinolaringologia Asunción - Otorrinolaringologia en Asunción",
+      "description": "Otorrinolaringologia profesional en Asunción. Servicios de calidad con atención personalizada."
     },
     "hero": {
-      "headline": "Demo Otorrinolaringologia Asuncion - Otorrinolaringologia",
-      "subheadline": "Otorrinolaringologia profesional en Asuncion.",
+      "headline": "Demo Otorrinolaringologia Asunción - Otorrinolaringologia",
+      "subheadline": "Otorrinolaringologia profesional en Asunción.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Otorrinolaringologia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "ent_clinic"
     }
   },
   "footer": {
-    "businessName": "Demo Otorrinolaringologia Asuncion",
-    "copyright": "© {{year}} Demo Otorrinolaringologia Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Otorrinolaringologia Asunción",
+    "copyright": "© {{year}} Demo Otorrinolaringologia Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Otorrinolaringologia y me interesa un sitio para mi negocio"

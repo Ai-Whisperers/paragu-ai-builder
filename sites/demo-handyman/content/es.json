@@ -19,7 +19,7 @@
   "home": {
     "seo": {
       "title": "Demo Servicio Multiple Fernando de la Mora - Servicio Multiple en Fernando de la Mora",
-      "description": "Servicio Multiple profesional en Fernando de la Mora. Servicios de calidad con atencion personalizada."
+      "description": "Servicio Multiple profesional en Fernando de la Mora. Servicios de calidad con atención personalizada."
     },
     "hero": {
       "headline": "Demo Servicio Multiple Fernando de la Mora - Servicio Multiple",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Servicio Multiple Fernando de la Mora",
     "copyright": "© {{year}} Demo Servicio Multiple Fernando de la Mora",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Servicio Multiple y me interesa un sitio para mi negocio"

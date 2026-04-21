@@ -5,7 +5,7 @@
     "lastReviewed": "2026-04-21"
   },
   "siteName": "Demo Agencia Aduanera Ciudad del Este",
-  "tagline": "Gestion aduanera integral en Asuncion y Ciudad del Este.",
+  "tagline": "Gestion aduanera integral en Asunción y Ciudad del Este.",
   "placeholders": {
     "businessName": "Demo Agencia Aduanera Ciudad del Este",
     "city": "Ciudad del Este",
@@ -19,11 +19,11 @@
   "home": {
     "seo": {
       "title": "Demo Agencia Aduanera Ciudad del Este - Agencia de Aduanas en Ciudad del Este",
-      "description": "Gestion aduanera integral en Asuncion y Ciudad del Este."
+      "description": "Gestion aduanera integral en Asunción y Ciudad del Este."
     },
     "hero": {
       "headline": "Demo Agencia Aduanera Ciudad del Este - Aduanas sin complicaciones",
-      "subheadline": "Gestion aduanera integral en Asuncion y Ciudad del Este.",
+      "subheadline": "Gestion aduanera integral en Asunción y Ciudad del Este.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Agencia%20Aduanera%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Agencia Aduanera Ciudad del Este",
     "copyright": "© {{year}} Demo Agencia Aduanera Ciudad del Este",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Agencia Aduanera y me interesa un sitio para mi negocio"

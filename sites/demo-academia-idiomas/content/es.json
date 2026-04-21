@@ -4,26 +4,26 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-21"
   },
-  "siteName": "Demo Academia de Idiomas Asuncion",
-  "tagline": "Cursos de ingles, portugues y otros idiomas en Asuncion. Todos los niveles.",
+  "siteName": "Demo Academia de Idiomas Asunción",
+  "tagline": "Cursos de ingles, portugues y otros idiomas en Asunción. Todos los niveles.",
   "placeholders": {
-    "businessName": "Demo Academia de Idiomas Asuncion",
-    "city": "Asuncion",
+    "businessName": "Demo Academia de Idiomas Asunción",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Academia de Idiomas Asuncion",
+    "businessName": "Demo Academia de Idiomas Asunción",
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Academia de Idiomas Asuncion - Academia de Idiomas en Asuncion",
-      "description": "Cursos de ingles, portugues y otros idiomas en Asuncion. Todos los niveles."
+      "title": "Demo Academia de Idiomas Asunción - Academia de Idiomas en Asunción",
+      "description": "Cursos de ingles, portugues y otros idiomas en Asunción. Todos los niveles."
     },
     "hero": {
-      "headline": "Demo Academia de Idiomas Asuncion - Aprende idiomas con metodo",
-      "subheadline": "Cursos de ingles, portugues y otros idiomas en Asuncion. Todos los niveles.",
+      "headline": "Demo Academia de Idiomas Asunción - Aprende idiomas con metodo",
+      "subheadline": "Cursos de ingles, portugues y otros idiomas en Asunción. Todos los niveles.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Academia%20de%20Idiomas%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
       "ctaSecondaryText": "Ver como funciona",
@@ -34,15 +34,15 @@
       "subtitle": "Te respondemos el mismo dia",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asuncion",
+      "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "academia_idiomas"
     }
   },
   "footer": {
-    "businessName": "Demo Academia de Idiomas Asuncion",
-    "copyright": "© {{year}} Demo Academia de Idiomas Asuncion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Demo Academia de Idiomas Asunción",
+    "copyright": "© {{year}} Demo Academia de Idiomas Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Academia de Idiomas y me interesa un sitio para mi negocio"

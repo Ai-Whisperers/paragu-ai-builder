@@ -42,7 +42,7 @@
   "footer": {
     "businessName": "Demo Depilacion Fernando de la Mora",
     "copyright": "© {{year}} Demo Depilacion Fernando de la Mora",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Depilacion y me interesa un sitio para mi negocio"
