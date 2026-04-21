@@ -11,6 +11,21 @@ export interface ProcessStep {
   description: string
   icon?: string
   duration?: string
+  /**
+   * Optional illustrative image for the step. Accepts a bare URL or the
+   * `{ src, alt }` object emitted by `{ $img: "process.<key>" }` content
+   * refs. Only renders in the `horizontal` variant today.
+   */
+  image?: string | { src: string; alt: string }
+}
+
+function stepImage(img: ProcessStep['image']): { src: string; alt: string } | null {
+  if (!img) return null
+  if (typeof img === 'string') return { src: img, alt: '' }
+  if (typeof img === 'object' && typeof img.src === 'string') {
+    return { src: img.src, alt: img.alt ?? '' }
+  }
+  return null
 }
 
 export interface ProcessTimelineSectionProps {
@@ -120,6 +135,22 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
               </>
             )}
             <div className="text-center">
+              {(() => {
+                const img = stepImage(step.image)
+                if (!img) return null
+                return (
+                  <div className="mb-4 overflow-hidden rounded-lg bg-[var(--surface-light)] shadow-card aspect-[4/3]">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={img.src}
+                      alt={img.alt || step.title}
+                      className="h-full w-full object-cover"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                )
+              })()}
               <div className="relative mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-[var(--secondary)] text-[var(--secondary-foreground)] shadow-[0_8px_24px_rgba(201,169,110,0.35)] ring-4 ring-[var(--surface)]">
                 {step.icon ? (
                   <div className="text-[var(--secondary-foreground)]">
