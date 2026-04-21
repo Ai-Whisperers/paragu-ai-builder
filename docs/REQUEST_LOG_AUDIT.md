@@ -1,7 +1,8 @@
 # Request-log middleware audit · 2026-04-21
 
-> Closes part of BUG_HUNT_500 #392. Tracks which API routes still need
-> `withRequestLog` wrapping. Update as routes are migrated.
+> **Status:** ✅ Closed (#392). Every API route on Main is wrapped.
+> Doc retained as the catalog of wrapped routes + the pattern for adding
+> new ones. If you add an API route, add it to the table below.
 
 ## Why this matters
 
@@ -22,31 +23,41 @@ Routes that bypass the wrapper:
 
 ## Status
 
-Total API routes: ~50.
+Every API route on Main is wrapped. Verify any time with:
 
-| Status | Count |
-|---|---|
-| ✅ Wrapped | every route in the original audit |
-| ⚠️ Unwrapped | 1 (new since the original audit — see below) |
+```sh
+find web/app/api -name 'route.ts' | xargs grep -L withRequestLog
+# expect: empty
+```
 
-## Unwrapped routes (audit list)
+If a new route shows up there, wrap it (pattern below) and add a row
+to the "Wrapped routes" table.
 
-Verify with: `find web/app/api -name 'route.ts' | xargs grep -L withRequestLog`
+## Wrapped routes (notes on the original 5 from the audit)
 
-| Route | Lines | Methods | Why it matters |
-|---|---:|---|---|
-| `app/api/leads/[id]/generate-preview/route.ts` | 254 | POST | Added since original audit by a parallel agent. Writes to disk (`sites/preview-<id>/`); has zero auth check — anyone with a lead UUID can trigger preview generation. Wrap + `checkAdmin` in a follow-up. |
+| Route | Wrapped in | Notes |
+|---|---|---|
+| `app/api/activity/route.ts` | PR #131 | First wrap, established the smoke-test pattern. |
+| `app/api/leads/[id]/notes/route.ts` | PR #140 | Added `checkAdmin` to all 4 methods (was completely unauth) + replaced hardcoded `createdBy: 'admin'` with the authenticated user's email. |
+| `app/api/leads/bulk-update/route.ts` | PR #143 | Tightened `auth.getUser()` → `checkAdmin()`: was accepting any signed-in Supabase user (incl. tenant customers) to bulk-mutate leads. |
+| `app/api/admin/daily-metrics/route.ts` | PR #144 | Fixed broken `if (!authHeader?.startsWith('Bearer '))` check (validated nothing) → `checkAdmin()`. Plus module-scoped Supabase client cache per ADR 0006. |
+| `app/api/reminders/route.ts` | PR #145 | All 4 methods unauth → `checkAdmin()`. Dropped dead `ReminderScheduler` instance. |
+| `app/api/analytics/track/route.ts` | PR #145 | POST stays public (browser ingest). GET had the same broken `Bearer <anything>` pattern → `checkAdmin()`. |
 
-## Recently wrapped
+## Hidden security finds during the audit
 
-| Route | Wrapped in |
-|---|---|
-| `app/api/activity/route.ts` | PR #131 |
-| `app/api/leads/[id]/notes/route.ts` | PR #140 — also added `checkAdmin` to all 4 methods + replaced hardcoded `createdBy: 'admin'` with the authenticated user's email |
-| `app/api/leads/bulk-update/route.ts` | PR #143 — also tightened `auth.getUser()` (any authenticated Supabase user) → `checkAdmin()` (env-allowlist admin only). Cleaned up duplicate manual requestId / perf instrumentation that the wrapper provides. |
-| `app/api/admin/daily-metrics/route.ts` | PR #144 — also fixed broken auth: previous check was `if (!authHeader?.startsWith('Bearer '))` which validated NOTHING (any literal `Bearer foo` passed). Now `checkAdmin()`. Plus module-scoped Supabase client cache per ADR 0006. |
-| `app/api/reminders/route.ts` | This PR — also added `checkAdmin` to all 4 methods (was completely unauthenticated). Dropped dead `ReminderScheduler` import that was never invoked. |
-| `app/api/analytics/track/route.ts` | This PR — POST stays public (browsers fire it). GET fixed: previous check was the same broken `Bearer foo` pattern that gave anyone access to the analytics dump. Now `checkAdmin()`. |
+The wrap-every-route exercise surfaced 3 real broken-auth bugs that
+the original audit didn't flag:
+
+1. **`bulk-update`** — accepted any signed-in Supabase user (any
+   tenant customer could bulk-mutate the leads table). Fixed PR #143.
+2. **`admin/daily-metrics`** — accepted any literal `Authorization:
+   Bearer foo` (validated NOTHING). Fixed PR #144.
+3. **`analytics/track` GET** — same broken Bearer pattern, exposed
+   the analytics_events dump. Fixed PR #145.
+
+Wrap-for-observability ended up doubling as a security audit. Worth
+running similar passes on any future "every route does X" sweeps.
 
 ## Wrapping pattern
 
