@@ -31,6 +31,7 @@
 | `LEADS_DIGEST_FROM` | A verified domain on Resend | ✅ `leads@paragu-ai.com` (bare email — Docker swarm `--env-add` mishandles spaces/angle brackets in display-name format; Resend accepts bare emails fine) |
 | `LEADS_DIGEST_TO` | Comma-separated recipient(s) for daily digest | ✅ `weissvanderpol.ivan@gmail.com` |
 | `COMMERCE_EMAIL_FROM` | Same Resend domain, used by commerce flush cron | ✅ already set on VPS |
+| `RESEND_WEBHOOK_SECRET` | Resend dashboard → Webhooks → create endpoint `https://paragu-ai.com/api/webhooks/resend` → copy the `whsec_...` value | ⚠️ unset until webhook configured. Without it, `/api/webhooks/resend` rejects every request as 401 (fail closed). Subscribe to `email.delivered`, `email.bounced`, `email.complained` at minimum. |
 
 > **Domain verification status:** `paragu-ai.com` verified 2026-04-20. If you
 > add another sender domain, follow [resend.com/domains](https://resend.com/domains)

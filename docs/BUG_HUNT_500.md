@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 75 | see closure log below |
+| ✅ Closed | 76 | see closure log below |
 | 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 425 | the rest |
+| 🔴 Open | 424 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -107,6 +107,12 @@ Closure log:
   level with default config (which forbids `@ts-ignore` outright — stricter
   than the original "fail without explanation" ask). Zero existing
   `@ts-ignore` / `@ts-nocheck` / `@ts-expect-error` in app code.
+- **#443** — `/api/webhooks/resend` route receives Svix-signed delivery,
+  bounce, and complaint events from Resend. Persists every event to
+  `webhook_events` (UNIQUE on `(provider, provider_event_id)` for replay
+  dedup), surfaces bounce/complaint at `warn` level for triage. 6 tests
+  cover signature verify, dedup, missing secret. `RESEND_WEBHOOK_SECRET`
+  env var documented in ENV_VARS.md (must be set in Resend dashboard).
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
