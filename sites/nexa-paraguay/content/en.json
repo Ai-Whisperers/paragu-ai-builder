@@ -45,7 +45,7 @@
         "href": "/s/en/nexa-paraguay/contacto"
       }
     ],
-    "ctaText": "Book consultation",
+    "ctaText": "Book free consultation",
     "ctaHref": "/s/en/nexa-paraguay/contacto"
   },
   "home": {
@@ -166,7 +166,7 @@
       "title": "What our clients say",
       "subtitle": "Real stories from people who established their operations in Paraguay",
       "ctaText": "Read all testimonials",
-      "ctaHref": "/s/en/nexa-paraguay/testimonials"
+      "ctaHref": "/s/en/nexa-paraguay/contacto"
     },
     "whyCountry": {
       "eyebrow": "Why Paraguay",
@@ -247,7 +247,7 @@
     "finalCta": {
       "title": "Take the first step",
       "subtitle": "Book a free 30-minute consultation.",
-      "buttonText": "Book consultation",
+      "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   },
@@ -413,7 +413,7 @@
     "cta": {
       "title": "Take the first step",
       "subtitle": "Book a free 30-minute consultation.",
-      "buttonText": "Book consultation",
+      "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   },
@@ -476,7 +476,7 @@
     "cta": {
       "title": "Take the first step",
       "subtitle": "Book a free 30-minute consultation.",
-      "buttonText": "Book consultation",
+      "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   },
@@ -532,23 +532,23 @@
       "title": "Process questions",
       "items": [
         {
-          "q": "How many trips do I need?",
-          "a": "Just one."
+          "q": "How many trips do I need to make to Paraguay?",
+          "a": "Our program is designed so that a single trip is enough."
         },
         {
-          "q": "How long does it take?",
-          "a": "In-person in one day. Document issuance: 45–60 days."
+          "q": "How long does the whole process take?",
+          "a": "On-site processing in one day. Residency and ID card issuance: 45–60 days. Company incorporation and bank account: 2–4 weeks. Total: 8–12 weeks."
         },
         {
-          "q": "What if a document is missing?",
-          "a": "We detect it before your trip — you don't travel until everything is in order."
+          "q": "What happens if a document is missing?",
+          "a": "We detect it before your trip. Our pre-validation ensures you arrive with everything in order."
         }
       ]
     },
     "cta": {
       "title": "Take the first step",
       "subtitle": "Book a free 30-minute consultation.",
-      "buttonText": "Book consultation",
+      "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   },
@@ -636,7 +636,7 @@
     "cta": {
       "title": "Take the first step",
       "subtitle": "Book a free 30-minute consultation.",
-      "buttonText": "Book consultation",
+      "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   },
@@ -717,7 +717,7 @@
     "cta": {
       "title": "Take the first step",
       "subtitle": "Book a free 30-minute consultation.",
-      "buttonText": "Book consultation",
+      "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   },

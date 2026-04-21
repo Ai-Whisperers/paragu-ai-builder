@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
@@ -14,13 +14,14 @@ export interface ContactSectionProps {
   whatsapp?: string
   googleMapsUrl?: string
   hours?: Record<string, string>
-  /** Active URL locale — picks localized default labels for Address/Phone/Hours/WhatsApp CTA. */
+  /** Active URL locale — picks localized default labels. */
   __locale?: string
 }
 
 type ContactLabels = {
   address: string
   phone: string
+  whatsapp: string
   hours: string
   whatsappCta: string
   mapFallback: (city: string) => string
@@ -30,6 +31,7 @@ const CONTACT_LABELS: Record<string, ContactLabels> = {
   de: {
     address: 'Adresse',
     phone: 'Telefon',
+    whatsapp: 'WhatsApp',
     hours: 'Öffnungszeiten',
     whatsappCta: 'Auf WhatsApp schreiben',
     mapFallback: (c) => `Karte von ${c}`,
@@ -37,6 +39,7 @@ const CONTACT_LABELS: Record<string, ContactLabels> = {
   en: {
     address: 'Address',
     phone: 'Phone',
+    whatsapp: 'WhatsApp',
     hours: 'Hours',
     whatsappCta: 'Message on WhatsApp',
     mapFallback: (c) => `Map of ${c}`,
@@ -44,6 +47,7 @@ const CONTACT_LABELS: Record<string, ContactLabels> = {
   es: {
     address: 'Dirección',
     phone: 'Teléfono',
+    whatsapp: 'WhatsApp',
     hours: 'Horarios',
     whatsappCta: 'Escribir por WhatsApp',
     mapFallback: (c) => `Mapa de ${c}`,
@@ -51,6 +55,7 @@ const CONTACT_LABELS: Record<string, ContactLabels> = {
   nl: {
     address: 'Adres',
     phone: 'Telefoon',
+    whatsapp: 'WhatsApp',
     hours: 'Openingstijden',
     whatsappCta: 'Bericht via WhatsApp',
     mapFallback: (c) => `Kaart van ${c}`,
@@ -58,6 +63,7 @@ const CONTACT_LABELS: Record<string, ContactLabels> = {
   pt: {
     address: 'Endereço',
     phone: 'Telefone',
+    whatsapp: 'WhatsApp',
     hours: 'Horários',
     whatsappCta: 'Mensagem no WhatsApp',
     mapFallback: (c) => `Mapa de ${c}`,
@@ -101,27 +107,34 @@ export function ContactSection({
                 </div>
               </div>
 
-              {/* Phone / WhatsApp */}
-              {(phone || whatsapp) && (
+              {/* Phone — only rendered when a real phone number exists. */}
+              {phone && (
                 <div className="flex gap-3">
                   <Phone size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
                   <div>
                     <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">{L.phone}</Heading>
-                    {phone && (
-                      <a href={`tel:${phone}`} className="block text-[var(--secondary)] hover:underline">
-                        {phone}
-                      </a>
-                    )}
-                    {whatsapp && (
-                      <Button
-                        variant="primary"
-                        size="sm"
-                        href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
-                        className="mt-2"
-                      >
-                        {L.whatsappCta}
-                      </Button>
-                    )}
+                    <a href={`tel:${phone}`} className="block text-[var(--secondary)] hover:underline">
+                      {phone}
+                    </a>
+                  </div>
+                </div>
+              )}
+
+              {/* WhatsApp — distinct block from Phone so the label matches
+                  what the user will actually interact with. */}
+              {whatsapp && (
+                <div className="flex gap-3">
+                  <MessageCircle size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
+                  <div>
+                    <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">{L.whatsapp}</Heading>
+                    <Button
+                      variant="primary"
+                      size="sm"
+                      href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
+                      className="mt-1"
+                    >
+                      {L.whatsappCta}
+                    </Button>
                   </div>
                 </div>
               )}

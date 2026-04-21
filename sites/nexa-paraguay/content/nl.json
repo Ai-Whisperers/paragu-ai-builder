@@ -45,7 +45,7 @@
         "href": "/s/nl/nexa-paraguay/contacto"
       }
     ],
-    "ctaText": "Plan consult",
+    "ctaText": "Plan gratis consult",
     "ctaHref": "/s/nl/nexa-paraguay/contacto"
   },
   "home": {
@@ -166,7 +166,7 @@
       "title": "Wat onze klanten zeggen",
       "subtitle": "Echte verhalen van mensen die hun operatie in Paraguay hebben gevestigd",
       "ctaText": "Alle getuigenissen lezen",
-      "ctaHref": "/s/nl/nexa-paraguay/testimonials"
+      "ctaHref": "/s/nl/nexa-paraguay/contacto"
     },
     "whyCountry": {
       "eyebrow": "Waarom Paraguay",
@@ -247,7 +247,7 @@
     "finalCta": {
       "title": "Zet de eerste stap",
       "subtitle": "Plan een gratis consult van 30 minuten.",
-      "buttonText": "Plan consult",
+      "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
@@ -428,7 +428,7 @@
     "cta": {
       "title": "Zet de eerste stap",
       "subtitle": "Plan een gratis consult van 30 minuten.",
-      "buttonText": "Plan consult",
+      "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
@@ -507,7 +507,7 @@
     "cta": {
       "title": "Zet de eerste stap",
       "subtitle": "Plan een gratis consult van 30 minuten.",
-      "buttonText": "Plan consult",
+      "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
@@ -563,23 +563,23 @@
       "title": "Vragen over het proces",
       "items": [
         {
-          "q": "Hoeveel reizen heb ik nodig?",
-          "a": "Eén reis volstaat."
+          "q": "Hoeveel reizen moet ik naar Paraguay maken?",
+          "a": "Ons programma is zo ontworpen dat één reis voldoende is."
         },
         {
-          "q": "Hoe lang duurt het?",
-          "a": "Persoonlijke afhandeling in één dag. Afgifte documenten: 45–60 dagen."
+          "q": "Hoe lang duurt het hele proces?",
+          "a": "Persoonlijke afhandeling in één dag. Uitgifte verblijfsvergunning en ID-kaart: 45–60 dagen. Vennootschapsoprichting en bankrekening: 2–4 weken. Totaal: 8–12 weken."
         },
         {
-          "q": "Wat als er een document ontbreekt?",
-          "a": "We signaleren dat vóór uw reis — u vertrekt pas als alles klopt."
+          "q": "Wat gebeurt er als er een document ontbreekt?",
+          "a": "We detecteren het vóór uw reis. Onze voorafgaande validatie zorgt ervoor dat u met alles in orde aankomt."
         }
       ]
     },
     "cta": {
       "title": "Zet de eerste stap",
       "subtitle": "Plan een gratis consult van 30 minuten.",
-      "buttonText": "Plan consult",
+      "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
@@ -667,7 +667,7 @@
     "cta": {
       "title": "Zet de eerste stap",
       "subtitle": "Plan een gratis consult van 30 minuten.",
-      "buttonText": "Plan consult",
+      "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
@@ -748,7 +748,7 @@
     "cta": {
       "title": "Zet de eerste stap",
       "subtitle": "Plan een gratis consult van 30 minuten.",
-      "buttonText": "Plan consult",
+      "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
