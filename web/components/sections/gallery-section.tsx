@@ -24,7 +24,8 @@ export function GallerySection({
   logos,
   columns = 3,
 }: GallerySectionProps) {
-  const images = imagesProp || (logos?.map((l) => ({ src: l.src || l.image || '', alt: l.alt || l.name || '' })) || [])
+  const images: GalleryImage[] =
+    imagesProp || (logos?.map((l) => ({ src: l.src || l.image || '', alt: l.alt || l.name || '' })) ?? [])
   if (images.length === 0) return null
   const gridCols = {
     2: 'sm:grid-cols-2',
