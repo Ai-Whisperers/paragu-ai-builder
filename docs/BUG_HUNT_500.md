@@ -10,7 +10,7 @@
 | Status | Count | Items |
 |---|---|---|
 | ✅ Closed | 83 | see closure log below |
-| 🟡 In progress | 1 | #392 (4 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
+| 🟡 In progress | 1 | #392 (3 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
 | 🔴 Open | 417 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
@@ -148,6 +148,12 @@ Closure log:
   Site / Section / Demo / Real tenant / Pilot / Promote / Pagopar /
   Facilitator Lite / withRequestLog / checkAdmin / Cloudflare Polish /
   Runbook / ADR / BUG_HUNT_500. Cross-linked from other docs.
+- **#392 partial #3 + #460 partial #2** — `/api/leads/bulk-update` wrapped in
+  `withRequestLog`, AND tightened auth: was `auth.getUser()` (any
+  authenticated Supabase user — including paying tenant customers — could
+  bulk-mutate leads); now `checkAdmin()` (env-allowlist). Removed duplicate
+  manual `requestId` / `performance.now()` instrumentation that the wrapper
+  already provides. Audit count 4 → 3.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
