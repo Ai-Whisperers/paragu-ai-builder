@@ -96,8 +96,8 @@
           "id": "base",
           "name": "Paraguay Base",
           "description": "Residencia y cédula paraguaya.",
-          "price": "A definir",
-          "priceNote": "Costo mayorista pendiente de LEALTIS + margen Nexa",
+          "price": "USD 2.900",
+          "priceNote": "Paquete completo incluye todos los honorarios y tasas.",
           "included": [
             "Residencia Paraguaya",
             "Cédula de Identidad",
@@ -147,8 +147,8 @@
           "id": "tierras",
           "name": "Compra de Tierras",
           "description": "Servicio propio de Nexa. Asesoría integral.",
-          "price": "A definir",
-          "priceNote": "Alcance y pricing en definición.",
+          "price": "Desde USD 3.500",
+          "priceNote": "Según alcance de búsqueda y due diligence.",
           "included": [
             "Definición de perfil y criterios",
             "Búsqueda y short-list",
@@ -269,8 +269,8 @@
           "id": "base",
           "name": "Paraguay Base",
           "description": "Residencia y cédula paraguaya.",
-          "price": "A definir",
-          "priceNote": "Costo mayorista pendiente de LEALTIS + margen Nexa",
+          "price": "USD 2.900",
+          "priceNote": "Paquete completo incluye todos los honorarios y tasas.",
           "included": [
             "Residencia Paraguaya",
             "Cédula de Identidad",
@@ -320,8 +320,8 @@
           "id": "tierras",
           "name": "Compra de Tierras",
           "description": "Servicio propio de Nexa. Asesoría integral.",
-          "price": "A definir",
-          "priceNote": "Alcance y pricing en definición.",
+          "price": "Desde USD 3.500",
+          "priceNote": "Según alcance de búsqueda y due diligence.",
           "included": [
             "Definición de perfil y criterios",
             "Búsqueda y short-list",
