@@ -10,6 +10,7 @@
  * launches, never sub-minute.
  */
 import { NextResponse } from 'next/server'
+import { withRequestLog } from '@/lib/api/with-request-log'
 import { REAL_CLIENTS } from '@/lib/landing/marketing-data'
 
 export const runtime = 'nodejs'
@@ -25,7 +26,7 @@ export type ActivityEntry = {
   ago?: string
 }
 
-export async function GET() {
+export const GET = withRequestLog(async () => {
   const entries: ActivityEntry[] = REAL_CLIENTS.map((c, i) => ({
     slug: c.slug,
     name: c.name,
@@ -36,4 +37,4 @@ export async function GET() {
   }))
 
   return NextResponse.json({ entries })
-}
+})

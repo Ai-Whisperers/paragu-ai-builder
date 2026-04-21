@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react'
 import {
   Scissors, Dumbbell, Flower2, Hand, PenTool, User, Sparkles,
   Palette, Zap, Eye, Globe, Smartphone, Search, MessageCircle,
-  ArrowRight, BarChart3, Layers, Wand2, Star,
-  MapPin, Users, TrendingUp, ShoppingCart, Check,
+  ArrowRight, Layers, Wand2, Star,
+  ShoppingCart, Check,
   Menu, X as XIcon, PlayCircle,
   UtensilsCrossed, Fish, CircleDot,
   RotateCcw, Activity, Unlock,
@@ -16,7 +16,6 @@ import { Container } from '@/components/ui/container'
 import { FadeIn } from '@/components/landing/fade-in'
 import { FAQItem } from '@/components/landing/faq-item'
 import { LogoStrip } from '@/components/landing/logo-strip'
-import { PressStrip } from '@/components/landing/press-strip'
 import { FloatingShape } from '@/components/landing/chrome'
 
 /* ── Schema.org Structured Data ────────────────────────────────── */
@@ -370,7 +369,6 @@ const FAQS = [
   { question: '¿Qué pasa si no me gusta el sitio?', answer: 'Tenés 30 días de garantía. Si no te convence, te devolvemos el 100% del setup. Sin preguntas ni letra chica.' },
 ]
 
-const SECTIONS = ['clientes', 'rubros', 'como-funciona', 'precios', 'faq']
 
 /* ── Helper Functions ───────────────────────────────────────────── */
 
@@ -710,7 +708,7 @@ export default function HomePage() {
 
             <FadeIn delay={500}>
               <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {GUARANTEES.map((g, idx) => (
+                {GUARANTEES.map((g) => (
                   <div key={g.title} className="flex items-start gap-3 rounded-xl bg-white p-4">
                     <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
                       <g.icon size={20} />

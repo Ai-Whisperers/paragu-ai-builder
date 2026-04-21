@@ -10,7 +10,7 @@
 | Status | Count | Items |
 |---|---|---|
 | ✅ Closed | 73 | see closure log below |
-| 🟡 In progress | 0 | — |
+| 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
 | 🔴 Open | 427 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
