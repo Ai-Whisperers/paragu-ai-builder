@@ -652,43 +652,28 @@ export default function HomePage() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {TEMPLATES.filter(t => t.leads > 0 || t.demoSlug).map((template, idx) => (
                 <FadeIn key={template.id} delay={idx * 50}>
-                  {template.demoSlug ? (
-                    <a
-                      href={`/${template.demoSlug}`}
-                      className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-4 transition-all hover:border-blue-300 hover:shadow-md"
+                  <a
+                    href={`/${template.demoSlug}`}
+                    className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-4 transition-all hover:border-blue-300 hover:shadow-md"
+                  >
+                    <div
+                      className="flex h-12 w-12 items-center justify-center rounded-xl text-white"
+                      style={{ backgroundColor: template.color }}
                     >
-                      <div 
-                        className="flex h-12 w-12 items-center justify-center rounded-xl text-white"
-                        style={{ backgroundColor: template.color }}
-                      >
-                        <template.icon size={24} />
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="font-semibold text-gray-900 group-hover:text-blue-600">
-                          {template.name}
-                        </h3>
-                        {template.leads > 0 && (
-                          <p className="text-xs text-gray-500">
-                            {template.leads.toLocaleString()} negocios en PY
-                          </p>
-                        )}
-                      </div>
-                      <ArrowRight size={16} className="text-gray-400 group-hover:text-blue-600" />
-                    </a>
-                  ) : (
-                    <div className="flex items-center gap-4 rounded-xl border border-gray-100 bg-gray-50 p-4 opacity-60">
-                      <div 
-                        className="flex h-12 w-12 items-center justify-center rounded-xl text-white"
-                        style={{ backgroundColor: template.color }}
-                      >
-                        <template.icon size={24} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-gray-700">{template.name}</h3>
-                        <p className="text-xs text-gray-400">Próximamente</p>
-                      </div>
+                      <template.icon size={24} />
                     </div>
-                  )}
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-gray-900 group-hover:text-blue-600">
+                        {template.name}
+                      </h3>
+                      {template.leads > 0 && (
+                        <p className="text-xs text-gray-500">
+                          {template.leads.toLocaleString()} negocios en PY
+                        </p>
+                      )}
+                    </div>
+                    <ArrowRight size={16} className="text-gray-400 group-hover:text-blue-600" />
+                  </a>
                 </FadeIn>
               ))}
             </div>
