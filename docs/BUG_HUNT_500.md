@@ -191,6 +191,11 @@ Closure log:
   API route at test time and fails if any route lacks an auth helper or
   isn't in the explicit `PUBLIC_ROUTE_ALLOWLIST`. This regression test
   would have caught all 6 broken-auth bugs from the audit at PR time.
+- **#392 regression-locked** — Added a 2nd describe to the same test file:
+  every API route must contain `withRequestLog`. No allowlist (every route
+  needs the wrapper). Locks #392 so it can't regress when someone adds a
+  new route. Pairs with the auth coverage test as a "you cannot ship a
+  broken route" social contract.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
