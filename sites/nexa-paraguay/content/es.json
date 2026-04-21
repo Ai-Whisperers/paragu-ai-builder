@@ -25,6 +25,14 @@
         "href": "/s/es/nexa-paraguay/comparacion"
       },
       {
+        "label": "Jurisdicciones",
+        "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Calidad de vida",
+        "href": "/s/es/nexa-paraguay/calidad-de-vida"
+      },
+      {
         "label": "Por qué Paraguay",
         "href": "/s/es/nexa-paraguay/por-que-paraguay"
       },
@@ -915,6 +923,14 @@
       {
         "label": "Por qué Paraguay",
         "href": "/s/es/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Calidad de vida",
+        "href": "/s/es/nexa-paraguay/calidad-de-vida"
+      },
+      {
+        "label": "Jurisdicciones",
+        "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
       }
     ]
   },
@@ -1363,6 +1379,288 @@
     "newsletter": {
       "title": "¿Quiere las actualizaciones?",
       "subtitle": "Newsletter mensual con cambios regulatorios y fiscales relevantes para europeos en Paraguay."
+    }
+  },
+  "qualityOfLifePage": {
+    "seo": {
+      "title": "Calidad de vida en Paraguay — Nexa Paraguay",
+      "description": "Asunción vs capitales europeas: costo de vida, seguridad, clima, comunidad internacional."
+    },
+    "hero": {
+      "headline": "Calidad de vida en Asunción",
+      "subheadline": "Cómo se compara con Ámsterdam, Berlín, Madrid en lo que realmente importa."
+    },
+    "pillars": {
+      "eyebrow": "Por qué importa",
+      "title": "Lo que cambia cuando se muda a Paraguay",
+      "pillars": [
+        {
+          "icon": "DollarSign",
+          "title": "Costo de vida",
+          "description": "Un estilo de vida equivalente al de una capital europea cuesta 40–60% menos. Un apartamento de 2 ambientes en buena zona de Asunción: USD 500–900/mes.",
+          "bullets": [
+            "Vivienda 50% menor",
+            "Comida fuera 40% menor",
+            "Servicios domésticos accesibles"
+          ]
+        },
+        {
+          "icon": "Sun",
+          "title": "Clima",
+          "description": "Subtropical. Invierno suave (10–25°C), verano caluroso (25–38°C). Sin invierno europeo.",
+          "bullets": [
+            "Sol 280+ días/año",
+            "Sin calefacción anual",
+            "Estaciones templadas"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Comunidad internacional",
+          "description": "Comunidad creciente de europeos (alemanes, holandeses, españoles) radicados en Asunción. Eventos y grupos mensuales.",
+          "bullets": [
+            "Grupos expat activos",
+            "Escuelas internacionales",
+            "Restaurantes y cultura global"
+          ]
+        }
+      ],
+      "honestNote": "No todo es mejor. El clima extremo en verano, la infraestructura de transporte público, y la distancia de Europa (vuelos vía São Paulo o Madrid) son trade-offs reales. Hable con un cliente actual antes de decidir."
+    },
+    "comparison": {
+      "title": "Datos comparados (aproximados, 2026)",
+      "columns": 3,
+      "features": [
+        {
+          "title": "Apartamento 2 ambientes (centro)",
+          "description": "Asunción: USD 600 / Madrid: USD 1.600 / Berlín: USD 1.800 / Ámsterdam: USD 2.200",
+          "icon": "Home"
+        },
+        {
+          "title": "Almuerzo ejecutivo",
+          "description": "Asunción: USD 7 / Madrid: USD 15 / Berlín: USD 18 / Ámsterdam: USD 22",
+          "icon": "Utensils"
+        },
+        {
+          "title": "Tarifa de internet fibra",
+          "description": "Asunción: USD 25/mes / Madrid: USD 35 / Berlín: USD 40 / Ámsterdam: USD 45",
+          "icon": "Wifi"
+        },
+        {
+          "title": "Transporte privado (taxi/Uber x mes)",
+          "description": "Asunción: USD 60 / Madrid: USD 120 / Berlín: USD 150 / Ámsterdam: USD 180",
+          "icon": "Car"
+        },
+        {
+          "title": "Seguro médico privado premium",
+          "description": "Asunción: USD 80–150/mes / Europa: USD 200–450/mes",
+          "icon": "Heart"
+        },
+        {
+          "title": "Distancia aérea a Europa (una parada)",
+          "description": "Asunción ↔ Madrid vía GRU/MAD: ~14–18h, USD 1.000–1.500 ida y vuelta",
+          "icon": "Plane"
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Pregunta sobre la vida cotidiana?",
+      "subtitle": "Hablamos con clientes ya radicados — podemos conectarlo con alguien que viva ahí hoy.",
+      "buttonText": "Agendar consulta gratuita",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "jurisdictionCompPage": {
+    "seo": {
+      "title": "Paraguay vs Uruguay vs Panamá — comparación de jurisdicciones",
+      "description": "Comparación fiscal, regulatoria y de costos entre las 3 jurisdicciones latinoamericanas más elegidas por europeos."
+    },
+    "hero": {
+      "headline": "Paraguay, Uruguay o Panamá",
+      "subheadline": "Comparación honesta de las 3 jurisdicciones que los europeos comparan al decidir dónde mudarse."
+    },
+    "matrix": {
+      "eyebrow": "Comparación",
+      "title": "Qué ofrece cada jurisdicción",
+      "subtitle": "Datos aproximados a 2026. Consulte con su asesor fiscal antes de decidir — esto es orientativo.",
+      "tiers": [
+        {
+          "id": "py",
+          "name": "Paraguay",
+          "description": "Sistema territorial, residencia rápida, costo de vida bajo",
+          "highlighted": true,
+          "badge": "Recomendado",
+          "price": "10% IRP",
+          "priceNote": "Impuesto sobre renta empresaria",
+          "included": [],
+          "ctaLabel": "Agendar consulta gratuita",
+          "ctaHref": "/s/es/nexa-paraguay/contacto"
+        },
+        {
+          "id": "uy",
+          "name": "Uruguay",
+          "description": "Estabilidad jurídica alta, tratados con UE, IRAE 25%",
+          "price": "25% IRAE",
+          "priceNote": "Impuesto a las rentas empresariales",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        },
+        {
+          "id": "pa",
+          "name": "Panamá",
+          "description": "Hub financiero, sistema territorial, residencia por inversión",
+          "price": "25% ISR",
+          "priceNote": "Impuesto sobre la renta corporativa",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        }
+      ],
+      "comparisonRows": [
+        {
+          "feature": "Impuesto corporativo (tasa general)",
+          "values": [
+            "10%",
+            "25%",
+            "25%"
+          ]
+        },
+        {
+          "feature": "Sistema fiscal",
+          "values": [
+            "Territorial (ingresos extranjeros exentos)",
+            "Mixto",
+            "Territorial"
+          ]
+        },
+        {
+          "feature": "IVA",
+          "values": [
+            "10%",
+            "22%",
+            "7%"
+          ]
+        },
+        {
+          "feature": "Impuesto a dividendos (no residente)",
+          "values": [
+            "15%",
+            "7%",
+            "10%"
+          ]
+        },
+        {
+          "feature": "Tiempo a residencia permanente",
+          "values": [
+            "8–12 semanas",
+            "3–6 meses",
+            "60–90 días (Amigos del País)"
+          ]
+        },
+        {
+          "feature": "Costo del programa de residencia (honorarios legales)",
+          "values": [
+            "USD 4.400–6.900",
+            "USD 8.000–15.000",
+            "USD 5.000–10.000"
+          ]
+        },
+        {
+          "feature": "Mínimo de inversión / capital exigido",
+          "values": [
+            "Ninguno (residencia ordinaria)",
+            "Variable según categoría",
+            "USD 0 Amigos / USD 300k Inversionista"
+          ]
+        },
+        {
+          "feature": "Tratados UE (doble imposición)",
+          "values": [
+            "Limitados — consulte según país UE",
+            "Amplia red incluyendo NL/DE/ES",
+            "Red media"
+          ]
+        },
+        {
+          "feature": "Estabilidad política (Índice de Libertad Económica 2025)",
+          "values": [
+            "Moderada",
+            "Alta (mejor de LATAM)",
+            "Alta"
+          ]
+        },
+        {
+          "feature": "Costo de vida vs UE (2-3h ciudad capital)",
+          "values": [
+            "40–60% menor",
+            "20–30% menor",
+            "15–25% menor"
+          ]
+        },
+        {
+          "feature": "Aptitud para trading / crypto",
+          "values": [
+            "Buena, poco regulado",
+            "Regulado, licencias claras",
+            "Regulado, hub financiero"
+          ]
+        },
+        {
+          "feature": "Acceso bancario para extranjeros",
+          "values": [
+            "Moderado — requiere gestión",
+            "Alto pero lento",
+            "Alto (hub)"
+          ]
+        },
+        {
+          "feature": "Lenguaje operativo local",
+          "values": [
+            "Español + guaraní",
+            "Español",
+            "Español + inglés"
+          ]
+        },
+        {
+          "feature": "Proximidad vuelos UE (1 escala)",
+          "values": [
+            "14–18h vía GRU/MAD",
+            "12–16h vía GRU/MAD",
+            "10–14h directos"
+          ]
+        },
+        {
+          "feature": "Adecuación para retirados europeos",
+          "values": [
+            "Alta",
+            "Muy alta",
+            "Alta"
+          ]
+        },
+        {
+          "feature": "Adecuación para emprendedores tech",
+          "values": [
+            "Alta (costos bajos)",
+            "Media",
+            "Alta (hub financiero)"
+          ]
+        },
+        {
+          "feature": "Riesgo de percepción 'paraíso fiscal' ante auditoría UE",
+          "values": [
+            "Bajo",
+            "Muy bajo",
+            "Moderado (listas grises históricas)"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Todavía dudando?",
+      "subtitle": "Le conectamos con clientes nuestros que evaluaron las 3 y pueden contar cómo decidieron.",
+      "buttonText": "Agendar consulta gratuita",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
     }
   }
 }

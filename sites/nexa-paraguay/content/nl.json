@@ -25,6 +25,14 @@
         "href": "/s/nl/nexa-paraguay/comparacion"
       },
       {
+        "label": "Jurisdicties",
+        "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Levenskwaliteit",
+        "href": "/s/nl/nexa-paraguay/calidad-de-vida"
+      },
+      {
         "label": "Waarom Paraguay",
         "href": "/s/nl/nexa-paraguay/por-que-paraguay"
       },
@@ -881,6 +889,14 @@
       {
         "label": "Waarom Paraguay",
         "href": "/s/nl/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Levenskwaliteit",
+        "href": "/s/nl/nexa-paraguay/calidad-de-vida"
+      },
+      {
+        "label": "Jurisdicties",
+        "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
       }
     ]
   },
@@ -1329,6 +1345,288 @@
     "newsletter": {
       "title": "Wilt u de updates?",
       "subtitle": "Maandelijkse nieuwsbrief met regulatoire en fiscale veranderingen relevant voor Europeanen in Paraguay."
+    }
+  },
+  "qualityOfLifePage": {
+    "seo": {
+      "title": "Levenskwaliteit in Paraguay — Nexa Paraguay",
+      "description": "Asunción vs Europese hoofdsteden: kosten, veiligheid, klimaat, internationale gemeenschap."
+    },
+    "hero": {
+      "headline": "Levenskwaliteit in Asunción",
+      "subheadline": "Hoe het zich verhoudt tot Amsterdam, Berlijn, Madrid op wat echt telt."
+    },
+    "pillars": {
+      "eyebrow": "Waarom het telt",
+      "title": "Wat verandert wanneer u naar Paraguay verhuist",
+      "pillars": [
+        {
+          "icon": "DollarSign",
+          "title": "Levenskosten",
+          "description": "Een levensstijl vergelijkbaar met een Europese hoofdstad kost 40–60% minder. Een 2-kamer appartement in een goede wijk van Asunción: USD 500–900/maand.",
+          "bullets": [
+            "Huisvesting 50% lager",
+            "Uit eten 40% lager",
+            "Huishoudelijke diensten toegankelijk"
+          ]
+        },
+        {
+          "icon": "Sun",
+          "title": "Klimaat",
+          "description": "Subtropisch. Milde winter (10–25°C), hete zomer (25–38°C). Geen Europese winter.",
+          "bullets": [
+            "280+ zonnige dagen/jr",
+            "Geen jaarlijkse verwarming",
+            "Gematigde seizoenen"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Internationale gemeenschap",
+          "description": "Groeiende gemeenschap Europeanen (Duits, Nederlands, Spaans) gevestigd in Asunción.",
+          "bullets": [
+            "Actieve expat-groepen",
+            "Internationale scholen",
+            "Wereldkeuken en cultuur"
+          ]
+        }
+      ],
+      "honestNote": "Niet alles is beter. Extreme zomerhitte, openbaar vervoer en afstand tot Europa zijn reële nadelen. Praat met een huidige klant voor u beslist."
+    },
+    "comparison": {
+      "title": "Vergelijkingsdata (indicatief, 2026)",
+      "columns": 3,
+      "features": [
+        {
+          "title": "2-kamer appartement (centrum)",
+          "description": "Asunción: USD 600 / Madrid: USD 1.600 / Berlijn: USD 1.800 / Amsterdam: USD 2.200",
+          "icon": "Home"
+        },
+        {
+          "title": "Zakenlunch",
+          "description": "Asunción: USD 7 / Madrid: USD 15 / Berlijn: USD 18 / Amsterdam: USD 22",
+          "icon": "Utensils"
+        },
+        {
+          "title": "Glasvezel internet",
+          "description": "Asunción: USD 25/mnd / Madrid: USD 35 / Berlijn: USD 40 / Amsterdam: USD 45",
+          "icon": "Wifi"
+        },
+        {
+          "title": "Privévervoer (taxi/Uber/mnd)",
+          "description": "Asunción: USD 60 / Madrid: USD 120 / Berlijn: USD 150 / Amsterdam: USD 180",
+          "icon": "Car"
+        },
+        {
+          "title": "Premium zorgverzekering",
+          "description": "Asunción: USD 80–150/mnd / Europa: USD 200–450/mnd",
+          "icon": "Heart"
+        },
+        {
+          "title": "Vliegafstand naar Europa (1 tussenstop)",
+          "description": "Asunción ↔ Madrid via GRU/MAD: ~14–18u, USD 1.000–1.500 retour",
+          "icon": "Plane"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vragen over het dagelijks leven?",
+      "subtitle": "We praten met al gevestigde klanten — we verbinden u met iemand die er nu woont.",
+      "buttonText": "Plan gratis consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "jurisdictionCompPage": {
+    "seo": {
+      "title": "Paraguay vs Uruguay vs Panama — jurisdictievergelijking",
+      "description": "Fiscale, regulatoire en kostenvergelijking tussen de 3 LATAM-jurisdicties die Europeanen meest vergelijken."
+    },
+    "hero": {
+      "headline": "Paraguay, Uruguay of Panama",
+      "subheadline": "Eerlijke vergelijking van de 3 jurisdicties die Europeanen overwegen bij verhuizing."
+    },
+    "matrix": {
+      "eyebrow": "Vergelijking",
+      "title": "Wat elke jurisdictie biedt",
+      "subtitle": "Benaderde data 2026. Raadpleeg uw belastingadviseur voor beslissing — dit is oriëntatie.",
+      "tiers": [
+        {
+          "id": "py",
+          "name": "Paraguay",
+          "description": "Territoriaal systeem, snelle verblijfsvergunning, lage kosten",
+          "highlighted": true,
+          "badge": "Aanbevolen",
+          "price": "10% CIT",
+          "priceNote": "Vennootschapsbelasting",
+          "included": [],
+          "ctaLabel": "Plan gratis consult",
+          "ctaHref": "/s/nl/nexa-paraguay/contacto"
+        },
+        {
+          "id": "uy",
+          "name": "Uruguay",
+          "description": "Hoge rechtszekerheid, EU-verdragen, IRAE 25%",
+          "price": "25% IRAE",
+          "priceNote": "Bedrijfsbelasting",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        },
+        {
+          "id": "pa",
+          "name": "Panama",
+          "description": "Financieel hub, territoriaal systeem, investeringsresidentie",
+          "price": "25% CIT",
+          "priceNote": "Vennootschapsbelasting",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        }
+      ],
+      "comparisonRows": [
+        {
+          "feature": "Vennootschapsbelasting (basis)",
+          "values": [
+            "10%",
+            "25%",
+            "25%"
+          ]
+        },
+        {
+          "feature": "Fiscaal systeem",
+          "values": [
+            "Territoriaal (buitenlands inkomen vrijgesteld)",
+            "Gemengd",
+            "Territoriaal"
+          ]
+        },
+        {
+          "feature": "BTW",
+          "values": [
+            "10%",
+            "22%",
+            "7%"
+          ]
+        },
+        {
+          "feature": "Dividendbelasting (niet-ingezetene)",
+          "values": [
+            "15%",
+            "7%",
+            "10%"
+          ]
+        },
+        {
+          "feature": "Tijd tot permanent verblijf",
+          "values": [
+            "8–12 weken",
+            "3–6 maanden",
+            "60–90 dagen (Friendly Nations)"
+          ]
+        },
+        {
+          "feature": "Kosten residentieprogramma (juridisch)",
+          "values": [
+            "USD 4.400–6.900",
+            "USD 8.000–15.000",
+            "USD 5.000–10.000"
+          ]
+        },
+        {
+          "feature": "Minimuminvestering / kapitaal vereist",
+          "values": [
+            "Geen (gewoon verblijf)",
+            "Varieert per categorie",
+            "USD 0 Friendly / USD 300k Investeerder"
+          ]
+        },
+        {
+          "feature": "EU-belastingverdragen",
+          "values": [
+            "Beperkt — controleer per EU-land",
+            "Ruim incl. NL/DE/ES",
+            "Middelgroot netwerk"
+          ]
+        },
+        {
+          "feature": "Politieke stabiliteit (Economic Freedom 2025)",
+          "values": [
+            "Matig",
+            "Hoog (beste in LATAM)",
+            "Hoog"
+          ]
+        },
+        {
+          "feature": "Levenskosten vs EU-hoofdstad",
+          "values": [
+            "40–60% lager",
+            "20–30% lager",
+            "15–25% lager"
+          ]
+        },
+        {
+          "feature": "Geschikt voor trading / crypto",
+          "values": [
+            "Goed, weinig regulering",
+            "Gereguleerd, duidelijke licenties",
+            "Gereguleerd, financieel hub"
+          ]
+        },
+        {
+          "feature": "Bankentoegang voor buitenlanders",
+          "values": [
+            "Matig — vereist coördinatie",
+            "Hoog maar langzaam",
+            "Hoog (hub)"
+          ]
+        },
+        {
+          "feature": "Lokale operationele taal",
+          "values": [
+            "Spaans + Guaraní",
+            "Spaans",
+            "Spaans + Engels"
+          ]
+        },
+        {
+          "feature": "Vluchtafstand naar EU (1 tussenstop)",
+          "values": [
+            "14–18u via GRU/MAD",
+            "12–16u via GRU/MAD",
+            "10–14u direct"
+          ]
+        },
+        {
+          "feature": "Geschikt voor Europese gepensioneerden",
+          "values": [
+            "Hoog",
+            "Zeer hoog",
+            "Hoog"
+          ]
+        },
+        {
+          "feature": "Geschikt voor tech-ondernemers",
+          "values": [
+            "Hoog (lage kosten)",
+            "Gemiddeld",
+            "Hoog (financieel hub)"
+          ]
+        },
+        {
+          "feature": "Risico van 'belastingparadijs'-perceptie bij EU-audits",
+          "values": [
+            "Laag",
+            "Zeer laag",
+            "Matig (historische grijze lijsten)"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Nog twijfels?",
+      "subtitle": "We verbinden u met onze klanten die alle 3 evalueerden.",
+      "buttonText": "Plan gratis consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }
   }
 }

@@ -25,6 +25,14 @@
         "href": "/s/en/nexa-paraguay/comparacion"
       },
       {
+        "label": "Jurisdictions",
+        "href": "/s/en/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Quality of life",
+        "href": "/s/en/nexa-paraguay/calidad-de-vida"
+      },
+      {
         "label": "Why Paraguay",
         "href": "/s/en/nexa-paraguay/por-que-paraguay"
       },
@@ -850,6 +858,14 @@
       {
         "label": "Why Paraguay",
         "href": "/s/en/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Quality of life",
+        "href": "/s/en/nexa-paraguay/calidad-de-vida"
+      },
+      {
+        "label": "Jurisdictions",
+        "href": "/s/en/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
       }
     ]
   },
@@ -1298,6 +1314,288 @@
     "newsletter": {
       "title": "Want the updates?",
       "subtitle": "Monthly newsletter with regulatory and tax changes relevant for Europeans in Paraguay."
+    }
+  },
+  "qualityOfLifePage": {
+    "seo": {
+      "title": "Quality of life in Paraguay — Nexa Paraguay",
+      "description": "Asunción vs European capitals: cost of living, safety, climate, international community."
+    },
+    "hero": {
+      "headline": "Quality of life in Asunción",
+      "subheadline": "How it compares to Amsterdam, Berlin, Madrid on what actually matters."
+    },
+    "pillars": {
+      "eyebrow": "Why it matters",
+      "title": "What changes when you move to Paraguay",
+      "pillars": [
+        {
+          "icon": "DollarSign",
+          "title": "Cost of living",
+          "description": "A lifestyle equivalent to a European capital costs 40–60% less. A 2-bedroom apartment in a good Asunción area: USD 500–900/mo.",
+          "bullets": [
+            "Housing 50% lower",
+            "Eating out 40% lower",
+            "Domestic services accessible"
+          ]
+        },
+        {
+          "icon": "Sun",
+          "title": "Climate",
+          "description": "Subtropical. Mild winter (10–25°C), hot summer (25–38°C). No European winter.",
+          "bullets": [
+            "Sun 280+ days/yr",
+            "No annual heating",
+            "Temperate seasons"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "International community",
+          "description": "Growing community of Europeans (German, Dutch, Spanish) settled in Asunción. Monthly events and groups.",
+          "bullets": [
+            "Active expat groups",
+            "International schools",
+            "Global restaurants and culture"
+          ]
+        }
+      ],
+      "honestNote": "Not everything is better. Extreme summer heat, public transport infrastructure, and distance from Europe (flights via São Paulo or Madrid) are real trade-offs. Talk to a current client before deciding."
+    },
+    "comparison": {
+      "title": "Side-by-side data (approximate, 2026)",
+      "columns": 3,
+      "features": [
+        {
+          "title": "2-bedroom apt (downtown)",
+          "description": "Asunción: USD 600 / Madrid: USD 1,600 / Berlin: USD 1,800 / Amsterdam: USD 2,200",
+          "icon": "Home"
+        },
+        {
+          "title": "Business lunch",
+          "description": "Asunción: USD 7 / Madrid: USD 15 / Berlin: USD 18 / Amsterdam: USD 22",
+          "icon": "Utensils"
+        },
+        {
+          "title": "Fiber internet",
+          "description": "Asunción: USD 25/mo / Madrid: USD 35 / Berlin: USD 40 / Amsterdam: USD 45",
+          "icon": "Wifi"
+        },
+        {
+          "title": "Private transport (taxi/Uber/mo)",
+          "description": "Asunción: USD 60 / Madrid: USD 120 / Berlin: USD 150 / Amsterdam: USD 180",
+          "icon": "Car"
+        },
+        {
+          "title": "Premium private health insurance",
+          "description": "Asunción: USD 80–150/mo / Europe: USD 200–450/mo",
+          "icon": "Heart"
+        },
+        {
+          "title": "Air distance to Europe (1 stop)",
+          "description": "Asunción ↔ Madrid via GRU/MAD: ~14–18h, USD 1,000–1,500 round trip",
+          "icon": "Plane"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Questions about daily life?",
+      "subtitle": "We talk to clients already settled — we can connect you to someone living there today.",
+      "buttonText": "Book free consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
+  },
+  "jurisdictionCompPage": {
+    "seo": {
+      "title": "Paraguay vs Uruguay vs Panama — jurisdiction comparison",
+      "description": "Tax, regulatory, and cost comparison across the 3 LATAM jurisdictions Europeans most often compare."
+    },
+    "hero": {
+      "headline": "Paraguay, Uruguay, or Panama",
+      "subheadline": "Honest comparison of the 3 jurisdictions Europeans weigh when deciding where to relocate."
+    },
+    "matrix": {
+      "eyebrow": "Comparison",
+      "title": "What each jurisdiction offers",
+      "subtitle": "Approximate 2026 data. Consult your tax advisor before deciding — this is orientation, not advice.",
+      "tiers": [
+        {
+          "id": "py",
+          "name": "Paraguay",
+          "description": "Territorial system, fast residency, low cost of living",
+          "highlighted": true,
+          "badge": "Recommended",
+          "price": "10% CIT",
+          "priceNote": "Corporate income tax",
+          "included": [],
+          "ctaLabel": "Book free consultation",
+          "ctaHref": "/s/en/nexa-paraguay/contacto"
+        },
+        {
+          "id": "uy",
+          "name": "Uruguay",
+          "description": "High legal stability, EU treaties, IRAE 25%",
+          "price": "25% IRAE",
+          "priceNote": "Business income tax",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        },
+        {
+          "id": "pa",
+          "name": "Panama",
+          "description": "Financial hub, territorial system, investment residency",
+          "price": "25% CIT",
+          "priceNote": "Corporate income tax",
+          "included": [],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        }
+      ],
+      "comparisonRows": [
+        {
+          "feature": "Corporate tax rate (headline)",
+          "values": [
+            "10%",
+            "25%",
+            "25%"
+          ]
+        },
+        {
+          "feature": "Tax system",
+          "values": [
+            "Territorial (foreign income exempt)",
+            "Mixed",
+            "Territorial"
+          ]
+        },
+        {
+          "feature": "VAT",
+          "values": [
+            "10%",
+            "22%",
+            "7%"
+          ]
+        },
+        {
+          "feature": "Dividend tax (non-resident)",
+          "values": [
+            "15%",
+            "7%",
+            "10%"
+          ]
+        },
+        {
+          "feature": "Time to permanent residency",
+          "values": [
+            "8–12 weeks",
+            "3–6 months",
+            "60–90 days (Friendly Nations)"
+          ]
+        },
+        {
+          "feature": "Residency program cost (legal fees)",
+          "values": [
+            "USD 4,400–6,900",
+            "USD 8,000–15,000",
+            "USD 5,000–10,000"
+          ]
+        },
+        {
+          "feature": "Minimum investment / capital required",
+          "values": [
+            "None (ordinary residency)",
+            "Varies by category",
+            "USD 0 Friendly / USD 300k Investor"
+          ]
+        },
+        {
+          "feature": "EU tax treaties (DTT coverage)",
+          "values": [
+            "Limited — check by EU country",
+            "Wide incl. NL/DE/ES",
+            "Medium network"
+          ]
+        },
+        {
+          "feature": "Political stability (Economic Freedom 2025)",
+          "values": [
+            "Moderate",
+            "High (best in LATAM)",
+            "High"
+          ]
+        },
+        {
+          "feature": "Cost of living vs EU capital",
+          "values": [
+            "40–60% lower",
+            "20–30% lower",
+            "15–25% lower"
+          ]
+        },
+        {
+          "feature": "Fit for trading / crypto",
+          "values": [
+            "Good, light regulation",
+            "Regulated, clear licenses",
+            "Regulated, financial hub"
+          ]
+        },
+        {
+          "feature": "Bank access for foreigners",
+          "values": [
+            "Moderate — requires handling",
+            "High but slow",
+            "High (hub)"
+          ]
+        },
+        {
+          "feature": "Local operating language",
+          "values": [
+            "Spanish + Guaraní",
+            "Spanish",
+            "Spanish + English"
+          ]
+        },
+        {
+          "feature": "Flight proximity to EU (1 stop)",
+          "values": [
+            "14–18h via GRU/MAD",
+            "12–16h via GRU/MAD",
+            "10–14h direct"
+          ]
+        },
+        {
+          "feature": "Fit for European retirees",
+          "values": [
+            "High",
+            "Very high",
+            "High"
+          ]
+        },
+        {
+          "feature": "Fit for tech entrepreneurs",
+          "values": [
+            "High (low costs)",
+            "Medium",
+            "High (financial hub)"
+          ]
+        },
+        {
+          "feature": "'Tax haven' perception risk in EU audits",
+          "values": [
+            "Low",
+            "Very low",
+            "Moderate (historical gray lists)"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Still deciding?",
+      "subtitle": "We'll connect you with our clients who evaluated all 3 and can explain how they decided.",
+      "buttonText": "Book free consultation",
+      "buttonHref": "/s/en/nexa-paraguay/contacto"
     }
   }
 }
