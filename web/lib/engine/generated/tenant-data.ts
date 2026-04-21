@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=145, content=137, blog=20, verticals=23. */
+/** Counts: sites=117, pages=146, content=137, blog=20, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9189,6 +9189,48 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "fun4me:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.categories",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "blog.posts",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "blog.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
   "fun4me:bundles": {
     "descriptionKey": "bundles.seo.description",
     "sections": [
@@ -9366,37 +9408,12 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "loyalty.hero",
+        "content": "home.hero",
         "id": "hero",
         "variant": "minimal"
       },
       {
-        "content": "loyalty.howItWorks",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "loyalty.tiers",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "loyalty.earningRules",
-        "id": "services",
-        "variant": "list"
-      },
-      {
-        "content": "loyalty.redemptionOptions",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "loyalty.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "loyalty.cta",
+        "content": "home.cta",
         "id": "cta-banner",
         "variant": "gradient"
       },
@@ -17145,6 +17162,127 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestra Vision"
       }
     },
+    "blog": {
+      "categories": {
+        "items": [
+          {
+            "description": "Lo basico que deberias saber antes de comprar tu primer producto.",
+            "name": "Guias para principiantes"
+          },
+          {
+            "description": "Materiales, limpieza, reemplazos, alergias.",
+            "name": "Seguridad y cuidado"
+          },
+          {
+            "description": "Como hablar, como escuchar, como probar juntos.",
+            "name": "Pareja y comunicacion"
+          },
+          {
+            "description": "Empaque, facturacion, tu privacidad es nuestra prioridad.",
+            "name": "Privacidad y discrecion"
+          },
+          {
+            "description": "Los mejores productos segun reviews reales de clientes.",
+            "name": "Rankings y comparativas"
+          },
+          {
+            "description": "BDSM, consenso, tecnicas mas alla de lo basico.",
+            "name": "Guias avanzadas"
+          }
+        ],
+        "title": "Explora por categoria"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595976569739",
+        "buttonText": "Escribir por WhatsApp",
+        "subtitle": "Escribinos por WhatsApp. Asesoramos sin juicios y con discrecion.",
+        "title": "Te gustaria hablar con un experto?"
+      },
+      "hero": {
+        "headline": "Blog Fun4Me",
+        "subheadline": "Guias, educacion y consejos. Aprendé sin juicios."
+      },
+      "posts": {
+        "items": [
+          {
+            "category": "Principiantes",
+            "ctaHref": "/s/es/fun4me/blog/guia-vibradores-principiantes",
+            "ctaText": "Leer",
+            "description": "Primera vez comprando un vibrador? Tipos, materiales y como elegir sin abrumarte. 7 min de lectura.",
+            "name": "Guia de vibradores para principiantes en Paraguay"
+          },
+          {
+            "category": "Principiantes",
+            "ctaHref": "/s/es/fun4me/blog/lubricante-agua-vs-silicona",
+            "ctaText": "Leer",
+            "description": "Que lubricante con que juguete, con que condon, para que uso. 5 min.",
+            "name": "Lubricante base agua vs silicona: cual elegir"
+          },
+          {
+            "category": "Avanzado",
+            "ctaHref": "/s/es/fun4me/blog/primera-vez-bdsm-consenso",
+            "ctaText": "Leer",
+            "description": "BDSM sano empieza con conversacion. Limites, palabras de seguridad, metodo semaforo. 10 min.",
+            "name": "Primera vez con BDSM: guia de consenso y seguridad"
+          },
+          {
+            "category": "Seguridad",
+            "ctaHref": "/s/es/fun4me/blog/como-limpiar-juguetes-sexuales",
+            "ctaText": "Leer",
+            "description": "Cada material necesita un cuidado diferente. Evita infecciones y extiende la vida util. 6 min.",
+            "name": "Como limpiar tus juguetes sexuales correctamente"
+          },
+          {
+            "category": "Ranking",
+            "ctaHref": "/s/es/fun4me/blog/mejores-juguetes-parejas-2026",
+            "ctaText": "Leer",
+            "description": "Ranking basado en 500+ reseñas reales. Que comprar y que evitar. 8 min.",
+            "name": "Los 7 mejores juguetes para parejas en 2026"
+          },
+          {
+            "category": "Principiantes",
+            "ctaHref": "/s/es/fun4me/blog/guia-lenceria-talles",
+            "ctaText": "Leer",
+            "description": "Con 4 mediciones aciertas el 90% de las veces. Tabla de talles, trucos. 7 min.",
+            "name": "Como elegir tu talle de lenceria sin probarlo"
+          },
+          {
+            "category": "Seguridad",
+            "ctaHref": "/s/es/fun4me/blog/ftalatos-materiales-seguros",
+            "ctaText": "Leer",
+            "description": "Ftalatos, PVC, silicona grado medico. Guia para comprar sin poner en riesgo tu salud. 6 min.",
+            "name": "Materiales seguros en juguetes sexuales: que evitar"
+          },
+          {
+            "category": "Pareja",
+            "ctaHref": "/s/es/fun4me/blog/comunicacion-sexual-pareja",
+            "ctaText": "Leer",
+            "description": "Script de conversacion, errores a evitar, como introducir un juguete. 9 min.",
+            "name": "Como hablar de sexualidad con tu pareja sin tabues"
+          },
+          {
+            "category": "Principiantes",
+            "ctaHref": "/s/es/fun4me/blog/juguetes-anal-principiantes",
+            "ctaText": "Leer",
+            "description": "Preparacion, tamaños, lubricantes especificos, errores a evitar. 8 min.",
+            "name": "Juguetes anales para principiantes: guia segura"
+          },
+          {
+            "category": "Privacidad",
+            "ctaHref": "/s/es/fun4me/blog/privacidad-compras-online",
+            "ctaText": "Leer",
+            "description": "Empaque, facturacion, metodos de pago, entrega. Todo lo que hacemos para protegerte. 5 min.",
+            "name": "Privacidad al comprar productos para adultos en Paraguay"
+          }
+        ],
+        "subtitle": "Contenido actualizado semanalmente.",
+        "title": "Ultimos articulos"
+      },
+      "seo": {
+        "description": "Guias de principiantes, materiales seguros, comunicacion de pareja, privacidad. Aprendé sin verguenza.",
+        "title": "Blog Fun4Me | Guias, educacion y consejos para adultos"
+      }
+    },
     "bundles": {
       "benefits": {
         "features": [
@@ -17212,6 +17350,77 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Kits armados para ahorrar. Primera vez, parejas, aniversario, BDSM, solitario. Cada kit ahorra vs comprar por separado.",
         "title": "Kits Curados Fun4Me | Combinaciones con ahorro"
+      }
+    },
+    "contacto": {
+      "faq": {
+        "items": [
+          {
+            "a": "Lunes a viernes 09:00-20:00, sabados 09:00-18:00. Domingos cerrado. WhatsApp responde fuera de horario en 24hs.",
+            "q": "Cual es el horario de atencion?"
+          },
+          {
+            "a": "Si, en Asuncion con cargo adicional si pedis antes de las 15:00. Gran Asuncion 24-48hs. Interior 3-5 dias habiles.",
+            "q": "Hacen delivery el mismo dia?"
+          },
+          {
+            "a": "Si, pasa cuando quieras en horario comercial. No hace falta avisar.",
+            "q": "Puedo visitar la tienda sin cita?"
+          },
+          {
+            "a": "Si, Visa y Mastercard con Pagopar, y tambien efectivo y transferencia.",
+            "q": "Aceptan tarjeta en la tienda fisica?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "hero": {
+        "headline": "Hablemos",
+        "subheadline": "WhatsApp es la via mas rapida. Tambien podes visitarnos en Herrera 875."
+      },
+      "hours": {
+        "holidays": "Feriados: Cerrado (consultar por WhatsApp para urgencias)",
+        "saturday": "Sabado: 09:00 - 18:00",
+        "sunday": "Domingo: Cerrado",
+        "title": "Horarios",
+        "weekdays": "Lunes - Viernes: 09:00 - 20:00"
+      },
+      "seo": {
+        "description": "Visitanos en Herrera 875, Asuncion. Escribinos por WhatsApp o email. Envio discreto a todo Paraguay.",
+        "title": "Contacto Fun4Me | Asuncion, Paraguay"
+      },
+      "ways": {
+        "items": [
+          {
+            "ctaHref": "https://wa.me/595976569739",
+            "ctaText": "Chatear",
+            "description": "Respuesta en menos de 1 hora en horario comercial.",
+            "name": "WhatsApp",
+            "price": "+595 976 569 739"
+          },
+          {
+            "ctaHref": "mailto:hola@fun4me.com.py",
+            "ctaText": "Enviar email",
+            "description": "Para consultas mas detalladas o pedidos B2B.",
+            "name": "Email",
+            "price": "hola@fun4me.com.py"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Herrera+875+Asuncion",
+            "ctaText": "Ver en mapa",
+            "description": "Herrera 875, Asuncion. L-V 09:00-20:00, Sab 09:00-18:00.",
+            "name": "Tienda fisica",
+            "price": "Visitanos"
+          },
+          {
+            "ctaHref": "https://instagram.com/fun4me_store",
+            "ctaText": "Seguir",
+            "description": "Seguinos para novedades, promos y contenido.",
+            "name": "Instagram",
+            "price": "@fun4me_store"
+          }
+        ],
+        "title": "Como contactarnos"
       }
     },
     "footer": {
