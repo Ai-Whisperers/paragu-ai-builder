@@ -8,11 +8,13 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 interface Props {
   siteSlug: string
   locale: string
+  /** Used as the print-receipt header so the printed copy identifies the seller. */
+  businessName?: string
   initialOrder: Order
   initialStatus?: 'success' | 'pending' | 'failure' | null
 }
 
-export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatus }: Props) {
+export function OrderConfirmation({ siteSlug, locale, businessName, initialOrder, initialStatus }: Props) {
   const [order, setOrder] = useState(initialOrder)
   const [polling, setPolling] = useState(initialOrder.status === 'awaiting_payment')
   const [resendState, setResendState] = useState<
@@ -64,10 +66,15 @@ export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatu
   const body = bodyFor(order.status, initialStatus ?? null)
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-12">
-      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-8 text-center">
-        <h1 className="mb-2 text-2xl font-bold text-[color:var(--text,#111)]">{headline}</h1>
-        <p className="mb-6 text-[color:var(--text-muted,#6b7280)]">{body}</p>
+    <div className="mx-auto max-w-2xl px-4 py-12 print:py-4">
+      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-8 text-center print:rounded-none print:border-0 print:p-0 print:text-left">
+        {businessName ? (
+          <p className="mb-2 hidden text-sm font-semibold uppercase tracking-wide text-[color:var(--text-muted,#6b7280)] print:block">
+            {businessName} — Comprobante
+          </p>
+        ) : null}
+        <h1 className="mb-2 text-2xl font-bold text-[color:var(--text,#111)] print:text-xl">{headline}</h1>
+        <p className="mb-6 text-[color:var(--text-muted,#6b7280)] print:hidden">{body}</p>
         <p className="mb-1 text-sm text-[color:var(--text-muted,#6b7280)]">Número de orden</p>
         <p className="mb-6 font-mono text-lg font-semibold">{order.orderNumber}</p>
 
@@ -91,7 +98,7 @@ export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatu
           Enviamos la confirmación a <strong>{order.customerEmail}</strong>.
         </p>
 
-        <div className="mb-6 text-xs">
+        <div className="mb-6 text-xs print:hidden">
           {resendState.kind === 'sent' ? (
             <p className="text-green-700">✓ Te reenviamos el email a {resendState.sentTo}.</p>
           ) : resendState.kind === 'rate_limited' ? (
@@ -110,12 +117,21 @@ export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatu
           )}
         </div>
 
-        <Link
-          href={`/s/${locale}/${siteSlug}/tienda`}
-          className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-4 py-2 font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
-        >
-          Seguir comprando
-        </Link>
+        <div className="flex flex-wrap justify-center gap-2 print:hidden">
+          <Link
+            href={`/s/${locale}/${siteSlug}/tienda`}
+            className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-4 py-2 font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
+          >
+            Seguir comprando
+          </Link>
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="inline-block rounded-lg border border-[color:var(--border,#e5e7eb)] px-4 py-2 font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+          >
+            Imprimir comprobante
+          </button>
+        </div>
       </div>
     </div>
   )
