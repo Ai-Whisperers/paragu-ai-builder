@@ -10,9 +10,9 @@ export const contentType = 'image/png'
 export default async function Image({
   params,
 }: {
-  params: { locale: string; site: string }
+  params: Promise<{ locale: string; site: string }>
 }) {
-  const { locale, site: slug } = params
+  const { locale, site: slug } = await params
   if (!isLocale(locale)) {
     return new Response('Not found', { status: 404 })
   }
