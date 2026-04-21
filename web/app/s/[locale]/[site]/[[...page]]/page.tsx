@@ -236,7 +236,7 @@ export default async function TenantPage({ params }: Props) {
         {renderPage(composed)}
       </div>
 
-      <DemoBadge isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} vertical={composed.site.vertical} />
+      <DemoBadge isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} vertical={composed.site.vertical} locale={locale} />
 
       {ga4MeasurementId && <Ga4Loader measurementId={ga4MeasurementId} />}
 
