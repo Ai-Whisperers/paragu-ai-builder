@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 86 | see closure log below |
+| ✅ Closed | 87 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 414 | the rest |
+| 🔴 Open | 413 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -183,6 +183,14 @@ Closure log:
   letting anonymous callers trigger filesystem writes to `sites/preview-<id>/`
   plus mutate `leads.status` to 'demo_ready'). Audit now lists 5 hidden
   security finds total.
+- **#460 partial #6 + meta-test** — Tightened `requireAdminUser()` in
+  `lib/commerce/admin-auth.ts` to also call `isAdminEmail` (was accepting
+  any signed-in Supabase user — same broken pattern as #143's bulk-update
+  bug, affecting 16 commerce admin routes). Plus a new
+  `tests/integration/admin-route-auth-coverage.test.ts` that scans every
+  API route at test time and fails if any route lacks an auth helper or
+  isn't in the explicit `PUBLIC_ROUTE_ALLOWLIST`. This regression test
+  would have caught all 6 broken-auth bugs from the audit at PR time.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
