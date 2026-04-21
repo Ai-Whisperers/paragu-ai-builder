@@ -16,6 +16,14 @@ export const CartItemSchema = z.object({
   quantity: z.number().int().positive(),
   unitPriceCents: z.number().int().nonnegative(),
   createdAt: z.string(),
+  /**
+   * Product display fields joined in at read time. Optional because older
+   * clients / older stored payloads may not include them; callers must
+   * fall back to a sensible default when null.
+   */
+  productName: z.string().nullable().optional(),
+  productSlug: z.string().nullable().optional(),
+  productImageUrl: z.string().nullable().optional(),
 })
 export type CartItem = z.infer<typeof CartItemSchema>
 

@@ -11,7 +11,7 @@ export const runtime = 'nodejs'
 export const revalidate = 300
 
 export default async function StorePage({ params }: { params: Promise<{ site: string; locale: string }> }) {
-  const { site } = await params
+  const { site, locale } = await params
   const business = await resolveBusinessBySlug(site)
   if (!business || !(await isCommerceEnabled(business.type))) notFound()
 
@@ -20,7 +20,7 @@ export default async function StorePage({ params }: { params: Promise<{ site: st
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={null} />
-      <CommerceHeader siteSlug={site} businessName={business.name} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
@@ -32,7 +32,7 @@ export default async function StorePage({ params }: { params: Promise<{ site: st
         ) : (
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 lg:gap-6">
             {products.map((product, idx) => (
-              <ProductCard key={product.id} siteSlug={site} product={product} priority={idx < 4} rates={rates} />
+              <ProductCard key={product.id} siteSlug={site} product={product} priority={idx < 4} rates={rates} locale={locale} />
             ))}
           </div>
         )}

@@ -1,27 +1,54 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { useCartStore, cartSubtotalCents } from '@/lib/stores/cart-store'
 import { formatCents } from '@/lib/commerce/compute-totals'
 
 interface Props {
   siteSlug: string
+  locale: string
   open: boolean
   onClose: () => void
 }
 
-export function CartDrawer({ siteSlug, open, onClose }: Props) {
+const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+
+export function CartDrawer({ siteSlug, locale, open, onClose }: Props) {
   const cart = useCartStore((s) => s.cart)
   const status = useCartStore((s) => s.status)
   const updateItem = useCartStore((s) => s.updateItem)
   const removeItem = useCartStore((s) => s.removeItem)
+  const drawerRef = useRef<HTMLElement | null>(null)
 
   useEffect(() => {
+    if (!open) return
+    const drawer = drawerRef.current
+    if (!drawer) return
+    // Focus the first actionable control so screen readers land inside the
+    // dialog, and so Tab cycles stay within it.
+    const focusables = drawer.querySelectorAll<HTMLElement>(FOCUSABLE)
+    focusables[0]?.focus()
+
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
+      if (e.key === 'Escape') {
+        onClose()
+        return
+      }
+      if (e.key !== 'Tab') return
+      const list = drawer.querySelectorAll<HTMLElement>(FOCUSABLE)
+      if (list.length === 0) return
+      const first = list[0]
+      const last = list[list.length - 1]
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault()
+        last.focus()
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault()
+        first.focus()
+      }
     }
-    if (open) document.addEventListener('keydown', onKey)
+    document.addEventListener('keydown', onKey)
     return () => document.removeEventListener('keydown', onKey)
   }, [open, onClose])
 
@@ -36,6 +63,7 @@ export function CartDrawer({ siteSlug, open, onClose }: Props) {
         className={`fixed inset-0 z-40 bg-black/40 transition-opacity ${open ? 'opacity-100' : 'opacity-0'}`}
       />
       <aside
+        ref={drawerRef}
         role="dialog"
         aria-modal="true"
         aria-label="Carrito de compras"
@@ -60,43 +88,58 @@ export function CartDrawer({ siteSlug, open, onClose }: Props) {
             </div>
           ) : (
             <ul className="space-y-4">
-              {items.map((it) => (
-                <li key={it.id} className="flex gap-3">
-                  <div className="flex-1">
-                    <p className="text-sm font-medium text-[color:var(--text,#111)]">{it.productId.slice(0, 8)}…</p>
-                    <p className="text-xs text-[color:var(--text-muted,#6b7280)]">{formatCents(it.unitPriceCents, currency)}</p>
-                    <div className="mt-2 flex items-center gap-2">
-                      <button
-                        type="button"
-                        aria-label="Quitar uno"
-                        onClick={() => updateItem(siteSlug, it.id, Math.max(0, it.quantity - 1))}
-                        className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-0.5 text-sm"
-                      >
-                        −
-                      </button>
-                      <span className="min-w-[2rem] text-center text-sm">{it.quantity}</span>
-                      <button
-                        type="button"
-                        aria-label="Sumar uno"
-                        onClick={() => updateItem(siteSlug, it.id, it.quantity + 1)}
-                        className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-0.5 text-sm"
-                      >
-                        +
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => removeItem(siteSlug, it.id)}
-                        className="ml-auto text-xs text-[color:var(--text-muted,#6b7280)] hover:underline"
-                      >
-                        Eliminar
-                      </button>
+              {items.map((it) => {
+                const displayName = it.productName ?? 'Producto'
+                return (
+                  <li key={it.id} className="flex gap-3">
+                    {it.productImageUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={it.productImageUrl}
+                        alt=""
+                        className="h-16 w-16 flex-shrink-0 rounded border border-[color:var(--border,#e5e7eb)] object-cover"
+                      />
+                    ) : null}
+                    <div className="flex-1">
+                      <p className="text-sm font-medium text-[color:var(--text,#111)]">{displayName}</p>
+                      <p className="text-xs text-[color:var(--text-muted,#6b7280)]">{formatCents(it.unitPriceCents, currency)}</p>
+                      <div className="mt-2 flex items-center gap-2">
+                        <button
+                          type="button"
+                          aria-label={`Quitar uno de ${displayName}`}
+                          onClick={() => updateItem(siteSlug, it.id, Math.max(0, it.quantity - 1))}
+                          className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-0.5 text-sm"
+                        >
+                          <span aria-hidden="true">−</span>
+                        </button>
+                        <span aria-live="polite" className="min-w-[2rem] text-center text-sm">
+                          <span className="sr-only">Cantidad: </span>
+                          {it.quantity}
+                        </span>
+                        <button
+                          type="button"
+                          aria-label={`Sumar uno a ${displayName}`}
+                          onClick={() => updateItem(siteSlug, it.id, it.quantity + 1)}
+                          className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-0.5 text-sm"
+                        >
+                          <span aria-hidden="true">+</span>
+                        </button>
+                        <button
+                          type="button"
+                          aria-label={`Eliminar ${displayName} del carrito`}
+                          onClick={() => removeItem(siteSlug, it.id)}
+                          className="ml-auto text-xs text-[color:var(--text-muted,#6b7280)] hover:underline"
+                        >
+                          Eliminar
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                  <div className="text-right text-sm font-semibold text-[color:var(--text,#111)]">
-                    {formatCents(it.unitPriceCents * it.quantity, currency)}
-                  </div>
-                </li>
-              ))}
+                    <div className="text-right text-sm font-semibold text-[color:var(--text,#111)]">
+                      {formatCents(it.unitPriceCents * it.quantity, currency)}
+                    </div>
+                  </li>
+                )
+              })}
             </ul>
           )}
         </div>
@@ -108,7 +151,7 @@ export function CartDrawer({ siteSlug, open, onClose }: Props) {
               <span className="text-lg font-semibold">{formatCents(subtotal, currency)}</span>
             </div>
             <Link
-              href={`/s/es/${siteSlug}/checkout`}
+              href={`/s/${locale}/${siteSlug}/checkout`}
               className="block w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 text-center font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
             >
               {status === 'syncing' ? 'Actualizando…' : 'Pagar ahora'}
