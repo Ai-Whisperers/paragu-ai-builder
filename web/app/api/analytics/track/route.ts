@@ -6,17 +6,17 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { logger } from '@/lib/logger'
 
-// Initialize Supabase client
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY
-
-if (!supabaseUrl || !supabaseServiceKey) {
-  throw new Error('Missing Supabase credentials')
+// Lazy client: creating it at request time (not module top-level) lets
+// `next build` collect page data without Supabase env vars being set.
+// The runtime error only fires when a real request hits without config.
+function getSupabase() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY
+  if (!url || !key) throw new Error('Missing Supabase credentials')
+  return createClient(url, key, {
+    auth: { autoRefreshToken: false, persistSession: false },
+  })
 }
-
-const supabase = createClient(supabaseUrl, supabaseServiceKey, {
-  auth: { autoRefreshToken: false, persistSession: false }
-})
 
 // Valid event types
 const VALID_EVENT_TYPES = [
@@ -56,6 +56,7 @@ interface TrackEventBody {
  */
 export async function POST(request: NextRequest) {
   try {
+    const supabase = getSupabase()
     const body: TrackEventBody = await request.json()
     
     // Validate required fields
@@ -148,12 +149,14 @@ export async function GET(request: NextRequest) {
         { status: 401 }
       )
     }
-    
+
+    const supabase = getSupabase()
+
     // Parse time range from query params
     const { searchParams } = new URL(request.url)
     const days = parseInt(searchParams.get('days') || '7')
     const eventType = searchParams.get('eventType')
-    
+
     // Build query
     let query = supabase
       .from('analytics_events')
