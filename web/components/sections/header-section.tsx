@@ -149,7 +149,7 @@ export function HeaderSection({
           {/* Logo / Name */}
           <a
             href="#"
-            className="text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
+            className="whitespace-nowrap text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
             style={{
               fontFamily: 'var(--font-heading)',
               color: 'var(--primary)',
