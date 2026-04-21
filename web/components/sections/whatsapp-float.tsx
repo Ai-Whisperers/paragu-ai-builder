@@ -15,7 +15,12 @@ const WHATSAPP_DEFAULTS: Record<string, { message: string; ariaLabel: string }> 
 
 export function WhatsAppFloat({ phone, message, __locale }: WhatsAppFloatProps) {
   const L = WHATSAPP_DEFAULTS[__locale ?? 'es'] || WHATSAPP_DEFAULTS.es
+  // Defensive: some tenant content blocks historically shipped `number` /
+  // `defaultMessage` instead of `phone` — render nothing rather than
+  // crashing the whole page with a .replace-on-undefined.
+  if (!phone || typeof phone !== 'string') return null
   const cleanPhone = phone.replace(/\D/g, '')
+  if (!cleanPhone) return null
   const encodedMessage = encodeURIComponent(message || L.message)
 
   return (
