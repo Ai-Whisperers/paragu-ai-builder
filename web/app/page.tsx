@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import {
   Scissors, Dumbbell, Flower2, Hand, PenTool, User, Sparkles,
   Palette, Zap, Eye, Globe, Smartphone, Search, MessageCircle,
-  ArrowRight, Layers, Wand2, Star,
+  ArrowRight, Layers, Star,
   ShoppingCart, Check,
   Menu, X as XIcon, PlayCircle,
   UtensilsCrossed, Fish, CircleDot,
@@ -17,6 +17,7 @@ import { FadeIn } from '@/components/landing/fade-in'
 import { FAQItem } from '@/components/landing/faq-item'
 import { LogoStrip } from '@/components/landing/logo-strip'
 import { FloatingShape } from '@/components/landing/chrome'
+import { BrandMark } from '@/components/ui/brand-icons'
 
 /* ── Schema.org Structured Data ────────────────────────────────── */
 
@@ -408,7 +409,7 @@ function Navigation() {
           <div className="flex h-16 items-center justify-between">
             <Link href="/" className="flex items-center gap-2 group">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-teal-500 text-white transition-transform group-hover:scale-110">
-                <Wand2 size={20} />
+                <BrandMark width={20} height={20} />
               </div>
               <span className="text-lg font-bold">
                 <span className="text-gray-900">Paragu</span>
@@ -461,7 +462,7 @@ function Navigation() {
           <div className="flex h-16 items-center justify-between px-4">
             <Link href="/" className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-teal-500 text-white">
-                <Wand2 size={20} />
+                <BrandMark width={20} height={20} />
               </div>
               <span className="text-lg font-bold">
                 <span className="text-gray-900">Paragu</span>
@@ -934,7 +935,7 @@ export default function HomePage() {
             <div>
               <Link href="/" className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-teal-500 text-white">
-                  <Wand2 size={16} />
+                  <BrandMark width={16} height={16} />
                 </div>
                 <span className="font-bold">
                   <span className="text-gray-900">Paragu</span>
