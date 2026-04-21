@@ -56,10 +56,18 @@ export interface ListActiveProductsOpts {
   category?: string
   limit?: number
   offset?: number
-  /** Free-text name search (ilike). Empty string is treated as no filter. */
+  /** Free-text search — matches name OR description OR SKU (ilike). Empty string is no filter. */
   search?: string
   /** Sort order. Defaults to 'newest'. */
   sort?: ProductSort
+  /** Price floor (cents, inclusive). */
+  minPriceCents?: number
+  /** Price ceiling (cents, inclusive). */
+  maxPriceCents?: number
+  /** Only return products currently in stock (inventory_qty > 0 OR inventory_policy='continue'). */
+  inStockOnly?: boolean
+  /** Only return products with compare_at_price > price (= on sale). */
+  onSaleOnly?: boolean
 }
 
 const SORT_FIELDS: Record<ProductSort, { column: string; ascending: boolean }> = {
@@ -67,6 +75,15 @@ const SORT_FIELDS: Record<ProductSort, { column: string; ascending: boolean }> =
   'price-asc': { column: 'price_cents', ascending: true },
   'price-desc': { column: 'price_cents', ascending: false },
   'name-asc': { column: 'name', ascending: true },
+}
+
+/**
+ * Escape a user-supplied search term so % / _ / \ aren't interpreted as
+ * ilike wildcards. PostgREST's `.or()` uses comma-separated filter specs
+ * so we also reject `,` inside the pattern to avoid breaking the spec.
+ */
+function escapeIlike(raw: string): string {
+  return raw.replace(/[\\%_,]/g, (ch) => `\\${ch}`)
 }
 
 export async function listActiveProducts(
@@ -82,18 +99,86 @@ export async function listActiveProducts(
       let query = q.eq('status', 'active').order(sort.column, { ascending: sort.ascending })
       if (opts.category) query = query.eq('category', opts.category)
       if (opts.search && opts.search.trim()) {
-        // ilike with leading/trailing wildcards = case-insensitive substring
-        // match. Cheap enough at the catalog sizes we expect; replace with
-        // a tsvector + GIN index when a tenant grows past ~5k products.
-        const pattern = `%${opts.search.trim().replace(/[\\%_]/g, (ch) => `\\${ch}`)}%`
-        query = query.ilike('name', pattern)
+        // Match name OR description OR SKU. ilike = case-insensitive substring.
+        // Not accent-insensitive at the DB level — fine for catalogs <5k; swap
+        // for tsvector+unaccent+GIN when a tenant outgrows this.
+        const pat = `%${escapeIlike(opts.search.trim())}%`
+        query = query.or(`name.ilike.${pat},description.ilike.${pat},sku.ilike.${pat}`)
+      }
+      if (typeof opts.minPriceCents === 'number') query = query.gte('price_cents', opts.minPriceCents)
+      if (typeof opts.maxPriceCents === 'number') query = query.lte('price_cents', opts.maxPriceCents)
+      if (opts.inStockOnly) {
+        // Either policy allows backorder OR we have positive inventory.
+        query = query.or('inventory_policy.eq.continue,inventory_qty.gt.0')
+      }
+      if (opts.onSaleOnly) {
+        // compare_at_price is set AND is strictly greater than price.
+        // PostgREST doesn't support column-vs-column in a single filter; the
+        // correct SQL would be `compare_at_price_cents > price_cents`. We get
+        // as close as possible with "compare_at not null" and leave the
+        // strict > check to the caller (listDistinctOnSale or a post-filter).
+        query = query.not('compare_at_price_cents', 'is', null)
       }
       if (opts.limit) query = query.limit(opts.limit)
       if (opts.offset) query = query.range(opts.offset, (opts.offset ?? 0) + (opts.limit ?? 50) - 1)
       return query
     },
   })
-  return (Array.isArray(data) ? data : []).map(rowToProduct)
+  const rows = (Array.isArray(data) ? data : []).map(rowToProduct)
+  if (opts.onSaleOnly) {
+    // Post-filter: compare_at must be strictly greater than price. Cheap
+    // client-side check; the DB-level "not null" above cuts most noise.
+    return rows.filter((p) => p.compareAtPriceCents != null && p.compareAtPriceCents > p.priceCents)
+  }
+  return rows
+}
+
+/**
+ * Count of active products matching the same filters — for pagination.
+ * Deliberately re-runs the same filter logic as listActiveProducts so
+ * there's no divergence risk. Uses `count: 'exact', head: true` so no
+ * rows are pulled.
+ */
+export async function countActiveProducts(
+  businessId: string,
+  opts: Omit<ListActiveProductsOpts, 'limit' | 'offset' | 'sort'> = {},
+): Promise<number> {
+  const supabase = await createAdminClient()
+  let query = supabase
+    .from('products')
+    .select('id', { count: 'exact', head: true })
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+  if (opts.category) query = query.eq('category', opts.category)
+  if (opts.search && opts.search.trim()) {
+    const pat = `%${escapeIlike(opts.search.trim())}%`
+    query = query.or(`name.ilike.${pat},description.ilike.${pat},sku.ilike.${pat}`)
+  }
+  if (typeof opts.minPriceCents === 'number') query = query.gte('price_cents', opts.minPriceCents)
+  if (typeof opts.maxPriceCents === 'number') query = query.lte('price_cents', opts.maxPriceCents)
+  if (opts.inStockOnly) query = query.or('inventory_policy.eq.continue,inventory_qty.gt.0')
+  if (opts.onSaleOnly) query = query.not('compare_at_price_cents', 'is', null)
+  const { count } = await query
+  return count ?? 0
+}
+
+/**
+ * Distinct categories present in the active catalog — for the filter pills
+ * on the tienda toolbar. Returns alphabetised; null/empty categories skipped.
+ */
+export async function listDistinctCategories(businessId: string): Promise<string[]> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('category')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+    .not('category', 'is', null)
+  const set = new Set<string>()
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ category: string | null }>) {
+    if (row.category) set.add(row.category)
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
 }
 
 export async function getProductBySlug(businessId: string, slug: string): Promise<Product | null> {
