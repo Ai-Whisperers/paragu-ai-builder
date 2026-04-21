@@ -4,6 +4,7 @@ import { Phone, MessageCircle, Building2, Users, ChefHat, Store, Coffee, School,
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Heading } from '@/components/ui/heading'
 
 interface BusinessData {
   name: string
@@ -132,10 +133,10 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
             <Building2 className="w-4 h-4" />
             Soluciones para Negocios
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <Heading level={1} className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Huevos Frescos de Calidad
             <span className="block text-orange-600">para tu Restaurante, Panadería o Hotel</span>
-          </h1>
+          </Heading>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Proveedor confiable de huevos frescos en Coronel Oviedo y zona. 
             Más de 300 negocios confían en nosotros.
@@ -177,7 +178,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">¿Por Qué Negocios Nos Eligen?</h2>
+            <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">¿Por Qué Negocios Nos Eligen?</Heading>
             <p className="text-lg text-gray-600">Ventajas que marcan la diferencia</p>
           </div>
           
@@ -193,7 +194,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
               <Card key={index} className="border-gray-100 hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
                   <item.icon className="w-10 h-10 text-orange-600 mb-4" />
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
+                  <Heading level={3} className="text-lg font-semibold text-gray-900 mb-2">{item.title}</Heading>
                   <p className="text-gray-600 text-sm">{item.desc}</p>
                 </CardContent>
               </Card>
@@ -206,7 +207,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Atendemos Diversos Negocios</h2>
+            <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">Atendemos Diversos Negocios</Heading>
             <p className="text-lg text-gray-600">Soluciones adaptadas a tu industria</p>
           </div>
           
@@ -234,7 +235,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Descuentos por Volumen</h2>
+            <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">Descuentos por Volumen</Heading>
             <p className="text-lg text-gray-600">Planes diseñados para diferentes necesidades</p>
           </div>
           
@@ -278,7 +279,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Proceso Simple en 4 Pasos</h2>
+            <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">Proceso Simple en 4 Pasos</Heading>
             <p className="text-lg text-gray-600">Empezar es fácil y rápido</p>
           </div>
           
@@ -293,7 +294,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
                 <div className="w-16 h-16 rounded-full bg-orange-600 text-white text-2xl font-bold flex items-center justify-center mx-auto mb-4">
                   {item.step}
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
+                <Heading level={3} className="text-lg font-semibold text-gray-900 mb-2">{item.title}</Heading>
                 <p className="text-sm text-gray-600">{item.desc}</p>
               </div>
             ))}
@@ -305,7 +306,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Nuestras Promesas</h2>
+            <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">Nuestras Promesas</Heading>
             <p className="text-lg text-gray-600">Garantías que nos comprometen</p>
           </div>
           
@@ -319,7 +320,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
               <Card key={index} className="bg-green-50 border-green-200">
                 <CardContent className="p-6">
                   <CheckCircle className="w-8 h-8 text-green-600 mb-3" />
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
+                  <Heading level={3} className="text-lg font-semibold text-gray-900 mb-2">{item.title}</Heading>
                   <p className="text-sm text-gray-600">{item.desc}</p>
                 </CardContent>
               </Card>
@@ -332,7 +333,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Preguntas Frecuentes para Negocios</h2>
+            <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">Preguntas Frecuentes para Negocios</Heading>
             <p className="text-lg text-gray-600">Resolvemos tus dudas</p>
           </div>
           
@@ -359,7 +360,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
             <span className="text-red-800 font-semibold">¿NECESITÁS HUEVOS HOY?</span>
           </div>
           <p className="text-red-700 mb-4">
-            Si tenés una emergencia y necesitás huevos para hoy, escribinos por WhatsApp con la palabra <strong>"URGENTE"</strong> y coordinamos entrega express.
+            Si tenés una emergencia y necesitás huevos para hoy, escribinos por WhatsApp con la palabra <strong>&ldquo;URGENTE&rdquo;</strong> y coordinamos entrega express.
           </p>
           <p className="text-xs text-red-600">
             *Sujeto a disponibilidad y zona de cobertura. Clientes regulares tienen prioridad.
@@ -370,7 +371,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
       {/* Final CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-600 to-amber-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Empezá Ahora</h2>
+          <Heading level={2} className="text-4xl font-bold mb-6">Empezá Ahora</Heading>
           <p className="text-xl mb-8 opacity-90">
             Unite a los más de 300 negocios que confían en Granja Cabral
           </p>
@@ -411,28 +412,28 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
               <MessageCircle className="w-8 h-8 text-green-400 mx-auto mb-3" />
-              <h3 className="font-semibold mb-1">WhatsApp Business</h3>
+              <Heading level={3} className="font-semibold mb-1">WhatsApp Business</Heading>
               <p className="text-sm text-gray-400">Atención más rápida</p>
-              <p className="text-sm text-gray-400">Palabra clave: "MAYORISTA"</p>
+              <p className="text-sm text-gray-400">Palabra clave: &ldquo;MAYORISTA&rdquo;</p>
               <p className="text-green-400 font-mono mt-1">{business.whatsapp}</p>
             </div>
             <div>
               <Phone className="w-8 h-8 text-blue-400 mx-auto mb-3" />
-              <h3 className="font-semibold mb-1">Teléfono</h3>
+              <Heading level={3} className="font-semibold mb-1">Teléfono</Heading>
               <p className="text-sm text-gray-400">Lunes a Sábado</p>
               <p className="text-sm text-gray-400">7:00 a 18:00</p>
               <p className="text-blue-400 font-mono mt-1">{business.phone || business.whatsapp}</p>
             </div>
             <div>
               <MapPin className="w-8 h-8 text-red-400 mx-auto mb-3" />
-              <h3 className="font-semibold mb-1">Ubicación</h3>
+              <Heading level={3} className="font-semibold mb-1">Ubicación</Heading>
               <p className="text-sm text-gray-400">{business.address}</p>
               <p className="text-sm text-gray-400">{business.city}</p>
               <p className="text-xs text-gray-500 mt-1">Visitas con cita previa</p>
             </div>
             <div>
               <Clock className="w-8 h-8 text-yellow-400 mx-auto mb-3" />
-              <h3 className="font-semibold mb-1">Horario Comercial</h3>
+              <Heading level={3} className="font-semibold mb-1">Horario Comercial</Heading>
               <p className="text-sm text-gray-400">Lunes - Sábado</p>
               <p className="text-sm text-gray-400">7:00 - 18:00</p>
               <p className="text-xs text-gray-500 mt-1">Domingo: Cerrado</p>
