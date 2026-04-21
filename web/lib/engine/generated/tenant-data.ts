@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=137, content=137, blog=10, verticals=23. */
+/** Counts: sites=117, pages=144, content=137, blog=10, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9189,6 +9189,80 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "fun4me:bundles": {
+    "descriptionKey": "bundles.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "bundles.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "bundles",
+    "titleKey": "bundles.seo.title"
+  },
+  "fun4me:gift-cards": {
+    "descriptionKey": "giftCards.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "giftCards.hero",
+        "id": "hero",
+        "variant": "split"
+      },
+      {
+        "content": "giftCards.designs",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "giftCards.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "giftCards.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "gift-cards",
+    "titleKey": "giftCards.seo.title"
+  },
   "fun4me:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -9245,6 +9319,210 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "",
     "titleKey": "home.seo.title"
+  },
+  "fun4me:loyalty": {
+    "descriptionKey": "loyalty.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "loyalty.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "loyalty.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "loyalty.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "placer-plus",
+    "titleKey": "loyalty.seo.title"
+  },
+  "fun4me:reserva-en-tienda": {
+    "descriptionKey": "storeReserve.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "storeReserve.hero",
+        "id": "hero",
+        "variant": "split"
+      },
+      {
+        "content": "storeReserve.howItWorks",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "storeReserve.location",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "storeReserve.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "reserva-en-tienda",
+    "titleKey": "storeReserve.seo.title"
+  },
+  "fun4me:size-guide": {
+    "descriptionKey": "sizeGuide.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "sizeGuide.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "sizeGuide.instructions",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "sizeGuide.charts",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "sizeGuide.brandNotes",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "sizeGuide.returnPolicy",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "guia-talles",
+    "titleKey": "sizeGuide.seo.title"
+  },
+  "fun4me:store": {
+    "descriptionKey": "store.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "store.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.promo",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "id": "product-catalog",
+        "variant": "grid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "store",
+    "titleKey": "store.seo.title"
+  },
+  "fun4me:subscriptions": {
+    "descriptionKey": "subscriptions.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "subscriptions.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "subscriptions.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "subscriptions.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "subscriptions.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "suscripciones",
+    "titleKey": "subscriptions.seo.title"
   },
   "granja-cabral:home": {
     "descriptionKey": "home.seo.description",
