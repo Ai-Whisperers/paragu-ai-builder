@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { composeSitePage } from '@/lib/engine/compose-site'
 import { renderPage } from '@/lib/engine/site-renderer'
 import { listSiteSlugs, loadSite, listPageSlugs, loadSiteContent } from '@/lib/engine/site-loader'
+import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { alternatesFor } from '@/lib/i18n/routing'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { jsonLdForPage } from '@/lib/engine/schema-org'
@@ -92,21 +93,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // metadata auto-discovery), which leaks the generic ParaguAI OG to
     // every tenant's social shares.
     const ogImagePath = `/s/${locale}/${siteSlug}/opengraph-image`
+    // Prefer the tenant's pre-rendered brand assets when the images
+    // manifest ships them — favicon/apple-touch/OG all get resolved
+    // below and threaded into the Metadata object.
+    const manifest = loadImagesManifest(siteSlug)
+    const faviconAsset = resolveImage(manifest, 'brand.favicon')
+    const appleAsset = resolveImage(manifest, 'brand.appleTouchIcon')
+    const ogDefault = resolveImage(manifest, 'brand.ogDefault')
+    const twitterCardAsset = resolveImage(manifest, 'brand.twitterCard')
+
+    const icons: NonNullable<Metadata['icons']> = {}
+    if (faviconAsset) icons.icon = [{ url: faviconAsset.src }]
+    if (appleAsset) icons.apple = [{ url: appleAsset.src }]
+
+    const ogImageUrl = ogDefault?.src ?? ogImagePath
+    const twitterImageUrl = twitterCardAsset?.src ?? ogImageUrl
+
     return {
       title: composed.meta.title,
       description: composed.meta.description,
       alternates: { languages: alternates },
+      ...(Object.keys(icons).length > 0 && { icons }),
+      manifest: `/s/${locale}/${siteSlug}/manifest.webmanifest`,
       openGraph: {
         title: composed.meta.title,
         description: composed.meta.description,
         locale,
-        images: [{ url: ogImagePath, width: 1200, height: 630, alt: composed.meta.title }],
+        images: [{ url: ogImageUrl, width: 1200, height: 630, alt: composed.meta.title }],
       },
       twitter: {
         card: 'summary_large_image',
         title: composed.meta.title,
         description: composed.meta.description,
-        images: [ogImagePath],
+        images: [twitterImageUrl],
       },
       // Demo tenants must not compete in search with real client sites or
       // the marketing site itself. Excludes them from indexing while still
