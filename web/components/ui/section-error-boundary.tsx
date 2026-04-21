@@ -42,7 +42,7 @@ export class SectionErrorBoundary extends Component<Props, State> {
     }
     
     if (process.env.NODE_ENV === 'development') {
-      logger.error('Section error', error instanceof Error ? error : undefined, { errorInfo })
+      logger.error('Section error', error instanceof Error ? error : new Error(String(error)))
     }
   }
 
