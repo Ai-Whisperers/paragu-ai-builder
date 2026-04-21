@@ -20788,6 +20788,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Warum Paraguay"
         },
         {
+          "href": "/s/de/nexa-paraguay/benelux",
+          "label": "Benelux Desk"
+        },
+        {
           "href": "/s/de/nexa-paraguay/calidad-de-vida",
           "label": "Lebensqualität"
         },
@@ -22867,6 +22871,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Why Paraguay"
         },
         {
+          "href": "/s/en/nexa-paraguay/benelux",
+          "label": "Benelux desk"
+        },
+        {
           "href": "/s/en/nexa-paraguay/calidad-de-vida",
           "label": "Quality of life"
         },
@@ -24929,6 +24937,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/por-que-paraguay",
           "label": "Por qué Paraguay"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/benelux",
+          "label": "Benelux desk"
         },
         {
           "href": "/s/es/nexa-paraguay/calidad-de-vida",
@@ -27007,6 +27019,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/por-que-paraguay",
           "label": "Waarom Paraguay"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/benelux",
+          "label": "Benelux desk"
         },
         {
           "href": "/s/nl/nexa-paraguay/calidad-de-vida",
