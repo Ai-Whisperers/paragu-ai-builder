@@ -10,8 +10,10 @@ import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
 import { ProductCard } from '@/components/commerce/product-card'
+import { ProductShare } from '@/components/commerce/product-share'
 import { PriceDisplay } from '@/components/commerce/price-display'
 import { loadPygRates } from '@/lib/commerce/currency-server'
+import { env } from '@/lib/env'
 
 export const runtime = 'nodejs'
 export const revalidate = 300
@@ -127,6 +129,8 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           <div className="mt-6">
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
           </div>
+
+          <ProductShare productName={product.name} productUrl={`${env.APP_URL}/s/${locale}/${site}/producto/${product.slug}`} />
 
           <div className="mt-8 rounded-lg bg-[color:var(--surface,#fff)] p-4 text-sm text-[color:var(--text-muted,#6b7280)]">
             <p>✓ Pago seguro</p>
