@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=148, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=147, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9744,58 +9744,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "size-guide",
     "titleKey": "sizeGuide.seo.title"
   },
-  "fun4me:store": {
-    "descriptionKey": "store.seo.description",
-    "sections": [
-      {
-        "content": "home.ageGate",
-        "id": "age-gate",
-        "variant": "modal"
-      },
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "store.hero",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.promo",
-        "id": "cta-banner",
-        "variant": "solid"
-      },
-      {
-        "content": "store.catalog",
-        "id": "commerce-catalog",
-        "variant": "grid"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "compliance",
-        "id": "compliance-disclaimer-footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "store",
-    "titleKey": "store.seo.title"
-  },
   "fun4me:suscripciones": {
     "descriptionKey": "subscriptions.seo.description",
     "sections": [
@@ -17193,7 +17141,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "emptyCart": {
-      "ctaHref": "/fun4me/store",
+      "ctaHref": "/fun4me/tienda",
       "ctaText": "Ir a la Tienda",
       "text": "Explora nuestras categorias y agrega productos.",
       "title": "Tu carrito esta vacio"
@@ -17587,7 +17535,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "badgeText": "Kits",
-        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryHref": "/fun4me/tienda",
         "ctaPrimaryText": "Ver Kits",
         "headline": "Kits Curados",
         "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado."
@@ -17849,7 +17797,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Verificacion de Edad"
       },
       "categories": {
-        "ctaHref": "/fun4me/store",
+        "ctaHref": "/fun4me/tienda",
         "ctaText": "Ver Todo el Catalogo",
         "items": [
           {
@@ -17912,7 +17860,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Visitanos o Escribinos"
       },
       "cta": {
-        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryHref": "/fun4me/tienda",
         "ctaPrimaryText": "Ver Tienda",
         "ctaSecondaryHref": "https://wa.me/595976569739",
         "ctaSecondaryText": "Escribir por WhatsApp",
@@ -17989,7 +17937,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "badgeText": "Envio Discreto",
-        "ctaPrimaryHref": "/fun4me/store",
+        "ctaPrimaryHref": "/fun4me/tienda",
         "ctaPrimaryText": "Explorar Tienda",
         "ctaSecondaryHref": "https://wa.me/595976569739",
         "ctaSecondaryText": "Contactanos",
@@ -18057,7 +18005,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "promo": {
         "enabled": true,
-        "href": "/fun4me/store",
+        "href": "/fun4me/tienda",
         "text": "Envio GRATIS en compras mayores a Gs. 200.000"
       },
       "promoBanner": {
@@ -18737,7 +18685,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "storeReserve": {
       "cta": {
-        "buttonHref": "/fun4me/store",
+        "buttonHref": "/fun4me/tienda",
         "buttonText": "Ir a la Tienda",
         "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
         "title": "Empeza a armar tu pedido"

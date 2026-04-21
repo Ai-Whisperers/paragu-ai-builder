@@ -86,6 +86,25 @@ const nextConfig = {
     dangerouslyAllowSVG: false,
   },
 
+  async redirects() {
+    return [
+      // fun4me: /store was the legacy catalog-embed page; /tienda is the real
+      // store with full search + filters. Redirect permanently so any
+      // bookmark / search-engine link lands on the right URL.
+      {
+        source: '/fun4me/store',
+        destination: '/fun4me/tienda',
+        permanent: true,
+      },
+      // Canonical locale-prefixed version too.
+      {
+        source: '/s/:locale/fun4me/store',
+        destination: '/s/:locale/fun4me/tienda',
+        permanent: true,
+      },
+    ]
+  },
+
   async headers() {
     return [
       { source: '/(.*)', headers: securityHeaders },

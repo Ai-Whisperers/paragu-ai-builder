@@ -71,15 +71,33 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
     description: product.description ?? undefined,
     image: cover?.url,
     sku: product.sku ?? undefined,
+    brand: product.brand ? { '@type': 'Brand', name: product.brand } : undefined,
     offers: {
       '@type': 'Offer',
-      price: product.priceCents,
+      price: (product.priceCents / 100).toFixed(2),
       priceCurrency: product.currency,
       availability:
         product.inventoryPolicy === 'deny' && product.inventoryQty === 0
           ? 'https://schema.org/OutOfStock'
           : 'https://schema.org/InStock',
     },
+    aggregateRating: aggregate && aggregate.count > 0
+      ? {
+          '@type': 'AggregateRating',
+          ratingValue: aggregate.avg.toFixed(1),
+          reviewCount: aggregate.count,
+          bestRating: 5,
+          worstRating: 1,
+        }
+      : undefined,
+    review: reviews.slice(0, 10).map((r) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: r.authorName },
+      datePublished: r.createdAt,
+      reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+      name: r.title ?? undefined,
+      reviewBody: r.content,
+    })),
   }
 
   return (
