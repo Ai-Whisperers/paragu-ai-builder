@@ -43,7 +43,8 @@
     "regulatory-status-badge",
     "compliance-disclaimer-footer",
     "tax-savings-calculator",
-    "intake-wizard"
+    "intake-wizard",
+    "newsletter-signup"
   ],
   "defaultStarterKit": "full",
   "locales": [

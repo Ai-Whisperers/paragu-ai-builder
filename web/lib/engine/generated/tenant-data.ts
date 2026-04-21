@@ -9936,7 +9936,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "resourcesPage.newsletter",
         "id": "newsletter-signup",
-        "variant": "default"
+        "variant": "standard"
       },
       {
         "content": "footer",
@@ -9973,7 +9973,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "qualityOfLifePage.comparison",
         "id": "features",
-        "variant": "default"
+        "variant": "three-col"
       },
       {
         "content": "qualityOfLifePage.cta",
@@ -10661,12 +10661,12 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "resourcesPage.guides",
         "id": "features",
-        "variant": "default"
+        "variant": "three-col"
       },
       {
         "content": "resourcesPage.newsletter",
         "id": "newsletter-signup",
-        "variant": "default"
+        "variant": "standard"
       },
       {
         "content": "footer",
@@ -20780,6 +20780,116 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Beratung buchen",
+        "eyebrow": "",
+        "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
+        "title": "Bereit, Ihren Fall zu starten?"
+      },
+      "hero": {
+        "headline": "Erfolgsgeschichten",
+        "subheadline": "Echte Geschichten von Kunden, die ihre Operation in Paraguay mit professioneller Begleitung aufgebaut haben."
+      },
+      "seo": {
+        "description": "Echte Geschichten europäischer Investoren, die ihre Operation mit Nexa etabliert haben.",
+        "title": "Erfolgsgeschichten — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Kunden",
+        "items": [
+          {
+            "name": "M. — Deutschland",
+            "quote": "In 10 Wochen hatte ich Aufenthalt, Gesellschaft und Bankkonto. Ein Ansprechpartner.",
+            "role": "Agrar-Investor"
+          },
+          {
+            "name": "J. — Niederlande",
+            "quote": "Die Immobilientour war entscheidend. Ich fand das richtige Objekt ohne Monate zu verschwenden.",
+            "role": "SaaS-Gründer"
+          },
+          {
+            "name": "S. — Spanien",
+            "quote": "Völlige Kostentransparenz. Null Überraschungen.",
+            "role": "Unabhängiger Berater"
+          }
+        ],
+        "subtitle": "Vollständige Namen auf Anfrage aus Datenschutzgründen verfügbar.",
+        "title": "Was bereits Etablierte sagen"
+      }
+    },
+    "comparisonPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Vergleich anfordern",
+        "eyebrow": "",
+        "subtitle": "Wir bereiten einen personalisierten Vergleich Ihres Falls vor.",
+        "title": "Möchten Sie die Unterschiede besser verstehen?"
+      },
+      "hero": {
+        "headline": "Warum Nexa und kein anderer Weg?",
+        "subheadline": "Ehrlicher Vergleich zwischen Selbermachen, einen lokalen Agenten einstellen oder mit Nexa arbeiten."
+      },
+      "matrix": {
+        "eyebrow": "Vergleich",
+        "featureColumnLabel": "Merkmal",
+        "tiers": [
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Selber machen.",
+            "id": "diy",
+            "included": [
+              "Sie machen alles selbst",
+              "3–6 Monate im Durchschnitt",
+              "Hohes Fehlerrisiko",
+              "Keine Unterstützung nach dem Prozess"
+            ],
+            "name": "DIY",
+            "price": "USD 800–1.500",
+            "priceNote": "nur offizielle Gebühren"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Paraguayischer Freelancer.",
+            "id": "gestor",
+            "included": [
+              "Nur Aufenthalt",
+              "Keine Gesellschaft/Bank",
+              "Variable Qualität",
+              "Keine Garantie"
+            ],
+            "name": "Lokaler Agent",
+            "price": "USD 2.500–3.500",
+            "priceNote": "nur Aufenthalt"
+          },
+          {
+            "badge": "Empfohlen",
+            "ctaHref": "/contacto",
+            "ctaLabel": "Starten",
+            "description": "Integriertes Programm.",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [
+              "Aufenthalt + Gesellschaft + Bank",
+              "Eine Reise",
+              "Vollständiges Fachteam",
+              "12 Monate Begleitung (Investor)"
+            ],
+            "name": "Nexa",
+            "price": "USD 2.900–6.900+",
+            "priceNote": "alles inklusive"
+          }
+        ],
+        "title": "Nexa vs. Alternativen"
+      },
+      "seo": {
+        "description": "Ehrlicher Vergleich: es selbst machen, einen lokalen Agenten beauftragen oder mit Nexa arbeiten.",
+        "title": "Nexa vs. DIY vs. Gestor — Vergleich"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -20944,9 +21054,134 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/prensa",
           "label": "Presse"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/calidad-de-vida",
+          "label": "Lebensqualität"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
+          "label": "Jurisdiktionen"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/glosario",
+          "label": "Glossar"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/recursos",
+          "label": "Ressourcen"
         }
       ],
       "whatsapp": "595982515138"
+    },
+    "founderPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Gespräch buchen",
+        "eyebrow": "",
+        "subtitle": "Kostenlose 30-Minuten-Beratung, unverbindlich.",
+        "title": "Möchten Sie mit dem Team sprechen?"
+      },
+      "hero": {
+        "headline": "Der Gründer hinter Nexa",
+        "subheadline": "Wer das aufbaut, woher er kommt und warum."
+      },
+      "seo": {
+        "description": "Wer hinter Nexa steht: Erfahrung, Werte und warum wir diesen Service aufgebaut haben.",
+        "title": "Der Gründer — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "Die Geschichte",
+        "pillars": [
+          {
+            "description": "Wir haben den Prozess durchlebt. Wir wissen, was wehtut und was funktioniert.",
+            "icon": "Heart",
+            "title": "Persönliche Erfahrung"
+          },
+          {
+            "description": "Wir übersetzen Paraguay in Begriffe, die ein deutscher oder niederländischer Investor überprüfen kann.",
+            "icon": "Target",
+            "title": "Europäischer Fokus"
+          },
+          {
+            "description": "SEPRELAD-meldepflichtige Entität. Strikte KYC. Wir arbeiten nicht mit jedem.",
+            "icon": "ShieldCheck",
+            "title": "Integrität zuerst"
+          }
+        ],
+        "title": "Warum Nexa existiert"
+      },
+      "team": {
+        "eyebrow": "Team",
+        "members": [
+          {
+            "bio": "Über 15 Jahre in europäischem Firmenkundengeschäft und südamerikanischen Unternehmungen.",
+            "name": "Gründer",
+            "role": "Direktor"
+          },
+          {
+            "bio": "Spezialist für paraguayisches Einwanderungs- und Gesellschaftsrecht.",
+            "name": "Senior-Anwalt",
+            "role": "Rechtliches"
+          },
+          {
+            "bio": "CPA mit internationalen Kunden. Experte für territoriale IRE.",
+            "name": "Steuerberater",
+            "role": "Steuerlich"
+          }
+        ],
+        "title": "Echte Menschen mit Namen und Erfahrung"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Kontaktieren Sie uns",
+        "eyebrow": "",
+        "subtitle": "Schreiben Sie uns. Wir fügen ihn dem Glossar hinzu.",
+        "title": "Gibt es einen Begriff, den Sie nicht verstehen?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Dauerhafter Migrationsstatus in Paraguay. Wird durch einen 8–12-wöchigen Prozess ab vollständiger Aktenabgabe erlangt.",
+            "q": "Dauerhafte Aufenthaltserlaubnis"
+          },
+          {
+            "a": "Paraguayischer Personalausweis, der nach Gewährung der Aufenthaltserlaubnis ausgestellt wird. Offizielles Dokument für landesinterne Operationen.",
+            "q": "Cédula de Identidad"
+          },
+          {
+            "a": "Einheitliches Steuerzahlerregister. Steuerliche Identifikationsnummer, gleichbedeutend mit einer NIF oder USt-IdNr.",
+            "q": "RUC"
+          },
+          {
+            "a": "Körperschaftsteuer. Allgemeiner Satz auf in Paraguay erzielte Einkünfte.",
+            "q": "10 % IRE"
+          },
+          {
+            "a": "Steuersystem, das nur innerhalb des Landes erzieltes Einkommen besteuert. Auslandseinkommen zahlt keine IRE.",
+            "q": "Territorialität"
+          },
+          {
+            "a": "Paraguays Anti-Geldwäsche-Behörde. Nexa ist eine meldepflichtige Entität, was strikte KYC bedeutet.",
+            "q": "SEPRELAD"
+          },
+          {
+            "a": "Know Your Customer. Identitäts- und Herkunftsnachweis, der für legales Operieren erforderlich ist.",
+            "q": "KYC"
+          }
+        ],
+        "title": "Häufige Begriffe"
+      },
+      "hero": {
+        "headline": "Glossar der Kernbegriffe",
+        "subheadline": "Klare Definitionen der Begriffe, die Sie während des Prozesses antreffen."
+      },
+      "seo": {
+        "description": "Kernbegriffe: dauerhafte Aufenthaltserlaubnis, Cédula, RUC, IRE, Territorialität, SEPRELAD, KYC.",
+        "title": "Glossar — Nexa Paraguay"
+      }
     },
     "home": {
       "finalCta": {
@@ -21109,6 +21344,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Aufenthaltserlaubnis, Gesellschaft und Bankkonto in Paraguay. Ein Programm, eine Reise, ein professionelles Team.",
         "title": "Nexa Paraguay — Etablieren Sie Ihr Geschäft in Paraguay"
       },
+      "taxCalculator": {
+        "subtitle": "Schätzen Sie, wie viel Sie durch die Niederlassung in Paraguay an Steuern sparen.",
+        "title": "Steuerersparnis-Rechner"
+      },
       "testimonials": {
         "ctaHref": "/s/de/nexa-paraguay/contacto",
         "ctaText": "Alle Testimonials lesen",
@@ -21185,6 +21424,95 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Eine reale Chance für europäische Investoren"
+      }
+    },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "Welches Programm passt zu Ihrem Fall?",
+        "subheadline": "Beantworten Sie 4 Fragen und wir empfehlen das richtige Programm in weniger als einer Minute."
+      },
+      "seo": {
+        "description": "Beantworten Sie 4 Fragen und wir empfehlen das richtige Programm.",
+        "title": "Programm-Assistent — Nexa Paraguay"
+      },
+      "wizard": {
+        "recommendationCta": "Mit Nexa sprechen",
+        "recommendationTitle": "Empfohlenes Programm",
+        "stepProgressLabel": "Schritt"
+      }
+    },
+    "jurisdictionCompPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Analyse anfordern",
+        "eyebrow": "",
+        "subtitle": "Wir bereiten eine personalisierte Analyse Ihres Profils vor.",
+        "title": "Noch unsicher?"
+      },
+      "hero": {
+        "headline": "Paraguay, Uruguay oder Panama: welche Jurisdiktion?",
+        "subheadline": "Ehrlicher Vergleich der drei von europäischen Investoren am meisten nachgefragten Jurisdiktionen."
+      },
+      "matrix": {
+        "eyebrow": "Vergleich",
+        "featureColumnLabel": "Merkmal",
+        "tiers": [
+          {
+            "badge": "Kosteneffizientestes",
+            "ctaHref": "/contacto?programa=business",
+            "ctaLabel": "Paraguay wählen",
+            "description": "Kosteneffizient, territorial.",
+            "highlighted": true,
+            "id": "paraguay",
+            "included": [
+              "Territorial (besteuert kein Auslandseinkommen)",
+              "10 % IRE",
+              "Aufenthalt in 8–12 Wochen",
+              "Lebenshaltungskosten 30–50 % niedriger als UY",
+              "Weniger Bürokratie"
+            ],
+            "name": "Paraguay",
+            "price": "USD 4.400+",
+            "priceNote": "Nexa Paraguay Business"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Stabil, teurer.",
+            "id": "uruguay",
+            "included": [
+              "Territorial (mit Bedingungen)",
+              "25 % IRAE",
+              "Aufenthalt in 4–6 Monaten",
+              "Hohe Lebenshaltungskosten",
+              "Mäßige Bürokratie"
+            ],
+            "name": "Uruguay",
+            "price": "USD 10.000+",
+            "priceNote": "gleichwertiges Programm"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Offshore, komplexer.",
+            "id": "panama",
+            "included": [
+              "Strikt territorial",
+              "25 % ISR",
+              "Friendly Nations-Aufenthalt in Monaten",
+              "Mittlere Lebenshaltungskosten",
+              "Gemischter internationaler Ruf"
+            ],
+            "name": "Panama",
+            "price": "USD 8.000+",
+            "priceNote": "gleichwertiges Programm"
+          }
+        ],
+        "title": "Drei Jurisdiktionen, drei Profile"
+      },
+      "seo": {
+        "description": "Welche Jurisdiktion wählen: Territorialität, Steuern, Lebenshaltungskosten, Aufenthalt.",
+        "title": "Paraguay vs. Uruguay vs. Panama — Vergleich"
       }
     },
     "landingEmpresa": {
@@ -21700,6 +22028,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/de/nexa-paraguay/recursos",
+          "label": "Ressourcen"
+        },
+        {
           "href": "/s/de/nexa-paraguay/prensa",
           "label": "Presse"
         },
@@ -21779,6 +22111,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Ein klarer Prozess, Schritt für Schritt",
         "subheadline": "Keine Improvisation. Keine Überraschungen."
+      },
+      "highlights": {
+        "eyebrow": "Überblick",
+        "items": [
+          {
+            "description": "Vollständiger Prozess ab Aktenabgabe.",
+            "icon": "Clock",
+            "title": "8–12 Wochen"
+          },
+          {
+            "description": "Nexa koordiniert alle Fachleute.",
+            "icon": "Users",
+            "title": "Ein Ansprechpartner"
+          },
+          {
+            "description": "Alle Honorare und Gebühren enthalten.",
+            "icon": "DollarSign",
+            "title": "Festpreis"
+          }
+        ],
+        "title": "Auf einen Blick"
       },
       "process": {
         "ctaHref": "/s/de/nexa-paraguay/contacto",
@@ -22030,6 +22383,109 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Vier Programme: Base, Business (USD 4.400+), Investor (USD 6.900+) und Landkauf.",
         "title": "Programme — Nexa Paraguay"
+      }
+    },
+    "qualityOfLifePage": {
+      "comparison": {
+        "items": [
+          {
+            "description": "Gesundheit, internationale Schulen und Haushaltshilfe zu angemessenen Preisen.",
+            "icon": "Check",
+            "title": "Erschwingliche private Dienstleistungen"
+          },
+          {
+            "description": "Weniger operative Regulierung für kleine und mittlere Unternehmen.",
+            "icon": "Check",
+            "title": "Weniger Bürokratie"
+          },
+          {
+            "description": "Einige Gebiete haben gelegentliche Stromausfälle oder unebene Straßen.",
+            "icon": "AlertTriangle",
+            "title": "Infrastruktur in Entwicklung"
+          }
+        ],
+        "subtitle": "Ehrliche Zusammenfassung. Keine Idealisierung.",
+        "title": "Vs. Europa: was sich ändert"
+      },
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Gespräch vereinbaren",
+        "eyebrow": "",
+        "subtitle": "Wir organisieren strategische Touren im Rahmen des Programms.",
+        "title": "Möchten Sie Asunción persönlich kennenlernen?"
+      },
+      "hero": {
+        "headline": "Lebensqualität in Paraguay",
+        "subheadline": "Was Sie tatsächlich erleben werden, wenn Sie in Asunción oder Ciudad del Este leben."
+      },
+      "pillars": {
+        "eyebrow": "Alltag",
+        "pillars": [
+          {
+            "description": "Subtropisch, 20–35 °C fast das ganze Jahr über. Milde Winter, warme Sommer.",
+            "icon": "Sun",
+            "title": "Klima"
+          },
+          {
+            "description": "30–50 % niedriger als Madrid oder Berlin mit vergleichbarer Qualität in Premium-Zonen.",
+            "icon": "DollarSign",
+            "title": "Lebenshaltungskosten"
+          },
+          {
+            "description": "Wachsende europäische Gemeinschaft: deutsch, spanisch, italienisch, niederländisch.",
+            "icon": "Users",
+            "title": "Internationale Gemeinschaft"
+          },
+          {
+            "description": "Asunción und Ciudad del Este sind sicherer als die meisten Hauptstädte der Region.",
+            "icon": "Shield",
+            "title": "Sicherheit"
+          }
+        ],
+        "title": "Fünf Säulen des Lebens hier"
+      },
+      "seo": {
+        "description": "Klima, Lebenshaltungskosten, internationale Gemeinschaft, Sicherheit und Bildung in Asunción.",
+        "title": "Lebensqualität in Paraguay — Nexa"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "items": [
+          {
+            "description": "Vollständige Liste der für die paraguayische Aufenthaltserlaubnis erforderlichen Dokumente.",
+            "icon": "FileText",
+            "title": "Dokumenten-Checkliste"
+          },
+          {
+            "description": "Territoriale Steuer, 10 % IRE, Behandlung ausländischer Einkünfte.",
+            "icon": "FileText",
+            "title": "Steuerleitfaden 2026"
+          },
+          {
+            "description": "25 häufige Fragen europäischer Investoren, beantwortet.",
+            "icon": "FileText",
+            "title": "Investoren-Q&A"
+          }
+        ],
+        "subtitle": "Nützliche Dokumente zur Vorbereitung Ihrer Akte und zum Verständnis des Prozesses.",
+        "title": "Herunterladbare Leitfäden"
+      },
+      "hero": {
+        "headline": "Ressourcen für europäische Investoren",
+        "subheadline": "Praktische Leitfäden, Vorlagen und Tools, um Ihren Aufenthalts-, Gesellschafts- und Bankprozess vorzubereiten."
+      },
+      "newsletter": {
+        "ctaText": "Abonnieren",
+        "emailPlaceholder": "sie@beispiel.de",
+        "privacyLabel": "Durch das Abonnieren akzeptieren Sie unsere Datenschutzerklärung.",
+        "subtitle": "Einmal im Monat Regelungsnachrichten und Fallstudien. Kein Spam.",
+        "successMessage": "Abonnement bestätigt!",
+        "title": "Updates erhalten"
+      },
+      "seo": {
+        "description": "Praktische Leitfäden, Vorlagen und Tools für europäische Investoren, die sich in Paraguay etablieren.",
+        "title": "Ressourcen — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -22403,6 +22859,116 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Book consultation",
+        "eyebrow": "",
+        "subtitle": "Book a free 30-minute consultation.",
+        "title": "Ready to start your case?"
+      },
+      "hero": {
+        "headline": "Case studies",
+        "subheadline": "Real stories from clients who built their operation in Paraguay with professional support."
+      },
+      "seo": {
+        "description": "Real stories from European investors who established operations with Nexa.",
+        "title": "Case studies — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Clients",
+        "items": [
+          {
+            "name": "M. — Germany",
+            "quote": "In 10 weeks I had residency, company, and bank account. One interlocutor.",
+            "role": "Agriculture investor"
+          },
+          {
+            "name": "J. — Netherlands",
+            "quote": "The real-estate tour was key. I found the right property without wasting months.",
+            "role": "SaaS founder"
+          },
+          {
+            "name": "S. — Spain",
+            "quote": "Total cost transparency. Zero surprises.",
+            "role": "Independent consultant"
+          }
+        ],
+        "subtitle": "Full names available on request due to privacy.",
+        "title": "What those already established say"
+      }
+    },
+    "comparisonPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Request comparison",
+        "eyebrow": "",
+        "subtitle": "We'll prepare a personalized comparison of your case.",
+        "title": "Want to understand the differences better?"
+      },
+      "hero": {
+        "headline": "Why Nexa and not another path?",
+        "subheadline": "Honest comparison between DIY, hiring a local agent, or working with Nexa."
+      },
+      "matrix": {
+        "eyebrow": "Comparison",
+        "featureColumnLabel": "Feature",
+        "tiers": [
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Do it yourself.",
+            "id": "diy",
+            "included": [
+              "You run everything",
+              "3–6 months average",
+              "High error risk",
+              "No post-process support"
+            ],
+            "name": "DIY",
+            "price": "USD 800–1,500",
+            "priceNote": "official fees only"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Paraguayan freelancer.",
+            "id": "gestor",
+            "included": [
+              "Residency only",
+              "No company/bank",
+              "Variable quality",
+              "No guarantee"
+            ],
+            "name": "Local agent",
+            "price": "USD 2,500–3,500",
+            "priceNote": "residency only"
+          },
+          {
+            "badge": "Recommended",
+            "ctaHref": "/contacto",
+            "ctaLabel": "Start",
+            "description": "Integrated program.",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [
+              "Residency + company + bank",
+              "Single trip",
+              "Full technical team",
+              "12-month support (Investor)"
+            ],
+            "name": "Nexa",
+            "price": "USD 2,900–6,900+",
+            "priceNote": "all-inclusive"
+          }
+        ],
+        "title": "Nexa vs. alternatives"
+      },
+      "seo": {
+        "description": "Honest comparison: doing it alone, hiring a local agent, or working with Nexa.",
+        "title": "Nexa vs. DIY vs. gestor — comparison"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -22567,9 +23133,134 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/prensa",
           "label": "Press"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/calidad-de-vida",
+          "label": "Quality of life"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
+          "label": "Jurisdictions"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/glosario",
+          "label": "Glossary"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/recursos",
+          "label": "Resources"
         }
       ],
       "whatsapp": "595982515138"
+    },
+    "founderPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Book call",
+        "eyebrow": "",
+        "subtitle": "Free 30-minute consultation, no commitment.",
+        "title": "Want to speak with the team?"
+      },
+      "hero": {
+        "headline": "The founder behind Nexa",
+        "subheadline": "Who builds this, where they come from, and why."
+      },
+      "seo": {
+        "description": "Who's behind Nexa: experience, values, and why we built this service.",
+        "title": "The founder — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "The story",
+        "pillars": [
+          {
+            "description": "We lived the process. We know what hurts and what works.",
+            "icon": "Heart",
+            "title": "Personal experience"
+          },
+          {
+            "description": "We translate Paraguay into terms a German or Dutch investor can verify.",
+            "icon": "Target",
+            "title": "European focus"
+          },
+          {
+            "description": "SEPRELAD reporting entity. Strict KYC. We don't work with everyone.",
+            "icon": "ShieldCheck",
+            "title": "Integrity first"
+          }
+        ],
+        "title": "Why Nexa exists"
+      },
+      "team": {
+        "eyebrow": "Team",
+        "members": [
+          {
+            "bio": "15+ years across European corporate banking and South American ventures.",
+            "name": "Founder",
+            "role": "Director"
+          },
+          {
+            "bio": "Specialist in Paraguayan immigration and corporate law.",
+            "name": "Senior lawyer",
+            "role": "Legal"
+          },
+          {
+            "bio": "CPA with international clients. Expert in territorial IRE.",
+            "name": "Accountant",
+            "role": "Tax"
+          }
+        ],
+        "title": "Real people with names and experience"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Contact us",
+        "eyebrow": "",
+        "subtitle": "Write us. We'll add it to the glossary.",
+        "title": "Got a term you don't understand?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Permanent migratory status in Paraguay. Obtained through an 8–12 week process from a complete file submission.",
+            "q": "Permanent residency"
+          },
+          {
+            "a": "Paraguayan ID card issued after residency is granted. Official document for in-country operations.",
+            "q": "Cédula de Identidad"
+          },
+          {
+            "a": "Unique Taxpayer Registry. Tax identifier equivalent to a NIF or BTW number.",
+            "q": "RUC"
+          },
+          {
+            "a": "Corporate income tax. General rate on income generated in Paraguay.",
+            "q": "10 % IRE"
+          },
+          {
+            "a": "Tax system taxing only income generated within the country. Foreign income pays no IRE.",
+            "q": "Territoriality"
+          },
+          {
+            "a": "Paraguay's anti-money-laundering authority. Nexa is a reporting entity, which means strict KYC.",
+            "q": "SEPRELAD"
+          },
+          {
+            "a": "Know Your Customer. Identity and source-of-funds verification required to operate legally.",
+            "q": "KYC"
+          }
+        ],
+        "title": "Frequent terms"
+      },
+      "hero": {
+        "headline": "Glossary of key terms",
+        "subheadline": "Clear definitions of terms you'll encounter during the process."
+      },
+      "seo": {
+        "description": "Key terms: permanent residency, cédula, RUC, IRE, territoriality, SEPRELAD, KYC.",
+        "title": "Glossary — Nexa Paraguay"
+      }
     },
     "home": {
       "finalCta": {
@@ -22732,6 +23423,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Residency, company and bank account in Paraguay. One program, one trip, a full professional team by your side.",
         "title": "Nexa Paraguay — Establish your operation in Paraguay"
       },
+      "taxCalculator": {
+        "subtitle": "Estimate how much you save in taxes by establishing in Paraguay.",
+        "title": "Tax savings calculator"
+      },
       "testimonials": {
         "ctaHref": "/s/en/nexa-paraguay/contacto",
         "ctaText": "Read all testimonials",
@@ -22808,6 +23503,95 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "A real opportunity for European investors"
+      }
+    },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "Which program fits your case?",
+        "subheadline": "Answer 4 questions and we'll recommend the right program in under a minute."
+      },
+      "seo": {
+        "description": "Answer 4 questions and we'll recommend the right program.",
+        "title": "Program wizard — Nexa Paraguay"
+      },
+      "wizard": {
+        "recommendationCta": "Talk to Nexa",
+        "recommendationTitle": "Recommended program",
+        "stepProgressLabel": "Step"
+      }
+    },
+    "jurisdictionCompPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Request analysis",
+        "eyebrow": "",
+        "subtitle": "We'll prepare a personalized analysis of your profile.",
+        "title": "Still uncertain?"
+      },
+      "hero": {
+        "headline": "Paraguay, Uruguay, or Panama: which jurisdiction?",
+        "subheadline": "Honest comparison of the three jurisdictions most demanded by European investors."
+      },
+      "matrix": {
+        "eyebrow": "Comparison",
+        "featureColumnLabel": "Feature",
+        "tiers": [
+          {
+            "badge": "Most cost-efficient",
+            "ctaHref": "/contacto?programa=business",
+            "ctaLabel": "Choose Paraguay",
+            "description": "Cost-efficient, territorial.",
+            "highlighted": true,
+            "id": "paraguay",
+            "included": [
+              "Territorial (no tax on foreign income)",
+              "10 % IRE",
+              "Residency in 8–12 weeks",
+              "Cost of living 30–50 % lower than UY",
+              "Less bureaucracy"
+            ],
+            "name": "Paraguay",
+            "price": "USD 4,400+",
+            "priceNote": "Nexa Paraguay Business"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Stable, more costly.",
+            "id": "uruguay",
+            "included": [
+              "Territorial (with conditions)",
+              "25 % IRAE",
+              "Residency in 4–6 months",
+              "High cost of living",
+              "Moderate bureaucracy"
+            ],
+            "name": "Uruguay",
+            "price": "USD 10,000+",
+            "priceNote": "equivalent program"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Offshore, more complex.",
+            "id": "panama",
+            "included": [
+              "Strict territorial",
+              "25 % ISR",
+              "Friendly Nations residency in months",
+              "Medium cost of living",
+              "Mixed international reputation"
+            ],
+            "name": "Panama",
+            "price": "USD 8,000+",
+            "priceNote": "equivalent program"
+          }
+        ],
+        "title": "Three jurisdictions, three profiles"
+      },
+      "seo": {
+        "description": "Which jurisdiction to choose: territoriality, taxes, cost of living, residency.",
+        "title": "Paraguay vs. Uruguay vs. Panama — comparison"
       }
     },
     "landingEmpresa": {
@@ -23323,6 +24107,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/en/nexa-paraguay/recursos",
+          "label": "Resources"
+        },
+        {
           "href": "/s/en/nexa-paraguay/prensa",
           "label": "Press"
         },
@@ -23402,6 +24190,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "A clear process, step by step",
         "subheadline": "No improvisation. No surprises."
+      },
+      "highlights": {
+        "eyebrow": "Summary",
+        "items": [
+          {
+            "description": "Complete process from file submission.",
+            "icon": "Clock",
+            "title": "8–12 weeks"
+          },
+          {
+            "description": "Nexa coordinates all professionals.",
+            "icon": "Users",
+            "title": "Single point of contact"
+          },
+          {
+            "description": "All fees and taxes included.",
+            "icon": "DollarSign",
+            "title": "Fixed pricing"
+          }
+        ],
+        "title": "At a glance"
       },
       "process": {
         "ctaHref": "/s/en/nexa-paraguay/contacto",
@@ -23638,6 +24447,109 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Four programs: Base, Business (USD 4,400+), Investor (USD 6,900+), Land Purchase.",
         "title": "Programs — Nexa Paraguay"
+      }
+    },
+    "qualityOfLifePage": {
+      "comparison": {
+        "items": [
+          {
+            "description": "Healthcare, international schools, and domestic service at reasonable prices.",
+            "icon": "Check",
+            "title": "Affordable private services"
+          },
+          {
+            "description": "Less operational regulation for small and medium businesses.",
+            "icon": "Check",
+            "title": "Lighter bureaucracy"
+          },
+          {
+            "description": "Some areas have occasional outages or rough pavement.",
+            "icon": "AlertTriangle",
+            "title": "Infrastructure in development"
+          }
+        ],
+        "subtitle": "Honest summary. No idealizing.",
+        "title": "Vs. Europe: what changes"
+      },
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Let's talk",
+        "eyebrow": "",
+        "subtitle": "We organize strategic tours as part of the program.",
+        "title": "Want to know Asunción in person?"
+      },
+      "hero": {
+        "headline": "Quality of life in Paraguay",
+        "subheadline": "What you'll actually experience living in Asunción or Ciudad del Este."
+      },
+      "pillars": {
+        "eyebrow": "Day to day",
+        "pillars": [
+          {
+            "description": "Subtropical, 20–35 °C most of the year. Mild winters, warm summers.",
+            "icon": "Sun",
+            "title": "Climate"
+          },
+          {
+            "description": "30–50 % lower than Madrid or Berlin with comparable quality in premium zones.",
+            "icon": "DollarSign",
+            "title": "Cost of living"
+          },
+          {
+            "description": "Growing European community: German, Spanish, Italian, Dutch.",
+            "icon": "Users",
+            "title": "International community"
+          },
+          {
+            "description": "Asunción and Ciudad del Este are safer than most regional capitals.",
+            "icon": "Shield",
+            "title": "Safety"
+          }
+        ],
+        "title": "Five pillars of life here"
+      },
+      "seo": {
+        "description": "Climate, cost of living, international community, safety and education in Asunción.",
+        "title": "Quality of life in Paraguay — Nexa"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "items": [
+          {
+            "description": "Complete list of documents needed for Paraguayan residency.",
+            "icon": "FileText",
+            "title": "Document checklist"
+          },
+          {
+            "description": "Territorial tax, 10 % IRE, treatment of foreign income.",
+            "icon": "FileText",
+            "title": "2026 tax guide"
+          },
+          {
+            "description": "25 frequent questions from European investors, answered.",
+            "icon": "FileText",
+            "title": "Investor Q&A"
+          }
+        ],
+        "subtitle": "Useful documents to prepare your file and understand the process.",
+        "title": "Downloadable guides"
+      },
+      "hero": {
+        "headline": "Resources for European investors",
+        "subheadline": "Practical guides, templates, and tools to prepare your residency, company, and banking process."
+      },
+      "newsletter": {
+        "ctaText": "Subscribe",
+        "emailPlaceholder": "you@example.com",
+        "privacyLabel": "By subscribing you accept our privacy policy.",
+        "subtitle": "Once a month, regulatory news and case studies. No spam.",
+        "successMessage": "Subscription confirmed!",
+        "title": "Get updates"
+      },
+      "seo": {
+        "description": "Practical guides, templates, and tools for European investors establishing operations in Paraguay.",
+        "title": "Resources — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -23995,6 +24907,116 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Agendar consulta",
+        "eyebrow": "",
+        "subtitle": "Agenda una consulta gratuita de 30 minutos.",
+        "title": "¿Listo para empezar tu caso?"
+      },
+      "hero": {
+        "headline": "Casos de éxito",
+        "subheadline": "Historias reales de clientes que construyeron su operación en Paraguay con acompañamiento profesional."
+      },
+      "seo": {
+        "description": "Historias reales de inversores europeos que establecieron su operación con Nexa.",
+        "title": "Casos de éxito — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Clientes",
+        "items": [
+          {
+            "name": "M. — Alemania",
+            "quote": "En 10 semanas tenía residencia, sociedad y cuenta bancaria. Un solo interlocutor.",
+            "role": "Inversor en agricultura"
+          },
+          {
+            "name": "J. — Países Bajos",
+            "quote": "El tour inmobiliario fue clave. Encontré la propiedad correcta sin perder meses.",
+            "role": "Fundador SaaS"
+          },
+          {
+            "name": "S. — España",
+            "quote": "Transparencia total de costos. Cero sorpresas.",
+            "role": "Consultor independiente"
+          }
+        ],
+        "subtitle": "Nombres completos disponibles bajo solicitud por privacidad.",
+        "title": "Lo que dicen quienes ya están establecidos"
+      }
+    },
+    "comparisonPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Solicitar comparativa",
+        "eyebrow": "",
+        "subtitle": "Te armamos una comparativa personalizada de tu caso.",
+        "title": "¿Querés entender mejor las diferencias?"
+      },
+      "hero": {
+        "headline": "¿Por qué Nexa y no otra vía?",
+        "subheadline": "Comparativa honesta entre hacerlo solo, contratar un gestor local o trabajar con Nexa."
+      },
+      "matrix": {
+        "eyebrow": "Comparativa",
+        "featureColumnLabel": "Característica",
+        "tiers": [
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Hacerlo uno mismo.",
+            "id": "diy",
+            "included": [
+              "Tú llevas todo",
+              "3–6 meses promedio",
+              "Riesgo alto de error",
+              "Sin soporte post-trámite"
+            ],
+            "name": "DIY",
+            "price": "USD 800–1.500",
+            "priceNote": "solo tasas oficiales"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Freelance paraguayo.",
+            "id": "gestor",
+            "included": [
+              "Solo residencia",
+              "Sin sociedad ni banco",
+              "Calidad variable",
+              "Sin garantía"
+            ],
+            "name": "Gestor local",
+            "price": "USD 2.500–3.500",
+            "priceNote": "solo residencia"
+          },
+          {
+            "badge": "Recomendado",
+            "ctaHref": "/contacto",
+            "ctaLabel": "Empezar",
+            "description": "Programa integrado.",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [
+              "Residencia + sociedad + banco",
+              "Un solo viaje",
+              "Equipo técnico completo",
+              "Acompañamiento 12 meses (Investor)"
+            ],
+            "name": "Nexa",
+            "price": "USD 2.900–6.900+",
+            "priceNote": "todo incluido"
+          }
+        ],
+        "title": "Nexa vs. alternativas"
+      },
+      "seo": {
+        "description": "Comparativa honesta entre hacerlo solo, contratar gestor local o trabajar con Nexa.",
+        "title": "Nexa vs. DIY vs. gestoría — comparativa"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -24160,9 +25182,134 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/prensa",
           "label": "Prensa"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/calidad-de-vida",
+          "label": "Calidad de vida"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
+          "label": "Jurisdicciones"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/glosario",
+          "label": "Glosario"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/recursos",
+          "label": "Recursos"
         }
       ],
       "whatsapp": "595982515138"
+    },
+    "founderPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Agendar llamada",
+        "eyebrow": "",
+        "subtitle": "Consulta gratuita de 30 minutos, sin compromiso.",
+        "title": "¿Querés hablar con el equipo?"
+      },
+      "hero": {
+        "headline": "El fundador detrás de Nexa",
+        "subheadline": "Quién construye esto, de dónde viene y por qué."
+      },
+      "seo": {
+        "description": "Quién está detrás de Nexa: experiencia, valores y por qué creamos este servicio.",
+        "title": "El fundador — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "La historia",
+        "pillars": [
+          {
+            "description": "Vivimos el proceso. Sabemos qué duele y qué funciona.",
+            "icon": "Heart",
+            "title": "Experiencia personal"
+          },
+          {
+            "description": "Traducimos Paraguay a términos que un inversor alemán u holandés puede verificar.",
+            "icon": "Target",
+            "title": "Enfoque europeo"
+          },
+          {
+            "description": "Entidad reportante SEPRELAD. KYC estricto. No trabajamos con todos.",
+            "icon": "ShieldCheck",
+            "title": "Integridad primero"
+          }
+        ],
+        "title": "Por qué Nexa existe"
+      },
+      "team": {
+        "eyebrow": "Equipo",
+        "members": [
+          {
+            "bio": "Más de 15 años entre banca corporativa europea y emprendimientos en Sudamérica.",
+            "name": "Fundador",
+            "role": "Director"
+          },
+          {
+            "bio": "Especialista en inmigración y derecho societario paraguayo.",
+            "name": "Abogado senior",
+            "role": "Área legal"
+          },
+          {
+            "bio": "CPA con clientes internacionales. Experto en IRE territorial.",
+            "name": "Contador",
+            "role": "Área fiscal"
+          }
+        ],
+        "title": "Personas reales con nombres y experiencia"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Escribirnos",
+        "eyebrow": "",
+        "subtitle": "Escribinos. Lo agregamos al glosario.",
+        "title": "¿Tenés un término que no entendés?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Estatus migratorio permanente en Paraguay. Se obtiene con un proceso de 8–12 semanas desde la presentación completa del expediente.",
+            "q": "Residencia permanente"
+          },
+          {
+            "a": "DNI paraguayo emitido tras otorgada la residencia. Es el documento oficial para operar en el país.",
+            "q": "Cédula de Identidad"
+          },
+          {
+            "a": "Registro Único del Contribuyente. Identificador tributario, equivalente al NIF o BTW-nummer.",
+            "q": "RUC"
+          },
+          {
+            "a": "Impuesto a la Renta Empresarial. Tasa general sobre rentas generadas en Paraguay.",
+            "q": "IRE 10 %"
+          },
+          {
+            "a": "Sistema fiscal donde solo se grava la renta generada dentro del país. Ingresos extranjeros no pagan IRE.",
+            "q": "Territorialidad"
+          },
+          {
+            "a": "Autoridad antilavado de Paraguay. Nexa es entidad reportante, lo que implica KYC estricto.",
+            "q": "SEPRELAD"
+          },
+          {
+            "a": "Know Your Customer. Procedimiento de verificación de identidad y fondos exigido para operar legalmente.",
+            "q": "KYC"
+          }
+        ],
+        "title": "Términos frecuentes"
+      },
+      "hero": {
+        "headline": "Glosario de términos clave",
+        "subheadline": "Definiciones claras de los términos que vas a encontrar en el proceso."
+      },
+      "seo": {
+        "description": "Términos clave: residencia permanente, cédula, RUC, IRE, territorialidad, SEPRELAD, KYC.",
+        "title": "Glosario — Nexa Paraguay"
+      }
     },
     "home": {
       "finalCta": {
@@ -24325,6 +25472,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Residencia, sociedad y cuenta bancaria en Paraguay. Un solo programa, un solo viaje, un equipo profesional a su lado.",
         "title": "Nexa Paraguay — Establezca su operación en Paraguay"
       },
+      "taxCalculator": {
+        "subtitle": "Estimá cuánto ahorrás en impuestos al establecerte en Paraguay.",
+        "title": "Calculadora de ahorro fiscal"
+      },
       "testimonials": {
         "ctaHref": "/s/es/nexa-paraguay/contacto",
         "ctaText": "Leer todos los testimonios",
@@ -24401,6 +25552,95 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Una oportunidad real para el inversor europeo"
+      }
+    },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "¿Qué programa se adapta a tu caso?",
+        "subheadline": "Responde 4 preguntas y te recomendamos el programa adecuado en menos de un minuto."
+      },
+      "seo": {
+        "description": "Responde 4 preguntas y te recomendamos el programa adecuado.",
+        "title": "Asistente de programas — Nexa Paraguay"
+      },
+      "wizard": {
+        "recommendationCta": "Hablar con Nexa",
+        "recommendationTitle": "Programa recomendado",
+        "stepProgressLabel": "Paso"
+      }
+    },
+    "jurisdictionCompPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Pedir análisis",
+        "eyebrow": "",
+        "subtitle": "Te armamos un análisis personalizado de tu perfil.",
+        "title": "¿Todavía en duda?"
+      },
+      "hero": {
+        "headline": "Paraguay, Uruguay o Panamá: ¿cuál jurisdicción?",
+        "subheadline": "Comparativa honesta de las tres jurisdicciones más demandadas por inversores europeos."
+      },
+      "matrix": {
+        "eyebrow": "Comparativa",
+        "featureColumnLabel": "Característica",
+        "tiers": [
+          {
+            "badge": "Más costo-eficiente",
+            "ctaHref": "/contacto?programa=business",
+            "ctaLabel": "Elegir Paraguay",
+            "description": "Costo-eficiente, territorial.",
+            "highlighted": true,
+            "id": "paraguay",
+            "included": [
+              "Territorial (no grava renta extranjera)",
+              "IRE 10 %",
+              "Residencia en 8–12 semanas",
+              "Costo de vida 30–50 % menor que UY",
+              "Menos burocracia"
+            ],
+            "name": "Paraguay",
+            "price": "USD 4.400+",
+            "priceNote": "Nexa Paraguay Business"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Estable, más oneroso.",
+            "id": "uruguay",
+            "included": [
+              "Territorial (con condiciones)",
+              "IRAE 25 %",
+              "Residencia en 4–6 meses",
+              "Costo de vida alto",
+              "Burocracia moderada"
+            ],
+            "name": "Uruguay",
+            "price": "USD 10.000+",
+            "priceNote": "programa equivalente"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Offshore, más complejo.",
+            "id": "panama",
+            "included": [
+              "Territorial estricto",
+              "ISR 25 %",
+              "Residencia Friendly Nations en meses",
+              "Costo de vida medio",
+              "Reputación internacional mixta"
+            ],
+            "name": "Panamá",
+            "price": "USD 8.000+",
+            "priceNote": "programa equivalente"
+          }
+        ],
+        "title": "Tres jurisdicciones, tres perfiles"
+      },
+      "seo": {
+        "description": "Cuál jurisdicción elegir: territorialidad, impuestos, costo de vida, residencia.",
+        "title": "Paraguay vs. Uruguay vs. Panamá — comparativa"
       }
     },
     "landingEmpresa": {
@@ -24916,6 +26156,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/es/nexa-paraguay/recursos",
+          "label": "Recursos"
+        },
+        {
           "href": "/s/es/nexa-paraguay/prensa",
           "label": "Prensa"
         },
@@ -24995,6 +26239,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Un proceso claro, paso a paso",
         "subheadline": "Sin improvisación. Sin sorpresas."
+      },
+      "highlights": {
+        "eyebrow": "Resumen",
+        "items": [
+          {
+            "description": "Proceso completo desde presentación.",
+            "icon": "Clock",
+            "title": "8–12 semanas"
+          },
+          {
+            "description": "Nexa coordina todos los profesionales.",
+            "icon": "Users",
+            "title": "Un solo interlocutor"
+          },
+          {
+            "description": "Todos los honorarios y tasas incluidos.",
+            "icon": "DollarSign",
+            "title": "Precio fijo"
+          }
+        ],
+        "title": "En resumen"
       },
       "process": {
         "ctaHref": "/s/es/nexa-paraguay/contacto",
@@ -25279,6 +26544,109 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cuatro programas para establecerse en Paraguay: Base, Business (USD 4.400+), Investor (USD 6.900+) y Compra de Tierras.",
         "title": "Programas — Nexa Paraguay"
+      }
+    },
+    "qualityOfLifePage": {
+      "comparison": {
+        "items": [
+          {
+            "description": "Salud, educación internacional y servicio doméstico a precios razonables.",
+            "icon": "Check",
+            "title": "Servicios privados accesibles"
+          },
+          {
+            "description": "Menos regulación operativa para empresas pequeñas y medianas.",
+            "icon": "Check",
+            "title": "Burocracia más ligera"
+          },
+          {
+            "description": "Algunas zonas tienen apagones ocasionales o calles mal asfaltadas.",
+            "icon": "AlertTriangle",
+            "title": "Infraestructura en desarrollo"
+          }
+        ],
+        "subtitle": "Resumen honesto. Sin idealizar.",
+        "title": "Vs. Europa: qué cambia"
+      },
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Hablemos",
+        "eyebrow": "",
+        "subtitle": "Organizamos tours estratégicos como parte del programa.",
+        "title": "¿Querés conocer Asunción en persona?"
+      },
+      "hero": {
+        "headline": "Calidad de vida en Paraguay",
+        "subheadline": "Lo que realmente vas a experimentar viviendo en Asunción o Ciudad del Este."
+      },
+      "pillars": {
+        "eyebrow": "Día a día",
+        "pillars": [
+          {
+            "description": "Subtropical, 20–35 °C casi todo el año. Inviernos suaves, veranos cálidos.",
+            "icon": "Sun",
+            "title": "Clima"
+          },
+          {
+            "description": "30–50 % menor que Madrid o Berlín con calidad de vida comparable en zona premium.",
+            "icon": "DollarSign",
+            "title": "Costo de vida"
+          },
+          {
+            "description": "Creciente colonia europea: alemana, española, italiana, holandesa.",
+            "icon": "Users",
+            "title": "Comunidad internacional"
+          },
+          {
+            "description": "Asunción y Ciudad del Este son más seguras que capitales de la región.",
+            "icon": "Shield",
+            "title": "Seguridad"
+          }
+        ],
+        "title": "Cinco pilares de la vida aquí"
+      },
+      "seo": {
+        "description": "Clima, costo de vida, comunidad internacional, seguridad y educación en Asunción.",
+        "title": "Calidad de vida en Paraguay — Nexa"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "items": [
+          {
+            "description": "Lista completa de documentos necesarios para residencia paraguaya.",
+            "icon": "FileText",
+            "title": "Checklist documental"
+          },
+          {
+            "description": "Impuesto territorial, IRE 10 %, tratamiento de renta extranjera.",
+            "icon": "FileText",
+            "title": "Guía fiscal 2026"
+          },
+          {
+            "description": "25 preguntas frecuentes de inversores europeos, respondidas.",
+            "icon": "FileText",
+            "title": "Q&A inversores"
+          }
+        ],
+        "subtitle": "Documentos útiles para preparar tu expediente y entender el proceso.",
+        "title": "Guías descargables"
+      },
+      "hero": {
+        "headline": "Recursos para inversores europeos",
+        "subheadline": "Guías prácticas, plantillas y herramientas para preparar tu proceso de residencia, sociedad y cuenta bancaria."
+      },
+      "newsletter": {
+        "ctaText": "Suscribirme",
+        "emailPlaceholder": "tu@correo.com",
+        "privacyLabel": "Al suscribirte aceptas nuestra política de privacidad.",
+        "subtitle": "Una vez al mes, novedades regulatorias y casos prácticos. Sin spam.",
+        "successMessage": "¡Suscripción confirmada!",
+        "title": "Recibe actualizaciones"
+      },
+      "seo": {
+        "description": "Guías prácticas, plantillas y herramientas para inversores europeos que se establecen en Paraguay.",
+        "title": "Recursos — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -25652,6 +27020,116 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Blog"
       }
     },
+    "caseStudiesPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Consult plannen",
+        "eyebrow": "",
+        "subtitle": "Plan een gratis consult van 30 minuten.",
+        "title": "Klaar om uw zaak te starten?"
+      },
+      "hero": {
+        "headline": "Succesverhalen",
+        "subheadline": "Echte verhalen van klanten die hun operatie in Paraguay opbouwden met professionele begeleiding."
+      },
+      "seo": {
+        "description": "Echte verhalen van Europese investeerders die hun operatie met Nexa hebben opgezet.",
+        "title": "Succesverhalen — Nexa Paraguay"
+      },
+      "testimonials": {
+        "eyebrow": "Klanten",
+        "items": [
+          {
+            "name": "M. — Duitsland",
+            "quote": "In 10 weken had ik verblijfsvergunning, vennootschap en bankrekening. Eén aanspreekpunt.",
+            "role": "Investeerder landbouw"
+          },
+          {
+            "name": "J. — Nederland",
+            "quote": "De vastgoedtour was cruciaal. Ik vond het juiste pand zonder maanden te verspillen.",
+            "role": "SaaS-oprichter"
+          },
+          {
+            "name": "S. — Spanje",
+            "quote": "Totale kostentransparantie. Geen verrassingen.",
+            "role": "Onafhankelijk consultant"
+          }
+        ],
+        "subtitle": "Volledige namen op verzoek beschikbaar vanwege privacy.",
+        "title": "Wat reeds gevestigden zeggen"
+      }
+    },
+    "comparisonPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Vergelijking aanvragen",
+        "eyebrow": "",
+        "subtitle": "Wij bereiden een gepersonaliseerde vergelijking van uw zaak voor.",
+        "title": "Wilt u de verschillen beter begrijpen?"
+      },
+      "hero": {
+        "headline": "Waarom Nexa en geen ander pad?",
+        "subheadline": "Eerlijke vergelijking tussen zelf doen, lokale agent inhuren of werken met Nexa."
+      },
+      "matrix": {
+        "eyebrow": "Vergelijking",
+        "featureColumnLabel": "Kenmerk",
+        "tiers": [
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Zelf doen.",
+            "id": "diy",
+            "included": [
+              "U beheert alles",
+              "3–6 maanden gemiddeld",
+              "Hoog foutrisico",
+              "Geen ondersteuning na proces"
+            ],
+            "name": "DIY",
+            "price": "USD 800–1.500",
+            "priceNote": "alleen officiële kosten"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Paraguayaanse freelancer.",
+            "id": "gestor",
+            "included": [
+              "Alleen verblijf",
+              "Geen vennootschap/bank",
+              "Variabele kwaliteit",
+              "Geen garantie"
+            ],
+            "name": "Lokale agent",
+            "price": "USD 2.500–3.500",
+            "priceNote": "alleen verblijf"
+          },
+          {
+            "badge": "Aanbevolen",
+            "ctaHref": "/contacto",
+            "ctaLabel": "Begin",
+            "description": "Geïntegreerd programma.",
+            "highlighted": true,
+            "id": "nexa",
+            "included": [
+              "Verblijf + vennootschap + bank",
+              "Eén reis",
+              "Volledig technisch team",
+              "12 maanden ondersteuning (Investor)"
+            ],
+            "name": "Nexa",
+            "price": "USD 2.900–6.900+",
+            "priceNote": "alles inbegrepen"
+          }
+        ],
+        "title": "Nexa vs. alternatieven"
+      },
+      "seo": {
+        "description": "Eerlijke vergelijking: zelf doen, lokale gestor inhuren, of werken met Nexa.",
+        "title": "Nexa vs. DIY vs. gestor — vergelijking"
+      }
+    },
     "complianceDisclaimer": {
       "licenseNumbers": [
         {
@@ -25816,9 +27294,134 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/prensa",
           "label": "Pers"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/calidad-de-vida",
+          "label": "Levenskwaliteit"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
+          "label": "Jurisdicties"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/glosario",
+          "label": "Woordenlijst"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/recursos",
+          "label": "Bronnen"
         }
       ],
       "whatsapp": "595982515138"
+    },
+    "founderPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Gesprek plannen",
+        "eyebrow": "",
+        "subtitle": "Gratis consult van 30 minuten, zonder verplichting.",
+        "title": "Wilt u met het team praten?"
+      },
+      "hero": {
+        "headline": "De oprichter achter Nexa",
+        "subheadline": "Wie dit bouwt, waar hij vandaan komt, en waarom."
+      },
+      "seo": {
+        "description": "Wie achter Nexa staat: ervaring, waarden, en waarom we deze dienst hebben opgericht.",
+        "title": "De oprichter — Nexa Paraguay"
+      },
+      "story": {
+        "eyebrow": "Het verhaal",
+        "pillars": [
+          {
+            "description": "Wij hebben het proces doorlopen. We weten wat pijn doet en wat werkt.",
+            "icon": "Heart",
+            "title": "Persoonlijke ervaring"
+          },
+          {
+            "description": "Wij vertalen Paraguay in termen die een Duitse of Nederlandse investeerder kan verifiëren.",
+            "icon": "Target",
+            "title": "Europese focus"
+          },
+          {
+            "description": "SEPRELAD-rapporterende entiteit. Strikte KYC. Wij werken niet met iedereen.",
+            "icon": "ShieldCheck",
+            "title": "Integriteit voorop"
+          }
+        ],
+        "title": "Waarom Nexa bestaat"
+      },
+      "team": {
+        "eyebrow": "Team",
+        "members": [
+          {
+            "bio": "15+ jaar in Europese zakelijke banken en Zuid-Amerikaanse ondernemingen.",
+            "name": "Oprichter",
+            "role": "Directeur"
+          },
+          {
+            "bio": "Specialist in Paraguayaans immigratie- en vennootschapsrecht.",
+            "name": "Senior advocaat",
+            "role": "Juridisch"
+          },
+          {
+            "bio": "CPA met internationale klanten. Expert in territoriale IRE.",
+            "name": "Accountant",
+            "role": "Fiscaal"
+          }
+        ],
+        "title": "Echte mensen met namen en ervaring"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Contact opnemen",
+        "eyebrow": "",
+        "subtitle": "Schrijf ons. We voegen hem toe aan de woordenlijst.",
+        "title": "Heeft u een term die u niet begrijpt?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Permanente migratiestatus in Paraguay. Verkregen via een proces van 8–12 weken vanaf de volledige dossier-indiening.",
+            "q": "Permanente verblijfsvergunning"
+          },
+          {
+            "a": "Paraguayaans identiteitsbewijs dat wordt uitgegeven nadat de verblijfsvergunning is toegekend. Officieel document voor operaties in het land.",
+            "q": "Cédula de Identidad"
+          },
+          {
+            "a": "Uniek Belastingbetalersregister. Fiscaal identificatienummer, equivalent aan een BTW-nummer.",
+            "q": "RUC"
+          },
+          {
+            "a": "Bedrijfsinkomstenbelasting. Algemeen tarief op inkomen gegenereerd in Paraguay.",
+            "q": "10 % IRE"
+          },
+          {
+            "a": "Belastingsysteem dat alleen inkomen binnen het land gegenereerd belast. Buitenlands inkomen betaalt geen IRE.",
+            "q": "Territorialiteit"
+          },
+          {
+            "a": "Paraguayaanse anti-witwasautoriteit. Nexa is een rapporterende entiteit, wat strikte KYC betekent.",
+            "q": "SEPRELAD"
+          },
+          {
+            "a": "Know Your Customer. Verificatie van identiteit en fondsen vereist om legaal te opereren.",
+            "q": "KYC"
+          }
+        ],
+        "title": "Veelgebruikte termen"
+      },
+      "hero": {
+        "headline": "Woordenlijst van kerntermen",
+        "subheadline": "Duidelijke definities van termen die u tijdens het proces zult tegenkomen."
+      },
+      "seo": {
+        "description": "Kerntermen: permanente verblijfsvergunning, cédula, RUC, IRE, territorialiteit, SEPRELAD, KYC.",
+        "title": "Woordenlijst — Nexa Paraguay"
+      }
     },
     "home": {
       "finalCta": {
@@ -25981,6 +27584,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Verblijfsvergunning, vennootschap en bankrekening in Paraguay. Eén programma, één reis, een professioneel team.",
         "title": "Nexa Paraguay — Vestig uw onderneming in Paraguay"
       },
+      "taxCalculator": {
+        "subtitle": "Schat hoeveel u bespaart aan belastingen door zich in Paraguay te vestigen.",
+        "title": "Belastingbesparing-calculator"
+      },
       "testimonials": {
         "ctaHref": "/s/nl/nexa-paraguay/contacto",
         "ctaText": "Alle getuigenissen lezen",
@@ -26057,6 +27664,95 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Een reële kans voor de Europese investeerder"
+      }
+    },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "Welk programma past bij uw zaak?",
+        "subheadline": "Beantwoord 4 vragen en we bevelen het juiste programma aan in minder dan een minuut."
+      },
+      "seo": {
+        "description": "Beantwoord 4 vragen en we bevelen het juiste programma aan.",
+        "title": "Programma-assistent — Nexa Paraguay"
+      },
+      "wizard": {
+        "recommendationCta": "Praten met Nexa",
+        "recommendationTitle": "Aanbevolen programma",
+        "stepProgressLabel": "Stap"
+      }
+    },
+    "jurisdictionCompPage": {
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Analyse aanvragen",
+        "eyebrow": "",
+        "subtitle": "Wij bereiden een gepersonaliseerde analyse van uw profiel voor.",
+        "title": "Nog niet zeker?"
+      },
+      "hero": {
+        "headline": "Paraguay, Uruguay of Panama: welke jurisdictie?",
+        "subheadline": "Eerlijke vergelijking van de drie jurisdicties die Europese investeerders het meest vragen."
+      },
+      "matrix": {
+        "eyebrow": "Vergelijking",
+        "featureColumnLabel": "Kenmerk",
+        "tiers": [
+          {
+            "badge": "Meest kostenefficiënt",
+            "ctaHref": "/contacto?programa=business",
+            "ctaLabel": "Kies Paraguay",
+            "description": "Kostenefficiënt, territoriaal.",
+            "highlighted": true,
+            "id": "paraguay",
+            "included": [
+              "Territoriaal (belast geen buitenlands inkomen)",
+              "10 % IRE",
+              "Verblijf in 8–12 weken",
+              "Kosten levensonderhoud 30–50 % lager dan UY",
+              "Minder bureaucratie"
+            ],
+            "name": "Paraguay",
+            "price": "USD 4.400+",
+            "priceNote": "Nexa Paraguay Business"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Stabiel, duurder.",
+            "id": "uruguay",
+            "included": [
+              "Territoriaal (met voorwaarden)",
+              "25 % IRAE",
+              "Verblijf in 4–6 maanden",
+              "Hoge kosten levensonderhoud",
+              "Matige bureaucratie"
+            ],
+            "name": "Uruguay",
+            "price": "USD 10.000+",
+            "priceNote": "equivalent programma"
+          },
+          {
+            "ctaHref": "#",
+            "ctaLabel": "—",
+            "description": "Offshore, complexer.",
+            "id": "panama",
+            "included": [
+              "Strikt territoriaal",
+              "25 % ISR",
+              "Friendly Nations-verblijf in maanden",
+              "Gemiddelde kosten levensonderhoud",
+              "Gemengde internationale reputatie"
+            ],
+            "name": "Panama",
+            "price": "USD 8.000+",
+            "priceNote": "equivalent programma"
+          }
+        ],
+        "title": "Drie jurisdicties, drie profielen"
+      },
+      "seo": {
+        "description": "Welke jurisdictie kiezen: territorialiteit, belastingen, kosten van levensonderhoud, verblijfsvergunning.",
+        "title": "Paraguay vs. Uruguay vs. Panama — vergelijking"
       }
     },
     "landingEmpresa": {
@@ -26572,6 +28268,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/nl/nexa-paraguay/recursos",
+          "label": "Bronnen"
+        },
+        {
           "href": "/s/nl/nexa-paraguay/prensa",
           "label": "Pers"
         },
@@ -26651,6 +28351,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Een helder proces, stap voor stap",
         "subheadline": "Geen improvisatie. Geen verrassingen."
+      },
+      "highlights": {
+        "eyebrow": "Samenvatting",
+        "items": [
+          {
+            "description": "Volledig proces vanaf dossierindiening.",
+            "icon": "Clock",
+            "title": "8–12 weken"
+          },
+          {
+            "description": "Nexa coördineert alle professionals.",
+            "icon": "Users",
+            "title": "Eén aanspreekpunt"
+          },
+          {
+            "description": "Alle honoraria en belastingen inbegrepen.",
+            "icon": "DollarSign",
+            "title": "Vaste prijs"
+          }
+        ],
+        "title": "Samengevat"
       },
       "process": {
         "ctaHref": "/s/nl/nexa-paraguay/contacto",
@@ -26902,6 +28623,109 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Vier programma's om u in Paraguay te vestigen: Base, Business (USD 4.400+), Investor (USD 6.900+) en Grondaankoop.",
         "title": "Programma's — Nexa Paraguay"
+      }
+    },
+    "qualityOfLifePage": {
+      "comparison": {
+        "items": [
+          {
+            "description": "Gezondheidszorg, internationale scholen en huishoudelijke hulp tegen redelijke prijzen.",
+            "icon": "Check",
+            "title": "Betaalbare privé-diensten"
+          },
+          {
+            "description": "Minder operationele regelgeving voor kleine en middelgrote bedrijven.",
+            "icon": "Check",
+            "title": "Lichtere bureaucratie"
+          },
+          {
+            "description": "Sommige gebieden hebben incidentele stroomstoringen of slechte bestrating.",
+            "icon": "AlertTriangle",
+            "title": "Infrastructuur in ontwikkeling"
+          }
+        ],
+        "subtitle": "Eerlijke samenvatting. Zonder te idealiseren.",
+        "title": "Vs. Europa: wat verandert"
+      },
+      "cta": {
+        "ctaHref": "/contacto",
+        "ctaText": "Laten we praten",
+        "eyebrow": "",
+        "subtitle": "We organiseren strategische tours als onderdeel van het programma.",
+        "title": "Wilt u Asunción persoonlijk leren kennen?"
+      },
+      "hero": {
+        "headline": "Levenskwaliteit in Paraguay",
+        "subheadline": "Wat u werkelijk zult ervaren wanneer u in Asunción of Ciudad del Este woont."
+      },
+      "pillars": {
+        "eyebrow": "Dagelijks leven",
+        "pillars": [
+          {
+            "description": "Subtropisch, 20–35 °C bijna het hele jaar. Zachte winters, warme zomers.",
+            "icon": "Sun",
+            "title": "Klimaat"
+          },
+          {
+            "description": "30–50 % lager dan Madrid of Berlijn met vergelijkbare kwaliteit in premium zones.",
+            "icon": "DollarSign",
+            "title": "Kosten van levensonderhoud"
+          },
+          {
+            "description": "Groeiende Europese gemeenschap: Duits, Spaans, Italiaans, Nederlands.",
+            "icon": "Users",
+            "title": "Internationale gemeenschap"
+          },
+          {
+            "description": "Asunción en Ciudad del Este zijn veiliger dan de meeste regionale hoofdsteden.",
+            "icon": "Shield",
+            "title": "Veiligheid"
+          }
+        ],
+        "title": "Vijf pijlers van het leven hier"
+      },
+      "seo": {
+        "description": "Klimaat, kosten van levensonderhoud, internationale gemeenschap, veiligheid en onderwijs in Asunción.",
+        "title": "Levenskwaliteit in Paraguay — Nexa"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "items": [
+          {
+            "description": "Volledige lijst van documenten nodig voor Paraguayaanse verblijfsvergunning.",
+            "icon": "FileText",
+            "title": "Documentenchecklist"
+          },
+          {
+            "description": "Territoriale belasting, 10 % IRE, behandeling van buitenlands inkomen.",
+            "icon": "FileText",
+            "title": "Belastinggids 2026"
+          },
+          {
+            "description": "25 veelgestelde vragen van Europese investeerders, beantwoord.",
+            "icon": "FileText",
+            "title": "Investeerder Q&A"
+          }
+        ],
+        "subtitle": "Nuttige documenten om uw dossier voor te bereiden en het proces te begrijpen.",
+        "title": "Downloadbare gidsen"
+      },
+      "hero": {
+        "headline": "Bronnen voor Europese investeerders",
+        "subheadline": "Praktische gidsen, sjablonen en tools om uw verblijfs-, vennootschap- en bankproces voor te bereiden."
+      },
+      "newsletter": {
+        "ctaText": "Abonneren",
+        "emailPlaceholder": "u@voorbeeld.com",
+        "privacyLabel": "Door u te abonneren accepteert u ons privacybeleid.",
+        "subtitle": "Maandelijks regelgevingsnieuws en casestudies. Geen spam.",
+        "successMessage": "Abonnement bevestigd!",
+        "title": "Ontvang updates"
+      },
+      "seo": {
+        "description": "Praktische gidsen, sjablonen en tools voor Europese investeerders die zich in Paraguay vestigen.",
+        "title": "Bronnen — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -31263,7 +33087,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "regulatory-status-badge",
       "compliance-disclaimer-footer",
       "tax-savings-calculator",
-      "intake-wizard"
+      "intake-wizard",
+      "newsletter-signup"
     ],
     "defaultStarterKit": "full",
     "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",
