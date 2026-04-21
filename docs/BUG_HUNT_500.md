@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 81 | see closure log below |
+| ✅ Closed | 83 | see closure log below |
 | 🟡 In progress | 1 | #392 (4 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 419 | the rest |
+| 🔴 Open | 417 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -139,6 +139,15 @@ Closure log:
   in `withRequestLog` AND gained `checkAdmin()` on every method (was completely
   unauthenticated). Replaced hardcoded `createdBy: 'admin'` with the
   authenticated user's email — TODO closed. Audit doc count 5 → 4 routes.
+- **#491** — `docs/SALES_PLAYBOOK.md` covers universal objections (price,
+  Instagram-is-enough, technology fear, primo-makes-it-free) plus
+  per-vertical scripts (peluquería, gimnasio, spa, restaurant, relocation,
+  professional services). Includes closing techniques and disqualification
+  criteria.
+- **#493** — `docs/GLOSSARY.md` defines every recurring term: Vertical / Type /
+  Site / Section / Demo / Real tenant / Pilot / Promote / Pagopar /
+  Facilitator Lite / withRequestLog / checkAdmin / Cloudflare Polish /
+  Runbook / ADR / BUG_HUNT_500. Cross-linked from other docs.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
