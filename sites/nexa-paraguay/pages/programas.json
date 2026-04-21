@@ -20,11 +20,6 @@
       "content": "programasPage.programs"
     },
     {
-      "id": "programs-comparison",
-      "variant": "matrix",
-      "content": "programasPage.matrix"
-    },
-    {
       "id": "faq",
       "variant": "accordion",
       "content": "programasPage.faq"

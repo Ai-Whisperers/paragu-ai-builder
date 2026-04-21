@@ -292,61 +292,6 @@
         }
       ]
     },
-    "matrix": {
-      "eyebrow": "Programas",
-      "title": "Tres caminos para establecerse en Uruguay",
-      "subtitle": "Elija el programa según su objetivo.",
-      "tiers": [
-        {
-          "id": "base",
-          "name": "Uruguay Base",
-          "description": "Residencia + RUT.",
-          "price": "A definir",
-          "priceNote": "Precios en definición",
-          "included": [
-            "Solicitud de residencia",
-            "RUT",
-            "Validación documental",
-            "Visita operativa"
-          ],
-          "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-uruguay/contacto?programa=base"
-        },
-        {
-          "id": "business",
-          "name": "Uruguay Business",
-          "description": "Residencia + sociedad + cuenta bancaria.",
-          "price": "A definir",
-          "priceNote": "Precios en definición",
-          "highlighted": true,
-          "badge": "Más elegido",
-          "included": [
-            "Todo lo de Base",
-            "Constitución (SAS)",
-            "Cuenta bancaria",
-            "Tour estratégico",
-            "Honorarios + IVA incluidos"
-          ],
-          "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-uruguay/contacto?programa=business"
-        },
-        {
-          "id": "investor",
-          "name": "Uruguay Investor Program",
-          "description": "Business + 12 meses de asesoría.",
-          "price": "A definir",
-          "priceNote": "Precios en definición",
-          "included": [
-            "Todo lo de Business",
-            "Contabilidad (12 meses)",
-            "Asesoría legal y fiscal (12 meses)",
-            "Análisis de inversiones"
-          ],
-          "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-uruguay/contacto?programa=investor"
-        }
-      ]
-    },
     "faq": {
       "title": "Preguntas sobre precios",
       "items": [

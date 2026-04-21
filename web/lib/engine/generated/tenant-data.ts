@@ -10580,11 +10580,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "programasPage.matrix",
-        "id": "programs-comparison",
-        "variant": "matrix"
-      },
-      {
         "content": "programasPage.faq",
         "id": "faq",
         "variant": "accordion"
@@ -11205,11 +11200,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "programasPage.programs",
         "id": "programs-comparison",
         "variant": "tiered"
-      },
-      {
-        "content": "programasPage.matrix",
-        "id": "programs-comparison",
-        "variant": "matrix"
       },
       {
         "content": "programasPage.faq",
@@ -19437,7 +19427,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whatsapp": {
       "label": "Chat con Fun4Me",
       "message": "Hola! Quiero consultar sobre un producto.",
-      "number": "595976569739"
+      "phone": "595976569739"
     }
   },
   "fun4me:gift-cards": {
@@ -20600,7 +20590,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     "siteName": "Granja Cabral",
     "tagline": "Huevos frescos de granja en Coronel Oviedo",
     "whatsapp": {
-      "defaultMessage": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas información?"
+      "message": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas información?",
+      "phone": "+595981324569"
     }
   },
   "nexa-paraguay:de": {
@@ -22104,80 +22095,6 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Unsere Programme",
         "subheadline": "Transparente Preise. Alles inklusive. Keine Überraschungen."
-      },
-      "matrix": {
-        "eyebrow": "Programme",
-        "subtitle": "Wählen Sie das Programm, das zu Ihrem Ziel passt.",
-        "tiers": [
-          {
-            "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base",
-            "ctaLabel": "Beratung anfragen",
-            "description": "Aufenthalt + Identitätskarte.",
-            "id": "base",
-            "included": [
-              "Aufenthaltserlaubnis",
-              "Identitätskarte",
-              "Dokumentenprüfung vorab",
-              "Operativer Tag",
-              "Logistische Begleitung"
-            ],
-            "name": "Paraguay Base",
-            "price": "USD 2.900",
-            "priceNote": "Komplettpaket inkl. aller Gebühren und Steuern."
-          },
-          {
-            "badge": "Am beliebtesten",
-            "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business",
-            "ctaLabel": "Beratung anfragen",
-            "description": "Aufenthalt + Gesellschaft + Bankkonto.",
-            "highlighted": true,
-            "id": "business",
-            "included": [
-              "Alles aus Base",
-              "Gesellschaftsgründung",
-              "Steuerregistrierung (RUC)",
-              "Firmenbankkonto",
-              "Strategische Immobilientour",
-              "Honorare, MwSt. und Gebühren inklusive"
-            ],
-            "name": "Paraguay Business",
-            "price": "USD 4.400+",
-            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
-          },
-          {
-            "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
-            "ctaLabel": "Beratung anfragen",
-            "description": "Alles aus Business + 12 Monate Begleitung.",
-            "id": "investor",
-            "included": [
-              "Alles aus Business",
-              "Buchhaltung (12 Monate)",
-              "Rechts- und Steuerberatung (12 Monate)",
-              "Investitionsanalyse",
-              "Direktzugang zum Fachteam"
-            ],
-            "name": "Paraguay Investor Program",
-            "price": "USD 6.900+",
-            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
-          },
-          {
-            "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Anfragen",
-            "description": "Eigene Dienstleistung von Nexa.",
-            "id": "tierras",
-            "included": [
-              "Profil- und Kriteriendefinition",
-              "Suche und Short-List",
-              "Rechtliche und technische Due Diligence",
-              "Verhandlung und Beurkundung",
-              "Registereintragung"
-            ],
-            "name": "Landkauf",
-            "price": "Ab USD 3.500",
-            "priceNote": "Je nach Umfang der Suche und Due Diligence."
-          }
-        ],
-        "title": "Vier Wege, sich in Paraguay zu etablieren"
       },
       "programs": {
         "eyebrow": "Programme",
@@ -24106,65 +24023,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Our programs",
         "subheadline": "Transparent pricing. All inclusive. No surprises."
       },
-      "matrix": {
-        "eyebrow": "Programs",
-        "tiers": [
-          {
-            "description": "Residency and Paraguayan ID card.",
-            "id": "base",
-            "included": [
-              "Paraguayan Residency",
-              "ID Card",
-              "Document pre-check",
-              "Operational day (one day)",
-              "Logistical support"
-            ],
-            "name": "Paraguay Base",
-            "price": "To be defined"
-          },
-          {
-            "description": "Residency + company + bank account.",
-            "id": "business",
-            "included": [
-              "Everything in Base",
-              "Company formation",
-              "RUC acquisition",
-              "Bank account opening",
-              "Strategic real-estate tour",
-              "Fees, VAT and taxes included"
-            ],
-            "name": "Paraguay Business",
-            "price": "USD 4,400+"
-          },
-          {
-            "description": "Everything in Business + 12 months of support.",
-            "id": "investor",
-            "included": [
-              "Everything in Business",
-              "Corporate accounting (12 months)",
-              "Legal and tax advisory (12 months)",
-              "Investment analysis",
-              "Direct access to technical team"
-            ],
-            "name": "Paraguay Investor Program",
-            "price": "USD 6,900+"
-          },
-          {
-            "description": "Everything in Investor + land purchase.",
-            "id": "land",
-            "included": [
-              "Everything in Investor",
-              "Strategic land search",
-              "Due diligence and legal verification",
-              "Negotiation support",
-              "Agricultural advisory (optional)"
-            ],
-            "name": "Paraguay Land Program",
-            "price": "Custom quote"
-          }
-        ],
-        "title": "Four paths to establish yourself in Paraguay"
-      },
       "programs": {
         "eyebrow": "Programs",
         "subtitle": "Choose your program based on your objective.",
@@ -26075,114 +25933,6 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Nuestros programas",
         "subheadline": "Precios transparentes. Todo incluido. Sin sorpresas."
-      },
-      "matrix": {
-        "comparisonRows": [
-          {
-            "feature": "Residencia + Cédula",
-            "values": [
-              true,
-              true,
-              true,
-              false
-            ]
-          },
-          {
-            "feature": "Sociedad + RUC",
-            "values": [
-              false,
-              true,
-              true,
-              false
-            ]
-          },
-          {
-            "feature": "Cuenta bancaria",
-            "values": [
-              false,
-              true,
-              true,
-              false
-            ]
-          },
-          {
-            "feature": "Tour inmobiliario",
-            "values": [
-              false,
-              true,
-              true,
-              false
-            ]
-          },
-          {
-            "feature": "Contabilidad 12 meses",
-            "values": [
-              false,
-              false,
-              true,
-              false
-            ]
-          },
-          {
-            "feature": "Asesoría fiscal 12 meses",
-            "values": [
-              false,
-              false,
-              true,
-              false
-            ]
-          },
-          {
-            "feature": "Búsqueda y compra de tierras",
-            "values": [
-              false,
-              false,
-              false,
-              true
-            ]
-          },
-          {
-            "feature": "Precio desde (USD)",
-            "values": [
-              "A definir",
-              "4.400",
-              "6.900",
-              "3.500"
-            ]
-          }
-        ],
-        "eyebrow": "Comparación detallada",
-        "tiers": [
-          {
-            "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base",
-            "ctaLabel": "Consulta",
-            "id": "base",
-            "included": [],
-            "name": "Base"
-          },
-          {
-            "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business",
-            "ctaLabel": "Consulta",
-            "id": "business",
-            "included": [],
-            "name": "Business"
-          },
-          {
-            "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
-            "ctaLabel": "Consulta",
-            "id": "investor",
-            "included": [],
-            "name": "Investor"
-          },
-          {
-            "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Consulta",
-            "id": "tierras",
-            "included": [],
-            "name": "Tierras"
-          }
-        ],
-        "title": "Qué incluye cada programa"
       },
       "programs": {
         "eyebrow": "Programas",
@@ -28111,80 +27861,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Onze programma's",
         "subheadline": "Transparante prijzen. Alles inbegrepen. Geen verrassingen."
       },
-      "matrix": {
-        "eyebrow": "Programma's",
-        "subtitle": "Kies het programma dat bij uw doel past. Altijd transparante prijs en professionele begeleiding.",
-        "tiers": [
-          {
-            "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=base",
-            "ctaLabel": "Consult aanvragen",
-            "description": "Paraguayaanse verblijfsvergunning en identiteitskaart.",
-            "id": "base",
-            "included": [
-              "Paraguayaanse verblijfsvergunning",
-              "Identiteitskaart",
-              "Documentanalyse vooraf",
-              "Operationele dag (één dag)",
-              "Logistieke begeleiding"
-            ],
-            "name": "Paraguay Base",
-            "price": "USD 2.900",
-            "priceNote": "Compleet pakket inclusief alle vergoedingen en belastingen."
-          },
-          {
-            "badge": "Meest gekozen",
-            "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=business",
-            "ctaLabel": "Consult aanvragen",
-            "description": "Verblijfsvergunning + vennootschap + bankrekening.",
-            "highlighted": true,
-            "id": "business",
-            "included": [
-              "Alles van Base",
-              "Oprichting vennootschap",
-              "RUC-registratie",
-              "Opening zakelijke bankrekening",
-              "Strategische vastgoedrondleiding",
-              "Honoraria, btw en leges inbegrepen"
-            ],
-            "name": "Paraguay Business",
-            "price": "USD 4.400+",
-            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
-          },
-          {
-            "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=investor",
-            "ctaLabel": "Consult aanvragen",
-            "description": "Alles van Business + 12 maanden begeleiding.",
-            "id": "investor",
-            "included": [
-              "Alles van Business",
-              "Boekhouding (12 maanden)",
-              "Juridisch en fiscaal advies (12 maanden)",
-              "Investeringsanalyse",
-              "Directe toegang tot het technische team"
-            ],
-            "name": "Paraguay Investor Program",
-            "price": "USD 6.900+",
-            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
-          },
-          {
-            "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Informeer",
-            "description": "Eigen dienst van Nexa. Integraal advies.",
-            "id": "tierras",
-            "included": [
-              "Profiel- en criteriadefinitie",
-              "Zoektocht en shortlist",
-              "Juridische en technische due diligence",
-              "Onderhandeling en notariële akte",
-              "Registratie in het kadaster"
-            ],
-            "name": "Grondaankoop",
-            "price": "Vanaf USD 3.500",
-            "priceNote": "Afhankelijk van zoekomvang en due diligence."
-          }
-        ],
-        "title": "Vier routes naar vestiging in Paraguay"
-      },
       "programs": {
         "eyebrow": "Programma's",
         "subtitle": "Kies het programma dat bij uw doel past. Altijd transparante prijs en professionele begeleiding.",
@@ -29803,52 +29479,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Our programs",
         "subheadline": "Transparent pricing. All inclusive."
       },
-      "matrix": {
-        "eyebrow": "Programs",
-        "subtitle": "Choose your program based on your objective.",
-        "tiers": [
-          {
-            "description": "Residency + RUT.",
-            "id": "base",
-            "included": [
-              "Residency application",
-              "RUT",
-              "Document validation",
-              "Operational visit"
-            ],
-            "name": "Uruguay Base",
-            "price": "To be defined"
-          },
-          {
-            "badge": "Most chosen",
-            "description": "Residency + company + bank account.",
-            "highlighted": true,
-            "id": "business",
-            "included": [
-              "Everything in Base",
-              "Company formation (SAS)",
-              "Bank account",
-              "Strategic tour",
-              "Fees + VAT included"
-            ],
-            "name": "Uruguay Business",
-            "price": "To be defined"
-          },
-          {
-            "description": "Business + 12 months advisory.",
-            "id": "investor",
-            "included": [
-              "Everything in Business",
-              "Accounting (12 months)",
-              "Legal and tax advisory (12 months)",
-              "Investment analysis"
-            ],
-            "name": "Uruguay Investor Program",
-            "price": "To be defined"
-          }
-        ],
-        "title": "Three paths to establish yourself in Uruguay"
-      },
       "programs": {
         "eyebrow": "Programs",
         "subtitle": "Choose your program based on your objective.",
@@ -30482,61 +30112,6 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "headline": "Nuestros programas",
         "subheadline": "Precios transparentes. Todo incluido."
-      },
-      "matrix": {
-        "eyebrow": "Programas",
-        "subtitle": "Elija el programa según su objetivo.",
-        "tiers": [
-          {
-            "ctaHref": "/s/es/nexa-uruguay/contacto?programa=base",
-            "ctaLabel": "Solicitar consulta",
-            "description": "Residencia + RUT.",
-            "id": "base",
-            "included": [
-              "Solicitud de residencia",
-              "RUT",
-              "Validación documental",
-              "Visita operativa"
-            ],
-            "name": "Uruguay Base",
-            "price": "A definir",
-            "priceNote": "Precios en definición"
-          },
-          {
-            "badge": "Más elegido",
-            "ctaHref": "/s/es/nexa-uruguay/contacto?programa=business",
-            "ctaLabel": "Solicitar consulta",
-            "description": "Residencia + sociedad + cuenta bancaria.",
-            "highlighted": true,
-            "id": "business",
-            "included": [
-              "Todo lo de Base",
-              "Constitución (SAS)",
-              "Cuenta bancaria",
-              "Tour estratégico",
-              "Honorarios + IVA incluidos"
-            ],
-            "name": "Uruguay Business",
-            "price": "A definir",
-            "priceNote": "Precios en definición"
-          },
-          {
-            "ctaHref": "/s/es/nexa-uruguay/contacto?programa=investor",
-            "ctaLabel": "Solicitar consulta",
-            "description": "Business + 12 meses de asesoría.",
-            "id": "investor",
-            "included": [
-              "Todo lo de Business",
-              "Contabilidad (12 meses)",
-              "Asesoría legal y fiscal (12 meses)",
-              "Análisis de inversiones"
-            ],
-            "name": "Uruguay Investor Program",
-            "price": "A definir",
-            "priceNote": "Precios en definición"
-          }
-        ],
-        "title": "Tres caminos para establecerse en Uruguay"
       },
       "programs": {
         "eyebrow": "Programas",

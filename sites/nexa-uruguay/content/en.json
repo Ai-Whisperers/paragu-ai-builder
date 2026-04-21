@@ -64,15 +64,40 @@
       "eyebrow": "Why choose us",
       "title": "Trusted by professionals worldwide",
       "items": [
-        { "icon": "Package", "title": "One program", "description": "Residency, company and bank account." },
-        { "icon": "Plane", "title": "One visit", "description": "All in-person steps coordinated in one trip." },
-        { "icon": "Users", "title": "One team", "description": "Lawyers, accountants, notaries, advisors." },
-        { "icon": "Shield", "title": "Transparent pricing", "description": "All-inclusive." }
+        {
+          "icon": "Package",
+          "title": "One program",
+          "description": "Residency, company and bank account."
+        },
+        {
+          "icon": "Plane",
+          "title": "One visit",
+          "description": "All in-person steps coordinated in one trip."
+        },
+        {
+          "icon": "Users",
+          "title": "One team",
+          "description": "Lawyers, accountants, notaries, advisors."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparent pricing",
+          "description": "All-inclusive."
+        }
       ],
       "credentials": [
-        { "icon": "shield", "label": "Licensed & Regulated" },
-        { "icon": "users", "label": "500+ Clients Served" },
-        { "icon": "clock", "label": "10+ Years Experience" }
+        {
+          "icon": "shield",
+          "label": "Licensed & Regulated"
+        },
+        {
+          "icon": "users",
+          "label": "500+ Clients Served"
+        },
+        {
+          "icon": "clock",
+          "label": "10+ Years Experience"
+        }
       ]
     },
     "programs": {
@@ -91,7 +116,10 @@
             "Document validation",
             "Operational visit"
           ],
-          "excluded": ["Company formation", "Bank account opening"],
+          "excluded": [
+            "Company formation",
+            "Bank account opening"
+          ],
           "ctaLabel": "Learn more",
           "ctaHref": "/s/en/nexa-uruguay/programas"
         },
@@ -109,7 +137,9 @@
             "Strategic tour",
             "Fees + VAT included"
           ],
-          "excluded": ["Ongoing accounting"],
+          "excluded": [
+            "Ongoing accounting"
+          ],
           "ctaLabel": "Learn more",
           "ctaHref": "/s/en/nexa-uruguay/programas"
         },
@@ -139,19 +169,31 @@
           "icon": "scale",
           "title": "Legal Security",
           "description": "Strong legal framework protecting property rights and investments.",
-          "bullets": ["Property rights protection", "Contract enforcement", "Dispute resolution"]
+          "bullets": [
+            "Property rights protection",
+            "Contract enforcement",
+            "Dispute resolution"
+          ]
         },
         {
           "icon": "trending-up",
           "title": "Economic Stability",
           "description": "Stable economy with moderate inflation and solid banking system.",
-          "bullets": ["Low inflation history", "Solid banking system", "Free trade zones"]
+          "bullets": [
+            "Low inflation history",
+            "Solid banking system",
+            "Free trade zones"
+          ]
         },
         {
           "icon": "heart",
           "title": "Quality of Life",
           "description": "Excellent healthcare, education, and safety standards.",
-          "bullets": ["Public healthcare", "Free education", "Low crime rates"]
+          "bullets": [
+            "Public healthcare",
+            "Free education",
+            "Low crime rates"
+          ]
         }
       ],
       "honestNote": "Uruguay is not cheap — it is stable. That tradeoff is the whole point. If you need a lower cost of living, Paraguay may be the better fit; we will tell you so."
@@ -233,52 +275,6 @@
       "subheadline": "Transparent pricing. All inclusive."
     },
     "programs": {
-      "eyebrow": "Programs",
-      "title": "Three paths to establish yourself in Uruguay",
-      "subtitle": "Choose your program based on your objective.",
-      "tiers": [
-        {
-          "id": "base",
-          "name": "Uruguay Base",
-          "description": "Residency + RUT.",
-          "price": "To be defined",
-          "included": [
-            "Residency application",
-            "RUT",
-            "Document validation",
-            "Operational visit"
-          ]
-        },
-        {
-          "id": "business",
-          "name": "Uruguay Business",
-          "description": "Residency + company + bank account.",
-          "price": "To be defined",
-          "highlighted": true,
-          "badge": "Most chosen",
-          "included": [
-            "Everything in Base",
-            "Company formation (SAS)",
-            "Bank account",
-            "Strategic tour",
-            "Fees + VAT included"
-          ]
-        },
-        {
-          "id": "investor",
-          "name": "Uruguay Investor Program",
-          "description": "Business + 12 months advisory.",
-          "price": "To be defined",
-          "included": [
-            "Everything in Business",
-            "Accounting (12 months)",
-            "Legal and tax advisory (12 months)",
-            "Investment analysis"
-          ]
-        }
-      ]
-    },
-    "matrix": {
       "eyebrow": "Programs",
       "title": "Three paths to establish yourself in Uruguay",
       "subtitle": "Choose your program based on your objective.",
