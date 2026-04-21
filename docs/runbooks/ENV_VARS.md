@@ -27,10 +27,10 @@
 
 | Var | Where to get | Status |
 |---|---|---|
-| `RESEND_API_KEY` | [resend.com/api-keys](https://resend.com/api-keys) → Create API Key → "Sending access" | ✅ provisioned |
-| `LEADS_DIGEST_FROM` | A verified domain on Resend | ✅ `paragu-ai.com` verified, sa-east-1 |
-| `LEADS_DIGEST_TO` | Comma-separated recipient(s) for daily digest | ✅ default = `weissvanderpol.ivan@gmail.com` |
-| `COMMERCE_EMAIL_FROM` | Same Resend domain, used by commerce flush cron | TODO if commerce launches |
+| `RESEND_API_KEY` | [resend.com/api-keys](https://resend.com/api-keys) → Create API Key → "Sending access" | ✅ set on VPS prod + staging (2026-04-21) |
+| `LEADS_DIGEST_FROM` | A verified domain on Resend | ✅ `leads@paragu-ai.com` (bare email — Docker swarm `--env-add` mishandles spaces/angle brackets in display-name format; Resend accepts bare emails fine) |
+| `LEADS_DIGEST_TO` | Comma-separated recipient(s) for daily digest | ✅ `weissvanderpol.ivan@gmail.com` |
+| `COMMERCE_EMAIL_FROM` | Same Resend domain, used by commerce flush cron | ✅ already set on VPS |
 
 > **Domain verification status:** `paragu-ai.com` verified 2026-04-20. If you
 > add another sender domain, follow [resend.com/domains](https://resend.com/domains)
@@ -41,16 +41,17 @@
 
 | Var | Where to get | Notes |
 |---|---|---|
-| `CRON_SECRET` | `openssl rand -hex 32` (must produce 64 chars) | header `x-cron-secret` on every `/api/cron/*` POST |
+| `CRON_SECRET` | `openssl rand -hex 32` (must produce 64 chars) | ✅ rotated 2026-04-21 to a fresh 64-char value, synced to VPS prod + staging + `web/.env.local` |
 
-> ⚠️ The value pasted in the launch questionnaire was 53 chars (truncated).
-> **Regenerate** with the command above and update all three layers.
+> The original questionnaire value was 53 chars (copy truncated). The
+> rotated value is in `web/.env.local`; the VPS containers have it via
+> `docker service update --env-add`.
 
 ### Google Analytics
 
 | Var | Where to get | Status |
 |---|---|---|
-| `NEXT_PUBLIC_GA_ID` | [analytics.google.com](https://analytics.google.com) → Admin → Data Streams → web stream → "Measurement ID" (`G-XXXXXXXXXX`) | ✅ `G-XE49GLEP34` |
+| `NEXT_PUBLIC_GA4_ID` | [analytics.google.com](https://analytics.google.com) → Admin → Data Streams → web stream → "Measurement ID" (`G-XXXXXXXXXX`) | ✅ `G-XE49GLEP34` (set on VPS 2026-04-21) — note the `_GA4_` not `_GA_`, code reads this exact name in `web/app/s/[locale]/[site]/[[...page]]/page.tsx:109` |
 
 ### Search Console
 

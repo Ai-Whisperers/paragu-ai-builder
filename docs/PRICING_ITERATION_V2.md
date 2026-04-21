@@ -63,14 +63,17 @@ These need your input before I can update site copy:
 - (ii) Site goes offline (forces a buy decision; risky for trust)
 - (iii) Downgrade to "Hasta 1 página + branding" tier permanently (free forever)
 
-▶ DECIDE:
+▶ DECIDE: - (i) Site stays up with ParaguAI ads/branding (current model — gets them to upgrade)
+
 
 ### B. How is "premium grace" actually enforced?
 - (i) Manual — you flip features on/off per-tenant in admin
 - (ii) Date-based — a `graceEndsAt` field per tenant, features check it
 - (iii) Honor system — give them everything, document the post-grace deal in their contract
 
-▶ DECIDE:
+▶ DECIDE: - (iii) Honor system — give them everything, document the post-grace deal in their contract - (ii) Date-based — a `graceEndsAt` field per tenant, features check it
+
+
 
 ### C. Communication tooling
 You want "detailed communication with clients". Options:
@@ -78,15 +81,18 @@ You want "detailed communication with clients". Options:
 - (ii) WhatsApp + monthly Calendly check-ins (need Calendly link)
 - (iii) Slack-style shared channel per client (Linear has free orgs that work as this)
 
-▶ DECIDE:
+▶ DECIDE:  - (ii) WhatsApp + monthly Calendly check-ins (need Calendly link) 
+in separate whatsapp channels in a group for each client so its easy to organize 
+
 
 ### D. Pricing for grace extension after the 4-5-7 month windows expire
 - "Hey, want another 3 months of premium for Gs X?"
-- ▶ Suggested rate per month of grace extension:
+- ▶ Suggested rate per month of grace extension: sounds good 
 
 ### E. Annual prepay discount?
 - Buy 12 months upfront → get 2 months free?
 - ▶ Y/N + discount %:
+research what deals to implement and offers and all the stages we can offer them and what best to offer based on the state of the client etc
 
 ## What I can build immediately if you green-light this v2
 
