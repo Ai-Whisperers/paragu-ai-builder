@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 83 | see closure log below |
-| 🟡 In progress | 1 | #392 (2 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 417 | the rest |
+| ✅ Closed | 84 | see closure log below |
+| 🟡 In progress | 0 | — |
+| 🔴 Open | 416 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -160,6 +160,14 @@ Closure log:
   NOTHING — any literal `Bearer foo` from anyone on the internet passed.
   Replaced with `checkAdmin()`. Also added the module-scoped Supabase
   client cache per ADR 0006. Audit count 3 → 2.
+- **#392 fully closed + #460 partial #4** — last 2 routes from the
+  original audit wrapped: `/api/reminders` (GET/POST/PATCH/DELETE — was
+  unauthenticated, now `checkAdmin`) and `/api/analytics/track` (POST stays
+  public for browser ingest; GET had the same broken `Bearer foo` pattern,
+  now `checkAdmin`). All 5 original audit routes done. Tests updated:
+  6/6 passing on analytics-track. New unwrapped route flagged in audit
+  doc as a parallel-agent addition (`generate-preview/route.ts`) for
+  follow-up.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
