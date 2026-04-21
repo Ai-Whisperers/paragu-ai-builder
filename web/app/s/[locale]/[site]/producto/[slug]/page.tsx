@@ -100,22 +100,33 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
   ])
   const aggregate = aggregates[product.id]
 
+  const productUrl = `${env.APP_URL}/s/${locale}/${site}/producto/${product.slug}`
+  // All product images, not just the cover — Google Rich Results card can
+  // pull up to 3 and prefers multiple images when present.
+  const imageList = product.images
+    .map((i) => i.url)
+    .filter((u): u is string => typeof u === 'string' && u.length > 0)
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
     description: product.description ?? undefined,
-    image: cover?.url,
+    image: imageList.length > 0 ? imageList : cover?.url,
     sku: product.sku ?? undefined,
+    mpn: product.sku ?? undefined,
+    url: productUrl,
     brand: product.brand ? { '@type': 'Brand', name: product.brand } : undefined,
     offers: {
       '@type': 'Offer',
+      url: productUrl,
       price: (product.priceCents / 100).toFixed(2),
       priceCurrency: product.currency,
+      itemCondition: 'https://schema.org/NewCondition',
       availability:
         product.inventoryPolicy === 'deny' && product.inventoryQty === 0
           ? 'https://schema.org/OutOfStock'
           : 'https://schema.org/InStock',
+      seller: { '@type': 'Organization', name: business.name },
     },
     aggregateRating: aggregate && aggregate.count > 0
       ? {
