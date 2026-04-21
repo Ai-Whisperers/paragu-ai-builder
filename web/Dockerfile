@@ -43,6 +43,11 @@ COPY --from=deps /app/node_modules ./web/node_modules
 COPY web ./web
 COPY src ./src
 COPY sites ./sites
+# CHANGELOG.md is read at build time by web/app/changelog/page.tsx (via
+# process.cwd() + '..'). Without this file the static-generation step
+# throws ENOENT and the build fails. Keep this copy until the changelog
+# page is refactored to embed content at generate-tenant-data time.
+COPY CHANGELOG.md ./CHANGELOG.md
 
 # Build inside web/
 WORKDIR /app/web
