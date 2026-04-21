@@ -13,6 +13,7 @@ import {
   removeFromWishlist,
 } from '@/lib/stores/wishlist'
 import { QuickViewModal } from './quick-view-modal'
+import { ReviewStars } from './review-stars'
 
 interface Props {
   siteSlug: string
@@ -20,6 +21,8 @@ interface Props {
   priority?: boolean
   rates?: Record<string, number>
   locale?: string
+  /** Optional review aggregate for rendering stars on the card. */
+  reviewAggregate?: { avg: number; count: number }
 }
 
 const WISHLIST_EVENT = 'paragu:wishlist-change'
@@ -37,7 +40,7 @@ function getServerWishlistSnapshot(): boolean {
   return false
 }
 
-export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' }: Props) {
+export function ProductCard({ siteSlug, product, priority, rates, locale = 'es', reviewAggregate }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
   const [quickViewOpen, setQuickViewOpen] = useState(false)
@@ -172,6 +175,11 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
 
       <div className="mt-3 flex flex-1 flex-col">
         <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">{product.name}</h3>
+        {reviewAggregate && reviewAggregate.count > 0 ? (
+          <div className="mt-1">
+            <ReviewStars rating={reviewAggregate.avg} count={reviewAggregate.count} size="sm" />
+          </div>
+        ) : null}
         <div className="mt-1 flex items-baseline gap-2">
           {rates && product.currency === 'PYG' ? (
             <PriceDisplay className="text-base font-semibold text-[color:var(--text,#111)]" pygCents={product.priceCents} rates={rates} />

@@ -16,6 +16,13 @@ import { BackInStockSignup } from '@/components/commerce/back-in-stock-signup'
 import { RecordRecentVisit } from '@/components/commerce/record-recent-visit'
 import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { PriceDisplay } from '@/components/commerce/price-display'
+import { ReviewList } from '@/components/commerce/review-list'
+import { ReviewForm } from '@/components/commerce/review-form'
+import { ReviewStars } from '@/components/commerce/review-stars'
+import {
+  listApprovedReviews,
+  getReviewAggregatesByBusiness,
+} from '@/lib/commerce/reviews'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 import { env } from '@/lib/env'
 
@@ -49,10 +56,13 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
   if (!product || product.status !== 'active') notFound()
 
   const cover = product.images.find((i) => i.isCover) ?? product.images[0]
-  const [rates, related] = await Promise.all([
+  const [rates, related, reviews, aggregates] = await Promise.all([
     loadPygRates(),
     listRelatedProducts(business.id, { excludeId: product.id, category: product.category, limit: 4 }),
+    listApprovedReviews(business.id, product.id, { limit: 50 }),
+    getReviewAggregatesByBusiness(business.id),
   ])
+  const aggregate = aggregates[product.id]
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -107,6 +117,14 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
 
         <div>
           <h1 className="text-3xl font-bold text-[color:var(--text,#111)]">{product.name}</h1>
+          {aggregate ? (
+            <div className="mt-1">
+              <a href="#reviews-heading" className="inline-flex items-center gap-2 text-sm hover:underline">
+                <ReviewStars rating={aggregate.avg} count={aggregate.count} size="md" />
+                <span className="text-[color:var(--text-muted,#6b7280)]">Leer reseñas</span>
+              </a>
+            </div>
+          ) : null}
           {product.currency === 'PYG' ? (
             <PriceDisplay className="mt-2 block text-2xl font-semibold" pygCents={product.priceCents} rates={rates} />
           ) : (
@@ -175,6 +193,15 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
       />
 
       <RecentlyViewedRail siteSlug={site} locale={locale} excludeId={product.id} />
+
+      <div className="mx-auto max-w-5xl px-4 pb-6">
+        <ReviewList
+          reviews={reviews}
+          averageRating={aggregate?.avg}
+          totalCount={aggregate?.count}
+        />
+        <ReviewForm siteSlug={site} productId={product.id} />
+      </div>
 
       {related.length > 0 ? (
         <section aria-labelledby="related-heading" className="mx-auto max-w-5xl px-4 pb-12">
