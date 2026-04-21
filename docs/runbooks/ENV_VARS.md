@@ -76,6 +76,14 @@ If you change `LOG_FORMAT=pretty` on the VPS for one-off debugging, remember
 that `docker service logs` will keep showing colorized output until you set
 it back. The diagnostics route at `/api/diagnostics` reflects current values.
 
+### WhatsApp Business API webhook
+
+| Var | Where to get | Notes |
+|---|---|---|
+| `WHATSAPP_VERIFY_TOKEN` | You choose any string when configuring the webhook in Meta's Business Manager | Used by GET `/api/whatsapp-webhook` for the initial verify-token challenge. |
+| `WHATSAPP_APP_SECRET` | Meta App Dashboard → App settings → Basic → "App secret" | Used by POST `/api/whatsapp-webhook` to verify Meta's `x-hub-signature-256` HMAC. **Without this set, every POST is 401-rejected** (fail-closed). |
+| `WHATSAPP_PHONE_SITE_MAP` | Self-managed JSON, e.g. `{"5959810000":"nexa-paraguay"}` | Maps Meta `phone_number_id` to a tenant slug for inbound lead routing. |
+
 ### Mailchimp (deferred per Q8.2)
 
 Skip until the newsletter flow becomes a priority. When you wire it:

@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 89 | see closure log below |
+| ✅ Closed | 90 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 411 | the rest |
+| 🔴 Open | 410 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -207,6 +207,13 @@ Closure log:
   from the footer "Recursos" group. Doubles as live proof of engineering
   velocity for prospects. Added a comprehensive 2026-04-21 entry to the
   CHANGELOG covering all the wave's security + observability work.
+- **#476 (whatsapp half) + auth fix** — `/api/whatsapp-webhook` POST was
+  accepting any payload — anyone on the internet could inject fake
+  inbound messages into the leads table. Added Meta `x-hub-signature-256`
+  HMAC verification using `WHATSAPP_APP_SECRET` (fail-closed when unset).
+  6 tests cover the GET verify-challenge flow + POST signed-inbound + 3
+  failure modes. ENV_VARS.md updated. MP webhook half of #476 not needed
+  per ADR 0004 (MP removed in favor of Pagopar).
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
