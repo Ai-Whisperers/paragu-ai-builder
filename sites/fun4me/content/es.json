@@ -1554,5 +1554,15 @@
       "sunday": "Domingo: Cerrado",
       "holidays": "Feriados: Cerrado (consultar por WhatsApp para urgencias)"
     }
+  },
+  "compliance": {
+    "paragraphs": [
+      "fun4me es un comercio de venta de productos para adultos. El acceso al sitio está restringido a personas mayores de 18 años. Al ingresar, confirmás que sos mayor de edad bajo las leyes de la República del Paraguay.",
+      "Las imágenes y descripciones de productos son de carácter comercial. Los productos se comercializan conforme a la Ley de Defensa del Consumidor Nº 1334/98 y demás normativa aplicable.",
+      "Los envíos se realizan en empaque neutro sin referencias al contenido. fun4me no comparte datos personales con terceros salvo lo estrictamente necesario para procesar el pedido (empresa de envíos, procesador de pagos)."
+    ],
+    "licenseNumbers": [],
+    "linkText": "Leer política de privacidad completa",
+    "linkHref": "/s/es/fun4me/legal"
   }
 }

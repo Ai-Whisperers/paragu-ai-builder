@@ -9228,6 +9228,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
+        "variant": "standard"
+      },
+      {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
@@ -9262,6 +9267,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -9309,6 +9319,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -9386,6 +9401,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -9488,6 +9508,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
+        "variant": "standard"
+      },
+      {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
@@ -9522,6 +9547,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -9569,6 +9599,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -9624,6 +9659,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
+        "variant": "standard"
+      },
+      {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
@@ -9668,6 +9708,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -9730,6 +9775,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "footer",
         "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
         "variant": "standard"
       },
       {
@@ -17484,6 +17534,16 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Kits armados para ahorrar. Primera vez, parejas, aniversario, BDSM, solitario. Cada kit ahorra vs comprar por separado.",
         "title": "Kits Curados Fun4Me | Combinaciones con ahorro"
       }
+    },
+    "compliance": {
+      "licenseNumbers": [],
+      "linkHref": "/s/es/fun4me/legal",
+      "linkText": "Leer política de privacidad completa",
+      "paragraphs": [
+        "fun4me es un comercio de venta de productos para adultos. El acceso al sitio está restringido a personas mayores de 18 años. Al ingresar, confirmás que sos mayor de edad bajo las leyes de la República del Paraguay.",
+        "Las imágenes y descripciones de productos son de carácter comercial. Los productos se comercializan conforme a la Ley de Defensa del Consumidor Nº 1334/98 y demás normativa aplicable.",
+        "Los envíos se realizan en empaque neutro sin referencias al contenido. fun4me no comparte datos personales con terceros salvo lo estrictamente necesario para procesar el pedido (empresa de envíos, procesador de pagos)."
+      ]
     },
     "contacto": {
       "faq": {
