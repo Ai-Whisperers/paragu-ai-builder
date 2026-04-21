@@ -23,6 +23,7 @@
     "generate:tenant-data": "tsx scripts/generate-tenant-data.ts",
     "export:email-nurture": "tsx scripts/export-email-nurture.ts",
     "convert:tenant-images": "tsx scripts/convert-tenant-images.ts",
+    "validate:tenant-images": "tsx scripts/validate-tenant-images.ts",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
