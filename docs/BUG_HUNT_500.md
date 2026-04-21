@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 87 | see closure log below |
+| ✅ Closed | 91 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 413 | the rest |
+| 🔴 Open | 409 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -196,6 +196,32 @@ Closure log:
   needs the wrapper). Locks #392 so it can't regress when someone adds a
   new route. Pairs with the auth coverage test as a "you cannot ship a
   broken route" social contract.
+- **#436** — `/api/cron/health` route reports per-cron env readiness.
+  Returns 503 + the missing-env list if any required env var is unset for
+  any of the 5 cron routes. CRON_SECRET-protected, GET aliases POST. 4
+  tests passing. Wired into CRON_STRATEGY.md as an hourly check. Wire
+  this URL into your monitor of choice (Better Uptime, UptimeRobot, etc.)
+  to get alerted before a cron silently no-ops on missing env.
+- **#499** — `/changelog` public page renders `CHANGELOG.md` with a small
+  in-file markdown→HTML converter (no new deps). SEO-indexable, linked
+  from the footer "Recursos" group. Doubles as live proof of engineering
+  velocity for prospects. Added a comprehensive 2026-04-21 entry to the
+  CHANGELOG covering all the wave's security + observability work.
+- **#476 (whatsapp half) + auth fix** — `/api/whatsapp-webhook` POST was
+  accepting any payload — anyone on the internet could inject fake
+  inbound messages into the leads table. Added Meta `x-hub-signature-256`
+  HMAC verification using `WHATSAPP_APP_SECRET` (fail-closed when unset).
+  6 tests cover the GET verify-challenge flow + POST signed-inbound + 3
+  failure modes. ENV_VARS.md updated. MP webhook half of #476 not needed
+  per ADR 0004 (MP removed in favor of Pagopar).
+- **#476 (calendly half) + auth fix** — `/api/calendly-webhook` had a
+  TODO for signature verification — only checked the header EXISTS in
+  production, didn't verify it. Anyone could inject fake bookings.
+  Added Calendly `calendly-webhook-signature` HMAC verification using
+  `CALENDLY_SIGNING_KEY` (format `t=<unix>,v1=<hex>`), 5-minute
+  replay-protection window, fail-closed when unset. 7 tests cover
+  signature verification, replay rejection, and event handling.
+  ENV_VARS.md updated.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).

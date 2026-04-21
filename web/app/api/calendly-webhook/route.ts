@@ -4,16 +4,56 @@
  * is logged (future: mark the lead row cancelled once we persist the
  * calendly event_uri on the lead).
  *
- * Signature verification: when env.CALENDLY_SIGNING_KEY is set we require
- * the `calendly-webhook-signature` header. In production with no header set,
- * requests are rejected as a safety net.
+ * Signature verification: Calendly signs each webhook with HMAC-SHA256.
+ * The `calendly-webhook-signature` header has the format
+ * `t=<unix-timestamp>,v1=<hex-hmac>`. Signed payload is
+ * `${timestamp}.${rawBody}`. Without `CALENDLY_SIGNING_KEY` configured
+ * the route fail-closes (401) — previously the route accepted any
+ * payload with any header value (TODO had been left open).
  */
 
 import { NextResponse } from 'next/server'
+import { createHmac, timingSafeEqual } from 'crypto'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { createClient } from '@/lib/supabase/server'
 
 export const runtime = 'nodejs'
+
+/**
+ * Verify Calendly's `calendly-webhook-signature` header.
+ * Header format: `t=<unix-timestamp>,v1=<hex-hmac>`.
+ * Returns true on a valid v1 signature within the freshness window.
+ */
+function verifyCalendlySignature(
+  rawBody: string,
+  header: string | null,
+  secret: string,
+  freshnessSeconds = 300,
+): boolean {
+  if (!header) return false
+  const parts = header.split(',').reduce<Record<string, string>>((acc, kv) => {
+    const [k, v] = kv.split('=')
+    if (k && v) acc[k.trim()] = v.trim()
+    return acc
+  }, {})
+  const t = parts.t
+  const v1 = parts.v1
+  if (!t || !v1) return false
+
+  // Reject replays older than the freshness window.
+  const ts = Number(t)
+  if (!Number.isFinite(ts)) return false
+  const ageSec = Math.abs(Date.now() / 1000 - ts)
+  if (ageSec > freshnessSeconds) return false
+
+  const expected = createHmac('sha256', secret).update(`${t}.${rawBody}`).digest('hex')
+  if (v1.length !== expected.length) return false
+  try {
+    return timingSafeEqual(Buffer.from(v1, 'hex'), Buffer.from(expected, 'hex'))
+  } catch {
+    return false
+  }
+}
 
 interface CalendlyEvent {
   event?: string
@@ -34,13 +74,26 @@ interface CalendlyEvent {
 }
 
 export const POST = withRequestLog(async (req, { log }) => {
-  const signature = req.headers.get('calendly-webhook-signature')
-  if (!signature && process.env.NODE_ENV === 'production') {
-    return NextResponse.json({ error: 'missing_signature' }, { status: 401 })
+  const secret = process.env.CALENDLY_SIGNING_KEY
+  if (!secret) {
+    log.warn('calendly.webhook.not_configured')
+    return NextResponse.json({ error: 'webhook_not_configured' }, { status: 401 })
   }
-  // TODO(calendly): verify signature against env.CALENDLY_SIGNING_KEY once issued.
 
-  const body = (await req.json().catch(() => ({}))) as CalendlyEvent
+  const rawBody = await req.text()
+  const valid = verifyCalendlySignature(rawBody, req.headers.get('calendly-webhook-signature'), secret)
+  if (!valid) {
+    log.warn('calendly.webhook.signature_invalid')
+    return NextResponse.json({ error: 'invalid_signature' }, { status: 401 })
+  }
+
+  let body: CalendlyEvent
+  try {
+    body = JSON.parse(rawBody) as CalendlyEvent
+  } catch (err) {
+    log.warn('calendly.webhook.bad_json', { error: err instanceof Error ? err.message : String(err) })
+    return NextResponse.json({ error: 'bad_json' }, { status: 400 })
+  }
   const kind = body.event
   const invitee = body.payload?.invitee
   log.info('calendly webhook received', {

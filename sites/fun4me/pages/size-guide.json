@@ -3,13 +3,12 @@
   "titleKey": "sizeGuide.seo.title",
   "descriptionKey": "sizeGuide.seo.description",
   "sections": [
-    { "id": "age-gate", "variant": "modal", "content": "ageGate" },
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "sizeguide-hero", "variant": "minimal", "content": "sizeGuide.hero" },
-    { "id": "sizeguide-instructions", "variant": "steps", "content": "sizeGuide.instructions" },
-    { "id": "sizeguide-tables", "variant": "tabs-with-tables", "content": "sizeGuide.charts" },
-    { "id": "sizeguide-brand-notes", "variant": "accordion", "content": "sizeGuide.brandNotes" },
-    { "id": "sizeguide-return-policy", "variant": "callout", "content": "sizeGuide.returnPolicy" },
+    { "id": "hero", "variant": "minimal", "content": "sizeGuide.hero" },
+    { "id": "services", "variant": "cards", "content": "sizeGuide.instructions" },
+    { "id": "services", "variant": "cards", "content": "sizeGuide.charts" },
+    { "id": "faq", "variant": "accordion", "content": "sizeGuide.brandNotes" },
+    { "id": "cta-banner", "variant": "solid", "content": "sizeGuide.returnPolicy" },
     { "id": "footer", "variant": "standard", "content": "footer" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]

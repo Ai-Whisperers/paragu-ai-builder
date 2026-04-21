@@ -259,5 +259,316 @@
     "number": "595976569739",
     "message": "Hola! Quiero consultar sobre un producto.",
     "label": "Chat con Fun4Me"
+  },
+  "store": {
+    "seo": {
+      "title": "Tienda Fun4Me | Catalogo online con envio discreto",
+      "description": "Explora todo el catalogo de Fun4Me. Vibradores, lenceria, lubricantes, BDSM y mas. Envio 100% discreto a todo Paraguay."
+    },
+    "hero": {
+      "headline": "Tu Placer, Nuestra Prioridad",
+      "subheadline": "Encuentra productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
+    },
+    "bundlesPreview": {
+      "title": "Kits Curados",
+      "subtitle": "Combinaciones pensadas para ahorrar y empezar bien.",
+      "items": [
+        { "name": "Para la Primera Vez", "price": "Gs. 449.000", "description": "Kit completo de iniciacion con guia digital." },
+        { "name": "Kit Parejas Clasico", "price": "Gs. 979.000", "description": "Productos pensados para explorar en pareja." },
+        { "name": "Kit Aniversario", "price": "Gs. 1.079.000", "description": "Regalo premium con envoltorio gratis." }
+      ]
+    },
+    "trust": {
+      "title": "Por que comprar acá",
+      "items": [
+        { "icon": "shield", "title": "Pago seguro", "text": "Procesado por Pagopar con estandar PCI-DSS." },
+        { "icon": "package", "title": "Empaque discreto", "text": "Sin logos, sin referencias, sin curiosos." },
+        { "icon": "truck", "title": "Envio rapido", "text": "24-48hs Asuncion, 3-5 dias interior." },
+        { "icon": "heart", "title": "Atencion sin juicios", "text": "Equipo capacitado para asesorarte." }
+      ]
+    }
+  },
+  "bundles": {
+    "seo": {
+      "title": "Kits Curados Fun4Me | Combinaciones con ahorro",
+      "description": "Kits armados para ahorrar. Primera vez, parejas, aniversario, BDSM, solitario. Cada kit ahorra vs comprar por separado."
+    },
+    "hero": {
+      "headline": "Kits Curados",
+      "subheadline": "Combinaciones pensadas. Ahorras vs comprar por separado."
+    },
+    "items": {
+      "title": "Nuestros Kits",
+      "subtitle": "Elegi el que mejor se adapta a lo que buscas.",
+      "items": [
+        { "name": "Para la Primera Vez", "price": "Gs. 449.000", "description": "Vibrador Satisfyer Pro 2 + lubricante agua + limpiador + guia. Ahorro de Gs. 54.000." },
+        { "name": "Kit Parejas Clasico", "price": "Gs. 979.000", "description": "We-Vibe Chorus + lubricante + aceite masaje + antifaz. Ahorro Gs. 116.000." },
+        { "name": "Kit Aniversario", "price": "Gs. 1.079.000", "description": "LELO Sona 2 + lubricante silicona + vela masaje + lenceria + tarjeta regalo. Ahorro Gs. 121.000." },
+        { "name": "Kit Descubrimiento Solo", "price": "Gs. 529.000", "description": "Satisfyer Curvy 3 + bullet + lubricante + limpiador + bolsa discreta. Ahorro Gs. 79.000." },
+        { "name": "Kit BDSM Iniciacion", "price": "Gs. 199.000", "description": "Esposas velcro + antifaz + pluma + paleta suave + guia consenso. Ahorro Gs. 41.000." }
+      ]
+    },
+    "benefits": {
+      "title": "Por que elegir un kit",
+      "items": [
+        { "icon": "savings", "title": "Ahorras plata", "text": "Descuento de 10-15% vs comprar por separado." },
+        { "icon": "check", "title": "Combinaciones pensadas", "text": "Productos que funcionan juntos, elegidos por nuestro equipo." },
+        { "icon": "book", "title": "Guias incluidas", "text": "PDFs con instrucciones de uso, seguridad y recomendaciones." },
+        { "icon": "gift", "title": "Listos para regalar", "text": "Envoltorio discreto disponible. Tarjeta regalo opcional." }
+      ]
+    }
+  },
+  "giftCards": {
+    "seo": {
+      "title": "Gift Cards Fun4Me | El regalo perfecto, discreto",
+      "description": "Regala placer con gift cards Fun4Me. 6 denominaciones, entrega por email/WhatsApp/fisica. 100% discreto."
+    },
+    "hero": {
+      "headline": "Regala Placer",
+      "subheadline": "El regalo perfecto cuando no sabes que elegir. Sin talles, sin preferencias, sin errores."
+    },
+    "denominations": {
+      "title": "Elegi el monto",
+      "items": [
+        { "name": "Gs. 100.000", "price": "Gs. 100.000", "description": "Para probar algo pequeño." },
+        { "name": "Gs. 150.000", "price": "Gs. 150.000", "description": "La opcion mas popular." },
+        { "name": "Gs. 200.000", "price": "Gs. 200.000", "description": "Incluye envio gratis." },
+        { "name": "Gs. 300.000", "price": "Gs. 300.000", "description": "Para un regalo generoso." },
+        { "name": "Gs. 500.000", "price": "Gs. 500.000", "description": "Experiencia completa." },
+        { "name": "Gs. 1.000.000", "price": "Gs. 1.000.000", "description": "Carta blanca total." }
+      ]
+    },
+    "howItWorks": {
+      "title": "Como funciona",
+      "items": [
+        { "name": "1. Elegis el monto", "description": "Denominaciones preestablecidas o monto personalizado." },
+        { "name": "2. Seleccionas entrega", "description": "Email, reenvio por WhatsApp o tarjeta fisica." },
+        { "name": "3. Personalizas el mensaje", "description": "Mensaje opcional discreto (hasta 250 caracteres)." },
+        { "name": "4. Compras", "description": "Pagas online. Recibis/enviamos inmediatamente segun el metodo elegido." }
+      ]
+    },
+    "designs": {
+      "title": "Estilos de tarjeta",
+      "items": [
+        { "name": "Clasica", "image": "/branding/fun4me/images/gift-cards/classic.svg" },
+        { "name": "Cumpleaños", "image": "/branding/fun4me/images/gift-cards/birthday.svg" },
+        { "name": "Aniversario", "image": "/branding/fun4me/images/gift-cards/anniversary.svg" },
+        { "name": "San Valentin", "image": "/branding/fun4me/images/gift-cards/valentines.svg" },
+        { "name": "Minimalista", "image": "/branding/fun4me/images/gift-cards/minimal.svg" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre Gift Cards",
+      "items": [
+        { "q": "Expiran las gift cards?", "a": "Si, a los 24 meses desde la emision." },
+        { "q": "Puedo usar solo una parte del monto?", "a": "Si, podes usar parte del saldo y el resto queda disponible hasta la expiracion." },
+        { "q": "Se pueden combinar con cupones?", "a": "Si, son combinables con promociones." },
+        { "q": "Si pierdo el codigo, me lo reemplazan?", "a": "Si no fue canjeado, si. Con comprobante de compra." },
+        { "q": "Puedo transferir mi gift card?", "a": "Si, el codigo puede compartirse. Se acepta del primer comprador registrado." }
+      ]
+    },
+    "cta": {
+      "title": "Regala sin dudas",
+      "subtitle": "Gift cards listas en 60 segundos. Entrega inmediata por email o WhatsApp.",
+      "buttonText": "Comprar Gift Card",
+      "buttonHref": "/fun4me/gift-cards#buy"
+    }
+  },
+  "loyalty": {
+    "seo": {
+      "title": "Placer Plus | Programa de puntos Fun4Me",
+      "description": "Sumas puntos con cada compra. 3 niveles (Plata, Oro, Platino) con beneficios crecientes. Sin costo."
+    },
+    "hero": {
+      "headline": "Placer Plus",
+      "subheadline": "Mas comprás, mas beneficios. Sin suscripcion. Sin trampas."
+    },
+    "howItWorks": {
+      "title": "Como funciona",
+      "items": [
+        { "name": "Comprás", "description": "Ganas 1 punto por cada Gs. 1.000 gastados (base Plata)." },
+        { "name": "Acumulas", "description": "Los puntos suman automaticamente al estar registrado." },
+        { "name": "Subis de nivel", "description": "Oro a Gs. 1.5M anual. Platino a Gs. 5M anual. Mas nivel = mas beneficios." },
+        { "name": "Canjeas", "description": "100 puntos = Gs. 1.000 de descuento. O canjeas productos gratis." }
+      ]
+    },
+    "tiers": {
+      "title": "Los 3 niveles",
+      "items": [
+        { "name": "Plata", "price": "Gratis desde el primer dia", "description": "10% descuento cumpleaños. 1 pt por Gs. 1.000." },
+        { "name": "Oro", "price": "Desde Gs. 1.500.000 anuales", "description": "15% cumpleaños. 1.5x puntos. Envio gratis desde Gs. 100k. Acceso anticipado 48hs." },
+        { "name": "Platino", "price": "Desde Gs. 5.000.000 anuales", "description": "20% cumpleaños + sorpresa. 2x puntos. Envio express siempre gratis. Atencion VIP. Consulta trimestral." }
+      ]
+    },
+    "earningRules": {
+      "title": "Como ganar puntos",
+      "items": [
+        { "name": "Compras", "description": "1 pt por cada Gs. 1.000 (base). Multiplicador segun nivel." },
+        { "name": "Registro inicial", "description": "+100 pts al completar perfil." },
+        { "name": "Primera compra", "description": "+200 pts extra." },
+        { "name": "Invitar un amigo que compre", "description": "+500 pts por referido exitoso." },
+        { "name": "Review verificada", "description": "+50 pts por resena aprobada." },
+        { "name": "Cumpleaños", "description": "+500 pts anuales." },
+        { "name": "Newsletter", "description": "+50 pts al suscribirte." }
+      ]
+    },
+    "redemptionOptions": {
+      "title": "Como canjear",
+      "items": [
+        { "name": "Gs. 1.000 de descuento", "price": "100 pts", "description": "Canje basico." },
+        { "name": "Gs. 5.500 de descuento", "price": "500 pts", "description": "Con bonus 10%." },
+        { "name": "Lubricante 100ml gratis", "price": "1.000 pts", "description": "Producto completo." },
+        { "name": "Envio express gratis", "price": "2.500 pts", "description": "Valido 60 dias." },
+        { "name": "Gs. 55.000 descuento", "price": "5.000 pts", "description": "Con bonus 10%." },
+        { "name": "Producto sorpresa Gs. 130.000+", "price": "10.000 pts", "description": "Seleccion de la casa." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre Placer Plus",
+      "items": [
+        { "q": "Expiran los puntos?", "a": "Si, a los 18 meses desde que se ganaron." },
+        { "q": "Puedo bajar de nivel?", "a": "Solo al momento de la revision anual si las compras anuales bajan. Una vez que llegas a un nivel, queda asegurado por ese año." },
+        { "q": "Cuando se revisa el nivel?", "a": "Cada año, con base en los 12 meses anteriores." },
+        { "q": "Que pasa si devuelvo un producto?", "a": "Los puntos ganados por esa compra se restan automaticamente." },
+        { "q": "Puedo combinar puntos con cupones?", "a": "Si, pero no con descuentos de nivel en la misma orden." }
+      ]
+    },
+    "cta": {
+      "title": "Todavia no estas en Placer Plus?",
+      "subtitle": "Es gratis. Te damos 100 pts por registrarte y 200 pts adicionales en tu primera compra.",
+      "buttonText": "Crear cuenta",
+      "buttonHref": "/fun4me/account/signup"
+    }
+  },
+  "subscriptions": {
+    "seo": {
+      "title": "Cajas Sorpresa Fun4Me | Suscripcion mensual",
+      "description": "Caja mensual con productos curados. 3 niveles: Discovery (Gs. 149k), Premium (Gs. 299k), VIP (Gs. 599k). Cancelas cuando querés."
+    },
+    "hero": {
+      "headline": "Caja Sorpresa Mensual",
+      "subheadline": "Sorpresa y curaduria todos los meses. Cancelas cuando quieras."
+    },
+    "boxes": {
+      "title": "Elegi tu nivel",
+      "subtitle": "Todas las cajas llegan en empaque discreto. Cancelas cuando quieras, sin penalidad.",
+      "items": [
+        { "name": "Discovery — Gs. 149.000/mes", "price": "Gs. 1.590.000/año (ahorra 198k)", "description": "3-4 productos mensuales. Valor de mercado Gs. 200-280k. Para explorar sin compromiso." },
+        { "name": "Premium — Gs. 299.000/mes", "price": "Gs. 3.190.000/año (ahorra 398k)", "description": "Producto premium + 2-3 complementos + cupon 15% off. Marcas reconocidas (Satisfyer, We-Vibe, LELO). Valor Gs. 450-550k." },
+        { "name": "VIP — Gs. 599.000/mes", "price": "Gs. 6.490.000/año (ahorra 698k)", "description": "Producto flagship + complementos premium + consulta pre-caja 30min + cupon 25% + envio express. Valor Gs. 900k+. Solo 20 cupos/mes." }
+      ]
+    },
+    "howItWorks": {
+      "title": "Como funciona",
+      "items": [
+        { "name": "1. Elegis tu nivel", "description": "Discovery, Premium o VIP. Cancelas cuando quieras." },
+        { "name": "2. Personalizas preferencias", "description": "Que categorias preferís, que evitar, talle si aplica." },
+        { "name": "3. Enviamos el 10 de cada mes", "description": "Empaque discreto. Seguimiento por WhatsApp." },
+        { "name": "4. Pausas o cancelas con un click", "description": "Sin letra chica. Desde tu cuenta, en cualquier momento." }
+      ]
+    },
+    "testimonials": {
+      "title": "Que dicen las suscriptoras",
+      "items": [
+        { "author": "Carla B.", "location": "Asuncion", "rating": 5, "text": "Llevo 6 meses con Premium. Cada caja es una sorpresa y siempre acertada. No me arrepiento.", "verified": true },
+        { "author": "Luis P.", "location": "Ciudad del Este", "rating": 5, "text": "VIP vale la pena si sos fan de la calidad. La consulta previa hace toda la diferencia.", "verified": true },
+        { "author": "Florencia R.", "location": "Lambare", "rating": 5, "text": "Discovery es perfecta para empezar. No gastas mucho y descubris lo que te gusta.", "verified": true }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "Cuando llega la caja?", "a": "El 10 de cada mes. Si te suscribes despues del 25, arrancas el mes siguiente." },
+        { "q": "Puedo cambiar de nivel?", "a": "Si, en cualquier momento desde tu cuenta. El cambio se refleja en el proximo ciclo." },
+        { "q": "Puedo pausar?", "a": "Si, hasta 3 meses. Se reactiva automaticamente." },
+        { "q": "Como cancelo?", "a": "Un click en tu cuenta. Sin penalidad. La caja del mes actual se envia igual." },
+        { "q": "Que pasa si no me gusta algo?", "a": "Podes cambiar las preferencias para el proximo mes. Un producto defectuoso se reemplaza sin costo." }
+      ]
+    },
+    "cta": {
+      "title": "Arranca hoy",
+      "subtitle": "Primer envio en menos de 30 dias. Cancelas cuando quieras.",
+      "buttonText": "Suscribirme",
+      "buttonHref": "/fun4me/suscripciones#elegir-nivel"
+    }
+  },
+  "sizeGuide": {
+    "seo": {
+      "title": "Guia de talles Fun4Me | Lenceria, arneses, anillos",
+      "description": "Como elegir tu talle de lenceria sin probarlo. Tablas en cm, consejos por marca, politica de cambios."
+    },
+    "hero": {
+      "headline": "Guia de Talles",
+      "subheadline": "Medite bien una vez y acertas siempre. Tablas en cm."
+    },
+    "instructions": {
+      "title": "Como medirte",
+      "items": [
+        { "name": "1. Contorno bajo busto", "description": "Justo debajo del busto, donde apoya la banda del sosten. Paralela al piso." },
+        { "name": "2. Contorno de busto", "description": "La parte mas llena, con sosten sin relleno. Paralela al piso." },
+        { "name": "3. Cintura", "description": "La parte mas angosta, entre costillas y ombligo." },
+        { "name": "4. Cadera", "description": "La parte mas ancha, con pies juntos." }
+      ]
+    },
+    "charts": {
+      "title": "Tablas de talles",
+      "items": [
+        { "name": "XS", "description": "Busto 78-82cm, bajo busto 64-68cm, cintura 60-64cm, cadera 82-86cm." },
+        { "name": "S", "description": "Busto 83-87cm, bajo busto 69-73cm, cintura 65-69cm, cadera 87-91cm." },
+        { "name": "M", "description": "Busto 88-92cm, bajo busto 74-78cm, cintura 70-74cm, cadera 92-96cm." },
+        { "name": "L", "description": "Busto 93-97cm, bajo busto 79-83cm, cintura 75-79cm, cadera 97-101cm." },
+        { "name": "XL", "description": "Busto 98-102cm, bajo busto 84-88cm, cintura 80-84cm, cadera 102-106cm." },
+        { "name": "XXL", "description": "Busto 103-107cm, bajo busto 89-93cm, cintura 85-89cm, cadera 107-111cm." }
+      ]
+    },
+    "brandNotes": {
+      "title": "Notas por marca",
+      "items": [
+        { "q": "Marcas PY genericas", "a": "Tallan chico. Elegi un talle arriba de lo que indicas en tus medidas." },
+        { "q": "Marcas importadas premium", "a": "Tallan segun europeo (mas ceñido). Misma logica o un talle arriba si estas entre dos." },
+        { "q": "Lenceria erotica (Leg Avenue, Dreamgirl)", "a": "Tallan grande. Elegi el talle exacto de tus medidas." },
+        { "q": "Plus size / curvy", "a": "Empieza en XL (= L/M de marcas regulares). Verifica la tabla especifica del producto." },
+        { "q": "One size", "a": "Generalmente ajusta S-L, no mas. Si sos XL o mas, no elijas one size." },
+        { "q": "Corsets", "a": "Restan 5cm a tu cintura natural. El corset esta disenado para ceñir." }
+      ]
+    },
+    "returnPolicy": {
+      "title": "Politica de cambios por talle",
+      "subtitle": "Lenceria sin usar con etiquetas: 7 dias. Bombachas/tangas abiertas: no por higiene.",
+      "buttonText": "Ver politica completa",
+      "buttonHref": "/fun4me/legal/returns"
+    }
+  },
+  "storeReserve": {
+    "seo": {
+      "title": "Reserva y retira en tienda | Fun4Me Herrera 875",
+      "description": "Pagas online, venis a buscar. Cero interaccion publica. En Herrera 875, Asuncion."
+    },
+    "hero": {
+      "headline": "Reserva y Retira",
+      "subheadline": "Pagas online, venis a buscar con el codigo. Cero espera, cero interaccion publica."
+    },
+    "howItWorks": {
+      "title": "4 pasos simples",
+      "items": [
+        { "name": "1. Elegis productos online", "description": "Armás tu carrito como cualquier compra online." },
+        { "name": "2. Seleccionas 'Retiro en tienda'", "description": "En el checkout. Pagas con cualquier metodo." },
+        { "name": "3. Te avisamos cuando esta listo", "description": "Por WhatsApp. Generalmente en 2-4 horas habiles." },
+        { "name": "4. Venis con el codigo", "description": "Herrera 875. Das el codigo, retiras, te vas." }
+      ]
+    },
+    "location": {
+      "title": "Donde estamos",
+      "subtitle": "Herrera 875, Asuncion — Lun-Vie 09:00-20:00, Sab 09:00-18:00.",
+      "address": "Herrera 875, Asuncion, Paraguay",
+      "phone": "+595 976 569 739",
+      "email": "hola@fun4me.com.py"
+    },
+    "cta": {
+      "title": "Empeza a armar tu pedido",
+      "subtitle": "En el checkout, elegi 'Retiro en tienda' y listo.",
+      "buttonText": "Ir a la Tienda",
+      "buttonHref": "/fun4me/store"
+    }
   }
 }
