@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 56 | see closure log below |
+| ✅ Closed | 57 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 444 | the rest |
+| 🔴 Open | 443 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -64,6 +64,7 @@ Closure log:
 - **#463, #470** — Lighthouse baseline run on 4 prod URLs; report saved to
   `docs/LIGHTHOUSE_BASELINE.md` with action items. Landing now 81/100 perf.
 - **#270** — "Esta es una demostración" banner — covered by `<DemoBadge>`.
+- **#485** — `docs/runbooks/ADD_NEW_VERTICAL.md` runbook published. Branch `docs/add-new-vertical`.
 
 ## Blocked on user input
 
