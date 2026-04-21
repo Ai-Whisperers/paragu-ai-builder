@@ -5,10 +5,12 @@ import { cn } from '@/lib/utils'
 interface GlassCardProps {
   children: React.ReactNode
   className?: string
+  /** Inline styles for one-off overrides (e.g. custom background-color / backdrop-filter) */
+  style?: React.CSSProperties
   /** Glass variant - affects background opacity */
   variant?: 'light' | 'dark' | 'strong'
   /** Border radius */
-  rounded?: 'sm' | 'md' | 'lg' | 'xl' | 'full'
+  rounded?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | 'full'
   /** Enable hover glow effect */
   glow?: boolean
   /** Enable hover lift effect */
@@ -43,6 +45,7 @@ interface GlassCardProps {
 export function GlassCard({
   children,
   className,
+  style,
   variant = 'light',
   rounded = 'lg',
   glow = false,
@@ -60,6 +63,7 @@ export function GlassCard({
     md: 'rounded-md',
     lg: 'rounded-lg',
     xl: 'rounded-xl',
+    '2xl': 'rounded-2xl',
     full: 'rounded-full',
   }
 
@@ -73,6 +77,7 @@ export function GlassCard({
           hover && 'hover-lift',
           className
         )}
+        style={style}
       >
         <div
           className={cn(
@@ -97,6 +102,7 @@ export function GlassCard({
         hover && 'hover-lift',
         className
       )}
+      style={style}
     >
       {children}
     </div>

@@ -71,7 +71,6 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     throw new Error('[ScopedQueries] business_id is required for scoped queries')
   }
 
-   
   // selectCached / batchInsert, so we capture it as a named const before return.
   // The closure `() => queries` captures by reference, so it's safe even though
   // the value isn't bound until after buildScopedQueries returns (the closure

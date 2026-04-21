@@ -157,7 +157,7 @@ export function ActivityFeed({ leadId, limit = 10, className }: ActivityFeedProp
   const [expanded, setExpanded] = useState(false)
   
   useEffect(() => {
-    // Simulate API call
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- Simulated API load kickoff; sets loading=true then resolves via setTimeout.
     setIsLoading(true)
     setTimeout(() => {
       const mockActivities = generateMockActivities(leadId)
@@ -256,6 +256,7 @@ export function ActivityFeedCompact({ leadId, limit = 3 }: { leadId?: string; li
   
   useEffect(() => {
     const mockActivities = generateMockActivities(leadId)
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- Loading mock data post-mount when leadId/limit changes.
     setActivities(mockActivities.slice(0, limit))
   }, [leadId, limit])
   

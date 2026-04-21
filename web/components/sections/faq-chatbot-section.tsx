@@ -200,7 +200,7 @@ export function FAQChatbot({ phone, className }: FAQChatbotProps) {
         <div className="space-y-3 mb-10">
           {filteredFAQs.length === 0 ? (
             <div className="text-center py-10">
-              <p className="text-[var(--text-muted)] mb-4">No encontramos preguntas con "{searchQuery}"</p>
+              <p className="text-[var(--text-muted)] mb-4">No encontramos preguntas con &ldquo;{searchQuery}&rdquo;</p>
               <Button onClick={() => setShowContactForm(true)} variant="outline">
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Preguntar por WhatsApp

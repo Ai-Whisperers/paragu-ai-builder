@@ -167,7 +167,7 @@ export function ShareButton({
       setIsCopied(true)
       setTimeout(() => setIsCopied(false), 2000)
     } else if (platform === 'email') {
-      window.location.href = shareUrls.email(data)
+      window.location.assign(shareUrls.email(data))
     } else {
       const url = shareUrls[platform](data)
       window.open(url, '_blank', 'width=600,height=400')
@@ -324,7 +324,7 @@ export function ShareDropdown({
     if (platform === 'copy') {
       handleCopy()
     } else if (platform === 'email') {
-      window.location.href = shareUrls.email(data)
+      window.location.assign(shareUrls.email(data))
     } else {
       const url = shareUrls[platform](data)
       window.open(url, '_blank', 'width=600,height=400')
