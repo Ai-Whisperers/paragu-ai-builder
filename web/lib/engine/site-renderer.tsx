@@ -48,6 +48,7 @@ import { B2BWholesaleSection } from '@/components/sections/b2b-wholesale-section
 import { RecipeSection } from '@/components/sections/recipe-section'
 import { TaxSavingsCalculatorSection } from '@/components/sections/tax-savings-calculator-section'
 import { IntakeWizardSection } from '@/components/sections/intake-wizard-section'
+import { FeaturesSection } from '@/components/sections/features-section'
 import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
 import { PromoBannerSection } from '@/components/sections/promo-banner-section'
 import { NewsletterSignupSection } from '@/components/sections/newsletter-signup-section'
@@ -97,6 +98,7 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'newsletter-signup': NewsletterSignupSection,
   'tax-savings-calculator': TaxSavingsCalculatorSection,
   'intake-wizard': IntakeWizardSection,
+  features: FeaturesSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {
