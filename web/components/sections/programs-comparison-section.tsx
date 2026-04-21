@@ -28,6 +28,18 @@ export interface ProgramsComparisonSectionProps {
   subtitle?: string
   tiers?: ProgramTier[]
   comparisonRows?: Array<{ feature: string; values: Array<string | boolean> }>
+  /** Header label for the left column of the matrix variant. Locale-aware when omitted. */
+  featureColumnLabel?: string
+  /** Active URL locale — lets us pick a localized default for `featureColumnLabel`. */
+  __locale?: string
+}
+
+const FEATURE_COLUMN_LABELS: Record<string, string> = {
+  de: 'Merkmale',
+  en: 'Features',
+  es: 'Características',
+  nl: 'Kenmerken',
+  pt: 'Características',
 }
 
 export function ProgramsComparisonSection({
@@ -37,9 +49,14 @@ export function ProgramsComparisonSection({
   subtitle,
   tiers = [],
   comparisonRows,
+  featureColumnLabel,
+  __locale,
 }: ProgramsComparisonSectionProps) {
   if (tiers.length === 0) return null
-  
+
+  const resolvedFeatureLabel =
+    featureColumnLabel || FEATURE_COLUMN_LABELS[__locale ?? 'es'] || FEATURE_COLUMN_LABELS.es
+
   return (
     <section id="programas" className="bg-[var(--background)] py-20 sm:py-28 lg:py-32">
       <Container>
@@ -60,7 +77,7 @@ export function ProgramsComparisonSection({
         </AnimatedSectionHeader>
 
         {variant === 'matrix' && comparisonRows && comparisonRows.length > 0 ? (
-          <MatrixTable tiers={tiers} rows={comparisonRows} />
+          <MatrixTable tiers={tiers} rows={comparisonRows} featureLabel={resolvedFeatureLabel} />
         ) : (
           <TierCards tiers={tiers} />
         )}
@@ -75,7 +92,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
       {tiers.map((tier, idx) => (
         <AnimateOnScroll key={tier.id} stagger={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
           <article className={cn('relative flex h-full flex-col rounded-2xl transition-all duration-300',
-              tier.highlighted ? 'bg-[var(--surface)] shadow-xl scale-[1.02] lg:scale-[1.03] ring-2 ring-[var(--secondary)]' : 'bg-[var(--surface)] shadow-md hover:shadow-lg border border-[var(--surface-light)]'
+              tier.highlighted ? 'bg-[var(--surface)] shadow-xl ring-2 ring-[var(--secondary)]' : 'bg-[var(--surface)] shadow-md hover:shadow-lg border border-[var(--surface-light)]'
             )} style={{ boxShadow: tier.highlighted ? '0 20px 50px -12px rgba(184, 134, 11, 0.25)' : undefined }}>
             {tier.badge && (
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
@@ -139,13 +156,13 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
   )
 }
 
-function MatrixTable({ tiers, rows }: { tiers: ProgramTier[]; rows: Array<{ feature: string; values: Array<string | boolean> }> }) {
+function MatrixTable({ tiers, rows, featureLabel }: { tiers: ProgramTier[]; rows: Array<{ feature: string; values: Array<string | boolean> }>; featureLabel: string }) {
   return (
     <div className="mt-12 overflow-x-auto rounded-xl border border-[var(--border)] bg-[var(--surface)] shadow-lg">
       <table className="w-full border-collapse text-sm sm:text-base">
         <thead>
           <tr style={{ backgroundColor: 'var(--surface-light)' }}>
-            <th className="p-4 sm:p-6 text-left font-semibold" style={{ color: 'var(--text)' }}>Merkmale</th>
+            <th className="p-4 sm:p-6 text-left font-semibold" style={{ color: 'var(--text)' }}>{featureLabel}</th>
             {tiers.map((t) => (
               <th key={t.id} className="p-4 sm:p-6 text-left font-bold" style={{ color: 'var(--primary)', minWidth: '180px' }}>{t.name}</th>
             ))}

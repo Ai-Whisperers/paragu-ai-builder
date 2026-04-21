@@ -113,7 +113,7 @@
           "name": "Paraguay Business",
           "description": "Verblijfsvergunning + vennootschap + bankrekening.",
           "price": "USD 4.400+",
-          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten.",
           "badge": "Meest gekozen",
           "highlighted": true,
           "included": [
@@ -132,7 +132,7 @@
           "name": "Paraguay Investor Program",
           "description": "Alles van Business + 12 maanden begeleiding.",
           "price": "USD 6.900+",
-          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten.",
           "included": [
             "Alles van Business",
             "Boekhouding (12 maanden)",
@@ -156,7 +156,7 @@
             "Onderhandeling en notariële akte",
             "Registratie in het kadaster"
           ],
-          "ctaLabel": "Verkennend gesprek",
+          "ctaLabel": "Informeer",
           "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -286,7 +286,7 @@
           "name": "Paraguay Business",
           "description": "Verblijfsvergunning + vennootschap + bankrekening.",
           "price": "USD 4.400+",
-          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten.",
           "badge": "Meest gekozen",
           "highlighted": true,
           "included": [
@@ -305,7 +305,7 @@
           "name": "Paraguay Investor Program",
           "description": "Alles van Business + 12 maanden begeleiding.",
           "price": "USD 6.900+",
-          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten.",
           "included": [
             "Alles van Business",
             "Boekhouding (12 maanden)",
@@ -329,7 +329,7 @@
             "Onderhandeling en notariële akte",
             "Registratie in het kadaster"
           ],
-          "ctaLabel": "Verkennend gesprek",
+          "ctaLabel": "Informeer",
           "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -360,7 +360,7 @@
           "name": "Paraguay Business",
           "description": "Verblijfsvergunning + vennootschap + bankrekening.",
           "price": "USD 4.400+",
-          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten.",
           "badge": "Meest gekozen",
           "highlighted": true,
           "included": [
@@ -379,7 +379,7 @@
           "name": "Paraguay Investor Program",
           "description": "Alles van Business + 12 maanden begeleiding.",
           "price": "USD 6.900+",
-          "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen.",
+          "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten.",
           "included": [
             "Alles van Business",
             "Boekhouding (12 maanden)",
@@ -403,7 +403,7 @@
             "Onderhandeling en notariële akte",
             "Registratie in het kadaster"
           ],
-          "ctaLabel": "Verkennend gesprek",
+          "ctaLabel": "Informeer",
           "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -618,19 +618,23 @@
       "members": [
         {
           "name": "Operationele directie (Paraguay)",
-          "role": "Operationeel leiderschap, institutionele relaties"
+          "role": "Operationeel leiderschap, institutionele relaties",
+          "icon": "Briefcase"
         },
         {
           "name": "Commerciële directie (Europa)",
-          "role": "Klantacquisitie, culturele brug"
+          "role": "Klantacquisitie, culturele brug",
+          "icon": "Globe"
         },
         {
           "name": "Juridisch team",
-          "role": "Migratiedossiers, oprichting vennootschap"
+          "role": "Migratiedossiers, oprichting vennootschap",
+          "icon": "Scale"
         },
         {
           "name": "Boekhoudteam",
-          "role": "Fiscaal beheer, compliance"
+          "role": "Fiscaal beheer, compliance",
+          "icon": "Calculator"
         }
       ]
     },
@@ -762,7 +766,9 @@
       "subtitle": "Kies een moment dat u schikt.",
       "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
       "provider": "calendly",
-      "ctaLabel": "Open agenda"
+      "ctaLabel": "Open agenda",
+      "fallbackWhatsapp": "595982515138",
+      "fallbackEmail": "hola@nexaparaguay.com"
     },
     "contact": {
       "title": "Of mail ons direct",
@@ -840,6 +846,22 @@
       {
         "label": "Privacy",
         "href": "/s/nl/nexa-paraguay/privacidad"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/nl/nexa-paraguay/faq"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/nl/nexa-paraguay/blog"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/nl/nexa-paraguay/contacto"
+      },
+      {
+        "label": "Waarom Paraguay",
+        "href": "/s/nl/nexa-paraguay/por-que-paraguay"
       }
     ]
   },
@@ -850,7 +872,10 @@
       "Resultaten zijn afhankelijk van de individuele naleving van vereisten en kunnen variëren. Informatie onder voorbehoud van wijzigingen in regelgeving."
     ],
     "licenseNumbers": [
-      { "label": "SEPRELAD", "number": "Registratie in behandeling" }
+      {
+        "label": "SEPRELAD",
+        "number": "Registratie in behandeling"
+      }
     ],
     "linkText": "Volledige AML-verklaring bekijken",
     "linkHref": "/s/nl/nexa-paraguay/privacidad#aml"
@@ -863,27 +888,101 @@
     "whatsappPhone": "595982515138",
     "whatsappFallbackLabel": "Vragen? Neem contact op via WhatsApp",
     "questions": [
-      { "id": "fullName", "kind": "text", "label": "Volledige naam (volgens identiteitsbewijs)", "required": true },
-      { "id": "nationality", "kind": "text", "label": "Nationaliteit", "required": true },
-      { "id": "documentType", "kind": "radio", "label": "Type identiteitsbewijs", "required": true, "options": [
-        { "value": "passport", "label": "Paspoort" },
-        { "value": "id", "label": "Nationale ID" },
-        { "value": "other", "label": "Andere" }
-      ]},
-      { "id": "economicActivity", "kind": "textarea", "label": "Belangrijkste beroepsactiviteit", "helpText": "Beschrijf uw beroep of belangrijkste inkomstenbron", "required": true },
-      { "id": "fundsOrigin", "kind": "radio", "label": "Herkomst van middelen", "required": true, "options": [
-        { "value": "salary", "label": "Salaris / honoraria" },
-        { "value": "business", "label": "Ondernemingsactiviteit" },
-        { "value": "investment", "label": "Beleggingen / passief inkomen" },
-        { "value": "inheritance", "label": "Erfenis of schenking" },
-        { "value": "other", "label": "Anders (hieronder beschrijven)" }
-      ]},
-      { "id": "fundsOriginDetail", "kind": "textarea", "label": "Details herkomst van middelen", "helpText": "Licht de bovenstaande keuze toe. Nexa vraagt bewijsstukken op in het formele KYC-traject." },
-      { "id": "pep", "kind": "radio", "label": "Bent u een politiek prominent persoon (PEP) of direct familielid van een PEP?", "required": true, "options": [
-        { "value": "no", "label": "Nee" },
-        { "value": "yes", "label": "Ja" }
-      ]},
-      { "id": "truthfulDeclaration", "kind": "checkbox", "label": "Ik verklaar onder ede dat de informatie waar is en autoriseer Nexa Paraguay om de nodige verificaties uit te voeren.", "required": true }
+      {
+        "id": "fullName",
+        "kind": "text",
+        "label": "Volledige naam (volgens identiteitsbewijs)",
+        "required": true
+      },
+      {
+        "id": "nationality",
+        "kind": "text",
+        "label": "Nationaliteit",
+        "required": true
+      },
+      {
+        "id": "documentType",
+        "kind": "radio",
+        "label": "Type identiteitsbewijs",
+        "required": true,
+        "options": [
+          {
+            "value": "passport",
+            "label": "Paspoort"
+          },
+          {
+            "value": "id",
+            "label": "Nationale ID"
+          },
+          {
+            "value": "other",
+            "label": "Andere"
+          }
+        ]
+      },
+      {
+        "id": "economicActivity",
+        "kind": "textarea",
+        "label": "Belangrijkste beroepsactiviteit",
+        "helpText": "Beschrijf uw beroep of belangrijkste inkomstenbron",
+        "required": true
+      },
+      {
+        "id": "fundsOrigin",
+        "kind": "radio",
+        "label": "Herkomst van middelen",
+        "required": true,
+        "options": [
+          {
+            "value": "salary",
+            "label": "Salaris / honoraria"
+          },
+          {
+            "value": "business",
+            "label": "Ondernemingsactiviteit"
+          },
+          {
+            "value": "investment",
+            "label": "Beleggingen / passief inkomen"
+          },
+          {
+            "value": "inheritance",
+            "label": "Erfenis of schenking"
+          },
+          {
+            "value": "other",
+            "label": "Anders (hieronder beschrijven)"
+          }
+        ]
+      },
+      {
+        "id": "fundsOriginDetail",
+        "kind": "textarea",
+        "label": "Details herkomst van middelen",
+        "helpText": "Licht de bovenstaande keuze toe. Nexa vraagt bewijsstukken op in het formele KYC-traject."
+      },
+      {
+        "id": "pep",
+        "kind": "radio",
+        "label": "Bent u een politiek prominent persoon (PEP) of direct familielid van een PEP?",
+        "required": true,
+        "options": [
+          {
+            "value": "no",
+            "label": "Nee"
+          },
+          {
+            "value": "yes",
+            "label": "Ja"
+          }
+        ]
+      },
+      {
+        "id": "truthfulDeclaration",
+        "kind": "checkbox",
+        "label": "Ik verklaar onder ede dat de informatie waar is en autoriseer Nexa Paraguay om de nodige verificaties uit te voeren.",
+        "required": true
+      }
     ]
   },
   "whatsapp": {

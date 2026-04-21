@@ -14,14 +14,26 @@ interface FeaturesSectionProps {
   subtitle?: string
   features: Feature[]
   columns?: 2 | 3 | 4
+  /** Active URL locale — picks a localized default for `title` when caller omits it. */
+  __locale?: string
+}
+
+const FEATURES_DEFAULT_TITLE: Record<string, string> = {
+  de: 'Warum uns wählen',
+  en: 'Why choose us',
+  es: 'Por qué elegirnos',
+  nl: 'Waarom ons kiezen',
+  pt: 'Por que nos escolher',
 }
 
 export function FeaturesSection({
-  title = 'Por qué elegirnos',
+  title,
   subtitle,
   features = [],
   columns = 3,
+  __locale,
 }: FeaturesSectionProps) {
+  const resolvedTitle = title || FEATURES_DEFAULT_TITLE[__locale ?? 'es'] || FEATURES_DEFAULT_TITLE.es
   const gridCols = {
     2: 'md:grid-cols-2',
     3: 'md:grid-cols-3',
@@ -35,9 +47,9 @@ export function FeaturesSection({
   return (
     <section className="bg-[var(--background)] py-16 sm:py-20">
       <Container>
-        {title && (
+        {resolvedTitle && (
           <div className="text-center mb-12">
-            <Heading level={2}>{title}</Heading>
+            <Heading level={2}>{resolvedTitle}</Heading>
             {subtitle && (
               <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
             )}

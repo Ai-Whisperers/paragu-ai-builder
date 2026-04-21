@@ -57,11 +57,11 @@ export function CookieBanner({ copy }: { copy: CookieBannerCopy }) {
     <div
       role="region"
       aria-label={copy.title}
-      className="fixed bottom-4 left-4 right-4 z-[60] mx-auto max-w-3xl rounded-lg bg-[var(--surface)] p-5 shadow-card-hover md:bottom-6 md:left-6 md:right-6"
+      className="fixed bottom-3 left-3 z-[60] w-[min(22rem,calc(100vw-1.5rem))] rounded-lg bg-[var(--surface)] p-4 shadow-card-hover md:bottom-4 md:left-4"
       style={{ border: '1px solid var(--border)' }}
     >
       <p className="mb-1 text-sm font-semibold text-[var(--text)]">{copy.title}</p>
-      <p className="mb-4 text-sm text-[var(--text-light)]">
+      <p className="mb-3 text-xs leading-relaxed text-[var(--text-light)]">
         {copy.body}{' '}
         <a href={copy.privacyHref} className="underline">
           {copy.privacyLabel}
@@ -72,14 +72,14 @@ export function CookieBanner({ copy }: { copy: CookieBannerCopy }) {
         <button
           type="button"
           onClick={acceptAll}
-          className="rounded-md bg-[var(--secondary)] px-4 py-2 text-sm font-medium text-[var(--secondary-foreground)] shadow-button"
+          className="rounded-md bg-[var(--secondary)] px-3 py-1.5 text-xs font-medium text-[var(--secondary-foreground)] shadow-button"
         >
           {copy.acceptAll}
         </button>
         <button
           type="button"
           onClick={acceptEssential}
-          className="rounded-md border border-[var(--border)] bg-[var(--surface)] px-4 py-2 text-sm font-medium text-[var(--text)]"
+          className="rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-1.5 text-xs font-medium text-[var(--text)]"
         >
           {copy.acceptEssential}
         </button>
