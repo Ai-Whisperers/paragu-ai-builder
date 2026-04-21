@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 87 | see closure log below |
+| ✅ Closed | 88 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 413 | the rest |
+| 🔴 Open | 412 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -196,6 +196,12 @@ Closure log:
   needs the wrapper). Locks #392 so it can't regress when someone adds a
   new route. Pairs with the auth coverage test as a "you cannot ship a
   broken route" social contract.
+- **#436** — `/api/cron/health` route reports per-cron env readiness.
+  Returns 503 + the missing-env list if any required env var is unset for
+  any of the 5 cron routes. CRON_SECRET-protected, GET aliases POST. 4
+  tests passing. Wired into CRON_STRATEGY.md as an hourly check. Wire
+  this URL into your monitor of choice (Better Uptime, UptimeRobot, etc.)
+  to get alerted before a cron silently no-ops on missing env.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
