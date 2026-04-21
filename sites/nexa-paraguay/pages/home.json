@@ -25,6 +25,11 @@
       "content": "home.programs"
     },
     {
+      "id": "tax-savings-calculator",
+      "variant": "default",
+      "content": "home.taxCalculator"
+    },
+    {
       "id": "why-destination",
       "variant": "three-col",
       "content": "home.whyCountry"

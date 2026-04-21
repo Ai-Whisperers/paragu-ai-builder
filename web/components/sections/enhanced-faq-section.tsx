@@ -9,21 +9,31 @@ import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Heading } from '@/components/ui/heading'
 
+export interface EnhancedFAQItem {
+  question: string
+  answer: string
+  category: string
+}
+
 interface FAQSectionProps {
   business: {
     name: string
     whatsapp: string
     phone?: string
   }
+  /** When provided, replaces the built-in granja-cabral defaults so any
+   * tenant can populate this section from their content file. Omitted
+   * keeps the defaults for backward compat. */
+  items?: EnhancedFAQItem[]
+  /** Override default section title. */
+  title?: string
+  /** Override default section subtitle. */
+  subtitle?: string
 }
 
-interface FAQItem {
-  question: string
-  answer: string
-  category: string
-}
+type FAQItem = EnhancedFAQItem
 
-const FAQS: FAQItem[] = [
+const DEFAULT_FAQS: FAQItem[] = [
   // Producto & Calidad
   {
     question: '¿De dónde vienen sus huevos?',
@@ -187,21 +197,33 @@ const FAQS: FAQItem[] = [
   }
 ]
 
-const CATEGORIES = ['Todas', 'Producto', 'Pedidos', 'Conservación', 'Mayoristas', 'Sostenibilidad', 'General']
+const DEFAULT_CATEGORIES = ['Todas', 'Producto', 'Pedidos', 'Conservación', 'Mayoristas', 'Sostenibilidad', 'General']
 
-export function EnhancedFAQSection({ business }: FAQSectionProps) {
+export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSectionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0)
   const [selectedCategory, setSelectedCategory] = useState('Todas')
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredFAQs = FAQS.filter(faq => {
+  // Caller-supplied items REPLACE the defaults. Categories auto-derive from
+  // items so adopters don't maintain two arrays.
+  const allFaqs: FAQItem[] = items && items.length > 0 ? items : DEFAULT_FAQS
+  const CATEGORIES =
+    items && items.length > 0
+      ? ['Todas', ...Array.from(new Set(items.map((f) => f.category).filter(Boolean)))]
+      : DEFAULT_CATEGORIES
+
+  const filteredFAQs = allFaqs.filter((faq) => {
     const matchesCategory = selectedCategory === 'Todas' || faq.category === selectedCategory
-    const matchesSearch = faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         faq.answer.toLowerCase().includes(searchQuery.toLowerCase())
+    const q = searchQuery.toLowerCase()
+    const matchesSearch =
+      faq.question.toLowerCase().includes(q) || faq.answer.toLowerCase().includes(q)
     return matchesCategory && matchesSearch
   })
 
   const whatsappUrl = `https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola! Tengo una pregunta que no encontré en las FAQs...')}`
+  const resolvedTitle = title ?? 'Preguntas Frecuentes'
+  const resolvedSubtitle =
+    subtitle ?? 'Encontrá respuestas a las dudas más comunes sobre nuestros productos y servicios.'
 
   return (
     <div className="w-full py-12 px-4 sm:px-6 lg:px-8">
@@ -209,11 +231,9 @@ export function EnhancedFAQSection({ business }: FAQSectionProps) {
         {/* Header */}
         <div className="text-center mb-10">
           <Heading level={2} className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Preguntas Frecuentes
+            {resolvedTitle}
           </Heading>
-          <p className="text-lg text-gray-600">
-            Encontrá respuestas a las dudas más comunes sobre nuestros productos y servicios.
-          </p>
+          <p className="text-lg text-gray-600">{resolvedSubtitle}</p>
         </div>
 
         {/* Search */}

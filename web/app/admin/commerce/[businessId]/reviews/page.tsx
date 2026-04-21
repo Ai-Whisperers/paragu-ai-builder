@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { revalidatePath } from 'next/cache'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { pickOne } from '@/lib/supabase/helpers'
 import type { Review } from '@/lib/schemas/commerce/review'
 
 export const runtime = 'nodejs'
@@ -41,7 +42,7 @@ async function listReviewsForAdmin(
     products: { name: string; slug: string } | { name: string; slug: string }[] | null
   }>
   return rows.map((r) => {
-    const p = Array.isArray(r.products) ? r.products[0] : r.products
+    const p = pickOne(r.products)
     return {
       id: r.id,
       businessId: r.business_id,

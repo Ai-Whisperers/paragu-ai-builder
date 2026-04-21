@@ -63,6 +63,10 @@ const BOOKING_LABELS: Record<string, BookingLabels> = {
  * pointing at the documented placeholder account. Calendly renders a 404
  * page inside the iframe for non-existent accounts, leaving a huge blank
  * white block — the fallback UI is a better experience.
+ *
+ * cal.com is treated as live when present — a tenant switching from
+ * Calendly to cal.com only needs to change bookingUrl in site.json.
+ * No code changes required.
  */
 function isPlaceholderUrl(url: string | undefined): boolean {
   if (!url || url.trim() === '' || url === '#') return true
