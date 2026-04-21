@@ -9,6 +9,9 @@ export const runtime = 'nodejs'
  * Catches orders stuck in awaiting_payment > 6 hours and re-queries the
  * payment provider to drive them to a terminal state. Webhooks are usually
  * reliable; this is the safety net.
+ *
+ * Schedule (UTC): hourly. See docs/runbooks/CRON_STRATEGY.md for the
+ * canonical table. Protected by CRON_SECRET header.
  */
 export const POST = withRequestLog(async (request, { log }) => {
   if (process.env.CRON_SECRET && request.headers.get('x-cron-secret') !== process.env.CRON_SECRET) {

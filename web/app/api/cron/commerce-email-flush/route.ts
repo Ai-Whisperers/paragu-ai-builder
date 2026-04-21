@@ -10,7 +10,8 @@ export const runtime = 'nodejs'
  * Resend. Failures bump `attempts` and write `last_error`; after 5 attempts
  * rows are marked `failed` so they stop consuming cron cycles.
  *
- * Protected by CRON_SECRET header (set in hosting provider cron config).
+ * Schedule (UTC): every 5 minutes. See docs/runbooks/CRON_STRATEGY.md
+ * for the canonical table. Protected by CRON_SECRET header.
  */
 export const POST = withRequestLog(async (request, { log }) => {
   const cronSecret = process.env.CRON_SECRET

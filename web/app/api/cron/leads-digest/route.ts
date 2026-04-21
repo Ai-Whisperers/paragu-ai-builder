@@ -14,7 +14,12 @@ export const runtime = 'nodejs'
  * Configure on the hosting cron with:
  *   POST https://paragu-ai.com/api/cron/leads-digest
  *   x-cron-secret: <CRON_SECRET>
- *   Schedule: 0 9 * * *  (9am Asunción time)
+ *   Crontab: 0 12 * * *  (12:00 UTC = 9:00 Asunción standard time)
+ *
+ * All schedules in this codebase are expressed in UTC. The Asunción mapping
+ * above assumes UTC-3 (standard time); during DST the local hour shifts by
+ * one. See docs/runbooks/CRON_STRATEGY.md for the canonical table and the
+ * "schedule in UTC, ignore DST" rationale.
  *
  * Required env:
  *   - CRON_SECRET                — header guard
