@@ -1,0 +1,24 @@
+{
+  "id": "photography_academy",
+  "nameEs": "Academia de Fotografia",
+  "nameEn": "Photography Academy",
+  "verticalId": "education-training",
+  "subVertical": "arts-training",
+  "extends": "educacion",
+  "tokens": "photography_academy",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Academia de Fotografia en {{city}}",
+    "descriptionTemplate": "Cursos de fotografia: basico, retrato, producto, bodas e iluminacion en {{city}}. Practica de estudio incluida, cupos reducidos.",
+    "keywords": [
+      "academia fotografia {{city}}",
+      "curso fotografia {{city}}",
+      "aprender fotografia {{neighborhood}}",
+      "curso iluminacion fotografica {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Academia de Fotografia",
+    "subheadlineTemplate": "Cursos de fotografia con practica de estudio en {{city}}."
+  }
+}
