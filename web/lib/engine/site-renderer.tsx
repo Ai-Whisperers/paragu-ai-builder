@@ -103,7 +103,16 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
     // Sections that need it (e.g. featured-products, any future section
     // generating URLs with the locale prefix) pick it up; the rest
     // ignore the extra key harmlessly.
-    const props = { ...s.props, locale: page.locale } as Record<string, unknown>
+    //
+    // `s.variant` is also threaded through as `variant` — without this,
+    // sections that support multiple variants (e.g. programs-comparison
+    // with `tiered` / `matrix`) always fell back to their default and
+    // ignored what the tenant page config asked for.
+    const props = {
+      ...s.props,
+      variant: s.variant,
+      locale: page.locale,
+    } as Record<string, unknown>
     return <C key={`${s.id}-${i}`} {...props} />
   })
 }

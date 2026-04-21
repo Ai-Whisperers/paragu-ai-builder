@@ -55,6 +55,10 @@ export function PromoBannerSection({
   useEffect(() => {
     if (!autoRotate || promotions.length <= 1) return
 
+    // Reset progress when currentIndex changes — intentional cascading
+    // render: the new promo starts with an empty progress bar before the
+    // interval below begins incrementing it.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(0)
     const step = 100 / (rotateInterval / 100)
     

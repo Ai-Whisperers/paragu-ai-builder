@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 export interface HeroSectionProps {
   headline: string
   subheadline: string
-  ctaPrimaryText: string
+  ctaPrimaryText?: string
   ctaPrimaryHref?: string
   ctaSecondaryText?: string
   ctaSecondaryHref?: string
@@ -89,26 +89,30 @@ export function HeroSection({
           {subheadline}
         </p>
         
-        <div className={cn("flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6", enhanced && "hero-animate-delay-3")}>
-          <Button variant="primary" size="lg" href={ctaPrimaryHref}
-            className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
-            style={{ backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 8px 24px rgba(184, 134, 11, 0.35)' }}>
-            {ctaPrimaryText}
-          </Button>
-          {ctaSecondaryText && (
-            <Button variant="secondary" size="lg" href={ctaSecondaryHref}
-              className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
-              {ctaSecondaryText}
-            </Button>
-          )}
-        </div>
+        {(ctaPrimaryText || ctaSecondaryText) && (
+          <div className={cn("flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6", enhanced && "hero-animate-delay-3")}>
+            {ctaPrimaryText && (
+              <Button variant="primary" size="lg" href={ctaPrimaryHref}
+                className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
+                style={{ backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 8px 24px rgba(184, 134, 11, 0.35)' }}>
+                {ctaPrimaryText}
+              </Button>
+            )}
+            {ctaSecondaryText && (
+              <Button variant="secondary" size="lg" href={ctaSecondaryHref}
+                className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
+                {ctaSecondaryText}
+              </Button>
+            )}
+          </div>
+        )}
 
         {enhanced && trustBadgesEnabled && (
           <div className="mt-12 sm:mt-16 hero-animate-delay-4">
-            <div className="flex flex-wrap items-center justify-center gap-6 text-sm" style={{ color: 'rgba(255,255,255,0.7)' }}>
+            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium" style={{ color: 'rgba(255,255,255,0.95)' }}>
               {trustBadges.map((label) => (
                 <div key={label} className="flex items-center gap-2">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                  <svg className="w-5 h-5" fill="var(--secondary)" viewBox="0 0 20 20" aria-hidden="true"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                   <span>{label}</span>
                 </div>
               ))}
@@ -131,7 +135,7 @@ export function HeroSection({
     : undefined
 
   return (
-    <section className={cn("relative flex min-h-[80vh] sm:min-h-[85vh] items-center justify-center overflow-hidden", !backgroundImage && !useGradient && "bg-[var(--primary)]")} style={backgroundStyle}>
+    <section className={cn("relative flex min-h-[80vh] sm:min-h-[85vh] items-center justify-center overflow-hidden pt-20 sm:pt-24", !backgroundImage && !useGradient && "bg-[var(--primary)]")} style={backgroundStyle}>
       {useGradient && !backgroundImage && (
         <GradientBackground variant={gradientVariant} animated={enhanced} className="absolute inset-0" />
       )}

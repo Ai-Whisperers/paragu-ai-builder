@@ -32,6 +32,16 @@ export interface ServicesSectionProps {
   cardStyle?: 'default' | 'glass' | 'gradient' | 'outline'
   /** Enable hover lift effect on cards */
   hoverEffect?: boolean
+  /** Active URL locale — picks localized defaults for "From" price prefix and "Other" category fallback. */
+  __locale?: string
+}
+
+const SERVICE_LABELS: Record<string, { from: string; otherCategory: string }> = {
+  de: { from: 'Ab', otherCategory: 'Sonstige' },
+  en: { from: 'From', otherCategory: 'Other' },
+  es: { from: 'Desde', otherCategory: 'Otros' },
+  nl: { from: 'Vanaf', otherCategory: 'Overig' },
+  pt: { from: 'Desde', otherCategory: 'Outros' },
 }
 
 /**
@@ -66,15 +76,18 @@ export function ServicesSection({
   enhanced = false,
   cardStyle = 'default',
   hoverEffect = true,
+  __locale,
 }: ServicesSectionProps) {
   const services = servicesProp || items || []
   if (services.length === 0) return null
+
+  const L = SERVICE_LABELS[__locale ?? 'es'] || SERVICE_LABELS.es
 
   // Group services by category if categories exist
   const hasCategories = services.some((s) => s.category)
   const grouped = hasCategories
     ? services.reduce<Record<string, ServiceItem[]>>((acc, s) => {
-        const cat = s.category || 'Otros'
+        const cat = s.category || L.otherCategory
         if (!acc[cat]) acc[cat] = []
         acc[cat].push(s)
         return acc
@@ -115,7 +128,7 @@ export function ServicesSection({
             </Heading>
             {showPrices && (service.price || service.priceFrom) && (
               <Badge variant="outline">
-                {service.priceFrom ? `Desde ${service.priceFrom}` : service.price}
+                {service.priceFrom ? `${L.from} ${service.priceFrom}` : service.price}
               </Badge>
             )}
           </div>
