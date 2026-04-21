@@ -1,10 +1,16 @@
 /**
  * Analytics Track API Route
- * Win 68: Page view tracking API
+ *
+ * - POST: public, ingests one analytics event per request
+ * - GET: admin-only, returns aggregate stats for the dashboard
+ *
+ * GET auth was previously gated only on `authHeader.startsWith('Bearer ')`
+ * which validates nothing — any literal `Bearer foo` passed. Now `checkAdmin()`.
  */
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
-import { logger } from '@/lib/logger'
+import { withRequestLog } from '@/lib/api/with-request-log'
+import { checkAdmin } from '@/lib/auth/admin'
 
 // Module-scoped, memoized client. First request pays the init cost (~tens
 // of ms — just wrapper construction, no network); every subsequent request
@@ -61,161 +67,105 @@ interface TrackEventBody {
 
 /**
  * POST /api/analytics/track
- * Track an analytics event
+ * Track an analytics event. Public — no auth (events come from browsers).
  */
-export async function POST(request: NextRequest) {
-  try {
-    const supabase = getSupabase()
-    const body: TrackEventBody = await request.json()
-    
-    // Validate required fields
-    if (!body.eventType) {
-      return NextResponse.json(
-        { success: false, error: 'Missing required field: eventType' },
-        { status: 400 }
-      )
-    }
-    
-    // Validate event type
-    if (!VALID_EVENT_TYPES.includes(body.eventType)) {
-      return NextResponse.json(
-        { success: false, error: `Invalid event type: ${body.eventType}` },
-        { status: 400 }
-      )
-    }
-    
-    // Get request metadata
-    const headers = request.headers
-    const userAgent = body.userAgent || headers.get('user-agent') || 'unknown'
-    const referrer = body.referrer || headers.get('referer') || 'direct'
-    
-    // Get IP (respecting privacy - hash it)
-    const ip = headers.get('x-forwarded-for') || headers.get('x-real-ip') || 'unknown'
-    const ipHash = await hashIp(ip)
-    
-    // Build event record
-    const event = {
-      event_type: body.eventType,
-      business_id: body.businessId || null,
-      lead_id: body.leadId || null,
-      page_url: body.pageUrl || null,
-      section_id: body.sectionId || null,
-      metadata: body.metadata || {},
-      session_id: body.sessionId || generateSessionId(),
-      ip_hash: ipHash,
-      user_agent: userAgent.slice(0, 200), // Limit length
-      referrer: referrer.slice(0, 500),
-      created_at: new Date().toISOString(),
-    }
-    
-    // Insert event
-    const { data, error } = await supabase
-      .from('analytics_events')
-      .insert(event)
-      .select('id')
-      .single()
-    
-    if (error) {
-      logger.error('Failed to track analytics event', {
-        action: 'analytics.track',
-        error: error.message,
-      })
-      return NextResponse.json(
-        { success: false, error: 'Failed to track event' },
-        { status: 500 }
-      )
-    }
+export const POST = withRequestLog(async (request, { log }) => {
+  const supabase = getSupabase()
+  const body: TrackEventBody = await request.json().catch(() => ({} as TrackEventBody))
 
-    return NextResponse.json({
-      success: true,
-      eventId: data.id,
-      sessionId: event.session_id,
-    })
-
-  } catch (error) {
-    logger.error('Unhandled error in analytics track', {
-      action: 'analytics.track',
-      error: error instanceof Error ? error.message : String(error),
-    })
+  if (!body.eventType) {
     return NextResponse.json(
-      { success: false, error: 'Internal server error' },
-      { status: 500 }
+      { success: false, error: 'Missing required field: eventType' },
+      { status: 400 },
     )
   }
-}
+  if (!VALID_EVENT_TYPES.includes(body.eventType)) {
+    return NextResponse.json(
+      { success: false, error: `Invalid event type: ${body.eventType}` },
+      { status: 400 },
+    )
+  }
+    
+  const headers = request.headers
+  const userAgent = body.userAgent || headers.get('user-agent') || 'unknown'
+  const referrer = body.referrer || headers.get('referer') || 'direct'
+  const ip = headers.get('x-forwarded-for') || headers.get('x-real-ip') || 'unknown'
+  const ipHash = await hashIp(ip)
+
+  const event = {
+    event_type: body.eventType,
+    business_id: body.businessId || null,
+    lead_id: body.leadId || null,
+    page_url: body.pageUrl || null,
+    section_id: body.sectionId || null,
+    metadata: body.metadata || {},
+    session_id: body.sessionId || generateSessionId(),
+    ip_hash: ipHash,
+    user_agent: userAgent.slice(0, 200),
+    referrer: referrer.slice(0, 500),
+    created_at: new Date().toISOString(),
+  }
+
+  const { data, error } = await supabase
+    .from('analytics_events')
+    .insert(event)
+    .select('id')
+    .single()
+
+  if (error) {
+    log.error('analytics.track.insert_failed', new Error(error.message))
+    return NextResponse.json({ success: false, error: 'Failed to track event' }, { status: 500 })
+  }
+
+  return NextResponse.json({ success: true, eventId: data.id, sessionId: event.session_id })
+})
 
 /**
  * GET /api/analytics/track
- * Get tracking stats (admin only)
+ * Get tracking stats. Admin-only via checkAdmin().
  */
-export async function GET(request: NextRequest) {
-  try {
-    // Check for admin authorization
-    const authHeader = request.headers.get('authorization')
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
-      return NextResponse.json(
-        { success: false, error: 'Unauthorized' },
-        { status: 401 }
-      )
-    }
-
-    const supabase = getSupabase()
-
-    // Parse time range from query params
-    const { searchParams } = new URL(request.url)
-    const days = parseInt(searchParams.get('days') || '7')
-    const eventType = searchParams.get('eventType')
-
-    // Build query
-    let query = supabase
-      .from('analytics_events')
-      .select('*', { count: 'exact' })
-      .gte('created_at', new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString())
-    
-    if (eventType) {
-      query = query.eq('event_type', eventType)
-    }
-    
-    const { data, count, error } = await query
-      .order('created_at', { ascending: false })
-      .limit(100)
-    
-    if (error) {
-      logger.error('Failed to get analytics stats', {
-        action: 'analytics.getStats',
-        error: error.message,
-      })
-      return NextResponse.json(
-        { success: false, error: 'Failed to get stats' },
-        { status: 500 }
-      )
-    }
-    
-    // Aggregate by event type
-    const byType = (data || []).reduce((acc: Record<string, number>, event: { event_type: string }) => {
-      acc[event.event_type] = (acc[event.event_type] || 0) + 1
-      return acc
-    }, {})
-    
-    return NextResponse.json({
-      success: true,
-      totalCount: count,
-      period: `${days} days`,
-      byType,
-      recentEvents: data,
-    })
-    
-  } catch (error) {
-    logger.error('Unhandled error in analytics stats', {
-      action: 'analytics.getStats',
-      error: error instanceof Error ? error.message : String(error),
-    })
-    return NextResponse.json(
-      { success: false, error: 'Internal server error' },
-      { status: 500 }
-    )
+export const GET = withRequestLog(async (request, { log }) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ success: false, error: auth.reason }, { status: auth.status })
   }
-}
+
+  const supabase = getSupabase()
+  const { searchParams } = new URL(request.url)
+  const days = parseInt(searchParams.get('days') || '7')
+  const eventType = searchParams.get('eventType')
+
+  let query = supabase
+    .from('analytics_events')
+    .select('*', { count: 'exact' })
+    .gte('created_at', new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString())
+
+  if (eventType) {
+    query = query.eq('event_type', eventType)
+  }
+
+  const { data, count, error } = await query
+    .order('created_at', { ascending: false })
+    .limit(100)
+
+  if (error) {
+    log.error('analytics.stats.failed', new Error(error.message))
+    return NextResponse.json({ success: false, error: 'Failed to get stats' }, { status: 500 })
+  }
+
+  const byType = (data || []).reduce((acc: Record<string, number>, event: { event_type: string }) => {
+    acc[event.event_type] = (acc[event.event_type] || 0) + 1
+    return acc
+  }, {})
+
+  return NextResponse.json({
+    success: true,
+    totalCount: count,
+    period: `${days} days`,
+    byType,
+    recentEvents: data,
+  })
+})
 
 // Helper functions
 async function hashIp(ip: string): Promise<string> {
