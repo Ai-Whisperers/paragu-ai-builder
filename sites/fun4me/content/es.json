@@ -30,6 +30,10 @@
         "href": "/fun4me/store"
       },
       {
+        "label": "Nosotros",
+        "href": "/fun4me/quienes-somos"
+      },
+      {
         "label": "Kits",
         "href": "/fun4me/bundles"
       },
@@ -458,40 +462,61 @@
     }
   },
   "about": {
-    "intro": {
-      "title": "Sobre Fun4Me",
-      "text": "Fun4Me nacio en 2018 con la mision de ofrecer productos de calidad para adultos en Paraguay, con la discrecion y el profesionalismo que nuestros clientes merecen. Desde nuestra tienda en Herrera 875, Asuncion, atendemos a clientes de todo el pais con envios discretos y seguros. Creemos que cada persona tiene derecho a explorar su intimidad de manera segura y sin juicios."
+    "seo": {
+      "title": "Quiénes Somos — fun4me",
+      "description": "Conocé el proyecto detrás de fun4me: un comercio discreto y profesional de productos para adultos en Paraguay."
     },
-    "mission": {
-      "title": "Nuestra Mision",
-      "text": "Ofrecer productos de calidad para adultos con total discrecion, profesionalismo y respeto. Queremos que cada cliente se sienta comodo explorando su intimidad con productos seguros y de las mejores marcas."
+    "hero": {
+      "headline": "Un proyecto pensado en Paraguay",
+      "subheadline": "Nacimos para dar acceso profesional y discreto a una categoría que todavía carga estigma en nuestra región. Sin juzgar, sin vender lo que no conocemos, sin comprometer tu privacidad.",
+      "ctaPrimaryText": "Ver catálogo",
+      "ctaPrimaryHref": "/s/es/fun4me/tienda",
+      "ctaSecondaryText": "Hablar con nosotros",
+      "ctaSecondaryHref": "/s/es/fun4me#contacto",
+      "eyebrow": "Sobre fun4me"
     },
-    "vision": {
-      "title": "Nuestra Vision",
-      "text": "Ser la tienda de referencia en Paraguay para productos de adultos, reconocida por la calidad, la discrecion de nuestro servicio y la confianza que generamos en nuestros clientes."
+    "values": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Principios que guían todas nuestras decisiones",
+      "pillars": [
+        {
+          "icon": "Shield",
+          "title": "Discreción por diseño",
+          "description": "No es un feature: es el punto de partida. Empaque neutro, facturación opcional, WhatsApp privado, sin tu nombre en estados de cuenta.",
+          "bullets": [
+            "Empaque sin marca",
+            "Factura a nombre genérico",
+            "Datos no se comparten"
+          ]
+        },
+        {
+          "icon": "Award",
+          "title": "Curaduría honesta",
+          "description": "Solo vendemos productos que testeamos, de marcas establecidas con trayectoria en la industria. Si no lo recomendaríamos a alguien cercano, no está en el catálogo.",
+          "bullets": [
+            "Marcas internacionales",
+            "Guías de uso detalladas",
+            "Soporte post-venta real"
+          ]
+        },
+        {
+          "icon": "Heart",
+          "title": "Educación antes que venta",
+          "description": "El placer y la salud sexual son temas serios que merecen información seria. Por eso publicamos guías prácticas y respondemos consultas sin vender.",
+          "bullets": [
+            "Blog con contenido de salud",
+            "Consultas sin obligación de compra",
+            "Producto correcto, no el más caro"
+          ]
+        }
+      ],
+      "honestNote": "Somos un equipo pequeño basado en Paraguay. No somos multinacionales — somos gente que cree que este mercado merece un servicio mejor del que históricamente tuvo."
     },
-    "values": [
-      {
-        "icon": "eye-slash",
-        "title": "Discrecion Total",
-        "text": "Entendemos la importancia de la privacidad. Desde el empaque hasta la facturacion, todo es 100% discreto."
-      },
-      {
-        "icon": "truck",
-        "title": "Envio a Todo el Pais",
-        "text": "Delivery rapido y seguro a cualquier punto de Paraguay con total confidencialidad."
-      },
-      {
-        "icon": "shield-check",
-        "title": "Productos de Calidad",
-        "text": "Seleccionamos productos de marcas reconocidas para garantizar tu satisfaccion y seguridad."
-      },
-      {
-        "icon": "heart",
-        "title": "Atencion Sin Juicios",
-        "text": "Nuestro equipo esta capacitado para asesorarte con respeto y profesionalismo."
-      }
-    ]
+    "cta": {
+      "title": "¿Dudas? Hablemos por WhatsApp",
+      "buttonText": "Escribir",
+      "buttonHref": "https://wa.me/595981324569?text=Hola%2C%20vengo%20de%20fun4me"
+    }
   },
   "legal": {
     "seo": {
