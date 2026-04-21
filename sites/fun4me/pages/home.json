@@ -6,13 +6,10 @@
     { "id": "header", "variant": "standard", "content": "navigation" },
     { "id": "hero", "variant": "image", "content": "home.hero" },
     { "id": "services", "variant": "cards", "content": "home.features" },
-    { "id": "cta-banner", "variant": "solid", "content": "home.promo" },
     { "id": "services", "variant": "cards", "content": "home.categories" },
-    { "id": "services", "variant": "cards", "content": "home.stats" },
     { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
     { "id": "gallery", "variant": "grid", "content": "home.partners" },
     { "id": "faq", "variant": "accordion", "content": "home.faq" },
-    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" },
     { "id": "contact", "variant": "split", "content": "home.contact" },
     { "id": "footer", "variant": "standard", "content": "footer" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
