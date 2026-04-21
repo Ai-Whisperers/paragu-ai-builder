@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { LIVE_TEMPLATES } from '@/lib/landing/marketing-data'
 import { CASE_STUDIES } from '@/lib/landing/case-studies'
 import { BLOG_POSTS } from '@/lib/landing/blog-posts'
+import { CITIES } from '@/lib/landing/cities'
 
 const BASE = 'https://paragu-ai.com'
 
@@ -17,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/demo`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/seguridad`, lastModified: now, changeFrequency: 'yearly', priority: 0.4 },
     { url: `${BASE}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/c`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
   ]
 
   const verticalRoutes: MetadataRoute.Sitemap = LIVE_TEMPLATES.map((t) => ({
@@ -40,5 +42,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  return [...staticRoutes, ...verticalRoutes, ...caseRoutes, ...blogRoutes]
+  const cityRoutes: MetadataRoute.Sitemap = CITIES.map((c) => ({
+    url: `${BASE}/c/${c.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  // City × vertical long-tail SEO landings — all combinations.
+  const cityVerticalRoutes: MetadataRoute.Sitemap = CITIES.flatMap((c) =>
+    LIVE_TEMPLATES.map((t) => ({
+      url: `${BASE}/c/${c.slug}/${t.seoSlug ?? t.id.replace(/_/g, '-')}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    })),
+  )
+
+  // English vertical landings for international audiences (Nexa pattern).
+  const verticalRoutesEn: MetadataRoute.Sitemap = LIVE_TEMPLATES.map((t) => ({
+    url: `${BASE}/en/p/${t.seoSlug ?? t.id.replace(/_/g, '-')}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  return [
+    ...staticRoutes,
+    ...verticalRoutes,
+    ...caseRoutes,
+    ...blogRoutes,
+    ...cityRoutes,
+    ...cityVerticalRoutes,
+    ...verticalRoutesEn,
+  ]
 }

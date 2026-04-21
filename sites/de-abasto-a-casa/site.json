@@ -9,9 +9,9 @@
     "es"
   ],
   "contact": {
-    "phone": "+595000000000",
+    "phone": "+595981324569",
     "email": "hola@deabastoacasa.com.py",
-    "whatsapp": "+595000000000",
+    "whatsapp": "+595981324569",
     "instagram": "@deabastoacasa"
   },
   "location": {
@@ -35,5 +35,6 @@
     "testimonials": true
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
-  "migratedAt": "2026-04-20"
+  "migratedAt": "2026-04-20",
+  "is_demo": false
 }

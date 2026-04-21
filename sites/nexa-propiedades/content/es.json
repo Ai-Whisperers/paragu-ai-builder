@@ -38,7 +38,7 @@
     },
     "hero": {
       "headline": "Encuentra tu hogar ideal en Paraguay",
-      "subheadline": "Más de 500 propiedades disponibles en Asunción y las mejores zonas del país.",
+      "subheadline": "Propiedades curadas en Asunción y las zonas más buscadas del país. Búsqueda guiada por nuestro equipo, contacto directo por WhatsApp.",
       "ctaPrimaryText": "Ver Propiedades",
       "ctaPrimaryHref": "/s/es/nexa-propiedades/propiedades",
       "ctaSecondaryText": "Contactar Agente",
@@ -92,7 +92,7 @@
   "contact": {
     "title": "Contacto",
     "subtitle": "Estamos aquí para ayudarte",
-    "phone": "+595 981 234 567",
+    "phone": "+595 982 515 138",
     "email": "info@nexapropiedades.com",
     "address": "Av. Aviadores del Chaco 1234, Asunción",
     "hours": "Lunes a Viernes: 9:00 - 18:00"
@@ -136,11 +136,11 @@
     "businessName": "Nexa Propiedades",
     "tagline": "Tu socio de confianza en bienes raíces",
     "address": "Av. Aviadores del Chaco 1234, Asunción, Paraguay",
-    "phone": "+595 981 234 567",
+    "phone": "+595 982 515 138",
     "email": "info@nexapropiedades.com"
   },
   "whatsapp": {
-    "phone": "+595 981 234 567",
+    "phone": "+595 982 515 138",
     "message": "Hola, me interesa conocer más sobre las propiedades disponibles."
   },
   "propertiesPage": {
@@ -196,7 +196,7 @@
     },
     "contact": {
       "title": "Información de Contacto",
-      "phone": "+595 981 234 567",
+      "phone": "+595 982 515 138",
       "email": "info@nexapropiedades.com",
       "address": "Av. Aviadores del Chaco 1234, Asunción"
     }

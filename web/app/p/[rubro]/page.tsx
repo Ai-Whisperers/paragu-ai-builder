@@ -6,15 +6,38 @@ import { Container } from '@/components/ui/container'
 import { SiteNav } from '@/components/landing/site-nav'
 import { SiteFooter } from '@/components/landing/site-footer'
 import { LIVE_TEMPLATES, TEMPLATES, waLink, type Template } from '@/lib/landing/marketing-data'
+import { listSiteSlugs } from '@/lib/engine/site-loader'
 
 type Params = { rubro: string }
 
 function findTemplate(rubro: string): Template | undefined {
-  return LIVE_TEMPLATES.find((t) => (t.seoSlug ?? t.id.replace(/_/g, '-')) === rubro)
+  // Search full TEMPLATES (not just LIVE_TEMPLATES) so templates with only
+  // a batch-generated demo (demoSlug: null, but sites/demo-<rubro>/ exists)
+  // still resolve via the seoSlug/id match.
+  return TEMPLATES.find((t) => (t.seoSlug ?? t.id.replace(/_/g, '-')) === rubro)
+}
+
+// Returns the /demo/<rubro> href when a batch-generated demo tenant exists
+// for this rubro (see sites/_demo-roster.json + /demo/[rubro] route).
+// Used as a fallback when a template has no curated demoSlug.
+function batchDemoHref(rubro: string): string | null {
+  const slug = `demo-${rubro}`
+  return listSiteSlugs().includes(slug) ? `/demo/${rubro}` : null
 }
 
 export function generateStaticParams() {
-  return LIVE_TEMPLATES.map((t) => ({ rubro: t.seoSlug ?? t.id.replace(/_/g, '-') }))
+  // Include any template that has EITHER a curated demo (LIVE_TEMPLATES) OR
+  // a batch-generated demo tenant (sites/demo-<rubro>/). This opens up SEO
+  // landing pages for templates like inmobiliaria/maquillaje that were
+  // previously invisible because their curated demoSlug was null.
+  const demoSlugs = new Set(listSiteSlugs())
+  return TEMPLATES
+    .filter((t) => {
+      if (t.demoSlug !== null) return true
+      const rubro = t.seoSlug ?? t.id.replace(/_/g, '-')
+      return demoSlugs.has(`demo-${rubro}`)
+    })
+    .map((t) => ({ rubro: t.seoSlug ?? t.id.replace(/_/g, '-') }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
@@ -28,7 +51,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   return {
     title,
     description,
-    alternates: { canonical: `/p/${rubro}` },
+    alternates: {
+      canonical: `/p/${rubro}`,
+      languages: { 'es-PY': `/p/${rubro}`, 'en': `/en/p/${rubro}` },
+    },
     openGraph: { title, description, type: 'website' },
   }
 }
@@ -45,13 +71,51 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
 
   const waMessage = `Hola, me interesa la plantilla de ${t.name} para mi negocio en Paraguay.`
 
+  // Demo target priority: curated tenant slug wins (more polished copy/photos);
+  // fall back to the batch-generated /demo/<rubro> tenant when no curated one
+  // exists. Kept as a single button — users don't need to choose between demos.
+  const demoHref = t.demoSlug ? `/${t.demoSlug}` : batchDemoHref(rubro)
+
   const sister = LIVE_TEMPLATES.filter((x) => x.id !== t.id).slice(0, 4)
+
+  // Service schema for richer Google snippets. Per-vertical so each landing
+  // emits its own structured data (e.g. "Sitio web para peluquerías" as a
+  // distinct service from "Sitio web para gimnasios").
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Sitio web para ${t.name.toLowerCase()}`,
+    serviceType: 'Website Builder',
+    description: lead,
+    provider: {
+      '@type': 'Organization',
+      name: 'ParaguAI Builder',
+      url: 'https://paragu-ai.com',
+    },
+    areaServed: { '@type': 'Country', name: 'Paraguay' },
+    audience: {
+      '@type': 'BusinessAudience',
+      audienceType: t.name,
+    },
+    offers: {
+      '@type': 'Offer',
+      price: '650000',
+      priceCurrency: 'PYG',
+      url: 'https://paragu-ai.com/precios',
+      availability: 'https://schema.org/InStock',
+      description: 'Plan Presencia: setup único Gs 650.000 + Gs 100.000/mes. Sin permanencia.',
+    },
+  }
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <SiteNav />
 
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24">
           <div
@@ -89,9 +153,9 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
                   Pedir demo gratis
                   <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
                 </a>
-                {t.demoSlug && (
+                {demoHref && (
                   <Link
-                    href={`/${t.demoSlug}`}
+                    href={demoHref}
                     className="inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-8 py-4 text-lg font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
                   >
                     Ver demo en vivo

@@ -37,6 +37,11 @@ import { MembershipPlansSection } from '@/components/sections/membership-plans-s
 import { PortfolioSection } from '@/components/sections/portfolio-section'
 import { QuoteFormSection } from '@/components/sections/quote-form-section'
 import { RoomBookingSection } from '@/components/sections/room-booking-section'
+// Egg-farm / granja-cabral sections (PR #108)
+import { EnhancedFAQSection } from '@/components/sections/enhanced-faq-section'
+import { OurStorySection } from '@/components/sections/our-story-section'
+import { B2BWholesaleSection } from '@/components/sections/b2b-wholesale-section'
+import { RecipeSection } from '@/components/sections/recipe-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -69,6 +74,11 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   portfolio: PortfolioSection,
   'quote-form': QuoteFormSection,
   'room-booking': RoomBookingSection,
+  // Egg-farm / granja-cabral sections (PR #108)
+  'enhanced-faq': EnhancedFAQSection,
+  'our-story': OurStorySection,
+  'b2b-wholesale': B2BWholesaleSection,
+  recipes: RecipeSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {

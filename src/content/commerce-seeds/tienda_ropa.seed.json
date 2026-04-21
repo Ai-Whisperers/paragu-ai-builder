@@ -1,0 +1,57 @@
+{
+  "type": "tienda_ropa",
+  "note": "Stock photos from Unsplash (free for commercial use). SeedImage wrapper renders an 'Ejemplo' watermark until the owner replaces them.",
+  "products": [
+    {
+      "slug": "remera-basica-blanca",
+      "name": "Remera Básica Blanca",
+      "category": "mujer",
+      "priceCents": 85000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200&q=80", "alt": "Remera básica blanca", "isCover": true }
+      ],
+      "inventoryQty": 10
+    },
+    {
+      "slug": "jean-recto-azul",
+      "name": "Jean Recto Azul",
+      "category": "mujer",
+      "priceCents": 180000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=1200&q=80", "alt": "Jean recto azul", "isCover": true }
+      ],
+      "inventoryQty": 8
+    },
+    {
+      "slug": "camisa-blanca-hombre",
+      "name": "Camisa Blanca Clásica",
+      "category": "hombre",
+      "priceCents": 165000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=1200&q=80", "alt": "Camisa blanca", "isCover": true }
+      ],
+      "inventoryQty": 12
+    },
+    {
+      "slug": "cartera-cuero",
+      "name": "Cartera de Cuero",
+      "category": "accesorios",
+      "priceCents": 250000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200&q=80", "alt": "Cartera de cuero", "isCover": true }
+      ],
+      "inventoryQty": 5
+    },
+    {
+      "slug": "zapatillas-blancas",
+      "name": "Zapatillas Blancas",
+      "category": "accesorios",
+      "priceCents": 320000,
+      "compareAtPriceCents": 400000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80", "alt": "Zapatillas blancas", "isCover": true }
+      ],
+      "inventoryQty": 7
+    }
+  ]
+}

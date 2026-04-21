@@ -27,22 +27,6 @@ const queryCache = new LRUCache<string, any>(CACHE_CONFIG)
 const pendingRequests = new Map<string, Promise<unknown>>()
 
 /**
- * Generate cache key from query parameters
- */
-function generateCacheKey(
-  table: string,
-  operation: string,
-  params: Record<string, unknown>
-): string {
-  const sortedParams = Object.entries(params)
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([k, v]) => `${k}=${JSON.stringify(v)}`)
-    .join('&')
-  
-  return `${table}:${operation}:${sortedParams}`
-}
-
-/**
  * Execute a query with caching
  * 
  * @param key - Unique cache key

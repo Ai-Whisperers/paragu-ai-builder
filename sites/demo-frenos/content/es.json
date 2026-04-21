@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Especialista en Frenos Capiata",
+  "tagline": "Especialista Frenos profesional en Capiata.",
+  "placeholders": {
+    "businessName": "Demo Especialista en Frenos Capiata",
+    "city": "Capiata",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Especialista en Frenos Capiata",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Especialista en Frenos Capiata - Especialista Frenos en Capiata",
+      "description": "Especialista Frenos profesional en Capiata. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Especialista en Frenos Capiata - Especialista Frenos",
+      "subheadline": "Especialista Frenos profesional en Capiata.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Especialista%20en%20Frenos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Capiata",
+      "formSource": "demo",
+      "demoRubro": "brake_specialist"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Especialista en Frenos Capiata",
+    "copyright": "© {{year}} Demo Especialista en Frenos Capiata",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Especialista en Frenos y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "orthopedic_supply",
+  "nameEs": "Ortopedia",
+  "nameEn": "Orthopedic Supply",
+  "verticalId": "health-wellness",
+  "subVertical": "medical-supply",
+  "extends": "health_wellness_base",
+  "tokens": "orthopedic_supply",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Ortopedia en {{city}}",
+    "descriptionTemplate": "Productos ortopedicos, sillas de ruedas, muletas, plantillas y fajas en {{city}}. Entrega a domicilio y obras sociales.",
+    "keywords": [
+      "ortopedia {{city}}",
+      "sillas de ruedas {{city}}",
+      "plantillas ortopedicas {{neighborhood}}",
+      "muletas andadores {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ortopedia",
+    "subheadlineTemplate": "Productos ortopedicos con entrega a domicilio en {{city}}."
+  }
+}

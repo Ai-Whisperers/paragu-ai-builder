@@ -1,24 +1,15 @@
+#:schema node_modules/wrangler/config-schema.json
+# Minimal wrangler config for @opennextjs/cloudflare.
+# The real deployment target (paragu-ai.pages.dev / *.workers.dev) is
+# configured in the Cloudflare dashboard; this file just satisfies the
+# adapter's requirement for a wrangler config to bind assets and the
+# entrypoint worker.
 name = "paragu-ai-builder"
 main = ".open-next/worker.js"
-compatibility_date = "2025-04-01"
+compatibility_date = "2025-03-25"
 compatibility_flags = ["nodejs_compat"]
 
-[observability]
-enabled = true
-
-# Analytics Engine — custom time-series metrics (latency, counters).
-# See lib/obs/metrics.ts for the writer. Each write costs $0.25 / 1M.
-# TEMPORARILY DISABLED 2026-04-20: Analytics Engine must be enabled on the
-# Cloudflare account before this binding can be published. Enable via
-# the dashboard (Workers → Analytics Engine). Until then, metrics emissions
-# are silent no-ops (lib/obs/metrics.ts falls back when binding is absent).
-# [[analytics_engine_datasets]]
-# binding = "METRICS"
-# dataset = "paragu_ai_metrics"
-
+# Static asset binding required by @opennextjs/cloudflare
 [assets]
-directory = ".open-next/assets"
 binding = "ASSETS"
-
-[vars]
-NEXT_PUBLIC_SITE_URL = "https://paragu-ai.com"
+directory = ".open-next/assets"

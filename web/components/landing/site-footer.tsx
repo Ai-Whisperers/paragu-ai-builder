@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Wand2 } from 'lucide-react'
 import { Container } from '@/components/ui/container'
+import { Heading } from '@/components/ui/heading'
 
 const FOOTER_GROUPS = [
   {
@@ -25,6 +26,7 @@ const FOOTER_GROUPS = [
     title: 'Recursos',
     links: [
       { href: '/blog', label: 'Blog' },
+      { href: '/c', label: 'Por ciudad' },
       { href: '/seguridad', label: 'Privacidad y datos' },
       { href: '/#faq', label: 'FAQ' },
       { href: '/admin', label: 'Acceso clientes' },
@@ -53,7 +55,7 @@ export function SiteFooter() {
           </div>
           {FOOTER_GROUPS.map((group) => (
             <div key={group.title}>
-              <h4 className="mb-4 font-bold text-[var(--text)]">{group.title}</h4>
+              <Heading level={3} className="mb-4 font-bold text-[var(--text)]">{group.title}</Heading>
               <ul className="space-y-2 text-[var(--text-muted)]">
                 {group.links.map((link) => (
                   <li key={link.href}>

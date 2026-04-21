@@ -153,6 +153,44 @@ export interface BusinessData {
     title: string
     description: string
   }>
+  /**
+   * When true, the rendered page shows a `<DemoBadge>` ribbon so prospects
+   * know it's not a real client. Defaults false (real tenants).
+   */
+  isDemo?: boolean
+
+  /**
+   * Admin-edited content overrides. Populated from
+   * `businesses.data_json.content` by the data-loader. Section builders
+   * should prefer these over defaults when present. Shape matches
+   * `lib/commerce/business-content.ts` — kept as unknown here to avoid a
+   * circular type dependency.
+   */
+  contentOverrides?: {
+    hero?: {
+      headline?: string
+      subheadline?: string
+      ctaPrimaryText?: string
+      ctaPrimaryHref?: string
+      ctaSecondaryText?: string
+      ctaSecondaryHref?: string
+      backgroundImageUrl?: string
+    }
+    about?: { title?: string; body?: string; imageUrl?: string }
+    testimonials?: {
+      items?: Array<{ name: string; quote: string; photoUrl?: string; role?: string; rating?: number }>
+    }
+    faq?: { items?: Array<{ question: string; answer: string }> }
+    contact?: {
+      phone?: string
+      whatsapp?: string
+      email?: string
+      address?: string
+      city?: string
+      googleMapsUrl?: string
+      hours?: Array<{ day: string; open?: string; close?: string; closed?: boolean }>
+    }
+  }
 }
 
 export interface ComposedPage {
@@ -197,7 +235,7 @@ function loadContent(type: string): ContentTemplate | null {
 
   // Floor: synthesize from registry data. Lazy-require avoids circular import
   // with content-defaults → static-config.
-   
+  // eslint-disable-next-line @typescript-eslint/no-require-imports -- Breaks cycle with content-defaults; ESM dynamic import would force this fn async.
   const { defaultContentFor } = require('./content-defaults') as typeof import('./content-defaults')
   return defaultContentFor(type)
 }

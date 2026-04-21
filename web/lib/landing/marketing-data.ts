@@ -33,7 +33,7 @@ export const TEMPLATES: readonly Template[] = [
   { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: 'Palette', leads: 100, pct: 80, color: '#c44569', demoSlug: 'dayah-litworks', seoHeadline: 'Sitio web para diseñadores gráficos — portfolio profesional en minutos', seoLead: 'Portfolio en grilla, proceso de trabajo, precios en USD o Gs y contacto directo. Ideal para freelancers.' },
   { id: 'pestanas', name: 'Pestañas y Cejas', icon: 'Eye', leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore', seoHeadline: 'Sitio web para pestañas y cejas — catálogo visual y reservas', seoLead: 'Catálogo de estilos, duración del trabajo, precios y turnos por WhatsApp. Optimizado para Instagram.' },
   { id: 'depilacion', name: 'Depilación', icon: 'Zap', leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta', seoHeadline: 'Sitio web para centros de depilación — zonas, precios y turnos', seoLead: 'Zonas por sesión, paquetes, preguntas frecuentes y reservas por WhatsApp en una sola página.' },
-  { id: 'relocation', name: 'Reubicación', icon: 'Globe', leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexaparaguay', seoHeadline: 'Sitio web para servicios de reubicación — multi-idioma y profesional', seoLead: 'Sitio serio para clientes internacionales, multi-idioma, con proceso de trabajo, casos de éxito y contacto directo.' },
+  { id: 'relocation', name: 'Reubicación', icon: 'Globe', leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexa-paraguay', seoHeadline: 'Sitio web para servicios de reubicación — multi-idioma y profesional', seoLead: 'Sitio serio para clientes internacionales, multi-idioma, con proceso de trabajo, casos de éxito y contacto directo.' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: 'ShoppingCart', leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa', seoHeadline: 'Sitio web para meal prep y entregas — menú semanal y pedidos por WhatsApp', seoLead: 'Menú semanal con precios en Gs, selección de platos y checkout directo por WhatsApp. Listo para escalar.' },
   { id: 'restaurant', name: 'Restaurante', icon: 'UtensilsCrossed', leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria', seoHeadline: 'Sitio web para restaurantes — menú, reservas y pedidos', seoLead: 'Menú digital, galería del local, reservas online o por WhatsApp. Optimizado para mobile.' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: 'Fish', leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi', seoHeadline: 'Sitio web para sushi bar — menú premium y delivery', seoLead: 'Diseño minimal japonés, menú con fotos, delivery por WhatsApp y galería del local.' },
@@ -157,6 +157,15 @@ export type Plan = {
   cta: string
   waMessage: string
   popular: boolean
+  /**
+   * Months the customer enjoys full Profesional-tier features regardless of
+   * which plan they actually paid for. Honor-system enforced today; once the
+   * `graceEndsAt` field is wired into the tenants table we'll downgrade
+   * features automatically. See docs/PRICING_ITERATION_V2.md.
+   */
+  premiumGraceMonths: number
+  /** Highlight badge shown on the plan card. Replaces the `popular` flag in v2. */
+  badge?: string
 }
 
 export const PLANS: readonly Plan[] = [
@@ -165,50 +174,54 @@ export const PLANS: readonly Plan[] = [
     name: 'Prueba',
     setup: 'Gratis',
     monthly: '3 meses',
-    period: 'sin costo',
-    description: 'Para validar antes de invertir',
+    period: 'full Profesional, sin costo',
+    description: 'Probá todo lo que ofrecemos antes de pagar nada',
     features: [
-      { text: 'Subdominio (negocio.paragu-ai.com)', included: true },
-      { text: '1 página lista para compartir', included: true },
-      { text: 'WhatsApp + Google Maps', included: true },
-      { text: 'Certificado SSL incluido', included: true },
-      { text: 'Dominio propio', included: false },
-      { text: 'Sin branding ParaguAI', included: false },
-      { text: 'Soporte personalizado', included: false },
+      { text: '3 meses con la experiencia Profesional completa', included: true },
+      { text: 'Subdominio negocio.paragu-ai.com', included: true },
+      { text: 'WhatsApp Business + Google Maps + SSL', included: true },
+      { text: 'Soporte por WhatsApp durante la prueba', included: true },
+      { text: 'Después de los 3 meses: el sitio sigue online con marca ParaguAI', included: true },
+      { text: 'Dominio propio incluido', included: false },
+      { text: 'Sin marca ParaguAI', included: false },
     ],
-    cta: 'Solicitar demo',
-    waMessage: 'Hola, quiero probar ParaguAI gratis para mi negocio.',
+    cta: 'Pedir demo gratis',
+    waMessage: 'Hola, quiero probar ParaguAI gratis (3 meses Profesional) para mi negocio.',
     popular: false,
+    premiumGraceMonths: 3,
   },
   {
     id: 'presencia',
     name: 'Presencia',
     setup: 'Gs 650.000',
     monthly: 'Gs 100.000',
-    period: 'por mes',
-    description: 'Tu primer sitio profesional',
+    period: 'por mes (después de 7 meses Profesional gratis)',
+    description: 'Tu primer sitio profesional · 7 meses con todo desbloqueado',
     features: [
-      { text: 'Hasta 5 páginas', included: true },
+      { text: '7 meses con la experiencia Profesional completa', included: true },
+      { text: 'Hasta 5 páginas en tu plan base', included: true },
       { text: 'Dominio propio (.com.py) incluido 1 año', included: true },
       { text: 'Hasta 15 fotos optimizadas', included: true },
       { text: 'Formulario + WhatsApp Business', included: true },
       { text: 'SEO básico + Google Maps', included: true },
       { text: '2 cambios de contenido al mes', included: true },
-      { text: 'Soporte por WhatsApp', included: true },
+      { text: 'WhatsApp dedicado + check-in mensual', included: true },
     ],
     cta: 'Comenzar Presencia',
-    waMessage: 'Hola, me interesa el plan Presencia (Gs 650.000 + 100.000/mes).',
+    waMessage: 'Hola, me interesa el plan Presencia (Gs 650.000 + 100.000/mes, con 7 meses Profesional incluidos).',
     popular: false,
+    premiumGraceMonths: 7,
   },
   {
     id: 'crecimiento',
     name: 'Crecimiento',
     setup: 'Gs 1.200.000',
     monthly: 'Gs 150.000',
-    period: 'por mes',
-    description: 'Reservas, blog y e-commerce',
+    period: 'por mes (después de 8 meses Profesional gratis)',
+    description: 'Reservas, blog y e-commerce · 8 meses con todo desbloqueado',
     features: [
-      { text: 'Todo lo de Presencia', included: true },
+      { text: '8 meses con la experiencia Profesional completa', included: true },
+      { text: 'Todo lo de Presencia en tu plan base', included: true },
       { text: 'Páginas ilimitadas', included: true },
       { text: 'Sistema de reservas online', included: true },
       { text: 'Catálogo con hasta 20 productos', included: true },
@@ -217,18 +230,21 @@ export const PLANS: readonly Plan[] = [
       { text: '5 cambios al mes + soporte prioritario', included: true },
     ],
     cta: 'Comenzar Crecimiento',
-    waMessage: 'Hola, me interesa el plan Crecimiento (Gs 1.200.000 + 150.000/mes).',
+    waMessage: 'Hola, me interesa el plan Crecimiento (Gs 1.200.000 + 150.000/mes, con 8 meses Profesional incluidos).',
     popular: true,
+    badge: 'Más recomendado',
+    premiumGraceMonths: 8,
   },
   {
     id: 'profesional',
     name: 'Profesional',
     setup: 'Gs 2.200.000',
     monthly: 'Gs 300.000',
-    period: 'por mes',
-    description: 'Cadenas, franquicias, multi-sucursal',
+    period: 'por mes · siempre full Profesional',
+    description: 'Cadenas, franquicias, multi-sucursal — sin downgrades, nunca',
     features: [
-      { text: 'Todo lo de Crecimiento', included: true },
+      { text: 'Experiencia Profesional completa, siempre', included: true },
+      { text: 'Todo lo de Crecimiento sin límite de tiempo', included: true },
       { text: 'Hasta 5 sucursales / locales', included: true },
       { text: 'Sitio multi-idioma (es/en/pt)', included: true },
       { text: 'Integraciones personalizadas', included: true },
@@ -239,6 +255,7 @@ export const PLANS: readonly Plan[] = [
     cta: 'Hablar con ventas',
     waMessage: 'Hola, me interesa el plan Profesional (Gs 2.200.000 + 300.000/mes).',
     popular: false,
+    premiumGraceMonths: 0,
   },
 ] as const
 
@@ -255,7 +272,7 @@ export const FEATURES = [
   { icon: 'Globe', title: 'Dominio propio', desc: 'Tu URL profesional .com.py con SSL y emails incluidos el primer año.' },
   { icon: 'Search', title: 'SEO integrado', desc: 'Meta tags, Schema.org y contenido optimizado para aparecer en Google desde el día uno.' },
   { icon: 'Smartphone', title: '100% responsive', desc: 'Se ve perfecto en móvil, tablet y desktop. Optimizado para la forma en que miran tus clientes.' },
-  { icon: 'Layers', title: '16 plantillas listas', desc: 'Diseños especializados por rubro, con 7 más en camino. Generados y ajustados por humanos antes de publicar.' },
+  { icon: 'Layers', title: 'Plantillas por rubro', desc: 'Diseños especializados pensados para tu tipo de negocio. Cada cliente arranca con la base correcta y ajustamos a tu marca.' },
 ] as const
 
 export const STEPS = [
@@ -265,7 +282,7 @@ export const STEPS = [
 ] as const
 
 export const SITE_CONFIG = {
-  whatsapp: '595981234567',
+  whatsapp: '595981324569',
   domain: 'paragu-ai.com',
   companyName: 'ParaguAI Builder',
   marketSize: 7463,

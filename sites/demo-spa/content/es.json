@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Spa Ciudad del Este",
+  "tagline": "Spa de Dia profesional en Ciudad del Este.",
+  "placeholders": {
+    "businessName": "Demo Spa Ciudad del Este",
+    "city": "Ciudad del Este",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Spa Ciudad del Este",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Spa Ciudad del Este - Spa de Dia en Ciudad del Este",
+      "description": "Spa de Dia profesional en Ciudad del Este. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Spa Ciudad del Este - Spa de Dia",
+      "subheadline": "Spa de Dia profesional en Ciudad del Este.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Spa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Ciudad del Este",
+      "formSource": "demo",
+      "demoRubro": "day_spa"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Spa Ciudad del Este",
+    "copyright": "© {{year}} Demo Spa Ciudad del Este",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Spa y me interesa un sitio para mi negocio"
+  }
+}

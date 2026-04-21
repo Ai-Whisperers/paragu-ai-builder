@@ -23,6 +23,9 @@ web/.env
 web/.env.local
 web/.env.*.local
 
+# Filled-in launch questionnaire — contains real secrets and personal data
+LAUNCH_READINESS_QUESTIONNAIRE.md
+
 # IDE
 .vscode/
 .idea/
@@ -60,3 +63,10 @@ web/.vercel/
 .wrangler/
 web/.wrangler/
 start-local.sh
+
+# Launch-readiness questionnaire (filled, contains real contact data)
+LAUNCH_READINESS_QUESTIONNAIRE.md
+
+# Claude Code isolated agent worktrees — ephemeral, never commit
+# (tracking these as gitlinks without .gitmodules breaks Cloudflare Pages)
+.claude/worktrees/

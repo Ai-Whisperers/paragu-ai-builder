@@ -3,20 +3,29 @@
  * Win 68: Page view tracking API
  */
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import { logger } from '@/lib/logger'
 
-// Initialize Supabase client
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY
+// Module-scoped, memoized client. First request pays the init cost (~tens
+// of ms — just wrapper construction, no network); every subsequent request
+// reuses the same instance. Previous implementation created a fresh client
+// per request, which shows up as cold-start latency on the first POST
+// after a container restart.
+//
+// Not memoized at module top-level because `next build` page-data collection
+// runs without Supabase env vars — would throw there.
+let cachedClient: SupabaseClient | null = null
 
-if (!supabaseUrl || !supabaseServiceKey) {
-  throw new Error('Missing Supabase credentials')
+function getSupabase(): SupabaseClient {
+  if (cachedClient) return cachedClient
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY
+  if (!url || !key) throw new Error('Missing Supabase credentials')
+  cachedClient = createClient(url, key, {
+    auth: { autoRefreshToken: false, persistSession: false },
+  })
+  return cachedClient
 }
-
-const supabase = createClient(supabaseUrl, supabaseServiceKey, {
-  auth: { autoRefreshToken: false, persistSession: false }
-})
 
 // Valid event types
 const VALID_EVENT_TYPES = [
@@ -56,6 +65,7 @@ interface TrackEventBody {
  */
 export async function POST(request: NextRequest) {
   try {
+    const supabase = getSupabase()
     const body: TrackEventBody = await request.json()
     
     // Validate required fields
@@ -148,12 +158,14 @@ export async function GET(request: NextRequest) {
         { status: 401 }
       )
     }
-    
+
+    const supabase = getSupabase()
+
     // Parse time range from query params
     const { searchParams } = new URL(request.url)
     const days = parseInt(searchParams.get('days') || '7')
     const eventType = searchParams.get('eventType')
-    
+
     // Build query
     let query = supabase
       .from('analytics_events')
@@ -207,9 +219,12 @@ export async function GET(request: NextRequest) {
 
 // Helper functions
 async function hashIp(ip: string): Promise<string> {
-  // Simple hash for privacy
+  // Salt for k-anonymity. Operator precedence: + binds tighter than ||,
+  // so the previous `ip + process.env.SALT || 'paragu-ai'` always took
+  // the first operand (a non-empty string), making the fallback dead.
+  const salt = process.env.ANALYTICS_SALT || 'paragu-ai'
   const encoder = new TextEncoder()
-  const data = encoder.encode(ip + process.env.ANALYTICS_SALT || 'paragu-ai')
+  const data = encoder.encode(ip + salt)
   const hashBuffer = await crypto.subtle.digest('SHA-256', data)
   const hashArray = Array.from(new Uint8Array(hashBuffer))
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 16)

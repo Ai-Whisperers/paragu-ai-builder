@@ -53,6 +53,11 @@ import { PropertyListingsSection } from '@/components/sections/property-listings
 import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
 import { TieredServiceLadderSection } from '@/components/sections/tiered-service-ladder-section'
 import { RegulatoryStatusBadgeSection } from '@/components/sections/regulatory-status-badge-section'
+import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
+import { MortgageCalculatorSection } from '@/components/sections/mortgage-calculator-section'
+import { WeeklyCadenceCalendarSection } from '@/components/sections/weekly-cadence-calendar-section'
+import { SampleWeekPreviewSection } from '@/components/sections/sample-week-preview-section'
+import { DeliverySlotPickerSection } from '@/components/sections/delivery-slot-picker-section'
 // Egg farm sections
 import { StockIndicator } from '@/components/sections/stock-indicator-section'
 import { DeliveryCalculator } from '@/components/sections/delivery-calculator-section'
@@ -130,6 +135,13 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'tiered-service-ladder': TieredServiceLadderSection,
   // Compliance / licenses / certifications
   'regulatory-status-badge': RegulatoryStatusBadgeSection,
+  'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
+  // Real estate calculators
+  'mortgage-calculator': MortgageCalculatorSection,
+  // Subscription / retention (meal-prep, weekly delivery)
+  'weekly-cadence-calendar': WeeklyCadenceCalendarSection,
+  'sample-week-preview': SampleWeekPreviewSection,
+  'delivery-slot-picker': DeliverySlotPickerSection,
 }
 
 export function renderSection(section: ComposedSection): React.ReactNode {

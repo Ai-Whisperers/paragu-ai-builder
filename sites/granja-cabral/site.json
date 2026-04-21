@@ -1,0 +1,49 @@
+{
+  "vertical": "agriculture-agribusiness",
+  "businessType": "egg_farm",
+  "country": "Paraguay",
+  "domain": "granjacabral.com.py",
+  "stagingDomain": "staging.granjacabral.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "phone": "+595981324569",
+    "email": "info@granjacabral.com",
+    "whatsapp": "+595981324569",
+    "instagram": "@granjacabral"
+  },
+  "location": {
+    "address": "Ruta 2, Km 125-140",
+    "city": "Coronel Oviedo",
+    "department": "Caaguazu"
+  },
+  "hours": {
+    "Lunes - Sabado": "07:00 - 18:00",
+    "Domingo": "Cerrado"
+  },
+  "integrations": {
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "deliveryCalculator": true,
+    "preorder": true,
+    "recipes": true,
+    "referral": true,
+    "subscription": true
+  },
+  "placeholderFields": {
+    "whatsapp": "+595981324569 is a placeholder — confirm with Laura",
+    "phone": "+595981324569 is a placeholder — confirm with Laura",
+    "email": "info@granjacabral.com unverified — confirm with Laura",
+    "instagram": "@granjacabral unverified — confirm with Laura",
+    "address": "Ruta 2 Km 125-140 is approximate — confirm exact km with Laura"
+  },
+  "migratedFrom": "web/lib/engine/demo-data.ts",
+  "migratedAt": "2026-04-20",
+  "is_demo": true
+}

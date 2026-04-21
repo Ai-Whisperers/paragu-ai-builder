@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Panaderia Artesanal Asunción",
+  "tagline": "Panaderia Artesanal profesional en Asunción.",
+  "placeholders": {
+    "businessName": "Demo Panaderia Artesanal Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Panaderia Artesanal Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Panaderia Artesanal Asunción - Panaderia Artesanal en Asunción",
+      "description": "Panaderia Artesanal profesional en Asunción. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Panaderia Artesanal Asunción - Panaderia Artesanal",
+      "subheadline": "Panaderia Artesanal profesional en Asunción.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Panaderia%20Artesanal%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "artisan_bakery"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Panaderia Artesanal Asunción",
+    "copyright": "© {{year}} Demo Panaderia Artesanal Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Panaderia Artesanal y me interesa un sitio para mi negocio"
+  }
+}

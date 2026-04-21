@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Veterinaria Asunción",
+  "tagline": "Atencion veterinaria integral en Asunción con emergencia 24 horas",
+  "placeholders": {
+    "businessName": "Demo Veterinaria Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Veterinaria Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Veterinaria Asunción - Veterinaria en Asunción",
+      "description": "Atencion veterinaria integral en Asunción. Consultas, vacunas, cirugias y emergencias 24h."
+    },
+    "hero": {
+      "headline": "Demo Veterinaria Asunción - Cuidamos a tu mejor amigo",
+      "subheadline": "Atencion veterinaria integral en Asunción con emergencia 24 horas",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Veterinaria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "veterinaria"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Veterinaria Asunción",
+    "copyright": "© {{year}} Demo Veterinaria Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Veterinaria y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Centro de Colisiones Ciudad del Este",
+  "tagline": "Reparacion Choques profesional en Ciudad del Este.",
+  "placeholders": {
+    "businessName": "Demo Centro de Colisiones Ciudad del Este",
+    "city": "Ciudad del Este",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Centro de Colisiones Ciudad del Este",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Centro de Colisiones Ciudad del Este - Reparacion Choques en Ciudad del Este",
+      "description": "Reparacion Choques profesional en Ciudad del Este. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Centro de Colisiones Ciudad del Este - Reparacion Choques",
+      "subheadline": "Reparacion Choques profesional en Ciudad del Este.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Centro%20de%20Colisiones%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Ciudad del Este",
+      "formSource": "demo",
+      "demoRubro": "collision_repair_center"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Centro de Colisiones Ciudad del Este",
+    "copyright": "© {{year}} Demo Centro de Colisiones Ciudad del Este",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Centro de Colisiones y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "vertical": "pets-animals",
+  "businessType": "dog_boarding_kennel",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.dog.boarding.kennel.py"
+  },
+  "location": {
+    "city": "Capiata"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "dog_boarding_kennel",
+  "demoWave": 1,
+  "demoCluster": "I Pets",
+  "noindex": true,
+  "createdAt": "2026-04-21",
+  "source": "batch-create-demos",
+  "is_demo": true
+}

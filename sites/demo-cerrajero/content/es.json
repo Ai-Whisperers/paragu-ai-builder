@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Cerrajero Lambare",
+  "tagline": "Aperturas, cerraduras, copias y emergencias en Lambare. Respondemos en 30 minutos.",
+  "placeholders": {
+    "businessName": "Demo Cerrajero Lambare",
+    "city": "Lambare",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Cerrajero Lambare",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Cerrajero Lambare - Cerrajero 24h en Lambare",
+      "description": "Cerrajero 24 horas en Lambare. Aperturas, cerraduras, copias de llaves, autos y cajas fuertes."
+    },
+    "hero": {
+      "headline": "Demo Cerrajero Lambare - Cerrajero 24 horas",
+      "subheadline": "Aperturas, cerraduras, copias y emergencias en Lambare. Respondemos en 30 minutos.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cerrajero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Lambare",
+      "formSource": "demo",
+      "demoRubro": "cerrajero"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Cerrajero Lambare",
+    "copyright": "© {{year}} Demo Cerrajero Lambare",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Cerrajero y me interesa un sitio para mi negocio"
+  }
+}

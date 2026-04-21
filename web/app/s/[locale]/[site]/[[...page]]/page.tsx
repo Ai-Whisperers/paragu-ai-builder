@@ -8,6 +8,7 @@ import { isLocale, type Locale } from '@/lib/i18n/config'
 import { jsonLdForPage } from '@/lib/engine/schema-org'
 import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
+import { DemoBadge } from '@/components/universal/demo-badge'
 import { loadVerticalCopy } from '@/lib/engine/site-loader'
 import { logger } from '@/lib/logger'
 
@@ -25,7 +26,6 @@ export const dynamicParams = true
 const PRERENDER_SKIP_SITES = new Set<string>([
   'nexa-uruguay',
   'nexa-propiedades',
-  'nexaparaguay',
 ])
 
 export async function generateStaticParams() {
@@ -62,6 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const composed = composeSitePage({ siteSlug, locale, pageSlug })
     const site = composed.site
     const alternates = alternatesFor(siteSlug, site.locales, pageSlug === 'home' ? '' : pageSlug)
+    const isDemo = Boolean((site as { is_demo?: boolean }).is_demo)
     return {
       title: composed.meta.title,
       description: composed.meta.description,
@@ -71,6 +72,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: composed.meta.description,
         locale,
       },
+      // Demo tenants must not compete in search with real client sites or
+      // the marketing site itself. Excludes them from indexing while still
+      // serving the page for prospects we link manually.
+      ...(isDemo && { robots: { index: false, follow: false } }),
     }
   } catch {
     return { title: 'Not found' }
@@ -134,6 +139,8 @@ export default async function TenantPage({ params }: Props) {
       >
         {renderPage(composed)}
       </div>
+
+      <DemoBadge isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} vertical={composed.site.vertical} />
 
       {ga4MeasurementId && <Ga4Loader measurementId={ga4MeasurementId} />}
 

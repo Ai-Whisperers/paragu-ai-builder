@@ -52,35 +52,52 @@ interface BusinessRow {
     heroImage?: string
     features?: BusinessData['features']
     processSteps?: BusinessData['processSteps']
+    content?: BusinessData['contentOverrides']
   }
 }
 
 function rowToBusinessData(row: BusinessRow): BusinessData {
   const data = row.data_json || {}
+  const content = data.content
+  // Admin content editor can override top-level contact fields — when a
+  // merchant edits /admin/content/<id>, their values win over the row's
+  // dedicated columns. This way the editor is the source of truth once
+  // used, without forcing a column-level migration for every field.
+  const contactOverride = content?.contact
   return {
     slug: row.slug,
     name: row.name,
     type: row.type as BusinessType,
-    tagline: row.tagline,
-    city: row.city || 'Asuncion',
+    tagline: content?.hero?.subheadline || row.tagline,
+    city: contactOverride?.city || row.city || 'Asuncion',
     neighborhood: row.neighborhood,
-    address: row.address,
-    phone: row.phone,
-    email: row.email,
-    whatsapp: row.whatsapp,
+    address: contactOverride?.address || row.address,
+    phone: contactOverride?.phone || row.phone,
+    email: contactOverride?.email || row.email,
+    whatsapp: contactOverride?.whatsapp || row.whatsapp,
     instagram: row.instagram,
     facebook: row.facebook,
-    googleMapsUrl: row.google_maps_url,
+    googleMapsUrl: contactOverride?.googleMapsUrl || row.google_maps_url,
     hours: row.hours,
     services: data.services || [],
     products: data.products || [],
     team: data.team || [],
     gallery: data.gallery || [],
-    testimonials: data.testimonials || [],
-    heroImage: data.heroImage,
+    // Testimonials — prefer the admin-edited list if present
+    testimonials:
+      content?.testimonials?.items?.map((t) => ({
+        quote: t.quote,
+        author: t.name,
+        role: t.role,
+        rating: t.rating,
+      })) ||
+      data.testimonials ||
+      [],
+    heroImage: content?.hero?.backgroundImageUrl || data.heroImage,
     // Relocation-specific fields
     features: data.features,
     processSteps: data.processSteps,
+    contentOverrides: content,
   }
 }
 
@@ -128,8 +145,10 @@ export async function loadBusiness(slug: string): Promise<BusinessData | null> {
   // Fall back to lead data
   if (LEAD_BUSINESSES[slug]) return LEAD_BUSINESSES[slug]
 
-  // Fall back to demo data
-  return getDemoBusinessBySlug(slug)
+  // Fall back to demo data — these are explicitly fictional, mark as demo so
+  // <DemoBadge> renders the warning ribbon.
+  const demo = getDemoBusinessBySlug(slug)
+  return demo ? { ...demo, isDemo: true } : null
 }
 
 export async function loadAllSlugs(): Promise<string[]> {

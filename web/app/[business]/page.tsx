@@ -1,6 +1,7 @@
 import { notFound, redirect } from 'next/navigation'
 import { composePage } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
+import { DemoBadge } from '@/components/universal/demo-badge'
 import { loadBusiness } from '@/lib/engine/data-loader'
 import { getRegistry, REGISTRY_MAP } from '@/lib/engine/static-config'
 import { getAllDemoSlugs } from '@/lib/engine/demo-data'
@@ -16,6 +17,10 @@ import type { Metadata } from 'next'
  * Returns the locale-prefixed path if a matching site exists, else null.
  */
 function siteRedirectPath(slug: string): string | null {
+  // Legacy alias: /nexaparaguay (one-word) was the broken duplicate tenant
+  // before it was deleted. Anyone with the old URL bookmarked or in social
+  // graphs gets redirected to the canonical multi-locale route.
+  if (slug === 'nexaparaguay') return '/s/en/nexa-paraguay'
   try {
     const siteSlugs = listSiteSlugs()
     if (!siteSlugs.includes(slug)) return null
@@ -54,7 +59,6 @@ const PRERENDER_TOP_N_TYPES = 50
 const PRERENDER_SKIP = new Set([
   'dayah-litworks',
   'de-abasto-a-casa',
-  'nexaparaguay',
   'nexa-paraguay',
   'nexa-uruguay',
   'nexa-propiedades',
@@ -155,6 +159,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     other: {
       'schema:application': generateJsonLd(businessData, baseUrl),
     },
+    // Demo tenants must not compete in search. /demo qualifier converts.
+    ...(businessData.isDemo && { robots: { index: false, follow: false } }),
   }
 }
 
@@ -191,6 +197,7 @@ export default async function BusinessPage({ params }: Props) {
       >
         {renderSections(page.sections)}
       </div>
+      <DemoBadge isDemo={businessData.isDemo} vertical={businessData.type} />
     </>
   )
 }
