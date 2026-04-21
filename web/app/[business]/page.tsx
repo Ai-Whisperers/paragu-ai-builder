@@ -159,6 +159,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     other: {
       'schema:application': generateJsonLd(businessData, baseUrl),
     },
+    // Demo tenants must not compete in search. /demo qualifier converts.
+    ...(businessData.isDemo && { robots: { index: false, follow: false } }),
   }
 }
 

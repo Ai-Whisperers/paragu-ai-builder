@@ -73,9 +73,11 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
 
    
   // selectCached / batchInsert, so we capture it as a named const before return.
-  let queries: ReturnType<typeof buildScopedQueries>
-   
-  queries = buildScopedQueries(supabase, businessId, () => queries)
+  // The closure `() => queries` captures by reference, so it's safe even though
+  // the value isn't bound until after buildScopedQueries returns (the closure
+  // is only invoked later, well past initialization).
+  const queries: ReturnType<typeof buildScopedQueries> =
+    buildScopedQueries(supabase, businessId, () => queries)
   return queries
 }
 
