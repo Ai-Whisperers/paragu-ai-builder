@@ -12,6 +12,7 @@ import {
   isInWishlist,
   removeFromWishlist,
 } from '@/lib/stores/wishlist'
+import { QuickViewModal } from './quick-view-modal'
 
 interface Props {
   siteSlug: string
@@ -39,6 +40,7 @@ function getServerWishlistSnapshot(): boolean {
 export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
+  const [quickViewOpen, setQuickViewOpen] = useState(false)
   const cover = product.images.find((i) => i.isCover) ?? product.images[0] ?? null
   // Secondary image for hover swap — first non-cover image if the product
   // has more than one. Keeps the grid unchanged for single-image products.
@@ -101,6 +103,21 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
             </div>
           ) : null}
 
+          {/* Quick-view — absolute so clicks bypass the PDP Link. Shown on
+              hover (desktop) and always visible on touch devices. */}
+          <button
+            type="button"
+            onClick={(e) => {
+              e.preventDefault()
+              e.stopPropagation()
+              setQuickViewOpen(true)
+            }}
+            aria-label={`Vista rápida de ${product.name}`}
+            className="absolute bottom-2 left-2 rounded-full bg-white/90 px-3 py-1.5 text-xs font-medium text-[color:var(--text,#111)] shadow opacity-100 hover:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] sm:opacity-0 sm:group-hover:opacity-100"
+          >
+            👁️ Vista rápida
+          </button>
+
           {/* Wishlist heart — absolute so clicks bypass the PDP Link. */}
           <button
             type="button"
@@ -160,6 +177,14 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
           {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
         </button>
       </div>
+
+      <QuickViewModal
+        siteSlug={siteSlug}
+        locale={locale}
+        product={product}
+        open={quickViewOpen}
+        onClose={() => setQuickViewOpen(false)}
+      />
     </article>
   )
 }
