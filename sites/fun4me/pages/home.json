@@ -24,14 +24,24 @@
       "content": "home.trustBadges"
     },
     {
-      "id": "services",
-      "variant": "cards",
-      "content": "home.features"
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.trustSignals"
+    },
+    {
+      "id": "why-destination",
+      "variant": "three-col",
+      "content": "home.whyFun4me"
     },
     {
       "id": "services",
       "variant": "cards",
       "content": "home.categories"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process"
     },
     {
       "id": "testimonials",
