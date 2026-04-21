@@ -171,8 +171,8 @@
           "id": "tierras",
           "name": "Land Purchase",
           "description": "Nexa's own service. Full advisory.",
-          "price": "From USD 3,500",
-          "priceNote": "Depending on search scope and due diligence.",
+          "price": "Quote on request",
+          "priceNote": "Depending on search scope, land cost and due diligence.",
           "included": [
             "Profile and criteria definition",
             "Search and short-listing",
@@ -398,8 +398,8 @@
           "id": "land",
           "name": "Paraguay Land Program",
           "description": "Everything in Investor + land purchase.",
-          "price": "From USD 3,500+",
-          "priceNote": "Starting price for advisory. Land cost varies by parcel and scope.",
+          "price": "Quote on request",
+          "priceNote": "Depending on search scope, land cost and due diligence.",
           "included": [
             "Everything in Investor",
             "Strategic land search",
@@ -1979,6 +1979,85 @@
       "recommendationTitle": "Recommended program",
       "recommendationCta": "Talk to Nexa",
       "stepProgressLabel": "Step"
+    }
+  },
+  "beneluxPage": {
+    "seo": {
+      "title": "Benelux desk — Nexa Paraguay",
+      "description": "Dedicated desk for Dutch- and Belgian-speaking investors. Native Dutch founder, box 3 and emigratieheffing insight, EU tax-aware advisory."
+    },
+    "hero": {
+      "headline": "Benelux desk",
+      "subheadline": "For Nederlandse and Belgian investors considering Paraguay — native Dutch speaker leading Europe, EU tax context built in."
+    },
+    "trust": {
+      "eyebrow": "Voor Nederlanders en Belgen",
+      "title": "What a Dutch-native founder actually changes",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Native Dutch",
+          "description": "Dagelijkse communicatie in Nederlands. No translation friction."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Box 3 + emigratieheffing aware",
+          "description": "We plan the move knowing what the Belastingdienst will ask post-emigration."
+        },
+        {
+          "icon": "Clock",
+          "title": "CET + UTC-3 coverage",
+          "description": "European-hours response from Amsterdam, Paraguay-hours execution from Asunción."
+        }
+      ]
+    },
+    "pillars": {
+      "title": "Why Benelux investors pick Paraguay",
+      "pillars": [
+        {
+          "icon": "Percent",
+          "title": "10% IRE + 0% foreign",
+          "description": "Territorial system — no tax on foreign-source income. Substantially below NL 25% / BE 25% / DE 30%."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Real emigration path",
+          "description": "Full residency, not just a \"digital nomad\" visa. Works for permanent tax residency once NL/BE ties are unwound."
+        },
+        {
+          "icon": "Shield",
+          "title": "No EU blacklist",
+          "description": "Paraguay is not on the EU tax-haven list. Fewer friction points with NL/BE banks when reporting the move."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Benelux-specific questions",
+      "items": [
+        {
+          "q": "How does Paraguay interact with box 3?",
+          "a": "Once you emigrate and cut ties (woonplaatsverklaring uit Nederland), box 3 no longer applies. We coordinate the timing so you do not double-book a tax year."
+        },
+        {
+          "q": "What about the emigratieheffing on a Dutch BV?",
+          "a": "The exit tax on substantial interest (aanmerkelijk belang) can be deferred under the right structure. We work with Dutch tax counsel in parallel — we do not replace them."
+        },
+        {
+          "q": "Does Paraguay have a DTA with the Netherlands or Belgium?",
+          "a": "No bilateral DTA as of 2026, but Paraguay's territorial system means most practical scenarios do not need one. We structure around the reality."
+        },
+        {
+          "q": "Can I keep my BV / BVBA after emigrating?",
+          "a": "Yes, common arrangement — Paraguay residency + retained EU holding for specific business lines. We map the setup so both sides work."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Spreken we Nederlands of Vlaams?",
+      "subtitle": "Schedule a 30-minute call — in Dutch, English or Spanish.",
+      "ctaText": "Book free consultation",
+      "ctaHref": "/s/en/nexa-paraguay/contacto"
     }
   }
 }

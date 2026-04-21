@@ -171,8 +171,8 @@
           "id": "tierras",
           "name": "Grondaankoop",
           "description": "Eigen dienst van Nexa. Integraal advies.",
-          "price": "Vanaf USD 3.500",
-          "priceNote": "Afhankelijk van zoekomvang en due diligence.",
+          "price": "Op aanvraag",
+          "priceNote": "Afhankelijk van zoekopdracht, grondprijs en due diligence.",
           "included": [
             "Profiel- en criteriadefinitie",
             "Zoektocht en shortlist",
@@ -398,8 +398,8 @@
           "id": "tierras",
           "name": "Grondaankoop",
           "description": "Eigen dienst van Nexa. Integraal advies.",
-          "price": "Vanaf USD 3.500",
-          "priceNote": "Afhankelijk van zoekomvang en due diligence.",
+          "price": "Op aanvraag",
+          "priceNote": "Afhankelijk van zoekopdracht, grondprijs en due diligence.",
           "included": [
             "Profiel- en criteriadefinitie",
             "Zoektocht en shortlist",
@@ -1995,6 +1995,85 @@
       "recommendationTitle": "Aanbevolen programma",
       "recommendationCta": "Praten met Nexa",
       "stepProgressLabel": "Stap"
+    }
+  },
+  "beneluxPage": {
+    "seo": {
+      "title": "Benelux desk — Nexa Paraguay",
+      "description": "Speciale desk voor Nederlandse en Belgische investeerders. Nederlandstalige oprichter, box 3 + emigratieheffing kennis, EU-fiscaal bewust."
+    },
+    "hero": {
+      "headline": "Benelux desk",
+      "subheadline": "Voor Nederlandse en Belgische investeerders die Paraguay overwegen. Nederlandstalige leiding in Europa, EU-fiscale context ingebouwd."
+    },
+    "trust": {
+      "eyebrow": "Voor Nederlanders en Belgen",
+      "title": "Wat een Nederlandstalige oprichter echt verandert",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Native Nederlands",
+          "description": "Dagelijkse communicatie in het Nederlands. Geen vertaalwrijving."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Box 3 + emigratieheffing",
+          "description": "We plannen de verhuizing wetende wat de Belastingdienst na emigratie zal vragen."
+        },
+        {
+          "icon": "Clock",
+          "title": "CET + UTC-3 dekking",
+          "description": "Europese respons vanuit Amsterdam, Paraguayaanse uitvoering vanuit Asunción."
+        }
+      ]
+    },
+    "pillars": {
+      "title": "Waarom Benelux-investeerders voor Paraguay kiezen",
+      "pillars": [
+        {
+          "icon": "Percent",
+          "title": "10% IRE + 0% buitenland",
+          "description": "Territoriaal systeem — geen belasting op buitenlands inkomen. Substantieel onder NL 25% / BE 25% / DE 30%."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Echt emigratiepad",
+          "description": "Volledige verblijfsvergunning, geen \"digital nomad\" visum. Werkt voor fiscale emigratie zodra NL/BE banden ontbonden zijn."
+        },
+        {
+          "icon": "Shield",
+          "title": "Niet op EU-blacklist",
+          "description": "Paraguay staat niet op de EU lijst van belastingparadijzen. Minder wrijving bij NL/BE banken bij rapportage."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Benelux-specifieke vragen",
+      "items": [
+        {
+          "q": "Hoe werkt Paraguay met box 3?",
+          "a": "Zodra u emigreert en banden doorknipt (woonplaatsverklaring uit Nederland), vervalt box 3. We stemmen de timing af zodat u geen belastingjaar dubbel boekt."
+        },
+        {
+          "q": "Wat met de emigratieheffing op een BV?",
+          "a": "De exitheffing op aanmerkelijk belang kan onder de juiste structuur worden uitgesteld. We werken parallel met Nederlandse fiscalisten — we vervangen ze niet."
+        },
+        {
+          "q": "Heeft Paraguay een belastingverdrag met Nederland of België?",
+          "a": "Geen bilateraal verdrag per 2026, maar het territoriale systeem van Paraguay maakt dat voor de meeste praktische situaties overbodig. We structureren rond de realiteit."
+        },
+        {
+          "q": "Kan ik mijn BV / BVBA behouden na emigratie?",
+          "a": "Ja, een veelvoorkomende opzet — Paraguayaanse verblijfsvergunning + behouden EU-holding voor specifieke bedrijfslijnen. We brengen beide kanten op elkaar aan."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Spreken we Nederlands?",
+      "subtitle": "Plan een gesprek van 30 minuten — in het Nederlands, Engels of Spaans.",
+      "ctaText": "Plan gratis consult",
+      "ctaHref": "/s/nl/nexa-paraguay/contacto"
     }
   }
 }
