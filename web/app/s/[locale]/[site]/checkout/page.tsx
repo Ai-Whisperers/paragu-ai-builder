@@ -4,6 +4,7 @@ import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { CheckoutForm } from '@/components/commerce/checkout-form'
+import { CheckoutTracker } from '@/components/commerce/checkout-tracker'
 
 export const runtime = 'nodejs'
 
@@ -19,6 +20,7 @@ export default async function CheckoutPage({ params }: { params: Promise<{ site:
       <main className="mx-auto max-w-5xl px-4 py-8">
         <h1 className="mb-6 text-2xl font-bold">Finalizar compra</h1>
         <CheckoutForm siteSlug={site} locale={locale} />
+        <CheckoutTracker />
       </main>
     </div>
   )

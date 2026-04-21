@@ -67,10 +67,21 @@ export async function getOrder(businessId: string, orderId: string): Promise<Ord
   return rowToOrder(row, Array.isArray(items) ? items : [])
 }
 
+export interface TransitionOpts {
+  /** When transitioning to shipped, optional tracking metadata to persist
+   * alongside the status change. Ignored on other transitions. */
+  tracking?: {
+    carrier?: string | null
+    number?: string | null
+    url?: string | null
+  }
+}
+
 export async function transitionStatus(
   businessId: string,
   orderId: string,
   next: OrderStatus,
+  opts: TransitionOpts = {},
 ): Promise<void> {
   const supabase = await createAdminClient()
   const scoped = scopedQueries(supabase, businessId)
@@ -88,6 +99,11 @@ export async function transitionStatus(
   const update: Record<string, unknown> = { status: next }
   const tsField = timestampFieldFor(next)
   if (tsField) update[tsField] = new Date().toISOString()
+  if (next === 'shipped' && opts.tracking) {
+    if (opts.tracking.carrier !== undefined) update.tracking_carrier = opts.tracking.carrier
+    if (opts.tracking.number !== undefined) update.tracking_number = opts.tracking.number
+    if (opts.tracking.url !== undefined) update.tracking_url = opts.tracking.url
+  }
 
   const { error: updateError } = await supabase
     .from('orders')
@@ -142,6 +158,9 @@ function rowToOrder(row: Record<string, unknown>, items: Record<string, unknown>
     shippedAt: (row.shipped_at as string | null) ?? null,
     deliveredAt: (row.delivered_at as string | null) ?? null,
     cancelledAt: (row.cancelled_at as string | null) ?? null,
+    trackingCarrier: (row.tracking_carrier as string | null) ?? null,
+    trackingNumber: (row.tracking_number as string | null) ?? null,
+    trackingUrl: (row.tracking_url as string | null) ?? null,
     createdAt: row.created_at as string,
     updatedAt: row.updated_at as string,
     items: items.map(

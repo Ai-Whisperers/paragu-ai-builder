@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og'
 import { loadSite, loadSiteContent, loadSiteTokens } from '@/lib/engine/site-loader'
+import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { isLocale } from '@/lib/i18n/config'
 
 export const runtime = 'nodejs'
@@ -15,6 +16,17 @@ export default async function Image({
   const { locale, site: slug } = await params
   if (!isLocale(locale)) {
     return new Response('Not found', { status: 404 })
+  }
+
+  // Prefer a pre-rendered brand OG card when the tenant ships one —
+  // skips the dynamic render and lets designers own the composition.
+  const manifest = loadImagesManifest(slug)
+  const preRendered = resolveImage(manifest, 'brand.ogDefault')
+  if (preRendered) {
+    return new Response(null, {
+      status: 302,
+      headers: { Location: preRendered.src, 'Cache-Control': 'public, max-age=3600' },
+    })
   }
 
   let siteName = slug

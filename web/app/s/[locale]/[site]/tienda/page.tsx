@@ -23,6 +23,7 @@ import { TiendaQuickFilters } from '@/components/commerce/tienda-quick-filters'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
 import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
+import { TiendaSearchTracker } from '@/components/commerce/tienda-search-tracker'
 import { env } from '@/lib/env'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 
@@ -211,6 +212,7 @@ export default async function StorePage({
           { label: 'Tienda' },
         ]}
       />
+      <TiendaSearchTracker query={search} />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>

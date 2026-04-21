@@ -24,22 +24,6 @@
         "href": "/s/de/nexa-paraguay/programas"
       },
       {
-        "label": "Assistent",
-        "href": "/s/de/nexa-paraguay/asistente"
-      },
-      {
-        "label": "Vergleich",
-        "href": "/s/de/nexa-paraguay/comparacion"
-      },
-      {
-        "label": "Jurisdiktionen",
-        "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
-        "label": "Lebensqualität",
-        "href": "/s/de/nexa-paraguay/calidad-de-vida"
-      },
-      {
         "label": "Warum Paraguay",
         "href": "/s/de/nexa-paraguay/por-que-paraguay"
       },
@@ -52,14 +36,6 @@
         "href": "/s/de/nexa-paraguay/sobre"
       },
       {
-        "label": "Cases",
-        "href": "/s/de/nexa-paraguay/casos-de-exito"
-      },
-      {
-        "label": "Gründer",
-        "href": "/s/de/nexa-paraguay/fundador"
-      },
-      {
         "label": "FAQ",
         "href": "/s/de/nexa-paraguay/faq"
       },
@@ -68,8 +44,8 @@
         "href": "/s/de/nexa-paraguay/blog"
       },
       {
-        "label": "Ressourcen",
-        "href": "/s/de/nexa-paraguay/recursos"
+        "label": "Presse",
+        "href": "/s/de/nexa-paraguay/prensa"
       },
       {
         "label": "Kontakt",
@@ -90,7 +66,9 @@
       "ctaPrimaryText": "Kostenloses Beratungsgespräch",
       "ctaPrimaryHref": "/s/de/nexa-paraguay/contacto",
       "ctaSecondaryText": "Programme ansehen",
-      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedDe",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Warum Nexa Paraguay",
@@ -99,22 +77,26 @@
         {
           "icon": "Package",
           "title": "Ein Programm",
-          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert."
+          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eine Reise",
-          "description": "Alle Präsenz-Schritte an einem koordinierten Tag."
+          "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Ein Team",
-          "description": "Anwälte, Steuerberater, Notare und Finanzberater."
+          "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparenter Preis",
-          "description": "Alles inklusive. Keine versteckten Kosten."
+          "description": "Alles inklusive. Keine versteckten Kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -137,7 +119,10 @@
             "Logistische Begleitung"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -156,7 +141,10 @@
             "Honorare, MwSt. und Gebühren inklusive"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -172,7 +160,10 @@
             "Direktzugang zum Fachteam"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -188,7 +179,10 @@
             "Registereintragung"
           ],
           "ctaLabel": "Anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -211,17 +205,8 @@
             "Körperschaftsteuer {{taxRate}}",
             "Territorialsystem",
             "Offene Wirtschaft"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Investitionsmöglichkeiten",
-          "description": "Wachsender Immobilienmarkt, starke Agroindustrie, offene Wirtschaft.",
-          "bullets": [
-            "Expandierende Immobilien",
-            "Führende Agroindustrie",
-            "Junges Gründer-Ökosystem"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -231,7 +216,19 @@
             "Günstige Lebenshaltung",
             "Internationale Community",
             "Persönliche Sicherheit"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Steuerliche Stabilität",
+          "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+          "bullets": [
+            "Territorialsystem",
+            "Stabiles Regulierungsumfeld",
+            "Keine Steuer auf ausländische Einkünfte"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "Die Chance ist real, aber der Prozess ist ohne geeignete Anleitung nicht einfach. Genau dafür sind wir da."
@@ -247,31 +244,46 @@
           "number": 1,
           "title": "Erstgespräch",
           "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Dokumentenprüfung",
           "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operativer Tag",
           "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Gesellschaft und Bank",
           "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Übergabe und Nachbetreuung",
           "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -280,9 +292,6 @@
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
-    },
-    "taxCalculator": {
-      "ctaHref": "/s/de/nexa-paraguay/contacto"
     }
   },
   "programasPage": {
@@ -313,7 +322,10 @@
             "Logistische Begleitung"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -332,7 +344,10 @@
             "Honorare, MwSt. und Gebühren inklusive"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -348,7 +363,10 @@
             "Direktzugang zum Fachteam"
           ],
           "ctaLabel": "Beratung anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -364,7 +382,10 @@
             "Registereintragung"
           ],
           "ctaLabel": "Anfragen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -488,7 +509,8 @@
             "Körperschaftsteuer {{taxRate}}",
             "Territorialsystem",
             "Offene Wirtschaft"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
@@ -498,7 +520,8 @@
             "Expandierende Immobilien",
             "Führende Agroindustrie",
             "Junges Gründer-Ökosystem"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
@@ -508,7 +531,44 @@
             "Günstige Lebenshaltung",
             "Internationale Community",
             "Persönliche Sicherheit"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Steuerliche Stabilität",
+          "description": "Territoriales Steuersystem mit transparenten Regeln und berechenbarem fiskalischem Umfeld.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Wachstumsdynamik",
+          "description": "Kontinuierliches BIP-Wachstum und sichtbare Stadtentwicklung in Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Agrarwirtschaft",
+          "description": "Einer der weltweit führenden Exporteure von Soja und Rindfleisch, mit aktiven Landmärkten.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "Internationale Community",
+          "description": "Wachsende Community aus Expats und Investoren, die lokale Kenntnisse teilen.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Natur und Grünflächen",
+          "description": "Zugängliche Parks und Landschaften ohne den Lärm überfüllter Hauptstädte.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Kultur und Alltag",
+          "description": "Tereré, Chipa, herzliche Gastfreundschaft — Details, die Paraguay langfristig lebenswert machen.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },
@@ -519,22 +579,26 @@
         {
           "icon": "Package",
           "title": "Ein Programm",
-          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert."
+          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eine Reise",
-          "description": "Alle Präsenz-Schritte an einem koordinierten Tag."
+          "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Ein Team",
-          "description": "Anwälte, Steuerberater, Notare und Finanzberater."
+          "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparenter Preis",
-          "description": "Alles inklusive. Keine versteckten Kosten."
+          "description": "Alles inklusive. Keine versteckten Kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -565,31 +629,46 @@
           "number": 1,
           "title": "Erstgespräch",
           "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Dokumentenprüfung",
           "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operativer Tag",
           "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Gesellschaft und Bank",
           "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Übergabe und Nachbetreuung",
           "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -653,24 +732,35 @@
         {
           "name": "Leitung Operations (Paraguay)",
           "role": "Operatives Leadership, institutionelle Beziehungen",
-          "icon": "Briefcase"
+          "icon": "Briefcase",
+          "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Leitung Commercial (Europa)",
           "role": "Kundengewinnung, kulturelle Brücke",
-          "icon": "Globe"
+          "icon": "Globe",
+          "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Juristisches Team",
           "role": "Migrationsakten, Gesellschaftsgründung",
-          "icon": "Scale"
+          "icon": "Scale",
+          "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Steuerteam",
           "role": "Steuerliches Management, Compliance",
-          "icon": "Calculator"
+          "icon": "Calculator",
+          "imageUrl": "@src:team.accountingLead"
+        },
+        {
+          "name": "Client Success",
+          "role": "Onboarding, Koordination, langfristige Betreuung",
+          "icon": "UserCheck",
+          "imageUrl": "@src:team.clientSuccess"
         }
-      ]
+      ],
+      "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json."
     },
     "trust": {
       "eyebrow": "Warum Nexa Paraguay",
@@ -679,22 +769,26 @@
         {
           "icon": "Package",
           "title": "Ein Programm",
-          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert."
+          "description": "Aufenthalt, Gesellschaft und Bankkonto integriert.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Eine Reise",
-          "description": "Alle Präsenz-Schritte an einem koordinierten Tag."
+          "description": "Alle Präsenz-Schritte an einem koordinierten Tag.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Ein Team",
-          "description": "Anwälte, Steuerberater, Notare und Finanzberater."
+          "description": "Anwälte, Steuerberater, Notare und Finanzberater.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparenter Preis",
-          "description": "Alles inklusive. Keine versteckten Kosten."
+          "description": "Alles inklusive. Keine versteckten Kosten.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -703,6 +797,29 @@
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    },
+    "gallery": {
+      "title": "Unser Büro in Asunción",
+      "subtitle": "Wo Beratung, Unterzeichnung und Bank tatsächlich stattfinden. KI-Platzhalter unten — vor Launch durch echte Fotos ersetzen.",
+      "columns": 3,
+      "images": [
+        {
+          "$img": "office.exterior"
+        },
+        {
+          "$img": "office.reception"
+        },
+        {
+          "$img": "office.meetingRoom"
+        },
+        {
+          "$img": "office.signing"
+        },
+        {
+          "$img": "office.teamHuddle"
+        }
+      ],
+      "lightbox": true
     }
   },
   "faqPage": {
@@ -898,16 +1015,8 @@
         "href": "/s/de/nexa-paraguay/por-que-paraguay"
       },
       {
-        "label": "Lebensqualität",
-        "href": "/s/de/nexa-paraguay/calidad-de-vida"
-      },
-      {
-        "label": "Jurisdiktionen",
-        "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
-        "label": "Glossar",
-        "href": "/s/de/nexa-paraguay/glosario"
+        "label": "Presse",
+        "href": "/s/de/nexa-paraguay/prensa"
       }
     ]
   },
@@ -1031,728 +1140,487 @@
       }
     ]
   },
+  "landingInversor": {
+    "seo": {
+      "title": "Paraguay für Investoren — ein strukturierter Weg",
+      "description": "Aufenthalt, Unternehmen, Bankkonto und Grunderwerb — ein integriertes Investorenprogramm. Keine Überraschungen."
+    },
+    "hero": {
+      "eyebrow": "Investorenprogramm",
+      "headline": "Paraguay, strukturiert für Investoren.",
+      "subheadline": "Aufenthalt, Unternehmen, Bankkonto und 12-monatige Buchhaltung — integriert, transparent, von einem lokalen Fachteam ausgeführt.",
+      "ctaPrimaryText": "Kostenloses 30-Min-Gespräch buchen",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-hero-primary-de",
+      "ctaSecondaryText": "Investorenprogramm ansehen",
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
+      "backgroundImage": "@img:whyParaguay.growth"
+    },
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "4 Schritte, ca. 8–12 Wochen",
+      "totalDuration": "Typische Gesamtdauer: 8–12 Wochen.",
+      "ctaLabel": "Prozess starten",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-process-de",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Beratung",
+          "description": "Wir prüfen Ihre Ziele und wählen das richtige Niveau.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Vorvalidierung",
+          "description": "Dokumente geprüft, bevor Sie reisen.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operativer Tag",
+          "description": "Aufenthalt, Unternehmen und Bank an einem Tag.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Abschluss",
+          "description": "Finale Dokumente; Buchhaltung läuft weiter.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Empfohlen",
+      "title": "Das Investorenprogramm",
+      "subtitle": "Alles zum Operieren in Paraguay — plus 12 Monate Begleitung.",
+      "tiers": [
+        {
+          "id": "investor",
+          "name": "Paraguay Investor",
+          "description": "Aufenthalt + Unternehmen + Bank + 12 Monate Support.",
+          "price": "USD 6,900+",
+          "priceNote": "Einstiegspreis. Endpreis abhängig vom Fall.",
+          "highlighted": true,
+          "included": [
+            "Paraguayischer Aufenthalt und ID",
+            "Unternehmensgründung + RUC",
+            "Geschäftsbankkonto",
+            "Buchhaltung (12 Monate)",
+            "Rechts- und Steuerberatung (12 Monate)",
+            "Direkter Zugang zum technischen Team"
+          ],
+          "ctaLabel": "Beratung anfragen",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-investor-de",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu strukturieren?",
+      "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch — Deutsch, Englisch, Niederländisch oder Spanisch.",
+      "buttonText": "Beratung buchen",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-final-de"
+    },
+    "trust": {
+      "eyebrow": "Was Sie erhalten",
+      "title": "Was das Investorenprogramm auszeichnet",
+      "items": [
+        {
+          "icon": "TrendingUp",
+          "title": "Strukturiertes Wachstum",
+          "description": "Steuerberatung 12 Monate inklusive — Sie führen, wir sorgen für Compliance."
+        },
+        {
+          "icon": "Shield",
+          "title": "Institutionelles Vertrauen",
+          "description": "Juristen, Steuerberater und Notare in einem koordinierten Team."
+        },
+        {
+          "icon": "Users",
+          "title": "Direkter Zugang",
+          "description": "Direkte Linie zum technischen Team über alle Phasen."
+        },
+        {
+          "icon": "LineChart",
+          "title": "Transparente Preise",
+          "description": "Alles inklusive. Keine versteckten Kosten."
+        }
+      ]
+    }
+  },
+  "landingTrust": {
+    "seo": {
+      "title": "Institutionelles Vertrauen, aufgebaut von lokalen Fachleuten",
+      "description": "Ein integriertes System, keine Behördenagentur. Juristen, Steuerberater, Notare und Finanzberater."
+    },
+    "hero": {
+      "eyebrow": "Institutionelles Vertrauen",
+      "headline": "Ernsthafte Menschen. Ernsthafte Struktur.",
+      "subheadline": "Wir sind keine Verwaltungsagentur. Wir sind ein multidisziplinäres Fachteam mit relationalem Kapital bei Banken, Notaren und Behörden.",
+      "ctaPrimaryText": "Kostenloses Gespräch buchen",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-hero-primary-de",
+      "ctaSecondaryText": "Unseren Prozess ansehen",
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
+      "backgroundImage": "@img:trust.migraciones"
+    },
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "Ein klarer Prozess, keine Improvisation",
+      "totalDuration": "Typische Gesamtdauer: 8–12 Wochen.",
+      "ctaLabel": "Prozess starten",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-process-de",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Beratung",
+          "description": "Wir prüfen Ihren Fall zuerst.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Vorvalidierung",
+          "description": "Alles vor Ihrer Reise verifiziert.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operativer Tag",
+          "description": "Alle Vor-Ort-Schritte an einem Tag.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Abschluss",
+          "description": "Finale Dokumente persönlich übergeben.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Empfohlen",
+      "title": "Paraguay Business",
+      "subtitle": "Das Kernprogramm — eine Reise, ein Team, ein integriertes Ergebnis.",
+      "tiers": [
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Aufenthalt + Unternehmen + Bankkonto.",
+          "price": "USD 4,400+",
+          "priceNote": "Einstiegspreis. Endpreis abhängig vom Fall.",
+          "highlighted": true,
+          "included": [
+            "Aufenthalt + ID",
+            "Unternehmensgründung + RUC",
+            "Geschäftsbankkonto",
+            "Strategische Immobilientour",
+            "Honorare, MwSt. und Steuern inklusive"
+          ],
+          "ctaLabel": "Beratung anfragen",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-business-de",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Einmal machen, richtig machen",
+      "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
+      "buttonText": "Beratung buchen",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-final-de"
+    },
+    "trust": {
+      "eyebrow": "Warum Nexa",
+      "title": "Ein integriertes System",
+      "items": [
+        {
+          "icon": "Package",
+          "title": "Ein Programm",
+          "description": "Aufenthalt, Unternehmen und Bank integriert."
+        },
+        {
+          "icon": "Plane",
+          "title": "Eine Reise",
+          "description": "Alle Vor-Ort-Schritte an einem koordinierten Tag."
+        },
+        {
+          "icon": "Users",
+          "title": "Ein Team",
+          "description": "Juristen, Steuerberater, Notare, Finanzberater."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparente Preise",
+          "description": "Alles inklusive. Keine versteckten Kosten."
+        }
+      ]
+    }
+  },
+  "landingLifestyle": {
+    "seo": {
+      "title": "Eine ruhigere Basis in Paraguay",
+      "description": "Gutes Klima, niedrige Lebenshaltungskosten, wachsende internationale Gemeinschaft, territoriales Steuersystem."
+    },
+    "hero": {
+      "eyebrow": "Lebensqualität",
+      "headline": "Eine ruhigere Basis in Paraguay.",
+      "subheadline": "Warmes Klima, wachsende internationale Gemeinschaft, günstige Lebenshaltungskosten und ein territoriales Steuersystem, das nur lokales Einkommen besteuert.",
+      "ctaPrimaryText": "Kostenloses Gespräch buchen",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-hero-primary-de",
+      "ctaSecondaryText": "Warum Paraguay",
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
+      "backgroundImage": "@img:whyParaguay.lifestyle"
+    },
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "4 Schritte, eine Reise",
+      "totalDuration": "Typische Gesamtdauer: 8–12 Wochen.",
+      "ctaLabel": "Prozess starten",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-process-de",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Beratung",
+          "description": "Wir bestimmen das richtige Programm.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Vorvalidierung",
+          "description": "Dokumente vor der Reise geprüft.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operativer Tag",
+          "description": "Alle Vor-Ort-Schritte an einem Tag.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Abschluss",
+          "description": "Finale Dokumente; Programm geschlossen.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Empfohlen",
+      "title": "Paraguay Base",
+      "subtitle": "Der einfachste Einstieg: Aufenthalt + ID. Später erweiterbar.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Paraguayischer Aufenthalt + ID.",
+          "price": "USD 2,900",
+          "priceNote": "Komplettpaket mit Honoraren und Steuern.",
+          "highlighted": true,
+          "included": [
+            "Paraguayischer Aufenthalt",
+            "Personalausweis",
+            "Vorvalidierung der Dokumente",
+            "Vor-Ort-Operationstag",
+            "Logistische Unterstützung"
+          ],
+          "ctaLabel": "Beratung anfragen",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-base-de",
+          "image": {
+            "$img": "programs.tierBase"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ihr neuer Start in Paraguay",
+      "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
+      "buttonText": "Beratung buchen",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-final-de"
+    },
+    "whyCountry": {
+      "eyebrow": "Was Sie erhalten",
+      "title": "Drei echte Gründe umzuziehen",
+      "pillars": [
+        {
+          "icon": "Heart",
+          "title": "Lebensqualität",
+          "description": "Warmes Klima, zugängliche Kosten, hohe Kaufkraft.",
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Users",
+          "title": "Internationale Gemeinschaft",
+          "description": "Wachsende Gemeinschaft von Expats und Investoren.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Steuerstabilität",
+          "description": "Territoriales System — ausländisches Einkommen wird nicht besteuert.",
+          "imageUrl": "@src:whyParaguay.tax"
+        }
+      ]
+    }
+  },
+  "landingEmpresa": {
+    "seo": {
+      "title": "Ein paraguayisches Unternehmen, richtig gegründet",
+      "description": "Aufenthalt + Unternehmen + RUC + Bankkonto. Integriert in einem Programm mit Nexa Paraguay."
+    },
+    "hero": {
+      "eyebrow": "Unternehmensgründung",
+      "headline": "Ein paraguayisches Unternehmen, richtig gegründet.",
+      "subheadline": "Aufenthalt, Unternehmen, RUC und ein Geschäftsbankkonto — integriert in einer Reise, ausgeführt von einem lokalen Fachteam.",
+      "ctaPrimaryText": "Kostenloses Gespräch buchen",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-hero-primary-de",
+      "ctaSecondaryText": "Programme ansehen",
+      "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
+      "backgroundImage": "@img:programs.tierBusiness"
+    },
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "Unternehmensgründung in 4 Schritten",
+      "totalDuration": "Typische Gesamtdauer: 8–12 Wochen.",
+      "ctaLabel": "Prozess starten",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-process-de",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Beratung",
+          "description": "Wir wählen die Rechtsform (meist EAS oder SA).",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Vorvalidierung",
+          "description": "Alles vor der Reise geprüft.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operativer Tag",
+          "description": "Gründung, RUC, Notar — ein Tag.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Bank + Abschluss",
+          "description": "Konto eröffnet, Dokumente geliefert.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Empfohlen",
+      "title": "Paraguay Business",
+      "subtitle": "Aufenthalt + Unternehmen + Bankkonto, integriert in einem Programm.",
+      "tiers": [
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Aufenthalt + Unternehmen + Bankkonto.",
+          "price": "USD 4,400+",
+          "priceNote": "Einstiegspreis. Endpreis abhängig vom Fall.",
+          "highlighted": true,
+          "included": [
+            "Aufenthalt + ID",
+            "Unternehmensgründung + RUC",
+            "Geschäftsbankkonto",
+            "Strategische Immobilientour",
+            "Honorare, MwSt. und Steuern inklusive"
+          ],
+          "ctaLabel": "Beratung anfragen",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-business-de",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gründen Sie Ihr paraguayisches Unternehmen richtig",
+      "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
+      "buttonText": "Beratung buchen",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-final-de"
+    },
+    "trust": {
+      "eyebrow": "Was Sie erhalten",
+      "title": "Was Paraguay Business abdeckt",
+      "items": [
+        {
+          "icon": "Package",
+          "title": "Unternehmen + Aufenthalt",
+          "description": "Beide Prozesse integriert — nicht separat verkauft."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Bankkonto",
+          "description": "Geschäftskonto koordiniert mit unseren Bankpartnern."
+        },
+        {
+          "icon": "Users",
+          "title": "Fachteam",
+          "description": "Juristen, Steuerberater und Notare arbeiten zusammen."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparente Preise",
+          "description": "Honorare, MwSt. und Steuern inklusive."
+        }
+      ]
+    }
+  },
   "whatsapp": {
     "phone": "595982515138",
     "message": "Hallo, ich möchte mehr über die Programme von Nexa Paraguay erfahren."
-  },
-  "comparisonPage": {
-    "seo": {
-      "title": "Vergleich: Nexa vs. Alternativen",
-      "description": "Wie Nexa im Vergleich zu DIY, Paraguay Pathways oder einem typischen paraguayischen Gestor abschneidet."
-    },
-    "hero": {
-      "headline": "Nexa, DIY oder ein Gestor?",
-      "subheadline": "Ehrlicher Vergleich der realen Optionen zur Etablierung Ihrer Operation in Paraguay."
-    },
-    "matrix": {
-      "eyebrow": "Vergleich",
-      "title": "Was Sie bei jeder Option bekommen",
-      "subtitle": "Daten basierend auf echter Erfahrung, kein Marketing.",
-      "tiers": [
-        {
-          "id": "nexa",
-          "name": "Nexa Paraguay",
-          "description": "Lokales Team in Asunción + Commercial in Europa",
-          "highlighted": true,
-          "badge": "Empfohlen",
-          "price": "USD 4.400+",
-          "priceNote": "Integriertes Paket mit Ausführungsgarantien",
-          "included": [],
-          "ctaLabel": "Kostenlose Beratung buchen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto"
-        },
-        {
-          "id": "diy",
-          "name": "Selbst (DIY)",
-          "description": "Sie beauftragen Anwalt + Steuerberater + Notar direkt",
-          "price": "USD 1.500–3.000",
-          "priceNote": "Abhängig von Verhandlung",
-          "included": [],
-          "ctaLabel": "Prozess ansehen",
-          "ctaHref": "/s/de/nexa-paraguay/proceso"
-        },
-        {
-          "id": "pathways",
-          "name": "Paraguay Pathways",
-          "description": "Dominante Firma, US/Kanadische ICP, Immobilien-Fokus",
-          "price": "USD 5.000+",
-          "priceNote": "Öffentliche Referenzpreise Stand April 2026",
-          "included": [],
-          "ctaLabel": "Seite besuchen",
-          "ctaHref": "https://paraguaypathways.com"
-        },
-        {
-          "id": "gestor",
-          "name": "Typischer paraguayischer Gestor",
-          "description": "Lokaler Papierabwickler ohne europäische Präsenz",
-          "price": "USD 800–2.500",
-          "priceNote": "Günstig, aber kein SLA",
-          "included": [],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ],
-      "comparisonRows": [
-        {
-          "feature": "Dauerhafter Aufenthalt + paraguayische ID",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ]
-        },
-        {
-          "feature": "Gesellschaftsgründung (SA/SRL) + RUC",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ]
-        },
-        {
-          "feature": "Bankkonto-Eröffnung (Koordination)",
-          "values": [
-            true,
-            false,
-            true,
-            "Hängt ab"
-          ]
-        },
-        {
-          "feature": "Dokumenten-Vorvalidierung vor der Reise",
-          "values": [
-            true,
-            false,
-            "Teilweise",
-            false
-          ]
-        },
-        {
-          "feature": "Operativer Tag",
-          "values": [
-            true,
-            false,
-            "Teilweise",
-            false
-          ]
-        },
-        {
-          "feature": "Koordiniertes multidisziplinäres Team",
-          "values": [
-            true,
-            "Sie koordinieren",
-            true,
-            false
-          ]
-        },
-        {
-          "feature": "Kommunikation auf Englisch / Niederländisch / Deutsch",
-          "values": [
-            true,
-            "Je Professional",
-            "Englisch",
-            false
-          ]
-        },
-        {
-          "feature": "Garantierte Antwortzeit (SLA 24h)",
-          "values": [
-            true,
-            false,
-            "Nicht veröffentlicht",
-            false
-          ]
-        },
-        {
-          "feature": "Buchhaltung + Steuerberatung 12 Monate",
-          "values": [
-            "Investor-Tier",
-            false,
-            "Upsell",
-            false
-          ]
-        },
-        {
-          "feature": "Investitionsanalyse + Landkauf",
-          "values": [
-            true,
-            false,
-            "Höhere Tier",
-            false
-          ]
-        },
-        {
-          "feature": "Transparente All-in-Preise",
-          "values": [
-            true,
-            "Nie",
-            "Teilweise",
-            false
-          ]
-        },
-        {
-          "feature": "Paraguayische Entität + RUC im Footer",
-          "values": [
-            "Beim Start",
-            "N/A",
-            true,
-            "Hängt ab"
-          ]
-        },
-        {
-          "feature": "Dokumentierter Prozess (SOPs + Checkliste)",
-          "values": [
-            true,
-            false,
-            "Teilweise",
-            false
-          ]
-        },
-        {
-          "feature": "Zeit bis zum Aufenthalt",
-          "values": [
-            "8–12 Wochen",
-            "12–20 Wochen",
-            "10–14 Wochen",
-            "Variabel"
-          ]
-        }
-      ]
-    },
-    "cta": {
-      "title": "Unsicher, welche Option passt?",
-      "subtitle": "Wir helfen Ihnen — auch wenn die Antwort nicht Nexa ist.",
-      "buttonText": "Kostenlose Beratung buchen",
-      "buttonHref": "/s/de/nexa-paraguay/contacto"
-    }
-  },
-  "founderPage": {
-    "seo": {
-      "title": "Gründer — Nexa Paraguay",
-      "description": "Wer hinter Nexa Paraguay steht. Erfahrung, Vision und warum diese Firma existiert."
-    },
-    "hero": {
-      "headline": "Gründer von Nexa Paraguay",
-      "subheadline": "[TODO Kunde] Vollständiger Name, Rolle, und ein Satz zur Gründung."
-    },
-    "team": {
-      "title": "Wer Nexa leitet",
-      "members": [
-        {
-          "name": "[TODO: Name des Gründers]",
-          "role": "[TODO: Gründer und operativer Leiter]",
-          "icon": "Briefcase",
-          "bio": "[TODO Kunde] Kurze Biografie: Jahre in Paraguay, bisherige Erfahrung, Sprachen, LinkedIn. Erscheint beim Hover."
-        }
-      ]
-    },
-    "story": {
-      "eyebrow": "Die Geschichte",
-      "title": "Warum Nexa Paraguay existiert",
-      "pillars": [
-        {
-          "icon": "Users",
-          "title": "Das Problem, das wir sahen",
-          "description": "[TODO Kunde] Ein Absatz: was im Markt für europäische Investoren nach Paraguay nicht gelöst war."
-        },
-        {
-          "icon": "Target",
-          "title": "Die Entscheidung",
-          "description": "[TODO Kunde] Ein Absatz: warum eine neue Firma gründen statt einer bestehenden beitreten."
-        },
-        {
-          "icon": "Heart",
-          "title": "Das Versprechen",
-          "description": "[TODO Kunde] Ein Absatz: was Nexa über den Vertrag hinaus garantiert."
-        }
-      ],
-      "honestNote": "[TODO Kunde] Ein persönlicher Abschlusssatz des Gründers."
-    },
-    "cta": {
-      "title": "Lieber direkt sprechen?",
-      "subtitle": "Der Gründer bearbeitet persönlich die Erstanfragen europäischer Kunden.",
-      "buttonText": "Kostenlose Beratung buchen",
-      "buttonHref": "/s/de/nexa-paraguay/contacto"
-    }
-  },
-  "caseStudiesPage": {
-    "seo": {
-      "title": "Fallstudien — Nexa Paraguay",
-      "description": "Echte Geschichten von Europäern, die mit Nexa ihren Aufenthalt und ihre Operation in Paraguay etabliert haben."
-    },
-    "hero": {
-      "headline": "Fallstudien",
-      "subheadline": "[TODO Kunde] 1 Zeile über den Kundentyp und die Ergebnisse."
-    },
-    "testimonials": {
-      "eyebrow": "Echte Kunden",
-      "title": "Was unsere Kunden erreicht haben",
-      "subtitle": "[TODO Kunde] Echte Geschichten mit Name, Land, Programm, Zeitrahmen. Placeholders ersetzen, sobald 3 echte Kunden schriftlich zugestimmt haben.",
-      "testimonials": [
-        {
-          "name": "[TODO: Echter Kundenname]",
-          "role": "[TODO: Beruf / Herkunftsland]",
-          "quote": "[TODO Kunde] Echtes 2-3-Zeilen-Zitat — Erwartung vs Ergebnis, was überrascht hat. Schriftliche Einwilligung vor Veröffentlichung.",
-          "imageUrl": ""
-        },
-        {
-          "name": "[TODO: Echter Kundenname]",
-          "role": "[TODO: Beruf / Herkunftsland]",
-          "quote": "[TODO Kunde] Idealerweise mit spezifischem Detail (Zeitrahmen, überwundene Bedenken, konkretes Ergebnis).",
-          "imageUrl": ""
-        },
-        {
-          "name": "[TODO: Echter Kundenname]",
-          "role": "[TODO: Beruf / Herkunftsland]",
-          "quote": "[TODO Kunde] Idealerweise aus einem anderen Profil als die anderen für ICP-Abdeckung.",
-          "imageUrl": ""
-        }
-      ]
-    },
-    "cta": {
-      "title": "Möchten Sie der Nächste sein?",
-      "subtitle": "Buchen Sie ein Beratungsgespräch zu Ihrem Fall.",
-      "buttonText": "Kostenlose Beratung buchen",
-      "buttonHref": "/s/de/nexa-paraguay/contacto"
-    }
-  },
-  "resourcesPage": {
-    "seo": {
-      "title": "Ressourcen — Nexa Paraguay",
-      "description": "Kostenlose PDF-Leitfäden, Checklisten und Vergleiche für Europäer, die Paraguay erwägen."
-    },
-    "hero": {
-      "headline": "Download-Ressourcen",
-      "subheadline": "Kostenlose Leitfäden, Checklisten und Vergleiche. Kein Formular für die PDF selbst."
-    },
-    "guides": {
-      "title": "Verfügbares Material",
-      "columns": 2,
-      "features": [
-        {
-          "title": "[TODO PDF] Paraguay Aufenthaltsleitfaden 2026",
-          "description": "Vollständiger Schritt-für-Schritt-Prozess, erforderliche Dokumente, Zeitpläne und Kosten. ~25 Seiten.",
-          "icon": "FileText"
-        },
-        {
-          "title": "[TODO PDF] Dokumenten-Checkliste für Europäer",
-          "description": "Liste der Apostillen, beeidigten Übersetzungen und Validierungen vor Ihrer Reise. 1 Seite.",
-          "icon": "CheckSquare"
-        },
-        {
-          "title": "[TODO PDF] Paraguay vs. Uruguay vs. Panama — Steuervergleich",
-          "description": "Steuer-, Regulierungs- und Lebenshaltungskosten-Vergleich zwischen den 3 Jurisdiktionen.",
-          "icon": "BarChart3"
-        },
-        {
-          "title": "[TODO PDF] Banking für Ausländer in Paraguay",
-          "description": "Welche Banken Ausländer akzeptieren, welche Dokumente verlangt werden, welche Gebühren. Stand 2026.",
-          "icon": "Banknote"
-        }
-      ]
-    },
-    "newsletter": {
-      "title": "Möchten Sie die Updates?",
-      "subtitle": "Monatlicher Newsletter mit regulatorischen und steuerlichen Änderungen für Europäer in Paraguay."
-    }
-  },
-  "qualityOfLifePage": {
-    "seo": {
-      "title": "Lebensqualität in Paraguay — Nexa Paraguay",
-      "description": "Asunción vs. europäische Hauptstädte: Lebenshaltungskosten, Sicherheit, Klima, internationale Community."
-    },
-    "hero": {
-      "headline": "Lebensqualität in Asunción",
-      "subheadline": "Wie es sich mit Amsterdam, Berlin, Madrid bei dem misst, was wirklich zählt."
-    },
-    "pillars": {
-      "eyebrow": "Warum es zählt",
-      "title": "Was sich ändert, wenn Sie nach Paraguay ziehen",
-      "pillars": [
-        {
-          "icon": "DollarSign",
-          "title": "Lebenshaltungskosten",
-          "description": "Ein Lebensstil vergleichbar mit einer europäischen Hauptstadt kostet 40–60% weniger. Eine 2-Zimmer-Wohnung in guter Lage in Asunción: USD 500–900/Monat.",
-          "bullets": [
-            "Wohnen 50% günstiger",
-            "Essen gehen 40% günstiger",
-            "Haushaltsdienste zugänglich"
-          ]
-        },
-        {
-          "icon": "Sun",
-          "title": "Klima",
-          "description": "Subtropisch. Milder Winter (10–25°C), heißer Sommer (25–38°C). Kein europäischer Winter.",
-          "bullets": [
-            "280+ Sonnentage/Jahr",
-            "Keine jährliche Heizung",
-            "Gemäßigte Jahreszeiten"
-          ]
-        },
-        {
-          "icon": "Users",
-          "title": "Internationale Community",
-          "description": "Wachsende Community von Europäern (deutsch, niederländisch, spanisch) in Asunción.",
-          "bullets": [
-            "Aktive Expat-Gruppen",
-            "Internationale Schulen",
-            "Internationale Küche und Kultur"
-          ]
-        }
-      ],
-      "honestNote": "Nicht alles ist besser. Extreme Sommerhitze, öffentlicher Nahverkehr und Entfernung zu Europa sind echte Kompromisse. Sprechen Sie vor der Entscheidung mit einem aktuellen Kunden."
-    },
-    "comparison": {
-      "title": "Vergleichsdaten (ungefähr, 2026)",
-      "columns": 3,
-      "features": [
-        {
-          "title": "2-Zimmer-Wohnung (Zentrum)",
-          "description": "Asunción: USD 600 / Madrid: USD 1.600 / Berlin: USD 1.800 / Amsterdam: USD 2.200",
-          "icon": "Home"
-        },
-        {
-          "title": "Geschäftsessen",
-          "description": "Asunción: USD 7 / Madrid: USD 15 / Berlin: USD 18 / Amsterdam: USD 22",
-          "icon": "Utensils"
-        },
-        {
-          "title": "Glasfaser-Internet",
-          "description": "Asunción: USD 25/Mon / Madrid: USD 35 / Berlin: USD 40 / Amsterdam: USD 45",
-          "icon": "Wifi"
-        },
-        {
-          "title": "Privater Transport (Taxi/Uber/Mon)",
-          "description": "Asunción: USD 60 / Madrid: USD 120 / Berlin: USD 150 / Amsterdam: USD 180",
-          "icon": "Car"
-        },
-        {
-          "title": "Premium Krankenversicherung",
-          "description": "Asunción: USD 80–150/Mon / Europa: USD 200–450/Mon",
-          "icon": "Heart"
-        },
-        {
-          "title": "Flugdistanz nach Europa (1 Stop)",
-          "description": "Asunción ↔ Madrid via GRU/MAD: ~14–18h, USD 1.000–1.500 Hin- und Rückflug",
-          "icon": "Plane"
-        }
-      ]
-    },
-    "cta": {
-      "title": "Fragen zum Alltag?",
-      "subtitle": "Wir sprechen mit bereits ansässigen Kunden — wir verbinden Sie mit jemandem, der dort lebt.",
-      "buttonText": "Kostenlose Beratung buchen",
-      "buttonHref": "/s/de/nexa-paraguay/contacto"
-    }
-  },
-  "jurisdictionCompPage": {
-    "seo": {
-      "title": "Paraguay vs. Uruguay vs. Panama — Jurisdiktionsvergleich",
-      "description": "Steuer-, Regulierungs- und Kostenvergleich der 3 LATAM-Jurisdiktionen, die Europäer am häufigsten vergleichen."
-    },
-    "hero": {
-      "headline": "Paraguay, Uruguay oder Panama",
-      "subheadline": "Ehrlicher Vergleich der 3 Jurisdiktionen, die Europäer bei einem Umzug abwägen."
-    },
-    "matrix": {
-      "eyebrow": "Vergleich",
-      "title": "Was jede Jurisdiktion bietet",
-      "subtitle": "Ungefähre Daten 2026. Konsultieren Sie vor der Entscheidung Ihren Steuerberater — dies ist Orientierung.",
-      "tiers": [
-        {
-          "id": "py",
-          "name": "Paraguay",
-          "description": "Territorialsystem, schneller Aufenthalt, niedrige Lebenshaltungskosten",
-          "highlighted": true,
-          "badge": "Empfohlen",
-          "price": "10% KSt",
-          "priceNote": "Körperschaftsteuer",
-          "included": [],
-          "ctaLabel": "Kostenlose Beratung buchen",
-          "ctaHref": "/s/de/nexa-paraguay/contacto"
-        },
-        {
-          "id": "uy",
-          "name": "Uruguay",
-          "description": "Hohe Rechtssicherheit, EU-Abkommen, IRAE 25%",
-          "price": "25% IRAE",
-          "priceNote": "Unternehmenssteuer",
-          "included": [],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        },
-        {
-          "id": "pa",
-          "name": "Panama",
-          "description": "Finanzhub, Territorialsystem, Investitionsaufenthalt",
-          "price": "25% KSt",
-          "priceNote": "Körperschaftsteuer",
-          "included": [],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ],
-      "comparisonRows": [
-        {
-          "feature": "Körperschaftsteuersatz (Basis)",
-          "values": [
-            "10%",
-            "25%",
-            "25%"
-          ]
-        },
-        {
-          "feature": "Steuersystem",
-          "values": [
-            "Territorial (Auslandseinkommen steuerfrei)",
-            "Gemischt",
-            "Territorial"
-          ]
-        },
-        {
-          "feature": "MwSt",
-          "values": [
-            "10%",
-            "22%",
-            "7%"
-          ]
-        },
-        {
-          "feature": "Dividendensteuer (Nichtansässige)",
-          "values": [
-            "15%",
-            "7%",
-            "10%"
-          ]
-        },
-        {
-          "feature": "Zeit bis zum dauerhaften Aufenthalt",
-          "values": [
-            "8–12 Wochen",
-            "3–6 Monate",
-            "60–90 Tage (Friendly Nations)"
-          ]
-        },
-        {
-          "feature": "Kosten Aufenthaltsprogramm (Honorare)",
-          "values": [
-            "USD 4.400–6.900",
-            "USD 8.000–15.000",
-            "USD 5.000–10.000"
-          ]
-        },
-        {
-          "feature": "Mindestinvestition / erforderliches Kapital",
-          "values": [
-            "Keine (ordentlicher Aufenthalt)",
-            "Variabel je Kategorie",
-            "USD 0 Friendly / USD 300k Investor"
-          ]
-        },
-        {
-          "feature": "EU-Steuerabkommen",
-          "values": [
-            "Begrenzt — prüfen je EU-Land",
-            "Umfangreich inkl. NL/DE/ES",
-            "Mittelgroßes Netzwerk"
-          ]
-        },
-        {
-          "feature": "Politische Stabilität (Economic Freedom 2025)",
-          "values": [
-            "Moderat",
-            "Hoch (beste LATAM)",
-            "Hoch"
-          ]
-        },
-        {
-          "feature": "Lebenshaltungskosten vs. EU-Hauptstadt",
-          "values": [
-            "40–60% niedriger",
-            "20–30% niedriger",
-            "15–25% niedriger"
-          ]
-        },
-        {
-          "feature": "Eignung für Trading / Krypto",
-          "values": [
-            "Gut, wenig reguliert",
-            "Reguliert, klare Lizenzen",
-            "Reguliert, Finanzhub"
-          ]
-        },
-        {
-          "feature": "Bankzugang für Ausländer",
-          "values": [
-            "Moderat — erfordert Handling",
-            "Hoch aber langsam",
-            "Hoch (Hub)"
-          ]
-        },
-        {
-          "feature": "Lokale operative Sprache",
-          "values": [
-            "Spanisch + Guaraní",
-            "Spanisch",
-            "Spanisch + Englisch"
-          ]
-        },
-        {
-          "feature": "Flugdistanz zu EU (1 Stop)",
-          "values": [
-            "14–18h via GRU/MAD",
-            "12–16h via GRU/MAD",
-            "10–14h direkt"
-          ]
-        },
-        {
-          "feature": "Eignung für europäische Rentner",
-          "values": [
-            "Hoch",
-            "Sehr hoch",
-            "Hoch"
-          ]
-        },
-        {
-          "feature": "Eignung für Tech-Unternehmer",
-          "values": [
-            "Hoch (niedrige Kosten)",
-            "Mittel",
-            "Hoch (Finanzhub)"
-          ]
-        },
-        {
-          "feature": "Risiko 'Steueroase'-Wahrnehmung bei EU-Prüfungen",
-          "values": [
-            "Niedrig",
-            "Sehr niedrig",
-            "Moderat (historische graue Listen)"
-          ]
-        }
-      ]
-    },
-    "cta": {
-      "title": "Noch unentschlossen?",
-      "subtitle": "Wir verbinden Sie mit unseren Kunden, die alle 3 bewertet haben.",
-      "buttonText": "Kostenlose Beratung buchen",
-      "buttonHref": "/s/de/nexa-paraguay/contacto"
-    }
-  },
-  "glossaryPage": {
-    "seo": {
-      "title": "Glossar — Nexa Paraguay",
-      "description": "Wichtigste paraguayische Aufenthalts-, Steuer- und Bankbegriffe in einfacher Sprache für Europäer erklärt."
-    },
-    "hero": {
-      "headline": "Glossar",
-      "subheadline": "Rechts-, Steuer- und Bankbegriffe aus dem Prozess, in klarer Sprache erklärt."
-    },
-    "glossary": {
-      "title": "Schlüsselbegriffe",
-      "items": [
-        {
-          "q": "RUC (paraguayische Steuernummer)",
-          "a": "Paraguayische Steuernummer entsprechend der deutschen Steuernummer oder dem niederländischen BSN. Wird nach Gesellschaftsgründung erlangt; erforderlich für Rechnungen aus Paraguay."
-        },
-        {
-          "q": "Paraguayische cédula (Personalausweis)",
-          "a": "Ausweisdokument für dauerhafte Einwohner. Erforderlich für Bankkontoeröffnung, Vertragsunterzeichnung und operative Tätigkeit als Einwohner."
-        },
-        {
-          "q": "SEPRELAD (Geldwäsche-Aufsichtsbehörde)",
-          "a": "Paraguays AML/CFT-Behörde. Regulierte Dienstleistungen (Rechtsberatung, Relocation, Immobilien) müssen sich registrieren. Vergleichbar mit der deutschen FIU."
-        },
-        {
-          "q": "Territoriales Steuersystem",
-          "a": "Paraguay besteuert nur Einkommen paraguayischer Quelle. Im Ausland erzieltes Einkommen (Mieten, Dividenden, im Ausland erbrachte Dienstleistungen) wird in Paraguay nicht besteuert. Zentraler Steuervorteil."
-        },
-        {
-          "q": "Apostille (Haager Übereinkommen)",
-          "a": "Internationales Siegel zur Bestätigung der Echtheit eines ausländischen Dokuments. Alle europäischen Dokumente (Geburt, Führungszeugnis, Ehe) benötigen eine Apostille vor Vorlage in Paraguay."
-        },
-        {
-          "q": "IRP (Einkommensteuer natürlicher Personen)",
-          "a": "Paraguayische Einkommensteuer, Basissatz 10%. Gilt für paraguayisches Einkommen über einem jährlichen Schwellenwert."
-        },
-        {
-          "q": "IRE (Körperschaftsteuer)",
-          "a": "Paraguayische Unternehmenssteuer, Basissatz 10%. Angewendet auf Gewinne aus paraguayischen Geschäftstätigkeiten."
-        },
-        {
-          "q": "MwSt (IVA)",
-          "a": "Paraguayische Verbrauchsteuer, Basissatz 10% (5% auf Grundbedarf). Deutlich niedriger als europäische MwSt (19-22%)."
-        },
-        {
-          "q": "SA (Sociedad Anónima)",
-          "a": "Paraguayisches Äquivalent zur deutschen AG. Zugängliches Mindestkapital, Haftung auf Einlage beschränkt, empfohlen für Strukturen mit externen Investoren."
-        },
-        {
-          "q": "SRL (Gesellschaft mit beschränkter Haftung)",
-          "a": "Paraguayisches Äquivalent zur deutschen GmbH. Niedrigeres Mindestkapital als SA, einfachere Verwaltung. Empfohlen für Einzel- oder Familienunternehmen."
-        },
-        {
-          "q": "EAS (Vereinfachte Aktiengesellschaft)",
-          "a": "Neues paraguayisches Vehikel (Gesetz 6480/2020). Vollständig digitale schnelle Gründung, Mindestkapital Gs 1, einzelner Aktionär erlaubt. Äquivalent zur deutschen UG."
-        },
-        {
-          "q": "Dauerhafter Aufenthalt",
-          "a": "Unbefristeter Migrationsstatus in Paraguay. Erlaubt freies Leben, Arbeiten und Investieren. Nach Aktenprüfung durch Migraciones gewährt (8-12 Wochen mit sauberen Dokumenten)."
-        },
-        {
-          "q": "Steuerlicher Aufenthalt",
-          "a": "Steuerliches Konzept unterschieden vom Migrationsaufenthalt. Paraguayischer Steuereinwohner zu werden erfordert 120+ Tage jährlich oder den Lebensmittelpunkt in Paraguay. Berater für Ihren konkreten Fall konsultieren."
-        },
-        {
-          "q": "Doppelbesteuerungsabkommen (DBA)",
-          "a": "Bilaterale Vereinbarung, die verhindert, dass Einkommen zweimal besteuert wird. Paraguay hat ein begrenztes DBA-Netz; konsultieren Sie Ihren europäischen Steuerberater (besonders für Deutschland, Niederlande, Spanien)."
-        },
-        {
-          "q": "MERCOSUR",
-          "a": "Südamerikanischer Wirtschaftsblock (Argentinien, Brasilien, Paraguay, Uruguay). Paraguayische Einwohner können visumfrei im MERCOSUR bis zu 90 Tage reisen. Praktischer Vorteil."
-        },
-        {
-          "q": "Freihandelszone (Zona Franca)",
-          "a": "Paraguayisches Regime für Exporttätigkeiten mit Steuervergünstigungen (reduzierte IRE 0,5%, MwSt-befreit). Erfordert echte Operationen in der Zone."
-        },
-        {
-          "q": "Escrituración (notarielle Beurkundung)",
-          "a": "Notarieller Akt, der Immobilieneigentum überträgt. Von einem paraguayischen Notar durchgeführt. Äquivalent zur deutschen notariellen Urkunde."
-        },
-        {
-          "q": "Registereintragung",
-          "a": "Eintragung des Eigentumstitels im Öffentlichen Register (Immobilien) oder Handelsregister (Gesellschaften). Macht das Recht gegenüber Dritten wirksam."
-        },
-        {
-          "q": "Due Diligence / rechtliche Prüfung",
-          "a": "Voruntersuchung einer Transaktion (Immobilienkauf, Unternehmensakquisition), die Titel, Lasten, Schulden und Compliance verifiziert. Schützt den Käufer vor nachträglichen Überraschungen."
-        },
-        {
-          "q": "Guaraní (Gs)",
-          "a": "Offizielle Währung Paraguays. Referenzwechselkurs ca. 7.300 Gs/USD und 8.000 Gs/EUR (April 2026, tägliche Schwankungen). Die meisten bedeutenden Verträge werden in USD ausgewiesen."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Begriff nicht gelistet?",
-      "subtitle": "Schreiben Sie uns und wir fügen ihn hinzu.",
-      "buttonText": "Kostenlose Beratung buchen",
-      "buttonHref": "/s/de/nexa-paraguay/contacto"
-    }
-  },
-  "intakeWizardPage": {
-    "seo": {
-      "title": "Assistent — Welches Programm passt? — Nexa Paraguay",
-      "description": "4 schnelle Fragen, um das passende Nexa Paraguay-Programm zu finden."
-    },
-    "hero": {
-      "headline": "Welches Programm passt zu Ihnen?",
-      "subheadline": "4 Fragen. 60 Sekunden. Keine E-Mail nötig."
-    },
-    "wizard": {
-      "title": "Lassen Sie uns beginnen",
-      "subtitle": "Ihre Antworten werden nicht gespeichert. Das Ergebnis ist Orientierung — die kostenlose Beratung bestätigt es."
-    }
   }
 }

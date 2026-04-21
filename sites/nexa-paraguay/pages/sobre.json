@@ -24,6 +24,11 @@
       "content": "aboutPage.team"
     },
     {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "aboutPage.gallery"
+    },
+    {
       "id": "cta-banner",
       "variant": "solid",
       "content": "aboutPage.cta"
