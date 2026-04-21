@@ -138,6 +138,10 @@ export default async function CategoryPage({
           initialInStockOnly={inStockOnly}
           initialOnSaleOnly={onSaleOnly}
           initialPerPage={12}
+          initialBrands={[]}
+          availableBrands={[]}
+          initialTags={[]}
+          availableTags={[]}
         />
 
         {products.length === 0 ? (

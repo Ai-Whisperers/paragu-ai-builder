@@ -6,6 +6,8 @@ import {
   countActiveProducts,
   listDistinctCategories,
   listCategoryCounts,
+  listDistinctBrands,
+  listDistinctTags,
   type ProductSort,
 } from '@/lib/commerce/products'
 import { recordSearchEvent, listTopSearches } from '@/lib/commerce/search-events'
@@ -57,6 +59,8 @@ export default async function StorePage({
     on_sale?: string
     page?: string
     per_page?: string
+    brand?: string
+    tag?: string
   }>
 }) {
   const { site, locale } = await params
@@ -73,6 +77,14 @@ export default async function StorePage({
     .map((c) => c.trim())
     .filter(Boolean)
   const category = categories[0] ?? ''
+  const brands = (sp.brand ?? '')
+    .split(',')
+    .map((c) => c.trim())
+    .filter(Boolean)
+  const tags = (sp.tag ?? '')
+    .split(',')
+    .map((c) => c.trim())
+    .filter(Boolean)
   const minPriceCents = parsePositiveInt(sp.min)
   const maxPriceCents = parsePositiveInt(sp.max)
   const inStockOnly = sp.in_stock === '1' || sp.in_stock === 'true'
@@ -84,20 +96,25 @@ export default async function StorePage({
   const filterOpts = {
     search,
     categories: categories.length > 0 ? categories : undefined,
+    brands: brands.length > 0 ? brands : undefined,
+    tags: tags.length > 0 ? tags : undefined,
     minPriceCents: minPriceCents || undefined,
     maxPriceCents: maxPriceCents || undefined,
     inStockOnly,
     onSaleOnly,
   }
 
-  const [products, totalCount, rates, availableCategories, categoryCounts, topSearches] = await Promise.all([
-    listActiveProducts(business.id, { ...filterOpts, limit: perPage, offset, sort: sortKey }),
-    countActiveProducts(business.id, filterOpts),
-    loadPygRates(),
-    listDistinctCategories(business.id),
-    listCategoryCounts(business.id),
-    listTopSearches(business.id, { windowDays: 30, limit: 8 }),
-  ])
+  const [products, totalCount, rates, availableCategories, categoryCounts, topSearches, availableBrands, availableTags] =
+    await Promise.all([
+      listActiveProducts(business.id, { ...filterOpts, limit: perPage, offset, sort: sortKey }),
+      countActiveProducts(business.id, filterOpts),
+      loadPygRates(),
+      listDistinctCategories(business.id),
+      listCategoryCounts(business.id),
+      listTopSearches(business.id, { windowDays: 30, limit: 8 }),
+      listDistinctBrands(business.id),
+      listDistinctTags(business.id),
+    ])
   // Only surface suggestions with at least 1 result (non-zero-result).
   // Dedup by normalized form, keep pretty sampleQuery.
   const popularQueries = topSearches
@@ -118,7 +135,14 @@ export default async function StorePage({
 
   const totalPages = Math.max(1, Math.ceil(totalCount / perPage))
   const hasActiveFilters = Boolean(
-    search || categories.length > 0 || minPriceCents || maxPriceCents || inStockOnly || onSaleOnly,
+    search ||
+      categories.length > 0 ||
+      brands.length > 0 ||
+      tags.length > 0 ||
+      minPriceCents ||
+      maxPriceCents ||
+      inStockOnly ||
+      onSaleOnly,
   )
 
   return (
@@ -153,6 +177,10 @@ export default async function StorePage({
           initialCategories={categories}
           availableCategories={availableCategories}
           categoryCounts={categoryCounts}
+          initialBrands={brands}
+          availableBrands={availableBrands}
+          initialTags={tags}
+          availableTags={availableTags}
           initialMinPrice={minPriceCents}
           initialMaxPrice={maxPriceCents}
           initialInStockOnly={inStockOnly}

@@ -10,6 +10,8 @@ interface ProductRow {
   name: string
   description: string | null
   category: string | null
+  brand: string | null
+  tags: string[] | null
   price_cents: number
   compare_at_price_cents: number | null
   currency: string
@@ -34,6 +36,8 @@ function rowToProduct(row: ProductRow): Product {
     name: row.name,
     description: row.description,
     category: row.category,
+    brand: row.brand,
+    tags: row.tags ?? [],
     priceCents: row.price_cents,
     compareAtPriceCents: row.compare_at_price_cents,
     currency: row.currency,
@@ -58,6 +62,10 @@ export interface ListActiveProductsOpts {
   category?: string
   /** Multi-category filter. Takes precedence over `category` when both set. */
   categories?: string[]
+  /** Exact-match filter on brand. Empty = no filter. */
+  brands?: string[]
+  /** Tag contains-all filter. Product must have every tag listed. */
+  tags?: string[]
   limit?: number
   offset?: number
   /** Free-text search — matches name OR description OR SKU (ilike). Empty string is no filter. */
@@ -105,6 +113,14 @@ export async function listActiveProducts(
         query = query.in('category', opts.categories)
       } else if (opts.category) {
         query = query.eq('category', opts.category)
+      }
+      if (opts.brands && opts.brands.length > 0) {
+        query = query.in('brand', opts.brands)
+      }
+      if (opts.tags && opts.tags.length > 0) {
+        // PostgREST array-contains: tags @> '{tag1,tag2}' — product must
+        // contain ALL supplied tags. Use `.contains()` which generates `cs`.
+        query = query.contains('tags', opts.tags)
       }
       if (opts.search && opts.search.trim()) {
         // Accent-insensitive search. The DB carries a generated
@@ -165,6 +181,8 @@ export async function countActiveProducts(
   } else if (opts.category) {
     query = query.eq('category', opts.category)
   }
+  if (opts.brands && opts.brands.length > 0) query = query.in('brand', opts.brands)
+  if (opts.tags && opts.tags.length > 0) query = query.contains('tags', opts.tags)
   if (opts.search && opts.search.trim()) {
     // See listActiveProducts for rationale — match the same shape as the
     // DB-side search_haystack column.
@@ -195,6 +213,35 @@ export async function listDistinctCategories(businessId: string): Promise<string
   const set = new Set<string>()
   for (const row of (Array.isArray(data) ? data : []) as Array<{ category: string | null }>) {
     if (row.category) set.add(row.category)
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
+}
+
+export async function listDistinctBrands(businessId: string): Promise<string[]> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('brand')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+    .not('brand', 'is', null)
+  const set = new Set<string>()
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ brand: string | null }>) {
+    if (row.brand) set.add(row.brand)
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
+}
+
+export async function listDistinctTags(businessId: string): Promise<string[]> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('tags')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+  const set = new Set<string>()
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ tags: string[] | null }>) {
+    for (const t of row.tags ?? []) if (t) set.add(t)
   }
   return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
 }
