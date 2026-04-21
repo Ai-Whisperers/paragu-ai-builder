@@ -1,0 +1,156 @@
+name: PR Checks
+
+# Single merge gate for all PRs. Replaces the old set of overlapping
+# workflows (ci.yml, ci-cd.yml, test.yml, validate.yml, quality-gates.yml)
+# which all ran lint + typecheck + tests separately and wasted compute.
+#
+# Required on Main and staging via branch protection rules.
+
+on:
+  pull_request:
+    branches: [Main, staging]
+  push:
+    branches: [Main, staging]
+
+concurrency:
+  # Cancel superseded runs on the same PR — saves compute when multiple
+  # pushes land quickly. Main/staging pushes don't cancel each other.
+  group: pr-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  # ─────────────────────────────────────────────────────────────────────
+  # 1. Lint + Typecheck — cheapest, runs first, blocks other jobs
+  # ─────────────────────────────────────────────────────────────────────
+  lint-typecheck:
+    name: Lint & Typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Typecheck
+        run: npm run typecheck
+
+  # ─────────────────────────────────────────────────────────────────────
+  # 2. Tenant-config validation — catches bad page JSON / content refs /
+  #    missing locale content before a runtime error bites a tenant.
+  # ─────────────────────────────────────────────────────────────────────
+  validate:
+    name: Validate Tenant Configs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: lint-typecheck
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: Validate tenant sites
+        # TEMPORARY: allow machine-translated locales until nexa-paraguay's
+        # German is professionally translated (tracked in sites/nexa-paraguay/
+        # docs/LAUNCH.md item #8).
+        env:
+          ALLOW_MACHINE_TRANSLATIONS: '1'
+        run: npm run validate:sites
+      - name: Validate content placeholders
+        run: npm run validate:content
+      - name: Validate relocacion vertical
+        run: npm run validate:vertical relocacion
+
+  # ─────────────────────────────────────────────────────────────────────
+  # 3. Unit + integration tests with coverage upload
+  # ─────────────────────────────────────────────────────────────────────
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: lint-typecheck
+    defaults:
+      run:
+        working-directory: web
+    env:
+      # Placeholders so code that reads env at module-load doesn't crash.
+      # No real Supabase calls happen in unit tests.
+      NEXT_PUBLIC_SUPABASE_URL: https://placeholder.supabase.co
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: placeholder-anon-key
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: Run tests
+        run: npm run test:unit
+      - name: Upload coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: web/coverage/
+          retention-days: 7
+
+  # ─────────────────────────────────────────────────────────────────────
+  # 4. Build smoke — verifies `npm run build` succeeds end-to-end.
+  #    Runs after lint+typecheck to avoid wasting a slow build when
+  #    the cheap checks already failed.
+  # ─────────────────────────────────────────────────────────────────────
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: lint-typecheck
+    defaults:
+      run:
+        working-directory: web
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: https://placeholder.supabase.co
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: placeholder-anon-key
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: Build
+        run: npm run build
+
+  # ─────────────────────────────────────────────────────────────────────
+  # 5. Secrets scan — blocks PRs that accidentally commit API keys /
+  #    tokens. TruffleHog flags high-entropy strings above threshold.
+  # ─────────────────────────────────────────────────────────────────────
+  secrets-scan:
+    name: Secrets Scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so TruffleHog can diff base..HEAD.
+          fetch-depth: 0
+      - name: TruffleHog Secrets Scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+          extra_args: --filter-entropy --threshold=8.5
