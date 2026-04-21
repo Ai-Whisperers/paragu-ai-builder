@@ -738,31 +738,31 @@
       "members": [
         {
           "name": "Operations Director (Paraguay)",
-          "role": "Operational leadership, institutional relationships",
+          "role": "Operations lead: 10+ years coordinating migration, DGII and bank openings. Deep Asunción institutional network.",
           "icon": "Briefcase",
           "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Commercial Director (Europe)",
-          "role": "Client acquisition, cultural bridge",
+          "role": "European client lead: native Dutch + German speaker, based in Amsterdam. Bridges EU tax concerns to Paraguayan practice.",
           "icon": "Globe",
           "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Legal team",
-          "role": "Immigration files, company incorporation",
+          "role": "Paraguayan bar-admitted lawyers. Immigration, corporate, and real-estate due diligence specialization.",
           "icon": "Scale",
           "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Accounting team",
-          "role": "Tax management, compliance",
+          "role": "CPA-licensed accountants. Ley 6380 IRE, territorial tax, and foreign-income structuring.",
           "icon": "Calculator",
           "imageUrl": "@src:team.accountingLead"
         },
         {
           "name": "Client Success",
-          "role": "Onboarding, coordination, long-term support",
+          "role": "Bilingual ES/EN onboarding and post-arrival care. Single point of contact through the 8–12 week process.",
           "icon": "UserCheck",
           "imageUrl": "@src:team.clientSuccess"
         }
@@ -929,12 +929,18 @@
       "fallbackEmail": "hola@nexaparaguay.com"
     },
     "contact": {
-      "title": "Or write to us directly",
+      "title": "Contact details",
       "address": "Asunción, Paraguay",
-      "neighborhood": "Centro",
+      "neighborhood": "Villa Morra",
       "city": "Asunción",
+      "phone": "+595 982 515 138",
       "email": "hola@nexaparaguay.com",
-      "whatsapp": "595982515138"
+      "whatsapp": "595982515138",
+      "hours": {
+        "Mon–Fri": "09:00 – 18:00 (UTC-3)",
+        "Sat": "10:00 – 14:00 (UTC-3)",
+        "Sun": "Closed"
+      }
     }
   },
   "privacyPage": {

@@ -753,31 +753,31 @@
       "members": [
         {
           "name": "Dirección de Operaciones (Paraguay)",
-          "role": "Liderazgo operativo, relaciones institucionales",
+          "role": "Líder de operaciones: +10 años coordinando con Migraciones, DGII y aperturas bancarias. Red institucional sólida en Asunción.",
           "icon": "Briefcase",
           "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Dirección Comercial (Europa)",
-          "role": "Adquisición de clientes, puente cultural",
+          "role": "Líder europea: holandés y alemán nativos, con base en Ámsterdam. Traduce inquietudes fiscales de la UE a la práctica paraguaya.",
           "icon": "Globe",
           "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Equipo Legal",
-          "role": "Expedientes migratorios, constitución societaria",
+          "role": "Abogados matriculados en Paraguay. Especialización en inmigración, corporativo y due diligence inmobiliario.",
           "icon": "Scale",
           "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Equipo Contable",
-          "role": "Gestión fiscal, cumplimiento tributario",
+          "role": "Contadores públicos matriculados. Ley 6380 IRE, renta territorial, estructuración de ingresos del exterior.",
           "icon": "Calculator",
           "imageUrl": "@src:team.accountingLead"
         },
         {
           "name": "Client Success",
-          "role": "Onboarding, coordinación y acompañamiento a largo plazo",
+          "role": "Onboarding y acompañamiento bilingüe ES/EN. Punto de contacto único durante las 8–12 semanas del proceso.",
           "icon": "UserCheck",
           "imageUrl": "@src:team.clientSuccess"
         }
@@ -944,12 +944,18 @@
       "fallbackEmail": "hola@nexaparaguay.com"
     },
     "contact": {
-      "title": "O escríbanos directamente",
+      "title": "Datos de contacto",
       "address": "Asunción, Paraguay",
-      "neighborhood": "Centro",
+      "neighborhood": "Villa Morra",
       "city": "Asunción",
+      "phone": "+595 982 515 138",
       "email": "hola@nexaparaguay.com",
-      "whatsapp": "595982515138"
+      "whatsapp": "595982515138",
+      "hours": {
+        "Lun–Vie": "09:00 – 18:00 (UTC-3)",
+        "Sáb": "10:00 – 14:00 (UTC-3)",
+        "Dom": "Cerrado"
+      }
     }
   },
   "privacyPage": {

@@ -323,6 +323,97 @@
         }
       ]
     },
+    "enhancedFaq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Buscá por palabra clave o filtrá por tema. Si no encontrás lo que buscás, escribinos por WhatsApp.",
+      "business": {
+        "name": "Fun4Me",
+        "whatsapp": "+595976569739",
+        "phone": "+595976569739"
+      },
+      "items": [
+        {
+          "question": "¿El envío es realmente discreto?",
+          "answer": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicación del contenido. Nadie sabrá qué hay dentro excepto vos.",
+          "category": "Privacidad"
+        },
+        {
+          "question": "¿Qué aparece en mi estado de cuenta?",
+          "answer": "El cargo aparece como 'F4M COMERCIAL' — sin referencias explícitas al tipo de productos. Podés pedir también facturación a otro nombre comercial si lo preferís.",
+          "category": "Privacidad"
+        },
+        {
+          "question": "¿Pueden usar un nombre distinto al mío para el envío?",
+          "answer": "Sí. En el checkout podés ingresar cualquier nombre para el destinatario. Solo necesitamos un documento válido al momento de la entrega.",
+          "category": "Privacidad"
+        },
+        {
+          "question": "¿Qué formas de pago aceptan?",
+          "answer": "Tarjetas de crédito/débito (Visa, Mastercard), transferencia bancaria, billeteras electrónicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asunción.",
+          "category": "Pagos"
+        },
+        {
+          "question": "¿Tienen envío gratis?",
+          "answer": "Sí, el envío es gratis en compras mayores a Gs. 200.000 a todo el país.",
+          "category": "Pagos"
+        },
+        {
+          "question": "¿Cuánto tarda el envío?",
+          "answer": "Asunción: 24-48 horas. Gran Asunción: 48-72 horas. Interior: 3-5 días hábiles. Envío express disponible con entrega el mismo día en Asunción (si pedís antes de las 15:00, Gs. 50.000 extra).",
+          "category": "Envío"
+        },
+        {
+          "question": "¿A qué ciudades envían?",
+          "answer": "Enviamos a todo Paraguay. Gran Asunción (Asunción, Fernando de la Mora, San Lorenzo, Lambaré, Luque) en 24-72 h. Interior vía encomienda rastreable. Consultá por WhatsApp para tiempos específicos.",
+          "category": "Envío"
+        },
+        {
+          "question": "¿Puedo retirar en la tienda física en vez de esperar envío?",
+          "answer": "Sí. Elegí 'retiro en tienda' en el checkout y te esperamos en Herrera 875, Asunción. Lunes a viernes 09:00-20:00, sábados 09:00-18:00.",
+          "category": "Envío"
+        },
+        {
+          "question": "¿Qué hago si nadie está cuando llegue el pedido?",
+          "answer": "El moto te avisa por WhatsApp antes de llegar. Si no podés recibirlo, coordinamos una segunda entrega sin costo o retiro en la tienda.",
+          "category": "Envío"
+        },
+        {
+          "question": "¿Puedo devolver un producto?",
+          "answer": "Por razones de higiene, no aceptamos devoluciones de productos íntimos una vez abiertos. Si el producto llega defectuoso o dañado, lo reemplazamos sin costo. Lencería sin usar con etiquetas puede devolverse en 7 días.",
+          "category": "Garantía"
+        },
+        {
+          "question": "¿Los productos tienen garantía?",
+          "answer": "Los productos electrónicos tienen garantía según el fabricante. Satisfyer: 15 años. LELO: 1 año. We-Vibe: 2 años. Para hacer efectiva la garantía, contactanos por WhatsApp con el número de pedido.",
+          "category": "Garantía"
+        },
+        {
+          "question": "¿Los productos son seguros?",
+          "answer": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona médica, ABS libre de ftalatos, o materiales seguros para el cuerpo certificados por los fabricantes.",
+          "category": "Productos"
+        },
+        {
+          "question": "¿Qué es el lubricante ideal para juguetes de silicona?",
+          "answer": "Lubricante a base de agua. Los lubricantes a base de silicona reaccionan con los juguetes de silicona y los dañan. Tenemos ambos tipos; al agregar al carrito te sugerimos el compatible.",
+          "category": "Productos"
+        },
+        {
+          "question": "¿Cómo limpio mis juguetes?",
+          "answer": "Agua tibia + jabón neutro o limpiador específico para juguetes (disponible en la tienda). Secar al aire. Tenemos una guía completa en el blog: 'Cómo limpiar juguetes sexuales'.",
+          "category": "Productos"
+        },
+        {
+          "question": "¿Puedo visitar la tienda física?",
+          "answer": "¡Claro! Te esperamos en Herrera 875, Asunción. Lunes a viernes de 09:00 a 20:00 y sábados de 09:00 a 18:00. Asesoría discreta y sin compromiso.",
+          "category": "Tienda física"
+        },
+        {
+          "question": "¿Necesito presentar documento al entrar a la tienda?",
+          "answer": "Sí. Como toda tienda del rubro, verificamos que seas mayor de 18 años al entrar. Aceptamos cédula paraguaya o pasaporte vigente.",
+          "category": "Tienda física"
+        }
+      ]
+    },
     "cta": {
       "title": "Tenes alguna consulta?",
       "subtitle": "Escribinos por WhatsApp y te asesoramos sin compromiso.",
