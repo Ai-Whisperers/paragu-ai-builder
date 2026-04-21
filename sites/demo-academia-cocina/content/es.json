@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Academia de Cocina Asunción",
+  "tagline": "Cursos de cocina, pasteleria, panaderia y bartender.",
+  "placeholders": {
+    "businessName": "Demo Academia de Cocina Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Academia de Cocina Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Academia de Cocina Asunción - Academia de Cocina en Asunción",
+      "description": "Cursos de cocina, pasteleria, panaderia y bartender."
+    },
+    "hero": {
+      "headline": "Demo Academia de Cocina Asunción - Cocina profesional, paso a paso",
+      "subheadline": "Cursos de cocina, pasteleria, panaderia y bartender.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Academia%20de%20Cocina%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "academia_cocina"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Academia de Cocina Asunción",
+    "copyright": "© {{year}} Demo Academia de Cocina Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Academia de Cocina y me interesa un sitio para mi negocio"
+  }
+}

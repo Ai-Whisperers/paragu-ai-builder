@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 import { BUSINESS_TYPES } from '@/lib/types'
 
@@ -58,6 +59,58 @@ export default async function AdminDashboard() {
             <p className="text-sm font-medium text-gray-500">Sitios Generados</p>
             <p className="mt-1 text-3xl font-bold text-[var(--color-success)]">{businesses.length}</p>
           </div>
+        </div>
+
+        {/* Quick links to admin tools */}
+        <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <Link
+            href="/admin/leads"
+            className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
+          >
+            <p className="text-xs uppercase tracking-wider text-gray-500">CRM</p>
+            <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
+              Leads (outbound)
+            </p>
+            <p className="mt-1 text-sm text-gray-500">
+              Negocios prospectados, status y outreach.
+            </p>
+          </Link>
+          <Link
+            href="/admin/demo-requests"
+            className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
+          >
+            <p className="text-xs uppercase tracking-wider text-gray-500">Inbound</p>
+            <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
+              Demo requests
+            </p>
+            <p className="mt-1 text-sm text-gray-500">
+              Leads del qualifier en /demo (analytics_events).
+            </p>
+          </Link>
+          <Link
+            href="/admin/commerce"
+            className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
+          >
+            <p className="text-xs uppercase tracking-wider text-gray-500">Tiendas</p>
+            <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
+              Commerce
+            </p>
+            <p className="mt-1 text-sm text-gray-500">
+              Pedidos, productos e inventario por tenant.
+            </p>
+          </Link>
+          <Link
+            href="/admin/tenants"
+            className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
+          >
+            <p className="text-xs uppercase tracking-wider text-gray-500">Tenants</p>
+            <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
+              Negocios + grace status
+            </p>
+            <p className="mt-1 text-sm text-gray-500">
+              Suscripción, contacto, notas y eventos por tenant.
+            </p>
+          </Link>
         </div>
 
         {/* Business List */}

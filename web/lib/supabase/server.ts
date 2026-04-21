@@ -11,16 +11,12 @@ import { createServerClient, type CookieOptions } from '@supabase/ssr'
 import { cookies } from 'next/headers'
 import { env } from '@/lib/env'
 
-// Connection pool configuration
-const POOL_CONFIG = {
-  max: 20,                    // Maximum connections in pool
-  min: 5,                     // Minimum connections to maintain
-  acquireTimeoutMillis: 5000,  // Max time to acquire connection
-  idleTimeoutMillis: 30000,    // Close idle connections after 30s
-  reapIntervalMillis: 1000,    // Check idle connections every 1s
-  createTimeoutMillis: 5000,   // Connection creation timeout
-  destroyTimeoutMillis: 5000,  // Connection destruction timeout
-}
+// Connection pool target — informational only. PostgREST connection
+// pooling lives at the PgBouncer / Supavisor layer, NOT in the JS client.
+// See docs/how-to/debug.md §8 for the real pool knobs. These numbers
+// document our target shape:
+//   max=20, min=5, acquireTimeout=5s, idleTimeout=30s,
+//   reap=1s, create/destroy timeout=5s.
 
 // Request timeout configuration
 const REQUEST_CONFIG = {
@@ -45,8 +41,8 @@ export async function createClient(keyType: 'anon' | 'service_role' = 'anon') {
   return createServerClient(env.SUPABASE_URL, apiKey, {
     // NOTE: `db.pool` is not part of SupabaseClientOptions. Connection
     // pooling is configured at the PgBouncer / Supavisor layer, not from
-    // the client. `POOL_CONFIG` is informational for local documentation
-    // only — see docs/how-to/debug.md §8 for the real pool knobs.
+    // the client — see docs/how-to/debug.md §8 and the comment block
+    // above this file's REQUEST_CONFIG for the documented target shape.
     //
     // Global configuration
     global: {

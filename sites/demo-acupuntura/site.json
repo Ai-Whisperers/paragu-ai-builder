@@ -1,0 +1,34 @@
+{
+  "vertical": "health-wellness",
+  "businessType": "acupuncture_clinic",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.acupuncture.clinic.py"
+  },
+  "location": {
+    "city": "Asuncion"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "acupuncture_clinic",
+  "demoWave": 3,
+  "demoCluster": "K Health",
+  "noindex": true,
+  "createdAt": "2026-04-21",
+  "source": "batch-create-demos",
+  "is_demo": true
+}

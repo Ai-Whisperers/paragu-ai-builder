@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Herreria Luque",
+  "tagline": "Portones, rejas, escaleras y estructuras metalicas a medida.",
+  "placeholders": {
+    "businessName": "Demo Herreria Luque",
+    "city": "Luque",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Herreria Luque",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Herreria Luque - Herreria en Luque",
+      "description": "Portones, rejas, escaleras y estructuras metalicas a medida."
+    },
+    "hero": {
+      "headline": "Demo Herreria Luque - Trabajos en hierro, con terminacion impecable",
+      "subheadline": "Portones, rejas, escaleras y estructuras metalicas a medida.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Herreria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Luque",
+      "formSource": "demo",
+      "demoRubro": "herreria"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Herreria Luque",
+    "copyright": "© {{year}} Demo Herreria Luque",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Herreria y me interesa un sitio para mi negocio"
+  }
+}

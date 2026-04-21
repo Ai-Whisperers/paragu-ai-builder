@@ -183,8 +183,7 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   'property-listings': {
     id: 'property-listings',
     defaultVariant: 'cards',
-    variants: ['cards'],
-    requiredContentFields: ['properties'],
+    variants: ['cards', 'listings-from-api'],
   },
   features: {
     id: 'features',
@@ -220,6 +219,79 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     id: 'conveyor-belt',
     defaultVariant: 'animated',
     variants: ['animated'],
+  },
+  'intake-questionnaire': {
+    id: 'intake-questionnaire',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['title', 'questions'],
+  },
+  'tiered-service-ladder': {
+    id: 'tiered-service-ladder',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['tiers'],
+  },
+  'regulatory-status-badge': {
+    id: 'regulatory-status-badge',
+    defaultVariant: 'badge',
+    variants: ['badge', 'inline'],
+    requiredContentFields: ['items'],
+  },
+  'compliance-disclaimer-footer': {
+    id: 'compliance-disclaimer-footer',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['paragraphs'],
+  },
+  'mortgage-calculator': {
+    id: 'mortgage-calculator',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['defaultPrincipal', 'currency', 'termYearsOptions', 'ratePresets'],
+  },
+  'weekly-cadence-calendar': {
+    id: 'weekly-cadence-calendar',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['phases'],
+  },
+  'sample-week-preview': {
+    id: 'sample-week-preview',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['items'],
+  },
+  'delivery-slot-picker': {
+    id: 'delivery-slot-picker',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['slots'],
+  },
+  // Egg-farm / granja-cabral sections (PR #108)
+  'enhanced-faq': {
+    id: 'enhanced-faq',
+    defaultVariant: 'searchable',
+    variants: ['searchable'],
+    requiredContentFields: ['business'],
+  },
+  'our-story': {
+    id: 'our-story',
+    defaultVariant: 'narrative',
+    variants: ['narrative'],
+    requiredContentFields: ['business'],
+  },
+  'b2b-wholesale': {
+    id: 'b2b-wholesale',
+    defaultVariant: 'tiered',
+    variants: ['tiered'],
+    requiredContentFields: ['business'],
+  },
+  recipes: {
+    id: 'recipes',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+    requiredContentFields: ['business'],
   },
 }
 

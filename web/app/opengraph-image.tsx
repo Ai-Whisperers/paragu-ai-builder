@@ -44,7 +44,7 @@ export default async function Image() {
           >
             ✨
           </div>
-          <div>
+          <div style={{ display: 'flex' }}>
             <span style={{ color: 'white' }}>Paragu</span>
             <span style={{ color: '#a78bfa' }}>AI</span>
           </div>
@@ -53,6 +53,9 @@ export default async function Image() {
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <div
             style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '0 16px',
               fontSize: 76,
               fontWeight: 800,
               lineHeight: 1.05,
@@ -60,7 +63,7 @@ export default async function Image() {
               marginBottom: 24,
             }}
           >
-            Tu sitio web{' '}
+            <span>Tu sitio web</span>
             <span
               style={{
                 background: 'linear-gradient(90deg, #a78bfa 0%, #f472b6 100%)',
@@ -69,8 +72,8 @@ export default async function Image() {
               }}
             >
               profesional
-            </span>{' '}
-            en 48 horas
+            </span>
+            <span>en 48 horas</span>
           </div>
           <div style={{ fontSize: 30, color: '#cbd5e1', lineHeight: 1.4 }}>
             Todo incluido: diseño, dominio .com.py, SEO y WhatsApp. Demo gratis antes de pagar.
@@ -88,7 +91,7 @@ export default async function Image() {
         >
           <div style={{ display: 'flex', gap: 32 }}>
             <span>🇵🇾 Paraguay</span>
-            <span>· 16 plantillas listas</span>
+            <span>· Plantillas por rubro</span>
             <span>· 7.4K negocios mapeados</span>
           </div>
           <div>paragu-ai.com</div>

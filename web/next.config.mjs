@@ -84,7 +84,43 @@ const nextConfig = {
   },
 
   async headers() {
-    return [{ source: '/(.*)', headers: securityHeaders }]
+    return [
+      { source: '/(.*)', headers: securityHeaders },
+
+      // Admin + auth: never cache (private session-bound responses).
+      {
+        source: '/admin/:path*',
+        headers: [{ key: 'Cache-Control', value: 'private, no-store' }],
+      },
+      {
+        source: '/auth/:path*',
+        headers: [{ key: 'Cache-Control', value: 'private, no-store' }],
+      },
+      {
+        source: '/login',
+        headers: [{ key: 'Cache-Control', value: 'private, no-store' }],
+      },
+
+      // Sitemap + robots: short browser cache, longer CDN cache.
+      {
+        source: '/sitemap.xml',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=3600, s-maxage=86400' }],
+      },
+      {
+        source: '/robots.txt',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=3600, s-maxage=86400' }],
+      },
+
+      // OG / favicon images: long-lived, content-hashed.
+      {
+        source: '/(.*)/opengraph-image',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=2592000' }],
+      },
+      {
+        source: '/favicon.:ext(ico|png|svg)',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, s-maxage=604800' }],
+      },
+    ]
   },
 
   experimental: {

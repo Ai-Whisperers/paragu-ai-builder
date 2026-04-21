@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Depilacion Fernando de la Mora",
+  "tagline": "Tecnologia de ultima generacion, resultados permanentes",
+  "placeholders": {
+    "businessName": "Demo Depilacion Fernando de la Mora",
+    "city": "Fernando de la Mora",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Depilacion Fernando de la Mora",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Depilacion Fernando de la Mora - Depilacion Laser en Fernando de la Mora | Resultados Permanentes",
+      "description": "Depilacion laser definitiva en Fernando de la Mora. Tecnologia avanzada, resultados permanentes. Consulta gratis."
+    },
+    "hero": {
+      "headline": "Demo Depilacion Fernando de la Mora - Depilacion Laser Definitiva",
+      "subheadline": "Tecnologia de ultima generacion, resultados permanentes",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Depilacion%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Fernando de la Mora",
+      "formSource": "demo",
+      "demoRubro": "depilacion"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Depilacion Fernando de la Mora",
+    "copyright": "© {{year}} Demo Depilacion Fernando de la Mora",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Depilacion y me interesa un sitio para mi negocio"
+  }
+}

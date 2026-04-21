@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Desarrollador Inmobiliario Asunción",
+  "tagline": "Desarrollos residenciales y comerciales con entrega garantizada.",
+  "placeholders": {
+    "businessName": "Demo Desarrollador Inmobiliario Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Desarrollador Inmobiliario Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Desarrollador Inmobiliario Asunción - Desarrolladora Inmobiliaria en Asunción",
+      "description": "Desarrollos residenciales y comerciales con entrega garantizada."
+    },
+    "hero": {
+      "headline": "Demo Desarrollador Inmobiliario Asunción - Proyectos que se construyen a tiempo",
+      "subheadline": "Desarrollos residenciales y comerciales con entrega garantizada.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Desarrollador%20Inmobiliario%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "desarrollador_inmobiliario"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Desarrollador Inmobiliario Asunción",
+    "copyright": "© {{year}} Demo Desarrollador Inmobiliario Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Desarrollador Inmobiliario y me interesa un sitio para mi negocio"
+  }
+}

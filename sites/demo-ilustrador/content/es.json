@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Ilustrador Encarnacion",
+  "tagline": "Estudio de Ilustracion profesional en Encarnacion.",
+  "placeholders": {
+    "businessName": "Demo Ilustrador Encarnacion",
+    "city": "Encarnacion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Ilustrador Encarnacion",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Ilustrador Encarnacion - Estudio de Ilustracion en Encarnacion",
+      "description": "Estudio de Ilustracion profesional en Encarnacion. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Ilustrador Encarnacion - Estudio de Ilustracion",
+      "subheadline": "Estudio de Ilustracion profesional en Encarnacion.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Ilustrador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Encarnacion",
+      "formSource": "demo",
+      "demoRubro": "illustrator_studio"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Ilustrador Encarnacion",
+    "copyright": "© {{year}} Demo Ilustrador Encarnacion",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Ilustrador y me interesa un sitio para mi negocio"
+  }
+}

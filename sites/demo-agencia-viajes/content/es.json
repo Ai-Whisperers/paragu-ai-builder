@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Agencia de Viajes Asunción",
+  "tagline": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos.",
+  "placeholders": {
+    "businessName": "Demo Agencia de Viajes Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Agencia de Viajes Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Agencia de Viajes Asunción - Agencia de Viajes en Asunción",
+      "description": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos."
+    },
+    "hero": {
+      "headline": "Demo Agencia de Viajes Asunción - Tu proximo viaje empieza aqui",
+      "subheadline": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Agencia%20de%20Viajes%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "agencia_viajes"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Agencia de Viajes Asunción",
+    "copyright": "© {{year}} Demo Agencia de Viajes Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Agencia de Viajes y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Yoga Capiata",
+  "tagline": "Estudio de Yoga profesional en Capiata.",
+  "placeholders": {
+    "businessName": "Demo Yoga Capiata",
+    "city": "Capiata",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Yoga Capiata",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Yoga Capiata - Estudio de Yoga en Capiata",
+      "description": "Estudio de Yoga profesional en Capiata. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Yoga Capiata - Estudio de Yoga",
+      "subheadline": "Estudio de Yoga profesional en Capiata.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Yoga%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Capiata",
+      "formSource": "demo",
+      "demoRubro": "yoga_studio"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Yoga Capiata",
+    "copyright": "© {{year}} Demo Yoga Capiata",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Yoga y me interesa un sitio para mi negocio"
+  }
+}

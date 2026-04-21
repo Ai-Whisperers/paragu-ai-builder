@@ -71,11 +71,12 @@ export function scopedQueries(supabase: SupabaseClient, businessId: string) {
     throw new Error('[ScopedQueries] business_id is required for scoped queries')
   }
 
-   
   // selectCached / batchInsert, so we capture it as a named const before return.
-  let queries: ReturnType<typeof buildScopedQueries>
-   
-  queries = buildScopedQueries(supabase, businessId, () => queries)
+  // The closure `() => queries` captures by reference, so it's safe even though
+  // the value isn't bound until after buildScopedQueries returns (the closure
+  // is only invoked later, well past initialization).
+  const queries: ReturnType<typeof buildScopedQueries> =
+    buildScopedQueries(supabase, businessId, () => queries)
   return queries
 }
 
@@ -305,6 +306,21 @@ export const BUSINESS_SCOPED_TABLES = [
   'site_pages',
   'site_assets',
   'generation_logs',
+  'products',
+  'carts',
+  'cart_items',
+  'orders',
+  'order_items',
+  'storefront_transactions',
+  'business_counters',
+  'idempotency_keys',
+  'inventory_logs',
+  'shipping_zones',
+  'commerce_email_outbox',
+  'discounts',
+  'discount_redemptions',
+  'cart_recovery_touches',
+  'business_payment_credentials',
 ] as const
 
 export type BusinessScopedTable = (typeof BUSINESS_SCOPED_TABLES)[number]

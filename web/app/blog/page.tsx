@@ -5,6 +5,7 @@ import { Container } from '@/components/ui/container'
 import { SiteNav } from '@/components/landing/site-nav'
 import { SiteFooter } from '@/components/landing/site-footer'
 import { BLOG_POSTS } from '@/lib/landing/blog-posts'
+import { waLink } from '@/lib/landing/marketing-data'
 
 export const metadata: Metadata = {
   title: 'Blog — guías y casos para negocios paraguayos',
@@ -19,7 +20,7 @@ export default function BlogIndexPage() {
   return (
     <>
       <SiteNav />
-      <main className="pt-24 pb-20">
+      <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-16 max-w-2xl text-center">
             <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
@@ -69,7 +70,7 @@ export default function BlogIndexPage() {
             <p className="text-sm text-[var(--text-light)]">
               Más artículos en preparación. ¿Querés que escribamos sobre algún tema?{' '}
               <a
-                href={`https://wa.me/595981234567?text=${encodeURIComponent('Hola, me interesaría leer un post sobre...')}`}
+                href={waLink('Hola, me interesaría leer un post sobre...')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-[var(--primary)]"

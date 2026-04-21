@@ -1,0 +1,34 @@
+{
+  "vertical": "b2b-professional",
+  "businessType": "certified_translator",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.certified.translator.py"
+  },
+  "location": {
+    "city": "Asuncion"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "certified_translator",
+  "demoWave": 2,
+  "demoCluster": "B Portfolio",
+  "noindex": true,
+  "createdAt": "2026-04-21",
+  "source": "batch-create-demos",
+  "is_demo": true
+}

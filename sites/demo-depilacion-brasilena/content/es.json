@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Depilacion Brasilena Asunción",
+  "tagline": "Depilacion Brasilena profesional en Asunción.",
+  "placeholders": {
+    "businessName": "Demo Depilacion Brasilena Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Depilacion Brasilena Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Depilacion Brasilena Asunción - Depilacion Brasilena en Asunción",
+      "description": "Depilacion Brasilena profesional en Asunción. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Depilacion Brasilena Asunción - Depilacion Brasilena",
+      "subheadline": "Depilacion Brasilena profesional en Asunción.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Depilacion%20Brasilena%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "brazilian_wax_studio"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Depilacion Brasilena Asunción",
+    "copyright": "© {{year}} Demo Depilacion Brasilena Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Depilacion Brasilena y me interesa un sitio para mi negocio"
+  }
+}

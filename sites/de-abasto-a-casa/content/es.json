@@ -14,7 +14,7 @@
   "navigation": {
     "businessName": "De Abasto a Casa",
     "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595000000000"
+    "ctaHref": "https://wa.me/595981324569"
   },
   "home": {
     "seo": {
@@ -25,41 +25,41 @@
       "headline": "De Abasto a Casa",
       "subheadline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595000000000"
+      "ctaPrimaryHref": "https://wa.me/595981324569"
     },
     "services": {
       "title": "Nuestros Servicios",
       "items": [
         {
-          "name": "Nivel 1 - Basico",
+          "name": "Compra básica semanal",
           "price": "250.000 Gs/semana",
           "duration": 120,
           "description": "Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido.",
           "category": "Compras (Raw)"
         },
         {
-          "name": "Nivel 1 - Completo",
+          "name": "Compra completa semanal",
           "price": "400.000 Gs/semana",
           "duration": 180,
-          "description": "Lista completa + Abasto + mercado + almacen. Delivery y organizado.",
+          "description": "Lista completa + Abasto + mercado + almacén. Delivery y organizado.",
           "category": "Compras (Raw)"
         },
         {
-          "name": "Nivel 2 - Individual",
+          "name": "Mise-en-place individual",
           "price": "400.000 Gs/semana",
           "duration": 240,
-          "description": "1 persona. Prep basico: proteina + carbos + vegetales, sellado al vacio.",
+          "description": "1 persona. Prep básico: proteína + carbos + vegetales, sellado al vacio.",
           "category": "Mise-en-Place"
         },
         {
-          "name": "Nivel 2 - Pareja",
+          "name": "Mise-en-place para parejas",
           "price": "650.000 Gs/semana",
           "duration": 300,
-          "description": "2 personas. Prep completo + organizacion de heladera/freezer.",
+          "description": "2 personas. Prep completo + organización de heladera/freezer.",
           "category": "Mise-en-Place"
         },
         {
-          "name": "Nivel 2 - Familia",
+          "name": "Mise-en-place familiar",
           "price": "900.000 Gs/semana",
           "duration": 360,
           "description": "3-4 personas. Variedad, sustituciones y porciones para la semana.",
@@ -119,7 +119,7 @@
           "rating": 5
         },
         {
-          "quote": "La proteina sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo. [Testimonio ilustrativo]",
+          "quote": "La proteína sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo. [Testimonio ilustrativo]",
           "author": "Profesional Medico",
           "role": "Cliente ilustrativo",
           "rating": 5
@@ -135,7 +135,7 @@
     "contact": {
       "title": "Contactanos",
       "subtitle": "Te respondemos por WhatsApp",
-      "whatsapp": "+595000000000",
+      "whatsapp": "+595981324569",
       "email": "hola@deabastoacasa.com.py"
     }
   },

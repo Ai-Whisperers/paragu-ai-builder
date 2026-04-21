@@ -119,6 +119,7 @@ export function useMediaQuery(query: string) {
 
   useEffect(() => {
     const media = window.matchMedia(query)
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- Syncing state to browser matchMedia on mount; no cascading renders.
     setMatches(media.matches)
 
     const listener = (e: MediaQueryListEvent) => setMatches(e.matches)
@@ -136,6 +137,7 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
     try {
       const item = window.localStorage.getItem(key)
       if (item) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect -- Hydrating from localStorage post-mount; SSR-safe pattern.
         setStoredValue(JSON.parse(item))
       }
     } catch (error) {

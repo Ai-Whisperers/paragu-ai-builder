@@ -127,9 +127,9 @@ export function AnchorNav({
     return () => window.removeEventListener('scroll', handleScroll)
   }, [items, offset, activeId, controlledActive, onActiveChange])
 
-  // Update controlled value
   useEffect(() => {
     if (controlledActive && controlledActive !== activeId) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Syncing internal state to controlled prop; guarded by equality to prevent loops.
       setActiveId(controlledActive)
     }
   }, [controlledActive, activeId])

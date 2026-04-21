@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Parabrisas y Cristales Asunción",
+  "tagline": "Parabrisas profesional en Asunción.",
+  "placeholders": {
+    "businessName": "Demo Parabrisas y Cristales Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Parabrisas y Cristales Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Parabrisas y Cristales Asunción - Parabrisas en Asunción",
+      "description": "Parabrisas profesional en Asunción. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Demo Parabrisas y Cristales Asunción - Parabrisas",
+      "subheadline": "Parabrisas profesional en Asunción.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Parabrisas%20y%20Cristales%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "glass_windshield_repair"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Parabrisas y Cristales Asunción",
+    "copyright": "© {{year}} Demo Parabrisas y Cristales Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Parabrisas y Cristales y me interesa un sitio para mi negocio"
+  }
+}

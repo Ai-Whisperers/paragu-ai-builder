@@ -41,7 +41,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
     <>
       <SiteNav />
 
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="relative overflow-hidden pt-32 pb-12 md:pt-40 md:pb-20">
           <div

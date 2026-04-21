@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Albanil San Lorenzo",
+  "tagline": "Albañileria, remodelaciones y ampliaciones en San Lorenzo.",
+  "placeholders": {
+    "businessName": "Demo Albanil San Lorenzo",
+    "city": "San Lorenzo",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Albanil San Lorenzo",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Albanil San Lorenzo - Albañil / Construccion en San Lorenzo",
+      "description": "Albañileria, remodelaciones y ampliaciones en San Lorenzo."
+    },
+    "hero": {
+      "headline": "Demo Albanil San Lorenzo - De la idea a la obra",
+      "subheadline": "Albañileria, remodelaciones y ampliaciones en San Lorenzo.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Albanil%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "San Lorenzo",
+      "formSource": "demo",
+      "demoRubro": "albanil"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Albanil San Lorenzo",
+    "copyright": "© {{year}} Demo Albanil San Lorenzo",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Albanil y me interesa un sitio para mi negocio"
+  }
+}

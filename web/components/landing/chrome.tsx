@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { MessageCircle, ArrowUp } from 'lucide-react'
 import { useScrollProgress } from '@/lib/hooks'
+import { waLink } from '@/lib/landing/marketing-data'
 
 /**
  * Decorative blurred blob used by the landing page hero + CTA sections.
@@ -40,18 +41,18 @@ export function ScrollProgress() {
 }
 
 /**
- * Persistent WhatsApp CTA in the bottom-right corner. Phone number is
- * hardcoded to the ParaguAI sales line — tenant sites use the
+ * Persistent WhatsApp CTA in the bottom-right corner. Number sourced from
+ * SITE_CONFIG.whatsapp via the waLink helper — tenant sites use the
  * WhatsAppFloat section component (which reads from business data) instead.
  */
 export function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/595981234567?text=Hola,%20me%20interesa%20saber%20más%20sobre%20ParaguAI"
+      href={waLink('Hola, me interesa saber más sobre ParaguAI')}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escribinos por WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-110 hover:shadow-xl"
+      className="fixed bottom-24 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-110 hover:shadow-xl md:bottom-6"
       style={{ animation: 'pulse 2s infinite' }}
     >
       <MessageCircle size={28} fill="currentColor" />
@@ -80,7 +81,7 @@ export function BackToTop() {
     <button
       onClick={scrollToTop}
       aria-label="Volver arriba"
-      className="fixed bottom-24 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] shadow-md transition-all hover:bg-[var(--surface-light)]"
+      className="fixed bottom-44 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] shadow-md transition-all hover:bg-[var(--surface-light)] md:bottom-24"
     >
       <ArrowUp size={20} />
     </button>

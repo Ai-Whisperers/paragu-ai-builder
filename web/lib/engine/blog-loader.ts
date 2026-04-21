@@ -1,16 +1,16 @@
 /**
- * Minimal MDX-ish blog loader. Reads frontmatter + body from
- * sites/<slug>/blog/<locale>/*.mdx. Falls back gracefully: if a locale
- * has no posts yet, returns empty array. The renderer shows an empty
- * state, not a broken page.
+ * Minimal MDX-ish blog loader. Reads frontmatter + body from the auto-
+ * generated tenant-data module (see `scripts/generate-tenant-data.ts`)
+ * which bundles `sites/<slug>/blog/<locale>/*.mdx` at build time.
+ *
+ * Falls back gracefully: if a locale has no posts, returns an empty array.
  *
  * Body is rendered as plain HTML via a narrow markdown converter (not a
- * full MDX runtime) so the static build stays Cloudflare-compatible and
- * free of server-only deps.
+ * full MDX runtime) so the build stays Edge-Runtime compatible and free
+ * of server-only deps.
  */
-import { readFileSync, readdirSync, existsSync } from 'fs'
-import { resolve } from 'path'
 import type { Locale } from '@/lib/i18n/config'
+import { BLOG_POSTS } from './generated/tenant-data'
 
 export interface BlogPost {
   slug: string
@@ -25,16 +25,13 @@ export interface BlogPost {
   html: string
 }
 
-function repoPath(...segments: string[]): string {
-  return resolve(process.cwd(), '..', ...segments)
-}
-
 export function listBlogSlugs(siteSlug: string, locale: Locale): string[] {
-  const dir = repoPath('sites', siteSlug, 'blog', locale)
-  if (!existsSync(dir)) return []
-  return readdirSync(dir)
-    .filter((f) => f.endsWith('.mdx'))
-    .map((f) => f.replace(/\.mdx$/, ''))
+  const prefix = `${siteSlug}:${locale}:`
+  const slugs: string[] = []
+  for (const key of Object.keys(BLOG_POSTS)) {
+    if (key.startsWith(prefix)) slugs.push(key.slice(prefix.length))
+  }
+  return slugs.sort()
 }
 
 export function loadBlogPost(
@@ -42,9 +39,8 @@ export function loadBlogPost(
   locale: Locale,
   slug: string,
 ): BlogPost | null {
-  const file = repoPath('sites', siteSlug, 'blog', locale, `${slug}.mdx`)
-  if (!existsSync(file)) return null
-  const raw = readFileSync(file, 'utf-8')
+  const raw = BLOG_POSTS[`${siteSlug}:${locale}:${slug}`]
+  if (!raw) return null
   const { frontmatter, body } = parseFrontmatter(raw)
   if (frontmatter.draft) return null
   const asString = (v: string | number | boolean | undefined): string | undefined =>
