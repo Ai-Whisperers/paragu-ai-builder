@@ -1,0 +1,49 @@
+{
+  "id": "sex_shop",
+  "nameEs": "Tienda Erotica",
+  "nameEn": "Sex Shop / Adult Retail",
+  "verticalId": "retail-local",
+  "subVertical": "intimacy-wellness",
+  "extends": "retail_base",
+  "tokens": "sex_shop",
+  "ageGate": 18,
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda Erotica en {{city}} | Envio Discreto",
+    "descriptionTemplate": "Juguetes para adultos, lenceria, lubricantes y mas. Envio 100% discreto a todo Paraguay. Solo mayores de 18.",
+    "keywords": [
+      "sex shop {{city}}",
+      "juguetes adultos {{city}}",
+      "lenceria {{city}}",
+      "tienda erotica {{city}}",
+      "productos intimos {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}}",
+    "subheadlineTemplate": "Tu tienda de placer. Envio discreto a todo {{country}}."
+  },
+  "categories": [
+    "vibradores",
+    "dildos",
+    "anal",
+    "parejas",
+    "bdsm",
+    "lenceria",
+    "lubricantes",
+    "bienestar"
+  ],
+  "features": {
+    "productCatalog": { "enabled": true, "whatsappOrder": true, "showPrices": true },
+    "ageGate": { "enabled": true, "minAge": 18 },
+    "discretePackaging": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "deliveryCalculator": { "enabled": true },
+    "testimonials": { "enabled": true },
+    "faq": { "enabled": true }
+  },
+  "legal": {
+    "requiresAgeVerification": true,
+    "privacyNotes": "Envio discreto, facturacion neutra, datos no compartidos"
+  }
+}
