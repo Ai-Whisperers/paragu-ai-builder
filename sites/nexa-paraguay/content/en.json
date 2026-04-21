@@ -394,65 +394,6 @@
         }
       ]
     },
-    "matrix": {
-      "eyebrow": "Programs",
-      "title": "Four paths to establish yourself in Paraguay",
-      "tiers": [
-        {
-          "id": "base",
-          "name": "Paraguay Base",
-          "description": "Residency and Paraguayan ID card.",
-          "price": "To be defined",
-          "included": [
-            "Paraguayan Residency",
-            "ID Card",
-            "Document pre-check",
-            "Operational day (one day)",
-            "Logistical support"
-          ]
-        },
-        {
-          "id": "business",
-          "name": "Paraguay Business",
-          "description": "Residency + company + bank account.",
-          "price": "USD 4,400+",
-          "included": [
-            "Everything in Base",
-            "Company formation",
-            "RUC acquisition",
-            "Bank account opening",
-            "Strategic real-estate tour",
-            "Fees, VAT and taxes included"
-          ]
-        },
-        {
-          "id": "investor",
-          "name": "Paraguay Investor Program",
-          "description": "Everything in Business + 12 months of support.",
-          "price": "USD 6,900+",
-          "included": [
-            "Everything in Business",
-            "Corporate accounting (12 months)",
-            "Legal and tax advisory (12 months)",
-            "Investment analysis",
-            "Direct access to technical team"
-          ]
-        },
-        {
-          "id": "land",
-          "name": "Paraguay Land Program",
-          "description": "Everything in Investor + land purchase.",
-          "price": "Custom quote",
-          "included": [
-            "Everything in Investor",
-            "Strategic land search",
-            "Due diligence and legal verification",
-            "Negotiation support",
-            "Agricultural advisory (optional)"
-          ]
-        }
-      ]
-    },
     "faq": {
       "title": "Pricing and program questions",
       "items": [
