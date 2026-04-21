@@ -148,6 +148,17 @@ export const env = {
   PARAGU_AI_PAGOPAR_PUBLIC_TOKEN: optionalEnvOrUndefined('PARAGU_AI_PAGOPAR_PUBLIC_TOKEN'),
   PARAGU_AI_PAGOPAR_PRIVATE_TOKEN: optionalEnvOrUndefined('PARAGU_AI_PAGOPAR_PRIVATE_TOKEN'),
 
+  // ===========================================================================
+  // Commerce — Bancard vPOS 2.0 (secondary provider, used by tenants
+  // whose profile favors direct-acquirer pricing over Pagopar's wallet
+  // coverage). Per-merchant credentials live in
+  // business_payment_credentials; these env vars are the platform fallback.
+  // ===========================================================================
+
+  BANCARD_PUBLIC_KEY: optionalEnvOrUndefined('BANCARD_PUBLIC_KEY'),
+  BANCARD_PRIVATE_KEY: optionalEnvOrUndefined('BANCARD_PRIVATE_KEY'),
+  BANCARD_ENVIRONMENT: optionalEnv('BANCARD_ENVIRONMENT', 'sandbox'),
+
   // AES-256 key (64 hex) used to encrypt per-merchant payment
   // credentials at rest. Generate: openssl rand -hex 32
   COMMERCE_CREDENTIALS_KEY: optionalEnvOrUndefined('COMMERCE_CREDENTIALS_KEY'),
