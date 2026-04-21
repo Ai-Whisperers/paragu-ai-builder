@@ -440,11 +440,10 @@ Buttons: "Aceptar todas" / "Solo esenciales" / "Preferencias"
 4. Emprender en Paraguay: Oportunidades de Negocio 2024
 5. Los 5 Errores Más Comunes al Mudarte a Paraguay
 6. SEPRELAD y Compliance: Lo Que Todo Inversionista Extranjero Debe Saber
-7. Paraguay vs Portugal: Guía Comparativa para Residencia Europea
-8. Cómo Funciona el Sistema Tributario Territorial en Paraguay
-9. Las Mejores Zonas para Vivir en Asunción
+7. Cómo Funciona el Sistema Tributario Territorial en Paraguay
+8. Las Mejores Zonas para Vivir en Asunción
 
-**Our recommendation:** translate posts 1, 7 to English + Dutch first (highest conversion value for European prospects). Posts 2, 3, 6 next. The rest can stay ES only or be progressively translated.
+**Our recommendation:** translate posts 1, 6 to English + Dutch first (highest conversion value for European prospects). Posts 2, 3 next. The rest can stay ES only or be progressively translated.
 
 **Confirm:**
 - [ ] Prioritization order OK?
