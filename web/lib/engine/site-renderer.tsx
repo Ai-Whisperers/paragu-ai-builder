@@ -14,6 +14,7 @@ import { ServicesSection } from '@/components/sections/services-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { FeaturedProductsSection } from '@/components/sections/featured-products-section'
 import { CommerceCatalogSection } from '@/components/sections/commerce-catalog-section'
+import { AgeGateSection } from '@/components/sections/age-gate-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
@@ -53,6 +54,7 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'product-catalog': ProductCatalogSection,
   'featured-products': FeaturedProductsSection,
   'commerce-catalog': CommerceCatalogSection,
+  'age-gate': AgeGateSection,
   gallery: GallerySection,
   team: TeamSection,
   testimonials: TestimonialsSection,
