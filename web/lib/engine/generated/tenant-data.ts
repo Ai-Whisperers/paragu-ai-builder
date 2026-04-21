@@ -18480,6 +18480,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "businessName": "Fun4Me",
       "ctaHref": "https://wa.me/595976569739",
       "ctaText": "WhatsApp",
+      "enableSearch": true,
       "items": [
         {
           "href": "/",
