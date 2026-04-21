@@ -166,7 +166,7 @@
       "title": "Lo que dicen nuestros clientes",
       "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
       "ctaText": "Leer todos los testimonios",
-      "ctaHref": "/s/es/nexa-paraguay/testimonials"
+      "ctaHref": "/s/es/nexa-paraguay/contacto"
     },
     "whyCountry": {
       "eyebrow": "Por qué Paraguay",
@@ -596,16 +596,16 @@
       "title": "Preguntas sobre el proceso",
       "items": [
         {
-          "q": "¿Cuántos viajes necesito?",
-          "a": "Uno solo es suficiente."
+          "q": "¿Cuántos viajes necesito hacer a Paraguay?",
+          "a": "Nuestro programa está diseñado para que un solo viaje sea suficiente."
         },
         {
-          "q": "¿Cuánto tiempo toma?",
-          "a": "Trámite presencial en un día. Emisión: 45–60 días."
+          "q": "¿Cuánto tiempo toma todo el proceso?",
+          "a": "Tramitación presencial en un día. Emisión de residencia y cédula: 45–60 días. Constitución de sociedad y cuenta bancaria: 2–4 semanas. Total: 8–12 semanas."
         },
         {
-          "q": "¿Qué pasa si falta un documento?",
-          "a": "Lo detectamos antes de su viaje — no viaja hasta que todo esté listo."
+          "q": "¿Qué pasa si falta algún documento?",
+          "a": "Lo detectamos antes de su viaje. Nuestra validación previa garantiza que llegue con todo en orden."
         }
       ]
     },
