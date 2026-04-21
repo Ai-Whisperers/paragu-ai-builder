@@ -21,6 +21,9 @@ import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
 import { TiendaQuickFilters } from '@/components/commerce/tienda-quick-filters'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
 import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
+import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
+import { TiendaSearchTracker } from '@/components/commerce/tienda-search-tracker'
+import { env } from '@/lib/env'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
@@ -183,6 +186,15 @@ export default async function StorePage({
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={null} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+
+      <Breadcrumbs
+        absoluteBaseUrl={env.APP_URL}
+        items={[
+          { label: business.name, href: `/s/${locale}/${site}` },
+          { label: 'Tienda' },
+        ]}
+      />
+      <TiendaSearchTracker query={search} />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>

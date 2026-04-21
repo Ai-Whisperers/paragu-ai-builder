@@ -15,6 +15,7 @@ import {
 import { QuickViewModal } from './quick-view-modal'
 import { ReviewStars } from './review-stars'
 import { Highlight } from './highlight'
+import { trackAddToCart, trackAddToWishlist } from '@/lib/analytics/commerce-events'
 
 interface Props {
   siteSlug: string
@@ -82,6 +83,15 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
     setAdding(true)
     try {
       await addItem(siteSlug, product.id, 1)
+      trackAddToCart({
+        itemId: product.id,
+        itemName: product.name,
+        itemCategory: product.category ?? undefined,
+        itemBrand: product.brand ?? undefined,
+        price: product.priceCents,
+        currency: product.currency,
+        quantity: 1,
+      })
     } finally {
       setAdding(false)
     }
@@ -100,6 +110,14 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
         priceCents: product.priceCents,
         currency: product.currency,
         imageUrl: cover?.url ?? null,
+      })
+      trackAddToWishlist({
+        itemId: product.id,
+        itemName: product.name,
+        itemCategory: product.category ?? undefined,
+        itemBrand: product.brand ?? undefined,
+        price: product.priceCents,
+        currency: product.currency,
       })
     }
   }

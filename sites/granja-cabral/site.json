@@ -34,7 +34,13 @@
     "preorder": true,
     "recipes": true,
     "referral": true,
-    "subscription": true
+    "subscription": true,
+    "heroImages": true,
+    "processImages": true
+  },
+  "images": {
+    "manifest": "/sites/granja-cabral/images.json",
+    "hero": "/sites/granja-cabral/images/hero/hero-bg.png"
   },
   "placeholderFields": {
     "whatsapp": "+595981324569 is a placeholder — confirm with Laura",

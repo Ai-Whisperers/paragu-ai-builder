@@ -20,6 +20,8 @@ import { ReviewList } from '@/components/commerce/review-list'
 import { ReviewForm } from '@/components/commerce/review-form'
 import { ReviewStars } from '@/components/commerce/review-stars'
 import { PdpStickyMobileCta } from '@/components/commerce/pdp-sticky-mobile-cta'
+import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
+import { PdpViewTracker } from '@/components/commerce/pdp-view-tracker'
 import {
   listApprovedReviews,
   getReviewAggregatesByBusiness,
@@ -30,20 +32,53 @@ import { env } from '@/lib/env'
 export const runtime = 'nodejs'
 export const revalidate = 300
 
-export async function generateMetadata({ params }: { params: Promise<{ site: string; slug: string }> }): Promise<Metadata> {
-  const { site, slug } = await params
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ site: string; locale: string; slug: string }>
+}): Promise<Metadata> {
+  const { site, locale, slug } = await params
   const business = await resolveBusinessBySlug(site)
   if (!business) return {}
   const product = await getProductBySlug(business.id, slug)
   if (!product) return {}
   const cover = product.images.find((i) => i.isCover) ?? product.images[0]
+
+  // Trim description to ~155 chars for Google's meta description limit.
+  // Prefer product.description; fall back to a useful category + price line
+  // so even minimal-content products have crawlable copy.
+  const trim = (s: string, max = 155) => (s.length <= max ? s : s.slice(0, max - 1).trimEnd() + '…')
+  const baseDesc = product.description?.trim()
+  const fallbackDesc = [
+    product.category ? `${product.category.charAt(0).toUpperCase()}${product.category.slice(1)}` : null,
+    product.brand,
+    `Disponible en ${business.name}. Envío discreto.`,
+  ]
+    .filter(Boolean)
+    .join(' · ')
+  const description = trim(baseDesc || fallbackDesc)
+  const canonical = `${env.APP_URL}/s/${locale}/${site}/producto/${slug}`
+
   return {
     title: `${product.name} — ${business.name}`,
-    description: product.description ?? `${product.name} disponible en ${business.name}.`,
+    description,
+    alternates: { canonical },
     openGraph: {
       title: product.name,
-      description: product.description ?? '',
-      images: cover?.url ? [{ url: cover.url }] : [],
+      description,
+      url: canonical,
+      type: 'website',
+      images: cover?.url ? [{ url: cover.url, alt: product.name }] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.name,
+      description,
+      images: cover?.url ? [cover.url] : [],
+    },
+    robots: {
+      index: product.status === 'active',
+      follow: true,
     },
   }
 }
@@ -107,20 +142,26 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <PdpViewTracker
+        productId={product.id}
+        productName={product.name}
+        category={product.category}
+        brand={product.brand}
+        priceCents={product.priceCents}
+        currency={product.currency}
+      />
 
-      <nav aria-label="Migas de pan" className="mx-auto max-w-5xl px-4 pt-4 text-sm text-[color:var(--text-muted,#6b7280)]">
-        <ol className="flex flex-wrap items-center gap-1.5">
-          <li>
-            <Link href={`/s/${locale}/${site}`} className="hover:underline">{business.name}</Link>
-          </li>
-          <li aria-hidden="true">/</li>
-          <li>
-            <Link href={`/s/${locale}/${site}/tienda`} className="hover:underline">Tienda</Link>
-          </li>
-          <li aria-hidden="true">/</li>
-          <li className="truncate text-[color:var(--text,#111)]" aria-current="page">{product.name}</li>
-        </ol>
-      </nav>
+      <Breadcrumbs
+        absoluteBaseUrl={env.APP_URL}
+        items={[
+          { label: business.name, href: `/s/${locale}/${site}` },
+          { label: 'Tienda', href: `/s/${locale}/${site}/tienda` },
+          ...(product.category
+            ? [{ label: product.category, href: `/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(product.category)}` }]
+            : []),
+          { label: product.name },
+        ]}
+      />
 
       <main className="mx-auto grid max-w-5xl gap-8 px-4 py-8 md:grid-cols-2">
         <div>
