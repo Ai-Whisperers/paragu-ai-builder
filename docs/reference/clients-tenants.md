@@ -46,21 +46,6 @@ Complete inventory of all defined clients, tenants, business types, and planned 
 
 ---
 
-### 2. Nexa Uruguay 🇺🇾
-**Status:** ✅ Configured
-
-| Property | Value |
-|----------|-------|
-| **Slug** | `nexa-uruguay` |
-| **Vertical** | Relocation Services |
-| **Domain** | nexa-uruguay.com |
-| **Country** | Uruguay |
-| **Default Locale** | English (en) |
-| **All Locales** | en, es |
-| **Pages** | 7 (home, programas, por-que-uruguay, proceso, sobre, faq, contacto) |
-
----
-
 ## 🎭 Demo/Example Businesses (Development/Testing)
 
 Located in `web/lib/engine/demo-data.ts` - Used for local development and demos.

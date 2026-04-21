@@ -20,7 +20,6 @@ A **multi-tenant marketing-site generator**. Ships a single Next.js 15 + Supabas
 |---|---|---|---|---|
 | Nexa Paraguay | `nexa-paraguay` | relocation | nexaparaguay.com | nl · en · de · es |
 | Nexa Paraguay (ES landing) | `nexaparaguay` | relocation | nexaparaguay.com | es |
-| Nexa Uruguay | `nexa-uruguay` | relocation | nexauruguay.com | en · es |
 | Nexa Propiedades | `nexa-propiedades` | real-estate | nexapropiedades.com | es · en · pt |
 | De Abasto a Casa | `de-abasto-a-casa` | meal-prep | deabastoacasa.com.py | es |
 | Dayah Litworks | `dayah-litworks` | portfolio (design) | dayah-litworks.com | es |

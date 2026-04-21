@@ -48,7 +48,7 @@ sites/<slug>/
 └── docs/                  stakeholder + ops docs (optional; tenant-specific)
 ```
 
-Six tenants are live clients: `nexa-paraguay`, `nexaparaguay`, `nexa-uruguay`, `nexa-propiedades`, `de-abasto-a-casa`, `dayah-litworks`. Everything else under `sites/` is a demo that exercises the engine.
+Five tenants are live clients: `nexa-paraguay`, `nexaparaguay`, `nexa-propiedades`, `de-abasto-a-casa`, `dayah-litworks`. Everything else under `sites/` is a demo that exercises the engine.
 
 ### `web/app/` — Next.js App Router
 
