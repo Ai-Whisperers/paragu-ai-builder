@@ -3,33 +3,25 @@
 import { useSyncExternalStore } from 'react'
 import Link from 'next/link'
 import { formatCents } from '@/lib/commerce/compute-totals'
-import { readWishlist, removeFromWishlist, type WishlistItem } from '@/lib/stores/wishlist'
+import {
+  getWishlistSnapshot,
+  removeFromWishlist,
+  subscribeWishlist,
+  type WishlistItem,
+} from '@/lib/stores/wishlist'
 
 interface Props {
   siteSlug: string
   locale: string
 }
 
-const EVENT = 'paragu:wishlist-change'
-
-function subscribe(cb: () => void) {
-  window.addEventListener(EVENT, cb)
-  window.addEventListener('storage', cb)
-  return () => {
-    window.removeEventListener(EVENT, cb)
-    window.removeEventListener('storage', cb)
-  }
-}
-
-function getServerSnapshot(): WishlistItem[] {
-  return []
-}
+const SSR_EMPTY: WishlistItem[] = []
 
 export function WishlistPageClient({ siteSlug, locale }: Props) {
   const items = useSyncExternalStore(
-    subscribe,
-    () => readWishlist(siteSlug),
-    getServerSnapshot,
+    subscribeWishlist(siteSlug),
+    () => getWishlistSnapshot(siteSlug),
+    () => SSR_EMPTY,
   )
 
   if (items.length === 0) {

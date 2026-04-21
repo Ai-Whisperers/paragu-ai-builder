@@ -2,28 +2,21 @@
 
 import Link from 'next/link'
 import { useSyncExternalStore } from 'react'
-import { readWishlist } from '@/lib/stores/wishlist'
+import { getWishlistSnapshot, subscribeWishlist, type WishlistItem } from '@/lib/stores/wishlist'
 
-const WISHLIST_EVENT = 'paragu:wishlist-change'
-
-function subscribe(cb: () => void) {
-  window.addEventListener(WISHLIST_EVENT, cb)
-  window.addEventListener('storage', cb)
-  return () => {
-    window.removeEventListener(WISHLIST_EVENT, cb)
-    window.removeEventListener('storage', cb)
-  }
-}
+const SSR_EMPTY: WishlistItem[] = []
 
 /**
  * Wishlist link + count badge in the commerce header. Count updates live
  * via the paragu:wishlist-change custom event and cross-tab storage event.
+ * Uses the store's cached snapshot so getSnapshot returns a stable
+ * reference between renders (React #185 guard).
  */
 export function WishlistBadge({ siteSlug, locale = 'es' }: { siteSlug: string; locale?: string }) {
   const items = useSyncExternalStore(
-    subscribe,
-    () => readWishlist(siteSlug),
-    () => [],
+    subscribeWishlist(siteSlug),
+    () => getWishlistSnapshot(siteSlug),
+    () => SSR_EMPTY,
   )
   const count = items.length
   return (

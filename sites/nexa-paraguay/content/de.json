@@ -68,7 +68,12 @@
       "ctaSecondaryText": "Programme ansehen",
       "ctaSecondaryHref": "/s/de/nexa-paraguay/programas",
       "backgroundImage": "@img:hero.localizedDe",
-      "backgroundImageMobile": "@img:hero.homeMobile"
+      "backgroundImageMobile": "@img:hero.homeMobile",
+      "trustBadges": [
+        "8–12 Wochen",
+        "250+ Kunden",
+        "Festpreis"
+      ]
     },
     "trust": {
       "eyebrow": "Warum Nexa Paraguay",
