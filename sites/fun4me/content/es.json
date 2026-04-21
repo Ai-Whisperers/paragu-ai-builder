@@ -78,20 +78,23 @@
       "ctaSecondaryText": "Contactanos",
       "ctaSecondaryHref": "https://wa.me/595976569739"
     },
-    "trustBadges": [
-      {
-        "icon": "truck",
-        "text": "Envio a Todo el Pais"
-      },
-      {
-        "icon": "shield",
-        "text": "Pago Seguro"
-      },
-      {
-        "icon": "package",
-        "text": "Empaque Discreto"
-      }
-    ],
+    "trustBadges": {
+      "items": [
+        {
+          "icon": "truck",
+          "text": "Envio a Todo el Pais"
+        },
+        {
+          "icon": "shield",
+          "text": "Pago Seguro"
+        },
+        {
+          "icon": "package",
+          "text": "Empaque Discreto"
+        }
+      ],
+      "title": "Por qué comprar acá"
+    },
     "features": {
       "badge": "Nuestras Ventajas",
       "title": "Por que elegirnos?",

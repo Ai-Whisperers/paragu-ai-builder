@@ -1,6 +1,7 @@
 import { createAdminClient } from '@/lib/supabase/admin'
 import { scopedQueries } from '@/lib/supabase/scoped'
 import type { Product, ProductCreate, ProductUpdate } from '@/lib/schemas/commerce/product'
+import { normalizeSearchTerm } from './search-normalize'
 
 interface ProductRow {
   id: string
@@ -99,11 +100,14 @@ export async function listActiveProducts(
       let query = q.eq('status', 'active').order(sort.column, { ascending: sort.ascending })
       if (opts.category) query = query.eq('category', opts.category)
       if (opts.search && opts.search.trim()) {
-        // Match name OR description OR SKU. ilike = case-insensitive substring.
-        // Not accent-insensitive at the DB level — fine for catalogs <5k; swap
-        // for tsvector+unaccent+GIN when a tenant outgrows this.
-        const pat = `%${escapeIlike(opts.search.trim())}%`
-        query = query.or(`name.ilike.${pat},description.ilike.${pat},sku.ilike.${pat}`)
+        // Accent-insensitive search. The DB carries a generated
+        // `search_haystack` column = lower(unaccent(name+desc+sku)). We
+        // normalize the user's input to the same shape (NFD strip +
+        // lowercase) and ilike against the haystack, so "uñas" matches
+        // stored "unas" and vice versa. Backed by a GIN trgm index.
+        const normalized = normalizeSearchTerm(opts.search)
+        const pat = `%${escapeIlike(normalized)}%`
+        query = query.ilike('search_haystack', pat)
       }
       if (typeof opts.minPriceCents === 'number') query = query.gte('price_cents', opts.minPriceCents)
       if (typeof opts.maxPriceCents === 'number') query = query.lte('price_cents', opts.maxPriceCents)
@@ -151,8 +155,11 @@ export async function countActiveProducts(
     .eq('status', 'active')
   if (opts.category) query = query.eq('category', opts.category)
   if (opts.search && opts.search.trim()) {
-    const pat = `%${escapeIlike(opts.search.trim())}%`
-    query = query.or(`name.ilike.${pat},description.ilike.${pat},sku.ilike.${pat}`)
+    // See listActiveProducts for rationale — match the same shape as the
+    // DB-side search_haystack column.
+    const normalized = normalizeSearchTerm(opts.search)
+    const pat = `%${escapeIlike(normalized)}%`
+    query = query.ilike('search_haystack', pat)
   }
   if (typeof opts.minPriceCents === 'number') query = query.gte('price_cents', opts.minPriceCents)
   if (typeof opts.maxPriceCents === 'number') query = query.lte('price_cents', opts.maxPriceCents)

@@ -19,6 +19,11 @@
       "content": "home.hero"
     },
     {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
       "id": "services",
       "variant": "cards",
       "content": "home.features"
