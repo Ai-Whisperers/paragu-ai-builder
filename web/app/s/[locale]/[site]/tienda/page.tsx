@@ -13,6 +13,7 @@ import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductCard } from '@/components/commerce/product-card'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
+import { TiendaQuickFilters } from '@/components/commerce/tienda-quick-filters'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 
@@ -20,7 +21,9 @@ export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic' // search/sort/filter params kill static caching
 
 const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc']
-const PAGE_SIZE = 24
+const DEFAULT_PER_PAGE = 12
+const PER_PAGE_OPTIONS = [12, 24, 48, 96]
+const MAX_PER_PAGE = 96
 
 function parseSort(raw: string | undefined): ProductSort {
   return raw && (VALID_SORTS as string[]).includes(raw) ? (raw as ProductSort) : 'newest'
@@ -30,6 +33,12 @@ function parsePositiveInt(raw: string | undefined): number {
   if (!raw) return 0
   const n = parseInt(raw, 10)
   return Number.isFinite(n) && n > 0 ? n : 0
+}
+
+function parsePerPage(raw: string | undefined): number {
+  const n = parsePositiveInt(raw)
+  if (!n) return DEFAULT_PER_PAGE
+  return PER_PAGE_OPTIONS.includes(n) ? n : Math.min(n, MAX_PER_PAGE)
 }
 
 export default async function StorePage({
@@ -46,6 +55,7 @@ export default async function StorePage({
     in_stock?: string
     on_sale?: string
     page?: string
+    per_page?: string
   }>
 }) {
   const { site, locale } = await params
@@ -60,8 +70,9 @@ export default async function StorePage({
   const maxPriceCents = parsePositiveInt(sp.max)
   const inStockOnly = sp.in_stock === '1' || sp.in_stock === 'true'
   const onSaleOnly = sp.on_sale === '1' || sp.on_sale === 'true'
+  const perPage = parsePerPage(sp.per_page)
   const page = Math.max(1, parsePositiveInt(sp.page) || 1)
-  const offset = (page - 1) * PAGE_SIZE
+  const offset = (page - 1) * perPage
 
   const filterOpts = {
     search,
@@ -73,7 +84,7 @@ export default async function StorePage({
   }
 
   const [products, totalCount, rates, availableCategories] = await Promise.all([
-    listActiveProducts(business.id, { ...filterOpts, limit: PAGE_SIZE, offset, sort: sortKey }),
+    listActiveProducts(business.id, { ...filterOpts, limit: perPage, offset, sort: sortKey }),
     countActiveProducts(business.id, filterOpts),
     loadPygRates(),
     listDistinctCategories(business.id),
@@ -90,7 +101,7 @@ export default async function StorePage({
     })
   }
 
-  const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE))
+  const totalPages = Math.max(1, Math.ceil(totalCount / perPage))
   const hasActiveFilters = Boolean(
     search || category || minPriceCents || maxPriceCents || inStockOnly || onSaleOnly,
   )
@@ -103,6 +114,7 @@ export default async function StorePage({
       <main className="mx-auto max-w-6xl px-4 py-8">
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
 
+        <TiendaQuickFilters />
         <TiendaToolbar
           initialQuery={search}
           initialSort={sortKey}
@@ -114,6 +126,7 @@ export default async function StorePage({
           initialMaxPrice={maxPriceCents}
           initialInStockOnly={inStockOnly}
           initialOnSaleOnly={onSaleOnly}
+          initialPerPage={perPage}
         />
 
         {products.length === 0 ? (
