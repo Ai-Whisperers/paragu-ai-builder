@@ -11,16 +11,21 @@ export interface GalleryImage {
 export interface GallerySectionProps {
   title: string
   subtitle?: string
-  images: GalleryImage[]
+  images?: GalleryImage[]
+  /** Legacy alias — some content files ship `logos` with {name, image} instead of {src, alt}. */
+  logos?: Array<{ name?: string; image?: string; alt?: string; src?: string }>
   columns?: 2 | 3 | 4
 }
 
 export function GallerySection({
   title,
   subtitle,
-  images,
+  images: imagesProp,
+  logos,
   columns = 3,
 }: GallerySectionProps) {
+  const images = imagesProp || (logos?.map((l) => ({ src: l.src || l.image || '', alt: l.alt || l.name || '' })) || [])
+  if (images.length === 0) return null
   const gridCols = {
     2: 'sm:grid-cols-2',
     3: 'sm:grid-cols-2 lg:grid-cols-3',
