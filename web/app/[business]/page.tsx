@@ -16,6 +16,10 @@ import type { Metadata } from 'next'
  * Returns the locale-prefixed path if a matching site exists, else null.
  */
 function siteRedirectPath(slug: string): string | null {
+  // Legacy alias: /nexaparaguay (one-word) was the broken duplicate tenant
+  // before it was deleted. Anyone with the old URL bookmarked or in social
+  // graphs gets redirected to the canonical multi-locale route.
+  if (slug === 'nexaparaguay') return '/s/en/nexa-paraguay'
   try {
     const siteSlugs = listSiteSlugs()
     if (!siteSlugs.includes(slug)) return null

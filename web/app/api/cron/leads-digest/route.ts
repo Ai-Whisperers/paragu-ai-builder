@@ -75,7 +75,16 @@ function buildHtml(rows: EventRow[]): string {
         hour: '2-digit',
         minute: '2-digit',
       })
-      const ref = r.referrer ? new URL(r.referrer).pathname : '—'
+      // Referrer is whatever the browser sent — sometimes "direct", sometimes
+      // a URL, sometimes garbage. Don't let one bad row blow up the digest.
+      let ref = '—'
+      if (r.referrer) {
+        try {
+          ref = new URL(r.referrer).pathname
+        } catch {
+          ref = r.referrer.slice(0, 60)
+        }
+      }
       return `
         <tr>
           <td style="padding:8px 12px; border-bottom:1px solid #eee; font-family:monospace; color:#666;">${escapeHtml(time)}</td>
