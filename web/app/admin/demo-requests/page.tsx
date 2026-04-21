@@ -162,7 +162,10 @@ export default async function DemoRequestsPage() {
                       {PRESENCE_LABEL[r.metadata?.presence ?? ''] ?? r.metadata?.presence ?? '—'}
                     </td>
                     <td className="px-4 py-3 text-xs text-gray-500">
-                      {r.referrer ? new URL(r.referrer).pathname : '—'}
+                      {(() => {
+                        if (!r.referrer) return '—'
+                        try { return new URL(r.referrer).pathname } catch { return r.referrer.slice(0, 60) }
+                      })()}
                     </td>
                     <td className="px-4 py-3 font-mono text-xs text-gray-500">
                       {r.lead_id?.slice(0, 8) ?? '—'}
