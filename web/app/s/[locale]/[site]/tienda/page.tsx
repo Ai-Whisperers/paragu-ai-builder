@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import {
   listActiveProducts,
@@ -28,6 +29,23 @@ import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic' // search/sort/filter params kill static caching
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ site: string; locale: string }>
+}): Promise<Metadata> {
+  const { site, locale } = await params
+  const business = await resolveBusinessBySlug(site)
+  if (!business) return {}
+  const canonical = `${env.APP_URL}/s/${locale}/${site}/tienda`
+  return {
+    title: `Tienda — ${business.name}`,
+    description: `Catálogo completo de ${business.name}. Envío a todo Paraguay.`,
+    alternates: { canonical },
+    openGraph: { url: canonical, title: `Tienda — ${business.name}` },
+  }
+}
 
 const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc', 'popularity', 'rating']
 const DEFAULT_PER_PAGE = 12

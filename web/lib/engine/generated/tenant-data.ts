@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=151, content=137, blog=25, images=4, verticals=23. */
+/** Counts: sites=117, pages=159, content=137, blog=25, images=4, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9888,6 +9888,38 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "nexa-paraguay:asistente": {
+    "descriptionKey": "intakeWizardPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "intakeWizardPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "intakeWizardPage.wizard",
+        "id": "intake-wizard",
+        "variant": "default"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "asistente",
+    "titleKey": "intakeWizardPage.seo.title"
+  },
   "nexa-paraguay:blog": {
     "descriptionKey": "blog.index.seo.description",
     "sections": [
@@ -9902,6 +9934,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
+        "content": "resourcesPage.newsletter",
+        "id": "newsletter-signup",
+        "variant": "default"
+      },
+      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -9914,6 +9951,122 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "blog",
     "titleKey": "blog.index.seo.title"
+  },
+  "nexa-paraguay:calidad-de-vida": {
+    "descriptionKey": "qualityOfLifePage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "qualityOfLifePage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "qualityOfLifePage.pillars",
+        "id": "why-destination",
+        "variant": "three-col"
+      },
+      {
+        "content": "qualityOfLifePage.comparison",
+        "id": "features",
+        "variant": "default"
+      },
+      {
+        "content": "qualityOfLifePage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "calidad-de-vida",
+    "titleKey": "qualityOfLifePage.seo.title"
+  },
+  "nexa-paraguay:casos-de-exito": {
+    "descriptionKey": "caseStudiesPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "caseStudiesPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "caseStudiesPage.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "caseStudiesPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "casos-de-exito",
+    "titleKey": "caseStudiesPage.seo.title"
+  },
+  "nexa-paraguay:comparacion": {
+    "descriptionKey": "comparisonPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "comparisonPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "comparisonPage.matrix",
+        "id": "programs-comparison",
+        "variant": "matrix"
+      },
+      {
+        "content": "comparisonPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "comparacion",
+    "titleKey": "comparisonPage.seo.title"
   },
   "nexa-paraguay:contacto": {
     "descriptionKey": "contactPage.seo.description",
@@ -10044,6 +10197,86 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "faq",
     "titleKey": "faqPage.seo.title"
   },
+  "nexa-paraguay:fundador": {
+    "descriptionKey": "founderPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "founderPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "founderPage.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "founderPage.story",
+        "id": "why-destination",
+        "variant": "three-col"
+      },
+      {
+        "content": "founderPage.cta",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "fundador",
+    "titleKey": "founderPage.seo.title"
+  },
+  "nexa-paraguay:glosario": {
+    "descriptionKey": "glossaryPage.seo.description",
+    "schemaType": "FAQPage",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "glossaryPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "glossaryPage.glossary",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "glossaryPage.cta",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "glosario",
+    "titleKey": "glossaryPage.seo.title"
+  },
   "nexa-paraguay:home": {
     "descriptionKey": "home.seo.description",
     "schemaType": "LocalBusiness",
@@ -10067,6 +10300,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.programs",
         "id": "programs-comparison",
         "variant": "tiered"
+      },
+      {
+        "content": "home.taxCalculator",
+        "id": "tax-savings-calculator",
+        "variant": "default"
       },
       {
         "content": "home.whyCountry",
@@ -10200,6 +10438,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "lifestyle",
     "titleKey": "landingLifestyle.seo.title"
+  },
+  "nexa-paraguay:paraguay-vs-uruguay-vs-panama": {
+    "descriptionKey": "jurisdictionCompPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "jurisdictionCompPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "jurisdictionCompPage.matrix",
+        "id": "programs-comparison",
+        "variant": "matrix"
+      },
+      {
+        "content": "jurisdictionCompPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "paraguay-vs-uruguay-vs-panama",
+    "titleKey": "jurisdictionCompPage.seo.title"
   },
   "nexa-paraguay:por-que-paraguay": {
     "descriptionKey": "whyCountryPage.seo.description",
@@ -10369,6 +10644,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "programas",
     "titleKey": "programasPage.seo.title"
+  },
+  "nexa-paraguay:recursos": {
+    "descriptionKey": "resourcesPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "resourcesPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "resourcesPage.guides",
+        "id": "features",
+        "variant": "default"
+      },
+      {
+        "content": "resourcesPage.newsletter",
+        "id": "newsletter-signup",
+        "variant": "default"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "recursos",
+    "titleKey": "resourcesPage.seo.title"
   },
   "nexa-paraguay:sobre": {
     "descriptionKey": "aboutPage.seo.description",
@@ -31057,7 +31369,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "intake-questionnaire",
       "tiered-service-ladder",
       "regulatory-status-badge",
-      "compliance-disclaimer-footer"
+      "compliance-disclaimer-footer",
+      "tax-savings-calculator",
+      "intake-wizard"
     ],
     "defaultStarterKit": "full",
     "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",

@@ -604,3 +604,58 @@ html {
     scroll-behavior: auto;
   }
 }
+
+/* =============================================================
+ * Print styles — optimized for /programas (and any other pricing
+ * or comparison page). Clients often print the pricing sheet to
+ * share with advisors offline.
+ * ============================================================= */
+@media print {
+  /* Hide interactive & decorative chrome that doesn't make sense on paper */
+  header[class*="fixed"],
+  [class*="whatsapp-float"],
+  [class*="fixed bottom"],
+  [role="dialog"],
+  button[aria-label*="cookie" i],
+  button[aria-label*="close" i],
+  .print-hide {
+    display: none !important;
+  }
+
+  /* Let cards flow and avoid page-break splits in the middle of a card */
+  article,
+  section,
+  .rounded-2xl {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Ensure background colors + ink-friendly text */
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Keep the gold secondary for tier badges so comparison still reads */
+  [class*="bg-[var(--secondary)]"] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Ensure links are readable when printed */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #555;
+  }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* Tighter spacing for print */
+  section {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+}

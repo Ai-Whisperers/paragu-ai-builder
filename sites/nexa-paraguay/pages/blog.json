@@ -14,6 +14,11 @@
       "content": "blog.index"
     },
     {
+      "id": "newsletter-signup",
+      "variant": "default",
+      "content": "resourcesPage.newsletter"
+    },
+    {
       "id": "footer",
       "variant": "standard",
       "content": "footer"

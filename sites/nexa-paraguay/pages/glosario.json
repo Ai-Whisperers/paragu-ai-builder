@@ -1,0 +1,14 @@
+{
+  "slug": "glosario",
+  "titleKey": "glossaryPage.seo.title",
+  "descriptionKey": "glossaryPage.seo.description",
+  "schemaType": "FAQPage",
+  "sections": [
+    {"id": "header", "variant": "standard", "content": "navigation"},
+    {"id": "hero", "variant": "minimal", "content": "glossaryPage.hero"},
+    {"id": "faq", "variant": "accordion", "content": "glossaryPage.glossary"},
+    {"id": "cta-banner", "variant": "solid", "content": "glossaryPage.cta"},
+    {"id": "footer", "variant": "standard", "content": "footer"},
+    {"id": "whatsapp-float", "variant": "standard", "content": "whatsapp"}
+  ]
+}
