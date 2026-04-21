@@ -261,6 +261,9 @@
       "subtitle": "Book a free 30-minute consultation.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
+    },
+    "taxCalculator": {
+      "ctaHref": "/s/en/nexa-paraguay/contacto"
     }
   },
   "programasPage": {

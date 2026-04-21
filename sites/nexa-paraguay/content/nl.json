@@ -261,6 +261,9 @@
       "subtitle": "Plan een gratis consult van 30 minuten.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    },
+    "taxCalculator": {
+      "ctaHref": "/s/nl/nexa-paraguay/contacto"
     }
   },
   "programasPage": {

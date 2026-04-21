@@ -41,8 +41,14 @@
     "intake-questionnaire",
     "tiered-service-ladder",
     "regulatory-status-badge",
-    "compliance-disclaimer-footer"
+    "compliance-disclaimer-footer",
+    "tax-savings-calculator"
   ],
   "defaultStarterKit": "full",
-  "locales": ["es", "en", "de", "nl"]
+  "locales": [
+    "es",
+    "en",
+    "de",
+    "nl"
+  ]
 }

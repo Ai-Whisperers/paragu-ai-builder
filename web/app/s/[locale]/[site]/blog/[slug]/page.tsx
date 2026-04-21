@@ -55,10 +55,40 @@ export default async function BlogPostPage({ params }: Props) {
 
   const tokens = resolveSiteTokens(site!.vertical, siteSlug)
 
+  // Article + BreadcrumbList structured data for blog posts. Emitted here
+  // rather than in the catch-all page because blog posts bypass the main
+  // composeSitePage pipeline — they render BlogPostSection directly.
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://nexaparaguay.com'
+  const postUrl = `${baseUrl}/s/${locale}/${siteSlug}/blog/${slug}`
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    author: { '@type': 'Organization', name: post.author || siteSlug },
+    datePublished: post.date,
+    image: post.coverImage ? [`${baseUrl}${post.coverImage}`] : undefined,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+    inLanguage: locale,
+  }
+  const breadcrumbsJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${baseUrl}/s/${locale}/${siteSlug}` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${baseUrl}/s/${locale}/${siteSlug}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: postUrl },
+    ],
+  }
+
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: tokens.cssString }} />
       {tokens.googleFontsUrl && <link rel="stylesheet" href={tokens.googleFontsUrl} />}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbsJsonLd]) }}
+      />
       <div
         className="min-h-screen"
         style={{

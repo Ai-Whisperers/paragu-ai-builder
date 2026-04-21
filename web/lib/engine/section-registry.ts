@@ -54,6 +54,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['credentials', 'logos-row'],
     requiredContentFields: ['items'],
   },
+  'tax-savings-calculator': {
+    id: 'tax-savings-calculator',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
   gallery: {
     id: 'gallery',
     defaultVariant: 'grid',

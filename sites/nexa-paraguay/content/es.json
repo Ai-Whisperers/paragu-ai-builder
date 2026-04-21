@@ -261,6 +261,9 @@
       "subtitle": "Agende una consulta gratuita de 30 minutos.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
+    },
+    "taxCalculator": {
+      "ctaHref": "/s/es/nexa-paraguay/contacto"
     }
   },
   "programasPage": {

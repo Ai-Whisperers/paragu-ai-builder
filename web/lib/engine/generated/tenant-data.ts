@@ -10121,6 +10121,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
+        "content": "home.taxCalculator",
+        "id": "tax-savings-calculator",
+        "variant": "default"
+      },
+      {
         "content": "home.whyCountry",
         "id": "why-destination",
         "variant": "three-col"
@@ -20834,6 +20839,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Aufenthaltserlaubnis, Gesellschaft und Bankkonto in Paraguay. Ein Programm, eine Reise, ein professionelles Team.",
         "title": "Nexa Paraguay — Etablieren Sie Ihr Geschäft in Paraguay"
       },
+      "taxCalculator": {
+        "ctaHref": "/s/de/nexa-paraguay/contacto"
+      },
       "testimonials": {
         "ctaHref": "/s/de/nexa-paraguay/contacto",
         "ctaText": "Alle Testimonials lesen",
@@ -22121,6 +22129,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "description": "Residency, company and bank account in Paraguay. One program, one trip, a full professional team by your side.",
         "title": "Nexa Paraguay — Establish your operation in Paraguay"
       },
+      "taxCalculator": {
+        "ctaHref": "/s/en/nexa-paraguay/contacto"
+      },
       "testimonials": {
         "ctaHref": "/s/en/nexa-paraguay/contacto",
         "ctaText": "Read all testimonials",
@@ -23377,6 +23388,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Residencia, sociedad y cuenta bancaria en Paraguay. Un solo programa, un solo viaje, un equipo profesional a su lado.",
         "title": "Nexa Paraguay — Establezca su operación en Paraguay"
+      },
+      "taxCalculator": {
+        "ctaHref": "/s/es/nexa-paraguay/contacto"
       },
       "testimonials": {
         "ctaHref": "/s/es/nexa-paraguay/contacto",
@@ -24697,6 +24711,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Verblijfsvergunning, vennootschap en bankrekening in Paraguay. Eén programma, één reis, een professioneel team.",
         "title": "Nexa Paraguay — Vestig uw onderneming in Paraguay"
+      },
+      "taxCalculator": {
+        "ctaHref": "/s/nl/nexa-paraguay/contacto"
       },
       "testimonials": {
         "ctaHref": "/s/nl/nexa-paraguay/contacto",
@@ -28018,7 +28035,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "intake-questionnaire",
       "tiered-service-ladder",
       "regulatory-status-badge",
-      "compliance-disclaimer-footer"
+      "compliance-disclaimer-footer",
+      "tax-savings-calculator"
     ],
     "defaultStarterKit": "full",
     "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",

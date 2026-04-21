@@ -264,6 +264,9 @@
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    },
+    "taxCalculator": {
+      "ctaHref": "/s/de/nexa-paraguay/contacto"
     }
   },
   "programasPage": {

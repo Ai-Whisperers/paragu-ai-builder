@@ -1,6 +1,12 @@
 /**
- * schema.org JSON-LD generator for tenant sites. Emits LocalBusiness +
- * Service + FAQPage structured data based on the resolved page content.
+ * schema.org JSON-LD generator for tenant sites.
+ *
+ * Emits, per page:
+ *   - LocalBusiness  (every page — the tenant itself)
+ *   - FAQPage        (pages whose schemaType is "FAQPage")
+ *   - Service        (pages whose schemaType is "Service")
+ *   - BreadcrumbList (every non-home page — helps Google display the
+ *                     path crumb in SERP)
  */
 import type { ResolvedPage } from './site-types'
 
@@ -9,6 +15,10 @@ export interface JsonLdItem { '@context': string; '@type': string; [k: string]: 
 export function jsonLdForPage(page: ResolvedPage, baseUrl: string): JsonLdItem[] {
   const items: JsonLdItem[] = []
   items.push(localBusiness(page, baseUrl))
+
+  const crumbs = extractBreadcrumbs(page, baseUrl)
+  if (crumbs) items.push(crumbs)
+
   if (page.meta.schemaType === 'FAQPage') {
     const faq = extractFaq(page)
     if (faq) items.push(faq)
@@ -68,4 +78,38 @@ function extractServices(page: ResolvedPage, baseUrl: string): JsonLdItem[] {
       : undefined,
     url: `${baseUrl}${page.meta.path}#${String(t.id)}`,
   }))
+}
+
+/**
+ * Breadcrumb list — Home > <page title>. Only emitted for non-home pages
+ * (home's breadcrumb is itself, which Google treats as redundant).
+ *
+ * The site's home URL is derived from the current page's path by stripping
+ * the trailing page slug; for a page at `/s/es/nexa-paraguay/programas`
+ * the home is `/s/es/nexa-paraguay`.
+ */
+function extractBreadcrumbs(page: ResolvedPage, baseUrl: string): JsonLdItem | null {
+  const path = page.meta.path
+  if (!path) return null // home has empty path component
+  const homePath = path.substring(0, path.lastIndexOf('/')) || path.replace(/\/[^/]+$/, '')
+  const siteName = (page.sections[0]?.props as Record<string, unknown>)?.businessName as string | undefined
+  const pageTitle = page.meta.title || page.page.slug || 'Page'
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: siteName || 'Home',
+        item: `${baseUrl}${homePath}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: pageTitle,
+        item: `${baseUrl}${path}`,
+      },
+    ],
+  }
 }
