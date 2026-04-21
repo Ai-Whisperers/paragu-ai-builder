@@ -144,6 +144,9 @@ export const env = {
   PAGOPAR_ENVIRONMENT: optionalEnv('PAGOPAR_ENVIRONMENT', 'sandbox'),
 
   COMMERCE_SESSION_SECRET: optionalEnvOrUndefined('COMMERCE_SESSION_SECRET'),
+  // 32-byte (64 hex chars) AES-256 key used to encrypt per-merchant payment
+  // credentials at rest. Generate with: openssl rand -hex 32
+  COMMERCE_CREDENTIALS_KEY: optionalEnvOrUndefined('COMMERCE_CREDENTIALS_KEY'),
 
   get commerceConfigured(): boolean {
     return Boolean(process.env.PAGOPAR_PUBLIC_TOKEN && process.env.PAGOPAR_PRIVATE_TOKEN)
