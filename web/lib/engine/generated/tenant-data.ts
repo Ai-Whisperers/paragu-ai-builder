@@ -9963,7 +9963,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "comparisonPage.matrix",
         "id": "programs-comparison",
-        "variant": "matrix"
+        "variant": "tiered"
       },
       {
         "content": "comparisonPage.cta",
