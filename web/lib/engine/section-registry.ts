@@ -60,6 +60,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['default'],
     requiredContentFields: [],
   },
+  'intake-wizard': {
+    id: 'intake-wizard',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
   gallery: {
     id: 'gallery',
     defaultVariant: 'grid',

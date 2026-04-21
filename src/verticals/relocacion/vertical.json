@@ -42,7 +42,8 @@
     "tiered-service-ladder",
     "regulatory-status-badge",
     "compliance-disclaimer-footer",
-    "tax-savings-calculator"
+    "tax-savings-calculator",
+    "intake-wizard"
   ],
   "defaultStarterKit": "full",
   "locales": [

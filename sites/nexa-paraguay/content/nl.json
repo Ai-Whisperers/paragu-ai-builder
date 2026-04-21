@@ -21,6 +21,10 @@
         "href": "/s/nl/nexa-paraguay/programas"
       },
       {
+        "label": "Assistent",
+        "href": "/s/nl/nexa-paraguay/asistente"
+      },
+      {
         "label": "Vergelijking",
         "href": "/s/nl/nexa-paraguay/comparacion"
       },
@@ -1732,6 +1736,20 @@
       "subtitle": "Schrijf ons en we voegen hem toe.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "intakeWizardPage": {
+    "seo": {
+      "title": "Assistent — Welk programma past? — Nexa Paraguay",
+      "description": "4 korte vragen om te zien welk Nexa Paraguay-programma bij uw situatie past."
+    },
+    "hero": {
+      "headline": "Welk programma past bij u?",
+      "subheadline": "4 vragen. 60 seconden. Geen e-mail vereist."
+    },
+    "wizard": {
+      "title": "Laten we beginnen",
+      "subtitle": "Uw antwoorden worden niet opgeslagen. Het resultaat is oriëntatie — het gratis consult bevestigt het."
     }
   }
 }

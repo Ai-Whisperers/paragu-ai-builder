@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=154, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=155, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9872,6 +9872,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "",
     "titleKey": "home.seo.title"
+  },
+  "nexa-paraguay:asistente": {
+    "descriptionKey": "intakeWizardPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "intakeWizardPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "intakeWizardPage.wizard",
+        "id": "intake-wizard",
+        "variant": "default"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "asistente",
+    "titleKey": "intakeWizardPage.seo.title"
   },
   "nexa-paraguay:blog": {
     "descriptionKey": "blog.index.seo.description",
@@ -21185,6 +21217,20 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Eine reale Chance für europäische Investoren"
       }
     },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "Welches Programm passt zu Ihnen?",
+        "subheadline": "4 Fragen. 60 Sekunden. Keine E-Mail nötig."
+      },
+      "seo": {
+        "description": "4 schnelle Fragen, um das passende Nexa Paraguay-Programm zu finden.",
+        "title": "Assistent — Welches Programm passt? — Nexa Paraguay"
+      },
+      "wizard": {
+        "subtitle": "Ihre Antworten werden nicht gespeichert. Das Ergebnis ist Orientierung — die kostenlose Beratung bestätigt es.",
+        "title": "Lassen Sie uns beginnen"
+      }
+    },
     "jurisdictionCompPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
@@ -21390,6 +21436,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/programas",
           "label": "Programme"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/asistente",
+          "label": "Assistent"
         },
         {
           "href": "/s/de/nexa-paraguay/comparacion",
@@ -22922,6 +22972,20 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "A real opportunity for European investors"
       }
     },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "Which program fits you?",
+        "subheadline": "4 questions. 60 seconds. No email required."
+      },
+      "seo": {
+        "description": "4 quick questions to find which Nexa Paraguay program matches your situation.",
+        "title": "Assistant — Which program fits? — Nexa Paraguay"
+      },
+      "wizard": {
+        "subtitle": "Your answers aren't stored. The result is orientation — the free consultation confirms it.",
+        "title": "Let's start"
+      }
+    },
     "jurisdictionCompPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
@@ -23127,6 +23191,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/programas",
           "label": "Programs"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/asistente",
+          "label": "Assistant"
         },
         {
           "href": "/s/en/nexa-paraguay/comparacion",
@@ -24629,6 +24697,20 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Una oportunidad real para el inversor europeo"
       }
     },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "¿Qué programa le conviene?",
+        "subheadline": "4 preguntas. 60 segundos. Sin dejar email."
+      },
+      "seo": {
+        "description": "4 preguntas breves para saber qué programa de Nexa Paraguay se adapta mejor a su situación.",
+        "title": "Asistente — ¿Qué programa le conviene? — Nexa Paraguay"
+      },
+      "wizard": {
+        "subtitle": "Sus respuestas no se guardan. El resultado es solo una orientación — la consulta gratuita la confirma.",
+        "title": "Comencemos"
+      }
+    },
     "jurisdictionCompPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
@@ -24834,6 +24916,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/programas",
           "label": "Programas"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/asistente",
+          "label": "Asistente"
         },
         {
           "href": "/s/es/nexa-paraguay/comparacion",
@@ -26399,6 +26485,20 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Een reële kans voor de Europese investeerder"
       }
     },
+    "intakeWizardPage": {
+      "hero": {
+        "headline": "Welk programma past bij u?",
+        "subheadline": "4 vragen. 60 seconden. Geen e-mail vereist."
+      },
+      "seo": {
+        "description": "4 korte vragen om te zien welk Nexa Paraguay-programma bij uw situatie past.",
+        "title": "Assistent — Welk programma past? — Nexa Paraguay"
+      },
+      "wizard": {
+        "subtitle": "Uw antwoorden worden niet opgeslagen. Het resultaat is oriëntatie — het gratis consult bevestigt het.",
+        "title": "Laten we beginnen"
+      }
+    },
     "jurisdictionCompPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
@@ -26604,6 +26704,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/programas",
           "label": "Programma's"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/asistente",
+          "label": "Assistent"
         },
         {
           "href": "/s/nl/nexa-paraguay/comparacion",
@@ -29983,7 +30087,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "tiered-service-ladder",
       "regulatory-status-badge",
       "compliance-disclaimer-footer",
-      "tax-savings-calculator"
+      "tax-savings-calculator",
+      "intake-wizard"
     ],
     "defaultStarterKit": "full",
     "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",

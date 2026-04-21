@@ -24,6 +24,10 @@
         "href": "/s/de/nexa-paraguay/programas"
       },
       {
+        "label": "Assistent",
+        "href": "/s/de/nexa-paraguay/asistente"
+      },
+      {
         "label": "Vergleich",
         "href": "/s/de/nexa-paraguay/comparacion"
       },
@@ -1735,6 +1739,20 @@
       "subtitle": "Schreiben Sie uns und wir fügen ihn hinzu.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
+  },
+  "intakeWizardPage": {
+    "seo": {
+      "title": "Assistent — Welches Programm passt? — Nexa Paraguay",
+      "description": "4 schnelle Fragen, um das passende Nexa Paraguay-Programm zu finden."
+    },
+    "hero": {
+      "headline": "Welches Programm passt zu Ihnen?",
+      "subheadline": "4 Fragen. 60 Sekunden. Keine E-Mail nötig."
+    },
+    "wizard": {
+      "title": "Lassen Sie uns beginnen",
+      "subtitle": "Ihre Antworten werden nicht gespeichert. Das Ergebnis ist Orientierung — die kostenlose Beratung bestätigt es."
     }
   }
 }

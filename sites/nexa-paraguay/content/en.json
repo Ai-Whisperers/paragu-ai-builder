@@ -21,6 +21,10 @@
         "href": "/s/en/nexa-paraguay/programas"
       },
       {
+        "label": "Assistant",
+        "href": "/s/en/nexa-paraguay/asistente"
+      },
+      {
         "label": "Comparison",
         "href": "/s/en/nexa-paraguay/comparacion"
       },
@@ -1701,6 +1705,20 @@
       "subtitle": "Write us and we'll add it to the glossary with a plain-language explanation in your language.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
+  },
+  "intakeWizardPage": {
+    "seo": {
+      "title": "Assistant — Which program fits? — Nexa Paraguay",
+      "description": "4 quick questions to find which Nexa Paraguay program matches your situation."
+    },
+    "hero": {
+      "headline": "Which program fits you?",
+      "subheadline": "4 questions. 60 seconds. No email required."
+    },
+    "wizard": {
+      "title": "Let's start",
+      "subtitle": "Your answers aren't stored. The result is orientation — the free consultation confirms it."
     }
   }
 }
