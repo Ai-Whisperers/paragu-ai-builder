@@ -3,13 +3,13 @@
   "titleKey": "giftCards.seo.title",
   "descriptionKey": "giftCards.seo.description",
   "sections": [
-    { "id": "age-gate", "variant": "modal", "content": "ageGate" },
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "giftcards-hero", "variant": "split", "content": "giftCards.hero" },
-    { "id": "giftcards-denominations", "variant": "grid", "content": "giftCards.denominations" },
-    { "id": "giftcards-how-it-works", "variant": "steps", "content": "giftCards.howItWorks" },
-    { "id": "giftcards-design", "variant": "carousel", "content": "giftCards.designs" },
-    { "id": "giftcards-faq", "variant": "accordion", "content": "giftCards.faq" },
+    { "id": "hero", "variant": "split", "content": "giftCards.hero" },
+    { "id": "services", "variant": "cards", "content": "giftCards.denominations" },
+    { "id": "services", "variant": "cards", "content": "giftCards.howItWorks" },
+    { "id": "gallery", "variant": "grid", "content": "giftCards.designs" },
+    { "id": "faq", "variant": "accordion", "content": "giftCards.faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "giftCards.cta" },
     { "id": "footer", "variant": "standard", "content": "footer" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
