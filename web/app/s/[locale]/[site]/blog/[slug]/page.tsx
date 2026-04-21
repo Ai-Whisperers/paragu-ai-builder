@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { listSiteSlugs, loadSite } from '@/lib/engine/site-loader'
-import { listBlogSlugs, loadBlogPost } from '@/lib/engine/blog-loader'
+import { listBlogSlugs, loadBlogPost, listBlogPosts } from '@/lib/engine/blog-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
 import { alternatesFor } from '@/lib/i18n/routing'
@@ -71,6 +71,21 @@ export default async function BlogPostPage({ params }: Props) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
     inLanguage: locale,
   }
+  const RELATED_LABELS: Record<string, string> = { es: 'Artículos relacionados', en: 'Related articles', nl: 'Gerelateerde artikelen', de: 'Verwandte Artikel', pt: 'Artigos relacionados' }
+  const relatedLabel = RELATED_LABELS[locale] || RELATED_LABELS.es
+  const allPosts = listBlogPosts(siteSlug, locale as Locale).filter((p) => p.slug !== slug)
+  const sameCategory = post.category ? allPosts.filter((p) => p.category === post.category) : []
+  const others = allPosts.filter((p) => !sameCategory.includes(p))
+  const relatedPosts = [...sameCategory, ...others].slice(0, 3).map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    excerpt: p.excerpt,
+    date: p.date,
+    category: p.category,
+    coverImage: p.coverImage,
+    href: `/s/${locale}/${siteSlug}/blog/${p.slug}`,
+  }))
+
   const breadcrumbsJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -106,6 +121,8 @@ export default async function BlogPostPage({ params }: Props) {
           html={post.html}
           backLabel="← Blog"
           backHref={`/s/${locale}/${siteSlug}/blog`}
+          relatedPosts={relatedPosts}
+          relatedLabel={relatedLabel}
         />
       </div>
     </>

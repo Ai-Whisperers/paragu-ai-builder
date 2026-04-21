@@ -11,6 +11,16 @@ export interface BlogPostSectionProps {
   html: string
   backLabel?: string
   backHref?: string
+  relatedPosts?: Array<{
+    slug: string
+    title: string
+    excerpt?: string
+    date?: string
+    category?: string
+    coverImage?: string
+    href: string
+  }>
+  relatedLabel?: string
 }
 
 export function BlogPostSection({
@@ -22,6 +32,8 @@ export function BlogPostSection({
   html,
   backLabel,
   backHref,
+  relatedPosts,
+  relatedLabel = 'Related posts',
 }: BlogPostSectionProps) {
   return (
     <article className="bg-[var(--background)] py-16 sm:py-24">
@@ -45,7 +57,7 @@ export function BlogPostSection({
         {coverImage && (
           <div className="mt-8 overflow-hidden rounded-lg bg-[var(--surface-light)]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={coverImage} alt={title} className="h-auto w-full"  loading="lazy" decoding="async" />
+            <img src={coverImage} alt={title} className="h-auto w-full" loading="lazy" decoding="async" />
           </div>
         )}
 
@@ -57,6 +69,52 @@ export function BlogPostSection({
           }}
           dangerouslySetInnerHTML={{ __html: html }}
         />
+
+        {relatedPosts && relatedPosts.length > 0 && (
+          <section className="mt-16 border-t border-[var(--border)] pt-12">
+            <Heading level={2} className="mb-6 text-2xl font-semibold text-[var(--primary)]">
+              {relatedLabel}
+            </Heading>
+            <div className="grid gap-6 md:grid-cols-3">
+              {relatedPosts.map((p) => (
+                <a
+                  key={p.slug}
+                  href={p.href}
+                  className="group block overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--surface)] shadow-card transition-all hover:shadow-card-hover"
+                >
+                  <div className="aspect-[16/9] bg-[var(--surface-light)]">
+                    {p.coverImage && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={p.coverImage} alt={p.title} className="h-full w-full object-cover" loading="lazy" />
+                    )}
+                  </div>
+                  <div className="p-5">
+                    {p.category && (
+                      <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+                        {p.category}
+                      </p>
+                    )}
+                    <Heading
+                      level={3}
+                      className="mb-2 text-base font-semibold text-[var(--primary)] group-hover:underline"
+                      style={{ fontFamily: 'var(--font-heading)' }}
+                    >
+                      {p.title}
+                    </Heading>
+                    {p.excerpt && (
+                      <p className="line-clamp-2 text-sm text-[var(--text-light)]">{p.excerpt}</p>
+                    )}
+                    {p.date && (
+                      <p className="mt-3 text-xs text-[var(--text-muted)]">
+                        <time dateTime={p.date}>{p.date}</time>
+                      </p>
+                    )}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </Container>
     </article>
   )
