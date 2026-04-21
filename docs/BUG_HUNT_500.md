@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 77 | see closure log below |
+| ✅ Closed | 80 | see closure log below |
 | 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 423 | the rest |
+| 🔴 Open | 420 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -118,6 +118,17 @@ Closure log:
   anymore), deleted unused `generateCacheKey` helper in `lib/supabase/cache.ts`,
   inlined `POOL_CONFIG` documentation in `server.ts` (was an unused const
   with the values reproduced in a comment). `lib/supabase` now lints clean.
+- **#400** — verified: zero JSX `class=` violations across `web/{app,components}`.
+  Remaining `class=` instances are inside HTML email templates (e.g.
+  `app/api/admin/daily-metrics/route.ts:303`) which are correct as-is.
+- **#469** — verified: only one `tabIndex={-1}` in app code, on the spam-honeypot
+  field at `lead-form-section.tsx:158` (intentional — hidden input, not a CTA).
+  All real CTAs are reachable via Tab.
+- **#483** — README.md updated: API route count `21 → 52` (cron + webhooks +
+  admin + storefront added since first count); section count `83 → 82`; "Adding
+  a new tenant" pointer fixed to actual `docs/runbooks/ADD_NEW_TENANT.md` (was
+  pointing to a "planned" file that already exists), plus links to ADD_NEW_VERTICAL,
+  ENV_VARS, and ROLLBACK runbooks.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
