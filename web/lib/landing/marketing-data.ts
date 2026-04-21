@@ -157,6 +157,15 @@ export type Plan = {
   cta: string
   waMessage: string
   popular: boolean
+  /**
+   * Months the customer enjoys full Profesional-tier features regardless of
+   * which plan they actually paid for. Honor-system enforced today; once the
+   * `graceEndsAt` field is wired into the tenants table we'll downgrade
+   * features automatically. See docs/PRICING_ITERATION_V2.md.
+   */
+  premiumGraceMonths: number
+  /** Highlight badge shown on the plan card. Replaces the `popular` flag in v2. */
+  badge?: string
 }
 
 export const PLANS: readonly Plan[] = [
@@ -165,50 +174,54 @@ export const PLANS: readonly Plan[] = [
     name: 'Prueba',
     setup: 'Gratis',
     monthly: '3 meses',
-    period: 'sin costo',
-    description: 'Para validar antes de invertir',
+    period: 'full Profesional, sin costo',
+    description: 'Probá todo lo que ofrecemos antes de pagar nada',
     features: [
-      { text: 'Subdominio (negocio.paragu-ai.com)', included: true },
-      { text: '1 página lista para compartir', included: true },
-      { text: 'WhatsApp + Google Maps', included: true },
-      { text: 'Certificado SSL incluido', included: true },
-      { text: 'Dominio propio', included: false },
-      { text: 'Sin branding ParaguAI', included: false },
-      { text: 'Soporte personalizado', included: false },
+      { text: '3 meses con la experiencia Profesional completa', included: true },
+      { text: 'Subdominio negocio.paragu-ai.com', included: true },
+      { text: 'WhatsApp Business + Google Maps + SSL', included: true },
+      { text: 'Soporte por WhatsApp durante la prueba', included: true },
+      { text: 'Después de los 3 meses: el sitio sigue online con marca ParaguAI', included: true },
+      { text: 'Dominio propio incluido', included: false },
+      { text: 'Sin marca ParaguAI', included: false },
     ],
-    cta: 'Solicitar demo',
-    waMessage: 'Hola, quiero probar ParaguAI gratis para mi negocio.',
+    cta: 'Probar gratis',
+    waMessage: 'Hola, quiero probar ParaguAI gratis (3 meses Profesional) para mi negocio.',
     popular: false,
+    premiumGraceMonths: 3,
   },
   {
     id: 'presencia',
     name: 'Presencia',
     setup: 'Gs 650.000',
     monthly: 'Gs 100.000',
-    period: 'por mes',
-    description: 'Tu primer sitio profesional',
+    period: 'por mes (después de 7 meses Profesional gratis)',
+    description: 'Tu primer sitio profesional · 7 meses con todo desbloqueado',
     features: [
-      { text: 'Hasta 5 páginas', included: true },
+      { text: '7 meses con la experiencia Profesional completa', included: true },
+      { text: 'Hasta 5 páginas en tu plan base', included: true },
       { text: 'Dominio propio (.com.py) incluido 1 año', included: true },
       { text: 'Hasta 15 fotos optimizadas', included: true },
       { text: 'Formulario + WhatsApp Business', included: true },
       { text: 'SEO básico + Google Maps', included: true },
       { text: '2 cambios de contenido al mes', included: true },
-      { text: 'Soporte por WhatsApp', included: true },
+      { text: 'WhatsApp dedicado + check-in mensual', included: true },
     ],
     cta: 'Comenzar Presencia',
-    waMessage: 'Hola, me interesa el plan Presencia (Gs 650.000 + 100.000/mes).',
+    waMessage: 'Hola, me interesa el plan Presencia (Gs 650.000 + 100.000/mes, con 7 meses Profesional incluidos).',
     popular: false,
+    premiumGraceMonths: 7,
   },
   {
     id: 'crecimiento',
     name: 'Crecimiento',
     setup: 'Gs 1.200.000',
     monthly: 'Gs 150.000',
-    period: 'por mes',
-    description: 'Reservas, blog y e-commerce',
+    period: 'por mes (después de 8 meses Profesional gratis)',
+    description: 'Reservas, blog y e-commerce · 8 meses con todo desbloqueado',
     features: [
-      { text: 'Todo lo de Presencia', included: true },
+      { text: '8 meses con la experiencia Profesional completa', included: true },
+      { text: 'Todo lo de Presencia en tu plan base', included: true },
       { text: 'Páginas ilimitadas', included: true },
       { text: 'Sistema de reservas online', included: true },
       { text: 'Catálogo con hasta 20 productos', included: true },
@@ -217,18 +230,21 @@ export const PLANS: readonly Plan[] = [
       { text: '5 cambios al mes + soporte prioritario', included: true },
     ],
     cta: 'Comenzar Crecimiento',
-    waMessage: 'Hola, me interesa el plan Crecimiento (Gs 1.200.000 + 150.000/mes).',
+    waMessage: 'Hola, me interesa el plan Crecimiento (Gs 1.200.000 + 150.000/mes, con 8 meses Profesional incluidos).',
     popular: true,
+    badge: 'Más recomendado',
+    premiumGraceMonths: 8,
   },
   {
     id: 'profesional',
     name: 'Profesional',
     setup: 'Gs 2.200.000',
     monthly: 'Gs 300.000',
-    period: 'por mes',
-    description: 'Cadenas, franquicias, multi-sucursal',
+    period: 'por mes · siempre full Profesional',
+    description: 'Cadenas, franquicias, multi-sucursal — sin downgrades, nunca',
     features: [
-      { text: 'Todo lo de Crecimiento', included: true },
+      { text: 'Experiencia Profesional completa, siempre', included: true },
+      { text: 'Todo lo de Crecimiento sin límite de tiempo', included: true },
       { text: 'Hasta 5 sucursales / locales', included: true },
       { text: 'Sitio multi-idioma (es/en/pt)', included: true },
       { text: 'Integraciones personalizadas', included: true },
@@ -239,6 +255,7 @@ export const PLANS: readonly Plan[] = [
     cta: 'Hablar con ventas',
     waMessage: 'Hola, me interesa el plan Profesional (Gs 2.200.000 + 300.000/mes).',
     popular: false,
+    premiumGraceMonths: 0,
   },
 ] as const
 

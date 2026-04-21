@@ -99,6 +99,18 @@ export default async function AdminDashboard() {
               Pedidos, productos e inventario por tenant.
             </p>
           </Link>
+          <Link
+            href="/admin/tenants"
+            className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
+          >
+            <p className="text-xs uppercase tracking-wider text-gray-500">Tenants</p>
+            <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
+              Negocios + grace status
+            </p>
+            <p className="mt-1 text-sm text-gray-500">
+              Suscripción, contacto, notas y eventos por tenant.
+            </p>
+          </Link>
         </div>
 
         {/* Business List */}
