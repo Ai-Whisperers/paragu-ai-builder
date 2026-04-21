@@ -9,6 +9,11 @@
       "content": "home.ageGate"
     },
     {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.promoBanner"
+    },
+    {
       "id": "header",
       "variant": "standard",
       "content": "navigation"
@@ -57,6 +62,11 @@
       "id": "faq",
       "variant": "accordion",
       "content": "home.faq"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "home.newsletter"
     },
     {
       "id": "contact",

@@ -420,6 +420,41 @@
           "icon": "Truck"
         }
       ]
+    },
+    "promoBanner": {
+      "promotions": [
+        {
+          "id": "bienvenida10",
+          "title": "Cupón BIENVENIDA10 — 10% OFF en tu primera compra",
+          "description": "Usá el código BIENVENIDA10 al pagar y ahorrá 10%. Válido hasta fin de mes.",
+          "code": "BIENVENIDA10",
+          "bgColor": "#7c3aed",
+          "textColor": "#ffffff",
+          "link": "/s/es/fun4me/tienda"
+        },
+        {
+          "id": "envio-gratis",
+          "title": "Envío gratis en pedidos sobre Gs 300.000",
+          "description": "Motoenvío gratis en Gran Asunción y encomienda sin cargo al interior.",
+          "bgColor": "#0891b2",
+          "textColor": "#ffffff",
+          "link": "/s/es/fun4me/tienda"
+        }
+      ],
+      "autoRotate": true,
+      "rotateInterval": 6000,
+      "dismissible": true,
+      "position": "top",
+      "variant": "carousel"
+    },
+    "newsletter": {
+      "title": "Novedades fun4me",
+      "subtitle": "Recibí avisos de lanzamientos, cupones exclusivos y guías de uso. Sin spam, sin compartir tu email.",
+      "placeholder": "tu@email.com",
+      "submitLabel": "Suscribirme",
+      "successMessage": "Listo. Revisá tu casilla para confirmar.",
+      "consentLabel": "Acepto recibir novedades y promociones de fun4me.",
+      "tenantSlug": "fun4me"
     }
   },
   "about": {

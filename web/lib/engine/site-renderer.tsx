@@ -47,6 +47,8 @@ import { OurStorySection } from '@/components/sections/our-story-section'
 import { B2BWholesaleSection } from '@/components/sections/b2b-wholesale-section'
 import { RecipeSection } from '@/components/sections/recipe-section'
 import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
+import { PromoBannerSection } from '@/components/sections/promo-banner-section'
+import { NewsletterSignupSection } from '@/components/sections/newsletter-signup-section'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const COMPONENTS: Record<string, React.ComponentType<any>> = {
@@ -89,6 +91,8 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'b2b-wholesale': B2BWholesaleSection,
   recipes: RecipeSection,
   'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
+  'promo-banner': PromoBannerSection,
+  'newsletter-signup': NewsletterSignupSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {
