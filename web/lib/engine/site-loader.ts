@@ -9,12 +9,37 @@ import { SITES, type SiteSlug } from './static-sites'
 declare const EdgeRuntime: string | undefined
 const isEdge = typeof EdgeRuntime !== 'undefined'
 
-// Static site paths — env-var override with hardcoded dev default.
-// The hardcoded fallback is needed for Edge Runtime (can't read env at
-// module top-level). In Docker / Cloudflare / any non-local env, set
-// SITES_DIR and SRC_DIR to the correct paths (e.g. /app/sites, /app/src).
-const SITES_DIR = process.env.SITES_DIR || '/home/ai-whisperers/paragu-ai-builder/sites'
-const SRC_DIR = process.env.SRC_DIR || '/home/ai-whisperers/paragu-ai-builder/src'
+// Project root — the dir containing `src/` and `sites/`.
+// - Local dev (web/ is a subdir): `..` from cwd.
+// - Docker standalone (src/ and server.js sit at /app): cwd itself.
+// SITES_DIR / SRC_DIR env vars win if set (runtime override — Docker uses
+// /app/sites and /app/src). Otherwise auto-detect by checking where `src/`
+// lives relative to cwd. Same pattern as resolve-site-tokens.ts.
+const PROJECT_ROOT = (() => {
+  if (isEdge) return ''
+  if (process.env.SRC_DIR) {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    return require('path').resolve(process.env.SRC_DIR, '..')
+  }
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const nodePath = require('path')
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const nodeFs = require('fs')
+  const cwd = process.cwd()
+  return nodeFs.existsSync(nodePath.resolve(cwd, 'src'))
+    ? cwd
+    : nodePath.resolve(cwd, '..')
+})()
+const SITES_DIR = isEdge
+  ? ''
+  : process.env.SITES_DIR ||
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    require('path').resolve(PROJECT_ROOT, 'sites')
+const SRC_DIR = isEdge
+  ? ''
+  : process.env.SRC_DIR ||
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    require('path').resolve(PROJECT_ROOT, 'src')
 
 // Lazy load Node modules only when needed (not on Edge)
 let fs: typeof import('fs') | null = null
