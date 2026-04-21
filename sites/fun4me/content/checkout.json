@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "description": "Checkout flow copy and configuration for Fun4Me. Consumed by web/app/[business]/checkout/* components via the site-loader."
+  },
+  "payment": {
+    "provider": "pagopar",
+    "providerOptions": {
+      "currency": "PYG",
+      "countryCode": "PY",
+      "statementDescriptor": "F4M COMERCIAL"
+    },
+    "methods": [
+      { "id": "card", "label": "Tarjeta de credito/debito", "icon": "credit-card", "enabled": true },
+      { "id": "transfer", "label": "Transferencia bancaria", "icon": "bank", "enabled": true },
+      { "id": "tigo_money", "label": "Tigo Money", "icon": "wallet", "enabled": true },
+      { "id": "personal_pay", "label": "Personal Pay", "icon": "wallet", "enabled": true },
+      { "id": "cash_on_delivery", "label": "Efectivo contra entrega", "icon": "cash", "enabled": true, "availableInZones": ["Asuncion"] }
+    ]
+  },
+  "fulfillment": {
+    "options": [
+      {
+        "id": "delivery_same_day",
+        "label": "Envio express (mismo dia en Asuncion)",
+        "cutoff": "15:00",
+        "fee": 50000,
+        "availableZones": ["Asuncion"]
+      },
+      {
+        "id": "delivery_gran_asu",
+        "label": "Delivery Gran Asuncion (24-48hs)",
+        "fee": 25000,
+        "freeThreshold": 200000,
+        "availableZones": ["Asuncion", "Fernando de la Mora", "San Lorenzo", "Lambare", "Luque"]
+      },
+      {
+        "id": "delivery_interior",
+        "label": "Envio al interior (3-5 dias habiles)",
+        "fee": 45000,
+        "freeThreshold": 200000,
+        "availableZones": ["resto_pais"]
+      },
+      {
+        "id": "pickup_in_store",
+        "label": "Retiro en tienda (Herrera 875)",
+        "fee": 0,
+        "instructions": "Te avisamos cuando este listo. Retiras con el codigo de tu pedido.",
+        "availableZones": ["Asuncion"]
+      }
+    ]
+  },
+  "giftFlow": {
+    "enabled": true,
+    "toggleLabel": "Es un regalo",
+    "fields": [
+      { "id": "recipient_name", "label": "Nombre de quien lo recibe", "required": false },
+      { "id": "recipient_address", "label": "Direccion diferente a la de envio", "required": false, "conditionalOn": "shipToOther" },
+      { "id": "gift_message", "label": "Mensaje (se imprime en tarjeta discreta)", "required": false, "maxLength": 200 },
+      { "id": "hide_prices", "label": "Ocultar precios en factura", "type": "toggle", "default": true }
+    ],
+    "giftWrap": {
+      "available": true,
+      "fee": 15000,
+      "label": "Envoltorio de regalo discreto"
+    }
+  },
+  "discretion": {
+    "packaging": {
+      "title": "Empaque 100% discreto",
+      "bulletpoints": [
+        "Caja o sobre sin logos ni nombre de la tienda",
+        "Remitente generico: 'F4M Comercial'",
+        "Sin referencias al contenido en el exterior"
+      ]
+    },
+    "billing": {
+      "title": "Facturacion discreta",
+      "text": "El cargo en tu tarjeta y la factura electronica aparecen como 'F4M COMERCIAL'. Podes editar la razon social que queres que aparezca en la factura (sujeto a validacion con datos SET)."
+    }
+  },
+  "trustBadges": [
+    { "icon": "lock", "text": "Pago 100% seguro via Pagopar" },
+    { "icon": "shield", "text": "Datos no compartidos con terceros" },
+    { "icon": "package", "text": "Empaque discreto garantizado" },
+    { "icon": "refresh", "text": "Cambios en 7 dias (lenceria sin uso)" }
+  ],
+  "orderFlow": {
+    "steps": [
+      { "id": "cart", "label": "Carrito" },
+      { "id": "shipping", "label": "Envio" },
+      { "id": "gift", "label": "Regalo", "optional": true },
+      { "id": "payment", "label": "Pago" },
+      { "id": "confirmation", "label": "Confirmacion" }
+    ]
+  },
+  "emptyCart": {
+    "title": "Tu carrito esta vacio",
+    "text": "Explora nuestras categorias y agrega productos.",
+    "ctaText": "Ir a la Tienda",
+    "ctaHref": "/fun4me/store"
+  },
+  "errors": {
+    "payment_declined": "El pago fue rechazado. Probá con otro metodo o contactanos por WhatsApp.",
+    "age_not_verified": "Debes confirmar que sos mayor de 18 anos antes de finalizar la compra.",
+    "out_of_stock": "Este producto ya no esta disponible. Lo removemos de tu carrito.",
+    "delivery_unavailable": "No hacemos delivery a esta zona todavia. Podes elegir retiro en tienda o contactarnos."
+  }
+}

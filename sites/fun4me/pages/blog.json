@@ -1,0 +1,16 @@
+{
+  "slug": "blog",
+  "titleKey": "blog.seo.title",
+  "descriptionKey": "blog.seo.description",
+  "sections": [
+    { "id": "age-gate", "variant": "modal", "content": "ageGate" },
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "blog-hero", "variant": "minimal", "content": "blog.hero" },
+    { "id": "blog-categories", "variant": "tabs", "content": "blog.categories" },
+    { "id": "blog-index", "variant": "cards-grid", "content": "blog.posts" },
+    { "id": "blog-newsletter", "variant": "inline", "content": "blog.newsletter" },
+    { "id": "related-bundles", "variant": "carousel", "content": "bundles" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}

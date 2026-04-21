@@ -7,24 +7,28 @@
   "publicUrl": "https://paragu-ai.com/fun4me",
   "stagingDomain": "fun4me.sunstein.cloud",
   "defaultLocale": "es",
-  "locales": [
-    "es"
-  ],
+  "locales": ["es"],
   "contact": {
     "phone": "+595976569739",
     "email": "hola@fun4me.com.py",
     "whatsapp": "+595976569739",
     "instagram": "@fun4me_store",
-    "facebook": "FUN4MEStore"
+    "facebook": "FUN4MEStore",
+    "supportEmails": {
+      "general": "hola@fun4me.com.py",
+      "privacy": "privacidad@fun4me.com.py",
+      "returns": "devoluciones@fun4me.com.py",
+      "legal": "legal@fun4me.com.py",
+      "compliance": "compliance@fun4me.com.py",
+      "moderation": "moderacion@fun4me.com.py"
+    }
   },
   "location": {
     "address": "Herrera 875",
     "city": "Asuncion",
     "country": "Paraguay",
-    "coordinates": {
-      "lat": -25.2867,
-      "lng": -57.6474
-    }
+    "coordinates": { "lat": -25.2867, "lng": -57.6474 },
+    "googleMapsId": null
   },
   "hours": {
     "Lunes - Viernes": "09:00 - 20:00",
@@ -35,16 +39,63 @@
     "currency": "PYG",
     "locale": "es-PY",
     "timezone": "America/Asuncion",
-    "ageGate": 18,
+    "ageGate": {
+      "enabled": true,
+      "minAge": 18,
+      "method": "self_declare",
+      "cookieDays": 30,
+      "reverifyMonths": 24
+    },
     "delivery": {
       "enabled": true,
       "freeThreshold": 200000,
       "zones": ["Asuncion", "Fernando de la Mora", "San Lorenzo", "Lambare", "Luque"],
-      "national": true
+      "national": true,
+      "expressAvailable": true,
+      "expressCutoff": "15:00",
+      "expressFee": 50000,
+      "pickupAvailable": true,
+      "pickupAddress": "Herrera 875, Asuncion"
+    },
+    "discretion": {
+      "packaging": "neutral_no_logo",
+      "statementDescriptor": "F4M COMERCIAL",
+      "billingName": "Fun4Me Comercial",
+      "invoiceConcept": "Articulo de salud y bienestar personal"
     }
   },
   "integrations": {
-    "analytics": "ga4"
+    "analytics": "ga4",
+    "payments": {
+      "provider": "pagopar",
+      "merchantIdEnvVar": "PAGOPAR_MERCHANT_KEY_FUN4ME",
+      "secretKeyEnvVar": "PAGOPAR_SECRET_KEY_FUN4ME",
+      "statementDescriptor": "F4M COMERCIAL"
+    },
+    "messaging": {
+      "whatsappClickToChat": true,
+      "whatsappBusinessApi": {
+        "enabled": false,
+        "provider": "360dialog",
+        "plannedPhase": 3
+      },
+      "liveChat": {
+        "enabled": false,
+        "provider": null,
+        "plannedPhase": 3
+      }
+    },
+    "invoicing": {
+      "provider": "facture",
+      "enabled": false,
+      "plannedPhase": 4
+    },
+    "email": {
+      "provider": "sendgrid",
+      "transactional": true,
+      "newsletter": true,
+      "optInRequired": true
+    }
   },
   "features": {
     "whatsappFloat": true,
@@ -52,15 +103,65 @@
     "productCatalog": true,
     "ageGate": true,
     "discretePackaging": true,
-    "faq": true
+    "faq": true,
+    "blog": true,
+    "bundles": true,
+    "giftCards": true,
+    "subscriptions": true,
+    "loyalty": true,
+    "referral": true,
+    "wishlist": true,
+    "reviews": true,
+    "sizeGuides": true,
+    "storePickupReserve": true,
+    "discreteAccountNames": true,
+    "abandonedCartRecovery": true,
+    "backInStockNotifications": true
+  },
+  "featurePhases": {
+    "phase1": ["productCatalog", "pagoparCheckout", "wishlist", "giftCards", "bundles", "blog"],
+    "phase2": ["reviews", "sizeGuides", "discreteAccountNames", "ageGateHardening"],
+    "phase3": ["subscriptions", "referral", "loyalty", "whatsappBusinessApi", "liveChat"],
+    "phase4": ["storePickupReserve", "events", "timbradoInvoicing", "discreteBillingToggle"]
+  },
+  "seo": {
+    "schemaType": "Store",
+    "priceRange": "$$",
+    "primaryKeywords": [
+      "sex shop paraguay",
+      "sex shop asuncion",
+      "juguetes adultos paraguay",
+      "lenceria asuncion",
+      "tienda erotica paraguay"
+    ]
   },
   "placeholderFields": {
-    "googleMapsId": "ChIJxxxxxxxxxx from vete config — needs real Place ID for Herrera 875",
-    "domain": "Path-only on paragu-ai.com/fun4me for now. Custom domain (fun4me.com.py) deferred.",
+    "location.googleMapsId": "null — needs real Place ID for Herrera 875. See docs/runbooks/google-maps-place-id.md",
+    "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py deferred.",
     "brandPartners": "Satisfyer/LELO/We-Vibe logos use placeholder SVGs — replace with real logos",
-    "team": "about.team empty — decide whether to publish team or keep anonymous"
+    "team": "about.team empty — decide whether to publish team or keep anonymous",
+    "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials required. See docs/runbooks/pagopar-setup.md",
+    "fiscalInfo": "RUC and Timbrado to be collected via owner onboarding questionnaire Parte E"
+  },
+  "fiscalInfo": {
+    "legalName": null,
+    "ruc": null,
+    "timbrado": null,
+    "taxRegime": null,
+    "invoicingActive": false
+  },
+  "legal": {
+    "ageMinimum": 18,
+    "complianceReviewedAt": "2026-05-01",
+    "documents": {
+      "terms": "/fun4me/legal/terms",
+      "privacy": "/fun4me/legal/privacy",
+      "returns": "/fun4me/legal/returns",
+      "ageCompliance": "/fun4me/legal/age-compliance"
+    }
   },
   "migratedFrom": "vete/web/.content_data/fun4me/",
   "migratedAt": "2026-04-21",
+  "fullRolloutStartedAt": "2026-04-21",
   "is_demo": false
 }
