@@ -105,9 +105,9 @@ export function BlogPostSection({
                   </div>
                   <div className="p-5">
                     {p.category && (
-                      <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+                      <span className="mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
                         {p.category}
-                      </p>
+                      </span>
                     )}
                     <Heading
                       level={3}

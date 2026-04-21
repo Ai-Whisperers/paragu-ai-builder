@@ -15,7 +15,7 @@
     },
     {
       "id": "newsletter-signup",
-      "variant": "default",
+      "variant": "standard",
       "content": "resourcesPage.newsletter"
     },
     {
