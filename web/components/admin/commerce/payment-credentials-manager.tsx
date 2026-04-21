@@ -48,6 +48,24 @@ const TEMPLATES: ProviderTemplate[] = [
     ],
     publicConfigKeys: [{ key: 'country', label: 'País (ISO-2)', default: 'PY' }],
   },
+  {
+    // Offline bank transfer: no API secrets, just the bank details we show
+    // the shopper on the transfer-instructions page + the WhatsApp number
+    // where they send the comprobante. All fields are public (displayed to
+    // the shopper), so they live in publicConfig instead of encrypted secrets.
+    provider: 'manual',
+    label: 'Transferencia bancaria + WhatsApp',
+    fields: [],
+    publicConfigKeys: [
+      { key: 'bankName', label: 'Banco' },
+      { key: 'accountType', label: 'Tipo de cuenta (ej: Cta. corriente, Cta. ahorro)' },
+      { key: 'accountNumber', label: 'Número de cuenta' },
+      { key: 'holderName', label: 'Titular' },
+      { key: 'ciOrRuc', label: 'CI / RUC del titular' },
+      { key: 'whatsappNumber', label: 'WhatsApp (con código país, ej: +595981...)' },
+      { key: 'instructions', label: 'Instrucciones extra (opcional)' },
+    ],
+  },
 ]
 
 export function PaymentCredentialsManager({ businessId, initialCredentials }: Props) {
@@ -182,15 +200,17 @@ function CredentialFormModal({
       const v = String(form.get(f.key) ?? '').trim()
       if (v) secrets[f.key] = v
     }
-    if (Object.keys(secrets).length === 0) {
-      setError('Completá al menos un campo')
-      setSubmitting(false)
-      return
-    }
     const publicConfig: Record<string, string> = {}
     for (const f of template.publicConfigKeys ?? []) {
       const v = String(form.get(`pc_${f.key}`) ?? '').trim()
       if (v) publicConfig[f.key] = v
+    }
+    // Require at least one field across secrets + publicConfig — the manual
+    // provider has no secrets but at least the bank fields must be filled.
+    if (Object.keys(secrets).length === 0 && Object.keys(publicConfig).length === 0) {
+      setError('Completá al menos un campo')
+      setSubmitting(false)
+      return
     }
     try {
       await onSave(template, secrets, publicConfig)

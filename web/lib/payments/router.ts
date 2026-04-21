@@ -41,6 +41,10 @@ export function rankProviders(ctx: RouteContext): PaymentProvider[] {
   const upperCurrency = ctx.currency.toUpperCase()
 
   const eligible = CAPABILITIES.filter((cap) => {
+    // A provider that requires explicit availability (e.g., `manual`)
+    // is only eligible when the merchant has installed credentials for
+    // it — prevents it from matching universally.
+    if (cap.requiresExplicitAvailable && !ctx.available?.includes(cap.provider)) return false
     if (ctx.available && !ctx.available.includes(cap.provider)) return false
     const countryOk = cap.countries.length === 0 || cap.countries.includes(upperCountry)
     const currencyOk = cap.currencies.length === 0 || cap.currencies.includes(upperCurrency)
