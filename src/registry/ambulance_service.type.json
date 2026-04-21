@@ -1,0 +1,24 @@
+{
+  "id": "ambulance_service",
+  "nameEs": "Servicio de Ambulancia",
+  "nameEn": "Ambulance Service",
+  "verticalId": "health-wellness",
+  "subVertical": "emergency",
+  "extends": "health_wellness_base",
+  "tokens": "ambulance_service",
+  "seo": {
+    "schemaType": "EmergencyService",
+    "titleTemplate": "{{businessName}} - Servicio de Ambulancia 24hs en {{city}}",
+    "descriptionTemplate": "Servicio de ambulancia privada en {{city}}. Traslados, emergencias y atencion medica 24 horas. Cobertura en toda el area metropolitana.",
+    "keywords": [
+      "ambulancia {{city}}",
+      "servicio de ambulancia {{city}}",
+      "traslado sanitario {{city}}",
+      "emergencia medica {{neighborhood}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio de Ambulancia 24hs",
+    "subheadlineTemplate": "Atencion medica de emergencia y traslados sanitarios en {{city}}. Cobertura 24 horas."
+  }
+}

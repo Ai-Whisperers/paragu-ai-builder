@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Gimnasio Asuncion",
+  "tagline": "Entrena con los mejores profesionales en instalaciones de primera",
+  "placeholders": {
+    "businessName": "Demo Gimnasio Asuncion",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Gimnasio Asuncion",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Gimnasio Asuncion - Gimnasio en Asuncion | Membresias y Clases",
+      "description": "Gimnasio en Asuncion con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes."
+    },
+    "hero": {
+      "headline": "TRANSFORMA TU CUERPO EN Demo Gimnasio Asuncion",
+      "subheadline": "Entrena con los mejores profesionales en instalaciones de primera",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Gimnasio%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asuncion",
+      "formSource": "demo",
+      "demoRubro": "gimnasio"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Gimnasio Asuncion",
+    "copyright": "© {{year}} Demo Gimnasio Asuncion",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Gimnasio y me interesa un sitio para mi negocio"
+  }
+}
