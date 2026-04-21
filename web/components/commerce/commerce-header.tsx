@@ -28,6 +28,13 @@ export function CommerceHeader({ siteSlug, businessName, locale = 'es' }: Props)
               Tienda
             </Link>
             <Link
+              href={`/s/${locale}/${siteSlug}/favoritos`}
+              className="hidden text-xs text-[color:var(--text-muted,#6b7280)] hover:underline sm:inline"
+              aria-label="Mis favoritos"
+            >
+              ♡ Favoritos
+            </Link>
+            <Link
               href={`/s/${locale}/${siteSlug}/buscar-orden`}
               className="hidden text-xs text-[color:var(--text-muted,#6b7280)] hover:underline sm:inline"
             >
