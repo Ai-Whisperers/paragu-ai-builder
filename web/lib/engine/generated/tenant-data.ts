@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=146, content=137, blog=20, verticals=23. */
+/** Counts: sites=117, pages=147, content=137, blog=20, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9362,6 +9362,58 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "fun4me:legal": {
+    "descriptionKey": "legal.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "legal.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "legal.terms",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "legal.privacy",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "legal.returns",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "legal.ageCompliance",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "legal.cta",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "legal",
+    "titleKey": "legal.seo.title"
+  },
   "fun4me:loyalty": {
     "descriptionKey": "loyalty.seo.description",
     "sections": [
@@ -9396,7 +9448,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       }
     ],
-    "slug": "placer-plus",
+    "slug": "loyalty",
     "titleKey": "loyalty.seo.title"
   },
   "fun4me:placer-plus": {
@@ -9517,7 +9569,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       }
     ],
-    "slug": "guia-talles",
+    "slug": "size-guide",
     "titleKey": "sizeGuide.seo.title"
   },
   "fun4me:store": {
@@ -17424,10 +17476,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "footer": {
-      "legal": "Solo mayores de 18 anos.",
+      "legalHref": "/fun4me/legal",
+      "legalText": "Solo mayores de 18 anos.",
       "privacy": "Politica de Privacidad",
+      "privacyHref": "/fun4me/legal",
       "rights": "Todos los derechos reservados.",
-      "terms": "Terminos y Condiciones"
+      "terms": "Terminos y Condiciones",
+      "termsHref": "/fun4me/legal"
     },
     "giftCards": {
       "cta": {
@@ -17816,6 +17871,144 @@ export const CONTENT: Record<string, JsonRecord> = {
           "text": "Empaque Discreto"
         }
       ]
+    },
+    "legal": {
+      "ageCompliance": {
+        "items": [
+          {
+            "a": "Paraguay establece mayoria de edad para contratar a los 18 años (Codigo Civil). Ley 1680/01 prohibe contenido sexualmente explicito dirigido a menores. Aplicamos ademas estandares internacionales 18+ universal.",
+            "q": "Por que verificamos edad"
+          },
+          {
+            "a": "Primer contacto: modal obligatorio 'Soy mayor de 18' o 'Salir'. Registramos confirmacion por cookie 30 dias. Si borras cookies, aparece nuevamente.",
+            "q": "Modal al ingresar"
+          },
+          {
+            "a": "Solicitamos fecha de nacimiento. Si la edad calculada < 18 la cuenta se rechaza automaticamente. Queda registrado para auditoria y regalo de cumpleaños.",
+            "q": "Al crear cuenta"
+          },
+          {
+            "a": "Confirmacion adicional de mayoria de edad. Para pedidos > Gs. 500.000 puede solicitarse documento. La entrega requiere firma de persona mayor de edad con documento.",
+            "q": "Al comprar"
+          },
+          {
+            "a": "Paginas de producto con imagenes NO explicitas (producto sobre fondo neutro, sin modelo humano en uso). Blog y paginas educativas: contenido informativo, sin imagenes explicitas.",
+            "q": "Contenido del sitio"
+          },
+          {
+            "a": "Cuenta cerrada inmediatamente, datos eliminados, pedidos cancelados con reembolso, notificacion a padre/madre si email familiar detectable. Denuncias: compliance@fun4me.com.py",
+            "q": "Si detectamos un menor"
+          }
+        ],
+        "subtitle": "Por que preguntamos tu edad y como la verificamos.",
+        "title": "Verificacion de Edad (18+)"
+      },
+      "cta": {
+        "buttonHref": "mailto:legal@fun4me.com.py",
+        "buttonText": "Escribir a legal@fun4me.com.py",
+        "subtitle": "Contactanos directamente. Respondemos en menos de 48hs habiles.",
+        "title": "Alguna duda legal?"
+      },
+      "hero": {
+        "ctaPrimaryHref": "mailto:legal@fun4me.com.py",
+        "ctaPrimaryText": "Contactar legal@fun4me.com.py",
+        "headline": "Politicas y Legal",
+        "subheadline": "Todo lo que necesitas saber sobre tus derechos al comprar en Fun4Me."
+      },
+      "privacy": {
+        "items": [
+          {
+            "a": "Datos voluntarios: nombre, email, telefono, direccion de envio, fecha de nacimiento (verificacion de edad), preferencias. Datos tecnicos automaticos: IP truncada a 30 dias, navegador, paginas visitadas. NO recolectamos GPS, contactos del telefono, ni info financiera completa.",
+            "q": "Que datos recolectamos"
+          },
+          {
+            "a": "Procesar tu pedido, facturacion electronica, notificaciones del pedido, atencion al cliente, recomendaciones (opcional), prevencion de fraude, cumplimiento legal. Nunca para publicidad externa ni venta a terceros.",
+            "q": "Para que usamos tus datos"
+          },
+          {
+            "a": "Solo con Pagopar (procesa pagos), transportistas (nombre/direccion/telefono), Google Analytics con IP anonimizada, SendGrid (emails). NUNCA con Facebook Pixel, Google Ads conversion, redes sociales, brokers de datos, otros anunciantes.",
+            "q": "Con quien compartimos"
+          },
+          {
+            "a": "Acceso a tus datos, rectificacion, borrado (derecho al olvido), oposicion al marketing, portabilidad en formato legible, limitacion del uso. Respondemos en max 15 dias habiles. Email: privacidad@fun4me.com.py",
+            "q": "Tus derechos (Ley 6534/20)"
+          },
+          {
+            "a": "Datos de cuenta activa: mientras la mantengas. Pedidos: 5 años (obligacion fiscal). Navegacion: 30 dias en bruto, luego agregados anonimos. Logs de seguridad: 90 dias. Marketing: hasta que te des de baja.",
+            "q": "Cuanto tiempo guardamos datos"
+          },
+          {
+            "a": "HTTPS en todo el sitio (TLS 1.3+), contraseñas hasheadas, acceso interno con 2FA, auditorias periodicas, backups cifrados. Si hay brecha de seguridad te avisamos en 72hs con que datos se vieron afectados y que medidas tomamos.",
+            "q": "Seguridad"
+          }
+        ],
+        "subtitle": "Nunca vendemos tus datos. Envio discreto siempre.",
+        "title": "Politica de Privacidad"
+      },
+      "returns": {
+        "items": [
+          {
+            "a": "Contactanos en 24-48hs desde que recibis con foto/video. Reemplazo gratuito o reembolso completo segun stock. Retiramos el producto defectuoso sin costo.",
+            "q": "Producto defectuoso de fabrica"
+          },
+          {
+            "a": "Satisfyer: 15 años lineas premium, 2 años entry. LELO: 1 año. We-Vibe: 2 años. Otras marcas: segun empaque. Tiempo tipico de resolucion 30-60 dias.",
+            "q": "Garantia de fabricante"
+          },
+          {
+            "a": "SI se puede en 7 dias si: no fue usada, etiquetas intactas, empaque original. Contactanos por WhatsApp, coordinamos retiro, te mandamos nuevo talle o reembolso. NO aplica a bombachas, tangas, medias (por higiene).",
+            "q": "Cambio de lenceria por talle"
+          },
+          {
+            "a": "Por higiene sanitaria: juguetes sexuales abiertos/usados, lubricantes abiertos, preservativos, bombachas/tangas/medias, mordazas, enemas, gift cards.",
+            "q": "Que NO admite devolucion"
+          },
+          {
+            "a": "Tarjeta: 7-10 dias habiles. Transferencia: 3-5 dias. Tigo Money/Personal Pay: 1-2 dias. Efectivo contra entrega: devolucion por transferencia (requerimos CBU). Sin comision por reembolso.",
+            "q": "Reembolsos"
+          },
+          {
+            "a": "Si no estas en 3 intentos: paquete vuelve, cargo administrativo Gs. 25.000. Podes pedir re-envio (pagando nuevo envio) o reembolso descontando el cargo administrativo.",
+            "q": "Envios fallidos"
+          }
+        ],
+        "subtitle": "Que SI se puede cambiar y que no.",
+        "title": "Politica de Cambios y Devoluciones"
+      },
+      "seo": {
+        "description": "Politicas legales de Fun4Me. Terminos y condiciones, privacidad, devoluciones, verificacion de edad segun ley paraguaya.",
+        "title": "Legal Fun4Me | Terminos, Privacidad, Devoluciones, Edad"
+      },
+      "terms": {
+        "items": [
+          {
+            "a": "Al usar paragu-ai.com/fun4me aceptas estos Terminos y nuestra Politica de Privacidad. Si no estas de acuerdo, no uses el sitio.",
+            "q": "Aceptacion de los terminos"
+          },
+          {
+            "a": "Este sitio es EXCLUSIVAMENTE para mayores de 18 anos. Al usarlo, declaras tener 18+ cumplidos y capacidad legal para contratar segun legislacion paraguaya. Proveer informacion falsa sobre edad cancela pedidos sin reembolso.",
+            "q": "Edad minima"
+          },
+          {
+            "a": "Precios en guaranies (PYG) con IVA incluido. Aceptamos tarjetas Visa/Mastercard via Pagopar, transferencia bancaria, Tigo Money, Personal Pay, y efectivo contra entrega solo en Asuncion. La descripcion en el estado de cuenta sera 'PAGOPAR - F4M COMERCIAL' o similar.",
+            "q": "Precios y pagos"
+          },
+          {
+            "a": "Asuncion y Gran Asuncion 24-72hs habiles. Interior 3-5 dias habiles. Express mismo dia con cargo adicional. Envio gratis en compras > Gs. 200.000. Empaque 100% discreto sin logos. La entrega requiere persona mayor de edad presente con documento.",
+            "q": "Envios"
+          },
+          {
+            "a": "Fun4Me no se responsabiliza por uso indebido de productos (especialmente BDSM), reacciones alergicas no informadas, o daños derivados de no seguir instrucciones de uso. Nuestra responsabilidad maxima se limita al monto pagado por el producto.",
+            "q": "Limitacion de responsabilidad"
+          },
+          {
+            "a": "Estos terminos se rigen por la legislacion de Paraguay. Jurisdiccion: tribunales ordinarios de Asuncion.",
+            "q": "Ley aplicable"
+          }
+        ],
+        "subtitle": "Ultima actualizacion: 2026-05-01",
+        "title": "Terminos y Condiciones"
+      }
     },
     "loyalty": {
       "cta": {
