@@ -70,6 +70,31 @@ export default function PreciosPage() {
           </Container>
         </section>
 
+        {/* Premium grace explainer */}
+        <section className="pb-8">
+          <Container size="md">
+            <div className="mx-auto max-w-3xl rounded-3xl border-2 border-[var(--primary)]/30 bg-gradient-to-br from-[var(--primary)]/5 to-[var(--accent)]/5 p-6 md:p-8">
+              <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-[var(--primary)]/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-[var(--primary)]">
+                Cómo funciona el período Profesional incluido
+              </div>
+              <p className="text-base text-[var(--text)] md:text-lg">
+                Todos los planes (incluido el gratuito) <strong>arrancan con la experiencia
+                Profesional completa</strong>. Es nuestra forma de que conozcas todo lo que ofrecemos
+                antes de decidir qué necesitás a largo plazo.
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-[var(--text-light)]">
+                <li>· <strong className="text-[var(--text)]">Prueba</strong>: 3 meses Profesional · después seguís online con marca ParaguAI</li>
+                <li>· <strong className="text-[var(--text)]">Presencia</strong>: 7 meses Profesional · después tu plan Presencia</li>
+                <li>· <strong className="text-[var(--text)]">Crecimiento</strong>: 8 meses Profesional · después tu plan Crecimiento</li>
+                <li>· <strong className="text-[var(--text)]">Profesional</strong>: siempre completo, sin downgrades</li>
+              </ul>
+              <p className="mt-4 text-xs text-[var(--text-muted)]">
+                Durante el período Profesional tenés WhatsApp dedicado y check-in mensual con nosotros para entender qué features usás más y necesitás conservar.
+              </p>
+            </div>
+          </Container>
+        </section>
+
         {/* Plans grid */}
         <section className="py-12">
           <Container>
