@@ -931,6 +931,10 @@
       {
         "label": "Jurisdicciones",
         "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Glosario",
+        "href": "/s/es/nexa-paraguay/glosario"
       }
     ]
   },
@@ -1659,6 +1663,107 @@
     "cta": {
       "title": "¿Todavía dudando?",
       "subtitle": "Le conectamos con clientes nuestros que evaluaron las 3 y pueden contar cómo decidieron.",
+      "buttonText": "Agendar consulta gratuita",
+      "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "glossaryPage": {
+    "seo": {
+      "title": "Glosario — Nexa Paraguay",
+      "description": "Términos clave de residencia, fiscalidad y banca paraguaya explicados en lenguaje claro para europeos."
+    },
+    "hero": {
+      "headline": "Glosario",
+      "subheadline": "Términos legales, fiscales y bancarios que aparecen en el proceso, explicados en lenguaje claro."
+    },
+    "glossary": {
+      "title": "Términos clave",
+      "items": [
+        {
+          "q": "RUC (Registro Único del Contribuyente)",
+          "a": "Número fiscal paraguayo equivalente al NIF español, BSN holandés o Steuernummer alemán. Se obtiene tras la constitución de sociedad y es obligatorio para facturar desde Paraguay."
+        },
+        {
+          "q": "Cédula de identidad paraguaya",
+          "a": "Documento de identidad para residentes permanentes en Paraguay. Equivale al DNI español. Necesario para abrir cuenta bancaria, firmar contratos y operar como residente."
+        },
+        {
+          "q": "SEPRELAD (Secretaría de Prevención de Lavado de Dinero o Bienes)",
+          "a": "Autoridad paraguaya de prevención de lavado. Servicios regulados (consultoría legal, relocación, inmobiliaria) deben registrarse. Similar al FIU alemán o la FIU-NL."
+        },
+        {
+          "q": "Sistema territorial",
+          "a": "Paraguay grava solo ingresos de fuente paraguaya. Ingresos generados fuera del país (rentas, dividendos, servicios prestados en el exterior) no tributan en Paraguay. Es el beneficio fiscal central."
+        },
+        {
+          "q": "Apostilla (Convenio de La Haya)",
+          "a": "Sello internacional que certifica la autenticidad de un documento extranjero. Todos los documentos europeos (nacimiento, antecedentes penales, matrimonio) necesitan apostilla antes de presentarse en Paraguay."
+        },
+        {
+          "q": "IRP (Impuesto a la Renta Personal)",
+          "a": "Impuesto paraguayo sobre rentas personales, tasa general 10%. Aplica sobre ingresos de fuente paraguaya superiores a un umbral anual."
+        },
+        {
+          "q": "IRE (Impuesto a la Renta Empresarial)",
+          "a": "Impuesto corporativo paraguayo, tasa general 10%. Se aplica sobre utilidades de actividades empresariales de fuente paraguaya."
+        },
+        {
+          "q": "IVA (Impuesto al Valor Agregado)",
+          "a": "Impuesto al consumo paraguayo, tasa general 10% (5% para productos esenciales). Significativamente menor que el IVA europeo (19-22%)."
+        },
+        {
+          "q": "SA (Sociedad Anónima)",
+          "a": "Tipo societario paraguayo equivalente a la SA española, AG alemana, NV holandesa. Capital mínimo accesible, responsabilidad limitada al aporte, recomendada para estructuras con inversores externos."
+        },
+        {
+          "q": "SRL (Sociedad de Responsabilidad Limitada)",
+          "a": "Sociedad paraguaya equivalente a la SRL europea. Menor capital mínimo que la SA, gestión más simple. Recomendada para empresarios individuales o familiares."
+        },
+        {
+          "q": "EAS (Empresa por Acciones Simplificada)",
+          "a": "Tipo societario nuevo en Paraguay (ley 6480/2020). Formación rápida 100% digital, capital mínimo Gs 1, un solo accionista admitido. Equivale a la SLU española o UG alemana."
+        },
+        {
+          "q": "Residencia permanente",
+          "a": "Estatus migratorio indefinido en Paraguay. Permite vivir, trabajar e invertir libremente. Concedido tras la aprobación del expediente por Migraciones (8-12 semanas con documentación en orden)."
+        },
+        {
+          "q": "Residencia fiscal",
+          "a": "Concepto fiscal distinto a la residencia migratoria. Para ser residente fiscal paraguayo se requiere permanencia de 120+ días anuales o el centro de intereses económicos en Paraguay. Consultar con asesor para caso específico."
+        },
+        {
+          "q": "Tratado para evitar doble imposición (TDT/DTT)",
+          "a": "Acuerdo bilateral que evita que un ingreso tribute dos veces. Paraguay tiene red limitada de TDT; consultar con asesor fiscal europeo para su caso (especialmente España, Alemania, Holanda)."
+        },
+        {
+          "q": "MERCOSUR",
+          "a": "Bloque económico del Cono Sur (Argentina, Brasil, Paraguay, Uruguay). Residentes paraguayos pueden viajar libremente en MERCOSUR hasta 90 días sin visa adicional. Beneficio práctico importante."
+        },
+        {
+          "q": "Zona Franca",
+          "a": "Régimen especial de Paraguay que permite actividades de exportación con beneficios fiscales (IRE reducido al 0,5%, IVA exento). Requiere operaciones reales en zona franca — no es un vehículo fiscal puro."
+        },
+        {
+          "q": "Escrituración",
+          "a": "Firma del documento notarial que transfiere la propiedad de un inmueble. En Paraguay la realiza un escribano público. Es el acto equivalente a la escritura notarial española o la notarielle Urkunde alemana."
+        },
+        {
+          "q": "Inscripción registral",
+          "a": "Registro del título de propiedad en el Registro Público (propiedades) o Registro de Comercio (sociedades). Hace oponible el derecho frente a terceros. Paso final después de la escrituración."
+        },
+        {
+          "q": "Due diligence / auditoría legal",
+          "a": "Revisión previa a una operación (compra de inmueble, adquisición de empresa) para verificar título, cargas, deudas y cumplimiento normativo. Protege al comprador de sorpresas posteriores."
+        },
+        {
+          "q": "Guaraní (Gs)",
+          "a": "Moneda oficial de Paraguay. Tipo de cambio referencial aprox. 7.300 Gs/USD y 8.000 Gs/EUR (abril 2026, varía diariamente). La mayoría de contratos importantes se pactan en USD."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Término no listado?",
+      "subtitle": "Escríbanos y lo agregamos al glosario con una explicación en su idioma.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
     }

@@ -897,6 +897,10 @@
       {
         "label": "Jurisdicties",
         "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Woordenlijst",
+        "href": "/s/nl/nexa-paraguay/glosario"
       }
     ]
   },
@@ -1625,6 +1629,107 @@
     "cta": {
       "title": "Nog twijfels?",
       "subtitle": "We verbinden u met onze klanten die alle 3 evalueerden.",
+      "buttonText": "Plan gratis consult",
+      "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "glossaryPage": {
+    "seo": {
+      "title": "Woordenlijst — Nexa Paraguay",
+      "description": "Belangrijkste Paraguayaanse verblijfs-, fiscale en bancaire termen in gewone taal voor Europeanen."
+    },
+    "hero": {
+      "headline": "Woordenlijst",
+      "subheadline": "Juridische, fiscale en bancaire termen uit het proces, helder uitgelegd."
+    },
+    "glossary": {
+      "title": "Kerntermen",
+      "items": [
+        {
+          "q": "RUC (Paraguayaans fiscaal nummer)",
+          "a": "Paraguayaans belastingnummer equivalent aan het Nederlandse BSN of Duitse Steuernummer. Wordt verkregen na vennootschapsoprichting en is vereist om vanuit Paraguay te factureren."
+        },
+        {
+          "q": "Paraguayaanse cédula (ID-kaart)",
+          "a": "Identiteitsdocument voor permanente inwoners. Nodig om een bankrekening te openen, contracten te tekenen en als inwoner te opereren."
+        },
+        {
+          "q": "SEPRELAD (Anti-witwasautoriteit)",
+          "a": "Paraguayaanse AML/CFT-autoriteit. Gereguleerde diensten (juridisch advies, verhuizing, onroerend goed) moeten zich registreren. Vergelijkbaar met FIU-NL."
+        },
+        {
+          "q": "Territoriaal belastingsysteem",
+          "a": "Paraguay belast alleen inkomen uit Paraguay. Inkomen verdiend buiten Paraguay (huur, dividend, diensten in het buitenland) wordt niet in Paraguay belast. Centraal fiscaal voordeel."
+        },
+        {
+          "q": "Apostille (Verdrag van Den Haag)",
+          "a": "Internationaal stempel dat de authenticiteit van een buitenlands document certificeert. Alle Europese documenten (geboorte, strafrechtelijke gegevens, huwelijk) hebben een apostille nodig vóór presentatie in Paraguay."
+        },
+        {
+          "q": "IRP (Personenbelasting)",
+          "a": "Paraguayaanse inkomstenbelasting, basistarief 10%. Geldt voor Paraguay-inkomen boven een jaarlijkse drempel."
+        },
+        {
+          "q": "IRE (Vennootschapsbelasting)",
+          "a": "Paraguayaanse vennootschapsbelasting, basistarief 10%. Toegepast op winst uit Paraguay-bedrijfsactiviteiten."
+        },
+        {
+          "q": "BTW (IVA)",
+          "a": "Paraguayaanse verbruiksbelasting, basistarief 10% (5% op essentiële goederen). Aanzienlijk lager dan Europese BTW (19-22%)."
+        },
+        {
+          "q": "SA (Sociedad Anónima)",
+          "a": "Paraguayaans equivalent van de Nederlandse NV. Toegankelijk minimumkapitaal, aansprakelijkheid beperkt tot inbreng, aanbevolen voor structuren met externe investeerders."
+        },
+        {
+          "q": "SRL (Besloten vennootschap)",
+          "a": "Paraguayaans equivalent van de Nederlandse BV. Lager minimumkapitaal dan SA, eenvoudiger bestuur. Aanbevolen voor individuele of familiebedrijven."
+        },
+        {
+          "q": "EAS (Vereenvoudigde Naamloze Vennootschap)",
+          "a": "Nieuw Paraguayaans vehikel (Wet 6480/2020). Volledig digitale snelle oprichting, minimumkapitaal Gs 1, enkele aandeelhouder toegestaan."
+        },
+        {
+          "q": "Permanente verblijfsvergunning",
+          "a": "Onbepaalde migratiestatus in Paraguay. Toegestaan om vrijelijk te wonen, werken en investeren. Verleend na dossiergoedkeuring door Migraciones (8-12 weken met schone documenten)."
+        },
+        {
+          "q": "Fiscaal verblijf",
+          "a": "Fiscaal concept onderscheiden van migratieverblijf. Om Paraguayaanse fiscaal inwoner te zijn, is 120+ dagen per jaar aanwezigheid of het centrum van economische belangen in Paraguay vereist. Raadpleeg een adviseur voor uw specifieke geval."
+        },
+        {
+          "q": "Verdrag ter vermijding van dubbele belasting (DTT)",
+          "a": "Bilaterale overeenkomst die voorkomt dat inkomen tweemaal wordt belast. Paraguay heeft een beperkt DTT-netwerk; raadpleeg uw Europese belastingadviseur (vooral voor Nederland, Duitsland, Spanje)."
+        },
+        {
+          "q": "MERCOSUR",
+          "a": "Zuid-Amerikaans economisch blok (Argentinië, Brazilië, Paraguay, Uruguay). Paraguayaanse inwoners kunnen visumvrij door MERCOSUR reizen tot 90 dagen. Praktisch voordeel."
+        },
+        {
+          "q": "Vrijhandelszone (Zona Franca)",
+          "a": "Paraguayaans regime voor exportactiviteiten met fiscale voordelen (verlaagde IRE 0,5%, BTW-vrij). Vereist echte operaties in de zone."
+        },
+        {
+          "q": "Escrituración (notariële akte)",
+          "a": "Notariële akte die eigendom van onroerend goed overdraagt. Uitgevoerd door een Paraguayaanse notaris. Equivalent aan de Nederlandse notariële akte."
+        },
+        {
+          "q": "Registerinschrijving",
+          "a": "Registratie van eigendomstitel in het Openbaar Register (eigendommen) of Handelsregister (bedrijven). Maakt het recht afdwingbaar tegen derden."
+        },
+        {
+          "q": "Due diligence / juridische audit",
+          "a": "Pre-transactie-beoordeling (vastgoedkoop, bedrijfsovername) die titel, lasten, schulden en compliance verifieert. Beschermt de koper tegen post-deal verrassingen."
+        },
+        {
+          "q": "Guaraní (Gs)",
+          "a": "Officiële munt van Paraguay. Referentiewisselkoers ca. 7.300 Gs/USD en 8.000 Gs/EUR (april 2026, dagelijks variërend). De meeste belangrijke contracten worden in USD geprijsd."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Term niet vermeld?",
+      "subtitle": "Schrijf ons en we voegen hem toe.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     }

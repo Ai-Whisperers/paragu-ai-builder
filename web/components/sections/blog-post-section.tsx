@@ -1,3 +1,4 @@
+import { BlogSocialShare } from './blog-social-share'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -21,6 +22,8 @@ export interface BlogPostSectionProps {
     href: string
   }>
   relatedLabel?: string
+  shareUrl?: string
+  locale?: string
 }
 
 export function BlogPostSection({
@@ -34,6 +37,8 @@ export function BlogPostSection({
   backHref,
   relatedPosts,
   relatedLabel = 'Related posts',
+  shareUrl,
+  locale = 'es',
 }: BlogPostSectionProps) {
   return (
     <article className="bg-[var(--background)] py-16 sm:py-24">
@@ -69,6 +74,8 @@ export function BlogPostSection({
           }}
           dangerouslySetInnerHTML={{ __html: html }}
         />
+
+        {shareUrl && <BlogSocialShare url={shareUrl} title={title} locale={locale} />}
 
         {relatedPosts && relatedPosts.length > 0 && (
           <section className="mt-16 border-t border-[var(--border)] pt-12">

@@ -123,6 +123,8 @@ export default async function BlogPostPage({ params }: Props) {
           backHref={`/s/${locale}/${siteSlug}/blog`}
           relatedPosts={relatedPosts}
           relatedLabel={relatedLabel}
+          shareUrl={postUrl}
+          locale={locale}
         />
       </div>
     </>

@@ -1,4 +1,5 @@
 import { ExitIntentMount } from './exit-intent-mount'
+import { LiveChatLoader } from '@/components/analytics/live-chat-loader'
 
 interface Props {
   children: React.ReactNode
@@ -11,6 +12,7 @@ export default async function TenantLayout({ children, params }: Props) {
     <>
       {children}
       <ExitIntentMount locale={locale} site={site} />
+      <LiveChatLoader websiteId={process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID} />
     </>
   )
 }

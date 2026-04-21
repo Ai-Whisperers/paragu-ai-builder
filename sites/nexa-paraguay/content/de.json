@@ -900,6 +900,10 @@
       {
         "label": "Jurisdiktionen",
         "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Glossar",
+        "href": "/s/de/nexa-paraguay/glosario"
       }
     ]
   },
@@ -1628,6 +1632,107 @@
     "cta": {
       "title": "Noch unentschlossen?",
       "subtitle": "Wir verbinden Sie mit unseren Kunden, die alle 3 bewertet haben.",
+      "buttonText": "Kostenlose Beratung buchen",
+      "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
+  },
+  "glossaryPage": {
+    "seo": {
+      "title": "Glossar — Nexa Paraguay",
+      "description": "Wichtigste paraguayische Aufenthalts-, Steuer- und Bankbegriffe in einfacher Sprache für Europäer erklärt."
+    },
+    "hero": {
+      "headline": "Glossar",
+      "subheadline": "Rechts-, Steuer- und Bankbegriffe aus dem Prozess, in klarer Sprache erklärt."
+    },
+    "glossary": {
+      "title": "Schlüsselbegriffe",
+      "items": [
+        {
+          "q": "RUC (paraguayische Steuernummer)",
+          "a": "Paraguayische Steuernummer entsprechend der deutschen Steuernummer oder dem niederländischen BSN. Wird nach Gesellschaftsgründung erlangt; erforderlich für Rechnungen aus Paraguay."
+        },
+        {
+          "q": "Paraguayische cédula (Personalausweis)",
+          "a": "Ausweisdokument für dauerhafte Einwohner. Erforderlich für Bankkontoeröffnung, Vertragsunterzeichnung und operative Tätigkeit als Einwohner."
+        },
+        {
+          "q": "SEPRELAD (Geldwäsche-Aufsichtsbehörde)",
+          "a": "Paraguays AML/CFT-Behörde. Regulierte Dienstleistungen (Rechtsberatung, Relocation, Immobilien) müssen sich registrieren. Vergleichbar mit der deutschen FIU."
+        },
+        {
+          "q": "Territoriales Steuersystem",
+          "a": "Paraguay besteuert nur Einkommen paraguayischer Quelle. Im Ausland erzieltes Einkommen (Mieten, Dividenden, im Ausland erbrachte Dienstleistungen) wird in Paraguay nicht besteuert. Zentraler Steuervorteil."
+        },
+        {
+          "q": "Apostille (Haager Übereinkommen)",
+          "a": "Internationales Siegel zur Bestätigung der Echtheit eines ausländischen Dokuments. Alle europäischen Dokumente (Geburt, Führungszeugnis, Ehe) benötigen eine Apostille vor Vorlage in Paraguay."
+        },
+        {
+          "q": "IRP (Einkommensteuer natürlicher Personen)",
+          "a": "Paraguayische Einkommensteuer, Basissatz 10%. Gilt für paraguayisches Einkommen über einem jährlichen Schwellenwert."
+        },
+        {
+          "q": "IRE (Körperschaftsteuer)",
+          "a": "Paraguayische Unternehmenssteuer, Basissatz 10%. Angewendet auf Gewinne aus paraguayischen Geschäftstätigkeiten."
+        },
+        {
+          "q": "MwSt (IVA)",
+          "a": "Paraguayische Verbrauchsteuer, Basissatz 10% (5% auf Grundbedarf). Deutlich niedriger als europäische MwSt (19-22%)."
+        },
+        {
+          "q": "SA (Sociedad Anónima)",
+          "a": "Paraguayisches Äquivalent zur deutschen AG. Zugängliches Mindestkapital, Haftung auf Einlage beschränkt, empfohlen für Strukturen mit externen Investoren."
+        },
+        {
+          "q": "SRL (Gesellschaft mit beschränkter Haftung)",
+          "a": "Paraguayisches Äquivalent zur deutschen GmbH. Niedrigeres Mindestkapital als SA, einfachere Verwaltung. Empfohlen für Einzel- oder Familienunternehmen."
+        },
+        {
+          "q": "EAS (Vereinfachte Aktiengesellschaft)",
+          "a": "Neues paraguayisches Vehikel (Gesetz 6480/2020). Vollständig digitale schnelle Gründung, Mindestkapital Gs 1, einzelner Aktionär erlaubt. Äquivalent zur deutschen UG."
+        },
+        {
+          "q": "Dauerhafter Aufenthalt",
+          "a": "Unbefristeter Migrationsstatus in Paraguay. Erlaubt freies Leben, Arbeiten und Investieren. Nach Aktenprüfung durch Migraciones gewährt (8-12 Wochen mit sauberen Dokumenten)."
+        },
+        {
+          "q": "Steuerlicher Aufenthalt",
+          "a": "Steuerliches Konzept unterschieden vom Migrationsaufenthalt. Paraguayischer Steuereinwohner zu werden erfordert 120+ Tage jährlich oder den Lebensmittelpunkt in Paraguay. Berater für Ihren konkreten Fall konsultieren."
+        },
+        {
+          "q": "Doppelbesteuerungsabkommen (DBA)",
+          "a": "Bilaterale Vereinbarung, die verhindert, dass Einkommen zweimal besteuert wird. Paraguay hat ein begrenztes DBA-Netz; konsultieren Sie Ihren europäischen Steuerberater (besonders für Deutschland, Niederlande, Spanien)."
+        },
+        {
+          "q": "MERCOSUR",
+          "a": "Südamerikanischer Wirtschaftsblock (Argentinien, Brasilien, Paraguay, Uruguay). Paraguayische Einwohner können visumfrei im MERCOSUR bis zu 90 Tage reisen. Praktischer Vorteil."
+        },
+        {
+          "q": "Freihandelszone (Zona Franca)",
+          "a": "Paraguayisches Regime für Exporttätigkeiten mit Steuervergünstigungen (reduzierte IRE 0,5%, MwSt-befreit). Erfordert echte Operationen in der Zone."
+        },
+        {
+          "q": "Escrituración (notarielle Beurkundung)",
+          "a": "Notarieller Akt, der Immobilieneigentum überträgt. Von einem paraguayischen Notar durchgeführt. Äquivalent zur deutschen notariellen Urkunde."
+        },
+        {
+          "q": "Registereintragung",
+          "a": "Eintragung des Eigentumstitels im Öffentlichen Register (Immobilien) oder Handelsregister (Gesellschaften). Macht das Recht gegenüber Dritten wirksam."
+        },
+        {
+          "q": "Due Diligence / rechtliche Prüfung",
+          "a": "Voruntersuchung einer Transaktion (Immobilienkauf, Unternehmensakquisition), die Titel, Lasten, Schulden und Compliance verifiziert. Schützt den Käufer vor nachträglichen Überraschungen."
+        },
+        {
+          "q": "Guaraní (Gs)",
+          "a": "Offizielle Währung Paraguays. Referenzwechselkurs ca. 7.300 Gs/USD und 8.000 Gs/EUR (April 2026, tägliche Schwankungen). Die meisten bedeutenden Verträge werden in USD ausgewiesen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Begriff nicht gelistet?",
+      "subtitle": "Schreiben Sie uns und wir fügen ihn hinzu.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }

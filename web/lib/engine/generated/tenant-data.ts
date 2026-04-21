@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=153, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=154, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -10142,6 +10142,44 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "fundador",
     "titleKey": "founderPage.seo.title"
+  },
+  "nexa-paraguay:glosario": {
+    "descriptionKey": "glossaryPage.seo.description",
+    "schemaType": "FAQPage",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "glossaryPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "glossaryPage.glossary",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "glossaryPage.cta",
+        "id": "cta-banner",
+        "variant": "solid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "glosario",
+    "titleKey": "glossaryPage.seo.title"
   },
   "nexa-paraguay:home": {
     "descriptionKey": "home.seo.description",
@@ -20783,6 +20821,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
           "label": "Jurisdiktionen"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/glosario",
+          "label": "Glossar"
         }
       ],
       "whatsapp": "595982515138"
@@ -20834,6 +20876,107 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Wer Nexa leitet"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "buttonHref": "/s/de/nexa-paraguay/contacto",
+        "buttonText": "Kostenlose Beratung buchen",
+        "subtitle": "Schreiben Sie uns und wir fügen ihn hinzu.",
+        "title": "Begriff nicht gelistet?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Paraguayische Steuernummer entsprechend der deutschen Steuernummer oder dem niederländischen BSN. Wird nach Gesellschaftsgründung erlangt; erforderlich für Rechnungen aus Paraguay.",
+            "q": "RUC (paraguayische Steuernummer)"
+          },
+          {
+            "a": "Ausweisdokument für dauerhafte Einwohner. Erforderlich für Bankkontoeröffnung, Vertragsunterzeichnung und operative Tätigkeit als Einwohner.",
+            "q": "Paraguayische cédula (Personalausweis)"
+          },
+          {
+            "a": "Paraguays AML/CFT-Behörde. Regulierte Dienstleistungen (Rechtsberatung, Relocation, Immobilien) müssen sich registrieren. Vergleichbar mit der deutschen FIU.",
+            "q": "SEPRELAD (Geldwäsche-Aufsichtsbehörde)"
+          },
+          {
+            "a": "Paraguay besteuert nur Einkommen paraguayischer Quelle. Im Ausland erzieltes Einkommen (Mieten, Dividenden, im Ausland erbrachte Dienstleistungen) wird in Paraguay nicht besteuert. Zentraler Steuervorteil.",
+            "q": "Territoriales Steuersystem"
+          },
+          {
+            "a": "Internationales Siegel zur Bestätigung der Echtheit eines ausländischen Dokuments. Alle europäischen Dokumente (Geburt, Führungszeugnis, Ehe) benötigen eine Apostille vor Vorlage in Paraguay.",
+            "q": "Apostille (Haager Übereinkommen)"
+          },
+          {
+            "a": "Paraguayische Einkommensteuer, Basissatz 10%. Gilt für paraguayisches Einkommen über einem jährlichen Schwellenwert.",
+            "q": "IRP (Einkommensteuer natürlicher Personen)"
+          },
+          {
+            "a": "Paraguayische Unternehmenssteuer, Basissatz 10%. Angewendet auf Gewinne aus paraguayischen Geschäftstätigkeiten.",
+            "q": "IRE (Körperschaftsteuer)"
+          },
+          {
+            "a": "Paraguayische Verbrauchsteuer, Basissatz 10% (5% auf Grundbedarf). Deutlich niedriger als europäische MwSt (19-22%).",
+            "q": "MwSt (IVA)"
+          },
+          {
+            "a": "Paraguayisches Äquivalent zur deutschen AG. Zugängliches Mindestkapital, Haftung auf Einlage beschränkt, empfohlen für Strukturen mit externen Investoren.",
+            "q": "SA (Sociedad Anónima)"
+          },
+          {
+            "a": "Paraguayisches Äquivalent zur deutschen GmbH. Niedrigeres Mindestkapital als SA, einfachere Verwaltung. Empfohlen für Einzel- oder Familienunternehmen.",
+            "q": "SRL (Gesellschaft mit beschränkter Haftung)"
+          },
+          {
+            "a": "Neues paraguayisches Vehikel (Gesetz 6480/2020). Vollständig digitale schnelle Gründung, Mindestkapital Gs 1, einzelner Aktionär erlaubt. Äquivalent zur deutschen UG.",
+            "q": "EAS (Vereinfachte Aktiengesellschaft)"
+          },
+          {
+            "a": "Unbefristeter Migrationsstatus in Paraguay. Erlaubt freies Leben, Arbeiten und Investieren. Nach Aktenprüfung durch Migraciones gewährt (8-12 Wochen mit sauberen Dokumenten).",
+            "q": "Dauerhafter Aufenthalt"
+          },
+          {
+            "a": "Steuerliches Konzept unterschieden vom Migrationsaufenthalt. Paraguayischer Steuereinwohner zu werden erfordert 120+ Tage jährlich oder den Lebensmittelpunkt in Paraguay. Berater für Ihren konkreten Fall konsultieren.",
+            "q": "Steuerlicher Aufenthalt"
+          },
+          {
+            "a": "Bilaterale Vereinbarung, die verhindert, dass Einkommen zweimal besteuert wird. Paraguay hat ein begrenztes DBA-Netz; konsultieren Sie Ihren europäischen Steuerberater (besonders für Deutschland, Niederlande, Spanien).",
+            "q": "Doppelbesteuerungsabkommen (DBA)"
+          },
+          {
+            "a": "Südamerikanischer Wirtschaftsblock (Argentinien, Brasilien, Paraguay, Uruguay). Paraguayische Einwohner können visumfrei im MERCOSUR bis zu 90 Tage reisen. Praktischer Vorteil.",
+            "q": "MERCOSUR"
+          },
+          {
+            "a": "Paraguayisches Regime für Exporttätigkeiten mit Steuervergünstigungen (reduzierte IRE 0,5%, MwSt-befreit). Erfordert echte Operationen in der Zone.",
+            "q": "Freihandelszone (Zona Franca)"
+          },
+          {
+            "a": "Notarieller Akt, der Immobilieneigentum überträgt. Von einem paraguayischen Notar durchgeführt. Äquivalent zur deutschen notariellen Urkunde.",
+            "q": "Escrituración (notarielle Beurkundung)"
+          },
+          {
+            "a": "Eintragung des Eigentumstitels im Öffentlichen Register (Immobilien) oder Handelsregister (Gesellschaften). Macht das Recht gegenüber Dritten wirksam.",
+            "q": "Registereintragung"
+          },
+          {
+            "a": "Voruntersuchung einer Transaktion (Immobilienkauf, Unternehmensakquisition), die Titel, Lasten, Schulden und Compliance verifiziert. Schützt den Käufer vor nachträglichen Überraschungen.",
+            "q": "Due Diligence / rechtliche Prüfung"
+          },
+          {
+            "a": "Offizielle Währung Paraguays. Referenzwechselkurs ca. 7.300 Gs/USD und 8.000 Gs/EUR (April 2026, tägliche Schwankungen). Die meisten bedeutenden Verträge werden in USD ausgewiesen.",
+            "q": "Guaraní (Gs)"
+          }
+        ],
+        "title": "Schlüsselbegriffe"
+      },
+      "hero": {
+        "headline": "Glossar",
+        "subheadline": "Rechts-, Steuer- und Bankbegriffe aus dem Prozess, in klarer Sprache erklärt."
+      },
+      "seo": {
+        "description": "Wichtigste paraguayische Aufenthalts-, Steuer- und Bankbegriffe in einfacher Sprache für Europäer erklärt.",
+        "title": "Glossar — Nexa Paraguay"
       }
     },
     "home": {
@@ -22415,6 +22558,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
           "label": "Jurisdictions"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/glosario",
+          "label": "Glossary"
         }
       ],
       "whatsapp": "595982515138"
@@ -22466,6 +22613,107 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Who runs Nexa"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "buttonHref": "/s/en/nexa-paraguay/contacto",
+        "buttonText": "Book free consultation",
+        "subtitle": "Write us and we'll add it to the glossary with a plain-language explanation in your language.",
+        "title": "Term not listed?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Paraguayan tax number equivalent to the Spanish NIF, Dutch BSN, or German Steuernummer. Obtained after company incorporation; required to invoice from Paraguay.",
+            "q": "RUC (Registro Único del Contribuyente)"
+          },
+          {
+            "a": "Identity document for permanent residents. Equivalent to Spain's DNI. Required to open a bank account, sign contracts, and operate as a resident.",
+            "q": "Paraguayan cédula (ID card)"
+          },
+          {
+            "a": "Paraguay's AML/CFT authority. Regulated services (legal consulting, relocation, real estate) must register. Similar to Germany's FIU or FIU-NL.",
+            "q": "SEPRELAD (Anti-Money-Laundering Authority)"
+          },
+          {
+            "a": "Paraguay taxes only Paraguay-sourced income. Income earned outside Paraguay (rents, dividends, services performed abroad) is not taxed in Paraguay. Central tax benefit.",
+            "q": "Territorial tax system"
+          },
+          {
+            "a": "International seal certifying the authenticity of a foreign document. All European docs (birth, criminal record, marriage) need an apostille before presenting in Paraguay.",
+            "q": "Apostille (Hague Convention)"
+          },
+          {
+            "a": "Paraguayan personal income tax, headline 10%. Applies to Paraguay-sourced income above an annual threshold.",
+            "q": "IRP (Personal Income Tax)"
+          },
+          {
+            "a": "Paraguayan corporate tax, headline 10%. Applied to profits of Paraguay-sourced business activities.",
+            "q": "IRE (Corporate Income Tax)"
+          },
+          {
+            "a": "Paraguayan consumption tax, headline 10% (5% on essentials). Significantly lower than European VAT (19-22%).",
+            "q": "VAT"
+          },
+          {
+            "a": "Paraguayan equivalent of Spain's SA, Germany's AG, the Netherlands' NV. Accessible minimum capital, liability limited to contribution, recommended for structures with external investors.",
+            "q": "SA (Sociedad Anónima)"
+          },
+          {
+            "a": "Paraguayan equivalent of the European SRL/BV/GmbH. Lower minimum capital than SA, simpler governance. Recommended for individual or family businesses.",
+            "q": "SRL (Sociedad de Responsabilidad Limitada)"
+          },
+          {
+            "a": "New Paraguayan vehicle (Law 6480/2020). Fully digital fast formation, minimum capital Gs 1, single shareholder allowed. Equivalent to Spain's SLU or Germany's UG.",
+            "q": "EAS (Simplified Joint-Stock Company)"
+          },
+          {
+            "a": "Indefinite migratory status in Paraguay. Allows residence, work, and investment freely. Granted after file approval by Migrations (8-12 weeks with clean docs).",
+            "q": "Permanent residency"
+          },
+          {
+            "a": "Fiscal concept distinct from migratory residency. Becoming a Paraguayan tax resident requires 120+ days per year or the center of economic interests in Paraguay. Consult an advisor for your specific case.",
+            "q": "Tax residency"
+          },
+          {
+            "a": "Bilateral agreement that prevents income from being taxed twice. Paraguay has a limited DTT network; consult your European tax advisor (especially for Spain, Germany, Netherlands).",
+            "q": "Double-taxation treaty (DTT)"
+          },
+          {
+            "a": "Southern Cone economic bloc (Argentina, Brazil, Paraguay, Uruguay). Paraguayan residents can travel visa-free across MERCOSUR for up to 90 days. Practical benefit.",
+            "q": "MERCOSUR"
+          },
+          {
+            "a": "Paraguayan regime for export activities with tax benefits (reduced IRE 0.5%, VAT exempt). Requires real operations in the zone — not a pure tax vehicle.",
+            "q": "Free Trade Zone (Zona Franca)"
+          },
+          {
+            "a": "Notarial act transferring ownership of real estate. Performed by a Paraguayan notary. Equivalent to Spain's escritura or Germany's notarielle Urkunde.",
+            "q": "Escrituración (public deed)"
+          },
+          {
+            "a": "Registration of title at the Public Registry (properties) or Commercial Registry (companies). Makes the right enforceable against third parties. Final step after escrituración.",
+            "q": "Registry inscription"
+          },
+          {
+            "a": "Pre-transaction review (property purchase, company acquisition) verifying title, encumbrances, debts, and compliance. Protects the buyer from post-deal surprises.",
+            "q": "Due diligence / legal audit"
+          },
+          {
+            "a": "Paraguay's official currency. Reference exchange approx. 7,300 Gs/USD and 8,000 Gs/EUR (April 2026, varies daily). Most meaningful contracts denominate in USD.",
+            "q": "Guaraní (Gs)"
+          }
+        ],
+        "title": "Key terms"
+      },
+      "hero": {
+        "headline": "Glossary",
+        "subheadline": "Legal, tax, and banking terms that come up in the process, explained plainly."
+      },
+      "seo": {
+        "description": "Key Paraguayan residency, tax, and banking terms explained in plain language for Europeans.",
+        "title": "Glossary — Nexa Paraguay"
       }
     },
     "home": {
@@ -24017,6 +24265,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
           "label": "Jurisdicciones"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/glosario",
+          "label": "Glosario"
         }
       ],
       "whatsapp": "595982515138"
@@ -24068,6 +24320,107 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Quién dirige Nexa"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "buttonHref": "/s/es/nexa-paraguay/contacto",
+        "buttonText": "Agendar consulta gratuita",
+        "subtitle": "Escríbanos y lo agregamos al glosario con una explicación en su idioma.",
+        "title": "¿Término no listado?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Número fiscal paraguayo equivalente al NIF español, BSN holandés o Steuernummer alemán. Se obtiene tras la constitución de sociedad y es obligatorio para facturar desde Paraguay.",
+            "q": "RUC (Registro Único del Contribuyente)"
+          },
+          {
+            "a": "Documento de identidad para residentes permanentes en Paraguay. Equivale al DNI español. Necesario para abrir cuenta bancaria, firmar contratos y operar como residente.",
+            "q": "Cédula de identidad paraguaya"
+          },
+          {
+            "a": "Autoridad paraguaya de prevención de lavado. Servicios regulados (consultoría legal, relocación, inmobiliaria) deben registrarse. Similar al FIU alemán o la FIU-NL.",
+            "q": "SEPRELAD (Secretaría de Prevención de Lavado de Dinero o Bienes)"
+          },
+          {
+            "a": "Paraguay grava solo ingresos de fuente paraguaya. Ingresos generados fuera del país (rentas, dividendos, servicios prestados en el exterior) no tributan en Paraguay. Es el beneficio fiscal central.",
+            "q": "Sistema territorial"
+          },
+          {
+            "a": "Sello internacional que certifica la autenticidad de un documento extranjero. Todos los documentos europeos (nacimiento, antecedentes penales, matrimonio) necesitan apostilla antes de presentarse en Paraguay.",
+            "q": "Apostilla (Convenio de La Haya)"
+          },
+          {
+            "a": "Impuesto paraguayo sobre rentas personales, tasa general 10%. Aplica sobre ingresos de fuente paraguaya superiores a un umbral anual.",
+            "q": "IRP (Impuesto a la Renta Personal)"
+          },
+          {
+            "a": "Impuesto corporativo paraguayo, tasa general 10%. Se aplica sobre utilidades de actividades empresariales de fuente paraguaya.",
+            "q": "IRE (Impuesto a la Renta Empresarial)"
+          },
+          {
+            "a": "Impuesto al consumo paraguayo, tasa general 10% (5% para productos esenciales). Significativamente menor que el IVA europeo (19-22%).",
+            "q": "IVA (Impuesto al Valor Agregado)"
+          },
+          {
+            "a": "Tipo societario paraguayo equivalente a la SA española, AG alemana, NV holandesa. Capital mínimo accesible, responsabilidad limitada al aporte, recomendada para estructuras con inversores externos.",
+            "q": "SA (Sociedad Anónima)"
+          },
+          {
+            "a": "Sociedad paraguaya equivalente a la SRL europea. Menor capital mínimo que la SA, gestión más simple. Recomendada para empresarios individuales o familiares.",
+            "q": "SRL (Sociedad de Responsabilidad Limitada)"
+          },
+          {
+            "a": "Tipo societario nuevo en Paraguay (ley 6480/2020). Formación rápida 100% digital, capital mínimo Gs 1, un solo accionista admitido. Equivale a la SLU española o UG alemana.",
+            "q": "EAS (Empresa por Acciones Simplificada)"
+          },
+          {
+            "a": "Estatus migratorio indefinido en Paraguay. Permite vivir, trabajar e invertir libremente. Concedido tras la aprobación del expediente por Migraciones (8-12 semanas con documentación en orden).",
+            "q": "Residencia permanente"
+          },
+          {
+            "a": "Concepto fiscal distinto a la residencia migratoria. Para ser residente fiscal paraguayo se requiere permanencia de 120+ días anuales o el centro de intereses económicos en Paraguay. Consultar con asesor para caso específico.",
+            "q": "Residencia fiscal"
+          },
+          {
+            "a": "Acuerdo bilateral que evita que un ingreso tribute dos veces. Paraguay tiene red limitada de TDT; consultar con asesor fiscal europeo para su caso (especialmente España, Alemania, Holanda).",
+            "q": "Tratado para evitar doble imposición (TDT/DTT)"
+          },
+          {
+            "a": "Bloque económico del Cono Sur (Argentina, Brasil, Paraguay, Uruguay). Residentes paraguayos pueden viajar libremente en MERCOSUR hasta 90 días sin visa adicional. Beneficio práctico importante.",
+            "q": "MERCOSUR"
+          },
+          {
+            "a": "Régimen especial de Paraguay que permite actividades de exportación con beneficios fiscales (IRE reducido al 0,5%, IVA exento). Requiere operaciones reales en zona franca — no es un vehículo fiscal puro.",
+            "q": "Zona Franca"
+          },
+          {
+            "a": "Firma del documento notarial que transfiere la propiedad de un inmueble. En Paraguay la realiza un escribano público. Es el acto equivalente a la escritura notarial española o la notarielle Urkunde alemana.",
+            "q": "Escrituración"
+          },
+          {
+            "a": "Registro del título de propiedad en el Registro Público (propiedades) o Registro de Comercio (sociedades). Hace oponible el derecho frente a terceros. Paso final después de la escrituración.",
+            "q": "Inscripción registral"
+          },
+          {
+            "a": "Revisión previa a una operación (compra de inmueble, adquisición de empresa) para verificar título, cargas, deudas y cumplimiento normativo. Protege al comprador de sorpresas posteriores.",
+            "q": "Due diligence / auditoría legal"
+          },
+          {
+            "a": "Moneda oficial de Paraguay. Tipo de cambio referencial aprox. 7.300 Gs/USD y 8.000 Gs/EUR (abril 2026, varía diariamente). La mayoría de contratos importantes se pactan en USD.",
+            "q": "Guaraní (Gs)"
+          }
+        ],
+        "title": "Términos clave"
+      },
+      "hero": {
+        "headline": "Glosario",
+        "subheadline": "Términos legales, fiscales y bancarios que aparecen en el proceso, explicados en lenguaje claro."
+      },
+      "seo": {
+        "description": "Términos clave de residencia, fiscalidad y banca paraguaya explicados en lenguaje claro para europeos.",
+        "title": "Glosario — Nexa Paraguay"
       }
     },
     "home": {
@@ -25682,6 +26035,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama",
           "label": "Jurisdicties"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/glosario",
+          "label": "Woordenlijst"
         }
       ],
       "whatsapp": "595982515138"
@@ -25733,6 +26090,107 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Wie leidt Nexa"
+      }
+    },
+    "glossaryPage": {
+      "cta": {
+        "buttonHref": "/s/nl/nexa-paraguay/contacto",
+        "buttonText": "Plan gratis consult",
+        "subtitle": "Schrijf ons en we voegen hem toe.",
+        "title": "Term niet vermeld?"
+      },
+      "glossary": {
+        "items": [
+          {
+            "a": "Paraguayaans belastingnummer equivalent aan het Nederlandse BSN of Duitse Steuernummer. Wordt verkregen na vennootschapsoprichting en is vereist om vanuit Paraguay te factureren.",
+            "q": "RUC (Paraguayaans fiscaal nummer)"
+          },
+          {
+            "a": "Identiteitsdocument voor permanente inwoners. Nodig om een bankrekening te openen, contracten te tekenen en als inwoner te opereren.",
+            "q": "Paraguayaanse cédula (ID-kaart)"
+          },
+          {
+            "a": "Paraguayaanse AML/CFT-autoriteit. Gereguleerde diensten (juridisch advies, verhuizing, onroerend goed) moeten zich registreren. Vergelijkbaar met FIU-NL.",
+            "q": "SEPRELAD (Anti-witwasautoriteit)"
+          },
+          {
+            "a": "Paraguay belast alleen inkomen uit Paraguay. Inkomen verdiend buiten Paraguay (huur, dividend, diensten in het buitenland) wordt niet in Paraguay belast. Centraal fiscaal voordeel.",
+            "q": "Territoriaal belastingsysteem"
+          },
+          {
+            "a": "Internationaal stempel dat de authenticiteit van een buitenlands document certificeert. Alle Europese documenten (geboorte, strafrechtelijke gegevens, huwelijk) hebben een apostille nodig vóór presentatie in Paraguay.",
+            "q": "Apostille (Verdrag van Den Haag)"
+          },
+          {
+            "a": "Paraguayaanse inkomstenbelasting, basistarief 10%. Geldt voor Paraguay-inkomen boven een jaarlijkse drempel.",
+            "q": "IRP (Personenbelasting)"
+          },
+          {
+            "a": "Paraguayaanse vennootschapsbelasting, basistarief 10%. Toegepast op winst uit Paraguay-bedrijfsactiviteiten.",
+            "q": "IRE (Vennootschapsbelasting)"
+          },
+          {
+            "a": "Paraguayaanse verbruiksbelasting, basistarief 10% (5% op essentiële goederen). Aanzienlijk lager dan Europese BTW (19-22%).",
+            "q": "BTW (IVA)"
+          },
+          {
+            "a": "Paraguayaans equivalent van de Nederlandse NV. Toegankelijk minimumkapitaal, aansprakelijkheid beperkt tot inbreng, aanbevolen voor structuren met externe investeerders.",
+            "q": "SA (Sociedad Anónima)"
+          },
+          {
+            "a": "Paraguayaans equivalent van de Nederlandse BV. Lager minimumkapitaal dan SA, eenvoudiger bestuur. Aanbevolen voor individuele of familiebedrijven.",
+            "q": "SRL (Besloten vennootschap)"
+          },
+          {
+            "a": "Nieuw Paraguayaans vehikel (Wet 6480/2020). Volledig digitale snelle oprichting, minimumkapitaal Gs 1, enkele aandeelhouder toegestaan.",
+            "q": "EAS (Vereenvoudigde Naamloze Vennootschap)"
+          },
+          {
+            "a": "Onbepaalde migratiestatus in Paraguay. Toegestaan om vrijelijk te wonen, werken en investeren. Verleend na dossiergoedkeuring door Migraciones (8-12 weken met schone documenten).",
+            "q": "Permanente verblijfsvergunning"
+          },
+          {
+            "a": "Fiscaal concept onderscheiden van migratieverblijf. Om Paraguayaanse fiscaal inwoner te zijn, is 120+ dagen per jaar aanwezigheid of het centrum van economische belangen in Paraguay vereist. Raadpleeg een adviseur voor uw specifieke geval.",
+            "q": "Fiscaal verblijf"
+          },
+          {
+            "a": "Bilaterale overeenkomst die voorkomt dat inkomen tweemaal wordt belast. Paraguay heeft een beperkt DTT-netwerk; raadpleeg uw Europese belastingadviseur (vooral voor Nederland, Duitsland, Spanje).",
+            "q": "Verdrag ter vermijding van dubbele belasting (DTT)"
+          },
+          {
+            "a": "Zuid-Amerikaans economisch blok (Argentinië, Brazilië, Paraguay, Uruguay). Paraguayaanse inwoners kunnen visumvrij door MERCOSUR reizen tot 90 dagen. Praktisch voordeel.",
+            "q": "MERCOSUR"
+          },
+          {
+            "a": "Paraguayaans regime voor exportactiviteiten met fiscale voordelen (verlaagde IRE 0,5%, BTW-vrij). Vereist echte operaties in de zone.",
+            "q": "Vrijhandelszone (Zona Franca)"
+          },
+          {
+            "a": "Notariële akte die eigendom van onroerend goed overdraagt. Uitgevoerd door een Paraguayaanse notaris. Equivalent aan de Nederlandse notariële akte.",
+            "q": "Escrituración (notariële akte)"
+          },
+          {
+            "a": "Registratie van eigendomstitel in het Openbaar Register (eigendommen) of Handelsregister (bedrijven). Maakt het recht afdwingbaar tegen derden.",
+            "q": "Registerinschrijving"
+          },
+          {
+            "a": "Pre-transactie-beoordeling (vastgoedkoop, bedrijfsovername) die titel, lasten, schulden en compliance verifieert. Beschermt de koper tegen post-deal verrassingen.",
+            "q": "Due diligence / juridische audit"
+          },
+          {
+            "a": "Officiële munt van Paraguay. Referentiewisselkoers ca. 7.300 Gs/USD en 8.000 Gs/EUR (april 2026, dagelijks variërend). De meeste belangrijke contracten worden in USD geprijsd.",
+            "q": "Guaraní (Gs)"
+          }
+        ],
+        "title": "Kerntermen"
+      },
+      "hero": {
+        "headline": "Woordenlijst",
+        "subheadline": "Juridische, fiscale en bancaire termen uit het proces, helder uitgelegd."
+      },
+      "seo": {
+        "description": "Belangrijkste Paraguayaanse verblijfs-, fiscale en bancaire termen in gewone taal voor Europeanen.",
+        "title": "Woordenlijst — Nexa Paraguay"
       }
     },
     "home": {
