@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { createHash } from 'crypto'
+import { z } from 'zod'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
@@ -7,8 +8,19 @@ import { createOrder, getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { rankProvidersForOrder, NoEligibleProviderError } from '@/lib/payments/router'
 import { createCheckoutWithFailover, NoAvailableProviderError } from '@/lib/payments/failover'
 import { listAvailableProviders } from '@/lib/commerce/payment-credentials'
+import { applyDiscount } from '@/lib/commerce/discounts'
+import { getCartById } from '@/lib/commerce/cart'
+import { computeCartTotals } from '@/lib/commerce/compute-totals'
+import { quoteShippingForAddress } from '@/lib/commerce/shipping-zones'
 import { CheckoutInputSchema } from '@/lib/schemas/commerce/order'
 import type { PaymentProvider } from '@/lib/schemas/commerce/transaction'
+
+// Extend the base CheckoutInputSchema to optionally accept a discountCode.
+// The code is validated server-side against discounts table — never trust
+// the client-computed discount amount.
+const CheckoutWithDiscountSchema = CheckoutInputSchema.extend({
+  discountCode: z.string().min(1).max(80).optional(),
+})
 
 export const runtime = 'nodejs'
 
@@ -23,7 +35,7 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   } catch {
     return NextResponse.json({ error: 'invalid_json' }, { status: 400 })
   }
-  const parsed = CheckoutInputSchema.safeParse(json)
+  const parsed = CheckoutWithDiscountSchema.safeParse(json)
   if (!parsed.success) {
     return NextResponse.json({ error: 'validation', detail: parsed.error.flatten() }, { status: 400 })
   }
@@ -50,9 +62,44 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
     }
   }
 
+  // Resolve subtotal once; discount + shipping both need it.
+  const cartForTotals = await getCartById(business.id, parsed.data.cartId)
+  const { subtotalCents } = computeCartTotals(cartForTotals.items, cartForTotals.currency)
+
+  // Discount (server-validated; client can't smuggle free orders).
+  let discountCents = 0
+  let freeShipping = false
+  if (parsed.data.discountCode) {
+    const dResult = await applyDiscount({
+      businessId: business.id,
+      code: parsed.data.discountCode,
+      subtotalCents,
+      customerEmail: parsed.data.customer.email,
+    })
+    if (dResult.valid) {
+      discountCents = dResult.discountCents
+      freeShipping = dResult.freeShipping
+    } else {
+      return NextResponse.json({ error: 'invalid_discount', reason: dResult.reason }, { status: 400 })
+    }
+  }
+
+  // Shipping quote from address + zones. Free if the discount says so.
+  let shippingCents = 0
+  if (!freeShipping) {
+    const addr = parsed.data.shipping.address
+    const { amountCents } = await quoteShippingForAddress({
+      businessId: business.id,
+      country: addr.country,
+      region: addr.department,
+      subtotalCents,
+    })
+    shippingCents = amountCents
+  }
+
   let orderId: string
   try {
-    orderId = await createOrder(business.id, parsed.data)
+    orderId = await createOrder(business.id, parsed.data, { discountCents, shippingCents })
   } catch (err) {
     if (err instanceof CheckoutError) {
       const status = err.code === 'out_of_stock' ? 409 : err.code === 'cart_not_found_or_closed' ? 410 : 400
