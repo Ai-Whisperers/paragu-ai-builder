@@ -134,24 +134,27 @@ export const env = {
   UPSTASH_REDIS_REST_TOKEN: optionalEnvOrUndefined('UPSTASH_REDIS_REST_TOKEN'),
 
   // ===========================================================================
-  // Commerce — Mercado Pago (required in production when commerce is enabled)
+  // Commerce — Pagopar (required in production when commerce is enabled).
+  // Per-merchant credentials eventually live in business_payment_credentials;
+  // these env vars are only for Paragu-AI's own fallback / testing account.
   // ===========================================================================
 
-  MP_ACCESS_TOKEN: optionalEnvOrUndefined('MP_ACCESS_TOKEN'),
-  MP_WEBHOOK_SECRET: optionalEnvOrUndefined('MP_WEBHOOK_SECRET'),
-  MP_PUBLIC_KEY: optionalEnvOrUndefined('NEXT_PUBLIC_MP_PUBLIC_KEY'),
+  PAGOPAR_PUBLIC_TOKEN: optionalEnvOrUndefined('PAGOPAR_PUBLIC_TOKEN'),
+  PAGOPAR_PRIVATE_TOKEN: optionalEnvOrUndefined('PAGOPAR_PRIVATE_TOKEN'),
+  PAGOPAR_ENVIRONMENT: optionalEnv('PAGOPAR_ENVIRONMENT', 'sandbox'),
 
   COMMERCE_SESSION_SECRET: optionalEnvOrUndefined('COMMERCE_SESSION_SECRET'),
 
   get commerceConfigured(): boolean {
-    return Boolean(process.env.MP_ACCESS_TOKEN && process.env.MP_WEBHOOK_SECRET)
+    return Boolean(process.env.PAGOPAR_PUBLIC_TOKEN && process.env.PAGOPAR_PRIVATE_TOKEN)
   },
 
-  requireCommerceEnv(): { accessToken: string; webhookSecret: string; sessionSecret: string } {
+  requireCommerceEnv(): { publicToken: string; privateToken: string; sessionSecret: string; environment: string } {
     return {
-      accessToken: requireEnv('MP_ACCESS_TOKEN'),
-      webhookSecret: requireEnv('MP_WEBHOOK_SECRET'),
+      publicToken: requireEnv('PAGOPAR_PUBLIC_TOKEN'),
+      privateToken: requireEnv('PAGOPAR_PRIVATE_TOKEN'),
       sessionSecret: requireEnv('COMMERCE_SESSION_SECRET'),
+      environment: process.env.PAGOPAR_ENVIRONMENT ?? 'sandbox',
     }
   },
 

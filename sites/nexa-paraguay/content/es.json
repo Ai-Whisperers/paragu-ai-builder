@@ -803,7 +803,7 @@
       "neighborhood": "Centro",
       "city": "Asunción",
       "email": "hola@nexaparaguay.com",
-      "whatsapp": "595000000000"
+      "whatsapp": "595982515138"
     }
   },
   "privacyPage": {
@@ -855,7 +855,7 @@
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
     "email": "hola@nexaparaguay.com",
-    "whatsapp": "595000000000",
+    "whatsapp": "595982515138",
     "instagram": "https://instagram.com/nexaparaguay",
     "facebook": null,
     "navLinks": [
@@ -894,7 +894,7 @@
     "subtitle": "Antes de iniciar servicios de constitución societaria, apertura bancaria o adquisición de inmuebles, completá esta declaración jurada.",
     "submitLabel": "Enviar atestiguación",
     "successMessage": "Gracias. Un oficial de cumplimiento te contactará en un plazo máximo de 72 horas hábiles.",
-    "whatsappPhone": "595000000000",
+    "whatsappPhone": "595982515138",
     "whatsappFallbackLabel": "¿Dudas? Consultá por WhatsApp",
     "questions": [
       {
@@ -965,7 +965,7 @@
     ]
   },
   "whatsapp": {
-    "phone": "595000000000",
+    "phone": "595982515138",
     "message": "Hola, quiero saber más sobre los programas de Nexa Paraguay."
   }
 }

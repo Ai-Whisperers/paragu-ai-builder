@@ -7,6 +7,8 @@ export interface ResolvedBusiness {
   name: string
   type: string
   currency: string
+  /** Preferred payment provider hint, surfaced from registry/data_json. */
+  preferredProvider?: string
 }
 
 /**
@@ -34,7 +36,8 @@ export async function resolveBusinessBySlug(slug: string): Promise<ResolvedBusin
   }
   if (!data) return null
 
-  const currency = (data.data_json as { commerce?: { currency?: string } } | null)?.commerce?.currency ?? 'PYG'
+  const commerceCfg = (data.data_json as { commerce?: { currency?: string; provider?: string } } | null)?.commerce
+  const currency = commerceCfg?.currency ?? 'PYG'
 
   return {
     id: data.id,
@@ -42,5 +45,6 @@ export async function resolveBusinessBySlug(slug: string): Promise<ResolvedBusin
     name: data.name,
     type: data.type,
     currency,
+    preferredProvider: commerceCfg?.provider,
   }
 }

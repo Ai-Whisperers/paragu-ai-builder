@@ -3,8 +3,30 @@ import type { TransactionStatus, PaymentProvider } from '@/lib/schemas/commerce/
 
 export interface CheckoutSession {
   redirectUrl: string
-  providerRef: string // preference_id for MP
+  providerRef: string // hash_pedido for Pagopar, preference_id for others
   sandbox: boolean
+}
+
+// Standardized payment-method tags surfaced to shopper UI + analytics.
+export type PaymentMethod =
+  | 'credit_card'
+  | 'debit_card'
+  | 'bank_transfer'
+  | 'wallet'
+  | 'cash_kiosk'
+  | 'pix'
+  | 'qr'
+  | 'crypto'
+
+export interface PaymentCapability {
+  provider: PaymentProvider
+  countries: string[]    // ISO 3166-1 alpha-2 — empty array means "everywhere"
+  currencies: string[]   // ISO 4217 — empty array means "everywhere"
+  methods: PaymentMethod[]
+  feeTier: 'low' | 'medium' | 'high'
+  // Lower = preferred when multiple providers cover the same country.
+  // Tie-breaker is feeTier (low → medium → high).
+  basePriority: number
 }
 
 export interface WebhookVerification {
