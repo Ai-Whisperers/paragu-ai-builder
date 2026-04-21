@@ -30,6 +30,16 @@ const eslintConfig = [
     },
   },
 
+  // Every <a target="_blank"> must include rel="noopener noreferrer" to
+  // prevent the target page from accessing window.opener (reverse-tabnabbing).
+  // The next-config preset turns this off; we override back to error.
+  {
+    files: ['app/**/*.{ts,tsx}', 'components/**/*.{ts,tsx}'],
+    rules: {
+      'react/jsx-no-target-blank': ['error', { allowReferrer: false, enforceDynamicLinks: 'always' }],
+    },
+  },
+
   // Legacy CommonJS scripts under web/scripts/**.js are dev-only utilities
   // (image optimization, content generation, etc.) — they are not part of the
   // shipped runtime and predate the move to ESM. Allow require() there.
