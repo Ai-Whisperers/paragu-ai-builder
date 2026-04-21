@@ -63,7 +63,14 @@ export function TestimonialsSection({
   columns = 3,
   __locale,
 }: TestimonialsSectionProps) {
-  const resolved = testimonials || items || []
+  // Normalize: some tenant content files ship {name, role, quote} instead of
+  // {author, role, quote}. Accept either so a missing `author` doesn't crash
+  // the avatar fallback (`.charAt(0)` on undefined) — previously 500'd the
+  // whole page when any testimonial lacked an explicit `author`.
+  const resolved = (testimonials || items || []).map((t) => ({
+    ...t,
+    author: t.author || (t as unknown as { name?: string }).name || 'Cliente',
+  }))
   if (resolved.length === 0) return null
 
   const gridCols = columns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
