@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import type { Order } from '@/lib/schemas/commerce/order'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { OrderStatusTimeline } from './order-status-timeline'
 
 interface Props {
   siteSlug: string
@@ -76,18 +77,32 @@ export function OrderConfirmation({ siteSlug, locale, businessName, initialOrder
         <h1 className="mb-2 text-2xl font-bold text-[color:var(--text,#111)] print:text-xl">{headline}</h1>
         <p className="mb-6 text-[color:var(--text-muted,#6b7280)] print:hidden">{body}</p>
         <p className="mb-1 text-sm text-[color:var(--text-muted,#6b7280)]">Número de orden</p>
-        <p className="mb-6 font-mono text-lg font-semibold">{order.orderNumber}</p>
+        <p className="mb-2 font-mono text-lg font-semibold">{order.orderNumber}</p>
+
+        <OrderStatusTimeline status={order.status} />
 
         <div className="mb-6 divide-y divide-[color:var(--border,#e5e7eb)] text-left">
-          {(order.items ?? []).map((it) => (
-            <div key={it.id} className="flex justify-between py-3">
-              <div>
-                <p className="font-medium">{it.productSnapshot.name}</p>
-                <p className="text-sm text-[color:var(--text-muted,#6b7280)]">Cantidad: {it.quantity}</p>
+          {(order.items ?? []).map((it) => {
+            const canReview = order.status === 'shipped' || order.status === 'delivered'
+            const snapSlug = (it.productSnapshot as { slug?: string }).slug
+            return (
+              <div key={it.id} className="flex justify-between gap-3 py-3">
+                <div className="min-w-0">
+                  <p className="font-medium">{it.productSnapshot.name}</p>
+                  <p className="text-sm text-[color:var(--text-muted,#6b7280)]">Cantidad: {it.quantity}</p>
+                  {canReview && snapSlug ? (
+                    <a
+                      href={`/s/${locale}/${siteSlug}/producto/${snapSlug}#review-form-heading`}
+                      className="mt-1 inline-flex items-center gap-1 text-xs text-[color:var(--secondary,#b8860b)] hover:underline print:hidden"
+                    >
+                      ★ Dejar una reseña
+                    </a>
+                  ) : null}
+                </div>
+                <p className="whitespace-nowrap font-semibold">{formatCents(it.lineTotalCents, order.currency)}</p>
               </div>
-              <p className="font-semibold">{formatCents(it.lineTotalCents, order.currency)}</p>
-            </div>
-          ))}
+            )
+          })}
           <div className="flex justify-between py-3 text-lg font-semibold">
             <span>Total</span>
             <span>{formatCents(order.totalCents, order.currency)}</span>

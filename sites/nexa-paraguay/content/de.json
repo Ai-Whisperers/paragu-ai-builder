@@ -48,7 +48,7 @@
         "href": "/s/de/nexa-paraguay/contacto"
       }
     ],
-    "ctaText": "Beratung buchen",
+    "ctaText": "Kostenlose Beratung buchen",
     "ctaHref": "/s/de/nexa-paraguay/contacto"
   },
   "home": {
@@ -169,7 +169,7 @@
       "title": "Was unsere Kunden sagen",
       "subtitle": "Echte Geschichten von Menschen, die ihre Operation in Paraguay etabliert haben",
       "ctaText": "Alle Testimonials lesen",
-      "ctaHref": "/s/de/nexa-paraguay/testimonials"
+      "ctaHref": "/s/de/nexa-paraguay/contacto"
     },
     "whyCountry": {
       "eyebrow": "Warum Paraguay",
@@ -250,7 +250,7 @@
     "finalCta": {
       "title": "Machen Sie den ersten Schritt",
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
-      "buttonText": "Beratung buchen",
+      "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
   },
@@ -431,7 +431,7 @@
     "cta": {
       "title": "Machen Sie den ersten Schritt",
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
-      "buttonText": "Beratung buchen",
+      "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
   },
@@ -510,7 +510,7 @@
     "cta": {
       "title": "Machen Sie den ersten Schritt",
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
-      "buttonText": "Beratung buchen",
+      "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
   },
@@ -566,23 +566,23 @@
       "title": "Fragen zum Ablauf",
       "items": [
         {
-          "q": "Wie viele Reisen brauche ich?",
-          "a": "Eine einzige genügt."
+          "q": "Wie viele Reisen nach Paraguay sind nötig?",
+          "a": "Unser Programm ist so konzipiert, dass eine einzige Reise ausreicht."
         },
         {
-          "q": "Wie lange dauert es?",
-          "a": "Präsenz an einem Tag. Dokumentenausstellung: 45–60 Tage."
+          "q": "Wie lange dauert der gesamte Prozess?",
+          "a": "Präsenzabwicklung an einem Tag. Ausstellung von Aufenthaltsgenehmigung und ID-Karte: 45–60 Tage. Gesellschaftsgründung und Bankkonto: 2–4 Wochen. Gesamt: 8–12 Wochen."
         },
         {
-          "q": "Was, wenn ein Dokument fehlt?",
-          "a": "Das erkennen wir vor Ihrer Reise — Sie reisen erst, wenn alles vorliegt."
+          "q": "Was passiert, wenn ein Dokument fehlt?",
+          "a": "Wir entdecken es vor Ihrer Reise. Unsere Vorprüfung stellt sicher, dass Sie mit allen Unterlagen ankommen."
         }
       ]
     },
     "cta": {
       "title": "Machen Sie den ersten Schritt",
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
-      "buttonText": "Beratung buchen",
+      "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
   },
@@ -670,7 +670,7 @@
     "cta": {
       "title": "Machen Sie den ersten Schritt",
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
-      "buttonText": "Beratung buchen",
+      "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
   },
@@ -751,7 +751,7 @@
     "cta": {
       "title": "Machen Sie den ersten Schritt",
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
-      "buttonText": "Beratung buchen",
+      "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
     }
   },
