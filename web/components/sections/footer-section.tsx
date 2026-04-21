@@ -24,7 +24,6 @@ const NEXA_GROUP: Array<{
   locales: Locale[]
 }> = [
   { slug: 'nexa-paraguay', label: 'Nexa Paraguay', defaultLocale: 'nl', locales: ['nl', 'en', 'de', 'es'] },
-  { slug: 'nexa-uruguay', label: 'Nexa Uruguay', defaultLocale: 'en', locales: ['en', 'es'] },
   { slug: 'nexa-propiedades', label: 'Nexa Propiedades', defaultLocale: 'es', locales: ['es', 'en', 'pt'] },
 ]
 

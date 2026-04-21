@@ -95,7 +95,6 @@ See [web/docs/ADDING_BUSINESS_TYPES.md](../../web/docs/ADDING_BUSINESS_TYPES.md)
 |---|---|---|---|---|---|---|---|
 | `nexa-paraguay` | Nexa Paraguay (4-locale) | `relocation` | real-estate-relocation | nexaparaguay.com | nl · en · de · es | Calendly, HubSpot, Mailchimp, GA4 | Staging; pre-cutover |
 | `nexaparaguay` | Nexa Paraguay (ES landing) | `relocation` | real-estate-relocation | nexaparaguay.com | es | HubSpot, Mailchimp, GA4 | Staging |
-| `nexa-uruguay` | Nexa Uruguay | `relocation` (variant) | relocacion | nexauruguay.com | en · es | Calendly, HubSpot, Mailchimp, GA4 | Spike |
 | `nexa-propiedades` | Nexa Propiedades | real-estate (custom) | relocacion | nexapropiedades.com | es · en · pt | HubSpot, Mailchimp, GA4, Google Maps | In progress |
 | `de-abasto-a-casa` | De Abasto a Casa | `meal_prep` | food-beverage | deabastoacasa.com.py | es | HubSpot, Mailchimp, GA4 | In progress |
 | `dayah-litworks` | Dayah Litworks | `diseno_grafico` → `book_cover_designer` | portfolio-professional | dayah-litworks.com | es | HubSpot, Mailchimp, GA4 | In progress |

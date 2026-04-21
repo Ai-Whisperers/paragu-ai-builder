@@ -44,7 +44,6 @@ export const dynamicParams = true
 // mismatch producing `.map` on undefined). They render fine at request
 // time via SSR; remove entries as the underlying shape is fixed.
 const PRERENDER_SKIP_SITES = new Set<string>([
-  'nexa-uruguay',
   'nexa-propiedades',
   'fun4me',
   'dayah-litworks',
