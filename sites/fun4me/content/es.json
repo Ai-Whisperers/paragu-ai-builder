@@ -59,7 +59,8 @@
       }
     ],
     "ctaText": "WhatsApp",
-    "ctaHref": "https://wa.me/595976569739"
+    "ctaHref": "https://wa.me/595976569739",
+    "enableSearch": true
   },
   "home": {
     "seo": {

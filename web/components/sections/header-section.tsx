@@ -7,6 +7,7 @@ import { LOCALE_LABELS, type Locale } from '@/lib/i18n/config'
 import { buildLocaleUrl } from '@/lib/i18n/routing'
 import { cn } from '@/lib/utils'
 import { Menu, X } from 'lucide-react'
+import { HeaderSearch } from '@/components/commerce/header-search'
 
 export interface NavItem {
   label: string
@@ -21,6 +22,13 @@ export interface HeaderSectionProps {
   items?: NavItem[]
   ctaText?: string
   ctaHref?: string
+  /**
+   * Show the commerce header-search box (with autocomplete + recent
+   * searches) between the logo and the nav. Opt-in per tenant via content
+   * file — defaults to false so non-commerce tenants don't get a dead
+   * search bar.
+   */
+  enableSearch?: boolean
   __siteSlug?: string
   __locale?: Locale
   __availableLocales?: Locale[]
@@ -44,6 +52,7 @@ export function HeaderSection({
   items,
   ctaText,
   ctaHref = '#contacto',
+  enableSearch = false,
   __siteSlug,
   __locale,
   __availableLocales,
@@ -149,6 +158,14 @@ export function HeaderSection({
             {businessName}
           </a>
 
+          {/* Desktop search (opt-in via content). Hidden on mobile where the
+              nav's hamburger is the entry point. */}
+          {enableSearch && __siteSlug ? (
+            <div className="mx-4 hidden max-w-sm flex-1 md:block">
+              <HeaderSearch siteSlug={__siteSlug} locale={__locale ?? 'es'} />
+            </div>
+          ) : null}
+
           {/* Desktop Nav */}
           <nav className="hidden items-center gap-1 md:flex">
             {navItems.map((item) => (
@@ -207,6 +224,11 @@ export function HeaderSection({
           )}
         >
           <nav className="border-t border-[var(--surface-light)] py-4">
+            {enableSearch && __siteSlug ? (
+              <div className="mb-3 px-1">
+                <HeaderSearch siteSlug={__siteSlug} locale={__locale ?? 'es'} />
+              </div>
+            ) : null}
             {navItems.map((item) => (
               <a
                 key={item.href}
