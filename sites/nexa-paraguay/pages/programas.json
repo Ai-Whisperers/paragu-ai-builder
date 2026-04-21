@@ -20,6 +20,11 @@
       "content": "programasPage.programs"
     },
     {
+      "id": "testimonials",
+      "variant": "grid",
+      "content": "programasPage.testimonials"
+    },
+    {
       "id": "faq",
       "variant": "accordion",
       "content": "programasPage.faq"
