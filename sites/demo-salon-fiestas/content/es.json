@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Salon de Fiestas Luque",
+  "tagline": "Salon de Eventos profesional en Luque.",
+  "placeholders": {
+    "businessName": "Demo Salon de Fiestas Luque",
+    "city": "Luque",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Salon de Fiestas Luque",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Salon de Fiestas Luque - Salon de Eventos en Luque",
+      "description": "Salon de Eventos profesional en Luque. Servicios de calidad con atencion personalizada."
+    },
+    "hero": {
+      "headline": "Demo Salon de Fiestas Luque - Salon de Eventos",
+      "subheadline": "Salon de Eventos profesional en Luque.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Salon%20de%20Fiestas%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Luque",
+      "formSource": "demo",
+      "demoRubro": "banquet_hall"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Salon de Fiestas Luque",
+    "copyright": "© {{year}} Demo Salon de Fiestas Luque",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Salon de Fiestas y me interesa un sitio para mi negocio"
+  }
+}

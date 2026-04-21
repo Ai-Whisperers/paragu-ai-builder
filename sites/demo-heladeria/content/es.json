@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Heladeria Lambare",
+  "tagline": "Helados artesanales, cucuruchos y paletas en Lambare.",
+  "placeholders": {
+    "businessName": "Demo Heladeria Lambare",
+    "city": "Lambare",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Heladeria Lambare",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Heladeria Lambare - Heladeria en Lambare",
+      "description": "Helados artesanales, cucuruchos y paletas en Lambare."
+    },
+    "hero": {
+      "headline": "Demo Heladeria Lambare - Helado artesanal, sabores de verdad",
+      "subheadline": "Helados artesanales, cucuruchos y paletas en Lambare.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Heladeria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Lambare",
+      "formSource": "demo",
+      "demoRubro": "heladeria"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Heladeria Lambare",
+    "copyright": "© {{year}} Demo Heladeria Lambare",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Heladeria y me interesa un sitio para mi negocio"
+  }
+}

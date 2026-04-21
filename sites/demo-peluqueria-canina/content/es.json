@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Peluqueria Canina Lambare",
+  "tagline": "Peluqueria Canina profesional en Lambare.",
+  "placeholders": {
+    "businessName": "Demo Peluqueria Canina Lambare",
+    "city": "Lambare",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Peluqueria Canina Lambare",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Peluqueria Canina Lambare - Peluqueria Canina en Lambare",
+      "description": "Peluqueria Canina profesional en Lambare. Servicios de calidad con atencion personalizada."
+    },
+    "hero": {
+      "headline": "Demo Peluqueria Canina Lambare - Peluqueria Canina",
+      "subheadline": "Peluqueria Canina profesional en Lambare.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Peluqueria%20Canina%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Lambare",
+      "formSource": "demo",
+      "demoRubro": "dog_grooming_salon"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Peluqueria Canina Lambare",
+    "copyright": "© {{year}} Demo Peluqueria Canina Lambare",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Peluqueria Canina y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Aire Acondicionado Asuncion",
+  "tagline": "Instalacion, limpieza y reparacion de aires acondicionados en Asuncion.",
+  "placeholders": {
+    "businessName": "Demo Aire Acondicionado Asuncion",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Aire Acondicionado Asuncion",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Aire Acondicionado Asuncion - Servicio Tecnico Aires en Asuncion",
+      "description": "Instalacion, limpieza y reparacion de aires acondicionados en Asuncion."
+    },
+    "hero": {
+      "headline": "Demo Aire Acondicionado Asuncion - Tu aire siempre andando",
+      "subheadline": "Instalacion, limpieza y reparacion de aires acondicionados en Asuncion.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Aire%20Acondicionado%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asuncion",
+      "formSource": "demo",
+      "demoRubro": "aire_acondicionado"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Aire Acondicionado Asuncion",
+    "copyright": "© {{year}} Demo Aire Acondicionado Asuncion",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Aire Acondicionado y me interesa un sitio para mi negocio"
+  }
+}

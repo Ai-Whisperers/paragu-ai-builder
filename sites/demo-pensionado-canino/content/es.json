@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Pensionado Canino Capiata",
+  "tagline": "Guarderia Caninos profesional en Capiata.",
+  "placeholders": {
+    "businessName": "Demo Pensionado Canino Capiata",
+    "city": "Capiata",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Pensionado Canino Capiata",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Pensionado Canino Capiata - Guarderia Caninos en Capiata",
+      "description": "Guarderia Caninos profesional en Capiata. Servicios de calidad con atencion personalizada."
+    },
+    "hero": {
+      "headline": "Demo Pensionado Canino Capiata - Guarderia Caninos",
+      "subheadline": "Guarderia Caninos profesional en Capiata.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Pensionado%20Canino%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Capiata",
+      "formSource": "demo",
+      "demoRubro": "dog_boarding_kennel"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Pensionado Canino Capiata",
+    "copyright": "© {{year}} Demo Pensionado Canino Capiata",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Pensionado Canino y me interesa un sitio para mi negocio"
+  }
+}

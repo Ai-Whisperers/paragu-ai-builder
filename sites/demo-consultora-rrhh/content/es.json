@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Consultora de RRHH Asuncion",
+  "tagline": "Seleccion de personal, capacitacion y desarrollo organizacional en Asuncion.",
+  "placeholders": {
+    "businessName": "Demo Consultora de RRHH Asuncion",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Consultora de RRHH Asuncion",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Consultora de RRHH Asuncion - Consultora de RRHH en Asuncion",
+      "description": "Seleccion de personal, capacitacion y desarrollo organizacional en Asuncion."
+    },
+    "hero": {
+      "headline": "Demo Consultora de RRHH Asuncion - El mejor equipo para tu empresa",
+      "subheadline": "Seleccion de personal, capacitacion y desarrollo organizacional en Asuncion.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Consultora%20de%20RRHH%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asuncion",
+      "formSource": "demo",
+      "demoRubro": "consultora_rrhh"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Consultora de RRHH Asuncion",
+    "copyright": "© {{year}} Demo Consultora de RRHH Asuncion",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Consultora de RRHH y me interesa un sitio para mi negocio"
+  }
+}
