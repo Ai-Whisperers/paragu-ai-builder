@@ -27,11 +27,47 @@ export type DemoBadgeProps = {
    * (e.g. "peluqueria" → /demo?v=peluqueria).
    */
   vertical?: string
+  /** Active URL locale — picks localized badge label + aria-label. Defaults to 'es'. */
+  locale?: string
 }
 
 const DISMISS_KEY = 'pa_demo_badge_dismissed'
 
-export function DemoBadge({ isDemo = false, vertical }: DemoBadgeProps) {
+const DEMO_LABELS: Record<string, { badge: string; aria: string; hide: string; hideTitle: string }> = {
+  de: {
+    badge: 'Demo · fordern Sie Ihre an',
+    aria: 'Dies ist eine Demo-Website. Fordern Sie Ihre eigene in 48 Stunden an.',
+    hide: 'Ausblenden',
+    hideTitle: 'Diesen Hinweis für diese Sitzung ausblenden',
+  },
+  en: {
+    badge: 'Demo · get yours',
+    aria: 'This is a demo site. Get your own in 48 hours.',
+    hide: 'Hide',
+    hideTitle: 'Hide this notice for this session',
+  },
+  es: {
+    badge: 'Demo · pedí el tuyo',
+    aria: 'Este es un sitio de demostración. Pedí el tuyo en 48 horas.',
+    hide: 'Ocultar',
+    hideTitle: 'Ocultar este aviso por esta sesión',
+  },
+  nl: {
+    badge: 'Demo · vraag de jouwe aan',
+    aria: 'Dit is een demosite. Vraag je eigen site aan binnen 48 uur.',
+    hide: 'Verbergen',
+    hideTitle: 'Deze melding voor deze sessie verbergen',
+  },
+  pt: {
+    badge: 'Demo · peça a sua',
+    aria: 'Este é um site de demonstração. Peça o seu em 48 horas.',
+    hide: 'Ocultar',
+    hideTitle: 'Ocultar este aviso para esta sessão',
+  },
+}
+
+export function DemoBadge({ isDemo = false, vertical, locale }: DemoBadgeProps) {
+  const L = DEMO_LABELS[locale ?? 'es'] ?? DEMO_LABELS.es
   const [hidden, setHidden] = useState(false)
 
   useEffect(() => {
@@ -60,16 +96,16 @@ export function DemoBadge({ isDemo = false, vertical }: DemoBadgeProps) {
     <div className="fixed right-4 top-4 z-50 flex items-center gap-1 sm:right-6 sm:top-6">
       <Link
         href={href}
-        aria-label="Este es un sitio de demostración. Pedí el tuyo en 48 horas."
+        aria-label={L.aria}
         className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-amber-50/95 px-4 py-2 text-xs font-bold uppercase tracking-wider text-amber-800 shadow-lg backdrop-blur-sm transition-all hover:scale-105 hover:bg-amber-100 sm:px-5 sm:py-2.5 sm:text-sm"
       >
         <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-amber-500" aria-hidden />
-        Demo · pedí el tuyo
+        {L.badge}
       </Link>
       <button
         type="button"
-        aria-label="Ocultar este aviso por esta sesión"
-        title="Ocultar"
+        aria-label={L.hideTitle}
+        title={L.hide}
         onClick={() => {
           try {
             sessionStorage.setItem(DISMISS_KEY, '1')
