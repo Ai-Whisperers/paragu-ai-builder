@@ -21,12 +21,12 @@ export function ReferralProgram({ phone, businessName, className }: ReferralProg
   const [referralCount, setReferralCount] = useState(0)
   const [rewardsEarned, setRewardsEarned] = useState(0)
 
-  // Generate referral code based on name
   useEffect(() => {
     const generateCode = () => {
       const timestamp = Date.now().toString(36).slice(-4).toUpperCase()
       return `CABAL${timestamp}`
     }
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- Post-mount generation using Date.now() avoids SSR hydration mismatch.
     setReferralCode(generateCode())
   }, [])
 

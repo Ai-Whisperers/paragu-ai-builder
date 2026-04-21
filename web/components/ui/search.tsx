@@ -238,10 +238,10 @@ export function SearchModal({
     }
   }, [searchIndex, businessId])
 
-  // Load recent searches from localStorage
   useEffect(() => {
     const stored = localStorage.getItem('recent-searches')
     if (stored) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Hydrating recent-searches from localStorage post-mount.
       setRecentSearches(JSON.parse(stored).slice(0, 5))
     }
   }, [])
@@ -274,7 +274,14 @@ export function SearchModal({
     return () => document.removeEventListener('keydown', handleEscape)
   }, [isOpen, onClose])
 
-  // Perform search
+  const saveRecentSearch = useCallback((searchQuery: string) => {
+    setRecentSearches(prev => {
+      const updated = [searchQuery, ...prev.filter(s => s !== searchQuery)].slice(0, 5)
+      localStorage.setItem('recent-searches', JSON.stringify(updated))
+      return updated
+    })
+  }, [])
+
   const performSearch = useCallback((searchQuery: string) => {
     if (!searchQuery.trim() || !searchIndex) {
       setResults([])
@@ -308,7 +315,7 @@ export function SearchModal({
     }
     
     onSearch?.(searchQuery)
-  }, [searchIndex, activeCategory, onSearch])
+  }, [searchIndex, activeCategory, onSearch, saveRecentSearch])
 
   // Debounced search
   useEffect(() => {
@@ -318,13 +325,6 @@ export function SearchModal({
     
     return () => clearTimeout(timeout)
   }, [query, performSearch])
-
-  // Save recent search
-  const saveRecentSearch = (searchQuery: string) => {
-    const updated = [searchQuery, ...recentSearches.filter(s => s !== searchQuery)].slice(0, 5)
-    setRecentSearches(updated)
-    localStorage.setItem('recent-searches', JSON.stringify(updated))
-  }
 
   // Keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -623,9 +623,9 @@ export function SearchInput({
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  // Update suggestions
   useEffect(() => {
     if (!suggestions || !searchIndex || !query.trim()) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Clearing suggestions when inputs become invalid; guarded by prior conditions.
       setSuggestionsList([])
       return
     }

@@ -139,15 +139,15 @@ export function ToastContainer({ children, position = "bottom-right" }: ToastCon
 export function useToast() {
   const [toasts, setToasts] = React.useState<Array<{ id: string; props: ToastProps }>>([])
 
+  const removeToast = React.useCallback((id: string) => {
+    setToasts((prev) => prev.filter((t) => t.id !== id))
+  }, [])
+
   const addToast = React.useCallback((props: Omit<ToastProps, "onClose">) => {
     const id = Math.random().toString(36).substring(2, 9)
     setToasts((prev) => [...prev, { id, props: { ...props, onClose: () => removeToast(id) } }])
     return id
-  }, [])
-
-  const removeToast = React.useCallback((id: string) => {
-    setToasts((prev) => prev.filter((t) => t.id !== id))
-  }, [])
+  }, [removeToast])
 
   const clearToasts = React.useCallback(() => {
     setToasts([])
