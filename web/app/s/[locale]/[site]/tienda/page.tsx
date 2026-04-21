@@ -51,6 +51,17 @@ export default async function StorePage({
             <p className="text-[color:var(--text-muted,#6b7280)]">
               {search ? `No encontramos productos para "${search}".` : 'Estamos cargando nuestro catálogo. Volvé pronto.'}
             </p>
+            {!search && business.whatsappNumber ? (
+              <a
+                href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Hola, me interesa comprar en ${business.name}.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[#25D366] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
+              >
+                <span aria-hidden="true">💬</span>
+                Consultar por WhatsApp
+              </a>
+            ) : null}
           </div>
         ) : (
           <div className="mt-6 grid grid-cols-1 gap-4 min-[420px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 lg:gap-6">

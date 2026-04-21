@@ -9,6 +9,9 @@ export interface ResolvedBusiness {
   currency: string
   /** Preferred payment provider hint, surfaced from registry/data_json. */
   preferredProvider?: string
+  /** WhatsApp number from the tenant's content blob, if set. Digits only,
+   * no `+`, ready to drop into a `wa.me/<digits>` URL. */
+  whatsappNumber?: string
 }
 
 /**
@@ -36,8 +39,18 @@ export async function resolveBusinessBySlug(slug: string): Promise<ResolvedBusin
   }
   if (!data) return null
 
-  const commerceCfg = (data.data_json as { commerce?: { currency?: string; provider?: string } } | null)?.commerce
+  const dataJson = data.data_json as {
+    commerce?: { currency?: string; provider?: string }
+    content?: { contact?: { whatsapp?: string }; whatsapp?: string }
+  } | null
+  const commerceCfg = dataJson?.commerce
   const currency = commerceCfg?.currency ?? 'PYG'
+
+  // Tenants store WhatsApp in either content.contact.whatsapp (preferred,
+  // matches the registry contact section) or content.whatsapp (older
+  // fixtures). Strip non-digits so the value is always wa.me-ready.
+  const rawWhatsapp = dataJson?.content?.contact?.whatsapp ?? dataJson?.content?.whatsapp
+  const whatsappNumber = rawWhatsapp ? rawWhatsapp.replace(/\D/g, '') || undefined : undefined
 
   return {
     id: data.id,
@@ -46,5 +59,6 @@ export async function resolveBusinessBySlug(slug: string): Promise<ResolvedBusin
     type: data.type,
     currency,
     preferredProvider: commerceCfg?.provider,
+    whatsappNumber,
   }
 }
