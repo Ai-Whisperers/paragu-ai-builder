@@ -295,9 +295,21 @@ export function TiendaToolbar({
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 4h18M6 12h12M10 20h4" />
           </svg>
           Filtros
-          {(initialCategories.length > 0 || initialBrands.length > 0 || initialTags.length > 0 || initialMinPrice || initialMaxPrice || initialInStockOnly || initialOnSaleOnly) ? (
-            <span className="rounded-full bg-[color:var(--secondary,#b8860b)] px-1.5 py-0.5 text-[10px] font-semibold text-white">•</span>
-          ) : null}
+          {(() => {
+            const n =
+              initialCategories.length +
+              initialBrands.length +
+              initialTags.length +
+              (initialMinPrice || initialMaxPrice ? 1 : 0) +
+              (initialInStockOnly ? 1 : 0) +
+              (initialOnSaleOnly ? 1 : 0)
+            if (n === 0) return null
+            return (
+              <span className="inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-[color:var(--secondary,#b8860b)] px-1.5 py-0.5 text-[10px] font-semibold text-white">
+                {n}
+              </span>
+            )
+          })()}
         </span>
         <span aria-hidden="true">{advancedOpen ? '▲' : '▼'}</span>
       </button>
