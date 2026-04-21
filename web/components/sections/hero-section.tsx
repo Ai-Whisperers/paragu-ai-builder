@@ -15,6 +15,13 @@ export interface HeroSectionProps {
   ctaSecondaryText?: string
   ctaSecondaryHref?: string
   backgroundImage?: string
+  /**
+   * Optional portrait-orientation variant of the hero background. When set
+   * we emit a `<picture>` with a mobile `<source>` (max-width: 640px) so
+   * phones download a smaller image instead of cropping the desktop one.
+   * Falls back to `backgroundImage` only. Backward-compatible.
+   */
+  backgroundImageMobile?: string
   enhanced?: boolean
   useGradient?: boolean
   gradientVariant?: 'primary-secondary' | 'secondary-accent' | 'primary-accent' | 'mesh-1' | 'mesh-2'
@@ -48,6 +55,7 @@ export function HeroSection({
   ctaSecondaryText,
   ctaSecondaryHref = '#servicios',
   backgroundImage,
+  backgroundImageMobile,
   enhanced = true,
   useGradient = true,
   gradientVariant = 'primary-secondary',
@@ -130,12 +138,35 @@ export function HeroSection({
     </GlassCard>
   ) : content
 
-  const backgroundStyle = backgroundImage
+  // When both desktop and mobile variants are set, we stop using CSS
+  // background-image on the section root and render a real <picture> so
+  // the browser can pick the best source. The dark overlay still lives on
+  // an absolute layer above the picture.
+  const useResponsivePicture = Boolean(backgroundImage && backgroundImageMobile)
+  const backgroundStyle = backgroundImage && !useResponsivePicture
     ? { backgroundImage: `linear-gradient(rgba(15, 30, 50, 0.7), rgba(15, 30, 50, 0.8)), url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
     : undefined
 
   return (
     <section className={cn("relative flex min-h-[80vh] sm:min-h-[85vh] items-center justify-center overflow-hidden pt-20 sm:pt-24", !backgroundImage && !useGradient && "bg-[var(--primary)]")} style={backgroundStyle}>
+      {useResponsivePicture && backgroundImage && (
+        <picture aria-hidden="true" className="pointer-events-none absolute inset-0 h-full w-full">
+          {backgroundImageMobile && (
+            <source media="(max-width: 640px)" srcSet={backgroundImageMobile} />
+          )}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={backgroundImage}
+            alt=""
+            className="h-full w-full object-cover"
+            loading="eager"
+            decoding="async"
+          />
+        </picture>
+      )}
+      {useResponsivePicture && (
+        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(15,30,50,0.7)] to-[rgba(15,30,50,0.8)] pointer-events-none" />
+      )}
       {useGradient && !backgroundImage && (
         <GradientBackground variant={gradientVariant} animated={enhanced} className="absolute inset-0" />
       )}

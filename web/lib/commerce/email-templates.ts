@@ -48,6 +48,16 @@ export function orderPaidEmail({ order, businessName, storeUrl }: Context) {
 }
 
 export function orderShippedEmail({ order, businessName, storeUrl }: Context) {
+  const trackingBlock =
+    order.trackingCarrier || order.trackingNumber || order.trackingUrl
+      ? `
+  <div style="margin:16px 0;padding:12px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;">
+    <p style="margin:0 0 4px 0;font-size:12px;font-weight:600;text-transform:uppercase;color:#6b7280;">Seguimiento</p>
+    ${order.trackingCarrier ? `<p style="margin:0;">${escape(order.trackingCarrier)}</p>` : ''}
+    ${order.trackingNumber ? `<p style="margin:0;font-family:monospace;">${escape(order.trackingNumber)}</p>` : ''}
+    ${order.trackingUrl ? `<p style="margin:4px 0 0 0;"><a href="${escape(order.trackingUrl)}" style="color:#111;font-size:13px;">Ver en el transportista →</a></p>` : ''}
+  </div>`
+      : ''
   return {
     subject: `Tu pedido ${order.orderNumber} fue enviado — ${businessName}`,
     html: `
@@ -55,6 +65,7 @@ export function orderShippedEmail({ order, businessName, storeUrl }: Context) {
   <h1 style="font-size:20px;">¡Tu pedido salió!</h1>
   <p>Hola ${escape(order.customerName)},</p>
   <p>Despachamos tu orden <strong>${order.orderNumber}</strong>. Te avisamos cuando esté entregada.</p>
+  ${trackingBlock}
   <p><a href="${storeUrl}" style="color:#111;">Ver mi orden</a></p>
 </body></html>`.trim(),
   }

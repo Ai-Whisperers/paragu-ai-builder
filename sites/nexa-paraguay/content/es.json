@@ -21,22 +21,6 @@
         "href": "/s/es/nexa-paraguay/programas"
       },
       {
-        "label": "Asistente",
-        "href": "/s/es/nexa-paraguay/asistente"
-      },
-      {
-        "label": "Comparación",
-        "href": "/s/es/nexa-paraguay/comparacion"
-      },
-      {
-        "label": "Jurisdicciones",
-        "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
-        "label": "Calidad de vida",
-        "href": "/s/es/nexa-paraguay/calidad-de-vida"
-      },
-      {
         "label": "Por qué Paraguay",
         "href": "/s/es/nexa-paraguay/por-que-paraguay"
       },
@@ -49,14 +33,6 @@
         "href": "/s/es/nexa-paraguay/sobre"
       },
       {
-        "label": "Casos",
-        "href": "/s/es/nexa-paraguay/casos-de-exito"
-      },
-      {
-        "label": "Fundador",
-        "href": "/s/es/nexa-paraguay/fundador"
-      },
-      {
         "label": "FAQ",
         "href": "/s/es/nexa-paraguay/faq"
       },
@@ -65,8 +41,8 @@
         "href": "/s/es/nexa-paraguay/blog"
       },
       {
-        "label": "Recursos",
-        "href": "/s/es/nexa-paraguay/recursos"
+        "label": "Prensa",
+        "href": "/s/es/nexa-paraguay/prensa"
       },
       {
         "label": "Contacto",
@@ -87,7 +63,9 @@
       "ctaPrimaryText": "Agendar consulta gratuita",
       "ctaPrimaryHref": "/s/es/nexa-paraguay/contacto",
       "ctaSecondaryText": "Ver programas",
-      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedEs",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Por qué Nexa Paraguay",
@@ -96,22 +74,26 @@
         {
           "icon": "Package",
           "title": "Un solo programa",
-          "description": "Residencia, sociedad y cuenta bancaria integrados."
+          "description": "Residencia, sociedad y cuenta bancaria integrados.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Un solo viaje",
-          "description": "Tramitación presencial en una jornada coordinada."
+          "description": "Tramitación presencial en una jornada coordinada.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Un solo equipo",
-          "description": "Abogados, contadores, escribanos, asesores financieros."
+          "description": "Abogados, contadores, escribanos, asesores financieros.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Precio transparente",
-          "description": "Todo incluido. Sin cargos ocultos."
+          "description": "Todo incluido. Sin cargos ocultos.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -134,7 +116,10 @@
             "Acompañamiento logístico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -153,7 +138,10 @@
             "Honorarios, IVA y tasas incluidas"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -169,7 +157,10 @@
             "Acceso directo al equipo técnico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -185,7 +176,10 @@
             "Inscripción registral"
           ],
           "ctaLabel": "Consultar",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -208,17 +202,8 @@
             "Impuesto corporativo {{taxRate}}",
             "Sistema territorial",
             "Economía abierta"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Oportunidades de inversión",
-          "description": "Mercado inmobiliario en desarrollo, agroindustria consolidada, economía abierta.",
-          "bullets": [
-            "Inmobiliario en expansión",
-            "Agroindustria líder",
-            "Ecosistema emprendedor joven"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -228,7 +213,19 @@
             "Costo de vida favorable",
             "Comunidad internacional",
             "Seguridad personal"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Estabilidad fiscal",
+          "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+          "bullets": [
+            "Sistema territorial",
+            "Marco regulatorio estable",
+            "Sin impuesto sobre rentas extranjeras"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "La oportunidad es real, pero el proceso no es sencillo sin guía adecuada. Existimos para resolver exactamente eso."
@@ -244,31 +241,46 @@
           "number": 1,
           "title": "Consulta inicial",
           "description": "Evaluamos su situación, objetivos y programa adecuado.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Validación documental",
           "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Jornada operativa",
           "description": "En un solo día, ejecutamos todos los trámites presenciales.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Sociedad y banca",
           "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Entrega y seguimiento",
           "description": "Recibe documentos definitivos y cerramos el programa.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -277,9 +289,6 @@
       "subtitle": "Agende una consulta gratuita de 30 minutos.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
-    },
-    "taxCalculator": {
-      "ctaHref": "/s/es/nexa-paraguay/contacto"
     }
   },
   "programasPage": {
@@ -310,7 +319,10 @@
             "Acompañamiento logístico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -329,7 +341,10 @@
             "Honorarios, IVA y tasas incluidas"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -345,7 +360,10 @@
             "Acceso directo al equipo técnico"
           ],
           "ctaLabel": "Solicitar consulta",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -361,7 +379,10 @@
             "Inscripción registral"
           ],
           "ctaLabel": "Consultar",
-          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -518,7 +539,8 @@
             "Impuesto corporativo {{taxRate}}",
             "Sistema territorial",
             "Economía abierta"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
@@ -528,7 +550,8 @@
             "Inmobiliario en expansión",
             "Agroindustria líder",
             "Ecosistema emprendedor joven"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
@@ -538,7 +561,44 @@
             "Costo de vida favorable",
             "Comunidad internacional",
             "Seguridad personal"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Estabilidad fiscal",
+          "description": "Régimen territorial con reglas transparentes y un entorno fiscal predecible.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Trayectoria de crecimiento",
+          "description": "Crecimiento del PIB consistente y desarrollo urbano visible en Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Potencia agroindustrial",
+          "description": "Uno de los mayores exportadores mundiales de soja y carne, con mercados activos de tierras.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "Comunidad internacional",
+          "description": "Comunidad creciente de expatriados e inversionistas que comparten conocimiento en terreno.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Naturaleza y espacio verde",
+          "description": "Parques y paisajes accesibles sin el ruido de las capitales saturadas.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Cultura y vida diaria",
+          "description": "Tereré, chipa, hospitalidad cálida — detalles que hacen Paraguay habitable a largo plazo.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },
@@ -549,22 +609,26 @@
         {
           "icon": "Package",
           "title": "Un solo programa",
-          "description": "Residencia, sociedad y cuenta bancaria integrados."
+          "description": "Residencia, sociedad y cuenta bancaria integrados.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Un solo viaje",
-          "description": "Tramitación presencial en una jornada coordinada."
+          "description": "Tramitación presencial en una jornada coordinada.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Un solo equipo",
-          "description": "Abogados, contadores, escribanos, asesores financieros."
+          "description": "Abogados, contadores, escribanos, asesores financieros.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Precio transparente",
-          "description": "Todo incluido. Sin cargos ocultos."
+          "description": "Todo incluido. Sin cargos ocultos.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -595,31 +659,46 @@
           "number": 1,
           "title": "Consulta inicial",
           "description": "Evaluamos su situación, objetivos y programa adecuado.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Validación documental",
           "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Jornada operativa",
           "description": "En un solo día, ejecutamos todos los trámites presenciales.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Sociedad y banca",
           "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Entrega y seguimiento",
           "description": "Recibe documentos definitivos y cerramos el programa.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -683,24 +762,35 @@
         {
           "name": "Dirección de Operaciones (Paraguay)",
           "role": "Liderazgo operativo, relaciones institucionales",
-          "icon": "Briefcase"
+          "icon": "Briefcase",
+          "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Dirección Comercial (Europa)",
           "role": "Adquisición de clientes, puente cultural",
-          "icon": "Globe"
+          "icon": "Globe",
+          "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Equipo Legal",
           "role": "Expedientes migratorios, constitución societaria",
-          "icon": "Scale"
+          "icon": "Scale",
+          "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Equipo Contable",
           "role": "Gestión fiscal, cumplimiento tributario",
-          "icon": "Calculator"
+          "icon": "Calculator",
+          "imageUrl": "@src:team.accountingLead"
+        },
+        {
+          "name": "Client Success",
+          "role": "Onboarding, coordinación y acompañamiento a largo plazo",
+          "icon": "UserCheck",
+          "imageUrl": "@src:team.clientSuccess"
         }
-      ]
+      ],
+      "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json."
     },
     "trust": {
       "eyebrow": "Por qué Nexa Paraguay",
@@ -709,22 +799,26 @@
         {
           "icon": "Package",
           "title": "Un solo programa",
-          "description": "Residencia, sociedad y cuenta bancaria integrados."
+          "description": "Residencia, sociedad y cuenta bancaria integrados.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "Un solo viaje",
-          "description": "Tramitación presencial en una jornada coordinada."
+          "description": "Tramitación presencial en una jornada coordinada.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "Un solo equipo",
-          "description": "Abogados, contadores, escribanos, asesores financieros."
+          "description": "Abogados, contadores, escribanos, asesores financieros.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Precio transparente",
-          "description": "Todo incluido. Sin cargos ocultos."
+          "description": "Todo incluido. Sin cargos ocultos.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -733,6 +827,29 @@
       "subtitle": "Agende una consulta gratuita de 30 minutos.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
+    },
+    "gallery": {
+      "title": "Nuestra oficina en Asunción",
+      "subtitle": "Donde consulta, firma y banco realmente ocurren. Placeholders de IA abajo — reemplazar por fotos reales antes del lanzamiento.",
+      "columns": 3,
+      "images": [
+        {
+          "$img": "office.exterior"
+        },
+        {
+          "$img": "office.reception"
+        },
+        {
+          "$img": "office.meetingRoom"
+        },
+        {
+          "$img": "office.signing"
+        },
+        {
+          "$img": "office.teamHuddle"
+        }
+      ],
+      "lightbox": true
     }
   },
   "faqPage": {
@@ -929,16 +1046,8 @@
         "href": "/s/es/nexa-paraguay/por-que-paraguay"
       },
       {
-        "label": "Calidad de vida",
-        "href": "/s/es/nexa-paraguay/calidad-de-vida"
-      },
-      {
-        "label": "Jurisdicciones",
-        "href": "/s/es/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
-      },
-      {
-        "label": "Glosario",
-        "href": "/s/es/nexa-paraguay/glosario"
+        "label": "Prensa",
+        "href": "/s/es/nexa-paraguay/prensa"
       }
     ]
   },
@@ -1062,728 +1171,487 @@
       }
     ]
   },
-  "whatsapp": {
-    "phone": "595982515138",
-    "message": "Hola, quiero saber más sobre los programas de Nexa Paraguay."
-  },
-  "comparisonPage": {
+  "landingInversor": {
     "seo": {
-      "title": "Comparación: Nexa vs alternativas — Nexa Paraguay",
-      "description": "Cómo se compara Nexa con hacer el trámite solo, con Paraguay Pathways o con un gestor paraguayo típico."
+      "title": "Paraguay para inversionistas — un camino estructurado",
+      "description": "Residencia, empresa, cuenta bancaria y compra de tierras — un programa inversor integrado. Sin sorpresas."
     },
     "hero": {
-      "headline": "¿Nexa, DIY o un gestor?",
-      "subheadline": "Comparación honesta de las opciones reales para establecer su operación en Paraguay."
+      "eyebrow": "Programa inversionista",
+      "headline": "Paraguay, estructurado para inversionistas.",
+      "subheadline": "Residencia, empresa, cuenta bancaria y acompañamiento contable por 12 meses — integrado, transparente, ejecutado por un equipo profesional local.",
+      "ctaPrimaryText": "Agendá una consulta gratuita de 30 min",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-hero-primary-es",
+      "ctaSecondaryText": "Ver el programa inversor",
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
+      "backgroundImage": "@img:whyParaguay.growth"
     },
-    "matrix": {
-      "eyebrow": "Comparación",
-      "title": "Qué obtiene con cada opción",
-      "subtitle": "Datos basados en experiencia real, no en marketing. Si nuestra comparación parece injusta, escríbanos y la revisamos.",
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "4 pasos, 8–12 semanas",
+      "totalDuration": "Total típico: 8–12 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-process-es",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consulta",
+          "description": "Revisamos tu situación y definimos el programa.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Prevalidación",
+          "description": "Documentos revisados antes de viajar.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Día operativo",
+          "description": "Residencia, empresa y banco en un solo día coordinado.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Entrega",
+          "description": "Documentos finales y continuidad contable.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Recomendado",
+      "title": "Programa Inversor",
+      "subtitle": "Todo lo necesario para operar en Paraguay — más 12 meses de acompañamiento.",
       "tiers": [
         {
-          "id": "nexa",
-          "name": "Nexa Paraguay",
-          "description": "Equipo local en Asunción + comercial en Europa",
+          "id": "investor",
+          "name": "Paraguay Inversor",
+          "description": "Residencia + empresa + banco + 12 meses de apoyo.",
+          "price": "USD 6,900+",
+          "priceNote": "Precio inicial. Cotización final según requerimientos.",
           "highlighted": true,
-          "badge": "Recomendado",
-          "price": "USD 4.400+",
-          "priceNote": "Paquete integral con garantías de ejecución",
-          "included": [],
-          "ctaLabel": "Agendar consulta gratuita",
-          "ctaHref": "/s/es/nexa-paraguay/contacto"
-        },
-        {
-          "id": "diy",
-          "name": "Solo (DIY)",
-          "description": "Usted contrata abogado + contador + escribano directo",
-          "price": "USD 1.500–3.000",
-          "priceNote": "Depende de qué tan bien negocie cada honorario",
-          "included": [],
-          "ctaLabel": "Ver proceso",
-          "ctaHref": "/s/es/nexa-paraguay/proceso"
-        },
-        {
-          "id": "pathways",
-          "name": "Paraguay Pathways",
-          "description": "Firma dominante, ICP americano/canadiense, enfoque real-estate",
-          "price": "USD 5.000+",
-          "priceNote": "Pricing referencial público a abril 2026",
-          "included": [],
-          "ctaLabel": "Visitar sitio",
-          "ctaHref": "https://paraguaypathways.com"
-        },
-        {
-          "id": "gestor",
-          "name": "Gestor paraguayo típico",
-          "description": "Tramitador local sin presencia ni comunicación en Europa",
-          "price": "USD 800–2.500",
-          "priceNote": "Precio bajo pero sin SLA, sin garantía",
-          "included": [],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ],
-      "comparisonRows": [
-        {
-          "feature": "Residencia permanente + cédula paraguaya",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ]
-        },
-        {
-          "feature": "Constitución de sociedad (SA/SRL) + RUC",
-          "values": [
-            true,
-            true,
-            true,
-            true
-          ]
-        },
-        {
-          "feature": "Apertura de cuenta bancaria (coordinación bancaria)",
-          "values": [
-            true,
-            false,
-            true,
-            "Depende"
-          ]
-        },
-        {
-          "feature": "Validación documental previa al viaje",
-          "values": [
-            true,
-            false,
-            "Parcial",
-            false
-          ]
-        },
-        {
-          "feature": "Jornada operativa de 1 día",
-          "values": [
-            true,
-            false,
-            "Parcial",
-            false
-          ]
-        },
-        {
-          "feature": "Equipo multidisciplinario coordinado",
-          "values": [
-            true,
-            "Usted coordina",
-            true,
-            false
-          ]
-        },
-        {
-          "feature": "Comunicación en inglés / holandés / alemán",
-          "values": [
-            true,
-            "Depende de cada profesional",
-            "Inglés",
-            false
-          ]
-        },
-        {
-          "feature": "Response time garantizado (SLA 24h hábiles)",
-          "values": [
-            true,
-            false,
-            "No publicado",
-            false
-          ]
-        },
-        {
-          "feature": "Contabilidad + asesoría fiscal 12 meses",
-          "values": [
-            "Tier Investor",
-            false,
-            "Upsell",
-            false
-          ]
-        },
-        {
-          "feature": "Análisis de inversiones + compra de tierras",
-          "values": [
-            true,
-            false,
-            "Tier superior",
-            false
-          ]
-        },
-        {
-          "feature": "Precio transparente all-in publicado",
-          "values": [
-            true,
-            "Nunca",
-            "Parcial",
-            false
-          ]
-        },
-        {
-          "feature": "Sociedad paraguaya + RUC en footer",
-          "values": [
-            "Al lanzamiento",
-            "N/A",
-            true,
-            "Depende"
-          ]
-        },
-        {
-          "feature": "Proceso documentado (SOPs + checklist)",
-          "values": [
-            true,
-            false,
-            "Parcial",
-            false
-          ]
-        },
-        {
-          "feature": "Tiempo hasta residencia",
-          "values": [
-            "8–12 semanas",
-            "12–20 semanas",
-            "10–14 semanas",
-            "Variable"
-          ]
+          "included": [
+            "Residencia paraguaya y cédula",
+            "Constitución de empresa + RUC",
+            "Cuenta bancaria corporativa",
+            "Contabilidad (12 meses)",
+            "Asesoría legal y fiscal (12 meses)",
+            "Acceso directo al equipo técnico"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-investor-es",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         }
       ]
     },
     "cta": {
-      "title": "¿Dudas sobre qué opción le conviene?",
-      "subtitle": "Le ayudamos a decidir — incluso si la respuesta no es Nexa.",
-      "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
-    }
-  },
-  "founderPage": {
-    "seo": {
-      "title": "Fundador — Nexa Paraguay",
-      "description": "Quién está detrás de Nexa Paraguay. Experiencia, visión y por qué existe esta firma."
+      "title": "¿Listo para estructurar tu proyecto?",
+      "subtitle": "Agendá una consulta gratuita de 30 minutos — español, inglés, holandés o alemán.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-final-es"
     },
-    "hero": {
-      "headline": "Fundador de Nexa Paraguay",
-      "subheadline": "[TODO cliente] Nombre completo, rol, y una línea sobre por qué fundó Nexa."
-    },
-    "team": {
-      "title": "Quién dirige Nexa",
-      "members": [
+    "trust": {
+      "eyebrow": "Lo que recibís",
+      "title": "Qué distingue al programa inversor",
+      "items": [
         {
-          "name": "[TODO: Nombre del fundador]",
-          "role": "[TODO: Fundador y Director de Operaciones]",
-          "icon": "Briefcase",
-          "bio": "[TODO cliente] Breve biografía: años en Paraguay, experiencia previa en relocación / legal / finanzas, idiomas que habla, LinkedIn. Este bloque aparece al hacer hover sobre la tarjeta."
-        }
-      ]
-    },
-    "story": {
-      "eyebrow": "La historia",
-      "title": "Por qué existe Nexa Paraguay",
-      "pillars": [
+          "icon": "TrendingUp",
+          "title": "Crecimiento estructurado",
+          "description": "Asesoría fiscal incluida por 12 meses — vos operás, nosotros cumplimos."
+        },
+        {
+          "icon": "Shield",
+          "title": "Confianza institucional",
+          "description": "Abogados, contadores y escribanos en un equipo coordinado."
+        },
         {
           "icon": "Users",
-          "title": "El problema que vimos",
-          "description": "[TODO cliente] Un párrafo: qué observó en el mercado que no estaba resuelto para inversores europeos mudándose a Paraguay."
+          "title": "Acceso directo",
+          "description": "Línea directa con el equipo técnico en todas las etapas."
         },
         {
-          "icon": "Target",
-          "title": "La decisión",
-          "description": "[TODO cliente] Un párrafo: por qué decidió fundar una firma propia en lugar de unirse a una existente, y qué hace diferente a Nexa."
-        },
-        {
-          "icon": "Heart",
-          "title": "El compromiso",
-          "description": "[TODO cliente] Un párrafo: qué garantiza Nexa al cliente, más allá del contrato. Response time, transparencia, honestidad sobre riesgos."
+          "icon": "LineChart",
+          "title": "Precio transparente",
+          "description": "Todo incluido. Sin costos ocultos."
         }
-      ],
-      "honestNote": "[TODO cliente] Una frase de cierre personal del fundador — qué significa para usted que un europeo confíe en Nexa para una decisión de esta magnitud."
-    },
-    "cta": {
-      "title": "¿Prefiere hablar directamente?",
-      "subtitle": "El fundador responde personalmente las consultas iniciales de europeos.",
-      "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
+      ]
     }
   },
-  "caseStudiesPage": {
+  "landingTrust": {
     "seo": {
-      "title": "Casos de éxito — Nexa Paraguay",
-      "description": "Historias reales de europeos que establecieron su residencia y operación en Paraguay con Nexa."
+      "title": "Confianza institucional, construida por profesionales locales",
+      "description": "Un sistema integrado, no una gestoría. Abogados, contadores, escribanos y asesores financieros."
     },
     "hero": {
-      "headline": "Casos de éxito",
-      "subheadline": "[TODO cliente] 1 línea sobre el tipo de clientes que trabajan con Nexa y sus resultados."
+      "eyebrow": "Confianza institucional",
+      "headline": "Gente seria. Estructura seria.",
+      "subheadline": "No somos una gestoría. Somos un equipo técnico multidisciplinario con capital relacional en bancos, escribanías y autoridades.",
+      "ctaPrimaryText": "Agendá una consulta gratuita",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-hero-primary-es",
+      "ctaSecondaryText": "Ver el proceso",
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
+      "backgroundImage": "@img:trust.migraciones"
     },
-    "testimonials": {
-      "eyebrow": "Clientes reales",
-      "title": "Qué obtuvieron nuestros clientes",
-      "subtitle": "[TODO cliente] Historias reales con nombre, país, programa y tiempo. Reemplazar los placeholders cuando tenga consentimiento de al menos 3 clientes reales.",
-      "testimonials": [
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Un proceso claro, sin improvisación",
+      "totalDuration": "Total típico: 8–12 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-process-es",
+      "steps": [
         {
-          "name": "[TODO: Nombre real del cliente]",
-          "role": "[TODO: Profesión / país de origen]",
-          "quote": "[TODO cliente] Cita real de 2-3 líneas sobre su experiencia trabajando con Nexa — qué esperaba, qué obtuvo, qué sorprendió. Pedir consentimiento escrito antes de publicar.",
-          "imageUrl": ""
+          "number": 1,
+          "title": "Consulta",
+          "description": "Revisamos tu caso antes de todo.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
-          "name": "[TODO: Nombre real del cliente]",
-          "role": "[TODO: Profesión / país de origen]",
-          "quote": "[TODO cliente] Cita real — idealmente con detalle específico (timeline, objeción previa superada, resultado concreto).",
-          "imageUrl": ""
+          "number": 2,
+          "title": "Prevalidación",
+          "description": "Todo verificado antes del viaje.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
-          "name": "[TODO: Nombre real del cliente]",
-          "role": "[TODO: Profesión / país de origen]",
-          "quote": "[TODO cliente] Cita real — idealmente de un perfil distinto a los otros dos (retirado vs fundador vs inversor) para cobertura del ICP.",
-          "imageUrl": ""
+          "number": 3,
+          "title": "Día operativo",
+          "description": "Todos los pasos presenciales en un día.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Entrega",
+          "description": "Documentos finales entregados personalmente.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Recomendado",
+      "title": "Paraguay Business",
+      "subtitle": "El programa central — un viaje, un equipo, un resultado integrado.",
+      "tiers": [
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residencia + empresa + cuenta bancaria.",
+          "price": "USD 4,400+",
+          "priceNote": "Precio inicial. Cotización final según requerimientos.",
+          "highlighted": true,
+          "included": [
+            "Residencia + cédula",
+            "Constitución de empresa + RUC",
+            "Cuenta bancaria corporativa",
+            "Tour inmobiliario estratégico",
+            "Honorarios, IVA e impuestos incluidos"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-business-es",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         }
       ]
     },
     "cta": {
-      "title": "¿Quiere ser el próximo?",
-      "subtitle": "Agende una consulta y conversamos sobre su caso específico.",
-      "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
+      "title": "Hacelo bien una sola vez",
+      "subtitle": "Agendá una consulta gratuita de 30 minutos con nuestro equipo.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-final-es"
+    },
+    "trust": {
+      "eyebrow": "Por qué Nexa",
+      "title": "Un sistema integrado",
+      "items": [
+        {
+          "icon": "Package",
+          "title": "Un programa",
+          "description": "Residencia, empresa y banco integrados."
+        },
+        {
+          "icon": "Plane",
+          "title": "Un viaje",
+          "description": "Todo lo presencial en un solo día coordinado."
+        },
+        {
+          "icon": "Users",
+          "title": "Un equipo",
+          "description": "Abogados, contadores, escribanos y asesores financieros."
+        },
+        {
+          "icon": "Shield",
+          "title": "Precio transparente",
+          "description": "Todo incluido. Sin costos ocultos."
+        }
+      ]
     }
   },
-  "resourcesPage": {
+  "landingLifestyle": {
     "seo": {
-      "title": "Recursos — Nexa Paraguay",
-      "description": "Guías gratuitas en PDF, checklists y comparativas para europeos evaluando Paraguay."
+      "title": "Una base más tranquila en Paraguay",
+      "description": "Buen clima, bajo costo de vida, comunidad internacional en crecimiento, sistema fiscal territorial."
     },
     "hero": {
-      "headline": "Recursos descargables",
-      "subheadline": "Guías, checklists y comparativas gratis. Sin formulario para el PDF en sí — la mayoría son directos."
+      "eyebrow": "Calidad de vida",
+      "headline": "Una base más tranquila en Paraguay.",
+      "subheadline": "Clima cálido, comunidad internacional en crecimiento, costo de vida favorable y un sistema tributario territorial que solo grava ingresos locales.",
+      "ctaPrimaryText": "Agendá una consulta gratuita",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-hero-primary-es",
+      "ctaSecondaryText": "Por qué Paraguay",
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
+      "backgroundImage": "@img:whyParaguay.lifestyle"
     },
-    "guides": {
-      "title": "Material disponible",
-      "columns": 2,
-      "features": [
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "4 pasos, un viaje",
+      "totalDuration": "Total típico: 8–12 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-process-es",
+      "steps": [
         {
-          "title": "[TODO PDF] Guía Residencia Paraguay 2026",
-          "description": "Proceso completo paso a paso, documentos requeridos, tiempos y costos. ~25 páginas.",
-          "icon": "FileText"
+          "number": 1,
+          "title": "Consulta",
+          "description": "Definimos el programa adecuado.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
-          "title": "[TODO PDF] Checklist documental para europeos",
-          "description": "Lista con apostillas, traducciones juradas y validaciones requeridas antes de viajar. 1 página.",
-          "icon": "CheckSquare"
+          "number": 2,
+          "title": "Prevalidación",
+          "description": "Documentos revisados antes del viaje.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
-          "title": "[TODO PDF] Paraguay vs Uruguay vs Panamá — comparación fiscal",
-          "description": "Tabla de comparación fiscal, regulatoria y de costos de vida entre las 3 jurisdicciones.",
-          "icon": "BarChart3"
+          "number": 3,
+          "title": "Día operativo",
+          "description": "Todo lo presencial en un día.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
-          "title": "[TODO PDF] Banca para extranjeros en Paraguay",
-          "description": "Qué bancos aceptan extranjeros, qué documentos piden, qué tasas cobran. Actualizado a 2026.",
-          "icon": "Banknote"
+          "number": 4,
+          "title": "Entrega",
+          "description": "Recibís documentos y cerramos el programa.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
-    "newsletter": {
-      "title": "¿Quiere las actualizaciones?",
-      "subtitle": "Newsletter mensual con cambios regulatorios y fiscales relevantes para europeos en Paraguay."
-    }
-  },
-  "qualityOfLifePage": {
-    "seo": {
-      "title": "Calidad de vida en Paraguay — Nexa Paraguay",
-      "description": "Asunción vs capitales europeas: costo de vida, seguridad, clima, comunidad internacional."
+    "programs": {
+      "eyebrow": "Recomendado",
+      "title": "Paraguay Base",
+      "subtitle": "El punto de partida más simple: residencia + cédula. Podés ampliar después.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Residencia paraguaya + cédula.",
+          "price": "USD 2,900",
+          "priceNote": "Paquete completo con honorarios e impuestos.",
+          "highlighted": true,
+          "included": [
+            "Residencia paraguaya",
+            "Cédula de identidad",
+            "Prevalidación de documentos",
+            "Día operativo presencial",
+            "Soporte logístico"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-base-es",
+          "image": {
+            "$img": "programs.tierBase"
+          }
+        }
+      ]
     },
-    "hero": {
-      "headline": "Calidad de vida en Asunción",
-      "subheadline": "Cómo se compara con Ámsterdam, Berlín, Madrid en lo que realmente importa."
+    "cta": {
+      "title": "Tu nuevo comienzo en Paraguay",
+      "subtitle": "Agendá una consulta gratuita de 30 minutos.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-final-es"
     },
-    "pillars": {
-      "eyebrow": "Por qué importa",
-      "title": "Lo que cambia cuando se muda a Paraguay",
+    "whyCountry": {
+      "eyebrow": "Lo que recibís",
+      "title": "Tres razones reales para mudarte",
       "pillars": [
         {
-          "icon": "DollarSign",
-          "title": "Costo de vida",
-          "description": "Un estilo de vida equivalente al de una capital europea cuesta 40–60% menos. Un apartamento de 2 ambientes en buena zona de Asunción: USD 500–900/mes.",
-          "bullets": [
-            "Vivienda 50% menor",
-            "Comida fuera 40% menor",
-            "Servicios domésticos accesibles"
-          ]
-        },
-        {
-          "icon": "Sun",
-          "title": "Clima",
-          "description": "Subtropical. Invierno suave (10–25°C), verano caluroso (25–38°C). Sin invierno europeo.",
-          "bullets": [
-            "Sol 280+ días/año",
-            "Sin calefacción anual",
-            "Estaciones templadas"
-          ]
+          "icon": "Heart",
+          "title": "Calidad de vida",
+          "description": "Clima cálido, costos accesibles, poder adquisitivo significativo.",
+          "imageUrl": "@src:whyParaguay.lifestyle"
         },
         {
           "icon": "Users",
           "title": "Comunidad internacional",
-          "description": "Comunidad creciente de europeos (alemanes, holandeses, españoles) radicados en Asunción. Eventos y grupos mensuales.",
-          "bullets": [
-            "Grupos expat activos",
-            "Escuelas internacionales",
-            "Restaurantes y cultura global"
-          ]
+          "description": "Comunidad creciente de expats e inversionistas.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Estabilidad fiscal",
+          "description": "Sistema territorial — ingresos externos no tributan en Paraguay.",
+          "imageUrl": "@src:whyParaguay.tax"
         }
-      ],
-      "honestNote": "No todo es mejor. El clima extremo en verano, la infraestructura de transporte público, y la distancia de Europa (vuelos vía São Paulo o Madrid) son trade-offs reales. Hable con un cliente actual antes de decidir."
+      ]
+    }
+  },
+  "landingEmpresa": {
+    "seo": {
+      "title": "Una empresa paraguaya, abierta correctamente",
+      "description": "Residencia + empresa + RUC + cuenta bancaria. Integrado en un programa con Nexa Paraguay."
     },
-    "comparison": {
-      "title": "Datos comparados (aproximados, 2026)",
-      "columns": 3,
-      "features": [
+    "hero": {
+      "eyebrow": "Apertura de empresa",
+      "headline": "Una empresa paraguaya, abierta correctamente.",
+      "subheadline": "Residencia, empresa, RUC y cuenta bancaria corporativa — integrado en un solo viaje, ejecutado por un equipo profesional local.",
+      "ctaPrimaryText": "Agendá una consulta gratuita",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-hero-primary-es",
+      "ctaSecondaryText": "Ver los programas",
+      "ctaSecondaryHref": "/s/es/nexa-paraguay/programas",
+      "backgroundImage": "@img:programs.tierBusiness"
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Abrir una empresa en 4 pasos",
+      "totalDuration": "Total típico: 8–12 semanas.",
+      "ctaLabel": "Iniciar mi proceso",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-process-es",
+      "steps": [
         {
-          "title": "Apartamento 2 ambientes (centro)",
-          "description": "Asunción: USD 600 / Madrid: USD 1.600 / Berlín: USD 1.800 / Ámsterdam: USD 2.200",
-          "icon": "Home"
+          "number": 1,
+          "title": "Consulta",
+          "description": "Mapeamos la estructura legal (típicamente EAS o SA).",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
-          "title": "Almuerzo ejecutivo",
-          "description": "Asunción: USD 7 / Madrid: USD 15 / Berlín: USD 18 / Ámsterdam: USD 22",
-          "icon": "Utensils"
+          "number": 2,
+          "title": "Prevalidación",
+          "description": "Todo revisado antes del viaje.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
-          "title": "Tarifa de internet fibra",
-          "description": "Asunción: USD 25/mes / Madrid: USD 35 / Berlín: USD 40 / Ámsterdam: USD 45",
-          "icon": "Wifi"
+          "number": 3,
+          "title": "Día operativo",
+          "description": "Constitución, RUC, escrituración — un solo día.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
-          "title": "Transporte privado (taxi/Uber x mes)",
-          "description": "Asunción: USD 60 / Madrid: USD 120 / Berlín: USD 150 / Ámsterdam: USD 180",
-          "icon": "Car"
-        },
-        {
-          "title": "Seguro médico privado premium",
-          "description": "Asunción: USD 80–150/mes / Europa: USD 200–450/mes",
-          "icon": "Heart"
-        },
-        {
-          "title": "Distancia aérea a Europa (una parada)",
-          "description": "Asunción ↔ Madrid vía GRU/MAD: ~14–18h, USD 1.000–1.500 ida y vuelta",
-          "icon": "Plane"
+          "number": 4,
+          "title": "Banco + entrega",
+          "description": "Cuenta abierta y documentos finales entregados.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
-    "cta": {
-      "title": "¿Pregunta sobre la vida cotidiana?",
-      "subtitle": "Hablamos con clientes ya radicados — podemos conectarlo con alguien que viva ahí hoy.",
-      "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
-    }
-  },
-  "jurisdictionCompPage": {
-    "seo": {
-      "title": "Paraguay vs Uruguay vs Panamá — comparación de jurisdicciones",
-      "description": "Comparación fiscal, regulatoria y de costos entre las 3 jurisdicciones latinoamericanas más elegidas por europeos."
-    },
-    "hero": {
-      "headline": "Paraguay, Uruguay o Panamá",
-      "subheadline": "Comparación honesta de las 3 jurisdicciones que los europeos comparan al decidir dónde mudarse."
-    },
-    "matrix": {
-      "eyebrow": "Comparación",
-      "title": "Qué ofrece cada jurisdicción",
-      "subtitle": "Datos aproximados a 2026. Consulte con su asesor fiscal antes de decidir — esto es orientativo.",
+    "programs": {
+      "eyebrow": "Recomendado",
+      "title": "Paraguay Business",
+      "subtitle": "Residencia + empresa + cuenta bancaria, integrado en un solo programa.",
       "tiers": [
         {
-          "id": "py",
-          "name": "Paraguay",
-          "description": "Sistema territorial, residencia rápida, costo de vida bajo",
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residencia + empresa + cuenta bancaria.",
+          "price": "USD 4,400+",
+          "priceNote": "Precio inicial. Cotización final según requerimientos.",
           "highlighted": true,
-          "badge": "Recomendado",
-          "price": "10% IRP",
-          "priceNote": "Impuesto sobre renta empresaria",
-          "included": [],
-          "ctaLabel": "Agendar consulta gratuita",
-          "ctaHref": "/s/es/nexa-paraguay/contacto"
-        },
-        {
-          "id": "uy",
-          "name": "Uruguay",
-          "description": "Estabilidad jurídica alta, tratados con UE, IRAE 25%",
-          "price": "25% IRAE",
-          "priceNote": "Impuesto a las rentas empresariales",
-          "included": [],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        },
-        {
-          "id": "pa",
-          "name": "Panamá",
-          "description": "Hub financiero, sistema territorial, residencia por inversión",
-          "price": "25% ISR",
-          "priceNote": "Impuesto sobre la renta corporativa",
-          "included": [],
-          "ctaLabel": "—",
-          "ctaHref": "#"
-        }
-      ],
-      "comparisonRows": [
-        {
-          "feature": "Impuesto corporativo (tasa general)",
-          "values": [
-            "10%",
-            "25%",
-            "25%"
-          ]
-        },
-        {
-          "feature": "Sistema fiscal",
-          "values": [
-            "Territorial (ingresos extranjeros exentos)",
-            "Mixto",
-            "Territorial"
-          ]
-        },
-        {
-          "feature": "IVA",
-          "values": [
-            "10%",
-            "22%",
-            "7%"
-          ]
-        },
-        {
-          "feature": "Impuesto a dividendos (no residente)",
-          "values": [
-            "15%",
-            "7%",
-            "10%"
-          ]
-        },
-        {
-          "feature": "Tiempo a residencia permanente",
-          "values": [
-            "8–12 semanas",
-            "3–6 meses",
-            "60–90 días (Amigos del País)"
-          ]
-        },
-        {
-          "feature": "Costo del programa de residencia (honorarios legales)",
-          "values": [
-            "USD 4.400–6.900",
-            "USD 8.000–15.000",
-            "USD 5.000–10.000"
-          ]
-        },
-        {
-          "feature": "Mínimo de inversión / capital exigido",
-          "values": [
-            "Ninguno (residencia ordinaria)",
-            "Variable según categoría",
-            "USD 0 Amigos / USD 300k Inversionista"
-          ]
-        },
-        {
-          "feature": "Tratados UE (doble imposición)",
-          "values": [
-            "Limitados — consulte según país UE",
-            "Amplia red incluyendo NL/DE/ES",
-            "Red media"
-          ]
-        },
-        {
-          "feature": "Estabilidad política (Índice de Libertad Económica 2025)",
-          "values": [
-            "Moderada",
-            "Alta (mejor de LATAM)",
-            "Alta"
-          ]
-        },
-        {
-          "feature": "Costo de vida vs UE (2-3h ciudad capital)",
-          "values": [
-            "40–60% menor",
-            "20–30% menor",
-            "15–25% menor"
-          ]
-        },
-        {
-          "feature": "Aptitud para trading / crypto",
-          "values": [
-            "Buena, poco regulado",
-            "Regulado, licencias claras",
-            "Regulado, hub financiero"
-          ]
-        },
-        {
-          "feature": "Acceso bancario para extranjeros",
-          "values": [
-            "Moderado — requiere gestión",
-            "Alto pero lento",
-            "Alto (hub)"
-          ]
-        },
-        {
-          "feature": "Lenguaje operativo local",
-          "values": [
-            "Español + guaraní",
-            "Español",
-            "Español + inglés"
-          ]
-        },
-        {
-          "feature": "Proximidad vuelos UE (1 escala)",
-          "values": [
-            "14–18h vía GRU/MAD",
-            "12–16h vía GRU/MAD",
-            "10–14h directos"
-          ]
-        },
-        {
-          "feature": "Adecuación para retirados europeos",
-          "values": [
-            "Alta",
-            "Muy alta",
-            "Alta"
-          ]
-        },
-        {
-          "feature": "Adecuación para emprendedores tech",
-          "values": [
-            "Alta (costos bajos)",
-            "Media",
-            "Alta (hub financiero)"
-          ]
-        },
-        {
-          "feature": "Riesgo de percepción 'paraíso fiscal' ante auditoría UE",
-          "values": [
-            "Bajo",
-            "Muy bajo",
-            "Moderado (listas grises históricas)"
-          ]
+          "included": [
+            "Residencia + cédula",
+            "Constitución de empresa + RUC",
+            "Cuenta bancaria corporativa",
+            "Tour inmobiliario estratégico",
+            "Honorarios, IVA e impuestos incluidos"
+          ],
+          "ctaLabel": "Solicitar consulta",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-business-es",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         }
       ]
     },
     "cta": {
-      "title": "¿Todavía dudando?",
-      "subtitle": "Le conectamos con clientes nuestros que evaluaron las 3 y pueden contar cómo decidieron.",
-      "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
-    }
-  },
-  "glossaryPage": {
-    "seo": {
-      "title": "Glosario — Nexa Paraguay",
-      "description": "Términos clave de residencia, fiscalidad y banca paraguaya explicados en lenguaje claro para europeos."
+      "title": "Abrí tu empresa paraguaya correctamente",
+      "subtitle": "Agendá una consulta gratuita de 30 minutos con nuestro equipo.",
+      "buttonText": "Agendar consulta",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-final-es"
     },
-    "hero": {
-      "headline": "Glosario",
-      "subheadline": "Términos legales, fiscales y bancarios que aparecen en el proceso, explicados en lenguaje claro."
-    },
-    "glossary": {
-      "title": "Términos clave",
+    "trust": {
+      "eyebrow": "Lo que recibís",
+      "title": "Qué cubre Paraguay Business",
       "items": [
         {
-          "q": "RUC (Registro Único del Contribuyente)",
-          "a": "Número fiscal paraguayo equivalente al NIF español, BSN holandés o Steuernummer alemán. Se obtiene tras la constitución de sociedad y es obligatorio para facturar desde Paraguay."
+          "icon": "Package",
+          "title": "Empresa + residencia",
+          "description": "Ambos procesos integrados — no se venden por separado."
         },
         {
-          "q": "Cédula de identidad paraguaya",
-          "a": "Documento de identidad para residentes permanentes en Paraguay. Equivale al DNI español. Necesario para abrir cuenta bancaria, firmar contratos y operar como residente."
+          "icon": "Landmark",
+          "title": "Cuenta bancaria",
+          "description": "Cuenta corporativa coordinada con nuestros bancos socios."
         },
         {
-          "q": "SEPRELAD (Secretaría de Prevención de Lavado de Dinero o Bienes)",
-          "a": "Autoridad paraguaya de prevención de lavado. Servicios regulados (consultoría legal, relocación, inmobiliaria) deben registrarse. Similar al FIU alemán o la FIU-NL."
+          "icon": "Users",
+          "title": "Equipo técnico",
+          "description": "Abogados, contadores y escribanos trabajando juntos."
         },
         {
-          "q": "Sistema territorial",
-          "a": "Paraguay grava solo ingresos de fuente paraguaya. Ingresos generados fuera del país (rentas, dividendos, servicios prestados en el exterior) no tributan en Paraguay. Es el beneficio fiscal central."
-        },
-        {
-          "q": "Apostilla (Convenio de La Haya)",
-          "a": "Sello internacional que certifica la autenticidad de un documento extranjero. Todos los documentos europeos (nacimiento, antecedentes penales, matrimonio) necesitan apostilla antes de presentarse en Paraguay."
-        },
-        {
-          "q": "IRP (Impuesto a la Renta Personal)",
-          "a": "Impuesto paraguayo sobre rentas personales, tasa general 10%. Aplica sobre ingresos de fuente paraguaya superiores a un umbral anual."
-        },
-        {
-          "q": "IRE (Impuesto a la Renta Empresarial)",
-          "a": "Impuesto corporativo paraguayo, tasa general 10%. Se aplica sobre utilidades de actividades empresariales de fuente paraguaya."
-        },
-        {
-          "q": "IVA (Impuesto al Valor Agregado)",
-          "a": "Impuesto al consumo paraguayo, tasa general 10% (5% para productos esenciales). Significativamente menor que el IVA europeo (19-22%)."
-        },
-        {
-          "q": "SA (Sociedad Anónima)",
-          "a": "Tipo societario paraguayo equivalente a la SA española, AG alemana, NV holandesa. Capital mínimo accesible, responsabilidad limitada al aporte, recomendada para estructuras con inversores externos."
-        },
-        {
-          "q": "SRL (Sociedad de Responsabilidad Limitada)",
-          "a": "Sociedad paraguaya equivalente a la SRL europea. Menor capital mínimo que la SA, gestión más simple. Recomendada para empresarios individuales o familiares."
-        },
-        {
-          "q": "EAS (Empresa por Acciones Simplificada)",
-          "a": "Tipo societario nuevo en Paraguay (ley 6480/2020). Formación rápida 100% digital, capital mínimo Gs 1, un solo accionista admitido. Equivale a la SLU española o UG alemana."
-        },
-        {
-          "q": "Residencia permanente",
-          "a": "Estatus migratorio indefinido en Paraguay. Permite vivir, trabajar e invertir libremente. Concedido tras la aprobación del expediente por Migraciones (8-12 semanas con documentación en orden)."
-        },
-        {
-          "q": "Residencia fiscal",
-          "a": "Concepto fiscal distinto a la residencia migratoria. Para ser residente fiscal paraguayo se requiere permanencia de 120+ días anuales o el centro de intereses económicos en Paraguay. Consultar con asesor para caso específico."
-        },
-        {
-          "q": "Tratado para evitar doble imposición (TDT/DTT)",
-          "a": "Acuerdo bilateral que evita que un ingreso tribute dos veces. Paraguay tiene red limitada de TDT; consultar con asesor fiscal europeo para su caso (especialmente España, Alemania, Holanda)."
-        },
-        {
-          "q": "MERCOSUR",
-          "a": "Bloque económico del Cono Sur (Argentina, Brasil, Paraguay, Uruguay). Residentes paraguayos pueden viajar libremente en MERCOSUR hasta 90 días sin visa adicional. Beneficio práctico importante."
-        },
-        {
-          "q": "Zona Franca",
-          "a": "Régimen especial de Paraguay que permite actividades de exportación con beneficios fiscales (IRE reducido al 0,5%, IVA exento). Requiere operaciones reales en zona franca — no es un vehículo fiscal puro."
-        },
-        {
-          "q": "Escrituración",
-          "a": "Firma del documento notarial que transfiere la propiedad de un inmueble. En Paraguay la realiza un escribano público. Es el acto equivalente a la escritura notarial española o la notarielle Urkunde alemana."
-        },
-        {
-          "q": "Inscripción registral",
-          "a": "Registro del título de propiedad en el Registro Público (propiedades) o Registro de Comercio (sociedades). Hace oponible el derecho frente a terceros. Paso final después de la escrituración."
-        },
-        {
-          "q": "Due diligence / auditoría legal",
-          "a": "Revisión previa a una operación (compra de inmueble, adquisición de empresa) para verificar título, cargas, deudas y cumplimiento normativo. Protege al comprador de sorpresas posteriores."
-        },
-        {
-          "q": "Guaraní (Gs)",
-          "a": "Moneda oficial de Paraguay. Tipo de cambio referencial aprox. 7.300 Gs/USD y 8.000 Gs/EUR (abril 2026, varía diariamente). La mayoría de contratos importantes se pactan en USD."
+          "icon": "Shield",
+          "title": "Precio transparente",
+          "description": "Honorarios, IVA e impuestos incluidos."
         }
       ]
-    },
-    "cta": {
-      "title": "¿Término no listado?",
-      "subtitle": "Escríbanos y lo agregamos al glosario con una explicación en su idioma.",
-      "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
     }
   },
-  "intakeWizardPage": {
-    "seo": {
-      "title": "Asistente — ¿Qué programa le conviene? — Nexa Paraguay",
-      "description": "4 preguntas breves para saber qué programa de Nexa Paraguay se adapta mejor a su situación."
-    },
-    "hero": {
-      "headline": "¿Qué programa le conviene?",
-      "subheadline": "4 preguntas. 60 segundos. Sin dejar email."
-    },
-    "wizard": {
-      "title": "Comencemos",
-      "subtitle": "Sus respuestas no se guardan. El resultado es solo una orientación — la consulta gratuita la confirma."
-    }
+  "whatsapp": {
+    "phone": "595982515138",
+    "message": "Hola, quiero saber más sobre los programas de Nexa Paraguay."
   }
 }

@@ -19,6 +19,21 @@ export interface ProgramTier {
   excluded?: string[]
   ctaLabel: string
   ctaHref: string
+  /**
+   * Optional top-banner image (16:9) rendered above the tier name in the
+   * `TierCards` variant. Accepts a bare URL or the `{src, alt}` object
+   * emitted by `{ $img: "programs.<key>" }`.
+   */
+  image?: string | { src: string; alt: string }
+}
+
+function tierImage(img: ProgramTier['image']): { src: string; alt: string } | null {
+  if (!img) return null
+  if (typeof img === 'string') return { src: img, alt: '' }
+  if (typeof img === 'object' && typeof img.src === 'string') {
+    return { src: img.src, alt: img.alt ?? '' }
+  }
+  return null
 }
 
 export interface ProgramsComparisonSectionProps {
@@ -91,11 +106,11 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
     <div className="grid gap-6 sm:gap-8 lg:grid-cols-2 xl:grid-cols-4">
       {tiers.map((tier, idx) => (
         <AnimateOnScroll key={tier.id} stagger={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
-          <article className={cn('relative flex h-full flex-col rounded-2xl transition-all duration-300',
+          <article className={cn('relative flex h-full flex-col overflow-hidden rounded-2xl transition-all duration-300',
               tier.highlighted ? 'bg-[var(--surface)] shadow-xl ring-2 ring-[var(--secondary)]' : 'bg-[var(--surface)] shadow-md hover:shadow-lg border border-[var(--surface-light)]'
             )} style={{ boxShadow: tier.highlighted ? '0 20px 50px -12px rgba(184, 134, 11, 0.25)' : undefined }}>
             {tier.badge && (
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
                 <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg" style={{ backgroundColor: 'var(--secondary)', color: '#ffffff' }}>
                   <Star size={12} fill="currentColor" />
                   {tier.badge}
@@ -103,7 +118,24 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               </div>
             )}
 
-            <div className={cn("p-6 sm:p-8 pb-6", tier.highlighted && "pt-10")}>
+            {(() => {
+              const img = tierImage(tier.image)
+              if (!img) return null
+              return (
+                <div className="aspect-[16/9] w-full overflow-hidden bg-[var(--surface-light)]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={img.src}
+                    alt={img.alt || tier.name}
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )
+            })()}
+
+            <div className={cn("p-6 sm:p-8 pb-6", tier.highlighted && !tier.image && "pt-10")}>
               <Heading level={3} className="text-xl sm:text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-heading)', color: 'var(--primary)' }}>
                 {tier.name}
               </Heading>

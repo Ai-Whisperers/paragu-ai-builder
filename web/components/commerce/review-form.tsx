@@ -105,7 +105,7 @@ export function ReviewForm({ siteSlug, productId }: Props) {
               placeholder="tu@email.com"
             />
             <span className="mt-1 block text-xs text-[color:var(--text-muted,#6b7280)]">
-              Si usás el mismo email que en tu pedido, tu reseña se marca como "Compra verificada".
+              Si usás el mismo email que en tu pedido, tu reseña se marca como &ldquo;Compra verificada&rdquo;.
             </span>
           </label>
           <label className="block text-sm">

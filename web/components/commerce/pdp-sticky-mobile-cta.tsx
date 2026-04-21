@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useCartStore } from '@/lib/stores/cart-store'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { trackAddToCart } from '@/lib/analytics/commerce-events'
 
 interface Props {
   siteSlug: string
@@ -68,6 +69,13 @@ export function PdpStickyMobileCta({
     setAdding(true)
     try {
       await addItem(siteSlug, productId, 1)
+      trackAddToCart({
+        itemId: productId,
+        itemName: productName,
+        price: priceCents,
+        currency,
+        quantity: 1,
+      })
     } finally {
       setAdding(false)
     }
