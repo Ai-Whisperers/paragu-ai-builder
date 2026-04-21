@@ -1,43 +1,41 @@
-# Commerce Go-Live Checklist
+# Commerce Go-Live Checklist (Pagopar primary)
 
-**Status as of 2026-04-20:** code shipped, DB migrated, env + systemd wired. 4 secrets still missing + 1 Supabase admin user + tenant selection.
+**Status:** code shipped via PRs #73-#77, DB migrated, env wired, systemd timers running. 4 secrets still missing (Pagopar × 2 + Resend) + 1 Supabase admin user + tenant selection.
+
+**Provider:** Pagopar (Paraguay-native — covers Bancard cards, Tigo Money, Aquí Pago / Pago Express cash kiosks, bank transfers, PIX). Mercado Pago was removed; full rationale in `docs/payments-latam-plan.md`.
 
 ---
 
-## 1. Mercado Pago prod credentials (15 min)
+## 1. Pagopar account + credentials (15 min)
 
-### 1a. Create / log into the MP dev panel
+### 1a. Sign up
 
-1. Go to <https://www.mercadopago.com.py/developers/panel>
-2. Log in with the business account that will receive payouts.
-3. Top-right: switch workspace from **"Test"** to **"Production"** (⚠️ test-mode tokens only work with sandbox cards and can't accept real money).
+1. <https://pagopar.com> → click **Planes** → choose **Básico** (Gs 49.000/mo, 1 comercio, transactions ilimitadas).
+2. Provide RUC + Bancard merchant agreement (or sign up for Bancard at the same time — Pagopar onboards both).
+3. If you want cash-kiosk acceptance (Aquí Pago / Pago Express / Wally), enable that add-on (+5.5% + IVA per transaction). Recommended for PY because ~40% of shoppers don't have cards.
 
-### 1b. Create an application
+### 1b. Collect tokens
 
-1. Left sidebar → **Your applications** → **Create application**
-2. Name: `Paragu-AI Storefront`
-3. Integration model: **Checkout Pro** (hosted redirect flow — matches what we built)
-4. Platform: **Web**
-5. Save.
+In the Pagopar dashboard → **Comercios** → your comercio → **Tokens API**:
 
-### 1c. Collect the 3 values
-
-From the application's **Credentials** tab, **Production** section:
-
-| MP panel label | `/etc/paragu-ai/env` key |
+| Pagopar label | `/etc/paragu-ai/env` key |
 |---|---|
-| `Access token` | `MP_ACCESS_TOKEN` |
-| `Public key` | `NEXT_PUBLIC_MP_PUBLIC_KEY` |
-| `Webhooks` → **Secret key** (click "Configure" first) | `MP_WEBHOOK_SECRET` |
+| `Public Token` | `PAGOPAR_PUBLIC_TOKEN` |
+| `Private Token` | `PAGOPAR_PRIVATE_TOKEN` |
 
-### 1d. Register the webhook URL
+### 1c. Register the webhook
 
-1. In the application, **Webhooks** → **Configure notifications**
-2. Mode: **Production**
-3. URL: `https://paragu-ai.com/api/webhooks/mercado-pago`
-4. Events: check `payment.created` and `payment.updated`
-5. Save → MP reveals the **Secret key** once — this is `MP_WEBHOOK_SECRET`
-6. Click **Test** — MP sends a probe. You should see `200 OK` or `401 invalid_signature` (both mean the route is live; 401 is expected until the secret is in the env file).
+Pagopar Dashboard → **Configuración** → **URL post confirmación**: `https://paragu-ai.com/api/webhooks/pagopar`
+
+Pagopar will POST to this URL after every payment state change. Webhook auth uses SHA1 of `(private_token + hash_pedido)` — the adapter verifies this automatically. No additional secret to register.
+
+### 1d. Sandbox vs production
+
+Pagopar uses the same API base for both — only the tokens differ:
+- Sandbox tokens for testing — set `PAGOPAR_ENVIRONMENT=sandbox`
+- Production tokens for real money — set `PAGOPAR_ENVIRONMENT=production`
+
+You can request sandbox tokens from Pagopar support. Test card numbers are listed in their docs.
 
 ---
 
@@ -46,9 +44,9 @@ From the application's **Credentials** tab, **Production** section:
 1. <https://resend.com> → sign up / log in.
 2. Add domain `paragu-ai.com` → follow DKIM/SPF DNS steps. Verify domain.
 3. **API Keys** → **Create API Key** → permission **Sending access**, scope **paragu-ai.com only**.
-4. Copy the key once (starts with `re_…`). This is `RESEND_API_KEY`.
+4. Copy the key (starts with `re_…`). This is `RESEND_API_KEY`.
 
-Also: set `COMMERCE_EMAIL_FROM=no-reply@paragu-ai.com` (or `tienda@paragu-ai.com`) — already defaults to the no-reply address in the env file.
+`COMMERCE_EMAIL_FROM` already defaults to `no-reply@paragu-ai.com` in the env file.
 
 ---
 
@@ -59,8 +57,12 @@ Also: set `COMMERCE_EMAIL_FROM=no-reply@paragu-ai.com` (or `tienda@paragu-ai.com
 ```bash
 ssh root@72.61.44.159
 vi /etc/paragu-ai/env
-# Replace each CHANGE_ME with the real value.
-# Keys are:  MP_ACCESS_TOKEN  MP_WEBHOOK_SECRET  NEXT_PUBLIC_MP_PUBLIC_KEY  RESEND_API_KEY
+# Replace each CHANGE_ME with the real value:
+#   PAGOPAR_PUBLIC_TOKEN
+#   PAGOPAR_PRIVATE_TOKEN
+#   RESEND_API_KEY
+# Optionally flip PAGOPAR_ENVIRONMENT=sandbox → production when ready.
+# (CRON_SECRET, COMMERCE_SESSION_SECRET, COMMERCE_CREDENTIALS_KEY are auto-generated.)
 ```
 
 Redeploy the service so the new env vars take effect:
@@ -72,18 +74,52 @@ docker stack deploy -c stack-prod.yml paragu-ai --with-registry-auth
 
 (Zero-downtime: `update_config.order: start-first` spins the new task up before stopping the old.)
 
-**Verify env is loaded** (no values printed, just keys):
+**Verify env is loaded:**
 
 ```bash
 docker service inspect paragu-ai_web \
   --format '{{json .Spec.TaskTemplate.ContainerSpec.Env}}' \
   | python3 -c "import sys,json; [print(e.split('=')[0]) for e in sorted(json.loads(sys.stdin.read()))]"
-# Expect 18 keys incl. MP_ACCESS_TOKEN, RESEND_API_KEY, CRON_SECRET, etc.
+# Expect 19+ keys including PAGOPAR_PUBLIC_TOKEN, PAGOPAR_PRIVATE_TOKEN,
+# COMMERCE_CREDENTIALS_KEY. MP_* should be gone after PR 1 deploys.
 ```
 
 ---
 
-## 4. Smoke test (5 min)
+## 4. Apply remaining migrations (1 min — I do this)
+
+After PRs #73-#77 merge, run these via Supabase MCP:
+- `20260422000000_commerce_pagopar.sql` (PR #73 → drops MP from CHECK, adds pagopar/dlocal)
+- `20260422000100_business_payment_credentials.sql` (PR #77 → encrypted credentials table)
+
+I'll handle this automatically via the Supabase MCP at merge time. No manual action needed unless you want to apply early.
+
+---
+
+## 5. Supabase admin user (1 min — I do this, but I need:)
+
+Tell me:
+
+- **Email** for the admin user (e.g. `admin@paragu-ai.com` or your personal email)
+- Whether you want a **temporary password** OR a **magic link** (recommended — you click to set your own password)
+
+Then I run the Supabase MCP `create user` and you're in at <https://paragu-ai.com/admin>.
+
+---
+
+## 6. Configure first merchant (5 min — after admin login)
+
+1. Pick a tenant (existing or new). Recommend `tienda-demo` for first real test.
+2. Visit `/admin/commerce/<businessId>/payments`
+3. Click **+ Pagopar (Paraguay)**
+4. Paste the merchant's **Public Token** + **Private Token**, set environment
+5. Save → tokens are AES-256-GCM encrypted before DB insert
+
+You can repeat for Bancard or dLocal once those adapters are added (Phase 2/3).
+
+---
+
+## 7. Smoke test (5 min)
 
 From your laptop:
 
@@ -91,14 +127,14 @@ From your laptop:
 # Health
 curl -s -o /dev/null -w "%{http_code}\n" https://paragu-ai.com/api/health
 
-# Webhook route (no body → 400 expected, proves route is live)
-curl -s -o /dev/null -w "%{http_code}\n" -X POST https://paragu-ai.com/api/webhooks/mercado-pago
+# Webhook route (no body → 400 expected, route is live)
+curl -s -o /dev/null -w "%{http_code}\n" -X POST https://paragu-ai.com/api/webhooks/pagopar
 
-# Cron routes with wrong secret → 403
+# Cron without secret → 403
 curl -s -o /dev/null -w "%{http_code}\n" -X POST -H 'x-cron-secret: wrong' https://paragu-ai.com/api/cron/commerce-email-flush
 ```
 
-Then in MP dashboard → webhook config → **Test**: MP sends a probe to `/api/webhooks/mercado-pago`. Should return 200 (or 401 if `MP_WEBHOOK_SECRET` doesn't match).
+Then in Pagopar dashboard → webhook config → **Probar** (if available): Pagopar sends a probe to `/api/webhooks/pagopar`. Should return 200 (or 401 if private token doesn't match).
 
 On the VPS, watch the systemd cron jobs:
 
@@ -110,58 +146,54 @@ journalctl -u 'commerce-cron@*' --since '5 min ago' --no-pager | tail -20
 
 ---
 
-## 5. Supabase admin user (1 min — I do this, but I need:)
+## 8. Full sandbox purchase (15 min)
 
-You tell me:
+1. Visit `https://paragu-ai.com/s/es/<tenant>/tienda` — confirm catalog renders
+2. Add a product to cart → checkout
+3. Pagopar redirects to its hosted checkout
+4. Use Pagopar's sandbox card (request from Pagopar support) → complete payment
+5. You land back at `/orden/<id>` with status "Estamos procesando tu pago"
+6. Within 30s the webhook fires and status flips to "¡Pago confirmado!"
+7. Resend sends the order-confirmation email (check inbox)
+8. Visit `/admin/commerce/<id>/orders/<id>` to see the timeline
 
-- **Email** for the admin user (e.g. `admin@paragu-ai.com` or your personal email)
-- Whether you want a **temporary password** (I generate it and paste once in chat) OR a **magic link** (you click to set your own password — recommended)
-
-Then I run the Supabase MCP `create user` and you're in at <https://paragu-ai.com/admin>.
-
----
-
-## 6. Pick the first tenant to enable commerce
-
-Options today:
-
-| Slug | Type | Notes |
-|---|---|---|
-| `dayah-litworks` | — | Real client, already deployed |
-| `de-abasto-a-casa` | `meal_prep` | Real client, `meal_prep` is not a retail_base descendant — would need a one-line registry edit |
-| Any `tienda_ropa` / `tienda_mascotas` / `tienda_bebes` tenant | retail_base | Commerce is already enabled by default on these types |
-| **New `tienda-demo` tenant** | `tienda_ropa` | Clean slate for the first real purchase — recommended |
-
-Tell me which and I'll:
-
-1. Create the business row (if new)
-2. Seed the starter catalog (5 products, stock-photo watermark)
-3. You visit `https://paragu-ai.com/s/es/<slug>/tienda` to verify the store renders
-4. We run a sandbox purchase with an MP test card
-5. Switch to prod MP and you run a real Gs 5.000 transaction + refund
+If steps 4-7 work end-to-end, flip `PAGOPAR_ENVIRONMENT=production` and the merchant tokens to production.
 
 ---
 
-## 7. Known gaps (non-blocking for MVP — Phase 2/3 polish)
+## 9. Real Gs 5.000 transaction + refund
+
+After production tokens are in:
+1. Buy something for Gs 5.000 from your own phone (different MP/Pagopar account)
+2. Verify funds arrive in merchant's Bancard account next business day (Tue/Fri settlement)
+3. From admin, click **Refund** (Phase 3 — for now do refund from Pagopar dashboard)
+4. Verify refund webhook fires + order state flips to `refunded`
+
+If all green: commerce is live for that merchant.
+
+---
+
+## 10. Known gaps (Phase 2/3 polish — non-blocking)
 
 | Gap | Impact | When to fix |
 |---|---|---|
-| No image upload UI in admin | Owner must paste image URLs | Before non-tech merchant onboards |
-| No discount code field in checkout | Discounts table works but shopper can't enter a code | Next sprint |
-| Abandoned-cart cron writes touch rows but no email | Recovery emails not sent yet | Phase 3 |
-| No refund button in admin | Refunds must be done from MP dashboard | When first refund request lands |
-| No shipping zone UI | Shipping cost is hardcoded 0 in checkout | Before charging real shipping |
+| No image upload UI in admin | Owner pastes URLs only | Before non-tech merchant onboards |
+| No discount code field in checkout | discounts table works but no shopper input | Next sprint |
+| Abandoned-cart cron writes touches but no email | Recovery emails not sent | Phase 3 |
+| No refund button in admin | Refund via Pagopar dashboard for now | When first refund request lands |
+| No shipping zone UI | Hardcoded shipping cost = 0 | Before charging real shipping |
+| Bancard / dLocal adapters not implemented | Only Pagopar works today | Phase 2/3 |
 
 ---
 
 ## Reference
 
-- **Commerce plan:** see conversation transcript (5 phases, ~40 files changed)
-- **Migrations applied:** `commerce_core`, `commerce_phase2`, `commerce_phase3`, `commerce_inventory_rpc`, `commerce_harden_search_path_and_mv`
-- **New env vars source-of-truth:** `/etc/paragu-ai/env` on VPS
-- **Backup of env file:** `/etc/paragu-ai/env.backup.YYYYMMDD-HHMMSS` (root-only)
-- **MP webhook URL:** `https://paragu-ai.com/api/webhooks/mercado-pago`
-- **Supabase project:** `paragu-ai` (ref `qyvokpribmbrosafntqa`, region us-west-2)
-- **VPS:** root@72.61.44.159 (Hostinger, Docker Swarm, `agent-net`)
-- **systemd timer units:** `/etc/systemd/system/commerce-cron@*.{service,timer}`
+- **Plan:** `docs/payments-latam-plan.md` — full LATAM strategy, PCI posture, banking flow
+- **PR chain:** #73 (MP rip) → #74 (Pagopar adapter) → #75 (router) → #77 (admin credentials) → this PR (env + docs)
+- **Migrations:** `commerce_core`, `commerce_phase2`, `commerce_phase3`, `commerce_inventory_rpc`, `commerce_harden_search_path_and_mv`, `commerce_pagopar`, `business_payment_credentials`
+- **Env file:** `/etc/paragu-ai/env` on VPS (root-only, chmod 600)
+- **Backups:** `/etc/paragu-ai/env.backup.YYYYMMDD-HHMMSS`
+- **Webhook URL:** `https://paragu-ai.com/api/webhooks/pagopar`
+- **Supabase project:** `paragu-ai` (ref `qyvokpribmbrosafntqa`)
+- **systemd timers:** `/etc/systemd/system/commerce-cron@*.{service,timer}` — `systemctl list-timers 'commerce-cron@*'`
 - **Disable a timer:** `systemctl disable --now commerce-cron@email-flush.timer`
