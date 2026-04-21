@@ -9344,6 +9344,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "modal"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "carousel"
+      },
+      {
         "content": "navigation",
         "id": "header",
         "variant": "standard"
@@ -9392,6 +9397,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.faq",
         "id": "faq",
         "variant": "accordion"
+      },
+      {
+        "content": "home.newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -17903,6 +17913,15 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Tu Tienda de Placer",
         "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion."
       },
+      "newsletter": {
+        "consentLabel": "Acepto recibir novedades y promociones de fun4me.",
+        "placeholder": "tu@email.com",
+        "submitLabel": "Suscribirme",
+        "subtitle": "Recibí avisos de lanzamientos, cupones exclusivos y guías de uso. Sin spam, sin compartir tu email.",
+        "successMessage": "Listo. Revisá tu casilla para confirmar.",
+        "tenantSlug": "fun4me",
+        "title": "Novedades fun4me"
+      },
       "partners": {
         "logos": [
           {
@@ -17957,6 +17976,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "enabled": true,
         "href": "/fun4me/store",
         "text": "Envio GRATIS en compras mayores a Gs. 200.000"
+      },
+      "promoBanner": {
+        "autoRotate": true,
+        "dismissible": true,
+        "position": "top",
+        "promotions": [
+          {
+            "bgColor": "#7c3aed",
+            "code": "BIENVENIDA10",
+            "description": "Usá el código BIENVENIDA10 al pagar y ahorrá 10%. Válido hasta fin de mes.",
+            "id": "bienvenida10",
+            "link": "/s/es/fun4me/tienda",
+            "textColor": "#ffffff",
+            "title": "Cupón BIENVENIDA10 — 10% OFF en tu primera compra"
+          },
+          {
+            "bgColor": "#0891b2",
+            "description": "Motoenvío gratis en Gran Asunción y encomienda sin cargo al interior.",
+            "id": "envio-gratis",
+            "link": "/s/es/fun4me/tienda",
+            "textColor": "#ffffff",
+            "title": "Envío gratis en pedidos sobre Gs 300.000"
+          }
+        ],
+        "rotateInterval": 6000,
+        "variant": "carousel"
       },
       "seo": {
         "description": "Juguetes para adultos, lenceria, accesorios y mas. Compra online con envio discreto a todo Paraguay. Tienda fisica en Asuncion. Solo mayores de 18.",
@@ -26698,7 +26743,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "team",
       "b2b-wholesale",
       "booking-embed",
-      "compliance-disclaimer-footer"
+      "compliance-disclaimer-footer",
+      "promo-banner",
+      "newsletter-signup"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",
