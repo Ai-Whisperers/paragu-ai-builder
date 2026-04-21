@@ -22,10 +22,11 @@ const __dirname = path.dirname(__filename)
 const PROJECT_ROOT = path.resolve(__dirname, '../..')
 
 // Sharp is transitively installed via Next.js — if it's absent we bail.
+// Dynamic import rather than top-level so a missing `sharp` exits with a
+// clear error instead of an unhandled module-resolution crash.
 let sharp: typeof import('sharp').default
 try {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  sharp = require('sharp') as typeof import('sharp').default
+  sharp = (await import('sharp')).default
 } catch (err) {
   console.error(
     '[convert-tenant-images] `sharp` is not available. Install it as a dev dep or run with Next.js present.',
