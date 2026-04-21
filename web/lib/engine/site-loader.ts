@@ -19,6 +19,7 @@ import type {
 } from './site-types'
 import {
   CONTENT,
+  IMAGES_MANIFESTS,
   PAGES,
   SITES,
   TENANT_TOKENS,
@@ -107,4 +108,17 @@ export function loadVerticalTokens(verticalId: string): Record<string, unknown> 
 
 export function loadSiteTokens(siteSlug: string): Record<string, unknown> {
   return (TENANT_TOKENS[siteSlug] as Record<string, unknown> | undefined) ?? {}
+}
+
+/**
+ * Returns the raw images manifest (as emitted into the generated bundle)
+ * for a tenant, or `null` when the tenant didn't ship one. Parsing into
+ * the typed `ImagesManifest` shape is the caller's responsibility — see
+ * `lib/engine/images-loader.ts` for the typed helpers.
+ */
+export function loadSiteImagesManifest(
+  siteSlug: string,
+): Record<string, unknown> | null {
+  const raw = (IMAGES_MANIFESTS as Record<string, unknown>)[siteSlug]
+  return (raw as Record<string, unknown> | undefined) ?? null
 }

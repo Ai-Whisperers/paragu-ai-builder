@@ -3,9 +3,11 @@ import type { Metadata } from 'next'
 import { composeSitePage } from '@/lib/engine/compose-site'
 import { renderPage } from '@/lib/engine/site-renderer'
 import { listSiteSlugs, loadSite, listPageSlugs, loadSiteContent } from '@/lib/engine/site-loader'
+import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { alternatesFor } from '@/lib/i18n/routing'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { jsonLdForPage } from '@/lib/engine/schema-org'
+import { buildLcpPreloadTags } from '@/lib/seo/lcp-preload'
 import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
 import { DemoBadge } from '@/components/universal/demo-badge'
@@ -83,6 +85,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const composed = composeSitePage({ siteSlug, locale, pageSlug })
     const site = composed.site
+    const pageDef = (composed.page ?? {}) as { hiddenFromSitemap?: boolean }
     const alternates = alternatesFor(siteSlug, site.locales, pageSlug === 'home' ? '' : pageSlug)
     const isDemo = Boolean((site as { is_demo?: boolean }).is_demo)
     // Point OG image at the tenant-specific handler at
@@ -92,26 +95,47 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // metadata auto-discovery), which leaks the generic ParaguAI OG to
     // every tenant's social shares.
     const ogImagePath = `/s/${locale}/${siteSlug}/opengraph-image`
+    // Prefer the tenant's pre-rendered brand assets when the images
+    // manifest ships them — favicon/apple-touch/OG all get resolved
+    // below and threaded into the Metadata object.
+    const manifest = loadImagesManifest(siteSlug)
+    const faviconAsset = resolveImage(manifest, 'brand.favicon')
+    const appleAsset = resolveImage(manifest, 'brand.appleTouchIcon')
+    const ogDefault = resolveImage(manifest, 'brand.ogDefault')
+    const twitterCardAsset = resolveImage(manifest, 'brand.twitterCard')
+
+    const icons: NonNullable<Metadata['icons']> = {}
+    if (faviconAsset) icons.icon = [{ url: faviconAsset.src }]
+    if (appleAsset) icons.apple = [{ url: appleAsset.src }]
+
+    const ogImageUrl = ogDefault?.src ?? ogImagePath
+    const twitterImageUrl = twitterCardAsset?.src ?? ogImageUrl
+
     return {
       title: composed.meta.title,
       description: composed.meta.description,
       alternates: { languages: alternates },
+      ...(Object.keys(icons).length > 0 && { icons }),
+      manifest: `/s/${locale}/${siteSlug}/manifest.webmanifest`,
       openGraph: {
         title: composed.meta.title,
         description: composed.meta.description,
         locale,
-        images: [{ url: ogImagePath, width: 1200, height: 630, alt: composed.meta.title }],
+        images: [{ url: ogImageUrl, width: 1200, height: 630, alt: composed.meta.title }],
       },
       twitter: {
         card: 'summary_large_image',
         title: composed.meta.title,
         description: composed.meta.description,
-        images: [ogImagePath],
+        images: [twitterImageUrl],
       },
       // Demo tenants must not compete in search with real client sites or
       // the marketing site itself. Excludes them from indexing while still
       // serving the page for prospects we link manually.
-      ...(isDemo && { robots: { index: false, follow: false } }),
+      // Hidden pages (`hiddenFromSitemap`) are ad landings — also noindex.
+      ...((isDemo || pageDef.hiddenFromSitemap) && {
+        robots: { index: false, follow: false },
+      }),
     }
   } catch {
     return { title: 'Not found' }
@@ -141,6 +165,28 @@ export default async function TenantPage({ params }: Props) {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
   const jsonLd = jsonLdForPage(composed, baseUrl)
 
+  // Preload the LCP hero image on home + landing pages. The hero section
+  // is the first composed section with id "hero" — pull its background
+  // image props so the browser can start the fetch before HTML parsing.
+  // We only emit preload tags for pages where the hero is above the fold
+  // (home + landings); deeper pages don't benefit because the hero is
+  // already the main content. Skip if the section ships without imagery.
+  const heroPages = new Set(['home', 'inversor', 'trust', 'lifestyle', 'empresa'])
+  const isHeroPage = heroPages.has(pageSlug)
+  const heroSection = isHeroPage
+    ? composed.sections.find((s) => s.id === 'hero')
+    : undefined
+  const heroProps = heroSection?.props as {
+    backgroundImage?: string
+    backgroundImageMobile?: string
+  } | undefined
+  const lcpPreloadTags = heroProps
+    ? buildLcpPreloadTags({
+        heroImage: heroProps.backgroundImage,
+        heroImageMobile: heroProps.backgroundImageMobile,
+      })
+    : []
+
   const verticalCopy = loadVerticalCopy(composed.site.vertical, composed.locale)
   const cookieCopy = (verticalCopy.common as Record<string, unknown> | undefined)?.cookieBanner as
     | { title: string; body: string; acceptAll: string; acceptEssential: string; manage: string; privacyLabel: string }
@@ -156,6 +202,21 @@ export default async function TenantPage({ params }: Props) {
       {composed.theme.googleFontsUrl && (
         <link rel="stylesheet" href={composed.theme.googleFontsUrl} />
       )}
+
+      {lcpPreloadTags.map((tag, i) => (
+        <link
+          // eslint-disable-next-line react/no-unknown-property
+          key={`lcp-${i}`}
+          rel={tag.rel}
+          as={tag.as}
+          href={tag.href}
+          {...(tag.media ? { media: tag.media } : {})}
+          // React's types for `fetchPriority` on <link> lag behind Next 15
+          // (lowercase was non-standard, camelCase became the React prop
+          // name in 19). Emit both to cover SSR + CSR serialization.
+          fetchPriority={tag.fetchPriority as 'high'}
+        />
+      ))}
 
       {jsonLd.map((item, i) => (
         <script

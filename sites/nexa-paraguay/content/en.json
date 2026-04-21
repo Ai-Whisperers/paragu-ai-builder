@@ -41,6 +41,10 @@
         "href": "/s/en/nexa-paraguay/blog"
       },
       {
+        "label": "Press",
+        "href": "/s/en/nexa-paraguay/prensa"
+      },
+      {
         "label": "Contact",
         "href": "/s/en/nexa-paraguay/contacto"
       }
@@ -59,7 +63,9 @@
       "ctaPrimaryText": "Book a free consultation",
       "ctaPrimaryHref": "/s/en/nexa-paraguay/contacto",
       "ctaSecondaryText": "See programs",
-      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas"
+      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
+      "backgroundImage": "@img:hero.localizedEn",
+      "backgroundImageMobile": "@img:hero.homeMobile"
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
@@ -68,22 +74,26 @@
         {
           "icon": "Package",
           "title": "One program",
-          "description": "Residency, company and bank account integrated."
+          "description": "Residency, company and bank account integrated.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "One trip",
-          "description": "All in-person steps done in a single coordinated day."
+          "description": "All in-person steps done in a single coordinated day.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "One team",
-          "description": "Lawyers, accountants, notaries and financial advisors."
+          "description": "Lawyers, accountants, notaries and financial advisors.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparent pricing",
-          "description": "All-inclusive. No hidden fees."
+          "description": "All-inclusive. No hidden fees.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -106,7 +116,10 @@
             "Logistics support"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -125,7 +138,10 @@
             "Fees, VAT and official taxes included"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -141,7 +157,10 @@
             "Direct access to technical team"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "tierras",
@@ -157,7 +176,10 @@
             "Land registry inscription"
           ],
           "ctaLabel": "Inquire",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=tierras"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=tierras",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -180,17 +202,8 @@
             "Corporate tax {{taxRate}}",
             "Territorial system",
             "Open economy"
-          ]
-        },
-        {
-          "icon": "Building2",
-          "title": "Investment opportunities",
-          "description": "Developing real estate market, strong agribusiness, open economy.",
-          "bullets": [
-            "Expanding real estate",
-            "Leading agribusiness",
-            "Young entrepreneurial ecosystem"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Heart",
@@ -200,7 +213,19 @@
             "Favorable living costs",
             "International community",
             "Personal safety"
-          ]
+          ],
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Tax stability",
+          "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+          "bullets": [
+            "Territorial system",
+            "Stable regulatory environment",
+            "No tax on foreign income"
+          ],
+          "imageUrl": "@src:whyParaguay.tax"
         }
       ],
       "honestNote": "The opportunity is real, but the process is not simple without the right guidance. That is exactly why we exist."
@@ -216,31 +241,46 @@
           "number": 1,
           "title": "Initial consultation",
           "description": "We review your situation, goals, and the right program.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Document validation",
           "description": "Our team verifies everything before you travel. You only travel when ready.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operational day",
           "description": "All in-person steps executed in a single day.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Company and banking",
           "description": "We incorporate your company and coordinate the bank opening.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Delivery and follow-up",
           "description": "You receive final documents and we close the program.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -279,7 +319,10 @@
             "Logistical support"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=base",
+          "image": {
+            "$img": "programs.tierBase"
+          }
         },
         {
           "id": "business",
@@ -298,7 +341,10 @@
             "Fees, VAT and taxes included"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=business",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
         },
         {
           "id": "investor",
@@ -314,7 +360,10 @@
             "Direct access to technical team"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
         },
         {
           "id": "land",
@@ -330,7 +379,10 @@
             "Agricultural advisory (optional)"
           ],
           "ctaLabel": "Request consultation",
-          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land"
+          "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land",
+          "image": {
+            "$img": "programs.tierTierras"
+          }
         }
       ]
     },
@@ -433,17 +485,56 @@
         {
           "icon": "TrendingUp",
           "title": "Economic environment",
-          "description": "Sustained growth, controlled inflation, 10% income tax, territorial system."
+          "description": "Sustained growth, controlled inflation, 10% income tax, territorial system.",
+          "imageUrl": "@src:whyParaguay.economic"
         },
         {
           "icon": "Building2",
           "title": "Investment opportunities",
-          "description": "Developing real estate market, strong agribusiness, open economy."
+          "description": "Developing real estate market, strong agribusiness, open economy.",
+          "imageUrl": "@src:whyParaguay.investment"
         },
         {
           "icon": "Heart",
           "title": "Quality of life",
-          "description": "Warm climate, growing international community, significant purchasing power."
+          "description": "Warm climate, growing international community, significant purchasing power.",
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Tax stability",
+          "description": "Territorial tax regime with transparent rules and a predictable fiscal environment.",
+          "imageUrl": "@src:whyParaguay.tax"
+        },
+        {
+          "icon": "LineChart",
+          "title": "Growth trajectory",
+          "description": "Consistent GDP growth and visible urban development across Asunción.",
+          "imageUrl": "@src:whyParaguay.growth"
+        },
+        {
+          "icon": "Wheat",
+          "title": "Agribusiness powerhouse",
+          "description": "One of the world's leading exporters of soy and beef with active land markets.",
+          "imageUrl": "@src:whyParaguay.agribusiness"
+        },
+        {
+          "icon": "Users",
+          "title": "International community",
+          "description": "A growing community of expats and investors sharing know-how on the ground.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "TreePine",
+          "title": "Nature and green space",
+          "description": "Accessible parks and landscapes without the noise of saturated capitals.",
+          "imageUrl": "@src:whyParaguay.nature"
+        },
+        {
+          "icon": "Coffee",
+          "title": "Culture and daily life",
+          "description": "Tereré, chipa, warm hospitality — details that make Paraguay livable long term.",
+          "imageUrl": "@src:whyParaguay.culture"
         }
       ]
     },
@@ -454,22 +545,26 @@
         {
           "icon": "Package",
           "title": "One program",
-          "description": "Residency, company and bank account integrated."
+          "description": "Residency, company and bank account integrated.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "One trip",
-          "description": "In-person processing in a single coordinated day."
+          "description": "In-person processing in a single coordinated day.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "One team",
-          "description": "Lawyers, accountants, notaries, financial advisors."
+          "description": "Lawyers, accountants, notaries, financial advisors.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparent pricing",
-          "description": "All inclusive. No hidden fees."
+          "description": "All inclusive. No hidden fees.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -500,31 +595,46 @@
           "number": 1,
           "title": "Initial consultation",
           "description": "We review your situation, goals, and the right program.",
-          "icon": "MessageCircle"
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
         },
         {
           "number": 2,
           "title": "Document validation",
           "description": "Our team verifies everything before you travel. You only travel when ready.",
-          "icon": "FileCheck"
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
         },
         {
           "number": 3,
           "title": "Operational day",
           "description": "All in-person steps executed in a single day.",
-          "icon": "MapPin"
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
         },
         {
           "number": 4,
           "title": "Company and banking",
           "description": "We incorporate your company and coordinate the bank opening.",
-          "icon": "Building"
+          "icon": "Building",
+          "image": {
+            "$img": "process.banking"
+          }
         },
         {
           "number": 5,
           "title": "Delivery and follow-up",
           "description": "You receive final documents and we close the program.",
-          "icon": "CheckCircle"
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
         }
       ]
     },
@@ -588,24 +698,35 @@
         {
           "name": "Operations Director (Paraguay)",
           "role": "Operational leadership, institutional relationships",
-          "icon": "Briefcase"
+          "icon": "Briefcase",
+          "imageUrl": "@src:team.operationsDirector"
         },
         {
           "name": "Commercial Director (Europe)",
           "role": "Client acquisition, cultural bridge",
-          "icon": "Globe"
+          "icon": "Globe",
+          "imageUrl": "@src:team.commercialDirector"
         },
         {
           "name": "Legal team",
           "role": "Immigration files, company incorporation",
-          "icon": "Scale"
+          "icon": "Scale",
+          "imageUrl": "@src:team.legalLead"
         },
         {
           "name": "Accounting team",
           "role": "Tax management, compliance",
-          "icon": "Calculator"
+          "icon": "Calculator",
+          "imageUrl": "@src:team.accountingLead"
+        },
+        {
+          "name": "Client Success",
+          "role": "Onboarding, coordination, long-term support",
+          "icon": "UserCheck",
+          "imageUrl": "@src:team.clientSuccess"
         }
-      ]
+      ],
+      "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json."
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
@@ -614,22 +735,26 @@
         {
           "icon": "Package",
           "title": "One program",
-          "description": "Residency, company and bank account integrated."
+          "description": "Residency, company and bank account integrated.",
+          "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
           "title": "One trip",
-          "description": "In-person processing in a single coordinated day."
+          "description": "In-person processing in a single coordinated day.",
+          "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
           "title": "One team",
-          "description": "Lawyers, accountants, notaries, financial advisors."
+          "description": "Lawyers, accountants, notaries, financial advisors.",
+          "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
           "title": "Transparent pricing",
-          "description": "All inclusive. No hidden fees."
+          "description": "All inclusive. No hidden fees.",
+          "image": "@src:trust.registry"
         }
       ]
     },
@@ -638,6 +763,29 @@
       "subtitle": "Book a free 30-minute consultation.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
+    },
+    "gallery": {
+      "title": "Our office in Asunción",
+      "subtitle": "Where consultation, signing and banking actually happen. AI placeholders below — swap for real photos before launch.",
+      "columns": 3,
+      "images": [
+        {
+          "$img": "office.exterior"
+        },
+        {
+          "$img": "office.reception"
+        },
+        {
+          "$img": "office.meetingRoom"
+        },
+        {
+          "$img": "office.signing"
+        },
+        {
+          "$img": "office.teamHuddle"
+        }
+      ],
+      "lightbox": true
     }
   },
   "faqPage": {
@@ -831,6 +979,10 @@
       {
         "label": "Why Paraguay",
         "href": "/s/en/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Press",
+        "href": "/s/en/nexa-paraguay/prensa"
       }
     ]
   },
@@ -953,6 +1105,485 @@
         "required": true
       }
     ]
+  },
+  "landingInversor": {
+    "seo": {
+      "title": "Paraguay for investors — a structured path",
+      "description": "Residency, company, bank account and land purchase — one integrated investor program. No surprises."
+    },
+    "hero": {
+      "eyebrow": "Investor program",
+      "headline": "Paraguay, structured for investors.",
+      "subheadline": "Residency, company, bank account, 12-month accounting — integrated, transparent, executed by a local professional team.",
+      "ctaPrimaryText": "Book a free 30-min consultation",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-hero-primary-en",
+      "ctaSecondaryText": "See the investor program",
+      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
+      "backgroundImage": "@img:whyParaguay.growth"
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "4 steps, roughly 8–12 weeks",
+      "totalDuration": "Typical total: 8–12 weeks.",
+      "ctaLabel": "Start my process",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-process-en",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation",
+          "description": "We review your goals and select the right tier.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Pre-validation",
+          "description": "Documents checked before you travel.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operational day",
+          "description": "Residency, company and bank in a single coordinated day.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Delivery",
+          "description": "You receive final documents; we continue accounting.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Recommended",
+      "title": "The Investor program",
+      "subtitle": "Everything you need to operate in Paraguay — plus 12 months of accompaniment.",
+      "tiers": [
+        {
+          "id": "investor",
+          "name": "Paraguay Investor",
+          "description": "Residency + company + bank + 12 months support.",
+          "price": "USD 6,900+",
+          "priceNote": "Starting price. Final quote depends on case requirements.",
+          "highlighted": true,
+          "included": [
+            "Residency and identity card",
+            "Company incorporation + RUC",
+            "Corporate bank account",
+            "Accounting (12 months)",
+            "Legal and tax advisory (12 months)",
+            "Direct access to technical team"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-investor-en",
+          "image": {
+            "$img": "programs.tierInvestor"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to structure your move?",
+      "subtitle": "Book a free 30-minute consultation — Spanish, English, Dutch or German.",
+      "buttonText": "Book consultation",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=investor&utm_content=cta-final-en"
+    },
+    "trust": {
+      "eyebrow": "What you get",
+      "title": "What sets the investor program apart",
+      "items": [
+        {
+          "icon": "TrendingUp",
+          "title": "Structured growth",
+          "description": "Tax advisory built in for 12 months — you run the business, we handle compliance."
+        },
+        {
+          "icon": "Shield",
+          "title": "Institutional trust",
+          "description": "Lawyers, accountants and notaries in a single coordinated team."
+        },
+        {
+          "icon": "Users",
+          "title": "Direct access",
+          "description": "Direct line to the technical team across residency, banking and operations."
+        },
+        {
+          "icon": "LineChart",
+          "title": "Transparent pricing",
+          "description": "All-inclusive. No hidden fees, no back-end invoicing."
+        }
+      ]
+    }
+  },
+  "landingTrust": {
+    "seo": {
+      "title": "Institutional trust, built by local professionals",
+      "description": "An integrated system, not a paperwork agency. Lawyers, accountants, notaries and financial advisors."
+    },
+    "hero": {
+      "eyebrow": "Institutional trust",
+      "headline": "Serious people. Serious structure.",
+      "subheadline": "We are not an administrative agency. We are a multidisciplinary technical team with relational capital across banks, notaries and authorities.",
+      "ctaPrimaryText": "Book a free 30-min consultation",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-hero-primary-en",
+      "ctaSecondaryText": "See our process",
+      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
+      "backgroundImage": "@img:trust.migraciones"
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "A clear process, no improvisation",
+      "totalDuration": "Typical total: 8–12 weeks.",
+      "ctaLabel": "Start my process",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-process-en",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation",
+          "description": "We review your case before anything else.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Pre-validation",
+          "description": "Everything verified before your trip.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operational day",
+          "description": "All in-person steps in a single day.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Delivery",
+          "description": "Final documents handed over personally.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Recommended",
+      "title": "Paraguay Business",
+      "subtitle": "The core program clients pick when they want one trip, one team, one integrated result.",
+      "tiers": [
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residency + company + bank account.",
+          "price": "USD 4,400+",
+          "priceNote": "Starting price. Final quote depends on case requirements.",
+          "highlighted": true,
+          "included": [
+            "Paraguayan residency + ID card",
+            "Company incorporation + RUC",
+            "Corporate bank account",
+            "Strategic real-estate tour",
+            "Fees, VAT and official taxes included"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-business-en",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Do it once, do it properly",
+      "subtitle": "Book a free 30-minute consultation with our team.",
+      "buttonText": "Book consultation",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=trust&utm_content=cta-final-en"
+    },
+    "trust": {
+      "eyebrow": "Why Nexa",
+      "title": "An integrated system",
+      "items": [
+        {
+          "icon": "Package",
+          "title": "One program",
+          "description": "Residency, company and bank integrated."
+        },
+        {
+          "icon": "Plane",
+          "title": "One trip",
+          "description": "In-person processing in a single coordinated day."
+        },
+        {
+          "icon": "Users",
+          "title": "One team",
+          "description": "Lawyers, accountants, notaries, financial advisors."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparent pricing",
+          "description": "All-inclusive. No hidden fees."
+        }
+      ]
+    }
+  },
+  "landingLifestyle": {
+    "seo": {
+      "title": "A calmer base in Paraguay — warmth, nature, stability",
+      "description": "Good weather, low cost of living, growing international community, territorial tax system."
+    },
+    "hero": {
+      "eyebrow": "Quality of life",
+      "headline": "A calmer base in Paraguay.",
+      "subheadline": "Warm climate, growing international community, favourable living costs and a territorial tax system that only taxes local income.",
+      "ctaPrimaryText": "Book a free 30-min consultation",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-hero-primary-en",
+      "ctaSecondaryText": "Why Paraguay",
+      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
+      "backgroundImage": "@img:whyParaguay.lifestyle"
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "4 steps, one trip",
+      "totalDuration": "Typical total: 8–12 weeks.",
+      "ctaLabel": "Start my process",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-process-en",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation",
+          "description": "We review your goals and the right program.",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Pre-validation",
+          "description": "Documents checked before you travel.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operational day",
+          "description": "All in-person steps executed in one day.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Delivery",
+          "description": "You receive documents and we close the program.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Recommended",
+      "title": "Paraguay Base",
+      "subtitle": "The simplest starting point: residency + ID card. You can always upgrade later.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Paraguay Base",
+          "description": "Paraguayan residency + ID card.",
+          "price": "USD 2,900",
+          "priceNote": "Complete package includes all fees and taxes.",
+          "highlighted": true,
+          "included": [
+            "Paraguayan residency",
+            "Identity card",
+            "Document pre-validation",
+            "On-site operational day",
+            "Logistics support"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-base-en",
+          "image": {
+            "$img": "programs.tierBase"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Your new start in Paraguay",
+      "subtitle": "Book a free 30-minute consultation to see if it fits.",
+      "buttonText": "Book consultation",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=lifestyle&utm_content=cta-final-en"
+    },
+    "whyCountry": {
+      "eyebrow": "What you get",
+      "title": "Three real reasons to move",
+      "pillars": [
+        {
+          "icon": "Heart",
+          "title": "Quality of life",
+          "description": "Warm climate, accessible costs, significant purchasing power.",
+          "imageUrl": "@src:whyParaguay.lifestyle"
+        },
+        {
+          "icon": "Users",
+          "title": "International community",
+          "description": "Growing community of expats and investors sharing know-how.",
+          "imageUrl": "@src:whyParaguay.community"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Tax stability",
+          "description": "Territorial system — foreign income is not taxed in Paraguay.",
+          "imageUrl": "@src:whyParaguay.tax"
+        }
+      ]
+    }
+  },
+  "landingEmpresa": {
+    "seo": {
+      "title": "A Paraguayan company, opened properly",
+      "description": "Residency + company + RUC + bank account. Integrated in one program with Nexa Paraguay."
+    },
+    "hero": {
+      "eyebrow": "Company setup",
+      "headline": "A Paraguayan company, opened properly.",
+      "subheadline": "Residency, company, RUC and a corporate bank account — integrated in one trip, executed by a local professional team.",
+      "ctaPrimaryText": "Book a free 30-min consultation",
+      "ctaPrimaryHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-hero-primary-en",
+      "ctaSecondaryText": "See the programs",
+      "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
+      "backgroundImage": "@img:programs.tierBusiness"
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "Opening a company in 4 steps",
+      "totalDuration": "Typical total: 8–12 weeks.",
+      "ctaLabel": "Start my process",
+      "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-process-en",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation",
+          "description": "We map the right legal structure (typically EAS or SA).",
+          "icon": "MessageCircle",
+          "image": {
+            "$img": "process.consultation"
+          }
+        },
+        {
+          "number": 2,
+          "title": "Pre-validation",
+          "description": "Everything checked before you travel.",
+          "icon": "FileCheck",
+          "image": {
+            "$img": "process.documents"
+          }
+        },
+        {
+          "number": 3,
+          "title": "Operational day",
+          "description": "Incorporation, RUC, notarisation — single day.",
+          "icon": "MapPin",
+          "image": {
+            "$img": "process.arrival"
+          }
+        },
+        {
+          "number": 4,
+          "title": "Bank + delivery",
+          "description": "Bank account opened and final documents delivered.",
+          "icon": "CheckCircle",
+          "image": {
+            "$img": "process.completion"
+          }
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Recommended",
+      "title": "Paraguay Business",
+      "subtitle": "Residency + company + bank account, integrated in a single program.",
+      "tiers": [
+        {
+          "id": "business",
+          "name": "Paraguay Business",
+          "description": "Residency + company + bank account.",
+          "price": "USD 4,400+",
+          "priceNote": "Starting price. Final quote depends on case requirements.",
+          "highlighted": true,
+          "included": [
+            "Paraguayan residency + ID card",
+            "Company incorporation + RUC",
+            "Corporate bank account",
+            "Strategic real-estate tour",
+            "Fees, VAT and official taxes included"
+          ],
+          "ctaLabel": "Request consultation",
+          "ctaHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-business-en",
+          "image": {
+            "$img": "programs.tierBusiness"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Open your Paraguayan company properly",
+      "subtitle": "Book a free 30-minute consultation with our team.",
+      "buttonText": "Book consultation",
+      "buttonHref": "https://calendly.com/nexaparaguay/consulta?utm_source=linkedin&utm_medium=paid&utm_campaign=company&utm_content=cta-final-en"
+    },
+    "trust": {
+      "eyebrow": "What you get",
+      "title": "What Paraguay Business covers",
+      "items": [
+        {
+          "icon": "Package",
+          "title": "Company + residency",
+          "description": "Both processes integrated — not sold separately."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Bank account",
+          "description": "Corporate account coordinated with our banking partners."
+        },
+        {
+          "icon": "Users",
+          "title": "Technical team",
+          "description": "Lawyers, accountants and notaries working together."
+        },
+        {
+          "icon": "Shield",
+          "title": "Transparent pricing",
+          "description": "Fees, VAT and official taxes included."
+        }
+      ]
+    }
   },
   "whatsapp": {
     "phone": "595982515138",
