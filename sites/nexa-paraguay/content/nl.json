@@ -567,7 +567,7 @@
     },
     "process": {
       "eyebrow": "Hoe het werkt",
-      "title": "Een helder proces, stap voor stap",
+      "title": "Uw 5 stappen met Nexa",
       "totalDuration": "Verwachte totale doorlooptijd: 8–12 weken.",
       "ctaLabel": "Start mijn traject",
       "ctaHref": "/s/nl/nexa-paraguay/contacto",
@@ -579,7 +579,8 @@
           "icon": "MessageCircle",
           "image": {
             "$img": "process.consultation"
-          }
+          },
+          "duration": "Week 1"
         },
         {
           "number": 2,
@@ -588,7 +589,8 @@
           "icon": "FileCheck",
           "image": {
             "$img": "process.documents"
-          }
+          },
+          "duration": "Weken 2–5"
         },
         {
           "number": 3,
@@ -597,7 +599,8 @@
           "icon": "MapPin",
           "image": {
             "$img": "process.arrival"
-          }
+          },
+          "duration": "Week 6"
         },
         {
           "number": 4,
@@ -606,7 +609,8 @@
           "icon": "Building",
           "image": {
             "$img": "process.banking"
-          }
+          },
+          "duration": "Weken 7–9"
         },
         {
           "number": 5,
@@ -615,7 +619,8 @@
           "icon": "CheckCircle",
           "image": {
             "$img": "process.completion"
-          }
+          },
+          "duration": "Weken 10–12"
         }
       ]
     },
