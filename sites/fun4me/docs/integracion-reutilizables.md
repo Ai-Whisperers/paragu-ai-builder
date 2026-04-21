@@ -2,6 +2,10 @@
 
 _Última actualización: 2026-04-21_
 
+> **Estado de ejecución (2026-04-21 cierre):** Fases 0 y 1 mayormente
+> shipped en PRs #193–#196 salvo lo marcado como "refactor-pending" abajo.
+> Ver sección final "Estado de ejecución" para detalle PR-por-PR.
+
 Auditoría de **todo lo construido en la plataforma** (sections, lib, commerce,
 infra, otros tenants) cruzado contra **lo que fun4me ya usa** para identificar
 qué podemos enchufar sin construir nada nuevo.
@@ -106,6 +110,23 @@ Las pongo para cerrar el circuito — así queda claro qué descartamos y por qu
 | `countdown-timer` | Útil solo para flash sales — **reconsiderar cuando activemos campañas** |
 | `savings-calculator`, `bulk-calculator`, `delivery-calculator` | No hay caso de uso directo (shipping ya se calcula en checkout) |
 | `instagram-feed` | Podría servir si fun4me tiene IG activo — **maybe** |
+
+### Backlog de refactor de plataforma
+
+Durante la adopción encontramos 5 sections que están en el repo pero con
+**contenido hardcoded granja-cabral-específico** dentro del componente.
+No son drop-in reutilizables hasta que se parametricen:
+
+| Sección | Hardcoded que bloquea | Refactor necesario |
+|---------|----------------------|---------------------|
+| `enhanced-faq-section.tsx` | Array FAQS interno con preguntas de granja (huevos, gallinas, maples) | Aceptar `items[]` desde content prop |
+| `our-story-section.tsx` | Icons Egg/Bird/Sprout hardcoded + shape de `BusinessData` con `sustainability.composting/biogas/waterRecycling` | Aceptar story/values/stats genéricos desde content; icons por key |
+| `b2b-wholesale-section.tsx` | Copy granja en el componente | Aceptar tiers/benefits/copy desde content |
+| `smart-whatsapp-section.tsx` | `WHATSAPP_TEMPLATES` con "huevos/semana", "maple gratis" | Aceptar templates[] desde content prop |
+| `referral-section.tsx` | Prefijo "CABAL", URL granjacabral.com.py, emoji de huevo, "maple de huevos gratis" | Aceptar businessName, codePrefix, rewardCopy, baseUrl desde props |
+
+Cada uno es ~30min-2h de refactor. Recomendación: hacerlo cuando un
+tenant concreto lo pida; mientras tanto, no usar en fun4me.
 
 ### Categoría D — Libs y utilidades que no estamos usando
 
@@ -219,6 +240,50 @@ Si la respuesta a las 6 es "sí" → 2-3 semanas de trabajo, nada nuevo que
 construir, todo es adaptación + content.
 
 ---
+
+## Estado de ejecución (cierre 2026-04-21)
+
+### Shipped
+
+| PR | Contenido |
+|----|-----------|
+| #193 | Vertical whitelist update + home: trust-signals, why-destination, process-timeline. suscripciones: programs-comparison matrix. |
+| #194 | compliance-disclaimer-footer wired en site-renderer + agregado a 10 páginas fun4me. |
+| #195 | promo-banner (carousel BIENVENIDA10 + envío gratis) + newsletter-signup (Mailchimp) wired y usados en home. |
+| #196 | Nueva página `/quienes-somos` (about) con why-destination `alternating` + trust-signals + testimonials. Agregado a nav. |
+
+Schema.org Product/Offer en PDP, RecentlyViewedRail, BackInStockSignup,
+WishlistButton, ProductShare y stock-indicator vía `lowStockThreshold` en
+product-card — **todos estos ya estaban shipped antes de esta sesión**.
+
+### No shipped (y por qué)
+
+- `enhanced-faq`, `our-story`, `b2b-wholesale`, `smart-whatsapp`,
+  `referral-section` → necesitan refactor de parametrización antes de ser
+  usables por fun4me. Ver "Backlog de refactor de plataforma" arriba.
+- **EN locale** → requiere traducir ~1000 líneas de `es.json` + routing;
+  pendiente de decisión humana sobre prioridad del mercado turista.
+- **Team section** → fun4me probablemente prefiere mantener anonimato;
+  pendiente conversación con cliente.
+- **Booking-embed consultas** → necesita URL de Calendly (o equivalente)
+  de una educadora sexual que contrate fun4me.
+- **countdown-timer standalone** → redundante con `promo-banner` variant
+  `countdown`. Dejar como está.
+- **Cart-recovery cron trigger** → el outbox + template ya existen; falta
+  sólo el cron que escanea carritos abandonados >24h. 2h de trabajo.
+- **Referral UI integration** → referral-section necesita refactor; los
+  archivos WIP `lib/commerce/referral.ts` en `stash@{0}` tienen imports
+  rotos (`@/lib/supabase/server-client` no existe). Orden: refactor
+  componente → refactor lib → shippear.
+
+### Próximos pasos sugeridos (si seguimos)
+
+1. Refactor de `enhanced-faq` para aceptar items desde content (30min).
+2. Refactor de `our-story` para aceptar shape genérico (1h).
+3. Fix de imports en `lib/commerce/referral.ts` + refactor de
+   `referral-section` para parametrizar (2-3h).
+4. Cron trigger de cart-recovery (1-2h).
+5. EN locale traducción si el negocio lo necesita (1-2 días).
 
 ## Apéndice — Dónde está cada pieza
 

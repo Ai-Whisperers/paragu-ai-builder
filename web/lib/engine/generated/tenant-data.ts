@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=147, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=148, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9573,6 +9573,68 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "placer-plus",
     "titleKey": "loyalty.seo.title"
   },
+  "fun4me:quienes-somos": {
+    "descriptionKey": "about.seo.description",
+    "sections": [
+      {
+        "content": "home.ageGate",
+        "id": "age-gate",
+        "variant": "modal"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "carousel"
+      },
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "about.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "about.values",
+        "id": "why-destination",
+        "variant": "alternating"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "about.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "compliance",
+        "id": "compliance-disclaimer-footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "quienes-somos",
+    "titleKey": "about.seo.title"
+  },
   "fun4me:reserva-en-tienda": {
     "descriptionKey": "storeReserve.seo.description",
     "sections": [
@@ -17320,39 +17382,60 @@ export const CONTENT: Record<string, JsonRecord> = {
       "translationQuality": "native"
     },
     "about": {
-      "intro": {
-        "text": "Fun4Me nacio en 2018 con la mision de ofrecer productos de calidad para adultos en Paraguay, con la discrecion y el profesionalismo que nuestros clientes merecen. Desde nuestra tienda en Herrera 875, Asuncion, atendemos a clientes de todo el pais con envios discretos y seguros. Creemos que cada persona tiene derecho a explorar su intimidad de manera segura y sin juicios.",
-        "title": "Sobre Fun4Me"
+      "cta": {
+        "buttonHref": "https://wa.me/595981324569?text=Hola%2C%20vengo%20de%20fun4me",
+        "buttonText": "Escribir",
+        "title": "¿Dudas? Hablemos por WhatsApp"
       },
-      "mission": {
-        "text": "Ofrecer productos de calidad para adultos con total discrecion, profesionalismo y respeto. Queremos que cada cliente se sienta comodo explorando su intimidad con productos seguros y de las mejores marcas.",
-        "title": "Nuestra Mision"
+      "hero": {
+        "ctaPrimaryHref": "/s/es/fun4me/tienda",
+        "ctaPrimaryText": "Ver catálogo",
+        "ctaSecondaryHref": "/s/es/fun4me#contacto",
+        "ctaSecondaryText": "Hablar con nosotros",
+        "eyebrow": "Sobre fun4me",
+        "headline": "Un proyecto pensado en Paraguay",
+        "subheadline": "Nacimos para dar acceso profesional y discreto a una categoría que todavía carga estigma en nuestra región. Sin juzgar, sin vender lo que no conocemos, sin comprometer tu privacidad."
       },
-      "values": [
-        {
-          "icon": "eye-slash",
-          "text": "Entendemos la importancia de la privacidad. Desde el empaque hasta la facturacion, todo es 100% discreto.",
-          "title": "Discrecion Total"
-        },
-        {
-          "icon": "truck",
-          "text": "Delivery rapido y seguro a cualquier punto de Paraguay con total confidencialidad.",
-          "title": "Envio a Todo el Pais"
-        },
-        {
-          "icon": "shield-check",
-          "text": "Seleccionamos productos de marcas reconocidas para garantizar tu satisfaccion y seguridad.",
-          "title": "Productos de Calidad"
-        },
-        {
-          "icon": "heart",
-          "text": "Nuestro equipo esta capacitado para asesorarte con respeto y profesionalismo.",
-          "title": "Atencion Sin Juicios"
-        }
-      ],
-      "vision": {
-        "text": "Ser la tienda de referencia en Paraguay para productos de adultos, reconocida por la calidad, la discrecion de nuestro servicio y la confianza que generamos en nuestros clientes.",
-        "title": "Nuestra Vision"
+      "seo": {
+        "description": "Conocé el proyecto detrás de fun4me: un comercio discreto y profesional de productos para adultos en Paraguay.",
+        "title": "Quiénes Somos — fun4me"
+      },
+      "values": {
+        "eyebrow": "Cómo trabajamos",
+        "honestNote": "Somos un equipo pequeño basado en Paraguay. No somos multinacionales — somos gente que cree que este mercado merece un servicio mejor del que históricamente tuvo.",
+        "pillars": [
+          {
+            "bullets": [
+              "Empaque sin marca",
+              "Factura a nombre genérico",
+              "Datos no se comparten"
+            ],
+            "description": "No es un feature: es el punto de partida. Empaque neutro, facturación opcional, WhatsApp privado, sin tu nombre en estados de cuenta.",
+            "icon": "Shield",
+            "title": "Discreción por diseño"
+          },
+          {
+            "bullets": [
+              "Marcas internacionales",
+              "Guías de uso detalladas",
+              "Soporte post-venta real"
+            ],
+            "description": "Solo vendemos productos que testeamos, de marcas establecidas con trayectoria en la industria. Si no lo recomendaríamos a alguien cercano, no está en el catálogo.",
+            "icon": "Award",
+            "title": "Curaduría honesta"
+          },
+          {
+            "bullets": [
+              "Blog con contenido de salud",
+              "Consultas sin obligación de compra",
+              "Producto correcto, no el más caro"
+            ],
+            "description": "El placer y la salud sexual son temas serios que merecen información seria. Por eso publicamos guías prácticas y respondemos consultas sin vender.",
+            "icon": "Heart",
+            "title": "Educación antes que venta"
+          }
+        ],
+        "title": "Principios que guían todas nuestras decisiones"
       }
     },
     "blog": {
@@ -18457,6 +18540,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/fun4me/store",
           "label": "Tienda"
+        },
+        {
+          "href": "/fun4me/quienes-somos",
+          "label": "Nosotros"
         },
         {
           "href": "/fun4me/bundles",
