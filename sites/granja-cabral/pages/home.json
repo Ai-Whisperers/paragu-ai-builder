@@ -19,11 +19,6 @@
       "content": "home.services"
     },
     {
-      "id": "about",
-      "variant": "split",
-      "content": "home.about"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
