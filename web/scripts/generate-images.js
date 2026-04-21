@@ -137,11 +137,6 @@ const HERO_IMAGES = [
     prompt: `Wide-angle professional photograph of modern Asunción Paraguay skyline at golden hour sunset, showing the iconic buildings and lush greenery. Warm golden light reflecting off glass buildings, clear blue sky with soft clouds. Professional business atmosphere, inviting and aspirational. High-end cityscape photography, shot from elevated vantage point. 8K quality.`
   },
   {
-    id: 'nexa-uruguay-hero-bg',
-    filename: '../nexa-uruguay/images/nexa-uruguay-hero-bg.jpg',
-    prompt: `Breathtaking panoramic photograph of Montevideo Uruguay skyline at sunset, showing iconic Palacio Salvo and modern Torres Nauticas along Rambla. Golden hour light reflecting on Rio de la Plata, dramatic sky with pink and orange clouds. World-class cityscape photography, cinematic composition, ultra-wide angle, 8K quality.`
-  },
-  {
     id: 'nexa-propiedades-hero-bg',
     filename: '../nexa-propiedades/images/nexa-propiedades-hero-bg.jpg',
     prompt: `Stunning luxury modern house exterior in premium Asunción Paraguay neighborhood, contemporary architecture with clean lines, large glass windows, swimming pool with crystal clear water reflecting blue sky, manicured tropical garden with palm trees. Golden hour lighting, aspirational lifestyle. Professional real estate photography, wide angle, 8K ultra-detailed, magazine quality.`

@@ -60,7 +60,6 @@ const PRERENDER_SKIP = new Set([
   'dayah-litworks',
   'de-abasto-a-casa',
   'nexa-paraguay',
-  'nexa-uruguay',
   'nexa-propiedades',
 ])
 
