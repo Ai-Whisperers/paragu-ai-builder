@@ -106,6 +106,14 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'grid',
     variants: ['grid'],
   },
+  'featured-products': {
+    // Live homepage preview of the first N products from the tenant's
+    // commerce DB. Unlike `product-catalog` (static JSON), this queries
+    // the `products` table at render time and links to the real PDP.
+    id: 'featured-products',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+  },
   footer: {
     id: 'footer',
     defaultVariant: 'standard',
