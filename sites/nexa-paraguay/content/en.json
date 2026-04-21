@@ -53,6 +53,10 @@
         "href": "/s/en/nexa-paraguay/blog"
       },
       {
+        "label": "Resources",
+        "href": "/s/en/nexa-paraguay/recursos"
+      },
+      {
         "label": "Contact",
         "href": "/s/en/nexa-paraguay/contacto"
       }
@@ -1254,6 +1258,46 @@
       "subtitle": "Book a consultation and we'll discuss your specific case.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
+    }
+  },
+  "resourcesPage": {
+    "seo": {
+      "title": "Resources — Nexa Paraguay",
+      "description": "Free PDF guides, checklists, and comparisons for Europeans evaluating Paraguay."
+    },
+    "hero": {
+      "headline": "Downloadable resources",
+      "subheadline": "Free guides, checklists, and comparisons. No form for the PDF itself — most are direct."
+    },
+    "guides": {
+      "title": "Available material",
+      "columns": 2,
+      "features": [
+        {
+          "title": "[TODO PDF] Paraguay Residency Guide 2026",
+          "description": "Full step-by-step process, required documents, timelines, and costs. ~25 pages.",
+          "icon": "FileText"
+        },
+        {
+          "title": "[TODO PDF] Document checklist for Europeans",
+          "description": "List of apostilles, sworn translations, and validations required before you travel. 1 page.",
+          "icon": "CheckSquare"
+        },
+        {
+          "title": "[TODO PDF] Paraguay vs Uruguay vs Panama — tax comparison",
+          "description": "Tax, regulatory, and cost-of-living comparison across the 3 jurisdictions.",
+          "icon": "BarChart3"
+        },
+        {
+          "title": "[TODO PDF] Banking for foreigners in Paraguay",
+          "description": "Which banks accept foreigners, what documents they require, what fees apply. Updated 2026.",
+          "icon": "Banknote"
+        }
+      ]
+    },
+    "newsletter": {
+      "title": "Want the updates?",
+      "subtitle": "Monthly newsletter with regulatory and tax changes relevant for Europeans in Paraguay."
     }
   }
 }

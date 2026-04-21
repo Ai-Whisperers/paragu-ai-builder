@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=150, content=137, blog=25, verticals=23. */
+/** Counts: sites=117, pages=151, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -9887,6 +9887,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
+        "content": "resourcesPage.newsletter",
+        "id": "newsletter-signup",
+        "variant": "default"
+      },
+      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -10323,6 +10328,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "programas",
     "titleKey": "programasPage.seo.title"
+  },
+  "nexa-paraguay:recursos": {
+    "descriptionKey": "resourcesPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "resourcesPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "resourcesPage.guides",
+        "id": "features",
+        "variant": "default"
+      },
+      {
+        "content": "resourcesPage.newsletter",
+        "id": "newsletter-signup",
+        "variant": "default"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "recursos",
+    "titleKey": "resourcesPage.seo.title"
   },
   "nexa-paraguay:sobre": {
     "descriptionKey": "aboutPage.seo.description",
@@ -20959,6 +21001,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/de/nexa-paraguay/recursos",
+          "label": "Ressourcen"
+        },
+        {
           "href": "/s/de/nexa-paraguay/contacto",
           "label": "Kontakt"
         }
@@ -21258,6 +21304,46 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Vier Programme: Base, Business (USD 4.400+), Investor (USD 6.900+) und Landkauf.",
         "title": "Programme — Nexa Paraguay"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "columns": 2,
+        "features": [
+          {
+            "description": "Vollständiger Schritt-für-Schritt-Prozess, erforderliche Dokumente, Zeitpläne und Kosten. ~25 Seiten.",
+            "icon": "FileText",
+            "title": "[TODO PDF] Paraguay Aufenthaltsleitfaden 2026"
+          },
+          {
+            "description": "Liste der Apostillen, beeidigten Übersetzungen und Validierungen vor Ihrer Reise. 1 Seite.",
+            "icon": "CheckSquare",
+            "title": "[TODO PDF] Dokumenten-Checkliste für Europäer"
+          },
+          {
+            "description": "Steuer-, Regulierungs- und Lebenshaltungskosten-Vergleich zwischen den 3 Jurisdiktionen.",
+            "icon": "BarChart3",
+            "title": "[TODO PDF] Paraguay vs. Uruguay vs. Panama — Steuervergleich"
+          },
+          {
+            "description": "Welche Banken Ausländer akzeptieren, welche Dokumente verlangt werden, welche Gebühren. Stand 2026.",
+            "icon": "Banknote",
+            "title": "[TODO PDF] Banking für Ausländer in Paraguay"
+          }
+        ],
+        "title": "Verfügbares Material"
+      },
+      "hero": {
+        "headline": "Download-Ressourcen",
+        "subheadline": "Kostenlose Leitfäden, Checklisten und Vergleiche. Kein Formular für die PDF selbst."
+      },
+      "newsletter": {
+        "subtitle": "Monatlicher Newsletter mit regulatorischen und steuerlichen Änderungen für Europäer in Paraguay.",
+        "title": "Möchten Sie die Updates?"
+      },
+      "seo": {
+        "description": "Kostenlose PDF-Leitfäden, Checklisten und Vergleiche für Europäer, die Paraguay erwägen.",
+        "title": "Ressourcen — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -22249,6 +22335,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/en/nexa-paraguay/recursos",
+          "label": "Resources"
+        },
+        {
           "href": "/s/en/nexa-paraguay/contacto",
           "label": "Contact"
         }
@@ -22533,6 +22623,46 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Four programs: Base, Business (USD 4,400+), Investor (USD 6,900+), Land Purchase.",
         "title": "Programs — Nexa Paraguay"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "columns": 2,
+        "features": [
+          {
+            "description": "Full step-by-step process, required documents, timelines, and costs. ~25 pages.",
+            "icon": "FileText",
+            "title": "[TODO PDF] Paraguay Residency Guide 2026"
+          },
+          {
+            "description": "List of apostilles, sworn translations, and validations required before you travel. 1 page.",
+            "icon": "CheckSquare",
+            "title": "[TODO PDF] Document checklist for Europeans"
+          },
+          {
+            "description": "Tax, regulatory, and cost-of-living comparison across the 3 jurisdictions.",
+            "icon": "BarChart3",
+            "title": "[TODO PDF] Paraguay vs Uruguay vs Panama — tax comparison"
+          },
+          {
+            "description": "Which banks accept foreigners, what documents they require, what fees apply. Updated 2026.",
+            "icon": "Banknote",
+            "title": "[TODO PDF] Banking for foreigners in Paraguay"
+          }
+        ],
+        "title": "Available material"
+      },
+      "hero": {
+        "headline": "Downloadable resources",
+        "subheadline": "Free guides, checklists, and comparisons. No form for the PDF itself — most are direct."
+      },
+      "newsletter": {
+        "subtitle": "Monthly newsletter with regulatory and tax changes relevant for Europeans in Paraguay.",
+        "title": "Want the updates?"
+      },
+      "seo": {
+        "description": "Free PDF guides, checklists, and comparisons for Europeans evaluating Paraguay.",
+        "title": "Resources — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -23509,6 +23639,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/es/nexa-paraguay/recursos",
+          "label": "Recursos"
+        },
+        {
           "href": "/s/es/nexa-paraguay/contacto",
           "label": "Contacto"
         }
@@ -23841,6 +23975,46 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cuatro programas para establecerse en Paraguay: Base, Business (USD 4.400+), Investor (USD 6.900+) y Compra de Tierras.",
         "title": "Programas — Nexa Paraguay"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "columns": 2,
+        "features": [
+          {
+            "description": "Proceso completo paso a paso, documentos requeridos, tiempos y costos. ~25 páginas.",
+            "icon": "FileText",
+            "title": "[TODO PDF] Guía Residencia Paraguay 2026"
+          },
+          {
+            "description": "Lista con apostillas, traducciones juradas y validaciones requeridas antes de viajar. 1 página.",
+            "icon": "CheckSquare",
+            "title": "[TODO PDF] Checklist documental para europeos"
+          },
+          {
+            "description": "Tabla de comparación fiscal, regulatoria y de costos de vida entre las 3 jurisdicciones.",
+            "icon": "BarChart3",
+            "title": "[TODO PDF] Paraguay vs Uruguay vs Panamá — comparación fiscal"
+          },
+          {
+            "description": "Qué bancos aceptan extranjeros, qué documentos piden, qué tasas cobran. Actualizado a 2026.",
+            "icon": "Banknote",
+            "title": "[TODO PDF] Banca para extranjeros en Paraguay"
+          }
+        ],
+        "title": "Material disponible"
+      },
+      "hero": {
+        "headline": "Recursos descargables",
+        "subheadline": "Guías, checklists y comparativas gratis. Sin formulario para el PDF en sí — la mayoría son directos."
+      },
+      "newsletter": {
+        "subtitle": "Newsletter mensual con cambios regulatorios y fiscales relevantes para europeos en Paraguay.",
+        "title": "¿Quiere las actualizaciones?"
+      },
+      "seo": {
+        "description": "Guías gratuitas en PDF, checklists y comparativas para europeos evaluando Paraguay.",
+        "title": "Recursos — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {
@@ -24832,6 +25006,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Blog"
         },
         {
+          "href": "/s/nl/nexa-paraguay/recursos",
+          "label": "Bronnen"
+        },
+        {
           "href": "/s/nl/nexa-paraguay/contacto",
           "label": "Contact"
         }
@@ -25131,6 +25309,46 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Vier programma's om u in Paraguay te vestigen: Base, Business (USD 4.400+), Investor (USD 6.900+) en Grondaankoop.",
         "title": "Programma's — Nexa Paraguay"
+      }
+    },
+    "resourcesPage": {
+      "guides": {
+        "columns": 2,
+        "features": [
+          {
+            "description": "Volledig stap-voor-stap proces, vereiste documenten, doorlooptijden en kosten. ~25 pagina's.",
+            "icon": "FileText",
+            "title": "[TODO PDF] Paraguay-verblijfsgids 2026"
+          },
+          {
+            "description": "Lijst met apostilles, beëdigde vertalingen en validaties die nodig zijn voor u vertrekt. 1 pagina.",
+            "icon": "CheckSquare",
+            "title": "[TODO PDF] Documentenchecklist voor Europeanen"
+          },
+          {
+            "description": "Fiscale, regulatoire en levenskosten-vergelijking tussen de 3 jurisdicties.",
+            "icon": "BarChart3",
+            "title": "[TODO PDF] Paraguay vs Uruguay vs Panama — fiscale vergelijking"
+          },
+          {
+            "description": "Welke banken accepteren buitenlanders, welke documenten vereist zijn, welke kosten. Bijgewerkt 2026.",
+            "icon": "Banknote",
+            "title": "[TODO PDF] Bankieren voor buitenlanders in Paraguay"
+          }
+        ],
+        "title": "Beschikbaar materiaal"
+      },
+      "hero": {
+        "headline": "Downloadbare bronnen",
+        "subheadline": "Gratis gidsen, checklists en vergelijkingen. Geen formulier voor de PDF zelf."
+      },
+      "newsletter": {
+        "subtitle": "Maandelijkse nieuwsbrief met regulatoire en fiscale veranderingen relevant voor Europeanen in Paraguay.",
+        "title": "Wilt u de updates?"
+      },
+      "seo": {
+        "description": "Gratis PDF-gidsen, checklists en vergelijkingen voor Europeanen die Paraguay overwegen.",
+        "title": "Bronnen — Nexa Paraguay"
       }
     },
     "seprealadAttestation": {

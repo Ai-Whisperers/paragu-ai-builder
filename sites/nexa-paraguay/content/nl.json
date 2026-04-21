@@ -53,6 +53,10 @@
         "href": "/s/nl/nexa-paraguay/blog"
       },
       {
+        "label": "Bronnen",
+        "href": "/s/nl/nexa-paraguay/recursos"
+      },
+      {
         "label": "Contact",
         "href": "/s/nl/nexa-paraguay/contacto"
       }
@@ -1285,6 +1289,46 @@
       "subtitle": "Plan een consult en we bespreken uw specifieke geval.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    }
+  },
+  "resourcesPage": {
+    "seo": {
+      "title": "Bronnen — Nexa Paraguay",
+      "description": "Gratis PDF-gidsen, checklists en vergelijkingen voor Europeanen die Paraguay overwegen."
+    },
+    "hero": {
+      "headline": "Downloadbare bronnen",
+      "subheadline": "Gratis gidsen, checklists en vergelijkingen. Geen formulier voor de PDF zelf."
+    },
+    "guides": {
+      "title": "Beschikbaar materiaal",
+      "columns": 2,
+      "features": [
+        {
+          "title": "[TODO PDF] Paraguay-verblijfsgids 2026",
+          "description": "Volledig stap-voor-stap proces, vereiste documenten, doorlooptijden en kosten. ~25 pagina's.",
+          "icon": "FileText"
+        },
+        {
+          "title": "[TODO PDF] Documentenchecklist voor Europeanen",
+          "description": "Lijst met apostilles, beëdigde vertalingen en validaties die nodig zijn voor u vertrekt. 1 pagina.",
+          "icon": "CheckSquare"
+        },
+        {
+          "title": "[TODO PDF] Paraguay vs Uruguay vs Panama — fiscale vergelijking",
+          "description": "Fiscale, regulatoire en levenskosten-vergelijking tussen de 3 jurisdicties.",
+          "icon": "BarChart3"
+        },
+        {
+          "title": "[TODO PDF] Bankieren voor buitenlanders in Paraguay",
+          "description": "Welke banken accepteren buitenlanders, welke documenten vereist zijn, welke kosten. Bijgewerkt 2026.",
+          "icon": "Banknote"
+        }
+      ]
+    },
+    "newsletter": {
+      "title": "Wilt u de updates?",
+      "subtitle": "Maandelijkse nieuwsbrief met regulatoire en fiscale veranderingen relevant voor Europeanen in Paraguay."
     }
   }
 }

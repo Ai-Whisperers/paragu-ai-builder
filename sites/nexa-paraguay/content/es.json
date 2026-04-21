@@ -53,6 +53,10 @@
         "href": "/s/es/nexa-paraguay/blog"
       },
       {
+        "label": "Recursos",
+        "href": "/s/es/nexa-paraguay/recursos"
+      },
+      {
         "label": "Contacto",
         "href": "/s/es/nexa-paraguay/contacto"
       }
@@ -1319,6 +1323,46 @@
       "subtitle": "Agende una consulta y conversamos sobre su caso específico.",
       "buttonText": "Agendar consulta gratuita",
       "buttonHref": "/s/es/nexa-paraguay/contacto"
+    }
+  },
+  "resourcesPage": {
+    "seo": {
+      "title": "Recursos — Nexa Paraguay",
+      "description": "Guías gratuitas en PDF, checklists y comparativas para europeos evaluando Paraguay."
+    },
+    "hero": {
+      "headline": "Recursos descargables",
+      "subheadline": "Guías, checklists y comparativas gratis. Sin formulario para el PDF en sí — la mayoría son directos."
+    },
+    "guides": {
+      "title": "Material disponible",
+      "columns": 2,
+      "features": [
+        {
+          "title": "[TODO PDF] Guía Residencia Paraguay 2026",
+          "description": "Proceso completo paso a paso, documentos requeridos, tiempos y costos. ~25 páginas.",
+          "icon": "FileText"
+        },
+        {
+          "title": "[TODO PDF] Checklist documental para europeos",
+          "description": "Lista con apostillas, traducciones juradas y validaciones requeridas antes de viajar. 1 página.",
+          "icon": "CheckSquare"
+        },
+        {
+          "title": "[TODO PDF] Paraguay vs Uruguay vs Panamá — comparación fiscal",
+          "description": "Tabla de comparación fiscal, regulatoria y de costos de vida entre las 3 jurisdicciones.",
+          "icon": "BarChart3"
+        },
+        {
+          "title": "[TODO PDF] Banca para extranjeros en Paraguay",
+          "description": "Qué bancos aceptan extranjeros, qué documentos piden, qué tasas cobran. Actualizado a 2026.",
+          "icon": "Banknote"
+        }
+      ]
+    },
+    "newsletter": {
+      "title": "¿Quiere las actualizaciones?",
+      "subtitle": "Newsletter mensual con cambios regulatorios y fiscales relevantes para europeos en Paraguay."
     }
   }
 }

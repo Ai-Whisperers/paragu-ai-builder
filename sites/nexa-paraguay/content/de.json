@@ -56,6 +56,10 @@
         "href": "/s/de/nexa-paraguay/blog"
       },
       {
+        "label": "Ressourcen",
+        "href": "/s/de/nexa-paraguay/recursos"
+      },
+      {
         "label": "Kontakt",
         "href": "/s/de/nexa-paraguay/contacto"
       }
@@ -1288,6 +1292,46 @@
       "subtitle": "Buchen Sie ein Beratungsgespräch zu Ihrem Fall.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    }
+  },
+  "resourcesPage": {
+    "seo": {
+      "title": "Ressourcen — Nexa Paraguay",
+      "description": "Kostenlose PDF-Leitfäden, Checklisten und Vergleiche für Europäer, die Paraguay erwägen."
+    },
+    "hero": {
+      "headline": "Download-Ressourcen",
+      "subheadline": "Kostenlose Leitfäden, Checklisten und Vergleiche. Kein Formular für die PDF selbst."
+    },
+    "guides": {
+      "title": "Verfügbares Material",
+      "columns": 2,
+      "features": [
+        {
+          "title": "[TODO PDF] Paraguay Aufenthaltsleitfaden 2026",
+          "description": "Vollständiger Schritt-für-Schritt-Prozess, erforderliche Dokumente, Zeitpläne und Kosten. ~25 Seiten.",
+          "icon": "FileText"
+        },
+        {
+          "title": "[TODO PDF] Dokumenten-Checkliste für Europäer",
+          "description": "Liste der Apostillen, beeidigten Übersetzungen und Validierungen vor Ihrer Reise. 1 Seite.",
+          "icon": "CheckSquare"
+        },
+        {
+          "title": "[TODO PDF] Paraguay vs. Uruguay vs. Panama — Steuervergleich",
+          "description": "Steuer-, Regulierungs- und Lebenshaltungskosten-Vergleich zwischen den 3 Jurisdiktionen.",
+          "icon": "BarChart3"
+        },
+        {
+          "title": "[TODO PDF] Banking für Ausländer in Paraguay",
+          "description": "Welche Banken Ausländer akzeptieren, welche Dokumente verlangt werden, welche Gebühren. Stand 2026.",
+          "icon": "Banknote"
+        }
+      ]
+    },
+    "newsletter": {
+      "title": "Möchten Sie die Updates?",
+      "subtitle": "Monatlicher Newsletter mit regulatorischen und steuerlichen Änderungen für Europäer in Paraguay."
     }
   }
 }
