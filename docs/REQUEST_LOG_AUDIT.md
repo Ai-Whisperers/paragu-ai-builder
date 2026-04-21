@@ -27,7 +27,7 @@ Total API routes: ~50.
 | Status | Count |
 |---|---|
 | ✅ Wrapped | most (everything not listed below) |
-| ⚠️ Unwrapped | 5 |
+| ⚠️ Unwrapped | 4 |
 
 ## Unwrapped routes (audit list)
 
@@ -39,13 +39,13 @@ Verify with: `find web/app/api -name 'route.ts' | xargs grep -L withRequestLog`
 | `app/api/admin/daily-metrics/route.ts` | 397 | GET | Admin-only metrics dashboard. Failure modes are silent; needs structured logs. |
 | `app/api/reminders/route.ts` | 332 | GET, POST | Internal scheduling — needs trace context to debug stale reminders. |
 | `app/api/leads/bulk-update/route.ts` | 207 | POST | Bulk write path. A failure in the middle of the batch is currently un-correlatable with the upstream request. |
-| `app/api/leads/[id]/notes/route.ts` | 234 | GET, POST, PATCH, DELETE | Multi-method admin route. Each method should be wrapped individually. |
 
 ## Recently wrapped
 
 | Route | Wrapped in |
 |---|---|
-| `app/api/activity/route.ts` | This audit's PR |
+| `app/api/activity/route.ts` | PR #131 |
+| `app/api/leads/[id]/notes/route.ts` | This PR — also added `checkAdmin` to all 4 methods + replaced hardcoded `createdBy: 'admin'` with the authenticated user's email |
 
 ## Wrapping pattern
 

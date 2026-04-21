@@ -10,7 +10,7 @@
 | Status | Count | Items |
 |---|---|---|
 | ✅ Closed | 81 | see closure log below |
-| 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
+| 🟡 In progress | 1 | #392 (4 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
 | 🔴 Open | 419 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
@@ -135,6 +135,10 @@ Closure log:
   README + format documented at `docs/decisions/README.md`. Indexed from
   `docs/README.md` so future "why did we pick X?" questions land at the ADRs
   instead of grep through commit history.
+- **#392 partial #2** — `/api/leads/[id]/notes` (GET/POST/PATCH/DELETE) wrapped
+  in `withRequestLog` AND gained `checkAdmin()` on every method (was completely
+  unauthenticated). Replaced hardcoded `createdBy: 'admin'` with the
+  authenticated user's email — TODO closed. Audit doc count 5 → 4 routes.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).

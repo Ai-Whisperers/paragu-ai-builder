@@ -1,16 +1,24 @@
 /**
  * Lead Notes API
- * 
+ *
  * CRUD operations for lead notes:
  * - GET: Retrieve all notes for a lead
  * - POST: Add a new note
  * - PATCH: Update a note
  * - DELETE: Remove a note
+ *
+ * All mutations require an authenticated admin (env-allowlist via
+ * `lib/auth/admin.ts#checkAdmin`). GET is admin-only too — notes can
+ * contain customer-private intel.
+ *
+ * Storage is currently an in-memory Map keyed by leadId. This survives
+ * within a single container lifetime; restart loses notes. A real
+ * `lead_notes` table is the next iteration.
  */
-import { logger } from '@/lib/logger'
-
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { z } from 'zod'
+import { withRequestLog } from '@/lib/api/with-request-log'
+import { checkAdmin } from '@/lib/auth/admin'
 
 export const runtime = 'nodejs'
 
@@ -26,9 +34,7 @@ const UpdateNoteSchema = z.object({
   isPrivate: z.boolean().optional(),
 })
 
-// In-memory storage for demo (replace with database in production)
-// Key: leadId, Value: array of notes
-const notesStore = new Map<string, Array<{
+interface LeadNote {
   id: string
   leadId: string
   content: string
@@ -37,198 +43,102 @@ const notesStore = new Map<string, Array<{
   createdBy: string
   createdAt: string
   updatedAt?: string
-}>>()
+}
 
-// Generate unique ID
+const notesStore = new Map<string, LeadNote[]>()
+
 function generateId(): string {
-  return `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 11)}`
 }
 
-export async function GET(
-  request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
-  try {
-    const { id: leadId } = await params
-    
-    if (!leadId) {
-      return NextResponse.json(
-        { error: 'Lead ID is required' },
-        { status: 400 }
-      )
-    }
+export const GET = withRequestLog<{ id: string }>(async (_request, _ctx, { id: leadId }) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ error: auth.reason }, { status: auth.status })
+  }
+  if (!leadId) {
+    return NextResponse.json({ error: 'Lead ID is required' }, { status: 400 })
+  }
+  const notes = (notesStore.get(leadId) || [])
+    .slice()
+    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+  return NextResponse.json({ success: true, data: notes, count: notes.length })
+})
 
-    const notes = notesStore.get(leadId) || []
-    
-    // Sort by createdAt desc
-    const sortedNotes = notes.sort((a, b) => 
-      new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-    )
+export const POST = withRequestLog<{ id: string }>(async (request, { log }, { id: leadId }) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ error: auth.reason }, { status: auth.status })
+  }
+  if (!leadId) {
+    return NextResponse.json({ error: 'Lead ID is required' }, { status: 400 })
+  }
 
-    return NextResponse.json({
-      success: true,
-      data: sortedNotes,
-      count: sortedNotes.length
-    })
-  } catch (error) {
-    logger.error('Failed to fetch lead notes', { action: 'leads.notes.list', error: error instanceof Error ? error.message : String(error) })
+  const body = await request.json().catch(() => null)
+  const validated = NoteSchema.safeParse(body)
+  if (!validated.success) {
     return NextResponse.json(
-      { error: 'Failed to fetch notes' },
-      { status: 500 }
+      { error: 'Validation failed', details: validated.error.flatten().fieldErrors },
+      { status: 400 },
     )
   }
-}
 
-export async function POST(
-  request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
-  try {
-    const { id: leadId } = await params
-    
-    if (!leadId) {
-      return NextResponse.json(
-        { error: 'Lead ID is required' },
-        { status: 400 }
-      )
-    }
+  const note: LeadNote = {
+    id: generateId(),
+    leadId,
+    ...validated.data,
+    createdBy: auth.user.email ?? auth.user.id,
+    createdAt: new Date().toISOString(),
+  }
+  const existing = notesStore.get(leadId) || []
+  existing.push(note)
+  notesStore.set(leadId, existing)
+  log.info('leads.notes.created', { leadId, noteId: note.id, type: note.type })
+  return NextResponse.json({ success: true, data: note }, { status: 201 })
+})
 
-    const body = await request.json()
-    const validated = NoteSchema.safeParse(body)
-
-    if (!validated.success) {
-      return NextResponse.json(
-        { 
-          error: 'Validation failed', 
-          details: validated.error.flatten().fieldErrors 
-        },
-        { status: 400 }
-      )
-    }
-
-    const { content, type, isPrivate } = validated.data
-
-    const note = {
-      id: generateId(),
-      leadId,
-      content,
-      type,
-      isPrivate,
-      createdBy: 'admin', // TODO: Get from auth session
-      createdAt: new Date().toISOString()
-    }
-
-    const existingNotes = notesStore.get(leadId) || []
-    existingNotes.push(note)
-    notesStore.set(leadId, existingNotes)
-
-    return NextResponse.json({
-      success: true,
-      data: note,
-      message: 'Note added successfully'
-    }, { status: 201 })
-  } catch (error) {
-    logger.error('Failed to create lead note', { action: 'leads.notes.create', error: error instanceof Error ? error.message : String(error) })
+export const PATCH = withRequestLog<{ id: string }>(async (request, { log }, { id: leadId }) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ error: auth.reason }, { status: auth.status })
+  }
+  const body = await request.json().catch(() => ({}))
+  const { noteId, ...updates } = body as { noteId?: string } & Record<string, unknown>
+  if (!leadId || !noteId) {
+    return NextResponse.json({ error: 'Lead ID and Note ID are required' }, { status: 400 })
+  }
+  const validated = UpdateNoteSchema.safeParse(updates)
+  if (!validated.success) {
     return NextResponse.json(
-      { error: 'Failed to create note' },
-      { status: 500 }
+      { error: 'Validation failed', details: validated.error.flatten().fieldErrors },
+      { status: 400 },
     )
   }
-}
-
-export async function PATCH(
-  request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
-  try {
-    const { id: leadId } = await params
-    const { noteId, ...updates } = await request.json()
-    
-    if (!leadId || !noteId) {
-      return NextResponse.json(
-        { error: 'Lead ID and Note ID are required' },
-        { status: 400 }
-      )
-    }
-
-    const validated = UpdateNoteSchema.safeParse(updates)
-    if (!validated.success) {
-      return NextResponse.json(
-        { 
-          error: 'Validation failed', 
-          details: validated.error.flatten().fieldErrors 
-        },
-        { status: 400 }
-      )
-    }
-
-    const notes = notesStore.get(leadId) || []
-    const noteIndex = notes.findIndex(n => n.id === noteId)
-
-    if (noteIndex === -1) {
-      return NextResponse.json(
-        { error: 'Note not found' },
-        { status: 404 }
-      )
-    }
-
-    notes[noteIndex] = {
-      ...notes[noteIndex],
-      ...validated.data,
-      updatedAt: new Date().toISOString()
-    }
-
-    return NextResponse.json({
-      success: true,
-      data: notes[noteIndex],
-      message: 'Note updated successfully'
-    })
-  } catch (error) {
-    logger.error('Failed to update lead note', { action: 'leads.notes.update', error: error instanceof Error ? error.message : String(error) })
-    return NextResponse.json(
-      { error: 'Failed to update note' },
-      { status: 500 }
-    )
+  const notes = notesStore.get(leadId) || []
+  const idx = notes.findIndex((n) => n.id === noteId)
+  if (idx === -1) {
+    return NextResponse.json({ error: 'Note not found' }, { status: 404 })
   }
-}
+  notes[idx] = { ...notes[idx], ...validated.data, updatedAt: new Date().toISOString() }
+  log.info('leads.notes.updated', { leadId, noteId })
+  return NextResponse.json({ success: true, data: notes[idx] })
+})
 
-export async function DELETE(
-  request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
-  try {
-    const { id: leadId } = await params
-    const { searchParams } = new URL(request.url)
-    const noteId = searchParams.get('noteId')
-    
-    if (!leadId || !noteId) {
-      return NextResponse.json(
-        { error: 'Lead ID and Note ID are required' },
-        { status: 400 }
-      )
-    }
-
-    const notes = notesStore.get(leadId) || []
-    const filteredNotes = notes.filter(n => n.id !== noteId)
-
-    if (filteredNotes.length === notes.length) {
-      return NextResponse.json(
-        { error: 'Note not found' },
-        { status: 404 }
-      )
-    }
-
-    notesStore.set(leadId, filteredNotes)
-
-    return NextResponse.json({
-      success: true,
-      message: 'Note deleted successfully'
-    })
-  } catch (error) {
-    logger.error('Failed to delete lead note', { action: 'leads.notes.delete', error: error instanceof Error ? error.message : String(error) })
-    return NextResponse.json(
-      { error: 'Failed to delete note' },
-      { status: 500 }
-    )
+export const DELETE = withRequestLog<{ id: string }>(async (request, { log }, { id: leadId }) => {
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ error: auth.reason }, { status: auth.status })
   }
-}
+  const noteId = new URL(request.url).searchParams.get('noteId')
+  if (!leadId || !noteId) {
+    return NextResponse.json({ error: 'Lead ID and Note ID are required' }, { status: 400 })
+  }
+  const notes = notesStore.get(leadId) || []
+  const filtered = notes.filter((n) => n.id !== noteId)
+  if (filtered.length === notes.length) {
+    return NextResponse.json({ error: 'Note not found' }, { status: 404 })
+  }
+  notesStore.set(leadId, filtered)
+  log.info('leads.notes.deleted', { leadId, noteId })
+  return NextResponse.json({ success: true })
+})
