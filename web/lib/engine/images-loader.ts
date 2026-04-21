@@ -21,6 +21,15 @@ export interface ImageAsset {
   height?: number
   /** Legacy PNG source kept when a `.webp` conversion is present. */
   fallbackSrc?: string
+  /**
+   * Optional per-locale alt-text overrides. When the resolver is called
+   * with a `locale` argument and `altByLocale[locale]` exists, that
+   * string is returned as `alt`. Falls back to the default `alt` on
+   * miss. Images meant for on-site rendering (hero, whyParaguay,
+   * process, programs, team, office, trust, blog) should define alts
+   * for every locale the site ships.
+   */
+  altByLocale?: Record<string, string>
 }
 
 export interface ImagesManifest {
@@ -69,12 +78,15 @@ function splitKey(key: string): [string, string] | null {
 
 /**
  * Resolve a manifest key ("bucket.assetName") to the full `ImageAsset`.
+ * When `locale` is supplied and the asset has `altByLocale[locale]`, the
+ * returned asset has its `alt` replaced with the locale-specific string.
  * Returns `null` when the manifest is missing, the bucket is missing, or
  * the asset isn't declared.
  */
 export function resolveImage(
   manifest: ImagesManifest | null,
   key: string,
+  locale?: string,
 ): ImageAsset | null {
   if (!manifest) return null
   const parts = splitKey(key)
@@ -84,6 +96,9 @@ export function resolveImage(
   if (!group) return null
   const asset = group[name]
   if (!asset || typeof asset.src !== 'string') return null
+  if (locale && asset.altByLocale && typeof asset.altByLocale[locale] === 'string') {
+    return { ...asset, alt: asset.altByLocale[locale] }
+  }
   return asset
 }
 

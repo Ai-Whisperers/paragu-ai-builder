@@ -29014,51 +29014,111 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "blog": {
         "banca": {
           "alt": "Opening a bank account in Paraguay",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Paraguayisches Bankwesen für Ausländer",
+            "en": "Blog cover: Paraguayan banking for foreigners",
+            "es": "Portada de blog: banca paraguaya para extranjeros",
+            "nl": "Blogomslag: Paraguayaans bankieren voor buitenlanders"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/banca.png",
           "src": "/sites/nexa-paraguay/images/blog/banca.webp"
         },
         "comparativaFiscal": {
           "alt": "Paraguay vs Uruguay fiscal comparison",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Steuervergleich Paraguay vs. Nachbarländer",
+            "en": "Blog cover: Paraguay tax comparison vs neighbouring countries",
+            "es": "Portada de blog: comparativa fiscal Paraguay vs países vecinos",
+            "nl": "Blogomslag: fiscale vergelijking Paraguay vs buurlanden"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.png",
           "src": "/sites/nexa-paraguay/images/blog/comparativa-fiscal.webp"
         },
         "costOfLiving": {
           "alt": "Cost of living in Paraguay",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Lebenshaltungskosten in Paraguay",
+            "en": "Blog cover: cost of living in Paraguay",
+            "es": "Portada de blog: costo de vida en Paraguay",
+            "nl": "Blogomslag: kosten van levensonderhoud in Paraguay"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/cost-of-living.png",
           "src": "/sites/nexa-paraguay/images/blog/cost-of-living.webp"
         },
         "emprender": {
           "alt": "Entrepreneurship opportunities in Paraguay",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Unternehmen gründen in Paraguay",
+            "en": "Blog cover: starting a business in Paraguay",
+            "es": "Portada de blog: emprender en Paraguay",
+            "nl": "Blogomslag: ondernemen in Paraguay"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/emprender.png",
           "src": "/sites/nexa-paraguay/images/blog/emprender.webp"
         },
         "healthcare": {
           "alt": "Healthcare for expats in Paraguay",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Gesundheitsversorgung in Paraguay",
+            "en": "Blog cover: healthcare options in Paraguay",
+            "es": "Portada de blog: opciones de salud en Paraguay",
+            "nl": "Blogomslag: zorgopties in Paraguay"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/healthcare.png",
           "src": "/sites/nexa-paraguay/images/blog/healthcare.webp"
         },
         "neighborhoods": {
           "alt": "Neighborhood guide: Villa Morra and Carmelitas",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Stadtviertel in Asunción",
+            "en": "Blog cover: neighbourhoods in Asunción",
+            "es": "Portada de blog: barrios en Asunción",
+            "nl": "Blogomslag: wijken in Asunción"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/neighborhoods.png",
           "src": "/sites/nexa-paraguay/images/blog/neighborhoods.webp"
         },
         "paraguayUruguayPanama": {
           "alt": "Paraguay vs Uruguay vs Panama comparison",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Vergleich Paraguay vs. Uruguay vs. Panama",
+            "en": "Blog cover: Paraguay vs Uruguay vs Panama comparison",
+            "es": "Portada de blog: comparativa Paraguay vs Uruguay vs Panamá",
+            "nl": "Blogomslag: vergelijking Paraguay vs Uruguay vs Panama"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.png",
           "src": "/sites/nexa-paraguay/images/blog/paraguay-uruguay-panama.webp"
         },
         "propiedades": {
           "alt": "Buying property in Paraguay",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Immobilien kaufen in Paraguay",
+            "en": "Blog cover: buying property in Paraguay",
+            "es": "Portada de blog: comprar propiedades en Paraguay",
+            "nl": "Blogomslag: vastgoed kopen in Paraguay"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/propiedades.png",
           "src": "/sites/nexa-paraguay/images/blog/propiedades.webp"
         },
         "residencia2024": {
           "alt": "Guide to Paraguay residency 2024",
+          "altByLocale": {
+            "de": "Blog-Titelbild: Aufenthaltsanforderungen 2024",
+            "en": "Blog cover: residency requirements 2024",
+            "es": "Portada de blog: requisitos de residencia 2024",
+            "nl": "Blogomslag: vereisten voor residentie 2024"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/residencia-2024.png",
           "src": "/sites/nexa-paraguay/images/blog/residencia-2024.webp"
         },
         "schools": {
           "alt": "International schools for expat families",
+          "altByLocale": {
+            "de": "Blog-Titelbild: internationale Schulen in Paraguay",
+            "en": "Blog cover: international schools in Paraguay",
+            "es": "Portada de blog: colegios internacionales en Paraguay",
+            "nl": "Blogomslag: internationale scholen in Paraguay"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/blog/schools.png",
           "src": "/sites/nexa-paraguay/images/blog/schools.webp"
         }
@@ -29155,31 +29215,67 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "hero": {
         "home": {
           "alt": "Asunción Paraguay skyline at golden hour",
+          "altByLocale": {
+            "de": "Skyline von Asunción, Paraguay, zur goldenen Stunde",
+            "en": "Asunción Paraguay skyline at golden hour",
+            "es": "Silueta de Asunción, Paraguay, al atardecer",
+            "nl": "Skyline van Asunción, Paraguay, bij gouden uur"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-bg.webp"
         },
         "homeMobile": {
           "alt": "Asunción Paraguay skyline (mobile portrait)",
+          "altByLocale": {
+            "de": "Skyline von Asunción, Paraguay (mobil, Hochformat)",
+            "en": "Asunción Paraguay skyline (mobile portrait)",
+            "es": "Silueta de Asunción, Paraguay (vertical, móvil)",
+            "nl": "Skyline van Asunción, Paraguay (mobiel portret)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-bg-mobile.webp"
         },
         "localizedDe": {
           "alt": "Neoclassical institutional bridge for German market",
+          "altByLocale": {
+            "de": "Geschäftsviertel von Asunción für den deutschsprachigen Markt",
+            "en": "Business district of Asunción for the German market",
+            "es": "Distrito de negocios de Asunción para el mercado alemán",
+            "nl": "Zakendistrict van Asunción voor de Duitse markt"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-de.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-de.webp"
         },
         "localizedEn": {
           "alt": "Asunción business tower and professional silhouette for English market",
+          "altByLocale": {
+            "de": "Geschäftsturm von Asunción und professionelle Silhouette für den englischsprachigen Markt",
+            "en": "Asunción business tower and professional silhouette for the English market",
+            "es": "Torre empresarial de Asunción y silueta profesional para el mercado inglés",
+            "nl": "Zakentoren van Asunción en professionele silhouet voor de Engelstalige markt"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-en.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-en.webp"
         },
         "localizedEs": {
           "alt": "Family walking a Villa Morra street for Spanish market",
+          "altByLocale": {
+            "de": "Kulturelles Wahrzeichen von Asunción für den spanischsprachigen Markt",
+            "en": "Asunción cultural landmark for the Spanish market",
+            "es": "Patrimonio cultural de Asunción para el mercado hispanohablante",
+            "nl": "Cultureel oriëntatiepunt van Asunción voor de Spaanstalige markt"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-es.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-es.webp"
         },
         "localizedNl": {
           "alt": "Bridge between Amsterdam and Asunción for Dutch market",
+          "altByLocale": {
+            "de": "Brücke zwischen Amsterdam und Asunción für den niederländischen Markt",
+            "en": "Bridge between Amsterdam and Asunción for the Dutch market",
+            "es": "Puente entre Ámsterdam y Asunción para el mercado neerlandés",
+            "nl": "Brug tussen Amsterdam en Asunción voor de Nederlandse markt"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/hero/hero-nl.png",
           "src": "/sites/nexa-paraguay/images/hero/hero-nl.webp"
         }
@@ -29187,26 +29283,56 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "office": {
         "exterior": {
           "alt": "Asunción boutique office exterior",
+          "altByLocale": {
+            "de": "Außenansicht des Nexa Paraguay Büros in Asunción (KI-Platzhalter)",
+            "en": "Nexa Paraguay office exterior in Asunción (AI placeholder)",
+            "es": "Exterior de la oficina de Nexa Paraguay en Asunción (marcador IA)",
+            "nl": "Buitenkant van Nexa Paraguay kantoor in Asunción (AI-plaatsaanduiding)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/office/exterior.png",
           "src": "/sites/nexa-paraguay/images/office/exterior.webp"
         },
         "meetingRoom": {
           "alt": "Consultation in progress in meeting room",
+          "altByLocale": {
+            "de": "Besprechungsraum für Beratung und Unterzeichnung",
+            "en": "Meeting room where consultation and signing take place",
+            "es": "Sala de reuniones donde ocurren la consulta y las firmas",
+            "nl": "Vergaderzaal waar consult en ondertekening plaatsvinden"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/office/meeting-room.png",
           "src": "/sites/nexa-paraguay/images/office/meeting-room.webp"
         },
         "reception": {
           "alt": "Boutique office reception",
+          "altByLocale": {
+            "de": "Büroempfang: Ankunftspunkt am operativen Tag",
+            "en": "Office reception: where clients arrive for the operational day",
+            "es": "Recepción de la oficina: punto de llegada en el día operativo",
+            "nl": "Receptie van het kantoor: aankomstpunt op de operationele dag"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/office/reception.png",
           "src": "/sites/nexa-paraguay/images/office/reception.webp"
         },
         "signing": {
           "alt": "Notary signing scene",
+          "altByLocale": {
+            "de": "Notarieller Unterzeichnungstisch im Nexa Paraguay Büro",
+            "en": "Notarial signing desk inside the Nexa Paraguay office",
+            "es": "Mesa notarial de firma en la oficina de Nexa Paraguay",
+            "nl": "Notariële ondertekentafel in het Nexa Paraguay-kantoor"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/office/signing.png",
           "src": "/sites/nexa-paraguay/images/office/signing.webp"
         },
         "teamHuddle": {
           "alt": "Team huddle around the whiteboard",
+          "altByLocale": {
+            "de": "Teambesprechung: Anwälte, Steuerberater und Koordinatoren richten einen Fall aus",
+            "en": "Team huddle: lawyers, accountants and coordinators aligning on a case",
+            "es": "Reunión del equipo: abogados, contadores y coordinadores alineando un caso",
+            "nl": "Teamoverleg: advocaten, accountants en coördinatoren stemmen een dossier af"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/office/team-huddle.png",
           "src": "/sites/nexa-paraguay/images/office/team-huddle.webp"
         }
@@ -29231,46 +29357,100 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "process": {
         "apostilleStack": {
           "alt": "Overhead macro of apostilled documents",
+          "altByLocale": {
+            "de": "Apostillierte Dokumente bereit für den operativen Tag",
+            "en": "Apostilled documents stacked and ready for the operational day",
+            "es": "Documentos apostillados listos para el día operativo",
+            "nl": "Geapostilleerde documenten klaar voor de operationele dag"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/apostille-stack.png",
           "src": "/sites/nexa-paraguay/images/process/apostille-stack.webp"
         },
         "arrival": {
           "alt": "Arrival in Paraguay",
+          "altByLocale": {
+            "de": "Operativer Tag: Klient trifft mit dem Team in Asunción ein",
+            "en": "Operational day: client arriving at Asunción with team",
+            "es": "Día operativo: cliente llegando a Asunción con el equipo",
+            "nl": "Operationele dag: klant komt aan in Asunción met het team"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/arrival.png",
           "src": "/sites/nexa-paraguay/images/process/arrival.webp"
         },
         "bankCustomerSide": {
           "alt": "Customer and bank officer at private-banking desk, rear view",
+          "altByLocale": {
+            "de": "Banktermin aus Kundensicht: Unterzeichnung und Willkommenspaket",
+            "en": "Bank appointment seen from the client side: signing and welcome pack",
+            "es": "Cita bancaria desde el lado del cliente: firma y paquete de bienvenida",
+            "nl": "Bankafspraak gezien vanaf de klantzijde: ondertekening en welkomstpakket"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/bank-customer-side.png",
           "src": "/sites/nexa-paraguay/images/process/bank-customer-side.webp"
         },
         "banking": {
           "alt": "Company and banking setup",
+          "altByLocale": {
+            "de": "Unternehmens- und Bankschritt: Eröffnung eines Geschäftskontos",
+            "en": "Company and banking step: opening a corporate bank account",
+            "es": "Paso de empresa y banca: apertura de cuenta corporativa",
+            "nl": "Bedrijfs- en bankstap: zakelijke rekening openen"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/banking.png",
           "src": "/sites/nexa-paraguay/images/process/banking.webp"
         },
         "completion": {
           "alt": "Delivery and follow-up",
+          "altByLocale": {
+            "de": "Abschluss und Nachbetreuung: unterzeichneter Ordner mit finalen Aufenthaltsdokumenten",
+            "en": "Delivery and follow-up: signed folder with final residency documents",
+            "es": "Entrega y seguimiento: carpeta firmada con documentos finales de residencia",
+            "nl": "Oplevering en nazorg: getekende map met definitieve verblijfsdocumenten"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/completion.png",
           "src": "/sites/nexa-paraguay/images/process/completion.webp"
         },
         "consultation": {
           "alt": "Professional consultation",
+          "altByLocale": {
+            "de": "Erstberatung: Videoanruf zwischen Klient und Nexa-Berater",
+            "en": "Initial consultation: video call between client and Nexa advisor",
+            "es": "Consulta inicial: videollamada entre cliente y asesor de Nexa",
+            "nl": "Eerste consult: videogesprek tussen klant en Nexa-adviseur"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/consultation.png",
           "src": "/sites/nexa-paraguay/images/process/consultation.webp"
         },
         "documents": {
           "alt": "Document validation",
+          "altByLocale": {
+            "de": "Dokumentenvalidierung: Stapel apostillierter Dokumente in Prüfung",
+            "en": "Document validation: stack of apostilled documents being reviewed",
+            "es": "Validación de documentos: pila de documentos apostillados en revisión",
+            "nl": "Documentvalidatie: stapel geapostilleerde documenten onder review"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/documents.png",
           "src": "/sites/nexa-paraguay/images/process/documents.webp"
         },
         "familyResidency": {
           "alt": "Family walking toward government building for residency",
+          "altByLocale": {
+            "de": "Familien-Aufenthalt: Eltern und Kind im Migrationsamt",
+            "en": "Family residency: parents and child at the migration office",
+            "es": "Residencia familiar: padres y niño en la oficina de migraciones",
+            "nl": "Gezinsresidentie: ouders en kind bij het migratiekantoor"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/family-residency.png",
           "src": "/sites/nexa-paraguay/images/process/family-residency.webp"
         },
         "operationalDay": {
           "alt": "Operational day panorama: arrival, signing, handshake",
+          "altByLocale": {
+            "de": "Operativer Tag: ein koordinierter Tag persönlicher Abwicklung",
+            "en": "Operational day: single coordinated day of in-person processing",
+            "es": "Día operativo: una jornada coordinada de trámites presenciales",
+            "nl": "Operationele dag: één gecoördineerde dag fysieke afhandeling"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/process/operational-day.png",
           "src": "/sites/nexa-paraguay/images/process/operational-day.webp"
         }
@@ -29278,21 +29458,45 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "programs": {
         "tierBase": {
           "alt": "Base program tier: ID card, passport and lapacho flower",
+          "altByLocale": {
+            "de": "Basisprogramm: Personalausweis, Reisepass und Lapacho-Blüte auf einem Schreibtisch",
+            "en": "Base program: ID card, passport and lapacho flower on a desk",
+            "es": "Programa Base: cédula, pasaporte y flor de lapacho sobre un escritorio",
+            "nl": "Basisprogramma: ID-kaart, paspoort en lapacho-bloem op een bureau"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-base.png",
           "src": "/sites/nexa-paraguay/images/programs/tier-base.webp"
         },
         "tierBusiness": {
           "alt": "Business program tier: ID, passport, folder, bank card",
+          "altByLocale": {
+            "de": "Business-Programm: Personalausweis, Reisepass, Mappe und Firmen-Bankkarte",
+            "en": "Business program: ID, passport, folder and corporate bank card",
+            "es": "Programa Business: cédula, pasaporte, carpeta y tarjeta corporativa",
+            "nl": "Business-programma: ID, paspoort, map en zakelijke bankkaart"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-business.png",
           "src": "/sites/nexa-paraguay/images/programs/tier-business.webp"
         },
         "tierInvestor": {
           "alt": "Investor program tier: documents, real-estate brochure and keys",
+          "altByLocale": {
+            "de": "Investorenprogramm: Dokumente, Immobilienbroschüre und Schlüssel",
+            "en": "Investor program: documents, real-estate brochure and keys",
+            "es": "Programa Inversor: documentos, folleto inmobiliario y llaves",
+            "nl": "Investeerdersprogramma: documenten, vastgoedbrochure en sleutels"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-investor.png",
           "src": "/sites/nexa-paraguay/images/programs/tier-investor.webp"
         },
         "tierTierras": {
           "alt": "Tierras program tier: rural Paraguayan farmland",
+          "altByLocale": {
+            "de": "Grundstücksprogramm: ländliches paraguayisches Farmland mit blauem Himmel",
+            "en": "Land program: rural Paraguayan farmland with blue sky",
+            "es": "Programa Tierras: campo rural paraguayo con cielo azul",
+            "nl": "Grondprogramma: ruraal Paraguayaans boerenland met blauwe lucht"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/programs/tier-tierras.png",
           "src": "/sites/nexa-paraguay/images/programs/tier-tierras.webp"
         }
@@ -29332,31 +29536,67 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "team": {
         "accountingLead": {
           "alt": "Accounting Lead portrait (staging placeholder)",
+          "altByLocale": {
+            "de": "Platzhalter-Porträt: Leitung Buchhaltung",
+            "en": "Placeholder portrait: Accounting team lead",
+            "es": "Retrato marcador: Responsable del equipo contable",
+            "nl": "Plaatsaanduiding portret: Leider van het boekhoudteam"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/team/accounting-lead.png",
           "src": "/sites/nexa-paraguay/images/team/accounting-lead.webp"
         },
         "clientSuccess": {
           "alt": "Client Success portrait (staging placeholder)",
+          "altByLocale": {
+            "de": "Platzhalter-Porträt: Leitung Client Success",
+            "en": "Placeholder portrait: Client Success lead",
+            "es": "Retrato marcador: Responsable de Client Success",
+            "nl": "Plaatsaanduiding portret: Client Success-leider"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/team/client-success.png",
           "src": "/sites/nexa-paraguay/images/team/client-success.webp"
         },
         "commercialDirector": {
           "alt": "Commercial Director portrait (staging placeholder)",
+          "altByLocale": {
+            "de": "Platzhalter-Porträt: Kaufmännischer Direktor (Europa)",
+            "en": "Placeholder portrait: Commercial Director (Europe)",
+            "es": "Retrato marcador: Director Comercial (Europa)",
+            "nl": "Plaatsaanduiding portret: Commercieel Directeur (Europa)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/team/commercial-director.png",
           "src": "/sites/nexa-paraguay/images/team/commercial-director.webp"
         },
         "group": {
           "alt": "Nexa Paraguay team group portrait (staging placeholder)",
+          "altByLocale": {
+            "de": "Platzhalter-Gruppenfoto: Nexa Paraguay Team (echtes Foto ausstehend)",
+            "en": "Placeholder group photo: Nexa Paraguay team (pending real photo)",
+            "es": "Foto grupal marcador: equipo Nexa Paraguay (pendiente foto real)",
+            "nl": "Plaatsaanduiding groepsfoto: Nexa Paraguay-team (echte foto volgt)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/team/group-shot.png",
           "src": "/sites/nexa-paraguay/images/team/group-shot.webp"
         },
         "legalLead": {
           "alt": "Legal Lead portrait (staging placeholder)",
+          "altByLocale": {
+            "de": "Platzhalter-Porträt: Leitung Rechtsteam",
+            "en": "Placeholder portrait: Legal team lead",
+            "es": "Retrato marcador: Responsable del equipo legal",
+            "nl": "Plaatsaanduiding portret: Juridische teamleider"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/team/legal-lead.png",
           "src": "/sites/nexa-paraguay/images/team/legal-lead.webp"
         },
         "operationsDirector": {
           "alt": "Operations Director portrait (staging placeholder)",
+          "altByLocale": {
+            "de": "Platzhalter-Porträt: Operativer Direktor (Paraguay)",
+            "en": "Placeholder portrait: Operations Director (Paraguay)",
+            "es": "Retrato marcador: Director de Operaciones (Paraguay)",
+            "nl": "Plaatsaanduiding portret: Operationeel Directeur (Paraguay)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/team/operations-director.png",
           "src": "/sites/nexa-paraguay/images/team/operations-director.webp"
         }
@@ -29364,51 +29604,111 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "testimonials": {
         "client1": {
           "alt": "Testimonial portrait: Argentine entrepreneur client",
+          "altByLocale": {
+            "de": "Platzhalter-Testimonial-Porträt 1 (KI, nicht eingewilligt)",
+            "en": "Placeholder testimonial portrait 1 (AI-generated, not consented)",
+            "es": "Retrato testimonial marcador 1 (IA, sin consentimiento)",
+            "nl": "Plaatsaanduiding testimoniumportret 1 (AI, niet ingestemd)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.png",
           "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.webp"
         },
         "client2": {
           "alt": "Testimonial portrait: Latin American female consultant client",
+          "altByLocale": {
+            "de": "Platzhalter-Testimonial-Porträt 2 (KI, nicht eingewilligt)",
+            "en": "Placeholder testimonial portrait 2 (AI-generated, not consented)",
+            "es": "Retrato testimonial marcador 2 (IA, sin consentimiento)",
+            "nl": "Plaatsaanduiding testimoniumportret 2 (AI, niet ingestemd)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.png",
           "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.webp"
         },
         "client3": {
           "alt": "Testimonial portrait: European professional client",
+          "altByLocale": {
+            "de": "Platzhalter-Testimonial-Porträt 3 (KI, nicht eingewilligt)",
+            "en": "Placeholder testimonial portrait 3 (AI-generated, not consented)",
+            "es": "Retrato testimonial marcador 3 (IA, sin consentimiento)",
+            "nl": "Plaatsaanduiding testimoniumportret 3 (AI, niet ingestemd)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.png",
           "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.webp"
         },
         "client4": {
           "alt": "Testimonial portrait: senior investor client",
+          "altByLocale": {
+            "de": "Platzhalter-Testimonial-Porträt 4 (KI, nicht eingewilligt)",
+            "en": "Placeholder testimonial portrait 4 (AI-generated, not consented)",
+            "es": "Retrato testimonial marcador 4 (IA, sin consentimiento)",
+            "nl": "Plaatsaanduiding testimoniumportret 4 (AI, niet ingestemd)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.png",
           "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.webp"
         },
         "client5": {
           "alt": "Testimonial portrait: family-relocation client",
+          "altByLocale": {
+            "de": "Platzhalter-Testimonial-Porträt 5 (KI, nicht eingewilligt)",
+            "en": "Placeholder testimonial portrait 5 (AI-generated, not consented)",
+            "es": "Retrato testimonial marcador 5 (IA, sin consentimiento)",
+            "nl": "Plaatsaanduiding testimoniumportret 5 (AI, niet ingestemd)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.png",
           "src": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.webp"
         },
         "poster1": {
           "alt": "Video testimonial poster frame 1",
+          "altByLocale": {
+            "de": "Video-Testimonial-Posterbild 1 (Platzhalter bis echtes Video)",
+            "en": "Video testimonial poster frame 1 (placeholder until real video)",
+            "es": "Fotograma de video testimonial 1 (marcador hasta video real)",
+            "nl": "Video-testimoniumposter 1 (plaatsaanduiding tot echte video)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-1.png",
           "src": "/sites/nexa-paraguay/images/testimonials/poster-1.webp"
         },
         "poster2": {
           "alt": "Video testimonial poster frame 2",
+          "altByLocale": {
+            "de": "Video-Testimonial-Posterbild 2 (Platzhalter bis echtes Video)",
+            "en": "Video testimonial poster frame 2 (placeholder until real video)",
+            "es": "Fotograma de video testimonial 2 (marcador hasta video real)",
+            "nl": "Video-testimoniumposter 2 (plaatsaanduiding tot echte video)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-2.png",
           "src": "/sites/nexa-paraguay/images/testimonials/poster-2.webp"
         },
         "poster3": {
           "alt": "Video testimonial poster frame 3",
+          "altByLocale": {
+            "de": "Video-Testimonial-Posterbild 3 (Platzhalter bis echtes Video)",
+            "en": "Video testimonial poster frame 3 (placeholder until real video)",
+            "es": "Fotograma de video testimonial 3 (marcador hasta video real)",
+            "nl": "Video-testimoniumposter 3 (plaatsaanduiding tot echte video)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-3.png",
           "src": "/sites/nexa-paraguay/images/testimonials/poster-3.webp"
         },
         "poster4": {
           "alt": "Video testimonial poster frame 4",
+          "altByLocale": {
+            "de": "Video-Testimonial-Posterbild 4 (Platzhalter bis echtes Video)",
+            "en": "Video testimonial poster frame 4 (placeholder until real video)",
+            "es": "Fotograma de video testimonial 4 (marcador hasta video real)",
+            "nl": "Video-testimoniumposter 4 (plaatsaanduiding tot echte video)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-4.png",
           "src": "/sites/nexa-paraguay/images/testimonials/poster-4.webp"
         },
         "poster5": {
           "alt": "Video testimonial poster frame 5",
+          "altByLocale": {
+            "de": "Video-Testimonial-Posterbild 5 (Platzhalter bis echtes Video)",
+            "en": "Video testimonial poster frame 5 (placeholder until real video)",
+            "es": "Fotograma de video testimonial 5 (marcador hasta video real)",
+            "nl": "Video-testimoniumposter 5 (plaatsaanduiding tot echte video)"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/testimonials/poster-5.png",
           "src": "/sites/nexa-paraguay/images/testimonials/poster-5.webp"
         }
@@ -29416,21 +29716,45 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "trust": {
         "cedula": {
           "alt": "Paraguayan cédula held between fingers",
+          "altByLocale": {
+            "de": "Paraguayische Cédula (Personalausweis) in der Hand — an den Klienten übergeben",
+            "en": "Paraguayan cédula (ID card) held in hand — delivered to the client",
+            "es": "Cédula paraguaya en mano — entregada al cliente",
+            "nl": "Paraguayaanse cédula (ID-kaart) in de hand — overhandigd aan de klant"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/trust/cedula-in-hand.png",
           "src": "/sites/nexa-paraguay/images/trust/cedula-in-hand.webp"
         },
         "certificate": {
           "alt": "Corporate registration certificate",
+          "altByLocale": {
+            "de": "Unternehmenszertifikat nach Gründung — Abschlussnachweis",
+            "en": "Company certificate after incorporation — proof of completion",
+            "es": "Certificado de constitución de empresa — prueba de cierre",
+            "nl": "Bedrijfscertificaat na oprichting — bewijs van voltooiing"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/trust/company-certificate.png",
           "src": "/sites/nexa-paraguay/images/trust/company-certificate.webp"
         },
         "migraciones": {
           "alt": "Paraguayan immigration authority building",
+          "altByLocale": {
+            "de": "Schild der Migraciones Paraguay — Beleg für institutionelles Vertrauen",
+            "en": "Migraciones Paraguay sign — institutional trust proof point",
+            "es": "Cartel de Migraciones Paraguay — prueba de confianza institucional",
+            "nl": "Bord van Migraciones Paraguay — bewijs van institutioneel vertrouwen"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/trust/migraciones.png",
           "src": "/sites/nexa-paraguay/images/trust/migraciones.webp"
         },
         "registry": {
           "alt": "Commercial registry building exterior",
+          "altByLocale": {
+            "de": "Außenansicht des paraguayischen Registergebäudes — institutioneller Partner",
+            "en": "Paraguayan registry building exterior — institutional partner",
+            "es": "Exterior del edificio del Registro paraguayo — socio institucional",
+            "nl": "Buitenkant van het Paraguayaanse registergebouw — institutionele partner"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/trust/registry-exterior.png",
           "src": "/sites/nexa-paraguay/images/trust/registry-exterior.webp"
         }
@@ -29438,46 +29762,100 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
       "whyParaguay": {
         "agribusiness": {
           "alt": "Paraguayan soybean field with quebracho tree (agribusiness)",
+          "altByLocale": {
+            "de": "Paraguayische Agrarwirtschaft: Sojafelder und Rinderfarm",
+            "en": "Paraguayan agribusiness: soy fields and cattle ranch",
+            "es": "Agronegocios paraguayos: campos de soja y hacienda ganadera",
+            "nl": "Paraguayaanse agribusiness: sojavelden en veehouderij"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/agribusiness.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/agribusiness.webp"
         },
         "community": {
           "alt": "Relaxed expat community gathering on a terrace",
+          "altByLocale": {
+            "de": "Internationale Gemeinschaft in Paraguay: Expats treffen sich in einem Café",
+            "en": "International community in Paraguay: expats meeting in a café",
+            "es": "Comunidad internacional en Paraguay: expatriados reunidos en un café",
+            "nl": "Internationale gemeenschap in Paraguay: expats die samenkomen in een café"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/community.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/community.webp"
         },
         "culture": {
           "alt": "Tereré and chipa on a Paraguayan wooden table",
+          "altByLocale": {
+            "de": "Paraguayische Kultur und Alltag: Chipa, Tereré und traditionelles Handwerk",
+            "en": "Paraguayan culture and daily life: chipa, tereré and traditional crafts",
+            "es": "Cultura y vida cotidiana paraguaya: chipa, tereré y artesanía tradicional",
+            "nl": "Paraguayaanse cultuur en dagelijks leven: chipa, tereré en traditioneel handwerk"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/culture.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/culture.webp"
         },
         "economic": {
           "alt": "Modern business district in Asunción",
+          "altByLocale": {
+            "de": "Modernes Geschäftsviertel von Asunción als Symbol für Wirtschaftswachstum",
+            "en": "Modern Asunción business district representing economic growth",
+            "es": "Distrito empresarial moderno de Asunción que representa el crecimiento económico",
+            "nl": "Modern zakendistrict van Asunción dat economische groei voorstelt"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/economic.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/economic.webp"
         },
         "growth": {
           "alt": "Asunción high-rise construction (GDP growth)",
+          "altByLocale": {
+            "de": "Wachstumskurs Paraguays: aufstrebende Skyline und Professioneller auf einer Dachterrasse",
+            "en": "Paraguay growth trajectory: rising skyline and professional at a rooftop",
+            "es": "Trayectoria de crecimiento de Paraguay: silueta urbana en ascenso y profesional en terraza",
+            "nl": "Groeitraject van Paraguay: stijgende skyline en professional op een dakterras"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/growth.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/growth.webp"
         },
         "investment": {
           "alt": "Premium real estate development in Paraguay",
+          "altByLocale": {
+            "de": "Investitionsmöglichkeiten in Paraguay: Baukräne und neue Türme",
+            "en": "Investment opportunities in Paraguay: construction cranes and new towers",
+            "es": "Oportunidades de inversión en Paraguay: grúas y torres en construcción",
+            "nl": "Investeringskansen in Paraguay: bouwkranen en nieuwe torens"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/investment.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/investment.webp"
         },
         "lifestyle": {
           "alt": "Quality of life in Paraguay",
+          "altByLocale": {
+            "de": "Entspannter paraguayischer Lebensstil: Familie auf der Terrasse, Tereré und grüne Pflanzen",
+            "en": "Relaxed Paraguayan lifestyle: family on a terrace, tereré and green plants",
+            "es": "Estilo de vida paraguayo: familia en terraza, tereré y plantas verdes",
+            "nl": "Ontspannen Paraguayaanse levensstijl: familie op terras, tereré en groene planten"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/lifestyle.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/lifestyle.webp"
         },
         "nature": {
           "alt": "Ñu Guasu Park green space in Asunción",
+          "altByLocale": {
+            "de": "Natur in Paraguay: zugängliche grüne Parks und blühende Lapacho-Bäume",
+            "en": "Paraguayan nature: accessible green parks and lapacho trees in bloom",
+            "es": "Naturaleza paraguaya: parques verdes accesibles y lapachos en flor",
+            "nl": "Paraguayaanse natuur: toegankelijke groene parken en bloeiende lapacho-bomen"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/nature.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/nature.webp"
         },
         "tax": {
           "alt": "Paraguayan tax authority building (fiscal stability)",
+          "altByLocale": {
+            "de": "Steuerliche Stabilität in Paraguay: offizielle Dokumente und ein aufgeräumter Schreibtisch",
+            "en": "Paraguay tax stability: official documents and a clean desk",
+            "es": "Estabilidad fiscal de Paraguay: documentos oficiales y un escritorio ordenado",
+            "nl": "Fiscale stabiliteit van Paraguay: officiële documenten en een opgeruimd bureau"
+          },
           "fallbackSrc": "/sites/nexa-paraguay/images/why-paraguay/tax.png",
           "src": "/sites/nexa-paraguay/images/why-paraguay/tax.webp"
         }

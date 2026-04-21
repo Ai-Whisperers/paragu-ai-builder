@@ -78,7 +78,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     year: new Date().getFullYear(),
   }
 
-  const copyCtx = { siteContent, verticalCopy, placeholders, images: imagesManifest }
+  const copyCtx = { siteContent, verticalCopy, placeholders, images: imagesManifest, locale }
 
   const resolvedSections = page.sections
     .filter((s) => shouldInclude(s.enabledWhen, site.features))

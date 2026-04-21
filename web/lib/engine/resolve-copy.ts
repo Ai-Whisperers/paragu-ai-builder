@@ -8,6 +8,8 @@ export interface CopyContext {
   placeholders: Record<string, string | number | undefined>
   /** Optional images manifest for `@img:` / `@src:` / `$img` expansion. */
   images?: ImagesManifest | null
+  /** Locale code — when set, `$img` expansions prefer `altByLocale[locale]`. */
+  locale?: string
 }
 
 function getByPath(root: Record<string, unknown>, path: string): unknown {
@@ -45,6 +47,7 @@ function resolveImageRefString(
   if (value.startsWith('@img:')) key = value.slice(5)
   else if (value.startsWith('@src:')) key = value.slice(5)
   if (!key) return undefined
+  // @img/@src only need the `.src` — no locale-aware alt needed here.
   const asset = resolveImage(ctx.images, key)
   return asset ? asset.src : undefined
 }
@@ -71,7 +74,7 @@ function followRefs(value: unknown, ctx: CopyContext, depth = 0): unknown {
     // `{ $img: "bucket.asset" }` → full ImageAsset object `{ src, alt, ... }`.
     // On miss we leave the object untouched so the broken ref is visible.
     if (typeof rec.$img === 'string' && ctx.images) {
-      const asset = resolveImage(ctx.images, rec.$img)
+      const asset = resolveImage(ctx.images, rec.$img, ctx.locale)
       if (asset) return { ...asset }
     }
     const out: Record<string, unknown> = {}
