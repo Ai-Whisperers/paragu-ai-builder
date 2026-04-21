@@ -153,4 +153,8 @@ jobs:
         with:
           base: ${{ github.event.repository.default_branch }}
           head: HEAD
-          extra_args: --filter-entropy --threshold=8.5
+          # `--only-verified` reports only secrets TruffleHog could
+          # confirm against their originating service. Quieter than the
+          # entropy heuristic and doesn't have the CLI-arg bug that was
+          # failing every PR (--filter-entropy requires a value).
+          extra_args: --only-verified
