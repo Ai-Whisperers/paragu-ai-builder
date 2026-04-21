@@ -1,35 +1,88 @@
+import { pagoparFetch, signPagopar, getPagoparTokens } from './client'
+import { initTransaction } from './transactions'
+import { verifyPagoparWebhook, mapPagoparStatus } from './webhooks'
+import type { PagoparWebhookPayload } from './webhooks'
 import type { PaymentProviderAdapter } from '../types'
 
-/**
- * Pagopar adapter — STUB ONLY (PR 1 of 5).
- *
- * PR 2 (feat/pagopar-adapter) will implement:
- *   - createCheckoutSession: POST /api/comercios/2.0/iniciar-transaccion
- *   - verifyWebhook: SHA1 token validation against (privateKey + orderHash)
- *   - fetchPayment: GET status for an order hash
- *
- * This stub exists so the PaymentProviderAdapter registry compiles + the
- * CHECK constraint on storefront_transactions.provider accepts 'pagopar'
- * from the migration shipping in this PR.
- */
 export const pagoparAdapter: PaymentProviderAdapter = {
   name: 'pagopar',
 
-  async createCheckoutSession() {
-    throw new Error('pagopar_adapter_not_implemented: ship PR 2 before enabling checkout')
-  },
+  async createCheckoutSession(order, opts) {
+    const { publicToken, privateToken } = getPagoparTokens()
+    const cancelUrl = opts.returnUrl.replace(/([?&])status=\w+/, '') + (opts.returnUrl.includes('?') ? '&' : '?') + 'status=failure'
 
-  async verifyWebhook() {
+    const { hashPedido, checkoutUrl } = await initTransaction(order, {
+      publicToken,
+      privateToken,
+      returnUrl: opts.returnUrl.includes('?') ? `${opts.returnUrl}&status=success` : `${opts.returnUrl}?status=success`,
+      cancelUrl,
+      webhookUrl: opts.webhookUrl,
+    })
+
     return {
-      valid: false,
-      eventId: '',
-      resourceId: '',
-      eventType: 'unknown',
-      reason: 'pagopar_adapter_not_implemented',
+      redirectUrl: checkoutUrl,
+      providerRef: hashPedido,
+      sandbox: (process.env.PAGOPAR_ENVIRONMENT ?? 'sandbox') !== 'production',
     }
   },
 
-  async fetchPayment() {
-    throw new Error('pagopar_adapter_not_implemented: ship PR 2 before processing webhooks')
+  async verifyWebhook(_request, rawBody) {
+    const { privateToken } = getPagoparTokens()
+    let payload: PagoparWebhookPayload
+    try {
+      payload = JSON.parse(rawBody) as PagoparWebhookPayload
+    } catch {
+      return { valid: false, eventId: '', resourceId: '', eventType: 'unknown', reason: 'invalid_json' }
+    }
+
+    const verification = verifyPagoparWebhook(payload, privateToken)
+    // Pagopar doesn't send a distinct event id — the hash_pedido dedupes
+    // by itself because a given order only fires one "pagado=true" event.
+    // We append the status so a later refund webhook doesn't collide.
+    const eventId = `${verification.hashPedido}:${verification.status}`
+    return {
+      valid: verification.valid,
+      eventId,
+      resourceId: verification.hashPedido,
+      eventType: `payment.${verification.status}`,
+      reason: verification.reason,
+    }
+  },
+
+  async fetchPayment(providerPaymentId) {
+    // providerPaymentId = hash_pedido. Pagopar's "traer-pedido" endpoint
+    // returns the current state of the order. Token = sha1(private + hash).
+    const { publicToken, privateToken } = getPagoparTokens()
+    const token = signPagopar(privateToken, providerPaymentId)
+
+    const response = await pagoparFetch<{
+      resultado: Array<{
+        hash_pedido: string
+        pagado: boolean
+        cancelado?: boolean
+        monto?: string | number
+        ultimo_mensaje_error?: string | null
+        forma_pago_identificador?: string
+      }>
+      respuesta: boolean
+    }>('/api/comercios/1.1/traer-pedido', {
+      method: 'POST',
+      body: JSON.stringify({ token, public_key: publicToken, hash_pedido: providerPaymentId }),
+    })
+
+    const entry = response.resultado?.[0]
+    if (!entry) throw new Error('pagopar_order_not_found')
+
+    const status = mapPagoparStatus(entry)
+    const amount = typeof entry.monto === 'number' ? entry.monto : parseInt(String(entry.monto ?? '0'), 10) || 0
+
+    return {
+      providerPaymentId: entry.hash_pedido,
+      status,
+      amountCents: amount,
+      currency: 'PYG',
+      externalReference: entry.hash_pedido,
+      rawPayload: response as unknown as Record<string, unknown>,
+    }
   },
 }
