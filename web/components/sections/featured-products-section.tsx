@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import { unstable_noStore as noStore } from 'next/cache'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { listActiveProducts } from '@/lib/commerce/products'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { logger } from '@/lib/logger'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -36,10 +38,26 @@ export async function FeaturedProductsSection({
   limit,
   locale = 'es',
 }: FeaturedProductsSectionProps) {
-  const business = await resolveBusinessBySlug(siteSlug)
-  if (!business || !(await isCommerceEnabled(business.type))) return null
+  // Opt the host page out of static generation — same reason as
+  // CommerceCatalogSection: the data fetches use cookies via the Supabase
+  // admin client, which Next.js forbids during SSG.
+  noStore()
 
-  const products = await listActiveProducts(business.id, { limit, sort: 'newest' })
+  // Fail-soft: any crash in the data layer returns null instead of 500ing
+  // the page. The tenant's landing still renders its other sections.
+  let products: Awaited<ReturnType<typeof listActiveProducts>> = []
+  try {
+    const business = await resolveBusinessBySlug(siteSlug)
+    if (!business || !(await isCommerceEnabled(business.type))) return null
+    products = await listActiveProducts(business.id, { limit, sort: 'newest' })
+  } catch (err) {
+    logger.error('[featured-products] render failed — falling back to empty', {
+      action: 'commerce.featured_products.render_failed',
+      siteSlug,
+      error: err instanceof Error ? err.message : String(err),
+    })
+    return null
+  }
   if (products.length === 0) return null
 
   return (
