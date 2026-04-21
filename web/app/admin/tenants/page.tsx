@@ -6,9 +6,9 @@
  * WhatsApp group link for that tenant. Built per pricing v2 §C
  * (per-tenant WhatsApp group + admin tracking).
  */
-import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
+import { requireAdmin } from '@/lib/auth/admin'
 import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
@@ -52,16 +52,9 @@ function fmtDate(iso: string | null): string {
 }
 
 export default async function TenantsIndexPage() {
+  // Admin gate: env-allowlisted emails (see lib/auth/admin.ts and ADMIN_EMAILS).
+  await requireAdmin()
   const supabase = await createClient()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) redirect('/login?error=unauthorized')
-
-  // Profiles table doesn't exist in this project (see migration comment in
-  // tenant_notes.sql). For now, presence of an authenticated session is the
-  // gate — middleware already blocks anon. TODO: add a profiles table or
-  // env-allowlisted admin emails before opening the panel to non-team users.
 
   const { data: tenants, error } = await supabase
     .from('businesses')

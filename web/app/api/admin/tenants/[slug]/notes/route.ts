@@ -1,12 +1,12 @@
 /**
  * POST /api/admin/tenants/[slug]/notes — append a tenant_notes row.
  *
- * Auth: presence of an authenticated session (middleware blocks anon).
- * TODO: gate by profiles.role='admin' once that table is introduced.
+ * Auth: env-allowlisted admin emails (see lib/auth/admin.ts and ADMIN_EMAILS).
  */
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { createClient } from '@/lib/supabase/server'
+import { checkAdmin } from '@/lib/auth/admin'
 import { withRequestLog } from '@/lib/api/with-request-log'
 
 export const runtime = 'nodejs'
@@ -17,13 +17,11 @@ const Schema = z.object({
 })
 
 export const POST = withRequestLog(async (req, { log }) => {
-  const supabase = await createClient()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) {
-    return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
+  const auth = await checkAdmin()
+  if (!auth.ok) {
+    return NextResponse.json({ error: auth.reason }, { status: auth.status })
   }
+  const supabase = await createClient()
 
   const url = new URL(req.url)
   const slug = url.pathname.split('/').filter(Boolean).slice(-2, -1)[0]
