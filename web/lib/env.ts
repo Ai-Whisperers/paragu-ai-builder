@@ -143,6 +143,13 @@ export const env = {
   PAGOPAR_PRIVATE_TOKEN: optionalEnvOrUndefined('PAGOPAR_PRIVATE_TOKEN'),
   PAGOPAR_ENVIRONMENT: optionalEnv('PAGOPAR_ENVIRONMENT', 'sandbox'),
 
+  // Paragu-AI's OWN Pagopar account — used for split-billing commissions on
+  // tenant sales (the fee item points at this public_key) and for SaaS
+  // subscription invoicing (PR 8). Separate from per-tenant tokens which
+  // live in business_payment_credentials.
+  PARAGU_AI_PAGOPAR_PUBLIC_TOKEN: optionalEnvOrUndefined('PARAGU_AI_PAGOPAR_PUBLIC_TOKEN'),
+  PARAGU_AI_PAGOPAR_PRIVATE_TOKEN: optionalEnvOrUndefined('PARAGU_AI_PAGOPAR_PRIVATE_TOKEN'),
+
   COMMERCE_SESSION_SECRET: optionalEnvOrUndefined('COMMERCE_SESSION_SECRET'),
   // 32-byte (64 hex chars) AES-256 key used to encrypt per-merchant payment
   // credentials at rest. Generate with: openssl rand -hex 32

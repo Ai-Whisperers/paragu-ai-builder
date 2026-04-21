@@ -1,4 +1,6 @@
 import { pagoparFetch, signPagopar } from './client'
+import { buildCommissionItem, computeCommission, getPlatformPagoparTokens } from './commission'
+import type { CommissionConfig } from './commission'
 import type { Order } from '@/lib/schemas/commerce/order'
 
 export interface InitTransactionResponse {
@@ -15,8 +17,10 @@ export async function initTransaction(
     returnUrl: string
     cancelUrl: string
     webhookUrl: string
+    /** Per-tenant commission config. Omit to skip commission entirely. */
+    commission?: CommissionConfig
   },
-): Promise<{ hashPedido: string; checkoutUrl: string }> {
+): Promise<{ hashPedido: string; checkoutUrl: string; commissionCents: number }> {
   if (!order.items || order.items.length === 0) {
     throw new Error('order_has_no_items')
   }
@@ -24,9 +28,41 @@ export async function initTransaction(
     throw new Error(`pagopar_only_supports_pyg:${order.currency}`)
   }
 
-  // Pagopar money is integer PYG (no subunit). price_cents already equals
-  // whole guaraníes, so amount = totalCents.
-  const montoTotal = order.totalCents
+  // Compute commission (0 if exempt or no config provided). Commission is
+  // a split-billing line item routed to Paragu-AI's own Pagopar account;
+  // the tenant's items still route to their public_key unchanged.
+  const commissionCents = opts.commission
+    ? computeCommission(order.subtotalCents, opts.commission)
+    : 0
+  const platformTokens = commissionCents > 0 ? getPlatformPagoparTokens() : null
+  const useSplitBilling = commissionCents > 0 && platformTokens !== null
+
+  const tenantItems = (order.items ?? []).map((it, idx) => ({
+    nombre: it.productSnapshot.name,
+    id_producto: idx + 1,
+    precio_total: it.lineTotalCents,
+    cantidad: it.quantity,
+    descripcion: it.productSnapshot.name,
+    url_imagen: it.productSnapshot.image_url ?? '',
+    categoria: 909,
+    ciudad: 1,
+    public_key: opts.publicToken,
+    vendedor_telefono: '',
+    vendedor_direccion: '',
+    vendedor_direccion_referencia: '',
+    vendedor_direccion_coordenadas: '',
+  }))
+
+  const commissionItem = useSplitBilling
+    ? buildCommissionItem({
+        commissionCents,
+        platformPublicKey: platformTokens!.publicToken,
+        paddedProductId: 900000 + tenantItems.length,
+      })
+    : null
+
+  const comprasItems = commissionItem ? [...tenantItems, commissionItem] : tenantItems
+  const montoTotal = comprasItems.reduce((sum, it) => sum + it.precio_total, 0)
 
   const token = signPagopar(
     opts.privateToken,
@@ -36,7 +72,7 @@ export async function initTransaction(
   const body = {
     token,
     public_key: opts.publicToken,
-    tipo_pedido: 'VENTA-COMERCIO',
+    tipo_pedido: useSplitBilling ? 'COMERCIO-HEREDADO' : 'VENTA-COMERCIO',
     id_pedido_comercio: order.orderNumber,
     monto_total: montoTotal,
     descripcion_resumen: `Orden ${order.orderNumber}`,
@@ -56,21 +92,7 @@ export async function initTransaction(
       razon_social: '',
       direccion_referencia: order.shippingAddress?.references ?? '',
     },
-    compras_items: (order.items ?? []).map((it, idx) => ({
-      nombre: it.productSnapshot.name,
-      id_producto: idx + 1,
-      precio_total: it.lineTotalCents,
-      cantidad: it.quantity,
-      descripcion: it.productSnapshot.name,
-      url_imagen: it.productSnapshot.image_url ?? '',
-      categoria: 909,
-      ciudad: 1,
-      public_key: opts.publicToken,
-      vendedor_telefono: '',
-      vendedor_direccion: '',
-      vendedor_direccion_referencia: '',
-      vendedor_direccion_coordenadas: '',
-    })),
+    compras_items: comprasItems,
   }
 
   const response = await pagoparFetch<InitTransactionResponse>(
@@ -91,5 +113,6 @@ export async function initTransaction(
   return {
     hashPedido,
     checkoutUrl: `https://www.pagopar.com/pagos/${hashPedido}`,
+    commissionCents,
   }
 }
