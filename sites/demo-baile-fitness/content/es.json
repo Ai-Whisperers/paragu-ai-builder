@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Baile Fitness Luque",
+  "tagline": "Fitness de Baile profesional en Luque.",
+  "placeholders": {
+    "businessName": "Demo Baile Fitness Luque",
+    "city": "Luque",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Baile Fitness Luque",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Baile Fitness Luque - Fitness de Baile en Luque",
+      "description": "Fitness de Baile profesional en Luque. Servicios de calidad con atencion personalizada."
+    },
+    "hero": {
+      "headline": "Demo Baile Fitness Luque - Fitness de Baile",
+      "subheadline": "Fitness de Baile profesional en Luque.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Baile%20Fitness%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Luque",
+      "formSource": "demo",
+      "demoRubro": "dance_fitness_studio"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Baile Fitness Luque",
+    "copyright": "© {{year}} Demo Baile Fitness Luque",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Baile Fitness y me interesa un sitio para mi negocio"
+  }
+}

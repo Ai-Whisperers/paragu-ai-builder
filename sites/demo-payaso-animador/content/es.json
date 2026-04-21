@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Payaso Animador Capiata",
+  "tagline": "Payaso profesional en Capiata.",
+  "placeholders": {
+    "businessName": "Demo Payaso Animador Capiata",
+    "city": "Capiata",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Payaso Animador Capiata",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Payaso Animador Capiata - Payaso en Capiata",
+      "description": "Payaso profesional en Capiata. Servicios de calidad con atencion personalizada."
+    },
+    "hero": {
+      "headline": "Demo Payaso Animador Capiata - Payaso",
+      "subheadline": "Payaso profesional en Capiata.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000?text=Hola%2C%20vi%20tu%20demo%20de%20Payaso%20Animador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595981000000",
+      "email": "ventas@paragu-ai.com",
+      "city": "Capiata",
+      "formSource": "demo",
+      "demoRubro": "clown_entertainer"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Payaso Animador Capiata",
+    "copyright": "© {{year}} Demo Payaso Animador Capiata",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Payaso Animador y me interesa un sitio para mi negocio"
+  }
+}
