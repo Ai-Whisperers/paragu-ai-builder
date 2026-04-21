@@ -9,6 +9,7 @@ import {
   Menu, X as XIcon, PlayCircle,
   UtensilsCrossed, Fish, CircleDot,
   RotateCcw, Activity, Unlock,
+  type LucideIcon,
 } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
@@ -192,7 +193,17 @@ const SCHEMA_ORG_DATA = {
 
 /* ── Data Constants ─────────────────────────────────────────────── */
 
-const TEMPLATES = [
+type Template = {
+  id: string
+  name: string
+  icon: LucideIcon
+  leads: number
+  pct: number
+  color: string
+  demoSlug?: string
+}
+
+const TEMPLATES: Template[] = [
   { id: 'peluqueria', name: 'Peluquería', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: 'salon-maria' },
   { id: 'salon_belleza', name: 'Salón de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: 'studio-belleza' },
   { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoSlug: 'gymfit-py' },
@@ -209,7 +220,7 @@ const TEMPLATES = [
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
   { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3', demoSlug: 'kaiten-express' },
-] as const
+]
 
 const FEATURES = [
   { icon: Check, title: 'Todo incluido', desc: 'Diseño, textos, fotos, dominio .com.py, hosting y soporte. Vos solo nos mandás la info por WhatsApp.' },
@@ -780,7 +791,7 @@ export default function HomePage() {
                         <Star key={i} size={16} className="fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <p className="mb-6 text-lg leading-relaxed">"{t.quote}"</p>
+                    <p className="mb-6 text-lg leading-relaxed">&ldquo;{t.quote}&rdquo;</p>
                     <div className="flex items-center gap-3">
                       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-lg font-bold">
                         {t.name.charAt(0)}
@@ -955,18 +966,18 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-gray-900">Producto</h4>
               <ul className="mt-4 space-y-2 text-sm">
-                <li><a href="/p" className="text-gray-600 hover:text-blue-600">Rubros</a></li>
-                <li><a href="/precios" className="text-gray-600 hover:text-blue-600">Precios</a></li>
-                <li><a href="/demo" className="text-gray-600 hover:text-blue-600">Demo</a></li>
+                <li><Link href="/p" className="text-gray-600 hover:text-blue-600">Rubros</Link></li>
+                <li><Link href="/precios" className="text-gray-600 hover:text-blue-600">Precios</Link></li>
+                <li><Link href="/demo" className="text-gray-600 hover:text-blue-600">Demo</Link></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold text-gray-900">Recursos</h4>
               <ul className="mt-4 space-y-2 text-sm">
-                <li><a href="/casos" className="text-gray-600 hover:text-blue-600">Casos</a></li>
-                <li><a href="/blog" className="text-gray-600 hover:text-blue-600">Blog</a></li>
-                <li><a href="/seguridad" className="text-gray-600 hover:text-blue-600">Privacidad</a></li>
+                <li><Link href="/casos" className="text-gray-600 hover:text-blue-600">Casos</Link></li>
+                <li><Link href="/blog" className="text-gray-600 hover:text-blue-600">Blog</Link></li>
+                <li><Link href="/seguridad" className="text-gray-600 hover:text-blue-600">Privacidad</Link></li>
               </ul>
             </div>
 
@@ -983,7 +994,7 @@ export default function HomePage() {
                     WhatsApp
                   </a>
                 </li>
-                <li><a href="/admin" className="text-gray-600 hover:text-blue-600">Acceso clientes</a></li>
+                <li><Link href="/admin" className="text-gray-600 hover:text-blue-600">Acceso clientes</Link></li>
               </ul>
             </div>
           </div>
