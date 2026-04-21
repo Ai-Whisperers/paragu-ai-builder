@@ -694,6 +694,33 @@
       "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
       "buttonText": "Kostenlose Beratung buchen",
       "buttonHref": "/s/de/nexa-paraguay/contacto"
+    },
+    "highlights": {
+      "title": "Schlüsselmomente der Reise",
+      "subtitle": "Die Details, die jede Phase funktionieren lassen.",
+      "columns": 4,
+      "images": [
+        {
+          "src": "@src:process.apostilleStack",
+          "alt": "Apostillierte Dokumente",
+          "category": "Apostillierte Unterlagen – fertig vor der Reise."
+        },
+        {
+          "src": "@src:process.operationalDay",
+          "alt": "Operativer Tag",
+          "category": "Der operative Tag: alles an einem Termin."
+        },
+        {
+          "src": "@src:process.familyResidency",
+          "alt": "Familie bei der Einwanderungsbehörde",
+          "category": "Familien-Residenz, vollständig koordiniert."
+        },
+        {
+          "src": "@src:process.bankCustomerSide",
+          "alt": "Kontoeröffnung bei Private Banking",
+          "category": "Firmen- oder Privatkonto-Eröffnung."
+        }
+      ]
     }
   },
   "aboutPage": {

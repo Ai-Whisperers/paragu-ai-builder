@@ -355,7 +355,7 @@ export function IntakeWizardSection({
               style={{ width: `${((stepIdx + 1) / STEP_KEYS.length) * 100}%` }}
             />
           </div>
-          <h3 className="mb-6 text-xl font-semibold text-[var(--primary)]">{currentStep!.question}</h3>
+          <Heading level={3} className="mb-6 text-xl font-semibold text-[var(--primary)]">{currentStep!.question}</Heading>
           <div className="space-y-2">
             {currentStep!.options.map((opt) => (
               <label
