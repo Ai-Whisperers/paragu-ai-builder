@@ -1,9 +1,9 @@
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import Link from 'next/link'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import {
-  listActiveProducts,
   countActiveProducts,
+  listActiveProducts,
   listDistinctCategories,
   type ProductSort,
 } from '@/lib/commerce/products'
@@ -16,7 +16,7 @@ import { TiendaPagination } from '@/components/commerce/tienda-pagination'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
-export const dynamic = 'force-dynamic' // search/sort/filter params kill static caching
+export const dynamic = 'force-dynamic'
 
 const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc']
 const PAGE_SIZE = 24
@@ -31,15 +31,23 @@ function parsePositiveInt(raw: string | undefined): number {
   return Number.isFinite(n) && n > 0 ? n : 0
 }
 
-export default async function StorePage({
+/**
+ * Dedicated category route. Reuses the same toolbar + grid + pagination
+ * as /tienda but pre-filters by the URL category slug.
+ *
+ * Category slugs come from the DB `products.category` column lowercased
+ * + URL-encoded. If the route's slug doesn't match any distinct category,
+ * we redirect to /tienda with ?category=<typed slug> so the toolbar can
+ * show "no results for this category" consistently.
+ */
+export default async function CategoryPage({
   params,
   searchParams,
 }: {
-  params: Promise<{ site: string; locale: string }>
+  params: Promise<{ site: string; locale: string; category: string }>
   searchParams: Promise<{
     q?: string
     sort?: string
-    category?: string
     min?: string
     max?: string
     in_stock?: string
@@ -47,14 +55,25 @@ export default async function StorePage({
     page?: string
   }>
 }) {
-  const { site, locale } = await params
+  const { site, locale, category: rawCategory } = await params
   const sp = await searchParams
   const business = await resolveBusinessBySlug(site)
   if (!business || !(await isCommerceEnabled(business.type))) notFound()
 
+  const categorySlug = decodeURIComponent(rawCategory).trim()
+  if (!categorySlug) redirect(`/s/${locale}/${site}/tienda`)
+
+  const available = await listDistinctCategories(business.id)
+  // Case-insensitive match since slugs in URLs may be lowercased.
+  const match = available.find((c) => c.toLowerCase() === categorySlug.toLowerCase())
+  if (!match) {
+    // Unknown category — bounce to tienda with a notice filter so the
+    // shopper lands somewhere useful instead of a hard 404.
+    redirect(`/s/${locale}/${site}/tienda?category=${encodeURIComponent(categorySlug)}`)
+  }
+
   const search = (sp.q ?? '').trim()
   const sortKey = parseSort(sp.sort)
-  const category = (sp.category ?? '').trim()
   const minPriceCents = parsePositiveInt(sp.min)
   const maxPriceCents = parsePositiveInt(sp.max)
   const inStockOnly = sp.in_stock === '1' || sp.in_stock === 'true'
@@ -63,25 +82,21 @@ export default async function StorePage({
   const offset = (page - 1) * PAGE_SIZE
 
   const filterOpts = {
+    category: match,
     search,
-    category: category || undefined,
     minPriceCents: minPriceCents || undefined,
     maxPriceCents: maxPriceCents || undefined,
     inStockOnly,
     onSaleOnly,
   }
 
-  const [products, totalCount, rates, availableCategories] = await Promise.all([
+  const [products, totalCount, rates] = await Promise.all([
     listActiveProducts(business.id, { ...filterOpts, limit: PAGE_SIZE, offset, sort: sortKey }),
     countActiveProducts(business.id, filterOpts),
     loadPygRates(),
-    listDistinctCategories(business.id),
   ])
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE))
-  const hasActiveFilters = Boolean(
-    search || category || minPriceCents || maxPriceCents || inStockOnly || onSaleOnly,
-  )
 
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
@@ -89,15 +104,34 @@ export default async function StorePage({
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
-        <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
+        <nav aria-label="Migas de pan" className="mb-4 text-sm text-[color:var(--text-muted,#6b7280)]">
+          <ol className="flex flex-wrap items-center gap-1.5">
+            <li>
+              <Link href={`/s/${locale}/${site}`} className="hover:underline">{business.name}</Link>
+            </li>
+            <li aria-hidden="true">/</li>
+            <li>
+              <Link href={`/s/${locale}/${site}/tienda`} className="hover:underline">Tienda</Link>
+            </li>
+            <li aria-hidden="true">/</li>
+            <li className="text-[color:var(--text,#111)] capitalize" aria-current="page">{match}</li>
+          </ol>
+        </nav>
+
+        <div className="mb-6 rounded-lg bg-[color:var(--primary,#111)] p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
+          <h1 className="text-3xl font-bold capitalize">{match}</h1>
+          <p className="mt-1 text-sm opacity-90">
+            {totalCount} {totalCount === 1 ? 'producto disponible' : 'productos disponibles'} en {match}.
+          </p>
+        </div>
 
         <TiendaToolbar
           initialQuery={search}
           initialSort={sortKey}
           resultCount={products.length}
           totalCount={totalCount}
-          initialCategory={category}
-          availableCategories={availableCategories}
+          initialCategory={match}
+          availableCategories={available}
           initialMinPrice={minPriceCents}
           initialMaxPrice={maxPriceCents}
           initialInStockOnly={inStockOnly}
@@ -107,39 +141,22 @@ export default async function StorePage({
         {products.length === 0 ? (
           <div className="mt-6 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
             <p className="text-[color:var(--text-muted,#6b7280)]">
-              {hasActiveFilters
-                ? 'No encontramos productos con esos filtros. Probá quitar alguno o buscar otra palabra.'
-                : 'Estamos cargando nuestro catálogo. Volvé pronto.'}
+              No encontramos productos en <strong>{match}</strong> con esos filtros.
             </p>
-            {hasActiveFilters && availableCategories.length > 0 ? (
-              <div className="mt-4">
-                <p className="mb-2 text-xs uppercase tracking-wider text-[color:var(--text-muted,#6b7280)]">
-                  Probá otra categoría:
-                </p>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {availableCategories.slice(0, 8).map((c) => (
-                    <Link
-                      key={c}
-                      href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(c)}`}
-                      className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs capitalize hover:bg-[color:var(--surface-muted,#f3f4f6)]"
-                    >
-                      {c}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ) : null}
-            {!hasActiveFilters && business.whatsappNumber ? (
-              <a
-                href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Hola, me interesa comprar en ${business.name}.`)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[#25D366] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
-              >
-                <span aria-hidden="true">💬</span>
-                Consultar por WhatsApp
-              </a>
-            ) : null}
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              {available
+                .filter((c) => c !== match)
+                .slice(0, 6)
+                .map((c) => (
+                  <Link
+                    key={c}
+                    href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(c)}`}
+                    className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs capitalize hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                  >
+                    {c}
+                  </Link>
+                ))}
+            </div>
           </div>
         ) : (
           <>
