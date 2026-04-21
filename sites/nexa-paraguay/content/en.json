@@ -96,8 +96,8 @@
           "id": "base",
           "name": "Paraguay Base",
           "description": "Paraguayan residency + ID card.",
-          "price": "TBD",
-          "priceNote": "LEALTIS wholesale cost pending + Nexa margin",
+          "price": "USD 2,900",
+          "priceNote": "Complete package includes all fees and taxes.",
           "included": [
             "Paraguayan residency",
             "Identity card",
@@ -147,8 +147,8 @@
           "id": "tierras",
           "name": "Land Purchase",
           "description": "Nexa's own service. Full advisory.",
-          "price": "TBD",
-          "priceNote": "Scope and pricing being defined.",
+          "price": "From USD 3,500",
+          "priceNote": "Depending on search scope and due diligence.",
           "included": [
             "Profile and criteria definition",
             "Search and short-listing",
