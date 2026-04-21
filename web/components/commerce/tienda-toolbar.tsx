@@ -39,6 +39,7 @@ const PER_PAGE_OPTIONS = [12, 24, 48, 96]
 
 const SORT_OPTIONS: Array<{ value: ProductSort; label: string }> = [
   { value: 'newest', label: 'Más nuevos' },
+  { value: 'popularity', label: 'Más vendidos' },
   { value: 'price-asc', label: 'Precio: menor a mayor' },
   { value: 'price-desc', label: 'Precio: mayor a menor' },
   { value: 'name-asc', label: 'Nombre A→Z' },
