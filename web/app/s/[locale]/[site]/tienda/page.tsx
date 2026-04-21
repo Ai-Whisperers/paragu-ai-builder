@@ -254,6 +254,7 @@ export default async function StorePage({
                   rates={rates}
                   locale={locale}
                   reviewAggregate={reviewAggregates[product.id]}
+                  highlight={search || undefined}
                 />
               ))}
             </div>

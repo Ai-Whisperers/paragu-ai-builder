@@ -14,6 +14,7 @@ import {
 } from '@/lib/stores/wishlist'
 import { QuickViewModal } from './quick-view-modal'
 import { ReviewStars } from './review-stars'
+import { Highlight } from './highlight'
 
 interface Props {
   siteSlug: string
@@ -23,6 +24,8 @@ interface Props {
   locale?: string
   /** Optional review aggregate for rendering stars on the card. */
   reviewAggregate?: { avg: number; count: number }
+  /** When set, matched substrings in the product name are <mark>-highlighted. */
+  highlight?: string
 }
 
 const WISHLIST_EVENT = 'paragu:wishlist-change'
@@ -40,7 +43,7 @@ function getServerWishlistSnapshot(): boolean {
   return false
 }
 
-export function ProductCard({ siteSlug, product, priority, rates, locale = 'es', reviewAggregate }: Props) {
+export function ProductCard({ siteSlug, product, priority, rates, locale = 'es', reviewAggregate, highlight }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
   const [quickViewOpen, setQuickViewOpen] = useState(false)
@@ -174,7 +177,9 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
       </Link>
 
       <div className="mt-3 flex flex-1 flex-col">
-        <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">{product.name}</h3>
+        <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">
+          {highlight ? <Highlight text={product.name} term={highlight} /> : product.name}
+        </h3>
         {reviewAggregate && reviewAggregate.count > 0 ? (
           <div className="mt-1">
             <ReviewStars rating={reviewAggregate.avg} count={reviewAggregate.count} size="sm" />
