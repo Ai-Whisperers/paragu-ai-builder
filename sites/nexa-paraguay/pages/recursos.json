@@ -5,8 +5,8 @@
   "sections": [
     {"id": "header", "variant": "standard", "content": "navigation"},
     {"id": "hero", "variant": "minimal", "content": "resourcesPage.hero"},
-    {"id": "features", "variant": "default", "content": "resourcesPage.guides"},
-    {"id": "newsletter-signup", "variant": "default", "content": "resourcesPage.newsletter"},
+    {"id": "features", "variant": "three-col", "content": "resourcesPage.guides"},
+    {"id": "newsletter-signup", "variant": "standard", "content": "resourcesPage.newsletter"},
     {"id": "footer", "variant": "standard", "content": "footer"},
     {"id": "whatsapp-float", "variant": "standard", "content": "whatsapp"}
   ]

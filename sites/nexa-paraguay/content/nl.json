@@ -41,6 +41,10 @@
         "href": "/s/nl/nexa-paraguay/blog"
       },
       {
+        "label": "Bronnen",
+        "href": "/s/nl/nexa-paraguay/recursos"
+      },
+      {
         "label": "Pers",
         "href": "/s/nl/nexa-paraguay/prensa"
       },
@@ -289,6 +293,10 @@
       "subtitle": "Plan een gratis consult van 30 minuten.",
       "buttonText": "Plan gratis consult",
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
+    },
+    "taxCalculator": {
+      "title": "Belastingbesparing-calculator",
+      "subtitle": "Schat hoeveel u bespaart aan belastingen door zich in Paraguay te vestigen."
     }
   },
   "programasPage": {
@@ -693,29 +701,23 @@
       "buttonHref": "/s/nl/nexa-paraguay/contacto"
     },
     "highlights": {
-      "title": "Belangrijke momenten uit het traject",
-      "subtitle": "De details die elke fase laten werken.",
-      "columns": 4,
-      "images": [
+      "eyebrow": "Samenvatting",
+      "title": "Samengevat",
+      "items": [
         {
-          "src": "@src:process.apostilleStack",
-          "alt": "Geapostilleerde documenten",
-          "category": "Geapostilleerde papieren klaar vóór je vertrek."
+          "icon": "Clock",
+          "title": "8–12 weken",
+          "description": "Volledig proces vanaf dossierindiening."
         },
         {
-          "src": "@src:process.operationalDay",
-          "alt": "Operationele dag",
-          "category": "De operationele dag: alles in één bezoek."
+          "icon": "Users",
+          "title": "Eén aanspreekpunt",
+          "description": "Nexa coördineert alle professionals."
         },
         {
-          "src": "@src:process.familyResidency",
-          "alt": "Gezin bij immigratie",
-          "category": "Gezinsresidentie, volledig gecoördineerd."
-        },
-        {
-          "src": "@src:process.bankCustomerSide",
-          "alt": "Rekeningopening bij private banking",
-          "category": "Zakelijke of persoonlijke rekeningopening."
+          "icon": "DollarSign",
+          "title": "Vaste prijs",
+          "description": "Alle honoraria en belastingen inbegrepen."
         }
       ]
     }
@@ -1041,6 +1043,22 @@
       {
         "label": "Pers",
         "href": "/s/nl/nexa-paraguay/prensa"
+      },
+      {
+        "label": "Levenskwaliteit",
+        "href": "/s/nl/nexa-paraguay/calidad-de-vida"
+      },
+      {
+        "label": "Jurisdicties",
+        "href": "/s/nl/nexa-paraguay/paraguay-vs-uruguay-vs-panama"
+      },
+      {
+        "label": "Woordenlijst",
+        "href": "/s/nl/nexa-paraguay/glosario"
+      },
+      {
+        "label": "Bronnen",
+        "href": "/s/nl/nexa-paraguay/recursos"
       }
     ]
   },
@@ -1646,5 +1664,416 @@
   "whatsapp": {
     "phone": "595982515138",
     "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay."
+  },
+  "resourcesPage": {
+    "seo": {
+      "title": "Bronnen — Nexa Paraguay",
+      "description": "Praktische gidsen, sjablonen en tools voor Europese investeerders die zich in Paraguay vestigen."
+    },
+    "hero": {
+      "headline": "Bronnen voor Europese investeerders",
+      "subheadline": "Praktische gidsen, sjablonen en tools om uw verblijfs-, vennootschap- en bankproces voor te bereiden."
+    },
+    "guides": {
+      "title": "Downloadbare gidsen",
+      "subtitle": "Nuttige documenten om uw dossier voor te bereiden en het proces te begrijpen.",
+      "items": [
+        {
+          "icon": "FileText",
+          "title": "Documentenchecklist",
+          "description": "Volledige lijst van documenten nodig voor Paraguayaanse verblijfsvergunning."
+        },
+        {
+          "icon": "FileText",
+          "title": "Belastinggids 2026",
+          "description": "Territoriale belasting, 10 % IRE, behandeling van buitenlands inkomen."
+        },
+        {
+          "icon": "FileText",
+          "title": "Investeerder Q&A",
+          "description": "25 veelgestelde vragen van Europese investeerders, beantwoord."
+        }
+      ]
+    },
+    "newsletter": {
+      "title": "Ontvang updates",
+      "subtitle": "Maandelijks regelgevingsnieuws en casestudies. Geen spam.",
+      "ctaText": "Abonneren",
+      "emailPlaceholder": "u@voorbeeld.com",
+      "successMessage": "Abonnement bevestigd!",
+      "privacyLabel": "Door u te abonneren accepteert u ons privacybeleid."
+    }
+  },
+  "qualityOfLifePage": {
+    "seo": {
+      "title": "Levenskwaliteit in Paraguay — Nexa",
+      "description": "Klimaat, kosten van levensonderhoud, internationale gemeenschap, veiligheid en onderwijs in Asunción."
+    },
+    "hero": {
+      "headline": "Levenskwaliteit in Paraguay",
+      "subheadline": "Wat u werkelijk zult ervaren wanneer u in Asunción of Ciudad del Este woont."
+    },
+    "pillars": {
+      "eyebrow": "Dagelijks leven",
+      "title": "Vijf pijlers van het leven hier",
+      "pillars": [
+        {
+          "icon": "Sun",
+          "title": "Klimaat",
+          "description": "Subtropisch, 20–35 °C bijna het hele jaar. Zachte winters, warme zomers."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Kosten van levensonderhoud",
+          "description": "30–50 % lager dan Madrid of Berlijn met vergelijkbare kwaliteit in premium zones."
+        },
+        {
+          "icon": "Users",
+          "title": "Internationale gemeenschap",
+          "description": "Groeiende Europese gemeenschap: Duits, Spaans, Italiaans, Nederlands."
+        },
+        {
+          "icon": "Shield",
+          "title": "Veiligheid",
+          "description": "Asunción en Ciudad del Este zijn veiliger dan de meeste regionale hoofdsteden."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Vs. Europa: wat verandert",
+      "subtitle": "Eerlijke samenvatting. Zonder te idealiseren.",
+      "items": [
+        {
+          "icon": "Check",
+          "title": "Betaalbare privé-diensten",
+          "description": "Gezondheidszorg, internationale scholen en huishoudelijke hulp tegen redelijke prijzen."
+        },
+        {
+          "icon": "Check",
+          "title": "Lichtere bureaucratie",
+          "description": "Minder operationele regelgeving voor kleine en middelgrote bedrijven."
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "Infrastructuur in ontwikkeling",
+          "description": "Sommige gebieden hebben incidentele stroomstoringen of slechte bestrating."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Wilt u Asunción persoonlijk leren kennen?",
+      "subtitle": "We organiseren strategische tours als onderdeel van het programma.",
+      "ctaText": "Laten we praten",
+      "ctaHref": "/contacto"
+    }
+  },
+  "caseStudiesPage": {
+    "seo": {
+      "title": "Succesverhalen — Nexa Paraguay",
+      "description": "Echte verhalen van Europese investeerders die hun operatie met Nexa hebben opgezet."
+    },
+    "hero": {
+      "headline": "Succesverhalen",
+      "subheadline": "Echte verhalen van klanten die hun operatie in Paraguay opbouwden met professionele begeleiding."
+    },
+    "testimonials": {
+      "eyebrow": "Klanten",
+      "title": "Wat reeds gevestigden zeggen",
+      "subtitle": "Volledige namen op verzoek beschikbaar vanwege privacy.",
+      "items": [
+        {
+          "name": "M. — Duitsland",
+          "role": "Investeerder landbouw",
+          "quote": "In 10 weken had ik verblijfsvergunning, vennootschap en bankrekening. Eén aanspreekpunt."
+        },
+        {
+          "name": "J. — Nederland",
+          "role": "SaaS-oprichter",
+          "quote": "De vastgoedtour was cruciaal. Ik vond het juiste pand zonder maanden te verspillen."
+        },
+        {
+          "name": "S. — Spanje",
+          "role": "Onafhankelijk consultant",
+          "quote": "Totale kostentransparantie. Geen verrassingen."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Klaar om uw zaak te starten?",
+      "subtitle": "Plan een gratis consult van 30 minuten.",
+      "ctaText": "Consult plannen",
+      "ctaHref": "/contacto"
+    }
+  },
+  "comparisonPage": {
+    "seo": {
+      "title": "Nexa vs. DIY vs. gestor — vergelijking",
+      "description": "Eerlijke vergelijking: zelf doen, lokale gestor inhuren, of werken met Nexa."
+    },
+    "hero": {
+      "headline": "Waarom Nexa en geen ander pad?",
+      "subheadline": "Eerlijke vergelijking tussen zelf doen, lokale agent inhuren of werken met Nexa."
+    },
+    "matrix": {
+      "eyebrow": "Vergelijking",
+      "title": "Nexa vs. alternatieven",
+      "featureColumnLabel": "Kenmerk",
+      "tiers": [
+        {
+          "id": "diy",
+          "name": "DIY",
+          "description": "Zelf doen.",
+          "price": "USD 800–1.500",
+          "priceNote": "alleen officiële kosten",
+          "included": [
+            "U beheert alles",
+            "3–6 maanden gemiddeld",
+            "Hoog foutrisico",
+            "Geen ondersteuning na proces"
+          ],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        },
+        {
+          "id": "gestor",
+          "name": "Lokale agent",
+          "description": "Paraguayaanse freelancer.",
+          "price": "USD 2.500–3.500",
+          "priceNote": "alleen verblijf",
+          "included": [
+            "Alleen verblijf",
+            "Geen vennootschap/bank",
+            "Variabele kwaliteit",
+            "Geen garantie"
+          ],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        },
+        {
+          "id": "nexa",
+          "name": "Nexa",
+          "description": "Geïntegreerd programma.",
+          "price": "USD 2.900–6.900+",
+          "priceNote": "alles inbegrepen",
+          "highlighted": true,
+          "badge": "Aanbevolen",
+          "included": [
+            "Verblijf + vennootschap + bank",
+            "Eén reis",
+            "Volledig technisch team",
+            "12 maanden ondersteuning (Investor)"
+          ],
+          "ctaLabel": "Begin",
+          "ctaHref": "/contacto"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Wilt u de verschillen beter begrijpen?",
+      "subtitle": "Wij bereiden een gepersonaliseerde vergelijking van uw zaak voor.",
+      "ctaText": "Vergelijking aanvragen",
+      "ctaHref": "/contacto"
+    }
+  },
+  "founderPage": {
+    "seo": {
+      "title": "De oprichter — Nexa Paraguay",
+      "description": "Wie achter Nexa staat: ervaring, waarden, en waarom we deze dienst hebben opgericht."
+    },
+    "hero": {
+      "headline": "De oprichter achter Nexa",
+      "subheadline": "Wie dit bouwt, waar hij vandaan komt, en waarom."
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "Echte mensen met namen en ervaring",
+      "members": [
+        {
+          "name": "Oprichter",
+          "role": "Directeur",
+          "bio": "15+ jaar in Europese zakelijke banken en Zuid-Amerikaanse ondernemingen."
+        },
+        {
+          "name": "Senior advocaat",
+          "role": "Juridisch",
+          "bio": "Specialist in Paraguayaans immigratie- en vennootschapsrecht."
+        },
+        {
+          "name": "Accountant",
+          "role": "Fiscaal",
+          "bio": "CPA met internationale klanten. Expert in territoriale IRE."
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "Het verhaal",
+      "title": "Waarom Nexa bestaat",
+      "pillars": [
+        {
+          "icon": "Heart",
+          "title": "Persoonlijke ervaring",
+          "description": "Wij hebben het proces doorlopen. We weten wat pijn doet en wat werkt."
+        },
+        {
+          "icon": "Target",
+          "title": "Europese focus",
+          "description": "Wij vertalen Paraguay in termen die een Duitse of Nederlandse investeerder kan verifiëren."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Integriteit voorop",
+          "description": "SEPRELAD-rapporterende entiteit. Strikte KYC. Wij werken niet met iedereen."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Wilt u met het team praten?",
+      "subtitle": "Gratis consult van 30 minuten, zonder verplichting.",
+      "ctaText": "Gesprek plannen",
+      "ctaHref": "/contacto"
+    }
+  },
+  "glossaryPage": {
+    "seo": {
+      "title": "Woordenlijst — Nexa Paraguay",
+      "description": "Kerntermen: permanente verblijfsvergunning, cédula, RUC, IRE, territorialiteit, SEPRELAD, KYC."
+    },
+    "hero": {
+      "headline": "Woordenlijst van kerntermen",
+      "subheadline": "Duidelijke definities van termen die u tijdens het proces zult tegenkomen."
+    },
+    "glossary": {
+      "title": "Veelgebruikte termen",
+      "items": [
+        {
+          "q": "Permanente verblijfsvergunning",
+          "a": "Permanente migratiestatus in Paraguay. Verkregen via een proces van 8–12 weken vanaf de volledige dossier-indiening."
+        },
+        {
+          "q": "Cédula de Identidad",
+          "a": "Paraguayaans identiteitsbewijs dat wordt uitgegeven nadat de verblijfsvergunning is toegekend. Officieel document voor operaties in het land."
+        },
+        {
+          "q": "RUC",
+          "a": "Uniek Belastingbetalersregister. Fiscaal identificatienummer, equivalent aan een BTW-nummer."
+        },
+        {
+          "q": "10 % IRE",
+          "a": "Bedrijfsinkomstenbelasting. Algemeen tarief op inkomen gegenereerd in Paraguay."
+        },
+        {
+          "q": "Territorialiteit",
+          "a": "Belastingsysteem dat alleen inkomen binnen het land gegenereerd belast. Buitenlands inkomen betaalt geen IRE."
+        },
+        {
+          "q": "SEPRELAD",
+          "a": "Paraguayaanse anti-witwasautoriteit. Nexa is een rapporterende entiteit, wat strikte KYC betekent."
+        },
+        {
+          "q": "KYC",
+          "a": "Know Your Customer. Verificatie van identiteit en fondsen vereist om legaal te opereren."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Heeft u een term die u niet begrijpt?",
+      "subtitle": "Schrijf ons. We voegen hem toe aan de woordenlijst.",
+      "ctaText": "Contact opnemen",
+      "ctaHref": "/contacto"
+    }
+  },
+  "jurisdictionCompPage": {
+    "seo": {
+      "title": "Paraguay vs. Uruguay vs. Panama — vergelijking",
+      "description": "Welke jurisdictie kiezen: territorialiteit, belastingen, kosten van levensonderhoud, verblijfsvergunning."
+    },
+    "hero": {
+      "headline": "Paraguay, Uruguay of Panama: welke jurisdictie?",
+      "subheadline": "Eerlijke vergelijking van de drie jurisdicties die Europese investeerders het meest vragen."
+    },
+    "matrix": {
+      "eyebrow": "Vergelijking",
+      "title": "Drie jurisdicties, drie profielen",
+      "featureColumnLabel": "Kenmerk",
+      "tiers": [
+        {
+          "id": "paraguay",
+          "name": "Paraguay",
+          "description": "Kostenefficiënt, territoriaal.",
+          "price": "USD 4.400+",
+          "priceNote": "Nexa Paraguay Business",
+          "highlighted": true,
+          "badge": "Meest kostenefficiënt",
+          "included": [
+            "Territoriaal (belast geen buitenlands inkomen)",
+            "10 % IRE",
+            "Verblijf in 8–12 weken",
+            "Kosten levensonderhoud 30–50 % lager dan UY",
+            "Minder bureaucratie"
+          ],
+          "ctaLabel": "Kies Paraguay",
+          "ctaHref": "/contacto?programa=business"
+        },
+        {
+          "id": "uruguay",
+          "name": "Uruguay",
+          "description": "Stabiel, duurder.",
+          "price": "USD 10.000+",
+          "priceNote": "equivalent programma",
+          "included": [
+            "Territoriaal (met voorwaarden)",
+            "25 % IRAE",
+            "Verblijf in 4–6 maanden",
+            "Hoge kosten levensonderhoud",
+            "Matige bureaucratie"
+          ],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        },
+        {
+          "id": "panama",
+          "name": "Panama",
+          "description": "Offshore, complexer.",
+          "price": "USD 8.000+",
+          "priceNote": "equivalent programma",
+          "included": [
+            "Strikt territoriaal",
+            "25 % ISR",
+            "Friendly Nations-verblijf in maanden",
+            "Gemiddelde kosten levensonderhoud",
+            "Gemengde internationale reputatie"
+          ],
+          "ctaLabel": "—",
+          "ctaHref": "#"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "",
+      "title": "Nog niet zeker?",
+      "subtitle": "Wij bereiden een gepersonaliseerde analyse van uw profiel voor.",
+      "ctaText": "Analyse aanvragen",
+      "ctaHref": "/contacto"
+    }
+  },
+  "intakeWizardPage": {
+    "seo": {
+      "title": "Programma-assistent — Nexa Paraguay",
+      "description": "Beantwoord 4 vragen en we bevelen het juiste programma aan."
+    },
+    "hero": {
+      "headline": "Welk programma past bij uw zaak?",
+      "subheadline": "Beantwoord 4 vragen en we bevelen het juiste programma aan in minder dan een minuut."
+    },
+    "wizard": {
+      "recommendationTitle": "Aanbevolen programma",
+      "recommendationCta": "Praten met Nexa",
+      "stepProgressLabel": "Stap"
+    }
   }
 }

@@ -7,20 +7,15 @@ import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
 import { RelatedPostsSection } from '@/components/sections/related-posts-section'
+import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { alternatesFor } from '@/lib/i18n/routing'
+import { env } from '@/lib/env'
 import { buildBlogPosting, buildBreadcrumbList } from '@/lib/seo/json-ld'
 
-/**
- * Convert "my-post-slug" → "myPostSlug" for the images manifest lookup.
- */
 function slugToCamel(slug: string): string {
   return slug.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase())
 }
 
-/**
- * Pick a cover image: explicit frontmatter → manifest `blog.<camelSlug>` →
- * manifest `brand.placeholder` → undefined.
- */
 function resolveCoverImage(
   explicit: string | undefined,
   siteSlug: string,
@@ -35,11 +30,6 @@ function resolveCoverImage(
   return fallback?.src
 }
 
-/**
- * Compute up to N related posts: prefer same category, exclude current
- * post, pad with the most-recent remainder so we always have something
- * to show when the category is thin.
- */
 function pickRelated(
   siteSlug: string,
   locale: Locale,
@@ -150,7 +140,8 @@ export default async function BlogPostPage({ params }: Props) {
   const related = pickRelated(siteSlug, locale as Locale, post.slug, post.category, 3)
   const relatedTitle = RELATED_TITLE[locale] ?? RELATED_TITLE.en
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'
+  const baseUrl = env.APP_URL || 'https://paragu-ai.com'
+  const postUrl = `${baseUrl}/s/${locale}/${siteSlug}/blog/${post.slug}`
   const manifest = loadImagesManifest(siteSlug)
   let siteContent: { siteName?: string; tagline?: string } = {}
   try {
@@ -189,7 +180,7 @@ export default async function BlogPostPage({ params }: Props) {
   const breadcrumbLd = buildBreadcrumbList([
     { name: siteContent.siteName || site!.slug, url: `${baseUrl}/s/${locale}/${siteSlug}` },
     { name: BLOG_CRUMB[locale] ?? BLOG_CRUMB.en, url: `${baseUrl}/s/${locale}/${siteSlug}/blog` },
-    { name: post.title, url: `${baseUrl}/s/${locale}/${siteSlug}/blog/${post.slug}` },
+    { name: post.title, url: postUrl },
   ])
 
   return (
@@ -223,6 +214,8 @@ export default async function BlogPostPage({ params }: Props) {
           html={post.html}
           backLabel="← Blog"
           backHref={`/s/${locale}/${siteSlug}/blog`}
+          shareUrl={postUrl}
+          locale={locale}
         />
         <RelatedPostsSection title={relatedTitle} posts={related} />
       </div>
