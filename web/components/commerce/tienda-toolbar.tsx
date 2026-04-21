@@ -8,6 +8,16 @@ interface Props {
   initialQuery: string
   initialSort: ProductSort
   resultCount: number
+  totalCount: number
+  /** Active category filter (empty string = all). */
+  initialCategory: string
+  /** Distinct categories offered (from DB). */
+  availableCategories: string[]
+  /** Price bounds in cents, active filter (0 = no bound). */
+  initialMinPrice: number
+  initialMaxPrice: number
+  initialInStockOnly: boolean
+  initialOnSaleOnly: boolean
 }
 
 const SORT_OPTIONS: Array<{ value: ProductSort; label: string }> = [
@@ -17,88 +27,158 @@ const SORT_OPTIONS: Array<{ value: ProductSort; label: string }> = [
   { value: 'name-asc', label: 'Nombre A→Z' },
 ]
 
+type FilterUpdate = {
+  q?: string | null
+  sort?: string | null
+  category?: string | null
+  min?: string | null
+  max?: string | null
+  in_stock?: string | null
+  on_sale?: string | null
+  page?: string | null
+}
+
+function formatPyg(cents: number): string {
+  return `Gs ${new Intl.NumberFormat('es-PY').format(cents)}`
+}
+
 /**
- * URL-driven search + sort. State lives in the query string so back/forward
- * + share-link both work, and the page is a Server Component that re-runs
- * the DB query on every change. No client cache, no out-of-sync risk.
+ * URL-driven search + filters for /tienda. Every action rewrites query
+ * params via router.push; the page is a Server Component so the DB
+ * re-queries on every change. No client cache.
  */
-export function TiendaToolbar({ initialQuery, initialSort, resultCount }: Props) {
+export function TiendaToolbar({
+  initialQuery,
+  initialSort,
+  resultCount,
+  totalCount,
+  initialCategory,
+  availableCategories,
+  initialMinPrice,
+  initialMaxPrice,
+  initialInStockOnly,
+  initialOnSaleOnly,
+}: Props) {
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const [query, setQuery] = useState(initialQuery)
+  const [minPrice, setMinPrice] = useState(initialMinPrice ? String(initialMinPrice) : '')
+  const [maxPrice, setMaxPrice] = useState(initialMaxPrice ? String(initialMaxPrice) : '')
   const [pending, startTransition] = useTransition()
 
-  function pushParams(next: { q?: string; sort?: string }) {
+  function pushParams(next: FilterUpdate) {
     const params = new URLSearchParams(searchParams.toString())
-    if (next.q !== undefined) {
-      if (next.q) params.set('q', next.q)
-      else params.delete('q')
+    for (const [key, value] of Object.entries(next)) {
+      if (value === null || value === '' || value === undefined) {
+        params.delete(key)
+      } else {
+        params.set(key, value)
+      }
     }
-    if (next.sort !== undefined) {
-      if (next.sort && next.sort !== 'newest') params.set('sort', next.sort)
-      else params.delete('sort')
-    }
+    // Any filter change resets pagination to page 1.
+    if (!('page' in next)) params.delete('page')
     const qs = params.toString()
     startTransition(() => {
       router.push(qs ? `${pathname}?${qs}` : pathname)
     })
   }
 
-  function onSubmit(event: React.FormEvent<HTMLFormElement>) {
+  function onSearchSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
-    pushParams({ q: query.trim() })
+    pushParams({ q: query.trim() || null })
   }
 
-  function onClear() {
+  function onPriceSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    const cleanMin = minPrice.replace(/\D/g, '')
+    const cleanMax = maxPrice.replace(/\D/g, '')
+    pushParams({ min: cleanMin || null, max: cleanMax || null })
+  }
+
+  function clearAll() {
     setQuery('')
-    pushParams({ q: '' })
+    setMinPrice('')
+    setMaxPrice('')
+    startTransition(() => {
+      router.push(pathname)
+    })
+  }
+
+  const activeFilters: Array<{ key: string; label: string; clear: () => void }> = []
+  if (initialQuery) {
+    activeFilters.push({
+      key: 'q',
+      label: `"${initialQuery}"`,
+      clear: () => {
+        setQuery('')
+        pushParams({ q: null })
+      },
+    })
+  }
+  if (initialCategory) {
+    activeFilters.push({
+      key: 'category',
+      label: initialCategory,
+      clear: () => pushParams({ category: null }),
+    })
+  }
+  if (initialMinPrice || initialMaxPrice) {
+    const label =
+      initialMinPrice && initialMaxPrice
+        ? `${formatPyg(initialMinPrice)} – ${formatPyg(initialMaxPrice)}`
+        : initialMinPrice
+        ? `Desde ${formatPyg(initialMinPrice)}`
+        : `Hasta ${formatPyg(initialMaxPrice)}`
+    activeFilters.push({
+      key: 'price',
+      label,
+      clear: () => {
+        setMinPrice('')
+        setMaxPrice('')
+        pushParams({ min: null, max: null })
+      },
+    })
+  }
+  if (initialInStockOnly) {
+    activeFilters.push({ key: 'in_stock', label: 'Solo en stock', clear: () => pushParams({ in_stock: null }) })
+  }
+  if (initialOnSaleOnly) {
+    activeFilters.push({ key: 'on_sale', label: 'En oferta', clear: () => pushParams({ on_sale: null }) })
   }
 
   return (
-    <div className="flex flex-col gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-3 sm:flex-row sm:items-center sm:justify-between">
-      <form onSubmit={onSubmit} role="search" className="flex flex-1 items-center gap-2">
-        <label className="flex flex-1 items-center gap-2 rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface-muted,#f9fafb)] px-3 py-2 focus-within:border-[color:var(--primary,#111)]">
-          <span className="sr-only">Buscar productos</span>
-          <svg aria-hidden="true" className="h-4 w-4 text-[color:var(--text-muted,#6b7280)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
-          </svg>
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar productos…"
-            className="w-full bg-transparent text-sm outline-none placeholder:text-[color:var(--text-muted,#9ca3af)]"
-          />
-          {query ? (
-            <button
-              type="button"
-              onClick={onClear}
-              aria-label="Limpiar búsqueda"
-              className="text-xs text-[color:var(--text-muted,#6b7280)] hover:underline"
-            >
-              ×
-            </button>
-          ) : null}
-        </label>
-        <button
-          type="submit"
-          disabled={pending}
-          className="rounded bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
-        >
-          Buscar
-        </button>
-      </form>
+    <div className="flex flex-col gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-3">
+      {/* Search + sort */}
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <form onSubmit={onSearchSubmit} role="search" className="flex flex-1 items-center gap-2">
+          <label className="flex flex-1 items-center gap-2 rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface-muted,#f9fafb)] px-3 py-2 focus-within:border-[color:var(--primary,#111)]">
+            <span className="sr-only">Buscar productos</span>
+            <svg aria-hidden="true" className="h-4 w-4 text-[color:var(--text-muted,#6b7280)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+            </svg>
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar por nombre, descripción o SKU…"
+              className="w-full bg-transparent text-sm outline-none placeholder:text-[color:var(--text-muted,#9ca3af)]"
+            />
+          </label>
+          <button
+            type="submit"
+            disabled={pending}
+            className="rounded bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
+          >
+            Buscar
+          </button>
+        </form>
 
-      <div className="flex items-center gap-3 text-sm">
-        <span className="text-xs text-[color:var(--text-muted,#6b7280)]" aria-live="polite">
-          {resultCount} {resultCount === 1 ? 'producto' : 'productos'}
-        </span>
-        <label className="flex items-center gap-2">
+        <label className="flex items-center gap-2 text-sm">
           <span className="text-xs text-[color:var(--text-muted,#6b7280)]">Ordenar:</span>
           <select
             value={initialSort}
-            onChange={(e) => pushParams({ sort: e.target.value })}
+            onChange={(e) => pushParams({ sort: e.target.value === 'newest' ? null : e.target.value })}
             className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm"
           >
             {SORT_OPTIONS.map((opt) => (
@@ -108,6 +188,119 @@ export function TiendaToolbar({ initialQuery, initialSort, resultCount }: Props)
             ))}
           </select>
         </label>
+      </div>
+
+      {/* Category pills */}
+      {availableCategories.length > 0 ? (
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => pushParams({ category: null })}
+            aria-pressed={!initialCategory}
+            className={`rounded-full border px-3 py-1 text-xs ${
+              !initialCategory
+                ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
+                : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+            }`}
+          >
+            Todo
+          </button>
+          {availableCategories.map((cat) => (
+            <button
+              key={cat}
+              type="button"
+              onClick={() => pushParams({ category: cat })}
+              aria-pressed={initialCategory === cat}
+              className={`rounded-full border px-3 py-1 text-xs capitalize ${
+                initialCategory === cat
+                  ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
+                  : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      ) : null}
+
+      {/* Price range + toggles */}
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <form onSubmit={onPriceSubmit} className="flex flex-wrap items-center gap-2 text-xs">
+          <span className="text-[color:var(--text-muted,#6b7280)]">Precio (Gs):</span>
+          <input
+            type="text"
+            inputMode="numeric"
+            value={minPrice}
+            onChange={(e) => setMinPrice(e.target.value)}
+            placeholder="Mín"
+            className="w-24 rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1"
+            aria-label="Precio mínimo"
+          />
+          <span aria-hidden="true">–</span>
+          <input
+            type="text"
+            inputMode="numeric"
+            value={maxPrice}
+            onChange={(e) => setMaxPrice(e.target.value)}
+            placeholder="Máx"
+            className="w-24 rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1"
+            aria-label="Precio máximo"
+          />
+          <button
+            type="submit"
+            disabled={pending}
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+          >
+            Aplicar
+          </button>
+        </form>
+
+        <div className="flex flex-wrap items-center gap-4 text-xs">
+          <label className="inline-flex items-center gap-1.5">
+            <input
+              type="checkbox"
+              checked={initialInStockOnly}
+              onChange={(e) => pushParams({ in_stock: e.target.checked ? '1' : null })}
+              className="h-4 w-4"
+            />
+            <span>Solo en stock</span>
+          </label>
+          <label className="inline-flex items-center gap-1.5">
+            <input
+              type="checkbox"
+              checked={initialOnSaleOnly}
+              onChange={(e) => pushParams({ on_sale: e.target.checked ? '1' : null })}
+              className="h-4 w-4"
+            />
+            <span>En oferta</span>
+          </label>
+        </div>
+      </div>
+
+      {/* Active filter chips + result count + clear-all */}
+      <div className="flex flex-wrap items-center gap-2 border-t border-[color:var(--border,#e5e7eb)] pt-3 text-xs">
+        {activeFilters.map((f) => (
+          <button
+            key={f.key}
+            type="button"
+            onClick={f.clear}
+            className="inline-flex items-center gap-1 rounded-full bg-[color:var(--surface-muted,#f3f4f6)] px-2 py-0.5 hover:bg-[color:var(--border,#e5e7eb)]"
+            aria-label={`Quitar filtro: ${f.label}`}
+          >
+            <span>{f.label}</span>
+            <span aria-hidden="true">✕</span>
+          </button>
+        ))}
+        {activeFilters.length > 0 ? (
+          <button type="button" onClick={clearAll} className="text-[color:var(--primary,#111)] underline">
+            Limpiar todo
+          </button>
+        ) : null}
+        <span className="ml-auto text-[color:var(--text-muted,#6b7280)]" aria-live="polite">
+          {resultCount === totalCount
+            ? `${totalCount} ${totalCount === 1 ? 'producto' : 'productos'}`
+            : `Mostrando ${resultCount} de ${totalCount}`}
+        </span>
       </div>
     </div>
   )
