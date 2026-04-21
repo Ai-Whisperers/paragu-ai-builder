@@ -89,5 +89,5 @@
       ]
     }
   },
-  "_note": "Testimonials feature is currently gated (features.testimonials=false on site.json). Images are AI-generated placeholders per docs/IMAGE_GENERATION_PROMPTS.md §ethics; do NOT flip testimonials:true until real consented photos replace them. See docs/TESTIMONIALS_GATING.md. videoPoster+videoUrl slots are wired: posters are ready but videoUrl stays empty on purpose, so the card renders a 'video coming soon' thumbnail when testimonials do re-enable."
+  "_note": "Demo-mode content. Quotes, names, roles, and portraits are AI-generated placeholders shown to prospects pre-handoff. Swap for real consented content before setting isLiveProduction:true — see docs/DEMO_CONTENT.md. videoPoster slots are ready; videoUrl left empty renders a 'video coming soon' thumbnail."
 }

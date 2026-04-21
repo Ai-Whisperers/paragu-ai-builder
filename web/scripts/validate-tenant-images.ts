@@ -9,10 +9,13 @@
  *      `/sites/<slug>/images/`, assert the file exists on disk.
  *   3. Walk `sites/<slug>/images/**\/*.{png,webp,jpg,jpeg}` and assert
  *      every file is indexed in the manifest — catches orphans.
- *   4. When `site.json.isLiveProduction === true`, hard-block if any
- *      SHA-256 recorded in `docs/PLACEHOLDER_HASHES.json` still matches
- *      a file on disk (AI placeholder portraits must be swapped for
- *      real photos before launch — see TESTIMONIALS_GATING.md).
+ *   4. When `site.json.isLiveProduction === true` AND the tenant is NOT
+ *      flagged as a demo, hard-block if any SHA-256 recorded in
+ *      `docs/PLACEHOLDER_HASHES.json` still matches a file on disk
+ *      (AI placeholder portraits must be swapped for real photos
+ *      before launch — see DEMO_CONTENT.md / TESTIMONIALS_GATING.md).
+ *      Demo mode is signalled by any of: `is_demo: true`,
+ *      `demoMode.enabled: true`, or `demoMode.aiPlaceholdersAllowed: true`.
  *
  * Exit codes:
  *   0 — all checks passed
@@ -45,6 +48,8 @@ interface Manifest {
 
 interface SiteJson {
   isLiveProduction?: boolean
+  is_demo?: boolean
+  demoMode?: { enabled?: boolean; aiPlaceholdersAllowed?: boolean }
   [k: string]: unknown
 }
 
@@ -146,12 +151,23 @@ function main() {
     return true
   })
 
-  // Placeholder-swap gate: only enforced when site.json signals production.
+  // Placeholder-swap gate: only enforced when site.json signals production
+  // AND the tenant is NOT in demo mode. Demo tenants intentionally ship
+  // AI-generated portraits and copy to prospects while real content is
+  // being gathered — blocking those would defeat the demo's purpose.
   let placeholderBlocked = false
   const placeholderMatches: string[] = []
   if (fs.existsSync(sitePath)) {
     const site: SiteJson = JSON.parse(fs.readFileSync(sitePath, 'utf-8'))
-    if (site.isLiveProduction === true && fs.existsSync(hashesPath)) {
+    const demoAllowsPlaceholders =
+      site.is_demo === true ||
+      site.demoMode?.enabled === true ||
+      site.demoMode?.aiPlaceholdersAllowed === true
+    if (
+      site.isLiveProduction === true &&
+      !demoAllowsPlaceholders &&
+      fs.existsSync(hashesPath)
+    ) {
       try {
         const reg: PlaceholderRegistry = JSON.parse(fs.readFileSync(hashesPath, 'utf-8'))
         for (const [relPath, expected] of Object.entries(reg.placeholders || {})) {

@@ -100,6 +100,7 @@ interface DiscoveredSite {
   content: Record<string, JsonRecord>
   blog: Record<string, Record<string, string>> // locale -> slug -> raw MDX
   images: JsonRecord | null
+  testimonials: JsonRecord | null // tenant testimonials (sites/<slug>/testimonials.json)
 }
 
 function discoverSites(): DiscoveredSite[] {
@@ -146,7 +147,12 @@ function discoverSites(): DiscoveredSite[] {
     const imagesPath = path.join(siteDir, 'images.json')
     const images = fs.existsSync(imagesPath) ? readJson<JsonRecord>(imagesPath) : null
 
-    result.push({ slug, site, tokens, pages, content, blog, images })
+    const testimonialsPath = path.join(siteDir, 'testimonials.json')
+    const testimonials = fs.existsSync(testimonialsPath)
+      ? readJson<JsonRecord>(testimonialsPath)
+      : null
+
+    result.push({ slug, site, tokens, pages, content, blog, images, testimonials })
   }
   return result
 }
@@ -235,6 +241,7 @@ function generate(): string {
   const contentEntries: Array<{ key: string; value: unknown }> = []
   const blogEntries: Array<{ key: string; value: unknown }> = []
   const imagesEntries: Array<{ key: string; value: unknown }> = []
+  const testimonialsEntries: Array<{ key: string; value: unknown }> = []
   const siteSlugs: string[] = []
 
   for (const s of sites) {
@@ -242,6 +249,7 @@ function generate(): string {
     if (s.site) sitesEntries.push({ key: s.slug, value: sortKeys(s.site) })
     if (s.tokens) tokensEntries.push({ key: s.slug, value: sortKeys(s.tokens) })
     if (s.images) imagesEntries.push({ key: s.slug, value: sortKeys(s.images) })
+    if (s.testimonials) testimonialsEntries.push({ key: s.slug, value: sortKeys(s.testimonials) })
     for (const [pageSlug, page] of Object.entries(s.pages)) {
       pagesEntries.push({ key: `${s.slug}:${pageSlug}`, value: sortKeys(page) })
     }
@@ -305,6 +313,8 @@ function generate(): string {
     emitRecord('BLOG_POSTS', 'Record<string, string>', blogEntries),
     '',
     emitRecord('IMAGES_MANIFESTS', 'Record<string, JsonRecord>', imagesEntries),
+    '',
+    emitRecord('TESTIMONIALS_DATA', 'Record<string, JsonRecord>', testimonialsEntries),
     '',
     emitRecord('VERTICALS', 'Record<string, JsonRecord>', verticalEntries),
     '',
