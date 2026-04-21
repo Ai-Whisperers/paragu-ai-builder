@@ -1,16 +1,15 @@
 /**
- * Tests for /api/analytics/track. Closes BUG_HUNT_500 #423.
+ * Tests for /api/analytics/track. Closes BUG_HUNT_500 #423 + #460.
  *
  * Coverage:
  *   - 400 on missing/invalid event type
  *   - 200 happy path returns event id + session id
  *   - supabase client is created exactly once across N requests (proves
  *     the module-scoped cache works — was the cold-start bug)
- *   - 401 on GET without bearer token
+ *   - 401 on GET when checkAdmin returns unauthenticated
  */
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 
-const mockInsert = vi.fn()
 const mockSelect = vi.fn(() => ({
   single: vi.fn(async () => ({ data: { id: 'evt-1' }, error: null })),
 }))
@@ -21,6 +20,11 @@ const createClientSpy = vi.fn(() => ({ from: mockFrom }))
 
 vi.mock('@supabase/supabase-js', () => ({
   createClient: (...args: unknown[]) => createClientSpy(...args),
+}))
+
+const mockCheckAdmin = vi.fn()
+vi.mock('@/lib/auth/admin', () => ({
+  checkAdmin: () => mockCheckAdmin(),
 }))
 
 const ORIGINAL_ENV = { ...process.env }
@@ -104,10 +108,19 @@ describe('/api/analytics/track GET', () => {
     process.env = ORIGINAL_ENV
   })
 
-  it('returns 401 without bearer token', async () => {
+  it('returns 401 when checkAdmin reports unauthenticated', async () => {
+    mockCheckAdmin.mockResolvedValueOnce({ ok: false, status: 401, reason: 'unauthenticated' })
     const { GET } = await import('@/app/api/analytics/track/route')
     const req = new Request('http://localhost/api/analytics/track', { method: 'GET' })
     const res = await GET(req as never)
     expect(res.status).toBe(401)
+  })
+
+  it('returns 403 when checkAdmin reports forbidden', async () => {
+    mockCheckAdmin.mockResolvedValueOnce({ ok: false, status: 403, reason: 'forbidden' })
+    const { GET } = await import('@/app/api/analytics/track/route')
+    const req = new Request('http://localhost/api/analytics/track', { method: 'GET' })
+    const res = await GET(req as never)
+    expect(res.status).toBe(403)
   })
 })
