@@ -174,18 +174,18 @@ async function getStats(): Promise<Stats> {
 
 async function getFilterOptions() {
   const supabase = await createClient()
-  
-  // Get unique cities
-  const { data: cities, error: _citiesError } = await supabase
+
+  const { data: cities, error: citiesError } = await supabase
     .from('leads')
     .select('city')
     .order('city')
-  
-  // Get unique business types
-  const { data: types, error: _typesError } = await supabase
+  if (citiesError) logger.warn('Admin leads cities filter fetch failed', { error: citiesError.message })
+
+  const { data: types, error: typesError } = await supabase
     .from('leads')
     .select('business_type')
     .order('business_type')
+  if (typesError) logger.warn('Admin leads types filter fetch failed', { error: typesError.message })
   
   return {
     cities: [...new Set((cities || []).map(c => c.city))].filter(Boolean),
