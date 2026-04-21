@@ -32,7 +32,10 @@ Demo tenants (salon-maria, gymfit-py, spa-serenidad, etc.) live alongside real t
 - **New to the repo?** → [ARCHITECTURE.md](./ARCHITECTURE.md) (the 5-minute system tour)
 - **Contributing code?** → [CONTRIBUTING.md](./CONTRIBUTING.md) (branch, commit, PR, quality gates)
 - **Looking for something specific?** → [docs/README.md](./docs/README.md) (docs hub — every reference, how-to, and explainer)
-- **Adding a new tenant?** → [docs/how-to/add-tenant.md](./docs/how-to/add-tenant.md) _(planned — see [consolidation plan](./docs/DOCS_CONSOLIDATION_PLAN.md))_
+- **Adding a new tenant?** → [docs/runbooks/ADD_NEW_TENANT.md](./docs/runbooks/ADD_NEW_TENANT.md)
+- **Adding a new vertical?** → [docs/runbooks/ADD_NEW_VERTICAL.md](./docs/runbooks/ADD_NEW_VERTICAL.md)
+- **Rotating a secret / env vars?** → [docs/runbooks/ENV_VARS.md](./docs/runbooks/ENV_VARS.md)
+- **Last deploy broke?** → [docs/runbooks/ROLLBACK.md](./docs/runbooks/ROLLBACK.md)
 - **AI-agent-oriented context?** → [CLAUDE.md](./CLAUDE.md) (the instructions LLMs read)
 
 ## Quick start
@@ -86,9 +89,9 @@ web/                  Application layer (Next.js)
     [business]/             flat-pattern legacy tenant routes
     s/[locale]/[siteSlug]/  locale-prefixed modern tenant routes
     admin/                  protected dashboard
-    api/                    21 REST routes
+    api/                    52 REST routes (incl. cron, webhooks, admin, storefront)
   components/
-    sections/               83 reusable section components
+    sections/               82 reusable section components
     ui/                     primitives (Button, Card, Badge via CVA)
   lib/
     engine/                 composition pipeline
