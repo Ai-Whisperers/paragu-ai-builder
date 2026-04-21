@@ -404,6 +404,26 @@
         {
           "q": "How is payment made?",
           "a": "Upfront by wire transfer. No additional fees."
+        },
+        {
+          "q": "Can I switch programs after starting?",
+          "a": "Yes. If mid-process you decide to upgrade (e.g. from Base to Business) we roll the paid amount into the new program and invoice the delta. No double fees."
+        },
+        {
+          "q": "Do I need to be in Paraguay to start?",
+          "a": "No. We handle document pre-validation remotely. You only travel for the single operational day (migration + cédula + bank, all coordinated)."
+        },
+        {
+          "q": "How long does the whole process take end-to-end?",
+          "a": "8–12 weeks typical. 6 weeks document prep + 1 trip + 2–4 weeks for residency approval + cédula issuance."
+        },
+        {
+          "q": "What happens if my residency is rejected?",
+          "a": "Rejections are rare with proper document prep. If it happens for a reason within our scope (e.g. missed requirement) we re-present at our cost."
+        },
+        {
+          "q": "Is the 10% territorial tax guaranteed?",
+          "a": "The 10% IRE rate is current Paraguayan law (Ley 6380). We keep you updated on any reforms and structure your setup to stay compliant under the rules that apply at the time."
         }
       ]
     },
