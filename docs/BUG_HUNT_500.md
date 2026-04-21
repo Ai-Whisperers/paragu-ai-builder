@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 58 | see closure log below |
+| ✅ Closed | 59 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 442 | the rest |
+| 🔴 Open | 441 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -69,6 +69,9 @@ Closure log:
   with the Asunción mapping called out, plus a pointer to the canonical
   table in `docs/runbooks/CRON_STRATEGY.md`. No more guessing what
   timezone "0 9 * * *" is in. (5 cron routes updated.)
+- **#414** — `react/jsx-no-target-blank` rule enabled as ERROR in
+  `eslint.config.mjs` (next preset turned it off, we override). Codebase
+  already clean — zero violations. Prevents reverse-tabnabbing regressions.
 
 ## Blocked on user input
 
