@@ -11,6 +11,7 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
 import { ProductCard } from '@/components/commerce/product-card'
 import { ProductShare } from '@/components/commerce/product-share'
+import { WishlistButton } from '@/components/commerce/wishlist-button'
 import { RecordRecentVisit } from '@/components/commerce/record-recent-visit'
 import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { PriceDisplay } from '@/components/commerce/price-display'
@@ -130,6 +131,20 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
 
           <div className="mt-6">
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
+          </div>
+
+          <div className="mt-4 flex flex-wrap gap-2">
+            <WishlistButton
+              siteSlug={site}
+              product={{
+                id: product.id,
+                slug: product.slug,
+                name: product.name,
+                priceCents: product.priceCents,
+                currency: product.currency,
+                imageUrl: cover?.url ?? null,
+              }}
+            />
           </div>
 
           <ProductShare productName={product.name} productUrl={`${env.APP_URL}/s/${locale}/${site}/producto/${product.slug}`} />

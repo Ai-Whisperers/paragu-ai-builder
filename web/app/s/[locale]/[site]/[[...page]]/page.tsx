@@ -85,6 +85,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const site = composed.site
     const alternates = alternatesFor(siteSlug, site.locales, pageSlug === 'home' ? '' : pageSlug)
     const isDemo = Boolean((site as { is_demo?: boolean }).is_demo)
+    // Point OG image at the tenant-specific handler at
+    // /s/[locale]/[site]/opengraph-image.tsx. Without this explicit
+    // reference Next.js picks up the ROOT /opengraph-image.tsx (because
+    // defining `openGraph` in generateMetadata replaces the file-based
+    // metadata auto-discovery), which leaks the generic ParaguAI OG to
+    // every tenant's social shares.
+    const ogImagePath = `/s/${locale}/${siteSlug}/opengraph-image`
     return {
       title: composed.meta.title,
       description: composed.meta.description,
@@ -93,6 +100,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: composed.meta.title,
         description: composed.meta.description,
         locale,
+        images: [{ url: ogImagePath, width: 1200, height: 630, alt: composed.meta.title }],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: composed.meta.title,
+        description: composed.meta.description,
+        images: [ogImagePath],
       },
       // Demo tenants must not compete in search with real client sites or
       // the marketing site itself. Excludes them from indexing while still
