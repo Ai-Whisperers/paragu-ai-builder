@@ -55,7 +55,7 @@ function rowToProduct(row: ProductRow): Product {
   }
 }
 
-export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc' | 'popularity'
+export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc' | 'popularity' | 'rating'
 
 /**
  * Aggregate: units sold per product for a business. Sums order_items.quantity
@@ -107,9 +107,10 @@ const SORT_FIELDS: Record<ProductSort, { column: string; ascending: boolean }> =
   'price-asc': { column: 'price_cents', ascending: true },
   'price-desc': { column: 'price_cents', ascending: false },
   'name-asc': { column: 'name', ascending: true },
-  // popularity is handled post-query (see listActiveProducts) — default fallback
-  // is newest so the DB order is deterministic if we ever forget to re-sort.
+  // popularity + rating are handled post-query (see /tienda/page.tsx) —
+  // default DB order is newest so the fallback is deterministic.
   popularity: { column: 'created_at', ascending: false },
+  rating: { column: 'created_at', ascending: false },
 }
 
 /**
