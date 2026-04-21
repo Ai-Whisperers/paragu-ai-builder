@@ -21,7 +21,7 @@
   "commerce": {
     "enabled": true,
     "launchPhase": "beta",
-    "provider": "mercado_pago",
+    "provider": "pagopar",
     "currency": "PYG",
     "catalog": { "source": "supabase" },
     "checkout": {

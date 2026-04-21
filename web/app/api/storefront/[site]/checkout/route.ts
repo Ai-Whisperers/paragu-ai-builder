@@ -61,17 +61,19 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   const order = await getOrder(business.id, orderId)
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
-  const adapter = getAdapter('mercado_pago')
+  // PR 3 (feat/payment-router) replaces this hardcoded default with the
+  // capability-matrix router that picks per-order based on currency + country.
+  const provider = 'pagopar' as const
+  const adapter = getAdapter(provider)
   const session = await adapter.createCheckoutSession(order, {
     returnUrl: `${appUrl}/s/es/${site}/orden/${order.id}`,
-    webhookUrl: `${appUrl}/api/webhooks/mercado-pago`,
+    webhookUrl: `${appUrl}/api/webhooks/${provider}`,
   })
 
-  // Persist a transaction row so we can look up the preference later
   await supabase.from('storefront_transactions').insert({
     business_id: business.id,
     order_id: order.id,
-    provider: 'mercado_pago',
+    provider,
     provider_preference_id: session.providerRef,
     status: 'created',
     amount_cents: order.totalCents,
