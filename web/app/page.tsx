@@ -18,6 +18,178 @@ import { LogoStrip } from '@/components/landing/logo-strip'
 import { PressStrip } from '@/components/landing/press-strip'
 import { FloatingShape } from '@/components/landing/chrome'
 
+/* ── Schema.org Structured Data ────────────────────────────────── */
+
+const SCHEMA_ORG_DATA = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://paragu-ai.com/#organization",
+      "name": "ParaguAI",
+      "url": "https://paragu-ai.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://paragu-ai.com/logo.png"
+      },
+      "description": "Sitios web profesionales para negocios paraguayos en 48 horas. Todo incluido: diseño, dominio .com.py, SEO y WhatsApp.",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Asunción, Paraguay"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Paraguay"
+      },
+      "sameAs": [
+        "https://wa.me/595981324569"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://paragu-ai.com/#website",
+      "url": "https://paragu-ai.com",
+      "name": "ParaguAI - Sitios Web Profesionales para Negocios Paraguayos",
+      "publisher": {
+        "@id": "https://paragu-ai.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://paragu-ai.com/buscar?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://paragu-ai.com/#webpage",
+      "url": "https://paragu-ai.com",
+      "name": "ParaguAI - Tu negocio vendiendo mientras dormís",
+      "isPartOf": {
+        "@id": "https://paragu-ai.com/#website"
+      },
+      "about": {
+        "@id": "https://paragu-ai.com/#organization"
+      },
+      "description": "Sitio web profesional en 48 horas para negocios paraguayos. Todo incluido: diseño, dominio .com.py, SEO y WhatsApp. Empezá gratis.",
+      "inLanguage": "es-PY"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://paragu-ai.com/#service",
+      "name": "Creación de Sitios Web para Negocios",
+      "provider": {
+        "@id": "https://paragu-ai.com/#organization"
+      },
+      "description": "Diseño y desarrollo de sitios web profesionales para pequeños y medianos negocios en Paraguay",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Paraguay"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Planes de Servicio",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Starter"
+            },
+            "price": "0",
+            "priceCurrency": "PYG",
+            "description": "Subdominio gratis, página única, WhatsApp"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Profesional"
+            },
+            "price": "650000",
+            "priceCurrency": "PYG",
+            "description": "Dominio .com.py, hasta 5 páginas, SEO, 2 cambios mensuales"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Negocio"
+            },
+            "price": "1200000",
+            "priceCurrency": "PYG",
+            "description": "Reservas online, catálogo de productos, blog, soporte prioritario"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "AggregateRating",
+      "@id": "https://paragu-ai.com/#aggregate-rating",
+      "itemReviewed": {
+        "@id": "https://paragu-ai.com/#organization"
+      },
+      "ratingValue": "4.9",
+      "reviewCount": "250",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://paragu-ai.com/#faq-page",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo tarda en estar listo mi sitio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entre 24 y 48 horas desde que nos mandás los datos. Primero generamos el sitio automáticamente, después un editor humano lo revisa y optimiza antes de entregártelo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito saber algo de tecnología?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nada. Nosotros hacemos todo: el diseño, los textos, las fotos, el dominio y la publicación. Vos solo nos mandás la info de tu negocio por WhatsApp y recibís el sitio listo para usar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo ver mi sitio antes de pagar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. En el plan Starter te armamos tu sitio gratis en un subdominio. Si te gusta, podés pasarte al plan Profesional con dominio propio. Si no, no pagás nada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué incluye el dominio .com.py?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Incluimos el dominio gratis el primer año (por ejemplo: tunegocio.com.py). También configuramos el certificado SSL para que tu sitio sea seguro, y te ayudamos a crear emails profesionales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo funciona el pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tenés dos pagos: el setup inicial (una sola vez) y la mensualidad. Aceptamos transferencia bancaria y Mercado Pago. No hay contrato de permanencia, cancelás cuando quieras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si no me gusta el sitio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tenés 30 días de garantía. Si no te convence, te devolvemos el 100% del setup. Sin preguntas ni letra chica."
+          }
+        }
+      ]
+    }
+  ]
+}
+
 /* ── Data Constants ─────────────────────────────────────────────── */
 
 const TEMPLATES = [
@@ -324,6 +496,10 @@ function Navigation() {
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_ORG_DATA) }}
+      />
       <Navigation />
 
       <main>
