@@ -288,6 +288,21 @@ const buildContact: SectionBuilder = ({ business, content }) => {
   }
 }
 
+const buildFeaturedProducts: SectionBuilder = ({ business, content }) => {
+  // Render-time section: the actual products are fetched from the commerce
+  // DB inside the React component, not here. The builder just emits the
+  // slug + display copy so the composer has something to pass down.
+  const cfg = (content as { featuredProducts?: { title?: string; subtitle?: string; viewAllText?: string; limit?: number } }).featuredProducts
+  return {
+    siteSlug: business.slug,
+    businessName: business.name,
+    title: cfg?.title ?? 'Nuestros productos',
+    subtitle: cfg?.subtitle,
+    viewAllText: cfg?.viewAllText ?? 'Ver toda la tienda',
+    limit: typeof cfg?.limit === 'number' ? Math.max(1, Math.min(8, cfg.limit)) : 4,
+  }
+}
+
 const buildProductCatalog: SectionBuilder = ({ business, content, registry }) => {
   const products = business.products || []
   if (products.length === 0) return null
@@ -525,6 +540,7 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   quoteForm: buildQuoteForm,
   emergencyIndicator: buildEmergencyIndicator,
   productCatalog: buildProductCatalog,
+  featuredProducts: buildFeaturedProducts,
   gallery: buildGallery,
   team: buildTeam,
   testimonials: buildTestimonials,
