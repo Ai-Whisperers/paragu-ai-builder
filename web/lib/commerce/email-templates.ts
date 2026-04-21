@@ -60,6 +60,38 @@ export function orderShippedEmail({ order, businessName, storeUrl }: Context) {
   }
 }
 
+interface CartRecoveryContext {
+  customerName: string
+  businessName: string
+  recoveryUrl: string
+  /** 1 = 24 h touch ("still thinking?"), 2 = 72 h, 3 = 7 d ("last chance"). */
+  step: 1 | 2 | 3
+}
+
+export function cartRecoveryEmail(ctx: CartRecoveryContext) {
+  const subjects: Record<1 | 2 | 3, string> = {
+    1: `¿Seguís pensándolo? — ${ctx.businessName}`,
+    2: `Tu carrito sigue esperando en ${ctx.businessName}`,
+    3: `Última oportunidad — tu carrito en ${ctx.businessName}`,
+  }
+  const bodies: Record<1 | 2 | 3, string> = {
+    1: 'Vimos que dejaste algunos productos en tu carrito. ¿Querés volver a revisarlos?',
+    2: 'Tus productos siguen guardados. Si necesitás ayuda para decidir, escribinos por WhatsApp.',
+    3: 'Tu carrito se va a vaciar pronto. Si te interesa algún producto, te conviene volver ahora.',
+  }
+  return {
+    subject: subjects[ctx.step],
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;">Hola ${escape(ctx.customerName)},</h1>
+  <p>${escape(bodies[ctx.step])}</p>
+  <p style="margin:24px 0;"><a href="${ctx.recoveryUrl}" style="display:inline-block;background:#111;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600;">Volver a mi carrito</a></p>
+  <p style="color:#666;font-size:12px;margin-top:24px;">Si ya compraste o no te interesa más, ignorá este mensaje. El link solo funciona por 7 días.</p>
+  <p style="color:#666;font-size:12px;">${escape(ctx.businessName)} · enviado desde Paragu-AI</p>
+</body></html>`.trim(),
+  }
+}
+
 function escape(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
 }
