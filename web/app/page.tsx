@@ -23,6 +23,7 @@ import { StickyMobileCTA } from '@/components/landing/sticky-mobile-cta'
 import { ActivityTicker } from '@/components/landing/activity-ticker'
 import { PressStrip } from '@/components/landing/press-strip'
 import { HeroVariantChip } from '@/components/landing/hero-variant-chip'
+import { ScrollDepthTracker } from '@/components/landing/scroll-depth-tracker'
 import { waLink } from '@/lib/landing/marketing-data'
 import { useHeroVariant } from '@/lib/experiments/hero-variant'
 import {
@@ -713,7 +714,7 @@ export default function HomePage() {
             <div className="space-y-4">
               {FAQS.map((faq, i) => (
                 <FadeIn key={i} delay={i * 50}>
-                  <FAQItem question={faq.question} answer={faq.answer} />
+                  <FAQItem question={faq.question} answer={faq.answer} defaultOpen={i === 0} />
                 </FadeIn>
               ))}
             </div>
@@ -1005,6 +1006,7 @@ export default function HomePage() {
       <BackToTop />
       <StickyMobileCTA />
       <HeroVariantChip />
+      <ScrollDepthTracker />
     </>
   )
 }
