@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "translationQuality": "native",
+    "author": "Granja Cabral",
+    "lastReviewed": "2026-04-20",
+    "notes": "Content sourced from web/lib/engine/demo-data.ts and src/content/egg_farm.content.json. Placeholders flagged in site.json.placeholderFields. Awaiting confirmation from owner Laura Cabral — see docs/onboarding-questionnaire.md."
+  },
+  "siteName": "Granja Cabral",
+  "tagline": "Huevos frescos de granja en Coronel Oviedo",
+  "placeholders": {
+    "businessName": "Granja Cabral",
+    "city": "Coronel Oviedo",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Granja Cabral",
+    "ctaText": "Hacer pedido",
+    "ctaHref": "https://wa.me/595981000000"
+  },
+  "home": {
+    "seo": {
+      "title": "Granja Cabral — Huevos frescos de granja en Coronel Oviedo",
+      "description": "Huevos frescos recolectados diariamente, pollos de granja y fertilizante organico. Delivery en Coronel Oviedo y Ruta 2."
+    },
+    "hero": {
+      "headline": "Granja Cabral",
+      "subheadline": "Huevos frescos recolectados diariamente de nuestras gallinas criadas con cuidado. Delivery en Coronel Oviedo y Ruta 2.",
+      "ctaPrimaryText": "Pedir por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981000000"
+    },
+    "services": {
+      "title": "Nuestros Productos",
+      "items": [
+        {
+          "name": "Huevos por Unidad",
+          "price": "800 Gs",
+          "description": "Huevos frescos recien recolectados de la granja.",
+          "category": "Huevos"
+        },
+        {
+          "name": "Bandeja de 12 Huevos",
+          "price": "9.500 Gs",
+          "description": "Docena fresca — perfecto para probar la calidad.",
+          "category": "Huevos"
+        },
+        {
+          "name": "Maple de 30 Huevos",
+          "price": "22.000 Gs",
+          "description": "Caja de 30 unidades — ideal para familias.",
+          "category": "Huevos"
+        },
+        {
+          "name": "Pollo Entero",
+          "price": "35.000 Gs",
+          "description": "Pollo limpio y listo para cocinar (aprox. 2-2.5kg). Reservar con 24hs de anticipacion.",
+          "category": "Pollo"
+        },
+        {
+          "name": "Pollito Tierno",
+          "price": "22.000 Gs",
+          "description": "Pollo joven, carne suave (aprox. 1-1.2kg). Reservar con 24hs de anticipacion.",
+          "category": "Pollo"
+        },
+        {
+          "name": "Fertilizante Organico 10kg",
+          "price": "15.000 Gs",
+          "description": "Gallinaza compostada, excelente para huertas y jardines.",
+          "category": "Fertilizante"
+        },
+        {
+          "name": "Delivery a Domicilio",
+          "price": "Consultar",
+          "description": "Llevamos tus huevos frescos hasta tu puerta en Coronel Oviedo y Ruta 2 (Km 120-150).",
+          "category": "Servicios"
+        },
+        {
+          "name": "Venta por Mayor",
+          "price": "Desde 100 unidades",
+          "description": "Precios especiales para restaurantes, hoteles, panaderias y supermercados.",
+          "category": "Mayorista"
+        },
+        {
+          "name": "Pedidos Programados",
+          "price": "Consultar",
+          "description": "Entrega semanal o quincenal para tu hogar o negocio.",
+          "category": "Servicios"
+        }
+      ]
+    },
+    "about": {
+      "title": "Sobre Granja Cabral",
+      "content": "Somos una granja familiar en Coronel Oviedo dedicada a la produccion local de huevos frescos. Nuestras gallinas son criadas en ambiente natural, con alimentacion balanceada y cuidado diario. Recolectamos los huevos todos los dias para garantizar maxima frescura.",
+      "stats": [
+        { "value": "500+", "label": "Gallinas ponedoras" },
+        { "value": "100%", "label": "Produccion local" },
+        { "value": "Diario", "label": "Recoleccion fresca" }
+      ]
+    },
+    "team": {
+      "title": "Equipo",
+      "members": [
+        {
+          "name": "Laura Cabral",
+          "role": "Propietaria",
+          "bio": "Apasionada por la produccion local y la calidad. Dirige Granja Cabral con dedicacion y compromiso con la comunidad de Coronel Oviedo."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "items": [
+        {
+          "quote": "Los huevos son fresquisimos, se nota la diferencia con los del supermercado. El delivery siempre es puntual. [Testimonio ilustrativo — clientes reales pronto]",
+          "author": "Maria G.",
+          "role": "Coronel Oviedo",
+          "rating": 5
+        },
+        {
+          "quote": "Excelente calidad para mi panaderia. Mis clientes notan la diferencia en los productos horneados. [Testimonio ilustrativo]",
+          "author": "Don Jose",
+          "role": "Panaderia San Jose",
+          "rating": 5
+        },
+        {
+          "quote": "Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente. [Testimonio ilustrativo]",
+          "author": "Restaurante La Tradicion",
+          "role": "Ruta 2",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "La forma mas rapida de hacer pedidos es por WhatsApp",
+      "whatsapp": "+595981000000",
+      "email": "info@granjacabral.com",
+      "address": "Ruta 2, Km 125-140, Coronel Oviedo"
+    }
+  },
+  "footer": {
+    "businessName": "Granja Cabral",
+    "city": "Coronel Oviedo",
+    "copyright": "© 2026 Granja Cabral"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas informacion?"
+  }
+}
