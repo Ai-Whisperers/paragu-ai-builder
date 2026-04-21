@@ -4,6 +4,7 @@ import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { OrderConfirmation } from '@/components/commerce/order-confirmation'
+import { PurchaseTracker } from '@/components/commerce/purchase-tracker'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -36,6 +37,7 @@ export default async function OrderPage({
         <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
       </div>
       <OrderConfirmation siteSlug={site} locale={locale} businessName={business.name} initialOrder={order} initialStatus={initial} />
+      <PurchaseTracker order={order} />
     </div>
   )
 }
