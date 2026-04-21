@@ -21562,6 +21562,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "steps": [
           {
             "description": "Wir klären Ihre Situation, Ziele und das passende Programm.",
+            "duration": "Woche 1",
             "icon": "MessageCircle",
             "image": {
               "$img": "process.consultation"
@@ -21571,6 +21572,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Unser Team prüft alles vor Ihrer Reise. Sie reisen erst, wenn alles vorliegt.",
+            "duration": "Wochen 2–5",
             "icon": "FileCheck",
             "image": {
               "$img": "process.documents"
@@ -21580,6 +21582,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "An einem Tag erledigen wir alle Präsenz-Schritte.",
+            "duration": "Woche 6",
             "icon": "MapPin",
             "image": {
               "$img": "process.arrival"
@@ -21589,6 +21592,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Wir gründen Ihre Gesellschaft und koordinieren die Kontoeröffnung.",
+            "duration": "Wochen 7–9",
             "icon": "Building",
             "image": {
               "$img": "process.banking"
@@ -21598,6 +21602,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Sie erhalten die finalen Dokumente und wir schließen das Programm ab.",
+            "duration": "Wochen 10–12",
             "icon": "CheckCircle",
             "image": {
               "$img": "process.completion"
@@ -21606,7 +21611,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Übergabe und Nachbetreuung"
           }
         ],
-        "title": "Ein klarer Prozess, Schritt für Schritt",
+        "title": "Ihre 5 Schritte mit Nexa",
         "totalDuration": "Gesamtdauer: 8–12 Wochen."
       },
       "seo": {
@@ -23501,6 +23506,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "steps": [
           {
             "description": "We review your situation, goals, and the right program.",
+            "duration": "Week 1",
             "icon": "MessageCircle",
             "image": {
               "$img": "process.consultation"
@@ -23510,6 +23516,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Our team verifies everything before you travel. You only travel when ready.",
+            "duration": "Weeks 2–5",
             "icon": "FileCheck",
             "image": {
               "$img": "process.documents"
@@ -23519,6 +23526,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "All in-person steps executed in a single day.",
+            "duration": "Week 6",
             "icon": "MapPin",
             "image": {
               "$img": "process.arrival"
@@ -23528,6 +23536,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "We incorporate your company and coordinate the bank opening.",
+            "duration": "Weeks 7–9",
             "icon": "Building",
             "image": {
               "$img": "process.banking"
@@ -23537,6 +23546,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "You receive final documents and we close the program.",
+            "duration": "Weeks 10–12",
             "icon": "CheckCircle",
             "image": {
               "$img": "process.completion"
@@ -23545,7 +23555,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Delivery and follow-up"
           }
         ],
-        "title": "A clear process, step by step",
+        "title": "Your 5 steps with Nexa",
         "totalDuration": "Typical total: 8–12 weeks."
       },
       "seo": {
@@ -25425,6 +25435,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "steps": [
           {
             "description": "Evaluamos su situación, objetivos y programa adecuado.",
+            "duration": "Semana 1",
             "icon": "MessageCircle",
             "image": {
               "$img": "process.consultation"
@@ -25434,6 +25445,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Revisamos todo antes de su viaje. No viaja hasta estar listo.",
+            "duration": "Semanas 2–5",
             "icon": "FileCheck",
             "image": {
               "$img": "process.documents"
@@ -25443,6 +25455,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "En un solo día, ejecutamos todos los trámites presenciales.",
+            "duration": "Semana 6",
             "icon": "MapPin",
             "image": {
               "$img": "process.arrival"
@@ -25452,6 +25465,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Constituimos su sociedad y coordinamos la apertura de cuenta.",
+            "duration": "Semanas 7–9",
             "icon": "Building",
             "image": {
               "$img": "process.banking"
@@ -25461,6 +25475,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Recibe documentos definitivos y cerramos el programa.",
+            "duration": "Semanas 10–12",
             "icon": "CheckCircle",
             "image": {
               "$img": "process.completion"
@@ -25469,7 +25484,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Entrega y seguimiento"
           }
         ],
-        "title": "Un proceso claro, paso a paso",
+        "title": "Tus 5 pasos con Nexa",
         "totalDuration": "Tiempo estimado total: 8–12 semanas."
       },
       "seo": {
@@ -27363,6 +27378,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "steps": [
           {
             "description": "We bespreken uw situatie, doelen en het passende programma.",
+            "duration": "Week 1",
             "icon": "MessageCircle",
             "image": {
               "$img": "process.consultation"
@@ -27372,6 +27388,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Alles wordt vooraf door ons team geverifieerd. U reist pas als alles klopt.",
+            "duration": "Weken 2–5",
             "icon": "FileCheck",
             "image": {
               "$img": "process.documents"
@@ -27381,6 +27398,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "In één dag voeren we alle persoonlijke afhandelingen uit.",
+            "duration": "Week 6",
             "icon": "MapPin",
             "image": {
               "$img": "process.arrival"
@@ -27390,6 +27408,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "Wij richten uw vennootschap op en coördineren de bankopening.",
+            "duration": "Weken 7–9",
             "icon": "Building",
             "image": {
               "$img": "process.banking"
@@ -27399,6 +27418,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "description": "U ontvangt de definitieve documenten en we sluiten het programma af.",
+            "duration": "Weken 10–12",
             "icon": "CheckCircle",
             "image": {
               "$img": "process.completion"
@@ -27407,7 +27427,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Oplevering en nazorg"
           }
         ],
-        "title": "Een helder proces, stap voor stap",
+        "title": "Uw 5 stappen met Nexa",
         "totalDuration": "Verwachte totale doorlooptijd: 8–12 weken."
       },
       "seo": {

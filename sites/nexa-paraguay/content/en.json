@@ -551,7 +551,7 @@
     },
     "process": {
       "eyebrow": "How it works",
-      "title": "A clear process, step by step",
+      "title": "Your 5 steps with Nexa",
       "totalDuration": "Typical total: 8–12 weeks.",
       "ctaLabel": "Start my process",
       "ctaHref": "/s/en/nexa-paraguay/contacto",
@@ -563,7 +563,8 @@
           "icon": "MessageCircle",
           "image": {
             "$img": "process.consultation"
-          }
+          },
+          "duration": "Week 1"
         },
         {
           "number": 2,
@@ -572,7 +573,8 @@
           "icon": "FileCheck",
           "image": {
             "$img": "process.documents"
-          }
+          },
+          "duration": "Weeks 2–5"
         },
         {
           "number": 3,
@@ -581,7 +583,8 @@
           "icon": "MapPin",
           "image": {
             "$img": "process.arrival"
-          }
+          },
+          "duration": "Week 6"
         },
         {
           "number": 4,
@@ -590,7 +593,8 @@
           "icon": "Building",
           "image": {
             "$img": "process.banking"
-          }
+          },
+          "duration": "Weeks 7–9"
         },
         {
           "number": 5,
@@ -599,7 +603,8 @@
           "icon": "CheckCircle",
           "image": {
             "$img": "process.completion"
-          }
+          },
+          "duration": "Weeks 10–12"
         }
       ]
     },
