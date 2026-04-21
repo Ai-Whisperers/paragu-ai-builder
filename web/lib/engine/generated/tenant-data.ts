@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=147, content=137, blog=20, verticals=23. */
+/** Counts: sites=117, pages=147, content=137, blog=25, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -19793,6 +19793,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "booking": {
         "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
         "ctaLabel": "Kalender öffnen",
+        "fallbackEmail": "hola@nexaparaguay.com",
+        "fallbackWhatsapp": "595982515138",
         "provider": "calendly",
         "subtitle": "Wählen Sie einen passenden Termin.",
         "title": "Gespräch buchen"
@@ -19916,6 +19918,22 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/privacidad",
           "label": "Datenschutz"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/faq",
+          "label": "FAQ"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/contacto",
+          "label": "Kontakt"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/por-que-paraguay",
+          "label": "Warum Paraguay"
         }
       ],
       "whatsapp": "595982515138"
@@ -20011,7 +20029,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung."
+            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
           },
           {
             "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
@@ -20027,11 +20045,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung."
+            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
           },
           {
             "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Sondierungsgespräch",
+            "ctaLabel": "Anfragen",
             "description": "Eigene Dienstleistung von Nexa.",
             "id": "tierras",
             "included": [
@@ -20342,7 +20360,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung."
+            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
           },
           {
             "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
@@ -20358,11 +20376,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung."
+            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
           },
           {
             "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Sondierungsgespräch",
+            "ctaLabel": "Anfragen",
             "description": "Eigene Dienstleistung von Nexa.",
             "id": "tierras",
             "included": [
@@ -20416,7 +20434,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung."
+            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
           },
           {
             "ctaHref": "/s/de/nexa-paraguay/contacto?programa=investor",
@@ -20432,11 +20450,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung."
+            "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen."
           },
           {
             "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Sondierungsgespräch",
+            "ctaLabel": "Anfragen",
             "description": "Eigene Dienstleistung von Nexa.",
             "id": "tierras",
             "included": [
@@ -20767,6 +20785,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "booking": {
         "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
         "ctaLabel": "Open calendar",
+        "fallbackEmail": "hola@nexaparaguay.com",
+        "fallbackWhatsapp": "595982515138",
         "provider": "calendly",
         "subtitle": "Pick a time that works for you.",
         "title": "Book your consultation"
@@ -20890,6 +20910,22 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/privacidad",
           "label": "Privacy"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/faq",
+          "label": "FAQ"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/contacto",
+          "label": "Contact"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/por-que-paraguay",
+          "label": "Why Paraguay"
         }
       ],
       "whatsapp": "595982515138"
@@ -20985,7 +21021,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4,400+",
-            "priceNote": "LEALTIS base cost. Final Nexa price TBD."
+            "priceNote": "Starting price. Final quote depends on case requirements."
           },
           {
             "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor",
@@ -21001,11 +21037,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6,900+",
-            "priceNote": "LEALTIS base cost. Final Nexa price TBD."
+            "priceNote": "Starting price. Final quote depends on case requirements."
           },
           {
             "ctaHref": "/s/en/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Exploratory call",
+            "ctaLabel": "Inquire",
             "description": "Nexa's own service. Full advisory.",
             "id": "tierras",
             "included": [
@@ -21356,7 +21392,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Base",
             "price": "To be defined",
-            "priceNote": "Wholesale cost pending from LEALTIS + Nexa margin"
+            "priceNote": "Starting price. Final quote depends on case requirements."
           },
           {
             "badge": "Most chosen",
@@ -21375,7 +21411,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4,400+",
-            "priceNote": "Base LEALTIS cost. Final Nexa price to be defined."
+            "priceNote": "Starting price. Final quote depends on case requirements."
           },
           {
             "ctaHref": "/s/en/nexa-paraguay/contacto?programa=investor",
@@ -21391,7 +21427,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6,900+",
-            "priceNote": "Base LEALTIS cost. Final Nexa price to be defined."
+            "priceNote": "Starting price. Final quote depends on case requirements."
           },
           {
             "ctaHref": "/s/en/nexa-paraguay/contacto?programa=land",
@@ -21710,6 +21746,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "booking": {
         "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
         "ctaLabel": "Abrir calendario",
+        "fallbackEmail": "hola@nexaparaguay.com",
+        "fallbackWhatsapp": "595982515138",
         "provider": "calendly",
         "subtitle": "Elija el horario que mejor le convenga.",
         "title": "Agende su consulta"
@@ -21834,6 +21872,22 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/privacidad",
           "label": "Privacidad"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/faq",
+          "label": "FAQ"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/contacto",
+          "label": "Contacto"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/por-que-paraguay",
+          "label": "Por qué Paraguay"
         }
       ],
       "whatsapp": "595982515138"
@@ -21929,7 +21983,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir."
+            "priceNote": "Precio desde. Cotización final según requisitos del caso."
           },
           {
             "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
@@ -21945,11 +21999,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir."
+            "priceNote": "Precio desde. Cotización final según requisitos del caso."
           },
           {
             "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Conversación exploratoria",
+            "ctaLabel": "Consultar",
             "description": "Servicio propio de Nexa. Asesoría integral.",
             "id": "tierras",
             "included": [
@@ -22288,12 +22342,12 @@ export const CONTENT: Record<string, JsonRecord> = {
             ]
           },
           {
-            "feature": "Costo LEALTIS (USD)",
+            "feature": "Precio desde (USD)",
             "values": [
-              "Pendiente",
+              "A definir",
               "4.400",
               "6.900",
-              "No aplica"
+              "3.500"
             ]
           }
         ],
@@ -22367,7 +22421,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir."
+            "priceNote": "Precio desde. Cotización final según requisitos del caso."
           },
           {
             "ctaHref": "/s/es/nexa-paraguay/contacto?programa=investor",
@@ -22383,11 +22437,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir."
+            "priceNote": "Precio desde. Cotización final según requisitos del caso."
           },
           {
             "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Conversación exploratoria",
+            "ctaLabel": "Consultar",
             "description": "Servicio propio de Nexa. Asesoría integral.",
             "id": "tierras",
             "included": [
@@ -22718,6 +22772,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "booking": {
         "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
         "ctaLabel": "Open agenda",
+        "fallbackEmail": "hola@nexaparaguay.com",
+        "fallbackWhatsapp": "595982515138",
         "provider": "calendly",
         "subtitle": "Kies een moment dat u schikt.",
         "title": "Plan uw consult"
@@ -22841,6 +22897,22 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/privacidad",
           "label": "Privacy"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/faq",
+          "label": "FAQ"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/contacto",
+          "label": "Contact"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/por-que-paraguay",
+          "label": "Waarom Paraguay"
         }
       ],
       "whatsapp": "595982515138"
@@ -22936,7 +23008,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen."
+            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
           },
           {
             "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=investor",
@@ -22952,11 +23024,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen."
+            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
           },
           {
             "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Verkennend gesprek",
+            "ctaLabel": "Informeer",
             "description": "Eigen dienst van Nexa. Integraal advies.",
             "id": "tierras",
             "included": [
@@ -23267,7 +23339,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen."
+            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
           },
           {
             "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=investor",
@@ -23283,11 +23355,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen."
+            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
           },
           {
             "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Verkennend gesprek",
+            "ctaLabel": "Informeer",
             "description": "Eigen dienst van Nexa. Integraal advies.",
             "id": "tierras",
             "included": [
@@ -23341,7 +23413,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Business",
             "price": "USD 4.400+",
-            "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen."
+            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
           },
           {
             "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=investor",
@@ -23357,11 +23429,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             ],
             "name": "Paraguay Investor Program",
             "price": "USD 6.900+",
-            "priceNote": "LEALTIS-basisprijs. Definitieve Nexa-prijs nog te bepalen."
+            "priceNote": "Vanaf-prijs. Definitieve offerte afhankelijk van de vereisten."
           },
           {
             "ctaHref": "/s/nl/nexa-paraguay/contacto?programa=tierras",
-            "ctaLabel": "Verkennend gesprek",
+            "ctaLabel": "Informeer",
             "description": "Eigen dienst van Nexa. Integraal advies.",
             "id": "tierras",
             "included": [
@@ -25659,11 +25731,16 @@ export const BLOG_POSTS: Record<string, string> = {
   "fun4me:es:primera-vez-bdsm-consenso": "---\nid: primera-vez-bdsm-consenso\nslug: primera-vez-bdsm-guia-consenso\ntitle: \"Primera vez con BDSM: guía de consenso y seguridad\"\ncategory: guias-avanzadas\npublishedAt: 2026-05-10\nauthor: Equipo Fun4Me\nreadingMinutes: 10\n---\n\n# Primera vez con BDSM: guía de consenso y seguridad\n\nBDSM sano no empieza con cadenas, empieza con una **conversación**. Si saltás este paso, no es BDSM — es otra cosa. Esta guía te lleva paso a paso.\n\n## 1. Tres siglas que deberías conocer\n\n- **SSC** — Seguro, Sensato, Consensuado (Safe, Sane, Consensual). El estándar clásico.\n- **RACK** — Risk-Aware Consensual Kink. Más honesto: todo riesgo existe; lo que importa es que ambos lo conocen y aceptan.\n- **PRICK** — Personal Responsibility, Informed Consensual Kink. Variante que enfatiza responsabilidad individual.\n\nSi alguien propone una dinámica y no puede citar al menos una de estas filosofías, no está listo.\n\n## 2. Conversación pre-juego (obligatoria)\n\nSentate con tu pareja con tiempo, sin prisa, sin alcohol. Tocá estos puntos:\n\n**Límites duros** (lo que NO se hace bajo ningún concepto):\n- Zonas del cuerpo off-limits\n- Actos específicos (asfixia, humillación verbal, golpes en cara, etc.)\n- Triggers personales\n\n**Límites blandos** (abiertos a explorar, pero con cautela):\n- Cosas sobre las que tenés curiosidad pero nunca probaste\n- Cosas que podrías probar pero no hoy\n\n**Deseos explícitos**:\n- Qué querés que pase\n- Qué intensidad buscás\n- Roles (dominante / sumiso / switch)\n\n## 3. Palabras de seguridad\n\nDurante el juego, necesitás una forma inmediata de detener todo. Protocolo estándar:\n\n- **Verde** = todo bien, seguí.\n- **Amarillo** = bajá la intensidad o pausá.\n- **Rojo** = FRENÁ YA. Todo se detiene.\n\nSi estás con mordaza y no podés hablar, acordá señales con la mano (soltar un objeto, dos dedos arriba, etc.).\n\n## 4. Checklist de consenso (antes de cada sesión)\n\n- [ ] Ambas personas tienen palabra de seguridad clara.\n- [ ] Acordamos qué va a pasar (sin sorpresas).\n- [ ] Sobrio (alcohol OK ligero, drogas NO).\n- [ ] Nada de infidelidad / mentiras de contexto.\n- [ ] Puerta no bloqueada (safety physical).\n- [ ] Elementos de rescate a mano (tijera para cortar cuerdas, llave de esposas).\n- [ ] Plan para \"aftercare\" (abrazo, agua, conversación post-escena).\n\n## 5. Equipamiento para empezar (mínimo viable)\n\n- **Esposas de velcro** (no de metal para la primera vez) — Gs. 85.000\n- **Antifaz de satén** — Gs. 25.000\n- **Pluma para sensorial** — Gs. 35.000\n- **Paleta suave de neopreno** (no cuero duro) — Gs. 95.000\n- **Lubricante base agua** — Gs. 45.000\n- **Tijera de seguridad** (para cortar cuerdas en emergencia) — Gs. 20.000\n\n**Total kit iniciación: Gs. 305.000.** Tenemos el kit armado a Gs. 199.000 ([Kit BDSM Iniciación](/fun4me/bundles/bdsm-iniciacion)).\n\n## 6. Evitá estos errores clásicos\n\n1. **Empezar con asfixia** — es la práctica más peligrosa de BDSM. NUNCA sin formación específica.\n2. **Usar cuerdas apretadas en cuello** — mismo riesgo.\n3. **Golpes en zonas vitales** (riñones, cabeza, cuello, columna).\n4. **Jugar intoxicado** — consentimiento comprometido = no es BDSM.\n5. **Saltar el aftercare** — causa caídas emocionales.\n6. **Ignorar la palabra de seguridad** — esto NO es BDSM, es abuso.\n\n## 7. Aftercare: lo más importante después de la escena\n\nEl BDSM altera químicamente el cuerpo (adrenalina, endorfinas). Después:\n- Agua y algo dulce.\n- Abrazo / contacto físico no sexual.\n- Conversación (qué te gustó, qué no, cómo estás).\n- Espacio para emocionarse / llorar si surge.\n- Sin juicios.\n\nSin aftercare, puede haber \"drop\" emocional 24-48hs después (tristeza, irritabilidad sin razón aparente). Es normal. Con aftercare, se reduce mucho.\n\n## 8. Señales para parar (aunque no digan \"rojo\")\n\n- Llanto inesperado\n- Voz quebrada\n- Movimientos para alejarse\n- \"Disociación\" (mirada perdida)\n- Cambios bruscos de respiración\n- Piel muy fría o muy caliente\n\nCuando tengas dudas, **parás**. No perdés nada por pausar.\n\n## 9. Recursos adicionales\n\n- **Consenso explícito** — libro de Janet W. Hardy\n- **The New Topping Book** / **The New Bottoming Book** — guías clásicas\n- **Fetlife** — red social BDSM (con sus pros y contras, usá precauciones)\n\n## 10. Vení con preguntas\n\nBDSM es un mundo grande. Si querés asesoría personalizada, podés consultarnos por WhatsApp. Tenemos personal capacitado para orientarte sin juzgar.\n\nEl objetivo: placer, exploración, confianza. Nunca el dolor gratuito ni el daño.\n",
   "fun4me:es:privacidad-compras-online": "---\nid: privacidad-compras-online\nslug: privacidad-comprando-productos-adultos-paraguay\ntitle: Privacidad al comprar productos para adultos en Paraguay\ncategory: privacidad-discrecion\npublishedAt: 2026-06-15\nauthor: Equipo Fun4Me\nreadingMinutes: 5\n---\n\n# Privacidad al comprar productos para adultos en Paraguay\n\nLa privacidad no es un extra — es el corazón de nuestro servicio. Esto es exactamente lo que hacemos en cada etapa.\n\n## 1. Navegación anónima\n\n- Nuestra web **no comparte datos** con Facebook/Meta, Google Analytics va con IP truncada.\n- El historial de navegación no se asocia a tu identidad a menos que crees cuenta.\n- Si creás cuenta, podés usar un **pseudónimo** como nombre público.\n\n## 2. Carrito persistente sin registrarte\n\nPodés armar el carrito, pensarlo unos días, y volver. No necesitás cuenta para comprar.\n\n## 3. Métodos de pago: elegí según tu nivel de discreción\n\n| Método | ¿Aparece en extracto con nombre identificable? | Tiempo |\n|---|---|---|\n| **Transferencia bancaria** | Aparece \"F4M COMERCIAL\" | Inmediato |\n| **Tigo Money** | Aparece como \"Pagopar\" | Inmediato |\n| **Personal Pay** | Aparece como \"Pagopar\" | Inmediato |\n| **Tarjeta (Visa/MC)** | \"PAGOPAR - F4M COMERCIAL\" | Inmediato |\n| **Efectivo contra entrega** | No aparece en ningún lado | Al recibir |\n\nLa facturación (timbrado SET) figura como \"F4M Comercial\" — sin mención a tipo de productos.\n\n## 4. Empaque 100% discreto\n\nCada pedido va en caja o sobre sin marca:\n- Sin logos.\n- Sin nombre de la tienda.\n- Sin indicación del contenido.\n- Remitente genérico: \"F4M Comercial\" o dirección sin nombre.\n\nNingún vecino, cartero ni curioso puede adivinar qué contiene.\n\n## 5. Delivery: tres opciones discretas\n\n- **A domicilio**: llega como cualquier paquete de e-commerce.\n- **A trabajo**: si preferís recibirlo en oficina, lo acordamos (sin problema).\n- **Retiro en tienda**: pagás online, vas a Herrera 875, das el código, te vas. Cero interacción pública.\n\n## 6. Datos de tarjeta\n\nNosotros **nunca vemos** el número completo de tu tarjeta. Pagopar procesa y guarda solo los últimos 4 dígitos. Cumplimos estándar PCI-DSS.\n\n## 7. Datos personales\n\n- **Nunca** vendemos ni compartimos tu información con terceros.\n- **No enviamos** correspondencia física a tu domicilio (promos, catálogos) sin tu consentimiento explícito.\n- Tu email solo recibe confirmaciones de pedido — a menos que te suscribas al newsletter voluntariamente.\n\n## 8. Email: asunto genérico\n\nLos emails que te mandamos usan asuntos neutros:\n- \"Confirmación de pedido #12345\"\n- \"Tu pedido está en camino\"\n- \"Listo para retirar\"\n\nNada explícito en el asunto. Solo al abrir ves el detalle.\n\n## 9. Si compartís dispositivo o email\n\n- **Cuenta dedicada**: recomendamos crear email separado (gmail, protonmail) solo para compras discretas.\n- **Navegación privada**: Ctrl+Shift+N en Chrome/Firefox evita que quede historial.\n- **WhatsApp**: si usás WhatsApp familiar, mejor llamanos vía Signal o email desde cuenta separada.\n\n## 10. Tu derecho a ser olvidado\n\nPodés pedir que borremos tu cuenta y todos tus datos en cualquier momento. Te confirmamos el borrado por email en 72hs (conservamos solo lo que exige la ley para facturación: datos mínimos del pedido por 5 años).\n\n## Nuestro compromiso\n\nSi alguna vez fallamos en la discreción prometida, podés pedir el reembolso total del pedido sin preguntas. Es nuestro compromiso.\n\n¿Dudas sobre privacidad? Escribinos. Estamos acá para escucharte.\n",
   "nexa-paraguay:es:abrir-cuenta-bancaria-paraguay": "---\ntitle: \"La verdad sobre abrir una cuenta bancaria en Paraguay\"\nslug: \"abrir-cuenta-bancaria-paraguay\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Banking\"\nexcerpt: \"Por qué es el paso más difícil y cómo se resuelve profesionalmente.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nPor qué es el paso más difícil y cómo se resuelve profesionalmente.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
+  "nexa-paraguay:es:apertura-cuenta-bancaria-paraguay": "---\ntitle: \"Apertura de Cuenta Bancaria en Paraguay para Extranjeros\"\ndate: 2024-03-20\nauthor: \"Nexa Paraguay\"\ncategory: \"Banca\"\nexcerpt: \"Guía práctica para abrir cuentas bancarias personales y empresariales en Paraguay. Requisitos, bancos recomendados y consejos prácticos.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/banca.jpg\"\n---\n\n# Apertura de Cuenta Bancaria en Paraguay para Extranjeros\n\nEl sistema bancario paraguayo ha evolucionado significativamente en los últimos años, ofreciendo servicios modernos y competitivos para residentes y no residentes. Abrir una cuenta bancaria es un paso esencial para establecerse en el país.\n\n## Tipos de Cuentas Disponibles\n\n### Cuentas en Guaraníes (PYG)\n- Moneda local\n- Menores costos de transacción nacional\n- Ideal para operaciones locales\n\n### Cuentas en Dólares (USD)\n- Protección contra inflación\n- Ideal para ahorro e inversión\n- Recomendada para extranjeros\n\n### Cuentas en Reales (BRL)\n- Útil para comercio con Brasil\n- Menor costo de cambio\n\n## Bancos Principales en Paraguay\n\n### Banco Continental\n- Mayor banco privado del país\n- Excelente plataforma digital\n- Buena atención a empresas\n\n### Banco Itaú Paraguay\n- Parte del grupo brasileño\n- Fuerte en comercio internacional\n- Buena red de sucursales\n\n### Banco Basa\n- Tradicional y conservador\n- Excelente para grandes empresas\n- Servicios de private banking\n\n### Banco Atlas\n- Enfocado en pymes\n- Innovador en productos digitales\n- Buena opción para startups\n\n### Banco Sudameris\n- Creciente presencia internacional\n- Fuerte en comercio exterior\n\n## Requisitos para Abrir Cuenta\n\n### Cuenta Personal (con Residencia)\n1. Cédula de identidad paraguaya\n2. RUC (Registro Único de Contribuyente)\n3. Comprobante de domicilio\n4. Referencias comerciales o laborales\n5. Carta de trabajo o declaración de renta\n\n### Cuenta Empresarial\n1. Escritura de constitución de sociedad\n2. RUC de la empresa\n3. Cédulas de socios/directores\n4. Acta de asamblea autorizando apertura\n5. Contrato social vigente\n6. Estados financieros (empresas existentes)\n\n### Cuenta para No Residentes\n- Pasaporte vigente\n- Referencias bancarias internacionales\n- Comprobante de origen de fondos\n- Entrevista personal obligatoria\n- Depósito inicial más alto\n\n## Proceso de Apertura\n\n### Paso 1: Elegir el Banco\nConsidera:\n- Tarifas de mantenimiento\n- Costos de transferencias internacionales\n- Calidad de banca digital\n- Proximidad de sucursales\n\n### Paso 2: Reunir Documentación\nRevisa los requisitos específicos del banco elegido.\n\n### Paso 3: Entrevista Bancaria\n- Evaluación de perfil de riesgo\n- Conocimiento del cliente (KYC)\n- Verificación de documentos\n\n### Paso 4: Firma de Contratos\n- Contrato de cuenta\n- Reglamento de operaciones\n- Términos de servicios digitales\n\n### Paso 5: Depósito Inicial y Activación\n- Depósito inicial (varía según tipo de cuenta)\n- Recibo de tarjeta de débito\n- Activación de banca en línea\n\n## Tiempos de Apertura\n\n| Tipo de Cuenta | Tiempo Estimado |\n|----------------|------------------|\n| Personal (residente) | 24-72 horas |\n| Empresarial | 3-7 días hábiles |\n| No residente | 1-2 semanas |\n| Cuenta VIP/Empresarial | 1-2 días |\n\n## Costos Típicos\n\n| Concepto | Costo Aproximado |\n|----------|-------------------|\n| Apertura de cuenta | Gratis - USD 50 |\n| Mantenimiento mensual | USD 3 - 15 |\n| Transferencias nacionales | USD 1 - 5 |\n| Transferencias internacionales | USD 25 - 75 |\n| Tarjeta de débito | USD 5 - 15/año |\n| Tarjeta de crédito | USD 20 - 100/año |\n\n## Consideraciones para Extranjeros\n\n### Ventajas\n- Banca estable y regulada\n- Depósitos asegurados (hasta cierto monto)\n- Posibilidad de cuentas en dólares\n- Transferencias SWIFT disponibles\n\n### Desafíos\n- Proceso más complejo sin residencia\n- Requiere presencia personal\n- Límites en montos según perfil\n\n## Recomendación Nexa Paraguay\n\nPara una apertura exitosa:\n\n1. **Obtén tu residencia primero**: Facilita enormemente el proceso\n2. **Prepara documentación completa**: Evita retrasos\n3. **Evalúa múltiples bancos**: Compara servicios y costos\n4. **Considera cuentas en dólares**: Mejor para extranjeros\n5. **Activa todos los servicios digitales**: Banca online, app móvil\n\n## Nuestro Servicio de Acompañamiento\n\nIncluimos en nuestros programas:\n- Preparación de documentación\n- Agendamiento de entrevistas bancarias\n- Acompañamiento en firma de documentos\n- Coordinación con oficiales de cuenta\n- Activación de servicios digitales\n\n---\n\n*¿Necesitas ayuda con la apertura de tu cuenta bancaria? Es parte de nuestro servicio integral.*\n",
   "nexa-paraguay:es:checklist-documentos-establecerse": "---\ntitle: \"Documentos necesarios para establecerse en Paraguay: checklist completo\"\nslug: \"checklist-documentos-establecerse\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Process\"\nexcerpt: \"Apostillas, traducciones, certificados — qué traer, qué hacer allá.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nApostillas, traducciones, certificados — qué traer, qué hacer allá.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
+  "nexa-paraguay:es:comparativa-fiscal-paraguay-vs-uruguay": "---\ntitle: \"Comparativa Fiscal 2024: Paraguay vs Uruguay para Empresas\"\ndate: 2024-04-08\nauthor: \"Nexa Paraguay\"\ncategory: \"Fiscalidad\"\nexcerpt: \"Análisis detallado de las diferencias fiscales entre Paraguay y Uruguay para empresas e inversores. Descubre cuál es la mejor opción para tu negocio.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/comparativa-fiscal.jpg\"\n---\n\n# Comparativa Fiscal 2024: Paraguay vs Uruguay para Empresas\n\nLa elección del país para establecer una empresa es una decisión crucial que impacta directamente en la rentabilidad y crecimiento del negocio. Dos de los destinos más atractivos de Sudamérica son Paraguay y Uruguay, cada uno con sus propias ventajas fiscales.\n\n## Resumen Comparativo Rápido\n\n| Aspecto | Paraguay | Uruguay |\n|---------|----------|---------|\n| IRP (Impuesto a la Renta Empresaria) | 10% | 25% |\n| IVA | 10% | 22% |\n| Patrimonio | 0% | 0.7% - 1.5% |\n| Dividendos | 0% (si reinvertidos) | 7% - 12% |\n| Maquila (Zona Franca) | Exención total | Beneficios parciales|\n\n## Paraguay: El Paraíso Fiscal Legal de Sudamérica\n\n### Ventajas Fiscales Paraguay\n\n1. **IRP del 10%**: Una de las tasas más bajas del continente\n2. **IVA del 10%**: Menor carga impositiva al consumo\n3. **Zona Franca Paraguay**: Exención total para empresas exportadoras\n4. **No cobro de impuesto al patrimonio**: Tus activos no generan carga fiscal\n5. **Exención de dividendos**: Si reinviertes utilidades, no pagas impuestos adicionales\n\n### Caso de Éxito Paraguay\n\nUna empresa de software que factura USD 1 millón anual:\n- Impuesto a la renta: USD 100,000\n- Dividendos reinvertidos: USD 0\n- IVA (si aplica): 10% sobre consumo\n\n## Uruguay: Estabilidad con Mayor Carga Fiscal\n\n### Ventajas Fiscales Uruguay\n\n1. **Estabilidad jurídica**: Sistema legal robusto y predecible\n2. **Residencia fiscal fácil**: Requisitos claros y accesibles\n3. **Zona Franca Uruguay**: Beneficios para operaciones offshore\n4. **Convenios de doble tributación**: Más extensos que Paraguay\n\n### Caso de Éxito Uruguay\n\nMisma empresa de software (USD 1 millón):\n- Impuesto a la renta: USD 250,000\n- Dividendos: USD 70,000 - 120,000 adicionales\n- IVA: 22% sobre consumo\n\n## Análisis por Tipo de Negocio\n\n### Empresas de Tecnología y Servicios\n**Ganador: Paraguay**\n\nLa combinación de IRP del 10% y exención de dividendos hace que Paraguay sea ideal para startups y empresas tech.\n\n### Trading y E-commerce\n**Ganador: Paraguay (Zona Franca)**\n\nLa Zona Franca paraguaya ofrece beneficios superiores para empresas de comercio internacional.\n\n### Consultoría Profesional\n**Ganador: Paraguay**\n\nMenor carga fiscal y facilidades para facturación internacional.\n\n## Consideraciones No Fiscales\n\n### Paraguay\n- ✅ Menor costo de vida\n- ✅ Mercado laboral en crecimiento\n- ✅ Ubicación estratégica (centro de Sudamérica)\n- ⚠️ Menor desarrollo financiero que Uruguay\n\n### Uruguay\n- ✅ Sistema bancario más desarrollado\n- ✅ Mayor aceptación internacional\n- ✅ Educación y salud de alta calidad\n- ⚠️ Costo de vida 40-60% mayor que Paraguay\n\n## Conclusión\n\nPara la mayoría de empresas, **Paraguay ofrece ventajas fiscales significativas** que pueden representar ahorros de 50-70% comparado con Uruguay. Sin embargo, la elección debe considerar también factores como:\n\n- Mercado objetivo\n- Proveedores y cadena de valor\n- Necesidades de talento humano\n- Proyección de crecimiento\n\n## Recomendación de Nexa Paraguay\n\nSi tu prioridad es **optimización fiscal y costos operativos**, Paraguay es la opción clara.\n\nSi necesitas **máxima estabilidad jurídica y reconocimiento internacional inmediato**, considera Uruguay.\n\n---\n\n*¿Necesitas ayuda para decidir? Agenda una consulta estratégica gratuita con nuestros asesores.*\n",
+  "nexa-paraguay:es:comprar-propiedades-paraguay-extranjeros": "---\ntitle: \"Guía para Extranjeros: Cómo Comprar Propiedades en Paraguay\"\ndate: 2024-03-28\nauthor: \"Nexa Paraguay\"\ncategory: \"Inversión Inmobiliaria\"\nexcerpt: \"Todo el proceso legal y práctico para adquirir inmuebles en Paraguay siendo extranjero. Desde la búsqueda hasta la escrituración.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/propiedades.jpg\"\n---\n\n# Guía para Extranjeros: Cómo Comprar Propiedades en Paraguay\n\nEl mercado inmobiliario paraguayo se ha posicionado como uno de los más atractivos de Sudamérica para inversores extranjeros. Con precios competitivos, alta rentabilidad y un marco legal favorable, comprar propiedades en Paraguay es más simple de lo que imaginas.\n\n## ¿Pueden los Extranjeros Comprar Propiedad en Paraguay?\n\n**Sí, absolutamente.** La Constitución paraguaya garantiza a extranjeros los mismos derechos de propiedad que a nacionales, con una sola excepción: la propiedad rural en zonas de frontera (50km), que requiere autorización especial.\n\n## Requisitos para Comprar\n\n### Si ya tienes Residencia Paraguaya\n- Cédula de identidad vigente\n- RUC (Registro Único de Contribuyente)\n- Solvencia fiscal\n\n### Si no tienes Residencia\n- Pasaporte vigente\n- Representante legal local (recomendado)\n- Poder notarial (si compras a distancia)\n\n## El Proceso de Compra\n\n### Paso 1: Búsqueda y Due Diligence\n- Identificación de propiedades según objetivo (inversión, vivienda, comercial)\n- Verificación de títulos de propiedad\n- Confirmación de no existencia de gravámenes\n- Revisión de impuestos municipales al día\n\n### Paso 2: Negociación y Reserva\n- Negociación de precio y condiciones\n- Firma de pre-contrato o reserva\n- Depósito de garantía (típicamente 10%)\n\n### Paso 3: Escrituración\n- Firma de escritura pública ante escribano\n- Transferencia de fondos\n- Registro de la propiedad\n\n### Paso 4: Posescrituración\n- Registro en Dirección General de Registros Públicos\n- Cambio de titularidad en servicios\n- Obtención de plano aprobado (si aplica)\n\n## Costos Asociados\n\n| Concepto | Porcentaje | Notas |\n|----------|------------|-------|\n| Impuesto Inmobiliario | 0.5% - 1% anual | Sobre valor fiscal |\n| Impuesto a la Renta (venta) | 10% | Solo sobre ganancia de capital |\n| Impuesto de Sellos | 0.5% - 2% | En escrituración |\n| Honorarios Escribano | 1% - 1.5% | Negociable |\n| Registro de Propiedad | 0.5% - 1% | Sobre valor de escritura |\n| Comisión Corretaje | 3% - 5% | Típicamente paga vendedor |\n\n## Zonas Más Atractivas para Inversión\n\n### Asunción y Gran Asunción\n- **Villa Morra**: Barrio premium, alta valorización\n- **Las Carmelitas**: Seguridad y exclusividad\n- **Mburucuyá**: Zona residencial en crecimiento\n- **San Lorenzo**: Precios accesibles con buena rentabilidad\n\n### Zonas Turísticas\n- **San Bernardino**: Lago Ypacaraí, alta demanda turística\n- **Areguá**: Capital del artesanato, creciente interés\n- **Ciudad del Este**: Centro comercial binacional\n\n### Agro\n- **Alto Paraná**: Tierra productiva para soja\n- **San Pedro**: Precios competitivos, alto rendimiento\n- **Caaguazú**: Creciente demanda agropecuaria\n\n## Rentabilidad Esperada\n\n### Inversión Residencial (Alquiler)\n- **Retorno anual**: 6% - 10% en dólares\n- **Plusvalía**: 8% - 12% anual en zonas premium\n- **Payback**: 10-15 años\n\n### Inversión Comercial\n- **Retorno anual**: 8% - 15%\n- **Más alto riesgo, más alta rentabilidad**\n\n### Inversión Agropecuaria\n- **Retorno anual**: 10% - 20%\n- **Requiere conocimiento técnico**\n\n## Errores Comunes a Evitar\n\n### 1. No Verificar Títulos\nSiempre contrata un abogado para hacer due diligence completa.\n\n### 2. Ignorar Impuestos Municipales\nVerifica que no haya deudas acumuladas que puedan afectar la compra.\n\n### 3. Comprar sin Ver el Inmueble\nSi no puedes viajar, contrata un representante de confianza.\n\n### 4. No Considerar Costos de Mantenimiento\nLos costos de mantenimiento pueden representar 1-3% del valor anual.\n\n## Servicios de Nexa Paraguay\n\nOfrecemos acompañamiento integral en la compra de propiedades:\n\n1. **Búsqueda estratégica** según tu perfil de inversión\n2. **Due diligence legal completa**\n3. **Negociación** con vendedores y corredores\n4. **Acompañamiento en escrituración**\n5. **Gestión post-compra** (servicios, alquileres, etc.)\n\n---\n\n*¿Interesado en invertir en propiedades paraguayas? Agenda una consulta con nuestro equipo inmobiliario.*\n",
   "nexa-paraguay:es:constituir-empresa-paraguay": "---\ntitle: \"Constituir una empresa en Paraguay: tipos societarios y pasos\"\nslug: \"constituir-empresa-paraguay\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Company\"\nexcerpt: \"EAS vs. SA. Cuándo usar qué, y qué documenta realmente cada estructura.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nEAS vs. SA. Cuándo usar qué, y qué documenta realmente cada estructura.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
   "nexa-paraguay:es:costo-de-vida-paraguay-europeos": "---\ntitle: \"Costo de vida en Paraguay: guía realista para europeos\"\nslug: \"costo-de-vida-paraguay-europeos\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Life\"\nexcerpt: \"Números concretos: vivienda, salud, educación, servicios — desde la perspectiva europea.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nNúmeros concretos: vivienda, salud, educación, servicios — desde la perspectiva europea.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
+  "nexa-paraguay:es:emprender-paraguay-oportunidades-2024": "---\ntitle: \"Emprender en Paraguay: Oportunidades de Negocio 2024\"\ndate: 2024-03-10\nauthor: \"Nexa Paraguay\"\ncategory: \"Emprendimiento\"\nexcerpt: \"Descubre las sectores más prometedores para emprender en Paraguay. Análisis de mercado, oportunidades y casos de éxito.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/emprender.jpg\"\n---\n\n# Emprender en Paraguay: Oportunidades de Negocio 2024\n\nParaguay se ha convertido en un destino emergente para emprendedores de toda Latinoamérica. Con un ambiente de negocios favorable, costos competitivos y una economía en crecimiento, las oportunidades son abundantes para quienes saben dónde buscar.\n\n## Por Qué Emprender en Paraguay\n\n### Ventajas del Ecosistema Paraguayo\n\n1. **Régimen Fiscal Competitivo**\n   - 10% de impuesto a la renta empresarial\n   - 10% de IVA\n   - Exenciones para zonas francas\n\n2. **Costos Operativos Bajos**\n   - 40-60% más barato que Buenos Aires o Montevideo\n   - Mano de obra calificada a costos competitivos\n   - Alquileres accesibles\n\n3. **Ubicación Estratégica**\n   - Centro de Sudamérica\n   - Acceso a MERCOSUR (mercado de 300M personas)\n   - Cercanía a Brasil y Argentina\n\n4. **Estabilidad Macroeconómica**\n   - Crecimiento sostenido del PBI\n   - Inflación controlada\n   - Sistema cambiario estable\n\n## Sectores Más Prometedores\n\n### 1. Tecnología y Software\n**Oportunidad: ★★★★★**\n\nParaguay está viviendo un boom tecnológico:\n- Desarrollo de software para exportación\n- Fintech y servicios financieros digitales\n- E-commerce y logística\n- Agrotech\n\n**Caso de Éxito**: Una startup de software paraguaya fue adquirida por USD 10M en 2023.\n\n### 2. Agroindustria y Agrotech\n**Oportunidad: ★★★★★**\n\nParaguay es potencia agrícola:\n- 4to exportador mundial de soja\n- Producción de carne de calidad\n- Tecnificación del campo\n- Exportación de alimentos procesados\n\n**Oportunidades específicas**:\n- Sistemas de riego inteligente\n- Logística agrícola\n- Procesamiento de granos\n- Agricultura orgánica\n\n### 3. Energías Renovables\n**Oportunidad: ★★★★☆**\n\n100% de energía eléctrica es renovable (Itaipú + Yacyretá):\n- Venta de energía limpia\n- Instalación de paneles solares\n- Consultoría energética\n- Minería de Bitcoin (energía barata)\n\n### 4. Turismo y Hospitalidad\n**Oportunidad: ★★★★☆**\n\nTurismo en crecimiento acelerado:\n- Ecoturismo\n- Turismo de eventos\n- Hoteles boutique\n- Experiencias locales únicas\n\nDestinos emergentes:\n- Saltos del Monday\n- Lago Ypacaraí\n- Misiones Jesuíticas\n- Chaco paraguayo\n\n### 5. Sector Inmobiliario\n**Oportunidad: ★★★★☆**\n\nMercado inmobiliario dinámico:\n- Construcción residencial\n- Desarrollo de oficinas\n- Propiedades industriales\n- Coworking spaces\n\nRentabilidades atractivas:\n- 6-10% anual en alquileres\n- Plusvalía de 8-12% anual\n\n### 6. Servicios Profesionales B2B\n**Oportunidad: ★★★★☆**\n\nDemanda creciente de:\n- Consultoría de negocios\n- Marketing digital\n- Servicios legales especializados\n- Contabilidad internacional\n- Recursos humanos\n\n### 7. Salud y Bienestar\n**Oportunidad: ★★★☆☆**\n\nSector con alto potencial:\n- Medicina prepaga\n- Centros de bienestar\n- Nutrición deportiva\n- Turismo médico\n\n### 8. Educación y Capacitación\n**Oportunidad: ★★★☆☆**\n\nDemanda constante:\n- Institutos de inglés\n- Cursos técnicos\n- Capacitación corporativa\n- Edtech\n\n## Inversión Requerida por Sector\n\n| Sector | Inversión Mínima | ROI Esperado |\n|--------|-------------------|----------------|\n| Tecnología | USD 5,000 - 20,000 | 30-50% |\n| Agroindustria | USD 50,000 - 200,000 | 15-25% |\n| Turismo | USD 30,000 - 100,000 | 20-30% |\n| Inmobiliario | USD 100,000+ | 12-20% |\n| Servicios B2B | USD 2,000 - 10,000 | 40-60% |\n\n## Pasos para Emprender en Paraguay\n\n### 1. Investigación de Mercado\n- Análisis de competencia\n- Estudio de demanda\n- Identificación de nicho\n\n### 2. Constitución Legal\n- Elección de tipo de sociedad\n- Trámites de registro\n- Obtención de RUC\n\n### 3. Apertura de Cuenta Bancaria\n- Selección de banco\n- Gestión de documentación\n- Activación de servicios\n\n### 4. Cumplimiento Fiscal\n- Inscripción en SET\n- Configuración de facturación\n- Planificación fiscal\n\n### 5. Operaciones\n- Contratación de personal\n- Locación de oficinas/instalaciones\n- Marketing y lanzamiento\n\n## Apoyo Gubernamental\n\n### Incentivos Disponibles\n- **Zona Franca Paraguay**: Exención fiscal total\n- **Maquila**: Beneficios para exportadores\n- **Sistema de drawback**: Devolución de impuestos\n- **Inversiones en turismo**: Beneficios específicos\n\n### Instituciones de Apoyo\n- **REDIEX**: Promoción de exportaciones\n- **MIC**: Ministerio de Industria y Comercio\n- **Banco Central**: Regulación y estabilidad\n- **Cámara de Comercio**: Networking y apoyo\n\n## Casos de Éxito Recientes\n\n### Startup Tech (SaaS)\nInversión inicial: USD 15,000\nFacturación año 3: USD 500,000\nEmpleados: 25 personas\n\n### Exportadora Agropecuaria\nInversión inicial: USD 80,000\nExportación anual: USD 2M\nMercados: 8 países\n\n### Hotel Boutique\nInversión inicial: USD 120,000\nOcupación: 75% promedio anual\nROI: 22% anual\n\n## Recomendaciones de Nexa Paraguay\n\n1. **Comienza con residencia**: Facilita todos los trámites empresariales\n2. **Asesórate desde el inicio**: Un buen contador y abogado valen su peso en oro\n3. **Entiende la cultura**: Las relaciones personales son fundamentales\n4. **Sé paciente**: Los trámites pueden ser lentos, pero son seguros\n5. **Piensa en grande**: Paraguay es una plataforma para Sudamérica\n\n## Nuestros Servicios para Emprendedores\n\n- Asesoría en elección de sector\n- Constitución de sociedades\n- Planificación fiscal\n- Apertura de cuentas bancarias\n- Permisos y licencias\n- Contratación de personal\n- Networking y contactos\n\n---\n\n*¿Tienes una idea de negocio? Agenda una consulta estratégica gratuita.*\n",
   "nexa-paraguay:es:entorno-fiscal-paraguay-simple": "---\ntitle: \"Entorno fiscal de Paraguay: lo esencial explicado simple\"\nslug: \"entorno-fiscal-paraguay-simple\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Tax\"\nexcerpt: \"Sistema territorial, impuesto del 10%, IVA, retenciones — qué significa para usted.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nSistema territorial, impuesto del 10%, IVA, retenciones — qué significa para usted.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
   "nexa-paraguay:es:gestoria-vs-equipo-profesional": "---\ntitle: \"La diferencia entre una gestoría y un equipo profesional\"\nslug: \"gestoria-vs-equipo-profesional\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"About\"\nexcerpt: \"No es lo mismo un facilitador administrativo que un sistema integral con capital relacional.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nNo es lo mismo un facilitador administrativo que un sistema integral con capital relacional.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
+  "nexa-paraguay:es:guia-completa-residencia-paraguay-2024": "---\ntitle: \"Guía Completa: Cómo Obtener la Residencia en Paraguay en 2024\"\ndate: 2024-04-15\nauthor: \"Nexa Paraguay\"\ncategory: \"Inmigración\"\nexcerpt: \"Todo lo que necesitas saber sobre el proceso de radicación en Paraguay, requisitos, plazos y consejos prácticos para una transición exitosa.\"\ncoverImage: \"/sites/nexa-paraguay/images/blog/residencia-2024.jpg\"\n---\n\n# Guía Completa: Cómo Obtener la Residencia en Paraguay en 2024\n\nParaguay se ha convertido en uno de los destinos más atractivos para expatriados, emprendedores e inversores de toda Latinoamérica y el mundo. Su crecimiento económico sostenido, régimen fiscal favorable y calidad de vida hacen de este país una opción ideal para establecer una nueva base de operaciones.\n\n## Requisitos Principales\n\nPara obtener la residencia en Paraguay, necesitarás:\n\n1. **Pasaporte vigente** con al menos 6 meses de validez\n2. **Certificado de antecedentes penales** de tu país de origen\n3. **Certificado de nacimiento** apostillado\n4. **Comprobante de solvencia económica**\n5. **Certificado médico** expedido en Paraguay\n\n## El Proceso Paso a Paso\n\n### Paso 1: Preparación Documental\nEl primer paso es reunir todos los documentos necesarios. Es crucial que estos documentos estén correctamente apostillados según el Convenio de La Haya.\n\n### Paso 2: Ingreso a Paraguay\nDeberás ingresar al país como turista y comenzar el proceso de radicación. Durante esta etapa, te recomendamos asesoría legal especializada.\n\n### Paso 3: Presentación de Expediente\nCon todos los documentos en orden, se presenta el expediente ante la Dirección General de Migraciones.\n\n### Paso 4: Aprobación y Cédula\nUna vez aprobada la residencia, podrás tramitar tu cédula de identidad paraguaya.\n\n## Tiempos Estimados\n\n- Preparación documental: 2-4 semanas\n- Tramitación en Paraguay: 4-8 semanas\n- Obtención de cédula: 1-2 semanas\n\n**Tiempo total estimado: 8-12 semanas**\n\n## Beneficios de la Residencia Paraguaya\n\n1. **Acceso al MERCOSUR** y libre circulación en países miembros\n2. **Régimen fiscal favorable** con impuestos competitivos\n3. **Posibilidad de constitución de sociedades** con facilidades únicas\n4. **Apertura de cuentas bancarias** sin complicaciones\n5. **Compra de propiedades** con los mismos derechos que nacionales\n\n## Consejos de Nexa Paraguay\n\nBasándonos en nuestra experiencia con más de 250 clientes:\n\n- **Planifica con anticipación**: El proceso requiere tiempo y preparación\n- **Asesórate con expertos**: Un error documental puede retrasar meses el proceso\n- **Conoce la cultura local**: Paraguay tiene una cultura empresarial única basada en relaciones personales\n- **Evalúa opciones de inversión**: El mercado inmobiliario paraguayo ofrece excelentes oportunidades\n\n## Próximos Pasos\n\n¿Listo para comenzar tu proceso de radicación? Agenda una consulta gratuita con nuestro equipo y descubre qué programa de Nexa Paraguay se adapta mejor a tus necesidades.\n\n---\n\n*Este artículo es informativo. Las regulaciones migratorias pueden cambiar. Consulta siempre con profesionales actualizados.*\n",
   "nexa-paraguay:es:mercado-inmobiliario-paraguay": "---\ntitle: \"Mercado inmobiliario paraguayo: panorama actual\"\nslug: \"mercado-inmobiliario-paraguay\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Market\"\nexcerpt: \"Precios por barrio en Asunción, rendimientos y riesgos — sin bullish retórica.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nPrecios por barrio en Asunción, rendimientos y riesgos — sin bullish retórica.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
   "nexa-paraguay:es:por-que-europeos-miran-paraguay-2026": "---\ntitle: \"Por qué los europeos miran a Paraguay en 2026\"\nslug: \"por-que-europeos-miran-paraguay-2026\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Market\"\nexcerpt: \"Tasa del 10%, economía abierta, territorialidad — el marco completo para decidir.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nTasa del 10%, economía abierta, territorialidad — el marco completo para decidir.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",
   "nexa-paraguay:es:residencia-paraguaya-paso-a-paso": "---\ntitle: \"Cómo funciona la residencia paraguaya paso a paso\"\nslug: \"residencia-paraguaya-paso-a-paso\"\ndate: \"2026-04-17\"\nauthor: \"Nexa Paraguay\"\ncategory: \"Process\"\nexcerpt: \"Guía honesta: qué documentos, qué tiempos, qué atajos no existen.\"\nreadingMinutes: 7\ndraft: false\n---\n\n> **Nota:** Este artículo está listo para traducción profesional a NL/EN/DE antes del lanzamiento.\n\n## Introducción\n\nGuía honesta: qué documentos, qué tiempos, qué atajos no existen.\n\n## Qué cubre este artículo\n\n- Contexto y marco del tema\n- Proceso paso a paso\n- Qué esperar realmente (sin optimismo de marketing)\n- Errores comunes que evitamos a nuestros clientes\n- Recursos y próximos pasos\n\n## Contexto\n\nEste borrador se genera a partir de la documentación interna de Nexa Paraguay.\nAmpliar antes de publicar con datos concretos, ejemplos reales y citas del equipo técnico.\n\n## Proceso paso a paso\n\n1. **Evaluación inicial.** Diagnóstico honesto: qué se puede, qué no.\n2. **Validación documental.** Apostillas, traducciones, requisitos consulares.\n3. **Jornada operativa.** La logística coordinada del día en Paraguay.\n4. **Post-ejecución.** Los 45–60 días siguientes y qué hacemos por usted.\n5. **Entrega y seguimiento.** Documentos finales y cómo le acompañamos.\n\n## Errores comunes\n\n- Subestimar los tiempos de emisión gubernamental (45–60 días).\n- No legalizar apostillas en origen antes de viajar.\n- Elegir la estructura societaria sin análisis fiscal comparativo.\n- Confundir \"gestoría\" con \"sistema integral\".\n\n## Próximos pasos\n\nSi está evaluando Paraguay seriamente, la mejor manera de avanzar es una\nconsulta gratuita de 30 minutos. La hacemos en neerlandés, inglés, alemán o\nespañol — sin compromiso.\n\n**[Agendar consulta gratuita](/s/es/nexa-paraguay/contacto)**\n",

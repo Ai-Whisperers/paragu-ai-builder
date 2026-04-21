@@ -92,7 +92,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
       {tiers.map((tier, idx) => (
         <AnimateOnScroll key={tier.id} stagger={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
           <article className={cn('relative flex h-full flex-col rounded-2xl transition-all duration-300',
-              tier.highlighted ? 'bg-[var(--surface)] shadow-xl scale-[1.02] lg:scale-[1.03] ring-2 ring-[var(--secondary)]' : 'bg-[var(--surface)] shadow-md hover:shadow-lg border border-[var(--surface-light)]'
+              tier.highlighted ? 'bg-[var(--surface)] shadow-xl ring-2 ring-[var(--secondary)]' : 'bg-[var(--surface)] shadow-md hover:shadow-lg border border-[var(--surface-light)]'
             )} style={{ boxShadow: tier.highlighted ? '0 20px 50px -12px rgba(184, 134, 11, 0.25)' : undefined }}>
             {tier.badge && (
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">

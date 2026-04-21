@@ -116,7 +116,7 @@
           "name": "Paraguay Business",
           "description": "Aufenthalt + Gesellschaft + Bankkonto.",
           "price": "USD 4.400+",
-          "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.",
+          "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen.",
           "badge": "Am beliebtesten",
           "highlighted": true,
           "included": [
@@ -135,7 +135,7 @@
           "name": "Paraguay Investor Program",
           "description": "Alles aus Business + 12 Monate Begleitung.",
           "price": "USD 6.900+",
-          "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.",
+          "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen.",
           "included": [
             "Alles aus Business",
             "Buchhaltung (12 Monate)",
@@ -159,7 +159,7 @@
             "Verhandlung und Beurkundung",
             "Registereintragung"
           ],
-          "ctaLabel": "Sondierungsgespräch",
+          "ctaLabel": "Anfragen",
           "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -289,7 +289,7 @@
           "name": "Paraguay Business",
           "description": "Aufenthalt + Gesellschaft + Bankkonto.",
           "price": "USD 4.400+",
-          "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.",
+          "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen.",
           "badge": "Am beliebtesten",
           "highlighted": true,
           "included": [
@@ -308,7 +308,7 @@
           "name": "Paraguay Investor Program",
           "description": "Alles aus Business + 12 Monate Begleitung.",
           "price": "USD 6.900+",
-          "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.",
+          "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen.",
           "included": [
             "Alles aus Business",
             "Buchhaltung (12 Monate)",
@@ -332,7 +332,7 @@
             "Verhandlung und Beurkundung",
             "Registereintragung"
           ],
-          "ctaLabel": "Sondierungsgespräch",
+          "ctaLabel": "Anfragen",
           "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -363,7 +363,7 @@
           "name": "Paraguay Business",
           "description": "Aufenthalt + Gesellschaft + Bankkonto.",
           "price": "USD 4.400+",
-          "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.",
+          "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen.",
           "badge": "Am beliebtesten",
           "highlighted": true,
           "included": [
@@ -382,7 +382,7 @@
           "name": "Paraguay Investor Program",
           "description": "Alles aus Business + 12 Monate Begleitung.",
           "price": "USD 6.900+",
-          "priceNote": "LEALTIS-Basispreis. Nexa-Endpreis in Festlegung.",
+          "priceNote": "Ab-Preis. Endgültiges Angebot je nach Anforderungen.",
           "included": [
             "Alles aus Business",
             "Buchhaltung (12 Monate)",
@@ -406,7 +406,7 @@
             "Verhandlung und Beurkundung",
             "Registereintragung"
           ],
-          "ctaLabel": "Sondierungsgespräch",
+          "ctaLabel": "Anfragen",
           "ctaHref": "/s/de/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -769,7 +769,9 @@
       "subtitle": "Wählen Sie einen passenden Termin.",
       "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
       "provider": "calendly",
-      "ctaLabel": "Kalender öffnen"
+      "ctaLabel": "Kalender öffnen",
+      "fallbackWhatsapp": "595982515138",
+      "fallbackEmail": "hola@nexaparaguay.com"
     },
     "contact": {
       "title": "Oder schreiben Sie uns direkt",
@@ -847,6 +849,22 @@
       {
         "label": "Datenschutz",
         "href": "/s/de/nexa-paraguay/privacidad"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/de/nexa-paraguay/faq"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/de/nexa-paraguay/blog"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/s/de/nexa-paraguay/contacto"
+      },
+      {
+        "label": "Warum Paraguay",
+        "href": "/s/de/nexa-paraguay/por-que-paraguay"
       }
     ]
   },
@@ -857,7 +875,10 @@
       "Die Ergebnisse hängen von der individuellen Erfüllung der Anforderungen ab und können variieren. Informationen unterliegen regulatorischen Änderungen."
     ],
     "licenseNumbers": [
-      { "label": "SEPRELAD", "number": "Registrierung ausstehend" }
+      {
+        "label": "SEPRELAD",
+        "number": "Registrierung ausstehend"
+      }
     ],
     "linkText": "Vollständige AML-Erklärung",
     "linkHref": "/s/de/nexa-paraguay/privacidad#aml"
@@ -870,27 +891,101 @@
     "whatsappPhone": "595982515138",
     "whatsappFallbackLabel": "Fragen? Kontaktieren Sie uns über WhatsApp",
     "questions": [
-      { "id": "fullName", "kind": "text", "label": "Vollständiger Name (laut Ausweis)", "required": true },
-      { "id": "nationality", "kind": "text", "label": "Staatsangehörigkeit", "required": true },
-      { "id": "documentType", "kind": "radio", "label": "Ausweisart", "required": true, "options": [
-        { "value": "passport", "label": "Reisepass" },
-        { "value": "id", "label": "Personalausweis" },
-        { "value": "other", "label": "Andere" }
-      ]},
-      { "id": "economicActivity", "kind": "textarea", "label": "Hauptberufliche Tätigkeit", "helpText": "Beschreiben Sie Ihren Beruf oder Ihre Haupteinkommensquelle", "required": true },
-      { "id": "fundsOrigin", "kind": "radio", "label": "Mittelherkunft", "required": true, "options": [
-        { "value": "salary", "label": "Gehalt / Honorare" },
-        { "value": "business", "label": "Geschäftstätigkeit" },
-        { "value": "investment", "label": "Anlagen / passives Einkommen" },
-        { "value": "inheritance", "label": "Erbschaft oder Schenkung" },
-        { "value": "other", "label": "Sonstige (unten beschreiben)" }
-      ]},
-      { "id": "fundsOriginDetail", "kind": "textarea", "label": "Details zur Mittelherkunft", "helpText": "Ergänzen Sie die obige Auswahl. Nexa fordert Belege im formellen KYC-Prozess an." },
-      { "id": "pep", "kind": "radio", "label": "Sind Sie eine politisch exponierte Person (PEP) oder direktes Familienmitglied einer PEP?", "required": true, "options": [
-        { "value": "no", "label": "Nein" },
-        { "value": "yes", "label": "Ja" }
-      ]},
-      { "id": "truthfulDeclaration", "kind": "checkbox", "label": "Ich erkläre eidesstattlich, dass die Angaben wahrheitsgemäß sind, und autorisiere Nexa Paraguay, die erforderlichen Überprüfungen durchzuführen.", "required": true }
+      {
+        "id": "fullName",
+        "kind": "text",
+        "label": "Vollständiger Name (laut Ausweis)",
+        "required": true
+      },
+      {
+        "id": "nationality",
+        "kind": "text",
+        "label": "Staatsangehörigkeit",
+        "required": true
+      },
+      {
+        "id": "documentType",
+        "kind": "radio",
+        "label": "Ausweisart",
+        "required": true,
+        "options": [
+          {
+            "value": "passport",
+            "label": "Reisepass"
+          },
+          {
+            "value": "id",
+            "label": "Personalausweis"
+          },
+          {
+            "value": "other",
+            "label": "Andere"
+          }
+        ]
+      },
+      {
+        "id": "economicActivity",
+        "kind": "textarea",
+        "label": "Hauptberufliche Tätigkeit",
+        "helpText": "Beschreiben Sie Ihren Beruf oder Ihre Haupteinkommensquelle",
+        "required": true
+      },
+      {
+        "id": "fundsOrigin",
+        "kind": "radio",
+        "label": "Mittelherkunft",
+        "required": true,
+        "options": [
+          {
+            "value": "salary",
+            "label": "Gehalt / Honorare"
+          },
+          {
+            "value": "business",
+            "label": "Geschäftstätigkeit"
+          },
+          {
+            "value": "investment",
+            "label": "Anlagen / passives Einkommen"
+          },
+          {
+            "value": "inheritance",
+            "label": "Erbschaft oder Schenkung"
+          },
+          {
+            "value": "other",
+            "label": "Sonstige (unten beschreiben)"
+          }
+        ]
+      },
+      {
+        "id": "fundsOriginDetail",
+        "kind": "textarea",
+        "label": "Details zur Mittelherkunft",
+        "helpText": "Ergänzen Sie die obige Auswahl. Nexa fordert Belege im formellen KYC-Prozess an."
+      },
+      {
+        "id": "pep",
+        "kind": "radio",
+        "label": "Sind Sie eine politisch exponierte Person (PEP) oder direktes Familienmitglied einer PEP?",
+        "required": true,
+        "options": [
+          {
+            "value": "no",
+            "label": "Nein"
+          },
+          {
+            "value": "yes",
+            "label": "Ja"
+          }
+        ]
+      },
+      {
+        "id": "truthfulDeclaration",
+        "kind": "checkbox",
+        "label": "Ich erkläre eidesstattlich, dass die Angaben wahrheitsgemäß sind, und autorisiere Nexa Paraguay, die erforderlichen Überprüfungen durchzuführen.",
+        "required": true
+      }
     ]
   },
   "whatsapp": {

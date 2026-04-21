@@ -113,7 +113,7 @@
           "name": "Paraguay Business",
           "description": "Residencia + sociedad + cuenta bancaria.",
           "price": "USD 4.400+",
-          "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir.",
+          "priceNote": "Precio desde. Cotización final según requisitos del caso.",
           "badge": "Más elegido",
           "highlighted": true,
           "included": [
@@ -132,7 +132,7 @@
           "name": "Paraguay Investor Program",
           "description": "Todo lo de Business + 12 meses de acompañamiento.",
           "price": "USD 6.900+",
-          "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir.",
+          "priceNote": "Precio desde. Cotización final según requisitos del caso.",
           "included": [
             "Todo lo de Business",
             "Contabilidad empresarial (12 meses)",
@@ -156,7 +156,7 @@
             "Negociación y escrituración",
             "Inscripción registral"
           ],
-          "ctaLabel": "Conversación exploratoria",
+          "ctaLabel": "Consultar",
           "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -286,7 +286,7 @@
           "name": "Paraguay Business",
           "description": "Residencia + sociedad + cuenta bancaria.",
           "price": "USD 4.400+",
-          "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir.",
+          "priceNote": "Precio desde. Cotización final según requisitos del caso.",
           "badge": "Más elegido",
           "highlighted": true,
           "included": [
@@ -305,7 +305,7 @@
           "name": "Paraguay Investor Program",
           "description": "Todo lo de Business + 12 meses de acompañamiento.",
           "price": "USD 6.900+",
-          "priceNote": "Costo base LEALTIS. Precio final Nexa pendiente de definir.",
+          "priceNote": "Precio desde. Cotización final según requisitos del caso.",
           "included": [
             "Todo lo de Business",
             "Contabilidad empresarial (12 meses)",
@@ -329,7 +329,7 @@
             "Negociación y escrituración",
             "Inscripción registral"
           ],
-          "ctaLabel": "Conversación exploratoria",
+          "ctaLabel": "Consultar",
           "ctaHref": "/s/es/nexa-paraguay/contacto?programa=tierras"
         }
       ]
@@ -432,12 +432,12 @@
           ]
         },
         {
-          "feature": "Costo LEALTIS (USD)",
+          "feature": "Precio desde (USD)",
           "values": [
-            "Pendiente",
+            "A definir",
             "4.400",
             "6.900",
-            "No aplica"
+            "3.500"
           ]
         }
       ]
@@ -799,7 +799,9 @@
       "subtitle": "Elija el horario que mejor le convenga.",
       "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
       "provider": "calendly",
-      "ctaLabel": "Abrir calendario"
+      "ctaLabel": "Abrir calendario",
+      "fallbackWhatsapp": "595982515138",
+      "fallbackEmail": "hola@nexaparaguay.com"
     },
     "contact": {
       "title": "O escríbanos directamente",
@@ -878,6 +880,22 @@
       {
         "label": "Privacidad",
         "href": "/s/es/nexa-paraguay/privacidad"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/es/nexa-paraguay/faq"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/es/nexa-paraguay/blog"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/nexa-paraguay/contacto"
+      },
+      {
+        "label": "Por qué Paraguay",
+        "href": "/s/es/nexa-paraguay/por-que-paraguay"
       }
     ]
   },
@@ -888,7 +906,10 @@
       "Los resultados dependen del cumplimiento individual de requisitos y pueden variar. Información sujeta a cambios regulatorios."
     ],
     "licenseNumbers": [
-      { "label": "SEPRELAD", "number": "Pendiente de asignación" }
+      {
+        "label": "SEPRELAD",
+        "number": "Pendiente de asignación"
+      }
     ],
     "linkText": "Ver declaración AML completa",
     "linkHref": "/s/es/nexa-paraguay/privacidad#aml"
@@ -919,9 +940,18 @@
         "label": "Tipo de documento",
         "required": true,
         "options": [
-          { "value": "passport", "label": "Pasaporte" },
-          { "value": "id", "label": "Documento nacional" },
-          { "value": "other", "label": "Otro" }
+          {
+            "value": "passport",
+            "label": "Pasaporte"
+          },
+          {
+            "value": "id",
+            "label": "Documento nacional"
+          },
+          {
+            "value": "other",
+            "label": "Otro"
+          }
         ]
       },
       {
@@ -937,11 +967,26 @@
         "label": "Origen de los fondos",
         "required": true,
         "options": [
-          { "value": "salary", "label": "Salario / honorarios profesionales" },
-          { "value": "business", "label": "Actividad empresarial" },
-          { "value": "investment", "label": "Inversiones / rentas" },
-          { "value": "inheritance", "label": "Herencia o donación" },
-          { "value": "other", "label": "Otro (describir abajo)" }
+          {
+            "value": "salary",
+            "label": "Salario / honorarios profesionales"
+          },
+          {
+            "value": "business",
+            "label": "Actividad empresarial"
+          },
+          {
+            "value": "investment",
+            "label": "Inversiones / rentas"
+          },
+          {
+            "value": "inheritance",
+            "label": "Herencia o donación"
+          },
+          {
+            "value": "other",
+            "label": "Otro (describir abajo)"
+          }
         ]
       },
       {
@@ -956,8 +1001,14 @@
         "label": "¿Sos Persona Expuesta Políticamente (PEP) o familiar directo de una PEP?",
         "required": true,
         "options": [
-          { "value": "no", "label": "No" },
-          { "value": "yes", "label": "Sí" }
+          {
+            "value": "no",
+            "label": "No"
+          },
+          {
+            "value": "yes",
+            "label": "Sí"
+          }
         ]
       },
       {

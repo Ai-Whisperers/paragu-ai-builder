@@ -29,6 +29,7 @@ import {
   hasVariant,
   defaultVariant,
 } from './section-registry'
+import { listBlogPosts } from './blog-loader'
 import { logger } from '@/lib/logger'
 import { metrics } from '@/lib/obs/metrics'
 
@@ -114,7 +115,8 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
           __availableLocales: site.locales,
           __currentPath: pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug,
         }
-        const props = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
+        const withCommerce = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
+        const props = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)
         return { id: s.id, variant, props }
       } catch (err) {
         logger.error('Site composition: section content resolution failed', {
@@ -294,4 +296,36 @@ function injectCommerceSiteContext(
     next.businessName = siteName
   }
   return next
+}
+
+/**
+ * Connects the blog-index section to the blog-loader.
+ *
+ * The content config (`blog.index`) only carries the header copy
+ * (title / subtitle / seo). The actual post list lives under
+ * `sites/<slug>/blog/<locale>/*.mdx` and gets loaded via
+ * `listBlogPosts`. Without this, every blog-index renders empty.
+ *
+ * Callers can still override by providing `posts` in the content ref
+ * (escape hatch for mock data or fully-manual post lists).
+ */
+function injectBlogIndexPosts(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteSlug: string,
+  locale: Locale,
+): Record<string, unknown> {
+  if (sectionId !== 'blog-index') return props
+  if (Array.isArray(props.posts) && props.posts.length > 0) return props
+  const posts = listBlogPosts(siteSlug, locale).map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    excerpt: p.excerpt,
+    date: p.date,
+    category: p.category,
+    coverImage: p.coverImage,
+    readingMinutes: p.readingMinutes,
+    href: `/s/${locale}/${siteSlug}/blog/${p.slug}`,
+  }))
+  return { ...props, posts }
 }
