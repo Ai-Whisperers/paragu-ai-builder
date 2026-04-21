@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { cn } from '@/lib/utils'
 
 interface AnimatedContainerProps {
@@ -340,6 +340,7 @@ export function RevealText({
 
   useEffect(() => {
     if (!triggerOnScroll) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Initial visibility when scroll-trigger is disabled; single set, no loop.
       setIsVisible(true)
       return
     }
@@ -418,6 +419,21 @@ export function CountUp({
   const [count, setCount] = useState(0)
   const [hasAnimated, setHasAnimated] = useState(false)
 
+  const animate = useCallback(() => {
+    const startTime = Date.now()
+    const animateFrame = () => {
+      const elapsed = (Date.now() - startTime) / 1000
+      const progress = Math.min(elapsed / duration, 1)
+      const easeOut = 1 - Math.pow(1 - progress, 3)
+      setCount(Math.floor(easeOut * end))
+
+      if (progress < 1) {
+        requestAnimationFrame(animateFrame)
+      }
+    }
+    requestAnimationFrame(animateFrame)
+  }, [duration, end])
+
   useEffect(() => {
     if (!triggerOnScroll) {
       animate()
@@ -440,23 +456,7 @@ export function CountUp({
 
     observer.observe(element)
     return () => observer.disconnect()
-  }, [triggerOnScroll, hasAnimated])
-
-  const animate = () => {
-    const startTime = Date.now()
-    const animateFrame = () => {
-      const elapsed = (Date.now() - startTime) / 1000
-      const progress = Math.min(elapsed / duration, 1)
-      // Easing function (ease-out)
-      const easeOut = 1 - Math.pow(1 - progress, 3)
-      setCount(Math.floor(easeOut * end))
-
-      if (progress < 1) {
-        requestAnimationFrame(animateFrame)
-      }
-    }
-    requestAnimationFrame(animateFrame)
-  }
+  }, [triggerOnScroll, hasAnimated, animate])
 
   return (
     <span ref={ref} className={className}>
