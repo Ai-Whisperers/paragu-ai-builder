@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 66 | see closure log below |
+| ✅ Closed | 67 | see closure log below |
 | 🟡 In progress | 0 | — |
-| 🔴 Open | 434 | the rest |
+| 🔴 Open | 433 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -84,6 +84,9 @@ Closure log:
   dead "Próximamente" branch in `app/page.tsx:667-680` (every TEMPLATE in
   the local list has demoSlug, so else branch was unreachable and TS
   narrowed `template` to `never`). `npx tsc --noEmit` in `web/` now exits 0.
+- **#475** — cron tests for `leads-digest` (5 tests: 403, skipped, send-per-recipient,
+  malformed-referrer, supabase-error) and `sitemap-ping` (4 tests: 403, all-targets-pinged,
+  per-target-error-captured, GET=POST). 9/9 passing.
 
 ## Blocked on user input
 
