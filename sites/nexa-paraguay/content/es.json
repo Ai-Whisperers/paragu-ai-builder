@@ -41,6 +41,10 @@
         "href": "/s/es/nexa-paraguay/blog"
       },
       {
+        "label": "Prensa",
+        "href": "/s/es/nexa-paraguay/prensa"
+      },
+      {
         "label": "Contacto",
         "href": "/s/es/nexa-paraguay/contacto"
       }
@@ -1039,6 +1043,10 @@
       {
         "label": "Por qué Paraguay",
         "href": "/s/es/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Prensa",
+        "href": "/s/es/nexa-paraguay/prensa"
       }
     ]
   },

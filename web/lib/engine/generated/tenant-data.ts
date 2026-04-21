@@ -4854,6 +4854,10 @@ export const SITES: Record<string, JsonRecord> = {
         "path": "blog"
       },
       {
+        "labelKey": "navigation.press",
+        "path": "prensa"
+      },
+      {
         "labelKey": "navigation.contact",
         "path": "contacto"
       }
@@ -20394,6 +20398,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/por-que-paraguay",
           "label": "Warum Paraguay"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/prensa",
+          "label": "Presse"
         }
       ],
       "whatsapp": "595982515138"
@@ -20669,6 +20677,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/blog",
           "label": "Blog"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/prensa",
+          "label": "Presse"
         },
         {
           "href": "/s/de/nexa-paraguay/contacto",
@@ -21529,6 +21541,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/por-que-paraguay",
           "label": "Why Paraguay"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/prensa",
+          "label": "Press"
         }
       ],
       "whatsapp": "595982515138"
@@ -21804,6 +21820,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/blog",
           "label": "Blog"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/prensa",
+          "label": "Press"
         },
         {
           "href": "/s/en/nexa-paraguay/contacto",
@@ -22634,6 +22654,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/por-que-paraguay",
           "label": "Por qué Paraguay"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/prensa",
+          "label": "Prensa"
         }
       ],
       "whatsapp": "595982515138"
@@ -22909,6 +22933,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/blog",
           "label": "Blog"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/prensa",
+          "label": "Prensa"
         },
         {
           "href": "/s/es/nexa-paraguay/contacto",
@@ -23802,6 +23830,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/por-que-paraguay",
           "label": "Waarom Paraguay"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/prensa",
+          "label": "Pers"
         }
       ],
       "whatsapp": "595982515138"
@@ -24077,6 +24109,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/blog",
           "label": "Blog"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/prensa",
+          "label": "Pers"
         },
         {
           "href": "/s/nl/nexa-paraguay/contacto",

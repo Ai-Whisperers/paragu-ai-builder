@@ -41,6 +41,10 @@
         "href": "/s/nl/nexa-paraguay/blog"
       },
       {
+        "label": "Pers",
+        "href": "/s/nl/nexa-paraguay/prensa"
+      },
+      {
         "label": "Contact",
         "href": "/s/nl/nexa-paraguay/contacto"
       }
@@ -1005,6 +1009,10 @@
       {
         "label": "Waarom Paraguay",
         "href": "/s/nl/nexa-paraguay/por-que-paraguay"
+      },
+      {
+        "label": "Pers",
+        "href": "/s/nl/nexa-paraguay/prensa"
       }
     ]
   },
