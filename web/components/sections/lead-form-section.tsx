@@ -33,6 +33,14 @@ export interface LeadFormSectionProps {
   __locale?: string
 }
 
+const LOADING_LABELS: Record<string, string> = {
+  de: 'Senden…',
+  en: 'Sending…',
+  es: 'Enviando…',
+  nl: 'Verzenden…',
+  pt: 'Enviando…',
+}
+
 const DEFAULT_FIELDS: LeadFormField[] = [
   { name: 'name', label: 'Name', type: 'text', required: true },
   { name: 'email', label: 'Email', type: 'email', required: true },
@@ -227,7 +235,7 @@ export function LeadFormSection({
                 size="lg"
                 type="submit"
                 isLoading={status === 'sending'}
-                loadingText="Enviando…"
+                loadingText={LOADING_LABELS[__locale ?? 'es'] || LOADING_LABELS.es}
                 className="w-full sm:w-auto"
               >
                 {submitLabel}

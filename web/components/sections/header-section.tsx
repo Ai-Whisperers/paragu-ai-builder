@@ -101,10 +101,10 @@ export function HeaderSection({
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-shadow duration-300 bg-[var(--surface)]',
-        scrolled && 'shadow-md'
+        scrolled ? 'shadow-md' : 'shadow-sm'
       )}
       style={{
-        borderBottom: scrolled ? '1px solid rgba(0,0,0,0.08)' : '1px solid transparent',
+        borderBottom: '1px solid rgba(0,0,0,0.08)',
       }}
     >
       <Container>
@@ -113,9 +113,9 @@ export function HeaderSection({
           <a
             href="#"
             className="text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
-            style={{ 
+            style={{
               fontFamily: 'var(--font-heading)',
-              color: 'var(--text)',
+              color: 'var(--primary)',
             }}
           >
             {businessName}
@@ -128,12 +128,12 @@ export function HeaderSection({
                 key={item.href}
                 href={item.href}
                 className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-[var(--surface-light)]"
-                style={{ color: 'var(--text-muted)' }}
+                style={{ color: 'var(--text)' }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.color = 'var(--secondary)'
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.color = 'var(--text-muted)'
+                  e.currentTarget.style.color = 'var(--text)'
                 }}
               >
                 {item.label}
