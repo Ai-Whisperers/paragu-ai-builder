@@ -62,6 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const composed = composeSitePage({ siteSlug, locale, pageSlug })
     const site = composed.site
     const alternates = alternatesFor(siteSlug, site.locales, pageSlug === 'home' ? '' : pageSlug)
+    const isDemo = Boolean((site as { is_demo?: boolean }).is_demo)
     return {
       title: composed.meta.title,
       description: composed.meta.description,
@@ -71,6 +72,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: composed.meta.description,
         locale,
       },
+      // Demo tenants must not compete in search with real client sites or
+      // the marketing site itself. Excludes them from indexing while still
+      // serving the page for prospects we link manually.
+      ...(isDemo && { robots: { index: false, follow: false } }),
     }
   } catch {
     return { title: 'Not found' }
