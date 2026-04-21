@@ -1,4 +1,10 @@
 import { Container } from '@/components/ui/container'
+
+// Must match web/app/s/[locale]/[site]/blog/categoria/[category]/page.tsx
+function categoryToSlug(s: string): string {
+  return s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+}
+
 import { Heading } from '@/components/ui/heading'
 import { AnimatedSectionHeader, AnimateOnScroll } from '@/components/ui/animate-on-scroll'
 
@@ -67,9 +73,13 @@ function Grid({ posts }: { posts: BlogPostSummary[] }) {
             </div>
             <div className="p-6">
               {p.category && (
-                <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+                <a
+                  href={`./categoria/${categoryToSlug(p.category)}`}
+                  onClick={(e) => e.stopPropagation()}
+                  className="mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)] hover:underline"
+                >
                   {p.category}
-                </p>
+                </a>
               )}
               <Heading level={3} className="mb-2 text-lg font-semibold text-[var(--primary)] group-hover:underline" style={{ fontFamily: 'var(--font-heading)' }}>
                 {p.title}
