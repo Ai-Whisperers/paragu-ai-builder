@@ -39,6 +39,7 @@ export type SectionType =
   | 'quoteForm'
   | 'emergencyIndicator'
   | 'productCatalog'
+  | 'featuredProducts'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -364,6 +365,8 @@ export const SECTION_MAP: Record<string, SectionType> = {
   testimonial: 'testimonials',
   testimonials: 'testimonials',
   productCatalog: 'productCatalog',
+  featuredProducts: 'featuredProducts',
+  'featured-products': 'featuredProducts',
   locationBlock: 'contact',
   contactSplit: 'contact',
   contact: 'contact',
