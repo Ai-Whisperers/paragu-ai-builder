@@ -10,7 +10,7 @@
 | Status | Count | Items |
 |---|---|---|
 | ✅ Closed | 83 | see closure log below |
-| 🟡 In progress | 1 | #392 (3 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
+| 🟡 In progress | 1 | #392 (2 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
 | 🔴 Open | 417 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
@@ -154,6 +154,12 @@ Closure log:
   bulk-mutate leads); now `checkAdmin()` (env-allowlist). Removed duplicate
   manual `requestId` / `performance.now()` instrumentation that the wrapper
   already provides. Audit count 4 → 3.
+- **#392 partial #4 + #460 partial #3** — `/api/admin/daily-metrics`
+  (GET + POST) wrapped, AND fixed a serious broken-auth bug: the prior
+  check was `if (!authHeader?.startsWith('Bearer '))` which validated
+  NOTHING — any literal `Bearer foo` from anyone on the internet passed.
+  Replaced with `checkAdmin()`. Also added the module-scoped Supabase
+  client cache per ADR 0006. Audit count 3 → 2.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
