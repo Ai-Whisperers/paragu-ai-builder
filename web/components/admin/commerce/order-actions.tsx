@@ -11,6 +11,7 @@ interface Props {
 }
 
 const NEXT_ACTIONS: Partial<Record<OrderStatus, Array<{ label: string; status: OrderStatus }>>> = {
+  awaiting_payment: [{ label: 'Confirmar pago recibido', status: 'paid' }],
   paid: [{ label: 'Marcar como preparada', status: 'fulfilled' }],
   fulfilled: [{ label: 'Marcar como enviada', status: 'shipped' }],
   shipped: [{ label: 'Marcar como entregada', status: 'delivered' }],
