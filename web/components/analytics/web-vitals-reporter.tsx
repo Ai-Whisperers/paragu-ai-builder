@@ -13,15 +13,21 @@ import { useReportWebVitals } from 'next/web-vitals'
 export function WebVitalsReporter(): null {
   useReportWebVitals((metric) => {
     try {
+      // Web-vital-specific fields go in `metadata` so the payload matches
+      // the `/api/analytics/track` schema (eventType + TrackOptions).
+      // Previously these were top-level fields — the server didn't validate
+      // them but the payload looked malformed in logs.
       const body = JSON.stringify({
         eventType: 'web_vital',
-        name: metric.name,
-        id: metric.id,
-        value: metric.value,
-        rating: metric.rating,
-        delta: metric.delta,
-        navigationType: metric.navigationType,
         pageUrl: typeof window !== 'undefined' ? window.location.pathname : undefined,
+        metadata: {
+          name: metric.name,
+          id: metric.id,
+          value: metric.value,
+          rating: metric.rating,
+          delta: metric.delta,
+          navigationType: metric.navigationType,
+        },
       })
       if (navigator.sendBeacon) {
         navigator.sendBeacon('/api/analytics/track', new Blob([body], { type: 'application/json' }))

@@ -20,6 +20,7 @@ export const EventTypes = {
   DEMO_GENERATED: 'demo_generated',
   LEAD_CREATED: 'lead_created',
   CONVERSION: 'conversion',
+  WEB_VITAL: 'web_vital',
 } as const
 
 export type EventType = typeof EventTypes[keyof typeof EventTypes]
