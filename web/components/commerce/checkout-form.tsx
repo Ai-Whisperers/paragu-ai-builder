@@ -200,16 +200,19 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
             </div>
           )}
           {discountStatus.kind === 'rejected' ? (
-            <p className="mt-1 text-xs text-red-700">
-              {discountStatus.reason === 'not_found'
-                ? 'Ese código no existe.'
-                : discountStatus.reason === 'expired'
-                ? 'Ese código venció.'
-                : discountStatus.reason === 'min_subtotal'
-                ? 'No alcanzás el subtotal mínimo para este código.'
-                : discountStatus.reason === 'usage_exceeded'
-                ? 'Ese código ya se usó el máximo de veces.'
-                : 'Código inválido.'}
+            <p role="alert" className="mt-1 flex items-start gap-1 text-xs text-red-700">
+              <span aria-hidden="true">⚠️</span>
+              <span>
+                {discountStatus.reason === 'not_found'
+                  ? 'Ese código no existe.'
+                  : discountStatus.reason === 'expired'
+                  ? 'Ese código venció.'
+                  : discountStatus.reason === 'min_subtotal'
+                  ? 'No alcanzás el subtotal mínimo para este código.'
+                  : discountStatus.reason === 'usage_exceeded'
+                  ? 'Ese código ya se usó el máximo de veces.'
+                  : 'Código inválido.'}
+              </span>
             </p>
           ) : null}
         </div>
@@ -277,12 +280,25 @@ function Field({
   placeholder?: string
   className?: string
 }) {
+  // Explicit htmlFor + id so screen readers anchor reliably (the wrapping
+  // <label> alone is technically valid but some AT versions stumble). The
+  // red asterisk gets a sr-only "obligatorio" so the required-ness isn't
+  // color-only — non-visual users get the same signal.
+  const inputId = `checkout-field-${name}`
   return (
-    <label className={`block ${className ?? ''}`}>
-      <span className="mb-1 block text-xs font-medium text-[color:var(--text-muted,#6b7280)]">
-        {label} {required ? <span className="text-red-600">*</span> : null}
-      </span>
+    <div className={`block ${className ?? ''}`}>
+      <label htmlFor={inputId} className="mb-1 block text-xs font-medium text-[color:var(--text-muted,#6b7280)]">
+        {label}
+        {required ? (
+          <>
+            {' '}
+            <span aria-hidden="true" className="text-red-600">*</span>
+            <span className="sr-only">(obligatorio)</span>
+          </>
+        ) : null}
+      </label>
       <input
+        id={inputId}
         name={name}
         type={type}
         required={required}
@@ -290,6 +306,6 @@ function Field({
         placeholder={placeholder}
         className="block w-full rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm focus:border-[color:var(--primary,#111)] focus:outline-none"
       />
-    </label>
+    </div>
   )
 }

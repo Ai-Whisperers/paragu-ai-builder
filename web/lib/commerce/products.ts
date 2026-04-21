@@ -106,6 +106,44 @@ export async function getProductBySlug(businessId: string, slug: string): Promis
   return row ? rowToProduct(row) : null
 }
 
+/**
+ * Suggestions for the "More from this category" rail on a PDP. Excludes
+ * the current product, falls back to recent active products from any
+ * category if the source product has no category set or there aren't
+ * enough siblings.
+ */
+export async function listRelatedProducts(
+  businessId: string,
+  opts: { excludeId: string; category: string | null; limit?: number },
+): Promise<Product[]> {
+  const limit = opts.limit ?? 4
+  const supabase = await createAdminClient()
+  const scoped = scopedQueries(supabase, businessId)
+
+  const fetchBatch = async (filterCategory: boolean): Promise<Product[]> => {
+    const { data } = await scoped.select<ProductRow>('products', '*', {
+      filter: (q) => {
+        let query = q
+          .eq('status', 'active')
+          .neq('id', opts.excludeId)
+          .order('created_at', { ascending: false })
+          .limit(limit)
+        if (filterCategory && opts.category) query = query.eq('category', opts.category)
+        return query
+      },
+    })
+    return (Array.isArray(data) ? data : []).map(rowToProduct)
+  }
+
+  const sameCategory = opts.category ? await fetchBatch(true) : []
+  if (sameCategory.length >= limit) return sameCategory
+
+  // Top up with recent products from any category, excluding what we already have.
+  const seen = new Set([opts.excludeId, ...sameCategory.map((p) => p.id)])
+  const fallback = await fetchBatch(false)
+  return [...sameCategory, ...fallback.filter((p) => !seen.has(p.id))].slice(0, limit)
+}
+
 export async function createProduct(
   businessId: string,
   input: ProductCreate & { isSeed?: boolean },
