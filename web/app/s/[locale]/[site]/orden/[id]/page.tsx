@@ -31,9 +31,11 @@ export default async function OrderPage({
   const initial = status === 'success' || status === 'pending' || status === 'failure' ? status : null
 
   return (
-    <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
-      <OrderConfirmation siteSlug={site} locale={locale} initialOrder={order} initialStatus={initial} />
+    <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)] print:bg-white">
+      <div className="print:hidden">
+        <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      </div>
+      <OrderConfirmation siteSlug={site} locale={locale} businessName={business.name} initialOrder={order} initialStatus={initial} />
     </div>
   )
 }

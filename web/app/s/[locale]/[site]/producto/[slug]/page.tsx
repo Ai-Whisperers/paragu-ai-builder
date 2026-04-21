@@ -11,6 +11,8 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
 import { ProductCard } from '@/components/commerce/product-card'
 import { ProductShare } from '@/components/commerce/product-share'
+import { RecordRecentVisit } from '@/components/commerce/record-recent-visit'
+import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { PriceDisplay } from '@/components/commerce/price-display'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 import { env } from '@/lib/env'
@@ -139,6 +141,18 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           </div>
         </div>
       </main>
+
+      <RecordRecentVisit
+        siteSlug={site}
+        productId={product.id}
+        productSlug={product.slug}
+        productName={product.name}
+        priceCents={product.priceCents}
+        currency={product.currency}
+        imageUrl={cover?.url ?? null}
+      />
+
+      <RecentlyViewedRail siteSlug={site} locale={locale} excludeId={product.id} />
 
       {related.length > 0 ? (
         <section aria-labelledby="related-heading" className="mx-auto max-w-5xl px-4 pb-12">
