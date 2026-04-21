@@ -54,7 +54,10 @@ function rowToProduct(row: ProductRow): Product {
 export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc'
 
 export interface ListActiveProductsOpts {
+  /** Single-category filter — convenient when you already have one value. */
   category?: string
+  /** Multi-category filter. Takes precedence over `category` when both set. */
+  categories?: string[]
   limit?: number
   offset?: number
   /** Free-text search — matches name OR description OR SKU (ilike). Empty string is no filter. */
@@ -98,7 +101,11 @@ export async function listActiveProducts(
   const { data } = await scoped.select<ProductRow>('products', '*', {
     filter: (q) => {
       let query = q.eq('status', 'active').order(sort.column, { ascending: sort.ascending })
-      if (opts.category) query = query.eq('category', opts.category)
+      if (opts.categories && opts.categories.length > 0) {
+        query = query.in('category', opts.categories)
+      } else if (opts.category) {
+        query = query.eq('category', opts.category)
+      }
       if (opts.search && opts.search.trim()) {
         // Accent-insensitive search. The DB carries a generated
         // `search_haystack` column = lower(unaccent(name+desc+sku)). We
@@ -153,7 +160,11 @@ export async function countActiveProducts(
     .select('id', { count: 'exact', head: true })
     .eq('business_id', businessId)
     .eq('status', 'active')
-  if (opts.category) query = query.eq('category', opts.category)
+  if (opts.categories && opts.categories.length > 0) {
+    query = query.in('category', opts.categories)
+  } else if (opts.category) {
+    query = query.eq('category', opts.category)
+  }
   if (opts.search && opts.search.trim()) {
     // See listActiveProducts for rationale — match the same shape as the
     // DB-side search_haystack column.
@@ -186,6 +197,32 @@ export async function listDistinctCategories(businessId: string): Promise<string
     if (row.category) set.add(row.category)
   }
   return Array.from(set).sort((a, b) => a.localeCompare(b, 'es'))
+}
+
+/**
+ * Category counts for faceted filtering. Pulls every active product's
+ * category in one query and aggregates client-side — cheap enough for the
+ * product counts we care about (<5k active per tenant).
+ *
+ * Returns a map so the UI can render "Juguetes (12)" next to each pill.
+ * Categories with zero products are omitted.
+ */
+export async function listCategoryCounts(
+  businessId: string,
+): Promise<Record<string, number>> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('category')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+    .not('category', 'is', null)
+  const counts: Record<string, number> = {}
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ category: string | null }>) {
+    if (!row.category) continue
+    counts[row.category] = (counts[row.category] ?? 0) + 1
+  }
+  return counts
 }
 
 export async function getProductBySlug(businessId: string, slug: string): Promise<Product | null> {

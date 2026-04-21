@@ -131,11 +131,13 @@ export default async function CategoryPage({
           resultCount={products.length}
           totalCount={totalCount}
           initialCategory={match}
+          initialCategories={[match]}
           availableCategories={available}
           initialMinPrice={minPriceCents}
           initialMaxPrice={maxPriceCents}
           initialInStockOnly={inStockOnly}
           initialOnSaleOnly={onSaleOnly}
+          initialPerPage={12}
         />
 
         {products.length === 0 ? (
