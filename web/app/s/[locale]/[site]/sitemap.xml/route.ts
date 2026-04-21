@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { loadSite, listPageSlugs } from '@/lib/engine/site-loader'
+import { loadSite, listPageSlugs, loadPage } from '@/lib/engine/site-loader'
 import { listBlogSlugs } from '@/lib/engine/blog-loader'
 import { buildLocaleUrl, type Locale } from '@/lib/i18n/routing'
 import { isLocale } from '@/lib/i18n/config'
@@ -24,6 +24,10 @@ export async function GET(
   const urls: Array<{ loc: string; alternates: Array<{ hreflang: string; href: string }> }> = []
 
   for (const page of pages) {
+    // Skip pages that explicitly opt out of the sitemap (e.g. ad landings
+    // that must only be reached via attribution URLs).
+    const def = loadPage(slug, page)
+    if (def?.hiddenFromSitemap) continue
     const pathPart = page === 'home' ? '' : page
     const alternates = site.locales.map((l) => ({
       hreflang: l,
@@ -31,6 +35,23 @@ export async function GET(
     }))
     urls.push({
       loc: `${base}${buildLocaleUrl(locale as Locale, slug, pathPart)}`,
+      alternates,
+    })
+  }
+  // The /blog and /prensa routes are file-based, so they won't show up in
+  // listPageSlugs(). Include them explicitly when the site's content /
+  // navigation references them — nav includes both for all Nexa tenants.
+  const navPaths = new Set((site.navigation || []).map((n) => n.path))
+  const extraRoutes: string[] = []
+  if (blogs.length > 0 || navPaths.has('blog')) extraRoutes.push('blog')
+  if (navPaths.has('prensa')) extraRoutes.push('prensa')
+  for (const extra of extraRoutes) {
+    const alternates = site.locales.map((l) => ({
+      hreflang: l,
+      href: `${base}${buildLocaleUrl(l, slug, extra)}`,
+    }))
+    urls.push({
+      loc: `${base}${buildLocaleUrl(locale as Locale, slug, extra)}`,
       alternates,
     })
   }

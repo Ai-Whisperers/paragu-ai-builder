@@ -3,6 +3,11 @@
 > Ready-to-paste prompts for generating every image Nexa Paraguay needs, tuned for Antigravity, Cursor's image tools, Imagen 3, Flux.1, Midjourney v6+, DALL·E 3. Ordered by launch priority (P0 → P3).
 >
 > **Ethics note.** Prompts tagged 👤 produce human likenesses. Use AI output only as **temporary placeholders**. Before production, replace with photographs of real consented people (team, clients). AI-generated faces in testimonials would be a GDPR + consumer-trust problem — see `/privacidad` section F in `STAKEHOLDER-QA.md`.
+>
+> **Related asset catalogs** (distribution-layer indexes, not prompts):
+> - [`SOCIAL_ASSETS.md`](./SOCIAL_ASSETS.md) — 6 generic social templates + multilingual caption seeds.
+> - [`ADS_ASSETS.md`](./ADS_ASSETS.md) — 22 paid-ad creatives across Meta, LinkedIn, Google Display and YouTube.
+> - [`TESTIMONIALS_GATING.md`](./TESTIMONIALS_GATING.md) — how to unlock the testimonials feature once real consented photos replace the placeholders.
 
 ---
 
@@ -960,6 +965,203 @@ If budget allows only one batch:
 4. **Day 2 (2 hours):** Generate items **21–31** (team + office) as **staging-only placeholders**.
 5. **Week 1:** Real photo shoot to replace items **21–31** and **46–55**.
 6. **Month 1+:** Generate P3 paid-ads library on demand per campaign.
+
+---
+
+# 🟣 P4 — Coverage gaps identified in audit (Apr 2026)
+
+After wiring the first 111 assets we found six gaps that materially
+affect how serious the site looks to an expat shopping this type of
+service: a founder portrait, document reassurance, branded icons, maps,
+partner trust, a standalone comparison infographic. Every P4 prompt
+still appends **Style block** + **Universal negative**.
+
+## P4.1 — Founder / CEO portrait 👤
+
+Aspect: 4:5 · Desired output: `team/founder.png`
+
+```
+Editorial portrait of a Latin American business executive in their 40s,
+navy suit with an open-collar white shirt, no tie, seated at a walnut
+desk in an Asunción office, neutral warm-grey wall behind with a single
+framed map print and a brass desk lamp catching champagne-colored
+light, direct but approachable eye contact with the camera, confident
+relaxed posture, hands resting on desk, late-afternoon window light
+from the left, shallow depth of field background softly defocused,
+the feel of an FT Weekend profile shoot. Not a headshot on a grey
+backdrop — a portrait with environmental context.
+```
+**Wiring:** add `team.founder` to `images.json`; render on `/sobre`
+above the team grid with a short founder bio. Also expose as
+`press.founder` on `/prensa` for media requests.
+
+## P4.2 — Document mockups (reassurance)
+
+Illustrated, NOT photorealistic reproductions — these must never be
+mistaken for real Paraguayan ID documents (fraud risk).
+
+### 21. `trust/cedula-mockup.png` — aspect 3:2
+```
+Flat 3/4-top-down composition of a single generic "ID card"
+illustration on a walnut desk, clearly stylized (soft drop shadow,
+slightly exaggerated proportions, no photographic textures, no real
+coat of arms, placeholder text "00.000.000", generic silhouette
+photo placeholder). Palette: navy and champagne. Caption space clear
+bottom right. Purpose: reassure prospects that they receive a national
+ID at the end of the process without impersonating the real cédula.
+```
+
+### 22. `trust/ruc-certificate-mockup.png` — aspect 3:2
+```
+Illustration of a corporate registration certificate on a leather
+blotter, obviously fictional letterhead (placeholder crest, Lorem
+Ipsum paragraph), gold wax seal bottom right, Mont Blanc pen laid
+across the page, brass table lamp catching champagne light. Editorial
+illustration style, NOT a reproduction of any real RUC certificate.
+```
+
+### 23. `trust/residency-card-mockup.png` — aspect 3:2
+```
+Two-up composition of a stylized residency card + a passport (closed,
+spine up, muted colour not tied to any real country) on a linen cloth,
+warm window light from right, small glass of tereré beside them for
+cultural anchoring. Illustrated feel with clean gradient shading, NOT
+a photograph — obvious at 10 paces this is a product visualisation.
+```
+
+**Wiring:** `trust.cedulaMockup` / `trust.rucCertificateMockup` /
+`trust.residencyCardMockup`. Use on `/programas` tier cards ("what you
+receive") + relevant blog post thumbnails.
+
+## P4.3 — Service icon set (12 icons)
+
+Replaces Lucide glyphs on `/por-que-paraguay`, `/programas`, `/proceso`.
+Aspect 1:1. Output: `icons/service-<name>.svg` (vectorize after raster
+generation).
+
+Generic prompt — swap the **Subject** line per icon:
+
+```
+Minimalist editorial line-icon, single continuous-stroke feel, 2px
+equivalent weight, navy #1B2A4A on transparent/white background,
+subtle champagne #C9A96E accent on ONE element only (a dot or arc),
+inside a 512×512 square with 48px padding, NO text, NO drop shadows,
+NO gradients, NO photographic elements. Inspired by Monocle, Financial
+Times, and the Noun Project paid tier. Reads clearly at 32×32 and 16×16.
+
+Subject: <NAME>
+```
+
+Icons:
+1. `service-residency` — hand holding ID card
+2. `service-company` — building silhouette with pillar entrance
+3. `service-bank-account` — bank card with subtle lock
+4. `service-tax-id` — document with barcode
+5. `service-property` — house with key
+6. `service-apostille` — stamped paper + ribbon
+7. `service-notary` — quill on scroll
+8. `service-visa` — passport with stamp arc
+9. `service-banking` — columns with vault hint
+10. `service-education` — graduation cap
+11. `service-healthcare` — medical cross inside soft shield
+12. `service-consultation` — two speech bubbles overlapping
+
+**Deliverable:** generate concept PNGs, vectorize to SVG, add `icons` bucket
+to `images.json`. Wire via optional `iconSrc` prop that overrides the
+Lucide name when provided.
+
+## P4.4 — Map graphics
+
+### 24. `maps/paraguay-coverage.png` — aspect 3:2
+```
+Editorial-style vector map of Paraguay, stylized (not geographically
+precise), deep navy landmass on warm off-white background, champagne
+highlight pins on: Asunción (larger), Ciudad del Este, San Bernardino,
+Encarnación. Thin neighbouring-country outlines (Argentina, Brasil,
+Bolivia). No labels, no compass rose. Feels like a map insert in a
+Monocle country guide.
+```
+
+### 25. `maps/asuncion-neighborhoods.png` — aspect 3:2
+```
+Editorial stylized map of central Asunción, navy street-grid on warm
+off-white, champagne-filled highlight blocks for Villa Morra, Las
+Carmelitas, Mburucuyá, Costanera. Paraguay River as a gentle champagne
+wash at top-left. Small illustrated pin markers for Shopping del Sol,
+Parque Ñu Guasu, Costanera Park. Thin north arrow, no compass rose.
+Premium relocation-guide aesthetic.
+```
+
+**Wiring:** `maps.paraguayCoverage` on `/por-que-paraguay`;
+`maps.asuncionNeighborhoods` as a secondary hero on the `neighborhoods`
+blog post.
+
+## P4.5 — Partner / press-mention placeholder slots
+
+No new imagery needed — wire `trust-signals` section with its `logos-row`
+variant rendering partner logos. Until real partnerships are named,
+populate with "Próximamente" / "Coming soon" text slots so the layout
+reserves space.
+
+- `/sobre` — second trust-signals block "Socios bancarios y legales"
+  with 5 slots.
+- home — below existing credentials block: "Menciones en medios",
+  4 slots.
+
+When real partnerships ship, swap the placeholder labels for actual
+logos (obtain from the partner's brand guidelines, don't scrape).
+
+## P4.6 — Standalone comparison infographic
+
+### 26. `infographics/paraguay-vs-uruguay-panama.png` — aspect 4:3
+```
+Editorial comparison infographic, 3-column layout, one country per
+column (Paraguay, Uruguay, Panama), column headers as minimal flag
+strips in brand navy/champagne palette (not national flag colors),
+5 rows comparing: income tax rate, VAT, patrimony tax, dividends tax,
+residency timeline. Rows use numeric callouts + tiny icons. Source
+footnote in small italic at bottom. Feels like The Economist's Pocket
+World in Figures — tight typographic grid, disciplined use of accent
+colour on only the "winner" cell per row.
+```
+
+**Wiring:** hero of the matching blog post + standalone on
+`/por-que-paraguay` + downloadable PDF on `/prensa`.
+
+---
+
+# 🟠 P5 — Nice-to-have (when budget allows)
+
+Abbreviated — append Style block + negative to each.
+
+| # | File | Aspect | Brief |
+|---|------|--------|-------|
+| 27 | `brand/logo-animated.lottie` | — | Wordmark assembly 1.5s with champagne sweep. Loading states and video intros only. |
+| 28 | `brand/email-signature.png` | 4:1 (600×150) | Horizontal banner: logo-icon left, wordmark centre, single tagline right. |
+| 29 | `brand/logo-on-photo.png` | 5:2 | Semi-transparent white wordmark for hero-overlay use. |
+| 30 | `brand/print-logo-cmyk.svg` | 1:1 + 5:2 | Vector set for letterhead and business cards (SVG + EPS + 2000px PNG). |
+| 31 | `misc/404-illustration.png` | 3:2 | Folded paper map with gentle question-mark watermark, navy + champagne, sparse. |
+| 32 | `misc/empty-state.png` | 1:1 | Open folder with one champagne-coloured paper inside. Empty search / no-results UI. |
+| 33 | `misc/cost-of-living.png` | 3:2 | Editorial still-life: minimalist grocery basket + a guaraní bill + café receipt on linen. |
+| 34 | `misc/currency-guaranies.png` | 3:2 | Three stylized guaraní notes fanned on walnut, warm afternoon light. |
+| 35 | `hero/video-cinemagraph.mp4` | 16:9 | 10s seamless loop of Asunción skyline at golden hour, subtle river motion only. ≤2MB H.264 auto-play muted. |
+
+---
+
+# Bucket addition rules
+
+When adding any P4/P5 asset to the manifest:
+
+1. Generate the image.
+2. Convert to WebP via `npm run convert:tenant-images -- nexa-paraguay`.
+3. Add entry to `sites/nexa-paraguay/images.json` under the correct
+   bucket (create new buckets `icons/`, `maps/`, `infographics/`,
+   `misc/` if needed).
+4. Include `altByLocale` for all 4 locales at creation time (don't
+   defer — backfilling across a dozen assets is painful).
+5. Run `npm run validate:tenant-images -- nexa-paraguay` — must pass.
+6. Update MEMORY.md or the admin dashboard label if the asset replaces
+   an AI placeholder (so the launch-gate hashes stay in sync).
 
 ---
 

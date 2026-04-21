@@ -11,6 +11,12 @@ export interface TrustItem {
   description?: string
   logoUrl?: string
   value?: string
+  /**
+   * Optional institutional/photo thumbnail. When present we render a
+   * 40x40 rounded square in place of the icon circle. Accepts a bare URL
+   * or the `{src, alt}` shape produced by `{ $img: "trust.<key>" }`.
+   */
+  image?: string | { src: string; alt: string }
 }
 
 export interface TrustSignalsSectionProps {
@@ -21,6 +27,21 @@ export interface TrustSignalsSectionProps {
   items?: TrustItem[]
   /** Legacy alias for `items` — some content files ship this key instead. */
   credentials?: TrustItem[]
+  /**
+   * Optional background image for the whole section — lets trust-heavy
+   * tenants put an institutional photo behind their badges. Omit to keep
+   * the default flat surface styling.
+   */
+  backgroundImage?: string
+}
+
+function itemImage(img: TrustItem['image']): { src: string; alt: string } | null {
+  if (!img) return null
+  if (typeof img === 'string') return { src: img, alt: '' }
+  if (typeof img === 'object' && typeof img.src === 'string') {
+    return { src: img.src, alt: img.alt ?? '' }
+  }
+  return null
 }
 
 function IconByName({ name, size = 24 }: { name?: string; size?: number }) {
@@ -37,11 +58,19 @@ export function TrustSignalsSection({
   subtitle,
   items,
   credentials,
+  backgroundImage,
 }: TrustSignalsSectionProps) {
   const resolvedItems = items || credentials || []
   if (resolvedItems.length === 0 && !title && !subtitle) return null
+  const sectionStyle = backgroundImage
+    ? {
+        backgroundImage: `linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }
+    : undefined
   return (
-    <section className="bg-[var(--surface-light)] py-12 sm:py-16">
+    <section className="bg-[var(--surface-light)] py-12 sm:py-16" style={sectionStyle}>
       <Container>
         {(title || subtitle) && (
           <AnimatedSectionHeader>
@@ -66,12 +95,27 @@ export function TrustSignalsSection({
 function Credentials({ items }: { items: TrustItem[] }) {
   return (
     <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
-      {items.map((item, i) => (
+      {items.map((item, i) => {
+        const img = itemImage(item.image)
+        return (
         <AnimateOnScroll key={i} stagger={((i % 4) + 1) as 1 | 2 | 3 | 4} className="h-full">
           <div className="flex h-full flex-col rounded-lg bg-[var(--surface)] p-6 text-center shadow-card">
-            <div className="mx-auto mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--secondary)]/10">
-              <IconByName name={item.icon} />
-            </div>
+            {img ? (
+              <div className="mx-auto mb-3 h-10 w-10 shrink-0 overflow-hidden rounded-md bg-[var(--surface-light)]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={img.src}
+                  alt={img.alt || item.title || ''}
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            ) : (
+              <div className="mx-auto mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--secondary)]/10">
+                <IconByName name={item.icon} />
+              </div>
+            )}
             {item.value && (
               <p
                 className="mb-1 text-2xl font-bold text-[var(--primary)]"
@@ -88,7 +132,8 @@ function Credentials({ items }: { items: TrustItem[] }) {
             )}
           </div>
         </AnimateOnScroll>
-      ))}
+        )
+      })}
     </div>
   )
 }

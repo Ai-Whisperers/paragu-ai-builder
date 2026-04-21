@@ -7,7 +7,16 @@ import { requireAdminUser } from '@/lib/commerce/admin-auth'
 
 export const runtime = 'nodejs'
 
-const BodySchema = z.object({ status: OrderStatusSchema })
+const BodySchema = z.object({
+  status: OrderStatusSchema,
+  tracking: z
+    .object({
+      carrier: z.string().max(80).nullable().optional(),
+      number: z.string().max(120).nullable().optional(),
+      url: z.string().url().max(500).nullable().optional(),
+    })
+    .optional(),
+})
 
 export const POST = withRequestLog<{ businessId: string; id: string }>(async (req, { log }, { businessId, id }) => {
   const admin = await requireAdminUser()
@@ -25,7 +34,7 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(async (re
   }
 
   try {
-    await transitionStatus(businessId, id, parsed.data.status)
+    await transitionStatus(businessId, id, parsed.data.status, { tracking: parsed.data.tracking })
     log.info('admin.commerce.order.transitioned', { businessId, orderId: id, status: parsed.data.status })
     return NextResponse.json({ ok: true })
   } catch (err) {
