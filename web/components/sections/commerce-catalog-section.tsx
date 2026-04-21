@@ -3,6 +3,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { listActiveProducts } from '@/lib/commerce/products'
 import { loadPygRates } from '@/lib/commerce/currency-server'
+import { logger } from '@/lib/logger'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { ProductCard } from '@/components/commerce/product-card'
@@ -41,13 +42,30 @@ export async function CommerceCatalogSection({
   limit = 24,
   locale = 'es',
 }: CommerceCatalogSectionProps) {
-  const business = await resolveBusinessBySlug(siteSlug)
-  if (!business || !(await isCommerceEnabled(business.type))) return null
-
-  const [products, rates] = await Promise.all([
-    listActiveProducts(business.id, { limit: limit + 1, sort: 'newest' }),
-    loadPygRates(),
-  ])
+  // Fail-soft: any crash in the data layer (missing business row, DB down,
+  // env misconfig, registry file not resolvable) returns null rather than
+  // 500ing the whole page. The tenant's store still renders its other
+  // sections, just without the grid.
+  let products: Awaited<ReturnType<typeof listActiveProducts>> = []
+  let rates: Record<string, number> = {}
+  try {
+    if (!siteSlug) return null
+    const business = await resolveBusinessBySlug(siteSlug)
+    if (!business || !(await isCommerceEnabled(business.type))) return null
+    const [fetchedProducts, fetchedRates] = await Promise.all([
+      listActiveProducts(business.id, { limit: limit + 1, sort: 'newest' }),
+      loadPygRates(),
+    ])
+    products = fetchedProducts
+    rates = fetchedRates
+  } catch (err) {
+    logger.error('[commerce-catalog] render failed — falling back to empty', {
+      action: 'commerce.catalog.render_failed',
+      siteSlug,
+      error: err instanceof Error ? err.message : String(err),
+    })
+    return null
+  }
   if (products.length === 0) return null
 
   const hasMore = products.length > limit
