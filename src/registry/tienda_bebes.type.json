@@ -19,7 +19,7 @@
   },
   "commerce": {
     "enabled": true,
-    "provider": "mercado_pago",
+    "provider": "pagopar",
     "currency": "PYG"
   }
 }
