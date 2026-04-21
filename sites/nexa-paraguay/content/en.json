@@ -660,6 +660,33 @@
       "subtitle": "Book a free 30-minute consultation.",
       "buttonText": "Book free consultation",
       "buttonHref": "/s/en/nexa-paraguay/contacto"
+    },
+    "highlights": {
+      "title": "Key moments of the journey",
+      "subtitle": "The details that make every stage work.",
+      "columns": 4,
+      "images": [
+        {
+          "src": "@src:process.apostilleStack",
+          "alt": "Apostilled documents ready",
+          "category": "Apostilled paperwork ready before you travel."
+        },
+        {
+          "src": "@src:process.operationalDay",
+          "alt": "Operational day",
+          "category": "The operational day: every signature in one visit."
+        },
+        {
+          "src": "@src:process.familyResidency",
+          "alt": "Family at migrations office",
+          "category": "Family residency, coordinated end-to-end."
+        },
+        {
+          "src": "@src:process.bankCustomerSide",
+          "alt": "Private-banking account opening",
+          "category": "Corporate or personal bank-account opening."
+        }
+      ]
     }
   },
   "aboutPage": {
