@@ -2,15 +2,20 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
-import { getProductBySlug } from '@/lib/commerce/products'
+import { getProductBySlug, listRelatedProducts } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductImage } from '@/components/commerce/product-image'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
+import { ProductCard } from '@/components/commerce/product-card'
+import { ProductShare } from '@/components/commerce/product-share'
+import { RecordRecentVisit } from '@/components/commerce/record-recent-visit'
+import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { PriceDisplay } from '@/components/commerce/price-display'
 import { loadPygRates } from '@/lib/commerce/currency-server'
+import { env } from '@/lib/env'
 
 export const runtime = 'nodejs'
 export const revalidate = 300
@@ -42,7 +47,10 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
   if (!product || product.status !== 'active') notFound()
 
   const cover = product.images.find((i) => i.isCover) ?? product.images[0]
-  const rates = await loadPygRates()
+  const [rates, related] = await Promise.all([
+    loadPygRates(),
+    listRelatedProducts(business.id, { excludeId: product.id, category: product.category, limit: 4 }),
+  ])
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -124,6 +132,8 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
           </div>
 
+          <ProductShare productName={product.name} productUrl={`${env.APP_URL}/s/${locale}/${site}/producto/${product.slug}`} />
+
           <div className="mt-8 rounded-lg bg-[color:var(--surface,#fff)] p-4 text-sm text-[color:var(--text-muted,#6b7280)]">
             <p>✓ Pago seguro</p>
             <p>✓ Envío a todo el Paraguay</p>
@@ -131,6 +141,31 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           </div>
         </div>
       </main>
+
+      <RecordRecentVisit
+        siteSlug={site}
+        productId={product.id}
+        productSlug={product.slug}
+        productName={product.name}
+        priceCents={product.priceCents}
+        currency={product.currency}
+        imageUrl={cover?.url ?? null}
+      />
+
+      <RecentlyViewedRail siteSlug={site} locale={locale} excludeId={product.id} />
+
+      {related.length > 0 ? (
+        <section aria-labelledby="related-heading" className="mx-auto max-w-5xl px-4 pb-12">
+          <h2 id="related-heading" className="mb-4 text-xl font-semibold text-[color:var(--text,#111)]">
+            {product.category ? `Más en ${product.category}` : 'También te puede gustar'}
+          </h2>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {related.map((p) => (
+              <ProductCard key={p.id} siteSlug={site} product={p} rates={rates} locale={locale} />
+            ))}
+          </div>
+        </section>
+      ) : null}
     </div>
   )
 }

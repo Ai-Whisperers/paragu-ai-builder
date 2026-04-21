@@ -43,13 +43,21 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es' 
         <div className="relative">
           <ProductImage image={cover} alt={product.name} priority={priority} isSeed={product.isSeed} />
           {discount ? (
-            <span className="absolute left-2 top-2 rounded bg-red-600 px-2 py-0.5 text-xs font-semibold text-white">-{discount}%</span>
+            <span className="absolute left-2 top-2 rounded bg-red-600 px-2 py-0.5 text-xs font-semibold text-white" aria-label={`Descuento del ${discount} por ciento`}>
+              −{discount}%
+            </span>
           ) : null}
           {lowStock ? (
-            <span className="absolute right-2 top-2 rounded bg-amber-500 px-2 py-0.5 text-xs font-semibold text-white">¡Últimas {product.inventoryQty}!</span>
+            <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded bg-amber-500 px-2 py-0.5 text-xs font-semibold text-white">
+              <span aria-hidden="true">⚠</span>
+              ¡Últimas {product.inventoryQty}!
+            </span>
           ) : null}
           {outOfStock ? (
-            <span className="absolute right-2 top-2 rounded bg-gray-700 px-2 py-0.5 text-xs font-semibold text-white">Agotado</span>
+            <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded bg-gray-700 px-2 py-0.5 text-xs font-semibold text-white">
+              <span aria-hidden="true">✕</span>
+              Agotado
+            </span>
           ) : null}
         </div>
       </Link>

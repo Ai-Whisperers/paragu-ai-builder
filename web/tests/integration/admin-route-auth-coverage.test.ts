@@ -59,6 +59,7 @@ const PUBLIC_ROUTE_ALLOWLIST: Array<{ path: string; reason: string }> = [
   { path: 'app/api/cron/commerce-email-flush/route.ts', reason: 'Cron route gated by CRON_SECRET header.' },
   { path: 'app/api/cron/commerce-abandoned-cart/route.ts', reason: 'Cron route gated by CRON_SECRET header.' },
   { path: 'app/api/cron/commerce-reconcile-pending/route.ts', reason: 'Cron route gated by CRON_SECRET header.' },
+  { path: 'app/api/cron/health/route.ts', reason: 'Cron route gated by CRON_SECRET header.' },
   // Storefront routes — public per-tenant by design (cart, checkout, etc.).
   // Authentication, when needed, happens at the order/payment level.
   ...[
