@@ -15,13 +15,15 @@ export function WebVitalsReporter(): null {
     try {
       const body = JSON.stringify({
         eventType: 'web_vital',
-        name: metric.name,
-        id: metric.id,
-        value: metric.value,
-        rating: metric.rating,
-        delta: metric.delta,
-        navigationType: metric.navigationType,
         pageUrl: typeof window !== 'undefined' ? window.location.pathname : undefined,
+        metadata: {
+          name: metric.name,
+          id: metric.id,
+          value: metric.value,
+          rating: metric.rating,
+          delta: metric.delta,
+          navigationType: metric.navigationType,
+        },
       })
       if (navigator.sendBeacon) {
         navigator.sendBeacon('/api/analytics/track', new Blob([body], { type: 'application/json' }))

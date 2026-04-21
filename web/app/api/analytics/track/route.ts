@@ -49,6 +49,7 @@ const VALID_EVENT_TYPES = [
   'demo_generated',
   'lead_created',
   'conversion',
+  'web_vital',
 ] as const
 
 type EventType = typeof VALID_EVENT_TYPES[number]
