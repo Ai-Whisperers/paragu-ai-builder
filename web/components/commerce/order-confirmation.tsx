@@ -15,6 +15,32 @@ interface Props {
 export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatus }: Props) {
   const [order, setOrder] = useState(initialOrder)
   const [polling, setPolling] = useState(initialOrder.status === 'awaiting_payment')
+  const [resendState, setResendState] = useState<
+    | { kind: 'idle' }
+    | { kind: 'sending' }
+    | { kind: 'sent'; sentTo: string }
+    | { kind: 'rate_limited'; waitSeconds: number }
+    | { kind: 'error'; message: string }
+  >({ kind: 'idle' })
+
+  async function handleResend() {
+    setResendState({ kind: 'sending' })
+    try {
+      const res = await fetch(`/api/storefront/${siteSlug}/orders/${order.id}/resend-email`, { method: 'POST' })
+      const data = await res.json().catch(() => ({}))
+      if (res.status === 429) {
+        setResendState({ kind: 'rate_limited', waitSeconds: data.retryAfterSeconds ?? 60 })
+        return
+      }
+      if (!res.ok) {
+        setResendState({ kind: 'error', message: data.error ?? 'resend_failed' })
+        return
+      }
+      setResendState({ kind: 'sent', sentTo: data.sentTo ?? order.customerEmail })
+    } catch {
+      setResendState({ kind: 'error', message: 'network_error' })
+    }
+  }
 
   useEffect(() => {
     if (!polling) return
@@ -61,9 +87,28 @@ export function OrderConfirmation({ siteSlug, locale, initialOrder, initialStatu
           </div>
         </div>
 
-        <p className="mb-4 text-sm text-[color:var(--text-muted,#6b7280)]">
+        <p className="mb-2 text-sm text-[color:var(--text-muted,#6b7280)]">
           Enviamos la confirmación a <strong>{order.customerEmail}</strong>.
         </p>
+
+        <div className="mb-6 text-xs">
+          {resendState.kind === 'sent' ? (
+            <p className="text-green-700">✓ Te reenviamos el email a {resendState.sentTo}.</p>
+          ) : resendState.kind === 'rate_limited' ? (
+            <p className="text-amber-700">Esperá {resendState.waitSeconds}s antes de reintentar.</p>
+          ) : resendState.kind === 'error' ? (
+            <p className="text-red-700">No pudimos reenviar el email ({resendState.message}). Probá más tarde.</p>
+          ) : (
+            <button
+              type="button"
+              onClick={handleResend}
+              disabled={resendState.kind === 'sending'}
+              className="text-[color:var(--primary,#111)] underline disabled:opacity-50"
+            >
+              {resendState.kind === 'sending' ? 'Enviando…' : '¿No te llegó? Reenviar email'}
+            </button>
+          )}
+        </div>
 
         <Link
           href={`/s/${locale}/${siteSlug}/tienda`}
