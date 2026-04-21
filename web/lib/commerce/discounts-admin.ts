@@ -10,28 +10,34 @@ import { scopedQueries } from '@/lib/supabase/scoped'
 export const DiscountTypeSchema = z.enum(['percent', 'fixed_amount', 'free_shipping'])
 export type DiscountType = z.infer<typeof DiscountTypeSchema>
 
-export const DiscountInputSchema = z
-  .object({
-    code: z.string().trim().min(1).max(80).transform((s) => s.toUpperCase()),
-    type: DiscountTypeSchema,
-    valuePercent: z.number().min(0).max(100).nullable().optional(),
-    valueCents: z.number().int().min(0).nullable().optional(),
-    minSubtotalCents: z.number().int().min(0).default(0),
-    currency: z.string().length(3).default('PYG'),
-    startsAt: z.string().datetime().nullable().optional(),
-    endsAt: z.string().datetime().nullable().optional(),
-    maxUses: z.number().int().min(1).nullable().optional(),
-    maxUsesPerCustomer: z.number().int().min(1).default(1),
-    status: z.enum(['active', 'paused', 'archived']).default('active'),
-  })
-  .refine(
-    (d) => {
-      if (d.type === 'percent') return typeof d.valuePercent === 'number' && d.valuePercent > 0
-      if (d.type === 'fixed_amount') return typeof d.valueCents === 'number' && d.valueCents > 0
-      return true // free_shipping needs no amount
-    },
-    { message: 'percent requires valuePercent; fixed_amount requires valueCents' },
-  )
+/**
+ * Raw object schema without refinement — exported so callers that need
+ * `.partial()` (PATCH routes) can derive a patch schema. Zod v4 rejects
+ * `.partial()` on schemas that carry refinements, so we keep the refine
+ * on DiscountInputSchema only (used for create/full-body validation).
+ */
+export const DiscountInputShape = z.object({
+  code: z.string().trim().min(1).max(80).transform((s) => s.toUpperCase()),
+  type: DiscountTypeSchema,
+  valuePercent: z.number().min(0).max(100).nullable().optional(),
+  valueCents: z.number().int().min(0).nullable().optional(),
+  minSubtotalCents: z.number().int().min(0).default(0),
+  currency: z.string().length(3).default('PYG'),
+  startsAt: z.string().datetime().nullable().optional(),
+  endsAt: z.string().datetime().nullable().optional(),
+  maxUses: z.number().int().min(1).nullable().optional(),
+  maxUsesPerCustomer: z.number().int().min(1).default(1),
+  status: z.enum(['active', 'paused', 'archived']).default('active'),
+})
+
+export const DiscountInputSchema = DiscountInputShape.refine(
+  (d) => {
+    if (d.type === 'percent') return typeof d.valuePercent === 'number' && d.valuePercent > 0
+    if (d.type === 'fixed_amount') return typeof d.valueCents === 'number' && d.valueCents > 0
+    return true // free_shipping needs no amount
+  },
+  { message: 'percent requires valuePercent; fixed_amount requires valueCents' },
+)
 export type DiscountInput = z.infer<typeof DiscountInputSchema>
 
 export interface DiscountRecord {

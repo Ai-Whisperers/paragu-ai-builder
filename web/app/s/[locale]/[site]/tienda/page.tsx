@@ -5,7 +5,7 @@ import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductCard } from '@/components/commerce/product-card'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
-import { loadPygRates } from '@/lib/commerce/currency'
+import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
 export const revalidate = 300

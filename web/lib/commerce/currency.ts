@@ -1,6 +1,9 @@
-import { createAdminClient } from '@/lib/supabase/admin'
-
 /**
+ * Pure, client-safe currency helpers. Do NOT import server-only modules
+ * here — <PriceDisplay> is a client component and transitively loads this
+ * file, so any next/headers dependency would poison the client bundle.
+ * Server-only rate loading lives in `currency-server.ts`.
+ *
  * Supported display currencies. Base currency stays PYG — we only convert
  * at RENDER time for shopper display. Actual charges still go through
  * Pagopar in PYG. Full multi-currency settlement is a future dLocal PR.
@@ -17,31 +20,6 @@ export interface ExchangeRate {
   to: string
   rate: number
   asOf: string
-}
-
-/**
- * Load the most recent rate for each PYG→X pair. Small enough (≤3 pairs)
- * that caching in Next fetch cache is sufficient — no dedicated Redis
- * layer needed at this volume.
- */
-export async function loadPygRates(): Promise<Record<string, number>> {
-  const supabase = await createAdminClient()
-  const pairs: Record<string, number> = { PYG: 1 }
-
-  const { data } = await supabase
-    .from('exchange_rates')
-    .select('from_currency, to_currency, rate, as_of')
-    .eq('from_currency', 'PYG')
-    .in('to_currency', ['USD', 'ARS', 'BRL'])
-    .order('as_of', { ascending: false })
-
-  const rows = Array.isArray(data) ? data : []
-  for (const row of rows) {
-    const key = row.to_currency as string
-    // Each target currency's first row (most recent as_of) wins.
-    if (pairs[key] === undefined) pairs[key] = Number(row.rate)
-  }
-  return pairs
 }
 
 /**

@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { requireAdminUser } from '@/lib/commerce/admin-auth'
-import { updateDiscount, deleteDiscount, DiscountInputSchema } from '@/lib/commerce/discounts-admin'
+import { updateDiscount, deleteDiscount, DiscountInputShape } from '@/lib/commerce/discounts-admin'
 
 export const runtime = 'nodejs'
 
-const PatchSchema = DiscountInputSchema.partial()
+const PatchSchema = DiscountInputShape.partial()
 
 export const PATCH = withRequestLog<{ businessId: string; id: string }>(async (req, { log }, { businessId, id }) => {
   const admin = await requireAdminUser()

@@ -9,7 +9,7 @@ import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
 import { PriceDisplay } from '@/components/commerce/price-display'
-import { loadPygRates } from '@/lib/commerce/currency'
+import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
 export const revalidate = 300
