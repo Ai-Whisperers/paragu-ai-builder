@@ -21,10 +21,7 @@ import { ReviewForm } from '@/components/commerce/review-form'
 import { ReviewStars } from '@/components/commerce/review-stars'
 import { PdpStickyMobileCta } from '@/components/commerce/pdp-sticky-mobile-cta'
 import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
-<<<<<<< HEAD
-=======
 import { PdpViewTracker } from '@/components/commerce/pdp-view-tracker'
->>>>>>> origin/Main
 import {
   listApprovedReviews,
   getReviewAggregatesByBusiness,

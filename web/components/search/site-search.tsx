@@ -1,11 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-<<<<<<< HEAD
 import { Search, X, FileText, HelpCircle, BookOpen, Home, Calculator, ClipboardList, Mail, MessageCircle } from 'lucide-react'
-=======
-import { Search, X, FileText, HelpCircle, BookOpen, Home } from 'lucide-react'
->>>>>>> origin/Main
 import { BLOG_POSTS, CONTENT } from '@/lib/engine/generated/tenant-data'
 
 /**
@@ -110,7 +106,6 @@ function iconFor(type: SearchItem['type']) {
   }
 }
 
-<<<<<<< HEAD
 function actionIcon(name: QuickAction['icon']) {
   switch (name) {
     case 'FileText': return FileText
@@ -157,8 +152,6 @@ const ACTIONS: Record<string, Array<{ label: string; href: string; icon: QuickAc
   ],
 }
 
-=======
->>>>>>> origin/Main
 const PLACEHOLDERS: Record<string, string> = {
   de: 'Artikel, FAQs, Glossar durchsuchen…',
   en: 'Search articles, FAQs, glossary…',
@@ -238,7 +231,6 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
             <X size={18} />
           </button>
         </div>
-<<<<<<< HEAD
         {!query.trim() && (
           <ul className="border-b border-[var(--border)] py-2">
             <li className="px-4 pb-1 pt-2 text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
@@ -260,8 +252,6 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
             })}
           </ul>
         )}
-=======
->>>>>>> origin/Main
         <ul className="max-h-[60vh] overflow-y-auto py-2">
           {results.length === 0 ? (
             <li className="px-6 py-8 text-center text-sm text-[var(--text-muted)]">—</li>
