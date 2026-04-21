@@ -95,6 +95,8 @@ const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
   'promo-banner': PromoBannerSection,
   'newsletter-signup': NewsletterSignupSection,
+  'tax-savings-calculator': TaxSavingsCalculatorSection,
+  'intake-wizard': IntakeWizardSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {
