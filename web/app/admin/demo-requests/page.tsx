@@ -8,10 +8,9 @@
  * Server component: fetches the most recent 200 events server-side and
  * renders a sortable table. No client-side state — refresh to see new ones.
  */
-import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { logger } from '@/lib/logger'
+import { requireAdmin } from '@/lib/auth/admin'
 import { TEMPLATES } from '@/lib/landing/marketing-data'
 
 export const runtime = 'nodejs'
@@ -74,25 +73,8 @@ function ago(iso: string): string {
 }
 
 export default async function DemoRequestsPage() {
+  await requireAdmin()
   const supabase = await createClient()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) redirect('/login?error=unauthorized')
-
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('role')
-    .eq('id', user.id)
-    .single()
-
-  if (profile?.role !== 'admin') {
-    logger.warn('Non-admin attempted to access /admin/demo-requests', {
-      userId: user.id,
-      role: profile?.role,
-    })
-    redirect('/unauthorized')
-  }
 
   const { data: events, error } = await supabase
     .from('analytics_events')

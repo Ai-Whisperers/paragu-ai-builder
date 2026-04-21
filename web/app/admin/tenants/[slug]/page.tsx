@@ -5,12 +5,12 @@
  * grace status, recent analytics events, recent outreach events, and a
  * notes log. Note-add posts to /api/admin/tenants/[slug]/notes.
  *
- * Auth: presence of an authenticated session (middleware blocks anon).
- * TODO: gate by profiles.role='admin' once that table is introduced.
+ * Auth: env-allowlisted admin emails (see lib/auth/admin.ts and ADMIN_EMAILS).
  */
-import { notFound, redirect } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
+import { requireAdmin } from '@/lib/auth/admin'
 import { logger } from '@/lib/logger'
 import { TenantNoteForm } from './tenant-note-form'
 
@@ -90,12 +90,9 @@ function ago(iso: string): string {
 }
 
 export default async function TenantDetailPage({ params }: { params: Promise<Params> }) {
+  await requireAdmin()
   const { slug } = await params
   const supabase = await createClient()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) redirect('/login?error=unauthorized')
 
   const { data: biz, error } = await supabase
     .from('businesses')

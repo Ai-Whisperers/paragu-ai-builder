@@ -10,8 +10,8 @@
  * - Quick status updates
  */
 
-import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
+import { requireAdmin } from '@/lib/auth/admin'
 import { LeadsDashboardClient } from './leads-dashboard-client'
 import { logger } from '@/lib/logger'
 
@@ -201,31 +201,12 @@ export default async function AdminLeadsPage({
 }: {
   searchParams: { [key: string]: string | string[] | undefined }
 }) {
-  // Anonymous access is blocked by middleware.ts — if we reach this component,
-  // a Supabase session is already refreshed. We still check role here because
-  // role is business logic (admin vs. regular user), not authentication.
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) {
-    // Defensive: middleware should have caught this, but do not render for
-    // anonymous in case someone added an exception above.
-    redirect('/login?error=unauthorized')
-  }
+  // Admin gate: env-allowlisted emails (see lib/auth/admin.ts and the
+  // ADMIN_EMAILS env var). Replaces the prior profiles.role lookup which
+  // silently failed because the profiles table doesn't exist in this project.
+  await requireAdmin()
 
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('role')
-    .eq('id', user.id)
-    .single()
 
-  if (profile?.role !== 'admin') {
-    logger.warn('Non-admin attempted to access admin panel', {
-      userId: user.id,
-      role: profile?.role,
-    })
-    redirect('/unauthorized')
-  }
-  
   // Normalize search params
   const params = {
     status: typeof searchParams.status === 'string' ? searchParams.status : undefined,
