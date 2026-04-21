@@ -34,7 +34,7 @@ const ROSTER_PATH = path.join(SITES, '_demo-roster.json')
 
 // AI Whisperers sales inbox — all demo leads flow here.
 // TODO: replace placeholder with the real sales WhatsApp line before production.
-const SALES_WHATSAPP = '+595981000000'
+const SALES_WHATSAPP = '+595985724135'
 const SALES_EMAIL = 'ventas@paragu-ai.com'
 const SALES_WA_DIGITS = SALES_WHATSAPP.replace(/\D/g, '')
 
