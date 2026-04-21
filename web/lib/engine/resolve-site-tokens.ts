@@ -2,9 +2,11 @@
  * Resolves design tokens for a tenant site by layering:
  *   base tokens  →  vertical defaults  →  site overrides
  * Produces CSS custom properties for injection.
+ *
+ * All three inputs come from the auto-generated tenant-data module
+ * (see `scripts/generate-tenant-data.ts`) — no filesystem access at runtime.
  */
-import { existsSync, readFileSync } from 'fs'
-import { resolve } from 'path'
+import { BASE_TOKENS } from './generated/tenant-data'
 import { loadSiteTokens, loadVerticalTokens } from './site-loader'
 
 interface PaletteColors {
@@ -50,22 +52,6 @@ interface BaseTokens {
   semanticColors?: Record<string, { value: string }>
 }
 
-// Project root — the dir containing `src/` and `sites/`.
-// - Local dev (web/ is a subdir): `..` from cwd.
-// - Docker standalone (src/ and server.js sit at /app): cwd itself.
-// Detect by checking where `src/` actually lives. SRC_DIR env var wins
-// if set (runtime override).
-const PROJECT_ROOT = (() => {
-  if (process.env.SRC_DIR) return resolve(process.env.SRC_DIR, '..')
-  const cwd = process.cwd()
-  return existsSync(resolve(cwd, 'src')) ? cwd : resolve(cwd, '..')
-})()
-
-function readJson<T>(relPath: string): T {
-  const fullPath = resolve(PROJECT_ROOT, relPath)
-  return JSON.parse(readFileSync(fullPath, 'utf-8')) as T
-}
-
 function mergeTokens(a: TokensFile, b: TokensFile): TokensFile {
   return {
     theme: b.theme ?? a.theme,
@@ -87,11 +73,11 @@ export function resolveSiteTokens(
   verticalId: string,
   siteSlug: string,
 ): SiteResolvedTokens {
-  const base = readJson<BaseTokens>('src/tokens/base.tokens.json')
+  const base = BASE_TOKENS as unknown as BaseTokens
   const vertical = loadVerticalTokens(verticalId) as TokensFile
   const site = loadSiteTokens(siteSlug) as TokensFile
 
-  // Fallback to empty tokens object if files don't exist (Edge runtime or missing files)
+  // Fallback to a sensible default palette if the vertical has no tokens yet.
   const safeVertical = vertical.palettes ? vertical : ({
     theme: 'light',
     palettes: {
