@@ -21,6 +21,23 @@ export interface HeroSectionProps {
   floatingHeadline?: boolean
   glassCard?: boolean
   eyebrow?: string
+  /** URL locale — used to pick trust-badge labels when `enhanced` is on. */
+  __locale?: string
+  /** Opt-out of the enhanced trust-badges row (some tenants prefer a clean hero). */
+  trustBadgesEnabled?: boolean
+}
+
+// The enhanced hero optionally shows three small trust-badges (shield +
+// label) below the CTAs. Labels are locale-aware — previously hardcoded
+// as German ("Professionell / Transparent / Vertrauenswürdig"), which
+// bled into every non-Nexa tenant. Set trustBadgesEnabled=false on a
+// hero to drop them entirely.
+const TRUST_BADGE_LABELS: Record<string, [string, string, string]> = {
+  de: ['Professionell', 'Transparent', 'Vertrauenswürdig'],
+  en: ['Professional', 'Transparent', 'Trustworthy'],
+  es: ['Profesional', 'Transparente', 'De confianza'],
+  nl: ['Professioneel', 'Transparant', 'Betrouwbaar'],
+  pt: ['Profissional', 'Transparente', 'Confiável'],
 }
 
 export function HeroSection({
@@ -37,7 +54,10 @@ export function HeroSection({
   floatingHeadline = false,
   glassCard = true,
   eyebrow,
+  __locale,
+  trustBadgesEnabled = true,
 }: HeroSectionProps) {
+  const trustBadges = TRUST_BADGE_LABELS[__locale ?? 'es'] ?? TRUST_BADGE_LABELS.es
   const content = (
     <Container className="relative z-10 py-16 sm:py-24 lg:py-32">
       <div className={cn("max-w-4xl mx-auto text-center", enhanced && "hero-content-animate")}>
@@ -83,21 +103,15 @@ export function HeroSection({
           )}
         </div>
 
-        {enhanced && (
+        {enhanced && trustBadgesEnabled && (
           <div className="mt-12 sm:mt-16 hero-animate-delay-4">
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm" style={{ color: 'rgba(255,255,255,0.7)' }}>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                <span>Professionell</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                <span>Transparent</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                <span>Vertrauenswürdig</span>
-              </div>
+              {trustBadges.map((label) => (
+                <div key={label} className="flex items-center gap-2">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                  <span>{label}</span>
+                </div>
+              ))}
             </div>
           </div>
         )}

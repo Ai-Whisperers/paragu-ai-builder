@@ -36,12 +36,12 @@ const NETWORK_LABEL: Record<string, string> = {
   pt: 'Rede Nexa',
 }
 
-const FOOTER_LABELS: Record<string, { links: string; contact: string; social: string }> = {
-  de: { links: 'Links', contact: 'Kontakt', social: 'Social Media' },
-  en: { links: 'Links', contact: 'Contact', social: 'Social' },
-  es: { links: 'Enlaces', contact: 'Contacto', social: 'Redes' },
-  nl: { links: 'Links', contact: 'Contact', social: 'Social' },
-  pt: { links: 'Links', contact: 'Contato', social: 'Social' },
+const FOOTER_LABELS: Record<string, { links: string; contact: string; social: string; rights: string }> = {
+  de: { links: 'Links', contact: 'Kontakt', social: 'Social Media', rights: 'Alle Rechte vorbehalten.' },
+  en: { links: 'Links', contact: 'Contact', social: 'Social', rights: 'All rights reserved.' },
+  es: { links: 'Enlaces', contact: 'Contacto', social: 'Redes', rights: 'Todos los derechos reservados.' },
+  nl: { links: 'Links', contact: 'Contact', social: 'Social', rights: 'Alle rechten voorbehouden.' },
+  pt: { links: 'Links', contact: 'Contato', social: 'Social', rights: 'Todos os direitos reservados.' },
 }
 
 /**
@@ -264,7 +264,7 @@ export function FooterSection({
             color: 'rgba(255,255,255,0.5)',
           }}
         >
-          © {year} {businessName}. Alle Rechte vorbehalten.
+          © {year} {businessName}. {labels.rights}
         </div>
       </Container>
     </footer>
