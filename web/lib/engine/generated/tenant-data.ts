@@ -4805,12 +4805,17 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "country": "Paraguay",
     "defaultLocale": "en",
+    "demoMode": {
+      "aiPlaceholdersAllowed": true,
+      "enabled": true,
+      "reason": "Pre-client-handoff demo. AI-generated portraits (team, testimonials) and AI-written copy are intentional placeholders shown to prospects. Swap in real consented content + set isLiveProduction:true before running paid traffic."
+    },
     "domain": "nexaparaguay.com",
     "features": {
       "blog": true,
       "heroImages": true,
       "processImages": true,
-      "testimonials": false,
+      "testimonials": true,
       "whatsappFloat": true
     },
     "images": {
@@ -4823,7 +4828,7 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": false,
+    "is_demo": true,
     "locales": [
       "nl",
       "en",
@@ -30172,6 +30177,160 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
     },
     "tenant": "nexa-uruguay",
     "totalImages": 8
+  },
+}
+
+export const TESTIMONIALS_DATA: Record<string, JsonRecord> = {
+  "nexa-paraguay": {
+    "_note": "Demo-mode content. Quotes, names, roles, and portraits are AI-generated placeholders shown to prospects pre-handoff. Swap for real consented content before setting isLiveProduction:true — see docs/DEMO_CONTENT.md. videoPoster slots are ready; videoUrl left empty renders a 'video coming soon' thumbnail.",
+    "testimonials": {
+      "items": [
+        {
+          "date": "2024-03-15",
+          "id": "testimonial-1",
+          "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.png",
+          "location": "Asunción, Paraguay",
+          "name": "Marcelo Díaz",
+          "program": "Paraguay Business",
+          "quote": "Nexa Paraguay hizo que el proceso de radicación fuera increíblemente simple. En solo 8 semanas tenía mi residencia, sociedad y cuenta bancaria funcionando. El equipo técnico es profesional y siempre disponible.",
+          "rating": 5,
+          "role": "Emprendedor Argentino",
+          "verified": true,
+          "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-1.webp",
+          "videoUrl": ""
+        },
+        {
+          "date": "2024-02-20",
+          "id": "testimonial-2",
+          "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.png",
+          "location": "Ciudad del Este, Paraguay",
+          "name": "Ana Lucía Fernández",
+          "program": "Paraguay Base",
+          "quote": "Como freelancer, necesitaba una estructura legal sólida sin complicaciones. El programa Paraguay Base me dio exactamente eso. El acompañamiento en cada paso del proceso fue excepcional.",
+          "rating": 5,
+          "role": "Consultora de Marketing Digital",
+          "verified": true,
+          "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-2.webp",
+          "videoUrl": ""
+        },
+        {
+          "date": "2024-01-10",
+          "id": "testimonial-3",
+          "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.png",
+          "location": "San Bernardino, Paraguay",
+          "name": "Roberto González",
+          "program": "Paraguay Investor",
+          "quote": "El Paraguay Investor Program incluyó un tour estratégico inmobiliario que me permitió identificar oportunidades de inversión únicas. Ya tengo 3 propiedades rentables en mi portafolio paraguayo.",
+          "rating": 5,
+          "role": "Inversor Inmobiliario",
+          "verified": true,
+          "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-3.webp",
+          "videoUrl": ""
+        },
+        {
+          "date": "2024-04-05",
+          "id": "testimonial-4",
+          "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.png",
+          "location": "Asunción, Paraguay",
+          "name": "Carolina Silva",
+          "program": "Paraguay Business",
+          "quote": "La apertura de cuenta bancaria empresarial fue rápida y sin complicaciones. Nexa coordinó todo perfectamente con el banco. Ahora mi startup opera 100% desde Paraguay.",
+          "rating": 5,
+          "role": "CEO Tech Startup",
+          "verified": true,
+          "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-4.webp",
+          "videoUrl": ""
+        },
+        {
+          "date": "2024-03-28",
+          "id": "testimonial-5",
+          "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.png",
+          "location": "Alto Paraná, Paraguay",
+          "name": "Fernando Morales",
+          "program": "Paraguay Land",
+          "quote": "Compre tierras productivas a través del programa Paraguay Land Acquisition. El análisis legal de la propiedad y el apoyo en la negociación fueron invaluables. Excelente retorno de inversión.",
+          "rating": 5,
+          "role": "Productor Agropecuario",
+          "verified": true,
+          "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-5.webp",
+          "videoUrl": ""
+        }
+      ],
+      "stats": {
+        "averageRating": 4.9,
+        "countries": [
+          "Argentina",
+          "Brasil",
+          "Uruguay",
+          "Chile",
+          "Colombia",
+          "España",
+          "Estados Unidos"
+        ],
+        "satisfactionRate": 98,
+        "totalClients": 250
+      },
+      "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
+      "title": "Lo que dicen nuestros clientes"
+    }
+  },
+  "nexa-uruguay": {
+    "testimonials": {
+      "items": [
+        {
+          "date": "2024-03-15",
+          "id": "testimonial-uy-1",
+          "image": "/sites/nexa-uruguay/images/testimonials/client-1.jpg",
+          "location": "Montevideo, Uruguay",
+          "name": "Alexander Schmidt",
+          "program": "Uruguay Business",
+          "quote": "Nexa Uruguay made the relocation process seamless. From residency to company formation and banking, everything was handled professionally. The team was always available to answer questions.",
+          "rating": 5,
+          "role": "Tech Entrepreneur",
+          "verified": true
+        },
+        {
+          "date": "2024-02-20",
+          "id": "testimonial-uy-2",
+          "image": "/sites/nexa-uruguay/images/testimonials/client-2.jpg",
+          "location": "Punta del Este, Uruguay",
+          "name": "Maria Fernanda Lopez",
+          "program": "Uruguay Base",
+          "quote": "As a remote worker, I needed a stable base with good infrastructure. Uruguay offered exactly that. Nexa handled all the paperwork and I was settled within weeks.",
+          "rating": 5,
+          "role": "Digital Nomad Consultant",
+          "verified": true
+        },
+        {
+          "date": "2024-01-10",
+          "id": "testimonial-uy-3",
+          "image": "/sites/nexa-uruguay/images/testimonials/client-3.jpg",
+          "location": "Colonia del Sacramento, Uruguay",
+          "name": "James Morrison",
+          "program": "Uruguay Investor",
+          "quote": "The Uruguay Investor Program gave me everything I needed - residency, company structure, banking, and ongoing support. The tax benefits are substantial.",
+          "rating": 5,
+          "role": "Investment Manager",
+          "verified": true
+        }
+      ],
+      "stats": {
+        "averageRating": 4.9,
+        "countries": [
+          "Germany",
+          "USA",
+          "Argentina",
+          "Spain",
+          "UK",
+          "Canada",
+          "Brazil"
+        ],
+        "satisfactionRate": 97,
+        "totalClients": 180
+      },
+      "subtitle": "Real stories from people who established their operations in Uruguay",
+      "title": "What our clients say"
+    }
   },
 }
 

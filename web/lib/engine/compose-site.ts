@@ -19,6 +19,7 @@ import {
   loadSite,
   loadPage,
   loadSiteContent,
+  loadSiteTestimonials,
   loadVerticalCopy,
   loadVertical,
 } from './site-loader'
@@ -135,7 +136,8 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
           __currentPath: pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug,
         }
         const withCommerce = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
-        const props = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)
+        const withBlog = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)
+        const props = injectTestimonialItems(s.id, withBlog, siteSlug)
         return { id: s.id, variant, props }
       } catch (err) {
         logger.error('Site composition: section content resolution failed', {
@@ -347,4 +349,40 @@ function injectBlogIndexPosts(
     href: `/s/${locale}/${siteSlug}/blog/${p.slug}`,
   }))
   return { ...props, posts }
+}
+
+/**
+ * Connects the `testimonials` section to `sites/<slug>/testimonials.json`.
+ *
+ * The content ref (`home.testimonials`) typically only ships the header
+ * copy (eyebrow / title / subtitle / CTA). The actual client list lives
+ * at the tenant root in `testimonials.json` — mapping its fields to the
+ * component's Testimonial shape (`name → author`, `image → avatar`).
+ *
+ * Caller escape hatch: if the content ref already provided `items` or
+ * `testimonials`, that wins (manual override stays authoritative).
+ */
+function injectTestimonialItems(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteSlug: string,
+): Record<string, unknown> {
+  if (sectionId !== 'testimonials') return props
+  if (Array.isArray(props.items) && props.items.length > 0) return props
+  if (Array.isArray(props.testimonials) && props.testimonials.length > 0) return props
+  const payload = loadSiteTestimonials(siteSlug)
+  if (!payload) return props
+  const container = (payload.testimonials as Record<string, unknown> | undefined) ?? payload
+  const raw = (container?.items as Array<Record<string, unknown>> | undefined) ?? []
+  if (raw.length === 0) return props
+  const items = raw.map((t) => ({
+    quote: (t.quote as string) ?? '',
+    author: (t.author as string) ?? (t.name as string) ?? '',
+    role: (t.role as string) ?? undefined,
+    rating: typeof t.rating === 'number' ? (t.rating as number) : undefined,
+    avatar: (t.avatar as string) ?? (t.image as string) ?? undefined,
+    videoUrl: (t.videoUrl as string) || undefined,
+    videoPoster: (t.videoPoster as string) || undefined,
+  }))
+  return { ...props, items }
 }
