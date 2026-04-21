@@ -324,6 +324,102 @@
       "phone": "+595 976 569 739",
       "email": "hola@fun4me.com.py",
       "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado"
+    },
+    "trustSignals": {
+      "eyebrow": "Por qué confiar en nosotros",
+      "title": "Un servicio diseñado para tu privacidad",
+      "items": [
+        {
+          "icon": "Shield",
+          "title": "Verificado 18+",
+          "description": "Age-gate activo en todo el sitio. Solo acceso para mayores de edad."
+        },
+        {
+          "icon": "Package",
+          "title": "Empaque neutro",
+          "description": "Cajas sin marca, sin referencias al contenido. Nadie sabe qué hay adentro."
+        },
+        {
+          "icon": "Lock",
+          "title": "Pago seguro",
+          "description": "Procesamos pagos cifrados. Tus datos no se comparten con terceros."
+        },
+        {
+          "icon": "Users",
+          "title": "Asesoría discreta",
+          "description": "Consultas por WhatsApp privado. Te respondemos con el nombre que prefieras."
+        }
+      ]
+    },
+    "whyFun4me": {
+      "eyebrow": "Por qué fun4me",
+      "title": "Una experiencia de compra pensada para vos",
+      "pillars": [
+        {
+          "icon": "Heart",
+          "title": "Catálogo curado",
+          "description": "Seleccionamos productos de marcas reconocidas y testeadas. No vendemos nada que no recomendaríamos.",
+          "bullets": [
+            "Marcas internacionales",
+            "Productos certificados",
+            "Guías de uso incluidas"
+          ]
+        },
+        {
+          "icon": "Truck",
+          "title": "Envío discreto a todo el país",
+          "description": "Empaque neutro, motoenvío rápido en Gran Asunción y encomienda al interior. Rastreable en todo momento.",
+          "bullets": [
+            "Gran Asunción: 2-24 hs",
+            "Interior: 2-5 días hábiles",
+            "Gratis desde Gs 300.000"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "title": "Privacidad total",
+          "description": "Tu nombre, tu dirección, tu pedido — solo vos y nosotros. Factura a nombre genérico si lo preferís.",
+          "bullets": [
+            "Factura opcional",
+            "WhatsApp privado",
+            "Sin registro en perfil público"
+          ]
+        }
+      ],
+      "honestNote": "Comprar este tipo de productos sigue siendo un tema sensible en Paraguay. Por eso diseñamos cada detalle — del empaque al checkout — para que la experiencia sea completamente discreta."
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Tu pedido en 4 pasos simples",
+      "totalDuration": "En Gran Asunción: mismo día. Interior: 2-5 días hábiles.",
+      "ctaLabel": "Ver catálogo",
+      "ctaHref": "/s/es/fun4me/tienda",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Elegís tus productos",
+          "description": "Agregás al carrito lo que querés. Podés pedir asesoría por WhatsApp si tenés dudas.",
+          "icon": "ShoppingBag"
+        },
+        {
+          "number": 2,
+          "title": "Pagás de forma segura",
+          "description": "Pagopar con tarjeta, transferencia o efectivo. Sin que aparezca fun4me en tu estado de cuenta.",
+          "icon": "CreditCard"
+        },
+        {
+          "number": 3,
+          "title": "Empacamos discreto",
+          "description": "Caja sin marca, sin logos, sin referencias. Nadie sabe qué hay adentro.",
+          "icon": "Package"
+        },
+        {
+          "number": 4,
+          "title": "Llega a tu puerta",
+          "description": "Motoenvío rápido en Gran Asunción o encomienda al interior. Siempre con tracking.",
+          "icon": "Truck"
+        }
+      ]
     }
   },
   "about": {
@@ -1024,6 +1120,108 @@
       "subtitle": "Primer envio en menos de 30 dias. Cancelas cuando quieras.",
       "buttonText": "Suscribirme",
       "buttonHref": "/fun4me/suscripciones#elegir-nivel"
+    },
+    "comparison": {
+      "eyebrow": "Comparación completa",
+      "title": "Qué incluye cada caja",
+      "subtitle": "Elegí la opción que mejor se adapta a vos. Podés cambiar o cancelar cuando quieras.",
+      "tiers": [
+        {
+          "id": "basica",
+          "name": "Básica",
+          "price": "Gs 250.000",
+          "priceNote": "/mes",
+          "ctaLabel": "Suscribirme",
+          "ctaHref": "/s/es/fun4me/tienda?subscription=basica",
+          "included": []
+        },
+        {
+          "id": "plus",
+          "name": "Plus",
+          "price": "Gs 450.000",
+          "priceNote": "/mes",
+          "badge": "Más popular",
+          "highlighted": true,
+          "ctaLabel": "Suscribirme",
+          "ctaHref": "/s/es/fun4me/tienda?subscription=plus",
+          "included": []
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "price": "Gs 750.000",
+          "priceNote": "/mes",
+          "ctaLabel": "Suscribirme",
+          "ctaHref": "/s/es/fun4me/tienda?subscription=premium",
+          "included": []
+        }
+      ],
+      "comparisonRows": [
+        {
+          "feature": "Productos por caja",
+          "values": [
+            "3-4",
+            "5-6",
+            "7-8"
+          ]
+        },
+        {
+          "feature": "Valor retail mensual",
+          "values": [
+            "Gs 350k",
+            "Gs 650k",
+            "Gs 1.100k"
+          ]
+        },
+        {
+          "feature": "Envío discreto gratis",
+          "values": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Acceso a launches exclusivos",
+          "values": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Consultoría sexual 1:1",
+          "values": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "feature": "Descuento en tienda",
+          "values": [
+            "5%",
+            "10%",
+            "15%"
+          ]
+        },
+        {
+          "feature": "Cancelación libre",
+          "values": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "feature": "Pausa sin costo",
+          "values": [
+            true,
+            true,
+            true
+          ]
+        }
+      ]
     }
   },
   "sizeGuide": {

@@ -29,6 +29,11 @@
       "content": "subscriptions.howItWorks"
     },
     {
+      "id": "programs-comparison",
+      "variant": "matrix",
+      "content": "subscriptions.comparison"
+    },
+    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "subscriptions.testimonials"

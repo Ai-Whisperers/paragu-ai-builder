@@ -4808,7 +4808,7 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsappFloat": true
     },
     "images": {
-      "hero": "/sites/nexa-paraguay/images/hero/hero-bg.jpg",
+      "hero": "/sites/nexa-paraguay/images/hero/hero-bg.png",
       "manifest": "/sites/nexa-paraguay/images.json"
     },
     "integrations": {
@@ -9339,14 +9339,29 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.features",
-        "id": "services",
-        "variant": "cards"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.whyFun4me",
+        "id": "why-destination",
+        "variant": "three-col"
       },
       {
         "content": "home.categories",
         "id": "services",
         "variant": "cards"
+      },
+      {
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
       },
       {
         "content": "home.testimonials",
@@ -9636,6 +9651,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
         "content": "home.promo",
         "id": "cta-banner",
         "variant": "solid"
@@ -9686,6 +9706,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "subscriptions.howItWorks",
         "id": "services",
         "variant": "cards"
+      },
+      {
+        "content": "subscriptions.comparison",
+        "id": "programs-comparison",
+        "variant": "matrix"
       },
       {
         "content": "subscriptions.testimonials",
@@ -17835,6 +17860,39 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Marcas Disponibles"
       },
+      "process": {
+        "ctaHref": "/s/es/fun4me/tienda",
+        "ctaLabel": "Ver catálogo",
+        "eyebrow": "Cómo funciona",
+        "steps": [
+          {
+            "description": "Agregás al carrito lo que querés. Podés pedir asesoría por WhatsApp si tenés dudas.",
+            "icon": "ShoppingBag",
+            "number": 1,
+            "title": "Elegís tus productos"
+          },
+          {
+            "description": "Pagopar con tarjeta, transferencia o efectivo. Sin que aparezca fun4me en tu estado de cuenta.",
+            "icon": "CreditCard",
+            "number": 2,
+            "title": "Pagás de forma segura"
+          },
+          {
+            "description": "Caja sin marca, sin logos, sin referencias. Nadie sabe qué hay adentro.",
+            "icon": "Package",
+            "number": 3,
+            "title": "Empacamos discreto"
+          },
+          {
+            "description": "Motoenvío rápido en Gran Asunción o encomienda al interior. Siempre con tracking.",
+            "icon": "Truck",
+            "number": 4,
+            "title": "Llega a tu puerta"
+          }
+        ],
+        "title": "Tu pedido en 4 pasos simples",
+        "totalDuration": "En Gran Asunción: mismo día. Interior: 2-5 días hábiles."
+      },
       "promo": {
         "enabled": true,
         "href": "/fun4me/store",
@@ -17913,20 +17971,86 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Testimonios reales de clientes satisfechos.",
         "title": "Lo que dicen nuestros clientes"
       },
-      "trustBadges": [
-        {
-          "icon": "truck",
-          "text": "Envio a Todo el Pais"
-        },
-        {
-          "icon": "shield",
-          "text": "Pago Seguro"
-        },
-        {
-          "icon": "package",
-          "text": "Empaque Discreto"
-        }
-      ]
+      "trustBadges": {
+        "items": [
+          {
+            "icon": "truck",
+            "text": "Envio a Todo el Pais"
+          },
+          {
+            "icon": "shield",
+            "text": "Pago Seguro"
+          },
+          {
+            "icon": "package",
+            "text": "Empaque Discreto"
+          }
+        ],
+        "title": "Por qué comprar acá"
+      },
+      "trustSignals": {
+        "eyebrow": "Por qué confiar en nosotros",
+        "items": [
+          {
+            "description": "Age-gate activo en todo el sitio. Solo acceso para mayores de edad.",
+            "icon": "Shield",
+            "title": "Verificado 18+"
+          },
+          {
+            "description": "Cajas sin marca, sin referencias al contenido. Nadie sabe qué hay adentro.",
+            "icon": "Package",
+            "title": "Empaque neutro"
+          },
+          {
+            "description": "Procesamos pagos cifrados. Tus datos no se comparten con terceros.",
+            "icon": "Lock",
+            "title": "Pago seguro"
+          },
+          {
+            "description": "Consultas por WhatsApp privado. Te respondemos con el nombre que prefieras.",
+            "icon": "Users",
+            "title": "Asesoría discreta"
+          }
+        ],
+        "title": "Un servicio diseñado para tu privacidad"
+      },
+      "whyFun4me": {
+        "eyebrow": "Por qué fun4me",
+        "honestNote": "Comprar este tipo de productos sigue siendo un tema sensible en Paraguay. Por eso diseñamos cada detalle — del empaque al checkout — para que la experiencia sea completamente discreta.",
+        "pillars": [
+          {
+            "bullets": [
+              "Marcas internacionales",
+              "Productos certificados",
+              "Guías de uso incluidas"
+            ],
+            "description": "Seleccionamos productos de marcas reconocidas y testeadas. No vendemos nada que no recomendaríamos.",
+            "icon": "Heart",
+            "title": "Catálogo curado"
+          },
+          {
+            "bullets": [
+              "Gran Asunción: 2-24 hs",
+              "Interior: 2-5 días hábiles",
+              "Gratis desde Gs 300.000"
+            ],
+            "description": "Empaque neutro, motoenvío rápido en Gran Asunción y encomienda al interior. Rastreable en todo momento.",
+            "icon": "Truck",
+            "title": "Envío discreto a todo el país"
+          },
+          {
+            "bullets": [
+              "Factura opcional",
+              "WhatsApp privado",
+              "Sin registro en perfil público"
+            ],
+            "description": "Tu nombre, tu dirección, tu pedido — solo vos y nosotros. Factura a nombre genérico si lo preferís.",
+            "icon": "Shield",
+            "title": "Privacidad total"
+          }
+        ],
+        "title": "Una experiencia de compra pensada para vos"
+      }
     },
     "legal": {
       "ageCompliance": {
@@ -18484,6 +18608,108 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "subtitle": "Todas las cajas llegan en empaque discreto. Cancelas cuando quieras, sin penalidad.",
         "title": "Elegi tu nivel"
+      },
+      "comparison": {
+        "comparisonRows": [
+          {
+            "feature": "Productos por caja",
+            "values": [
+              "3-4",
+              "5-6",
+              "7-8"
+            ]
+          },
+          {
+            "feature": "Valor retail mensual",
+            "values": [
+              "Gs 350k",
+              "Gs 650k",
+              "Gs 1.100k"
+            ]
+          },
+          {
+            "feature": "Envío discreto gratis",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Acceso a launches exclusivos",
+            "values": [
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Consultoría sexual 1:1",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "feature": "Descuento en tienda",
+            "values": [
+              "5%",
+              "10%",
+              "15%"
+            ]
+          },
+          {
+            "feature": "Cancelación libre",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "feature": "Pausa sin costo",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          }
+        ],
+        "eyebrow": "Comparación completa",
+        "subtitle": "Elegí la opción que mejor se adapta a vos. Podés cambiar o cancelar cuando quieras.",
+        "tiers": [
+          {
+            "ctaHref": "/s/es/fun4me/tienda?subscription=basica",
+            "ctaLabel": "Suscribirme",
+            "id": "basica",
+            "included": [],
+            "name": "Básica",
+            "price": "Gs 250.000",
+            "priceNote": "/mes"
+          },
+          {
+            "badge": "Más popular",
+            "ctaHref": "/s/es/fun4me/tienda?subscription=plus",
+            "ctaLabel": "Suscribirme",
+            "highlighted": true,
+            "id": "plus",
+            "included": [],
+            "name": "Plus",
+            "price": "Gs 450.000",
+            "priceNote": "/mes"
+          },
+          {
+            "ctaHref": "/s/es/fun4me/tienda?subscription=premium",
+            "ctaLabel": "Suscribirme",
+            "id": "premium",
+            "included": [],
+            "name": "Premium",
+            "price": "Gs 750.000",
+            "priceNote": "/mes"
+          }
+        ],
+        "title": "Qué incluye cada caja"
       },
       "cta": {
         "buttonHref": "/fun4me/suscripciones#elegir-nivel",
@@ -26402,7 +26628,17 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "commerce-catalog",
       "featured-products",
       "trust-signals",
-      "age-gate"
+      "age-gate",
+      "trust-badges",
+      "why-destination",
+      "process-timeline",
+      "enhanced-faq",
+      "programs-comparison",
+      "our-story",
+      "team",
+      "b2b-wholesale",
+      "booking-embed",
+      "compliance-disclaimer-footer"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",

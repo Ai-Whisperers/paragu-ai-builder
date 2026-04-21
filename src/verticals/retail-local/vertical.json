@@ -16,7 +16,10 @@
     "header", "hero", "product-catalog", "product-grid", "services",
     "gallery", "testimonials", "faq", "business-hours", "google-maps",
     "contact", "cta-banner", "footer", "whatsapp-float",
-    "commerce-catalog", "featured-products", "trust-signals", "age-gate", "trust-badges"
+    "commerce-catalog", "featured-products", "trust-signals", "age-gate", "trust-badges",
+    "why-destination", "process-timeline", "enhanced-faq",
+    "programs-comparison", "our-story", "team", "b2b-wholesale",
+    "booking-embed", "compliance-disclaimer-footer"
   ],
   "defaultStarterKit": "minimal",
   "locales": ["es"]
