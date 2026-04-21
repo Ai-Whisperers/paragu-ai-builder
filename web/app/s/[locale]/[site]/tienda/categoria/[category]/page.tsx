@@ -9,6 +9,8 @@ import {
 } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
+import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
+import { env } from '@/lib/env'
 import { ProductCard } from '@/components/commerce/product-card'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
@@ -103,20 +105,16 @@ export default async function CategoryPage({
       <CartStoreHydrator siteSlug={site} initialCart={null} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
+      <Breadcrumbs
+        absoluteBaseUrl={env.APP_URL}
+        items={[
+          { label: business.name, href: `/s/${locale}/${site}` },
+          { label: 'Tienda', href: `/s/${locale}/${site}/tienda` },
+          { label: match },
+        ]}
+      />
+
       <main className="mx-auto max-w-6xl px-4 py-8">
-        <nav aria-label="Migas de pan" className="mb-4 text-sm text-[color:var(--text-muted,#6b7280)]">
-          <ol className="flex flex-wrap items-center gap-1.5">
-            <li>
-              <Link href={`/s/${locale}/${site}`} className="hover:underline">{business.name}</Link>
-            </li>
-            <li aria-hidden="true">/</li>
-            <li>
-              <Link href={`/s/${locale}/${site}/tienda`} className="hover:underline">Tienda</Link>
-            </li>
-            <li aria-hidden="true">/</li>
-            <li className="text-[color:var(--text,#111)] capitalize" aria-current="page">{match}</li>
-          </ol>
-        </nav>
 
         <div className="mb-6 rounded-lg bg-[color:var(--primary,#111)] p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
           <h1 className="text-3xl font-bold capitalize">{match}</h1>
