@@ -10055,12 +10055,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whyCountryPage.pillars",
         "id": "why-destination",
-        "variant": "alternating"
-      },
-      {
-        "content": "whyCountryPage.trust",
-        "id": "trust-signals",
-        "variant": "credentials"
+        "variant": "three-col"
       },
       {
         "content": "whyCountryPage.cta",
@@ -10230,11 +10225,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "aboutPage.team",
         "id": "team",
         "variant": "cards"
-      },
-      {
-        "content": "aboutPage.trust",
-        "id": "trust-signals",
-        "variant": "credentials"
       },
       {
         "content": "aboutPage.cta",
@@ -20046,7 +20036,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20186,7 +20176,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20308,7 +20298,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20511,7 +20501,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/de/nexa-paraguay/contacto",
-      "ctaText": "Beratung buchen",
+      "ctaText": "Kostenlose Beratung buchen",
       "navItems": [
         {
           "href": "/s/de/nexa-paraguay",
@@ -20593,7 +20583,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20665,7 +20655,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "programasPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -20957,7 +20947,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
-        "buttonText": "Beratung buchen",
+        "buttonText": "Kostenlose Beratung buchen",
         "subtitle": "Buchen Sie ein kostenloses 30-Minuten-Gespräch.",
         "title": "Machen Sie den ersten Schritt"
       },
@@ -21038,7 +21028,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -21178,7 +21168,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -21300,7 +21290,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -21503,7 +21493,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/en/nexa-paraguay/contacto",
-      "ctaText": "Book consultation",
+      "ctaText": "Book free consultation",
       "navItems": [
         {
           "href": "/s/en/nexa-paraguay",
@@ -21585,7 +21575,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -21657,7 +21647,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "programasPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -21934,7 +21924,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
-        "buttonText": "Book consultation",
+        "buttonText": "Book free consultation",
         "subtitle": "Book a free 30-minute consultation.",
         "title": "Take the first step"
       },
@@ -21999,7 +21989,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -22139,7 +22129,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -22262,7 +22252,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -22465,7 +22455,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/es/nexa-paraguay/contacto",
-      "ctaText": "Agendar consulta",
+      "ctaText": "Agendar consulta gratuita",
       "navItems": [
         {
           "href": "/s/es/nexa-paraguay",
@@ -22547,7 +22537,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -22944,7 +22934,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
-        "buttonText": "Agendar consulta",
+        "buttonText": "Agendar consulta gratuita",
         "subtitle": "Agende una consulta gratuita de 30 minutos.",
         "title": "Dé el primer paso"
       },
@@ -23025,7 +23015,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "aboutPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -23165,7 +23155,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "faqPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -23287,7 +23277,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "home": {
       "finalCta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -23490,7 +23480,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "navigation": {
       "businessName": "Nexa Paraguay",
       "ctaHref": "/s/nl/nexa-paraguay/contacto",
-      "ctaText": "Plan consult",
+      "ctaText": "Plan gratis consult",
       "navItems": [
         {
           "href": "/s/nl/nexa-paraguay",
@@ -23572,7 +23562,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "processPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -23644,7 +23634,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "programasPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
@@ -23936,7 +23926,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
-        "buttonText": "Plan consult",
+        "buttonText": "Plan gratis consult",
         "subtitle": "Plan een gratis consult van 30 minuten.",
         "title": "Zet de eerste stap"
       },
