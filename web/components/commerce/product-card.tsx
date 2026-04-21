@@ -6,14 +6,16 @@ import type { Product } from '@/lib/schemas/commerce/product'
 import { ProductImage } from './product-image'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { useCartStore } from '@/lib/stores/cart-store'
+import { PriceDisplay } from './price-display'
 
 interface Props {
   siteSlug: string
   product: Product
   priority?: boolean
+  rates?: Record<string, number>
 }
 
-export function ProductCard({ siteSlug, product, priority }: Props) {
+export function ProductCard({ siteSlug, product, priority, rates }: Props) {
   const addItem = useCartStore((s) => s.addItem)
   const [adding, setAdding] = useState(false)
   const cover = product.images.find((i) => i.isCover) ?? product.images[0] ?? null
@@ -54,9 +56,17 @@ export function ProductCard({ siteSlug, product, priority }: Props) {
       <div className="mt-3 flex flex-1 flex-col">
         <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">{product.name}</h3>
         <div className="mt-1 flex items-baseline gap-2">
-          <p className="text-base font-semibold text-[color:var(--text,#111)]">{formatCents(product.priceCents, product.currency)}</p>
+          {rates && product.currency === 'PYG' ? (
+            <PriceDisplay className="text-base font-semibold text-[color:var(--text,#111)]" pygCents={product.priceCents} rates={rates} />
+          ) : (
+            <p className="text-base font-semibold text-[color:var(--text,#111)]">{formatCents(product.priceCents, product.currency)}</p>
+          )}
           {product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents ? (
-            <p className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through">{formatCents(product.compareAtPriceCents, product.currency)}</p>
+            rates && product.currency === 'PYG' ? (
+              <PriceDisplay className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through" pygCents={product.compareAtPriceCents} rates={rates} />
+            ) : (
+              <p className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through">{formatCents(product.compareAtPriceCents, product.currency)}</p>
+            )
           ) : null}
         </div>
 

@@ -31,6 +31,26 @@ export default async function AdminProductsPage({ params }: { params: Promise<{ 
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
+      <nav className="mb-4 flex flex-wrap items-center gap-3 text-sm text-[color:var(--text-muted,#6b7280)]">
+        <Link href={`/admin/commerce/${businessId}/products`} className="font-semibold text-[color:var(--text,#111)] underline">
+          Productos
+        </Link>
+        <Link href={`/admin/commerce/${businessId}/products/import`} className="hover:underline">
+          Importar CSV
+        </Link>
+        <Link href={`/admin/commerce/${businessId}/discounts`} className="hover:underline">
+          Descuentos
+        </Link>
+        <Link href={`/admin/commerce/${businessId}/shipping`} className="hover:underline">
+          Envíos
+        </Link>
+        <Link href={`/admin/commerce/${businessId}/orders`} className="hover:underline">
+          Pedidos
+        </Link>
+        <Link href={`/admin/commerce/${businessId}/reconciliation`} className="hover:underline">
+          Conciliación
+        </Link>
+      </nav>
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-bold">Productos</h1>
         <div className="flex items-center gap-2">

@@ -8,6 +8,8 @@ import { ProductImage } from '@/components/commerce/product-image'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
+import { PriceDisplay } from '@/components/commerce/price-display'
+import { loadPygRates } from '@/lib/commerce/currency-server'
 
 export const runtime = 'nodejs'
 export const revalidate = 300
@@ -39,6 +41,7 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
   if (!product || product.status !== 'active') notFound()
 
   const cover = product.images.find((i) => i.isCover) ?? product.images[0]
+  const rates = await loadPygRates()
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -79,11 +82,23 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
 
         <div>
           <h1 className="text-3xl font-bold text-[color:var(--text,#111)]">{product.name}</h1>
-          <p className="mt-2 text-2xl font-semibold">{formatCents(product.priceCents, product.currency)}</p>
+          {product.currency === 'PYG' ? (
+            <PriceDisplay className="mt-2 block text-2xl font-semibold" pygCents={product.priceCents} rates={rates} />
+          ) : (
+            <p className="mt-2 text-2xl font-semibold">{formatCents(product.priceCents, product.currency)}</p>
+          )}
           {product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents ? (
-            <p className="mt-1 text-sm text-[color:var(--text-muted,#9ca3af)] line-through">
-              {formatCents(product.compareAtPriceCents, product.currency)}
-            </p>
+            product.currency === 'PYG' ? (
+              <PriceDisplay
+                className="mt-1 block text-sm text-[color:var(--text-muted,#9ca3af)] line-through"
+                pygCents={product.compareAtPriceCents}
+                rates={rates}
+              />
+            ) : (
+              <p className="mt-1 text-sm text-[color:var(--text-muted,#9ca3af)] line-through">
+                {formatCents(product.compareAtPriceCents, product.currency)}
+              </p>
+            )
           ) : null}
 
           {product.description ? (

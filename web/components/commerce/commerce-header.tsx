@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { MiniCartBadge } from './mini-cart-badge'
 import { CartDrawer } from './cart-drawer'
+import { CurrencyToggle } from './currency-toggle'
 
 export function CommerceHeader({ siteSlug, businessName }: { siteSlug: string; businessName: string }) {
   const [open, setOpen] = useState(false)
@@ -18,6 +19,7 @@ export function CommerceHeader({ siteSlug, businessName }: { siteSlug: string; b
             <Link href={`/s/es/${siteSlug}/tienda`} className="hover:underline">
               Tienda
             </Link>
+            <CurrencyToggle />
             <MiniCartBadge onClick={() => setOpen(true)} />
           </nav>
         </div>
