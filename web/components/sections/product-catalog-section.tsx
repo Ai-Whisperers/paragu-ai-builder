@@ -20,7 +20,9 @@ export interface ProductItem {
 export interface ProductCatalogSectionProps {
   title: string
   subtitle?: string
-  products: ProductItem[]
+  products?: ProductItem[]
+  /** Legacy alias */
+  items?: ProductItem[]
   categories?: string[]
   showPrices?: boolean
   whatsappPhone?: string
@@ -123,7 +125,8 @@ function ProductCard({
 export function ProductCatalogSection({
   title,
   subtitle,
-  products,
+  products: productsProp,
+  items,
   categories,
   showPrices = true,
   whatsappPhone,
@@ -131,6 +134,9 @@ export function ProductCatalogSection({
   orderMessageTemplate = 'Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
   emailAddress,
 }: ProductCatalogSectionProps) {
+  const products = productsProp || items || []
+  if (products.length === 0) return null
+
   // Build categories list from products if not explicitly provided
   const allCategories = categories || [
     ...new Set(products.filter((p) => p.category).map((p) => p.category!)),
