@@ -11,6 +11,7 @@ import {
   type ProductSort,
 } from '@/lib/commerce/products'
 import { recordSearchEvent, listTopSearches } from '@/lib/commerce/search-events'
+import { getReviewAggregatesByBusiness } from '@/lib/commerce/reviews'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductCard } from '@/components/commerce/product-card'
@@ -104,7 +105,7 @@ export default async function StorePage({
     onSaleOnly,
   }
 
-  const [products, totalCount, rates, availableCategories, categoryCounts, topSearches, availableBrands, availableTags] =
+  const [products, totalCount, rates, availableCategories, categoryCounts, topSearches, availableBrands, availableTags, reviewAggregates] =
     await Promise.all([
       listActiveProducts(business.id, { ...filterOpts, limit: perPage, offset, sort: sortKey }),
       countActiveProducts(business.id, filterOpts),
@@ -114,6 +115,7 @@ export default async function StorePage({
       listTopSearches(business.id, { windowDays: 30, limit: 8 }),
       listDistinctBrands(business.id),
       listDistinctTags(business.id),
+      getReviewAggregatesByBusiness(business.id),
     ])
   // Only surface suggestions with at least 1 result (non-zero-result).
   // Dedup by normalized form, keep pretty sampleQuery.
@@ -236,6 +238,7 @@ export default async function StorePage({
                   priority={idx < 4}
                   rates={rates}
                   locale={locale}
+                  reviewAggregate={reviewAggregates[product.id]}
                 />
               ))}
             </div>
