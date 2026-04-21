@@ -8,6 +8,7 @@ import {
   listCategoryCounts,
   listDistinctBrands,
   listDistinctTags,
+  getPopularityByBusiness,
   type ProductSort,
 } from '@/lib/commerce/products'
 import { recordSearchEvent, listTopSearches } from '@/lib/commerce/search-events'
@@ -24,7 +25,7 @@ import { loadPygRates } from '@/lib/commerce/currency-server'
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic' // search/sort/filter params kill static caching
 
-const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc']
+const VALID_SORTS: ProductSort[] = ['newest', 'price-asc', 'price-desc', 'name-asc', 'popularity']
 const DEFAULT_PER_PAGE = 12
 const PER_PAGE_OPTIONS = [12, 24, 48, 96]
 const MAX_PER_PAGE = 96
@@ -105,9 +106,15 @@ export default async function StorePage({
     onSaleOnly,
   }
 
-  const [products, totalCount, rates, availableCategories, categoryCounts, topSearches, availableBrands, availableTags, reviewAggregates] =
+  // Popularity sort requires all matching rows up front so we can re-sort by
+  // the order_items aggregate before paginating. For any other sort the DB
+  // paginates natively.
+  const fetchLimit = sortKey === 'popularity' ? 500 : perPage
+  const fetchOffset = sortKey === 'popularity' ? 0 : offset
+
+  const [fetchedProducts, totalCount, rates, availableCategories, categoryCounts, topSearches, availableBrands, availableTags, reviewAggregates, popularityMap] =
     await Promise.all([
-      listActiveProducts(business.id, { ...filterOpts, limit: perPage, offset, sort: sortKey }),
+      listActiveProducts(business.id, { ...filterOpts, limit: fetchLimit, offset: fetchOffset, sort: sortKey }),
       countActiveProducts(business.id, filterOpts),
       loadPygRates(),
       listDistinctCategories(business.id),
@@ -116,7 +123,14 @@ export default async function StorePage({
       listDistinctBrands(business.id),
       listDistinctTags(business.id),
       getReviewAggregatesByBusiness(business.id),
+      sortKey === 'popularity' ? getPopularityByBusiness(business.id) : Promise.resolve(new Map<string, number>()),
     ])
+
+  const products = sortKey === 'popularity'
+    ? [...fetchedProducts]
+        .sort((a, b) => (popularityMap.get(b.id) ?? 0) - (popularityMap.get(a.id) ?? 0))
+        .slice(offset, offset + perPage)
+    : fetchedProducts
   // Only surface suggestions with at least 1 result (non-zero-result).
   // Dedup by normalized form, keep pretty sampleQuery.
   const popularQueries = topSearches
