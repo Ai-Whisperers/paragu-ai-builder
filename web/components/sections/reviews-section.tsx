@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Star, Quote, ThumbsUp, CheckCircle, Send } from 'lucide-react'
+import { logger } from '@/lib/logger'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Textarea } from '@/components/ui/textarea'
@@ -352,8 +353,7 @@ export function ReviewsSection({
   }, {} as Record<number, number>)
 
   const handleNewReview = (review: Omit<Review, 'id' | 'date' | 'verified'>) => {
-    // In a real app, this would send to an API
-    console.log('New review:', review)
+    logger.info('New review submitted', { review })
   }
 
   return (
