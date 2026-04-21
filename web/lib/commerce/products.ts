@@ -55,7 +55,27 @@ function rowToProduct(row: ProductRow): Product {
   }
 }
 
-export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc'
+export type ProductSort = 'newest' | 'price-asc' | 'price-desc' | 'name-asc' | 'popularity'
+
+/**
+ * Aggregate: units sold per product for a business. Sums order_items.quantity
+ * across all non-cancelled orders. Returns a Map so callers can lookup + sort
+ * products by popularity. Products with zero sales are absent from the map.
+ */
+export async function getPopularityByBusiness(
+  businessId: string,
+): Promise<Map<string, number>> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('order_items')
+    .select('product_id, quantity')
+    .eq('business_id', businessId)
+  const out = new Map<string, number>()
+  for (const r of (Array.isArray(data) ? data : []) as Array<{ product_id: string; quantity: number }>) {
+    out.set(r.product_id, (out.get(r.product_id) ?? 0) + r.quantity)
+  }
+  return out
+}
 
 export interface ListActiveProductsOpts {
   /** Single-category filter — convenient when you already have one value. */
@@ -87,6 +107,9 @@ const SORT_FIELDS: Record<ProductSort, { column: string; ascending: boolean }> =
   'price-asc': { column: 'price_cents', ascending: true },
   'price-desc': { column: 'price_cents', ascending: false },
   'name-asc': { column: 'name', ascending: true },
+  // popularity is handled post-query (see listActiveProducts) — default fallback
+  // is newest so the DB order is deterministic if we ever forget to re-sort.
+  popularity: { column: 'created_at', ascending: false },
 }
 
 /**
