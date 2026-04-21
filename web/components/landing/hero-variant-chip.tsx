@@ -33,7 +33,6 @@ export function HeroVariantChip() {
     }
     try {
       if (localStorage.getItem('pa_debug') === '1') {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setShow(true)
       }
     } catch {

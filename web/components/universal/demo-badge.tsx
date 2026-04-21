@@ -45,7 +45,6 @@ export function DemoBadge({ isDemo = false, vertical }: DemoBadgeProps) {
     }
     try {
       if (sessionStorage.getItem(DISMISS_KEY) === '1') {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setHidden(true)
       }
     } catch {

@@ -9,9 +9,9 @@
 
 | Status | Count | Items |
 |---|---|---|
-| ✅ Closed | 76 | see closure log below |
+| ✅ Closed | 77 | see closure log below |
 | 🟡 In progress | 1 | #392 (5 routes still unwrapped — audit in REQUEST_LOG_AUDIT.md) |
-| 🔴 Open | 424 | the rest |
+| 🔴 Open | 423 | the rest |
 | 🔴 Blocked on user | ~30 | listed at bottom |
 
 **Lighthouse delta** (post W4):
@@ -113,6 +113,11 @@ Closure log:
   dedup), surfaces bounce/complaint at `warn` level for triage. 6 tests
   cover signature verify, dedup, missing secret. `RESEND_WEBHOOK_SECRET`
   env var documented in ENV_VARS.md (must be set in Resend dashboard).
+- **#393** — partial: ran `eslint --fix` across `web/{app,components,lib}`,
+  removed 2 dead `eslint-disable-next-line` comments (rule wasn't firing
+  anymore), deleted unused `generateCacheKey` helper in `lib/supabase/cache.ts`,
+  inlined `POOL_CONFIG` documentation in `server.ts` (was an unused const
+  with the values reproduced in a comment). `lib/supabase` now lints clean.
 - **#479** — `<SkipToContent>` link in root layout, anchored to `#main-content`;
   added id to `<main>` on landing + 11 high-traffic marketing routes.
 - **#487** — covered by `docs/runbooks/ADD_NEW_TENANT.md` "Promote a demo to a real tenant" section (no separate doc needed).
