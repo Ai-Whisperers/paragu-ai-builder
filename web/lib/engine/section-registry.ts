@@ -133,6 +133,15 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'modal',
     variants: ['modal'],
   },
+  'trust-badges': {
+    // Horizontal strip of short trust signals (envío discreto / pago
+    // seguro / etc.) driven by content.home.trustBadges or similar
+    // content ref. Simpler than `trust-signals` which is a
+    // credentials/logos-row section; this one is a pure badge strip.
+    id: 'trust-badges',
+    defaultVariant: 'strip',
+    variants: ['strip'],
+  },
   footer: {
     id: 'footer',
     defaultVariant: 'standard',

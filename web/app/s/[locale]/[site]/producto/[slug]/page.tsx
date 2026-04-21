@@ -12,6 +12,7 @@ import { ProductDetailActions } from '@/components/commerce/product-detail-actio
 import { ProductCard } from '@/components/commerce/product-card'
 import { ProductShare } from '@/components/commerce/product-share'
 import { WishlistButton } from '@/components/commerce/wishlist-button'
+import { BackInStockSignup } from '@/components/commerce/back-in-stock-signup'
 import { RecordRecentVisit } from '@/components/commerce/record-recent-visit'
 import { RecentlyViewedRail } from '@/components/commerce/recently-viewed-rail'
 import { PriceDisplay } from '@/components/commerce/price-display'
@@ -132,6 +133,12 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           <div className="mt-6">
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
           </div>
+
+          {product.inventoryPolicy === 'deny' && product.inventoryQty === 0 ? (
+            <div className="mt-4">
+              <BackInStockSignup siteSlug={site} productId={product.id} locale={locale} />
+            </div>
+          ) : null}
 
           <div className="mt-4 flex flex-wrap gap-2">
             <WishlistButton

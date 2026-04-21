@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { listActiveProducts } from '@/lib/commerce/products'
+import { recordSearchEvent } from '@/lib/commerce/search-events'
 
 export const runtime = 'nodejs'
 
@@ -31,6 +32,13 @@ export const GET = withRequestLog<{ site: string }>(async (req, _ctx, { site }) 
       imageUrl: cover?.url ?? null,
       category: p.category,
     }
+  })
+  // Fire-and-forget — don't await, never let analytics block the response.
+  void recordSearchEvent({
+    businessId: business.id,
+    query: q,
+    resultCount: suggestions.length,
+    source: 'suggest',
   })
   return NextResponse.json({ suggestions })
 })

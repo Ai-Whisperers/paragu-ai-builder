@@ -7,6 +7,7 @@ import {
   listDistinctCategories,
   type ProductSort,
 } from '@/lib/commerce/products'
+import { recordSearchEvent } from '@/lib/commerce/search-events'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductCard } from '@/components/commerce/product-card'
@@ -77,6 +78,17 @@ export default async function StorePage({
     loadPygRates(),
     listDistinctCategories(business.id),
   ])
+
+  // Record shopper searches only when there's an actual query term — avoids
+  // a log entry on every tienda page view. Fire-and-forget, non-blocking.
+  if (search) {
+    void recordSearchEvent({
+      businessId: business.id,
+      query: search,
+      resultCount: totalCount,
+      source: 'tienda',
+    })
+  }
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE))
   const hasActiveFilters = Boolean(
