@@ -1,9 +1,13 @@
 import { fillTemplate } from '@/lib/utils'
+import type { ImagesManifest } from './images-loader'
+import { resolveImage } from './images-loader'
 
 export interface CopyContext {
   siteContent: Record<string, unknown>
   verticalCopy: Record<string, unknown>
   placeholders: Record<string, string | number | undefined>
+  /** Optional images manifest for `@img:` / `@src:` / `$img` expansion. */
+  images?: ImagesManifest | null
 }
 
 function getByPath(root: Record<string, unknown>, path: string): unknown {
@@ -23,8 +27,39 @@ export function resolveRef(ref: string, ctx: CopyContext): unknown {
   return undefined
 }
 
+/**
+ * Expand an image manifest reference embedded in a string. Content authors
+ * can write:
+ *   "@img:hero.home"  → returns `asset.src` (resolved URL)
+ *   "@src:hero.home"  → alias for `@img:`; same behavior
+ * Returns `undefined` when the manifest is missing or the key doesn't
+ * match — callers should leave the raw string in place so the broken ref
+ * is visible rather than silently dropped.
+ */
+function resolveImageRefString(
+  value: string,
+  ctx: CopyContext,
+): string | undefined {
+  if (!ctx.images) return undefined
+  let key: string | undefined
+  if (value.startsWith('@img:')) key = value.slice(5)
+  else if (value.startsWith('@src:')) key = value.slice(5)
+  if (!key) return undefined
+  const asset = resolveImage(ctx.images, key)
+  return asset ? asset.src : undefined
+}
+
 function followRefs(value: unknown, ctx: CopyContext, depth = 0): unknown {
   if (depth > 10) return value
+  if (typeof value === 'string') {
+    // `@img:bucket.asset` / `@src:bucket.asset` → resolved src URL. On
+    // miss we return the raw string so authors can see the broken ref.
+    if (value.startsWith('@img:') || value.startsWith('@src:')) {
+      const hit = resolveImageRefString(value, ctx)
+      return fillDeep(hit ?? value, ctx.placeholders)
+    }
+    return fillDeep(value, ctx.placeholders)
+  }
   if (value && typeof value === 'object' && !Array.isArray(value)) {
     const rec = value as Record<string, unknown>
     if (typeof rec.$ref === 'string') {
@@ -32,6 +67,12 @@ function followRefs(value: unknown, ctx: CopyContext, depth = 0): unknown {
       return resolved !== undefined
         ? followRefs(resolved, ctx, depth + 1)
         : fillDeep(value, ctx.placeholders)
+    }
+    // `{ $img: "bucket.asset" }` → full ImageAsset object `{ src, alt, ... }`.
+    // On miss we leave the object untouched so the broken ref is visible.
+    if (typeof rec.$img === 'string' && ctx.images) {
+      const asset = resolveImage(ctx.images, rec.$img)
+      if (asset) return { ...asset }
     }
     const out: Record<string, unknown> = {}
     for (const [k, v] of Object.entries(rec)) {

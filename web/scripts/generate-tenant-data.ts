@@ -99,6 +99,7 @@ interface DiscoveredSite {
   pages: Record<string, JsonRecord>
   content: Record<string, JsonRecord>
   blog: Record<string, Record<string, string>> // locale -> slug -> raw MDX
+  images: JsonRecord | null
 }
 
 function discoverSites(): DiscoveredSite[] {
@@ -142,7 +143,10 @@ function discoverSites(): DiscoveredSite[] {
       }
     }
 
-    result.push({ slug, site, tokens, pages, content, blog })
+    const imagesPath = path.join(siteDir, 'images.json')
+    const images = fs.existsSync(imagesPath) ? readJson<JsonRecord>(imagesPath) : null
+
+    result.push({ slug, site, tokens, pages, content, blog, images })
   }
   return result
 }
@@ -230,12 +234,14 @@ function generate(): string {
   const pagesEntries: Array<{ key: string; value: unknown }> = []
   const contentEntries: Array<{ key: string; value: unknown }> = []
   const blogEntries: Array<{ key: string; value: unknown }> = []
+  const imagesEntries: Array<{ key: string; value: unknown }> = []
   const siteSlugs: string[] = []
 
   for (const s of sites) {
     siteSlugs.push(s.slug)
     if (s.site) sitesEntries.push({ key: s.slug, value: sortKeys(s.site) })
     if (s.tokens) tokensEntries.push({ key: s.slug, value: sortKeys(s.tokens) })
+    if (s.images) imagesEntries.push({ key: s.slug, value: sortKeys(s.images) })
     for (const [pageSlug, page] of Object.entries(s.pages)) {
       pagesEntries.push({ key: `${s.slug}:${pageSlug}`, value: sortKeys(page) })
     }
@@ -283,7 +289,7 @@ function generate(): string {
   ].join('\n')
 
   const body = [
-    `/** Counts: sites=${siteSlugs.length}, pages=${pagesEntries.length}, content=${contentEntries.length}, blog=${blogEntries.length}, verticals=${verticalEntries.length}. */`,
+    `/** Counts: sites=${siteSlugs.length}, pages=${pagesEntries.length}, content=${contentEntries.length}, blog=${blogEntries.length}, images=${imagesEntries.length}, verticals=${verticalEntries.length}. */`,
     `export const SITE_SLUGS: readonly string[] = ${formatValue([...siteSlugs].sort())} as const`,
     '',
     `export const BASE_TOKENS: JsonRecord = ${formatValue(sortKeys(baseTokens ?? {}))}`,
@@ -297,6 +303,8 @@ function generate(): string {
     emitRecord('CONTENT', 'Record<string, JsonRecord>', contentEntries),
     '',
     emitRecord('BLOG_POSTS', 'Record<string, string>', blogEntries),
+    '',
+    emitRecord('IMAGES_MANIFESTS', 'Record<string, JsonRecord>', imagesEntries),
     '',
     emitRecord('VERTICALS', 'Record<string, JsonRecord>', verticalEntries),
     '',

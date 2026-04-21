@@ -22,6 +22,7 @@ import {
   loadVerticalCopy,
   loadVertical,
 } from './site-loader'
+import { loadImagesManifest } from './images-loader'
 import { fillDeep, mergeOverrides, resolveRef } from './resolve-copy'
 import { resolveSiteTokens } from './resolve-site-tokens'
 import {
@@ -68,6 +69,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
   const siteContent = loadSiteContent(siteSlug, locale)
   const verticalCopy = loadVerticalCopy(site.vertical, locale)
   const vertical = loadVertical(site.vertical)
+  const imagesManifest = loadImagesManifest(siteSlug)
 
   const placeholders = {
     siteName: (siteContent.siteName as string) || site.slug,
@@ -76,7 +78,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     year: new Date().getFullYear(),
   }
 
-  const copyCtx = { siteContent, verticalCopy, placeholders }
+  const copyCtx = { siteContent, verticalCopy, placeholders, images: imagesManifest }
 
   const resolvedSections = page.sections
     .filter((s) => shouldInclude(s.enabledWhen, site.features))
