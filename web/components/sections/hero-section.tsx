@@ -171,6 +171,7 @@ export function HeroSection({
             alt=""
             className="h-full w-full object-cover"
             loading="eager"
+            fetchPriority="high"
             decoding="async"
           />
         </picture>
