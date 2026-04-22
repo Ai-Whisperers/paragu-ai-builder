@@ -243,16 +243,6 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
         >
           {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
         </button>
-
-        {/* Per-card mini trust ribbon — keeps discretion visible at browse
-            time, not just at checkout. Hidden on out-of-stock since the
-            user can't buy anyway and we don't want to waste vertical
-            space on a disabled card. */}
-        {!outOfStock ? (
-          <p className="mt-2 text-center text-[11px] text-[color:var(--text-muted,#6b7280)]">
-            📦 Envío discreto · 🔒 Pago seguro
-          </p>
-        ) : null}
       </div>
 
       <QuickViewModal
