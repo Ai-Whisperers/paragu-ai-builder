@@ -1,0 +1,13 @@
+{
+  "slug": "blog/como-elegir-portada-libro",
+  "title": "Cómo elegir la portada perfecta para tu libro",
+  "description": "5 factores clave que determinan si tu portada atrae lectores",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "blogPost", "variant": "standard", "content": "blogPost" },
+    { "id": "relatedPosts", "variant": "grid", "content": "blog.related" },
+    { "id": "newsletter", "variant": "boxed", "content": "newsletter" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "servicios",
+  "titleKey": "home.services.title",
+  "descriptionKey": "home.services.subtitle",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "simple", "content": "home.services" },
+    { "id": "services", "variant": "categories", "content": "home.services" },
+    { "id": "faq", "variant": "accordion", "content": "home.faq" },
+    { "id": "ctaBanner", "variant": "standard", "content": "ctaBanner" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+  ]
+}
