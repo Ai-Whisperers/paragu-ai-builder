@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import type { Product } from '@/lib/schemas/commerce/product'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { InstallmentLine } from './installment-line'
+import { FreebieBadge } from './freebie-badge'
 import { useCartStore } from '@/lib/stores/cart-store'
 
 interface Props {
@@ -137,6 +139,13 @@ export function QuickViewModal({ siteSlug, locale, product, open, onClose }: Pro
               </p>
             ) : null}
           </div>
+          <InstallmentLine
+            siteSlug={siteSlug}
+            priceCents={product.priceCents}
+            currency={product.currency}
+            className="mt-1"
+          />
+          <FreebieBadge metadata={product.metadata} className="mt-2" />
 
           {product.description ? (
             <p className="mt-4 line-clamp-6 whitespace-pre-line text-sm text-[color:var(--text,#111)]">
