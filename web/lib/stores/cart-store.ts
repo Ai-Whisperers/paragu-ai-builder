@@ -22,18 +22,7 @@ interface CartStoreActions {
 
 type CartStore = CartStoreState & CartStoreActions
 
-async function apiCall<T>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(path, {
-    ...init,
-    headers: { 'Content-Type': 'application/json', ...(init?.headers ?? {}) },
-    credentials: 'same-origin',
-  })
-  if (!res.ok) {
-    const body = await res.json().catch(() => ({}))
-    throw new Error(body.error ?? `http_${res.status}`)
-  }
-  return res.json() as Promise<T>
-}
+import { apiCall } from './api-call'
 
 export const useCartStore = create<CartStore>()(
   persist(

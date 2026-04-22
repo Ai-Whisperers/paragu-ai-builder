@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay IVA calculator — 10% general / 5% canasta basica.
@@ -14,19 +16,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * mensualmente en Marangatu (Formulario 120).
  */
 
-export interface CalcIvaSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-}
-
-function formatGs(n: number): string {
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.max(0, Math.round(n))) + ' Gs'
-}
+export interface CalcIvaSectionProps extends BaseCalculatorSectionProps {}
 
 export function CalcIvaSection({
   eyebrow = 'Calculadora IVA',

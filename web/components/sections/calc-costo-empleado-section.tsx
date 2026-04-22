@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay "costo real de un empleado" calculator — B2B conversion magnet.
@@ -15,19 +17,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * 20-25% — seeing the real number is a strong pull into payroll services.
  */
 
-export interface CalcCostoEmpleadoSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-}
-
-function formatGs(n: number): string {
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.max(0, Math.round(n))) + ' Gs'
-}
+export interface CalcCostoEmpleadoSectionProps extends BaseCalculatorSectionProps {}
 
 export function CalcCostoEmpleadoSection({
   eyebrow = 'Costo real de un empleado',

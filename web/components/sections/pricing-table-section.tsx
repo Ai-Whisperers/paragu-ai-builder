@@ -12,8 +12,9 @@ interface PricingFeature {
 interface PricingPlan {
   name: string
   price?: string
-  description: string
-  features: PricingFeature[]
+  period?: string
+  description?: string
+  features: PricingFeature[] | string[]
   popular?: boolean
   cta?: string
   footnote?: string
@@ -25,6 +26,15 @@ interface PricingTableSectionProps {
   plans: PricingPlan[]
   whatsappPhone?: string
   onSelectPlan?: (plan: PricingPlan) => void
+}
+
+function normalizeFeatures(raw: PricingFeature[] | string[] | undefined): PricingFeature[] {
+  if (!raw) return []
+  if (raw.length === 0) return []
+  if (typeof raw[0] === 'string') {
+    return (raw as string[]).map((text) => ({ text, included: true }))
+  }
+  return raw as PricingFeature[]
 }
 
 export function PricingTableSection({
@@ -97,18 +107,23 @@ export function PricingTableSection({
                     >
                       {plan.price}
                     </span>
+                    {plan.period && (
+                      <span className="text-[var(--text-muted)]">/{plan.period}</span>
+                    )}
                   </div>
                 )}
-                <p
-                  className="mt-2 text-sm"
-                  style={{ color: 'var(--secondary)' }}
-                >
-                  {plan.description}
-                </p>
+                {plan.description && (
+                  <p
+                    className="mt-2 text-sm"
+                    style={{ color: 'var(--secondary)' }}
+                  >
+                    {plan.description}
+                  </p>
+                )}
               </div>
 
               <ul className="mt-6 space-y-3">
-                {plan.features.map((feature, fIndex) => (
+                {normalizeFeatures(plan.features).map((feature, fIndex) => (
                   <li key={fIndex} className="flex items-start gap-2 text-sm">
                     <span
                       className="mt-0.5 flex-shrink-0"

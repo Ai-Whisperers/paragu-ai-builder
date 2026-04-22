@@ -477,6 +477,7 @@ const SECTION_ALIASES: Record<string, string> = {
   productCatalog: 'product-catalog',
   beforeAfter: 'before-after',
   trustSignals: 'trust-signals',
+  trustBadges: 'trust-badges',
   programsComparison: 'programs-comparison',
   whyDestination: 'why-destination',
   processTimeline: 'process-timeline',
