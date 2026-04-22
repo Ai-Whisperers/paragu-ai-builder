@@ -163,6 +163,8 @@ function rowToOrder(row: Record<string, unknown>, items: Record<string, unknown>
     trackingUrl: (row.tracking_url as string | null) ?? null,
     comprobanteSentAt: (row.comprobante_sent_at as string | null) ?? null,
     comprobanteNote: (row.comprobante_note as string | null) ?? null,
+    comprobanteImageUrl: (row.comprobante_image_url as string | null) ?? null,
+    comprobanteUploadedAt: (row.comprobante_uploaded_at as string | null) ?? null,
     createdAt: row.created_at as string,
     updatedAt: row.updated_at as string,
     items: items.map(

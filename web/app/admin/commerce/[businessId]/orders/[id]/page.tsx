@@ -4,6 +4,7 @@ import { getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { OrderActions } from '@/components/admin/commerce/order-actions'
 import { OrderRefundButton } from '@/components/admin/commerce/order-refund-button'
+import { ComprobanteViewer } from '@/components/admin/commerce/comprobante-viewer'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -46,6 +47,9 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
               <p className="mt-2 whitespace-pre-line rounded bg-white/60 p-2 text-xs">
                 Nota del cliente: {order.comprobanteNote}
               </p>
+            ) : null}
+            {order.comprobanteImageUrl && order.comprobanteUploadedAt ? (
+              <ComprobanteViewer businessId={businessId} orderId={order.id} uploadedAt={order.comprobanteUploadedAt} />
             ) : null}
           </div>
         ) : null}
