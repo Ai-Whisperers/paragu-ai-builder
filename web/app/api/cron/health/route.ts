@@ -56,6 +56,11 @@ const CRONS: Array<Omit<CronCheck, 'status' | 'missing'>> = [
     requiredEnv: ['CRON_SECRET'],
   },
   {
+    path: '/api/cron/commerce-merchant-digest',
+    schedule: '0 11 * * * (UTC, daily 08:00 Asunción)',
+    requiredEnv: ['CRON_SECRET', 'RESEND_API_KEY', 'COMMERCE_EMAIL_FROM'],
+  },
+  {
     path: '/api/cron/commerce-prune-search-events',
     schedule: '17 3 * * * (UTC, daily 03:17)',
     requiredEnv: ['CRON_SECRET'],
