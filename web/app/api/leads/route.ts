@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { loadSite } from '@/lib/engine/site-loader'
 import { resolveAdapters } from '@/lib/integrations/registry'
+import { resendAdapter } from '@/lib/integrations/email/resend'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { metrics } from '@/lib/obs/metrics'
 import type { Lead } from '@/lib/integrations/types'
@@ -142,6 +143,11 @@ export const POST = withRequestLog(async (req, { log, perf, requestId }) => {
   const leadId = (supabaseResult as { id?: string }).id || 'unknown'
   const duration = perf.finish({ siteSlug: data.siteSlug, leadId })
   log.info('Lead accepted', { siteSlug: data.siteSlug, leadId, durationMs: duration })
+  // Fire-and-forget admin notification. Don't await inside the response flow
+  // so a slow Resend call doesn't hold the user's 201. The Node runtime keeps
+  // the function alive until the promise resolves.
+  void notifyAdminsOfNewLead(lead).catch(() => { /* logged inside */ })
+
   metrics.inc('lead.accepted', { siteSlug: data.siteSlug })
 
   return respond(201, {
@@ -232,3 +238,64 @@ async function persistLeadToSupabase(
     return { ok: false, error: err instanceof Error ? err.message : 'supabase error' }
   }
 }
+
+// Fire-and-forget admin notification on every new lead. Failures log but
+// never block the 201 response. ADMIN_EMAILS is the source of truth for
+// who gets notified (same env var that gates /admin). EMAIL_TRANSACTIONAL_KEY
+// + EMAIL_FROM_ADDRESS must be configured — otherwise this silently skips.
+async function notifyAdminsOfNewLead(lead: Lead): Promise<void> {
+  const admins = (process.env.ADMIN_EMAILS ?? '')
+    .split(',')
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean)
+  if (admins.length === 0) return
+
+  const subject = `New lead: ${lead.name} (${lead.siteSlug})`
+  const html = `<!doctype html><html><body style="font-family:Inter,Arial,sans-serif;color:#1B2A4A">
+    <h2 style="margin:0 0 12px">New inbound lead</h2>
+    <table style="border-collapse:collapse;font-size:14px">
+      <tr><td style="padding:4px 10px 4px 0;color:#64748b">Site</td><td><code>${escapeAttr(lead.siteSlug)}</code> (${escapeAttr(lead.locale)})</td></tr>
+      <tr><td style="padding:4px 10px 4px 0;color:#64748b">Name</td><td>${escapeAttr(lead.name)}</td></tr>
+      <tr><td style="padding:4px 10px 4px 0;color:#64748b">Email</td><td><a href="mailto:${encodeURIComponent(lead.email)}">${escapeAttr(lead.email)}</a></td></tr>
+      ${lead.phone ? `<tr><td style="padding:4px 10px 4px 0;color:#64748b">Phone</td><td>${escapeAttr(lead.phone)}</td></tr>` : ''}
+      ${lead.country ? `<tr><td style="padding:4px 10px 4px 0;color:#64748b">Country</td><td>${escapeAttr(lead.country)}</td></tr>` : ''}
+      ${lead.programInterest ? `<tr><td style="padding:4px 10px 4px 0;color:#64748b">Program</td><td>${escapeAttr(lead.programInterest)}</td></tr>` : ''}
+    </table>
+    ${lead.objective ? `<h3 style="margin:16px 0 4px;font-size:14px">Objective</h3><p style="white-space:pre-wrap;background:#f8fafc;padding:10px;border-radius:6px;font-size:13px">${escapeAttr(lead.objective)}</p>` : ''}
+    <p style="margin-top:18px">
+      <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'}/admin/inbox"
+         style="background:#0f172a;color:white;padding:10px 16px;border-radius:6px;text-decoration:none;font-size:13px">
+        Open in Inbox
+      </a>
+    </p>
+  </body></html>`
+
+  const config = {
+    transactionalApiKey: process.env.EMAIL_TRANSACTIONAL_KEY,
+    fromAddress: process.env.EMAIL_FROM_ADDRESS,
+    fromName: process.env.EMAIL_FROM_NAME || 'Paragu-AI',
+  }
+
+  // Fan out to each admin in parallel. Each is independent; one failing
+  // should not block the others.
+  await Promise.all(
+    admins.map(async (to) => {
+      try {
+        const r = await resendAdapter.sendTransactional!(to, subject, html, config)
+        if (!r.ok) {
+          // Non-throwing best-effort — log and move on.
+          // eslint-disable-next-line no-console
+          console.warn('[leads] admin notif failed', { to, error: r.error })
+        }
+      } catch (e) {
+        // eslint-disable-next-line no-console
+        console.warn('[leads] admin notif exception', { to, error: e instanceof Error ? e.message : String(e) })
+      }
+    }),
+  )
+}
+
+function escapeAttr(s: string): string {
+  return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
+}
+
