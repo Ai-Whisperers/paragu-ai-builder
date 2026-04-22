@@ -6,6 +6,7 @@ import { resendAdapter } from '@/lib/integrations/email/resend'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { metrics } from '@/lib/obs/metrics'
 import type { Lead } from '@/lib/integrations/types'
+import { rateLimit, clientIp } from '@/lib/security/rate-limit'
 
 export const runtime = 'nodejs'
 
@@ -57,6 +58,37 @@ export const POST = withRequestLog(async (req, { log, perf, requestId }) => {
     log.warn('Bot submission detected (honeypot)', { siteSlug: data.siteSlug })
     return respond(400, { error: 'bot detected' })
   }
+
+  // Rate-limit by IP (10/hour) and by email (3/hour). First gate is
+  // abuse prevention; second gate stops an accidentally-loop-submitted
+  // form from flooding the inbox with retries.
+  const ip = clientIp(req)
+  const windowMs = 60 * 60 * 1000
+  const [byIp, byEmail] = await Promise.all([
+    rateLimit({ key: `leads:ip:${ip}`, limit: 10, windowMs }),
+    rateLimit({ key: `leads:email:${data.email.toLowerCase()}`, limit: 3, windowMs }),
+  ])
+  if (!byIp.ok || !byEmail.ok) {
+    const which = !byIp.ok ? 'ip' : 'email'
+    log.warn('Lead rejected: rate-limited', {
+      siteSlug: data.siteSlug,
+      which,
+      ip: which === 'ip' ? ip : undefined,
+      email: which === 'email' ? data.email : undefined,
+    })
+    metrics.inc('lead.rejected', { siteSlug: data.siteSlug, reason: `rate_limit_${which}` })
+    return new NextResponse(
+      JSON.stringify({ error: 'rate_limited', which, requestId }),
+      {
+        status: 429,
+        headers: {
+          'Content-Type': 'application/json',
+          'Retry-After': String(Math.ceil((((!byIp.ok ? byIp : byEmail).reset - Date.now()) / 1000))),
+        },
+      },
+    )
+  }
+  perf.checkpoint('rate-limit')
 
   // Synthesize name from email for lightweight submissions (newsletter,
   // exit-intent). The NOT NULL constraint on public.leads.name is enforced
