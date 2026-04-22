@@ -115,7 +115,15 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
       }
 
       try {
-        const base = s.content ? (resolveRef(s.content, copyCtx) as Record<string, unknown>) : {}
+        // Fall back to {} if content ref can't resolve — stoicfinch and a
+        // few other tenants have page configs referencing content keys
+        // that don't exist yet. A missing ref should render an empty
+        // section rather than crash the whole page with `.length on
+        // undefined` in a downstream section component.
+        const resolved = s.content ? resolveRef(s.content, copyCtx) : {}
+        const base = (resolved && typeof resolved === 'object'
+          ? (resolved as Record<string, unknown>)
+          : {})
         const merged = mergeOverrides(base, s.overrides)
         const filled = fillDeep(merged, placeholders) as Record<string, unknown>
 
