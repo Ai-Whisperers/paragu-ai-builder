@@ -43,7 +43,7 @@ function IconByName({ name, size = 28 }: { name?: string; size?: number }) {
   if (!name) return null
   const Icon = (Icons as unknown as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[name]
   if (!Icon) return null
-  return <Icon size={size} className="text-[var(--secondary)]" />
+  return <Icon size={size} className="text-[var(--secondary-foreground)]" strokeWidth={2.25} />
 }
 
 export function ProcessTimelineSection({
@@ -71,6 +71,15 @@ export function ProcessTimelineSection({
           )}
         </AnimatedSectionHeader>
 
+        {totalDuration && (
+          <div className="mt-6 flex justify-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-[var(--primary)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[var(--primary)]">
+              <span aria-hidden="true">⏱</span>
+              {totalDuration}
+            </span>
+          </div>
+        )}
+
         {variant === 'vertical' ? (
           <Vertical steps={steps} />
         ) : variant === 'stepped' ? (
@@ -79,21 +88,15 @@ export function ProcessTimelineSection({
           <Horizontal steps={steps} />
         )}
 
-        {(totalDuration || ctaLabel) && (
-          <div className="mt-12 flex flex-col items-center gap-3 text-center">
-            {totalDuration && (
-              <p className="text-sm text-[var(--text-muted)]">
-                {totalDuration}
-              </p>
-            )}
-            {ctaLabel && ctaHref && (
-              <a
-                href={ctaHref}
-                className="inline-flex items-center gap-2 rounded-md bg-[var(--secondary)] px-6 py-3 text-[var(--secondary-foreground)] shadow-button transition-all hover:-translate-y-0.5"
-              >
-                {ctaLabel}
-              </a>
-            )}
+        {ctaLabel && ctaHref && (
+          <div className="mt-12 flex justify-center">
+            <a
+              href={ctaHref}
+              className="inline-flex items-center gap-2 rounded-md bg-[var(--primary)] px-6 py-3 font-semibold text-[var(--primary-foreground,white)] shadow-button transition-all hover:-translate-y-0.5 hover:shadow-lg"
+            >
+              {ctaLabel}
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         )}
       </Container>
@@ -161,7 +164,7 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
                 )}
                 <span
                   aria-hidden="true"
-                  className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-[var(--primary)] text-xs font-bold text-white shadow-md"
+                  className="absolute -top-3 left-1/2 flex h-8 w-8 -translate-x-1/2 items-center justify-center rounded-full bg-[var(--primary)] text-sm font-bold text-white shadow-md ring-2 ring-[var(--surface)]"
                 >
                   {step.number ?? i + 1}
                 </span>
@@ -173,7 +176,7 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
               >
                 {step.title}
               </Heading>
-              <p className="text-sm text-[var(--text-light)]">{step.description}</p>
+              <p className="min-h-[3.25rem] text-sm text-[var(--text-light)]">{step.description}</p>
               {step.duration && (
                 <p className="mt-2 text-xs uppercase tracking-wider text-[var(--text-muted)]">
                   {step.duration}
