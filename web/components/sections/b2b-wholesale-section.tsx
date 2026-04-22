@@ -133,7 +133,7 @@ export function B2BWholesaleSection({ business }: B2BPageProps) {
             <Building2 className="w-4 h-4" />
             Soluciones para Negocios
           </div>
-          <Heading level={1} className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <Heading level={2} className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Huevos Frescos de Calidad
             <span className="block text-orange-600">para tu Restaurante, Panadería o Hotel</span>
           </Heading>
