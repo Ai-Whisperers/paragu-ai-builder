@@ -24,14 +24,18 @@ export function CookieBanner({ copy }: { copy: CookieBannerCopy }) {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
+    // Check storage first so decided users never see the banner at all.
+    let stored: string | null = null
     try {
-      const stored = typeof window !== 'undefined' ? window.localStorage.getItem(STORAGE_KEY) : null
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      if (!stored) setVisible(true)
+      stored = typeof window !== 'undefined' ? window.localStorage.getItem(STORAGE_KEY) : null
     } catch {
-       
-      setVisible(true)
+      // private mode or quota exceeded — fall through, show the banner.
     }
+    if (stored) return
+    // Delay first appearance so the hero's first-impression lands cleanly
+    // before the banner appears. 2.5s matches the hero animation settle time.
+    const t = setTimeout(() => setVisible(true), 2500)
+    return () => clearTimeout(t)
   }, [])
 
   function persist(state: ConsentState) {
