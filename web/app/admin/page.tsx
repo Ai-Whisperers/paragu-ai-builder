@@ -39,6 +39,7 @@ export default async function AdminDashboard() {
       .select('status, created_at, contacted_at')
       .in('status', ['new', 'contacted'])
       .limit(1000)
+    // eslint-disable-next-line react-hooks/purity -- Server Component; Date.now() is a deliberate request-time value, not a hook-triggering side-effect.
     const now = Date.now()
     for (const l of (data ?? []) as Array<{ status: string; created_at: string; contacted_at: string | null }>) {
       if (l.status === 'new') {
