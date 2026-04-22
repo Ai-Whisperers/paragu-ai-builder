@@ -5,17 +5,20 @@
   "domain": "dayah-litworks.com",
   "stagingDomain": "staging.dayah-litworks.com",
   "defaultLocale": "es",
-  "locales": [
-    "es"
-  ],
+  "locales": ["es", "en"],
   "contact": {
-    "email": "dayah@litworks.com",
+    "email": "dayahlitworks@gmail.com",
     "whatsapp": "+595986868241",
-    "instagram": "@dayah.litworks"
+    "instagram": "@dayah.litworks",
+    "facebook": "https://www.facebook.com/bookc0verdesign/",
+    "linkedin": "https://www.linkedin.com/in/daihana-araujo/"
   },
   "location": {
     "city": "Asuncion"
   },
+  "founded": "2019-11-20",
+  "legalName": "Daihana Araujo",
+  "ruc": "5618487-5",
   "integrations": {
     "crm": "hubspot",
     "email": "mailchimp",
@@ -23,7 +26,8 @@
   },
   "features": {
     "whatsappFloat": true,
-    "testimonials": true
+    "testimonials": true,
+    "dualCurrency": true
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
   "migratedAt": "2026-04-20",

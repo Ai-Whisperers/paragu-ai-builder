@@ -3,45 +3,17 @@
   "titleKey": "home.seo.title",
   "descriptionKey": "home.seo.description",
   "sections": [
-    {
-      "id": "header",
-      "variant": "standard",
-      "content": "navigation"
-    },
-    {
-      "id": "hero",
-      "variant": "image",
-      "content": "home.hero"
-    },
-    {
-      "id": "services",
-      "variant": "cards",
-      "content": "home.services"
-    },
-    {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "home.products"
-    },
-    {
-      "id": "testimonials",
-      "variant": "carousel",
-      "content": "home.testimonials"
-    },
-    {
-      "id": "contact",
-      "variant": "split",
-      "content": "home.contact"
-    },
-    {
-      "id": "footer",
-      "variant": "standard",
-      "content": "footer"
-    },
-    {
-      "id": "whatsapp-float",
-      "variant": "standard",
-      "content": "whatsapp"
-    }
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "image", "content": "home.hero" },
+    { "id": "trustBadges", "variant": "badges", "content": "home.trustBadges" },
+    { "id": "services", "variant": "categories", "content": "home.services" },
+    { "id": "productCatalog", "variant": "filterable", "content": "home.products" },
+    { "id": "process", "variant": "timeline", "content": "home.process" },
+    { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
+    { "id": "faq", "variant": "accordion", "content": "home.faq" },
+    { "id": "ctaBanner", "variant": "standard", "content": "ctaBanner" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
 }

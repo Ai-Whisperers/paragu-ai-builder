@@ -1,0 +1,15 @@
+{
+  "slug": "sobre",
+  "titleKey": "sobre.seo.title",
+  "descriptionKey": "sobre.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "simple", "content": "sobre.hero" },
+    { "id": "about", "variant": "bio", "content": "sobre.bio" },
+    { "id": "stats", "variant": "badges", "content": "sobre.highlights" },
+    { "id": "process", "variant": "timeline", "content": "home.process" },
+    { "id": "ctaBanner", "variant": "standard", "content": "ctaBanner" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+  ]
+}
