@@ -5646,31 +5646,35 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
       "modern",
       "stoic"
     ],
-    "name": "Stoic Finch — Calgary Navy + Glacier Teal",
-    "notes": "Dark navy primary mirrors stoicfinch.com hero/footer bands. Glacier teal accent matches their CTA buttons. Inter chosen as a modern geometric sans close to the live site's typography.",
+    "name": "Stoic Finch — official brand palette",
+    "notes": "Official 5-color palette. Primary #1A234D (deep navy, used in hero/footer bands), secondary #1C78F2 (mid-blue, for main CTAs), accent #38C2F0 (glacier teal, for highlights and links), plus two electric accents (#3E00EE electric indigo, #59FFFF bright cyan) for gradient transitions and highlighted-on-dark moments. Inter chosen as a modern geometric sans consistent with the live site's typography.",
     "palettes": {
       "default": {
+        "_source": "Brand colors provided by owner: #1A234D #3E00EE #38C2F0 #1C78F2 #59FFFF",
         "colors": {
-          "accent": "#14B8A6",
-          "accentForeground": "#0B1F3A",
+          "accent": "#38C2F0",
+          "accentBright": "#59FFFF",
+          "accentElectric": "#3E00EE",
+          "accentForeground": "#1A234D",
           "background": "#FFFFFF",
           "border": "#E2E8F0",
           "error": "#EF4444",
-          "primary": "#0B1F3A",
+          "primary": "#1A234D",
+          "primaryDark": "#0F1733",
           "primaryForeground": "#FFFFFF",
-          "secondary": "#14B8A6",
+          "secondary": "#1C78F2",
           "secondaryForeground": "#FFFFFF",
           "success": "#10B981",
           "surface": "#F4F7FA",
-          "surfaceDark": "#0B1F3A",
+          "surfaceDark": "#1A234D",
           "surfaceLight": "#FFFFFF",
-          "text": "#0B1F3A",
+          "text": "#1A234D",
           "textInverse": "#FFFFFF",
           "textLight": "#475569",
           "textMuted": "#94A3B8",
           "warning": "#F59E0B"
         },
-        "name": "Calgary Navy + Glacier Teal"
+        "name": "Stoic Finch official"
       }
     },
     "theme": "dark",
@@ -31495,6 +31499,123 @@ export const CONTENT: Record<string, JsonRecord> = {
       "translationQuality": "ai-mirror",
       "warning": "Tenant is is_demo:true. Copy mirrors public stoicfinch.com messaging — replace with authorized content before any paid traffic."
     },
+    "aboutPage": {
+      "cta": {
+        "address": "Calgary, Alberta, Canada",
+        "email": "hello@stoicfinch.com",
+        "subtitle": "Tell us a little about your situation and we'll be in touch within one business day.",
+        "title": "Ready to talk?",
+        "whatsapp": ""
+      },
+      "hero": {
+        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryText": "Get Started Today",
+        "headline": "About Stoic Finch",
+        "subheadline": "Born in Calgary 🍁  Inspired by the Rockies 🏔  Delivered Globally 🌎"
+      },
+      "ourStory": {
+        "eyebrow": "Our story",
+        "items": [
+          {
+            "description": "Deliver insights to the people on your team who need it most, whether it's quarterly or in near real-time.",
+            "icon": "BarChart",
+            "title": "Reports & Dashboarding"
+          },
+          {
+            "description": "Discover key drivers of your KPIs and build quantitative models to understand how those drivers will impact your future.",
+            "icon": "Search",
+            "title": "Data Analysis"
+          },
+          {
+            "description": "Targeted research into your data to discover hidden value and insight not accessible through traditional data analysis.",
+            "icon": "Brain",
+            "title": "Data Science"
+          },
+          {
+            "description": "Design and build automated, robust, scalable solutions for collecting, distributing and analyzing your data.",
+            "icon": "Database",
+            "title": "Data Engineering"
+          },
+          {
+            "description": "Tailor a data strategy to the specific needs and goals of your organization, then steward that strategy into action.",
+            "icon": "Compass",
+            "title": "Data Strategy & Product Management"
+          }
+        ],
+        "subtitle": "Stoic Finch is a professional services company dedicated to five areas of expertise, ensuring our customers have the right people for today's problems and tomorrow's goals.",
+        "title": "We provide the data professionals you need."
+      },
+      "seo": {
+        "description": "Stoic Finch is a Calgary-born data consultancy delivering Reports & Dashboarding, Data Analysis, Data Science, Data Engineering and Data Strategy to clients worldwide.",
+        "title": "About Stoic Finch — Calgary-born data consultancy"
+      },
+      "team": {
+        "members": [],
+        "subtitle": "Experienced practitioners who have built and run data functions at companies ranging from early-stage startups to enterprise.",
+        "title": "The team"
+      }
+    },
+    "contactPage": {
+      "contact": {
+        "address": "Calgary, Alberta, Canada",
+        "email": "hello@stoicfinch.com",
+        "linkedin": "https://www.linkedin.com/company/stoicfinch/",
+        "subtitle": "Email is the fastest way to reach us. We respond within one business day.",
+        "title": "Get in touch"
+      },
+      "hero": {
+        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryText": "Get Started Today",
+        "headline": "Take the first step.",
+        "subheadline": "Tell us a little about your situation and we'll be in touch within one business day. No commitments. No hassle."
+      },
+      "seo": {
+        "description": "Tell us about your data problem. We'll be in touch within one business day. No commitments, no hassle.",
+        "title": "Contact Stoic Finch — Get started with your data"
+      }
+    },
+    "faqPage": {
+      "cta": {
+        "email": "hello@stoicfinch.com",
+        "subtitle": "Get in touch — we respond within one business day.",
+        "title": "Didn't see your question?"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Three models: Consultation (1–4 weeks discovery + advisory), Development (project-based build with milestones), Ongoing Maintenance (monthly retainer for managed analytics/pipelines/models).",
+            "question": "How do you typically engage?"
+          },
+          {
+            "answer": "Python, Power BI, Tableau, PostgreSQL, Pandas, Apache Spark, Delta Lake, Jupyter, Git — plus cloud-native stacks on Azure, AWS and GCP. We pick the tool that fits your existing ecosystem.",
+            "question": "What tools do you work with?"
+          },
+          {
+            "answer": "Born in Calgary, Alberta 🇨🇦. Delivered globally — most engagements are remote or hybrid, with on-site options for Calgary/Alberta clients.",
+            "question": "Where are you based?"
+          },
+          {
+            "answer": "No — scope, seniority, and timeline vary too much. We quote per engagement after a free consultation. Typical engagements range from single-sprint discoveries to multi-quarter retainers.",
+            "question": "Do you publish pricing?"
+          },
+          {
+            "answer": "A 1–2 week discovery is a common starting point. We use it to map your data landscape and agree on where to invest first.",
+            "question": "What's the smallest engagement you take?"
+          }
+        ],
+        "title": "Stoic Finch, in answers"
+      },
+      "hero": {
+        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryText": "Still curious? Get in touch",
+        "headline": "Frequently asked questions",
+        "subheadline": "Answers to the questions prospects ask us most often."
+      },
+      "seo": {
+        "description": "Common questions about engagements, pricing, team composition, tools and timelines.",
+        "title": "FAQ — Stoic Finch"
+      }
+    },
     "footer": {
       "address": "Calgary, Alberta, Canada 🇨🇦",
       "businessName": "Stoic Finch Corporation",
@@ -31554,6 +31675,40 @@ export const CONTENT: Record<string, JsonRecord> = {
       "copyright": "© 2026 Stoic Finch Corporation. All rights reserved.",
       "tagline": "Use your data like a pro.",
       "tagline2": "Born in Calgary 🍁 Inspired by the Rockies 🏔 Delivered Globally 🌎"
+    },
+    "founderPage": {
+      "hero": {
+        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryText": "Get in touch",
+        "headline": "The founder",
+        "subheadline": "Why Stoic Finch exists and what we're building."
+      },
+      "ourStory": {
+        "eyebrow": "Why Stoic Finch",
+        "items": [
+          {
+            "description": "Stop wasting cycles figuring out if this is the right version. We automate data versioning and sharing across your organization.",
+            "icon": "Target",
+            "title": "One source of truth"
+          },
+          {
+            "description": "Tailor a modern data platform to your needs — automated processing, built-in quality checks, batch and real-time.",
+            "icon": "Zap",
+            "title": "Scale processing infinitely"
+          },
+          {
+            "description": "Free up your engineers to focus on the big problems. Give your stakeholders their own data team.",
+            "icon": "Users",
+            "title": "Embedded experts"
+          }
+        ],
+        "subtitle": "Most organizations hit the same three walls: their data is scattered, their team spends cycles figuring out 'the right version,' and engineering is backed up. Stoic Finch was built to solve all three — as one calm, senior team.",
+        "title": "Set yourself up to be a market leader in data-driven value creation."
+      },
+      "seo": {
+        "description": "Meet the founder of Stoic Finch — a Calgary-born data consultancy.",
+        "title": "Founder — Stoic Finch"
+      }
     },
     "home": {
       "benefits": {
@@ -31825,6 +31980,53 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "subtitle": "Three engagement modes — pick the one that fits where you are.",
         "title": "Simple working models to ensure you succeed."
+      }
+    },
+    "industriesIndexPage": {
+      "hero": {
+        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryText": "Start a conversation",
+        "headline": "Industries we serve",
+        "subheadline": "Our consultants bring domain experience across five industries — each with distinct data patterns and regulatory contexts."
+      },
+      "seo": {
+        "description": "Stoic Finch partners with organizations across B2B SaaS, healthcare, financial services, manufacturing, and oil & gas.",
+        "title": "Industries we serve — Stoic Finch"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "SaaS",
+            "description": "Product analytics, revenue dashboards, activation funnels, customer-health models.",
+            "imageUrl": "",
+            "name": "B2B SaaS"
+          },
+          {
+            "category": "Health",
+            "description": "Patient forecasting, capacity planning, HIPAA-aware analytics, outcomes measurement.",
+            "imageUrl": "",
+            "name": "Healthcare"
+          },
+          {
+            "category": "Finance",
+            "description": "Risk dashboards, credit scoring, regulatory reporting, portfolio analytics.",
+            "imageUrl": "",
+            "name": "Financial Services"
+          },
+          {
+            "category": "Industrial",
+            "description": "OEE, supply-chain visibility, predictive maintenance, throughput analytics.",
+            "imageUrl": "",
+            "name": "Manufacturing"
+          },
+          {
+            "category": "Energy",
+            "description": "Production dashboards, well-level analytics, HSE reporting, forecasting.",
+            "imageUrl": "",
+            "name": "Oil & Gas"
+          }
+        ],
+        "title": "Five industries. Consistent delivery."
       }
     },
     "navigation": {
