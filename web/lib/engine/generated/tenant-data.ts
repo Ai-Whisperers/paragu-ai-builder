@@ -20802,6 +20802,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/recursos",
           "label": "Ressourcen"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/prensa",
+          "label": "Presse"
         }
       ],
       "whatsapp": "595982515138"
@@ -21713,6 +21717,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/de/nexa-paraguay/recursos",
           "label": "Ressourcen"
+        },
+        {
+          "href": "/s/de/nexa-paraguay/prensa",
+          "label": "Presse"
         },
         {
           "href": "/s/de/nexa-paraguay/contacto",
@@ -22885,6 +22893,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/recursos",
           "label": "Resources"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/prensa",
+          "label": "Press"
         }
       ],
       "whatsapp": "595982515138"
@@ -23796,6 +23808,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/en/nexa-paraguay/recursos",
           "label": "Resources"
+        },
+        {
+          "href": "/s/en/nexa-paraguay/prensa",
+          "label": "Press"
         },
         {
           "href": "/s/en/nexa-paraguay/contacto",
@@ -24953,6 +24969,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/recursos",
           "label": "Recursos"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/prensa",
+          "label": "Prensa"
         }
       ],
       "whatsapp": "595982515138"
@@ -25864,6 +25884,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/nexa-paraguay/recursos",
           "label": "Recursos"
+        },
+        {
+          "href": "/s/es/nexa-paraguay/prensa",
+          "label": "Prensa"
         },
         {
           "href": "/s/es/nexa-paraguay/contacto",
@@ -27035,6 +27059,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/recursos",
           "label": "Bronnen"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/prensa",
+          "label": "Pers"
         }
       ],
       "whatsapp": "595982515138"
@@ -27946,6 +27974,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/nl/nexa-paraguay/recursos",
           "label": "Bronnen"
+        },
+        {
+          "href": "/s/nl/nexa-paraguay/prensa",
+          "label": "Pers"
         },
         {
           "href": "/s/nl/nexa-paraguay/contacto",

@@ -45,6 +45,10 @@
         "href": "/s/nl/nexa-paraguay/recursos"
       },
       {
+        "label": "Pers",
+        "href": "/s/nl/nexa-paraguay/prensa"
+      },
+      {
         "label": "Contact",
         "href": "/s/nl/nexa-paraguay/contacto"
       }
@@ -1058,6 +1062,10 @@
       {
         "label": "Bronnen",
         "href": "/s/nl/nexa-paraguay/recursos"
+      },
+      {
+        "label": "Pers",
+        "href": "/s/nl/nexa-paraguay/prensa"
       }
     ]
   },
