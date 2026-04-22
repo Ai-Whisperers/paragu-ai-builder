@@ -3,9 +3,8 @@
  *
  * Reads from public.leads. Pipeline: new → contacted → qualified → closed.
  * Supports filtering by site, status, assignee, and free-text search, with
- * paginated results (25/page). Admin gate via requireAdmin().
+ * paginated results (25/page). Auth gated by admin layout.tsx.
  */
-import { requireAdmin } from '@/lib/auth/admin'
 import { createClient } from '@/lib/supabase/server'
 import { logger } from '@/lib/logger'
 import { InboxDashboard } from './inbox-dashboard'
@@ -64,7 +63,6 @@ export default async function InboxPage({
     page?: string
   }>
 }) {
-  await requireAdmin()
   const sp = await searchParams
   const supabase = await createClient()
   const page = Math.max(1, parseInt(sp.page ?? '1', 10) || 1)

@@ -10,7 +10,6 @@
  */
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { requireAdmin } from '@/lib/auth/admin'
 import { TEMPLATES } from '@/lib/landing/marketing-data'
 
 export const runtime = 'nodejs'
@@ -73,7 +72,6 @@ function ago(iso: string): string {
 }
 
 export default async function DemoRequestsPage() {
-  await requireAdmin()
   const supabase = await createClient()
 
   const { data: events, error } = await supabase

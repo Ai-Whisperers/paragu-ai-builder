@@ -6,11 +6,10 @@
  * bookmark-able, shareable with another admin, deep-linked from the email
  * notification, and rendered server-side so it loads fast.
  *
- * Service-role read via createClient(). Admin-gated.
+ * Service-role read via createClient(). Auth gated by admin layout.tsx.
  */
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { requireAdmin } from '@/lib/auth/admin'
 import { createClient } from '@/lib/supabase/server'
 import { logger } from '@/lib/logger'
 import { AuditTimeline } from '../audit-timeline'
@@ -33,7 +32,6 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 export default async function LeadDetailPage({ params }: PageProps) {
-  await requireAdmin()
   const { id } = await params
 
   const supabase = await createClient()
