@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState, useSyncExternalStore } from 'react'
+import dynamic from 'next/dynamic'
 import type { Product } from '@/lib/schemas/commerce/product'
 import { ProductImage } from './product-image'
 import { formatCents } from '@/lib/commerce/compute-totals'
@@ -12,10 +13,17 @@ import {
   isInWishlist,
   removeFromWishlist,
 } from '@/lib/stores/wishlist'
-import { QuickViewModal } from './quick-view-modal'
 import { ReviewStars } from './review-stars'
 import { Highlight } from './highlight'
 import { trackAddToCart, trackAddToWishlist } from '@/lib/analytics/commerce-events'
+
+// Lazy-load QuickViewModal — it's ~170 lines of JSX + handlers and only
+// loads when the shopper actually clicks "Vista rápida". Drops ~8kb of
+// client JS from the initial bundle on /tienda (N cards × this chunk).
+const QuickViewModal = dynamic(
+  () => import('./quick-view-modal').then((m) => ({ default: m.QuickViewModal })),
+  { ssr: false },
+)
 
 interface Props {
   siteSlug: string
@@ -268,13 +276,18 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
         </div>
       </div>
 
-      <QuickViewModal
-        siteSlug={siteSlug}
-        locale={locale}
-        product={product}
-        open={quickViewOpen}
-        onClose={() => setQuickViewOpen(false)}
-      />
+      {/* Only mount the modal once the shopper has opened it. Combined
+          with the dynamic() import above, the chunk is never fetched for
+          cards that are never clicked — which is most of them. */}
+      {quickViewOpen ? (
+        <QuickViewModal
+          siteSlug={siteSlug}
+          locale={locale}
+          product={product}
+          open={quickViewOpen}
+          onClose={() => setQuickViewOpen(false)}
+        />
+      ) : null}
     </article>
   )
 }
