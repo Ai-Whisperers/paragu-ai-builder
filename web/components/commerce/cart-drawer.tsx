@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { useCartStore, cartSubtotalCents } from '@/lib/stores/cart-store'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { getFreeShippingThresholdCents } from '@/lib/commerce/shipping-threshold'
 
 interface Props {
   siteSlug: string
@@ -146,6 +147,41 @@ export function CartDrawer({ siteSlug, locale, open, onClose }: Props) {
 
         {items.length > 0 ? (
           <footer className="border-t border-[color:var(--border,#e5e7eb)] px-6 py-4">
+            {(() => {
+              // Progress bar toward free-shipping threshold. Hidden when
+              // the tenant has no threshold configured, or when the cart
+              // currency doesn't match the tenant's threshold currency
+              // (both PYG for PY tenants today). Converts the "Gs 200.000"
+              // marketing promise into a concrete "faltan Gs X" nudge the
+              // moment the shopper opens the drawer.
+              const threshold = getFreeShippingThresholdCents(siteSlug)
+              if (threshold <= 0 || currency !== 'PYG') return null
+              const pct = Math.min(100, Math.round((subtotal / threshold) * 100))
+              const reached = subtotal >= threshold
+              return (
+                <div className="mb-3" aria-live="polite">
+                  <div className="mb-1 flex items-center justify-between text-xs">
+                    <span className={reached ? 'font-medium text-emerald-700' : 'text-[color:var(--text-muted,#6b7280)]'}>
+                      {reached
+                        ? '🎉 ¡Ya tenés envío gratis!'
+                        : `Te faltan ${formatCents(threshold - subtotal, 'PYG')} para envío gratis`}
+                    </span>
+                  </div>
+                  <div
+                    role="progressbar"
+                    aria-valuenow={pct}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                    className="h-1.5 overflow-hidden rounded-full bg-[color:var(--surface-muted,#f3f4f6)]"
+                  >
+                    <div
+                      className={`h-full transition-all duration-300 ${reached ? 'bg-emerald-600' : 'bg-[color:var(--primary,#111)]'}`}
+                      style={{ width: `${pct}%` }}
+                    />
+                  </div>
+                </div>
+              )
+            })()}
             <div className="mb-3 flex items-center justify-between text-sm">
               <span className="text-[color:var(--text-muted,#6b7280)]">Subtotal</span>
               <span className="text-lg font-semibold">{formatCents(subtotal, currency)}</span>
