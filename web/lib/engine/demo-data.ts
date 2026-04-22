@@ -452,11 +452,11 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     name: 'Granja Cabral',
     slug: 'granja-cabral',
     type: 'egg_farm',
-    tagline: 'Huevos frescos de granja en Coronel Oviedo',
+    tagline: 'Huevos de Granja 100% Paraguayos - De nuestras gallinas a tu mesa',
     city: 'Coronel Oviedo',
     address: 'Ruta 2, Km 125-140',
-    phone: '+595981000000',
-    whatsapp: '+595981000000',
+    phone: '+595XXXXXXXXX', // PLACEHOLDER - UPDATE WITH LAURA'S REAL NUMBER
+    whatsapp: '+595XXXXXXXXX', // PLACEHOLDER - UPDATE WITH LAURA'S REAL NUMBER
     email: 'info@granjacabral.com',
     instagram: '@granjacabral',
     hours: {
@@ -464,26 +464,88 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
       'Domingo': 'Cerrado',
     },
     products: [
-      { name: 'Huevos por Unidad', price: '800 Gs', description: 'Huevos frescos recien recolectados', category: 'Huevos', available: true },
-      { name: 'Maple de 30 Huevos', price: '22.000 Gs', description: 'Caja de 30 unidades - ideal para familias', category: 'Huevos', available: true },
-      { name: 'Bandeja de 12 Huevos', price: '9.500 Gs', description: 'Docena fresca - perfecto para probar', category: 'Huevos', available: true },
-      { name: 'Pollo Entero', price: '35.000 Gs', description: 'Pollo limpio y listo para cocinar (aprox. 2-2.5kg) - Pedido 24hs antes', category: 'Pollo', available: true },
-      { name: 'Pollito Tierno', price: '22.000 Gs', description: 'Pollo joven, carne suave (aprox. 1-1.2kg) - Pedido 24hs antes', category: 'Pollo', available: true },
-      { name: 'Fertilizante Organico 10kg', price: '15.000 Gs', description: 'Gallinaza compostada, excelente para huertas', category: 'Fertilizante', available: true },
+      // Huevos Frescos
+      { name: 'Huevos por Unidad', price: '800 Gs', description: 'Huevos frescos recién recolectados. Yemas doradas, claras firmes.', category: 'Huevos', available: true, stockCount: 350 },
+      { name: 'Bandeja de 12 Huevos', price: '9.500 Gs', description: 'Docena fresca - perfecto para probar la calidad de granja.', category: 'Huevos', available: true, stockCount: 45 },
+      { name: 'Maple de 30 Huevos', price: '22.000 Gs', description: 'Caja de 30 unidades - ideal para familias. Mejor precio por unidad.', category: 'Huevos', available: true, stockCount: 28 },
+      { name: 'Maple de 60 Huevos', price: '40.000 Gs', description: 'Caja de 60 unidades - para familias grandes o pequeños negocios.', category: 'Huevos', available: true, stockCount: 15 },
+      { name: 'Huevos Tamaño Jumbo', price: '1.000 Gs', description: 'Huevos extra grandes de gallinas selectas. Yemas abundantes.', category: 'Huevos', available: true, stockCount: 50 },
+      
+      // Pollo para Consumo
+      { name: 'Pollo Entero', price: '35.000 Gs', description: 'Pollo limpio y listo para cocinar (aprox. 2-2.5kg). Criado naturalmente. Pedido 24hs antes.', category: 'Pollo', available: true, isPreorder: true },
+      { name: 'Pollito Tierno', price: '22.000 Gs', description: 'Pollo joven, carne suave y delicada (aprox. 1-1.2kg). Pedido 24hs antes.', category: 'Pollo', available: true, isPreorder: true },
+      { name: 'Pollo en Piezas', price: '40.000 Gs', description: 'Pollo entero cortado en 8 piezas: pechugas, piernas, alitas, espaldas.', category: 'Pollo', available: true, isPreorder: true },
+      
+      // Productos de Valor Agregado
+      { name: 'Huevo Líquido Pasteurizado', price: '25.000 Gs/L', description: 'Ideal para panaderías y restaurantes. Envase de 1 litro. Duración: 15 días refrigerado.', category: 'Valor Agregado', available: true, isB2B: true },
+      { name: 'Mayonesa Casera', price: '15.000 Gs', description: 'Elaborada con nuestros huevos frescos. Frasco de 500ml. Sin conservantes.', category: 'Valor Agregado', available: true, stockCount: 20 },
+      { name: 'Fideos con Huevo', price: '12.000 Gs', description: 'Fideos artesanales hechos con huevos de nuestra granja. Paquete de 500g.', category: 'Valor Agregado', available: true, stockCount: 30 },
+      
+      // Organico & Sostenibilidad
+      { name: 'Fertilizante Orgánico 10kg', price: '15.000 Gs', description: 'Gallinaza compostada y tratada. Excelente para huertas, jardines y cultivos.', category: 'Fertilizante', available: true, stockCount: 50 },
+      { name: 'Compost Premium', price: '18.000 Gs', description: 'Compost enriquecido listo para usar. Bolsa de 10kg. Sin olores.', category: 'Fertilizante', available: true, stockCount: 25 },
+      
+      // Servicios
+      { name: 'Asesoría para Nuevos Granjeros', price: 'Consultar', description: 'Capacitación en manejo de gallinas ponedoras. Incluye visita a la granja.', category: 'Servicios', available: true },
     ],
     services: [
-      { name: 'Delivery a Domicilio', price: 'Consultar', description: 'Llevamos tus huevos frescos hasta tu puerta en Coronel Oviedo y zonas cercanas de Ruta 2', category: 'Servicios' },
-      { name: 'Venta por Mayor', price: 'Desde 100 unidades', description: 'Precios especiales para restaurantes, hoteles, panaderias y supermercados', category: 'Mayorista' },
-      { name: 'Pedidos Programados', price: 'Consultar', description: 'Entrega semanal o quincenal para tu hogar o negocio', category: 'Servicios' },
+      { name: 'Delivery a Domicilio', price: 'Desde 5.000 Gs', description: 'Llevamos tus huevos frescos hasta tu puerta en Coronel Oviedo y Ruta 2 (Km 120-150). Entrega en 30-90 minutos según zona.', category: 'Servicios' },
+      { name: 'Venta por Mayor - Plan Bronce', price: '10% OFF', description: '100-300 huevos/semana. Ideal para pequeños restaurantes y cafeterías. Delivery incluido.', category: 'Mayorista' },
+      { name: 'Venta por Mayor - Plan Plata', price: '15% OFF', description: '300-600 huevos/semana. Para panaderías y restaurantes medianos. Prioridad en entregas.', category: 'Mayorista' },
+      { name: 'Venta por Mayor - Plan Oro', price: '20% OFF', description: '600+ huevos/semana. Para hoteles, supermercados y grandes restaurantes. Gerente de cuenta dedicado.', category: 'Mayorista' },
+      { name: 'Suscripción Familiar', price: '20.900 Gs/semana', description: '30 huevos frescos cada semana con 5% de descuento. Delivery gratis. Pausá o cancelá cuando quieras.', category: 'Suscripción' },
+      { name: 'Suscripción Familiar Plus', price: '38.000 Gs/semana', description: '60 huevos semanales con 5% de descuento. Ideal para familias grandes o cocineros entusiastas.', category: 'Suscripción' },
     ],
     team: [
-      { name: 'Laura Cabral', role: 'Propietaria', bio: 'Apasionada por la produccion local y la calidad. Dirige Granja Cabral con dedicacion y compromiso con la comunidad.' },
+      { name: 'Laura Cabral', role: 'Fundadora & Propietaria', bio: 'Apasionada por la producción local y la calidad. Fundó Granja Cabral con la visión de llevar alimentos frescos y saludables a cada familia de Coronel Oviedo. Dirige la granja con dedicación y compromiso con la comunidad desde [AÑO].' },
+      { name: 'Equipo Granja Cabral', role: 'Equipo de Producción', bio: 'Nuestro equipo dedicado trabaja todos los días para garantizar que cada huevo que llega a tu mesa sea fresco, limpio y de la más alta calidad.' },
     ],
     testimonials: [
-      { quote: 'Los huevos son fresquisimos, se nota la diferencia. El delivery es muy puntual.', author: 'Maria G. - Coronel Oviedo', rating: 5 },
-      { quote: 'Excelente calidad para mi panaderia. Mis clientes notan la diferencia en los productos horneados.', author: 'Don Jose - Panaderia San Jose', rating: 5 },
-      { quote: 'Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente.', author: 'Restaurante La Tradicion - Ruta 2', rating: 5 },
+      { quote: 'Los huevos son fresquísimos, se nota la diferencia con los del supermercado. Las yemas son naranja intenso y las claras bien firmes. El delivery siempre puntual.', author: 'María G.', location: 'Coronel Oviedo', rating: 5, type: 'cliente' },
+      { quote: 'Excelente calidad para mi panadería. Mis clientes notan la diferencia en los productos horneados. El color de las yemas es incomparable y la estructura de los bizcochos mejoró muchísimo.', author: 'Don José Giménez', location: 'Panadería San José', rating: 5, type: 'negocio' },
+      { quote: 'Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente. Llevamos 8 meses comprando y nunca nos fallaron. El servicio mayorista es excelente.', author: 'Restaurante La Tradición', location: 'Ruta 2, Km 132', rating: 5, type: 'restaurante' },
+      { quote: 'Hago el pedido por WhatsApp y en 40 minutos están en mi puerta. Los huevos duran mucho más frescos que los del super. Gran servicio y atención personalizada.', author: 'Carmen R.', location: 'Km 135, Ruta 2', rating: 5, type: 'cliente' },
+      { quote: 'Represento a un hotel y necesitamos calidad consistente para nuestro buffet de desayuno. Granja Cabral entrega exactamente eso, con la ventaja de ser producto local.', author: 'María Elena F.', location: 'Hotel del Centro', rating: 5, type: 'hotel' },
+      { quote: 'Vendemos "producto local" y Granja Cabral tiene excelente reputación. Los clientes buscan específicamente sus huevos. Entrega siempre puntual nos ayuda a mantener stock.', author: 'Carlos M.', location: 'Supermercado El Pueblo', rating: 5, type: 'supermercado' },
     ],
+    stats: [
+      { value: '500+', label: 'Gallinas Ponedoras' },
+      { value: '350', label: 'Huevos Diarios' },
+      { value: '300+', label: 'Clientes Satisfechos' },
+      { value: '100%', label: 'Producción Local' },
+      { value: '5+', label: 'Años de Experiencia' },
+    ],
+    features: [
+      { title: 'Recolección Diaria', description: 'Cada huevo es recolectado y revisado manualmente todos los días para garantizar máxima frescura.' },
+      { title: 'Alimentación Balanceada', description: 'Nuestras gallinas reciben dieta nutritiva con maíz, soja y minerales esenciales.' },
+      { title: 'Ambiente Natural', description: 'Gallinas criadas en galpones espaciosos con ventilación natural y acceso a luz solar.' },
+      { title: 'Compromiso Local', description: 'Apoyamos la economía de Coronel Oviedo creando empleo y produciendo alimentos locales.' },
+    ],
+    story: {
+      founded: '[AÑO]',
+      mission: 'Producir alimentos frescos, saludables y accesibles para las familias de Coronel Oviedo y zona, manteniendo prácticas sostenibles y apoyando el desarrollo local.',
+      vision: 'Ser la granja avícola de referencia en Caaguazú, reconocida por calidad, sostenibilidad y compromiso comunitario.',
+      values: [
+        'Calidad: Cada huevo es revisado antes de la venta',
+        'Sostenibilidad: Compostaje, biogas y gestión responsable del agua',
+        'Bienestar Animal: Gallinas en ambiente natural y saludable',
+        'Comunidad: Precios justos y apoyo a la economía local',
+        'Transparencia: Puertas abiertas para que conozcas nuestra granja',
+      ],
+    },
+    sustainability: {
+      composting: true,
+      biogas: true,
+      waterRecycling: true,
+      organicFertilizer: true,
+      description: 'Transformamos desechos orgánicos en compost premium. Capturamos biogas de la gallinaza para energía. Reciclamos agua de limpieza para riego.',
+    },
+    referralProgram: {
+      enabled: true,
+      friendDiscount: 10,
+      referrerReward: 'Maple de 30 huevos GRATIS',
+      description: 'Recomendá Granja Cabral y ganá. Tu amigo obtiene 10% OFF en su primera compra. Vos te llevás un maple de 30 huevos gratis.',
+    },
   },
 
   'villalba-contadores': {
