@@ -4,6 +4,7 @@ import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { CheckoutForm } from '@/components/commerce/checkout-form'
+import { CheckoutTrustStrip } from '@/components/commerce/checkout-trust-strip'
 import { CheckoutTracker } from '@/components/commerce/checkout-tracker'
 import { getSessionToken } from '@/lib/commerce/session'
 import { getCartBySessionToken } from '@/lib/commerce/cart'
@@ -33,6 +34,7 @@ export default async function CheckoutPage({ params }: { params: Promise<{ site:
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
       <main className="mx-auto max-w-5xl px-4 py-8">
         <h1 className="mb-6 text-2xl font-bold">Finalizar compra</h1>
+        <CheckoutTrustStrip />
         <CheckoutForm siteSlug={site} locale={locale} />
         <CheckoutTracker />
       </main>
