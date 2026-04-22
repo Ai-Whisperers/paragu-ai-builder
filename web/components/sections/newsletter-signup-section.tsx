@@ -4,6 +4,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { useState } from 'react'
+import { trackLeadSubmit } from '@/lib/analytics/marketing-events'
 
 export interface NewsletterSignupProps {
   title?: string
@@ -42,8 +43,10 @@ export function NewsletterSignupSection({
         body: JSON.stringify({ email, consent, source: tenantSlug ? `${tenantSlug}-newsletter` : 'newsletter' }),
       })
       setState(res.ok ? 'ok' : 'err')
+      trackLeadSubmit({ source: 'newsletter', success: res.ok, tenant: tenantSlug })
     } catch {
       setState('err')
+      trackLeadSubmit({ source: 'newsletter', success: false, tenant: tenantSlug })
     }
   }
 
