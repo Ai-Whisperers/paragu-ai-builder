@@ -1,0 +1,7 @@
+{
+  "id": "superspuma",
+  "nameEs": "Superspuma",
+  "tokens": "superspuma",
+  "sections": ["hero", "product-catalog", "whatsapp-cta", "footer"],
+  "features": { "payment": "bancard", "whatsapp": true }
+}
