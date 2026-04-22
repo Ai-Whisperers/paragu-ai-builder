@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=116, pages=150, content=135, blog=31, images=3, verticals=23. */
+/** Counts: sites=116, pages=155, content=136, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5506,6 +5506,127 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
 }
 
 export const PAGES: Record<string, JsonRecord> = {
+  "dayah-litworks:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog",
+        "id": "hero",
+        "variant": "simple"
+      },
+      {
+        "content": "blog.posts",
+        "id": "blogIndex",
+        "variant": "grid"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter",
+        "variant": "boxed"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "ctaBanner",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "smart"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
+  "dayah-litworks:catalogo": {
+    "descriptionKey": "home.products.subtitle",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.products",
+        "id": "productCatalog",
+        "variant": "filterable"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "smart"
+      }
+    ],
+    "slug": "catalogo",
+    "titleKey": "home.products.title"
+  },
+  "dayah-litworks:contacto": {
+    "description": "Contáctanos para tu proyecto de portada de libro",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "contactHero",
+        "id": "hero",
+        "variant": "simple"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "quoteForm",
+        "id": "quoteForm",
+        "variant": "multiStep"
+      },
+      {
+        "content": "home.newsletter",
+        "id": "newsletter",
+        "variant": "boxed"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "smart"
+      }
+    ],
+    "slug": "contacto",
+    "title": "Contacto - Dayah LitWorks"
+  },
   "dayah-litworks:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -5552,6 +5673,85 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "",
     "titleKey": "home.seo.title"
+  },
+  "dayah-litworks:portafolio": {
+    "descriptionKey": "portfolio.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "portfolio",
+        "id": "gallery",
+        "variant": "filterable"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "smart"
+      }
+    ],
+    "slug": "portafolio",
+    "titleKey": "portfolio.seo.title"
+  },
+  "dayah-litworks:servicios": {
+    "descriptionKey": "home.services.subtitle",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.services",
+        "id": "hero",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "categories"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "ctaBanner",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "smart"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "home.services.title"
   },
   "de-abasto-a-casa:home": {
     "descriptionKey": "home.seo.description",
@@ -10881,6 +11081,238 @@ export const PAGES: Record<string, JsonRecord> = {
 }
 
 export const CONTENT: Record<string, JsonRecord> = {
+  "dayah-litworks:en": {
+    "_meta": {
+      "author": "Dayah LitWorks",
+      "lastReviewed": "2026-04-21",
+      "translationQuality": "human"
+    },
+    "footer": {
+      "businessName": "Dayah LitWorks",
+      "copyright": "© 2026 Dayah LitWorks. All rights reserved."
+    },
+    "home": {
+      "contact": {
+        "email": "dayah@litworks.com",
+        "instagram": "@dayah.litworks",
+        "subtitle": "Ready to help with your book cover",
+        "title": "Contact Us",
+        "whatsapp": "+595986868241"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "1-3 weeks depending on complexity",
+            "question": "How long does it take?"
+          },
+          {
+            "answer": "Title, synopsis, genre, references",
+            "question": "What do I need?"
+          },
+          {
+            "answer": "Yes, revisions included",
+            "question": "Can I request changes?"
+          },
+          {
+            "answer": "Premade = existing design. Custom = from scratch",
+            "question": "Premade vs Custom?"
+          }
+        ],
+        "title": "FAQ"
+      },
+      "hero": {
+        "ctaPrimaryHref": "#catalogo",
+        "ctaPrimaryText": "View Catalog",
+        "ctaSecondaryHref": "https://wa.me/595986868241",
+        "ctaSecondaryText": "Contact via WhatsApp",
+        "headline": "Dayah LitWorks",
+        "subheadline": "Book cover design — from manuscript to a cover that sells"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "We discuss your book and vision",
+            "duration": "Day 1",
+            "title": "Initial Consultation"
+          },
+          {
+            "description": "We define style and mood",
+            "duration": "Days 1-2",
+            "title": "Brief & References"
+          },
+          {
+            "description": "2-3 initial options",
+            "duration": "Days 3-5",
+            "title": "Design Proposals"
+          },
+          {
+            "description": "Adjustments until perfect",
+            "duration": "Days 5-7",
+            "title": "Revisions"
+          },
+          {
+            "description": "All files ready",
+            "duration": "Day 7",
+            "title": "Final Delivery"
+          }
+        ],
+        "subtitle": "How we transform your manuscript into a cover that sells",
+        "title": "Our Process"
+      },
+      "products": {
+        "categories": [
+          "All",
+          "Fantasy",
+          "Romance",
+          "Thriller",
+          "Sci-Fi",
+          "Horror"
+        ],
+        "items": [
+          {
+            "available": true,
+            "category": "Fantasy",
+            "description": "Premade cover - Fantasy",
+            "name": "Whispers of the Forest",
+            "price": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "description": "Premade cover - Romance",
+            "name": "Heart of Ash",
+            "price": "$35"
+          },
+          {
+            "available": true,
+            "category": "Thriller",
+            "description": "Premade cover - Thriller",
+            "name": "The Last Code",
+            "price": "$30"
+          },
+          {
+            "available": true,
+            "category": "Sci-Fi",
+            "description": "Premade cover - Sci-Fi",
+            "name": "Inner Galaxy",
+            "price": "$35"
+          },
+          {
+            "available": true,
+            "category": "Horror",
+            "description": "Premade cover - Horror",
+            "name": "Shadows in the Mirror",
+            "price": "$30"
+          },
+          {
+            "available": true,
+            "category": "Fantasy",
+            "description": "Premade cover - YA Fantasy",
+            "name": "Crystal Wings",
+            "price": "$35"
+          }
+        ],
+        "subtitle": "Ready-to-use designs",
+        "title": "Premade Catalog"
+      },
+      "seo": {
+        "description": "Book cover design. From manuscript to a cover that sells.",
+        "title": "Dayah LitWorks — Professional Book Cover Design"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Custom Covers",
+            "description": "Exclusive design for your ebook",
+            "name": "Custom Cover - Ebook",
+            "price": "Ask"
+          },
+          {
+            "category": "Custom Covers",
+            "description": "Full cover for printing",
+            "name": "Custom Cover - Paperback",
+            "price": "Ask"
+          },
+          {
+            "category": "3D Mockups",
+            "description": "Realistic 3D image",
+            "name": "3D Mockup Static",
+            "price": "Ask"
+          },
+          {
+            "category": "3D Mockups",
+            "description": "Professional animation",
+            "name": "3D Video Mockup",
+            "price": "Ask"
+          }
+        ],
+        "subtitle": "Professional design for your book",
+        "title": "Our Services"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Maria G.",
+            "quote": "My cover is incredible!",
+            "rating": 5
+          },
+          {
+            "author": "Carlos R.",
+            "quote": "Professional and fast.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonials"
+      },
+      "trustBadges": {
+        "badges": [
+          {
+            "description": "Over 100 covers created",
+            "icon": "book",
+            "label": "100+ books designed"
+          },
+          {
+            "description": "Average rating",
+            "icon": "star",
+            "label": "5.0 Rating"
+          },
+          {
+            "description": "Average delivery time",
+            "icon": "clock",
+            "label": "7-day delivery"
+          },
+          {
+            "description": "Clients in USA, Europe and LATAM",
+            "icon": "globe",
+            "label": "Global authors"
+          }
+        ],
+        "title": "Why Choose Us"
+      }
+    },
+    "navigation": {
+      "businessName": "Dayah LitWorks",
+      "ctaHref": "https://wa.me/595986868241",
+      "ctaText": "Contact",
+      "items": [
+        "Home",
+        "Services",
+        "Catalog",
+        "Portfolio",
+        "Blog"
+      ]
+    },
+    "placeholders": {
+      "businessName": "Dayah LitWorks",
+      "city": "Asuncion",
+      "year": 2026
+    },
+    "siteName": "Dayah LitWorks",
+    "tagline": "Book cover design — from manuscript to a cover that sells",
+    "whatsapp": {
+      "defaultMessage": "Hi! Interested in book cover design services"
+    }
+  },
   "dayah-litworks:es": {
     "_meta": {
       "author": "Dayah LitWorks",
@@ -18509,7 +18941,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "loyalty": {
       "cta": {
-        "buttonHref": "/fun4me/account/signup",
+        "buttonHref": "https://wa.me/595976569739?text=Quiero%20unirme%20a%20Placer%20Plus",
         "buttonText": "Crear cuenta",
         "subtitle": "Es gratis. Te damos 100 pts por registrarte y 200 pts adicionales en tu primera compra.",
         "title": "Todavia no estas en Placer Plus?"
