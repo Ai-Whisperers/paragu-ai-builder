@@ -51,7 +51,7 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(async (re
       businessId,
       orderId: id,
       eventType: 'status_changed',
-      actorId: admin.id,
+      actorId: admin.userId,
       actorLabel: admin.email ?? null,
       toStatus: parsed.data.status,
     })

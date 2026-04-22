@@ -18956,7 +18956,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "loyalty": {
       "cta": {
-        "buttonHref": "/fun4me/account/signup",
+        "buttonHref": "https://wa.me/595976569739?text=Quiero%20unirme%20a%20Placer%20Plus",
         "buttonText": "Crear cuenta",
         "subtitle": "Es gratis. Te damos 100 pts por registrarte y 200 pts adicionales en tu primera compra.",
         "title": "Todavia no estas en Placer Plus?"
