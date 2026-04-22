@@ -76,6 +76,8 @@ export const OrderSchema = z.object({
    * "Comprobante enviado" badge when this is populated. */
   comprobanteSentAt: z.string().nullable(),
   comprobanteNote: z.string().nullable(),
+  comprobanteImageUrl: z.string().nullable(),
+  comprobanteUploadedAt: z.string().nullable(),
   createdAt: z.string(),
   updatedAt: z.string(),
   items: z.array(OrderItemSchema).optional(),
