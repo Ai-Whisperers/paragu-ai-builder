@@ -21858,15 +21858,167 @@ export const CONTENT: Record<string, JsonRecord> = {
   "granja-cabral:es": {
     "_meta": {
       "author": "Granja Cabral",
-      "lastReviewed": "2026-04-20",
-      "notes": "Content sourced from web/lib/engine/demo-data.ts and src/content/egg_farm.content.json. Placeholders flagged in site.json.placeholderFields. Awaiting confirmation from owner Laura Cabral — see docs/onboarding-questionnaire.md.",
+      "lastReviewed": "2026-04-22",
+      "notes": "Contenido oficial de Granja Cabral. Fuente única de verdad: el objeto `business` en la raíz — auto-inyectado a las secciones our-story, b2b-wholesale, recipes y enhanced-faq por compose-site.ts. Placeholders pendientes de confirmación con Laura Cabral están listados abajo.",
       "placeholders": [
-        "home.ourStory.business.story.founded — 2018 placeholder, needs confirmation from Laura Cabral",
-        "home.ourStory.business.story.mission/vision/values — drafted from research, pending Laura Cabral sign-off",
-        "home.ourStory.business.stats — counts are estimates (500 gallinas, 300 negocios); confirm with Laura Cabral",
-        "home.ourStory.business.sustainability — biogas flag is aspirational (planned, not yet operational)"
+        "business.foundedYear (2018) — pendiente de confirmación con Laura Cabral",
+        "business.story.mission/vision/values — borrador pendiente de aprobación del propietario",
+        "business.stats (500 gallinas, 300 negocios) — estimaciones pendientes de revisión",
+        "business.sustainability.biogas (false) — aspiracional, no operativo aún",
+        "business.whatsapp, phone, email, instagram — marcar confirmados cuando Laura valide los contactos"
       ],
       "translationQuality": "native"
+    },
+    "business": {
+      "address": "Ruta 2, Km 125-140",
+      "city": "Coronel Oviedo",
+      "country": "Paraguay",
+      "delivery": {
+        "schedule": {
+          "afternoon": "14:00 - 18:00",
+          "days": "Lunes a sábado",
+          "morning": "08:00 - 12:00"
+        },
+        "zones": [
+          {
+            "cost": "5.000 Gs",
+            "freeShippingAt": "50.000 Gs",
+            "minOrder": "15.000 Gs",
+            "name": "Coronel Oviedo centro"
+          },
+          {
+            "cost": "8.000 Gs",
+            "freeShippingAt": "70.000 Gs",
+            "minOrder": "20.000 Gs",
+            "name": "Ruta 2 cercana (Km 120-140)"
+          },
+          {
+            "cost": "12.000 Gs",
+            "freeShippingAt": "100.000 Gs",
+            "minOrder": "30.000 Gs",
+            "name": "Ruta 2 lejana (Km 140-150)"
+          }
+        ]
+      },
+      "department": "Caaguazú",
+      "email": "info@granjacabral.com",
+      "foundedYear": 2018,
+      "gallery": [
+        "/sites/granja-cabral/images/gallery/coop.png",
+        "/sites/granja-cabral/images/gallery/eggs-sorted.png",
+        "/sites/granja-cabral/images/gallery/farm-morning.png",
+        "/sites/granja-cabral/images/gallery/baskets.png"
+      ],
+      "hours": {
+        "Domingo": "Cerrado",
+        "Jueves": "07:00 - 18:00",
+        "Lunes": "07:00 - 18:00",
+        "Martes": "07:00 - 18:00",
+        "Miércoles": "07:00 - 18:00",
+        "Sábado": "07:00 - 18:00",
+        "Viernes": "07:00 - 18:00"
+      },
+      "hoursSummary": {
+        "Domingo": "Cerrado",
+        "Lunes - Sábado": "07:00 - 18:00"
+      },
+      "images": {
+        "delivery": "/sites/granja-cabral/images/trust/delivery.png",
+        "farmExterior": "/sites/granja-cabral/images/trust/farm-exterior.png",
+        "hens": "/sites/granja-cabral/images/story/hens.png",
+        "owner": "/sites/granja-cabral/images/story/owner.png",
+        "qualityCloseup": "/sites/granja-cabral/images/trust/quality-closeup.png",
+        "sustainability": "/sites/granja-cabral/images/story/sustainability.png"
+      },
+      "instagram": "@granjacabral",
+      "name": "Granja Cabral",
+      "phone": "+595981324569",
+      "process": [
+        {
+          "imageUrl": "/sites/granja-cabral/images/process/recoleccion.png",
+          "step": "Recolección diaria"
+        },
+        {
+          "imageUrl": "/sites/granja-cabral/images/process/seleccion.png",
+          "step": "Selección y control de calidad"
+        },
+        {
+          "imageUrl": "/sites/granja-cabral/images/process/empaque.png",
+          "step": "Empaque cuidadoso"
+        },
+        {
+          "imageUrl": "/sites/granja-cabral/images/process/entrega.png",
+          "step": "Entrega puntual"
+        }
+      ],
+      "shortTagline": "Del nido a tu mesa",
+      "stats": [
+        {
+          "label": "Gallinas ponedoras",
+          "value": "500+"
+        },
+        {
+          "label": "Producción local",
+          "value": "100%"
+        },
+        {
+          "label": "Recolección fresca",
+          "value": "Diario"
+        },
+        {
+          "label": "Negocios atendidos",
+          "value": "300+"
+        },
+        {
+          "label": "Frescura garantizada",
+          "value": "4-5 sem"
+        }
+      ],
+      "story": {
+        "founded": "2018",
+        "mission": "Producir alimentos frescos, saludables y accesibles para las familias de Coronel Oviedo y zona, manteniendo prácticas sostenibles y apoyando el desarrollo local.",
+        "values": [
+          "Calidad: cada huevo es revisado antes de la venta.",
+          "Sostenibilidad: compostaje y gestión responsable del agua.",
+          "Bienestar animal: gallinas en ambiente natural y saludable.",
+          "Comunidad: precios justos y apoyo a la economía local.",
+          "Transparencia: puertas abiertas para que conozcas nuestra granja."
+        ],
+        "vision": "Ser la granja avícola de referencia en Caaguazú, reconocida por calidad, sostenibilidad y compromiso comunitario. Expandir nuestro alcance mientras mantenemos los valores familiares que nos caracterizan."
+      },
+      "sustainability": {
+        "biogas": false,
+        "composting": true,
+        "description": "Creemos en producir alimentos de manera responsable con el medio ambiente. Implementamos compostaje de gallinaza, reutilización de agua y venta de fertilizante orgánico, cerrando el ciclo de sustentabilidad.",
+        "imageUrl": "/sites/granja-cabral/images/story/sustainability.png",
+        "organicFertilizer": true,
+        "waterRecycling": true
+      },
+      "tagline": "Huevos frescos de granja en Coronel Oviedo",
+      "whatsapp": "+595981324569",
+      "wholesaleTiers": [
+        {
+          "discount": "10% OFF",
+          "name": "Bronce",
+          "volume": "100-300 huevos/semana"
+        },
+        {
+          "discount": "15% OFF",
+          "name": "Plata",
+          "recommended": true,
+          "volume": "300-600 huevos/semana"
+        },
+        {
+          "discount": "20% OFF",
+          "name": "Oro",
+          "volume": "600+ huevos/semana"
+        },
+        {
+          "discount": "Personalizado",
+          "name": "Platinum",
+          "volume": "1.000+ huevos/semana"
+        }
+      ]
     },
     "contactoPage": {
       "hero": {
@@ -21876,7 +22028,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "WhatsApp es la forma más rápida. También podés llamar o visitarnos previa cita."
       },
       "seo": {
-        "description": "Hacé tu pedido por WhatsApp, llamanos o visitá la granja. Atendemos en Coronel Oviedo y zona de Ruta 2, de lunes a sábado de 7:00 a 18:00.",
+        "description": "Hacé tu pedido por WhatsApp, llamanos o visitá la granja. Atendemos en Coronel Oviedo y zona de Ruta 2, de lunes a sábado de 07:00 a 18:00.",
         "title": "Contacto — Granja Cabral"
       }
     },
@@ -21889,19 +22041,14 @@ export const CONTENT: Record<string, JsonRecord> = {
       "contact": {
         "address": "Ruta 2, Km 125-140, Coronel Oviedo",
         "email": "info@granjacabral.com",
-        "subtitle": "La forma mas rapida de hacer pedidos es por WhatsApp",
+        "subtitle": "La forma más rápida de hacer pedidos es por WhatsApp.",
         "title": "Contactanos",
         "whatsapp": "+595981324569"
       },
       "enhancedFaq": {
-        "business": {
-          "name": "Granja Cabral",
-          "phone": "+595981324569",
-          "whatsapp": "+595981324569"
-        },
         "items": [
           {
-            "answer": "Todos nuestros huevos provienen de nuestra granja ubicada en Coronel Oviedo, Ruta 2 Km 125-140. Las gallinas son criadas localmente con alimentación balanceada y cuidado diario. Recolectamos los huevos todos los días para garantizar máxima frescura.",
+            "answer": "Todos nuestros huevos provienen de nuestra granja en Coronel Oviedo, Ruta 2 Km 125-140. Las gallinas son criadas localmente con alimentación balanceada y cuidado diario. Recolectamos los huevos todos los días para garantizar máxima frescura.",
             "category": "Producto",
             "question": "¿De dónde vienen sus huevos?"
           },
@@ -21916,12 +22063,12 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Cuál es la diferencia entre huevos de granja y de supermercado?"
           },
           {
-            "answer": "No. Nuestras gallinas crecen de manera natural sin el uso de antibióticos de crecimiento ni hormonas. Si una gallina requiere tratamiento médico, se retira de la producción durante el tiempo necesario. Priorizamos el bienestar animal y la calidad natural.",
+            "answer": "No. Nuestras gallinas crecen de manera natural, sin antibióticos de crecimiento ni hormonas. Si una gallina requiere tratamiento médico, se retira de la producción durante el tiempo necesario. Priorizamos el bienestar animal y la calidad natural.",
             "category": "Producto",
-            "question": "¿Usan antibióticos o hormonas?"
+            "question": "¿Usan antibióticos u hormonas?"
           },
           {
-            "answer": "Nuestras gallinas reciben una dieta balanceada compuesta principalmente de maíz, soja triturada, minerales esenciales y agua limpia. Esta alimentación les proporciona los nutrientes necesarios para producir huevos de alta calidad.",
+            "answer": "Reciben una dieta balanceada de maíz, soja triturada, minerales esenciales y agua limpia. Esta alimentación les proporciona los nutrientes necesarios para producir huevos de alta calidad.",
             "category": "Producto",
             "question": "¿Qué comen sus gallinas?"
           },
@@ -21931,17 +22078,17 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Cómo puedo verificar la frescura de un huevo?"
           },
           {
-            "answer": "Sí, realizamos delivery en Coronel Oviedo centro y zonas cercanas de Ruta 2 (Km 120-150). Los costos varían según la distancia: Centro 5.000 Gs, Ruta 2 cercana 8.000 Gs, Ruta 2 lejana 12.000 Gs. Consultanos por WhatsApp para confirmar tu zona específica.",
+            "answer": "Sí, realizamos delivery en Coronel Oviedo centro y zonas cercanas de Ruta 2 (Km 120-150). Los costos varían según la distancia: centro 5.000 Gs, Ruta 2 cercana 8.000 Gs, Ruta 2 lejana 12.000 Gs. Consultanos por WhatsApp para confirmar tu zona específica.",
             "category": "Pedidos",
             "question": "¿Hacen delivery? ¿A qué zonas?"
           },
           {
-            "answer": "El mínimo de compra depende de la zona: Centro 15.000 Gs, Ruta 2 cercana 20.000 Gs, Ruta 2 lejana 30.000 Gs. Ofrecemos envío gratis en compras mayores a 50.000 Gs (centro), 70.000 Gs (Ruta 2 cercana) o 100.000 Gs (Ruta 2 lejana).",
+            "answer": "Depende de la zona: centro 15.000 Gs, Ruta 2 cercana 20.000 Gs, Ruta 2 lejana 30.000 Gs. Envío gratis en compras mayores a 50.000 Gs (centro), 70.000 Gs (Ruta 2 cercana) o 100.000 Gs (Ruta 2 lejana).",
             "category": "Pedidos",
             "question": "¿Cuál es el mínimo de compra para delivery?"
           },
           {
-            "answer": "Realizamos entregas de lunes a sábado, generalmente en dos franjas: mañana (8:00 - 12:00) y tarde (14:00 - 18:00). El horario específico depende de tu zona y la demanda del día. Podés solicitar una franja horaria preferida y haremos lo posible por cumplirla.",
+            "answer": "De lunes a sábado, en dos franjas: mañana (08:00 - 12:00) y tarde (14:00 - 18:00). El horario específico depende de tu zona y la demanda del día. Podés solicitar una franja horaria preferida y haremos lo posible por cumplirla.",
             "category": "Pedidos",
             "question": "¿A qué horas realizan las entregas?"
           },
@@ -21961,67 +22108,67 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Cómo puedo hacer un pedido?"
           },
           {
-            "answer": "Nuestros huevos son recolectados diariamente. Si se mantienen refrigerados a 4°C, duran hasta 4-5 semanas en perfectas condiciones. En temperatura ambiente (menos de 25°C), se recomienda consumirlos dentro de 2-3 semanas.",
+            "answer": "Nuestros huevos son recolectados diariamente. Refrigerados a 4 °C, duran hasta 4-5 semanas en perfectas condiciones. En temperatura ambiente (menos de 25 °C), se recomienda consumirlos dentro de 2-3 semanas.",
             "category": "Conservación",
             "question": "¿Cuánto duran los huevos frescos?"
           },
           {
-            "answer": "Sí, para máxima frescura y duración, guardá los huevos en la heladera. La temperatura ideal es entre 2°C y 4°C. Guardalos en su caja original con la punta más gruesa hacia arriba (esto mantiene la yema centrada).",
+            "answer": "Sí, para máxima frescura y duración. La temperatura ideal es entre 2 °C y 4 °C. Guardalos en su caja original con la punta más gruesa hacia arriba (esto mantiene la yema centrada).",
             "category": "Conservación",
             "question": "¿Debo guardar los huevos en la heladera?"
           },
           {
-            "answer": "Si bien nuestros huevos son frescos y de alta calidad, consumir huevos crudos siempre conlleva un riesgo mínimo de salmonella. Para recetas que requieren huevo crudo (como mayonesa o tiramisú), usá huevos muy frescos y mantené todo bien refrigerado.",
+            "answer": "Aunque nuestros huevos son frescos y de alta calidad, consumir huevos crudos siempre conlleva un riesgo mínimo de salmonella. Para recetas que requieren huevo crudo (mayonesa, tiramisú, etc.), usá huevos muy frescos y mantené todo bien refrigerado.",
             "category": "Conservación",
             "question": "¿Es seguro consumir huevos crudos?"
           },
           {
-            "answer": "Si el huevo está sucio, lavalo justo antes de usar con agua tibia y jabón suave, secándolo inmediatamente. No laves los huevos antes de guardarlos, ya que esto remueve la capa protectora natural (cutícula) y reduce su vida útil.",
+            "answer": "Si el huevo está sucio, lavalo justo antes de usar con agua tibia y jabón suave, secándolo inmediatamente. No laves los huevos antes de guardarlos: esto remueve la capa protectora natural (cutícula) y reduce su vida útil.",
             "category": "Conservación",
             "question": "¿Cómo debo lavar los huevos antes de usar?"
           },
           {
-            "answer": "No es recomendable congelar huevos enteros con cáscara, ya que el líquido se expande y puede romperla. Sin embargo, podés batir los huevos y congelar el líquido en bolsas o moldes de hielo. Duran hasta 6 meses congelados.",
+            "answer": "No es recomendable congelar huevos enteros con cáscara, ya que el líquido se expande y puede romperla. Podés batir los huevos y congelar el líquido en bolsas o moldes de hielo. Duran hasta 6 meses congelados.",
             "category": "Conservación",
             "question": "¿Puedo congelar huevos?"
           },
           {
-            "answer": "Sí, ofrecemos descuentos mayoristas: Bronce (100-300 huevos/semana) 10% OFF, Plata (300-600 huevos/semana) 15% OFF, Oro (600+ huevos/semana) 20% OFF. Además incluimos delivery programado, facturación y atención prioritaria.",
+            "answer": "Sí. Bronce (100-300 huevos/semana) 10% OFF, Plata (300-600 huevos/semana) 15% OFF, Oro (600+ huevos/semana) 20% OFF. Además incluimos delivery programado, facturación y atención prioritaria.",
             "category": "Mayoristas",
             "question": "¿Tienen precios especiales para negocios?"
           },
           {
-            "answer": "Escribinos por WhatsApp con la palabra 'MAYORISTA'. Te pedimos información básica de tu negocio (tipo, consumo estimado, ubicación). Te enviamos una cotización personalizada. Hacés un pedido de prueba sin compromiso. Si te gusta, establecemos un plan regular.",
+            "answer": "Escribinos por WhatsApp con la palabra \"MAYORISTA\". Te pedimos información básica de tu negocio (tipo, consumo estimado, ubicación). Te enviamos una cotización personalizada. Hacés un pedido de prueba sin compromiso. Si te gusta, establecemos un plan regular.",
             "category": "Mayoristas",
             "question": "¿Cuál es el proceso para convertirme en cliente mayorista?"
           },
           {
-            "answer": "Sí, emitimos factura con todos los datos de tu empresa. Podemos hacer facturación mensual consolidada (enviamos una factura al mes por todas las entregas) o por cada entrega, según prefieras. Aceptamos transferencia bancaria, giros y efectivo.",
+            "answer": "Sí, emitimos factura con todos los datos de tu empresa. Podemos facturar mensualmente consolidado (una factura al mes por todas las entregas) o por cada entrega, según prefieras. Aceptamos transferencia bancaria, giros y efectivo.",
             "category": "Mayoristas",
             "question": "¿Emiten factura para empresas?"
           },
           {
-            "answer": "No hay contratos forzosos. Podés empezar con un pedido de prueba y luego establecer un suministro regular si te gusta la calidad. Para clientes Oro y Platinum que desean bloquear precios por 3-6 meses, sí solicitamos un compromiso mínimo de volumen.",
+            "answer": "No hay contratos forzosos. Podés empezar con un pedido de prueba y luego establecer un suministro regular si te gusta la calidad. Para clientes Oro y Platinum que quieran bloquear precios por 3-6 meses, sí solicitamos un compromiso mínimo de volumen.",
             "category": "Mayoristas",
             "question": "¿Hay contrato mínimo de tiempo?"
           },
           {
-            "answer": "Entendemos las emergencias. Con gusto coordinamos entregas adicionales cuando sea posible. Los clientes Plata, Oro y Platinum tienen prioridad para entregas urgentes. Escribinos con la palabra 'URGENTE' y haremos lo posible por ayudarte.",
+            "answer": "Entendemos las emergencias. Con gusto coordinamos entregas adicionales cuando sea posible. Los clientes Plata, Oro y Platinum tienen prioridad para entregas urgentes. Escribinos con la palabra \"URGENTE\" y haremos lo posible por ayudarte.",
             "category": "Mayoristas",
             "question": "¿Qué pasa si necesito un pedido urgente?"
           },
           {
-            "answer": "Implementamos un sistema de compostaje donde transformamos la gallinaza y residuos orgánicos en abono de alta calidad. Este compost lo vendemos a jardineros y agricultores locales, cerrando el ciclo de sustentabilidad.",
+            "answer": "Implementamos un sistema de compostaje que transforma la gallinaza y residuos orgánicos en abono de alta calidad. Ese compost lo vendemos a jardineros y agricultores locales, cerrando el ciclo de sustentabilidad.",
             "category": "Sostenibilidad",
-            "question": "¿Cómo manejan el desperdicio de la granja?"
+            "question": "¿Cómo manejan los residuos de la granja?"
           },
           {
-            "answer": "Actualmente estamos en proceso de certificación SENACSA y evaluando la certificación orgánica a futuro. Aunque no somos 100% orgánicos certificados, trabajamos bajo estándares de calidad, usamos prácticas sostenibles y priorizamos el bienestar animal.",
+            "answer": "Estamos en proceso de certificación SENACSA y evaluando la certificación orgánica a futuro. Aunque no somos 100% orgánicos certificados, trabajamos bajo estándares de calidad, usamos prácticas sostenibles y priorizamos el bienestar animal.",
             "category": "Sostenibilidad",
             "question": "¿Tienen certificación orgánica?"
           },
           {
-            "answer": "Absolutamente. Nuestras gallinas viven en galpones espaciosos con ventilación natural, acceso a luz solar y áreas para comportamientos naturales como picotear y descansar. Reciben alimentación balanceada, agua limpia y atención veterinaria regular.",
+            "answer": "Absolutamente. Viven en galpones espaciosos con ventilación natural, acceso a luz solar y áreas para comportamientos naturales como picotear y descansar. Reciben alimentación balanceada, agua limpia y atención veterinaria regular.",
             "category": "Sostenibilidad",
             "question": "¿Es ética la forma en que tratan a las gallinas?"
           },
@@ -22031,7 +22178,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Puedo visitar la granja?"
           },
           {
-            "answer": "Sí, tenemos un plan de crecimiento a 4 fases que incluye aumentar nuestra capacidad de 500 a 3,000 gallinas, agregar productos de valor agregado (huevo líquido, pasta, etc.), expandir zonas de delivery y eventualmente certificarnos para exportación.",
+            "answer": "Sí, tenemos un plan de crecimiento a 4 fases que incluye aumentar la capacidad de 500 a 3.000 gallinas, agregar productos de valor agregado (huevo líquido, fideos con huevo, etc.), expandir zonas de delivery y eventualmente certificarnos para exportación.",
             "category": "Sostenibilidad",
             "question": "¿Tienen planes de expansión?"
           },
@@ -22041,12 +22188,12 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Venden pollos vivos o procesados?"
           },
           {
-            "answer": "Actualmente aceptamos efectivo, transferencia bancaria y giros. Estamos trabajando en integrar MercadoPago para aceptar tarjetas y pagos digitales próximamente. Para pedidos grandes o regulares, podemos coordinar otros métodos de pago.",
+            "answer": "Aceptamos efectivo, transferencia bancaria y giros. Estamos trabajando en integrar tarjetas y pagos digitales próximamente. Para pedidos grandes o regulares, podemos coordinar otros métodos de pago.",
             "category": "General",
             "question": "¿Aceptan tarjeta de crédito o débito?"
           },
           {
-            "answer": "¡Sí! Nuestro programa 'Recomienda y Ganá' te permite ganar recompensas. Tu amigo obtiene 10% de descuento en su primera compra usando tu código. Vos te llevás un maple de 30 huevos GRATIS por cada referido que hace su primera compra.",
+            "answer": "¡Sí! \"Recomienda y Ganá\": tu amigo obtiene 10% de descuento en su primera compra usando tu código. Vos te llevás un maple de 30 huevos GRATIS por cada referido que hace su primera compra.",
             "category": "General",
             "question": "¿Tienen programa de referidos?"
           }
@@ -22071,114 +22218,25 @@ export const CONTENT: Record<string, JsonRecord> = {
         "consentLabel": "Acepto recibir recetas y novedades de Granja Cabral.",
         "placeholder": "tu@email.com",
         "submitLabel": "Suscribirme",
-        "subtitle": "Una receta paraguaya con huevos frescos cada semana, más ofertas exclusivas. Sin spam.",
-        "successMessage": "Listo! Revisá tu correo para confirmar.",
-        "title": "Recetas semanales + promociones"
+        "subtitle": "Una receta paraguaya con huevos frescos cada semana, más ofertas solo para suscriptores. Sin spam, cancelás cuando quieras.",
+        "successMessage": "¡Listo! Revisá tu correo para confirmar la suscripción.",
+        "title": "Recetas semanales + promociones exclusivas"
       },
       "openHours": {
-        "closedLabel": "Cerrado — dejanos tu mensaje",
+        "closedLabel": "Cerrado — dejanos tu mensaje por WhatsApp",
         "hours": {
           "Domingo": "Cerrado",
           "Jueves": "07:00 - 18:00",
           "Lunes": "07:00 - 18:00",
           "Martes": "07:00 - 18:00",
-          "Miercoles": "07:00 - 18:00",
-          "Sabado": "07:00 - 18:00",
+          "Miércoles": "07:00 - 18:00",
+          "Sábado": "07:00 - 18:00",
           "Viernes": "07:00 - 18:00"
         },
         "openLabel": "Abierto — atendiendo pedidos",
         "showHours": true
       },
-      "ourStory": {
-        "business": {
-          "address": "Ruta 2, Km 125-140",
-          "city": "Coronel Oviedo",
-          "email": "info@granjacabral.com",
-          "gallery": [
-            "/sites/granja-cabral/images/gallery/coop.png",
-            "/sites/granja-cabral/images/gallery/eggs-sorted.png",
-            "/sites/granja-cabral/images/gallery/farm-morning.png",
-            "/sites/granja-cabral/images/gallery/baskets.png"
-          ],
-          "hours": {
-            "Domingo": "Cerrado",
-            "Lunes - Sabado": "07:00 - 18:00"
-          },
-          "images": {
-            "delivery": "/sites/granja-cabral/images/trust/delivery.png",
-            "farmExterior": "/sites/granja-cabral/images/trust/farm-exterior.png",
-            "hens": "/sites/granja-cabral/images/story/hens.png",
-            "owner": "/sites/granja-cabral/images/story/owner.png",
-            "qualityCloseup": "/sites/granja-cabral/images/trust/quality-closeup.png",
-            "sustainability": "/sites/granja-cabral/images/story/sustainability.png"
-          },
-          "instagram": "@granjacabral",
-          "name": "Granja Cabral",
-          "phone": "+595981324569",
-          "process": [
-            {
-              "imageUrl": "/sites/granja-cabral/images/process/recoleccion.png",
-              "step": "Recolección diaria"
-            },
-            {
-              "imageUrl": "/sites/granja-cabral/images/process/seleccion.png",
-              "step": "Selección y control de calidad"
-            },
-            {
-              "imageUrl": "/sites/granja-cabral/images/process/empaque.png",
-              "step": "Empaque cuidadoso"
-            },
-            {
-              "imageUrl": "/sites/granja-cabral/images/process/entrega.png",
-              "step": "Entrega puntual"
-            }
-          ],
-          "stats": [
-            {
-              "label": "Gallinas ponedoras",
-              "value": "500+"
-            },
-            {
-              "label": "Produccion local",
-              "value": "100%"
-            },
-            {
-              "label": "Recoleccion fresca",
-              "value": "Diario"
-            },
-            {
-              "label": "Negocios atendidos",
-              "value": "300+"
-            },
-            {
-              "label": "Semanas de frescura",
-              "value": "4-5"
-            }
-          ],
-          "story": {
-            "founded": "2018",
-            "mission": "Producir alimentos frescos, saludables y accesibles para las familias de Coronel Oviedo y zona, manteniendo practicas sostenibles y apoyando el desarrollo local.",
-            "values": [
-              "Calidad: Cada huevo es revisado antes de la venta",
-              "Sostenibilidad: Compostaje y gestion responsable del agua",
-              "Bienestar Animal: Gallinas en ambiente natural y saludable",
-              "Comunidad: Precios justos y apoyo a la economia local",
-              "Transparencia: Puertas abiertas para que conozcas nuestra granja"
-            ],
-            "vision": "Ser la granja avicola de referencia en Caaguazu, reconocida por calidad, sostenibilidad y compromiso comunitario. Expandir nuestro alcance mientras mantenemos los valores familiares que nos caracterizan."
-          },
-          "sustainability": {
-            "biogas": false,
-            "composting": true,
-            "description": "Creemos en producir alimentos de manera responsable con el medio ambiente. Implementamos compostaje de gallinaza, reutilizacion de agua y venta de fertilizante organico cerrando el ciclo de sustentabilidad.",
-            "imageUrl": "/sites/granja-cabral/images/story/sustainability.png",
-            "organicFertilizer": true,
-            "waterRecycling": true
-          },
-          "tagline": "Huevos frescos de granja en Coronel Oviedo",
-          "whatsapp": "+595981324569"
-        }
-      },
+      "ourStory": {},
       "promoBanner": {
         "promotions": [
           {
@@ -22192,131 +22250,120 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "bgColor": "#e67e22",
             "code": "MAYORISTA",
-            "description": "Desde 600 huevos por semana — Restaurantes, panaderías, hoteles.",
+            "description": "Restaurantes, panaderías, hoteles y supermercados desde 100 huevos por semana.",
             "id": "mayorista",
             "link": "/s/es/granja-cabral/mayorista",
             "textColor": "#ffffff",
-            "title": "20% OFF mayorista"
+            "title": "Hasta 20% OFF para negocios"
           },
           {
             "bgColor": "#f1c40f",
             "description": "Tus huevos llegan el mismo día que salen del nido.",
             "id": "recolectado-hoy",
             "textColor": "#2c3e50",
-            "title": "Recolectado hoy"
+            "title": "Recolectado hoy, entregado hoy"
           }
         ]
       },
-      "recipes": {
-        "business": {
-          "images": {
-            "chipaGuasu": "/sites/granja-cabral/images/recipes/chipa-guasu.png",
-            "flanCasero": "/sites/granja-cabral/images/recipes/flan-casero.png",
-            "milanesa": "/sites/granja-cabral/images/recipes/milanesa.png",
-            "pastelMandioca": "/sites/granja-cabral/images/recipes/pastel-mandioca.png",
-            "sopaParaguaya": "/sites/granja-cabral/images/recipes/sopa-paraguaya.png",
-            "tortilla": "/sites/granja-cabral/images/recipes/tortilla.png"
-          },
-          "name": "Granja Cabral",
-          "whatsapp": "+595981324569"
-        }
-      },
+      "recipes": {},
       "seo": {
-        "description": "Huevos frescos recolectados diariamente, pollos de granja y fertilizante organico. Delivery en Coronel Oviedo y Ruta 2.",
+        "description": "Huevos frescos recolectados diariamente, pollos de granja y fertilizante orgánico. Delivery en Coronel Oviedo y Ruta 2. Del nido a tu mesa.",
         "title": "Granja Cabral — Huevos frescos de granja en Coronel Oviedo"
       },
       "services": {
         "items": [
           {
             "category": "Huevos",
-            "description": "Huevos frescos recien recolectados de la granja.",
+            "description": "Huevos frescos recién recolectados, para cuando necesitás pocos.",
             "imageUrl": "/sites/granja-cabral/images/products/huevo-unidad.png",
-            "name": "Huevos por Unidad",
+            "name": "Huevos por unidad",
             "price": "800 Gs"
           },
           {
             "category": "Huevos",
-            "description": "Docena fresca — perfecto para probar la calidad.",
+            "description": "Docena fresca, perfecta para probar la calidad.",
             "imageUrl": "/sites/granja-cabral/images/products/bandeja-12.png",
-            "name": "Bandeja de 12 Huevos",
+            "name": "Bandeja de 12 huevos",
             "price": "9.500 Gs"
           },
           {
             "category": "Huevos",
-            "description": "Caja de 30 unidades — ideal para familias.",
+            "description": "Caja de 30 unidades, ideal para familias y mejor precio por unidad.",
             "imageUrl": "/sites/granja-cabral/images/products/maple-30.png",
-            "name": "Maple de 30 Huevos",
+            "name": "Maple de 30 huevos",
             "price": "22.000 Gs"
           },
           {
             "category": "Pollo",
-            "description": "Pollo limpio y listo para cocinar (aprox. 2-2.5kg). Reservar con 24hs de anticipacion.",
+            "description": "Pollo limpio y listo para cocinar (aprox. 2-2.5 kg). Reservar con 24 horas de anticipación.",
             "imageUrl": "/sites/granja-cabral/images/products/pollo-entero.png",
-            "name": "Pollo Entero",
+            "name": "Pollo entero",
             "price": "35.000 Gs"
           },
           {
             "category": "Pollo",
-            "description": "Pollo joven, carne suave (aprox. 1-1.2kg). Reservar con 24hs de anticipacion.",
+            "description": "Pollo joven, carne suave y delicada (aprox. 1-1.2 kg). Reservar con 24 horas de anticipación.",
             "imageUrl": "/sites/granja-cabral/images/products/pollito-tierno.png",
-            "name": "Pollito Tierno",
+            "name": "Pollito tierno",
             "price": "22.000 Gs"
           },
           {
             "category": "Fertilizante",
             "description": "Gallinaza compostada, excelente para huertas y jardines.",
             "imageUrl": "/sites/granja-cabral/images/products/fertilizante.png",
-            "name": "Fertilizante Organico 10kg",
+            "name": "Fertilizante orgánico 10 kg",
             "price": "15.000 Gs"
           },
           {
             "category": "Servicios",
             "description": "Llevamos tus huevos frescos hasta tu puerta en Coronel Oviedo y Ruta 2 (Km 120-150).",
             "imageUrl": "/sites/granja-cabral/images/products/delivery.png",
-            "name": "Delivery a Domicilio",
-            "price": "Consultar"
+            "name": "Delivery a domicilio",
+            "price": "Desde 5.000 Gs"
           },
           {
             "category": "Mayorista",
-            "description": "Precios especiales para restaurantes, hoteles, panaderias y supermercados.",
+            "description": "Precios especiales para restaurantes, hoteles, panaderías y supermercados.",
             "imageUrl": "/sites/granja-cabral/images/products/mayorista.png",
-            "name": "Venta por Mayor",
+            "name": "Venta por mayor",
             "price": "Desde 100 unidades"
           },
           {
             "category": "Servicios",
             "description": "Entrega semanal o quincenal para tu hogar o negocio.",
             "imageUrl": "/sites/granja-cabral/images/products/pedidos-programados.png",
-            "name": "Pedidos Programados",
+            "name": "Pedidos programados",
             "price": "Consultar"
           }
         ],
-        "title": "Nuestros Productos"
+        "subtitle": "Huevos, pollo y fertilizante orgánico — directo de la granja.",
+        "title": "Nuestros productos"
       },
       "testimonials": {
         "items": [
           {
-            "author": "Maria G.",
+            "author": "María G.",
             "imageUrl": "/sites/granja-cabral/images/testimonials/maria.png",
-            "quote": "Los huevos son fresquisimos, se nota la diferencia con los del supermercado. El delivery siempre es puntual. [Testimonio ilustrativo — clientes reales pronto]",
+            "quote": "Los huevos son fresquísimos, se nota la diferencia con los del supermercado. El delivery siempre es puntual.",
             "rating": 5,
-            "role": "Coronel Oviedo"
+            "role": "Cliente en Coronel Oviedo"
           },
           {
-            "author": "Don Jose",
+            "author": "Don José",
             "imageUrl": "/sites/granja-cabral/images/testimonials/jose.png",
-            "quote": "Excelente calidad para mi panaderia. Mis clientes notan la diferencia en los productos horneados. [Testimonio ilustrativo]",
+            "quote": "Excelente calidad para mi panadería. Mis clientes notan la diferencia en los productos horneados.",
             "rating": 5,
-            "role": "Panaderia San Jose"
+            "role": "Panadería San José"
           },
           {
             "author": "Restaurante La Tradición",
             "imageUrl": "/sites/granja-cabral/images/testimonials/restaurant.png",
-            "quote": "Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente. [Testimonio ilustrativo]",
+            "quote": "Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente.",
             "rating": 5,
             "role": "Ruta 2"
           }
         ],
+        "subtitle": "Testimonios ilustrativos mientras recolectamos los reales.",
         "title": "Lo que dicen nuestros clientes"
       },
       "trustBadgesStrip": {
@@ -22337,31 +22384,23 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Delivery puntual"
           },
           {
-            "description": "Ni hormonas",
+            "description": "Ni hormonas de crecimiento",
             "icon": "shield",
             "text": "Sin antibióticos"
           }
         ]
       },
       "wholesale": {
-        "business": {
-          "address": "Ruta 2, Km 125-140",
-          "city": "Coronel Oviedo",
-          "email": "info@granjacabral.com",
-          "name": "Granja Cabral",
-          "phone": "+595981324569",
-          "whatsapp": "+595981324569"
-        },
-        "claimLine": "Unite a los más de 300 negocios que confían en Granja Cabral",
+        "claimLine": "Unite a los más de 300 negocios que confían en Granja Cabral.",
         "heroSubtitle": "Proveedor confiable de huevos frescos en Coronel Oviedo y zona. Más de 300 negocios confían en nosotros.",
-        "heroTitle": "Huevos Frescos de Calidad",
-        "heroTitleAccent": "para tu Restaurante, Panadería o Hotel",
-        "urgentMessage": "Si tenés una emergencia y necesitás huevos para hoy, escribinos por WhatsApp con la palabra 'URGENTE' y coordinamos entrega express."
+        "heroTitle": "Huevos frescos de calidad",
+        "heroTitleAccent": "para tu restaurante, panadería u hotel",
+        "urgentMessage": "Si tenés una emergencia y necesitás huevos hoy, escribinos por WhatsApp con la palabra \"URGENTE\" y coordinamos entrega express."
       }
     },
     "mayoristaPage": {
       "seo": {
-        "description": "Precios mayoristas de huevos frescos para restaurantes, panaderías, hoteles y supermercados en Coronel Oviedo y Ruta 2. Delivery programado, facturación, atención directa.",
+        "description": "Precios mayoristas de huevos frescos para restaurantes, panaderías, hoteles y supermercados en Coronel Oviedo y Ruta 2. Delivery programado, facturación y atención directa.",
         "title": "Venta mayorista de huevos — Granja Cabral"
       }
     },
@@ -22405,7 +22444,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "15 recetas paraguayas clásicas y modernas pensadas para huevos de granja. De tu cocina directo a la mesa."
       },
       "seo": {
-        "description": "Recetas paraguayas tradicionales con huevos frescos de Granja Cabral. Tortilla, sopa paraguaya, chipa guazú, flan casero y más.",
+        "description": "Recetas paraguayas tradicionales con huevos frescos de Granja Cabral. Tortilla, sopa paraguaya, chipa guazú, flan casero y más — 15 clásicos de la cocina paraguaya.",
         "title": "Recetas con huevos frescos — Granja Cabral"
       }
     },
@@ -22424,7 +22463,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "tagline": "Huevos frescos de granja en Coronel Oviedo",
     "whatsapp": {
-      "message": "Hola! Vi su pagina web y me interesa hacer un pedido de huevos. Me podes dar mas información?",
+      "message": "¡Hola! Vi su página web y me interesa hacer un pedido de huevos. ¿Me podés dar más información?",
       "phone": "+595981324569"
     }
   },

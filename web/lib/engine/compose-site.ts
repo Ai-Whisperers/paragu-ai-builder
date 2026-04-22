@@ -157,7 +157,8 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
         }
         const withCommerce = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
         const withBlog = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)
-        const props = injectTestimonialItems(s.id, withBlog, siteSlug)
+        const withTestimonials = injectTestimonialItems(s.id, withBlog, siteSlug)
+        const props = injectBusinessMetadata(s.id, withTestimonials, siteContent)
         return { id: s.id, variant, props }
       } catch (err) {
         logger.error('Site composition: section content resolution failed', {
@@ -411,4 +412,30 @@ function injectTestimonialItems(
     videoPoster: (t.videoPoster as string) || undefined,
   }))
   return { ...props, items }
+}
+
+/**
+ * Sections that render tenant-wide business metadata (name, contact, address,
+ * hours, story, stats, sustainability). If the tenant's content file carries a
+ * top-level `business` object, inject it so the section JSON can stay empty
+ * and DRY instead of re-duplicating the same business block inside each
+ * section's content ref. Explicit `business` on the section wins.
+ */
+const BUSINESS_METADATA_SECTIONS = new Set<string>([
+  'our-story',
+  'b2b-wholesale',
+  'recipes',
+  'enhanced-faq',
+])
+
+function injectBusinessMetadata(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteContent: Record<string, unknown>,
+): Record<string, unknown> {
+  if (!BUSINESS_METADATA_SECTIONS.has(sectionId)) return props
+  if (props.business && typeof props.business === 'object') return props
+  const business = siteContent.business
+  if (!business || typeof business !== 'object') return props
+  return { ...props, business }
 }
