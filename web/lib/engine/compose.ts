@@ -18,6 +18,38 @@ import { fillTemplate } from '@/lib/utils'
 import { getRegistry, getContent } from './static-config'
 import { logger } from '@/lib/logger'
 import { metrics } from '@/lib/obs/metrics'
+
+const PAGE_SLUG_MAP: Record<string, string> = {
+  home: '',
+  servicios: 'servicios',
+  servicios: 'servicios',
+  catalogo: 'catalogo',
+  catalogo: 'catalogo',
+  portafolio: 'portafolio',
+  portafolio: 'portafolio',
+  portfolio: 'portafolio',
+  faq: 'faq',
+  faq: 'faq',
+  blog: 'blog',
+  blog: 'blog',
+  contacto: 'contacto',
+  contacto: 'contacto',
+  contact: 'contacto',
+  about: 'sobre',
+  about: 'about',
+  sobre: 'sobre',
+  terminos: 'terminos',
+  terms: 'terminos',
+  privacidad: 'privacidad',
+}
+
+function buildPageHref(siteSlug: string, label: string): string {
+  const pageSlug = PAGE_SLUG_MAP[label.toLowerCase()] || label.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  if (!pageSlug || pageSlug === 'home') {
+    return `/s/es/${siteSlug}`
+  }
+  return `/s/es/${siteSlug}/${pageSlug}`
+}
 import { SECTION_BUILDERS } from './section-builders'
 
 // TODO: Add caching layer for registry/content to reduce filesystem reads
@@ -476,7 +508,7 @@ export async function composePageForType(
 
   const navItems = registry.nav.items.map((label) => ({
     label,
-    href: `/${business.slug}/${label.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`,
+    href: buildPageHref(business.slug, label),
   }))
 
   const sections: ComposedSection[] = []

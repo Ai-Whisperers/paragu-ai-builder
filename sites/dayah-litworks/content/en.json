@@ -36,7 +36,15 @@
   },
   "navigation": {
     "businessName": "Dayah LitWorks",
-    "items": ["Home", "Services", "Catalog", "Portfolio", "Blog", "About", "Contact"],
+    "items": [
+      { "label": "Home", "href": "/s/en/dayah-litworks" },
+      { "label": "Services", "href": "/s/en/dayah-litworks/servicios" },
+      { "label": "Catalog", "href": "/s/en/dayah-litworks/catalogo" },
+      { "label": "Portfolio", "href": "/s/en/dayah-litworks/portafolio" },
+      { "label": "Blog", "href": "/s/en/dayah-litworks/blog" },
+      { "label": "About", "href": "/s/en/dayah-litworks/sobre" },
+      { "label": "Contact", "href": "/s/en/dayah-litworks/contacto" }
+    ],
     "ctaText": "Contact",
     "ctaHref": "https://wa.me/595986868241"
   },
@@ -49,7 +57,7 @@
       "headline": "Dayah LitWorks",
       "subheadline": "Book cover design — from manuscript to a cover that sells",
       "ctaPrimaryText": "View Premade Catalog",
-      "ctaPrimaryHref": "/catalogo",
+      "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
       "ctaSecondaryText": "Contact via WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595986868241"
     },
