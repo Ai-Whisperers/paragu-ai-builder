@@ -19,12 +19,15 @@ function csvEscape(v: string | number | null | undefined): string {
 }
 
 export const GET = withRequestLog<{ businessId: string }>(
-  async (_req, _ctx, { businessId }) => {
+  async (req, _ctx, { businessId }) => {
+    const url = new URL(req.url)
+    const query = (url.searchParams.get('q') ?? '').trim()
+    const statusFilter = (url.searchParams.get('status') ?? '').trim()
     const admin = await requireAdminUser()
     if (!admin) return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
 
     const supabase = await createAdminClient()
-    const { data } = await supabase
+    let q2 = supabase
       .from('orders')
       .select(
         'order_number, status, customer_name, customer_email, customer_phone, subtotal_cents, shipping_cents, discount_cents, total_cents, currency, shipping_address, notes, tracking_carrier, tracking_number, comprobante_sent_at, created_at, placed_at, paid_at, shipped_at, delivered_at',
@@ -32,6 +35,14 @@ export const GET = withRequestLog<{ businessId: string }>(
       .eq('business_id', businessId)
       .order('created_at', { ascending: false })
       .limit(MAX_ROWS)
+    if (statusFilter) q2 = q2.eq('status', statusFilter)
+    if (query) {
+      const escaped = query.replace(/[\\%_,]/g, (ch) => `\\${ch}`)
+      q2 = q2.or(
+        `order_number.ilike.*${escaped}*,customer_name.ilike.*${escaped}*,customer_email.ilike.*${escaped}*,customer_phone.ilike.*${escaped}*`,
+      )
+    }
+    const { data } = await q2
 
     const rows = Array.isArray(data) ? data : []
     const header = [
