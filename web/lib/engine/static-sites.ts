@@ -38,7 +38,7 @@ export const SITES = {
     domain: 'dayah-litworks.com',
     defaultLocale: 'es',
     locales: ['es', 'en'],
-    pages: ['home', 'servicios', 'catalogo', 'portafolio', 'blog', 'contacto', 'sobre', 'terminos'],
+    pages: ['home', 'servicios', 'catalogo', 'portafolio', 'faq', 'blog', 'contacto', 'sobre', 'terminos'],
   },
   'de-abasto-a-casa': {
     slug: 'de-abasto-a-casa',
