@@ -146,7 +146,7 @@ export const POST = withRequestLog(async (req, { log, perf, requestId }) => {
   // Fire-and-forget admin notification. Don't await inside the response flow
   // so a slow Resend call doesn't hold the user's 201. The Node runtime keeps
   // the function alive until the promise resolves.
-  void notifyAdminsOfNewLead(lead).catch(() => { /* logged inside */ })
+  void notifyAdminsOfNewLead({ ...lead, id: (supabaseResult as { id?: string }).id }).catch(() => { /* logged inside */ })
 
   metrics.inc('lead.accepted', { siteSlug: data.siteSlug })
 
@@ -243,7 +243,7 @@ async function persistLeadToSupabase(
 // never block the 201 response. ADMIN_EMAILS is the source of truth for
 // who gets notified (same env var that gates /admin). EMAIL_TRANSACTIONAL_KEY
 // + EMAIL_FROM_ADDRESS must be configured — otherwise this silently skips.
-async function notifyAdminsOfNewLead(lead: Lead): Promise<void> {
+async function notifyAdminsOfNewLead(lead: Lead & { id?: string }): Promise<void> {
   const admins = (process.env.ADMIN_EMAILS ?? '')
     .split(',')
     .map((s) => s.trim().toLowerCase())
@@ -263,9 +263,9 @@ async function notifyAdminsOfNewLead(lead: Lead): Promise<void> {
     </table>
     ${lead.objective ? `<h3 style="margin:16px 0 4px;font-size:14px">Objective</h3><p style="white-space:pre-wrap;background:#f8fafc;padding:10px;border-radius:6px;font-size:13px">${escapeAttr(lead.objective)}</p>` : ''}
     <p style="margin-top:18px">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'}/admin/inbox"
+      <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'}/admin/inbox/${lead.id || ''}"
          style="background:#0f172a;color:white;padding:10px 16px;border-radius:6px;text-decoration:none;font-size:13px">
-        Open in Inbox
+        Open lead
       </a>
     </p>
   </body></html>`
