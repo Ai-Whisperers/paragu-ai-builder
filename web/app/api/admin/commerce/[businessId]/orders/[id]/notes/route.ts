@@ -30,7 +30,7 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(
       businessId,
       orderId: id,
       eventType: 'note_added',
-      actorId: admin.id,
+      actorId: admin.userId,
       actorLabel: admin.email ?? null,
       note: parsed.data.note,
     })
