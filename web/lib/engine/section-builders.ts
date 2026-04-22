@@ -354,23 +354,12 @@ const buildProductCatalog: SectionBuilder = ({ business, content, registry }) =>
 }
 
 const buildFaq: SectionBuilder = ({ business, content }) => {
-  // Prefer admin-edited FAQ when set; fall back to registry-default content.
-  const adminItems = business.contentOverrides?.faq?.items
-  if (adminItems && adminItems.length > 0) {
-    return {
-      title: 'Preguntas Frecuentes',
-      items: adminItems.map((i) => ({ q: i.question, a: i.answer })),
-    }
-  }
-  const faqContent = content as { faq?: { title?: string; items?: Array<{ question: string; answer: string }> } | Array<{ question: string; answer: string }> }
-  if (!faqContent?.faq) return null
-  const faqItems = Array.isArray(faqContent.faq) 
-    ? faqContent.faq.map(i => ({ q: i.question || (i as unknown as {q:string}).q, a: i.answer || (i as unknown as {a:string}).a }))
-    : faqContent.faq.items?.map(i => ({ q: i.question, a: i.answer })) ?? []
-  if (faqItems.length === 0) return null
+  // After resolveRef, `content` IS the faq object directly (not content.faq)
+  const faqContent = content as { title?: string; items?: Array<{ question: string; answer: string }> } | undefined
+  if (!faqContent || !faqContent.items || faqContent.items.length === 0) return null
   return {
-    title: faqContent.faq?.title || 'Preguntas Frecuentes',
-    items: faqItems,
+    title: faqContent.title || 'Preguntas Frecuentes',
+    items: faqContent.items.map(i => ({ q: i.question, a: i.answer })),
   }
 }
 

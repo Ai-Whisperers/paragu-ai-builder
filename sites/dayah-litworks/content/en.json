@@ -23,6 +23,16 @@
       { "question": "How are final files delivered?", "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images." }
     ]
   },
+  "faqPage": {
+    "seo": {
+      "title": "FAQ — Dayah LitWorks",
+      "description": "Answers to the most frequently asked questions about our book cover design services."
+    },
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about our services"
+    }
+  },
   "seo": {
     "faq": {
       "title": "FAQ — Dayah LitWorks",
