@@ -34,7 +34,7 @@ export default async function CheckoutPage({ params }: { params: Promise<{ site:
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
-      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} whatsappNumber={business.whatsappNumber} />
       <main className="mx-auto max-w-5xl px-4 py-8">
         <CheckoutProgressIndicator current="checkout" />
         <h1 className="mb-6 text-2xl font-bold">Finalizar compra</h1>

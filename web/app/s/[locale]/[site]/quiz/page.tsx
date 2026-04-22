@@ -34,7 +34,7 @@ export default async function QuizPage({
 
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} whatsappNumber={business.whatsappNumber} />
       <main className="mx-auto max-w-3xl px-4 py-10">
         <header className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-[color:var(--text,#111)]">

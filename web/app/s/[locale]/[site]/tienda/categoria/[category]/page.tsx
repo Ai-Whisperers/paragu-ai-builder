@@ -129,7 +129,7 @@ export default async function CategoryPage({
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
-      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} whatsappNumber={business.whatsappNumber} />
 
       <Breadcrumbs
         absoluteBaseUrl={env.APP_URL}

@@ -34,7 +34,7 @@ export default async function OrderPage({
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)] print:bg-white">
       <div className="print:hidden">
-        <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+        <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} whatsappNumber={business.whatsappNumber} />
       </div>
       <OrderConfirmation siteSlug={site} locale={locale} businessName={business.name} initialOrder={order} initialStatus={initial} />
       <PurchaseTracker order={order} />

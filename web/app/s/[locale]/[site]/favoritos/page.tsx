@@ -33,7 +33,7 @@ export default async function WishlistPage({
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
-      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} whatsappNumber={business.whatsappNumber} />
       <main className="mx-auto max-w-5xl px-4 py-8">
         <h1 className="mb-2 text-2xl font-bold text-[color:var(--text,#111)]">Mis favoritos</h1>
         <p className="mb-6 text-sm text-[color:var(--text-muted,#6b7280)]">

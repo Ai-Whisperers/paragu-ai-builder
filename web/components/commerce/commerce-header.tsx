@@ -15,9 +15,12 @@ interface Props {
   /** Active locale slug from the URL — threaded through to cart links so
    * `/s/pt/...` sites don't get sent back to `/s/es/...`. */
   locale?: string
+  /** Optional tenant WhatsApp number. Passed through to CartDrawer to
+   *  power the "Pedir por WhatsApp" secondary CTA. */
+  whatsappNumber?: string
 }
 
-export function CommerceHeader({ siteSlug, businessName, locale = 'es' }: Props) {
+export function CommerceHeader({ siteSlug, businessName, locale = 'es', whatsappNumber }: Props) {
   const [open, setOpen] = useState(false)
   return (
     <>
@@ -44,7 +47,14 @@ export function CommerceHeader({ siteSlug, businessName, locale = 'es' }: Props)
           </nav>
         </div>
       </header>
-      <CartDrawer siteSlug={siteSlug} locale={locale} open={open} onClose={() => setOpen(false)} />
+      <CartDrawer
+        siteSlug={siteSlug}
+        locale={locale}
+        open={open}
+        onClose={() => setOpen(false)}
+        whatsappNumber={whatsappNumber}
+        businessName={businessName}
+      />
     </>
   )
 }
