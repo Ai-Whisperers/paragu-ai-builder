@@ -17,14 +17,16 @@
   },
   "navigation": {
     "businessName": "Stoic Finch",
-    "items": [
-      { "label": "About", "href": "#about" },
-      { "label": "Benefits", "href": "#benefits" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Get Started", "href": "#contact" }
+    "navItems": [
+      { "label": "About", "href": "/s/en/stoicfinch/about" },
+      { "label": "Services", "href": "/s/en/stoicfinch/pricing" },
+      { "label": "Industries", "href": "/s/en/stoicfinch/industries" },
+      { "label": "Case Studies", "href": "/s/en/stoicfinch/case-studies" },
+      { "label": "Resources", "href": "/s/en/stoicfinch/resources" },
+      { "label": "FAQ", "href": "/s/en/stoicfinch/faq" }
     ],
     "ctaText": "Get Started",
-    "ctaHref": "#contact"
+    "ctaHref": "/s/en/stoicfinch/contact"
   },
   "home": {
     "seo": {
@@ -35,9 +37,9 @@
       "headline": "Use your data like a pro.",
       "subheadline": "The data you need to stay ahead. By experts you can trust.",
       "ctaPrimaryText": "Get Started Today",
-      "ctaPrimaryHref": "#contact",
+      "ctaPrimaryHref": "/s/en/stoicfinch/contact",
       "ctaSecondaryText": "Take the First Step",
-      "ctaSecondaryHref": "#contact",
+      "ctaSecondaryHref": "/s/en/stoicfinch/contact",
       "trustBadges": [
         "No commitments",
         "No hassle",
@@ -128,7 +130,7 @@
         { "title": "Manage Data at Scale", "description": "Architecture and operating model that grow with your organization." }
       ],
       "ctaText": "Take the First Step",
-      "ctaHref": "#contact"
+      "ctaHref": "/s/en/stoicfinch/contact"
     },
     "techStack": {
       "eyebrow": "Modern Technology",
@@ -196,7 +198,7 @@
       "headline": "About Stoic Finch",
       "subheadline": "Born in Calgary 🍁  Inspired by the Rockies 🏔  Delivered Globally 🌎",
       "ctaPrimaryText": "Get Started Today",
-      "ctaPrimaryHref": "#contact"
+      "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
     "ourStory": {
       "eyebrow": "Our story",
@@ -233,7 +235,7 @@
       "headline": "Take the first step.",
       "subheadline": "Tell us a little about your situation and we'll be in touch within one business day. No commitments. No hassle.",
       "ctaPrimaryText": "Get Started Today",
-      "ctaPrimaryHref": "#contact"
+      "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
     "contact": {
       "title": "Get in touch",
@@ -253,7 +255,7 @@
       "headline": "The founder",
       "subheadline": "Why Stoic Finch exists and what we're building.",
       "ctaPrimaryText": "Get in touch",
-      "ctaPrimaryHref": "#contact"
+      "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
     "ourStory": {
       "eyebrow": "Why Stoic Finch",
@@ -276,7 +278,7 @@
       "headline": "Industries we serve",
       "subheadline": "Our consultants bring domain experience across five industries — each with distinct data patterns and regulatory contexts.",
       "ctaPrimaryText": "Start a conversation",
-      "ctaPrimaryHref": "#contact"
+      "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
     "services": {
       "title": "Five industries. Consistent delivery.",
@@ -299,7 +301,7 @@
       "headline": "Frequently asked questions",
       "subheadline": "Answers to the questions prospects ask us most often.",
       "ctaPrimaryText": "Still curious? Get in touch",
-      "ctaPrimaryHref": "#contact"
+      "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
     "faq": {
       "title": "Stoic Finch, in answers",
@@ -325,19 +327,19 @@
       {
         "title": "Services",
         "links": [
-          { "label": "Reports & Dashboarding", "href": "#services" },
-          { "label": "Data Analysis", "href": "#services" },
-          { "label": "Data Science", "href": "#services" },
-          { "label": "Data Engineering", "href": "#services" },
-          { "label": "Data Strategy", "href": "#services" }
+          { "label": "Reports & Dashboarding", "href": "/s/en/stoicfinch/pricing" },
+          { "label": "Data Analysis", "href": "/s/en/stoicfinch/pricing" },
+          { "label": "Data Science", "href": "/s/en/stoicfinch/pricing" },
+          { "label": "Data Engineering", "href": "/s/en/stoicfinch/pricing" },
+          { "label": "Data Strategy", "href": "/s/en/stoicfinch/pricing" }
         ]
       },
       {
         "title": "Company",
         "links": [
-          { "label": "About", "href": "#about" },
-          { "label": "Benefits", "href": "#benefits" },
-          { "label": "Get Started", "href": "#contact" }
+          { "label": "About", "href": "/s/en/stoicfinch/about" },
+          { "label": "Benefits", "href": "/s/en/stoicfinch/about" },
+          { "label": "Get Started", "href": "/s/en/stoicfinch/contact" }
         ]
       },
       {
