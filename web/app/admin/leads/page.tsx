@@ -11,7 +11,6 @@
  */
 
 import { createClient } from '@/lib/supabase/server'
-import { requireAdmin } from '@/lib/auth/admin'
 import { LeadsDashboardClient } from './leads-dashboard-client'
 import { logger } from '@/lib/logger'
 
@@ -201,12 +200,6 @@ export default async function AdminLeadsPage({
 }: {
   searchParams: { [key: string]: string | string[] | undefined }
 }) {
-  // Admin gate: env-allowlisted emails (see lib/auth/admin.ts and the
-  // ADMIN_EMAILS env var). Replaces the prior profiles.role lookup which
-  // silently failed because the profiles table doesn't exist in this project.
-  await requireAdmin()
-
-
   // Normalize search params
   const params = {
     status: typeof searchParams.status === 'string' ? searchParams.status : undefined,

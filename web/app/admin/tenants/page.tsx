@@ -8,7 +8,6 @@
  */
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { requireAdmin } from '@/lib/auth/admin'
 import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
@@ -52,8 +51,6 @@ function fmtDate(iso: string | null): string {
 }
 
 export default async function TenantsIndexPage() {
-  // Admin gate: env-allowlisted emails (see lib/auth/admin.ts and ADMIN_EMAILS).
-  await requireAdmin()
   const supabase = await createClient()
 
   const { data: tenants, error } = await supabase

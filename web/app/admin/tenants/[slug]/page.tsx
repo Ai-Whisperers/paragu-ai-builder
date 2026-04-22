@@ -10,7 +10,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { requireAdmin } from '@/lib/auth/admin'
 import { logger } from '@/lib/logger'
 import { TenantNoteForm } from './tenant-note-form'
 
@@ -90,7 +89,6 @@ function ago(iso: string): string {
 }
 
 export default async function TenantDetailPage({ params }: { params: Promise<Params> }) {
-  await requireAdmin()
   const { slug } = await params
   const supabase = await createClient()
 

@@ -18,7 +18,6 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import * as fs from 'fs'
 import * as path from 'path'
-import { requireAdmin } from '@/lib/auth/admin'
 import { loadImagesManifest, type ImageAsset } from '@/lib/engine/images-loader'
 import {
   CONTENT,
@@ -153,7 +152,6 @@ function toRows(slug: string): AssetRow[] {
 }
 
 export default async function TenantAssetsPage({ params }: Props) {
-  await requireAdmin()
   const { slug } = await params
   const manifest = loadImagesManifest(slug)
   if (!manifest) notFound()
