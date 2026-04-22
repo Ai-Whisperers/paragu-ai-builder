@@ -88,7 +88,33 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   response.headers.set('x-request-id', requestId)
   response.headers.set('traceparent', traceparent)
   response.headers.set('x-pathname', path)
-  
+
+  // Cache-Control for tenant marketing pages.
+  //
+  // The tenant catch-all route exports `dynamic = 'force-dynamic'` (see
+  // web/app/s/[locale]/[site]/[[...page]]/page.tsx) because a small number
+  // of sections — commerce-catalog, featured-products — call Supabase
+  // admin APIs that trigger DYNAMIC_SERVER_USAGE on pre-rendered routes.
+  // That's fine for correctness, but it also sets a no-cache response
+  // header that prevents the CDN from caching purely-static marketing
+  // pages (hero/features/testimonials/FAQ) which are the 99% case.
+  //
+  // We override the Cache-Control here for marketing pages. Commerce
+  // sub-routes — /tienda, /producto/*, /carrito, /checkout — keep the
+  // strict no-cache defaults so fresh inventory and cart state are never
+  // served stale.
+  const isTenantRoute = path.startsWith('/s/')
+  const isTenantCommerce = /^\/s\/[^/]+\/[^/]+\/(tienda|producto|carrito|checkout)(\/|$)/.test(path)
+  if (isTenantRoute && !isTenantCommerce) {
+    // 60s fresh at the CDN edge, then up to 24h stale-while-revalidate.
+    // Keeps latency tiny for repeat visitors; background revalidation
+    // picks up content edits within a minute of the next request.
+    response.headers.set(
+      'Cache-Control',
+      'public, s-maxage=60, stale-while-revalidate=86400',
+    )
+  }
+
   // NOTE: Security headers (CSP, HSTS, X-Frame-Options, Referrer-Policy,
   // Permissions-Policy) are set in next.config.mjs → headers() so they apply
   // to static + dynamic routes uniformly. An earlier version of this
