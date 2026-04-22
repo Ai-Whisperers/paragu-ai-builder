@@ -1,0 +1,13 @@
+{
+  "slug": "terminos",
+  "titleKey": "terminos.seo.title",
+  "descriptionKey": "terminos.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "simple", "content": "terminos" },
+    { "id": "termsList", "variant": "accordion", "content": "terminos.sections" },
+    { "id": "paymentMethods", "variant": "cards", "content": "terminos.payment" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+  ]
+}

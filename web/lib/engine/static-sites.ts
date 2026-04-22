@@ -37,8 +37,8 @@ export const SITES = {
     country: 'Paraguay',
     domain: 'dayah-litworks.com',
     defaultLocale: 'es',
-    locales: ['es'],
-    pages: ['home'],
+    locales: ['es', 'en'],
+    pages: ['home', 'servicios', 'catalogo', 'portafolio', 'blog', 'contacto', 'sobre', 'terminos'],
   },
   'de-abasto-a-casa': {
     slug: 'de-abasto-a-casa',
