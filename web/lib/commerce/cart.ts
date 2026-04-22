@@ -207,3 +207,29 @@ export async function getCartById(businessId: string, cartId: string): Promise<C
   if (error || !row) throw new Error('cart_not_found')
   return rowToCart(row, await fetchItems(businessId, cartId))
 }
+
+/**
+ * Load the current shopper's cart from a session token, without creating
+ * a new one. Returns null when no cart exists for this session — suitable
+ * for server components that want to hydrate the client-side store with
+ * real data instead of forcing it to fetch after mount.
+ *
+ * Why this exists: the zustand cart store is persisted to localStorage
+ * via zustand/persist. When a page renders with `initialCart={null}`,
+ * the hydrator blows the persisted cart away before the user sees it —
+ * surfaces as an empty /checkout even though the drawer has items.
+ * Loading server-side and passing the real cart fixes that.
+ */
+export async function getCartBySessionToken(
+  businessId: string,
+  sessionToken: string,
+): Promise<Cart | null> {
+  const supabase = await createAdminClient()
+  const scoped = scopedQueries(supabase, businessId)
+  const { data } = await scoped.select<CartRow>('carts', '*', {
+    filter: (q) => q.eq('session_token', sessionToken).eq('status', 'open').limit(1),
+  })
+  const row = Array.isArray(data) ? data[0] : data
+  if (!row) return null
+  return rowToCart(row, await fetchItems(businessId, row.id))
+}
