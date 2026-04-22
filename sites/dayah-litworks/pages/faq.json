@@ -1,0 +1,13 @@
+{
+  "slug": "faq",
+  "titleKey": "faq.seo.title",
+  "descriptionKey": "faq.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "faq", "variant": "accordion", "content": "faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" },
+    { "id": "contact", "variant": "split", "content": "faq.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}

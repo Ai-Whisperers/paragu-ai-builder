@@ -6,6 +6,25 @@
   },
   "siteName": "Dayah LitWorks",
   "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "¿Cuánto tarda una portada personalizada?", "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas." },
+      { "question": "¿Cuántas revisiones incluye?", "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra." },
+      { "question": "¿Cómo es el proceso de pago?", "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo." },
+      { "question": "¿En qué moneda cobran?", "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios." },
+      { "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?", "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas." },
+      { "question": "¿Qué es un mockup 3D?", "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing." },
+      { "question": "¿Qué pasa si cancelo el proyecto?", "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable." },
+      { "question": "¿Hacés rediseños de portadas existentes?", "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas." },
+      { "question": "¿Qué necesito enviar para empezar?", "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño." },
+      { "question": "¿En qué idioma diseñás?", "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro." },
+      { "question": "¿Puedo contratar urgente (48–72h)?", "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo." },
+      { "question": "¿Cómo se entregados los archivos finales?", "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entrega como imágenes renderizadas." }
+    ]
+  },
+  "placeholders": {
+  "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
   "placeholders": {
     "businessName": "Dayah LitWorks",
     "city": "Asunción",
