@@ -9,7 +9,7 @@ import {
   Menu, X as XIcon, PlayCircle,
   UtensilsCrossed, Fish, CircleDot,
   RotateCcw, Activity, Unlock,
-  Egg, Building2, BarChart3,
+  Egg, Building2, BarChart3, Calculator,
   type LucideIcon,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -221,6 +221,7 @@ const TEMPLATES: Template[] = [
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
   { id: 'egg_farm', name: 'Granja / Huevos', icon: Egg, leads: 0, pct: 0, color: '#c89b3c', demoSlug: 'granja-cabral' },
   { id: 'data_analytics_consulting', name: 'Consultoría Datos', icon: BarChart3, leads: 0, pct: 0, color: '#0f4c81', demoSlug: 'stoicfinch' },
+  { id: 'contador', name: 'Contador / Estudio Contable', icon: Calculator, leads: 0, pct: 0, color: '#1e5f3a', demoSlug: 'demo-contador' },
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
   { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3', demoSlug: 'kaiten-express' },

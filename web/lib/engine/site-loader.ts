@@ -39,7 +39,12 @@ import { SITES as CANONICAL_SITES } from './static-sites'
  * keeps demo-only sites out of the SSG catalog.
  */
 export function listSiteSlugs(): string[] {
-  return Object.keys(CANONICAL_SITES)
+  // Both the hand-curated CANONICAL_SITES (used by Cloudflare build-time
+  // config for the production tenants) AND every slug living under
+  // sites/<slug>/ discovered by the tenant-data generator. The latter
+  // includes demo tenants like `demo-contador` that need to be
+  // redirectable from their flat URL to the canonical /s/<locale>/<slug>.
+  return Array.from(new Set([...Object.keys(CANONICAL_SITES), ...Object.keys(SITES)]))
 }
 
 export function loadSite(slug: string): SiteDefinition {
