@@ -8,6 +8,35 @@
  */
 import { BASE_TOKENS } from './generated/tenant-data'
 import { loadSiteTokens, loadVerticalTokens } from './site-loader'
+import { PRELOADED_FONT_FAMILIES } from '@/lib/fonts'
+
+/**
+ * Rewrite a typography font-family CSS value so any preloaded font is
+ * served via its `next/font/google` CSS variable, with the original
+ * Google Fonts name kept as a fallback.
+ */
+function prependPreloadedVar(value: string | undefined): string | undefined {
+  if (!value) return value
+  const match = value.match(/^\s*['"]?([^,'"]+)['"]?/)
+  const primary = match?.[1]?.trim()
+  if (!primary) return value
+  const cssVar = PRELOADED_FONT_FAMILIES[primary]
+  if (!cssVar) return value
+  return `${cssVar}, ${value}`
+}
+
+/**
+ * Drop preloaded families from the tenant's googleFonts list — they're
+ * self-hosted via root-layout next/font declarations, no CDN fetch needed.
+ */
+function stripPreloadedGoogleFonts(fonts: string[] | undefined): string[] {
+  if (!fonts || fonts.length === 0) return []
+  const preloaded = new Set(Object.keys(PRELOADED_FONT_FAMILIES))
+  return fonts.filter((entry) => {
+    const family = entry.split(':')[0].replace(/\+/g, ' ')
+    return !preloaded.has(family)
+  })
+}
 
 interface PaletteColors {
   primary: string
@@ -138,9 +167,9 @@ export function resolveSiteTokens(
     '--success': colors.success || '#4a7c59',
     '--error': colors.error || '#c0392b',
     '--warning': colors.warning || '#f39c12',
-    '--font-heading': typo.heading || "'Playfair Display', serif",
-    '--font-body': typo.body || "'Inter', sans-serif",
-    '--font-accent': typo.accent || typo.body || "'Inter', sans-serif",
+    '--font-heading': prependPreloadedVar(typo.heading) || prependPreloadedVar("'Playfair Display', serif")!,
+    '--font-body': prependPreloadedVar(typo.body) || prependPreloadedVar("'Inter', sans-serif")!,
+    '--font-accent': prependPreloadedVar(typo.accent) || prependPreloadedVar(typo.body) || prependPreloadedVar("'Inter', sans-serif")!,
     '--heading-weight': typo.headingWeight || '700',
     '--body-weight': typo.bodyWeight || '400',
     '--heading-transform': typo.textTransform || 'none',
@@ -172,8 +201,9 @@ export function resolveSiteTokens(
   if (colors.error && !vars['--color-error']) vars['--color-error'] = colors.error
   if (colors.warning && !vars['--color-warning']) vars['--color-warning'] = colors.warning
 
-  const googleFontsUrl = merged.googleFonts && merged.googleFonts.length > 0
-    ? `https://fonts.googleapis.com/css2?${merged.googleFonts.map((f) => `family=${f}`).join('&')}&display=swap`
+  const remainingFonts = stripPreloadedGoogleFonts(merged.googleFonts)
+  const googleFontsUrl = remainingFonts.length > 0
+    ? `https://fonts.googleapis.com/css2?${remainingFonts.map((f) => `family=${f}`).join('&')}&display=swap`
     : ''
   const cssBody = Object.entries(vars).map(([k, v]) => `  ${k}: ${v};`).join('\n')
   return {

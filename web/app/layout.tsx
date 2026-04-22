@@ -5,6 +5,7 @@ import { HOME_FAQS, HOME_PLANS_SCHEMA, HOME_REVIEWS } from '@/lib/landing/home-d
 import { WebVitalsReporter } from '@/components/analytics/web-vitals-reporter'
 import { SkipToContent } from '@/components/ui/skip-to-content'
 import { isLocale, LOCALE_HTML_LANG } from '@/lib/i18n/config'
+import { rootFontVariables } from '@/lib/fonts'
 
 // Extract the tenant locale from `/s/<locale>/<site>/...` paths so the
 // `<html lang>` attribute is correct per-request. Without this, every
@@ -80,7 +81,7 @@ export const metadata: Metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const htmlLang = await resolveHtmlLang()
   return (
-    <html lang={htmlLang}>
+    <html lang={htmlLang} className={rootFontVariables}>
       <head>
         {/*
           Preconnect hints for Google Fonts. Tenant pages load per-site
