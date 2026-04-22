@@ -6,6 +6,7 @@ import {
   countActiveProducts,
   listActiveProducts,
   listDistinctCategories,
+  listTagsForCategory,
   type ProductSort,
 } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
@@ -48,11 +49,15 @@ export async function generateMetadata({
       const v = sp[k]
       return typeof v === 'string' ? v.length > 0 : Array.isArray(v) ? v.length > 0 : false
     })
+  // Transactional-intent title: "Comprar [Category] en Paraguay | Store".
+  // Peer analysis (luden.store) ranks consistently on this pattern for
+  // Paraguay-specific long-tail.
+  const title = `Comprar ${pretty} en Paraguay | ${business.name}`
   return {
-    title: `${pretty} — ${business.name}`,
+    title,
     description,
     alternates: { canonical },
-    openGraph: { url: canonical, title: `${pretty} — ${business.name}`, description },
+    openGraph: { url: canonical, title, description },
     robots: hasFilterParam
       ? { index: false, follow: true }
       : { index: true, follow: true },
@@ -131,10 +136,11 @@ export default async function CategoryPage({
     onSaleOnly,
   }
 
-  const [products, totalCount, rates] = await Promise.all([
+  const [products, totalCount, rates, tagsInCat] = await Promise.all([
     listActiveProducts(business.id, { ...filterOpts, limit: PAGE_SIZE, offset, sort: sortKey }),
     countActiveProducts(business.id, filterOpts),
     loadPygRates(),
+    listTagsForCategory(business.id, match),
   ])
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE))
@@ -166,6 +172,28 @@ export default async function CategoryPage({
             {totalCount} {totalCount === 1 ? 'producto disponible' : 'productos disponibles'} en {match}.
           </p>
         </div>
+
+        {/* Subcategory shortcuts — indexable nested URLs per (category, tag).
+            Placed high on the page so Google crawls the internal links on
+            the first pass. Peer analysis: luden.store surfaces these as
+            the primary merchandising hook on the category page. */}
+        {tagsInCat.length >= 2 ? (
+          <nav aria-label="Subcategorías" className="mb-5">
+            <ul className="flex flex-wrap gap-2 text-xs">
+              {tagsInCat.slice(0, 10).map((t) => (
+                <li key={t.tag}>
+                  <Link
+                    href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(match)}/${encodeURIComponent(t.tag)}`}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-1.5 font-medium capitalize hover:border-[color:var(--primary,#111)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                  >
+                    {t.tag.replace(/-/g, ' ')}
+                    <span className="text-[color:var(--text-muted,#9ca3af)]">({t.count})</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ) : null}
 
         <TiendaToolbar
           initialQuery={search}

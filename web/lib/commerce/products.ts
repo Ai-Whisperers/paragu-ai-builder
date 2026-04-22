@@ -271,6 +271,40 @@ export async function listDistinctTags(businessId: string): Promise<string[]> {
 }
 
 /**
+ * Tags ranked by count among active products in a given category. Powers
+ * the internal-linking block on the category page (Luden-style "Comprar
+ * [Tag] [Category]" nested URLs) — we only want to link to tag pages
+ * that actually have inventory, and we want the most-populated tags
+ * surfaced first so Google spiders the pages that matter.
+ *
+ * Returns `[{ tag, count }]` sorted by count desc. Tags with count < 2
+ * are filtered out (a 1-product "category" is thin content).
+ */
+export async function listTagsForCategory(
+  businessId: string,
+  category: string,
+): Promise<Array<{ tag: string; count: number }>> {
+  const supabase = await createAdminClient()
+  const { data } = await supabase
+    .from('products')
+    .select('tags')
+    .eq('business_id', businessId)
+    .eq('status', 'active')
+    .eq('category', category)
+  const counts = new Map<string, number>()
+  for (const row of (Array.isArray(data) ? data : []) as Array<{ tags: string[] | null }>) {
+    for (const t of row.tags ?? []) {
+      if (!t) continue
+      counts.set(t, (counts.get(t) ?? 0) + 1)
+    }
+  }
+  return Array.from(counts.entries())
+    .filter(([, count]) => count >= 2)
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag, 'es'))
+}
+
+/**
  * Category counts for faceted filtering. Pulls every active product's
  * category in one query and aggregates client-side — cheap enough for the
  * product counts we care about (<5k active per tenant).
