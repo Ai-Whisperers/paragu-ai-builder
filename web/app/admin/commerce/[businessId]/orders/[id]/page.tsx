@@ -40,6 +40,34 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
           <p>{order.customerName}</p>
           <p className="text-sm text-[color:var(--text-muted,#6b7280)]">{order.customerEmail}</p>
           {order.customerPhone ? <p className="text-sm text-[color:var(--text-muted,#6b7280)]">{order.customerPhone}</p> : null}
+          <div className="mt-3 flex flex-wrap gap-2">
+            {order.customerPhone ? (
+              <a
+                href={`https://wa.me/${order.customerPhone.replace(/\D/g, '')}?text=${encodeURIComponent(`Hola ${order.customerName}, sobre tu pedido ${order.orderNumber}:`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-[#25D366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90"
+              >
+                <span aria-hidden="true">💬</span> WhatsApp
+              </a>
+            ) : null}
+            {order.customerEmail ? (
+              <a
+                href={`mailto:${order.customerEmail}?subject=${encodeURIComponent(`Tu pedido ${order.orderNumber}`)}&body=${encodeURIComponent(`Hola ${order.customerName},\n\nSobre tu pedido ${order.orderNumber}:\n\n`)}`}
+                className="inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              >
+                <span aria-hidden="true">✉</span> Email
+              </a>
+            ) : null}
+            {order.customerPhone ? (
+              <a
+                href={`tel:${order.customerPhone}`}
+                className="inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              >
+                <span aria-hidden="true">📞</span> Llamar
+              </a>
+            ) : null}
+          </div>
         </section>
 
         {order.shippingAddress ? (
