@@ -3,5 +3,8 @@
   "description": "Tienda de colchones premium en Asunción",
   "theme": "superspuma",
   "baseUrl": "https://superspuma.paraguai.com",
-  "locale": "es"
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "vertical": "ecommerce-standard",
+  "pages": ["home"]
 }

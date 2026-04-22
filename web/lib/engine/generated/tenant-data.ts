@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=199, content=137, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=200, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -118,6 +118,7 @@ export const SITE_SLUGS: readonly string[] = [
   "demo-salon-fiestas",
   "demo-spa",
   "demo-spa-facial",
+  "demo-superpuma",
   "demo-taller-mecanico",
   "demo-tasador",
   "demo-tatuajes",
@@ -4310,6 +4311,13 @@ export const SITES: Record<string, JsonRecord> = {
     "source": "batch-create-demos",
     "vertical": "beauty-personal-care"
   },
+  "demo-superpuma": {
+    "baseUrl": "https://superspuma.paraguai.com",
+    "description": "Tienda de colchones premium en Asunción",
+    "locale": "es",
+    "theme": "superspuma",
+    "title": "Superspuma"
+  },
   "demo-taller-mecanico": {
     "businessType": "general_auto_repair",
     "contact": {
@@ -5520,6 +5528,17 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:beauty-personal-care"
   },
+  "demo-superpuma": {
+    "color": {
+      "accent": "#B3C7E3",
+      "primary": "#0F1624",
+      "secondary": "#3A4A5D"
+    },
+    "font": {
+      "body": "Open Sans",
+      "heading": "Playfair Display"
+    }
+  },
   "demo-taller-mecanico": {
     "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:automotive"
@@ -5832,6 +5851,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "title": "Contacto - Dayah LitWorks"
+  },
+  "dayah-litworks:faq": {
+    "descriptionKey": "faq.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "faq.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "faq",
+    "titleKey": "faq.seo.title"
   },
   "dayah-litworks:home": {
     "descriptionKey": "home.seo.description",
@@ -12856,6 +12912,59 @@ export const CONTENT: Record<string, JsonRecord> = {
       "subtitle": "Get in touch and let's make your book stand out",
       "title": "Ready for the perfect cover?"
     },
+    "faq": {
+      "items": [
+        {
+          "answer": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks.",
+          "question": "How long does a custom cover take?"
+        },
+        {
+          "answer": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost.",
+          "question": "How many revisions are included?"
+        },
+        {
+          "answer": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash.",
+          "question": "What's the payment process?"
+        },
+        {
+          "answer": "We charge in USD and guaraníes (₲). See our pricing table for both currencies.",
+          "question": "What currency do you charge in?"
+        },
+        {
+          "answer": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform.",
+          "question": "Can I use the cover on Amazon KDP / Wattpad / publishers?"
+        },
+        {
+          "answer": "A realistic 3D render of your book. Perfect for social media promotion and marketing.",
+          "question": "What is a 3D mockup?"
+        },
+        {
+          "answer": "If the client cancels after work has started, the advance payment is non-refundable.",
+          "question": "What if I cancel the project?"
+        },
+        {
+          "answer": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas.",
+          "question": "Do you redesign existing covers?"
+        },
+        {
+          "answer": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design.",
+          "question": "What do I need to get started?"
+        },
+        {
+          "answer": "We design covers in Spanish and English. Typography adapts to your book's language.",
+          "question": "What language do you design in?"
+        },
+        {
+          "answer": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge.",
+          "question": "Can I request rush delivery (48–72h)?"
+        },
+        {
+          "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images.",
+          "question": "How are final files delivered?"
+        }
+      ],
+      "title": "Frequently Asked Questions"
+    },
     "footer": {
       "businessName": "Dayah LitWorks",
       "copyright": "© 2026 Dayah LitWorks. All rights reserved.",
@@ -13361,6 +13470,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "title": "Tell me about your project",
       "whatsappBase": "https://wa.me/595986868241"
     },
+    "seo": {
+      "faq": {
+        "description": "Answers to the most frequently asked questions about our book cover design services.",
+        "title": "FAQ — Dayah LitWorks"
+      }
+    },
     "siteName": "Dayah LitWorks",
     "sobre": {
       "bio": {
@@ -13506,6 +13621,59 @@ export const CONTENT: Record<string, JsonRecord> = {
       "ctaText": "Escribime por WhatsApp",
       "subtitle": "Contactame y hagamos que tu libro destaque",
       "title": "¿Listo para la portada perfecta?"
+    },
+    "faq": {
+      "items": [
+        {
+          "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas.",
+          "question": "¿Cuánto tarda una portada personalizada?"
+        },
+        {
+          "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra.",
+          "question": "¿Cuántas revisiones incluye?"
+        },
+        {
+          "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo.",
+          "question": "¿Cómo es el proceso de pago?"
+        },
+        {
+          "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios.",
+          "question": "¿En qué moneda cobran?"
+        },
+        {
+          "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas.",
+          "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?"
+        },
+        {
+          "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing.",
+          "question": "¿Qué es un mockup 3D?"
+        },
+        {
+          "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable.",
+          "question": "¿Qué pasa si cancelo el proyecto?"
+        },
+        {
+          "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas.",
+          "question": "¿Hacés rediseños de portadas existentes?"
+        },
+        {
+          "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño.",
+          "question": "¿Qué necesito enviar para empezar?"
+        },
+        {
+          "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro.",
+          "question": "¿En qué idioma diseñás?"
+        },
+        {
+          "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo.",
+          "question": "¿Puedo contratar urgente (48–72h)?"
+        },
+        {
+          "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entrega como imágenes renderizadas.",
+          "question": "¿Cómo se entregados los archivos finales?"
+        }
+      ],
+      "title": "Preguntas Frecuentes"
     },
     "footer": {
       "businessName": "Dayah LitWorks",
@@ -19697,6 +19865,16 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Spa de Dia profesional en Ciudad del Este.",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Spa y me interesa un sitio para mi negocio"
+    }
+  },
+  "demo-superpuma:es": {
+    "hero": {
+      "subtitle": "Calidad desde 1976",
+      "title": "Colchones Superspuma"
+    },
+    "products": {
+      "items": [],
+      "title": "Nuestra Colección"
     }
   },
   "demo-taller-mecanico:es": {
@@ -36470,563 +36648,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
         "type": "array"
       }
     },
-    "type": "object",
-    "typeOverrides": {
-      "consultoria": {
-        "description": "Additional fields for management, strategy, and business consultancies",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.email",
-            "practiceAreas",
-            "services"
-          ],
-          "priority2": [
-            "targetClients",
-            "caseStudies",
-            "team",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "testimonials"
-          ]
-        },
-        "properties": {
-          "caseStudies": {
-            "items": {
-              "properties": {
-                "client": {
-                  "type": "string"
-                },
-                "industry": {
-                  "type": "string"
-                },
-                "outcome": {
-                  "type": "string"
-                },
-                "summary": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "client",
-                "summary"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "practiceAreas": {
-            "description": "Consulting verticals (estrategia, operaciones, rrhh, finanzas, marketing, tecnologia)",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "services": {
-            "items": {
-              "properties": {
-                "deliverable": {
-                  "description": "What the client receives at the end of the engagement",
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "durationWeeks": {
-                  "minimum": 1,
-                  "type": "integer"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "priceFrom": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "spokenLanguages": {
-            "items": {
-              "enum": [
-                "es",
-                "en",
-                "pt"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "targetClients": {
-            "items": {
-              "enum": [
-                "startup",
-                "pyme",
-                "mediana-empresa",
-                "corporativa",
-                "ong",
-                "gobierno"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Consulting Business Input Schema"
-      },
-      "contador": {
-        "description": "Fields specific to Paraguayan estudios contables — contabilidad, impuestos (IVA/IRE/IRP), sueldos (IPS/MTESS), auditoria",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.whatsapp",
-            "contact.email",
-            "serviceLines",
-            "targetClients"
-          ],
-          "priority2": [
-            "pricingTiers",
-            "specializations",
-            "team",
-            "professionalRegistration",
-            "serviceArea",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "regulatoryCompliance",
-            "testimonials",
-            "faq",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "pricingTiers": {
-            "description": "Monthly plans shown on the pricing table",
-            "items": {
-              "properties": {
-                "description": {
-                  "type": "string"
-                },
-                "featured": {
-                  "type": "boolean"
-                },
-                "features": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "priceFrom": {
-                  "type": "string"
-                },
-                "targetSegment": {
-                  "enum": [
-                    "profesional-independiente",
-                    "pyme",
-                    "empresa-mediana",
-                    "empresa-grande"
-                  ],
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name",
-                "priceFrom"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "professionalRegistration": {
-            "description": "Colegio de Contadores del Paraguay credentials",
-            "properties": {
-              "colegio": {
-                "default": "Colegio de Contadores del Paraguay",
-                "type": "string"
-              },
-              "contadorResponsable": {
-                "type": "string"
-              },
-              "matricula": {
-                "description": "Registration number",
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "regulatoryCompliance": {
-            "description": "Regulatory certifications that matter for client trust",
-            "properties": {
-              "dncpHabilitado": {
-                "description": "Can certify balances for DNCP bids",
-                "type": "boolean"
-              },
-              "seprelad": {
-                "description": "Can issue SEPRELAD reports",
-                "type": "boolean"
-              },
-              "setInscripto": {
-                "description": "Firm has active RUC",
-                "type": "boolean"
-              }
-            },
-            "type": "object"
-          },
-          "serviceArea": {
-            "properties": {
-              "modality": {
-                "enum": [
-                  "presencial",
-                  "remoto",
-                  "hibrido"
-                ],
-                "type": "string"
-              },
-              "regions": {
-                "items": {
-                  "enum": [
-                    "asuncion",
-                    "central",
-                    "alto-parana",
-                    "itapua",
-                    "caaguazu",
-                    "amambay",
-                    "paraguay-entero"
-                  ],
-                  "type": "string"
-                },
-                "type": "array"
-              }
-            },
-            "type": "object"
-          },
-          "serviceLines": {
-            "description": "Core service lines offered by the firm",
-            "items": {
-              "enum": [
-                "contabilidad-mensual",
-                "liquidacion-impuestos",
-                "liquidacion-sueldos",
-                "asesoria-tributaria",
-                "constitucion-empresas",
-                "auditoria-externa",
-                "auditoria-interna",
-                "planificacion-fiscal",
-                "defensa-fiscalizaciones",
-                "due-diligence",
-                "balances-licitaciones",
-                "registro-marcas"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "services": {
-            "items": {
-              "properties": {
-                "category": {
-                  "enum": [
-                    "contabilidad",
-                    "impuestos",
-                    "laboral",
-                    "asesoria",
-                    "societario",
-                    "auditoria"
-                  ],
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "feeStructure": {
-                  "enum": [
-                    "honorario-mensual",
-                    "por-proyecto",
-                    "por-hora",
-                    "por-declaracion",
-                    "a-convenir"
-                  ],
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "priceFrom": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "specializations": {
-            "description": "Industry specializations",
-            "items": {
-              "enum": [
-                "gastronomia",
-                "retail",
-                "servicios",
-                "construccion",
-                "agronegocios",
-                "importacion-exportacion",
-                "tecnologia-software",
-                "salud",
-                "transporte",
-                "inmobiliario",
-                "educacion",
-                "fintech-crypto"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "spokenLanguages": {
-            "items": {
-              "enum": [
-                "es",
-                "gn",
-                "en",
-                "pt"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "targetClients": {
-            "items": {
-              "enum": [
-                "profesional-independiente",
-                "unipersonal",
-                "pyme",
-                "empresa-mediana",
-                "empresa-grande",
-                "startup",
-                "ong",
-                "cooperativa",
-                "extranjero-residente",
-                "agropecuario"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "team": {
-            "items": {
-              "properties": {
-                "bio": {
-                  "type": "string"
-                },
-                "education": {
-                  "type": "string"
-                },
-                "matricula": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "photoUrl": {
-                  "type": "string"
-                },
-                "role": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name",
-                "role"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Accounting Firm Business Input Schema"
-      },
-      "inversiones": {
-        "description": "Additional fields for financial advisors, wealth management, and investment firms",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.email",
-            "services",
-            "targetClients"
-          ],
-          "priority2": [
-            "assetClasses",
-            "team",
-            "regulatoryLicense",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "performanceDisclaimer",
-            "testimonials"
-          ]
-        },
-        "properties": {
-          "assetClasses": {
-            "description": "Asset classes covered (acciones, bonos, cripto, real-estate, private-equity, etc.)",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "performanceDisclaimer": {
-            "type": "string"
-          },
-          "regulatoryLicense": {
-            "properties": {
-              "licenseNumber": {
-                "type": "string"
-              },
-              "regulator": {
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "services": {
-            "items": {
-              "properties": {
-                "description": {
-                  "type": "string"
-                },
-                "minTicket": {
-                  "description": "Minimum investment amount (human string)",
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "targetClients": {
-            "items": {
-              "enum": [
-                "personas",
-                "empresas",
-                "institucional",
-                "fondos"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Investment Advisory Business Input Schema"
-      },
-      "legal": {
-        "description": "Additional fields for law firms and solo practitioners",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.email",
-            "practiceAreas",
-            "services"
-          ],
-          "priority2": [
-            "team",
-            "barRegistration",
-            "spokenLanguages",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "testimonials"
-          ]
-        },
-        "properties": {
-          "barRegistration": {
-            "properties": {
-              "bar": {
-                "type": "string"
-              },
-              "registrationNumber": {
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "practiceAreas": {
-            "description": "Areas of law handled (civil, penal, laboral, tributario, mercantil, inmobiliario, familia, migratorio)",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "services": {
-            "items": {
-              "properties": {
-                "description": {
-                  "type": "string"
-                },
-                "feeStructure": {
-                  "enum": [
-                    "por-consulta",
-                    "por-hora",
-                    "por-caso",
-                    "igualas-mensuales",
-                    "exito-contingencia"
-                  ],
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "priceFrom": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "spokenLanguages": {
-            "items": {
-              "enum": [
-                "es",
-                "en",
-                "pt",
-                "de",
-                "fr"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Legal Services Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "beauty-personal-care": {
     "$id": "vertical-beauty-personal-care",
@@ -37058,686 +36680,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
       }
     },
     "title": "Beauty & Personal Care vertical content schema",
-    "type": "object",
-    "typeOverrides": {
-      "barberia": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "services",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "team",
-            "hours",
-            "walkInsWelcome"
-          ],
-          "priority3": [
-            "contact.instagram",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "appointmentRequired": {
-            "enum": [
-              "yes",
-              "no",
-              "preferred"
-            ],
-            "type": "string"
-          },
-          "individualProfilesNeeded": {
-            "default": false,
-            "type": "boolean"
-          },
-          "numberOfBarbers": {
-            "minimum": 1,
-            "type": "integer"
-          },
-          "walkInsWelcome": {
-            "default": true,
-            "type": "boolean"
-          }
-        },
-        "title": "Barbershop Business Input Schema"
-      },
-      "depilacion": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "technology",
-            "treatmentAreas"
-          ],
-          "priority2": [
-            "freeConsultation",
-            "hours",
-            "offersWaxing"
-          ],
-          "priority3": [
-            "offersMaleServices",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "freeConsultation": {
-            "default": true,
-            "type": "boolean"
-          },
-          "offersMaleServices": {
-            "default": false,
-            "type": "boolean"
-          },
-          "offersWaxing": {
-            "default": false,
-            "type": "boolean"
-          },
-          "skinTypeAssessment": {
-            "default": true,
-            "type": "boolean"
-          },
-          "technology": {
-            "properties": {
-              "equipmentBrand": {
-                "type": "string"
-              },
-              "isCeCertified": {
-                "default": false,
-                "type": "boolean"
-              },
-              "isFdaCertified": {
-                "default": false,
-                "type": "boolean"
-              },
-              "laserTypes": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
-              }
-            },
-            "type": "object"
-          },
-          "treatmentAreas": {
-            "items": {
-              "properties": {
-                "area": {
-                  "type": "string"
-                },
-                "package10Price": {
-                  "type": "integer"
-                },
-                "package6Price": {
-                  "type": "integer"
-                },
-                "pricePerSession": {
-                  "type": "integer"
-                }
-              },
-              "type": "object"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Hair Removal Clinic Input Schema"
-      },
-      "estetica": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "medicalDirector",
-            "services"
-          ],
-          "priority2": [
-            "team",
-            "beforeAfterPhotos",
-            "treatmentTypes"
-          ],
-          "priority3": [
-            "freeConsultation",
-            "virtualConsultation",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "beforeAfterPhotos": {
-            "properties": {
-              "available": {
-                "type": "boolean"
-              },
-              "canTakeNew": {
-                "type": "boolean"
-              },
-              "count": {
-                "type": "integer"
-              }
-            },
-            "type": "object"
-          },
-          "freeConsultation": {
-            "default": true,
-            "type": "boolean"
-          },
-          "medicalDirector": {
-            "properties": {
-              "certifications": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
-              },
-              "license": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "numberOfPractitioners": {
-            "type": "integer"
-          },
-          "offersInjectables": {
-            "default": false,
-            "type": "boolean"
-          },
-          "treatmentTypes": {
-            "items": {
-              "enum": [
-                "faciales",
-                "inyectables",
-                "laser",
-                "corporales"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "virtualConsultation": {
-            "default": false,
-            "type": "boolean"
-          }
-        },
-        "title": "Aesthetic Clinic Business Input Schema"
-      },
-      "maquillaje": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "serviceArea",
-            "services",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "yearsInBusiness",
-            "trainingEducation",
-            "portfolioCategories"
-          ],
-          "priority3": [
-            "notableWork",
-            "contact.instagram",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "artistName": {
-            "type": "string"
-          },
-          "beforeAfterPairs": {
-            "type": "integer"
-          },
-          "isIndividualArtist": {
-            "default": true,
-            "type": "boolean"
-          },
-          "notableWork": {
-            "description": "Publications, celebrities, etc.",
-            "type": "string"
-          },
-          "offersTrials": {
-            "default": true,
-            "type": "boolean"
-          },
-          "portfolioCategories": {
-            "items": {
-              "enum": [
-                "bridal",
-                "eventos",
-                "editorial",
-                "lecciones"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "serviceArea": {
-            "description": "Geographic area served (e.g., 'Asuncion y Gran Asuncion')",
-            "type": "string"
-          },
-          "trainingEducation": {
-            "type": "string"
-          },
-          "yearsInBusiness": {
-            "type": "integer"
-          }
-        },
-        "title": "Makeup Artist Business Input Schema"
-      },
-      "peluqueria": {
-        "description": "Additional fields required from hair salons beyond the base schema",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "location.city",
-            "services",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "team",
-            "branding.logoUrl",
-            "hours",
-            "contact.instagram"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "branding.referenceWebsites",
-            "faq"
-          ]
-        },
-        "properties": {
-          "numberOfStylists": {
-            "minimum": 1,
-            "type": "integer"
-          },
-          "portfolioTypes": {
-            "items": {
-              "enum": [
-                "cortes",
-                "color",
-                "mechas",
-                "peinados"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "serviceCategories": {
-            "items": {
-              "enum": [
-                "cortes",
-                "coloracion",
-                "tratamientos",
-                "peinados",
-                "extensiones"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Hair Salon Business Input Schema"
-      },
-      "pestanas": {
-        "description": "Additional fields required from lash and brow studios beyond the base schema",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "location.city",
-            "services",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "branding.logoUrl",
-            "hours",
-            "contact.instagram",
-            "contact.whatsapp"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "branding.referenceWebsites",
-            "faq"
-          ]
-        },
-        "properties": {
-          "numberOfTechnicians": {
-            "minimum": 1,
-            "type": "integer"
-          },
-          "portfolioTypes": {
-            "items": {
-              "enum": [
-                "pestanas",
-                "cejas",
-                "microblading"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "serviceCategories": {
-            "items": {
-              "enum": [
-                "pestanas",
-                "cejas",
-                "microblading",
-                "lifting"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Lashes & Brows Studio Business Input Schema"
-      },
-      "salon_belleza": {
-        "description": "Additional fields required from full-service beauty salons beyond the base schema",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "location.city",
-            "services",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "team",
-            "branding.logoUrl",
-            "hours",
-            "contact.instagram"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "branding.referenceWebsites",
-            "faq"
-          ]
-        },
-        "properties": {
-          "numberOfStylists": {
-            "minimum": 1,
-            "type": "integer"
-          },
-          "portfolioTypes": {
-            "items": {
-              "enum": [
-                "cabello",
-                "unas",
-                "maquillaje",
-                "tratamientos"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "serviceCategories": {
-            "items": {
-              "enum": [
-                "cabello",
-                "unas",
-                "maquillaje",
-                "tratamientos_faciales",
-                "tratamientos_corporales",
-                "paquetes"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "specialties": {
-            "items": {
-              "enum": [
-                "novias",
-                "quinceaneras",
-                "eventos",
-                "spa"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Full-Service Beauty Salon Business Input Schema"
-      },
-      "spa": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "services",
-            "packages"
-          ],
-          "priority2": [
-            "team",
-            "amenities",
-            "hours",
-            "giftVouchersAvailable"
-          ],
-          "priority3": [
-            "atmosphereDescription",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "amenities": {
-            "items": {
-              "enum": [
-                "sauna",
-                "steam_room",
-                "jacuzzi",
-                "pool",
-                "relaxation_area"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "atmosphereDescription": {
-            "type": "string"
-          },
-          "giftVouchersAvailable": {
-            "default": false,
-            "type": "boolean"
-          },
-          "numberOfTherapists": {
-            "type": "integer"
-          },
-          "numberOfTreatmentRooms": {
-            "type": "integer"
-          },
-          "packages": {
-            "items": {
-              "properties": {
-                "includes": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "price": {
-                  "type": "integer"
-                },
-                "savings": {
-                  "type": "integer"
-                }
-              },
-              "type": "object"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Spa/Wellness Business Input Schema"
-      },
-      "tatuajes": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "artists",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "tattooStyles",
-            "piercingServices",
-            "healthCertifications"
-          ],
-          "priority3": [
-            "pricingBySize",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "artists": {
-            "items": {
-              "properties": {
-                "instagram": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "photo": {
-                  "format": "uri",
-                  "type": "string"
-                },
-                "styles": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                },
-                "yearsExperience": {
-                  "type": "integer"
-                }
-              },
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "consultationRequired": {
-            "default": true,
-            "type": "boolean"
-          },
-          "healthCertifications": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "piercingServices": {
-            "default": false,
-            "type": "boolean"
-          },
-          "pricingBySize": {
-            "properties": {
-              "large": {
-                "type": "integer"
-              },
-              "medium": {
-                "type": "integer"
-              },
-              "small": {
-                "type": "integer"
-              }
-            },
-            "type": "object"
-          },
-          "tattooStyles": {
-            "items": {
-              "enum": [
-                "tradicional",
-                "realismo",
-                "blackwork",
-                "japones",
-                "minimal",
-                "geometric",
-                "watercolor",
-                "lettering",
-                "cover_up"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Tattoo/Piercing Studio Input Schema"
-      },
-      "unas": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "services",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "team",
-            "nailArtStyles",
-            "hours",
-            "contact.instagram"
-          ],
-          "priority3": [
-            "brandsUsed",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "brandsUsed": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "nailArtStyles": {
-            "items": {
-              "enum": [
-                "natural",
-                "gel",
-                "acrilico",
-                "shellac",
-                "nail_art",
-                "chrome",
-                "3d",
-                "french",
-                "bridal"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "numberOfTechnicians": {
-            "minimum": 1,
-            "type": "integer"
-          },
-          "specialtiesPerTechnician": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Nail Salon Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "death-care": {
     "$id": "vertical-death-care",
@@ -37783,126 +36726,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
         "type": "string"
       }
     },
-    "type": "object",
-    "typeOverrides": {
-      "educacion": {
-        "description": "Additional fields for schools, tutoring centres, and online academies",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "subjects",
-            "modalities",
-            "ageRanges"
-          ],
-          "priority2": [
-            "classSchedule",
-            "team",
-            "certifications",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "testimonials"
-          ]
-        },
-        "properties": {
-          "ageRanges": {
-            "items": {
-              "enum": [
-                "ninos",
-                "adolescentes",
-                "universitarios",
-                "adultos",
-                "tercera-edad"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "certifications": {
-            "items": {
-              "properties": {
-                "issuer": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "classSchedule": {
-            "items": {
-              "properties": {
-                "classes": {
-                  "items": {
-                    "properties": {
-                      "duration": {
-                        "type": "integer"
-                      },
-                      "instructor": {
-                        "type": "string"
-                      },
-                      "name": {
-                        "type": "string"
-                      },
-                      "spots": {
-                        "type": "integer"
-                      },
-                      "time": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "time",
-                      "name"
-                    ],
-                    "type": "object"
-                  },
-                  "type": "array"
-                },
-                "day": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "day",
-                "classes"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "modalities": {
-            "items": {
-              "enum": [
-                "presencial",
-                "virtual",
-                "hibrida"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "subjects": {
-            "description": "Subject areas covered (matemáticas, idiomas, música, etc.)",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Education / Tutoring Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "finance-insurance": {
     "$id": "vertical-finance-insurance",
@@ -37953,101 +36777,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
         "type": "array"
       }
     },
-    "type": "object",
-    "typeOverrides": {
-      "meal_prep": {
-        "description": "Additional fields required from meal prep / personal shopping businesses beyond the base schema",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.whatsapp",
-            "location.city",
-            "services"
-          ],
-          "priority2": [
-            "team",
-            "tagline",
-            "portfolio.images",
-            "hours",
-            "coverageArea"
-          ],
-          "priority3": [
-            "branding.logoUrl",
-            "faq",
-            "sourcing",
-            "inanLicensed"
-          ]
-        },
-        "properties": {
-          "coverageArea": {
-            "description": "Free-text coverage area (e.g. 'San Lorenzo ciudad completa')",
-            "type": "string"
-          },
-          "inanLicensed": {
-            "default": false,
-            "description": "Whether the business holds an INAN license for cooked meals (Nivel 3)",
-            "type": "boolean"
-          },
-          "portfolioTypes": {
-            "items": {
-              "enum": [
-                "cortes_de_carne",
-                "mise_en_place",
-                "freezer_meals",
-                "mercado"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "serviceCategories": {
-            "items": {
-              "enum": [
-                "compras",
-                "prep",
-                "cocinado",
-                "add-on"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "shoppingDays": {
-            "description": "Days of week shopping is done (e.g. ['martes', 'jueves'])",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "sourcing": {
-            "properties": {
-              "preservativeFree": {
-                "default": true,
-                "type": "boolean"
-              },
-              "seasonal": {
-                "default": true,
-                "type": "boolean"
-              },
-              "wholeAnimal": {
-                "default": true,
-                "type": "boolean"
-              },
-              "wholesaleMarkets": {
-                "description": "Wholesale markets used (e.g. 'Abasto', 'Mercado San Lorenzo')",
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
-              }
-            },
-            "type": "object"
-          }
-        },
-        "title": "Meal Prep & Personal Shopping Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "health-wellness": {
     "$id": "vertical-health-wellness",
@@ -38078,108 +36808,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
       }
     },
     "title": "Health & Wellness vertical content schema",
-    "type": "object",
-    "typeOverrides": {
-      "salud": {
-        "description": "Additional fields for clinics, practitioners, and health service providers",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "specialties",
-            "services"
-          ],
-          "priority2": [
-            "team",
-            "credentials",
-            "acceptedInsurances",
-            "emergencyService",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "testimonials",
-            "hours"
-          ]
-        },
-        "properties": {
-          "acceptedInsurances": {
-            "description": "Insurance providers / prepagas accepted",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "credentials": {
-            "description": "Professional registrations (CMP, Universidad, etc.) — public-facing",
-            "items": {
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "value": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "type",
-                "value"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "emergencyService": {
-            "properties": {
-              "enabled": {
-                "type": "boolean"
-              },
-              "hours": {
-                "type": "string"
-              },
-              "phone": {
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "services": {
-            "items": {
-              "properties": {
-                "description": {
-                  "type": "string"
-                },
-                "duration": {
-                  "description": "Consult length in minutes",
-                  "type": "integer"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "price": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "specialties": {
-            "description": "Medical specialties offered",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Health / Medical Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "hospitality": {
     "$id": "vertical-hospitality",
@@ -38293,122 +36922,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
       }
     },
     "title": "Portfolio / professional services schema",
-    "type": "object",
-    "typeOverrides": {
-      "diseno_grafico": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.whatsapp",
-            "contact.email",
-            "products",
-            "portfolio.images"
-          ],
-          "priority2": [
-            "specialties",
-            "yearsInBusiness",
-            "turnaroundDays",
-            "portfolioCategories"
-          ],
-          "priority3": [
-            "contact.instagram",
-            "acceptsCommissions",
-            "bookingStatus"
-          ]
-        },
-        "properties": {
-          "acceptsCommissions": {
-            "default": true,
-            "type": "boolean"
-          },
-          "bookingStatus": {
-            "default": "open",
-            "enum": [
-              "open",
-              "waitlist",
-              "closed"
-            ],
-            "type": "string"
-          },
-          "designerName": {
-            "type": "string"
-          },
-          "isIndividualDesigner": {
-            "default": true,
-            "type": "boolean"
-          },
-          "portfolioCategories": {
-            "items": {
-              "enum": [
-                "portadas",
-                "premade",
-                "mockups",
-                "branding",
-                "editorial"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "products": {
-            "items": {
-              "properties": {
-                "available": {
-                  "default": true,
-                  "type": "boolean"
-                },
-                "category": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "imageUrl": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "price": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "serviceArea": {
-            "description": "Geographic area served or 'Remote/Digital'",
-            "type": "string"
-          },
-          "specialties": {
-            "items": {
-              "enum": [
-                "book_covers",
-                "editorial",
-                "branding",
-                "mockups",
-                "social_media",
-                "illustration"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "turnaroundDays": {
-            "description": "Average turnaround time in days",
-            "type": "integer"
-          },
-          "yearsInBusiness": {
-            "type": "integer"
-          }
-        },
-        "title": "Graphic Design Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "relocacion": {
     "$defs": {
@@ -38782,249 +37296,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
       }
     },
     "title": "Relocation vertical site content schema",
-    "type": "object",
-    "typeOverrides": {
-      "inmobiliaria": {
-        "description": "Additional fields for real estate brokerages and agents",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.whatsapp",
-            "operationTypes",
-            "propertyTypes",
-            "coverageAreas"
-          ],
-          "priority2": [
-            "listings",
-            "team",
-            "brokerRegistration",
-            "branding.logoUrl"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "testimonials"
-          ]
-        },
-        "properties": {
-          "brokerRegistration": {
-            "properties": {
-              "registrar": {
-                "type": "string"
-              },
-              "registrationNumber": {
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "coverageAreas": {
-            "description": "Cities / neighbourhoods the agency operates in",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "listings": {
-            "items": {
-              "properties": {
-                "areaSqm": {
-                  "minimum": 0,
-                  "type": "number"
-                },
-                "bathrooms": {
-                  "minimum": 0,
-                  "type": "integer"
-                },
-                "bedrooms": {
-                  "minimum": 0,
-                  "type": "integer"
-                },
-                "city": {
-                  "type": "string"
-                },
-                "currency": {
-                  "enum": [
-                    "USD",
-                    "PYG",
-                    "ARS",
-                    "EUR"
-                  ],
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "imageUrls": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                },
-                "neighborhood": {
-                  "type": "string"
-                },
-                "operation": {
-                  "enum": [
-                    "venta",
-                    "alquiler"
-                  ],
-                  "type": "string"
-                },
-                "price": {
-                  "type": "string"
-                },
-                "propertyType": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "title",
-                "price"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "operationTypes": {
-            "items": {
-              "enum": [
-                "venta",
-                "alquiler",
-                "alquiler-temporal",
-                "administracion",
-                "tasacion"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "propertyTypes": {
-            "items": {
-              "enum": [
-                "casa",
-                "departamento",
-                "terreno",
-                "local-comercial",
-                "oficina",
-                "galpon",
-                "quinta"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Real Estate Agency Business Input Schema"
-      },
-      "relocation": {
-        "description": "Additional fields for relocation / visa / expat-services businesses beyond the base schema",
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "contact.email",
-            "spokenLanguages",
-            "programs",
-            "targetMarkets"
-          ],
-          "priority2": [
-            "processSteps",
-            "team",
-            "branding.logoUrl",
-            "contact.instagram"
-          ],
-          "priority3": [
-            "seo.googleBusinessProfileUrl",
-            "faq",
-            "testimonials"
-          ]
-        },
-        "properties": {
-          "processSteps": {
-            "items": {
-              "properties": {
-                "description": {
-                  "type": "string"
-                },
-                "number": {
-                  "minimum": 1,
-                  "type": "integer"
-                },
-                "title": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "number",
-                "title",
-                "description"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "programs": {
-            "description": "Relocation program packages offered (residency types, family plans, etc.)",
-            "items": {
-              "properties": {
-                "description": {
-                  "type": "string"
-                },
-                "durationWeeks": {
-                  "minimum": 1,
-                  "type": "integer"
-                },
-                "includes": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "priceFrom": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "name"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "spokenLanguages": {
-            "items": {
-              "enum": [
-                "es",
-                "en",
-                "de",
-                "nl",
-                "fr",
-                "it",
-                "pt"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "targetMarkets": {
-            "description": "Countries / regions whose residents this service helps relocate to Paraguay",
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          }
-        },
-        "title": "Relocation Services Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "retail-local": {
     "$id": "vertical-retail-local",
@@ -39107,118 +37379,7 @@ export const VERTICAL_SCHEMAS: Record<string, JsonRecord> = {
       }
     },
     "title": "Service-booking vertical content schema",
-    "type": "object",
-    "typeOverrides": {
-      "gimnasio": {
-        "inputForm": {
-          "priority1": [
-            "businessName",
-            "contact.phone",
-            "location.address",
-            "membershipTiers",
-            "classSchedule"
-          ],
-          "priority2": [
-            "team",
-            "amenities",
-            "hours",
-            "memberCount"
-          ],
-          "priority3": [
-            "equipmentBrands",
-            "facilitySize",
-            "seo.googleBusinessProfileUrl"
-          ]
-        },
-        "properties": {
-          "amenities": {
-            "items": {
-              "enum": [
-                "pool",
-                "sauna",
-                "showers",
-                "lockers",
-                "parking",
-                "24_7_access",
-                "steam_room"
-              ],
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "classSchedule": {
-            "items": {
-              "properties": {
-                "capacity": {
-                  "type": "integer"
-                },
-                "className": {
-                  "type": "string"
-                },
-                "day": {
-                  "type": "string"
-                },
-                "instructor": {
-                  "type": "string"
-                },
-                "time": {
-                  "type": "string"
-                }
-              },
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "dayPassPrice": {
-            "type": "integer"
-          },
-          "equipmentBrands": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
-          "facilitySize": {
-            "type": "string"
-          },
-          "is24Hours": {
-            "default": false,
-            "type": "boolean"
-          },
-          "memberCount": {
-            "type": "integer"
-          },
-          "membershipTiers": {
-            "items": {
-              "properties": {
-                "features": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                },
-                "highlighted": {
-                  "default": false,
-                  "type": "boolean"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "price": {
-                  "type": "integer"
-                }
-              },
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "weeklyClassCount": {
-            "type": "integer"
-          }
-        },
-        "title": "Gym/Fitness Business Input Schema"
-      }
-    }
+    "type": "object"
   },
   "sports-recreation": {
     "$id": "vertical-sports-recreation",
