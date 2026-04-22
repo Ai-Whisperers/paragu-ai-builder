@@ -111,7 +111,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const twitterImageUrl = twitterCardAsset?.src ?? ogImageUrl
 
     return {
-      title: composed.meta.title,
+      // Use `absolute` so the root layout's `%s | ParaguAI Builder` template
+      // doesn't bleed into tenant pages. Each tenant owns its own browser
+      // title and SEO headline end-to-end.
+      title: { absolute: composed.meta.title },
       description: composed.meta.description,
       alternates: { languages: alternates },
       ...(Object.keys(icons).length > 0 && { icons }),
