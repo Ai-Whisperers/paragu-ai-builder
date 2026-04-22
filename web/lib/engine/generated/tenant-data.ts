@@ -23523,7 +23523,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "$img": "process.banking"
             },
             "number": 4,
-            "title": "Company and banking"
+            "title": "Entity setup & banking"
           },
           {
             "description": "You receive final documents and we close the program.",
@@ -24406,7 +24406,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "$img": "process.banking"
             },
             "number": 4,
-            "title": "Company and banking"
+            "title": "Entity setup & banking"
           },
           {
             "description": "You receive final documents and we close the program.",

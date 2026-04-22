@@ -138,13 +138,11 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
   // Real estate calculators
   'mortgage-calculator': MortgageCalculatorSection,
-  // Relocation calculators (Nexa Paraguay)
-  'cost-of-living': () => import('@/components/calculators/cost-of-living-estimator').then(m => m.CostOfLivingEstimator),
-  'timeline': () => import('@/components/calculators/timeline-estimator').then(m => m.TimelineEstimator),
-  'qualifier': () => import('@/components/calculators/residency-qualifier').then(m => m.ResidencyQualifier),
-  'document-checklist': () => import('@/components/calculators/document-checklist').then(m => m.DocumentChecklist),
-  'roi': () => import('@/components/calculators/roi-calculator').then(m => m.ROICalculator),
-  'comparison': () => import('@/components/calculators/comparison-tool').then(m => m.ComparisonTool),
+  // Calculators used by nexa-paraguay render via the modern site-renderer at
+  // /s/[locale]/[site]. They are intentionally NOT wired into the legacy
+  // [business] renderer — that route serves demo tenants without calculators.
+  // The previous entries here were lazy imports that typed as Promise<Component>
+  // rather than ComponentType, and none of them were actually routed.
   // Subscription / retention (meal-prep, weekly delivery)
   'weekly-cadence-calendar': WeeklyCadenceCalendarSection,
   'sample-week-preview': SampleWeekPreviewSection,
