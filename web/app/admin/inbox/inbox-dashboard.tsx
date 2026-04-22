@@ -2,6 +2,7 @@
 
 import { useState, useTransition, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import type { InboxLead, InboxStats } from './page'
 
 type Filters = { site?: string; status?: string; q?: string; assignee?: string }
@@ -132,9 +133,9 @@ export function InboxDashboard({
               <a href={exportHref} className="text-slate-600 hover:text-slate-900 hover:underline">
                 Export CSV
               </a>
-              <a href="/admin" className="text-slate-600 hover:text-slate-900 hover:underline">
+              <Link href="/admin" className="text-slate-600 hover:text-slate-900 hover:underline">
                 ← Back to admin
-              </a>
+              </Link>
             </div>
           </div>
         </div>
