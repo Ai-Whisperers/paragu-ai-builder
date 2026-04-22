@@ -73,7 +73,7 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(
       businessId,
       orderId: id,
       eventType: 'invoice_issued',
-      actorId: admin.id,
+      actorId: admin.userId,
       actorLabel: admin.email ?? null,
       metadata: {
         invoiceNumber: parsed.data.invoiceNumber,
