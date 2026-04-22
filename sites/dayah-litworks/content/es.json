@@ -30,7 +30,15 @@
   },
   "navigation": {
     "businessName": "Dayah LitWorks",
-    "items": ["Inicio", "Servicios", "Catálogo", "Portafolio", "Blog", "Sobre", "Contacto"],
+    "items": [
+      { "label": "Inicio", "href": "/s/es/dayah-litworks" },
+      { "label": "Servicios", "href": "/s/es/dayah-litworks/servicios" },
+      { "label": "Catálogo", "href": "/s/es/dayah-litworks/catalogo" },
+      { "label": "Portafolio", "href": "/s/es/dayah-litworks/portafolio" },
+      { "label": "Blog", "href": "/s/es/dayah-litworks/blog" },
+      { "label": "Sobre", "href": "/s/es/dayah-litworks/sobre" },
+      { "label": "Contacto", "href": "/s/es/dayah-litworks/contacto" }
+    ],
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595986868241"
   },
@@ -43,7 +51,7 @@
       "headline": "Dayah LitWorks",
       "subheadline": "Diseño de tapas de libros — del manuscrito a la portada que vende. Trabajos en USD para autores internacionales.",
       "ctaPrimaryText": "Ver Catálogo Premade",
-      "ctaPrimaryHref": "/catalogo",
+      "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
       "ctaSecondaryText": "Contactanos por WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595986868241"
     },
