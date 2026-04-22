@@ -81,7 +81,12 @@
       "ctaPrimaryText": "Explorar Tienda",
       "ctaPrimaryHref": "/fun4me/tienda",
       "ctaSecondaryText": "Contactanos",
-      "ctaSecondaryHref": "https://wa.me/595976569739"
+      "ctaSecondaryHref": "https://wa.me/595976569739",
+      "trustBadges": [
+        "Delivery 48 h",
+        "Empaque discreto",
+        "Envío nacional"
+      ]
     },
     "trustBadges": {
       "items": [

@@ -25,7 +25,12 @@
       "headline": "De Abasto a Casa",
       "subheadline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
       "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595981324569"
+      "ctaPrimaryHref": "https://wa.me/595981324569",
+      "trustBadges": [
+        "Puerta a puerta",
+        "Entrega en el día",
+        "San Lorenzo"
+      ]
     },
     "services": {
       "title": "Nuestros Servicios",
