@@ -36,7 +36,12 @@
       "ctaPrimaryText": "Pedir por WhatsApp",
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "backgroundImage": "/sites/granja-cabral/images/hero/hero-bg.png",
-      "backgroundImageMobile": "/sites/granja-cabral/images/hero/hero-bg-mobile.png"
+      "backgroundImageMobile": "/sites/granja-cabral/images/hero/hero-bg-mobile.png",
+      "trustBadges": [
+        "Recolectados hoy",
+        "Del productor",
+        "Coronel Oviedo + Ruta 2"
+      ]
     },
     "services": {
       "title": "Nuestros Productos",
