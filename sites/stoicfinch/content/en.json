@@ -187,6 +187,137 @@
       "footnote": "Born in Calgary 🍁 Inspired by the Rockies 🏔 Delivered Globally 🌎"
     }
   },
+  "aboutPage": {
+    "seo": {
+      "title": "About Stoic Finch — Calgary-born data consultancy",
+      "description": "Stoic Finch is a Calgary-born data consultancy delivering Reports & Dashboarding, Data Analysis, Data Science, Data Engineering and Data Strategy to clients worldwide."
+    },
+    "hero": {
+      "headline": "About Stoic Finch",
+      "subheadline": "Born in Calgary 🍁  Inspired by the Rockies 🏔  Delivered Globally 🌎",
+      "ctaPrimaryText": "Get Started Today",
+      "ctaPrimaryHref": "#contact"
+    },
+    "ourStory": {
+      "eyebrow": "Our story",
+      "title": "We provide the data professionals you need.",
+      "subtitle": "Stoic Finch is a professional services company dedicated to five areas of expertise, ensuring our customers have the right people for today's problems and tomorrow's goals.",
+      "items": [
+        { "icon": "BarChart", "title": "Reports & Dashboarding", "description": "Deliver insights to the people on your team who need it most, whether it's quarterly or in near real-time." },
+        { "icon": "Search", "title": "Data Analysis", "description": "Discover key drivers of your KPIs and build quantitative models to understand how those drivers will impact your future." },
+        { "icon": "Brain", "title": "Data Science", "description": "Targeted research into your data to discover hidden value and insight not accessible through traditional data analysis." },
+        { "icon": "Database", "title": "Data Engineering", "description": "Design and build automated, robust, scalable solutions for collecting, distributing and analyzing your data." },
+        { "icon": "Compass", "title": "Data Strategy & Product Management", "description": "Tailor a data strategy to the specific needs and goals of your organization, then steward that strategy into action." }
+      ]
+    },
+    "team": {
+      "title": "The team",
+      "subtitle": "Experienced practitioners who have built and run data functions at companies ranging from early-stage startups to enterprise.",
+      "members": []
+    },
+    "cta": {
+      "title": "Ready to talk?",
+      "subtitle": "Tell us a little about your situation and we'll be in touch within one business day.",
+      "whatsapp": "",
+      "email": "hello@stoicfinch.com",
+      "address": "Calgary, Alberta, Canada"
+    }
+  },
+
+  "contactPage": {
+    "seo": {
+      "title": "Contact Stoic Finch — Get started with your data",
+      "description": "Tell us about your data problem. We'll be in touch within one business day. No commitments, no hassle."
+    },
+    "hero": {
+      "headline": "Take the first step.",
+      "subheadline": "Tell us a little about your situation and we'll be in touch within one business day. No commitments. No hassle.",
+      "ctaPrimaryText": "Get Started Today",
+      "ctaPrimaryHref": "#contact"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "subtitle": "Email is the fastest way to reach us. We respond within one business day.",
+      "email": "hello@stoicfinch.com",
+      "address": "Calgary, Alberta, Canada",
+      "linkedin": "https://www.linkedin.com/company/stoicfinch/"
+    }
+  },
+
+  "founderPage": {
+    "seo": {
+      "title": "Founder — Stoic Finch",
+      "description": "Meet the founder of Stoic Finch — a Calgary-born data consultancy."
+    },
+    "hero": {
+      "headline": "The founder",
+      "subheadline": "Why Stoic Finch exists and what we're building.",
+      "ctaPrimaryText": "Get in touch",
+      "ctaPrimaryHref": "#contact"
+    },
+    "ourStory": {
+      "eyebrow": "Why Stoic Finch",
+      "title": "Set yourself up to be a market leader in data-driven value creation.",
+      "subtitle": "Most organizations hit the same three walls: their data is scattered, their team spends cycles figuring out 'the right version,' and engineering is backed up. Stoic Finch was built to solve all three — as one calm, senior team.",
+      "items": [
+        { "icon": "Target", "title": "One source of truth", "description": "Stop wasting cycles figuring out if this is the right version. We automate data versioning and sharing across your organization." },
+        { "icon": "Zap", "title": "Scale processing infinitely", "description": "Tailor a modern data platform to your needs — automated processing, built-in quality checks, batch and real-time." },
+        { "icon": "Users", "title": "Embedded experts", "description": "Free up your engineers to focus on the big problems. Give your stakeholders their own data team." }
+      ]
+    }
+  },
+
+  "industriesIndexPage": {
+    "seo": {
+      "title": "Industries we serve — Stoic Finch",
+      "description": "Stoic Finch partners with organizations across B2B SaaS, healthcare, financial services, manufacturing, and oil & gas."
+    },
+    "hero": {
+      "headline": "Industries we serve",
+      "subheadline": "Our consultants bring domain experience across five industries — each with distinct data patterns and regulatory contexts.",
+      "ctaPrimaryText": "Start a conversation",
+      "ctaPrimaryHref": "#contact"
+    },
+    "services": {
+      "title": "Five industries. Consistent delivery.",
+      "items": [
+        { "name": "B2B SaaS", "description": "Product analytics, revenue dashboards, activation funnels, customer-health models.", "category": "SaaS", "imageUrl": "" },
+        { "name": "Healthcare", "description": "Patient forecasting, capacity planning, HIPAA-aware analytics, outcomes measurement.", "category": "Health", "imageUrl": "" },
+        { "name": "Financial Services", "description": "Risk dashboards, credit scoring, regulatory reporting, portfolio analytics.", "category": "Finance", "imageUrl": "" },
+        { "name": "Manufacturing", "description": "OEE, supply-chain visibility, predictive maintenance, throughput analytics.", "category": "Industrial", "imageUrl": "" },
+        { "name": "Oil & Gas", "description": "Production dashboards, well-level analytics, HSE reporting, forecasting.", "category": "Energy", "imageUrl": "" }
+      ]
+    }
+  },
+
+  "faqPage": {
+    "seo": {
+      "title": "FAQ — Stoic Finch",
+      "description": "Common questions about engagements, pricing, team composition, tools and timelines."
+    },
+    "hero": {
+      "headline": "Frequently asked questions",
+      "subheadline": "Answers to the questions prospects ask us most often.",
+      "ctaPrimaryText": "Still curious? Get in touch",
+      "ctaPrimaryHref": "#contact"
+    },
+    "faq": {
+      "title": "Stoic Finch, in answers",
+      "items": [
+        { "question": "How do you typically engage?", "answer": "Three models: Consultation (1–4 weeks discovery + advisory), Development (project-based build with milestones), Ongoing Maintenance (monthly retainer for managed analytics/pipelines/models)." },
+        { "question": "What tools do you work with?", "answer": "Python, Power BI, Tableau, PostgreSQL, Pandas, Apache Spark, Delta Lake, Jupyter, Git — plus cloud-native stacks on Azure, AWS and GCP. We pick the tool that fits your existing ecosystem." },
+        { "question": "Where are you based?", "answer": "Born in Calgary, Alberta 🇨🇦. Delivered globally — most engagements are remote or hybrid, with on-site options for Calgary/Alberta clients." },
+        { "question": "Do you publish pricing?", "answer": "No — scope, seniority, and timeline vary too much. We quote per engagement after a free consultation. Typical engagements range from single-sprint discoveries to multi-quarter retainers." },
+        { "question": "What's the smallest engagement you take?", "answer": "A 1–2 week discovery is a common starting point. We use it to map your data landscape and agree on where to invest first." }
+      ]
+    },
+    "cta": {
+      "title": "Didn't see your question?",
+      "subtitle": "Get in touch — we respond within one business day.",
+      "email": "hello@stoicfinch.com"
+    }
+  },
+
   "footer": {
     "businessName": "Stoic Finch Corporation",
     "tagline": "Use your data like a pro.",
