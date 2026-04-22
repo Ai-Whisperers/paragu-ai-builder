@@ -25,6 +25,7 @@ import { ReviewList } from '@/components/commerce/review-list'
 import { ReviewForm } from '@/components/commerce/review-form'
 import { ReviewStars } from '@/components/commerce/review-stars'
 import { PdpStickyMobileCta } from '@/components/commerce/pdp-sticky-mobile-cta'
+import { PdpCareGuide } from '@/components/commerce/pdp-care-guide'
 import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { PdpViewTracker } from '@/components/commerce/pdp-view-tracker'
 import {
@@ -280,11 +281,10 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
 
           <ProductShare productName={product.name} productUrl={`${env.APP_URL}/s/${locale}/${site}/producto/${product.slug}`} />
 
-          <div className="mt-8 rounded-lg bg-[color:var(--surface,#fff)] p-4 text-sm text-[color:var(--text-muted,#6b7280)]">
-            <p>✓ Pago seguro</p>
-            <p>✓ Envío a todo el Paraguay</p>
-            <p>✓ Atención por WhatsApp</p>
-          </div>
+          {/* Care / sizing / shipping guide — three collapsible panels that
+              answer the questions a first-time buyer asks before adding to
+              cart. Adult-retail specific copy for sex_shop tenants. */}
+          <PdpCareGuide vertical={business.type === 'sex_shop' ? 'adult-retail' : 'generic'} />
         </div>
       </main>
 
