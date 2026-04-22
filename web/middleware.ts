@@ -73,6 +73,55 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
     return NextResponse.next()
   }
 
+  // Age-gate enforcement for adult-content tenants (fun4me, etc.).
+  //
+  // The old age-gate-section.tsx used localStorage and only rendered when
+  // mounted in a page.json — meaning a direct link to /s/es/fun4me/tienda
+  // (which doesn't mount the age-gate section) showed adult products to
+  // anyone. Middleware fixes that: we check a cookie here, before any
+  // page render, on every /s/<locale>/<site>/* path where the site has
+  // features.ageGate.enabled. The age-gate component now also writes that
+  // cookie so the localStorage + server cookie stay in sync.
+  const siteMatch = /^\/s\/([^/]+)\/([^/]+)(?:\/|$)/.exec(path)
+  if (siteMatch) {
+    const [, , siteSlug] = siteMatch
+    // Don't gate the age-gate page itself — that creates a redirect loop.
+    // The query param `?age_gate=1` signals we're already on the gate;
+    // check the search string on nextUrl, not the pathname (path variable
+    // doesn't carry query).
+    const searchStr = request.nextUrl.search || ''
+    const isAgeGatePage =
+      path.endsWith('/age-gate') ||
+      searchStr.includes('age_gate=1')
+    if (!isAgeGatePage) {
+      try {
+        const { loadSite } = await import('@/lib/engine/site-loader')
+        const site = loadSite(siteSlug) as {
+          settings?: { ageGate?: { enabled?: boolean; minAge?: number } }
+        }
+        const ageGateCfg = site?.settings?.ageGate
+        if (ageGateCfg?.enabled) {
+          const cookieName = `age_gated_${siteSlug}`
+          const gated = request.cookies.get(cookieName)?.value === 'yes'
+          if (!gated) {
+            // Redirect to the tenant home with ?age_gate=<return-path>.
+            // The home page already mounts the age-gate modal via its
+            // page.json; that modal now also writes the server cookie
+            // and then rewrites the URL back to `return`.
+            const locale = siteMatch[1]
+            const returnTo = encodeURIComponent(path + request.nextUrl.search)
+            const url = request.nextUrl.clone()
+            url.pathname = `/s/${locale}/${siteSlug}`
+            url.search = `?age_gate=1&return=${returnTo}`
+            return NextResponse.redirect(url, 307)
+          }
+        }
+      } catch {
+        // Unknown site slug — fall through; the inner route will 404.
+      }
+    }
+  }
+
   // Add request ID and pathname headers. Overwrite upstream correlation
   // headers with the canonical ones we just resolved so every downstream
   // hop sees the same traceId — even when the upstream sent a malformed

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
+import { CommerceChrome } from '@/components/commerce/commerce-chrome'
+import type { Locale } from '@/lib/i18n/config'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { CheckoutProgressIndicator } from '@/components/commerce/checkout-progress-indicator'
 import { CartPageClient } from '@/components/commerce/cart-page-client'
@@ -40,6 +42,7 @@ export default async function CartPage({ params }: { params: Promise<{ site: str
           </Link>
         </div>
       </main>
+      <CommerceChrome siteSlug={site} locale={locale as Locale} />
     </div>
   )
 }
