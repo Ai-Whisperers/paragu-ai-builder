@@ -43,7 +43,7 @@ function IconByName({ name, size = 28 }: { name?: string; size?: number }) {
   if (!name) return null
   const Icon = (Icons as unknown as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[name]
   if (!Icon) return null
-  return <Icon size={size} className="text-[var(--secondary-foreground)]" strokeWidth={2.25} />
+  return <Icon size={size} className="text-[var(--secondary-foreground)]" />
 }
 
 export function ProcessTimelineSection({

@@ -290,7 +290,7 @@ export function IntakeWizardSection({
       step: stepIdx + 1,
       stepKey: String(currentStepKey),
       answerKey: answers[currentStepKey] || '',
-      answerLabel: currentStep.options.find((o) => o.key === answers[currentStepKey])?.label || '',
+      answerLabel: currentStep!.options.find((o) => o.value === answers[currentStepKey])?.label || '',
       tenant: __siteSlug,
     })
     if (isLastStep) {

@@ -49,7 +49,7 @@ const TIMELINES = {
   },
 }
 
-const LABELS: Record<string, { eyebrow: string; title: string; subtitle: string; residency: string; documents: string; travel: string; minimum: string; maximum: string; milestones: string; travelRequired: string; disclaimer: string }> = {
+const LABELS: Record<string, { eyebrow: string; title: string; subtitle: string; residency: string; documents: string; documentsYes: string; documentsPartial: string; documentsNo: string; travel: string; minimum: string; maximum: string; milestones: string; travelRequired: string; disclaimer: string }> = {
   en: { eyebrow: 'Timeline', title: 'How long does it take?', subtitle: 'See realistic timeframes for each residency pathway. Your actual timeline depends on document readiness.', residency: 'Residency type', documents: 'Documents ready?', documentsYes: 'Yes, all ready', documentsPartial: 'Partially ready', documentsNo: 'No, need to get', travel: 'Currently in home country?', minimum: 'Minimum', maximum: 'Maximum', milestones: 'Key milestones', travelRequired: 'Travel required', disclaimer: 'Timelines are estimates based on typical cases. Peak seasons may add 1-2 weeks.' },
   es: { eyebrow: 'Cronograma', title: '¿Cuánto tiempo Toma?', subtitle: 'Vea los plazos realistas para cada vía de residencia. Su cronograma real depende de la documentación.', residency: 'Tipo de residencia', documents: '¿Documentos listos?', documentsYes: 'Sí, listos', documentsPartial: 'Parcialmente', documentsNo: 'No, necesito obtener', travel: '¿Actualmente en su país?', minimum: 'Mínimo', maximum: 'Máximo', milestones: 'Hitos clave', travelRequired: 'Viaje requerido', disclaimer: 'Los plazos son estimaciones. Temporadas pico pueden agregar 1-2 semanas.' },
   nl: { eyebrow: 'Tijdslijn', title: 'Hoe lang duurt het?', subtitle: 'Zie realistische tijdschemas voor elk immigratiepad. Uw eigen tijdlijn hangt af van documenten.', residency: 'Soort verblijf', documents: 'Documenten klaar?', documentsYes: 'Ja, allemaal', documentsPartial: 'Gedeeltelijk', documentsNo: 'Nee, moeten ophalen', travel: 'Nu in thuisland?', minimum: 'Minimaal', maximum: 'Maximaal', milestones: 'Belangrijke mijlpalen', travelRequired: 'Reis vereist', disclaimer: 'Tijdslijnen zijn schattingen. Piekseizoenen kunnen 1-2 weken toevoegen.' },
@@ -67,7 +67,7 @@ function formatMonths(n: number): string {
 }
 
 export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }: TimelineEstimatorProps) {
-  const L = LABELS[__locale] || LABELS.en
+  const L = LABELS[__locale as 'es' | 'en'] || LABELS.en
 
   const [residency, setResidency] = useState<keyof typeof TIMELINES>('temporary')
   const [documents, setDocuments] = useState<'yes' | 'partial' | 'no'>('partial')
@@ -113,9 +113,9 @@ export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }:
                   onChange={(e) => setResidency(e.target.value as typeof residency)}
                   className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
                 >
-                  <option value="temporary">{TIMELINES.temporary.name[__locale] || TIMELINES.temporary.name.en}</option>
-                  <option value="permanent">{TIMELINES.permanent.name[__locale] || TIMELINES.permanent.name.en}</option>
-                  <option value="suace">{TIMELINES.suace.name[__locale] || TIMELINES.suace.name.en}</option>
+                  <option value="temporary">{TIMELINES.temporary.name[__locale as 'es' | 'en'] || TIMELINES.temporary.name.en}</option>
+                  <option value="permanent">{TIMELINES.permanent.name[__locale as 'es' | 'en'] || TIMELINES.permanent.name.en}</option>
+                  <option value="suace">{TIMELINES.suace.name[__locale as 'es' | 'en'] || TIMELINES.suace.name.en}</option>
                 </select>
               </label>
 
@@ -165,7 +165,7 @@ export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }:
                 {timeline.steps.map((step, idx) => (
                   <div key={idx} className="flex items-center gap-3 text-sm">
                     <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--secondary)] text-xs font-bold text-white">{idx + 1}</div>
-                    <span className="flex-1 text-[var(--text)]">{step.name[__locale] || step.name.en}</span>
+                    <span className="flex-1 text-[var(--text)]">{step.name[__locale as 'es' | 'en'] || step.name.en}</span>
                     <span className="text-[var(--text-muted)]">{formatWeeks(step.weeks)}</span>
                   </div>
                 ))}

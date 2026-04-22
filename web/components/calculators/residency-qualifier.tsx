@@ -85,7 +85,7 @@ export function ResidencyQualifier({ eyebrow, title, subtitle, ctaHref = '#conta
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [showResult, setShowResult] = useState(false)
 
-  const L = LABELS[__locale] || LABELS.en
+  const L = LABELS[__locale as 'es' | 'en'] || LABELS.en
 
   const totalScore = Object.values(answers).reduce((a, b) => a + b, 0)
 
@@ -121,7 +121,7 @@ export function ResidencyQualifier({ eyebrow, title, subtitle, ctaHref = '#conta
               <p className="text-5xl font-bold text-[var(--primary)]">{totalScore}</p>
             </div>
             <div className="mb-8 rounded-xl bg-green-50 p-4">
-              <p className="text-lg font-semibold text-green-800">{recommendation.message[__locale] || recommendation.message.en}</p>
+              <p className="text-lg font-semibold text-green-800">{recommendation.message[__locale as 'es' | 'en'] || recommendation.message.en}</p>
             </div>
             <div className="space-y-4">
               <Button variant="primary" href={ctaHref} style={{ backgroundColor: 'var(--secondary)', color: '#ffffff' }} className="w-full">
@@ -152,12 +152,12 @@ export function ResidencyQualifier({ eyebrow, title, subtitle, ctaHref = '#conta
           <p className="mb-4 text-sm text-[var(--text-muted)]">
             {__locale === 'es' ? 'Pregunta' : __locale === 'de' ? 'Frage' : __locale === 'nl' ? 'Vraag' : 'Question'} {currentQuestion + 1}/{QUESTIONS.length}
           </p>
-          <h3 className="mb-6 text-xl font-semibold text-[var(--text)]">{currentQ.question[__locale] || currentQ.question.en}</h3>
+          <h3 className="mb-6 text-xl font-semibold text-[var(--text)]">{currentQ.question[__locale as 'es' | 'en'] || currentQ.question.en}</h3>
 
           <div className="space-y-3">
             {currentQ.options.map((opt, idx) => (
               <button key={idx} onClick={() => handleAnswer(currentQuestion, opt.score)} className="w-full rounded-lg border border-[var(--border)] bg-[var(--surface-light)] p-4 text-left transition-all hover:border-[var(--secondary)]">
-                <span className="text-[var(--text)]">{opt.label[__locale] || opt.label.en}</span>
+                <span className="text-[var(--text)]">{opt.label[__locale as 'es' | 'en'] || opt.label.en}</span>
               </button>
             ))}
           </div>

@@ -109,7 +109,7 @@ export function LeadCaptureModal({ calculatorName, results, title, subtitle, cta
         <Button
           type="submit"
           variant="primary"
-          loading={loading}
+          isLoading={loading}
           className="w-full"
           style={{ backgroundColor: 'var(--secondary)', color: '#ffffff' }}
         >

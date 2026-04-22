@@ -58,8 +58,8 @@ export function ComparisonTool({ eyebrow, title, subtitle, __locale = 'en' }: Co
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc')
 
   const sorted = [...DESTINATIONS].sort((a, b) => {
-    const aVal = (a as Record<string, unknown>)[sortKey] as number
-    const bVal = (b as Record<string, unknown>)[sortKey] as number
+    const aVal = (a as unknown as Record<string, unknown>)[sortKey] as number
+    const bVal = (b as unknown as Record<string, unknown>)[sortKey] as number
     return sortDir === 'asc' ? aVal - bVal : bVal - aVal
   })
 
@@ -89,7 +89,7 @@ export function ComparisonTool({ eyebrow, title, subtitle, __locale = 'en' }: Co
       case 'currency': return formatCurrency(value as number)
       case 'num': return formatNum(value as number)
       case 'index': return `${value}/10`
-      default: return value
+      default: return value == null ? '' : String(value)
     }
   }
 
@@ -120,7 +120,7 @@ export function ComparisonTool({ eyebrow, title, subtitle, __locale = 'en' }: Co
                   <td className="px-4 py-3 text-left text-sm font-medium text-[var(--text)]">{dest.name[__locale] || dest.name.en}</td>
                   {columns.map((col) => (
                     <td key={col.key} className="px-4 py-3 text-right text-sm text-[var(--text-light)]">
-                      {formatCell((dest as Record<string, unknown>)[col.key], col.format)}
+                      {formatCell((dest as unknown as Record<string, unknown>)[col.key], col.format)}
                     </td>
                   ))}
                 </tr>

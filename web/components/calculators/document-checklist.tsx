@@ -52,7 +52,7 @@ export function DocumentChecklist({ eyebrow, title, subtitle, __locale = 'en' }:
     return initial
   })
 
-  const L = LABELS[__locale] || LABELS.en
+  const L = LABELS[__locale as 'es' | 'en'] || LABELS.en
 
   const statusColors: Record<DocStatus, string> = {
     pending: 'bg-gray-100 text-gray-600',
@@ -73,7 +73,7 @@ export function DocumentChecklist({ eyebrow, title, subtitle, __locale = 'en' }:
   const readyCount = Object.values(docs).filter(s => s === 'ready' || s === 'submitted').length
   const progress = Math.round((readyCount / requiredDocs.length) * 100)
 
-  const SL = STATUS_LABELS[__locale] || STATUS_LABELS.en
+  const SL = STATUS_LABELS[__locale as 'es' | 'en'] || STATUS_LABELS.en
 
   return (
     <section className="bg-[var(--surface)] py-16 sm:py-24">
@@ -100,7 +100,7 @@ export function DocumentChecklist({ eyebrow, title, subtitle, __locale = 'en' }:
                   {(docs[doc.id] === 'ready' || docs[doc.id] === 'submitted') && '✓'}
                 </button>
                 <div className="flex-1">
-                  <p className="font-medium text-[var(--text)]">{doc.name[__locale] || doc.name.en}</p>
+                  <p className="font-medium text-[var(--text)]">{doc.name[__locale as 'es' | 'en'] || doc.name.en}</p>
                   <p className="text-xs text-[var(--text-muted)]">
                     {doc.legalization !== 'None' && `${doc.legalization} • `}{L.weeks}: {doc.weeks === 0 ? '1 day' : `${doc.weeks} weeks`}
                   </p>
