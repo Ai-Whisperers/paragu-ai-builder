@@ -6,6 +6,7 @@ import { getProductBySlug, listRelatedProducts } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CommerceChrome } from '@/components/commerce/commerce-chrome'
+import { TrustStrip } from '@/components/commerce/trust-strip'
 import type { Locale } from '@/lib/i18n/config'
 import { ProductImage } from '@/components/commerce/product-image'
 import { getSessionToken } from '@/lib/commerce/session'
@@ -245,6 +246,17 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
           <div id="pdp-main-add-to-cart" className="mt-6">
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
           </div>
+
+          <TrustStrip
+            variant="compact"
+            className="mt-4"
+            items={[
+              { icon: '📦', title: 'Envío discreto', description: 'Empaque neutro sin logos.' },
+              { icon: '🔒', title: 'Pago seguro', description: 'Tarjeta aparece como "F4M Comercial".' },
+              { icon: '⚡', title: 'Entrega 24-48h', description: 'Asunción y GBA.' },
+              { icon: '↩️', title: 'Cambios 7 días', description: 'Sin abrir, por talle o defecto.' },
+            ]}
+          />
 
           {product.inventoryPolicy === 'deny' && product.inventoryQty === 0 ? (
             <div className="mt-4">

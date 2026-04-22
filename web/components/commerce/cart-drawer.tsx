@@ -159,6 +159,13 @@ export function CartDrawer({ siteSlug, locale, open, onClose }: Props) {
             <p className="mt-2 text-center text-xs text-[color:var(--text-muted,#6b7280)]">
               Envío y totales se calculan en el siguiente paso
             </p>
+            <div className="mt-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-[11px] text-[color:var(--text-muted,#6b7280)]">
+              <span>📦 Empaque discreto</span>
+              <span aria-hidden>·</span>
+              <span>🔒 Pago seguro</span>
+              <span aria-hidden>·</span>
+              <span>↩️ Cambios 7 días</span>
+            </div>
           </footer>
         ) : null}
       </aside>
