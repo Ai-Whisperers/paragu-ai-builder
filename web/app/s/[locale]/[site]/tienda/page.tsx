@@ -237,6 +237,16 @@ export default async function StorePage({
 
         <TrustStrip variant="prominent" />
 
+        {products.length > 0 && products.every((p) => p.isSeed) && process.env.NODE_ENV !== 'production' ? (
+          <aside
+            role="note"
+            aria-label="Aviso para administradores"
+            className="mb-4 rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-xs text-amber-900"
+          >
+            <strong className="font-semibold">⚠ Catálogo demo.</strong> Todos los productos son de ejemplo — cargar fotos reales y marcar <code className="rounded bg-amber-100 px-1">isSeed=false</code> antes del tráfico pago.
+          </aside>
+        ) : null}
+
         <TiendaQuickFilters />
         {!search && popularQueries.length > 0 ? (
           <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
