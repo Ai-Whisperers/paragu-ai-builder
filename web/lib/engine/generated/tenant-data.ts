@@ -18692,43 +18692,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "author": "Maria L.",
             "location": "Asuncion",
+            "quote": "Llevaba anos con verguenza de entrar a un sex shop. En Fun4Me me senti comoda desde el primer momento. La atencion fue super profesional y me ayudaron a encontrar exactamente lo que buscaba sin hacerme sentir juzgada.",
             "rating": 5,
-            "text": "Llevaba anos con verguenza de entrar a un sex shop. En Fun4Me me senti comoda desde el primer momento. La atencion fue super profesional y me ayudaron a encontrar exactamente lo que buscaba sin hacerme sentir juzgada.",
             "verified": true
           },
           {
             "author": "Mariana T.",
             "location": "Encarnacion",
+            "quote": "Vivo en el interior y el envio fue super rapido y discreto. El paquete llego perfecto, sin ninguna indicacion de que era. 10/10 por la discrecion.",
             "rating": 5,
-            "text": "Vivo en el interior y el envio fue super rapido y discreto. El paquete llego perfecto, sin ninguna indicacion de que era. 10/10 por la discrecion.",
             "verified": true
           },
           {
             "author": "Lucas A.",
             "location": "Ciudad del Este",
+            "quote": "Compre un vibrador como regalo para mi pareja. La asesoria online fue excelente, me explicaron todo sobre el uso. El producto supero todas mis expectativas.",
             "rating": 5,
-            "text": "Compre un vibrador como regalo para mi pareja. La asesoria online fue excelente, me explicaron todo sobre el uso. El producto supero todas mis expectativas.",
             "verified": true
           },
           {
             "author": "Camila R.",
             "location": "Lambare",
+            "quote": "El Satisfyer Pro 2 cambio mi vida. Y lo mejor es que aca te explican como usarlo bien, no como en otras tiendas que te tiran el producto y chau.",
             "rating": 5,
-            "text": "El Satisfyer Pro 2 cambio mi vida. Y lo mejor es que aca te explican como usarlo bien, no como en otras tiendas que te tiran el producto y chau.",
             "verified": true
           },
           {
             "author": "Diego V.",
             "location": "Asuncion",
+            "quote": "Excelente variedad de productos y precios accesibles. El delivery llego al dia siguiente y todo muy bien empacado. Definitivamente vuelvo a comprar.",
             "rating": 5,
-            "text": "Excelente variedad de productos y precios accesibles. El delivery llego al dia siguiente y todo muy bien empacado. Definitivamente vuelvo a comprar.",
             "verified": true
           },
           {
             "author": "Ana P.",
             "location": "Fernando de la Mora",
+            "quote": "Primera vez comprando en una tienda asi y la experiencia fue genial. Sin presiones, respuestas claras a todas mis preguntas. Muy recomendado.",
             "rating": 5,
-            "text": "Primera vez comprando en una tienda asi y la experiencia fue genial. Sin presiones, respuestas claras a todas mis preguntas. Muy recomendado.",
             "verified": true
           }
         ],
@@ -19545,22 +19545,22 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "author": "Carla B.",
             "location": "Asuncion",
+            "quote": "Llevo 6 meses con Premium. Cada caja es una sorpresa y siempre acertada. No me arrepiento.",
             "rating": 5,
-            "text": "Llevo 6 meses con Premium. Cada caja es una sorpresa y siempre acertada. No me arrepiento.",
             "verified": true
           },
           {
             "author": "Luis P.",
             "location": "Ciudad del Este",
+            "quote": "VIP vale la pena si sos fan de la calidad. La consulta previa hace toda la diferencia.",
             "rating": 5,
-            "text": "VIP vale la pena si sos fan de la calidad. La consulta previa hace toda la diferencia.",
             "verified": true
           },
           {
             "author": "Florencia R.",
             "location": "Lambare",
+            "quote": "Discovery es perfecta para empezar. No gastas mucho y descubris lo que te gusta.",
             "rating": 5,
-            "text": "Discovery es perfecta para empezar. No gastas mucho y descubris lo que te gusta.",
             "verified": true
           }
         ],
