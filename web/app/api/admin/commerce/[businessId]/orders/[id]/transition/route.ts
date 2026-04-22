@@ -5,6 +5,7 @@ import { transitionStatus, CheckoutError, getOrder } from '@/lib/commerce/orders
 import { OrderStatusSchema } from '@/lib/schemas/commerce/order'
 import { requireAdminUser } from '@/lib/commerce/admin-auth'
 import { enqueueOrderEmail } from '@/lib/commerce/notifications'
+import { recordOrderEvent } from '@/lib/commerce/order-events'
 import { createAdminClient } from '@/lib/supabase/admin'
 
 export const runtime = 'nodejs'
@@ -46,6 +47,14 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(async (re
   try {
     await transitionStatus(businessId, id, parsed.data.status, { tracking: parsed.data.tracking })
     log.info('admin.commerce.order.transitioned', { businessId, orderId: id, status: parsed.data.status })
+    await recordOrderEvent({
+      businessId,
+      orderId: id,
+      eventType: 'status_changed',
+      actorId: admin.id,
+      actorLabel: admin.email ?? null,
+      toStatus: parsed.data.status,
+    })
   } catch (err) {
     if (err instanceof CheckoutError) {
       const status = err.code === 'order_not_found' ? 404 : 409

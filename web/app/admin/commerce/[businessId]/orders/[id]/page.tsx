@@ -5,6 +5,8 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 import { OrderActions } from '@/components/admin/commerce/order-actions'
 import { OrderRefundButton } from '@/components/admin/commerce/order-refund-button'
 import { ComprobanteViewer } from '@/components/admin/commerce/comprobante-viewer'
+import { OrderTimeline } from '@/components/admin/commerce/order-timeline'
+import { listOrderEvents } from '@/lib/commerce/order-events'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -12,8 +14,10 @@ export const dynamic = 'force-dynamic'
 export default async function AdminOrderDetail({ params }: { params: Promise<{ businessId: string; id: string }> }) {
   const { businessId, id } = await params
   let order
+  let events: Awaited<ReturnType<typeof listOrderEvents>> = []
   try {
     order = await getOrder(businessId, id)
+    events = await listOrderEvents(businessId, id)
   } catch (err) {
     if (err instanceof CheckoutError && err.code === 'order_not_found') notFound()
     throw err
@@ -132,6 +136,10 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
           </div>
         </section>
 
+        <section className="mb-6">
+          <h2 className="mb-3 text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Historial</h2>
+          <OrderTimeline events={events} />
+        </section>
         <OrderActions businessId={businessId} orderId={order.id} currentStatus={order.status} />
         <OrderRefundButton businessId={businessId} orderId={order.id} currentStatus={order.status} />
       </div>

@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { recordOrderEvent } from '@/lib/commerce/order-events'
 
 export const runtime = 'nodejs'
 
@@ -54,6 +55,15 @@ export const POST = withRequestLog<{ site: string; id: string }>(
     // comprobante was already stamped. Both map to a 200 OK — the
     // customer clicked the button, their intent is recorded either
     // way, no reason to surface "already did that" as an error.
+    if (updated) {
+      await recordOrderEvent({
+        businessId: business.id,
+        orderId: id,
+        eventType: 'comprobante_received',
+        actorLabel: 'Cliente',
+        note: parsed.data.note ?? null,
+      })
+    }
     log.info('commerce.comprobante_sent.recorded', {
       orderId: id,
       orderNumber: updated?.order_number,

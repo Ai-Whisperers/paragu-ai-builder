@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { recordOrderEvent } from '@/lib/commerce/order-events'
 
 export const runtime = 'nodejs'
 
@@ -86,6 +87,13 @@ export const POST = withRequestLog<{ site: string; id: string }>(
       // can recover via the storage path if needed. Logging is enough.
     }
 
+    await recordOrderEvent({
+      businessId: business.id,
+      orderId: id,
+      eventType: 'comprobante_uploaded',
+      actorLabel: 'Cliente',
+      metadata: { size: file.size, mime: file.type },
+    })
     log.info('commerce.comprobante_upload.ok', {
       orderId: id,
       orderNumber: order.order_number,

@@ -107,7 +107,16 @@ export default async function AdminOrdersPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
-      <h1 className="mb-6 text-2xl font-bold">Órdenes</h1>
+      <div className="mb-6 flex items-center justify-between">
+        <h1 className="text-2xl font-bold">Órdenes</h1>
+        <a
+          href={`/api/admin/commerce/${businessId}/orders/export`}
+          className="rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+          download
+        >
+          📥 Exportar CSV
+        </a>
+      </div>
 
       <form className="mb-4 flex flex-wrap gap-2">
         <input
