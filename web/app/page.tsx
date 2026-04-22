@@ -9,6 +9,7 @@ import {
   Menu, X as XIcon, PlayCircle,
   UtensilsCrossed, Fish, CircleDot,
   RotateCcw, Activity, Unlock,
+  Egg, Building2, BarChart3,
   type LucideIcon,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -216,7 +217,10 @@ const TEMPLATES: Template[] = [
   { id: 'pestanas', name: 'Pestañas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
   { id: 'depilacion', name: 'Depilación', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
   { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexa-paraguay' },
+  { id: 'real_estate', name: 'Inmobiliaria', icon: Building2, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: 'nexa-propiedades' },
   { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
+  { id: 'egg_farm', name: 'Granja / Huevos', icon: Egg, leads: 0, pct: 0, color: '#c89b3c', demoSlug: 'granja-cabral' },
+  { id: 'data_analytics_consulting', name: 'Consultoría Datos', icon: BarChart3, leads: 0, pct: 0, color: '#0f4c81', demoSlug: 'stoicfinch' },
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
   { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3', demoSlug: 'kaiten-express' },
@@ -299,6 +303,20 @@ const REAL_CLIENTS = [
     vertical: 'Comida · pedidos WhatsApp',
     href: '/de-abasto-a-casa',
     color: '#3a6b4a',
+  },
+  {
+    name: 'Granja Cabral',
+    tagline: 'Huevos frescos de granja',
+    vertical: 'Agro · mayorista + recetas',
+    href: '/s/es/granja-cabral',
+    color: '#c89b3c',
+  },
+  {
+    name: 'Stoic Finch',
+    tagline: 'Consultoría de datos boutique',
+    vertical: 'Canadá · EN',
+    href: '/s/en/stoicfinch',
+    color: '#0f4c81',
   },
 ]
 
