@@ -31508,7 +31508,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "whatsapp": ""
       },
       "hero": {
-        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryHref": "/s/en/stoicfinch/contact",
         "ctaPrimaryText": "Get Started Today",
         "headline": "About Stoic Finch",
         "subheadline": "Born in Calgary 🍁  Inspired by the Rockies 🏔  Delivered Globally 🌎"
@@ -31564,7 +31564,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Get in touch"
       },
       "hero": {
-        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryHref": "/s/en/stoicfinch/contact",
         "ctaPrimaryText": "Get Started Today",
         "headline": "Take the first step.",
         "subheadline": "Tell us a little about your situation and we'll be in touch within one business day. No commitments. No hassle."
@@ -31606,7 +31606,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Stoic Finch, in answers"
       },
       "hero": {
-        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryHref": "/s/en/stoicfinch/contact",
         "ctaPrimaryText": "Still curious? Get in touch",
         "headline": "Frequently asked questions",
         "subheadline": "Answers to the questions prospects ask us most often."
@@ -31623,23 +31623,23 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "links": [
             {
-              "href": "#services",
+              "href": "/s/en/stoicfinch/pricing",
               "label": "Reports & Dashboarding"
             },
             {
-              "href": "#services",
+              "href": "/s/en/stoicfinch/pricing",
               "label": "Data Analysis"
             },
             {
-              "href": "#services",
+              "href": "/s/en/stoicfinch/pricing",
               "label": "Data Science"
             },
             {
-              "href": "#services",
+              "href": "/s/en/stoicfinch/pricing",
               "label": "Data Engineering"
             },
             {
-              "href": "#services",
+              "href": "/s/en/stoicfinch/pricing",
               "label": "Data Strategy"
             }
           ],
@@ -31648,15 +31648,15 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "links": [
             {
-              "href": "#about",
+              "href": "/s/en/stoicfinch/about",
               "label": "About"
             },
             {
-              "href": "#benefits",
+              "href": "/s/en/stoicfinch/about",
               "label": "Benefits"
             },
             {
-              "href": "#contact",
+              "href": "/s/en/stoicfinch/contact",
               "label": "Get Started"
             }
           ],
@@ -31678,7 +31678,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "founderPage": {
       "hero": {
-        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryHref": "/s/en/stoicfinch/contact",
         "ctaPrimaryText": "Get in touch",
         "headline": "The founder",
         "subheadline": "Why Stoic Finch exists and what we're building."
@@ -31774,9 +31774,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Take the first step. Level up your data."
       },
       "hero": {
-        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryHref": "/s/en/stoicfinch/contact",
         "ctaPrimaryText": "Get Started Today",
-        "ctaSecondaryHref": "#contact",
+        "ctaSecondaryHref": "/s/en/stoicfinch/contact",
         "ctaSecondaryText": "Take the First Step",
         "headline": "Use your data like a pro.",
         "subheadline": "The data you need to stay ahead. By experts you can trust.",
@@ -31792,7 +31792,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Stoic Finch Corporation — Use your data like a pro"
       },
       "seriousCta": {
-        "ctaHref": "#contact",
+        "ctaHref": "/s/en/stoicfinch/contact",
         "ctaText": "Take the First Step",
         "eyebrow": "Where it gets serious",
         "highlights": [
@@ -31984,7 +31984,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "industriesIndexPage": {
       "hero": {
-        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryHref": "/s/en/stoicfinch/contact",
         "ctaPrimaryText": "Start a conversation",
         "headline": "Industries we serve",
         "subheadline": "Our consultants bring domain experience across five industries — each with distinct data patterns and regulatory contexts."
@@ -32031,24 +32031,32 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "navigation": {
       "businessName": "Stoic Finch",
-      "ctaHref": "#contact",
+      "ctaHref": "/s/en/stoicfinch/contact",
       "ctaText": "Get Started",
-      "items": [
+      "navItems": [
         {
-          "href": "#about",
+          "href": "/s/en/stoicfinch/about",
           "label": "About"
         },
         {
-          "href": "#benefits",
-          "label": "Benefits"
-        },
-        {
-          "href": "#services",
+          "href": "/s/en/stoicfinch/pricing",
           "label": "Services"
         },
         {
-          "href": "#contact",
-          "label": "Get Started"
+          "href": "/s/en/stoicfinch/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/s/en/stoicfinch/case-studies",
+          "label": "Case Studies"
+        },
+        {
+          "href": "/s/en/stoicfinch/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/s/en/stoicfinch/faq",
+          "label": "FAQ"
         }
       ]
     },
