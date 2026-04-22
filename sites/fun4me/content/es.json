@@ -762,13 +762,36 @@
     }
   },
   "footer": {
+    "businessName": "Fun4Me",
+    "city": "Asunción, Paraguay",
+    "address": "Herrera 875",
+    "phone": "+595976569739",
+    "whatsapp": "+595976569739",
+    "email": "hola@fun4me.com.py",
+    "instagram": "@fun4me_store",
+    "facebook": "FUN4MEStore",
+    "navLinks": [
+      { "label": "Tienda", "href": "/s/es/fun4me/tienda" },
+      { "label": "Ayudame a elegir", "href": "/s/es/fun4me/quiz" },
+      { "label": "Suscripciones", "href": "/s/es/fun4me/suscripciones" },
+      { "label": "Bundles y kits", "href": "/s/es/fun4me/bundles" },
+      { "label": "Gift cards", "href": "/s/es/fun4me/gift-cards" },
+      { "label": "Placer Plus", "href": "/s/es/fun4me/placer-plus" },
+      { "label": "Quiénes somos", "href": "/s/es/fun4me/quienes-somos" },
+      { "label": "Blog", "href": "/s/es/fun4me/blog" },
+      { "label": "Reserva en tienda", "href": "/s/es/fun4me/reserva-en-tienda" },
+      { "label": "Guía de talles", "href": "/s/es/fun4me/size-guide" },
+      { "label": "Preguntas frecuentes", "href": "/s/es/fun4me/legal#faq" },
+      { "label": "Privacidad", "href": "/s/es/fun4me/legal" },
+      { "label": "Términos", "href": "/s/es/fun4me/legal" }
+    ],
     "rights": "Todos los derechos reservados.",
-    "privacy": "Politica de Privacidad",
-    "privacyHref": "/fun4me/legal",
-    "terms": "Terminos y Condiciones",
-    "termsHref": "/fun4me/legal",
-    "legalText": "Solo mayores de 18 anos.",
-    "legalHref": "/fun4me/legal"
+    "privacy": "Política de Privacidad",
+    "privacyHref": "/s/es/fun4me/legal",
+    "terms": "Términos y Condiciones",
+    "termsHref": "/s/es/fun4me/legal",
+    "legalText": "Solo mayores de 18 años. Empaque y facturación discretos. Datos cifrados.",
+    "legalHref": "/s/es/fun4me/legal"
   },
   "whatsapp": {
     "message": "Hola! Quiero consultar sobre un producto.",
