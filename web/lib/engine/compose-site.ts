@@ -49,7 +49,18 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
   const start = performance.now()
   const baseContext = { action: 'composeSitePage', siteSlug, locale, pageSlug }
 
-  const site: SiteDefinition = loadSite(siteSlug)
+  // Per-step timing. Emitted in the final log object as `steps: {...}`
+  // so we can spot the slow step when overall composeSitePage time is
+  // outside the budget. Resets on every call; no global state.
+  const stepTimings: Record<string, number> = {}
+  const step = <T,>(name: string, fn: () => T): T => {
+    const t = performance.now()
+    const result = fn()
+    stepTimings[name] = Math.round(performance.now() - t)
+    return result
+  }
+
+  const site: SiteDefinition = step('loadSite', () => loadSite(siteSlug))
 
   if (!site.locales.includes(locale)) {
     logger.error('Site composition: locale not enabled', {
@@ -61,16 +72,16 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     )
   }
 
-  const page: PageDefinition | null = loadPage(siteSlug, pageSlug)
+  const page: PageDefinition | null = step('loadPage', () => loadPage(siteSlug, pageSlug))
   if (!page) {
     logger.error('Site composition: page not found', baseContext)
     throw new Error(`[compose-site] Page "${pageSlug}" not found for site "${siteSlug}"`)
   }
 
-  const siteContent = loadSiteContent(siteSlug, locale)
-  const verticalCopy = loadVerticalCopy(site.vertical, locale)
-  const vertical = loadVertical(site.vertical)
-  const imagesManifest = loadImagesManifest(siteSlug)
+  const siteContent = step('loadSiteContent', () => loadSiteContent(siteSlug, locale))
+  const verticalCopy = step('loadVerticalCopy', () => loadVerticalCopy(site.vertical, locale))
+  const vertical = step('loadVertical', () => loadVertical(site.vertical))
+  const imagesManifest = step('loadImagesManifest', () => loadImagesManifest(siteSlug))
 
   const placeholders = {
     siteName: (siteContent.siteName as string) || site.slug,
@@ -81,6 +92,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
 
   const copyCtx = { siteContent, verticalCopy, placeholders, images: imagesManifest, locale }
 
+  const sectionsStart = performance.now()
   const resolvedSections = page.sections
     .filter((s) => shouldInclude(s.enabledWhen, site.features))
     .map((s) => {
@@ -167,17 +179,23 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     }
   }
 
+  stepTimings.sectionsLoop = Math.round(performance.now() - sectionsStart)
+
   const title = resolveMeta(page.titleKey, copyCtx) || (siteContent.siteName as string) || site.slug
   const description = resolveMeta(page.descriptionKey, copyCtx) || ''
   const path = pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug
-  const tokens = resolveSiteTokens(site.vertical, siteSlug)
+  const tokens = step('resolveSiteTokens', () => resolveSiteTokens(site.vertical, siteSlug))
 
   const duration = Math.round(performance.now() - start)
+  // Per-step timings included alongside total. When one tenant is slow
+  // (e.g. nexa-paraguay at 10s LCP vs ~3s for other tenants) this tells
+  // us WHICH step is responsible without needing a server profiler.
   logger.info('Site composition completed', {
     ...baseContext,
     vertical: site.vertical,
     sectionCount: resolvedSections.length,
     durationMs: duration,
+    steps: stepTimings,
   })
   metrics.timing('compose.duration', duration, {
     siteSlug,
