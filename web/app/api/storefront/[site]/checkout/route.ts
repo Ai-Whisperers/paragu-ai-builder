@@ -19,6 +19,7 @@ import {
   enqueueAdminNewOrderEmail,
   resolveAdminEmail,
 } from '@/lib/commerce/notifications'
+import { recordCommerceFunnelEvent } from '@/lib/commerce/funnel'
 
 // Extend the base CheckoutInputSchema to optionally accept a discountCode.
 // The code is validated server-side against discounts table — never trust
@@ -114,6 +115,13 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   }
 
   const order = await getOrder(business.id, orderId)
+  void recordCommerceFunnelEvent({
+    businessId: business.id,
+    eventType: 'order_created',
+    orderId: order.id,
+    amountCents: order.totalCents,
+    currency: order.currency,
+  })
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
 

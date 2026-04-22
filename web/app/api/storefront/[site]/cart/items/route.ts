@@ -4,6 +4,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { ensureSessionToken } from '@/lib/commerce/session'
 import { getOrCreateCart, addItem } from '@/lib/commerce/cart'
 import { AddToCartSchema } from '@/lib/schemas/commerce/cart'
+import { recordCommerceFunnelEvent } from '@/lib/commerce/funnel'
 
 export const runtime = 'nodejs'
 
@@ -28,6 +29,14 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   try {
     const updated = await addItem(business.id, cart.id, parsed.data.productId, parsed.data.quantity)
     log.info('commerce.cart.item_added', { siteSlug: site, productId: parsed.data.productId })
+    void recordCommerceFunnelEvent({
+      businessId: business.id,
+      eventType: 'cart_item_added',
+      sessionToken,
+      cartId: cart.id,
+      productId: parsed.data.productId,
+      quantity: parsed.data.quantity,
+    })
     return NextResponse.json({ cart: updated })
   } catch (err) {
     const code = err instanceof Error ? err.message : 'add_item_failed'
