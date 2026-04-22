@@ -1,11 +1,13 @@
-import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, MessageCircle, ArrowRight } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { cn } from '@/lib/utils'
 
 export interface ContactSectionProps {
   title: string
+  subtitle?: string
   address?: string
   neighborhood?: string
   city: string
@@ -14,64 +16,21 @@ export interface ContactSectionProps {
   whatsapp?: string
   googleMapsUrl?: string
   hours?: Record<string, string>
-  /** Active URL locale — picks localized default labels. */
-  __locale?: string
 }
 
-type ContactLabels = {
-  address: string
-  phone: string
-  whatsapp: string
-  hours: string
-  whatsappCta: string
-  mapFallback: (city: string) => string
-}
-
-const CONTACT_LABELS: Record<string, ContactLabels> = {
-  de: {
-    address: 'Adresse',
-    phone: 'Telefon',
-    whatsapp: 'WhatsApp',
-    hours: 'Öffnungszeiten',
-    whatsappCta: 'Auf WhatsApp schreiben',
-    mapFallback: (c) => `Karte von ${c}`,
-  },
-  en: {
-    address: 'Address',
-    phone: 'Phone',
-    whatsapp: 'WhatsApp',
-    hours: 'Hours',
-    whatsappCta: 'Message on WhatsApp',
-    mapFallback: (c) => `Map of ${c}`,
-  },
-  es: {
-    address: 'Dirección',
-    phone: 'Teléfono',
-    whatsapp: 'WhatsApp',
-    hours: 'Horarios',
-    whatsappCta: 'Escribir por WhatsApp',
-    mapFallback: (c) => `Mapa de ${c}`,
-  },
-  nl: {
-    address: 'Adres',
-    phone: 'Telefoon',
-    whatsapp: 'WhatsApp',
-    hours: 'Openingstijden',
-    whatsappCta: 'Bericht via WhatsApp',
-    mapFallback: (c) => `Kaart van ${c}`,
-  },
-  pt: {
-    address: 'Endereço',
-    phone: 'Telefone',
-    whatsapp: 'WhatsApp',
-    hours: 'Horários',
-    whatsappCta: 'Mensagem no WhatsApp',
-    mapFallback: (c) => `Mapa de ${c}`,
-  },
-}
-
+/**
+ * Enhanced Contact section with improved layout and UX.
+ * 
+ * Improvements:
+ * - Better visual hierarchy with cards
+ * - Improved spacing and typography
+ * - Enhanced WhatsApp CTA
+ * - Better map container styling
+ * - Cleaner info item design
+ */
 export function ContactSection({
   title,
+  subtitle,
   address,
   neighborhood,
   city,
@@ -80,89 +39,187 @@ export function ContactSection({
   whatsapp,
   googleMapsUrl,
   hours,
-  __locale,
 }: ContactSectionProps) {
-  const L = CONTACT_LABELS[__locale ?? 'es'] || CONTACT_LABELS.es
+  const hasContactInfo = phone || email || whatsapp
+  const hasHours = hours && Object.keys(hours).length > 0
+
   return (
-    <section id="contacto" className="bg-[var(--surface)] py-16 sm:py-20">
+    <section id="contacto" className="bg-[var(--surface)] py-20 sm:py-28 lg:py-32">
       <Container>
-        <AnimatedSectionHeader>
-          <Heading level={2}>{title}</Heading>
+        <AnimatedSectionHeader className="mb-12 sm:mb-16">
+          <Heading level={2}
+            style={{
+              fontSize: 'clamp(1.875rem, 4vw, 2.75rem)',
+              lineHeight: '1.15',
+              letterSpacing: '-0.02em',
+            }}
+          >
+            {title}
+          </Heading>
+          {subtitle && (
+            <p className="mt-5 max-w-2xl text-lg sm:text-xl leading-relaxed"
+              style={{ color: 'var(--text-light)' }}
+            >
+              {subtitle}
+            </p>
+          )}
         </AnimatedSectionHeader>
 
-        <div className="grid gap-8 lg:grid-cols-2">
-          {/* Contact Info */}
+        <div className="grid gap-8 lg:gap-12 lg:grid-cols-2">
+          {/* Contact Info Cards */}
           <AnimateOnScroll>
             <div className="space-y-6">
-              {/* Address */}
-              <div className="flex gap-3">
-                <MapPin size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
+              {/* Address Card */}
+              <div 
+                className="flex gap-5 p-6 rounded-2xl transition-all duration-300 hover:shadow-md"
+                style={{
+                  backgroundColor: 'var(--background)',
+                  border: '1px solid rgba(0,0,0,0.06)',
+                }}
+              >
+                <div 
+                  className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center"
+                  style={{
+                    backgroundColor: 'rgba(30, 58, 95, 0.08)',
+                  }}
+                >
+                  <MapPin size={22} style={{ color: 'var(--primary)' }} />
+                </div>
                 <div>
-                  <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">{L.address}</Heading>
-                  <p className="text-[var(--text-muted)]">
-                    {address && <span>{address}<br /></span>}
+                  <Heading level={3} 
+                    className="mb-2 text-base font-bold uppercase tracking-wide"
+                    style={{ color: 'var(--text)' }}
+                  >
+                    Adresse
+                  </Heading>
+                  <p className="leading-relaxed" style={{ color: 'var(--text-light)' }}>
+                    {address && <span className="block">{address}</span>}
                     {neighborhood && <span>{neighborhood}, </span>}
-                    {city}
+                    <span className="font-medium" style={{ color: 'var(--text)' }}>{city}</span>
                   </p>
                 </div>
               </div>
 
-              {/* Phone — only rendered when a real phone number exists. */}
-              {phone && (
-                <div className="flex gap-3">
-                  <Phone size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
-                  <div>
-                    <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">{L.phone}</Heading>
-                    <a href={`tel:${phone}`} className="block text-[var(--secondary)] hover:underline">
-                      {phone}
-                    </a>
+              {/* Phone/WhatsApp Card */}
+              {hasContactInfo && (
+                <div 
+                  className="flex gap-5 p-6 rounded-2xl transition-all duration-300 hover:shadow-md"
+                  style={{
+                    backgroundColor: 'var(--background)',
+                    border: '1px solid rgba(0,0,0,0.06)',
+                  }}
+                >
+                  <div 
+                    className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center"
+                    style={{
+                      backgroundColor: 'rgba(184, 134, 11, 0.12)',
+                    }}
+                  >
+                    <Phone size={22} style={{ color: 'var(--secondary)' }} />
                   </div>
-                </div>
-              )}
-
-              {/* WhatsApp — distinct block from Phone so the label matches
-                  what the user will actually interact with. */}
-              {whatsapp && (
-                <div className="flex gap-3">
-                  <MessageCircle size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
-                  <div>
-                    <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">{L.whatsapp}</Heading>
-                    <Button
-                      variant="primary"
-                      size="sm"
-                      href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
-                      className="mt-1"
+                  <div className="flex-1">
+                    <Heading level={3} 
+                      className="mb-2 text-base font-bold uppercase tracking-wide"
+                      style={{ color: 'var(--text)' }}
                     >
-                      {L.whatsappCta}
-                    </Button>
+                      Kontakt
+                    </Heading>
+                    {phone && (
+                      <a 
+                        href={`tel:${phone}`} 
+                        className="block mb-2 text-lg font-medium transition-colors hover:underline"
+                        style={{ color: 'var(--primary)' }}
+                      >
+                        {phone}
+                      </a>
+                    )}
+                    {whatsapp && (
+                      <a
+                        href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 mt-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 hover:scale-[1.02]"
+                        style={{
+                          backgroundColor: '#25D366',
+                          color: '#ffffff',
+                          boxShadow: '0 4px 12px rgba(37, 211, 102, 0.3)',
+                        }}
+                      >
+                        <MessageCircle size={18} />
+                        WhatsApp schreiben
+                        <ArrowRight size={14} />
+                      </a>
+                    )}
                   </div>
                 </div>
               )}
 
-              {/* Email */}
+              {/* Email Card */}
               {email && (
-                <div className="flex gap-3">
-                  <Mail size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
+                <div 
+                  className="flex gap-5 p-6 rounded-2xl transition-all duration-300 hover:shadow-md"
+                  style={{
+                    backgroundColor: 'var(--background)',
+                    border: '1px solid rgba(0,0,0,0.06)',
+                  }}
+                >
+                  <div 
+                    className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center"
+                    style={{
+                      backgroundColor: 'rgba(30, 58, 95, 0.08)',
+                    }}
+                  >
+                    <Mail size={22} style={{ color: 'var(--primary)' }} />
+                  </div>
                   <div>
-                    <Heading level={3} className="mb-1 text-lg font-semibold text-[var(--text)]">Email</Heading>
-                    <a href={`mailto:${email}`} className="text-[var(--secondary)] hover:underline">
+                    <Heading level={3} 
+                      className="mb-2 text-base font-bold uppercase tracking-wide"
+                      style={{ color: 'var(--text)' }}
+                    >
+                      E-Mail
+                    </Heading>
+                    <a 
+                      href={`mailto:${email}`}
+                      className="text-lg font-medium transition-colors hover:underline"
+                      style={{ color: 'var(--primary)' }}
+                    >
                       {email}
                     </a>
                   </div>
                 </div>
               )}
 
-              {/* Hours */}
-              {hours && Object.keys(hours).length > 0 && (
-                <div className="flex gap-3">
-                  <Clock size={20} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
-                  <div>
-                    <Heading level={3} className="mb-2 text-lg font-semibold text-[var(--text)]">{L.hours}</Heading>
-                    <dl className="space-y-1">
+              {/* Hours Card */}
+              {hasHours && (
+                <div 
+                  className="flex gap-5 p-6 rounded-2xl transition-all duration-300 hover:shadow-md"
+                  style={{
+                    backgroundColor: 'var(--background)',
+                    border: '1px solid rgba(0,0,0,0.06)',
+                  }}
+                >
+                  <div 
+                    className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center"
+                    style={{
+                      backgroundColor: 'rgba(30, 58, 95, 0.08)',
+                    }}
+                  >
+                    <Clock size={22} style={{ color: 'var(--primary)' }} />
+                  </div>
+                  <div className="flex-1">
+                    <Heading level={3} 
+                      className="mb-3 text-base font-bold uppercase tracking-wide"
+                      style={{ color: 'var(--text)' }}
+                    >
+                      Bürozeiten
+                    </Heading>
+                    <dl className="space-y-2">
                       {Object.entries(hours).map(([day, time]) => (
-                        <div key={day} className="flex justify-between gap-4 text-sm">
-                          <dt className="text-[var(--text)]">{day}</dt>
-                          <dd className="text-[var(--text-muted)]">{time}</dd>
+                        <div key={day} 
+                          className="flex justify-between gap-4 text-sm sm:text-base py-1 border-b border-gray-100 last:border-0"
+                        >
+                          <dt style={{ color: 'var(--text)' }}>{day}</dt>
+                          <dd className="font-medium" style={{ color: 'var(--text-light)' }}>{time}</dd>
                         </div>
                       ))}
                     </dl>
@@ -174,22 +231,39 @@ export function ContactSection({
 
           {/* Map */}
           <AnimateOnScroll stagger={1}>
-            <div className="min-h-[300px] overflow-hidden rounded-lg bg-[var(--surface-light)] shadow-card">
+            <div 
+              className="h-full min-h-[400px] overflow-hidden rounded-2xl"
+              style={{
+                backgroundColor: 'var(--surface-light)',
+                boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+                border: '1px solid rgba(0,0,0,0.06)',
+              }}
+            >
               {googleMapsUrl ? (
                 <iframe
                   src={googleMapsUrl}
                   width="100%"
                   height="100%"
-                  className="min-h-[300px] border-0"
+                  className="min-h-[400px] lg:min-h-full border-0"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title={L.mapFallback(city)}
+                  title={`Karte von ${city}`}
+                  style={{ filter: 'grayscale(15%) contrast(105%)' }}
                 />
               ) : (
-                <div className="flex h-full min-h-[300px] flex-col items-center justify-center gap-2 text-[var(--text-muted)]">
-                  <MapPin size={32} className="opacity-40" />
-                  <p className="text-sm">{address ? `${address}, ${city}` : city}</p>
+                <div className="flex h-full min-h-[400px] flex-col items-center justify-center gap-3"
+                  style={{ color: 'var(--text-muted)' }}
+                >
+                  <div 
+                    className="w-16 h-16 rounded-full flex items-center justify-center"
+                    style={{ backgroundColor: 'var(--surface)' }}
+                  >
+                    <MapPin size={32} opacity={0.4} />
+                  </div>
+                  <p className="text-base">
+                    {address ? `${address}, ${city}` : city}
+                  </p>
                 </div>
               )}
             </div>
@@ -199,3 +273,5 @@ export function ContactSection({
     </section>
   )
 }
+
+export default ContactSection
