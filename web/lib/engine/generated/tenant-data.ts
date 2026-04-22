@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=200, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=202, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -118,7 +118,6 @@ export const SITE_SLUGS: readonly string[] = [
   "demo-salon-fiestas",
   "demo-spa",
   "demo-spa-facial",
-  "demo-superpuma",
   "demo-taller-mecanico",
   "demo-tasador",
   "demo-tatuajes",
@@ -130,7 +129,8 @@ export const SITE_SLUGS: readonly string[] = [
   "granja-cabral",
   "nexa-paraguay",
   "nexa-propiedades",
-  "stoicfinch"
+  "stoicfinch",
+  "superspuma"
 ] as const
 
 export const BASE_TOKENS: JsonRecord = {
@@ -4311,13 +4311,6 @@ export const SITES: Record<string, JsonRecord> = {
     "source": "batch-create-demos",
     "vertical": "beauty-personal-care"
   },
-  "demo-superpuma": {
-    "baseUrl": "https://superspuma.paraguai.com",
-    "description": "Tienda de colchones premium en Asunción",
-    "locale": "es",
-    "theme": "superspuma",
-    "title": "Superspuma"
-  },
   "demo-taller-mecanico": {
     "businessType": "general_auto_repair",
     "contact": {
@@ -5086,6 +5079,20 @@ export const SITES: Record<string, JsonRecord> = {
     "stagingDomain": "staging.stoicfinch.com",
     "vertical": "technology-digital"
   },
+  "superspuma": {
+    "baseUrl": "https://superspuma.paraguai.com",
+    "defaultLocale": "es",
+    "description": "Tienda de colchones premium en Asunción",
+    "locales": [
+      "es"
+    ],
+    "pages": [
+      "home"
+    ],
+    "theme": "superspuma",
+    "title": "Superspuma",
+    "vertical": "retail-local"
+  },
 }
 
 export const TENANT_TOKENS: Record<string, JsonRecord> = {
@@ -5528,17 +5535,6 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:beauty-personal-care"
   },
-  "demo-superpuma": {
-    "color": {
-      "accent": "#B3C7E3",
-      "primary": "#0F1624",
-      "secondary": "#3A4A5D"
-    },
-    "font": {
-      "body": "Open Sans",
-      "heading": "Playfair Display"
-    }
-  },
   "demo-taller-mecanico": {
     "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:automotive"
@@ -5728,6 +5724,17 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
       "heading": "'Inter', system-ui, sans-serif"
     }
   },
+  "superspuma": {
+    "color": {
+      "accent": "#B3C7E3",
+      "primary": "#0F1624",
+      "secondary": "#3A4A5D"
+    },
+    "font": {
+      "body": "Open Sans",
+      "heading": "Playfair Display"
+    }
+  },
 }
 
 export const PAGES: Record<string, JsonRecord> = {
@@ -5861,6 +5868,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
+        "content": "faq.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
         "content": "faq",
         "id": "faq",
         "variant": "accordion"
@@ -5871,7 +5883,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "gradient"
       },
       {
-        "content": "faq.contact",
+        "content": "home.contact",
         "id": "contact",
         "variant": "split"
       },
@@ -12859,6 +12871,70 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "terms",
     "titleKey": "legalTerms.seo.title"
   },
+  "superspuma:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.product-catalog",
+        "id": "product-catalog",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "superspuma:promo-cartagena": {
+    "descriptionKey": "promo-cartagena.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "promo-cartagena.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "promo-cartagena.form",
+        "id": "promo-form",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "promo-cartagena",
+    "titleKey": "promo-cartagena.seo.title"
+  },
 }
 
 export const CONTENT: Record<string, JsonRecord> = {
@@ -12965,6 +13041,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "title": "Frequently Asked Questions"
     },
+    "faqPage": {
+      "hero": {
+        "subtitle": "Everything you need to know about our services",
+        "title": "Frequently Asked Questions"
+      },
+      "seo": {
+        "description": "Answers to the most frequently asked questions about our book cover design services.",
+        "title": "FAQ — Dayah LitWorks"
+      }
+    },
     "footer": {
       "businessName": "Dayah LitWorks",
       "copyright": "© 2026 Dayah LitWorks. All rights reserved.",
@@ -13034,7 +13120,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "FAQ"
       },
       "hero": {
-        "ctaPrimaryHref": "/catalogo",
+        "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
         "ctaPrimaryText": "View Premade Catalog",
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "Contact via WhatsApp",
@@ -13384,13 +13470,34 @@ export const CONTENT: Record<string, JsonRecord> = {
       "ctaHref": "https://wa.me/595986868241",
       "ctaText": "Contact",
       "items": [
-        "Home",
-        "Services",
-        "Catalog",
-        "Portfolio",
-        "Blog",
-        "About",
-        "Contact"
+        {
+          "href": "/s/en/dayah-litworks",
+          "label": "Home"
+        },
+        {
+          "href": "/s/en/dayah-litworks/servicios",
+          "label": "Services"
+        },
+        {
+          "href": "/s/en/dayah-litworks/catalogo",
+          "label": "Catalog"
+        },
+        {
+          "href": "/s/en/dayah-litworks/portafolio",
+          "label": "Portfolio"
+        },
+        {
+          "href": "/s/en/dayah-litworks/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/en/dayah-litworks/sobre",
+          "label": "About"
+        },
+        {
+          "href": "/s/en/dayah-litworks/contacto",
+          "label": "Contact"
+        }
       ]
     },
     "newsletter": {
@@ -13675,6 +13782,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "title": "Preguntas Frecuentes"
     },
+    "faqPage": {
+      "hero": {
+        "subtitle": "Todo lo que necesitás saber sobre nuestros servicios",
+        "title": "Preguntas Frecuentes"
+      },
+      "seo": {
+        "description": "Respuestas a las preguntas más frecuentes sobre nuestros servicios de diseño de portadas de libros.",
+        "title": "Preguntas Frecuentes — Dayah LitWorks"
+      }
+    },
     "footer": {
       "businessName": "Dayah LitWorks",
       "city": "Asunción",
@@ -13745,7 +13862,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas Frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "/catalogo",
+        "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
         "ctaPrimaryText": "Ver Catálogo Premade",
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "Contactanos por WhatsApp",
@@ -14095,13 +14212,34 @@ export const CONTENT: Record<string, JsonRecord> = {
       "ctaHref": "https://wa.me/595986868241",
       "ctaText": "Contactanos",
       "items": [
-        "Inicio",
-        "Servicios",
-        "Catálogo",
-        "Portafolio",
-        "Blog",
-        "Sobre",
-        "Contacto"
+        {
+          "href": "/s/es/dayah-litworks",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/dayah-litworks/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/dayah-litworks/catalogo",
+          "label": "Catálogo"
+        },
+        {
+          "href": "/s/es/dayah-litworks/portafolio",
+          "label": "Portafolio"
+        },
+        {
+          "href": "/s/es/dayah-litworks/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/es/dayah-litworks/sobre",
+          "label": "Sobre"
+        },
+        {
+          "href": "/s/es/dayah-litworks/contacto",
+          "label": "Contacto"
+        }
       ]
     },
     "newsletter": {
@@ -19865,16 +20003,6 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Spa de Dia profesional en Ciudad del Este.",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Spa y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-superpuma:es": {
-    "hero": {
-      "subtitle": "Calidad desde 1976",
-      "title": "Colchones Superspuma"
-    },
-    "products": {
-      "items": [],
-      "title": "Nuestra Colección"
     }
   },
   "demo-taller-mecanico:es": {
@@ -33620,6 +33748,90 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Stoic Finch Corporation",
     "tagline": "Use your data like a pro"
+  },
+  "superspuma:es": {
+    "_meta": {
+      "author": "Superspuma",
+      "lastReviewed": "2026-04-22",
+      "translationQuality": "human"
+    },
+    "contact": {
+      "form": {
+        "email": "Email",
+        "message": "Mensaje",
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "submit": "Enviar"
+      },
+      "subtitle": "Te respondemos en el día",
+      "title": "Contactanos"
+    },
+    "footer": {
+      "businessName": "Superspuma",
+      "copyright": "© 2026 Superspuma",
+      "links": [
+        {
+          "href": "/",
+          "label": "Inicio"
+        },
+        {
+          "href": "/nosotros",
+          "label": "Nosotros"
+        },
+        {
+          "href": "/catalogo",
+          "label": "Catálogo"
+        },
+        {
+          "href": "/promo-cartagena",
+          "label": "Promo Cartagena"
+        },
+        {
+          "href": "/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "hero": {
+        "ctaPrimaryHref": "#catalogo",
+        "ctaPrimaryText": "Ver Colección",
+        "ctaSecondaryHref": "#contacto",
+        "ctaSecondaryText": "Solicitar Presupuesto",
+        "headline": "Colchones Superspuma",
+        "subheadline": "Calidad y confort desde 1976"
+      },
+      "nosotros": {
+        "content": "Superspuma es una empresa paraguaya dedicada a la fabricación y comercialización de colchones y accesorios para el descanso desde 1976. Contamos con más de 45 años de experiencia en el mercado, ofreciendo productos de alta calidad que garantizan un sueño reparador y saludable.",
+        "title": "Nosotros"
+      },
+      "product-catalog": {
+        "orderButtonText": "Consultar por WhatsApp",
+        "orderMessageTemplate": "Hola! Estoy interesado en el producto: {{productName}}. Precio: ${{productPrice}}. Quisiera más información.",
+        "subtitle": "Colchones de espuma y resorte para el mejor descanso",
+        "title": "Nuestra Colección",
+        "whatsappPhone": "595981000000"
+      },
+      "promo-cartagena": {
+        "ctaHref": "/promo-cartagena",
+        "ctaText": "Participar Ahora",
+        "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitas cargar tu factura de compra y tus datos para participar.",
+        "subtitle": "Gana un viaje a Cartagena y 5 sommiers Harmony",
+        "title": "Promo Cartagena 2026"
+      },
+      "seo": {
+        "description": "Descubre la mejor calidad en colchones y accesorios para dormir desde 1976. Envío a todo el país.",
+        "title": "Superspuma - Colchones y Sommiers Premium"
+      }
+    },
+    "navigation": {
+      "businessName": "Superspuma",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactanos"
+    },
+    "whatsapp": {
+      "defaultMessage": "Hola, me interesa un colchón de Superspuma"
+    }
   },
 }
 

@@ -6,7 +6,7 @@
   },
   "siteName": "Dayah LitWorks",
   "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
-  "faq": {
+"faq": {
     "title": "Preguntas Frecuentes",
     "items": [
       { "question": "¿Cuánto tarda una portada personalizada?", "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas." },
@@ -22,6 +22,16 @@
       { "question": "¿Puedo contratar urgente (48–72h)?", "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo." },
       { "question": "¿Cómo se entregados los archivos finales?", "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entrega como imágenes renderizadas." }
     ]
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas Frecuentes — Dayah LitWorks",
+      "description": "Respuestas a las preguntas más frecuentes sobre nuestros servicios de diseño de portadas de libros."
+    },
+    "hero": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitás saber sobre nuestros servicios"
+    }
   },
   "placeholders": {
     "businessName": "Dayah LitWorks",

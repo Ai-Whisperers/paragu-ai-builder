@@ -4,9 +4,10 @@
   "descriptionKey": "faq.seo.description",
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "faq.hero" },
     { "id": "faq", "variant": "accordion", "content": "faq" },
     { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" },
-    { "id": "contact", "variant": "split", "content": "faq.contact" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
     { "id": "footer", "variant": "standard", "content": "footer" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
