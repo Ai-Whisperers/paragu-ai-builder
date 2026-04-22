@@ -16,6 +16,8 @@ import { recordSearchEvent, listTopSearches } from '@/lib/commerce/search-events
 import { getReviewAggregatesByBusiness } from '@/lib/commerce/reviews'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
+import { CommerceChrome } from '@/components/commerce/commerce-chrome'
+import type { Locale } from '@/lib/i18n/config'
 import { ProductCard } from '@/components/commerce/product-card'
 import { getSessionToken } from '@/lib/commerce/session'
 import { getCartBySessionToken } from '@/lib/commerce/cart'
@@ -323,6 +325,7 @@ export default async function StorePage({
 
         <RecentlyViewedRail siteSlug={site} locale={locale} />
       </main>
+      <CommerceChrome siteSlug={site} locale={locale as Locale} />
     </div>
   )
 }

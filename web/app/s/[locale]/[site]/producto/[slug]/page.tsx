@@ -5,6 +5,8 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { getProductBySlug, listRelatedProducts } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
+import { CommerceChrome } from '@/components/commerce/commerce-chrome'
+import type { Locale } from '@/lib/i18n/config'
 import { ProductImage } from '@/components/commerce/product-image'
 import { getSessionToken } from '@/lib/commerce/session'
 import { getCartBySessionToken } from '@/lib/commerce/cart'
@@ -321,6 +323,7 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
         inventoryPolicy={product.inventoryPolicy}
         imageUrl={cover?.url ?? null}
       />
+      <CommerceChrome siteSlug={site} locale={locale as Locale} />
     </div>
   )
 }
