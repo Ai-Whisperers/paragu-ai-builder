@@ -19777,13 +19777,75 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "footer": {
-      "legalHref": "/fun4me/legal",
-      "legalText": "Solo mayores de 18 anos.",
-      "privacy": "Politica de Privacidad",
-      "privacyHref": "/fun4me/legal",
+      "address": "Herrera 875",
+      "businessName": "Fun4Me",
+      "city": "Asunción, Paraguay",
+      "email": "hola@fun4me.com.py",
+      "facebook": "FUN4MEStore",
+      "instagram": "@fun4me_store",
+      "legalHref": "/s/es/fun4me/legal",
+      "legalText": "Solo mayores de 18 años. Empaque y facturación discretos. Datos cifrados.",
+      "navLinks": [
+        {
+          "href": "/s/es/fun4me/tienda",
+          "label": "Tienda"
+        },
+        {
+          "href": "/s/es/fun4me/quiz",
+          "label": "Ayudame a elegir"
+        },
+        {
+          "href": "/s/es/fun4me/suscripciones",
+          "label": "Suscripciones"
+        },
+        {
+          "href": "/s/es/fun4me/bundles",
+          "label": "Bundles y kits"
+        },
+        {
+          "href": "/s/es/fun4me/gift-cards",
+          "label": "Gift cards"
+        },
+        {
+          "href": "/s/es/fun4me/placer-plus",
+          "label": "Placer Plus"
+        },
+        {
+          "href": "/s/es/fun4me/quienes-somos",
+          "label": "Quiénes somos"
+        },
+        {
+          "href": "/s/es/fun4me/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/es/fun4me/reserva-en-tienda",
+          "label": "Reserva en tienda"
+        },
+        {
+          "href": "/s/es/fun4me/size-guide",
+          "label": "Guía de talles"
+        },
+        {
+          "href": "/s/es/fun4me/legal#faq",
+          "label": "Preguntas frecuentes"
+        },
+        {
+          "href": "/s/es/fun4me/legal",
+          "label": "Privacidad"
+        },
+        {
+          "href": "/s/es/fun4me/legal",
+          "label": "Términos"
+        }
+      ],
+      "phone": "+595976569739",
+      "privacy": "Política de Privacidad",
+      "privacyHref": "/s/es/fun4me/legal",
       "rights": "Todos los derechos reservados.",
-      "terms": "Terminos y Condiciones",
-      "termsHref": "/fun4me/legal"
+      "terms": "Términos y Condiciones",
+      "termsHref": "/s/es/fun4me/legal",
+      "whatsapp": "+595976569739"
     },
     "giftCards": {
       "cta": {
