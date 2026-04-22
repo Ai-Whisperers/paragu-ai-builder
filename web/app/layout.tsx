@@ -1,8 +1,28 @@
 import type { Metadata } from 'next'
+import { headers } from 'next/headers'
 import './globals.css'
 import { HOME_FAQS, HOME_PLANS_SCHEMA, HOME_REVIEWS } from '@/lib/landing/home-data'
 import { WebVitalsReporter } from '@/components/analytics/web-vitals-reporter'
 import { SkipToContent } from '@/components/ui/skip-to-content'
+import { isLocale, LOCALE_HTML_LANG } from '@/lib/i18n/config'
+
+// Extract the tenant locale from `/s/<locale>/<site>/...` paths so the
+// `<html lang>` attribute is correct per-request. Without this, every
+// tenant page (including /s/en/... and /s/de/...) was rendered with
+// `lang="es"` — a direct Lighthouse SEO audit failure.
+async function resolveHtmlLang(): Promise<string> {
+  try {
+    const h = await headers()
+    const path = h.get('x-pathname') || ''
+    const match = path.match(/^\/s\/([^/]+)\//)
+    if (match && isLocale(match[1])) {
+      return LOCALE_HTML_LANG[match[1]]
+    }
+  } catch {
+    // headers() can throw outside a request context (static metadata gen).
+  }
+  return 'es' // Default: the ParaguAI landing is Spanish-first (Paraguay).
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://paragu-ai.com'),
@@ -57,9 +77,10 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const htmlLang = await resolveHtmlLang()
   return (
-    <html lang="es">
+    <html lang={htmlLang}>
       <head>
         <script
           type="application/ld+json"
