@@ -69,7 +69,7 @@
     },
     "ageGate": {
       "title": "Verificacion de Edad",
-      "message": "Este sitio contiene contenido para adultos. Debes ser mayor de 18 anos para continuar.",
+      "message": "Este sitio contiene contenido para adultos. Tenés que ser mayor de 18 años para continuar.",
       "confirmText": "Soy mayor de 18",
       "denyText": "Salir",
       "denyHref": "https://google.com"
@@ -139,7 +139,7 @@
     },
     "categories": {
       "title": "Categorias Destacadas",
-      "subtitle": "Todo lo que necesitas para disfrutar",
+      "subtitle": "Todo lo que necesitás para disfrutar",
       "items": [
         {
           "id": "vibradores",
@@ -159,7 +159,7 @@
           "id": "anal",
           "name": "Juguetes Anales",
           "icon": "arrow-uturn-down",
-          "description": "Explora nuevos territorios de placer",
+          "description": "Explorá nuevos territorios de placer",
           "href": "/fun4me/tienda/categoria/anal"
         },
         {
@@ -630,7 +630,7 @@
     },
     "hero": {
       "headline": "Politicas y Legal",
-      "subheadline": "Todo lo que necesitas saber sobre tus derechos al comprar en Fun4Me.",
+      "subheadline": "Todo lo que necesitás saber sobre tus derechos al comprar en Fun4Me.",
       "ctaPrimaryText": "Contactar legal@fun4me.com.py",
       "ctaPrimaryHref": "mailto:legal@fun4me.com.py"
     },
@@ -801,11 +801,11 @@
   "store": {
     "seo": {
       "title": "Tienda Fun4Me | Catalogo online con envio discreto",
-      "description": "Explora todo el catalogo de Fun4Me. Vibradores, lenceria, lubricantes, BDSM y mas. Envio 100% discreto a todo Paraguay."
+      "description": "Explorá todo el catalogo de Fun4Me. Vibradores, lenceria, lubricantes, BDSM y mas. Envio 100% discreto a todo Paraguay."
     },
     "hero": {
       "headline": "Tu Placer, Nuestra Prioridad",
-      "subheadline": "Encuentra productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
+      "subheadline": "Encontrá productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
     },
     "bundlesPreview": {
       "title": "Kits Curados",
@@ -936,7 +936,7 @@
     },
     "hero": {
       "headline": "Regala Placer",
-      "subheadline": "El regalo perfecto cuando no sabes que elegir. Sin talles, sin preferencias, sin errores."
+      "subheadline": "El regalo perfecto cuando no sabés qué elegir. Sin talles, sin preferencias, sin errores."
     },
     "denominations": {
       "title": "Elegi el monto",
@@ -1488,7 +1488,7 @@
         },
         {
           "q": "Plus size / curvy",
-          "a": "Empieza en XL (= L/M de marcas regulares). Verifica la tabla especifica del producto."
+          "a": "Empezá en XL (= L/M de marcas regulares). Verificá la tabla especifica del producto."
         },
         {
           "q": "One size",
@@ -1561,11 +1561,11 @@
       "subheadline": "Guias, educacion y consejos. Aprendé sin juicios."
     },
     "categories": {
-      "title": "Explora por categoria",
+      "title": "Explorá por categoria",
       "items": [
         {
           "name": "Guias para principiantes",
-          "description": "Lo basico que deberias saber antes de comprar tu primer producto."
+          "description": "Lo básico que deberías saber antes de comprar tu primer producto."
         },
         {
           "name": "Seguridad y cuidado",

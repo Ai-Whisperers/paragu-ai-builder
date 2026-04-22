@@ -35,8 +35,6 @@ interface Props {
   initialPerPage: number
 }
 
-const PER_PAGE_OPTIONS = [12, 24, 48, 96]
-
 /**
  * Tag buckets for the filter toolbar. Flat wall of 20+ chips (which is
  * what this shop actually ships) is unnavigable; grouping them by
@@ -134,7 +132,7 @@ export function TiendaToolbar({
   initialMaxPrice,
   initialInStockOnly,
   initialOnSaleOnly,
-  initialPerPage,
+  initialPerPage: _initialPerPage,
   initialBrands,
   availableBrands,
   initialTags,
@@ -290,14 +288,14 @@ export function TiendaToolbar({
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Buscar por nombre, descripción o SKU…"
+              placeholder="¿Qué buscás? (lubricante, vibrador, lencería…)"
               className="w-full bg-transparent text-sm outline-none placeholder:text-[color:var(--text-muted,#9ca3af)]"
             />
           </label>
           <button
             type="submit"
             disabled={pending}
-            className="rounded bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
+            className="rounded bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50"
           >
             Buscar
           </button>
@@ -309,25 +307,11 @@ export function TiendaToolbar({
             <select
               value={initialSort}
               onChange={(e) => pushParams({ sort: e.target.value === 'newest' ? null : e.target.value })}
-              className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm"
+              className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
             >
               {SORT_OPTIONS.map((opt) => (
                 <option key={opt.value} value={opt.value}>
                   {opt.label}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="flex items-center gap-2">
-            <span className="text-xs text-[color:var(--text-muted,#6b7280)]">Por página:</span>
-            <select
-              value={initialPerPage}
-              onChange={(e) => pushParams({ per_page: e.target.value === '12' ? null : e.target.value })}
-              className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm"
-            >
-              {PER_PAGE_OPTIONS.map((n) => (
-                <option key={n} value={n}>
-                  {n}
                 </option>
               ))}
             </select>
@@ -341,7 +325,7 @@ export function TiendaToolbar({
         type="button"
         onClick={() => setAdvancedOpen((v) => !v)}
         aria-expanded={advancedOpen}
-        className="flex items-center justify-between rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm md:hidden"
+        className="flex items-center justify-between rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] md:hidden"
       >
         <span className="flex items-center gap-2">
           <svg aria-hidden="true" className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -374,12 +358,13 @@ export function TiendaToolbar({
           category is active, so the default view isn't dominated by a loud
           "Todo is selected" chip. */}
       {availableCategories.length > 0 ? (
-        <div className="flex flex-wrap gap-2">
+        <fieldset className="flex flex-wrap gap-2">
+          <legend className="sr-only">Categoría</legend>
           {initialCategories.length > 0 ? (
             <button
               type="button"
               onClick={() => pushParams({ category: null })}
-              className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
             >
               ← Todas
             </button>
@@ -398,7 +383,7 @@ export function TiendaToolbar({
                 type="button"
                 onClick={() => toggleCategory(cat)}
                 aria-pressed={active}
-                className={`rounded-full border px-3 py-1 text-xs ${
+                className={`rounded-full border px-3 py-1 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                   active
                     ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
                     : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
@@ -411,13 +396,15 @@ export function TiendaToolbar({
               </button>
             )
           })}
-        </div>
+        </fieldset>
       ) : null}
 
-      {/* Brand filter */}
-      {availableBrands.length > 0 ? (
-        <div className="flex flex-wrap items-center gap-2 text-xs">
-          <span className="text-[color:var(--text-muted,#6b7280)]">Marca:</span>
+      {/* Brand filter — only render when there are at least 2 brands.
+          With a single brand, the filter is purely decorative and wastes
+          vertical space. */}
+      {availableBrands.length >= 2 ? (
+        <fieldset className="flex flex-wrap items-center gap-2 text-xs">
+          <legend className="float-left mr-2 text-[color:var(--text-muted,#6b7280)]">Marca:</legend>
           {availableBrands.map((b) => {
             const active = initialBrands.includes(b)
             return (
@@ -426,7 +413,7 @@ export function TiendaToolbar({
                 type="button"
                 onClick={() => toggleBrand(b)}
                 aria-pressed={active}
-                className={`rounded-full border px-3 py-1 ${
+                className={`rounded-full border px-3 py-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                   active
                     ? 'border-[color:var(--secondary,#b8860b)] bg-[color:var(--secondary,#b8860b)] text-white'
                     : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
@@ -436,7 +423,7 @@ export function TiendaToolbar({
               </button>
             )
           })}
-        </div>
+        </fieldset>
       ) : null}
 
       {/* Tag filter — grouped into themed buckets so 20+ tags don't render
@@ -481,7 +468,7 @@ export function TiendaToolbar({
                         type="button"
                         onClick={() => toggleTag(t)}
                         aria-pressed={active}
-                        className={`rounded-full border px-2.5 py-0.5 text-xs ${
+                        className={`rounded-full border px-2.5 py-0.5 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                           active
                             ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
                             : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
@@ -526,7 +513,7 @@ export function TiendaToolbar({
                         type="button"
                         onClick={() => toggleTag(t)}
                         aria-pressed={active}
-                        className={`rounded-full border px-2.5 py-0.5 text-xs ${
+                        className={`rounded-full border px-2.5 py-0.5 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                           active
                             ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
                             : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
@@ -546,30 +533,32 @@ export function TiendaToolbar({
       {/* Price range + toggles */}
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <form onSubmit={onPriceSubmit} className="flex flex-wrap items-center gap-2 text-xs">
-          <span className="text-[color:var(--text-muted,#6b7280)]">Precio (Gs):</span>
-          <input
-            type="text"
-            inputMode="numeric"
-            value={minPrice}
-            onChange={(e) => setMinPrice(e.target.value)}
-            placeholder="Mín"
-            className="w-24 rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1"
-            aria-label="Precio mínimo"
-          />
-          <span aria-hidden="true">–</span>
-          <input
-            type="text"
-            inputMode="numeric"
-            value={maxPrice}
-            onChange={(e) => setMaxPrice(e.target.value)}
-            placeholder="Máx"
-            className="w-24 rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1"
-            aria-label="Precio máximo"
-          />
+          <fieldset className="flex flex-wrap items-center gap-2">
+            <legend className="float-left mr-2 text-[color:var(--text-muted,#6b7280)]">Precio (Gs):</legend>
+            <input
+              type="text"
+              inputMode="numeric"
+              value={minPrice}
+              onChange={(e) => setMinPrice(e.target.value)}
+              placeholder="Mín"
+              className="w-24 rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
+              aria-label="Precio mínimo"
+            />
+            <span aria-hidden="true">–</span>
+            <input
+              type="text"
+              inputMode="numeric"
+              value={maxPrice}
+              onChange={(e) => setMaxPrice(e.target.value)}
+              placeholder="Máx"
+              className="w-24 rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
+              aria-label="Precio máximo"
+            />
+          </fieldset>
           <button
             type="submit"
             disabled={pending}
-            className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)] focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50"
           >
             Aplicar
           </button>
@@ -605,15 +594,21 @@ export function TiendaToolbar({
             key={f.key}
             type="button"
             onClick={f.clear}
-            className="inline-flex items-center gap-1 rounded-full bg-[color:var(--surface-muted,#f3f4f6)] px-2 py-0.5 hover:bg-[color:var(--border,#e5e7eb)]"
+            className="inline-flex min-h-[28px] items-center gap-1.5 rounded-full bg-[color:var(--surface-muted,#f3f4f6)] py-1 pl-2.5 pr-1.5 transition-colors hover:bg-[color:var(--border,#e5e7eb)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
             aria-label={`Quitar filtro: ${f.label}`}
           >
             <span>{f.label}</span>
-            <span aria-hidden="true">✕</span>
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M6 6l12 12M6 18L18 6" />
+            </svg>
           </button>
         ))}
         {activeFilters.length > 0 ? (
-          <button type="button" onClick={clearAll} className="text-[color:var(--primary,#111)] underline">
+          <button
+            type="button"
+            onClick={clearAll}
+            className="text-[color:var(--primary,#111)] underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
+          >
             Limpiar todo
           </button>
         ) : null}
