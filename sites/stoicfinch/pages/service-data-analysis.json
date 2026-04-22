@@ -1,0 +1,13 @@
+{
+  "slug": "service-data-analysis",
+  "titleKey": "service-data-analysis.seo.title",
+  "descriptionKey": "service-data-analysis.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "service-data-analysis.hero" },
+    { "id": "features", "variant": "three-col", "content": "service-data-analysis.features" },
+    { "id": "process", "variant": "horizontal", "content": "service-data-analysis.process" },
+    { "id": "contact", "variant": "split", "content": "service-data-analysis.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

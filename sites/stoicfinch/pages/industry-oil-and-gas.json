@@ -1,0 +1,13 @@
+{
+  "slug": "industry-oil-and-gas",
+  "titleKey": "industry-oil-and-gas.seo.title",
+  "descriptionKey": "industry-oil-and-gas.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "industry-oil-and-gas.hero" },
+    { "id": "features", "variant": "three-col", "content": "industry-oil-and-gas.features" },
+    { "id": "services", "variant": "cards", "content": "industry-oil-and-gas.services" },
+    { "id": "contact", "variant": "split", "content": "industry-oil-and-gas.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

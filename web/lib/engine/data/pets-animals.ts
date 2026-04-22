@@ -683,6 +683,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Tienda Mascotas profesional en {{city}}."
     }
   },
+  'pet_transport_service': {
+    "id": "pet_transport_service",
+    "nameEs": "Traslado de Mascotas",
+    "nameEn": "Pet Transport Service",
+    "verticalId": "pets-animals",
+    "subVertical": "transport",
+    "extends": "pets_base",
+    "tokens": "pet_transport_service",
+    "seo": {
+      "schemaType": "ProfessionalService",
+      "titleTemplate": "{{businessName}} - Traslado de Mascotas en {{city}}",
+      "descriptionTemplate": "Traslados puerta a puerta para mascotas en {{city}}. Vehiculos acondicionados, personal capacitado, seguro incluido.",
+      "keywords": [
+        "traslado mascotas {{city}}",
+        "transporte perros {{city}}",
+        "traslado veterinaria {{neighborhood}}",
+        "pet taxi {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Traslado de Mascotas",
+      "subheadlineTemplate": "Traslados seguros y comodos para tu mascota en {{city}}."
+    }
+  },
   'pets_base': {
     "id": "pets_base",
     "nameEs": "Base Mascotas",

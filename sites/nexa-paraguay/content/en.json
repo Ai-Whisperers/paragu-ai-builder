@@ -1667,22 +1667,25 @@
     },
     "guides": {
       "title": "Downloadable guides",
-      "subtitle": "Useful documents to prepare your file and understand the process.",
+      "subtitle": "Practical documents to prepare your file and understand the process.",
       "features": [
         {
           "icon": "FileText",
-          "title": "Document checklist",
-          "description": "Complete list of documents needed for Paraguayan residency."
+          "title": "Paraguayan residency guide",
+          "description": "Everything you need to establish yourself in Paraguay: timeline, documents, costs and requirements.",
+          "href": "/sites/nexa-paraguay/guias/01-guide-residency-paraguay-english.md"
         },
         {
-          "icon": "FileText",
-          "title": "2026 tax guide",
-          "description": "Territorial tax, 10 % IRE, treatment of foreign income."
+          "icon": "Calculator",
+          "title": "Territorial tax system",
+          "description": "Paraguay's territorial tax regime, 10 % IRE and the treatment of foreign income, explained for European investors.",
+          "href": "/sites/nexa-paraguay/guias/02-guide-paraguay-tax-system-english.md"
         },
         {
-          "icon": "FileText",
-          "title": "Investor Q&A",
-          "description": "25 frequent questions from European investors, answered."
+          "icon": "Home",
+          "title": "Cost of living in Asunción",
+          "description": "Realistic monthly budget across neighbourhoods, housing, schools and private healthcare.",
+          "href": "/sites/nexa-paraguay/guias/03-guide-cost-of-living-asuncion-english.md"
         }
       ]
     },

@@ -1686,22 +1686,25 @@
     },
     "guides": {
       "title": "Herunterladbare Leitfäden",
-      "subtitle": "Nützliche Dokumente zur Vorbereitung Ihrer Akte und zum Verständnis des Prozesses.",
+      "subtitle": "Praktische Dokumente zur Vorbereitung Ihrer Akte und zum Verständnis des Prozesses.",
       "features": [
         {
           "icon": "FileText",
-          "title": "Dokumenten-Checkliste",
-          "description": "Vollständige Liste der für die paraguayische Aufenthaltserlaubnis erforderlichen Dokumente."
+          "title": "Leitfaden Aufenthalt in Paraguay",
+          "description": "Alles, was Sie für Ihre Niederlassung in Paraguay benötigen: Zeitplan, Unterlagen, Kosten und Voraussetzungen.",
+          "href": "/sites/nexa-paraguay/guias/01-lebensfuehrung-paraguay.md"
         },
         {
-          "icon": "FileText",
-          "title": "Steuerleitfaden 2026",
-          "description": "Territoriale Steuer, 10 % IRE, Behandlung ausländischer Einkünfte."
+          "icon": "Calculator",
+          "title": "Territoriales Steuersystem",
+          "description": "Territoriales Steuerregime Paraguays, 10 % IRE und Behandlung ausländischer Einkünfte, erklärt für europäische Investoren.",
+          "href": "/sites/nexa-paraguay/guias/02-territoriales-steusersystem-deutsch.md"
         },
         {
-          "icon": "FileText",
-          "title": "Investoren-Q&A",
-          "description": "25 häufige Fragen europäischer Investoren, beantwortet."
+          "icon": "Home",
+          "title": "Lebenshaltungskosten in Asunción",
+          "description": "Realistisches Monatsbudget nach Stadtteilen, Wohnen, Schulen und privater Gesundheitsversorgung. (Englisch)",
+          "href": "/sites/nexa-paraguay/guias/03-guide-cost-of-living-asuncion-english.md"
         }
       ]
     },

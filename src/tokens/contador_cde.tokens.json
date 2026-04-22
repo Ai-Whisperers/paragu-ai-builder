@@ -1,0 +1,36 @@
+{
+  "name": "Ciudad del Este Accounting (ES/PT)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["international", "commercial", "triple-frontera", "trustworthy"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Itaipu Teal & Copper",
+      "colors": {
+        "primary": "#0f766e",
+        "secondary": "#c2410c",
+        "accent": "#0891b2",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "textLight": "#475569",
+        "border": "#e2e8f0",
+        "success": "#059669",
+        "warning": "#d97706",
+        "error": "#dc2626"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Rubik', 'Inter', sans-serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Rubik:wght@500;600;700"
+  ],
+  "borderRadius": "md"
+}

@@ -58,6 +58,15 @@ export const SITES = {
     locales: ['es'],
     pages: ['home'],
   },
+  'stoicfinch': {
+    slug: 'stoicfinch',
+    vertical: 'technology-digital',
+    country: 'Canada',
+    domain: 'stoicfinch.com',
+    defaultLocale: 'en',
+    locales: ['en'],
+    pages: ['home'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

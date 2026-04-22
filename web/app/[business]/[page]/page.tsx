@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { composePageForType } from '@/lib/engine/compose'
 import { renderSections } from '@/lib/engine/renderer'
 import { loadBusiness, loadAllSlugs } from '@/lib/engine/data-loader'
+import { listSiteSlugs } from '@/lib/engine/site-loader'
 import type { Metadata } from 'next'
 import type { PageType } from '@/lib/types'
 
@@ -13,8 +14,14 @@ interface Props {
 
 export const dynamicParams = true // Enable SSR for all pages
 
+// Modern `sites/` tenants use a richer content shape that the flat-pattern
+// composer can't render (crashes with "e.filter is not a function" on the
+// servicios/galeria/equipo/contacto legacy subpaths). Skip them here — they
+// have their own canonical routes at /s/<locale>/<slug>.
+const MODERN_TENANT_SKIP = new Set(listSiteSlugs())
+
 export async function generateStaticParams() {
-  const slugs = await loadAllSlugs()
+  const slugs = (await loadAllSlugs()).filter((s) => !MODERN_TENANT_SKIP.has(s))
   const pages = ['servicios', 'galeria', 'equipo', 'contacto']
   return slugs.flatMap((slug) => pages.map((page) => ({ business: slug, page })))
 }

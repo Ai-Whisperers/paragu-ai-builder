@@ -810,6 +810,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Escape Room profesional en {{city}}."
     }
   },
+  'event_equipment_rental': {
+    "id": "event_equipment_rental",
+    "nameEs": "Alquiler de Equipos para Eventos",
+    "nameEn": "Event Equipment Rental",
+    "verticalId": "arts-entertainment-venues",
+    "subVertical": "event-rental",
+    "extends": "entertainment_base",
+    "tokens": "event_equipment_rental",
+    "seo": {
+      "schemaType": "ProfessionalService",
+      "titleTemplate": "{{businessName}} - Alquiler de Equipos para Eventos en {{city}}",
+      "descriptionTemplate": "Alquiler de carpas, escenarios, mobiliario, iluminacion y sonido para eventos en {{city}}. Armado y desarme incluido.",
+      "keywords": [
+        "alquiler carpas {{city}}",
+        "alquiler escenarios {{city}}",
+        "alquiler mobiliario eventos {{neighborhood}}",
+        "alquiler iluminacion sonido {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Alquiler para Eventos",
+      "subheadlineTemplate": "Carpas, escenarios, mobiliario e iluminacion para tu evento en {{city}}."
+    }
+  },
   'fair_carnival_operator': {
     "id": "fair_carnival_operator",
     "nameEs": "Operador Feria",

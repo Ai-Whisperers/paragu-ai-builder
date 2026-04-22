@@ -1,0 +1,12 @@
+{
+  "slug": "service-data-strategy",
+  "titleKey": "service-data-strategy.seo.title",
+  "descriptionKey": "service-data-strategy.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "service-data-strategy.hero" },
+    { "id": "features", "variant": "three-col", "content": "service-data-strategy.features" },
+    { "id": "contact", "variant": "split", "content": "service-data-strategy.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

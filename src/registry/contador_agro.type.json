@@ -1,0 +1,101 @@
+{
+  "id": "contador_agro",
+  "nameEs": "Estudio Contable Agropecuario",
+  "nameEn": "Agribusiness Accounting",
+  "verticalId": "b2b-professional",
+  "extends": "contador",
+  "tokens": "contador_agro",
+  "content": "contador_agro",
+  "schema": "contador",
+  "icon": "wheat",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "pricingTable",
+        "process",
+        "about",
+        "testimonial",
+        "faq",
+        "leadForm",
+        "footer"
+      ],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    }
+  },
+  "features": {
+    "leadForm": {
+      "enabled": true,
+      "fields": ["name", "whatsapp", "city", "activity", "hectares", "headcount", "message"]
+    },
+    "pricingDisplay": {
+      "enabled": true,
+      "showFrom": true
+    },
+    "languageToggle": {
+      "enabled": true,
+      "languages": ["es", "pt"]
+    },
+    "teamCredentials": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "fieldVisits": {
+      "enabled": true,
+      "note": "Visita al establecimiento disponible"
+    }
+  },
+  "serviceCategories": [
+    "ire-agropecuario",
+    "senacsa",
+    "cooperativas",
+    "exportacion",
+    "laboral",
+    "financiero"
+  ],
+  "regulatoryVocab": {
+    "taxAuthority": "DNIT",
+    "animalAuthority": "SENACSA",
+    "cooperativeAuthority": "INCOOP",
+    "laborFramework": "Ley 5115 (trabajador rural)",
+    "exportSupport": "REDIEX",
+    "originCert": "MERCOSUR 60/40",
+    "phytoSanitary": "SENAVE"
+  },
+  "targetAudience": {
+    "primary": "Productores agropecuarios de Paraguay: soja, ganado, mandioca, mate, caña",
+    "secondary": "Cooperativas de produccion y consumo (INCOOP)",
+    "tertiary": "Brasiguayos en Alto Parana, Mennonitas en Chaco"
+  },
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Contador Agropecuario en {{city}} | IRE Agro, SENACSA, INCOOP",
+    "descriptionTemplate": "Contador especialista en agronegocio: IRE Agropecuario, SENACSA, cooperativas INCOOP, exportacion MERCOSUR. Visita al establecimiento incluida.",
+    "keywords": [
+      "contador agropecuario {{city}}",
+      "IRE agropecuario",
+      "constancia de no retencion paraguay",
+      "SENACSA marcas y senales",
+      "contador cooperativa INCOOP",
+      "IMAGRO paraguay",
+      "balance social cooperativo",
+      "contador soja Alto Parana",
+      "contador ganaderia paraguay"
+    ]
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Planes", "Proceso", "Contacto"],
+    "cta": { "text": "Agendar Visita", "action": "leadForm" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Contabilidad para el campo paraguayo",
+    "subheadlineTemplate": "Especialistas en agronegocio desde {{city}}: IRE Agropecuario, SENACSA, cooperativas, exportacion.",
+    "ctaPrimary": { "text": "Agendar Consulta", "action": "leadForm" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}

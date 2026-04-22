@@ -1,0 +1,197 @@
+{
+  "id": "contador_maquila",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad especializada en Maquila (Ley 1064/97)",
+    "subheadline": "Regimen de tributo unico 1%, certificado de origen MERCOSUR 60/40, CNIME, importacion temporal. Para maquiladoras en Ciudad del Este, Pedro Juan y Zona Franca.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Somos contadores especialistas en el regimen de Maquila paraguayo bajo Ley 1064/97. Atendemos maquiladoras electronicas, textiles, automotrices y de ensamble en Ciudad del Este, Pedro Juan, Hernandarias y Zona Franca. Conocemos todos los tramites en INTN, MIC, CNIME y Cancilleria.",
+    "bullets": [
+      "Especialistas en Ley 1064/97 - Industria Maquiladora de Exportacion",
+      "Gestion integral ante CNIME y MIC",
+      "Certificados de origen MERCOSUR 60/40 regular",
+      "Coordinacion con despachantes de aduana",
+      "Atencion en espanol, portugues, ingles"
+    ]
+  },
+  "services": {
+    "title": "Servicios para Maquiladoras",
+    "subtitle": "Todo el ciclo operativo de una empresa maquiladora — desde aprobacion de programa hasta reporting trimestral",
+    "categories": [
+      {
+        "id": "programa-maquila",
+        "name": "Aprobacion del Programa de Maquila",
+        "description": "Preparacion y gestion del programa maquiladora ante CNIME (Consejo Nacional de la Industria Maquiladora).",
+        "icon": "file-check",
+        "items": [
+          "Elaboracion del Programa de Maquila completo",
+          "Proyeccion financiera a 5 anos",
+          "Estructura de costos + valor agregado nacional",
+          "Aprobacion ante CNIME",
+          "Gestion en MIC (Ministerio de Industria y Comercio)",
+          "Coordinacion INTN (Instituto Nacional de Tecnologia)"
+        ]
+      },
+      {
+        "id": "tributo-unico",
+        "name": "Tributo Unico 1%",
+        "description": "Liquidacion del tributo unico sobre el valor facturado (reemplaza IVA, IRE, IRP, aduanas).",
+        "icon": "percent",
+        "items": [
+          "Liquidacion mensual del 1% sobre facturacion",
+          "Exoneracion total de IVA en operaciones maquila",
+          "Exoneracion de IRE e IRP",
+          "Sin aranceles de aduana (importacion temporal)",
+          "Presentacion via Marangatu (formulario maquila)"
+        ]
+      },
+      {
+        "id": "certificado-origen",
+        "name": "Certificado de Origen MERCOSUR",
+        "description": "Regimen 60/40 para exportar con arancel cero a Argentina, Brasil, Uruguay, Chile.",
+        "icon": "globe",
+        "items": [
+          "Calculo de valor agregado regional (>= 60%)",
+          "Gestion de certificados de origen MERCOSUR",
+          "Clasificacion arancelaria NALADISA",
+          "Coordinacion con Cancilleria + MIC",
+          "Renovacion anual de beneficios"
+        ]
+      },
+      {
+        "id": "importacion-temporal",
+        "name": "Importacion Temporal de Insumos",
+        "description": "Insumos y materias primas importadas sin aranceles para transformacion.",
+        "icon": "truck",
+        "items": [
+          "Regimen de importacion temporal (Res. DNA/MIC)",
+          "Control de inventarios insumo-producto",
+          "Merma admitida y no admitida",
+          "Reporting de balance de materiales",
+          "Reexportacion obligatoria"
+        ]
+      },
+      {
+        "id": "reporting-cnime",
+        "name": "Reporting Trimestral al CNIME",
+        "description": "Informes obligatorios de actividad maquiladora al Consejo.",
+        "icon": "clipboard-check",
+        "items": [
+          "Balance de materiales trimestral",
+          "Empleo directo e indirecto generado",
+          "Valor agregado nacional realizado",
+          "Exportaciones efectivizadas",
+          "Cumplimiento del programa aprobado"
+        ]
+      },
+      {
+        "id": "laboral-maquila",
+        "name": "Laboral y IPS en Maquila",
+        "description": "Liquidacion de sueldos + IPS + MTESS + convenios colectivos.",
+        "icon": "users",
+        "items": [
+          "Planilla de sueldos (maquila suele emplear 50-500 personas)",
+          "Aportes IPS obrero 9% + patronal 16.5%",
+          "REOP-MTESS mensual",
+          "Convenios colectivos sectoriales",
+          "Liquidaciones finales + preaviso + indemnizacion"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes para Maquiladoras",
+    "subtitle": "Segun tamano operativo y volumen de exportaciones.",
+    "disclaimer": "Precios referenciales. Plan final tras relevamiento del programa maquila y volumen de operaciones.",
+    "plans": [
+      {
+        "id": "maquila-start",
+        "name": "Maquila Start-up",
+        "priceFrom": "4.500.000 Gs/mes",
+        "description": "Programa recien aprobado, hasta 30 empleados, exportacion local (AR/BR).",
+        "features": [
+          "Liquidacion tributo unico 1%",
+          "Hasta 30 sueldos + IPS + MTESS",
+          "1 certificado de origen por mes",
+          "Reporting trimestral CNIME",
+          "Asesoria CNIME + MIC"
+        ]
+      },
+      {
+        "id": "maquila-operando",
+        "name": "Maquila Operando",
+        "priceFrom": "9.000.000 Gs/mes",
+        "description": "Entre 50-200 empleados, exportacion MERCOSUR ampliada.",
+        "features": [
+          "Tributo unico + balance de materiales",
+          "Hasta 200 sueldos + convenios colectivos",
+          "Multiples certificados de origen mensuales",
+          "Auditoria externa anual",
+          "Coordinacion con despachantes de aduana",
+          "Reunion mensual con gerencia"
+        ],
+        "featured": true
+      },
+      {
+        "id": "maquila-grande",
+        "name": "Maquila Industrial",
+        "priceFrom": "Consultar",
+        "description": "Mas de 200 empleados, multiples programas, operacion 24/7.",
+        "features": [
+          "Equipo dedicado in-house",
+          "Contabilidad de costos por linea/producto",
+          "Auditoria externa + interna permanente",
+          "SOC compliance para clientes globales",
+          "Cumplimiento INTN + certificaciones ISO",
+          "Soporte en 3 idiomas"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "Como Acompanamos a Tu Maquiladora",
+    "steps": [
+      { "number": "1", "title": "Evaluacion del Programa", "description": "Revisamos programa aprobado, ultimo reporting CNIME, estado tributario y laboral." },
+      { "number": "2", "title": "Plan Operativo", "description": "Plan mensual con costos, honorarios y responsabilidades claras segun volumen." },
+      { "number": "3", "title": "Onboarding", "description": "Traspaso desde contador anterior, acceso a Marangatu, integracion con despachante de aduana." },
+      { "number": "4", "title": "Operacion Continua", "description": "Tributo unico mensual, IPS, balance de materiales, certificados de origen segun se facturan." },
+      { "number": "5", "title": "Reporting Trimestral CNIME", "description": "Preparacion y presentacion completa del informe obligatorio cada 3 meses." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Desde que trabajamos con ellos el CNIME nunca observo un reporting. Antes teniamos multas cada trimestre.",
+      "author": "Pablo Mendieta",
+      "role": "Gerente General, Maquila electronica en CDE",
+      "rating": 5
+    },
+    {
+      "quote": "Nos ayudaron a aprobar un Programa de Maquila ampliado en 90 dias. Ahora exportamos a 4 paises de MERCOSUR.",
+      "author": "Maria Acosta",
+      "role": "CFO, Maquila textil en Hernandarias",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Que es el regimen de Maquila?", "a": "Ley 1064/97: empresas que importan insumos sin aranceles, los transforman en PY y exportan el 100% del producto final. Pagan tributo unico 1% sobre facturacion y nada mas (ni IVA, ni IRE, ni aduanas)." },
+    { "q": "Puedo vender el producto en Paraguay?", "a": "El 100% debe exportarse. Solo venta interna residual (merma comercializable) esta permitida bajo condiciones. La regla general es exportar todo." },
+    { "q": "Que es 60/40 MERCOSUR?", "a": "Para obtener certificado de origen MERCOSUR (arancel 0% al importar a AR/BR/UY), el 60% del valor debe ser regional. La maquiladora tiene esquemas especificos aprobados." },
+    { "q": "Cuanto tarda la aprobacion del Programa?", "a": "El programa ante CNIME suele tardar 90-120 dias desde presentacion completa. Si hay observaciones puede extenderse." },
+    { "q": "Trabajan con clientes en ingles?", "a": "Si. Muchas maquiladoras tienen casas matrices en USA, Brasil o Asia. Reportamos en ingles cuando se requiere." },
+    { "q": "Cumplen con requisitos SOC para clientes globales?", "a": "Podemos coordinar con firmas SOC1/SOC2 para clientes que requieren auditoria de controles. Experiencia previa con automotive y electronica." }
+  ],
+  "cta": {
+    "title": "Hablamos de tu maquila?",
+    "subtitle": "Consulta inicial sin costo, 45 minutos. Podemos ir a tu planta o atender por videollamada.",
+    "button": "Agendar Consulta"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Contabilidad Maquila en {{city}}",
+    "copyright": "© {{year}} {{businessName}}",
+    "disclaimer": "Matriculados CCP - Especialistas Ley 1064/97"
+  }
+}

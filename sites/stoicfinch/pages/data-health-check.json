@@ -1,0 +1,12 @@
+{
+  "slug": "data-health-check",
+  "titleKey": "dataHealthCheckPage.seo.title",
+  "descriptionKey": "dataHealthCheckPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "dataHealthCheckPage.hero" },
+    { "id": "lead-form", "variant": "standard", "content": "dataHealthCheckPage.intake" },
+    { "id": "contact", "variant": "split", "content": "dataHealthCheckPage.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

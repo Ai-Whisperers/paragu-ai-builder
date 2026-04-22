@@ -47,8 +47,18 @@ import { OurStorySection } from '@/components/sections/our-story-section'
 import { B2BWholesaleSection } from '@/components/sections/b2b-wholesale-section'
 import { RecipeSection } from '@/components/sections/recipe-section'
 import { TaxSavingsCalculatorSection } from '@/components/sections/tax-savings-calculator-section'
+// Contador / accounting firm sections
+import { TaxDeadlineBannerSection } from '@/components/sections/tax-deadline-banner-section'
+import { CalcIrpSection } from '@/components/sections/calc-irp-section'
+import { CalcAguinaldoSection } from '@/components/sections/calc-aguinaldo-section'
+import { CalcFiniquitoSection } from '@/components/sections/calc-finiquito-section'
+import { CalcIvaSection } from '@/components/sections/calc-iva-section'
+import { CalcIreSection } from '@/components/sections/calc-ire-section'
+import { CalcIpsSection } from '@/components/sections/calc-ips-section'
+import { CalcCostoEmpleadoSection } from '@/components/sections/calc-costo-empleado-section'
 import { IntakeWizardSection } from '@/components/sections/intake-wizard-section'
 import { FeaturesSection } from '@/components/sections/features-section'
+import { ResourcesListSection } from '@/components/sections/resources-list-section'
 import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
 import { ProcessSection } from '@/components/sections/process-section'
 import { MenuCategorizedPricedSection } from '@/components/sections/menu-categorized-priced-section'
@@ -56,6 +66,9 @@ import { ComplianceDisclaimerFooterSection } from '@/components/sections/complia
 import { PromoBannerSection } from '@/components/sections/promo-banner-section'
 import { NewsletterSignupSection } from '@/components/sections/newsletter-signup-section'
 import { OpenHoursStatusSection } from '@/components/sections/open-hours-status-section'
+import { PricingRangeSection } from '@/components/sections/pricing-range-section'
+import { PricingTableSection } from '@/components/sections/pricing-table-section'
+import { FaqCategorizedSection } from '@/components/sections/faq-categorized-section'
 
 // Exported so tests (and any future tooling) can assert that every
 // registered section in section-registry has a matching render binding.
@@ -108,9 +121,22 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'promo-banner': PromoBannerSection,
   'newsletter-signup': NewsletterSignupSection,
   'open-hours-status': OpenHoursStatusSection,
+  'pricing-range': PricingRangeSection,
+  'pricing-table': PricingTableSection,
+  'faq-categorized': FaqCategorizedSection,
   'tax-savings-calculator': TaxSavingsCalculatorSection,
+  // Contador / accounting firm sections
+  'tax-deadline-banner': TaxDeadlineBannerSection,
+  'calc-irp': CalcIrpSection,
+  'calc-aguinaldo': CalcAguinaldoSection,
+  'calc-finiquito': CalcFiniquitoSection,
+  'calc-iva': CalcIvaSection,
+  'calc-ire': CalcIreSection,
+  'calc-ips': CalcIpsSection,
+  'calc-costo-empleado': CalcCostoEmpleadoSection,
   'intake-wizard': IntakeWizardSection,
   features: FeaturesSection,
+  'resources-list': ResourcesListSection,
   'intake-questionnaire': IntakeQuestionnaireSection,
   process: ProcessSection,
   'menu-categorized-priced': MenuCategorizedPricedSection,

@@ -1,0 +1,36 @@
+{
+  "name": "Accounting for Cooperatives",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["community", "trustworthy", "institutional", "rural-friendly"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Cooperative Blue & Wheat",
+      "colors": {
+        "primary": "#164e63",
+        "secondary": "#b45309",
+        "accent": "#0e7490",
+        "background": "#fefdf8",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "textLight": "#475569",
+        "border": "#e2e8f0",
+        "success": "#16a34a",
+        "warning": "#d97706",
+        "error": "#dc2626"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Merriweather', 'Georgia', serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Merriweather:wght@500;700"
+  ],
+  "borderRadius": "md"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Accounting Firm",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["trustworthy", "precise", "corporate", "premium"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Deep Navy & Emerald",
+      "colors": {
+        "primary": "#0f2744",
+        "secondary": "#047857",
+        "accent": "#b45309",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "textLight": "#475569",
+        "border": "#e2e8f0",
+        "success": "#059669",
+        "warning": "#d97706",
+        "error": "#dc2626"
+      }
+    },
+    "optionB": {
+      "name": "Charcoal & Gold",
+      "colors": {
+        "primary": "#1f2937",
+        "secondary": "#b08d57",
+        "accent": "#0ea5e9",
+        "background": "#ffffff",
+        "surface": "#f9fafb",
+        "text": "#111827",
+        "textLight": "#6b7280",
+        "border": "#e5e7eb",
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Lora', 'Georgia', serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Lora:wght@500;600;700"
+  ],
+  "borderRadius": "sm"
+}

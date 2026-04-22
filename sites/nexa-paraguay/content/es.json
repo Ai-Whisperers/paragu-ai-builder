@@ -1683,22 +1683,25 @@
     },
     "guides": {
       "title": "Guías descargables",
-      "subtitle": "Documentos útiles para preparar tu expediente y entender el proceso.",
+      "subtitle": "Documentos prácticos para preparar su expediente y entender el proceso.",
       "features": [
         {
           "icon": "FileText",
-          "title": "Checklist documental",
-          "description": "Lista completa de documentos necesarios para residencia paraguaya."
+          "title": "Guía de residencia paraguaya",
+          "description": "Todo lo que necesita para establecerse en Paraguay: plazos, documentos, costos y requisitos.",
+          "href": "/sites/nexa-paraguay/guias/01-guia-residencia-paraguaya-profesional.md"
         },
         {
-          "icon": "FileText",
-          "title": "Guía fiscal 2026",
-          "description": "Impuesto territorial, IRE 10 %, tratamiento de renta extranjera."
+          "icon": "Calculator",
+          "title": "Sistema fiscal territorial",
+          "description": "Régimen territorial paraguayo, IRE 10 % y tratamiento de rentas extranjeras, explicado para inversores europeos.",
+          "href": "/sites/nexa-paraguay/guias/02-sistema-fiscal-territorial-profesional.md"
         },
         {
-          "icon": "FileText",
-          "title": "Q&A inversores",
-          "description": "25 preguntas frecuentes de inversores europeos, respondidas."
+          "icon": "Home",
+          "title": "Costo de vida en Asunción",
+          "description": "Presupuesto mensual realista por barrios, vivienda, educación y salud privada.",
+          "href": "/sites/nexa-paraguay/guias/03-costo-de-vida-asuncion-profesional.md"
         }
       ]
     },

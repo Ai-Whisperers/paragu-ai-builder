@@ -1,0 +1,36 @@
+{
+  "name": "Accounting for Medical Professionals",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["warm", "professional", "confidential", "high-end"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Clinical Teal & Cream",
+      "colors": {
+        "primary": "#134e4a",
+        "secondary": "#b08d57",
+        "accent": "#0f766e",
+        "background": "#fffbf7",
+        "surface": "#ffffff",
+        "text": "#134e4a",
+        "textLight": "#4a5a4a",
+        "border": "#e5e7eb",
+        "success": "#059669",
+        "warning": "#d97706",
+        "error": "#dc2626"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Cormorant Garamond', 'Georgia', serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Cormorant Garamond:wght@500;600;700"
+  ],
+  "borderRadius": "md"
+}

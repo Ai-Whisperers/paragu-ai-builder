@@ -1,0 +1,13 @@
+{
+  "slug": "services",
+  "titleKey": "servicesIndexPage.seo.title",
+  "descriptionKey": "servicesIndexPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "servicesIndexPage.hero" },
+    { "id": "services", "variant": "cards", "content": "servicesIndexPage.services" },
+    { "id": "process", "variant": "horizontal", "content": "servicesIndexPage.process" },
+    { "id": "contact", "variant": "split", "content": "servicesIndexPage.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

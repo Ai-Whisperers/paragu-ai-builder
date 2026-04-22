@@ -1,0 +1,185 @@
+{
+  "id": "contador_cooperativa",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad especializada para cooperativas paraguayas",
+    "subheadline": "Estados contables INCOOP, Balance Social Cooperativo (Res. 4109/09), rendicion a asamblea, auditoria externa obligatoria. Conocemos el marco regulatorio de memoria.",
+    "ctaPrimary": "Agendar Reunion",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Acompanamos cooperativas de produccion, consumo, ahorro y credito, escolares y mixtas en toda la estructura contable, tributaria y regulatoria exigida por INCOOP. Sabemos preparar asambleas, distribuir excedentes correctamente y presentar Balance Social a tiempo.",
+    "bullets": [
+      "Especialistas en marco INCOOP (Ley 438/94 y resoluciones)",
+      "Auditoria externa bajo NIA con habilitacion INCOOP",
+      "Asesoramiento societario y de gobernanza",
+      "Acompanamiento en fiscalizaciones INCOOP + DNIT",
+      "Atencion en espanol, guarani, aleman (cooperativas Chaco)"
+    ]
+  },
+  "services": {
+    "title": "Servicios para Cooperativas",
+    "subtitle": "Todo lo que INCOOP, DNIT y tus socios exigen — presentado a tiempo",
+    "categories": [
+      {
+        "id": "incoop-reporting",
+        "name": "Reporting INCOOP",
+        "description": "Estados contables bajo resoluciones INCOOP, distintas a las de DNIT.",
+        "icon": "file-text",
+        "items": [
+          "Estados contables INCOOP formato oficial",
+          "Conciliaciones con DNIT (coherencia entre ambos reportes)",
+          "Auditoria externa anual (obligatoria si activos > umbral)",
+          "Rendicion trimestral de morosidad",
+          "Reporte a Central de Riesgos cuando corresponde"
+        ]
+      },
+      {
+        "id": "balance-social",
+        "name": "Balance Social Cooperativo",
+        "description": "Res. INCOOP 4109/09: documento anual obligatorio.",
+        "icon": "users",
+        "items": [
+          "Elaboracion del Balance Social segun Capitulo 8",
+          "Medicion de los 7 principios cooperativos",
+          "Indicadores de educacion e integracion",
+          "Presentacion junto con EECC anuales",
+          "Comunicacion a los socios"
+        ]
+      },
+      {
+        "id": "asamblea",
+        "name": "Asamblea y Gobernanza",
+        "description": "Preparacion completa de asambleas ordinarias y extraordinarias.",
+        "icon": "vote",
+        "items": [
+          "Memoria anual del Consejo de Administracion",
+          "Plan anual de actividades",
+          "Proyecto de distribucion de excedentes",
+          "Fondo de educacion cooperativa (10% minimo)",
+          "Actas de asamblea registradas",
+          "Convocatoria en tiempo y forma"
+        ]
+      },
+      {
+        "id": "impuestos-coop",
+        "name": "Tributacion Cooperativa",
+        "description": "Cooperativas tienen exenciones parciales pero siguen obligadas a IVA, IPS, IRP sobre sueldos.",
+        "icon": "shield",
+        "items": [
+          "Liquidacion IVA de actos cooperativos y no cooperativos",
+          "IRE sobre actos con no socios (tasa 10%)",
+          "IRP de directivos y empleados",
+          "IPS + MTESS de todo el personal",
+          "Acreditacion de exenciones especificas"
+        ]
+      },
+      {
+        "id": "fiscalizaciones",
+        "name": "Fiscalizaciones y Cumplimiento",
+        "description": "Atencion de inspecciones INCOOP y DNIT.",
+        "icon": "clipboard-check",
+        "items": [
+          "Respuesta a requerimientos INCOOP",
+          "Defensa en sumarios administrativos",
+          "Regularizacion de estados atrasados",
+          "Certificado de cumplimiento al dia",
+          "Asesoramiento pre-fiscalizacion (preventivo)"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes para Cooperativas",
+    "subtitle": "Honorarios segun tamano y complejidad. Transparencia total.",
+    "disclaimer": "Precios indicativos. Plan final se ajusta tras relevamiento de activos y socios.",
+    "plans": [
+      {
+        "id": "coop-pequena",
+        "name": "Cooperativa Pequena",
+        "priceFrom": "2.500.000 Gs/mes",
+        "description": "Hasta 200 socios y activos < Gs. 5.000 millones.",
+        "features": [
+          "Contabilidad mensual INCOOP",
+          "Balance Social anual",
+          "Preparacion de asamblea ordinaria",
+          "Auditoria externa si es obligatoria",
+          "Hasta 5 empleados en sueldos"
+        ]
+      },
+      {
+        "id": "coop-mediana",
+        "name": "Cooperativa Mediana",
+        "priceFrom": "5.500.000 Gs/mes",
+        "description": "Entre 200 y 2.000 socios. Actividades mixtas.",
+        "features": [
+          "Contabilidad de costos por seccion",
+          "Balance Social + Plan Anual + Memoria",
+          "Auditoria externa NIA",
+          "Asesoramiento mensual al Consejo",
+          "Hasta 30 empleados en sueldos",
+          "Atencion en fiscalizaciones"
+        ],
+        "featured": true
+      },
+      {
+        "id": "coop-grande",
+        "name": "Cooperativa Grande",
+        "priceFrom": "Consultar",
+        "description": "Mas de 2.000 socios, multiples sucursales, seccion de ahorro y credito.",
+        "features": [
+          "Contabilidad de costos por sucursal",
+          "Auditoria externa + interna permanente",
+          "Reporting a Central de Riesgos",
+          "Cumplimiento SEPRELAD para seccion credito",
+          "Reuniones mensuales con Consejo",
+          "Capacitacion a directivos"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "Como Acompanamos a Tu Cooperativa",
+    "steps": [
+      { "number": "1", "title": "Diagnostico Regulatorio", "description": "Revisamos estado INCOOP, deudas DNIT, ultimas asambleas y actas." },
+      { "number": "2", "title": "Plan de Regularizacion", "description": "Si hay pendientes, regularizamos antes de arrancar (lo mas comun en coops con rotacion de directivos)." },
+      { "number": "3", "title": "Onboarding", "description": "Traspaso ordenado, acceso a sistema contable cooperativo, capacitacion a tesoreria interna." },
+      { "number": "4", "title": "Operacion Mensual", "description": "Cierres mensuales, reporting, preparacion de asambleas cuando toca." },
+      { "number": "5", "title": "Auditoria y Asamblea Anual", "description": "Emitimos EECC, Balance Social, acompanamos la asamblea y presentamos todo a INCOOP." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Tomamos la cooperativa con problemas serios de morosidad interna. En 18 meses estuvimos al dia con INCOOP, DNIT y los socios. Confianza plena.",
+      "author": "Santiago Weber",
+      "role": "Presidente, Cooperativa agropecuaria Chaco",
+      "rating": 5
+    },
+    {
+      "quote": "El Balance Social nunca se habia hecho en forma en 30 anos de cooperativa. Ahora es nuestro mejor instrumento de comunicacion con los socios.",
+      "author": "Maria del Carmen Rojas",
+      "role": "Sindica, Cooperativa Multiactiva",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Cuando es obligatoria la auditoria externa?", "a": "Cuando los activos superan el umbral fijado por INCOOP (actualizado anualmente por resolucion). Tambien si la asamblea asi lo decide voluntariamente." },
+    { "q": "Que es el Balance Social Cooperativo?", "a": "Es un documento anual obligatorio (Res. INCOOP 4109/09, Capitulo 8) que mide el cumplimiento de los principios cooperativos: adhesion abierta, gestion democratica, educacion, integracion, etc." },
+    { "q": "Puede una cooperativa tener IRE si solo hace actos cooperativos?", "a": "Si realiza operaciones con no socios o actos no cooperativos, esos si estan gravados con IRE 10%. Los actos cooperativos puros tienen exenciones especiales." },
+    { "q": "Que pasa si no presentamos Balance Social?", "a": "INCOOP puede sancionar con multa e impedir inscripciones futuras. Recomendamos presentarlo siempre, aun fuera de plazo." },
+    { "q": "Cuanto tiempo antes preparan una asamblea ordinaria?", "a": "La convocatoria formal va 15 dias antes. Nosotros empezamos 60 dias antes con EECC, Memoria, Plan Anual y proyecto de distribucion." },
+    { "q": "Trabajan con cooperativas del Chaco?", "a": "Si. Varios de nuestros clientes son cooperativas mennonitas. Atendemos en espanol y en aleman cuando es necesario." },
+    { "q": "Hacen reporting SEPRELAD?", "a": "Si. Las cooperativas con seccion de ahorro y credito son sujetos obligados. Registramos, capacitamos al oficial de cumplimiento y presentamos ROS mensuales." }
+  ],
+  "cta": {
+    "title": "Conversamos sobre tu cooperativa?",
+    "subtitle": "Una reunion de 45 minutos con tu Consejo — en persona o por videollamada — para entender el estado actual y como podemos acompanarlos.",
+    "button": "Agendar Reunion"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Contabilidad Cooperativa en {{city}}",
+    "copyright": "© {{year}} {{businessName}}",
+    "disclaimer": "Matriculados CCP + Habilitados INCOOP"
+  }
+}

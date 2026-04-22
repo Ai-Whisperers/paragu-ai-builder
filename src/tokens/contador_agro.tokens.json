@@ -1,0 +1,36 @@
+{
+  "name": "Accounting for Agribusiness",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["earthy", "grounded", "rural", "trustworthy"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Soy Green & Ochre",
+      "colors": {
+        "primary": "#3f5f3f",
+        "secondary": "#a86b2e",
+        "accent": "#78350f",
+        "background": "#fefefb",
+        "surface": "#ffffff",
+        "text": "#1c2a1c",
+        "textLight": "#4a5a4a",
+        "border": "#e5e2d4",
+        "success": "#65a30d",
+        "warning": "#ca8a04",
+        "error": "#b91c1c"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Merriweather', 'Georgia', serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Merriweather:wght@500;700;900"
+  ],
+  "borderRadius": "md"
+}
