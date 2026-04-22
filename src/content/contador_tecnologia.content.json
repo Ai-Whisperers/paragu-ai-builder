@@ -1,0 +1,205 @@
+{
+  "id": "contador_tecnologia",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Accounting for Tech & SaaS Companies",
+    "subheadline": "Exportacion de servicios, territorial tax 0%, stock options, reporting bilingue para inversores. Para startups, software houses y SaaS operando desde Paraguay.",
+    "ctaPrimary": "Book Free Consultation",
+    "ctaSecondary": "See Services"
+  },
+  "about": {
+    "title": "About {{businessName}}",
+    "content": "We serve technology companies operating from Paraguay — from 2-person SaaS startups to 50+ headcount software houses. We leverage Paraguay's territorial tax system (10% local / 0% foreign) to minimize tax burden legally, handle stock options accounting, payroll for distributed teams, and bilingual reporting for international investors.",
+    "bullets": [
+      "Expertise on Paraguay's territorial tax for software exports",
+      "Stock options (ESOP) accounting and tax treatment",
+      "Payroll for distributed teams (PY + remote LATAM)",
+      "Bilingual ES/EN reporting for VCs and auditors",
+      "Familiar with QuickBooks, Xero, NetSuite, Stripe data"
+    ]
+  },
+  "services": {
+    "title": "Services for Tech Companies",
+    "subtitle": "Every filing, every report, aligned with how tech companies actually operate",
+    "categories": [
+      {
+        "id": "export-services",
+        "name": "Software Export Tax Treatment",
+        "description": "Services exported from PY to foreign clients qualify as foreign-source income (0% IRE).",
+        "icon": "code",
+        "items": [
+          "Classification of services as export (vs local)",
+          "Exemption from IVA on exports",
+          "Territorial IRE 0% on foreign-source revenue",
+          "Documentation for DNIT substantiation",
+          "Annual audit trail for exempt revenue"
+        ]
+      },
+      {
+        "id": "payroll-tech",
+        "name": "Tech Payroll (Local + Distributed)",
+        "description": "PY employees + remote contractors across LATAM + stock option vesting schedules.",
+        "icon": "users",
+        "items": [
+          "IPS + MTESS for PY employees",
+          "Independent contractors in AR, BR, CO, UY, CL, MX",
+          "Stock option / RSU vesting accounting",
+          "Exercise tax treatment (when options become taxable)",
+          "Expense reimbursement programs"
+        ]
+      },
+      {
+        "id": "stock-options",
+        "name": "Equity Compensation (ESOPs)",
+        "description": "Common framework: US-style options pool + PY-resident employees.",
+        "icon": "trending-up",
+        "items": [
+          "ESOP structure design (pool size, vesting)",
+          "Option grant accounting (IFRS 2 compliant)",
+          "Exercise taxation for PY residents",
+          "83(b) election coordination for US cofounders",
+          "Cliff + vesting schedule administration"
+        ]
+      },
+      {
+        "id": "funding",
+        "name": "Funding & Investor Reporting",
+        "description": "Pre-seed to Series A+. Monthly investor updates, cap table, financial statements.",
+        "icon": "chart-bar",
+        "items": [
+          "SAFE and convertible note accounting",
+          "Priced round (equity) transaction handling",
+          "Monthly investor updates (ES/EN)",
+          "Cap table integration (Carta / AngelList)",
+          "Financial statements for due diligence",
+          "Audit-ready books from day 1"
+        ]
+      },
+      {
+        "id": "saas-metrics",
+        "name": "SaaS Financial Metrics",
+        "description": "MRR, ARR, CAC, churn — reported monthly, in the format VCs expect.",
+        "icon": "bar-chart",
+        "items": [
+          "MRR / ARR reporting with cohort analysis",
+          "CAC and LTV calculations",
+          "Monthly/annual recurring revenue classification",
+          "Deferred revenue recognition (ASC 606-style)",
+          "Churn rate and expansion metrics",
+          "Stripe / Paddle / LemonSqueezy integration"
+        ]
+      },
+      {
+        "id": "entity-structure",
+        "name": "Entity & International Structure",
+        "description": "EAS in PY + Delaware C-corp + international subsidiaries.",
+        "icon": "globe",
+        "items": [
+          "EAS for PY operations",
+          "Delaware C-corp + PY subsidiary common pattern",
+          "Intercompany agreements (transfer pricing ready)",
+          "Permanent establishment analysis",
+          "Tax treaty application (CDI)"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Packages for Tech Companies",
+    "subtitle": "USD reference pricing. Crypto accepted.",
+    "disclaimer": "Scope scales with team size, revenue, and complexity (equity, multi-entity).",
+    "plans": [
+      {
+        "id": "pre-seed",
+        "name": "Pre-Seed Startup",
+        "priceFrom": "USD 499/month",
+        "description": "Founders only, up to USD 500k ARR, single entity PY.",
+        "features": [
+          "Monthly IVA + IRE filings",
+          "Up to 5 team members",
+          "Basic SaaS metrics (MRR, ARR)",
+          "Stripe integration",
+          "Monthly investor update (ES/EN)"
+        ]
+      },
+      {
+        "id": "seed",
+        "name": "Seed",
+        "priceFrom": "USD 1,200/month",
+        "description": "Up to USD 2M ARR, 10-20 team, stock options program, 1-2 foreign subs.",
+        "features": [
+          "Full compliance PY + foreign subs",
+          "ESOP accounting",
+          "Cap table maintenance",
+          "Monthly MRR cohorts + CAC/LTV",
+          "Bilingual board reports",
+          "Audit-ready books"
+        ],
+        "featured": true
+      },
+      {
+        "id": "series-a",
+        "name": "Series A+",
+        "priceFrom": "Contact",
+        "description": "Post-funding companies, multi-entity, audit-required.",
+        "features": [
+          "Dedicated controller + senior accountant",
+          "Multi-entity consolidation",
+          "Audit coordination (IFRS / US GAAP)",
+          "Continuous investor reporting",
+          "Transfer pricing documentation",
+          "Strategic tax planning"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "How We Work with Tech Companies",
+    "steps": [
+      { "number": "1", "title": "Free Diagnostic", "description": "30-minute video call. We review your stack (Stripe, Carta, Gusto, QBO) and ask the right questions." },
+      { "number": "2", "title": "Structured Proposal", "description": "Written scope with deliverables, timeline, USD pricing, and clear handoff SLAs." },
+      { "number": "3", "title": "Onboarding", "description": "Read-only access to your financial tools. Historical clean-up if needed (usually 30-60 days)." },
+      { "number": "4", "title": "Monthly Ops", "description": "Close by 5th business day. Investor update draft by 10th. SaaS metrics report attached." },
+      { "number": "5", "title": "Quarterly Planning", "description": "Tax planning review, fundraising prep, cash-out analysis — things VCs care about." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "We moved from a US accounting firm that didn't understand PY territorial tax. Saved us six figures in our first year alone.",
+      "author": "Max R.",
+      "role": "CEO, B2B SaaS (Series A, PY/US)",
+      "rating": 5
+    },
+    {
+      "quote": "Monthly investor updates in perfect English, MRR cohort data delivered by the 10th every month. Our board loves them.",
+      "author": "Soledad P.",
+      "role": "CFO, Marketplace Startup",
+      "rating": 5
+    },
+    {
+      "quote": "As a 4-person startup we couldn't afford a Big 4 firm but needed audit-quality books for our seed round. These folks delivered.",
+      "author": "Ivan W.",
+      "role": "Founder, Dev Tools Startup",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Do you understand Paraguay's territorial tax system?", "a": "Yes. It's core to what we do. Service exports from PY are foreign-source income and qualify for 0% IRE. We document the substantiation correctly for DNIT." },
+    { "q": "Can you handle our US C-corp + PY subsidiary structure?", "a": "Yes. This is the most common pattern for PY-founded startups. We coordinate with your US tax advisor and handle the PY side end-to-end." },
+    { "q": "Do you integrate with our stack (Stripe, QuickBooks, Carta)?", "a": "Yes. Read-only API access is standard. We can also pull data from Gusto/Deel (payroll), AngelList, Carta (cap table), and major SaaS billing platforms." },
+    { "q": "How do you handle stock options for PY employees?", "a": "Common pattern: Delaware C-corp issues options, PY employees exercise under PY tax rules. Gain at exercise is taxable as IRP in PY. We document grant, vesting, and exercise correctly." },
+    { "q": "Can you work in English?", "a": "Yes — our team operates bilingually. Monthly reports, tax filings, board updates can all be delivered in English." },
+    { "q": "What if we raise and need audited financials?", "a": "We deliver audit-ready books from day 1. When audit is required (usually Series A+), we coordinate with Big 4 or boutique firms — our books pass." },
+    { "q": "How do you handle remote contractors across LATAM?", "a": "We advise on whether each arrangement is contractor vs employee in each country (AR, BR, CO, UY, MX). We coordinate with local providers (Deel, Ontop) for payment and compliance." }
+  ],
+  "cta": {
+    "title": "Ready to work with an accountant who gets tech?",
+    "subtitle": "Free 30-minute diagnostic in English or Spanish. We'll tell you honestly if we're a fit for your stage.",
+    "button": "Book Free Consultation"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Accounting for Tech & SaaS in Paraguay",
+    "copyright": "© {{year}} {{businessName}}",
+    "disclaimer": "CCP-certified accountants. Trusted by VC-backed startups."
+  }
+}
