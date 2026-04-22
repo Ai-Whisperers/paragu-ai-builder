@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Dayah LitWorks",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Dayah LitWorks",
+  "tagline": "Book cover design — from manuscript to a cover that sells",
+  "placeholders": {
+    "businessName": "Dayah LitWorks",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Dayah LitWorks",
+    "items": ["Home", "Services", "Catalog", "Portfolio", "Blog"],
+    "ctaText": "Contact",
+    "ctaHref": "https://wa.me/595986868241"
+  },
+  "home": {
+    "seo": {
+      "title": "Dayah LitWorks — Professional Book Cover Design",
+      "description": "Book cover design. From manuscript to a cover that sells."
+    },
+    "hero": {
+      "headline": "Dayah LitWorks",
+      "subheadline": "Book cover design — from manuscript to a cover that sells",
+      "ctaPrimaryText": "View Catalog",
+      "ctaPrimaryHref": "#catalogo",
+      "ctaSecondaryText": "Contact via WhatsApp",
+      "ctaSecondaryHref": "https://wa.me/595986868241"
+    },
+    "trustBadges": {
+      "title": "Why Choose Us",
+      "badges": [
+        { "icon": "book", "label": "100+ books designed", "description": "Over 100 covers created" },
+        { "icon": "star", "label": "5.0 Rating", "description": "Average rating" },
+        { "icon": "clock", "label": "7-day delivery", "description": "Average delivery time" },
+        { "icon": "globe", "label": "Global authors", "description": "Clients in USA, Europe and LATAM" }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Professional design for your book",
+      "items": [
+        { "name": "Custom Cover - Ebook", "price": "Ask", "description": "Exclusive design for your ebook", "category": "Custom Covers" },
+        { "name": "Custom Cover - Paperback", "price": "Ask", "description": "Full cover for printing", "category": "Custom Covers" },
+        { "name": "3D Mockup Static", "price": "Ask", "description": "Realistic 3D image", "category": "3D Mockups" },
+        { "name": "3D Video Mockup", "price": "Ask", "description": "Professional animation", "category": "3D Mockups" }
+      ]
+    },
+    "products": {
+      "title": "Premade Catalog",
+      "subtitle": "Ready-to-use designs",
+      "categories": ["All", "Fantasy", "Romance", "Thriller", "Sci-Fi", "Horror"],
+      "items": [
+        { "name": "Whispers of the Forest", "price": "$35", "description": "Premade cover - Fantasy", "category": "Fantasy", "available": true },
+        { "name": "Heart of Ash", "price": "$35", "description": "Premade cover - Romance", "category": "Romance", "available": true },
+        { "name": "The Last Code", "price": "$30", "description": "Premade cover - Thriller", "category": "Thriller", "available": true },
+        { "name": "Inner Galaxy", "price": "$35", "description": "Premade cover - Sci-Fi", "category": "Sci-Fi", "available": true },
+        { "name": "Shadows in the Mirror", "price": "$30", "description": "Premade cover - Horror", "category": "Horror", "available": true },
+        { "name": "Crystal Wings", "price": "$35", "description": "Premade cover - YA Fantasy", "category": "Fantasy", "available": true }
+      ]
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "How we transform your manuscript into a cover that sells",
+      "steps": [
+        { "title": "Initial Consultation", "description": "We discuss your book and vision", "duration": "Day 1" },
+        { "title": "Brief & References", "description": "We define style and mood", "duration": "Days 1-2" },
+        { "title": "Design Proposals", "description": "2-3 initial options", "duration": "Days 3-5" },
+        { "title": "Revisions", "description": "Adjustments until perfect", "duration": "Days 5-7" },
+        { "title": "Final Delivery", "description": "All files ready", "duration": "Day 7" }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        { "question": "How long does it take?", "answer": "1-3 weeks depending on complexity" },
+        { "question": "What do I need?", "answer": "Title, synopsis, genre, references" },
+        { "question": "Can I request changes?", "answer": "Yes, revisions included" },
+        { "question": "Premade vs Custom?", "answer": "Premade = existing design. Custom = from scratch" }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        { "quote": "My cover is incredible!", "author": "Maria G.", "rating": 5 },
+        { "quote": "Professional and fast.", "author": "Carlos R.", "rating": 5 }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Ready to help with your book cover",
+      "whatsapp": "+595986868241",
+      "email": "dayah@litworks.com",
+      "instagram": "@dayah.litworks"
+    }
+  },
+  "footer": {
+    "businessName": "Dayah LitWorks",
+    "copyright": "© 2026 Dayah LitWorks. All rights reserved."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hi! Interested in book cover design services"
+  }
+}
