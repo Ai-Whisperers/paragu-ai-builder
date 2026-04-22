@@ -15,6 +15,7 @@ import { BookingSection } from '@/components/sections/booking-section'
 import { PortfolioSection } from '@/components/sections/portfolio-section'
 import { BeforeAfterSection } from '@/components/sections/before-after-section'
 import { WeeklySchedule } from '@/components/sections/weekly-schedule-section'
+import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
 import { PricingTableSection } from '@/components/sections/pricing-table-section'
 import { RoomBookingSection } from '@/components/sections/room-booking-section'
 import { EventVenuesSection } from '@/components/sections/event-venues-section'
@@ -81,7 +82,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   booking: BookingSection,
   portfolio: PortfolioSection,
   'before-after': BeforeAfterSection,
-  'class-schedule': WeeklySchedule,
+  'class-schedule': ClassScheduleSection,
   'membership-plans': PricingTableSection,
   'room-booking': RoomBookingSection,
   'event-venues': EventVenuesSection,
