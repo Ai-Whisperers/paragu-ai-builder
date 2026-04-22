@@ -4,11 +4,11 @@
   "description": "Contáctanos para tu proyecto de portada de libro",
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "simple", "content": "contactHero" },
+    { "id": "hero", "variant": "minimal", "content": "contactHero" },
     { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "quoteForm", "variant": "multiStep", "content": "quoteForm" },
-    { "id": "newsletter", "variant": "boxed", "content": "home.newsletter" },
+    { "id": "quote-form", "variant": "standard", "content": "quoteForm" },
+    { "id": "newsletter-signup", "variant": "standard", "content": "home.newsletter" },
     { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
 }

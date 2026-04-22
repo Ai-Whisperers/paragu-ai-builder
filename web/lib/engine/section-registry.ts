@@ -540,12 +540,14 @@ export function hasSection(id: string): boolean {
 }
 
 export function hasVariant(id: string, variant: string): boolean {
-  const manifest = SECTION_CATALOG[id]
+  const resolved = resolveSectionAlias(id)
+  const manifest = SECTION_CATALOG[resolved]
   return !!manifest && manifest.variants.includes(variant)
 }
 
 export function defaultVariant(id: string): string {
-  const manifest = SECTION_CATALOG[id]
+  const resolved = resolveSectionAlias(id)
+  const manifest = SECTION_CATALOG[resolved]
   if (!manifest) throw new Error(`[section-registry] Unknown section: ${id}`)
   return manifest.defaultVariant
 }
