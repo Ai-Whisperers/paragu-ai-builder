@@ -17,6 +17,7 @@ import { getReviewAggregatesByBusiness } from '@/lib/commerce/reviews'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CommerceChrome } from '@/components/commerce/commerce-chrome'
+import { TrustStrip } from '@/components/commerce/trust-strip'
 import type { Locale } from '@/lib/i18n/config'
 import { ProductCard } from '@/components/commerce/product-card'
 import { getSessionToken } from '@/lib/commerce/session'
@@ -225,6 +226,8 @@ export default async function StorePage({
 
       <main className="mx-auto max-w-6xl px-4 py-8">
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
+
+        <TrustStrip variant="prominent" />
 
         <TiendaQuickFilters />
         {!search && popularQueries.length > 0 ? (

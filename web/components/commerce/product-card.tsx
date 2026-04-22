@@ -62,10 +62,16 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
     product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents
       ? Math.round(((product.compareAtPriceCents - product.priceCents) / product.compareAtPriceCents) * 100)
       : null
-  // "Nuevo" badge for anything created in the last 14 days. Parsed lazily to
-  // avoid a `new Date()` during SSR hydration mismatch — createdAt is ISO from
-  // the DB so Date parsing is deterministic.
+  // "Nuevo" badge requires EITHER an explicit flag from the DB or a fresh
+  // createdAt AND `isSeed=false`. Prevents every seed-imported product from
+  // advertising itself as new (fun4me shipped with 12/12 products flagged
+  // "NUEVO" simply because the seed dump was within 14 days — making the
+  // badge pure noise).
   const isNew = (() => {
+    if (product.isSeed) return false
+    const explicit = (product as { isNew?: boolean }).isNew
+    if (explicit === true) return true
+    if (explicit === false) return false
     if (!product.createdAt) return false
     const t = Date.parse(product.createdAt)
     if (!Number.isFinite(t)) return false
@@ -146,9 +152,13 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
               setQuickViewOpen(true)
             }}
             aria-label={`Vista rápida de ${product.name}`}
-            className="absolute bottom-2 left-2 rounded-full bg-white/90 px-3 py-1.5 text-xs font-medium text-[color:var(--text,#111)] shadow opacity-100 hover:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] sm:opacity-0 sm:group-hover:opacity-100"
+            className="absolute bottom-2 left-2 inline-flex items-center gap-1 rounded-full bg-white/95 px-3 py-1.5 text-xs font-medium text-[color:var(--text,#111)] shadow opacity-100 hover:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] sm:opacity-0 sm:group-hover:opacity-100"
           >
-            👁️ Vista rápida
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+            Vista rápida
           </button>
 
           {/* Wishlist heart — absolute so clicks bypass the PDP Link. */}
@@ -157,38 +167,45 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
             onClick={toggleWishlist}
             aria-pressed={saved}
             aria-label={saved ? `Quitar ${product.name} de favoritos` : `Guardar ${product.name} en favoritos`}
-            className="absolute right-2 bottom-2 rounded-full bg-white/90 p-2 text-base shadow hover:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
+            className="absolute right-2 bottom-2 rounded-full bg-white/95 p-2 shadow hover:bg-white focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
           >
-            <span aria-hidden="true" className={saved ? 'text-red-500' : 'text-[color:var(--text-muted,#6b7280)]'}>
-              {saved ? '♥' : '♡'}
-            </span>
+            <svg
+              aria-hidden="true"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill={saved ? 'currentColor' : 'none'}
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className={saved ? 'text-[color:var(--primary,#111)]' : 'text-[color:var(--text-muted,#6b7280)]'}
+            >
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
           </button>
 
+          {/* Top-left badge — one at a time. Priority: discount > new. */}
           {discount ? (
             <span className="absolute left-2 top-2 rounded bg-red-600 px-2 py-0.5 text-xs font-semibold text-white" aria-label={`Descuento del ${discount} por ciento`}>
               −{discount}%
             </span>
-          ) : null}
-          {isNew && !discount ? (
+          ) : isNew ? (
             <span className="absolute left-2 top-2 rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">
               NUEVO
             </span>
           ) : null}
-          {isNew && discount ? (
-            <span className="absolute left-2 top-9 rounded bg-emerald-600 px-2 py-0.5 text-xs font-semibold text-white">
-              NUEVO
-            </span>
-          ) : null}
-          {lowStock ? (
-            <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded bg-amber-500 px-2 py-0.5 text-xs font-semibold text-white">
-              <span aria-hidden="true">⚠</span>
-              ¡Últimas {product.inventoryQty}!
-            </span>
-          ) : null}
+
+          {/* Top-right badge — one at a time. Priority: out-of-stock > low-stock. */}
           {outOfStock ? (
             <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded bg-gray-700 px-2 py-0.5 text-xs font-semibold text-white">
-              <span aria-hidden="true">✕</span>
+              <svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"><path d="M6 6l12 12M6 18L18 6"/></svg>
               Agotado
+            </span>
+          ) : lowStock ? (
+            <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded bg-amber-500 px-2 py-0.5 text-xs font-semibold text-white">
+              <svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L2 20h20L12 2z"/><path d="M12 9v4M12 17h.01"/></svg>
+              ¡Últimas {product.inventoryQty}!
             </span>
           ) : null}
         </div>
@@ -222,10 +239,20 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
           type="button"
           onClick={handleAdd}
           disabled={outOfStock || adding}
-          className="mt-3 w-full rounded-md border border-[color:var(--primary,#111)] px-3 py-2 text-sm font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)] disabled:cursor-not-allowed disabled:opacity-50"
+          className="mt-3 w-full rounded-md bg-[color:var(--primary,#111)] px-3 py-2.5 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:cursor-not-allowed disabled:opacity-50"
         >
           {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
         </button>
+
+        {/* Per-card mini trust ribbon — keeps discretion visible at browse
+            time, not just at checkout. Hidden on out-of-stock since the
+            user can't buy anyway and we don't want to waste vertical
+            space on a disabled card. */}
+        {!outOfStock ? (
+          <p className="mt-2 text-center text-[11px] text-[color:var(--text-muted,#6b7280)]">
+            📦 Envío discreto · 🔒 Pago seguro
+          </p>
+        ) : null}
       </div>
 
       <QuickViewModal
