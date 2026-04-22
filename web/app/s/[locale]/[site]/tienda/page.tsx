@@ -225,7 +225,15 @@ export default async function StorePage({
       <TiendaSearchTracker query={search} />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
-        <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+          <h1 className="text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
+          <Link
+            href={`/s/${locale}/${site}/quiz`}
+            className="inline-flex items-center gap-1 rounded-full border border-[color:var(--primary,#111)] px-3 py-1.5 text-xs font-semibold text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
+          >
+            ✨ Ayudame a elegir
+          </Link>
+        </div>
 
         <TrustStrip variant="prominent" />
 

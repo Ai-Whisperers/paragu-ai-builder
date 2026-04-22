@@ -659,3 +659,39 @@ html {
     padding-bottom: 1rem !important;
   }
 }
+
+/* ===== Discreet Mode =====
+ * Toggled via `data-discreet="on"` on <html> by DiscreetModeToggle.
+ * Visually neutralizes the page: gray palette, blurred product images,
+ * no brand-colored accents. Purpose: let an adult-content shopper
+ * instantly hide what's on screen if someone walks in — without
+ * closing the tab or losing cart state.
+ */
+:root[data-discreet='on'] {
+  --primary: #374151;
+  --primary-foreground: #ffffff;
+  --secondary: #6b7280;
+  --accent: #4b5563;
+  --background: #f9fafb;
+  --surface: #ffffff;
+  --surface-light: #f3f4f6;
+}
+
+:root[data-discreet='on'] img,
+:root[data-discreet='on'] video {
+  filter: blur(12px) grayscale(1);
+  transition: filter 0.2s ease;
+}
+
+:root[data-discreet='on'] img:hover,
+:root[data-discreet='on'] video:hover {
+  filter: blur(0) grayscale(0);
+}
+
+:root[data-discreet='on'] h1::after {
+  content: ' · Modo privado';
+  font-size: 0.6em;
+  font-weight: 400;
+  color: var(--text-muted, #6b7280);
+  letter-spacing: 0.05em;
+}
