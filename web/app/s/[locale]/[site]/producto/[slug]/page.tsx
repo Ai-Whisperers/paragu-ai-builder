@@ -219,6 +219,20 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
             <p className="mt-6 whitespace-pre-line text-[color:var(--text,#111)]">{product.description}</p>
           ) : null}
 
+          {/* Low-stock urgency cue on the PDP — product-card already
+              surfaces the same warning in the grid; mirroring it here
+              keeps the message consistent when the shopper clicks through. */}
+          {product.inventoryPolicy === 'deny' &&
+          product.inventoryQty > 0 &&
+          product.inventoryQty <= (product.lowStockThreshold ?? 3) ? (
+            <p className="mt-4 inline-flex items-center gap-2 rounded bg-amber-50 px-3 py-1.5 text-sm font-semibold text-amber-800 ring-1 ring-amber-200">
+              <span aria-hidden="true">⚠</span>
+              {product.inventoryQty === 1
+                ? 'Última unidad en stock'
+                : `Solo quedan ${product.inventoryQty} en stock`}
+            </p>
+          ) : null}
+
           <div id="pdp-main-add-to-cart" className="mt-6">
             <ProductDetailActions siteSlug={site} productId={product.id} inventoryQty={product.inventoryQty} inventoryPolicy={product.inventoryPolicy} />
           </div>
