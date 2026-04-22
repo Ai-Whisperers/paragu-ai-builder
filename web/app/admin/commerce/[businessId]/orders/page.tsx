@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { scopedQueries } from '@/lib/supabase/scoped'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { BulkConfirmToolbar } from '@/components/admin/commerce/bulk-confirm-toolbar'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -173,6 +174,7 @@ export default async function AdminOrdersPage({
             <table className="w-full text-sm">
               <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
                 <tr>
+                  <th className="w-10 px-2 py-3"></th>
                   <th className="px-4 py-3 font-semibold">Orden</th>
                   <th className="px-4 py-3 font-semibold">Cliente</th>
                   <th className="px-4 py-3 font-semibold">Estado</th>
@@ -184,6 +186,16 @@ export default async function AdminOrdersPage({
               <tbody>
                 {orders.map((o) => (
                   <tr key={o.id} className="border-t border-[color:var(--border,#e5e7eb)]">
+                    <td className="w-10 px-2 py-3">
+                      {o.status === 'awaiting_payment' ? (
+                        <input
+                          type="checkbox"
+                          data-order-id={o.id}
+                          aria-label={`Seleccionar ${o.order_number}`}
+                          className="h-4 w-4 rounded border-[color:var(--border,#e5e7eb)]"
+                        />
+                      ) : null}
+                    </td>
                     <td className="px-4 py-3 font-mono text-xs">{o.order_number}</td>
                     <td className="px-4 py-3">
                       <p className="font-medium">{o.customer_name}</p>
@@ -262,6 +274,7 @@ export default async function AdminOrdersPage({
           ) : null}
         </>
       )}
+      <BulkConfirmToolbar businessId={businessId} />
     </div>
   )
 }
