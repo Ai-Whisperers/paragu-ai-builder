@@ -39,18 +39,33 @@ export const dynamic = 'force-dynamic' // search/sort/filter params kill static 
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ site: string; locale: string }>
+  searchParams: Promise<Record<string, string | string[] | undefined>>
 }): Promise<Metadata> {
   const { site, locale } = await params
+  const sp = await searchParams
   const business = await resolveBusinessBySlug(site)
   if (!business) return {}
   const canonical = `${env.APP_URL}/s/${locale}/${site}/tienda`
+  // Filtered / searched / paged views are duplicate content from Google's
+  // view — canonical points at the bare /tienda and we noindex anything
+  // with a search, filter, sort, or pagination query. Prevents Google from
+  // spidering 10k permutations of the same catalog.
+  const hasSearchyParam = ['q', 'category', 'brand', 'tag', 'min', 'max', 'sort', 'page', 'in_stock', 'on_sale']
+    .some((k) => {
+      const v = sp[k]
+      return typeof v === 'string' ? v.length > 0 : Array.isArray(v) ? v.length > 0 : false
+    })
   return {
     title: `Tienda — ${business.name}`,
-    description: `Catálogo completo de ${business.name}. Envío a todo Paraguay.`,
+    description: `Catálogo completo de ${business.name}. Envío discreto a todo Paraguay. Pago con tarjeta, transferencia o WhatsApp.`,
     alternates: { canonical },
     openGraph: { url: canonical, title: `Tienda — ${business.name}` },
+    robots: hasSearchyParam
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
   }
 }
 
