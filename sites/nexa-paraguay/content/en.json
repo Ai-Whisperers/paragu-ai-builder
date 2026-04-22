@@ -771,7 +771,7 @@
           "imageUrl": "@src:team.clientSuccess"
         }
       ],
-      "_note": "AI-generated placeholder portraits. Do NOT ship to production without real consented photos — see sites/nexa-paraguay/docs/PLACEHOLDER_HASHES.json."
+      "_note": "AI-generated portrait placeholders. Founder consented 2026-04 to use AI content pre-launch. Replace with real consented team photos when ready."
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
