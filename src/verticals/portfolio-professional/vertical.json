@@ -20,7 +20,9 @@
     "before-after",
     "services",
     "process-timeline",
+    "process",
     "trust-signals",
+    "trust-badges",
     "team",
     "testimonials",
     "quote-form",
@@ -39,7 +41,9 @@
     "pricing",
     "pricing-range",
     "tiered-service-ladder",
-    "cta-banner"
+    "features",
+    "newsletter-signup",
+    "booking-embed"
   ],
   "defaultStarterKit": "full",
   "locales": ["es"]
