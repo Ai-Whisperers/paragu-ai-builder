@@ -35,21 +35,32 @@ function norm(s: string): string {
 
 function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
   const [isOpen, setIsOpen] = useState(false)
+  const panelId = `faq-panel-${index}`
+  const triggerId = `faq-trigger-${index}`
   return (
     <AnimateOnScroll stagger={index}>
       <div className="border-b border-[var(--surface-light)]">
         <button
+          id={triggerId}
+          type="button"
+          aria-expanded={isOpen}
+          aria-controls={panelId}
           onClick={() => setIsOpen(!isOpen)}
           className="flex w-full items-center justify-between py-5 text-left transition-colors hover:text-[var(--secondary)]"
         >
           <span className="pr-4 font-medium text-[var(--text)]">{item.q}</span>
           <ChevronDown
             size={18}
+            aria-hidden="true"
             className="flex-shrink-0 text-[var(--text-muted)] transition-transform duration-normal"
             style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
           />
         </button>
         <div
+          id={panelId}
+          role="region"
+          aria-labelledby={triggerId}
+          hidden={!isOpen}
           className="overflow-hidden transition-all duration-normal"
           style={{ maxHeight: isOpen ? '500px' : '0px', opacity: isOpen ? 1 : 0 }}
         >
