@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
+import { CommerceChrome } from '@/components/commerce/commerce-chrome'
+import type { Locale } from '@/lib/i18n/config'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { CheckoutForm } from '@/components/commerce/checkout-form'
 import { CheckoutProgressIndicator } from '@/components/commerce/checkout-progress-indicator'
@@ -40,6 +42,7 @@ export default async function CheckoutPage({ params }: { params: Promise<{ site:
         <CheckoutForm siteSlug={site} locale={locale} />
         <CheckoutTracker />
       </main>
+      <CommerceChrome siteSlug={site} locale={locale as Locale} />
     </div>
   )
 }

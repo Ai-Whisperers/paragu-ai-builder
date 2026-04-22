@@ -79,7 +79,34 @@ export function AgeGateSection({
     } catch {
       /* private mode or quota — still hide on this tab */
     }
+    // Mirror the localStorage flag into a server-visible cookie so the
+    // middleware gate (web/middleware.ts) stops redirecting on subsequent
+    // navigations. Derive the cookie name from the storage key: the
+    // middleware uses `age_gated_<siteSlug>`; the caller passes the same
+    // slug as the storageKey suffix (or defaults to the universal key).
+    const cookieMatch = /age[_-]?gat[e]?[_-]?(.+)$/i.exec(storageKey)
+    const cookieName = cookieMatch
+      ? `age_gated_${cookieMatch[1]}`
+      : storageKey
+    // cookieDays=30 matches site.json.settings.ageGate.cookieDays default.
+    const maxAge = 30 * 24 * 60 * 60
+    try {
+      document.cookie = `${cookieName}=yes; path=/; max-age=${maxAge}; SameSite=Lax`
+    } catch {
+      /* cookie write failed — middleware will re-gate next navigation */
+    }
     setDismissed(true)
+    // If the middleware redirected the user here with ?age_gate=1&return=<path>,
+    // send them back where they tried to go (e.g. /tienda, /producto/X, etc.).
+    try {
+      const params = new URLSearchParams(window.location.search)
+      const returnTo = params.get('return')
+      if (params.get('age_gate') === '1' && returnTo) {
+        window.location.replace(decodeURIComponent(returnTo))
+      }
+    } catch {
+      /* ignore */
+    }
   }
 
   return (
