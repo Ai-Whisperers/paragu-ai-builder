@@ -242,9 +242,10 @@ export default async function StorePage({
           <aside
             role="note"
             aria-label="Aviso para administradores"
-            className="mb-4 rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-xs text-amber-900"
+            className="mb-4 inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1 text-xs text-amber-900"
           >
-            <strong className="font-semibold">⚠ Catálogo demo.</strong> Todos los productos son de ejemplo — cargar fotos reales y marcar <code className="rounded bg-amber-100 px-1">isSeed=false</code> antes del tráfico pago.
+            <span aria-hidden="true">⚠</span>
+            <span>Catálogo demo — <code className="rounded bg-amber-100 px-1">isSeed</code> sin reemplazar.</span>
           </aside>
         ) : null}
 
