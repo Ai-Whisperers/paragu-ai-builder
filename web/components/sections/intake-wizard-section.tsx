@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { trackWizardStep, trackWizardComplete } from '@/lib/analytics/marketing-events'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { ArrowLeft, ArrowRight, Check } from 'lucide-react'
@@ -283,7 +284,26 @@ export function IntakeWizardSection({
 
   const handleNext = () => {
     if (!answered) return
+    // Emit a wizard_step event for every advance — lets us see where
+    // prospects drop out of the 4-step funnel in GA4.
+    trackWizardStep({
+      step: stepIdx + 1,
+      stepKey: String(currentStepKey),
+      answerKey: answers[currentStepKey] || '',
+      answerLabel: currentStep.options.find((o) => o.key === answers[currentStepKey])?.label || '',
+      tenant: __siteSlug,
+    })
     if (isLastStep) {
+      // Compute the recommendation eagerly here so the wizard_complete
+      // event carries the correct `recommended_tier` instead of firing
+      // on a subsequent render cycle.
+      const tier = recommendTier({
+        goal: answers.goal || '',
+        income: answers.income || '',
+        needs: answers.needs || '',
+        timeline: answers.timeline || '',
+      })
+      trackWizardComplete({ recommendedTier: tier, tenant: __siteSlug })
       setDone(true)
     } else {
       setStepIdx(stepIdx + 1)
