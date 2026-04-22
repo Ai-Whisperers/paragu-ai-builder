@@ -1,5 +1,7 @@
 /**
- * Recipe types and data for Granja Cabral
+ * Default Paraguayan recipe catalog for egg-farm / food-focused tenants.
+ * Generic — no brand name baked in. Tenants can override via the
+ * `recipes` prop on RecipeSection.
  */
 
 export interface Recipe {
@@ -30,7 +32,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 15,
     servings: 4,
     ingredients: [
-      '6 huevos frescos Granja Cabral',
+      '6 huevos frescos',
       '2 cebollas grandes (picadas fino)',
       '200g de queso Paraguay rallado',
       '2 cucharadas de aceite',
@@ -64,7 +66,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 45,
     servings: 6,
     ingredients: [
-      '6 huevos frescos Granja Cabral',
+      '6 huevos frescos',
       '2 tazas de harina de maíz',
       '1 taza de leche tibia',
       '200g de queso Paraguay rallado',
@@ -101,7 +103,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 40,
     servings: 8,
     ingredients: [
-      '8 huevos frescos Granja Cabral',
+      '8 huevos frescos',
       '500g de almidón de mandioca',
       '400g de queso Paraguay fresco en cubitos',
       '200g de queso Paraguay rallado',
@@ -137,7 +139,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 25,
     servings: 4,
     ingredients: [
-      '4 huevos frescos Granja Cabral',
+      '4 huevos frescos',
       '1kg de mandioca cocida y hecha puré',
       '200g de queso Paraguay rallado',
       '100g de manteca',
@@ -172,7 +174,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 60,
     servings: 8,
     ingredients: [
-      '6 huevos frescos Granja Cabral',
+      '6 huevos frescos',
       '1 litro de leche tibia',
       '1 taza de azúcar (más 1 taza para caramelo)',
       '1 cucharadita de esencia de vainilla',
@@ -207,7 +209,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 15,
     servings: 2,
     ingredients: [
-      '4 huevos frescos Granja Cabral',
+      '4 huevos frescos',
       '2 tortillas de maíz',
       '1 taza de salsa criolla (tomate, cebolla, ají)',
       '1/2 taza de frijoles cocidos',
@@ -238,7 +240,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 5,
     servings: 2,
     ingredients: [
-      '4 huevos frescos Granja Cabral',
+      '4 huevos frescos',
       '1 taza de espinaca fresca',
       '1 tomate picado',
       '1/4 cebolla picada',
@@ -268,7 +270,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 15,
     servings: 4,
     ingredients: [
-      '2 huevos frescos Granja Cabral',
+      '2 huevos frescos',
       '1 taza de harina de trigo',
       '1 taza de leche',
       '2 cucharadas de azúcar',
@@ -299,7 +301,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 20,
     servings: 4,
     ingredients: [
-      '3 huevos frescos Granja Cabral (yemas solo)',
+      '3 huevos frescos (yemas solo)',
       '400g de fideos',
       '150g de queso Paraguay rallado',
       '150g de panceta picada',
@@ -330,7 +332,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 45,
     servings: 6,
     ingredients: [
-      '5 huevos frescos Granja Cabral',
+      '5 huevos frescos',
       '1 masa para tarta',
       '200g de jamón picado',
       '150g de queso rallado',
@@ -362,7 +364,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 10,
     servings: 2,
     ingredients: [
-      '2 huevos frescos Granja Cabral',
+      '2 huevos frescos',
       '4 rebanadas de pan',
       '4 tiras de panceta',
       'Lechuga fresca',
@@ -393,7 +395,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 40,
     servings: 6,
     ingredients: [
-      '4 huevos frescos Granja Cabral',
+      '4 huevos frescos',
       '4 tazas de pan duro en trozos',
       '2 tazas de leche tibia',
       '1/2 taza de azúcar',
@@ -424,7 +426,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 25,
     servings: 12,
     ingredients: [
-      '3 huevos frescos Granja Cabral',
+      '3 huevos frescos',
       '1 masa brisa',
       '1/2 taza de leche',
       '1/2 taza de queso rallado',
@@ -454,7 +456,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 5,
     servings: 16,
     ingredients: [
-      '1 huevo fresco Granja Cabral (a temperatura ambiente)',
+      '1 huevo fresco (a temperatura ambiente)',
       '1 taza de aceite vegetal',
       '1 cucharada de jugo de limón',
       '1/2 cucharadita de mostaza',
@@ -483,7 +485,7 @@ export const RECIPES: Recipe[] = [
     cookTime: 10,
     servings: 8,
     ingredients: [
-      '3 yemas de huevo fresco Granja Cabral',
+      '3 yemas de huevo fresco',
       '100g de mantequilla derretida caliente',
       '1 cucharada de jugo de limón',
       '1 pizca de sal',
