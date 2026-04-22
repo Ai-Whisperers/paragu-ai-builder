@@ -34,6 +34,7 @@ No extra moving parts.**
 | `POST /api/cron/commerce-email-flush` | `*/5 * * * *` | `CRON_SECRET`, `RESEND_API_KEY`, `COMMERCE_EMAIL_FROM` | Send queued commerce emails |
 | `POST /api/cron/commerce-abandoned-cart` | `0 */4 * * *` | `CRON_SECRET` | Abandoned cart recovery |
 | `POST /api/cron/commerce-reconcile-pending` | `0 * * * *` | `CRON_SECRET` | Reconcile MP pending payments |
+| `POST /api/cron/commerce-prune-search-events` | `17 3 * * *` (03:17 UTC daily) | `CRON_SECRET` | Prune `search_events` rows older than 90 days so the table stays bounded |
 | `POST /api/cron/health` | `0 * * * *` (UTC, hourly) | `CRON_SECRET` | Returns `{ ok, crons[] }` per-cron env-readiness. 503 if any required env is missing. Wire to your monitor of choice. |
 
 > Asunción is UTC-3 / UTC-4 (DST). Most ops choose to schedule in UTC and
@@ -69,6 +70,7 @@ Paste (one line per cron):
 */5 * * * * curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-email-flush -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 0 */4 * * * curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-abandoned-cart -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 0 * * * *   curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-reconcile-pending -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
+17 3 * * *  curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-prune-search-events -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 ```
 
 ⚠️ **`$CRON_SECRET` does not interpolate inside crontab by default.** Either:
@@ -97,6 +99,7 @@ Then crontab becomes:
 */5 * * * * /usr/local/bin/paragu-cron /api/cron/commerce-email-flush >> /var/log/paragu-ai-crons.log 2>&1
 0 */4 * * * /usr/local/bin/paragu-cron /api/cron/commerce-abandoned-cart >> /var/log/paragu-ai-crons.log 2>&1
 0 * * * *   /usr/local/bin/paragu-cron /api/cron/commerce-reconcile-pending >> /var/log/paragu-ai-crons.log 2>&1
+17 3 * * *  /usr/local/bin/paragu-cron /api/cron/commerce-prune-search-events >> /var/log/paragu-ai-crons.log 2>&1
 ```
 
 ### 4. Smoke test
