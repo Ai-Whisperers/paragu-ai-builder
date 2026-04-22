@@ -95,13 +95,13 @@
   },
   "emptyCart": {
     "title": "Tu carrito esta vacio",
-    "text": "Explora nuestras categorias y agrega productos.",
+    "text": "Explorá nuestras categorías y agregá productos.",
     "ctaText": "Ir a la Tienda",
     "ctaHref": "/fun4me/tienda"
   },
   "errors": {
     "payment_declined": "El pago fue rechazado. Probá con otro metodo o contactanos por WhatsApp.",
-    "age_not_verified": "Debes confirmar que sos mayor de 18 anos antes de finalizar la compra.",
+    "age_not_verified": "Tenés que confirmar que sos mayor de 18 años antes de finalizar la compra.",
     "out_of_stock": "Este producto ya no esta disponible. Lo removemos de tu carrito.",
     "delivery_unavailable": "No hacemos delivery a esta zona todavia. Podes elegir retiro en tienda o contactarnos."
   }

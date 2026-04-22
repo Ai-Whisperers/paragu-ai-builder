@@ -87,7 +87,7 @@ export function TiendaQuickFilters() {
             disabled={pending}
             aria-pressed={active}
             className={cn(
-              'rounded-full border px-3 py-1 text-xs font-medium transition-colors disabled:opacity-50',
+              'rounded-full border px-3 py-1 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50',
               active
                 ? 'border-[color:var(--secondary,#b8860b)] bg-[color:var(--secondary,#b8860b)] text-white'
                 : 'border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] hover:bg-[color:var(--surface-muted,#f3f4f6)]',
