@@ -1,0 +1,36 @@
+{
+  "name": "Chaco Paraguay Accounting (ES/DE)",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["sober", "understated", "methodical", "mennonite-friendly"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Chaco Dust & Cedar",
+      "colors": {
+        "primary": "#44403c",
+        "secondary": "#78350f",
+        "accent": "#065f46",
+        "background": "#fafaf9",
+        "surface": "#ffffff",
+        "text": "#1c1917",
+        "textLight": "#57534e",
+        "border": "#e7e5e4",
+        "success": "#15803d",
+        "warning": "#a16207",
+        "error": "#b91c1c"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'IBM Plex Serif', 'Georgia', serif",
+    "body": "'IBM Plex Sans', sans-serif"
+  },
+  "googleFonts": [
+    "IBM Plex Sans:wght@400;500;600;700",
+    "IBM Plex Serif:wght@500;600;700"
+  ],
+  "borderRadius": "sm"
+}

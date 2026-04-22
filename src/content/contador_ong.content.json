@@ -1,0 +1,182 @@
+{
+  "id": "contador_ong",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad para ONGs y Fundaciones",
+    "subheadline": "Rendicion ante la Contraloria General de la Republica, exencion de IRE, reporting a donantes internacionales. Tu mision merece una gestion contable impecable.",
+    "ctaPrimary": "Agendar Diagnostico",
+    "ctaSecondary": "Nuestros Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Somos contadores especializados en el tercer sector paraguayo. Conocemos las exigencias de la CGR, la renovacion anual de la exencion de IRE (art. 8 Ley 6380/19), los formatos de USAID, GIZ y UE, y la logistica de una ONG multi-proyecto.",
+    "bullets": [
+      "Experiencia en rendicion CGR y reporte a donantes",
+      "Renovacion anual del Reconocimiento Como Exenta",
+      "Reporting en formato USAID, GIZ, UE y agencias locales",
+      "Acompanamiento a fundaciones familiares y patrimoniales",
+      "Atencion en espanol e ingles para relacion con donantes"
+    ]
+  },
+  "services": {
+    "title": "Servicios para ONGs",
+    "subtitle": "Desde compliance basico hasta reporting a donantes internacionales exigentes",
+    "categories": [
+      {
+        "id": "cgr-rendicion",
+        "name": "Rendicion ante CGR",
+        "description": "Rendicion de cuentas obligatoria a la Contraloria General (Res. CGR 106/24).",
+        "icon": "file-check",
+        "items": [
+          "Rendicion anual completa online al CGR",
+          "Estado de ejecucion presupuestaria",
+          "Detalle de donaciones y aportes",
+          "Inventario de bienes adquiridos",
+          "Informe de auditoria externa cuando corresponde"
+        ]
+      },
+      {
+        "id": "exencion-ire",
+        "name": "Exencion IRE (art. 8 Ley 6380/19)",
+        "description": "Gestion y renovacion anual del Reconocimiento Como Entidad Sin Fines de Lucro Exenta.",
+        "icon": "shield",
+        "items": [
+          "Inscripcion inicial como exenta ante DNIT",
+          "Renovacion anual de la exencion (obligatoria)",
+          "Certificado de exencion para donantes",
+          "Defensa si DNIT cuestiona operaciones no cooperativas",
+          "Respuesta a requerimientos de verificacion"
+        ]
+      },
+      {
+        "id": "donantes",
+        "name": "Reporting a Donantes",
+        "description": "Formatos propios de cada donante con rigor auditable.",
+        "icon": "hands-helping",
+        "items": [
+          "Formato USAID (programas cooperativos)",
+          "Formato GIZ (programas aleman de desarrollo)",
+          "Formato UE (grants europeos)",
+          "Agencias locales: REDIEX, CIRD, fundaciones privadas",
+          "Detalle por proyecto, rubro y fuente de financiamiento",
+          "Reporting en ingles cuando lo exige el donante"
+        ]
+      },
+      {
+        "id": "laboral-ong",
+        "name": "Laboral y Voluntarios",
+        "description": "Empleados, consultores y voluntarios bajo distintos regimenes.",
+        "icon": "users",
+        "items": [
+          "Liquidacion de sueldos de empleados (IPS, MTESS, REOP)",
+          "Contratos de consultoria (IRP RSP)",
+          "Convenios de voluntariado (sin relacion laboral)",
+          "Contratos de becas y pasantias",
+          "Consultores internacionales y retencion INR"
+        ]
+      },
+      {
+        "id": "compliance",
+        "name": "Compliance y Gobernanza",
+        "description": "Libro de actas, tesoreria interna, auditoria.",
+        "icon": "clipboard-check",
+        "items": [
+          "Libro de actas del consejo directivo",
+          "Auditoria externa (obligatoria para ciertos montos)",
+          "Revision de controles internos",
+          "Capacitacion al tesoro interno",
+          "Politicas de gestion documental"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes para ONGs",
+    "subtitle": "Adaptados al presupuesto del tercer sector.",
+    "disclaimer": "Precios referenciales. Si tu ONG tiene recursos muy limitados, conversemos — algunas organizaciones acceden a plan pro-bono segun la mision.",
+    "plans": [
+      {
+        "id": "ong-chica",
+        "name": "ONG Pequena",
+        "priceFrom": "1.200.000 Gs/mes",
+        "description": "Presupuesto anual < Gs. 500M. Proyectos locales, donantes nacionales.",
+        "features": [
+          "Contabilidad mensual",
+          "IVA y exencion IRE",
+          "Rendicion anual CGR",
+          "Hasta 5 empleados",
+          "Asesoria por WhatsApp"
+        ]
+      },
+      {
+        "id": "ong-mediana",
+        "name": "ONG Mediana",
+        "priceFrom": "3.500.000 Gs/mes",
+        "description": "Presupuesto Gs. 500M-3.000M. Multi-proyecto con donantes internacionales.",
+        "features": [
+          "Contabilidad por proyecto / centro de costos",
+          "Reporting a donantes (USAID/GIZ/UE formato)",
+          "Auditoria externa anual",
+          "Hasta 20 empleados + consultores",
+          "Reunion mensual con consejo directivo"
+        ],
+        "featured": true
+      },
+      {
+        "id": "ong-grande",
+        "name": "ONG Grande",
+        "priceFrom": "Consultar",
+        "description": "Multiples programas, oficinas en el interior, donantes multilaterales.",
+        "features": [
+          "Contabilidad multi-oficina",
+          "Reporting bilingue ES/EN en tiempo real",
+          "Auditoria externa permanente",
+          "Control de riesgos fiduciarios",
+          "Capacitacion a equipo interno"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "Como Trabajamos con ONGs",
+    "steps": [
+      { "number": "1", "title": "Diagnostico de Compliance", "description": "Revisamos estado CGR, exencion IRE, ultimos balances y donantes activos." },
+      { "number": "2", "title": "Regularizacion si es Necesaria", "description": "Muchas ONGs llegan con rendiciones atrasadas. Las ponemos al dia antes de arrancar." },
+      { "number": "3", "title": "Onboarding", "description": "Traspaso documental, acceso a sistema, capacitacion a tesoreria interna." },
+      { "number": "4", "title": "Operacion Mensual", "description": "Cierres mensuales, reporting a donantes, rendicion CGR, exencion IRE al dia." },
+      { "number": "5", "title": "Informe al Consejo", "description": "Reporte mensual o trimestral al consejo directivo con metricas financieras y operativas." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Nos ayudaron a recuperar la exencion IRE que habiamos perdido por no renovar. Hoy tenemos todo en orden y los donantes confian mas en nuestra gestion.",
+      "author": "Maria Aguilera",
+      "role": "Directora Ejecutiva, ONG educacion",
+      "rating": 5
+    },
+    {
+      "quote": "El reporting en formato USAID fue impecable desde el primer mes. Nuestro oficial de programa en Washington queda siempre conforme.",
+      "author": "Pedro Rojas",
+      "role": "Director Financiero, Fundacion salud",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Que tramite se hace ante la CGR?", "a": "Rendicion anual online obligatoria (Res. CGR 106/24). Incluye estado de ejecucion, detalle de aportes, bienes adquiridos y auditoria cuando corresponde." },
+    { "q": "Por que renovar la exencion IRE?", "a": "La exencion de IRE (art. 8 Ley 6380/19) es anual — se renueva cada ano ante DNIT. Si no renovas, pagas IRE 10% sobre tus excedentes." },
+    { "q": "Pueden hacer reporting en ingles para donantes?", "a": "Si. Trabajamos formatos USAID, GIZ, UE y varias fundaciones privadas. Emitimos tambien informes ad-hoc en ingles." },
+    { "q": "Como manejan convenios de voluntariado?", "a": "Los convenios de voluntariado no generan relacion laboral si estan bien formulados (Ley 4109/10). Los revisamos y dejamos el respaldo documental." },
+    { "q": "Que pasa si tenemos rendicion atrasada?", "a": "La regularizamos. Algunas ONGs llegan con 2-3 anos atrasados — es recuperable, aunque lleva 60-90 dias de trabajo intensivo." },
+    { "q": "Atienden fundaciones familiares?", "a": "Si. Fundaciones familiares y patrimoniales tambien se inscriben en DNIT y rinden a CGR. El marco es similar." }
+  ],
+  "cta": {
+    "title": "Tu mision merece una gestion contable impecable.",
+    "subtitle": "Diagnostico inicial sin costo — 45 minutos en persona o por Zoom.",
+    "button": "Agendar Diagnostico"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Contabilidad del Tercer Sector en {{city}}",
+    "copyright": "© {{year}} {{businessName}}",
+    "disclaimer": "Matriculados CCP — especialistas en ONGs y Fundaciones"
+  }
+}

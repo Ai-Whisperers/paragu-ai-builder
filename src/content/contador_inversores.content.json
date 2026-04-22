@@ -1,0 +1,191 @@
+{
+  "id": "contador_inversores",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Open Your Paraguay Company in 72 Hours",
+    "subheadline": "EAS incorporation, RUC, tax residency and Paraguay tax compliance for foreign investors, digital nomads and MERCOSUR entrepreneurs. English and Spanish.",
+    "ctaPrimary": "Book Free Consultation",
+    "ctaSecondary": "See Packages"
+  },
+  "about": {
+    "title": "About {{businessName}}",
+    "content": "We help foreign investors navigate Paraguay's territorial tax system (10% local-source / 0% foreign-source) and open compliant business structures. EAS (Simplified Stock Company) in 72 hours, tax residency certificates, and ongoing bilingual compliance support. Certified CCP accountants.",
+    "bullets": [
+      "EAS incorporation in 72 hours (MIC platform)",
+      "Tax residency certificate (CDI bilateral treaties)",
+      "Bilingual reporting Spanish/English",
+      "Remote onboarding via Zoom + DocuSign",
+      "Bank account introductions (Itau, Sudameris, Continental)"
+    ]
+  },
+  "services": {
+    "title": "Services for Foreign Investors",
+    "subtitle": "Everything an international entrepreneur needs to operate legally in Paraguay",
+    "categories": [
+      {
+        "id": "incorporation",
+        "name": "Company Incorporation",
+        "description": "EAS (72h), SRL, SA and Unipersonal structures. Full onboarding including RUC and municipal habilitation.",
+        "icon": "briefcase",
+        "items": [
+          "EAS (Empresa por Acciones Simplificadas) in 72 hours via MIC",
+          "SRL / SA / Unipersonal incorporation",
+          "Full RUC registration with DNIT",
+          "Municipal habilitation and patente",
+          "DINAPI trademark registration",
+          "Zona Franca Paraguay setup (Ciudad del Este, Pedro Juan)"
+        ]
+      },
+      {
+        "id": "residency",
+        "name": "Tax Residency",
+        "description": "Paraguay tax residency certification for CDI treaties. Leverages territorial tax system (0% on foreign-source income).",
+        "icon": "globe",
+        "items": [
+          "Tax residency qualifier assessment",
+          "Certificate of Fiscal Residency (for CDI treaty benefits)",
+          "Immigration coordination (Paraguay permanent residency)",
+          "Triple 10 Rule compliance (investment residency)",
+          "Foreign-source income classification"
+        ]
+      },
+      {
+        "id": "compliance",
+        "name": "Ongoing Tax Compliance",
+        "description": "Monthly IVA, annual IRE, IDU, payroll. All DNIT filings via Marangatu on time, every month.",
+        "icon": "shield",
+        "items": [
+          "Monthly IVA filing (Form 120) via Marangatu",
+          "Annual IRE (Simple / General) at 10% on net profit",
+          "IDU (dividend tax) for profit repatriation",
+          "e-Kuatia electronic invoicing setup",
+          "Bilingual monthly reports in English"
+        ]
+      },
+      {
+        "id": "banking",
+        "name": "Banking & Operations",
+        "description": "Coordinate bank account opening, digital invoicing setup, and payment processing for international clients.",
+        "icon": "landmark",
+        "items": [
+          "Bank account intro (Itau, Sudameris, Continental, Atlas)",
+          "USD / EUR account coordination",
+          "Payment gateway setup (Pagopar, dLocal for USD)",
+          "SWIFT and international wire compliance",
+          "SEPRELAD AML reporting when applicable"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Packages for Foreign Investors",
+    "subtitle": "Transparent USD-based pricing. No surprises.",
+    "disclaimer": "Prices in USD for reference. Final invoice in Paraguayan Guaraníes (Gs.) at official BCP exchange rate.",
+    "plans": [
+      {
+        "id": "eas-72h",
+        "name": "EAS in 72 Hours",
+        "priceFrom": "USD 650 one-time",
+        "description": "Complete incorporation package for digital nomads and remote entrepreneurs.",
+        "features": [
+          "EAS constitution via MIC platform",
+          "RUC registration with DNIT",
+          "First timbrado (invoicing authorization)",
+          "Municipal habilitation",
+          "Bank account introduction",
+          "First month of accounting included"
+        ]
+      },
+      {
+        "id": "nomada-digital",
+        "name": "Digital Nomad",
+        "priceFrom": "USD 99/month",
+        "description": "For remote workers and freelancers with Paraguay tax residency.",
+        "features": [
+          "Monthly RUC maintenance (no-movement regime)",
+          "Tax residency certificate renewal",
+          "Bilingual quarterly report",
+          "WhatsApp support in English",
+          "Annual IRP declaration"
+        ],
+        "featured": true
+      },
+      {
+        "id": "investor-full",
+        "name": "Full Investor",
+        "priceFrom": "USD 450/month",
+        "description": "Operating businesses with Paraguay-based revenue or employees.",
+        "features": [
+          "Monthly IVA + IRE + payroll",
+          "Up to 10 employees",
+          "Bilingual monthly reports in English",
+          "Quarterly tax planning meeting (Zoom)",
+          "e-Kuatia electronic invoicing included",
+          "SEPRELAD compliance when required"
+        ]
+      },
+      {
+        "id": "zona-franca",
+        "name": "Zona Franca",
+        "priceFrom": "Contact",
+        "description": "Ciudad del Este / Pedro Juan maquila regime specialists.",
+        "features": [
+          "Ley 1064/97 maquila setup (1% single tax)",
+          "MERCOSUR 60/40 certificate of origin",
+          "Temporary import licensing",
+          "Programa de Maquila approval",
+          "CNIME quarterly reporting"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "How It Works",
+    "steps": [
+      { "number": "1", "title": "Free Zoom Diagnostic", "description": "30-minute call in English or Spanish to assess your situation." },
+      { "number": "2", "title": "Tailored Proposal", "description": "USD-priced package with full scope and timeline sent by email." },
+      { "number": "3", "title": "Remote Onboarding", "description": "DocuSign contracts, document collection, power-of-attorney signed remotely." },
+      { "number": "4", "title": "72-Hour EAS", "description": "Company constituted, RUC issued, municipal habilitation obtained." },
+      { "number": "5", "title": "Ongoing Compliance", "description": "Monthly filings, bilingual reports, WhatsApp support in your timezone." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Opened my EAS from Miami in 72 hours. They handled everything — RUC, bank account, even my first invoice. Professional and bilingual.",
+      "author": "James W.",
+      "role": "Founder, SaaS Startup (US)",
+      "rating": 5
+    },
+    {
+      "quote": "As a nomad with clients in 4 countries, they structured my tax residency properly. Saved me from double taxation and gave clear English reports monthly.",
+      "author": "Clara R.",
+      "role": "Digital nomad (DE)",
+      "rating": 5
+    },
+    {
+      "quote": "Our maquila setup in Ciudad del Este was done correctly from day one. 1% flat tax, MERCOSUR origin certified, zero issues with Aduanas.",
+      "author": "Marcos L.",
+      "role": "CEO, Electronics Importer (BR)",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Can I open a Paraguay company without visiting?", "a": "Yes. With a notarized power-of-attorney (apostilled), we handle the entire incorporation remotely. You sign via DocuSign from anywhere." },
+    { "q": "What is the territorial tax system?", "a": "Paraguay taxes only locally-sourced income (10% IRE). Foreign-source income (clients outside PY) is 0%. This makes PY attractive for digital nomads and export-oriented companies." },
+    { "q": "Do I need to become a tax resident?", "a": "Not always. Tax residency requires 120+ days/year and helps access CDI treaty benefits. We run a qualifier to advise you." },
+    { "q": "How fast can I get a bank account?", "a": "After EAS is issued, most banks take 5-15 business days. We coordinate intro letters with Itau, Sudameris, Continental and Atlas." },
+    { "q": "Do you handle crypto accounting?", "a": "Yes. Crypto gains are subject to IRE at 10% (DNIT 2024 position). We handle SEPRELAD reporting and blockchain traceability documentation." },
+    { "q": "Is a Paraguay EAS respected in my home country?", "a": "EAS is a recognized legal entity under Paraguay's Civil Code and treaties. For home-country CFC/PFIC implications, coordinate with your home tax advisor — we provide all filings needed." },
+    { "q": "What currency do you invoice in?", "a": "Invoices are issued in Paraguayan Guaraníes (Gs.) per DNIT rules. We publish USD reference pricing and convert at the BCP official rate at billing time." }
+  ],
+  "cta": {
+    "title": "Ready to open your Paraguay company?",
+    "subtitle": "Free 30-minute diagnostic in English. No sales pressure — we'll tell you honestly if Paraguay suits your situation.",
+    "button": "Book Free Consultation"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Foreign Investor Accounting in Paraguay",
+    "copyright": "© {{year}} {{businessName}} - All rights reserved",
+    "disclaimer": "Certified CCP accountants. Licensed to practice in Paraguay."
+  }
+}

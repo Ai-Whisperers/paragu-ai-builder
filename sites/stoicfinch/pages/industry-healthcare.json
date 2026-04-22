@@ -1,0 +1,12 @@
+{
+  "slug": "industry-healthcare",
+  "titleKey": "industry-healthcare.seo.title",
+  "descriptionKey": "industry-healthcare.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "industry-healthcare.hero" },
+    { "id": "features", "variant": "three-col", "content": "industry-healthcare.features" },
+    { "id": "contact", "variant": "split", "content": "industry-healthcare.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "locations",
+  "titleKey": "locationsIndexPage.seo.title",
+  "descriptionKey": "locationsIndexPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "locationsIndexPage.hero" },
+    { "id": "services", "variant": "cards", "content": "locationsIndexPage.services" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

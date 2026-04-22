@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=116, pages=159, content=136, blog=31, images=3, verticals=23. */
+/** Counts: sites=117, pages=193, content=137, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -128,7 +128,8 @@ export const SITE_SLUGS: readonly string[] = [
   "fun4me",
   "granja-cabral",
   "nexa-paraguay",
-  "nexa-propiedades"
+  "nexa-propiedades",
+  "stoicfinch"
 ] as const
 
 export const BASE_TOKENS: JsonRecord = {
@@ -4942,6 +4943,134 @@ export const SITES: Record<string, JsonRecord> = {
     "stagingDomain": "staging.nexapropiedades.com",
     "vertical": "relocacion"
   },
+  "stoicfinch": {
+    "bookingUrl": "https://calendly.com/stoicfinch/intro-call",
+    "businessType": "data_analytics_consulting",
+    "contact": {
+      "email": "hello@stoicfinch.com",
+      "intakeFormId": "stoicfinch-intake",
+      "linkedin": "https://www.linkedin.com/company/stoicfinch/",
+      "phone": "+1-403-555-0123"
+    },
+    "country": "Canada",
+    "createdAt": "2026-04-21",
+    "defaultLocale": "en",
+    "demoMode": {
+      "aiPlaceholdersAllowed": true,
+      "competitiveResearch": "sites/stoicfinch/docs/COMPETITIVE_RESEARCH.md",
+      "enabled": true,
+      "featurePlan": "sites/stoicfinch/docs/FEATURE_PLAN.md",
+      "reason": "Built from public research at https://stoicfinch.com/ on 2026-04-21. No engagement with Stoic Finch Corporation has been confirmed. AI-written copy + AI-generated team/testimonials/case-studies are placeholders consistent with the live site's voice. Replace ALL flagged placeholderFields and flip is_demo:false before any paid traffic.",
+      "researchSource": "sites/stoicfinch/docs/RESEARCH.md"
+    },
+    "domain": "stoicfinch.com",
+    "features": {
+      "blog": true,
+      "calendlyEmbed": true,
+      "caseStudies": true,
+      "clientLogos": true,
+      "dataHealthCheck": true,
+      "faqCategorized": true,
+      "founderStory": true,
+      "industryPages": true,
+      "leadForm": true,
+      "locationPages": true,
+      "maturityAssessment": true,
+      "newsletter": true,
+      "pricingMatrix": true,
+      "team": true,
+      "techStackBadges": true,
+      "testimonials": true,
+      "trustSignals": true,
+      "whatsappFloat": false
+    },
+    "integrations": {
+      "analytics": "ga4",
+      "calendarBooking": "calendly",
+      "crm": null,
+      "email": "mailchimp",
+      "leadCapture": "in-app form"
+    },
+    "isLiveProduction": false,
+    "is_demo": true,
+    "locales": [
+      "en"
+    ],
+    "location": {
+      "address": "Suite 100, 105 12 Ave SE, Calgary, AB T2G 1A1",
+      "city": "Calgary",
+      "coordinates": {
+        "lat": 51.0447,
+        "lng": -114.0719
+      },
+      "country": "Canada",
+      "googleMapsId": null,
+      "region": "Alberta"
+    },
+    "navigation": [
+      {
+        "labelKey": "navigation.services",
+        "path": "services"
+      },
+      {
+        "labelKey": "navigation.industries",
+        "path": "industries"
+      },
+      {
+        "labelKey": "navigation.caseStudies",
+        "path": "case-studies"
+      },
+      {
+        "labelKey": "navigation.about",
+        "path": "about"
+      },
+      {
+        "labelKey": "navigation.resources",
+        "path": "resources"
+      },
+      {
+        "labelKey": "navigation.blog",
+        "path": "blog"
+      },
+      {
+        "labelKey": "navigation.contact",
+        "path": "contact"
+      }
+    ],
+    "placeholderFields": {
+      "bookingUrl": "Placeholder Calendly URL. Replace with real account link.",
+      "caseStudies": "All case studies AI-generated illustrative scenarios. Replace with real engagements + metrics.",
+      "contact.email": "Stoic Finch does not publish an email — placeholder hello@stoicfinch.com used for the demo. Owner-supplied address required before launch.",
+      "contact.phone": "Placeholder Calgary number. Owner-supplied phone required before launch.",
+      "location.address": "Placeholder Calgary HQ. Replace with actual street address.",
+      "location.coordinates": "Placeholder centre-of-Calgary coordinates. Replace with real Place ID once address confirmed.",
+      "pricing": "Stoic Finch publishes no pricing — the matrix shows representative tiers only.",
+      "stats": "All stat-line numbers (years, dashboards shipped, FTE saved) are placeholders.",
+      "team": "All team profiles AI-generated placeholders. Replace with real founder/team bios + headshots.",
+      "testimonials": "All testimonials AI-generated placeholders. Replace with real consented client quotes."
+    },
+    "seo": {
+      "primaryKeywords": [
+        "data consulting Calgary",
+        "data analytics consulting",
+        "BI dashboarding Canada",
+        "data engineering services",
+        "data science consulting Calgary",
+        "Power BI consultant Calgary",
+        "Tableau consultant",
+        "data strategy consultant",
+        "data warehouse consulting Alberta",
+        "embedded data team"
+      ],
+      "schemaType": "ProfessionalService"
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/stoicfinch/"
+    },
+    "source": "manual-research",
+    "stagingDomain": "staging.stoicfinch.com",
+    "vertical": "technology-digital"
+  },
 }
 
 export const TENANT_TOKENS: Record<string, JsonRecord> = {
@@ -5501,6 +5630,53 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
         },
         "name": "Nexa Propiedades"
       }
+    }
+  },
+  "stoicfinch": {
+    "borderRadius": "md",
+    "defaultPalette": "default",
+    "extends": "base",
+    "googleFonts": [
+      "Inter:wght@400;500;600;700;800"
+    ],
+    "mood": [
+      "professional",
+      "calm",
+      "trustworthy",
+      "modern",
+      "stoic"
+    ],
+    "name": "Stoic Finch — Calgary Navy + Glacier Teal",
+    "notes": "Dark navy primary mirrors stoicfinch.com hero/footer bands. Glacier teal accent matches their CTA buttons. Inter chosen as a modern geometric sans close to the live site's typography.",
+    "palettes": {
+      "default": {
+        "colors": {
+          "accent": "#14B8A6",
+          "accentForeground": "#0B1F3A",
+          "background": "#FFFFFF",
+          "border": "#E2E8F0",
+          "error": "#EF4444",
+          "primary": "#0B1F3A",
+          "primaryForeground": "#FFFFFF",
+          "secondary": "#14B8A6",
+          "secondaryForeground": "#FFFFFF",
+          "success": "#10B981",
+          "surface": "#F4F7FA",
+          "surfaceDark": "#0B1F3A",
+          "surfaceLight": "#FFFFFF",
+          "text": "#0B1F3A",
+          "textInverse": "#FFFFFF",
+          "textLight": "#475569",
+          "textMuted": "#94A3B8",
+          "warning": "#F59E0B"
+        },
+        "name": "Calgary Navy + Glacier Teal"
+      }
+    },
+    "theme": "dark",
+    "typography": {
+      "body": "'Inter', system-ui, sans-serif",
+      "heading": "'Inter', system-ui, sans-serif"
     }
   },
 }
@@ -10949,7 +11125,7 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "resourcesPage.guides",
-        "id": "features",
+        "id": "resources-list",
         "variant": "three-col"
       },
       {
@@ -11240,6 +11416,1100 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "servicios",
     "titleKey": "servicesPage.seo.title"
+  },
+  "stoicfinch:about": {
+    "descriptionKey": "aboutPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "aboutPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "aboutPage.ourStory",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "aboutPage.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "aboutPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "about",
+    "titleKey": "aboutPage.seo.title"
+  },
+  "stoicfinch:blog": {
+    "descriptionKey": "blogPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blogPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blogPage.blogCards",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "blogPage.newsletter",
+        "id": "lead-form",
+        "variant": "compact"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blogPage.seo.title"
+  },
+  "stoicfinch:case-healthcare-forecasting": {
+    "descriptionKey": "case-healthcare-forecasting.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "case-healthcare-forecasting.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "case-healthcare-forecasting.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "case-healthcare-forecasting.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "case-healthcare-forecasting",
+    "titleKey": "case-healthcare-forecasting.seo.title"
+  },
+  "stoicfinch:case-oil-gas-dashboard": {
+    "descriptionKey": "case-oil-gas-dashboard.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "case-oil-gas-dashboard.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "case-oil-gas-dashboard.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "case-oil-gas-dashboard.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "case-oil-gas-dashboard",
+    "titleKey": "case-oil-gas-dashboard.seo.title"
+  },
+  "stoicfinch:case-retail-saas-pipeline": {
+    "descriptionKey": "case-retail-saas-pipeline.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "case-retail-saas-pipeline.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "case-retail-saas-pipeline.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "case-retail-saas-pipeline.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "case-retail-saas-pipeline.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "case-retail-saas-pipeline",
+    "titleKey": "case-retail-saas-pipeline.seo.title"
+  },
+  "stoicfinch:case-studies": {
+    "descriptionKey": "caseStudiesPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "caseStudiesPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "caseStudiesPage.portfolio",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "case-studies",
+    "titleKey": "caseStudiesPage.seo.title"
+  },
+  "stoicfinch:contact": {
+    "descriptionKey": "contactPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "contactPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "contactPage.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "contact",
+    "titleKey": "contactPage.seo.title"
+  },
+  "stoicfinch:cookies": {
+    "descriptionKey": "legalCookies.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "legalCookies.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "legalCookies.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "cookies",
+    "titleKey": "legalCookies.seo.title"
+  },
+  "stoicfinch:data-health-check": {
+    "descriptionKey": "dataHealthCheckPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "dataHealthCheckPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "dataHealthCheckPage.intake",
+        "id": "lead-form",
+        "variant": "standard"
+      },
+      {
+        "content": "dataHealthCheckPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "data-health-check",
+    "titleKey": "dataHealthCheckPage.seo.title"
+  },
+  "stoicfinch:data-maturity": {
+    "descriptionKey": "dataMaturityPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "dataMaturityPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "dataMaturityPage.assessmentFaq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "dataMaturityPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "data-maturity",
+    "titleKey": "dataMaturityPage.seo.title"
+  },
+  "stoicfinch:faq": {
+    "descriptionKey": "faqPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "faqPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "faqPage.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "faqPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "faq",
+    "titleKey": "faqPage.seo.title"
+  },
+  "stoicfinch:founder": {
+    "descriptionKey": "founderPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "founderPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "founderPage.ourStory",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "founder",
+    "titleKey": "founderPage.seo.title"
+  },
+  "stoicfinch:home": {
+    "descriptionKey": "home.seo.description",
+    "schemaType": "ProfessionalService",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.trust",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.benefits",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.seriousCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.techStack",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.workingWithUs",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "stoicfinch:industries": {
+    "descriptionKey": "industriesIndexPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "industriesIndexPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "industriesIndexPage.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "industries",
+    "titleKey": "industriesIndexPage.seo.title"
+  },
+  "stoicfinch:industry-b2b-saas": {
+    "descriptionKey": "industry-b2b-saas.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "industry-b2b-saas.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "industry-b2b-saas.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "industry-b2b-saas.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "industry-b2b-saas",
+    "titleKey": "industry-b2b-saas.seo.title"
+  },
+  "stoicfinch:industry-financial-services": {
+    "descriptionKey": "industry-financial-services.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "industry-financial-services.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "industry-financial-services.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "industry-financial-services.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "industry-financial-services",
+    "titleKey": "industry-financial-services.seo.title"
+  },
+  "stoicfinch:industry-healthcare": {
+    "descriptionKey": "industry-healthcare.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "industry-healthcare.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "industry-healthcare.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "industry-healthcare.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "industry-healthcare",
+    "titleKey": "industry-healthcare.seo.title"
+  },
+  "stoicfinch:industry-manufacturing": {
+    "descriptionKey": "industry-manufacturing.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "industry-manufacturing.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "industry-manufacturing.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "industry-manufacturing.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "industry-manufacturing",
+    "titleKey": "industry-manufacturing.seo.title"
+  },
+  "stoicfinch:industry-oil-and-gas": {
+    "descriptionKey": "industry-oil-and-gas.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "industry-oil-and-gas.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "industry-oil-and-gas.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "industry-oil-and-gas.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "industry-oil-and-gas.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "industry-oil-and-gas",
+    "titleKey": "industry-oil-and-gas.seo.title"
+  },
+  "stoicfinch:location-calgary": {
+    "descriptionKey": "location-calgary.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "location-calgary.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "location-calgary.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "location-calgary.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "location-calgary",
+    "titleKey": "location-calgary.seo.title"
+  },
+  "stoicfinch:location-edmonton": {
+    "descriptionKey": "location-edmonton.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "location-edmonton.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "location-edmonton",
+    "titleKey": "location-edmonton.seo.title"
+  },
+  "stoicfinch:location-vancouver": {
+    "descriptionKey": "location-vancouver.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "location-vancouver.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "location-vancouver",
+    "titleKey": "location-vancouver.seo.title"
+  },
+  "stoicfinch:locations": {
+    "descriptionKey": "locationsIndexPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "locationsIndexPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "locationsIndexPage.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "locations",
+    "titleKey": "locationsIndexPage.seo.title"
+  },
+  "stoicfinch:methodology": {
+    "descriptionKey": "methodologyPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "methodologyPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "methodologyPage.process",
+        "id": "process",
+        "variant": "horizontal"
+      },
+      {
+        "content": "methodologyPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "methodology",
+    "titleKey": "methodologyPage.seo.title"
+  },
+  "stoicfinch:pricing": {
+    "descriptionKey": "pricingPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "pricingPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "pricingPage.pricing",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "pricingPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "pricing",
+    "titleKey": "pricingPage.seo.title"
+  },
+  "stoicfinch:privacy": {
+    "descriptionKey": "legalPrivacy.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "legalPrivacy.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "legalPrivacy.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "privacy",
+    "titleKey": "legalPrivacy.seo.title"
+  },
+  "stoicfinch:resources": {
+    "descriptionKey": "resourcesPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "resourcesPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "resourcesPage.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "resources",
+    "titleKey": "resourcesPage.seo.title"
+  },
+  "stoicfinch:service-data-analysis": {
+    "descriptionKey": "service-data-analysis.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "service-data-analysis.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "service-data-analysis.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "service-data-analysis.process",
+        "id": "process",
+        "variant": "horizontal"
+      },
+      {
+        "content": "service-data-analysis.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "service-data-analysis",
+    "titleKey": "service-data-analysis.seo.title"
+  },
+  "stoicfinch:service-data-engineering": {
+    "descriptionKey": "service-data-engineering.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "service-data-engineering.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "service-data-engineering.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "service-data-engineering.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "service-data-engineering.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "service-data-engineering",
+    "titleKey": "service-data-engineering.seo.title"
+  },
+  "stoicfinch:service-data-science": {
+    "descriptionKey": "service-data-science.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "service-data-science.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "service-data-science.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "service-data-science.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "service-data-science.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "service-data-science",
+    "titleKey": "service-data-science.seo.title"
+  },
+  "stoicfinch:service-data-strategy": {
+    "descriptionKey": "service-data-strategy.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "service-data-strategy.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "service-data-strategy.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "service-data-strategy.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "service-data-strategy",
+    "titleKey": "service-data-strategy.seo.title"
+  },
+  "stoicfinch:service-reports-dashboarding": {
+    "descriptionKey": "service-reports-dashboarding.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "service-reports-dashboarding.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "service-reports-dashboarding.features",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "service-reports-dashboarding.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "service-reports-dashboarding.process",
+        "id": "process",
+        "variant": "horizontal"
+      },
+      {
+        "content": "service-reports-dashboarding.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "service-reports-dashboarding",
+    "titleKey": "service-reports-dashboarding.seo.title"
+  },
+  "stoicfinch:services": {
+    "descriptionKey": "servicesIndexPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "servicesIndexPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "servicesIndexPage.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "servicesIndexPage.process",
+        "id": "process",
+        "variant": "horizontal"
+      },
+      {
+        "content": "servicesIndexPage.cta",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "services",
+    "titleKey": "servicesIndexPage.seo.title"
+  },
+  "stoicfinch:terms": {
+    "descriptionKey": "legalTerms.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "legalTerms.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "legalTerms.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "terms",
+    "titleKey": "legalTerms.seo.title"
   },
 }
 
@@ -22983,22 +24253,25 @@ export const CONTENT: Record<string, JsonRecord> = {
       "guides": {
         "features": [
           {
-            "description": "Vollständige Liste der für die paraguayische Aufenthaltserlaubnis erforderlichen Dokumente.",
+            "description": "Alles, was Sie für Ihre Niederlassung in Paraguay benötigen: Zeitplan, Unterlagen, Kosten und Voraussetzungen.",
+            "href": "/sites/nexa-paraguay/guias/01-lebensfuehrung-paraguay.md",
             "icon": "FileText",
-            "title": "Dokumenten-Checkliste"
+            "title": "Leitfaden Aufenthalt in Paraguay"
           },
           {
-            "description": "Territoriale Steuer, 10 % IRE, Behandlung ausländischer Einkünfte.",
-            "icon": "FileText",
-            "title": "Steuerleitfaden 2026"
+            "description": "Territoriales Steuerregime Paraguays, 10 % IRE und Behandlung ausländischer Einkünfte, erklärt für europäische Investoren.",
+            "href": "/sites/nexa-paraguay/guias/02-territoriales-steusersystem-deutsch.md",
+            "icon": "Calculator",
+            "title": "Territoriales Steuersystem"
           },
           {
-            "description": "25 häufige Fragen europäischer Investoren, beantwortet.",
-            "icon": "FileText",
-            "title": "Investoren-Q&A"
+            "description": "Realistisches Monatsbudget nach Stadtteilen, Wohnen, Schulen und privater Gesundheitsversorgung. (Englisch)",
+            "href": "/sites/nexa-paraguay/guias/03-guide-cost-of-living-asuncion-english.md",
+            "icon": "Home",
+            "title": "Lebenshaltungskosten in Asunción"
           }
         ],
-        "subtitle": "Nützliche Dokumente zur Vorbereitung Ihrer Akte und zum Verständnis des Prozesses.",
+        "subtitle": "Praktische Dokumente zur Vorbereitung Ihrer Akte und zum Verständnis des Prozesses.",
         "title": "Herunterladbare Leitfäden"
       },
       "hero": {
@@ -25074,22 +26347,25 @@ export const CONTENT: Record<string, JsonRecord> = {
       "guides": {
         "features": [
           {
-            "description": "Complete list of documents needed for Paraguayan residency.",
+            "description": "Everything you need to establish yourself in Paraguay: timeline, documents, costs and requirements.",
+            "href": "/sites/nexa-paraguay/guias/01-guide-residency-paraguay-english.md",
             "icon": "FileText",
-            "title": "Document checklist"
+            "title": "Paraguayan residency guide"
           },
           {
-            "description": "Territorial tax, 10 % IRE, treatment of foreign income.",
-            "icon": "FileText",
-            "title": "2026 tax guide"
+            "description": "Paraguay's territorial tax regime, 10 % IRE and the treatment of foreign income, explained for European investors.",
+            "href": "/sites/nexa-paraguay/guias/02-guide-paraguay-tax-system-english.md",
+            "icon": "Calculator",
+            "title": "Territorial tax system"
           },
           {
-            "description": "25 frequent questions from European investors, answered.",
-            "icon": "FileText",
-            "title": "Investor Q&A"
+            "description": "Realistic monthly budget across neighbourhoods, housing, schools and private healthcare.",
+            "href": "/sites/nexa-paraguay/guias/03-guide-cost-of-living-asuncion-english.md",
+            "icon": "Home",
+            "title": "Cost of living in Asunción"
           }
         ],
-        "subtitle": "Useful documents to prepare your file and understand the process.",
+        "subtitle": "Practical documents to prepare your file and understand the process.",
         "title": "Downloadable guides"
       },
       "hero": {
@@ -27149,22 +28425,25 @@ export const CONTENT: Record<string, JsonRecord> = {
       "guides": {
         "features": [
           {
-            "description": "Lista completa de documentos necesarios para residencia paraguaya.",
+            "description": "Todo lo que necesita para establecerse en Paraguay: plazos, documentos, costos y requisitos.",
+            "href": "/sites/nexa-paraguay/guias/01-guia-residencia-paraguaya-profesional.md",
             "icon": "FileText",
-            "title": "Checklist documental"
+            "title": "Guía de residencia paraguaya"
           },
           {
-            "description": "Impuesto territorial, IRE 10 %, tratamiento de renta extranjera.",
-            "icon": "FileText",
-            "title": "Guía fiscal 2026"
+            "description": "Régimen territorial paraguayo, IRE 10 % y tratamiento de rentas extranjeras, explicado para inversores europeos.",
+            "href": "/sites/nexa-paraguay/guias/02-sistema-fiscal-territorial-profesional.md",
+            "icon": "Calculator",
+            "title": "Sistema fiscal territorial"
           },
           {
-            "description": "25 preguntas frecuentes de inversores europeos, respondidas.",
-            "icon": "FileText",
-            "title": "Q&A inversores"
+            "description": "Presupuesto mensual realista por barrios, vivienda, educación y salud privada.",
+            "href": "/sites/nexa-paraguay/guias/03-costo-de-vida-asuncion-profesional.md",
+            "icon": "Home",
+            "title": "Costo de vida en Asunción"
           }
         ],
-        "subtitle": "Documentos útiles para preparar tu expediente y entender el proceso.",
+        "subtitle": "Documentos prácticos para preparar su expediente y entender el proceso.",
         "title": "Guías descargables"
       },
       "hero": {
@@ -29240,22 +30519,25 @@ export const CONTENT: Record<string, JsonRecord> = {
       "guides": {
         "features": [
           {
-            "description": "Volledige lijst van documenten nodig voor Paraguayaanse verblijfsvergunning.",
+            "description": "Alles wat u nodig heeft om u in Paraguay te vestigen: tijdlijn, documenten, kosten en vereisten.",
+            "href": "/sites/nexa-paraguay/guias/01-guia-residencia-paraguaya-nederlands.md",
             "icon": "FileText",
-            "title": "Documentenchecklist"
+            "title": "Gids Paraguayaanse verblijfsvergunning"
           },
           {
-            "description": "Territoriale belasting, 10 % IRE, behandeling van buitenlands inkomen.",
-            "icon": "FileText",
-            "title": "Belastinggids 2026"
+            "description": "Territoriaal regime van Paraguay, 10 % IRE en behandeling van buitenlands inkomen, uitgelegd voor Europese investeerders.",
+            "href": "/sites/nexa-paraguay/guias/02-belastingstelsel-territoriaal-nederlands.md",
+            "icon": "Calculator",
+            "title": "Territoriaal belastingstelsel"
           },
           {
-            "description": "25 veelgestelde vragen van Europese investeerders, beantwoord.",
-            "icon": "FileText",
-            "title": "Investeerder Q&A"
+            "description": "Realistisch maandbudget per wijk, huisvesting, onderwijs en particuliere gezondheidszorg. (Engels)",
+            "href": "/sites/nexa-paraguay/guias/03-guide-cost-of-living-asuncion-english.md",
+            "icon": "Home",
+            "title": "Kosten van levensonderhoud in Asunción"
           }
         ],
-        "subtitle": "Nuttige documenten om uw dossier voor te bereiden en het proces te begrijpen.",
+        "subtitle": "Praktische documenten om uw dossier voor te bereiden en het proces te begrijpen.",
         "title": "Downloadbare gidsen"
       },
       "hero": {
@@ -30164,6 +31446,379 @@ export const CONTENT: Record<string, JsonRecord> = {
       "message": "Olá, tenho interesse em saber mais sobre os imóveis disponíveis.",
       "phone": "+595 982 515 138"
     }
+  },
+  "stoicfinch:en": {
+    "_meta": {
+      "author": "paragu-ai-builder (research clone)",
+      "lastReviewed": "2026-04-21",
+      "researchDoc": "sites/stoicfinch/docs/RESEARCH.md",
+      "source": "https://stoicfinch.com/",
+      "translationQuality": "ai-mirror",
+      "warning": "Tenant is is_demo:true. Copy mirrors public stoicfinch.com messaging — replace with authorized content before any paid traffic."
+    },
+    "footer": {
+      "address": "Calgary, Alberta, Canada 🇨🇦",
+      "businessName": "Stoic Finch Corporation",
+      "columns": [
+        {
+          "links": [
+            {
+              "href": "#services",
+              "label": "Reports & Dashboarding"
+            },
+            {
+              "href": "#services",
+              "label": "Data Analysis"
+            },
+            {
+              "href": "#services",
+              "label": "Data Science"
+            },
+            {
+              "href": "#services",
+              "label": "Data Engineering"
+            },
+            {
+              "href": "#services",
+              "label": "Data Strategy"
+            }
+          ],
+          "title": "Services"
+        },
+        {
+          "links": [
+            {
+              "href": "#about",
+              "label": "About"
+            },
+            {
+              "href": "#benefits",
+              "label": "Benefits"
+            },
+            {
+              "href": "#contact",
+              "label": "Get Started"
+            }
+          ],
+          "title": "Company"
+        },
+        {
+          "links": [
+            {
+              "href": "https://www.linkedin.com/company/stoicfinch/",
+              "label": "LinkedIn"
+            }
+          ],
+          "title": "Connect"
+        }
+      ],
+      "copyright": "© 2026 Stoic Finch Corporation. All rights reserved.",
+      "tagline": "Use your data like a pro.",
+      "tagline2": "Born in Calgary 🍁 Inspired by the Rockies 🏔 Delivered Globally 🌎"
+    },
+    "home": {
+      "benefits": {
+        "eyebrow": "Benefits",
+        "items": [
+          {
+            "description": "Automated dashboards give leadership clear visibility — and free your team from administrative reporting.",
+            "icon": "Trophy",
+            "subtitle": "Showcase the value your team adds.",
+            "title": "Brag a Little"
+          },
+          {
+            "description": "Scalable staffing and a library of integrations adjust to your organization, not the other way around.",
+            "icon": "Zap",
+            "subtitle": "Accelerate your time to value.",
+            "title": "Move at your pace"
+          },
+          {
+            "description": "Embedded data experts work directly with your stakeholders — independently of your engineering backlog.",
+            "icon": "Target",
+            "subtitle": "Focus on what needs to get done.",
+            "title": "Focus on your priorities"
+          }
+        ],
+        "subtitle": "Three reasons our clients keep us on the bench.",
+        "title": "Why teams choose Stoic Finch"
+      },
+      "contact": {
+        "eyebrow": "Get started",
+        "footnote": "Born in Calgary 🍁 Inspired by the Rockies 🏔 Delivered Globally 🌎",
+        "form": {
+          "fields": [
+            {
+              "label": "Full Name",
+              "name": "fullName",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Work Email",
+              "name": "workEmail",
+              "required": true,
+              "type": "email"
+            },
+            {
+              "label": "Company",
+              "name": "company",
+              "required": false,
+              "type": "text"
+            },
+            {
+              "label": "How can we help?",
+              "name": "inquiry",
+              "required": true,
+              "type": "textarea"
+            }
+          ],
+          "submitText": "Get Started Today",
+          "successMessage": "Thanks — we'll be in touch within one business day."
+        },
+        "linkedin": "https://www.linkedin.com/company/stoicfinch/",
+        "subtitle": "Tell us a little about your situation and we'll be in touch within one business day. No commitments. No hassle.",
+        "title": "Take the first step. Level up your data."
+      },
+      "hero": {
+        "ctaPrimaryHref": "#contact",
+        "ctaPrimaryText": "Get Started Today",
+        "ctaSecondaryHref": "#contact",
+        "ctaSecondaryText": "Take the First Step",
+        "headline": "Use your data like a pro.",
+        "subheadline": "The data you need to stay ahead. By experts you can trust.",
+        "trustBadges": [
+          "No commitments",
+          "No hassle",
+          "Born in Calgary 🍁",
+          "Delivered Globally 🌎"
+        ]
+      },
+      "seo": {
+        "description": "Calgary-born, globally delivered data consulting. Reports, analysis, data science, engineering and strategy by experts you can trust.",
+        "title": "Stoic Finch Corporation — Use your data like a pro"
+      },
+      "seriousCta": {
+        "ctaHref": "#contact",
+        "ctaText": "Take the First Step",
+        "eyebrow": "Where it gets serious",
+        "highlights": [
+          {
+            "description": "One model, one place, one number — that everyone agrees on.",
+            "title": "Attain Your Source of Truth"
+          },
+          {
+            "description": "Architecture and operating model that grow with your organization.",
+            "title": "Manage Data at Scale"
+          }
+        ],
+        "subtitle": "Two outcomes our clients buy from us most often.",
+        "title": "Lead data-driven value creation."
+      },
+      "services": {
+        "eyebrow": "Services",
+        "items": [
+          {
+            "category": "Visualization",
+            "deliverables": [
+              "Executive dashboards",
+              "Operational scorecards",
+              "Self-serve reporting",
+              "Automated refresh"
+            ],
+            "description": "Power BI, Tableau and embedded analytics. Self-serve dashboards that update themselves and tell the right story to leadership.",
+            "name": "Reports & Dashboarding"
+          },
+          {
+            "category": "Analytics",
+            "deliverables": [
+              "Ad-hoc analyses",
+              "Cohort and segmentation studies",
+              "Funnel and retention analyses",
+              "Insight playbooks"
+            ],
+            "description": "Discovery analyses, deep dives and recurring analytics. Answers to the questions you keep asking — and the ones you should be.",
+            "name": "Data Analysis"
+          },
+          {
+            "category": "Modeling",
+            "deliverables": [
+              "Forecasting models",
+              "Classification & scoring",
+              "Recommendation systems",
+              "Model monitoring"
+            ],
+            "description": "Predictive models, classification, forecasting and recommendation systems — designed to be deployed, not just demoed.",
+            "name": "Data Science"
+          },
+          {
+            "category": "Engineering",
+            "deliverables": [
+              "Ingestion pipelines",
+              "Warehouse / lakehouse build-out",
+              "Source-of-truth modeling",
+              "Quality and observability"
+            ],
+            "description": "Pipelines, warehouses, lakehouses and integration. The plumbing that turns raw data into something the business can rely on.",
+            "name": "Data Engineering"
+          },
+          {
+            "category": "Strategy",
+            "deliverables": [
+              "Data roadmap",
+              "Governance framework",
+              "Data-product ownership",
+              "Org and hiring guidance"
+            ],
+            "description": "Roadmaps, governance and data-product ownership. Senior practitioners running your data function so you don't have to.",
+            "name": "Data Strategy & Product Management"
+          }
+        ],
+        "subtitle": "We meet you wherever you are on your data journey — from your first dashboard to managing data at scale.",
+        "title": "Five service areas. One trusted team."
+      },
+      "techStack": {
+        "eyebrow": "Modern Technology",
+        "items": [
+          {
+            "description": "Analysis, modeling and automation",
+            "icon": "Python",
+            "title": "Python"
+          },
+          {
+            "description": "Enterprise BI dashboards",
+            "icon": "BarChart",
+            "title": "Power BI"
+          },
+          {
+            "description": "Modeling and rapid prototyping",
+            "icon": "FileSpreadsheet",
+            "title": "Excel"
+          },
+          {
+            "description": "Interactive visual analytics",
+            "icon": "TrendingUp",
+            "title": "Tableau"
+          },
+          {
+            "description": "Operational and analytical data stores",
+            "icon": "Database",
+            "title": "PostgreSQL"
+          },
+          {
+            "description": "Tabular data wrangling at speed",
+            "icon": "Layers",
+            "title": "Pandas"
+          },
+          {
+            "description": "Distributed processing for big data",
+            "icon": "Zap",
+            "title": "Apache Spark"
+          },
+          {
+            "description": "Reliable lakehouse storage",
+            "icon": "Triangle",
+            "title": "Delta Lake"
+          },
+          {
+            "description": "Reproducible analysis notebooks",
+            "icon": "Notebook",
+            "title": "Jupyter"
+          },
+          {
+            "description": "Versioned analytics and code review",
+            "icon": "GitBranch",
+            "title": "Git"
+          }
+        ],
+        "subtitle": "We specialize in tools that take organizations from foundational to advanced data capabilities.",
+        "title": "The right tools for the job."
+      },
+      "trust": {
+        "eyebrow": "About Stoic Finch",
+        "items": [
+          {
+            "description": "Automated executive dashboards that surface what matters.",
+            "icon": "BarChart",
+            "title": "Reports & Dashboarding"
+          },
+          {
+            "description": "Ad-hoc and recurring analysis to answer the questions leadership asks.",
+            "icon": "Search",
+            "title": "Data Analysis"
+          },
+          {
+            "description": "Predictive and statistical models, deployed where they create value.",
+            "icon": "Brain",
+            "title": "Data Science"
+          },
+          {
+            "description": "Pipelines, warehousing and integration that just work.",
+            "icon": "Database",
+            "title": "Data Engineering"
+          },
+          {
+            "description": "Roadmaps, governance and product ownership for your data function.",
+            "icon": "Compass",
+            "title": "Data Strategy"
+          }
+        ],
+        "subtitle": "Five specialized areas, one trusted team — built to address current and future organizational data requirements.",
+        "title": "We provide the data professionals you need."
+      },
+      "workingWithUs": {
+        "eyebrow": "Working with Us",
+        "steps": [
+          {
+            "description": "Discovery and advisory. We assess your data landscape and recommend a path forward.",
+            "duration": "1–4 weeks",
+            "title": "Consultation"
+          },
+          {
+            "description": "Build engagement. Embedded specialists deliver dashboards, pipelines or models against agreed milestones.",
+            "duration": "Project-based",
+            "title": "Development"
+          },
+          {
+            "description": "Managed operations. We keep your dashboards, pipelines and models healthy so your team can focus on outcomes.",
+            "duration": "Monthly retainer",
+            "title": "Ongoing Maintenance"
+          }
+        ],
+        "subtitle": "Three engagement modes — pick the one that fits where you are.",
+        "title": "Simple working models to ensure you succeed."
+      }
+    },
+    "navigation": {
+      "businessName": "Stoic Finch",
+      "ctaHref": "#contact",
+      "ctaText": "Get Started",
+      "items": [
+        {
+          "href": "#about",
+          "label": "About"
+        },
+        {
+          "href": "#benefits",
+          "label": "Benefits"
+        },
+        {
+          "href": "#services",
+          "label": "Services"
+        },
+        {
+          "href": "#contact",
+          "label": "Get Started"
+        }
+      ]
+    },
+    "placeholders": {
+      "businessName": "Stoic Finch",
+      "city": "Calgary",
+      "country": "Canada",
+      "year": 2026
+    },
+    "siteName": "Stoic Finch Corporation",
+    "tagline": "Use your data like a pro"
   },
 }
 
@@ -32256,15 +33911,31 @@ export const VERTICALS: Record<string, JsonRecord> = {
     "allowedSections": [
       "header",
       "hero",
+      "trust-signals",
+      "trust-badges",
       "services",
       "features",
+      "portfolio",
+      "gallery",
       "case-studies",
       "process",
+      "process-timeline",
+      "programs-comparison",
       "team",
+      "our-story",
       "testimonials",
       "faq",
+      "enhanced-faq",
+      "intake-questionnaire",
       "lead-form",
+      "newsletter-signup",
+      "blog-index",
+      "blog-post",
+      "booking-embed",
+      "cta-banner",
+      "promo-banner",
       "contact",
+      "maturity-assessment",
       "footer",
       "whatsapp-float"
     ],

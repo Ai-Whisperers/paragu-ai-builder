@@ -1,0 +1,234 @@
+{
+  "id": "contador",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Tus numeros en manos expertas",
+    "subheadline": "Contabilidad, impuestos y liquidacion de sueldos para PYMES y profesionales en {{city}}. Cumplimos con la SET para que vos te concentres en tu negocio.",
+    "ctaPrimary": "Agendar Consulta Gratuita",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} acompanamos a empresas y profesionales en {{city}} con servicios contables, impositivos y laborales. Trabajamos con tecnologia, cumplimos plazos de la SET y te explicamos en castellano claro que pasa con tus numeros. Somos tu aliado contable, no solo quien firma el balance.",
+    "bullets": [
+      "Matriculados en el Colegio de Contadores del Paraguay",
+      "Experiencia en SET, Marangatu, IPS y MTESS",
+      "Atencion personalizada por contador asignado",
+      "Respuesta garantizada en 24 horas habiles"
+    ]
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Todo lo que tu empresa necesita para estar al dia con Hacienda",
+    "categories": [
+      {
+        "id": "contabilidad",
+        "name": "Contabilidad Mensual",
+        "description": "Registracion contable, libro diario, mayor y balance mensual segun normativa paraguaya.",
+        "icon": "calculator",
+        "items": [
+          "Carga mensual de facturas en sistema contable",
+          "Conciliacion bancaria",
+          "Libro diario y mayor digital",
+          "Balance y estado de resultados mensual",
+          "Cierre anual y presentacion de Estados Financieros"
+        ]
+      },
+      {
+        "id": "impuestos",
+        "name": "Liquidacion de Impuestos",
+        "description": "IVA, IRE, IRP, IDU y todas las obligaciones ante la DNIT (ex-SET) presentadas a tiempo via Marangatu.",
+        "icon": "file-text",
+        "items": [
+          "Liquidacion mensual de IVA (Formulario 120)",
+          "Liquidacion de IRE Simple, General y RESIMPLE (Ley 6380/19)",
+          "Liquidacion de IRP - Renta de Servicios Personales (RSP) y Rentas y Ganancias del Capital (RGC)",
+          "Liquidacion de IDU (Impuesto a Dividendos y Utilidades)",
+          "Habilitacion y gestion de e-Kuatia / e-Kuatia'i (factura electronica)",
+          "Gestion y renovacion de Timbrado",
+          "Presentaciones y declaraciones juradas via Marangatu"
+        ]
+      },
+      {
+        "id": "laboral",
+        "name": "Liquidacion de Sueldos e IPS",
+        "description": "Planilla de sueldos, aportes IPS, comunicacion REOP-MTESS y gestion laboral integral.",
+        "icon": "users",
+        "items": [
+          "Liquidacion mensual de salarios y aguinaldo",
+          "Aportes y retenciones al IPS (9% obrero + 16.5% patronal)",
+          "Comunicacion REOP-MTESS (obligatorio desde 2025)",
+          "Liquidacion de vacaciones, preaviso, finiquito e indemnizaciones",
+          "Alta y baja de trabajadores en IPS y MTESS",
+          "Contratos laborales y registro"
+        ]
+      },
+      {
+        "id": "asesoria",
+        "name": "Asesoramiento Tributario",
+        "description": "Planificacion fiscal, defensa ante fiscalizaciones y consultoria continua.",
+        "icon": "shield",
+        "items": [
+          "Diagnostico impositivo inicial sin costo",
+          "Planificacion tributaria anual",
+          "Respuesta a requerimientos de la SET",
+          "Defensa en fiscalizaciones y sumarios",
+          "Consultoria por WhatsApp durante el mes"
+        ]
+      },
+      {
+        "id": "societario",
+        "name": "Constitucion y Regularizacion de Empresas",
+        "description": "Desde inscripcion de RUC hasta EAS en 72 horas, habilitaciones municipales y registro de marca.",
+        "icon": "briefcase",
+        "items": [
+          "Inscripcion de RUC como persona fisica o juridica",
+          "Constitucion de EAS (Empresa por Acciones Simplificadas) en 72h via MIC",
+          "Constitucion de SRL, SA y Unipersonal",
+          "Actualizacion de datos en DNIT (ex-SET) y Abogacia del Tesoro",
+          "Habilitacion municipal y patente comercial via SUACE",
+          "Inscripcion de marcas en DINAPI",
+          "Paquete 'Abro mi empresa en PY' para inversores extranjeros"
+        ]
+      },
+      {
+        "id": "auditoria",
+        "name": "Auditoria y Balances Certificados",
+        "description": "Auditoria externa para bancos, licitaciones DNCP y requisitos societarios.",
+        "icon": "clipboard-check",
+        "items": [
+          "Auditoria de estados financieros anuales",
+          "Informes certificados para bancos y SEPRELAD",
+          "Balances para licitaciones DNCP",
+          "Auditoria interna y revision de controles",
+          "Due diligence contable para compraventa de empresas"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes Mensuales",
+    "subtitle": "Honorarios claros desde el primer dia. Sin sorpresas.",
+    "disclaimer": "Precios referenciales. Plan final se acuerda segun volumen y complejidad.",
+    "plans": [
+      {
+        "id": "unipersonal",
+        "name": "Profesional Unipersonal",
+        "priceFrom": "450.000 Gs/mes",
+        "description": "Ideal para profesionales independientes con IRP y hasta 30 facturas/mes.",
+        "features": [
+          "Liquidacion mensual de IVA e IRP",
+          "Hasta 30 comprobantes/mes",
+          "Renovacion de Timbrado incluida",
+          "Consultas por WhatsApp",
+          "Declaracion jurada anual"
+        ]
+      },
+      {
+        "id": "pyme",
+        "name": "PYME",
+        "priceFrom": "1.200.000 Gs/mes",
+        "description": "Para empresas con hasta 10 empleados y contabilidad mensual.",
+        "features": [
+          "Contabilidad mensual completa",
+          "Liquidacion IVA + IRE + IRP",
+          "Hasta 10 sueldos + IPS + MTESS",
+          "Balance mensual y anual",
+          "Atencion por contador asignado"
+        ],
+        "featured": true
+      },
+      {
+        "id": "empresa",
+        "name": "Empresa Mediana",
+        "priceFrom": "Consultar",
+        "description": "Para empresas con contabilidad de costos, multiples sucursales o auditoria.",
+        "features": [
+          "Contabilidad de costos y centros",
+          "Hasta 50 sueldos + aguinaldos",
+          "Auditoria externa anual",
+          "Planificacion tributaria trimestral",
+          "Reunion mensual con directorio"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "Como Trabajamos",
+    "steps": [
+      { "number": "1", "title": "Diagnostico Gratuito", "description": "Revisamos tu situacion actual: RUC, deudas con SET, obligaciones pendientes." },
+      { "number": "2", "title": "Propuesta Clara", "description": "Te enviamos un plan mensual con alcance, honorarios y cronograma." },
+      { "number": "3", "title": "Onboarding", "description": "Traspaso ordenado desde tu contador anterior. Acceso a Marangatu configurado." },
+      { "number": "4", "title": "Operacion Mensual", "description": "Vos nos enviamos comprobantes, nosotros liquidamos y presentamos todo a tiempo." },
+      { "number": "5", "title": "Reporte Periodico", "description": "Balance y resumen de impuestos cada mes. Reunion trimestral para planificar." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Me pasaron varias multas con mi contador anterior por atraso en Marangatu. Con ellos llevo 3 anos sin una sola multa.",
+      "author": "Gustavo A.",
+      "role": "Propietario, PYME gastronomica",
+      "rating": 5
+    },
+    {
+      "quote": "Atienden por WhatsApp y me resuelven dudas el mismo dia. Como profesional independiente, ahorro horas por mes.",
+      "author": "Lucia M.",
+      "role": "Arquitecta independiente",
+      "rating": 5
+    },
+    {
+      "quote": "Hicieron el due diligence de una empresa que compre. Ordenaron la contabilidad heredada y armaron planificacion fiscal desde cero.",
+      "author": "Roberto F.",
+      "role": "Director, empresa importadora",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "La primera consulta tiene costo?",
+      "a": "No. La primera reunion de diagnostico (30 a 45 minutos, presencial o por videollamada) es sin compromiso."
+    },
+    {
+      "q": "Trabajan con profesionales que estan en IRP?",
+      "a": "Si. Tenemos un plan especifico para profesionales independientes que incluye liquidacion mensual de IVA e IRP y renovacion de Timbrado."
+    },
+    {
+      "q": "Pueden hacer el traspaso desde mi contador actual?",
+      "a": "Si. Nos encargamos de pedir los papeles de trabajo, acceso a Marangatu y regularizar cualquier pendiente con la SET antes de arrancar."
+    },
+    {
+      "q": "Atienden empresas fuera de {{city}}?",
+      "a": "Si. Trabajamos 100% digital: enviamos y recibimos comprobantes por mail o WhatsApp. Tenemos clientes en todo Paraguay."
+    },
+    {
+      "q": "Que pasa si la DNIT (ex-SET) me fiscaliza?",
+      "a": "Te acompanamos en todo el proceso: respuesta a requerimientos, defensa en sumario y, si corresponde, recurso ante el Tribunal de Cuentas."
+    },
+    {
+      "q": "Que es la DNIT? Cambio algo respecto de la SET?",
+      "a": "Desde 2024 la SET pasa a llamarse DNIT (Direccion Nacional de Ingresos Tributarios). Marangatu, e-Kuatia y los formularios siguen vigentes — solo cambio el nombre del organismo."
+    },
+    {
+      "q": "Trabajan con inversores extranjeros que quieren abrir empresa en PY?",
+      "a": "Si. Gestionamos EAS en 72 horas, residencia fiscal, RUC y apertura de cuenta bancaria. Atencion en ingles y portugues si es necesario."
+    },
+    {
+      "q": "Puedo ver mis numeros en tiempo real?",
+      "a": "Si. Usamos sistema contable con acceso web para que veas balance, IVA a pagar y posicion fiscal en cualquier momento."
+    },
+    {
+      "q": "Emiten factura por sus honorarios?",
+      "a": "Siempre. Factura Credito Electronica via e-Kuatia timbrada el mismo dia del pago."
+    }
+  ],
+  "cta": {
+    "title": "Agenda tu diagnostico gratuito",
+    "subtitle": "En 30 minutos sabes exactamente en que situacion esta tu empresa con la SET.",
+    "button": "Reservar consulta"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Estudio Contable en {{city}}",
+    "copyright": "© {{year}} {{businessName}} - Todos los derechos reservados",
+    "disclaimer": "Matriculados en el Colegio de Contadores del Paraguay"
+  }
+}

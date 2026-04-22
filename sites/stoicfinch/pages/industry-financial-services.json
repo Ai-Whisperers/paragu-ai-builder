@@ -1,0 +1,12 @@
+{
+  "slug": "industry-financial-services",
+  "titleKey": "industry-financial-services.seo.title",
+  "descriptionKey": "industry-financial-services.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "industry-financial-services.hero" },
+    { "id": "features", "variant": "three-col", "content": "industry-financial-services.features" },
+    { "id": "contact", "variant": "split", "content": "industry-financial-services.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

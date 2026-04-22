@@ -218,6 +218,17 @@
       "categories": ["consulting", "advisory"],
       "sections": ["hero", "features", "pricing", "process", "team", "testimonials", "contact"]
     },
+    "contador": {
+      "id": "contador",
+      "nameEs": "Estudio Contable",
+      "nameEn": "Accounting Firm",
+      "icon": "calculator",
+      "tokens": "contador",
+      "content": "contador",
+      "schema": "contador",
+      "categories": ["accountant", "tax_advisor", "auditor", "payroll"],
+      "sections": ["hero", "services", "pricing", "process", "team", "testimonials", "faq", "leadForm", "contact"]
+    },
     "educacion": {
       "id": "educacion",
       "nameEs": "Educacion",

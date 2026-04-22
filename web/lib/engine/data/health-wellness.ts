@@ -114,6 +114,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Alergologia profesional en {{city}}."
     }
   },
+  'ambulance_service': {
+    "id": "ambulance_service",
+    "nameEs": "Servicio de Ambulancia",
+    "nameEn": "Ambulance Service",
+    "verticalId": "health-wellness",
+    "subVertical": "emergency",
+    "extends": "health_wellness_base",
+    "tokens": "ambulance_service",
+    "seo": {
+      "schemaType": "EmergencyService",
+      "titleTemplate": "{{businessName}} - Servicio de Ambulancia 24hs en {{city}}",
+      "descriptionTemplate": "Servicio de ambulancia privada en {{city}}. Traslados, emergencias y atencion medica 24 horas. Cobertura en toda el area metropolitana.",
+      "keywords": [
+        "ambulancia {{city}}",
+        "servicio de ambulancia {{city}}",
+        "traslado sanitario {{city}}",
+        "emergencia medica {{neighborhood}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Servicio de Ambulancia 24hs",
+      "subheadlineTemplate": "Atencion medica de emergencia y traslados sanitarios en {{city}}. Cobertura 24 horas."
+    }
+  },
   'assisted_living_facility': {
     "id": "assisted_living_facility",
     "nameEs": "Residencia Asistida",
@@ -2375,6 +2399,30 @@ export const REGISTRY: Record<string, unknown> = {
     "hero": {
       "headlineTemplate": "{{businessName}} - Ortopedia",
       "subheadlineTemplate": "Ortopedia profesional en {{city}}."
+    }
+  },
+  'orthopedic_supply': {
+    "id": "orthopedic_supply",
+    "nameEs": "Ortopedia",
+    "nameEn": "Orthopedic Supply",
+    "verticalId": "health-wellness",
+    "subVertical": "medical-supply",
+    "extends": "health_wellness_base",
+    "tokens": "orthopedic_supply",
+    "seo": {
+      "schemaType": "MedicalBusiness",
+      "titleTemplate": "{{businessName}} - Ortopedia en {{city}}",
+      "descriptionTemplate": "Productos ortopedicos, sillas de ruedas, muletas, plantillas y fajas en {{city}}. Entrega a domicilio y obras sociales.",
+      "keywords": [
+        "ortopedia {{city}}",
+        "sillas de ruedas {{city}}",
+        "plantillas ortopedicas {{neighborhood}}",
+        "muletas andadores {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Ortopedia",
+      "subheadlineTemplate": "Productos ortopedicos con entrega a domicilio en {{city}}."
     }
   },
   'ozone_therapy_clinic': {

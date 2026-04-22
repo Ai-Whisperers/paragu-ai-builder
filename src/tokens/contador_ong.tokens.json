@@ -1,0 +1,36 @@
+{
+  "name": "Accounting for NGOs and Foundations",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["mission-driven", "transparent", "trustworthy", "warm"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Impact Teal & Sand",
+      "colors": {
+        "primary": "#115e59",
+        "secondary": "#b45309",
+        "accent": "#0d9488",
+        "background": "#fefefb",
+        "surface": "#ffffff",
+        "text": "#134e4a",
+        "textLight": "#475569",
+        "border": "#e2e8f0",
+        "success": "#059669",
+        "warning": "#d97706",
+        "error": "#dc2626"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Lora', 'Georgia', serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Lora:wght@500;600;700"
+  ],
+  "borderRadius": "md"
+}

@@ -5,24 +5,163 @@
   "verticalId": "b2b-professional",
   "extends": "professional_services_base",
   "tokens": "contador",
-  "seo": {
-    "schemaType": "AccountingService",
-    "titleTemplate": "{{businessName}} - Estudio Contable en {{city}}",
-    "descriptionTemplate": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en {{city}}.",
-    "keywords": [
-      "contador {{city}}",
-      "contabilidad {{city}}",
-      "estudio contable {{city}}"
-    ]
+  "content": "contador",
+  "schema": "contador",
+  "icon": "calculator",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "pricingTable",
+        "process",
+        "about",
+        "team",
+        "testimonial",
+        "faq",
+        "leadForm",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "contact",
+        "footer"
+      ]
+    },
+    "services": {
+      "sections": [
+        "header",
+        "serviceMenu",
+        "pricingTable",
+        "faq",
+        "ctaBanner",
+        "footer"
+      ],
+      "requiredSections": ["header", "serviceMenu", "footer"]
+    },
+    "team": {
+      "sections": ["header", "teamProfiles", "footer"],
+      "requiredSections": ["header", "teamProfiles", "footer"]
+    },
+    "contact": {
+      "sections": ["header", "contactSplit", "leadForm", "footer"],
+      "requiredSections": ["header", "contactSplit", "footer"]
+    }
   },
-  "hero": {
-    "headlineTemplate": "{{businessName}} - Tus numeros en buenas manos",
-    "subheadlineTemplate": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en {{city}}."
+  "features": {
+    "leadForm": {
+      "enabled": true,
+      "fields": ["name", "email", "phone", "businessType", "employees", "monthlyInvoices", "message"]
+    },
+    "pricingDisplay": {
+      "enabled": true,
+      "showExactPrice": false,
+      "showFrom": true
+    },
+    "serviceMenu": {
+      "enabled": true,
+      "showPrices": false,
+      "filterable": true
+    },
+    "teamCredentials": {
+      "enabled": true,
+      "showLicenseNumber": true,
+      "showEducation": true
+    },
+    "caseStudies": {
+      "enabled": true,
+      "optional": true
+    },
+    "blog": {
+      "enabled": true,
+      "optional": true,
+      "categories": ["impuestos", "laboral", "pymes", "novedades-set"]
+    },
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "googleMapsEmbed": {
+      "enabled": true
+    },
+    "taxCalendar": {
+      "enabled": true,
+      "optional": true,
+      "note": "Calendario de vencimientos SET/IPS/MTESS"
+    },
+    "documentUpload": {
+      "enabled": false,
+      "optional": true,
+      "note": "Client portal for comprobantes (Phase 2)"
+    }
   },
   "serviceCategories": [
     "contabilidad",
     "impuestos",
-    "sueldos",
-    "asesoria"
-  ]
+    "laboral",
+    "asesoria",
+    "societario",
+    "auditoria"
+  ],
+  "regulatoryVocab": {
+    "authority": "DNIT (ex-SET, rebranded 2024)",
+    "platform": "Marangatu",
+    "eInvoicing": "e-Kuatia / e-Kuatia'i",
+    "keyTaxes": ["IVA", "IRE", "IRP", "IDU", "ISC", "INR", "RESIMPLE"],
+    "laborAuthorities": ["IPS", "MTESS", "REOP"],
+    "procurement": "DNCP",
+    "corporateEntities": ["Unipersonal", "EAS", "SRL", "SA"],
+    "easPortal": "MIC (Ministerio de Industria y Comercio)",
+    "unifiedPortal": "SUACE",
+    "intellectualProperty": "DINAPI",
+    "amlRegulator": "SEPRELAD",
+    "invoicingDoc": "Timbrado / Factura Electronica via e-Kuatia",
+    "professionalBodies": [
+      "Colegio de Contadores del Paraguay (CCP)",
+      "Consejo de Contadores Publicos del Paraguay"
+    ],
+    "legalFramework": "Ley 6380/19 de Modernizacion y Simplificacion del Sistema Tributario"
+  },
+  "subtypes": [
+    { "id": "contador_solo", "label": "Contador unipersonal / personal brand", "themeHint": "warm" },
+    { "id": "estudio_contable_mid", "label": "Estudio contable mid-size", "themeHint": "corporate" },
+    { "id": "contador_agro", "label": "Contador agro / cooperativas", "themeHint": "earthy" },
+    { "id": "contador_inversores", "label": "Contador inversores extranjeros", "themeHint": "premium-bilingual" }
+  ],
+  "targetAudience": {
+    "primary": "PYMES paraguayas con 1-50 empleados, facturacion anual entre 100M y 5.000M Gs",
+    "secondary": "Profesionales independientes (arquitectos, abogados, medicos, IT) con obligacion de IRP e IVA",
+    "tertiary": "Empresas medianas que requieren auditoria externa para bancos o DNCP"
+  },
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Estudio Contable en {{city}} | Contabilidad, Impuestos, Sueldos",
+    "descriptionTemplate": "Contabilidad mensual, liquidacion de IVA, IRE, IRP y sueldos para PYMES en {{city}}. Presentacion via Marangatu al dia. Agenda consulta gratuita.",
+    "keywords": [
+      "contador {{city}}",
+      "estudio contable {{city}}",
+      "contabilidad {{city}}",
+      "liquidacion de impuestos {{city}}",
+      "contador para PYMES {{city}}",
+      "asesor tributario {{city}}",
+      "liquidacion de sueldos {{city}}",
+      "auditoria externa {{city}}",
+      "contador para IRP",
+      "contador Marangatu",
+      "contador SET"
+    ]
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Planes", "Equipo", "Blog", "Contacto"],
+    "cta": { "text": "Consulta Gratuita", "action": "leadForm" }
+  },
+  "hero": {
+    "style": "minimal",
+    "headlineTemplate": "{{businessName}} - Tus numeros en manos expertas",
+    "subheadlineTemplate": "Contabilidad, impuestos y liquidacion de sueldos para PYMES y profesionales en {{city}}.",
+    "ctaPrimary": { "text": "Agendar Consulta Gratuita", "action": "leadForm" },
+    "ctaSecondary": { "text": "Ver Planes", "action": "scrollTo:pricing" }
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "slug": "case-retail-saas-pipeline",
+  "titleKey": "case-retail-saas-pipeline.seo.title",
+  "descriptionKey": "case-retail-saas-pipeline.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "case-retail-saas-pipeline.hero" },
+    { "id": "features", "variant": "three-col", "content": "case-retail-saas-pipeline.features" },
+    { "id": "testimonials", "variant": "grid", "content": "case-retail-saas-pipeline.testimonials" },
+    { "id": "contact", "variant": "split", "content": "case-retail-saas-pipeline.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

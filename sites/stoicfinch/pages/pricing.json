@@ -1,0 +1,12 @@
+{
+  "slug": "pricing",
+  "titleKey": "pricingPage.seo.title",
+  "descriptionKey": "pricingPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "pricingPage.hero" },
+    { "id": "features", "variant": "three-col", "content": "pricingPage.pricing" },
+    { "id": "contact", "variant": "split", "content": "pricingPage.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

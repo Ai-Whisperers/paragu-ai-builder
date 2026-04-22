@@ -1,0 +1,89 @@
+{
+  "id": "contador_inversores",
+  "nameEs": "Estudio Contable para Inversores Extranjeros",
+  "nameEn": "Accounting for Foreign Investors",
+  "verticalId": "b2b-professional",
+  "extends": "contador",
+  "tokens": "contador_inversores",
+  "content": "contador_inversores",
+  "schema": "contador",
+  "icon": "globe",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "pricingTable",
+        "process",
+        "testimonial",
+        "faq",
+        "leadForm",
+        "footer"
+      ],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    }
+  },
+  "features": {
+    "leadForm": {
+      "enabled": true,
+      "fields": ["name", "email", "whatsapp", "country", "residencyStatus", "message"]
+    },
+    "pricingDisplay": {
+      "enabled": true,
+      "showCurrency": "USD",
+      "referenceCurrency": "PYG"
+    },
+    "languageToggle": {
+      "enabled": true,
+      "languages": ["es", "en", "pt"]
+    },
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "teamCredentials": {
+      "enabled": true,
+      "showLicenseNumber": true
+    }
+  },
+  "serviceCategories": [
+    "incorporation",
+    "residency",
+    "compliance",
+    "banking",
+    "maquila",
+    "crypto"
+  ],
+  "targetAudience": {
+    "primary": "Foreign investors, digital nomads, remote founders, expats seeking PY tax residency",
+    "secondary": "Brazilian and Argentinian entrepreneurs opening operations in Paraguay",
+    "tertiary": "Export-oriented firms leveraging territorial tax system"
+  },
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Open Paraguay Company in 72h | Foreign Investor Accounting",
+    "descriptionTemplate": "EAS incorporation, tax residency, and bilingual monthly compliance for foreign investors and digital nomads in Paraguay. CCP certified.",
+    "keywords": [
+      "open company Paraguay",
+      "EAS Paraguay 72 hours",
+      "tax residency Paraguay",
+      "foreign investor accountant Paraguay",
+      "digital nomad Paraguay tax",
+      "maquila Paraguay accountant",
+      "Paraguay territorial tax",
+      "crypto tax Paraguay",
+      "Ciudad del Este zona franca"
+    ]
+  },
+  "nav": {
+    "items": ["Home", "Services", "Packages", "Process", "FAQ", "Contact"],
+    "cta": { "text": "Free Consultation", "action": "leadForm" }
+  },
+  "hero": {
+    "style": "minimal",
+    "headlineTemplate": "{{businessName}} - Open Your Paraguay Company in 72 Hours",
+    "subheadlineTemplate": "EAS incorporation, tax residency and compliance for foreign investors, digital nomads and MERCOSUR entrepreneurs.",
+    "ctaPrimary": { "text": "Book Free Consultation", "action": "leadForm" },
+    "ctaSecondary": { "text": "See Packages", "action": "scrollTo:pricing" }
+  }
+}

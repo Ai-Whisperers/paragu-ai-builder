@@ -1,0 +1,12 @@
+{
+  "slug": "methodology",
+  "titleKey": "methodologyPage.seo.title",
+  "descriptionKey": "methodologyPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "methodologyPage.hero" },
+    { "id": "process", "variant": "horizontal", "content": "methodologyPage.process" },
+    { "id": "contact", "variant": "split", "content": "methodologyPage.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

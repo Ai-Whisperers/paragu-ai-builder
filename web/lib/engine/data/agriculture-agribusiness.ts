@@ -428,10 +428,17 @@ export const REGISTRY: Record<string, unknown> = {
       "header",
       "hero",
       "productCatalog",
+      "stockIndicator",
+      "deliveryCalculator",
       "about",
       "services",
-      "gallery",
+      "recipes",
       "testimonials",
+      "reviews",
+      "subscription",
+      "referral",
+      "priceList",
+      "preorder",
       "faq",
       "contact",
       "footer",
@@ -446,6 +453,7 @@ export const REGISTRY: Record<string, unknown> = {
           "about",
           "services",
           "testimonials",
+          "recipes",
           "contact",
           "footer"
         ],
@@ -459,6 +467,7 @@ export const REGISTRY: Record<string, unknown> = {
         "sections": [
           "header",
           "productCatalog",
+          "stockIndicator",
           "faq",
           "footer"
         ],
@@ -476,6 +485,67 @@ export const REGISTRY: Record<string, unknown> = {
         "requiredSections": [
           "about"
         ]
+      },
+      "delivery": {
+        "sections": [
+          "header",
+          "deliveryCalculator",
+          "contact",
+          "footer"
+        ],
+        "requiredSections": [
+          "deliveryCalculator"
+        ]
+      },
+      "recipes": {
+        "sections": [
+          "header",
+          "recipes",
+          "footer"
+        ],
+        "requiredSections": [
+          "recipes"
+        ]
+      },
+      "reviews": {
+        "sections": [
+          "header",
+          "reviews",
+          "footer"
+        ],
+        "requiredSections": [
+          "reviews"
+        ]
+      },
+      "suscripcion": {
+        "sections": [
+          "header",
+          "subscription",
+          "footer"
+        ],
+        "requiredSections": [
+          "subscription"
+        ]
+      },
+      "precios": {
+        "sections": [
+          "header",
+          "priceList",
+          "footer"
+        ],
+        "requiredSections": [
+          "priceList"
+        ]
+      },
+      "reservas": {
+        "sections": [
+          "header",
+          "preorder",
+          "footer"
+        ],
+        "requiredSections": [
+          "preorder"
+        ]
       }
     },
     "features": {
@@ -485,6 +555,61 @@ export const REGISTRY: Record<string, unknown> = {
       "ecommerce": {
         "enabled": false,
         "future": true
+      },
+      "smartWhatsApp": {
+        "enabled": true,
+        "templates": [
+          "product",
+          "wholesale",
+          "chicken",
+          "delivery",
+          "subscription"
+        ]
+      },
+      "stockIndicator": {
+        "enabled": true,
+        "thresholds": {
+          "lowStock": 10
+        }
+      },
+      "deliveryCalculator": {
+        "enabled": true,
+        "zones": [
+          "centro",
+          "ruta2_cerca",
+          "ruta2_lejos",
+          "retiro"
+        ]
+      },
+      "priceList": {
+        "enabled": true,
+        "generatePDF": true
+      },
+      "subscription": {
+        "enabled": true,
+        "frequencies": [
+          "weekly",
+          "biweekly",
+          "monthly"
+        ]
+      },
+      "reviews": {
+        "enabled": true,
+        "allowNewReviews": true
+      },
+      "referral": {
+        "enabled": true,
+        "friendDiscount": 10,
+        "referrerReward": "Maple de 30 huevos"
+      },
+      "preorder": {
+        "enabled": true,
+        "advanceHours": 24,
+        "calendarView": true
+      },
+      "recipes": {
+        "enabled": true,
+        "contentMarketing": true
       },
       "wholesale": {
         "enabled": true,
@@ -508,7 +633,7 @@ export const REGISTRY: Record<string, unknown> = {
         "Inicio",
         "Productos",
         "Servicios",
-        "Galeria",
+        "Recetas",
         "Contacto"
       ],
       "cta": {
@@ -537,7 +662,8 @@ export const REGISTRY: Record<string, unknown> = {
         "venta de huevos {{city}}",
         "huevo de granja {{city}}",
         "pollo para consumo {{city}}",
-        "fertilizante organico {{city}}"
+        "fertilizante organico {{city}}",
+        "recetas con huevos {{city}}"
       ]
     }
   },
@@ -1551,6 +1677,94 @@ export const CONTENT: Record<string, unknown> = {
       "ctaPrimary": "Hacer Pedido por WhatsApp",
       "ctaSecondary": "Ver Nuestros Productos"
     },
+    "features": {
+      "smartWhatsApp": {
+        "enabled": true,
+        "templates": {
+          "product": "Hola! Vi el {{productName}} a {{price}} en su web. Esta disponible? Quiero {{quantity}}.",
+          "wholesale": "Hola! Represento a un negocio y me interesa su lista de precios mayoristas. Consumimos aprox {{weeklyVolume}} huevos/semana. Podemos coordinar?",
+          "chicken": "Hola! Quiero reservar {{chickenType}} para el {{pickupDate}}. Lo pueden preparar?",
+          "delivery": "Hola! Necesito delivery a {{address}}. Cual es el costo de envio? Quiero {{productList}}.",
+          "subscription": "Hola! Me interesa el servicio de entrega semanal. Somos {{familySize}} personas. Tienen planes de suscripcion?"
+        }
+      },
+      "stockIndicator": {
+        "enabled": true,
+        "thresholds": {
+          "lowStock": 10
+        }
+      },
+      "deliveryCalculator": {
+        "enabled": true,
+        "zones": [
+          {
+            "id": "centro",
+            "name": "Coronel Oviedo Centro",
+            "fee": 5000,
+            "minOrder": 15000,
+            "freeDeliveryOver": 50000,
+            "estimatedTime": "30-45 min"
+          },
+          {
+            "id": "ruta2_cerca",
+            "name": "Ruta 2 (Km 120-140)",
+            "fee": 8000,
+            "minOrder": 20000,
+            "freeDeliveryOver": 70000,
+            "estimatedTime": "45-60 min"
+          },
+          {
+            "id": "ruta2_lejos",
+            "name": "Ruta 2 (Km 140-150)",
+            "fee": 12000,
+            "minOrder": 30000,
+            "freeDeliveryOver": 100000,
+            "estimatedTime": "60-90 min"
+          },
+          {
+            "id": "retiro",
+            "name": "Retiro en Granja",
+            "fee": 0,
+            "minOrder": 0,
+            "freeDeliveryOver": 0,
+            "estimatedTime": "Inmediato"
+          }
+        ]
+      },
+      "priceList": {
+        "enabled": true,
+        "validDays": 30
+      },
+      "subscription": {
+        "enabled": true,
+        "frequencies": [
+          "weekly",
+          "biweekly",
+          "monthly"
+        ],
+        "discount": 5
+      },
+      "reviews": {
+        "enabled": true
+      },
+      "referral": {
+        "enabled": true,
+        "friendDiscount": 10,
+        "referrerReward": "Maple de 30 huevos gratis"
+      },
+      "preorder": {
+        "enabled": true,
+        "advanceHours": 24,
+        "products": [
+          "Pollo Entero",
+          "Pollito Tierno"
+        ]
+      },
+      "recipes": {
+        "enabled": true,
+        "showOnHomepage": true
+      }
+    },
     "productCatalog": {
       "title": "Nuestros Productos",
       "subtitle": "Directo de nuestra granja a tu mesa",
@@ -1565,6 +1779,8 @@ export const CONTENT: Record<string, unknown> = {
               "description": "Huevos frescos recien recolectados",
               "priceRetail": "800 Gs",
               "priceWholesale": "600 Gs (docena+)",
+              "stockStatus": "in_stock",
+              "stockCount": 150,
               "image": "egg_single"
             },
             {
@@ -1572,6 +1788,8 @@ export const CONTENT: Record<string, unknown> = {
               "description": "Caja de 30 unidades - ideal para familias",
               "priceRetail": "22.000 Gs",
               "priceWholesale": "18.000 Gs",
+              "stockStatus": "in_stock",
+              "stockCount": 45,
               "image": "egg_carton_30"
             },
             {
@@ -1579,6 +1797,8 @@ export const CONTENT: Record<string, unknown> = {
               "description": "Docena fresca - perfecto para probar",
               "priceRetail": "9.500 Gs",
               "priceWholesale": "7.200 Gs",
+              "stockStatus": "in_stock",
+              "stockCount": 32,
               "image": "egg_dozen"
             }
           ]
@@ -1593,15 +1813,17 @@ export const CONTENT: Record<string, unknown> = {
               "description": "Pollo limpio y listo para cocinar (aprox. 2-2.5kg)",
               "priceRetail": "35.000 Gs",
               "priceWholesale": "30.000 Gs (5+ unidades)",
+              "stockStatus": "preorder",
               "image": "whole_chicken",
-              "note": "Pedido con 24hs de anticipacion"
+              "note": "Reservar con 24hs de anticipacion"
             },
             {
               "name": "Pollito Tierno",
               "description": "Pollo joven, carne suave (aprox. 1-1.2kg)",
               "priceRetail": "22.000 Gs",
+              "stockStatus": "preorder",
               "image": "young_chicken",
-              "note": "Pedido con 24hs de anticipacion"
+              "note": "Reservar con 24hs de anticipacion"
             }
           ]
         },
@@ -1615,6 +1837,8 @@ export const CONTENT: Record<string, unknown> = {
               "description": "Fertilizante organico compostado",
               "priceRetail": "15.000 Gs",
               "priceWholesale": "12.000 Gs (5+ bolsas)",
+              "stockStatus": "in_stock",
+              "stockCount": 28,
               "image": "fertilizer_bag"
             }
           ]
@@ -1684,29 +1908,56 @@ export const CONTENT: Record<string, unknown> = {
         }
       ]
     },
-    "testimonials": [
-      {
-        "quote": "Los huevos son fresquisimos, se nota la diferencia. El delivery es muy puntual.",
-        "author": "Maria G.",
-        "location": "Coronel Oviedo",
-        "rating": 5,
-        "type": "cliente"
-      },
-      {
-        "quote": "Excelente calidad para mi panaderia. Mis clientes notan la diferencia en los productos horneados.",
-        "author": "Don Jose",
-        "location": "Panaderia San Jose",
-        "rating": 5,
-        "type": "negocio"
-      },
-      {
-        "quote": "Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente.",
-        "author": "Restaurante La Tradicion",
-        "location": "Ruta 2",
-        "rating": 5,
-        "type": "restaurante"
-      }
-    ],
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Calidad comprobada por familias, panaderias y restaurantes de la zona",
+      "reviews": [
+        {
+          "id": "1",
+          "author": "Maria G.",
+          "location": "Coronel Oviedo",
+          "rating": 5,
+          "text": "Los huevos son fresquisimos, se nota la diferencia con los de supermercado. El delivery siempre es puntual y los huevos llegan perfectos. Totalmente recomendados!",
+          "date": "2026-04-10",
+          "type": "cliente",
+          "verified": true,
+          "helpful": 12
+        },
+        {
+          "id": "2",
+          "author": "Don Jose",
+          "location": "Panaderia San Jose",
+          "rating": 5,
+          "text": "Excelente calidad para mi panaderia. Mis clientes notan la diferencia en los productos horneados. El color de la yema es incomparable. Llevo 6 meses comprando y nunca fallan.",
+          "date": "2026-04-05",
+          "type": "negocio",
+          "verified": true,
+          "helpful": 8
+        },
+        {
+          "id": "3",
+          "author": "Restaurante La Tradicion",
+          "location": "Ruta 2",
+          "rating": 5,
+          "text": "Proveedor confiable, siempre cumplen con los pedidos y la calidad es consistente. El servicio mayorista es excelente, precios justos y flexibilidad en las entregas.",
+          "date": "2026-03-28",
+          "type": "restaurante",
+          "verified": true,
+          "helpful": 15
+        },
+        {
+          "id": "4",
+          "author": "Carmen R.",
+          "location": "Km 135, Ruta 2",
+          "rating": 5,
+          "text": "Hago el pedido por WhatsApp y en 40 minutos estan en mi puerta. Los huevos duran mucho mas frescos que los del super. Gran servicio!",
+          "date": "2026-04-12",
+          "type": "cliente",
+          "verified": true,
+          "helpful": 6
+        }
+      ]
+    },
     "faq": [
       {
         "q": "De donde vienen sus huevos?",
@@ -1733,6 +1984,120 @@ export const CONTENT: Record<string, unknown> = {
         "a": "Vendemos pollos limpios y listos para cocinar. Los pedidos deben hacerse con 24 horas de anticipacion. No vendemos pollos vivos."
       }
     ],
+    "recipes": {
+      "title": "Recetas con Huevos Frescos",
+      "subtitle": "Deliciosas recetas usando nuestros huevos de granja",
+      "items": [
+        {
+          "id": "tortilla-clasica",
+          "title": "Tortilla de Huevos Clasica",
+          "description": "La tortilla perfecta, jugosa por dentro y dorada por fuera. Ideal para cualquier momento del dia.",
+          "prepTime": 5,
+          "cookTime": 10,
+          "servings": 2,
+          "difficulty": "Facil",
+          "ingredients": [
+            "4 huevos frescos Granja Cabral",
+            "Sal y pimienta al gusto",
+            "2 cucharadas de aceite de oliva",
+            "Opcional: cebolla, pimiento, jamon, queso"
+          ],
+          "instructions": [
+            "Batir los huevos en un bowl con sal y pimienta",
+            "Calentar el aceite en sarten a fuego medio",
+            "Verter los huevos y dejar cocinar sin revolver",
+            "Cuando los bordes esten listos, doblar por la mitad",
+            "Cocinar 1-2 minutos mas y servir caliente"
+          ],
+          "tips": [
+            "Usar huevos a temperatura ambiente para mejor resultado",
+            "No batir en exceso para mantener la textura esponjosa"
+          ],
+          "tags": [
+            "desayuno",
+            "rapido",
+            "clasico",
+            "gluten-free"
+          ],
+          "featured": true
+        },
+        {
+          "id": "huevos-rancheros",
+          "title": "Huevos Rancheros",
+          "description": "Desayuno energetico con huevos estrellados sobre tortilla y salsa.",
+          "prepTime": 10,
+          "cookTime": 15,
+          "servings": 2,
+          "difficulty": "Medio",
+          "ingredients": [
+            "4 huevos frescos Granja Cabral",
+            "2 tortillas de maiz",
+            "1 taza de salsa de tomate",
+            "Frijoles refritos",
+            "Aguacate",
+            "Queso fresco"
+          ],
+          "instructions": [
+            "Freir ligeramente las tortillas",
+            "Calentar la salsa de tomate",
+            "Freir los huevos estrellados",
+            "Montar: tortilla, frijoles, huevo, salsa",
+            "Decorar con aguacate y queso"
+          ],
+          "tags": [
+            "desayuno",
+            "mexicano",
+            "sustancioso"
+          ],
+          "featured": true
+        },
+        {
+          "id": "flan-casero",
+          "title": "Flan de Huevo Casero",
+          "description": "Postre clasico, cremoso y delicioso. Solo 4 ingredientes.",
+          "prepTime": 15,
+          "cookTime": 45,
+          "servings": 6,
+          "difficulty": "Medio",
+          "ingredients": [
+            "6 huevos frescos Granja Cabral",
+            "1 litro de leche",
+            "1 taza de azucar",
+            "1 cucharadita de esencia de vainilla",
+            "Caramelo para el molde"
+          ],
+          "instructions": [
+            "Precalentar horno a 180C",
+            "Preparar caramelo y cubrir el fondo del molde",
+            "Batir huevos con azucar y vainilla",
+            "Agregar leche tibia y mezclar",
+            "Verter en molde y hornear a bano Maria por 45 min",
+            "Dejar enfriar y desmoldar"
+          ],
+          "tips": [
+            "El bano Maria evita que se cuarte",
+            "Dejar reposar toda la noche para mejor sabor"
+          ],
+          "tags": [
+            "postre",
+            "clasico",
+            "horno"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    "referral": {
+      "title": "Recomienda y Gana",
+      "subtitle": "Comparte Granja Cabral con tus amigos y familia. Ambos ganan!",
+      "friendBenefit": "10% de descuento en primera compra",
+      "referrerBenefit": "Un maple de 30 huevos GRATIS",
+      "howItWorks": [
+        "Comparti tu codigo con amigos",
+        "Ellos obtienen 10% OFF en su primera compra",
+        "Vos ganas un maple de huevos GRATIS"
+      ]
+    },
     "gallery": {
       "title": "Nuestra Granja",
       "subtitle": "Conoce donde producimos tus huevos",
