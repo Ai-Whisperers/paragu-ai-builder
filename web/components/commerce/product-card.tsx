@@ -15,6 +15,8 @@ import {
 } from '@/lib/stores/wishlist'
 import { ReviewStars } from './review-stars'
 import { Highlight } from './highlight'
+import { InstallmentLine } from './installment-line'
+import { FreebieBadge } from './freebie-badge'
 import { trackAddToCart, trackAddToWishlist } from '@/lib/analytics/commerce-events'
 
 // Lazy-load QuickViewModal — it's ~170 lines of JSX + handlers and only
@@ -264,6 +266,20 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
               )
             ) : null}
           </div>
+
+          {/* Installment line under price — reframes the sticker as a
+              monthly payment. Self-hides for non-PYG carts, tenants
+              without a config, and prices below the display floor. */}
+          <InstallmentLine
+            siteSlug={siteSlug}
+            priceCents={product.priceCents}
+            currency={product.currency}
+            className="mt-0.5"
+          />
+
+          {/* Freebie ribbon — gift-with-purchase signal from
+              product.metadata.freebie. Null when absent. */}
+          <FreebieBadge metadata={product.metadata} className="mt-1" />
 
           <button
             type="button"

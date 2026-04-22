@@ -28,6 +28,8 @@ import { PdpStickyMobileCta } from '@/components/commerce/pdp-sticky-mobile-cta'
 import { PdpCareGuide } from '@/components/commerce/pdp-care-guide'
 import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { PdpViewTracker } from '@/components/commerce/pdp-view-tracker'
+import { InstallmentLine } from '@/components/commerce/installment-line'
+import { FreebieBadge } from '@/components/commerce/freebie-badge'
 import {
   listApprovedReviews,
   getReviewAggregatesByBusiness,
@@ -225,6 +227,20 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
               </p>
             )
           ) : null}
+
+          {/* Installment promise directly under the price — reframes the
+              sticker total as a monthly payment. Biggest AOV lever in the
+              LATAM adult-retail PDP layout (peer analysis: luden.store). */}
+          <InstallmentLine
+            siteSlug={site}
+            priceCents={product.priceCents}
+            currency={product.currency}
+            variant="pdp"
+            className="mt-2"
+          />
+
+          {/* Freebie ribbon — signals gift-with-purchase without discounting. */}
+          <FreebieBadge metadata={product.metadata} className="mt-3" />
 
           {product.description ? (
             <p className="mt-6 whitespace-pre-line text-[color:var(--text,#111)]">{product.description}</p>
