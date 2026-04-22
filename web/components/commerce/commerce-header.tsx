@@ -7,6 +7,7 @@ import { CartDrawer } from './cart-drawer'
 import { CurrencyToggle } from './currency-toggle'
 import { HeaderSearch } from './header-search'
 import { WishlistBadge } from './wishlist-badge'
+import { DiscreetModeToggle } from './discreet-mode-toggle'
 
 interface Props {
   siteSlug: string
@@ -37,6 +38,7 @@ export function CommerceHeader({ siteSlug, businessName, locale = 'es' }: Props)
             >
               Mi orden
             </Link>
+            <DiscreetModeToggle />
             <CurrencyToggle />
             <MiniCartBadge onClick={() => setOpen(true)} />
           </nav>
