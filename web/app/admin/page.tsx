@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { createClient } from '@/lib/supabase/server'
 import { loadAllBusinesses } from '@/lib/engine/data-loader'
 import { BUSINESS_TYPES } from '@/lib/types'
 
@@ -26,6 +27,32 @@ const STATUS_COLORS: Record<string, string> = {
 
 export default async function AdminDashboard() {
   const businesses = await loadAllBusinesses()
+
+  // Live inbox counts for the tile badge. Best-effort — failures show 0
+  // rather than blocking the dashboard render.
+  let inboxNewCount = 0
+  let inboxOverdueCount = 0
+  try {
+    const supabase = await createClient()
+    const { data } = await supabase
+      .from('leads')
+      .select('status, created_at, contacted_at')
+      .in('status', ['new', 'contacted'])
+      .limit(1000)
+    const now = Date.now()
+    for (const l of (data ?? []) as Array<{ status: string; created_at: string; contacted_at: string | null }>) {
+      if (l.status === 'new') {
+        inboxNewCount++
+        const age = (now - new Date(l.created_at).getTime()) / 3_600_000
+        if (age > 48) inboxOverdueCount++
+      } else if (l.status === 'contacted' && l.contacted_at) {
+        const age = (now - new Date(l.contacted_at).getTime()) / 3_600_000
+        if (age > 144) inboxOverdueCount++
+      }
+    }
+  } catch {
+    // Silent — show zeros.
+  }
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -79,13 +106,25 @@ export default async function AdminDashboard() {
             href="/admin/inbox"
             className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
           >
-            <p className="text-xs uppercase tracking-wider text-gray-500">Inbound</p>
+            <div className="flex items-start justify-between">
+              <p className="text-xs uppercase tracking-wider text-gray-500">Inbound</p>
+              {inboxNewCount > 0 && (
+                <span className="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-700">
+                  {inboxNewCount} new
+                </span>
+              )}
+            </div>
             <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
               Inbox
             </p>
             <p className="mt-1 text-sm text-gray-500">
               Consultas entrantes (contact forms) — pipeline new → closed.
             </p>
+            {inboxOverdueCount > 0 && (
+              <p className="mt-2 text-xs font-medium text-red-600">
+                {inboxOverdueCount} overdue — SLA breached
+              </p>
+            )}
           </Link>
           <Link
             href="/admin/demo-requests"
