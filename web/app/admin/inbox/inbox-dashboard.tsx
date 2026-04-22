@@ -25,6 +25,31 @@ const STATUS_COLORS: Record<InboxLead['status'], string> = {
   qualified: 'bg-purple-50 text-purple-700 border-purple-200',
   closed: 'bg-slate-100 text-slate-600 border-slate-200',
 }
+
+// SLA urgency — visual cue for leads sitting outside the expected response
+// window. New leads should move to "contacted" within 24h; contacted leads
+// should progress (qualified or closed) within 72h. Exceed 2× threshold → overdue.
+const SLA_HOURS = { new: 24, contacted: 72 } as const
+
+type SlaLevel = 'ok' | 'warning' | 'overdue' | null
+
+function slaStatus(lead: Pick<InboxLead, 'status' | 'created_at' | 'contacted_at'>): SlaLevel {
+  const now = Date.now()
+  if (lead.status === 'new') {
+    const age = (now - new Date(lead.created_at).getTime()) / 3_600_000
+    if (age > SLA_HOURS.new * 2) return 'overdue'
+    if (age > SLA_HOURS.new) return 'warning'
+    return 'ok'
+  }
+  if (lead.status === 'contacted' && lead.contacted_at) {
+    const age = (now - new Date(lead.contacted_at).getTime()) / 3_600_000
+    if (age > SLA_HOURS.contacted * 2) return 'overdue'
+    if (age > SLA_HOURS.contacted) return 'warning'
+    return 'ok'
+  }
+  return null
+}
+
 const CLOSE_REASON_LABELS: Record<string, string> = {
   won: 'Won (paid)',
   lost_not_fit: 'Lost — not a fit',
@@ -362,8 +387,11 @@ function LeadsTable({
           </tr>
         </thead>
         <tbody className={`divide-y divide-slate-100 ${pending ? 'opacity-60' : ''}`}>
-          {leads.map((l) => (
-            <tr key={l.id} className={`hover:bg-slate-50 ${selected.has(l.id) ? 'bg-amber-50/40' : ''}`}>
+          {leads.map((l) => {
+            const sla = slaStatus(l)
+            const slaCls = sla === 'overdue' ? 'border-l-4 border-l-red-500' : sla === 'warning' ? 'border-l-4 border-l-amber-500' : ''
+            return (
+            <tr key={l.id} className={`hover:bg-slate-50 ${slaCls} ${selected.has(l.id) ? 'bg-amber-50/40' : ''}`}>
               <td className="px-3 py-3">
                 <input type="checkbox" checked={selected.has(l.id)} onChange={() => onToggleRow(l.id)} onClick={(e) => e.stopPropagation()} aria-label={`Select ${l.name}`} className="h-4 w-4 rounded border-slate-300" />
               </td>
@@ -385,9 +413,16 @@ function LeadsTable({
                   ? <span className="font-mono text-xs">{l.assigned_to.split('@')[0]}</span>
                   : <span className="text-slate-300 italic">unassigned</span>}
               </td>
-              <td className="px-4 py-3 cursor-pointer" onClick={() => onSelect(l)}><StatusBadge status={l.status} /></td>
+              <td className="px-4 py-3 cursor-pointer" onClick={() => onSelect(l)}>
+                <div className="flex items-center gap-2">
+                  <StatusBadge status={l.status} />
+                  {sla === 'overdue' && <span className="text-xs font-medium text-red-600">overdue</span>}
+                  {sla === 'warning' && <span className="text-xs font-medium text-amber-600">late</span>}
+                </div>
+              </td>
             </tr>
-          ))}
+                    )
+          })}
         </tbody>
       </table>
     </div>
