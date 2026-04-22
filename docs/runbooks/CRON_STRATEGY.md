@@ -34,6 +34,7 @@ No extra moving parts.**
 | `POST /api/cron/commerce-email-flush` | `*/5 * * * *` | `CRON_SECRET`, `RESEND_API_KEY`, `COMMERCE_EMAIL_FROM` | Send queued commerce emails |
 | `POST /api/cron/commerce-abandoned-cart` | `0 */4 * * *` | `CRON_SECRET` | Abandoned cart recovery |
 | `POST /api/cron/commerce-reconcile-pending` | `0 * * * *` | `CRON_SECRET` | Reconcile MP pending payments |
+| `POST /api/cron/commerce-merchant-digest` | `0 11 * * *` (08:00 Asunción) | `CRON_SECRET`, `RESEND_API_KEY`, `COMMERCE_EMAIL_FROM` | Daily merchant digest: yesterday's orders + revenue + actionable pending list |
 | `POST /api/cron/commerce-prune-search-events` | `17 3 * * *` (03:17 UTC daily) | `CRON_SECRET` | Prune `search_events` rows older than 90 days so the table stays bounded |
 | `POST /api/cron/health` | `0 * * * *` (UTC, hourly) | `CRON_SECRET` | Returns `{ ok, crons[] }` per-cron env-readiness. 503 if any required env is missing. Wire to your monitor of choice. |
 
@@ -68,6 +69,7 @@ Paste (one line per cron):
 0 12 * * *  curl -fsS -X POST https://paragu-ai.com/api/cron/leads-digest -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 0 11 * * 1  curl -fsS -X POST https://paragu-ai.com/api/cron/sitemap-ping -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 */5 * * * * curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-email-flush -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
+0 11 * * *  curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-merchant-digest -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 0 */4 * * * curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-abandoned-cart -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 0 * * * *   curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-reconcile-pending -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
 17 3 * * *  curl -fsS -X POST https://paragu-ai.com/api/cron/commerce-prune-search-events -H "x-cron-secret: $CRON_SECRET" >> /var/log/paragu-ai-crons.log 2>&1
@@ -97,6 +99,7 @@ Then crontab becomes:
 0 12 * * *  /usr/local/bin/paragu-cron /api/cron/leads-digest >> /var/log/paragu-ai-crons.log 2>&1
 0 11 * * 1  /usr/local/bin/paragu-cron /api/cron/sitemap-ping >> /var/log/paragu-ai-crons.log 2>&1
 */5 * * * * /usr/local/bin/paragu-cron /api/cron/commerce-email-flush >> /var/log/paragu-ai-crons.log 2>&1
+0 11 * * *  /usr/local/bin/paragu-cron /api/cron/commerce-merchant-digest >> /var/log/paragu-ai-crons.log 2>&1
 0 */4 * * * /usr/local/bin/paragu-cron /api/cron/commerce-abandoned-cart >> /var/log/paragu-ai-crons.log 2>&1
 0 * * * *   /usr/local/bin/paragu-cron /api/cron/commerce-reconcile-pending >> /var/log/paragu-ai-crons.log 2>&1
 17 3 * * *  /usr/local/bin/paragu-cron /api/cron/commerce-prune-search-events >> /var/log/paragu-ai-crons.log 2>&1
