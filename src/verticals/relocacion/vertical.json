@@ -44,7 +44,8 @@
     "compliance-disclaimer-footer",
     "tax-savings-calculator",
     "intake-wizard",
-    "newsletter-signup"
+    "newsletter-signup",
+    "resources-list"
   ],
   "defaultStarterKit": "full",
   "locales": [

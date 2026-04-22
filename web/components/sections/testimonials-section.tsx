@@ -7,7 +7,10 @@ import { cn } from '@/lib/utils'
 
 export interface Testimonial {
   quote: string
-  author: string
+  /** Preferred. Legacy content may use `name` instead — both accepted. */
+  author?: string
+  /** Legacy content shape alias for `author`. */
+  name?: string
   role?: string
   rating?: number
   avatar?: string
@@ -154,7 +157,7 @@ export function TestimonialsSection({
                   {testimonial.avatar ? (
                     <img 
                       src={testimonial.avatar}
-                      alt={testimonial.author}
+                      alt={(testimonial.author ?? testimonial.name ?? '')}
                       className="w-12 h-12 rounded-full object-cover"
                     />
                   ) : (
@@ -165,14 +168,14 @@ export function TestimonialsSection({
                         color: 'var(--primary-foreground)',
                       }}
                     >
-                      {testimonial.author.charAt(0).toUpperCase()}
+                      {(testimonial.author ?? testimonial.name ?? '').charAt(0).toUpperCase()}
                     </div>
                   )}
                   <div>
                     <p className="font-semibold text-base"
                       style={{ color: 'var(--text)' }}
                     >
-                      {testimonial.author}
+                      {(testimonial.author ?? testimonial.name ?? '')}
                     </p>
                     {testimonial.role && (
                       <p className="text-sm"
