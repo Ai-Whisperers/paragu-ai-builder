@@ -88,5 +88,5 @@
       ]
     }
   },
-  "_note": "Demo-mode content. Quotes, names, roles, and portraits are AI-generated placeholders shown to prospects pre-handoff. Swap for real consented content before setting isLiveProduction:true — see docs/DEMO_CONTENT.md. videoPoster slots are ready; videoUrl left empty renders a 'video coming soon' thumbnail."
+  "_note": "AI-generated placeholder portraits + copy. Founder consented 2026-04 to use AI content pre-launch (Ivan W. + Sonia). Replace with real consented client quotes once the first wave of post-launch clients completes the 8-12 week program and opts in to publish. Video poster slots ready; videoUrl empty renders a 'video coming soon' thumbnail."
 }
