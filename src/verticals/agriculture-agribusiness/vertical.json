@@ -31,7 +31,10 @@
     "promo-banner",
     "trust-badges",
     "open-hours-status",
-    "newsletter-signup"
+    "newsletter-signup",
+    "cta-banner",
+    "blog-index",
+    "blog-post"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

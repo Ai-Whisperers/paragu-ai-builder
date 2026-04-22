@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=117, pages=193, content=137, blog=31, images=3, verticals=23. */
+/** Counts: sites=117, pages=197, content=137, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -10122,6 +10122,48 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "suscripciones",
     "titleKey": "subscriptions.seo.title"
   },
+  "granja-cabral:blog": {
+    "descriptionKey": "blogPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blogPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blogPage",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blogPage.seo.title"
+  },
   "granja-cabral:contacto": {
     "descriptionKey": "contactoPage.seo.description",
     "sections": [
@@ -10188,24 +10230,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.ourStory",
-        "id": "our-story",
-        "variant": "narrative"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.wholesale",
-        "id": "b2b-wholesale",
-        "variant": "tiered"
-      },
-      {
-        "content": "home.recipes",
-        "id": "recipes",
-        "variant": "grid"
+        "content": "home.ctaToMayorista",
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "home.testimonials",
@@ -10213,9 +10245,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
+        "content": "home.ctaToRecetas",
+        "id": "cta-banner",
+        "variant": "solid"
       },
       {
         "content": "home.newsletter",
@@ -10250,9 +10282,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
+        "content": "mayoristaPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
         "content": "home.wholesale",
         "id": "b2b-wholesale",
         "variant": "tiered"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
       },
       {
         "content": "footer",
@@ -10267,6 +10309,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "mayorista",
     "titleKey": "mayoristaPage.seo.title"
+  },
+  "granja-cabral:productos": {
+    "descriptionKey": "productosPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "productosPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "productos",
+    "titleKey": "productosPage.seo.title"
   },
   "granja-cabral:recetas": {
     "descriptionKey": "recetasPage.seo.description",
@@ -10346,6 +10425,85 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "sobre-nosotros",
     "titleKey": "sobrePage.seo.title"
+  },
+  "granja-cabral:sostenibilidad": {
+    "descriptionKey": "sostenibilidadPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "sostenibilidadPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.ourStory",
+        "id": "our-story",
+        "variant": "narrative"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "sostenibilidad",
+    "titleKey": "sostenibilidadPage.seo.title"
+  },
+  "granja-cabral:suscripcion": {
+    "descriptionKey": "suscripcionPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "suscripcionPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "suscripcionPage.plans",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "suscripcion",
+    "titleKey": "suscripcionPage.seo.title"
   },
   "nexa-paraguay:asistente": {
     "descriptionKey": "intakeWizardPage.seo.description",
@@ -21873,6 +22031,18 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "translationQuality": "native"
     },
+    "blogPage": {
+      "hero": {
+        "ctaPrimaryHref": "https://wa.me/595981324569",
+        "ctaPrimaryText": "Suscribirme al newsletter",
+        "headline": "Desde la granja",
+        "subheadline": "Recetas, tips y historias del campo. Nuevo contenido cada semana."
+      },
+      "seo": {
+        "description": "Recetas semanales, tips de cocina con huevos frescos, historias de la granja y novedades del equipo. Contenido nuevo cada semana.",
+        "title": "Blog — Granja Cabral"
+      }
+    },
     "business": {
       "address": "Ruta 2, Km 125-140",
       "city": "Coronel Oviedo",
@@ -22048,6 +22218,18 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "La forma más rápida de hacer pedidos es por WhatsApp.",
         "title": "Contactanos",
         "whatsapp": "+595981324569"
+      },
+      "ctaToMayorista": {
+        "buttonHref": "/s/es/granja-cabral/mayorista",
+        "buttonText": "Ver planes mayoristas",
+        "subtitle": "Más de 300 restaurantes, panaderías, hoteles y supermercados ya confían en nosotros. Desde 100 huevos por semana — hasta 20% OFF + delivery programado + facturación.",
+        "title": "¿Tenés un negocio? Pedí precios mayoristas."
+      },
+      "ctaToRecetas": {
+        "buttonHref": "/s/es/granja-cabral/recetas",
+        "buttonText": "Ver todas las recetas",
+        "subtitle": "15 recetas paraguayas — tortilla, sopa paraguaya, chipa guazú, flan casero — pensadas para huevos de granja.",
+        "title": "Inspiración para cocinar"
       },
       "enhancedFaq": {
         "items": [
@@ -22403,6 +22585,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "mayoristaPage": {
+      "hero": {
+        "ctaPrimaryHref": "https://wa.me/595981324569",
+        "ctaPrimaryText": "Solicitar cotización por WhatsApp",
+        "headline": "Huevos frescos para tu negocio",
+        "subheadline": "Proveedor confiable para restaurantes, panaderías, hoteles y supermercados. Delivery programado, facturación mensual, atención directa con el dueño."
+      },
       "seo": {
         "description": "Precios mayoristas de huevos frescos para restaurantes, panaderías, hoteles y supermercados en Coronel Oviedo y Ruta 2. Delivery programado, facturación y atención directa.",
         "title": "Venta mayorista de huevos — Granja Cabral"
@@ -22414,16 +22602,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "ctaText": "Hacer pedido",
       "navItems": [
         {
-          "href": "/s/es/granja-cabral",
-          "label": "Inicio"
+          "href": "/s/es/granja-cabral/productos",
+          "label": "Productos"
+        },
+        {
+          "href": "/s/es/granja-cabral/mayorista",
+          "label": "Mayorista"
+        },
+        {
+          "href": "/s/es/granja-cabral/suscripcion",
+          "label": "Suscripción"
         },
         {
           "href": "/s/es/granja-cabral/recetas",
           "label": "Recetas"
         },
         {
-          "href": "/s/es/granja-cabral/mayorista",
-          "label": "Mayorista"
+          "href": "/s/es/granja-cabral/blog",
+          "label": "Blog"
         },
         {
           "href": "/s/es/granja-cabral/sobre-nosotros",
@@ -22439,6 +22635,18 @@ export const CONTENT: Record<string, JsonRecord> = {
       "businessName": "Granja Cabral",
       "city": "Coronel Oviedo",
       "year": 2026
+    },
+    "productosPage": {
+      "hero": {
+        "ctaPrimaryHref": "https://wa.me/595981324569",
+        "ctaPrimaryText": "Pedir por WhatsApp",
+        "headline": "Nuestros productos",
+        "subheadline": "Huevos, pollo y fertilizante orgánico — directo de la granja a tu mesa."
+      },
+      "seo": {
+        "description": "Huevos por unidad, bandejas, maples, pollo entero, pollito tierno y fertilizante orgánico. Precios y especificaciones de todos los productos de Granja Cabral.",
+        "title": "Productos — Granja Cabral"
+      }
     },
     "recetasPage": {
       "hero": {
@@ -22463,6 +22671,57 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Granja familiar en Coronel Oviedo dedicada a la producción local de huevos frescos. Conocé nuestra historia, valores y compromiso con la calidad y el bienestar animal.",
         "title": "Sobre Granja Cabral — Nuestra historia"
+      }
+    },
+    "sostenibilidadPage": {
+      "hero": {
+        "ctaPrimaryHref": "https://wa.me/595981324569",
+        "ctaPrimaryText": "Visitá la granja",
+        "headline": "Producción responsable",
+        "subheadline": "Compostaje, reutilización de agua, bienestar animal y fertilizante orgánico: cerramos el ciclo para que cada huevo tenga el menor impacto posible."
+      },
+      "seo": {
+        "description": "Compostaje de gallinaza, reutilización de agua, bienestar animal y fertilizante orgánico cerrando el ciclo. Así producimos alimentos responsablemente en Coronel Oviedo.",
+        "title": "Sostenibilidad — Granja Cabral"
+      }
+    },
+    "suscripcionPage": {
+      "hero": {
+        "ctaPrimaryHref": "https://wa.me/595981324569",
+        "ctaPrimaryText": "Activar suscripción por WhatsApp",
+        "headline": "Huevos frescos cada semana, sin pensar",
+        "subheadline": "Suscripción semanal o quincenal con 5% de descuento, delivery gratis en pedidos recurrentes. Pausá, modificá o cancelá cuando quieras con 48 horas de aviso."
+      },
+      "plans": {
+        "items": [
+          {
+            "description": "Perfecto para familias de 3-5 personas que consumen huevos todos los días.",
+            "discount": "5% OFF + delivery gratis",
+            "name": "Familia Semanal",
+            "price": "20.900 Gs/semana",
+            "volume": "30 huevos/semana"
+          },
+          {
+            "description": "Para familias grandes o cocineros entusiastas.",
+            "discount": "5% OFF + delivery gratis",
+            "name": "Familia Plus",
+            "price": "38.000 Gs/semana",
+            "volume": "60 huevos/semana"
+          },
+          {
+            "description": "Para consumo moderado sin acumulación.",
+            "discount": "Sin recargo",
+            "name": "Quincenal",
+            "price": "21.000 Gs/quincena",
+            "volume": "30 huevos cada 2 semanas"
+          }
+        ],
+        "subtitle": "Elegí la cantidad y frecuencia que mejor se adapta a tu hogar.",
+        "title": "Planes de suscripción"
+      },
+      "seo": {
+        "description": "Delivery programado semanal o quincenal con 5% de descuento. Pausá o cancelá cuando quieras. Huevos frescos sin pensar en el pedido.",
+        "title": "Suscripción de huevos frescos — Granja Cabral"
       }
     },
     "tagline": "Huevos frescos de granja en Coronel Oviedo",
@@ -33414,7 +33673,10 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "promo-banner",
       "trust-badges",
       "open-hours-status",
-      "newsletter-signup"
+      "newsletter-signup",
+      "cta-banner",
+      "blog-index",
+      "blog-post"
     ],
     "baseType": "agriculture_base",
     "defaultStarterKit": "minimal",
