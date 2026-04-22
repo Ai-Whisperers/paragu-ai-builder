@@ -43,7 +43,20 @@ export const useCartStore = create<CartStore>()(
       status: 'idle',
       error: null,
 
-      hydrate: (siteSlug, cart) => set({ siteSlug, cart, status: 'idle', error: null }),
+      // Passing cart=null means "I don't have fresh server data", NOT "the
+      // cart is empty" — we keep whatever the persist layer already
+      // rehydrated from localStorage. That matters when a page (e.g. the
+      // checkout /pagar page) renders without pre-fetching the cart: the
+      // old behavior wiped the drawer's items on mount and surfaced as a
+      // confusing "cart has items / checkout empty" regression. Callers
+      // that genuinely want to clear should call `reset()`.
+      hydrate: (siteSlug, cart) =>
+        set((prev) => ({
+          siteSlug,
+          cart: cart ?? prev.cart,
+          status: 'idle',
+          error: null,
+        })),
 
       refresh: async (siteSlug) => {
         set({ status: 'syncing', error: null })

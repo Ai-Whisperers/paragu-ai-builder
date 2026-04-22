@@ -5,17 +5,29 @@ import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { CartPageClient } from '@/components/commerce/cart-page-client'
+import { getSessionToken } from '@/lib/commerce/session'
+import { getCartBySessionToken } from '@/lib/commerce/cart'
 
 export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic' // depends on the session cookie
 
 export default async function CartPage({ params }: { params: Promise<{ site: string; locale: string }> }) {
   const { site, locale } = await params
   const business = await resolveBusinessBySlug(site)
   if (!business || !(await isCommerceEnabled(business.type))) notFound()
 
+  // Server-load the current shopper's cart so SSR renders the items
+  // directly. The relaxed hydrator (see PR #256 cart-store.ts change)
+  // also protects against the null-wipe case, but loading here means
+  // no flash of empty, and no dependence on client-side persist.
+  const sessionToken = await getSessionToken()
+  const initialCart = sessionToken
+    ? await getCartBySessionToken(business.id, sessionToken).catch(() => null)
+    : null
+
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CartStoreHydrator siteSlug={site} initialCart={null} />
+      <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
       <main className="mx-auto max-w-4xl px-4 py-8">
         <h1 className="mb-6 text-2xl font-bold">Tu carrito</h1>
