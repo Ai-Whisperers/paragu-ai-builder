@@ -82,6 +82,17 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang={htmlLang}>
       <head>
+        {/*
+          Preconnect hints for Google Fonts. Tenant pages load per-site
+          Playfair/Inter/etc. via a `<link rel="stylesheet"
+          href="https://fonts.googleapis.com/...">` — that's render-blocking
+          and discovered late. Pre-warming the DNS + TLS + HTTP handshake
+          shaves 100–250ms off FCP/LCP for first-time visitors.
+          `fonts.gstatic.com` serves the actual font files and MUST be
+          crossorigin (browsers treat font requests as CORS).
+        */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
