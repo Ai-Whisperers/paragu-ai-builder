@@ -56,8 +56,15 @@ import { ComplianceDisclaimerFooterSection } from '@/components/sections/complia
 import { PromoBannerSection } from '@/components/sections/promo-banner-section'
 import { NewsletterSignupSection } from '@/components/sections/newsletter-signup-section'
 
+// Exported so tests (and any future tooling) can assert that every
+// registered section in section-registry has a matching render binding.
+// See tests/unit/engine/renderer-wiring.test.ts — silent-skip bugs of
+// the class "component exists, registry knows it, page config references
+// it, but the COMPONENTS map has no entry → renderPage warns and moves
+// on" hit us four separate times before this guard landed (PRs #245,
+// #247, #248). The test makes the whole class impossible.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const COMPONENTS: Record<string, React.ComponentType<any>> = {
+export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   header: HeaderSection,
   hero: HeroSection,
   services: ServicesSection,
