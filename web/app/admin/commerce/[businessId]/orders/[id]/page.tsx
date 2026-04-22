@@ -35,6 +35,21 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
           <span className="rounded bg-[color:var(--primary,#111)]/10 px-3 py-1 text-sm font-medium">{order.status}</span>
         </header>
 
+        {order.comprobanteSentAt && order.status === 'awaiting_payment' ? (
+          <div className="mb-6 rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-900">
+            <p className="font-semibold">✓ Cliente avisó que envió el comprobante</p>
+            <p className="mt-0.5 text-xs">
+              {new Date(order.comprobanteSentAt).toLocaleString('es-PY')} · Verificá la transferencia y
+              marcá el pago como recibido abajo.
+            </p>
+            {order.comprobanteNote ? (
+              <p className="mt-2 whitespace-pre-line rounded bg-white/60 p-2 text-xs">
+                Nota del cliente: {order.comprobanteNote}
+              </p>
+            ) : null}
+          </div>
+        ) : null}
+
         <section className="mb-6">
           <h2 className="mb-2 text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Cliente</h2>
           <p>{order.customerName}</p>
