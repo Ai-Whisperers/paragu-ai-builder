@@ -34,7 +34,8 @@ function gridColsClass(n: number): string {
   return 'sm:grid-cols-2 lg:grid-cols-3'
 }
 
-export function TeamSection({ title, subtitle, members }: TeamSectionProps) {
+export function TeamSection({ title, subtitle, members = [] }: TeamSectionProps) {
+  if (!members || members.length === 0) return null
   return (
     <section id="equipo" className="bg-[var(--surface)] py-16 sm:py-20">
       <Container>
