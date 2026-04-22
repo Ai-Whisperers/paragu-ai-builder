@@ -29,24 +29,14 @@
       "content": "home.openHours"
     },
     {
-      "id": "our-story",
-      "variant": "narrative",
-      "content": "home.ourStory"
-    },
-    {
       "id": "services",
       "variant": "cards",
       "content": "home.services"
     },
     {
-      "id": "b2b-wholesale",
-      "variant": "tiered",
-      "content": "home.wholesale"
-    },
-    {
-      "id": "recipes",
-      "variant": "grid",
-      "content": "home.recipes"
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.ctaToMayorista"
     },
     {
       "id": "testimonials",
@@ -54,9 +44,9 @@
       "content": "home.testimonials"
     },
     {
-      "id": "enhanced-faq",
-      "variant": "searchable",
-      "content": "home.enhancedFaq"
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "home.ctaToRecetas"
     },
     {
       "id": "newsletter-signup",

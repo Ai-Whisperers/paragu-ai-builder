@@ -9,9 +9,19 @@
       "content": "navigation"
     },
     {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "mayoristaPage.hero"
+    },
+    {
       "id": "b2b-wholesale",
       "variant": "tiered",
       "content": "home.wholesale"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
     },
     {
       "id": "footer",
