@@ -6,6 +6,7 @@ import { OrderActions } from '@/components/admin/commerce/order-actions'
 import { OrderRefundButton } from '@/components/admin/commerce/order-refund-button'
 import { ComprobanteViewer } from '@/components/admin/commerce/comprobante-viewer'
 import { OrderNoteForm } from '@/components/admin/commerce/order-note-form'
+import { InvoiceIssueForm } from '@/components/admin/commerce/invoice-issue-form'
 import { OrderTimeline } from '@/components/admin/commerce/order-timeline'
 import { listOrderEvents } from '@/lib/commerce/order-events'
 
@@ -144,6 +145,7 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
         </section>
         <OrderActions businessId={businessId} orderId={order.id} currentStatus={order.status} />
         <OrderRefundButton businessId={businessId} orderId={order.id} currentStatus={order.status} />
+        <InvoiceIssueForm businessId={businessId} orderId={order.id} alreadyIssued={Boolean(order.invoiceNumber)} invoiceNumber={order.invoiceNumber} customerName={order.customerName} />
       </div>
     </div>
   )
