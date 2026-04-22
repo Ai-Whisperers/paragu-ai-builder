@@ -159,12 +159,22 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
       <aside className="h-fit rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 lg:sticky lg:top-4">
         <h2 className="mb-4 text-lg font-semibold">Resumen</h2>
         <ul className="mb-4 space-y-2 text-sm">
-          {cart.items.map((it) => (
-            <li key={it.id} className="flex justify-between">
-              <span className="text-[color:var(--text-muted,#6b7280)]">{it.quantity} × producto</span>
-              <span>{formatCents(it.unitPriceCents * it.quantity, cart.currency)}</span>
-            </li>
-          ))}
+          {cart.items.map((it) => {
+            // Fall back to "Producto" only when the join row didn't resolve
+            // a name — real products always have one. The pre-fix copy
+            // literally read "producto" for every line.
+            const name = it.productName ?? 'Producto'
+            return (
+              <li key={it.id} className="flex justify-between gap-2">
+                <span className="flex-1 truncate text-[color:var(--text-muted,#6b7280)]">
+                  {it.quantity} × {name}
+                </span>
+                <span className="whitespace-nowrap">
+                  {formatCents(it.unitPriceCents * it.quantity, cart.currency)}
+                </span>
+              </li>
+            )
+          })}
         </ul>
 
         {/* Discount code */}

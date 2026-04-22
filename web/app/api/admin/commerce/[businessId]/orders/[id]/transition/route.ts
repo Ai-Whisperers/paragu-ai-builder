@@ -1,9 +1,11 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { withRequestLog } from '@/lib/api/with-request-log'
-import { transitionStatus, CheckoutError } from '@/lib/commerce/orders'
+import { transitionStatus, CheckoutError, getOrder } from '@/lib/commerce/orders'
 import { OrderStatusSchema } from '@/lib/schemas/commerce/order'
 import { requireAdminUser } from '@/lib/commerce/admin-auth'
+import { enqueueOrderEmail } from '@/lib/commerce/notifications'
+import { createAdminClient } from '@/lib/supabase/admin'
 
 export const runtime = 'nodejs'
 
@@ -17,6 +19,14 @@ const BodySchema = z.object({
     })
     .optional(),
 })
+
+// Which status transitions should fire a customer email. Intentionally
+// small — refunded / fulfilled / delivered don't email today; the admin
+// can still transition them, just no customer notification.
+const STATUS_TO_TEMPLATE: Partial<Record<z.infer<typeof OrderStatusSchema>, 'order_paid' | 'order_shipped'>> = {
+  paid: 'order_paid',
+  shipped: 'order_shipped',
+}
 
 export const POST = withRequestLog<{ businessId: string; id: string }>(async (req, { log }, { businessId, id }) => {
   const admin = await requireAdminUser()
@@ -36,7 +46,6 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(async (re
   try {
     await transitionStatus(businessId, id, parsed.data.status, { tracking: parsed.data.tracking })
     log.info('admin.commerce.order.transitioned', { businessId, orderId: id, status: parsed.data.status })
-    return NextResponse.json({ ok: true })
   } catch (err) {
     if (err instanceof CheckoutError) {
       const status = err.code === 'order_not_found' ? 404 : 409
@@ -47,4 +56,39 @@ export const POST = withRequestLog<{ businessId: string; id: string }>(async (re
     }
     throw err
   }
+
+  // Fire the matching customer notification for transitions the shopper
+  // cares about. Fire-and-forget — an outbox insert failure must not
+  // block the admin action. commerce-email-flush cron sends on next tick.
+  const template = STATUS_TO_TEMPLATE[parsed.data.status]
+  if (template) {
+    try {
+      const order = await getOrder(businessId, id)
+      const supabase = await createAdminClient()
+      const { data: biz } = await supabase
+        .from('businesses')
+        .select('name, slug')
+        .eq('id', businessId)
+        .maybeSingle()
+      const appUrl =
+        process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'https://paragu-ai.com'
+      const storeUrl = biz ? `${appUrl}/s/es/${biz.slug}/orden/${order.id}` : appUrl
+      await enqueueOrderEmail({
+        businessId,
+        businessName: biz?.name ?? 'Tienda',
+        orderId: order.id,
+        template,
+        order,
+        storeUrl,
+      })
+    } catch (err) {
+      log.warn('admin.commerce.order.customer_email_enqueue_failed', {
+        orderId: id,
+        status: parsed.data.status,
+        err: err instanceof Error ? err.message : String(err),
+      })
+    }
+  }
+
+  return NextResponse.json({ ok: true })
 })

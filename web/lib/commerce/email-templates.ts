@@ -156,6 +156,61 @@ export function reviewRequestEmail(ctx: ReviewRequestContext) {
   }
 }
 
+export interface AdminNewOrderContext {
+  order: Order
+  businessName: string
+  adminDashboardUrl: string
+}
+
+/**
+ * Notifies the merchant that a new order was placed. Fast scannable
+ * format with all decision-relevant info so the merchant can act
+ * without logging in (reply to WhatsApp, prep the package, etc.).
+ */
+export function adminNewOrderEmail({ order, businessName, adminDashboardUrl }: AdminNewOrderContext) {
+  const itemsHtml = (order.items ?? [])
+    .map(
+      (it) =>
+        `<tr><td style="padding:6px 0;">${escape(it.productSnapshot.name)} × ${it.quantity}</td><td style="padding:6px 0;text-align:right;">${formatCents(it.lineTotalCents, order.currency)}</td></tr>`,
+    )
+    .join('')
+
+  const addr = order.shippingAddress
+  const addrLine = addr
+    ? `${escape(addr.line1)}${addr.line2 ? ', ' + escape(addr.line2) : ''}, ${escape(addr.city)}${addr.department ? ' (' + escape(addr.department) + ')' : ''}`
+    : '—'
+
+  const phoneDigits = order.customerPhone ? order.customerPhone.replace(/\D/g, '') : ''
+  const whatsappUrl = phoneDigits
+    ? `https://wa.me/${phoneDigits}?text=${encodeURIComponent(`Hola ${order.customerName}, recibimos tu pedido ${order.orderNumber}.`)}`
+    : null
+
+  return {
+    subject: `🛒 Nueva orden ${order.orderNumber} — ${formatCents(order.totalCents, order.currency)} (${businessName})`,
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;margin:0 0 8px 0;">Nuevo pedido</h1>
+  <p style="color:#6b7280;margin:0 0 16px 0;font-size:13px;">Orden <strong style="color:#111;">${order.orderNumber}</strong> · ${new Date(order.createdAt).toLocaleString('es-PY')}</p>
+  <div style="display:inline-block;background:#fef3c7;color:#92400e;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:600;margin-bottom:16px;">Esperando pago</div>
+  <table style="width:100%;border-collapse:collapse;margin:0 0 16px 0;font-size:14px;">
+    ${itemsHtml}
+    <tr><td style="padding:8px 0;border-top:1px solid #e5e7eb;font-weight:600;">Total</td><td style="padding:8px 0;border-top:1px solid #e5e7eb;text-align:right;font-weight:600;">${formatCents(order.totalCents, order.currency)}</td></tr>
+  </table>
+  <div style="background:#f9fafb;border-radius:8px;padding:12px;margin:0 0 16px 0;font-size:14px;">
+    <p style="margin:0 0 4px 0;font-weight:600;">${escape(order.customerName)}</p>
+    <p style="margin:0 0 4px 0;color:#6b7280;">${escape(order.customerEmail)}</p>
+    ${order.customerPhone ? `<p style="margin:0 0 4px 0;color:#6b7280;">${escape(order.customerPhone)}</p>` : ''}
+    <p style="margin:8px 0 0 0;color:#6b7280;font-size:12px;">Envío: ${addrLine}</p>
+  </div>
+  <div style="margin:0 0 8px 0;">
+    <a href="${adminDashboardUrl}" style="display:inline-block;background:#111;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;font-size:14px;">Ver en el admin →</a>
+    ${whatsappUrl ? `<a href="${whatsappUrl}" style="display:inline-block;background:#25D366;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;font-size:14px;margin-left:8px;">WhatsApp cliente</a>` : ''}
+  </div>
+  <p style="color:#9ca3af;font-size:11px;margin-top:24px;">${escape(businessName)} · notificación automática de Paragu-AI</p>
+</body></html>`.trim(),
+  }
+}
+
 function escape(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
 }

@@ -14,6 +14,11 @@ import { computeCartTotals } from '@/lib/commerce/compute-totals'
 import { quoteShippingForAddress } from '@/lib/commerce/shipping-zones'
 import { CheckoutInputSchema } from '@/lib/schemas/commerce/order'
 import type { PaymentProvider } from '@/lib/schemas/commerce/transaction'
+import {
+  enqueueOrderEmail,
+  enqueueAdminNewOrderEmail,
+  resolveAdminEmail,
+} from '@/lib/commerce/notifications'
 
 // Extend the base CheckoutInputSchema to optionally accept a discountCode.
 // The code is validated server-side against discounts table — never trust
@@ -111,6 +116,39 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
   const order = await getOrder(business.id, orderId)
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
+
+  // Fire-and-forget order-confirmation + admin-notification emails via
+  // the outbox. The commerce-email-flush cron picks them up on the next
+  // tick and sends via Resend. We do NOT let failures block the payment
+  // flow — outbox insert errors log + swallow.
+  const storeOrderUrl = `${appUrl}/s/es/${site}/orden/${order.id}`
+  const adminDashboardUrl = `${appUrl}/admin/commerce/${business.id}/orders/${order.id}`
+  const adminEmail = resolveAdminEmail(business.dataJson)
+  await Promise.all([
+    enqueueOrderEmail({
+      businessId: business.id,
+      businessName: business.name,
+      orderId: order.id,
+      template: 'order_confirmation',
+      order,
+      storeUrl: storeOrderUrl,
+    }).catch((err) =>
+      log.warn('commerce.checkout.customer_email_enqueue_failed', {
+        err: err instanceof Error ? err.message : String(err),
+      }),
+    ),
+    enqueueAdminNewOrderEmail({
+      businessId: business.id,
+      businessName: business.name,
+      order,
+      adminEmail: adminEmail ?? '',
+      adminDashboardUrl,
+    }).catch((err) =>
+      log.warn('commerce.checkout.admin_email_enqueue_failed', {
+        err: err instanceof Error ? err.message : String(err),
+      }),
+    ),
+  ])
 
   // Pick provider via capability matrix; failover on gateway 5xx/timeout.
   //
