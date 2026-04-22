@@ -7,6 +7,8 @@ import { OrderRefundButton } from '@/components/admin/commerce/order-refund-butt
 import { ComprobanteViewer } from '@/components/admin/commerce/comprobante-viewer'
 import { OrderNoteForm } from '@/components/admin/commerce/order-note-form'
 import { InvoiceIssueForm } from '@/components/admin/commerce/invoice-issue-form'
+import { CustomerHistoryPanel } from '@/components/admin/commerce/customer-history-panel'
+import { getCustomerHistory } from '@/lib/commerce/customer-history'
 import { OrderTimeline } from '@/components/admin/commerce/order-timeline'
 import { listOrderEvents } from '@/lib/commerce/order-events'
 
@@ -17,9 +19,11 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
   const { businessId, id } = await params
   let order
   let events: Awaited<ReturnType<typeof listOrderEvents>> = []
+  let history: Awaited<ReturnType<typeof getCustomerHistory>> | null = null
   try {
     order = await getOrder(businessId, id)
     events = await listOrderEvents(businessId, id)
+    history = await getCustomerHistory(businessId, order.customerEmail, order.id)
   } catch (err) {
     if (err instanceof CheckoutError && err.code === 'order_not_found') notFound()
     throw err
@@ -94,6 +98,8 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
             ) : null}
           </div>
         </section>
+
+        {history ? <CustomerHistoryPanel businessId={businessId} history={history} /> : null}
 
         {order.shippingAddress ? (
           <section className="mb-6">

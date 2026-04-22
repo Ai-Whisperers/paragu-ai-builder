@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { trackLeadSubmit } from '@/lib/analytics/marketing-events'
 import { X } from 'lucide-react'
 
 const STORAGE_KEY = 'nexa:exit-intent:seen'
@@ -59,11 +60,14 @@ export function ExitIntentModal(props: ExitIntentModalProps) {
       })
       if (!res.ok) throw new Error(`status_${res.status}`)
       setStatus('success')
+      trackLeadSubmit({ source: 'exit-intent', success: true, tenant: props.siteSlug })
     } catch {
       const subject = encodeURIComponent('Exit-intent lead — Nexa Paraguay')
       const body = encodeURIComponent(`New subscriber: ${email}`)
       window.location.href = `mailto:${props.fallbackEmail}?subject=${subject}&body=${body}`
       setStatus('success')
+      // lead_fallback — API call failed, mailto used; still worth counting.
+      trackLeadSubmit({ source: 'exit-intent', success: false, tenant: props.siteSlug })
     }
   }
 
