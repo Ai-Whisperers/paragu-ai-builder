@@ -72,7 +72,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
-    if (!cart) return
+    if (!cart || submitting) return
     setSubmitting(true)
     setError(null)
 
