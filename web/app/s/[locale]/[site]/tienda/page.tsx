@@ -19,6 +19,7 @@ import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CommerceChrome } from '@/components/commerce/commerce-chrome'
 import { TrustStrip } from '@/components/commerce/trust-strip'
 import { TiendaCategoryTiles } from '@/components/commerce/tienda-category-tiles'
+import { QuizFab } from '@/components/commerce/quiz-fab'
 import type { Locale } from '@/lib/i18n/config'
 import { ProductCard } from '@/components/commerce/product-card'
 import { getSessionToken } from '@/lib/commerce/session'
@@ -226,15 +227,7 @@ export default async function StorePage({
       <TiendaSearchTracker query={search} />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
-        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-          <h1 className="text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
-          <Link
-            href={`/s/${locale}/${site}/quiz`}
-            className="inline-flex items-center gap-1 rounded-full border border-[color:var(--primary,#111)] px-3 py-1.5 text-xs font-semibold text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
-          >
-            ✨ Ayudame a elegir
-          </Link>
-        </div>
+        <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
 
         <TrustStrip variant="prominent" />
 
@@ -329,7 +322,7 @@ export default async function StorePage({
           </div>
         ) : (
           <>
-            <div className="mt-6 grid grid-cols-1 gap-4 min-[420px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 lg:gap-6">
+            <div className="mt-6 grid grid-cols-1 gap-5 min-[420px]:grid-cols-2 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4 lg:gap-8">
               {products.map((product, idx) => (
                 <ProductCard
                   key={product.id}
@@ -354,6 +347,7 @@ export default async function StorePage({
 
         <RecentlyViewedRail siteSlug={site} locale={locale} />
       </main>
+      <QuizFab href={`/s/${locale}/${site}/quiz`} />
       <CommerceChrome siteSlug={site} locale={locale as Locale} />
     </div>
   )
