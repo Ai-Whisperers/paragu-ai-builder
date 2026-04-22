@@ -18,6 +18,7 @@ import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CommerceChrome } from '@/components/commerce/commerce-chrome'
 import { TrustStrip } from '@/components/commerce/trust-strip'
+import { TiendaCategoryTiles } from '@/components/commerce/tienda-category-tiles'
 import type { Locale } from '@/lib/i18n/config'
 import { ProductCard } from '@/components/commerce/product-card'
 import { getSessionToken } from '@/lib/commerce/session'
@@ -236,6 +237,13 @@ export default async function StorePage({
         </div>
 
         <TrustStrip variant="prominent" />
+
+        <TiendaCategoryTiles
+          siteSlug={site}
+          locale={locale}
+          availableCategories={availableCategories}
+          categoryCounts={categoryCounts}
+        />
 
         {products.length > 0 && products.every((p) => p.isSeed) && process.env.NODE_ENV !== 'production' ? (
           <aside
