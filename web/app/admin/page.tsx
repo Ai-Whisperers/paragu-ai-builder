@@ -54,6 +54,34 @@ export default async function AdminDashboard() {
     // Silent — show zeros.
   }
 
+  // Commerce tile counts — awaiting_payment + of-those-with-comprobante-sent
+  // + low-stock products across ALL tenants. Best-effort; failures show 0.
+  let commerceAwaitingCount = 0
+  let commerceComprobanteSentCount = 0
+  let commerceLowStockCount = 0
+  try {
+    const supabase = await createClient()
+    const { data: orders } = await supabase
+      .from('orders')
+      .select('status, comprobante_sent_at')
+      .eq('status', 'awaiting_payment')
+      .limit(1000)
+    const oRows = (orders ?? []) as Array<{ status: string; comprobante_sent_at: string | null }>
+    commerceAwaitingCount = oRows.length
+    commerceComprobanteSentCount = oRows.filter((o) => o.comprobante_sent_at).length
+    const { data: products } = await supabase
+      .from('products')
+      .select('inventory_qty, low_stock_threshold, inventory_policy, status')
+      .eq('inventory_policy', 'deny')
+      .eq('status', 'active')
+      .lte('inventory_qty', 10)
+      .limit(500)
+    commerceLowStockCount = ((products ?? []) as Array<{ inventory_qty: number; low_stock_threshold: number | null }>)
+      .filter((p) => p.inventory_qty <= (p.low_stock_threshold ?? 3)).length
+  } catch {
+    // Silent.
+  }
+
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -142,13 +170,30 @@ export default async function AdminDashboard() {
             href="/admin/commerce"
             className="group rounded-lg border bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
           >
-            <p className="text-xs uppercase tracking-wider text-gray-500">Tiendas</p>
+            <div className="flex items-start justify-between">
+              <p className="text-xs uppercase tracking-wider text-gray-500">Tiendas</p>
+              {commerceAwaitingCount > 0 && (
+                <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-800">
+                  {commerceAwaitingCount} esperando
+                </span>
+              )}
+            </div>
             <p className="mt-1 text-base font-semibold text-gray-900 group-hover:text-blue-700">
               Commerce
             </p>
             <p className="mt-1 text-sm text-gray-500">
               Pedidos, productos e inventario por tenant.
             </p>
+            {commerceComprobanteSentCount > 0 && (
+              <p className="mt-2 text-xs font-medium text-green-700">
+                {commerceComprobanteSentCount} con comprobante listo para verificar
+              </p>
+            )}
+            {commerceLowStockCount > 0 && (
+              <p className="mt-1 text-xs font-medium text-red-600">
+                {commerceLowStockCount} {commerceLowStockCount === 1 ? 'producto con stock bajo' : 'productos con stock bajo'}
+              </p>
+            )}
           </Link>
           <Link
             href="/admin/tenants"
