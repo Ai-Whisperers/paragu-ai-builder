@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useTransition, useCallback } from 'react'
+import { useEffect, useState, useTransition, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import type { InboxLead, InboxStats } from './page'
@@ -79,6 +79,16 @@ export function InboxDashboard({
   const [selected, setSelected] = useState<InboxLead | null>(null)
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [pending, startTransition] = useTransition()
+
+  useEffect(() => {
+    let tick: ReturnType<typeof setInterval> | null = null
+    const start = () => { if (!tick) tick = setInterval(() => { if (document.visibilityState === 'visible') router.refresh() }, 30_000) }
+    const stop = () => { if (tick) { clearInterval(tick); tick = null } }
+    start()
+    const onVis = () => { if (document.visibilityState === 'visible') start(); else stop() }
+    document.addEventListener('visibilitychange', onVis)
+    return () => { stop(); document.removeEventListener('visibilitychange', onVis) }
+  }, [router])
 
   const applyFilters = useCallback(
     (next: Filters & { page?: number }) => {
