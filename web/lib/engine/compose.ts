@@ -106,6 +106,9 @@ export interface BusinessData {
     imageUrl?: string
     category?: string
     available?: boolean
+    stockCount?: number
+    isPreorder?: boolean
+    isB2B?: boolean
   }>
   team?: Array<{
     name: string
@@ -124,7 +127,29 @@ export interface BusinessData {
     author: string
     role?: string
     rating?: number
+    location?: string
+    type?: string
   }>
+  stats?: Array<{ value: string; label: string }>
+  story?: {
+    founded?: string
+    mission?: string
+    vision?: string
+    values?: string[]
+  }
+  sustainability?: {
+    composting?: boolean
+    biogas?: boolean
+    waterRecycling?: boolean
+    organicFertilizer?: boolean
+    description?: string
+  }
+  referralProgram?: {
+    enabled?: boolean
+    friendDiscount?: number
+    referrerReward?: string
+    description?: string
+  }
   heroImage?: string
   classSchedule?: Array<{
     day: string
