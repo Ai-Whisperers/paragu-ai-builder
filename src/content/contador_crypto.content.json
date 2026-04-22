@@ -1,0 +1,184 @@
+{
+  "id": "contador_crypto",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad y compliance para crypto en Paraguay",
+    "subheadline": "SEPRELAD-compliant, blockchain forensics, IRE sobre ganancias de criptoactivos, reporting bilingue ES/EN. Para traders, exchanges, fondos y web3 builders.",
+    "ctaPrimary": "Book Compliance Review",
+    "ctaSecondary": "See Services"
+  },
+  "about": {
+    "title": "About {{businessName}}",
+    "content": "We serve crypto traders, exchanges, DeFi protocols and web3 builders operating from Paraguay. SEPRELAD compliance, blockchain traceability, IRE filings on crypto gains, and bilingual (ES/EN) reporting for international stakeholders.",
+    "bullets": [
+      "Registered SEPRELAD Sujeto Obligado assistance",
+      "Blockchain forensics for AML compliance",
+      "DNIT 2024 position on crypto (IRE 10% on gains)",
+      "Bilingual ES/EN reporting for VCs, LPs, auditors",
+      "Paraguay's territorial system leveraged for foreign-source trading"
+    ]
+  },
+  "services": {
+    "title": "Services for Crypto & Web3",
+    "subtitle": "Every filing, every report, every compliance requirement — handled in Paraguay and in plain English",
+    "categories": [
+      {
+        "id": "seprelad",
+        "name": "SEPRELAD Compliance",
+        "description": "Registration and ongoing obligations as Sujeto Obligado under SEPRELAD Res. 8/20.",
+        "icon": "shield-check",
+        "items": [
+          "Sujeto Obligado registration (Res. SEPRELAD 8/20)",
+          "KYC/AML framework setup",
+          "Oficial de Cumplimiento designation",
+          "Monthly ROS (Reporte de Operacion Sospechosa) filings",
+          "Annual risk assessment matrix",
+          "SEPRELAD inspection readiness"
+        ]
+      },
+      {
+        "id": "tax-crypto",
+        "name": "Tax Filings for Crypto",
+        "description": "IRE on trading gains, IVA on commissions, IDU on dividend distribution.",
+        "icon": "file-text",
+        "items": [
+          "IRE 10% on habitual crypto trading gains (DNIT 2024 position)",
+          "IVA on intermediation commissions",
+          "FIFO/LIFO declared methodology",
+          "Wallet-level accounting with cost basis",
+          "Annual declaration vía Marangatú"
+        ]
+      },
+      {
+        "id": "forensics",
+        "name": "Blockchain Forensics",
+        "description": "Transaction traceability for AML, due diligence, and auditor requirements.",
+        "icon": "search",
+        "items": [
+          "Wallet screening (Chainalysis-compatible)",
+          "Source-of-funds documentation",
+          "Transaction graph analysis",
+          "Sanctioned-address screening (OFAC / EU / UN)",
+          "Forensic audit trail for SEPRELAD requests"
+        ]
+      },
+      {
+        "id": "entity-structure",
+        "name": "Entity Structuring",
+        "description": "EAS, holding structures, and offshore coordination for crypto operations.",
+        "icon": "briefcase",
+        "items": [
+          "EAS incorporation for trading operations (72h)",
+          "Holding structure for multi-asset portfolios",
+          "Intercompany flows across jurisdictions",
+          "Foreign-source income optimization",
+          "CBDC readiness (stablecoin obligations)"
+        ]
+      },
+      {
+        "id": "reporting",
+        "name": "Investor & Auditor Reporting",
+        "description": "Bilingual reporting for VCs, LPs, exchanges, and external auditors.",
+        "icon": "bar-chart",
+        "items": [
+          "Monthly NAV reports for funds",
+          "Gain/loss by position (realized + unrealized)",
+          "Partner capital accounts (GP/LP)",
+          "ES/EN bilingual summary",
+          "SOC1/SOC2 coordination support"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Packages",
+    "subtitle": "Transparent USD pricing. Crypto accepted (BTC, ETH, USDC) at official BCP rate.",
+    "disclaimer": "Packages referential. Final scope depends on trading volume, wallet count and jurisdictional complexity.",
+    "plans": [
+      {
+        "id": "trader-solo",
+        "name": "Solo Trader",
+        "priceFrom": "USD 250/month",
+        "description": "Individual trader with personal wallets, under USD 100k annual volume.",
+        "features": [
+          "Monthly IRP + IRE filings",
+          "Up to 3 wallets/exchanges",
+          "FIFO cost basis tracking",
+          "WhatsApp support ES/EN",
+          "Annual declaration"
+        ]
+      },
+      {
+        "id": "fund-small",
+        "name": "Small Fund / Trading Firm",
+        "priceFrom": "USD 1,500/month",
+        "description": "AUM < USD 5M, monthly reporting to LPs, SEPRELAD obligations.",
+        "features": [
+          "Monthly NAV reports (bilingual)",
+          "SEPRELAD Sujeto Obligado compliance",
+          "Up to 15 wallets + 5 exchanges",
+          "Blockchain forensics included",
+          "Quarterly auditor coordination"
+        ],
+        "featured": true
+      },
+      {
+        "id": "protocol",
+        "name": "Protocol / DAO / Exchange",
+        "priceFrom": "Contact",
+        "description": "Operating protocols, centralized exchanges, DeFi treasuries.",
+        "features": [
+          "Dedicated accountant + compliance officer",
+          "Multi-entity coordination",
+          "Continuous SEPRELAD monitoring",
+          "SOC1/SOC2 support",
+          "Real-time treasury reporting",
+          "Tokenomics accounting"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "How We Work",
+    "steps": [
+      { "number": "1", "title": "Compliance Assessment", "description": "Free 45-min review of your current structure, wallets, jurisdiction mix." },
+      { "number": "2", "title": "Risk & Scope Document", "description": "Written proposal with SEPRELAD obligations, tax scenarios, and monthly scope." },
+      { "number": "3", "title": "Remote Onboarding", "description": "DocuSign contracts, read-only wallet access via keys/API, exchange API integration." },
+      { "number": "4", "title": "Monthly Operations", "description": "Cost basis tracking, tax filings, SEPRELAD reporting, investor reports." },
+      { "number": "5", "title": "Audit & Annual Close", "description": "Annual IRE/IRP filings, auditor coordination if applicable, strategic planning for next year." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "They set up our SEPRELAD compliance framework in 30 days. We passed our first inspection with zero observations.",
+      "author": "Alex D.",
+      "role": "Co-founder, PY crypto exchange",
+      "rating": 5
+    },
+    {
+      "quote": "As a trader with wallets across 8 chains, I needed accounting that actually understood on-chain data. They do.",
+      "author": "Katarina L.",
+      "role": "DeFi trader",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Does Paraguay tax crypto gains?", "a": "Per DNIT 2024 position: habitual trading gains are subject to IRE at 10%. Occasional trades (1-2/year, no commercial intent) are generally not taxed. Commissions from intermediation are IVA-gravadas at 10%." },
+    { "q": "What is SEPRELAD Sujeto Obligado?", "a": "Per SEPRELAD Res. 8/20, crypto-related businesses above certain volume thresholds must register, designate a compliance officer, and file ROS reports. We handle the entire process." },
+    { "q": "Can I use Paraguay as a crypto tax haven?", "a": "Paraguay's territorial system makes foreign-source activity 0% — but crypto trading from PY wallets/exchanges may be considered local. We assess each case to determine the correct position." },
+    { "q": "Do you support multi-chain accounting?", "a": "Yes. We support BTC, EVM chains (ETH, BSC, Polygon, Arbitrum, Base, Optimism), Solana, Cosmos, and major L1/L2. Cost basis tracked per wallet/chain." },
+    { "q": "Can I pay in crypto?", "a": "Yes. We accept BTC, ETH, and USDC at official BCP rate on invoice date." },
+    { "q": "Do you coordinate with my home country tax advisor?", "a": "Yes. Common for US (FATCA/PFIC), UK (CFC), EU (CRS) citizens. We provide documentation that satisfies both PY and home-country requirements." },
+    { "q": "What about NFTs and tokenized assets?", "a": "Treated case-by-case. Digital collectibles held long-term are typically not gravados; trading activity is. Tokenized real-world assets may fall under securities regulation (CNV)." }
+  ],
+  "cta": {
+    "title": "Ready to run crypto operations compliantly from Paraguay?",
+    "subtitle": "Free compliance review — 45 minutes in English or Spanish. No sales pressure.",
+    "button": "Book Compliance Review"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Crypto & Fintech Accounting in Paraguay",
+    "copyright": "© {{year}} {{businessName}} - All rights reserved",
+    "disclaimer": "CCP-certified accountants. SEPRELAD Sujeto Obligado registered."
+  }
+}

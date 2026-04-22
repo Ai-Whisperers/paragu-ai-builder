@@ -1,0 +1,11 @@
+{
+  "slug": "industries",
+  "titleKey": "industriesIndexPage.seo.title",
+  "descriptionKey": "industriesIndexPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "industriesIndexPage.hero" },
+    { "id": "services", "variant": "cards", "content": "industriesIndexPage.services" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

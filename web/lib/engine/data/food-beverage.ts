@@ -1211,6 +1211,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Restaurante Etiope profesional en {{city}}."
     }
   },
+  'event_staffing_hospitality': {
+    "id": "event_staffing_hospitality",
+    "nameEs": "Personal Gastronomico para Eventos",
+    "nameEn": "Event Hospitality Staffing",
+    "verticalId": "food-beverage",
+    "subVertical": "event-staffing",
+    "extends": "restaurant",
+    "tokens": "event_staffing_hospitality",
+    "seo": {
+      "schemaType": "ProfessionalService",
+      "titleTemplate": "{{businessName}} - Personal Gastronomico para Eventos en {{city}}",
+      "descriptionTemplate": "Mozos, bartenders, cocineros y personal de servicio para eventos en {{city}}. Uniformados y con experiencia.",
+      "keywords": [
+        "mozos eventos {{city}}",
+        "bartender {{city}}",
+        "personal gastronomico {{neighborhood}}",
+        "servicio eventos {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Personal para Eventos",
+      "subheadlineTemplate": "Mozos, bartenders y cocineros profesionales para tu evento en {{city}}."
+    }
+  },
   'falafel_shop': {
     "id": "falafel_shop",
     "nameEs": "Falafel",

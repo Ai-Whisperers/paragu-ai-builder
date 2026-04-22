@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contador",
+  "title": "Accounting Firm Business Input Schema",
+  "description": "Fields specific to Paraguayan estudios contables — contabilidad, impuestos (IVA/IRE/IRP), sueldos (IPS/MTESS), auditoria",
+  "allOf": [{ "$ref": "base-business" }],
+  "properties": {
+    "serviceLines": {
+      "type": "array",
+      "description": "Core service lines offered by the firm",
+      "items": {
+        "type": "string",
+        "enum": [
+          "contabilidad-mensual",
+          "liquidacion-impuestos",
+          "liquidacion-sueldos",
+          "asesoria-tributaria",
+          "constitucion-empresas",
+          "auditoria-externa",
+          "auditoria-interna",
+          "planificacion-fiscal",
+          "defensa-fiscalizaciones",
+          "due-diligence",
+          "balances-licitaciones",
+          "registro-marcas"
+        ]
+      }
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "category": {
+            "type": "string",
+            "enum": ["contabilidad", "impuestos", "laboral", "asesoria", "societario", "auditoria"]
+          },
+          "feeStructure": {
+            "type": "string",
+            "enum": ["honorario-mensual", "por-proyecto", "por-hora", "por-declaracion", "a-convenir"]
+          },
+          "priceFrom": { "type": "string" }
+        }
+      }
+    },
+    "pricingTiers": {
+      "type": "array",
+      "description": "Monthly plans shown on the pricing table",
+      "items": {
+        "type": "object",
+        "required": ["name", "priceFrom"],
+        "properties": {
+          "name": { "type": "string" },
+          "priceFrom": { "type": "string" },
+          "description": { "type": "string" },
+          "features": { "type": "array", "items": { "type": "string" } },
+          "featured": { "type": "boolean" },
+          "targetSegment": {
+            "type": "string",
+            "enum": ["profesional-independiente", "pyme", "empresa-mediana", "empresa-grande"]
+          }
+        }
+      }
+    },
+    "targetClients": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "profesional-independiente",
+          "unipersonal",
+          "pyme",
+          "empresa-mediana",
+          "empresa-grande",
+          "startup",
+          "ong",
+          "cooperativa",
+          "extranjero-residente",
+          "agropecuario"
+        ]
+      }
+    },
+    "specializations": {
+      "type": "array",
+      "description": "Industry specializations",
+      "items": {
+        "type": "string",
+        "enum": [
+          "gastronomia",
+          "retail",
+          "servicios",
+          "construccion",
+          "agronegocios",
+          "importacion-exportacion",
+          "tecnologia-software",
+          "salud",
+          "transporte",
+          "inmobiliario",
+          "educacion",
+          "fintech-crypto"
+        ]
+      }
+    },
+    "professionalRegistration": {
+      "type": "object",
+      "description": "Colegio de Contadores del Paraguay credentials",
+      "properties": {
+        "colegio": { "type": "string", "default": "Colegio de Contadores del Paraguay" },
+        "matricula": { "type": "string", "description": "Registration number" },
+        "contadorResponsable": { "type": "string" }
+      }
+    },
+    "regulatoryCompliance": {
+      "type": "object",
+      "description": "Regulatory certifications that matter for client trust",
+      "properties": {
+        "seprelad": { "type": "boolean", "description": "Can issue SEPRELAD reports" },
+        "setInscripto": { "type": "boolean", "description": "Firm has active RUC" },
+        "dncpHabilitado": { "type": "boolean", "description": "Can certify balances for DNCP bids" }
+      }
+    },
+    "spokenLanguages": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["es", "gn", "en", "pt"] }
+    },
+    "serviceArea": {
+      "type": "object",
+      "properties": {
+        "modality": { "type": "string", "enum": ["presencial", "remoto", "hibrido"] },
+        "regions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["asuncion", "central", "alto-parana", "itapua", "caaguazu", "amambay", "paraguay-entero"]
+          }
+        }
+      }
+    },
+    "team": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "role"],
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "matricula": { "type": "string" },
+          "education": { "type": "string" },
+          "bio": { "type": "string" },
+          "photoUrl": { "type": "string" }
+        }
+      }
+    }
+  },
+  "inputForm": {
+    "priority1": [
+      "businessName",
+      "contact.phone",
+      "contact.whatsapp",
+      "contact.email",
+      "serviceLines",
+      "targetClients"
+    ],
+    "priority2": [
+      "pricingTiers",
+      "specializations",
+      "team",
+      "professionalRegistration",
+      "serviceArea",
+      "branding.logoUrl"
+    ],
+    "priority3": [
+      "regulatoryCompliance",
+      "testimonials",
+      "faq",
+      "seo.googleBusinessProfileUrl"
+    ]
+  }
+}

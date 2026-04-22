@@ -1025,6 +1025,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Pesca profesional en {{city}}."
     }
   },
+  'fitness_equipment_dealer': {
+    "id": "fitness_equipment_dealer",
+    "nameEs": "Venta de Equipos de Fitness",
+    "nameEn": "Fitness Equipment Dealer",
+    "verticalId": "retail-local",
+    "subVertical": "sporting-goods",
+    "extends": "retail_base",
+    "tokens": "fitness_equipment_dealer",
+    "seo": {
+      "schemaType": "Store",
+      "titleTemplate": "{{businessName}} - Equipos de Fitness en {{city}}",
+      "descriptionTemplate": "Venta de maquinas de gimnasio, pesas, cintas y accesorios en {{city}}. Envios e instalacion a domicilio.",
+      "keywords": [
+        "equipos fitness {{city}}",
+        "maquinas gimnasio {{city}}",
+        "pesas {{neighborhood}}",
+        "cinta correr {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Equipos de Fitness",
+      "subheadlineTemplate": "Maquinas, pesas y accesorios para tu gimnasio u hogar en {{city}}."
+    }
+  },
   'flea_market_stall': {
     "id": "flea_market_stall",
     "nameEs": "Feria Americana",
@@ -2513,6 +2537,25 @@ export const REGISTRY: Record<string, unknown> = {
         "enabled": true
       }
     },
+    "commerce": {
+      "enabled": true,
+      "launchPhase": "beta",
+      "provider": "pagopar",
+      "currency": "PYG",
+      "catalog": {
+        "source": "supabase"
+      },
+      "checkout": {
+        "anonymousAllowed": true,
+        "shippingRequired": true,
+        "phoneRequired": true
+      },
+      "shopperUx": {
+        "productAspectRatio": "4:5",
+        "showLowStockBadge": true,
+        "showWhatsappShare": true
+      }
+    },
     "seo": {
       "schemaType": "Store",
       "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
@@ -2741,6 +2784,211 @@ export const REGISTRY: Record<string, unknown> = {
       "headlineTemplate": "{{businessName}} - Maquinas Coser",
       "subheadlineTemplate": "Maquinas Coser profesional en {{city}}."
     }
+  },
+  'sex_shop': {
+    "id": "sex_shop",
+    "nameEs": "Tienda Erotica",
+    "nameEn": "Sex Shop / Adult Retail",
+    "verticalId": "retail-local",
+    "subVertical": "intimacy-wellness",
+    "extends": "retail_base",
+    "tokens": "sex_shop",
+    "ageGate": 18,
+    "seo": {
+      "schemaType": "Store",
+      "titleTemplate": "{{businessName}} - Tienda Erotica en {{city}} | Envio Discreto",
+      "descriptionTemplate": "Juguetes para adultos, lenceria, lubricantes y mas. Envio 100% discreto a todo Paraguay. Solo mayores de 18.",
+      "keywords": [
+        "sex shop {{city}}",
+        "juguetes adultos {{city}}",
+        "lenceria {{city}}",
+        "tienda erotica {{city}}",
+        "productos intimos {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}}",
+      "subheadlineTemplate": "Tu tienda de placer. Envio discreto a todo {{country}}."
+    },
+    "categories": [
+      "vibradores",
+      "dildos",
+      "anal",
+      "parejas",
+      "bdsm",
+      "lenceria",
+      "lubricantes",
+      "bienestar"
+    ],
+    "features": {
+      "productCatalog": {
+        "enabled": true,
+        "whatsappOrder": true,
+        "showPrices": true
+      },
+      "ageGate": {
+        "enabled": true,
+        "minAge": 18,
+        "method": "self_declare"
+      },
+      "discretePackaging": {
+        "enabled": true
+      },
+      "discreteStatementDescriptor": {
+        "enabled": true,
+        "maxChars": 22
+      },
+      "whatsappFloat": {
+        "enabled": true
+      },
+      "deliveryCalculator": {
+        "enabled": true
+      },
+      "testimonials": {
+        "enabled": true,
+        "pseudonymous": true
+      },
+      "reviews": {
+        "enabled": true,
+        "verifiedPurchaseOnly": true,
+        "pseudonymous": true,
+        "moderationRequired": true
+      },
+      "faq": {
+        "enabled": true
+      },
+      "blog": {
+        "enabled": true,
+        "seoFocused": true
+      },
+      "bundles": {
+        "enabled": true
+      },
+      "giftCards": {
+        "enabled": true,
+        "deliveryMethods": [
+          "email",
+          "whatsapp",
+          "physical"
+        ]
+      },
+      "subscriptions": {
+        "enabled": true,
+        "tiersSupported": 3
+      },
+      "loyalty": {
+        "enabled": true,
+        "tiersSupported": 3
+      },
+      "referral": {
+        "enabled": true,
+        "discreteEmails": true
+      },
+      "wishlist": {
+        "enabled": true,
+        "anonymousSupported": true
+      },
+      "sizeGuides": {
+        "enabled": true,
+        "units": "cm"
+      },
+      "storePickupReserve": {
+        "enabled": true
+      },
+      "discreteAccountNames": {
+        "enabled": true
+      },
+      "backInStockNotifications": {
+        "enabled": true
+      }
+    },
+    "legal": {
+      "requiresAgeVerification": true,
+      "privacyNotes": "Envio discreto, facturacion neutra, datos no compartidos",
+      "requiredDocuments": [
+        "terms",
+        "privacy",
+        "returns",
+        "age-compliance"
+      ],
+      "marketingConstraints": {
+        "noExplicitImagery": true,
+        "emailSubjectLines": "neutral",
+        "referralEmails": "neutral_subject_line"
+      }
+    },
+    "compliance": {
+      "minimumAge": 18,
+      "paymentProviderRisk": "may_require_special_category",
+      "adsPlatforms": {
+        "googleAds": "restricted",
+        "facebookAds": "restricted",
+        "instagramOrganic": "allowed_with_neutral_content",
+        "tiktokOrganic": "restricted"
+      }
+    },
+    "recommendedPages": [
+      "home",
+      "store",
+      "blog",
+      "bundles",
+      "gift-cards",
+      "suscripciones",
+      "placer-plus",
+      "guia-talles",
+      "reserva-en-tienda",
+      "referidos",
+      "account",
+      "legal-index"
+    ],
+    "recommendedLegalDocs": [
+      "terms",
+      "privacy",
+      "returns",
+      "age-compliance"
+    ],
+    "suggestedCategoriesSchema": [
+      {
+        "id": "vibradores",
+        "nameEs": "Vibradores"
+      },
+      {
+        "id": "dildos",
+        "nameEs": "Dildos"
+      },
+      {
+        "id": "anal",
+        "nameEs": "Juguetes Anales"
+      },
+      {
+        "id": "parejas",
+        "nameEs": "Para Parejas"
+      },
+      {
+        "id": "bdsm",
+        "nameEs": "BDSM & Fetish"
+      },
+      {
+        "id": "lenceria",
+        "nameEs": "Lenceria"
+      },
+      {
+        "id": "lubricantes",
+        "nameEs": "Lubricantes"
+      },
+      {
+        "id": "bienestar",
+        "nameEs": "Bienestar Intimo"
+      },
+      {
+        "id": "kits",
+        "nameEs": "Kits Curados"
+      },
+      {
+        "id": "regalos",
+        "nameEs": "Gift Cards y Regalos"
+      }
+    ]
   },
   'shoe_store': {
     "id": "shoe_store",
@@ -3162,6 +3410,11 @@ export const REGISTRY: Record<string, unknown> = {
     "hero": {
       "headlineTemplate": "{{businessName}} - Todo para el bebe, con cuidado",
       "subheadlineTemplate": "Ropa, cunas, coches, accesorios y pañales en un solo lugar."
+    },
+    "commerce": {
+      "enabled": true,
+      "provider": "pagopar",
+      "currency": "PYG"
     }
   },
   'tienda_mascotas': {
@@ -3189,7 +3442,12 @@ export const REGISTRY: Record<string, unknown> = {
       "alimentos",
       "accesorios",
       "higiene"
-    ]
+    ],
+    "commerce": {
+      "enabled": true,
+      "provider": "pagopar",
+      "currency": "PYG"
+    }
   },
   'tienda_ropa': {
     "id": "tienda_ropa",
@@ -3216,7 +3474,12 @@ export const REGISTRY: Record<string, unknown> = {
       "mujer",
       "hombre",
       "accesorios"
-    ]
+    ],
+    "commerce": {
+      "enabled": true,
+      "provider": "pagopar",
+      "currency": "PYG"
+    }
   },
   'tobacco_shop': {
     "id": "tobacco_shop",
@@ -3397,6 +3660,30 @@ export const REGISTRY: Record<string, unknown> = {
     "hero": {
       "headlineTemplate": "{{businessName}} - Plantas que alegran tu hogar",
       "subheadlineTemplate": "Amplio surtido de plantas de interior y exterior, macetas, tierra y asesoramiento."
+    }
+  },
+  'watch_jeweler_shop': {
+    "id": "watch_jeweler_shop",
+    "nameEs": "Relojeria y Joyeria",
+    "nameEn": "Watch & Jewelry Shop",
+    "verticalId": "retail-local",
+    "subVertical": "jewelry-accessories",
+    "extends": "retail_base",
+    "tokens": "watch_jeweler_shop",
+    "seo": {
+      "schemaType": "JewelryStore",
+      "titleTemplate": "{{businessName}} - Relojeria y Joyeria en {{city}}",
+      "descriptionTemplate": "Venta y reparacion de relojes y joyas en {{city}}. Cambio de malla, pila, pulido y tasacion.",
+      "keywords": [
+        "relojeria {{city}}",
+        "joyeria {{city}}",
+        "reparacion relojes {{neighborhood}}",
+        "cambio malla reloj {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Relojeria y Joyeria",
+      "subheadlineTemplate": "Venta y reparacion de relojes y joyas en {{city}}."
     }
   },
   'watch_repair_shop': {

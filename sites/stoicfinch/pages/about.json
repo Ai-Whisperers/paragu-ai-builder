@@ -1,0 +1,13 @@
+{
+  "slug": "about",
+  "titleKey": "aboutPage.seo.title",
+  "descriptionKey": "aboutPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "aboutPage.hero" },
+    { "id": "features", "variant": "three-col", "content": "aboutPage.ourStory" },
+    { "id": "team", "variant": "cards", "content": "aboutPage.team" },
+    { "id": "contact", "variant": "split", "content": "aboutPage.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

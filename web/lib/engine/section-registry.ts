@@ -60,6 +60,54 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['default'],
     requiredContentFields: [],
   },
+  'tax-deadline-banner': {
+    id: 'tax-deadline-banner',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-irp': {
+    id: 'calc-irp',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-aguinaldo': {
+    id: 'calc-aguinaldo',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-finiquito': {
+    id: 'calc-finiquito',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-iva': {
+    id: 'calc-iva',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-ire': {
+    id: 'calc-ire',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-ips': {
+    id: 'calc-ips',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
+  'calc-costo-empleado': {
+    id: 'calc-costo-empleado',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: [],
+  },
   'intake-wizard': {
     id: 'intake-wizard',
     defaultVariant: 'default',
@@ -228,6 +276,21 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['categorized'],
     requiredContentFields: ['items'],
   },
+  'pricing-range': {
+    id: 'pricing-range',
+    defaultVariant: 'tiers',
+    variants: ['tiers'],
+  },
+  'pricing-table': {
+    id: 'pricing-table',
+    defaultVariant: 'default',
+    variants: ['default'],
+  },
+  'faq-categorized': {
+    id: 'faq-categorized',
+    defaultVariant: 'accordion',
+    variants: ['accordion'],
+  },
   'property-listings': {
     id: 'property-listings',
     defaultVariant: 'cards',
@@ -235,6 +298,11 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   },
   features: {
     id: 'features',
+    defaultVariant: 'three-col',
+    variants: ['three-col', 'grid'],
+  },
+  'resources-list': {
+    id: 'resources-list',
     defaultVariant: 'three-col',
     variants: ['three-col', 'grid'],
   },
@@ -392,6 +460,13 @@ const SECTION_ALIASES: Record<string, string> = {
   'business-hours': 'contact',
   ctaBanner: 'cta-banner',
   whatsappFloat: 'whatsapp-float',
+  pricingTable: 'pricing-table',
+  pricingRange: 'pricing-range',
+  faqCategorized: 'faq-categorized',
+  // Creative-commission-process has no dedicated component — route to
+  // process-timeline (same UX: numbered steps timeline).
+  creativeCommissionProcess: 'process-timeline',
+  'creative-commission-process': 'process-timeline',
   emergencyIndicator: 'emergency-indicator',
   classSchedule: 'class-schedule',
   membershipPlans: 'membership-plans',

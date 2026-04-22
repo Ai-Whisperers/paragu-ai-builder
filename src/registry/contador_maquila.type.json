@@ -1,0 +1,82 @@
+{
+  "id": "contador_maquila",
+  "nameEs": "Contador Especialista en Maquila",
+  "nameEn": "Maquila Accounting Specialist",
+  "verticalId": "b2b-professional",
+  "extends": "contador",
+  "tokens": "contador_maquila",
+  "content": "contador_maquila",
+  "schema": "contador",
+  "icon": "factory",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "pricingTable",
+        "process",
+        "testimonial",
+        "faq",
+        "leadForm",
+        "footer"
+      ],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    }
+  },
+  "features": {
+    "leadForm": {
+      "enabled": true,
+      "fields": ["name", "email", "company", "maquilaType", "employees", "exportMarkets", "message"]
+    },
+    "pricingDisplay": { "enabled": true, "showFrom": true },
+    "languageToggle": { "enabled": true, "languages": ["es", "pt", "en"] },
+    "whatsappFloat": { "enabled": true }
+  },
+  "serviceCategories": [
+    "programa-maquila",
+    "tributo-unico",
+    "certificado-origen",
+    "importacion-temporal",
+    "reporting-cnime",
+    "laboral-maquila"
+  ],
+  "regulatoryVocab": {
+    "legalFramework": "Ley 1064/97 (Industria Maquiladora de Exportacion)",
+    "regulator": "CNIME (Consejo Nacional Industria Maquiladora)",
+    "taxAuthority": "DNIT",
+    "coordinatingBodies": ["MIC", "INTN", "Cancilleria", "DNA"],
+    "singleTax": "1% sobre valor facturado",
+    "originRule": "MERCOSUR 60/40"
+  },
+  "targetAudience": {
+    "primary": "Maquiladoras electronicas, textiles, automotrices en Ciudad del Este, Hernandarias, Pedro Juan, Zona Franca",
+    "secondary": "Empresas brasileras y argentinas relocalizando a PY via maquila",
+    "tertiary": "Multinacionales estableciendo hub MERCOSUR en Paraguay"
+  },
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Contador Maquila en {{city}} | Ley 1064/97 + CNIME",
+    "descriptionTemplate": "Contabilidad especializada en maquila: tributo unico 1%, MERCOSUR 60/40, CNIME reporting, importacion temporal. Ciudad del Este, Pedro Juan, Zona Franca.",
+    "keywords": [
+      "contador maquila paraguay",
+      "ley 1064/97 maquila",
+      "CNIME reporting",
+      "tributo unico 1%",
+      "MERCOSUR certificado origen",
+      "contador Ciudad del Este maquila",
+      "maquila zona franca paraguay"
+    ]
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Planes", "Proceso", "FAQ", "Contacto"],
+    "cta": { "text": "Agendar Consulta", "action": "leadForm" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Contabilidad Maquila (Ley 1064/97)",
+    "subheadlineTemplate": "Tributo unico 1%, MERCOSUR 60/40, CNIME, importacion temporal. Para maquiladoras en CDE y Zona Franca.",
+    "ctaPrimary": { "text": "Agendar Consulta", "action": "leadForm" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}

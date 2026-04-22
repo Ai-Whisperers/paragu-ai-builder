@@ -1271,6 +1271,25 @@ export const REGISTRY: Record<string, unknown> = {
         "text": "Ver paquetes",
         "action": "scrollTo:packages"
       }
+    },
+    "commerce": {
+      "enabled": false,
+      "launchPhase": "pilot",
+      "provider": "pagopar",
+      "currency": "PYG",
+      "catalog": {
+        "source": "supabase"
+      },
+      "checkout": {
+        "anonymousAllowed": true,
+        "shippingRequired": false,
+        "phoneRequired": true
+      },
+      "shopperUx": {
+        "productAspectRatio": "4:5",
+        "showLowStockBadge": false,
+        "showWhatsappShare": true
+      }
     }
   },
   'residential_appraiser': {

@@ -1174,6 +1174,29 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Apertura Autos profesional en {{city}}."
     }
   },
+  'lubricentro': {
+    "id": "lubricentro",
+    "nameEs": "Lubricentro",
+    "nameEn": "Oil Change & Lube Center",
+    "verticalId": "automotive",
+    "subVertical": "maintenance",
+    "extends": "automotive_base",
+    "tokens": "lubricentro",
+    "seo": {
+      "schemaType": "AutomotiveBusiness",
+      "titleTemplate": "{{businessName}} - Lubricentro en {{city}}",
+      "descriptionTemplate": "Cambio de aceite, filtros y lubricantes en {{city}}. Servicio rapido, atencion sin turno.",
+      "keywords": [
+        "lubricentro {{city}}",
+        "cambio de aceite {{city}}",
+        "lubricacion {{neighborhood}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Lubricentro",
+      "subheadlineTemplate": "Cambio de aceite y lubricacion profesional en {{city}}. Sin turno previo."
+    }
+  },
   'luxury_car_dealership': {
     "id": "luxury_car_dealership",
     "nameEs": "Concesionaria Lujo",

@@ -1968,6 +1968,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Paisajista profesional en {{city}}."
     }
   },
+  'laundry_dry_cleaning': {
+    "id": "laundry_dry_cleaning",
+    "nameEs": "Lavanderia y Tintoreria",
+    "nameEn": "Laundry & Dry Cleaning",
+    "verticalId": "trades-home-services",
+    "subVertical": "laundry",
+    "extends": "trades_base",
+    "tokens": "laundry_dry_cleaning",
+    "seo": {
+      "schemaType": "DryCleaningOrLaundry",
+      "titleTemplate": "{{businessName}} - Lavanderia y Tintoreria en {{city}}",
+      "descriptionTemplate": "Lavanderia y tintoreria profesional en {{city}}. Retiro y entrega a domicilio. Ropa, ropa de cama, alfombras y prendas delicadas.",
+      "keywords": [
+        "lavanderia {{city}}",
+        "tintoreria {{city}}",
+        "lavadero ropa {{neighborhood}}",
+        "limpieza a seco {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Lavanderia y Tintoreria",
+      "subheadlineTemplate": "Lavado profesional con retiro y entrega a domicilio en {{city}}."
+    }
+  },
   'lawn_care_service': {
     "id": "lawn_care_service",
     "nameEs": "Mantenimiento Cesped",

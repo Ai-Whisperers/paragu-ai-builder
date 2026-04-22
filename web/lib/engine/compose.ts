@@ -145,6 +145,20 @@ export interface BusinessData {
     popular?: boolean
     cta?: string
   }>
+  pricingPlans?: Array<{
+    name: string
+    price?: string
+    priceFrom?: string
+    period?: string
+    description?: string
+    features: string[]
+    featured?: boolean
+    cta?: string
+  }>
+  faq?: Array<{
+    q: string
+    a: string
+  }>
   // Relocation/Service business types
   features?: Array<{
     title: string

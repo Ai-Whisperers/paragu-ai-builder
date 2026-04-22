@@ -1,0 +1,11 @@
+{
+  "slug": "case-studies",
+  "titleKey": "caseStudiesPage.seo.title",
+  "descriptionKey": "caseStudiesPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "caseStudiesPage.hero" },
+    { "id": "services", "variant": "cards", "content": "caseStudiesPage.portfolio" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

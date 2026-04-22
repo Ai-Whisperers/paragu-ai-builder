@@ -1400,6 +1400,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "MCAT profesional en {{city}}."
     }
   },
+  'mechanics_trade_school': {
+    "id": "mechanics_trade_school",
+    "nameEs": "Escuela de Mecanica",
+    "nameEn": "Mechanics Trade School",
+    "verticalId": "education-training",
+    "subVertical": "trade-school",
+    "extends": "educacion",
+    "tokens": "mechanics_trade_school",
+    "seo": {
+      "schemaType": "EducationalOrganization",
+      "titleTemplate": "{{businessName}} - Escuela de Mecanica en {{city}}",
+      "descriptionTemplate": "Cursos de mecanica automotriz, diesel y motos en {{city}}. Practica en taller, certificacion oficial y salida laboral.",
+      "keywords": [
+        "escuela mecanica {{city}}",
+        "curso mecanica automotriz {{city}}",
+        "mecanica motos {{neighborhood}}",
+        "curso diesel {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Escuela de Mecanica",
+      "subheadlineTemplate": "Cursos practicos de mecanica con salida laboral en {{city}}."
+    }
+  },
   'membership_community_educator': {
     "id": "membership_community_educator",
     "nameEs": "Educador Suscripcion",
@@ -1600,6 +1624,30 @@ export const REGISTRY: Record<string, unknown> = {
     "flags": [
       "B2B"
     ]
+  },
+  'photography_academy': {
+    "id": "photography_academy",
+    "nameEs": "Academia de Fotografia",
+    "nameEn": "Photography Academy",
+    "verticalId": "education-training",
+    "subVertical": "arts-training",
+    "extends": "educacion",
+    "tokens": "photography_academy",
+    "seo": {
+      "schemaType": "EducationalOrganization",
+      "titleTemplate": "{{businessName}} - Academia de Fotografia en {{city}}",
+      "descriptionTemplate": "Cursos de fotografia: basico, retrato, producto, bodas e iluminacion en {{city}}. Practica de estudio incluida, cupos reducidos.",
+      "keywords": [
+        "academia fotografia {{city}}",
+        "curso fotografia {{city}}",
+        "aprender fotografia {{neighborhood}}",
+        "curso iluminacion fotografica {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Academia de Fotografia",
+      "subheadlineTemplate": "Cursos de fotografia con practica de estudio en {{city}}."
+    }
   },
   'piano_studio': {
     "id": "piano_studio",
@@ -1822,6 +1870,30 @@ export const REGISTRY: Record<string, unknown> = {
     "hero": {
       "headlineTemplate": "{{businessName}} - Campamento Verano",
       "subheadlineTemplate": "Campamento Verano profesional en {{city}}."
+    }
+  },
+  'tattoo_academy': {
+    "id": "tattoo_academy",
+    "nameEs": "Academia de Tatuajes",
+    "nameEn": "Tattoo Academy",
+    "verticalId": "education-training",
+    "subVertical": "arts-training",
+    "extends": "educacion",
+    "tokens": "tattoo_academy",
+    "seo": {
+      "schemaType": "EducationalOrganization",
+      "titleTemplate": "{{businessName}} - Academia de Tatuajes en {{city}}",
+      "descriptionTemplate": "Cursos de tatuaje desde cero hasta profesional en {{city}}. Tecnicas tradicionales, realismo, blackwork. Kit incluido y practica con modelos.",
+      "keywords": [
+        "academia tatuajes {{city}}",
+        "curso tatuaje {{city}}",
+        "aprender tatuar {{neighborhood}}",
+        "tattoo school {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Academia de Tatuajes",
+      "subheadlineTemplate": "Cursos profesionales de tatuaje, practica con modelos en {{city}}."
     }
   },
   'teen_driver_training': {

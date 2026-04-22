@@ -1,0 +1,36 @@
+{
+  "name": "Accounting for Foreign Investors",
+  "extends": "base",
+  "theme": "light",
+  "mood": ["premium", "bilingual", "trustworthy", "sophisticated"],
+
+  "palettes": {
+    "optionA": {
+      "name": "Midnight Navy & Gold",
+      "colors": {
+        "primary": "#0a1e3f",
+        "secondary": "#c9a227",
+        "accent": "#1e40af",
+        "background": "#fafaf9",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "textLight": "#475569",
+        "border": "#e2e8f0",
+        "success": "#059669",
+        "warning": "#d97706",
+        "error": "#dc2626"
+      }
+    }
+  },
+
+  "defaultPalette": "optionA",
+  "typography": {
+    "heading": "'Playfair Display', 'Georgia', serif",
+    "body": "'Inter', sans-serif"
+  },
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Playfair Display:wght@500;600;700"
+  ],
+  "borderRadius": "sm"
+}

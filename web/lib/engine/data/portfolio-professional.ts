@@ -137,6 +137,87 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Coach Literario profesional en {{city}}."
     }
   },
+  'book_cover_designer': {
+    "id": "book_cover_designer",
+    "nameEs": "Diseñador de Portadas de Libros",
+    "nameEn": "Book Cover Designer",
+    "verticalId": "portfolio-professional",
+    "extends": "diseno_grafico",
+    "tokens": "book_cover_designer",
+    "subVertical": "fashion-design",
+    "pages": {
+      "homepage": {
+        "sections": [
+          "header",
+          "hero",
+          "services",
+          "portfolio",
+          "product-catalog",
+          "creative-commission-process",
+          "pricing-range",
+          "testimonials",
+          "faq-categorized",
+          "intake-questionnaire",
+          "contact",
+          "footer",
+          "whatsapp-float"
+        ],
+        "requiredSections": [
+          "header",
+          "hero",
+          "services",
+          "portfolio",
+          "contact",
+          "footer"
+        ]
+      }
+    },
+    "features": {
+      "portfolio": {
+        "enabled": true,
+        "categoriesHint": [
+          "fantasia",
+          "romance",
+          "thriller",
+          "ciencia_ficcion",
+          "terror",
+          "ya"
+        ]
+      },
+      "productCatalog": {
+        "enabled": true,
+        "whatsappOrder": true,
+        "showPrices": true
+      },
+      "intakeQuestionnaire": {
+        "enabled": true,
+        "fields": [
+          "genre",
+          "trimSize",
+          "mood",
+          "referenceCovers",
+          "budget"
+        ]
+      },
+      "internationalCurrency": {
+        "enabled": true,
+        "default": "USD"
+      },
+      "whatsappFloat": {
+        "enabled": true
+      }
+    },
+    "seo": {
+      "schemaType": "ProfessionalService",
+      "titleTemplate": "{{businessName}} - Diseñador de Portadas de Libros",
+      "descriptionTemplate": "Portadas personalizadas, mockups 3D y premades para autores indie."
+    },
+    "hero": {
+      "style": "image",
+      "headlineTemplate": "{{businessName}}",
+      "subheadlineTemplate": "Portadas que venden libros."
+    }
+  },
   'branding': {
     "id": "branding",
     "nameEs": "Branding / Identidad",
@@ -2014,6 +2095,30 @@ export const REGISTRY: Record<string, unknown> = {
     "hero": {
       "headlineTemplate": "{{businessName}} - Locutor",
       "subheadlineTemplate": "Locutor profesional en {{city}}."
+    }
+  },
+  'voice_over_studio': {
+    "id": "voice_over_studio",
+    "nameEs": "Estudio de Locucion",
+    "nameEn": "Voice-Over Studio",
+    "verticalId": "portfolio-professional",
+    "subVertical": "music-audio",
+    "extends": "diseno_grafico",
+    "tokens": "voice_over_studio",
+    "seo": {
+      "schemaType": "ProfessionalService",
+      "titleTemplate": "{{businessName}} - Estudio de Locucion en {{city}}",
+      "descriptionTemplate": "Locucion comercial, institucional y de personajes en {{city}}. Estudio profesional, entregas en 48hs, voces en espanol y guarani.",
+      "keywords": [
+        "locucion comercial {{city}}",
+        "voice over {{city}}",
+        "estudio grabacion voz {{neighborhood}}",
+        "locutor publicidad {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Estudio de Locucion",
+      "subheadlineTemplate": "Locucion profesional en espanol y guarani, entregas en 48hs. {{city}}."
     }
   },
   'wedding_videographer': {

@@ -1,0 +1,11 @@
+{
+  "slug": "founder",
+  "titleKey": "founderPage.seo.title",
+  "descriptionKey": "founderPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "founderPage.hero" },
+    { "id": "features", "variant": "three-col", "content": "founderPage.ourStory" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

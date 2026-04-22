@@ -1205,6 +1205,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Seguro Mascotas profesional en {{city}}."
     }
   },
+  'prepaid_health_plan': {
+    "id": "prepaid_health_plan",
+    "nameEs": "Prepaga de Salud",
+    "nameEn": "Prepaid Health Plan",
+    "verticalId": "finance-insurance",
+    "subVertical": "health-insurance",
+    "extends": "finance_insurance_base",
+    "tokens": "prepaid_health_plan",
+    "seo": {
+      "schemaType": "InsuranceAgency",
+      "titleTemplate": "{{businessName}} - Prepaga de Salud en {{city}}",
+      "descriptionTemplate": "Planes de salud prepagos en {{city}}. Cobertura integral, red de prestadores, internacion y emergencias.",
+      "keywords": [
+        "prepaga salud {{city}}",
+        "medicina prepaga {{city}}",
+        "plan de salud {{neighborhood}}",
+        "cobertura medica {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Prepaga de Salud",
+      "subheadlineTemplate": "Planes de salud con cobertura integral en {{city}}."
+    }
+  },
   'retirement_planner': {
     "id": "retirement_planner",
     "nameEs": "Planificador Retiro",

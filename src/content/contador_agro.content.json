@@ -1,0 +1,216 @@
+{
+  "id": "contador_agro",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad para el campo paraguayo",
+    "subheadline": "Especialistas en agronegocio: IRE Agropecuario, constancia de no retencion, SENACSA, IMAGRO, cooperativas e INCOOP. Desde {{city}}.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Desde {{city}} acompanamos productores agropecuarios, cooperativas, ganaderos y acopiadores de {{city}} y toda la zona con servicios contables y tributarios especializados. Conocemos la realidad del campo paraguayo — desde el pequeno productor de mandioca hasta el soja exportador de Alto Parana.",
+    "bullets": [
+      "Especialistas en IRE Agropecuario e IMAGRO historico",
+      "Gestion en SENACSA (marcas, senales, traceability)",
+      "Auditoria y reporting INCOOP para cooperativas",
+      "Atencion en espanol y portugues (Brasiguayos)",
+      "Visita al establecimiento cuando hace falta"
+    ]
+  },
+  "services": {
+    "title": "Servicios para el Sector Agropecuario",
+    "subtitle": "Cobertura contable, tributaria y de registros que el campo paraguayo necesita",
+    "categories": [
+      {
+        "id": "ire-agropecuario",
+        "name": "IRE Agropecuario",
+        "description": "Liquidacion del Impuesto a la Renta Empresarial bajo regimen agropecuario (Ley 6380/19).",
+        "icon": "wheat",
+        "items": [
+          "Liquidacion anual IRE Simple Agropecuario",
+          "IRE General para productor unipersonal que supera umbral",
+          "Gestion de Constancia de No Retencion (Ley de Factura Agropecuaria)",
+          "Regimen especial para agricultura familiar",
+          "Planificacion tributaria pre-zafra"
+        ]
+      },
+      {
+        "id": "senacsa",
+        "name": "SENACSA y Trazabilidad",
+        "description": "Inscripciones, actualizaciones y control de stock ganadero ante SENACSA.",
+        "icon": "bull",
+        "items": [
+          "Registro de marcas y senales",
+          "Alta y actualizacion en SIGOR",
+          "Declaracion de movimiento de hacienda",
+          "Constancias de mortandad y consumo interno (deducibles)",
+          "Certificado de origen pecuario para exportacion",
+          "Trazabilidad para exportacion a UE y Chile"
+        ]
+      },
+      {
+        "id": "cooperativas",
+        "name": "Cooperativas e INCOOP",
+        "description": "Reporting especializado para cooperativas de produccion y consumo.",
+        "icon": "users",
+        "items": [
+          "Estados contables bajo resoluciones INCOOP",
+          "Balance Social Cooperativo (Res. 4109/09)",
+          "Rendicion a INCOOP y asamblea general",
+          "Distribucion de excedentes y fondo de educacion 10%",
+          "Auditoria externa INCOOP-obligatoria",
+          "Plan anual de actividades (Cap. 8 del marco)"
+        ]
+      },
+      {
+        "id": "exportacion",
+        "name": "Exportacion y MERCOSUR",
+        "description": "Coordinacion con REDIEX, certificados de origen, aduana, MERCOSUR.",
+        "icon": "truck",
+        "items": [
+          "Gestion CANOPP (Camara Paraguaya de Carne)",
+          "REDIEX apoyo a la exportacion",
+          "Certificado de origen MERCOSUR 60/40",
+          "Registro SENAVE (fitosanitario soja, granos)",
+          "Convenios con despachantes de aduana"
+        ]
+      },
+      {
+        "id": "laboral",
+        "name": "Laboral Rural",
+        "description": "Liquidacion de sueldos bajo regimen rural + IPS.",
+        "icon": "hard-hat",
+        "items": [
+          "Liquidacion de salarios rurales (Ley 5115)",
+          "Aportes IPS obrero rural",
+          "Contratos de peones de campo",
+          "REOP-MTESS para establecimientos rurales",
+          "Alta y baja en IPS de temporeros zafreros"
+        ]
+      },
+      {
+        "id": "financiero",
+        "name": "Financiero y Bancario",
+        "description": "Gestion ante Fondo Ganadero, BNF, Vision Banco y entidades rurales.",
+        "icon": "bank",
+        "items": [
+          "Balances para BNF / Fondo Ganadero / CAH",
+          "Preparacion de carpeta crediticia",
+          "Estados pro-forma para bancos con linea agro",
+          "Refinanciacion de deudas pre-zafra",
+          "Garantias prendarias sobre hacienda"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes para el Campo",
+    "subtitle": "Honorarios ajustados a la realidad rural paraguaya.",
+    "disclaimer": "Precios referenciales segun tamano del establecimiento. Plan final se acuerda tras visita o relevamiento.",
+    "plans": [
+      {
+        "id": "pequeno-productor",
+        "name": "Pequeno Productor",
+        "priceFrom": "600.000 Gs/mes",
+        "description": "Agricultura familiar o ganaderia hasta 200 cabezas. Constancia de no retencion, IRP si corresponde.",
+        "features": [
+          "IRE Simple Agropecuario anual",
+          "Constancia de No Retencion trimestral",
+          "Registro SENACSA basico",
+          "Asesoramiento zafra",
+          "WhatsApp para dudas"
+        ]
+      },
+      {
+        "id": "productor-mediano",
+        "name": "Productor Mediano",
+        "priceFrom": "1.800.000 Gs/mes",
+        "description": "Hasta 1.000 Ha de soja o 1.000 cabezas de ganado. Empleados fijos + temporeros.",
+        "features": [
+          "Contabilidad mensual + balance anual",
+          "IRE + IVA + IRP de los socios",
+          "Liquidacion de hasta 15 empleados + zafreros",
+          "SENACSA completo + trazabilidad",
+          "Visita al establecimiento 2x ano"
+        ],
+        "featured": true
+      },
+      {
+        "id": "productor-grande",
+        "name": "Productor Grande",
+        "priceFrom": "Consultar",
+        "description": "Miles de Ha, exportacion, hacienda registrada. Contabilidad de costos por lote.",
+        "features": [
+          "Contabilidad de costos por campo / lote / rodeo",
+          "Auditoria externa anual",
+          "Planificacion tributaria trimestral",
+          "Coordinacion con despachantes aduana",
+          "Reporting para bancos agro"
+        ]
+      },
+      {
+        "id": "cooperativa",
+        "name": "Cooperativa",
+        "priceFrom": "3.500.000 Gs/mes",
+        "description": "Cooperativas de produccion y consumo bajo INCOOP.",
+        "features": [
+          "Estados INCOOP + Balance Social",
+          "Rendicion asamblea y consejo",
+          "Auditoria externa INCOOP-obligatoria",
+          "Plan anual de actividades",
+          "Distribucion de excedentes + 10% fondo educacion"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "Como Trabajamos con el Campo",
+    "steps": [
+      { "number": "1", "title": "Visita Inicial al Establecimiento", "description": "Conocemos el campo, vemos la hacienda o los cultivos, revisamos los papeles en la estancia." },
+      { "number": "2", "title": "Relevamiento Contable", "description": "Inventario de activos, hacienda, maquinaria y deudas actuales. Traspaso desde contador anterior." },
+      { "number": "3", "title": "Propuesta Ajustada", "description": "Plan mensual con honorarios segun ciclos de zafra y cosecha." },
+      { "number": "4", "title": "Gestion Permanente", "description": "Nos encargamos de SET/DNIT, IPS, SENACSA e INCOOP al dia. Viajamos al establecimiento cuando hace falta." },
+      { "number": "5", "title": "Reporting Trimestral", "description": "Balance, flujo de caja y posicion fiscal antes de cada zafra. Reunion en persona o por WhatsApp." }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Entienden lo que es el campo. Cuando hubo mortandad por sequia, hicieron la constancia y deducimos todo correctamente. Otros contadores no saben como manejar eso.",
+      "author": "Don Eduardo Figueredo",
+      "role": "Ganadero, Departamento de Caaguazu",
+      "rating": 5
+    },
+    {
+      "quote": "Llevamos la cooperativa con ellos hace 8 anos. Balance Social, INCOOP, asamblea — todo puntual. Los socios tienen confianza en los numeros.",
+      "author": "Santiago Weber",
+      "role": "Gerente, Cooperativa agro Chaco",
+      "rating": 5
+    },
+    {
+      "quote": "Mi establecimiento de soja en Santa Rita esta 100% al dia. Exportamos con certificado de origen MERCOSUR sin problemas. Atienden en espanol y portugues.",
+      "author": "Carlos Menezes",
+      "role": "Productor soja, Alto Parana",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Conocen el regimen agropecuario de IRE?", "a": "Si. Es nuestra especialidad. Trabajamos IRE Simple Agropecuario, IRE General cuando corresponde y Constancia de No Retencion para evitar retenciones innecesarias." },
+    { "q": "Pueden viajar al establecimiento?", "a": "Si, visitamos campos en Caaguazu, Alto Parana, San Pedro, Concepcion y Chaco. Tambien trabajamos 100% digital si asi lo preferis." },
+    { "q": "Trabajan con cooperativas?", "a": "Si. Llevamos varias cooperativas de produccion y consumo con reporting INCOOP completo, Balance Social y rendicion de asamblea." },
+    { "q": "Hablan portugues?", "a": "Si. Varios de nuestros clientes son Brasiguayos en Alto Parana y Santa Rita. Atendemos indistintamente en espanol o portugues." },
+    { "q": "Tramitan marcas y senales en SENACSA?", "a": "Si. Gestionamos alta, modificacion y actualizacion de marcas y senales, asi como SIGOR y constancias de movimiento de hacienda." },
+    { "q": "Hacen preparacion de carpetas para BNF / Fondo Ganadero?", "a": "Si. Armamos estados contables para BNF, Fondo Ganadero, CAH, Vision Banco y Sudameris con el formato que cada uno pide." },
+    { "q": "Que pasa si tengo mortandad por clima?", "a": "Te acompanamos en la constancia de mortandad ante SENACSA y lo deducimos correctamente en tu IRE. Guarda los datos, fotos y denuncia policial cuando corresponda." }
+  ],
+  "cta": {
+    "title": "Hablamos del campo?",
+    "subtitle": "Una charla de 45 minutos — en persona o por WhatsApp — para entender como podemos ayudarte esta zafra.",
+    "button": "Agendar Visita"
+  },
+  "footer": {
+    "tagline": "{{businessName}} - Contabilidad Agropecuaria en {{city}}",
+    "copyright": "© {{year}} {{businessName}} - Todos los derechos reservados",
+    "disclaimer": "Matriculados en el Colegio de Contadores del Paraguay"
+  }
+}

@@ -1683,22 +1683,25 @@
     },
     "guides": {
       "title": "Downloadbare gidsen",
-      "subtitle": "Nuttige documenten om uw dossier voor te bereiden en het proces te begrijpen.",
+      "subtitle": "Praktische documenten om uw dossier voor te bereiden en het proces te begrijpen.",
       "features": [
         {
           "icon": "FileText",
-          "title": "Documentenchecklist",
-          "description": "Volledige lijst van documenten nodig voor Paraguayaanse verblijfsvergunning."
+          "title": "Gids Paraguayaanse verblijfsvergunning",
+          "description": "Alles wat u nodig heeft om u in Paraguay te vestigen: tijdlijn, documenten, kosten en vereisten.",
+          "href": "/sites/nexa-paraguay/guias/01-guia-residencia-paraguaya-nederlands.md"
         },
         {
-          "icon": "FileText",
-          "title": "Belastinggids 2026",
-          "description": "Territoriale belasting, 10 % IRE, behandeling van buitenlands inkomen."
+          "icon": "Calculator",
+          "title": "Territoriaal belastingstelsel",
+          "description": "Territoriaal regime van Paraguay, 10 % IRE en behandeling van buitenlands inkomen, uitgelegd voor Europese investeerders.",
+          "href": "/sites/nexa-paraguay/guias/02-belastingstelsel-territoriaal-nederlands.md"
         },
         {
-          "icon": "FileText",
-          "title": "Investeerder Q&A",
-          "description": "25 veelgestelde vragen van Europese investeerders, beantwoord."
+          "icon": "Home",
+          "title": "Kosten van levensonderhoud in Asunción",
+          "description": "Realistisch maandbudget per wijk, huisvesting, onderwijs en particuliere gezondheidszorg. (Engels)",
+          "href": "/sites/nexa-paraguay/guias/03-guide-cost-of-living-asuncion-english.md"
         }
       ]
     },

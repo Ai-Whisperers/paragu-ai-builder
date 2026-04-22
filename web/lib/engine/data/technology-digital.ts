@@ -1313,6 +1313,30 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Agencia Web profesional en {{city}}."
     }
   },
+  'web_hosting_provider': {
+    "id": "web_hosting_provider",
+    "nameEs": "Hosting Web",
+    "nameEn": "Web Hosting Provider",
+    "verticalId": "technology-digital",
+    "subVertical": "infrastructure",
+    "extends": "technology_base",
+    "tokens": "web_hosting_provider",
+    "seo": {
+      "schemaType": "ProfessionalService",
+      "titleTemplate": "{{businessName}} - Hosting Web en {{city}}",
+      "descriptionTemplate": "Hosting, dominios y correo corporativo en {{city}}. Soporte local en espanol.",
+      "keywords": [
+        "hosting web {{city}}",
+        "dominios {{city}}",
+        "correo corporativo {{neighborhood}}",
+        "servidor dedicado {{city}}"
+      ]
+    },
+    "hero": {
+      "headlineTemplate": "{{businessName}} - Hosting Web",
+      "subheadlineTemplate": "Hosting confiable con soporte local en {{city}}."
+    }
+  },
   'webflow_jamstack_agency': {
     "id": "webflow_jamstack_agency",
     "nameEs": "Agencia Webflow",

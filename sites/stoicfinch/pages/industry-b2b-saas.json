@@ -1,0 +1,12 @@
+{
+  "slug": "industry-b2b-saas",
+  "titleKey": "industry-b2b-saas.seo.title",
+  "descriptionKey": "industry-b2b-saas.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "industry-b2b-saas.hero" },
+    { "id": "features", "variant": "three-col", "content": "industry-b2b-saas.features" },
+    { "id": "contact", "variant": "split", "content": "industry-b2b-saas.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}
