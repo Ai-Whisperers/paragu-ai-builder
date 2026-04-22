@@ -31,11 +31,16 @@ export default async function CartPage({ params }: { params: Promise<{ site: str
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
-      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
+      <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} whatsappNumber={business.whatsappNumber} />
       <main className="mx-auto max-w-4xl px-4 py-8">
         <CheckoutProgressIndicator current="cart" />
         <h1 className="mb-6 text-2xl font-bold">Tu carrito</h1>
-        <CartPageClient siteSlug={site} locale={locale} />
+        <CartPageClient
+          siteSlug={site}
+          locale={locale}
+          whatsappNumber={business.whatsappNumber}
+          businessName={business.name}
+        />
         <div className="mt-6">
           <Link href={`/s/${locale}/${site}/tienda`} className="text-sm text-[color:var(--primary,#111)] underline">
             ← Seguir comprando
