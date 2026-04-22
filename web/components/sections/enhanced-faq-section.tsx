@@ -270,6 +270,10 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
               className={`border-gray-200 transition-all ${openIndex === index ? 'ring-2 ring-orange-200' : ''}`}
             >
               <button
+                id={`enhanced-faq-trigger-${index}`}
+                type="button"
+                aria-expanded={openIndex === index}
+                aria-controls={`enhanced-faq-panel-${index}`}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full text-left"
               >
@@ -285,7 +289,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
                         {faq.question}
                       </CardTitle>
                     </div>
-                    <div className="flex-shrink-0 mt-1">
+                    <div className="flex-shrink-0 mt-1" aria-hidden="true">
                       {openIndex === index ? (
                         <ChevronUp className="w-5 h-5 text-gray-500" />
                       ) : (
@@ -297,13 +301,19 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
               </button>
               
               {openIndex === index && (
-                <CardContent className="pt-0 pb-4">
-                  <div className="border-t border-gray-100 pt-4">
-                    <p className="text-gray-600 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                </CardContent>
+                <div
+                  id={`enhanced-faq-panel-${index}`}
+                  role="region"
+                  aria-labelledby={`enhanced-faq-trigger-${index}`}
+                >
+                  <CardContent className="pt-0 pb-4">
+                    <div className="border-t border-gray-100 pt-4">
+                      <p className="text-gray-600 leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </CardContent>
+                </div>
               )}
             </Card>
           ))}
