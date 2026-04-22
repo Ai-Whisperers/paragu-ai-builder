@@ -212,7 +212,10 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
       </Link>
 
       <div className="mt-3 flex flex-1 flex-col">
-        <h3 className="text-sm font-medium text-[color:var(--text,#111)] line-clamp-2">
+        {/* Title — quiet, single-focus. The buyer reads this once to
+            confirm they're looking at the right thing, then eyes drop to
+            the decision unit (price + CTA) below. */}
+        <h3 className="text-sm font-medium leading-snug text-[color:var(--text,#111)] line-clamp-2">
           {highlight ? <Highlight text={product.name} term={highlight} /> : product.name}
         </h3>
         {reviewAggregate && reviewAggregate.count > 0 ? (
@@ -220,29 +223,49 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
             <ReviewStars rating={reviewAggregate.avg} count={reviewAggregate.count} size="sm" />
           </div>
         ) : null}
-        <div className="mt-1 flex items-baseline gap-2">
-          {rates && product.currency === 'PYG' ? (
-            <PriceDisplay className="text-base font-semibold text-[color:var(--text,#111)]" pygCents={product.priceCents} rates={rates} />
-          ) : (
-            <p className="text-base font-semibold text-[color:var(--text,#111)]">{formatCents(product.priceCents, product.currency)}</p>
-          )}
-          {product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents ? (
-            rates && product.currency === 'PYG' ? (
-              <PriceDisplay className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through" pygCents={product.compareAtPriceCents} rates={rates} />
-            ) : (
-              <p className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through">{formatCents(product.compareAtPriceCents, product.currency)}</p>
-            )
-          ) : null}
-        </div>
 
-        <button
-          type="button"
-          onClick={handleAdd}
-          disabled={outOfStock || adding}
-          className="mt-3 w-full rounded-md bg-[color:var(--primary,#111)] px-3 py-2.5 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:cursor-not-allowed disabled:opacity-50"
-        >
-          {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
-        </button>
+        {/* Decision unit — price + CTA as one visual block separated from
+            title by margin. Price is the heaviest element (text-lg + bold);
+            strike-through compareAt sits small and muted next to it so
+            the discount reads at a glance. CTA immediately below at full
+            card width creates a clear "click here" target. */}
+        <div className="mt-auto pt-3">
+          <div className="flex items-baseline gap-2">
+            {rates && product.currency === 'PYG' ? (
+              <PriceDisplay
+                className="text-lg font-bold text-[color:var(--text,#111)]"
+                pygCents={product.priceCents}
+                rates={rates}
+              />
+            ) : (
+              <p className="text-lg font-bold text-[color:var(--text,#111)]">
+                {formatCents(product.priceCents, product.currency)}
+              </p>
+            )}
+            {product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents ? (
+              rates && product.currency === 'PYG' ? (
+                <PriceDisplay
+                  className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through"
+                  pygCents={product.compareAtPriceCents}
+                  rates={rates}
+                />
+              ) : (
+                <p className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through">
+                  {formatCents(product.compareAtPriceCents, product.currency)}
+                </p>
+              )
+            ) : null}
+          </div>
+
+          <button
+            type="button"
+            onClick={handleAdd}
+            disabled={outOfStock || adding}
+            className="mt-2 w-full rounded-md bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
+          </button>
+        </div>
       </div>
 
       <QuickViewModal
