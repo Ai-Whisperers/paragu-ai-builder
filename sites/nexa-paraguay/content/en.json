@@ -45,6 +45,10 @@
         "href": "/s/en/nexa-paraguay/recursos"
       },
       {
+        "label": "Press",
+        "href": "/s/en/nexa-paraguay/prensa"
+      },
+      {
         "label": "Contact",
         "href": "/s/en/nexa-paraguay/contacto"
       }
@@ -1042,6 +1046,10 @@
       {
         "label": "Resources",
         "href": "/s/en/nexa-paraguay/recursos"
+      },
+      {
+        "label": "Press",
+        "href": "/s/en/nexa-paraguay/prensa"
       }
     ]
   },
