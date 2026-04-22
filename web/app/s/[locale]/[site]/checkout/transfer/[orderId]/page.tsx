@@ -5,6 +5,7 @@ import { getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { listCredentialsForBusiness } from '@/lib/commerce/payment-credentials'
 import { ComprobanteSentButton } from '@/components/commerce/comprobante-sent-button'
+import { ComprobanteUploadButton } from '@/components/commerce/comprobante-upload-button'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -116,6 +117,7 @@ export default async function TransferInstructionsPage({
                   </p>
                 )}
                 <ComprobanteSentButton siteSlug={site} orderId={order.id} />
+                <ComprobanteUploadButton siteSlug={site} orderId={order.id} alreadyUploaded={Boolean(order.comprobanteImageUrl)} />
                 <p className="text-xs text-[color:var(--text-muted,#6b7280)]">
                   Referenciá el pedido <strong>{order.orderNumber}</strong> al enviarlo. Tu pedido se
                   confirma cuando el comercio valida la transferencia.
