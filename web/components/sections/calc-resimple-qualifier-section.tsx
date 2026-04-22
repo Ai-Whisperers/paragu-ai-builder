@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay RESIMPLE qualifier — helps micro-contribuyentes decide if
@@ -20,15 +22,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * sobre ganancia. Simplifica enormemente la carga administrativa.
  */
 
-export interface CalcResimpleQualifierSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-}
+export interface CalcResimpleQualifierSectionProps extends BaseCalculatorSectionProps {}
 
 const RESIMPLE_BRACKETS = [
   { max: 80_000_000, monthlyFee: 100_000, label: 'Tramo 1' },
@@ -38,10 +32,6 @@ const RESIMPLE_BRACKETS = [
 ] as const
 
 const RESIMPLE_CEILING = 600_000_000
-
-function formatGs(n: number): string {
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.max(0, Math.round(n))) + ' Gs'
-}
 
 export function CalcResimpleQualifierSection({
   eyebrow = 'Calculadora RESIMPLE',

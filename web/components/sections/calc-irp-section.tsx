@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay IRP (Impuesto a la Renta Personal) calculator — RSP + GCR.
@@ -22,16 +24,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * Disclaimer is explicit.
  */
 
-export interface CalcIrpSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-  __locale?: string
-}
+export interface CalcIrpSectionProps extends BaseCalculatorSectionProps {}
 
 const BRACKETS = [
   { upto: 50_000_000, rate: 0.08 },
@@ -66,11 +59,6 @@ function computeIrp(baseGs: number): { tax: number; effectiveRate: number; break
     effectiveRate: baseGs > 0 ? totalTax / baseGs : 0,
     breakdown,
   }
-}
-
-function formatGs(n: number): string {
-  if (!isFinite(n)) return '∞'
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' Gs'
 }
 
 const LABELS = {

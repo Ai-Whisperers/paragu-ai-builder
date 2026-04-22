@@ -5,6 +5,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Interactive tax-savings calculator for European prospects considering
@@ -21,16 +22,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * hook the prospect into a consultation, not replace their accountant.
  */
 
-export interface TaxSavingsCalculatorSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  /** Active URL locale — picks localized default labels when caller omits them. */
-  __locale?: string
-}
+export interface TaxSavingsCalculatorSectionProps extends BaseCalculatorSectionProps {}
 
 type CountryPreset = {
   code: string

@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay aguinaldo (13th-salary) calculator.
@@ -19,20 +21,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * — it's an employer cost). IRP typically doesn't apply (exempt item).
  */
 
-export interface CalcAguinaldoSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-  __locale?: string
-}
-
-function formatGs(n: number): string {
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.max(0, Math.round(n))) + ' Gs'
-}
+export interface CalcAguinaldoSectionProps extends BaseCalculatorSectionProps {}
 
 const LABELS = {
   es: {

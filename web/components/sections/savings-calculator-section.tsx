@@ -5,6 +5,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
 
 export interface SavingsCalculatorTierOption {
   key: string
@@ -48,11 +49,6 @@ const DEFAULT_TIERS: SavingsCalculatorTierOption[] = [
   { key: 'nivel2_familia', label: 'Nivel 2 Familia (3.600.000 Gs/mes)', monthlyGs: 3_600_000 },
 ]
 
-function formatGs(value: number): string {
-  const rounded = Math.round(value)
-  return new Intl.NumberFormat('es-PY').format(rounded)
-}
-
 export function SavingsCalculatorSection({
   title = 'Calcula tu ahorro real',
   subtitle = 'Numeros honestos. Si no te conviene, te lo decimos.',
@@ -86,11 +82,11 @@ export function SavingsCalculatorSection({
     const lines = [
       'Hola! Hice el calculador en el sitio y quiero seguir:',
       `- Personas en el hogar: ${household}`,
-      `- Plata real hoy: Gs. ${formatGs(cashTotal)}`,
-      `- Valor de tiempo: Gs. ${formatGs(timeValue)} (${hoursPerMonth} hrs x ${formatGs(hourlyValue)})`,
-      `- Costo TOTAL hoy: Gs. ${formatGs(totalToday)}`,
+      `- Plata real hoy: ${formatGs(cashTotal)}`,
+      `- Valor de tiempo: ${formatGs(timeValue)} (${hoursPerMonth} hrs x ${formatGs(hourlyValue)})`,
+      `- Costo TOTAL hoy: ${formatGs(totalToday)}`,
       `- Plan elegido: ${tier?.label ?? ''}`,
-      `- Ahorro estimado: Gs. ${formatGs(savings)}`,
+      `- Ahorro estimado: ${formatGs(savings)}`,
     ]
     const base = (whatsappMessageTemplate || lines.join('\n')).trim()
     const text = whatsappMessageTemplate
@@ -210,12 +206,12 @@ export function SavingsCalculatorSection({
           {/* Outputs */}
           <div className="flex flex-col justify-between gap-6 rounded-xl bg-[var(--background)] p-6">
             <div className="space-y-3 text-sm">
-              <ResultRow label={o.cashTotalLabel} value={`Gs. ${formatGs(cashTotal)}`} />
-              <ResultRow label={o.timeValueLabel} value={`Gs. ${formatGs(timeValue)}`} />
+              <ResultRow label={o.cashTotalLabel} value={formatGs(cashTotal)} />
+              <ResultRow label={o.timeValueLabel} value={formatGs(timeValue)} />
               <div className="border-t border-[var(--surface-light)] pt-3">
-                <ResultRow label={o.totalTodayLabel} value={`Gs. ${formatGs(totalToday)}`} bold />
+                <ResultRow label={o.totalTodayLabel} value={formatGs(totalToday)} bold />
               </div>
-              <ResultRow label={o.ourServiceLabel} value={`Gs. ${formatGs(ourService)}`} />
+              <ResultRow label={o.ourServiceLabel} value={formatGs(ourService)} />
             </div>
 
             <div className="rounded-lg bg-[var(--surface)] p-4 text-center">
@@ -226,7 +222,7 @@ export function SavingsCalculatorSection({
                 className="mt-1 text-3xl font-bold"
                 style={{ color: positive ? 'var(--primary)' : 'var(--text-light)' }}
               >
-                {positive ? '+' : ''}Gs. {formatGs(savings)}
+                {positive ? '+' : ''}{formatGs(savings)}
               </p>
               <p className="mt-3 text-sm text-[var(--text-light)]">
                 {o.hoursRecoveredLabel}:{' '}

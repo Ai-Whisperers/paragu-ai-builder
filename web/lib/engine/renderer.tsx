@@ -14,8 +14,8 @@ import { ServicesSection } from '@/components/sections/services-section'
 import { BookingSection } from '@/components/sections/booking-section'
 import { PortfolioSection } from '@/components/sections/portfolio-section'
 import { BeforeAfterSection } from '@/components/sections/before-after-section'
-import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
-import { MembershipPlansSection } from '@/components/sections/membership-plans-section'
+import { WeeklySchedule } from '@/components/sections/weekly-schedule-section'
+import { PricingTableSection } from '@/components/sections/pricing-table-section'
 import { RoomBookingSection } from '@/components/sections/room-booking-section'
 import { EventVenuesSection } from '@/components/sections/event-venues-section'
 import { QuoteFormSection } from '@/components/sections/quote-form-section'
@@ -30,8 +30,6 @@ import { CTABannerSection } from '@/components/sections/cta-banner-section'
 import { FooterSection } from '@/components/sections/footer-section'
 import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
 import { FeaturesSection } from '@/components/sections/features-section'
-import { PricingTableSection } from '@/components/sections/pricing-table-section'
-import { ProcessSection } from '@/components/sections/process-section'
 import { SavingsCalculatorSection } from '@/components/sections/savings-calculator-section'
 import { TrustSignalsSection } from '@/components/sections/trust-signals-section'
 import { ProgramsComparisonSection } from '@/components/sections/programs-comparison-section'
@@ -83,8 +81,8 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   booking: BookingSection,
   portfolio: PortfolioSection,
   'before-after': BeforeAfterSection,
-  'class-schedule': ClassScheduleSection,
-  'membership-plans': MembershipPlansSection,
+  'class-schedule': WeeklySchedule,
+  'membership-plans': PricingTableSection,
   'room-booking': RoomBookingSection,
   'event-venues': EventVenuesSection,
   'quote-form': QuoteFormSection,
@@ -101,10 +99,11 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   // Service / consulting
   features: FeaturesSection,
   pricing: PricingTableSection,
-  process: ProcessSection,
+  process: ProcessTimelineSection,
   'savings-calculator': SavingsCalculatorSection,
   // Relocation / B2B
   'trust-signals': TrustSignalsSection,
+  'trust-badges': TrustSignalsSection,
   'programs-comparison': ProgramsComparisonSection,
   'why-destination': WhyDestinationSection,
   'process-timeline': ProcessTimelineSection,

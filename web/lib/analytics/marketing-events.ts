@@ -10,20 +10,7 @@
  * not configured) — safe to call unconditionally from client components.
  */
 
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void
-  }
-}
-
-function gtag(...args: unknown[]) {
-  if (typeof window === 'undefined' || !window.gtag) return
-  try {
-    window.gtag(...args)
-  } catch {
-    // Analytics failures must never break the prospect experience.
-  }
-}
+import { gtag } from './gtag-shared'
 
 /**
  * Hero primary/secondary CTA click. `location` lets us split same-action

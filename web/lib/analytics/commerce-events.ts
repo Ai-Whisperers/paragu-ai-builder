@@ -9,11 +9,7 @@
  *   https://developers.google.com/analytics/devguides/collection/ga4/ecommerce
  */
 
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void
-  }
-}
+import { gtag } from './gtag-shared'
 
 interface EcomItem {
   itemId: string
@@ -23,15 +19,6 @@ interface EcomItem {
   price: number
   currency: string
   quantity?: number
-}
-
-function gtag(...args: unknown[]) {
-  if (typeof window === 'undefined' || !window.gtag) return
-  try {
-    window.gtag(...args)
-  } catch {
-    // GA4 failures should never break the shopper flow.
-  }
 }
 
 function toGa4Item(item: EcomItem): Record<string, unknown> {

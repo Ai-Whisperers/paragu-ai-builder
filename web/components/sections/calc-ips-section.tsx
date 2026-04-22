@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay IPS aportes calculator — 9% obrero + 16.5% patronal.
@@ -14,19 +16,7 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  * IPS covers retirement, sickness, maternity and accident insurance.
  */
 
-export interface CalcIpsSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-}
-
-function formatGs(n: number): string {
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.max(0, Math.round(n))) + ' Gs'
-}
+export interface CalcIpsSectionProps extends BaseCalculatorSectionProps {}
 
 export function CalcIpsSection({
   eyebrow = 'Calculadora IPS',

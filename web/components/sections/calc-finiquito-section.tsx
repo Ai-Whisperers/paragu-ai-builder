@@ -5,6 +5,8 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { formatGs } from '@/lib/format-gs'
+import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
  * Paraguay liquidacion final / finiquito calculator.
@@ -25,22 +27,9 @@ import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
  *   - 10+ anos: 60 dias
  */
 
-export interface CalcFiniquitoSectionProps {
-  eyebrow?: string
-  title?: string
-  subtitle?: string
-  disclaimer?: string
-  ctaLabel?: string
-  ctaHref?: string
-  whatsapp?: string
-  __locale?: string
-}
+export interface CalcFiniquitoSectionProps extends BaseCalculatorSectionProps {}
 
 type Cause = 'sin-causa' | 'con-causa' | 'renuncia' | 'acuerdo'
-
-function formatGs(n: number): string {
-  return new Intl.NumberFormat('es-PY', { maximumFractionDigits: 0 }).format(Math.max(0, Math.round(n))) + ' Gs'
-}
 
 function preavisoDays(yearsService: number): number {
   if (yearsService < 1) return 0
