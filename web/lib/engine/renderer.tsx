@@ -138,6 +138,13 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
   // Real estate calculators
   'mortgage-calculator': MortgageCalculatorSection,
+  // Relocation calculators (Nexa Paraguay)
+  'cost-of-living': () => import('@/components/calculators/cost-of-living-estimator').then(m => m.CostOfLivingEstimator),
+  'timeline': () => import('@/components/calculators/timeline-estimator').then(m => m.TimelineEstimator),
+  'qualifier': () => import('@/components/calculators/residency-qualifier').then(m => m.ResidencyQualifier),
+  'document-checklist': () => import('@/components/calculators/document-checklist').then(m => m.DocumentChecklist),
+  'roi': () => import('@/components/calculators/roi-calculator').then(m => m.ROICalculator),
+  'comparison': () => import('@/components/calculators/comparison-tool').then(m => m.ComparisonTool),
   // Subscription / retention (meal-prep, weekly delivery)
   'weekly-cadence-calendar': WeeklyCadenceCalendarSection,
   'sample-week-preview': SampleWeekPreviewSection,
