@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
+import { getSessionToken } from '@/lib/commerce/session'
+import { getCartBySessionToken } from '@/lib/commerce/cart'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { WishlistPageClient } from '@/components/commerce/wishlist-page-client'
 
@@ -23,9 +25,14 @@ export default async function WishlistPage({
   const business = await resolveBusinessBySlug(site)
   if (!business || !(await isCommerceEnabled(business.type))) notFound()
 
+  const sessionToken = await getSessionToken()
+  const initialCart = sessionToken && business
+    ? await getCartBySessionToken(business.id, sessionToken).catch(() => null)
+    : null
+
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CartStoreHydrator siteSlug={site} initialCart={null} />
+      <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
       <main className="mx-auto max-w-5xl px-4 py-8">
         <h1 className="mb-2 text-2xl font-bold text-[color:var(--text,#111)]">Mis favoritos</h1>

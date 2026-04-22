@@ -13,6 +13,8 @@ import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { env } from '@/lib/env'
 import { ProductCard } from '@/components/commerce/product-card'
+import { getSessionToken } from '@/lib/commerce/session'
+import { getCartBySessionToken } from '@/lib/commerce/cart'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
@@ -119,9 +121,14 @@ export default async function CategoryPage({
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE))
 
+  const sessionToken = await getSessionToken()
+  const initialCart = sessionToken && business
+    ? await getCartBySessionToken(business.id, sessionToken).catch(() => null)
+    : null
+
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CartStoreHydrator siteSlug={site} initialCart={null} />
+      <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <Breadcrumbs
