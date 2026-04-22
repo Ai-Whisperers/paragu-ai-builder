@@ -49,7 +49,7 @@ function formatUSD(n: number): string {
 }
 
 export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en' }: CostOfLivingEstimatorProps) {
-  const L = LABELS[__locale] || LABELS.en
+  const L = LABELS[__locale as 'es' | 'en'] || LABELS.en
 
   const [household, setHousehold] = useState<'single' | 'couple' | 'family2' | 'family3'>('couple')
   const [neighborhood, setNeighborhood] = useState(NEIGHBORHOODS[0].id)
@@ -62,7 +62,7 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
 
   const rent = useMemo(() => {
     const idx = household === 'single' ? 0 : household === 'couple' ? 0 : household === 'family2' ? 1 : 1
-    return currentNeighborhood.rent2br[idx]
+    return currentNeighborhood.rent2br[idx] as unknown as [number, number]
   }, [currentNeighborhood, household])
 
   const rentMonthly = (rent[0] + rent[1]) / 2
@@ -75,7 +75,7 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
   const budget = useMemo(() => {
     const breakdown = BUDGET_PROFILES[household]
     const totalBase = rentMonthly + schoolCost
-    const otherPct = Object.values(breakdown).reduce((a, b) => a + b, 0) - breakdown.rent - (breakdown.education || 0)
+    const otherPct = Object.values(breakdown).reduce((a, b) => a + b, 0) - breakdown.rent - ((breakdown as { education?: number }).education || 0)
     const total = totalBase + (totalBase * otherPct / 100) * baseMult
     return total
   }, [rentMonthly, schoolCost, household, baseMult])
@@ -88,7 +88,7 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
       food: budget * (breakdown.food / 100),
       transport: budget * (breakdown.transport / 100),
       dining: budget * (breakdown.dining / 100),
-      education: breakdown.education ? budget * (breakdown.education / 100) : 0,
+      education: (breakdown as { education?: number }).education ? budget * ((breakdown as { education?: number }).education! / 100) : 0,
       misc: budget * (breakdown.misc / 100),
     }
   }, [budget, household])
@@ -130,7 +130,7 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
                     className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
                   >
                     {NEIGHBORHOODS.map((n) => (
-                      <option key={n.id} value={n.id}>{n.name[__locale] || n.name.en}</option>
+                      <option key={n.id} value={n.id}>{n.name[__locale as 'es' | 'en'] || n.name.en}</option>
                     ))}
                   </select>
                 </label>
