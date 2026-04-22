@@ -225,7 +225,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-orange-100 text-orange-800 hover:bg-orange-100">{heroBadge}</Badge>
-              <Heading level={1} className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <Heading level={2} className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 {heroHeadPrefix}
                 {heroHeadAccent ? (
                   <>

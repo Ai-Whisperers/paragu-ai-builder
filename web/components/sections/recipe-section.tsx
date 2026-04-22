@@ -261,7 +261,7 @@ export function RecipeSection({ business }: RecipePageProps) {
       <div className="max-w-6xl mx-auto">
         {/* Hero */}
         <div className="text-center mb-12">
-          <Heading level={1} className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <Heading level={2} className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Recetas con <span className="text-orange-600">Huevos Frescos</span>
           </Heading>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
