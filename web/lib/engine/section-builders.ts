@@ -362,11 +362,15 @@ const buildFaq: SectionBuilder = ({ business, content }) => {
       items: adminItems.map((i) => ({ q: i.question, a: i.answer })),
     }
   }
-  const faqContent = content as { faq?: Array<{ q: string; a: string }> }
-  if (!faqContent?.faq || faqContent.faq.length === 0) return null
+  const faqContent = content as { faq?: { title?: string; items?: Array<{ question: string; answer: string }> } | Array<{ question: string; answer: string }> }
+  if (!faqContent?.faq) return null
+  const faqItems = Array.isArray(faqContent.faq) 
+    ? faqContent.faq.map(i => ({ q: i.question || (i as unknown as {q:string}).q, a: i.answer || (i as unknown as {a:string}).a }))
+    : faqContent.faq.items?.map(i => ({ q: i.question, a: i.answer })) ?? []
+  if (faqItems.length === 0) return null
   return {
-    title: 'Preguntas Frecuentes',
-    items: faqContent.faq,
+    title: faqContent.faq?.title || 'Preguntas Frecuentes',
+    items: faqItems,
   }
 }
 
