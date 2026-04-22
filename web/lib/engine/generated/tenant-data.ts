@@ -5723,22 +5723,22 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "blog",
         "id": "hero",
-        "variant": "simple"
+        "variant": "minimal"
       },
       {
         "content": "blog.posts",
-        "id": "blogIndex",
+        "id": "blog-index",
         "variant": "grid"
       },
       {
         "content": "newsletter",
-        "id": "newsletter",
-        "variant": "boxed"
+        "id": "newsletter-signup",
+        "variant": "standard"
       },
       {
         "content": "ctaBanner",
-        "id": "ctaBanner",
-        "variant": "standard"
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "footer",
@@ -5748,7 +5748,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "blog",
@@ -5764,8 +5764,8 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.products",
-        "id": "productCatalog",
-        "variant": "filterable"
+        "id": "product-catalog",
+        "variant": "grid"
       },
       {
         "content": "home.testimonials",
@@ -5785,7 +5785,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "catalogo",
@@ -5802,7 +5802,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "contactHero",
         "id": "hero",
-        "variant": "simple"
+        "variant": "minimal"
       },
       {
         "content": "home.contact",
@@ -5811,13 +5811,13 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "quoteForm",
-        "id": "quoteForm",
-        "variant": "multiStep"
+        "id": "quote-form",
+        "variant": "standard"
       },
       {
         "content": "home.newsletter",
-        "id": "newsletter",
-        "variant": "boxed"
+        "id": "newsletter-signup",
+        "variant": "standard"
       },
       {
         "content": "footer",
@@ -5827,7 +5827,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "contacto",
@@ -5848,23 +5848,23 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.trustBadges",
-        "id": "trustBadges",
-        "variant": "badges"
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.services",
         "id": "services",
-        "variant": "categories"
+        "variant": "cards"
       },
       {
         "content": "home.products",
-        "id": "productCatalog",
-        "variant": "filterable"
+        "id": "product-catalog",
+        "variant": "grid"
       },
       {
         "content": "home.process",
         "id": "process",
-        "variant": "timeline"
+        "variant": "steps"
       },
       {
         "content": "home.testimonials",
@@ -5878,8 +5878,8 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "ctaBanner",
-        "id": "ctaBanner",
-        "variant": "standard"
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "home.contact",
@@ -5911,7 +5911,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "portfolio",
         "id": "gallery",
-        "variant": "filterable"
+        "variant": "grid"
       },
       {
         "content": "home.testimonials",
@@ -5931,7 +5931,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "portafolio",
@@ -5948,12 +5948,12 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.services",
         "id": "hero",
-        "variant": "simple"
+        "variant": "minimal"
       },
       {
         "content": "home.services",
         "id": "services",
-        "variant": "categories"
+        "variant": "cards"
       },
       {
         "content": "home.faq",
@@ -5962,8 +5962,8 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "ctaBanner",
-        "id": "ctaBanner",
-        "variant": "standard"
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "footer",
@@ -5973,7 +5973,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "servicios",
@@ -5990,27 +5990,27 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "sobre.hero",
         "id": "hero",
-        "variant": "simple"
+        "variant": "minimal"
       },
       {
         "content": "sobre.bio",
-        "id": "about",
-        "variant": "bio"
+        "id": "features",
+        "variant": "three-col"
       },
       {
         "content": "sobre.highlights",
-        "id": "stats",
-        "variant": "badges"
+        "id": "features",
+        "variant": "grid"
       },
       {
         "content": "home.process",
         "id": "process",
-        "variant": "timeline"
+        "variant": "steps"
       },
       {
         "content": "ctaBanner",
-        "id": "ctaBanner",
-        "variant": "standard"
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "footer",
@@ -6020,7 +6020,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "sobre",
@@ -6037,17 +6037,17 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "terminos",
         "id": "hero",
-        "variant": "simple"
+        "variant": "minimal"
       },
       {
         "content": "terminos.sections",
-        "id": "termsList",
+        "id": "faq",
         "variant": "accordion"
       },
       {
         "content": "terminos.payment",
-        "id": "paymentMethods",
-        "variant": "cards"
+        "id": "features",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -6057,7 +6057,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
-        "variant": "smart"
+        "variant": "standard"
       }
     ],
     "slug": "terminos",

@@ -4,10 +4,10 @@
   "descriptionKey": "home.products.subtitle",
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "productCatalog", "variant": "filterable", "content": "home.products" },
+    { "id": "product-catalog", "variant": "grid", "content": "home.products" },
     { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
     { "id": "contact", "variant": "split", "content": "home.contact" },
     { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
 }

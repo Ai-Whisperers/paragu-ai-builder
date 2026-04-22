@@ -4,10 +4,10 @@
   "descriptionKey": "terminos.seo.description",
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "simple", "content": "terminos" },
-    { "id": "termsList", "variant": "accordion", "content": "terminos.sections" },
-    { "id": "paymentMethods", "variant": "cards", "content": "terminos.payment" },
+    { "id": "hero", "variant": "minimal", "content": "terminos" },
+    { "id": "faq", "variant": "accordion", "content": "terminos.sections" },
+    { "id": "features", "variant": "grid", "content": "terminos.payment" },
     { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
   ]
 }
