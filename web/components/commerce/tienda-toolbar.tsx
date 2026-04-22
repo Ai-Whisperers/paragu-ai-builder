@@ -37,6 +37,58 @@ interface Props {
 
 const PER_PAGE_OPTIONS = [12, 24, 48, 96]
 
+/**
+ * Tag buckets for the filter toolbar. Flat wall of 20+ chips (which is
+ * what this shop actually ships) is unnavigable; grouping them by
+ * intent lets the shopper scan "what kind of filter is this" fast.
+ *
+ * Curated for the adult-retail niche — feel free to grow or rebalance.
+ * Tags not in any bucket fall back to an "Otros" group.
+ */
+const TAG_GROUPS: Array<{ id: string; label: string; tags: string[] }> = [
+  {
+    id: 'material',
+    label: 'Material',
+    tags: [
+      'silicona',
+      'base-agua',
+      'base-silicona',
+      'tela',
+      'apto-latex',
+      'apto-piel',
+      'encaje',
+    ],
+  },
+  {
+    id: 'caracteristicas',
+    label: 'Características',
+    tags: [
+      'silencioso',
+      'recargable',
+      'impermeable',
+      'larga-duracion',
+      'progresivo',
+      'sensible',
+      'estimulador',
+    ],
+  },
+  {
+    id: 'experiencia',
+    label: 'Nivel de experiencia',
+    tags: ['principiantes', 'clasico', 'sensorial', 'realista'],
+  },
+  {
+    id: 'contexto',
+    label: 'Pensado para',
+    tags: ['parejas', 'regalo', 'roleplay', 'corporal', 'kit'],
+  },
+  {
+    id: 'estilo',
+    label: 'Estilo',
+    tags: ['elegante'],
+  },
+]
+
 const SORT_OPTIONS: Array<{ value: ProductSort; label: string }> = [
   { value: 'newest', label: 'Más nuevos' },
   { value: 'popularity', label: 'Más vendidos' },
@@ -317,38 +369,43 @@ export function TiendaToolbar({
 
       {/* Advanced filters: always visible on md+, collapsible on mobile. */}
       <div className={cn('flex flex-col gap-3', advancedOpen ? 'block' : 'hidden', 'md:flex')}>
-      {/* Category pills */}
+      {/* Category pills — Capitalize + only show counts ≥ 2 (1-item categories
+          look like a stale catalog). "Todo" only visible when at least one
+          category is active, so the default view isn't dominated by a loud
+          "Todo is selected" chip. */}
       {availableCategories.length > 0 ? (
         <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={() => pushParams({ category: null })}
-            aria-pressed={initialCategories.length === 0}
-            className={`rounded-full border px-3 py-1 text-xs ${
-              initialCategories.length === 0
-                ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
-            }`}
-          >
-            Todo
-          </button>
+          {initialCategories.length > 0 ? (
+            <button
+              type="button"
+              onClick={() => pushParams({ category: null })}
+              className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            >
+              ← Todas
+            </button>
+          ) : null}
           {availableCategories.map((cat) => {
             const count = categoryCounts?.[cat]
             const active = initialCategories.includes(cat)
+            // Capitalize first letter; BDSM stays uppercase.
+            const label =
+              cat.toLowerCase() === 'bdsm'
+                ? 'BDSM'
+                : cat.charAt(0).toUpperCase() + cat.slice(1)
             return (
               <button
                 key={cat}
                 type="button"
                 onClick={() => toggleCategory(cat)}
                 aria-pressed={active}
-                className={`rounded-full border px-3 py-1 text-xs capitalize ${
+                className={`rounded-full border px-3 py-1 text-xs ${
                   active
                     ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
                     : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
                 }`}
               >
-                {cat}
-                {typeof count === 'number' ? (
+                {label}
+                {typeof count === 'number' && count >= 2 ? (
                   <span className="ml-1 opacity-70">({count})</span>
                 ) : null}
               </button>
@@ -382,28 +439,107 @@ export function TiendaToolbar({
         </div>
       ) : null}
 
-      {/* Tag filter */}
+      {/* Tag filter — grouped into themed buckets so 20+ tags don't render
+          as a flat "bowl of alphabet soup" wall. Each group is a <details>
+          element (native, accessible, keyboard-friendly) collapsed by
+          default; opens when it has an active selection. Tags that don't
+          fit any bucket fall back to "Otros". */}
       {availableTags.length > 0 ? (
-        <div className="flex flex-wrap items-center gap-2 text-xs">
-          <span className="text-[color:var(--text-muted,#6b7280)]">Características:</span>
-          {availableTags.map((t) => {
-            const active = initialTags.includes(t)
+        <div className="flex flex-col gap-2">
+          {TAG_GROUPS.map((group) => {
+            const tagsInGroup = availableTags.filter((t) => group.tags.includes(t))
+            if (tagsInGroup.length === 0) return null
+            const activeCount = tagsInGroup.filter((t) => initialTags.includes(t)).length
             return (
-              <button
-                key={t}
-                type="button"
-                onClick={() => toggleTag(t)}
-                aria-pressed={active}
-                className={`rounded-full border px-2.5 py-0.5 ${
-                  active
-                    ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
-                }`}
+              <details
+                key={group.id}
+                open={activeCount > 0}
+                className="group rounded-md border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-2"
               >
-                #{t}
-              </button>
+                <summary className="flex cursor-pointer items-center justify-between text-xs font-medium text-[color:var(--text,#111)] marker:hidden [&::-webkit-details-marker]:hidden">
+                  <span className="flex items-center gap-2">
+                    <span>{group.label}</span>
+                    {activeCount > 0 ? (
+                      <span className="rounded-full bg-[color:var(--primary,#111)] px-1.5 text-[10px] font-semibold text-[color:var(--primary-foreground,#fff)]">
+                        {activeCount}
+                      </span>
+                    ) : null}
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    className="text-[color:var(--text-muted,#9ca3af)] transition-transform group-open:rotate-180"
+                  >
+                    ▾
+                  </span>
+                </summary>
+                <div className="mt-2 flex flex-wrap gap-1.5 pt-1">
+                  {tagsInGroup.map((t) => {
+                    const active = initialTags.includes(t)
+                    return (
+                      <button
+                        key={t}
+                        type="button"
+                        onClick={() => toggleTag(t)}
+                        aria-pressed={active}
+                        className={`rounded-full border px-2.5 py-0.5 text-xs ${
+                          active
+                            ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
+                            : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                        }`}
+                      >
+                        {t.replace(/-/g, ' ')}
+                      </button>
+                    )
+                  })}
+                </div>
+              </details>
             )
           })}
+          {/* Otros — any tag not matched to a group */}
+          {(() => {
+            const grouped = new Set(TAG_GROUPS.flatMap((g) => g.tags))
+            const others = availableTags.filter((t) => !grouped.has(t))
+            if (others.length === 0) return null
+            const activeCount = others.filter((t) => initialTags.includes(t)).length
+            return (
+              <details
+                open={activeCount > 0}
+                className="group rounded-md border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-2"
+              >
+                <summary className="flex cursor-pointer items-center justify-between text-xs font-medium text-[color:var(--text,#111)] marker:hidden [&::-webkit-details-marker]:hidden">
+                  <span className="flex items-center gap-2">
+                    <span>Otros</span>
+                    {activeCount > 0 ? (
+                      <span className="rounded-full bg-[color:var(--primary,#111)] px-1.5 text-[10px] font-semibold text-[color:var(--primary-foreground,#fff)]">
+                        {activeCount}
+                      </span>
+                    ) : null}
+                  </span>
+                  <span aria-hidden="true" className="text-[color:var(--text-muted,#9ca3af)] transition-transform group-open:rotate-180">▾</span>
+                </summary>
+                <div className="mt-2 flex flex-wrap gap-1.5 pt-1">
+                  {others.map((t) => {
+                    const active = initialTags.includes(t)
+                    return (
+                      <button
+                        key={t}
+                        type="button"
+                        onClick={() => toggleTag(t)}
+                        aria-pressed={active}
+                        className={`rounded-full border px-2.5 py-0.5 text-xs ${
+                          active
+                            ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
+                            : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                        }`}
+                      >
+                        {t.replace(/-/g, ' ')}
+                      </button>
+                    )
+                  })}
+                </div>
+              </details>
+            )
+          })()}
         </div>
       ) : null}
 
