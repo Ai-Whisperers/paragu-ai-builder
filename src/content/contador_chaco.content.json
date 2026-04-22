@@ -1,0 +1,149 @@
+{
+  "id": "contador_chaco",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad para el Chaco paraguayo",
+    "subheadline": "Cooperativas mennonitas, ganaderia, comercio local y productores del Chaco Central y Boqueron. Atencion en espanol y aleman.",
+    "ctaPrimary": "Consulta Inicial",
+    "ctaSecondary": "Nuestros Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Desde {{city}} atendemos a cooperativas, ganaderos, comerciantes y productores del Chaco. Conocemos la realidad bilingue de la region y las particularidades de cada cooperativa (Chortitzer, Neuland, Fernheim). Nuestra atencion es sobria, metodica y respetuosa de la cultura menonita — wir kennen Ihre Welt.",
+    "bullets": [
+      "Atencion en espanol y aleman (Deutsch/Plattdeutsch)",
+      "Especialistas en cooperativas mennonitas",
+      "Ganaderia + agricultura subtropical",
+      "SENACSA e INCOOP dominados",
+      "Discrecion y continuidad generacional"
+    ]
+  },
+  "services": {
+    "title": "Servicios para el Chaco",
+    "subtitle": "Todo lo que una operacion del Chaco necesita, en los dos idiomas",
+    "categories": [
+      {
+        "id": "cooperativas",
+        "name": "Cooperativas Menonitas",
+        "description": "Reporting completo ante INCOOP, Balance Social y asamblea anual.",
+        "icon": "users",
+        "items": [
+          "Estados contables INCOOP",
+          "Balance Social Cooperativo (Res. 4109/09)",
+          "Preparacion de asamblea general anual (Jahresversammlung)",
+          "Distribucion de excedentes al socio",
+          "Auditoria externa obligatoria",
+          "Documentacion bilingue ES/DE"
+        ]
+      },
+      {
+        "id": "ganaderia",
+        "name": "Ganaderia y Campo",
+        "description": "IRE Agropecuario, SENACSA, trazabilidad para exportacion.",
+        "icon": "bull",
+        "items": [
+          "Liquidacion IRE Simple Agropecuario",
+          "Registro SENACSA (marcas, senales, SIGOR)",
+          "Constancia de no retencion",
+          "Certificados de origen para exportacion",
+          "Mortandad y consumo interno (deducibles)"
+        ]
+      },
+      {
+        "id": "comercio",
+        "name": "Comercio e Industria Chaquena",
+        "description": "Empresas locales: supermercados, ferreterias, maquinaria, transporte.",
+        "icon": "store",
+        "items": [
+          "Contabilidad mensual completa",
+          "IVA + IRE + IRP + IDU",
+          "Liquidacion de sueldos + IPS + MTESS",
+          "Balance anual segun NIIF para PYMES",
+          "Coordinacion bancaria con Cooperativa y BNF"
+        ]
+      },
+      {
+        "id": "laboral-rural",
+        "name": "Laboral Rural",
+        "description": "Peones, temporeros y empleados administrativos del Chaco.",
+        "icon": "hard-hat",
+        "items": [
+          "Contratos bajo Ley 5115 (trabajador rural)",
+          "Aportes IPS obrero rural",
+          "Planilla MTESS-REOP mensual",
+          "Zafreros y trabajadores temporarios"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes",
+    "subtitle": "Honorarios ajustados a la economia del Chaco.",
+    "plans": [
+      {
+        "id": "productor-chico",
+        "name": "Productor Chaquen",
+        "priceFrom": "700.000 Gs/mes",
+        "description": "Ganadero hasta 300 cabezas o agricultor mediano.",
+        "features": [
+          "IRE Simple Agropecuario",
+          "SENACSA basico",
+          "IVA si corresponde",
+          "Asesoria por WhatsApp (ES/DE)"
+        ]
+      },
+      {
+        "id": "cooperativa-socio",
+        "name": "Socio Cooperativa",
+        "priceFrom": "1.200.000 Gs/mes",
+        "description": "Productor socio activo en Chortitzer, Neuland o Fernheim.",
+        "features": [
+          "Coordinacion con el reporting cooperativo",
+          "IRE + IVA personales",
+          "Planilla de sueldos si tiene personal",
+          "Asesoria regulatoria bilingue"
+        ],
+        "featured": true
+      },
+      {
+        "id": "empresa-chaquena",
+        "name": "Empresa Chaquena",
+        "priceFrom": "3.500.000 Gs/mes",
+        "description": "Comercio o industria instalada en Filadelfia, Loma Plata o Neuland.",
+        "features": [
+          "Contabilidad empresarial completa",
+          "Hasta 30 sueldos + IPS + MTESS",
+          "Balance anual NIIF para PYMES",
+          "Reporting bilingue a directorio",
+          "Auditoria externa si corresponde"
+        ]
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Nuestra cooperativa ha trabajado con ellos por 10 anos. Entienden nuestra cultura y trabajo metodico. Das Vertrauen ist da.",
+      "author": "Peter Friesen",
+      "role": "Gerente, cooperativa Chaco",
+      "rating": 5
+    },
+    {
+      "quote": "Puedo escribirles en aleman cuando tengo dudas y reciben respuesta clara. Para los que crecimos con el Platt, es un alivio.",
+      "author": "Margarethe Wiebe",
+      "role": "Productora ganadera",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Sprechen Sie Deutsch?", "a": "Ja. Mehrere unserer Mitarbeiter sprechen fliessend Deutsch und verstehen auch Plattdeutsch. Schreiben Sie uns auf Deutsch — wir antworten auf Deutsch." },
+    { "q": "Atienden en aleman y espanol?", "a": "Si. Varios miembros de nuestro equipo hablan aleman fluido y comprenden Plattdeutsch. Podes escribirnos en cualquiera de los dos idiomas." },
+    { "q": "Viajan al Chaco?", "a": "Si. Visitamos Filadelfia, Loma Plata, Neuland y los establecimientos periodicamente. Tambien trabajamos 100% digital con clientes en Asuncion, Mariscal Estigarribia y otras ciudades chaquenas." },
+    { "q": "Trabajan con las tres cooperativas del Chaco Central?", "a": "Si. Chortitzer, Neuland y Fernheim — tenemos clientes socios en las tres. Respetamos la confidencialidad de cada relacion." },
+    { "q": "Conocen la tributacion rural?", "a": "Si. IRE Agropecuario, SENACSA, IPS obrero rural, zafreros — es nuestro dia a dia." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Estudio Contable en {{city}} (Chaco)",
+    "copyright": "© {{year}} {{businessName}}",
+    "disclaimer": "Matriculados CCP — Atencion ES/DE"
+  }
+}

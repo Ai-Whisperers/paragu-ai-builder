@@ -1,0 +1,161 @@
+{
+  "id": "contador_cde",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Contabilidad trinacional en Ciudad del Este",
+    "subheadline": "Importadores, comerciantes triple frontera, maquiladoras, turismo. Atendemos en espanol, portugues y guarani. Conocemos la dinamica PY-BR-AR.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "Desde Ciudad del Este acompanamos a importadores, comerciantes y maquiladoras que operan en la triple frontera. Sabemos trabajar con clientes brasileros y argentinos, coordinar con despachantes de aduana, y navegar los regimenes de importacion, turismo y maquila. Falamos portugues e entendemos a dinamica da fronteira.",
+    "bullets": [
+      "Atendemos en espanol, portugues y guarani",
+      "Especialistas en regimen de importacion comercial",
+      "Regimen de Turismo (Ley 60/90 original, reformas subsecuentes)",
+      "Coordinacion con despachantes aduaneros",
+      "Maquila Ley 1064/97 para operaciones de ensamble"
+    ]
+  },
+  "services": {
+    "title": "Servicios para la Triple Frontera",
+    "subtitle": "Todo lo que un negocio CDE necesita, en tres idiomas",
+    "categories": [
+      {
+        "id": "importacion",
+        "name": "Regimen de Importacion",
+        "description": "Coordinacion completa con despachantes de aduana.",
+        "icon": "truck",
+        "items": [
+          "Gestion ante DNA (Direccion Nacional de Aduanas)",
+          "Coordinacion con despachante habilitado",
+          "Clasificacion NALADISA / MERCOSUR",
+          "IVA + aranceles de importacion",
+          "Regimen de Turismo / comercial / Zona Franca",
+          "Registro de importador-exportador"
+        ]
+      },
+      {
+        "id": "comercio-frontera",
+        "name": "Comercio Triple Frontera",
+        "description": "Tiendas electronicas, comercio general, venta a turistas brasileros y argentinos.",
+        "icon": "store",
+        "items": [
+          "IVA 10% / 5% segun producto",
+          "IRE Simple o General segun volumen",
+          "Emision de comprobantes de venta a extranjeros",
+          "Manejo de monedas USD / BRL / ARS",
+          "Conciliaciones multimoneda"
+        ]
+      },
+      {
+        "id": "maquila-cde",
+        "name": "Maquila Electronica / Ensamble",
+        "description": "Ley 1064/97 para operaciones industriales con clientes brasileros.",
+        "icon": "factory",
+        "items": [
+          "Aprobacion de Programa de Maquila",
+          "Tributo unico 1% sobre facturacion",
+          "Reporting trimestral CNIME",
+          "Certificado de origen MERCOSUR 60/40",
+          "Importacion temporal de insumos"
+        ]
+      },
+      {
+        "id": "turismo",
+        "name": "Regimen de Turismo",
+        "description": "Vendedores a turistas brasileros y argentinos bajo regimenes especiales.",
+        "icon": "map-pin",
+        "items": [
+          "Cumplimiento regimen turismo",
+          "Emision de notas fiscales y facturas electronicas",
+          "Coordinacion con camaras de comercio",
+          "Declaraciones a BCP por operaciones en divisas"
+        ]
+      },
+      {
+        "id": "laboral-cde",
+        "name": "Laboral Multicultural",
+        "description": "Empleados paraguayos, brasileros residentes, argentinos en puestos especializados.",
+        "icon": "users",
+        "items": [
+          "Planilla de sueldos + IPS + MTESS",
+          "Empleados extranjeros con permiso de trabajo",
+          "Contratos bilingues cuando corresponde",
+          "Coordinacion migratoria (DGMC)"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planos",
+    "subtitle": "Atendemos desde o pequeno comerciante ate a maquila industrial.",
+    "plans": [
+      {
+        "id": "comercio-chico",
+        "name": "Comercio Pequeno",
+        "priceFrom": "900.000 Gs/mes",
+        "description": "Tienda local, facturacion anual < Gs. 1.500M, hasta 5 empleados.",
+        "features": [
+          "IVA + IRE Simple mensual",
+          "Hasta 5 sueldos + IPS",
+          "Coordinacion basica con despachante",
+          "WhatsApp en ES/PT"
+        ]
+      },
+      {
+        "id": "importador",
+        "name": "Importador / Comerciante",
+        "priceFrom": "2.500.000 Gs/mes",
+        "description": "Operacion de importacion regular, facturacion Gs. 1.500M-5.000M.",
+        "features": [
+          "Regimen de importacion completo",
+          "Hasta 20 sueldos + IPS + MTESS",
+          "Coordinacion aduanera",
+          "Reporting en PT para casa matriz",
+          "Balance mensual + anual"
+        ],
+        "featured": true
+      },
+      {
+        "id": "maquila",
+        "name": "Maquila",
+        "priceFrom": "Consultar",
+        "description": "Operacion industrial bajo Ley 1064/97.",
+        "features": [
+          "Tributo unico + CNIME trimestral",
+          "Certificados de origen MERCOSUR",
+          "Contabilidad multi-idioma ES/PT/EN",
+          "Coordinacion con gerencia internacional"
+        ]
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Tenia un negocio familiar en CDE vendiendo a brasileros. Ellos entendieron mi realidad desde el primer dia y me ayudaron a formalizar sin perder clientes.",
+      "author": "Carlos Alves",
+      "role": "Comerciante electronica",
+      "rating": 5
+    },
+    {
+      "quote": "Nossa maquiladora trabalha com clientes em Sao Paulo. Eles reportam mensal em portugues e coordenam com nossos auditores brasileiros sem problema.",
+      "author": "Luiza Ferreira",
+      "role": "CFO, maquiladora textil",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Falam portugues?", "a": "Sim. Varios membros da nossa equipe falam portugues fluente. Podemos escrever, reunir e prestar servicos em espanhol ou portugues, conforme preferir." },
+    { "q": "Atienden brasileros con empresa en Paraguay?", "a": "Si — es nuestra especialidad. Coordinamos con contadores brasileros si es necesario, y manejamos reporting en portugues para la casa matriz." },
+    { "q": "Conocen el regimen de turismo?", "a": "Si. Atendemos a comercios que venden a turistas brasileros y argentinos bajo los regimenes vigentes." },
+    { "q": "Trabajan con despachantes de aduana?", "a": "Si, con varios despachantes habilitados en CDE. Los clientes pueden usar al nuestro o traer su propio despachante — lo coordinamos." },
+    { "q": "Pueden hacer reporting mensual a casa matriz en Brasil?", "a": "Si. Emitimos DRE (Demonstracao do Resultado) en formato brasilero cuando lo pide la matriz, junto con los reportes DNIT locales." }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Estudio Contable en Ciudad del Este",
+    "copyright": "© {{year}} {{businessName}}",
+    "disclaimer": "Matriculados CCP - Atendemos ES / PT / GN"
+  }
+}
