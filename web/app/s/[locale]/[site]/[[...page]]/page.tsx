@@ -46,7 +46,6 @@ export const dynamicParams = true
 const PRERENDER_SKIP_SITES = new Set<string>([
   'nexa-propiedades',
   'fun4me',
-  'dayah-litworks',
   'de-abasto-a-casa',
 ])
 
