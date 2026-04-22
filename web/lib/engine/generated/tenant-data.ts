@@ -5815,7 +5815,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.newsletter",
+        "content": "newsletter",
         "id": "newsletter-signup",
         "variant": "standard"
       },
