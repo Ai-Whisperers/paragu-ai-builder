@@ -12,6 +12,10 @@ export interface ResolvedBusiness {
   /** WhatsApp number from the tenant's content blob, if set. Digits only,
    * no `+`, ready to drop into a `wa.me/<digits>` URL. */
   whatsappNumber?: string
+  /** Raw data_json passed through for callers that need fields this
+   * interface doesn't explicitly model (admin_email, legal info, etc.).
+   * Treat as opaque. */
+  dataJson?: unknown
 }
 
 /**
@@ -60,5 +64,6 @@ export async function resolveBusinessBySlug(slug: string): Promise<ResolvedBusin
     currency,
     preferredProvider: commerceCfg?.provider,
     whatsappNumber,
+    dataJson: data.data_json,
   }
 }
