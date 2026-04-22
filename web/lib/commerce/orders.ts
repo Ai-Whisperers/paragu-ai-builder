@@ -165,6 +165,12 @@ function rowToOrder(row: Record<string, unknown>, items: Record<string, unknown>
     comprobanteNote: (row.comprobante_note as string | null) ?? null,
     comprobanteImageUrl: (row.comprobante_image_url as string | null) ?? null,
     comprobanteUploadedAt: (row.comprobante_uploaded_at as string | null) ?? null,
+    invoiceNumber: (row.invoice_number as string | null) ?? null,
+    invoiceIssuedAt: (row.invoice_issued_at as string | null) ?? null,
+    invoicePdfUrl: (row.invoice_pdf_url as string | null) ?? null,
+    invoiceLegalName: (row.invoice_legal_name as string | null) ?? null,
+    invoiceRuc: (row.invoice_ruc as string | null) ?? null,
+    invoiceConcept: (row.invoice_concept as string | null) ?? null,
     createdAt: row.created_at as string,
     updatedAt: row.updated_at as string,
     items: items.map(

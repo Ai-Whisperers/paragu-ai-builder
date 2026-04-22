@@ -78,6 +78,17 @@ export const OrderSchema = z.object({
   comprobanteNote: z.string().nullable(),
   comprobanteImageUrl: z.string().nullable(),
   comprobanteUploadedAt: z.string().nullable(),
+  /** Invoice metadata. Populated automatically by Batch L (SET /
+   * Facture integration) when the order hits paid, OR manually by
+   * an admin via /admin/commerce/[id]/orders/[id]/invoice. All null
+   * until then; the /orden/[id]/recibo page renders a provisional
+   * receipt when invoiceNumber is null. */
+  invoiceNumber: z.string().nullable(),
+  invoiceIssuedAt: z.string().nullable(),
+  invoicePdfUrl: z.string().nullable(),
+  invoiceLegalName: z.string().nullable(),
+  invoiceRuc: z.string().nullable(),
+  invoiceConcept: z.string().nullable(),
   createdAt: z.string(),
   updatedAt: z.string(),
   items: z.array(OrderItemSchema).optional(),
