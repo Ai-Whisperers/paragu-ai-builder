@@ -2,11 +2,12 @@
  * Pre-declared Google Fonts, served via `next/font/google`.
  *
  * The top 6 font families by tenant usage (Inter, Playfair Display,
- * Cormorant Garamond, Montserrat, Oswald, Lora) cover ~85% of all
- * tenants. Declaring them statically here lets Next.js self-host the
- * WOFF2 files, auto-preload the critical subset, and eliminate the
- * external `fonts.googleapis.com` stylesheet request — the single
- * biggest remaining render-blocking resource on tenant pages.
+ * Cormorant Garamond, Montserrat, Oswald, Lora) cover ~79 of ~100
+ * tenant-level font uses. Declaring them statically here lets Next.js
+ * self-host the WOFF2 files, auto-preload the critical subset, and
+ * eliminate the external `fonts.googleapis.com` stylesheet request —
+ * the single biggest remaining render-blocking resource on tenant
+ * pages.
  *
  * Tenants whose `typography.heading` / `typography.body` resolves to
  * one of these families get the self-hosted version automatically via
@@ -14,10 +15,10 @@
  * using rarer fonts (long tail in `src/tokens/*.tokens.json`) still
  * flow through the CDN pipeline as before — no regression.
  *
- * Bundle cost: each declaration emits a `<link rel="stylesheet">` for
- * its @font-face rules in the root layout. Actual WOFF2 files only
- * download when CSS references the matching CSS variable, so unused
- * fonts cost a few hundred bytes of CSS, not the full font payload.
+ * NOTE: `next/font/google` arguments must be statically analyzable by
+ * Turbopack — no spreads, no dynamic values, no shared config objects.
+ * Each call below inlines its full options literal on purpose; do not
+ * refactor into a helper that builds options dynamically.
  */
 import {
   Inter,
@@ -28,44 +29,45 @@ import {
   Lora,
 } from 'next/font/google'
 
-const fontConfig = {
-  subsets: ['latin'] as ['latin'],
-  display: 'swap' as const,
-}
-
 export const fontInter = Inter({
-  ...fontConfig,
+  subsets: ['latin'],
+  display: 'swap',
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-inter',
 })
 
 export const fontPlayfair = Playfair_Display({
-  ...fontConfig,
+  subsets: ['latin'],
+  display: 'swap',
   weight: ['400', '500', '600', '700'],
   style: ['normal', 'italic'],
   variable: '--font-playfair',
 })
 
 export const fontCormorant = Cormorant_Garamond({
-  ...fontConfig,
+  subsets: ['latin'],
+  display: 'swap',
   weight: ['400', '500', '600', '700'],
   variable: '--font-cormorant',
 })
 
 export const fontMontserrat = Montserrat({
-  ...fontConfig,
+  subsets: ['latin'],
+  display: 'swap',
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-montserrat',
 })
 
 export const fontOswald = Oswald({
-  ...fontConfig,
+  subsets: ['latin'],
+  display: 'swap',
   weight: ['400', '500', '600', '700'],
   variable: '--font-oswald',
 })
 
 export const fontLora = Lora({
-  ...fontConfig,
+  subsets: ['latin'],
+  display: 'swap',
   weight: ['400', '500', '600', '700'],
   variable: '--font-lora',
 })
