@@ -6,6 +6,31 @@
   },
   "siteName": "Dayah LitWorks",
   "tagline": "Book cover design — from manuscript to a cover that sells",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "How long does a custom cover take?", "answer": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks." },
+      { "question": "How many revisions are included?", "answer": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost." },
+      { "question": "What's the payment process?", "answer": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash." },
+      { "question": "What currency do you charge in?", "answer": "We charge in USD and guaraníes (₲). See our pricing table for both currencies." },
+      { "question": "Can I use the cover on Amazon KDP / Wattpad / publishers?", "answer": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform." },
+      { "question": "What is a 3D mockup?", "answer": "A realistic 3D render of your book. Perfect for social media promotion and marketing." },
+      { "question": "What if I cancel the project?", "answer": "If the client cancels after work has started, the advance payment is non-refundable." },
+      { "question": "Do you redesign existing covers?", "answer": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas." },
+      { "question": "What do I need to get started?", "answer": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design." },
+      { "question": "What language do you design in?", "answer": "We design covers in Spanish and English. Typography adapts to your book's language." },
+      { "question": "Can I request rush delivery (48–72h)?", "answer": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge." },
+      { "question": "How are final files delivered?", "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images." }
+    ]
+  },
+  "seo": {
+    "faq": {
+      "title": "FAQ — Dayah LitWorks",
+      "description": "Answers to the most frequently asked questions about our book cover design services."
+    }
+  },
+  "placeholders": {
+  "tagline": "Book cover design — from manuscript to a cover that sells",
   "placeholders": {
     "businessName": "Dayah LitWorks",
     "city": "Asuncion",
