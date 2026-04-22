@@ -4,6 +4,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { listCredentialsForBusiness } from '@/lib/commerce/payment-credentials'
+import { ComprobanteSentButton } from '@/components/commerce/comprobante-sent-button'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -90,24 +91,37 @@ export default async function TransferInstructionsPage({
 
           <section className="mt-6 space-y-3">
             <h2 className="text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Enviar comprobante</h2>
-            {whatsappUrl ? (
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-[#25D366] px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
-              >
-                Enviar comprobante por WhatsApp
-              </a>
+            {order.comprobanteSentAt ? (
+              <div className="rounded-lg border border-green-200 bg-green-50 p-4 text-sm text-green-900">
+                <p className="font-semibold">✓ Marcaste el comprobante como enviado</p>
+                <p className="mt-1 text-xs">
+                  {new Date(order.comprobanteSentAt).toLocaleString('es-PY')} · {business.name} revisa
+                  los comprobantes y confirma tu pago por email en las próximas horas.
+                </p>
+              </div>
             ) : (
-              <p className="text-sm text-[color:var(--text-muted,#6b7280)]">
-                El comercio no configuró WhatsApp. Contactalo por otro canal.
-              </p>
+              <>
+                {whatsappUrl ? (
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-lg bg-[#25D366] px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
+                  >
+                    Enviar comprobante por WhatsApp
+                  </a>
+                ) : (
+                  <p className="text-sm text-[color:var(--text-muted,#6b7280)]">
+                    El comercio no configuró WhatsApp. Contactalo por otro canal.
+                  </p>
+                )}
+                <ComprobanteSentButton siteSlug={site} orderId={order.id} />
+                <p className="text-xs text-[color:var(--text-muted,#6b7280)]">
+                  Referenciá el pedido <strong>{order.orderNumber}</strong> al enviarlo. Tu pedido se
+                  confirma cuando el comercio valida la transferencia.
+                </p>
+              </>
             )}
-            <p className="text-xs text-[color:var(--text-muted,#6b7280)]">
-              Referenciá el pedido <strong>{order.orderNumber}</strong> al enviarlo. Tu pedido se confirma
-              cuando el comercio valida la transferencia.
-            </p>
           </section>
 
           <section className="mt-8 border-t border-[color:var(--border,#e5e7eb)] pt-4 text-sm">

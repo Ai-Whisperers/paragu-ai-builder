@@ -70,6 +70,12 @@ export const OrderSchema = z.object({
   trackingCarrier: z.string().nullable(),
   trackingNumber: z.string().nullable(),
   trackingUrl: z.string().nullable(),
+  /** When the customer confirmed they sent the transfer proof via
+   * WhatsApp. Set by POST /api/storefront/[site]/orders/[id]/comprobante-sent.
+   * Null means the customer hasn't told us yet. Admin UI renders a
+   * "Comprobante enviado" badge when this is populated. */
+  comprobanteSentAt: z.string().nullable(),
+  comprobanteNote: z.string().nullable(),
   createdAt: z.string(),
   updatedAt: z.string(),
   items: z.array(OrderItemSchema).optional(),
