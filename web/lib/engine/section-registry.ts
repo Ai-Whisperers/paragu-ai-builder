@@ -352,6 +352,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'standard',
     variants: ['standard'],
   },
+  'open-hours-status': {
+    id: 'open-hours-status',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['hours'],
+  },
 }
 
 /**

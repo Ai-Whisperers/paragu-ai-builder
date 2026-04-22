@@ -55,6 +55,7 @@ import { MenuCategorizedPricedSection } from '@/components/sections/menu-categor
 import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
 import { PromoBannerSection } from '@/components/sections/promo-banner-section'
 import { NewsletterSignupSection } from '@/components/sections/newsletter-signup-section'
+import { OpenHoursStatusSection } from '@/components/sections/open-hours-status-section'
 
 // Exported so tests (and any future tooling) can assert that every
 // registered section in section-registry has a matching render binding.
@@ -106,6 +107,7 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'compliance-disclaimer-footer': ComplianceDisclaimerFooterSection,
   'promo-banner': PromoBannerSection,
   'newsletter-signup': NewsletterSignupSection,
+  'open-hours-status': OpenHoursStatusSection,
   'tax-savings-calculator': TaxSavingsCalculatorSection,
   'intake-wizard': IntakeWizardSection,
   features: FeaturesSection,

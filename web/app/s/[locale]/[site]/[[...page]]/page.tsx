@@ -48,7 +48,6 @@ const PRERENDER_SKIP_SITES = new Set<string>([
   'fun4me',
   'dayah-litworks',
   'de-abasto-a-casa',
-  'granja-cabral',
 ])
 
 export async function generateStaticParams() {

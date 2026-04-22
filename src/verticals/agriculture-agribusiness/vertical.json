@@ -27,7 +27,11 @@
     "enhanced-faq",
     "our-story",
     "b2b-wholesale",
-    "recipes"
+    "recipes",
+    "promo-banner",
+    "trust-badges",
+    "open-hours-status",
+    "newsletter-signup"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

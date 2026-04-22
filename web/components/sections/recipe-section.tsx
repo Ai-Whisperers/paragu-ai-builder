@@ -10,11 +10,19 @@ import { Input } from '@/components/ui/input'
 import { Heading } from '@/components/ui/heading'
 import { RECIPES, RECIPE_CATEGORIES, type Recipe } from '@/lib/data/recipes'
 
+interface RecipeCategory {
+  id: string
+  label: string
+  icon?: string
+}
+
 interface RecipePageProps {
   business: {
     name: string
     whatsapp: string
   }
+  recipes?: Recipe[]
+  categories?: ReadonlyArray<RecipeCategory>
 }
 
 function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePageProps['business'] }) {
@@ -182,7 +190,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
 
       <Card className="bg-amber-50 border-amber-200 mb-8">
         <CardHeader>
-          <CardTitle className="text-amber-800">💡 Tips de Granja Cabral</CardTitle>
+          <CardTitle className="text-amber-800">💡 Tips de {business.name}</CardTitle>
         </CardHeader>
         <CardContent>
           <ul className="space-y-2">
@@ -227,12 +235,16 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
   )
 }
 
-export function RecipeSection({ business }: RecipePageProps) {
+export function RecipeSection({
+  business,
+  recipes = RECIPES,
+  categories = RECIPE_CATEGORIES,
+}: RecipePageProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null)
 
-  const filteredRecipes = RECIPES.filter(recipe => {
+  const filteredRecipes = recipes.filter(recipe => {
     const matchesCategory = selectedCategory === 'all' || recipe.category === selectedCategory
     const matchesSearch = recipe.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          recipe.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -240,7 +252,7 @@ export function RecipeSection({ business }: RecipePageProps) {
     return matchesCategory && matchesSearch
   })
 
-  const featuredRecipes = RECIPES.filter(r => r.featured)
+  const featuredRecipes = recipes.filter(r => r.featured)
 
   if (selectedRecipe) {
     return (
@@ -286,7 +298,7 @@ export function RecipeSection({ business }: RecipePageProps) {
 
         {/* Categories */}
         <div className="flex flex-wrap justify-center gap-2 mb-12">
-          {RECIPE_CATEGORIES.map((category) => (
+          {categories.map((category) => (
             <Button
               key={category.id}
               variant={selectedCategory === category.id ? 'default' : 'outline'}
@@ -320,7 +332,7 @@ export function RecipeSection({ business }: RecipePageProps) {
           <Heading level={2} className="text-2xl font-bold text-gray-900 mb-6">
             {searchQuery ? `Resultados para "${searchQuery}"` :
              selectedCategory === 'all' ? 'Todas las Recetas' :
-             RECIPE_CATEGORIES.find(c => c.id === selectedCategory)?.label}
+             categories.find(c => c.id === selectedCategory)?.label}
             <span className="text-lg font-normal text-gray-500 ml-2">
               ({filteredRecipes.length} recetas)
             </span>
@@ -353,11 +365,11 @@ export function RecipeSection({ business }: RecipePageProps) {
         <div className="mt-16 bg-gradient-to-r from-orange-500 to-amber-500 rounded-2xl p-8 text-white text-center">
           <Heading level={3} className="text-2xl font-bold mb-3">¿Tenés una receta favorita?</Heading>
           <p className="mb-6 opacity-90">
-            Compartila con nosotros y podemos publicarla en nuestra web. 
-            Las mejores recetas usando huevos de Granja Cabral.
+            Compartila con nosotros y podemos publicarla en nuestra web.
+            Las mejores recetas usando huevos frescos de {business.name}.
           </p>
-          <Link 
-            href={`https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola! Tengo una receta familiar que quiero compartir con Granja Cabral.')}`}
+          <Link
+            href={`https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hola! Tengo una receta familiar que quiero compartir con ${business.name}.`)}`}
             target="_blank"
             rel="noopener noreferrer"
           >

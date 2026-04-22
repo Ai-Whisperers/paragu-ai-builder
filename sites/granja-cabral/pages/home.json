@@ -4,6 +4,11 @@
   "descriptionKey": "home.seo.description",
   "sections": [
     {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.promoBanner"
+    },
+    {
       "id": "header",
       "variant": "standard",
       "content": "navigation"
@@ -12,6 +17,16 @@
       "id": "hero",
       "variant": "image",
       "content": "home.hero"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadgesStrip"
+    },
+    {
+      "id": "open-hours-status",
+      "variant": "standard",
+      "content": "home.openHours"
     },
     {
       "id": "our-story",
@@ -42,6 +57,11 @@
       "id": "enhanced-faq",
       "variant": "searchable",
       "content": "home.enhancedFaq"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "home.newsletter"
     },
     {
       "id": "contact",
