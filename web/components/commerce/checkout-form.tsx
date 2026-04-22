@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useCartStore, cartSubtotalCents } from '@/lib/stores/cart-store'
 import { formatCents } from '@/lib/commerce/compute-totals'
@@ -17,6 +17,8 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
   const [error, setError] = useState<string | null>(null)
   const [discountCode, setDiscountCode] = useState('')
   const [discountInput, setDiscountInput] = useState('')
+  const [shippingQuote, setShippingQuote] = useState<{ amountCents: number; loading: boolean }>({ amountCents: 0, loading: false })
+  const [addressHint, setAddressHint] = useState<{ city: string; department: string; country: string }>({ city: '', department: '', country: 'PY' })
   const [discountStatus, setDiscountStatus] = useState<
     | { kind: 'idle' }
     | { kind: 'checking' }
@@ -63,6 +65,39 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
       setDiscountStatus({ kind: 'rejected', reason: 'network_error' })
     }
   }
+
+  // Debounced reactive shipping estimate. Fires when city or
+  // department changes; 400ms delay to avoid a request per keystroke.
+  // No auth needed — the endpoint takes the same shape as the
+  // authoritative server-side quote used at checkout confirm.
+  const debouncedAddress = `${addressHint.city}|${addressHint.department}`
+  useEffect(() => {
+    if (!addressHint.city.trim()) {
+      setShippingQuote({ amountCents: 0, loading: false })
+      return
+    }
+    const t = setTimeout(async () => {
+      setShippingQuote((s) => ({ ...s, loading: true }))
+      try {
+        const res = await fetch(`/api/storefront/${siteSlug}/shipping-quote`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            country: addressHint.country || 'PY',
+            region: addressHint.department || undefined,
+            subtotalCents: subtotal,
+          }),
+        })
+        if (!res.ok) throw new Error('quote_failed')
+        const j = (await res.json()) as { amountCents: number }
+        setShippingQuote({ amountCents: j.amountCents, loading: false })
+      } catch {
+        setShippingQuote({ amountCents: 0, loading: false })
+      }
+    }, 400)
+    return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [debouncedAddress, subtotal, siteSlug])
 
   function removeDiscount() {
     setDiscountCode('')
@@ -138,8 +173,8 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
           <div className="grid gap-4 sm:grid-cols-2">
             <Field className="sm:col-span-2" label="Dirección" name="line1" required autoComplete="shipping address-line1" />
             <Field className="sm:col-span-2" label="Piso / depto (opcional)" name="line2" autoComplete="shipping address-line2" />
-            <Field label="Ciudad" name="city" required autoComplete="shipping address-level2" />
-            <Field label="Departamento" name="department" autoComplete="shipping address-level1" />
+            <Field label="Ciudad" name="city" required autoComplete="shipping address-level2" onChange={(v) => setAddressHint((a) => ({ ...a, city: v }))} />
+            <Field label="Departamento" name="department" autoComplete="shipping address-level1" onChange={(v) => setAddressHint((a) => ({ ...a, department: v }))} />
             <Field label="Código postal" name="postalCode" autoComplete="shipping postal-code" />
             <Field className="sm:col-span-2" label="Referencias (opcional)" name="references" placeholder="Casa color crema, frente a la plaza" />
           </div>
@@ -156,7 +191,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
         </section>
       </div>
 
-      <aside className="h-fit rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 lg:sticky lg:top-4">
+      <aside className="sticky top-0 z-10 order-first h-fit max-h-[60vh] overflow-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 lg:order-last lg:max-h-none lg:overflow-visible lg:sticky lg:top-4">
         <h2 className="mb-4 text-lg font-semibold">Resumen</h2>
         <ul className="mb-4 space-y-2 text-sm">
           {cart.items.map((it) => {
@@ -243,7 +278,13 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
             <span>
               {discountStatus.kind === 'applied' && discountStatus.freeShipping
                 ? 'Gratis'
-                : 'Se calcula al confirmar'}
+                : shippingQuote.loading
+                  ? 'Calculando…'
+                  : shippingQuote.amountCents > 0
+                    ? formatCents(shippingQuote.amountCents, cart.currency)
+                    : addressHint.city.trim()
+                      ? 'Gratis'
+                      : 'Se calcula al confirmar'}
             </span>
           </div>
           <div className="flex justify-between pt-1 text-base font-semibold text-[color:var(--text,#111)]">
@@ -281,6 +322,7 @@ function Field({
   autoComplete,
   placeholder,
   className,
+  onChange,
 }: {
   label: string
   name: string
@@ -289,6 +331,7 @@ function Field({
   autoComplete?: string
   placeholder?: string
   className?: string
+  onChange?: (value: string) => void
 }) {
   // Explicit htmlFor + id so screen readers anchor reliably (the wrapping
   // <label> alone is technically valid but some AT versions stumble). The
@@ -314,6 +357,7 @@ function Field({
         required={required}
         autoComplete={autoComplete}
         placeholder={placeholder}
+        onChange={onChange ? (e) => onChange(e.target.value) : undefined}
         className="block w-full rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm focus:border-[color:var(--primary,#111)] focus:outline-none"
       />
     </div>
