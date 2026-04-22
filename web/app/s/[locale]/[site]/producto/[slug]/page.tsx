@@ -6,6 +6,8 @@ import { getProductBySlug, listRelatedProducts } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductImage } from '@/components/commerce/product-image'
+import { getSessionToken } from '@/lib/commerce/session'
+import { getCartBySessionToken } from '@/lib/commerce/cart'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { ProductDetailActions } from '@/components/commerce/product-detail-actions'
@@ -147,9 +149,14 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
     })),
   }
 
+  const sessionToken = await getSessionToken()
+  const initialCart = sessionToken && business
+    ? await getCartBySessionToken(business.id, sessionToken).catch(() => null)
+    : null
+
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CartStoreHydrator siteSlug={site} initialCart={null} />
+      <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />

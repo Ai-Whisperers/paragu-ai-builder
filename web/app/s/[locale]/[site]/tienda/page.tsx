@@ -17,6 +17,8 @@ import { getReviewAggregatesByBusiness } from '@/lib/commerce/reviews'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { ProductCard } from '@/components/commerce/product-card'
+import { getSessionToken } from '@/lib/commerce/session'
+import { getCartBySessionToken } from '@/lib/commerce/cart'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
 import { TiendaQuickFilters } from '@/components/commerce/tienda-quick-filters'
@@ -200,9 +202,14 @@ export default async function StorePage({
       onSaleOnly,
   )
 
+  const sessionToken = await getSessionToken()
+  const initialCart = sessionToken && business
+    ? await getCartBySessionToken(business.id, sessionToken).catch(() => null)
+    : null
+
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
-      <CartStoreHydrator siteSlug={site} initialCart={null} />
+      <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
 
       <Breadcrumbs
