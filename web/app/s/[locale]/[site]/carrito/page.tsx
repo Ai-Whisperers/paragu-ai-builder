@@ -4,6 +4,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
+import { CheckoutProgressIndicator } from '@/components/commerce/checkout-progress-indicator'
 import { CartPageClient } from '@/components/commerce/cart-page-client'
 import { getSessionToken } from '@/lib/commerce/session'
 import { getCartBySessionToken } from '@/lib/commerce/cart'
@@ -30,6 +31,7 @@ export default async function CartPage({ params }: { params: Promise<{ site: str
       <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
       <CommerceHeader siteSlug={site} businessName={business.name} locale={locale} />
       <main className="mx-auto max-w-4xl px-4 py-8">
+        <CheckoutProgressIndicator current="cart" />
         <h1 className="mb-6 text-2xl font-bold">Tu carrito</h1>
         <CartPageClient siteSlug={site} locale={locale} />
         <div className="mt-6">

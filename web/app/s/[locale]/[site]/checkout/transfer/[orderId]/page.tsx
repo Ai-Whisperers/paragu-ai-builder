@@ -4,6 +4,7 @@ import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { listCredentialsForBusiness } from '@/lib/commerce/payment-credentials'
+import { CheckoutProgressIndicator } from '@/components/commerce/checkout-progress-indicator'
 import { ComprobanteSentButton } from '@/components/commerce/comprobante-sent-button'
 import { ComprobanteUploadButton } from '@/components/commerce/comprobante-upload-button'
 
@@ -55,6 +56,7 @@ export default async function TransferInstructionsPage({
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <main className="mx-auto max-w-2xl px-4 py-10">
+        <CheckoutProgressIndicator current="payment" />
         <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 shadow-sm">
           <h1 className="text-2xl font-bold text-[color:var(--text,#111)]">
             Pedido {order.orderNumber} — esperando transferencia

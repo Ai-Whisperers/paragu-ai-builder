@@ -5,6 +5,7 @@ import { formatCents } from '@/lib/commerce/compute-totals'
 import { OrderActions } from '@/components/admin/commerce/order-actions'
 import { OrderRefundButton } from '@/components/admin/commerce/order-refund-button'
 import { ComprobanteViewer } from '@/components/admin/commerce/comprobante-viewer'
+import { OrderNoteForm } from '@/components/admin/commerce/order-note-form'
 import { OrderTimeline } from '@/components/admin/commerce/order-timeline'
 import { listOrderEvents } from '@/lib/commerce/order-events'
 
@@ -139,6 +140,7 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
         <section className="mb-6">
           <h2 className="mb-3 text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Historial</h2>
           <OrderTimeline events={events} />
+          <OrderNoteForm businessId={businessId} orderId={order.id} />
         </section>
         <OrderActions businessId={businessId} orderId={order.id} currentStatus={order.status} />
         <OrderRefundButton businessId={businessId} orderId={order.id} currentStatus={order.status} />
