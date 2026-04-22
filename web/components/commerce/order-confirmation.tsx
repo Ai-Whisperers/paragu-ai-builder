@@ -161,13 +161,12 @@ export function OrderConfirmation({ siteSlug, locale, businessName, initialOrder
           >
             Seguir comprando
           </Link>
-          <button
-            type="button"
-            onClick={() => window.print()}
+          <Link
+            href={`/s/${locale}/${siteSlug}/orden/${order.id}/recibo`}
             className="inline-block rounded-lg border border-[color:var(--border,#e5e7eb)] px-4 py-2 font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
           >
-            Imprimir comprobante
-          </button>
+            📄 Descargar recibo
+          </Link>
         </div>
       </div>
     </div>
