@@ -1,0 +1,14 @@
+{
+  "slug": "contacto",
+  "title": "Contacto - Dayah LitWorks",
+  "description": "Contáctanos para tu proyecto de portada de libro",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "simple", "content": "contactHero" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "quoteForm", "variant": "multiStep", "content": "quoteForm" },
+    { "id": "newsletter", "variant": "boxed", "content": "home.newsletter" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "smart", "content": "whatsapp" }
+  ]
+}
