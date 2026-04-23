@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=201, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=205, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5080,15 +5080,119 @@ export const SITES: Record<string, JsonRecord> = {
     "vertical": "technology-digital"
   },
   "superspuma": {
-    "baseUrl": "https://superspuma.paraguai.com",
+    "businessType": "mattress_store",
+    "contact": {
+      "email": "info@superspuma.com.py",
+      "facebook": "superspuma",
+      "instagram": "@superspumapy",
+      "linkedin": "superspuma-del-paraguay-saeca",
+      "phone": "+595981111222",
+      "whatsapp": "+595974202025"
+    },
+    "country": "Paraguay",
     "defaultLocale": "es",
-    "description": "Tienda de colchones premium en Asunción",
+    "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso desde 1976.",
+    "domain": null,
+    "hours": {
+      "Domingo": "Cerrado",
+      "Lunes a Viernes": "07:30 - 17:00",
+      "Sábado": "07:30 - 12:00"
+    },
+    "integrations": {
+      "analytics": "ga4",
+      "messaging": {
+        "whatsappClickToChat": true
+      },
+      "payments": {
+        "enabled": false,
+        "merchantIdEnvVar": "BANCARD_PUBLIC_KEY_SUPERSPUMA",
+        "note": "Bancard vPOS 2.0 integration prepared; awaiting merchant credentials. Currently WhatsApp-first ordering.",
+        "provider": "bancard",
+        "secretKeyEnvVar": "BANCARD_PRIVATE_KEY_SUPERSPUMA"
+      }
+    },
     "locales": [
       "es"
     ],
+    "location": {
+      "address": "Ruta Ypané - Villeta y Arroyo Avay",
+      "city": "Villeta",
+      "coordinates": {
+        "lat": -25.5073,
+        "lng": -57.5808
+      },
+      "country": "Paraguay",
+      "department": "Central",
+      "googleMapsId": null
+    },
     "pages": [
-      "home"
+      "home",
+      "nosotros",
+      "tiendas",
+      "guias",
+      "garantia",
+      "promo-cartagena",
+      "producto/titanium"
     ],
+    "path": "/s/es/superspuma",
+    "publicUrl": "https://paragu-ai.com/s/es/superspuma",
+    "settings": {
+      "currency": "PYG",
+      "delivery": {
+        "enabled": true,
+        "freeThresholdGs": 1000000,
+        "national": true,
+        "pickupAddresses": [
+          "Villamorra Shopping (Asunción)",
+          "Paseo La Galería (Asunción)",
+          "Fuente Shopping (Asunción)",
+          "Lillo 2779 (Asunción Centro)",
+          "Fernando de la Mora",
+          "Luisito (Ñemby)",
+          "Saldos Mariano (Mariano Roque Alonso)",
+          "Planta Villeta",
+          "Ciudad del Este",
+          "Encarnación",
+          "Caaguazú",
+          "Santa Rosa",
+          "Filadelfia (Chaco)"
+        ],
+        "pickupAvailable": true,
+        "zones": [
+          "Asunción",
+          "Central",
+          "Paraguarí",
+          "Cordillera",
+          "Interior"
+        ]
+      },
+      "financing": {
+        "acceptedCards": [
+          "Visa",
+          "Mastercard",
+          "Credicard",
+          "Cabal",
+          "Pánal"
+        ],
+        "enabled": true,
+        "installmentOptions": [
+          4,
+          6,
+          12,
+          15,
+          18
+        ],
+        "provider": "cuotas_sin_interes"
+      },
+      "locale": "es-PY",
+      "services": {
+        "assemblyIncluded": true,
+        "oldMattressPickup": true,
+        "technicalSupport": true,
+        "warrantyIncluded": true
+      },
+      "timezone": "America/Asuncion"
+    },
     "theme": "superspuma",
     "title": "Superspuma",
     "vertical": "retail-local"
@@ -12829,6 +12933,105 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "terms",
     "titleKey": "legalTerms.seo.title"
   },
+  "superspuma:garantia": {
+    "descriptionKey": "garantia.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "garantia.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "garantia.coverage",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "garantia.warrantyByModel",
+        "id": "programs-comparison",
+        "variant": "matrix"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "garantia",
+    "titleKey": "garantia.seo.title"
+  },
+  "superspuma:guias": {
+    "descriptionKey": "guias.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "guias.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "guias.sizeGuide",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "guias.firmnessGuide",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "guias.careTips",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "guias",
+    "titleKey": "guias.seo.title"
+  },
   "superspuma:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -12843,8 +13046,53 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.product-catalog",
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.productCatalog",
         "id": "product-catalog"
+      },
+      {
+        "content": "home.programsComparison",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
       },
       {
         "content": "whatsapp",
@@ -12860,8 +13108,8 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "superspuma:promo-cartagena": {
-    "descriptionKey": "promo-cartagena.seo.description",
+  "superspuma:nosotros": {
+    "descriptionKey": "nosotros.seo.description",
     "sections": [
       {
         "content": "navigation",
@@ -12869,14 +13117,66 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "promo-cartagena.hero",
+        "content": "nosotros.hero",
         "id": "hero",
         "variant": "image"
       },
       {
-        "content": "promo-cartagena.lead-form",
-        "id": "promo-form",
-        "variant": "lead-form"
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "nosotros.values",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "nosotros",
+    "titleKey": "nosotros.seo.title"
+  },
+  "superspuma:promo-cartagena": {
+    "descriptionKey": "home.promo-cartagena.subtitle",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.promo-cartagena.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.promo-cartagena.lead-form",
+        "id": "lead-form",
+        "variant": "standard"
       },
       {
         "content": "whatsapp",
@@ -12890,7 +13190,54 @@ export const PAGES: Record<string, JsonRecord> = {
       }
     ],
     "slug": "promo-cartagena",
-    "titleKey": "promo-cartagena.seo.title"
+    "titleKey": "home.promo-cartagena.title"
+  },
+  "superspuma:tiendas": {
+    "descriptionKey": "tiendas.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "tiendas.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "tiendas.stores",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "tiendas.logistics",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "tiendas",
+    "titleKey": "tiendas.seo.title"
   },
 }
 
@@ -33709,73 +34056,726 @@ export const CONTENT: Record<string, JsonRecord> = {
   "superspuma:es": {
     "_meta": {
       "author": "Superspuma",
-      "lastReviewed": "2026-04-22",
+      "lastReviewed": "2026-04-23",
+      "sources": [
+        "superspuma.com.py (sitio oficial)",
+        "artazasa.com.py (precios Imperial, Pop Kids, Golden)",
+        "casainteriores.com.py / misionera.com.py / electroban.com.py (precios Luna Soft)",
+        "saracomercial.com (specs Titanium)",
+        "inverfin.com.py / bristol.com.py / universo.com.py (precios cruzados)",
+        "cuitonline / LinkedIn / Facebook (datos corporativos)"
+      ],
       "translationQuality": "human"
     },
-    "contact": {
-      "form": {
-        "email": "Email",
-        "message": "Mensaje",
-        "name": "Nombre",
-        "phone": "Teléfono",
-        "submit": "Enviar"
-      },
-      "subtitle": "Te respondemos en el día",
-      "title": "Contactanos"
+    "business": {
+      "address": "Ruta Ypané - Villeta y Arroyo Avay, Villeta - Central",
+      "city": "Villeta",
+      "country": "Paraguay",
+      "email": "info@superspuma.com.py",
+      "facebook": "superspuma",
+      "founded": 1976,
+      "instagram": "@superspumapy",
+      "legalName": "Superspuma del Paraguay S.A.E.C.A.",
+      "linkedin": "superspuma-del-paraguay-saeca",
+      "name": "Superspuma",
+      "phone": "+595981111222",
+      "whatsapp": "+595974202025"
     },
     "footer": {
+      "address": "Ruta Ypané - Villeta y Arroyo Avay, Villeta, Central",
       "businessName": "Superspuma",
-      "copyright": "© 2026 Superspuma",
+      "copyright": "© 2026 Superspuma del Paraguay S.A.E.C.A. — Todos los derechos reservados.",
+      "email": "info@superspuma.com.py",
       "links": [
         {
-          "href": "/",
+          "href": "/s/es/superspuma",
           "label": "Inicio"
         },
         {
-          "href": "/nosotros",
-          "label": "Nosotros"
-        },
-        {
-          "href": "/catalogo",
+          "href": "/s/es/superspuma#catalogo",
           "label": "Catálogo"
         },
         {
-          "href": "/promo-cartagena",
-          "label": "Promo Cartagena"
+          "href": "/s/es/superspuma/tiendas",
+          "label": "Nuestras tiendas"
         },
         {
-          "href": "/contacto",
-          "label": "Contacto"
+          "href": "/s/es/superspuma/guias",
+          "label": "Guía de compra"
+        },
+        {
+          "href": "/s/es/superspuma/garantia",
+          "label": "Garantía"
+        },
+        {
+          "href": "/s/es/superspuma/nosotros",
+          "label": "Nosotros"
+        },
+        {
+          "href": "/s/es/superspuma/promo-cartagena",
+          "label": "Promo Cartagena 2026"
         }
-      ]
+      ],
+      "phone": "+595 981 111 222",
+      "tagline": "Fábrica paraguaya de colchones desde 1976",
+      "whatsapp": "+595 974 202 025"
+    },
+    "garantia": {
+      "coverage": {
+        "subtitle": "Leé con atención para activar tu garantía correctamente.",
+        "tiers": [
+          {
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20activar%20la%20garant%C3%ADa%20de%20mi%20colch%C3%B3n%20Superspuma",
+            "ctaLabel": "Activar mi garantía",
+            "highlighted": true,
+            "id": "cubre",
+            "included": [
+              "Hundimientos mayores a 2 cm no asociados al uso normal",
+              "Rotura o deformación de resortes",
+              "Fallas en costuras o tapizado",
+              "Defectos visibles de fabricación",
+              "Reparación o reemplazo sin costo dentro del período"
+            ],
+            "name": "Qué cubre"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/guias",
+            "ctaLabel": "Ver tips de cuidado",
+            "id": "no-cubre",
+            "included": [
+              "Manchas de cualquier tipo",
+              "Roturas por uso indebido (saltar, cortes)",
+              "Daños por humedad o mojado interior",
+              "Uso con sommier inadecuado o desnivelado",
+              "Colchones sin certificado de garantía",
+              "Modificaciones hechas al colchón"
+            ],
+            "name": "Qué NO cubre"
+          }
+        ],
+        "title": "Qué cubre y qué no"
+      },
+      "hero": {
+        "headline": "Respaldo de fábrica paraguaya",
+        "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo."
+      },
+      "seo": {
+        "description": "Conocé los plazos y condiciones de la garantía Superspuma. Cubre defectos de fábrica y cambio o reparación sin costo.",
+        "title": "Garantía Superspuma — 2 a 6 años por modelo"
+      },
+      "warrantyByModel": {
+        "comparisonRows": [
+          {
+            "feature": "Línea Esencial",
+            "values": [
+              "Luna Soft, Pop Kids, Renovate, Super Kids",
+              "2 años"
+            ]
+          },
+          {
+            "feature": "Línea Confort",
+            "values": [
+              "Harmony, Serrat, Delta Soft, Serena, Golden, Pop Plus, Pop Teen",
+              "3 años"
+            ]
+          },
+          {
+            "feature": "Línea Alta Gama",
+            "values": [
+              "Imperial, Duo Confort, Superteen, Impulse Teens",
+              "3 años"
+            ]
+          },
+          {
+            "feature": "Premium",
+            "values": [
+              "Titanium",
+              "5 años"
+            ]
+          },
+          {
+            "feature": "Ortopédico",
+            "values": [
+              "Colchón ortopédico densidad 45",
+              "6 años"
+            ]
+          }
+        ],
+        "subtitle": "Plazos exactos según línea.",
+        "title": "Garantía por modelo"
+      }
+    },
+    "guias": {
+      "careTips": {
+        "steps": [
+          {
+            "description": "El primer año rotá cabeza-pie cada trimestre. Después cada 6 meses. Evita hundimientos desparejos.",
+            "icon": "RefreshCw",
+            "number": 1,
+            "title": "Rotá cada 3 meses"
+          },
+          {
+            "description": "Desde el día uno. Preserva la funda interna de humedad y manchas — es lo que más rápido deteriora un colchón.",
+            "icon": "Shield",
+            "number": 2,
+            "title": "Protector impermeable"
+          },
+          {
+            "description": "Destapá las sábanas al menos 2 horas por semana para que la espuma libere humedad.",
+            "icon": "Wind",
+            "number": 3,
+            "title": "Ventilación semanal"
+          },
+          {
+            "description": "Un sommier viejo o desnivelado acorta la vida del mejor colchón. Reemplazá el sommier cada 10 años.",
+            "icon": "Layers",
+            "number": 4,
+            "title": "Base firme y pareja"
+          },
+          {
+            "description": "La espuma no se recupera de grandes impactos localizados ni del agua interior. Parece obvio — no lo es tanto.",
+            "icon": "AlertTriangle",
+            "number": 5,
+            "title": "No saltar, no mojar"
+          }
+        ],
+        "subtitle": "5 hábitos simples que alargan la vida útil de tu colchón.",
+        "title": "Cuidados para que tu colchón dure más"
+      },
+      "firmnessGuide": {
+        "subtitle": "Elegí según tu peso y posición preferida al dormir.",
+        "tiers": [
+          {
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver modelos suaves",
+            "description": "Superficie mullida. Ideal para dormir de costado con peso menor a 70 kg.",
+            "id": "suave",
+            "included": [
+              "Luna Soft",
+              "Delta Soft",
+              "Super Kids"
+            ],
+            "name": "Suave"
+          },
+          {
+            "badge": "Más popular",
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver modelos medios",
+            "description": "El equilibrio que funciona para la mayoría. Dormís boca arriba o alternás posiciones.",
+            "highlighted": true,
+            "id": "medio",
+            "included": [
+              "Harmony",
+              "Serrat",
+              "Essential Top",
+              "Pop Teen",
+              "Golden"
+            ],
+            "name": "Medio"
+          },
+          {
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver modelos firmes",
+            "description": "Soporte máximo. Recomendado para más de 90 kg o problemas de columna.",
+            "id": "firme",
+            "included": [
+              "Titanium",
+              "Ortopédico (hasta 140 kg)",
+              "Imperial"
+            ],
+            "name": "Firme / Extra Firme"
+          },
+          {
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver memory foam",
+            "description": "Memory foam que se ajusta al contorno. Alivia puntos de presión.",
+            "id": "adaptable",
+            "included": [
+              "Duo Confort",
+              "Serena"
+            ],
+            "name": "Adaptable (Viscoelástica)"
+          }
+        ],
+        "title": "Niveles de firmeza"
+      },
+      "hero": {
+        "headline": "Elegí bien, dormí mejor",
+        "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros."
+      },
+      "seo": {
+        "description": "Todo lo que tenés que saber para elegir el colchón correcto: medidas estándar paraguayas, niveles de firmeza, diferencias entre espuma y resorte, cuidado y duración.",
+        "title": "Guía de compra — Superspuma"
+      },
+      "sizeGuide": {
+        "items": [
+          {
+            "description": "80x140 cm — Para bebés y transición a cama",
+            "icon": "Baby",
+            "text": "Cuna"
+          },
+          {
+            "description": "80x190 ó 90x190 cm — Individual angosto",
+            "icon": "User",
+            "text": "1 plaza"
+          },
+          {
+            "description": "100x190 ó 120x190 cm — Individual cómodo",
+            "icon": "User",
+            "text": "1 plaza y media"
+          },
+          {
+            "description": "140x190 cm — Matrimonio justo",
+            "icon": "Users",
+            "text": "2 plazas (Semi-doble)"
+          },
+          {
+            "description": "160x200 cm — Matrimonio cómodo, nuestra talle más vendida",
+            "icon": "Users",
+            "text": "Queen"
+          },
+          {
+            "description": "180x200 cm — Espacio extra para niños y mascotas",
+            "icon": "Users",
+            "text": "King"
+          },
+          {
+            "description": "200x200 cm — Máximo espacio, requiere habitación amplia",
+            "icon": "Users",
+            "text": "Super King"
+          }
+        ],
+        "subtitle": "Todas las medidas son ancho × largo. Alto varía por modelo (15 a 40 cm).",
+        "title": "Medidas estándar en Paraguay"
+      }
     },
     "home": {
+      "contact": {
+        "address": "Ruta Ypané - Villeta y Arroyo Avay",
+        "city": "Central, Paraguay",
+        "email": "info@superspuma.com.py",
+        "googleMapsUrl": "https://maps.google.com/?q=Superspuma+Villeta+Paraguay",
+        "hours": {
+          "Domingo": "Cerrado",
+          "Lunes a Viernes": "07:30 - 17:00",
+          "Sábado": "07:30 - 12:00",
+          "Tiendas en shoppings": "Lun-Sáb 09:00-21:00 · Dom/feriados 11:00-21:00"
+        },
+        "neighborhood": "Villeta",
+        "phone": "+595 981 111 222",
+        "subtitle": "Escribinos y te respondemos en el día.",
+        "title": "Contacto",
+        "whatsapp": "+595974202025"
+      },
+      "enhancedFaq": {
+        "business": {
+          "name": "Superspuma",
+          "phone": "+595981111222",
+          "whatsapp": "+595974202025"
+        },
+        "items": [
+          {
+            "answer": "Fabricamos todas las medidas estándar paraguayas: 1 plaza (80x190 o 90x190), 1 plaza y media (100x190 o 120x190), 2 plazas (140x190), Queen (160x200), King (180x200) y Super King (200x200). También producimos medidas especiales a pedido, con un plazo de 5 a 10 días hábiles.",
+            "category": "Medidas",
+            "question": "¿Qué medidas de colchones fabrican?"
+          },
+          {
+            "answer": "Para pareja recomendamos mínimo Queen (160x200) para dormir cómodamente sin tocar al otro. Si hay niños o mascotas que suben a la cama, el King (180x200) es el salto más valioso. El Super King (200x200) solo tiene sentido si tenés habitación amplia — la medida es grande.",
+            "category": "Medidas",
+            "question": "¿Qué medida me conviene para matrimonio?"
+          },
+          {
+            "answer": "Regla general: cuanto más peso y/o más sos de dormir de espalda, más firme conviene. Personas menores de 70 kg pueden ir por firmeza media o suave. Entre 70-100 kg: media-firme. Más de 100 kg o problemas de columna: firme o extra firme (Ortopédico). Si dormís de costado, buscá algo que se adapte (Duo Confort viscoelástica).",
+            "category": "Firmeza",
+            "question": "¿Cómo elijo la firmeza correcta?"
+          },
+          {
+            "answer": "Resorte (Titanium, Imperial, Harmony, etc.): mayor soporte, mejor ventilación, sensación más tradicional, durabilidad alta. Espuma (Duo Confort, Ortopédico, Golden): más económico en opciones básicas o más tecnológico en viscoelástica, mejor adaptación al cuerpo. No hay uno 'mejor' — depende de tu preferencia y peso.",
+            "category": "Firmeza",
+            "question": "¿Resorte o espuma — cuál es mejor?"
+          },
+          {
+            "answer": "Depende del modelo: línea Esencial (Luna Soft, Pop Kids, Renovate) 2 años; línea Confort (Harmony, Serrat, Golden, Serena) 3 años; Premium (Titanium) 5 años; Ortopédico 6 años. La garantía cubre defectos de fábrica (hundimientos prematuros, fallas en resortes o costuras). Todos los colchones incluyen certificado de garantía.",
+            "category": "Garantía",
+            "question": "¿Cuánto dura la garantía?"
+          },
+          {
+            "answer": "No cubre: manchas, roturas por mal uso (saltar, cortes), exposición a humedad excesiva, uso con sommier inadecuado, ni 'hundimientos normales' menores a 2 cm después del primer año. Para mantener la garantía, rotá el colchón cada 3 meses el primer año.",
+            "category": "Garantía",
+            "question": "¿Qué no cubre la garantía?"
+          },
+          {
+            "answer": "Sí. En Asunción y área metropolitana (Central): 24-72 horas hábiles. En compras mayores a Gs. 1.000.000 el envío es gratuito. Interior del país: 3-7 días hábiles con costo según zona. Cotizamos el envío al confirmar el pedido por WhatsApp.",
+            "category": "Entrega",
+            "question": "¿Hacen envíos a todo el país?"
+          },
+          {
+            "answer": "Sí, retiramos tu colchón usado el mismo día de la entrega sin costo extra en compras de colchones nuevos. Solo avisanos al coordinar la entrega así la cuadrilla viene preparada.",
+            "category": "Entrega",
+            "question": "¿Se llevan mi colchón viejo?"
+          },
+          {
+            "answer": "Si el modelo que querés está fuera de stock, lo fabricamos en 3 a 5 días hábiles en nuestra planta de Villeta. Te confirmamos la fecha exacta al momento de tomar el pedido.",
+            "category": "Entrega",
+            "question": "¿Qué pasa si no está en stock?"
+          },
+          {
+            "answer": "Aceptamos hasta 18 cuotas sin interés con Visa, Mastercard, Credicard, Cabal y Pánal. También aceptamos transferencia, efectivo y tarjeta de débito. Las cuotas exactas (4, 6, 12, 15 ó 18) dependen de tu banco emisor.",
+            "category": "Pago",
+            "question": "¿En cuántas cuotas puedo pagar?"
+          },
+          {
+            "answer": "Sí. Al confirmar tu pedido por WhatsApp te enviamos los datos bancarios. Una vez recibida la transferencia coordinamos la entrega. Para transferencias se otorga un descuento adicional — consultá al vendedor.",
+            "category": "Pago",
+            "question": "¿Aceptan transferencia bancaria?"
+          },
+          {
+            "answer": "1) Rotalo cabeza-pie cada 3 meses el primer año, después cada 6 meses. 2) En modelos reversibles (Golden, Harmony), también giralo cara arriba/abajo. 3) Usá un protector impermeable desde el primer día. 4) Ventilá la habitación y dejá el colchón destapado unas horas por semana. 5) No lo mojes — la espuma tarda mucho en secarse por dentro.",
+            "category": "Cuidado",
+            "question": "¿Cómo cuido mi colchón para que dure más?"
+          },
+          {
+            "answer": "Un colchón de calidad debería durar entre 7 y 10 años. Señales claras de reemplazo: hundimiento visible en la zona de la cadera, sensación de resortes al apoyar, dolor al levantarte que no tenías antes, o más de 10 años de uso intensivo. Si dormís mal hace meses sin cambios en tu vida, puede ser el colchón.",
+            "category": "Cuidado",
+            "question": "¿Cada cuánto debo cambiar el colchón?"
+          },
+          {
+            "answer": "Tenemos 7 tiendas en Asunción y Central (Villamorra Shopping, Paseo La Galería, Fuente Shopping, Lillo, Fernando de la Mora, Luisito en Ñemby y el outlet Saldos Mariano en MRA) más 6 centros logísticos en el interior (Ciudad del Este, Encarnación, Caaguazú, Santa Rosa, Filadelfia y la Planta Industrial en Villeta). Consultá la página Tiendas para direcciones y horarios específicos.",
+            "category": "Tiendas",
+            "question": "¿Dónde están ubicadas sus tiendas?"
+          },
+          {
+            "answer": "¡Sí, y te lo recomendamos! En todas las tiendas tenemos modelos de exhibición de los más vendidos (Harmony, Titanium, Duo Confort, Ortopédico). Te invitamos a acostarte al menos 10 minutos — es la única manera de saber si la firmeza es la tuya.",
+            "category": "Tiendas",
+            "question": "¿Puedo probar el colchón en la tienda?"
+          },
+          {
+            "answer": "Sí. Nuestra línea de servicio técnico es 0981 111 222. Si tu colchón presenta un defecto dentro del período de garantía, coordinamos una visita, evaluamos y reparamos o reemplazamos según corresponda sin costo.",
+            "category": "Servicio",
+            "question": "¿Tienen servicio técnico?"
+          }
+        ],
+        "subtitle": "Todo lo que querés saber antes de elegir tu colchón. Si no encontrás tu respuesta, escribinos por WhatsApp.",
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Dormitorio con colchón premium y sommier",
+            "category": "Ambientes",
+            "src": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+          },
+          {
+            "alt": "Colchón con Euro Pillow Top en detalle",
+            "category": "Producto",
+            "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1200&q=80"
+          },
+          {
+            "alt": "Habitación principal con base de guardado",
+            "category": "Ambientes",
+            "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+          },
+          {
+            "alt": "Cama con almohadas Superspuma",
+            "category": "Ambientes",
+            "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
+          },
+          {
+            "alt": "Dormitorio matrimonial amplio",
+            "category": "Ambientes",
+            "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+          },
+          {
+            "alt": "Detalle de resortes y espuma del colchón",
+            "category": "Producto",
+            "src": "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1200&q=80"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Detalles de fabricación y ambientes con nuestros modelos. Las imágenes son referenciales — consultá colores y terminaciones reales en tienda.",
+        "title": "Colchones y dormitorios Superspuma"
+      },
       "hero": {
         "ctaPrimaryHref": "#catalogo",
-        "ctaPrimaryText": "Ver Colección",
-        "ctaSecondaryHref": "#contacto",
-        "ctaSecondaryText": "Solicitar Presupuesto",
-        "headline": "Colchones Superspuma",
-        "subheadline": "Calidad y confort desde 1976"
+        "ctaPrimaryText": "Ver colchones",
+        "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
+        "ctaSecondaryText": "Consultar por WhatsApp",
+        "headline": "Dormir mejor empieza por un Superspuma",
+        "subheadline": "Fábrica paraguaya de colchones y sommiers desde 1976. Envío a todo el país, garantía de fábrica y hasta 18 cuotas sin interés."
       },
-      "nosotros": {
-        "content": "Superspuma es una empresa paraguaya dedicada a la fabricación y comercialización de colchones y accesorios para el descanso desde 1976. Contamos con más de 45 años de experiencia en el mercado, ofreciendo productos de alta calidad que garantizan un sueño reparador y saludable.",
-        "title": "Nosotros"
+      "process": {
+        "eyebrow": "Cómo comprar",
+        "steps": [
+          {
+            "description": "Explorá los 19 modelos online o probalos en persona en cualquiera de nuestras 5 tiendas.",
+            "duration": "Cuando quieras",
+            "icon": "Search",
+            "number": 1,
+            "title": "Elegí tu colchón"
+          },
+          {
+            "description": "Escribinos por WhatsApp (+595 974 202 025) con el modelo y la medida. Te confirmamos stock, precio final y cuotas.",
+            "duration": "Respuesta en el día",
+            "icon": "MessageCircle",
+            "number": 2,
+            "title": "Consultá disponibilidad"
+          },
+          {
+            "description": "Zonas urbanas: envío en 24-72 hs. Si está fuera de stock, fabricamos en 3-5 días hábiles. Entrega e instalación incluidas.",
+            "duration": "1 a 5 días",
+            "icon": "Truck",
+            "number": 3,
+            "title": "Coordinamos la entrega"
+          },
+          {
+            "description": "Con tu certificado de garantía y el soporte de nuestro servicio técnico (0981 111 222) si algo no anda bien.",
+            "duration": "2 a 6 años de garantía",
+            "icon": "Moon",
+            "number": 4,
+            "title": "Disfrutá tu descanso"
+          }
+        ],
+        "subtitle": "Sin sorpresas. El mismo proceso hace 49 años.",
+        "title": "De la consulta a tu casa en 4 pasos"
       },
-      "product-catalog": {
+      "productCatalog": {
+        "categories": [
+          "Resorte",
+          "Espuma",
+          "Accesorios"
+        ],
         "orderButtonText": "Consultar por WhatsApp",
-        "orderMessageTemplate": "Hola! Estoy interesado en el producto: {{productName}}. Precio: ${{productPrice}}. Quisiera más información.",
-        "subtitle": "Colchones de espuma y resorte para el mejor descanso",
-        "title": "Nuestra Colección",
-        "whatsappPhone": "595981000000"
+        "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
+        "products": [
+          {
+            "category": "Resorte",
+            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+            "name": "Titanium",
+            "price": "Desde Gs. 1.800.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+            "name": "Imperial",
+            "price": "Desde Gs. 2.230.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
+            "name": "Harmony",
+            "price": "Desde Gs. 1.274.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
+            "name": "Serrat",
+            "price": "Desde Gs. 1.150.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
+            "name": "Delta Soft",
+            "price": "Desde Gs. 1.050.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
+            "name": "Essential Top",
+            "price": "Desde Gs. 890.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
+            "name": "Renovate",
+            "price": "Desde Gs. 780.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
+            "name": "Impulse Kids",
+            "price": "Desde Gs. 780.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
+            "name": "Impulse Teens",
+            "price": "Desde Gs. 890.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
+            "name": "Pop Kids",
+            "price": "Desde Gs. 649.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Pop reforzado para uso adulto — mayor capacidad.",
+            "name": "Pop Plus",
+            "price": "Desde Gs. 850.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
+            "name": "Pop Teen",
+            "price": "Desde Gs. 780.000"
+          },
+          {
+            "category": "Resorte",
+            "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
+            "name": "Superteen",
+            "price": "Desde Gs. 980.000"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
+            "name": "Ortopédico",
+            "price": "Desde Gs. 1.290.000"
+          },
+          {
+            "category": "Espuma",
+            "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
+            "name": "Duo Confort",
+            "price": "Desde Gs. 980.000"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma de alta densidad con buen confort y recuperación.",
+            "name": "Serena",
+            "price": "Desde Gs. 850.000"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
+            "name": "Golden",
+            "price": "Desde Gs. 696.000"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
+            "name": "Luna Soft",
+            "price": "Desde Gs. 500.000"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
+            "name": "Super Kids",
+            "price": "Desde Gs. 420.000"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
+            "name": "Base Box Baúl",
+            "price": "Desde Gs. 890.000"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
+            "name": "Protector Impermeable",
+            "price": "Desde Gs. 120.000"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
+            "name": "Cubre Colchón",
+            "price": "Desde Gs. 95.000"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
+            "name": "Almohada Superspuma",
+            "price": "Desde Gs. 65.000"
+          }
+        ],
+        "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Elegí el tuyo y consultá disponibilidad por WhatsApp.",
+        "title": "Nuestro catálogo",
+        "whatsappPhone": "595974202025"
+      },
+      "programsComparison": {
+        "eyebrow": "No sabés cuál elegir",
+        "subtitle": "Los cuatro modelos que cubren el 80% de las consultas. Si tu perfil no encaja acá, escribinos y te ayudamos a elegir.",
+        "tiers": [
+          {
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Luna%20Soft",
+            "ctaLabel": "Consultar Luna Soft",
+            "description": "Espuma media — la opción accesible para usos ocasionales o cuartos de invitados.",
+            "id": "luna-soft",
+            "included": [
+              "Espuma de densidad media",
+              "Firmeza suave",
+              "Soporta hasta 60 kg",
+              "2 años de garantía",
+              "Funda de poliéster"
+            ],
+            "name": "Luna Soft",
+            "price": "Gs. 500.000",
+            "priceNote": "Desde 1 plaza (80x190)"
+          },
+          {
+            "badge": "Más consultado",
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Harmony",
+            "ctaLabel": "Consultar Harmony",
+            "description": "El equilibrio ideal para matrimonio — soporte de resorte con superficie Euro-Top.",
+            "highlighted": true,
+            "id": "harmony",
+            "included": [
+              "Resortes con Euro-Top",
+              "Firmeza media",
+              "Soporta hasta 90 kg por lado",
+              "Tejido antiácaros",
+              "3 años de garantía",
+              "Hasta 18 cuotas sin interés"
+            ],
+            "name": "Harmony",
+            "price": "Gs. 1.274.000",
+            "priceNote": "Desde 2 plazas (140x190)"
+          },
+          {
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Duo%20Confort",
+            "ctaLabel": "Consultar Duo Confort",
+            "description": "Memory foam adaptable que se ajusta a tu cuerpo — alivio real de puntos de presión.",
+            "id": "duo-confort",
+            "included": [
+              "Espuma viscoelástica",
+              "Firmeza adaptable",
+              "Soporta hasta 110 kg por lado",
+              "Cara de algodón stretch",
+              "3 años de garantía",
+              "Ideal contra dolor de espalda"
+            ],
+            "name": "Duo Confort",
+            "price": "Gs. 980.000",
+            "priceNote": "Desde 2 plazas (140x190)"
+          },
+          {
+            "badge": "Premium",
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Titanium",
+            "ctaLabel": "Consultar Titanium",
+            "description": "Lo más alto de la línea de resorte. Euro Pillow Top y resortes reforzados.",
+            "id": "titanium",
+            "included": [
+              "Resortes Bonell reforzados",
+              "Euro Pillow Top de alta densidad",
+              "Firmeza firme",
+              "Soporta hasta 120 kg por lado",
+              "Tejido jacquard antiácaros",
+              "5 años de garantía",
+              "3 colores disponibles"
+            ],
+            "name": "Titanium",
+            "price": "Gs. 1.800.000",
+            "priceNote": "Desde 2 plazas (140x190)"
+          }
+        ],
+        "title": "Compará nuestros más vendidos"
       },
       "promo-cartagena": {
-        "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitas cargar tu factura de compra y tus datos para participar.",
+        "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitás cargar tu factura de compra y tus datos para participar.",
         "hero": {
           "ctaPrimaryHref": "#promo-form",
-          "ctaPrimaryText": "Participar Ahora",
+          "ctaPrimaryText": "Participar ahora",
           "headline": "Promo Cartagena 2026",
-          "subheadline": "Gana un viaje a Cartagena y 5 sommiers Harmony"
+          "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026."
         },
         "lead-form": {
           "fields": [
@@ -33821,35 +34821,432 @@ export const CONTENT: Record<string, JsonRecord> = {
                 "Imperial",
                 "Harmony",
                 "Duo Confort",
+                "Ortopédico",
                 "Luna Soft",
+                "Golden",
+                "Serena",
+                "Pop Kids",
                 "Otro"
               ],
-              "placeholder": "Selecciona el producto",
+              "placeholder": "Seleccioná el producto",
               "required": true,
               "type": "select"
             }
           ],
           "privacyHref": "/terminos-y-condiciones",
           "privacyLabel": "Al participar acepto los términos y condiciones",
-          "submitLabel": "Enviar Participación",
-          "subtitle": "Llena tus datos y los de tu factura para participar",
-          "title": "Formulario de Participación"
+          "submitLabel": "Enviar participación",
+          "subtitle": "Completá tus datos y los de tu factura para entrar al sorteo.",
+          "title": "Formulario de participación"
         },
         "subtitle": "Gana un viaje a Cartagena y 5 sommiers Harmony",
         "title": "Promo Cartagena 2026"
       },
+      "promoBanner": {
+        "items": [
+          {
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20cuotas%20en%20colchones%20Superspuma",
+            "ctaLabel": "Consultar cuotas",
+            "description": "Con tarjetas Visa, Mastercard, Credicard, Cabal y Pánal.",
+            "icon": "CreditCard",
+            "title": "Hasta 18 cuotas sin interés"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/tiendas",
+            "ctaLabel": "Ver tiendas",
+            "description": "Zonas: Asunción y Central. Coordinamos día y horario.",
+            "icon": "Truck",
+            "title": "Envío gratis en compras desde Gs. 1.000.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/promo-cartagena",
+            "ctaLabel": "Participar",
+            "description": "Promo activa 2026. Cargá tu factura y ganá.",
+            "icon": "Plane",
+            "title": "Participá por un viaje a Cartagena"
+          }
+        ]
+      },
       "seo": {
-        "description": "Descubre la mejor calidad en colchones y accesorios para dormir desde 1976. Envío a todo el país.",
-        "title": "Superspuma - Colchones y Sommiers Premium"
+        "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 19 modelos de espuma y resorte, 5 tiendas en Asunción y Central, envío a todo el país y hasta 18 cuotas sin interés.",
+        "title": "Superspuma - Colchones y Sommiers en Paraguay | Fábrica desde 1976"
+      },
+      "testimonials": {
+        "columns": 3,
+        "subtitle": "Historias reales de nuestra comunidad.",
+        "testimonials": [
+          {
+            "author": "Rosa M.",
+            "quote": "Hace 12 años compré un Imperial y todavía está impecable. Volví a Superspuma para el cuarto de mi hija porque no hay con qué darle.",
+            "rating": 5,
+            "role": "Asunción"
+          },
+          {
+            "author": "Carlos B.",
+            "quote": "Tengo problemas de columna y el Duo Confort me cambió la vida. El primer mes fue adaptación, pero después ya no me levanto con dolor.",
+            "rating": 5,
+            "role": "San Lorenzo"
+          },
+          {
+            "author": "Andrea y Lucas",
+            "quote": "Compramos un juego Titanium completo. La entrega llegó al otro día y lo armaron en casa. Excelente atención en la tienda del Shopping Villamorra.",
+            "rating": 5,
+            "role": "Luque"
+          },
+          {
+            "author": "Verónica C.",
+            "quote": "Para mis gemelos elegí los Pop Kids por los diseños. Livianos, fáciles de mover cuando limpio, y a los chicos les encantan.",
+            "rating": 5,
+            "role": "Fernando de la Mora"
+          },
+          {
+            "author": "Julio R.",
+            "quote": "Lo compré en 18 cuotas sin interés. Eso lo hace posible para familias como la nuestra — calidad real sin romper el presupuesto.",
+            "rating": 5,
+            "role": "Capiatá"
+          },
+          {
+            "author": "María L.",
+            "quote": "Mi mamá tiene 74 años y pesa poco. El Ortopédico le dio el soporte firme que necesitaba para levantarse sin ayuda. Una bendición.",
+            "rating": 5,
+            "role": "Asunción"
+          }
+        ],
+        "title": "Clientes que duermen mejor"
+      },
+      "trustBadges": {
+        "items": [
+          {
+            "description": "Desde 1976 en Villeta",
+            "icon": "Factory",
+            "text": "Fabricación paraguaya"
+          },
+          {
+            "description": "Gratis en compras desde Gs. 1.000.000",
+            "icon": "Truck",
+            "text": "Envío a todo el país"
+          },
+          {
+            "description": "Con todas las tarjetas",
+            "icon": "CreditCard",
+            "text": "Hasta 18 cuotas sin interés"
+          },
+          {
+            "description": "Certificado incluido (2 a 6 años)",
+            "icon": "ShieldCheck",
+            "text": "Garantía de fábrica"
+          },
+          {
+            "description": "Tiendas + centros logísticos",
+            "icon": "Store",
+            "text": "13 puntos en todo el país"
+          },
+          {
+            "description": "Línea 0981 111 222",
+            "icon": "Wrench",
+            "text": "Servicio técnico"
+          }
+        ],
+        "title": "Por qué elegir Superspuma"
+      },
+      "trustSignals": {
+        "eyebrow": "La marca de descanso paraguaya",
+        "items": [
+          {
+            "description": "Fundada el 24 de julio de 1976",
+            "icon": "Award",
+            "title": "Años en el mercado",
+            "value": "+49"
+          },
+          {
+            "description": "Equipo paraguayo en Villeta",
+            "icon": "Users",
+            "title": "Colaboradores",
+            "value": "+200"
+          },
+          {
+            "description": "13 de resorte + 6 de espuma",
+            "icon": "Package",
+            "title": "Modelos en catálogo",
+            "value": "19"
+          },
+          {
+            "description": "7 tiendas + 6 centros logísticos",
+            "icon": "MapPin",
+            "title": "Puntos en el país",
+            "value": "13"
+          }
+        ],
+        "subtitle": "Lideramos la innovación en descanso a nivel regional desde hace casi 50 años.",
+        "title": "Medio siglo fabricando confort"
       }
     },
     "navigation": {
       "businessName": "Superspuma",
-      "ctaHref": "#contacto",
-      "ctaText": "Contactanos"
+      "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20un%20colch%C3%B3n%20Superspuma",
+      "ctaText": "Consultar por WhatsApp",
+      "items": [
+        {
+          "href": "/s/es/superspuma",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/superspuma#catalogo",
+          "label": "Catálogo"
+        },
+        {
+          "href": "/s/es/superspuma/tiendas",
+          "label": "Tiendas"
+        },
+        {
+          "href": "/s/es/superspuma/guias",
+          "label": "Guía de compra"
+        },
+        {
+          "href": "/s/es/superspuma/garantia",
+          "label": "Garantía"
+        },
+        {
+          "href": "/s/es/superspuma/nosotros",
+          "label": "Nosotros"
+        },
+        {
+          "href": "/s/es/superspuma/promo-cartagena",
+          "label": "Promo Cartagena"
+        }
+      ]
+    },
+    "nosotros": {
+      "hero": {
+        "headline": "49 años haciendo dormir al Paraguay",
+        "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar."
+      },
+      "seo": {
+        "description": "Conocé la historia de Superspuma: casi 50 años fabricando colchones en Villeta, Paraguay.",
+        "title": "Nosotros — Superspuma, fábrica paraguaya desde 1976"
+      },
+      "story": {
+        "ctaHref": "/s/es/superspuma/tiendas",
+        "ctaLabel": "Conocé nuestras tiendas",
+        "paragraphs": [
+          "En 1976, una familia paraguaya apostó por fabricar colchones de calidad en un mercado dominado por la importación. Empezamos con un taller pequeño en Villeta con la convicción de que Paraguay podía competir en calidad con cualquier marca regional.",
+          "Casi cinco décadas después seguimos fabricando acá, sobre la Ruta Ypané y Arroyo Avay. Nuestra planta abastece las 5 tiendas propias y una red de revendedores oficiales en todo el país (Bristol, Electroban, Misionera, Artaza Hermanos, Universo, Inverfin, Big Center, ContiMarket, entre otros).",
+          "En estos años fabricamos más de un millón de colchones. Nuestros clientes nos vuelven a elegir para el cuarto de los hijos, para el traslado, para el abuelo. Eso es lo que nos mantiene — saber que cuando alguien piensa en descansar bien, piensa en Superspuma."
+        ],
+        "title": "Nuestra historia"
+      },
+      "values": {
+        "items": [
+          {
+            "description": "Producimos en Villeta, Paraguay. Esto nos da control total de la calidad y capacidad de responder rápido a pedidos especiales.",
+            "icon": "Factory",
+            "title": "Fabricación propia"
+          },
+          {
+            "description": "Cada colchón sale con su certificado de garantía. Tejidos antiácaros, resortes Bonell o de bolsillo y espumas de densidad controlada.",
+            "icon": "Award",
+            "title": "Calidad certificada"
+          },
+          {
+            "description": "No somos una multinacional. Somos una familia paraguaya que fabrica para otras familias paraguayas, con nombres y apellidos.",
+            "icon": "Heart",
+            "title": "Empresa familiar paraguaya"
+          },
+          {
+            "description": "Cuotas sin interés en todas las tarjetas. Descuentos por transferencia. Promociones por temporada. Descansar bien no debería ser un lujo.",
+            "icon": "HandCoins",
+            "title": "Precios pensados para acá"
+          }
+        ],
+        "title": "Lo que nos hace Superspuma"
+      }
+    },
+    "siteName": "Superspuma",
+    "tiendas": {
+      "hero": {
+        "headline": "Nuestras tiendas",
+        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 5 ubicaciones donde podés probar los modelos en persona."
+      },
+      "logistics": {
+        "subtitle": "Cobertura en todo el país. Retirá en cualquiera de nuestros puntos regionales o coordiná envío desde el más cercano a tu ciudad.",
+        "tiers": [
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Ciudad+del+Este",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Avda. Regimiento Mcal. López 1068, calle Bernardino Caballero.",
+            "id": "cde",
+            "included": [
+              "Centro logístico Alto Paraná",
+              "Teléfono: (0522) 433 11"
+            ],
+            "name": "Ciudad del Este"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Encarnaci%C3%B3n",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Ruta 6 Juan León Mallorquín Km. 3.",
+            "id": "encarnacion",
+            "included": [
+              "Centro logístico Itapúa",
+              "Teléfono: (071) 200 057"
+            ],
+            "name": "Encarnación"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Caaguaz%C3%BA",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Carlos Antonio López y Acosta Ñu.",
+            "id": "caaguazu",
+            "included": [
+              "Centro logístico Caaguazú",
+              "Teléfono: (0522) 433 11"
+            ],
+            "name": "Caaguazú"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Santa+Rosa+Paraguay",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Ruta Gral. Elizardo Aquino Km 327 #472.",
+            "id": "santa-rosa",
+            "included": [
+              "Centro logístico San Pedro"
+            ],
+            "name": "Santa Rosa"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Filadelfia+Chaco",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Calle Karaja 415C, Filadelfia.",
+            "id": "filadelfia",
+            "included": [
+              "Centro logístico Chaco",
+              "Teléfono: (0491) 433 586"
+            ],
+            "name": "Filadelfia (Chaco)"
+          },
+          {
+            "badge": "Fábrica",
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Villeta+Planta+Industrial",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Fracción Arroyo Avay y Ruta Ypane, Villeta - Central.",
+            "highlighted": true,
+            "id": "planta",
+            "included": [
+              "Fábrica y casa matriz",
+              "Teléfono: (021) 238 1033",
+              "Visitas industriales a coordinar"
+            ],
+            "name": "Planta Industrial Villeta"
+          }
+        ],
+        "title": "Centros logísticos en el interior"
+      },
+      "seo": {
+        "description": "Probá tu próximo colchón en cualquiera de nuestras 5 tiendas. Mariano Roque Alonso, Fernando de la Mora, Terminal, Shopping Villamorra y Paseo La Galería.",
+        "title": "Tiendas Superspuma — 5 sucursales en Asunción y Central"
+      },
+      "stores": {
+        "subtitle": "Red propia en todo el Paraguay. Horarios a Paraguay (GMT-3).",
+        "tiers": [
+          {
+            "badge": "Horario extendido",
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Villamorra+Shopping+Asunci%C3%B3n",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Villamorra Shopping, Planta Baja, Asunción. Tel: (021) 606 084.",
+            "highlighted": true,
+            "id": "villamorra",
+            "included": [
+              "Lunes a Sábado: 09:00 - 21:00",
+              "Domingo y feriados: 11:00 - 21:00",
+              "Estacionamiento del shopping",
+              "Modelos premium en exhibición"
+            ],
+            "name": "Villamorra Shopping"
+          },
+          {
+            "badge": "Horario extendido",
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Paseo+La+Galer%C3%ADa+Asunci%C3%B3n",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Avda. Aviadores del Chaco y calle Sta. Teresa, Asunción. Tel: (0985) 629 053.",
+            "id": "paseo-galeria",
+            "included": [
+              "Lunes a Jueves: 10:00 - 21:00",
+              "Viernes y Sábado: 10:00 - 22:00",
+              "Domingo y feriados: 10:00 - 21:00",
+              "Zona Aviadores del Chaco"
+            ],
+            "name": "Paseo La Galería"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fuente+Shopping+Asunci%C3%B3n",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Fuente Shopping, Salemma, 1er piso, Asunción. Tel: (0985) 629 094.",
+            "id": "fuente",
+            "included": [
+              "Lunes a Sábado: 09:00 - 21:00",
+              "Domingo y feriados: 10:00 - 21:00",
+              "Dentro de Supermercado Salemma"
+            ],
+            "name": "Fuente Shopping"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Lillo+2779+Asunci%C3%B3n",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Lillo 2779 entre Denis Roa y Coronel Cabrera, Asunción. Tel: (021) 601 702.",
+            "id": "lillo",
+            "included": [
+              "Lunes a Viernes: 08:00 - 17:30",
+              "Sábado: 08:00 - 12:00",
+              "Zona céntrica — cerca de Terminal",
+              "Showroom de resorte y espuma"
+            ],
+            "name": "Lillo (Asunción Centro)"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fernando+de+la+Mora+Capit%C3%A1n+Bado",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "R.I. 9 Capitán Bado 1158 y Las Residentas. Tel: (021) 501 036.",
+            "id": "fdlm",
+            "included": [
+              "Lunes a Viernes: 07:30 - 17:00",
+              "Sábado: 07:30 - 12:00",
+              "Domingo: Cerrado",
+              "Centro logístico — entrega inmediata"
+            ],
+            "name": "Fernando de la Mora"
+          },
+          {
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Luisito+%C3%91emby",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Avda. Manuel Ortiz Guerrero, Ñemby. Tel: (0985) 629 034.",
+            "id": "luisito",
+            "included": [
+              "Lunes a Viernes: 08:00 - 17:00",
+              "Sábado: 08:00 - 12:00"
+            ],
+            "name": "Luisito (Ñemby)"
+          },
+          {
+            "badge": "Outlet",
+            "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Saldos+Mariano+Roque+Alonso",
+            "ctaLabel": "Abrir en Google Maps",
+            "description": "Cañada del Carmen y Corrales, Mariano Roque Alonso. Tel: (021) 750 925.",
+            "id": "saldos-mariano",
+            "included": [
+              "Lunes a Viernes: 07:30 - 17:00",
+              "Sábado: 07:30 - 12:00",
+              "Productos con descuento especial",
+              "Últimas unidades y liquidaciones"
+            ],
+            "name": "Saldos Mariano (Outlet)"
+          }
+        ],
+        "title": "Tiendas y puntos de venta"
+      }
     },
     "whatsapp": {
-      "defaultMessage": "Hola, me interesa un colchón de Superspuma"
+      "defaultMessage": "Hola! Quiero consultar por un colchón Superspuma.",
+      "phoneNumber": "+595974202025"
     }
   },
 }
@@ -35857,7 +37254,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "booking-embed",
       "compliance-disclaimer-footer",
       "promo-banner",
-      "newsletter-signup"
+      "newsletter-signup",
+      "lead-form"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",
