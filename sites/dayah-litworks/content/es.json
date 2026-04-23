@@ -6,21 +6,57 @@
   },
   "siteName": "Dayah LitWorks",
   "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
-"faq": {
+  "faq": {
     "title": "Preguntas Frecuentes",
     "items": [
-      { "question": "¿Cuánto tarda una portada personalizada?", "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas." },
-      { "question": "¿Cuántas revisiones incluye?", "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra." },
-      { "question": "¿Cómo es el proceso de pago?", "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo." },
-      { "question": "¿En qué moneda cobran?", "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios." },
-      { "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?", "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas." },
-      { "question": "¿Qué es un mockup 3D?", "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing." },
-      { "question": "¿Qué pasa si cancelo el proyecto?", "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable." },
-      { "question": "¿Hacés rediseños de portadas existentes?", "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas." },
-      { "question": "¿Qué necesito enviar para empezar?", "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño." },
-      { "question": "¿En qué idioma diseñás?", "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro." },
-      { "question": "¿Puedo contratar urgente (48–72h)?", "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo." },
-      { "question": "¿Cómo se entregados los archivos finales?", "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entrega como imágenes renderizadas." }
+      {
+        "question": "¿Cuánto tarda una portada personalizada?",
+        "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas."
+      },
+      {
+        "question": "¿Cuántas revisiones incluye?",
+        "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra."
+      },
+      {
+        "question": "¿Cómo es el proceso de pago?",
+        "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo."
+      },
+      {
+        "question": "¿En qué moneda cobran?",
+        "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios."
+      },
+      {
+        "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?",
+        "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas."
+      },
+      {
+        "question": "¿Qué es un mockup 3D?",
+        "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing."
+      },
+      {
+        "question": "¿Qué pasa si cancelo el proyecto?",
+        "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable."
+      },
+      {
+        "question": "¿Hacés rediseños de portadas existentes?",
+        "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas."
+      },
+      {
+        "question": "¿Qué necesito enviar para empezar?",
+        "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño."
+      },
+      {
+        "question": "¿En qué idioma diseñás?",
+        "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro."
+      },
+      {
+        "question": "¿Puedo contratar urgente (48–72h)?",
+        "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo."
+      },
+      {
+        "question": "¿Cómo se entregados los archivos finales?",
+        "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entrega como imágenes renderizadas."
+      }
     ]
   },
   "faqPage": {
@@ -41,13 +77,34 @@
   "navigation": {
     "businessName": "Dayah LitWorks",
     "items": [
-      { "label": "Inicio", "href": "/s/es/dayah-litworks" },
-      { "label": "Servicios", "href": "/s/es/dayah-litworks/servicios" },
-      { "label": "Catálogo", "href": "/s/es/dayah-litworks/catalogo" },
-      { "label": "Portafolio", "href": "/s/es/dayah-litworks/portafolio" },
-      { "label": "Blog", "href": "/s/es/dayah-litworks/blog" },
-      { "label": "Sobre", "href": "/s/es/dayah-litworks/sobre" },
-      { "label": "Contacto", "href": "/s/es/dayah-litworks/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/s/es/dayah-litworks"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/dayah-litworks/servicios"
+      },
+      {
+        "label": "Catálogo",
+        "href": "/s/es/dayah-litworks/catalogo"
+      },
+      {
+        "label": "Portafolio",
+        "href": "/s/es/dayah-litworks/portafolio"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/es/dayah-litworks/blog"
+      },
+      {
+        "label": "Sobre",
+        "href": "/s/es/dayah-litworks/sobre"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/dayah-litworks/contacto"
+      }
     ],
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595986868241"
@@ -68,10 +125,26 @@
     "trustBadges": {
       "title": "¿Por qué elegirnos?",
       "badges": [
-        { "icon": "palette", "label": "Diseño profesional", "description": "Portadas que venden libros" },
-        { "icon": "globe", "label": "Clientes globales", "description": "Autores en USA, Europa y LATAM" },
-        { "icon": "dollar-sign", "label": "USD y guaraníes", "description": "Cobro en ambas monedas" },
-        { "icon": "zap", "label": "Entrega rápida", "description": "1–3 semanas según servicio" }
+        {
+          "icon": "palette",
+          "label": "Diseño profesional",
+          "description": "Portadas que venden libros"
+        },
+        {
+          "icon": "globe",
+          "label": "Clientes globales",
+          "description": "Autores en USA, Europa y LATAM"
+        },
+        {
+          "icon": "dollar-sign",
+          "label": "USD y guaraníes",
+          "description": "Cobro en ambas monedas"
+        },
+        {
+          "icon": "zap",
+          "label": "Entrega rápida",
+          "description": "1–3 semanas según servicio"
+        }
       ]
     },
     "services": {
@@ -223,49 +296,216 @@
     "products": {
       "title": "Catálogo Premade",
       "subtitle": "Diseños listos para usar — personalización incluida",
-      "categories": ["Todos", "Fantasía", "Romance", "Thriller", "Ciencia Ficción", "Terror"],
+      "categories": [
+        "Todos",
+        "Fantasía",
+        "Romance",
+        "Thriller",
+        "Ciencia Ficción",
+        "Terror"
+      ],
       "items": [
-        { "name": "Susurros del Bosque", "priceUSD": "$35", "pricePYG": "₲250.000", "description": "Portada premade — Fantasía/Romance", "category": "Fantasía", "imageUrl": "", "available": true, "format": "eBook", "includes": ["Portada eBook (JPG/PDF)", "Título PNG + Portadilla PNG", "2 banners de revelación", "2 mockups"], "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'" },
-        { "name": "Corazón de Cenizas", "priceUSD": "$35", "pricePYG": "₲250.000", "description": "Portada premade — Romance Oscuro", "category": "Romance", "imageUrl": "", "available": true, "format": "eBook", "includes": ["Portada eBook (JPG/PDF)", "Título PNG + Portadilla PNG", "2 banners de revelación", "2 mockups"], "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'" },
-        { "name": "El Último Código", "priceUSD": "$30", "pricePYG": "₲250.000", "description": "Portada premade — Thriller/Suspenso", "category": "Thriller", "imageUrl": "", "available": true, "format": "eBook", "includes": ["Portada eBook (JPG/PDF)", "Título PNG + Portadilla PNG", "2 banners de revelación", "2 mockups"], "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'" },
-        { "name": "Galaxia Interior", "priceUSD": "$35", "pricePYG": "₲250.000", "description": "Portada premade — Ciencia Ficción", "category": "Ciencia Ficción", "imageUrl": "", "available": true, "format": "eBook", "includes": ["Portada eBook (JPG/PDF)", "Título PNG + Portadilla PNG", "2 banners de revelación", "2 mockups"], "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'" },
-        { "name": "Sombras en el Espejo", "priceUSD": "$30", "pricePYG": "₲250.000", "description": "Portada premade — Terror/Horror", "category": "Terror", "imageUrl": "", "available": true, "format": "eBook", "includes": ["Portada eBook (JPG/PDF)", "Título PNG + Portadilla PNG", "2 banners de revelación", "2 mockups"], "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'" },
-        { "name": "Alas de Cristal", "priceUSD": "$35", "pricePYG": "₲250.000", "description": "Portada premade — Fantasía Juvenil", "category": "Fantasía", "imageUrl": "", "available": true, "format": "eBook", "includes": ["Portada eBook (JPG/PDF)", "Título PNG + Portadilla PNG", "2 banners de revelación", "2 mockups"], "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'" }
+        {
+          "name": "Susurros del Bosque",
+          "priceUSD": "$35",
+          "pricePYG": "₲250.000",
+          "description": "Portada premade — Fantasía/Romance",
+          "category": "Fantasía",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'"
+        },
+        {
+          "name": "Corazón de Cenizas",
+          "priceUSD": "$35",
+          "pricePYG": "₲250.000",
+          "description": "Portada premade — Romance Oscuro",
+          "category": "Romance",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'"
+        },
+        {
+          "name": "El Último Código",
+          "priceUSD": "$30",
+          "pricePYG": "₲250.000",
+          "description": "Portada premade — Thriller/Suspenso",
+          "category": "Thriller",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'"
+        },
+        {
+          "name": "Galaxia Interior",
+          "priceUSD": "$35",
+          "pricePYG": "₲250.000",
+          "description": "Portada premade — Ciencia Ficción",
+          "category": "Ciencia Ficción",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'"
+        },
+        {
+          "name": "Sombras en el Espejo",
+          "priceUSD": "$30",
+          "pricePYG": "₲250.000",
+          "description": "Portada premade — Terror/Horror",
+          "category": "Terror",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'"
+        },
+        {
+          "name": "Alas de Cristal",
+          "priceUSD": "$35",
+          "pricePYG": "₲250.000",
+          "description": "Portada premade — Fantasía Juvenil",
+          "category": "Fantasía",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'"
+        }
       ]
     },
     "process": {
       "title": "Nuestro Proceso",
       "subtitle": "Cómo transformamos tu manuscrito en una portada que vende",
       "steps": [
-        { "title": "Consulta inicial", "description": "Conocemos tu libro, tu público y tus referencias visuales", "duration": "Día 1" },
-        { "title": "Brief y referencias", "description": "Definimos estilo, mood y dirección creativa", "duration": "Días 1–2" },
-        { "title": "Propuestas de diseño", "description": "Te presentamos 2–3 opciones iniciales", "duration": "Días 3–5" },
-        { "title": "Revisiones", "description": "Ajustes hasta que quede perfecto", "duration": "Días 5–7" },
-        { "title": "Entrega final", "description": "Todos los archivos en alta resolución, listos para tu plataforma", "duration": "Día 7" }
+        {
+          "title": "Consulta inicial",
+          "description": "Conocemos tu libro, tu público y tus referencias visuales",
+          "duration": "Día 1"
+        },
+        {
+          "title": "Brief y referencias",
+          "description": "Definimos estilo, mood y dirección creativa",
+          "duration": "Días 1–2"
+        },
+        {
+          "title": "Propuestas de diseño",
+          "description": "Te presentamos 2–3 opciones iniciales",
+          "duration": "Días 3–5"
+        },
+        {
+          "title": "Revisiones",
+          "description": "Ajustes hasta que quede perfecto",
+          "duration": "Días 5–7"
+        },
+        {
+          "title": "Entrega final",
+          "description": "Todos los archivos en alta resolución, listos para tu plataforma",
+          "duration": "Día 7"
+        }
       ]
     },
     "faq": {
       "title": "Preguntas Frecuentes",
       "items": [
-        { "question": "¿Cuánto tarda una portada personalizada?", "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas." },
-        { "question": "¿Cuántas revisiones incluye?", "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra." },
-        { "question": "¿Cómo es el proceso de pago?", "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo." },
-        { "question": "¿En qué moneda cobran?", "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios." },
-        { "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?", "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas." },
-        { "question": "¿Qué es un mockup 3D?", "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing." },
-        { "question": "¿Qué pasa si cancelo el proyecto?", "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable." },
-        { "question": "¿Hacés rediseños de portadas existentes?", "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas." },
-        { "question": "¿Qué necesito enviar para empezar?", "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño." },
-        { "question": "¿En qué idioma diseñás?", "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro." },
-        { "question": "¿Puedo contratar urgente (48–72h)?", "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo." },
-        { "question": "¿Cómo se entregan los archivos finales?", "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entregan como imágenes renderizadas." }
+        {
+          "question": "¿Cuánto tarda una portada personalizada?",
+          "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas."
+        },
+        {
+          "question": "¿Cuántas revisiones incluye?",
+          "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra."
+        },
+        {
+          "question": "¿Cómo es el proceso de pago?",
+          "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo."
+        },
+        {
+          "question": "¿En qué moneda cobran?",
+          "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios."
+        },
+        {
+          "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?",
+          "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas."
+        },
+        {
+          "question": "¿Qué es un mockup 3D?",
+          "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing."
+        },
+        {
+          "question": "¿Qué pasa si cancelo el proyecto?",
+          "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable."
+        },
+        {
+          "question": "¿Hacés rediseños de portadas existentes?",
+          "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas."
+        },
+        {
+          "question": "¿Qué necesito enviar para empezar?",
+          "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño."
+        },
+        {
+          "question": "¿En qué idioma diseñás?",
+          "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro."
+        },
+        {
+          "question": "¿Puedo contratar urgente (48–72h)?",
+          "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo."
+        },
+        {
+          "question": "¿Cómo se entregan los archivos finales?",
+          "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entregan como imágenes renderizadas."
+        }
       ]
     },
     "testimonials": {
       "title": "Testimonios",
       "items": [
-        { "quote": "Mi portada quedó increíble! Dayah entendió perfectamente la esencia de mi libro.", "author": "María G.", "rating": 5 },
-        { "quote": "Profesional, creativa y super rápida. Mi portada premade fue amor a primera vista.", "author": "Carlos R.", "rating": 5 }
+        {
+          "quote": "Mi portada quedó increíble! Dayah entendió perfectamente la esencia de mi libro.",
+          "author": "María G.",
+          "rating": 5
+        },
+        {
+          "quote": "Profesional, creativa y super rápida. Mi portada premade fue amor a primera vista.",
+          "author": "Carlos R.",
+          "rating": 5
+        }
       ]
     },
     "contact": {
@@ -285,7 +525,14 @@
     },
     "title": "Portafolio",
     "subtitle": "Portadas que venden libros",
-    "filters": ["Todos", "Fantasía", "Romance", "Thriller", "Ciencia Ficción", "Terror"],
+    "filters": [
+      "Todos",
+      "Fantasía",
+      "Romance",
+      "Thriller",
+      "Ciencia Ficción",
+      "Terror"
+    ],
     "items": []
   },
   "blog": {
@@ -307,7 +554,28 @@
         "readTime": "5 min",
         "imageUrl": ""
       }
-    ]
+    ],
+    "placeholder": {
+      "title": "Blog en preparación",
+      "subtitle": "Pronto vas a encontrar acá tips de diseño, tendencias de portadas y recursos para autores indie. Mientras tanto suscribite al newsletter.",
+      "features": [
+        {
+          "title": "Newsletter",
+          "description": "Un email al mes con tips y ejemplos de portadas que venden.",
+          "href": "#newsletter"
+        },
+        {
+          "title": "Instagram @dayah.litworks",
+          "description": "Seguimiento de trabajos recientes + proceso.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "WhatsApp",
+          "description": "Preguntas directas, respuestas rápidas.",
+          "href": "https://wa.me/595986868241"
+        }
+      ]
+    }
   },
   "blogPost": {
     "como-elegir-portada-libro": {
@@ -341,10 +609,37 @@
   "quoteForm": {
     "title": "Contame sobre tu proyecto",
     "steps": [
-      { "id": "genre", "title": "¿De qué trata tu libro?", "fields": ["Género", "Título"] },
-      { "id": "service", "title": "¿Qué necesitás?", "fields": ["Tipo de servicio"] },
-      { "id": "details", "title": "Detalles", "fields": ["Plazo", "Presupuesto"] },
-      { "id": "contact", "title": "Tus datos", "fields": ["Nombre", "Email o WhatsApp"] }
+      {
+        "id": "genre",
+        "title": "¿De qué trata tu libro?",
+        "fields": [
+          "Género",
+          "Título"
+        ]
+      },
+      {
+        "id": "service",
+        "title": "¿Qué necesitás?",
+        "fields": [
+          "Tipo de servicio"
+        ]
+      },
+      {
+        "id": "details",
+        "title": "Detalles",
+        "fields": [
+          "Plazo",
+          "Presupuesto"
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Tus datos",
+        "fields": [
+          "Nombre",
+          "Email o WhatsApp"
+        ]
+      }
     ],
     "serviceOptions": [
       "Portada Personalizada — eBook ($45)",
@@ -376,10 +671,22 @@
       "location": "Asunción, Paraguay"
     },
     "highlights": [
-      { "label": "6+", "description": "Años de experiencia" },
-      { "label": "100+", "description": "Portadas diseñadas" },
-      { "label": "Global", "description": "Clientes en LATAM, USA y Europa" },
-      { "label": "Bilingüe", "description": "Español e inglés" }
+      {
+        "label": "6+",
+        "description": "Años de experiencia"
+      },
+      {
+        "label": "100+",
+        "description": "Portadas diseñadas"
+      },
+      {
+        "label": "Global",
+        "description": "Clientes en LATAM, USA y Europa"
+      },
+      {
+        "label": "Bilingüe",
+        "description": "Español e inglés"
+      }
     ]
   },
   "terminos": {
@@ -422,9 +729,18 @@
     "payment": {
       "title": "Métodos de pago",
       "methods": [
-        { "name": "Western Union", "description": "Para clientes internacionales" },
-        { "name": "Transferencia bancaria", "description": "Bancos de Paraguay" },
-        { "name": "Efectivo", "description": "Pago presencial en Asunción" }
+        {
+          "name": "Western Union",
+          "description": "Para clientes internacionales"
+        },
+        {
+          "name": "Transferencia bancaria",
+          "description": "Bancos de Paraguay"
+        },
+        {
+          "name": "Efectivo",
+          "description": "Pago presencial en Asunción"
+        }
       ],
       "note": "Se requiere anticipo del 50% para iniciar el proyecto. El saldo restante se abona al aprobar el diseño final."
     }
