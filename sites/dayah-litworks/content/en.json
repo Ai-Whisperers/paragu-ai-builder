@@ -580,52 +580,52 @@
       "title": "FAQ",
       "items": [
         {
-          "question": "How long does a custom cover take?",
-          "answer": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks."
+          "q": "How long does a custom cover take?",
+          "a": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks."
         },
         {
-          "question": "How many revisions are included?",
-          "answer": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost."
+          "q": "How many revisions are included?",
+          "a": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost."
         },
         {
-          "question": "What's the payment process?",
-          "answer": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash."
+          "q": "What's the payment process?",
+          "a": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash."
         },
         {
-          "question": "What currency do you charge in?",
-          "answer": "We charge in USD and guaraníes (₲). See our pricing table for both currencies."
+          "q": "What currency do you charge in?",
+          "a": "We charge in USD and guaraníes (₲). See our pricing table for both currencies."
         },
         {
-          "question": "Can I use the cover on Amazon KDP / Wattpad / publishers?",
-          "answer": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform."
+          "q": "Can I use the cover on Amazon KDP / Wattpad / publishers?",
+          "a": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform."
         },
         {
-          "question": "What is a 3D mockup?",
-          "answer": "A realistic 3D render of your book. Perfect for social media promotion and marketing."
+          "q": "What is a 3D mockup?",
+          "a": "A realistic 3D render of your book. Perfect for social media promotion and marketing."
         },
         {
-          "question": "What if I cancel the project?",
-          "answer": "If the client cancels after work has started, the advance payment is non-refundable."
+          "q": "What if I cancel the project?",
+          "a": "If the client cancels after work has started, the advance payment is non-refundable."
         },
         {
-          "question": "Do you redesign existing covers?",
-          "answer": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas."
+          "q": "Do you redesign existing covers?",
+          "a": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas."
         },
         {
-          "question": "What do I need to get started?",
-          "answer": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design."
+          "q": "What do I need to get started?",
+          "a": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design."
         },
         {
-          "question": "What language do you design in?",
-          "answer": "We design covers in Spanish and English. Typography adapts to your book's language."
+          "q": "What language do you design in?",
+          "a": "We design covers in Spanish and English. Typography adapts to your book's language."
         },
         {
-          "question": "Can I request rush delivery (48–72h)?",
-          "answer": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge."
+          "q": "Can I request rush delivery (48–72h)?",
+          "a": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge."
         },
         {
-          "question": "How are final files delivered?",
-          "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images."
+          "q": "How are final files delivered?",
+          "a": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images."
         }
       ]
     },
@@ -874,7 +874,28 @@
         "title": "Bilingual",
         "description": "Spanish and English"
       }
-    ]
+    ],
+    "highlightsBlock": {
+      "title": "Quick facts",
+      "features": [
+        {
+          "title": "6+",
+          "description": "Years of experience"
+        },
+        {
+          "title": "100+",
+          "description": "Covers designed"
+        },
+        {
+          "title": "Global",
+          "description": "Clients in LATAM, USA and Europe"
+        },
+        {
+          "title": "Bilingual",
+          "description": "Spanish and English"
+        }
+      ]
+    }
   },
   "terminos": {
     "seo": {
@@ -885,32 +906,32 @@
     "subtitle": "Payment of the quote implies acceptance of the following conditions",
     "sections": [
       {
-        "question": "1. References first",
-        "answer": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered."
+        "q": "1. References first",
+        "a": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered."
       },
       {
-        "question": "2. Business days",
-        "answer": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery."
+        "q": "2. Business days",
+        "a": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery."
       },
       {
-        "question": "3. Cancellation",
-        "answer": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable."
+        "q": "3. Cancellation",
+        "a": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable."
       },
       {
-        "question": "4. Review responsibility",
-        "answer": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand."
+        "q": "4. Review responsibility",
+        "a": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand."
       },
       {
-        "question": "5. Scope changes",
-        "answer": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget."
+        "q": "5. Scope changes",
+        "a": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget."
       },
       {
-        "question": "6. Design rights",
-        "answer": "Design rights remain with Dayah LitWorks until the client has made 100% payment."
+        "q": "6. Design rights",
+        "a": "Design rights remain with Dayah LitWorks until the client has made 100% payment."
       },
       {
-        "question": "7. Portfolio usage",
-        "answer": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website."
+        "q": "7. Portfolio usage",
+        "a": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website."
       }
     ],
     "payment": {
@@ -945,6 +966,39 @@
           "title": "Cash",
           "description": "In-person payment in Asunción",
           "icon": null
+        }
+      ]
+    },
+    "sectionsBlock": {
+      "title": "Service terms",
+      "items": [
+        {
+          "q": "1. References first",
+          "a": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered."
+        },
+        {
+          "q": "2. Business days",
+          "a": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery."
+        },
+        {
+          "q": "3. Cancellation",
+          "a": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable."
+        },
+        {
+          "q": "4. Review responsibility",
+          "a": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand."
+        },
+        {
+          "q": "5. Scope changes",
+          "a": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget."
+        },
+        {
+          "q": "6. Design rights",
+          "a": "Design rights remain with Dayah LitWorks until the client has made 100% payment."
+        },
+        {
+          "q": "7. Portfolio usage",
+          "a": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website."
         }
       ]
     }
