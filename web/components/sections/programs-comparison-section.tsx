@@ -67,7 +67,31 @@ export function ProgramsComparisonSection({
   featureColumnLabel,
   __locale,
 }: ProgramsComparisonSectionProps) {
-  if (tiers.length === 0) return null
+  // Matrix variant can still render if the content only supplied
+  // comparisonRows — we synthesize a single unnamed tier column so the
+  // rows show up instead of silently returning null. This class of bug
+  // cost us a full deploy cycle on the Superspuma /garantia page where
+  // warrantyByModel had rows but no tiers.
+  if (tiers.length === 0) {
+    if (variant === 'matrix' && comparisonRows && comparisonRows.length > 0) {
+      if (typeof console !== 'undefined') {
+        // eslint-disable-next-line no-console
+        console.warn(
+          '[programs-comparison] matrix variant received comparisonRows without tiers — synthesizing a single column. Fix the content to provide tiers[] for proper rendering.',
+        )
+      }
+      const rowCount = comparisonRows[0]?.values.length ?? 1
+      tiers = Array.from({ length: rowCount }).map((_, i) => ({
+        id: `col-${i}`,
+        name: '',
+        included: [],
+        ctaLabel: '',
+        ctaHref: '',
+      }))
+    } else {
+      return null
+    }
+  }
 
   const resolvedFeatureLabel =
     featureColumnLabel || FEATURE_COLUMN_LABELS[__locale ?? 'es'] || FEATURE_COLUMN_LABELS.es

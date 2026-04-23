@@ -32,6 +32,24 @@ export interface SiteDefinition {
     email?: string
     address?: string
   }
+  /**
+   * Structured physical location — fed into the LocalBusiness JSON-LD
+   * on every page so Google gets proper address + geo.
+   */
+  location?: {
+    address?: string
+    neighborhood?: string
+    city?: string
+    department?: string
+    country?: string
+    coordinates?: { lat: number; lng: number }
+    googleMapsId?: string | null
+  }
+  /**
+   * Opening-hours map like `{ "Lunes": "07:30 - 17:00", ... }`. Used
+   * by the LocalBusiness JSON-LD's `openingHoursSpecification`.
+   */
+  hours?: Record<string, string>
   social?: Record<string, string>
   bookingUrl?: string
 }
