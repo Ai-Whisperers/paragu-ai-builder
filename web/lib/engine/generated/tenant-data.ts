@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=234, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5137,6 +5137,8 @@ export const SITES: Record<string, JsonRecord> = {
       "privacidad",
       "promo-cartagena",
       "quiz",
+      "cambio",
+      "combos",
       "producto/titanium",
       "producto/imperial",
       "producto/harmony",
@@ -12991,6 +12993,110 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "terms",
     "titleKey": "legalTerms.seo.title"
+  },
+  "superspuma:cambio": {
+    "descriptionKey": "cambio.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "cambio.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "cambio.howItWorks",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "cambio.benefits",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "cambio.form",
+        "id": "lead-form",
+        "variant": "standard"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "cambio",
+    "titleKey": "cambio.seo.title"
+  },
+  "superspuma:combos": {
+    "descriptionKey": "bundles.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "bundles.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "bundles.combos",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "combos",
+    "titleKey": "bundles.seo.title"
   },
   "superspuma:envios": {
     "descriptionKey": "envios.seo.description",
@@ -36260,6 +36366,87 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "translationQuality": "human"
     },
+    "bundles": {
+      "combos": {
+        "eyebrow": "Combos sugeridos",
+        "subtitle": "Cada combo es una sugerencia. Al confirmar por WhatsApp podés sumar o quitar items, cambiar medidas y elegir plan de cuotas.",
+        "tiers": [
+          {
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Esencial%20(Harmony%20%2B%20base%20%2B%20almohadas%20%2B%20protector)",
+            "ctaLabel": "Consultar por combo Esencial",
+            "description": "Dormitorio completo nuevo sin romper el presupuesto.",
+            "id": "combo-esencial",
+            "included": [
+              "Colchón Harmony (160x200) — Gs. 1.480.000",
+              "Base Box Baúl (160x200) — Gs. 1.150.000",
+              "2 almohadas Superspuma",
+              "Protector impermeable",
+              "Descuento 10% sobre la suma",
+              "Hasta 18 cuotas sin interés"
+            ],
+            "name": "Combo Esencial",
+            "price": "Desde Gs. 1.800.000",
+            "priceNote": "Queen — con 10% de combo"
+          },
+          {
+            "badge": "Más pedido",
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Premium%20(Titanium%20%2B%20base%20%2B%20almohadas%20%2B%20protector%20%2B%20cubre)",
+            "ctaLabel": "Consultar combo Premium",
+            "description": "Lo mejor de la línea de resorte con accesorios incluidos.",
+            "highlighted": true,
+            "id": "combo-premium",
+            "included": [
+              "Colchón Titanium (180x200) — Gs. 2.700.000",
+              "Base Box Baúl (180x200) — Gs. 1.490.000",
+              "2 almohadas Superspuma",
+              "Protector impermeable",
+              "Cubre colchón acolchado",
+              "Descuento 10% sobre la suma",
+              "Hasta 18 cuotas sin interés"
+            ],
+            "name": "Combo Premium",
+            "price": "Desde Gs. 3.500.000",
+            "priceNote": "King — con 10% de combo"
+          },
+          {
+            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Ortop%C3%A9dico",
+            "ctaLabel": "Consultar combo Ortopédico",
+            "description": "Soporte máximo con protector y cubre para máxima durabilidad.",
+            "id": "combo-ortopedico",
+            "included": [
+              "Colchón Ortopédico (160x200) — Gs. 1.750.000",
+              "Base Box Baúl (160x200) — Gs. 1.150.000",
+              "2 almohadas Superspuma firmes",
+              "Protector impermeable",
+              "Descuento 10% sobre la suma",
+              "6 años de garantía en el colchón",
+              "Hasta 18 cuotas sin interés"
+            ],
+            "name": "Combo Ortopédico",
+            "price": "Desde Gs. 2.800.000",
+            "priceNote": "Queen — con 10% de combo"
+          }
+        ],
+        "title": "Tres combos más pedidos"
+      },
+      "hero": {
+        "ctaPrimaryHref": "#combos",
+        "ctaPrimaryText": "Ver combos sugeridos",
+        "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20armar%20un%20combo%20a%20medida%20(colch%C3%B3n%20%2B%20sommier%20%2B%20almohadas%20%2B%20protector)",
+        "ctaSecondaryText": "Armar a medida",
+        "headline": "Armá tu combo y ahorrá",
+        "subheadline": "Colchón + sommier + almohadas + protector = 10% de descuento sobre la suma. Configuralo por WhatsApp.",
+        "trustBadges": [
+          "10% combo",
+          "Entrega coordinada",
+          "18 cuotas sin interés"
+        ]
+      },
+      "seo": {
+        "description": "Combos de colchón + sommier + almohadas + protector con descuento. Configurá el tuyo por WhatsApp.",
+        "title": "Combos y bundles — Superspuma"
+      }
+    },
     "business": {
       "address": "Ruta Ypané - Villeta y Arroyo Avay, Villeta - Central",
       "city": "Villeta",
@@ -36273,6 +36460,197 @@ export const CONTENT: Record<string, JsonRecord> = {
       "name": "Superspuma",
       "phone": "+595981111222",
       "whatsapp": "+595974202025"
+    },
+    "cambio": {
+      "benefits": {
+        "items": [
+          {
+            "description": "No es descuento cosmético — sale del total.",
+            "icon": "check",
+            "text": "Crédito real sobre el nuevo"
+          },
+          {
+            "description": "Vienen, lo bajan, lo cargan. Nada para vos.",
+            "icon": "recycle",
+            "text": "Sin costo de retiro"
+          },
+          {
+            "description": "Nuestra cuadrilla dispone del colchón con gestión legal.",
+            "icon": "clock",
+            "text": "Disposición responsable"
+          },
+          {
+            "description": "19 modelos para elegir — desde Gs. 500.000.",
+            "icon": "star",
+            "text": "Un colchón mejor que el anterior"
+          }
+        ],
+        "title": "Por qué cambiarlo"
+      },
+      "form": {
+        "fields": [
+          {
+            "label": "Tu nombre",
+            "name": "nombre",
+            "placeholder": "Juan Pérez",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "label": "WhatsApp",
+            "name": "telefono",
+            "placeholder": "+595 981 000000",
+            "required": true,
+            "type": "tel"
+          },
+          {
+            "label": "Email (opcional)",
+            "name": "email",
+            "placeholder": "juan@email.com",
+            "required": false,
+            "type": "email"
+          },
+          {
+            "label": "Marca del colchón viejo",
+            "name": "marca_vieja",
+            "placeholder": "ej. Arcoiris, Cemapar, Tupãmba'e, Superspuma antiguo",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "label": "Medida",
+            "name": "medida_vieja",
+            "options": [
+              "1 plaza (80x190)",
+              "1 plaza y media (100x190 ó 120x190)",
+              "2 plazas (140x190)",
+              "Queen (160x200)",
+              "King (180x200)",
+              "Super King (200x200)",
+              "Otro / no sé"
+            ],
+            "placeholder": "Elegí la medida",
+            "required": true,
+            "type": "select"
+          },
+          {
+            "label": "Tipo",
+            "name": "tipo_viejo",
+            "options": [
+              "Resorte",
+              "Espuma",
+              "No sé / otro"
+            ],
+            "placeholder": "Resorte o espuma",
+            "required": true,
+            "type": "select"
+          },
+          {
+            "label": "Años de uso aproximados",
+            "name": "antiguedad",
+            "options": [
+              "Menos de 3 años",
+              "3 a 5 años",
+              "5 a 10 años",
+              "Más de 10 años"
+            ],
+            "placeholder": "¿Cuándo lo compraste?",
+            "required": true,
+            "type": "select"
+          },
+          {
+            "label": "Estado visual",
+            "name": "estado",
+            "options": [
+              "Como nuevo",
+              "Buen estado (sin manchas ni hundimientos)",
+              "Uso visible (hundimientos leves)",
+              "Desgastado (hundimientos, manchas, costuras abiertas)"
+            ],
+            "placeholder": "¿Cómo está?",
+            "required": true,
+            "type": "select"
+          },
+          {
+            "label": "¿Qué modelo Superspuma te interesa?",
+            "name": "modelo_nuevo",
+            "options": [
+              "Titanium",
+              "Imperial",
+              "Harmony",
+              "Duo Confort",
+              "Ortopédico",
+              "Luna Soft",
+              "Golden",
+              "Otro / me ayudan a elegir"
+            ],
+            "placeholder": "Opcional — podés consultar después",
+            "required": false,
+            "type": "select"
+          },
+          {
+            "label": "Algo que quieras aclarar",
+            "name": "mensaje",
+            "placeholder": "ej. Ubicación del colchón, horarios preferidos para la entrega, etc.",
+            "required": false,
+            "type": "textarea"
+          }
+        ],
+        "privacyHref": "/s/es/superspuma/privacidad",
+        "privacyLabel": "Al enviar acepto los términos de privacidad",
+        "submitLabel": "Cotizar mi cambio",
+        "subtitle": "Completá los datos y te contactamos con el crédito en el día. Los campos con foto no son obligatorios pero ayudan a cotizar con más precisión.",
+        "title": "Cotizá tu cambio"
+      },
+      "hero": {
+        "ctaPrimaryHref": "#trade-in-form",
+        "ctaPrimaryText": "Cotizar mi cambio",
+        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryText": "Ver modelos nuevos",
+        "headline": "Cambiá tu colchón viejo",
+        "subheadline": "Entregá tu colchón usado y llevate un Superspuma con crédito sobre el precio. Cotizamos tu caso en el día y el retiro no tiene costo extra.",
+        "trustBadges": [
+          "Cotización en el día",
+          "Retiro sin costo",
+          "Crédito sobre tu nuevo colchón"
+        ]
+      },
+      "howItWorks": {
+        "eyebrow": "Cómo funciona",
+        "steps": [
+          {
+            "description": "Completá el formulario con el modelo, medida, años de uso y una foto. Lleva menos de 2 minutos.",
+            "icon": "MessageCircle",
+            "number": 1,
+            "title": "Contanos del colchón viejo"
+          },
+          {
+            "description": "Un vendedor te contesta en el día con el monto de crédito que aplicamos sobre el colchón nuevo que elijas.",
+            "duration": "Respuesta en el día",
+            "icon": "Banknote",
+            "number": 2,
+            "title": "Te damos el crédito"
+          },
+          {
+            "description": "Con el crédito aplicado, elegís modelo + medida. Pagás el saldo en cuotas sin interés o transferencia con descuento.",
+            "icon": "Check",
+            "number": 3,
+            "title": "Elegís tu Superspuma"
+          },
+          {
+            "description": "El mismo día que llega el nuevo nos llevamos el viejo. Sin costo extra por el retiro. Sin coordinación aparte.",
+            "icon": "Recycle",
+            "number": 4,
+            "title": "Entregamos y retiramos"
+          }
+        ],
+        "subtitle": "Sin rollos. Nos mandás una foto por WhatsApp, te damos el crédito, y el día de la entrega nos llevamos el viejo.",
+        "title": "Cambiar tu colchón viejo en 4 pasos"
+      },
+      "seo": {
+        "description": "Entregá tu colchón viejo y llevate uno nuevo con crédito. Cotización rápida por WhatsApp, retiro sin costo al momento de la entrega.",
+        "title": "Cambio de colchón — Superspuma"
+      }
     },
     "envios": {
       "faq": {
@@ -37629,6 +38007,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/superspuma/quiz",
           "label": "¿Qué necesitás?"
+        },
+        {
+          "href": "/s/es/superspuma/combos",
+          "label": "Combos"
+        },
+        {
+          "href": "/s/es/superspuma/cambio",
+          "label": "Cambio"
         },
         {
           "href": "/s/es/superspuma/tiendas",
