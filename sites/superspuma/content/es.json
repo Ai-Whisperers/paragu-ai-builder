@@ -1832,6 +1832,137 @@
       ]
     }
   },
+  "cambio": {
+    "seo": {
+      "title": "Cambio de colchón — Superspuma",
+      "description": "Entregá tu colchón viejo y llevate uno nuevo con crédito. Cotización rápida por WhatsApp, retiro sin costo al momento de la entrega."
+    },
+    "hero": {
+      "headline": "Cambiá tu colchón viejo",
+      "subheadline": "Entregá tu colchón usado y llevate un Superspuma con crédito sobre el precio. Cotizamos tu caso en el día y el retiro no tiene costo extra.",
+      "ctaPrimaryText": "Cotizar mi cambio",
+      "ctaPrimaryHref": "#trade-in-form",
+      "ctaSecondaryText": "Ver modelos nuevos",
+      "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+      "trustBadges": ["Cotización en el día", "Retiro sin costo", "Crédito sobre tu nuevo colchón"]
+    },
+    "howItWorks": {
+      "eyebrow": "Cómo funciona",
+      "title": "Cambiar tu colchón viejo en 4 pasos",
+      "subtitle": "Sin rollos. Nos mandás una foto por WhatsApp, te damos el crédito, y el día de la entrega nos llevamos el viejo.",
+      "steps": [
+        { "number": 1, "title": "Contanos del colchón viejo", "description": "Completá el formulario con el modelo, medida, años de uso y una foto. Lleva menos de 2 minutos.", "icon": "MessageCircle" },
+        { "number": 2, "title": "Te damos el crédito", "description": "Un vendedor te contesta en el día con el monto de crédito que aplicamos sobre el colchón nuevo que elijas.", "icon": "Banknote", "duration": "Respuesta en el día" },
+        { "number": 3, "title": "Elegís tu Superspuma", "description": "Con el crédito aplicado, elegís modelo + medida. Pagás el saldo en cuotas sin interés o transferencia con descuento.", "icon": "Check" },
+        { "number": 4, "title": "Entregamos y retiramos", "description": "El mismo día que llega el nuevo nos llevamos el viejo. Sin costo extra por el retiro. Sin coordinación aparte.", "icon": "Recycle" }
+      ]
+    },
+    "benefits": {
+      "title": "Por qué cambiarlo",
+      "items": [
+        { "icon": "check", "text": "Crédito real sobre el nuevo", "description": "No es descuento cosmético — sale del total." },
+        { "icon": "recycle", "text": "Sin costo de retiro", "description": "Vienen, lo bajan, lo cargan. Nada para vos." },
+        { "icon": "clock", "text": "Disposición responsable", "description": "Nuestra cuadrilla dispone del colchón con gestión legal." },
+        { "icon": "star", "text": "Un colchón mejor que el anterior", "description": "19 modelos para elegir — desde Gs. 500.000." }
+      ]
+    },
+    "form": {
+      "title": "Cotizá tu cambio",
+      "subtitle": "Completá los datos y te contactamos con el crédito en el día. Los campos con foto no son obligatorios pero ayudan a cotizar con más precisión.",
+      "fields": [
+        { "name": "nombre", "label": "Tu nombre", "type": "text", "required": true, "placeholder": "Juan Pérez" },
+        { "name": "telefono", "label": "WhatsApp", "type": "tel", "required": true, "placeholder": "+595 981 000000" },
+        { "name": "email", "label": "Email (opcional)", "type": "email", "required": false, "placeholder": "juan@email.com" },
+        { "name": "marca_vieja", "label": "Marca del colchón viejo", "type": "text", "required": true, "placeholder": "ej. Arcoiris, Cemapar, Tupãmba'e, Superspuma antiguo" },
+        { "name": "medida_vieja", "label": "Medida", "type": "select", "required": true, "options": ["1 plaza (80x190)", "1 plaza y media (100x190 ó 120x190)", "2 plazas (140x190)", "Queen (160x200)", "King (180x200)", "Super King (200x200)", "Otro / no sé"], "placeholder": "Elegí la medida" },
+        { "name": "tipo_viejo", "label": "Tipo", "type": "select", "required": true, "options": ["Resorte", "Espuma", "No sé / otro"], "placeholder": "Resorte o espuma" },
+        { "name": "antiguedad", "label": "Años de uso aproximados", "type": "select", "required": true, "options": ["Menos de 3 años", "3 a 5 años", "5 a 10 años", "Más de 10 años"], "placeholder": "¿Cuándo lo compraste?" },
+        { "name": "estado", "label": "Estado visual", "type": "select", "required": true, "options": ["Como nuevo", "Buen estado (sin manchas ni hundimientos)", "Uso visible (hundimientos leves)", "Desgastado (hundimientos, manchas, costuras abiertas)"], "placeholder": "¿Cómo está?" },
+        { "name": "modelo_nuevo", "label": "¿Qué modelo Superspuma te interesa?", "type": "select", "required": false, "options": ["Titanium", "Imperial", "Harmony", "Duo Confort", "Ortopédico", "Luna Soft", "Golden", "Otro / me ayudan a elegir"], "placeholder": "Opcional — podés consultar después" },
+        { "name": "mensaje", "label": "Algo que quieras aclarar", "type": "textarea", "required": false, "placeholder": "ej. Ubicación del colchón, horarios preferidos para la entrega, etc." }
+      ],
+      "submitLabel": "Cotizar mi cambio",
+      "privacyLabel": "Al enviar acepto los términos de privacidad",
+      "privacyHref": "/s/es/superspuma/privacidad"
+    }
+  },
+  "bundles": {
+    "seo": {
+      "title": "Combos y bundles — Superspuma",
+      "description": "Combos de colchón + sommier + almohadas + protector con descuento. Configurá el tuyo por WhatsApp."
+    },
+    "hero": {
+      "headline": "Armá tu combo y ahorrá",
+      "subheadline": "Colchón + sommier + almohadas + protector = 10% de descuento sobre la suma. Configuralo por WhatsApp.",
+      "ctaPrimaryText": "Ver combos sugeridos",
+      "ctaPrimaryHref": "#combos",
+      "ctaSecondaryText": "Armar a medida",
+      "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20armar%20un%20combo%20a%20medida%20(colch%C3%B3n%20%2B%20sommier%20%2B%20almohadas%20%2B%20protector)",
+      "trustBadges": ["10% combo", "Entrega coordinada", "18 cuotas sin interés"]
+    },
+    "combos": {
+      "eyebrow": "Combos sugeridos",
+      "title": "Tres combos más pedidos",
+      "subtitle": "Cada combo es una sugerencia. Al confirmar por WhatsApp podés sumar o quitar items, cambiar medidas y elegir plan de cuotas.",
+      "tiers": [
+        {
+          "id": "combo-esencial",
+          "name": "Combo Esencial",
+          "description": "Dormitorio completo nuevo sin romper el presupuesto.",
+          "price": "Desde Gs. 1.800.000",
+          "priceNote": "Queen — con 10% de combo",
+          "included": [
+            "Colchón Harmony (160x200) — Gs. 1.480.000",
+            "Base Box Baúl (160x200) — Gs. 1.150.000",
+            "2 almohadas Superspuma",
+            "Protector impermeable",
+            "Descuento 10% sobre la suma",
+            "Hasta 18 cuotas sin interés"
+          ],
+          "ctaLabel": "Consultar por combo Esencial",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Esencial%20(Harmony%20%2B%20base%20%2B%20almohadas%20%2B%20protector)"
+        },
+        {
+          "id": "combo-premium",
+          "name": "Combo Premium",
+          "badge": "Más pedido",
+          "highlighted": true,
+          "description": "Lo mejor de la línea de resorte con accesorios incluidos.",
+          "price": "Desde Gs. 3.500.000",
+          "priceNote": "King — con 10% de combo",
+          "included": [
+            "Colchón Titanium (180x200) — Gs. 2.700.000",
+            "Base Box Baúl (180x200) — Gs. 1.490.000",
+            "2 almohadas Superspuma",
+            "Protector impermeable",
+            "Cubre colchón acolchado",
+            "Descuento 10% sobre la suma",
+            "Hasta 18 cuotas sin interés"
+          ],
+          "ctaLabel": "Consultar combo Premium",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Premium%20(Titanium%20%2B%20base%20%2B%20almohadas%20%2B%20protector%20%2B%20cubre)"
+        },
+        {
+          "id": "combo-ortopedico",
+          "name": "Combo Ortopédico",
+          "description": "Soporte máximo con protector y cubre para máxima durabilidad.",
+          "price": "Desde Gs. 2.800.000",
+          "priceNote": "Queen — con 10% de combo",
+          "included": [
+            "Colchón Ortopédico (160x200) — Gs. 1.750.000",
+            "Base Box Baúl (160x200) — Gs. 1.150.000",
+            "2 almohadas Superspuma firmes",
+            "Protector impermeable",
+            "Descuento 10% sobre la suma",
+            "6 años de garantía en el colchón",
+            "Hasta 18 cuotas sin interés"
+          ],
+          "ctaLabel": "Consultar combo Ortopédico",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Ortop%C3%A9dico"
+        }
+      ]
+    }
+  },
   "navigation": {
     "businessName": "Superspuma",
     "ctaText": "Consultar por WhatsApp",
@@ -1848,6 +1979,14 @@
       {
         "label": "¿Qué necesitás?",
         "href": "/s/es/superspuma/quiz"
+      },
+      {
+        "label": "Combos",
+        "href": "/s/es/superspuma/combos"
+      },
+      {
+        "label": "Cambio",
+        "href": "/s/es/superspuma/cambio"
       },
       {
         "label": "Tiendas",
