@@ -1,10 +1,87 @@
 {
   "title": "Superspuma",
-  "description": "Tienda de colchones premium en Asunción",
+  "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso desde 1976.",
   "theme": "superspuma",
-  "baseUrl": "https://superspuma.paraguai.com",
+  "vertical": "retail-local",
+  "businessType": "mattress_store",
+  "country": "Paraguay",
+  "domain": null,
+  "path": "/s/es/superspuma",
+  "publicUrl": "https://paragu-ai.com/s/es/superspuma",
   "defaultLocale": "es",
   "locales": ["es"],
-  "vertical": "retail-local",
-  "pages": ["home"]
+  "pages": ["home", "nosotros", "tiendas", "guias", "garantia", "promo-cartagena", "producto/titanium"],
+  "contact": {
+    "phone": "+595981111222",
+    "email": "info@superspuma.com.py",
+    "whatsapp": "+595974202025",
+    "instagram": "@superspumapy",
+    "facebook": "superspuma",
+    "linkedin": "superspuma-del-paraguay-saeca"
+  },
+  "location": {
+    "address": "Ruta Ypané - Villeta y Arroyo Avay",
+    "city": "Villeta",
+    "department": "Central",
+    "country": "Paraguay",
+    "coordinates": { "lat": -25.5073, "lng": -57.5808 },
+    "googleMapsId": null
+  },
+  "hours": {
+    "Lunes a Viernes": "07:30 - 17:00",
+    "Sábado": "07:30 - 12:00",
+    "Domingo": "Cerrado"
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion",
+    "delivery": {
+      "enabled": true,
+      "freeThresholdGs": 1000000,
+      "zones": ["Asunción", "Central", "Paraguarí", "Cordillera", "Interior"],
+      "national": true,
+      "pickupAvailable": true,
+      "pickupAddresses": [
+        "Villamorra Shopping (Asunción)",
+        "Paseo La Galería (Asunción)",
+        "Fuente Shopping (Asunción)",
+        "Lillo 2779 (Asunción Centro)",
+        "Fernando de la Mora",
+        "Luisito (Ñemby)",
+        "Saldos Mariano (Mariano Roque Alonso)",
+        "Planta Villeta",
+        "Ciudad del Este",
+        "Encarnación",
+        "Caaguazú",
+        "Santa Rosa",
+        "Filadelfia (Chaco)"
+      ]
+    },
+    "financing": {
+      "enabled": true,
+      "provider": "cuotas_sin_interes",
+      "installmentOptions": [4, 6, 12, 15, 18],
+      "acceptedCards": ["Visa", "Mastercard", "Credicard", "Cabal", "Pánal"]
+    },
+    "services": {
+      "assemblyIncluded": true,
+      "oldMattressPickup": true,
+      "warrantyIncluded": true,
+      "technicalSupport": true
+    }
+  },
+  "integrations": {
+    "analytics": "ga4",
+    "payments": {
+      "provider": "bancard",
+      "enabled": false,
+      "note": "Bancard vPOS 2.0 integration prepared; awaiting merchant credentials. Currently WhatsApp-first ordering.",
+      "merchantIdEnvVar": "BANCARD_PUBLIC_KEY_SUPERSPUMA",
+      "secretKeyEnvVar": "BANCARD_PRIVATE_KEY_SUPERSPUMA"
+    },
+    "messaging": {
+      "whatsappClickToChat": true
+    }
+  }
 }

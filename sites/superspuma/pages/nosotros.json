@@ -1,0 +1,16 @@
+{
+  "slug": "nosotros",
+  "titleKey": "nosotros.seo.title",
+  "descriptionKey": "nosotros.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "image", "content": "nosotros.hero" },
+    { "id": "trust-signals", "variant": "credentials", "content": "home.trustSignals" },
+    { "id": "trust-signals", "variant": "credentials", "content": "nosotros.values" },
+    { "id": "gallery", "variant": "grid", "content": "home.gallery" },
+    { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

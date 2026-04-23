@@ -1,8 +1,44 @@
 {
   "id": "superspuma",
   "nameEs": "Superspuma",
+  "nameEn": "Superspuma",
   "verticalId": "retail-local",
+  "subVertical": "home-furnishings",
+  "extends": "mattress_store",
   "tokens": "superspuma",
-  "sections": ["hero", "product-catalog", "product-detail", "nosotros", "contacto", "whatsapp-float", "footer"],
-  "features": { "payment": "bancard", "whatsapp": true }
+  "sections": [
+    "header",
+    "hero",
+    "trust-badges",
+    "product-catalog",
+    "programs-comparison",
+    "process-timeline",
+    "trust-signals",
+    "gallery",
+    "testimonials",
+    "enhanced-faq",
+    "promo-banner",
+    "contact",
+    "footer",
+    "whatsapp-float",
+    "lead-form"
+  ],
+  "features": {
+    "productCatalog": { "enabled": true, "whatsappOrder": true, "showPrices": true },
+    "gallery": { "enabled": true },
+    "businessHours": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+  "commerce": {
+    "enabled": false,
+    "launchPhase": "pre-commerce",
+    "provider": "bancard",
+    "currency": "PYG"
+  },
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "Superspuma - Colchones y Sommiers en Paraguay desde 1976",
+    "descriptionTemplate": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 5 tiendas en Asunción y Central. Envío a todo el país. Garantía de fábrica."
+  }
 }
