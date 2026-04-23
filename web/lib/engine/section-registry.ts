@@ -114,6 +114,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['default'],
     requiredContentFields: [],
   },
+  'mattress-quiz': {
+    id: 'mattress-quiz',
+    defaultVariant: 'default',
+    variants: ['default'],
+    requiredContentFields: ['steps', 'products'],
+  },
   gallery: {
     id: 'gallery',
     defaultVariant: 'grid',
