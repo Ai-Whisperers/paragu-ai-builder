@@ -155,7 +155,6 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
           __country: site.country,
           __availableLocales: site.locales,
           __currentPath: pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug,
-          __showVersion: process.env.NEXT_PUBLIC_SHOW_VERSION !== 'false',
         }
         const withCommerce = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
         const withBlog = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)

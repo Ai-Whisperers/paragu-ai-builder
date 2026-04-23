@@ -15,7 +15,6 @@ export interface FooterSectionProps {
   navLinks?: Array<{ label: string; href: string }>
   __siteSlug?: string
   __locale?: Locale
-  __showVersion?: boolean
 }
 
 const NEXA_GROUP: Array<{
@@ -68,12 +67,12 @@ export function FooterSection({
   navLinks = [],
   __siteSlug,
   __locale,
-  __showVersion = true,
 }: FooterSectionProps) {
   const year = new Date().getFullYear()
   const isNexa = __siteSlug?.startsWith('nexa-') || __siteSlug === 'nexaparaguay'
   const networkHeading = (__locale && NETWORK_LABEL[__locale]) || NETWORK_LABEL.en
   const labels = (__locale && FOOTER_LABELS[__locale]) || FOOTER_LABELS.en
+  const showVersion = process.env.NEXT_PUBLIC_SHOW_VERSION !== 'false'
 
   return (
     <footer 
@@ -268,7 +267,7 @@ export function FooterSection({
           }}
         >
           © {year} {businessName}. {labels.rights}
-          {__showVersion && (
+          {showVersion && (
             <span 
               className="ml-2 inline-block rounded px-1.5 py-0.5 text-xs font-mono"
               style={{ 
