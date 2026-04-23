@@ -1,14 +1,42 @@
 {
   "slug": "contacto",
-  "title": "Contacto - Dayah LitWorks",
-  "description": "Contáctanos para tu proyecto de portada de libro",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "minimal", "content": "contactHero" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "quote-form", "variant": "standard", "content": "quoteForm" },
-    { "id": "newsletter-signup", "variant": "standard", "content": "newsletter" },
-    { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
-  ]
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "contactHero"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "quote-form",
+      "variant": "standard",
+      "content": "quoteForm"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "newsletter"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ],
+  "titleKey": "contactHero.title",
+  "descriptionKey": "contactHero.subtitle"
 }
