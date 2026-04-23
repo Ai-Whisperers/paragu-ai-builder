@@ -497,7 +497,6 @@ export async function composePageForType(
     city: business.city,
     neighborhood: business.neighborhood || '',
     year: new Date().getFullYear(),
-    __locale: 'es',
   }
 
   const navItems = registry.nav.items.map((label) => ({

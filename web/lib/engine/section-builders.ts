@@ -474,7 +474,6 @@ const buildProcess: SectionBuilder = ({ content, templateData, registry }) => {
   return { 
     title: (raw as { title?: string }).title || 'Como Trabajamos', 
     steps: mapped,
-    __locale: templateData.__locale,
   }
 }
 
