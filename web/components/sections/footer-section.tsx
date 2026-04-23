@@ -68,7 +68,7 @@ export function FooterSection({
   navLinks = [],
   __siteSlug,
   __locale,
-  __showVersion = false,
+  __showVersion = true,
 }: FooterSectionProps) {
   const year = new Date().getFullYear()
   const isNexa = __siteSlug?.startsWith('nexa-') || __siteSlug === 'nexaparaguay'
