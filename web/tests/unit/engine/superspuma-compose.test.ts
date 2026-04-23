@@ -1,7 +1,18 @@
 import { describe, it, expect } from 'vitest'
 import { composeSitePage } from '@/lib/engine/compose-site'
 
-const PAGES = ['', 'nosotros', 'tiendas', 'guias', 'garantia', 'promo-cartagena'] as const
+const PAGES = [
+  '',
+  'nosotros',
+  'tiendas',
+  'guias',
+  'garantia',
+  'envios',
+  'financiacion',
+  'terminos',
+  'privacidad',
+  'promo-cartagena',
+] as const
 
 describe('superspuma composition', () => {
   for (const pageSlug of PAGES) {

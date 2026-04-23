@@ -421,7 +421,7 @@
         ],
         "submitLabel": "Enviar participación",
         "privacyLabel": "Al participar acepto los términos y condiciones",
-        "privacyHref": "/terminos-y-condiciones"
+        "privacyHref": "/s/es/superspuma/terminos"
       }
     }
   },
@@ -784,6 +784,307 @@
       ]
     }
   },
+  "envios": {
+    "seo": {
+      "title": "Envíos Superspuma — Cobertura y costos en todo Paraguay",
+      "description": "Envío gratis en Asunción y Central sobre compras de Gs. 1.000.000. Cobertura nacional con costo según zona. Retiro de colchón viejo sin cargo."
+    },
+    "hero": {
+      "headline": "Envíos a todo el Paraguay",
+      "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón."
+    },
+    "trustBadges": {
+      "title": "Lo que incluye tu envío",
+      "items": [
+        { "icon": "Truck", "text": "Envío gratis", "description": "En Asunción y Central desde Gs. 1.000.000" },
+        { "icon": "PackageOpen", "text": "Instalación sin costo", "description": "Armamos el sommier y ubicamos el colchón" },
+        { "icon": "Recycle", "text": "Retiro del colchón viejo", "description": "Nos lo llevamos el mismo día sin cargo extra" },
+        { "icon": "Clock", "text": "24 a 72 hs hábiles", "description": "En zona urbana con stock disponible" },
+        { "icon": "Factory", "text": "Fabricación 3-5 días", "description": "Si tu modelo está fuera de stock" },
+        { "icon": "ShieldCheck", "text": "Producto asegurado", "description": "Transporte y manipulación a nuestro cargo" }
+      ]
+    },
+    "zones": {
+      "title": "Cobertura por zona",
+      "subtitle": "Los costos exactos se confirman al coordinar el pedido por WhatsApp. Envío gratis aplica sobre compras desde Gs. 1.000.000.",
+      "tiers": [
+        {
+          "id": "asuncion",
+          "name": "Asunción",
+          "badge": "Envío gratis",
+          "highlighted": true,
+          "description": "Capital y gran Asunción.",
+          "price": "Gratis*",
+          "priceNote": "*Desde Gs. 1.000.000 · sino Gs. 50.000-80.000",
+          "included": [
+            "Plazo: 24-72 hs hábiles",
+            "Horarios: mañana o tarde a coordinar",
+            "Instalación incluida",
+            "Retiro de colchón viejo sin costo"
+          ],
+          "ctaLabel": "Consultar cobertura",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20env%C3%ADo%20a%20Asunci%C3%B3n"
+        },
+        {
+          "id": "central",
+          "name": "Departamento Central",
+          "badge": "Envío gratis",
+          "description": "Fernando de la Mora, San Lorenzo, Luque, Ñemby, Lambaré, Capiatá, Mariano Roque Alonso, Villeta y más.",
+          "price": "Gratis*",
+          "priceNote": "*Desde Gs. 1.000.000 · sino Gs. 80.000-120.000",
+          "included": [
+            "Plazo: 24-72 hs hábiles",
+            "Instalación incluida",
+            "Retiro de colchón viejo sin costo",
+            "Despacho desde cualquiera de nuestros 7 puntos en el área"
+          ],
+          "ctaLabel": "Consultar cobertura",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20env%C3%ADo%20al%20Departamento%20Central"
+        },
+        {
+          "id": "interior",
+          "name": "Interior (rutas principales)",
+          "description": "Paraguarí, Cordillera, Caaguazú, Alto Paraná, Itapúa, San Pedro, Guairá, Misiones.",
+          "price": "Desde Gs. 150.000",
+          "priceNote": "Según volumen y distancia · cotizamos al coordinar",
+          "included": [
+            "Plazo: 3-7 días hábiles",
+            "Despacho desde centros logísticos regionales cuando aplica",
+            "Retiro sin costo en CDE, Encarnación, Caaguazú, Santa Rosa",
+            "Envío a casa con costo adicional"
+          ],
+          "ctaLabel": "Cotizar mi zona",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20cotizar%20env%C3%ADo%20al%20interior"
+        },
+        {
+          "id": "chaco",
+          "name": "Chaco",
+          "description": "Filadelfia, Loma Plata, Neuland, Concepción.",
+          "price": "Desde Gs. 250.000",
+          "priceNote": "Consultar — según acceso y zona",
+          "included": [
+            "Plazo: 5-10 días hábiles",
+            "Centro logístico en Filadelfia (retiro disponible)",
+            "Consolidación semanal de cargas"
+          ],
+          "ctaLabel": "Consultar por Chaco",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20env%C3%ADo%20al%20Chaco"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "El proceso de envío, paso a paso",
+      "subtitle": "De la orden a tu dormitorio, sin sorpresas.",
+      "steps": [
+        { "number": 1, "title": "Confirmamos tu pedido", "description": "Por WhatsApp cerramos modelo, medida, color y forma de pago. Te enviamos el monto final incluyendo el envío según tu zona.", "icon": "MessageCircle", "duration": "El día de tu consulta" },
+        { "number": 2, "title": "Coordinamos fecha y hora", "description": "Ventanas de 3-4 horas (mañana o tarde). Si está en stock: 24-72 hs. Si se fabrica: sumamos 3-5 días hábiles.", "icon": "Calendar", "duration": "24-72 hs" },
+        { "number": 3, "title": "Entrega e instalación", "description": "Nuestra cuadrilla llega en el horario pactado, arma el sommier, ubica el colchón y te entrega el certificado de garantía.", "icon": "Truck", "duration": "30-60 min en casa" },
+        { "number": 4, "title": "Retiramos tu colchón viejo", "description": "Sin costo extra. Avisanos al coordinar así la cuadrilla viene preparada con los materiales de traslado.", "icon": "Recycle", "duration": "Mismo día" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre envíos",
+      "subtitle": "Lo que más nos consultan antes del despacho.",
+      "business": {
+        "name": "Superspuma",
+        "whatsapp": "+595974202025",
+        "phone": "+595981111222"
+      },
+      "items": [
+        { "category": "Tiempos", "question": "¿En cuánto tiempo me llega si compro hoy?", "answer": "Si el modelo está en stock y vivís en Asunción o Central, entre 24 y 72 horas hábiles desde que confirmás la compra. Si se fabrica a pedido, sumamos 3-5 días hábiles. Al interior: 3-7 días hábiles según zona." },
+        { "category": "Costos", "question": "¿Cuándo el envío es gratis?", "answer": "En Asunción y Departamento Central, sobre compras desde Gs. 1.000.000. Por debajo de ese monto, el costo va de Gs. 50.000 a Gs. 120.000 según localidad. Interior y Chaco tienen costo siempre, que cotizamos al coordinar." },
+        { "category": "Retiro viejo", "question": "¿Retiran mi colchón usado?", "answer": "Sí, sin costo extra en cualquier compra de colchón nuevo. El mismo día que te llevamos el nuevo nos llevamos el viejo. Avisanos al coordinar — la cuadrilla viene con fundas específicas para el traslado." },
+        { "category": "Instalación", "question": "¿Necesito estar en casa?", "answer": "Sí, alguien mayor de edad debe estar para recibir y firmar. Si no podés estar vos, coordiná con familiar o portero y dejanos el nombre y cédula del receptor al hacer el pedido." },
+        { "category": "Piso alto", "question": "¿Suben a departamentos sin ascensor?", "answer": "Sí, subimos hasta el 3er piso por escalera sin costo. A partir del 4º piso sin ascensor consultá al coordinar — puede aplicar un adicional." },
+        { "category": "Chaco", "question": "¿Llegan a la región Occidental / Chaco?", "answer": "Sí. Tenemos centro logístico en Filadelfia y hacemos consolidación semanal de cargas. Para Loma Plata, Neuland y zonas alejadas, el plazo es 5-10 días hábiles y el costo se cotiza según volumen y distancia." }
+      ]
+    }
+  },
+  "financiacion": {
+    "seo": {
+      "title": "Financiación Superspuma — Hasta 18 cuotas sin interés",
+      "description": "Tarjetas de crédito en 4, 6, 12, 15 ó 18 cuotas sin interés. Descuento por transferencia. Todos los métodos de pago disponibles."
+    },
+    "hero": {
+      "headline": "Pagá tu colchón como te convenga",
+      "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione."
+    },
+    "trustBadges": {
+      "title": "Lo que ofrecemos",
+      "items": [
+        { "icon": "CreditCard", "text": "Hasta 18 cuotas", "description": "Sin interés con tarjetas bancarias" },
+        { "icon": "Percent", "text": "Descuento transferencia", "description": "Consultá el % adicional" },
+        { "icon": "Banknote", "text": "Efectivo y débito", "description": "Todas las formas de pago" },
+        { "icon": "Shield", "text": "Pago seguro", "description": "Bancard o transferencia directa" },
+        { "icon": "Zap", "text": "Aprobación inmediata", "description": "Con tarjeta de crédito" }
+      ]
+    },
+    "options": {
+      "eyebrow": "Opciones de pago",
+      "title": "Elegí cómo querés pagar",
+      "subtitle": "3 caminos según lo que más te convenga. Todos los métodos tienen el mismo precio base del colchón.",
+      "tiers": [
+        {
+          "id": "transferencia",
+          "name": "Transferencia bancaria",
+          "badge": "Mejor precio",
+          "description": "Pago directo a nuestra cuenta. Te aplicamos un descuento adicional sobre el precio de lista.",
+          "price": "Descuento aplicado",
+          "priceNote": "Consultá el % por WhatsApp",
+          "included": [
+            "Descuento sobre precio de lista",
+            "Pago 100% desde home banking",
+            "Confirmación inmediata",
+            "Al confirmar el pago coordinamos la entrega",
+            "Aceptamos todos los bancos del Paraguay"
+          ],
+          "excluded": [
+            "Sin opción de cuotas (pago único)"
+          ],
+          "ctaLabel": "Consultar transferencia",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20comprar%20con%20transferencia%20y%20consultar%20el%20descuento"
+        },
+        {
+          "id": "tarjeta",
+          "name": "Tarjeta de crédito",
+          "badge": "Más usada",
+          "highlighted": true,
+          "description": "Cuotas sin interés con las principales tarjetas del mercado paraguayo.",
+          "price": "4 a 18 cuotas",
+          "priceNote": "Sin interés · según banco emisor",
+          "included": [
+            "4, 6, 12, 15 ó 18 cuotas sin interés",
+            "Visa, Mastercard, Credicard, Cabal, Pánal",
+            "Procesamiento seguro vía Bancard",
+            "Aprobación inmediata en línea",
+            "Ejemplo: Gs. 1.500.000 = 18 cuotas de Gs. 83.333"
+          ],
+          "ctaLabel": "Consultar cuotas",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20sobre%20pago%20en%20cuotas%20con%20tarjeta"
+        },
+        {
+          "id": "efectivo-debito",
+          "name": "Efectivo o débito en tienda",
+          "description": "Si querés pagar al momento de retirar o en la cuadrilla al recibir.",
+          "price": "Precio de lista",
+          "priceNote": "Sin recargos ni descuentos",
+          "included": [
+            "Efectivo en Gs. (moneda local)",
+            "Tarjeta de débito (todas)",
+            "En cualquiera de nuestras 7 tiendas",
+            "Contra entrega en Asunción y Central (consultar)"
+          ],
+          "excluded": [
+            "Contra entrega en interior",
+            "Sin cuotas ni descuentos adicionales"
+          ],
+          "ctaLabel": "Consultar",
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20pagar%20en%20efectivo%20o%20d%C3%A9bito"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Cómo comprar en cuotas",
+      "title": "3 pasos para tu pago en cuotas",
+      "steps": [
+        { "number": 1, "title": "Elegí modelo y medida", "description": "Por WhatsApp o en tienda, te pasamos el monto final y confirmamos stock.", "icon": "Search" },
+        { "number": 2, "title": "Elegí tu plan de cuotas", "description": "Te mostramos los planes disponibles según tu tarjeta (4, 6, 12, 15 ó 18). El monto total se mantiene — no hay interés.", "icon": "CreditCard" },
+        { "number": 3, "title": "Pagás y recibís el colchón", "description": "Pasás tu tarjeta en tienda o te enviamos link de pago seguro Bancard. Al confirmar el pago coordinamos la entrega.", "icon": "CheckCircle" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre financiación",
+      "subtitle": "Todo sobre cuotas, tarjetas y descuentos.",
+      "business": {
+        "name": "Superspuma",
+        "whatsapp": "+595974202025",
+        "phone": "+595981111222"
+      },
+      "items": [
+        { "category": "Cuotas", "question": "¿Cuántas cuotas exactas me ofrecen?", "answer": "Las opciones son 4, 6, 12, 15 ó 18 cuotas sin interés. El máximo exacto que podés tomar depende del banco emisor de tu tarjeta — algunas llegan hasta 18, otras solo hasta 12. Al confirmar la compra te decimos las opciones reales de tu tarjeta." },
+        { "category": "Cuotas", "question": "¿Qué tarjetas aceptan?", "answer": "Todas las tarjetas bancarias emitidas en Paraguay: Visa, Mastercard, Credicard, Cabal y Pánal. No aceptamos tarjetas emitidas fuera del Paraguay en modalidad cuotas (sí podemos procesar como pago único)." },
+        { "category": "Cuotas", "question": "¿Hay interés o recargo en las cuotas?", "answer": "No. Todas las cuotas son SIN interés con las tarjetas listadas. El monto total que vas a pagar es exactamente el mismo que el precio del colchón, dividido en cuotas iguales." },
+        { "category": "Transferencia", "question": "¿Cuál es el descuento por transferencia?", "answer": "Varía según temporada y modelo. Consultá al vendedor al confirmar la compra — el descuento se aplica sobre precio de lista, no sobre precios ya en promoción. No es acumulable con cuotas." },
+        { "category": "Transferencia", "question": "¿A qué banco y cuenta transfiero?", "answer": "Te pasamos los datos bancarios al confirmar el pedido por WhatsApp. Trabajamos con cuentas en los principales bancos del país para que puedas transferir desde el tuyo sin costo." },
+        { "category": "Transferencia", "question": "¿Cuánto tarda en acreditar la transferencia?", "answer": "Entre bancos del mismo grupo: minutos. Entre bancos diferentes vía SPI: hasta 2 horas hábiles. Una vez que vemos el crédito coordinamos la entrega inmediatamente." },
+        { "category": "General", "question": "¿Aceptan pesos argentinos o reales brasileros?", "answer": "Solo aceptamos guaraníes (PYG). Si venís del exterior, consultá — podemos orientar sobre tipo de cambio y bancos que conviene usar para enviar fondos." },
+        { "category": "General", "question": "¿El sommier y accesorios también se pueden pagar en cuotas?", "answer": "Sí. Todos nuestros productos (colchones, sommiers, almohadas, protectores, base baúl) entran en el mismo plan de cuotas sin interés hasta 18 cuotas según tarjeta. El mínimo de compra para plan largo (15/18 cuotas) depende del banco emisor." }
+      ]
+    }
+  },
+  "terminos": {
+    "seo": {
+      "title": "Términos y condiciones — Superspuma",
+      "description": "Condiciones de uso del sitio web y de las compras realizadas a Superspuma del Paraguay S.A.E.C.A."
+    },
+    "hero": {
+      "headline": "Términos y condiciones",
+      "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026."
+    },
+    "terms": {
+      "title": "Términos y condiciones de uso y compra",
+      "subtitle": "Leé con atención. Si tenés dudas escribinos por WhatsApp antes de completar tu compra.",
+      "business": {
+        "name": "Superspuma",
+        "whatsapp": "+595974202025",
+        "phone": "+595981111222"
+      },
+      "items": [
+        { "category": "1. Identidad", "question": "¿Quién es Superspuma?", "answer": "Superspuma del Paraguay S.A.E.C.A. — empresa paraguaya fundada el 24 de julio de 1976. RUC: 30-70136627-8. Domicilio: Ruta Ypané y Arroyo Avay, Villeta, Departamento Central, Paraguay. Email: info@superspuma.com.py · WhatsApp: +595 974 202 025 · Teléfono: +595 981 111 222." },
+        { "category": "2. Aceptación", "question": "¿Qué implica usar este sitio?", "answer": "El uso de este sitio web o la realización de una compra implica la aceptación plena de estos términos y condiciones. Si no estás de acuerdo con alguno, por favor no utilices el sitio ni realices compras." },
+        { "category": "3. Precios", "question": "¿Los precios publicados son finales?", "answer": "Los precios están expresados en guaraníes (Gs.) e incluyen IVA. Pueden variar sin previo aviso. El precio aplicable es el vigente al momento de confirmar tu pedido por WhatsApp, tienda o canal oficial. Los precios marcados como 'desde' corresponden a la medida más pequeña disponible del modelo." },
+        { "category": "4. Disponibilidad", "question": "¿Qué pasa si el producto no está en stock?", "answer": "Indicamos disponibilidad al confirmar el pedido. Si un modelo no está en stock, lo fabricamos a pedido con un plazo de 3 a 5 días hábiles adicionales. Nos reservamos el derecho de cancelar pedidos en casos excepcionales de error de precio o indisponibilidad prolongada, reembolsando cualquier pago recibido." },
+        { "category": "5. Pagos", "question": "¿Cómo se pagan los productos?", "answer": "Aceptamos: tarjetas de crédito (Visa, Mastercard, Credicard, Cabal, Pánal) en cuotas sin interés de 4, 6, 12, 15 ó 18 según banco emisor; tarjeta de débito; transferencia bancaria (con descuento adicional); efectivo en tienda. Los pagos con tarjeta son procesados por Bancard S.A." },
+        { "category": "6. Envíos", "question": "¿Cuál es el costo y plazo de envío?", "answer": "Asunción y Central: 24-72 hs hábiles, gratis desde Gs. 1.000.000. Interior: 3-7 días hábiles con costo según zona. Chaco: 5-10 días hábiles. Al comprar recibís un plazo estimado que no constituye compromiso contractual exacto — pueden existir variaciones por disponibilidad o clima." },
+        { "category": "7. Garantía", "question": "¿Qué cubre la garantía?", "answer": "Todos los colchones incluyen certificado de garantía de 2 a 6 años según modelo. La garantía cubre defectos de fábrica y no cubre manchas, roturas por mal uso, humedad interior ni uso con sommier inadecuado. Para activarla: presentar factura + certificado. Ver página Garantía para cobertura detallada." },
+        { "category": "8. Devoluciones", "question": "¿Puedo devolver o cambiar un colchón?", "answer": "Por normativa sanitaria no aceptamos devoluciones de colchones usados, excepto por defecto de fábrica cubierto por garantía. Cambios por talle o modelo son posibles solo con el embalaje original sin abrir, dentro de los 7 días corridos desde la entrega. Costos de transporte del cambio corren por cuenta del cliente excepto cuando el cambio es por error nuestro." },
+        { "category": "9. Retiro del viejo", "question": "¿Se llevan mi colchón viejo?", "answer": "Sí, sin costo adicional, el mismo día de la entrega del nuevo. El colchón retirado se dispone conforme a nuestro programa de gestión responsable de residuos. No retiramos colchones con presencia de fluidos, agentes biológicos de riesgo, o en estado que implique riesgo sanitario para nuestros operarios." },
+        { "category": "10. Datos personales", "question": "¿Cómo usan mis datos?", "answer": "Los datos personales que nos entregás (nombre, teléfono, dirección, email) se usan exclusivamente para procesar tu compra, coordinar la entrega y contactos post-venta asociados a la garantía. Ver nuestra Política de Privacidad para detalles. Cumplimos con la Ley N° 6534/20 de Protección de Datos Personales y demás normativa paraguaya aplicable." },
+        { "category": "11. Promociones", "question": "¿Las promociones son acumulables?", "answer": "Las promociones (descuentos, cuotas, retiros de viejo) no son acumulables entre sí salvo indicación expresa. Cada promoción tiene su propia vigencia, condiciones y stock limitado. Nos reservamos el derecho de finalizar una promoción anticipadamente." },
+        { "category": "12. Propiedad intelectual", "question": "¿Puedo usar las imágenes o textos del sitio?", "answer": "Las marcas 'Superspuma', los nombres de modelos (Titanium, Imperial, Harmony, etc.), imágenes y textos son propiedad de Superspuma del Paraguay S.A.E.C.A. No está permitido reproducirlos con fines comerciales sin autorización escrita. Para uso editorial o periodístico escribinos a info@superspuma.com.py." },
+        { "category": "13. Responsabilidad", "question": "¿Cuál es el alcance de su responsabilidad?", "answer": "Superspuma responde por la calidad del producto dentro de los plazos de garantía. No respondemos por daños indirectos derivados del uso del colchón (pérdida de sueño, condiciones médicas preexistentes, daños a otros bienes). Ante falla cubierta por garantía, reparamos o reemplazamos sin costo al cliente." },
+        { "category": "14. Modificaciones", "question": "¿Pueden cambiar estos términos?", "answer": "Sí. Podemos actualizar estos términos en cualquier momento publicando la nueva versión en esta página. Los cambios aplican a compras realizadas posterior a la actualización. Recomendamos revisar periódicamente." },
+        { "category": "15. Jurisdicción", "question": "¿Qué ley rige y dónde se resuelven conflictos?", "answer": "Estos términos se rigen por las leyes de la República del Paraguay. Cualquier controversia será resuelta por los tribunales ordinarios con competencia en la ciudad de Asunción, renunciando a cualquier otro fuero que pudiera corresponder." },
+        { "category": "16. Contacto", "question": "¿Cómo los contacto ante una disputa?", "answer": "Antes de cualquier acción legal te pedimos intentar resolución amistosa contactándonos por info@superspuma.com.py o WhatsApp +595 974 202 025. Respondemos todos los reclamos dentro de las 48 hs hábiles." }
+      ]
+    }
+  },
+  "privacidad": {
+    "seo": {
+      "title": "Política de Privacidad — Superspuma",
+      "description": "Cómo recolectamos, usamos y protegemos tus datos personales cuando comprás o consultás en Superspuma."
+    },
+    "hero": {
+      "headline": "Política de Privacidad",
+      "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026."
+    },
+    "policy": {
+      "title": "Cómo tratamos tus datos",
+      "subtitle": "Cumplimos con la Ley N° 6534/20 de Protección de Datos Personales y demás normativa paraguaya aplicable.",
+      "business": {
+        "name": "Superspuma",
+        "whatsapp": "+595974202025",
+        "phone": "+595981111222"
+      },
+      "items": [
+        { "category": "1. Responsable", "question": "¿Quién es el responsable del tratamiento?", "answer": "Superspuma del Paraguay S.A.E.C.A., RUC 30-70136627-8, con domicilio en Ruta Ypané y Arroyo Avay, Villeta - Central. Cualquier consulta sobre privacidad: info@superspuma.com.py o WhatsApp +595 974 202 025." },
+        { "category": "2. Qué datos", "question": "¿Qué información mía guardan?", "answer": "Solo lo necesario: nombre completo, teléfono, email, dirección de entrega, número de cédula cuando aplica para facturación, número de factura al activar garantía. Si navegás el sitio: datos técnicos mínimos (IP, navegador, páginas visitadas) vía Google Analytics 4 con IP anonimizada." },
+        { "category": "3. Finalidad", "question": "¿Para qué usan mis datos?", "answer": "Exclusivamente para: (a) procesar tu pedido; (b) coordinar entrega; (c) emitir factura; (d) contactarte por post-venta o garantía; (e) responder consultas que iniciás vos; (f) en casos puntuales y con tu consentimiento explícito, enviarte promociones relevantes (lo podés desuscribir cuando quieras)." },
+        { "category": "4. Base legal", "question": "¿Con qué autorización procesan mis datos?", "answer": "(a) Ejecución de contrato (para procesar tu compra); (b) obligación legal (facturación electrónica, libros fiscales); (c) interés legítimo (seguridad del sitio, prevención de fraude); (d) tu consentimiento expreso (para newsletter, promociones, encuestas). Podés revocar el consentimiento cuando quieras escribiéndonos." },
+        { "category": "5. Compartición", "question": "¿Entregan mis datos a terceros?", "answer": "Solo a: empresas de logística para entregar (limitado a datos de entrega); procesadores de pago (Bancard) para cobrar; autoridades fiscales cuando la ley obliga (SET Paraguay). NUNCA vendemos, alquilamos ni cedemos tus datos con fines comerciales a terceros." },
+        { "category": "6. Terceros", "question": "¿Qué servicios terceros procesan mis datos?", "answer": "Google Analytics 4 (análisis de tráfico, con IP anonimizada); Bancard S.A. (procesamiento de pagos con tarjeta); WhatsApp Business / Meta (cuando nos escribís — Meta tiene sus propias políticas); Google Maps (si interactuás con mapas embebidos). Todos operan con estándares reconocidos de protección de datos." },
+        { "category": "7. Seguridad", "question": "¿Cómo protegen mis datos?", "answer": "Conexiones HTTPS en todo el sitio; acceso restringido a personal autorizado; servidores con cifrado en reposo; backups regulares; monitoreo de actividad sospechosa. Ningún sistema es 100% infalible — si detectamos un incidente que te afecte, te notificamos dentro de 72 horas." },
+        { "category": "8. Conservación", "question": "¿Cuánto tiempo guardan mis datos?", "answer": "Datos de compra: 10 años (requerimiento fiscal paraguayo). Datos de contacto sin compra: 2 años desde última interacción. Datos de analítica web (Google Analytics): 14 meses. Datos de lista de marketing: hasta que te desuscribas." },
+        { "category": "9. Tus derechos", "question": "¿Qué puedo pedir sobre mis datos?", "answer": "Acceso (saber qué tenemos), rectificación (corregirlos), supresión (borrarlos), oposición (dejar de procesarlos para marketing), portabilidad (exportarlos en formato estándar), revocación del consentimiento. Para ejercer cualquiera: escribinos a info@superspuma.com.py. Respondemos en 30 días hábiles máximo." },
+        { "category": "10. Cookies", "question": "¿Usan cookies?", "answer": "Sí. Cookies técnicas necesarias (para que el sitio funcione — siempre activas); analíticas (Google Analytics — con IP anonimizada). No usamos cookies de publicidad ni de terceros con fines publicitarios. Podés desactivar cookies en tu navegador, aunque eso puede afectar la experiencia de compra." },
+        { "category": "11. Menores", "question": "¿Pueden comprar menores de edad?", "answer": "Nuestros productos no están restringidos por edad, pero las compras online o en cuotas requieren ser mayor de 18 años con capacidad legal para contratar. Si tenés menos de 18, realizá la compra con un tutor legal." },
+        { "category": "12. Transferencias int.", "question": "¿Envían mis datos fuera del Paraguay?", "answer": "Los servicios de Google (Analytics) y Meta (WhatsApp) implican transferencia internacional a Estados Unidos y otros países donde operan sus servidores. Estos proveedores operan bajo marcos internacionales de protección (ej. EU-US Data Privacy Framework) que proveen garantías adecuadas." },
+        { "category": "13. Cambios", "question": "¿Cambia esta política?", "answer": "Cuando haya cambios significativos, actualizamos la fecha 'Última actualización' y, si el cambio te afecta materialmente, te avisamos por email (si tenemos uno tuyo) o mediante un aviso visible en el sitio." },
+        { "category": "14. Reclamos", "question": "¿A dónde puedo presentar un reclamo?", "answer": "Primero: escribinos directamente a info@superspuma.com.py. Si no resolvemos a tu satisfacción, podés presentar reclamo ante la autoridad paraguaya competente de protección al consumidor (SEDECO) o de protección de datos personales según corresponda al caso." }
+      ]
+    }
+  },
   "navigation": {
     "businessName": "Superspuma",
     "ctaText": "Consultar por WhatsApp",
@@ -793,9 +1094,10 @@
       { "label": "Catálogo", "href": "/s/es/superspuma#catalogo" },
       { "label": "Tiendas", "href": "/s/es/superspuma/tiendas" },
       { "label": "Guía de compra", "href": "/s/es/superspuma/guias" },
+      { "label": "Envíos", "href": "/s/es/superspuma/envios" },
+      { "label": "Financiación", "href": "/s/es/superspuma/financiacion" },
       { "label": "Garantía", "href": "/s/es/superspuma/garantia" },
-      { "label": "Nosotros", "href": "/s/es/superspuma/nosotros" },
-      { "label": "Promo Cartagena", "href": "/s/es/superspuma/promo-cartagena" }
+      { "label": "Nosotros", "href": "/s/es/superspuma/nosotros" }
     ]
   },
   "footer": {
@@ -811,9 +1113,13 @@
       { "label": "Catálogo", "href": "/s/es/superspuma#catalogo" },
       { "label": "Nuestras tiendas", "href": "/s/es/superspuma/tiendas" },
       { "label": "Guía de compra", "href": "/s/es/superspuma/guias" },
+      { "label": "Envíos", "href": "/s/es/superspuma/envios" },
+      { "label": "Financiación", "href": "/s/es/superspuma/financiacion" },
       { "label": "Garantía", "href": "/s/es/superspuma/garantia" },
       { "label": "Nosotros", "href": "/s/es/superspuma/nosotros" },
-      { "label": "Promo Cartagena 2026", "href": "/s/es/superspuma/promo-cartagena" }
+      { "label": "Promo Cartagena 2026", "href": "/s/es/superspuma/promo-cartagena" },
+      { "label": "Términos y condiciones", "href": "/s/es/superspuma/terminos" },
+      { "label": "Política de privacidad", "href": "/s/es/superspuma/privacidad" }
     ]
   },
   "whatsapp": {

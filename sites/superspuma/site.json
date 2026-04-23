@@ -10,7 +10,7 @@
   "publicUrl": "https://paragu-ai.com/s/es/superspuma",
   "defaultLocale": "es",
   "locales": ["es"],
-  "pages": ["home", "nosotros", "tiendas", "guias", "garantia", "promo-cartagena", "producto/titanium"],
+  "pages": ["home", "nosotros", "tiendas", "guias", "garantia", "envios", "financiacion", "terminos", "privacidad", "promo-cartagena", "producto/titanium"],
   "contact": {
     "phone": "+595981111222",
     "email": "info@superspuma.com.py",
