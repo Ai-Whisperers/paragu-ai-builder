@@ -13,6 +13,13 @@ export interface ServiceItem {
   description?: string
   price?: string
   priceFrom?: string
+  /** Optional dual-currency prices — when both present they render as "$X / ₲Y" */
+  priceUSD?: string
+  pricePYG?: string
+  /** Optional expected delivery time (e.g. "1–2 semanas") */
+  delivery?: string
+  /** Optional list of bullet points describing what's included */
+  includes?: string[]
   duration?: number
   imageUrl?: string
   category?: string
@@ -38,12 +45,20 @@ export interface ServicesSectionProps {
   __locale?: string
 }
 
-const SERVICE_LABELS: Record<string, { from: string; otherCategory: string }> = {
-  de: { from: 'Ab', otherCategory: 'Sonstige' },
-  en: { from: 'From', otherCategory: 'Other' },
-  es: { from: 'Desde', otherCategory: 'Otros' },
-  nl: { from: 'Vanaf', otherCategory: 'Overig' },
-  pt: { from: 'Desde', otherCategory: 'Outros' },
+const SERVICE_LABELS: Record<string, { from: string; otherCategory: string; includes: string; delivery: string }> = {
+  en: { from: 'From', otherCategory: 'Other', includes: 'Includes', delivery: 'Delivery' },
+  es: { from: 'Desde', otherCategory: 'Otros', includes: 'Incluye', delivery: 'Entrega' },
+}
+
+function renderPriceLabel(service: ServiceItem, fromLabel: string): string | null {
+  if (service.priceUSD && service.pricePYG) {
+    return `${service.priceUSD} / ${service.pricePYG}`
+  }
+  if (service.priceUSD) return service.priceUSD
+  if (service.pricePYG) return service.pricePYG
+  if (service.priceFrom) return `${fromLabel} ${service.priceFrom}`
+  if (service.price) return service.price
+  return null
 }
 
 /**
@@ -128,20 +143,41 @@ export function ServicesSection({
             <Heading level={3} className="text-lg font-semibold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
               {service.name}
             </Heading>
-            {showPrices && (service.price || service.priceFrom) && (
+            {showPrices && renderPriceLabel(service, L.from) && (
               <Badge variant="outline">
-                {service.priceFrom ? `${L.from} ${service.priceFrom}` : service.price}
+                {renderPriceLabel(service, L.from)}
               </Badge>
             )}
           </div>
           {service.description && (
             <p className="mt-1 text-sm text-[var(--text-muted)]">{service.description}</p>
           )}
-          {showDuration && service.duration && (
+          {service.delivery && (
+            <p className="mt-3 flex items-center gap-1 text-xs text-[var(--text-muted)]">
+              <Clock size={12} />
+              {L.delivery}: {service.delivery}
+            </p>
+          )}
+          {showDuration && service.duration && !service.delivery && (
             <p className="mt-3 flex items-center gap-1 text-xs text-[var(--text-muted)]">
               <Clock size={12} />
               {service.duration} min
             </p>
+          )}
+          {service.includes && service.includes.length > 0 && (
+            <div className="mt-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)]">
+                {L.includes}
+              </p>
+              <ul className="mt-2 space-y-1">
+                {service.includes.map((item, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-[var(--text)]">
+                    <span className="text-[var(--primary)]">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       </>
