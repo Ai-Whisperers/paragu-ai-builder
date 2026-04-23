@@ -12886,8 +12886,7 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.product-catalog",
-        "id": "product-catalog",
-        "variant": "standard"
+        "id": "product-catalog"
       },
       {
         "content": "whatsapp",
@@ -33813,9 +33812,71 @@ export const CONTENT: Record<string, JsonRecord> = {
         "whatsappPhone": "595981000000"
       },
       "promo-cartagena": {
-        "ctaHref": "/promo-cartagena",
-        "ctaText": "Participar Ahora",
         "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitas cargar tu factura de compra y tus datos para participar.",
+        "form": {
+          "fields": [
+            {
+              "label": "Nombre completo",
+              "name": "nombre",
+              "placeholder": "Juan Pérez",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Correo electrónico",
+              "name": "email",
+              "placeholder": "juan@email.com",
+              "required": true,
+              "type": "email"
+            },
+            {
+              "label": "Teléfono",
+              "name": "telefono",
+              "placeholder": "+595 981 000000",
+              "required": true,
+              "type": "tel"
+            },
+            {
+              "label": "Número de factura",
+              "name": "numero_factura",
+              "placeholder": "FACT-001234",
+              "required": true,
+              "type": "text"
+            },
+            {
+              "label": "Fecha de compra",
+              "name": "fecha_compra",
+              "required": true,
+              "type": "date"
+            },
+            {
+              "label": "Producto comprado",
+              "name": "producto_comprado",
+              "options": [
+                "Titanium",
+                "Imperial",
+                "Harmony",
+                "Duo Confort",
+                "Luna Soft",
+                "Otro"
+              ],
+              "placeholder": "Selecciona el producto",
+              "required": true,
+              "type": "select"
+            }
+          ],
+          "privacyHref": "/terminos-y-condiciones",
+          "privacyLabel": "Al participar acepto los términos y condiciones",
+          "submitLabel": "Enviar Participación",
+          "subtitle": "Llena tus datos y los de tu factura para participar",
+          "title": "Formulario de Participación"
+        },
+        "hero": {
+          "ctaPrimaryHref": "#promo-form",
+          "ctaPrimaryText": "Participar Ahora",
+          "headline": "Promo Cartagena 2026",
+          "subheadline": "Gana un viaje a Cartagena y 5 sommiers Harmony"
+        },
         "subtitle": "Gana un viaje a Cartagena y 5 sommiers Harmony",
         "title": "Promo Cartagena 2026"
       },

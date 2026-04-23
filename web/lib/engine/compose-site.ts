@@ -88,6 +88,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     country: site.country,
     ...(siteContent.placeholders as Record<string, string | number | undefined> || {}),
     year: new Date().getFullYear(),
+    __locale: locale,
   }
 
   const copyCtx = { siteContent, verticalCopy, placeholders, images: imagesManifest, locale }

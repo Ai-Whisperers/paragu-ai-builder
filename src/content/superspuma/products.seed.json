@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "titanium",
+    "name": "Titanium",
+    "category": "Resorte",
+    "price": 1200000,
+    "images": ["/assets/superspuma/titanium/1.jpg", "/assets/superspuma/titanium/2.jpg"],
+    "specs": {
+      "springs": "Pocket",
+      "firmness": "Firme",
+      "dimensions": "200x200x40 cm",
+      "cover": "Algodón 100%",
+      "guarantee": "10 años"
+    }
+  },
+  {
+    "id": "imperial",
+    "name": "Imperial",
+    "category": "Resorte",
+    "price": 1500000,
+    "images": ["/assets/superspuma/imperial/1.jpg", "/assets/superspuma/imperial/2.jpg"],
+    "specs": {
+      "springs": "Bonell",
+      "firmness": "Medio",
+      "dimensions": "200x200x38 cm",
+      "cover": "Polialgodón",
+      "guarantee": "5 años"
+    }
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "category": "Espuma",
+    "price": 900000,
+    "images": ["/assets/superspuma/harmony/1.jpg", "/assets/superspuma/harmony/2.jpg"],
+    "specs": {
+      "type": "Espuma de alta densidad",
+      "firmness": "Medio-Firme",
+      "dimensions": "200x200x30 cm",
+      "cover": "Tela Jacquard",
+      "guarantee": "5 años"
+    }
+  },
+  {
+    "id": "duo-confort",
+    "name": "Duo Confort",
+    "category": "Espuma",
+    "price": 750000,
+    "images": ["/assets/superspuma/duo-confort/1.jpg", "/assets/superspuma/duo-confort/2.jpg"],
+    "specs": {
+      "type": "Espuma viscoelástica",
+      "firmness": "Adaptable",
+      "dimensions": "200x200x28 cm",
+      "cover": "Algodón stretch",
+      "guarantee": "3 años"
+    }
+  },
+  {
+    "id": "luna-soft",
+    "name": "Luna Soft",
+    "category": "Espuma",
+    "price": 650000,
+    "images": ["/assets/superspuma/luna-soft/1.jpg", "/assets/superspuma/luna-soft/2.jpg"],
+    "specs": {
+      "type": "Espuma convencional",
+      "firmness": "Suave",
+      "dimensions": "200x200x25 cm",
+      "cover": "Poliéster",
+      "guarantee": "2 años"
+    }
+  }
+]

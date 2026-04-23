@@ -1,7 +1,8 @@
 {
   "id": "superspuma",
   "nameEs": "Superspuma",
+  "verticalId": "retail-local",
   "tokens": "superspuma",
-  "sections": ["hero", "product-catalog", "whatsapp-cta", "footer"],
+  "sections": ["hero", "product-catalog", "product-detail", "nosotros", "contacto", "whatsapp-float", "footer"],
   "features": { "payment": "bancard", "whatsapp": true }
 }

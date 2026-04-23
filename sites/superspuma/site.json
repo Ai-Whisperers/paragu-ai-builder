@@ -5,6 +5,6 @@
   "baseUrl": "https://superspuma.paraguai.com",
   "defaultLocale": "es",
   "locales": ["es"],
-  "vertical": "ecommerce-standard",
+  "vertical": "retail-local",
   "pages": ["home"]
 }

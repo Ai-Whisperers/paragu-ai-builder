@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Superspuma",
+    "lastReviewed": "2026-04-22"
+  },
+  "home": {
+    "seo": {
+      "title": "Superspuma - Colchones y Sommiers Premium",
+      "description": "Descubre la mejor calidad en colchones y accesorios para dormir desde 1976. Envío a todo el país."
+    },
+    "hero": {
+      "headline": "Colchones Superspuma",
+      "subheadline": "Calidad y confort desde 1976",
+      "ctaPrimaryText": "Ver Colección",
+      "ctaPrimaryHref": "#catalogo",
+      "ctaSecondaryText": "Solicitar Presupuesto",
+      "ctaSecondaryHref": "#contacto"
+    },
+    "product-catalog": {
+      "title": "Nuestra Colección",
+      "subtitle": "Colchones de espuma y resorte para el mejor descanso",
+      "whatsappPhone": "595981000000",
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Estoy interesado en el producto: {{productName}}. Precio: ${{productPrice}}. Quisiera más información."
+    },
+    "nosotros": {
+      "title": "Nosotros",
+      "content": "Superspuma es una empresa paraguaya dedicada a la fabricación y comercialización de colchones y accesorios para el descanso desde 1976. Contamos con más de 45 años de experiencia en el mercado, ofreciendo productos de alta calidad que garantizan un sueño reparador y saludable."
+    },
+    "promo-cartagena": {
+      "title": "Promo Cartagena 2026",
+      "subtitle": "Gana un viaje a Cartagena y 5 sommiers Harmony",
+      "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitas cargar tu factura de compra y tus datos para participar.",
+      "hero": {
+        "headline": "Promo Cartagena 2026",
+        "subheadline": "Gana un viaje a Cartagena y 5 sommiers Harmony",
+        "ctaPrimaryText": "Participar Ahora",
+        "ctaPrimaryHref": "#promo-form"
+      },
+      "form": {
+        "title": "Formulario de Participación",
+        "subtitle": "Llena tus datos y los de tu factura para participar",
+        "fields": [
+          { "name": "nombre", "label": "Nombre completo", "type": "text", "required": true, "placeholder": "Juan Pérez" },
+          { "name": "email", "label": "Correo electrónico", "type": "email", "required": true, "placeholder": "juan@email.com" },
+          { "name": "telefono", "label": "Teléfono", "type": "tel", "required": true, "placeholder": "+595 981 000000" },
+          { "name": "numero_factura", "label": "Número de factura", "type": "text", "required": true, "placeholder": "FACT-001234" },
+          { "name": "fecha_compra", "label": "Fecha de compra", "type": "date", "required": true },
+          { "name": "producto_comprado", "label": "Producto comprado", "type": "select", "required": true, "options": ["Titanium", "Imperial", "Harmony", "Duo Confort", "Luna Soft", "Otro"], "placeholder": "Selecciona el producto" }
+        ],
+        "submitLabel": "Enviar Participación",
+        "privacyLabel": "Al participar acepto los términos y condiciones",
+        "privacyHref": "/terminos-y-condiciones"
+      }
+    }
+  },
+  "navigation": {
+    "businessName": "Superspuma",
+    "ctaText": "Contactanos",
+    "ctaHref": "#contacto"
+  },
+  "contact": {
+    "title": "Contactanos",
+    "subtitle": "Te respondemos en el día",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "footer": {
+    "businessName": "Superspuma",
+    "copyright": "© 2026 Superspuma",
+    "links": [
+      { "label": "Inicio", "href": "/" },
+      { "label": "Nosotros", "href": "/nosotros" },
+      { "label": "Catálogo", "href": "/catalogo" },
+      { "label": "Promo Cartagena", "href": "/promo-cartagena" },
+      { "label": "Contacto", "href": "/contacto" }
+    ]
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, me interesa un colchón de Superspuma"
+  }
+}

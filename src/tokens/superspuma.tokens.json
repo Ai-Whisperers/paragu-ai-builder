@@ -1,0 +1,13 @@
+{
+  "color": {
+    "primary": "#0F1624",
+    "secondary": "#3A4A5D",
+    "accent": "#B3C7E3",
+    "background": "#FFFFFF",
+    "text": "#1A1A1A"
+  },
+  "font": {
+    "body": "Open Sans",
+    "heading": "Playfair Display"
+  }
+}
