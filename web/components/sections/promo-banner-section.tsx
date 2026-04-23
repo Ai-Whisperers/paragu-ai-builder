@@ -16,7 +16,9 @@ interface Promotion {
 }
 
 interface PromoBannerSectionProps {
-  promotions: Promotion[]
+  promotions?: Promotion[]
+  /** Legacy alias — some tenants ship `items` instead of `promotions`. */
+  items?: Promotion[]
   autoRotate?: boolean
   rotateInterval?: number
   dismissible?: boolean
@@ -26,34 +28,36 @@ interface PromoBannerSectionProps {
 
 export function PromoBannerSection({
   promotions,
+  items,
   autoRotate = true,
   rotateInterval = 5000,
   dismissible = true,
   position = 'top',
   variant = 'countdown'
 }: PromoBannerSectionProps) {
+  const promos = promotions ?? items ?? []
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isDismissed, setIsDismissed] = useState(false)
   const [timeLeft, setTimeLeft] = useState<Record<string, number>>({})
   const [progress, setProgress] = useState(0)
 
-  const currentPromo = promotions[currentIndex]
+  const currentPromo = promos[currentIndex]
 
   // Auto-rotate promotions
   useEffect(() => {
-    if (!autoRotate || promotions.length <= 1) return
+    if (!autoRotate || promos.length <= 1) return
 
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % promotions.length)
+      setCurrentIndex((prev) => (prev + 1) % promos.length)
       setProgress(0)
     }, rotateInterval)
 
     return () => clearInterval(interval)
-  }, [autoRotate, rotateInterval, promotions.length])
+  }, [autoRotate, rotateInterval, promos.length])
 
   // Progress bar animation
   useEffect(() => {
-    if (!autoRotate || promotions.length <= 1) return
+    if (!autoRotate || promos.length <= 1) return
 
     // Reset progress when currentIndex changes — intentional cascading
     // render: the new promo starts with an empty progress bar before the
@@ -70,7 +74,7 @@ export function PromoBannerSection({
     }, 100)
 
     return () => clearInterval(progressInterval)
-  }, [currentIndex, autoRotate, rotateInterval, promotions.length])
+  }, [currentIndex, autoRotate, rotateInterval, promos.length])
 
   // Countdown timer
   useEffect(() => {
@@ -80,7 +84,7 @@ export function PromoBannerSection({
       const now = new Date().getTime()
       const newTimeLeft: Record<string, number> = {}
 
-      promotions.forEach((promo) => {
+      promos.forEach((promo) => {
         if (promo.expiresAt) {
           const expiry = new Date(promo.expiresAt).getTime()
           newTimeLeft[promo.id] = Math.max(0, expiry - now)
@@ -94,7 +98,7 @@ export function PromoBannerSection({
     const timer = setInterval(calculateTimeLeft, 1000)
 
     return () => clearInterval(timer)
-  }, [promotions, variant])
+  }, [promos, variant])
 
   const formatTime = (ms: number) => {
     const days = Math.floor(ms / (1000 * 60 * 60 * 24))
@@ -107,7 +111,7 @@ export function PromoBannerSection({
     return `${minutes}m ${seconds}s`
   }
 
-  if (isDismissed || promotions.length === 0) return null
+  if (isDismissed || promos.length === 0) return null
 
   if (variant === 'carousel') {
     return (
@@ -154,9 +158,9 @@ export function PromoBannerSection({
         )}
 
         {/* Pagination dots */}
-        {promotions.length > 1 && (
+        {promos.length > 1 && (
           <div className="absolute bottom-1 left-1/2 -translate-x-1/2 flex gap-1">
-            {promotions.map((_, idx) => (
+            {promos.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}
@@ -237,7 +241,7 @@ export function PromoBannerSection({
       )}
 
       {/* Progress bar */}
-      {autoRotate && promotions.length > 1 && (
+      {autoRotate && promos.length > 1 && (
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/20">
           <div
             className="h-full bg-white transition-all duration-100 ease-linear"
