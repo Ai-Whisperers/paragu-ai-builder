@@ -120,7 +120,12 @@
       "ctaPrimaryText": "Ver Catálogo",
       "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
       "ctaSecondaryText": "WhatsApp",
-      "ctaSecondaryHref": "https://wa.me/595986868241"
+      "ctaSecondaryHref": "https://wa.me/595986868241",
+      "trustBadges": [
+        "+6 años de experiencia",
+        "USD o PYG",
+        "Entrega 1–2 semanas"
+      ]
     },
     "trustBadges": {
       "title": "¿Por qué elegirnos?",
@@ -453,7 +458,8 @@
             "description": "Cambios de dirección fuera del scope original. — USD 20/ronda"
           }
         ]
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "products": {
       "title": "Catálogo Premade",
@@ -720,8 +726,10 @@
           "description": "Diseños listos para personalizar, para cuando necesitás una portada rápida.",
           "href": "/s/es/dayah-litworks/catalogo"
         }
-      ]
-    }
+      ],
+      "trustBadgesEnabled": false
+    },
+    "trustBadgesEnabled": false
   },
   "blog": {
     "seo": {
@@ -730,7 +738,8 @@
     },
     "hero": {
       "title": "Blog",
-      "subtitle": "Tips, tendencias y recursos para autores"
+      "subtitle": "Tips, tendencias y recursos para autores",
+      "trustBadgesEnabled": false
     },
     "posts": [
       {
@@ -762,8 +771,10 @@
           "description": "Preguntas técnicas sobre tu proyecto específico, respuestas rápidas.",
           "href": "https://wa.me/595986868241"
         }
-      ]
-    }
+      ],
+      "trustBadgesEnabled": false
+    },
+    "trustBadgesEnabled": false
   },
   "blogPost": {
     "como-elegir-portada-libro": {
@@ -792,7 +803,8 @@
   },
   "contactHero": {
     "title": "Contame de tu libro",
-    "subtitle": "Envía referencias visuales junto con el pedido — así puedo cotizar con precisión (es el paso más importante del proceso, por eso está en mis términos)."
+    "subtitle": "Envía referencias visuales junto con el pedido — así puedo cotizar con precisión (es el paso más importante del proceso, por eso está en mis términos).",
+    "trustBadgesEnabled": false
   },
   "quoteForm": {
     "title": "Contame de tu libro",
@@ -950,7 +962,8 @@
     },
     "hero": {
       "title": "Sobre Dayah LitWorks",
-      "subtitle": "Donde la fantasía se convierte en realidad"
+      "subtitle": "Donde la fantasía se convierte en realidad",
+      "trustBadgesEnabled": false
     },
     "bio": {
       "features": [
@@ -1011,7 +1024,8 @@
           "description": "Cobro según origen"
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "terminos": {
     "seo": {
@@ -1117,7 +1131,8 @@
           "a": "Puedo mostrar los trabajos terminados en mi portafolio, Instagram, Facebook y sitio web. Si preferís que NO lo muestre (ej. tu libro aún no salió), avisame antes de la entrega final y lo guardo privado hasta tu fecha de lanzamiento."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "footer": {
     "businessName": "Dayah LitWorks",
@@ -1211,6 +1226,7 @@
           "a": "Dayah LitWorks opera desde Paraguay. Los datos se manejan bajo la Ley 5282/2014 de Libre Acceso Ciudadano a la Información Pública y Transparencia Gubernamental, y Ley 6534/2020 de Protección de Datos Personales Crediticios en lo aplicable. Para clientes en la UE, cumplo con las bases de GDPR como procesadora (ejecución de contrato)."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   }
 }

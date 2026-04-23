@@ -126,7 +126,12 @@
       "ctaPrimaryText": "View Catalog",
       "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
       "ctaSecondaryText": "WhatsApp",
-      "ctaSecondaryHref": "https://wa.me/595986868241"
+      "ctaSecondaryHref": "https://wa.me/595986868241",
+      "trustBadges": [
+        "6+ years of experience",
+        "USD or PYG",
+        "Delivery in 1–2 weeks"
+      ]
     },
     "trustBadges": {
       "title": "Why Choose Us",
@@ -459,7 +464,8 @@
             "description": "Scope changes outside the original direction. — USD 20 / round"
           }
         ]
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "products": {
       "title": "Premade Catalog",
@@ -726,8 +732,10 @@
           "description": "Ready-to-customize designs for when you need a cover fast.",
           "href": "/s/en/dayah-litworks/catalogo"
         }
-      ]
-    }
+      ],
+      "trustBadgesEnabled": false
+    },
+    "trustBadgesEnabled": false
   },
   "blog": {
     "seo": {
@@ -736,7 +744,8 @@
     },
     "hero": {
       "title": "Blog",
-      "subtitle": "Tips, trends and resources for authors"
+      "subtitle": "Tips, trends and resources for authors",
+      "trustBadgesEnabled": false
     },
     "posts": [
       {
@@ -768,8 +777,10 @@
           "description": "Specific technical questions about your project, fast answers.",
           "href": "https://wa.me/595986868241"
         }
-      ]
-    }
+      ],
+      "trustBadgesEnabled": false
+    },
+    "trustBadgesEnabled": false
   },
   "blogPost": {
     "como-elegir-portada-libro": {
@@ -798,7 +809,8 @@
   },
   "contactHero": {
     "title": "Tell me about your book",
-    "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms)."
+    "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
+    "trustBadgesEnabled": false
   },
   "quoteForm": {
     "title": "Tell me about your book",
@@ -956,7 +968,8 @@
     },
     "hero": {
       "title": "About Dayah LitWorks",
-      "subtitle": "Where fantasy becomes reality"
+      "subtitle": "Where fantasy becomes reality",
+      "trustBadgesEnabled": false
     },
     "bio": {
       "features": [
@@ -1017,7 +1030,8 @@
           "description": "Billing by origin"
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "terminos": {
     "seo": {
@@ -1123,7 +1137,8 @@
           "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "footer": {
     "businessName": "Dayah LitWorks",
@@ -1216,6 +1231,7 @@
           "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis)."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   }
 }

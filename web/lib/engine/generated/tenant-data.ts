@@ -15036,7 +15036,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     "blog": {
       "hero": {
         "subtitle": "Tips, trends and resources for authors",
-        "title": "Blog"
+        "title": "Blog",
+        "trustBadgesEnabled": false
       },
       "placeholder": {
         "features": [
@@ -15057,7 +15058,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "subtitle": "I don't write blog posts yet. One email a month with concrete tips on indie covers, before/after examples, and genre trends. No filler.",
-        "title": "Newsletter only for now"
+        "title": "Newsletter only for now",
+        "trustBadgesEnabled": false
       },
       "posts": [
         {
@@ -15073,7 +15075,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cover design tips, trends and resources for indie authors",
         "title": "Blog — Dayah LitWorks"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "blogPost": {
       "como-elegir-portada-libro": {
@@ -15090,7 +15093,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactHero": {
       "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
-      "title": "Tell me about your book"
+      "title": "Tell me about your book",
+      "trustBadgesEnabled": false
     },
     "ctaBanner": {
       "ctaHref": "https://wa.me/595986868241",
@@ -15273,7 +15277,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "WhatsApp",
         "headline": "Covers that sell.",
-        "subheadline": "For indie authors worldwide. USD or PYG."
+        "subheadline": "For indie authors worldwide. USD or PYG.",
+        "trustBadges": [
+          "6+ years of experience",
+          "USD or PYG",
+          "Delivery in 1–2 weeks"
+        ]
       },
       "process": {
         "steps": [
@@ -15711,7 +15720,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "subtitle": "Professional design for your book",
-        "title": "Our Services"
+        "title": "Our Services",
+        "trustBadgesEnabled": false
       },
       "testimonials": {
         "items": [
@@ -15843,14 +15853,16 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
-        "title": "Private portfolio"
+        "title": "Private portfolio",
+        "trustBadgesEnabled": false
       },
       "seo": {
         "description": "Gallery of book covers designed by Dayah LitWorks",
         "title": "Portfolio — Dayah LitWorks"
       },
       "subtitle": "Covers that sell books",
-      "title": "Portfolio"
+      "title": "Portfolio",
+      "trustBadgesEnabled": false
     },
     "privacidad": {
       "sections": [
@@ -15909,7 +15921,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Privacy policy"
       },
       "subtitle": "How I handle your information.",
-      "title": "Privacy"
+      "title": "Privacy",
+      "trustBadgesEnabled": false
     },
     "quoteForm": {
       "ctaText": "Send inquiry via WhatsApp",
@@ -16091,7 +16104,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "subtitle": "Where fantasy becomes reality",
-        "title": "About Dayah LitWorks"
+        "title": "About Dayah LitWorks",
+        "trustBadgesEnabled": false
       },
       "highlights": [
         {
@@ -16135,7 +16149,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Meet Dayah, a book cover designer based in Asunción, Paraguay. 6+ years creating covers that sell.",
         "title": "About Dayah LitWorks — Book Cover Designer"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "tagline": "Book cover design — from manuscript to a cover that sells",
     "terminos": {
@@ -16242,7 +16257,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Terms & Conditions — Dayah LitWorks"
       },
       "subtitle": "Payment of the quote implies acceptance of the following conditions",
-      "title": "Terms & Conditions"
+      "title": "Terms & Conditions",
+      "trustBadgesEnabled": false
     },
     "whatsapp": {
       "defaultMessage": "Hi! I'm interested in a book cover design"
@@ -16257,7 +16273,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     "blog": {
       "hero": {
         "subtitle": "Tips, tendencias y recursos para autores",
-        "title": "Blog"
+        "title": "Blog",
+        "trustBadgesEnabled": false
       },
       "placeholder": {
         "features": [
@@ -16278,7 +16295,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "subtitle": "No escribo blog posts todavía. Un email al mes con tips concretos sobre portadas indie, ejemplos de antes/después y tendencias por género. Sin relleno.",
-        "title": "Solo newsletter por ahora"
+        "title": "Solo newsletter por ahora",
+        "trustBadgesEnabled": false
       },
       "posts": [
         {
@@ -16294,7 +16312,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Tips de diseño de portadas, tendencias y recursos para autores indie",
         "title": "Blog — Dayah LitWorks"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "blogPost": {
       "como-elegir-portada-libro": {
@@ -16311,7 +16330,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactHero": {
       "subtitle": "Envía referencias visuales junto con el pedido — así puedo cotizar con precisión (es el paso más importante del proceso, por eso está en mis términos).",
-      "title": "Contame de tu libro"
+      "title": "Contame de tu libro",
+      "trustBadgesEnabled": false
     },
     "ctaBanner": {
       "ctaHref": "https://wa.me/595986868241",
@@ -16495,7 +16515,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "WhatsApp",
         "headline": "Portadas que venden.",
-        "subheadline": "Para autores indie en todo el mundo. USD o PYG."
+        "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
+        "trustBadges": [
+          "+6 años de experiencia",
+          "USD o PYG",
+          "Entrega 1–2 semanas"
+        ]
       },
       "process": {
         "steps": [
@@ -16933,7 +16958,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "subtitle": "Diseño profesional para tu libro",
-        "title": "Nuestros Servicios"
+        "title": "Nuestros Servicios",
+        "trustBadgesEnabled": false
       },
       "testimonials": {
         "items": [
@@ -17065,14 +17091,16 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "subtitle": "Mis clientes están publicando — estoy esperando permisos para compartir trabajos recientes acá. Si querés ver ejemplos de tu género específico (fantasía, romance, thriller…), pedímelos por WhatsApp y te mando una muestra privada en el día.",
-        "title": "Portafolio privado"
+        "title": "Portafolio privado",
+        "trustBadgesEnabled": false
       },
       "seo": {
         "description": "Galería de portadas de libros diseñadas por Dayah LitWorks",
         "title": "Portafolio — Dayah LitWorks"
       },
       "subtitle": "Portadas que venden libros",
-      "title": "Portafolio"
+      "title": "Portafolio",
+      "trustBadgesEnabled": false
     },
     "privacidad": {
       "sections": [
@@ -17131,7 +17159,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Política de privacidad"
       },
       "subtitle": "Cómo manejo tu información.",
-      "title": "Privacidad"
+      "title": "Privacidad",
+      "trustBadgesEnabled": false
     },
     "quoteForm": {
       "ctaText": "Enviar consulta por WhatsApp",
@@ -17307,7 +17336,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "subtitle": "Donde la fantasía se convierte en realidad",
-        "title": "Sobre Dayah LitWorks"
+        "title": "Sobre Dayah LitWorks",
+        "trustBadgesEnabled": false
       },
       "highlights": [
         {
@@ -17351,7 +17381,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Conocé a Dayah, diseñadora de portadas de libros en Asunción, Paraguay. Más de 6 años creando portadas que venden.",
         "title": "Sobre Dayah LitWorks — Diseñadora de portadas de libros"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
     "terminos": {
@@ -17458,7 +17489,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Términos y Condiciones — Dayah LitWorks"
       },
       "subtitle": "El pago del presupuesto implica la aceptación de las siguientes condiciones",
-      "title": "Términos y Condiciones"
+      "title": "Términos y Condiciones",
+      "trustBadgesEnabled": false
     },
     "whatsapp": {
       "defaultMessage": "Hola, me interesa una portada para mi libro"
