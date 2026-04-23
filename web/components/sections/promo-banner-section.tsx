@@ -10,10 +10,19 @@ interface Promotion {
   description: string
   code?: string
   expiresAt?: string
-  bgColor: string
-  textColor: string
+  /** Optional. Defaults to the tenant's --primary theme color. */
+  bgColor?: string
+  /** Optional. Defaults to #fff. */
+  textColor?: string
   link?: string
+  /** Aliases for tenants that ship cta-style content instead of link. */
+  ctaHref?: string
+  ctaLabel?: string
+  icon?: string
 }
+
+const DEFAULT_BG = 'var(--primary)'
+const DEFAULT_TEXT = '#ffffff'
 
 interface PromoBannerSectionProps {
   promotions?: Promotion[]
@@ -113,18 +122,27 @@ export function PromoBannerSection({
 
   if (isDismissed || promos.length === 0) return null
 
+  // Tenant content often omits bgColor/textColor (expects the theme to
+  // supply colors). Fall back to the tenant's primary + white so the
+  // banner always renders with a visible style instead of inheriting
+  // the surrounding page surface.
+  const bgClass = currentPromo.bgColor || 'bg-[var(--primary)]'
+  const textClass = currentPromo.textColor || 'text-white'
+  const ctaHref = currentPromo.link || currentPromo.ctaHref
+  const ctaLabel = currentPromo.ctaLabel || 'Aprovechar'
+
   if (variant === 'carousel') {
     return (
       <section className={cn(
         "relative overflow-hidden transition-all duration-300",
         position === 'top' ? "order-first" : "order-last",
-        currentPromo.bgColor
+        bgClass
       )}>
         <div
           key={currentPromo.id}
           className={cn(
             "py-3 px-4 animate-in slide-in-from-right-4 duration-300",
-            currentPromo.textColor
+            textClass
           )}
         >
           <div className="max-w-7xl mx-auto flex items-center justify-center gap-4 flex-wrap">
@@ -141,9 +159,18 @@ export function PromoBannerSection({
               </code>
             )}
 
-            <button className="flex items-center gap-1 text-sm underline hover:no-underline">
-              Aprovechar <ChevronRight className="w-4 h-4" />
-            </button>
+            {ctaHref ? (
+              <a
+                href={ctaHref}
+                className="flex items-center gap-1 text-sm underline hover:no-underline"
+              >
+                {ctaLabel} <ChevronRight className="w-4 h-4" />
+              </a>
+            ) : (
+              <button className="flex items-center gap-1 text-sm underline hover:no-underline">
+                {ctaLabel} <ChevronRight className="w-4 h-4" />
+              </button>
+            )}
           </div>
         </div>
 
@@ -181,11 +208,11 @@ export function PromoBannerSection({
     <section className={cn(
       "relative overflow-hidden",
       position === 'top' ? "order-first" : "order-last",
-      currentPromo.bgColor
+      bgClass
     )}>
       <div className={cn(
         "py-3 px-4",
-        currentPromo.textColor
+        textClass
       )}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-center gap-4 flex-wrap">

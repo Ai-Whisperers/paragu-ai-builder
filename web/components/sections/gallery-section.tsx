@@ -31,6 +31,12 @@ export interface GallerySectionProps {
    * variant via the section registry).
    */
   lightbox?: boolean
+  /**
+   * When false, suppresses the hover-category overlay. Useful on
+   * legal/serious pages where the decorative overlay feels out of
+   * place. Default true for back-compat.
+   */
+  showCategory?: boolean
   /** Locale-aware labels for the lightbox controls. */
   __locale?: string
 }
@@ -50,6 +56,7 @@ export function GallerySection({
   logos,
   columns = 3,
   lightbox = false,
+  showCategory = true,
   __locale,
 }: GallerySectionProps) {
   const images: GalleryImage[] =
@@ -81,7 +88,7 @@ export function GallerySection({
         // next/image still gets us lazy-loading + blur/srcset for remote HTTPS.
         unoptimized={image.src.startsWith('data:')}
       />
-      {image.category && (
+      {showCategory && image.category && (
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 transition-opacity duration-normal group-hover:opacity-100">
           <span className="text-sm font-medium text-white">{image.category}</span>
         </div>
