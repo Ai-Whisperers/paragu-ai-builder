@@ -15,6 +15,7 @@ export interface FooterSectionProps {
   navLinks?: Array<{ label: string; href: string }>
   __siteSlug?: string
   __locale?: Locale
+  __showVersion?: boolean
 }
 
 const NEXA_GROUP: Array<{
@@ -26,6 +27,8 @@ const NEXA_GROUP: Array<{
   { slug: 'nexa-paraguay', label: 'Nexa Paraguay', defaultLocale: 'nl', locales: ['nl', 'en', 'de', 'es'] },
   { slug: 'nexa-propiedades', label: 'Nexa Propiedades', defaultLocale: 'es', locales: ['es', 'en', 'pt'] },
 ]
+
+const VERSION = process.env.NEXT_PUBLIC_SITE_VERSION || 'dev'
 
 const NETWORK_LABEL: Record<string, string> = {
   nl: 'Nexa-netwerk',
@@ -65,6 +68,7 @@ export function FooterSection({
   navLinks = [],
   __siteSlug,
   __locale,
+  __showVersion = false,
 }: FooterSectionProps) {
   const year = new Date().getFullYear()
   const isNexa = __siteSlug?.startsWith('nexa-') || __siteSlug === 'nexaparaguay'
@@ -264,6 +268,17 @@ export function FooterSection({
           }}
         >
           © {year} {businessName}. {labels.rights}
+          {__showVersion && (
+            <span 
+              className="ml-2 inline-block rounded px-1.5 py-0.5 text-xs font-mono"
+              style={{ 
+                backgroundColor: 'rgba(255,255,255,0.1)', 
+                color: 'rgba(255,255,255,0.7)' 
+              }}
+            >
+              v{VERSION}
+            </span>
+          )}
         </div>
       </Container>
     </footer>
