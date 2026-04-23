@@ -14,13 +14,41 @@ export interface ContactSectionProps {
   phone?: string
   email?: string
   whatsapp?: string
+  whatsappMessage?: string
   googleMapsUrl?: string
   hours?: Record<string, string>
+  __locale?: string
+}
+
+const CONTACT_LABELS: Record<string, {
+  address: string
+  contact: string
+  whatsappCta: string
+  email: string
+  hours: string
+  mapAlt: (city: string) => string
+}> = {
+  en: {
+    address: 'Address',
+    contact: 'Contact',
+    whatsappCta: 'Message on WhatsApp',
+    email: 'Email',
+    hours: 'Business hours',
+    mapAlt: (city) => `Map of ${city}`,
+  },
+  es: {
+    address: 'Dirección',
+    contact: 'Contacto',
+    whatsappCta: 'Escribir por WhatsApp',
+    email: 'Email',
+    hours: 'Horario de atención',
+    mapAlt: (city) => `Mapa de ${city}`,
+  },
 }
 
 /**
  * Enhanced Contact section with improved layout and UX.
- * 
+ *
  * Improvements:
  * - Better visual hierarchy with cards
  * - Improved spacing and typography
@@ -37,11 +65,17 @@ export function ContactSection({
   phone,
   email,
   whatsapp,
+  whatsappMessage,
   googleMapsUrl,
   hours,
+  __locale = 'es',
 }: ContactSectionProps) {
+  const labels = CONTACT_LABELS[__locale] ?? CONTACT_LABELS.es
   const hasContactInfo = phone || email || whatsapp
   const hasHours = hours && Object.keys(hours).length > 0
+  const whatsappHref = whatsapp
+    ? `https://wa.me/${whatsapp.replace(/\D/g, '')}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
+    : ''
 
   return (
     <section id="contacto" className="bg-[var(--surface)] py-20 sm:py-28 lg:py-32">
@@ -90,7 +124,7 @@ export function ContactSection({
                     className="mb-2 text-base font-bold uppercase tracking-wide"
                     style={{ color: 'var(--text)' }}
                   >
-                    Adresse
+                    {labels.address}
                   </Heading>
                   <p className="leading-relaxed" style={{ color: 'var(--text-light)' }}>
                     {address && <span className="block">{address}</span>}
@@ -122,7 +156,7 @@ export function ContactSection({
                       className="mb-2 text-base font-bold uppercase tracking-wide"
                       style={{ color: 'var(--text)' }}
                     >
-                      Kontakt
+                      {labels.contact}
                     </Heading>
                     {phone && (
                       <a 
@@ -135,7 +169,7 @@ export function ContactSection({
                     )}
                     {whatsapp && (
                       <a
-                        href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
+                        href={whatsappHref}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 mt-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 hover:scale-[1.02]"
@@ -146,7 +180,7 @@ export function ContactSection({
                         }}
                       >
                         <MessageCircle size={18} />
-                        WhatsApp schreiben
+                        {labels.whatsappCta}
                         <ArrowRight size={14} />
                       </a>
                     )}
@@ -176,7 +210,7 @@ export function ContactSection({
                       className="mb-2 text-base font-bold uppercase tracking-wide"
                       style={{ color: 'var(--text)' }}
                     >
-                      E-Mail
+                      {labels.email}
                     </Heading>
                     <a 
                       href={`mailto:${email}`}
@@ -211,7 +245,7 @@ export function ContactSection({
                       className="mb-3 text-base font-bold uppercase tracking-wide"
                       style={{ color: 'var(--text)' }}
                     >
-                      Bürozeiten
+                      {labels.hours}
                     </Heading>
                     <dl className="space-y-2">
                       {Object.entries(hours).map(([day, time]) => (
@@ -248,7 +282,7 @@ export function ContactSection({
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title={`Karte von ${city}`}
+                  title={labels.mapAlt(city)}
                   style={{ filter: 'grayscale(15%) contrast(105%)' }}
                 />
               ) : (
