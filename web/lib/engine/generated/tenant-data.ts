@@ -5752,9 +5752,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "blog.posts",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "blog.placeholder",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.placeholder",
+        "id": "features",
+        "variant": "three-col"
       },
       {
         "content": "newsletter",
@@ -5794,11 +5799,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -5818,7 +5818,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "home.products.title"
   },
   "dayah-litworks:contacto": {
-    "description": "Contáctanos para tu proyecto de portada de libro",
+    "descriptionKey": "contactHero.subtitle",
     "sections": [
       {
         "content": "navigation",
@@ -5857,7 +5857,7 @@ export const PAGES: Record<string, JsonRecord> = {
       }
     ],
     "slug": "contacto",
-    "title": "Contacto - Dayah LitWorks"
+    "titleKey": "contactHero.title"
   },
   "dayah-litworks:home": {
     "descriptionKey": "home.seo.description",
@@ -5891,11 +5891,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.process",
         "id": "process",
         "variant": "steps"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
       },
       {
         "content": "home.faq",
@@ -5935,14 +5930,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "portfolio",
-        "id": "gallery",
-        "variant": "grid"
+        "content": "portfolio.placeholder",
+        "id": "hero",
+        "variant": "minimal"
       },
       {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
+        "content": "portfolio.placeholder",
+        "id": "features",
+        "variant": "three-col"
       },
       {
         "content": "home.contact",
@@ -5980,6 +5975,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
+      },
+      {
+        "content": "home.services.addons_block",
+        "id": "features",
+        "variant": "grid"
       },
       {
         "content": "home.faq",
@@ -12906,6 +12906,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Tips, trends and resources for authors",
         "title": "Blog"
       },
+      "placeholder": {
+        "features": [
+          {
+            "description": "One email a month with tips and examples of covers that sell.",
+            "href": "#newsletter",
+            "title": "Newsletter"
+          },
+          {
+            "description": "Follow recent work + behind-the-scenes.",
+            "href": "https://instagram.com/dayah.litworks",
+            "title": "Instagram @dayah.litworks"
+          },
+          {
+            "description": "Direct questions, fast answers.",
+            "href": "https://wa.me/595986868241",
+            "title": "WhatsApp"
+          }
+        ],
+        "subtitle": "Soon you will find cover design tips, trends, and resources for indie authors. In the meantime, subscribe to the newsletter.",
+        "title": "Blog coming soon"
+      },
       "posts": [
         {
           "category": "Design",
@@ -13015,13 +13036,24 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "home": {
       "contact": {
+        "city": "Asunción, Paraguay",
         "email": "dayahlitworks@gmail.com",
         "facebook": "https://www.facebook.com/bookc0verdesign/",
+        "hours": {
+          "Friday": "09:00 – 18:00",
+          "Monday": "09:00 – 18:00",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Thursday": "09:00 – 18:00",
+          "Tuesday": "09:00 – 18:00",
+          "Wednesday": "09:00 – 18:00"
+        },
         "instagram": "@dayah.litworks",
         "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
         "subtitle": "Same-day response",
         "title": "Contact Us",
-        "whatsapp": "+595986868241"
+        "whatsapp": "+595986868241",
+        "whatsappMessage": "Hi Dayah! I want to ask about a cover design."
       },
       "faq": {
         "items": [
@@ -13253,6 +13285,24 @@ export const CONTENT: Record<string, JsonRecord> = {
             "price": "Per evaluation"
           }
         ],
+        "addons_block": {
+          "features": [
+            {
+              "description": "Realistic 3D render of your book (Quote)",
+              "title": "Static 3D Mockup"
+            },
+            {
+              "description": "Professional animation of your cover (Quote)",
+              "title": "3D Video Mockup"
+            },
+            {
+              "description": "Priced based on evaluation of first chapters and manuscript length (Per evaluation)",
+              "title": "Copyediting & Proofreading"
+            }
+          ],
+          "subtitle": "Add-ons you can attach to any package. Quote on request.",
+          "title": "Additional services"
+        },
         "categories": [
           {
             "description": "Exclusive design created from scratch for your book",
@@ -13378,6 +13428,118 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Interior Layout"
           }
         ],
+        "items": [
+          {
+            "category": "Custom Covers",
+            "delivery": "1–2 weeks",
+            "description": "Exclusive eBook cover design",
+            "includes": [
+              "eBook cover (JPG/PDF)",
+              "Title PNG + Title page PNG",
+              "2 cover reveal banners",
+              "2 Mockups"
+            ],
+            "name": "Custom Cover — eBook",
+            "pricePYG": "₲300,000",
+            "priceUSD": "$45"
+          },
+          {
+            "category": "Custom Covers",
+            "delivery": "1–2 weeks",
+            "description": "Full cover (front + spine + back) for print",
+            "includes": [
+              "Paperback cover (JPG/PDF)",
+              "Print-ready file (PDF)",
+              "Title PNG + Title page PNG",
+              "2 cover reveal banners",
+              "2 Mockups"
+            ],
+            "name": "Custom Cover — Paperback",
+            "pricePYG": "₲500,000",
+            "priceUSD": "$80"
+          },
+          {
+            "category": "Custom Covers",
+            "delivery": "2–3 weeks",
+            "description": "Complete combo: eBook + paperback cover",
+            "includes": [
+              "eBook cover (JPG/PDF)",
+              "Print-ready file (PDF)",
+              "Title PNG + Title page PNG",
+              "2 cover reveal banners",
+              "2 Mockups"
+            ],
+            "name": "Cover Paperback & eBook",
+            "pricePYG": "₲800,000",
+            "priceUSD": "$120"
+          },
+          {
+            "category": "Premade Covers",
+            "delivery": "1–2 weeks",
+            "description": "Premade eBook cover with customization",
+            "includes": [
+              "eBook cover (JPG/PDF)",
+              "Title PNG + Title page PNG",
+              "2 cover reveal banners",
+              "2 Mockups"
+            ],
+            "name": "Premade eBook",
+            "pricePYG": "₲250,000",
+            "priceUSD": "$35",
+            "scopeNote": "Includes copy and typography alterations, color changes, minor element repositioning"
+          },
+          {
+            "category": "Premade Covers",
+            "delivery": "1–2 weeks",
+            "description": "Premade cover with paperback version",
+            "includes": [
+              "Paperback cover (JPG/PDF)",
+              "Print-ready file (PDF)",
+              "Title PNG + Title page PNG",
+              "2 cover reveal banners",
+              "2 Mockups"
+            ],
+            "name": "Premade eBook & Paperback",
+            "pricePYG": "₲500,000",
+            "priceUSD": "$80"
+          },
+          {
+            "category": "Interior Layout",
+            "delivery": "1–2 weeks",
+            "description": "Professional interior design for eBooks",
+            "includes": [
+              "Professional interior design",
+              "File per platform specs (WORD/PDF)"
+            ],
+            "name": "eBook Layout",
+            "pricePYG": "₲160,000",
+            "priceUSD": "$25"
+          },
+          {
+            "category": "Interior Layout",
+            "delivery": "1–2 weeks",
+            "description": "Professional interior design for print",
+            "includes": [
+              "Professional interior design",
+              "File per platform specs (WORD/PDF)"
+            ],
+            "name": "Paperback Layout",
+            "pricePYG": "₲250,000",
+            "priceUSD": "$35"
+          },
+          {
+            "category": "Interior Layout",
+            "delivery": "1–2 weeks",
+            "description": "Complete interior design for both formats",
+            "includes": [
+              "Professional interior design",
+              "File per platform specs (WORD/PDF)"
+            ],
+            "name": "eBook & Paperback Layout",
+            "pricePYG": "₲320,000",
+            "priceUSD": "$50"
+          }
+        ],
         "subtitle": "Professional design for your book",
         "title": "Our Services"
       },
@@ -13478,6 +13640,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "Horror"
       ],
       "items": [],
+      "placeholder": {
+        "features": [
+          {
+            "description": "Ready-to-use designs — with typography and color customization.",
+            "href": "/s/en/dayah-litworks/catalogo",
+            "title": "Premade Catalog"
+          },
+          {
+            "description": "Latest work + behind-the-scenes on Instagram.",
+            "href": "https://instagram.com/dayah.litworks",
+            "title": "Instagram @dayah.litworks"
+          },
+          {
+            "description": "Tell me what you're writing — I reply during business hours.",
+            "href": "https://wa.me/595986868241",
+            "title": "WhatsApp"
+          }
+        ],
+        "subtitle": "I'm curating recent work to share here. In the meantime, browse the premade catalog or DM me on WhatsApp.",
+        "title": "Portfolio coming soon"
+      },
       "seo": {
         "description": "Gallery of book covers designed by Dayah LitWorks",
         "title": "Portfolio — Dayah LitWorks"
@@ -13543,10 +13726,29 @@ export const CONTENT: Record<string, JsonRecord> = {
     "siteName": "Dayah LitWorks",
     "sobre": {
       "bio": {
+        "features": [
+          {
+            "description": "Book cover designer with 6+ years of experience. From Asunción, Paraguay, to authors worldwide.",
+            "title": ""
+          },
+          {
+            "description": "I'm Daihana Araujo, founder of Dayah LitWorks. Since November 2019, I've been transforming manuscripts into covers that sell books.\n\nI created Dayah LitWorks with the conviction that every book deserves a professional cover, regardless of the author's budget. I work with indie authors across the Spanish and English-speaking world, designing covers that capture the essence of each story.\n\nMy approach combines a deep understanding of literary genres with a collaborative creative process. I believe the best cover comes from listening to the author, understanding their vision, and translating it into a design that's not only beautiful but works as a sales tool.",
+            "title": ""
+          },
+          {
+            "description": "Founded November 20, 2019",
+            "title": "Founded"
+          },
+          {
+            "description": "Asunción, Paraguay",
+            "title": "Location"
+          }
+        ],
         "founded": "Founded November 20, 2019",
         "location": "Asunción, Paraguay",
         "long": "I'm Daihana Araujo, founder of Dayah LitWorks. Since November 2019, I've been transforming manuscripts into covers that sell books.\n\nI created Dayah LitWorks with the conviction that every book deserves a professional cover, regardless of the author's budget. I work with indie authors across the Spanish and English-speaking world, designing covers that capture the essence of each story.\n\nMy approach combines a deep understanding of literary genres with a collaborative creative process. I believe the best cover comes from listening to the author, understanding their vision, and translating it into a design that's not only beautiful but works as a sales tool.",
-        "short": "Book cover designer with 6+ years of experience. From Asunción, Paraguay, to authors worldwide."
+        "short": "Book cover designer with 6+ years of experience. From Asunción, Paraguay, to authors worldwide.",
+        "title": "About Daihana"
       },
       "hero": {
         "subtitle": "Where fantasy becomes reality",
@@ -13555,19 +13757,19 @@ export const CONTENT: Record<string, JsonRecord> = {
       "highlights": [
         {
           "description": "Years of experience",
-          "label": "6+"
+          "title": "6+"
         },
         {
           "description": "Covers designed",
-          "label": "100+"
+          "title": "100+"
         },
         {
           "description": "Clients in LATAM, USA and Europe",
-          "label": "Global"
+          "title": "Global"
         },
         {
           "description": "Spanish and English",
-          "label": "Bilingual"
+          "title": "Bilingual"
         }
       ],
       "seo": {
@@ -13578,6 +13780,23 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Book cover design — from manuscript to a cover that sells",
     "terminos": {
       "payment": {
+        "features": [
+          {
+            "description": "For international clients",
+            "icon": null,
+            "title": "Western Union"
+          },
+          {
+            "description": "Paraguayan banks",
+            "icon": null,
+            "title": "Bank transfer"
+          },
+          {
+            "description": "In-person payment in Asunción",
+            "icon": null,
+            "title": "Cash"
+          }
+        ],
         "methods": [
           {
             "description": "For international clients",
@@ -13597,32 +13816,32 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "sections": [
         {
-          "content": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
-          "title": "1. References first"
+          "answer": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
+          "question": "1. References first"
         },
         {
-          "content": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
-          "title": "2. Business days"
+          "answer": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
+          "question": "2. Business days"
         },
         {
-          "content": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
-          "title": "3. Cancellation"
+          "answer": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
+          "question": "3. Cancellation"
         },
         {
-          "content": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
-          "title": "4. Review responsibility"
+          "answer": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
+          "question": "4. Review responsibility"
         },
         {
-          "content": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
-          "title": "5. Scope changes"
+          "answer": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
+          "question": "5. Scope changes"
         },
         {
-          "content": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
-          "title": "6. Design rights"
+          "answer": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
+          "question": "6. Design rights"
         },
         {
-          "content": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
-          "title": "7. Portfolio usage"
+          "answer": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
+          "question": "7. Portfolio usage"
         }
       ],
       "seo": {
@@ -13646,6 +13865,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "subtitle": "Tips, tendencias y recursos para autores",
         "title": "Blog"
+      },
+      "placeholder": {
+        "features": [
+          {
+            "description": "Un email al mes con tips y ejemplos de portadas que venden.",
+            "href": "#newsletter",
+            "title": "Newsletter"
+          },
+          {
+            "description": "Seguimiento de trabajos recientes + proceso.",
+            "href": "https://instagram.com/dayah.litworks",
+            "title": "Instagram @dayah.litworks"
+          },
+          {
+            "description": "Preguntas directas, respuestas rápidas.",
+            "href": "https://wa.me/595986868241",
+            "title": "WhatsApp"
+          }
+        ],
+        "subtitle": "Pronto vas a encontrar acá tips de diseño, tendencias de portadas y recursos para autores indie. Mientras tanto suscribite al newsletter.",
+        "title": "Blog en preparación"
       },
       "posts": [
         {
@@ -13757,13 +13997,24 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "home": {
       "contact": {
+        "city": "Asunción, Paraguay",
         "email": "dayahlitworks@gmail.com",
         "facebook": "https://www.facebook.com/bookc0verdesign/",
+        "hours": {
+          "Domingo": "Cerrado",
+          "Jueves": "09:00 – 18:00",
+          "Lunes": "09:00 – 18:00",
+          "Martes": "09:00 – 18:00",
+          "Miércoles": "09:00 – 18:00",
+          "Sábado": "Cerrado",
+          "Viernes": "09:00 – 18:00"
+        },
         "instagram": "@dayah.litworks",
         "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
         "subtitle": "Respuesta en el día",
         "title": "Contactanos",
-        "whatsapp": "+595986868241"
+        "whatsapp": "+595986868241",
+        "whatsappMessage": "Hola Dayah! Quiero consultar por una portada."
       },
       "faq": {
         "items": [
@@ -13995,6 +14246,24 @@ export const CONTENT: Record<string, JsonRecord> = {
             "price": "Según evaluación"
           }
         ],
+        "addons_block": {
+          "features": [
+            {
+              "description": "Imagen realista de tu libro en 3D (Cotizar)",
+              "title": "Mockup 3D Estático"
+            },
+            {
+              "description": "Animación profesional de tu portada (Cotizar)",
+              "title": "Video Mockup 3D"
+            },
+            {
+              "description": "Se cotiza según evaluación de primeros capítulos y extensión del manuscrito (Según evaluación)",
+              "title": "Corrección ortotipográfica y de estilo"
+            }
+          ],
+          "subtitle": "Extras que puedes sumar a cualquier paquete. Cotización según necesidad.",
+          "title": "Servicios adicionales"
+        },
         "categories": [
           {
             "description": "Diseño exclusivo creado desde cero para tu libro",
@@ -14120,6 +14389,118 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Maquetación Interior"
           }
         ],
+        "items": [
+          {
+            "category": "Portadas Personalizadas",
+            "delivery": "1–2 semanas",
+            "description": "Portada de libro electrónica exclusiva",
+            "includes": [
+              "Portada de libro electrónico (JPG/PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
+              "2 Mockups"
+            ],
+            "name": "Portada Personalizada — eBook",
+            "pricePYG": "₲300.000",
+            "priceUSD": "$45"
+          },
+          {
+            "category": "Portadas Personalizadas",
+            "delivery": "1–2 semanas",
+            "description": "Portada completa (frente, lomo y contra) para impresión",
+            "includes": [
+              "Portada de libro tapa blanda (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
+              "2 Mockups"
+            ],
+            "name": "Portada Personalizada — Tapa Blanda",
+            "pricePYG": "₲500.000",
+            "priceUSD": "$80"
+          },
+          {
+            "category": "Portadas Personalizadas",
+            "delivery": "2–3 semanas",
+            "description": "Combo completo: portada eBook + tapa blanda",
+            "includes": [
+              "Portada de libro electrónico (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
+              "2 Mockups"
+            ],
+            "name": "Portada Paperback & eBook",
+            "pricePYG": "₲800.000",
+            "priceUSD": "$120"
+          },
+          {
+            "category": "Portadas Premade",
+            "delivery": "1–2 semanas",
+            "description": "Portada premade para eBook con personalización",
+            "includes": [
+              "Portada de libro electrónico (JPG/PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
+              "2 Mockups"
+            ],
+            "name": "Premade eBook",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$35",
+            "scopeNote": "Incluye alteraciones en redacción y tipografía, cambios de color, cambios menores en posición de elementos"
+          },
+          {
+            "category": "Portadas Premade",
+            "delivery": "1–2 semanas",
+            "description": "Portada premade completa con versión tapa blanda",
+            "includes": [
+              "Portada de libro tapa blanda (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
+              "2 Mockups"
+            ],
+            "name": "Premade eBook & Paperback",
+            "pricePYG": "₲500.000",
+            "priceUSD": "$80"
+          },
+          {
+            "category": "Maquetación Interior",
+            "delivery": "1–2 semanas",
+            "description": "Diseño interior para libro electrónico",
+            "includes": [
+              "Diseño interior profesional",
+              "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
+            ],
+            "name": "Maquetación eBook",
+            "pricePYG": "₲160.000",
+            "priceUSD": "$25"
+          },
+          {
+            "category": "Maquetación Interior",
+            "delivery": "1–2 semanas",
+            "description": "Diseño interior para libro impreso",
+            "includes": [
+              "Diseño interior profesional",
+              "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
+            ],
+            "name": "Maquetación Paperback",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$35"
+          },
+          {
+            "category": "Maquetación Interior",
+            "delivery": "1–2 semanas",
+            "description": "Diseño interior completo para ambas versiones",
+            "includes": [
+              "Diseño interior profesional",
+              "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
+            ],
+            "name": "Maquetación eBook & Paperback",
+            "pricePYG": "₲320.000",
+            "priceUSD": "$50"
+          }
+        ],
         "subtitle": "Diseño profesional para tu libro",
         "title": "Nuestros Servicios"
       },
@@ -14220,6 +14601,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "Terror"
       ],
       "items": [],
+      "placeholder": {
+        "features": [
+          {
+            "description": "Diseños listos para usar — con personalización de tipografía y color.",
+            "href": "/s/es/dayah-litworks/catalogo",
+            "title": "Catálogo Premade"
+          },
+          {
+            "description": "Últimos trabajos + proceso en Instagram.",
+            "href": "https://instagram.com/dayah.litworks",
+            "title": "Instagram @dayah.litworks"
+          },
+          {
+            "description": "Contame qué estás escribiendo — respondo en horario de oficina.",
+            "href": "https://wa.me/595986868241",
+            "title": "WhatsApp"
+          }
+        ],
+        "subtitle": "Estoy curando los trabajos recientes para compartirlos acá. Mientras tanto, mirá el catálogo de premades o escribime por WhatsApp.",
+        "title": "Portafolio en preparación"
+      },
       "seo": {
         "description": "Galería de portadas de libros diseñadas por Dayah LitWorks",
         "title": "Portafolio — Dayah LitWorks"
@@ -14279,10 +14681,29 @@ export const CONTENT: Record<string, JsonRecord> = {
     "siteName": "Dayah LitWorks",
     "sobre": {
       "bio": {
+        "features": [
+          {
+            "description": "Diseñadora de portadas de libros con más de 6 años de experiencia. Desde Asunción, Paraguay, para autores en todo el mundo.",
+            "title": ""
+          },
+          {
+            "description": "Soy Daihana Araujo, fundadora de Dayah LitWorks. Desde noviembre de 2019 me dedico a transformar manuscritos en portadas que venden libros.\n\nCreé Dayah LitWorks con la convicción de que cada libro merece una portada profesional, sin importar el presupuesto del autor. Trabajo con autores indie de todo el mundo hispano y angloparlante, diseñando portadas que capturan la esencia de cada historia.\n\nMi enfoque combina la comprensión profunda de cada género literario con un proceso creativo colaborativo. Creo que la mejor portada nace de escuchar al autor, entender su visión y traducirla en un diseño que no solo sea hermoso, sino que funcione como herramienta de venta.",
+            "title": ""
+          },
+          {
+            "description": "Fundada el 20 de noviembre de 2019",
+            "title": "Fundación"
+          },
+          {
+            "description": "Asunción, Paraguay",
+            "title": "Ubicación"
+          }
+        ],
         "founded": "Fundada el 20 de noviembre de 2019",
         "location": "Asunción, Paraguay",
         "long": "Soy Daihana Araujo, fundadora de Dayah LitWorks. Desde noviembre de 2019 me dedico a transformar manuscritos en portadas que venden libros.\n\nCreé Dayah LitWorks con la convicción de que cada libro merece una portada profesional, sin importar el presupuesto del autor. Trabajo con autores indie de todo el mundo hispano y angloparlante, diseñando portadas que capturan la esencia de cada historia.\n\nMi enfoque combina la comprensión profunda de cada género literario con un proceso creativo colaborativo. Creo que la mejor portada nace de escuchar al autor, entender su visión y traducirla en un diseño que no solo sea hermoso, sino que funcione como herramienta de venta.",
-        "short": "Diseñadora de portadas de libros con más de 6 años de experiencia. Desde Asunción, Paraguay, para autores en todo el mundo."
+        "short": "Diseñadora de portadas de libros con más de 6 años de experiencia. Desde Asunción, Paraguay, para autores en todo el mundo.",
+        "title": "Sobre Daihana"
       },
       "hero": {
         "subtitle": "Donde la fantasía se convierte en realidad",
@@ -14291,19 +14712,19 @@ export const CONTENT: Record<string, JsonRecord> = {
       "highlights": [
         {
           "description": "Años de experiencia",
-          "label": "6+"
+          "title": "6+"
         },
         {
           "description": "Portadas diseñadas",
-          "label": "100+"
+          "title": "100+"
         },
         {
           "description": "Clientes en LATAM, USA y Europa",
-          "label": "Global"
+          "title": "Global"
         },
         {
           "description": "Español e inglés",
-          "label": "Bilingüe"
+          "title": "Bilingüe"
         }
       ],
       "seo": {
@@ -14314,6 +14735,23 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Diseño de tapas de libros — del manuscrito a la portada que vende",
     "terminos": {
       "payment": {
+        "features": [
+          {
+            "description": "Para clientes internacionales",
+            "icon": null,
+            "title": "Western Union"
+          },
+          {
+            "description": "Bancos de Paraguay",
+            "icon": null,
+            "title": "Transferencia bancaria"
+          },
+          {
+            "description": "Pago presencial en Asunción",
+            "icon": null,
+            "title": "Efectivo"
+          }
+        ],
         "methods": [
           {
             "description": "Para clientes internacionales",
@@ -14333,32 +14771,32 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "sections": [
         {
-          "content": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
-          "title": "1. Referencias previas"
+          "answer": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
+          "question": "1. Referencias previas"
         },
         {
-          "content": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
-          "title": "2. Días hábiles"
+          "answer": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
+          "question": "2. Días hábiles"
         },
         {
-          "content": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
-          "title": "3. Cancelación"
+          "answer": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
+          "question": "3. Cancelación"
         },
         {
-          "content": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
-          "title": "4. Responsabilidad de revisión"
+          "answer": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
+          "question": "4. Responsabilidad de revisión"
         },
         {
-          "content": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
-          "title": "5. Cambios de alcance"
+          "answer": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
+          "question": "5. Cambios de alcance"
         },
         {
-          "content": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
-          "title": "6. Derechos de diseño"
+          "answer": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
+          "question": "6. Derechos de diseño"
         },
         {
-          "content": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
-          "title": "7. Uso en portafolio"
+          "answer": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
+          "question": "7. Uso en portafolio"
         }
       ],
       "seo": {
