@@ -118,9 +118,21 @@ function discoverSites(): DiscoveredSite[] {
 
     const pages: Record<string, JsonRecord> = {}
     const pagesDir = path.join(siteDir, 'pages')
+    // Recurse one level so `pages/producto/titanium.json` becomes the
+    // slug `producto/titanium`. Page slugs use forward slashes to match
+    // tenant URLs (buildLocaleUrl turns them into path segments).
     for (const f of listJsonFiles(pagesDir)) {
       const pageSlug = f.replace(/\.json$/, '')
       pages[pageSlug] = readJson<JsonRecord>(path.join(pagesDir, f))
+    }
+    if (isDir(pagesDir)) {
+      for (const sub of listSubdirs(pagesDir)) {
+        const subDir = path.join(pagesDir, sub)
+        for (const f of listJsonFiles(subDir)) {
+          const pageSlug = `${sub}/${f.replace(/\.json$/, '')}`
+          pages[pageSlug] = readJson<JsonRecord>(path.join(subDir, f))
+        }
+      }
     }
 
     const content: Record<string, JsonRecord> = {}

@@ -1,7 +1,7 @@
 {
-  "slug": "producto/titanium",
-  "titleKey": "producto.titanium.seo.title",
-  "descriptionKey": "producto.titanium.seo.description",
+  "slug": "producto/ortopedico",
+  "titleKey": "producto.ortopedico.seo.title",
+  "descriptionKey": "producto.ortopedico.seo.description",
   "sections": [
     {
       "id": "header",
@@ -11,22 +11,22 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "producto.titanium.hero"
+      "content": "producto.ortopedico.hero"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.trustBadges"
+      "content": "producto.ortopedico.trustBadges"
     },
     {
       "id": "programs-comparison",
       "variant": "tiered",
-      "content": "producto.titanium.sizes"
+      "content": "producto.ortopedico.sizes"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.specs"
+      "content": "producto.ortopedico.specs"
     },
     {
       "id": "testimonials",
@@ -41,7 +41,7 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "producto.titanium.cta"
+      "content": "producto.ortopedico.cta"
     },
     {
       "id": "contact",

@@ -1,7 +1,7 @@
 {
-  "slug": "producto/titanium",
-  "titleKey": "producto.titanium.seo.title",
-  "descriptionKey": "producto.titanium.seo.description",
+  "slug": "producto/serrat",
+  "titleKey": "producto.serrat.seo.title",
+  "descriptionKey": "producto.serrat.seo.description",
   "sections": [
     {
       "id": "header",
@@ -11,22 +11,17 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "producto.titanium.hero"
+      "content": "producto.serrat.hero"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.trustBadges"
-    },
-    {
-      "id": "programs-comparison",
-      "variant": "tiered",
-      "content": "producto.titanium.sizes"
+      "content": "producto.serrat.trustBadges"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.specs"
+      "content": "producto.serrat.specs"
     },
     {
       "id": "testimonials",
@@ -41,7 +36,7 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "producto.titanium.cta"
+      "content": "producto.serrat.cta"
     },
     {
       "id": "contact",
