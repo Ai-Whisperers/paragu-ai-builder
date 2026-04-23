@@ -705,7 +705,28 @@
         "readTime": "5 min",
         "imageUrl": ""
       }
-    ]
+    ],
+    "placeholder": {
+      "title": "Blog en preparación",
+      "subtitle": "Pronto vas a encontrar acá tips de diseño, tendencias de portadas y recursos para autores indie. Mientras tanto suscribite al newsletter.",
+      "features": [
+        {
+          "title": "Newsletter",
+          "description": "Un email al mes con tips y ejemplos de portadas que venden.",
+          "href": "#newsletter"
+        },
+        {
+          "title": "Instagram @dayah.litworks",
+          "description": "Seguimiento de trabajos recientes + proceso.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "WhatsApp",
+          "description": "Preguntas directas, respuestas rápidas.",
+          "href": "https://wa.me/595986868241"
+        }
+      ]
+    }
   },
   "blogPost": {
     "como-elegir-portada-libro": {
