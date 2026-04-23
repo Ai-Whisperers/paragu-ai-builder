@@ -403,7 +403,25 @@
           ],
           "category": "Maquetación Interior"
         }
-      ]
+      ],
+      "addons_block": {
+        "title": "Servicios adicionales",
+        "subtitle": "Extras que puedes sumar a cualquier paquete. Cotización según necesidad.",
+        "features": [
+          {
+            "title": "Mockup 3D Estático",
+            "description": "Imagen realista de tu libro en 3D (Cotizar)"
+          },
+          {
+            "title": "Video Mockup 3D",
+            "description": "Animación profesional de tu portada (Cotizar)"
+          },
+          {
+            "title": "Corrección ortotipográfica y de estilo",
+            "description": "Se cotiza según evaluación de primeros capítulos y extensión del manuscrito (Según evaluación)"
+          }
+        ]
+      }
     },
     "products": {
       "title": "Catálogo Premade",
@@ -645,7 +663,28 @@
       "Ciencia Ficción",
       "Terror"
     ],
-    "items": []
+    "items": [],
+    "placeholder": {
+      "title": "Portafolio en preparación",
+      "subtitle": "Estoy curando los trabajos recientes para compartirlos acá. Mientras tanto, mirá el catálogo de premades o escribime por WhatsApp.",
+      "features": [
+        {
+          "title": "Catálogo Premade",
+          "description": "Diseños listos para usar — con personalización de tipografía y color.",
+          "href": "/s/es/dayah-litworks/catalogo"
+        },
+        {
+          "title": "Instagram @dayah.litworks",
+          "description": "Últimos trabajos + proceso en Instagram.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "WhatsApp",
+          "description": "Contame qué estás escribiendo — respondo en horario de oficina.",
+          "href": "https://wa.me/595986868241"
+        }
+      ]
+    }
   },
   "blog": {
     "seo": {
