@@ -17,6 +17,12 @@ export interface ContactSectionProps {
   whatsappMessage?: string
   googleMapsUrl?: string
   hours?: Record<string, string>
+  /**
+   * Optional short note rendered below the weekday list — useful for
+   * "Tiendas en shopping abren todos los días hasta 21h" kind of
+   * caveats that don't fit into a weekday grid.
+   */
+  hoursNote?: string
   __locale?: string
 }
 
@@ -92,6 +98,7 @@ export function ContactSection({
   whatsappMessage,
   googleMapsUrl,
   hours,
+  hoursNote,
   __locale = 'es',
 }: ContactSectionProps) {
   const labels = CONTACT_LABELS[__locale] ?? CONTACT_LABELS.es
@@ -289,6 +296,11 @@ export function ContactSection({
                         </div>
                       ))}
                     </dl>
+                    {hoursNote && (
+                      <p className="mt-3 text-xs italic" style={{ color: 'var(--text-light)' }}>
+                        {hoursNote}
+                      </p>
+                    )}
                   </div>
                 </div>
               )}

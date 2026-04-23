@@ -103,11 +103,64 @@ function safeSiteContent(
   }
 }
 
+// Schema.org's dayOfWeek enum uses English names. Map localized keys
+// to their canonical form for openingHoursSpecification.
+const DAY_NAME_TO_SCHEMA: Record<string, string> = {
+  lunes: 'Monday', monday: 'Monday', lundi: 'Monday', montag: 'Monday', maandag: 'Monday', 'segunda-feira': 'Monday',
+  martes: 'Tuesday', tuesday: 'Tuesday', mardi: 'Tuesday', dienstag: 'Tuesday', dinsdag: 'Tuesday', 'terça-feira': 'Tuesday',
+  miércoles: 'Wednesday', miercoles: 'Wednesday', wednesday: 'Wednesday', mercredi: 'Wednesday', mittwoch: 'Wednesday', woensdag: 'Wednesday', 'quarta-feira': 'Wednesday',
+  jueves: 'Thursday', thursday: 'Thursday', jeudi: 'Thursday', donnerstag: 'Thursday', donderdag: 'Thursday', 'quinta-feira': 'Thursday',
+  viernes: 'Friday', friday: 'Friday', vendredi: 'Friday', freitag: 'Friday', vrijdag: 'Friday', 'sexta-feira': 'Friday',
+  sábado: 'Saturday', sabado: 'Saturday', saturday: 'Saturday', samedi: 'Saturday', samstag: 'Saturday', zaterdag: 'Saturday', sábado_pt: 'Saturday',
+  domingo: 'Sunday', sunday: 'Sunday', dimanche: 'Sunday', sonntag: 'Sunday', zondag: 'Sunday',
+}
+
+function parseHoursForSchema(
+  hours: Record<string, string> | undefined,
+): Array<{ '@type': 'OpeningHoursSpecification'; dayOfWeek: string; opens?: string; closes?: string }> {
+  if (!hours) return []
+  const spec: Array<{ '@type': 'OpeningHoursSpecification'; dayOfWeek: string; opens?: string; closes?: string }> = []
+  for (const [key, value] of Object.entries(hours)) {
+    const day = DAY_NAME_TO_SCHEMA[key.toLowerCase()]
+    if (!day) continue
+    const match = /(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})/.exec(value)
+    if (match) {
+      spec.push({ '@type': 'OpeningHoursSpecification', dayOfWeek: day, opens: match[1], closes: match[2] })
+    } else if (/cerrado|closed|geschlossen|gesloten|fechado|fermé/i.test(value)) {
+      // Omit closed days — Schema.org treats absence as "not open".
+      continue
+    }
+  }
+  return spec
+}
+
 function localBusiness(page: ResolvedPage, baseUrl: string): JsonLdItem {
   const site = page.site
   const siteContent = page.page.slug ? null : page
   const siteName = (siteContent ? (page.sections[0]?.props as Record<string, unknown>)?.businessName : undefined) || site.slug
-  return {
+  const loc = site.location
+  const address = loc
+    ? {
+        '@type': 'PostalAddress',
+        streetAddress: loc.address,
+        addressLocality: loc.city,
+        addressRegion: loc.department,
+        addressCountry: loc.country || site.country,
+      }
+    : undefined
+  const geo = loc?.coordinates
+    ? {
+        '@type': 'GeoCoordinates',
+        latitude: loc.coordinates.lat,
+        longitude: loc.coordinates.lng,
+      }
+    : undefined
+  const openingHours = parseHoursForSchema(site.hours)
+  const sameAs = site.social
+    ? Object.values(site.social).filter((v) => typeof v === 'string' && v.length > 0)
+    : undefined
+
+  const json: JsonLdItem = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: String(siteName || site.slug),
@@ -118,6 +171,11 @@ function localBusiness(page: ResolvedPage, baseUrl: string): JsonLdItem {
     inLanguage: page.locale,
     description: page.meta.description,
   }
+  if (address) json.address = address
+  if (geo) json.geo = geo
+  if (openingHours.length > 0) json.openingHoursSpecification = openingHours
+  if (sameAs && sameAs.length > 0) json.sameAs = sameAs
+  return json
 }
 
 function extractFaq(page: ResolvedPage): JsonLdItem | null {
