@@ -12874,9 +12874,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "promo-cartagena.form",
+        "content": "promo-cartagena.lead-form",
         "id": "promo-form",
-        "variant": "standard"
+        "variant": "lead-form"
       },
       {
         "content": "whatsapp",
