@@ -13058,52 +13058,52 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks.",
-            "question": "How long does a custom cover take?"
+            "a": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks.",
+            "q": "How long does a custom cover take?"
           },
           {
-            "answer": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost.",
-            "question": "How many revisions are included?"
+            "a": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost.",
+            "q": "How many revisions are included?"
           },
           {
-            "answer": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash.",
-            "question": "What's the payment process?"
+            "a": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash.",
+            "q": "What's the payment process?"
           },
           {
-            "answer": "We charge in USD and guaraníes (₲). See our pricing table for both currencies.",
-            "question": "What currency do you charge in?"
+            "a": "We charge in USD and guaraníes (₲). See our pricing table for both currencies.",
+            "q": "What currency do you charge in?"
           },
           {
-            "answer": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform.",
-            "question": "Can I use the cover on Amazon KDP / Wattpad / publishers?"
+            "a": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform.",
+            "q": "Can I use the cover on Amazon KDP / Wattpad / publishers?"
           },
           {
-            "answer": "A realistic 3D render of your book. Perfect for social media promotion and marketing.",
-            "question": "What is a 3D mockup?"
+            "a": "A realistic 3D render of your book. Perfect for social media promotion and marketing.",
+            "q": "What is a 3D mockup?"
           },
           {
-            "answer": "If the client cancels after work has started, the advance payment is non-refundable.",
-            "question": "What if I cancel the project?"
+            "a": "If the client cancels after work has started, the advance payment is non-refundable.",
+            "q": "What if I cancel the project?"
           },
           {
-            "answer": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas.",
-            "question": "Do you redesign existing covers?"
+            "a": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas.",
+            "q": "Do you redesign existing covers?"
           },
           {
-            "answer": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design.",
-            "question": "What do I need to get started?"
+            "a": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design.",
+            "q": "What do I need to get started?"
           },
           {
-            "answer": "We design covers in Spanish and English. Typography adapts to your book's language.",
-            "question": "What language do you design in?"
+            "a": "We design covers in Spanish and English. Typography adapts to your book's language.",
+            "q": "What language do you design in?"
           },
           {
-            "answer": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge.",
-            "question": "Can I request rush delivery (48–72h)?"
+            "a": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge.",
+            "q": "Can I request rush delivery (48–72h)?"
           },
           {
-            "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images.",
-            "question": "How are final files delivered?"
+            "a": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images.",
+            "q": "How are final files delivered?"
           }
         ],
         "title": "FAQ"
@@ -13837,63 +13837,63 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "sections": [
         {
-          "answer": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
-          "question": "1. References first"
+          "a": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
+          "q": "1. References first"
         },
         {
-          "answer": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
-          "question": "2. Business days"
+          "a": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
+          "q": "2. Business days"
         },
         {
-          "answer": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
-          "question": "3. Cancellation"
+          "a": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
+          "q": "3. Cancellation"
         },
         {
-          "answer": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
-          "question": "4. Review responsibility"
+          "a": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
+          "q": "4. Review responsibility"
         },
         {
-          "answer": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
-          "question": "5. Scope changes"
+          "a": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
+          "q": "5. Scope changes"
         },
         {
-          "answer": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
-          "question": "6. Design rights"
+          "a": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
+          "q": "6. Design rights"
         },
         {
-          "answer": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
-          "question": "7. Portfolio usage"
+          "a": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
+          "q": "7. Portfolio usage"
         }
       ],
       "sectionsBlock": {
         "items": [
           {
-            "answer": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
-            "question": "1. References first"
+            "a": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
+            "q": "1. References first"
           },
           {
-            "answer": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
-            "question": "2. Business days"
+            "a": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
+            "q": "2. Business days"
           },
           {
-            "answer": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
-            "question": "3. Cancellation"
+            "a": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
+            "q": "3. Cancellation"
           },
           {
-            "answer": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
-            "question": "4. Review responsibility"
+            "a": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
+            "q": "4. Review responsibility"
           },
           {
-            "answer": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
-            "question": "5. Scope changes"
+            "a": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
+            "q": "5. Scope changes"
           },
           {
-            "answer": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
-            "question": "6. Design rights"
+            "a": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
+            "q": "6. Design rights"
           },
           {
-            "answer": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
-            "question": "7. Portfolio usage"
+            "a": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
+            "q": "7. Portfolio usage"
           }
         ],
         "title": "Service terms"
@@ -14073,52 +14073,52 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas.",
-            "question": "¿Cuánto tarda una portada personalizada?"
+            "a": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas.",
+            "q": "¿Cuánto tarda una portada personalizada?"
           },
           {
-            "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra.",
-            "question": "¿Cuántas revisiones incluye?"
+            "a": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra.",
+            "q": "¿Cuántas revisiones incluye?"
           },
           {
-            "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo.",
-            "question": "¿Cómo es el proceso de pago?"
+            "a": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo.",
+            "q": "¿Cómo es el proceso de pago?"
           },
           {
-            "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios.",
-            "question": "¿En qué moneda cobran?"
+            "a": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios.",
+            "q": "¿En qué moneda cobran?"
           },
           {
-            "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas.",
-            "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?"
+            "a": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas.",
+            "q": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?"
           },
           {
-            "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing.",
-            "question": "¿Qué es un mockup 3D?"
+            "a": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing.",
+            "q": "¿Qué es un mockup 3D?"
           },
           {
-            "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable.",
-            "question": "¿Qué pasa si cancelo el proyecto?"
+            "a": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable.",
+            "q": "¿Qué pasa si cancelo el proyecto?"
           },
           {
-            "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas.",
-            "question": "¿Hacés rediseños de portadas existentes?"
+            "a": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas.",
+            "q": "¿Hacés rediseños de portadas existentes?"
           },
           {
-            "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño.",
-            "question": "¿Qué necesito enviar para empezar?"
+            "a": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño.",
+            "q": "¿Qué necesito enviar para empezar?"
           },
           {
-            "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro.",
-            "question": "¿En qué idioma diseñás?"
+            "a": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro.",
+            "q": "¿En qué idioma diseñás?"
           },
           {
-            "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo.",
-            "question": "¿Puedo contratar urgente (48–72h)?"
+            "a": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo.",
+            "q": "¿Puedo contratar urgente (48–72h)?"
           },
           {
-            "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entregan como imágenes renderizadas.",
-            "question": "¿Cómo se entregan los archivos finales?"
+            "a": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entregan como imágenes renderizadas.",
+            "q": "¿Cómo se entregan los archivos finales?"
           }
         ],
         "title": "Preguntas Frecuentes"
@@ -14846,63 +14846,63 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "sections": [
         {
-          "answer": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
-          "question": "1. Referencias previas"
+          "a": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
+          "q": "1. Referencias previas"
         },
         {
-          "answer": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
-          "question": "2. Días hábiles"
+          "a": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
+          "q": "2. Días hábiles"
         },
         {
-          "answer": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
-          "question": "3. Cancelación"
+          "a": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
+          "q": "3. Cancelación"
         },
         {
-          "answer": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
-          "question": "4. Responsabilidad de revisión"
+          "a": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
+          "q": "4. Responsabilidad de revisión"
         },
         {
-          "answer": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
-          "question": "5. Cambios de alcance"
+          "a": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
+          "q": "5. Cambios de alcance"
         },
         {
-          "answer": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
-          "question": "6. Derechos de diseño"
+          "a": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
+          "q": "6. Derechos de diseño"
         },
         {
-          "answer": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
-          "question": "7. Uso en portafolio"
+          "a": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
+          "q": "7. Uso en portafolio"
         }
       ],
       "sectionsBlock": {
         "items": [
           {
-            "answer": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
-            "question": "1. Referencias previas"
+            "a": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
+            "q": "1. Referencias previas"
           },
           {
-            "answer": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
-            "question": "2. Días hábiles"
+            "a": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
+            "q": "2. Días hábiles"
           },
           {
-            "answer": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
-            "question": "3. Cancelación"
+            "a": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
+            "q": "3. Cancelación"
           },
           {
-            "answer": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
-            "question": "4. Responsabilidad de revisión"
+            "a": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
+            "q": "4. Responsabilidad de revisión"
           },
           {
-            "answer": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
-            "question": "5. Cambios de alcance"
+            "a": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
+            "q": "5. Cambios de alcance"
           },
           {
-            "answer": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
-            "question": "6. Derechos de diseño"
+            "a": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
+            "q": "6. Derechos de diseño"
           },
           {
-            "answer": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
-            "question": "7. Uso en portafolio"
+            "a": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
+            "q": "7. Uso en portafolio"
           }
         ],
         "title": "Términos del servicio"
