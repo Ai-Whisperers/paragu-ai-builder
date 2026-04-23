@@ -11,7 +11,7 @@
   "defaultLocale": "es",
   "locales": ["es"],
   "pages": [
-    "home", "nosotros", "tiendas", "guias", "garantia", "envios", "financiacion", "terminos", "privacidad", "promo-cartagena", "quiz",
+    "home", "nosotros", "tiendas", "guias", "garantia", "envios", "financiacion", "terminos", "privacidad", "promo-cartagena", "quiz", "cambio", "combos",
     "producto/titanium", "producto/imperial", "producto/harmony", "producto/serrat", "producto/delta-soft",
     "producto/essential-top", "producto/renovate", "producto/impulse-kids", "producto/impulse-teens", "producto/pop-kids",
     "producto/pop-plus", "producto/pop-teen", "producto/superteen", "producto/super-kids", "producto/luna-soft",
