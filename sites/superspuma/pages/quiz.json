@@ -1,0 +1,14 @@
+{
+  "slug": "quiz",
+  "titleKey": "quiz.seo.title",
+  "descriptionKey": "quiz.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "image", "content": "quiz.hero" },
+    { "id": "mattress-quiz", "variant": "default", "content": "quiz.quiz" },
+    { "id": "enhanced-faq", "variant": "searchable", "content": "home.enhancedFaq" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}
