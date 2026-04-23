@@ -515,7 +515,18 @@
       "email": "dayahlitworks@gmail.com",
       "instagram": "@dayah.litworks",
       "facebook": "https://www.facebook.com/bookc0verdesign/",
-      "linkedin": "https://www.linkedin.com/in/daihana-araujo/"
+      "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
+      "city": "Asunción, Paraguay",
+      "whatsappMessage": "Hola Dayah! Quiero consultar por una portada.",
+      "hours": {
+        "Lunes": "09:00 – 18:00",
+        "Martes": "09:00 – 18:00",
+        "Miércoles": "09:00 – 18:00",
+        "Jueves": "09:00 – 18:00",
+        "Viernes": "09:00 – 18:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      }
     }
   },
   "portfolio": {
