@@ -1,7 +1,6 @@
 {
   "slug": "faq",
-  "titleKey": "faq.seo.title",
-  "descriptionKey": "faq.seo.description",
+  "title": "Preguntas Frecuentes - Dayah LitWorks",
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
     { "id": "hero", "variant": "minimal", "content": "faq.hero" },
