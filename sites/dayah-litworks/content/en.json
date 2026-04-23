@@ -711,7 +711,28 @@
         "readTime": "5 min",
         "imageUrl": ""
       }
-    ]
+    ],
+    "placeholder": {
+      "title": "Blog coming soon",
+      "subtitle": "Soon you will find cover design tips, trends, and resources for indie authors. In the meantime, subscribe to the newsletter.",
+      "features": [
+        {
+          "title": "Newsletter",
+          "description": "One email a month with tips and examples of covers that sell.",
+          "href": "#newsletter"
+        },
+        {
+          "title": "Instagram @dayah.litworks",
+          "description": "Follow recent work + behind-the-scenes.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "WhatsApp",
+          "description": "Direct questions, fast answers.",
+          "href": "https://wa.me/595986868241"
+        }
+      ]
+    }
   },
   "blogPost": {
     "como-elegir-portada-libro": {
