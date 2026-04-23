@@ -5860,7 +5860,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "title": "Contacto - Dayah LitWorks"
   },
   "dayah-litworks:faq": {
-    "descriptionKey": "faq.seo.description",
     "sections": [
       {
         "content": "navigation",
@@ -5899,7 +5898,7 @@ export const PAGES: Record<string, JsonRecord> = {
       }
     ],
     "slug": "faq",
-    "titleKey": "faq.seo.title"
+    "title": "Preguntas Frecuentes - Dayah LitWorks"
   },
   "dayah-litworks:home": {
     "descriptionKey": "home.seo.description",
