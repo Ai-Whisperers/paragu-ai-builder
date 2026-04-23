@@ -295,7 +295,7 @@ const REAL_CLIENTS = [
     name: 'Dayah Litworks',
     tagline: 'Diseño de tapas de libros',
     vertical: 'Portfolio · cobro en USD',
-    href: '/dayah-litworks',
+    href: '/s/es/dayah-litworks',
     color: '#c44569',
   },
   {
