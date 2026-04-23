@@ -57,6 +57,7 @@ import { CalcIreSection } from '@/components/sections/calc-ire-section'
 import { CalcIpsSection } from '@/components/sections/calc-ips-section'
 import { CalcCostoEmpleadoSection } from '@/components/sections/calc-costo-empleado-section'
 import { IntakeWizardSection } from '@/components/sections/intake-wizard-section'
+import { MattressQuizSection } from '@/components/sections/mattress-quiz-section'
 import { FeaturesSection } from '@/components/sections/features-section'
 import { ResourcesListSection } from '@/components/sections/resources-list-section'
 import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
@@ -135,6 +136,7 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'calc-ips': CalcIpsSection,
   'calc-costo-empleado': CalcCostoEmpleadoSection,
   'intake-wizard': IntakeWizardSection,
+  'mattress-quiz': MattressQuizSection,
   features: FeaturesSection,
   'resources-list': ResourcesListSection,
   'intake-questionnaire': IntakeQuestionnaireSection,

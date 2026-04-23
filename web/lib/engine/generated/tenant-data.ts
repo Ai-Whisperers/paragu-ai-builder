@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=233, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=234, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5136,6 +5136,7 @@ export const SITES: Record<string, JsonRecord> = {
       "terminos",
       "privacidad",
       "promo-cartagena",
+      "quiz",
       "producto/titanium",
       "producto/imperial",
       "producto/harmony",
@@ -14756,6 +14757,48 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "promo-cartagena",
     "titleKey": "home.promo-cartagena.title"
+  },
+  "superspuma:quiz": {
+    "descriptionKey": "quiz.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "quiz.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "quiz.quiz",
+        "id": "mattress-quiz",
+        "variant": "default"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "quiz",
+    "titleKey": "quiz.seo.title"
   },
   "superspuma:terminos": {
     "descriptionKey": "terminos.seo.description",
@@ -37584,6 +37627,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Catálogo"
         },
         {
+          "href": "/s/es/superspuma/quiz",
+          "label": "¿Qué necesitás?"
+        },
+        {
           "href": "/s/es/superspuma/tiendas",
           "label": "Tiendas"
         },
@@ -40159,6 +40206,440 @@ export const CONTENT: Record<string, JsonRecord> = {
         }
       }
     },
+    "quiz": {
+      "hero": {
+        "ctaPrimaryHref": "#quiz",
+        "ctaPrimaryText": "Empezar el quiz",
+        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryText": "Ver todo el catálogo",
+        "headline": "¿Qué colchón necesitás?",
+        "subheadline": "6 preguntas. 2 minutos. Te recomendamos los 3 modelos que mejor se adaptan a vos.",
+        "trustBadges": [
+          "6 preguntas",
+          "2 minutos",
+          "Recomendación personalizada"
+        ]
+      },
+      "quiz": {
+        "eyebrow": "Recomendador",
+        "products": [
+          {
+            "ctaHref": "/s/es/superspuma/producto/luna-soft",
+            "ctaLabel": "Ver Luna Soft",
+            "description": "Espuma suave, económica. Ideal para invitados o uso ocasional.",
+            "id": "luna-soft",
+            "name": "Luna Soft",
+            "priceFromLabel": "Desde Gs. 500.000"
+          },
+          {
+            "badge": "Niños",
+            "ctaHref": "/s/es/superspuma/producto/super-kids",
+            "ctaLabel": "Ver Super Kids",
+            "description": "Espuma infantil, liviana. Para cunas y primeras camas.",
+            "id": "super-kids",
+            "name": "Super Kids",
+            "priceFromLabel": "Desde Gs. 420.000"
+          },
+          {
+            "badge": "Niños",
+            "ctaHref": "/s/es/superspuma/producto/pop-kids",
+            "ctaLabel": "Ver Pop Kids",
+            "description": "Resorte económico para niños con diseños divertidos.",
+            "id": "pop-kids",
+            "name": "Pop Kids",
+            "priceFromLabel": "Desde Gs. 649.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/delta-soft",
+            "ctaLabel": "Ver Delta Soft",
+            "description": "Resorte con pillow suave. Tacto mullido con soporte de resorte.",
+            "id": "delta-soft",
+            "name": "Delta Soft",
+            "priceFromLabel": "Desde Gs. 1.050.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/golden",
+            "ctaLabel": "Ver Golden",
+            "description": "Espuma reversible con Pillow Top. Excelente relación calidad/precio.",
+            "id": "golden",
+            "name": "Golden",
+            "priceFromLabel": "Desde Gs. 696.000"
+          },
+          {
+            "badge": "Más vendido",
+            "ctaHref": "/s/es/superspuma/producto/harmony",
+            "ctaLabel": "Ver Harmony",
+            "description": "Equilibrio ideal entre soporte y confort. Euro-Top antiácaros.",
+            "id": "harmony",
+            "name": "Harmony",
+            "priceFromLabel": "Desde Gs. 1.274.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/serena",
+            "ctaLabel": "Ver Serena",
+            "description": "Espuma alta densidad con buen confort y recuperación.",
+            "id": "serena",
+            "name": "Serena",
+            "priceFromLabel": "Desde Gs. 850.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/serrat",
+            "ctaLabel": "Ver Serrat",
+            "description": "Resorte con superficie suave, firmeza media.",
+            "id": "serrat",
+            "name": "Serrat",
+            "priceFromLabel": "Desde Gs. 1.150.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/essential-top",
+            "ctaLabel": "Ver Essential Top",
+            "description": "Entrada a resorte con Pillow Top. Esencial.",
+            "id": "essential-top",
+            "name": "Essential Top",
+            "priceFromLabel": "Desde Gs. 890.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/renovate",
+            "ctaLabel": "Ver Renovate",
+            "description": "Reemplazo económico y confiable para tu viejo colchón.",
+            "id": "renovate",
+            "name": "Renovate",
+            "priceFromLabel": "Desde Gs. 780.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/pop-teen",
+            "ctaLabel": "Ver Pop Teen",
+            "description": "Pop para adolescentes, precio accesible.",
+            "id": "pop-teen",
+            "name": "Pop Teen",
+            "priceFromLabel": "Desde Gs. 780.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/imperial",
+            "ctaLabel": "Ver Imperial",
+            "description": "Resortes Bonell con Pillow Top. Descanso regenerador.",
+            "id": "imperial",
+            "name": "Imperial",
+            "priceFromLabel": "Desde Gs. 2.230.000"
+          },
+          {
+            "badge": "Premium",
+            "ctaHref": "/s/es/superspuma/producto/titanium",
+            "ctaLabel": "Ver Titanium",
+            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, hasta 120 kg.",
+            "id": "titanium",
+            "name": "Titanium",
+            "priceFromLabel": "Desde Gs. 1.800.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/duo-confort",
+            "ctaLabel": "Ver Duo Confort",
+            "description": "Memory foam adaptable. Alivio real de puntos de presión.",
+            "id": "duo-confort",
+            "name": "Duo Confort",
+            "priceFromLabel": "Desde Gs. 980.000"
+          },
+          {
+            "badge": "Más firme",
+            "ctaHref": "/s/es/superspuma/producto/ortopedico",
+            "ctaLabel": "Ver Ortopédico",
+            "description": "Espuma densidad 45. Hasta 140 kg. 6 años de garantía.",
+            "id": "ortopedico",
+            "name": "Ortopédico",
+            "priceFromLabel": "Desde Gs. 1.290.000"
+          }
+        ],
+        "resultHeading": "Tus 3 mejores matches",
+        "resultSubheading": "Ordenados por afinidad con tus respuestas. Escribinos para confirmar medidas, cuotas y disponibilidad.",
+        "steps": [
+          {
+            "helperText": "Si es para dos, elegí el peso de la persona más pesada.",
+            "id": "peso",
+            "options": [
+              {
+                "label": "Menos de 60 kg",
+                "scores": {
+                  "delta-soft": 2,
+                  "golden": 1,
+                  "luna-soft": 3,
+                  "pop-kids": 2,
+                  "super-kids": 2
+                },
+                "value": "menos-60"
+              },
+              {
+                "label": "Entre 60 y 80 kg",
+                "scores": {
+                  "duo-confort": 1,
+                  "essential-top": 2,
+                  "golden": 2,
+                  "harmony": 3,
+                  "serena": 2,
+                  "serrat": 2
+                },
+                "value": "60-80"
+              },
+              {
+                "label": "Entre 80 y 100 kg",
+                "scores": {
+                  "duo-confort": 2,
+                  "harmony": 2,
+                  "imperial": 3,
+                  "serena": 1,
+                  "titanium": 2
+                },
+                "value": "80-100"
+              },
+              {
+                "label": "Entre 100 y 130 kg",
+                "scores": {
+                  "duo-confort": 1,
+                  "imperial": 2,
+                  "ortopedico": 2,
+                  "titanium": 3
+                },
+                "value": "100-130"
+              },
+              {
+                "label": "Más de 130 kg",
+                "scores": {
+                  "ortopedico": 5,
+                  "titanium": 1
+                },
+                "value": "mas-130"
+              }
+            ],
+            "question": "¿Cuánto pesa la persona que va a usarlo?"
+          },
+          {
+            "id": "posicion",
+            "options": [
+              {
+                "label": "De costado",
+                "scores": {
+                  "delta-soft": 1,
+                  "duo-confort": 3,
+                  "harmony": 2,
+                  "luna-soft": 2
+                },
+                "value": "costado"
+              },
+              {
+                "label": "Boca arriba",
+                "scores": {
+                  "harmony": 2,
+                  "imperial": 2,
+                  "serena": 2,
+                  "titanium": 1
+                },
+                "value": "espalda"
+              },
+              {
+                "label": "Boca abajo",
+                "scores": {
+                  "imperial": 2,
+                  "ortopedico": 2,
+                  "serena": 1,
+                  "titanium": 2
+                },
+                "value": "estomago"
+              },
+              {
+                "label": "Cambio de posición toda la noche",
+                "scores": {
+                  "duo-confort": 3,
+                  "harmony": 2
+                },
+                "value": "mixto"
+              }
+            ],
+            "question": "¿En qué posición dormís más?"
+          },
+          {
+            "id": "columna",
+            "options": [
+              {
+                "label": "No, todo bien",
+                "scores": {
+                  "golden": 1,
+                  "harmony": 2,
+                  "luna-soft": 1,
+                  "serena": 1
+                },
+                "value": "no"
+              },
+              {
+                "label": "Dolor ocasional",
+                "scores": {
+                  "duo-confort": 3,
+                  "harmony": 2,
+                  "serena": 1
+                },
+                "value": "ocasional"
+              },
+              {
+                "label": "Dolor crónico / recomendación médica",
+                "scores": {
+                  "duo-confort": 3,
+                  "ortopedico": 4,
+                  "titanium": 2
+                },
+                "value": "cronico"
+              }
+            ],
+            "question": "¿Tenés problemas de columna o dolor de espalda?"
+          },
+          {
+            "helperText": "Si tuviste un colchón antes, pensá en qué cambiarías de ese.",
+            "id": "firmeza",
+            "options": [
+              {
+                "label": "Suave / mullido",
+                "scores": {
+                  "delta-soft": 2,
+                  "luna-soft": 3,
+                  "super-kids": 1
+                },
+                "value": "suave"
+              },
+              {
+                "label": "Medio (equilibrado)",
+                "scores": {
+                  "essential-top": 1,
+                  "golden": 2,
+                  "harmony": 3,
+                  "serena": 2,
+                  "serrat": 2
+                },
+                "value": "medio"
+              },
+              {
+                "label": "Firme",
+                "scores": {
+                  "imperial": 3,
+                  "titanium": 2
+                },
+                "value": "firme"
+              },
+              {
+                "label": "Extra firme / ortopédico",
+                "scores": {
+                  "ortopedico": 4,
+                  "titanium": 2
+                },
+                "value": "extra-firme"
+              },
+              {
+                "label": "Adaptable (se ajusta al cuerpo)",
+                "scores": {
+                  "duo-confort": 4,
+                  "serena": 1
+                },
+                "value": "adaptable"
+              }
+            ],
+            "question": "¿Qué firmeza preferís?"
+          },
+          {
+            "helperText": "Pensá en el precio total, con cuotas sin interés el mensual puede ser mucho menor.",
+            "id": "presupuesto",
+            "options": [
+              {
+                "label": "Hasta Gs. 800.000",
+                "scores": {
+                  "golden": 2,
+                  "luna-soft": 3,
+                  "pop-kids": 2,
+                  "pop-teen": 1,
+                  "renovate": 2,
+                  "super-kids": 2
+                },
+                "value": "economico"
+              },
+              {
+                "label": "Entre Gs. 800.000 y 1.500.000",
+                "scores": {
+                  "duo-confort": 1,
+                  "essential-top": 2,
+                  "golden": 1,
+                  "harmony": 3,
+                  "ortopedico": 1,
+                  "serena": 2,
+                  "serrat": 2
+                },
+                "value": "medio"
+              },
+              {
+                "label": "Entre Gs. 1.500.000 y 2.500.000",
+                "scores": {
+                  "duo-confort": 2,
+                  "harmony": 1,
+                  "imperial": 2,
+                  "ortopedico": 2,
+                  "titanium": 3
+                },
+                "value": "alto"
+              },
+              {
+                "label": "Más de Gs. 2.500.000",
+                "scores": {
+                  "imperial": 3,
+                  "ortopedico": 1,
+                  "titanium": 3
+                },
+                "value": "premium"
+              }
+            ],
+            "question": "¿Cuál es tu presupuesto ideal?"
+          },
+          {
+            "id": "tipo",
+            "options": [
+              {
+                "label": "Resorte (más firme, más ventilado)",
+                "scores": {
+                  "essential-top": 1,
+                  "harmony": 2,
+                  "imperial": 2,
+                  "serrat": 1,
+                  "titanium": 3
+                },
+                "value": "resorte"
+              },
+              {
+                "label": "Espuma (más silenciosa, más confortable)",
+                "scores": {
+                  "duo-confort": 3,
+                  "golden": 2,
+                  "luna-soft": 2,
+                  "ortopedico": 2,
+                  "serena": 2
+                },
+                "value": "espuma"
+              },
+              {
+                "label": "Me da igual, decidime",
+                "scores": {
+                  "duo-confort": 1,
+                  "harmony": 1,
+                  "ortopedico": 1,
+                  "titanium": 1
+                },
+                "value": "indiferente"
+              }
+            ],
+            "question": "¿Tenés preferencia por resorte o espuma?"
+          }
+        ],
+        "subtitle": "Respondé honestamente — las recomendaciones son mejores cuanto más ajustadas sean las respuestas.",
+        "title": "Contanos qué buscás",
+        "topK": 3
+      },
+      "seo": {
+        "description": "En 6 preguntas te recomendamos el colchón ideal según tu peso, postura al dormir, y necesidades de soporte. 19 modelos disponibles.",
+        "title": "¿Qué colchón necesitás? — Quiz Superspuma"
+      }
+    },
     "siteName": "Superspuma",
     "terminos": {
       "hero": {
@@ -42454,7 +42935,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "compliance-disclaimer-footer",
       "promo-banner",
       "newsletter-signup",
-      "lead-form"
+      "lead-form",
+      "mattress-quiz"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",

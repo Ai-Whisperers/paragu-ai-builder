@@ -1727,6 +1727,111 @@
       ]
     }
   },
+  "quiz": {
+    "seo": {
+      "title": "¿Qué colchón necesitás? — Quiz Superspuma",
+      "description": "En 6 preguntas te recomendamos el colchón ideal según tu peso, postura al dormir, y necesidades de soporte. 19 modelos disponibles."
+    },
+    "hero": {
+      "headline": "¿Qué colchón necesitás?",
+      "subheadline": "6 preguntas. 2 minutos. Te recomendamos los 3 modelos que mejor se adaptan a vos.",
+      "ctaPrimaryText": "Empezar el quiz",
+      "ctaPrimaryHref": "#quiz",
+      "ctaSecondaryText": "Ver todo el catálogo",
+      "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+      "trustBadges": ["6 preguntas", "2 minutos", "Recomendación personalizada"]
+    },
+    "quiz": {
+      "eyebrow": "Recomendador",
+      "title": "Contanos qué buscás",
+      "subtitle": "Respondé honestamente — las recomendaciones son mejores cuanto más ajustadas sean las respuestas.",
+      "resultHeading": "Tus 3 mejores matches",
+      "resultSubheading": "Ordenados por afinidad con tus respuestas. Escribinos para confirmar medidas, cuotas y disponibilidad.",
+      "topK": 3,
+      "steps": [
+        {
+          "id": "peso",
+          "question": "¿Cuánto pesa la persona que va a usarlo?",
+          "helperText": "Si es para dos, elegí el peso de la persona más pesada.",
+          "options": [
+            { "value": "menos-60", "label": "Menos de 60 kg", "scores": { "luna-soft": 3, "super-kids": 2, "pop-kids": 2, "delta-soft": 2, "golden": 1 } },
+            { "value": "60-80", "label": "Entre 60 y 80 kg", "scores": { "harmony": 3, "serena": 2, "golden": 2, "serrat": 2, "essential-top": 2, "duo-confort": 1 } },
+            { "value": "80-100", "label": "Entre 80 y 100 kg", "scores": { "imperial": 3, "harmony": 2, "duo-confort": 2, "titanium": 2, "serena": 1 } },
+            { "value": "100-130", "label": "Entre 100 y 130 kg", "scores": { "titanium": 3, "imperial": 2, "ortopedico": 2, "duo-confort": 1 } },
+            { "value": "mas-130", "label": "Más de 130 kg", "scores": { "ortopedico": 5, "titanium": 1 } }
+          ]
+        },
+        {
+          "id": "posicion",
+          "question": "¿En qué posición dormís más?",
+          "options": [
+            { "value": "costado", "label": "De costado", "scores": { "duo-confort": 3, "harmony": 2, "luna-soft": 2, "delta-soft": 1 } },
+            { "value": "espalda", "label": "Boca arriba", "scores": { "harmony": 2, "serena": 2, "imperial": 2, "titanium": 1 } },
+            { "value": "estomago", "label": "Boca abajo", "scores": { "titanium": 2, "imperial": 2, "ortopedico": 2, "serena": 1 } },
+            { "value": "mixto", "label": "Cambio de posición toda la noche", "scores": { "duo-confort": 3, "harmony": 2 } }
+          ]
+        },
+        {
+          "id": "columna",
+          "question": "¿Tenés problemas de columna o dolor de espalda?",
+          "options": [
+            { "value": "no", "label": "No, todo bien", "scores": { "harmony": 2, "luna-soft": 1, "serena": 1, "golden": 1 } },
+            { "value": "ocasional", "label": "Dolor ocasional", "scores": { "duo-confort": 3, "harmony": 2, "serena": 1 } },
+            { "value": "cronico", "label": "Dolor crónico / recomendación médica", "scores": { "ortopedico": 4, "duo-confort": 3, "titanium": 2 } }
+          ]
+        },
+        {
+          "id": "firmeza",
+          "question": "¿Qué firmeza preferís?",
+          "helperText": "Si tuviste un colchón antes, pensá en qué cambiarías de ese.",
+          "options": [
+            { "value": "suave", "label": "Suave / mullido", "scores": { "luna-soft": 3, "delta-soft": 2, "super-kids": 1 } },
+            { "value": "medio", "label": "Medio (equilibrado)", "scores": { "harmony": 3, "serena": 2, "serrat": 2, "golden": 2, "essential-top": 1 } },
+            { "value": "firme", "label": "Firme", "scores": { "imperial": 3, "titanium": 2 } },
+            { "value": "extra-firme", "label": "Extra firme / ortopédico", "scores": { "ortopedico": 4, "titanium": 2 } },
+            { "value": "adaptable", "label": "Adaptable (se ajusta al cuerpo)", "scores": { "duo-confort": 4, "serena": 1 } }
+          ]
+        },
+        {
+          "id": "presupuesto",
+          "question": "¿Cuál es tu presupuesto ideal?",
+          "helperText": "Pensá en el precio total, con cuotas sin interés el mensual puede ser mucho menor.",
+          "options": [
+            { "value": "economico", "label": "Hasta Gs. 800.000", "scores": { "luna-soft": 3, "super-kids": 2, "pop-kids": 2, "golden": 2, "renovate": 2, "pop-teen": 1 } },
+            { "value": "medio", "label": "Entre Gs. 800.000 y 1.500.000", "scores": { "harmony": 3, "essential-top": 2, "serrat": 2, "serena": 2, "duo-confort": 1, "golden": 1, "ortopedico": 1 } },
+            { "value": "alto", "label": "Entre Gs. 1.500.000 y 2.500.000", "scores": { "titanium": 3, "imperial": 2, "duo-confort": 2, "harmony": 1, "ortopedico": 2 } },
+            { "value": "premium", "label": "Más de Gs. 2.500.000", "scores": { "titanium": 3, "imperial": 3, "ortopedico": 1 } }
+          ]
+        },
+        {
+          "id": "tipo",
+          "question": "¿Tenés preferencia por resorte o espuma?",
+          "options": [
+            { "value": "resorte", "label": "Resorte (más firme, más ventilado)", "scores": { "titanium": 3, "imperial": 2, "harmony": 2, "serrat": 1, "essential-top": 1 } },
+            { "value": "espuma", "label": "Espuma (más silenciosa, más confortable)", "scores": { "duo-confort": 3, "serena": 2, "golden": 2, "luna-soft": 2, "ortopedico": 2 } },
+            { "value": "indiferente", "label": "Me da igual, decidime", "scores": { "harmony": 1, "duo-confort": 1, "titanium": 1, "ortopedico": 1 } }
+          ]
+        }
+      ],
+      "products": [
+        { "id": "luna-soft", "name": "Luna Soft", "description": "Espuma suave, económica. Ideal para invitados o uso ocasional.", "priceFromLabel": "Desde Gs. 500.000", "ctaHref": "/s/es/superspuma/producto/luna-soft", "ctaLabel": "Ver Luna Soft" },
+        { "id": "super-kids", "name": "Super Kids", "description": "Espuma infantil, liviana. Para cunas y primeras camas.", "priceFromLabel": "Desde Gs. 420.000", "ctaHref": "/s/es/superspuma/producto/super-kids", "ctaLabel": "Ver Super Kids", "badge": "Niños" },
+        { "id": "pop-kids", "name": "Pop Kids", "description": "Resorte económico para niños con diseños divertidos.", "priceFromLabel": "Desde Gs. 649.000", "ctaHref": "/s/es/superspuma/producto/pop-kids", "ctaLabel": "Ver Pop Kids", "badge": "Niños" },
+        { "id": "delta-soft", "name": "Delta Soft", "description": "Resorte con pillow suave. Tacto mullido con soporte de resorte.", "priceFromLabel": "Desde Gs. 1.050.000", "ctaHref": "/s/es/superspuma/producto/delta-soft", "ctaLabel": "Ver Delta Soft" },
+        { "id": "golden", "name": "Golden", "description": "Espuma reversible con Pillow Top. Excelente relación calidad/precio.", "priceFromLabel": "Desde Gs. 696.000", "ctaHref": "/s/es/superspuma/producto/golden", "ctaLabel": "Ver Golden" },
+        { "id": "harmony", "name": "Harmony", "description": "Equilibrio ideal entre soporte y confort. Euro-Top antiácaros.", "priceFromLabel": "Desde Gs. 1.274.000", "ctaHref": "/s/es/superspuma/producto/harmony", "ctaLabel": "Ver Harmony", "badge": "Más vendido" },
+        { "id": "serena", "name": "Serena", "description": "Espuma alta densidad con buen confort y recuperación.", "priceFromLabel": "Desde Gs. 850.000", "ctaHref": "/s/es/superspuma/producto/serena", "ctaLabel": "Ver Serena" },
+        { "id": "serrat", "name": "Serrat", "description": "Resorte con superficie suave, firmeza media.", "priceFromLabel": "Desde Gs. 1.150.000", "ctaHref": "/s/es/superspuma/producto/serrat", "ctaLabel": "Ver Serrat" },
+        { "id": "essential-top", "name": "Essential Top", "description": "Entrada a resorte con Pillow Top. Esencial.", "priceFromLabel": "Desde Gs. 890.000", "ctaHref": "/s/es/superspuma/producto/essential-top", "ctaLabel": "Ver Essential Top" },
+        { "id": "renovate", "name": "Renovate", "description": "Reemplazo económico y confiable para tu viejo colchón.", "priceFromLabel": "Desde Gs. 780.000", "ctaHref": "/s/es/superspuma/producto/renovate", "ctaLabel": "Ver Renovate" },
+        { "id": "pop-teen", "name": "Pop Teen", "description": "Pop para adolescentes, precio accesible.", "priceFromLabel": "Desde Gs. 780.000", "ctaHref": "/s/es/superspuma/producto/pop-teen", "ctaLabel": "Ver Pop Teen" },
+        { "id": "imperial", "name": "Imperial", "description": "Resortes Bonell con Pillow Top. Descanso regenerador.", "priceFromLabel": "Desde Gs. 2.230.000", "ctaHref": "/s/es/superspuma/producto/imperial", "ctaLabel": "Ver Imperial" },
+        { "id": "titanium", "name": "Titanium", "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, hasta 120 kg.", "priceFromLabel": "Desde Gs. 1.800.000", "ctaHref": "/s/es/superspuma/producto/titanium", "ctaLabel": "Ver Titanium", "badge": "Premium" },
+        { "id": "duo-confort", "name": "Duo Confort", "description": "Memory foam adaptable. Alivio real de puntos de presión.", "priceFromLabel": "Desde Gs. 980.000", "ctaHref": "/s/es/superspuma/producto/duo-confort", "ctaLabel": "Ver Duo Confort" },
+        { "id": "ortopedico", "name": "Ortopédico", "description": "Espuma densidad 45. Hasta 140 kg. 6 años de garantía.", "priceFromLabel": "Desde Gs. 1.290.000", "ctaHref": "/s/es/superspuma/producto/ortopedico", "ctaLabel": "Ver Ortopédico", "badge": "Más firme" }
+      ]
+    }
+  },
   "navigation": {
     "businessName": "Superspuma",
     "ctaText": "Consultar por WhatsApp",
@@ -1739,6 +1844,10 @@
       {
         "label": "Catálogo",
         "href": "/s/es/superspuma#catalogo"
+      },
+      {
+        "label": "¿Qué necesitás?",
+        "href": "/s/es/superspuma/quiz"
       },
       {
         "label": "Tiendas",
