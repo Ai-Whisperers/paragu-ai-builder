@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=237, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5230,20 +5230,22 @@ export const SITES: Record<string, JsonRecord> = {
 
 export const TENANT_TOKENS: Record<string, JsonRecord> = {
   "dayah-litworks": {
-    "$comment": "Dark moody theme for book cover design portfolio. Fonts: Playfair Display (elegant headings), Inter (body).",
+    "$comment": "Dark moody theme for book cover design portfolio. WCAG AA audited 2026-04-23: primary lightened to #8699c4 (contrast vs bg: 6.04:1, AA normal); secondary darkened to #c22848 for hero CTA text contrast (4.68:1 vs eaeaea, AA normal); accent lightened to #6691c8; border lightened to #3a4a73 for visibility.",
     "borderRadius": "0.5rem",
     "extends": "vertical:portfolio-professional",
     "palette": {
-      "accent": "#0f3460",
+      "accent": "#6691c8",
       "background": "#0f0f1a",
-      "border": "#233554",
-      "primary": "#1a1a2e",
-      "secondary": "#e94560",
+      "border": "#3a4a73",
+      "primary": "#8699c4",
+      "primaryForeground": "#0f0f1a",
+      "secondary": "#c22848",
+      "secondaryForeground": "#ffffff",
       "success": "#64ffda",
       "surface": "#16213e",
       "surfaceAlt": "#1a1a2e",
       "text": "#eaeaea",
-      "textMuted": "#8892b0",
+      "textMuted": "#a0aac4",
       "warning": "#ffd93d"
     },
     "theme": "dark",
@@ -6122,6 +6124,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "portafolio",
     "titleKey": "portfolio.seo.title"
+  },
+  "dayah-litworks:privacidad": {
+    "descriptionKey": "privacidad.subtitle",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "privacidad",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "privacidad.sectionsBlock",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "privacidad",
+    "titleKey": "privacidad.title"
   },
   "dayah-litworks:servicios": {
     "descriptionKey": "home.services.subtitle",
@@ -15007,23 +15041,23 @@ export const CONTENT: Record<string, JsonRecord> = {
       "placeholder": {
         "features": [
           {
-            "description": "One email a month with tips and examples of covers that sell.",
+            "description": "One email a month. Nothing more.",
             "href": "#newsletter",
-            "title": "Newsletter"
+            "title": "Subscribe to the newsletter"
           },
           {
-            "description": "Follow recent work + behind-the-scenes.",
+            "description": "Recent work + daily process.",
             "href": "https://instagram.com/dayah.litworks",
-            "title": "Instagram @dayah.litworks"
+            "title": "Follow on Instagram"
           },
           {
-            "description": "Direct questions, fast answers.",
+            "description": "Specific technical questions about your project, fast answers.",
             "href": "https://wa.me/595986868241",
-            "title": "WhatsApp"
+            "title": "Ask via WhatsApp"
           }
         ],
-        "subtitle": "Soon you will find cover design tips, trends, and resources for indie authors. In the meantime, subscribe to the newsletter.",
-        "title": "Blog coming soon"
+        "subtitle": "I don't write blog posts yet. One email a month with concrete tips on indie covers, before/after examples, and genre trends. No filler.",
+        "title": "Newsletter only for now"
       },
       "posts": [
         {
@@ -15055,8 +15089,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": []
     },
     "contactHero": {
-      "subtitle": "Tell me what you're writing and we'll craft the cover that sells your book. I reply during business hours.",
-      "title": "Contact"
+      "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
+      "title": "Tell me about your book"
     },
     "ctaBanner": {
       "ctaHref": "https://wa.me/595986868241",
@@ -15130,7 +15164,33 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Dayah LitWorks",
       "copyright": "© 2026 Dayah LitWorks. All rights reserved.",
-      "founded": "2019"
+      "founded": "2019",
+      "navLinks": [
+        {
+          "href": "/s/en/dayah-litworks/servicios",
+          "label": "Services"
+        },
+        {
+          "href": "/s/en/dayah-litworks/portafolio",
+          "label": "Portfolio"
+        },
+        {
+          "href": "/s/en/dayah-litworks/sobre",
+          "label": "About"
+        },
+        {
+          "href": "/s/en/dayah-litworks/contacto",
+          "label": "Contact"
+        },
+        {
+          "href": "/s/en/dayah-litworks/terminos",
+          "label": "Terms"
+        },
+        {
+          "href": "/s/en/dayah-litworks/privacidad",
+          "label": "Privacy"
+        }
+      ]
     },
     "home": {
       "contact": {
@@ -15209,42 +15269,35 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
-        "ctaPrimaryText": "View Premade Catalog",
+        "ctaPrimaryText": "View Catalog",
         "ctaSecondaryHref": "https://wa.me/595986868241",
-        "ctaSecondaryText": "Contact via WhatsApp",
-        "headline": "Dayah LitWorks",
-        "subheadline": "Book cover design — from manuscript to a cover that sells"
+        "ctaSecondaryText": "WhatsApp",
+        "headline": "Covers that sell.",
+        "subheadline": "For indie authors worldwide. USD or PYG."
       },
       "process": {
         "steps": [
           {
-            "description": "We learn about your book, audience and visual references",
+            "description": "Send me genre, audience, visual references, and deadline. Within 24 h I'll confirm whether the project fits my schedule.",
             "duration": "Day 1",
-            "title": "Initial Consultation"
+            "number": 1,
+            "title": "Brief + references"
           },
           {
-            "description": "We define style, mood and creative direction",
-            "duration": "Days 1–2",
-            "title": "Brief & References"
+            "description": "I propose 2 initial options. You pick one and we refine it across 2 revision rounds at no extra cost.",
+            "duration": "Week 1",
+            "number": 2,
+            "title": "Design"
           },
           {
-            "description": "We present 2–3 initial options",
-            "duration": "Days 3–5",
-            "title": "Design Proposals"
-          },
-          {
-            "description": "Adjustments until it's perfect",
-            "duration": "Days 5–7",
-            "title": "Revisions"
-          },
-          {
-            "description": "All high-resolution files ready for your platform",
-            "duration": "Day 7",
-            "title": "Final Delivery"
+            "description": "High-resolution files for your platform: eBook cover JPG/PDF, title PNG, reveal banners, 2 mockups. Ready to upload.",
+            "duration": "Week 2",
+            "number": 3,
+            "title": "Final delivery"
           }
         ],
-        "subtitle": "How we transform your manuscript into a cover that sells",
-        "title": "Our Process"
+        "subtitle": "From manuscript to cover in 3 steps. 2 revision rounds included. Pay in 2 installments (50% to start, 50% on approval).",
+        "title": "Process"
       },
       "products": {
         "categories": [
@@ -15369,37 +15422,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       "services": {
         "addons": [
           {
-            "description": "Realistic 3D render of your book",
+            "description": "Realistic 3D render of your book for Amazon, Instagram, and press. Price depends on number of angles.",
             "name": "Static 3D Mockup",
-            "price": "Quote"
+            "price": "USD 15–30"
           },
           {
-            "description": "Professional animation of your cover",
-            "name": "3D Video Mockup",
-            "price": "Quote"
+            "description": "A 5–10 second animation — ideal for social reveals. Includes 1 revision round.",
+            "name": "Video 3D Mockup",
+            "price": "USD 40–80"
           },
           {
-            "description": "Priced based on evaluation of first chapters and manuscript length",
-            "name": "Copyediting & Proofreading",
-            "price": "Per evaluation"
+            "description": "Professional pass before layout. Quoted on the first 2 chapters + total length.",
+            "name": "Copyediting",
+            "price": "USD 2 / 1000 words"
+          },
+          {
+            "description": "If you need it sooner than usual, pay a surcharge to jump the queue.",
+            "name": "Rush (delivery <1 week)",
+            "price": "+50% over base price"
+          },
+          {
+            "description": "Scope changes outside the original direction.",
+            "name": "Extra revision (beyond the 2 included)",
+            "price": "USD 20 / round"
           }
         ],
         "addons_block": {
           "features": [
             {
-              "description": "Realistic 3D render of your book (Quote)",
+              "description": "Realistic 3D render of your book for Amazon, Instagram, and press. Price depends on number of angles. — USD 15–30",
               "title": "Static 3D Mockup"
             },
             {
-              "description": "Professional animation of your cover (Quote)",
-              "title": "3D Video Mockup"
+              "description": "A 5–10 second animation — ideal for social reveals. Includes 1 revision round. — USD 40–80",
+              "title": "Video 3D Mockup"
             },
             {
-              "description": "Priced based on evaluation of first chapters and manuscript length (Per evaluation)",
-              "title": "Copyediting & Proofreading"
+              "description": "Professional pass before layout. Quoted on the first 2 chapters + total length. — USD 2 / 1000 words",
+              "title": "Copyediting"
+            },
+            {
+              "description": "If you need it sooner than usual, pay a surcharge to jump the queue. — +50% over base price",
+              "title": "Rush (delivery <1 week)"
+            },
+            {
+              "description": "Scope changes outside the original direction. — USD 20 / round",
+              "title": "Extra revision (beyond the 2 included)"
             }
           ],
-          "subtitle": "Add-ons you can attach to any package. Quote on request.",
+          "subtitle": "Add-ons you can attach to any package.",
           "title": "Additional services"
         },
         "categories": [
@@ -15680,6 +15751,20 @@ export const CONTENT: Record<string, JsonRecord> = {
             "label": "Fast delivery"
           }
         ],
+        "items": [
+          {
+            "icon": "BookOpen",
+            "title": "6+ years designing covers"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "USD or PYG"
+          },
+          {
+            "icon": "Clock",
+            "title": "Delivery in 1–2 weeks"
+          }
+        ],
         "title": "Why Choose Us"
       }
     },
@@ -15742,23 +15827,23 @@ export const CONTENT: Record<string, JsonRecord> = {
       "placeholder": {
         "features": [
           {
-            "description": "Ready-to-use designs — with typography and color customization.",
-            "href": "/s/en/dayah-litworks/catalogo",
-            "title": "Premade Catalog"
+            "description": "Tell me your genre and I'll send 3–5 recent examples privately. Same-day response.",
+            "href": "https://wa.me/595986868241",
+            "title": "Request samples via WhatsApp"
           },
           {
-            "description": "Latest work + behind-the-scenes on Instagram.",
+            "description": "What I can show publicly: recent work + process + reveal banners.",
             "href": "https://instagram.com/dayah.litworks",
             "title": "Instagram @dayah.litworks"
           },
           {
-            "description": "Tell me what you're writing — I reply during business hours.",
-            "href": "https://wa.me/595986868241",
-            "title": "WhatsApp"
+            "description": "Ready-to-customize designs for when you need a cover fast.",
+            "href": "/s/en/dayah-litworks/catalogo",
+            "title": "Premade Catalog"
           }
         ],
-        "subtitle": "I'm curating recent work to share here. In the meantime, browse the premade catalog or DM me on WhatsApp.",
-        "title": "Portfolio coming soon"
+        "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
+        "title": "Private portfolio"
       },
       "seo": {
         "description": "Gallery of book covers designed by Dayah LitWorks",
@@ -15767,8 +15852,162 @@ export const CONTENT: Record<string, JsonRecord> = {
       "subtitle": "Covers that sell books",
       "title": "Portfolio"
     },
+    "privacidad": {
+      "sections": [
+        {
+          "a": "Only what's needed to work with you: name, email, phone/WhatsApp if provided, and what you send about your project (manuscript, references). Nothing else.",
+          "q": "What data I collect"
+        },
+        {
+          "a": "Replying to your inquiry, coordinating the project, sending deliveries, and invoicing. I don't sell or share your data with third parties.",
+          "q": "What I use it for"
+        },
+        {
+          "a": "Email in Gmail, working files in Google Drive, conversations in WhatsApp. Working files are deleted 6 months after final delivery unless you ask me to keep them.",
+          "q": "Where I store it"
+        },
+        {
+          "a": "If you subscribe to the newsletter, your email goes to Mailchimp. You can unsubscribe via the link at the bottom of each email, and your email is deleted within 30 days.",
+          "q": "Newsletter"
+        },
+        {
+          "a": "You can ask me at any time to show, correct, or delete the data I have about you. Email dayahlitworks@gmail.com.",
+          "q": "Your rights"
+        },
+        {
+          "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis).",
+          "q": "Jurisdiction"
+        }
+      ],
+      "sectionsBlock": {
+        "items": [
+          {
+            "a": "Only what's needed to work with you: name, email, phone/WhatsApp if provided, and what you send about your project (manuscript, references). Nothing else.",
+            "q": "What data I collect"
+          },
+          {
+            "a": "Replying to your inquiry, coordinating the project, sending deliveries, and invoicing. I don't sell or share your data with third parties.",
+            "q": "What I use it for"
+          },
+          {
+            "a": "Email in Gmail, working files in Google Drive, conversations in WhatsApp. Working files are deleted 6 months after final delivery unless you ask me to keep them.",
+            "q": "Where I store it"
+          },
+          {
+            "a": "If you subscribe to the newsletter, your email goes to Mailchimp. You can unsubscribe via the link at the bottom of each email, and your email is deleted within 30 days.",
+            "q": "Newsletter"
+          },
+          {
+            "a": "You can ask me at any time to show, correct, or delete the data I have about you. Email dayahlitworks@gmail.com.",
+            "q": "Your rights"
+          },
+          {
+            "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis).",
+            "q": "Jurisdiction"
+          }
+        ],
+        "title": "Privacy policy"
+      },
+      "subtitle": "How I handle your information.",
+      "title": "Privacy"
+    },
     "quoteForm": {
       "ctaText": "Send inquiry via WhatsApp",
+      "fields": [
+        {
+          "label": "Name",
+          "name": "name",
+          "required": true,
+          "type": "text"
+        },
+        {
+          "label": "Email",
+          "name": "email",
+          "required": true,
+          "type": "email"
+        },
+        {
+          "label": "Book genre",
+          "name": "genre",
+          "options": [
+            "Fantasy",
+            "Romance",
+            "Dark Romance",
+            "Thriller / Suspense",
+            "Sci-Fi",
+            "Horror",
+            "YA",
+            "Non-fiction",
+            "Other"
+          ],
+          "required": true,
+          "type": "select"
+        },
+        {
+          "label": "Cover type",
+          "name": "cover_type",
+          "options": [
+            "eBook only",
+            "Paperback only",
+            "eBook + Paperback",
+            "Premade",
+            "I don't know yet"
+          ],
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "label": "Manuscript length",
+          "name": "manuscript_length",
+          "options": [
+            "Under 50 000 words",
+            "50 000 – 100 000",
+            "Over 100 000",
+            "N/A (cover only)"
+          ],
+          "type": "select"
+        },
+        {
+          "help": "Rush (<1 week) incurs a +50% surcharge.",
+          "label": "When do you need delivery?",
+          "name": "deadline",
+          "type": "date"
+        },
+        {
+          "label": "Budget range (USD)",
+          "name": "budget",
+          "options": [
+            "Under $50",
+            "$50 – $100",
+            "$100 – $200",
+            "$200 +",
+            "I don't know, suggest one"
+          ],
+          "type": "select"
+        },
+        {
+          "help": "Required BEFORE quoting — see Terms #1.",
+          "label": "Visual references (Pinterest / Drive / Instagram link, or covers you like)",
+          "name": "references",
+          "type": "url"
+        },
+        {
+          "label": "Preferred reply channel",
+          "name": "contact_preference",
+          "options": [
+            "WhatsApp",
+            "Email"
+          ],
+          "type": "radio"
+        },
+        {
+          "label": "Short synopsis + additional notes",
+          "name": "description",
+          "placeholder": "What the book is about (2–3 lines), target audience, mood/atmosphere you're after, things you DON'T want on the cover…",
+          "required": true,
+          "type": "textarea"
+        }
+      ],
       "serviceOptions": [
         "Custom Cover — eBook ($45)",
         "Custom Cover — Paperback ($80)",
@@ -15813,8 +16052,13 @@ export const CONTENT: Record<string, JsonRecord> = {
           "title": "Your info"
         }
       ],
-      "title": "Tell me about your project",
-      "whatsappBase": "https://wa.me/595986868241"
+      "submitLabel": "Send via WhatsApp",
+      "subtitle": "Fields marked * are required. Sending visual references is what speeds up the quote the most.",
+      "successBody": "I've opened WhatsApp with your request. I reply within office hours (Mon–Fri 09:00–18:00 PY).",
+      "successTitle": "Sent!",
+      "title": "Tell me about your book",
+      "whatsappBase": "https://wa.me/595986868241",
+      "whatsappPhone": "+595986868241"
     },
     "seo": {
       "faq": {
@@ -15827,26 +16071,22 @@ export const CONTENT: Record<string, JsonRecord> = {
       "bio": {
         "features": [
           {
-            "description": "Book cover designer with 6+ years of experience. From Asunción, Paraguay, to authors worldwide.",
-            "title": ""
+            "description": "Based in Asunción, working with indie authors across LATAM, Spain, and the US. The focus has always been simple: covers that earn a first-read on Amazon, not 'pretty' covers.",
+            "title": "Founded Dayah LitWorks in November 2019"
           },
           {
-            "description": "I'm Daihana Araujo, founder of Dayah LitWorks. Since November 2019, I've been transforming manuscripts into covers that sell books.\n\nI created Dayah LitWorks with the conviction that every book deserves a professional cover, regardless of the author's budget. I work with indie authors across the Spanish and English-speaking world, designing covers that capture the essence of each story.\n\nMy approach combines a deep understanding of literary genres with a collaborative creative process. I believe the best cover comes from listening to the author, understanding their vision, and translating it into a design that's not only beautiful but works as a sales tool.",
-            "title": ""
+            "description": "One project at a time, with scheduled revisions. No templates. No generative AI for the final cover (yes for reference only). Every cover is designed after reading at least the first chapters or the full synopsis.",
+            "title": "How I work"
           },
           {
-            "description": "Founded November 20, 2019",
-            "title": "Founded"
+            "description": "Fantasy, romance (including dark romance), thriller/suspense, sci-fi, and horror. If your genre is different, ask — I'll tell you whether it fits my style or if another designer is a better match for you.",
+            "title": "Most common genres I work in"
           },
           {
-            "description": "Asunción, Paraguay",
-            "title": "Location"
+            "description": "I work in Spanish and English. If your manuscript is in another language, I need a translated synopsis.",
+            "title": "Languages"
           }
         ],
-        "founded": "Founded November 20, 2019",
-        "location": "Asunción, Paraguay",
-        "long": "I'm Daihana Araujo, founder of Dayah LitWorks. Since November 2019, I've been transforming manuscripts into covers that sell books.\n\nI created Dayah LitWorks with the conviction that every book deserves a professional cover, regardless of the author's budget. I work with indie authors across the Spanish and English-speaking world, designing covers that capture the essence of each story.\n\nMy approach combines a deep understanding of literary genres with a collaborative creative process. I believe the best cover comes from listening to the author, understanding their vision, and translating it into a design that's not only beautiful but works as a sales tool.",
-        "short": "Book cover designer with 6+ years of experience. From Asunción, Paraguay, to authors worldwide.",
         "title": "About Daihana"
       },
       "hero": {
@@ -15855,42 +16095,42 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "highlights": [
         {
-          "description": "Years of experience",
+          "description": "Years designing covers",
           "title": "6+"
         },
         {
-          "description": "Covers designed",
-          "title": "100+"
+          "description": "Clients across 3 regions",
+          "title": "LATAM + US + Spain"
         },
         {
-          "description": "Clients in LATAM, USA and Europe",
-          "title": "Global"
+          "description": "Bilingual manuscripts",
+          "title": "ES + EN"
         },
         {
-          "description": "Spanish and English",
-          "title": "Bilingual"
+          "description": "Billing by origin",
+          "title": "USD or PYG"
         }
       ],
       "highlightsBlock": {
         "features": [
           {
-            "description": "Years of experience",
+            "description": "Years designing covers",
             "title": "6+"
           },
           {
-            "description": "Covers designed",
-            "title": "100+"
+            "description": "Clients across 3 regions",
+            "title": "LATAM + US + Spain"
           },
           {
-            "description": "Clients in LATAM, USA and Europe",
-            "title": "Global"
+            "description": "Bilingual manuscripts",
+            "title": "ES + EN"
           },
           {
-            "description": "Spanish and English",
-            "title": "Bilingual"
+            "description": "Billing by origin",
+            "title": "USD or PYG"
           }
         ],
-        "title": "Quick facts"
+        "title": "In numbers"
       },
       "seo": {
         "description": "Meet Dayah, a book cover designer based in Asunción, Paraguay. 6+ years creating covers that sell.",
@@ -15936,63 +16176,63 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "sections": [
         {
-          "a": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
+          "a": "You must send me references (ideas, fonts, colors, styles) BEFORE requesting the design, not after. Without references I can't quote accurately and I'll likely decline the project out of respect for both our time.",
           "q": "1. References first"
         },
         {
-          "a": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
+          "a": "I work Monday–Friday during office hours (09:00–18:00 Paraguay time). I don't reply to messages or send deliveries on weekends or holidays. Delivery timelines count business days only.",
           "q": "2. Business days"
         },
         {
-          "a": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
-          "q": "3. Cancellation"
+          "a": "To start I charge a 50% deposit; the balance is due on final approval. If you cancel after the project has started, the deposit is non-refundable because it covers hours already invested. If you cancel before I've started (within 48h of payment), I refund 100%.",
+          "q": "3. Deposit and cancellation"
         },
         {
-          "a": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
+          "a": "Before printing, publishing, or reproducing anything, review the design, text, and data. Dayah LitWorks isn't liable for errors you didn't flag in time. A QA checklist is included in every delivery.",
           "q": "4. Review responsibility"
         },
         {
-          "a": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
+          "a": "Each package includes 2 revision rounds. Additional changes (e.g. switching genre mid-project, starting over after approving a direction) are quoted separately: USD 20 / minor revision round, USD 40+ for a significant redesign. I'll tell you before I do the work, not after.",
           "q": "5. Scope changes"
         },
         {
-          "a": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
+          "a": "The design rights are yours once 100% is paid. Until then, high-resolution files aren't delivered and commercial use isn't authorized. For premades, the license is exclusive (one sale per design) unless you explicitly ask for a cheaper non-exclusive license.",
           "q": "6. Design rights"
         },
         {
-          "a": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
-          "q": "7. Portfolio usage"
+          "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date.",
+          "q": "7. Portfolio use"
         }
       ],
       "sectionsBlock": {
         "items": [
           {
-            "a": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
+            "a": "You must send me references (ideas, fonts, colors, styles) BEFORE requesting the design, not after. Without references I can't quote accurately and I'll likely decline the project out of respect for both our time.",
             "q": "1. References first"
           },
           {
-            "a": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
+            "a": "I work Monday–Friday during office hours (09:00–18:00 Paraguay time). I don't reply to messages or send deliveries on weekends or holidays. Delivery timelines count business days only.",
             "q": "2. Business days"
           },
           {
-            "a": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
-            "q": "3. Cancellation"
+            "a": "To start I charge a 50% deposit; the balance is due on final approval. If you cancel after the project has started, the deposit is non-refundable because it covers hours already invested. If you cancel before I've started (within 48h of payment), I refund 100%.",
+            "q": "3. Deposit and cancellation"
           },
           {
-            "a": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
+            "a": "Before printing, publishing, or reproducing anything, review the design, text, and data. Dayah LitWorks isn't liable for errors you didn't flag in time. A QA checklist is included in every delivery.",
             "q": "4. Review responsibility"
           },
           {
-            "a": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
+            "a": "Each package includes 2 revision rounds. Additional changes (e.g. switching genre mid-project, starting over after approving a direction) are quoted separately: USD 20 / minor revision round, USD 40+ for a significant redesign. I'll tell you before I do the work, not after.",
             "q": "5. Scope changes"
           },
           {
-            "a": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
+            "a": "The design rights are yours once 100% is paid. Until then, high-resolution files aren't delivered and commercial use isn't authorized. For premades, the license is exclusive (one sale per design) unless you explicitly ask for a cheaper non-exclusive license.",
             "q": "6. Design rights"
           },
           {
-            "a": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
-            "q": "7. Portfolio usage"
+            "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date.",
+            "q": "7. Portfolio use"
           }
         ],
         "title": "Service terms"
@@ -16022,23 +16262,23 @@ export const CONTENT: Record<string, JsonRecord> = {
       "placeholder": {
         "features": [
           {
-            "description": "Un email al mes con tips y ejemplos de portadas que venden.",
+            "description": "Un email al mes. Nada más.",
             "href": "#newsletter",
-            "title": "Newsletter"
+            "title": "Suscribirme al newsletter"
           },
           {
-            "description": "Seguimiento de trabajos recientes + proceso.",
+            "description": "Trabajo reciente + proceso diario.",
             "href": "https://instagram.com/dayah.litworks",
-            "title": "Instagram @dayah.litworks"
+            "title": "Seguirme en Instagram"
           },
           {
-            "description": "Preguntas directas, respuestas rápidas.",
+            "description": "Preguntas técnicas sobre tu proyecto específico, respuestas rápidas.",
             "href": "https://wa.me/595986868241",
-            "title": "WhatsApp"
+            "title": "Preguntar por WhatsApp"
           }
         ],
-        "subtitle": "Pronto vas a encontrar acá tips de diseño, tendencias de portadas y recursos para autores indie. Mientras tanto suscribite al newsletter.",
-        "title": "Blog en preparación"
+        "subtitle": "No escribo blog posts todavía. Un email al mes con tips concretos sobre portadas indie, ejemplos de antes/después y tendencias por género. Sin relleno.",
+        "title": "Solo newsletter por ahora"
       },
       "posts": [
         {
@@ -16070,8 +16310,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": []
     },
     "contactHero": {
-      "subtitle": "Contame qué estás escribiendo y armemos la portada que vende tu libro. Respondo en horario de oficina.",
-      "title": "Contactanos"
+      "subtitle": "Envía referencias visuales junto con el pedido — así puedo cotizar con precisión (es el paso más importante del proceso, por eso está en mis términos).",
+      "title": "Contame de tu libro"
     },
     "ctaBanner": {
       "ctaHref": "https://wa.me/595986868241",
@@ -16146,7 +16386,33 @@ export const CONTENT: Record<string, JsonRecord> = {
       "businessName": "Dayah LitWorks",
       "city": "Asunción",
       "copyright": "© 2026 Dayah LitWorks. Todos los derechos reservados.",
-      "founded": "2019"
+      "founded": "2019",
+      "navLinks": [
+        {
+          "href": "/s/es/dayah-litworks/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/dayah-litworks/portafolio",
+          "label": "Portafolio"
+        },
+        {
+          "href": "/s/es/dayah-litworks/sobre",
+          "label": "Sobre"
+        },
+        {
+          "href": "/s/es/dayah-litworks/contacto",
+          "label": "Contacto"
+        },
+        {
+          "href": "/s/es/dayah-litworks/terminos",
+          "label": "Términos"
+        },
+        {
+          "href": "/s/es/dayah-litworks/privacidad",
+          "label": "Privacidad"
+        }
+      ]
     },
     "home": {
       "contact": {
@@ -16225,42 +16491,35 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
-        "ctaPrimaryText": "Ver Catálogo Premade",
+        "ctaPrimaryText": "Ver Catálogo",
         "ctaSecondaryHref": "https://wa.me/595986868241",
-        "ctaSecondaryText": "Contactanos por WhatsApp",
-        "headline": "Dayah LitWorks",
-        "subheadline": "Diseño de tapas de libros — del manuscrito a la portada que vende. Trabajos en USD para autores internacionales."
+        "ctaSecondaryText": "WhatsApp",
+        "headline": "Portadas que venden.",
+        "subheadline": "Para autores indie en todo el mundo. USD o PYG."
       },
       "process": {
         "steps": [
           {
-            "description": "Conocemos tu libro, tu público y tus referencias visuales",
+            "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el proyecto encaja con mi agenda.",
             "duration": "Día 1",
-            "title": "Consulta inicial"
+            "number": 1,
+            "title": "Brief + referencias"
           },
           {
-            "description": "Definimos estilo, mood y dirección creativa",
-            "duration": "Días 1–2",
-            "title": "Brief y referencias"
+            "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de revisión sin costo.",
+            "duration": "Semana 1",
+            "number": 2,
+            "title": "Diseño"
           },
           {
-            "description": "Te presentamos 2–3 opciones iniciales",
-            "duration": "Días 3–5",
-            "title": "Propuestas de diseño"
-          },
-          {
-            "description": "Ajustes hasta que quede perfecto",
-            "duration": "Días 5–7",
-            "title": "Revisiones"
-          },
-          {
-            "description": "Todos los archivos en alta resolución, listos para tu plataforma",
-            "duration": "Día 7",
+            "description": "Archivos en alta resolución para tu plataforma: eBook cover JPG/PDF, título en PNG, banners de reveal, 2 mockups. Listos para subir.",
+            "duration": "Semana 2",
+            "number": 3,
             "title": "Entrega final"
           }
         ],
-        "subtitle": "Cómo transformamos tu manuscrito en una portada que vende",
-        "title": "Nuestro Proceso"
+        "subtitle": "De manuscrito a portada en 3 pasos. 2 revisiones incluidas. Pago en 2 tramos (50% al empezar, 50% al aprobar).",
+        "title": "Proceso"
       },
       "products": {
         "categories": [
@@ -16385,37 +16644,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       "services": {
         "addons": [
           {
-            "description": "Imagen realista de tu libro en 3D",
+            "description": "Imagen realista de tu libro en 3D para Amazon, Instagram y prensa. Precio según cantidad de ángulos.",
             "name": "Mockup 3D Estático",
-            "price": "Cotizar"
+            "price": "USD 15–30"
           },
           {
-            "description": "Animación profesional de tu portada",
+            "description": "Animación de 5–10 segundos, ideal para reveal en redes. Incluye 1 ronda de ajustes.",
             "name": "Video Mockup 3D",
-            "price": "Cotizar"
+            "price": "USD 40–80"
           },
           {
-            "description": "Se cotiza según evaluación de primeros capítulos y extensión del manuscrito",
-            "name": "Corrección ortotipográfica y de estilo",
-            "price": "Según evaluación"
+            "description": "Revisión profesional antes de maquetar. Se cotiza sobre los primeros 2 capítulos + extensión total.",
+            "name": "Corrección ortotipográfica",
+            "price": "USD 2/1000 palabras"
+          },
+          {
+            "description": "Si necesitás el trabajo antes de lo usual, pagás un recargo para saltar la cola.",
+            "name": "Rush (entrega <1 semana)",
+            "price": "+50% sobre el precio base"
+          },
+          {
+            "description": "Cambios de dirección fuera del scope original.",
+            "name": "Revisión adicional (más allá de las 2 incluidas)",
+            "price": "USD 20/ronda"
           }
         ],
         "addons_block": {
           "features": [
             {
-              "description": "Imagen realista de tu libro en 3D (Cotizar)",
+              "description": "Imagen realista de tu libro en 3D para Amazon, Instagram y prensa. Precio según cantidad de ángulos. — USD 15–30",
               "title": "Mockup 3D Estático"
             },
             {
-              "description": "Animación profesional de tu portada (Cotizar)",
+              "description": "Animación de 5–10 segundos, ideal para reveal en redes. Incluye 1 ronda de ajustes. — USD 40–80",
               "title": "Video Mockup 3D"
             },
             {
-              "description": "Se cotiza según evaluación de primeros capítulos y extensión del manuscrito (Según evaluación)",
-              "title": "Corrección ortotipográfica y de estilo"
+              "description": "Revisión profesional antes de maquetar. Se cotiza sobre los primeros 2 capítulos + extensión total. — USD 2/1000 palabras",
+              "title": "Corrección ortotipográfica"
+            },
+            {
+              "description": "Si necesitás el trabajo antes de lo usual, pagás un recargo para saltar la cola. — +50% sobre el precio base",
+              "title": "Rush (entrega <1 semana)"
+            },
+            {
+              "description": "Cambios de dirección fuera del scope original. — USD 20/ronda",
+              "title": "Revisión adicional (más allá de las 2 incluidas)"
             }
           ],
-          "subtitle": "Extras que puedes sumar a cualquier paquete. Cotización según necesidad.",
+          "subtitle": "Extras que podés sumar a cualquier paquete.",
           "title": "Servicios adicionales"
         },
         "categories": [
@@ -16696,6 +16973,20 @@ export const CONTENT: Record<string, JsonRecord> = {
             "label": "Entrega rápida"
           }
         ],
+        "items": [
+          {
+            "icon": "BookOpen",
+            "title": "+6 años diseñando portadas"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "USD o PYG"
+          },
+          {
+            "icon": "Clock",
+            "title": "Entrega 1–2 semanas"
+          }
+        ],
         "title": "¿Por qué elegirnos?"
       }
     },
@@ -16758,23 +17049,23 @@ export const CONTENT: Record<string, JsonRecord> = {
       "placeholder": {
         "features": [
           {
-            "description": "Diseños listos para usar — con personalización de tipografía y color.",
-            "href": "/s/es/dayah-litworks/catalogo",
-            "title": "Catálogo Premade"
+            "description": "Decime tu género y te mando 3–5 ejemplos recientes en privado. Respuesta en el día.",
+            "href": "https://wa.me/595986868241",
+            "title": "Pedir muestra por WhatsApp"
           },
           {
-            "description": "Últimos trabajos + proceso en Instagram.",
+            "description": "Lo que sí puedo mostrar: trabajo reciente + proceso + reveal banners.",
             "href": "https://instagram.com/dayah.litworks",
             "title": "Instagram @dayah.litworks"
           },
           {
-            "description": "Contame qué estás escribiendo — respondo en horario de oficina.",
-            "href": "https://wa.me/595986868241",
-            "title": "WhatsApp"
+            "description": "Diseños listos para personalizar, para cuando necesitás una portada rápida.",
+            "href": "/s/es/dayah-litworks/catalogo",
+            "title": "Catálogo Premade"
           }
         ],
-        "subtitle": "Estoy curando los trabajos recientes para compartirlos acá. Mientras tanto, mirá el catálogo de premades o escribime por WhatsApp.",
-        "title": "Portafolio en preparación"
+        "subtitle": "Mis clientes están publicando — estoy esperando permisos para compartir trabajos recientes acá. Si querés ver ejemplos de tu género específico (fantasía, romance, thriller…), pedímelos por WhatsApp y te mando una muestra privada en el día.",
+        "title": "Portafolio privado"
       },
       "seo": {
         "description": "Galería de portadas de libros diseñadas por Dayah LitWorks",
@@ -16783,8 +17074,162 @@ export const CONTENT: Record<string, JsonRecord> = {
       "subtitle": "Portadas que venden libros",
       "title": "Portafolio"
     },
+    "privacidad": {
+      "sections": [
+        {
+          "a": "Solo lo necesario para trabajar con vos: nombre, email, teléfono/WhatsApp si lo das, y lo que me envíes sobre tu proyecto (manuscrito, referencias). Nada más.",
+          "q": "Qué datos recolecto"
+        },
+        {
+          "a": "Responder tu consulta, coordinar el proyecto, enviar entregas y facturar. No vendo ni comparto tus datos con terceros.",
+          "q": "Para qué los uso"
+        },
+        {
+          "a": "Email en Gmail, archivos de trabajo en Google Drive, conversaciones en WhatsApp. Borro archivos de trabajo 6 meses después de la entrega final salvo que me pidas conservarlos.",
+          "q": "Dónde los guardo"
+        },
+        {
+          "a": "Si te suscribís al newsletter guardo tu email en Mailchimp. Podés desuscribirte con el link al pie de cada email, y tu email se borra dentro de 30 días.",
+          "q": "Newsletter"
+        },
+        {
+          "a": "Podés pedirme en cualquier momento que te muestre, corrija o borre los datos que tengo sobre vos. Escribime a dayahlitworks@gmail.com.",
+          "q": "Tus derechos"
+        },
+        {
+          "a": "Dayah LitWorks opera desde Paraguay. Los datos se manejan bajo la Ley 5282/2014 de Libre Acceso Ciudadano a la Información Pública y Transparencia Gubernamental, y Ley 6534/2020 de Protección de Datos Personales Crediticios en lo aplicable. Para clientes en la UE, cumplo con las bases de GDPR como procesadora (ejecución de contrato).",
+          "q": "Jurisdicción"
+        }
+      ],
+      "sectionsBlock": {
+        "items": [
+          {
+            "a": "Solo lo necesario para trabajar con vos: nombre, email, teléfono/WhatsApp si lo das, y lo que me envíes sobre tu proyecto (manuscrito, referencias). Nada más.",
+            "q": "Qué datos recolecto"
+          },
+          {
+            "a": "Responder tu consulta, coordinar el proyecto, enviar entregas y facturar. No vendo ni comparto tus datos con terceros.",
+            "q": "Para qué los uso"
+          },
+          {
+            "a": "Email en Gmail, archivos de trabajo en Google Drive, conversaciones en WhatsApp. Borro archivos de trabajo 6 meses después de la entrega final salvo que me pidas conservarlos.",
+            "q": "Dónde los guardo"
+          },
+          {
+            "a": "Si te suscribís al newsletter guardo tu email en Mailchimp. Podés desuscribirte con el link al pie de cada email, y tu email se borra dentro de 30 días.",
+            "q": "Newsletter"
+          },
+          {
+            "a": "Podés pedirme en cualquier momento que te muestre, corrija o borre los datos que tengo sobre vos. Escribime a dayahlitworks@gmail.com.",
+            "q": "Tus derechos"
+          },
+          {
+            "a": "Dayah LitWorks opera desde Paraguay. Los datos se manejan bajo la Ley 5282/2014 de Libre Acceso Ciudadano a la Información Pública y Transparencia Gubernamental, y Ley 6534/2020 de Protección de Datos Personales Crediticios en lo aplicable. Para clientes en la UE, cumplo con las bases de GDPR como procesadora (ejecución de contrato).",
+            "q": "Jurisdicción"
+          }
+        ],
+        "title": "Política de privacidad"
+      },
+      "subtitle": "Cómo manejo tu información.",
+      "title": "Privacidad"
+    },
     "quoteForm": {
       "ctaText": "Enviar consulta por WhatsApp",
+      "fields": [
+        {
+          "label": "Nombre",
+          "name": "name",
+          "required": true,
+          "type": "text"
+        },
+        {
+          "label": "Email",
+          "name": "email",
+          "required": true,
+          "type": "email"
+        },
+        {
+          "label": "Género del libro",
+          "name": "genre",
+          "options": [
+            "Fantasía",
+            "Romance",
+            "Romance Oscuro",
+            "Thriller / Suspense",
+            "Ciencia Ficción",
+            "Terror",
+            "Juvenil / YA",
+            "No ficción",
+            "Otro"
+          ],
+          "required": true,
+          "type": "select"
+        },
+        {
+          "label": "Tipo de portada",
+          "name": "cover_type",
+          "options": [
+            "Solo eBook",
+            "Solo Tapa Blanda",
+            "eBook + Tapa Blanda",
+            "Premade",
+            "No sé todavía"
+          ],
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "label": "Longitud del manuscrito",
+          "name": "manuscript_length",
+          "options": [
+            "Menos de 50 000 palabras",
+            "50 000 – 100 000",
+            "Más de 100 000",
+            "No aplica (solo portada)"
+          ],
+          "type": "select"
+        },
+        {
+          "help": "Si es rush (<1 semana), hay recargo del 50%.",
+          "label": "¿Cuándo necesitás la entrega?",
+          "name": "deadline",
+          "type": "date"
+        },
+        {
+          "label": "Rango de presupuesto (USD)",
+          "name": "budget",
+          "options": [
+            "Menos de $50",
+            "$50 – $100",
+            "$100 – $200",
+            "$200 +",
+            "No sé, quiero sugerencia"
+          ],
+          "type": "select"
+        },
+        {
+          "help": "Obligatorio ANTES de cotizar — ver Términos #1.",
+          "label": "Referencias visuales (link a Pinterest, Drive, Instagram, o portadas que te gustan)",
+          "name": "references",
+          "type": "url"
+        },
+        {
+          "label": "Cómo preferís que te responda",
+          "name": "contact_preference",
+          "options": [
+            "WhatsApp",
+            "Email"
+          ],
+          "type": "radio"
+        },
+        {
+          "label": "Sinopsis breve + notas adicionales",
+          "name": "description",
+          "placeholder": "De qué trata el libro (2–3 líneas), público objetivo, mood/atmósfera que buscás, cosas que NO querés ver en la portada…",
+          "required": true,
+          "type": "textarea"
+        }
+      ],
       "serviceOptions": [
         "Portada Personalizada — eBook ($45)",
         "Portada Personalizada — Tapa Blanda ($80)",
@@ -16829,34 +17274,35 @@ export const CONTENT: Record<string, JsonRecord> = {
           "title": "Tus datos"
         }
       ],
-      "title": "Contame sobre tu proyecto",
-      "whatsappBase": "https://wa.me/595986868241"
+      "submitLabel": "Enviar por WhatsApp",
+      "subtitle": "Todos los campos marcados * son obligatorios. Mandarme referencias visuales es el paso que más acelera la cotización.",
+      "successBody": "Abrí tu WhatsApp con el pedido. Respondo dentro del horario de oficina (lun–vie 09:00–18:00 PY).",
+      "successTitle": "¡Listo!",
+      "title": "Contame de tu libro",
+      "whatsappBase": "https://wa.me/595986868241",
+      "whatsappPhone": "+595986868241"
     },
     "siteName": "Dayah LitWorks",
     "sobre": {
       "bio": {
         "features": [
           {
-            "description": "Diseñadora de portadas de libros con más de 6 años de experiencia. Desde Asunción, Paraguay, para autores en todo el mundo.",
-            "title": ""
+            "description": "Desde Asunción, trabajando con autores indie en LATAM, España y EE. UU. El foco siempre fue simple: portadas que te consigan una primera lectura en Amazon, no portadas \"bonitas\".",
+            "title": "Fundé Dayah LitWorks en noviembre de 2019"
           },
           {
-            "description": "Soy Daihana Araujo, fundadora de Dayah LitWorks. Desde noviembre de 2019 me dedico a transformar manuscritos en portadas que venden libros.\n\nCreé Dayah LitWorks con la convicción de que cada libro merece una portada profesional, sin importar el presupuesto del autor. Trabajo con autores indie de todo el mundo hispano y angloparlante, diseñando portadas que capturan la esencia de cada historia.\n\nMi enfoque combina la comprensión profunda de cada género literario con un proceso creativo colaborativo. Creo que la mejor portada nace de escuchar al autor, entender su visión y traducirla en un diseño que no solo sea hermoso, sino que funcione como herramienta de venta.",
-            "title": ""
+            "description": "Un proyecto a la vez, con revisiones pactadas. Sin plantillas. Sin IA generativa para la portada final (sí como referencia). Cada portada se diseña leyendo al menos los primeros capítulos del manuscrito o el sinopsis completo.",
+            "title": "Cómo trabajo"
           },
           {
-            "description": "Fundada el 20 de noviembre de 2019",
-            "title": "Fundación"
+            "description": "Fantasía, romance (incluyendo romance oscuro), thriller/suspense, ciencia ficción y terror. Si tu género es otro, preguntá — puedo decirte si encaja con mi estilo o si te conviene otro diseñador.",
+            "title": "Géneros en los que más trabajo"
           },
           {
-            "description": "Asunción, Paraguay",
-            "title": "Ubicación"
+            "description": "Trabajo en español e inglés. Si tu manuscrito está en otro idioma, necesito una sinopsis traducida.",
+            "title": "Idiomas"
           }
         ],
-        "founded": "Fundada el 20 de noviembre de 2019",
-        "location": "Asunción, Paraguay",
-        "long": "Soy Daihana Araujo, fundadora de Dayah LitWorks. Desde noviembre de 2019 me dedico a transformar manuscritos en portadas que venden libros.\n\nCreé Dayah LitWorks con la convicción de que cada libro merece una portada profesional, sin importar el presupuesto del autor. Trabajo con autores indie de todo el mundo hispano y angloparlante, diseñando portadas que capturan la esencia de cada historia.\n\nMi enfoque combina la comprensión profunda de cada género literario con un proceso creativo colaborativo. Creo que la mejor portada nace de escuchar al autor, entender su visión y traducirla en un diseño que no solo sea hermoso, sino que funcione como herramienta de venta.",
-        "short": "Diseñadora de portadas de libros con más de 6 años de experiencia. Desde Asunción, Paraguay, para autores en todo el mundo.",
         "title": "Sobre Daihana"
       },
       "hero": {
@@ -16865,42 +17311,42 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "highlights": [
         {
-          "description": "Años de experiencia",
+          "description": "Años diseñando portadas",
           "title": "6+"
         },
         {
-          "description": "Portadas diseñadas",
-          "title": "100+"
+          "description": "Clientes en 3 regiones",
+          "title": "LATAM + EE.UU. + España"
         },
         {
-          "description": "Clientes en LATAM, USA y Europa",
-          "title": "Global"
+          "description": "Manuscritos bilingües",
+          "title": "ES + EN"
         },
         {
-          "description": "Español e inglés",
-          "title": "Bilingüe"
+          "description": "Cobro según origen",
+          "title": "USD o PYG"
         }
       ],
       "highlightsBlock": {
         "features": [
           {
-            "description": "Años de experiencia",
+            "description": "Años diseñando portadas",
             "title": "6+"
           },
           {
-            "description": "Portadas diseñadas",
-            "title": "100+"
+            "description": "Clientes en 3 regiones",
+            "title": "LATAM + EE.UU. + España"
           },
           {
-            "description": "Clientes en LATAM, USA y Europa",
-            "title": "Global"
+            "description": "Manuscritos bilingües",
+            "title": "ES + EN"
           },
           {
-            "description": "Español e inglés",
-            "title": "Bilingüe"
+            "description": "Cobro según origen",
+            "title": "USD o PYG"
           }
         ],
-        "title": "Números rápidos"
+        "title": "En números"
       },
       "seo": {
         "description": "Conocé a Dayah, diseñadora de portadas de libros en Asunción, Paraguay. Más de 6 años creando portadas que venden.",
@@ -16946,62 +17392,62 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "sections": [
         {
-          "a": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
+          "a": "Tenés que enviarme referencias (ideas, tipografías, colores, estilos) ANTES de solicitar el diseño, no después. Sin referencias no puedo cotizar con precisión y probablemente rechace el proyecto para respetar tu tiempo y el mío.",
           "q": "1. Referencias previas"
         },
         {
-          "a": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
+          "a": "Trabajo de lunes a viernes en horario de oficina (09:00–18:00 Paraguay). Fines de semana y feriados no respondo mensajes ni envío entregas. Los plazos de entrega cuentan días hábiles.",
           "q": "2. Días hábiles"
         },
         {
-          "a": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
-          "q": "3. Cancelación"
+          "a": "Para empezar cobro 50% de anticipo; el saldo se paga al aprobar el diseño final. Si cancelás el proyecto después de iniciar, el anticipo no se reembolsa porque cubre horas de trabajo ya dedicadas. Si todavía no empecé (me avisaste dentro de las 48 h desde el pago), devuelvo el 100%.",
+          "q": "3. Anticipo y cancelación"
         },
         {
-          "a": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
+          "a": "Antes de imprimir, publicar o reproducir, revisá el diseño, los textos y los datos. Dayah LitWorks no se responsabiliza por errores que no me comunicaste a tiempo. Incluí una checklist de QA en cada entrega.",
           "q": "4. Responsabilidad de revisión"
         },
         {
-          "a": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
+          "a": "Cada paquete incluye 2 rondas de revisión. Cambios adicionales (ej. cambiar de género, rehacer desde cero después de aprobada una dirección) se cotizan extra: USD 20/ronda de revisión menor, USD 40+ para un redesign significativo. Te lo digo antes de hacer el trabajo, no después.",
           "q": "5. Cambios de alcance"
         },
         {
-          "a": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
+          "a": "Los derechos del diseño son tuyos una vez pagado el 100%. Hasta entonces, los archivos en alta resolución no se entregan y el uso comercial del diseño no está autorizado. Para premades, la licencia es exclusiva (una venta por diseño) salvo que me pidas explícitamente una licencia no-exclusiva a menor precio.",
           "q": "6. Derechos de diseño"
         },
         {
-          "a": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
+          "a": "Puedo mostrar los trabajos terminados en mi portafolio, Instagram, Facebook y sitio web. Si preferís que NO lo muestre (ej. tu libro aún no salió), avisame antes de la entrega final y lo guardo privado hasta tu fecha de lanzamiento.",
           "q": "7. Uso en portafolio"
         }
       ],
       "sectionsBlock": {
         "items": [
           {
-            "a": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
+            "a": "Tenés que enviarme referencias (ideas, tipografías, colores, estilos) ANTES de solicitar el diseño, no después. Sin referencias no puedo cotizar con precisión y probablemente rechace el proyecto para respetar tu tiempo y el mío.",
             "q": "1. Referencias previas"
           },
           {
-            "a": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
+            "a": "Trabajo de lunes a viernes en horario de oficina (09:00–18:00 Paraguay). Fines de semana y feriados no respondo mensajes ni envío entregas. Los plazos de entrega cuentan días hábiles.",
             "q": "2. Días hábiles"
           },
           {
-            "a": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
-            "q": "3. Cancelación"
+            "a": "Para empezar cobro 50% de anticipo; el saldo se paga al aprobar el diseño final. Si cancelás el proyecto después de iniciar, el anticipo no se reembolsa porque cubre horas de trabajo ya dedicadas. Si todavía no empecé (me avisaste dentro de las 48 h desde el pago), devuelvo el 100%.",
+            "q": "3. Anticipo y cancelación"
           },
           {
-            "a": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
+            "a": "Antes de imprimir, publicar o reproducir, revisá el diseño, los textos y los datos. Dayah LitWorks no se responsabiliza por errores que no me comunicaste a tiempo. Incluí una checklist de QA en cada entrega.",
             "q": "4. Responsabilidad de revisión"
           },
           {
-            "a": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
+            "a": "Cada paquete incluye 2 rondas de revisión. Cambios adicionales (ej. cambiar de género, rehacer desde cero después de aprobada una dirección) se cotizan extra: USD 20/ronda de revisión menor, USD 40+ para un redesign significativo. Te lo digo antes de hacer el trabajo, no después.",
             "q": "5. Cambios de alcance"
           },
           {
-            "a": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
+            "a": "Los derechos del diseño son tuyos una vez pagado el 100%. Hasta entonces, los archivos en alta resolución no se entregan y el uso comercial del diseño no está autorizado. Para premades, la licencia es exclusiva (una venta por diseño) salvo que me pidas explícitamente una licencia no-exclusiva a menor precio.",
             "q": "6. Derechos de diseño"
           },
           {
-            "a": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
+            "a": "Puedo mostrar los trabajos terminados en mi portafolio, Instagram, Facebook y sitio web. Si preferís que NO lo muestre (ej. tu libro aún no salió), avisame antes de la entrega final y lo guardo privado hasta tu fecha de lanzamiento.",
             "q": "7. Uso en portafolio"
           }
         ],

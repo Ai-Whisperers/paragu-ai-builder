@@ -117,6 +117,7 @@ export function HeaderSection({
               href={href}
               hrefLang={loc}
               aria-current={active ? 'true' : undefined}
+              aria-label={`${LOCALE_LABELS[loc]}${active ? ' (current)' : ''}`}
               title={LOCALE_LABELS[loc]}
               className={cn(
                 'px-2.5 py-1.5 rounded-md text-xs font-medium uppercase tracking-wider transition-all duration-200',
@@ -125,7 +126,8 @@ export function HeaderSection({
                   : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-light)]'
               )}
             >
-              {loc}
+              <span aria-hidden="true">{loc}</span>
+              <span className="sr-only">{LOCALE_LABELS[loc]}</span>
             </a>
           )
         })}

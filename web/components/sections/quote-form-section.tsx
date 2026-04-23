@@ -2,28 +2,45 @@
 
 import { Heading } from '@/components/ui/heading'
 
-import QuoteFormComponent from '@/components/location/quote-form'
+import QuoteFormComponent, { type QuoteFormField } from '@/components/location/quote-form'
 
 interface QuoteFormSectionProps {
   title?: string
   subtitle?: string
   services?: string[]
   whatsappPhone?: string
+  /** Structured-intake fields: overrides the default 4-field form. */
+  fields?: QuoteFormField[]
+  submitLabel?: string
+  successTitle?: string
+  successBody?: string
 }
 
 export function QuoteFormSection({
   title = 'Solicita un Presupuesto',
   subtitle,
   services = [],
-  whatsappPhone
+  whatsappPhone,
+  fields,
+  submitLabel,
+  successTitle,
+  successBody,
 }: QuoteFormSectionProps) {
-  const handleSubmit = async (data: unknown) => {
+  const handleSubmit = async (data: Record<string, string>) => {
     if (whatsappPhone) {
-      const formData = data as { name: string; phone: string; description: string; service?: string }
-      const message = `Hola! Solicito presupuesto:\n\n*Nombre:* ${formData.name}\n*Teléfono:* ${formData.phone || 'No proporcionado'}\n*Servicio:* ${formData.service || 'General'}\n*Descripción:* ${formData.description}`
-      window.open(`https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+      // Build the WhatsApp message from whatever fields were submitted so
+      // structured-intake forms (e.g. Dayah with genre/type/deadline/references)
+      // send all their fields through, not just the legacy 4.
+      const lines = Object.entries(data)
+        .filter(([, v]) => v && String(v).trim())
+        .map(([k, v]) => `*${k}:* ${v}`)
+      const message = `Hola! Solicito presupuesto:\n\n${lines.join('\n')}`
+      window.open(
+        `https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`,
+        '_blank',
+      )
     }
-    await new Promise(resolve => setTimeout(resolve, 500))
+    await new Promise((resolve) => setTimeout(resolve, 500))
   }
 
   return (
@@ -42,6 +59,10 @@ export function QuoteFormSection({
           <QuoteFormComponent
             onSubmit={handleSubmit}
             services={services}
+            fields={fields}
+            submitLabel={submitLabel}
+            successTitle={successTitle}
+            successBody={successBody}
           />
         </div>
       </div>
