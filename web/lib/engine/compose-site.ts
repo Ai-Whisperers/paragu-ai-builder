@@ -289,6 +289,12 @@ function normalizeSectionProps(sectionId: string, props: Record<string, unknown>
         }))
       }
       break
+    case 'promo-banner':
+      // PromoBannerSection uses `promotions`; tenant content commonly ships `items`.
+      if (normalized.items && !normalized.promotions) {
+        normalized.promotions = normalized.items
+      }
+      break
     case 'footer': {
       // `normalized` values are `unknown`; narrow location/contact before
       // forwarding fields so TS stops complaining (matches runtime shape).
