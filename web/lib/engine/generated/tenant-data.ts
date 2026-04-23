@@ -12957,7 +12957,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": []
     },
     "contactHero": {
-      "subtitle": "Tell me about your book — I respond the same day",
+      "subtitle": "Tell me what you're writing and we'll craft the cover that sells your book. I reply during business hours.",
       "title": "Contact"
     },
     "ctaBanner": {
@@ -13039,6 +13039,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Asunción, Paraguay",
         "email": "dayahlitworks@gmail.com",
         "facebook": "https://www.facebook.com/bookc0verdesign/",
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28875.69!2d-57.5759!3d-25.2637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2zQXN1bmNpw7NuLCBQYXJhZ3VheQ!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy",
         "hours": {
           "Friday": "09:00 – 18:00",
           "Monday": "09:00 – 18:00",
@@ -13971,8 +13972,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": []
     },
     "contactHero": {
-      "subtitle": "Contame sobre tu libro y te respondo en el día",
-      "title": "Contacto"
+      "subtitle": "Contame qué estás escribiendo y armemos la portada que vende tu libro. Respondo en horario de oficina.",
+      "title": "Contactanos"
     },
     "ctaBanner": {
       "ctaHref": "https://wa.me/595986868241",
@@ -14054,6 +14055,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Asunción, Paraguay",
         "email": "dayahlitworks@gmail.com",
         "facebook": "https://www.facebook.com/bookc0verdesign/",
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28875.69!2d-57.5759!3d-25.2637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2zQXN1bmNpw7NuLCBQYXJhZ3VheQ!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy",
         "hours": {
           "Domingo": "Cerrado",
           "Jueves": "09:00 – 18:00",
