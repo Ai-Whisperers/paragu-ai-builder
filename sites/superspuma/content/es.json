@@ -38,7 +38,7 @@
         "ctaPrimaryText": "Participar Ahora",
         "ctaPrimaryHref": "#promo-form"
       },
-      "form": {
+      "lead-form": {
         "title": "Formulario de Participación",
         "subtitle": "Llena tus datos y los de tu factura para participar",
         "fields": [

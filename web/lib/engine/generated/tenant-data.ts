@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=202, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=201, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5858,47 +5858,6 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "title": "Contacto - Dayah LitWorks"
-  },
-  "dayah-litworks:faq": {
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "faq.hero",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "ctaBanner",
-        "id": "cta-banner",
-        "variant": "gradient"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "faq",
-    "title": "Preguntas Frecuentes - Dayah LitWorks"
   },
   "dayah-litworks:home": {
     "descriptionKey": "home.seo.description",
@@ -33812,7 +33771,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "promo-cartagena": {
         "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitas cargar tu factura de compra y tus datos para participar.",
-        "form": {
+        "hero": {
+          "ctaPrimaryHref": "#promo-form",
+          "ctaPrimaryText": "Participar Ahora",
+          "headline": "Promo Cartagena 2026",
+          "subheadline": "Gana un viaje a Cartagena y 5 sommiers Harmony"
+        },
+        "lead-form": {
           "fields": [
             {
               "label": "Nombre completo",
@@ -33869,12 +33834,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "submitLabel": "Enviar Participación",
           "subtitle": "Llena tus datos y los de tu factura para participar",
           "title": "Formulario de Participación"
-        },
-        "hero": {
-          "ctaPrimaryHref": "#promo-form",
-          "ctaPrimaryText": "Participar Ahora",
-          "headline": "Promo Cartagena 2026",
-          "subheadline": "Gana un viaje a Cartagena y 5 sommiers Harmony"
         },
         "subtitle": "Gana un viaje a Cartagena y 5 sommiers Harmony",
         "title": "Promo Cartagena 2026"
