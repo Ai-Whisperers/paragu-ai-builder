@@ -1,0 +1,12 @@
+{
+  "slug": "titanium",
+  "titleKey": "producto.titanium.seo.title",
+  "descriptionKey": "producto.titanium.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "image", "content": "producto.titanium.hero" },
+    { "id": "product-detail", "variant": "standard", "content": "producto.titanium.detail" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

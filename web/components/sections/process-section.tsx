@@ -16,6 +16,15 @@ interface ProcessSectionProps {
   steps: ProcessStep[]
   ctaText?: string
   ctaLink?: string
+  __locale?: string
+}
+
+const STEP_LABELS: Record<string, string> = {
+  en: 'Step',
+  es: 'Paso',
+  de: 'Schritt',
+  pt: 'Passo',
+  nl: 'Stap',
 }
 
 export function ProcessSection({
@@ -24,7 +33,9 @@ export function ProcessSection({
   steps = [],
   ctaText = 'Iniciar mi proceso',
   ctaLink = '#contact',
+  __locale = 'es',
 }: ProcessSectionProps) {
+  const stepLabel = STEP_LABELS[__locale] || 'Paso'
   const [activeStep, setActiveStep] = useState<number | null>(null)
 
   if (!steps.length) {
@@ -75,7 +86,7 @@ export function ProcessSection({
                         color: 'var(--primary-foreground)',
                       }}
                     >
-                      Paso {step.number}
+                      {stepLabel} {step.number}
                     </span>
                     <Heading level={3}
                       className="mb-2 text-xl font-bold"

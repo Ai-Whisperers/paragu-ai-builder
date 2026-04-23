@@ -457,7 +457,7 @@ const buildPricing: SectionBuilder = ({ content, templateData }) => {
  * Process steps — reads `content.process` ({steps: [...]}) or
  * `content.processSteps` (array of {number, title, description}).
  */
-const buildProcess: SectionBuilder = ({ content, templateData }) => {
+const buildProcess: SectionBuilder = ({ content, templateData, registry }) => {
   const c = content as { process?: unknown; processSteps?: unknown }
   const raw = c.process || c.processSteps
   if (!raw) return null
@@ -471,7 +471,11 @@ const buildProcess: SectionBuilder = ({ content, templateData }) => {
       description: fillTemplate(step.description || '', templateData),
     }
   })
-  return { title: (raw as { title?: string }).title || 'Como Trabajamos', steps: mapped }
+  return { 
+    title: (raw as { title?: string }).title || 'Como Trabajamos', 
+    steps: mapped,
+    __locale: templateData.__locale,
+  }
 }
 
 const buildOmakase: SectionBuilder = ({ content }) => {

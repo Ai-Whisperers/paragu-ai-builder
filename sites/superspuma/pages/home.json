@@ -1,0 +1,12 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "image", "content": "home.hero" },
+    { "id": "product-catalog", "content": "home.product-catalog" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}
