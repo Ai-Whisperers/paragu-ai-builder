@@ -3,11 +3,35 @@
   "titleKey": "terminos.seo.title",
   "descriptionKey": "terminos.seo.description",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "minimal", "content": "terminos" },
-    { "id": "faq", "variant": "accordion", "content": "terminos.sections" },
-    { "id": "features", "variant": "grid", "content": "terminos.payment" },
-    { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "terminos"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "terminos.sectionsBlock"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "terminos.payment"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
   ]
 }

@@ -874,7 +874,28 @@
         "title": "Bilingual",
         "description": "Spanish and English"
       }
-    ]
+    ],
+    "highlightsBlock": {
+      "title": "Quick facts",
+      "features": [
+        {
+          "title": "6+",
+          "description": "Years of experience"
+        },
+        {
+          "title": "100+",
+          "description": "Covers designed"
+        },
+        {
+          "title": "Global",
+          "description": "Clients in LATAM, USA and Europe"
+        },
+        {
+          "title": "Bilingual",
+          "description": "Spanish and English"
+        }
+      ]
+    }
   },
   "terminos": {
     "seo": {
@@ -945,6 +966,39 @@
           "title": "Cash",
           "description": "In-person payment in Asunción",
           "icon": null
+        }
+      ]
+    },
+    "sectionsBlock": {
+      "title": "Service terms",
+      "items": [
+        {
+          "question": "1. References first",
+          "answer": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered."
+        },
+        {
+          "question": "2. Business days",
+          "answer": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery."
+        },
+        {
+          "question": "3. Cancellation",
+          "answer": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable."
+        },
+        {
+          "question": "4. Review responsibility",
+          "answer": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand."
+        },
+        {
+          "question": "5. Scope changes",
+          "answer": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget."
+        },
+        {
+          "question": "6. Design rights",
+          "answer": "Design rights remain with Dayah LitWorks until the client has made 100% payment."
+        },
+        {
+          "question": "7. Portfolio usage",
+          "answer": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website."
         }
       ]
     }

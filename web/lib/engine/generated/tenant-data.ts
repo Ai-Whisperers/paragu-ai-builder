@@ -6024,7 +6024,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "three-col"
       },
       {
-        "content": "sobre.highlights",
+        "content": "sobre.highlightsBlock",
         "id": "features",
         "variant": "grid"
       },
@@ -6066,7 +6066,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "terminos.sections",
+        "content": "terminos.sectionsBlock",
         "id": "faq",
         "variant": "accordion"
       },
@@ -13772,6 +13772,27 @@ export const CONTENT: Record<string, JsonRecord> = {
           "title": "Bilingual"
         }
       ],
+      "highlightsBlock": {
+        "features": [
+          {
+            "description": "Years of experience",
+            "title": "6+"
+          },
+          {
+            "description": "Covers designed",
+            "title": "100+"
+          },
+          {
+            "description": "Clients in LATAM, USA and Europe",
+            "title": "Global"
+          },
+          {
+            "description": "Spanish and English",
+            "title": "Bilingual"
+          }
+        ],
+        "title": "Quick facts"
+      },
       "seo": {
         "description": "Meet Dayah, a book cover designer based in Asunción, Paraguay. 6+ years creating covers that sell.",
         "title": "About Dayah LitWorks — Book Cover Designer"
@@ -13844,6 +13865,39 @@ export const CONTENT: Record<string, JsonRecord> = {
           "question": "7. Portfolio usage"
         }
       ],
+      "sectionsBlock": {
+        "items": [
+          {
+            "answer": "Always send references for ideas, fonts, colors or styles BEFORE requesting design — not after the finished proposal is delivered.",
+            "question": "1. References first"
+          },
+          {
+            "answer": "Work is done on business days (Monday through Friday), with sufficient time allocated for quality delivery.",
+            "question": "2. Business days"
+          },
+          {
+            "answer": "If the client decides to terminate the contract after the project has started, the advance payment is non-refundable.",
+            "question": "3. Cancellation"
+          },
+          {
+            "answer": "The client is responsible for reviewing the design, text and data before any printing, reproduction and/or publication. Dayah LitWorks is not liable for errors not communicated beforehand.",
+            "question": "4. Review responsibility"
+          },
+          {
+            "answer": "This agreement does not include additional work arising from changes in direction during development by the client. If this occurs, Dayah LitWorks will inform the client and may adjust the budget.",
+            "question": "5. Scope changes"
+          },
+          {
+            "answer": "Design rights remain with Dayah LitWorks until the client has made 100% payment.",
+            "question": "6. Design rights"
+          },
+          {
+            "answer": "Dayah LitWorks may display completed work in the portfolio, as well as on other digital platforms such as Instagram, Facebook, TikTok and the website.",
+            "question": "7. Portfolio usage"
+          }
+        ],
+        "title": "Service terms"
+      },
       "seo": {
         "description": "Service conditions, payment policies and design rights for Dayah LitWorks",
         "title": "Terms & Conditions — Dayah LitWorks"
@@ -14727,6 +14781,27 @@ export const CONTENT: Record<string, JsonRecord> = {
           "title": "Bilingüe"
         }
       ],
+      "highlightsBlock": {
+        "features": [
+          {
+            "description": "Años de experiencia",
+            "title": "6+"
+          },
+          {
+            "description": "Portadas diseñadas",
+            "title": "100+"
+          },
+          {
+            "description": "Clientes en LATAM, USA y Europa",
+            "title": "Global"
+          },
+          {
+            "description": "Español e inglés",
+            "title": "Bilingüe"
+          }
+        ],
+        "title": "Números rápidos"
+      },
       "seo": {
         "description": "Conocé a Dayah, diseñadora de portadas de libros en Asunción, Paraguay. Más de 6 años creando portadas que venden.",
         "title": "Sobre Dayah LitWorks — Diseñadora de portadas de libros"
@@ -14799,6 +14874,39 @@ export const CONTENT: Record<string, JsonRecord> = {
           "question": "7. Uso en portafolio"
         }
       ],
+      "sectionsBlock": {
+        "items": [
+          {
+            "answer": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada.",
+            "question": "1. Referencias previas"
+          },
+          {
+            "answer": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad.",
+            "question": "2. Días hábiles"
+          },
+          {
+            "answer": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado.",
+            "question": "3. Cancelación"
+          },
+          {
+            "answer": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir.",
+            "question": "4. Responsabilidad de revisión"
+          },
+          {
+            "answer": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto.",
+            "question": "5. Cambios de alcance"
+          },
+          {
+            "answer": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago.",
+            "question": "6. Derechos de diseño"
+          },
+          {
+            "answer": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web.",
+            "question": "7. Uso en portafolio"
+          }
+        ],
+        "title": "Términos del servicio"
+      },
       "seo": {
         "description": "Condiciones de servicio, políticas de pago y derechos de diseño de Dayah LitWorks",
         "title": "Términos y Condiciones — Dayah LitWorks"
