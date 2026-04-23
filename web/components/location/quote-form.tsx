@@ -3,26 +3,69 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 
-interface QuoteFormProps {
-  onSubmit: (data: Record<string, string>) => Promise<void>
-  services?: string[]
+export interface QuoteFormField {
+  name: string
+  label: string
+  type: 'text' | 'email' | 'tel' | 'url' | 'select' | 'radio' | 'date' | 'textarea'
+  required?: boolean
+  options?: string[]
+  placeholder?: string
+  help?: string
 }
 
-export default function QuoteForm({ onSubmit, services = [] }: QuoteFormProps) {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    service: '',
-    budget: '',
-    description: '',
-    timeline: ''
-  })
+interface QuoteFormProps {
+  onSubmit: (data: Record<string, string>) => Promise<void>
+  /** Legacy: list of service names for the service dropdown. */
+  services?: string[]
+  /**
+   * Optional custom field list. When provided, overrides the default 5-field form.
+   * Used for tenants with structured-intake requirements (e.g. Dayah LitWorks
+   * needs genre, cover type, references, deadline BEFORE quoting per T&C).
+   */
+  fields?: QuoteFormField[]
+  submitLabel?: string
+  successTitle?: string
+  successBody?: string
+}
+
+const DEFAULT_FIELDS: QuoteFormField[] = [
+  { name: 'name', label: 'Nombre', type: 'text', required: true },
+  { name: 'email', label: 'Email', type: 'email', required: true },
+  { name: 'phone', label: 'Teléfono', type: 'tel' },
+  { name: 'description', label: 'Describe tu proyecto o necesidad', type: 'textarea', required: true },
+]
+
+export default function QuoteForm({
+  onSubmit,
+  services = [],
+  fields,
+  submitLabel = 'Solicitar Presupuesto',
+  successTitle = '¡Solicitud enviada!',
+  successBody = 'Te contactaremos con tu presupuesto pronto.',
+}: QuoteFormProps) {
+  // If a structured `fields` array is supplied, use it. Otherwise fall back to
+  // the legacy 4-field form plus an optional service dropdown for backwards
+  // compat with existing tenants.
+  const effectiveFields: QuoteFormField[] = fields
+    ? fields
+    : services.length > 0
+    ? [
+        ...DEFAULT_FIELDS.slice(0, 3),
+        { name: 'service', label: 'Tipo de servicio', type: 'select', options: services },
+        DEFAULT_FIELDS[3],
+      ]
+    : DEFAULT_FIELDS
+
+  const [formData, setFormData] = useState<Record<string, string>>(
+    Object.fromEntries(effectiveFields.map((f) => [f.name, '']))
+  )
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success'>('idle')
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target
-    setFormData(prev => ({ ...prev, [name]: value }))
+    setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -35,81 +78,80 @@ export default function QuoteForm({ onSubmit, services = [] }: QuoteFormProps) {
   if (status === 'success') {
     return (
       <div className="bg-[var(--color-success-surface)] border border-[var(--color-success)] rounded-xl p-6 text-center">
-        <svg className="w-12 h-12 text-[var(--color-success)] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg
+          className="w-12 h-12 text-[var(--color-success)] mx-auto mb-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
         </svg>
-        <h3 className="font-semibold text-[var(--color-success)]">¡Solicitud enviada!</h3>
-        <p className="text-[var(--color-success)] text-sm mt-2">Te contactaremos con tu presupuesto pronto.</p>
+        <h3 className="font-semibold text-[var(--color-success)]">{successTitle}</h3>
+        <p className="text-[var(--color-success)] text-sm mt-2">{successBody}</p>
       </div>
     )
   }
 
+  const renderField = (f: QuoteFormField) => {
+    const commonCls =
+      'w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]'
+    const inputProps = {
+      name: f.name,
+      required: f.required,
+      value: formData[f.name] || '',
+      onChange: handleChange,
+      className: commonCls,
+      placeholder: f.placeholder,
+    }
+    if (f.type === 'textarea') {
+      return <textarea {...inputProps} rows={4} />
+    }
+    if (f.type === 'select') {
+      return (
+        <select {...inputProps}>
+          <option value="">—</option>
+          {(f.options || []).map((opt) => (
+            <option key={opt} value={opt}>
+              {opt}
+            </option>
+          ))}
+        </select>
+      )
+    }
+    if (f.type === 'radio') {
+      return (
+        <div className="flex flex-wrap gap-4">
+          {(f.options || []).map((opt) => (
+            <label key={opt} className="flex items-center gap-2 text-sm">
+              <input
+                type="radio"
+                name={f.name}
+                value={opt}
+                checked={formData[f.name] === opt}
+                onChange={handleChange}
+                required={f.required}
+              />
+              {opt}
+            </label>
+          ))}
+        </div>
+      )
+    }
+    return <input type={f.type} {...inputProps} />
+  }
+
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <label className="block text-sm text-gray-700 mb-1">Nombre *</label>
-          <input
-            type="text"
-            name="name"
-            required
-            value={formData.name}
-            onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]"
-          />
+      {effectiveFields.map((f) => (
+        <div key={f.name}>
+          <label className="block text-sm text-gray-700 mb-1">
+            {f.label}
+            {f.required && ' *'}
+          </label>
+          {renderField(f)}
+          {f.help && <p className="mt-1 text-xs text-gray-500">{f.help}</p>}
         </div>
-        <div>
-          <label className="block text-sm text-gray-700 mb-1">Email *</label>
-          <input
-            type="email"
-            name="email"
-            required
-            value={formData.email}
-            onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]"
-          />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <label className="block text-sm text-gray-700 mb-1">Teléfono</label>
-          <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]"
-          />
-        </div>
-        {services.length > 0 && (
-          <div>
-            <label className="block text-sm text-gray-700 mb-1">Tipo de servicio</label>
-            <select
-              name="service"
-              value={formData.service}
-              onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]"
-            >
-              <option value="">Seleccionar</option>
-              {services.map(s => <option key={s} value={s}>{s}</option>)}
-            </select>
-          </div>
-        )}
-      </div>
-
-      <div>
-        <label className="block text-sm text-gray-700 mb-1">Describe tu proyecto o necesidad</label>
-        <textarea
-          name="description"
-          required
-          rows={4}
-          value={formData.description}
-          onChange={handleChange}
-          placeholder="Cuéntanos más detalles sobre lo que necesitas..."
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]"
-        />
-      </div>
+      ))}
 
       <Button
         type="submit"
@@ -118,7 +160,7 @@ export default function QuoteForm({ onSubmit, services = [] }: QuoteFormProps) {
         loadingText="Enviando…"
         className="w-full bg-[var(--primary)] hover:opacity-90"
       >
-        Solicitar Presupuesto
+        {submitLabel}
       </Button>
     </form>
   )
