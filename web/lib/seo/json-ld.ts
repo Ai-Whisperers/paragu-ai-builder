@@ -364,3 +364,86 @@ function absoluteUrl(baseUrl: string, src: string): string {
   const path = src.startsWith('/') ? src : `/${src}`
   return `${base}${path}`
 }
+
+/**
+ * Product schema for PDPs (commerce or pre-commerce). Emits Offer with
+ * priceCurrency + availability. When the product has size variants,
+ * each becomes an `Offer` under an `AggregateOffer` so Google can show
+ * a price range in SERP.
+ */
+export interface ProductShape {
+  name: string
+  sku?: string
+  description?: string
+  brand?: string
+  category?: string
+  image?: string | string[]
+  priceFromGs?: number
+  sizes?: Array<{ label: string; dimensions?: string; priceGs: number }>
+  warranty?: string
+  url: string
+  aggregateRating?: { ratingValue: number; reviewCount: number }
+}
+
+export function buildProduct(p: ProductShape, baseUrl: string): object {
+  const images = Array.isArray(p.image)
+    ? p.image.map((i) => absoluteUrl(baseUrl, i))
+    : p.image
+      ? [absoluteUrl(baseUrl, p.image)]
+      : undefined
+
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: p.name,
+    url: p.url,
+  }
+  if (p.sku) schema.sku = p.sku
+  if (p.description) schema.description = p.description
+  if (images) schema.image = images
+  if (p.brand) schema.brand = { '@type': 'Brand', name: p.brand }
+  if (p.category) schema.category = p.category
+  if (p.warranty) {
+    schema.additionalProperty = [
+      { '@type': 'PropertyValue', name: 'Garantía', value: p.warranty },
+    ]
+  }
+
+  if (p.sizes && p.sizes.length > 0) {
+    const prices = p.sizes.map((s) => s.priceGs).filter((n) => typeof n === 'number')
+    if (prices.length > 0) {
+      schema.offers = {
+        '@type': 'AggregateOffer',
+        priceCurrency: 'PYG',
+        lowPrice: Math.min(...prices),
+        highPrice: Math.max(...prices),
+        offerCount: p.sizes.length,
+        availability: 'https://schema.org/InStock',
+        offers: p.sizes.map((s) => ({
+          '@type': 'Offer',
+          name: s.label,
+          price: s.priceGs,
+          priceCurrency: 'PYG',
+          availability: 'https://schema.org/InStock',
+        })),
+      }
+    }
+  } else if (typeof p.priceFromGs === 'number') {
+    schema.offers = {
+      '@type': 'Offer',
+      price: p.priceFromGs,
+      priceCurrency: 'PYG',
+      availability: 'https://schema.org/InStock',
+    }
+  }
+
+  if (p.aggregateRating) {
+    schema.aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: p.aggregateRating.ratingValue,
+      reviewCount: p.aggregateRating.reviewCount,
+    }
+  }
+
+  return schema
+}

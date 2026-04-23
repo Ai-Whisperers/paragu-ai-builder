@@ -1,7 +1,7 @@
 {
-  "slug": "producto/titanium",
-  "titleKey": "producto.titanium.seo.title",
-  "descriptionKey": "producto.titanium.seo.description",
+  "slug": "producto/super-kids",
+  "titleKey": "producto.super-kids.seo.title",
+  "descriptionKey": "producto.super-kids.seo.description",
   "sections": [
     {
       "id": "header",
@@ -11,22 +11,22 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "producto.titanium.hero"
+      "content": "producto.super-kids.hero"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.trustBadges"
+      "content": "producto.super-kids.trustBadges"
     },
     {
       "id": "programs-comparison",
       "variant": "tiered",
-      "content": "producto.titanium.sizes"
+      "content": "producto.super-kids.sizes"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.specs"
+      "content": "producto.super-kids.specs"
     },
     {
       "id": "testimonials",
@@ -41,7 +41,7 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "producto.titanium.cta"
+      "content": "producto.super-kids.cta"
     },
     {
       "id": "contact",
