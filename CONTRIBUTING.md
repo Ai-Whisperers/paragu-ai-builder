@@ -12,7 +12,41 @@ cp .env.example .env.local    # fill in Supabase + integration keys
 npm run dev                   # http://localhost:3000
 ```
 
-Node 20+ required. We deploy on Cloudflare Workers; the dev server uses the Next.js Node runtime.
+Node 20+ required. We deploy on Cloudflare Workers; the dev server uses the Next.js runtime.
+
+## Branch structure
+
+| Branch | Purpose | Auto-deploy |
+|--------|---------|------------|
+| `Main` | Production code | Yes → Cloudflare (paragu-ai.com) |
+| `dev` | Development | Yes → Preview builds |
+
+### Workflow
+
+```
+# 1. Start on dev
+git checkout dev
+git pull origin dev
+
+# 2. Create feature branch
+git checkout -b feat/your-feature
+
+# 3. Work → test → push
+git push origin feat/your-feature
+
+# 4. After testing, merge to dev
+git checkout dev
+git merge feat/your-feature
+git push origin dev
+
+# 5. Create PR: dev → Main after preview works
+```
+
+### Rules
+
+- **Never push directly to Main** - all changes via PR
+- **Squash-merge** - keep history linear
+- **Delete branches after merge** - cleanup
 
 ## Branch naming
 
