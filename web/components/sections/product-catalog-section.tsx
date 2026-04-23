@@ -29,6 +29,64 @@ export interface ProductCatalogSectionProps {
   orderButtonText?: string
   orderMessageTemplate?: string
   emailAddress?: string
+  __locale?: string
+}
+
+const CATALOG_LABELS: Record<
+  string,
+  {
+    all: string
+    orderButton: string
+    orderTemplate: string
+    emailSubject: (name: string) => string
+    emailBody: (name: string, price?: string) => string
+  }
+> = {
+  en: {
+    all: 'All',
+    orderButton: 'Ask via WhatsApp',
+    orderTemplate:
+      "Hi! I'm interested in: {{productName}} (${{productPrice}}). Could you tell me more?",
+    emailSubject: (name) => `Inquiry: ${name}`,
+    emailBody: (name, price) =>
+      `Hi! I'm interested in "${name}"${price ? ` ($${price})` : ''}. Could you send more info?`,
+  },
+  es: {
+    all: 'Todos',
+    orderButton: 'Consultar por WhatsApp',
+    orderTemplate:
+      'Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
+    emailSubject: (name) => `Consulta: ${name}`,
+    emailBody: (name, price) =>
+      `Hola! Me interesa el diseno "${name}"${price ? ` ($${price})` : ''}. Quisiera mas informacion.`,
+  },
+  de: {
+    all: 'Alle',
+    orderButton: 'Über WhatsApp anfragen',
+    orderTemplate:
+      'Hallo! Ich interessiere mich für: {{productName}} (${{productPrice}}). Können Sie mir mehr Informationen geben?',
+    emailSubject: (name) => `Anfrage: ${name}`,
+    emailBody: (name, price) =>
+      `Hallo! Ich interessiere mich für "${name}"${price ? ` ($${price})` : ''}. Können Sie mir mehr Informationen senden?`,
+  },
+  pt: {
+    all: 'Todos',
+    orderButton: 'Consultar pelo WhatsApp',
+    orderTemplate:
+      'Olá! Tenho interesse em: {{productName}} (${{productPrice}}). Poderia me enviar mais informações?',
+    emailSubject: (name) => `Consulta: ${name}`,
+    emailBody: (name, price) =>
+      `Olá! Tenho interesse em "${name}"${price ? ` ($${price})` : ''}. Poderia me enviar mais informações?`,
+  },
+  nl: {
+    all: 'Alle',
+    orderButton: 'Vraag via WhatsApp',
+    orderTemplate:
+      'Hallo! Ik heb interesse in: {{productName}} (${{productPrice}}). Kunt u mij meer vertellen?',
+    emailSubject: (name) => `Aanvraag: ${name}`,
+    emailBody: (name, price) =>
+      `Hallo! Ik heb interesse in "${name}"${price ? ` ($${price})` : ''}. Kunt u mij meer informatie sturen?`,
+  },
 }
 
 function buildWhatsAppUrl(
@@ -43,11 +101,13 @@ function buildWhatsAppUrl(
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
 }
 
-function buildEmailUrl(email: string, product: ProductItem): string {
-  const subject = encodeURIComponent(`Consulta: ${product.name}`)
-  const body = encodeURIComponent(
-    `Hola! Me interesa el diseno "${product.name}"${product.price ? ` ($${product.price})` : ''}. Quisiera mas informacion.`
-  )
+function buildEmailUrl(
+  email: string,
+  product: ProductItem,
+  labels: (typeof CATALOG_LABELS)[string],
+): string {
+  const subject = encodeURIComponent(labels.emailSubject(product.name))
+  const body = encodeURIComponent(labels.emailBody(product.name, product.price))
   return `mailto:${email}?subject=${subject}&body=${body}`
 }
 
@@ -59,6 +119,8 @@ function ProductCard({
   orderMessageTemplate,
   emailAddress,
   index,
+  labels,
+  unavailableText,
 }: {
   product: ProductItem
   showPrices: boolean
@@ -67,6 +129,8 @@ function ProductCard({
   orderMessageTemplate: string
   emailAddress?: string
   index: number
+  labels: (typeof CATALOG_LABELS)[string]
+  unavailableText: string
 }) {
   const isAvailable = product.available !== false
 
@@ -92,7 +156,7 @@ function ProductCard({
 
           <div className="mt-auto flex flex-col gap-2 pt-4">
             {!isAvailable && (
-              <Badge variant="muted" className="self-start">No disponible</Badge>
+              <Badge variant="muted" className="self-start">{unavailableText}</Badge>
             )}
             {isAvailable && whatsappPhone && (
               <Button
@@ -110,7 +174,7 @@ function ProductCard({
               <Button
                 variant="primary"
                 size="sm"
-                href={buildEmailUrl(emailAddress, product)}
+                href={buildEmailUrl(emailAddress, product, labels)}
               >
                 {orderButtonText}
               </Button>
@@ -130,10 +194,15 @@ export function ProductCatalogSection({
   categories,
   showPrices = true,
   whatsappPhone,
-  orderButtonText = 'Consultar por WhatsApp',
-  orderMessageTemplate = 'Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
+  orderButtonText,
+  orderMessageTemplate,
   emailAddress,
+  __locale = 'es',
 }: ProductCatalogSectionProps) {
+  const labels = CATALOG_LABELS[__locale] ?? CATALOG_LABELS.es
+  const resolvedOrderButton = orderButtonText ?? labels.orderButton
+  const resolvedOrderTemplate = orderMessageTemplate ?? labels.orderTemplate
+  const unavailableText = __locale === 'en' ? 'Unavailable' : 'No disponible'
   const products = productsProp || items || []
 
   // Hooks must be called before any early return — conditional hook calls
@@ -174,7 +243,7 @@ export function ProductCatalogSection({
                   : 'bg-[var(--surface)] text-[var(--text-muted)] hover:bg-[var(--surface)] hover:text-[var(--text)]'
               }`}
             >
-              Todos
+              {labels.all}
             </button>
             {allCategories.map((cat) => (
               <button
@@ -200,17 +269,21 @@ export function ProductCatalogSection({
               product={product}
               showPrices={showPrices}
               whatsappPhone={whatsappPhone}
-              orderButtonText={orderButtonText}
-              orderMessageTemplate={orderMessageTemplate}
+              orderButtonText={resolvedOrderButton}
+              orderMessageTemplate={resolvedOrderTemplate}
               emailAddress={emailAddress}
               index={index}
+              labels={labels}
+              unavailableText={unavailableText}
             />
           ))}
         </div>
 
         {filteredProducts.length === 0 && (
           <p className="py-12 text-center text-[var(--text-muted)]">
-            No hay productos disponibles en esta categoria.
+            {__locale === 'en'
+              ? 'No products available in this category.'
+              : 'No hay productos disponibles en esta categoria.'}
           </p>
         )}
       </Container>
