@@ -1,0 +1,47 @@
+name: Cache purge (post-merge)
+
+# Purges Cloudflare edge cache after a Main merge lands. Without this,
+# the public site serves stale content for up to 24 hours via our
+# stale-while-revalidate config (s-maxage=60, SWR=86400). Relies on:
+#
+#   Secrets:
+#     CLOUDFLARE_API_TOKEN  — scoped to "Zone:Cache Purge"
+#     CLOUDFLARE_ZONE_ID    — paragu-ai.com zone id
+#
+# If either secret is missing the job is a no-op (exit 0) so this
+# workflow never blocks a merge.
+
+on:
+  push:
+    branches: [Main]
+  workflow_dispatch:
+
+jobs:
+  purge:
+    name: Purge Cloudflare cache
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Purge everything
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ZONE_ID" ]; then
+            echo "::notice::Cache-purge secrets not configured — skipping purge."
+            exit 0
+          fi
+
+          response=$(curl -sS -X POST \
+            "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}')
+
+          echo "$response"
+          success=$(echo "$response" | grep -o '"success":[^,}]*' | head -1 | cut -d: -f2 | tr -d ' ')
+          if [ "$success" != "true" ]; then
+            echo "::error::Cache purge failed"
+            exit 1
+          fi
+          echo "::notice::Cache purged successfully"
