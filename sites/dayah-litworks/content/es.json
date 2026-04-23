@@ -868,7 +868,28 @@
         "title": "Bilingüe",
         "description": "Español e inglés"
       }
-    ]
+    ],
+    "highlightsBlock": {
+      "title": "Números rápidos",
+      "features": [
+        {
+          "title": "6+",
+          "description": "Años de experiencia"
+        },
+        {
+          "title": "100+",
+          "description": "Portadas diseñadas"
+        },
+        {
+          "title": "Global",
+          "description": "Clientes en LATAM, USA y Europa"
+        },
+        {
+          "title": "Bilingüe",
+          "description": "Español e inglés"
+        }
+      ]
+    }
   },
   "terminos": {
     "seo": {
@@ -939,6 +960,39 @@
           "title": "Efectivo",
           "description": "Pago presencial en Asunción",
           "icon": null
+        }
+      ]
+    },
+    "sectionsBlock": {
+      "title": "Términos del servicio",
+      "items": [
+        {
+          "question": "1. Referencias previas",
+          "answer": "Envía siempre referencias de ideas, tipografías, colores o estilos ANTES de solicitar el diseño, no después de enviar la propuesta terminada."
+        },
+        {
+          "question": "2. Días hábiles",
+          "answer": "El trabajo se realiza en días hábiles (lunes a viernes), con el tiempo suficiente acordado para entregar una pieza de calidad."
+        },
+        {
+          "question": "3. Cancelación",
+          "answer": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsará el porcentaje adelantado."
+        },
+        {
+          "question": "4. Responsabilidad de revisión",
+          "answer": "El cliente adquiere la responsabilidad de revisar el diseño, los textos y datos antes de empezar cualquier proceso de impresión, reproducción y/o publicación, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir."
+        },
+        {
+          "question": "5. Cambios de alcance",
+          "answer": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientación en su desarrollo por parte del cliente. Si se diera el caso, Dayah LitWorks informará al cliente y podrá modificar el presupuesto."
+        },
+        {
+          "question": "6. Derechos de diseño",
+          "answer": "Los derechos del o los diseños realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago."
+        },
+        {
+          "question": "7. Uso en portafolio",
+          "answer": "Dayah LitWorks podrá mostrar los trabajos realizados en el portfolio, así como en otras plataformas digitales como Instagram, Facebook, TikTok o página web."
         }
       ]
     }

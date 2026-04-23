@@ -3,13 +3,45 @@
   "titleKey": "sobre.seo.title",
   "descriptionKey": "sobre.seo.description",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "minimal", "content": "sobre.hero" },
-    { "id": "features", "variant": "three-col", "content": "sobre.bio" },
-    { "id": "features", "variant": "grid", "content": "sobre.highlights" },
-    { "id": "process", "variant": "steps", "content": "home.process" },
-    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" },
-    { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "sobre.hero"
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "sobre.bio"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "sobre.highlightsBlock"
+    },
+    {
+      "id": "process",
+      "variant": "steps",
+      "content": "home.process"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
   ]
 }
