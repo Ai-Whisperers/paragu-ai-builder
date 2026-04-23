@@ -27,15 +27,33 @@ const STEP_LABELS: Record<string, string> = {
   nl: 'Stap',
 }
 
+const TITLE_DEFAULTS: Record<string, string> = {
+  en: 'Our Process',
+  es: 'Nuestro Proceso',
+  de: 'Unser Prozess',
+  pt: 'Nosso Processo',
+  nl: 'Ons Proces',
+}
+
+const CTA_DEFAULTS: Record<string, string> = {
+  en: 'Start my process',
+  es: 'Iniciar mi proceso',
+  de: 'Prozess starten',
+  pt: 'Iniciar meu processo',
+  nl: 'Start mijn proces',
+}
+
 export function ProcessSection({
-  title = 'Nuestro Proceso',
+  title,
   subtitle,
   steps = [],
-  ctaText = 'Iniciar mi proceso',
+  ctaText,
   ctaLink = '#contact',
   __locale = 'es',
 }: ProcessSectionProps) {
   const stepLabel = STEP_LABELS[__locale] || 'Paso'
+  const resolvedTitle = title ?? TITLE_DEFAULTS[__locale] ?? TITLE_DEFAULTS.es
+  const resolvedCtaText = ctaText ?? CTA_DEFAULTS[__locale] ?? CTA_DEFAULTS.es
   const [activeStep, setActiveStep] = useState<number | null>(null)
 
   if (!steps.length) {
@@ -45,9 +63,9 @@ export function ProcessSection({
   return (
     <section className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-4">
-        {title && (
+        {resolvedTitle && (
           <Heading level={2} className="mb-4 text-3xl font-bold md:text-4xl" style={{ color: 'var(--primary)' }}>
-            {title}
+            {resolvedTitle}
           </Heading>
         )}
         {subtitle && (
@@ -121,7 +139,7 @@ export function ProcessSection({
           </div>
         </div>
 
-        {ctaText && (
+        {resolvedCtaText && (
           <div className="mt-12 text-center">
             <a
               href={ctaLink}
@@ -131,7 +149,7 @@ export function ProcessSection({
                 color: 'var(--primary-foreground)',
               }}
             >
-              {ctaText}
+              {resolvedCtaText}
             </a>
           </div>
         )}

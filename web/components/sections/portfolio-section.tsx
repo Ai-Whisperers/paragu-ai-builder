@@ -20,14 +20,26 @@ interface PortfolioSectionProps {
   subtitle?: string
   items: PortfolioItem[]
   categories?: string[]
+  __locale?: string
+}
+
+const PORTFOLIO_LABELS: Record<string, { title: string; all: string }> = {
+  en: { title: 'Our Portfolio', all: 'All' },
+  es: { title: 'Nuestro Portafolio', all: 'Todos' },
+  de: { title: 'Unser Portfolio', all: 'Alle' },
+  pt: { title: 'Nosso Portfólio', all: 'Todos' },
+  nl: { title: 'Ons Portfolio', all: 'Alle' },
 }
 
 export function PortfolioSection({
-  title = 'Nuestro Portafolio',
+  title,
   subtitle,
   items,
-  categories = []
+  categories = [],
+  __locale = 'es',
 }: PortfolioSectionProps) {
+  const labels = PORTFOLIO_LABELS[__locale] ?? PORTFOLIO_LABELS.es
+  const resolvedTitle = title ?? labels.title
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
 
   const filteredItems = selectedCategory === 'all'
@@ -47,7 +59,7 @@ export function PortfolioSection({
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
           <Heading level={2} className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
-            {title}
+            {resolvedTitle}
           </Heading>
           {subtitle && (
             <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
@@ -64,7 +76,7 @@ export function PortfolioSection({
                   : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--primary)] hover:text-white'
               }`}
             >
-              Todos
+              {labels.all}
             </button>
             {uniqueCategories.map(cat => (
               <button
