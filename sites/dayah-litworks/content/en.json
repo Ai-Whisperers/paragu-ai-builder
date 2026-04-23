@@ -409,7 +409,25 @@
           ],
           "category": "Interior Layout"
         }
-      ]
+      ],
+      "addons_block": {
+        "title": "Additional services",
+        "subtitle": "Add-ons you can attach to any package. Quote on request.",
+        "features": [
+          {
+            "title": "Static 3D Mockup",
+            "description": "Realistic 3D render of your book (Quote)"
+          },
+          {
+            "title": "3D Video Mockup",
+            "description": "Professional animation of your cover (Quote)"
+          },
+          {
+            "title": "Copyediting & Proofreading",
+            "description": "Priced based on evaluation of first chapters and manuscript length (Per evaluation)"
+          }
+        ]
+      }
     },
     "products": {
       "title": "Premade Catalog",
@@ -651,7 +669,28 @@
       "Sci-Fi",
       "Horror"
     ],
-    "items": []
+    "items": [],
+    "placeholder": {
+      "title": "Portfolio coming soon",
+      "subtitle": "I'm curating recent work to share here. In the meantime, browse the premade catalog or DM me on WhatsApp.",
+      "features": [
+        {
+          "title": "Premade Catalog",
+          "description": "Ready-to-use designs — with typography and color customization.",
+          "href": "/s/en/dayah-litworks/catalogo"
+        },
+        {
+          "title": "Instagram @dayah.litworks",
+          "description": "Latest work + behind-the-scenes on Instagram.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "WhatsApp",
+          "description": "Tell me what you're writing — I reply during business hours.",
+          "href": "https://wa.me/595986868241"
+        }
+      ]
+    }
   },
   "blog": {
     "seo": {

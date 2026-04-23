@@ -3,11 +3,30 @@
   "titleKey": "home.products.title",
   "descriptionKey": "home.products.subtitle",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "product-catalog", "variant": "grid", "content": "home.products" },
-    { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "product-catalog",
+      "variant": "grid",
+      "content": "home.products"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
   ]
 }
