@@ -15,6 +15,8 @@ import {
   buildService,
   buildServiceItemList,
   buildBreadcrumbList,
+  buildProduct,
+  type ProductShape,
 } from '@/lib/seo/json-ld'
 
 export interface JsonLdItem { '@context': string; '@type': string; [k: string]: unknown }
@@ -85,7 +87,60 @@ export function jsonLdForPage(page: ResolvedPage, baseUrl: string): JsonLdItem[]
     }
   }
 
+  // 6. Product schema — emitted when the page is a PDP. Pre-commerce
+  //    tenants (like Superspuma) ship static PDPs under /producto/<slug>
+  //    and reference the product content block; we pull price/sizes/
+  //    warranty from that block. Commerce-enabled PDPs render via the
+  //    dynamic route which emits its own Product schema.
+  const pdpProduct = extractProductFromPage(page, baseUrl)
+  if (pdpProduct) items.push(buildProduct(pdpProduct, baseUrl) as JsonLdItem)
+
   return items
+}
+
+function extractProductFromPage(page: ResolvedPage, baseUrl: string): ProductShape | null {
+  const slug = page.page.slug
+  if (!slug || !slug.startsWith('producto/')) return null
+
+  // The /producto/<id> pages have a hero with the product name + a
+  // sizes section (optional) with tiers[].price and tiers[].description.
+  const hero = page.sections.find((s) => s.id === 'hero')
+  if (!hero) return null
+  const heroProps = hero.props as Record<string, unknown>
+  const name = typeof heroProps.headline === 'string' ? heroProps.headline : undefined
+  const description = typeof heroProps.subheadline === 'string' ? heroProps.subheadline : undefined
+  if (!name) return null
+
+  const sizesSection = page.sections.find(
+    (s) =>
+      s.id === 'programs-comparison' &&
+      Array.isArray((s.props as Record<string, unknown>).tiers),
+  )
+  const tiers =
+    (sizesSection?.props as Record<string, unknown> | undefined)?.tiers as
+      | Array<Record<string, unknown>>
+      | undefined
+
+  const sizes = tiers
+    ?.map((t) => {
+      const label = typeof t.name === 'string' ? t.name : ''
+      const dimensions = typeof t.description === 'string' ? t.description : undefined
+      const priceStr = typeof t.price === 'string' ? t.price : ''
+      // "Gs. 1.800.000" → 1800000
+      const digits = priceStr.replace(/[^0-9]/g, '')
+      const priceGs = digits ? parseInt(digits, 10) : NaN
+      if (!label || !Number.isFinite(priceGs)) return null
+      return { label, dimensions, priceGs }
+    })
+    .filter((s): s is { label: string; dimensions?: string; priceGs: number } => s !== null)
+
+  return {
+    name,
+    description,
+    brand: 'Superspuma',
+    url: `${baseUrl}${page.meta.path}`,
+    sizes: sizes && sizes.length > 0 ? sizes : undefined,
+  }
 }
 
 function safeSiteContent(

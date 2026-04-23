@@ -1,7 +1,7 @@
 {
-  "slug": "producto/titanium",
-  "titleKey": "producto.titanium.seo.title",
-  "descriptionKey": "producto.titanium.seo.description",
+  "slug": "producto/essential-top",
+  "titleKey": "producto.essential-top.seo.title",
+  "descriptionKey": "producto.essential-top.seo.description",
   "sections": [
     {
       "id": "header",
@@ -11,22 +11,17 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "producto.titanium.hero"
+      "content": "producto.essential-top.hero"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.trustBadges"
-    },
-    {
-      "id": "programs-comparison",
-      "variant": "tiered",
-      "content": "producto.titanium.sizes"
+      "content": "producto.essential-top.trustBadges"
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "producto.titanium.specs"
+      "content": "producto.essential-top.specs"
     },
     {
       "id": "testimonials",
@@ -41,7 +36,7 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "producto.titanium.cta"
+      "content": "producto.essential-top.cta"
     },
     {
       "id": "contact",

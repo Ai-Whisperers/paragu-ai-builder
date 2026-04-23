@@ -10,7 +10,14 @@
   "publicUrl": "https://paragu-ai.com/s/es/superspuma",
   "defaultLocale": "es",
   "locales": ["es"],
-  "pages": ["home", "nosotros", "tiendas", "guias", "garantia", "envios", "financiacion", "terminos", "privacidad", "promo-cartagena", "producto/titanium"],
+  "pages": [
+    "home", "nosotros", "tiendas", "guias", "garantia", "envios", "financiacion", "terminos", "privacidad", "promo-cartagena",
+    "producto/titanium", "producto/imperial", "producto/harmony", "producto/serrat", "producto/delta-soft",
+    "producto/essential-top", "producto/renovate", "producto/impulse-kids", "producto/impulse-teens", "producto/pop-kids",
+    "producto/pop-plus", "producto/pop-teen", "producto/superteen", "producto/super-kids", "producto/luna-soft",
+    "producto/golden", "producto/serena", "producto/duo-confort", "producto/ortopedico",
+    "producto/almohada-superspuma", "producto/cubre-colchon", "producto/protector-colchon", "producto/base-box-baul"
+  ],
   "contact": {
     "phone": "+595981111222",
     "email": "info@superspuma.com.py",

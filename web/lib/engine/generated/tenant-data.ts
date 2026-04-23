@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=209, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=233, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5136,7 +5136,29 @@ export const SITES: Record<string, JsonRecord> = {
       "terminos",
       "privacidad",
       "promo-cartagena",
-      "producto/titanium"
+      "producto/titanium",
+      "producto/imperial",
+      "producto/harmony",
+      "producto/serrat",
+      "producto/delta-soft",
+      "producto/essential-top",
+      "producto/renovate",
+      "producto/impulse-kids",
+      "producto/impulse-teens",
+      "producto/pop-kids",
+      "producto/pop-plus",
+      "producto/pop-teen",
+      "producto/superteen",
+      "producto/super-kids",
+      "producto/luna-soft",
+      "producto/golden",
+      "producto/serena",
+      "producto/duo-confort",
+      "producto/ortopedico",
+      "producto/almohada-superspuma",
+      "producto/cubre-colchon",
+      "producto/protector-colchon",
+      "producto/base-box-baul"
     ],
     "path": "/s/es/superspuma",
     "publicUrl": "https://paragu-ai.com/s/es/superspuma",
@@ -5892,6 +5914,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "blog",
     "titleKey": "blog.seo.title"
+  },
+  "dayah-litworks:blog/como-elegir-portada-libro": {
+    "description": "5 factores clave que determinan si tu portada atrae lectores",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blogPost",
+        "id": "blog-post",
+        "variant": "article"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog/como-elegir-portada-libro",
+    "title": "Cómo elegir la portada perfecta para tu libro"
   },
   "dayah-litworks:catalogo": {
     "descriptionKey": "home.products.subtitle",
@@ -13304,6 +13358,1372 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "privacidad",
     "titleKey": "privacidad.seo.title"
+  },
+  "superspuma:producto/almohada-superspuma": {
+    "descriptionKey": "producto.almohada-superspuma.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.almohada-superspuma.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.almohada-superspuma.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.almohada-superspuma.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.almohada-superspuma.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/almohada-superspuma",
+    "titleKey": "producto.almohada-superspuma.seo.title"
+  },
+  "superspuma:producto/base-box-baul": {
+    "descriptionKey": "producto.base-box-baul.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.base-box-baul.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.base-box-baul.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.base-box-baul.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.base-box-baul.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.base-box-baul.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/base-box-baul",
+    "titleKey": "producto.base-box-baul.seo.title"
+  },
+  "superspuma:producto/cubre-colchon": {
+    "descriptionKey": "producto.cubre-colchon.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.cubre-colchon.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.cubre-colchon.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.cubre-colchon.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.cubre-colchon.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/cubre-colchon",
+    "titleKey": "producto.cubre-colchon.seo.title"
+  },
+  "superspuma:producto/delta-soft": {
+    "descriptionKey": "producto.delta-soft.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.delta-soft.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.delta-soft.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.delta-soft.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.delta-soft.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/delta-soft",
+    "titleKey": "producto.delta-soft.seo.title"
+  },
+  "superspuma:producto/duo-confort": {
+    "descriptionKey": "producto.duo-confort.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.duo-confort.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.duo-confort.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.duo-confort.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.duo-confort.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.duo-confort.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/duo-confort",
+    "titleKey": "producto.duo-confort.seo.title"
+  },
+  "superspuma:producto/essential-top": {
+    "descriptionKey": "producto.essential-top.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.essential-top.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.essential-top.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.essential-top.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.essential-top.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/essential-top",
+    "titleKey": "producto.essential-top.seo.title"
+  },
+  "superspuma:producto/golden": {
+    "descriptionKey": "producto.golden.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.golden.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.golden.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.golden.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.golden.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.golden.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/golden",
+    "titleKey": "producto.golden.seo.title"
+  },
+  "superspuma:producto/harmony": {
+    "descriptionKey": "producto.harmony.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.harmony.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.harmony.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.harmony.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.harmony.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.harmony.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/harmony",
+    "titleKey": "producto.harmony.seo.title"
+  },
+  "superspuma:producto/imperial": {
+    "descriptionKey": "producto.imperial.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.imperial.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.imperial.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.imperial.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.imperial.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.imperial.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/imperial",
+    "titleKey": "producto.imperial.seo.title"
+  },
+  "superspuma:producto/impulse-kids": {
+    "descriptionKey": "producto.impulse-kids.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.impulse-kids.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.impulse-kids.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.impulse-kids.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.impulse-kids.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.impulse-kids.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/impulse-kids",
+    "titleKey": "producto.impulse-kids.seo.title"
+  },
+  "superspuma:producto/impulse-teens": {
+    "descriptionKey": "producto.impulse-teens.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.impulse-teens.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.impulse-teens.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.impulse-teens.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.impulse-teens.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/impulse-teens",
+    "titleKey": "producto.impulse-teens.seo.title"
+  },
+  "superspuma:producto/luna-soft": {
+    "descriptionKey": "producto.luna-soft.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.luna-soft.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.luna-soft.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.luna-soft.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.luna-soft.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.luna-soft.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/luna-soft",
+    "titleKey": "producto.luna-soft.seo.title"
+  },
+  "superspuma:producto/ortopedico": {
+    "descriptionKey": "producto.ortopedico.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.ortopedico.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.ortopedico.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.ortopedico.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.ortopedico.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.ortopedico.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/ortopedico",
+    "titleKey": "producto.ortopedico.seo.title"
+  },
+  "superspuma:producto/pop-kids": {
+    "descriptionKey": "producto.pop-kids.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.pop-kids.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.pop-kids.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.pop-kids.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.pop-kids.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.pop-kids.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/pop-kids",
+    "titleKey": "producto.pop-kids.seo.title"
+  },
+  "superspuma:producto/pop-plus": {
+    "descriptionKey": "producto.pop-plus.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.pop-plus.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.pop-plus.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.pop-plus.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.pop-plus.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/pop-plus",
+    "titleKey": "producto.pop-plus.seo.title"
+  },
+  "superspuma:producto/pop-teen": {
+    "descriptionKey": "producto.pop-teen.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.pop-teen.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.pop-teen.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.pop-teen.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.pop-teen.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/pop-teen",
+    "titleKey": "producto.pop-teen.seo.title"
+  },
+  "superspuma:producto/protector-colchon": {
+    "descriptionKey": "producto.protector-colchon.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.protector-colchon.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.protector-colchon.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.protector-colchon.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.protector-colchon.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/protector-colchon",
+    "titleKey": "producto.protector-colchon.seo.title"
+  },
+  "superspuma:producto/renovate": {
+    "descriptionKey": "producto.renovate.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.renovate.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.renovate.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.renovate.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.renovate.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/renovate",
+    "titleKey": "producto.renovate.seo.title"
+  },
+  "superspuma:producto/serena": {
+    "descriptionKey": "producto.serena.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.serena.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.serena.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.serena.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.serena.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/serena",
+    "titleKey": "producto.serena.seo.title"
+  },
+  "superspuma:producto/serrat": {
+    "descriptionKey": "producto.serrat.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.serrat.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.serrat.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.serrat.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.serrat.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/serrat",
+    "titleKey": "producto.serrat.seo.title"
+  },
+  "superspuma:producto/super-kids": {
+    "descriptionKey": "producto.super-kids.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.super-kids.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.super-kids.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.super-kids.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.super-kids.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.super-kids.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/super-kids",
+    "titleKey": "producto.super-kids.seo.title"
+  },
+  "superspuma:producto/superteen": {
+    "descriptionKey": "producto.superteen.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.superteen.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.superteen.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.superteen.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.superteen.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/superteen",
+    "titleKey": "producto.superteen.seo.title"
+  },
+  "superspuma:producto/titanium": {
+    "descriptionKey": "producto.titanium.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "producto.titanium.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "producto.titanium.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "producto.titanium.sizes",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "producto.titanium.specs",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "producto.titanium.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "producto/titanium",
+    "titleKey": "producto.titanium.seo.title"
   },
   "superspuma:promo-cartagena": {
     "descriptionKey": "home.promo-cartagena.subtitle",
@@ -36323,6 +37743,2420 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cómo recolectamos, usamos y protegemos tus datos personales cuando comprás o consultás en Superspuma.",
         "title": "Política de Privacidad — Superspuma"
+      }
+    },
+    "producto": {
+      "almohada-superspuma": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Almohada%20Superspuma.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Almohada Superspuma"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Almohada%20Superspuma.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Almohada Superspuma",
+          "subheadline": "Almohada de fibra o espuma.",
+          "trustBadges": [
+            "Línea Accesorio",
+            "Garantía fábrica",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Almohada de fibra siliconada o espuma. Varios niveles de firmeza disponibles.",
+          "title": "Almohada Superspuma — Colchón Superspuma — Desde Gs. 65.000"
+        },
+        "specs": {
+          "items": [],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Almohada Superspuma?"
+        }
+      },
+      "base-box-baul": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Base Box Baúl"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Base Box Baúl",
+          "subheadline": "Sommier con espacio de guardado bajo la tapa.",
+          "trustBadges": [
+            "Línea Accesorio",
+            "Garantía fábrica",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Sommier con tapa rebatible y espacio de guardado interior. Disponible en todas las medidas. Aprovechá el espacio debajo de tu cama.",
+          "title": "Base Box Baúl — Colchón Superspuma — Desde Gs. 890.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 140x190 cm",
+                "Garantía incluida",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 890.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 160x200 cm",
+                "Garantía incluida",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 1.150.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl%20en%20medida%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "180x200 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 180x200 cm",
+                "Garantía incluida",
+                "Envío e instalación coordinada"
+              ],
+              "name": "King",
+              "price": "Gs. 1.490.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Base Box Baúl?"
+        }
+      },
+      "cubre-colchon": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Cubre%20Colch%C3%B3n.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Cubre Colchón"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Cubre%20Colch%C3%B3n.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Cubre Colchón",
+          "subheadline": "Protección acolchada para tu colchón.",
+          "trustBadges": [
+            "Línea Accesorio",
+            "Garantía fábrica",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Cubre colchón acolchado con elástico en todos los tamaños estándar.",
+          "title": "Cubre Colchón — Colchón Superspuma — Desde Gs. 95.000"
+        },
+        "specs": {
+          "items": [],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Cubre Colchón?"
+        }
+      },
+      "delta-soft": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Delta%20Soft.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Delta Soft"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Delta%20Soft.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Delta Soft",
+          "subheadline": "Tacto mullido con soporte de resorte.",
+          "trustBadges": [
+            "Línea Confort",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Resorte con superficie suave orientado a quienes prefieren un tacto mullido sobre la firmeza del resorte.",
+          "title": "Delta Soft — Colchón Superspuma — Desde Gs. 1.050.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes + pillow de espuma",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Suave",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Antiácaros",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Delta Soft?"
+        }
+      },
+      "duo-confort": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Duo Confort"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Duo Confort",
+          "subheadline": "Viscoelástica adaptable — alivio de puntos de presión.",
+          "trustBadges": [
+            "Línea Alta Gama",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Espuma viscoelástica adaptable que se ajusta al contorno del cuerpo. Ideal para aliviar puntos de presión y mejorar la circulación.",
+          "title": "Duo Confort — Colchón Superspuma — Desde Gs. 980.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190x28 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 140x190x28 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 980.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200x28 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 160x200x28 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 1.250.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort%20en%20medida%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "180x200x28 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 180x200x28 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "King",
+              "price": "Gs. 1.580.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Espuma viscoelástica (memory foam)",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Adaptable",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 110 kg por lado",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "Algodón stretch",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Duo Confort?"
+        }
+      },
+      "essential-top": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Essential%20Top.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Essential Top"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Essential%20Top.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Essential Top",
+          "subheadline": "Resorte con Pillow Top — la puerta de entrada a nuestra línea Esencial.",
+          "trustBadges": [
+            "Línea Esencial",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Línea esencial de resorte para quienes buscan la experiencia Superspuma a un precio accesible, con Pillow Top incluido.",
+          "title": "Essential Top — Colchón Superspuma — Desde Gs. 890.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes + Pillow Top",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Polialgodón",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Essential Top?"
+        }
+      },
+      "golden": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Golden"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Golden",
+          "subheadline": "Espuma reversible con Pillow Top.",
+          "trustBadges": [
+            "Línea Confort",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de espuma utilizable por ambos lados (reversible). Pillow Top simple. Buen balance entre precio y durabilidad.",
+          "title": "Golden — Colchón Superspuma — Desde Gs. 696.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden%20en%20medida%201%20plaza%2B.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "100x190x15 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 100x190x15 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+",
+              "price": "Gs. 696.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190x15 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 140x190x15 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 890.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200x15 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 160x200x15 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 1.050.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Espuma densidad media, reversible",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Pillow Top simple",
+              "icon": "check",
+              "text": "Pillow Top"
+            },
+            {
+              "description": "Hasta 70 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Golden?"
+        }
+      },
+      "harmony": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Harmony"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Harmony",
+          "subheadline": "Equilibrio ideal entre soporte y confort con Euro-Top.",
+          "trustBadges": [
+            "Línea Confort",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Equilibrio entre soporte y confort. Resortes con Euro-Top y tejido antiácaros. Uno de los modelos favoritos para el uso diario en habitación matrimonial.",
+          "title": "Harmony — Colchón Superspuma — Desde Gs. 1.274.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 140x190 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 1.274.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 160x200 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 1.480.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "180x200 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 180x200 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "King",
+              "price": "Gs. 1.890.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%20Super%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "200x200 cm",
+              "highlighted": false,
+              "id": "size-3",
+              "included": [
+                "Dimensiones: 200x200 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Super King",
+              "price": "Gs. 2.250.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes + Euro-Top",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Euro-Top",
+              "icon": "check",
+              "text": "Pillow Top"
+            },
+            {
+              "description": "Tejido jacquard antiácaros",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "Hasta 90 kg por lado",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Harmony?"
+        }
+      },
+      "imperial": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Imperial"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Imperial",
+          "subheadline": "Resortes Bonell con Pillow Top para descanso regenerador.",
+          "trustBadges": [
+            "Línea Alta Gama",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Sistema de resortes Bonell interconectados para soporte firme y descanso regenerador. Pillow Top y tratamiento antiácaros. Opción clásica de alta gama.",
+          "title": "Imperial — Colchón Superspuma — Desde Gs. 2.230.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 140x190 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 2.230.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 160x200 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 2.502.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "180x200 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 180x200 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "King",
+              "price": "Gs. 3.030.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%20Super%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "200x200 cm",
+              "highlighted": false,
+              "id": "size-3",
+              "included": [
+                "Dimensiones: 200x200 cm",
+                "Garantía: 3 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Super King",
+              "price": "Gs. 3.652.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio-Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Pillow Top",
+              "icon": "check",
+              "text": "Pillow Top"
+            },
+            {
+              "description": "69 cm (sommier)",
+              "icon": "check",
+              "text": "Altura del sommier"
+            },
+            {
+              "description": "Polialgodón antiácaros",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "Hasta 100 kg por lado",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "Gris, Beige, Bordó",
+              "icon": "check",
+              "text": "Colores"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Imperial?"
+        }
+      },
+      "impulse-kids": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Impulse Kids"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Impulse Kids",
+          "subheadline": "Resorte premium para niños, reversible.",
+          "trustBadges": [
+            "Línea Infantil",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de resorte premium para niños. Cara reversible y tela antiácaros. Diseños alegres rosa y celeste.",
+          "title": "Impulse Kids — Colchón Superspuma — Desde Gs. 780.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids%20en%20medida%201%20plaza.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "080x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 080x190 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza",
+              "price": "Gs. 650.000",
+              "priceNote": "4 ó 6 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids%20en%20medida%201%20plaza%2B.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "100x190 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 100x190 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+",
+              "price": "Gs. 780.000",
+              "priceNote": "4 ó 6 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 70 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "Rosa, Celeste",
+              "icon": "check",
+              "text": "Colores"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Impulse Kids?"
+        }
+      },
+      "impulse-teens": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Teens.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Impulse Teens"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Teens.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Impulse Teens",
+          "subheadline": "Resorte para adolescentes, más robusto.",
+          "trustBadges": [
+            "Línea Juvenil",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de resorte para adolescentes, con mayor capacidad de carga y espuma de densidad superior.",
+          "title": "Impulse Teens — Colchón Superspuma — Desde Gs. 890.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell + espuma",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio-Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 90 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Impulse Teens?"
+        }
+      },
+      "luna-soft": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Luna Soft"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Luna Soft",
+          "subheadline": "Espuma económica — suave y liviana.",
+          "trustBadges": [
+            "Línea Esencial",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de espuma de densidad media. Superficie suave y cómoda, ideal para invitados o uso ocasional.",
+          "title": "Luna Soft — Colchón Superspuma — Desde Gs. 500.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%201%20plaza.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "080x190x15 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 080x190x15 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza",
+              "price": "Gs. 500.000",
+              "priceNote": "2 a 15 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%201%20plaza%2B.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "090x190x15 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 090x190x15 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+",
+              "price": "Gs. 560.000",
+              "priceNote": "2 a 15 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190x15 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 140x190x15 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 640.000",
+              "priceNote": "2 a 15 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200x15 cm",
+              "highlighted": false,
+              "id": "size-3",
+              "included": [
+                "Dimensiones: 160x200x15 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 820.000",
+              "priceNote": "2 a 15 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Espuma densidad media",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Suave",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 60 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "Poliéster",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Luna Soft?"
+        }
+      },
+      "ortopedico": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Ortopédico"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Ortopédico",
+          "subheadline": "Firmeza máxima — hasta 140 kg, 6 años de garantía.",
+          "trustBadges": [
+            "Línea Premium",
+            "6 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de espuma de alta densidad 45 reforzado para personas que requieren soporte firme y gran capacidad de carga. Hasta 140 kg por lado.",
+          "title": "Ortopédico — Colchón Superspuma — Desde Gs. 1.290.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%201%20plaza%2B.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "120x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 120x190 cm",
+                "Garantía: 6 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+",
+              "price": "Gs. 1.290.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 140x190 cm",
+                "Garantía: 6 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 1.450.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 160x200 cm",
+                "Garantía: 6 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 1.750.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "180x200 cm",
+              "highlighted": false,
+              "id": "size-3",
+              "included": [
+                "Dimensiones: 180x200 cm",
+                "Garantía: 6 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "King",
+              "price": "Gs. 2.050.000",
+              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Espuma alta densidad 45",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Extra firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 140 kg por lado",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "6 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "6 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Ortopédico?"
+        }
+      },
+      "pop-kids": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Pop Kids"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Pop Kids",
+          "subheadline": "Línea económica de niños — diseños divertidos.",
+          "trustBadges": [
+            "Línea Infantil",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón infantil de un solo lado de uso con tejido Polybrush. Diseños divertidos para los más chicos. Excelente relación calidad/precio.",
+          "title": "Pop Kids — Colchón Superspuma — Desde Gs. 649.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids%20en%20medida%201%20plaza%2B.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "100x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 100x190 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+",
+              "price": "Gs. 649.000",
+              "priceNote": "4, 6 ó 12 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids%20en%20medida%201%20plaza%2B%20con%20sommier.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "100x190 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 100x190 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+ con sommier",
+              "price": "Gs. 1.069.000",
+              "priceNote": "4, 6 ó 12 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids%20en%20medida%201%20plaza%2B%20con%20sommier%20y%20cabecera.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "100x190 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 100x190 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza+ con sommier y cabecera",
+              "price": "Gs. 1.298.000",
+              "priceNote": "4, 6 ó 12 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 70 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "Polybrush",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "Rosa (nena), Celeste (nene)",
+              "icon": "check",
+              "text": "Colores"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Pop Kids?"
+        }
+      },
+      "pop-plus": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Plus.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Pop Plus"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Plus.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Pop Plus",
+          "subheadline": "Pop reforzado, para uso adulto.",
+          "trustBadges": [
+            "Línea Esencial",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Versión reforzada de la línea Pop para uso adulto, con mayor capacidad de carga.",
+          "title": "Pop Plus — Colchón Superspuma — Desde Gs. 850.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio-Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 90 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Pop Plus?"
+        }
+      },
+      "pop-teen": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Teen.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Pop Teen"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Teen.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Pop Teen",
+          "subheadline": "Pop juvenil — precio accesible.",
+          "trustBadges": [
+            "Línea Juvenil",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón Pop para adolescentes, equilibrio entre precio y durabilidad.",
+          "title": "Pop Teen — Colchón Superspuma — Desde Gs. 780.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 80 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Pop Teen?"
+        }
+      },
+      "protector-colchon": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Protector%20Impermeable.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Protector Impermeable"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Protector%20Impermeable.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Protector Impermeable",
+          "subheadline": "Impermeable y transpirable.",
+          "trustBadges": [
+            "Línea Accesorio",
+            "Garantía fábrica",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Protector impermeable que preserva tu colchón de líquidos y manchas sin alterar la transpirabilidad.",
+          "title": "Protector Impermeable — Colchón Superspuma — Desde Gs. 120.000"
+        },
+        "specs": {
+          "items": [],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Protector Impermeable?"
+        }
+      },
+      "renovate": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Renovate.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Renovate"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Renovate.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Renovate",
+          "subheadline": "El reemplazo económico y confiable para tu viejo colchón.",
+          "trustBadges": [
+            "Línea Esencial",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Ideal para renovar tu colchón sin cambiar de presupuesto. Resorte Bonell con acolchado confortable.",
+          "title": "Renovate — Colchón Superspuma — Desde Gs. 780.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio-Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Renovate?"
+        }
+      },
+      "serena": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serena.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Serena"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serena.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Serena",
+          "subheadline": "Espuma de alta densidad con buen confort.",
+          "trustBadges": [
+            "Línea Confort",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de espuma de alta densidad con acabado confortable y buena recuperación.",
+          "title": "Serena — Colchón Superspuma — Desde Gs. 850.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Espuma alta densidad",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio-Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 90 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Serena?"
+        }
+      },
+      "serrat": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serrat.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Serrat"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serrat.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Serrat",
+          "subheadline": "Resorte con superficie suave, firmeza media.",
+          "trustBadges": [
+            "Línea Confort",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Modelo de resorte con espuma de densidad media en la superficie para un toque suave sin perder firmeza. Buena opción de medio rango.",
+          "title": "Serrat — Colchón Superspuma — Desde Gs. 1.150.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes + espuma densidad media",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Jacquard antiácaros",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Serrat?"
+        }
+      },
+      "super-kids": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Super Kids"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Super Kids",
+          "subheadline": "Espuma infantil — liviano y fácil de manipular.",
+          "trustBadges": [
+            "Línea Infantil",
+            "2 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Colchón de espuma para niños, liviano y práctico. Ideal para cunas de transición y camas infantiles.",
+          "title": "Super Kids — Colchón Superspuma — Desde Gs. 420.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids%20en%20medida%20Cuna.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "080x140 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 080x140 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Cuna",
+              "price": "Gs. 420.000",
+              "priceNote": "4 ó 6 cuotas"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids%20en%20medida%201%20plaza.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "080x190 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 080x190 cm",
+                "Garantía: 2 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "1 plaza",
+              "price": "Gs. 520.000",
+              "priceNote": "4 ó 6 cuotas"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Espuma de densidad media",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Suave",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Hasta 50 kg",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "2 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "2 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Super Kids?"
+        }
+      },
+      "superteen": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Superteen.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Superteen"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Superteen.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Superteen",
+          "subheadline": "Línea premium juvenil.",
+          "trustBadges": [
+            "Línea Juvenil",
+            "3 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Línea superior juvenil. Mayor densidad y mejor acabado.",
+          "title": "Superteen — Colchón Superspuma — Desde Gs. 980.000"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell + espuma alta densidad",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Medio-Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "3 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "3 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Superteen?"
+        }
+      },
+      "titanium": {
+        "cta": {
+          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium.",
+          "buttonText": "Escribir por WhatsApp",
+          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
+          "title": "Consultá por el Titanium"
+        },
+        "hero": {
+          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium.",
+          "ctaPrimaryText": "Consultar por WhatsApp",
+          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryText": "Ver todo el catálogo",
+          "headline": "Titanium",
+          "subheadline": "Premium con Euro Pillow Top y resortes Bonell reforzados.",
+          "trustBadges": [
+            "Línea Premium",
+            "5 años garantía",
+            "Envío nacional"
+          ]
+        },
+        "seo": {
+          "description": "Nuestro colchón insignia. Resortes Bonell de alta calidad con capa superior de espuma de alta densidad, Euro Pillow Top y tejido antiácaros. Pensado para descan",
+          "title": "Titanium — Colchón Superspuma — Desde Gs. 1.800.000"
+        },
+        "sizes": {
+          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
+          "tiers": [
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%202%20plazas.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "140x190 cm",
+              "highlighted": false,
+              "id": "size-0",
+              "included": [
+                "Dimensiones: 140x190 cm",
+                "Garantía: 5 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "2 plazas",
+              "price": "Gs. 1.800.000",
+              "priceNote": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%20Queen.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "160x200 cm",
+              "highlighted": true,
+              "id": "size-1",
+              "included": [
+                "Dimensiones: 160x200 cm",
+                "Garantía: 5 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Queen",
+              "price": "Gs. 2.200.000",
+              "priceNote": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "180x200 cm",
+              "highlighted": false,
+              "id": "size-2",
+              "included": [
+                "Dimensiones: 180x200 cm",
+                "Garantía: 5 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "King",
+              "price": "Gs. 2.700.000",
+              "priceNote": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%20Super%20King.",
+              "ctaLabel": "Consultar por WhatsApp",
+              "description": "200x200 cm",
+              "highlighted": false,
+              "id": "size-3",
+              "included": [
+                "Dimensiones: 200x200 cm",
+                "Garantía: 5 años",
+                "Envío e instalación coordinada"
+              ],
+              "name": "Super King",
+              "price": "Gs. 3.200.000",
+              "priceNote": "Hasta 18 cuotas sin interés"
+            }
+          ],
+          "title": "Medidas disponibles"
+        },
+        "specs": {
+          "items": [
+            {
+              "description": "Resortes Bonell + capa superior de alta densidad",
+              "icon": "check",
+              "text": "Tecnología"
+            },
+            {
+              "description": "Firme",
+              "icon": "check",
+              "text": "Firmeza"
+            },
+            {
+              "description": "Euro Pillow",
+              "icon": "check",
+              "text": "Pillow Top"
+            },
+            {
+              "description": "29 cm (colchón) / 66 cm (juego completo)",
+              "icon": "check",
+              "text": "Altura total"
+            },
+            {
+              "description": "Tejido jacquard antiácaros",
+              "icon": "check",
+              "text": "Funda"
+            },
+            {
+              "description": "Hasta 120 kg por lado",
+              "icon": "check",
+              "text": "Peso soportado"
+            },
+            {
+              "description": "Gris, Azul, Bordó",
+              "icon": "check",
+              "text": "Colores"
+            },
+            {
+              "description": "5 años",
+              "icon": "check",
+              "text": "Garantía"
+            }
+          ],
+          "title": "Ficha técnica"
+        },
+        "trustBadges": {
+          "items": [
+            {
+              "description": "Villeta, desde 1976",
+              "icon": "factory",
+              "text": "Fabricación paraguaya"
+            },
+            {
+              "description": "Certificado incluido",
+              "icon": "shieldcheck",
+              "text": "5 años de garantía"
+            },
+            {
+              "description": "Con todas las tarjetas",
+              "icon": "creditcard",
+              "text": "Hasta 18 cuotas sin interés"
+            },
+            {
+              "description": "Gratis desde Gs. 1.000.000",
+              "icon": "truck",
+              "text": "Envío a todo el país"
+            },
+            {
+              "description": "Sin costo extra",
+              "icon": "recycle",
+              "text": "Retiramos tu colchón viejo"
+            }
+          ],
+          "title": "¿Por qué elegir el Titanium?"
+        }
       }
     },
     "siteName": "Superspuma",
