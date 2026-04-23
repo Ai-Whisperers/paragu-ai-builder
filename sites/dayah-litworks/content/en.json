@@ -651,7 +651,18 @@
       "email": "dayahlitworks@gmail.com",
       "instagram": "@dayah.litworks",
       "facebook": "https://www.facebook.com/bookc0verdesign/",
-      "linkedin": "https://www.linkedin.com/in/daihana-araujo/"
+      "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
+      "city": "Asunción, Paraguay",
+      "whatsappMessage": "Hi Dayah! I want to ask about a cover design.",
+      "hours": {
+        "Monday": "09:00 – 18:00",
+        "Tuesday": "09:00 – 18:00",
+        "Wednesday": "09:00 – 18:00",
+        "Thursday": "09:00 – 18:00",
+        "Friday": "09:00 – 18:00",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      }
     }
   },
   "portfolio": {
