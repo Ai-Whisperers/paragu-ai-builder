@@ -1,11 +1,11 @@
 {
   "slug": "promo-cartagena",
-  "titleKey": "promo-cartagena.seo.title",
-  "descriptionKey": "promo-cartagena.seo.description",
+  "titleKey": "home.promo-cartagena.title",
+  "descriptionKey": "home.promo-cartagena.subtitle",
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "image", "content": "promo-cartagena.hero" },
-    { "id": "promo-form", "variant": "lead-form", "content": "promo-cartagena.lead-form" },
+    { "id": "hero", "variant": "image", "content": "home.promo-cartagena.hero" },
+    { "id": "lead-form", "variant": "standard", "content": "home.promo-cartagena.lead-form" },
     { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
     { "id": "footer", "variant": "standard", "content": "footer" }
   ]

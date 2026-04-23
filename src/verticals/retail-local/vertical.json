@@ -20,7 +20,7 @@
     "why-destination", "process-timeline", "enhanced-faq",
     "programs-comparison", "our-story", "team", "b2b-wholesale",
     "booking-embed", "compliance-disclaimer-footer",
-    "promo-banner", "newsletter-signup"
+    "promo-banner", "newsletter-signup", "lead-form"
   ],
   "defaultStarterKit": "minimal",
   "locales": ["es"]

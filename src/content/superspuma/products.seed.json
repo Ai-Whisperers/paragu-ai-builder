@@ -2,71 +2,454 @@
   {
     "id": "titanium",
     "name": "Titanium",
+    "line": "Premium",
     "category": "Resorte",
-    "price": 1200000,
-    "images": ["/assets/superspuma/titanium/1.jpg", "/assets/superspuma/titanium/2.jpg"],
+    "description": "Nuestro colchón insignia. Resortes Bonell de alta calidad con capa superior de espuma de alta densidad, Euro Pillow Top y tejido antiácaros. Pensado para descanso reparador de larga duración.",
+    "shortDescription": "Premium con Euro Pillow Top y resortes Bonell reforzados.",
+    "priceFrom": 1800000,
+    "priceFromLabel": "Desde Gs. 1.800.000",
+    "images": ["https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1200&q=80"],
+    "sizes": [
+      { "label": "2 plazas", "dimensions": "140x190 cm", "price": 1800000 },
+      { "label": "Queen", "dimensions": "160x200 cm", "price": 2200000 },
+      { "label": "King", "dimensions": "180x200 cm", "price": 2700000 },
+      { "label": "Super King", "dimensions": "200x200 cm", "price": 3200000 }
+    ],
     "specs": {
-      "springs": "Pocket",
+      "technology": "Resortes Bonell + capa superior de alta densidad",
       "firmness": "Firme",
-      "dimensions": "200x200x40 cm",
-      "cover": "Algodón 100%",
-      "guarantee": "10 años"
-    }
+      "pillowTop": "Euro Pillow",
+      "totalHeight": "29 cm (colchón) / 66 cm (juego completo)",
+      "cover": "Tejido jacquard antiácaros",
+      "weightCapacity": "Hasta 120 kg por lado",
+      "colors": ["Gris", "Azul", "Bordó"],
+      "warranty": "5 años"
+    },
+    "installments": "Hasta 18 cuotas sin interés",
+    "badges": ["Pillow Top", "Antiácaros", "Más vendido"]
   },
   {
     "id": "imperial",
     "name": "Imperial",
+    "line": "Alta Gama",
     "category": "Resorte",
-    "price": 1500000,
-    "images": ["/assets/superspuma/imperial/1.jpg", "/assets/superspuma/imperial/2.jpg"],
+    "description": "Sistema de resortes Bonell interconectados para soporte firme y descanso regenerador. Pillow Top y tratamiento antiácaros. Opción clásica de alta gama.",
+    "shortDescription": "Resortes Bonell con Pillow Top para descanso regenerador.",
+    "priceFrom": 2230000,
+    "priceFromLabel": "Desde Gs. 2.230.000",
+    "sizes": [
+      { "label": "2 plazas", "dimensions": "140x190 cm", "price": 2230000 },
+      { "label": "Queen", "dimensions": "160x200 cm", "price": 2502000 },
+      { "label": "King", "dimensions": "180x200 cm", "price": 3030000 },
+      { "label": "Super King", "dimensions": "200x200 cm", "price": 3652000 }
+    ],
     "specs": {
-      "springs": "Bonell",
-      "firmness": "Medio",
-      "dimensions": "200x200x38 cm",
-      "cover": "Polialgodón",
-      "guarantee": "5 años"
-    }
+      "technology": "Resortes Bonell",
+      "firmness": "Medio-Firme",
+      "pillowTop": "Pillow Top",
+      "baseHeight": "69 cm (sommier)",
+      "cover": "Polialgodón antiácaros",
+      "weightCapacity": "Hasta 100 kg por lado",
+      "colors": ["Gris", "Beige", "Bordó"],
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas",
+    "badges": ["Pillow Top", "Antiácaros"]
   },
   {
     "id": "harmony",
     "name": "Harmony",
-    "category": "Espuma",
-    "price": 900000,
-    "images": ["/assets/superspuma/harmony/1.jpg", "/assets/superspuma/harmony/2.jpg"],
+    "line": "Confort",
+    "category": "Resorte",
+    "description": "Equilibrio entre soporte y confort. Resortes con Euro-Top y tejido antiácaros. Uno de los modelos favoritos para el uso diario en habitación matrimonial.",
+    "shortDescription": "Equilibrio ideal entre soporte y confort con Euro-Top.",
+    "priceFrom": 1274000,
+    "priceFromLabel": "Desde Gs. 1.274.000",
+    "sizes": [
+      { "label": "2 plazas", "dimensions": "140x190 cm", "price": 1274000 },
+      { "label": "Queen", "dimensions": "160x200 cm", "price": 1480000 },
+      { "label": "King", "dimensions": "180x200 cm", "price": 1890000 },
+      { "label": "Super King", "dimensions": "200x200 cm", "price": 2250000 }
+    ],
     "specs": {
-      "type": "Espuma de alta densidad",
-      "firmness": "Medio-Firme",
-      "dimensions": "200x200x30 cm",
-      "cover": "Tela Jacquard",
-      "guarantee": "5 años"
-    }
+      "technology": "Resortes + Euro-Top",
+      "firmness": "Medio",
+      "pillowTop": "Euro-Top",
+      "cover": "Tejido jacquard antiácaros",
+      "weightCapacity": "Hasta 90 kg por lado",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas",
+    "badges": ["Euro-Top", "Antiácaros", "Recomendado"]
   },
   {
-    "id": "duo-confort",
-    "name": "Duo Confort",
-    "category": "Espuma",
-    "price": 750000,
-    "images": ["/assets/superspuma/duo-confort/1.jpg", "/assets/superspuma/duo-confort/2.jpg"],
+    "id": "serrat",
+    "name": "Serrat",
+    "line": "Confort",
+    "category": "Resorte",
+    "description": "Modelo de resorte con espuma de densidad media en la superficie para un toque suave sin perder firmeza. Buena opción de medio rango.",
+    "shortDescription": "Resorte con superficie suave, firmeza media.",
+    "priceFrom": 1150000,
+    "priceFromLabel": "Desde Gs. 1.150.000",
     "specs": {
-      "type": "Espuma viscoelástica",
-      "firmness": "Adaptable",
-      "dimensions": "200x200x28 cm",
-      "cover": "Algodón stretch",
-      "guarantee": "3 años"
-    }
+      "technology": "Resortes + espuma densidad media",
+      "firmness": "Medio",
+      "cover": "Jacquard antiácaros",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas"
+  },
+  {
+    "id": "delta-soft",
+    "name": "Delta Soft",
+    "line": "Confort",
+    "category": "Resorte",
+    "description": "Resorte con superficie suave orientado a quienes prefieren un tacto mullido sobre la firmeza del resorte.",
+    "shortDescription": "Tacto mullido con soporte de resorte.",
+    "priceFrom": 1050000,
+    "priceFromLabel": "Desde Gs. 1.050.000",
+    "specs": {
+      "technology": "Resortes + pillow de espuma",
+      "firmness": "Suave",
+      "cover": "Antiácaros",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas"
+  },
+  {
+    "id": "essential-top",
+    "name": "Essential Top",
+    "line": "Esencial",
+    "category": "Resorte",
+    "description": "Línea esencial de resorte para quienes buscan la experiencia Superspuma a un precio accesible, con Pillow Top incluido.",
+    "shortDescription": "Resorte con Pillow Top — la puerta de entrada a nuestra línea Esencial.",
+    "priceFrom": 890000,
+    "priceFromLabel": "Desde Gs. 890.000",
+    "specs": {
+      "technology": "Resortes + Pillow Top",
+      "firmness": "Medio",
+      "cover": "Polialgodón",
+      "warranty": "2 años"
+    },
+    "installments": "4, 6 ó 12 cuotas"
+  },
+  {
+    "id": "renovate",
+    "name": "Renovate",
+    "line": "Esencial",
+    "category": "Resorte",
+    "description": "Ideal para renovar tu colchón sin cambiar de presupuesto. Resorte Bonell con acolchado confortable.",
+    "shortDescription": "El reemplazo económico y confiable para tu viejo colchón.",
+    "priceFrom": 780000,
+    "priceFromLabel": "Desde Gs. 780.000",
+    "specs": {
+      "technology": "Resortes Bonell",
+      "firmness": "Medio-Firme",
+      "warranty": "2 años"
+    },
+    "installments": "4, 6 ó 12 cuotas"
+  },
+  {
+    "id": "impulse-kids",
+    "name": "Impulse Kids",
+    "line": "Infantil",
+    "category": "Resorte",
+    "description": "Colchón de resorte premium para niños. Cara reversible y tela antiácaros. Diseños alegres rosa y celeste.",
+    "shortDescription": "Resorte premium para niños, reversible.",
+    "priceFrom": 780000,
+    "priceFromLabel": "Desde Gs. 780.000",
+    "sizes": [
+      { "label": "1 plaza", "dimensions": "080x190 cm", "price": 650000 },
+      { "label": "1 plaza+", "dimensions": "100x190 cm", "price": 780000 }
+    ],
+    "specs": {
+      "technology": "Resortes Bonell",
+      "firmness": "Medio",
+      "weightCapacity": "Hasta 70 kg",
+      "colors": ["Rosa", "Celeste"],
+      "warranty": "2 años"
+    },
+    "installments": "4 ó 6 cuotas",
+    "badges": ["Niños", "Antiácaros"]
+  },
+  {
+    "id": "impulse-teens",
+    "name": "Impulse Teens",
+    "line": "Juvenil",
+    "category": "Resorte",
+    "description": "Colchón de resorte para adolescentes, con mayor capacidad de carga y espuma de densidad superior.",
+    "shortDescription": "Resorte para adolescentes, más robusto.",
+    "priceFrom": 890000,
+    "priceFromLabel": "Desde Gs. 890.000",
+    "specs": {
+      "technology": "Resortes Bonell + espuma",
+      "firmness": "Medio-Firme",
+      "weightCapacity": "Hasta 90 kg",
+      "warranty": "2 años"
+    },
+    "installments": "4, 6 ó 12 cuotas"
+  },
+  {
+    "id": "pop-kids",
+    "name": "Pop Kids",
+    "line": "Infantil",
+    "category": "Resorte",
+    "description": "Colchón infantil de un solo lado de uso con tejido Polybrush. Diseños divertidos para los más chicos. Excelente relación calidad/precio.",
+    "shortDescription": "Línea económica de niños — diseños divertidos.",
+    "priceFrom": 649000,
+    "priceFromLabel": "Desde Gs. 649.000",
+    "sizes": [
+      { "label": "1 plaza+", "dimensions": "100x190 cm", "price": 649000 },
+      { "label": "1 plaza+ con sommier", "dimensions": "100x190 cm", "price": 1069000 },
+      { "label": "1 plaza+ con sommier y cabecera", "dimensions": "100x190 cm", "price": 1298000 }
+    ],
+    "specs": {
+      "technology": "Resortes Bonell",
+      "firmness": "Medio",
+      "weightCapacity": "Hasta 70 kg",
+      "cover": "Polybrush",
+      "colors": ["Rosa (nena)", "Celeste (nene)"],
+      "warranty": "2 años"
+    },
+    "installments": "4, 6 ó 12 cuotas",
+    "badges": ["Niños", "Económico"]
+  },
+  {
+    "id": "pop-plus",
+    "name": "Pop Plus",
+    "line": "Esencial",
+    "category": "Resorte",
+    "description": "Versión reforzada de la línea Pop para uso adulto, con mayor capacidad de carga.",
+    "shortDescription": "Pop reforzado, para uso adulto.",
+    "priceFrom": 850000,
+    "priceFromLabel": "Desde Gs. 850.000",
+    "specs": {
+      "technology": "Resortes Bonell",
+      "firmness": "Medio-Firme",
+      "weightCapacity": "Hasta 90 kg",
+      "warranty": "2 años"
+    },
+    "installments": "4, 6 ó 12 cuotas"
+  },
+  {
+    "id": "pop-teen",
+    "name": "Pop Teen",
+    "line": "Juvenil",
+    "category": "Resorte",
+    "description": "Colchón Pop para adolescentes, equilibrio entre precio y durabilidad.",
+    "shortDescription": "Pop juvenil — precio accesible.",
+    "priceFrom": 780000,
+    "priceFromLabel": "Desde Gs. 780.000",
+    "specs": {
+      "technology": "Resortes Bonell",
+      "firmness": "Medio",
+      "weightCapacity": "Hasta 80 kg",
+      "warranty": "2 años"
+    },
+    "installments": "4, 6 ó 12 cuotas"
+  },
+  {
+    "id": "superteen",
+    "name": "Superteen",
+    "line": "Juvenil",
+    "category": "Resorte",
+    "description": "Línea superior juvenil. Mayor densidad y mejor acabado.",
+    "shortDescription": "Línea premium juvenil.",
+    "priceFrom": 980000,
+    "priceFromLabel": "Desde Gs. 980.000",
+    "specs": {
+      "technology": "Resortes Bonell + espuma alta densidad",
+      "firmness": "Medio-Firme",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6 ó 12 cuotas"
+  },
+  {
+    "id": "super-kids",
+    "name": "Super Kids",
+    "line": "Infantil",
+    "category": "Espuma",
+    "description": "Colchón de espuma para niños, liviano y práctico. Ideal para cunas de transición y camas infantiles.",
+    "shortDescription": "Espuma infantil — liviano y fácil de manipular.",
+    "priceFrom": 420000,
+    "priceFromLabel": "Desde Gs. 420.000",
+    "sizes": [
+      { "label": "Cuna", "dimensions": "080x140 cm", "price": 420000 },
+      { "label": "1 plaza", "dimensions": "080x190 cm", "price": 520000 }
+    ],
+    "specs": {
+      "technology": "Espuma de densidad media",
+      "firmness": "Suave",
+      "weightCapacity": "Hasta 50 kg",
+      "warranty": "2 años"
+    },
+    "installments": "4 ó 6 cuotas",
+    "badges": ["Niños"]
   },
   {
     "id": "luna-soft",
     "name": "Luna Soft",
+    "line": "Esencial",
     "category": "Espuma",
-    "price": 650000,
-    "images": ["/assets/superspuma/luna-soft/1.jpg", "/assets/superspuma/luna-soft/2.jpg"],
+    "description": "Colchón de espuma de densidad media. Superficie suave y cómoda, ideal para invitados o uso ocasional.",
+    "shortDescription": "Espuma económica — suave y liviana.",
+    "priceFrom": 500000,
+    "priceFromLabel": "Desde Gs. 500.000",
+    "sizes": [
+      { "label": "1 plaza", "dimensions": "080x190x15 cm", "price": 500000 },
+      { "label": "1 plaza+", "dimensions": "090x190x15 cm", "price": 560000 },
+      { "label": "2 plazas", "dimensions": "140x190x15 cm", "price": 640000 },
+      { "label": "Queen", "dimensions": "160x200x15 cm", "price": 820000 }
+    ],
     "specs": {
-      "type": "Espuma convencional",
+      "technology": "Espuma densidad media",
       "firmness": "Suave",
-      "dimensions": "200x200x25 cm",
+      "weightCapacity": "Hasta 60 kg",
       "cover": "Poliéster",
-      "guarantee": "2 años"
-    }
+      "warranty": "2 años"
+    },
+    "installments": "2 a 15 cuotas",
+    "badges": ["Económico"]
+  },
+  {
+    "id": "golden",
+    "name": "Golden",
+    "line": "Confort",
+    "category": "Espuma",
+    "description": "Colchón de espuma utilizable por ambos lados (reversible). Pillow Top simple. Buen balance entre precio y durabilidad.",
+    "shortDescription": "Espuma reversible con Pillow Top.",
+    "priceFrom": 696000,
+    "priceFromLabel": "Desde Gs. 696.000",
+    "sizes": [
+      { "label": "1 plaza+", "dimensions": "100x190x15 cm", "price": 696000 },
+      { "label": "2 plazas", "dimensions": "140x190x15 cm", "price": 890000 },
+      { "label": "Queen", "dimensions": "160x200x15 cm", "price": 1050000 }
+    ],
+    "specs": {
+      "technology": "Espuma densidad media, reversible",
+      "firmness": "Medio",
+      "pillowTop": "Pillow Top simple",
+      "weightCapacity": "Hasta 70 kg",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas"
+  },
+  {
+    "id": "serena",
+    "name": "Serena",
+    "line": "Confort",
+    "category": "Espuma",
+    "description": "Colchón de espuma de alta densidad con acabado confortable y buena recuperación.",
+    "shortDescription": "Espuma de alta densidad con buen confort.",
+    "priceFrom": 850000,
+    "priceFromLabel": "Desde Gs. 850.000",
+    "specs": {
+      "technology": "Espuma alta densidad",
+      "firmness": "Medio-Firme",
+      "weightCapacity": "Hasta 90 kg",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas"
+  },
+  {
+    "id": "duo-confort",
+    "name": "Duo Confort",
+    "line": "Alta Gama",
+    "category": "Espuma",
+    "description": "Espuma viscoelástica adaptable que se ajusta al contorno del cuerpo. Ideal para aliviar puntos de presión y mejorar la circulación.",
+    "shortDescription": "Viscoelástica adaptable — alivio de puntos de presión.",
+    "priceFrom": 980000,
+    "priceFromLabel": "Desde Gs. 980.000",
+    "sizes": [
+      { "label": "2 plazas", "dimensions": "140x190x28 cm", "price": 980000 },
+      { "label": "Queen", "dimensions": "160x200x28 cm", "price": 1250000 },
+      { "label": "King", "dimensions": "180x200x28 cm", "price": 1580000 }
+    ],
+    "specs": {
+      "technology": "Espuma viscoelástica (memory foam)",
+      "firmness": "Adaptable",
+      "weightCapacity": "Hasta 110 kg por lado",
+      "cover": "Algodón stretch",
+      "warranty": "3 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas",
+    "badges": ["Memory Foam", "Adaptable"]
+  },
+  {
+    "id": "ortopedico",
+    "name": "Ortopédico",
+    "line": "Premium",
+    "category": "Espuma",
+    "description": "Colchón de espuma de alta densidad 45 reforzado para personas que requieren soporte firme y gran capacidad de carga. Hasta 140 kg por lado.",
+    "shortDescription": "Firmeza máxima — hasta 140 kg, 6 años de garantía.",
+    "priceFrom": 1290000,
+    "priceFromLabel": "Desde Gs. 1.290.000",
+    "sizes": [
+      { "label": "1 plaza+", "dimensions": "120x190 cm", "price": 1290000 },
+      { "label": "2 plazas", "dimensions": "140x190 cm", "price": 1450000 },
+      { "label": "Queen", "dimensions": "160x200 cm", "price": 1750000 },
+      { "label": "King", "dimensions": "180x200 cm", "price": 2050000 }
+    ],
+    "specs": {
+      "technology": "Espuma alta densidad 45",
+      "firmness": "Extra firme",
+      "weightCapacity": "Hasta 140 kg por lado",
+      "warranty": "6 años"
+    },
+    "installments": "4, 6, 12, 15 ó 18 cuotas",
+    "badges": ["140 kg", "6 años garantía", "Ortopédico"]
+  },
+  {
+    "id": "almohada-superspuma",
+    "name": "Almohada Superspuma",
+    "line": "Accesorio",
+    "category": "Accesorios",
+    "description": "Almohada de fibra siliconada o espuma. Varios niveles de firmeza disponibles.",
+    "shortDescription": "Almohada de fibra o espuma.",
+    "priceFrom": 65000,
+    "priceFromLabel": "Desde Gs. 65.000",
+    "installments": "Sin cuotas",
+    "badges": ["Accesorio"]
+  },
+  {
+    "id": "cubre-colchon",
+    "name": "Cubre Colchón",
+    "line": "Accesorio",
+    "category": "Accesorios",
+    "description": "Cubre colchón acolchado con elástico en todos los tamaños estándar.",
+    "shortDescription": "Protección acolchada para tu colchón.",
+    "priceFrom": 95000,
+    "priceFromLabel": "Desde Gs. 95.000",
+    "installments": "Sin cuotas",
+    "badges": ["Accesorio"]
+  },
+  {
+    "id": "protector-colchon",
+    "name": "Protector Impermeable",
+    "line": "Accesorio",
+    "category": "Accesorios",
+    "description": "Protector impermeable que preserva tu colchón de líquidos y manchas sin alterar la transpirabilidad.",
+    "shortDescription": "Impermeable y transpirable.",
+    "priceFrom": 120000,
+    "priceFromLabel": "Desde Gs. 120.000",
+    "installments": "Sin cuotas",
+    "badges": ["Impermeable"]
+  },
+  {
+    "id": "base-box-baul",
+    "name": "Base Box Baúl",
+    "line": "Accesorio",
+    "category": "Accesorios",
+    "description": "Sommier con tapa rebatible y espacio de guardado interior. Disponible en todas las medidas. Aprovechá el espacio debajo de tu cama.",
+    "shortDescription": "Sommier con espacio de guardado bajo la tapa.",
+    "priceFrom": 890000,
+    "priceFromLabel": "Desde Gs. 890.000",
+    "sizes": [
+      { "label": "2 plazas", "dimensions": "140x190 cm", "price": 890000 },
+      { "label": "Queen", "dimensions": "160x200 cm", "price": 1150000 },
+      { "label": "King", "dimensions": "180x200 cm", "price": 1490000 }
+    ],
+    "installments": "4, 6, 12, 15 ó 18 cuotas",
+    "badges": ["Con guardado"]
   }
 ]
