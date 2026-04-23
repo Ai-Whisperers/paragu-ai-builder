@@ -47,7 +47,6 @@ const PRERENDER_SKIP_SITES = new Set<string>([
   'nexa-propiedades',
   'fun4me',
   'de-abasto-a-casa',
-  'demo-superpuma',
   'dayah-litworks',
 ])
 
