@@ -13062,7 +13062,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "garantia.warrantyByModel",
         "id": "programs-comparison",
-        "variant": "matrix"
+        "variant": "tiered"
       },
       {
         "content": "home.enhancedFaq",
@@ -35180,11 +35180,14 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "footer": {
-      "address": "Ruta Ypané - Villeta y Arroyo Avay, Villeta, Central",
+      "address": "Ruta Ypané - Villeta y Arroyo Avay",
       "businessName": "Superspuma",
+      "city": "Villeta, Central, Paraguay",
       "copyright": "© 2026 Superspuma del Paraguay S.A.E.C.A. — Todos los derechos reservados.",
       "email": "info@superspuma.com.py",
-      "links": [
+      "facebook": "https://www.facebook.com/superspuma",
+      "instagram": "https://www.instagram.com/superspumapy",
+      "navLinks": [
         {
           "href": "/s/es/superspuma",
           "label": "Inicio"
@@ -35278,45 +35281,88 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Garantía Superspuma — 2 a 6 años por modelo"
       },
       "warrantyByModel": {
-        "comparisonRows": [
+        "subtitle": "Plazos exactos según el modelo que elijas. Todos los colchones incluyen certificado de garantía activable en cualquiera de nuestras tiendas.",
+        "tiers": [
           {
-            "feature": "Línea Esencial",
-            "values": [
-              "Luna Soft, Pop Kids, Renovate, Super Kids",
-              "2 años"
-            ]
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver modelos Esencial",
+            "description": "Entrada a la calidad Superspuma.",
+            "id": "esencial",
+            "included": [
+              "Luna Soft",
+              "Pop Kids",
+              "Renovate",
+              "Super Kids"
+            ],
+            "name": "Línea Esencial",
+            "price": "2 años",
+            "priceNote": "Defectos de fábrica"
           },
           {
-            "feature": "Línea Confort",
-            "values": [
-              "Harmony, Serrat, Delta Soft, Serena, Golden, Pop Plus, Pop Teen",
-              "3 años"
-            ]
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver modelos Confort",
+            "description": "El rango medio — donde está el 60% de nuestras ventas.",
+            "id": "confort",
+            "included": [
+              "Harmony",
+              "Serrat",
+              "Delta Soft",
+              "Serena",
+              "Golden",
+              "Pop Plus",
+              "Pop Teen"
+            ],
+            "name": "Línea Confort",
+            "price": "3 años",
+            "priceNote": "Defectos de fábrica"
           },
           {
-            "feature": "Línea Alta Gama",
-            "values": [
-              "Imperial, Duo Confort, Superteen, Impulse Teens",
-              "3 años"
-            ]
+            "badge": "Recomendado",
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver Alta Gama",
+            "description": "Materiales reforzados, mayor capacidad de carga.",
+            "highlighted": true,
+            "id": "alta-gama",
+            "included": [
+              "Imperial",
+              "Duo Confort",
+              "Superteen",
+              "Impulse Teens"
+            ],
+            "name": "Línea Alta Gama",
+            "price": "3 años",
+            "priceNote": "Defectos de fábrica + materiales reforzados"
           },
           {
-            "feature": "Premium",
-            "values": [
-              "Titanium",
-              "5 años"
-            ]
+            "badge": "Premium",
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver Titanium",
+            "description": "Lo más alto de la línea de resorte.",
+            "id": "premium",
+            "included": [
+              "Titanium"
+            ],
+            "name": "Premium",
+            "price": "5 años",
+            "priceNote": "Garantía extendida"
           },
           {
-            "feature": "Ortopédico",
-            "values": [
-              "Colchón ortopédico densidad 45",
-              "6 años"
-            ]
+            "badge": "Máxima",
+            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaLabel": "Ver Ortopédico",
+            "description": "Espuma densidad 45, hasta 140 kg. La garantía más larga que ofrecemos.",
+            "id": "ortopedico",
+            "included": [
+              "Colchón Ortopédico",
+              "Soporta hasta 140 kg por lado",
+              "Ideal para problemas de columna"
+            ],
+            "name": "Ortopédico",
+            "price": "6 años",
+            "priceNote": "Garantía extendida máxima"
           }
         ],
-        "subtitle": "Plazos exactos según línea.",
-        "title": "Garantía por modelo"
+        "title": "Garantía por línea de producto"
       }
     },
     "guias": {
@@ -35444,7 +35490,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "2 plazas (Semi-doble)"
           },
           {
-            "description": "160x200 cm — Matrimonio cómodo, nuestra talle más vendida",
+            "description": "160x200 cm — Matrimonio cómodo, nuestra medida más vendida",
             "icon": "Users",
             "text": "Queen"
           },
@@ -35471,13 +35517,17 @@ export const CONTENT: Record<string, JsonRecord> = {
         "googleMapsUrl": "https://maps.google.com/?q=Superspuma+Villeta+Paraguay",
         "hours": {
           "Domingo": "Cerrado",
-          "Lunes a Viernes": "07:30 - 17:00",
+          "Jueves": "07:30 - 17:00",
+          "Lunes": "07:30 - 17:00",
+          "Martes": "07:30 - 17:00",
+          "Miércoles": "07:30 - 17:00",
           "Sábado": "07:30 - 12:00",
-          "Tiendas en shoppings": "Lun-Sáb 09:00-21:00 · Dom/feriados 11:00-21:00"
+          "Viernes": "07:30 - 17:00"
         },
+        "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
         "neighborhood": "Villeta",
         "phone": "+595 981 111 222",
-        "subtitle": "Escribinos y te respondemos en el día.",
+        "subtitle": "Escribinos y te respondemos en el día. Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
         "title": "Contacto",
         "whatsapp": "+595974202025"
       },
@@ -35616,13 +35666,18 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
         "ctaSecondaryText": "Consultar por WhatsApp",
         "headline": "Dormir mejor empieza por un Superspuma",
-        "subheadline": "Fábrica paraguaya de colchones y sommiers desde 1976. Envío a todo el país, garantía de fábrica y hasta 18 cuotas sin interés."
+        "subheadline": "Fábrica paraguaya de colchones y sommiers desde 1976. Envío a todo el país, garantía de fábrica y hasta 18 cuotas sin interés.",
+        "trustBadges": [
+          "Fabricación paraguaya",
+          "49 años",
+          "Envío nacional"
+        ]
       },
       "process": {
         "eyebrow": "Cómo comprar",
         "steps": [
           {
-            "description": "Explorá los 19 modelos online o probalos en persona en cualquiera de nuestras 5 tiendas.",
+            "description": "Explorá los 19 modelos online o probalos en persona en cualquiera de nuestras 7 tiendas en Asunción y Central.",
             "duration": "Cuando quieras",
             "icon": "Search",
             "number": 1,
@@ -35982,7 +36037,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         ]
       },
       "seo": {
-        "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 19 modelos de espuma y resorte, 5 tiendas en Asunción y Central, envío a todo el país y hasta 18 cuotas sin interés.",
+        "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 19 modelos de espuma y resorte, 7 tiendas en Asunción y Central, 6 centros logísticos en el interior, envío a todo el país y hasta 18 cuotas sin interés.",
         "title": "Superspuma - Colchones y Sommiers en Paraguay | Fábrica desde 1976"
       },
       "testimonials": {
@@ -36148,7 +36203,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaLabel": "Conocé nuestras tiendas",
         "paragraphs": [
           "En 1976, una familia paraguaya apostó por fabricar colchones de calidad en un mercado dominado por la importación. Empezamos con un taller pequeño en Villeta con la convicción de que Paraguay podía competir en calidad con cualquier marca regional.",
-          "Casi cinco décadas después seguimos fabricando acá, sobre la Ruta Ypané y Arroyo Avay. Nuestra planta abastece las 5 tiendas propias y una red de revendedores oficiales en todo el país (Bristol, Electroban, Misionera, Artaza Hermanos, Universo, Inverfin, Big Center, ContiMarket, entre otros).",
+          "Casi cinco décadas después seguimos fabricando acá, sobre la Ruta Ypané y Arroyo Avay. Nuestra planta abastece las 7 tiendas propias en Asunción y Central, 6 centros logísticos en el interior (Ciudad del Este, Encarnación, Caaguazú, Santa Rosa, Filadelfia y la Planta de Villeta), más una red de revendedores oficiales (Bristol, Electroban, Misionera, Artaza Hermanos, Universo, Inverfin, Big Center, ContiMarket, entre otros).",
           "En estos años fabricamos más de un millón de colchones. Nuestros clientes nos vuelven a elegir para el cuarto de los hijos, para el traslado, para el abuelo. Eso es lo que nos mantiene — saber que cuando alguien piensa en descansar bien, piensa en Superspuma."
         ],
         "title": "Nuestra historia"
@@ -36375,7 +36430,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tiendas": {
       "hero": {
         "headline": "Nuestras tiendas",
-        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 5 ubicaciones donde podés probar los modelos en persona."
+        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país."
       },
       "logistics": {
         "subtitle": "Cobertura en todo el país. Retirá en cualquiera de nuestros puntos regionales o coordiná envío desde el más cercano a tu ciudad.",
@@ -36452,7 +36507,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Centros logísticos en el interior"
       },
       "seo": {
-        "description": "Probá tu próximo colchón en cualquiera de nuestras 5 tiendas. Mariano Roque Alonso, Fernando de la Mora, Terminal, Shopping Villamorra y Paseo La Galería.",
+        "description": "Red propia en Paraguay: 7 tiendas en Asunción y Central (Villamorra Shopping, Paseo La Galería, Fuente Shopping, Lillo, Fernando de la Mora, Luisito en Ñemby y el outlet Saldos Mariano) más 6 centros logísticos en el interior.",
         "title": "Tiendas Superspuma — 5 sucursales en Asunción y Central"
       },
       "stores": {

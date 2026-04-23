@@ -72,7 +72,15 @@ export function FooterSection({
   const isNexa = __siteSlug?.startsWith('nexa-') || __siteSlug === 'nexaparaguay'
   const networkHeading = (__locale && NETWORK_LABEL[__locale]) || NETWORK_LABEL.en
   const labels = (__locale && FOOTER_LABELS[__locale]) || FOOTER_LABELS.en
-  const showVersion = process.env.NEXT_PUBLIC_SHOW_VERSION !== 'false'
+  // Show version badge in dev by default, hide in production. Explicit
+  // env override (`true` / `false`) wins either way. Previous default was
+  // "show unless explicitly disabled" which leaked `vdev` into prod.
+  const showVersion =
+    process.env.NEXT_PUBLIC_SHOW_VERSION === 'true'
+      ? true
+      : process.env.NEXT_PUBLIC_SHOW_VERSION === 'false'
+        ? false
+        : process.env.NODE_ENV !== 'production'
 
   return (
     <footer 
