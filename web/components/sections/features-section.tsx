@@ -26,19 +26,18 @@ interface FeaturesSectionProps {
 }
 
 const FEATURES_DEFAULT_TITLE: Record<string, string> = {
-  de: 'Warum uns wählen',
   en: 'Why choose us',
   es: 'Por qué elegirnos',
-  nl: 'Waarom ons kiezen',
-  pt: 'Por que nos escolher',
 }
 
 const DOWNLOAD_LABEL: Record<string, string> = {
-  de: 'Herunterladen',
   en: 'Download',
   es: 'Descargar',
-  nl: 'Downloaden',
-  pt: 'Baixar',
+}
+
+const OPEN_LABEL: Record<string, string> = {
+  en: 'Open',
+  es: 'Ver más',
 }
 
 function FeatureIcon({ name }: { name?: string }) {
@@ -91,7 +90,9 @@ export function FeaturesSection({
         <div className={`grid gap-8 ${gridCols[columns]}`}>
           {features.map((feature, index) => {
             const downloadable = feature.href ? isDownloadableAsset(feature.href) : false
-            const downloadLabel = DOWNLOAD_LABEL[__locale ?? 'es'] || DOWNLOAD_LABEL.es
+            const ctaLabel = downloadable
+              ? DOWNLOAD_LABEL[__locale ?? 'es'] || DOWNLOAD_LABEL.es
+              : OPEN_LABEL[__locale ?? 'es'] || OPEN_LABEL.es
             const cardClass = `flex h-full flex-col rounded-xl p-6 ${
               feature.href
                 ? 'transition-all duration-300 hover:-translate-y-1 hover:shadow-lg'
@@ -131,8 +132,8 @@ export function FeaturesSection({
                     className="mt-4 inline-flex items-center gap-1 text-sm font-semibold"
                     style={{ color: 'var(--primary)' }}
                   >
-                    {downloadLabel}
-                    <Icons.ArrowDownToLine size={16} />
+                    {ctaLabel}
+                    {downloadable ? <Icons.ArrowDownToLine size={16} /> : <Icons.ArrowUpRight size={16} />}
                   </span>
                 )}
               </>

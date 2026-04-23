@@ -27,6 +27,7 @@ const CONTACT_LABELS: Record<string, {
   email: string
   hours: string
   mapAlt: (city: string) => string
+  weekdayOrder: string[]
 }> = {
   en: {
     address: 'Address',
@@ -35,6 +36,7 @@ const CONTACT_LABELS: Record<string, {
     email: 'Email',
     hours: 'Business hours',
     mapAlt: (city) => `Map of ${city}`,
+    weekdayOrder: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
   },
   es: {
     address: 'Dirección',
@@ -43,7 +45,29 @@ const CONTACT_LABELS: Record<string, {
     email: 'Email',
     hours: 'Horario de atención',
     mapAlt: (city) => `Mapa de ${city}`,
+    weekdayOrder: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'],
   },
+}
+
+function orderHours(
+  hours: Record<string, string>,
+  preferred: string[],
+): Array<[string, string]> {
+  const entries = Object.entries(hours)
+  // Index by normalized (lowercased) day name for robust matching.
+  const normalize = (s: string) => s.toLowerCase()
+  const byKey = new Map(entries.map(([k, v]) => [normalize(k), [k, v] as [string, string]]))
+  const ordered: Array<[string, string]> = []
+  for (const day of preferred) {
+    const hit = byKey.get(normalize(day))
+    if (hit) {
+      ordered.push(hit)
+      byKey.delete(normalize(day))
+    }
+  }
+  // Append any remaining unmatched keys in insertion order
+  for (const [, pair] of byKey) ordered.push(pair)
+  return ordered
 }
 
 /**
@@ -159,13 +183,21 @@ export function ContactSection({
                       {labels.contact}
                     </Heading>
                     {phone && (
-                      <a 
-                        href={`tel:${phone}`} 
+                      <a
+                        href={`tel:${phone}`}
                         className="block mb-2 text-lg font-medium transition-colors hover:underline"
                         style={{ color: 'var(--primary)' }}
                       >
                         {phone}
                       </a>
+                    )}
+                    {whatsapp && !phone && (
+                      <p
+                        className="block mb-2 text-lg font-medium"
+                        style={{ color: 'var(--primary)' }}
+                      >
+                        {whatsapp}
+                      </p>
                     )}
                     {whatsapp && (
                       <a
@@ -248,8 +280,8 @@ export function ContactSection({
                       {labels.hours}
                     </Heading>
                     <dl className="space-y-2">
-                      {Object.entries(hours).map(([day, time]) => (
-                        <div key={day} 
+                      {orderHours(hours as Record<string, string>, labels.weekdayOrder).map(([day, time]) => (
+                        <div key={day}
                           className="flex justify-between gap-4 text-sm sm:text-base py-1 border-b border-gray-100 last:border-0"
                         >
                           <dt style={{ color: 'var(--text)' }}>{day}</dt>
