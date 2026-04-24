@@ -12,6 +12,12 @@ export interface ProductItem {
   name: string
   description?: string
   price?: string
+  /** Original price shown crossed out when promoPercent is present. */
+  priceOriginal?: string
+  /** Percent off — renders a corner discount ribbon + crosses out priceOriginal. */
+  promoPercent?: number
+  /** Optional label shown on the ribbon. Defaults to "-{promoPercent}%". */
+  promoLabel?: string
   imageUrl?: string
   category?: string
   available?: boolean
@@ -136,7 +142,18 @@ function ProductCard({
 
   return (
     <AnimateOnScroll stagger={index}>
-      <Card className="flex flex-col overflow-hidden">
+      <Card className="relative flex flex-col overflow-hidden">
+        {product.promoPercent && product.promoPercent > 0 && (
+          <div
+            className="absolute right-3 top-3 z-10 rounded-full px-3 py-1 text-xs font-bold shadow-lg"
+            style={{
+              backgroundColor: 'var(--secondary)',
+              color: 'var(--secondary-foreground)',
+            }}
+          >
+            {product.promoLabel || `-${product.promoPercent}%`}
+          </div>
+        )}
         {product.imageUrl ? (
           <CardImage src={product.imageUrl} alt={product.name} className="h-64" />
         ) : (
@@ -175,7 +192,17 @@ function ProductCard({
           <div className="flex items-start justify-between gap-2">
             <CardTitle>{product.name}</CardTitle>
             {showPrices && product.price && (
-              <Badge variant="default">{product.price}</Badge>
+              <div className="flex flex-col items-end gap-0.5">
+                {product.priceOriginal && product.promoPercent && (
+                  <span
+                    className="text-xs line-through"
+                    style={{ color: 'var(--text-muted)' }}
+                  >
+                    {product.priceOriginal}
+                  </span>
+                )}
+                <Badge variant="default">{product.price}</Badge>
+              </div>
             )}
           </div>
           {product.description && (

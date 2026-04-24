@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=237, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5135,6 +5135,7 @@ export const SITES: Record<string, JsonRecord> = {
       "financiacion",
       "terminos",
       "privacidad",
+      "promociones",
       "promo-cartagena",
       "cambio",
       "combos",
@@ -13225,6 +13226,21 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "horizontal"
       },
       {
+        "content": "financiacion.calculatorTiers",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "financiacion.bankGrid",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "financiacion.paymentMethods",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
         "content": "financiacion.faq",
         "id": "enhanced-faq",
         "variant": "searchable"
@@ -13369,6 +13385,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.activePromos",
+        "id": "promo-banner",
+        "variant": "carousel"
       },
       {
         "content": "home.trustBadges",
@@ -14919,6 +14940,53 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "promo-cartagena",
     "titleKey": "home.promo-cartagena.title"
+  },
+  "superspuma:promociones": {
+    "descriptionKey": "promociones.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "promociones.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.activePromos",
+        "id": "promo-banner",
+        "variant": "carousel"
+      },
+      {
+        "content": "promociones.active",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "promociones.terms",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "promociones",
+    "titleKey": "promociones.seo.title"
   },
   "superspuma:terminos": {
     "descriptionKey": "terminos.seo.description",
@@ -37305,6 +37373,157 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "financiacion": {
+      "bankGrid": {
+        "features": [
+          {
+            "description": "Visa / Mastercard / Cabal — hasta 18 cuotas sin interés.",
+            "title": "Itaú"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 18 cuotas sin interés.",
+            "title": "Ueno"
+          },
+          {
+            "description": "Visa / Mastercard / Cabal — hasta 18 cuotas sin interés.",
+            "title": "Continental"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 18 cuotas sin interés.",
+            "title": "Familiar"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 15 cuotas sin interés.",
+            "title": "Visión Banco"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
+            "title": "Sudameris"
+          },
+          {
+            "description": "Visa / Mastercard / Cabal — hasta 12 cuotas sin interés.",
+            "title": "Regional"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
+            "title": "Interfisa"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
+            "title": "GNB"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
+            "title": "Atlas"
+          },
+          {
+            "description": "Visa / Mastercard — hasta 10 cuotas sin interés.",
+            "title": "Solar"
+          },
+          {
+            "description": "Débito y crédito aceptado en tienda.",
+            "title": "Banco Nacional de Fomento"
+          }
+        ],
+        "subtitle": "18 cuotas sin interés con los bancos del sistema financiero paraguayo. Consultá promociones específicas vigentes por WhatsApp.",
+        "title": "Cuotas con todas las tarjetas"
+      },
+      "calculator": {
+        "columns": [
+          "Modelo",
+          "Precio (Gs.)",
+          "6 cuotas",
+          "12 cuotas",
+          "18 cuotas"
+        ],
+        "rows": [
+          [
+            "Harmony Queen",
+            "1.480.000",
+            "246.666",
+            "123.333",
+            "82.222"
+          ],
+          [
+            "Serrat Queen",
+            "1.680.000",
+            "280.000",
+            "140.000",
+            "93.333"
+          ],
+          [
+            "Imperial Queen",
+            "2.230.000",
+            "371.666",
+            "185.833",
+            "123.888"
+          ],
+          [
+            "Titanium Queen",
+            "2.700.000",
+            "450.000",
+            "225.000",
+            "150.000"
+          ],
+          [
+            "Combo Premium King",
+            "3.500.000",
+            "583.333",
+            "291.666",
+            "194.444"
+          ]
+        ],
+        "subtitle": "Ejemplos reales con los modelos más pedidos. Todos sin interés.",
+        "title": "Calculá tu cuota"
+      },
+      "calculatorTiers": {
+        "subtitle": "Lo que pagás al mes según cuotas. Todos sin interés.",
+        "tiers": [
+          {
+            "ctaHref": "https://wa.me/595974202025",
+            "ctaText": "Consultar",
+            "description": "Cuota pequeña, pagás en 6 meses.",
+            "features": [
+              "Harmony Queen: Gs. 246.666/mes",
+              "Serrat Queen: Gs. 280.000/mes",
+              "Imperial Queen: Gs. 371.666/mes"
+            ],
+            "id": "cuotas-6",
+            "name": "6 cuotas",
+            "price": "Gs. 246.666",
+            "priceNote": "por mes"
+          },
+          {
+            "ctaHref": "https://wa.me/595974202025",
+            "ctaText": "Consultar",
+            "description": "El plan más popular. Un año para pagar.",
+            "featured": true,
+            "features": [
+              "Harmony Queen: Gs. 123.333/mes",
+              "Serrat Queen: Gs. 140.000/mes",
+              "Imperial Queen: Gs. 185.833/mes"
+            ],
+            "id": "cuotas-12",
+            "name": "12 cuotas",
+            "price": "Gs. 123.333",
+            "priceNote": "por mes"
+          },
+          {
+            "ctaHref": "https://wa.me/595974202025",
+            "ctaText": "Consultar",
+            "description": "Cuota mínima, año y medio para pagar.",
+            "features": [
+              "Harmony Queen: Gs. 82.222/mes",
+              "Serrat Queen: Gs. 93.333/mes",
+              "Imperial Queen: Gs. 123.888/mes"
+            ],
+            "id": "cuotas-18",
+            "name": "18 cuotas",
+            "price": "Gs. 82.222",
+            "priceNote": "por mes"
+          }
+        ],
+        "title": "Ejemplos de cuotas"
+      },
       "faq": {
         "business": {
           "name": "Superspuma",
@@ -37424,6 +37643,36 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Elegí cómo querés pagar"
+      },
+      "paymentMethods": {
+        "features": [
+          {
+            "description": "Visa, Mastercard, Cabal — hasta 18 cuotas",
+            "title": "Tarjeta de crédito"
+          },
+          {
+            "description": "Todas las tarjetas del sistema",
+            "title": "Tarjeta de débito"
+          },
+          {
+            "description": "Descuento adicional — consultá el %",
+            "title": "Transferencia bancaria"
+          },
+          {
+            "description": "En cualquiera de nuestras tiendas físicas",
+            "title": "Efectivo"
+          },
+          {
+            "description": "Terminales en todas las sucursales",
+            "title": "Bancard (POS)"
+          },
+          {
+            "description": "Con aprobación — hasta 90 días",
+            "title": "Cheques"
+          }
+        ],
+        "subtitle": "En tienda y por WhatsApp.",
+        "title": "Formas de pago aceptadas"
       },
       "process": {
         "eyebrow": "Cómo comprar en cuotas",
@@ -37950,6 +38199,40 @@ export const CONTENT: Record<string, JsonRecord> = {
       "trustBadgesEnabled": false
     },
     "home": {
+      "activePromos": {
+        "autoRotate": true,
+        "dismissible": true,
+        "items": [
+          {
+            "bgColor": "bg-[#c22848]",
+            "code": "VERANO20",
+            "description": "En colchones seleccionados de la línea Titanium e Imperial. Agosto 2025.",
+            "id": "promo-20-off",
+            "link": "https://wa.me/595974202025?text=Hola!%20Quiero%20aprovechar%20la%20promo%2020%25%20OFF",
+            "textColor": "text-white",
+            "title": "20% OFF"
+          },
+          {
+            "bgColor": "bg-[#1a3a5f]",
+            "description": "2 cruceros Imperial + sorteos mensuales (Jun/Jul/Ago). Comprá entre mayo y julio.",
+            "expiresAt": "2026-07-31T23:59:59-03:00",
+            "id": "promo-mama-papa",
+            "link": "/s/es/superspuma/promociones#mama-papa",
+            "textColor": "text-white",
+            "title": "Promo Mamá y Papá 2026"
+          },
+          {
+            "bgColor": "bg-[#0f3460]",
+            "description": "Con todas las tarjetas bancarias del Paraguay. Permanente.",
+            "id": "promo-cuotas",
+            "link": "/s/es/superspuma/financiacion",
+            "textColor": "text-white",
+            "title": "18 cuotas sin interés"
+          }
+        ],
+        "subtitle": "Aprovechá mientras están vigentes.",
+        "title": "Promociones activas"
+      },
       "contact": {
         "address": "Ruta Ypané - Villeta y Arroyo Avay",
         "city": "Central, Paraguay",
@@ -38164,14 +38447,20 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
             "name": "Titanium",
-            "price": "Desde Gs. 1.800.000"
+            "price": "Desde Gs. 1.800.000",
+            "priceOriginal": "Gs. 2.250.000",
+            "promoLabel": "Promo 20% OFF",
+            "promoPercent": 20
           },
           {
             "category": "Resorte",
             "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
             "name": "Imperial",
-            "price": "Desde Gs. 2.230.000"
+            "price": "Desde Gs. 2.230.000",
+            "priceOriginal": "Gs. 2.787.500",
+            "promoLabel": "Promo 20% OFF",
+            "promoPercent": 20
           },
           {
             "category": "Resorte",
@@ -38637,6 +38926,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/superspuma/combos",
           "label": "Combos"
+        },
+        {
+          "href": "/s/es/superspuma/promociones",
+          "label": "Promos"
         },
         {
           "href": "/s/es/superspuma/cambio",
@@ -41239,6 +41532,75 @@ export const CONTENT: Record<string, JsonRecord> = {
         "prize": "Viaje para 2 personas a Cartagena, Colombia (5 días / 4 noches, vuelo + hotel 4 estrellas) + sorteo de 5 sommiers Harmony entre los no ganadores del primer premio.",
         "responsable": "Superspuma del Paraguay S.A.E.C.A. — RUC 30-70136627-8.",
         "title": "Bases y condiciones"
+      }
+    },
+    "promociones": {
+      "active": {
+        "features": [
+          {
+            "description": "Descuento directo en los dos modelos más pedidos. Vigente agosto 2025 (consultá extensión).",
+            "href": "https://wa.me/595974202025?text=Hola!%20Quiero%20comprar%20con%20la%20promo%2020%25%20OFF",
+            "title": "20% OFF Titanium + Imperial"
+          },
+          {
+            "description": "Comprá entre mayo y julio de 2026 y participá. Sorteos: 3 junio / 3 julio / 3 agosto. 3 ganadores.",
+            "href": "/s/es/superspuma/promociones#mama-papa",
+            "title": "Promo Mamá y Papá 2026 — 2 cruceros Imperial"
+          },
+          {
+            "description": "Colchón + sommier + 2 almohadas + protector. Se aplica sobre la suma de productos.",
+            "href": "/s/es/superspuma/combos",
+            "title": "Combo Premium — 10% OFF"
+          },
+          {
+            "description": "Permanente, con cualquier tarjeta bancaria. Ver bancos participantes en /financiacion.",
+            "href": "/s/es/superspuma/financiacion",
+            "title": "18 cuotas sin interés"
+          },
+          {
+            "description": "Pagás desde home banking y te aplicamos un porcentaje de descuento sobre el precio de lista. Consultá el % actual por WhatsApp.",
+            "href": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20descuento%20por%20transferencia",
+            "title": "Descuento por transferencia bancaria"
+          },
+          {
+            "description": "Entregás tu colchón viejo y te damos crédito sobre el nuevo. Retiro sin costo.",
+            "href": "/s/es/superspuma/cambio",
+            "title": "Renovación (trade-in)"
+          }
+        ],
+        "subtitle": "Estas promos están activas. Las fechas de cierre son reales.",
+        "title": "En curso ahora"
+      },
+      "hero": {
+        "headline": "Promociones vigentes",
+        "subheadline": "Todas en un solo lugar. Consultá condiciones en cada una.",
+        "trustBadgesEnabled": false
+      },
+      "seo": {
+        "description": "Todas las promos vigentes en un solo lugar. Descuentos, sorteos, combos y cuotas sin interés.",
+        "title": "Promociones Superspuma — 20% OFF, Promo Mamá y Papá, cuotas sin interés"
+      },
+      "terms": {
+        "features": [
+          {
+            "description": "Las promociones no se acumulan entre sí. Solo se aplica una por compra.",
+            "title": "No acumulables"
+          },
+          {
+            "description": "Todas las promos aplican únicamente a compras realizadas en Paraguay, en tiendas físicas o por WhatsApp.",
+            "title": "Válido en Paraguay"
+          },
+          {
+            "description": "Las promos están sujetas a disponibilidad del modelo/medida. Si no hay stock coordinamos fabricación (3-5 días extra).",
+            "title": "Sujeto a stock"
+          },
+          {
+            "description": "Todos los sorteos y premios requieren la factura a nombre del comprador para validar la participación.",
+            "title": "Factura obligatoria"
+          }
+        ],
+        "subtitle": "Aplicable a todas las promos salvo que la promo específica indique lo contrario.",
+        "title": "Condiciones generales"
       }
     },
     "quiz": {
