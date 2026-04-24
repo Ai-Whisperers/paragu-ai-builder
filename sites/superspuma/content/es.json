@@ -604,7 +604,8 @@
         "headline": "Promo Cartagena 2026",
         "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026.",
         "ctaPrimaryText": "Participar ahora",
-        "ctaPrimaryHref": "#promo-form"
+        "ctaPrimaryHref": "#promo-form",
+        "trustBadgesEnabled": false
       },
       "lead-form": {
         "title": "Formulario de participación",
