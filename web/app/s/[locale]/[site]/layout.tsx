@@ -1,6 +1,7 @@
 import { ExitIntentMount } from './exit-intent-mount'
 import { SiteSearch } from '@/components/search/site-search'
 import { LiveChatLoader } from '@/components/analytics/live-chat-loader'
+import { TabAudioPlayer } from '@/components/audio/tab-audio-player'
 import { loadSite } from '@/lib/engine/site-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { logger } from '@/lib/logger'
@@ -56,6 +57,18 @@ export default async function TenantLayout({ children, params }: Props) {
           brand into the storefront. Gate to Nexa until per-tenant copy
           exists. See docs/audit/visual-critique-2026-04-24.md §"critic pass". */}
       {site === 'nexa-paraguay' && <ExitIntentMount locale={locale} site={site} />}
+      {/* Dayah ambient track — paused when the tab loses focus, resumed
+          when it regains focus. Modern browsers block sound-autoplay
+          until the user interacts, so first-load renders a paused
+          floating button; after a tap we save consent to localStorage
+          and subsequent tabs can start playing automatically. */}
+      {site === 'dayah-litworks' && (
+        <TabAudioPlayer
+          src="/audio/chispa-asuncion.mp3"
+          title="Chispa Asunción"
+          storageKey="dayah:tab-audio:v1"
+        />
+      )}
       <LiveChatLoader websiteId={process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID} />
       <SiteSearch siteSlug={site} locale={locale} />
     </>
