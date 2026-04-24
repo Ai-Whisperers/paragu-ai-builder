@@ -112,18 +112,15 @@ export async function generateSaasPaymentLink(opts: {
     orderNumber,
   })
 
-  // Track the link in the existing subscriptions.mercadopago_payment_id /
-  // mercadopago_order_id columns — we're repurposing them as generic
-  // "provider payment ref" columns because the schema was built around MP.
-  // A follow-up migration will rename these to provider_* once we've
-  // stabilized on Pagopar.
+  // Track the link in the existing subscription columns as generic
+  // "provider payment ref" columns.
   try {
     const supabase = await createAdminClient()
     await supabase
       .from('subscriptions')
       .update({
-        mercadopago_payment_id: hashPedido,
-        mercadopago_payer_id: orderNumber,
+        payment_payment_id: hashPedido,
+        payment_payer_id: orderNumber,
       })
       .eq('id', opts.subscriptionId)
   } catch (err) {
