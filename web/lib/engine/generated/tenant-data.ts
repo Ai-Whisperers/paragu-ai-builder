@@ -5230,28 +5230,41 @@ export const SITES: Record<string, JsonRecord> = {
 
 export const TENANT_TOKENS: Record<string, JsonRecord> = {
   "dayah-litworks": {
-    "$comment": "Dark moody theme for book cover design portfolio. WCAG AA audited 2026-04-23: primary lightened to #8699c4 (contrast vs bg: 6.04:1, AA normal); secondary darkened to #c22848 for hero CTA text contrast (4.68:1 vs eaeaea, AA normal); accent lightened to #6691c8; border lightened to #3a4a73 for visibility.",
+    "$comment": "Dark moody theme for book cover design portfolio. WCAG AA audited 2026-04-23: every text+bg combo passes AA (4.5:1+). Uses the formal palettes.default.colors structure required by lib/engine/resolve-site-tokens.ts — previous flat `palette` schema was silently ignored and the site fell back to vertical defaults.",
     "borderRadius": "0.5rem",
+    "defaultPalette": "default",
     "extends": "vertical:portfolio-professional",
-    "palette": {
-      "accent": "#6691c8",
-      "background": "#0f0f1a",
-      "border": "#3a4a73",
-      "primary": "#8699c4",
-      "primaryForeground": "#0f0f1a",
-      "secondary": "#c22848",
-      "secondaryForeground": "#ffffff",
-      "success": "#64ffda",
-      "surface": "#16213e",
-      "surfaceAlt": "#1a1a2e",
-      "text": "#eaeaea",
-      "textMuted": "#a0aac4",
-      "warning": "#ffd93d"
+    "googleFonts": [
+      "Playfair+Display:wght@600;700;800",
+      "Inter:wght@400;500;600;700"
+    ],
+    "palettes": {
+      "default": {
+        "colors": {
+          "accent": "#6691c8",
+          "accentForeground": "#0f0f1a",
+          "background": "#0f0f1a",
+          "primary": "#8699c4",
+          "primaryForeground": "#0f0f1a",
+          "secondary": "#c22848",
+          "secondaryForeground": "#ffffff",
+          "success": "#64ffda",
+          "surface": "#16213e",
+          "surfaceLight": "#1a1a2e",
+          "text": "#eaeaea",
+          "textLight": "#c9cfdc",
+          "textMuted": "#a0aac4",
+          "warning": "#ffd93d"
+        },
+        "name": "Dayah Dark"
+      }
     },
     "theme": "dark",
     "typography": {
-      "body": "Inter",
-      "heading": "Playfair Display"
+      "body": "'Inter', sans-serif",
+      "bodyWeight": "400",
+      "heading": "'Playfair Display', serif",
+      "headingWeight": "700"
     }
   },
   "de-abasto-a-casa": {

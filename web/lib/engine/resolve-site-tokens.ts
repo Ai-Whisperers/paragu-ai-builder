@@ -151,13 +151,20 @@ export function resolveSiteTokens(
   const theme = merged.theme || 'light'
   const typo = merged.typography || {}
 
+  // Palette may optionally specify explicit foreground colors per role.
+  // Without them we fall back to the theme-based default — which for dark
+  // themes was `colors.text` (near-white). That's fine when `primary` is a
+  // dark color (text pops against dark bg), but breaks when tenants choose
+  // a LIGHT primary color for contrast against their dark page bg: the pill
+  // then has white-ish text on light-ish bg → invisible.
+  const pc = colors as Record<string, string | undefined>
   const vars: Record<string, string> = {
     '--primary': colors.primary,
-    '--primary-foreground': theme === 'dark' ? colors.text : '#ffffff',
+    '--primary-foreground': pc.primaryForeground || (theme === 'dark' ? colors.text : '#ffffff'),
     '--secondary': colors.secondary,
-    '--secondary-foreground': '#ffffff',
+    '--secondary-foreground': pc.secondaryForeground || '#ffffff',
     '--accent': colors.accent || colors.secondary,
-    '--accent-foreground': colors.text,
+    '--accent-foreground': pc.accentForeground || colors.text,
     '--background': colors.background,
     '--surface': colors.surface,
     '--surface-light': colors.surfaceLight || colors.surface,
