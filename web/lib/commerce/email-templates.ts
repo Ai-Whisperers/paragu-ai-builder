@@ -214,3 +214,128 @@ export function adminNewOrderEmail({ order, businessName, adminDashboardUrl }: A
 function escape(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
 }
+
+export interface DataRequestContext {
+  siteSlug: string
+  email: string
+  kind: 'access' | 'rectification' | 'deletion' | 'portability' | 'objection'
+  description?: string | null
+  dueAt: string
+}
+
+export function dataRequestEmail({ siteSlug, email, kind, description, dueAt }: DataRequestContext) {
+  const kindLabels: Record<string, string> = {
+    access: 'Acceso',
+    rectification: 'Rectificación',
+    deletion: 'Supresión',
+    portability: 'Portabilidad',
+    objection: 'Oposición',
+  }
+  const kindLabel = kindLabels[kind] || kind
+
+  return {
+    subject: `🔒 Solicitud de datos (Ley 1.682/01) — ${kindLabel}`,
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;margin:0 0 16px 0;">Solicitud de Datos de Usuario</h1>
+  <div style="background:#fef3c7;color:#92400e;padding:8px 12px;border-radius:6px;margin:0 0 16px 0;font-size:13px;font-weight:600;">
+    Ley 1.682/01 — Paraguay
+  </div>
+  <table style="width:100%;border-collapse:collapse;margin:0 0 16px 0;font-size:14px;">
+    <tr><td style="padding:8px 0;color:#6b7280;">Sitio</td><td style="padding:8px 0;text-align:right;"><strong>${escape(siteSlug)}</strong></td></tr>
+    <tr><td style="padding:8px 0;color:#6b7280;">Email</td><td style="padding:8px 0;text-align:right;">${escape(email)}</td></tr>
+    <tr><td style="padding:8px 0;color:#6b7280;">Tipo</td><td style="padding:8px 0;text-align:right;"><strong>${escape(kindLabel)}</strong></td></tr>
+    <tr><td style="padding:8px 0;color:#6b7280;">Fecha límite</td><td style="padding:8px 0;text-align:right;">${new Date(dueAt).toLocaleDateString('es-PY', { day: 'numeric', month: 'short', year: 'numeric' })}</td></tr>
+  </table>
+  ${description ? `<div style="background:#f9fafb;border-radius:8px;padding:12px;margin:0 0 16px 0;"><p style="margin:0 0 8px 0;font-weight:600;">Descripción</p><p style="margin:0 0 0 0;font-size:13px;">${escape(description)}</p></div>` : ''}
+  <p style="color:#6b7280;font-size:13px;margin:24px 0 0 0;">Esta solicitud debe ser atendida dentro del plazo máximo de 30 días hábiles según la Ley 1.682/01 de Protección de Datos Personales.</p>
+  <p style="color:#9ca3af;font-size:11px;margin-top:24px;">Notificación automática de Paragu-AI · Ley 1.682/01</p>
+</body></html>`.trim(),
+  }
+}
+
+export interface BookingConfirmationContext {
+  customerName: string
+  customerEmail: string
+  businessName: string
+  serviceName: string
+  bookingDate: string
+  bookingTime: string
+  bookingId: string
+}
+
+export function bookingConfirmationEmail({
+  customerName,
+  customerEmail,
+  businessName,
+  serviceName,
+  bookingDate,
+  bookingTime,
+  bookingId,
+}: BookingConfirmationContext) {
+  const formattedDate = new Date(bookingDate).toLocaleDateString('es-PY', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  })
+  const formattedTime = new Date(`2000-01-01T${bookingTime}`).toLocaleTimeString('es-PY', {
+    hour: '2-digit',
+    minute: '2-digit',
+  })
+
+  return {
+    subject: `✅ Tu reserva está confirmada — ${businessName}`,
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;margin:0 0 16px 0;">¡Reserva Confirmada!</h1>
+  <p>Hola ${escape(customerName)},</p>
+  <p>Tu reserva ha sido registrada exitosamente. Estos son los detalles:</p>
+  <div style="background:#f9fafb;border-radius:8px;padding:16px;margin:0 0 16px 0;">
+    <p style="margin:0 0 8px 0;"><strong>Empresa:</strong> ${escape(businessName)}</p>
+    <p style="margin:0 0 8px 0;"><strong>Servicio:</strong> ${escape(serviceName)}</p>
+    <p style="margin:0 0 8px 0;"><strong>Fecha:</strong> ${formattedDate}</p>
+    <p style="margin:0 0 8px 0;"><strong>Horario:</strong> ${formattedTime} horas</p>
+    <p style="margin:0 0 0 0;color:#6b7280;font-size:13px;">Referencia: #${escape(bookingId)}</p>
+  </div>
+  <p style="color:#6b7280;font-size:13px;margin:24px 0 0 0;">Por favor, llega 5 minutos antes de tu horario reservado. Si necesitás cambiar o cancelar tu reserva, contactanos lo antes posible.</p>
+  <p style="color:#9ca3af;font-size:11px;margin-top:24px;">${escape(businessName)} · enviado desde Paragu-AI</p>
+</body></html>`.trim(),
+  }
+}
+
+function escape(s: string): string {
+  return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
+}
+}
+
+export function dataRequestEmail({ siteSlug, email, kind, description, dueAt }: DataRequestContext) {
+  const kindLabels: Record<string, string> = {
+    access: 'Acceso',
+    rectification: 'Rectificación',
+    deletion: 'Supresión',
+    portability: 'Portabilidad',
+    objection: 'Oposición',
+  }
+  const kindLabel = kindLabels[kind] || kind
+
+  return {
+    subject: `🔒 Solicitud de datos (Ley 1.682/01) — ${kindLabel}`,
+    html: `
+<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;color:#111;max-width:600px;margin:0 auto;padding:24px;">
+  <h1 style="font-size:20px;margin:0 0 16px 0;">Solicitud de Datos de Usuario</h1>
+  <div style="background:#fef3c7;color:#92400e;padding:8px 12px;border-radius:6px;margin:0 0 16px 0;font-size:13px;font-weight:600;">
+    Ley 1.682/01 — Paraguay
+  </div>
+  <table style="width:100%;border-collapse:collapse;margin:0 0 16px 0;font-size:14px;">
+    <tr><td style="padding:8px 0;color:#6b7280;">Sitio</td><td style="padding:8px 0;text-align:right;"><strong>${escape(siteSlug)}</strong></td></tr>
+    <tr><td style="padding:8px 0;color:#6b7280;">Email</td><td style="padding:8px 0;text-align:right;">${escape(email)}</td></tr>
+    <tr><td style="padding:8px 0;color:#6b7280;">Tipo</td><td style="padding:8px 0;text-align:right;"><strong>${escape(kindLabel)}</strong></td></tr>
+    <tr><td style="padding:8px 0;color:#6b7280;">Fecha límite</td><td style="padding:8px 0;text-align:right;">${new Date(dueAt).toLocaleDateString('es-PY', { day: 'numeric', month: 'short', year: 'numeric' })}</td></tr>
+  </table>
+  ${description ? `<div style="background:#f9fafb;border-radius:8px;padding:12px;margin:0 0 16px 0;"><p style="margin:0 0 8px 0;font-weight:600;">Descripción</p><p style="margin:0 0 0 0;font-size:13px;">${escape(description)}</p></div>` : ''}
+  <p style="color:#6b7280;font-size:13px;margin:24px 0 0 0;">Esta solicitud debe ser atendida dentro del plazo máximo de 30 días hábiles según la Ley 1.682/01 de Protección de Datos Personales.</p>
+  <p style="color:#9ca3af;font-size:11px;margin-top:24px;">Notificación automática de Paragu-AI · Ley 1.682/01</p>
+</body></html>`.trim(),
+  }
+}

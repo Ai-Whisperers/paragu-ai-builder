@@ -7,6 +7,8 @@ import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { createClient } from '@/lib/supabase/server'
+import { resendAdapter } from '@/lib/integrations/email/resend'
+import { dataRequestEmail } from '@/lib/commerce/email-templates'
 
 export const runtime = 'nodejs'
 
@@ -42,8 +44,25 @@ export const POST = withRequestLog(async (req, { log }) => {
     return NextResponse.json({ error: 'insert_failed' }, { status: 500 })
   }
 
-  // TODO(compliance): email notification to compliance officer. Ship once
-  // an outbound email adapter (Resend / Postmark) is wired in.
+  if (process.env.EMAIL_TRANSACTIONAL_KEY && process.env.EMAIL_FROM_ADDRESS) {
+    const emailConfig = {
+      transactionalApiKey: process.env.EMAIL_TRANSACTIONAL_KEY,
+      fromAddress: process.env.EMAIL_FROM_ADDRESS,
+      fromName: 'Paragu-AI Compliance',
+    }
+    const emailTemplate = dataRequestEmail({ siteSlug, email, kind, description, dueAt })
+    const emailResult = await resendAdapter.sendTransactional(
+      emailConfig.fromAddress,
+      emailTemplate.subject,
+      emailTemplate.html,
+      emailConfig,
+    )
+    if (!emailResult.ok) {
+      log.warn('GDPR compliance email failed', { error: emailResult.error })
+    }
+  } else {
+    log.warn('GDPR compliance email not sent: EMAIL_TRANSACTIONAL_KEY or EMAIL_FROM_ADDRESS not configured')
+  }
 
   return NextResponse.json({
     ok: true,
