@@ -69,7 +69,7 @@ export function ProcessSection({
           </Heading>
         )}
         {subtitle && (
-          <p className="mb-12 max-w-2xl text-lg" style={{ color: 'var(--secondary)' }}>
+          <p className="mb-12 max-w-2xl text-lg" style={{ color: 'var(--text-light)' }}>
             {subtitle}
           </p>
         )}
@@ -112,7 +112,7 @@ export function ProcessSection({
                     >
                       {step.title}
                     </Heading>
-                    <p className="text-sm" style={{ color: 'var(--secondary)' }}>
+                    <p className="text-sm" style={{ color: 'var(--text-light)' }}>
                       {step.description}
                     </p>
                   </div>
