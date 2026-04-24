@@ -82,6 +82,9 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: 'images.pexels.com' },
       { protocol: 'https', hostname: 'placehold.co' },
+      // Tenant-owned assets — referenced from their production WordPress / CDN.
+      // Hot-linked during demo; swap to our CDN once they sign.
+      { protocol: 'https', hostname: 'www.superspuma.com.py', pathname: '/wp-content/uploads/**' },
     ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60 * 60 * 24 * 30,
