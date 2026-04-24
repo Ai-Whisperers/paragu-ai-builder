@@ -71,6 +71,15 @@ LAUNCH_READINESS_QUESTIONNAIRE.md
 # (tracking these as gitlinks without .gitmodules breaks Cloudflare Pages)
 .claude/worktrees/
 
+# AI agent tool directories and backups
+.sisyphus/
+.claude/settings.local.json.bak
+.claude/settings.local.json
+
+# Temporary files
+tmp.json
+*.tmp
+
 # Tenant images copied into public/ by web/scripts/copy-tenant-images.mjs
 # on every prebuild. Source of truth lives at sites/<slug>/images/;
 # web/public/sites/ is a regenerated build artifact, never committed.
