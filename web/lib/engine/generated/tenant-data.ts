@@ -13324,6 +13324,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "horizontal"
       },
       {
+        "content": "guias.comparisonBlock",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "guias.lifeCalcBlock",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
         "content": "home.enhancedFaq",
         "id": "enhanced-faq",
         "variant": "searchable"
@@ -37700,6 +37710,40 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "5 hábitos simples que alargan la vida útil de tu colchón.",
         "title": "Cuidados para que tu colchón dure más"
       },
+      "comparisonBlock": {
+        "features": [
+          {
+            "description": "**Espuma:** Adaptable al cuerpo  ·  **Resorte:** Más firme y estable",
+            "title": "Firmeza"
+          },
+          {
+            "description": "**Espuma:** Retiene más calor  ·  **Resorte:** Circula mejor el aire",
+            "title": "Disipación de calor"
+          },
+          {
+            "description": "**Espuma:** Silencioso  ·  **Resorte:** Puede sonar con el tiempo",
+            "title": "Ruido al moverse"
+          },
+          {
+            "description": "**Espuma:** 6-8 años  ·  **Resorte:** 8-10 años",
+            "title": "Vida útil"
+          },
+          {
+            "description": "**Espuma:** Lumbalgia, dormir de costado  ·  **Resorte:** Dormir boca arriba, más de 80 kg",
+            "title": "Mejor para"
+          },
+          {
+            "description": "**Espuma:** Desde Gs. 500.000  ·  **Resorte:** Desde Gs. 1.480.000",
+            "title": "Precio base"
+          },
+          {
+            "description": "**Espuma:** No necesita rotación  ·  **Resorte:** Rotar cada 3 meses",
+            "title": "Mantenimiento"
+          }
+        ],
+        "subtitle": "Resumen honesto de cada uno.",
+        "title": "Espuma vs Resorte — ¿cuál elegir?"
+      },
       "comparisonTable": {
         "columns": [
           "Característica",
@@ -37807,6 +37851,30 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Elegí bien, dormí mejor",
         "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
         "trustBadgesEnabled": false
+      },
+      "lifeCalcBlock": {
+        "features": [
+          {
+            "description": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
+            "href": "/s/es/superspuma/cambio",
+            "title": "10+ años"
+          },
+          {
+            "description": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
+            "href": "/s/es/superspuma/cambio",
+            "title": "8-10 años"
+          },
+          {
+            "description": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin.",
+            "title": "5-8 años"
+          },
+          {
+            "description": "Relájate. Tu colchón está en sus mejores años.",
+            "title": "Menos de 5 años"
+          }
+        ],
+        "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
+        "title": "¿Tu colchón ya cumplió?"
       },
       "lifeCalculator": {
         "rules": [
