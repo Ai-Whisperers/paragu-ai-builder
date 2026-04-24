@@ -130,7 +130,7 @@ export function ContactSection({
           )}
         </AnimatedSectionHeader>
 
-        <div className="grid gap-8 lg:gap-12 lg:grid-cols-2">
+        <div className={`grid gap-8 lg:gap-12 ${googleMapsUrl ? 'lg:grid-cols-2' : ''}`}>
           {/* Contact Info Cards */}
           <AnimateOnScroll>
             <div className="space-y-6">
@@ -307,17 +307,20 @@ export function ContactSection({
             </div>
           </AnimateOnScroll>
 
-          {/* Map */}
-          <AnimateOnScroll stagger={1}>
-            <div 
-              className="h-full min-h-[400px] overflow-hidden rounded-2xl"
-              style={{
-                backgroundColor: 'var(--surface-light)',
-                boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
-                border: '1px solid rgba(0,0,0,0.06)',
-              }}
-            >
-              {googleMapsUrl ? (
+          {/* Map — only render when a Google Maps embed URL is provided.
+              Without a street-level address the fallback is visual noise,
+              especially on dark themes where it collapses to a near-empty
+              box (looked broken on Dayah). Remote-only businesses skip this. */}
+          {googleMapsUrl && (
+            <AnimateOnScroll stagger={1}>
+              <div
+                className="h-full min-h-[400px] overflow-hidden rounded-2xl"
+                style={{
+                  backgroundColor: 'var(--surface-light)',
+                  boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+                  border: '1px solid rgba(0,0,0,0.06)',
+                }}
+              >
                 <iframe
                   src={googleMapsUrl}
                   width="100%"
@@ -329,23 +332,9 @@ export function ContactSection({
                   title={labels.mapAlt(city)}
                   style={{ filter: 'grayscale(15%) contrast(105%)' }}
                 />
-              ) : (
-                <div className="flex h-full min-h-[400px] flex-col items-center justify-center gap-3"
-                  style={{ color: 'var(--text-muted)' }}
-                >
-                  <div 
-                    className="w-16 h-16 rounded-full flex items-center justify-center"
-                    style={{ backgroundColor: 'var(--surface)' }}
-                  >
-                    <MapPin size={32} opacity={0.4} />
-                  </div>
-                  <p className="text-base">
-                    {address ? `${address}, ${city}` : city}
-                  </p>
-                </div>
-              )}
-            </div>
-          </AnimateOnScroll>
+              </div>
+            </AnimateOnScroll>
+          )}
         </div>
       </Container>
     </section>
