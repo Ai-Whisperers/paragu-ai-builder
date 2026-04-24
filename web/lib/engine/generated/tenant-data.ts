@@ -5901,11 +5901,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "blog.placeholder",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "blog.placeholder",
         "id": "features",
         "variant": "three-col"
       },
@@ -6281,11 +6276,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "terminos.sectionsBlock",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "terminos.payment",
-        "id": "features",
-        "variant": "grid"
       },
       {
         "content": "footer",
