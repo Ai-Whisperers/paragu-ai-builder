@@ -6,6 +6,7 @@ import { loadBusiness } from '@/lib/engine/data-loader'
 import { getRegistry, REGISTRY_MAP } from '@/lib/engine/static-config'
 import { getAllDemoSlugs } from '@/lib/engine/demo-data'
 import { listSiteSlugs, loadSite } from '@/lib/engine/site-loader'
+import { getAppUrl } from '@/lib/env'
 import type { Metadata } from 'next'
 
 /**
@@ -143,7 +144,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const businessData = await loadBusiness(slug)
   if (!businessData) return { title: 'No encontrado' }
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || ''
+  const baseUrl = getAppUrl()
   const page = await composePage(businessData)
 
   return {
