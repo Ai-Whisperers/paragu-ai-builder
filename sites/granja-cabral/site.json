@@ -51,5 +51,5 @@
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
   "migratedAt": "2026-04-20",
-  "is_demo": true
+  "is_demo": false
 }

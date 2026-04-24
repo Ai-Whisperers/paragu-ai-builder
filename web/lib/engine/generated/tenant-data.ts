@@ -4808,7 +4808,7 @@ export const SITES: Record<string, JsonRecord> = {
     "integrations": {
       "analytics": "ga4"
     },
-    "is_demo": true,
+    "is_demo": false,
     "locales": [
       "es"
     ],
@@ -5024,7 +5024,7 @@ export const SITES: Record<string, JsonRecord> = {
       "leadCapture": "in-app form"
     },
     "isLiveProduction": false,
-    "is_demo": true,
+    "is_demo": false,
     "locales": [
       "en"
     ],
