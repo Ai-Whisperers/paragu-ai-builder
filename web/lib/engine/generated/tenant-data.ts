@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=237, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5175,6 +5175,7 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "pages": [
       "home",
+      "tienda",
       "nosotros",
       "tiendas",
       "guias",
@@ -13140,24 +13141,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "horizontal"
       },
       {
-        "content": "home.trustSignals",
-        "id": "trust-signals",
-        "variant": "credentials"
-      },
-      {
-        "content": "home.gallery",
-        "id": "gallery",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "carousel"
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "",
@@ -14651,6 +14642,37 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "terminos",
     "titleKey": "terminos.seo.title"
+  },
+  "superspuma:tienda": {
+    "descriptionKey": "tienda.seo.description",
+    "sections": [
+      {
+        "content": "tienda.hero",
+        "id": "hero",
+        "variant": "compact"
+      },
+      {
+        "content": "tienda.productCatalog",
+        "id": "product-catalog"
+      },
+      {
+        "content": "home.activePromos",
+        "id": "promo-banner",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "tienda",
+    "titleKey": "tienda.seo.title"
   },
   "superspuma:tiendas": {
     "descriptionKey": "tiendas.seo.description",
@@ -36822,7 +36844,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80",
         "ctaPrimaryHref": "#trade-in-form",
         "ctaPrimaryText": "Cotizar mi cambio",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "ctaSecondaryText": "Ver modelos nuevos",
         "headline": "Cambiá tu colchón viejo",
         "subheadline": "Entregá tu colchón usado y llevate un Superspuma con crédito sobre el precio. Cotizamos tu caso en el día y el retiro no tiene costo extra.",
@@ -37459,7 +37481,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
-          "href": "/s/es/superspuma#catalogo",
+          "href": "/s/es/superspuma/tienda",
           "label": "Catálogo"
         },
         {
@@ -37553,7 +37575,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Plazos exactos según el modelo que elijas. Todos los colchones incluyen certificado de garantía activable en cualquiera de nuestras tiendas.",
         "tiers": [
           {
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver modelos Esencial",
             "description": "Entrada a la calidad Superspuma.",
             "id": "esencial",
@@ -37568,7 +37590,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "priceNote": "Defectos de fábrica"
           },
           {
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver modelos Confort",
             "description": "El rango medio — donde está el 60% de nuestras ventas.",
             "id": "confort",
@@ -37587,7 +37609,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "badge": "Recomendado",
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver Alta Gama",
             "description": "Materiales reforzados, mayor capacidad de carga.",
             "highlighted": true,
@@ -37604,7 +37626,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "badge": "Premium",
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver Titanium",
             "description": "Lo más alto de la línea de resorte.",
             "id": "premium",
@@ -37617,7 +37639,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "badge": "Máxima",
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver Ortopédico",
             "description": "Espuma densidad 45, hasta 140 kg. La garantía más larga que ofrecemos.",
             "id": "ortopedico",
@@ -37755,7 +37777,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Elegí según tu peso y posición preferida al dormir.",
         "tiers": [
           {
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver modelos suaves",
             "description": "Superficie mullida. Ideal para dormir de costado con peso menor a 70 kg.",
             "id": "suave",
@@ -37768,7 +37790,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "badge": "Más popular",
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver modelos medios",
             "description": "El equilibrio que funciona para la mayoría. Dormís boca arriba o alternás posiciones.",
             "highlighted": true,
@@ -37783,7 +37805,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "name": "Medio"
           },
           {
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver modelos firmes",
             "description": "Soporte máximo. Recomendado para más de 90 kg o problemas de columna.",
             "id": "firme",
@@ -37795,7 +37817,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "name": "Firme / Extra Firme"
           },
           {
-            "ctaHref": "/s/es/superspuma#catalogo",
+            "ctaHref": "/s/es/superspuma/tienda",
             "ctaLabel": "Ver memory foam",
             "description": "Memory foam que se ajusta al contorno. Alivia puntos de presión.",
             "id": "adaptable",
@@ -38059,6 +38081,12 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Todo lo que querés saber antes de elegir tu colchón. Si no encontrás tu respuesta, escribinos por WhatsApp.",
         "title": "Preguntas frecuentes"
       },
+      "finalCta": {
+        "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
+        "buttonText": "Consultar por WhatsApp",
+        "subtitle": "7 tiendas en Asunción y Central + 6 centros logísticos en el interior. O consultanos por WhatsApp y te respondemos en el día.",
+        "title": "Visitá la tienda Superspuma más cercana"
+      },
       "gallery": {
         "columns": 3,
         "images": [
@@ -38099,7 +38127,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "backgroundImage": "https://www.superspuma.com.py/wp-content/uploads/2025/08/Slide-web-20off.jpeg",
-        "ctaPrimaryHref": "#catalogo",
+        "ctaPrimaryHref": "/s/es/superspuma/tienda",
         "ctaPrimaryText": "Ver colchones",
         "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
         "ctaSecondaryText": "Consultar por WhatsApp",
@@ -38155,6 +38183,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "orderButtonText": "Consultar por WhatsApp",
         "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
+        "productLinkBase": "/s/es/superspuma/producto",
         "products": [
           {
             "category": "Resorte",
@@ -38164,7 +38193,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "price": "Desde Gs. 1.800.000",
             "priceOriginal": "Gs. 2.250.000",
             "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20
+            "promoPercent": 20,
+            "slug": "titanium"
           },
           {
             "category": "Resorte",
@@ -38174,157 +38204,179 @@ export const CONTENT: Record<string, JsonRecord> = {
             "price": "Desde Gs. 2.230.000",
             "priceOriginal": "Gs. 2.787.500",
             "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20
+            "promoPercent": 20,
+            "slug": "imperial"
           },
           {
             "category": "Resorte",
             "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "name": "Harmony",
-            "price": "Desde Gs. 1.274.000"
+            "price": "Desde Gs. 1.274.000",
+            "slug": "harmony"
           },
           {
             "category": "Resorte",
             "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
             "name": "Serrat",
-            "price": "Desde Gs. 1.150.000"
+            "price": "Desde Gs. 1.150.000",
+            "slug": "serrat"
           },
           {
             "category": "Resorte",
             "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
             "name": "Delta Soft",
-            "price": "Desde Gs. 1.050.000"
+            "price": "Desde Gs. 1.050.000",
+            "slug": "delta-soft"
           },
           {
             "category": "Resorte",
             "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
             "name": "Essential Top",
-            "price": "Desde Gs. 890.000"
+            "price": "Desde Gs. 890.000",
+            "slug": "essential-top"
           },
           {
             "category": "Resorte",
             "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
             "name": "Renovate",
-            "price": "Desde Gs. 780.000"
+            "price": "Desde Gs. 780.000",
+            "slug": "renovate"
           },
           {
             "category": "Resorte",
             "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
             "name": "Impulse Kids",
-            "price": "Desde Gs. 780.000"
+            "price": "Desde Gs. 780.000",
+            "slug": "impulse-kids"
           },
           {
             "category": "Resorte",
             "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
             "name": "Impulse Teens",
-            "price": "Desde Gs. 890.000"
+            "price": "Desde Gs. 890.000",
+            "slug": "impulse-teens"
           },
           {
             "category": "Resorte",
             "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
             "name": "Pop Kids",
-            "price": "Desde Gs. 649.000"
+            "price": "Desde Gs. 649.000",
+            "slug": "pop-kids"
           },
           {
             "category": "Resorte",
             "description": "Pop reforzado para uso adulto — mayor capacidad.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
             "name": "Pop Plus",
-            "price": "Desde Gs. 850.000"
+            "price": "Desde Gs. 850.000",
+            "slug": "pop-plus"
           },
           {
             "category": "Resorte",
             "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
             "name": "Pop Teen",
-            "price": "Desde Gs. 780.000"
+            "price": "Desde Gs. 780.000",
+            "slug": "pop-teen"
           },
           {
             "category": "Resorte",
             "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
             "name": "Superteen",
-            "price": "Desde Gs. 980.000"
+            "price": "Desde Gs. 980.000",
+            "slug": "superteen"
           },
           {
             "category": "Espuma",
             "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
             "name": "Ortopédico",
-            "price": "Desde Gs. 1.290.000"
+            "price": "Desde Gs. 1.290.000",
+            "slug": "ortopedico"
           },
           {
             "category": "Espuma",
             "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
             "name": "Duo Confort",
-            "price": "Desde Gs. 980.000"
+            "price": "Desde Gs. 980.000",
+            "slug": "duo-confort"
           },
           {
             "category": "Espuma",
             "description": "Espuma de alta densidad con buen confort y recuperación.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
             "name": "Serena",
-            "price": "Desde Gs. 850.000"
+            "price": "Desde Gs. 850.000",
+            "slug": "serena"
           },
           {
             "category": "Espuma",
             "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
             "name": "Golden",
-            "price": "Desde Gs. 696.000"
+            "price": "Desde Gs. 696.000",
+            "slug": "golden"
           },
           {
             "category": "Espuma",
             "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
             "name": "Luna Soft",
-            "price": "Desde Gs. 500.000"
+            "price": "Desde Gs. 500.000",
+            "slug": "luna-soft"
           },
           {
             "category": "Espuma",
             "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
             "name": "Super Kids",
-            "price": "Desde Gs. 420.000"
+            "price": "Desde Gs. 420.000",
+            "slug": "super-kids"
           },
           {
             "category": "Accesorios",
             "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "name": "Base Box Baúl",
-            "price": "Desde Gs. 890.000"
+            "price": "Desde Gs. 890.000",
+            "slug": "base-box-baul"
           },
           {
             "category": "Accesorios",
             "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
             "name": "Protector Impermeable",
-            "price": "Desde Gs. 120.000"
+            "price": "Desde Gs. 120.000",
+            "slug": "protector-colchon"
           },
           {
             "category": "Accesorios",
             "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
             "name": "Cubre Colchón",
-            "price": "Desde Gs. 95.000"
+            "price": "Desde Gs. 95.000",
+            "slug": "cubre-colchon"
           },
           {
             "category": "Accesorios",
             "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
             "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
             "name": "Almohada Superspuma",
-            "price": "Desde Gs. 65.000"
+            "price": "Desde Gs. 65.000",
+            "slug": "almohada-superspuma"
           }
         ],
-        "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Elegí el tuyo y consultá disponibilidad por WhatsApp.",
+        "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Tocá una ficha para ver medidas, garantía y precio por medida — o consultá por WhatsApp.",
         "title": "Nuestro catálogo",
         "whatsappPhone": "595974202025"
       },
@@ -38642,7 +38694,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
-          "href": "/s/es/superspuma/catalogo",
+          "href": "/s/es/superspuma/tienda",
           "label": "Catálogo"
         },
         {
@@ -38846,7 +38898,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Almohada%20Superspuma.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Almohada Superspuma",
           "subheadline": "Almohada de fibra o espuma.",
@@ -38900,7 +38952,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Base Box Baúl",
           "subheadline": "Sommier con espacio de guardado bajo la tapa.",
@@ -39005,7 +39057,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Cubre%20Colch%C3%B3n.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Cubre Colchón",
           "subheadline": "Protección acolchada para tu colchón.",
@@ -39059,7 +39111,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Delta%20Soft.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Delta Soft",
           "subheadline": "Tacto mullido con soporte de resorte.",
@@ -39139,7 +39191,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Duo Confort",
           "subheadline": "Viscoelástica adaptable — alivio de puntos de presión.",
@@ -39275,7 +39327,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Essential%20Top.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Essential Top",
           "subheadline": "Resorte con Pillow Top — la puerta de entrada a nuestra línea Esencial.",
@@ -39355,7 +39407,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Golden",
           "subheadline": "Espuma reversible con Pillow Top.",
@@ -39491,7 +39543,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Harmony",
           "subheadline": "Equilibrio ideal entre soporte y confort con Euro-Top.",
@@ -39647,7 +39699,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Imperial",
           "subheadline": "Resortes Bonell con Pillow Top para descanso regenerador.",
@@ -39813,7 +39865,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Impulse Kids",
           "subheadline": "Resorte premium para niños, reversible.",
@@ -39934,7 +39986,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Teens.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Impulse Teens",
           "subheadline": "Resorte para adolescentes, más robusto.",
@@ -40014,7 +40066,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Luna Soft",
           "subheadline": "Espuma económica — suave y liviana.",
@@ -40165,7 +40217,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Ortopédico",
           "subheadline": "Firmeza máxima — hasta 140 kg, 6 años de garantía.",
@@ -40311,7 +40363,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Pop Kids",
           "subheadline": "Línea económica de niños — diseños divertidos.",
@@ -40452,7 +40504,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Plus.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Pop Plus",
           "subheadline": "Pop reforzado, para uso adulto.",
@@ -40532,7 +40584,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Teen.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Pop Teen",
           "subheadline": "Pop juvenil — precio accesible.",
@@ -40612,7 +40664,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Protector%20Impermeable.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Protector Impermeable",
           "subheadline": "Impermeable y transpirable.",
@@ -40666,7 +40718,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Renovate.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Renovate",
           "subheadline": "El reemplazo económico y confiable para tu viejo colchón.",
@@ -40741,7 +40793,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serena.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Serena",
           "subheadline": "Espuma de alta densidad con buen confort.",
@@ -40821,7 +40873,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serrat.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Serrat",
           "subheadline": "Resorte con superficie suave, firmeza media.",
@@ -40901,7 +40953,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Super Kids",
           "subheadline": "Espuma infantil — liviano y fácil de manipular.",
@@ -41017,7 +41069,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Superteen.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Superteen",
           "subheadline": "Línea premium juvenil.",
@@ -41092,7 +41144,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "hero": {
           "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium.",
           "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+          "ctaSecondaryHref": "/s/es/superspuma/tienda",
           "ctaSecondaryText": "Ver todo el catálogo",
           "headline": "Titanium",
           "subheadline": "Premium con Euro Pillow Top y resortes Bonell reforzados.",
@@ -41341,7 +41393,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "hero": {
         "ctaPrimaryHref": "#quiz",
         "ctaPrimaryText": "Empezar el quiz",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "ctaSecondaryText": "Ver todo el catálogo",
         "headline": "¿Qué colchón necesitás?",
         "subheadline": "6 preguntas. 2 minutos. Te recomendamos los 3 modelos que mejor se adaptan a vos.",
@@ -41835,6 +41887,231 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Términos y condiciones de uso y compra"
       },
       "trustBadgesEnabled": false
+    },
+    "tienda": {
+      "hero": {
+        "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
+        "ctaPrimaryText": "Consultar por WhatsApp",
+        "ctaSecondaryHref": "/s/es/superspuma/guias",
+        "ctaSecondaryText": "Guía de compra",
+        "headline": "Todos nuestros colchones",
+        "subheadline": "19 modelos fabricados en Paraguay desde 1976. Filtrá por categoría y abrí cada ficha para ver medidas, firmeza y garantía.",
+        "trustBadges": [
+          "49 años en Paraguay",
+          "18 cuotas sin interés",
+          "Envío a todo el país"
+        ],
+        "trustBadgesEnabled": true
+      },
+      "productCatalog": {
+        "categories": [
+          "Resorte",
+          "Espuma",
+          "Accesorios"
+        ],
+        "orderButtonText": "Consultar por WhatsApp",
+        "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
+        "productLinkBase": "/s/es/superspuma/producto",
+        "products": [
+          {
+            "category": "Resorte",
+            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
+            "name": "Titanium",
+            "price": "Desde Gs. 1.800.000",
+            "priceOriginal": "Gs. 2.250.000",
+            "promoLabel": "Promo 20% OFF",
+            "promoPercent": 20,
+            "slug": "titanium"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
+            "name": "Imperial",
+            "price": "Desde Gs. 2.230.000",
+            "priceOriginal": "Gs. 2.787.500",
+            "promoLabel": "Promo 20% OFF",
+            "promoPercent": 20,
+            "slug": "imperial"
+          },
+          {
+            "category": "Resorte",
+            "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+            "name": "Harmony",
+            "price": "Desde Gs. 1.274.000",
+            "slug": "harmony"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
+            "name": "Serrat",
+            "price": "Desde Gs. 1.150.000",
+            "slug": "serrat"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
+            "name": "Delta Soft",
+            "price": "Desde Gs. 1.050.000",
+            "slug": "delta-soft"
+          },
+          {
+            "category": "Resorte",
+            "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
+            "name": "Essential Top",
+            "price": "Desde Gs. 890.000",
+            "slug": "essential-top"
+          },
+          {
+            "category": "Resorte",
+            "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
+            "name": "Renovate",
+            "price": "Desde Gs. 780.000",
+            "slug": "renovate"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
+            "name": "Impulse Kids",
+            "price": "Desde Gs. 780.000",
+            "slug": "impulse-kids"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
+            "name": "Impulse Teens",
+            "price": "Desde Gs. 890.000",
+            "slug": "impulse-teens"
+          },
+          {
+            "category": "Resorte",
+            "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
+            "name": "Pop Kids",
+            "price": "Desde Gs. 649.000",
+            "slug": "pop-kids"
+          },
+          {
+            "category": "Resorte",
+            "description": "Pop reforzado para uso adulto — mayor capacidad.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
+            "name": "Pop Plus",
+            "price": "Desde Gs. 850.000",
+            "slug": "pop-plus"
+          },
+          {
+            "category": "Resorte",
+            "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
+            "name": "Pop Teen",
+            "price": "Desde Gs. 780.000",
+            "slug": "pop-teen"
+          },
+          {
+            "category": "Resorte",
+            "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
+            "name": "Superteen",
+            "price": "Desde Gs. 980.000",
+            "slug": "superteen"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
+            "name": "Ortopédico",
+            "price": "Desde Gs. 1.290.000",
+            "slug": "ortopedico"
+          },
+          {
+            "category": "Espuma",
+            "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
+            "name": "Duo Confort",
+            "price": "Desde Gs. 980.000",
+            "slug": "duo-confort"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma de alta densidad con buen confort y recuperación.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
+            "name": "Serena",
+            "price": "Desde Gs. 850.000",
+            "slug": "serena"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
+            "name": "Golden",
+            "price": "Desde Gs. 696.000",
+            "slug": "golden"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
+            "name": "Luna Soft",
+            "price": "Desde Gs. 500.000",
+            "slug": "luna-soft"
+          },
+          {
+            "category": "Espuma",
+            "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
+            "name": "Super Kids",
+            "price": "Desde Gs. 420.000",
+            "slug": "super-kids"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+            "name": "Base Box Baúl",
+            "price": "Desde Gs. 890.000",
+            "slug": "base-box-baul"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
+            "name": "Protector Impermeable",
+            "price": "Desde Gs. 120.000",
+            "slug": "protector-colchon"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
+            "name": "Cubre Colchón",
+            "price": "Desde Gs. 95.000",
+            "slug": "cubre-colchon"
+          },
+          {
+            "category": "Accesorios",
+            "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
+            "name": "Almohada Superspuma",
+            "price": "Desde Gs. 65.000",
+            "slug": "almohada-superspuma"
+          }
+        ],
+        "subtitle": "19 modelos en línea — resorte, espuma y accesorios. Clic en cualquier ficha para ver detalle, medidas y precio por medida. Consultá stock por WhatsApp.",
+        "title": "Todos nuestros colchones y accesorios",
+        "whatsappPhone": "595974202025"
+      },
+      "seo": {
+        "description": "Catálogo completo de colchones Superspuma: 13 de resorte + 6 de espuma + accesorios. Ficha por modelo con medidas, firmeza, garantía y precio. Envío a todo Paraguay, 18 cuotas sin interés.",
+        "title": "Tienda Superspuma — colchones, sommiers y accesorios | Fábrica paraguaya"
+      }
     },
     "tiendas": {
       "hero": {

@@ -4,6 +4,9 @@ import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { getProductBySlug, listRelatedProducts } from '@/lib/commerce/products'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
+import { loadPage } from '@/lib/engine/site-loader'
+import { isLocale, type Locale as LocaleType } from '@/lib/i18n/config'
+import { renderStaticTenantPage } from '../../_shared/render-static-tenant-page'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CommerceChrome } from '@/components/commerce/commerce-chrome'
 import { TrustStrip } from '@/components/commerce/trust-strip'
@@ -40,6 +43,16 @@ import { env } from '@/lib/env'
 export const runtime = 'nodejs'
 export const revalidate = 300
 
+/**
+ * True when this tenant ships a static JSON PDP at
+ * `sites/<slug>/pages/producto/<slug>.json` — used as a fallback when the
+ * tenant has no Supabase-backed commerce rows (e.g. superspuma, pre-Bancard).
+ * Matches the generated tenant-data key convention: `<siteSlug>:producto/<slug>`.
+ */
+function hasStaticPdp(siteSlug: string, productSlug: string): boolean {
+  return Boolean(loadPage(siteSlug, `producto/${productSlug}`))
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -47,7 +60,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { site, locale, slug } = await params
   const business = await resolveBusinessBySlug(site)
-  if (!business) return {}
+  if (!business) {
+    // No DB business. If a static PDP exists, let the catch-all page
+    // composer drive metadata — the fallback render below handles it.
+    if (hasStaticPdp(site, slug)) return {}
+    return {}
+  }
   const product = await getProductBySlug(business.id, slug)
   if (!product) return {}
   const cover = product.images.find((i) => i.isCover) ?? product.images[0]
@@ -94,10 +112,34 @@ export async function generateMetadata({
 export default async function ProductPage({ params }: { params: Promise<{ site: string; locale: string; slug: string }> }) {
   const { site, locale, slug } = await params
   const business = await resolveBusinessBySlug(site)
-  if (!business || !(await isCommerceEnabled(business.type))) notFound()
+
+  // DB-backed PDP is the primary path. If the tenant isn't in Supabase,
+  // commerce is off, or this SKU isn't seeded, fall back to the static
+  // JSON PDP (`sites/<slug>/pages/producto/<slug>.json`). That prevents
+  // 404ing 23 hand-authored product pages just because Bancard hasn't
+  // shipped yet. Callers get the same URL either way.
+  if (!business || !(await isCommerceEnabled(business.type))) {
+    if (hasStaticPdp(site, slug) && isLocale(locale)) {
+      return renderStaticTenantPage({
+        siteSlug: site,
+        locale: locale as LocaleType,
+        pageSlug: `producto/${slug}`,
+      })
+    }
+    notFound()
+  }
 
   const product = await getProductBySlug(business.id, slug)
-  if (!product || product.status !== 'active') notFound()
+  if (!product || product.status !== 'active') {
+    if (hasStaticPdp(site, slug) && isLocale(locale)) {
+      return renderStaticTenantPage({
+        siteSlug: site,
+        locale: locale as LocaleType,
+        pageSlug: `producto/${slug}`,
+      })
+    }
+    notFound()
+  }
 
   const cover = product.images.find((i) => i.isCover) ?? product.images[0]
   const [rates, related, reviews, aggregates] = await Promise.all([

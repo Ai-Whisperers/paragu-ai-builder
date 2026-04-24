@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent, CardImage, CardTitle, CardDescription } from '@/components/ui/card'
@@ -21,6 +22,14 @@ export interface ProductItem {
   imageUrl?: string
   category?: string
   available?: boolean
+  /**
+   * If set, the product card image + title become a link to this URL
+   * (usually a PDP), and a "Ver detalle" secondary CTA is rendered below
+   * the primary WhatsApp button. Shape-equivalent to `href` — callers can
+   * pass either; `href` wins when both are present.
+   */
+  slug?: string
+  href?: string
 }
 
 export interface ProductCatalogSectionProps {
@@ -35,6 +44,13 @@ export interface ProductCatalogSectionProps {
   orderButtonText?: string
   orderMessageTemplate?: string
   emailAddress?: string
+  /**
+   * If set, each product without an explicit `href` gets a link to
+   * `<productLinkBase>/<product.slug>`. Enables a one-line toggle: set
+   * `productLinkBase: "/s/es/superspuma/producto"` in content and every
+   * card becomes a PDP entry point.
+   */
+  productLinkBase?: string
   __locale?: string
 }
 
@@ -43,6 +59,7 @@ const CATALOG_LABELS: Record<
   {
     all: string
     orderButton: string
+    detailButton: string
     orderTemplate: string
     emailSubject: (name: string) => string
     emailBody: (name: string, price?: string) => string
@@ -51,6 +68,7 @@ const CATALOG_LABELS: Record<
   en: {
     all: 'All',
     orderButton: 'Ask via WhatsApp',
+    detailButton: 'View details',
     orderTemplate:
       "Hi! I'm interested in: {{productName}} (${{productPrice}}). Could you tell me more?",
     emailSubject: (name) => `Inquiry: ${name}`,
@@ -60,6 +78,7 @@ const CATALOG_LABELS: Record<
   es: {
     all: 'Todos',
     orderButton: 'Consultar por WhatsApp',
+    detailButton: 'Ver detalle',
     orderTemplate:
       'Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
     emailSubject: (name) => `Consulta: ${name}`,
@@ -69,6 +88,7 @@ const CATALOG_LABELS: Record<
   de: {
     all: 'Alle',
     orderButton: 'Über WhatsApp anfragen',
+    detailButton: 'Details ansehen',
     orderTemplate:
       'Hallo! Ich interessiere mich für: {{productName}} (${{productPrice}}). Können Sie mir mehr Informationen geben?',
     emailSubject: (name) => `Anfrage: ${name}`,
@@ -78,6 +98,7 @@ const CATALOG_LABELS: Record<
   pt: {
     all: 'Todos',
     orderButton: 'Consultar pelo WhatsApp',
+    detailButton: 'Ver detalhes',
     orderTemplate:
       'Olá! Tenho interesse em: {{productName}} (${{productPrice}}). Poderia me enviar mais informações?',
     emailSubject: (name) => `Consulta: ${name}`,
@@ -87,6 +108,7 @@ const CATALOG_LABELS: Record<
   nl: {
     all: 'Alle',
     orderButton: 'Vraag via WhatsApp',
+    detailButton: 'Bekijk details',
     orderTemplate:
       'Hallo! Ik heb interesse in: {{productName}} (${{productPrice}}). Kunt u mij meer vertellen?',
     emailSubject: (name) => `Aanvraag: ${name}`,
@@ -127,6 +149,7 @@ function ProductCard({
   index,
   labels,
   unavailableText,
+  detailHref,
 }: {
   product: ProductItem
   showPrices: boolean
@@ -137,8 +160,50 @@ function ProductCard({
   index: number
   labels: (typeof CATALOG_LABELS)[string]
   unavailableText: string
+  /** Resolved PDP link — explicit `product.href`, else `product.slug`
+   * joined to the catalog-level `productLinkBase`. Undefined when neither
+   * is set (card stays non-clickable, only the WhatsApp CTA works). */
+  detailHref?: string
 }) {
   const isAvailable = product.available !== false
+
+  // Image + title are the natural click target for a PDP entry. Wrap each
+  // optionally so the component still works without a link (pre-existing
+  // tenants like demo catalogs that never set `slug`).
+  const imageNode = product.imageUrl ? (
+    <CardImage src={product.imageUrl} alt={product.name} className="h-64" />
+  ) : (
+    <div
+      className="flex h-64 items-center justify-center px-6"
+      style={{
+        background:
+          'linear-gradient(135deg, var(--surface) 0%, var(--surface-light, var(--surface)) 100%)',
+        borderBottom: '1px solid var(--border)',
+      }}
+      aria-label={`${product.name} — foto próximamente`}
+    >
+      <div className="text-center">
+        <p
+          className="font-semibold tracking-wide"
+          style={{
+            color: 'var(--primary)',
+            fontFamily: 'var(--font-heading)',
+            fontSize: 'clamp(1.25rem, 3vw, 1.75rem)',
+          }}
+        >
+          {product.name}
+        </p>
+        {product.category && (
+          <p
+            className="mt-2 text-xs uppercase tracking-widest"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            {product.category}
+          </p>
+        )}
+      </div>
+    </div>
+  )
 
   return (
     <AnimateOnScroll stagger={index}>
@@ -154,43 +219,30 @@ function ProductCard({
             {product.promoLabel || `-${product.promoPercent}%`}
           </div>
         )}
-        {product.imageUrl ? (
-          <CardImage src={product.imageUrl} alt={product.name} className="h-64" />
-        ) : (
-          <div
-            className="flex h-64 items-center justify-center px-6"
-            style={{
-              background:
-                'linear-gradient(135deg, var(--surface) 0%, var(--surface-light, var(--surface)) 100%)',
-              borderBottom: '1px solid var(--border)',
-            }}
-            aria-label={`${product.name} — foto próximamente`}
+        {detailHref ? (
+          <Link
+            href={detailHref}
+            aria-label={product.name}
+            className="block transition-transform hover:scale-[1.02]"
           >
-            <div className="text-center">
-              <p
-                className="font-semibold tracking-wide"
-                style={{
-                  color: 'var(--primary)',
-                  fontFamily: 'var(--font-heading)',
-                  fontSize: 'clamp(1.25rem, 3vw, 1.75rem)',
-                }}
-              >
-                {product.name}
-              </p>
-              {product.category && (
-                <p
-                  className="mt-2 text-xs uppercase tracking-widest"
-                  style={{ color: 'var(--text-muted)' }}
-                >
-                  {product.category}
-                </p>
-              )}
-            </div>
-          </div>
+            {imageNode}
+          </Link>
+        ) : (
+          imageNode
         )}
         <CardContent className="flex flex-1 flex-col">
           <div className="flex items-start justify-between gap-2">
-            <CardTitle>{product.name}</CardTitle>
+            {detailHref ? (
+              <Link
+                href={detailHref}
+                className="hover:underline"
+                style={{ color: 'inherit' }}
+              >
+                <CardTitle>{product.name}</CardTitle>
+              </Link>
+            ) : (
+              <CardTitle>{product.name}</CardTitle>
+            )}
             {showPrices && product.price && (
               <div className="flex flex-col items-end gap-0.5">
                 {product.priceOriginal && product.promoPercent && (
@@ -237,6 +289,15 @@ function ProductCard({
                 {orderButtonText}
               </Button>
             )}
+            {isAvailable && detailHref && (
+              <Link
+                href={detailHref}
+                className="text-center text-sm font-medium hover:underline"
+                style={{ color: 'var(--primary)' }}
+              >
+                {labels.detailButton} →
+              </Link>
+            )}
           </div>
         </CardContent>
       </Card>
@@ -255,6 +316,7 @@ export function ProductCatalogSection({
   orderButtonText,
   orderMessageTemplate,
   emailAddress,
+  productLinkBase,
   __locale = 'es',
 }: ProductCatalogSectionProps) {
   const labels = CATALOG_LABELS[__locale] ?? CATALOG_LABELS.es
@@ -321,20 +383,31 @@ export function ProductCatalogSection({
 
         {/* Product grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredProducts.map((product, index) => (
-            <ProductCard
-              key={`${product.name}-${index}`}
-              product={product}
-              showPrices={showPrices}
-              whatsappPhone={whatsappPhone}
-              orderButtonText={resolvedOrderButton}
-              orderMessageTemplate={resolvedOrderTemplate}
-              emailAddress={emailAddress}
-              index={index}
-              labels={labels}
-              unavailableText={unavailableText}
-            />
-          ))}
+          {filteredProducts.map((product, index) => {
+            // Prefer explicit per-product `href`, else derive from
+            // `productLinkBase` + product.slug. Falsy (or no slug) means
+            // the card stays non-navigable — existing demo catalogs keep
+            // working unchanged.
+            const detailHref = product.href
+              ?? (productLinkBase && product.slug
+                ? `${productLinkBase.replace(/\/$/, '')}/${product.slug}`
+                : undefined)
+            return (
+              <ProductCard
+                key={`${product.name}-${index}`}
+                product={product}
+                showPrices={showPrices}
+                whatsappPhone={whatsappPhone}
+                orderButtonText={resolvedOrderButton}
+                orderMessageTemplate={resolvedOrderTemplate}
+                emailAddress={emailAddress}
+                index={index}
+                labels={labels}
+                unavailableText={unavailableText}
+                detailHref={detailHref}
+              />
+            )
+          })}
         </div>
 
         {filteredProducts.length === 0 && (

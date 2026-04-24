@@ -33,24 +33,14 @@
       "content": "home.process"
     },
     {
-      "id": "trust-signals",
-      "variant": "credentials",
-      "content": "home.trustSignals"
-    },
-    {
-      "id": "gallery",
-      "variant": "grid",
-      "content": "home.gallery"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
     },
     {
-      "id": "promo-banner",
-      "variant": "carousel",
-      "content": "home.promoBanner"
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
     }
   ]
 }
