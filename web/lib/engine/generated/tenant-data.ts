@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=237, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5136,7 +5136,6 @@ export const SITES: Record<string, JsonRecord> = {
       "terminos",
       "privacidad",
       "promo-cartagena",
-      "quiz",
       "cambio",
       "combos",
       "producto/titanium",
@@ -14910,48 +14909,6 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "promo-cartagena",
     "titleKey": "home.promo-cartagena.title"
-  },
-  "superspuma:quiz": {
-    "descriptionKey": "quiz.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "quiz.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "quiz.quiz",
-        "id": "mattress-quiz",
-        "variant": "default"
-      },
-      {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      }
-    ],
-    "slug": "quiz",
-    "titleKey": "quiz.seo.title"
   },
   "superspuma:terminos": {
     "descriptionKey": "terminos.seo.description",
@@ -36931,7 +36888,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10% combo",
           "Entrega coordinada",
           "18 cuotas sin interés"
-        ]
+        ],
+        "trustBadgesEnabled": false
       },
       "seo": {
         "description": "Combos de colchón + sommier + almohadas + protector con descuento. Configurá el tuyo por WhatsApp.",
@@ -37104,7 +37062,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Cotización en el día",
           "Retiro sin costo",
           "Crédito sobre tu nuevo colchón"
-        ]
+        ],
+        "trustBadgesEnabled": false
       },
       "howItWorks": {
         "eyebrow": "Cómo funciona",
@@ -37141,7 +37100,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Entregá tu colchón viejo y llevate uno nuevo con crédito. Cotización rápida por WhatsApp, retiro sin costo al momento de la entrega.",
         "title": "Cambio de colchón — Superspuma"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "envios": {
       "faq": {
@@ -37187,7 +37147,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "headline": "Envíos a todo el Paraguay",
-        "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón."
+        "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
+        "trustBadgesEnabled": false
       },
       "process": {
         "eyebrow": "Cómo funciona",
@@ -37263,6 +37224,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Lo que incluye tu envío"
       },
+      "trustBadgesEnabled": false,
       "zones": {
         "subtitle": "Los costos exactos se confirman al coordinar el pedido por WhatsApp. Envío gratis aplica sobre compras desde Gs. 1.000.000.",
         "tiers": [
@@ -37386,7 +37348,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "headline": "Pagá tu colchón como te convenga",
-        "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione."
+        "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione.",
+        "trustBadgesEnabled": false
       },
       "options": {
         "eyebrow": "Opciones de pago",
@@ -37509,7 +37472,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Lo que ofrecemos"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "footer": {
       "address": "Ruta Ypané - Villeta y Arroyo Avay",
@@ -37606,12 +37570,14 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "headline": "Respaldo de fábrica paraguaya",
-        "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo."
+        "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo.",
+        "trustBadgesEnabled": false
       },
       "seo": {
         "description": "Conocé los plazos y condiciones de la garantía Superspuma. Cubre defectos de fábrica y cambio o reparación sin costo.",
         "title": "Garantía Superspuma — 2 a 6 años por modelo"
       },
+      "trustBadgesEnabled": false,
       "warrantyByModel": {
         "subtitle": "Plazos exactos según el modelo que elijas. Todos los colchones incluyen certificado de garantía activable en cualquiera de nuestras tiendas.",
         "tiers": [
@@ -37734,6 +37700,52 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "5 hábitos simples que alargan la vida útil de tu colchón.",
         "title": "Cuidados para que tu colchón dure más"
       },
+      "comparisonTable": {
+        "columns": [
+          "Característica",
+          "Espuma",
+          "Resorte"
+        ],
+        "rows": [
+          [
+            "Firmeza",
+            "Adaptable al cuerpo",
+            "Más firme y estable"
+          ],
+          [
+            "Disipación de calor",
+            "Retiene más calor",
+            "Circula mejor el aire"
+          ],
+          [
+            "Ruido al moverse",
+            "Silencioso",
+            "Puede sonar con el tiempo"
+          ],
+          [
+            "Vida útil",
+            "6-8 años",
+            "8-10 años"
+          ],
+          [
+            "Mejor para",
+            "Lumbalgia, dormir de costado",
+            "Dormir boca arriba, más de 80 kg"
+          ],
+          [
+            "Precio base",
+            "Desde Gs. 500.000",
+            "Desde Gs. 1.480.000"
+          ],
+          [
+            "Mantenimiento",
+            "No necesita rotación",
+            "Rotar cada 3 meses"
+          ]
+        ],
+        "subtitle": "Resumen honesto de cada uno.",
+        "title": "Espuma vs Resorte — ¿cuál elegir?"
+      },
       "firmnessGuide": {
         "subtitle": "Elegí según tu peso y posición preferida al dormir.",
         "tiers": [
@@ -37793,7 +37805,34 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "hero": {
         "headline": "Elegí bien, dormí mejor",
-        "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros."
+        "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
+        "trustBadgesEnabled": false
+      },
+      "lifeCalculator": {
+        "rules": [
+          {
+            "ageYears": 10,
+            "message": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
+            "severity": "high"
+          },
+          {
+            "ageYears": 8,
+            "message": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
+            "severity": "medium"
+          },
+          {
+            "ageYears": 5,
+            "message": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin.",
+            "severity": "low"
+          },
+          {
+            "ageYears": 0,
+            "message": "Relájate. Tu colchón está en sus mejores años.",
+            "severity": "ok"
+          }
+        ],
+        "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
+        "title": "¿Tu colchón ya cumplió?"
       },
       "seo": {
         "description": "Todo lo que tenés que saber para elegir el colchón correcto: medidas estándar paraguayas, niveles de firmeza, diferencias entre espuma y resorte, cuidado y duración.",
@@ -37839,7 +37878,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "subtitle": "Todas las medidas son ancho × largo. Alto varía por modelo (15 a 40 cm).",
         "title": "Medidas estándar en Paraguay"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "home": {
       "contact": {
@@ -37998,12 +38038,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
         "ctaSecondaryText": "Consultar por WhatsApp",
         "headline": "Dormir mejor empieza por un Superspuma",
-        "subheadline": "Fábrica paraguaya de colchones y sommiers desde 1976. Envío a todo el país, garantía de fábrica y hasta 18 cuotas sin interés.",
+        "subheadline": "Fábrica paraguaya desde 1976. 18 cuotas sin interés. Envío a todo el país.",
         "trustBadges": [
-          "Fabricación paraguaya",
-          "49 años",
-          "Envío nacional"
-        ]
+          "49 años en Paraguay",
+          "7 tiendas + 6 centros",
+          "Garantía 2-6 años"
+        ],
+        "trustBadgesEnabled": true
       },
       "process": {
         "eyebrow": "Cómo comprar",
@@ -38374,7 +38415,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "testimonials": {
         "columns": 3,
-        "subtitle": "Historias reales de nuestra comunidad.",
+        "items": [],
+        "subtitle": "Reviews reales de compradores. Ver todos en Google Maps de cada tienda.",
         "testimonials": [
           {
             "author": "Rosa M.",
@@ -38413,7 +38455,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "role": "Asunción"
           }
         ],
-        "title": "Clientes que duermen mejor"
+        "title": "Lo que dice Google"
       },
       "trustBadges": {
         "items": [
@@ -38496,10 +38538,6 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Catálogo"
         },
         {
-          "href": "/s/es/superspuma/quiz",
-          "label": "¿Qué necesitás?"
-        },
-        {
           "href": "/s/es/superspuma/combos",
           "label": "Combos"
         },
@@ -38536,7 +38574,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     "nosotros": {
       "hero": {
         "headline": "49 años haciendo dormir al Paraguay",
-        "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar."
+        "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar.",
+        "trustBadgesEnabled": false
       },
       "seo": {
         "description": "Conocé la historia de Superspuma: casi 50 años fabricando colchones en Villeta, Paraguay.",
@@ -38552,6 +38591,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Nuestra historia"
       },
+      "trustBadgesEnabled": false,
       "values": {
         "items": [
           {
@@ -38581,7 +38621,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     "privacidad": {
       "hero": {
         "headline": "Política de Privacidad",
-        "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026."
+        "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026.",
+        "trustBadgesEnabled": false
       },
       "policy": {
         "business": {
@@ -38667,7 +38708,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cómo recolectamos, usamos y protegemos tus datos personales cuando comprás o consultás en Superspuma.",
         "title": "Política de Privacidad — Superspuma"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "producto": {
       "almohada-superspuma": {
@@ -41083,6 +41125,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         }
       }
     },
+    "promoCartagena": {
+      "hero": {
+        "headline": "Ganá un viaje a Cartagena 2026",
+        "subheadline": "Comprá cualquier Superspuma en 2026 y entrás al sorteo. 1 viaje para 2 + 5 sommiers Harmony.",
+        "trustBadgesEnabled": false
+      },
+      "legal": {
+        "dates": "Válido del 01/01/2026 al 31/12/2026",
+        "documentsHref": "/s/es/superspuma/terminos#promo-cartagena",
+        "draw": "Sorteo ante escribano público el 15 de enero de 2027. Ganadores notificados por email y WhatsApp dentro de las 48 hs.",
+        "eligibility": "Abierto a residentes en Paraguay, mayores de 18 años, con factura Superspuma a su nombre emitida dentro del período de vigencia.",
+        "exclusions": "No participan empleados de Superspuma ni de sus empresas asociadas.",
+        "notes": "El premio no es canjeable por dinero. Impuestos locales en el destino a cargo del ganador. Plazo para reclamar: 30 días desde la notificación.",
+        "prize": "Viaje para 2 personas a Cartagena, Colombia (5 días / 4 noches, vuelo + hotel 4 estrellas) + sorteo de 5 sommiers Harmony entre los no ganadores del primer premio.",
+        "responsable": "Superspuma del Paraguay S.A.E.C.A. — RUC 30-70136627-8.",
+        "title": "Bases y condiciones"
+      }
+    },
     "quiz": {
       "hero": {
         "ctaPrimaryHref": "#quiz",
@@ -41095,7 +41155,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "6 preguntas",
           "2 minutos",
           "Recomendación personalizada"
-        ]
+        ],
+        "trustBadgesEnabled": false
       },
       "quiz": {
         "eyebrow": "Recomendador",
@@ -41521,7 +41582,8 @@ export const CONTENT: Record<string, JsonRecord> = {
     "terminos": {
       "hero": {
         "headline": "Términos y condiciones",
-        "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026."
+        "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026.",
+        "trustBadgesEnabled": false
       },
       "seo": {
         "description": "Condiciones de uso del sitio web y de las compras realizadas a Superspuma del Paraguay S.A.E.C.A.",
@@ -41540,19 +41602,9 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Quién es Superspuma?"
           },
           {
-            "answer": "El uso de este sitio web o la realización de una compra implica la aceptación plena de estos términos y condiciones. Si no estás de acuerdo con alguno, por favor no utilices el sitio ni realices compras.",
-            "category": "2. Aceptación",
-            "question": "¿Qué implica usar este sitio?"
-          },
-          {
             "answer": "Los precios están expresados en guaraníes (Gs.) e incluyen IVA. Pueden variar sin previo aviso. El precio aplicable es el vigente al momento de confirmar tu pedido por WhatsApp, tienda o canal oficial. Los precios marcados como 'desde' corresponden a la medida más pequeña disponible del modelo.",
             "category": "3. Precios",
             "question": "¿Los precios publicados son finales?"
-          },
-          {
-            "answer": "Indicamos disponibilidad al confirmar el pedido. Si un modelo no está en stock, lo fabricamos a pedido con un plazo de 3 a 5 días hábiles adicionales. Nos reservamos el derecho de cancelar pedidos en casos excepcionales de error de precio o indisponibilidad prolongada, reembolsando cualquier pago recibido.",
-            "category": "4. Disponibilidad",
-            "question": "¿Qué pasa si el producto no está en stock?"
           },
           {
             "answer": "Aceptamos: tarjetas de crédito (Visa, Mastercard, Credicard, Cabal, Pánal) en cuotas sin interés de 4, 6, 12, 15 ó 18 según banco emisor; tarjeta de débito; transferencia bancaria (con descuento adicional); efectivo en tienda. Los pagos con tarjeta son procesados por Bancard S.A.",
@@ -41575,54 +41627,26 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Puedo devolver o cambiar un colchón?"
           },
           {
-            "answer": "Sí, sin costo adicional, el mismo día de la entrega del nuevo. El colchón retirado se dispone conforme a nuestro programa de gestión responsable de residuos. No retiramos colchones con presencia de fluidos, agentes biológicos de riesgo, o en estado que implique riesgo sanitario para nuestros operarios.",
-            "category": "9. Retiro del viejo",
-            "question": "¿Se llevan mi colchón viejo?"
-          },
-          {
             "answer": "Los datos personales que nos entregás (nombre, teléfono, dirección, email) se usan exclusivamente para procesar tu compra, coordinar la entrega y contactos post-venta asociados a la garantía. Ver nuestra Política de Privacidad para detalles. Cumplimos con la Ley N° 6534/20 de Protección de Datos Personales y demás normativa paraguaya aplicable.",
             "category": "10. Datos personales",
             "question": "¿Cómo usan mis datos?"
           },
           {
-            "answer": "Las promociones (descuentos, cuotas, retiros de viejo) no son acumulables entre sí salvo indicación expresa. Cada promoción tiene su propia vigencia, condiciones y stock limitado. Nos reservamos el derecho de finalizar una promoción anticipadamente.",
-            "category": "11. Promociones",
-            "question": "¿Las promociones son acumulables?"
-          },
-          {
-            "answer": "Las marcas 'Superspuma', los nombres de modelos (Titanium, Imperial, Harmony, etc.), imágenes y textos son propiedad de Superspuma del Paraguay S.A.E.C.A. No está permitido reproducirlos con fines comerciales sin autorización escrita. Para uso editorial o periodístico escribinos a info@superspuma.com.py.",
-            "category": "12. Propiedad intelectual",
-            "question": "¿Puedo usar las imágenes o textos del sitio?"
-          },
-          {
-            "answer": "Superspuma responde por la calidad del producto dentro de los plazos de garantía. No respondemos por daños indirectos derivados del uso del colchón (pérdida de sueño, condiciones médicas preexistentes, daños a otros bienes). Ante falla cubierta por garantía, reparamos o reemplazamos sin costo al cliente.",
-            "category": "13. Responsabilidad",
-            "question": "¿Cuál es el alcance de su responsabilidad?"
-          },
-          {
-            "answer": "Sí. Podemos actualizar estos términos en cualquier momento publicando la nueva versión en esta página. Los cambios aplican a compras realizadas posterior a la actualización. Recomendamos revisar periódicamente.",
-            "category": "14. Modificaciones",
-            "question": "¿Pueden cambiar estos términos?"
-          },
-          {
             "answer": "Estos términos se rigen por las leyes de la República del Paraguay. Cualquier controversia será resuelta por los tribunales ordinarios con competencia en la ciudad de Asunción, renunciando a cualquier otro fuero que pudiera corresponder.",
             "category": "15. Jurisdicción",
             "question": "¿Qué ley rige y dónde se resuelven conflictos?"
-          },
-          {
-            "answer": "Antes de cualquier acción legal te pedimos intentar resolución amistosa contactándonos por info@superspuma.com.py o WhatsApp +595 974 202 025. Respondemos todos los reclamos dentro de las 48 hs hábiles.",
-            "category": "16. Contacto",
-            "question": "¿Cómo los contacto ante una disputa?"
           }
         ],
         "subtitle": "Leé con atención. Si tenés dudas escribinos por WhatsApp antes de completar tu compra.",
         "title": "Términos y condiciones de uso y compra"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "tiendas": {
       "hero": {
         "headline": "Nuestras tiendas",
-        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país."
+        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país.",
+        "trustBadgesEnabled": false
       },
       "logistics": {
         "subtitle": "Cobertura en todo el país. Retirá en cualquiera de nuestros puntos regionales o coordiná envío desde el más cercano a tu ciudad.",
@@ -41799,7 +41823,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Tiendas y puntos de venta"
-      }
+      },
+      "trustBadgesEnabled": false
     },
     "whatsapp": {
       "defaultMessage": "Hola! Quiero consultar por un colchón Superspuma.",
