@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.estetica.py"
+    "whatsapp": "+595984345678",
+    "email": "info@esteticaluque.com.py",
+    "instagram": "@estetica.luque.py",
+    "phone": "+595984345678"
   },
   "location": {
-    "city": "Luque"
+    "city": "Luque",
+    "address": "Av. Gral. Aquino 890"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-estetica",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-estetica"
 }

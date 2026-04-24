@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.contador.py"
+    "whatsapp": "+595981234567",
+    "email": "estudio@contadorespy.com.py",
+    "instagram": "@contador.asuncion.py",
+    "phone": "+595981234567"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Asunción",
+    "address": "Eusebio Ayala 2345"
   },
   "integrations": {
     "crm": "hubspot",
@@ -26,9 +28,11 @@
   "demo": true,
   "demoRubro": "contador",
   "demoWave": 2,
-  "demoCluster": "D Lead-gen",
+  "demoCluster": "B B2B",
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-contador",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-contador"
 }

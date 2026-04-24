@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.consultora.ti.py"
+    "whatsapp": "+595987654321",
+    "email": "ventas@tisoluciones.com.py",
+    "instagram": "@consultora.ti.cde.py",
+    "phone": "+595987654321"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Ciudad del Este",
+    "address": "Av. Adrián Jara 567"
   },
   "integrations": {
     "crm": "hubspot",
@@ -26,9 +28,11 @@
   "demo": true,
   "demoRubro": "consultora_ti",
   "demoWave": 2,
-  "demoCluster": "D Lead-gen",
+  "demoCluster": "B B2B",
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-consultora-ti",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-ti"
 }

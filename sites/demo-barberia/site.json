@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.barberia.py"
+    "whatsapp": "+595985123456",
+    "email": "info@barberiasanlorenzo.com.py",
+    "instagram": "@barberia.sanlorenzo.py",
+    "phone": "+595985123456"
   },
   "location": {
-    "city": "Lambare"
+    "city": "San Lorenzo",
+    "address": "Av. Defensores del Chaco 1450"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-barberia",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-barberia"
 }

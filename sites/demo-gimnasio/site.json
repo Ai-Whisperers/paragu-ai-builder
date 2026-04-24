@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.gimnasio.py"
+    "whatsapp": "+595983789012",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "+595983789012"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Fernando de la Mora",
+    "address": "Ruta 2 y Av. Mcal. López Km 8"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-gimnasio",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-gimnasio"
 }

@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.peluqueria.py"
+    "whatsapp": "+595981654321",
+    "email": "contacto@peluqueriacentro.com.py",
+    "instagram": "@peluqueria.centro.py",
+    "phone": "+595981654321"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Asunción",
+    "address": "Palma 550 c/ 15 de Agosto"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-peluqueria",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-peluqueria"
 }
