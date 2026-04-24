@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.farmacia.py"
+    "whatsapp": "+595987890123",
+    "email": "pedidos@farmaciaencarnacion.com.py",
+    "instagram": "@farmacia.encarnacion.py",
+    "phone": "+595987890123"
   },
   "location": {
-    "city": "Encarnacion"
+    "city": "Encarnación",
+    "address": "Av. Caballero 345"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-farmacia",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-farmacia"
 }

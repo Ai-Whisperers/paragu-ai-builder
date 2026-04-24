@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.consultora.rrhh.py"
+    "whatsapp": "+595981567890",
+    "email": "info@rrhhconsultora.com.py",
+    "instagram": "@consultora.rrhh.py",
+    "phone": "+595981567890"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Asunción",
+    "address": "Av. España 1234"
   },
   "integrations": {
     "crm": "hubspot",
@@ -26,9 +28,11 @@
   "demo": true,
   "demoRubro": "consultora_rrhh",
   "demoWave": 2,
-  "demoCluster": "D Lead-gen",
+  "demoCluster": "B B2B",
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-consultora-rrhh",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-rrhh"
 }

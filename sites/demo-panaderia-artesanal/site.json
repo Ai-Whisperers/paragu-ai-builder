@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.artisan.bakery.py"
+    "whatsapp": "+595988567890",
+    "email": "pedidos@panaderiacapiata.com.py",
+    "instagram": "@panaderia.capiata.py",
+    "phone": "+595988567890"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Capiatá",
+    "address": "Ruta 1 Km 23, Barrio Centro"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-panaderia-artesanal",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-panaderia-artesanal"
 }

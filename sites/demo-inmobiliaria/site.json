@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.inmobiliaria.py"
+    "whatsapp": "+595981890123",
+    "email": "info@inmobiliariapy.com.py",
+    "instagram": "@inmobiliaria.asuncion.py",
+    "phone": "+595981890123"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "Asunción",
+    "address": "Av. Mcal. López 3456"
   },
   "integrations": {
     "crm": "hubspot",
@@ -26,9 +28,11 @@
   "demo": true,
   "demoRubro": "inmobiliaria",
   "demoWave": 3,
-  "demoCluster": "D Lead-gen",
+  "demoCluster": "D Property",
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-inmobiliaria",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-inmobiliaria"
 }

@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.hamburgueseria.py"
+    "whatsapp": "+595981456789",
+    "email": "pedidos@hamburgueseriapy.com.py",
+    "instagram": "@hamburgueseria.py",
+    "phone": "+595981456789"
   },
   "location": {
-    "city": "Fernando de la Mora"
+    "city": "Asunción",
+    "address": "Av. Santísimo Sacramento 123"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-hamburgueseria",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-hamburgueseria"
 }

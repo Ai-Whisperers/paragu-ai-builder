@@ -7,12 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.veterinaria.py"
+    "whatsapp": "+595985456789",
+    "email": "contacto@veterinariasanlorenzo.com.py",
+    "instagram": "@veterinaria.sanlorenzo.py",
+    "phone": "+595985456789"
   },
   "location": {
-    "city": "Asuncion"
+    "city": "San Lorenzo",
+    "address": "Ruta 2 Km 12, Barrio San Isidro"
   },
   "integrations": {
     "crm": "hubspot",
@@ -30,5 +32,7 @@
   "noindex": true,
   "createdAt": "2026-04-21",
   "source": "batch-create-demos",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-veterinaria",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-veterinaria"
 }
