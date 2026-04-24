@@ -42,15 +42,31 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
-  # ─────────────────────────────────────────────────────────────────────
-  # 2. Tenant-config validation — catches bad page JSON / content refs /
-  #    missing locale content before a runtime error bites a tenant.
-  # ─────────────────────────────────────────────────────────────────────
-  validate:
-    name: Validate Tenant Configs
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    needs: lint-typecheck
+   # ─────────────────────────────────────────────────────────────────────
+   #2. Schema validation — ensures every registry entry has a schema
+   # ─────────────────────────────────────────────────────────────────────
+   validate-schemas:
+     name: Validate Schemas
+     runs-on: ubuntu-latest
+     timeout-minutes: 5
+     needs: lint-typecheck
+     defaults:
+       run:
+         working-directory: ./
+     steps:
+       - uses: actions/checkout@v4
+       - name: Validate registry has schemas
+         run: npm run validate:schemas
+
+   # ─────────────────────────────────────────────────────────────────────
+   #3. Tenant-config validation — catches bad page JSON / content refs /
+   #    missing locale content before a runtime error bites a tenant.
+   # ─────────────────────────────────────────────────────────────────────
+   validate:
+     name: Validate Tenant Configs
+     runs-on: ubuntu-latest
+     timeout-minutes: 10
+     needs: [lint-typecheck, validate-schemas]
     defaults:
       run:
         working-directory: web
