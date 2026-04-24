@@ -4,11 +4,6 @@
   "descriptionKey": "home.seo.description",
   "sections": [
     {
-      "id": "header",
-      "variant": "standard",
-      "content": "navigation"
-    },
-    {
       "id": "hero",
       "variant": "image",
       "content": "home.hero"
@@ -53,29 +48,9 @@
       "content": "home.testimonials"
     },
     {
-      "id": "enhanced-faq",
-      "variant": "searchable",
-      "content": "home.enhancedFaq"
-    },
-    {
       "id": "promo-banner",
       "variant": "carousel",
       "content": "home.promoBanner"
-    },
-    {
-      "id": "contact",
-      "variant": "split",
-      "content": "home.contact"
-    },
-    {
-      "id": "whatsapp-float",
-      "variant": "standard",
-      "content": "whatsapp"
-    },
-    {
-      "id": "footer",
-      "variant": "standard",
-      "content": "footer"
     }
   ]
 }

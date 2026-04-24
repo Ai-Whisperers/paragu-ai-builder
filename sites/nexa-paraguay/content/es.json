@@ -459,7 +459,8 @@
     "cta": {
       "title": "¿Listo para elegir su programa?",
       "buttonText": "Agendar consulta gratuita",
-      "buttonHref": "/s/es/nexa-paraguay/contacto"
+      "buttonHref": "/s/es/nexa-paraguay/contacto",
+      "subtitle": "Agendá una consulta gratuita y revisamos tu caso sin compromiso."
     },
     "testimonials": {
       "eyebrow": "Testimonios",

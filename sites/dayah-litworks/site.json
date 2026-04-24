@@ -5,7 +5,10 @@
   "domain": "dayah-litworks.com",
   "stagingDomain": "staging.dayah-litworks.com",
   "defaultLocale": "es",
-  "locales": ["es", "en"],
+  "locales": [
+    "es",
+    "en"
+  ],
   "contact": {
     "email": "dayahlitworks@gmail.com",
     "whatsapp": "+595986868241",
@@ -31,5 +34,29 @@
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
   "migratedAt": "2026-04-20",
-  "is_demo": false
+  "is_demo": false,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "contact",
+        "variant": "split",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  }
 }

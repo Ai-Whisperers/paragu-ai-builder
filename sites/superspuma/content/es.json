@@ -2868,6 +2868,10 @@
       {
         "label": "Nosotros",
         "href": "/s/es/superspuma/nosotros"
+      },
+      {
+        "label": "Preguntas",
+        "href": "/s/es/superspuma/faq"
       }
     ],
     "logoUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/superspumalogo.svg"
@@ -5434,6 +5438,17 @@
           "description": "Todos los sorteos y premios requieren la factura a nombre del comprador para validar la participación."
         }
       ]
+    }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas frecuentes — Superspuma",
+      "description": "Todas las preguntas sobre colchones, garantía, envíos, financiación y cuidados — buscables en un solo lugar."
+    },
+    "hero": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Todo lo que los clientes consultan antes de comprar — en un solo lugar, buscable.",
+      "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
     }
   }
 }

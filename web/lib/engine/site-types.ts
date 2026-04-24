@@ -52,6 +52,22 @@ export interface SiteDefinition {
   hours?: Record<string, string>
   social?: Record<string, string>
   bookingUrl?: string
+  /**
+   * Optional "chrome" sections that wrap every page automatically — lets
+   * tenant site configs declare header/contact/whatsapp-float/footer once
+   * instead of copy-pasting the same 4 sections into every page JSON.
+   *
+   * Semantics: `chrome.header` (if set) is prepended to the page's
+   * sections unless the page already contains a section with that id.
+   * Each entry in `chrome.footer` is appended under the same rule — if
+   * the page already declared that id explicitly, the explicit one wins
+   * and the default is skipped. Pages that want to opt out entirely set
+   * `skipDefaults: ["contact", "whatsapp-float"]` etc.
+   */
+  chrome?: {
+    header?: PageSection
+    footer?: PageSection[]
+  }
 }
 
 export interface PageSection {
@@ -74,6 +90,13 @@ export interface PageDefinition {
    * via a paid attribution click, never via Google.
    */
   hiddenFromSitemap?: boolean
+  /**
+   * Section ids from the site's `chrome` defaults that this page wants
+   * to skip. Use for pages that genuinely shouldn't render a given
+   * chrome section (e.g. `/promo-cartagena` is a paid-ad landing with
+   * no footer contact block: `"skipDefaults": ["contact"]`).
+   */
+  skipDefaults?: string[]
 }
 
 export interface VerticalDefinition {

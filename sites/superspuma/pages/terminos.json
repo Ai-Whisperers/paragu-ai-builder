@@ -3,11 +3,15 @@
   "titleKey": "terminos.seo.title",
   "descriptionKey": "terminos.seo.description",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "image", "content": "terminos.hero" },
-    { "id": "enhanced-faq", "variant": "searchable", "content": "terminos.terms" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
-    { "id": "footer", "variant": "standard", "content": "footer" }
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "terminos.hero"
+    },
+    {
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "terminos.terms"
+    }
   ]
 }
