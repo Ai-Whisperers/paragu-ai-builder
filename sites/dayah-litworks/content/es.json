@@ -479,7 +479,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Fantasía/Romance",
           "category": "Fantasía",
-          "imageUrl": "",
+          "imageUrl": "/images/dayah/covers/susurros-del-bosque.svg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -496,7 +496,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Romance Oscuro",
           "category": "Romance",
-          "imageUrl": "",
+          "imageUrl": "/images/dayah/covers/corazon-de-cenizas.svg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -513,7 +513,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Thriller/Suspenso",
           "category": "Thriller",
-          "imageUrl": "",
+          "imageUrl": "/images/dayah/covers/el-ultimo-codigo.svg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -530,7 +530,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Ciencia Ficción",
           "category": "Ciencia Ficción",
-          "imageUrl": "",
+          "imageUrl": "/images/dayah/covers/galaxia-interior.svg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -547,7 +547,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Terror/Horror",
           "category": "Terror",
-          "imageUrl": "",
+          "imageUrl": "/images/dayah/covers/sombras-en-el-espejo.svg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -564,7 +564,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Fantasía Juvenil",
           "category": "Fantasía",
-          "imageUrl": "",
+          "imageUrl": "/images/dayah/covers/alas-de-cristal.svg",
           "available": true,
           "format": "eBook",
           "includes": [

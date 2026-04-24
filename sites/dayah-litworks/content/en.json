@@ -735,7 +735,15 @@
       ],
       "trustBadgesEnabled": false
     },
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "nda": {
+      "title": "NDA-protected work",
+      "subtitle": "I respect every project's confidentiality. Message me and I'll share real samples privately.",
+      "src": "/images/dayah/portfolio-nda.svg",
+      "alt": "Redacted sample of Dayah LitWorks portfolio",
+      "background": "surface",
+      "maxWidth": 1000
+    }
   },
   "blog": {
     "seo": {

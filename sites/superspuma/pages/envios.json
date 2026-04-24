@@ -7,6 +7,7 @@
     { "id": "hero", "variant": "image", "content": "envios.hero" },
     { "id": "trust-badges", "variant": "strip", "content": "envios.trustBadges" },
     { "id": "programs-comparison", "variant": "tiered", "content": "envios.zones" },
+    { "id": "illustration", "variant": "standard", "content": "envios.map" },
     { "id": "process-timeline", "variant": "horizontal", "content": "envios.process" },
     { "id": "enhanced-faq", "variant": "searchable", "content": "envios.faq" },
     { "id": "contact", "variant": "split", "content": "home.contact" },

@@ -17,6 +17,7 @@ import { CommerceCatalogSection } from '@/components/sections/commerce-catalog-s
 import { AgeGateSection } from '@/components/sections/age-gate-section'
 import { TrustBadgesSection } from '@/components/sections/trust-badges-section'
 import { GallerySection } from '@/components/sections/gallery-section'
+import { IllustrationSection } from '@/components/sections/illustration-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
 import { ContactSection } from '@/components/sections/contact-section'
@@ -89,6 +90,7 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'age-gate': AgeGateSection,
   'trust-badges': TrustBadgesSection,
   gallery: GallerySection,
+  illustration: IllustrationSection,
   team: TeamSection,
   testimonials: TestimonialsSection,
   contact: ContactSection,
