@@ -1,0 +1,47 @@
+{
+  "slug": "promociones",
+  "titleKey": "promociones.seo.title",
+  "descriptionKey": "promociones.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "promociones.hero"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.activePromos"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "promociones.active"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "promociones.terms"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}
