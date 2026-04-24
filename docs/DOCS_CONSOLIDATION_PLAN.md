@@ -1,5 +1,6 @@
 # Docs Consolidation Plan
 
+> **STATUS: EXECUTED (BATCH 0 complete - April 2026)**
 An inventory of all 141 markdown files in the repo (April 2026 audit) with a proposed target location under the [Diataxis](https://diataxis.fr/) hierarchy described in [`docs/README.md`](./README.md).
 
 **This is a plan, not the execution.** Nothing moves until a follow-up PR implements each section below. The plan lives in the repo so the migration can be completed incrementally without losing track.
