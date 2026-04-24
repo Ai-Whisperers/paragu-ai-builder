@@ -34,16 +34,17 @@
     },
     "hero": {
       "headline": "Dormir mejor empieza por un Superspuma",
-      "subheadline": "Fábrica paraguaya de colchones y sommiers desde 1976. Envío a todo el país, garantía de fábrica y hasta 18 cuotas sin interés.",
+      "subheadline": "Fábrica paraguaya desde 1976. 18 cuotas sin interés. Envío a todo el país.",
       "ctaPrimaryText": "Ver colchones",
       "ctaPrimaryHref": "#catalogo",
       "ctaSecondaryText": "Consultar por WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
       "trustBadges": [
-        "Fabricación paraguaya",
-        "49 años",
-        "Envío nacional"
-      ]
+        "49 años en Paraguay",
+        "7 tiendas + 6 centros",
+        "Garantía 2-6 años"
+      ],
+      "trustBadgesEnabled": true
     },
     "trustBadges": {
       "title": "Por qué elegir Superspuma",
@@ -415,8 +416,8 @@
       ]
     },
     "testimonials": {
-      "title": "Clientes que duermen mejor",
-      "subtitle": "Historias reales de nuestra comunidad.",
+      "title": "Lo que dice Google",
+      "subtitle": "Reviews reales de compradores. Ver todos en Google Maps de cada tienda.",
       "columns": 3,
       "testimonials": [
         {
@@ -455,7 +456,8 @@
           "role": "Asunción",
           "rating": 5
         }
-      ]
+      ],
+      "items": []
     },
     "enhancedFaq": {
       "title": "Preguntas frecuentes",
@@ -675,7 +677,8 @@
     },
     "hero": {
       "headline": "49 años haciendo dormir al Paraguay",
-      "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar."
+      "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar.",
+      "trustBadgesEnabled": false
     },
     "story": {
       "title": "Nuestra historia",
@@ -711,7 +714,8 @@
           "description": "Cuotas sin interés en todas las tarjetas. Descuentos por transferencia. Promociones por temporada. Descansar bien no debería ser un lujo."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "tiendas": {
     "seo": {
@@ -720,7 +724,8 @@
     },
     "hero": {
       "headline": "Nuestras tiendas",
-      "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país."
+      "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país.",
+      "trustBadgesEnabled": false
     },
     "stores": {
       "title": "Tiendas y puntos de venta",
@@ -893,7 +898,8 @@
           "ctaHref": "https://www.google.com/maps/search/?api=1&query=Superspuma+Villeta+Planta+Industrial"
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "guias": {
     "seo": {
@@ -902,7 +908,8 @@
     },
     "hero": {
       "headline": "Elegí bien, dormí mejor",
-      "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros."
+      "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
+      "trustBadgesEnabled": false
     },
     "sizeGuide": {
       "title": "Medidas estándar en Paraguay",
@@ -1037,6 +1044,137 @@
           "icon": "AlertTriangle"
         }
       ]
+    },
+    "trustBadgesEnabled": false,
+    "comparisonTable": {
+      "title": "Espuma vs Resorte — ¿cuál elegir?",
+      "subtitle": "Resumen honesto de cada uno.",
+      "columns": [
+        "Característica",
+        "Espuma",
+        "Resorte"
+      ],
+      "rows": [
+        [
+          "Firmeza",
+          "Adaptable al cuerpo",
+          "Más firme y estable"
+        ],
+        [
+          "Disipación de calor",
+          "Retiene más calor",
+          "Circula mejor el aire"
+        ],
+        [
+          "Ruido al moverse",
+          "Silencioso",
+          "Puede sonar con el tiempo"
+        ],
+        [
+          "Vida útil",
+          "6-8 años",
+          "8-10 años"
+        ],
+        [
+          "Mejor para",
+          "Lumbalgia, dormir de costado",
+          "Dormir boca arriba, más de 80 kg"
+        ],
+        [
+          "Precio base",
+          "Desde Gs. 500.000",
+          "Desde Gs. 1.480.000"
+        ],
+        [
+          "Mantenimiento",
+          "No necesita rotación",
+          "Rotar cada 3 meses"
+        ]
+      ]
+    },
+    "lifeCalculator": {
+      "title": "¿Tu colchón ya cumplió?",
+      "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
+      "rules": [
+        {
+          "ageYears": 10,
+          "message": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
+          "severity": "high"
+        },
+        {
+          "ageYears": 8,
+          "message": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
+          "severity": "medium"
+        },
+        {
+          "ageYears": 5,
+          "message": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin.",
+          "severity": "low"
+        },
+        {
+          "ageYears": 0,
+          "message": "Relájate. Tu colchón está en sus mejores años.",
+          "severity": "ok"
+        }
+      ]
+    },
+    "comparisonBlock": {
+      "title": "Espuma vs Resorte — ¿cuál elegir?",
+      "subtitle": "Resumen honesto de cada uno.",
+      "features": [
+        {
+          "title": "Firmeza",
+          "description": "**Espuma:** Adaptable al cuerpo  ·  **Resorte:** Más firme y estable"
+        },
+        {
+          "title": "Disipación de calor",
+          "description": "**Espuma:** Retiene más calor  ·  **Resorte:** Circula mejor el aire"
+        },
+        {
+          "title": "Ruido al moverse",
+          "description": "**Espuma:** Silencioso  ·  **Resorte:** Puede sonar con el tiempo"
+        },
+        {
+          "title": "Vida útil",
+          "description": "**Espuma:** 6-8 años  ·  **Resorte:** 8-10 años"
+        },
+        {
+          "title": "Mejor para",
+          "description": "**Espuma:** Lumbalgia, dormir de costado  ·  **Resorte:** Dormir boca arriba, más de 80 kg"
+        },
+        {
+          "title": "Precio base",
+          "description": "**Espuma:** Desde Gs. 500.000  ·  **Resorte:** Desde Gs. 1.480.000"
+        },
+        {
+          "title": "Mantenimiento",
+          "description": "**Espuma:** No necesita rotación  ·  **Resorte:** Rotar cada 3 meses"
+        }
+      ]
+    },
+    "lifeCalcBlock": {
+      "title": "¿Tu colchón ya cumplió?",
+      "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
+      "features": [
+        {
+          "title": "10+ años",
+          "description": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
+          "href": "/s/es/superspuma/cambio"
+        },
+        {
+          "title": "8-10 años",
+          "description": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
+          "href": "/s/es/superspuma/cambio"
+        },
+        {
+          "title": "5-8 años",
+          "description": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin."
+        },
+        {
+          "title": "Menos de 5 años",
+          "description": "Relájate. Tu colchón está en sus mejores años."
+        }
+      ]
     }
   },
   "garantia": {
@@ -1046,7 +1184,8 @@
     },
     "hero": {
       "headline": "Respaldo de fábrica paraguaya",
-      "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo."
+      "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo.",
+      "trustBadgesEnabled": false
     },
     "coverage": {
       "title": "Qué cubre y qué no",
@@ -1165,7 +1304,8 @@
           "ctaHref": "/s/es/superspuma#catalogo"
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "envios": {
     "seo": {
@@ -1174,7 +1314,8 @@
     },
     "hero": {
       "headline": "Envíos a todo el Paraguay",
-      "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón."
+      "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
+      "trustBadgesEnabled": false
     },
     "trustBadges": {
       "title": "Lo que incluye tu envío",
@@ -1354,7 +1495,8 @@
           "answer": "Sí. Tenemos centro logístico en Filadelfia y hacemos consolidación semanal de cargas. Para Loma Plata, Neuland y zonas alejadas, el plazo es 5-10 días hábiles y el costo se cotiza según volumen y distancia."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "financiacion": {
     "seo": {
@@ -1363,7 +1505,8 @@
     },
     "hero": {
       "headline": "Pagá tu colchón como te convenga",
-      "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione."
+      "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione.",
+      "trustBadgesEnabled": false
     },
     "trustBadges": {
       "title": "Lo que ofrecemos",
@@ -1533,7 +1676,8 @@
           "answer": "Sí. Todos nuestros productos (colchones, sommiers, almohadas, protectores, base baúl) entran en el mismo plan de cuotas sin interés hasta 18 cuotas según tarjeta. El mínimo de compra para plan largo (15/18 cuotas) depende del banco emisor."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "terminos": {
     "seo": {
@@ -1542,7 +1686,8 @@
     },
     "hero": {
       "headline": "Términos y condiciones",
-      "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026."
+      "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026.",
+      "trustBadgesEnabled": false
     },
     "terms": {
       "title": "Términos y condiciones de uso y compra",
@@ -1559,19 +1704,9 @@
           "answer": "Superspuma del Paraguay S.A.E.C.A. — empresa paraguaya fundada el 24 de julio de 1976. RUC: 30-70136627-8. Domicilio: Ruta Ypané y Arroyo Avay, Villeta, Departamento Central, Paraguay. Email: info@superspuma.com.py · WhatsApp: +595 974 202 025 · Teléfono: +595 981 111 222."
         },
         {
-          "category": "2. Aceptación",
-          "question": "¿Qué implica usar este sitio?",
-          "answer": "El uso de este sitio web o la realización de una compra implica la aceptación plena de estos términos y condiciones. Si no estás de acuerdo con alguno, por favor no utilices el sitio ni realices compras."
-        },
-        {
           "category": "3. Precios",
           "question": "¿Los precios publicados son finales?",
           "answer": "Los precios están expresados en guaraníes (Gs.) e incluyen IVA. Pueden variar sin previo aviso. El precio aplicable es el vigente al momento de confirmar tu pedido por WhatsApp, tienda o canal oficial. Los precios marcados como 'desde' corresponden a la medida más pequeña disponible del modelo."
-        },
-        {
-          "category": "4. Disponibilidad",
-          "question": "¿Qué pasa si el producto no está en stock?",
-          "answer": "Indicamos disponibilidad al confirmar el pedido. Si un modelo no está en stock, lo fabricamos a pedido con un plazo de 3 a 5 días hábiles adicionales. Nos reservamos el derecho de cancelar pedidos en casos excepcionales de error de precio o indisponibilidad prolongada, reembolsando cualquier pago recibido."
         },
         {
           "category": "5. Pagos",
@@ -1594,47 +1729,18 @@
           "answer": "Por normativa sanitaria no aceptamos devoluciones de colchones usados, excepto por defecto de fábrica cubierto por garantía. Cambios por talle o modelo son posibles solo con el embalaje original sin abrir, dentro de los 7 días corridos desde la entrega. Costos de transporte del cambio corren por cuenta del cliente excepto cuando el cambio es por error nuestro."
         },
         {
-          "category": "9. Retiro del viejo",
-          "question": "¿Se llevan mi colchón viejo?",
-          "answer": "Sí, sin costo adicional, el mismo día de la entrega del nuevo. El colchón retirado se dispone conforme a nuestro programa de gestión responsable de residuos. No retiramos colchones con presencia de fluidos, agentes biológicos de riesgo, o en estado que implique riesgo sanitario para nuestros operarios."
-        },
-        {
           "category": "10. Datos personales",
           "question": "¿Cómo usan mis datos?",
           "answer": "Los datos personales que nos entregás (nombre, teléfono, dirección, email) se usan exclusivamente para procesar tu compra, coordinar la entrega y contactos post-venta asociados a la garantía. Ver nuestra Política de Privacidad para detalles. Cumplimos con la Ley N° 6534/20 de Protección de Datos Personales y demás normativa paraguaya aplicable."
         },
         {
-          "category": "11. Promociones",
-          "question": "¿Las promociones son acumulables?",
-          "answer": "Las promociones (descuentos, cuotas, retiros de viejo) no son acumulables entre sí salvo indicación expresa. Cada promoción tiene su propia vigencia, condiciones y stock limitado. Nos reservamos el derecho de finalizar una promoción anticipadamente."
-        },
-        {
-          "category": "12. Propiedad intelectual",
-          "question": "¿Puedo usar las imágenes o textos del sitio?",
-          "answer": "Las marcas 'Superspuma', los nombres de modelos (Titanium, Imperial, Harmony, etc.), imágenes y textos son propiedad de Superspuma del Paraguay S.A.E.C.A. No está permitido reproducirlos con fines comerciales sin autorización escrita. Para uso editorial o periodístico escribinos a info@superspuma.com.py."
-        },
-        {
-          "category": "13. Responsabilidad",
-          "question": "¿Cuál es el alcance de su responsabilidad?",
-          "answer": "Superspuma responde por la calidad del producto dentro de los plazos de garantía. No respondemos por daños indirectos derivados del uso del colchón (pérdida de sueño, condiciones médicas preexistentes, daños a otros bienes). Ante falla cubierta por garantía, reparamos o reemplazamos sin costo al cliente."
-        },
-        {
-          "category": "14. Modificaciones",
-          "question": "¿Pueden cambiar estos términos?",
-          "answer": "Sí. Podemos actualizar estos términos en cualquier momento publicando la nueva versión en esta página. Los cambios aplican a compras realizadas posterior a la actualización. Recomendamos revisar periódicamente."
-        },
-        {
           "category": "15. Jurisdicción",
           "question": "¿Qué ley rige y dónde se resuelven conflictos?",
           "answer": "Estos términos se rigen por las leyes de la República del Paraguay. Cualquier controversia será resuelta por los tribunales ordinarios con competencia en la ciudad de Asunción, renunciando a cualquier otro fuero que pudiera corresponder."
-        },
-        {
-          "category": "16. Contacto",
-          "question": "¿Cómo los contacto ante una disputa?",
-          "answer": "Antes de cualquier acción legal te pedimos intentar resolución amistosa contactándonos por info@superspuma.com.py o WhatsApp +595 974 202 025. Respondemos todos los reclamos dentro de las 48 hs hábiles."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "privacidad": {
     "seo": {
@@ -1643,7 +1749,8 @@
     },
     "hero": {
       "headline": "Política de Privacidad",
-      "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026."
+      "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026.",
+      "trustBadgesEnabled": false
     },
     "policy": {
       "title": "Cómo tratamos tus datos",
@@ -1725,7 +1832,8 @@
           "answer": "Primero: escribinos directamente a info@superspuma.com.py. Si no resolvemos a tu satisfacción, podés presentar reclamo ante la autoridad paraguaya competente de protección al consumidor (SEDECO) o de protección de datos personales según corresponda al caso."
         }
       ]
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "quiz": {
     "seo": {
@@ -1739,7 +1847,12 @@
       "ctaPrimaryHref": "#quiz",
       "ctaSecondaryText": "Ver todo el catálogo",
       "ctaSecondaryHref": "/s/es/superspuma#catalogo",
-      "trustBadges": ["6 preguntas", "2 minutos", "Recomendación personalizada"]
+      "trustBadges": [
+        "6 preguntas",
+        "2 minutos",
+        "Recomendación personalizada"
+      ],
+      "trustBadgesEnabled": false
     },
     "quiz": {
       "eyebrow": "Recomendador",
@@ -1754,30 +1867,136 @@
           "question": "¿Cuánto pesa la persona que va a usarlo?",
           "helperText": "Si es para dos, elegí el peso de la persona más pesada.",
           "options": [
-            { "value": "menos-60", "label": "Menos de 60 kg", "scores": { "luna-soft": 3, "super-kids": 2, "pop-kids": 2, "delta-soft": 2, "golden": 1 } },
-            { "value": "60-80", "label": "Entre 60 y 80 kg", "scores": { "harmony": 3, "serena": 2, "golden": 2, "serrat": 2, "essential-top": 2, "duo-confort": 1 } },
-            { "value": "80-100", "label": "Entre 80 y 100 kg", "scores": { "imperial": 3, "harmony": 2, "duo-confort": 2, "titanium": 2, "serena": 1 } },
-            { "value": "100-130", "label": "Entre 100 y 130 kg", "scores": { "titanium": 3, "imperial": 2, "ortopedico": 2, "duo-confort": 1 } },
-            { "value": "mas-130", "label": "Más de 130 kg", "scores": { "ortopedico": 5, "titanium": 1 } }
+            {
+              "value": "menos-60",
+              "label": "Menos de 60 kg",
+              "scores": {
+                "luna-soft": 3,
+                "super-kids": 2,
+                "pop-kids": 2,
+                "delta-soft": 2,
+                "golden": 1
+              }
+            },
+            {
+              "value": "60-80",
+              "label": "Entre 60 y 80 kg",
+              "scores": {
+                "harmony": 3,
+                "serena": 2,
+                "golden": 2,
+                "serrat": 2,
+                "essential-top": 2,
+                "duo-confort": 1
+              }
+            },
+            {
+              "value": "80-100",
+              "label": "Entre 80 y 100 kg",
+              "scores": {
+                "imperial": 3,
+                "harmony": 2,
+                "duo-confort": 2,
+                "titanium": 2,
+                "serena": 1
+              }
+            },
+            {
+              "value": "100-130",
+              "label": "Entre 100 y 130 kg",
+              "scores": {
+                "titanium": 3,
+                "imperial": 2,
+                "ortopedico": 2,
+                "duo-confort": 1
+              }
+            },
+            {
+              "value": "mas-130",
+              "label": "Más de 130 kg",
+              "scores": {
+                "ortopedico": 5,
+                "titanium": 1
+              }
+            }
           ]
         },
         {
           "id": "posicion",
           "question": "¿En qué posición dormís más?",
           "options": [
-            { "value": "costado", "label": "De costado", "scores": { "duo-confort": 3, "harmony": 2, "luna-soft": 2, "delta-soft": 1 } },
-            { "value": "espalda", "label": "Boca arriba", "scores": { "harmony": 2, "serena": 2, "imperial": 2, "titanium": 1 } },
-            { "value": "estomago", "label": "Boca abajo", "scores": { "titanium": 2, "imperial": 2, "ortopedico": 2, "serena": 1 } },
-            { "value": "mixto", "label": "Cambio de posición toda la noche", "scores": { "duo-confort": 3, "harmony": 2 } }
+            {
+              "value": "costado",
+              "label": "De costado",
+              "scores": {
+                "duo-confort": 3,
+                "harmony": 2,
+                "luna-soft": 2,
+                "delta-soft": 1
+              }
+            },
+            {
+              "value": "espalda",
+              "label": "Boca arriba",
+              "scores": {
+                "harmony": 2,
+                "serena": 2,
+                "imperial": 2,
+                "titanium": 1
+              }
+            },
+            {
+              "value": "estomago",
+              "label": "Boca abajo",
+              "scores": {
+                "titanium": 2,
+                "imperial": 2,
+                "ortopedico": 2,
+                "serena": 1
+              }
+            },
+            {
+              "value": "mixto",
+              "label": "Cambio de posición toda la noche",
+              "scores": {
+                "duo-confort": 3,
+                "harmony": 2
+              }
+            }
           ]
         },
         {
           "id": "columna",
           "question": "¿Tenés problemas de columna o dolor de espalda?",
           "options": [
-            { "value": "no", "label": "No, todo bien", "scores": { "harmony": 2, "luna-soft": 1, "serena": 1, "golden": 1 } },
-            { "value": "ocasional", "label": "Dolor ocasional", "scores": { "duo-confort": 3, "harmony": 2, "serena": 1 } },
-            { "value": "cronico", "label": "Dolor crónico / recomendación médica", "scores": { "ortopedico": 4, "duo-confort": 3, "titanium": 2 } }
+            {
+              "value": "no",
+              "label": "No, todo bien",
+              "scores": {
+                "harmony": 2,
+                "luna-soft": 1,
+                "serena": 1,
+                "golden": 1
+              }
+            },
+            {
+              "value": "ocasional",
+              "label": "Dolor ocasional",
+              "scores": {
+                "duo-confort": 3,
+                "harmony": 2,
+                "serena": 1
+              }
+            },
+            {
+              "value": "cronico",
+              "label": "Dolor crónico / recomendación médica",
+              "scores": {
+                "ortopedico": 4,
+                "duo-confort": 3,
+                "titanium": 2
+              }
+            }
           ]
         },
         {
@@ -1785,11 +2004,50 @@
           "question": "¿Qué firmeza preferís?",
           "helperText": "Si tuviste un colchón antes, pensá en qué cambiarías de ese.",
           "options": [
-            { "value": "suave", "label": "Suave / mullido", "scores": { "luna-soft": 3, "delta-soft": 2, "super-kids": 1 } },
-            { "value": "medio", "label": "Medio (equilibrado)", "scores": { "harmony": 3, "serena": 2, "serrat": 2, "golden": 2, "essential-top": 1 } },
-            { "value": "firme", "label": "Firme", "scores": { "imperial": 3, "titanium": 2 } },
-            { "value": "extra-firme", "label": "Extra firme / ortopédico", "scores": { "ortopedico": 4, "titanium": 2 } },
-            { "value": "adaptable", "label": "Adaptable (se ajusta al cuerpo)", "scores": { "duo-confort": 4, "serena": 1 } }
+            {
+              "value": "suave",
+              "label": "Suave / mullido",
+              "scores": {
+                "luna-soft": 3,
+                "delta-soft": 2,
+                "super-kids": 1
+              }
+            },
+            {
+              "value": "medio",
+              "label": "Medio (equilibrado)",
+              "scores": {
+                "harmony": 3,
+                "serena": 2,
+                "serrat": 2,
+                "golden": 2,
+                "essential-top": 1
+              }
+            },
+            {
+              "value": "firme",
+              "label": "Firme",
+              "scores": {
+                "imperial": 3,
+                "titanium": 2
+              }
+            },
+            {
+              "value": "extra-firme",
+              "label": "Extra firme / ortopédico",
+              "scores": {
+                "ortopedico": 4,
+                "titanium": 2
+              }
+            },
+            {
+              "value": "adaptable",
+              "label": "Adaptable (se ajusta al cuerpo)",
+              "scores": {
+                "duo-confort": 4,
+                "serena": 1
+              }
+            }
           ]
         },
         {
@@ -1797,38 +2055,218 @@
           "question": "¿Cuál es tu presupuesto ideal?",
           "helperText": "Pensá en el precio total, con cuotas sin interés el mensual puede ser mucho menor.",
           "options": [
-            { "value": "economico", "label": "Hasta Gs. 800.000", "scores": { "luna-soft": 3, "super-kids": 2, "pop-kids": 2, "golden": 2, "renovate": 2, "pop-teen": 1 } },
-            { "value": "medio", "label": "Entre Gs. 800.000 y 1.500.000", "scores": { "harmony": 3, "essential-top": 2, "serrat": 2, "serena": 2, "duo-confort": 1, "golden": 1, "ortopedico": 1 } },
-            { "value": "alto", "label": "Entre Gs. 1.500.000 y 2.500.000", "scores": { "titanium": 3, "imperial": 2, "duo-confort": 2, "harmony": 1, "ortopedico": 2 } },
-            { "value": "premium", "label": "Más de Gs. 2.500.000", "scores": { "titanium": 3, "imperial": 3, "ortopedico": 1 } }
+            {
+              "value": "economico",
+              "label": "Hasta Gs. 800.000",
+              "scores": {
+                "luna-soft": 3,
+                "super-kids": 2,
+                "pop-kids": 2,
+                "golden": 2,
+                "renovate": 2,
+                "pop-teen": 1
+              }
+            },
+            {
+              "value": "medio",
+              "label": "Entre Gs. 800.000 y 1.500.000",
+              "scores": {
+                "harmony": 3,
+                "essential-top": 2,
+                "serrat": 2,
+                "serena": 2,
+                "duo-confort": 1,
+                "golden": 1,
+                "ortopedico": 1
+              }
+            },
+            {
+              "value": "alto",
+              "label": "Entre Gs. 1.500.000 y 2.500.000",
+              "scores": {
+                "titanium": 3,
+                "imperial": 2,
+                "duo-confort": 2,
+                "harmony": 1,
+                "ortopedico": 2
+              }
+            },
+            {
+              "value": "premium",
+              "label": "Más de Gs. 2.500.000",
+              "scores": {
+                "titanium": 3,
+                "imperial": 3,
+                "ortopedico": 1
+              }
+            }
           ]
         },
         {
           "id": "tipo",
           "question": "¿Tenés preferencia por resorte o espuma?",
           "options": [
-            { "value": "resorte", "label": "Resorte (más firme, más ventilado)", "scores": { "titanium": 3, "imperial": 2, "harmony": 2, "serrat": 1, "essential-top": 1 } },
-            { "value": "espuma", "label": "Espuma (más silenciosa, más confortable)", "scores": { "duo-confort": 3, "serena": 2, "golden": 2, "luna-soft": 2, "ortopedico": 2 } },
-            { "value": "indiferente", "label": "Me da igual, decidime", "scores": { "harmony": 1, "duo-confort": 1, "titanium": 1, "ortopedico": 1 } }
+            {
+              "value": "resorte",
+              "label": "Resorte (más firme, más ventilado)",
+              "scores": {
+                "titanium": 3,
+                "imperial": 2,
+                "harmony": 2,
+                "serrat": 1,
+                "essential-top": 1
+              }
+            },
+            {
+              "value": "espuma",
+              "label": "Espuma (más silenciosa, más confortable)",
+              "scores": {
+                "duo-confort": 3,
+                "serena": 2,
+                "golden": 2,
+                "luna-soft": 2,
+                "ortopedico": 2
+              }
+            },
+            {
+              "value": "indiferente",
+              "label": "Me da igual, decidime",
+              "scores": {
+                "harmony": 1,
+                "duo-confort": 1,
+                "titanium": 1,
+                "ortopedico": 1
+              }
+            }
           ]
         }
       ],
       "products": [
-        { "id": "luna-soft", "name": "Luna Soft", "description": "Espuma suave, económica. Ideal para invitados o uso ocasional.", "priceFromLabel": "Desde Gs. 500.000", "ctaHref": "/s/es/superspuma/producto/luna-soft", "ctaLabel": "Ver Luna Soft" },
-        { "id": "super-kids", "name": "Super Kids", "description": "Espuma infantil, liviana. Para cunas y primeras camas.", "priceFromLabel": "Desde Gs. 420.000", "ctaHref": "/s/es/superspuma/producto/super-kids", "ctaLabel": "Ver Super Kids", "badge": "Niños" },
-        { "id": "pop-kids", "name": "Pop Kids", "description": "Resorte económico para niños con diseños divertidos.", "priceFromLabel": "Desde Gs. 649.000", "ctaHref": "/s/es/superspuma/producto/pop-kids", "ctaLabel": "Ver Pop Kids", "badge": "Niños" },
-        { "id": "delta-soft", "name": "Delta Soft", "description": "Resorte con pillow suave. Tacto mullido con soporte de resorte.", "priceFromLabel": "Desde Gs. 1.050.000", "ctaHref": "/s/es/superspuma/producto/delta-soft", "ctaLabel": "Ver Delta Soft" },
-        { "id": "golden", "name": "Golden", "description": "Espuma reversible con Pillow Top. Excelente relación calidad/precio.", "priceFromLabel": "Desde Gs. 696.000", "ctaHref": "/s/es/superspuma/producto/golden", "ctaLabel": "Ver Golden" },
-        { "id": "harmony", "name": "Harmony", "description": "Equilibrio ideal entre soporte y confort. Euro-Top antiácaros.", "priceFromLabel": "Desde Gs. 1.274.000", "ctaHref": "/s/es/superspuma/producto/harmony", "ctaLabel": "Ver Harmony", "badge": "Más vendido" },
-        { "id": "serena", "name": "Serena", "description": "Espuma alta densidad con buen confort y recuperación.", "priceFromLabel": "Desde Gs. 850.000", "ctaHref": "/s/es/superspuma/producto/serena", "ctaLabel": "Ver Serena" },
-        { "id": "serrat", "name": "Serrat", "description": "Resorte con superficie suave, firmeza media.", "priceFromLabel": "Desde Gs. 1.150.000", "ctaHref": "/s/es/superspuma/producto/serrat", "ctaLabel": "Ver Serrat" },
-        { "id": "essential-top", "name": "Essential Top", "description": "Entrada a resorte con Pillow Top. Esencial.", "priceFromLabel": "Desde Gs. 890.000", "ctaHref": "/s/es/superspuma/producto/essential-top", "ctaLabel": "Ver Essential Top" },
-        { "id": "renovate", "name": "Renovate", "description": "Reemplazo económico y confiable para tu viejo colchón.", "priceFromLabel": "Desde Gs. 780.000", "ctaHref": "/s/es/superspuma/producto/renovate", "ctaLabel": "Ver Renovate" },
-        { "id": "pop-teen", "name": "Pop Teen", "description": "Pop para adolescentes, precio accesible.", "priceFromLabel": "Desde Gs. 780.000", "ctaHref": "/s/es/superspuma/producto/pop-teen", "ctaLabel": "Ver Pop Teen" },
-        { "id": "imperial", "name": "Imperial", "description": "Resortes Bonell con Pillow Top. Descanso regenerador.", "priceFromLabel": "Desde Gs. 2.230.000", "ctaHref": "/s/es/superspuma/producto/imperial", "ctaLabel": "Ver Imperial" },
-        { "id": "titanium", "name": "Titanium", "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, hasta 120 kg.", "priceFromLabel": "Desde Gs. 1.800.000", "ctaHref": "/s/es/superspuma/producto/titanium", "ctaLabel": "Ver Titanium", "badge": "Premium" },
-        { "id": "duo-confort", "name": "Duo Confort", "description": "Memory foam adaptable. Alivio real de puntos de presión.", "priceFromLabel": "Desde Gs. 980.000", "ctaHref": "/s/es/superspuma/producto/duo-confort", "ctaLabel": "Ver Duo Confort" },
-        { "id": "ortopedico", "name": "Ortopédico", "description": "Espuma densidad 45. Hasta 140 kg. 6 años de garantía.", "priceFromLabel": "Desde Gs. 1.290.000", "ctaHref": "/s/es/superspuma/producto/ortopedico", "ctaLabel": "Ver Ortopédico", "badge": "Más firme" }
+        {
+          "id": "luna-soft",
+          "name": "Luna Soft",
+          "description": "Espuma suave, económica. Ideal para invitados o uso ocasional.",
+          "priceFromLabel": "Desde Gs. 500.000",
+          "ctaHref": "/s/es/superspuma/producto/luna-soft",
+          "ctaLabel": "Ver Luna Soft"
+        },
+        {
+          "id": "super-kids",
+          "name": "Super Kids",
+          "description": "Espuma infantil, liviana. Para cunas y primeras camas.",
+          "priceFromLabel": "Desde Gs. 420.000",
+          "ctaHref": "/s/es/superspuma/producto/super-kids",
+          "ctaLabel": "Ver Super Kids",
+          "badge": "Niños"
+        },
+        {
+          "id": "pop-kids",
+          "name": "Pop Kids",
+          "description": "Resorte económico para niños con diseños divertidos.",
+          "priceFromLabel": "Desde Gs. 649.000",
+          "ctaHref": "/s/es/superspuma/producto/pop-kids",
+          "ctaLabel": "Ver Pop Kids",
+          "badge": "Niños"
+        },
+        {
+          "id": "delta-soft",
+          "name": "Delta Soft",
+          "description": "Resorte con pillow suave. Tacto mullido con soporte de resorte.",
+          "priceFromLabel": "Desde Gs. 1.050.000",
+          "ctaHref": "/s/es/superspuma/producto/delta-soft",
+          "ctaLabel": "Ver Delta Soft"
+        },
+        {
+          "id": "golden",
+          "name": "Golden",
+          "description": "Espuma reversible con Pillow Top. Excelente relación calidad/precio.",
+          "priceFromLabel": "Desde Gs. 696.000",
+          "ctaHref": "/s/es/superspuma/producto/golden",
+          "ctaLabel": "Ver Golden"
+        },
+        {
+          "id": "harmony",
+          "name": "Harmony",
+          "description": "Equilibrio ideal entre soporte y confort. Euro-Top antiácaros.",
+          "priceFromLabel": "Desde Gs. 1.274.000",
+          "ctaHref": "/s/es/superspuma/producto/harmony",
+          "ctaLabel": "Ver Harmony",
+          "badge": "Más vendido"
+        },
+        {
+          "id": "serena",
+          "name": "Serena",
+          "description": "Espuma alta densidad con buen confort y recuperación.",
+          "priceFromLabel": "Desde Gs. 850.000",
+          "ctaHref": "/s/es/superspuma/producto/serena",
+          "ctaLabel": "Ver Serena"
+        },
+        {
+          "id": "serrat",
+          "name": "Serrat",
+          "description": "Resorte con superficie suave, firmeza media.",
+          "priceFromLabel": "Desde Gs. 1.150.000",
+          "ctaHref": "/s/es/superspuma/producto/serrat",
+          "ctaLabel": "Ver Serrat"
+        },
+        {
+          "id": "essential-top",
+          "name": "Essential Top",
+          "description": "Entrada a resorte con Pillow Top. Esencial.",
+          "priceFromLabel": "Desde Gs. 890.000",
+          "ctaHref": "/s/es/superspuma/producto/essential-top",
+          "ctaLabel": "Ver Essential Top"
+        },
+        {
+          "id": "renovate",
+          "name": "Renovate",
+          "description": "Reemplazo económico y confiable para tu viejo colchón.",
+          "priceFromLabel": "Desde Gs. 780.000",
+          "ctaHref": "/s/es/superspuma/producto/renovate",
+          "ctaLabel": "Ver Renovate"
+        },
+        {
+          "id": "pop-teen",
+          "name": "Pop Teen",
+          "description": "Pop para adolescentes, precio accesible.",
+          "priceFromLabel": "Desde Gs. 780.000",
+          "ctaHref": "/s/es/superspuma/producto/pop-teen",
+          "ctaLabel": "Ver Pop Teen"
+        },
+        {
+          "id": "imperial",
+          "name": "Imperial",
+          "description": "Resortes Bonell con Pillow Top. Descanso regenerador.",
+          "priceFromLabel": "Desde Gs. 2.230.000",
+          "ctaHref": "/s/es/superspuma/producto/imperial",
+          "ctaLabel": "Ver Imperial"
+        },
+        {
+          "id": "titanium",
+          "name": "Titanium",
+          "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, hasta 120 kg.",
+          "priceFromLabel": "Desde Gs. 1.800.000",
+          "ctaHref": "/s/es/superspuma/producto/titanium",
+          "ctaLabel": "Ver Titanium",
+          "badge": "Premium"
+        },
+        {
+          "id": "duo-confort",
+          "name": "Duo Confort",
+          "description": "Memory foam adaptable. Alivio real de puntos de presión.",
+          "priceFromLabel": "Desde Gs. 980.000",
+          "ctaHref": "/s/es/superspuma/producto/duo-confort",
+          "ctaLabel": "Ver Duo Confort"
+        },
+        {
+          "id": "ortopedico",
+          "name": "Ortopédico",
+          "description": "Espuma densidad 45. Hasta 140 kg. 6 años de garantía.",
+          "priceFromLabel": "Desde Gs. 1.290.000",
+          "ctaHref": "/s/es/superspuma/producto/ortopedico",
+          "ctaLabel": "Ver Ortopédico",
+          "badge": "Más firme"
+        }
       ]
     }
   },
@@ -1844,47 +2282,186 @@
       "ctaPrimaryHref": "#trade-in-form",
       "ctaSecondaryText": "Ver modelos nuevos",
       "ctaSecondaryHref": "/s/es/superspuma#catalogo",
-      "trustBadges": ["Cotización en el día", "Retiro sin costo", "Crédito sobre tu nuevo colchón"]
+      "trustBadges": [
+        "Cotización en el día",
+        "Retiro sin costo",
+        "Crédito sobre tu nuevo colchón"
+      ],
+      "trustBadgesEnabled": false
     },
     "howItWorks": {
       "eyebrow": "Cómo funciona",
       "title": "Cambiar tu colchón viejo en 4 pasos",
       "subtitle": "Sin rollos. Nos mandás una foto por WhatsApp, te damos el crédito, y el día de la entrega nos llevamos el viejo.",
       "steps": [
-        { "number": 1, "title": "Contanos del colchón viejo", "description": "Completá el formulario con el modelo, medida, años de uso y una foto. Lleva menos de 2 minutos.", "icon": "MessageCircle" },
-        { "number": 2, "title": "Te damos el crédito", "description": "Un vendedor te contesta en el día con el monto de crédito que aplicamos sobre el colchón nuevo que elijas.", "icon": "Banknote", "duration": "Respuesta en el día" },
-        { "number": 3, "title": "Elegís tu Superspuma", "description": "Con el crédito aplicado, elegís modelo + medida. Pagás el saldo en cuotas sin interés o transferencia con descuento.", "icon": "Check" },
-        { "number": 4, "title": "Entregamos y retiramos", "description": "El mismo día que llega el nuevo nos llevamos el viejo. Sin costo extra por el retiro. Sin coordinación aparte.", "icon": "Recycle" }
+        {
+          "number": 1,
+          "title": "Contanos del colchón viejo",
+          "description": "Completá el formulario con el modelo, medida, años de uso y una foto. Lleva menos de 2 minutos.",
+          "icon": "MessageCircle"
+        },
+        {
+          "number": 2,
+          "title": "Te damos el crédito",
+          "description": "Un vendedor te contesta en el día con el monto de crédito que aplicamos sobre el colchón nuevo que elijas.",
+          "icon": "Banknote",
+          "duration": "Respuesta en el día"
+        },
+        {
+          "number": 3,
+          "title": "Elegís tu Superspuma",
+          "description": "Con el crédito aplicado, elegís modelo + medida. Pagás el saldo en cuotas sin interés o transferencia con descuento.",
+          "icon": "Check"
+        },
+        {
+          "number": 4,
+          "title": "Entregamos y retiramos",
+          "description": "El mismo día que llega el nuevo nos llevamos el viejo. Sin costo extra por el retiro. Sin coordinación aparte.",
+          "icon": "Recycle"
+        }
       ]
     },
     "benefits": {
       "title": "Por qué cambiarlo",
       "items": [
-        { "icon": "check", "text": "Crédito real sobre el nuevo", "description": "No es descuento cosmético — sale del total." },
-        { "icon": "recycle", "text": "Sin costo de retiro", "description": "Vienen, lo bajan, lo cargan. Nada para vos." },
-        { "icon": "clock", "text": "Disposición responsable", "description": "Nuestra cuadrilla dispone del colchón con gestión legal." },
-        { "icon": "star", "text": "Un colchón mejor que el anterior", "description": "19 modelos para elegir — desde Gs. 500.000." }
+        {
+          "icon": "check",
+          "text": "Crédito real sobre el nuevo",
+          "description": "No es descuento cosmético — sale del total."
+        },
+        {
+          "icon": "recycle",
+          "text": "Sin costo de retiro",
+          "description": "Vienen, lo bajan, lo cargan. Nada para vos."
+        },
+        {
+          "icon": "clock",
+          "text": "Disposición responsable",
+          "description": "Nuestra cuadrilla dispone del colchón con gestión legal."
+        },
+        {
+          "icon": "star",
+          "text": "Un colchón mejor que el anterior",
+          "description": "19 modelos para elegir — desde Gs. 500.000."
+        }
       ]
     },
     "form": {
       "title": "Cotizá tu cambio",
       "subtitle": "Completá los datos y te contactamos con el crédito en el día. Los campos con foto no son obligatorios pero ayudan a cotizar con más precisión.",
       "fields": [
-        { "name": "nombre", "label": "Tu nombre", "type": "text", "required": true, "placeholder": "Juan Pérez" },
-        { "name": "telefono", "label": "WhatsApp", "type": "tel", "required": true, "placeholder": "+595 981 000000" },
-        { "name": "email", "label": "Email (opcional)", "type": "email", "required": false, "placeholder": "juan@email.com" },
-        { "name": "marca_vieja", "label": "Marca del colchón viejo", "type": "text", "required": true, "placeholder": "ej. Arcoiris, Cemapar, Tupãmba'e, Superspuma antiguo" },
-        { "name": "medida_vieja", "label": "Medida", "type": "select", "required": true, "options": ["1 plaza (80x190)", "1 plaza y media (100x190 ó 120x190)", "2 plazas (140x190)", "Queen (160x200)", "King (180x200)", "Super King (200x200)", "Otro / no sé"], "placeholder": "Elegí la medida" },
-        { "name": "tipo_viejo", "label": "Tipo", "type": "select", "required": true, "options": ["Resorte", "Espuma", "No sé / otro"], "placeholder": "Resorte o espuma" },
-        { "name": "antiguedad", "label": "Años de uso aproximados", "type": "select", "required": true, "options": ["Menos de 3 años", "3 a 5 años", "5 a 10 años", "Más de 10 años"], "placeholder": "¿Cuándo lo compraste?" },
-        { "name": "estado", "label": "Estado visual", "type": "select", "required": true, "options": ["Como nuevo", "Buen estado (sin manchas ni hundimientos)", "Uso visible (hundimientos leves)", "Desgastado (hundimientos, manchas, costuras abiertas)"], "placeholder": "¿Cómo está?" },
-        { "name": "modelo_nuevo", "label": "¿Qué modelo Superspuma te interesa?", "type": "select", "required": false, "options": ["Titanium", "Imperial", "Harmony", "Duo Confort", "Ortopédico", "Luna Soft", "Golden", "Otro / me ayudan a elegir"], "placeholder": "Opcional — podés consultar después" },
-        { "name": "mensaje", "label": "Algo que quieras aclarar", "type": "textarea", "required": false, "placeholder": "ej. Ubicación del colchón, horarios preferidos para la entrega, etc." }
+        {
+          "name": "nombre",
+          "label": "Tu nombre",
+          "type": "text",
+          "required": true,
+          "placeholder": "Juan Pérez"
+        },
+        {
+          "name": "telefono",
+          "label": "WhatsApp",
+          "type": "tel",
+          "required": true,
+          "placeholder": "+595 981 000000"
+        },
+        {
+          "name": "email",
+          "label": "Email (opcional)",
+          "type": "email",
+          "required": false,
+          "placeholder": "juan@email.com"
+        },
+        {
+          "name": "marca_vieja",
+          "label": "Marca del colchón viejo",
+          "type": "text",
+          "required": true,
+          "placeholder": "ej. Arcoiris, Cemapar, Tupãmba'e, Superspuma antiguo"
+        },
+        {
+          "name": "medida_vieja",
+          "label": "Medida",
+          "type": "select",
+          "required": true,
+          "options": [
+            "1 plaza (80x190)",
+            "1 plaza y media (100x190 ó 120x190)",
+            "2 plazas (140x190)",
+            "Queen (160x200)",
+            "King (180x200)",
+            "Super King (200x200)",
+            "Otro / no sé"
+          ],
+          "placeholder": "Elegí la medida"
+        },
+        {
+          "name": "tipo_viejo",
+          "label": "Tipo",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Resorte",
+            "Espuma",
+            "No sé / otro"
+          ],
+          "placeholder": "Resorte o espuma"
+        },
+        {
+          "name": "antiguedad",
+          "label": "Años de uso aproximados",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Menos de 3 años",
+            "3 a 5 años",
+            "5 a 10 años",
+            "Más de 10 años"
+          ],
+          "placeholder": "¿Cuándo lo compraste?"
+        },
+        {
+          "name": "estado",
+          "label": "Estado visual",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Como nuevo",
+            "Buen estado (sin manchas ni hundimientos)",
+            "Uso visible (hundimientos leves)",
+            "Desgastado (hundimientos, manchas, costuras abiertas)"
+          ],
+          "placeholder": "¿Cómo está?"
+        },
+        {
+          "name": "modelo_nuevo",
+          "label": "¿Qué modelo Superspuma te interesa?",
+          "type": "select",
+          "required": false,
+          "options": [
+            "Titanium",
+            "Imperial",
+            "Harmony",
+            "Duo Confort",
+            "Ortopédico",
+            "Luna Soft",
+            "Golden",
+            "Otro / me ayudan a elegir"
+          ],
+          "placeholder": "Opcional — podés consultar después"
+        },
+        {
+          "name": "mensaje",
+          "label": "Algo que quieras aclarar",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "ej. Ubicación del colchón, horarios preferidos para la entrega, etc."
+        }
       ],
       "submitLabel": "Cotizar mi cambio",
       "privacyLabel": "Al enviar acepto los términos de privacidad",
       "privacyHref": "/s/es/superspuma/privacidad"
-    }
+    },
+    "trustBadgesEnabled": false
   },
   "bundles": {
     "seo": {
@@ -1898,7 +2475,12 @@
       "ctaPrimaryHref": "#combos",
       "ctaSecondaryText": "Armar a medida",
       "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20armar%20un%20combo%20a%20medida%20(colch%C3%B3n%20%2B%20sommier%20%2B%20almohadas%20%2B%20protector)",
-      "trustBadges": ["10% combo", "Entrega coordinada", "18 cuotas sin interés"]
+      "trustBadges": [
+        "10% combo",
+        "Entrega coordinada",
+        "18 cuotas sin interés"
+      ],
+      "trustBadgesEnabled": false
     },
     "combos": {
       "eyebrow": "Combos sugeridos",
@@ -1975,10 +2557,6 @@
       {
         "label": "Catálogo",
         "href": "/s/es/superspuma#catalogo"
-      },
-      {
-        "label": "¿Qué necesitás?",
-        "href": "/s/es/superspuma/quiz"
       },
       {
         "label": "Combos",
@@ -4488,6 +5066,24 @@
         "buttonText": "Escribir por WhatsApp",
         "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl."
       }
+    }
+  },
+  "promoCartagena": {
+    "legal": {
+      "title": "Bases y condiciones",
+      "dates": "Válido del 01/01/2026 al 31/12/2026",
+      "eligibility": "Abierto a residentes en Paraguay, mayores de 18 años, con factura Superspuma a su nombre emitida dentro del período de vigencia.",
+      "exclusions": "No participan empleados de Superspuma ni de sus empresas asociadas.",
+      "prize": "Viaje para 2 personas a Cartagena, Colombia (5 días / 4 noches, vuelo + hotel 4 estrellas) + sorteo de 5 sommiers Harmony entre los no ganadores del primer premio.",
+      "draw": "Sorteo ante escribano público el 15 de enero de 2027. Ganadores notificados por email y WhatsApp dentro de las 48 hs.",
+      "notes": "El premio no es canjeable por dinero. Impuestos locales en el destino a cargo del ganador. Plazo para reclamar: 30 días desde la notificación.",
+      "documentsHref": "/s/es/superspuma/terminos#promo-cartagena",
+      "responsable": "Superspuma del Paraguay S.A.E.C.A. — RUC 30-70136627-8."
+    },
+    "hero": {
+      "headline": "Ganá un viaje a Cartagena 2026",
+      "subheadline": "Comprá cualquier Superspuma en 2026 y entrás al sorteo. 1 viaje para 2 + 5 sommiers Harmony.",
+      "trustBadgesEnabled": false
     }
   }
 }
