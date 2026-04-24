@@ -152,16 +152,19 @@ export function resolveTokens(
     throw new Error(`[TokenResolver] Palette "${paletteName}" not found for ${businessType}`)
   }
   const colors = palette.colors
+  const pc = colors as Record<string, string | undefined>
 
   const vars: Record<string, string> = {}
 
-  // Colors from type palette
+  // Colors from type palette. Foregrounds are overridable per palette —
+  // without them, dark themes default to `colors.text`, which breaks when
+  // `primary` is also a light color (white text on light bg = invisible).
   vars['--primary'] = colors.primary
-  vars['--primary-foreground'] = type.theme === 'dark' ? colors.text : '#ffffff'
+  vars['--primary-foreground'] = pc.primaryForeground || (type.theme === 'dark' ? colors.text : '#ffffff')
   vars['--secondary'] = colors.secondary
-  vars['--secondary-foreground'] = '#ffffff'
+  vars['--secondary-foreground'] = pc.secondaryForeground || '#ffffff'
   vars['--accent'] = colors.accent || colors.secondary
-  vars['--accent-foreground'] = colors.text
+  vars['--accent-foreground'] = pc.accentForeground || colors.text
   vars['--background'] = colors.background
   vars['--surface'] = colors.surface
   vars['--surface-light'] = colors.surfaceLight || colors.surface
