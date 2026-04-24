@@ -9,14 +9,45 @@
   "path": "/s/es/superspuma",
   "publicUrl": "https://paragu-ai.com/s/es/superspuma",
   "defaultLocale": "es",
-  "locales": ["es"],
+  "locales": [
+    "es"
+  ],
   "pages": [
-    "home", "nosotros", "tiendas", "guias", "garantia", "envios", "financiacion", "terminos", "privacidad", "promo-cartagena", "quiz", "cambio", "combos",
-    "producto/titanium", "producto/imperial", "producto/harmony", "producto/serrat", "producto/delta-soft",
-    "producto/essential-top", "producto/renovate", "producto/impulse-kids", "producto/impulse-teens", "producto/pop-kids",
-    "producto/pop-plus", "producto/pop-teen", "producto/superteen", "producto/super-kids", "producto/luna-soft",
-    "producto/golden", "producto/serena", "producto/duo-confort", "producto/ortopedico",
-    "producto/almohada-superspuma", "producto/cubre-colchon", "producto/protector-colchon", "producto/base-box-baul"
+    "home",
+    "nosotros",
+    "tiendas",
+    "guias",
+    "garantia",
+    "envios",
+    "financiacion",
+    "terminos",
+    "privacidad",
+    "promo-cartagena",
+    "cambio",
+    "combos",
+    "producto/titanium",
+    "producto/imperial",
+    "producto/harmony",
+    "producto/serrat",
+    "producto/delta-soft",
+    "producto/essential-top",
+    "producto/renovate",
+    "producto/impulse-kids",
+    "producto/impulse-teens",
+    "producto/pop-kids",
+    "producto/pop-plus",
+    "producto/pop-teen",
+    "producto/superteen",
+    "producto/super-kids",
+    "producto/luna-soft",
+    "producto/golden",
+    "producto/serena",
+    "producto/duo-confort",
+    "producto/ortopedico",
+    "producto/almohada-superspuma",
+    "producto/cubre-colchon",
+    "producto/protector-colchon",
+    "producto/base-box-baul"
   ],
   "contact": {
     "phone": "+595981111222",
@@ -31,7 +62,10 @@
     "city": "Villeta",
     "department": "Central",
     "country": "Paraguay",
-    "coordinates": { "lat": -25.5073, "lng": -57.5808 },
+    "coordinates": {
+      "lat": -25.5073,
+      "lng": -57.5808
+    },
     "googleMapsId": null
   },
   "hours": {
@@ -46,7 +80,13 @@
     "delivery": {
       "enabled": true,
       "freeThresholdGs": 1000000,
-      "zones": ["Asunción", "Central", "Paraguarí", "Cordillera", "Interior"],
+      "zones": [
+        "Asunción",
+        "Central",
+        "Paraguarí",
+        "Cordillera",
+        "Interior"
+      ],
       "national": true,
       "pickupAvailable": true,
       "pickupAddresses": [
@@ -68,8 +108,20 @@
     "financing": {
       "enabled": true,
       "provider": "cuotas_sin_interes",
-      "installmentOptions": [4, 6, 12, 15, 18],
-      "acceptedCards": ["Visa", "Mastercard", "Credicard", "Cabal", "Pánal"]
+      "installmentOptions": [
+        4,
+        6,
+        12,
+        15,
+        18
+      ],
+      "acceptedCards": [
+        "Visa",
+        "Mastercard",
+        "Credicard",
+        "Cabal",
+        "Pánal"
+      ]
     },
     "services": {
       "assemblyIncluded": true,
