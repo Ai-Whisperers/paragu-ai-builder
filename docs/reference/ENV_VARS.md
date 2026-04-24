@@ -87,6 +87,41 @@ Absent → rate limiter is disabled (fine for dev + low-traffic tenants).
 
 Currently tenant assets are served from `sites/<slug>/assets/` (bundled with the Worker). Cloudinary vars are scaffolded for a future migration.
 
+## Payments (optional — provider-dependent)
+
+| Var | Default | Purpose |
+|---|---|---|
+| `PAGOPAR_PUBLIC_TOKEN` | — | Pagopar public token (sandbox or prod) |
+| `PAGOPAR_PRIVATE_TOKEN` | — | Pagopar private token |
+| `PAGOPAR_ENVIRONMENT` | `sandbox` | `sandbox` \| `production` |
+| `PARAGU_AI_PAGOPAR_PUBLIC_TOKEN` | — | Paragu-ai Pagopar public token (platform-level) |
+| `PARAGU_AI_PAGOPAR_PRIVATE_TOKEN` | — | Paragu-ai Pagopar private token (platform-level) |
+| `BANCARD_PUBLIC_KEY` | — | Bancard public key |
+| `BANCARD_PRIVATE_KEY` | — | Bancard private key |
+| `BANCARD_ENVIRONMENT` | `sandbox` | `sandbox` \| `production` |
+| `COMMERCE_CREDENTIALS_KEY` | — | Encryption key for stored payment credentials |
+| `COMMERCE_SESSION_SECRET` | — | Commerce session signing secret |
+
+Future providers (not yet in `env.ts`):
+- `MERCADOPAGO_PUBLIC_KEY` — MercadoPago public key
+- `MERCADOPAGO_ACCESS_TOKEN` — MercadoPago access token (secret)
+- `MERCADOPAGO_WEBHOOK_SECRET` — Webhook signing secret
+
+## Email (optional)
+
+| Var | Purpose |
+|---|---|
+| `EMAIL_TRANSACTIONAL_KEY` | Resend API key for transactional emails |
+| `EMAIL_FROM_ADDRESS` | Sender email address for outgoing emails |
+
+Used by: GDPR data-request notifications, booking confirmations, leads-digest cron.
+
+## Feature flags (optional)
+
+| Var | Default | Purpose |
+|---|---|---|
+| `MAILCHIMP_JOURNEY_ENABLED` | `false` | When `true`, syncs leads to Mailchimp Customer Journeys API |
+
 ---
 
 ## Setting secrets in production
@@ -122,4 +157,4 @@ Never read `process.env.FOO` directly — always go through `env.FOO`. This keep
 
 ---
 
-_Generated from `web/lib/env.ts` on 2026-04-20. Regenerate when the schema changes._
+_Generated from `web/lib/env.ts` on 2026-04-24. Regenerate when the schema changes._
