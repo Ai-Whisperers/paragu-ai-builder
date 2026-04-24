@@ -2,6 +2,9 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
+import { loadPage } from '@/lib/engine/site-loader'
+import { isLocale, type Locale as LocaleType } from '@/lib/i18n/config'
+import { renderStaticTenantPage } from '../_shared/render-static-tenant-page'
 import {
   listActiveProducts,
   countActiveProducts,
@@ -112,7 +115,19 @@ export default async function StorePage({
   const { site, locale } = await params
   const sp = await searchParams
   const business = await resolveBusinessBySlug(site)
-  if (!business || !(await isCommerceEnabled(business.type))) notFound()
+  // Tenants without a Supabase-backed commerce setup can still ship a
+  // static /tienda page via `sites/<slug>/pages/tienda.json` — keeps the
+  // catalog URL live for SEO (and human nav) before Bancard lands.
+  if (!business || !(await isCommerceEnabled(business.type))) {
+    if (loadPage(site, 'tienda') && isLocale(locale)) {
+      return renderStaticTenantPage({
+        siteSlug: site,
+        locale: locale as LocaleType,
+        pageSlug: 'tienda',
+      })
+    }
+    notFound()
+  }
 
   const search = (sp.q ?? '').trim()
   const sortKey = parseSort(sp.sort)
