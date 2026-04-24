@@ -4,11 +4,6 @@
   "descriptionKey": "promociones.seo.description",
   "sections": [
     {
-      "id": "header",
-      "variant": "standard",
-      "content": "navigation"
-    },
-    {
       "id": "hero",
       "variant": "minimal",
       "content": "promociones.hero"
@@ -32,16 +27,6 @@
       "id": "cta-banner",
       "variant": "gradient",
       "content": "home.contact"
-    },
-    {
-      "id": "footer",
-      "variant": "standard",
-      "content": "footer"
-    },
-    {
-      "id": "whatsapp-float",
-      "variant": "standard",
-      "content": "whatsapp"
     }
   ]
 }

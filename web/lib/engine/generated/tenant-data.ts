@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=237, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -733,6 +733,30 @@ export const BASE_TOKENS: JsonRecord = {
 export const SITES: Record<string, JsonRecord> = {
   "dayah-litworks": {
     "businessType": "diseno_grafico",
+    "chrome": {
+      "footer": [
+        {
+          "content": "home.contact",
+          "id": "contact",
+          "variant": "split"
+        },
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
     "contact": {
       "email": "dayahlitworks@gmail.com",
       "facebook": "https://www.facebook.com/bookc0verdesign/",
@@ -5081,6 +5105,30 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "superspuma": {
     "businessType": "mattress_store",
+    "chrome": {
+      "footer": [
+        {
+          "content": "home.contact",
+          "id": "contact",
+          "variant": "split"
+        },
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
     "contact": {
       "email": "info@superspuma.com.py",
       "facebook": "superspuma",
@@ -5886,107 +5934,13 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
 }
 
 export const PAGES: Record<string, JsonRecord> = {
-  "dayah-litworks:blog": {
-    "descriptionKey": "blog.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "blog.placeholder",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "blog.placeholder",
-        "id": "features",
-        "variant": "three-col"
-      },
-      {
-        "content": "newsletter",
-        "id": "newsletter-signup",
-        "variant": "standard"
-      },
-      {
-        "content": "ctaBanner",
-        "id": "cta-banner",
-        "variant": "gradient"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "blog",
-    "titleKey": "blog.seo.title"
-  },
-  "dayah-litworks:blog/como-elegir-portada-libro": {
-    "description": "5 factores clave que determinan si tu portada atrae lectores",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "blogPost",
-        "id": "blog-post",
-        "variant": "article"
-      },
-      {
-        "content": "newsletter",
-        "id": "newsletter-signup",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "blog/como-elegir-portada-libro",
-    "title": "Cómo elegir la portada perfecta para tu libro"
-  },
   "dayah-litworks:catalogo": {
     "descriptionKey": "home.products.subtitle",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "home.products",
         "id": "product-catalog",
         "variant": "grid"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "catalogo",
@@ -5996,19 +5950,9 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "contactHero.subtitle",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "contactHero",
         "id": "hero",
         "variant": "minimal"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
       },
       {
         "content": "quoteForm",
@@ -6019,29 +5963,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "newsletter",
         "id": "newsletter-signup",
         "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "contacto",
     "titleKey": "contactHero.title"
   },
+  "dayah-litworks:faq": {
+    "descriptionKey": "faqPage.seo.description",
+    "sections": [
+      {
+        "content": "faqPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "faq",
+    "titleKey": "faqPage.seo.title"
+  },
   "dayah-litworks:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "home.hero",
         "id": "hero",
@@ -6068,84 +6019,17 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "steps"
       },
       {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
         "content": "ctaBanner",
         "id": "cta-banner",
         "variant": "gradient"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "dayah-litworks:portafolio": {
-    "descriptionKey": "portfolio.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "portfolio.placeholder",
-        "id": "hero",
-        "variant": "minimal"
-      },
-      {
-        "content": "portfolio.nda",
-        "id": "illustration",
-        "variant": "standard"
-      },
-      {
-        "content": "portfolio.placeholder",
-        "id": "features",
-        "variant": "three-col"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "portafolio",
-    "titleKey": "portfolio.seo.title"
-  },
   "dayah-litworks:privacidad": {
     "descriptionKey": "privacidad.subtitle",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "privacidad",
         "id": "hero",
@@ -6155,16 +6039,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "privacidad.sectionsBlock",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "privacidad",
@@ -6174,12 +6048,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "home.services.subtitle",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.services",
+        "content": "servicios.hero",
         "id": "hero",
         "variant": "minimal"
       },
@@ -6194,24 +6063,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
         "content": "ctaBanner",
         "id": "cta-banner",
         "variant": "gradient"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "servicios",
@@ -6220,11 +6074,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "dayah-litworks:sobre": {
     "descriptionKey": "sobre.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "sobre.hero",
         "id": "hero",
@@ -6249,16 +6098,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "ctaBanner",
         "id": "cta-banner",
         "variant": "gradient"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "sobre",
@@ -6268,11 +6107,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "terminos.seo.description",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "terminos",
         "id": "hero",
         "variant": "minimal"
@@ -6281,16 +6115,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "terminos.sectionsBlock",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "terminos",
@@ -13040,11 +12864,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "cambio.seo.description",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "cambio.hero",
         "id": "hero",
         "variant": "image"
@@ -13063,26 +12882,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "cambio.form",
         "id": "lead-form",
         "variant": "standard"
-      },
-      {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "cambio",
@@ -13091,11 +12890,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:combos": {
     "descriptionKey": "bundles.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "bundles.hero",
         "id": "hero",
@@ -13115,26 +12909,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "combos",
@@ -13143,11 +12917,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:envios": {
     "descriptionKey": "envios.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "envios.hero",
         "id": "hero",
@@ -13172,39 +12941,31 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "envios.process",
         "id": "process-timeline",
         "variant": "horizontal"
-      },
-      {
-        "content": "envios.faq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "envios",
     "titleKey": "envios.seo.title"
   },
+  "superspuma:faq": {
+    "descriptionKey": "faqPage.seo.description",
+    "sections": [
+      {
+        "content": "faqPage.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      }
+    ],
+    "slug": "faq",
+    "titleKey": "faqPage.seo.title"
+  },
   "superspuma:financiacion": {
     "descriptionKey": "financiacion.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "financiacion.hero",
         "id": "hero",
@@ -13239,26 +13000,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "financiacion.paymentMethods",
         "id": "features",
         "variant": "grid"
-      },
-      {
-        "content": "financiacion.faq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "financiacion",
@@ -13267,11 +13008,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:garantia": {
     "descriptionKey": "garantia.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "garantia.hero",
         "id": "hero",
@@ -13286,26 +13022,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "garantia.warrantyByModel",
         "id": "programs-comparison",
         "variant": "tiered"
-      },
-      {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "garantia",
@@ -13314,11 +13030,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:guias": {
     "descriptionKey": "guias.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "guias.hero",
         "id": "hero",
@@ -13348,26 +13059,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "guias.lifeCalcBlock",
         "id": "features",
         "variant": "grid"
-      },
-      {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "guias",
@@ -13376,11 +13067,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "home.hero",
         "id": "hero",
@@ -13426,29 +13112,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.enhancedFaq",
-        "id": "enhanced-faq",
-        "variant": "searchable"
-      },
-      {
         "content": "home.promoBanner",
         "id": "promo-banner",
         "variant": "carousel"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "",
@@ -13457,11 +13123,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:nosotros": {
     "descriptionKey": "nosotros.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "nosotros.hero",
         "id": "hero",
@@ -13486,21 +13147,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "nosotros",
@@ -13510,11 +13156,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "privacidad.seo.description",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "privacidad.hero",
         "id": "hero",
         "variant": "image"
@@ -13523,21 +13164,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "privacidad.policy",
         "id": "enhanced-faq",
         "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "privacidad",
@@ -14913,11 +14539,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "home.promo-cartagena.subtitle",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "home.promo-cartagena.hero",
         "id": "hero",
         "variant": "image"
@@ -14925,16 +14546,6 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.promo-cartagena.lead-form",
         "id": "lead-form",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
         "variant": "standard"
       }
     ],
@@ -14944,11 +14555,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:promociones": {
     "descriptionKey": "promociones.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "promociones.hero",
         "id": "hero",
@@ -14973,16 +14579,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "cta-banner",
         "variant": "gradient"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
       }
     ],
     "slug": "promociones",
@@ -14992,11 +14588,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "terminos.seo.description",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
         "content": "terminos.hero",
         "id": "hero",
         "variant": "image"
@@ -15005,21 +14596,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "terminos.terms",
         "id": "enhanced-faq",
         "variant": "searchable"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "terminos",
@@ -15028,11 +14604,6 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:tiendas": {
     "descriptionKey": "tiendas.seo.description",
     "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
       {
         "content": "tiendas.hero",
         "id": "hero",
@@ -15057,21 +14628,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
       }
     ],
     "slug": "tiendas",
@@ -15088,6 +14644,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "blog": {
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=80",
         "subtitle": "Tips, trends and resources for authors",
         "title": "Blog",
         "trustBadgesEnabled": false
@@ -15145,6 +14702,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": []
     },
     "contactHero": {
+      "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
       "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
       "title": "Tell me about your book",
       "trustBadgesEnabled": false
@@ -15210,16 +14768,17 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "faqPage": {
       "hero": {
-        "subtitle": "Everything you need to know about our services",
-        "title": "Frequently Asked Questions"
+        "subtitle": "Quick answers most authors need before starting.",
+        "title": "Frequently asked questions"
       },
       "seo": {
-        "description": "Answers to the most frequently asked questions about our book cover design services.",
+        "description": "Answers to common questions about book-cover design: timelines, pricing, revisions, formats and licensing.",
         "title": "FAQ — Dayah LitWorks"
       }
     },
     "footer": {
       "businessName": "Dayah LitWorks",
+      "city": "Asunción",
       "copyright": "© 2026 Dayah LitWorks. All rights reserved.",
       "founded": "2019",
       "navLinks": [
@@ -15325,6 +14884,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "FAQ"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
         "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
         "ctaPrimaryText": "View Catalog",
         "ctaSecondaryHref": "https://wa.me/595986868241",
@@ -15362,6 +14922,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Process"
       },
       "products": {
+        "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80",
         "categories": [
           "All",
           "Fantasy",
@@ -15849,16 +15410,12 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Catalog"
         },
         {
-          "href": "/s/en/dayah-litworks/portafolio",
-          "label": "Portfolio"
-        },
-        {
-          "href": "/s/en/dayah-litworks/blog",
-          "label": "Blog"
-        },
-        {
           "href": "/s/en/dayah-litworks/sobre",
           "label": "About"
+        },
+        {
+          "href": "/s/en/dayah-litworks/faq",
+          "label": "FAQ"
         },
         {
           "href": "/s/en/dayah-litworks/contacto",
@@ -15886,6 +15443,11 @@ export const CONTENT: Record<string, JsonRecord> = {
         "Sci-Fi",
         "Horror"
       ],
+      "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80",
+        "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
+        "title": "Private portfolio"
+      },
       "items": [],
       "nda": {
         "alt": "Redacted sample of Dayah LitWorks portfolio",
@@ -16140,6 +15702,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "FAQ — Dayah LitWorks"
       }
     },
+    "servicios": {
+      "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80",
+        "subtitle": "Professional design for your book",
+        "title": "Our Services"
+      }
+    },
     "siteName": "Dayah LitWorks",
     "sobre": {
       "bio": {
@@ -16164,6 +15733,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "About Daihana"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2000&q=80",
         "subtitle": "Where fantasy becomes reality",
         "title": "About Dayah LitWorks",
         "trustBadgesEnabled": false
@@ -16333,6 +15903,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "blog": {
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=80",
         "subtitle": "Tips, tendencias y recursos para autores",
         "title": "Blog",
         "trustBadgesEnabled": false
@@ -16390,6 +15961,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": []
     },
     "contactHero": {
+      "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
       "subtitle": "Envía referencias visuales junto con el pedido — así puedo cotizar con precisión (es el paso más importante del proceso, por eso está en mis términos).",
       "title": "Contame de tu libro",
       "trustBadgesEnabled": false
@@ -16455,12 +16027,12 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "faqPage": {
       "hero": {
-        "subtitle": "Todo lo que necesitás saber sobre nuestros servicios",
-        "title": "Preguntas Frecuentes"
+        "subtitle": "Las respuestas cortas que la mayoría de autores necesita antes de arrancar.",
+        "title": "Preguntas frecuentes"
       },
       "seo": {
-        "description": "Respuestas a las preguntas más frecuentes sobre nuestros servicios de diseño de portadas de libros.",
-        "title": "Preguntas Frecuentes — Dayah LitWorks"
+        "description": "Respuestas a las dudas más comunes sobre el diseño de portadas: tiempos, precios, revisiones, formatos y licencia.",
+        "title": "Preguntas frecuentes — Dayah LitWorks"
       }
     },
     "footer": {
@@ -16571,6 +16143,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas Frecuentes"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
         "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
         "ctaPrimaryText": "Ver Catálogo",
         "ctaSecondaryHref": "https://wa.me/595986868241",
@@ -16608,6 +16181,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Proceso"
       },
       "products": {
+        "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80",
         "categories": [
           "Todos",
           "Fantasía",
@@ -17095,16 +16669,12 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Catálogo"
         },
         {
-          "href": "/s/es/dayah-litworks/portafolio",
-          "label": "Portafolio"
-        },
-        {
-          "href": "/s/es/dayah-litworks/blog",
-          "label": "Blog"
-        },
-        {
           "href": "/s/es/dayah-litworks/sobre",
           "label": "Sobre"
+        },
+        {
+          "href": "/s/es/dayah-litworks/faq",
+          "label": "Preguntas"
         },
         {
           "href": "/s/es/dayah-litworks/contacto",
@@ -17132,7 +16702,20 @@ export const CONTENT: Record<string, JsonRecord> = {
         "Ciencia Ficción",
         "Terror"
       ],
+      "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80",
+        "subtitle": "Mis clientes están publicando — estoy esperando permisos para compartir trabajos recientes acá. Si querés ver ejemplos de tu género específico (fantasía, romance, thriller…), pedímelos por WhatsApp y te mando una muestra privada en el día.",
+        "title": "Portafolio privado"
+      },
       "items": [],
+      "nda": {
+        "alt": "Muestra redactada del portafolio de Dayah LitWorks",
+        "background": "surface",
+        "maxWidth": 1000,
+        "src": "/images/dayah/portfolio-nda.svg",
+        "subtitle": "Respeto la confidencialidad de cada proyecto. Mandame un mensaje y te paso una muestra real sin publicarla acá.",
+        "title": "Trabajos bajo NDA"
+      },
       "placeholder": {
         "features": [
           {
@@ -17372,6 +16955,19 @@ export const CONTENT: Record<string, JsonRecord> = {
       "whatsappBase": "https://wa.me/595986868241",
       "whatsappPhone": "+595986868241"
     },
+    "seo": {
+      "faq": {
+        "description": "Respuestas a las dudas más comunes sobre el diseño de portadas.",
+        "title": "Preguntas frecuentes — Dayah LitWorks"
+      }
+    },
+    "servicios": {
+      "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80",
+        "subtitle": "Diseño profesional para tu libro",
+        "title": "Nuestros Servicios"
+      }
+    },
     "siteName": "Dayah LitWorks",
     "sobre": {
       "bio": {
@@ -17396,6 +16992,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Sobre Daihana"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2000&q=80",
         "subtitle": "Donde la fantasía se convierte en realidad",
         "title": "Sobre Dayah LitWorks",
         "trustBadgesEnabled": false
@@ -29849,6 +29446,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
       "email": "hola@nexaparaguay.com",
+      "facebook": null,
       "instagram": "https://instagram.com/nexaparaguay",
       "navLinks": [
         {
@@ -31374,6 +30972,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "pillars": {
         "eyebrow": "Why Paraguay",
+        "honestNote": "The opportunity is real, but the process isn't simple without proper guidance. That's exactly what we exist to solve.",
         "pillars": [
           {
             "description": "4.2% GDP growth in 2023. 10% IRE corporate tax. 2.1% inflation. Territorial system — foreign income not taxed locally.",
@@ -33063,6 +32662,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
         "buttonText": "Agendar consulta gratuita",
+        "subtitle": "Agendá una consulta gratuita y revisamos tu caso sin compromiso.",
         "title": "¿Listo para elegir su programa?"
       },
       "faq": {
@@ -36969,6 +36569,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Tres combos más pedidos"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80",
         "ctaPrimaryHref": "#combos",
         "ctaPrimaryText": "Ver combos sugeridos",
         "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20armar%20un%20combo%20a%20medida%20(colch%C3%B3n%20%2B%20sommier%20%2B%20almohadas%20%2B%20protector)",
@@ -37143,6 +36744,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Cotizá tu cambio"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80",
         "ctaPrimaryHref": "#trade-in-form",
         "ctaPrimaryText": "Cotizar mi cambio",
         "ctaSecondaryHref": "/s/es/superspuma#catalogo",
@@ -37237,6 +36839,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas sobre envíos"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80",
         "headline": "Envíos a todo el Paraguay",
         "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
         "trustBadgesEnabled": false
@@ -37391,6 +36994,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Cobertura por zona"
+      }
+    },
+    "faqPage": {
+      "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80",
+        "subtitle": "Todo lo que los clientes consultan antes de comprar — en un solo lugar, buscable.",
+        "title": "Preguntas frecuentes"
+      },
+      "seo": {
+        "description": "Todas las preguntas sobre colchones, garantía, envíos, financiación y cuidados — buscables en un solo lugar.",
+        "title": "Preguntas frecuentes — Superspuma"
       }
     },
     "financiacion": {
@@ -37597,6 +37211,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas sobre financiación"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80",
         "headline": "Pagá tu colchón como te convenga",
         "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione.",
         "trustBadgesEnabled": false
@@ -37849,6 +37464,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Qué cubre y qué no"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80",
         "headline": "Respaldo de fábrica paraguaya",
         "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo.",
         "trustBadgesEnabled": false
@@ -38118,6 +37734,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Niveles de firmeza"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80",
         "headline": "Elegí bien, dormí mejor",
         "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
         "trustBadgesEnabled": false
@@ -38720,6 +38337,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promo-cartagena": {
         "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitás cargar tu factura de compra y tus datos para participar.",
         "hero": {
+          "backgroundImage": "https://images.unsplash.com/photo-1631900099091-51b06fa6c4ea?auto=format&fit=crop&w=2000&q=80",
           "ctaPrimaryHref": "#promo-form",
           "ctaPrimaryText": "Participar ahora",
           "headline": "Promo Cartagena 2026",
@@ -38979,12 +38597,17 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "href": "/s/es/superspuma/nosotros",
           "label": "Nosotros"
+        },
+        {
+          "href": "/s/es/superspuma/faq",
+          "label": "Preguntas"
         }
       ],
       "logoUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/superspumalogo.svg"
     },
     "nosotros": {
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80",
         "headline": "49 años haciendo dormir al Paraguay",
         "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar.",
         "trustBadgesEnabled": false
@@ -41593,6 +41216,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "En curso ahora"
       },
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80",
         "headline": "Promociones vigentes",
         "subheadline": "Todas en un solo lugar. Consultá condiciones en cada una.",
         "trustBadgesEnabled": false
@@ -42125,6 +41749,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "tiendas": {
       "hero": {
+        "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80",
         "headline": "Nuestras tiendas",
         "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país.",
         "trustBadgesEnabled": false

@@ -555,7 +555,8 @@
           "description": "Bilingual Spanish + Guaraní culture. Homicide rate materially lower than Buenos Aires or São Paulo.",
           "imageUrl": "@src:whyParaguay.culture"
         }
-      ]
+      ],
+      "honestNote": "The opportunity is real, but the process isn't simple without proper guidance. That's exactly what we exist to solve."
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
@@ -1051,7 +1052,8 @@
         "label": "Press",
         "href": "/s/en/nexa-paraguay/prensa"
       }
-    ]
+    ],
+    "facebook": null
   },
   "complianceDisclaimer": {
     "paragraphs": [
