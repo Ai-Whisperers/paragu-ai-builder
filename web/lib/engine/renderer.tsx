@@ -23,6 +23,7 @@ import { QuoteFormSection } from '@/components/sections/quote-form-section'
 import { EmergencyIndicatorSection } from '@/components/sections/emergency-indicator-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { GallerySection } from '@/components/sections/gallery-section'
+import { IllustrationSection } from '@/components/sections/illustration-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
 import { ContactSection } from '@/components/sections/contact-section'
@@ -90,6 +91,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType<any>> = {
   'emergency-indicator': EmergencyIndicatorSection,
   'product-catalog': ProductCatalogSection,
   gallery: GallerySection,
+  illustration: IllustrationSection,
   team: TeamSection,
   testimonials: TestimonialsSection,
   contact: ContactSection,

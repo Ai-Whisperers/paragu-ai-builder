@@ -125,6 +125,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'grid',
     variants: ['grid', 'masonry'],
   },
+  illustration: {
+    id: 'illustration',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['src'],
+  },
   team: {
     id: 'team',
     defaultVariant: 'cards',

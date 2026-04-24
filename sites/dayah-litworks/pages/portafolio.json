@@ -14,6 +14,11 @@
       "content": "portfolio.placeholder"
     },
     {
+      "id": "illustration",
+      "variant": "standard",
+      "content": "portfolio.nda"
+    },
+    {
       "id": "features",
       "variant": "three-col",
       "content": "portfolio.placeholder"

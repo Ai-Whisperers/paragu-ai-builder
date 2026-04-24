@@ -968,7 +968,15 @@
         }
       ]
     },
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "map": {
+      "title": "7 tiendas + 6 centros logísticos en todo el país",
+      "subtitle": "Asunción y Central concentran los puntos propios. El resto del país llega vía centros logísticos.",
+      "src": "/images/ss/py-map.svg",
+      "alt": "Mapa de Paraguay con ubicación de tiendas Superspuma",
+      "background": "surface",
+      "maxWidth": 820
+    }
   },
   "guias": {
     "seo": {
@@ -1565,7 +1573,15 @@
         }
       ]
     },
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "map": {
+      "title": "Tres zonas de cobertura",
+      "subtitle": "Zona 1 gratis desde compras de Gs. 1.000.000. Zona 2 y 3 tienen costo fijo.",
+      "src": "/images/ss/py-map-zones.svg",
+      "alt": "Mapa de Paraguay con zonas de envío",
+      "background": "surface",
+      "maxWidth": 820
+    }
   },
   "financiacion": {
     "seo": {
