@@ -3,14 +3,25 @@
   "titleKey": "cambio.seo.title",
   "descriptionKey": "cambio.seo.description",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "image", "content": "cambio.hero" },
-    { "id": "process-timeline", "variant": "horizontal", "content": "cambio.howItWorks" },
-    { "id": "trust-badges", "variant": "strip", "content": "cambio.benefits" },
-    { "id": "lead-form", "variant": "standard", "content": "cambio.form" },
-    { "id": "enhanced-faq", "variant": "searchable", "content": "home.enhancedFaq" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
-    { "id": "footer", "variant": "standard", "content": "footer" }
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "cambio.hero"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "cambio.howItWorks"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "cambio.benefits"
+    },
+    {
+      "id": "lead-form",
+      "variant": "standard",
+      "content": "cambio.form"
+    }
   ]
 }

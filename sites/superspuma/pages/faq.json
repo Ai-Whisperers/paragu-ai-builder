@@ -1,0 +1,17 @@
+{
+  "slug": "faq",
+  "titleKey": "faqPage.seo.title",
+  "descriptionKey": "faqPage.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "faqPage.hero"
+    },
+    {
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "home.enhancedFaq"
+    }
+  ]
+}

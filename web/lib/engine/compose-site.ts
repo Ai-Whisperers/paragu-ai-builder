@@ -14,7 +14,7 @@
  */
 import type { Locale } from '@/lib/i18n/config'
 import { buildLocaleUrl } from '@/lib/i18n/routing'
-import type { ResolvedPage, SiteDefinition, PageDefinition } from './site-types'
+import type { ResolvedPage, SiteDefinition, PageDefinition, PageSection } from './site-types'
 import {
   loadSite,
   loadPage,
@@ -36,6 +36,47 @@ import { logger } from '@/lib/logger'
 import { metrics } from '@/lib/obs/metrics'
 
 const DEFAULT_PAGE_SLUG = 'home'
+
+/**
+ * Wrap the page with chrome sections declared on the site config.
+ *
+ * `site.chrome.header` gets prepended; `site.chrome.footer[]` gets appended.
+ * Dedup by section id: if the page already contains a section with a given
+ * id, the explicit page entry wins and the default is skipped. Pages can
+ * also opt out of specific defaults via `page.skipDefaults`.
+ *
+ * This lets tenant page configs list only the page-specific middle
+ * sections instead of repeating the same header/contact/whatsapp-float/
+ * footer chrome on every single page.
+ */
+export function applyChromeDefaults(
+  page: PageDefinition,
+  site: SiteDefinition,
+): PageDefinition {
+  const chrome = site.chrome
+  if (!chrome) return page
+
+  const skip = new Set(page.skipDefaults ?? [])
+  const existingIds = new Set(page.sections.map((s) => s.id))
+
+  const prepend: PageSection[] = []
+  if (chrome.header && !skip.has(chrome.header.id) && !existingIds.has(chrome.header.id)) {
+    prepend.push(chrome.header)
+  }
+
+  const append: PageSection[] = []
+  for (const fs of chrome.footer ?? []) {
+    if (skip.has(fs.id)) continue
+    if (existingIds.has(fs.id)) continue
+    append.push(fs)
+  }
+
+  if (prepend.length === 0 && append.length === 0) return page
+  return {
+    ...page,
+    sections: [...prepend, ...page.sections, ...append],
+  }
+}
 
 export interface ComposeInput {
   siteSlug: string
@@ -72,11 +113,12 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
     )
   }
 
-  const page: PageDefinition | null = step('loadPage', () => loadPage(siteSlug, pageSlug))
-  if (!page) {
+  const rawPage: PageDefinition | null = step('loadPage', () => loadPage(siteSlug, pageSlug))
+  if (!rawPage) {
     logger.error('Site composition: page not found', baseContext)
     throw new Error(`[compose-site] Page "${pageSlug}" not found for site "${siteSlug}"`)
   }
+  const page = applyChromeDefaults(rawPage, site)
 
   const siteContent = step('loadSiteContent', () => loadSiteContent(siteSlug, locale))
   const verticalCopy = step('loadVerticalCopy', () => loadVerticalCopy(site.vertical, locale))

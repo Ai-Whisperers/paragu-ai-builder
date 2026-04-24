@@ -62,11 +62,11 @@
   "faqPage": {
     "seo": {
       "title": "FAQ — Dayah LitWorks",
-      "description": "Answers to the most frequently asked questions about our book cover design services."
+      "description": "Answers to common questions about book-cover design: timelines, pricing, revisions, formats and licensing."
     },
     "hero": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about our services"
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers most authors need before starting."
     }
   },
   "seo": {
@@ -96,16 +96,12 @@
         "href": "/s/en/dayah-litworks/catalogo"
       },
       {
-        "label": "Portfolio",
-        "href": "/s/en/dayah-litworks/portafolio"
-      },
-      {
-        "label": "Blog",
-        "href": "/s/en/dayah-litworks/blog"
-      },
-      {
         "label": "About",
         "href": "/s/en/dayah-litworks/sobre"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/en/dayah-litworks/faq"
       },
       {
         "label": "Contact",
@@ -466,8 +462,7 @@
           }
         ]
       },
-      "trustBadgesEnabled": false,
-      "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80"
+      "trustBadgesEnabled": false
     },
     "products": {
       "title": "Premade Catalog",
@@ -736,8 +731,7 @@
           "href": "/s/en/dayah-litworks/catalogo"
         }
       ],
-      "trustBadgesEnabled": false,
-      "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80"
+      "trustBadgesEnabled": false
     },
     "trustBadgesEnabled": false,
     "nda": {
@@ -747,6 +741,11 @@
       "alt": "Redacted sample of Dayah LitWorks portfolio",
       "background": "surface",
       "maxWidth": 1000
+    },
+    "hero": {
+      "title": "Private portfolio",
+      "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
+      "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80"
     }
   },
   "blog": {
@@ -1184,7 +1183,8 @@
         "label": "Privacy",
         "href": "/s/en/dayah-litworks/privacidad"
       }
-    ]
+    ],
+    "city": "Asunción"
   },
   "whatsapp": {
     "defaultMessage": "Hi! I'm interested in a book cover design"
@@ -1248,5 +1248,12 @@
       ]
     },
     "trustBadgesEnabled": false
+  },
+  "servicios": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Professional design for your book",
+      "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80"
+    }
   }
 }

@@ -4,11 +4,6 @@
   "descriptionKey": "privacidad.subtitle",
   "sections": [
     {
-      "id": "header",
-      "variant": "standard",
-      "content": "navigation"
-    },
-    {
       "id": "hero",
       "variant": "minimal",
       "content": "privacidad"
@@ -17,16 +12,6 @@
       "id": "faq",
       "variant": "accordion",
       "content": "privacidad.sectionsBlock"
-    },
-    {
-      "id": "footer",
-      "variant": "standard",
-      "content": "footer"
-    },
-    {
-      "id": "whatsapp-float",
-      "variant": "standard",
-      "content": "whatsapp"
     }
   ]
 }

@@ -107,6 +107,19 @@ const nextConfig = {
         destination: '/s/:locale/fun4me/tienda',
         permanent: true,
       },
+      // Dayah LitWorks: /portafolio and /blog pages were removed (catalogo
+      // covers the portfolio need, and blog was placeholder-only). Redirect
+      // inbound links to pages that actually have content.
+      {
+        source: '/s/:locale/dayah-litworks/portafolio',
+        destination: '/s/:locale/dayah-litworks/catalogo',
+        permanent: true,
+      },
+      {
+        source: '/s/:locale/dayah-litworks/blog',
+        destination: '/s/:locale/dayah-litworks/contacto',
+        permanent: true,
+      },
     ]
   },
 

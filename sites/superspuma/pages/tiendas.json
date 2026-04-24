@@ -3,14 +3,30 @@
   "titleKey": "tiendas.seo.title",
   "descriptionKey": "tiendas.seo.description",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "image", "content": "tiendas.hero" },
-    { "id": "illustration", "variant": "standard", "content": "tiendas.map" },
-    { "id": "programs-comparison", "variant": "tiered", "content": "tiendas.stores" },
-    { "id": "programs-comparison", "variant": "tiered", "content": "tiendas.logistics" },
-    { "id": "trust-badges", "variant": "strip", "content": "home.trustBadges" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
-    { "id": "footer", "variant": "standard", "content": "footer" }
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "tiendas.hero"
+    },
+    {
+      "id": "illustration",
+      "variant": "standard",
+      "content": "tiendas.map"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "tiendas.stores"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "tiendas.logistics"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    }
   ]
 }
