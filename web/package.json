@@ -63,7 +63,10 @@
     "report:funnel": "npx tsx scripts/funnel-report.ts",
     "report:cities": "npx tsx scripts/city-breakdown.ts",
     "report:verticals": "npx tsx scripts/vertical-analysis.ts",
-    "deploy:setup": "npx tsx scripts/deploy-setup.ts"
+    "deploy:setup": "npx tsx scripts/deploy-setup.ts",
+    "production:health": "npx tsx scripts/production-health-check.ts",
+    "production:status": "npx tsx scripts/production-status.ts",
+    "wire:integrations": "npx tsx scripts/wire-integrations.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

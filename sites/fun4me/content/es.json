@@ -86,7 +86,15 @@
         "Delivery 48 h",
         "Empaque discreto",
         "Envío nacional"
-      ]
+      ],
+      "disclaimerBanner": {
+        "title": "⚠️ Sitio en Modo Beta",
+        "description": "Fun4Me está actualmente en modo beta con algunas características que utilizan datos temporales.",
+        "buttonText": "Contactar por WhatsApp",
+        "buttonLink": "https://wa.me/595976569739",
+        "cssClasses": "bg-amber-100 border-l-2 border-amber-500 p-4 text-center",
+        "dismissible": true
+      }
     },
     "trustBadges": {
       "items": [
@@ -771,19 +779,58 @@
     "instagram": "@fun4me_store",
     "facebook": "FUN4MEStore",
     "navLinks": [
-      { "label": "Tienda", "href": "/s/es/fun4me/tienda" },
-      { "label": "Ayudame a elegir", "href": "/s/es/fun4me/quiz" },
-      { "label": "Suscripciones", "href": "/s/es/fun4me/suscripciones" },
-      { "label": "Bundles y kits", "href": "/s/es/fun4me/bundles" },
-      { "label": "Gift cards", "href": "/s/es/fun4me/gift-cards" },
-      { "label": "Placer Plus", "href": "/s/es/fun4me/placer-plus" },
-      { "label": "Quiénes somos", "href": "/s/es/fun4me/quienes-somos" },
-      { "label": "Blog", "href": "/s/es/fun4me/blog" },
-      { "label": "Reserva en tienda", "href": "/s/es/fun4me/reserva-en-tienda" },
-      { "label": "Guía de talles", "href": "/s/es/fun4me/size-guide" },
-      { "label": "Preguntas frecuentes", "href": "/s/es/fun4me/legal#faq" },
-      { "label": "Privacidad", "href": "/s/es/fun4me/legal" },
-      { "label": "Términos", "href": "/s/es/fun4me/legal" }
+      {
+        "label": "Tienda",
+        "href": "/s/es/fun4me/tienda"
+      },
+      {
+        "label": "Ayudame a elegir",
+        "href": "/s/es/fun4me/quiz"
+      },
+      {
+        "label": "Suscripciones",
+        "href": "/s/es/fun4me/suscripciones"
+      },
+      {
+        "label": "Bundles y kits",
+        "href": "/s/es/fun4me/bundles"
+      },
+      {
+        "label": "Gift cards",
+        "href": "/s/es/fun4me/gift-cards"
+      },
+      {
+        "label": "Placer Plus",
+        "href": "/s/es/fun4me/placer-plus"
+      },
+      {
+        "label": "Quiénes somos",
+        "href": "/s/es/fun4me/quienes-somos"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/es/fun4me/blog"
+      },
+      {
+        "label": "Reserva en tienda",
+        "href": "/s/es/fun4me/reserva-en-tienda"
+      },
+      {
+        "label": "Guía de talles",
+        "href": "/s/es/fun4me/size-guide"
+      },
+      {
+        "label": "Preguntas frecuentes",
+        "href": "/s/es/fun4me/legal#faq"
+      },
+      {
+        "label": "Privacidad",
+        "href": "/s/es/fun4me/legal"
+      },
+      {
+        "label": "Términos",
+        "href": "/s/es/fun4me/legal"
+      }
     ],
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
