@@ -19,11 +19,6 @@
       "content": "terminos.sectionsBlock"
     },
     {
-      "id": "features",
-      "variant": "grid",
-      "content": "terminos.payment"
-    },
-    {
       "id": "footer",
       "variant": "standard",
       "content": "footer"
