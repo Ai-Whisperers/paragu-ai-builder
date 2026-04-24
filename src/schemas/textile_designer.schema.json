@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "textile_designer",
+  "title": "Disenador Textil Business Input Schema (SCAFFOLD)",
+  "description": "Additional fields for Disenador Textil businesses beyond diseno_grafico. Generated scaffold - review and extend with domain-specific fields.",
+  "allOf": [
+    {
+      "$ref": "#diseno_grafico"
+    }
+  ],
+  "properties": {},
+  "inputForm": {
+    "priority1": [
+      "businessName",
+      "contact.phone",
+      "contact.email"
+    ],
+    "priority2": [
+      "location.address",
+      "location.city",
+      "services"
+    ],
+    "priority3": [
+      "branding.logoUrl",
+      "team",
+      "seo.googleBusinessProfileUrl"
+    ]
+  }
+}
