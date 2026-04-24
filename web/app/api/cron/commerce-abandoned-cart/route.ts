@@ -3,6 +3,7 @@ import { randomBytes } from 'crypto'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { cartRecoveryEmail } from '@/lib/commerce/email-templates'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -31,7 +32,7 @@ export const POST = withRequestLog(async (request, { log }) => {
   }
 
   const supabase = await createAdminClient()
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'https://paragu-ai.com'
+  const appUrl = getAppUrl()
   let touched = 0
   let enqueued = 0
   let skippedNoEmail = 0

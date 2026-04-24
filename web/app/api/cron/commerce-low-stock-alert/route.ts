@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { resolveAdminEmail } from '@/lib/commerce/notifications'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -45,7 +46,7 @@ export const POST = withRequestLog(async (request, { log }) => {
     .eq('status', 'active')
 
   const tenants = (Array.isArray(businesses) ? businesses : []) as BusinessRow[]
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://paragu-ai.com'
+  const appUrl = getAppUrl()
   const sinceYesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
 
   let tenantsChecked = 0

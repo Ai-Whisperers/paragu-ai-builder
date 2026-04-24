@@ -3,6 +3,7 @@ import { withRequestLog } from '@/lib/api/with-request-log'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { resolveAdminEmail } from '@/lib/commerce/notifications'
 import { formatCents } from '@/lib/commerce/compute-totals'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -148,7 +149,7 @@ export const POST = withRequestLog(async (request, { log }) => {
       const items = rows
         .map(
           (o) =>
-            `<li style="margin:4px 0;"><a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://paragu-ai.com'}/admin/commerce/${t.id}/orders/${o.id}" style="color:#111;">${o.order_number}</a> — ${formatCents(o.total_cents, o.currency)} · ${daysBetween(new Date(o.created_at), now)}d</li>`,
+            `<li style="margin:4px 0;"><a href="${getAppUrl()}/admin/commerce/${t.id}/orders/${o.id}" style="color:#111;">${o.order_number}</a> — ${formatCents(o.total_cents, o.currency)} · ${daysBetween(new Date(o.created_at), now)}d</li>`,
         )
         .join('')
       return `<h3 style="font-size:14px;margin:16px 0 4px 0;">${label} <span style="color:#6b7280;font-weight:400;">(${rows.length})</span></h3><ul style="padding-left:20px;margin:0;">${items}</ul>`

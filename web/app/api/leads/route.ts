@@ -7,6 +7,7 @@ import { withRequestLog } from '@/lib/api/with-request-log'
 import { metrics } from '@/lib/obs/metrics'
 import type { Lead } from '@/lib/integrations/types'
 import { rateLimit, clientIp } from '@/lib/security/rate-limit'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -295,7 +296,7 @@ async function notifyAdminsOfNewLead(lead: Lead & { id?: string }): Promise<void
     </table>
     ${lead.objective ? `<h3 style="margin:16px 0 4px;font-size:14px">Objective</h3><p style="white-space:pre-wrap;background:#f8fafc;padding:10px;border-radius:6px;font-size:13px">${escapeAttr(lead.objective)}</p>` : ''}
     <p style="margin-top:18px">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'}/admin/inbox/${lead.id || ''}"
+      <a href="${getAppUrl()}/admin/inbox/${lead.id || ''}"
          style="background:#0f172a;color:white;padding:10px 16px;border-radius:6px;text-decoration:none;font-size:13px">
         Open lead
       </a>

@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { withRequestLog } from '@/lib/api/with-request-log'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { reviewRequestEmail } from '@/lib/commerce/email-templates'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -63,7 +64,7 @@ export const POST = withRequestLog(async (request, { log }) => {
     .limit(500)
 
   const rows = (Array.isArray(orders) ? orders : []) as DeliveredOrderRow[]
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://paragu-ai.com'
+  const appUrl = getAppUrl()
 
   let considered = 0
   let enqueued = 0

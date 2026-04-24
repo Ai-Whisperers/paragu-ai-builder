@@ -6,6 +6,7 @@ import { transitionStatus, getOrder } from '@/lib/commerce/orders'
 import { enqueueOrderEmail } from '@/lib/commerce/notifications'
 import { recordOrderEvent } from '@/lib/commerce/order-events'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -37,8 +38,7 @@ export const POST = withRequestLog<{ businessId: string }>(
       .select('name, slug')
       .eq('id', businessId)
       .maybeSingle()
-    const appUrl =
-      process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'https://paragu-ai.com'
+    const appUrl = getAppUrl()
 
     const results: Array<{ orderId: string; ok: boolean; error?: string }> = []
 
