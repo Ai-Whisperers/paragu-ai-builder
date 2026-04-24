@@ -25,7 +25,7 @@ interface SubscriptionRow {
   status: string
   current_period_start: string
   current_period_end: string
-  mercadopago_payment_id: string | null
+  payment_payment_id: string | null
 }
 
 export default async function SubscriptionPage({
