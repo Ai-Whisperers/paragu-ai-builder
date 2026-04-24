@@ -692,7 +692,8 @@
         "Saturday": "Closed",
         "Sunday": "Closed"
       },
-      "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28875.69!2d-57.5759!3d-25.2637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2zQXN1bmNpw7NuLCBQYXJhZ3VheQ!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy"
+      "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28875.69!2d-57.5759!3d-25.2637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2zQXN1bmNpw7NuLCBQYXJhZ3VheQ!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy",
+      "hoursCompact": "Mon–Fri 09:00–18:00"
     }
   },
   "portfolio": {
@@ -1255,5 +1256,12 @@
       "subtitle": "Professional design for your book",
       "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80"
     }
+  },
+  "infoCta": {
+    "title": "Ready to start your cover?",
+    "subtitle": "Send me the brief and I'll reply with a quote in 24 hours.",
+    "buttonText": "Get a quote",
+    "buttonHref": "/s/en/dayah-litworks/contacto",
+    "variant": "gradient"
   }
 }

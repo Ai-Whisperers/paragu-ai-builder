@@ -27,6 +27,11 @@
       "id": "process-timeline",
       "variant": "horizontal",
       "content": "envios.process"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
     }
   ]
 }

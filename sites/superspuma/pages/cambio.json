@@ -22,6 +22,11 @@
       "id": "lead-form",
       "variant": "standard",
       "content": "cambio.form"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
     }
   ]
 }
