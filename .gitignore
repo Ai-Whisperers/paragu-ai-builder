@@ -80,6 +80,11 @@ LAUNCH_READINESS_QUESTIONNAIRE.md
 tmp.json
 *.tmp
 
+# Root-level development artifacts (not used in production)
+.agents/
+prompts/
+marketing/
+
 # Tenant images copied into public/ by web/scripts/copy-tenant-images.mjs
 # on every prebuild. Source of truth lives at sites/<slug>/images/;
 # web/public/sites/ is a regenerated build artifact, never committed.
