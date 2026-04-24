@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scalp_care_studio",
+  "title": "Tratamiento Capilar Business Input Schema (SCAFFOLD)",
+  "description": "Additional fields for Tratamiento Capilar businesses beyond Base Business. Generated scaffold - review and extend with domain-specific fields.",
+  "allOf": [
+    {
+      "$ref": "#base-business"
+    }
+  ],
+  "properties": {},
+  "inputForm": {
+    "priority1": [
+      "businessName",
+      "contact.phone",
+      "contact.email"
+    ],
+    "priority2": [
+      "location.address",
+      "location.city",
+      "services"
+    ],
+    "priority3": [
+      "branding.logoUrl",
+      "team",
+      "seo.googleBusinessProfileUrl"
+    ]
+  }
+}

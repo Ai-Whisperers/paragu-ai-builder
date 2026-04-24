@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "event_planner",
+  "title": "Organizador de Eventos Business Input Schema (SCAFFOLD)",
+  "description": "Additional fields for Organizador de Eventos businesses beyond gimnasio. Generated scaffold - review and extend with domain-specific fields.",
+  "allOf": [
+    {
+      "$ref": "#gimnasio"
+    }
+  ],
+  "properties": {},
+  "inputForm": {
+    "priority1": [
+      "businessName",
+      "contact.phone",
+      "contact.email"
+    ],
+    "priority2": [
+      "location.address",
+      "location.city",
+      "services"
+    ],
+    "priority3": [
+      "branding.logoUrl",
+      "team",
+      "seo.googleBusinessProfileUrl"
+    ]
+  }
+}

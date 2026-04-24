@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "memorial_jewelry_maker",
+  "title": "Joyas Memoriales Business Input Schema (SCAFFOLD)",
+  "description": "Additional fields for Joyas Memoriales businesses beyond Base Business. Generated scaffold - review and extend with domain-specific fields.",
+  "allOf": [
+    {
+      "$ref": "#base-business"
+    }
+  ],
+  "properties": {},
+  "inputForm": {
+    "priority1": [
+      "businessName",
+      "contact.phone",
+      "contact.email"
+    ],
+    "priority2": [
+      "location.address",
+      "location.city",
+      "services"
+    ],
+    "priority3": [
+      "branding.logoUrl",
+      "team",
+      "seo.googleBusinessProfileUrl"
+    ]
+  }
+}

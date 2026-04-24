@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contador_maquila",
+  "title": "Contador Especialista en Maquila Business Input Schema (SCAFFOLD)",
+  "description": "Additional fields for Contador Especialista en Maquila businesses beyond contador. Generated scaffold - review and extend with domain-specific fields.",
+  "allOf": [
+    {
+      "$ref": "#contador"
+    }
+  ],
+  "properties": {},
+  "inputForm": {
+    "priority1": [
+      "businessName",
+      "contact.phone",
+      "contact.email"
+    ],
+    "priority2": [
+      "location.address",
+      "location.city",
+      "services"
+    ],
+    "priority3": [
+      "branding.logoUrl",
+      "team",
+      "seo.googleBusinessProfileUrl"
+    ]
+  }
+}
