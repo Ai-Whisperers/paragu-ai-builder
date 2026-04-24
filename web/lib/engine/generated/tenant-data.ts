@@ -38385,7 +38385,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "ctaPrimaryHref": "#promo-form",
           "ctaPrimaryText": "Participar ahora",
           "headline": "Promo Cartagena 2026",
-          "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026."
+          "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026.",
+          "trustBadgesEnabled": false
         },
         "lead-form": {
           "fields": [
@@ -43906,7 +43907,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "promo-banner",
       "newsletter-signup",
       "lead-form",
-      "mattress-quiz"
+      "mattress-quiz",
+      "features"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",
