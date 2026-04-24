@@ -22,6 +22,11 @@
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
     }
   ]
 }

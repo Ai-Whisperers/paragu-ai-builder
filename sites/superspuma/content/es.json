@@ -628,7 +628,8 @@
         "Sábado": "07:30 - 12:00",
         "Domingo": "Cerrado"
       },
-      "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs."
+      "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
+      "hoursCompact": "Lun–Vie 09:00–18:00  ·  Sáb 09:00–13:00"
     },
     "promo-cartagena": {
       "title": "Promo Cartagena 2026",
@@ -2831,7 +2832,7 @@
       },
       {
         "label": "Catálogo",
-        "href": "/s/es/superspuma#catalogo"
+        "href": "/s/es/superspuma/catalogo"
       },
       {
         "label": "Combos",
@@ -2842,28 +2843,34 @@
         "href": "/s/es/superspuma/promociones"
       },
       {
-        "label": "Cambio",
-        "href": "/s/es/superspuma/cambio"
+        "label": "Info útil",
+        "href": "/s/es/superspuma/guias",
+        "children": [
+          {
+            "label": "Guía de compra",
+            "href": "/s/es/superspuma/guias"
+          },
+          {
+            "label": "Envíos",
+            "href": "/s/es/superspuma/envios"
+          },
+          {
+            "label": "Financiación",
+            "href": "/s/es/superspuma/financiacion"
+          },
+          {
+            "label": "Garantía",
+            "href": "/s/es/superspuma/garantia"
+          },
+          {
+            "label": "Cambio de colchón",
+            "href": "/s/es/superspuma/cambio"
+          }
+        ]
       },
       {
         "label": "Tiendas",
         "href": "/s/es/superspuma/tiendas"
-      },
-      {
-        "label": "Guía de compra",
-        "href": "/s/es/superspuma/guias"
-      },
-      {
-        "label": "Envíos",
-        "href": "/s/es/superspuma/envios"
-      },
-      {
-        "label": "Financiación",
-        "href": "/s/es/superspuma/financiacion"
-      },
-      {
-        "label": "Garantía",
-        "href": "/s/es/superspuma/garantia"
       },
       {
         "label": "Nosotros",
@@ -5450,5 +5457,12 @@
       "subtitle": "Todo lo que los clientes consultan antes de comprar — en un solo lugar, buscable.",
       "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
     }
+  },
+  "infoCta": {
+    "title": "¿Listo para elegir tu colchón?",
+    "subtitle": "Todos nuestros modelos con financiación y envío a todo Paraguay.",
+    "buttonText": "Ver catálogo",
+    "buttonHref": "/s/es/superspuma/catalogo",
+    "variant": "gradient"
   }
 }

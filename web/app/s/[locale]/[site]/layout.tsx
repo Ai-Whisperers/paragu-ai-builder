@@ -50,7 +50,12 @@ export default async function TenantLayout({ children, params }: Props) {
         <link rel="stylesheet" href={googleFontsUrl} precedence="default" />
       ) : null}
       {children}
-      <ExitIntentMount locale={locale} site={site} />
+      {/* Exit-intent modal copy is relocation-vertical specific ("Paraguay
+          guide for European investors") and points at hola@nexaparaguay.com.
+          Mounting it on Superspuma / Dayah / etc. leaks another tenant's
+          brand into the storefront. Gate to Nexa until per-tenant copy
+          exists. See docs/audit/visual-critique-2026-04-24.md §"critic pass". */}
+      {site === 'nexa-paraguay' && <ExitIntentMount locale={locale} site={site} />}
       <LiveChatLoader websiteId={process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID} />
       <SiteSearch siteSlug={site} locale={locale} />
     </>

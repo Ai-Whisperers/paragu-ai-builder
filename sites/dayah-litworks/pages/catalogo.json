@@ -7,6 +7,11 @@
       "id": "product-catalog",
       "variant": "grid",
       "content": "home.products"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
     }
   ]
 }

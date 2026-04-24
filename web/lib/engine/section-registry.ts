@@ -131,6 +131,11 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['standard'],
     requiredContentFields: ['src'],
   },
+  'contact-strip': {
+    id: 'contact-strip',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+  },
   team: {
     id: 'team',
     defaultVariant: 'cards',

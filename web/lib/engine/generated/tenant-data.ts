@@ -737,8 +737,8 @@ export const SITES: Record<string, JsonRecord> = {
       "footer": [
         {
           "content": "home.contact",
-          "id": "contact",
-          "variant": "split"
+          "id": "contact-strip",
+          "variant": "standard"
         },
         {
           "content": "whatsapp",
@@ -5109,8 +5109,8 @@ export const SITES: Record<string, JsonRecord> = {
       "footer": [
         {
           "content": "home.contact",
-          "id": "contact",
-          "variant": "split"
+          "id": "contact-strip",
+          "variant": "standard"
         },
         {
           "content": "whatsapp",
@@ -5941,6 +5941,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.products",
         "id": "product-catalog",
         "variant": "grid"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "catalogo",
@@ -5963,6 +5968,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "newsletter",
         "id": "newsletter-signup",
         "variant": "standard"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
       }
     ],
     "slug": "contacto",
@@ -12882,6 +12892,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "cambio.form",
         "id": "lead-form",
         "variant": "standard"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "cambio",
@@ -12909,6 +12924,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "combos",
@@ -12941,6 +12961,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "envios.process",
         "id": "process-timeline",
         "variant": "horizontal"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "envios",
@@ -13000,6 +13025,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "financiacion.paymentMethods",
         "id": "features",
         "variant": "grid"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "financiacion",
@@ -13022,6 +13052,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "garantia.warrantyByModel",
         "id": "programs-comparison",
         "variant": "tiered"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "garantia",
@@ -13059,6 +13094,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "guias.lifeCalcBlock",
         "id": "features",
         "variant": "grid"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "guias",
@@ -13147,6 +13187,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "nosotros",
@@ -14549,6 +14594,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "contact-strip"
+    ],
     "slug": "promo-cartagena",
     "titleKey": "home.promo-cartagena.title"
   },
@@ -14628,6 +14676,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
       }
     ],
     "slug": "tiendas",
@@ -14823,6 +14876,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Tuesday": "09:00 – 18:00",
           "Wednesday": "09:00 – 18:00"
         },
+        "hoursCompact": "Mon–Fri 09:00–18:00",
         "instagram": "@dayah.litworks",
         "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
         "subtitle": "Same-day response",
@@ -15391,6 +15445,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Why Choose Us"
       }
+    },
+    "infoCta": {
+      "buttonHref": "/s/en/dayah-litworks/contacto",
+      "buttonText": "Get a quote",
+      "subtitle": "Send me the brief and I'll reply with a quote in 24 hours.",
+      "title": "Ready to start your cover?",
+      "variant": "gradient"
     },
     "navigation": {
       "businessName": "Dayah LitWorks",
@@ -16082,6 +16143,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Sábado": "Cerrado",
           "Viernes": "09:00 – 18:00"
         },
+        "hoursCompact": "Lun–Vie 09:00–18:00",
         "instagram": "@dayah.litworks",
         "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
         "subtitle": "Respuesta en el día",
@@ -16650,6 +16712,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "¿Por qué elegirnos?"
       }
+    },
+    "infoCta": {
+      "buttonHref": "/s/es/dayah-litworks/contacto",
+      "buttonText": "Pedir cotización",
+      "subtitle": "Mandame los datos básicos y te paso una propuesta en 24 horas.",
+      "title": "¿Querés empezar tu portada?",
+      "variant": "gradient"
     },
     "navigation": {
       "businessName": "Dayah LitWorks",
@@ -37885,6 +37954,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Sábado": "07:30 - 12:00",
           "Viernes": "07:30 - 17:00"
         },
+        "hoursCompact": "Lun–Vie 09:00–18:00  ·  Sáb 09:00–13:00",
         "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
         "neighborhood": "Villeta",
         "phone": "+595 981 111 222",
@@ -38549,6 +38619,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Medio siglo fabricando confort"
       }
     },
+    "infoCta": {
+      "buttonHref": "/s/es/superspuma/catalogo",
+      "buttonText": "Ver catálogo",
+      "subtitle": "Todos nuestros modelos con financiación y envío a todo Paraguay.",
+      "title": "¿Listo para elegir tu colchón?",
+      "variant": "gradient"
+    },
     "navigation": {
       "businessName": "Superspuma",
       "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20un%20colch%C3%B3n%20Superspuma",
@@ -38559,7 +38636,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
-          "href": "/s/es/superspuma#catalogo",
+          "href": "/s/es/superspuma/catalogo",
           "label": "Catálogo"
         },
         {
@@ -38571,28 +38648,34 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Promos"
         },
         {
-          "href": "/s/es/superspuma/cambio",
-          "label": "Cambio"
+          "children": [
+            {
+              "href": "/s/es/superspuma/guias",
+              "label": "Guía de compra"
+            },
+            {
+              "href": "/s/es/superspuma/envios",
+              "label": "Envíos"
+            },
+            {
+              "href": "/s/es/superspuma/financiacion",
+              "label": "Financiación"
+            },
+            {
+              "href": "/s/es/superspuma/garantia",
+              "label": "Garantía"
+            },
+            {
+              "href": "/s/es/superspuma/cambio",
+              "label": "Cambio de colchón"
+            }
+          ],
+          "href": "/s/es/superspuma/guias",
+          "label": "Info útil"
         },
         {
           "href": "/s/es/superspuma/tiendas",
           "label": "Tiendas"
-        },
-        {
-          "href": "/s/es/superspuma/guias",
-          "label": "Guía de compra"
-        },
-        {
-          "href": "/s/es/superspuma/envios",
-          "label": "Envíos"
-        },
-        {
-          "href": "/s/es/superspuma/financiacion",
-          "label": "Financiación"
-        },
-        {
-          "href": "/s/es/superspuma/garantia",
-          "label": "Garantía"
         },
         {
           "href": "/s/es/superspuma/nosotros",
@@ -43827,6 +43910,7 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "faq",
       "cta-banner",
       "contact",
+      "contact-strip",
       "lead-form",
       "blog-index",
       "blog-post",
@@ -43934,6 +44018,7 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "business-hours",
       "google-maps",
       "contact",
+      "contact-strip",
       "cta-banner",
       "footer",
       "whatsapp-float",
