@@ -5975,6 +5975,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "split"
       }
     ],
+    "skipDefaults": [
+      "contact-strip"
+    ],
     "slug": "contacto",
     "titleKey": "contactHero.title"
   },
@@ -14682,6 +14685,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "contact",
         "variant": "split"
       }
+    ],
+    "skipDefaults": [
+      "contact-strip"
     ],
     "slug": "tiendas",
     "titleKey": "tiendas.seo.title"

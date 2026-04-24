@@ -23,5 +23,8 @@
     }
   ],
   "titleKey": "contactHero.title",
-  "descriptionKey": "contactHero.subtitle"
+  "descriptionKey": "contactHero.subtitle",
+  "skipDefaults": [
+    "contact-strip"
+  ]
 }
