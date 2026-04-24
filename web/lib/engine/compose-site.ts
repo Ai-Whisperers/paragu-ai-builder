@@ -266,6 +266,16 @@ function normalizeSectionProps(sectionId: string, props: Record<string, unknown>
         normalized.businessName = normalized.siteName
       }
       break
+    case 'hero':
+      // Content files commonly ship `title`/`subtitle`, component expects `headline`/`subheadline`.
+      // This mapping is what was silently making inner-page heroes render empty text.
+      if (normalized.title && !normalized.headline) {
+        normalized.headline = normalized.title
+      }
+      if (normalized.subtitle && !normalized.subheadline) {
+        normalized.subheadline = normalized.subtitle
+      }
+      break
     case 'services':
       if (normalized.items && !normalized.services) {
         normalized.services = normalized.items
