@@ -45,7 +45,15 @@
         "No hassle",
         "Born in Calgary 🍁",
         "Delivered Globally 🌎"
-      ]
+      ],
+      "disclaimerBanner": {
+        "title": "⚠️ Demo Site - Illustrative Examples Only",
+        "description": "This site contains AI-generated content for demonstration purposes only.",
+        "buttonText": "Contact Stoic Finch",
+        "buttonLink": "mailto:hello@stoicfinch.com",
+        "cssClasses": "bg-amber-100 border-l-2 border-amber-500 p-4 text-center dismissible",
+        "dismissible": true
+      }
     },
     "trust": {
       "eyebrow": "About Stoic Finch",

@@ -7,7 +7,9 @@
   "publicUrl": "https://paragu-ai.com/fun4me",
   "stagingDomain": "fun4me.sunstein.cloud",
   "defaultLocale": "es",
-  "locales": ["es"],
+  "locales": [
+    "es"
+  ],
   "contact": {
     "phone": "+595976569739",
     "email": "hola@fun4me.com.py",
@@ -27,7 +29,10 @@
     "address": "Herrera 875",
     "city": "Asuncion",
     "country": "Paraguay",
-    "coordinates": { "lat": -25.2867, "lng": -57.6474 },
+    "coordinates": {
+      "lat": -25.2867,
+      "lng": -57.6474
+    },
     "googleMapsId": null
   },
   "hours": {
@@ -49,7 +54,13 @@
     "delivery": {
       "enabled": true,
       "freeThreshold": 200000,
-      "zones": ["Asuncion", "Fernando de la Mora", "San Lorenzo", "Lambare", "Luque"],
+      "zones": [
+        "Asuncion",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambare",
+        "Luque"
+      ],
       "national": true,
       "expressAvailable": true,
       "expressCutoff": "15:00",
@@ -119,10 +130,33 @@
     "backInStockNotifications": true
   },
   "featurePhases": {
-    "phase1": ["productCatalog", "pagoparCheckout", "wishlist", "giftCards", "bundles", "blog"],
-    "phase2": ["reviews", "sizeGuides", "discreteAccountNames", "ageGateHardening"],
-    "phase3": ["subscriptions", "referral", "loyalty", "whatsappBusinessApi", "liveChat"],
-    "phase4": ["storePickupReserve", "events", "timbradoInvoicing", "discreteBillingToggle"]
+    "phase1": [
+      "productCatalog",
+      "pagoparCheckout",
+      "wishlist",
+      "giftCards",
+      "bundles",
+      "blog"
+    ],
+    "phase2": [
+      "reviews",
+      "sizeGuides",
+      "discreteAccountNames",
+      "ageGateHardening"
+    ],
+    "phase3": [
+      "subscriptions",
+      "referral",
+      "loyalty",
+      "whatsappBusinessApi",
+      "liveChat"
+    ],
+    "phase4": [
+      "storePickupReserve",
+      "events",
+      "timbradoInvoicing",
+      "discreteBillingToggle"
+    ]
   },
   "seo": {
     "schemaType": "Store",
@@ -163,5 +197,6 @@
   "migratedFrom": "vete/web/.content_data/fun4me/",
   "migratedAt": "2026-04-21",
   "fullRolloutStartedAt": "2026-04-21",
-  "is_demo": false
+  "is_demo": false,
+  "isLiveProduction": true
 }

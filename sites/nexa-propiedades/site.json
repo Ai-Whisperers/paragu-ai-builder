@@ -28,10 +28,19 @@
     }
   ],
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4",
-    "maps": "google-maps"
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "G-XXXXXXXXXXX",
+        "streamName": "paragu-ai-builder"
+      }
+    }
   },
   "features": {
     "propertySearch": true,
@@ -59,5 +68,6 @@
     "titleTemplate": "{{pageTitle}} — Nexa Propiedades Paraguay",
     "defaultDescription": "Encuentra tu hogar ideal en Paraguay. Casas, departamentos y terrenos en Asunción."
   },
-  "is_demo": false
+  "is_demo": false,
+  "isLiveProduction": true
 }

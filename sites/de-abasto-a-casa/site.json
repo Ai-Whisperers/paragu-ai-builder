@@ -26,9 +26,19 @@
     "Domingo": "Cerrado"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "R-XXXXXXXXXX",
+        "streamName": "paragu-ai-builder-dayah-litworks"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
@@ -36,5 +46,6 @@
   },
   "migratedFrom": "web/lib/engine/demo-data.ts",
   "migratedAt": "2026-04-20",
-  "is_demo": false
+  "is_demo": false,
+  "isLiveProduction": true
 }
