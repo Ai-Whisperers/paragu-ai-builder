@@ -361,7 +361,7 @@ Include:
 ### Architecture Docs
 - `CLAUDE.md` - This is the main technical reference
 - `docs/STRATEGY_NEXT_STEPS.md` - Roadmap and priorities
-- `docs/TENANTS.md` - Multi-tenancy model
+- `docs/reference/TENANTS.md` - Multi-tenancy model
 - `docs/DEPLOYMENT.md` - Production deployment
 
 ### Code Examples
