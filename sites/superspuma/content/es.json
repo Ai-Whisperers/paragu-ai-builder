@@ -639,7 +639,8 @@
         "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026.",
         "ctaPrimaryText": "Participar ahora",
         "ctaPrimaryHref": "#promo-form",
-        "trustBadgesEnabled": false
+        "trustBadgesEnabled": false,
+        "backgroundImage": "https://images.unsplash.com/photo-1631900099091-51b06fa6c4ea?auto=format&fit=crop&w=2000&q=80"
       },
       "lead-form": {
         "title": "Formulario de participación",
@@ -747,7 +748,8 @@
     "hero": {
       "headline": "49 años haciendo dormir al Paraguay",
       "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80"
     },
     "story": {
       "title": "Nuestra historia",
@@ -794,7 +796,8 @@
     "hero": {
       "headline": "Nuestras tiendas",
       "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80"
     },
     "stores": {
       "title": "Tiendas y puntos de venta",
@@ -986,7 +989,8 @@
     "hero": {
       "headline": "Elegí bien, dormí mejor",
       "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80"
     },
     "sizeGuide": {
       "title": "Medidas estándar en Paraguay",
@@ -1262,7 +1266,8 @@
     "hero": {
       "headline": "Respaldo de fábrica paraguaya",
       "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80"
     },
     "coverage": {
       "title": "Qué cubre y qué no",
@@ -1392,7 +1397,8 @@
     "hero": {
       "headline": "Envíos a todo el Paraguay",
       "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80"
     },
     "trustBadges": {
       "title": "Lo que incluye tu envío",
@@ -1591,7 +1597,8 @@
     "hero": {
       "headline": "Pagá tu colchón como te convenga",
       "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80"
     },
     "trustBadges": {
       "title": "Lo que ofrecemos",
@@ -2553,7 +2560,8 @@
         "Retiro sin costo",
         "Crédito sobre tu nuevo colchón"
       ],
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80"
     },
     "howItWorks": {
       "eyebrow": "Cómo funciona",
@@ -2746,7 +2754,8 @@
         "Entrega coordinada",
         "18 cuotas sin interés"
       ],
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
     },
     "combos": {
       "eyebrow": "Combos sugeridos",
@@ -5365,7 +5374,8 @@
     "hero": {
       "headline": "Promociones vigentes",
       "subheadline": "Todas en un solo lugar. Consultá condiciones en cada una.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
     },
     "active": {
       "title": "En curso ahora",

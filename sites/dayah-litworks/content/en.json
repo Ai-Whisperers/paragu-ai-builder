@@ -131,7 +131,8 @@
         "6+ years of experience",
         "USD or PYG",
         "Delivery in 1–2 weeks"
-      ]
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80"
     },
     "trustBadges": {
       "title": "Why Choose Us",
@@ -465,7 +466,8 @@
           }
         ]
       },
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80"
     },
     "products": {
       "title": "Premade Catalog",
@@ -581,7 +583,8 @@
           ],
           "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Crystal%20Wings'"
         }
-      ]
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80"
     },
     "process": {
       "title": "Process",
@@ -733,7 +736,8 @@
           "href": "/s/en/dayah-litworks/catalogo"
         }
       ],
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80"
     },
     "trustBadgesEnabled": false,
     "nda": {
@@ -753,7 +757,8 @@
     "hero": {
       "title": "Blog",
       "subtitle": "Tips, trends and resources for authors",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=80"
     },
     "posts": [
       {
@@ -818,7 +823,8 @@
   "contactHero": {
     "title": "Tell me about your book",
     "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80"
   },
   "quoteForm": {
     "title": "Tell me about your book",
@@ -977,7 +983,8 @@
     "hero": {
       "title": "About Dayah LitWorks",
       "subtitle": "Where fantasy becomes reality",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2000&q=80"
     },
     "bio": {
       "features": [
