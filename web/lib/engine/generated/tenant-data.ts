@@ -6110,6 +6110,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
+        "content": "portfolio.nda",
+        "id": "illustration",
+        "variant": "standard"
+      },
+      {
         "content": "portfolio.placeholder",
         "id": "features",
         "variant": "three-col"
@@ -13159,6 +13164,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
+        "content": "envios.map",
+        "id": "illustration",
+        "variant": "standard"
+      },
+      {
         "content": "envios.process",
         "id": "process-timeline",
         "variant": "horizontal"
@@ -15029,6 +15039,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "tiendas.map",
+        "id": "illustration",
+        "variant": "standard"
+      },
+      {
         "content": "tiendas.stores",
         "id": "programs-comparison",
         "variant": "tiered"
@@ -15872,6 +15887,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "Horror"
       ],
       "items": [],
+      "nda": {
+        "alt": "Redacted sample of Dayah LitWorks portfolio",
+        "background": "surface",
+        "maxWidth": 1000,
+        "src": "/images/dayah/portfolio-nda.svg",
+        "subtitle": "I respect every project's confidentiality. Message me and I'll share real samples privately.",
+        "title": "NDA-protected work"
+      },
       "placeholder": {
         "features": [
           {
@@ -16600,7 +16623,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'",
             "description": "Portada premade — Fantasía/Romance",
             "format": "eBook",
-            "imageUrl": "",
+            "imageUrl": "/images/dayah/covers/susurros-del-bosque.svg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -16617,7 +16640,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'",
             "description": "Portada premade — Romance Oscuro",
             "format": "eBook",
-            "imageUrl": "",
+            "imageUrl": "/images/dayah/covers/corazon-de-cenizas.svg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -16634,7 +16657,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'",
             "description": "Portada premade — Thriller/Suspenso",
             "format": "eBook",
-            "imageUrl": "",
+            "imageUrl": "/images/dayah/covers/el-ultimo-codigo.svg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -16651,7 +16674,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'",
             "description": "Portada premade — Ciencia Ficción",
             "format": "eBook",
-            "imageUrl": "",
+            "imageUrl": "/images/dayah/covers/galaxia-interior.svg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -16668,7 +16691,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'",
             "description": "Portada premade — Terror/Horror",
             "format": "eBook",
-            "imageUrl": "",
+            "imageUrl": "/images/dayah/covers/sombras-en-el-espejo.svg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -16685,7 +16708,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'",
             "description": "Portada premade — Fantasía Juvenil",
             "format": "eBook",
-            "imageUrl": "",
+            "imageUrl": "/images/dayah/covers/alas-de-cristal.svg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -37218,6 +37241,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
         "trustBadgesEnabled": false
       },
+      "map": {
+        "alt": "Mapa de Paraguay con zonas de envío",
+        "background": "surface",
+        "maxWidth": 820,
+        "src": "/images/ss/py-map-zones.svg",
+        "subtitle": "Zona 1 gratis desde compras de Gs. 1.000.000. Zona 2 y 3 tienen costo fijo.",
+        "title": "Tres zonas de cobertura"
+      },
       "process": {
         "eyebrow": "Cómo funciona",
         "steps": [
@@ -42172,6 +42203,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Centros logísticos en el interior"
       },
+      "map": {
+        "alt": "Mapa de Paraguay con ubicación de tiendas Superspuma",
+        "background": "surface",
+        "maxWidth": 820,
+        "src": "/images/ss/py-map.svg",
+        "subtitle": "Asunción y Central concentran los puntos propios. El resto del país llega vía centros logísticos.",
+        "title": "7 tiendas + 6 centros logísticos en todo el país"
+      },
       "seo": {
         "description": "Red propia en Paraguay: 7 tiendas en Asunción y Central (Villamorra Shopping, Paseo La Galería, Fuente Shopping, Lillo, Fernando de la Mora, Luisito en Ñemby y el outlet Saldos Mariano) más 6 centros logísticos en el interior.",
         "title": "Tiendas Superspuma — 5 sucursales en Asunción y Central"
@@ -44170,6 +44209,7 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "whatsapp-float",
       "product-catalog",
       "gallery",
+      "illustration",
       "photo-gallery",
       "instagram-feed",
       "pricing",
@@ -44263,6 +44303,7 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "product-grid",
       "services",
       "gallery",
+      "illustration",
       "testimonials",
       "faq",
       "business-hours",
