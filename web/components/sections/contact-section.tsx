@@ -16,7 +16,17 @@ export interface ContactSectionProps {
   whatsapp?: string
   whatsappMessage?: string
   googleMapsUrl?: string
-  hours?: Record<string, string>
+  /**
+   * Opening hours. Accepts either a full weekday map
+   *   { "Lunes": "9:00 - 18:00", "Martes": "9:00 - 18:00", ..., "Domingo": "Cerrado" }
+   * or a single free-form string like "Lunes a Viernes: 9:00 - 18:00" that
+   * renders as one line. The string shape is kept for tenants that don't
+   * need a full weekday grid (nexa-propiedades, small-footprint sites);
+   * before this was supported, passing a string made the component call
+   * `Object.entries` on a string and render one DOM row per character
+   * ("0 L 1 u 2 n..." shipped on nexa-propiedades production for weeks).
+   */
+  hours?: Record<string, string> | string
   /**
    * Optional short note rendered below the weekday list — useful for
    * "Tiendas en shopping abren todos los días hasta 21h" kind of
@@ -103,7 +113,15 @@ export function ContactSection({
 }: ContactSectionProps) {
   const labels = CONTACT_LABELS[__locale] ?? CONTACT_LABELS.es
   const hasContactInfo = phone || email || whatsapp
-  const hasHours = hours && Object.keys(hours).length > 0
+  // `hours` can be a free-form string or a weekday map. Normalize the
+  // two early so downstream rendering code branches in exactly one place.
+  const hoursIsString = typeof hours === 'string'
+  const hoursMap = !hoursIsString && hours ? hours : undefined
+  const hasHours = hoursIsString
+    ? (hours as string).trim().length > 0
+    : hoursMap
+    ? Object.keys(hoursMap).length > 0
+    : false
   const whatsappHref = whatsapp
     ? `https://wa.me/${whatsapp.replace(/\D/g, '')}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
     : ''
@@ -286,16 +304,22 @@ export function ContactSection({
                     >
                       {labels.hours}
                     </Heading>
-                    <dl className="space-y-2">
-                      {orderHours(hours as Record<string, string>, labels.weekdayOrder).map(([day, time]) => (
-                        <div key={day}
-                          className="flex justify-between gap-4 text-sm sm:text-base py-1 border-b border-gray-100 last:border-0"
-                        >
-                          <dt style={{ color: 'var(--text)' }}>{day}</dt>
-                          <dd className="font-medium" style={{ color: 'var(--text-light)' }}>{time}</dd>
-                        </div>
-                      ))}
-                    </dl>
+                    {hoursIsString ? (
+                      <p className="text-sm sm:text-base" style={{ color: 'var(--text-light)' }}>
+                        {hours as string}
+                      </p>
+                    ) : (
+                      <dl className="space-y-2">
+                        {orderHours(hoursMap as Record<string, string>, labels.weekdayOrder).map(([day, time]) => (
+                          <div key={day}
+                            className="flex justify-between gap-4 text-sm sm:text-base py-1 border-b border-gray-100 last:border-0"
+                          >
+                            <dt style={{ color: 'var(--text)' }}>{day}</dt>
+                            <dd className="font-medium" style={{ color: 'var(--text-light)' }}>{time}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    )}
                     {hoursNote && (
                       <p className="mt-3 text-xs italic" style={{ color: 'var(--text-light)' }}>
                         {hoursNote}

@@ -5,15 +5,38 @@
   "domain": "stoicfinch.com",
   "stagingDomain": "staging.stoicfinch.com",
   "defaultLocale": "en",
-  "locales": ["en"],
+  "locales": [
+    "en"
+  ],
   "navigation": [
-    { "labelKey": "navigation.services", "path": "services" },
-    { "labelKey": "navigation.industries", "path": "industries" },
-    { "labelKey": "navigation.caseStudies", "path": "case-studies" },
-    { "labelKey": "navigation.about", "path": "about" },
-    { "labelKey": "navigation.resources", "path": "resources" },
-    { "labelKey": "navigation.blog", "path": "blog" },
-    { "labelKey": "navigation.contact", "path": "contact" }
+    {
+      "labelKey": "navigation.services",
+      "path": "services"
+    },
+    {
+      "labelKey": "navigation.industries",
+      "path": "industries"
+    },
+    {
+      "labelKey": "navigation.caseStudies",
+      "path": "case-studies"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "about"
+    },
+    {
+      "labelKey": "navigation.resources",
+      "path": "resources"
+    },
+    {
+      "labelKey": "navigation.blog",
+      "path": "blog"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contact"
+    }
   ],
   "integrations": {
     "crm": null,
@@ -53,7 +76,10 @@
     "region": "Alberta",
     "country": "Canada",
     "address": "Suite 100, 105 12 Ave SE, Calgary, AB T2G 1A1",
-    "coordinates": { "lat": 51.0447, "lng": -114.0719 },
+    "coordinates": {
+      "lat": 51.0447,
+      "lng": -114.0719
+    },
     "googleMapsId": null
   },
   "social": {
@@ -88,7 +114,7 @@
     "pricing": "Stoic Finch publishes no pricing — the matrix shows representative tiers only."
   },
   "isLiveProduction": false,
-  "is_demo": true,
+  "is_demo": false,
   "demoMode": {
     "enabled": true,
     "reason": "Built from public research at https://stoicfinch.com/ on 2026-04-21. No engagement with Stoic Finch Corporation has been confirmed. AI-written copy + AI-generated team/testimonials/case-studies are placeholders consistent with the live site's voice. Replace ALL flagged placeholderFields and flip is_demo:false before any paid traffic.",
