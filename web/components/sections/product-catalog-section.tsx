@@ -137,8 +137,39 @@ function ProductCard({
   return (
     <AnimateOnScroll stagger={index}>
       <Card className="flex flex-col overflow-hidden">
-        {product.imageUrl && (
+        {product.imageUrl ? (
           <CardImage src={product.imageUrl} alt={product.name} className="h-64" />
+        ) : (
+          <div
+            className="flex h-64 items-center justify-center px-6"
+            style={{
+              background:
+                'linear-gradient(135deg, var(--surface) 0%, var(--surface-light, var(--surface)) 100%)',
+              borderBottom: '1px solid var(--border)',
+            }}
+            aria-label={`${product.name} — foto próximamente`}
+          >
+            <div className="text-center">
+              <p
+                className="font-semibold tracking-wide"
+                style={{
+                  color: 'var(--primary)',
+                  fontFamily: 'var(--font-heading)',
+                  fontSize: 'clamp(1.25rem, 3vw, 1.75rem)',
+                }}
+              >
+                {product.name}
+              </p>
+              {product.category && (
+                <p
+                  className="mt-2 text-xs uppercase tracking-widest"
+                  style={{ color: 'var(--text-muted)' }}
+                >
+                  {product.category}
+                </p>
+              )}
+            </div>
+          </div>
         )}
         <CardContent className="flex flex-1 flex-col">
           <div className="flex items-start justify-between gap-2">

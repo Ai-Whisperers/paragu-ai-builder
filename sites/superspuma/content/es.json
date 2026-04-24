@@ -1117,6 +1117,64 @@
           "severity": "ok"
         }
       ]
+    },
+    "comparisonBlock": {
+      "title": "Espuma vs Resorte — ¿cuál elegir?",
+      "subtitle": "Resumen honesto de cada uno.",
+      "features": [
+        {
+          "title": "Firmeza",
+          "description": "**Espuma:** Adaptable al cuerpo  ·  **Resorte:** Más firme y estable"
+        },
+        {
+          "title": "Disipación de calor",
+          "description": "**Espuma:** Retiene más calor  ·  **Resorte:** Circula mejor el aire"
+        },
+        {
+          "title": "Ruido al moverse",
+          "description": "**Espuma:** Silencioso  ·  **Resorte:** Puede sonar con el tiempo"
+        },
+        {
+          "title": "Vida útil",
+          "description": "**Espuma:** 6-8 años  ·  **Resorte:** 8-10 años"
+        },
+        {
+          "title": "Mejor para",
+          "description": "**Espuma:** Lumbalgia, dormir de costado  ·  **Resorte:** Dormir boca arriba, más de 80 kg"
+        },
+        {
+          "title": "Precio base",
+          "description": "**Espuma:** Desde Gs. 500.000  ·  **Resorte:** Desde Gs. 1.480.000"
+        },
+        {
+          "title": "Mantenimiento",
+          "description": "**Espuma:** No necesita rotación  ·  **Resorte:** Rotar cada 3 meses"
+        }
+      ]
+    },
+    "lifeCalcBlock": {
+      "title": "¿Tu colchón ya cumplió?",
+      "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
+      "features": [
+        {
+          "title": "10+ años",
+          "description": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
+          "href": "/s/es/superspuma/cambio"
+        },
+        {
+          "title": "8-10 años",
+          "description": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
+          "href": "/s/es/superspuma/cambio"
+        },
+        {
+          "title": "5-8 años",
+          "description": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin."
+        },
+        {
+          "title": "Menos de 5 años",
+          "description": "Relájate. Tu colchón está en sus mejores años."
+        }
+      ]
     }
   },
   "garantia": {
