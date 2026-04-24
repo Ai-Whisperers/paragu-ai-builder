@@ -27,6 +27,11 @@
       "id": "trust-badges",
       "variant": "strip",
       "content": "home.trustBadges"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
     }
   ]
 }

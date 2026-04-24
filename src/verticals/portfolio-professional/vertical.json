@@ -29,6 +29,7 @@
     "faq",
     "cta-banner",
     "contact",
+    "contact-strip",
     "lead-form",
     "blog-index",
     "blog-post",
@@ -47,5 +48,7 @@
     "booking-embed"
   ],
   "defaultStarterKit": "full",
-  "locales": ["es"]
+  "locales": [
+    "es"
+  ]
 }

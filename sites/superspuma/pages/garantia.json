@@ -17,6 +17,11 @@
       "id": "programs-comparison",
       "variant": "tiered",
       "content": "garantia.warrantyByModel"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
     }
   ]
 }

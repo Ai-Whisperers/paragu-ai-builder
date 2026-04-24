@@ -15,6 +15,11 @@
       "id": "newsletter-signup",
       "variant": "standard",
       "content": "newsletter"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
     }
   ],
   "titleKey": "contactHero.title",

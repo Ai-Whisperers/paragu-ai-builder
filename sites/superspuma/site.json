@@ -152,8 +152,8 @@
     },
     "footer": [
       {
-        "id": "contact",
-        "variant": "split",
+        "id": "contact-strip",
+        "variant": "standard",
         "content": "home.contact"
       },
       {

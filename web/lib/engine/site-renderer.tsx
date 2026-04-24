@@ -18,6 +18,7 @@ import { AgeGateSection } from '@/components/sections/age-gate-section'
 import { TrustBadgesSection } from '@/components/sections/trust-badges-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { IllustrationSection } from '@/components/sections/illustration-section'
+import { ContactStripSection } from '@/components/sections/contact-strip-section'
 import { TeamSection } from '@/components/sections/team-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
 import { ContactSection } from '@/components/sections/contact-section'
@@ -91,6 +92,7 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'trust-badges': TrustBadgesSection,
   gallery: GallerySection,
   illustration: IllustrationSection,
+  'contact-strip': ContactStripSection,
   team: TeamSection,
   testimonials: TestimonialsSection,
   contact: ContactSection,

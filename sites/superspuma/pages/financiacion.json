@@ -37,6 +37,11 @@
       "id": "features",
       "variant": "grid",
       "content": "financiacion.paymentMethods"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
     }
   ]
 }
