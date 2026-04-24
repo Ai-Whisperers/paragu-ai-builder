@@ -16,6 +16,7 @@ import { NextResponse } from 'next/server'
 import { checkAdmin } from '@/lib/auth/admin'
 import { resendAdapter } from '@/lib/integrations/email/resend'
 import { logger } from '@/lib/logger'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -56,7 +57,7 @@ export async function POST() {
     <h3 style="margin:16px 0 4px;font-size:14px">Objective</h3>
     <p style="white-space:pre-wrap;background:#f8fafc;padding:10px;border-radius:6px;font-size:13px">Sample objective text. Real leads will have what the visitor actually typed here.</p>
     <p style="margin-top:18px">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://paragu-ai.com'}/admin/inbox"
+      <a href="${getAppUrl()}/admin/inbox"
          style="background:#0f172a;color:white;padding:10px 16px;border-radius:6px;text-decoration:none;font-size:13px">
         Open Inbox
       </a>

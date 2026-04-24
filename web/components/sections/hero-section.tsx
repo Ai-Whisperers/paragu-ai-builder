@@ -1,3 +1,6 @@
+'use client'
+
+import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Heading } from '@/components/ui/heading'
 import { Container } from '@/components/ui/container'
@@ -7,6 +10,15 @@ import { FloatingElement } from '@/components/ui/animated'
 import { GlassCard } from '@/components/ui/glass'
 import { cn } from '@/lib/utils'
 
+export interface DisclaimerBannerProps {
+  title: string
+  description: string
+  buttonText: string
+  buttonLink: string
+  cssClasses?: string
+  dismissible: boolean
+}
+
 export interface HeroSectionProps {
   headline: string
   subheadline: string
@@ -15,6 +27,7 @@ export interface HeroSectionProps {
   ctaSecondaryText?: string
   ctaSecondaryHref?: string
   backgroundImage?: string
+  disclaimerBanner?: DisclaimerBannerProps
   /**
    * Optional portrait-orientation variant of the hero background. When set
    * we emit a `<picture>` with a mobile `<source>` (max-width: 640px) so
@@ -72,14 +85,64 @@ export function HeroSection({
   __locale,
   trustBadgesEnabled = true,
   trustBadges: trustBadgesProp,
+  disclaimerBanner,
 }: HeroSectionProps) {
+  const [isBannerDismissed, setIsBannerDismissed] = useState(false)
+
+  useEffect(() => {
+    if (disclaimerBanner?.dismissible) {
+      const dismissed = localStorage.getItem('stoicfinch-disclaimer-dismissed')
+      if (dismissed === 'true') {
+        setIsBannerDismissed(true)
+      }
+    }
+  }, [disclaimerBanner?.dismissible])
+
+  const handleDismissBanner = () => {
+    localStorage.setItem('stoicfinch-disclaimer-dismissed', 'true')
+    setIsBannerDismissed(true)
+  }
+
   const trustBadges =
     Array.isArray(trustBadgesProp) && trustBadgesProp.length === 3
       ? (trustBadgesProp as [string, string, string])
       : TRUST_BADGE_LABELS[__locale ?? 'es'] ?? TRUST_BADGE_LABELS.es
+
   const content = (
     <Container className="relative z-10 py-16 sm:py-24 lg:py-32">
       <div className={cn("max-w-4xl mx-auto text-center", enhanced && "hero-content-animate")}>
+        {disclaimerBanner && !isBannerDismissed && (
+          <div className={cn(disclaimerBanner.cssClasses || "bg-amber-100 border-l-2 border-amber-500 p-4 text-center", "mb-6 rounded-r-md")}>
+            <div className="flex items-start justify-between gap-4">
+              <div className="flex-1 text-left">
+                <h3 className="font-semibold text-amber-900 mb-1">{disclaimerBanner.title}</h3>
+                <p className="text-sm text-amber-800 mb-3">{disclaimerBanner.description}</p>
+                {disclaimerBanner.buttonText && (
+                  <Button
+                    variant="primary"
+                    size="sm"
+                    href={disclaimerBanner.buttonLink}
+                    className="inline-flex items-center gap-2"
+                    style={{ backgroundColor: '#d97706', color: '#ffffff' }}
+                  >
+                    {disclaimerBanner.buttonText}
+                  </Button>
+                )}
+              </div>
+              {disclaimerBanner.dismissible && (
+                <button
+                  onClick={handleDismissBanner}
+                  className="text-amber-600 hover:text-amber-900 transition-colors p-1 -mt-1 -mr-1"
+                  aria-label="Dismiss disclaimer"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
+            </div>
+          </div>
+        )}
         {eyebrow && (
           <div className="mb-6 hero-animate-delay-0">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium uppercase tracking-wider"

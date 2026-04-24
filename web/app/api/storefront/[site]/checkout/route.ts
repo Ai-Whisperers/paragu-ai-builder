@@ -3,6 +3,7 @@ import { createHash } from 'crypto'
 import { z } from 'zod'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { withRequestLog } from '@/lib/api/with-request-log'
+import { getAppUrl } from '@/lib/env'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
 import { createOrder, getOrder, CheckoutError } from '@/lib/commerce/orders'
 import { rankProvidersForOrder, NoEligibleProviderError } from '@/lib/payments/router'
@@ -123,7 +124,7 @@ export const POST = withRequestLog<{ site: string }>(async (req, { log }, { site
     currency: order.currency,
   })
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
+  const appUrl = getAppUrl()
 
   // Fire-and-forget order-confirmation + admin-notification emails via
   // the outbox. The commerce-email-flush cron picks them up on the next

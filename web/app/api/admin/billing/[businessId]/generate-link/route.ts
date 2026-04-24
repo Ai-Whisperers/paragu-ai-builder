@@ -4,6 +4,7 @@ import { withRequestLog } from '@/lib/api/with-request-log'
 import { requireAdminUser } from '@/lib/commerce/admin-auth'
 import { createAdminClient } from '@/lib/supabase/admin'
 import { generateSaasPaymentLink, buildWhatsAppShareUrl } from '@/lib/billing/paragu-ai-saas'
+import { getAppUrl } from '@/lib/env'
 
 export const runtime = 'nodejs'
 
@@ -40,7 +41,7 @@ export const POST = withRequestLog<{ businessId: string }>(async (req, { log }, 
     .maybeSingle()
   if (!sub) return NextResponse.json({ error: 'subscription_not_found' }, { status: 404 })
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://paragu-ai.com'
+  const appUrl = getAppUrl()
 
   try {
     const link = await generateSaasPaymentLink({
