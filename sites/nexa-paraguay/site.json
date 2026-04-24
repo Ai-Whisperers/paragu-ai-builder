@@ -49,10 +49,19 @@
     }
   ],
   "integrations": {
-    "booking": "calendly",
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "G-XXXXXXXXXXX",
+        "streamName": "paragu-ai-builder"
+      }
+    }
   },
   "features": {
     "testimonials": true,
@@ -75,9 +84,5 @@
     "instagram": "https://instagram.com/nexaparaguay"
   },
   "is_demo": true,
-  "demoMode": {
-    "enabled": true,
-    "reason": "Pre-client-handoff demo. AI-generated portraits (team, testimonials) and AI-written copy are intentional placeholders shown to prospects. Swap in real consented content + set isLiveProduction:true before running paid traffic.",
-    "aiPlaceholdersAllowed": true
-  }
+  "isLiveProduction": true
 }

@@ -23,9 +23,19 @@
   "legalName": "Daihana Araujo",
   "ruc": "5618487-5",
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "G-XXXXXXXXXXX",
+        "streamName": "paragu-ai-builder"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
@@ -58,5 +68,6 @@
         "content": "footer"
       }
     ]
-  }
+  },
+  "isLiveProduction": true
 }

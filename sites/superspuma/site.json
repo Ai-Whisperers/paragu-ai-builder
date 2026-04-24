@@ -5,7 +5,8 @@
   "vertical": "retail-local",
   "businessType": "mattress_store",
   "country": "Paraguay",
-  "domain": null,
+  "domain": "superspuma.com",
+
   "path": "/s/es/superspuma",
   "publicUrl": "https://paragu-ai.com/s/es/superspuma",
   "defaultLocale": "es",
@@ -132,16 +133,18 @@
     }
   },
   "integrations": {
-    "analytics": "ga4",
-    "payments": {
-      "provider": "bancard",
-      "enabled": false,
-      "note": "Bancard vPOS 2.0 integration prepared; awaiting merchant credentials. Currently WhatsApp-first ordering.",
-      "merchantIdEnvVar": "BANCARD_PUBLIC_KEY_SUPERSPUMA",
-      "secretKeyEnvVar": "BANCARD_PRIVATE_KEY_SUPERSPUMA"
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
     },
-    "messaging": {
-      "whatsappClickToChat": true
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "R-XXXXXXXXXX",
+        "streamName": "paragu-ai-builder-de-abasto"
+      }
     }
   },
   "chrome": {
@@ -167,5 +170,6 @@
         "content": "footer"
       }
     ]
-  }
+  },
+  "isLiveProduction": true
 }
