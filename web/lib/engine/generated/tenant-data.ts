@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=237, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=118, pages=238, content=138, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -5179,6 +5179,7 @@ export const SITES: Record<string, JsonRecord> = {
       "nosotros",
       "tiendas",
       "guias",
+      "guia-compra",
       "garantia",
       "envios",
       "financiacion",
@@ -13066,6 +13067,53 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "garantia",
     "titleKey": "garantia.seo.title"
   },
+  "superspuma:guia-compra": {
+    "descriptionKey": "guias.seo.description",
+    "sections": [
+      {
+        "content": "guias.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.quiz",
+        "id": "mattress-quiz",
+        "variant": "default"
+      },
+      {
+        "content": "guias.sizeGuide",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "guias.firmnessGuide",
+        "id": "programs-comparison",
+        "variant": "tiered"
+      },
+      {
+        "content": "guias.careTips",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "guias.comparisonBlock",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "guias.lifeCalcBlock",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "infoCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "guia-compra",
+    "titleKey": "guias.seo.title"
+  },
   "superspuma:guias": {
     "descriptionKey": "guias.seo.description",
     "sections": [
@@ -13131,6 +13179,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "product-catalog"
       },
       {
+        "content": "home.quiz",
+        "id": "mattress-quiz",
+        "variant": "default"
+      },
+      {
         "content": "home.programsComparison",
         "id": "programs-comparison",
         "variant": "tiered"
@@ -13139,6 +13192,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.process",
         "id": "process-timeline",
         "variant": "horizontal"
+      },
+      {
+        "content": "home.storeLocator",
+        "id": "features",
+        "variant": "grid"
       },
       {
         "content": "home.testimonials",
@@ -14608,6 +14666,10 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
+        "content": "promociones.onSaleProducts",
+        "id": "product-catalog"
+      },
+      {
         "content": "promociones.active",
         "id": "features",
         "variant": "grid"
@@ -14618,7 +14680,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.contact",
+        "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
       }
@@ -14649,7 +14711,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "tienda.hero",
         "id": "hero",
-        "variant": "compact"
+        "variant": "minimal"
       },
       {
         "content": "tienda.productCatalog",
@@ -36612,6 +36674,10 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar por combo Esencial",
             "description": "Dormitorio completo nuevo sin romper el presupuesto.",
             "id": "combo-esencial",
+            "image": {
+              "alt": "Combo Esencial — Harmony + base + almohadas + protector",
+              "src": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg"
+            },
             "included": [
               "Colchón Harmony (160x200) — Gs. 1.480.000",
               "Base Box Baúl (160x200) — Gs. 1.150.000",
@@ -36631,6 +36697,10 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "Lo mejor de la línea de resorte con accesorios incluidos.",
             "highlighted": true,
             "id": "combo-premium",
+            "image": {
+              "alt": "Combo Premium — Titanium + base + almohadas + protector + cubre colchón",
+              "src": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png"
+            },
             "included": [
               "Colchón Titanium (180x200) — Gs. 2.700.000",
               "Base Box Baúl (180x200) — Gs. 1.490.000",
@@ -36649,6 +36719,10 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar combo Ortopédico",
             "description": "Soporte máximo con protector y cubre para máxima durabilidad.",
             "id": "combo-ortopedico",
+            "image": {
+              "alt": "Combo Ortopédico — colchón firme + base + almohadas + protector",
+              "src": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg"
+            },
             "included": [
               "Colchón Ortopédico (160x200) — Gs. 1.750.000",
               "Base Box Baúl (160x200) — Gs. 1.150.000",
@@ -38562,9 +38636,468 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ]
       },
+      "quiz": {
+        "eyebrow": "Test en 1 minuto",
+        "products": [
+          {
+            "badge": "Más vendido",
+            "ctaHref": "/s/es/superspuma/producto/titanium",
+            "ctaLabel": "Ver Titanium",
+            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, 5 años de garantía.",
+            "id": "titanium",
+            "name": "Titanium",
+            "priceFromLabel": "Desde Gs. 1.800.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/imperial",
+            "ctaLabel": "Ver Imperial",
+            "description": "Resortes Bonell con Pillow Top. Alta gama para uso matrimonial.",
+            "id": "imperial",
+            "name": "Imperial",
+            "priceFromLabel": "Desde Gs. 2.230.000"
+          },
+          {
+            "badge": "Más consultado",
+            "ctaHref": "/s/es/superspuma/producto/harmony",
+            "ctaLabel": "Ver Harmony",
+            "description": "Equilibrio ideal soporte + confort. Euro-Top y antiácaros.",
+            "id": "harmony",
+            "name": "Harmony",
+            "priceFromLabel": "Desde Gs. 1.274.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/duo-confort",
+            "ctaLabel": "Ver Duo Confort",
+            "description": "Viscoelástica adaptable. Alivio de puntos de presión.",
+            "id": "duo-confort",
+            "name": "Duo Confort",
+            "priceFromLabel": "Desde Gs. 980.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/ortopedico",
+            "ctaLabel": "Ver Ortopédico",
+            "description": "Firmeza máxima. Para problemas de columna y espalda.",
+            "id": "ortopedico",
+            "name": "Ortopédico",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/serrat",
+            "ctaLabel": "Ver Serrat",
+            "description": "Resorte con espuma de densidad media. Firmeza media y tacto suave.",
+            "id": "serrat",
+            "name": "Serrat",
+            "priceFromLabel": "Desde Gs. 1.150.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/delta-soft",
+            "ctaLabel": "Ver Delta Soft",
+            "description": "Resorte con pillow suave para tacto mullido.",
+            "id": "delta-soft",
+            "name": "Delta Soft",
+            "priceFromLabel": "Desde Gs. 1.050.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/essential-top",
+            "ctaLabel": "Ver Essential Top",
+            "description": "La puerta de entrada al resorte con Pillow Top.",
+            "id": "essential-top",
+            "name": "Essential Top",
+            "priceFromLabel": "Desde Gs. 890.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/renovate",
+            "ctaLabel": "Ver Renovate",
+            "description": "Opción esencial para renovar sin apretarse el presupuesto.",
+            "id": "renovate",
+            "name": "Renovate",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/luna-soft",
+            "ctaLabel": "Ver Luna Soft",
+            "description": "Espuma de densidad media. Accesible — ideal invitados.",
+            "id": "luna-soft",
+            "name": "Luna Soft",
+            "priceFromLabel": "Desde Gs. 500.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/golden",
+            "ctaLabel": "Ver Golden",
+            "description": "Espuma de línea Confort con firmeza media.",
+            "id": "golden",
+            "name": "Golden",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/serena",
+            "ctaLabel": "Ver Serena",
+            "description": "Espuma con tacto suave y precio medio.",
+            "id": "serena",
+            "name": "Serena",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/impulse-kids",
+            "ctaLabel": "Ver Impulse Kids",
+            "description": "Resorte para niños — firme y duradero.",
+            "id": "impulse-kids",
+            "name": "Impulse Kids",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/impulse-teens",
+            "ctaLabel": "Ver Impulse Teens",
+            "description": "Resorte para adolescentes — soporte medio.",
+            "id": "impulse-teens",
+            "name": "Impulse Teens",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/pop-kids",
+            "ctaLabel": "Ver Pop Kids",
+            "description": "Resorte infantil económico.",
+            "id": "pop-kids",
+            "name": "Pop Kids",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/pop-plus",
+            "ctaLabel": "Ver Pop Plus",
+            "description": "Resorte de línea esencial reforzada.",
+            "id": "pop-plus",
+            "name": "Pop Plus",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/pop-teen",
+            "ctaLabel": "Ver Pop Teen",
+            "description": "Resorte para adolescentes — presupuesto ajustado.",
+            "id": "pop-teen",
+            "name": "Pop Teen",
+            "priceFromLabel": "Consultar"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/super-kids",
+            "ctaLabel": "Ver Super Kids",
+            "description": "Espuma para niños — cómoda y accesible.",
+            "id": "super-kids",
+            "name": "Super Kids",
+            "priceFromLabel": "Desde Gs. 420.000"
+          },
+          {
+            "ctaHref": "/s/es/superspuma/producto/superteen",
+            "ctaLabel": "Ver Superteen",
+            "description": "Resorte para adolescentes — firmeza media.",
+            "id": "superteen",
+            "name": "Superteen",
+            "priceFromLabel": "Consultar"
+          }
+        ],
+        "resultHeading": "Nuestra recomendación",
+        "resultSubheading": "Basado en tus respuestas — ordenado por afinidad. Tocá cualquiera para ver detalle o consultar por WhatsApp.",
+        "steps": [
+          {
+            "id": "para_quien",
+            "options": [
+              {
+                "label": "Pareja / matrimonio",
+                "scores": {
+                  "duo-confort": 2,
+                  "golden": 2,
+                  "harmony": 3,
+                  "imperial": 3,
+                  "titanium": 3
+                },
+                "value": "matrimonio"
+              },
+              {
+                "label": "Una sola persona",
+                "scores": {
+                  "harmony": 2,
+                  "luna-soft": 1,
+                  "serena": 2,
+                  "serrat": 2
+                },
+                "value": "individual"
+              },
+              {
+                "label": "Niños (hasta 12)",
+                "scores": {
+                  "impulse-kids": 3,
+                  "pop-kids": 3,
+                  "super-kids": 3
+                },
+                "value": "ninos"
+              },
+              {
+                "label": "Adolescentes",
+                "scores": {
+                  "impulse-teens": 3,
+                  "pop-teen": 3,
+                  "renovate": 2,
+                  "superteen": 3
+                },
+                "value": "adolescentes"
+              },
+              {
+                "label": "Adulto mayor / problemas de espalda",
+                "scores": {
+                  "duo-confort": 3,
+                  "ortopedico": 3,
+                  "titanium": 2
+                },
+                "value": "adulto_mayor"
+              }
+            ],
+            "question": "¿Para quién es el colchón?"
+          },
+          {
+            "id": "medida",
+            "options": [
+              {
+                "label": "1 plaza / 1½ plaza (80–120 cm)",
+                "scores": {
+                  "impulse-kids": 2,
+                  "luna-soft": 2,
+                  "pop-kids": 2,
+                  "pop-teen": 2,
+                  "super-kids": 2
+                },
+                "value": "una_plaza"
+              },
+              {
+                "label": "2 plazas (140 cm)",
+                "scores": {
+                  "delta-soft": 2,
+                  "duo-confort": 2,
+                  "essential-top": 2,
+                  "harmony": 2,
+                  "serrat": 2
+                },
+                "value": "dos_plazas"
+              },
+              {
+                "label": "Queen (160 cm)",
+                "scores": {
+                  "duo-confort": 2,
+                  "golden": 2,
+                  "harmony": 2,
+                  "imperial": 3,
+                  "titanium": 3
+                },
+                "value": "queen"
+              },
+              {
+                "label": "King / Super King (180–200 cm)",
+                "scores": {
+                  "imperial": 3,
+                  "ortopedico": 2,
+                  "titanium": 3
+                },
+                "value": "king"
+              }
+            ],
+            "question": "¿Qué medida necesitás?"
+          },
+          {
+            "helperText": "Regla general: más peso → más firme. Si dormís de costado, buscá uno adaptable.",
+            "id": "firmeza",
+            "options": [
+              {
+                "label": "Suave — me gusta hundirme un poco",
+                "scores": {
+                  "delta-soft": 3,
+                  "essential-top": 2,
+                  "harmony": 2,
+                  "luna-soft": 3
+                },
+                "value": "suave"
+              },
+              {
+                "label": "Medio — ni muy duro ni muy blando",
+                "scores": {
+                  "golden": 2,
+                  "harmony": 3,
+                  "imperial": 2,
+                  "serena": 2,
+                  "serrat": 3
+                },
+                "value": "medio"
+              },
+              {
+                "label": "Firme — me gusta soporte parejo",
+                "scores": {
+                  "imperial": 2,
+                  "ortopedico": 3,
+                  "titanium": 3
+                },
+                "value": "firme"
+              },
+              {
+                "label": "Adaptable (viscoelástica) — que se ajuste a mí",
+                "scores": {
+                  "duo-confort": 3,
+                  "ortopedico": 2
+                },
+                "value": "adaptable"
+              }
+            ],
+            "question": "¿Qué firmeza te sienta bien?"
+          },
+          {
+            "helperText": "Resorte: mejor ventilación + soporte tradicional. Espuma: más silencioso + adaptable.",
+            "id": "tecnologia",
+            "options": [
+              {
+                "label": "Prefiero resorte",
+                "scores": {
+                  "delta-soft": 2,
+                  "essential-top": 2,
+                  "harmony": 3,
+                  "imperial": 3,
+                  "impulse-kids": 1,
+                  "impulse-teens": 1,
+                  "pop-kids": 1,
+                  "pop-plus": 1,
+                  "pop-teen": 1,
+                  "renovate": 2,
+                  "serrat": 2,
+                  "superteen": 1,
+                  "titanium": 3
+                },
+                "value": "resorte"
+              },
+              {
+                "label": "Prefiero espuma",
+                "scores": {
+                  "duo-confort": 3,
+                  "golden": 2,
+                  "luna-soft": 2,
+                  "ortopedico": 3,
+                  "serena": 2,
+                  "super-kids": 2
+                },
+                "value": "espuma"
+              },
+              {
+                "label": "Me da igual — recomendame lo mejor",
+                "scores": {
+                  "duo-confort": 2,
+                  "harmony": 2,
+                  "imperial": 2,
+                  "titanium": 2
+                },
+                "value": "me_da_igual"
+              }
+            ],
+            "question": "¿Resorte o espuma?"
+          },
+          {
+            "id": "presupuesto",
+            "options": [
+              {
+                "label": "Hasta Gs. 500.000",
+                "scores": {
+                  "impulse-kids": 2,
+                  "luna-soft": 3,
+                  "pop-kids": 3,
+                  "renovate": 2,
+                  "super-kids": 3
+                },
+                "value": "hasta_500k"
+              },
+              {
+                "label": "Gs. 500.000 – 1.000.000",
+                "scores": {
+                  "delta-soft": 2,
+                  "duo-confort": 2,
+                  "essential-top": 3,
+                  "golden": 2,
+                  "harmony": 2,
+                  "impulse-teens": 2,
+                  "pop-plus": 2,
+                  "pop-teen": 2,
+                  "serena": 2,
+                  "serrat": 2,
+                  "superteen": 2
+                },
+                "value": "hasta_1m"
+              },
+              {
+                "label": "Gs. 1.000.000 – 2.000.000",
+                "scores": {
+                  "delta-soft": 3,
+                  "duo-confort": 3,
+                  "harmony": 3,
+                  "ortopedico": 2,
+                  "serrat": 3,
+                  "titanium": 2
+                },
+                "value": "hasta_2m"
+              },
+              {
+                "label": "Más de Gs. 2.000.000 — busco lo mejor",
+                "scores": {
+                  "imperial": 3,
+                  "ortopedico": 2,
+                  "titanium": 3
+                },
+                "value": "mas_2m"
+              }
+            ],
+            "question": "¿Qué presupuesto manejás?"
+          }
+        ],
+        "subtitle": "Respondé 5 preguntas y te recomendamos 3 modelos que encajan con tu cuerpo, tu cuarto y tu presupuesto.",
+        "title": "¿Cuál Superspuma es para vos?"
+      },
       "seo": {
         "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 19 modelos de espuma y resorte, 7 tiendas en Asunción y Central, 6 centros logísticos en el interior, envío a todo el país y hasta 18 cuotas sin interés.",
         "title": "Superspuma - Colchones y Sommiers en Paraguay | Fábrica desde 1976"
+      },
+      "storeLocator": {
+        "columns": 3,
+        "features": [
+          {
+            "description": "Villamorra Shopping, Planta Baja, Asunción · Lunes a Sábado: 09:00 - 21:00",
+            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Villamorra+Shopping+Asunci%C3%B3n",
+            "icon": "MapPin",
+            "title": "Villamorra Shopping"
+          },
+          {
+            "description": "Avda. Aviadores del Chaco y calle Sta. Teresa, Asunción · Lunes a Jueves: 10:00 - 21:00",
+            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Paseo+La+Galer%C3%ADa+Asunci%C3%B3n",
+            "icon": "MapPin",
+            "title": "Paseo La Galería"
+          },
+          {
+            "description": "Fuente Shopping, Salemma, 1er piso, Asunción · Lunes a Sábado: 09:00 - 21:00",
+            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fuente+Shopping+Asunci%C3%B3n",
+            "icon": "MapPin",
+            "title": "Fuente Shopping"
+          },
+          {
+            "description": "Lillo 2779 entre Denis Roa y Coronel Cabrera, Asunción · Lunes a Viernes: 08:00 - 17:30",
+            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Lillo+2779+Asunci%C3%B3n",
+            "icon": "MapPin",
+            "title": "Lillo (Asunción Centro)"
+          },
+          {
+            "description": "R.I. 9 Capitán Bado 1158 y Las Residentas · Lunes a Viernes: 07:30 - 17:00",
+            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fernando+de+la+Mora+Capit%C3%A1n+Bado",
+            "icon": "MapPin",
+            "title": "Fernando de la Mora"
+          },
+          {
+            "description": "Avda. Manuel Ortiz Guerrero, Ñemby · Lunes a Viernes: 08:00 - 17:00",
+            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Luisito+%C3%91emby",
+            "icon": "MapPin",
+            "title": "Luisito (Ñemby)"
+          }
+        ],
+        "subtitle": "7 tiendas en Asunción y Central con exhibición completa + 6 centros logísticos en el interior. Tocá una para abrir en Google Maps.",
+        "title": "Visitanos en tu tienda más cercana"
       },
       "testimonials": {
         "columns": 3,
@@ -38678,7 +39211,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "infoCta": {
-      "buttonHref": "/s/es/superspuma/catalogo",
+      "buttonHref": "/s/es/superspuma/tienda",
       "buttonText": "Ver catálogo",
       "subtitle": "Todos nuestros modelos con financiación y envío a todo Paraguay.",
       "title": "¿Listo para elegir tu colchón?",
@@ -41361,6 +41894,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Promociones vigentes",
         "subheadline": "Todas en un solo lugar. Consultá condiciones en cada una.",
         "trustBadgesEnabled": false
+      },
+      "onSaleProducts": {
+        "orderButtonText": "Consultar por WhatsApp",
+        "orderMessageTemplate": "Hola! Quiero comprar el colchón {{productName}} con la promo vigente.",
+        "productLinkBase": "/s/es/superspuma/producto",
+        "products": [
+          {
+            "category": "Resorte",
+            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
+            "name": "Titanium",
+            "price": "Desde Gs. 1.800.000",
+            "priceOriginal": "Gs. 2.250.000",
+            "promoLabel": "Promo 20% OFF",
+            "promoPercent": 20,
+            "slug": "titanium"
+          },
+          {
+            "category": "Resorte",
+            "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
+            "name": "Imperial",
+            "price": "Desde Gs. 2.230.000",
+            "priceOriginal": "Gs. 2.787.500",
+            "promoLabel": "Promo 20% OFF",
+            "promoPercent": 20,
+            "slug": "imperial"
+          }
+        ],
+        "subtitle": "Los que tienen descuento directo hoy. Tocá cualquiera para ver detalle o confirmar precio por medida por WhatsApp.",
+        "title": "Productos en promoción",
+        "whatsappPhone": "595974202025"
       },
       "seo": {
         "description": "Todas las promos vigentes en un solo lugar. Descuentos, sorteos, combos y cuotas sin interés.",
