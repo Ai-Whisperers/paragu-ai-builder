@@ -23,6 +23,11 @@
       "content": "home.productCatalog"
     },
     {
+      "id": "mattress-quiz",
+      "variant": "default",
+      "content": "home.quiz"
+    },
+    {
       "id": "programs-comparison",
       "variant": "tiered",
       "content": "home.programsComparison"
@@ -31,6 +36,11 @@
       "id": "process-timeline",
       "variant": "horizontal",
       "content": "home.process"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "home.storeLocator"
     },
     {
       "id": "testimonials",

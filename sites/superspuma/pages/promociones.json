@@ -14,6 +14,10 @@
       "content": "home.activePromos"
     },
     {
+      "id": "product-catalog",
+      "content": "promociones.onSaleProducts"
+    },
+    {
       "id": "features",
       "variant": "grid",
       "content": "promociones.active"
@@ -26,7 +30,7 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "home.contact"
+      "content": "home.finalCta"
     }
   ]
 }
