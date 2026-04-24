@@ -5895,7 +5895,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "blog",
+        "content": "blog.placeholder",
         "id": "hero",
         "variant": "minimal"
       },
