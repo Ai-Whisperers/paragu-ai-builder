@@ -83,6 +83,6 @@
     "linkedin": "https://www.linkedin.com/company/nexa-paraguay",
     "instagram": "https://instagram.com/nexaparaguay"
   },
-  "is_demo": true,
+  "is_demo": false,
   "isLiveProduction": true
 }
