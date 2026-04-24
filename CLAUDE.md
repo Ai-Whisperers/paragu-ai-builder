@@ -38,7 +38,7 @@
 
 | Rule | Details |
 |------|---------|
-| **Multi-business** | All queries MUST filter by `business_id` — see [docs/TENANTS.md](./docs/TENANTS.md) |
+| **Multi-business** | All queries MUST filter by `business_id` — see [docs/reference/TENANTS.md](./docs/reference/TENANTS.md) |
 | **Theme variables** | Use `var(--primary)`, NEVER `bg-blue-500` |
 | **Generated site language** | All generated site UI text in Spanish |
 | **Server-first** | Default to Server Components |
@@ -253,7 +253,7 @@ npm run test            # Run tests
 | Theme tokens | `src/tokens/` |
 | Content templates | `src/content/` |
 | Demo data | `web/lib/engine/demo-data.ts` |
-| Tenancy model | `docs/TENANTS.md` |
+| Tenancy model | `docs/reference/TENANTS.md` |
 
 ### Technology Stack
 
