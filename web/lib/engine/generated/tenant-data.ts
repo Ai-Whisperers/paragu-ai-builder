@@ -38101,6 +38101,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Colchones y dormitorios Superspuma"
       },
       "hero": {
+        "backgroundImage": "https://www.superspuma.com.py/wp-content/uploads/2025/08/Slide-web-20off.jpeg",
         "ctaPrimaryHref": "#catalogo",
         "ctaPrimaryText": "Ver colchones",
         "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
@@ -38161,138 +38162,161 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "category": "Resorte",
             "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
             "name": "Titanium",
             "price": "Desde Gs. 1.800.000"
           },
           {
             "category": "Resorte",
             "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
             "name": "Imperial",
             "price": "Desde Gs. 2.230.000"
           },
           {
             "category": "Resorte",
             "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "name": "Harmony",
             "price": "Desde Gs. 1.274.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
             "name": "Serrat",
             "price": "Desde Gs. 1.150.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
             "name": "Delta Soft",
             "price": "Desde Gs. 1.050.000"
           },
           {
             "category": "Resorte",
             "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
             "name": "Essential Top",
             "price": "Desde Gs. 890.000"
           },
           {
             "category": "Resorte",
             "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
             "name": "Renovate",
             "price": "Desde Gs. 780.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
             "name": "Impulse Kids",
             "price": "Desde Gs. 780.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
             "name": "Impulse Teens",
             "price": "Desde Gs. 890.000"
           },
           {
             "category": "Resorte",
             "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
             "name": "Pop Kids",
             "price": "Desde Gs. 649.000"
           },
           {
             "category": "Resorte",
             "description": "Pop reforzado para uso adulto — mayor capacidad.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
             "name": "Pop Plus",
             "price": "Desde Gs. 850.000"
           },
           {
             "category": "Resorte",
             "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
             "name": "Pop Teen",
             "price": "Desde Gs. 780.000"
           },
           {
             "category": "Resorte",
             "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
             "name": "Superteen",
             "price": "Desde Gs. 980.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
             "name": "Ortopédico",
             "price": "Desde Gs. 1.290.000"
           },
           {
             "category": "Espuma",
             "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
             "name": "Duo Confort",
             "price": "Desde Gs. 980.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma de alta densidad con buen confort y recuperación.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
             "name": "Serena",
             "price": "Desde Gs. 850.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
             "name": "Golden",
             "price": "Desde Gs. 696.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
             "name": "Luna Soft",
             "price": "Desde Gs. 500.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
             "name": "Super Kids",
             "price": "Desde Gs. 420.000"
           },
           {
             "category": "Accesorios",
             "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "name": "Base Box Baúl",
             "price": "Desde Gs. 890.000"
           },
           {
             "category": "Accesorios",
             "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
             "name": "Protector Impermeable",
             "price": "Desde Gs. 120.000"
           },
           {
             "category": "Accesorios",
             "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
             "name": "Cubre Colchón",
             "price": "Desde Gs. 95.000"
           },
           {
             "category": "Accesorios",
             "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
             "name": "Almohada Superspuma",
             "price": "Desde Gs. 65.000"
           }
@@ -38310,6 +38334,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar Luna Soft",
             "description": "Espuma media — la opción accesible para usos ocasionales o cuartos de invitados.",
             "id": "luna-soft",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
             "included": [
               "Espuma de densidad media",
               "Firmeza suave",
@@ -38328,6 +38353,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "El equilibrio ideal para matrimonio — soporte de resorte con superficie Euro-Top.",
             "highlighted": true,
             "id": "harmony",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "included": [
               "Resortes con Euro-Top",
               "Firmeza media",
@@ -38345,6 +38371,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar Duo Confort",
             "description": "Memory foam adaptable que se ajusta a tu cuerpo — alivio real de puntos de presión.",
             "id": "duo-confort",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
             "included": [
               "Espuma viscoelástica",
               "Firmeza adaptable",
@@ -38363,6 +38390,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar Titanium",
             "description": "Lo más alto de la línea de resorte. Euro Pillow Top y resortes reforzados.",
             "id": "titanium",
+            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
             "included": [
               "Resortes Bonell reforzados",
               "Euro Pillow Top de alta densidad",
@@ -38638,7 +38666,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "href": "/s/es/superspuma/nosotros",
           "label": "Nosotros"
         }
-      ]
+      ],
+      "logoUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/superspumalogo.svg"
     },
     "nosotros": {
       "hero": {
