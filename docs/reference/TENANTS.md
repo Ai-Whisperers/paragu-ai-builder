@@ -14,6 +14,41 @@ The tenant is the `businesses` row. Routing is slug-based: `/[business]/*`.
 - **Primary key**: `id` (UUID)
 - **Routing key**: `slug` (unique)
 
+---
+
+## Tenant URL contract
+
+### URL structure
+
+```
+Production: https://{tenant_domain}/{locale}/{tenant_slug}
+Development: http://localhost:3000/s/{locale}/{tenant_slug}
+```
+
+### Required fields
+
+- `tenant_slug`: Unique identifier from `businesses.slug` (kebab-case)
+- `tenant_domain`: Custom domain from `sites/{slug}/site.json` or `paragu-ai.com/{slug}` default
+- `locale`: Language code (`es`, `en`, `pt`, `de`, `nl`) from tenant's locales array
+
+### URL contract rules
+
+1. **Slug uniqueness**: `tenant_slug` must be unique across all `businesses` rows (enforced by DB constraint)
+2. **Domain format**: Custom domains must follow DNS pattern, default domain uses `paragu-ai.com/{slug}`
+3. **Locale validation**: Only locales defined in tenant's `site.json.locales` are valid URLs
+4. **Canonical URLs**: Use `getAppUrl()` from `web/lib/env.ts` for consistent URL generation
+5. **No cross-tenant leakage**: All tenant-scoped queries must use `scopedQueries(supabase, businessId)`
+
+### URL generation pattern
+
+```typescript
+import { getAppUrl } from '@/lib/env'
+
+const appUrl = getAppUrl()
+const tenantUrl = `${appUrl}/s/${locale}/${tenantSlug}`
+const adminUrl = `${appUrl}/admin/leads`
+```
+
 ### Business types
 
 The DB `type` column (`businesses.type` CHECK constraint) accepts **11 values**:
