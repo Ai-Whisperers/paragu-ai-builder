@@ -42,6 +42,13 @@ function boolEnv(name: string, defaultValue: boolean): boolean {
   return value.toLowerCase() === 'true' || value === '1'
 }
 
+export function getAppUrl(): string {
+  const raw = process.env.NEXT_PUBLIC_APP_URL
+    || process.env.NEXT_PUBLIC_BASE_URL
+    || 'https://paragu-ai.com'
+  return raw.replace(/\/+$/, '')
+}
+
 export const env = {
   // ===========================================================================
   // Supabase Configuration (Required)

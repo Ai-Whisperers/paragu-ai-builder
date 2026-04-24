@@ -1,6 +1,7 @@
 import { createAdminClient } from '@/lib/supabase/admin'
 import { pickOne } from '@/lib/supabase/helpers'
 import { logger } from '@/lib/logger'
+import { getAppUrl } from '@/lib/env'
 
 /**
  * Shopper-facing subscribe: records an email against a product so we
@@ -99,7 +100,7 @@ export async function findPendingBackInStockNotifications(limit = 50): Promise<P
     businesses: EmbeddedBusiness | EmbeddedBusiness[] | null
   }>
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://paragu-ai.com'
+  const appUrl = getAppUrl()
 
   return rows
     .map((r) => ({ raw: r, product: pickOne(r.products), business: pickOne(r.businesses) }))
