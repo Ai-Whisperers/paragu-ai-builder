@@ -111,6 +111,12 @@ function extractProductFromPage(page: ResolvedPage, baseUrl: string): ProductSha
   const description = typeof heroProps.subheadline === 'string' ? heroProps.subheadline : undefined
   if (!name) return null
 
+  // Pull hero image if present — enables Google rich result image thumbs.
+  const backgroundImage =
+    typeof heroProps.backgroundImage === 'string' ? heroProps.backgroundImage : undefined
+  const heroImage = typeof heroProps.image === 'string' ? heroProps.image : undefined
+  const image = backgroundImage || heroImage
+
   const sizesSection = page.sections.find(
     (s) =>
       s.id === 'programs-comparison' &&
@@ -130,14 +136,34 @@ function extractProductFromPage(page: ResolvedPage, baseUrl: string): ProductSha
       const digits = priceStr.replace(/[^0-9]/g, '')
       const priceGs = digits ? parseInt(digits, 10) : NaN
       if (!label || !Number.isFinite(priceGs)) return null
-      return { label, dimensions, priceGs }
+      // Narrow the tuple so the downstream .filter predicate matches the
+      // declared ProductShape.sizes shape (dimensions is optional) — TS
+      // otherwise widens `undefined` into the type.
+      const entry: { label: string; dimensions?: string; priceGs: number } = {
+        label,
+        priceGs,
+      }
+      if (dimensions) entry.dimensions = dimensions
+      return entry
     })
     .filter((s): s is { label: string; dimensions?: string; priceGs: number } => s !== null)
+
+  // Brand is the tenant siteName when available (first tenant that isn't
+  // Superspuma will otherwise get mis-branded schema). Falls back to the
+  // site slug.
+  const content = safeSiteContent(page.site.slug, page.locale)
+  const brand = content.siteName || page.site.slug
+
+  // SKU = the slug after `producto/` — useful for downstream tools
+  // (product feeds, analytics) that key off sku.
+  const sku = slug.slice('producto/'.length)
 
   return {
     name,
     description,
-    brand: 'Superspuma',
+    brand,
+    sku,
+    image,
     url: `${baseUrl}${page.meta.path}`,
     sizes: sizes && sizes.length > 0 ? sizes : undefined,
   }
