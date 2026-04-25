@@ -1,0 +1,16 @@
+{
+  "slug": "preview-studio-88",
+  "business_name": "Studio 88",
+  "business_type": "spa",
+  "city": "San Lorenzo",
+  "notes": "",
+  "hero_prompt": "Spa \"Studio 88\" en San Lorenzo, Paraguay.  Ambiente de relax, velas, toallas blancas, luz tenue, decoración zen, lujo y bienestar, fotografía profesional --ar 21:9",
+  "gallery_prompts": [
+    "Camilla de masajes en Studio 88, San Lorenzo. Toallas blancas, velas, aceites esenciales, luz cálida, ambiente zen --ar 4:3",
+    "Tratamiento facial en Studio 88, San Lorenzo. Esteticista aplicando mascarilla, cliente relajado, luz suave --ar 4:3",
+    "Sala de espera de Studio 88, San Lorenzo. Sillones cómodos, té, revista, decoración tranquila, plantas --ar 4:3",
+    "Hidroterapia en Studio 88, San Lorenzo. Agua cristalina, azulejos claros, ambiente de relax --ar 4:3",
+    "Productos de spa en Studio 88, San Lorenzo. Cremas, aceites, sales, envases elegantes, exhibición boutique --ar 4:3",
+    "Cabina de tratamiento en Studio 88, San Lorenzo. Decoración armoniosa, detalles cuidados, paz y tranquilidad --ar 4:3"
+  ]
+}

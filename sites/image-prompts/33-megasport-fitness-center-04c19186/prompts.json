@@ -1,0 +1,16 @@
+{
+  "slug": "preview-megasport-fitness-center-04c19186",
+  "business_name": "MegaSport Fitness Center",
+  "business_type": "gimnasio",
+  "city": "Villa Elisa",
+  "notes": "",
+  "hero_prompt": "Gimnasio \"MegaSport Fitness Center\" en Villa Elisa, Paraguay.  Equipamiento profesional, pesas, mancuernas, ambiente energético, luz natural, personas entrenando, motivación, fotografía realista --ar 21:9",
+  "gallery_prompts": [
+    "Área de pesas libres en MegaSport Fitness Center, Villa Elisa. Mancuernas ordenadas, barra olímpica, ambiente de entrenamiento --ar 4:3",
+    "Persona entrenando en MegaSport Fitness Center, Villa Elisa. Músculos en acción, esfuerzo, determinación, iluminación dramática --ar 4:3",
+    "Sala de clases grupales en MegaSport Fitness Center, Villa Elisa. Colchonetas, pelotas, bandas elásticas, preparado para funcional --ar 4:3",
+    "Bicicletas de spinning en MegaSport Fitness Center, Villa Elisa. Sala con luces de colores, ambiente motivacional --ar 4:3",
+    "Antes y después de transformación física en MegaSport Fitness Center, Villa Elisa. Progreso visible, resultados reales --ar 4:3",
+    "Rincón de estiramiento en MegaSport Fitness Center, Villa Elisa. Colchonetas, yoga, ambiente tranquilo dentro del gimnasio --ar 4:3"
+  ]
+}

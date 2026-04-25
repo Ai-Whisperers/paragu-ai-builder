@@ -1,0 +1,15 @@
+{
+  "slug": "preview-piribebuy-country-club-783823f6",
+  "business_name": "Piribebuy Country Club",
+  "business_type": "peluqueria",
+  "city": "Piribebuy",
+  "notes": "",
+  "hero_prompt": "Salón de belleza \"Piribebuy Country Club\" en Piribebuy, Paraguay.  Estaciones con espejos iluminados, sillas profesionales, decoración moderna, luz natural, ambiente acogedor --ar 21:9",
+  "gallery_prompts": [
+    "Corte y coloración en Piribebuy Country Club, Piribebuy. Estilista trabajando, mechas, tintura profesional, luz natural --ar 4:3",
+    "Lavacabezas en Piribebuy Country Club, Piribebuy. Cliente cómodo, shampoo profesional, ambiente relajante --ar 4:3",
+    "Resultado de peinado en Piribebuy Country Club, Piribebuy. Cliente feliz, look terminado, estilo moderno --ar 4:3",
+    "Interior del salón Piribebuy Country Club, Piribebuy. Estaciones de trabajo, espejos, ambiente completo --ar 4:3",
+    "Productos capilares en Piribebuy Country Club, Piribebuy. Shampoos, acondicionadores, tratamientos en exhibición --ar 4:3"
+  ]
+}

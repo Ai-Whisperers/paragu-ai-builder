@@ -1,0 +1,16 @@
+{
+  "slug": "preview-tajos-barberos-central",
+  "business_name": "TAJOS Barberos (Central)",
+  "business_type": "barberia",
+  "city": "Asunción",
+  "notes": "3 sucursales. Marca premium. Público joven y moderno.",
+  "hero_prompt": "Barbería moderna \"TAJOS Barberos (Central)\" en Asunción, Paraguay. 3 sucursales. Marca premium. Público joven y moderno. Sillones de barbería vintage, pisos a cuadros blanco y negro, barberos profesionales trabajando, luz cálida, ambiente masculino elegante, fotografía realista de alta calidad --ar 21:9",
+  "gallery_prompts": [
+    "Primer plano de fade degradado en TAJOS Barberos (Central), Asunción. Barbero concentrado, máquina profesional, detalle del trabajo, iluminación focal --ar 4:3",
+    "Estación de barbero en TAJOS Barberos (Central), Asunción. Navajas, tijeras, peines, productos importados, organización profesional --ar 4:3",
+    "Afeitado con toalla caliente en TAJOS Barberos (Central), Asunción. Vapor, navaja recta, cliente relajado, ambiente tradicional --ar 4:3",
+    "Interior de TAJOS Barberos (Central) en Asunción. Múltiples estaciones, clientes atendidos, decoración, amplitud del local --ar 4:3",
+    "Perfilado de barba terminado en TAJOS Barberos (Central), Asunción. Resultado profesional, cliente satisfecho mirándose al espejo --ar 4:3",
+    "Productos de barbería en TAJOS Barberos (Central), Asunción. Pomadas, ceras, aceites, vitrina de exhibición profesional --ar 4:3"
+  ]
+}

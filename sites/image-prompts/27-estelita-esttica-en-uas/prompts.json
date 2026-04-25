@@ -1,0 +1,15 @@
+{
+  "slug": "preview-estelita-esttica-en-uas",
+  "business_name": "Estelita Estética en Uñas",
+  "business_type": "peluqueria",
+  "city": "Fernando de la Mora",
+  "notes": "",
+  "hero_prompt": "Salón de belleza \"Estelita Estética en Uñas\" en Fernando de la Mora, Paraguay.  Estaciones con espejos iluminados, sillas profesionales, decoración moderna, luz natural, ambiente acogedor --ar 21:9",
+  "gallery_prompts": [
+    "Corte y coloración en Estelita Estética en Uñas, Fernando de la Mora. Estilista trabajando, mechas, tintura profesional, luz natural --ar 4:3",
+    "Lavacabezas en Estelita Estética en Uñas, Fernando de la Mora. Cliente cómodo, shampoo profesional, ambiente relajante --ar 4:3",
+    "Resultado de peinado en Estelita Estética en Uñas, Fernando de la Mora. Cliente feliz, look terminado, estilo moderno --ar 4:3",
+    "Interior del salón Estelita Estética en Uñas, Fernando de la Mora. Estaciones de trabajo, espejos, ambiente completo --ar 4:3",
+    "Productos capilares en Estelita Estética en Uñas, Fernando de la Mora. Shampoos, acondicionadores, tratamientos en exhibición --ar 4:3"
+  ]
+}
