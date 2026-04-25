@@ -36,7 +36,7 @@
       "headline": "Dormir mejor empieza por un Superspuma",
       "subheadline": "Fábrica paraguaya desde 1976. 18 cuotas sin interés. Envío a todo el país.",
       "ctaPrimaryText": "Ver colchones",
-      "ctaPrimaryHref": "#catalogo",
+      "ctaPrimaryHref": "/s/es/superspuma/tienda",
       "ctaSecondaryText": "Consultar por WhatsApp",
       "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
       "trustBadges": [
@@ -44,7 +44,8 @@
         "7 tiendas + 6 centros",
         "Garantía 2-6 años"
       ],
-      "trustBadgesEnabled": true
+      "trustBadgesEnabled": true,
+      "backgroundImage": "https://www.superspuma.com.py/wp-content/uploads/2025/08/Slide-web-20off.jpeg"
     },
     "trustBadges": {
       "title": "Por qué elegir Superspuma",
@@ -114,7 +115,7 @@
     },
     "productCatalog": {
       "title": "Nuestro catálogo",
-      "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Elegí el tuyo y consultá disponibilidad por WhatsApp.",
+      "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Tocá una ficha para ver medidas, garantía y precio por medida — o consultá por WhatsApp.",
       "whatsappPhone": "595974202025",
       "orderButtonText": "Consultar por WhatsApp",
       "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
@@ -128,141 +129,194 @@
           "name": "Titanium",
           "category": "Resorte",
           "price": "Desde Gs. 1.800.000",
-          "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía."
+          "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
+          "priceOriginal": "Gs. 2.250.000",
+          "promoPercent": 20,
+          "promoLabel": "Promo 20% OFF",
+          "slug": "titanium"
         },
         {
           "name": "Imperial",
           "category": "Resorte",
           "price": "Desde Gs. 2.230.000",
-          "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles."
+          "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
+          "priceOriginal": "Gs. 2.787.500",
+          "promoPercent": 20,
+          "promoLabel": "Promo 20% OFF",
+          "slug": "imperial"
         },
         {
           "name": "Harmony",
           "category": "Resorte",
           "price": "Desde Gs. 1.274.000",
-          "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos."
+          "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+          "slug": "harmony"
         },
         {
           "name": "Serrat",
           "category": "Resorte",
           "price": "Desde Gs. 1.150.000",
-          "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave."
+          "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
+          "slug": "serrat"
         },
         {
           "name": "Delta Soft",
           "category": "Resorte",
           "price": "Desde Gs. 1.050.000",
-          "description": "Resorte con pillow suave para quienes prefieren un tacto mullido."
+          "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
+          "slug": "delta-soft"
         },
         {
           "name": "Essential Top",
           "category": "Resorte",
           "price": "Desde Gs. 890.000",
-          "description": "La puerta de entrada al resorte Superspuma con Pillow Top."
+          "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
+          "slug": "essential-top"
         },
         {
           "name": "Renovate",
           "category": "Resorte",
           "price": "Desde Gs. 780.000",
-          "description": "Ideal para reemplazar tu viejo colchón sin gastar de más."
+          "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
+          "slug": "renovate"
         },
         {
           "name": "Impulse Kids",
           "category": "Resorte",
           "price": "Desde Gs. 780.000",
-          "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste."
+          "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
+          "slug": "impulse-kids"
         },
         {
           "name": "Impulse Teens",
           "category": "Resorte",
           "price": "Desde Gs. 890.000",
-          "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga."
+          "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
+          "slug": "impulse-teens"
         },
         {
           "name": "Pop Kids",
           "category": "Resorte",
           "price": "Desde Gs. 649.000",
-          "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush."
+          "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
+          "slug": "pop-kids"
         },
         {
           "name": "Pop Plus",
           "category": "Resorte",
           "price": "Desde Gs. 850.000",
-          "description": "Pop reforzado para uso adulto — mayor capacidad."
+          "description": "Pop reforzado para uso adulto — mayor capacidad.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
+          "slug": "pop-plus"
         },
         {
           "name": "Pop Teen",
           "category": "Resorte",
           "price": "Desde Gs. 780.000",
-          "description": "Pop para adolescentes — precio accesible y buena durabilidad."
+          "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
+          "slug": "pop-teen"
         },
         {
           "name": "Superteen",
           "category": "Resorte",
           "price": "Desde Gs. 980.000",
-          "description": "Línea superior juvenil. Mejor acabado y mayor densidad."
+          "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
+          "slug": "superteen"
         },
         {
           "name": "Ortopédico",
           "category": "Espuma",
           "price": "Desde Gs. 1.290.000",
-          "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza."
+          "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
+          "slug": "ortopedico"
         },
         {
           "name": "Duo Confort",
           "category": "Espuma",
           "price": "Desde Gs. 980.000",
-          "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación."
+          "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
+          "slug": "duo-confort"
         },
         {
           "name": "Serena",
           "category": "Espuma",
           "price": "Desde Gs. 850.000",
-          "description": "Espuma de alta densidad con buen confort y recuperación."
+          "description": "Espuma de alta densidad con buen confort y recuperación.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
+          "slug": "serena"
         },
         {
           "name": "Golden",
           "category": "Espuma",
           "price": "Desde Gs. 696.000",
-          "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio."
+          "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
+          "slug": "golden"
         },
         {
           "name": "Luna Soft",
           "category": "Espuma",
           "price": "Desde Gs. 500.000",
-          "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional."
+          "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
+          "slug": "luna-soft"
         },
         {
           "name": "Super Kids",
           "category": "Espuma",
           "price": "Desde Gs. 420.000",
-          "description": "Espuma infantil liviana. Perfecto para cunas de transición."
+          "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
+          "slug": "super-kids"
         },
         {
           "name": "Base Box Baúl",
           "category": "Accesorios",
           "price": "Desde Gs. 890.000",
-          "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas."
+          "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+          "slug": "base-box-baul"
         },
         {
           "name": "Protector Impermeable",
           "category": "Accesorios",
           "price": "Desde Gs. 120.000",
-          "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación."
+          "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
+          "slug": "protector-colchon"
         },
         {
           "name": "Cubre Colchón",
           "category": "Accesorios",
           "price": "Desde Gs. 95.000",
-          "description": "Cubre colchón acolchado con elástico en todos los tamaños."
+          "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
+          "slug": "cubre-colchon"
         },
         {
           "name": "Almohada Superspuma",
           "category": "Accesorios",
           "price": "Desde Gs. 65.000",
-          "description": "Almohadas de fibra siliconada o espuma. Varias firmezas."
+          "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
+          "slug": "almohada-superspuma"
         }
-      ]
+      ],
+      "productLinkBase": "/s/es/superspuma/producto"
     },
     "programsComparison": {
       "eyebrow": "No sabés cuál elegir",
@@ -283,7 +337,8 @@
             "Funda de poliéster"
           ],
           "ctaLabel": "Consultar Luna Soft",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Luna%20Soft"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Luna%20Soft",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg"
         },
         {
           "id": "harmony",
@@ -302,7 +357,8 @@
             "Hasta 18 cuotas sin interés"
           ],
           "ctaLabel": "Consultar Harmony",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Harmony"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Harmony",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg"
         },
         {
           "id": "duo-confort",
@@ -319,7 +375,8 @@
             "Ideal contra dolor de espalda"
           ],
           "ctaLabel": "Consultar Duo Confort",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Duo%20Confort"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Duo%20Confort",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg"
         },
         {
           "id": "titanium",
@@ -338,7 +395,8 @@
             "3 colores disponibles"
           ],
           "ctaLabel": "Consultar Titanium",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Titanium"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20info%20del%20colch%C3%B3n%20Titanium",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png"
         }
       ]
     },
@@ -594,7 +652,8 @@
         "Sábado": "07:30 - 12:00",
         "Domingo": "Cerrado"
       },
-      "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs."
+      "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
+      "hoursCompact": "Lun–Vie 09:00–18:00  ·  Sáb 09:00–13:00"
     },
     "promo-cartagena": {
       "title": "Promo Cartagena 2026",
@@ -604,7 +663,9 @@
         "headline": "Promo Cartagena 2026",
         "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026.",
         "ctaPrimaryText": "Participar ahora",
-        "ctaPrimaryHref": "#promo-form"
+        "ctaPrimaryHref": "#promo-form",
+        "trustBadgesEnabled": false,
+        "backgroundImage": "https://images.unsplash.com/photo-1631900099091-51b06fa6c4ea?auto=format&fit=crop&w=2000&q=80"
       },
       "lead-form": {
         "title": "Formulario de participación",
@@ -668,6 +729,505 @@
         "privacyLabel": "Al participar acepto los términos y condiciones",
         "privacyHref": "/s/es/superspuma/terminos"
       }
+    },
+    "activePromos": {
+      "title": "Promociones activas",
+      "subtitle": "Aprovechá mientras están vigentes.",
+      "items": [
+        {
+          "id": "promo-20-off",
+          "title": "20% OFF",
+          "description": "En colchones seleccionados de la línea Titanium e Imperial. Agosto 2025.",
+          "code": "VERANO20",
+          "bgColor": "bg-[#c22848]",
+          "textColor": "text-white",
+          "link": "https://wa.me/595974202025?text=Hola!%20Quiero%20aprovechar%20la%20promo%2020%25%20OFF"
+        },
+        {
+          "id": "promo-mama-papa",
+          "title": "Promo Mamá y Papá 2026",
+          "description": "2 cruceros Imperial + sorteos mensuales (Jun/Jul/Ago). Comprá entre mayo y julio.",
+          "bgColor": "bg-[#1a3a5f]",
+          "textColor": "text-white",
+          "expiresAt": "2026-07-31T23:59:59-03:00",
+          "link": "/s/es/superspuma/promociones#mama-papa"
+        },
+        {
+          "id": "promo-cuotas",
+          "title": "18 cuotas sin interés",
+          "description": "Con todas las tarjetas bancarias del Paraguay. Permanente.",
+          "bgColor": "bg-[#0f3460]",
+          "textColor": "text-white",
+          "link": "/s/es/superspuma/financiacion"
+        }
+      ],
+      "autoRotate": true,
+      "dismissible": true
+    },
+    "finalCta": {
+      "title": "Visitá la tienda Superspuma más cercana",
+      "subtitle": "7 tiendas en Asunción y Central + 6 centros logísticos en el interior. O consultanos por WhatsApp y te respondemos en el día.",
+      "buttonText": "Consultar por WhatsApp",
+      "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma"
+    },
+    "quiz": {
+      "eyebrow": "Test en 1 minuto",
+      "title": "¿Cuál Superspuma es para vos?",
+      "subtitle": "Respondé 5 preguntas y te recomendamos 3 modelos que encajan con tu cuerpo, tu cuarto y tu presupuesto.",
+      "resultHeading": "Nuestra recomendación",
+      "resultSubheading": "Basado en tus respuestas — ordenado por afinidad. Tocá cualquiera para ver detalle o consultar por WhatsApp.",
+      "steps": [
+        {
+          "id": "para_quien",
+          "question": "¿Para quién es el colchón?",
+          "options": [
+            {
+              "value": "matrimonio",
+              "label": "Pareja / matrimonio",
+              "scores": {
+                "titanium": 3,
+                "imperial": 3,
+                "harmony": 3,
+                "duo-confort": 2,
+                "golden": 2
+              }
+            },
+            {
+              "value": "individual",
+              "label": "Una sola persona",
+              "scores": {
+                "serrat": 2,
+                "harmony": 2,
+                "luna-soft": 1,
+                "serena": 2
+              }
+            },
+            {
+              "value": "ninos",
+              "label": "Niños (hasta 12)",
+              "scores": {
+                "pop-kids": 3,
+                "super-kids": 3,
+                "impulse-kids": 3
+              }
+            },
+            {
+              "value": "adolescentes",
+              "label": "Adolescentes",
+              "scores": {
+                "pop-teen": 3,
+                "superteen": 3,
+                "impulse-teens": 3,
+                "renovate": 2
+              }
+            },
+            {
+              "value": "adulto_mayor",
+              "label": "Adulto mayor / problemas de espalda",
+              "scores": {
+                "ortopedico": 3,
+                "duo-confort": 3,
+                "titanium": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "medida",
+          "question": "¿Qué medida necesitás?",
+          "options": [
+            {
+              "value": "una_plaza",
+              "label": "1 plaza / 1½ plaza (80–120 cm)",
+              "scores": {
+                "pop-kids": 2,
+                "super-kids": 2,
+                "impulse-kids": 2,
+                "pop-teen": 2,
+                "luna-soft": 2
+              }
+            },
+            {
+              "value": "dos_plazas",
+              "label": "2 plazas (140 cm)",
+              "scores": {
+                "harmony": 2,
+                "serrat": 2,
+                "delta-soft": 2,
+                "essential-top": 2,
+                "duo-confort": 2
+              }
+            },
+            {
+              "value": "queen",
+              "label": "Queen (160 cm)",
+              "scores": {
+                "titanium": 3,
+                "imperial": 3,
+                "harmony": 2,
+                "duo-confort": 2,
+                "golden": 2
+              }
+            },
+            {
+              "value": "king",
+              "label": "King / Super King (180–200 cm)",
+              "scores": {
+                "titanium": 3,
+                "imperial": 3,
+                "ortopedico": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "firmeza",
+          "question": "¿Qué firmeza te sienta bien?",
+          "helperText": "Regla general: más peso → más firme. Si dormís de costado, buscá uno adaptable.",
+          "options": [
+            {
+              "value": "suave",
+              "label": "Suave — me gusta hundirme un poco",
+              "scores": {
+                "luna-soft": 3,
+                "delta-soft": 3,
+                "essential-top": 2,
+                "harmony": 2
+              }
+            },
+            {
+              "value": "medio",
+              "label": "Medio — ni muy duro ni muy blando",
+              "scores": {
+                "harmony": 3,
+                "serrat": 3,
+                "golden": 2,
+                "serena": 2,
+                "imperial": 2
+              }
+            },
+            {
+              "value": "firme",
+              "label": "Firme — me gusta soporte parejo",
+              "scores": {
+                "titanium": 3,
+                "ortopedico": 3,
+                "imperial": 2
+              }
+            },
+            {
+              "value": "adaptable",
+              "label": "Adaptable (viscoelástica) — que se ajuste a mí",
+              "scores": {
+                "duo-confort": 3,
+                "ortopedico": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "tecnologia",
+          "question": "¿Resorte o espuma?",
+          "helperText": "Resorte: mejor ventilación + soporte tradicional. Espuma: más silencioso + adaptable.",
+          "options": [
+            {
+              "value": "resorte",
+              "label": "Prefiero resorte",
+              "scores": {
+                "titanium": 3,
+                "imperial": 3,
+                "harmony": 3,
+                "serrat": 2,
+                "delta-soft": 2,
+                "essential-top": 2,
+                "renovate": 2,
+                "impulse-kids": 1,
+                "impulse-teens": 1,
+                "pop-kids": 1,
+                "pop-plus": 1,
+                "pop-teen": 1,
+                "superteen": 1
+              }
+            },
+            {
+              "value": "espuma",
+              "label": "Prefiero espuma",
+              "scores": {
+                "duo-confort": 3,
+                "ortopedico": 3,
+                "luna-soft": 2,
+                "golden": 2,
+                "serena": 2,
+                "super-kids": 2
+              }
+            },
+            {
+              "value": "me_da_igual",
+              "label": "Me da igual — recomendame lo mejor",
+              "scores": {
+                "titanium": 2,
+                "imperial": 2,
+                "harmony": 2,
+                "duo-confort": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "presupuesto",
+          "question": "¿Qué presupuesto manejás?",
+          "options": [
+            {
+              "value": "hasta_500k",
+              "label": "Hasta Gs. 500.000",
+              "scores": {
+                "luna-soft": 3,
+                "pop-kids": 3,
+                "super-kids": 3,
+                "impulse-kids": 2,
+                "renovate": 2
+              }
+            },
+            {
+              "value": "hasta_1m",
+              "label": "Gs. 500.000 – 1.000.000",
+              "scores": {
+                "harmony": 2,
+                "delta-soft": 2,
+                "essential-top": 3,
+                "duo-confort": 2,
+                "serrat": 2,
+                "golden": 2,
+                "serena": 2,
+                "superteen": 2,
+                "pop-plus": 2,
+                "pop-teen": 2,
+                "impulse-teens": 2
+              }
+            },
+            {
+              "value": "hasta_2m",
+              "label": "Gs. 1.000.000 – 2.000.000",
+              "scores": {
+                "harmony": 3,
+                "serrat": 3,
+                "delta-soft": 3,
+                "duo-confort": 3,
+                "titanium": 2,
+                "ortopedico": 2
+              }
+            },
+            {
+              "value": "mas_2m",
+              "label": "Más de Gs. 2.000.000 — busco lo mejor",
+              "scores": {
+                "titanium": 3,
+                "imperial": 3,
+                "ortopedico": 2
+              }
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "titanium",
+          "name": "Titanium",
+          "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, 5 años de garantía.",
+          "priceFromLabel": "Desde Gs. 1.800.000",
+          "ctaHref": "/s/es/superspuma/producto/titanium",
+          "ctaLabel": "Ver Titanium",
+          "badge": "Más vendido"
+        },
+        {
+          "id": "imperial",
+          "name": "Imperial",
+          "description": "Resortes Bonell con Pillow Top. Alta gama para uso matrimonial.",
+          "priceFromLabel": "Desde Gs. 2.230.000",
+          "ctaHref": "/s/es/superspuma/producto/imperial",
+          "ctaLabel": "Ver Imperial"
+        },
+        {
+          "id": "harmony",
+          "name": "Harmony",
+          "description": "Equilibrio ideal soporte + confort. Euro-Top y antiácaros.",
+          "priceFromLabel": "Desde Gs. 1.274.000",
+          "ctaHref": "/s/es/superspuma/producto/harmony",
+          "ctaLabel": "Ver Harmony",
+          "badge": "Más consultado"
+        },
+        {
+          "id": "duo-confort",
+          "name": "Duo Confort",
+          "description": "Viscoelástica adaptable. Alivio de puntos de presión.",
+          "priceFromLabel": "Desde Gs. 980.000",
+          "ctaHref": "/s/es/superspuma/producto/duo-confort",
+          "ctaLabel": "Ver Duo Confort"
+        },
+        {
+          "id": "ortopedico",
+          "name": "Ortopédico",
+          "description": "Firmeza máxima. Para problemas de columna y espalda.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/ortopedico",
+          "ctaLabel": "Ver Ortopédico"
+        },
+        {
+          "id": "serrat",
+          "name": "Serrat",
+          "description": "Resorte con espuma de densidad media. Firmeza media y tacto suave.",
+          "priceFromLabel": "Desde Gs. 1.150.000",
+          "ctaHref": "/s/es/superspuma/producto/serrat",
+          "ctaLabel": "Ver Serrat"
+        },
+        {
+          "id": "delta-soft",
+          "name": "Delta Soft",
+          "description": "Resorte con pillow suave para tacto mullido.",
+          "priceFromLabel": "Desde Gs. 1.050.000",
+          "ctaHref": "/s/es/superspuma/producto/delta-soft",
+          "ctaLabel": "Ver Delta Soft"
+        },
+        {
+          "id": "essential-top",
+          "name": "Essential Top",
+          "description": "La puerta de entrada al resorte con Pillow Top.",
+          "priceFromLabel": "Desde Gs. 890.000",
+          "ctaHref": "/s/es/superspuma/producto/essential-top",
+          "ctaLabel": "Ver Essential Top"
+        },
+        {
+          "id": "renovate",
+          "name": "Renovate",
+          "description": "Opción esencial para renovar sin apretarse el presupuesto.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/renovate",
+          "ctaLabel": "Ver Renovate"
+        },
+        {
+          "id": "luna-soft",
+          "name": "Luna Soft",
+          "description": "Espuma de densidad media. Accesible — ideal invitados.",
+          "priceFromLabel": "Desde Gs. 500.000",
+          "ctaHref": "/s/es/superspuma/producto/luna-soft",
+          "ctaLabel": "Ver Luna Soft"
+        },
+        {
+          "id": "golden",
+          "name": "Golden",
+          "description": "Espuma de línea Confort con firmeza media.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/golden",
+          "ctaLabel": "Ver Golden"
+        },
+        {
+          "id": "serena",
+          "name": "Serena",
+          "description": "Espuma con tacto suave y precio medio.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/serena",
+          "ctaLabel": "Ver Serena"
+        },
+        {
+          "id": "impulse-kids",
+          "name": "Impulse Kids",
+          "description": "Resorte para niños — firme y duradero.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/impulse-kids",
+          "ctaLabel": "Ver Impulse Kids"
+        },
+        {
+          "id": "impulse-teens",
+          "name": "Impulse Teens",
+          "description": "Resorte para adolescentes — soporte medio.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/impulse-teens",
+          "ctaLabel": "Ver Impulse Teens"
+        },
+        {
+          "id": "pop-kids",
+          "name": "Pop Kids",
+          "description": "Resorte infantil económico.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/pop-kids",
+          "ctaLabel": "Ver Pop Kids"
+        },
+        {
+          "id": "pop-plus",
+          "name": "Pop Plus",
+          "description": "Resorte de línea esencial reforzada.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/pop-plus",
+          "ctaLabel": "Ver Pop Plus"
+        },
+        {
+          "id": "pop-teen",
+          "name": "Pop Teen",
+          "description": "Resorte para adolescentes — presupuesto ajustado.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/pop-teen",
+          "ctaLabel": "Ver Pop Teen"
+        },
+        {
+          "id": "super-kids",
+          "name": "Super Kids",
+          "description": "Espuma para niños — cómoda y accesible.",
+          "priceFromLabel": "Desde Gs. 420.000",
+          "ctaHref": "/s/es/superspuma/producto/super-kids",
+          "ctaLabel": "Ver Super Kids"
+        },
+        {
+          "id": "superteen",
+          "name": "Superteen",
+          "description": "Resorte para adolescentes — firmeza media.",
+          "priceFromLabel": "Consultar",
+          "ctaHref": "/s/es/superspuma/producto/superteen",
+          "ctaLabel": "Ver Superteen"
+        }
+      ]
+    },
+    "storeLocator": {
+      "title": "Visitanos en tu tienda más cercana",
+      "subtitle": "7 tiendas en Asunción y Central con exhibición completa + 6 centros logísticos en el interior. Tocá una para abrir en Google Maps.",
+      "columns": 3,
+      "features": [
+        {
+          "title": "Villamorra Shopping",
+          "description": "Villamorra Shopping, Planta Baja, Asunción · Lunes a Sábado: 09:00 - 21:00",
+          "icon": "MapPin",
+          "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Villamorra+Shopping+Asunci%C3%B3n"
+        },
+        {
+          "title": "Paseo La Galería",
+          "description": "Avda. Aviadores del Chaco y calle Sta. Teresa, Asunción · Lunes a Jueves: 10:00 - 21:00",
+          "icon": "MapPin",
+          "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Paseo+La+Galer%C3%ADa+Asunci%C3%B3n"
+        },
+        {
+          "title": "Fuente Shopping",
+          "description": "Fuente Shopping, Salemma, 1er piso, Asunción · Lunes a Sábado: 09:00 - 21:00",
+          "icon": "MapPin",
+          "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fuente+Shopping+Asunci%C3%B3n"
+        },
+        {
+          "title": "Lillo (Asunción Centro)",
+          "description": "Lillo 2779 entre Denis Roa y Coronel Cabrera, Asunción · Lunes a Viernes: 08:00 - 17:30",
+          "icon": "MapPin",
+          "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Lillo+2779+Asunci%C3%B3n"
+        },
+        {
+          "title": "Fernando de la Mora",
+          "description": "R.I. 9 Capitán Bado 1158 y Las Residentas · Lunes a Viernes: 07:30 - 17:00",
+          "icon": "MapPin",
+          "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fernando+de+la+Mora+Capit%C3%A1n+Bado"
+        },
+        {
+          "title": "Luisito (Ñemby)",
+          "description": "Avda. Manuel Ortiz Guerrero, Ñemby · Lunes a Viernes: 08:00 - 17:00",
+          "icon": "MapPin",
+          "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Luisito+%C3%91emby"
+        }
+      ]
     }
   },
   "nosotros": {
@@ -678,7 +1238,8 @@
     "hero": {
       "headline": "49 años haciendo dormir al Paraguay",
       "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80"
     },
     "story": {
       "title": "Nuestra historia",
@@ -725,7 +1286,8 @@
     "hero": {
       "headline": "Nuestras tiendas",
       "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80"
     },
     "stores": {
       "title": "Tiendas y puntos de venta",
@@ -899,7 +1461,15 @@
         }
       ]
     },
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "map": {
+      "title": "7 tiendas + 6 centros logísticos en todo el país",
+      "subtitle": "Asunción y Central concentran los puntos propios. El resto del país llega vía centros logísticos.",
+      "src": "/images/ss/py-map.svg",
+      "alt": "Mapa de Paraguay con ubicación de tiendas Superspuma",
+      "background": "surface",
+      "maxWidth": 820
+    }
   },
   "guias": {
     "seo": {
@@ -909,7 +1479,8 @@
     "hero": {
       "headline": "Elegí bien, dormí mejor",
       "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80"
     },
     "sizeGuide": {
       "title": "Medidas estándar en Paraguay",
@@ -966,7 +1537,7 @@
             "Super Kids"
           ],
           "ctaLabel": "Ver modelos suaves",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "medio",
@@ -982,7 +1553,7 @@
             "Golden"
           ],
           "ctaLabel": "Ver modelos medios",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "firme",
@@ -994,7 +1565,7 @@
             "Imperial"
           ],
           "ctaLabel": "Ver modelos firmes",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "adaptable",
@@ -1005,7 +1576,7 @@
             "Serena"
           ],
           "ctaLabel": "Ver memory foam",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         }
       ]
     },
@@ -1185,7 +1756,8 @@
     "hero": {
       "headline": "Respaldo de fábrica paraguaya",
       "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80"
     },
     "coverage": {
       "title": "Qué cubre y qué no",
@@ -1238,7 +1810,7 @@
             "Super Kids"
           ],
           "ctaLabel": "Ver modelos Esencial",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "confort",
@@ -1256,7 +1828,7 @@
             "Pop Teen"
           ],
           "ctaLabel": "Ver modelos Confort",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "alta-gama",
@@ -1273,7 +1845,7 @@
             "Impulse Teens"
           ],
           "ctaLabel": "Ver Alta Gama",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "premium",
@@ -1286,7 +1858,7 @@
             "Titanium"
           ],
           "ctaLabel": "Ver Titanium",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         },
         {
           "id": "ortopedico",
@@ -1301,7 +1873,7 @@
             "Ideal para problemas de columna"
           ],
           "ctaLabel": "Ver Ortopédico",
-          "ctaHref": "/s/es/superspuma#catalogo"
+          "ctaHref": "/s/es/superspuma/tienda"
         }
       ]
     },
@@ -1315,7 +1887,8 @@
     "hero": {
       "headline": "Envíos a todo el Paraguay",
       "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80"
     },
     "trustBadges": {
       "title": "Lo que incluye tu envío",
@@ -1496,7 +2069,15 @@
         }
       ]
     },
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "map": {
+      "title": "Tres zonas de cobertura",
+      "subtitle": "Zona 1 gratis desde compras de Gs. 1.000.000. Zona 2 y 3 tienen costo fijo.",
+      "src": "/images/ss/py-map-zones.svg",
+      "alt": "Mapa de Paraguay con zonas de envío",
+      "background": "surface",
+      "maxWidth": 820
+    }
   },
   "financiacion": {
     "seo": {
@@ -1506,7 +2087,8 @@
     "hero": {
       "headline": "Pagá tu colchón como te convenga",
       "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80"
     },
     "trustBadges": {
       "title": "Lo que ofrecemos",
@@ -1677,7 +2259,188 @@
         }
       ]
     },
-    "trustBadgesEnabled": false
+    "trustBadgesEnabled": false,
+    "bankGrid": {
+      "title": "Cuotas con todas las tarjetas",
+      "subtitle": "18 cuotas sin interés con los bancos del sistema financiero paraguayo. Consultá promociones específicas vigentes por WhatsApp.",
+      "features": [
+        {
+          "title": "Itaú",
+          "description": "Visa / Mastercard / Cabal — hasta 18 cuotas sin interés."
+        },
+        {
+          "title": "Ueno",
+          "description": "Visa / Mastercard — hasta 18 cuotas sin interés."
+        },
+        {
+          "title": "Continental",
+          "description": "Visa / Mastercard / Cabal — hasta 18 cuotas sin interés."
+        },
+        {
+          "title": "Familiar",
+          "description": "Visa / Mastercard — hasta 18 cuotas sin interés."
+        },
+        {
+          "title": "Visión Banco",
+          "description": "Visa / Mastercard — hasta 15 cuotas sin interés."
+        },
+        {
+          "title": "Sudameris",
+          "description": "Visa / Mastercard — hasta 12 cuotas sin interés."
+        },
+        {
+          "title": "Regional",
+          "description": "Visa / Mastercard / Cabal — hasta 12 cuotas sin interés."
+        },
+        {
+          "title": "Interfisa",
+          "description": "Visa / Mastercard — hasta 12 cuotas sin interés."
+        },
+        {
+          "title": "GNB",
+          "description": "Visa / Mastercard — hasta 12 cuotas sin interés."
+        },
+        {
+          "title": "Atlas",
+          "description": "Visa / Mastercard — hasta 12 cuotas sin interés."
+        },
+        {
+          "title": "Solar",
+          "description": "Visa / Mastercard — hasta 10 cuotas sin interés."
+        },
+        {
+          "title": "Banco Nacional de Fomento",
+          "description": "Débito y crédito aceptado en tienda."
+        }
+      ]
+    },
+    "paymentMethods": {
+      "title": "Formas de pago aceptadas",
+      "subtitle": "En tienda y por WhatsApp.",
+      "features": [
+        {
+          "title": "Tarjeta de crédito",
+          "description": "Visa, Mastercard, Cabal — hasta 18 cuotas"
+        },
+        {
+          "title": "Tarjeta de débito",
+          "description": "Todas las tarjetas del sistema"
+        },
+        {
+          "title": "Transferencia bancaria",
+          "description": "Descuento adicional — consultá el %"
+        },
+        {
+          "title": "Efectivo",
+          "description": "En cualquiera de nuestras tiendas físicas"
+        },
+        {
+          "title": "Bancard (POS)",
+          "description": "Terminales en todas las sucursales"
+        },
+        {
+          "title": "Cheques",
+          "description": "Con aprobación — hasta 90 días"
+        }
+      ]
+    },
+    "calculator": {
+      "title": "Calculá tu cuota",
+      "subtitle": "Ejemplos reales con los modelos más pedidos. Todos sin interés.",
+      "columns": [
+        "Modelo",
+        "Precio (Gs.)",
+        "6 cuotas",
+        "12 cuotas",
+        "18 cuotas"
+      ],
+      "rows": [
+        [
+          "Harmony Queen",
+          "1.480.000",
+          "246.666",
+          "123.333",
+          "82.222"
+        ],
+        [
+          "Serrat Queen",
+          "1.680.000",
+          "280.000",
+          "140.000",
+          "93.333"
+        ],
+        [
+          "Imperial Queen",
+          "2.230.000",
+          "371.666",
+          "185.833",
+          "123.888"
+        ],
+        [
+          "Titanium Queen",
+          "2.700.000",
+          "450.000",
+          "225.000",
+          "150.000"
+        ],
+        [
+          "Combo Premium King",
+          "3.500.000",
+          "583.333",
+          "291.666",
+          "194.444"
+        ]
+      ]
+    },
+    "calculatorTiers": {
+      "title": "Ejemplos de cuotas",
+      "subtitle": "Lo que pagás al mes según cuotas. Todos sin interés.",
+      "tiers": [
+        {
+          "id": "cuotas-6",
+          "name": "6 cuotas",
+          "price": "Gs. 246.666",
+          "priceNote": "por mes",
+          "description": "Cuota pequeña, pagás en 6 meses.",
+          "features": [
+            "Harmony Queen: Gs. 246.666/mes",
+            "Serrat Queen: Gs. 280.000/mes",
+            "Imperial Queen: Gs. 371.666/mes"
+          ],
+          "ctaText": "Consultar",
+          "ctaHref": "https://wa.me/595974202025"
+        },
+        {
+          "id": "cuotas-12",
+          "name": "12 cuotas",
+          "price": "Gs. 123.333",
+          "priceNote": "por mes",
+          "description": "El plan más popular. Un año para pagar.",
+          "features": [
+            "Harmony Queen: Gs. 123.333/mes",
+            "Serrat Queen: Gs. 140.000/mes",
+            "Imperial Queen: Gs. 185.833/mes"
+          ],
+          "ctaText": "Consultar",
+          "ctaHref": "https://wa.me/595974202025",
+          "featured": true
+        },
+        {
+          "id": "cuotas-18",
+          "name": "18 cuotas",
+          "price": "Gs. 82.222",
+          "priceNote": "por mes",
+          "description": "Cuota mínima, año y medio para pagar.",
+          "features": [
+            "Harmony Queen: Gs. 82.222/mes",
+            "Serrat Queen: Gs. 93.333/mes",
+            "Imperial Queen: Gs. 123.888/mes"
+          ],
+          "ctaText": "Consultar",
+          "ctaHref": "https://wa.me/595974202025"
+        }
+      ]
+    }
   },
   "terminos": {
     "seo": {
@@ -1846,7 +2609,7 @@
       "ctaPrimaryText": "Empezar el quiz",
       "ctaPrimaryHref": "#quiz",
       "ctaSecondaryText": "Ver todo el catálogo",
-      "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+      "ctaSecondaryHref": "/s/es/superspuma/tienda",
       "trustBadges": [
         "6 preguntas",
         "2 minutos",
@@ -2281,13 +3044,14 @@
       "ctaPrimaryText": "Cotizar mi cambio",
       "ctaPrimaryHref": "#trade-in-form",
       "ctaSecondaryText": "Ver modelos nuevos",
-      "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+      "ctaSecondaryHref": "/s/es/superspuma/tienda",
       "trustBadges": [
         "Cotización en el día",
         "Retiro sin costo",
         "Crédito sobre tu nuevo colchón"
       ],
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80"
     },
     "howItWorks": {
       "eyebrow": "Cómo funciona",
@@ -2480,7 +3244,8 @@
         "Entrega coordinada",
         "18 cuotas sin interés"
       ],
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
     },
     "combos": {
       "eyebrow": "Combos sugeridos",
@@ -2502,7 +3267,11 @@
             "Hasta 18 cuotas sin interés"
           ],
           "ctaLabel": "Consultar por combo Esencial",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Esencial%20(Harmony%20%2B%20base%20%2B%20almohadas%20%2B%20protector)"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Esencial%20(Harmony%20%2B%20base%20%2B%20almohadas%20%2B%20protector)",
+          "image": {
+            "src": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+            "alt": "Combo Esencial — Harmony + base + almohadas + protector"
+          }
         },
         {
           "id": "combo-premium",
@@ -2522,7 +3291,11 @@
             "Hasta 18 cuotas sin interés"
           ],
           "ctaLabel": "Consultar combo Premium",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Premium%20(Titanium%20%2B%20base%20%2B%20almohadas%20%2B%20protector%20%2B%20cubre)"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Premium%20(Titanium%20%2B%20base%20%2B%20almohadas%20%2B%20protector%20%2B%20cubre)",
+          "image": {
+            "src": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
+            "alt": "Combo Premium — Titanium + base + almohadas + protector + cubre colchón"
+          }
         },
         {
           "id": "combo-ortopedico",
@@ -2540,7 +3313,11 @@
             "Hasta 18 cuotas sin interés"
           ],
           "ctaLabel": "Consultar combo Ortopédico",
-          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Ortop%C3%A9dico"
+          "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Ortop%C3%A9dico",
+          "image": {
+            "src": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
+            "alt": "Combo Ortopédico — colchón firme + base + almohadas + protector"
+          }
         }
       ]
     }
@@ -2556,41 +3333,56 @@
       },
       {
         "label": "Catálogo",
-        "href": "/s/es/superspuma#catalogo"
+        "href": "/s/es/superspuma/tienda"
       },
       {
         "label": "Combos",
         "href": "/s/es/superspuma/combos"
       },
       {
-        "label": "Cambio",
-        "href": "/s/es/superspuma/cambio"
+        "label": "Promos",
+        "href": "/s/es/superspuma/promociones"
+      },
+      {
+        "label": "Info útil",
+        "href": "/s/es/superspuma/guias",
+        "children": [
+          {
+            "label": "Guía de compra",
+            "href": "/s/es/superspuma/guias"
+          },
+          {
+            "label": "Envíos",
+            "href": "/s/es/superspuma/envios"
+          },
+          {
+            "label": "Financiación",
+            "href": "/s/es/superspuma/financiacion"
+          },
+          {
+            "label": "Garantía",
+            "href": "/s/es/superspuma/garantia"
+          },
+          {
+            "label": "Cambio de colchón",
+            "href": "/s/es/superspuma/cambio"
+          }
+        ]
       },
       {
         "label": "Tiendas",
         "href": "/s/es/superspuma/tiendas"
       },
       {
-        "label": "Guía de compra",
-        "href": "/s/es/superspuma/guias"
-      },
-      {
-        "label": "Envíos",
-        "href": "/s/es/superspuma/envios"
-      },
-      {
-        "label": "Financiación",
-        "href": "/s/es/superspuma/financiacion"
-      },
-      {
-        "label": "Garantía",
-        "href": "/s/es/superspuma/garantia"
-      },
-      {
         "label": "Nosotros",
         "href": "/s/es/superspuma/nosotros"
+      },
+      {
+        "label": "Preguntas",
+        "href": "/s/es/superspuma/faq"
       }
-    ]
+    ],
+    "logoUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/superspumalogo.svg"
   },
   "footer": {
     "businessName": "Superspuma",
@@ -2610,7 +3402,7 @@
       },
       {
         "label": "Catálogo",
-        "href": "/s/es/superspuma#catalogo"
+        "href": "/s/es/superspuma/tienda"
       },
       {
         "label": "Nuestras tiendas",
@@ -2666,7 +3458,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Premium",
           "5 años garantía",
@@ -2832,7 +3624,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Alta Gama",
           "3 años garantía",
@@ -2998,7 +3790,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Confort",
           "3 años garantía",
@@ -3154,7 +3946,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serrat.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Confort",
           "3 años garantía",
@@ -3234,7 +4026,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Delta%20Soft.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Confort",
           "3 años garantía",
@@ -3314,7 +4106,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Essential%20Top.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Esencial",
           "2 años garantía",
@@ -3394,7 +4186,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Renovate.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Esencial",
           "2 años garantía",
@@ -3469,7 +4261,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Infantil",
           "2 años garantía",
@@ -3590,7 +4382,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Teens.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Juvenil",
           "2 años garantía",
@@ -3670,7 +4462,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Infantil",
           "2 años garantía",
@@ -3811,7 +4603,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Plus.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Esencial",
           "2 años garantía",
@@ -3891,7 +4683,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Teen.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Juvenil",
           "2 años garantía",
@@ -3971,7 +4763,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Superteen.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Juvenil",
           "3 años garantía",
@@ -4046,7 +4838,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Infantil",
           "2 años garantía",
@@ -4162,7 +4954,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Esencial",
           "2 años garantía",
@@ -4313,7 +5105,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Confort",
           "3 años garantía",
@@ -4449,7 +5241,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serena.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Confort",
           "3 años garantía",
@@ -4529,7 +5321,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Alta Gama",
           "3 años garantía",
@@ -4665,7 +5457,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Premium",
           "6 años garantía",
@@ -4811,7 +5603,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Almohada%20Superspuma.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Accesorio",
           "Garantía fábrica",
@@ -4865,7 +5657,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Cubre%20Colch%C3%B3n.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Accesorio",
           "Garantía fábrica",
@@ -4919,7 +5711,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Protector%20Impermeable.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Accesorio",
           "Garantía fábrica",
@@ -4973,7 +5765,7 @@
         "ctaPrimaryText": "Consultar por WhatsApp",
         "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl.",
         "ctaSecondaryText": "Ver todo el catálogo",
-        "ctaSecondaryHref": "/s/es/superspuma#catalogo",
+        "ctaSecondaryHref": "/s/es/superspuma/tienda",
         "trustBadges": [
           "Línea Accesorio",
           "Garantía fábrica",
@@ -5084,6 +5876,351 @@
       "headline": "Ganá un viaje a Cartagena 2026",
       "subheadline": "Comprá cualquier Superspuma en 2026 y entrás al sorteo. 1 viaje para 2 + 5 sommiers Harmony.",
       "trustBadgesEnabled": false
+    }
+  },
+  "promociones": {
+    "seo": {
+      "title": "Promociones Superspuma — 20% OFF, Promo Mamá y Papá, cuotas sin interés",
+      "description": "Todas las promos vigentes en un solo lugar. Descuentos, sorteos, combos y cuotas sin interés."
+    },
+    "hero": {
+      "headline": "Promociones vigentes",
+      "subheadline": "Todas en un solo lugar. Consultá condiciones en cada una.",
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
+    },
+    "active": {
+      "title": "En curso ahora",
+      "subtitle": "Estas promos están activas. Las fechas de cierre son reales.",
+      "features": [
+        {
+          "title": "20% OFF Titanium + Imperial",
+          "description": "Descuento directo en los dos modelos más pedidos. Vigente agosto 2025 (consultá extensión).",
+          "href": "https://wa.me/595974202025?text=Hola!%20Quiero%20comprar%20con%20la%20promo%2020%25%20OFF"
+        },
+        {
+          "title": "Promo Mamá y Papá 2026 — 2 cruceros Imperial",
+          "description": "Comprá entre mayo y julio de 2026 y participá. Sorteos: 3 junio / 3 julio / 3 agosto. 3 ganadores.",
+          "href": "/s/es/superspuma/promociones#mama-papa"
+        },
+        {
+          "title": "Combo Premium — 10% OFF",
+          "description": "Colchón + sommier + 2 almohadas + protector. Se aplica sobre la suma de productos.",
+          "href": "/s/es/superspuma/combos"
+        },
+        {
+          "title": "18 cuotas sin interés",
+          "description": "Permanente, con cualquier tarjeta bancaria. Ver bancos participantes en /financiacion.",
+          "href": "/s/es/superspuma/financiacion"
+        },
+        {
+          "title": "Descuento por transferencia bancaria",
+          "description": "Pagás desde home banking y te aplicamos un porcentaje de descuento sobre el precio de lista. Consultá el % actual por WhatsApp.",
+          "href": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20descuento%20por%20transferencia"
+        },
+        {
+          "title": "Renovación (trade-in)",
+          "description": "Entregás tu colchón viejo y te damos crédito sobre el nuevo. Retiro sin costo.",
+          "href": "/s/es/superspuma/cambio"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Condiciones generales",
+      "subtitle": "Aplicable a todas las promos salvo que la promo específica indique lo contrario.",
+      "features": [
+        {
+          "title": "No acumulables",
+          "description": "Las promociones no se acumulan entre sí. Solo se aplica una por compra."
+        },
+        {
+          "title": "Válido en Paraguay",
+          "description": "Todas las promos aplican únicamente a compras realizadas en Paraguay, en tiendas físicas o por WhatsApp."
+        },
+        {
+          "title": "Sujeto a stock",
+          "description": "Las promos están sujetas a disponibilidad del modelo/medida. Si no hay stock coordinamos fabricación (3-5 días extra)."
+        },
+        {
+          "title": "Factura obligatoria",
+          "description": "Todos los sorteos y premios requieren la factura a nombre del comprador para validar la participación."
+        }
+      ]
+    },
+    "onSaleProducts": {
+      "title": "Productos en promoción",
+      "subtitle": "Los que tienen descuento directo hoy. Tocá cualquiera para ver detalle o confirmar precio por medida por WhatsApp.",
+      "whatsappPhone": "595974202025",
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Quiero comprar el colchón {{productName}} con la promo vigente.",
+      "productLinkBase": "/s/es/superspuma/producto",
+      "products": [
+        {
+          "name": "Titanium",
+          "category": "Resorte",
+          "price": "Desde Gs. 1.800.000",
+          "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
+          "priceOriginal": "Gs. 2.250.000",
+          "promoPercent": 20,
+          "promoLabel": "Promo 20% OFF",
+          "slug": "titanium"
+        },
+        {
+          "name": "Imperial",
+          "category": "Resorte",
+          "price": "Desde Gs. 2.230.000",
+          "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
+          "priceOriginal": "Gs. 2.787.500",
+          "promoPercent": 20,
+          "promoLabel": "Promo 20% OFF",
+          "slug": "imperial"
+        }
+      ]
+    }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas frecuentes — Superspuma",
+      "description": "Todas las preguntas sobre colchones, garantía, envíos, financiación y cuidados — buscables en un solo lugar."
+    },
+    "hero": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Todo lo que los clientes consultan antes de comprar — en un solo lugar, buscable.",
+      "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80"
+    }
+  },
+  "infoCta": {
+    "title": "¿Listo para elegir tu colchón?",
+    "subtitle": "Todos nuestros modelos con financiación y envío a todo Paraguay.",
+    "buttonText": "Ver catálogo",
+    "buttonHref": "/s/es/superspuma/tienda",
+    "variant": "gradient"
+  },
+  "tienda": {
+    "seo": {
+      "title": "Tienda Superspuma — colchones, sommiers y accesorios | Fábrica paraguaya",
+      "description": "Catálogo completo de colchones Superspuma: 13 de resorte + 6 de espuma + accesorios. Ficha por modelo con medidas, firmeza, garantía y precio. Envío a todo Paraguay, 18 cuotas sin interés."
+    },
+    "hero": {
+      "headline": "Todos nuestros colchones",
+      "subheadline": "19 modelos fabricados en Paraguay desde 1976. Filtrá por categoría y abrí cada ficha para ver medidas, firmeza y garantía.",
+      "ctaPrimaryText": "Consultar por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
+      "ctaSecondaryText": "Guía de compra",
+      "ctaSecondaryHref": "/s/es/superspuma/guias",
+      "trustBadges": [
+        "49 años en Paraguay",
+        "18 cuotas sin interés",
+        "Envío a todo el país"
+      ],
+      "trustBadgesEnabled": true
+    },
+    "productCatalog": {
+      "title": "Todos nuestros colchones y accesorios",
+      "subtitle": "19 modelos en línea — resorte, espuma y accesorios. Clic en cualquier ficha para ver detalle, medidas y precio por medida. Consultá stock por WhatsApp.",
+      "whatsappPhone": "595974202025",
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
+      "categories": [
+        "Resorte",
+        "Espuma",
+        "Accesorios"
+      ],
+      "products": [
+        {
+          "name": "Titanium",
+          "category": "Resorte",
+          "price": "Desde Gs. 1.800.000",
+          "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
+          "priceOriginal": "Gs. 2.250.000",
+          "promoPercent": 20,
+          "promoLabel": "Promo 20% OFF",
+          "slug": "titanium"
+        },
+        {
+          "name": "Imperial",
+          "category": "Resorte",
+          "price": "Desde Gs. 2.230.000",
+          "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
+          "priceOriginal": "Gs. 2.787.500",
+          "promoPercent": 20,
+          "promoLabel": "Promo 20% OFF",
+          "slug": "imperial"
+        },
+        {
+          "name": "Harmony",
+          "category": "Resorte",
+          "price": "Desde Gs. 1.274.000",
+          "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+          "slug": "harmony"
+        },
+        {
+          "name": "Serrat",
+          "category": "Resorte",
+          "price": "Desde Gs. 1.150.000",
+          "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
+          "slug": "serrat"
+        },
+        {
+          "name": "Delta Soft",
+          "category": "Resorte",
+          "price": "Desde Gs. 1.050.000",
+          "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
+          "slug": "delta-soft"
+        },
+        {
+          "name": "Essential Top",
+          "category": "Resorte",
+          "price": "Desde Gs. 890.000",
+          "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
+          "slug": "essential-top"
+        },
+        {
+          "name": "Renovate",
+          "category": "Resorte",
+          "price": "Desde Gs. 780.000",
+          "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
+          "slug": "renovate"
+        },
+        {
+          "name": "Impulse Kids",
+          "category": "Resorte",
+          "price": "Desde Gs. 780.000",
+          "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
+          "slug": "impulse-kids"
+        },
+        {
+          "name": "Impulse Teens",
+          "category": "Resorte",
+          "price": "Desde Gs. 890.000",
+          "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
+          "slug": "impulse-teens"
+        },
+        {
+          "name": "Pop Kids",
+          "category": "Resorte",
+          "price": "Desde Gs. 649.000",
+          "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
+          "slug": "pop-kids"
+        },
+        {
+          "name": "Pop Plus",
+          "category": "Resorte",
+          "price": "Desde Gs. 850.000",
+          "description": "Pop reforzado para uso adulto — mayor capacidad.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
+          "slug": "pop-plus"
+        },
+        {
+          "name": "Pop Teen",
+          "category": "Resorte",
+          "price": "Desde Gs. 780.000",
+          "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
+          "slug": "pop-teen"
+        },
+        {
+          "name": "Superteen",
+          "category": "Resorte",
+          "price": "Desde Gs. 980.000",
+          "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
+          "slug": "superteen"
+        },
+        {
+          "name": "Ortopédico",
+          "category": "Espuma",
+          "price": "Desde Gs. 1.290.000",
+          "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
+          "slug": "ortopedico"
+        },
+        {
+          "name": "Duo Confort",
+          "category": "Espuma",
+          "price": "Desde Gs. 980.000",
+          "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
+          "slug": "duo-confort"
+        },
+        {
+          "name": "Serena",
+          "category": "Espuma",
+          "price": "Desde Gs. 850.000",
+          "description": "Espuma de alta densidad con buen confort y recuperación.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
+          "slug": "serena"
+        },
+        {
+          "name": "Golden",
+          "category": "Espuma",
+          "price": "Desde Gs. 696.000",
+          "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
+          "slug": "golden"
+        },
+        {
+          "name": "Luna Soft",
+          "category": "Espuma",
+          "price": "Desde Gs. 500.000",
+          "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
+          "slug": "luna-soft"
+        },
+        {
+          "name": "Super Kids",
+          "category": "Espuma",
+          "price": "Desde Gs. 420.000",
+          "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
+          "slug": "super-kids"
+        },
+        {
+          "name": "Base Box Baúl",
+          "category": "Accesorios",
+          "price": "Desde Gs. 890.000",
+          "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
+          "slug": "base-box-baul"
+        },
+        {
+          "name": "Protector Impermeable",
+          "category": "Accesorios",
+          "price": "Desde Gs. 120.000",
+          "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
+          "slug": "protector-colchon"
+        },
+        {
+          "name": "Cubre Colchón",
+          "category": "Accesorios",
+          "price": "Desde Gs. 95.000",
+          "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
+          "slug": "cubre-colchon"
+        },
+        {
+          "name": "Almohada Superspuma",
+          "category": "Accesorios",
+          "price": "Desde Gs. 65.000",
+          "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
+          "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
+          "slug": "almohada-superspuma"
+        }
+      ],
+      "productLinkBase": "/s/es/superspuma/producto"
     }
   }
 }

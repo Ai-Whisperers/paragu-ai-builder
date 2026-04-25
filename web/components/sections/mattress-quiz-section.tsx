@@ -1,12 +1,13 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
 import { ChevronLeft, ChevronRight, RotateCcw, Check } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { trackQuizStart, trackQuizComplete } from '@/lib/analytics/tenant-events'
 
 /**
  * Mattress recommendation quiz. Domain-specific product finder — maps
@@ -93,6 +94,8 @@ export function MattressQuizSection({
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [done, setDone] = useState(false)
+  const startedRef = useRef(false)
+  const completedRef = useRef(false)
 
   if (steps.length === 0 || products.length === 0) return null
 
@@ -120,12 +123,30 @@ export function MattressQuizSection({
 
   function pick(value: string) {
     setAnswers((prev) => ({ ...prev, [current.id]: value }))
+    // First answer counts as funnel entry — dedupe via ref so restart
+    // doesn't double-count unless the user actually restarts and picks again.
+    if (!startedRef.current) {
+      startedRef.current = true
+      trackQuizStart({})
+    }
   }
 
   function next() {
-    if (isLast) setDone(true)
-    else setIdx(idx + 1)
+    if (isLast) {
+      setDone(true)
+    } else {
+      setIdx(idx + 1)
+    }
   }
+
+  // Emit quiz_complete once when the results view is reached, with the
+  // top-K recommendation slugs. Guarded by a ref so we don't re-fire
+  // when the user tweaks `back → change answer → next → done` repeatedly.
+  useEffect(() => {
+    if (!done || completedRef.current) return
+    completedRef.current = true
+    trackQuizComplete({ recommended: ranking.map((r) => r.product.id) })
+  }, [done, ranking])
 
   function back() {
     if (idx === 0) return
@@ -136,6 +157,8 @@ export function MattressQuizSection({
     setAnswers({})
     setIdx(0)
     setDone(false)
+    startedRef.current = false
+    completedRef.current = false
   }
 
   return (
