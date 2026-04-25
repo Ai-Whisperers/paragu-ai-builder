@@ -15,12 +15,12 @@
     },
     {
       "id": "property-listings",
-      "variant": "grid",
+      "variant": "cards",
       "content": "home.properties"
     },
     {
       "id": "services",
-      "variant": "grid",
+      "variant": "cards",
       "content": "home.services"
     },
     {

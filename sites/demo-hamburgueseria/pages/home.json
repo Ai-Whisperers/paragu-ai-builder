@@ -15,7 +15,7 @@
     },
     {
       "id": "promo-banner",
-      "variant": "standard",
+      "variant": "simple",
       "content": "home.promoBanner"
     },
     {

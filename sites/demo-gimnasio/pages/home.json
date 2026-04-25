@@ -15,7 +15,7 @@
     },
     {
       "id": "promo-banner",
-      "variant": "standard",
+      "variant": "simple",
       "content": "home.promoBanner"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "services",
-      "variant": "grid",
+      "variant": "cards",
       "content": "home.services"
     },
     {

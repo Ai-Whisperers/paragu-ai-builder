@@ -15,7 +15,7 @@
     },
     {
       "id": "services",
-      "variant": "grid",
+      "variant": "cards",
       "content": "home.services"
     },
     {
