@@ -170,12 +170,11 @@
     ]
   },
   "placeholderFields": {
-    "location.googleMapsId": "null — needs real Place ID for Herrera 875. See docs/runbooks/google-maps-place-id.md",
-    "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py deferred.",
-    "brandPartners": "Satisfyer/LELO/We-Vibe logos use placeholder SVGs — replace with real logos",
-    "team": "about.team empty — decide whether to publish team or keep anonymous",
-    "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials required. See docs/runbooks/pagopar-setup.md",
-    "fiscalInfo": "RUC and Timbrado to be collected via owner onboarding questionnaire Parte E"
+    "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py pending client.",
+    "brandPartners": "Satisfyer/LELO/We-Vibe logos — client to provide real brand assets.",
+    "team": "Anonymous store model — no staff profiles published.",
+    "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials — client onboarding pending.",
+    "fiscalInfo": "RUC and Timbrado — client onboarding questionnaire Parte E."
   },
   "fiscalInfo": {
     "legalName": null,
