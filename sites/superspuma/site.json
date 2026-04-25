@@ -15,9 +15,11 @@
   ],
   "pages": [
     "home",
+    "tienda",
     "nosotros",
     "tiendas",
     "guias",
+    "guia-compra",
     "garantia",
     "envios",
     "financiacion",

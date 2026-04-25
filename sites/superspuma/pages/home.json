@@ -23,6 +23,11 @@
       "content": "home.productCatalog"
     },
     {
+      "id": "mattress-quiz",
+      "variant": "default",
+      "content": "home.quiz"
+    },
+    {
       "id": "programs-comparison",
       "variant": "tiered",
       "content": "home.programsComparison"
@@ -33,14 +38,9 @@
       "content": "home.process"
     },
     {
-      "id": "trust-signals",
-      "variant": "credentials",
-      "content": "home.trustSignals"
-    },
-    {
-      "id": "gallery",
+      "id": "features",
       "variant": "grid",
-      "content": "home.gallery"
+      "content": "home.storeLocator"
     },
     {
       "id": "testimonials",
@@ -48,9 +48,9 @@
       "content": "home.testimonials"
     },
     {
-      "id": "promo-banner",
-      "variant": "carousel",
-      "content": "home.promoBanner"
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
     }
   ]
 }
