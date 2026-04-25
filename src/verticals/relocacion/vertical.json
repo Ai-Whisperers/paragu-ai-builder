@@ -50,7 +50,19 @@
     "pricing",
     "packages-giftcards",
     "google-reviews",
-    "branches"
+    "branches",
+    "booking",
+    "promo-banner",
+    "trust-badges",
+    "open-hours-status",
+    "instagram-feed",
+    "before-after",
+    "membership-plans",
+    "class-schedule",
+    "resource-list",
+    "video-embed",
+    "stats-counter",
+    "logo-strip"
   ],
   "defaultStarterKit": "full",
   "locales": [

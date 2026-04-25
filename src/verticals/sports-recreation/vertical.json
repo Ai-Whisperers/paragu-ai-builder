@@ -35,7 +35,21 @@
     "google-reviews",
     "branches",
     "pricing-table",
-    "pricing"
+    "pricing",
+    "before-after",
+    "features",
+    "process",
+    "cta-banner",
+    "newsletter-signup",
+    "blog-index",
+    "lead-form",
+    "trust-signals",
+    "programs-comparison",
+    "process-timeline",
+    "resource-list",
+    "video-embed",
+    "stats-counter",
+    "logo-strip"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

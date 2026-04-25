@@ -42,7 +42,21 @@
     "google-reviews",
     "branches",
     "pricing-table",
-    "pricing"
+    "pricing",
+    "features",
+    "process",
+    "newsletter-signup",
+    "blog-index",
+    "lead-form",
+    "trust-signals",
+    "membership-plans",
+    "class-schedule",
+    "programs-comparison",
+    "process-timeline",
+    "resource-list",
+    "video-embed",
+    "stats-counter",
+    "logo-strip"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

@@ -55,7 +55,17 @@
     "google-reviews",
     "branches",
     "pricing-table",
-    "pricing"
+    "pricing",
+    "booking",
+    "before-after",
+    "process",
+    "blog-index",
+    "membership-plans",
+    "class-schedule",
+    "resource-list",
+    "video-embed",
+    "stats-counter",
+    "logo-strip"
   ],
   "defaultStarterKit": "minimal",
   "locales": [
