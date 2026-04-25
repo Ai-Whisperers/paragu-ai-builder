@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=41, pages=162, content=61, blog=31, images=3, verticals=23. */
+/** Counts: sites=43, pages=164, content=63, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -25,6 +25,7 @@ export const SITE_SLUGS: readonly string[] = [
   "demo-consultora-rrhh",
   "demo-consultora-ti",
   "demo-contador",
+  "demo-depilacion",
   "demo-electricista",
   "demo-estetica",
   "demo-farmacia",
@@ -35,6 +36,7 @@ export const SITE_SLUGS: readonly string[] = [
   "demo-herreria",
   "demo-inmobiliaria",
   "demo-lavadero",
+  "demo-maquillaje",
   "demo-odontologia",
   "demo-panaderia",
   "demo-panaderia-artesanal",
@@ -1196,6 +1198,33 @@ export const SITES: Record<string, JsonRecord> = {
     "source": "manual-enriched",
     "vertical": "b2b-professional"
   },
+  "demo-depilacion": {
+    "businessType": "depilacion",
+    "contact": {
+      "email": "ventas@paragu-ai.com",
+      "instagram": "@demo.depilacion.py",
+      "phone": "+595985724135",
+      "whatsapp": "+595985724135"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "demo": true,
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-depilacion",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-depilacion",
+    "source": "manual-enriched",
+    "vertical": "beauty-personal-care"
+  },
   "demo-electricista": {
     "businessType": "electricista",
     "contact": {
@@ -1607,6 +1636,33 @@ export const SITES: Record<string, JsonRecord> = {
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "automotive"
+  },
+  "demo-maquillaje": {
+    "businessType": "maquillaje",
+    "contact": {
+      "email": "ventas@paragu-ai.com",
+      "instagram": "@demo.maquillaje.py",
+      "phone": "+595985724135",
+      "whatsapp": "+595985724135"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "demo": true,
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-maquillaje",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-maquillaje",
+    "source": "manual-enriched",
+    "vertical": "portfolio-professional"
   },
   "demo-odontologia": {
     "businessType": "consultorio_odontologico",
@@ -4231,6 +4287,78 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "demo-depilacion:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
   "demo-electricista:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -4916,6 +5044,78 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-maquillaje:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "footer",
@@ -16049,6 +16249,241 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Contador y me interesa un sitio para mi negocio"
     }
   },
+  "demo-depilacion:es": {
+    "_meta": {
+      "author": "enrich-batch",
+      "lastReviewed": "2026-04-25",
+      "translationQuality": "human"
+    },
+    "footer": {
+      "businessName": "Demo Centro de Depilación Asunción",
+      "copyright": "© {{year}} Demo Centro de Depilación Asunción",
+      "disclaimer": "Esta es una demostración."
+    },
+    "home": {
+      "booking": {
+        "services": [
+          {
+            "category": "Evaluación",
+            "duration": 20,
+            "name": "Evaluación gratuita"
+          },
+          {
+            "category": "Láser",
+            "duration": 15,
+            "name": "Láser axilas"
+          },
+          {
+            "category": "Láser",
+            "duration": 15,
+            "name": "Láser facial"
+          },
+          {
+            "category": "Láser",
+            "duration": 45,
+            "name": "Láser piernas"
+          },
+          {
+            "category": "Cera",
+            "duration": 30,
+            "name": "Depilación cera completa"
+          },
+          {
+            "category": "Facial",
+            "duration": 30,
+            "name": "Dermaplaning"
+          }
+        ],
+        "subtitle": "Evaluación sin costo",
+        "title": "Reservá tu sesión"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
+            "question": "¿Duele la depilación láser?"
+          },
+          {
+            "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
+            "question": "¿Cuántas sesiones necesito?"
+          },
+          {
+            "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
+            "question": "¿Hay algún cuidado especial?"
+          },
+          {
+            "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
+            "question": "¿Cuánto dura cada sesión?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Consultorio",
+            "caption": "Consultorio privado",
+            "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+          },
+          {
+            "alt": "Equipo láser",
+            "caption": "Tecnología láser diode",
+            "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600"
+          },
+          {
+            "alt": "Tratamiento",
+            "caption": "Sesión de depilación",
+            "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600"
+          }
+        ],
+        "subtitle": "Instalaciones modernas y equipadas",
+        "title": "Nuestro espacio"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu evaluación",
+        "ctaSecondaryText": "Ver tratamientos",
+        "headline": "Depilación definitiva sin dolor",
+        "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
+      },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 20:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar ahora",
+        "dismissible": true,
+        "subtitle": "50% de descuento en tu primera sesión de depilación láser",
+        "title": "Promoción de Lanzamiento",
+        "variant": "standard"
+      },
+      "seo": {
+        "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación.",
+        "title": "Demo Depilación Asunción - Depilación Láser y Cera"
+      },
+      "services": {
+        "eyebrow": "Tratamientos",
+        "items": [
+          {
+            "category": "Láser",
+            "description": "Láser diode de alta potencia. Resultados permanentes.",
+            "duration": 30,
+            "icon": "Zap",
+            "name": "Depilación Láser Definitiva",
+            "price": "Gs. 150.000/sesión"
+          },
+          {
+            "category": "Cera",
+            "description": "Cera natural hipoalergénica para todo el cuerpo.",
+            "duration": 30,
+            "icon": "Droplets",
+            "name": "Depilación con Cera",
+            "price": "Gs. 60.000"
+          },
+          {
+            "category": "Láser",
+            "description": "Labio, mentón, mejillas y frente.",
+            "duration": 15,
+            "icon": "Sparkles",
+            "name": "Láser Zona Facial",
+            "price": "Gs. 80.000/sesión"
+          },
+          {
+            "category": "Láser",
+            "description": "Eliminación definitiva del vello axilar.",
+            "duration": 15,
+            "icon": "Crosshair",
+            "name": "Láser Axilas",
+            "price": "Gs. 70.000/sesión"
+          },
+          {
+            "category": "Láser",
+            "description": "Depilación definitiva de piernas enteras.",
+            "duration": 45,
+            "icon": "Feather",
+            "name": "Láser Piernas Completas",
+            "price": "Gs. 250.000/sesión"
+          },
+          {
+            "category": "Facial",
+            "description": "Eliminación de vello facial + exfoliación profunda.",
+            "duration": 30,
+            "icon": "Sparkles",
+            "name": "Dermaplaning Facial",
+            "price": "Gs. 90.000"
+          }
+        ],
+        "title": "Soluciones para cada necesidad"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Camila R.",
+            "rating": 5,
+            "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado."
+          },
+          {
+            "name": "Lucía M.",
+            "rating": 5,
+            "text": "La atención es increíble y los resultados se notan desde la primera sesión."
+          },
+          {
+            "name": "Ana G.",
+            "rating": 5,
+            "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes."
+          },
+          {
+            "name": "Sofía P.",
+            "rating": 4,
+            "text": "Hice el combo completo de piernas. Ahora sí, libre de vello."
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      },
+      "trustBadges": {
+        "items": [
+          "Tecnología láser diode",
+          "Profesionales certificadas",
+          "Ambiente climatizado",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
+      }
+    },
+    "navigation": {
+      "businessName": "Depilación Profesional",
+      "ctaHref": "#reservar",
+      "ctaText": "Reservar turno",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
+    },
+    "placeholders": {
+      "businessName": "Demo Centro de Depilación Asunción",
+      "city": "Asunción",
+      "year": 2026
+    },
+    "siteName": "Demo Centro de Depilación Asunción",
+    "tagline": "Depilación profesional con tecnología de punta",
+    "whatsapp": {
+      "defaultMessage": "Hola, vi el demo de Depilación y me interesa un sitio para mi negocio"
+    }
+  },
   "demo-electricista:es": {
     "_meta": {
       "author": "batch-create-demos",
@@ -18409,6 +18844,230 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Lavado completo, encerado y detailing en Asunción.",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Lavadero de Autos y me interesa un sitio para mi negocio"
+    }
+  },
+  "demo-maquillaje:es": {
+    "_meta": {
+      "author": "enrich-batch",
+      "lastReviewed": "2026-04-25",
+      "translationQuality": "human"
+    },
+    "footer": {
+      "businessName": "Demo Maquillaje Profesional Asunción",
+      "copyright": "© {{year}} Demo Maquillaje Profesional Asunción",
+      "disclaimer": "Esta es una demostración."
+    },
+    "home": {
+      "booking": {
+        "services": [
+          {
+            "category": "Social",
+            "duration": 45,
+            "name": "Maquillaje social"
+          },
+          {
+            "category": "Novias",
+            "duration": 90,
+            "name": "Maquillaje novias"
+          },
+          {
+            "category": "Eventos",
+            "duration": 60,
+            "name": "Maquillaje quinceañera"
+          },
+          {
+            "category": "Clases",
+            "duration": 90,
+            "name": "Clase de maquillaje"
+          },
+          {
+            "category": "Domicilio",
+            "duration": 60,
+            "name": "Maquillaje a domicilio"
+          }
+        ],
+        "subtitle": "Elegí el servicio que necesitás",
+        "title": "Reservá tu turno"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
+            "question": "¿Cuánto dura el maquillaje?"
+          },
+          {
+            "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
+            "question": "¿Hacen prueba de maquillaje?"
+          },
+          {
+            "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
+            "question": "¿Usan productos hipoalergénicos?"
+          },
+          {
+            "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
+            "question": "¿Cuánto antes debo reservar?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Maquillaje social",
+            "caption": "Maquillaje social natural",
+            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+          },
+          {
+            "alt": "Maquillaje novia",
+            "caption": "Maquillaje para novia",
+            "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600"
+          },
+          {
+            "alt": "Maquillaje artístico",
+            "caption": "Maquillaje artístico",
+            "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600"
+          }
+        ],
+        "subtitle": "Looks reales de nuestras clientas",
+        "title": "Nuestros trabajos"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu fecha",
+        "ctaSecondaryText": "Ver trabajos",
+        "headline": "Resaltá tu belleza natural",
+        "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Asunción"
+      },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "10:00 - 19:00",
+          "Sábado": "10:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar ahora",
+        "dismissible": true,
+        "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+        "title": "Promoción de Lanzamiento",
+        "variant": "standard"
+      },
+      "seo": {
+        "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Asunción.",
+        "title": "Demo Maquillaje Profesional Asunción - Maquillaje Social y Novias"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "category": "Social",
+            "description": "Maquillaje natural y moderno para el día a día y eventos",
+            "duration": 45,
+            "icon": "Sparkles",
+            "name": "Maquillaje Social",
+            "price": "Gs. 120.000"
+          },
+          {
+            "category": "Novias",
+            "description": "Maquillaje profesional para tu gran día. Incluye prueba + sesión",
+            "duration": 90,
+            "icon": "Heart",
+            "name": "Maquillaje Novias",
+            "price": "Gs. 350.000"
+          },
+          {
+            "category": "Eventos",
+            "description": "Look espectacular para tus 15 años",
+            "duration": 60,
+            "icon": "Star",
+            "name": "Maquillaje Quinceañeras",
+            "price": "Gs. 250.000"
+          },
+          {
+            "category": "Artístico",
+            "description": "Maquillaje creativo para sesiones de fotos y producciones",
+            "duration": 60,
+            "icon": "Palette",
+            "name": "Maquillaje Artístico",
+            "price": "Gs. 200.000"
+          },
+          {
+            "category": "Clases",
+            "description": "Aprendé a maquillarte. Técnicas profesionales para tu día a día",
+            "duration": 90,
+            "icon": "BookOpen",
+            "name": "Clase de Maquillaje",
+            "price": "Gs. 150.000"
+          },
+          {
+            "category": "Domicilio",
+            "description": "Te maquillamos en la comodidad de tu hogar",
+            "duration": 60,
+            "icon": "Home",
+            "name": "Maquillaje a domicilio",
+            "price": "Gs. 180.000"
+          }
+        ],
+        "title": "Maquillaje para cada momento"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "María C.",
+            "rating": 5,
+            "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto."
+          },
+          {
+            "name": "Julia A.",
+            "rating": 5,
+            "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado."
+          },
+          {
+            "name": "Camila L.",
+            "rating": 5,
+            "text": "Los productos que usan son de primera calidad y se nota en el resultado."
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      },
+      "trustBadges": {
+        "items": [
+          "Productos hipoalergénicos",
+          "5 años de experiencia",
+          "Maquillaje a prueba de agua",
+          "Tendencia y calidad"
+        ]
+      }
+    },
+    "navigation": {
+      "businessName": "Maquillaje Profesional",
+      "ctaHref": "#reservar",
+      "ctaText": "Reservar turno",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
+    },
+    "placeholders": {
+      "businessName": "Demo Maquillaje Profesional Asunción",
+      "city": "Asunción",
+      "year": 2026
+    },
+    "siteName": "Demo Maquillaje Profesional Asunción",
+    "tagline": "Maquillaje profesional para toda ocasión",
+    "whatsapp": {
+      "defaultMessage": "Hola, vi el demo de Maquillaje y me interesa un sitio para mi negocio"
     }
   },
   "demo-odontologia:es": {
