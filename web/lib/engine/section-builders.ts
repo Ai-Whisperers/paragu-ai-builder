@@ -553,6 +553,42 @@ const buildPreorder: SectionBuilder = ({ business }) => ({
   phone: business.whatsapp || business.phone || '',
 })
 
+const buildGoogleReviews: SectionBuilder = ({ business, content }) => {
+  const reviewContent = content as { reviewsWidget?: { title?: string; subtitle?: string; reviews?: Array<{ author: string; rating: number; text: string }> } }
+  const reviews = reviewContent?.reviewsWidget?.reviews || []
+  if (!reviews.length) return null
+  return {
+    title: reviewContent.reviewsWidget?.title || 'Lo que dicen nuestros clientes',
+    subtitle: reviewContent.reviewsWidget?.subtitle || `Basado en ${business.reviewCount || ''} reseñas en Google`,
+    avgRating: business.rating || 4.5,
+    reviewCount: business.reviewCount || reviews.length,
+    reviews,
+    placeUrl: business.googleMapsUrl ? `https://search.google.com/local/reviews?placeid=${business.googleMapsUrl}` : undefined,
+    writeReviewUrl: business.googleMapsUrl ? `https://search.google.com/local/writereview?placeid=${business.googleMapsUrl}` : undefined,
+  }
+}
+
+const buildPackagesGiftcards: SectionBuilder = ({ content }) => {
+  const pc = content as { packagesGiftcards?: { packages?: Array<{ id: string; name: string; description: string; original_price: number; sale_price: number; services: string[] }>; giftCards?: Array<{ id: string; amount: number; description: string }> } }
+  const pkg = pc?.packagesGiftcards
+  if (!pkg?.packages?.length && !pkg?.giftCards?.length) return null
+  return {
+    packages: pkg.packages || [],
+    giftCards: pkg.giftCards || [],
+    showGiftCards: !!(pkg.giftCards?.length),
+  }
+}
+
+const buildBranches: SectionBuilder = ({ content }) => {
+  const bc = content as { branches?: { title?: string; subtitle?: string; branches: Array<{ name: string; address: string; phone?: string; hours?: string; coordinates?: { lat: number; lng: number }; image?: string }> } }
+  if (!bc?.branches?.branches?.length) return null
+  return {
+    title: bc.branches.title || 'Nuestras Sucursales',
+    subtitle: bc.branches.subtitle || 'Encontranos en estos locales',
+    branches: bc.branches.branches,
+  }
+}
+
 // ---------- registry -------------------------------------------------------
 
 export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
@@ -596,6 +632,9 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   referral: buildReferral,
   priceList: buildPriceList,
   preorder: buildPreorder,
+  googleReviews: buildGoogleReviews,
+  packagesGiftcards: buildPackagesGiftcards,
+  branches: buildBranches,
 }
 
 // ---------- helpers --------------------------------------------------------
