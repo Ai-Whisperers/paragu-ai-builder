@@ -14,6 +14,36 @@
       "content": "home.hero"
     },
     {
+      "id": "promo-banner",
+      "variant": "simple",
+      "content": "home.promoBanner"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
+      "id": "open-hours-status",
+      "variant": "standard",
+      "content": "home.hours"
+    },
+    {
       "id": "contact",
       "variant": "split",
       "content": "home.contact"

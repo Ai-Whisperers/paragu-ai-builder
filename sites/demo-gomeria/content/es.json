@@ -37,6 +37,133 @@
       "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "gomeria"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Servicios",
+      "items": [
+        {
+          "name": "Parche de neumático",
+          "description": "Reparación de pinchadura",
+          "price": "Gs. 30.000",
+          "icon": "Crosshair"
+        },
+        {
+          "name": "Cambio de neumático",
+          "description": "Venta y montaje de neumáticos nuevos",
+          "price": "Gs. 200.000",
+          "icon": "Circle"
+        },
+        {
+          "name": "Balanceo",
+          "description": "Balanceo dinámico de ruedas",
+          "price": "Gs. 25.000",
+          "icon": "RefreshCw"
+        },
+        {
+          "name": "Alineación",
+          "description": "Alineación computarizada",
+          "price": "Gs. 50.000",
+          "icon": "Move"
+        },
+        {
+          "name": "Rotación",
+          "description": "Rotación cruzada de neumáticos",
+          "price": "Gs. 20.000",
+          "icon": "RotateCw"
+        },
+        {
+          "name": "Nitrógeno",
+          "description": "Carga de nitrógeno para las 4 ruedas",
+          "price": "Gs. 15.000",
+          "icon": "Wind"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Atención personalizada",
+        "Asunción y alrededores",
+        "Resultados garantizados",
+        "Precios accesibles"
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales dedicados en Asunción",
+      "items": [
+        {
+          "name": "Carlos Mendoza",
+          "role": "Director de Gomeria",
+          "description": "Más de 10 años de experiencia en Asunción"
+        },
+        {
+          "name": "María López",
+          "role": "Profesional Senior",
+          "description": "Especialista en atención al cliente"
+        },
+        {
+          "name": "Juan Pérez",
+          "role": "Asistente Técnico",
+          "description": "Comprometido con la calidad"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Cliente Satisfecho",
+          "text": "Excelente servicio, súper recomendado.",
+          "rating": 5
+        },
+        {
+          "name": "Cliente Frecuente",
+          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
+          "rating": 5
+        },
+        {
+          "name": "Nuevo Cliente",
+          "text": "Me atendieron muy bien, volveré sin dudas.",
+          "rating": 4
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
+        },
+        {
+          "question": "¿Cuál es el horario?",
+          "answer": "Abrimos de lunes a sábado en horario comercial."
+        },
+        {
+          "question": "¿Hacen envíos?",
+          "answer": "Sí, hacemos envíos a toda la ciudad."
+        },
+        {
+          "question": "¿Cómo puedo contactarlos?",
+          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 19:00",
+        "Sábado": "09:00 - 17:00"
+      }
+    },
+    "promoBanner": {
+      "title": "¡Visitános!",
+      "subtitle": "Conocé nuestros servicios en Asunción",
+      "ctaText": "Contactar ahora",
+      "variant": "standard",
+      "dismissible": true
     }
   },
   "footer": {

@@ -3632,6 +3632,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -3662,6 +3692,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -3696,6 +3756,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -3726,6 +3816,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -4125,6 +4245,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4311,6 +4461,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4435,6 +4615,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4544,6 +4754,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4643,6 +4883,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4673,6 +4943,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -4784,6 +5084,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4814,6 +5144,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -4930,6 +5290,36 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -4960,6 +5350,46 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -5295,6 +5725,46 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -13606,6 +14076,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Bodega%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -13614,9 +14105,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Bodega Fernando de la Mora - Despensa Bodega",
         "subheadline": "Despensa Bodega profesional en Fernando de la Mora."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Fernando de la Mora",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Despensa Bodega profesional en Fernando de la Mora. Servicios de calidad con atencion personalizada.",
         "title": "Demo Bodega Fernando de la Mora - Despensa Bodega en Fernando de la Mora"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Fernando de la Mora",
+            "name": "Carlos Mendoza",
+            "role": "Director de Bodega Corner Store"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Fernando de la Mora",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Fernando de la Mora y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -13656,6 +14253,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cafeter%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -13664,9 +14282,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Cafetería Asunción - Tu cafe, tu lugar",
         "subheadline": "Cafes de especialidad, desayunos y meriendas en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Cafes de especialidad, desayunos y meriendas en Asunción.",
         "title": "Demo Cafetería Asunción - Cafeteria en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Cafeteria"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -13706,6 +14430,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Carnicer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -13714,9 +14459,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Carnicería Luque - Cortes frescos, atencion personal",
         "subheadline": "Carniceria con cortes seleccionados, embutidos y pollo fresco."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Luque",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Carniceria con cortes seleccionados, embutidos y pollo fresco.",
         "title": "Demo Carnicería Luque - Carniceria en Luque"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Corte al gusto: lomo, cuadril, asado",
+            "icon": "Beef",
+            "name": "Carne vacuna",
+            "price": "Gs. 25.000/kg"
+          },
+          {
+            "description": "Cerdo fresco: costilla, lomo, pierna",
+            "icon": "Beef",
+            "name": "Carne porcina",
+            "price": "Gs. 20.000/kg"
+          },
+          {
+            "description": "Pollo entero o en presas",
+            "icon": "Drumstick",
+            "name": "Pollo fresco",
+            "price": "Gs. 15.000/kg"
+          },
+          {
+            "description": "Salchichas, chorizos, morcilla",
+            "icon": "Beef",
+            "name": "Embutidos",
+            "price": "Gs. 30.000"
+          },
+          {
+            "description": "Carne molida especial para hamburguesas",
+            "icon": "CircleDot",
+            "name": "Carne molida",
+            "price": "Gs. 28.000/kg"
+          },
+          {
+            "description": "Mix de carnes para 6 personas",
+            "icon": "Flame",
+            "name": "Combos parrilla",
+            "price": "Gs. 180.000"
+          }
+        ],
+        "title": "Productos"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Luque",
+            "name": "Carlos Mendoza",
+            "role": "Director de Carniceria"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Luque",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Luque y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -13756,6 +14607,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cerrajero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -13764,9 +14636,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Cerrajero Asunción - Cerrajero 24 horas",
         "subheadline": "Aperturas, cerraduras, copias y emergencias en Asunción. Respondemos en 30 minutos."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Cerrajero 24 horas en Asunción. Aperturas, cerraduras, copias de llaves, autos y cajas fuertes.",
         "title": "Demo Cerrajero Asunción - Cerrajero 24h en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Cerrajero"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -15092,6 +16070,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Electricista%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -15100,9 +16099,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Electricista Asunción - Electricista matriculado",
         "subheadline": "Instalaciones, reparaciones y emergencias electricas en Asunción"
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Servicio electrico profesional en Asunción. Instalaciones, reparaciones y emergencias 24h.",
         "title": "Demo Electricista Asunción - Electricista en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Instalación completa para casa o local",
+            "icon": "Zap",
+            "name": "Instalación eléctrica",
+            "price": "Gs. 400.000"
+          },
+          {
+            "description": "Cortocircuitos, llaves térmicas y tomas",
+            "icon": "Tool",
+            "name": "Reparaciones",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Instalación y mantenimiento de tableros",
+            "icon": "Monitor",
+            "name": "Tablero eléctrico",
+            "price": "Gs. 250.000"
+          },
+          {
+            "description": "Instalación y mantenimiento de AA",
+            "icon": "Snowflake",
+            "name": "Aire acondicionado",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Instalación de cámaras y alarmas",
+            "icon": "Camera",
+            "name": "Cámaras de seguridad",
+            "price": "Gs. 350.000"
+          },
+          {
+            "description": "Servicio de urgencia eléctrica",
+            "icon": "Ambulance",
+            "name": "Emergencia 24h",
+            "price": "Gs. 120.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Electricista"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -15623,6 +16728,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Ferreter%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -15631,9 +16757,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Ferretería Asunción - Todo para tu obra y reparaciones",
         "subheadline": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción.",
         "title": "Demo Ferretería Asunción - Ferreteria en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Látex, esmalte sintético y óleo",
+            "icon": "PaintBucket",
+            "name": "Pinturas",
+            "price": "Gs. 45.000"
+          },
+          {
+            "description": "Martillos, destornilladores, llaves",
+            "icon": "Hammer",
+            "name": "Herramientas manuales",
+            "price": "Gs. 25.000"
+          },
+          {
+            "description": "Cables, tomas, interruptores y llaves térmicas",
+            "icon": "Zap",
+            "name": "Electricidad",
+            "price": "Gs. 5.000"
+          },
+          {
+            "description": "Caños, conexiones y grifería",
+            "icon": "Droplets",
+            "name": "Plomería",
+            "price": "Gs. 8.000"
+          },
+          {
+            "description": "Clavos, tornillos, bulones y anclajes",
+            "icon": "CircleDot",
+            "name": "Ferretería general",
+            "price": "Gs. 1.000"
+          },
+          {
+            "description": "Mangueras, regadores y accesorios",
+            "icon": "Flower2",
+            "name": "Jardinería",
+            "price": "Gs. 35.000"
+          }
+        ],
+        "title": "Productos"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Ferreteria"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -16145,6 +17377,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Gomer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -16153,9 +17406,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Gomería Asunción - Ruedas nuevas, viaje tranquilo",
         "subheadline": "Venta, montaje y balanceo de neumaticos en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Venta, montaje y balanceo de neumaticos en Asunción.",
         "title": "Demo Gomería Asunción - Gomeria en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Reparación de pinchadura",
+            "icon": "Crosshair",
+            "name": "Parche de neumático",
+            "price": "Gs. 30.000"
+          },
+          {
+            "description": "Venta y montaje de neumáticos nuevos",
+            "icon": "Circle",
+            "name": "Cambio de neumático",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Balanceo dinámico de ruedas",
+            "icon": "RefreshCw",
+            "name": "Balanceo",
+            "price": "Gs. 25.000"
+          },
+          {
+            "description": "Alineación computarizada",
+            "icon": "Move",
+            "name": "Alineación",
+            "price": "Gs. 50.000"
+          },
+          {
+            "description": "Rotación cruzada de neumáticos",
+            "icon": "RotateCw",
+            "name": "Rotación",
+            "price": "Gs. 20.000"
+          },
+          {
+            "description": "Carga de nitrógeno para las 4 ruedas",
+            "icon": "Wind",
+            "name": "Nitrógeno",
+            "price": "Gs. 15.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Gomeria"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -16479,6 +17838,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Herrer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -16487,9 +17867,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Herrería Lambaré - Trabajos en hierro, con terminacion impecable",
         "subheadline": "Portones, rejas, escaleras y estructuras metalicas a medida."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Lambaré",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Portones, rejas, escaleras y estructuras metalicas a medida.",
         "title": "Demo Herrería Lambaré - Herreria en Lambaré"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Lambaré",
+            "name": "Carlos Mendoza",
+            "role": "Director de Herreria"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Lambaré",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Lambaré y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -16769,6 +18255,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Lavadero%20de%20Autos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -16777,9 +18284,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Lavadero de Autos Asunción - Tu auto reluciente",
         "subheadline": "Lavado completo, encerado y detailing en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Lavado completo, encerado y detailing en Asunción.",
         "title": "Demo Lavadero de Autos Asunción - Lavadero de Autos en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Lavadero Autos"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -16819,6 +18432,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Odontolog%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -16827,9 +18461,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Odontología Asunción - Tu sonrisa en manos expertas",
         "subheadline": "Odontologia general, estetica y especialidades en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Odontologia general, estetica y especialidades en Asunción.",
         "title": "Demo Odontología Asunción - Consultorio Odontologico en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Consultorio Odontologico"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -17182,6 +18922,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Panader%C3%ADa%20Artesanal%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -17190,9 +18951,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Panadería Artesanal Asunción - Pan y dulce todos los dias",
         "subheadline": "Horneado artesanal en Asunción. Panes, chipa, tortas por encargo."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Pan artesanal, chipa, pasteleria y tortas en Asunción. Pedidos por WhatsApp.",
         "title": "Demo Panadería Artesanal Asunción - Panaderia en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Pan de masa madre, integral y de centeno",
+            "icon": "Bread",
+            "name": "Pan artesanal",
+            "price": "Gs. 8.000"
+          },
+          {
+            "description": "Chipa tradicional paraguaya horneada",
+            "icon": "CircleDot",
+            "name": "Chipa",
+            "price": "Gs. 3.000"
+          },
+          {
+            "description": "Medialunas, vigilantes y cañoncitos",
+            "icon": "Croissant",
+            "name": "Facturas",
+            "price": "Gs. 4.000"
+          },
+          {
+            "description": "Pastelitos de dulce de leche y membrillo",
+            "icon": "Cookie",
+            "name": "Pastelitos",
+            "price": "Gs. 5.000"
+          },
+          {
+            "description": "Tortas por encargo: choco, vainilla, frutal",
+            "icon": "Cake",
+            "name": "Tortas",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Pan lactal artesanal sin conservantes",
+            "icon": "Slice",
+            "name": "Pan para sánguche",
+            "price": "Gs. 10.000"
+          }
+        ],
+        "title": "Productos"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Panaderia"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -17232,6 +19099,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Parrilla%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -17240,9 +19128,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Parrilla Asunción - Carne a las brasas como la tradicion manda",
         "subheadline": "Cortes premium, parrilla a leña y ambiente familiar en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Cortes premium, parrilla a leña y ambiente familiar en Asunción.",
         "title": "Demo Parrilla Asunción - Parrillada en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Parrilla Asador"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -17729,6 +19723,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Plomero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -17737,9 +19752,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Plomero Asunción - Plomero y Gasista",
         "subheadline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Plomero 24h en Asunción. Destapaciones, reparaciones, instalaciones de agua y gas.",
         "title": "Demo Plomero Asunción - Plomero en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Destapación de caños y desagües",
+            "icon": "Droplets",
+            "name": "Destapaciones",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "Instalación de cañerías de agua fría/caliente",
+            "icon": "Pipe",
+            "name": "Instalación de agua",
+            "price": "Gs. 350.000"
+          },
+          {
+            "description": "Detección y reparación de fugas",
+            "icon": "Search",
+            "name": "Reparación de pérdidas",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Conexión de gas para cocina y calefón",
+            "icon": "Flame",
+            "name": "Instalación de gas",
+            "price": "Gs. 300.000"
+          },
+          {
+            "description": "Instalación y mantenimiento",
+            "icon": "Thermometer",
+            "name": "Termofón y calefón",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Servicio urgente de plomería",
+            "icon": "Ambulance",
+            "name": "Emergencia 24h",
+            "price": "Gs. 120.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Plomero"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -17770,6 +19891,42 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
+      "booking": {
+        "services": [
+          {
+            "category": "Consultas",
+            "duration": 30,
+            "name": "Consulta inicial"
+          },
+          {
+            "category": "Principal",
+            "duration": 45,
+            "name": "Servicio básico"
+          },
+          {
+            "category": "Principal",
+            "duration": 60,
+            "name": "Servicio premium"
+          },
+          {
+            "category": "Express",
+            "duration": 20,
+            "name": "Servicio express"
+          },
+          {
+            "category": "Combos",
+            "duration": 90,
+            "name": "Combo ahorro"
+          },
+          {
+            "category": "Domicilio",
+            "duration": 60,
+            "name": "A domicilio"
+          }
+        ],
+        "subtitle": "Elegí el servicio y el horario que más te convenga",
+        "title": "Reservá tu turno"
+      },
       "contact": {
         "city": "Asunción",
         "demoRubro": "psicologia",
@@ -17779,6 +19936,64 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Trabajo 1",
+            "caption": "Calidad profesional",
+            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+          },
+          {
+            "alt": "Trabajo 2",
+            "caption": "Atención personalizada",
+            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+          },
+          {
+            "alt": "Trabajo 3",
+            "caption": "Resultados garantizados",
+            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+          },
+          {
+            "alt": "Trabajo 4",
+            "caption": "Profesionales expertos",
+            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+          },
+          {
+            "alt": "Trabajo 5",
+            "caption": "Instalaciones modernas",
+            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+          },
+          {
+            "alt": "Trabajo 6",
+            "caption": "Tu mejor opción",
+            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+          }
+        ],
+        "subtitle": "Mirá algunos de nuestros trabajos",
+        "title": "Nuestros trabajos"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Psicolog%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -17787,9 +20002,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Demo Psicología Asunción - Un espacio para ti",
         "subheadline": "Terapia individual, de pareja y familiar con enfoque humanista en Asunción."
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Terapia individual, de pareja y familiar con enfoque humanista en Asunción.",
         "title": "Demo Psicología Asunción - Psicologia en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Psicologia"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
@@ -19023,6 +21344,42 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
+      "booking": {
+        "services": [
+          {
+            "category": "Consultas",
+            "duration": 30,
+            "name": "Consulta inicial"
+          },
+          {
+            "category": "Principal",
+            "duration": 45,
+            "name": "Servicio básico"
+          },
+          {
+            "category": "Principal",
+            "duration": 60,
+            "name": "Servicio premium"
+          },
+          {
+            "category": "Express",
+            "duration": 20,
+            "name": "Servicio express"
+          },
+          {
+            "category": "Combos",
+            "duration": 90,
+            "name": "Combo ahorro"
+          },
+          {
+            "category": "Domicilio",
+            "duration": 60,
+            "name": "A domicilio"
+          }
+        ],
+        "subtitle": "Elegí el servicio y el horario que más te convenga",
+        "title": "Reservá tu turno"
+      },
       "contact": {
         "city": "Asunción",
         "demoRubro": "unas",
@@ -19032,6 +21389,64 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Te respondemos el mismo dia",
         "title": "Contactanos"
       },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Abrimos de lunes a sábado en horario comercial.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, hacemos envíos a toda la ciudad.",
+            "question": "¿Hacen envíos?"
+          },
+          {
+            "answer": "Por WhatsApp, teléfono o directamente en nuestro local.",
+            "question": "¿Cómo puedo contactarlos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Trabajo 1",
+            "caption": "Calidad profesional",
+            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+          },
+          {
+            "alt": "Trabajo 2",
+            "caption": "Atención personalizada",
+            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+          },
+          {
+            "alt": "Trabajo 3",
+            "caption": "Resultados garantizados",
+            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+          },
+          {
+            "alt": "Trabajo 4",
+            "caption": "Profesionales expertos",
+            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+          },
+          {
+            "alt": "Trabajo 5",
+            "caption": "Instalaciones modernas",
+            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+          },
+          {
+            "alt": "Trabajo 6",
+            "caption": "Tu mejor opción",
+            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+          }
+        ],
+        "subtitle": "Mirá algunos de nuestros trabajos",
+        "title": "Nuestros trabajos"
+      },
       "hero": {
         "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20U%C3%B1as%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
@@ -19040,9 +21455,115 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Unas Perfectas en Asunción",
         "subheadline": "Diseno profesional, productos de calidad, higiene garantizada"
       },
+      "hours": {
+        "schedules": {
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 17:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Contactar ahora",
+        "dismissible": true,
+        "subtitle": "Conocé nuestros servicios en Asunción",
+        "title": "¡Visitános!",
+        "variant": "standard"
+      },
       "seo": {
         "description": "Unas perfectas en Asunción. Diseno profesional, productos de calidad. Reserva tu cita.",
         "title": "Demo Uñas Asunción - Unas en Asunción | Manicure, Pedicure y Nail Art"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Primera visita con evaluación completa",
+            "icon": "ClipboardList",
+            "name": "Consulta inicial",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Servicio estándar con resultados garantizados",
+            "icon": "Star",
+            "name": "Servicio básico",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Experiencia completa con atención personalizada",
+            "icon": "Sparkles",
+            "name": "Servicio premium",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Solución rápida sin perder calidad",
+            "icon": "Zap",
+            "name": "Servicio express",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Paquete de 3 servicios con descuento",
+            "icon": "Package",
+            "name": "Combo ahorro",
+            "price": "Gs. 280.000"
+          },
+          {
+            "description": "Atención en la comodidad de tu hogar",
+            "icon": "Home",
+            "name": "A domicilio",
+            "price": "Gs. 150.000"
+          }
+        ],
+        "title": "Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Más de 10 años de experiencia en Asunción",
+            "name": "Carlos Mendoza",
+            "role": "Director de Unas"
+          },
+          {
+            "description": "Especialista en atención al cliente",
+            "name": "María López",
+            "role": "Profesional Senior"
+          },
+          {
+            "description": "Comprometido con la calidad",
+            "name": "Juan Pérez",
+            "role": "Asistente Técnico"
+          }
+        ],
+        "subtitle": "Profesionales dedicados en Asunción",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Cliente Satisfecho",
+            "rating": 5,
+            "text": "Excelente servicio, súper recomendado."
+          },
+          {
+            "name": "Cliente Frecuente",
+            "rating": 5,
+            "text": "Siempre cumplen con lo prometido. Muy profesionales."
+          },
+          {
+            "name": "Nuevo Cliente",
+            "rating": 4,
+            "text": "Me atendieron muy bien, volveré sin dudas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Atención personalizada",
+          "Asunción y alrededores",
+          "Resultados garantizados",
+          "Precios accesibles"
+        ]
       }
     },
     "navigation": {
