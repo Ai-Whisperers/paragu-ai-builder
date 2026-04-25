@@ -48,10 +48,12 @@ def update_preview(slug, details):
     home = content.get('home', {})
     changed = False
     
-    # 1. REAL REVIEWS — FILTER TO SPANISH ONLY
+    # 1. REAL REVIEWS — FILTER TO SPANISH ONLY, SKIP IF NONE
     all_reviews = details.get('reviews', [])
     spanish_reviews = [r for r in all_reviews if is_spanish(r.get('text', ''))]
-    real_reviews = (spanish_reviews if spanish_reviews else all_reviews)[:5]
+    if not spanish_reviews:
+        home['testimonials'] = {'title': 'Reseñas', 'subtitle': f"Basado en {details.get('user_ratings_total',0)} reseñas en Google", 'items': []}
+    real_reviews = spanish_reviews[:5]
     if real_reviews:
         items = []
         for r in real_reviews:
