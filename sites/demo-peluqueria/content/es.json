@@ -214,15 +214,14 @@
     "booking": {
       "title": "Reservá tu turno",
       "subtitle": "Elegí el servicio y el horario que más te convenga",
-      "phone": "+595981654321",
       "services": [
-        "Corte",
-        "Coloración",
-        "Tratamiento",
-        "Peinado",
-        "Manicura"
-      ],
-      "ctaText": "Reservar por WhatsApp"
+        { "name": "Corte de Cabello", "duration": 30, "category": "Corte" },
+        { "name": "Coloración completa", "duration": 90, "category": "Color" },
+        { "name": "Mechas y Balayage", "duration": 90, "category": "Color" },
+        { "name": "Tratamiento capilar", "duration": 45, "category": "Tratamiento" },
+        { "name": "Manicura semipermanente", "duration": 45, "category": "Uñas" },
+        { "name": "Peinado para eventos", "duration": 60, "category": "Peinado" }
+      ]
     },
     "faq": {
       "title": "Preguntas frecuentes",

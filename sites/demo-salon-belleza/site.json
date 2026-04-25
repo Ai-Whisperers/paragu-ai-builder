@@ -7,12 +7,15 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.salon.belleza.py"
+    "whatsapp": "+595981234567",
+    "email": "info@salonbelleza.com.py",
+    "instagram": "@salonbelleza.asuncion",
+    "phone": "+595981234567"
   },
   "location": {
-    "city": "Asunción"
+    "city": "Asunción",
+    "address": "Av. España 456 c/ Sacramento",
+    "coordinates": { "lat": -25.285, "lng": -57.575 }
   },
   "integrations": {
     "crm": "hubspot",
