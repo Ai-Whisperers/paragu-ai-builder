@@ -21,12 +21,38 @@ export async function POST(request: NextRequest) {
       duration_minutes,
     } = body
     
-    // Validate required fields
-    if (!business_slug || !service_id || !staff_member_id || !booking_date || !booking_time || !customer_name || !customer_phone) {
+    // Validate required fields (service_id and staff_member_id optional)
+    if (!business_slug || !booking_date || !booking_time || !customer_name || !customer_phone) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
       )
+    }
+    
+    const adminSupabase = await createAdminClient()
+
+    const { data: business, error: businessError } = await adminSupabase
+      .from('businesses')
+      .select('id, name, phone, whatsapp, whatsapp_instance')
+      .eq('slug', business_slug)
+      .single()
+
+    if (businessError || !business) {
+      return NextResponse.json(
+        { error: 'Business not found' },
+        { status: 404 }
+      )
+    }
+
+    // Service lookup (optional — null for generic bookings)
+    let serviceName = 'No especificado'
+    if (service_id) {
+      const { data: svc } = await adminSupabase
+        .from('services')
+        .select('name')
+        .eq('id', service_id)
+        .single()
+      if (svc) serviceName = svc.name
     }
     
     const adminSupabase = await createAdminClient()
@@ -98,7 +124,7 @@ export async function POST(request: NextRequest) {
       notifyNewBooking(waInstance, ownerPhone, {
         customerName: customer_name,
         customerPhone: customer_phone,
-        service: service?.name || 'No especificado',
+        service: serviceName + 'No especificado',
         date: booking_date,
         time: booking_time,
       }).then(r => {
@@ -119,7 +145,7 @@ export async function POST(request: NextRequest) {
         customerName: customer_name,
         customerEmail: customer_email,
         businessName: business.name,
-        serviceName: service.name,
+        serviceName: serviceName,
         bookingDate: booking_date,
         bookingTime: booking_time,
         bookingId: booking.id,
