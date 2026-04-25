@@ -1,0 +1,26 @@
+{
+  "id": "geriatria",
+  "nameEs": "Geriatria / Cuidados Mayores",
+  "nameEn": "Senior Care",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "geriatria",
+  "seo": {
+    "schemaType": "NursingHome",
+    "titleTemplate": "{{businessName}} - Geriatria / Cuidados Mayores en {{city}}",
+    "descriptionTemplate": "Residencia, atencion domiciliaria y terapias para adultos mayores.",
+    "keywords": [
+      "geriatrico {{city}}",
+      "residencia adultos mayores {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidado con amor para nuestros mayores",
+    "subheadlineTemplate": "Residencia, atencion domiciliaria y terapias para adultos mayores."
+  },
+  "serviceCategories": [
+    "residencia",
+    "domicilio",
+    "terapias"
+  ]
+}

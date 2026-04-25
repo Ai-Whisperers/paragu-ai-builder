@@ -1,0 +1,22 @@
+{
+  "id": "adventure_tour_operator",
+  "nameEs": "Tour de Aventura",
+  "nameEn": "Adventure Tour",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "adventure_tour_operator",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tour de Aventura en {{city}}",
+    "descriptionTemplate": "Tour de Aventura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour de aventura {{city}}",
+      "adventure tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour de Aventura",
+    "subheadlineTemplate": "Tour de Aventura profesional en {{city}}."
+  }
+}

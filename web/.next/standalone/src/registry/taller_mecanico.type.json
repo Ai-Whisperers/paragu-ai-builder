@@ -1,0 +1,23 @@
+{
+  "id": "taller_mecanico",
+  "nameEs": "Taller Mecanico",
+  "nameEn": "Auto Repair Shop",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "taller_mecanico",
+  "features": {
+    "serviceMenu": { "enabled": true, "categories": ["mecanica_general", "diagnostico", "frenos", "suspension", "aceite_filtros", "electricidad"] },
+    "emergencyIndicator": { "enabled": true, "available24h": false, "towing": false }
+  },
+  "serviceCategories": ["mecanica_general", "diagnostico_computarizado", "frenos", "suspension", "aceite_filtros", "electricidad_automotor", "aire_acondicionado"],
+  "seo": {
+    "schemaType": "AutoRepair",
+    "titleTemplate": "{{businessName}} - Taller Mecanico en {{city}}",
+    "descriptionTemplate": "Servicio mecanico profesional en {{city}}. Diagnostico, reparacion y mantenimiento de todas las marcas.",
+    "keywords": ["taller mecanico {{city}}", "mecanico {{city}}", "reparacion de autos {{city}}", "diagnostico computarizado {{city}}"]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu taller de confianza",
+    "subheadlineTemplate": "Mecanica integral con diagnostico computarizado en {{city}}"
+  }
+}

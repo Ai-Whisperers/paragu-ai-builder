@@ -1,0 +1,22 @@
+{
+  "id": "metal_roofing_specialist",
+  "nameEs": "Techos Metalicos",
+  "nameEn": "Metal Roofing",
+  "verticalId": "trades-home-services",
+  "subVertical": "roofing",
+  "extends": "trades_base",
+  "tokens": "metal_roofing_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Techos Metalicos en {{city}}",
+    "descriptionTemplate": "Techos Metalicos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "techos metalicos {{city}}",
+      "metal roofing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Techos Metalicos",
+    "subheadlineTemplate": "Techos Metalicos profesional en {{city}}."
+  }
+}

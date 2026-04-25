@@ -1,0 +1,22 @@
+{
+  "id": "experiential_marketing_agency",
+  "nameEs": "Marketing Experiencial",
+  "nameEn": "Experiential Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "experiential_marketing_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Marketing Experiencial en {{city}}",
+    "descriptionTemplate": "Marketing Experiencial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "marketing experiencial {{city}}",
+      "experiential agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Marketing Experiencial",
+    "subheadlineTemplate": "Marketing Experiencial profesional en {{city}}."
+  }
+}

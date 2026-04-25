@@ -1,0 +1,22 @@
+{
+  "id": "wedding_caterer",
+  "nameEs": "Catering de Bodas",
+  "nameEn": "Wedding Catering",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "wedding_caterer",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Catering de Bodas en {{city}}",
+    "descriptionTemplate": "Catering de Bodas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "catering de bodas {{city}}",
+      "wedding catering {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Catering de Bodas",
+    "subheadlineTemplate": "Catering de Bodas profesional en {{city}}."
+  }
+}

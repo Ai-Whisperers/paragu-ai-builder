@@ -1,0 +1,22 @@
+{
+  "id": "pet_acupuncturist",
+  "nameEs": "Acupuntura Mascotas",
+  "nameEn": "Pet Acupuncture",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "pet_acupuncturist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Acupuntura Mascotas en {{city}}",
+    "descriptionTemplate": "Acupuntura Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "acupuntura mascotas {{city}}",
+      "pet acupuncture {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acupuntura Mascotas",
+    "subheadlineTemplate": "Acupuntura Mascotas profesional en {{city}}."
+  }
+}

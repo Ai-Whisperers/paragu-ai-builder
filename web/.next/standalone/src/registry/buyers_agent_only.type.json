@@ -1,0 +1,22 @@
+{
+  "id": "buyers_agent_only",
+  "nameEs": "Agente Comprador",
+  "nameEn": "Buyers Agent",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "residential-brokerage",
+  "extends": "inmobiliaria",
+  "tokens": "buyers_agent_only",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Agente Comprador en {{city}}",
+    "descriptionTemplate": "Agente Comprador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agente comprador {{city}}",
+      "buyers agent {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agente Comprador",
+    "subheadlineTemplate": "Agente Comprador profesional en {{city}}."
+  }
+}

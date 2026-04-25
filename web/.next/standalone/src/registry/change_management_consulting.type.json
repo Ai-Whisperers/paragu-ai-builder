@@ -1,0 +1,25 @@
+{
+  "id": "change_management_consulting",
+  "nameEs": "Gestion del Cambio",
+  "nameEn": "Change Management",
+  "verticalId": "b2b-professional",
+  "subVertical": "management-consulting",
+  "extends": "professional_services_base",
+  "tokens": "change_management_consulting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Gestion del Cambio en {{city}}",
+    "descriptionTemplate": "Gestion del Cambio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gestion del cambio {{city}}",
+      "change management {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gestion del Cambio",
+    "subheadlineTemplate": "Gestion del Cambio profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

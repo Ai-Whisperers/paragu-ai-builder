@@ -1,0 +1,22 @@
+{
+  "id": "home_inspector",
+  "nameEs": "Inspector Inmobiliario",
+  "nameEn": "Home Inspector",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "appraisal-inspection",
+  "extends": "inmobiliaria",
+  "tokens": "home_inspector",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Inspector Inmobiliario en {{city}}",
+    "descriptionTemplate": "Inspector Inmobiliario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "inspector inmobiliario {{city}}",
+      "home inspector {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Inspector Inmobiliario",
+    "subheadlineTemplate": "Inspector Inmobiliario profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hindu_temple",
+  "nameEs": "Templo Hindu",
+  "nameEn": "Hindu Temple",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "hindu_temple",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Templo Hindu en {{city}}",
+    "descriptionTemplate": "Templo Hindu profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "templo hindu {{city}}",
+      "hindu temple {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Templo Hindu",
+    "subheadlineTemplate": "Templo Hindu profesional en {{city}}."
+  }
+}

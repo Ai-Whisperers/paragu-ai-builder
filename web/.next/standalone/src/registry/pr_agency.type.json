@@ -1,0 +1,22 @@
+{
+  "id": "pr_agency",
+  "nameEs": "Agencia Relaciones Publicas",
+  "nameEn": "PR Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "pr_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Relaciones Publicas en {{city}}",
+    "descriptionTemplate": "Agencia Relaciones Publicas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia relaciones publicas {{city}}",
+      "pr agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Relaciones Publicas",
+    "subheadlineTemplate": "Agencia Relaciones Publicas profesional en {{city}}."
+  }
+}

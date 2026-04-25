@@ -1,0 +1,22 @@
+{
+  "id": "emergency_plumber",
+  "nameEs": "Plomero de Emergencia",
+  "nameEn": "Emergency Plumber",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "emergency_plumber",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Plomero de Emergencia en {{city}}",
+    "descriptionTemplate": "Plomero de Emergencia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "plomero de emergencia {{city}}",
+      "emergency plumber {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Plomero de Emergencia",
+    "subheadlineTemplate": "Plomero de Emergencia profesional en {{city}}."
+  }
+}

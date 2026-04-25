@@ -1,0 +1,27 @@
+{
+  "id": "bar_pub",
+  "nameEs": "Bar / Pub",
+  "nameEn": "Bar / Pub",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "bar_pub",
+  "seo": {
+    "schemaType": "BarOrPub",
+    "titleTemplate": "{{businessName}} - Bar / Pub en {{city}}",
+    "descriptionTemplate": "Cervezas tiradas, tragos de autor y picadas en {{city}}.",
+    "keywords": [
+      "bar {{city}}",
+      "pub {{city}}",
+      "happy hour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Despues del trabajo, lo mejor del barrio",
+    "subheadlineTemplate": "Cervezas tiradas, tragos de autor y picadas en {{city}}."
+  },
+  "serviceCategories": [
+    "cervezas",
+    "tragos",
+    "picadas"
+  ]
+}

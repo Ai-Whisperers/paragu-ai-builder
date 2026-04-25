@@ -1,0 +1,22 @@
+{
+  "id": "exhaust_muffler_shop",
+  "nameEs": "Taller Escape",
+  "nameEn": "Exhaust Shop",
+  "verticalId": "automotive",
+  "subVertical": "repair-maintenance",
+  "extends": "automotive_base",
+  "tokens": "exhaust_muffler_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Taller Escape en {{city}}",
+    "descriptionTemplate": "Taller Escape profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller escape {{city}}",
+      "exhaust shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller Escape",
+    "subheadlineTemplate": "Taller Escape profesional en {{city}}."
+  }
+}

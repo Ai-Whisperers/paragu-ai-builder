@@ -1,0 +1,22 @@
+{
+  "id": "laser_hair_removal_clinic",
+  "nameEs": "Depilacion Laser",
+  "nameEn": "Laser Hair Removal",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "body-hair-removal",
+  "extends": "beauty_base",
+  "tokens": "laser_hair_removal_clinic",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Depilacion Laser en {{city}}",
+    "descriptionTemplate": "Depilacion Laser profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "depilacion laser {{city}}",
+      "laser hair removal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Depilacion Laser",
+    "subheadlineTemplate": "Depilacion Laser profesional en {{city}}."
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "/admin/commerce/[businessId]/discounts/page": "app/admin/commerce/[businessId]/discounts/page.js"
+}

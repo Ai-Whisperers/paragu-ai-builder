@@ -1,0 +1,25 @@
+{
+  "id": "fiduciary_only_advisor",
+  "nameEs": "Asesor Fiduciario",
+  "nameEn": "Fiduciary Advisor",
+  "verticalId": "finance-insurance",
+  "subVertical": "financial-advisory",
+  "extends": "finance_insurance_base",
+  "tokens": "fiduciary_only_advisor",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Asesor Fiduciario en {{city}}",
+    "descriptionTemplate": "Asesor Fiduciario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asesor fiduciario {{city}}",
+      "fiduciary advisor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asesor Fiduciario",
+    "subheadlineTemplate": "Asesor Fiduciario profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

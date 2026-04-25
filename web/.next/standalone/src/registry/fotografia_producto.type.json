@@ -1,0 +1,26 @@
+{
+  "id": "fotografia_producto",
+  "nameEs": "Fotografia de Producto",
+  "nameEn": "Product Photography",
+  "verticalId": "portfolio-professional",
+  "extends": "fotografia_bodas",
+  "tokens": "fotografia_producto",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografia de Producto en {{city}}",
+    "descriptionTemplate": "Fotografia profesional para e-commerce, catalogos y marketing.",
+    "keywords": [
+      "fotografia producto {{city}}",
+      "fotografia ecommerce {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tus productos vendidos por la imagen",
+    "subheadlineTemplate": "Fotografia profesional para e-commerce, catalogos y marketing."
+  },
+  "serviceCategories": [
+    "ecommerce",
+    "lifestyle",
+    "gastronomia"
+  ]
+}

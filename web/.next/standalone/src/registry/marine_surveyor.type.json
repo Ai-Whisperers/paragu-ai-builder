@@ -1,0 +1,25 @@
+{
+  "id": "marine_surveyor",
+  "nameEs": "Inspector Naval",
+  "nameEn": "Marine Surveyor",
+  "verticalId": "logistics-transport",
+  "subVertical": "marine-port",
+  "extends": "logistics_base",
+  "tokens": "marine_surveyor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Inspector Naval en {{city}}",
+    "descriptionTemplate": "Inspector Naval profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "inspector naval {{city}}",
+      "marine surveyor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Inspector Naval",
+    "subheadlineTemplate": "Inspector Naval profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

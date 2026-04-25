@@ -1,0 +1,25 @@
+{
+  "id": "it_consulting",
+  "nameEs": "Consultoria IT",
+  "nameEn": "IT Consulting",
+  "verticalId": "b2b-professional",
+  "subVertical": "management-consulting",
+  "extends": "professional_services_base",
+  "tokens": "it_consulting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultoria IT en {{city}}",
+    "descriptionTemplate": "Consultoria IT profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultoria it {{city}}",
+      "it consulting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultoria IT",
+    "subheadlineTemplate": "Consultoria IT profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

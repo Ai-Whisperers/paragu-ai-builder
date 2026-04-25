@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"\\\\.tsx$\")",
+      "Bash(cat)",
+      "Bash(bash /tmp/check_orphans.sh)",
+      "Bash(npm run *)",
+      "Bash(npm test *)",
+      "Bash(npx vitest *)",
+      "Bash(npx eslint *)",
+      "Bash(awk 'NR==5791' /home/ai-whisperers/paragu-ai-builder/web/lib/engine/static-config.ts)",
+      "Bash(npx tsc *)",
+      "Read(//tmp/**)",
+      "Bash(cp /home/ai-whisperers/paragu-ai-builder/web/lib/engine/static-config.ts /tmp/sc-test.ts)",
+      "Bash(./node_modules/.bin/tsc --noEmit --module esnext --target es2022 /tmp/sc-test.ts)",
+      "Bash(./node_modules/.bin/tsc --noEmit --ignoreDeprecations 5.0 /tmp/sc-test.ts)"
+    ]
+  }
+}

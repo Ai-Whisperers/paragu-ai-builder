@@ -1,0 +1,22 @@
+{
+  "id": "zine_maker",
+  "nameEs": "Fanzine",
+  "nameEn": "Zine Maker",
+  "verticalId": "media-publishing",
+  "subVertical": "indie-publisher",
+  "extends": "media_base",
+  "tokens": "zine_maker",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Fanzine en {{city}}",
+    "descriptionTemplate": "Fanzine profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fanzine {{city}}",
+      "zine maker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fanzine",
+    "subheadlineTemplate": "Fanzine profesional en {{city}}."
+  }
+}

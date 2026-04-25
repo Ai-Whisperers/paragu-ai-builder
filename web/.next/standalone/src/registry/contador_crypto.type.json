@@ -1,0 +1,87 @@
+{
+  "id": "contador_crypto",
+  "nameEs": "Contador Especialista en Crypto y Fintech",
+  "nameEn": "Crypto & Fintech Accountant",
+  "verticalId": "b2b-professional",
+  "extends": "contador",
+  "tokens": "contador_crypto",
+  "content": "contador_crypto",
+  "schema": "contador",
+  "icon": "bitcoin",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "pricingTable",
+        "process",
+        "testimonial",
+        "faq",
+        "leadForm",
+        "footer"
+      ],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    }
+  },
+  "features": {
+    "leadForm": {
+      "enabled": true,
+      "fields": ["name", "email", "country", "entityType", "annualVolume", "walletsCount", "message"]
+    },
+    "pricingDisplay": {
+      "enabled": true,
+      "showCurrency": "USD",
+      "cryptoAccepted": ["BTC", "ETH", "USDC"]
+    },
+    "languageToggle": {
+      "enabled": true,
+      "languages": ["en", "es"]
+    },
+    "whatsappFloat": { "enabled": true }
+  },
+  "serviceCategories": [
+    "seprelad",
+    "tax-crypto",
+    "forensics",
+    "entity-structure",
+    "reporting"
+  ],
+  "regulatoryVocab": {
+    "amlRegulator": "SEPRELAD (Res. 8/20)",
+    "taxAuthority": "DNIT",
+    "securitiesRegulator": "CNV",
+    "keyPosition": "DNIT 2024: crypto trading gains subject to IRE 10%",
+    "compliance": ["SEPRELAD Sujeto Obligado", "OFAC screening", "CRS reporting"]
+  },
+  "targetAudience": {
+    "primary": "Crypto traders, DeFi protocols, centralized exchanges operating from Paraguay",
+    "secondary": "Web3 founders and DAO treasuries seeking PY tax residency",
+    "tertiary": "Foreign investment funds considering PY jurisdiction"
+  },
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Crypto Accounting Paraguay | SEPRELAD + Blockchain Forensics",
+    "descriptionTemplate": "Crypto tax, SEPRELAD compliance, blockchain forensics, bilingual reporting for traders, exchanges, DeFi protocols operating from Paraguay.",
+    "keywords": [
+      "crypto accountant Paraguay",
+      "SEPRELAD crypto",
+      "blockchain forensics Paraguay",
+      "crypto tax Paraguay",
+      "DeFi accounting",
+      "Web3 compliance Paraguay",
+      "IRE crypto trading"
+    ]
+  },
+  "nav": {
+    "items": ["Home", "Services", "Packages", "Process", "FAQ", "Contact"],
+    "cta": { "text": "Book Compliance Review", "action": "leadForm" }
+  },
+  "hero": {
+    "style": "minimal",
+    "headlineTemplate": "{{businessName}} - Crypto Accounting & Compliance in Paraguay",
+    "subheadlineTemplate": "SEPRELAD-compliant, blockchain forensics, bilingual ES/EN reporting for traders, exchanges and web3 builders.",
+    "ctaPrimary": { "text": "Book Compliance Review", "action": "leadForm" },
+    "ctaSecondary": { "text": "See Packages", "action": "scrollTo:pricing" }
+  }
+}

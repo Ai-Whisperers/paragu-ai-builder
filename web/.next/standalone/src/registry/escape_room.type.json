@@ -1,0 +1,22 @@
+{
+  "id": "escape_room",
+  "nameEs": "Escape Room",
+  "nameEn": "Escape Room",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "escape-room-arcade",
+  "extends": "entertainment_base",
+  "tokens": "escape_room",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Escape Room en {{city}}",
+    "descriptionTemplate": "Escape Room profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escape room {{city}}",
+      "escape room {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escape Room",
+    "subheadlineTemplate": "Escape Room profesional en {{city}}."
+  }
+}

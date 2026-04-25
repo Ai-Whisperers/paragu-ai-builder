@@ -1,0 +1,22 @@
+{
+  "id": "vein_clinic",
+  "nameEs": "Clinica de Varices",
+  "nameEn": "Vein Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "medical-aesthetics",
+  "extends": "health_wellness_base",
+  "tokens": "vein_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica de Varices en {{city}}",
+    "descriptionTemplate": "Clinica de Varices profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica de varices {{city}}",
+      "vein clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica de Varices",
+    "subheadlineTemplate": "Clinica de Varices profesional en {{city}}."
+  }
+}

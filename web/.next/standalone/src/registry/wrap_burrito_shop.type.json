@@ -1,0 +1,22 @@
+{
+  "id": "wrap_burrito_shop",
+  "nameEs": "Burriteria",
+  "nameEn": "Burrito Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "wrap_burrito_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Burriteria en {{city}}",
+    "descriptionTemplate": "Burriteria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "burriteria {{city}}",
+      "burrito shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Burriteria",
+    "subheadlineTemplate": "Burriteria profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "commercial_composting",
+  "nameEs": "Compostaje Comercial",
+  "nameEn": "Commercial Compost",
+  "verticalId": "trades-industrial",
+  "subVertical": "recycling-waste",
+  "extends": "industrial_base",
+  "tokens": "commercial_composting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Compostaje Comercial en {{city}}",
+    "descriptionTemplate": "Compostaje Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "compostaje comercial {{city}}",
+      "commercial compost {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Compostaje Comercial",
+    "subheadlineTemplate": "Compostaje Comercial profesional en {{city}}."
+  }
+}

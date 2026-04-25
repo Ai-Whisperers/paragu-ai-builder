@@ -1,0 +1,27 @@
+{
+  "id": "agencia_viajes",
+  "nameEs": "Agencia de Viajes",
+  "nameEn": "Travel Agency",
+  "verticalId": "hospitality-tourism",
+  "extends": "professional_services_base",
+  "tokens": "agencia_viajes",
+  "seo": {
+    "schemaType": "TravelAgency",
+    "titleTemplate": "{{businessName}} - Agencia de Viajes en {{city}}",
+    "descriptionTemplate": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos.",
+    "keywords": [
+      "agencia viajes {{city}}",
+      "paquete turistico {{city}}",
+      "viaje europa"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu proximo viaje empieza aqui",
+    "subheadlineTemplate": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos."
+  },
+  "serviceCategories": [
+    "paquetes",
+    "vuelos",
+    "corporativo"
+  ]
+}

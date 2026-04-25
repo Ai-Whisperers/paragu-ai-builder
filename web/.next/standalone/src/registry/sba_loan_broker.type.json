@@ -1,0 +1,25 @@
+{
+  "id": "sba_loan_broker",
+  "nameEs": "Broker SBA",
+  "nameEn": "SBA Broker",
+  "verticalId": "finance-insurance",
+  "subVertical": "lending-retail",
+  "extends": "finance_insurance_base",
+  "tokens": "sba_loan_broker",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Broker SBA en {{city}}",
+    "descriptionTemplate": "Broker SBA profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "broker sba {{city}}",
+      "sba broker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Broker SBA",
+    "subheadlineTemplate": "Broker SBA profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

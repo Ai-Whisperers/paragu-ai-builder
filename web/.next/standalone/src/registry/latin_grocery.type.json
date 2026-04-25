@@ -1,0 +1,22 @@
+{
+  "id": "latin_grocery",
+  "nameEs": "Mercadito Latino",
+  "nameEn": "Latin Grocery",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "latin_grocery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Mercadito Latino en {{city}}",
+    "descriptionTemplate": "Mercadito Latino profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mercadito latino {{city}}",
+      "latin grocery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mercadito Latino",
+    "subheadlineTemplate": "Mercadito Latino profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "scarf_accessories_boutique",
+  "nameEs": "Boutique Accesorios",
+  "nameEn": "Accessories Boutique",
+  "verticalId": "retail-local",
+  "subVertical": "jewelry-accessories",
+  "extends": "retail_base",
+  "tokens": "scarf_accessories_boutique",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Boutique Accesorios en {{city}}",
+    "descriptionTemplate": "Boutique Accesorios profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "boutique accesorios {{city}}",
+      "accessories boutique {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Boutique Accesorios",
+    "subheadlineTemplate": "Boutique Accesorios profesional en {{city}}."
+  }
+}

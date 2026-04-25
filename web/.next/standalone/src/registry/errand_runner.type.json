@@ -1,0 +1,22 @@
+{
+  "id": "errand_runner",
+  "nameEs": "Mandadero",
+  "nameEn": "Errand Runner",
+  "verticalId": "service-booking",
+  "subVertical": "errands-concierge",
+  "extends": "gimnasio",
+  "tokens": "errand_runner",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Mandadero en {{city}}",
+    "descriptionTemplate": "Mandadero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mandadero {{city}}",
+      "errand runner {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mandadero",
+    "subheadlineTemplate": "Mandadero profesional en {{city}}."
+  }
+}

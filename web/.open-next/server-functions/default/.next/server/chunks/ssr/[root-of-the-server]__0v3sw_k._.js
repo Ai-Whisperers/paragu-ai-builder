@@ -1,0 +1,3 @@
+module.exports=[478500,(a,b,c)=>{b.exports=a.x("node:async_hooks",()=>require("node:async_hooks"))},826435,a=>{"use strict";var b=a.i(907997);a.i(570396);var c=a.i(673727),d=a.i(998310);async function e(){let a=await (0,d.createClient)(),{data:{user:b}}=await a.auth.getUser();return b||(0,c.redirect)("/login?error=unauthorized"),!function(a){if(!a)return!1;let b=(process.env.ADMIN_EMAILS||"").split(",").map(a=>a.trim().toLowerCase()).filter(Boolean);return 0!==b.length&&b.includes(a.toLowerCase())}(b.email)&&(0,c.redirect)("/unauthorized"),{user:b}}async function f({children:a}){return await e(),(0,b.jsx)(b.Fragment,{children:a})}a.s(["default",0,f],826435)},67971,a=>{a.n(a.i(826435))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0v3sw_k._.js.map

@@ -1,0 +1,22 @@
+{
+  "id": "pet_crematory",
+  "nameEs": "Crematorio Mascotas",
+  "nameEn": "Pet Crematory",
+  "verticalId": "death-care",
+  "subVertical": "cremation",
+  "extends": "death_care_base",
+  "tokens": "pet_crematory",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Crematorio Mascotas en {{city}}",
+    "descriptionTemplate": "Crematorio Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "crematorio mascotas {{city}}",
+      "pet crematory {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Crematorio Mascotas",
+    "subheadlineTemplate": "Crematorio Mascotas profesional en {{city}}."
+  }
+}

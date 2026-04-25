@@ -1,0 +1,25 @@
+{
+  "id": "conveyor_system_mfg",
+  "nameEs": "Fabricante Cintas",
+  "nameEn": "Conveyor Mfg",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-equipment",
+  "extends": "industrial_base",
+  "tokens": "conveyor_system_mfg",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fabricante Cintas en {{city}}",
+    "descriptionTemplate": "Fabricante Cintas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fabricante cintas {{city}}",
+      "conveyor mfg {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fabricante Cintas",
+    "subheadlineTemplate": "Fabricante Cintas profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

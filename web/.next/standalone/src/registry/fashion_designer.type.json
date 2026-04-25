@@ -1,0 +1,22 @@
+{
+  "id": "fashion_designer",
+  "nameEs": "Disenador de Moda",
+  "nameEn": "Fashion Designer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fashion-design",
+  "extends": "diseno_grafico",
+  "tokens": "fashion_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Disenador de Moda en {{city}}",
+    "descriptionTemplate": "Disenador de Moda profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disenador de moda {{city}}",
+      "fashion designer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disenador de Moda",
+    "subheadlineTemplate": "Disenador de Moda profesional en {{city}}."
+  }
+}

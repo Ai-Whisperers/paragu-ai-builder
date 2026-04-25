@@ -1,0 +1,3 @@
+{
+  "/api/cron/commerce-back-in-stock/route": "app/api/cron/commerce-back-in-stock/route.js"
+}

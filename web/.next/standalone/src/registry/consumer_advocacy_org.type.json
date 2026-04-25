@@ -1,0 +1,22 @@
+{
+  "id": "consumer_advocacy_org",
+  "nameEs": "Defensa Consumidor",
+  "nameEn": "Consumer Advocacy",
+  "verticalId": "membership-community",
+  "subVertical": "advocacy-civic",
+  "extends": "membership_base",
+  "tokens": "consumer_advocacy_org",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Defensa Consumidor en {{city}}",
+    "descriptionTemplate": "Defensa Consumidor profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "defensa consumidor {{city}}",
+      "consumer advocacy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Defensa Consumidor",
+    "subheadlineTemplate": "Defensa Consumidor profesional en {{city}}."
+  }
+}

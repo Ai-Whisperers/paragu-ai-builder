@@ -1,0 +1,25 @@
+{
+  "id": "survey_panel_company",
+  "nameEs": "Empresa Encuestas",
+  "nameEn": "Survey Company",
+  "verticalId": "b2b-professional",
+  "subVertical": "research-market",
+  "extends": "professional_services_base",
+  "tokens": "survey_panel_company",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Empresa Encuestas en {{city}}",
+    "descriptionTemplate": "Empresa Encuestas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "empresa encuestas {{city}}",
+      "survey company {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Empresa Encuestas",
+    "subheadlineTemplate": "Empresa Encuestas profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

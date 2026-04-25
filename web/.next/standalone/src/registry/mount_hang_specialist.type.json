@@ -1,0 +1,22 @@
+{
+  "id": "mount_hang_specialist",
+  "nameEs": "Instalador TV",
+  "nameEn": "Mount Hang Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "handyman",
+  "extends": "trades_base",
+  "tokens": "mount_hang_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador TV en {{city}}",
+    "descriptionTemplate": "Instalador TV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador tv {{city}}",
+      "mount hang specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador TV",
+    "subheadlineTemplate": "Instalador TV profesional en {{city}}."
+  }
+}

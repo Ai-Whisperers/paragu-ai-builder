@@ -1,0 +1,22 @@
+{
+  "id": "furniture_designer_maker",
+  "nameEs": "Disenador de Muebles",
+  "nameEn": "Furniture Maker",
+  "verticalId": "portfolio-professional",
+  "subVertical": "industrial-product-design",
+  "extends": "diseno_grafico",
+  "tokens": "furniture_designer_maker",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Disenador de Muebles en {{city}}",
+    "descriptionTemplate": "Disenador de Muebles profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disenador de muebles {{city}}",
+      "furniture maker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disenador de Muebles",
+    "subheadlineTemplate": "Disenador de Muebles profesional en {{city}}."
+  }
+}

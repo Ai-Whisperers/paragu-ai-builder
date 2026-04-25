@@ -1,0 +1,22 @@
+{
+  "id": "specialty_coffee_shop",
+  "nameEs": "Cafeteria de Especialidad",
+  "nameEn": "Specialty Coffee",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "specialty_coffee_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Cafeteria de Especialidad en {{city}}",
+    "descriptionTemplate": "Cafeteria de Especialidad profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cafeteria de especialidad {{city}}",
+      "specialty coffee {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cafeteria de Especialidad",
+    "subheadlineTemplate": "Cafeteria de Especialidad profesional en {{city}}."
+  }
+}

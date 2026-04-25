@@ -1,0 +1,22 @@
+{
+  "id": "dance_studio_classes",
+  "nameEs": "Escuela de Danza",
+  "nameEn": "Dance Studio",
+  "verticalId": "education-training",
+  "subVertical": "music-art",
+  "extends": "educacion",
+  "tokens": "dance_studio_classes",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela de Danza en {{city}}",
+    "descriptionTemplate": "Escuela de Danza profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela de danza {{city}}",
+      "dance studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela de Danza",
+    "subheadlineTemplate": "Escuela de Danza profesional en {{city}}."
+  }
+}

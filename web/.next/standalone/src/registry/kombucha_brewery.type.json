@@ -1,0 +1,22 @@
+{
+  "id": "kombucha_brewery",
+  "nameEs": "Fabrica de Kombucha",
+  "nameEn": "Kombucha Brewery",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "kombucha_brewery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Fabrica de Kombucha en {{city}}",
+    "descriptionTemplate": "Fabrica de Kombucha profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fabrica de kombucha {{city}}",
+      "kombucha brewery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fabrica de Kombucha",
+    "subheadlineTemplate": "Fabrica de Kombucha profesional en {{city}}."
+  }
+}

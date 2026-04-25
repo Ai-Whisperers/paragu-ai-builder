@@ -1,0 +1,22 @@
+{
+  "id": "model_rc_shop",
+  "nameEs": "Tienda Aeromodelismo",
+  "nameEn": "Model RC Shop",
+  "verticalId": "retail-local",
+  "subVertical": "bookstore-hobby",
+  "extends": "retail_base",
+  "tokens": "model_rc_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda Aeromodelismo en {{city}}",
+    "descriptionTemplate": "Tienda Aeromodelismo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda aeromodelismo {{city}}",
+      "model rc shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Aeromodelismo",
+    "subheadlineTemplate": "Tienda Aeromodelismo profesional en {{city}}."
+  }
+}

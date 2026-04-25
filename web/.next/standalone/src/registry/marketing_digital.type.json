@@ -1,0 +1,28 @@
+{
+  "id": "marketing_digital",
+  "nameEs": "Marketing Digital",
+  "nameEn": "Digital Marketing",
+  "verticalId": "portfolio-professional",
+  "extends": "diseno_grafico",
+  "tokens": "marketing_digital",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Marketing Digital en {{city}}",
+    "descriptionTemplate": "Estrategia digital: SEO, SEM, redes sociales, email marketing y contenido.",
+    "keywords": [
+      "marketing digital {{city}}",
+      "agencia digital {{city}}",
+      "seo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Crecimiento digital con datos",
+    "subheadlineTemplate": "Estrategia digital: SEO, SEM, redes sociales, email marketing y contenido."
+  },
+  "serviceCategories": [
+    "seo",
+    "ads",
+    "redes",
+    "analytics"
+  ]
+}

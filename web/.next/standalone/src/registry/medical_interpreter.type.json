@@ -1,0 +1,22 @@
+{
+  "id": "medical_interpreter",
+  "nameEs": "Interprete Medico",
+  "nameEn": "Medical Interpreter",
+  "verticalId": "b2b-professional",
+  "subVertical": "translation-localization",
+  "extends": "professional_services_base",
+  "tokens": "medical_interpreter",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Interprete Medico en {{city}}",
+    "descriptionTemplate": "Interprete Medico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "interprete medico {{city}}",
+      "medical interpreter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Interprete Medico",
+    "subheadlineTemplate": "Interprete Medico profesional en {{city}}."
+  }
+}

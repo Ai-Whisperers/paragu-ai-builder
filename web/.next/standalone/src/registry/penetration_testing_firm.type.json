@@ -1,0 +1,25 @@
+{
+  "id": "penetration_testing_firm",
+  "nameEs": "Pentesting",
+  "nameEn": "Pentest Firm",
+  "verticalId": "technology-digital",
+  "subVertical": "cybersecurity",
+  "extends": "technology_base",
+  "tokens": "penetration_testing_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Pentesting en {{city}}",
+    "descriptionTemplate": "Pentesting profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pentesting {{city}}",
+      "pentest firm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pentesting",
+    "subheadlineTemplate": "Pentesting profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

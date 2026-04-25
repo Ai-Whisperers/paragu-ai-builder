@@ -1,0 +1,22 @@
+{
+  "id": "faux_finish_painter",
+  "nameEs": "Acabado Decorativo",
+  "nameEn": "Faux Finish",
+  "verticalId": "trades-home-services",
+  "subVertical": "painting-finishing",
+  "extends": "trades_base",
+  "tokens": "faux_finish_painter",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Acabado Decorativo en {{city}}",
+    "descriptionTemplate": "Acabado Decorativo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "acabado decorativo {{city}}",
+      "faux finish {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acabado Decorativo",
+    "subheadlineTemplate": "Acabado Decorativo profesional en {{city}}."
+  }
+}

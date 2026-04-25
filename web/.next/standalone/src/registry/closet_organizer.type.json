@@ -1,0 +1,22 @@
+{
+  "id": "closet_organizer",
+  "nameEs": "Organizador de Closets",
+  "nameEn": "Closet Organizer",
+  "verticalId": "service-booking",
+  "subVertical": "home-organization",
+  "extends": "gimnasio",
+  "tokens": "closet_organizer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Organizador de Closets en {{city}}",
+    "descriptionTemplate": "Organizador de Closets profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "organizador de closets {{city}}",
+      "closet organizer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Organizador de Closets",
+    "subheadlineTemplate": "Organizador de Closets profesional en {{city}}."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "sports_base",
+  "nameEs": "Base Deportes",
+  "nameEn": "Sports Base",
+  "verticalId": "sports-recreation",
+  "abstract": true,
+  "tokens": "sports_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "services",
+        "classSchedule",
+        "membershipPlans",
+        "gallery",
+        "testimonials",
+        "booking",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "services",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "booking": {
+      "enabled": true
+    },
+    "classSchedule": {
+      "enabled": true
+    },
+    "membershipPlans": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Deportes profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Actividades",
+      "Horarios",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Reservar",
+      "action": "booking"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Muevete, juga, vive",
+    "subheadlineTemplate": "Deportes y recreacion para todos los niveles.",
+    "ctaPrimary": {
+      "text": "Reservar",
+      "action": "booking"
+    },
+    "ctaSecondary": {
+      "text": "Ver Horarios",
+      "action": "scrollTo:classSchedule"
+    }
+  }
+}

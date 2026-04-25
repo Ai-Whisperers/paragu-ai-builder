@@ -1,0 +1,22 @@
+{
+  "id": "residential_architect",
+  "nameEs": "Arquitecto Residencial",
+  "nameEn": "Residential Architect",
+  "verticalId": "portfolio-professional",
+  "subVertical": "architecture-interior",
+  "extends": "diseno_grafico",
+  "tokens": "residential_architect",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Arquitecto Residencial en {{city}}",
+    "descriptionTemplate": "Arquitecto Residencial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "arquitecto residencial {{city}}",
+      "residential architect {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Arquitecto Residencial",
+    "subheadlineTemplate": "Arquitecto Residencial profesional en {{city}}."
+  }
+}

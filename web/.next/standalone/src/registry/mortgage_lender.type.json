@@ -1,0 +1,25 @@
+{
+  "id": "mortgage_lender",
+  "nameEs": "Prestamista Hipotecario",
+  "nameEn": "Mortgage Lender",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "title-escrow",
+  "extends": "inmobiliaria",
+  "tokens": "mortgage_lender",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Prestamista Hipotecario en {{city}}",
+    "descriptionTemplate": "Prestamista Hipotecario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "prestamista hipotecario {{city}}",
+      "mortgage lender {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Prestamista Hipotecario",
+    "subheadlineTemplate": "Prestamista Hipotecario profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

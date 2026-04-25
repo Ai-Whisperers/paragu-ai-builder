@@ -1,0 +1,22 @@
+{
+  "id": "appliance_repair",
+  "nameEs": "Reparacion Electrodomesticos",
+  "nameEn": "Appliance Repair",
+  "verticalId": "technology-digital",
+  "subVertical": "repair-tech",
+  "extends": "technology_base",
+  "tokens": "appliance_repair",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reparacion Electrodomesticos en {{city}}",
+    "descriptionTemplate": "Reparacion Electrodomesticos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reparacion electrodomesticos {{city}}",
+      "appliance repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparacion Electrodomesticos",
+    "subheadlineTemplate": "Reparacion Electrodomesticos profesional en {{city}}."
+  }
+}

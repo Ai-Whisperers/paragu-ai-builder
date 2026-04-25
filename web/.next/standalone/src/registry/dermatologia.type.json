@@ -1,0 +1,27 @@
+{
+  "id": "dermatologia",
+  "nameEs": "Dermatologia",
+  "nameEn": "Dermatology",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "dermatologia",
+  "seo": {
+    "schemaType": "Physician",
+    "titleTemplate": "{{businessName}} - Dermatologia en {{city}}",
+    "descriptionTemplate": "Consulta dermatologica, control de lunares y estetica medica en {{city}}.",
+    "keywords": [
+      "dermatologo {{city}}",
+      "control lunares {{city}}",
+      "dermatologia estetica {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Piel sana, piel segura",
+    "subheadlineTemplate": "Consulta dermatologica, control de lunares y estetica medica en {{city}}."
+  },
+  "serviceCategories": [
+    "consulta",
+    "lunares",
+    "estetica"
+  ]
+}

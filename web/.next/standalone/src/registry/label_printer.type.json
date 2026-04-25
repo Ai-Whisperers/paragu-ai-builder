@@ -1,0 +1,25 @@
+{
+  "id": "label_printer",
+  "nameEs": "Impresion Etiquetas",
+  "nameEn": "Label Printer",
+  "verticalId": "trades-industrial",
+  "subVertical": "packaging-labeling",
+  "extends": "industrial_base",
+  "tokens": "label_printer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Impresion Etiquetas en {{city}}",
+    "descriptionTemplate": "Impresion Etiquetas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "impresion etiquetas {{city}}",
+      "label printer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Impresion Etiquetas",
+    "subheadlineTemplate": "Impresion Etiquetas profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

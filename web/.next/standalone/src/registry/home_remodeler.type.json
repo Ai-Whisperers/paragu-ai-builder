@@ -1,0 +1,22 @@
+{
+  "id": "home_remodeler",
+  "nameEs": "Remodelador de Casas",
+  "nameEn": "Home Remodeler",
+  "verticalId": "trades-home-services",
+  "subVertical": "general-contracting",
+  "extends": "trades_base",
+  "tokens": "home_remodeler",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Remodelador de Casas en {{city}}",
+    "descriptionTemplate": "Remodelador de Casas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "remodelador de casas {{city}}",
+      "home remodeler {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Remodelador de Casas",
+    "subheadlineTemplate": "Remodelador de Casas profesional en {{city}}."
+  }
+}

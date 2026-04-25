@@ -1,0 +1,25 @@
+{
+  "id": "drag_cabaret_venue",
+  "nameEs": "Cabaret",
+  "nameEn": "Cabaret Venue",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "theater-performing",
+  "extends": "entertainment_base",
+  "tokens": "drag_cabaret_venue",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Cabaret en {{city}}",
+    "descriptionTemplate": "Cabaret profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cabaret {{city}}",
+      "cabaret venue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cabaret",
+    "subheadlineTemplate": "Cabaret profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

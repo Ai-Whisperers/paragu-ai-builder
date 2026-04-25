@@ -1,0 +1,22 @@
+{
+  "id": "van_rental",
+  "nameEs": "Alquiler Vans",
+  "nameEn": "Van Rental",
+  "verticalId": "automotive",
+  "subVertical": "rental",
+  "extends": "automotive_base",
+  "tokens": "van_rental",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Vans en {{city}}",
+    "descriptionTemplate": "Alquiler Vans profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler vans {{city}}",
+      "van rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Vans",
+    "subheadlineTemplate": "Alquiler Vans profesional en {{city}}."
+  }
+}

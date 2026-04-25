@@ -1,0 +1,22 @@
+{
+  "id": "memorial_park",
+  "nameEs": "Parque Memorial",
+  "nameEn": "Memorial Park",
+  "verticalId": "death-care",
+  "subVertical": "cemetery-memorial",
+  "extends": "death_care_base",
+  "tokens": "memorial_park",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Parque Memorial en {{city}}",
+    "descriptionTemplate": "Parque Memorial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "parque memorial {{city}}",
+      "memorial park {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Parque Memorial",
+    "subheadlineTemplate": "Parque Memorial profesional en {{city}}."
+  }
+}

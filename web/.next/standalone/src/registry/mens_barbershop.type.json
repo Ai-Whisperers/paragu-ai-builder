@@ -1,0 +1,22 @@
+{
+  "id": "mens_barbershop",
+  "nameEs": "Barberia",
+  "nameEn": "Barbershop",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "mens-grooming",
+  "extends": "beauty_base",
+  "tokens": "mens_barbershop",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Barberia en {{city}}",
+    "descriptionTemplate": "Barberia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "barberia {{city}}",
+      "barbershop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Barberia",
+    "subheadlineTemplate": "Barberia profesional en {{city}}."
+  }
+}

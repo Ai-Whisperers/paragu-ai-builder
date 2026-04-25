@@ -1,0 +1,22 @@
+{
+  "id": "tilapia_farm",
+  "nameEs": "Granja Tilapia",
+  "nameEn": "Tilapia Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "aquaculture",
+  "extends": "agriculture_base",
+  "tokens": "tilapia_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja Tilapia en {{city}}",
+    "descriptionTemplate": "Granja Tilapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja tilapia {{city}}",
+      "tilapia farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja Tilapia",
+    "subheadlineTemplate": "Granja Tilapia profesional en {{city}}."
+  }
+}

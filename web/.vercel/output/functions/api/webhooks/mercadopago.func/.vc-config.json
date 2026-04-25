@@ -1,0 +1,18 @@
+{
+  "runtime": "edge",
+  "name": "api/webhooks/mercadopago",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "assets": [],
+  "framework": {
+    "slug": "nextjs",
+    "version": "16.2.4"
+  },
+  "environment": {
+    "__NEXT_BUILD_ID": "hCvv1UvA9Qkhy2N8cMm3u",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "KuDP3m6N4n2PARLD3PML1xnOPyEgNd2l25Gyi5YnASg=",
+    "__NEXT_PREVIEW_MODE_ID": "1249bbf21c14a563d9670f4174915168",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "1e77c920e4ca7a279b404cd6560983805f5110ab64fe1cc7dccbeaa4517b1c7f",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "6b54621b419829aeb64200b74d849e874978ce70a073af455e2573aac5be1357"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "home_decor_shop",
+  "nameEs": "Decoracion Hogar",
+  "nameEn": "Home Decor",
+  "verticalId": "retail-local",
+  "subVertical": "home-furnishings",
+  "extends": "retail_base",
+  "tokens": "home_decor_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Decoracion Hogar en {{city}}",
+    "descriptionTemplate": "Decoracion Hogar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "decoracion hogar {{city}}",
+      "home decor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Decoracion Hogar",
+    "subheadlineTemplate": "Decoracion Hogar profesional en {{city}}."
+  }
+}

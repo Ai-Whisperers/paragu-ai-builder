@@ -1,0 +1,22 @@
+{
+  "id": "scent_nose_work_classes",
+  "nameEs": "Trabajo Olfativo",
+  "nameEn": "Scent Work",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-training",
+  "extends": "pets_base",
+  "tokens": "scent_nose_work_classes",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Trabajo Olfativo en {{city}}",
+    "descriptionTemplate": "Trabajo Olfativo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "trabajo olfativo {{city}}",
+      "scent work {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Trabajo Olfativo",
+    "subheadlineTemplate": "Trabajo Olfativo profesional en {{city}}."
+  }
+}

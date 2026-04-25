@@ -1,0 +1,22 @@
+{
+  "id": "violin_strings_studio",
+  "nameEs": "Cuerdas",
+  "nameEn": "Strings Studio",
+  "verticalId": "education-training",
+  "subVertical": "music-art",
+  "extends": "educacion",
+  "tokens": "violin_strings_studio",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Cuerdas en {{city}}",
+    "descriptionTemplate": "Cuerdas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cuerdas {{city}}",
+      "strings studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuerdas",
+    "subheadlineTemplate": "Cuerdas profesional en {{city}}."
+  }
+}

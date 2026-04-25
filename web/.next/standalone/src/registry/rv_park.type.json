@@ -1,0 +1,22 @@
+{
+  "id": "rv_park",
+  "nameEs": "Parque RV",
+  "nameEn": "RV Park",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "rv-camping",
+  "extends": "restaurant",
+  "tokens": "rv_park",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Parque RV en {{city}}",
+    "descriptionTemplate": "Parque RV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "parque rv {{city}}",
+      "rv park {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Parque RV",
+    "subheadlineTemplate": "Parque RV profesional en {{city}}."
+  }
+}

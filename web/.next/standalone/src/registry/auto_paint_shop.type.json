@@ -1,0 +1,22 @@
+{
+  "id": "auto_paint_shop",
+  "nameEs": "Pintura Automotriz",
+  "nameEn": "Auto Paint Shop",
+  "verticalId": "automotive",
+  "subVertical": "body-collision",
+  "extends": "automotive_base",
+  "tokens": "auto_paint_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Pintura Automotriz en {{city}}",
+    "descriptionTemplate": "Pintura Automotriz profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pintura automotriz {{city}}",
+      "auto paint shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pintura Automotriz",
+    "subheadlineTemplate": "Pintura Automotriz profesional en {{city}}."
+  }
+}

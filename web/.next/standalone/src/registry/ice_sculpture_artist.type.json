@@ -1,0 +1,22 @@
+{
+  "id": "ice_sculpture_artist",
+  "nameEs": "Escultor de Hielo",
+  "nameEn": "Ice Sculptor",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "ice_sculpture_artist",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Escultor de Hielo en {{city}}",
+    "descriptionTemplate": "Escultor de Hielo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escultor de hielo {{city}}",
+      "ice sculptor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escultor de Hielo",
+    "subheadlineTemplate": "Escultor de Hielo profesional en {{city}}."
+  }
+}

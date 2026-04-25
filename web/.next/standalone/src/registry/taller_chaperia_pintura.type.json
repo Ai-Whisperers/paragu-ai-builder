@@ -1,0 +1,27 @@
+{
+  "id": "taller_chaperia_pintura",
+  "nameEs": "Chaperia y Pintura",
+  "nameEn": "Auto Body Shop",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "taller_chaperia_pintura",
+  "seo": {
+    "schemaType": "AutoBodyShop",
+    "titleTemplate": "{{businessName}} - Chaperia y Pintura en {{city}}",
+    "descriptionTemplate": "Chaperia, pintura y restauracion integral en {{city}}.",
+    "keywords": [
+      "chaperia pintura {{city}}",
+      "reparacion auto {{city}}",
+      "pintura auto {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu auto como nuevo",
+    "subheadlineTemplate": "Chaperia, pintura y restauracion integral en {{city}}."
+  },
+  "serviceCategories": [
+    "chaperia",
+    "pintura",
+    "pulido"
+  ]
+}

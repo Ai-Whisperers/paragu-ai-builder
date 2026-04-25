@@ -1,0 +1,22 @@
+{
+  "id": "traditional_gym",
+  "nameEs": "Gimnasio",
+  "nameEn": "Gym",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "traditional_gym",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Gimnasio en {{city}}",
+    "descriptionTemplate": "Gimnasio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio {{city}}",
+      "gym {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio",
+    "subheadlineTemplate": "Gimnasio profesional en {{city}}."
+  }
+}

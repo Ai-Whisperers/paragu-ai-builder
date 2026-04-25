@@ -1,0 +1,22 @@
+{
+  "id": "legal_document_prep",
+  "nameEs": "Preparacion Documentos",
+  "nameEn": "Document Preparer",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "legal_document_prep",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Preparacion Documentos en {{city}}",
+    "descriptionTemplate": "Preparacion Documentos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "preparacion documentos {{city}}",
+      "document preparer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Preparacion Documentos",
+    "subheadlineTemplate": "Preparacion Documentos profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bartending_school",
+  "nameEs": "Escuela Bartender",
+  "nameEn": "Bartending School",
+  "verticalId": "education-training",
+  "subVertical": "trade-vocational",
+  "extends": "educacion",
+  "tokens": "bartending_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Bartender en {{city}}",
+    "descriptionTemplate": "Escuela Bartender profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela bartender {{city}}",
+      "bartending school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Bartender",
+    "subheadlineTemplate": "Escuela Bartender profesional en {{city}}."
+  }
+}

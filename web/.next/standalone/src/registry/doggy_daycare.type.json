@@ -1,0 +1,22 @@
+{
+  "id": "doggy_daycare",
+  "nameEs": "Guarderia Dia",
+  "nameEn": "Doggy Daycare",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-boarding-daycare",
+  "extends": "pets_base",
+  "tokens": "doggy_daycare",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Guarderia Dia en {{city}}",
+    "descriptionTemplate": "Guarderia Dia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guarderia dia {{city}}",
+      "doggy daycare {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guarderia Dia",
+    "subheadlineTemplate": "Guarderia Dia profesional en {{city}}."
+  }
+}

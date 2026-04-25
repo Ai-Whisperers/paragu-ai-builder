@@ -1,0 +1,22 @@
+{
+  "id": "orchid_specialist",
+  "nameEs": "Orquideario",
+  "nameEn": "Orchid Shop",
+  "verticalId": "retail-local",
+  "subVertical": "florist",
+  "extends": "retail_base",
+  "tokens": "orchid_specialist",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Orquideario en {{city}}",
+    "descriptionTemplate": "Orquideario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "orquideario {{city}}",
+      "orchid shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Orquideario",
+    "subheadlineTemplate": "Orquideario profesional en {{city}}."
+  }
+}

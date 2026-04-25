@@ -1,0 +1,22 @@
+{
+  "id": "art_supply_store",
+  "nameEs": "Materiales de Arte",
+  "nameEn": "Art Supply Store",
+  "verticalId": "retail-local",
+  "subVertical": "bookstore-hobby",
+  "extends": "retail_base",
+  "tokens": "art_supply_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Materiales de Arte en {{city}}",
+    "descriptionTemplate": "Materiales de Arte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "materiales de arte {{city}}",
+      "art supply store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Materiales de Arte",
+    "subheadlineTemplate": "Materiales de Arte profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mobile_manicure_service",
+  "nameEs": "Manicura a Domicilio",
+  "nameEn": "Mobile Manicure",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "nails",
+  "extends": "beauty_base",
+  "tokens": "mobile_manicure_service",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Manicura a Domicilio en {{city}}",
+    "descriptionTemplate": "Manicura a Domicilio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "manicura a domicilio {{city}}",
+      "mobile manicure {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Manicura a Domicilio",
+    "subheadlineTemplate": "Manicura a Domicilio profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "safari_lodge",
+  "nameEs": "Lodge de Safari",
+  "nameEn": "Safari Lodge",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "rv-camping",
+  "extends": "restaurant",
+  "tokens": "safari_lodge",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Lodge de Safari en {{city}}",
+    "descriptionTemplate": "Lodge de Safari profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lodge de safari {{city}}",
+      "safari lodge {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lodge de Safari",
+    "subheadlineTemplate": "Lodge de Safari profesional en {{city}}."
+  }
+}

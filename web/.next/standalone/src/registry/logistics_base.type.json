@@ -1,0 +1,73 @@
+{
+  "id": "logistics_base",
+  "nameEs": "Base Logistica",
+  "nameEn": "Logistics Base",
+  "verticalId": "logistics-transport",
+  "abstract": true,
+  "tokens": "logistics_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "services",
+        "features",
+        "process",
+        "trustSignals",
+        "faq",
+        "quoteForm",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "services",
+        "quoteForm",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "quoteForm": {
+      "enabled": true
+    },
+    "trackingIntegration": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Logistica profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Servicios",
+      "Cobertura",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Cotizar Envio",
+      "action": "quoteForm"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Tu carga en buenas manos",
+    "subheadlineTemplate": "Logistica y transporte con cobertura nacional e internacional.",
+    "ctaPrimary": {
+      "text": "Cotizar Envio",
+      "action": "quoteForm"
+    },
+    "ctaSecondary": {
+      "text": "Nuestros Servicios",
+      "action": "scrollTo:services"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "alisado_capilar",
+  "nameEs": "Alisado Capilar",
+  "nameEn": "Hair Straightening",
+  "verticalId": "beauty-personal-care",
+  "extends": "peluqueria",
+  "tokens": "alisado_capilar",
+  "seo": {
+    "schemaType": "HairSalon",
+    "titleTemplate": "{{businessName}} - Alisado Capilar en {{city}}",
+    "descriptionTemplate": "Alisado profesional con keratina y tecnicas sin formol en {{city}}.",
+    "keywords": [
+      "alisado {{city}}",
+      "keratina {{city}}",
+      "botox capilar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cabello liso, sano y brilloso",
+    "subheadlineTemplate": "Alisado profesional con keratina y tecnicas sin formol en {{city}}."
+  },
+  "serviceCategories": [
+    "keratina",
+    "botox",
+    "progresiva"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pool_supply_store",
+  "nameEs": "Materiales Pileta",
+  "nameEn": "Pool Supply",
+  "verticalId": "retail-local",
+  "subVertical": "hardware-garden",
+  "extends": "retail_base",
+  "tokens": "pool_supply_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Materiales Pileta en {{city}}",
+    "descriptionTemplate": "Materiales Pileta profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "materiales pileta {{city}}",
+      "pool supply {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Materiales Pileta",
+    "subheadlineTemplate": "Materiales Pileta profesional en {{city}}."
+  }
+}

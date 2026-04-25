@@ -1,0 +1,22 @@
+{
+  "id": "private_investigator",
+  "nameEs": "Investigador Privado",
+  "nameEn": "Private Investigator",
+  "verticalId": "b2b-professional",
+  "subVertical": "investigations-security",
+  "extends": "professional_services_base",
+  "tokens": "private_investigator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Investigador Privado en {{city}}",
+    "descriptionTemplate": "Investigador Privado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "investigador privado {{city}}",
+      "private investigator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Investigador Privado",
+    "subheadlineTemplate": "Investigador Privado profesional en {{city}}."
+  }
+}

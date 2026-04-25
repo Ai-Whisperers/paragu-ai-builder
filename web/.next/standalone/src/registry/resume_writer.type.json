@@ -1,0 +1,22 @@
+{
+  "id": "resume_writer",
+  "nameEs": "Redactor de CV",
+  "nameEn": "Resume Writer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "writing-editorial",
+  "extends": "diseno_grafico",
+  "tokens": "resume_writer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Redactor de CV en {{city}}",
+    "descriptionTemplate": "Redactor de CV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "redactor de cv {{city}}",
+      "resume writer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Redactor de CV",
+    "subheadlineTemplate": "Redactor de CV profesional en {{city}}."
+  }
+}

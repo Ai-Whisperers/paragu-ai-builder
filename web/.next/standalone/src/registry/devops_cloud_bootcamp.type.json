@@ -1,0 +1,22 @@
+{
+  "id": "devops_cloud_bootcamp",
+  "nameEs": "Bootcamp DevOps",
+  "nameEn": "DevOps Bootcamp",
+  "verticalId": "education-training",
+  "subVertical": "tech-bootcamp",
+  "extends": "educacion",
+  "tokens": "devops_cloud_bootcamp",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Bootcamp DevOps en {{city}}",
+    "descriptionTemplate": "Bootcamp DevOps profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bootcamp devops {{city}}",
+      "devops bootcamp {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bootcamp DevOps",
+    "subheadlineTemplate": "Bootcamp DevOps profesional en {{city}}."
+  }
+}

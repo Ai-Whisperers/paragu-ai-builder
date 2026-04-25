@@ -1,0 +1,22 @@
+{
+  "id": "spin_cycling_studio",
+  "nameEs": "Estudio de Spinning",
+  "nameEn": "Cycling Studio",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "spin_cycling_studio",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Estudio de Spinning en {{city}}",
+    "descriptionTemplate": "Estudio de Spinning profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de spinning {{city}}",
+      "cycling studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Spinning",
+    "subheadlineTemplate": "Estudio de Spinning profesional en {{city}}."
+  }
+}

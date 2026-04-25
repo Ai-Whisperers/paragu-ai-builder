@@ -1,0 +1,22 @@
+{
+  "id": "kiteboarding_school",
+  "nameEs": "Escuela Kitesurf",
+  "nameEn": "Kiteboarding School",
+  "verticalId": "sports-recreation",
+  "subVertical": "water-sports",
+  "extends": "sports_base",
+  "tokens": "kiteboarding_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Kitesurf en {{city}}",
+    "descriptionTemplate": "Escuela Kitesurf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela kitesurf {{city}}",
+      "kiteboarding school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Kitesurf",
+    "subheadlineTemplate": "Escuela Kitesurf profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "long_term_care_insurance",
+  "nameEs": "Seguro Cuidado LP",
+  "nameEn": "LTC Insurance",
+  "verticalId": "finance-insurance",
+  "subVertical": "insurance-specialty",
+  "extends": "finance_insurance_base",
+  "tokens": "long_term_care_insurance",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Seguro Cuidado LP en {{city}}",
+    "descriptionTemplate": "Seguro Cuidado LP profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "seguro cuidado lp {{city}}",
+      "ltc insurance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Seguro Cuidado LP",
+    "subheadlineTemplate": "Seguro Cuidado LP profesional en {{city}}."
+  }
+}

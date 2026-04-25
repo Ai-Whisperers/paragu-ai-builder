@@ -1,0 +1,22 @@
+{
+  "id": "childrens_entertainer",
+  "nameEs": "Animador Infantil",
+  "nameEn": "Kids Entertainer",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "childrens_entertainer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Animador Infantil en {{city}}",
+    "descriptionTemplate": "Animador Infantil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "animador infantil {{city}}",
+      "kids entertainer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Animador Infantil",
+    "subheadlineTemplate": "Animador Infantil profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "eyelash_lift_tint_studio",
+  "nameEs": "Lifting de Pestanas",
+  "nameEn": "Lash Lift and Tint",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "makeup",
+  "extends": "beauty_base",
+  "tokens": "eyelash_lift_tint_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Lifting de Pestanas en {{city}}",
+    "descriptionTemplate": "Lifting de Pestanas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lifting de pestanas {{city}}",
+      "lash lift and tint {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lifting de Pestanas",
+    "subheadlineTemplate": "Lifting de Pestanas profesional en {{city}}."
+  }
+}

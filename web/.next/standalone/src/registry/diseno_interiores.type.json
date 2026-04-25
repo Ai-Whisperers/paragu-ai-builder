@@ -1,0 +1,26 @@
+{
+  "id": "diseno_interiores",
+  "nameEs": "Diseño de Interiores",
+  "nameEn": "Interior Design",
+  "verticalId": "portfolio-professional",
+  "extends": "diseno_grafico",
+  "tokens": "diseno_interiores",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Diseño de Interiores en {{city}}",
+    "descriptionTemplate": "Diseño interior residencial, comercial y gastronomico.",
+    "keywords": [
+      "diseño interiores {{city}}",
+      "decoracion interiores {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu espacio, tu personalidad",
+    "subheadlineTemplate": "Diseño interior residencial, comercial y gastronomico."
+  },
+  "serviceCategories": [
+    "residencial",
+    "comercial",
+    "gastronomico"
+  ]
+}

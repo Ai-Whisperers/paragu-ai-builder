@@ -1,0 +1,25 @@
+{
+  "id": "competitive_intelligence",
+  "nameEs": "Inteligencia Competitiva",
+  "nameEn": "Competitive Intel",
+  "verticalId": "b2b-professional",
+  "subVertical": "research-market",
+  "extends": "professional_services_base",
+  "tokens": "competitive_intelligence",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Inteligencia Competitiva en {{city}}",
+    "descriptionTemplate": "Inteligencia Competitiva profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "inteligencia competitiva {{city}}",
+      "competitive intel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Inteligencia Competitiva",
+    "subheadlineTemplate": "Inteligencia Competitiva profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

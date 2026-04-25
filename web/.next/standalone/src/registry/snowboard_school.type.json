@@ -1,0 +1,22 @@
+{
+  "id": "snowboard_school",
+  "nameEs": "Escuela Snowboard",
+  "nameEn": "Snowboard School",
+  "verticalId": "sports-recreation",
+  "subVertical": "winter-sports",
+  "extends": "sports_base",
+  "tokens": "snowboard_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Snowboard en {{city}}",
+    "descriptionTemplate": "Escuela Snowboard profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela snowboard {{city}}",
+      "snowboard school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Snowboard",
+    "subheadlineTemplate": "Escuela Snowboard profesional en {{city}}."
+  }
+}

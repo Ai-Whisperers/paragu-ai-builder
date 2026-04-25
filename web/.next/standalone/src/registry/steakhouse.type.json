@@ -1,0 +1,22 @@
+{
+  "id": "steakhouse",
+  "nameEs": "Steakhouse",
+  "nameEn": "Steakhouse",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "steakhouse",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Steakhouse en {{city}}",
+    "descriptionTemplate": "Steakhouse profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "steakhouse {{city}}",
+      "steakhouse {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Steakhouse",
+    "subheadlineTemplate": "Steakhouse profesional en {{city}}."
+  }
+}

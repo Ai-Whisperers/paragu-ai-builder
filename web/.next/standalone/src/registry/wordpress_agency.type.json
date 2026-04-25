@@ -1,0 +1,22 @@
+{
+  "id": "wordpress_agency",
+  "nameEs": "Agencia WordPress",
+  "nameEn": "WordPress Agency",
+  "verticalId": "technology-digital",
+  "subVertical": "web-digital-agency",
+  "extends": "technology_base",
+  "tokens": "wordpress_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia WordPress en {{city}}",
+    "descriptionTemplate": "Agencia WordPress profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia wordpress {{city}}",
+      "wordpress agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia WordPress",
+    "subheadlineTemplate": "Agencia WordPress profesional en {{city}}."
+  }
+}

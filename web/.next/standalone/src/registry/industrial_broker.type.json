@@ -1,0 +1,25 @@
+{
+  "id": "industrial_broker",
+  "nameEs": "Broker Industrial",
+  "nameEn": "Industrial Broker",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "commercial-brokerage",
+  "extends": "inmobiliaria",
+  "tokens": "industrial_broker",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Broker Industrial en {{city}}",
+    "descriptionTemplate": "Broker Industrial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "broker industrial {{city}}",
+      "industrial broker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Broker Industrial",
+    "subheadlineTemplate": "Broker Industrial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "defensive_driving_course",
+  "nameEs": "Manejo Defensivo",
+  "nameEn": "Defensive Driving",
+  "verticalId": "education-training",
+  "subVertical": "driving-school",
+  "extends": "educacion",
+  "tokens": "defensive_driving_course",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Manejo Defensivo en {{city}}",
+    "descriptionTemplate": "Manejo Defensivo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "manejo defensivo {{city}}",
+      "defensive driving {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Manejo Defensivo",
+    "subheadlineTemplate": "Manejo Defensivo profesional en {{city}}."
+  }
+}

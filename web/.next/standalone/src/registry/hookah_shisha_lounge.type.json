@@ -1,0 +1,25 @@
+{
+  "id": "hookah_shisha_lounge",
+  "nameEs": "Lounge de Narguile",
+  "nameEn": "Hookah Lounge",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "hookah_shisha_lounge",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Lounge de Narguile en {{city}}",
+    "descriptionTemplate": "Lounge de Narguile profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lounge de narguile {{city}}",
+      "hookah lounge {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lounge de Narguile",
+    "subheadlineTemplate": "Lounge de Narguile profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

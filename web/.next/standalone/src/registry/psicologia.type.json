@@ -1,0 +1,28 @@
+{
+  "id": "psicologia",
+  "nameEs": "Psicologia",
+  "nameEn": "Psychology",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "psicologia",
+  "seo": {
+    "schemaType": "Psychologist",
+    "titleTemplate": "{{businessName}} - Psicologia en {{city}}",
+    "descriptionTemplate": "Terapia individual, de pareja y familiar con enfoque humanista en {{city}}.",
+    "keywords": [
+      "psicologo {{city}}",
+      "terapia {{city}}",
+      "terapia pareja {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Un espacio para ti",
+    "subheadlineTemplate": "Terapia individual, de pareja y familiar con enfoque humanista en {{city}}."
+  },
+  "serviceCategories": [
+    "individual",
+    "pareja",
+    "familiar",
+    "online"
+  ]
+}

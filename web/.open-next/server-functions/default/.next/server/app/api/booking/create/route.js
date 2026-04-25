@@ -1,0 +1,12 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/booking/create/route.js")
+R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_02h4l1..js")
+R.c("server/chunks/[root-of-the-server]__0_4x1zs._.js")
+R.c("server/chunks/_02xok0h._.js")
+R.c("server/chunks/node_modules_next_11synfn._.js")
+R.c("server/chunks/node_modules_next_dist_09i6her._.js")
+R.c("server/chunks/node_modules_@supabase_supabase-js_dist_index_mjs_0hp37pu._.js")
+R.c("server/chunks/node_modules_next_124cnn1._.js")
+R.c("server/chunks/[root-of-the-server]__073nc53._.js")
+R.c("server/chunks/_next-internal_server_app_api_booking_create_route_actions_0zty04x.js")
+R.m(302740)
+module.exports=R.m(302740).exports

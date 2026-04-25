@@ -1,0 +1,22 @@
+{
+  "id": "rooftop_bar",
+  "nameEs": "Bar en Azotea",
+  "nameEn": "Rooftop Bar",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "rooftop_bar",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Bar en Azotea en {{city}}",
+    "descriptionTemplate": "Bar en Azotea profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bar en azotea {{city}}",
+      "rooftop bar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bar en Azotea",
+    "subheadlineTemplate": "Bar en Azotea profesional en {{city}}."
+  }
+}

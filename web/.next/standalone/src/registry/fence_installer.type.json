@@ -1,0 +1,22 @@
+{
+  "id": "fence_installer",
+  "nameEs": "Cercos",
+  "nameEn": "Fence Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "landscaping",
+  "extends": "trades_base",
+  "tokens": "fence_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Cercos en {{city}}",
+    "descriptionTemplate": "Cercos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cercos {{city}}",
+      "fence installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cercos",
+    "subheadlineTemplate": "Cercos profesional en {{city}}."
+  }
+}

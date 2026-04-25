@@ -1,0 +1,22 @@
+{
+  "id": "tiny_home_rental",
+  "nameEs": "Casa Tiny",
+  "nameEn": "Tiny Home Rental",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "short-term-rental",
+  "extends": "restaurant",
+  "tokens": "tiny_home_rental",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Casa Tiny en {{city}}",
+    "descriptionTemplate": "Casa Tiny profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "casa tiny {{city}}",
+      "tiny home rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Casa Tiny",
+    "subheadlineTemplate": "Casa Tiny profesional en {{city}}."
+  }
+}

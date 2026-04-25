@@ -1,0 +1,22 @@
+{
+  "id": "reptile_exotic_shop",
+  "nameEs": "Tienda Reptiles",
+  "nameEn": "Reptile Shop",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "reptile_exotic_shop",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Tienda Reptiles en {{city}}",
+    "descriptionTemplate": "Tienda Reptiles profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda reptiles {{city}}",
+      "reptile shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Reptiles",
+    "subheadlineTemplate": "Tienda Reptiles profesional en {{city}}."
+  }
+}

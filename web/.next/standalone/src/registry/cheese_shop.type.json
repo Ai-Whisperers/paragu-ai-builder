@@ -1,0 +1,22 @@
+{
+  "id": "cheese_shop",
+  "nameEs": "Queseria",
+  "nameEn": "Cheese Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "cheese_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Queseria en {{city}}",
+    "descriptionTemplate": "Queseria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "queseria {{city}}",
+      "cheese shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Queseria",
+    "subheadlineTemplate": "Queseria profesional en {{city}}."
+  }
+}

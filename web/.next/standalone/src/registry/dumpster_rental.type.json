@@ -1,0 +1,22 @@
+{
+  "id": "dumpster_rental",
+  "nameEs": "Alquiler Contenedores",
+  "nameEn": "Dumpster Rental",
+  "verticalId": "trades-industrial",
+  "subVertical": "recycling-waste",
+  "extends": "industrial_base",
+  "tokens": "dumpster_rental",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Alquiler Contenedores en {{city}}",
+    "descriptionTemplate": "Alquiler Contenedores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler contenedores {{city}}",
+      "dumpster rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Contenedores",
+    "subheadlineTemplate": "Alquiler Contenedores profesional en {{city}}."
+  }
+}

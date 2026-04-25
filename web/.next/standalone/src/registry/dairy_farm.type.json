@@ -1,0 +1,22 @@
+{
+  "id": "dairy_farm",
+  "nameEs": "Tambo",
+  "nameEn": "Dairy Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "livestock-ranch",
+  "extends": "agriculture_base",
+  "tokens": "dairy_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Tambo en {{city}}",
+    "descriptionTemplate": "Tambo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tambo {{city}}",
+      "dairy farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tambo",
+    "subheadlineTemplate": "Tambo profesional en {{city}}."
+  }
+}

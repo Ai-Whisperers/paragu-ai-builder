@@ -1,0 +1,22 @@
+{
+  "id": "self_service_dog_wash",
+  "nameEs": "Lavado Self Dog",
+  "nameEn": "Self Dog Wash",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-grooming",
+  "extends": "pets_base",
+  "tokens": "self_service_dog_wash",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Lavado Self Dog en {{city}}",
+    "descriptionTemplate": "Lavado Self Dog profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lavado self dog {{city}}",
+      "self dog wash {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lavado Self Dog",
+    "subheadlineTemplate": "Lavado Self Dog profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "onlyfans_creator_studio",
+  "nameEs": "Estudio Creador",
+  "nameEn": "Creator Studio",
+  "verticalId": "media-publishing",
+  "subVertical": "content-creator",
+  "extends": "media_base",
+  "tokens": "onlyfans_creator_studio",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Estudio Creador en {{city}}",
+    "descriptionTemplate": "Estudio Creador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio creador {{city}}",
+      "creator studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio Creador",
+    "subheadlineTemplate": "Estudio Creador profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

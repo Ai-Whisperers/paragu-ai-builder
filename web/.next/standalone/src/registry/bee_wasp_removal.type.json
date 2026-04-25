@@ -1,0 +1,22 @@
+{
+  "id": "bee_wasp_removal",
+  "nameEs": "Remocion Abejas",
+  "nameEn": "Bee Removal",
+  "verticalId": "trades-home-services",
+  "subVertical": "pest-control",
+  "extends": "trades_base",
+  "tokens": "bee_wasp_removal",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Remocion Abejas en {{city}}",
+    "descriptionTemplate": "Remocion Abejas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "remocion abejas {{city}}",
+      "bee removal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Remocion Abejas",
+    "subheadlineTemplate": "Remocion Abejas profesional en {{city}}."
+  }
+}

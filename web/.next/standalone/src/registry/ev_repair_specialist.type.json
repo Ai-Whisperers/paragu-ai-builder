@@ -1,0 +1,22 @@
+{
+  "id": "ev_repair_specialist",
+  "nameEs": "Taller EV",
+  "nameEn": "EV Repair",
+  "verticalId": "automotive",
+  "subVertical": "ev-hybrid",
+  "extends": "automotive_base",
+  "tokens": "ev_repair_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Taller EV en {{city}}",
+    "descriptionTemplate": "Taller EV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller ev {{city}}",
+      "ev repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller EV",
+    "subheadlineTemplate": "Taller EV profesional en {{city}}."
+  }
+}

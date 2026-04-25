@@ -1,0 +1,22 @@
+{
+  "id": "city_walking_tour",
+  "nameEs": "Tour a Pie",
+  "nameEn": "Walking Tour",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "city_walking_tour",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tour a Pie en {{city}}",
+    "descriptionTemplate": "Tour a Pie profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour a pie {{city}}",
+      "walking tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour a Pie",
+    "subheadlineTemplate": "Tour a Pie profesional en {{city}}."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "informatica_venta",
+  "nameEs": "Informatica / Computadoras",
+  "nameEn": "Computer Store",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "informatica_venta",
+  "seo": {
+    "schemaType": "ElectronicsStore",
+    "titleTemplate": "{{businessName}} - Informatica / Computadoras en {{city}}",
+    "descriptionTemplate": "Notebooks, PCs, accesorios, impresoras y servicio tecnico.",
+    "keywords": [
+      "informatica {{city}}",
+      "computadoras {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Equipos tecnologicos, asesoramiento experto",
+    "subheadlineTemplate": "Notebooks, PCs, accesorios, impresoras y servicio tecnico."
+  }
+}

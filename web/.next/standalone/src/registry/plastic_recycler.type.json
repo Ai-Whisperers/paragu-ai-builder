@@ -1,0 +1,22 @@
+{
+  "id": "plastic_recycler",
+  "nameEs": "Reciclador Plastico",
+  "nameEn": "Plastic Recycler",
+  "verticalId": "trades-industrial",
+  "subVertical": "recycling-waste",
+  "extends": "industrial_base",
+  "tokens": "plastic_recycler",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reciclador Plastico en {{city}}",
+    "descriptionTemplate": "Reciclador Plastico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reciclador plastico {{city}}",
+      "plastic recycler {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reciclador Plastico",
+    "subheadlineTemplate": "Reciclador Plastico profesional en {{city}}."
+  }
+}

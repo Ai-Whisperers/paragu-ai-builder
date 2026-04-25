@@ -1,0 +1,25 @@
+{
+  "id": "general_practice_lawyer",
+  "nameEs": "Abogado General",
+  "nameEn": "General Practice",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "general_practice_lawyer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Abogado General en {{city}}",
+    "descriptionTemplate": "Abogado General profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "abogado general {{city}}",
+      "general practice {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Abogado General",
+    "subheadlineTemplate": "Abogado General profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

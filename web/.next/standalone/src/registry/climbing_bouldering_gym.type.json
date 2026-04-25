@@ -1,0 +1,22 @@
+{
+  "id": "climbing_bouldering_gym",
+  "nameEs": "Gimnasio de Escalada",
+  "nameEn": "Climbing Gym",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "climbing_bouldering_gym",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Gimnasio de Escalada en {{city}}",
+    "descriptionTemplate": "Gimnasio de Escalada profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio de escalada {{city}}",
+      "climbing gym {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio de Escalada",
+    "subheadlineTemplate": "Gimnasio de Escalada profesional en {{city}}."
+  }
+}

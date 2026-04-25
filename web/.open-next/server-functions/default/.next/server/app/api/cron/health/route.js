@@ -1,0 +1,10 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/cron/health/route.js")
+R.c("server/chunks/[root-of-the-server]__04rvlww._.js")
+R.c("server/chunks/node_modules_next_11synfn._.js")
+R.c("server/chunks/[root-of-the-server]__0ei16f0._.js")
+R.c("server/chunks/[root-of-the-server]__073nc53._.js")
+R.c("server/chunks/node_modules_next_dist_09i6her._.js")
+R.c("server/chunks/_0t6d1j~._.js")
+R.c("server/chunks/_next-internal_server_app_api_cron_health_route_actions_0do.-jy.js")
+R.m(625528)
+module.exports=R.m(625528).exports

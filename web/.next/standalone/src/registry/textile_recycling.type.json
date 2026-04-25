@@ -1,0 +1,22 @@
+{
+  "id": "textile_recycling",
+  "nameEs": "Reciclaje Textil",
+  "nameEn": "Textile Recycling",
+  "verticalId": "trades-industrial",
+  "subVertical": "recycling-waste",
+  "extends": "industrial_base",
+  "tokens": "textile_recycling",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reciclaje Textil en {{city}}",
+    "descriptionTemplate": "Reciclaje Textil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reciclaje textil {{city}}",
+      "textile recycling {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reciclaje Textil",
+    "subheadlineTemplate": "Reciclaje Textil profesional en {{city}}."
+  }
+}
