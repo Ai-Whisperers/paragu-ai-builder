@@ -14,6 +14,46 @@
       "content": "home.hero"
     },
     {
+      "id": "services",
+      "variant": "grid",
+      "content": "home.services"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process"
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.trustSignals"
+    },
+    {
+      "id": "team",
+      "variant": "grid",
+      "content": "home.team"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "home.blog"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "standard",
+      "content": "home.cta"
+    },
+    {
       "id": "contact",
       "variant": "split",
       "content": "home.contact"

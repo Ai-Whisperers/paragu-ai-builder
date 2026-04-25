@@ -22,21 +22,180 @@
       "description": "Taller Mecanico profesional en Asunción. Servicios de calidad con atención personalizada."
     },
     "hero": {
-      "headline": "Demo Taller Mecanico Asunción - Taller Mecanico",
-      "subheadline": "Taller Mecanico profesional en Asunción.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Taller%20Mecanico%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Tu taller de confianza en Lambaré",
+      "subheadline": "Mecánica general, diagnóstico computarizado y reparación de todas las marcas",
+      "ctaPrimaryText": "Consultá tu reparación",
+      "ctaSecondaryText": "Nuestros servicios"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "general_auto_repair"
+      "title": "Contacto",
+      "subtitle": "Visitanos en Lambaré",
+      "address": "Av. Cacique Lambaré 890",
+      "city": "Lambaré",
+      "phone": "+595982345678",
+      "email": "taller@mecanicalambare.com.py",
+      "whatsapp": "+595982345678"
+    },
+    "promoBanner": {
+      "title": "🔧 Cambio de Aceite",
+      "subtitle": "Cambio de aceite + filtro por solo Gs. 120.000 (incluye mano de obra)",
+      "ctaText": "Agendar",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Mecánica integral para tu vehículo",
+      "items": [
+        {
+          "name": "Diagnóstico Computarizado",
+          "description": "Escaneo electrónico completo del vehículo",
+          "price": "Gs. 80.000",
+          "icon": "Monitor"
+        },
+        {
+          "name": "Cambio de Aceite",
+          "description": "Aceite sintético y filtro de calidad",
+          "price": "Gs. 120.000",
+          "icon": "Droplets"
+        },
+        {
+          "name": "Frenos",
+          "description": "Pastillas, discos, líquido de frenos y sistema completo",
+          "price": "Desde Gs. 150.000",
+          "icon": "CircleSlash"
+        },
+        {
+          "name": "Suspensión",
+          "description": "Amortiguadores, espirales y barra estabilizadora",
+          "price": "Consultar",
+          "icon": "Zap"
+        },
+        {
+          "name": "Motor",
+          "description": "Reparación general de motor, distribución y culata",
+          "price": "Consultar",
+          "icon": "Settings"
+        },
+        {
+          "name": "Aire Acondicionado",
+          "description": "Carga de gas, reparación de compresor y sistema completo",
+          "price": "Desde Gs. 200.000",
+          "icon": "Wind"
+        }
+      ]
+    },
+    "process": {
+      "title": "¿Cómo trabajamos?",
+      "steps": [
+        {
+          "title": "Diagnóstico",
+          "description": "Revisamos tu vehículo con escáner computarizado",
+          "icon": "Search"
+        },
+        {
+          "title": "Presupuesto",
+          "description": "Te explicamos el problema y el costo sin compromiso",
+          "icon": "FileText"
+        },
+        {
+          "title": "Aprobación",
+          "description": "Aprobás el presupuesto y agendamos la reparación",
+          "icon": "ThumbsUp"
+        },
+        {
+          "title": "Reparación",
+          "description": "Reparamos con repuestos originales y garantía",
+          "icon": "Wrench"
+        },
+        {
+          "title": "Control de calidad",
+          "description": "Probamos el vehículo antes de entregarlo",
+          "icon": "CheckCircle"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Diagnóstico gratis",
+        "Repuestos originales",
+        "Garantía escrita",
+        "Todas las marcas",
+        "Presupuesto sin cargo"
+      ]
+    },
+    "team": {
+      "title": "Nuestros mecánicos",
+      "subtitle": "Expertos en mecánica automotriz",
+      "items": [
+        {
+          "name": "Carlos Martínez",
+          "role": "Mecánico Senior",
+          "description": "20 años de experiencia en mecánica general"
+        },
+        {
+          "name": "Hugo Riquelme",
+          "role": "Electricista Automotriz",
+          "description": "Especialista en diagnóstico electrónico"
+        },
+        {
+          "name": "Sergio Benítez",
+          "role": "Mecánico de Motor",
+          "description": "Experto en reparación de motores nafteros y diésel"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Roberto A.",
+          "text": "Diagnóstico preciso, precio justo. Me resolvieron un problema que otro taller no pudo.",
+          "rating": 5
+        },
+        {
+          "name": "Luis F.",
+          "text": "Cambié frenos y suspensión. Todo impecable y con garantía.",
+          "rating": 5
+        },
+        {
+          "name": "Pedro C.",
+          "text": "El mejor taller de Lambaré. Trabajo serio y profesional.",
+          "rating": 5
+        }
+      ]
+    },
+    "emergency": {
+      "title": "Emergencias",
+      "description": "¿Problemas en la ruta? Llamanos y te asistimos",
+      "phone": "+595982345678",
+      "available24h": true
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿El diagnóstico tiene costo?",
+          "answer": "El diagnóstico básico es gratuito. El escaneo computarizado tiene un costo mínimo."
+        },
+        {
+          "question": "¿Usan repuestos originales?",
+          "answer": "Sí, trabajamos con repuestos originales y alternativos de calidad."
+        },
+        {
+          "question": "¿Atienden los sábados?",
+          "answer": "Sí, de 08:00 a 13:00. Emergencias todos los días."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "07:30 - 17:30",
+        "Sábado": "08:00 - 13:00",
+        "Domingo": "Cerrado (emergencias al WhatsApp)"
+      }
     }
   },
   "footer": {

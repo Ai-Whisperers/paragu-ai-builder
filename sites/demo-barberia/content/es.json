@@ -22,21 +22,204 @@
       "description": "Barberia en Lambare. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos."
     },
     "hero": {
-      "headline": "Demo Barberia Lambare - El Arte del Corte",
-      "subheadline": "Tradición y maestria en cada detalle",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Barberia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Estilo clásico, actitud moderna",
+      "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado clásico y grooming",
+      "ctaPrimaryText": "Reservá tu cita",
+      "ctaSecondaryText": "Ver servicios"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Lambare",
-      "formSource": "demo",
-      "demoRubro": "barberia"
+      "title": "Contacto",
+      "subtitle": "Visitanos en San Lorenzo",
+      "address": "Av. Defensores del Chaco 1450",
+      "city": "San Lorenzo",
+      "phone": "+595985123456",
+      "email": "info@barberiasanlorenzo.com.py",
+      "whatsapp": "+595985123456"
+    },
+    "promoBanner": {
+      "title": "🔥 Promo Semanal",
+      "subtitle": "Corte + Barba por solo Gs. 80.000 (lunes a jueves)",
+      "ctaText": "Reservar",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Cortes clásicos y modernos para el hombre actual",
+      "items": [
+        {
+          "name": "Corte Degradado",
+          "description": "Fade, taper, undercut — estilo americano o personalizado",
+          "price": "Gs. 50.000",
+          "icon": "Scissors"
+        },
+        {
+          "name": "Afeitado Clásico",
+          "description": "Afeitado con navaja, toalla caliente y productos premium",
+          "price": "Gs. 60.000",
+          "icon": "Heart"
+        },
+        {
+          "name": "Corte + Barba",
+          "description": "Combo completo de corte y perfilado de barba",
+          "price": "Gs. 80.000",
+          "icon": "Star"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "description": "Perfilado y recorte de barba con navaja",
+          "price": "Gs. 35.000",
+          "icon": "Feather"
+        },
+        {
+          "name": "Corte Infantil",
+          "description": "Corte para niños hasta 12 años",
+          "price": "Gs. 35.000",
+          "icon": "Zap"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "description": "Hidratación,keratina y productos para el cuidado del cabello",
+          "price": "Gs. 70.000",
+          "icon": "Droplets"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Navaja profesional",
+        "Productos importados",
+        "5 años de experiencia",
+        "Ambiente VIP",
+        "Estacionamiento"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestros cortes",
+      "subtitle": "Galería de estilos y degradados",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "",
+          "alt": "Degradado medio",
+          "caption": "Mid fade"
+        },
+        {
+          "src": "",
+          "alt": "Degradado alto",
+          "caption": "High fade"
+        },
+        {
+          "src": "",
+          "alt": "Barba perfilada",
+          "caption": "Arreglo de barba"
+        },
+        {
+          "src": "",
+          "alt": "Corte clásico",
+          "caption": "Corte ejecutivo"
+        },
+        {
+          "src": "",
+          "alt": "Degradado bajo",
+          "caption": "Low fade"
+        },
+        {
+          "src": "",
+          "alt": "Afeitado completo",
+          "caption": "Afeitado clásico"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestros barberos",
+      "subtitle": "Profesionales apasionados por el arte de la barbería",
+      "items": [
+        {
+          "name": "Miguel Ángel López",
+          "role": "Barbero Senior",
+          "description": "8 años de experiencia en cortes clásicos y modernos"
+        },
+        {
+          "name": "Jorge Ferreira",
+          "role": "Barbero Profesional",
+          "description": "Especialista en degradados y afeitado con navaja"
+        },
+        {
+          "name": "Diego Martínez",
+          "role": "Estilista",
+          "description": "Cortes infantiles y tratamientos capilares"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones de nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Andrés P.",
+          "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho.",
+          "rating": 5
+        },
+        {
+          "name": "Ricardo G.",
+          "text": "Afeitado clásico de otro nivel. La toalla caliente es un lujo.",
+          "rating": 5
+        },
+        {
+          "name": "Fernando D.",
+          "text": "Excelente atención y precios accesibles. Mi barbería de confianza.",
+          "rating": 5
+        },
+        {
+          "name": "Luis M.",
+          "text": "Gran ambiente, música buena y profesionales. Recomendado!",
+          "rating": 4
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu cita",
+      "subtitle": "Elegí el servicio y te esperamos",
+      "phone": "+595985123456",
+      "services": [
+        "Corte degradado",
+        "Afeitado clásico",
+        "Corte + Barba",
+        "Arreglo de barba",
+        "Corte infantil"
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, aceptamos efectivo, transferencia y tarjetas de crédito/débito."
+        },
+        {
+          "question": "¿Atienden sin cita previa?",
+          "answer": "Sí, pero recomendamos reservar para evitar esperas."
+        },
+        {
+          "question": "¿Cuánto dura un servicio?",
+          "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50 minutos."
+        },
+        {
+          "question": "¿Hacen cortes a domicilio?",
+          "answer": "Sí, para eventos y grupos grandes ofrecemos servicio a domicilio."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00",
+        "Domingo": "Cerrado"
+      }
     }
   },
   "footer": {

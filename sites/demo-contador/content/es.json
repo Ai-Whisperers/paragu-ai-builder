@@ -22,21 +22,187 @@
       "description": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción."
     },
     "hero": {
-      "headline": "Demo Contador Asunción - Tus numeros en buenas manos",
-      "subheadline": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Contador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Tu estudio contable de confianza",
+      "subheadline": "Contabilidad general, impuestos, auditoría y asesoría financiera en Asunción",
+      "ctaPrimaryText": "Agendá una cita",
+      "ctaSecondaryText": "Servicios"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
+      "title": "Contacto",
+      "subtitle": "Oficina en Asunción",
+      "address": "Eusebio Ayala 2345",
       "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "contador"
+      "phone": "+595981234567",
+      "email": "estudio@contadorespy.com.py",
+      "whatsapp": "+595981234567"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Soluciones profesionales para tu negocio",
+      "items": [
+        {
+          "name": "Contabilidad General",
+          "description": "Llevamos tu contabilidad al día",
+          "icon": "BookOpen"
+        },
+        {
+          "name": "Liquidación de Impuestos",
+          "description": "IVA, IRP, IRACIS y demás impuestos",
+          "icon": "FileText"
+        },
+        {
+          "name": "Auditoría",
+          "description": "Auditoría financiera y de cumplimiento",
+          "icon": "Search"
+        },
+        {
+          "name": "Financiero",
+          "description": "Estados financieros y análisis de resultados",
+          "icon": "TrendingUp"
+        },
+        {
+          "name": "Sueldos y Jornales",
+          "description": "Liquidación de sueldos, IPS y cargas sociales",
+          "icon": "Users"
+        },
+        {
+          "name": "Constitución de Empresas",
+          "description": "Asesoría legal y contable para emprender",
+          "icon": "Building"
+        }
+      ]
+    },
+    "process": {
+      "title": "¿Cómo trabajamos?",
+      "steps": [
+        {
+          "title": "Diagnóstico",
+          "description": "Entendemos tu situación y necesidades",
+          "icon": "Search"
+        },
+        {
+          "title": "Propuesta",
+          "description": "Te presentamos un plan de trabajo personalizado",
+          "icon": "FileText"
+        },
+        {
+          "title": "Ejecución",
+          "description": "Implementamos las soluciones con equipo profesional",
+          "icon": "Zap"
+        },
+        {
+          "title": "Seguimiento",
+          "description": "Acompañamiento continuo y ajustes según resultados",
+          "icon": "RefreshCw"
+        }
+      ]
+    },
+    "trustSignals": {
+      "title": "Por qué elegirnos",
+      "items": [
+        {
+          "title": "+10 años",
+          "description": "de experiencia en el mercado paraguayo"
+        },
+        {
+          "title": "+200 clientes",
+          "description": "satisfechos en todo el país"
+        },
+        {
+          "title": "Equipo certificado",
+          "description": "profesionales con formación internacional"
+        },
+        {
+          "title": "Resultados garantizados",
+          "description": "medición de impacto y mejora continua"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales a tu servicio",
+      "items": [
+        {
+          "name": "Lic. Roberto Vargas",
+          "role": "Director",
+          "description": "15 años de experiencia en el rubro"
+        },
+        {
+          "name": "Lic. María Torres",
+          "role": "Senior Consultant",
+          "description": "Especialista en gestión empresarial"
+        },
+        {
+          "name": "Ing. Diego Rivas",
+          "role": "Consultor Técnico",
+          "description": "Experto en transformación digital"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Empresa ABC S.A.",
+          "text": "Profesionales, responsables y con resultados medibles. Muy recomendados.",
+          "rating": 5
+        },
+        {
+          "name": "Grupo XYZ",
+          "text": "Nos ayudaron a optimizar procesos y reducir costos significativamente.",
+          "rating": 5
+        },
+        {
+          "name": "Comercial del Este",
+          "text": "Equipo altamente capacitado. Superaron nuestras expectativas.",
+          "rating": 5
+        }
+      ]
+    },
+    "blog": {
+      "title": "Recursos y novedades",
+      "items": [
+        {
+          "title": "Guía de impuestos 2026",
+          "slug": "guia-impuestos-2026",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "Tendencias del sector",
+          "slug": "tendencias-sector",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "Casos de éxito",
+          "slug": "casos-exito",
+          "date": "2026-03-25"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto cuesta una consultoría?",
+          "answer": "Depende del alcance. Ofrecemos una primera reunión gratuita para evaluar."
+        },
+        {
+          "question": "¿Trabajan con empresas de todo tamaño?",
+          "answer": "Sí, desde emprendedores hasta grandes empresas."
+        },
+        {
+          "question": "¿Ofrecen servicios online?",
+          "answer": "Sí, atención virtual y presencial."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para empezar?",
+      "subtitle": "Contactanos hoy y recibí una primera consulta gratuita",
+      "ctaText": "Contactar ahora",
+      "ctaLink": "https://wa.me/595981234567",
+      "backgroundColor": "primary"
     }
   },
   "footer": {

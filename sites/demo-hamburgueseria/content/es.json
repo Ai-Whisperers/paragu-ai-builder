@@ -22,21 +22,225 @@
       "description": "Hamburguesas artesanales con carne 100% de calidad en Fernando de la Mora."
     },
     "hero": {
-      "headline": "Demo Hamburgueseria Fernando de la Mora - Hamburguesas smash, papas crispy",
-      "subheadline": "Hamburguesas artesanales con carne 100% de calidad en Fernando de la Mora.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Hamburgueseria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Las mejores hamburguesas de Asunción",
+      "subheadline": "100% carne angus, pan artesanal, ingredientes frescos. Delivery a toda la ciudad",
+      "ctaPrimaryText": "Pedí ahora",
+      "ctaSecondaryText": "Ver menú"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Fernando de la Mora",
-      "formSource": "demo",
-      "demoRubro": "hamburgueseria"
+      "title": "Contacto",
+      "subtitle": "Visitános o pedí delivery",
+      "address": "Av. Santísimo Sacramento 123",
+      "city": "Asunción",
+      "phone": "+595981456789",
+      "email": "pedidos@hamburgueseriapy.com.py",
+      "whatsapp": "+595981456789"
+    },
+    "promoBanner": {
+      "title": "🍔 Combos Felices",
+      "subtitle": "Lunes a Jueves: Hamburguesa + Papas + Bebida = Gs. 35.000",
+      "ctaText": "Aprovechar",
+      "dismissible": true
+    },
+    "menu": {
+      "title": "Nuestro menú",
+      "subtitle": "Hamburguesas artesanales con ingredientes seleccionados",
+      "categories": [
+        {
+          "name": "Hamburguesas Clásicas",
+          "items": [
+            {
+              "name": "Clásica",
+              "description": "Carne 150g, lechuga, tomate, cebolla",
+              "price": "Gs. 25.000"
+            },
+            {
+              "name": "Cheese",
+              "description": "Doble queso cheddar, carne 150g",
+              "price": "Gs. 28.000"
+            },
+            {
+              "name": "BBQ",
+              "description": "Salsa BBQ, aros de cebolla, bacon",
+              "price": "Gs. 32.000"
+            }
+          ]
+        },
+        {
+          "name": "Hamburguesas Especiales",
+          "items": [
+            {
+              "name": "Criolla",
+              "description": "Carne 200g, queso paraguayo, locote, huevo",
+              "price": "Gs. 35.000"
+            },
+            {
+              "name": "Texana",
+              "description": "Doble carne, cheddar, bacon, jalapeño",
+              "price": "Gs. 38.000"
+            },
+            {
+              "name": "BBQ",
+              "description": "Salsa BBQ, aros de cebolla, bacon, cheddar",
+              "price": "Gs. 32.000"
+            },
+            {
+              "name": "Veggie",
+              "description": "Medallón de lentejas, quinoa, vegetales asados",
+              "price": "Gs. 30.000"
+            }
+          ]
+        },
+        {
+          "name": "Guarniciones",
+          "items": [
+            {
+              "name": "Papas fritas",
+              "price": "Gs. 10.000"
+            },
+            {
+              "name": "Aros de cebolla",
+              "price": "Gs. 12.000"
+            },
+            {
+              "name": "Papas cheddar y bacon",
+              "price": "Gs. 15.000"
+            },
+            {
+              "name": "Ensalada fresca",
+              "price": "Gs. 10.000"
+            }
+          ]
+        },
+        {
+          "name": "Bebidas",
+          "items": [
+            {
+              "name": "Gaseosa 500ml",
+              "price": "Gs. 5.000"
+            },
+            {
+              "name": "Gaseosa 1.5L",
+              "price": "Gs. 8.000"
+            },
+            {
+              "name": "Agua mineral",
+              "price": "Gs. 3.000"
+            },
+            {
+              "name": "Cerveza importada",
+              "price": "Gs. 10.000"
+            }
+          ]
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Carne 100% angus",
+        "Pan artesanal",
+        "Ingredientes frescos",
+        "Delivery gratis +50K",
+        "Preparación al instante"
+      ]
+    },
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "Mirá lo que ofrecemos",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "",
+          "alt": "Hamburguesa clásica",
+          "caption": "Clásica"
+        },
+        {
+          "src": "",
+          "alt": "Criolla",
+          "caption": "Hamburguesa criolla"
+        },
+        {
+          "src": "",
+          "alt": "Papas",
+          "caption": "Papas cheddar y bacon"
+        },
+        {
+          "src": "",
+          "alt": "Texana",
+          "caption": "Texana doble carne"
+        },
+        {
+          "src": "",
+          "alt": "Veggie",
+          "caption": "Opción vegetariana"
+        },
+        {
+          "src": "",
+          "alt": "Combos",
+          "caption": "Combo completo"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Juan P.",
+          "text": "La mejor hamburguesa de Asunción. La criolla es espectacular!",
+          "rating": 5
+        },
+        {
+          "name": "Marta G.",
+          "text": "Rápido, rico y precio justo. Delivery en tiempo récord.",
+          "rating": 5
+        },
+        {
+          "name": "Pedro L.",
+          "text": "La veggie me sorprendió. Muy sabrosa y bien preparada.",
+          "rating": 5
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Delivery",
+      "subtitle": "Zonas de entrega",
+      "zones": [
+        "Asunción centro",
+        "Asunción barrios",
+        "San Lorenzo",
+        "Fernando de la Mora"
+      ],
+      "freeThreshold": 50000,
+      "deliveryFee": 5000,
+      "minimumOrder": 20000,
+      "estimatedTime": "20-35 min"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto tarda el delivery?",
+          "answer": "Entre 20 y 35 minutos dependiendo de la zona."
+        },
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, efectivo, transferencia y tarjetas de crédito/débito."
+        },
+        {
+          "question": "¿Tienen opciones sin TACC?",
+          "answer": "Sí, consultá por opciones sin gluten en nuestro menú."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Jueves": "11:00 - 23:00",
+        "Viernes y Sábado": "11:00 - 01:00",
+        "Domingo": "Cerrado"
+      }
     }
   },
   "footer": {

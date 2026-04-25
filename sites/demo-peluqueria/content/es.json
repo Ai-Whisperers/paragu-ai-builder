@@ -22,21 +22,218 @@
       "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar."
     },
     "hero": {
-      "headline": "Demo Peluqueria Asunción - Tu Mejor Look en Asunción",
-      "subheadline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Peluqueria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Tu estilo, nuestra pasión",
+      "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Conocé nuestros servicios"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
+      "title": "Contacto",
+      "subtitle": "Estamos en el centro de Asunción",
+      "address": "Palma 550 c/ 15 de Agosto",
       "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "peluqueria"
+      "phone": "+595981654321",
+      "email": "contacto@peluqueriacentro.com.py",
+      "whatsapp": "+595981654321"
+    },
+    "promoBanner": {
+      "title": "🎉 Promoción de Lanzamiento",
+      "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo lo que necesitás para lucir espectacular",
+      "items": [
+        {
+          "name": "Corte de Cabello",
+          "description": "Corte moderno y personalizado para damas y caballeros",
+          "price": "Gs. 60.000",
+          "icon": "Scissors"
+        },
+        {
+          "name": "Coloración",
+          "description": "Tintura, mechas, balayage y reflejos con productos profesionales",
+          "price": "Gs. 150.000",
+          "icon": "Palette"
+        },
+        {
+          "name": "Tratamientos Capilares",
+          "description": "Botox capilar, keratina, hidratación profunda y reconstrucción",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Peinados",
+          "description": "Peinados para eventos, fiestas, bodas y ocasiones especiales",
+          "price": "Gs. 80.000",
+          "icon": "Feather"
+        },
+        {
+          "name": "Manicura y Pedicura",
+          "description": "Cuidado profesional de uñas con esmaltado tradicional o semipermanente",
+          "price": "Gs. 70.000",
+          "icon": "Hand"
+        },
+        {
+          "name": "Cepillado y Alisado",
+          "description": "Cepillado con keratina, alisado permanente y planchita",
+          "price": "Gs. 90.000",
+          "icon": "Wind"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos profesionales",
+        "10 años de experiencia",
+        "Ambiente climatizado",
+        "Estacionamiento gratis",
+        "Resultados garantizados"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestros trabajos",
+      "subtitle": "Transformaciones reales de nuestros clientes",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "",
+          "alt": "Corte moderno",
+          "caption": "Corte y coloración"
+        },
+        {
+          "src": "",
+          "alt": "Mechas balayage",
+          "caption": "Balayage dorado"
+        },
+        {
+          "src": "",
+          "alt": "Peinado boda",
+          "caption": "Peinado para novia"
+        },
+        {
+          "src": "",
+          "alt": "Botox capilar",
+          "caption": "Botox capilar"
+        },
+        {
+          "src": "",
+          "alt": "Manicura",
+          "caption": "Manicura semipermanente"
+        },
+        {
+          "src": "",
+          "alt": "Corte caballero",
+          "caption": "Corte degradado"
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Profesionales apasionados por tu belleza",
+      "items": [
+        {
+          "name": "María González",
+          "role": "Directora y Estilista Senior",
+          "description": "10 años de experiencia en cortes y coloración"
+        },
+        {
+          "name": "Carlos Benítez",
+          "role": "Barbero Profesional",
+          "description": "Especialista en cortes masculinos y degradados"
+        },
+        {
+          "name": "Ana Martínez",
+          "role": "Colorista",
+          "description": "Experta en balayage, mechas y tintura"
+        },
+        {
+          "name": "Laura Silva",
+          "role": "Manicurista",
+          "description": "Diseño de uñas y nail art"
+        },
+        {
+          "name": "Pedro Ramírez",
+          "role": "Estilista",
+          "description": "Peinados para eventos y ocasiones especiales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Sofía L.",
+          "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!",
+          "rating": 5
+        },
+        {
+          "name": "Marcos A.",
+          "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto.",
+          "rating": 5
+        },
+        {
+          "name": "Lucía R.",
+          "text": "Me hicieron un balayage espectacular. Volveré sin dudas.",
+          "rating": 5
+        },
+        {
+          "name": "Jorge P.",
+          "text": "Ambiente agradable, profesionales y precios accesibles. 10/10",
+          "rating": 4
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "phone": "+595981654321",
+      "services": [
+        "Corte",
+        "Coloración",
+        "Tratamiento",
+        "Peinado",
+        "Manicura"
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas de crédito?",
+          "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "question": "¿Cuánto dura un servicio de coloración?",
+          "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas."
+        },
+        {
+          "question": "¿Hacen peinados a domicilio?",
+          "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional."
+        },
+        {
+          "question": "¿Usan productos profesionales?",
+          "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado."
+        },
+        {
+          "question": "¿Cómo puedo reservar un turno?",
+          "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00",
+        "Domingo": "Cerrado"
+      }
     }
   },
   "footer": {

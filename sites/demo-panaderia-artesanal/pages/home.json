@@ -14,9 +14,49 @@
       "content": "home.hero"
     },
     {
+      "id": "promo-banner",
+      "variant": "standard",
+      "content": "home.promoBanner"
+    },
+    {
+      "id": "services",
+      "variant": "grid",
+      "content": "home.services"
+    },
+    {
+      "id": "menu-categorized-priced",
+      "variant": "categorized",
+      "content": "home.menu"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "delivery-calculator",
+      "variant": "standard",
+      "content": "home.delivery"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
       "id": "contact",
       "variant": "split",
       "content": "home.contact"
+    },
+    {
+      "id": "open-hours-status",
+      "variant": "standard",
+      "content": "home.hours"
     },
     {
       "id": "footer",

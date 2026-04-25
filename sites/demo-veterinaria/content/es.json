@@ -22,21 +22,205 @@
       "description": "Atencion veterinaria integral en Asunción. Consultas, vacunas, cirugias y emergencias 24h."
     },
     "hero": {
-      "headline": "Demo Veterinaria Asunción - Cuidamos a tu mejor amigo",
-      "subheadline": "Atencion veterinaria integral en Asunción con emergencia 24 horas",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Veterinaria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Cuidamos a tu mascota como si fuera nuestra",
+      "subheadline": "Veterinaria en San Lorenzo con profesionales capacitados y equipos modernos",
+      "ctaPrimaryText": "Reservá tu consulta",
+      "ctaSecondaryText": "Nuestros servicios"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "veterinaria"
+      "title": "Contacto",
+      "subtitle": "Visitanos en San Lorenzo",
+      "address": "Ruta 2 Km 12, Barrio San Isidro",
+      "city": "San Lorenzo",
+      "phone": "+595985456789",
+      "email": "contacto@veterinariasanlorenzo.com.py",
+      "whatsapp": "+595985456789"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Atención veterinaria completa",
+      "items": [
+        {
+          "name": "Consultas generales",
+          "description": "Atención clínica integral para perros y gatos",
+          "price": "Gs. 60.000",
+          "icon": "Heart"
+        },
+        {
+          "name": "Vacunación",
+          "description": "Plan de vacunación completo para tu mascota",
+          "price": "Desde Gs. 40.000",
+          "icon": "Syringe"
+        },
+        {
+          "name": "Cirugías",
+          "description": "Castraciones, esterilizaciones y cirugías generales",
+          "price": "Consultar",
+          "icon": "Hospital"
+        },
+        {
+          "name": "Laboratorio",
+          "description": "Análisis clínicos, estudios de sangre y orina",
+          "price": "Desde Gs. 50.000",
+          "icon": "Microscope"
+        },
+        {
+          "name": "Peluquería canina",
+          "description": "Baño, corte y cuidado estético para tu mascota",
+          "price": "Gs. 80.000",
+          "icon": "Scissors"
+        },
+        {
+          "name": "Emergencias",
+          "description": "Atención de urgencias veterinarias 24/7",
+          "price": "Consultar",
+          "icon": "Ambulance"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Profesionales certificados",
+        "Laboratorio propio",
+        "Equipos modernos",
+        "Emergencias 24/7",
+        "Amor por los animales"
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Veterinarios apasionados por los animales",
+      "items": [
+        {
+          "name": "Dr. Roberto Giménez",
+          "role": "Veterinario Senior",
+          "description": "15 años de experiencia en clínica de pequeños animales"
+        },
+        {
+          "name": "Dra. Patricia Duarte",
+          "role": "Veterinaria Cirujana",
+          "description": "Especialista en cirugía de tejidos blandos"
+        },
+        {
+          "name": "Dr. Miguel Ávalos",
+          "role": "Veterinario Clínico",
+          "description": "Atención general, vacunación y medicina preventiva"
+        },
+        {
+          "name": "Laura Martínez",
+          "role": "Peluquera Canina",
+          "description": "Estética y bienestar animal"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Ana R.",
+          "text": "Atendieron a mi perro de emergencia un domingo. Excelente atención.",
+          "rating": 5
+        },
+        {
+          "name": "Pedro G.",
+          "text": "La mejor veterinaria de San Lorenzo. Precios accesibles y buen trato.",
+          "rating": 5
+        },
+        {
+          "name": "Sofía M.",
+          "text": "Castraron a mi gata y todo salió perfecto. Muy recomendados.",
+          "rating": 5
+        },
+        {
+          "name": "Jorge L.",
+          "text": "El servicio de peluquería es excelente. Mi perro sale feliz.",
+          "rating": 4
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Nuestras instalaciones",
+      "subtitle": "Conocé nuestro consultorio",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "",
+          "alt": "Consultorio",
+          "caption": "Consultorio principal"
+        },
+        {
+          "src": "",
+          "alt": "Quirófano",
+          "caption": "Quirófano equipado"
+        },
+        {
+          "src": "",
+          "alt": "Laboratorio",
+          "caption": "Laboratorio propio"
+        },
+        {
+          "src": "",
+          "alt": "Peluquería",
+          "caption": "Área de peluquería"
+        },
+        {
+          "src": "",
+          "alt": "Recepción",
+          "caption": "Sala de espera"
+        },
+        {
+          "src": "",
+          "alt": "Farmacia",
+          "caption": "Farmacia veterinaria"
+        }
+      ]
+    },
+    "blog": {
+      "title": "Tips para tu mascota",
+      "items": [
+        {
+          "title": "Cuándo vacunar a tu perro",
+          "slug": "cuando-vacunar-perro",
+          "date": "2026-04-18"
+        },
+        {
+          "title": "Alimentación saludable para gatos",
+          "slug": "alimentacion-gatos",
+          "date": "2026-04-12"
+        },
+        {
+          "title": "Señales de alerta en tu mascota",
+          "slug": "senales-alerta-mascota",
+          "date": "2026-04-05"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Atienden emergencias?",
+          "answer": "Sí, emergencias 24/7 los 365 días del año."
+        },
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, efectivo, transferencia y todas las tarjetas."
+        },
+        {
+          "question": "¿Tienen servicio de guardería?",
+          "answer": "Sí, ofrecemos guardería diurna y hospedaje."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "08:00 - 19:00",
+        "Sábado": "08:00 - 16:00",
+        "Domingo": "Emergencias 24h"
+      }
     }
   },
   "footer": {
