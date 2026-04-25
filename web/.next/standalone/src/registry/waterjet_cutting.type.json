@@ -1,0 +1,25 @@
+{
+  "id": "waterjet_cutting",
+  "nameEs": "Corte Agua",
+  "nameEn": "Waterjet Cutting",
+  "verticalId": "trades-industrial",
+  "subVertical": "machining-fabrication",
+  "extends": "industrial_base",
+  "tokens": "waterjet_cutting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Corte Agua en {{city}}",
+    "descriptionTemplate": "Corte Agua profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "corte agua {{city}}",
+      "waterjet cutting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Corte Agua",
+    "subheadlineTemplate": "Corte Agua profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

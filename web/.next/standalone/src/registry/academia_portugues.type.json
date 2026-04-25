@@ -1,0 +1,21 @@
+{
+  "id": "academia_portugues",
+  "nameEs": "Portugues",
+  "nameEn": "Portuguese School",
+  "verticalId": "education-training",
+  "extends": "academia_idiomas",
+  "tokens": "academia_portugues",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Portugues en {{city}}",
+    "descriptionTemplate": "Cursos de portugues de Brasil y Portugal, todos los niveles.",
+    "keywords": [
+      "portugues {{city}}",
+      "clases portugues {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Portugues para viajar, trabajar y vivir",
+    "subheadlineTemplate": "Cursos de portugues de Brasil y Portugal, todos los niveles."
+  }
+}

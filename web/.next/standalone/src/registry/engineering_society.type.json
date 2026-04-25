@@ -1,0 +1,25 @@
+{
+  "id": "engineering_society",
+  "nameEs": "Sociedad Ingenieros",
+  "nameEn": "Engineering Society",
+  "verticalId": "membership-community",
+  "subVertical": "professional-society",
+  "extends": "membership_base",
+  "tokens": "engineering_society",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Sociedad Ingenieros en {{city}}",
+    "descriptionTemplate": "Sociedad Ingenieros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sociedad ingenieros {{city}}",
+      "engineering society {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sociedad Ingenieros",
+    "subheadlineTemplate": "Sociedad Ingenieros profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

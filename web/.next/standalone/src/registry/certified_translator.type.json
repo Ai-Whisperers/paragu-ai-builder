@@ -1,0 +1,25 @@
+{
+  "id": "certified_translator",
+  "nameEs": "Traductor Publico",
+  "nameEn": "Certified Translator",
+  "verticalId": "b2b-professional",
+  "subVertical": "translation-localization",
+  "extends": "professional_services_base",
+  "tokens": "certified_translator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Traductor Publico en {{city}}",
+    "descriptionTemplate": "Traductor Publico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "traductor publico {{city}}",
+      "certified translator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Traductor Publico",
+    "subheadlineTemplate": "Traductor Publico profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

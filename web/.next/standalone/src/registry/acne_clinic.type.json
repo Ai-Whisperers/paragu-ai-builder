@@ -1,0 +1,22 @@
+{
+  "id": "acne_clinic",
+  "nameEs": "Clinica del Acne",
+  "nameEn": "Acne Clinic",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "skin-aesthetic",
+  "extends": "beauty_base",
+  "tokens": "acne_clinic",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Clinica del Acne en {{city}}",
+    "descriptionTemplate": "Clinica del Acne profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica del acne {{city}}",
+      "acne clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica del Acne",
+    "subheadlineTemplate": "Clinica del Acne profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "childrens_hair_salon",
+  "nameEs": "Peluqueria Infantil",
+  "nameEn": "Kids Hair Salon",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "childrens_hair_salon",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Peluqueria Infantil en {{city}}",
+    "descriptionTemplate": "Peluqueria Infantil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "peluqueria infantil {{city}}",
+      "kids hair salon {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Peluqueria Infantil",
+    "subheadlineTemplate": "Peluqueria Infantil profesional en {{city}}."
+  }
+}

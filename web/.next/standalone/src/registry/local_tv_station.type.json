@@ -1,0 +1,25 @@
+{
+  "id": "local_tv_station",
+  "nameEs": "TV Local",
+  "nameEn": "Local TV",
+  "verticalId": "media-publishing",
+  "subVertical": "local-news",
+  "extends": "media_base",
+  "tokens": "local_tv_station",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - TV Local en {{city}}",
+    "descriptionTemplate": "TV Local profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tv local {{city}}",
+      "local tv {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - TV Local",
+    "subheadlineTemplate": "TV Local profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

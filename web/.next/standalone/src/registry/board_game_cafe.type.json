@@ -1,0 +1,22 @@
+{
+  "id": "board_game_cafe",
+  "nameEs": "Cafe Juegos Mesa",
+  "nameEn": "Board Game Cafe",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "escape-room-arcade",
+  "extends": "entertainment_base",
+  "tokens": "board_game_cafe",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Cafe Juegos Mesa en {{city}}",
+    "descriptionTemplate": "Cafe Juegos Mesa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cafe juegos mesa {{city}}",
+      "board game cafe {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cafe Juegos Mesa",
+    "subheadlineTemplate": "Cafe Juegos Mesa profesional en {{city}}."
+  }
+}

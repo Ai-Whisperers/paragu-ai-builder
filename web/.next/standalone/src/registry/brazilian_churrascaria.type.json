@@ -1,0 +1,22 @@
+{
+  "id": "brazilian_churrascaria",
+  "nameEs": "Churrascaria",
+  "nameEn": "Churrascaria",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "brazilian_churrascaria",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Churrascaria en {{city}}",
+    "descriptionTemplate": "Churrascaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "churrascaria {{city}}",
+      "churrascaria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Churrascaria",
+    "subheadlineTemplate": "Churrascaria profesional en {{city}}."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "investment_visa",
+  "nameEs": "Visa de Inversion",
+  "nameEn": "Investment Visa",
+  "verticalId": "real-estate-relocation",
+  "extends": "relocation",
+  "tokens": "investment_visa",
+  "seo": {
+    "schemaType": "Attorney",
+    "titleTemplate": "{{businessName}} - Visa de Inversion en {{city}}",
+    "descriptionTemplate": "Programas de residencia por inversion en Paraguay: simple, rapido, legal.",
+    "keywords": [
+      "visa inversion paraguay",
+      "residencia inversionista paraguay",
+      "suace paraguay"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu inversion, tu residencia",
+    "subheadlineTemplate": "Programas de residencia por inversion en Paraguay: simple, rapido, legal."
+  },
+  "serviceCategories": [
+    "programa",
+    "acompanamiento",
+    "familia"
+  ]
+}

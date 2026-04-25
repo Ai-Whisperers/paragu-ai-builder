@@ -1,0 +1,24 @@
+{
+  "id": "voice_over_studio",
+  "nameEs": "Estudio de Locucion",
+  "nameEn": "Voice-Over Studio",
+  "verticalId": "portfolio-professional",
+  "subVertical": "music-audio",
+  "extends": "diseno_grafico",
+  "tokens": "voice_over_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Estudio de Locucion en {{city}}",
+    "descriptionTemplate": "Locucion comercial, institucional y de personajes en {{city}}. Estudio profesional, entregas en 48hs, voces en espanol y guarani.",
+    "keywords": [
+      "locucion comercial {{city}}",
+      "voice over {{city}}",
+      "estudio grabacion voz {{neighborhood}}",
+      "locutor publicidad {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Locucion",
+    "subheadlineTemplate": "Locucion profesional en espanol y guarani, entregas en 48hs. {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "surf_school",
+  "nameEs": "Escuela Surf",
+  "nameEn": "Surf School",
+  "verticalId": "sports-recreation",
+  "subVertical": "water-sports",
+  "extends": "sports_base",
+  "tokens": "surf_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Surf en {{city}}",
+    "descriptionTemplate": "Escuela Surf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela surf {{city}}",
+      "surf school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Surf",
+    "subheadlineTemplate": "Escuela Surf profesional en {{city}}."
+  }
+}

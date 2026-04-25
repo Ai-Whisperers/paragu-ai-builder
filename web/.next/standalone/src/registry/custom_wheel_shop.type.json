@@ -1,0 +1,22 @@
+{
+  "id": "custom_wheel_shop",
+  "nameEs": "Llantas Personalizadas",
+  "nameEn": "Custom Wheel Shop",
+  "verticalId": "automotive",
+  "subVertical": "specialty-service",
+  "extends": "automotive_base",
+  "tokens": "custom_wheel_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Llantas Personalizadas en {{city}}",
+    "descriptionTemplate": "Llantas Personalizadas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "llantas personalizadas {{city}}",
+      "custom wheel shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Llantas Personalizadas",
+    "subheadlineTemplate": "Llantas Personalizadas profesional en {{city}}."
+  }
+}

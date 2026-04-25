@@ -1,0 +1,22 @@
+{
+  "id": "beard_grooming_studio",
+  "nameEs": "Cuidado de Barba",
+  "nameEn": "Beard Grooming",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "mens-grooming",
+  "extends": "beauty_base",
+  "tokens": "beard_grooming_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Cuidado de Barba en {{city}}",
+    "descriptionTemplate": "Cuidado de Barba profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cuidado de barba {{city}}",
+      "beard grooming {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidado de Barba",
+    "subheadlineTemplate": "Cuidado de Barba profesional en {{city}}."
+  }
+}

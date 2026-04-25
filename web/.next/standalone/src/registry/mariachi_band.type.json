@@ -1,0 +1,22 @@
+{
+  "id": "mariachi_band",
+  "nameEs": "Mariachi",
+  "nameEn": "Mariachi Band",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "mariachi_band",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Mariachi en {{city}}",
+    "descriptionTemplate": "Mariachi profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mariachi {{city}}",
+      "mariachi band {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mariachi",
+    "subheadlineTemplate": "Mariachi profesional en {{city}}."
+  }
+}

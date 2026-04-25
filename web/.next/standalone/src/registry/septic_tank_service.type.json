@@ -1,0 +1,22 @@
+{
+  "id": "septic_tank_service",
+  "nameEs": "Pozo Septico",
+  "nameEn": "Septic Tank Service",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "septic_tank_service",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Pozo Septico en {{city}}",
+    "descriptionTemplate": "Pozo Septico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pozo septico {{city}}",
+      "septic tank service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pozo Septico",
+    "subheadlineTemplate": "Pozo Septico profesional en {{city}}."
+  }
+}

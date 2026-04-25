@@ -1,0 +1,22 @@
+{
+  "id": "ethnic_grocery",
+  "nameEs": "Almacen Etnico",
+  "nameEn": "Ethnic Grocery",
+  "verticalId": "retail-local",
+  "subVertical": "grocery-market",
+  "extends": "retail_base",
+  "tokens": "ethnic_grocery",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Almacen Etnico en {{city}}",
+    "descriptionTemplate": "Almacen Etnico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "almacen etnico {{city}}",
+      "ethnic grocery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Almacen Etnico",
+    "subheadlineTemplate": "Almacen Etnico profesional en {{city}}."
+  }
+}

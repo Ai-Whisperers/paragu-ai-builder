@@ -1,0 +1,22 @@
+{
+  "id": "immigration_visa_relo",
+  "nameEs": "Relo Migratorio",
+  "nameEn": "Immigration Relo",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "relocation-services",
+  "extends": "inmobiliaria",
+  "tokens": "immigration_visa_relo",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Relo Migratorio en {{city}}",
+    "descriptionTemplate": "Relo Migratorio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "relo migratorio {{city}}",
+      "immigration relo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Relo Migratorio",
+    "subheadlineTemplate": "Relo Migratorio profesional en {{city}}."
+  }
+}

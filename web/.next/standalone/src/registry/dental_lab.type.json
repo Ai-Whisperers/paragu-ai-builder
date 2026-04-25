@@ -1,0 +1,25 @@
+{
+  "id": "dental_lab",
+  "nameEs": "Laboratorio Dental",
+  "nameEn": "Dental Lab",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "dental_lab",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Laboratorio Dental en {{city}}",
+    "descriptionTemplate": "Laboratorio Dental profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "laboratorio dental {{city}}",
+      "dental lab {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Laboratorio Dental",
+    "subheadlineTemplate": "Laboratorio Dental profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

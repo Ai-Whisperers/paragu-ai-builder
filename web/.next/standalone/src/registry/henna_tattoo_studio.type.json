@@ -1,0 +1,22 @@
+{
+  "id": "henna_tattoo_studio",
+  "nameEs": "Tatuajes de Henna",
+  "nameEn": "Henna Tattoo",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "tattoo-piercing",
+  "extends": "beauty_base",
+  "tokens": "henna_tattoo_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Tatuajes de Henna en {{city}}",
+    "descriptionTemplate": "Tatuajes de Henna profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tatuajes de henna {{city}}",
+      "henna tattoo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tatuajes de Henna",
+    "subheadlineTemplate": "Tatuajes de Henna profesional en {{city}}."
+  }
+}

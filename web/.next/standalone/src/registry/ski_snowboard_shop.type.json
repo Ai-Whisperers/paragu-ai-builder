@@ -1,0 +1,22 @@
+{
+  "id": "ski_snowboard_shop",
+  "nameEs": "Tienda Esqui",
+  "nameEn": "Ski Shop",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "ski_snowboard_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda Esqui en {{city}}",
+    "descriptionTemplate": "Tienda Esqui profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda esqui {{city}}",
+      "ski shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Esqui",
+    "subheadlineTemplate": "Tienda Esqui profesional en {{city}}."
+  }
+}

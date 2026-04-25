@@ -1,0 +1,25 @@
+{
+  "id": "country_music_saloon",
+  "nameEs": "Saloon Country",
+  "nameEn": "Country Saloon",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "nightlife-club",
+  "extends": "entertainment_base",
+  "tokens": "country_music_saloon",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Saloon Country en {{city}}",
+    "descriptionTemplate": "Saloon Country profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "saloon country {{city}}",
+      "country saloon {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Saloon Country",
+    "subheadlineTemplate": "Saloon Country profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

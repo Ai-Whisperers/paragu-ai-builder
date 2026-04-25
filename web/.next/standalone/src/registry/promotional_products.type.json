@@ -1,0 +1,25 @@
+{
+  "id": "promotional_products",
+  "nameEs": "Articulos Promocionales",
+  "nameEn": "Promo Products",
+  "verticalId": "trades-industrial",
+  "subVertical": "printing-signage",
+  "extends": "industrial_base",
+  "tokens": "promotional_products",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Articulos Promocionales en {{city}}",
+    "descriptionTemplate": "Articulos Promocionales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "articulos promocionales {{city}}",
+      "promo products {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Articulos Promocionales",
+    "subheadlineTemplate": "Articulos Promocionales profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

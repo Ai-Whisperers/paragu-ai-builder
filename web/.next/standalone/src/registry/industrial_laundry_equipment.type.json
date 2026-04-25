@@ -1,0 +1,25 @@
+{
+  "id": "industrial_laundry_equipment",
+  "nameEs": "Equipos Lavanderia",
+  "nameEn": "Laundry Equipment",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-equipment",
+  "extends": "industrial_base",
+  "tokens": "industrial_laundry_equipment",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Equipos Lavanderia en {{city}}",
+    "descriptionTemplate": "Equipos Lavanderia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "equipos lavanderia {{city}}",
+      "laundry equipment {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Equipos Lavanderia",
+    "subheadlineTemplate": "Equipos Lavanderia profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

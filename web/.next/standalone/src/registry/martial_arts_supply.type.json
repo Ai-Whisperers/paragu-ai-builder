@@ -1,0 +1,22 @@
+{
+  "id": "martial_arts_supply",
+  "nameEs": "Artes Marciales",
+  "nameEn": "Martial Arts Supply",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "martial_arts_supply",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Artes Marciales en {{city}}",
+    "descriptionTemplate": "Artes Marciales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "artes marciales {{city}}",
+      "martial arts supply {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Artes Marciales",
+    "subheadlineTemplate": "Artes Marciales profesional en {{city}}."
+  }
+}

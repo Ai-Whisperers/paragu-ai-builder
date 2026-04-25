@@ -1,0 +1,22 @@
+{
+  "id": "pet_photographer",
+  "nameEs": "Fotografo de Mascotas",
+  "nameEn": "Pet Photographer",
+  "verticalId": "service-booking",
+  "subVertical": "photography",
+  "extends": "gimnasio",
+  "tokens": "pet_photographer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografo de Mascotas en {{city}}",
+    "descriptionTemplate": "Fotografo de Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fotografo de mascotas {{city}}",
+      "pet photographer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fotografo de Mascotas",
+    "subheadlineTemplate": "Fotografo de Mascotas profesional en {{city}}."
+  }
+}

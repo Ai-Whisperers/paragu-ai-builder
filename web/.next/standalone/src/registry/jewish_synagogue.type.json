@@ -1,0 +1,22 @@
+{
+  "id": "jewish_synagogue",
+  "nameEs": "Sinagoga",
+  "nameEn": "Synagogue",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "jewish_synagogue",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Sinagoga en {{city}}",
+    "descriptionTemplate": "Sinagoga profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sinagoga {{city}}",
+      "synagogue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sinagoga",
+    "subheadlineTemplate": "Sinagoga profesional en {{city}}."
+  }
+}

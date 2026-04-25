@@ -1,0 +1,21 @@
+{
+  "id": "taller_motos",
+  "nameEs": "Taller de Motos",
+  "nameEn": "Motorcycle Repair",
+  "verticalId": "automotive",
+  "extends": "taller_mecanico",
+  "tokens": "taller_motos",
+  "seo": {
+    "schemaType": "AutoRepair",
+    "titleTemplate": "{{businessName}} - Taller de Motos en {{city}}",
+    "descriptionTemplate": "Servicio tecnico de motos de todas las marcas y cilindradas.",
+    "keywords": [
+      "taller motos {{city}}",
+      "mecanico motos {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu moto, siempre a punto",
+    "subheadlineTemplate": "Servicio tecnico de motos de todas las marcas y cilindradas."
+  }
+}

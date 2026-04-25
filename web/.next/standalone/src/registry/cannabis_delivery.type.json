@@ -1,0 +1,25 @@
+{
+  "id": "cannabis_delivery",
+  "nameEs": "Delivery Cannabis",
+  "nameEn": "Cannabis Delivery",
+  "verticalId": "logistics-transport",
+  "subVertical": "courier-lastmile",
+  "extends": "logistics_base",
+  "tokens": "cannabis_delivery",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Delivery Cannabis en {{city}}",
+    "descriptionTemplate": "Delivery Cannabis profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "delivery cannabis {{city}}",
+      "cannabis delivery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Delivery Cannabis",
+    "subheadlineTemplate": "Delivery Cannabis profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

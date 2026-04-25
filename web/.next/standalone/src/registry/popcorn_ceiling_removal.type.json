@@ -1,0 +1,22 @@
+{
+  "id": "popcorn_ceiling_removal",
+  "nameEs": "Remocion Cielorrasos",
+  "nameEn": "Ceiling Removal",
+  "verticalId": "trades-home-services",
+  "subVertical": "painting-finishing",
+  "extends": "trades_base",
+  "tokens": "popcorn_ceiling_removal",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Remocion Cielorrasos en {{city}}",
+    "descriptionTemplate": "Remocion Cielorrasos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "remocion cielorrasos {{city}}",
+      "ceiling removal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Remocion Cielorrasos",
+    "subheadlineTemplate": "Remocion Cielorrasos profesional en {{city}}."
+  }
+}

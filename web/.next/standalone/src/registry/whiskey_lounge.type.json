@@ -1,0 +1,22 @@
+{
+  "id": "whiskey_lounge",
+  "nameEs": "Lounge de Whisky",
+  "nameEn": "Whiskey Lounge",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "whiskey_lounge",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Lounge de Whisky en {{city}}",
+    "descriptionTemplate": "Lounge de Whisky profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lounge de whisky {{city}}",
+      "whiskey lounge {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lounge de Whisky",
+    "subheadlineTemplate": "Lounge de Whisky profesional en {{city}}."
+  }
+}

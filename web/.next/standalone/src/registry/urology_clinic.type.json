@@ -1,0 +1,22 @@
+{
+  "id": "urology_clinic",
+  "nameEs": "Urologia",
+  "nameEn": "Urology",
+  "verticalId": "health-wellness",
+  "subVertical": "specialty-medical",
+  "extends": "health_wellness_base",
+  "tokens": "urology_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Urologia en {{city}}",
+    "descriptionTemplate": "Urologia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "urologia {{city}}",
+      "urology {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Urologia",
+    "subheadlineTemplate": "Urologia profesional en {{city}}."
+  }
+}

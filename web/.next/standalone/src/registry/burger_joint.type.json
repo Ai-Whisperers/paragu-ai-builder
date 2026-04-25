@@ -1,0 +1,22 @@
+{
+  "id": "burger_joint",
+  "nameEs": "Hamburgueseria",
+  "nameEn": "Burger Joint",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "burger_joint",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Hamburgueseria en {{city}}",
+    "descriptionTemplate": "Hamburgueseria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hamburgueseria {{city}}",
+      "burger joint {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hamburgueseria",
+    "subheadlineTemplate": "Hamburgueseria profesional en {{city}}."
+  }
+}

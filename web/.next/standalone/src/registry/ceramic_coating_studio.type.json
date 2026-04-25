@@ -1,0 +1,22 @@
+{
+  "id": "ceramic_coating_studio",
+  "nameEs": "Recubrimiento Ceramico",
+  "nameEn": "Ceramic Coating",
+  "verticalId": "automotive",
+  "subVertical": "specialty-service",
+  "extends": "automotive_base",
+  "tokens": "ceramic_coating_studio",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Recubrimiento Ceramico en {{city}}",
+    "descriptionTemplate": "Recubrimiento Ceramico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "recubrimiento ceramico {{city}}",
+      "ceramic coating {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Recubrimiento Ceramico",
+    "subheadlineTemplate": "Recubrimiento Ceramico profesional en {{city}}."
+  }
+}

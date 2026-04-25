@@ -1,0 +1,25 @@
+{
+  "id": "pattern_making_service",
+  "nameEs": "Patronaje",
+  "nameEn": "Pattern Service",
+  "verticalId": "trades-industrial",
+  "subVertical": "textiles-apparel-mfg",
+  "extends": "industrial_base",
+  "tokens": "pattern_making_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Patronaje en {{city}}",
+    "descriptionTemplate": "Patronaje profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "patronaje {{city}}",
+      "pattern service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Patronaje",
+    "subheadlineTemplate": "Patronaje profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

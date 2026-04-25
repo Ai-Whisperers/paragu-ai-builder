@@ -1,0 +1,22 @@
+{
+  "id": "aviation_insurance",
+  "nameEs": "Seguro Aeronautico",
+  "nameEn": "Aviation Insurance",
+  "verticalId": "finance-insurance",
+  "subVertical": "insurance-specialty",
+  "extends": "finance_insurance_base",
+  "tokens": "aviation_insurance",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Seguro Aeronautico en {{city}}",
+    "descriptionTemplate": "Seguro Aeronautico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "seguro aeronautico {{city}}",
+      "aviation insurance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Seguro Aeronautico",
+    "subheadlineTemplate": "Seguro Aeronautico profesional en {{city}}."
+  }
+}

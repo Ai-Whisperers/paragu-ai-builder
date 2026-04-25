@@ -1,0 +1,22 @@
+{
+  "id": "truck_rental",
+  "nameEs": "Alquiler Camionetas",
+  "nameEn": "Truck Rental",
+  "verticalId": "automotive",
+  "subVertical": "rental",
+  "extends": "automotive_base",
+  "tokens": "truck_rental",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Camionetas en {{city}}",
+    "descriptionTemplate": "Alquiler Camionetas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler camionetas {{city}}",
+      "truck rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Camionetas",
+    "subheadlineTemplate": "Alquiler Camionetas profesional en {{city}}."
+  }
+}

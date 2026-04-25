@@ -1,0 +1,22 @@
+{
+  "id": "blog_network",
+  "nameEs": "Red de Blogs",
+  "nameEn": "Blog Network",
+  "verticalId": "media-publishing",
+  "subVertical": "content-creator",
+  "extends": "media_base",
+  "tokens": "blog_network",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Red de Blogs en {{city}}",
+    "descriptionTemplate": "Red de Blogs profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "red de blogs {{city}}",
+      "blog network {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Red de Blogs",
+    "subheadlineTemplate": "Red de Blogs profesional en {{city}}."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "comida_china",
+  "nameEs": "Restaurante Chino",
+  "nameEn": "Chinese Restaurant",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "comida_china",
+  "seo": {
+    "schemaType": "Restaurant",
+    "titleTemplate": "{{businessName}} - Restaurante Chino en {{city}}",
+    "descriptionTemplate": "Comida china tradicional con especialidades cantonesas.",
+    "keywords": [
+      "comida china {{city}}",
+      "restaurante chino {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sabores del oriente, en tu barrio",
+    "subheadlineTemplate": "Comida china tradicional con especialidades cantonesas."
+  }
+}

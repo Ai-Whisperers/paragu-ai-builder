@@ -1,0 +1,25 @@
+{
+  "id": "restaurant_equipment_supplier",
+  "nameEs": "Equipos Gastronomicos",
+  "nameEn": "Restaurant Equipment",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-equipment",
+  "extends": "industrial_base",
+  "tokens": "restaurant_equipment_supplier",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Equipos Gastronomicos en {{city}}",
+    "descriptionTemplate": "Equipos Gastronomicos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "equipos gastronomicos {{city}}",
+      "restaurant equipment {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Equipos Gastronomicos",
+    "subheadlineTemplate": "Equipos Gastronomicos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

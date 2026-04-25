@@ -1,0 +1,22 @@
+{
+  "id": "craft_soda_maker",
+  "nameEs": "Gaseosa Artesanal",
+  "nameEn": "Craft Soda Maker",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "craft_soda_maker",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Gaseosa Artesanal en {{city}}",
+    "descriptionTemplate": "Gaseosa Artesanal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gaseosa artesanal {{city}}",
+      "craft soda maker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gaseosa Artesanal",
+    "subheadlineTemplate": "Gaseosa Artesanal profesional en {{city}}."
+  }
+}

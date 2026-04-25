@@ -1,0 +1,22 @@
+{
+  "id": "veterinary_dentistry",
+  "nameEs": "Odontologia Veterinaria",
+  "nameEn": "Vet Dentistry",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "veterinary_dentistry",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Odontologia Veterinaria en {{city}}",
+    "descriptionTemplate": "Odontologia Veterinaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "odontologia veterinaria {{city}}",
+      "vet dentistry {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Odontologia Veterinaria",
+    "subheadlineTemplate": "Odontologia Veterinaria profesional en {{city}}."
+  }
+}

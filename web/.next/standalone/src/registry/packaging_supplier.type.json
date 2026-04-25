@@ -1,0 +1,25 @@
+{
+  "id": "packaging_supplier",
+  "nameEs": "Proveedor Empaque",
+  "nameEn": "Packaging Supplier",
+  "verticalId": "trades-industrial",
+  "subVertical": "packaging-labeling",
+  "extends": "industrial_base",
+  "tokens": "packaging_supplier",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Proveedor Empaque en {{city}}",
+    "descriptionTemplate": "Proveedor Empaque profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "proveedor empaque {{city}}",
+      "packaging supplier {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Proveedor Empaque",
+    "subheadlineTemplate": "Proveedor Empaque profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "stump_grinding",
+  "nameEs": "Trituracion Tocones",
+  "nameEn": "Stump Grinding",
+  "verticalId": "trades-home-services",
+  "subVertical": "landscaping",
+  "extends": "trades_base",
+  "tokens": "stump_grinding",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Trituracion Tocones en {{city}}",
+    "descriptionTemplate": "Trituracion Tocones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "trituracion tocones {{city}}",
+      "stump grinding {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Trituracion Tocones",
+    "subheadlineTemplate": "Trituracion Tocones profesional en {{city}}."
+  }
+}

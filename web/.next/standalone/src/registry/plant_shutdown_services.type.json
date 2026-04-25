@@ -1,0 +1,25 @@
+{
+  "id": "plant_shutdown_services",
+  "nameEs": "Paradas Planta",
+  "nameEn": "Plant Shutdown",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-maintenance",
+  "extends": "industrial_base",
+  "tokens": "plant_shutdown_services",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Paradas Planta en {{city}}",
+    "descriptionTemplate": "Paradas Planta profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "paradas planta {{city}}",
+      "plant shutdown {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Paradas Planta",
+    "subheadlineTemplate": "Paradas Planta profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

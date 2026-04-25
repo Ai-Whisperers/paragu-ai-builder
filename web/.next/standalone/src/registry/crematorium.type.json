@@ -1,0 +1,25 @@
+{
+  "id": "crematorium",
+  "nameEs": "Crematorio",
+  "nameEn": "Crematorium",
+  "verticalId": "death-care",
+  "subVertical": "cremation",
+  "extends": "death_care_base",
+  "tokens": "crematorium",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Crematorio en {{city}}",
+    "descriptionTemplate": "Crematorio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "crematorio {{city}}",
+      "crematorium {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Crematorio",
+    "subheadlineTemplate": "Crematorio profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

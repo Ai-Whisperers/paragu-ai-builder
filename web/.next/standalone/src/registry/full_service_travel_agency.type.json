@@ -1,0 +1,22 @@
+{
+  "id": "full_service_travel_agency",
+  "nameEs": "Agencia de Viajes",
+  "nameEn": "Travel Agency",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "travel-agency",
+  "extends": "restaurant",
+  "tokens": "full_service_travel_agency",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Agencia de Viajes en {{city}}",
+    "descriptionTemplate": "Agencia de Viajes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia de viajes {{city}}",
+      "travel agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia de Viajes",
+    "subheadlineTemplate": "Agencia de Viajes profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "coffee_roastery",
+  "nameEs": "Tostadora de Cafe",
+  "nameEn": "Coffee Roastery",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "coffee_roastery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Tostadora de Cafe en {{city}}",
+    "descriptionTemplate": "Tostadora de Cafe profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tostadora de cafe {{city}}",
+      "coffee roastery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tostadora de Cafe",
+    "subheadlineTemplate": "Tostadora de Cafe profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "acai_bowl_shop",
+  "nameEs": "Bar de Acai",
+  "nameEn": "Acai Bowl",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "acai_bowl_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Bar de Acai en {{city}}",
+    "descriptionTemplate": "Bar de Acai profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bar de acai {{city}}",
+      "acai bowl {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bar de Acai",
+    "subheadlineTemplate": "Bar de Acai profesional en {{city}}."
+  }
+}

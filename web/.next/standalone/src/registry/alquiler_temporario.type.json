@@ -1,0 +1,26 @@
+{
+  "id": "alquiler_temporario",
+  "nameEs": "Alquiler Temporario",
+  "nameEn": "Vacation Rental",
+  "verticalId": "hospitality-tourism",
+  "extends": "restaurant",
+  "tokens": "alquiler_temporario",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Temporario en {{city}}",
+    "descriptionTemplate": "Apartamentos y casas para estadias turisticas y corporativas.",
+    "keywords": [
+      "alquiler temporario {{city}}",
+      "departamento turistico {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu casa temporal en {{city}}",
+    "subheadlineTemplate": "Apartamentos y casas para estadias turisticas y corporativas."
+  },
+  "serviceCategories": [
+    "turistico",
+    "corporativo",
+    "familiar"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "alquiler_vehiculos",
+  "nameEs": "Alquiler de Vehiculos",
+  "nameEn": "Car Rental",
+  "verticalId": "hospitality-tourism",
+  "extends": "automotive_base",
+  "tokens": "alquiler_vehiculos",
+  "seo": {
+    "schemaType": "AutoRental",
+    "titleTemplate": "{{businessName}} - Alquiler de Vehiculos en {{city}}",
+    "descriptionTemplate": "Alquiler de autos y camionetas por dia, semana o mes en {{city}}.",
+    "keywords": [
+      "alquiler autos {{city}}",
+      "rent a car {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Manejate por tu cuenta",
+    "subheadlineTemplate": "Alquiler de autos y camionetas por dia, semana o mes en {{city}}."
+  },
+  "serviceCategories": [
+    "economicos",
+    "suv",
+    "ejecutivos"
+  ]
+}

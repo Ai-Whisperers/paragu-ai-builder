@@ -1,0 +1,25 @@
+{
+  "id": "vertical_saas_small_team",
+  "nameEs": "SaaS Vertical",
+  "nameEn": "Vertical SaaS",
+  "verticalId": "technology-digital",
+  "subVertical": "saas-vendor",
+  "extends": "technology_base",
+  "tokens": "vertical_saas_small_team",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - SaaS Vertical en {{city}}",
+    "descriptionTemplate": "SaaS Vertical profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "saas vertical {{city}}",
+      "vertical saas {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - SaaS Vertical",
+    "subheadlineTemplate": "SaaS Vertical profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

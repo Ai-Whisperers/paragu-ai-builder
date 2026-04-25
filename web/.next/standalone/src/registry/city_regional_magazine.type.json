@@ -1,0 +1,22 @@
+{
+  "id": "city_regional_magazine",
+  "nameEs": "Revista Ciudad",
+  "nameEn": "City Magazine",
+  "verticalId": "media-publishing",
+  "subVertical": "magazine-niche",
+  "extends": "media_base",
+  "tokens": "city_regional_magazine",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Revista Ciudad en {{city}}",
+    "descriptionTemplate": "Revista Ciudad profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "revista ciudad {{city}}",
+      "city magazine {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Revista Ciudad",
+    "subheadlineTemplate": "Revista Ciudad profesional en {{city}}."
+  }
+}

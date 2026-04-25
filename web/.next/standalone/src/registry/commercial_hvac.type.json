@@ -1,0 +1,22 @@
+{
+  "id": "commercial_hvac",
+  "nameEs": "HVAC Comercial",
+  "nameEn": "Commercial HVAC",
+  "verticalId": "trades-home-services",
+  "subVertical": "hvac",
+  "extends": "trades_base",
+  "tokens": "commercial_hvac",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - HVAC Comercial en {{city}}",
+    "descriptionTemplate": "HVAC Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hvac comercial {{city}}",
+      "commercial hvac {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - HVAC Comercial",
+    "subheadlineTemplate": "HVAC Comercial profesional en {{city}}."
+  }
+}

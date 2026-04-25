@@ -1,0 +1,22 @@
+{
+  "id": "fried_chicken_shop",
+  "nameEs": "Pollo Frito",
+  "nameEn": "Fried Chicken",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "fried_chicken_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Pollo Frito en {{city}}",
+    "descriptionTemplate": "Pollo Frito profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pollo frito {{city}}",
+      "fried chicken {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pollo Frito",
+    "subheadlineTemplate": "Pollo Frito profesional en {{city}}."
+  }
+}

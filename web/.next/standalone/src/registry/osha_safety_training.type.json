@@ -1,0 +1,25 @@
+{
+  "id": "osha_safety_training",
+  "nameEs": "Capacitacion Seguridad",
+  "nameEn": "Safety Training",
+  "verticalId": "education-training",
+  "subVertical": "corporate-training",
+  "extends": "educacion",
+  "tokens": "osha_safety_training",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Capacitacion Seguridad en {{city}}",
+    "descriptionTemplate": "Capacitacion Seguridad profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capacitacion seguridad {{city}}",
+      "safety training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capacitacion Seguridad",
+    "subheadlineTemplate": "Capacitacion Seguridad profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

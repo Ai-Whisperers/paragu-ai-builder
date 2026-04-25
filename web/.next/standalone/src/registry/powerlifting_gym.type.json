@@ -1,0 +1,22 @@
+{
+  "id": "powerlifting_gym",
+  "nameEs": "Gimnasio de Fuerza",
+  "nameEn": "Powerlifting Gym",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "powerlifting_gym",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Gimnasio de Fuerza en {{city}}",
+    "descriptionTemplate": "Gimnasio de Fuerza profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio de fuerza {{city}}",
+      "powerlifting gym {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio de Fuerza",
+    "subheadlineTemplate": "Gimnasio de Fuerza profesional en {{city}}."
+  }
+}

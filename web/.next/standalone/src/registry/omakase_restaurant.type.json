@@ -1,0 +1,22 @@
+{
+  "id": "omakase_restaurant",
+  "nameEs": "Omakase",
+  "nameEn": "Omakase",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "omakase_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Omakase en {{city}}",
+    "descriptionTemplate": "Omakase profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "omakase {{city}}",
+      "omakase {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Omakase",
+    "subheadlineTemplate": "Omakase profesional en {{city}}."
+  }
+}

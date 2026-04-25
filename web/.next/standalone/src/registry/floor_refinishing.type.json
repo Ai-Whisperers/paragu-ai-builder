@@ -1,0 +1,22 @@
+{
+  "id": "floor_refinishing",
+  "nameEs": "Pulido Pisos",
+  "nameEn": "Floor Refinishing",
+  "verticalId": "trades-home-services",
+  "subVertical": "flooring",
+  "extends": "trades_base",
+  "tokens": "floor_refinishing",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Pulido Pisos en {{city}}",
+    "descriptionTemplate": "Pulido Pisos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pulido pisos {{city}}",
+      "floor refinishing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pulido Pisos",
+    "subheadlineTemplate": "Pulido Pisos profesional en {{city}}."
+  }
+}

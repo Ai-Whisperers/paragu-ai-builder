@@ -1,0 +1,22 @@
+{
+  "id": "social_media_agency",
+  "nameEs": "Agencia Redes",
+  "nameEn": "Social Media Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "social_media_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Redes en {{city}}",
+    "descriptionTemplate": "Agencia Redes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia redes {{city}}",
+      "social media agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Redes",
+    "subheadlineTemplate": "Agencia Redes profesional en {{city}}."
+  }
+}

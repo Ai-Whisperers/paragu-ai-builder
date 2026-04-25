@@ -1,0 +1,22 @@
+{
+  "id": "hypnotherapy_practice",
+  "nameEs": "Hipnoterapia",
+  "nameEn": "Hypnotherapy",
+  "verticalId": "health-wellness",
+  "subVertical": "mental-health",
+  "extends": "health_wellness_base",
+  "tokens": "hypnotherapy_practice",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Hipnoterapia en {{city}}",
+    "descriptionTemplate": "Hipnoterapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hipnoterapia {{city}}",
+      "hypnotherapy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hipnoterapia",
+    "subheadlineTemplate": "Hipnoterapia profesional en {{city}}."
+  }
+}

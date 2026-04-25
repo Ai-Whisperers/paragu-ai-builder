@@ -1,0 +1,22 @@
+{
+  "id": "stilt_walker_performer",
+  "nameEs": "Performer Circense",
+  "nameEn": "Circus Performer",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "stilt_walker_performer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Performer Circense en {{city}}",
+    "descriptionTemplate": "Performer Circense profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "performer circense {{city}}",
+      "circus performer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Performer Circense",
+    "subheadlineTemplate": "Performer Circense profesional en {{city}}."
+  }
+}

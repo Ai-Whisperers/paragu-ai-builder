@@ -1,0 +1,22 @@
+{
+  "id": "raw_pet_food_supplier",
+  "nameEs": "Alimento Crudo",
+  "nameEn": "Raw Food",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "raw_pet_food_supplier",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Alimento Crudo en {{city}}",
+    "descriptionTemplate": "Alimento Crudo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alimento crudo {{city}}",
+      "raw food {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alimento Crudo",
+    "subheadlineTemplate": "Alimento Crudo profesional en {{city}}."
+  }
+}

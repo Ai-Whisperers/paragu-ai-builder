@@ -1,0 +1,110 @@
+{
+  "OpenCode Quick Commands": {
+    "prefix": ["opc", "opencode"],
+    "body": [
+      "${1|/fix-build,/add-section,/add-business,/db-migrate,/check-security,/research,/analyze-code|} ${2:argument}"
+    ],
+    "description": "Quick OpenCode commands"
+  },
+  "Add Section Component": {
+    "prefix": "opc-section",
+    "body": [
+      "Add a new section component named '${1:section-name}' following the pattern from hero-section.tsx.",
+      "",
+      "Requirements:",
+      "- Use CSS variables (var(--primary), var(--background))",
+      "- Accept props: ${2:title}, ${3:items}",
+      "- Responsive design",
+      "- Add to web/components/sections/${1}-section.tsx",
+      "",
+      "Register it in web/lib/engine/renderer.tsx"
+    ],
+    "description": "Add new reusable section"
+  },
+  "Add Business Type": {
+    "prefix": "opc-business",
+    "body": [
+      "Add a new business type: ${1:type-name}",
+      "",
+      "Details:",
+      "- Business name in Spanish: ${2:Nombre del Negocio}",
+      "- Sections: ${3:hero, services, team, contact}",
+      "- Features: ${4:booking: true}",
+      "- Primary color: ${5:#3b82f6}",
+      "",
+      "Create:",
+      "- src/registry/${1}.type.json",
+      "- src/tokens/${1}.tokens.json",
+      "- src/content/${1}.content.json"
+    ],
+    "description": "Add new business type"
+  },
+  "Database Migration": {
+    "prefix": "opc-migrate",
+    "body": [
+      "Create a database migration for: ${1:table_name}",
+      "",
+      "Schema:",
+      "- ${2:field_name}: ${3:data_type} - ${4:description}",
+      "",
+      "Requirements:",
+      "- Add to supabase/migrations/",
+      "- Include RLS policies",
+      "- Add indexes for performance",
+      "- Follow existing migration patterns"
+    ],
+    "description": "Create database migration"
+  },
+  "Fix Build Error": {
+    "prefix": "opc-fix",
+    "body": [
+      "I'm getting this build error:",
+      "```",
+      "${1:PASTE ERROR HERE}",
+      "```",
+      "",
+      "Please:",
+      "1. Identify the root cause",
+      "2. Fix with minimal changes",
+      "3. Run typecheck to verify",
+      "4. Ensure no hardcoded colors"
+    ],
+    "description": "Fix build/type errors"
+  },
+  "Research Website": {
+    "prefix": "opc-research",
+    "body": [
+      "Research ${1:https://example.com} and extract:",
+      "- ${2|Pricing information,Features,Page structure,Content themes,Design patterns|}",
+      "",
+      "Use firecrawl-scrape skill and provide structured findings."
+    ],
+    "description": "Research a website"
+  },
+  "Code Review": {
+    "prefix": "opc-review",
+    "body": [
+      "Review ${1:file-path} for:",
+      "- [ ] Code quality and readability",
+      "- [ ] Type safety",
+      "- [ ] Error handling",
+      "- [ ] Performance considerations",
+      "- [ ] Security best practices",
+      "",
+      "Suggest specific improvements with code examples."
+    ],
+    "description": "Request code review"
+  },
+  "Optimize Performance": {
+    "prefix": "opc-optimize",
+    "body": [
+      "Optimize ${1:component/page} performance:",
+      "",
+      "Focus areas:",
+      "- [ ] ${2|Load time,Bundle size,Database queries,Rendering|}",
+      "",
+      "Measure before and after improvements."
+    ],
+    "description": "Optimize performance"
+  }
+}

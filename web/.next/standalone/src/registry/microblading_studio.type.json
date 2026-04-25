@@ -1,0 +1,22 @@
+{
+  "id": "microblading_studio",
+  "nameEs": "Microblading",
+  "nameEn": "Microblading Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "makeup",
+  "extends": "beauty_base",
+  "tokens": "microblading_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Microblading en {{city}}",
+    "descriptionTemplate": "Microblading profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "microblading {{city}}",
+      "microblading studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Microblading",
+    "subheadlineTemplate": "Microblading profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cold_storage_warehouse",
+  "nameEs": "Camara Frigorifica",
+  "nameEn": "Cold Storage",
+  "verticalId": "logistics-transport",
+  "subVertical": "warehousing",
+  "extends": "logistics_base",
+  "tokens": "cold_storage_warehouse",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Camara Frigorifica en {{city}}",
+    "descriptionTemplate": "Camara Frigorifica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "camara frigorifica {{city}}",
+      "cold storage {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Camara Frigorifica",
+    "subheadlineTemplate": "Camara Frigorifica profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

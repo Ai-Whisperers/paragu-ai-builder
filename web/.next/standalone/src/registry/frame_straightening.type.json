@@ -1,0 +1,22 @@
+{
+  "id": "frame_straightening",
+  "nameEs": "Enderezado Chasis",
+  "nameEn": "Frame Straightening",
+  "verticalId": "automotive",
+  "subVertical": "body-collision",
+  "extends": "automotive_base",
+  "tokens": "frame_straightening",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Enderezado Chasis en {{city}}",
+    "descriptionTemplate": "Enderezado Chasis profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "enderezado chasis {{city}}",
+      "frame straightening {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Enderezado Chasis",
+    "subheadlineTemplate": "Enderezado Chasis profesional en {{city}}."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "escuela_musica",
+  "nameEs": "Escuela de Musica",
+  "nameEn": "Music School",
+  "verticalId": "education-training",
+  "extends": "educacion",
+  "tokens": "escuela_musica",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela de Musica en {{city}}",
+    "descriptionTemplate": "Clases de instrumentos, canto y teoria musical en {{city}}.",
+    "keywords": [
+      "clases musica {{city}}",
+      "escuela musica {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - La musica como camino",
+    "subheadlineTemplate": "Clases de instrumentos, canto y teoria musical en {{city}}."
+  },
+  "serviceCategories": [
+    "guitarra",
+    "piano",
+    "canto"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "luxury_pet_hotel",
+  "nameEs": "Hotel de Mascotas",
+  "nameEn": "Pet Hotel",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-boarding-daycare",
+  "extends": "pets_base",
+  "tokens": "luxury_pet_hotel",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Hotel de Mascotas en {{city}}",
+    "descriptionTemplate": "Hotel de Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hotel de mascotas {{city}}",
+      "pet hotel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hotel de Mascotas",
+    "subheadlineTemplate": "Hotel de Mascotas profesional en {{city}}."
+  }
+}

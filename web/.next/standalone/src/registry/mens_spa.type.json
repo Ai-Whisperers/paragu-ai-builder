@@ -1,0 +1,22 @@
+{
+  "id": "mens_spa",
+  "nameEs": "Spa Masculino",
+  "nameEn": "Mens Spa",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "mens-grooming",
+  "extends": "beauty_base",
+  "tokens": "mens_spa",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Spa Masculino en {{city}}",
+    "descriptionTemplate": "Spa Masculino profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "spa masculino {{city}}",
+      "mens spa {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Spa Masculino",
+    "subheadlineTemplate": "Spa Masculino profesional en {{city}}."
+  }
+}

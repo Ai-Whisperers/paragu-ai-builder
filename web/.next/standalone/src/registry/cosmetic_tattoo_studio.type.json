@@ -1,0 +1,22 @@
+{
+  "id": "cosmetic_tattoo_studio",
+  "nameEs": "Tatuaje Cosmetico",
+  "nameEn": "Cosmetic Tattoo",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "tattoo-piercing",
+  "extends": "beauty_base",
+  "tokens": "cosmetic_tattoo_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Tatuaje Cosmetico en {{city}}",
+    "descriptionTemplate": "Tatuaje Cosmetico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tatuaje cosmetico {{city}}",
+      "cosmetic tattoo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tatuaje Cosmetico",
+    "subheadlineTemplate": "Tatuaje Cosmetico profesional en {{city}}."
+  }
+}

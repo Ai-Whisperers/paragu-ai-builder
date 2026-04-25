@@ -1,0 +1,22 @@
+{
+  "id": "food_delivery_aggregator",
+  "nameEs": "Delivery Comida",
+  "nameEn": "Food Delivery",
+  "verticalId": "logistics-transport",
+  "subVertical": "courier-lastmile",
+  "extends": "logistics_base",
+  "tokens": "food_delivery_aggregator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Delivery Comida en {{city}}",
+    "descriptionTemplate": "Delivery Comida profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "delivery comida {{city}}",
+      "food delivery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Delivery Comida",
+    "subheadlineTemplate": "Delivery Comida profesional en {{city}}."
+  }
+}

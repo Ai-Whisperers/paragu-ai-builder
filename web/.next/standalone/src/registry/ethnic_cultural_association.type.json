@@ -1,0 +1,22 @@
+{
+  "id": "ethnic_cultural_association",
+  "nameEs": "Asociacion Etnica",
+  "nameEn": "Ethnic Association",
+  "verticalId": "membership-community",
+  "subVertical": "community-center",
+  "extends": "membership_base",
+  "tokens": "ethnic_cultural_association",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Asociacion Etnica en {{city}}",
+    "descriptionTemplate": "Asociacion Etnica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asociacion etnica {{city}}",
+      "ethnic association {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asociacion Etnica",
+    "subheadlineTemplate": "Asociacion Etnica profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "graphic_design_studio",
+  "nameEs": "Estudio de Diseno Grafico",
+  "nameEn": "Graphic Design Studio",
+  "verticalId": "portfolio-professional",
+  "subVertical": "graphic-design",
+  "extends": "diseno_grafico",
+  "tokens": "graphic_design_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Estudio de Diseno Grafico en {{city}}",
+    "descriptionTemplate": "Estudio de Diseno Grafico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de diseno grafico {{city}}",
+      "graphic design studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Diseno Grafico",
+    "subheadlineTemplate": "Estudio de Diseno Grafico profesional en {{city}}."
+  }
+}

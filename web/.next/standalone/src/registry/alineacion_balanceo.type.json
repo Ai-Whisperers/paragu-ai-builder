@@ -1,0 +1,20 @@
+{
+  "id": "alineacion_balanceo",
+  "nameEs": "Alineacion y Balanceo",
+  "nameEn": "Alignment Shop",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "alineacion_balanceo",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alineacion y Balanceo en {{city}}",
+    "descriptionTemplate": "Alineacion computarizada y balanceo dinamico en {{city}}.",
+    "keywords": [
+      "alineacion balanceo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Neumaticos que duran, manejo mas seguro",
+    "subheadlineTemplate": "Alineacion computarizada y balanceo dinamico en {{city}}."
+  }
+}

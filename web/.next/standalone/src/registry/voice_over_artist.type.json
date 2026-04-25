@@ -1,0 +1,22 @@
+{
+  "id": "voice_over_artist",
+  "nameEs": "Locutor",
+  "nameEn": "Voice Over",
+  "verticalId": "portfolio-professional",
+  "subVertical": "music-audio",
+  "extends": "diseno_grafico",
+  "tokens": "voice_over_artist",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Locutor en {{city}}",
+    "descriptionTemplate": "Locutor profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "locutor {{city}}",
+      "voice over {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Locutor",
+    "subheadlineTemplate": "Locutor profesional en {{city}}."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "asesor_financiero",
+  "nameEs": "Asesor Financiero",
+  "nameEn": "Financial Advisor",
+  "verticalId": "b2b-professional",
+  "extends": "professional_services_base",
+  "tokens": "asesor_financiero",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Asesor Financiero en {{city}}",
+    "descriptionTemplate": "Asesoramiento financiero personal y corporativo: inversion, seguros, planes.",
+    "keywords": [
+      "asesor financiero {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu patrimonio, planificado",
+    "subheadlineTemplate": "Asesoramiento financiero personal y corporativo: inversion, seguros, planes."
+  }
+}

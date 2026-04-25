@@ -1,0 +1,21 @@
+{
+  "id": "reclutamiento",
+  "nameEs": "Reclutamiento / Headhunting",
+  "nameEn": "Recruiting",
+  "verticalId": "b2b-professional",
+  "extends": "consultora_rrhh",
+  "tokens": "reclutamiento",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reclutamiento / Headhunting en {{city}}",
+    "descriptionTemplate": "Reclutamiento ejecutivo, middle management y mandos medios.",
+    "keywords": [
+      "headhunting {{city}}",
+      "reclutamiento ejecutivo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Encontramos el talento que tu empresa necesita",
+    "subheadlineTemplate": "Reclutamiento ejecutivo, middle management y mandos medios."
+  }
+}

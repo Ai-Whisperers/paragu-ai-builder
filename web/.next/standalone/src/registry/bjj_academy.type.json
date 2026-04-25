@@ -1,0 +1,22 @@
+{
+  "id": "bjj_academy",
+  "nameEs": "Academia BJJ",
+  "nameEn": "BJJ Academy",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "bjj_academy",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Academia BJJ en {{city}}",
+    "descriptionTemplate": "Academia BJJ profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "academia bjj {{city}}",
+      "bjj academy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Academia BJJ",
+    "subheadlineTemplate": "Academia BJJ profesional en {{city}}."
+  }
+}

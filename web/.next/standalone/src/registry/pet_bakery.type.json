@@ -1,0 +1,22 @@
+{
+  "id": "pet_bakery",
+  "nameEs": "Panaderia Mascotas",
+  "nameEn": "Pet Bakery",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "pet_bakery",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Panaderia Mascotas en {{city}}",
+    "descriptionTemplate": "Panaderia Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "panaderia mascotas {{city}}",
+      "pet bakery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Panaderia Mascotas",
+    "subheadlineTemplate": "Panaderia Mascotas profesional en {{city}}."
+  }
+}

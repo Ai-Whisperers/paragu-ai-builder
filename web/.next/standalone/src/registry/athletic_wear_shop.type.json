@@ -1,0 +1,22 @@
+{
+  "id": "athletic_wear_shop",
+  "nameEs": "Ropa Deportiva",
+  "nameEn": "Athletic Wear",
+  "verticalId": "retail-local",
+  "subVertical": "apparel-fashion",
+  "extends": "retail_base",
+  "tokens": "athletic_wear_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Ropa Deportiva en {{city}}",
+    "descriptionTemplate": "Ropa Deportiva profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ropa deportiva {{city}}",
+      "athletic wear {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ropa Deportiva",
+    "subheadlineTemplate": "Ropa Deportiva profesional en {{city}}."
+  }
+}

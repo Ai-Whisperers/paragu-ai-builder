@@ -1,0 +1,26 @@
+{
+  "id": "hotel_boutique",
+  "nameEs": "Hotel Boutique",
+  "nameEn": "Boutique Hotel",
+  "verticalId": "hospitality-tourism",
+  "extends": "restaurant",
+  "tokens": "hotel_boutique",
+  "seo": {
+    "schemaType": "Hotel",
+    "titleTemplate": "{{businessName}} - Hotel Boutique en {{city}}",
+    "descriptionTemplate": "Hotel boutique con habitaciones tematicas y atencion personalizada en {{city}}.",
+    "keywords": [
+      "hotel boutique {{city}}",
+      "hotel autor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Una experiencia unica en cada detalle",
+    "subheadlineTemplate": "Hotel boutique con habitaciones tematicas y atencion personalizada en {{city}}."
+  },
+  "serviceCategories": [
+    "habitaciones",
+    "gastronomia",
+    "spa"
+  ]
+}

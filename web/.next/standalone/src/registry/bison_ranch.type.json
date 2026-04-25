@@ -1,0 +1,22 @@
+{
+  "id": "bison_ranch",
+  "nameEs": "Bisonte",
+  "nameEn": "Bison Ranch",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "livestock-ranch",
+  "extends": "agriculture_base",
+  "tokens": "bison_ranch",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Bisonte en {{city}}",
+    "descriptionTemplate": "Bisonte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bisonte {{city}}",
+      "bison ranch {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bisonte",
+    "subheadlineTemplate": "Bisonte profesional en {{city}}."
+  }
+}

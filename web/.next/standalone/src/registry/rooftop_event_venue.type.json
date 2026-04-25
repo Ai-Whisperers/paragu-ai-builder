@@ -1,0 +1,22 @@
+{
+  "id": "rooftop_event_venue",
+  "nameEs": "Terraza para Eventos",
+  "nameEn": "Rooftop Venue",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "event-venue",
+  "extends": "restaurant",
+  "tokens": "rooftop_event_venue",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Terraza para Eventos en {{city}}",
+    "descriptionTemplate": "Terraza para Eventos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "terraza para eventos {{city}}",
+      "rooftop venue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Terraza para Eventos",
+    "subheadlineTemplate": "Terraza para Eventos profesional en {{city}}."
+  }
+}

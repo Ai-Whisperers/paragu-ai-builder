@@ -1,0 +1,22 @@
+{
+  "id": "reflexology_practice",
+  "nameEs": "Reflexologia",
+  "nameEn": "Reflexology",
+  "verticalId": "health-wellness",
+  "subVertical": "alternative-medicine",
+  "extends": "health_wellness_base",
+  "tokens": "reflexology_practice",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Reflexologia en {{city}}",
+    "descriptionTemplate": "Reflexologia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reflexologia {{city}}",
+      "reflexology {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reflexologia",
+    "subheadlineTemplate": "Reflexologia profesional en {{city}}."
+  }
+}

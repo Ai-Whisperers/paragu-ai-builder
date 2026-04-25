@@ -1,0 +1,22 @@
+{
+  "id": "legacy_planning_service",
+  "nameEs": "Planificacion Legado",
+  "nameEn": "Legacy Planning",
+  "verticalId": "death-care",
+  "subVertical": "pre-planning",
+  "extends": "death_care_base",
+  "tokens": "legacy_planning_service",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Planificacion Legado en {{city}}",
+    "descriptionTemplate": "Planificacion Legado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "planificacion legado {{city}}",
+      "legacy planning {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Planificacion Legado",
+    "subheadlineTemplate": "Planificacion Legado profesional en {{city}}."
+  }
+}

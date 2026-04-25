@@ -1,0 +1,25 @@
+{
+  "id": "fertility_clinic",
+  "nameEs": "Clinica de Fertilidad",
+  "nameEn": "Fertility Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "specialty-medical",
+  "extends": "health_wellness_base",
+  "tokens": "fertility_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica de Fertilidad en {{city}}",
+    "descriptionTemplate": "Clinica de Fertilidad profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica de fertilidad {{city}}",
+      "fertility clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica de Fertilidad",
+    "subheadlineTemplate": "Clinica de Fertilidad profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

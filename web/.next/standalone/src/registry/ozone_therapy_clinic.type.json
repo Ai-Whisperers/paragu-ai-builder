@@ -1,0 +1,22 @@
+{
+  "id": "ozone_therapy_clinic",
+  "nameEs": "Ozonoterapia",
+  "nameEn": "Ozone Therapy",
+  "verticalId": "health-wellness",
+  "subVertical": "alternative-medicine",
+  "extends": "health_wellness_base",
+  "tokens": "ozone_therapy_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Ozonoterapia en {{city}}",
+    "descriptionTemplate": "Ozonoterapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ozonoterapia {{city}}",
+      "ozone therapy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ozonoterapia",
+    "subheadlineTemplate": "Ozonoterapia profesional en {{city}}."
+  }
+}

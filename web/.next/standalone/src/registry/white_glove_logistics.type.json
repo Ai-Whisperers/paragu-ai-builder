@@ -1,0 +1,25 @@
+{
+  "id": "white_glove_logistics",
+  "nameEs": "Logistica Premium",
+  "nameEn": "White Glove Logistics",
+  "verticalId": "logistics-transport",
+  "subVertical": "moving-specialty",
+  "extends": "logistics_base",
+  "tokens": "white_glove_logistics",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Logistica Premium en {{city}}",
+    "descriptionTemplate": "Logistica Premium profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "logistica premium {{city}}",
+      "white glove logistics {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Logistica Premium",
+    "subheadlineTemplate": "Logistica Premium profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}
