@@ -191,24 +191,24 @@
       "columns": 2,
       "items": [
         {
-          "name": "Camila B.",
-          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "rating": 4
+          "rating": 4,
+          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "author": "Camila B."
         },
         {
-          "name": "María F.",
-          "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "rating": 4
+          "rating": 4,
+          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "author": "María F."
         },
         {
-          "name": "Carlos G.",
-          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "rating": 4
+          "rating": 4,
+          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "author": "Carlos G."
         },
         {
-          "name": "Ana L.",
-          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "rating": 3
+          "rating": 3,
+          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "author": "Ana L."
         }
       ]
     },
