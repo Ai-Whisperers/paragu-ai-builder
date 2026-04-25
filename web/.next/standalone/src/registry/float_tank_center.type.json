@@ -1,0 +1,22 @@
+{
+  "id": "float_tank_center",
+  "nameEs": "Centro de Flotacion",
+  "nameEn": "Float Tank Center",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "float_tank_center",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Centro de Flotacion en {{city}}",
+    "descriptionTemplate": "Centro de Flotacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro de flotacion {{city}}",
+      "float tank center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro de Flotacion",
+    "subheadlineTemplate": "Centro de Flotacion profesional en {{city}}."
+  }
+}

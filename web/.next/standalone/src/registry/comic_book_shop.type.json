@@ -1,0 +1,22 @@
+{
+  "id": "comic_book_shop",
+  "nameEs": "Comiqueria",
+  "nameEn": "Comic Book Shop",
+  "verticalId": "retail-local",
+  "subVertical": "bookstore-hobby",
+  "extends": "retail_base",
+  "tokens": "comic_book_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Comiqueria en {{city}}",
+    "descriptionTemplate": "Comiqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "comiqueria {{city}}",
+      "comic book shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Comiqueria",
+    "subheadlineTemplate": "Comiqueria profesional en {{city}}."
+  }
+}

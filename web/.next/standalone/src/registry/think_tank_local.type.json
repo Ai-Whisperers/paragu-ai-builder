@@ -1,0 +1,22 @@
+{
+  "id": "think_tank_local",
+  "nameEs": "Centro de Pensamiento",
+  "nameEn": "Think Tank",
+  "verticalId": "membership-community",
+  "subVertical": "advocacy-civic",
+  "extends": "membership_base",
+  "tokens": "think_tank_local",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Centro de Pensamiento en {{city}}",
+    "descriptionTemplate": "Centro de Pensamiento profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro de pensamiento {{city}}",
+      "think tank {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro de Pensamiento",
+    "subheadlineTemplate": "Centro de Pensamiento profesional en {{city}}."
+  }
+}

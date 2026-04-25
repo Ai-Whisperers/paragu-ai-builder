@@ -1,0 +1,22 @@
+{
+  "id": "empanada_shop",
+  "nameEs": "Empanaderia",
+  "nameEn": "Empanada Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "empanada_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Empanaderia en {{city}}",
+    "descriptionTemplate": "Empanaderia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "empanaderia {{city}}",
+      "empanada shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Empanaderia",
+    "subheadlineTemplate": "Empanaderia profesional en {{city}}."
+  }
+}

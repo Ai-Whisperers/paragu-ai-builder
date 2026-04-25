@@ -1,0 +1,22 @@
+{
+  "id": "civil_celebrant",
+  "nameEs": "Celebrante Civil",
+  "nameEn": "Civil Celebrant",
+  "verticalId": "service-booking",
+  "subVertical": "officiant-celebrant",
+  "extends": "gimnasio",
+  "tokens": "civil_celebrant",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Celebrante Civil en {{city}}",
+    "descriptionTemplate": "Celebrante Civil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "celebrante civil {{city}}",
+      "civil celebrant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Celebrante Civil",
+    "subheadlineTemplate": "Celebrante Civil profesional en {{city}}."
+  }
+}

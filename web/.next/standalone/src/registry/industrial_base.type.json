@@ -1,0 +1,77 @@
+{
+  "id": "industrial_base",
+  "nameEs": "Base Industrial",
+  "nameEn": "Industrial Base",
+  "verticalId": "trades-industrial",
+  "abstract": true,
+  "tokens": "industrial_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "services",
+        "features",
+        "process",
+        "caseStudies",
+        "trustSignals",
+        "faq",
+        "quoteForm",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "services",
+        "quoteForm",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "quoteForm": {
+      "enabled": true
+    },
+    "caseStudies": {
+      "enabled": true
+    },
+    "certifications": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Industrial profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Capacidades",
+      "Proyectos",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Cotizar",
+      "action": "quoteForm"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Fabricacion con precision",
+    "subheadlineTemplate": "Maquinado y manufactura industrial a medida.",
+    "ctaPrimary": {
+      "text": "Solicitar Cotizacion",
+      "action": "quoteForm"
+    },
+    "ctaSecondary": {
+      "text": "Ver Capacidades",
+      "action": "scrollTo:services"
+    }
+  }
+}

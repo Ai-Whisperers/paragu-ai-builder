@@ -1,0 +1,22 @@
+{
+  "id": "piano_specialty_movers",
+  "nameEs": "Mudanza de Piano",
+  "nameEn": "Piano Movers",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "moving-storage",
+  "extends": "inmobiliaria",
+  "tokens": "piano_specialty_movers",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Mudanza de Piano en {{city}}",
+    "descriptionTemplate": "Mudanza de Piano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mudanza de piano {{city}}",
+      "piano movers {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mudanza de Piano",
+    "subheadlineTemplate": "Mudanza de Piano profesional en {{city}}."
+  }
+}

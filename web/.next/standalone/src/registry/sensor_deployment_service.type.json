@@ -1,0 +1,25 @@
+{
+  "id": "sensor_deployment_service",
+  "nameEs": "Despliegue Sensores",
+  "nameEn": "Sensor Deployment",
+  "verticalId": "technology-digital",
+  "subVertical": "hardware-iot",
+  "extends": "technology_base",
+  "tokens": "sensor_deployment_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Despliegue Sensores en {{city}}",
+    "descriptionTemplate": "Despliegue Sensores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "despliegue sensores {{city}}",
+      "sensor deployment {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Despliegue Sensores",
+    "subheadlineTemplate": "Despliegue Sensores profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

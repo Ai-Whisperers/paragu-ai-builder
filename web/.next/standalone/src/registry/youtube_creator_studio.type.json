@@ -1,0 +1,22 @@
+{
+  "id": "youtube_creator_studio",
+  "nameEs": "Creador YouTube",
+  "nameEn": "YouTube Studio",
+  "verticalId": "media-publishing",
+  "subVertical": "content-creator",
+  "extends": "media_base",
+  "tokens": "youtube_creator_studio",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Creador YouTube en {{city}}",
+    "descriptionTemplate": "Creador YouTube profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "creador youtube {{city}}",
+      "youtube studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Creador YouTube",
+    "subheadlineTemplate": "Creador YouTube profesional en {{city}}."
+  }
+}

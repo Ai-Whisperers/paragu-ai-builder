@@ -1,0 +1,22 @@
+{
+  "id": "group_tour_packager",
+  "nameEs": "Tours Grupales",
+  "nameEn": "Group Tour Packager",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "travel-agency",
+  "extends": "restaurant",
+  "tokens": "group_tour_packager",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tours Grupales en {{city}}",
+    "descriptionTemplate": "Tours Grupales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tours grupales {{city}}",
+      "group tour packager {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tours Grupales",
+    "subheadlineTemplate": "Tours Grupales profesional en {{city}}."
+  }
+}

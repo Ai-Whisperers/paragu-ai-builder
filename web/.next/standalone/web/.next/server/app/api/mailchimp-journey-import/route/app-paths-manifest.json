@@ -1,0 +1,3 @@
+{
+  "/api/mailchimp-journey-import/route": "app/api/mailchimp-journey-import/route.js"
+}

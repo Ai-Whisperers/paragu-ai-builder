@@ -1,0 +1,22 @@
+{
+  "id": "art_studio_classes",
+  "nameEs": "Clases de Arte",
+  "nameEn": "Art Classes",
+  "verticalId": "education-training",
+  "subVertical": "music-art",
+  "extends": "educacion",
+  "tokens": "art_studio_classes",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Clases de Arte en {{city}}",
+    "descriptionTemplate": "Clases de Arte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clases de arte {{city}}",
+      "art classes {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clases de Arte",
+    "subheadlineTemplate": "Clases de Arte profesional en {{city}}."
+  }
+}

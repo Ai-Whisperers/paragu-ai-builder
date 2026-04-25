@@ -1,0 +1,22 @@
+{
+  "id": "taqueria",
+  "nameEs": "Taqueria",
+  "nameEn": "Taqueria",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "taqueria",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Taqueria en {{city}}",
+    "descriptionTemplate": "Taqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taqueria {{city}}",
+      "taqueria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taqueria",
+    "subheadlineTemplate": "Taqueria profesional en {{city}}."
+  }
+}

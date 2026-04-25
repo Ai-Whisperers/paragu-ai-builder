@@ -1,0 +1,22 @@
+{
+  "id": "niche_print_magazine",
+  "nameEs": "Revista Nicho",
+  "nameEn": "Niche Magazine",
+  "verticalId": "media-publishing",
+  "subVertical": "magazine-niche",
+  "extends": "media_base",
+  "tokens": "niche_print_magazine",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Revista Nicho en {{city}}",
+    "descriptionTemplate": "Revista Nicho profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "revista nicho {{city}}",
+      "niche magazine {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Revista Nicho",
+    "subheadlineTemplate": "Revista Nicho profesional en {{city}}."
+  }
+}

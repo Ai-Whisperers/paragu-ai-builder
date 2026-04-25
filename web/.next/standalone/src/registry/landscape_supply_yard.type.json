@@ -1,0 +1,25 @@
+{
+  "id": "landscape_supply_yard",
+  "nameEs": "Jardineria",
+  "nameEn": "Landscape Supply",
+  "verticalId": "retail-local",
+  "subVertical": "hardware-garden",
+  "extends": "retail_base",
+  "tokens": "landscape_supply_yard",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Jardineria en {{city}}",
+    "descriptionTemplate": "Jardineria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "jardineria {{city}}",
+      "landscape supply {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Jardineria",
+    "subheadlineTemplate": "Jardineria profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

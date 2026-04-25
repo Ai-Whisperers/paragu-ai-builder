@@ -1,0 +1,22 @@
+{
+  "id": "home_health_agency",
+  "nameEs": "Asistencia Domiciliaria",
+  "nameEn": "Home Health",
+  "verticalId": "health-wellness",
+  "subVertical": "senior-homecare",
+  "extends": "health_wellness_base",
+  "tokens": "home_health_agency",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Asistencia Domiciliaria en {{city}}",
+    "descriptionTemplate": "Asistencia Domiciliaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asistencia domiciliaria {{city}}",
+      "home health {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asistencia Domiciliaria",
+    "subheadlineTemplate": "Asistencia Domiciliaria profesional en {{city}}."
+  }
+}

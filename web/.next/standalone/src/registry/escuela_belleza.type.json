@@ -1,0 +1,26 @@
+{
+  "id": "escuela_belleza",
+  "nameEs": "Escuela de Estetica",
+  "nameEn": "Beauty Academy",
+  "verticalId": "beauty-personal-care",
+  "extends": "educacion",
+  "tokens": "escuela_belleza",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela de Estetica en {{city}}",
+    "descriptionTemplate": "Cursos de peluqueria, estetica, uñas y maquillaje con certificado.",
+    "keywords": [
+      "escuela estetica {{city}}",
+      "curso peluqueria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu carrera en belleza empieza aqui",
+    "subheadlineTemplate": "Cursos de peluqueria, estetica, uñas y maquillaje con certificado."
+  },
+  "serviceCategories": [
+    "peluqueria",
+    "estetica",
+    "uñas"
+  ]
+}

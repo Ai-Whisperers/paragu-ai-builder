@@ -1,0 +1,25 @@
+{
+  "id": "charter_cargo_aviation",
+  "nameEs": "Vuelos Charter Carga",
+  "nameEn": "Charter Cargo",
+  "verticalId": "logistics-transport",
+  "subVertical": "aviation-cargo",
+  "extends": "logistics_base",
+  "tokens": "charter_cargo_aviation",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Vuelos Charter Carga en {{city}}",
+    "descriptionTemplate": "Vuelos Charter Carga profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "vuelos charter carga {{city}}",
+      "charter cargo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Vuelos Charter Carga",
+    "subheadlineTemplate": "Vuelos Charter Carga profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

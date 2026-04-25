@@ -1,0 +1,25 @@
+{
+  "id": "nightclub",
+  "nameEs": "Boliche",
+  "nameEn": "Nightclub",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "nightlife-club",
+  "extends": "entertainment_base",
+  "tokens": "nightclub",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Boliche en {{city}}",
+    "descriptionTemplate": "Boliche profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "boliche {{city}}",
+      "nightclub {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Boliche",
+    "subheadlineTemplate": "Boliche profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

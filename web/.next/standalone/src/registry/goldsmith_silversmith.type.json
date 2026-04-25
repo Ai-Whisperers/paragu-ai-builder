@@ -1,0 +1,22 @@
+{
+  "id": "goldsmith_silversmith",
+  "nameEs": "Orfebre",
+  "nameEn": "Goldsmith",
+  "verticalId": "retail-local",
+  "subVertical": "jewelry-accessories",
+  "extends": "retail_base",
+  "tokens": "goldsmith_silversmith",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Orfebre en {{city}}",
+    "descriptionTemplate": "Orfebre profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "orfebre {{city}}",
+      "goldsmith {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Orfebre",
+    "subheadlineTemplate": "Orfebre profesional en {{city}}."
+  }
+}

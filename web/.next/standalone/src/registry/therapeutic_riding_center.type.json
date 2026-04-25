@@ -1,0 +1,22 @@
+{
+  "id": "therapeutic_riding_center",
+  "nameEs": "Equinoterapia",
+  "nameEn": "Therapeutic Riding",
+  "verticalId": "sports-recreation",
+  "subVertical": "equestrian",
+  "extends": "sports_base",
+  "tokens": "therapeutic_riding_center",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Equinoterapia en {{city}}",
+    "descriptionTemplate": "Equinoterapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "equinoterapia {{city}}",
+      "therapeutic riding {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Equinoterapia",
+    "subheadlineTemplate": "Equinoterapia profesional en {{city}}."
+  }
+}

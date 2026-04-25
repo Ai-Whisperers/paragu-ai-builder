@@ -1,0 +1,22 @@
+{
+  "id": "gelato_shop",
+  "nameEs": "Gelateria",
+  "nameEn": "Gelato Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "gelato_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Gelateria en {{city}}",
+    "descriptionTemplate": "Gelateria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gelateria {{city}}",
+      "gelato shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gelateria",
+    "subheadlineTemplate": "Gelateria profesional en {{city}}."
+  }
+}

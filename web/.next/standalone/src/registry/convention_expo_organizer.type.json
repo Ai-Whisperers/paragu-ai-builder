@@ -1,0 +1,25 @@
+{
+  "id": "convention_expo_organizer",
+  "nameEs": "Organizador Convenciones",
+  "nameEn": "Convention Organizer",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "events-festivals",
+  "extends": "entertainment_base",
+  "tokens": "convention_expo_organizer",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Organizador Convenciones en {{city}}",
+    "descriptionTemplate": "Organizador Convenciones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "organizador convenciones {{city}}",
+      "convention organizer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Organizador Convenciones",
+    "subheadlineTemplate": "Organizador Convenciones profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

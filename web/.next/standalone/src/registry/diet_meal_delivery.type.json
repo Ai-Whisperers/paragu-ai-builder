@@ -1,0 +1,22 @@
+{
+  "id": "diet_meal_delivery",
+  "nameEs": "Viandas Dieta",
+  "nameEn": "Diet Meal Delivery",
+  "verticalId": "food-beverage",
+  "subVertical": "meal-prep-delivery",
+  "extends": "restaurant",
+  "tokens": "diet_meal_delivery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Viandas Dieta en {{city}}",
+    "descriptionTemplate": "Viandas Dieta profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "viandas dieta {{city}}",
+      "diet meal delivery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Viandas Dieta",
+    "subheadlineTemplate": "Viandas Dieta profesional en {{city}}."
+  }
+}

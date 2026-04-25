@@ -1,0 +1,22 @@
+{
+  "id": "sewing_machine_shop",
+  "nameEs": "Maquinas Coser",
+  "nameEn": "Sewing Machine Shop",
+  "verticalId": "retail-local",
+  "subVertical": "electronics-appliance",
+  "extends": "retail_base",
+  "tokens": "sewing_machine_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Maquinas Coser en {{city}}",
+    "descriptionTemplate": "Maquinas Coser profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "maquinas coser {{city}}",
+      "sewing machine shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Maquinas Coser",
+    "subheadlineTemplate": "Maquinas Coser profesional en {{city}}."
+  }
+}

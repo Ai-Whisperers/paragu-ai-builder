@@ -1,0 +1,22 @@
+{
+  "id": "residential_property_mgmt",
+  "nameEs": "Administracion Residencial",
+  "nameEn": "Residential PM",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "property-management",
+  "extends": "inmobiliaria",
+  "tokens": "residential_property_mgmt",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Administracion Residencial en {{city}}",
+    "descriptionTemplate": "Administracion Residencial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "administracion residencial {{city}}",
+      "residential pm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Administracion Residencial",
+    "subheadlineTemplate": "Administracion Residencial profesional en {{city}}."
+  }
+}

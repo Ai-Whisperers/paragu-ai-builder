@@ -1,0 +1,22 @@
+{
+  "id": "record_vinyl_shop",
+  "nameEs": "Disqueria",
+  "nameEn": "Record Shop",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "record_vinyl_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Disqueria en {{city}}",
+    "descriptionTemplate": "Disqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disqueria {{city}}",
+      "record shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disqueria",
+    "subheadlineTemplate": "Disqueria profesional en {{city}}."
+  }
+}

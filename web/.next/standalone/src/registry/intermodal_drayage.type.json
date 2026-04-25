@@ -1,0 +1,25 @@
+{
+  "id": "intermodal_drayage",
+  "nameEs": "Acarreo Puerto",
+  "nameEn": "Drayage",
+  "verticalId": "logistics-transport",
+  "subVertical": "trucking-freight",
+  "extends": "logistics_base",
+  "tokens": "intermodal_drayage",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Acarreo Puerto en {{city}}",
+    "descriptionTemplate": "Acarreo Puerto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "acarreo puerto {{city}}",
+      "drayage {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acarreo Puerto",
+    "subheadlineTemplate": "Acarreo Puerto profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

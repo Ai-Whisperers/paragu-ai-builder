@@ -1,0 +1,195 @@
+{
+  "id": "gimnasio",
+  "nameEs": "Gimnasio/Fitness",
+  "nameEn": "Gym/Fitness Center",
+  "verticalId": "service-booking",
+  "tokens": "gimnasio",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "services",
+        "classSchedule",
+        "membershipPlans",
+        "team",
+        "contact",
+        "testimonials",
+        "ctaBanner",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "membershipPlans",
+        "contact",
+        "footer"
+      ]
+    },
+    "pricing": {
+      "sections": [
+        "header",
+        "membershipPlans",
+        "faq",
+        "ctaBanner",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "membershipPlans",
+        "footer"
+      ]
+    },
+    "schedule": {
+      "sections": [
+        "header",
+        "classSchedule",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "classSchedule",
+        "footer"
+      ]
+    },
+    "team": {
+      "sections": [
+        "header",
+        "team",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "team",
+        "footer"
+      ]
+    },
+    "contact": {
+      "sections": [
+        "header",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "onlineBooking": {
+      "enabled": true,
+      "method": "mindbody",
+      "fallback": "whatsapp"
+    },
+    "serviceMenu": {
+      "enabled": true,
+      "showPrices": true
+    },
+    "portfolio": {
+      "enabled": false,
+      "optional": true
+    },
+    "beforeAfter": {
+      "enabled": false
+    },
+    "staffProfiles": {
+      "enabled": true,
+      "label": "Entrenadores",
+      "showCertifications": true
+    },
+    "pricingDisplay": {
+      "enabled": true,
+      "showTiers": true,
+      "highlightPopular": true
+    },
+    "walkInPolicy": {
+      "enabled": false
+    },
+    "classSchedule": {
+      "enabled": true,
+      "filterByDay": true,
+      "filterByType": true,
+      "filterByInstructor": true
+    },
+    "packageBuilder": {
+      "enabled": true
+    },
+    "aftercareInfo": {
+      "enabled": false
+    },
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "googleMapsEmbed": {
+      "enabled": true
+    },
+    "freeTrial": {
+      "enabled": true,
+      "days": 7
+    },
+    "productCatalog": {
+      "enabled": true,
+      "showPrices": true
+    },
+    "giftCards": {
+      "enabled": true
+    },
+    "memberships": {
+      "enabled": true
+    }
+  },
+  "serviceCategories": [
+    "membresias",
+    "clases_grupales",
+    "entrenamiento_personal",
+    "amenidades"
+  ],
+  "targetAudience": {
+    "primary": "Adults 25-45, fitness-conscious, comparing options",
+    "secondary": "Athletes, Seniors, Youth"
+  },
+  "seo": {
+    "titleTemplate": "{{businessName}} - Gimnasio en {{city}} | Membresias y Clases",
+    "descriptionTemplate": "Gimnasio en {{city}} con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde {{lowestPrice}}/mes.",
+    "schemaType": "SportsActivityLocation",
+    "keywords": [
+      "gimnasio {{city}}",
+      "gym cerca de mi",
+      "clases de fitness {{city}}",
+      "entrenador personal {{city}}"
+    ]
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Clases",
+      "Planes",
+      "Equipo",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Prueba Free",
+      "action": "freeTrial"
+    }
+  },
+  "hero": {
+    "style": "video",
+    "headlineTemplate": "TRANSFORMA TU CUERPO EN {{businessName}}",
+    "subheadlineTemplate": "Entrena con los mejores profesionales en instalaciones de primera",
+    "stats": [
+      "{{memberCount}}+ MIEMBROS",
+      "{{classCount}}+ CLASES SEMANALES",
+      "{{accessHours}} DISPONIBLE"
+    ],
+    "ctaPrimary": {
+      "text": "PRUEBA 7 DIAS FREE",
+      "action": "freeTrial"
+    },
+    "ctaSecondary": {
+      "text": "VER MEMBRESIAS",
+      "action": "scrollTo:pricing"
+    }
+  }
+}

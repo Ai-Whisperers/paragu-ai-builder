@@ -1,0 +1,22 @@
+{
+  "id": "kinesiology_practice",
+  "nameEs": "Kinesiologia",
+  "nameEn": "Kinesiology",
+  "verticalId": "health-wellness",
+  "subVertical": "physical-therapy",
+  "extends": "health_wellness_base",
+  "tokens": "kinesiology_practice",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Kinesiologia en {{city}}",
+    "descriptionTemplate": "Kinesiologia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "kinesiologia {{city}}",
+      "kinesiology {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Kinesiologia",
+    "subheadlineTemplate": "Kinesiologia profesional en {{city}}."
+  }
+}

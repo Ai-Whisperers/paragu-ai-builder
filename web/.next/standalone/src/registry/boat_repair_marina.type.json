@@ -1,0 +1,22 @@
+{
+  "id": "boat_repair_marina",
+  "nameEs": "Taller Nautico",
+  "nameEn": "Boat Repair",
+  "verticalId": "automotive",
+  "subVertical": "rv-boat-powersport",
+  "extends": "automotive_base",
+  "tokens": "boat_repair_marina",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Taller Nautico en {{city}}",
+    "descriptionTemplate": "Taller Nautico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller nautico {{city}}",
+      "boat repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller Nautico",
+    "subheadlineTemplate": "Taller Nautico profesional en {{city}}."
+  }
+}

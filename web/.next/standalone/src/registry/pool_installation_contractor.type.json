@@ -1,0 +1,22 @@
+{
+  "id": "pool_installation_contractor",
+  "nameEs": "Constructor Piletas",
+  "nameEn": "Pool Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "pool-spa",
+  "extends": "trades_base",
+  "tokens": "pool_installation_contractor",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Constructor Piletas en {{city}}",
+    "descriptionTemplate": "Constructor Piletas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "constructor piletas {{city}}",
+      "pool installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Constructor Piletas",
+    "subheadlineTemplate": "Constructor Piletas profesional en {{city}}."
+  }
+}

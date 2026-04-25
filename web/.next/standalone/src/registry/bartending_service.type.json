@@ -1,0 +1,22 @@
+{
+  "id": "bartending_service",
+  "nameEs": "Servicio de Barra",
+  "nameEn": "Bartending Service",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "bartending_service",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Servicio de Barra en {{city}}",
+    "descriptionTemplate": "Servicio de Barra profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio de barra {{city}}",
+      "bartending service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio de Barra",
+    "subheadlineTemplate": "Servicio de Barra profesional en {{city}}."
+  }
+}

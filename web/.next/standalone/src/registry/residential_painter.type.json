@@ -1,0 +1,22 @@
+{
+  "id": "residential_painter",
+  "nameEs": "Pintor Residencial",
+  "nameEn": "Residential Painter",
+  "verticalId": "trades-home-services",
+  "subVertical": "painting-finishing",
+  "extends": "trades_base",
+  "tokens": "residential_painter",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Pintor Residencial en {{city}}",
+    "descriptionTemplate": "Pintor Residencial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pintor residencial {{city}}",
+      "residential painter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pintor Residencial",
+    "subheadlineTemplate": "Pintor Residencial profesional en {{city}}."
+  }
+}

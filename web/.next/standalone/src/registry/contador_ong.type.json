@@ -1,0 +1,80 @@
+{
+  "id": "contador_ong",
+  "nameEs": "Contador para ONGs y Fundaciones",
+  "nameEn": "NGO & Foundation Accountant",
+  "verticalId": "b2b-professional",
+  "extends": "contador",
+  "tokens": "contador_ong",
+  "content": "contador_ong",
+  "schema": "contador",
+  "icon": "heart",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "servicesPreview",
+        "pricingTable",
+        "process",
+        "about",
+        "testimonial",
+        "faq",
+        "leadForm",
+        "footer"
+      ],
+      "requiredSections": ["header", "hero", "servicesPreview", "contact", "footer"]
+    }
+  },
+  "features": {
+    "leadForm": {
+      "enabled": true,
+      "fields": ["name", "email", "organizationName", "annualBudget", "mainDonors", "message"]
+    },
+    "pricingDisplay": { "enabled": true, "showFrom": true },
+    "languageToggle": { "enabled": true, "languages": ["es", "en"] },
+    "whatsappFloat": { "enabled": true }
+  },
+  "serviceCategories": [
+    "cgr-rendicion",
+    "exencion-ire",
+    "donantes",
+    "laboral-ong",
+    "compliance"
+  ],
+  "regulatoryVocab": {
+    "primaryRegulator": "CGR (Contraloria General de la Republica)",
+    "taxAuthority": "DNIT",
+    "laborAuthority": "MTESS + IPS",
+    "keyResolutions": ["Res. CGR 106/24 (rendicion ONGs)", "Ley 6380/19 art. 8 (exencion IRE)"],
+    "mainDonors": ["USAID", "GIZ", "UE", "CIRD", "fundaciones privadas"]
+  },
+  "targetAudience": {
+    "primary": "ONGs y fundaciones paraguayas de salud, educacion, medio ambiente, DDHH",
+    "secondary": "Fundaciones familiares y patrimoniales",
+    "tertiary": "Organizaciones con donantes internacionales (USAID, GIZ, UE)"
+  },
+  "seo": {
+    "schemaType": "AccountingService",
+    "titleTemplate": "{{businessName}} - Contador para ONGs y Fundaciones | CGR + Exencion IRE",
+    "descriptionTemplate": "Rendicion CGR, exencion IRE, reporting a donantes USAID/GIZ/UE, laboral ONG. Contadores matriculados CCP especializados en tercer sector.",
+    "keywords": [
+      "contador ONG {{city}}",
+      "rendicion CGR paraguay",
+      "exencion IRE ONG",
+      "reporting donantes USAID",
+      "contador fundacion paraguay",
+      "Res CGR 106/24"
+    ]
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Planes", "Proceso", "FAQ", "Contacto"],
+    "cta": { "text": "Agendar Diagnostico", "action": "leadForm" }
+  },
+  "hero": {
+    "style": "minimal",
+    "headlineTemplate": "{{businessName}} - Contabilidad para el Tercer Sector",
+    "subheadlineTemplate": "ONGs, fundaciones y organizaciones sin fines de lucro — rendicion CGR, exencion IRE, reporting a donantes internacionales.",
+    "ctaPrimary": { "text": "Agendar Diagnostico", "action": "leadForm" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}

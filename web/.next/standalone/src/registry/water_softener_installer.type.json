@@ -1,0 +1,22 @@
+{
+  "id": "water_softener_installer",
+  "nameEs": "Instalador Ablandador",
+  "nameEn": "Water Softener",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "water_softener_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador Ablandador en {{city}}",
+    "descriptionTemplate": "Instalador Ablandador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador ablandador {{city}}",
+      "water softener {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador Ablandador",
+    "subheadlineTemplate": "Instalador Ablandador profesional en {{city}}."
+  }
+}

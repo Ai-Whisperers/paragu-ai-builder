@@ -1,0 +1,25 @@
+{
+  "id": "bar_association_local",
+  "nameEs": "Colegio Abogados",
+  "nameEn": "Bar Association",
+  "verticalId": "membership-community",
+  "subVertical": "professional-society",
+  "extends": "membership_base",
+  "tokens": "bar_association_local",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Colegio Abogados en {{city}}",
+    "descriptionTemplate": "Colegio Abogados profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "colegio abogados {{city}}",
+      "bar association {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Colegio Abogados",
+    "subheadlineTemplate": "Colegio Abogados profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

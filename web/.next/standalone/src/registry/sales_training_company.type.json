@@ -1,0 +1,25 @@
+{
+  "id": "sales_training_company",
+  "nameEs": "Capacitacion Ventas",
+  "nameEn": "Sales Training",
+  "verticalId": "education-training",
+  "subVertical": "corporate-training",
+  "extends": "educacion",
+  "tokens": "sales_training_company",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Capacitacion Ventas en {{city}}",
+    "descriptionTemplate": "Capacitacion Ventas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capacitacion ventas {{city}}",
+      "sales training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capacitacion Ventas",
+    "subheadlineTemplate": "Capacitacion Ventas profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

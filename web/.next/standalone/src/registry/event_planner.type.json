@@ -1,0 +1,22 @@
+{
+  "id": "event_planner",
+  "nameEs": "Organizador de Eventos",
+  "nameEn": "Event Planner",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "event_planner",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Organizador de Eventos en {{city}}",
+    "descriptionTemplate": "Organizador de Eventos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "organizador de eventos {{city}}",
+      "event planner {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Organizador de Eventos",
+    "subheadlineTemplate": "Organizador de Eventos profesional en {{city}}."
+  }
+}

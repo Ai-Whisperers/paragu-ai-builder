@@ -1,0 +1,27 @@
+{
+  "id": "remiseria",
+  "nameEs": "Remiseria",
+  "nameEn": "Private Car Service",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "remiseria",
+  "seo": {
+    "schemaType": "TaxiService",
+    "titleTemplate": "{{businessName}} - Remiseria en {{city}}",
+    "descriptionTemplate": "Remises particulares y corporativos en {{city}}. 24 horas.",
+    "keywords": [
+      "remiseria {{city}}",
+      "remis {{city}}",
+      "traslado aeropuerto {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Viajes seguros todos los dias",
+    "subheadlineTemplate": "Remises particulares y corporativos en {{city}}. 24 horas."
+  },
+  "serviceCategories": [
+    "ciudad",
+    "aeropuerto",
+    "empresa"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ferreteria",
+  "nameEs": "Ferreteria",
+  "nameEn": "Hardware Store",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "ferreteria",
+  "seo": {
+    "schemaType": "HardwareStore",
+    "titleTemplate": "{{businessName}} - Ferreteria en {{city}}",
+    "descriptionTemplate": "Ferreteria con herramientas, electricidad, plomeria y materiales en {{city}}.",
+    "keywords": [
+      "ferreteria {{city}}",
+      "herramientas {{city}}",
+      "materiales construccion {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Todo para tu obra y reparaciones",
+    "subheadlineTemplate": "Ferreteria con herramientas, electricidad, plomeria y materiales en {{city}}."
+  },
+  "serviceCategories": [
+    "herramientas",
+    "electricidad",
+    "plomeria"
+  ]
+}

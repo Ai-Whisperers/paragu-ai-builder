@@ -1,0 +1,22 @@
+{
+  "id": "sfx_makeup_artist",
+  "nameEs": "Maquillaje FX",
+  "nameEn": "SFX Makeup",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "makeup",
+  "extends": "beauty_base",
+  "tokens": "sfx_makeup_artist",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Maquillaje FX en {{city}}",
+    "descriptionTemplate": "Maquillaje FX profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "maquillaje fx {{city}}",
+      "sfx makeup {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Maquillaje FX",
+    "subheadlineTemplate": "Maquillaje FX profesional en {{city}}."
+  }
+}

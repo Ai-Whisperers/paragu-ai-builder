@@ -1,0 +1,22 @@
+{
+  "id": "lighting_design_installer",
+  "nameEs": "Instalador Iluminacion",
+  "nameEn": "Lighting Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "lighting_design_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador Iluminacion en {{city}}",
+    "descriptionTemplate": "Instalador Iluminacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador iluminacion {{city}}",
+      "lighting installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador Iluminacion",
+    "subheadlineTemplate": "Instalador Iluminacion profesional en {{city}}."
+  }
+}

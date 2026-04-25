@@ -1,0 +1,22 @@
+{
+  "id": "cave_hotel",
+  "nameEs": "Hotel Cueva",
+  "nameEn": "Cave Hotel",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "specialty-lodging",
+  "extends": "restaurant",
+  "tokens": "cave_hotel",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Hotel Cueva en {{city}}",
+    "descriptionTemplate": "Hotel Cueva profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hotel cueva {{city}}",
+      "cave hotel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hotel Cueva",
+    "subheadlineTemplate": "Hotel Cueva profesional en {{city}}."
+  }
+}

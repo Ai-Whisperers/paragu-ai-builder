@@ -1,0 +1,22 @@
+{
+  "id": "peruvian_restaurant",
+  "nameEs": "Restaurante Peruano",
+  "nameEn": "Peruvian Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "peruvian_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante Peruano en {{city}}",
+    "descriptionTemplate": "Restaurante Peruano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante peruano {{city}}",
+      "peruvian restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante Peruano",
+    "subheadlineTemplate": "Restaurante Peruano profesional en {{city}}."
+  }
+}

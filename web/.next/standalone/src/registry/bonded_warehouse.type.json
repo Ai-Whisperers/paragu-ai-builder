@@ -1,0 +1,25 @@
+{
+  "id": "bonded_warehouse",
+  "nameEs": "Deposito Fiscal",
+  "nameEn": "Bonded Warehouse",
+  "verticalId": "logistics-transport",
+  "subVertical": "warehousing",
+  "extends": "logistics_base",
+  "tokens": "bonded_warehouse",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Deposito Fiscal en {{city}}",
+    "descriptionTemplate": "Deposito Fiscal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "deposito fiscal {{city}}",
+      "bonded warehouse {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Deposito Fiscal",
+    "subheadlineTemplate": "Deposito Fiscal profesional en {{city}}."
+  },
+  "flags": [
+    "B2B regulated"
+  ]
+}

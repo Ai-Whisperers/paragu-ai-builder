@@ -1,0 +1,22 @@
+{
+  "id": "airport_shuttle_service",
+  "nameEs": "Traslados Aeropuerto",
+  "nameEn": "Airport Shuttle",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "transport-tourism",
+  "extends": "restaurant",
+  "tokens": "airport_shuttle_service",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Traslados Aeropuerto en {{city}}",
+    "descriptionTemplate": "Traslados Aeropuerto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "traslados aeropuerto {{city}}",
+      "airport shuttle {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Traslados Aeropuerto",
+    "subheadlineTemplate": "Traslados Aeropuerto profesional en {{city}}."
+  }
+}

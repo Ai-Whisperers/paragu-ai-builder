@@ -1,0 +1,25 @@
+{
+  "id": "supply_chain_consulting",
+  "nameEs": "Consultoria SCM",
+  "nameEn": "Supply Chain",
+  "verticalId": "b2b-professional",
+  "subVertical": "management-consulting",
+  "extends": "professional_services_base",
+  "tokens": "supply_chain_consulting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultoria SCM en {{city}}",
+    "descriptionTemplate": "Consultoria SCM profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultoria scm {{city}}",
+      "supply chain {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultoria SCM",
+    "subheadlineTemplate": "Consultoria SCM profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

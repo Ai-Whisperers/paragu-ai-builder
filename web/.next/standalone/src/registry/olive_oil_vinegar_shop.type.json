@@ -1,0 +1,22 @@
+{
+  "id": "olive_oil_vinegar_shop",
+  "nameEs": "Tienda de Aceites",
+  "nameEn": "Olive Oil Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "olive_oil_vinegar_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Tienda de Aceites en {{city}}",
+    "descriptionTemplate": "Tienda de Aceites profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda de aceites {{city}}",
+      "olive oil shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda de Aceites",
+    "subheadlineTemplate": "Tienda de Aceites profesional en {{city}}."
+  }
+}

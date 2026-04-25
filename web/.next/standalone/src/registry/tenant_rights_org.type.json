@@ -1,0 +1,22 @@
+{
+  "id": "tenant_rights_org",
+  "nameEs": "Inquilinos",
+  "nameEn": "Tenant Rights",
+  "verticalId": "membership-community",
+  "subVertical": "advocacy-civic",
+  "extends": "membership_base",
+  "tokens": "tenant_rights_org",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Inquilinos en {{city}}",
+    "descriptionTemplate": "Inquilinos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "inquilinos {{city}}",
+      "tenant rights {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Inquilinos",
+    "subheadlineTemplate": "Inquilinos profesional en {{city}}."
+  }
+}

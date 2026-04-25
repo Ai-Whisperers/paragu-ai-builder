@@ -1,0 +1,22 @@
+{
+  "id": "cidery",
+  "nameEs": "Sidreria",
+  "nameEn": "Cidery",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "cidery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Sidreria en {{city}}",
+    "descriptionTemplate": "Sidreria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sidreria {{city}}",
+      "cidery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sidreria",
+    "subheadlineTemplate": "Sidreria profesional en {{city}}."
+  }
+}

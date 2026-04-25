@@ -1,0 +1,22 @@
+{
+  "id": "land_broker",
+  "nameEs": "Broker de Tierras",
+  "nameEn": "Land Broker",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "land-development",
+  "extends": "inmobiliaria",
+  "tokens": "land_broker",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Broker de Tierras en {{city}}",
+    "descriptionTemplate": "Broker de Tierras profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "broker de tierras {{city}}",
+      "land broker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Broker de Tierras",
+    "subheadlineTemplate": "Broker de Tierras profesional en {{city}}."
+  }
+}

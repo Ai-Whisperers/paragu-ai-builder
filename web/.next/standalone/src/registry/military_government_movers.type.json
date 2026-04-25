@@ -1,0 +1,22 @@
+{
+  "id": "military_government_movers",
+  "nameEs": "Mudanzas Militares",
+  "nameEn": "Military Movers",
+  "verticalId": "logistics-transport",
+  "subVertical": "moving-specialty",
+  "extends": "logistics_base",
+  "tokens": "military_government_movers",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Mudanzas Militares en {{city}}",
+    "descriptionTemplate": "Mudanzas Militares profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mudanzas militares {{city}}",
+      "military movers {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mudanzas Militares",
+    "subheadlineTemplate": "Mudanzas Militares profesional en {{city}}."
+  }
+}

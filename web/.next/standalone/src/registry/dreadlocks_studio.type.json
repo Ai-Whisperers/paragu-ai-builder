@@ -1,0 +1,22 @@
+{
+  "id": "dreadlocks_studio",
+  "nameEs": "Estudio de Rastas",
+  "nameEn": "Dreadlock Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "dreadlocks_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Estudio de Rastas en {{city}}",
+    "descriptionTemplate": "Estudio de Rastas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de rastas {{city}}",
+      "dreadlock studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Rastas",
+    "subheadlineTemplate": "Estudio de Rastas profesional en {{city}}."
+  }
+}

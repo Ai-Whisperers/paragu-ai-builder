@@ -1,0 +1,22 @@
+{
+  "id": "soccer_academy",
+  "nameEs": "Academia Futbol",
+  "nameEn": "Soccer Academy",
+  "verticalId": "sports-recreation",
+  "subVertical": "team-sports-league",
+  "extends": "sports_base",
+  "tokens": "soccer_academy",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Academia Futbol en {{city}}",
+    "descriptionTemplate": "Academia Futbol profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "academia futbol {{city}}",
+      "soccer academy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Academia Futbol",
+    "subheadlineTemplate": "Academia Futbol profesional en {{city}}."
+  }
+}

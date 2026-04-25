@@ -1,0 +1,22 @@
+{
+  "id": "hospice_service",
+  "nameEs": "Cuidados Paliativos",
+  "nameEn": "Hospice",
+  "verticalId": "health-wellness",
+  "subVertical": "senior-homecare",
+  "extends": "health_wellness_base",
+  "tokens": "hospice_service",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Cuidados Paliativos en {{city}}",
+    "descriptionTemplate": "Cuidados Paliativos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cuidados paliativos {{city}}",
+      "hospice {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidados Paliativos",
+    "subheadlineTemplate": "Cuidados Paliativos profesional en {{city}}."
+  }
+}

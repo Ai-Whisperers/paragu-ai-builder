@@ -1,0 +1,22 @@
+{
+  "id": "pond_water_feature_installer",
+  "nameEs": "Estanques y Fuentes",
+  "nameEn": "Pond Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "pool-spa",
+  "extends": "trades_base",
+  "tokens": "pond_water_feature_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Estanques y Fuentes en {{city}}",
+    "descriptionTemplate": "Estanques y Fuentes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estanques y fuentes {{city}}",
+      "pond installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estanques y Fuentes",
+    "subheadlineTemplate": "Estanques y Fuentes profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "golf_cart_service",
+  "nameEs": "Servicio Carritos Golf",
+  "nameEn": "Golf Cart Service",
+  "verticalId": "automotive",
+  "subVertical": "rv-boat-powersport",
+  "extends": "automotive_base",
+  "tokens": "golf_cart_service",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Servicio Carritos Golf en {{city}}",
+    "descriptionTemplate": "Servicio Carritos Golf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio carritos golf {{city}}",
+      "golf cart service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio Carritos Golf",
+    "subheadlineTemplate": "Servicio Carritos Golf profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "polo_club",
+  "nameEs": "Club Polo",
+  "nameEn": "Polo Club",
+  "verticalId": "sports-recreation",
+  "subVertical": "equestrian",
+  "extends": "sports_base",
+  "tokens": "polo_club",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Club Polo en {{city}}",
+    "descriptionTemplate": "Club Polo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club polo {{city}}",
+      "polo club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Polo",
+    "subheadlineTemplate": "Club Polo profesional en {{city}}."
+  }
+}

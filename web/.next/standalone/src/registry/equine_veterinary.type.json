@@ -1,0 +1,22 @@
+{
+  "id": "equine_veterinary",
+  "nameEs": "Veterinaria Equina",
+  "nameEn": "Equine Vet",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "equine_veterinary",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Veterinaria Equina en {{city}}",
+    "descriptionTemplate": "Veterinaria Equina profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "veterinaria equina {{city}}",
+      "equine vet {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Veterinaria Equina",
+    "subheadlineTemplate": "Veterinaria Equina profesional en {{city}}."
+  }
+}

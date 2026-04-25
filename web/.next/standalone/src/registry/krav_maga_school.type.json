@@ -1,0 +1,22 @@
+{
+  "id": "krav_maga_school",
+  "nameEs": "Escuela Krav Maga",
+  "nameEn": "Krav Maga",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "krav_maga_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Krav Maga en {{city}}",
+    "descriptionTemplate": "Escuela Krav Maga profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela krav maga {{city}}",
+      "krav maga {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Krav Maga",
+    "subheadlineTemplate": "Escuela Krav Maga profesional en {{city}}."
+  }
+}

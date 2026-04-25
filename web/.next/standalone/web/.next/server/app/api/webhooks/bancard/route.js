@@ -1,0 +1,13 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/webhooks/bancard/route.js")
+R.c("server/chunks/web_lib_0ttdg2j._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
+R.c("server/chunks/web_lib_supabase_scoped_ts_0o6-gr4._.js")
+R.c("server/chunks/[root-of-the-server]__0q2fypp._.js")
+R.c("server/chunks/[root-of-the-server]__0ho7z50._.js")
+R.c("server/chunks/063q_@supabase_supabase-js_dist_index_mjs_0vzrh56._.js")
+R.c("server/chunks/063q_next_dist_0bo6z5y._.js")
+R.c("server/chunks/web_0ejqmz1._.js")
+R.c("server/chunks/063q_next_12dskcl._.js")
+R.c("server/chunks/web__next-internal_server_app_api_webhooks_bancard_route_actions_0nsjhzc.js")
+R.m(162107)
+module.exports=R.m(162107).exports

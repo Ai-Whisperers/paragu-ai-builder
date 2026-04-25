@@ -1,0 +1,22 @@
+{
+  "id": "blood_draw_station",
+  "nameEs": "Extraccion de Sangre",
+  "nameEn": "Blood Draw Station",
+  "verticalId": "health-wellness",
+  "subVertical": "diagnostics-imaging",
+  "extends": "health_wellness_base",
+  "tokens": "blood_draw_station",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Extraccion de Sangre en {{city}}",
+    "descriptionTemplate": "Extraccion de Sangre profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "extraccion de sangre {{city}}",
+      "blood draw station {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Extraccion de Sangre",
+    "subheadlineTemplate": "Extraccion de Sangre profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bespoke_tailor",
+  "nameEs": "Sastre a Medida",
+  "nameEn": "Bespoke Tailor",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fashion-design",
+  "extends": "diseno_grafico",
+  "tokens": "bespoke_tailor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Sastre a Medida en {{city}}",
+    "descriptionTemplate": "Sastre a Medida profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sastre a medida {{city}}",
+      "bespoke tailor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sastre a Medida",
+    "subheadlineTemplate": "Sastre a Medida profesional en {{city}}."
+  }
+}

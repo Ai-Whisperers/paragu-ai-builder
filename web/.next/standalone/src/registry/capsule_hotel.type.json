@@ -1,0 +1,22 @@
+{
+  "id": "capsule_hotel",
+  "nameEs": "Hotel Capsula",
+  "nameEn": "Capsule Hotel",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "hostel-budget",
+  "extends": "restaurant",
+  "tokens": "capsule_hotel",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Hotel Capsula en {{city}}",
+    "descriptionTemplate": "Hotel Capsula profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hotel capsula {{city}}",
+      "capsule hotel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hotel Capsula",
+    "subheadlineTemplate": "Hotel Capsula profesional en {{city}}."
+  }
+}

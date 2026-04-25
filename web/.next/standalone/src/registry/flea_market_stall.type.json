@@ -1,0 +1,22 @@
+{
+  "id": "flea_market_stall",
+  "nameEs": "Feria Americana",
+  "nameEn": "Flea Market",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "flea_market_stall",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Feria Americana en {{city}}",
+    "descriptionTemplate": "Feria Americana profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "feria americana {{city}}",
+      "flea market {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Feria Americana",
+    "subheadlineTemplate": "Feria Americana profesional en {{city}}."
+  }
+}

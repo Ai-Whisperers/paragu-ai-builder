@@ -1,0 +1,22 @@
+{
+  "id": "hammam_turkish_bath",
+  "nameEs": "Hamam",
+  "nameEn": "Hammam",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "hammam_turkish_bath",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Hamam en {{city}}",
+    "descriptionTemplate": "Hamam profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hamam {{city}}",
+      "hammam {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hamam",
+    "subheadlineTemplate": "Hamam profesional en {{city}}."
+  }
+}

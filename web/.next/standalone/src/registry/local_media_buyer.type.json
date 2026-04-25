@@ -1,0 +1,25 @@
+{
+  "id": "local_media_buyer",
+  "nameEs": "Planificador Medios",
+  "nameEn": "Local Media Buyer",
+  "verticalId": "media-publishing",
+  "subVertical": "ad-media-local",
+  "extends": "media_base",
+  "tokens": "local_media_buyer",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Planificador Medios en {{city}}",
+    "descriptionTemplate": "Planificador Medios profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "planificador medios {{city}}",
+      "local media buyer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Planificador Medios",
+    "subheadlineTemplate": "Planificador Medios profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

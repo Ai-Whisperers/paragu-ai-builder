@@ -1,0 +1,25 @@
+{
+  "id": "customs_broker",
+  "nameEs": "Despachante Aduana",
+  "nameEn": "Customs Broker",
+  "verticalId": "logistics-transport",
+  "subVertical": "freight-brokerage",
+  "extends": "logistics_base",
+  "tokens": "customs_broker",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Despachante Aduana en {{city}}",
+    "descriptionTemplate": "Despachante Aduana profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "despachante aduana {{city}}",
+      "customs broker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Despachante Aduana",
+    "subheadlineTemplate": "Despachante Aduana profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

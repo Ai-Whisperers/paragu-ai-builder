@@ -1,0 +1,25 @@
+{
+  "id": "architect_society",
+  "nameEs": "Colegio Arquitectos",
+  "nameEn": "Architect Society",
+  "verticalId": "membership-community",
+  "subVertical": "professional-society",
+  "extends": "membership_base",
+  "tokens": "architect_society",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Colegio Arquitectos en {{city}}",
+    "descriptionTemplate": "Colegio Arquitectos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "colegio arquitectos {{city}}",
+      "architect society {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Colegio Arquitectos",
+    "subheadlineTemplate": "Colegio Arquitectos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

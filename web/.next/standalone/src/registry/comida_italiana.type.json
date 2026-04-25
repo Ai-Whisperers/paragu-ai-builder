@@ -1,0 +1,21 @@
+{
+  "id": "comida_italiana",
+  "nameEs": "Cocina Italiana",
+  "nameEn": "Italian Restaurant",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "comida_italiana",
+  "seo": {
+    "schemaType": "Restaurant",
+    "titleTemplate": "{{businessName}} - Cocina Italiana en {{city}}",
+    "descriptionTemplate": "Pastas frescas, antipasti, pizzas napoletanas y vinos italianos.",
+    "keywords": [
+      "restaurante italiano {{city}}",
+      "pasta fresca {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Autentica Italia en la mesa",
+    "subheadlineTemplate": "Pastas frescas, antipasti, pizzas napoletanas y vinos italianos."
+  }
+}

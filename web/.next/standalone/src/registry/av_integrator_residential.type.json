@@ -1,0 +1,22 @@
+{
+  "id": "av_integrator_residential",
+  "nameEs": "Integrador AV Hogar",
+  "nameEn": "AV Integrator Home",
+  "verticalId": "technology-digital",
+  "subVertical": "av-integration",
+  "extends": "technology_base",
+  "tokens": "av_integrator_residential",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Integrador AV Hogar en {{city}}",
+    "descriptionTemplate": "Integrador AV Hogar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "integrador av hogar {{city}}",
+      "av integrator home {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Integrador AV Hogar",
+    "subheadlineTemplate": "Integrador AV Hogar profesional en {{city}}."
+  }
+}

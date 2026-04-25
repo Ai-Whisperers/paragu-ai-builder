@@ -1,0 +1,25 @@
+{
+  "id": "commercial_video_production",
+  "nameEs": "Productora Comercial",
+  "nameEn": "Commercial Video",
+  "verticalId": "portfolio-professional",
+  "subVertical": "videography-film",
+  "extends": "diseno_grafico",
+  "tokens": "commercial_video_production",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Productora Comercial en {{city}}",
+    "descriptionTemplate": "Productora Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "productora comercial {{city}}",
+      "commercial video {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Productora Comercial",
+    "subheadlineTemplate": "Productora Comercial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

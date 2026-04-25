@@ -1,0 +1,22 @@
+{
+  "id": "sod_installation",
+  "nameEs": "Instalacion Cesped",
+  "nameEn": "Sod Installation",
+  "verticalId": "trades-home-services",
+  "subVertical": "landscaping",
+  "extends": "trades_base",
+  "tokens": "sod_installation",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalacion Cesped en {{city}}",
+    "descriptionTemplate": "Instalacion Cesped profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalacion cesped {{city}}",
+      "sod installation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalacion Cesped",
+    "subheadlineTemplate": "Instalacion Cesped profesional en {{city}}."
+  }
+}

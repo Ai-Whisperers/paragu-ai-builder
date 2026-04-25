@@ -1,0 +1,22 @@
+{
+  "id": "swim_school",
+  "nameEs": "Escuela Natacion",
+  "nameEn": "Swim School",
+  "verticalId": "sports-recreation",
+  "subVertical": "water-sports",
+  "extends": "sports_base",
+  "tokens": "swim_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Natacion en {{city}}",
+    "descriptionTemplate": "Escuela Natacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela natacion {{city}}",
+      "swim school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Natacion",
+    "subheadlineTemplate": "Escuela Natacion profesional en {{city}}."
+  }
+}

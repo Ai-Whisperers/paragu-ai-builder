@@ -1,0 +1,22 @@
+{
+  "id": "herreria",
+  "nameEs": "Herreria",
+  "nameEn": "Metalworker",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "herreria",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Herreria en {{city}}",
+    "descriptionTemplate": "Portones, rejas, escaleras y estructuras metalicas a medida.",
+    "keywords": [
+      "herreria {{city}}",
+      "rejas {{city}}",
+      "portones {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Trabajos en hierro, con terminacion impecable",
+    "subheadlineTemplate": "Portones, rejas, escaleras y estructuras metalicas a medida."
+  }
+}

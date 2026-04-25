@@ -1,0 +1,22 @@
+{
+  "id": "home_staging_designer",
+  "nameEs": "Home Stager",
+  "nameEn": "Home Stager",
+  "verticalId": "portfolio-professional",
+  "subVertical": "architecture-interior",
+  "extends": "diseno_grafico",
+  "tokens": "home_staging_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Home Stager en {{city}}",
+    "descriptionTemplate": "Home Stager profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "home stager {{city}}",
+      "home stager {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Home Stager",
+    "subheadlineTemplate": "Home Stager profesional en {{city}}."
+  }
+}

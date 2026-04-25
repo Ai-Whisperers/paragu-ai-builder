@@ -1,0 +1,22 @@
+{
+  "id": "indoor_climbing_gym",
+  "nameEs": "Gimnasio Escalada Techo",
+  "nameEn": "Indoor Climbing",
+  "verticalId": "sports-recreation",
+  "subVertical": "climbing-adventure",
+  "extends": "sports_base",
+  "tokens": "indoor_climbing_gym",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Gimnasio Escalada Techo en {{city}}",
+    "descriptionTemplate": "Gimnasio Escalada Techo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio escalada techo {{city}}",
+      "indoor climbing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio Escalada Techo",
+    "subheadlineTemplate": "Gimnasio Escalada Techo profesional en {{city}}."
+  }
+}

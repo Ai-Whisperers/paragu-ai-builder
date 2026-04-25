@@ -1,0 +1,32 @@
+{
+  "id": "tienda_mascotas",
+  "nameEs": "Pet Shop",
+  "nameEn": "Pet Shop",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "tienda_mascotas",
+  "seo": {
+    "schemaType": "PetStore",
+    "titleTemplate": "{{businessName}} - Pet Shop en {{city}}",
+    "descriptionTemplate": "Alimentos, accesorios y cuidado para mascotas en {{city}}.",
+    "keywords": [
+      "pet shop {{city}}",
+      "alimento mascotas {{city}}",
+      "veterinaria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Todo para tu mejor amigo",
+    "subheadlineTemplate": "Alimentos, accesorios y cuidado para mascotas en {{city}}."
+  },
+  "serviceCategories": [
+    "alimentos",
+    "accesorios",
+    "higiene"
+  ],
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG"
+  }
+}

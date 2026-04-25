@@ -1,0 +1,22 @@
+{
+  "id": "lsat_prep_center",
+  "nameEs": "LSAT",
+  "nameEn": "LSAT Prep",
+  "verticalId": "education-training",
+  "subVertical": "test-prep",
+  "extends": "educacion",
+  "tokens": "lsat_prep_center",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - LSAT en {{city}}",
+    "descriptionTemplate": "LSAT profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lsat {{city}}",
+      "lsat prep {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - LSAT",
+    "subheadlineTemplate": "LSAT profesional en {{city}}."
+  }
+}

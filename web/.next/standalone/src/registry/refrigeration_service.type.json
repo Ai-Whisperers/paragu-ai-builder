@@ -1,0 +1,25 @@
+{
+  "id": "refrigeration_service",
+  "nameEs": "Servicio Refrigeracion Comercial",
+  "nameEn": "Refrigeration Service",
+  "verticalId": "trades-home-services",
+  "subVertical": "hvac",
+  "extends": "trades_base",
+  "tokens": "refrigeration_service",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Servicio Refrigeracion Comercial en {{city}}",
+    "descriptionTemplate": "Servicio Refrigeracion Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio refrigeracion comercial {{city}}",
+      "refrigeration service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio Refrigeracion Comercial",
+    "subheadlineTemplate": "Servicio Refrigeracion Comercial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

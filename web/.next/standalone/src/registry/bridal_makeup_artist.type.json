@@ -1,0 +1,22 @@
+{
+  "id": "bridal_makeup_artist",
+  "nameEs": "Maquillaje de Novia",
+  "nameEn": "Bridal Makeup",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "makeup",
+  "extends": "beauty_base",
+  "tokens": "bridal_makeup_artist",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Maquillaje de Novia en {{city}}",
+    "descriptionTemplate": "Maquillaje de Novia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "maquillaje de novia {{city}}",
+      "bridal makeup {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Maquillaje de Novia",
+    "subheadlineTemplate": "Maquillaje de Novia profesional en {{city}}."
+  }
+}

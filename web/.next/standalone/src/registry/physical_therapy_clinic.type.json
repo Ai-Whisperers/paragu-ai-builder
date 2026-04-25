@@ -1,0 +1,22 @@
+{
+  "id": "physical_therapy_clinic",
+  "nameEs": "Fisioterapia",
+  "nameEn": "Physical Therapy",
+  "verticalId": "health-wellness",
+  "subVertical": "physical-therapy",
+  "extends": "health_wellness_base",
+  "tokens": "physical_therapy_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Fisioterapia en {{city}}",
+    "descriptionTemplate": "Fisioterapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fisioterapia {{city}}",
+      "physical therapy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fisioterapia",
+    "subheadlineTemplate": "Fisioterapia profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "luxury_resale_boutique",
+  "nameEs": "Lujo Usado",
+  "nameEn": "Luxury Resale",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "luxury_resale_boutique",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Lujo Usado en {{city}}",
+    "descriptionTemplate": "Lujo Usado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lujo usado {{city}}",
+      "luxury resale {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lujo Usado",
+    "subheadlineTemplate": "Lujo Usado profesional en {{city}}."
+  }
+}

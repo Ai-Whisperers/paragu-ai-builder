@@ -1,0 +1,22 @@
+{
+  "id": "emergency_electrician",
+  "nameEs": "Electricista Emergencia",
+  "nameEn": "Emergency Electrician",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "emergency_electrician",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Electricista Emergencia en {{city}}",
+    "descriptionTemplate": "Electricista Emergencia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "electricista emergencia {{city}}",
+      "emergency electrician {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Electricista Emergencia",
+    "subheadlineTemplate": "Electricista Emergencia profesional en {{city}}."
+  }
+}

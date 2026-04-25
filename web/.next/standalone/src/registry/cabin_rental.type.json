@@ -1,0 +1,22 @@
+{
+  "id": "cabin_rental",
+  "nameEs": "Alquiler de Cabana",
+  "nameEn": "Cabin Rental",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "short-term-rental",
+  "extends": "restaurant",
+  "tokens": "cabin_rental",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler de Cabana en {{city}}",
+    "descriptionTemplate": "Alquiler de Cabana profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler de cabana {{city}}",
+      "cabin rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler de Cabana",
+    "subheadlineTemplate": "Alquiler de Cabana profesional en {{city}}."
+  }
+}

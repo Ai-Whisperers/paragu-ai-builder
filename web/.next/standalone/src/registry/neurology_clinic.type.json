@@ -1,0 +1,22 @@
+{
+  "id": "neurology_clinic",
+  "nameEs": "Neurologia",
+  "nameEn": "Neurology",
+  "verticalId": "health-wellness",
+  "subVertical": "specialty-medical",
+  "extends": "health_wellness_base",
+  "tokens": "neurology_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Neurologia en {{city}}",
+    "descriptionTemplate": "Neurologia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "neurologia {{city}}",
+      "neurology {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Neurologia",
+    "subheadlineTemplate": "Neurologia profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "geothermal_hvac",
+  "nameEs": "Geotermia",
+  "nameEn": "Geothermal HVAC",
+  "verticalId": "trades-home-services",
+  "subVertical": "hvac",
+  "extends": "trades_base",
+  "tokens": "geothermal_hvac",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Geotermia en {{city}}",
+    "descriptionTemplate": "Geotermia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "geotermia {{city}}",
+      "geothermal hvac {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Geotermia",
+    "subheadlineTemplate": "Geotermia profesional en {{city}}."
+  }
+}

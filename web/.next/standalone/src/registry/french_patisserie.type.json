@@ -1,0 +1,22 @@
+{
+  "id": "french_patisserie",
+  "nameEs": "Patisserie",
+  "nameEn": "Patisserie",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "french_patisserie",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Patisserie en {{city}}",
+    "descriptionTemplate": "Patisserie profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "patisserie {{city}}",
+      "patisserie {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Patisserie",
+    "subheadlineTemplate": "Patisserie profesional en {{city}}."
+  }
+}

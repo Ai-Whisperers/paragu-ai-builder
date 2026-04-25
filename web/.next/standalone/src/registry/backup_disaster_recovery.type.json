@@ -1,0 +1,25 @@
+{
+  "id": "backup_disaster_recovery",
+  "nameEs": "Respaldo y DRP",
+  "nameEn": "BDR Provider",
+  "verticalId": "technology-digital",
+  "subVertical": "it-managed-services",
+  "extends": "technology_base",
+  "tokens": "backup_disaster_recovery",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Respaldo y DRP en {{city}}",
+    "descriptionTemplate": "Respaldo y DRP profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "respaldo y drp {{city}}",
+      "bdr provider {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Respaldo y DRP",
+    "subheadlineTemplate": "Respaldo y DRP profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "aquarium_fish_store",
+  "nameEs": "Acuario Tienda",
+  "nameEn": "Aquarium Store",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "aquarium_fish_store",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Acuario Tienda en {{city}}",
+    "descriptionTemplate": "Acuario Tienda profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "acuario tienda {{city}}",
+      "aquarium store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acuario Tienda",
+    "subheadlineTemplate": "Acuario Tienda profesional en {{city}}."
+  }
+}

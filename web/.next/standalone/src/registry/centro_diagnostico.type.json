@@ -1,0 +1,28 @@
+{
+  "id": "centro_diagnostico",
+  "nameEs": "Centro de Diagnostico por Imagenes",
+  "nameEn": "Imaging Center",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "centro_diagnostico",
+  "seo": {
+    "schemaType": "DiagnosticLab",
+    "titleTemplate": "{{businessName}} - Centro de Diagnostico por Imagenes en {{city}}",
+    "descriptionTemplate": "Radiografias, ecografias, resonancias y tomografias con equipamiento moderno.",
+    "keywords": [
+      "radiografia {{city}}",
+      "ecografia {{city}}",
+      "resonancia {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Imagenes que orientan tu diagnostico",
+    "subheadlineTemplate": "Radiografias, ecografias, resonancias y tomografias con equipamiento moderno."
+  },
+  "serviceCategories": [
+    "radiografia",
+    "ecografia",
+    "resonancia",
+    "tomografia"
+  ]
+}

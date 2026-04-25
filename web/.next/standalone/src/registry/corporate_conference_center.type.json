@@ -1,0 +1,22 @@
+{
+  "id": "corporate_conference_center",
+  "nameEs": "Centro de Convenciones",
+  "nameEn": "Conference Center",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "event-venue",
+  "extends": "restaurant",
+  "tokens": "corporate_conference_center",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Centro de Convenciones en {{city}}",
+    "descriptionTemplate": "Centro de Convenciones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro de convenciones {{city}}",
+      "conference center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro de Convenciones",
+    "subheadlineTemplate": "Centro de Convenciones profesional en {{city}}."
+  }
+}

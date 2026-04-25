@@ -1,0 +1,22 @@
+{
+  "id": "window_treatment_store",
+  "nameEs": "Cortinas y Persianas",
+  "nameEn": "Window Treatment",
+  "verticalId": "retail-local",
+  "subVertical": "home-furnishings",
+  "extends": "retail_base",
+  "tokens": "window_treatment_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Cortinas y Persianas en {{city}}",
+    "descriptionTemplate": "Cortinas y Persianas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cortinas y persianas {{city}}",
+      "window treatment {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cortinas y Persianas",
+    "subheadlineTemplate": "Cortinas y Persianas profesional en {{city}}."
+  }
+}

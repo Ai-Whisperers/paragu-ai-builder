@@ -1,0 +1,25 @@
+{
+  "id": "hookah_shisha_shop",
+  "nameEs": "Tienda Narguile",
+  "nameEn": "Hookah Shop",
+  "verticalId": "retail-local",
+  "subVertical": "tobacco-vape",
+  "extends": "retail_base",
+  "tokens": "hookah_shisha_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda Narguile en {{city}}",
+    "descriptionTemplate": "Tienda Narguile profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda narguile {{city}}",
+      "hookah shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Narguile",
+    "subheadlineTemplate": "Tienda Narguile profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

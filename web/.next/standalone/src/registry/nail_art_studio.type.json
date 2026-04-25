@@ -1,0 +1,22 @@
+{
+  "id": "nail_art_studio",
+  "nameEs": "Arte en Unas",
+  "nameEn": "Nail Art Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "nails",
+  "extends": "beauty_base",
+  "tokens": "nail_art_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Arte en Unas en {{city}}",
+    "descriptionTemplate": "Arte en Unas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "arte en unas {{city}}",
+      "nail art studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Arte en Unas",
+    "subheadlineTemplate": "Arte en Unas profesional en {{city}}."
+  }
+}

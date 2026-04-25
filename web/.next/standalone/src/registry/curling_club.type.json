@@ -1,0 +1,22 @@
+{
+  "id": "curling_club",
+  "nameEs": "Club Curling",
+  "nameEn": "Curling Club",
+  "verticalId": "sports-recreation",
+  "subVertical": "winter-sports",
+  "extends": "sports_base",
+  "tokens": "curling_club",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Club Curling en {{city}}",
+    "descriptionTemplate": "Club Curling profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club curling {{city}}",
+      "curling club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Curling",
+    "subheadlineTemplate": "Club Curling profesional en {{city}}."
+  }
+}

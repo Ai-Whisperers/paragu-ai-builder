@@ -1,0 +1,22 @@
+{
+  "id": "sewer_line_specialist",
+  "nameEs": "Especialista Desagues",
+  "nameEn": "Sewer Line Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "sewer_line_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Especialista Desagues en {{city}}",
+    "descriptionTemplate": "Especialista Desagues profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista desagues {{city}}",
+      "sewer line specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Desagues",
+    "subheadlineTemplate": "Especialista Desagues profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tattoo_fine_artist",
+  "nameEs": "Artista Tatuador",
+  "nameEn": "Tattoo Fine Artist",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fine-arts",
+  "extends": "diseno_grafico",
+  "tokens": "tattoo_fine_artist",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Artista Tatuador en {{city}}",
+    "descriptionTemplate": "Artista Tatuador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "artista tatuador {{city}}",
+      "tattoo fine artist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Artista Tatuador",
+    "subheadlineTemplate": "Artista Tatuador profesional en {{city}}."
+  }
+}

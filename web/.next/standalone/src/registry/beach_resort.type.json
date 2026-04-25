@@ -1,0 +1,22 @@
+{
+  "id": "beach_resort",
+  "nameEs": "Resort Playa",
+  "nameEn": "Beach Resort",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "hotel-resort",
+  "extends": "restaurant",
+  "tokens": "beach_resort",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Resort Playa en {{city}}",
+    "descriptionTemplate": "Resort Playa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "resort playa {{city}}",
+      "beach resort {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Resort Playa",
+    "subheadlineTemplate": "Resort Playa profesional en {{city}}."
+  }
+}

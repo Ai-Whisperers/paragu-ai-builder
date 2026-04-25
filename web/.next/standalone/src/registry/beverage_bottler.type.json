@@ -1,0 +1,25 @@
+{
+  "id": "beverage_bottler",
+  "nameEs": "Embotelladora",
+  "nameEn": "Bottler",
+  "verticalId": "trades-industrial",
+  "subVertical": "food-processing",
+  "extends": "industrial_base",
+  "tokens": "beverage_bottler",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Embotelladora en {{city}}",
+    "descriptionTemplate": "Embotelladora profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "embotelladora {{city}}",
+      "bottler {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Embotelladora",
+    "subheadlineTemplate": "Embotelladora profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

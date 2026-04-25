@@ -1,0 +1,22 @@
+{
+  "id": "cat_boarding",
+  "nameEs": "Guarderia Felinos",
+  "nameEn": "Cat Boarding",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-boarding-daycare",
+  "extends": "pets_base",
+  "tokens": "cat_boarding",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Guarderia Felinos en {{city}}",
+    "descriptionTemplate": "Guarderia Felinos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guarderia felinos {{city}}",
+      "cat boarding {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guarderia Felinos",
+    "subheadlineTemplate": "Guarderia Felinos profesional en {{city}}."
+  }
+}

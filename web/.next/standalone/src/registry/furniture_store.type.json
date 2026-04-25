@@ -1,0 +1,22 @@
+{
+  "id": "furniture_store",
+  "nameEs": "Mueblria",
+  "nameEn": "Furniture Store",
+  "verticalId": "retail-local",
+  "subVertical": "home-furnishings",
+  "extends": "retail_base",
+  "tokens": "furniture_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Mueblria en {{city}}",
+    "descriptionTemplate": "Mueblria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mueblria {{city}}",
+      "furniture store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mueblria",
+    "subheadlineTemplate": "Mueblria profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "infrared_sauna_studio",
+  "nameEs": "Sauna Infrarroja",
+  "nameEn": "Infrared Sauna",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "infrared_sauna_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Sauna Infrarroja en {{city}}",
+    "descriptionTemplate": "Sauna Infrarroja profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sauna infrarroja {{city}}",
+      "infrared sauna {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sauna Infrarroja",
+    "subheadlineTemplate": "Sauna Infrarroja profesional en {{city}}."
+  }
+}

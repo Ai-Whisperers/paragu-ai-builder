@@ -1,0 +1,25 @@
+{
+  "id": "plastic_resin_distributor",
+  "nameEs": "Resinas Plasticas",
+  "nameEn": "Resin Distributor",
+  "verticalId": "trades-industrial",
+  "subVertical": "chemicals-materials",
+  "extends": "industrial_base",
+  "tokens": "plastic_resin_distributor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Resinas Plasticas en {{city}}",
+    "descriptionTemplate": "Resinas Plasticas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "resinas plasticas {{city}}",
+      "resin distributor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Resinas Plasticas",
+    "subheadlineTemplate": "Resinas Plasticas profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

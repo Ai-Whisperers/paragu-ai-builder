@@ -1,0 +1,22 @@
+{
+  "id": "arborist",
+  "nameEs": "Arborista Certificado",
+  "nameEn": "Certified Arborist",
+  "verticalId": "trades-home-services",
+  "subVertical": "landscaping",
+  "extends": "trades_base",
+  "tokens": "arborist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Arborista Certificado en {{city}}",
+    "descriptionTemplate": "Arborista Certificado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "arborista certificado {{city}}",
+      "certified arborist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Arborista Certificado",
+    "subheadlineTemplate": "Arborista Certificado profesional en {{city}}."
+  }
+}

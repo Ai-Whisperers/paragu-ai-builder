@@ -1,0 +1,22 @@
+{
+  "id": "senior_center",
+  "nameEs": "Centro Adultos Mayores",
+  "nameEn": "Senior Center",
+  "verticalId": "membership-community",
+  "subVertical": "community-center",
+  "extends": "membership_base",
+  "tokens": "senior_center",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Centro Adultos Mayores en {{city}}",
+    "descriptionTemplate": "Centro Adultos Mayores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro adultos mayores {{city}}",
+      "senior center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro Adultos Mayores",
+    "subheadlineTemplate": "Centro Adultos Mayores profesional en {{city}}."
+  }
+}

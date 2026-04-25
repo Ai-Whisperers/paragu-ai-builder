@@ -1,0 +1,22 @@
+{
+  "id": "costume_designer",
+  "nameEs": "Diseno de Vestuario",
+  "nameEn": "Costume Designer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fashion-design",
+  "extends": "diseno_grafico",
+  "tokens": "costume_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Diseno de Vestuario en {{city}}",
+    "descriptionTemplate": "Diseno de Vestuario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "diseno de vestuario {{city}}",
+      "costume designer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Diseno de Vestuario",
+    "subheadlineTemplate": "Diseno de Vestuario profesional en {{city}}."
+  }
+}

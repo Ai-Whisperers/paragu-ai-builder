@@ -1,0 +1,22 @@
+{
+  "id": "tea_blender",
+  "nameEs": "Mezclador de Te",
+  "nameEn": "Tea Blender",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "tea_blender",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Mezclador de Te en {{city}}",
+    "descriptionTemplate": "Mezclador de Te profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mezclador de te {{city}}",
+      "tea blender {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mezclador de Te",
+    "subheadlineTemplate": "Mezclador de Te profesional en {{city}}."
+  }
+}

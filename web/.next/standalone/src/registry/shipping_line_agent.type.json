@@ -1,0 +1,25 @@
+{
+  "id": "shipping_line_agent",
+  "nameEs": "Agente Naviero",
+  "nameEn": "Shipping Agent",
+  "verticalId": "logistics-transport",
+  "subVertical": "marine-port",
+  "extends": "logistics_base",
+  "tokens": "shipping_line_agent",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agente Naviero en {{city}}",
+    "descriptionTemplate": "Agente Naviero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agente naviero {{city}}",
+      "shipping agent {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agente Naviero",
+    "subheadlineTemplate": "Agente Naviero profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}
