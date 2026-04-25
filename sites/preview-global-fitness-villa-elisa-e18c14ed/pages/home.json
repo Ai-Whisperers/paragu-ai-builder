@@ -19,19 +19,9 @@
       "content": "home.services"
     },
     {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "home.products"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
-    },
-    {
-      "id": "instagram-feed",
-      "variant": "grid",
-      "content": "home.instagramFeed"
     },
     {
       "id": "contact",

@@ -24,11 +24,6 @@
       "content": "home.services"
     },
     {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "home.products"
-    },
-    {
       "id": "trust-badges",
       "variant": "strip",
       "content": "home.trustBadges"
@@ -37,11 +32,6 @@
       "id": "gallery",
       "variant": "grid",
       "content": "home.gallery"
-    },
-    {
-      "id": "before-after",
-      "variant": "slider",
-      "content": "home.beforeAfter"
     },
     {
       "id": "team",
@@ -82,11 +72,6 @@
       "id": "open-hours-status",
       "variant": "standard",
       "content": "home.hours"
-    },
-    {
-      "id": "instagram-feed",
-      "variant": "grid",
-      "content": "home.instagramFeed"
     },
     {
       "id": "footer",
