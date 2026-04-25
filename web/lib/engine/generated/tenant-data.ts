@@ -2463,6 +2463,80 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
 }
 
 export const PAGES: Record<string, JsonRecord> = {
+  "dayah-litworks:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.placeholder",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
+  "dayah-litworks:blog/como-elegir-portada-libro": {
+    "description": "5 factores clave que determinan si tu portada atrae lectores",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blogPost",
+        "id": "blog-post",
+        "variant": "article"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog/como-elegir-portada-libro",
+    "title": "Cómo elegir la portada perfecta para tu libro"
+  },
   "dayah-litworks:catalogo": {
     "descriptionKey": "home.products.subtitle",
     "sections": [
@@ -2657,6 +2731,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "terminos.sectionsBlock",
         "id": "faq",
         "variant": "accordion"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
     "slug": "terminos",
