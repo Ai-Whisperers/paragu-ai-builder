@@ -304,11 +304,6 @@ export function bookingConfirmationEmail({
   }
 }
 
-function escape(s: string): string {
-  return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
-}
-}
-
 export function dataRequestEmail({ siteSlug, email, kind, description, dueAt }: DataRequestContext) {
   const kindLabels: Record<string, string> = {
     access: 'Acceso',
