@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=243, pages=364, content=719, blog=31, images=3, verticals=23. */
+/** Counts: sites=244, pages=365, content=720, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -58,6 +58,7 @@ export const SITE_SLUGS: readonly string[] = [
   "preview-alto-aregua-galeria-de-arte-y-posada",
   "preview-andessa-beauty-spa",
   "preview-annuva",
+  "preview-aqcua-marine-spa-gym",
   "preview-armona-masajes-y-spa-antiestrs",
   "preview-aventura-centro-deportivo",
   "preview-ayala-training",
@@ -3032,6 +3033,58 @@ export const SITES: Record<string, JsonRecord> = {
       "tiktok": "@peluqueriacentro"
     },
     "source": "lead_generation",
+    "vertical": "beauty-personal-care"
+  },
+  "preview-aqcua-marine-spa-gym": {
+    "businessType": "spa",
+    "contact": {
+      "phone": "0972 541126",
+      "whatsapp": "+595972541126"
+    },
+    "country": "Paraguay",
+    "createdAt": "2026-04-25",
+    "defaultLocale": "es",
+    "demo": true,
+    "demoCluster": "Bienestar",
+    "demoRubro": "spa",
+    "demoWave": 1,
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "integrations": {
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-spa"
+        }
+      },
+      "crm": "hubspot",
+      "email": "mailchimp",
+      "hubspot": {
+        "formId": "demo-demo-spa-form",
+        "portalId": null
+      }
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Caaguazú, Paraguay",
+      "city": "Caaguazú"
+    },
+    "noindex": true,
+    "path": "/s/es/preview-aqcua-marine-spa-gym",
+    "preview": true,
+    "previewLeadId": "manual",
+    "publicUrl": "https://paragu-ai.com/s/es/preview-aqcua-marine-spa-gym",
+    "social": {
+      "facebook": "demospaasuncion",
+      "instagram": "@demo.spa.py",
+      "tiktok": "@demo.spa.py"
+    },
+    "source": "manual_fix",
     "vertical": "beauty-personal-care"
   },
   "preview-armona-masajes-y-spa-antiestrs": {
@@ -14086,6 +14139,10 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "secondary": "#2D1810",
     "text": "#1A1A1A"
   },
+  "preview-aqcua-marine-spa-gym": {
+    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:beauty-personal-care"
+  },
   "preview-armona-masajes-y-spa-antiestrs": {
     "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:beauty-personal-care"
@@ -20571,6 +20628,48 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.instagramFeed",
         "id": "instagram-feed",
         "variant": "grid"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "preview-aqcua-marine-spa-gym:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
       },
       {
         "content": "footer",
@@ -65600,6 +65699,299 @@ export const CONTENT: Record<string, JsonRecord> = {
         "stylist": "Sofía Fernández"
       }
     ]
+  },
+  "preview-aqcua-marine-spa-gym:es": {
+    "_meta": {
+      "author": "batch-create-demos",
+      "lastReviewed": "2026-04-25",
+      "translationQuality": "machine"
+    },
+    "footer": {
+      "businessName": "Demo Spa Asunción",
+      "copyright": "© {{year}} Demo Spa Asunción",
+      "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+    },
+    "home": {
+      "booking": {
+        "ctaText": "Reservar por WhatsApp",
+        "phone": "+595981726354",
+        "services": [
+          {
+            "category": "masajes",
+            "duration": "60 min",
+            "name": "Masaje Relajante"
+          },
+          {
+            "category": "masajes",
+            "duration": "60 min",
+            "name": "Masaje Descontracturante"
+          },
+          {
+            "category": "faciales",
+            "duration": "45 min",
+            "name": "Limpieza Facial Profunda"
+          },
+          {
+            "category": "corporales",
+            "duration": "90 min",
+            "name": "Tratamiento Corporal Detox"
+          },
+          {
+            "category": "sauna",
+            "duration": "30 min",
+            "name": "Sauna y Baño de Vapor"
+          },
+          {
+            "category": "belleza",
+            "duration": "60 min",
+            "name": "Pedicura Spa"
+          }
+        ],
+        "subtitle": "Elegí el servicio y el horario que más te convenga",
+        "title": "Reservá tu turno"
+      },
+      "contact": {
+        "address": "Av. Santa Teresa 1250 c/ San Martín",
+        "city": "Caaguazú",
+        "email": "contacto@demospa.com.py",
+        "phone": "+595981726354",
+        "subtitle": "Estamos en el barrio Villa Morra, Asunción",
+        "title": "Contacto",
+        "whatsapp": "+595981726354"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "question": "¿Necesito llevar algo para el masaje?"
+          },
+          {
+            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "question": "¿Cuánto dura una sesión de masaje relajante?"
+          },
+          {
+            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "question": "¿Aceptan tarjetas de crédito?"
+          },
+          {
+            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "question": "¿Tienen estacionamiento?"
+          },
+          {
+            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "question": "¿Cómo puedo reservar un turno?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Sala de masajes",
+            "caption": "Sala de masajes con aromaterapia",
+            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+          },
+          {
+            "alt": "Tratamiento facial",
+            "caption": "Limpieza facial profunda",
+            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+          },
+          {
+            "alt": "Velas y ambiente spa",
+            "caption": "Ambiente de relax",
+            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+          },
+          {
+            "alt": "Masaje de espalda",
+            "caption": "Masaje descontracturante",
+            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+          },
+          {
+            "alt": "Tratamiento corporal",
+            "caption": "Envoltura detox",
+            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+          },
+          {
+            "alt": "Sauna",
+            "caption": "Sauna finlandesa",
+            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Un ambiente pensado para tu relajación",
+        "title": "Nuestro espacio"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Aqcua Marine Spa & Gym",
+        "subheadline": "Spa y bienestar en Caaguazú"
+      },
+      "hours": {
+        "Lunes a Viernes": "08:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@demo.spa.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@demo.spa.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar ahora",
+        "dismissible": true,
+        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "title": "Promoción de Lanzamiento",
+        "variant": "standard"
+      },
+      "seo": {
+        "description": "Spa y gimnasio en Caaguazú. Relajación y bienestar.",
+        "title": "Aqcua Marine Spa & Gym - Spa en Caaguazú"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Masaje corporal completo con aceites esenciales para liberar tensiones",
+            "icon": "Sparkles",
+            "name": "Masaje Relajante",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Técnica profunda para aliviar contracturas y dolores musculares",
+            "icon": "Zap",
+            "name": "Masaje Descontracturante",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Limpieza con extracción, exfoliación y mascarilla hidratante",
+            "icon": "Droplets",
+            "name": "Limpieza Facial Profunda",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "Envoltura de algas marinas con drenaje linfático manual",
+            "icon": "Wind",
+            "name": "Tratamiento Corporal Detox",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Acceso a sauna finlandesa y baño turco con aromaterapia",
+            "icon": "Thermometer",
+            "name": "Sauna y Baño de Vapor",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Pedicura completa con exfoliación, masaje y esmaltado semipermanente",
+            "icon": "Feather",
+            "name": "Pedicura Spa",
+            "price": "Gs. 90.000"
+          }
+        ],
+        "title": "Todo para tu bienestar físico y mental"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "12 años de experiencia en masoterapia y tratamientos corporales",
+            "name": "Gabriela Torres",
+            "role": "Directora y Masoterapeuta Senior"
+          },
+          {
+            "description": "Especialista en masajes descontracturantes y drenaje linfático",
+            "name": "Miguel Ángel Rivas",
+            "role": "Terapeuta de Masajes"
+          },
+          {
+            "description": "Experta en limpiezas faciales, peelings y tratamientos anti-edad",
+            "name": "Camila Ferreira",
+            "role": "Esteticista Facial"
+          },
+          {
+            "description": "Especialista en envolturas detox y tratamientos corporales",
+            "name": "Sofía Mendoza",
+            "role": "Terapeuta Corporal"
+          }
+        ],
+        "subtitle": "Terapeutas profesionales apasionados por tu bienestar",
+        "title": "Conocé a nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Valentina R.",
+            "rating": 5,
+            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 5,
+            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 5,
+            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Productos orgánicos",
+          "Ambiente climatizado",
+          "Toallas y bata incluídas",
+          "Estacionamiento gratis",
+          "Profesionales certificados"
+        ]
+      }
+    },
+    "navigation": {
+      "businessName": "Spa",
+      "ctaHref": "#contacto",
+      "ctaText": "Reservar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
+    },
+    "placeholders": {
+      "businessName": "Aqcua Marine Spa & Gym",
+      "city": "Caaguazú",
+      "year": 2026
+    },
+    "siteName": "Aqcua Marine Spa & Gym",
+    "tagline": "Relajación, bienestar y tratamientos de belleza en el corazón de Asunción",
+    "whatsapp": {
+      "defaultMessage": "Hola, vi el demo de Spa y me interesa un sitio para mi negocio"
+    }
   },
   "preview-armona-masajes-y-spa-antiestrs:es": {
     "_meta": {
