@@ -1,0 +1,53 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0972 151365",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "0972 151365"
+  },
+  "location": {
+    "city": "Mariano Roque Alonso",
+    "address": "QFQ6+PX2, Mariano Roque Alonso 111010, Paraguay",
+    "coordinates": {
+      "lat": -25.2107367,
+      "lng": -57.5376111
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-zona-fitness-gym-9fe24f83",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-zona-fitness-gym-9fe24f83",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "9fe24f83-eb0e-4b8a-8ef5-457fc20bb435",
+  "createdAt": "2026-04-25T05:23:41.414Z"
+}

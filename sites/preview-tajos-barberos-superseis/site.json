@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "barberia",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0982 473078",
+    "email": "info@barberiasanlorenzo.com.py",
+    "instagram": "@barberia.sanlorenzo.py",
+    "phone": "0982 473078"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "Denis Roa 1121, Asunción 001409, Paraguay",
+    "coordinates": {
+      "lat": -25.2924375,
+      "lng": -57.5601425
+    },
+    "googleMapsId": "ChIJ8UqKRTcRmZQR8WjK5T5j7tZ"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-barberia-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-barberia"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-tajos-barberos-superseis",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-tajos-barberos-superseis",
+  "social": {
+    "facebook": "barberiasanlorenzo",
+    "tiktok": "@barberiasanlorenzo",
+    "instagram": "@barberia.sanlorenzo.py"
+  },
+  "preview": true,
+  "previewLeadId": "26859958-a5ce-4135-bcb7-ab3d393fe2c6",
+  "createdAt": "2026-04-25T05:23:41.346Z"
+}

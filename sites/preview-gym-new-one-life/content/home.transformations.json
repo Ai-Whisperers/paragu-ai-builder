@@ -1,0 +1,40 @@
+{
+  "transformations": [
+    {
+      "id": "1",
+      "beforeImage": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=600&fit=crop",
+      "service": "Transformación 6 Meses",
+      "stylist": "Con Entrenador Personal",
+      "clientQuote": "En 6 meses cambié mi vida. Bajé 15kg y gané músculo.",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "beforeImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop",
+      "service": "CrossFit Journey",
+      "stylist": "CrossFit Gym New One Life",
+      "clientQuote": "Nunca pensé que podría hacerlo. Ahora no puedo parar.",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "beforeImage": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=600&fit=crop",
+      "service": "Yoga & Flexibilidad",
+      "stylist": "Clases de Yoga",
+      "clientQuote": "Mi dolor de espalda desapareció. Me siento 10 años más joven.",
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "beforeImage": "https://images.unsplash.com/photo-1581009146145-b5ef050c149a?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1583454155154-4a29d4f9008e?w=800&h=600&fit=crop",
+      "service": "Plan Premium 12 Meses",
+      "stylist": "Todos los Entrenadores",
+      "clientQuote": "El mejor año de mi vida. Gracias al equipo de Gym New One Life.",
+      "rating": 5
+    }
+  ]
+}

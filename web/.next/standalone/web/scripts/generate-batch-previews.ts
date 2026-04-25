@@ -44,9 +44,10 @@ const TYPE_TO_DEMO: Record<string, string> = {
 
 // Fields in content to replace
 const NAME_PLACEHOLDERS: Record<string, string[]> = {
-  'demo-barberia': ['Barbería Moderna'],
-  'demo-gimnasio': ['PowerGym', 'Gimnasio Power'],
-  'demo-spa': ['Spa Relax'],
+  'demo-barberia': ['Barbería San Lorenzo', 'Barbería Moderna'],
+  'demo-gimnasio': ['Demo Gimnasio Asunción', 'PowerGym', 'Gimnasio Power'],
+  'demo-spa': ['Demo Spa Asunción', 'Spa Relax'],
+  'demo-peluqueria': ['Demo Peluqueria Asunción'],
   'demo-depilacion': ['Demo Centro de Depilación Asunción'],
   'demo-maquillaje': ['Demo Maquillaje Profesional Asunción'],
   'demo-estetica': ['Demo Estética Asunción'],

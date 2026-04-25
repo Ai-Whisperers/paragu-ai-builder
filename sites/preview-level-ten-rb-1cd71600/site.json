@@ -1,0 +1,53 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0985 850152",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "0985 850152"
+  },
+  "location": {
+    "city": "Limpio",
+    "address": "RGM9+MXP, Limpio 110814, Paraguay",
+    "coordinates": {
+      "lat": -25.1657925,
+      "lng": -57.4800457
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-level-ten-rb-1cd71600",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-level-ten-rb-1cd71600",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "1cd71600-953d-4405-bfee-c0166296f829",
+  "createdAt": "2026-04-25T05:23:41.398Z"
+}

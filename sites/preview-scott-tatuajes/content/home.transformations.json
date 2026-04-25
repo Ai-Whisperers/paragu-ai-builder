@@ -1,0 +1,49 @@
+{
+  "transformations": [
+    {
+      "id": "1",
+      "beforeImage": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800&h=600&fit=crop",
+      "service": "Corte y Coloración",
+      "stylist": "María González",
+      "clientQuote": "María entendió exactamente lo que quería. ¡Me siento renovada!",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "beforeImage": "https://images.unsplash.com/photo-1620122830785-a4cb998ce8fe?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop",
+      "service": "Keratina",
+      "stylist": "Lucía Benítez",
+      "clientQuote": "Increíble resultado. Mi cabello nunca se había visto tan saludable.",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "beforeImage": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=600&fit=crop",
+      "service": "Corte Moderno",
+      "stylist": "Carlos Ruiz",
+      "clientQuote": "Carlos es un artista. El mejor corte que he tenido.",
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "beforeImage": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop",
+      "service": "Mechas Balayage",
+      "stylist": "Ana María López",
+      "clientQuote": "El color quedó perfecto, muy natural y luminoso.",
+      "rating": 5
+    },
+    {
+      "id": "5",
+      "beforeImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&h=600&fit=crop",
+      "afterImage": "https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=800&h=600&fit=crop",
+      "service": "Alisado Permanente",
+      "stylist": "Sofía Fernández",
+      "clientQuote": "Sofía me salvó de mi cabello rebelde. ¡Gracias!",
+      "rating": 5
+    }
+  ]
+}

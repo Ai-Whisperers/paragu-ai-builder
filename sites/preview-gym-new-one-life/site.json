@@ -1,0 +1,53 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0981 775282",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "0981 775282"
+  },
+  "location": {
+    "city": "Hernandarias",
+    "address": "Km 14, RutaTranschaco esq, Hernandarias 111018, Paraguay",
+    "coordinates": {
+      "lat": -25.2278586,
+      "lng": -57.53545399999999
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-gym-new-one-life",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-gym-new-one-life",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "96e66e48-b542-4e61-9c6f-3cbcd7ae06cc",
+  "createdAt": "2026-04-25T05:23:41.364Z"
+}
