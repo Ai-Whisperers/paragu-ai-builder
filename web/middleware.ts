@@ -173,9 +173,12 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   // layout rather than overriding here.
 
   // Public routes: skip auth to reduce latency
-  // Admin routes (/admin, /admin/*) are protected; everything else is public.
+  // Admin routes (/admin, /admin/*) and dashboard (/dashboard, /dashboard/*)
+  // are protected; everything else is public.
   const isAdminRoute = path === '/admin' || path.startsWith('/admin/')
-  const isPublicRoute = !isAdminRoute || path === '/login'
+  const isDashboardRoute = path === '/dashboard' || path.startsWith('/dashboard/')
+  const isProtectedRoute = isAdminRoute || isDashboardRoute
+  const isPublicRoute = !isProtectedRoute || path === '/login' || path === '/tenant-login'
   if (isPublicRoute) {
     return response
   }
@@ -227,7 +230,7 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   // Redirect unauthenticated users to login
   if (!user && !isPublicRoute) {
     const url = request.nextUrl.clone()
-    url.pathname = '/login'
+    url.pathname = isDashboardRoute ? '/tenant-login' : '/login'
     url.searchParams.set('returnTo', path)
 
     const redirectResponse = NextResponse.redirect(url)
