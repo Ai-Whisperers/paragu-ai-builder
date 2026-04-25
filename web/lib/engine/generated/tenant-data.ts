@@ -20687,56 +20687,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -22022,56 +21972,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -22179,56 +22079,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -22532,56 +22382,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -23946,56 +23746,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -25457,56 +25207,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -25532,56 +25232,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -25701,56 +25351,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -25954,56 +25554,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -26121,56 +25671,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -26300,56 +25800,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -26765,56 +26215,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -30011,56 +29411,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -30541,56 +29891,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -31480,56 +30780,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -31729,56 +30979,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -32658,56 +31858,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -32902,56 +32052,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",
@@ -36133,56 +35233,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -37130,56 +36180,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
-      },
-      {
-        "content": "home.promoBanner",
-        "id": "promo-banner",
-        "variant": "simple"
-      },
-      {
-        "content": "home.services",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "home.team",
-        "id": "team",
-        "variant": "cards"
-      },
-      {
-        "content": "home.testimonials",
-        "id": "testimonials",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.reviewsWidget",
-        "id": "google-reviews",
-        "variant": "carousel"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
-      },
-      {
-        "content": "home.faq",
-        "id": "faq",
-        "variant": "accordion"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "home.hours",
-        "id": "open-hours-status",
-        "variant": "standard"
       },
       {
         "content": "footer",

@@ -23,7 +23,10 @@ export const POST = withRequestLog(async (request, { log }) => {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 })
   }
 
-  const supabase = await createAdminClient()
+  let supabase
+try { supabase = await createAdminClient() } catch {
+  return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+}
   const cutoff = new Date(Date.now() - RETENTION_DAYS * 86_400_000).toISOString()
 
   // Supabase delete() returns a count only when we set { count: 'exact' }.
