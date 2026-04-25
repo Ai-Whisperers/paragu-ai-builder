@@ -46,7 +46,10 @@ const REVIEW_DELAY_DAYS = 3
 const MAX_ORDERS_PER_RUN = 50
 
 export const GET = withRequestLog<Record<string, never>>(async (_req, { log }) => {
-  const supabase = await createAdminClient()
+  let supabase
+try { supabase = await createAdminClient() } catch {
+  return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+}
   const threshold = new Date(Date.now() - REVIEW_DELAY_DAYS * 24 * 60 * 60 * 1000).toISOString()
 
   // Candidates: shipped/delivered orders, past the delay threshold.

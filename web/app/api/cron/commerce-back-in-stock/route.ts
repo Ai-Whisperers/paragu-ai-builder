@@ -27,7 +27,10 @@ export const GET = withRequestLog<Record<string, never>>(async (_req, { log }) =
     return NextResponse.json({ processed: 0 })
   }
 
-  const supabase = await createAdminClient()
+  let supabase
+try { supabase = await createAdminClient() } catch {
+  return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+}
 
   // Look up business names in one query so we don't N+1 it in the loop.
   const businessIds = Array.from(new Set(pending.map((p) => p.businessId)))

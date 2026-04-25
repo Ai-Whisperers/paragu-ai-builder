@@ -26,7 +26,10 @@ export const POST = withRequestLog(async (request, { log }) => {
     return NextResponse.json({ skipped: true })
   }
 
-  const supabase = await createAdminClient()
+  let supabase
+try { supabase = await createAdminClient() } catch {
+  return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+}
   const { data, error } = await supabase
     .from('commerce_email_outbox')
     .select('*')

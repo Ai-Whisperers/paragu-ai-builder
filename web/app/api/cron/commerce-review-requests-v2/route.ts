@@ -50,7 +50,10 @@ export const POST = withRequestLog(async (request, { log }) => {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 })
   }
 
-  const supabase = await createAdminClient()
+  let supabase
+try { supabase = await createAdminClient() } catch {
+  return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+}
 
   const windowStart = new Date(Date.now() - 8 * 24 * 60 * 60 * 1000).toISOString()
   const windowEnd = new Date(Date.now() - 6 * 24 * 60 * 60 * 1000).toISOString()

@@ -39,7 +39,10 @@ export const POST = withRequestLog(async (request, { log }) => {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 })
   }
 
-  const supabase = await createAdminClient()
+  let supabase
+try { supabase = await createAdminClient() } catch {
+  return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+}
   const { data: businesses } = await supabase
     .from('businesses')
     .select('id, slug, name, data_json')
