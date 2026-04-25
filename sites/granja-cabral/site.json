@@ -9,9 +9,9 @@
     "es"
   ],
   "contact": {
-    "phone": "+595981324569",
+    "phone": "+595982911935",
     "email": "info@granjacabral.com",
-    "whatsapp": "+595981324569",
+    "whatsapp": "+595982911935",
     "instagram": "@granjacabral"
   },
   "location": {
@@ -42,14 +42,8 @@
     "manifest": "/sites/granja-cabral/images.json",
     "hero": "/sites/granja-cabral/images/hero/hero-bg.png"
   },
-  "placeholderFields": {
-    "whatsapp": "+595981324569 is a placeholder — confirm with Laura",
-    "phone": "+595981324569 is a placeholder — confirm with Laura",
-    "email": "info@granjacabral.com unverified — confirm with Laura",
-    "instagram": "@granjacabral unverified — confirm with Laura",
-    "address": "Ruta 2 Km 125-140 is approximate — confirm exact km with Laura"
-  },
   "migratedFrom": "web/lib/engine/demo-data.ts",
   "migratedAt": "2026-04-20",
-  "is_demo": false
+  "is_demo": false,
+  "isLiveProduction": true
 }
