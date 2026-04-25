@@ -1,0 +1,36 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "depilacion",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0981 521527",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.depilacion.py",
+    "phone": "0981 521527"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "Eusebio Lillo Robles 1498 esq, Asunción 001411, Paraguay",
+    "coordinates": {
+      "lat": -25.2893184,
+      "lng": -57.57473409999999
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "noindex": true,
+  "source": "lead_generation",
+  "path": "/s/es/preview-renuva-clnica-esttica-y-laser",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-renuva-clnica-esttica-y-laser",
+  "preview": true,
+  "previewLeadId": "2af37432-960b-4f01-8103-bcbbc23b5e51",
+  "createdAt": "2026-04-25T04:08:08.823Z",
+  "is_demo": false
+}

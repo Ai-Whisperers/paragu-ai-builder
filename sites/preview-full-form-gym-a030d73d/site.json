@@ -1,0 +1,53 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0981 423913",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "0981 423913"
+  },
+  "location": {
+    "city": "Villa Elisa",
+    "address": "Luis A. del Parana, Villa Elisa 111502, Paraguay",
+    "coordinates": {
+      "lat": -25.3496842,
+      "lng": -57.5795219
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-full-form-gym-a030d73d",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-full-form-gym-a030d73d",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "a030d73d-faeb-4fa3-b52b-9b6a372128b4",
+  "createdAt": "2026-04-25T04:08:08.880Z"
+}

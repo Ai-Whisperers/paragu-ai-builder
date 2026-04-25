@@ -1,0 +1,36 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "depilacion",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0981 933247",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.depilacion.py",
+    "phone": "0981 933247"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "PFH3+636, Asunción 001524, Paraguay",
+    "coordinates": {
+      "lat": -25.2719595,
+      "lng": -57.5473559
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "noindex": true,
+  "source": "lead_generation",
+  "path": "/s/es/preview-ciria-depilaciones-campo-grande",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-ciria-depilaciones-campo-grande",
+  "preview": true,
+  "previewLeadId": "1a281ae7-b00c-440c-aa2f-7f45c875f81c",
+  "createdAt": "2026-04-25T04:08:08.873Z",
+  "is_demo": false
+}

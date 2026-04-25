@@ -1,0 +1,56 @@
+{
+  "_meta": { "translationQuality": "human", "author": "enrich-batch", "lastReviewed": "2026-04-25" },
+  "siteName": "Ciria Depilaciones Campo Grande",
+  "tagline": "Depilación profesional con tecnología de punta",
+  "placeholders": { "businessName": "Ciria Depilaciones Campo Grande", "city": "Asunción", "year": 2026 },
+  "navigation": { "businessName": "Depilación Profesional", "navItems": [
+    { "label": "Inicio", "path": "" },
+    { "label": "Servicios", "path": "#servicios" },
+    { "label": "Contacto", "path": "#contacto" }
+  ], "ctaText": "Reservar turno", "ctaHref": "#reservar" },
+  "home": {
+    "seo": { "title": "Depilación Asunción - Depilación Láser y Cera", "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación." },
+    "hero": { "headline": "Depilación definitiva sin dolor", "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión.", "ctaPrimaryText": "Reservá tu evaluación", "ctaSecondaryText": "Ver tratamientos" },
+    "promoBanner": { "title": "Promoción de Lanzamiento", "subtitle": "50% de descuento en tu primera sesión de depilación láser", "ctaText": "Reservar ahora", "variant": "standard", "dismissible": true },
+    "services": { "eyebrow": "Tratamientos", "title": "Soluciones para cada necesidad", "items": [
+      { "name": "Depilación Láser Definitiva", "description": "Láser diode de alta potencia. Resultados permanentes.", "price": "Gs. 150.000/sesión", "icon": "Zap", "duration": 30, "category": "Láser" },
+      { "name": "Depilación con Cera", "description": "Cera natural hipoalergénica para todo el cuerpo.", "price": "Gs. 60.000", "icon": "Droplets", "duration": 30, "category": "Cera" },
+      { "name": "Láser Zona Facial", "description": "Labio, mentón, mejillas y frente.", "price": "Gs. 80.000/sesión", "icon": "Sparkles", "duration": 15, "category": "Láser" },
+      { "name": "Láser Axilas", "description": "Eliminación definitiva del vello axilar.", "price": "Gs. 70.000/sesión", "icon": "Crosshair", "duration": 15, "category": "Láser" },
+      { "name": "Láser Piernas Completas", "description": "Depilación definitiva de piernas enteras.", "price": "Gs. 250.000/sesión", "icon": "Feather", "duration": 45, "category": "Láser" },
+      { "name": "Dermaplaning Facial", "description": "Eliminación de vello facial + exfoliación profunda.", "price": "Gs. 90.000", "icon": "Sparkles", "duration": 30, "category": "Facial" }
+    ] },
+    "trustBadges": { "items": ["Tecnología láser diode", "Profesionales certificadas", "Ambiente climatizado", "Resultados garantizados", "Precios accesibles"] },
+    "gallery": { "title": "Nuestro espacio", "subtitle": "Instalaciones modernas y equipadas", "columns": 3, "images": [
+      { "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600", "alt": "Consultorio", "caption": "Consultorio privado" },
+      { "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600", "alt": "Equipo láser", "caption": "Tecnología láser diode" },
+      { "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600", "alt": "Tratamiento", "caption": "Sesión de depilación" }
+    ] },
+    "testimonials": { "title": "Lo que dicen nuestras clientas", "columns": 2, "items": [
+      { "name": "Camila R.", "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado.", "rating": 5 },
+      { "name": "Lucía M.", "text": "La atención es increíble y los resultados se notan desde la primera sesión.", "rating": 5 },
+      { "name": "Ana G.", "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes.", "rating": 5 },
+      { "name": "Sofía P.", "text": "Hice el combo completo de piernas. Ahora sí, libre de vello.", "rating": 4 }
+    ] },
+    "booking": { "title": "Reservá tu sesión", "subtitle": "Evaluación sin costo", "services": [
+      { "name": "Evaluación gratuita", "duration": 20, "category": "Evaluación" },
+      { "name": "Láser axilas", "duration": 15, "category": "Láser" },
+      { "name": "Láser facial", "duration": 15, "category": "Láser" },
+      { "name": "Láser piernas", "duration": 45, "category": "Láser" },
+      { "name": "Depilación cera completa", "duration": 30, "category": "Cera" },
+      { "name": "Dermaplaning", "duration": 30, "category": "Facial" }
+    ] },
+    "faq": { "title": "Preguntas frecuentes", "items": [
+      { "question": "¿Duele la depilación láser?", "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma." },
+      { "question": "¿Cuántas sesiones necesito?", "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos." },
+      { "question": "¿Hay algún cuidado especial?", "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada." },
+      { "question": "¿Cuánto dura cada sesión?", "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min." }
+    ] },
+    "hours": { "title": "Horarios", "schedules": {
+      "Lunes a Viernes": "09:00 - 20:00",
+      "Sábado": "09:00 - 17:00"
+    } }
+  },
+  "footer": { "businessName": "Ciria Depilaciones Campo Grande", "copyright": "© {{year}} Ciria Depilaciones Campo Grande", "disclaimer": "Esta es una demostración." },
+  "whatsapp": { "defaultMessage": "Hola, vi el de Depilación y me interesa un sitio para mi negocio" }
+}

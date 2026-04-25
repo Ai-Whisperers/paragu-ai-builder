@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "peluqueria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "(021) 606 360",
+    "email": "contacto@peluqueriacentro.com.py",
+    "instagram": "@peluqueria.centro.py",
+    "phone": "(021) 606 360"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "Prócer Juan Manuel Iturbe 106, Asunción 001526, Paraguay",
+    "coordinates": {
+      "lat": -25.2783636,
+      "lng": -57.5561992
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-peluqueria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-peluqueria"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-peluquera-mmical",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-peluquera-mmical",
+  "social": {
+    "facebook": "peluqueriacentropy",
+    "tiktok": "@peluqueriacentro",
+    "instagram": "@peluqueria.centro.py"
+  },
+  "preview": true,
+  "previewLeadId": "22243270-e879-4943-82d6-30bb41cff69c",
+  "createdAt": "2026-04-25T04:08:08.858Z"
+}

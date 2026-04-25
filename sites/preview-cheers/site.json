@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "peluqueria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0982 112221",
+    "email": "contacto@peluqueriacentro.com.py",
+    "instagram": "@peluqueria.centro.py",
+    "phone": "0982 112221"
+  },
+  "location": {
+    "city": "Hohenau",
+    "address": "W9H4+56W, Hohenau 071401, Paraguay",
+    "coordinates": {
+      "lat": -27.0720232,
+      "lng": -55.6444102
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-peluqueria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-peluqueria"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-cheers",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-cheers",
+  "social": {
+    "facebook": "peluqueriacentropy",
+    "tiktok": "@peluqueriacentro",
+    "instagram": "@peluqueria.centro.py"
+  },
+  "preview": true,
+  "previewLeadId": "ef95c813-2533-4622-8632-a05a0b13b318",
+  "createdAt": "2026-04-25T04:08:08.809Z"
+}

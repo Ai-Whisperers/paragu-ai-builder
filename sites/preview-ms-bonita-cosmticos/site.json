@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "peluqueria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0983 342707",
+    "email": "contacto@peluqueriacentro.com.py",
+    "instagram": "@peluqueria.centro.py",
+    "phone": "0983 342707"
+  },
+  "location": {
+    "city": "Fernando de la Mora",
+    "address": "Ruta Mcal. José F. Estigarribia 419, Fernando de la Mora 110308, Paraguay",
+    "coordinates": {
+      "lat": -25.321741,
+      "lng": -57.5570873
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-peluqueria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-peluqueria"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-ms-bonita-cosmticos",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-ms-bonita-cosmticos",
+  "social": {
+    "facebook": "peluqueriacentropy",
+    "tiktok": "@peluqueriacentro",
+    "instagram": "@peluqueria.centro.py"
+  },
+  "preview": true,
+  "previewLeadId": "8b44ac9d-e090-4118-9064-b25eac66bd53",
+  "createdAt": "2026-04-25T04:08:08.840Z"
+}
