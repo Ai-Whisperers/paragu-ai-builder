@@ -64,7 +64,7 @@ function phoneToDigits(phone: string): string {
 }
 
 function waLink(phone: string, message: string): string {
-  return `wa.me/${phoneToDigits(phone)}?text=${encodeURIComponent(message)}`
+  return `https://wa.me/${phoneToDigits(phone)}?text=${encodeURIComponent(message)}`
 }
 
 function typeEmoji(t: string): string {
@@ -144,9 +144,9 @@ async function main() {
       : 'Tener una página web profesional ayuda a que más clientes los encuentren y confíen en su negocio.'
 
     // ====== INITIAL OUTREACH ======
-    const initial = `¡Hola! 👋
+    const initial = `¡Hola ${bizName}! 👋
 
-Soy de Paragu-AI ${emoji}, una plataforma paraguaya que ayuda a negocios como ${bizName} a tener presencia web profesional.
+Soy Ian, de Paragu-AI ${emoji} — ayudamos a negocios paraguayos a tener su página web profesional.
 
 ${socialHook}
 
@@ -154,77 +154,87 @@ ${reviewHook}
 
 ${competitionHook}
 
-¿Actualmente tienen página web o solo manejan redes sociales?
+Les preparé un demo gratis para que vean cómo quedaría su sitio:
 
-Si les interesa, puedo mostrarles un demo de cómo se vería su sitio web — sin compromiso y sin costo.
+👉 ${previewUrl}
 
-Quedo atento,
-Ian — Paragu-AI 🇵🇾`
-
-    // ====== DEMO READY ======
-    const demo = `¡Hola de nuevo! 👋
-
-Como conversamos, preparamos este demo especialmente para ${bizName}:
-
-🌐 ${bizName} — SITIO WEB DEMO:
-${previewUrl}
-
-${notesHook ? `${notesHook}\n\n` : ''}Este sitio está diseñado pensando en su tipo de negocio${bizType === 'barberia' ? ' (barbería moderna)' : bizType === 'gimnasio' ? ' (gimnasio)' : bizType === 'spa' ? ' (spa y bienestar)' : ''}. Incluye secciones de servicios, galería de trabajos, información de contacto, y se ve perfecto en celulares.
-
-¿Les gustaría agendar una videollamada de 10 minutos para mostrarles cómo personalizarlo con sus fotos, colores y textos reales?
+¿Qué opinan? ¿Les gusta? Sin compromiso alguno.
 
 Saludos,
 Ian — Paragu-AI 🇵🇾`
 
-    // ====== FOLLOW-UP 3 DAYS ======
+    // ====== DEMO READY (reply after they respond positively) ======
+    const demo = `¡Qué bueno que les gustó! 🎉
+
+Justamente, ese demo lo armamos con las secciones que cualquier ${bizType === 'barberia' ? 'barbería' : bizType === 'gimnasio' ? 'gimnasio' : bizType === 'spa' ? 'spa' : 'negocio como el suyo'} necesita:
+
+✅ Servicios con precios
+✅ Galería de trabajos
+✅ Equipo profesional
+✅ Testimonios de clientes
+✅ WhatsApp directo
+✅ Se ve perfecto en celular 📱
+
+El siguiente paso es personalizarlo con SUS fotos, SUS colores y SUS textos. Queda tal cual la identidad de ${bizName}.
+
+¿Les parece si agendamos una videollamada de 10 minutos esta semana? Les muestro cómo se edita y qué información necesitamos de su parte.
+
+Saludos,
+Ian — Paragu-AI 🇵🇾`
+
+    // ====== FOLLOW-UP 3 DAYS (no reply after initial) ======
     const followUp3d = `¡Hola! 👋
 
-${ig ? `Soy Ian, de Paragu-AI. Les escribí hace unos días sobre tener una página web para ${bizName} (los sigo en ${ig}, muy lindo su trabajo por cierto).` : `Soy Ian, de Paragu-AI. Les escribí hace unos días sobre la página web para ${bizName}.`}
+Soy Ian, de Paragu-AI. Les escribí hace unos días sobre la página web para ${bizName}.
 
-Les comparto el link del demo por si no lo vieron:
+Les comparto el link del demo por si quieren verlo:
 
-🌐 ${previewUrl}
+👉 ${previewUrl}
+
+${ig ? `Por cierto, muy lindo lo que comparten en ${ig} 🔥` : ''}
 
 ${reviewHook}
 
-Sin compromiso. Si prefieren, puedo enviarles un video corto explicando cómo funciona.
-
-¿Qué les parece?
+Sin apuro, cuando quieran me avisan. Si prefieren, puedo enviarles un video de 2 min explicando cómo funciona todo.
 
 Saludos,
 Ian — Paragu-AI 🇵🇾`
 
-    // ====== FOLLOW-UP 7 DAYS ======
+    // ====== FOLLOW-UP 7 DAYS (final touch) ======
     const followUp7d = `¡Hola! 👋
 
-Soy Ian, de Paragu-AI. Les escribí la semana pasada sobre crear una página web profesional para ${bizName}.
+Soy Ian, de Paragu-AI. La semana pasada les compartí un demo de página web para ${bizName}.
 
-Entiendo que están ocupados y quizás no es el momento. Solo quería dejarles saber que el demo sigue disponible cuando quieran verlo:
+Entiendo que están con mucho trabajo (¡se nota por la cantidad de clientes que tienen! ${reviews >= 50 ? `${reviews} reseñas no se consiguen solas 💪` : ''}).
 
-🌐 ${previewUrl}
+Les dejo el link por si más adelante quieren dar el paso:
 
-Si en el futuro necesitan una página web, acá estamos. Les deseo mucho éxito con el negocio. 💪
+👉 ${previewUrl}
+
+Cuando quieran, acá estamos. ¡Mucho éxito con ${bizName}! 🚀
 
 Saludos,
 Ian — Paragu-AI 🇵🇾`
 
-    // ====== PRICING ======
-    const pricing = `¡Hola! 👋
+    // ====== PRICING (when they ask about price) ======
+    const pricing = `¡Me alegra que pregunten! Los precios son bien accesibles:
 
-Me alegra que les interese. Los planes de Paragu-AI son súper accesibles:
-
-🇵🇾 PLAN BÁSICO — ₲290.000/mes
-  Sitio web completo + hosting + dominio .com.py
+🌟 PLAN BÁSICO — ₲290.000/mes
+  Sitio web completo + hosting + dominio
   
-🇵🇾 PLAN PROFESIONAL — ₲590.000/mes
-  Todo lo anterior + formulario de contacto + blog
+🌟 PLAN PROFESIONAL — ₲590.000/mes
+  Todo lo básico + blog + más secciones
   
-🇵🇾 PLAN PREMIUM — ₲990.000/mes
-  Todo + ediciones ilimitadas + soporte prioritario + WhatsApp integrado
+🌟 PLAN PREMIUM — ₲990.000/mes
+  Todo + ediciones ilimitadas + soporte prioritario + WhatsApp Business
 
-Todos incluyen diseño responsive (se ve bien en celular), optimización para Google y atención personalizada.
+Los 3 planes incluyen:
+📱 Diseño responsive (se ve bien en celular)
+🔍 Optimizado para Google
+🇵🇾 Dominio .com.py
+🛠️ Soporte permanente
 
-¿Cuál plan creen que se ajusta más a ${bizName}?
+El demo que vieron es de los que entran en el plan Básico. ¿Cuál creen que se ajusta más a ${bizName}?
 
 Saludos,
 Ian — Paragu-AI 🇵🇾`
