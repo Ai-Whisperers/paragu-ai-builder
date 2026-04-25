@@ -1019,6 +1019,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/api/cron/business-message/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/business-message">> = Specific
+  const handler = {} as typeof import("../../app/api/cron/business-message/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/api/cron/commerce-abandoned-cart/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/commerce-abandoned-cart">> = Specific
@@ -1100,6 +1109,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/api/cron/daily-digest/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/daily-digest">> = Specific
+  const handler = {} as typeof import("../../app/api/cron/daily-digest/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/api/cron/health/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/health">> = Specific
@@ -1118,10 +1136,28 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/api/cron/monthly-report/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/monthly-report">> = Specific
+  const handler = {} as typeof import("../../app/api/cron/monthly-report/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/api/cron/sitemap-ping/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/sitemap-ping">> = Specific
   const handler = {} as typeof import("../../app/api/cron/sitemap-ping/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/api/cron/weekly-report/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/cron/weekly-report">> = Specific
+  const handler = {} as typeof import("../../app/api/cron/weekly-report/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

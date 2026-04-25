@@ -1180,6 +1180,12 @@
       "namedRegex": "^/api/cron/booking\\-reminders(?:/)?$"
     },
     {
+      "page": "/api/cron/business-message",
+      "regex": "^/api/cron/business\\-message(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cron/business\\-message(?:/)?$"
+    },
+    {
       "page": "/api/cron/commerce-abandoned-cart",
       "regex": "^/api/cron/commerce\\-abandoned\\-cart(?:/)?$",
       "routeKeys": {},
@@ -1234,6 +1240,12 @@
       "namedRegex": "^/api/cron/commerce\\-review\\-requests\\-v2(?:/)?$"
     },
     {
+      "page": "/api/cron/daily-digest",
+      "regex": "^/api/cron/daily\\-digest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cron/daily\\-digest(?:/)?$"
+    },
+    {
       "page": "/api/cron/health",
       "regex": "^/api/cron/health(?:/)?$",
       "routeKeys": {},
@@ -1246,10 +1258,22 @@
       "namedRegex": "^/api/cron/leads\\-digest(?:/)?$"
     },
     {
+      "page": "/api/cron/monthly-report",
+      "regex": "^/api/cron/monthly\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cron/monthly\\-report(?:/)?$"
+    },
+    {
       "page": "/api/cron/sitemap-ping",
       "regex": "^/api/cron/sitemap\\-ping(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/cron/sitemap\\-ping(?:/)?$"
+    },
+    {
+      "page": "/api/cron/weekly-report",
+      "regex": "^/api/cron/weekly\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cron/weekly\\-report(?:/)?$"
     },
     {
       "page": "/api/data-request",
