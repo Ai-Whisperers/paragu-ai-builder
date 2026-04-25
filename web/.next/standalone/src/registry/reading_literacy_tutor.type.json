@@ -1,0 +1,22 @@
+{
+  "id": "reading_literacy_tutor",
+  "nameEs": "Tutor de Lectura",
+  "nameEn": "Reading Tutor",
+  "verticalId": "service-booking",
+  "subVertical": "tutoring-private",
+  "extends": "gimnasio",
+  "tokens": "reading_literacy_tutor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Tutor de Lectura en {{city}}",
+    "descriptionTemplate": "Tutor de Lectura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tutor de lectura {{city}}",
+      "reading tutor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tutor de Lectura",
+    "subheadlineTemplate": "Tutor de Lectura profesional en {{city}}."
+  }
+}

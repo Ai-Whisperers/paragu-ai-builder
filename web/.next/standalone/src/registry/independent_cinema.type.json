@@ -1,0 +1,22 @@
+{
+  "id": "independent_cinema",
+  "nameEs": "Cine Independiente",
+  "nameEn": "Independent Cinema",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "cinema",
+  "extends": "entertainment_base",
+  "tokens": "independent_cinema",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Cine Independiente en {{city}}",
+    "descriptionTemplate": "Cine Independiente profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cine independiente {{city}}",
+      "independent cinema {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cine Independiente",
+    "subheadlineTemplate": "Cine Independiente profesional en {{city}}."
+  }
+}

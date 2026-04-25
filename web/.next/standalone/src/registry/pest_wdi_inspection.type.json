@@ -1,0 +1,22 @@
+{
+  "id": "pest_wdi_inspection",
+  "nameEs": "Inspeccion Plagas Estructurales",
+  "nameEn": "WDI Inspection",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "appraisal-inspection",
+  "extends": "inmobiliaria",
+  "tokens": "pest_wdi_inspection",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Inspeccion Plagas Estructurales en {{city}}",
+    "descriptionTemplate": "Inspeccion Plagas Estructurales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "inspeccion plagas estructurales {{city}}",
+      "wdi inspection {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Inspeccion Plagas Estructurales",
+    "subheadlineTemplate": "Inspeccion Plagas Estructurales profesional en {{city}}."
+  }
+}

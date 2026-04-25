@@ -1,0 +1,25 @@
+{
+  "id": "contractor_association",
+  "nameEs": "Camara Constructores",
+  "nameEn": "Contractor Association",
+  "verticalId": "membership-community",
+  "subVertical": "trade-association",
+  "extends": "membership_base",
+  "tokens": "contractor_association",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Camara Constructores en {{city}}",
+    "descriptionTemplate": "Camara Constructores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "camara constructores {{city}}",
+      "contractor association {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Camara Constructores",
+    "subheadlineTemplate": "Camara Constructores profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "onsen_ryokan_traditional",
+  "nameEs": "Ryokan Tradicional",
+  "nameEn": "Traditional Ryokan",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "specialty-lodging",
+  "extends": "restaurant",
+  "tokens": "onsen_ryokan_traditional",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Ryokan Tradicional en {{city}}",
+    "descriptionTemplate": "Ryokan Tradicional profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ryokan tradicional {{city}}",
+      "traditional ryokan {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ryokan Tradicional",
+    "subheadlineTemplate": "Ryokan Tradicional profesional en {{city}}."
+  }
+}

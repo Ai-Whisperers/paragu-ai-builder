@@ -1,0 +1,25 @@
+{
+  "id": "model_talent_agency",
+  "nameEs": "Agencia Talentos",
+  "nameEn": "Talent Agency",
+  "verticalId": "media-publishing",
+  "subVertical": "photo-stock-agency",
+  "extends": "media_base",
+  "tokens": "model_talent_agency",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Agencia Talentos en {{city}}",
+    "descriptionTemplate": "Agencia Talentos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia talentos {{city}}",
+      "talent agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Talentos",
+    "subheadlineTemplate": "Agencia Talentos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

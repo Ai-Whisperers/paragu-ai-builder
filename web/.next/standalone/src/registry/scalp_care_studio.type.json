@@ -1,0 +1,22 @@
+{
+  "id": "scalp_care_studio",
+  "nameEs": "Tratamiento Capilar",
+  "nameEn": "Scalp Care",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "scalp_care_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Tratamiento Capilar en {{city}}",
+    "descriptionTemplate": "Tratamiento Capilar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tratamiento capilar {{city}}",
+      "scalp care {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tratamiento Capilar",
+    "subheadlineTemplate": "Tratamiento Capilar profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "electronics_contract_mfg",
+  "nameEs": "Electronica por Contrato",
+  "nameEn": "Electronics CM",
+  "verticalId": "trades-industrial",
+  "subVertical": "contract-manufacturing",
+  "extends": "industrial_base",
+  "tokens": "electronics_contract_mfg",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Electronica por Contrato en {{city}}",
+    "descriptionTemplate": "Electronica por Contrato profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "electronica por contrato {{city}}",
+      "electronics cm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Electronica por Contrato",
+    "subheadlineTemplate": "Electronica por Contrato profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

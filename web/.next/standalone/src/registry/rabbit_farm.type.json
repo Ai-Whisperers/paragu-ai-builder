@@ -1,0 +1,22 @@
+{
+  "id": "rabbit_farm",
+  "nameEs": "Cunicultura",
+  "nameEn": "Rabbit Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "livestock-ranch",
+  "extends": "agriculture_base",
+  "tokens": "rabbit_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Cunicultura en {{city}}",
+    "descriptionTemplate": "Cunicultura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cunicultura {{city}}",
+      "rabbit farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cunicultura",
+    "subheadlineTemplate": "Cunicultura profesional en {{city}}."
+  }
+}

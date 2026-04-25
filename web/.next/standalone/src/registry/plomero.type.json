@@ -1,0 +1,23 @@
+{
+  "id": "plomero",
+  "nameEs": "Plomero / Gasista",
+  "nameEn": "Plumber",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "plomero",
+  "features": {
+    "emergencyIndicator": { "enabled": true, "available24h": true },
+    "serviceMenu": { "enabled": true, "showPrices": false }
+  },
+  "serviceCategories": ["destapaciones", "reparaciones", "instalaciones", "gas", "termotanques", "emergencias"],
+  "seo": {
+    "schemaType": "Plumber",
+    "titleTemplate": "{{businessName}} - Plomero en {{city}}",
+    "descriptionTemplate": "Plomero 24h en {{city}}. Destapaciones, reparaciones, instalaciones de agua y gas.",
+    "keywords": ["plomero {{city}}", "destapacion {{city}}", "gasista {{city}}", "emergencia plomeria {{city}}"]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Plomero y Gasista",
+    "subheadlineTemplate": "Destapaciones, reparaciones e instalaciones en {{city}}. Emergencias 24h."
+  }
+}

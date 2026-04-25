@@ -1,0 +1,22 @@
+{
+  "id": "full_service_marketing_agency",
+  "nameEs": "Agencia Marketing",
+  "nameEn": "Marketing Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "full_service_marketing_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Marketing en {{city}}",
+    "descriptionTemplate": "Agencia Marketing profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia marketing {{city}}",
+      "marketing agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Marketing",
+    "subheadlineTemplate": "Agencia Marketing profesional en {{city}}."
+  }
+}

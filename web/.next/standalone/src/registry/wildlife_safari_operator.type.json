@@ -1,0 +1,22 @@
+{
+  "id": "wildlife_safari_operator",
+  "nameEs": "Operador de Safari",
+  "nameEn": "Safari Operator",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "wildlife_safari_operator",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Operador de Safari en {{city}}",
+    "descriptionTemplate": "Operador de Safari profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "operador de safari {{city}}",
+      "safari operator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Operador de Safari",
+    "subheadlineTemplate": "Operador de Safari profesional en {{city}}."
+  }
+}

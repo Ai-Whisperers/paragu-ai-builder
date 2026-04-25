@@ -1,0 +1,22 @@
+{
+  "id": "judo_club",
+  "nameEs": "Club Judo",
+  "nameEn": "Judo Club",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "judo_club",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Club Judo en {{city}}",
+    "descriptionTemplate": "Club Judo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club judo {{city}}",
+      "judo club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Judo",
+    "subheadlineTemplate": "Club Judo profesional en {{city}}."
+  }
+}

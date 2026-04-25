@@ -1,0 +1,22 @@
+{
+  "id": "planetarium",
+  "nameEs": "Planetario",
+  "nameEn": "Planetarium",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "museum-gallery",
+  "extends": "entertainment_base",
+  "tokens": "planetarium",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Planetario en {{city}}",
+    "descriptionTemplate": "Planetario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "planetario {{city}}",
+      "planetarium {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Planetario",
+    "subheadlineTemplate": "Planetario profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dyno_tuning_shop",
+  "nameEs": "Banco Dinamometrico",
+  "nameEn": "Dyno Shop",
+  "verticalId": "automotive",
+  "subVertical": "tuning-performance",
+  "extends": "automotive_base",
+  "tokens": "dyno_tuning_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Banco Dinamometrico en {{city}}",
+    "descriptionTemplate": "Banco Dinamometrico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "banco dinamometrico {{city}}",
+      "dyno shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Banco Dinamometrico",
+    "subheadlineTemplate": "Banco Dinamometrico profesional en {{city}}."
+  }
+}

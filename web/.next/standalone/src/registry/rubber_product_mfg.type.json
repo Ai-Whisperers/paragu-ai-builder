@@ -1,0 +1,25 @@
+{
+  "id": "rubber_product_mfg",
+  "nameEs": "Fabricacion Caucho",
+  "nameEn": "Rubber Mfg",
+  "verticalId": "trades-industrial",
+  "subVertical": "contract-manufacturing",
+  "extends": "industrial_base",
+  "tokens": "rubber_product_mfg",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fabricacion Caucho en {{city}}",
+    "descriptionTemplate": "Fabricacion Caucho profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fabricacion caucho {{city}}",
+      "rubber mfg {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fabricacion Caucho",
+    "subheadlineTemplate": "Fabricacion Caucho profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "italian_restaurant",
+  "nameEs": "Restaurante Italiano",
+  "nameEn": "Italian Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "italian_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante Italiano en {{city}}",
+    "descriptionTemplate": "Restaurante Italiano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante italiano {{city}}",
+      "italian restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante Italiano",
+    "subheadlineTemplate": "Restaurante Italiano profesional en {{city}}."
+  }
+}

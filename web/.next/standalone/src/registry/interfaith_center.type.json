@@ -1,0 +1,22 @@
+{
+  "id": "interfaith_center",
+  "nameEs": "Centro Interreligioso",
+  "nameEn": "Interfaith Center",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "interfaith_center",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Centro Interreligioso en {{city}}",
+    "descriptionTemplate": "Centro Interreligioso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro interreligioso {{city}}",
+      "interfaith center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro Interreligioso",
+    "subheadlineTemplate": "Centro Interreligioso profesional en {{city}}."
+  }
+}

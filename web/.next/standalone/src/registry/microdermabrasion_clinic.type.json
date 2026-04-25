@@ -1,0 +1,22 @@
+{
+  "id": "microdermabrasion_clinic",
+  "nameEs": "Microdermabrasion",
+  "nameEn": "Microdermabrasion",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "skin-aesthetic",
+  "extends": "beauty_base",
+  "tokens": "microdermabrasion_clinic",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Microdermabrasion en {{city}}",
+    "descriptionTemplate": "Microdermabrasion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "microdermabrasion {{city}}",
+      "microdermabrasion {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Microdermabrasion",
+    "subheadlineTemplate": "Microdermabrasion profesional en {{city}}."
+  }
+}

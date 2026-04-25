@@ -1,0 +1,22 @@
+{
+  "id": "pool_repair_service",
+  "nameEs": "Reparacion Piletas",
+  "nameEn": "Pool Repair",
+  "verticalId": "trades-home-services",
+  "subVertical": "pool-spa",
+  "extends": "trades_base",
+  "tokens": "pool_repair_service",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Reparacion Piletas en {{city}}",
+    "descriptionTemplate": "Reparacion Piletas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reparacion piletas {{city}}",
+      "pool repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparacion Piletas",
+    "subheadlineTemplate": "Reparacion Piletas profesional en {{city}}."
+  }
+}

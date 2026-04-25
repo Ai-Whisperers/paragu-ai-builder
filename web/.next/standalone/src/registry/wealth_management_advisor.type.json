@@ -1,0 +1,25 @@
+{
+  "id": "wealth_management_advisor",
+  "nameEs": "Asesor Patrimonial",
+  "nameEn": "Wealth Advisor",
+  "verticalId": "finance-insurance",
+  "subVertical": "financial-advisory",
+  "extends": "finance_insurance_base",
+  "tokens": "wealth_management_advisor",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Asesor Patrimonial en {{city}}",
+    "descriptionTemplate": "Asesor Patrimonial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asesor patrimonial {{city}}",
+      "wealth advisor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asesor Patrimonial",
+    "subheadlineTemplate": "Asesor Patrimonial profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

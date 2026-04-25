@@ -1,0 +1,21 @@
+{
+  "id": "joyeria",
+  "nameEs": "Joyeria",
+  "nameEn": "Jewelry Store",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "joyeria",
+  "seo": {
+    "schemaType": "JewelryStore",
+    "titleTemplate": "{{businessName}} - Joyeria en {{city}}",
+    "descriptionTemplate": "Oro, plata, anillos de compromiso, relojes y reparacion.",
+    "keywords": [
+      "joyeria {{city}}",
+      "anillo compromiso {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Joyas que cuentan historias",
+    "subheadlineTemplate": "Oro, plata, anillos de compromiso, relojes y reparacion."
+  }
+}

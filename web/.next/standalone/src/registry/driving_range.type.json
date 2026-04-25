@@ -1,0 +1,22 @@
+{
+  "id": "driving_range",
+  "nameEs": "Campo Practica",
+  "nameEn": "Driving Range",
+  "verticalId": "sports-recreation",
+  "subVertical": "golf",
+  "extends": "sports_base",
+  "tokens": "driving_range",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Campo Practica en {{city}}",
+    "descriptionTemplate": "Campo Practica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "campo practica {{city}}",
+      "driving range {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Campo Practica",
+    "subheadlineTemplate": "Campo Practica profesional en {{city}}."
+  }
+}

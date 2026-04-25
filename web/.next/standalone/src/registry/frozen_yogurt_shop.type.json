@@ -1,0 +1,22 @@
+{
+  "id": "frozen_yogurt_shop",
+  "nameEs": "Yogurteria",
+  "nameEn": "Frozen Yogurt",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "frozen_yogurt_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Yogurteria en {{city}}",
+    "descriptionTemplate": "Yogurteria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "yogurteria {{city}}",
+      "frozen yogurt {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Yogurteria",
+    "subheadlineTemplate": "Yogurteria profesional en {{city}}."
+  }
+}

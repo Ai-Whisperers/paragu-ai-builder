@@ -1,0 +1,22 @@
+{
+  "id": "limousine_service",
+  "nameEs": "Servicio de Limo",
+  "nameEn": "Limo Service",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "transport-tourism",
+  "extends": "restaurant",
+  "tokens": "limousine_service",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Servicio de Limo en {{city}}",
+    "descriptionTemplate": "Servicio de Limo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio de limo {{city}}",
+      "limo service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio de Limo",
+    "subheadlineTemplate": "Servicio de Limo profesional en {{city}}."
+  }
+}

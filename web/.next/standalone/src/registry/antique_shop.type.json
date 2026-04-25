@@ -1,0 +1,22 @@
+{
+  "id": "antique_shop",
+  "nameEs": "Anticuario",
+  "nameEn": "Antique Shop",
+  "verticalId": "retail-local",
+  "subVertical": "home-furnishings",
+  "extends": "retail_base",
+  "tokens": "antique_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Anticuario en {{city}}",
+    "descriptionTemplate": "Anticuario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "anticuario {{city}}",
+      "antique shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Anticuario",
+    "subheadlineTemplate": "Anticuario profesional en {{city}}."
+  }
+}

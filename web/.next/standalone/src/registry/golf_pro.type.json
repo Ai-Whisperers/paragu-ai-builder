@@ -1,0 +1,22 @@
+{
+  "id": "golf_pro",
+  "nameEs": "Profesor de Golf",
+  "nameEn": "Golf Pro",
+  "verticalId": "service-booking",
+  "subVertical": "personal-training",
+  "extends": "gimnasio",
+  "tokens": "golf_pro",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Profesor de Golf en {{city}}",
+    "descriptionTemplate": "Profesor de Golf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "profesor de golf {{city}}",
+      "golf pro {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Profesor de Golf",
+    "subheadlineTemplate": "Profesor de Golf profesional en {{city}}."
+  }
+}

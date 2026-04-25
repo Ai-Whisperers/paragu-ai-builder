@@ -1,0 +1,22 @@
+{
+  "id": "hydroponic_supply_shop",
+  "nameEs": "Hidroponia",
+  "nameEn": "Hydroponic Shop",
+  "verticalId": "retail-local",
+  "subVertical": "hardware-garden",
+  "extends": "retail_base",
+  "tokens": "hydroponic_supply_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Hidroponia en {{city}}",
+    "descriptionTemplate": "Hidroponia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hidroponia {{city}}",
+      "hydroponic shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hidroponia",
+    "subheadlineTemplate": "Hidroponia profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "title_company",
+  "nameEs": "Estudio Titulos",
+  "nameEn": "Title Company",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "title-escrow",
+  "extends": "inmobiliaria",
+  "tokens": "title_company",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Estudio Titulos en {{city}}",
+    "descriptionTemplate": "Estudio Titulos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio titulos {{city}}",
+      "title company {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio Titulos",
+    "subheadlineTemplate": "Estudio Titulos profesional en {{city}}."
+  }
+}

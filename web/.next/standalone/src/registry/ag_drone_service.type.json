@@ -1,0 +1,25 @@
+{
+  "id": "ag_drone_service",
+  "nameEs": "Drones Agricolas",
+  "nameEn": "Ag Drone",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "ag-equipment",
+  "extends": "agriculture_base",
+  "tokens": "ag_drone_service",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Drones Agricolas en {{city}}",
+    "descriptionTemplate": "Drones Agricolas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "drones agricolas {{city}}",
+      "ag drone {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Drones Agricolas",
+    "subheadlineTemplate": "Drones Agricolas profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

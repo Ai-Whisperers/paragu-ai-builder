@@ -1,0 +1,22 @@
+{
+  "id": "escrow_company",
+  "nameEs": "Escrow",
+  "nameEn": "Escrow Company",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "title-escrow",
+  "extends": "inmobiliaria",
+  "tokens": "escrow_company",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Escrow en {{city}}",
+    "descriptionTemplate": "Escrow profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escrow {{city}}",
+      "escrow company {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escrow",
+    "subheadlineTemplate": "Escrow profesional en {{city}}."
+  }
+}

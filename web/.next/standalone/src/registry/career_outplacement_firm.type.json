@@ -1,0 +1,25 @@
+{
+  "id": "career_outplacement_firm",
+  "nameEs": "Recolocacion",
+  "nameEn": "Outplacement",
+  "verticalId": "b2b-professional",
+  "subVertical": "hr-recruiting",
+  "extends": "professional_services_base",
+  "tokens": "career_outplacement_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Recolocacion en {{city}}",
+    "descriptionTemplate": "Recolocacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "recolocacion {{city}}",
+      "outplacement {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Recolocacion",
+    "subheadlineTemplate": "Recolocacion profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cirugia_estetica",
+  "nameEs": "Cirugia Estetica",
+  "nameEn": "Cosmetic Surgery",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "cirugia_estetica",
+  "seo": {
+    "schemaType": "Physician",
+    "titleTemplate": "{{businessName}} - Cirugia Estetica en {{city}}",
+    "descriptionTemplate": "Cirugia estetica y plastica con especialistas certificados en {{city}}.",
+    "keywords": [
+      "cirugia estetica {{city}}",
+      "cirujano plastico {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu mejor version, en buenas manos",
+    "subheadlineTemplate": "Cirugia estetica y plastica con especialistas certificados en {{city}}."
+  },
+  "serviceCategories": [
+    "rostro",
+    "cuerpo",
+    "minimamente_invasivos"
+  ]
+}

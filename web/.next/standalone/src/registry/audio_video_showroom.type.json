@@ -1,0 +1,22 @@
+{
+  "id": "audio_video_showroom",
+  "nameEs": "Showroom AV",
+  "nameEn": "AV Showroom",
+  "verticalId": "retail-local",
+  "subVertical": "electronics-appliance",
+  "extends": "retail_base",
+  "tokens": "audio_video_showroom",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Showroom AV en {{city}}",
+    "descriptionTemplate": "Showroom AV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "showroom av {{city}}",
+      "av showroom {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Showroom AV",
+    "subheadlineTemplate": "Showroom AV profesional en {{city}}."
+  }
+}

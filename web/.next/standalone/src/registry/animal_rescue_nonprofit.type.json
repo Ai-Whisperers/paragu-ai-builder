@@ -1,0 +1,22 @@
+{
+  "id": "animal_rescue_nonprofit",
+  "nameEs": "Rescate Animal",
+  "nameEn": "Animal Rescue",
+  "verticalId": "pets-animals",
+  "subVertical": "animal-rescue-shelter",
+  "extends": "pets_base",
+  "tokens": "animal_rescue_nonprofit",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Rescate Animal en {{city}}",
+    "descriptionTemplate": "Rescate Animal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "rescate animal {{city}}",
+      "animal rescue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Rescate Animal",
+    "subheadlineTemplate": "Rescate Animal profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "csa_farm",
+  "nameEs": "Granja CSA",
+  "nameEn": "CSA Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "csa-direct",
+  "extends": "agriculture_base",
+  "tokens": "csa_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja CSA en {{city}}",
+    "descriptionTemplate": "Granja CSA profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja csa {{city}}",
+      "csa farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja CSA",
+    "subheadlineTemplate": "Granja CSA profesional en {{city}}."
+  }
+}

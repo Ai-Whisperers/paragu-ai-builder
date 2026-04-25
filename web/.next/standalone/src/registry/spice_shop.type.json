@@ -1,0 +1,22 @@
+{
+  "id": "spice_shop",
+  "nameEs": "Especieria",
+  "nameEn": "Spice Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "spice_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Especieria en {{city}}",
+    "descriptionTemplate": "Especieria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especieria {{city}}",
+      "spice shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especieria",
+    "subheadlineTemplate": "Especieria profesional en {{city}}."
+  }
+}

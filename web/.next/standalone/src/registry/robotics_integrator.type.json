@@ -1,0 +1,25 @@
+{
+  "id": "robotics_integrator",
+  "nameEs": "Integrador Robotica",
+  "nameEn": "Robotics Integrator",
+  "verticalId": "technology-digital",
+  "subVertical": "hardware-iot",
+  "extends": "technology_base",
+  "tokens": "robotics_integrator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Integrador Robotica en {{city}}",
+    "descriptionTemplate": "Integrador Robotica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "integrador robotica {{city}}",
+      "robotics integrator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Integrador Robotica",
+    "subheadlineTemplate": "Integrador Robotica profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

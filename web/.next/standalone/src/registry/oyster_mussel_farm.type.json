@@ -1,0 +1,22 @@
+{
+  "id": "oyster_mussel_farm",
+  "nameEs": "Molusqueria",
+  "nameEn": "Shellfish Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "aquaculture",
+  "extends": "agriculture_base",
+  "tokens": "oyster_mussel_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Molusqueria en {{city}}",
+    "descriptionTemplate": "Molusqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "molusqueria {{city}}",
+      "shellfish farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Molusqueria",
+    "subheadlineTemplate": "Molusqueria profesional en {{city}}."
+  }
+}

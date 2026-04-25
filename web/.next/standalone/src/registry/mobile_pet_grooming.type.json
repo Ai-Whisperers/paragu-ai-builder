@@ -1,0 +1,22 @@
+{
+  "id": "mobile_pet_grooming",
+  "nameEs": "Peluqueria Mascotas Movil",
+  "nameEn": "Mobile Grooming",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-grooming",
+  "extends": "pets_base",
+  "tokens": "mobile_pet_grooming",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Peluqueria Mascotas Movil en {{city}}",
+    "descriptionTemplate": "Peluqueria Mascotas Movil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "peluqueria mascotas movil {{city}}",
+      "mobile grooming {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Peluqueria Mascotas Movil",
+    "subheadlineTemplate": "Peluqueria Mascotas Movil profesional en {{city}}."
+  }
+}

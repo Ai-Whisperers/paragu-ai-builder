@@ -1,0 +1,22 @@
+{
+  "id": "community_foundation",
+  "nameEs": "Fundacion Comunitaria",
+  "nameEn": "Community Foundation",
+  "verticalId": "membership-community",
+  "subVertical": "nonprofit-charity",
+  "extends": "membership_base",
+  "tokens": "community_foundation",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Fundacion Comunitaria en {{city}}",
+    "descriptionTemplate": "Fundacion Comunitaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fundacion comunitaria {{city}}",
+      "community foundation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fundacion Comunitaria",
+    "subheadlineTemplate": "Fundacion Comunitaria profesional en {{city}}."
+  }
+}

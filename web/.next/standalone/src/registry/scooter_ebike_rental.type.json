@@ -1,0 +1,22 @@
+{
+  "id": "scooter_ebike_rental",
+  "nameEs": "Alquiler Scooter",
+  "nameEn": "Scooter Rental",
+  "verticalId": "automotive",
+  "subVertical": "rental",
+  "extends": "automotive_base",
+  "tokens": "scooter_ebike_rental",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Scooter en {{city}}",
+    "descriptionTemplate": "Alquiler Scooter profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler scooter {{city}}",
+      "scooter rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Scooter",
+    "subheadlineTemplate": "Alquiler Scooter profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "engine_bay_detailing",
+  "nameEs": "Limpieza Motor",
+  "nameEn": "Engine Detailing",
+  "verticalId": "automotive",
+  "subVertical": "wash-detail",
+  "extends": "automotive_base",
+  "tokens": "engine_bay_detailing",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Limpieza Motor en {{city}}",
+    "descriptionTemplate": "Limpieza Motor profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "limpieza motor {{city}}",
+      "engine detailing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Limpieza Motor",
+    "subheadlineTemplate": "Limpieza Motor profesional en {{city}}."
+  }
+}

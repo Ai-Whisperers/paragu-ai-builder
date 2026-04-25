@@ -1,0 +1,25 @@
+{
+  "id": "check_cashing_store",
+  "nameEs": "Cambio Cheques",
+  "nameEn": "Check Cashing",
+  "verticalId": "finance-insurance",
+  "subVertical": "credit-union-community-bank",
+  "extends": "finance_insurance_base",
+  "tokens": "check_cashing_store",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Cambio Cheques en {{city}}",
+    "descriptionTemplate": "Cambio Cheques profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cambio cheques {{city}}",
+      "check cashing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cambio Cheques",
+    "subheadlineTemplate": "Cambio Cheques profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

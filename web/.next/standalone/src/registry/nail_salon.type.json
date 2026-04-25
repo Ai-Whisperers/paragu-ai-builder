@@ -1,0 +1,22 @@
+{
+  "id": "nail_salon",
+  "nameEs": "Salon de Unas",
+  "nameEn": "Nail Salon",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "nails",
+  "extends": "beauty_base",
+  "tokens": "nail_salon",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Salon de Unas en {{city}}",
+    "descriptionTemplate": "Salon de Unas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "salon de unas {{city}}",
+      "nail salon {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Salon de Unas",
+    "subheadlineTemplate": "Salon de Unas profesional en {{city}}."
+  }
+}

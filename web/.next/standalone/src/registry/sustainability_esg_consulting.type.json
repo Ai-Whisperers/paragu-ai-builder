@@ -1,0 +1,25 @@
+{
+  "id": "sustainability_esg_consulting",
+  "nameEs": "Consultoria ESG",
+  "nameEn": "ESG Consulting",
+  "verticalId": "b2b-professional",
+  "subVertical": "management-consulting",
+  "extends": "professional_services_base",
+  "tokens": "sustainability_esg_consulting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultoria ESG en {{city}}",
+    "descriptionTemplate": "Consultoria ESG profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultoria esg {{city}}",
+      "esg consulting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultoria ESG",
+    "subheadlineTemplate": "Consultoria ESG profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

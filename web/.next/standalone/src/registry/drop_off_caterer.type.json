@@ -1,0 +1,22 @@
+{
+  "id": "drop_off_caterer",
+  "nameEs": "Catering a Domicilio",
+  "nameEn": "Drop-Off Catering",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "drop_off_caterer",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Catering a Domicilio en {{city}}",
+    "descriptionTemplate": "Catering a Domicilio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "catering a domicilio {{city}}",
+      "drop-off catering {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Catering a Domicilio",
+    "subheadlineTemplate": "Catering a Domicilio profesional en {{city}}."
+  }
+}

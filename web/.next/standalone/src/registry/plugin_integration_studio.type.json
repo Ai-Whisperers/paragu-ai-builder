@@ -1,0 +1,25 @@
+{
+  "id": "plugin_integration_studio",
+  "nameEs": "Estudio Integraciones",
+  "nameEn": "Integration Studio",
+  "verticalId": "technology-digital",
+  "subVertical": "saas-vendor",
+  "extends": "technology_base",
+  "tokens": "plugin_integration_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Estudio Integraciones en {{city}}",
+    "descriptionTemplate": "Estudio Integraciones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio integraciones {{city}}",
+      "integration studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio Integraciones",
+    "subheadlineTemplate": "Estudio Integraciones profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

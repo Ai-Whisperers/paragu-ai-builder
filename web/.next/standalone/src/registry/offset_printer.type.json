@@ -1,0 +1,25 @@
+{
+  "id": "offset_printer",
+  "nameEs": "Offset",
+  "nameEn": "Offset Printer",
+  "verticalId": "trades-industrial",
+  "subVertical": "printing-signage",
+  "extends": "industrial_base",
+  "tokens": "offset_printer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Offset en {{city}}",
+    "descriptionTemplate": "Offset profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "offset {{city}}",
+      "offset printer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Offset",
+    "subheadlineTemplate": "Offset profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

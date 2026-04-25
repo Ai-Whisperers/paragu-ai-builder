@@ -1,0 +1,22 @@
+{
+  "id": "marine_boat_insurance",
+  "nameEs": "Seguro Nautico",
+  "nameEn": "Marine Insurance",
+  "verticalId": "finance-insurance",
+  "subVertical": "insurance-specialty",
+  "extends": "finance_insurance_base",
+  "tokens": "marine_boat_insurance",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Seguro Nautico en {{city}}",
+    "descriptionTemplate": "Seguro Nautico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "seguro nautico {{city}}",
+      "marine insurance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Seguro Nautico",
+    "subheadlineTemplate": "Seguro Nautico profesional en {{city}}."
+  }
+}

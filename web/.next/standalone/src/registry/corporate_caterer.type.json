@@ -1,0 +1,22 @@
+{
+  "id": "corporate_caterer",
+  "nameEs": "Catering Corporativo",
+  "nameEn": "Corporate Catering",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "corporate_caterer",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Catering Corporativo en {{city}}",
+    "descriptionTemplate": "Catering Corporativo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "catering corporativo {{city}}",
+      "corporate catering {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Catering Corporativo",
+    "subheadlineTemplate": "Catering Corporativo profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "aikido_dojo",
+  "nameEs": "Dojo Aikido",
+  "nameEn": "Aikido Dojo",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "aikido_dojo",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Dojo Aikido en {{city}}",
+    "descriptionTemplate": "Dojo Aikido profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "dojo aikido {{city}}",
+      "aikido dojo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Dojo Aikido",
+    "subheadlineTemplate": "Dojo Aikido profesional en {{city}}."
+  }
+}

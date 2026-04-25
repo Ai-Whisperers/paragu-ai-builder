@@ -1,0 +1,22 @@
+{
+  "id": "well_pump_specialist",
+  "nameEs": "Especialista Bombas",
+  "nameEn": "Well Pump Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "well_pump_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Especialista Bombas en {{city}}",
+    "descriptionTemplate": "Especialista Bombas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista bombas {{city}}",
+      "well pump specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Bombas",
+    "subheadlineTemplate": "Especialista Bombas profesional en {{city}}."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "trades_base",
+  "nameEs": "Base Oficios",
+  "nameEn": "Trades Base",
+  "verticalId": "trades-home-services",
+  "abstract": true,
+  "tokens": "trades_base",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "emergencyIndicator", "services", "serviceArea", "beforeAfter", "process", "testimonials", "faq", "quoteForm", "contact", "footer"],
+      "requiredSections": ["header", "hero", "services", "quoteForm", "contact", "footer"]
+    }
+  },
+  "features": {
+    "quoteForm": { "enabled": true },
+    "emergencyIndicator": { "enabled": true, "available24h": false },
+    "serviceAreaMap": { "enabled": true },
+    "beforeAfter": { "enabled": true, "optional": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": false }
+  },
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Servicios profesionales en {{city}}. Presupuesto sin compromiso."
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Zona", "Contacto"],
+    "cta": { "text": "Presupuesto", "action": "quoteForm" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}}",
+    "subheadlineTemplate": "Servicios confiables en {{city}}. Presupuesto gratis.",
+    "ctaPrimary": { "text": "Solicitar Presupuesto", "action": "quoteForm" },
+    "ctaSecondary": { "text": "WhatsApp", "action": "whatsapp" }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "podcast_network",
+  "nameEs": "Red Podcast",
+  "nameEn": "Podcast Network",
+  "verticalId": "media-publishing",
+  "subVertical": "podcast-studio",
+  "extends": "media_base",
+  "tokens": "podcast_network",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Red Podcast en {{city}}",
+    "descriptionTemplate": "Red Podcast profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "red podcast {{city}}",
+      "podcast network {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Red Podcast",
+    "subheadlineTemplate": "Red Podcast profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

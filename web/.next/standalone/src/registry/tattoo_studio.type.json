@@ -1,0 +1,22 @@
+{
+  "id": "tattoo_studio",
+  "nameEs": "Estudio de Tatuajes",
+  "nameEn": "Tattoo Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "tattoo-piercing",
+  "extends": "beauty_base",
+  "tokens": "tattoo_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Estudio de Tatuajes en {{city}}",
+    "descriptionTemplate": "Estudio de Tatuajes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de tatuajes {{city}}",
+      "tattoo studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Tatuajes",
+    "subheadlineTemplate": "Estudio de Tatuajes profesional en {{city}}."
+  }
+}

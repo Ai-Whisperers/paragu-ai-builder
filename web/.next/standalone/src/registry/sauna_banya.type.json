@@ -1,0 +1,22 @@
+{
+  "id": "sauna_banya",
+  "nameEs": "Sauna Rusa",
+  "nameEn": "Sauna Banya",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "sauna_banya",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Sauna Rusa en {{city}}",
+    "descriptionTemplate": "Sauna Rusa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sauna rusa {{city}}",
+      "sauna banya {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sauna Rusa",
+    "subheadlineTemplate": "Sauna Rusa profesional en {{city}}."
+  }
+}

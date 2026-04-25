@@ -1,0 +1,22 @@
+{
+  "id": "organic_market",
+  "nameEs": "Mercado Organico",
+  "nameEn": "Organic Market",
+  "verticalId": "retail-local",
+  "subVertical": "grocery-market",
+  "extends": "retail_base",
+  "tokens": "organic_market",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Mercado Organico en {{city}}",
+    "descriptionTemplate": "Mercado Organico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mercado organico {{city}}",
+      "organic market {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mercado Organico",
+    "subheadlineTemplate": "Mercado Organico profesional en {{city}}."
+  }
+}

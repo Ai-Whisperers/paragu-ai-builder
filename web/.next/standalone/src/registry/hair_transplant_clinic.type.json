@@ -1,0 +1,22 @@
+{
+  "id": "hair_transplant_clinic",
+  "nameEs": "Trasplante Capilar",
+  "nameEn": "Hair Transplant",
+  "verticalId": "health-wellness",
+  "subVertical": "medical-aesthetics",
+  "extends": "health_wellness_base",
+  "tokens": "hair_transplant_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Trasplante Capilar en {{city}}",
+    "descriptionTemplate": "Trasplante Capilar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "trasplante capilar {{city}}",
+      "hair transplant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Trasplante Capilar",
+    "subheadlineTemplate": "Trasplante Capilar profesional en {{city}}."
+  }
+}

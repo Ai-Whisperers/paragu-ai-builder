@@ -1,0 +1,22 @@
+{
+  "id": "gel_acrylic_nail_studio",
+  "nameEs": "Unas de Gel Acrilico",
+  "nameEn": "Gel Acrylic Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "nails",
+  "extends": "beauty_base",
+  "tokens": "gel_acrylic_nail_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Unas de Gel Acrilico en {{city}}",
+    "descriptionTemplate": "Unas de Gel Acrilico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "unas de gel acrilico {{city}}",
+      "gel acrylic studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Unas de Gel Acrilico",
+    "subheadlineTemplate": "Unas de Gel Acrilico profesional en {{city}}."
+  }
+}

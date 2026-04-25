@@ -1,0 +1,22 @@
+{
+  "id": "asian_grocery",
+  "nameEs": "Supermercado Asiatico",
+  "nameEn": "Asian Grocery",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "asian_grocery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Supermercado Asiatico en {{city}}",
+    "descriptionTemplate": "Supermercado Asiatico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "supermercado asiatico {{city}}",
+      "asian grocery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Supermercado Asiatico",
+    "subheadlineTemplate": "Supermercado Asiatico profesional en {{city}}."
+  }
+}

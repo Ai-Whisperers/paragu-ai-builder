@@ -1,0 +1,22 @@
+{
+  "id": "sign_shop",
+  "nameEs": "Carteleria",
+  "nameEn": "Sign Shop",
+  "verticalId": "trades-industrial",
+  "subVertical": "printing-signage",
+  "extends": "industrial_base",
+  "tokens": "sign_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Carteleria en {{city}}",
+    "descriptionTemplate": "Carteleria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "carteleria {{city}}",
+      "sign shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Carteleria",
+    "subheadlineTemplate": "Carteleria profesional en {{city}}."
+  }
+}

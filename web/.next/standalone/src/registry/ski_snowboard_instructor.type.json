@@ -1,0 +1,22 @@
+{
+  "id": "ski_snowboard_instructor",
+  "nameEs": "Instructor de Esqui",
+  "nameEn": "Ski Instructor",
+  "verticalId": "service-booking",
+  "subVertical": "personal-training",
+  "extends": "gimnasio",
+  "tokens": "ski_snowboard_instructor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Instructor de Esqui en {{city}}",
+    "descriptionTemplate": "Instructor de Esqui profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instructor de esqui {{city}}",
+      "ski instructor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instructor de Esqui",
+    "subheadlineTemplate": "Instructor de Esqui profesional en {{city}}."
+  }
+}

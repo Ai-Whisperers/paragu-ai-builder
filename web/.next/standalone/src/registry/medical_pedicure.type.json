@@ -1,0 +1,22 @@
+{
+  "id": "medical_pedicure",
+  "nameEs": "Podologia Estetica",
+  "nameEn": "Medical Pedicure",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "nails",
+  "extends": "beauty_base",
+  "tokens": "medical_pedicure",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Podologia Estetica en {{city}}",
+    "descriptionTemplate": "Podologia Estetica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "podologia estetica {{city}}",
+      "medical pedicure {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Podologia Estetica",
+    "subheadlineTemplate": "Podologia Estetica profesional en {{city}}."
+  }
+}

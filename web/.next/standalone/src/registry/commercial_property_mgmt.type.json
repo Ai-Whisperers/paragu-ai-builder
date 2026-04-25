@@ -1,0 +1,25 @@
+{
+  "id": "commercial_property_mgmt",
+  "nameEs": "Administracion Comercial",
+  "nameEn": "Commercial PM",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "property-management",
+  "extends": "inmobiliaria",
+  "tokens": "commercial_property_mgmt",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Administracion Comercial en {{city}}",
+    "descriptionTemplate": "Administracion Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "administracion comercial {{city}}",
+      "commercial pm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Administracion Comercial",
+    "subheadlineTemplate": "Administracion Comercial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

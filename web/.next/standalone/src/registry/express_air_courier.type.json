@@ -1,0 +1,22 @@
+{
+  "id": "express_air_courier",
+  "nameEs": "Courier Expreso",
+  "nameEn": "Express Air",
+  "verticalId": "logistics-transport",
+  "subVertical": "aviation-cargo",
+  "extends": "logistics_base",
+  "tokens": "express_air_courier",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Courier Expreso en {{city}}",
+    "descriptionTemplate": "Courier Expreso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "courier expreso {{city}}",
+      "express air {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Courier Expreso",
+    "subheadlineTemplate": "Courier Expreso profesional en {{city}}."
+  }
+}

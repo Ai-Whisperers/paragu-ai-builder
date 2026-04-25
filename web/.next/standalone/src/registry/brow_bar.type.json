@@ -1,0 +1,22 @@
+{
+  "id": "brow_bar",
+  "nameEs": "Bar de Cejas",
+  "nameEn": "Brow Bar",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "makeup",
+  "extends": "beauty_base",
+  "tokens": "brow_bar",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Bar de Cejas en {{city}}",
+    "descriptionTemplate": "Bar de Cejas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bar de cejas {{city}}",
+      "brow bar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bar de Cejas",
+    "subheadlineTemplate": "Bar de Cejas profesional en {{city}}."
+  }
+}

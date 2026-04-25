@@ -1,0 +1,22 @@
+{
+  "id": "literary_journal",
+  "nameEs": "Revista Literaria",
+  "nameEn": "Literary Journal",
+  "verticalId": "media-publishing",
+  "subVertical": "magazine-niche",
+  "extends": "media_base",
+  "tokens": "literary_journal",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Revista Literaria en {{city}}",
+    "descriptionTemplate": "Revista Literaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "revista literaria {{city}}",
+      "literary journal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Revista Literaria",
+    "subheadlineTemplate": "Revista Literaria profesional en {{city}}."
+  }
+}

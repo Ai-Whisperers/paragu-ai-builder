@@ -1,0 +1,27 @@
+{
+  "id": "gomeria",
+  "nameEs": "Gomeria",
+  "nameEn": "Tire Shop",
+  "verticalId": "automotive",
+  "extends": "automotive_base",
+  "tokens": "gomeria",
+  "seo": {
+    "schemaType": "TireShop",
+    "titleTemplate": "{{businessName}} - Gomeria en {{city}}",
+    "descriptionTemplate": "Venta, montaje y balanceo de neumaticos en {{city}}.",
+    "keywords": [
+      "gomeria {{city}}",
+      "neumaticos {{city}}",
+      "alineacion balanceo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ruedas nuevas, viaje tranquilo",
+    "subheadlineTemplate": "Venta, montaje y balanceo de neumaticos en {{city}}."
+  },
+  "serviceCategories": [
+    "venta",
+    "montaje",
+    "alineacion"
+  ]
+}

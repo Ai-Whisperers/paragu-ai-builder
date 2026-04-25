@@ -1,0 +1,22 @@
+{
+  "id": "fruit_orchard",
+  "nameEs": "Huerto Frutal",
+  "nameEn": "Fruit Orchard",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "crop-farming",
+  "extends": "agriculture_base",
+  "tokens": "fruit_orchard",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Huerto Frutal en {{city}}",
+    "descriptionTemplate": "Huerto Frutal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "huerto frutal {{city}}",
+      "fruit orchard {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Huerto Frutal",
+    "subheadlineTemplate": "Huerto Frutal profesional en {{city}}."
+  }
+}

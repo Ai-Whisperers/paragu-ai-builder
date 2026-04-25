@@ -1,0 +1,22 @@
+{
+  "id": "plaster_stucco_specialist",
+  "nameEs": "Estucador",
+  "nameEn": "Plaster Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "painting-finishing",
+  "extends": "trades_base",
+  "tokens": "plaster_stucco_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Estucador en {{city}}",
+    "descriptionTemplate": "Estucador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estucador {{city}}",
+      "plaster specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estucador",
+    "subheadlineTemplate": "Estucador profesional en {{city}}."
+  }
+}

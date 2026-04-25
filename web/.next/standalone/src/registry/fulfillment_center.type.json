@@ -1,0 +1,25 @@
+{
+  "id": "fulfillment_center",
+  "nameEs": "Centro Fulfillment",
+  "nameEn": "Fulfillment Center",
+  "verticalId": "logistics-transport",
+  "subVertical": "warehousing",
+  "extends": "logistics_base",
+  "tokens": "fulfillment_center",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Centro Fulfillment en {{city}}",
+    "descriptionTemplate": "Centro Fulfillment profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro fulfillment {{city}}",
+      "fulfillment center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro Fulfillment",
+    "subheadlineTemplate": "Centro Fulfillment profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

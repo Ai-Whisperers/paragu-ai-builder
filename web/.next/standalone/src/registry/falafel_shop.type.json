@@ -1,0 +1,22 @@
+{
+  "id": "falafel_shop",
+  "nameEs": "Falafel",
+  "nameEn": "Falafel Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "falafel_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Falafel en {{city}}",
+    "descriptionTemplate": "Falafel profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "falafel {{city}}",
+      "falafel shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Falafel",
+    "subheadlineTemplate": "Falafel profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gourmet_grocer",
+  "nameEs": "Tienda Gourmet",
+  "nameEn": "Gourmet Grocer",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "gourmet_grocer",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Tienda Gourmet en {{city}}",
+    "descriptionTemplate": "Tienda Gourmet profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda gourmet {{city}}",
+      "gourmet grocer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Gourmet",
+    "subheadlineTemplate": "Tienda Gourmet profesional en {{city}}."
+  }
+}

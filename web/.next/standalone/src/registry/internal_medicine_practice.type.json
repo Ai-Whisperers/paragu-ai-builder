@@ -1,0 +1,22 @@
+{
+  "id": "internal_medicine_practice",
+  "nameEs": "Medicina Interna",
+  "nameEn": "Internal Medicine",
+  "verticalId": "health-wellness",
+  "subVertical": "primary-care",
+  "extends": "health_wellness_base",
+  "tokens": "internal_medicine_practice",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Medicina Interna en {{city}}",
+    "descriptionTemplate": "Medicina Interna profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "medicina interna {{city}}",
+      "internal medicine {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Medicina Interna",
+    "subheadlineTemplate": "Medicina Interna profesional en {{city}}."
+  }
+}

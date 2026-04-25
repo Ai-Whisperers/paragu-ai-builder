@@ -1,0 +1,22 @@
+{
+  "id": "general_contractor",
+  "nameEs": "Contratista General",
+  "nameEn": "General Contractor",
+  "verticalId": "trades-home-services",
+  "subVertical": "general-contracting",
+  "extends": "trades_base",
+  "tokens": "general_contractor",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Contratista General en {{city}}",
+    "descriptionTemplate": "Contratista General profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "contratista general {{city}}",
+      "general contractor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Contratista General",
+    "subheadlineTemplate": "Contratista General profesional en {{city}}."
+  }
+}

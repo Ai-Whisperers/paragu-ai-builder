@@ -1,0 +1,22 @@
+{
+  "id": "glassblower_studio",
+  "nameEs": "Taller Vidrio Soplado",
+  "nameEn": "Glass Studio",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fine-arts",
+  "extends": "diseno_grafico",
+  "tokens": "glassblower_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Taller Vidrio Soplado en {{city}}",
+    "descriptionTemplate": "Taller Vidrio Soplado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller vidrio soplado {{city}}",
+      "glass studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller Vidrio Soplado",
+    "subheadlineTemplate": "Taller Vidrio Soplado profesional en {{city}}."
+  }
+}

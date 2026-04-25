@@ -1,0 +1,22 @@
+{
+  "id": "emergency_veterinary_hospital",
+  "nameEs": "Urgencias Veterinarias",
+  "nameEn": "Emergency Vet",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "emergency_veterinary_hospital",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Urgencias Veterinarias en {{city}}",
+    "descriptionTemplate": "Urgencias Veterinarias profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "urgencias veterinarias {{city}}",
+      "emergency vet {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Urgencias Veterinarias",
+    "subheadlineTemplate": "Urgencias Veterinarias profesional en {{city}}."
+  }
+}

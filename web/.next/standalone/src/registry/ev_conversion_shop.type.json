@@ -1,0 +1,22 @@
+{
+  "id": "ev_conversion_shop",
+  "nameEs": "Conversion a Electrico",
+  "nameEn": "EV Conversion",
+  "verticalId": "automotive",
+  "subVertical": "ev-hybrid",
+  "extends": "automotive_base",
+  "tokens": "ev_conversion_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Conversion a Electrico en {{city}}",
+    "descriptionTemplate": "Conversion a Electrico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "conversion a electrico {{city}}",
+      "ev conversion {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Conversion a Electrico",
+    "subheadlineTemplate": "Conversion a Electrico profesional en {{city}}."
+  }
+}

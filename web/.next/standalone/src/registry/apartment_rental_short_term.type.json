@@ -1,0 +1,22 @@
+{
+  "id": "apartment_rental_short_term",
+  "nameEs": "Alquiler Temporal",
+  "nameEn": "Short-Term Apartment",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "short-term-rental",
+  "extends": "restaurant",
+  "tokens": "apartment_rental_short_term",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Temporal en {{city}}",
+    "descriptionTemplate": "Alquiler Temporal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler temporal {{city}}",
+      "short-term apartment {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Temporal",
+    "subheadlineTemplate": "Alquiler Temporal profesional en {{city}}."
+  }
+}

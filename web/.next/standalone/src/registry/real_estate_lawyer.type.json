@@ -1,0 +1,22 @@
+{
+  "id": "real_estate_lawyer",
+  "nameEs": "Abogado Inmobiliario",
+  "nameEn": "Real Estate Lawyer",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "real_estate_lawyer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Abogado Inmobiliario en {{city}}",
+    "descriptionTemplate": "Abogado Inmobiliario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "abogado inmobiliario {{city}}",
+      "real estate lawyer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Abogado Inmobiliario",
+    "subheadlineTemplate": "Abogado Inmobiliario profesional en {{city}}."
+  }
+}

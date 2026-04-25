@@ -1,0 +1,22 @@
+{
+  "id": "day_spa",
+  "nameEs": "Spa de Dia",
+  "nameEn": "Day Spa",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "day_spa",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Spa de Dia en {{city}}",
+    "descriptionTemplate": "Spa de Dia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "spa de dia {{city}}",
+      "day spa {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Spa de Dia",
+    "subheadlineTemplate": "Spa de Dia profesional en {{city}}."
+  }
+}

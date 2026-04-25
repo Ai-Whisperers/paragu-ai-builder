@@ -1,0 +1,22 @@
+{
+  "id": "mma_gym",
+  "nameEs": "Gimnasio MMA",
+  "nameEn": "MMA Gym",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "mma_gym",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Gimnasio MMA en {{city}}",
+    "descriptionTemplate": "Gimnasio MMA profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio mma {{city}}",
+      "mma gym {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio MMA",
+    "subheadlineTemplate": "Gimnasio MMA profesional en {{city}}."
+  }
+}

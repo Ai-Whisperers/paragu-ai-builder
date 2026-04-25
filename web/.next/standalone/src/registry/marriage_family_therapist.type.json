@@ -1,0 +1,22 @@
+{
+  "id": "marriage_family_therapist",
+  "nameEs": "Terapia de Pareja",
+  "nameEn": "Marriage Therapist",
+  "verticalId": "health-wellness",
+  "subVertical": "mental-health",
+  "extends": "health_wellness_base",
+  "tokens": "marriage_family_therapist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Terapia de Pareja en {{city}}",
+    "descriptionTemplate": "Terapia de Pareja profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "terapia de pareja {{city}}",
+      "marriage therapist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Terapia de Pareja",
+    "subheadlineTemplate": "Terapia de Pareja profesional en {{city}}."
+  }
+}

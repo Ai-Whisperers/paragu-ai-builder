@@ -1,0 +1,22 @@
+{
+  "id": "salt_cave_halotherapy",
+  "nameEs": "Haloterapia",
+  "nameEn": "Salt Cave",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "salt_cave_halotherapy",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Haloterapia en {{city}}",
+    "descriptionTemplate": "Haloterapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "haloterapia {{city}}",
+      "salt cave {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Haloterapia",
+    "subheadlineTemplate": "Haloterapia profesional en {{city}}."
+  }
+}

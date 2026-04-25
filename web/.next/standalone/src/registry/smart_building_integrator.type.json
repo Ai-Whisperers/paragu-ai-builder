@@ -1,0 +1,25 @@
+{
+  "id": "smart_building_integrator",
+  "nameEs": "Edificios Inteligentes",
+  "nameEn": "Smart Building",
+  "verticalId": "technology-digital",
+  "subVertical": "hardware-iot",
+  "extends": "technology_base",
+  "tokens": "smart_building_integrator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Edificios Inteligentes en {{city}}",
+    "descriptionTemplate": "Edificios Inteligentes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "edificios inteligentes {{city}}",
+      "smart building {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Edificios Inteligentes",
+    "subheadlineTemplate": "Edificios Inteligentes profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

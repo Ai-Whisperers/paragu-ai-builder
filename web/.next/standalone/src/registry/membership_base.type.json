@@ -1,0 +1,72 @@
+{
+  "id": "membership_base",
+  "nameEs": "Base Membresia",
+  "nameEn": "Membership Base",
+  "verticalId": "membership-community",
+  "abstract": true,
+  "tokens": "membership_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "about",
+        "services",
+        "team",
+        "eventsCalendar",
+        "testimonials",
+        "faq",
+        "leadForm",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "events": {
+      "enabled": true
+    },
+    "leadForm": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Membresia profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Nosotros",
+      "Eventos",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Unirse",
+      "action": "leadForm"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Juntos somos mas",
+    "subheadlineTemplate": "Una comunidad con proposito.",
+    "ctaPrimary": {
+      "text": "Unirse",
+      "action": "leadForm"
+    },
+    "ctaSecondary": {
+      "text": "Conocenos",
+      "action": "scrollTo:about"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hazardous_waste_disposal",
+  "nameEs": "Residuos Peligrosos",
+  "nameEn": "Hazardous Waste",
+  "verticalId": "trades-industrial",
+  "subVertical": "recycling-waste",
+  "extends": "industrial_base",
+  "tokens": "hazardous_waste_disposal",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Residuos Peligrosos en {{city}}",
+    "descriptionTemplate": "Residuos Peligrosos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "residuos peligrosos {{city}}",
+      "hazardous waste {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Residuos Peligrosos",
+    "subheadlineTemplate": "Residuos Peligrosos profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "herb_farm",
+  "nameEs": "Granja Hierbas",
+  "nameEn": "Herb Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "specialty-crop",
+  "extends": "agriculture_base",
+  "tokens": "herb_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja Hierbas en {{city}}",
+    "descriptionTemplate": "Granja Hierbas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja hierbas {{city}}",
+      "herb farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja Hierbas",
+    "subheadlineTemplate": "Granja Hierbas profesional en {{city}}."
+  }
+}

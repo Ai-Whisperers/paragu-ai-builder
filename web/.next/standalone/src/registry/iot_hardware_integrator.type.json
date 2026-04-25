@@ -1,0 +1,25 @@
+{
+  "id": "iot_hardware_integrator",
+  "nameEs": "Integrador IoT",
+  "nameEn": "IoT Integrator",
+  "verticalId": "technology-digital",
+  "subVertical": "hardware-iot",
+  "extends": "technology_base",
+  "tokens": "iot_hardware_integrator",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Integrador IoT en {{city}}",
+    "descriptionTemplate": "Integrador IoT profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "integrador iot {{city}}",
+      "iot integrator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Integrador IoT",
+    "subheadlineTemplate": "Integrador IoT profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

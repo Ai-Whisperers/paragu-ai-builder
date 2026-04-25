@@ -1,0 +1,22 @@
+{
+  "id": "suspension_alignment_shop",
+  "nameEs": "Alineacion",
+  "nameEn": "Alignment Shop",
+  "verticalId": "automotive",
+  "subVertical": "repair-maintenance",
+  "extends": "automotive_base",
+  "tokens": "suspension_alignment_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alineacion en {{city}}",
+    "descriptionTemplate": "Alineacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alineacion {{city}}",
+      "alignment shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alineacion",
+    "subheadlineTemplate": "Alineacion profesional en {{city}}."
+  }
+}

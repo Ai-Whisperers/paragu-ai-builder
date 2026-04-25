@@ -1,0 +1,22 @@
+{
+  "id": "churreria",
+  "nameEs": "Churreria",
+  "nameEn": "Churro Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "churreria",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Churreria en {{city}}",
+    "descriptionTemplate": "Churreria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "churreria {{city}}",
+      "churro shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Churreria",
+    "subheadlineTemplate": "Churreria profesional en {{city}}."
+  }
+}

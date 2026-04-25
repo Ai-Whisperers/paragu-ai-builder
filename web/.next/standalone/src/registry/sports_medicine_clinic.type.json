@@ -1,0 +1,22 @@
+{
+  "id": "sports_medicine_clinic",
+  "nameEs": "Medicina Deportiva",
+  "nameEn": "Sports Medicine",
+  "verticalId": "health-wellness",
+  "subVertical": "physical-therapy",
+  "extends": "health_wellness_base",
+  "tokens": "sports_medicine_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Medicina Deportiva en {{city}}",
+    "descriptionTemplate": "Medicina Deportiva profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "medicina deportiva {{city}}",
+      "sports medicine {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Medicina Deportiva",
+    "subheadlineTemplate": "Medicina Deportiva profesional en {{city}}."
+  }
+}

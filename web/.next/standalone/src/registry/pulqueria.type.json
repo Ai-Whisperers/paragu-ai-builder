@@ -1,0 +1,22 @@
+{
+  "id": "pulqueria",
+  "nameEs": "Pulqueria",
+  "nameEn": "Pulqueria",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "pulqueria",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Pulqueria en {{city}}",
+    "descriptionTemplate": "Pulqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pulqueria {{city}}",
+      "pulqueria {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pulqueria",
+    "subheadlineTemplate": "Pulqueria profesional en {{city}}."
+  }
+}

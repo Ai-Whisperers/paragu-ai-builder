@@ -1,0 +1,22 @@
+{
+  "id": "pet_apparel_boutique",
+  "nameEs": "Ropa Mascotas",
+  "nameEn": "Pet Apparel",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "pet_apparel_boutique",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Ropa Mascotas en {{city}}",
+    "descriptionTemplate": "Ropa Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ropa mascotas {{city}}",
+      "pet apparel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ropa Mascotas",
+    "subheadlineTemplate": "Ropa Mascotas profesional en {{city}}."
+  }
+}

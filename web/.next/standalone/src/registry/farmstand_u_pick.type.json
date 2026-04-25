@@ -1,0 +1,22 @@
+{
+  "id": "farmstand_u_pick",
+  "nameEs": "Autocosecha",
+  "nameEn": "U-Pick Farmstand",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "csa-direct",
+  "extends": "agriculture_base",
+  "tokens": "farmstand_u_pick",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Autocosecha en {{city}}",
+    "descriptionTemplate": "Autocosecha profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "autocosecha {{city}}",
+      "u-pick farmstand {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Autocosecha",
+    "subheadlineTemplate": "Autocosecha profesional en {{city}}."
+  }
+}

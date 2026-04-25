@@ -1,0 +1,22 @@
+{
+  "id": "boat_cruise_tour",
+  "nameEs": "Crucero Turistico",
+  "nameEn": "Boat Cruise",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "boat_cruise_tour",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Crucero Turistico en {{city}}",
+    "descriptionTemplate": "Crucero Turistico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "crucero turistico {{city}}",
+      "boat cruise {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Crucero Turistico",
+    "subheadlineTemplate": "Crucero Turistico profesional en {{city}}."
+  }
+}

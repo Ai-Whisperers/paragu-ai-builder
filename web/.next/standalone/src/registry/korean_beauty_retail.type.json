@@ -1,0 +1,22 @@
+{
+  "id": "korean_beauty_retail",
+  "nameEs": "Tienda K-Beauty",
+  "nameEn": "K-Beauty Retail",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "beauty-retail",
+  "extends": "beauty_base",
+  "tokens": "korean_beauty_retail",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Tienda K-Beauty en {{city}}",
+    "descriptionTemplate": "Tienda K-Beauty profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda k-beauty {{city}}",
+      "k-beauty retail {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda K-Beauty",
+    "subheadlineTemplate": "Tienda K-Beauty profesional en {{city}}."
+  }
+}

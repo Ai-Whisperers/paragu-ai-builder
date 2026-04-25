@@ -1,0 +1,22 @@
+{
+  "id": "personal_injury_lawyer",
+  "nameEs": "Lesiones Personales",
+  "nameEn": "Personal Injury",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "personal_injury_lawyer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Lesiones Personales en {{city}}",
+    "descriptionTemplate": "Lesiones Personales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lesiones personales {{city}}",
+      "personal injury {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lesiones Personales",
+    "subheadlineTemplate": "Lesiones Personales profesional en {{city}}."
+  }
+}

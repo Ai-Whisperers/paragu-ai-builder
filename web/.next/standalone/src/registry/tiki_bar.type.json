@@ -1,0 +1,22 @@
+{
+  "id": "tiki_bar",
+  "nameEs": "Tiki Bar",
+  "nameEn": "Tiki Bar",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "tiki_bar",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Tiki Bar en {{city}}",
+    "descriptionTemplate": "Tiki Bar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tiki bar {{city}}",
+      "tiki bar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tiki Bar",
+    "subheadlineTemplate": "Tiki Bar profesional en {{city}}."
+  }
+}

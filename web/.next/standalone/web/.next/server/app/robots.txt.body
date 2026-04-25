@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /login
+Disallow: /demo/
+
+Host: https://paragu-ai.com
+Sitemap: https://paragu-ai.com/sitemap.xml

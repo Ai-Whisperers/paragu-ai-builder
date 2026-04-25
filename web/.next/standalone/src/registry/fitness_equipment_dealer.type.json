@@ -1,0 +1,24 @@
+{
+  "id": "fitness_equipment_dealer",
+  "nameEs": "Venta de Equipos de Fitness",
+  "nameEn": "Fitness Equipment Dealer",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "fitness_equipment_dealer",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Equipos de Fitness en {{city}}",
+    "descriptionTemplate": "Venta de maquinas de gimnasio, pesas, cintas y accesorios en {{city}}. Envios e instalacion a domicilio.",
+    "keywords": [
+      "equipos fitness {{city}}",
+      "maquinas gimnasio {{city}}",
+      "pesas {{neighborhood}}",
+      "cinta correr {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Equipos de Fitness",
+    "subheadlineTemplate": "Maquinas, pesas y accesorios para tu gimnasio u hogar en {{city}}."
+  }
+}

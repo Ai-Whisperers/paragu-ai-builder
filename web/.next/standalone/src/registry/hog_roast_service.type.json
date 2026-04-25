@@ -1,0 +1,22 @@
+{
+  "id": "hog_roast_service",
+  "nameEs": "Lechon Asado",
+  "nameEn": "Hog Roast",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "hog_roast_service",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Lechon Asado en {{city}}",
+    "descriptionTemplate": "Lechon Asado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lechon asado {{city}}",
+      "hog roast {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lechon Asado",
+    "subheadlineTemplate": "Lechon Asado profesional en {{city}}."
+  }
+}

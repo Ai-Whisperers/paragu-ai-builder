@@ -1,0 +1,22 @@
+{
+  "id": "commercial_architect",
+  "nameEs": "Arquitecto Comercial",
+  "nameEn": "Commercial Architect",
+  "verticalId": "portfolio-professional",
+  "subVertical": "architecture-interior",
+  "extends": "diseno_grafico",
+  "tokens": "commercial_architect",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Arquitecto Comercial en {{city}}",
+    "descriptionTemplate": "Arquitecto Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "arquitecto comercial {{city}}",
+      "commercial architect {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Arquitecto Comercial",
+    "subheadlineTemplate": "Arquitecto Comercial profesional en {{city}}."
+  }
+}
