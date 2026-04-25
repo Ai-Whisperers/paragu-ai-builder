@@ -189,20 +189,20 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Cuánto dura el maquillaje?",
-          "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques."
+          "q": "¿Cuánto dura el maquillaje?",
+          "a": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques."
         },
         {
-          "question": "¿Hacen prueba de maquillaje?",
-          "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional."
+          "q": "¿Hacen prueba de maquillaje?",
+          "a": "Sí, para novias incluimos una sesión de prueba sin costo adicional."
         },
         {
-          "question": "¿Usan productos hipoalergénicos?",
-          "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles."
+          "q": "¿Usan productos hipoalergénicos?",
+          "a": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles."
         },
         {
-          "question": "¿Cuánto antes debo reservar?",
-          "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales."
+          "q": "¿Cuánto antes debo reservar?",
+          "a": "Recomendamos al menos 2 semanas de anticipación para eventos especiales."
         }
       ]
     },

@@ -220,20 +220,20 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Duele la depilación láser?",
-          "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma."
+          "q": "¿Duele la depilación láser?",
+          "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma."
         },
         {
-          "question": "¿Cuántas sesiones necesito?",
-          "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos."
+          "q": "¿Cuántas sesiones necesito?",
+          "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos."
         },
         {
-          "question": "¿Hay algún cuidado especial?",
-          "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada."
+          "q": "¿Hay algún cuidado especial?",
+          "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada."
         },
         {
-          "question": "¿Cuánto dura cada sesión?",
-          "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min."
+          "q": "¿Cuánto dura cada sesión?",
+          "a": "Depende de la zona: axilas 15 min, piernas completas 45 min."
         }
       ]
     },

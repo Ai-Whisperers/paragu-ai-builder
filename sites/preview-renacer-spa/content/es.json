@@ -222,24 +222,24 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Necesito llevar algo para el masaje?",
-          "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables."
+          "q": "¿Necesito llevar algo para el masaje?",
+          "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables."
         },
         {
-          "question": "¿Cuánto dura una sesión de masaje relajante?",
-          "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial."
+          "q": "¿Cuánto dura una sesión de masaje relajante?",
+          "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial."
         },
         {
-          "question": "¿Aceptan tarjetas de crédito?",
-          "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
         },
         {
-          "question": "¿Tienen estacionamiento?",
-          "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes."
+          "q": "¿Tienen estacionamiento?",
+          "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes."
         },
         {
-          "question": "¿Cómo puedo reservar un turno?",
-          "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local."
+          "q": "¿Cómo puedo reservar un turno?",
+          "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local."
         }
       ]
     },

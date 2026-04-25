@@ -62462,24 +62462,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -62988,24 +62988,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -63423,24 +63423,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -63797,24 +63797,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -64325,24 +64325,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -64618,24 +64618,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -65017,16 +65017,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -65513,16 +65513,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -66039,24 +66039,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -66562,24 +66562,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -67101,28 +67101,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -67429,28 +67429,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -67866,28 +67866,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -68210,28 +68210,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -68554,28 +68554,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -68992,28 +68992,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -69426,28 +69426,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -69866,28 +69866,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -70181,24 +70181,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -70707,24 +70707,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -71159,16 +71159,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -71707,16 +71707,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -72234,24 +72234,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -72679,24 +72679,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -73078,16 +73078,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -73601,20 +73601,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
-            "question": "¿Duele la depilación láser?"
+            "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
+            "q": "¿Duele la depilación láser?"
           },
           {
-            "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
-            "question": "¿Cuántas sesiones necesito?"
+            "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
+            "q": "¿Cuántas sesiones necesito?"
           },
           {
-            "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
-            "question": "¿Hay algún cuidado especial?"
+            "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
+            "q": "¿Hay algún cuidado especial?"
           },
           {
-            "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
-            "question": "¿Cuánto dura cada sesión?"
+            "a": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
+            "q": "¿Cuánto dura cada sesión?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -73867,16 +73867,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -74418,16 +74418,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -74890,24 +74890,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -75417,24 +75417,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -75855,24 +75855,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -76293,24 +76293,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -76731,24 +76731,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -77161,24 +77161,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -77599,24 +77599,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -78039,24 +78039,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -78414,24 +78414,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -78847,24 +78847,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -79280,24 +79280,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -79718,24 +79718,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -80240,20 +80240,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
-            "question": "¿Duele la depilación láser?"
+            "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
+            "q": "¿Duele la depilación láser?"
           },
           {
-            "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
-            "question": "¿Cuántas sesiones necesito?"
+            "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
+            "q": "¿Cuántas sesiones necesito?"
           },
           {
-            "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
-            "question": "¿Hay algún cuidado especial?"
+            "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
+            "q": "¿Hay algún cuidado especial?"
           },
           {
-            "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
-            "question": "¿Cuánto dura cada sesión?"
+            "a": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
+            "q": "¿Cuánto dura cada sesión?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -80477,24 +80477,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -81003,24 +81003,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -81437,24 +81437,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -81896,16 +81896,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -82386,16 +82386,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -82937,16 +82937,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -83463,24 +83463,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -83901,24 +83901,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -84428,24 +84428,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -84951,24 +84951,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -85478,24 +85478,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -86001,24 +86001,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -86528,24 +86528,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -86955,24 +86955,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -87384,24 +87384,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -87656,24 +87656,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -88089,24 +88089,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -88616,24 +88616,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -89142,24 +89142,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -89670,24 +89670,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -90069,16 +90069,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -90570,16 +90570,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -91072,16 +91072,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -91563,16 +91563,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -92028,24 +92028,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -92451,24 +92451,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -93002,16 +93002,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -93529,24 +93529,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -94081,16 +94081,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -94582,16 +94582,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -95133,16 +95133,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -95639,16 +95639,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -96187,16 +96187,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -96716,24 +96716,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -97179,16 +97179,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -97730,16 +97730,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -98211,24 +98211,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -98638,24 +98638,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -99067,24 +99067,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -99344,24 +99344,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -99619,24 +99619,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -100057,24 +100057,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -100484,24 +100484,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -100917,24 +100917,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -101350,24 +101350,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -101876,24 +101876,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -102402,24 +102402,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -102928,24 +102928,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -103366,24 +103366,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -103893,24 +103893,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -104421,24 +104421,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -104820,16 +104820,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -105368,16 +105368,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -105897,24 +105897,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -106319,24 +106319,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -106737,24 +106737,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -107288,16 +107288,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -107836,16 +107836,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -108365,24 +108365,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -108798,24 +108798,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -109324,24 +109324,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -109850,24 +109850,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -110366,20 +110366,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
-            "question": "¿Cuánto dura el maquillaje?"
+            "a": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
+            "q": "¿Cuánto dura el maquillaje?"
           },
           {
-            "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
-            "question": "¿Hacen prueba de maquillaje?"
+            "a": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
+            "q": "¿Hacen prueba de maquillaje?"
           },
           {
-            "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
-            "question": "¿Usan productos hipoalergénicos?"
+            "a": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
+            "q": "¿Usan productos hipoalergénicos?"
           },
           {
-            "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
-            "question": "¿Cuánto antes debo reservar?"
+            "a": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
+            "q": "¿Cuánto antes debo reservar?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -110683,24 +110683,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -111200,20 +111200,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
-            "question": "¿Cuánto dura el maquillaje?"
+            "a": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
+            "q": "¿Cuánto dura el maquillaje?"
           },
           {
-            "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
-            "question": "¿Hacen prueba de maquillaje?"
+            "a": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
+            "q": "¿Hacen prueba de maquillaje?"
           },
           {
-            "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
-            "question": "¿Usan productos hipoalergénicos?"
+            "a": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
+            "q": "¿Usan productos hipoalergénicos?"
           },
           {
-            "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
-            "question": "¿Cuánto antes debo reservar?"
+            "a": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
+            "q": "¿Cuánto antes debo reservar?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -111431,20 +111431,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
-            "question": "¿Cuánto dura el maquillaje?"
+            "a": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
+            "q": "¿Cuánto dura el maquillaje?"
           },
           {
-            "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
-            "question": "¿Hacen prueba de maquillaje?"
+            "a": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
+            "q": "¿Hacen prueba de maquillaje?"
           },
           {
-            "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
-            "question": "¿Usan productos hipoalergénicos?"
+            "a": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
+            "q": "¿Usan productos hipoalergénicos?"
           },
           {
-            "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
-            "question": "¿Cuánto antes debo reservar?"
+            "a": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
+            "q": "¿Cuánto antes debo reservar?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -111671,24 +111671,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -112134,16 +112134,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -112682,16 +112682,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -113211,24 +113211,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -113739,24 +113739,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -114112,24 +114112,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -114512,16 +114512,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -115063,16 +115063,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -115589,24 +115589,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -116014,24 +116014,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -116388,24 +116388,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -116851,16 +116851,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -117403,16 +117403,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -117874,24 +117874,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -118307,24 +118307,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -118734,24 +118734,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -119262,24 +119262,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -119635,24 +119635,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -120011,24 +120011,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -120446,24 +120446,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -120820,24 +120820,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -121258,24 +121258,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -121787,24 +121787,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -122186,16 +122186,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -122651,24 +122651,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -123119,16 +123119,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -123630,16 +123630,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -124117,24 +124117,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -124639,20 +124639,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
-            "question": "¿Duele la depilación láser?"
+            "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
+            "q": "¿Duele la depilación láser?"
           },
           {
-            "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
-            "question": "¿Cuántas sesiones necesito?"
+            "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
+            "q": "¿Cuántas sesiones necesito?"
           },
           {
-            "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
-            "question": "¿Hay algún cuidado especial?"
+            "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
+            "q": "¿Hay algún cuidado especial?"
           },
           {
-            "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
-            "question": "¿Cuánto dura cada sesión?"
+            "a": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
+            "q": "¿Cuánto dura cada sesión?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -124906,24 +124906,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -125434,24 +125434,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -125808,24 +125808,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -126334,24 +126334,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -126767,24 +126767,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -127200,24 +127200,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -127633,24 +127633,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -128161,24 +128161,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -128444,24 +128444,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -128727,24 +128727,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -129027,16 +129027,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -129528,16 +129528,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -129996,20 +129996,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
-            "question": "¿Cuánto dura el maquillaje?"
+            "a": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques.",
+            "q": "¿Cuánto dura el maquillaje?"
           },
           {
-            "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
-            "question": "¿Hacen prueba de maquillaje?"
+            "a": "Sí, para novias incluimos una sesión de prueba sin costo adicional.",
+            "q": "¿Hacen prueba de maquillaje?"
           },
           {
-            "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
-            "question": "¿Usan productos hipoalergénicos?"
+            "a": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles.",
+            "q": "¿Usan productos hipoalergénicos?"
           },
           {
-            "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
-            "question": "¿Cuánto antes debo reservar?"
+            "a": "Recomendamos al menos 2 semanas de anticipación para eventos especiales.",
+            "q": "¿Cuánto antes debo reservar?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -130247,24 +130247,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -130773,24 +130773,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -131206,24 +131206,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -131639,24 +131639,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -132077,24 +132077,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -132604,24 +132604,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -133127,24 +133127,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -133679,16 +133679,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -134206,24 +134206,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -134732,24 +134732,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -135166,24 +135166,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -135600,24 +135600,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -136029,24 +136029,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -136416,28 +136416,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -136767,16 +136767,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -137315,16 +137315,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -137869,16 +137869,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -138398,24 +138398,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -138664,20 +138664,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
-            "question": "¿Duele la depilación láser?"
+            "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma.",
+            "q": "¿Duele la depilación láser?"
           },
           {
-            "answer": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
-            "question": "¿Cuántas sesiones necesito?"
+            "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos.",
+            "q": "¿Cuántas sesiones necesito?"
           },
           {
-            "answer": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
-            "question": "¿Hay algún cuidado especial?"
+            "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada.",
+            "q": "¿Hay algún cuidado especial?"
           },
           {
-            "answer": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
-            "question": "¿Cuánto dura cada sesión?"
+            "a": "Depende de la zona: axilas 15 min, piernas completas 45 min.",
+            "q": "¿Cuánto dura cada sesión?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -138905,24 +138905,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -139332,24 +139332,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -139858,24 +139858,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -140385,24 +140385,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -140828,24 +140828,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -141271,24 +141271,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -141797,24 +141797,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -142323,24 +142323,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -142849,24 +142849,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -143375,24 +143375,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -143903,24 +143903,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -144302,16 +144302,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -144829,24 +144829,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -145256,24 +145256,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -145691,24 +145691,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -145967,24 +145967,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -146419,16 +146419,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -146908,28 +146908,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -147237,28 +147237,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -147661,24 +147661,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -148096,24 +148096,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -148390,28 +148390,28 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
-            "question": "¿Atienden sin cita previa?"
+            "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "q": "¿Atienden sin cita previa?"
           },
           {
-            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
-            "question": "¿Cuánto dura cada servicio?"
+            "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "q": "¿Cuánto dura cada servicio?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
-            "question": "¿Tienen servicio a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "q": "¿Tienen servicio a domicilio?"
           },
           {
-            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
-            "question": "¿Usan productos de calidad?"
+            "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "q": "¿Usan productos de calidad?"
           },
           {
-            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
-            "question": "¿Hacen cortes para niños?"
+            "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "q": "¿Hacen cortes para niños?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -148814,24 +148814,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -149342,24 +149342,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -149623,24 +149623,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -150067,24 +150067,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -150505,24 +150505,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -150938,24 +150938,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
-            "question": "¿Cuánto dura un servicio de coloración?"
+            "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
           },
           {
-            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
-            "question": "¿Hacen peinados a domicilio?"
+            "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "q": "¿Hacen peinados a domicilio?"
           },
           {
-            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
-            "question": "¿Usan productos profesionales?"
+            "a": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "q": "¿Usan productos profesionales?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -151396,16 +151396,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -151924,24 +151924,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -152208,24 +152208,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
-            "question": "¿Necesito llevar algo para el masaje?"
+            "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "q": "¿Necesito llevar algo para el masaje?"
           },
           {
-            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
-            "question": "¿Cuánto dura una sesión de masaje relajante?"
+            "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "q": "¿Cuánto dura una sesión de masaje relajante?"
           },
           {
-            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
-            "question": "¿Aceptan tarjetas de crédito?"
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "q": "¿Aceptan tarjetas de crédito?"
           },
           {
-            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
-            "question": "¿Tienen estacionamiento?"
+            "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "q": "¿Tienen estacionamiento?"
           },
           {
-            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
-            "question": "¿Cómo puedo reservar un turno?"
+            "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "q": "¿Cómo puedo reservar un turno?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -152515,16 +152515,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -153063,16 +153063,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
-            "question": "¿Necesito llevar mi propia toalla?"
+            "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "q": "¿Necesito llevar mi propia toalla?"
           },
           {
-            "answer": "Sí, podés venir una clase gratis sin compromiso.",
-            "question": "¿Ofrecen clases de prueba gratis?"
+            "a": "Sí, podés venir una clase gratis sin compromiso.",
+            "q": "¿Ofrecen clases de prueba gratis?"
           },
           {
-            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
-            "question": "¿Estacionamiento?"
+            "a": "Sí, tenemos estacionamiento gratuito para socios.",
+            "q": "¿Estacionamiento?"
           }
         ],
         "title": "Preguntas frecuentes"

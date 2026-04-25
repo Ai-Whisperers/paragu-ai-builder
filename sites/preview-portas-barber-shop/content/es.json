@@ -275,28 +275,28 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Aceptan tarjetas de crédito?",
-          "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias."
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias."
         },
         {
-          "question": "¿Atienden sin cita previa?",
-          "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana."
+          "q": "¿Atienden sin cita previa?",
+          "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana."
         },
         {
-          "question": "¿Cuánto dura cada servicio?",
-          "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos."
+          "q": "¿Cuánto dura cada servicio?",
+          "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos."
         },
         {
-          "question": "¿Tienen servicio a domicilio?",
-          "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp."
+          "q": "¿Tienen servicio a domicilio?",
+          "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp."
         },
         {
-          "question": "¿Usan productos de calidad?",
-          "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester."
+          "q": "¿Usan productos de calidad?",
+          "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester."
         },
         {
-          "question": "¿Hacen cortes para niños?",
-          "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte."
+          "q": "¿Hacen cortes para niños?",
+          "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte."
         }
       ]
     },

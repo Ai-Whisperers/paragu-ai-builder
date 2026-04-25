@@ -231,16 +231,16 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Necesito llevar mi propia toalla?",
-          "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta."
+          "q": "¿Necesito llevar mi propia toalla?",
+          "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta."
         },
         {
-          "question": "¿Ofrecen clases de prueba gratis?",
-          "answer": "Sí, podés venir una clase gratis sin compromiso."
+          "q": "¿Ofrecen clases de prueba gratis?",
+          "a": "Sí, podés venir una clase gratis sin compromiso."
         },
         {
-          "question": "¿Estacionamiento?",
-          "answer": "Sí, tenemos estacionamiento gratuito para socios."
+          "q": "¿Estacionamiento?",
+          "a": "Sí, tenemos estacionamiento gratuito para socios."
         }
       ]
     },

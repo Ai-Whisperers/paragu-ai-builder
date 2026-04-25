@@ -252,24 +252,24 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Aceptan tarjetas de crédito?",
-          "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
         },
         {
-          "question": "¿Cuánto dura un servicio de coloración?",
-          "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas."
+          "q": "¿Cuánto dura un servicio de coloración?",
+          "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas."
         },
         {
-          "question": "¿Hacen peinados a domicilio?",
-          "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional."
+          "q": "¿Hacen peinados a domicilio?",
+          "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional."
         },
         {
-          "question": "¿Usan productos profesionales?",
-          "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado."
+          "q": "¿Usan productos profesionales?",
+          "a": "Sí, trabajamos con las mejores marcas profesionales del mercado."
         },
         {
-          "question": "¿Cómo puedo reservar un turno?",
-          "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local."
+          "q": "¿Cómo puedo reservar un turno?",
+          "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local."
         }
       ]
     },
