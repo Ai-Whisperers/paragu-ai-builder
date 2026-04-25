@@ -38,7 +38,10 @@
     "google-reviews",
     "branches",
     "pricing-table",
-    "pricing"
+    "pricing",
+    "before-after",
+    "features",
+    "process"
   ],
   "defaultStarterKit": "full",
   "locales": [
