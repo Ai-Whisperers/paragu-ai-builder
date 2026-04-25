@@ -1,0 +1,376 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Masaje RUSO",
+  "tagline": "Relajación, bienestar y tratamientos de belleza en el corazón de Asunción",
+  "placeholders": {
+    "businessName": "Masaje RUSO",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Spa",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Masaje RUSO - Spa en Asunción | Masajes, Tratamientos y Bienestar",
+      "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000."
+    },
+    "hero": {
+      "headline": "Tu momento de bienestar",
+      "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Ver servicios"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos en el barrio Villa Morra, Asunción",
+      "address": "Av. Santa Teresa 1250 c/ San Martín",
+      "city": "Asunción",
+      "phone": "+595981726354",
+      "email": "contacto@demospa.com.py",
+      "whatsapp": "+595981726354"
+    },
+    "promoBanner": {
+      "title": "Promoción de Lanzamiento",
+      "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo para tu bienestar físico y mental",
+      "items": [
+        {
+          "name": "Masaje Relajante",
+          "description": "Masaje corporal completo con aceites esenciales para liberar tensiones",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "description": "Técnica profunda para aliviar contracturas y dolores musculares",
+          "price": "Gs. 150.000",
+          "icon": "Zap"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "description": "Limpieza con extracción, exfoliación y mascarilla hidratante",
+          "price": "Gs. 100.000",
+          "icon": "Droplets"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "description": "Envoltura de algas marinas con drenaje linfático manual",
+          "price": "Gs. 200.000",
+          "icon": "Wind"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "description": "Acceso a sauna finlandesa y baño turco con aromaterapia",
+          "price": "Gs. 80.000",
+          "icon": "Thermometer"
+        },
+        {
+          "name": "Pedicura Spa",
+          "description": "Pedicura completa con exfoliación, masaje y esmaltado semipermanente",
+          "price": "Gs. 90.000",
+          "icon": "Feather"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos orgánicos",
+        "Ambiente climatizado",
+        "Toallas y bata incluídas",
+        "Estacionamiento gratis",
+        "Profesionales certificados"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro espacio",
+      "subtitle": "Un ambiente pensado para tu relajación",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
+          "alt": "Sala de masajes",
+          "caption": "Sala de masajes con aromaterapia"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
+          "alt": "Tratamiento facial",
+          "caption": "Limpieza facial profunda"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
+          "alt": "Velas y ambiente spa",
+          "caption": "Ambiente de relax"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
+          "alt": "Masaje de espalda",
+          "caption": "Masaje descontracturante"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
+          "alt": "Tratamiento corporal",
+          "caption": "Envoltura detox"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
+          "alt": "Sauna",
+          "caption": "Sauna finlandesa"
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Terapeutas profesionales apasionados por tu bienestar",
+      "items": [
+        {
+          "name": "Gabriela Torres",
+          "role": "Directora y Masoterapeuta Senior",
+          "description": "12 años de experiencia en masoterapia y tratamientos corporales"
+        },
+        {
+          "name": "Miguel Ángel Rivas",
+          "role": "Terapeuta de Masajes",
+          "description": "Especialista en masajes descontracturantes y drenaje linfático"
+        },
+        {
+          "name": "Camila Ferreira",
+          "role": "Esteticista Facial",
+          "description": "Experta en limpiezas faciales, peelings y tratamientos anti-edad"
+        },
+        {
+          "name": "Sofía Mendoza",
+          "role": "Terapeuta Corporal",
+          "description": "Especialista en envolturas detox y tratamientos corporales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Valentina R.",
+          "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes.",
+          "rating": 5
+        },
+        {
+          "name": "Andrés P.",
+          "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales.",
+          "rating": 5
+        },
+        {
+          "name": "Carolina M.",
+          "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar.",
+          "rating": 5
+        },
+        {
+          "name": "Diego H.",
+          "text": "Ambiente súper tranquilo, precios accesibles y atención de primera.",
+          "rating": 4
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "phone": "+595981726354",
+      "services": [
+        {
+          "name": "Masaje Relajante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "duration": "45 min",
+          "category": "faciales"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "duration": "90 min",
+          "category": "corporales"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "duration": "30 min",
+          "category": "sauna"
+        },
+        {
+          "name": "Pedicura Spa",
+          "duration": "60 min",
+          "category": "belleza"
+        }
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Necesito llevar algo para el masaje?",
+          "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables."
+        },
+        {
+          "question": "¿Cuánto dura una sesión de masaje relajante?",
+          "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial."
+        },
+        {
+          "question": "¿Aceptan tarjetas de crédito?",
+          "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "question": "¿Tienen estacionamiento?",
+          "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes."
+        },
+        {
+          "question": "¿Cómo puedo reservar un turno?",
+          "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00",
+        "Domingo": "Cerrado"
+      }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@demo.spa.py — mostramos nuestro trabajo todos los días",
+      "handle": "@demo.spa.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
+    },
+    "reviewsWidget": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 87 reseñas en Google",
+      "reviews": [
+        {
+          "author": "Cliente",
+          "rating": 5,
+          "text": "Excelente servicio, muy recomendado."
+        },
+        {
+          "author": "Cliente",
+          "rating": 4,
+          "text": "Buena atención y profesionales."
+        },
+        {
+          "author": "Cliente",
+          "rating": 5,
+          "text": "Salió todo perfecto. Volveré sin dudas."
+        }
+      ]
+    },
+    "packagesGiftcards": {
+      "packages": [
+        {
+          "id": "basico",
+          "name": "Plan Básico",
+          "description": "Servicio esencial",
+          "original_price": 150000,
+          "sale_price": 120000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2"
+          ],
+          "popular": false
+        },
+        {
+          "id": "premium",
+          "name": "Plan Premium",
+          "description": "Nuestra opción más elegida",
+          "original_price": 300000,
+          "sale_price": 250000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2",
+            "Servicio 3",
+            "Servicio 4"
+          ],
+          "popular": true
+        },
+        {
+          "id": "vip",
+          "name": "Plan VIP",
+          "description": "Experiencia completa",
+          "original_price": 500000,
+          "sale_price": 450000,
+          "services": [
+            "Todos los servicios"
+          ],
+          "popular": false
+        }
+      ],
+      "giftCards": [
+        {
+          "id": "gc-50",
+          "amount": 100000,
+          "description": "Regalá un servicio"
+        },
+        {
+          "id": "gc-100",
+          "amount": 200000,
+          "description": "Regalá una experiencia completa"
+        },
+        {
+          "id": "gc-200",
+          "amount": 500000,
+          "description": "Regalá el plan VIP"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Masaje RUSO",
+    "copyright": "© {{year}} Masaje RUSO",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Spa y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "paragu-ai",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Barbería Edison 💈",
+  "tagline": "Tradición y maestría en cada detalle",
+  "placeholders": {
+    "businessName": "Barbería Edison 💈",
+    "city": "San Lorenzo",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Barbería Edison 💈",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Reservar",
+        "path": "#reservar"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar turno",
+    "ctaHref": "#reservar"
+  },
+  "home": {
+    "seo": {
+      "title": "Barbería Edison 💈 | Cortes Clásicos y Modernos en San Lorenzo",
+      "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online."
+    },
+    "hero": {
+      "headline": "Estilo clásico, actitud moderna",
+      "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium",
+      "ctaPrimaryText": "Reservá tu cita",
+      "ctaPrimaryHref": "#reservar",
+      "ctaSecondaryText": "Ver servicios",
+      "ctaSecondaryHref": "#servicios",
+      "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
+      "imageAlt": "Barbería Edison 💈 — Interior de la barbería"
+    },
+    "promoBanner": {
+      "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
+      "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+      "ctaText": "Reservar",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Cortes clásicos y modernos para el hombre actual",
+      "subtitle": "Utilizamos productos importados y técnicas tradicionales combinadas con tendencias actuales",
+      "items": [
+        {
+          "name": "Corte Clásico",
+          "description": "Corte tradicional a máquina y tijera, peinado con productos profesionales",
+          "price": "Gs. 45.000",
+          "duration": "30 min",
+          "icon": "Scissors",
+          "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+        },
+        {
+          "name": "Corte Degradado (Fade)",
+          "description": "Fade americano, mid fade, low fade, high fade, taper y undercut. Personalizado según tu estilo",
+          "price": "Gs. 55.000",
+          "duration": "40 min",
+          "icon": "Scissors",
+          "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+        },
+        {
+          "name": "Afeitado Tradicional",
+          "description": "Afeitado con navaja recta, toalla caliente, bálsamo pre y post afeitado premium",
+          "price": "Gs. 65.000",
+          "duration": "35 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "description": "Perfilado de barba con navaja y tijera, recorte de bigote, hidratación con aceites esenciales",
+          "price": "Gs. 35.000",
+          "duration": "20 min",
+          "icon": "Feather",
+          "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+        },
+        {
+          "name": "Tintura Masculina",
+          "description": "Coloración profesional para canas, cambios de tono o look completo. Productos sin amoníaco",
+          "price": "Gs. 90.000",
+          "duration": "60 min",
+          "icon": "Droplets",
+          "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "description": "Hidratación profunda, keratina, revitalización capilar y tratamiento anticaída con productos importados",
+          "price": "Gs. 75.000",
+          "duration": "45 min",
+          "icon": "Sparkles",
+          "image": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "description": "Nuestro combo más popular: corte degradado o clásico + perfilado completo de barba",
+          "price": "Gs. 80.000",
+          "duration": "55 min",
+          "icon": "Star",
+          "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+        },
+        {
+          "name": "Corte Infantil",
+          "description": "Corte para niños hasta 12 años. Incluye premio sorpresa y ambiente relajado",
+          "price": "Gs. 35.000",
+          "duration": "25 min",
+          "icon": "Zap",
+          "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Navaja profesional importada",
+        "Productos premium USA y Europa",
+        "8 años de experiencia",
+        "Ambiente VIP con aire acondicionado",
+        "WiFi gratis",
+        "Estacionamiento"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestros trabajos",
+      "subtitle": "Galería de estilos, degradados y transformaciones",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
+          "alt": "Degradado medio",
+          "caption": "Mid fade"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600",
+          "alt": "Degradado alto",
+          "caption": "High fade premium"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
+          "alt": "Barba perfilada",
+          "caption": "Perfilado de barba"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
+          "alt": "Corte clásico",
+          "caption": "Corte ejecutivo"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600",
+          "alt": "Afeitado tradicional",
+          "caption": "Afeitado con navaja"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600",
+          "alt": "Interior barbería",
+          "caption": "Nuestro espacio"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Barberos profesionales apasionados por el arte de la barbería tradicional y moderna",
+      "items": [
+        {
+          "name": "Miguel Ángel López",
+          "role": "Barbero Senior / Dueño",
+          "description": "12 años de experiencia. Maestro en degradados americanos y afeitado con navaja recta. Formado en Buenos Aires y Madrid.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+        },
+        {
+          "name": "Jorge Ferreira",
+          "role": "Barbero Profesional",
+          "description": "8 años en el rubro. Especialista en cortes degradados, undercut y diseños con máquina. Fanático del detalle.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400"
+        },
+        {
+          "name": "Diego Martínez",
+          "role": "Estilista / Colorista",
+          "description": "6 años de experiencia. Especializado en tintura masculina, tratamientos capilares y cortes infantiles. Clientes fieles de todas las edades.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones de nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Andrés P.",
+          "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina.",
+          "rating": 5
+        },
+        {
+          "name": "Ricardo G.",
+          "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar.",
+          "rating": 5
+        },
+        {
+          "name": "Fernando D.",
+          "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso.",
+          "rating": 5
+        },
+        {
+          "name": "Luis M.",
+          "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona.",
+          "rating": 4
+        },
+        {
+          "name": "Santiago R.",
+          "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo.",
+          "rating": 5
+        },
+        {
+          "name": "Marcos T.",
+          "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo.",
+          "rating": 5
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu cita",
+      "subtitle": "Elegí el servicio, el barbero y el horario que mejor te quede",
+      "phone": "+595985123456",
+      "services": [
+        {
+          "name": "Corte Clásico",
+          "duration": "30 min",
+          "price": "Gs. 45.000"
+        },
+        {
+          "name": "Corte Degradado (Fade)",
+          "duration": "40 min",
+          "price": "Gs. 55.000"
+        },
+        {
+          "name": "Afeitado Tradicional",
+          "duration": "35 min",
+          "price": "Gs. 65.000"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "duration": "20 min",
+          "price": "Gs. 35.000"
+        },
+        {
+          "name": "Tintura Masculina",
+          "duration": "60 min",
+          "price": "Gs. 90.000"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "duration": "45 min",
+          "price": "Gs. 75.000"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "duration": "55 min",
+          "price": "Gs. 80.000"
+        },
+        {
+          "name": "Corte Infantil",
+          "duration": "25 min",
+          "price": "Gs. 35.000"
+        }
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas de crédito?",
+          "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias."
+        },
+        {
+          "question": "¿Atienden sin cita previa?",
+          "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana."
+        },
+        {
+          "question": "¿Cuánto dura cada servicio?",
+          "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos."
+        },
+        {
+          "question": "¿Tienen servicio a domicilio?",
+          "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp."
+        },
+        {
+          "question": "¿Usan productos de calidad?",
+          "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester."
+        },
+        {
+          "question": "¿Hacen cortes para niños?",
+          "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
+      "address": "Av. Defensores del Chaco 1450",
+      "city": "San Lorenzo",
+      "phone": "+595985123456",
+      "email": "info@barberiasanlorenzo.com.py",
+      "whatsapp": "+595985123456",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00",
+        "Domingo": "Cerrado"
+      }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@barberia.sanlorenzo.py — mostramos nuestro trabajo todos los días",
+      "handle": "@barberia.sanlorenzo.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
+    },
+    "reviewsWidget": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 105 reseñas en Google",
+      "reviews": [
+        {
+          "author": "Cliente",
+          "rating": 5,
+          "text": "Excelente servicio, muy recomendado."
+        },
+        {
+          "author": "Cliente",
+          "rating": 4,
+          "text": "Buena atención y profesionales."
+        },
+        {
+          "author": "Cliente",
+          "rating": 5,
+          "text": "Salió todo perfecto. Volveré sin dudas."
+        }
+      ]
+    },
+    "packagesGiftcards": {
+      "packages": [
+        {
+          "id": "basico",
+          "name": "Plan Básico",
+          "description": "Servicio esencial",
+          "original_price": 150000,
+          "sale_price": 120000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2"
+          ],
+          "popular": false
+        },
+        {
+          "id": "premium",
+          "name": "Plan Premium",
+          "description": "Nuestra opción más elegida",
+          "original_price": 300000,
+          "sale_price": 250000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2",
+            "Servicio 3",
+            "Servicio 4"
+          ],
+          "popular": true
+        },
+        {
+          "id": "vip",
+          "name": "Plan VIP",
+          "description": "Experiencia completa",
+          "original_price": 500000,
+          "sale_price": 450000,
+          "services": [
+            "Todos los servicios"
+          ],
+          "popular": false
+        }
+      ],
+      "giftCards": [
+        {
+          "id": "gc-50",
+          "amount": 100000,
+          "description": "Regalá un servicio"
+        },
+        {
+          "id": "gc-100",
+          "amount": 200000,
+          "description": "Regalá una experiencia completa"
+        },
+        {
+          "id": "gc-200",
+          "amount": 500000,
+          "description": "Regalá el plan VIP"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Barbería Edison 💈",
+    "copyright": "© {{year}} Barbería Edison 💈. Todos los derechos reservados.",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Barbería y me interesa un sitio para mi negocio"
+  }
+}
