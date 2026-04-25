@@ -24,7 +24,16 @@
     "booking",
     "contact",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "promo-banner",
+    "trust-badges",
+    "team",
+    "open-hours-status",
+    "instagram-feed",
+    "reviews-widget",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

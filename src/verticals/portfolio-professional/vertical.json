@@ -45,7 +45,13 @@
     "tiered-service-ladder",
     "features",
     "newsletter-signup",
-    "booking-embed"
+    "booking-embed",
+    "promo-banner",
+    "open-hours-status",
+    "reviews-widget",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "full",
   "locales": [

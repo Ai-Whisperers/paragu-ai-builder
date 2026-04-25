@@ -47,7 +47,13 @@
     "newsletter-signup",
     "lead-form",
     "mattress-quiz",
-    "features"
+    "features",
+    "open-hours-status",
+    "instagram-feed",
+    "reviews-widget",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

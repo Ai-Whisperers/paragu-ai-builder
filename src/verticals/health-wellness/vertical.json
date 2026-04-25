@@ -13,10 +13,32 @@
     "emergencyIndicator": true
   },
   "allowedSections": [
-    "header", "hero", "service-menu", "team", "faq", "testimonials",
-    "insurance-list", "contact", "business-hours", "google-maps",
-    "emergency-indicator", "cta-banner", "footer", "whatsapp-float"
+    "header",
+    "hero",
+    "service-menu",
+    "team",
+    "faq",
+    "testimonials",
+    "insurance-list",
+    "contact",
+    "business-hours",
+    "google-maps",
+    "emergency-indicator",
+    "cta-banner",
+    "footer",
+    "whatsapp-float",
+    "promo-banner",
+    "trust-badges",
+    "open-hours-status",
+    "instagram-feed",
+    "reviews-widget",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
-  "locales": ["es", "en"]
+  "locales": [
+    "es",
+    "en"
+  ]
 }
