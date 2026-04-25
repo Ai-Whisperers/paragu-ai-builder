@@ -232,8 +232,9 @@
       "Domingo": "Closed"
     },
     "contact": {
-      "phone": "0981 933247",
-      "city": "Asunción"
+      "phone": "+595 981 933247",
+      "city": "Asunción",
+      "whatsapp": "+595 981 933247"
     }
   },
   "footer": {

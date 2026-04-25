@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 176777",
+    "whatsapp": "+595 994 176777",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0994 176777"
+    "phone": "+595 994 176777"
   },
   "location": {
     "city": "Encarnación",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "e7310ef6-6dd1-4f69-83fa-767acb174d4d",
-  "createdAt": "2026-04-25T04:08:08.885Z"
+  "createdAt": "2026-04-25T04:08:08.885Z",
+  "google_maps_url": "https://maps.google.com/?cid=9831662047154260138",
+  "business_status": "OPERATIONAL"
 }

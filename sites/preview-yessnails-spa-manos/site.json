@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 618000",
+    "whatsapp": "+595 981 618000",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0981 618000"
+    "phone": "+595 981 618000"
   },
   "location": {
     "city": "San Antonio",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "13cdc7aa-57f1-4159-a708-cffa8894692b"
+  "previewLeadId": "13cdc7aa-57f1-4159-a708-cffa8894692b",
+  "google_maps_url": "https://maps.google.com/?cid=9674252360637100143",
+  "business_status": "OPERATIONAL"
 }

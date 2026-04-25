@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 162190",
+    "whatsapp": "+595 981 162190",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@medinafitness_gym",
-    "phone": "0981 162190"
+    "phone": "+595 981 162190"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "7ffdb190-3f0d-4a27-bdab-2f1f3b70c5a2",
-  "createdAt": "2026-04-25T04:08:08.854Z"
+  "createdAt": "2026-04-25T04:08:08.854Z",
+  "google_maps_url": "https://maps.google.com/?cid=17839225681599192799",
+  "business_status": "OPERATIONAL"
 }

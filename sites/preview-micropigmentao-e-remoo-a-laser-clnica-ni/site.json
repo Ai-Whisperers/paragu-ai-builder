@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(45) 3025-4100",
+    "whatsapp": "+55 45 3025-4100",
     "email": "ventas@paragu-ai.com",
     "instagram": "@demo.depilacion.py",
-    "phone": "(45) 3025-4100"
+    "phone": "+55 45 3025-4100"
   },
   "location": {
     "city": "Asunción",
@@ -32,5 +32,7 @@
   "preview": true,
   "previewLeadId": "9dd78af3-eba1-409b-87b2-48ed38039334",
   "createdAt": "2026-04-25T04:08:08.876Z",
-  "is_demo": false
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=12423690146871516866",
+  "business_status": "OPERATIONAL"
 }

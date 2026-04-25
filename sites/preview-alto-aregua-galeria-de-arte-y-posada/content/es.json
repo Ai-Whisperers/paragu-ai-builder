@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Areguá",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Areguá",
-      "phone": "0971 150599",
+      "phone": "+595 971 150599",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 971 150599"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEES7KekAUjMxML4RaEgz_jW0I-re0o8yH4pvQGm6UOL8wng-20jT2BPkPB_zU7COlhuntoJjFd5WTZgfCfo7Y22iJmE59FQsfieiVQPsEp-MdneMWlIXZOew01uJrYKJINSuMc3DFT-fPv-gpuRaLTvSZ09bvr_LQXBmcF_dppwPCuoh7ysysJ6z-58r4D9mIJPutnd0DIFNTKWGiNGVaD9Ku53Ij3mwYfDLkax1gscBlV36rg4A1RYrSspJs927FKb32cMvR0IIuEDUSTzf7bpFcvrerFn6zvXpXWYPdkvaw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG5aO0vdilyEy1FwpB-K1YllLZ_xZhIsQ1NiNc5Y4PHQhqecRe2yS7xDIkp106m5MeX15kbENtjJ7EoN2IumQ0PWa_JEuchJVMHE1EJJpSnqIfTY5t1SUX6WvQWXp8MHvyYL8vQNAwCBvEQEIX-ciQcqEOe__nprsS8bpPX9Uwx8e8YV7jnPiiaMStc_uOYRbwDbxIR8Y6UZ6BKggJFSjDeLrBbEMbXAvleI1RcEnPg1CjeNMdnK8Gkvsbx_fJKps4R5wqZBvFaRPIR8VWkWo3j1mnE5YStAwMWuaRl9Ek3Hg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGWgxwWSWvA1e737a2GNiCFxOxWZ-5KNomP4t7m2RMjqt9ReWZDxvIziHKvFXfEtcpvZUakivqF3AYkCA-zChoAECXjol5Ogcle-P5RI0NRMCT7s2i6zODK9R6b1hK6B8WubdZZuctIc1fKl9lnWCCQAqtT3NcLZgs2ebH7It7dq5ryNaMnwbwNQML0HfyIcZutkz-XHclOVMGRbGKo57WFDtY00sppgt6oUFAr0udSt3imY7Afz864RY3eCzafYmrgZDWF5dKhPppiiZxVKThneBntTb0NQhuwq5DwAMY-Ug&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHZ9KgiOE0Eb9-nQx1gcAYNFt5ch6PusWxazOfKuEyLQt2JBVXHFlQMKZdrp13V5kUqS2LEQhDIB2kA5N7ETqMV-7Ab0XIwyYnaSANJ10ouxpzZRRPsqJKyH2YnscBrvqp3CRM3maMx6MfdqHt1tM2odUgy6kzfm2BKv03jweO93XZ9eu6t7Rt6RMaVW9uV_rpYyC__pei0HVI8C5Nfprsir7zFKg63TJGpxYMicVACnknbCOeMNhF7UYtNfVFzUO4qdyAACWwyK0lHb70ZgcRrqWcw4VgiquWkXcjDWqkkow&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG4S4sn-0R03alX9jnAYaoTOJC-7p4A5IsAuN5XrFqFUiXHaOVA57FFD8C24kgb7LkuUBX0yqnb4HKpdvuQR8K9sT4tC2H4GEqDd24GhVcOA2H5H1m7LOGCsISmdlICWC6xmWzq09h-w9QhNisNleY-H9k2UgMkCOPWrVOIp7CJGNa7q-cyNgz_0qTJk0_63SIQjdr_h1A3uZ8Z-ouHddRsI68dYM5kOcye2MyY-7rtMZNmbWB-4DGSOTzz9UuttHezrjV9SKbVo6t68u2ARJHUQPzbXeqFKfj_yOoClB72vA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFQZUTEY4Nv4diYnFk2XPITa1VPr8bxbtqy32KcqLiJ6h70GqOasFcsE5fHjjC1omGlcQdXYDhPb9InkEUFXI2a6iLt0b0GltqoSAcVwX7BjIG5zxEhYT-Yf3X-lFeVe8Xw_aojMj1ilLmwVHJRdbDC2JFBPUIgSRyUuTULY5t8DsroMF10kDMBuS4vI1E_t8nEg7LhJsqUfqecmxbhk0sthDb-4nUnMMvVof4z8ryrlF7MfG4GO350afanDxDJtonFi_LsxKJiVHPKaiZiVX6RKfArdtmhyV4RGL1qlhJHYg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },

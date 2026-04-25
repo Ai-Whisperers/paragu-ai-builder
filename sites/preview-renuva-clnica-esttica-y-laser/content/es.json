@@ -113,24 +113,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Instalaciones modernas y equipadas",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
-          "alt": "Consultorio",
-          "caption": "Consultorio privado"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFlmRms0rtHO6y8_hOeWWR9W2UamPwEgQYskGsqhg4rSPDTZ5x4j-1n_MgHrHVAiOFjkD3b5sDPI3XCJsn4b_uXT3l3-rLxkmlmvkPKoq128o8AO3oc1tzGZW2qUaatjWEkKh8KGzp4-ALnOQyKVep9y4Gq7h3Iy2WDyxmNZQJCU4Lf0ZwDh-XLI03jeegg4ZOWxAe0O-WlqLiHlRQwGHcJpMoQHUK5Wg93Qm4wh8pY60ctfKx5LoINBw4YXItqYaQc2frDZnCb9dF71K5nonf5151XrwEzeCvsYA4-LG2efg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600",
-          "alt": "Equipo láser",
-          "caption": "Tecnología láser diode"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG5yLVxKmJsW8vgdwT80A5gBaifCiaRLkzy9eMddPMxSjvEhVnCxG7yui1oRPRwowDq1TjFXlbdMOcm0FLFiTVcILEJnqFy4vjrWqZ5XZsmkLqlPH9WnQKpSTrqMcEZ0g_SnGA040kPUBVNaG1xNCKXRRBOaUDnTYNmbjnjDCXqJGMzQzttWLoDHbGKSInPtBz5v00mCXCw_XvzraX-fkb2mOptkx93iTzVioemCqyXN9XBfUCuCkIVnz4AUJSPHR70VECdQSjOb-HGpzYX_4nTGjTRhoYdD__DCRAyMg-_WBZ1bqyjJ3clcthYMCkz5IcMU6GSkxmO1YUVuV2vsFjLsSXXpdFx3uGi1n8pL77-8hEjbsha1N7s44T86rrQomdE20ehazHYNqwAK4VcwcMwlU3CC_PyzfCfBCFUvdyn8H6iOn7M5n4GMCtkEA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600",
-          "alt": "Tratamiento",
-          "caption": "Sesión de depilación"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFtAhQbOFQRH5r6Hkg0-z-NkUt_U1gO7nNObCWOF4VWyMUBuHZwwQaPgWi51PXasElQl8Ddr1rN6PA186JpexonS9YIrnhLeZr4-CUa6gLd7fp-7UM9E6XMdd3rQarzc54W-NsSiQ0NRf-aINhL6S951dEnGOq8CY_EyMQvbiiPgz5_n_rn1nH7mvM5ka3NtcenX34QjPIbMV27b5QvVprBOmJa6zB548STVcbQaXPIGppjiUTYvF90jN9M7Kh6xbyopCXD_kOvmEH2vcmUr755ZWp0LD7WWZDDdH7xuB8TzQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHPOytw3JsmEdSwu8l2oqkKfylhuykIzS2zlJ3lfgJuniv8RwskwAA0eCN_fK1U9lfZMu8HtRAR7FyM2XYciC5A-znRun7WdJCPr1Q7ellp_GObPKPS33mLf4XEgMldBQbbKTozMY1atvcikzaccAiY5oNGIw5wHvm8-G8P-KubhDleKrAi3wflO-R5io7yG2Nt6p7Wi6Bz9H8VV4tFNMnGkZNzWRIJgubF_Zsre6JJyA1RfsoZlaKCiKtKvn2kWAHWn3EJX5P9UdoID4CUUIoZS4Hplq7YaAdFvEepqK-J8Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHypfuuoMd-uRcfn0GAXgGa-5_iW9B87QPI7w1q2V1bUk4sdQBz94tkWNwnxPya_y48fSsQjRM1nOKmMFAdoDX0FYcbHJYVlYji-i85zfl6AxnB-ve4eoDEJVhXPwoOdmKZ7dBDsytoZiMiE2h95MUvUyS7HePvRI9gD9sc-URsEVz0irbtq0SzkKhEKyzY3snPUFeEMeuwftrHJtVt5UiFZFeris004QN9ZXIMd4zt-treBj9-3hU0ydcu25E5iK_e7jnIlm6_AseogO6Ndv97szJZL7npfVpzoCfqcQmlyA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEF0RK01lk6iUxs9FN_XirzvuRSxzV2a69dUggx-c_4Wiu4qrQfqGzAuDS2xbayh6DGMwGM0ZqwgKyN5wcN4LPvAj-sxnuopkuQwDQQvJ349nu2Kmja8qPJx4njYs0xdagJRgfcimZt-N-0V2eV8hHHh2hA1eYtQNZmzDU4_-t4H48oniFvyj9iW-xF3TFGeO8xu8bupfzGBgiXKU5OHUK41YDuSeQRph4JgtAND4fSZxic1aJlu6Wx93gXUOkMgHcrDwgNul9RDHCWmUZxw8vF16auJGCjI7rFCTPSXL3kpw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -232,8 +247,9 @@
       "Domingo": "Closed"
     },
     "contact": {
-      "phone": "0981 521527",
-      "city": "Asunción"
+      "phone": "+595 981 521527",
+      "city": "Asunción",
+      "whatsapp": "+595 981 521527"
     }
   },
   "footer": {

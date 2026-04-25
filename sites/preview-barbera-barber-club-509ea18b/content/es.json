@@ -147,40 +147,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Galería de estilos, degradados y transformaciones",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Degradado medio",
-          "caption": "Mid fade"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGALZaRHALau7KQdREOiSD5zkYgibQlHFLYyukRVA4EC53UxT_x6EDBmMjwz_bqpxvmonhg5qVowq5qU-u1_Q6-cae16hBJPtII63Ah5ky9fAFBSgS4uUhQVkEW30ymVJYAGEteBunBTaHnHgkbMS_6MhUwbfHgZoeqnSCwMc0TL072I-_GleWK8dEoietwxZAHANp40eJTnCIjTkSusrrkQkPJWKhrWS-KbNKj2qWalcNGlTaI2s9-AZfLovoy05Gvt04517DHmgDqRM8WS1_Hit0FtwLMTvhKetafTszO_085EbBtbzfAGjxvAJi6O1wu7wl9t3dT5hhnuav6_Tp9BfzA0jFf8aoH_SnqgO0sHkuYLWfD3mL6uas7K2SuBfbwEK5cZg1rGtQYhV4_lIsIPeBD11V6trQNWacOteXKLaOx&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600",
-          "alt": "Degradado alto",
-          "caption": "High fade premium"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH5TIDA4kbS2DF1BRtWE6VxYr3Uov57RqirRsQtO2JKsgpuZLhGc-YjcSV_tbBwT9aGinDSRPLk5Oa-DA6Fj7WmcpsYozstI3AuUfVJjkEbXMXxfgn7S-qkfajplCLFlAmbpH6r--PYUsat4gmeiPTQH4O2w7BKbNfKrpq6vf10vDDdJPgdawY7W9TNeJkCoNmVzFggcQOkrSXZaaaANKnGUxjKxDJVMP0ZXvKFBdyKlbeQ5wodA9nZ2OvFsvrSdTkfABVNHO6x3jIssbDaMghty-OmYUmU5elT3DpfKWrPlJgvhu4KrwZUsyqLjWvM3qbEwheI4nF07RsWg-ciwLawY8GdQSl1m_r8iCry7Ad-PX7Otr_j2CkwUm9W5N93QLUEDid-IGCtNILgns8UtvSz2sXBZpa-F0fvYE9i3DVXNA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
-          "alt": "Barba perfilada",
-          "caption": "Perfilado de barba"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGedGSQ865zfq-UOpE6QQ7xssoK2A1QnSrOThlalcjKEmICi3PS3c3ttQXcR89iAHzaEPwdbk6FaxKO64-AOe_lJmpueEYCvdRCCJhqJYUblKWCS_ghiUfcCd8Wb7rTOdAuOFHttc--UYfS5UavZxHZ4O-b1Uo022aT2mtzd0SojfBwlEU-M1TYwPAFTPohV_x6e8HxOS4kvP776nwSElg_n_jSPWchaOy9mWXqNRhGCzCvXsVLLFiX6Wxu8BmSgezq9I1-Y0zCko-7F3XY-A8ZGVvTsI90j64QNSfOGAPwN19Ux4F6pmlaHASNJh2LaD7Z2GqHlq6kIu2qvc6cI5pXFr22Go--y8-oy19R4WFYoUmhFRD2N-YcNgTL70fXCIxmcMuRGXIkQT0UzyimadXYYoGII6OcTeLDc4dc5JkIBuxS&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
-          "alt": "Corte clásico",
-          "caption": "Corte ejecutivo"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFRa9gzCJ2Rww9JQAONAiU6AsJ4u6VsqXdni-Q4PsM8XwPH4gfp5QqZp6GWeAxbR7TeVwhBIKzGipPdloEg8dLyXLWePcuO-HXDXhK5tn9k4rKq_EPKR2gYwM9vaHMEhHi9oI35VNwzW3oo2sGlV1BNrHGs-1rgq0F2v8oWgGdja6sE62MTkiMzsHuO923khhx3rttXjQVUe0bdWjNy3lmjwdKBfG2AgJhK0XjaomXtAm3tiXI0PghRMldmgCkHp8kiQ95Y__4zu1G94ppZEE6Nh6KLq7CDM726kNChO_NF0yYWSYjn-WB-Fe7lC-PzjLRQjGgw3UbF-LdKKq08Hj4BsUblApQahapCEZWOx7T_E42jGJ7bR8LvGOuFYbcrP8UZETZEBpzy6_NindLNITMYC6zFsF1IHonw72sOmbQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600",
-          "alt": "Afeitado tradicional",
-          "caption": "Afeitado con navaja"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHLtBBwD52SxIJ5QNWJQGKEcErD554K8xCGUtD2l2U0slmcoOtyE4H5EAVhiZKAjU7u4UxTw293I8UYijEYEA8Z1vjgqVGVx8bmCyOhTOZew0gcZXHsdRifdWmsAN2aC0YNIq5Tv5xwV-vg2HsLtnsDIx80ggozniPra1EFSrTYmWqikMbs8UOhSCjrZzH7sstAiKBfetZ2vGeZynuKHdmtLEtUC-VbAZ6MoDDjQihl-4f7oDBfTRKRgRvwzyMDNQ0SnYuOHn3uwSlJvW9KgRwaj58R1No00fI6nDUEDs_geNoG5mXzcPrJWvDiIpZTnQunmb76ZVBRZKQXXStTaWz__-6eFqy3y015UGhK2mrLPcw4-D77BYhUjRXSO93XVnCcKJRq-7c8eavoxR_eSAABbGgZlvI0E3JNQcjtrKu3KQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600",
-          "alt": "Interior barbería",
-          "caption": "Nuestro espacio"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGBwxyojQzSqq7y_4pVwmsBSqM3hWocBpRPh0ljM7FFnAiLRoU_5ePKLW8VdLwLZ99pPMwMxCgSWxQ3Qri2vTQKgAjwQ17WcHND-RxYcdQtR8nJb0V8nhXH8NqcU-I7LaLXSl8phhN2Uti1Ow2pQEWceG9y0j1hJtvfWM5yu9IN9T8gGeJsIXVTW9z6UDFz4YX0ZXhR8b6QBP5Z0ZdvhkzrqB9xNAgZUklDmuH8GXN2Cai7LZ_4c4uCN7pbHAlY9yyZkC08id0TjpIMeJZ40M_HDZvkfWepf_6I97wXGOddiMyoUJtvVz0NIEGXttQOXkgKdW-mL1ZSScS41kWL-2JC8Y428cTLAkpmmW_O9KCqh-7yaP7hiTKwaiQyQHPf29lL-pfwdXH5d8ji1iu0TyW8oLE3cUehGvm7HPtOySPq_A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -321,9 +320,9 @@
       "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
       "address": "Av. Defensores del Chaco 1450",
       "city": "Puerto Iguazú",
-      "phone": "03757 46-5921",
+      "phone": "+54 3757 46-5921",
       "email": "info@barberiasanlorenzo.com.py",
-      "whatsapp": "+595985123456",
+      "whatsapp": "+54 3757 46-5921",
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 112221",
+    "whatsapp": "+595 982 112221",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0982 112221"
+    "phone": "+595 982 112221"
   },
   "location": {
     "city": "Hohenau",
@@ -49,5 +49,11 @@
   },
   "preview": true,
   "previewLeadId": "ef95c813-2533-4622-8632-a05a0b13b318",
-  "createdAt": "2026-04-25T04:08:08.809Z"
+  "createdAt": "2026-04-25T04:08:08.809Z",
+  "google_maps_url": "https://maps.google.com/?cid=12761139076609077928",
+  "price_level": 2,
+  "seo": {
+    "priceRange": "$$"
+  },
+  "business_status": "OPERATIONAL"
 }

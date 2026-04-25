@@ -7,14 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 862766",
+    "whatsapp": "+595 994 862766",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0994 862766"
+    "phone": "+595 994 862766"
   },
   "location": {
     "city": "Colonia Hohenau Itapúa Paraguay",
-    "address": "Ruta Nacional Nro 6 Doctor Juan León Mallorquín , Colonia Hohenau Itapúa Paraguay 6290, Paraguay",
+    "address": "Ruta Nacional Nro 6 \"Doctor Juan León Mallorquín \", Colonia Hohenau Itapúa Paraguay 6290, Paraguay",
     "coordinates": {
       "lat": -27.0752189,
       "lng": -55.6419586
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "a5f34e95-12a0-4205-8046-0fc3201aae39",
-  "createdAt": "2026-04-25T04:08:08.804Z"
+  "createdAt": "2026-04-25T04:08:08.804Z",
+  "google_maps_url": "https://maps.google.com/?cid=11061158191266842002",
+  "business_status": "OPERATIONAL"
 }

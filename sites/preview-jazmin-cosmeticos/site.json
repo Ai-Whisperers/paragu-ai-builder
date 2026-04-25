@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 961766",
+    "whatsapp": "+595 981 961766",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 961766"
+    "phone": "+595 981 961766"
   },
   "location": {
     "city": "Lambaré",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "6dcb7462-2b14-452f-89bd-53e4b43308db",
-  "createdAt": "2026-04-25T04:08:08.834Z"
+  "createdAt": "2026-04-25T04:08:08.834Z",
+  "google_maps_url": "https://maps.google.com/?cid=277820499926568334",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0973 117473",
+    "whatsapp": "+595 973 117473",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0973 117473"
+    "phone": "+595 973 117473"
   },
   "location": {
     "city": "Presidente Franco",
@@ -49,5 +49,11 @@
   },
   "preview": true,
   "previewLeadId": "40f3e7d3-7165-477d-b4a4-cbdc72e991a6",
-  "createdAt": "2026-04-25T04:08:08.795Z"
+  "createdAt": "2026-04-25T04:08:08.795Z",
+  "google_maps_url": "https://maps.google.com/?cid=16596766747227028240",
+  "price_level": 1,
+  "seo": {
+    "priceRange": "$"
+  },
+  "business_status": "OPERATIONAL"
 }

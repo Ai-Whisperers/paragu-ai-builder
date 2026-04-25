@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0961 715906",
+    "whatsapp": "+595 961 715906",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0961 715906"
+    "phone": "+595 961 715906"
   },
   "location": {
     "city": "Presidente Franco",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "8d3f4b2b-7600-4f71-8d12-06471f2c2519"
+  "previewLeadId": "8d3f4b2b-7600-4f71-8d12-06471f2c2519",
+  "google_maps_url": "https://maps.google.com/?cid=17080247306046895343",
+  "business_status": "OPERATIONAL"
 }

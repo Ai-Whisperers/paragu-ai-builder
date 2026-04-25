@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(072) 222 624",
+    "whatsapp": "+595 72 222 624",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(072) 222 624"
+    "phone": "+595 72 222 624"
   },
   "location": {
     "city": "Ayolas",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "59d0be55-a9d1-4dda-80a8-6eb110533a1f",
-  "createdAt": "2026-04-25T04:08:08.845Z"
+  "createdAt": "2026-04-25T04:08:08.845Z",
+  "google_maps_url": "https://maps.google.com/?cid=10368555763453849660",
+  "business_status": "OPERATIONAL"
 }

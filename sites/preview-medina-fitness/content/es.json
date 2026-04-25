@@ -54,9 +54,9 @@
       "subtitle": "Visitanos en Fernando de la Mora",
       "address": "Ruta 2 y Av. Mcal. López Km 8",
       "city": "Fernando de la Mora",
-      "phone": "0981 162190",
+      "phone": "+595 981 162190",
       "email": "ventas@gimnasiopower.com.py",
-      "whatsapp": "+595983789012"
+      "whatsapp": "+595 981 162190"
     },
     "promoBanner": {
       "title": "💪 Promo Verano",
@@ -287,6 +287,43 @@
         "Evaluación gratis",
         "Estacionamiento",
         "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE7dI77q8nL24LfjxZy50kW_YfH1FyEgSLwbHTQD7IA65_wFG0JFPYH_CSVrPnQhXHHyvo-at-AZVWx8kJZfLNjR1PyZE-ddcIAXCkj27mmlvaz9R571VGsu09DNgtT33wBKwvsYoLHLk44H5bTzDBNE7hgX7kaP3_BOmJgQxpxL4bjlNARuFbUIL2xO_yORANPAZSn5Ihk8XA2ZALZDokZ3FCTIK_cKc7Igb5JG7N8v2NbyMzdeYyPmoHBXLOvF0S370ASB9L4OtKIC0qwo-1ML9q1wyiboLXL_z9h_Cf1brx7eS08XfptzsM4RRaZW-vrgCri81fzJoneKGz4Fc-3REh3z6VDOi4mJB-dsZ0MAwKjaTzh_y9_C0rIV_57nxlvtd_DgEj1C7PQ0_r7_q0i_szQpPKsQSQEzw5QDxFHUQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFC3L4JGVpmxfKLCy4W9ckMOjO0mKt1QI57oq6DrO8yh3zHNrm7cL6WiNZXKauYLoCYvdc94lfOAhOtl7HA45LI4nwITrCF3OEOJkGmIqb0pBnsVewnQLdZMJZJE-proaZz5rwnguqJA1-i3IZquv91JmcAD0ONkTejKjLCp55aIL2Y-31_gl3HMItWFpj5N3Qn5sUSuej-LMd-FeY9T3a1gkzdwGK3koJoIH4ztE8nztGxmQ8aWFCsRrL14vV1Y8xyjpzsXoZIb_cQZz1_bj0y2X_IgzbaF6aBK0pMRnEFSbe-4RWv2Gwcw96oehVj7sZJxQkE8OrjyUtmlevg99LTPEmBK2efTb5RDtqghc_3MZ7QVFHJv-pSsXx-dbCZTcXLG5q2UaYAn32Nb5QmOm4JQ94FwGX-c6j1tMMY4uPuoqc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFP11BmvRAKEvRtwLFgS-L4j0b2HmPi9qm9dyYuaDwH9oeAseSExfCcsBIQ39_yPzQ4VOL84NbT02PJCj8LvE0WWiCxK3qhcU0Gb_smcTA3pVm7lDGeb-yarl9Y43NtT2tWZRJVsLfgV5EhTVsYJZQmfJ2D15Z0nk6Qb3mtsjNh7Sr_2Zodhs033dFM_KBdYpOgVXTLHWf06JYz7vxoHjtEys9Ibgas32M0vXzx0ScQXwcMDzZ78AVtUOKCnJP1xRJhznzA3UytJIo2twE2wUQGUnlxv7OasOAlY02FVbZHZOjqUmGpXlJ0mdI8o8LrPMmtVX9h64czZDCO2XooeSp88Vx4qsJwC2zTKq_eiQUSA7R2IJ31Zs01NO_1CCqIC5Pt7VLPMl3ot6Y2jT4mFsrrDUIXiIR0AY879fFzOrfJ1sY0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHWHxM_4urPKVihz-sPrix3GxmsVwwWF1h4rVWXX3H_7IikdgYXVXWHDmUKu7W6wDs29ejEHF0O_2M-FGcuS5TKeb0GizX31Ce3ctsiog7dsNb1yx9vyW8yIqSJBSs97oiHb1uN163Ug6D9ES6WJzZwU5kRJMQMbrkqmM3KS-8t6M37LZMJkCaTHx7nyOZhdRq9AZE8rPfKjqvkT73aaGj0rRFtK3A8c_qrVlTHDRQvWrwUlTUBC7XoO3X3A7rvSKNVo5veInrJzK2xgomUL7tkPVpT4CPYF0tiNVcU_kQYjaMsz4anchna84e6CfY70BZQbktiM98Ko7nKcY-OHQeWZtQcIY5mojR54vPYR4NytdtPvGhYAjKRYspYX3z8uUejhSU3QyVXo3uXrZU6NPaslUGzr3F-wPUn_8Cq7T5HN7TnoouXaDQTu1djJylc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGNhYL5hIn9WpXPioS2Wv3xLwEs87oRVDI-QIksPFTj2BCHv-45yd6jINuKsNvjcAuhfmUb0aDDH-6KLy5zwCgQpPL-C8s9ML6hvNbGeBBgCrRVrv-uoH4S0iWE1yMmTlIsTQBysULUXc0BCJduX_owfMCQGTDfv2nYM7MXxIOcajVWUaAR_fxzgaj5JKGnJA-8vWmMLVv2x_d-CUUhflAbG7kBMODg6bj-WwvSmN3RlLc6Ipt9O8s0QkJk0Z2oi95V8N4o-sGUnMUfGZlDXgWDPOl8Eq3dmCq-6As_MuTt4dKgsDEQDPZUt2-BDSzeFXcjIafRsQZ3tO5S5kCtpAQrbdrcMDU2XzzVl6jTMvcL4mCOhh93FUdKaFfLWBX1bhj0ykzLlxXcNEtRHQut9_M1U4wE3GelqKKrLIK4RbCVutct&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFi3XsZTAQG7UsMNJuR4svC8O0zKDyontyLC_iqhVLcslisYTVs93vGmpzPA69y04aJfSL6HF2Fdho64EZnO09kKUjQwLndfF6idv64L8ayBDA1q7SW-p40HJaAWkKh3Zy4_D7VLEzzXOx0SOCZVue4HZz2Y3whlMey-qB-XtAGWPITEdrjvQbjRkKwqXqfbuGjDgaYNZa50EeseZMAlX9HFrvg7HJqOc2xqEZ5lIGhsGbJEp0F-7-xgZbnAvxS_EuXx8kTeP758lNKyBqqEzfd4i8ga7rMn-PHflNQin1irBsEVMdBc_9-HcFNTW0_sIZgKIem7NwN62u-tZOBzcR8DkbFGgmQjjfFWElRKOtXiA83XhhqPJ7mcL5RvD4YTtJN5FOCvRlzIYMfoA9YhgpjW6ivs6BfYyf9DPc-sLw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
+        }
       ]
     }
   },

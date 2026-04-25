@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 150599",
+    "whatsapp": "+595 971 150599",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 150599"
+    "phone": "+595 971 150599"
   },
   "location": {
     "city": "Areguá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "ca422b63-717f-4a68-a51c-15fdaafba5fb",
-  "createdAt": "2026-04-25T04:08:08.847Z"
+  "createdAt": "2026-04-25T04:08:08.847Z",
+  "google_maps_url": "https://maps.google.com/?cid=9866459372316460221",
+  "business_status": "OPERATIONAL"
 }

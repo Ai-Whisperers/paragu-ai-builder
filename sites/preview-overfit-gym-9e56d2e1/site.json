@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 700029",
+    "whatsapp": "+595 994 700029",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@overfitgym",
-    "phone": "0994 700029"
+    "phone": "+595 994 700029"
   },
   "location": {
     "city": "Capiatá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "9e56d2e1-fbcb-4fdb-a25a-28b3f948b58a",
-  "createdAt": "2026-04-25T04:08:08.866Z"
+  "createdAt": "2026-04-25T04:08:08.866Z",
+  "google_maps_url": "https://maps.google.com/?cid=11662826008599086196",
+  "business_status": "OPERATIONAL"
 }

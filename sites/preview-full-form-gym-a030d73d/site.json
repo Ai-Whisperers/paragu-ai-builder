@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 423913",
+    "whatsapp": "+595 981 423913",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0981 423913"
+    "phone": "+595 981 423913"
   },
   "location": {
     "city": "Villa Elisa",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "a030d73d-faeb-4fa3-b52b-9b6a372128b4",
-  "createdAt": "2026-04-25T04:08:08.880Z"
+  "createdAt": "2026-04-25T04:08:08.880Z",
+  "google_maps_url": "https://maps.google.com/?cid=7535116222974033237",
+  "business_status": "OPERATIONAL"
 }

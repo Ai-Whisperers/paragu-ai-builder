@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 226221",
+    "whatsapp": "+595 971 226221",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 226221"
+    "phone": "+595 971 226221"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "cdc05554-0981-4fd4-a243-bf1f87839216",
-  "createdAt": "2026-04-25T04:08:08.852Z"
+  "createdAt": "2026-04-25T04:08:08.852Z",
+  "google_maps_url": "https://maps.google.com/?cid=7990728890312714821",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0987 310953",
+    "whatsapp": "+595 987 310953",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0987 310953"
+    "phone": "+595 987 310953"
   },
   "location": {
     "city": "San Lorenzo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "520d1109-a496-4204-98df-2236c1dda073",
-  "createdAt": "2026-04-25T04:08:08.843Z"
+  "createdAt": "2026-04-25T04:08:08.843Z",
+  "google_maps_url": "https://maps.google.com/?cid=7214768946995794750",
+  "business_status": "OPERATIONAL"
 }

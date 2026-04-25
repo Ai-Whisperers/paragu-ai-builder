@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0984 904215",
+    "whatsapp": "+595 984 904215",
     "email": "ventas@paragu-ai.com",
     "instagram": "@lcmakeuphaircolor",
-    "phone": "0984 904215"
+    "phone": "+595 984 904215"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -32,5 +32,7 @@
   "preview": true,
   "previewLeadId": "7cf250a5-dd01-45f6-9e1d-149db841e81e",
   "createdAt": "2026-04-25T04:08:08.835Z",
-  "is_demo": false
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=2805539807610188508",
+  "business_status": "OPERATIONAL"
 }

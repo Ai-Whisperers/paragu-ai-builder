@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 215627",
+    "whatsapp": "+595 994 215627",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@portas_barbershop",
-    "phone": "0994 215627"
+    "phone": "+595 994 215627"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "0bfac998-4132-40c3-8fd8-16c569d33507",
-  "createdAt": "2026-04-25T04:08:08.863Z"
+  "createdAt": "2026-04-25T04:08:08.863Z",
+  "google_maps_url": "https://maps.google.com/?cid=754450865763414836",
+  "business_status": "OPERATIONAL"
 }

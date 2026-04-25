@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 200260",
+    "whatsapp": "+595 981 200260",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 200260"
+    "phone": "+595 981 200260"
   },
   "location": {
     "city": "Altos",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "b9b47b0d-6da9-4355-95c7-ee6770efe9de",
-  "createdAt": "2026-04-25T04:08:08.896Z"
+  "createdAt": "2026-04-25T04:08:08.896Z",
+  "google_maps_url": "https://maps.google.com/?cid=893764155590392309",
+  "business_status": "OPERATIONAL"
 }

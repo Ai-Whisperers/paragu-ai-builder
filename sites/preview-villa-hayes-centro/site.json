@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 806623",
+    "whatsapp": "+595 981 806623",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 806623"
+    "phone": "+595 981 806623"
   },
   "location": {
     "city": "Villa Hayes",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "dbcb254d-4fc0-4e17-bf36-2ddbde686307",
-  "createdAt": "2026-04-25T04:08:08.875Z"
+  "createdAt": "2026-04-25T04:08:08.875Z",
+  "google_maps_url": "https://maps.google.com/?cid=15976796301871551396",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 816627",
+    "whatsapp": "+595 983 816627",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 816627"
+    "phone": "+595 983 816627"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "01e8c321-c722-4203-b0a1-a1093e6d1efb",
-  "createdAt": "2026-04-25T04:08:08.777Z"
+  "createdAt": "2026-04-25T04:08:08.777Z",
+  "google_maps_url": "https://maps.google.com/?cid=12905535234794758115",
+  "business_status": "OPERATIONAL"
 }

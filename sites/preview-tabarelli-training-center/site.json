@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 655 172",
+    "whatsapp": "+595 21 655 172",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "(021) 655 172"
+    "phone": "+595 21 655 172"
   },
   "location": {
     "city": "Luque",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "2862f8b0-e8d7-463e-88d6-c1258a4690f4",
-  "createdAt": "2026-04-25T04:08:08.872Z"
+  "createdAt": "2026-04-25T04:08:08.872Z",
+  "google_maps_url": "https://maps.google.com/?cid=15901529825483651823",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 453302",
+    "whatsapp": "+595 982 453302",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0982 453302"
+    "phone": "+595 982 453302"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "2d04dd79-5555-4594-9d9c-e42f3750c03c",
-  "createdAt": "2026-04-25T04:08:08.821Z"
+  "createdAt": "2026-04-25T04:08:08.821Z",
+  "google_maps_url": "https://maps.google.com/?cid=18139387372379902393",
+  "business_status": "OPERATIONAL"
 }

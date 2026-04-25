@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0993 444300",
+    "whatsapp": "+595 993 444300",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0993 444300"
+    "phone": "+595 993 444300"
   },
   "location": {
     "city": "Luque",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "8dee3d82-c48a-43ad-919f-dadad4694e62"
+  "previewLeadId": "8dee3d82-c48a-43ad-919f-dadad4694e62",
+  "google_maps_url": "https://maps.google.com/?cid=12513450252305038776",
+  "business_status": "OPERATIONAL"
 }

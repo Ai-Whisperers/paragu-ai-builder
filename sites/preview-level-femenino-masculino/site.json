@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 329 2436",
+    "whatsapp": "+595 21 329 2436",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(021) 329 2436"
+    "phone": "+595 21 329 2436"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "d1820f19-d273-44b2-988f-49b9d139dd44",
-  "createdAt": "2026-04-25T04:08:08.882Z"
+  "createdAt": "2026-04-25T04:08:08.882Z",
+  "google_maps_url": "https://maps.google.com/?cid=4307161500832091304",
+  "business_status": "OPERATIONAL"
 }

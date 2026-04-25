@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 101933",
+    "whatsapp": "+595 982 101933",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0982 101933"
+    "phone": "+595 982 101933"
   },
   "location": {
     "city": "Atyrá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "d171c8b4-1641-40e0-bd85-2508e5aa0443",
-  "createdAt": "2026-04-25T04:08:08.787Z"
+  "createdAt": "2026-04-25T04:08:08.787Z",
+  "google_maps_url": "https://maps.google.com/?cid=17295624516492417505",
+  "business_status": "OPERATIONAL"
 }

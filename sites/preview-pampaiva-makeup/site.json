@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 775554",
+    "whatsapp": "+595 981 775554",
     "email": "ventas@paragu-ai.com",
     "instagram": "@demo.maquillaje.py",
-    "phone": "0981 775554"
+    "phone": "+595 981 775554"
   },
   "location": {
     "city": "Mariano Roque Alonso",
@@ -32,5 +32,7 @@
   "preview": true,
   "previewLeadId": "844b09a7-7c9a-4079-a1b8-06bba0787dde",
   "createdAt": "2026-04-25T04:08:08.861Z",
-  "is_demo": false
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=3030079251100976015",
+  "business_status": "OPERATIONAL"
 }

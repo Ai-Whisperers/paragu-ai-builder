@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 568547",
+    "whatsapp": "+595 971 568547",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 568547"
+    "phone": "+595 971 568547"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "5ff480fc-dfba-418d-8426-b192acdf888b",
-  "createdAt": "2026-04-25T04:08:08.819Z"
+  "createdAt": "2026-04-25T04:08:08.819Z",
+  "google_maps_url": "https://maps.google.com/?cid=2379231995811348932",
+  "business_status": "OPERATIONAL"
 }

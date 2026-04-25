@@ -54,9 +54,9 @@
       "subtitle": "Visitanos en Fernando de la Mora",
       "address": "Ruta 2 y Av. Mcal. López Km 8",
       "city": "Fernando de la Mora",
-      "phone": "0982 116619",
+      "phone": "+595 982 116619",
       "email": "ventas@gimnasiopower.com.py",
-      "whatsapp": "+595983789012"
+      "whatsapp": "+595 982 116619"
     },
     "promoBanner": {
       "title": "💪 Promo Verano",
@@ -287,6 +287,43 @@
         "Evaluación gratis",
         "Estacionamiento",
         "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHdXeDFcAqMzZ2LT0C8Twxp2PpmGtOJKtlBE8ye11Ox0FUV7AW9-tmaWr2pFdeoyJ1_4FJ9RoFSn6E_3aPLCo7rO8Km3mi2480SMgU1uVuFhxHwLcIiSRzOgBE2kvcySNS2-bAn8FELrUGnbinJfa5hwXplKdf4_n5rYLEZUotu1Sjbuvt61QtlSF4UPOccP6KWgn_yOtO4BRdH9X-dN3iTU713jucABYnr-TeF8auwULPFRhZX48HNa99pQ4wT1i1Vq64NfMpLKOtCFnbN6QvIs0XrPCYzXTmIz1QimRHc0Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE1S7ethMxgeVrFCSjwUT94U-8F30ZKFLrXv2P8Lw6Xjb5hBYIJhSPLRE_nm4mn377vAbDZPKMFyzUJJjdN0tvaeeQLr4w-5GPzLeQl8N4BKC57nSwvADeyN-jQAxrGqmZs7WP9aHjlbO7l-Uv5aZDz4lrgFxntXBCJmO28CKmaumU9xlS_YyvA7af1545zj1lSu4GKwfUWQic3HYAds0lC4VJ-q_ewS-iFvtzf6pMn8tl3jfu6UhLR6qBijAYMRnMeH5S0o3Bw25p8j1o1sa0zvgQUZpfVOtPJRWn3xLxGdA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFxblpXC-JSyLn4Kb1EiasGxD6XQAk-MRHnGl7ZjhVqsZ_rOhjFeDIMvRjl5Zlzw-h1YXSeseUcLDRXllXAjd134LPrd8DYxY-JBb3YaC6m9bA8WUnWnzrXo_vDyMtpfbQtuoOkVL4sQzMl9vj2VNr76Op6PyYSUGKB7kXtYcCPO4sMaKjRM7p27YXerv__GQgaY7s-5PDwLQubmIr-yfZphedAKINnB33aIvr1woGHHmdy4Ut3PLEHHg1nHOXBOVMHbYupA5tSh0uz3clYPz55ghbPQ1jjQsmcMbxI28CuBg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-BGitR6zETvjfC5PlE5163m1-u2xICzcchot2RRfkY_sgnnmNhah02EfHqRyY44_GTy31oj8yg1A8nub9toOfNX915hvEWx3_I0ZnUOyysrcZAKYUrswrsfgndLSaz_PRSIoRSxq8H6frognoFEBrKA7mo3hP4MkTbHGAhZOrJbfDXLP9UR_AgOYdEnPB2KUPNTJJoGgKfwM3MopNP9YrsgrcdBy0wl0wFLb2ZKqFPdGjP8XovxmnmDbX4e-oEItGZjluxWPf9Bi4yaqMbl9YXe9mQxhhnCm8zaCxvVsv4w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHw0AJVGdfwO2nxsbqq75VGc2VBeGSZT1IDVevMmUOIJ6_9fwYlp_rgYchVRq8sHNqD4rPeU3utPwvH0LuQSR_OU4MoSyHUxgU9zYuBBgNMB8g-TqtMJCtfG8cWFQzm68ULrJBSV7aeXbFFXDJ2Xr1adeyLzI_emx_LOaD5IxPqmwfXWf3F9UAHpZ8Kl1nIMDF4U6aMWAWi5kJx-Ae_ByHDhEhcro0jwVTNxzyayylRx7FizeuCW6MBTMH_Lp74loqXOHpk9yOdVv9d5CuX0r5p5ktEt36jPgkwuaW3-bTSCA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFl1Pk8SVj9T1mGKhZxOl4l2gDrVEFWA18D1V9MIaIDGO8CFJ0slycGn-SSdLozUJQn3aEzVVHF7tlu0oME8ZxellPtsv7rcOfw62Fe-tP1A2fWrY4L5gzOM0GOb9CyNNCAp_zScii2I-xnr86AL5O2acZjGMGM7KxLW-fAgkoAJ2xqXj0sTK0B3dQ7vbePVkKhUAFo36yvHK33_3tBBTxDCvvnBoM0UvpDN9rqZhfJ9PYR45VBfAOVuNlwTUQrN3sVY2jWM0Jp3wVwBmB5BNXsGlmdoYU8-xiLQa7dfu6KHA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
+        }
       ]
     }
   },

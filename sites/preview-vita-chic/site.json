@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 506223",
+    "whatsapp": "+595 986 506223",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0986 506223"
+    "phone": "+595 986 506223"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "996c5cca-4af9-4e30-8cdd-80218b5a1742",
-  "createdAt": "2026-04-25T04:08:08.857Z"
+  "createdAt": "2026-04-25T04:08:08.857Z",
+  "google_maps_url": "https://maps.google.com/?cid=10044167614015883161",
+  "business_status": "OPERATIONAL"
 }

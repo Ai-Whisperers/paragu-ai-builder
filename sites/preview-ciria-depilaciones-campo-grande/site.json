@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 933247",
+    "whatsapp": "+595 981 933247",
     "email": "ventas@paragu-ai.com",
     "instagram": "@demo.depilacion.py",
-    "phone": "0981 933247"
+    "phone": "+595 981 933247"
   },
   "location": {
     "city": "Asunción",
@@ -32,5 +32,7 @@
   "preview": true,
   "previewLeadId": "1a281ae7-b00c-440c-aa2f-7f45c875f81c",
   "createdAt": "2026-04-25T04:08:08.873Z",
-  "is_demo": false
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=14307062693368596887",
+  "business_status": "OPERATIONAL"
 }

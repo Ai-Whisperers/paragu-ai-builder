@@ -2872,11 +2872,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-alto-aregua-galeria-de-arte-y-posada": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0971 150599",
-      "whatsapp": "0971 150599"
+      "phone": "+595 971 150599",
+      "whatsapp": "+595 971 150599"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.847Z",
@@ -2885,6 +2886,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9866459372316460221",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3148,11 +3150,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-aventura-centro-deportivo": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0985 500023",
-      "whatsapp": "0985 500023"
+      "phone": "+595 985 500023",
+      "whatsapp": "+595 985 500023"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.815Z",
@@ -3161,6 +3164,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11223341781116509498",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3360,11 +3364,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-barber-club-py": {
     "businessType": "barberia",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
       "instagram": "@thebarberclubpy",
-      "phone": "0971 888665",
-      "whatsapp": "0971 888665"
+      "phone": "+595 971 888665",
+      "whatsapp": "+595 971 888665"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.891Z",
@@ -3373,6 +3378,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=16345705719610828437",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3466,11 +3472,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-barbera-barber-club": {
     "businessType": "barberia",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
       "instagram": "@barberia.sanlorenzo.py",
-      "phone": "03757 46-5921",
-      "whatsapp": "03757 46-5921"
+      "phone": "+54 3757 46-5921",
+      "whatsapp": "+54 3757 46-5921"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.850Z",
@@ -3479,6 +3486,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=8901623658087506776",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3519,11 +3527,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-barbera-barber-club-509ea18b": {
     "businessType": "barberia",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
       "instagram": "@barberia.sanlorenzo.py",
-      "phone": "03757 46-5921",
-      "whatsapp": "03757 46-5921"
+      "phone": "+54 3757 46-5921",
+      "whatsapp": "+54 3757 46-5921"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.851Z",
@@ -3532,6 +3541,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=8901623658087506776",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3731,11 +3741,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-barberia-h2o": {
     "businessType": "barberia",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
       "instagram": "@barberiah2o",
-      "phone": "0972 413121",
-      "whatsapp": "0972 413121"
+      "phone": "+595 972 413121",
+      "whatsapp": "+595 972 413121"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.846Z",
@@ -3744,6 +3755,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=17015207088656677308",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3837,11 +3849,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-bellavista-tattoo-studio": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "9 4598 8898",
-      "whatsapp": "9 4598 8898"
+      "phone": "+56 9 4598 8898",
+      "whatsapp": "+56 9 4598 8898"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.806Z",
@@ -3850,6 +3863,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11156223865358125737",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -3996,11 +4010,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-bleudepilacin": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0971 161733",
-      "whatsapp": "0971 161733"
+      "phone": "+595 971 161733",
+      "whatsapp": "+595 971 161733"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.884Z",
@@ -4009,6 +4024,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=18115143589449709051",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4161,11 +4177,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-bonita-depilaciones": {
     "businessType": "depilacion",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@bonitadepilaciones",
-      "phone": "0985 881864",
-      "whatsapp": "0985 881864"
+      "phone": "+595 985 881864",
+      "whatsapp": "+595 985 881864"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.829Z",
@@ -4175,6 +4192,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=1740149048155836543",
     "is_demo": false,
     "locales": [
       "es"
@@ -4250,11 +4268,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-cacique-fit-club": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0986 457613",
-      "whatsapp": "0986 457613"
+      "phone": "+595 986 457613",
+      "whatsapp": "+595 986 457613"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.868Z",
@@ -4263,6 +4282,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=14853548216040803197",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4356,11 +4376,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-capelli-barberiapeluquera": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0987 310953",
-      "whatsapp": "0987 310953"
+      "phone": "+595 987 310953",
+      "whatsapp": "+595 987 310953"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.843Z",
@@ -4369,6 +4390,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=7214768946995794750",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4409,11 +4431,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-carol-peluquera": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0985 105541",
-      "whatsapp": "0985 105541"
+      "phone": "+595 985 105541",
+      "whatsapp": "+595 985 105541"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.822Z",
@@ -4422,6 +4445,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9113074060982642668",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4462,11 +4486,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-carol-peluquera-04d751a1": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0985 105541",
-      "whatsapp": "0985 105541"
+      "phone": "+595 985 105541",
+      "whatsapp": "+595 985 105541"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.824Z",
@@ -4475,6 +4500,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9113074060982642668",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4515,11 +4541,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-castillo-marianela": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0982 101933",
-      "whatsapp": "0982 101933"
+      "phone": "+595 982 101933",
+      "whatsapp": "+595 982 101933"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.787Z",
@@ -4528,6 +4555,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=17295624516492417505",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4568,11 +4596,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-centro-artesanal-capici-it": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0986 691115",
-      "whatsapp": "0986 691115"
+      "phone": "+595 986 691115",
+      "whatsapp": "+595 986 691115"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.801Z",
@@ -4581,6 +4610,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=5856201725392773846",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4621,11 +4651,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-centro-artesanal-capici-it-0d681bfa": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0986 691115",
-      "whatsapp": "0986 691115"
+      "phone": "+595 986 691115",
+      "whatsapp": "+595 986 691115"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.803Z",
@@ -4634,6 +4665,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=5856201725392773846",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4733,11 +4765,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-centro-mdico-corppolive": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0971 568547",
-      "whatsapp": "0971 568547"
+      "phone": "+595 971 568547",
+      "whatsapp": "+595 971 568547"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.819Z",
@@ -4746,6 +4779,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=2379231995811348932",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4786,11 +4820,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-charme-asu": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 612 899",
-      "whatsapp": "(021) 612 899"
+      "phone": "+595 21 612 899",
+      "whatsapp": "+595 21 612 899"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.808Z",
@@ -4799,6 +4834,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=4725796778415548342",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4839,11 +4875,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-cheers": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0982 112221",
-      "whatsapp": "0982 112221"
+      "phone": "+595 982 112221",
+      "whatsapp": "+595 982 112221"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.809Z",
@@ -4852,6 +4889,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12761139076609077928",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -4881,7 +4919,11 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/preview-cheers",
     "preview": true,
     "previewLeadId": "ef95c813-2533-4622-8632-a05a0b13b318",
+    "price_level": 2,
     "publicUrl": "https://paragu-ai.com/s/es/preview-cheers",
+    "seo": {
+      "priceRange": "$$"
+    },
     "social": {
       "facebook": "peluqueriacentropy",
       "instagram": "@peluqueria.centro.py",
@@ -4945,11 +4987,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-ciria-depilaciones-campo-grande": {
     "businessType": "depilacion",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@demo.depilacion.py",
-      "phone": "0981 933247",
-      "whatsapp": "0981 933247"
+      "phone": "+595 981 933247",
+      "whatsapp": "+595 981 933247"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.873Z",
@@ -4959,6 +5002,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=14307062693368596887",
     "is_demo": false,
     "locales": [
       "es"
@@ -5034,11 +5078,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-complejo-barparaso-deportivo": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0981 448335",
-      "whatsapp": "0981 448335"
+      "phone": "+595 981 448335",
+      "whatsapp": "+595 981 448335"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.779Z",
@@ -5047,6 +5092,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12352545020014229012",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5087,11 +5133,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-complejo-barparaso-deportivo-76cc9854": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0981 448335",
-      "whatsapp": "0981 448335"
+      "phone": "+595 981 448335",
+      "whatsapp": "+595 981 448335"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.782Z",
@@ -5100,6 +5147,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12352545020014229012",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5140,11 +5188,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-complejo-cocodrilo-mburucuya-fitness": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0986 106062",
-      "whatsapp": "0986 106062"
+      "phone": "+595 986 106062",
+      "whatsapp": "+595 986 106062"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.816Z",
@@ -5153,6 +5202,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=476619260746789209",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5299,11 +5349,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-creperia-cafe-casa-vital": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0983 104489",
-      "whatsapp": "0983 104489"
+      "phone": "+595 983 104489",
+      "whatsapp": "+595 983 104489"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.860Z",
@@ -5312,6 +5363,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=16899716625025622722",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5617,11 +5669,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-depipink-barrio-herrera": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0971 226221",
-      "whatsapp": "0971 226221"
+      "phone": "+595 971 226221",
+      "whatsapp": "+595 971 226221"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.852Z",
@@ -5630,6 +5683,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=7990728890312714821",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5670,11 +5724,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-es-vedr-san-bernardino": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0982 272328",
-      "whatsapp": "0982 272328"
+      "phone": "+595 982 272328",
+      "whatsapp": "+595 982 272328"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.855Z",
@@ -5683,6 +5738,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12782200818079180279",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5723,11 +5779,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-essencial-spa": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0982 338886",
-      "whatsapp": "0982 338886"
+      "phone": "+595 982 338886",
+      "whatsapp": "+595 982 338886"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.812Z",
@@ -5740,6 +5797,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=7653777304160970693",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -5782,11 +5840,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-estelita-esttica-en-uas": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0991 204913",
-      "whatsapp": "0991 204913"
+      "phone": "+595 991 204913",
+      "whatsapp": "+595 991 204913"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.810Z",
@@ -5795,6 +5854,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=14620720557529725635",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6053,11 +6113,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-fran-gym": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0982 116619",
-      "whatsapp": "0982 116619"
+      "phone": "+595 982 116619",
+      "whatsapp": "+595 982 116619"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.890Z",
@@ -6066,6 +6127,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9938922957936756486",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6106,11 +6168,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-full-fitness-gym": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "(021) 640 740",
-      "whatsapp": "(021) 640 740"
+      "phone": "+595 21 640 740",
+      "whatsapp": "+595 21 640 740"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.841Z",
@@ -6119,6 +6182,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=15046065349807299597",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6159,11 +6223,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-full-form-gym": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0981 423913",
-      "whatsapp": "0981 423913"
+      "phone": "+595 981 423913",
+      "whatsapp": "+595 981 423913"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.878Z",
@@ -6172,6 +6237,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=7535116222974033237",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6212,11 +6278,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-full-form-gym-a030d73d": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0981 423913",
-      "whatsapp": "0981 423913"
+      "phone": "+595 981 423913",
+      "whatsapp": "+595 981 423913"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.880Z",
@@ -6225,6 +6292,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=7535116222974033237",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6265,11 +6333,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-galilea-estetica": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0994 681789",
-      "whatsapp": "0994 681789"
+      "phone": "+595 994 681789",
+      "whatsapp": "+595 994 681789"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.800Z",
@@ -6278,6 +6347,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9709581609310070444",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6477,11 +6547,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-gimnasio-body-training": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0975 625018",
-      "whatsapp": "0975 625018"
+      "phone": "+595 975 625018",
+      "whatsapp": "+595 975 625018"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.871Z",
@@ -6490,6 +6561,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=14632641803684728235",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6583,11 +6655,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-gimnasio-top-gym": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "(021) 490 074",
-      "whatsapp": "(021) 490 074"
+      "phone": "+595 21 490 074",
+      "whatsapp": "+595 21 490 074"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.838Z",
@@ -6596,6 +6669,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=16747540562058215546",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6742,11 +6816,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-guaran-mall-paseo-guaran": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0974 363674",
-      "whatsapp": "0974 363674"
+      "phone": "+595 974 363674",
+      "whatsapp": "+595 974 363674"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.817Z",
@@ -6755,6 +6830,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=8867828365473234749",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6848,11 +6924,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-gym-victor-niella": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasiovictorniella",
-      "phone": "0981 400632",
-      "whatsapp": "0981 400632"
+      "phone": "+595 981 400632",
+      "whatsapp": "+595 981 400632"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.820Z",
@@ -6861,6 +6938,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=15582198587900990085",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6901,11 +6979,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hair-fashion": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "03757 45-1896",
-      "whatsapp": "03757 45-1896"
+      "phone": "+54 3757 45-1896",
+      "whatsapp": "+54 3757 45-1896"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.893Z",
@@ -6914,6 +6993,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11036180149685626085",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -6954,11 +7034,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hair-fashion-22fa36e3": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "03757 45-1896",
-      "whatsapp": "03757 45-1896"
+      "phone": "+54 3757 45-1896",
+      "whatsapp": "+54 3757 45-1896"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.894Z",
@@ -6967,6 +7048,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11036180149685626085",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7007,11 +7089,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hidrobaby-babyspa-spa-de-bebs-hidroestim": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@aguadulcebebes",
-      "phone": "0993 444000",
-      "whatsapp": "0993 444000"
+      "phone": "+595 993 444000",
+      "whatsapp": "+595 993 444000"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.784Z",
@@ -7024,6 +7107,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=1525524535421847738",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7066,11 +7150,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hidrobaby-luque": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0993 444300",
-      "whatsapp": "0993 444300"
+      "phone": "+595 993 444300",
+      "whatsapp": "+595 993 444300"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.842Z",
@@ -7083,6 +7168,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12513450252305038776",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7125,11 +7211,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hipermercado-luisito-itaugu": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 728 9325",
-      "whatsapp": "(021) 728 9325"
+      "phone": "+595 21 728 9325",
+      "whatsapp": "+595 21 728 9325"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.774Z",
@@ -7138,6 +7225,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=15000693536542578511",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7178,11 +7266,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hippie-chic": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0981 195626",
-      "whatsapp": "0981 195626"
+      "phone": "+595 981 195626",
+      "whatsapp": "+595 981 195626"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.832Z",
@@ -7191,6 +7280,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=14104368144058393560",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7227,15 +7317,17 @@ export const SITES: Record<string, JsonRecord> = {
       "tiktok": "@peluqueriacentro"
     },
     "source": "lead_generation",
-    "vertical": "beauty-personal-care"
+    "vertical": "beauty-personal-care",
+    "website": "https://hippiechic.com.py/"
   },
   "preview-hold-fast-club-de-caballeros": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0994 176777",
-      "whatsapp": "0994 176777"
+      "phone": "+595 994 176777",
+      "whatsapp": "+595 994 176777"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.885Z",
@@ -7244,6 +7336,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9831662047154260138",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7284,11 +7377,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hold-fast-club-de-caballeros-40c2193b": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0994 176777",
-      "whatsapp": "0994 176777"
+      "phone": "+595 994 176777",
+      "whatsapp": "+595 994 176777"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.887Z",
@@ -7297,6 +7391,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9831662047154260138",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7496,11 +7591,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-hotel-hohenau": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0994 862766",
-      "whatsapp": "0994 862766"
+      "phone": "+595 994 862766",
+      "whatsapp": "+595 994 862766"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.804Z",
@@ -7509,6 +7605,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11061158191266842002",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7526,7 +7623,7 @@ export const SITES: Record<string, JsonRecord> = {
       "es"
     ],
     "location": {
-      "address": "Ruta Nacional Nro 6 Doctor Juan León Mallorquín , Colonia Hohenau Itapúa Paraguay 6290, Paraguay",
+      "address": "Ruta Nacional Nro 6 \"Doctor Juan León Mallorquín \", Colonia Hohenau Itapúa Paraguay 6290, Paraguay",
       "city": "Colonia Hohenau Itapúa Paraguay",
       "coordinates": {
         "lat": -27.0752189,
@@ -7820,11 +7917,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-jazmin-cosmeticos": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0981 961766",
-      "whatsapp": "0981 961766"
+      "phone": "+595 981 961766",
+      "whatsapp": "+595 981 961766"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.834Z",
@@ -7833,6 +7931,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=277820499926568334",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -7873,11 +7972,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-jazmin-valdivieso-brow-and-lash-studio": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0971 527527",
-      "whatsapp": "0971 527527"
+      "phone": "+595 971 527527",
+      "whatsapp": "+595 971 527527"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.869Z",
@@ -7886,6 +7986,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=17085191957558713759",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -8085,11 +8186,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-la-casita-de-los-cristales": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0983 940571",
-      "whatsapp": "0983 940571"
+      "phone": "+595 983 940571",
+      "whatsapp": "+595 983 940571"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.874Z",
@@ -8098,6 +8200,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=3064456133843446894",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -8386,11 +8489,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-leticia-carballo-makeup-store": {
     "businessType": "maquillaje",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@lcmakeuphaircolor",
-      "phone": "0984 904215",
-      "whatsapp": "0984 904215"
+      "phone": "+595 984 904215",
+      "whatsapp": "+595 984 904215"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.835Z",
@@ -8400,6 +8504,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=2805539807610188508",
     "is_demo": false,
     "locales": [
       "es"
@@ -8422,11 +8527,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-leticia-carballo-makeup-store-83035cf0": {
     "businessType": "maquillaje",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@lcmakeuphaircolor",
-      "phone": "0984 904215",
-      "whatsapp": "0984 904215"
+      "phone": "+595 984 904215",
+      "whatsapp": "+595 984 904215"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.836Z",
@@ -8436,6 +8542,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=2805539807610188508",
     "is_demo": false,
     "locales": [
       "es"
@@ -8458,11 +8565,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-level-femenino-masculino": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 329 2436",
-      "whatsapp": "(021) 329 2436"
+      "phone": "+595 21 329 2436",
+      "whatsapp": "+595 21 329 2436"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.882Z",
@@ -8471,6 +8579,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=4307161500832091304",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -8894,11 +9003,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-los-lapachos": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0981 200260",
-      "whatsapp": "0981 200260"
+      "phone": "+595 981 200260",
+      "whatsapp": "+595 981 200260"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.896Z",
@@ -8907,6 +9017,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=893764155590392309",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9006,11 +9117,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-luis-de-leon-concept": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 604 817",
-      "whatsapp": "(021) 604 817"
+      "phone": "+595 21 604 817",
+      "whatsapp": "+595 21 604 817"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.883Z",
@@ -9019,6 +9131,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=4232814728778314916",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9112,11 +9225,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-lyon-gym": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@lyongympy",
-      "phone": "0986 657777",
-      "whatsapp": "0986 657777"
+      "phone": "+595 986 657777",
+      "whatsapp": "+595 986 657777"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.881Z",
@@ -9125,6 +9239,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=10883299485349986975",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9165,11 +9280,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-madelcap": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0971 754545",
-      "whatsapp": "0971 754545"
+      "phone": "+595 971 754545",
+      "whatsapp": "+595 971 754545"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.849Z",
@@ -9178,6 +9294,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=7965721267699241644",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9218,11 +9335,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-magnolia-peluquera": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 558 289",
-      "whatsapp": "(021) 558 289"
+      "phone": "+595 21 558 289",
+      "whatsapp": "+595 21 558 289"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.833Z",
@@ -9231,6 +9349,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11730441928923147055",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9442,11 +9561,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-mar-ber-peluqueria": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 921 827",
-      "whatsapp": "(021) 921 827"
+      "phone": "+595 21 921 827",
+      "whatsapp": "+595 21 921 827"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.844Z",
@@ -9455,6 +9575,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=16770438961419916992",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9554,11 +9675,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-marianela-atyra": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(0520) 20188",
-      "whatsapp": "(0520) 20188"
+      "phone": "+595 520 20188",
+      "whatsapp": "+595 520 20188"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.877Z",
@@ -9567,6 +9689,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=15613635418999771988",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9719,11 +9842,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-medina-fitness": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@medinafitness_gym",
-      "phone": "0981 162190",
-      "whatsapp": "0981 162190"
+      "phone": "+595 981 162190",
+      "whatsapp": "+595 981 162190"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.854Z",
@@ -9732,6 +9856,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=17839225681599192799",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9772,11 +9897,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-mega-cosmticos-asuncin": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0986 477733",
-      "whatsapp": "0986 477733"
+      "phone": "+595 986 477733",
+      "whatsapp": "+595 986 477733"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.789Z",
@@ -9785,6 +9911,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=3798205955766216123",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9825,11 +9952,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-megasport-fitness-center": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0981 191146",
-      "whatsapp": "0981 191146"
+      "phone": "+595 981 191146",
+      "whatsapp": "+595 981 191146"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.830Z",
@@ -9838,6 +9966,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=1193919372038423256",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9878,11 +10007,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-megasport-fitness-center-04c19186": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "0981 191146",
-      "whatsapp": "0981 191146"
+      "phone": "+595 981 191146",
+      "whatsapp": "+595 981 191146"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.831Z",
@@ -9891,6 +10021,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=1193919372038423256",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -9984,11 +10115,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-micropigmentao-e-remoo-a-laser-clnica-ni": {
     "businessType": "depilacion",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@demo.depilacion.py",
-      "phone": "(45) 3025-4100",
-      "whatsapp": "(45) 3025-4100"
+      "phone": "+55 45 3025-4100",
+      "whatsapp": "+55 45 3025-4100"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.876Z",
@@ -9998,6 +10130,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12423690146871516866",
     "is_demo": false,
     "locales": [
       "es"
@@ -10185,11 +10318,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-ms-bonita-cosmticos": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0983 342707",
-      "whatsapp": "0983 342707"
+      "phone": "+595 983 342707",
+      "whatsapp": "+595 983 342707"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.840Z",
@@ -10198,6 +10332,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=4628754462311150967",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10238,11 +10373,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-natucenter": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0973 117473",
-      "whatsapp": "0973 117473"
+      "phone": "+595 973 117473",
+      "whatsapp": "+595 973 117473"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.793Z",
@@ -10251,6 +10387,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=16596766747227028240",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10280,7 +10417,11 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/preview-natucenter",
     "preview": true,
     "previewLeadId": "58ddb967-092c-437e-a3ed-c92252c738cc",
+    "price_level": 1,
     "publicUrl": "https://paragu-ai.com/s/es/preview-natucenter",
+    "seo": {
+      "priceRange": "$"
+    },
     "social": {
       "facebook": "peluqueriacentropy",
       "instagram": "@peluqueria.centro.py",
@@ -10291,11 +10432,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-natucenter-40f3e7d3": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0973 117473",
-      "whatsapp": "0973 117473"
+      "phone": "+595 973 117473",
+      "whatsapp": "+595 973 117473"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.795Z",
@@ -10304,6 +10446,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=16596766747227028240",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10333,7 +10476,11 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/preview-natucenter-40f3e7d3",
     "preview": true,
     "previewLeadId": "40f3e7d3-7165-477d-b4a4-cbdc72e991a6",
+    "price_level": 1,
     "publicUrl": "https://paragu-ai.com/s/es/preview-natucenter-40f3e7d3",
+    "seo": {
+      "priceRange": "$"
+    },
     "social": {
       "facebook": "peluqueriacentropy",
       "instagram": "@peluqueria.centro.py",
@@ -10397,11 +10544,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-nocho-wellness-gym": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0961 715906",
-      "whatsapp": "0961 715906"
+      "phone": "+595 961 715906",
+      "whatsapp": "+595 961 715906"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.888Z",
@@ -10414,6 +10562,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=17080247306046895343",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10456,11 +10605,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-nocho-wellness-gym-8d3f4b2b": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0961 715906",
-      "whatsapp": "0961 715906"
+      "phone": "+595 961 715906",
+      "whatsapp": "+595 961 715906"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.889Z",
@@ -10473,6 +10623,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=17080247306046895343",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10515,11 +10666,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-oh-baby-spa": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0982 357778",
-      "whatsapp": "0982 357778"
+      "phone": "+595 982 357778",
+      "whatsapp": "+595 982 357778"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.864Z",
@@ -10532,6 +10684,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12042638060722940679",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10574,11 +10727,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-overfit-gym": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@overfitgym",
-      "phone": "0994 700029",
-      "whatsapp": "0994 700029"
+      "phone": "+595 994 700029",
+      "whatsapp": "+595 994 700029"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.865Z",
@@ -10587,6 +10741,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11662826008599086196",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10627,11 +10782,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-overfit-gym-9e56d2e1": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@overfitgym",
-      "phone": "0994 700029",
-      "whatsapp": "0994 700029"
+      "phone": "+595 994 700029",
+      "whatsapp": "+595 994 700029"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.866Z",
@@ -10640,6 +10796,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11662826008599086196",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10680,11 +10837,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-pampaiva-makeup": {
     "businessType": "maquillaje",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@demo.maquillaje.py",
-      "phone": "0981 775554",
-      "whatsapp": "0981 775554"
+      "phone": "+595 981 775554",
+      "whatsapp": "+595 981 775554"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.861Z",
@@ -10694,6 +10852,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=3030079251100976015",
     "is_demo": false,
     "locales": [
       "es"
@@ -10769,11 +10928,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-peluquera-mmical": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 606 360",
-      "whatsapp": "(021) 606 360"
+      "phone": "+595 21 606 360",
+      "whatsapp": "+595 21 606 360"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.858Z",
@@ -10782,6 +10942,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=6199618288128939196",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10822,11 +10983,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-peluquera-snchez": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0982 453302",
-      "whatsapp": "0982 453302"
+      "phone": "+595 982 453302",
+      "whatsapp": "+595 982 453302"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.821Z",
@@ -10835,6 +10997,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=18139387372379902393",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -10875,11 +11038,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-peluquera-y-barberia-jos": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0976 545347",
-      "whatsapp": "0976 545347"
+      "phone": "+595 976 545347",
+      "whatsapp": "+595 976 545347"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.859Z",
@@ -10888,6 +11052,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=13612519650688807813",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11193,11 +11358,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-piribebuy-country-club": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0972 651474",
-      "whatsapp": "0972 651474"
+      "phone": "+595 972 651474",
+      "whatsapp": "+595 972 651474"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.796Z",
@@ -11206,6 +11372,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=61317240187585486",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11246,11 +11413,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-piribebuy-country-club-783823f6": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0972 651474",
-      "whatsapp": "0972 651474"
+      "phone": "+595 972 651474",
+      "whatsapp": "+595 972 651474"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.798Z",
@@ -11259,6 +11427,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=61317240187585486",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11299,11 +11468,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-pizzeria-y-lomitera-alan": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0983 905773",
-      "whatsapp": "0983 905773"
+      "phone": "+595 983 905773",
+      "whatsapp": "+595 983 905773"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.867Z",
@@ -11312,6 +11482,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9859655411402279937",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11411,11 +11582,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-portas-barber-shop": {
     "businessType": "barberia",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
       "instagram": "@portas_barbershop",
-      "phone": "0994 215627",
-      "whatsapp": "0994 215627"
+      "phone": "+595 994 215627",
+      "whatsapp": "+595 994 215627"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.863Z",
@@ -11424,6 +11596,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=754450865763414836",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11623,11 +11796,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-renacer-spa": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0982 450269",
-      "whatsapp": "0982 450269"
+      "phone": "+595 982 450269",
+      "whatsapp": "+595 982 450269"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.862Z",
@@ -11640,6 +11814,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=6111254885413663332",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11682,11 +11857,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-renuva-clnica-esttica-y-laser": {
     "businessType": "depilacion",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@paragu-ai.com",
       "instagram": "@clinica.renuva",
-      "phone": "0981 521527",
-      "whatsapp": "0981 521527"
+      "phone": "+595 981 521527",
+      "whatsapp": "+595 981 521527"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.823Z",
@@ -11696,6 +11872,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11547781399002133935",
     "is_demo": false,
     "locales": [
       "es"
@@ -11718,11 +11895,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-resto-bar-alameda": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0986 661271",
-      "whatsapp": "0986 661271"
+      "phone": "+595 986 661271",
+      "whatsapp": "+595 986 661271"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.826Z",
@@ -11731,6 +11909,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12260883049280344518",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11760,7 +11939,11 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/preview-resto-bar-alameda",
     "preview": true,
     "previewLeadId": "8562aa3f-64a5-4e58-becd-bf4df4dec3c4",
+    "price_level": 1,
     "publicUrl": "https://paragu-ai.com/s/es/preview-resto-bar-alameda",
+    "seo": {
+      "priceRange": "$"
+    },
     "social": {
       "facebook": "peluqueriacentropy",
       "instagram": "@peluqueria.centro.py",
@@ -11877,11 +12060,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-rommy-salon-femenino-masculino": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(061) 509 986",
-      "whatsapp": "(061) 509 986"
+      "phone": "+595 61 509 986",
+      "whatsapp": "+595 61 509 986"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.813Z",
@@ -11890,6 +12074,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=5077394796386187308",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -11930,11 +12115,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-rommy-salon-femenino-masculino-aa10fd45": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(061) 509 986",
-      "whatsapp": "(061) 509 986"
+      "phone": "+595 61 509 986",
+      "whatsapp": "+595 61 509 986"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.814Z",
@@ -11943,6 +12129,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=5077394796386187308",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12360,11 +12547,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-shirley-nails": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0991 758633",
-      "whatsapp": "0991 758633"
+      "phone": "+595 991 758633",
+      "whatsapp": "+595 991 758633"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.892Z",
@@ -12373,6 +12561,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=10987809783862963925",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12413,11 +12602,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-studio-22-body-piercing-tattoo": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0983 816627",
-      "whatsapp": "0983 816627"
+      "phone": "+595 983 816627",
+      "whatsapp": "+595 983 816627"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.777Z",
@@ -12426,6 +12616,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12905535234794758115",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12466,11 +12657,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-studio-88": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0981 555597",
-      "whatsapp": "0981 555597"
+      "phone": "+595 981 555597",
+      "whatsapp": "+595 981 555597"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.856Z",
@@ -12483,6 +12675,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=12281442820233291140",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12525,11 +12718,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-super-total": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(072) 222 624",
-      "whatsapp": "(072) 222 624"
+      "phone": "+595 72 222 624",
+      "whatsapp": "+595 72 222 624"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.845Z",
@@ -12538,6 +12732,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=10368555763453849660",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12578,11 +12773,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-tabarelli-training-center": {
     "businessType": "gimnasio",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
       "instagram": "@gimnasio.fdm.py",
-      "phone": "(021) 655 172",
-      "whatsapp": "(021) 655 172"
+      "phone": "+595 21 655 172",
+      "whatsapp": "+595 21 655 172"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.872Z",
@@ -12591,6 +12787,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=15901529825483651823",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12631,11 +12828,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-tajos-barberos-central": {
     "businessType": "barberia",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
       "instagram": "@tajosbarberos",
-      "phone": "0982 473078",
-      "whatsapp": "0982 473078"
+      "phone": "+595 982 473078",
+      "whatsapp": "+595 982 473078"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.827Z",
@@ -12644,6 +12842,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=218434125837063146",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12737,11 +12936,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-teju-jagua-tatuajes": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0985 857700",
-      "whatsapp": "0985 857700"
+      "phone": "+595 985 857700",
+      "whatsapp": "+595 985 857700"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.848Z",
@@ -12750,6 +12950,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=556955517361001291",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12790,11 +12991,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-teranu": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@teranuspa",
-      "phone": "0971 252626",
-      "whatsapp": "0971 252626"
+      "phone": "+595 971 252626",
+      "whatsapp": "+595 971 252626"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.851Z",
@@ -12807,6 +13009,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=11181812117761772115",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -12955,11 +13158,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-urban-spa-acquadolce": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@acquadolcespa",
-      "phone": "0961 281515",
-      "whatsapp": "0961 281515"
+      "phone": "+595 961 281515",
+      "whatsapp": "+595 961 281515"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.807Z",
@@ -12972,6 +13176,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=8318301802922384466",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -13067,11 +13272,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-villa-hayes-centro": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0981 806623",
-      "whatsapp": "0981 806623"
+      "phone": "+595 981 806623",
+      "whatsapp": "+595 981 806623"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.875Z",
@@ -13080,6 +13286,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=15976796301871551396",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -13120,11 +13327,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-vita-chic": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "0986 506223",
-      "whatsapp": "0986 506223"
+      "phone": "+595 986 506223",
+      "whatsapp": "+595 986 506223"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.857Z",
@@ -13133,6 +13341,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=10044167614015883161",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -13173,11 +13382,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-vita-cosmeticos": {
     "businessType": "peluqueria",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@peluqueriacentro.com.py",
       "instagram": "@peluqueria.centro.py",
-      "phone": "(021) 590 730",
-      "whatsapp": "(021) 590 730"
+      "phone": "+595 21 590 730",
+      "whatsapp": "+595 21 590 730"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.799Z",
@@ -13186,6 +13396,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=4291096972182026003",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -13279,11 +13490,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-yessnails-spa-manos": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0981 618000",
-      "whatsapp": "0981 618000"
+      "phone": "+595 981 618000",
+      "whatsapp": "+595 981 618000"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.837Z",
@@ -13296,6 +13508,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9674252360637100143",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -13338,11 +13551,12 @@ export const SITES: Record<string, JsonRecord> = {
   },
   "preview-yessnails-spa-manos-0c838b8e": {
     "businessType": "spa",
+    "business_status": "OPERATIONAL",
     "contact": {
       "email": "contacto@demospa.com.py",
       "instagram": "@demo.spa.py",
-      "phone": "0981 618000",
-      "whatsapp": "0981 618000"
+      "phone": "+595 981 618000",
+      "whatsapp": "+595 981 618000"
     },
     "country": "Paraguay",
     "createdAt": "2026-04-25T04:08:08.838Z",
@@ -13355,6 +13569,7 @@ export const SITES: Record<string, JsonRecord> = {
       "testimonials": true,
       "whatsappFloat": true
     },
+    "google_maps_url": "https://maps.google.com/?cid=9674252360637100143",
     "integrations": {
       "analytics": {
         "ga4": {
@@ -62765,10 +62980,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Areguá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0971 150599",
+        "phone": "+595 971 150599",
         "subtitle": "Estamos en el centro de Areguá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 971 150599"
       },
       "faq": {
         "items": [
@@ -62799,39 +63014,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEES7KekAUjMxML4RaEgz_jW0I-re0o8yH4pvQGm6UOL8wng-20jT2BPkPB_zU7COlhuntoJjFd5WTZgfCfo7Y22iJmE59FQsfieiVQPsEp-MdneMWlIXZOew01uJrYKJINSuMc3DFT-fPv-gpuRaLTvSZ09bvr_LQXBmcF_dppwPCuoh7ysysJ6z-58r4D9mIJPutnd0DIFNTKWGiNGVaD9Ku53Ij3mwYfDLkax1gscBlV36rg4A1RYrSspJs927FKb32cMvR0IIuEDUSTzf7bpFcvrerFn6zvXpXWYPdkvaw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG5aO0vdilyEy1FwpB-K1YllLZ_xZhIsQ1NiNc5Y4PHQhqecRe2yS7xDIkp106m5MeX15kbENtjJ7EoN2IumQ0PWa_JEuchJVMHE1EJJpSnqIfTY5t1SUX6WvQWXp8MHvyYL8vQNAwCBvEQEIX-ciQcqEOe__nprsS8bpPX9Uwx8e8YV7jnPiiaMStc_uOYRbwDbxIR8Y6UZ6BKggJFSjDeLrBbEMbXAvleI1RcEnPg1CjeNMdnK8Gkvsbx_fJKps4R5wqZBvFaRPIR8VWkWo3j1mnE5YStAwMWuaRl9Ek3Hg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGWgxwWSWvA1e737a2GNiCFxOxWZ-5KNomP4t7m2RMjqt9ReWZDxvIziHKvFXfEtcpvZUakivqF3AYkCA-zChoAECXjol5Ogcle-P5RI0NRMCT7s2i6zODK9R6b1hK6B8WubdZZuctIc1fKl9lnWCCQAqtT3NcLZgs2ebH7It7dq5ryNaMnwbwNQML0HfyIcZutkz-XHclOVMGRbGKo57WFDtY00sppgt6oUFAr0udSt3imY7Afz864RY3eCzafYmrgZDWF5dKhPppiiZxVKThneBntTb0NQhuwq5DwAMY-Ug&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHZ9KgiOE0Eb9-nQx1gcAYNFt5ch6PusWxazOfKuEyLQt2JBVXHFlQMKZdrp13V5kUqS2LEQhDIB2kA5N7ETqMV-7Ab0XIwyYnaSANJ10ouxpzZRRPsqJKyH2YnscBrvqp3CRM3maMx6MfdqHt1tM2odUgy6kzfm2BKv03jweO93XZ9eu6t7Rt6RMaVW9uV_rpYyC__pei0HVI8C5Nfprsir7zFKg63TJGpxYMicVACnknbCOeMNhF7UYtNfVFzUO4qdyAACWwyK0lHb70ZgcRrqWcw4VgiquWkXcjDWqkkow&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG4S4sn-0R03alX9jnAYaoTOJC-7p4A5IsAuN5XrFqFUiXHaOVA57FFD8C24kgb7LkuUBX0yqnb4HKpdvuQR8K9sT4tC2H4GEqDd24GhVcOA2H5H1m7LOGCsISmdlICWC6xmWzq09h-w9QhNisNleY-H9k2UgMkCOPWrVOIp7CJGNa7q-cyNgz_0qTJk0_63SIQjdr_h1A3uZ8Z-ouHddRsI68dYM5kOcye2MyY-7rtMZNmbWB-4DGSOTzz9UuttHezrjV9SKbVo6t68u2ARJHUQPzbXeqFKfj_yOoClB72vA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFQZUTEY4Nv4diYnFk2XPITa1VPr8bxbtqy32KcqLiJ6h70GqOasFcsE5fHjjC1omGlcQdXYDhPb9InkEUFXI2a6iLt0b0GltqoSAcVwX7BjIG5zxEhYT-Yf3X-lFeVe8Xw_aojMj1ilLmwVHJRdbDC2JFBPUIgSRyUuTULY5t8DsroMF10kDMBuS4vI1E_t8nEg7LhJsqUfqecmxbhk0sthDb-4nUnMMvVof4z8ryrlF7MfG4GO350afanDxDJtonFi_LsxKJiVHPKaiZiVX6RKfArdtmhyV4RGL1qlhJHYg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -64815,10 +65029,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0985 500023",
+        "phone": "+595 985 500023",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 985 500023"
       },
       "faq": {
         "items": [
@@ -64836,6 +65050,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGCWwLcpm980STY4InFN3QHiCXjd6-bxjojYhPUrDnEMF2dqdihzguPsqt0u8zRoVk2klP0t-iSpoIK017cbG8XcnW6yjNsZzRR5G4DadeDNYcyS9kVQomM64ogRXMK-vPpuxy6iXWWuYK_2EqsL-sruKeB6k9qXYJa0wc431ZBCpt_9FXDmixj-5LZpy_z3Ivd86ucekF83MsRB9Vi3XE6NZYV1rnJUdOfr7SlOL3zj4FHLloQzEamyKqk1Yo3pk-Z4Ip7J7UR5pkbiATjGJ6aZY9sz7wDHOTwsrypB8DNY3hU6pDmpOcO-VBm1Wri0qskZrORiAg_4CNKBeJP_R5DUS3ImQ8AQnEL-PbjQ0qan8i-MnC3ab4WFfH4Ts_WaXuaDnI1dYHU5wsiPFQXORIQqvSftZcjDodC8168Kn81JTY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFnM5XzoL6mvw6r-YDqeqmy81O5Lfeptee96XF0hwSs7MGwcaff56xh3CBj1wCKRV0n8nWGp7uyA7YY06uGnpRCE7NKMg-CzJxdn-nfPb7b9ug6Cz6yr1I3YtMGAytOzFZIwa_jiAlZ654ZOD31V5D590i9T18VfgbJ_Xv8hBtae3QzV9i2V30bqTaXtoxe3GbNXYhomDjWg2ETD82OkaEwuALyU9VMfk0Dn26yFcOquojQg_TgyRGT1zWMrCziSPmCOjL5TtosUMsmcU_-F7Za3YZyh8_UN2ywl-0LDovuiRWQXPCjpNqA99SGfpJQ4ScY2lA_pz6BCN83ZvTZNhbLM1cDmHXDcJ2e_qddMaNaPcC1X_-0FM7OzM2D3Hld8jGg_s7X3vACCeftYdNQ93TqnjWxPLGOwmUVSebN8MCEwQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE85SRNRpOKGUGKrcC79XxqZ8_SWYV32xy_jUak4kAZU2ydvoBTMgD5ByvAvtbqntheXkfREp4GvPu28KEyawKmHQ_gwBLWkZItyw8YYXnbwtFL1da9F21asZD3UNpBG8tDDf50G-PDTPDXRBe022waPlGXe2YNOW1OB60jJODMLfV8jx-l3Pv8a_wv1vPHBZdetkOQJcJ6XY4Qbz1GT3s0K2nJ3pWIFMwUX5f6Cm7KZI1TsKNEaWyXZyNIs78wKHqA8mRYjUKgOVfCHT7HpoRl73MLiX4Uv-JUWzX5fH5wIV1XkAzb10Wzu4vuDrmq1OG9BmnrQOLvDRZRfNmtid9TiTLL2jCSDYy-tN60WhHMviD_C8kF2PPyrYjnWU69dUm5mlL8039URlt39Cuo0ZZuEEpP_1I-4EhPHOOIeRfX_1Y9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHlxQugnsRArpOYRHLgpiepR22d38RJyE_c47_dyKF9rvurOcEgmruQg63Ax0_ktQOr3ROQe2cb5pc0jLC3GaKdzcPw-S8aM4KTIx1ZfKamjiuO-uZUa5L2Qu0sOznrpjCoCTs4beLnGiAlO8ItceEuRJyeG8brOgKMzR5LX8278PpKUaXJCMUmt7D7OYbSXB_m980FVxYBjwKz1Px5WZ4B1eXvitw5PtLygtn4bQG7EqPFXc-YCy9MKqnlzVYe0oTaMZUxOMHRo_rihHUo-aClLDv1_EthxCSKQpP7VB7IiZFr15plv0Jehrmuy_ESHYYePv4SIdcFvCK7kFGtRDbvotlaXKAz9nJGuPmbVdyIXooqWD5gzDg3tqRK6FKS0HSQZLo8TleceaGQzOSixUkZ3L-9Av7LoXhwVCixXvb1RQ94&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGCbEfIjx1F_p61B6q1XCK3NGd4zHqBp8wTz0x6HvIXaQ1LODH81QZK06mbAwDWMZu20ZKcgWFh2r5C1RZXowG93RSroYa9Iv2P_k73heyuqAJ8C1hMUuq3BwRcc3YPwZpxiRwpOKrUv_9XTCnh5aol65E7q_nuktjdbjNVth3doQl7GxN6iD33Cz73mMABJ3lvqe7bi-EyB8PH1mM0BmxWLAxSLgRzHYMwVdrDpqF_myRd3VVJN4fhiuhJ89kP3wM4R3ZjrB3JmkBJA9Hm4cb08ssnYYILkVqCyNRNNsTCKXXkMxoSUaMm2trc-_zrQRTWKIdDBpYmyhEAXT3wHC13eTvrJr2FgLRdlJikU0cGEQ67xpNU1WMKfWv1HGSSzHHvTu9dWCl5naKAj9AOXU1HelWPcEXBQVI6Ps-wTAVKTNuJ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8FZx_HURYr0CKqtGOVGRz2iBb9lq1s59Km1ZRAyTyoAUZLx0ZuhHnAuAXjM5-ZR2HGuV4WeyIK8wgHC8kF7K1C1nCHgO6WW7CHD1rAkrniHJKJuKEtBAUb6aLxshahVM74gElYAm-eyFpb4Y-2FPp5nDRwSOlfrQpgi-b9QYsQc7gW6nJeXJB6GkXejXeksluEwdCh6qLbSCVJK1GS85ZTSGu0y_qpyg1OY3Xuxt9NTMJsp737Fc5wlw3B-lzEdv8cCB3U7NJpKZWqW7Wjy3zHwUPUIc8tBCn4g5IHQUosRbOQMSxbiSip8h29HD6EuTO-KaughC72tIBx0Vn69R7XqET2O2q93K02wO6HzGhSWWCx1sAE-r49KfQmtJ7To8Gv2Vlo-5H2BA86ptFcsHOQmZnvKr0dVJwYRvRlzs7ug&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -66882,10 +67133,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Lambaré",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "0971 888665",
+        "phone": "+595 971 888665",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
-        "whatsapp": "+595985123456"
+        "whatsapp": "+595 971 888665"
       },
       "faq": {
         "items": [
@@ -66920,39 +67171,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Degradado medio",
-            "caption": "Mid fade",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEskavYxU9axOVOkbVFuooM7TYz1oL4lEZKwoAcMFkegMecAnbplS6M45oZ9IjYKRmdI-ZWev2Ed9Z5Wh3yuWQGlzHRv4NdrFkrVjYHUrDpcyHNEtkdOpik3sLJ_MvHkcGiO579ph3u2HGhlrJZtBO-bWh6-QuTMnW3GYPdVd1Io2ryNFnJZj1D5-e1lQis96IpH0fdskUuLmah8qdIArFXN9UAyQqr9z7zq1MfgYnMKf7yt9ZBOI2KAHhfJJFHFqtbko3CkuMy9FtBK1ZBAElfTIG2lXvK5eYilkWW0PvwxeaUyPUWhnF8h2JQke7yacv30oC38Uv4ROdsAgydA0RKHq4Ta7uLsQmTQhNnFgIugB-H791trONTibVmCougNgsUXtoPTi72AIdRYy7_IZ6wfUCwqzBLNB_S_igEEb1wfdTK&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Degradado alto",
-            "caption": "High fade premium",
-            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHD3QvmA-vZGcLZaGNwBIi9CU9ykQ-Ek1GfUupIOiQN6XCW6OQBLxMNzlDC3MMZZ6UwYda0vSdc__l7sSBFbPU2sj3Ymk-sQo0itQwkFu6Qmw5Td05T8eS1rF8XV-vrXF3gZelRVShY56ZbStFaLKX90HCqO8eXRKZ440levL3ksDjpFaoSumPA_CtmMZE6dZ4Koy6Ql_RViPl3BYXUUIIk8ISU3gzuPSXJ7hbqQzTgWDoRhj330PuQR7T-v4MAZ17ZK7Ptl3hMNFeHVPnRO4atvzjr9g8B_monQaz2s8_MoHZC_TcWd94bauU3z8mK47AZ4YOOscm0CoJQ3WjBGF1mBCdfstlZeIAJbrF54Nm-2mfg-PIZYejgq82ckbJkkNwspPhj04YTVqDP4n0p4E7cIBNtS_Ec_DIIHlNJkQwqRQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Barba perfilada",
-            "caption": "Perfilado de barba",
-            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFqYHC2ShXdrGQ3W_YtWpnbXQwWzdz-Ee4R_6HIL7EVgnyFbEf2tug02NQis6a_3UJGzXFISsONvMTmSW0KFcUC3FcRY3Towoaz_FoFsVXFc5pb4Ou3Y0njjVBI6Z4zIKkY6n028mrEgSHqmQEQuBOrX_Yngfu1RJgSn_SQFhykd5OyEu5TYDGYjqBSutp5uH0x0hbRLf3JtFFaSuLIwMP2nvTQNRpkHiBJI8cGgIo_A03Ga2lX8HwK5ymSYIvatHRNq7vvI3pthI8_xoJ0yEMYLk9i-j0tlLOplOcSUDFXS8Uvi57uCnYZmtOk9ziJnmrBd-vaD3cG0uqMX7pBf9_68C_zwPUctVL7KWlmEfZRUCf8qJZzTNDQl8aN89YtZWoe1hj9ObfCKEY4HpROjV7DzGsWv9GwvVRwN4KVXuw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte clásico",
-            "caption": "Corte ejecutivo",
-            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG4vYeC00dMpA9ZezTJDjd9QtWmIElWxwHgmdvgN490Xt2NXJyxfou0MClnTl-LNrg5U4q-pXEd3HGA1vujY4fY6dCV57g4qDNseudwNdeSYMH7PJT567KvUqvJKQ_V8is9IJ06KOIL0Z0ZdWczeQMiHDpv6QbXMK4Uvpj4DcQhq3zHNDcU0z_GUcn7vp920uZyJkV5Y35jC1ZCW4g9ZULghaJtrp0YQziaLzH3Ve9SRsfFQ1UZceLaYkO7vkKgUeJgB8SK6VT2nwN0k51KCFS0U3MLpbuvAlc6v9DjHH7RTeGrIRvKmzTOJCr55-1dbQUOlZBj2_7lA_jLe4vH633fiFFKxLgjxXxJXqE2IET55h3AZMa7qEe7p02pqaVOgh76TwnlkGUHfUJs4MztO21Ocj-LJMtyaie4QXhrUGSWJA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Afeitado tradicional",
-            "caption": "Afeitado con navaja",
-            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHlWHpd9YioAJTjZqwvEylAGkC7mVyas_voCevH8wYlsyjNGgDHx5fY6LHf8zX42_RDq_oARmYitJWjePFuQjwxh9osPo4MdNf602zn7mLEg-cckT6vJMmylZMYCsqg5sz_P5-KNnxIpEqXkIVCjqXRiaGKawtYNd4hgXWLwJ7LPQrjlRBI7hAhHkLCkKm4QPcDHl7Mb34CEGkIMP85ruK2uL8bDh7oNr-Zsk0MRrCtSnIPmBgQkh0Xxg-Iy1q1QmaOy1mmW5IzKLlyKBWA0YCOWNplRRZ2utJ0gZuZBdPpW94kyTuPyCydql2GzhO7Qq5ULQ1QSWR8w92tHKvSjjFcMAAGmPHkmqO_nGIMGD3lC3pdlEAX5zkKvMuWaQvAnPDfnjRZfErbIYekUaMQNkpN3HfkJbG7A_5ENLCj78PsaA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Interior barbería",
-            "caption": "Nuestro espacio",
-            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFPGGLuxh3M4Tyk7nSUnJTi9F7nyJ_JWj67CLyyuO1vWKIFB5rVjtKuG_bii3_a-AkaLJFq0DWYqw2D0Ivn-LE7650HlQspS8pRzR92842iWivRshHP6PMAbs8x1Z2o572-MbnoN8dUho-jhUgRTQJKQgrSgKEYEJ32KoV14UbyMMEUq0WpX38MtlRA8xAlX9PYgpYI7iuqBLOmh8adagTubddA52pa4RVnQo94-Q4u-sfCsvtFM-7xdJwbnWSTcMpBMEFamvYmtM-XFXfF9jMtmg6UaRLHBU6EjhiZBVE1jZE94JDmlDItDerZ0IEPvVdt0QfFWsZj5GmUjDRXE-LnTkQvuLN5qDF8DXsVKEI_NvbWTrEZ4JH83PwvFAgpzPjDL5ee6uZIHEhww7JmStM6foIjtoDeRLaHlCymhKu21_Dc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Galería de estilos, degradados y transformaciones",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryHref": "#reservar",
@@ -67674,10 +67924,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Puerto Iguazú",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "03757 46-5921",
+        "phone": "+54 3757 46-5921",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
-        "whatsapp": "+595985123456"
+        "whatsapp": "+54 3757 46-5921"
       },
       "faq": {
         "items": [
@@ -67712,39 +67962,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Degradado medio",
-            "caption": "Mid fade",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGALZaRHALau7KQdREOiSD5zkYgibQlHFLYyukRVA4EC53UxT_x6EDBmMjwz_bqpxvmonhg5qVowq5qU-u1_Q6-cae16hBJPtII63Ah5ky9fAFBSgS4uUhQVkEW30ymVJYAGEteBunBTaHnHgkbMS_6MhUwbfHgZoeqnSCwMc0TL072I-_GleWK8dEoietwxZAHANp40eJTnCIjTkSusrrkQkPJWKhrWS-KbNKj2qWalcNGlTaI2s9-AZfLovoy05Gvt04517DHmgDqRM8WS1_Hit0FtwLMTvhKetafTszO_085EbBtbzfAGjxvAJi6O1wu7wl9t3dT5hhnuav6_Tp9BfzA0jFf8aoH_SnqgO0sHkuYLWfD3mL6uas7K2SuBfbwEK5cZg1rGtQYhV4_lIsIPeBD11V6trQNWacOteXKLaOx&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Degradado alto",
-            "caption": "High fade premium",
-            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH5TIDA4kbS2DF1BRtWE6VxYr3Uov57RqirRsQtO2JKsgpuZLhGc-YjcSV_tbBwT9aGinDSRPLk5Oa-DA6Fj7WmcpsYozstI3AuUfVJjkEbXMXxfgn7S-qkfajplCLFlAmbpH6r--PYUsat4gmeiPTQH4O2w7BKbNfKrpq6vf10vDDdJPgdawY7W9TNeJkCoNmVzFggcQOkrSXZaaaANKnGUxjKxDJVMP0ZXvKFBdyKlbeQ5wodA9nZ2OvFsvrSdTkfABVNHO6x3jIssbDaMghty-OmYUmU5elT3DpfKWrPlJgvhu4KrwZUsyqLjWvM3qbEwheI4nF07RsWg-ciwLawY8GdQSl1m_r8iCry7Ad-PX7Otr_j2CkwUm9W5N93QLUEDid-IGCtNILgns8UtvSz2sXBZpa-F0fvYE9i3DVXNA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Barba perfilada",
-            "caption": "Perfilado de barba",
-            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGedGSQ865zfq-UOpE6QQ7xssoK2A1QnSrOThlalcjKEmICi3PS3c3ttQXcR89iAHzaEPwdbk6FaxKO64-AOe_lJmpueEYCvdRCCJhqJYUblKWCS_ghiUfcCd8Wb7rTOdAuOFHttc--UYfS5UavZxHZ4O-b1Uo022aT2mtzd0SojfBwlEU-M1TYwPAFTPohV_x6e8HxOS4kvP776nwSElg_n_jSPWchaOy9mWXqNRhGCzCvXsVLLFiX6Wxu8BmSgezq9I1-Y0zCko-7F3XY-A8ZGVvTsI90j64QNSfOGAPwN19Ux4F6pmlaHASNJh2LaD7Z2GqHlq6kIu2qvc6cI5pXFr22Go--y8-oy19R4WFYoUmhFRD2N-YcNgTL70fXCIxmcMuRGXIkQT0UzyimadXYYoGII6OcTeLDc4dc5JkIBuxS&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte clásico",
-            "caption": "Corte ejecutivo",
-            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFRa9gzCJ2Rww9JQAONAiU6AsJ4u6VsqXdni-Q4PsM8XwPH4gfp5QqZp6GWeAxbR7TeVwhBIKzGipPdloEg8dLyXLWePcuO-HXDXhK5tn9k4rKq_EPKR2gYwM9vaHMEhHi9oI35VNwzW3oo2sGlV1BNrHGs-1rgq0F2v8oWgGdja6sE62MTkiMzsHuO923khhx3rttXjQVUe0bdWjNy3lmjwdKBfG2AgJhK0XjaomXtAm3tiXI0PghRMldmgCkHp8kiQ95Y__4zu1G94ppZEE6Nh6KLq7CDM726kNChO_NF0yYWSYjn-WB-Fe7lC-PzjLRQjGgw3UbF-LdKKq08Hj4BsUblApQahapCEZWOx7T_E42jGJ7bR8LvGOuFYbcrP8UZETZEBpzy6_NindLNITMYC6zFsF1IHonw72sOmbQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Afeitado tradicional",
-            "caption": "Afeitado con navaja",
-            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHLtBBwD52SxIJ5QNWJQGKEcErD554K8xCGUtD2l2U0slmcoOtyE4H5EAVhiZKAjU7u4UxTw293I8UYijEYEA8Z1vjgqVGVx8bmCyOhTOZew0gcZXHsdRifdWmsAN2aC0YNIq5Tv5xwV-vg2HsLtnsDIx80ggozniPra1EFSrTYmWqikMbs8UOhSCjrZzH7sstAiKBfetZ2vGeZynuKHdmtLEtUC-VbAZ6MoDDjQihl-4f7oDBfTRKRgRvwzyMDNQ0SnYuOHn3uwSlJvW9KgRwaj58R1No00fI6nDUEDs_geNoG5mXzcPrJWvDiIpZTnQunmb76ZVBRZKQXXStTaWz__-6eFqy3y015UGhK2mrLPcw4-D77BYhUjRXSO93XVnCcKJRq-7c8eavoxR_eSAABbGgZlvI0E3JNQcjtrKu3KQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Interior barbería",
-            "caption": "Nuestro espacio",
-            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGBwxyojQzSqq7y_4pVwmsBSqM3hWocBpRPh0ljM7FFnAiLRoU_5ePKLW8VdLwLZ99pPMwMxCgSWxQ3Qri2vTQKgAjwQ17WcHND-RxYcdQtR8nJb0V8nhXH8NqcU-I7LaLXSl8phhN2Uti1Ow2pQEWceG9y0j1hJtvfWM5yu9IN9T8gGeJsIXVTW9z6UDFz4YX0ZXhR8b6QBP5Z0ZdvhkzrqB9xNAgZUklDmuH8GXN2Cai7LZ_4c4uCN7pbHAlY9yyZkC08id0TjpIMeJZ40M_HDZvkfWepf_6I97wXGOddiMyoUJtvVz0NIEGXttQOXkgKdW-mL1ZSScS41kWL-2JC8Y428cTLAkpmmW_O9KCqh-7yaP7hiTKwaiQyQHPf29lL-pfwdXH5d8ji1iu0TyW8oLE3cUehGvm7HPtOySPq_A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Galería de estilos, degradados y transformaciones",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryHref": "#reservar",
@@ -68029,10 +68278,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Puerto Iguazú",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "03757 46-5921",
+        "phone": "+54 3757 46-5921",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
-        "whatsapp": "+595985123456"
+        "whatsapp": "+54 3757 46-5921"
       },
       "faq": {
         "items": [
@@ -68067,39 +68316,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Degradado medio",
-            "caption": "Mid fade",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHE9hVNUyyUnp29PO2uMG6bKv3QaVHWcDT2WA3QAZKkHpkjUze0pPFOyanCHmzeOsjLDDsXu6sa1J_QTMyHT1_3nD0p8UoPdDWaH-WJR2SMKB8j5r33hCj9pq7u7flFOxj1ig9-4BwkJL-38-CQ4f3bvl4hR6ckXJI5yUO8GHuxgB1ZXhsI8bXxElfoPkRCtuccQTqKl6ovDsHvE3ArBzgjJSg3R1jDGG30y3ScGHQGgQTfLQvi6b9KICpmoz-fpQ1HOohLFXo03PsE2PXyA2hWwECt4rlgJoP4RhWy2eV730IX3-uYK9Wf1Cb0vfuggu0a-yPYG36O7x47OsgQu5q84168h74YT7-OwoXlRjCg2ujXfsx7j0j7WJmV4vGa4-s-W32d3I6vmCmqoO1P0nVisCPhUVscF5DU-4L5p_O2H_8_&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Degradado alto",
-            "caption": "High fade premium",
-            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGPousU-u0uuByuqEKAcHBooXTzNtOA85R_QNJsQpHFzrTYYweJ4bFJa2cebgvorP-Ghg7B3zpXzBt2SjBQK_Pl8opvvVKHdqC2YaqOnUfvuvik2FfpSQjfa8kY31yOwTk8N_gTQuqMqDdQ761z66-Clw13K_jakEE7RB8x23UcwwcL8M8HtBGNPtrMfLeSxPX_VPSRJF5f9M_neYc5JIymhxkD9IghvzC9pnHZQs904tFmfPQFciifID67up0B4N7zN8URcjme0ibNmMxmuwq_nGaZhpQV0mD9DmslwGQIHQ1Mm3vhbtRve03JkSZ8SUPPdx7ibnhMneoL2dLdm4QHA0pfO9NAlOfzTtWnE5UYvxaVizgYMV0unBtJOQRVmUw8q4yBiy4k6qNA6WME1HlOOtorCnLyFZ5h2fl60fMMfg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Barba perfilada",
-            "caption": "Perfilado de barba",
-            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG1yove2N3AZPCewmI9cTGc4YHDnA_TegfjSyBwjdy9z1146z0YWyn4XhwOWFZbWhOii4zhhDACjoTLwEs0H4DKAbeGDIojUhr7NIIb_8LeFnfAUrq8BWYceU59ODqrhLfSuugTUzRleSBzBl9IJ2HiaivOZoskUte8JOynnkvQ-HO3Dc04nfTxQk-97RCx1jAiTQcl861g_1VN52Y0FBYwmOa3QkkS3KpKsXgwpblqfE_ldT72c7JMTr6fsE8OcZ5fysC1yGYUTkvSCM1g97hujTw-lWbXR4srATMucOQp9NMD1eJPD9Ne2W9Z27MWEYoDwGiN-rWfrtpAsJBCbO09EKJAuh84r775EC0LL1k0igp7roQG3W7AGKIOzhtlPGeWJstVSYLawCre3NLHj0Glxw8dSL2Vrkje0OG4eCNgjtp3&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte clásico",
-            "caption": "Corte ejecutivo",
-            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHKt2GrCdxdFb8H16fQ96K-2Jx65-Qucx7U4urwkbQfzkcBvnFVnYTdAPNLw_G54Q3azkzhHtF7GtIT3EZWSgrccU0B7XTLhBNM72Vpxh4m6xFb9FyZHBz88KZOmPZI0qjdt7m5W2TcMtstXlJWIyPeq6WbCSyLXS3tg1A9suvLsYzGn_KPXv-p4px4w3J0J93iYnCuXp6WHbxer2fnuy2vGZ6HTkEg1eGwhJBdsSGMuS-sQFblN9HNjjSYltKQcoWWR-IwCyCiGHI5sUw_Jv2ruhgXA1yRw9RXK3BK2ZilGxxG4jrercvHUmKere310oZTlhfjkHi2gXg8O08TgRLc3SzyHM03IOAbTxKugNLL_80rsZw7kCvuCaWeYcJLCIi-1uyrgTyx4_9pIilbaxOtazz19XcUXIyk_jVK05E&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Afeitado tradicional",
-            "caption": "Afeitado con navaja",
-            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEPF3EJLsIv3II_ceSCgb74UWr8pqn_TG5EshRb45wMw77LlZaHNcg0MhvK1wE363Yn5y6qKjJMqWx3OMGfPduIQu4kYOiLAzXTeMESx62UTKWyT4VrpKYNKUHlLPzqR9vsZypsxclDQdVqYTFVyeelTutRUXlZmHO4sK-VxqUBDwlGd5H-4vf11nCHyq27pp_IVHIGq9AsL7j1SE0alWoOMLoigVwQC8OF1CL1zif31-3YEZwQ52w4CXhwcfVcd7vmqcNimWsN4bdK09zA1zGXboVIOCwOr0QUbZuZo_mdJQW4jqsh1Rtq67cplzhDR4jUK2LOdYgyEnnlkRbqEbzyY-ensrbtap74LkhFTlbAXq-wRYsyXuxXd-IKJfPJpt2IAknSVtfwgkOfoS8_3JiCKA6SWSTtwzpVy-5XjjbG8g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Interior barbería",
-            "caption": "Nuestro espacio",
-            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH_iBzozyhfrud9aUsu2dEu3SLn_mHqohuh_tgRyXNxbE-tCvAnUFj_6UrtPbK7DNpG2R08m6XE1pTfM2BvGCnVY4tE4yu0M0bbHAytl2nHqKYLPeR5wTMhyWMdyRP8IiXU-LVCV8K6Tu6AHED0sFI_nrnEUm40mcYqHv0N_rEhvF2dsI08fTo6IvU5ZJAnV-AvGWrBJMjPEVeGjNTM3Gl8UgP__f3fJtMvfpY74FOXH9_Ctg2lu-7mwKKD7aJF27kV7oor7evzCyya_vgK66XIuhYkQbY-JDXu9fjPsj3kMz4aynzLvXU47l996XHDq-cAkW-UiYps0xNO4RsLs-LA7TBN_VnQ1ggUzKb-DNRb5ZGs5xg0jYj2wam6sCUnzhsc1MUhGF36lXPWeVEEeU_r4Pm6PnVaZ6moJQUSzCD0Jg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Galería de estilos, degradados y transformaciones",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryHref": "#reservar",
@@ -69696,10 +69944,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "San Lorenzo",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "0972 413121",
+        "phone": "+595 972 413121",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
-        "whatsapp": "+595985123456"
+        "whatsapp": "+595 972 413121"
       },
       "faq": {
         "items": [
@@ -69734,39 +69982,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Degradado medio",
-            "caption": "Mid fade",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE5cthZHcV5gIehstEdrzxUaEjy1meB74rLyww1n7mDxiNn-4gB6czzh7U7bjhXavb4ERmPWBxBR_zfZJ5HbpZ3WW5y_ifIIwFErKq0xVked7uH4_F9KDegK617AheYTo1vW_QCcaIIcz16tyL5C2SuFImmvCcuZGq4BQOc2htmYSjex0vYehZxUSk_y8tnvq4EG-qsa_XEA8hL6cV8Gsmx_WIFNQ2XJe3xfuB1WllTwLKbxaN6pikGP3FFmjRrsxccjSgLAWmVCSbuW6HdoXhosq7JgawuvAObb4Faa_UJKw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Degradado alto",
-            "caption": "High fade premium",
-            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG0lH1bNtQ8f-XkVyS6uElM4mKX-yujm1KtLlg1PJgrB3U4OKPDqeiIG8h7Nw9aupOVBO3Zj-uLeGzr6y2oAtH2DZqiGj3EridWtOuuQVhQEMiNKlkLTKBUEvZM8nqRaPTqpPvom4sYD9G7BucZ4zdzGkDfY8sZKxPGpjpdHwAe_LWL-Xa_3oHHfNWKBR0ZHdgdnu3swayPPUUxrHalteSxdkg0BStt_92FDyCGi5p9n1n8gDSTil6QFpnO6UEmv3VMEtBCJayIyri6zV_Rew56sIG947EZ3hdWLoJGDHn7KQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Barba perfilada",
-            "caption": "Perfilado de barba",
-            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF9BzrgkTpXBNbfY2qYlUs2ujKE1J90JfXhn_dcqdLgKcH--GSVZRDiGxbzOpW3QA1SnzjF9S4_WkI-5pfxI5lsCsq7x7_msPeB-WO6jwNMM_g9bIW6aOA1kxYkZdt1ca2SnWsr57AZKg_pjRVbXDcv0qILwIaquCAuUQZMikRvk5CpNTlka6fJzVXksKi3cgOFffOS17GHBiDT2fTMrYyvp4bn42iYG6_kD4tgL-uGSvJIQiZDlV6yWTc_5wI9Yj-7oEH01RmgyXg0B3j4G_7lNQ-mm-yrJm_3vPJk5WhHbQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte clásico",
-            "caption": "Corte ejecutivo",
-            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGLZJCf_DMyFrW485dRvTrIHDxe6PxlpSs7HTn9BcQ5WqWcRltSsaNH8K_KLZuJYq-hY4cThArR0oATG4yf-Z1LNgst9goa37U8KfFkqpW2aawEfv2Y79qj5e1WZCRVY1Nw5RfPr7jvSndYZVrP8Eyk23PUeawvQN3GeJM-ZcptGY4BoSbBPzYB0hf3QGzR3CZUf3fDieJioK5CnUjMFj7w7x0kICl8_Ik_8AYC-04ezllMaQOI6IqleqW1fh7eSPkxH7xZp_hm3_uA104x1m3WPBOSMTnFNqc2HR1ty8H0eg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Afeitado tradicional",
-            "caption": "Afeitado con navaja",
-            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHc_fFC_APGl62EqZicTyBzHYk1zWQSE1nZIWVaI3Qxn43ut714XXmxqGYBKxbgRUN_B-Vk5bayBP6KtAoakg8NZ2cDjfKataZDlQ5INeeN_vtf4DoSd8Zua8Gh7j02Kz15YwOUozvzL2xHb1xIObqoAZh-_OSBwVPGSK9ITXnl4DMy3oBzsjyt9PwgtWb-mM2uQYRC-Hgzv7ImgAesNGtPTvVm-Glme6nihaoPGfdSuHzgLXkvyVvyn3IDO7jhSj7QajQj5OFolXPssW9ZkOOhN8B_aZr9fhacgt5ReolnQA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Interior barbería",
-            "caption": "Nuestro espacio",
-            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHna0uDBnHzkd4lEosAxxNPNdISfckGlTpnPfDB233v2xPxA_8bLQ7kJQGRtjDAy9m-KYNm8IpzKnXEFLwilawyJRlMKmSs2gdmwAPubV8iSEksPpp9rMLWYNg7vxk6e1ArAOLy6cohe6XKz8SGaU8XaOnmFn4LslucRieIuZ-vh72x3s56dpQwTIhAKNX3R4HVVPbAa6FJEFG2xmfxjHV4gU0qNqmKWoUZH-NwBUNG1eXf6hhzJmsFIjN1U_y4Y-xkhsCQNy3VIQAVZ5c9C4pb8ot0cqYNKSTJL7NRIh42nw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Galería de estilos, degradados y transformaciones",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryHref": "#reservar",
@@ -70564,10 +70811,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Providencia",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "9 4598 8898",
+        "phone": "+56 9 4598 8898",
         "subtitle": "Estamos en el centro de Providencia",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+56 9 4598 8898"
       },
       "faq": {
         "items": [
@@ -70598,39 +70845,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEgee9HmzlMyL2i9RyXzbaC9XBvoess9nchKC-dCqCCu2zXG4zDmF4NEnPoGt0ynmNtezsWQ1R6PbpetzlOVF7yAQX0zcyYauL4ANp_lfocP2ED3lsr0M8IMmNlBUXmekpxyr-vityke8ZbQaBnChePFLBAm29Ds82GydCfVdNqoktlV9ZcTQBTg4xbdqjnGdcfVvyZZ3d0u7FNxT2JPddtCk4LxP_6Nwyfb4hYNcUGJCinqLuitj9dt9bkZgc14bvXd7PGcYUAVwVxI3YwKIBkAljDLo0nJ_uu-LxFwpow-A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGZMmSaPdBKDPA92n2b2aQ2nGfNpbHO4jlrXBKrECqu-3ExMYQHljMzqj2FsTHoOw80NoiLDKdrDGqCBI87M9rqKY_dF_jPsWmUZetW8kHL48sNCstOj_1o3kGiAXWp98VavG6X7CWft3FuxHN3qSTwX6RJpmLLfURU5r7g1Xc_I71RSNoMVnHkHjIcqFXFltr4wuhOyLAUw2p8qyPPbfWFJnvDNLjr-ZQxusNH5d3WhTe92U7QyNX5Surj_xOuaMzbBWhZ1zrCgnwS83rSTnhZXiII_Adw_9HRkvTCU40AW1dyrNXTj3ieXMtdGGiBgP1r178GX4Owne1OZYABbPdSQs6ceAxlsv6Voa8qK7hCLklZfhUN3Cm-qa1sD98qb4zyRbyboInQDL0nRdMv4LZtJXdaep_BwCweMr-ullj8YRY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHhCAGap2CVU9hd9QmOVWc_yFrRFlTKIuGgcWw4mU6x75m3virj4PvkI5-io30vtxsGq0UaTWYPEDAq8zcIqNOFV4JTqjMixmZnNvfIsq3aXhAhWNNYtWt2kAP_JynIwSvuDiTs-htFMHYOtkSRiR-UlcAlCTDbmPChkgm2BM-TAuWhRy04qfs1B0fXN-ejEuygkyIhrdag8HpO5QpaheylhsnSv42zZC_n_hqbZO3ml1aSFwOPCZtR1K3xk3kPWij0DtpG7hAQZepzaNEgPcn_MapZ8ofsQVAR-0-EP7a7BA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEw07HplS5uYJpRugonpGzwszQ7tchpYPH-QiciPlN4i7k-V0Vsf7yme071d5xu-jAmI7w1U69ytvDlpnSW5KFJfZRmCxIZivM9Y6cKdWJEjhoGpnT2C65aWViSxB9Kd2hqPdWtYPrpTEye4udp2O0KImP-1OXuxoOcQPxnnT8zQN2PQGp-aybxZmtnU1aLjlIVZBGkMNwdFGnZbWRcR_UpCPiKJjARRpYZWbr4a1mMskNODouXWwrdeFBrmMSOCu6jT6D8kFJ-5SBVVhktNswufQJtjSfYP1ogUR7dVypr1uOsa3OyyBByorksi5iHln_Vi9k_G4a3h7Nl0IIgsNyyVryl1MQGpw9dcGq7nJ_UHaVns8FnUEzBAEJi7gMvm2uqC00vnjbM77jFMFE8lXal4wU54Ci_VdzKKCxLLkiZK5Er&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFNk73hRNr_MuSVb5eOgZDqWtyx_CDHyI9U-McMJZ3y4RixKKgaGRY0zxwU4FSz7eS-jTOvB-p5Q_SaYeGJx7YmPIIvZbd7TyK1bjcNWlKDGVbwNnUojbS_eBXpaDU2fK8jZ_Ed3I6mrMDXLNF_elx5evR8tOEajPxhGVo509SCjXRYI0xNkQdBvbSLXgL3NyEo-RaQQaqPWo42W2yoa5EgU0I_HiBrHHraIez16pXdcQnMvK-oKiTZi2Jl9RycSDeqJnr9NRQPoKPIWjLs9iiV2HAB28fwczxCkcfO8h659hb-Br23kS78GTGPBNGUcqdCX3fWr4pvcgf5Allc0RoCS50KnYncRbzpO81o3YnnHT8Opn4tqscUbyhTSj2eE1YhexoTWwSU8cjRZygpHu9YrJav-s7J0ZF3bVc_gyC_u2gx&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHnnrvyXrTbDgqZhcKQArxjne1USacrlJSK_vm82DEed2xB6epq3EYStPfytJcbDnyzQ4UdP8zWtp54RD_hb2jT1bLQefasa7rMrFm8Z1unx2LWjoymPwnJW_vOBIvoLp0Jv5vfqHGUMueuQtfetuQ8sZc6QKqtVWQ7mJ25_lQa8ItgfyBoJXxP91-fVKnpjdCB5wYHv1A8_d7L_-bzOqv0BXhwEWRD5c9dfgfE6133qFn_fmA8aIrSABqSACy7k-5JkW9KhAICyNZlYYg1ca21IS_9niNJsq0DUTcDmnIy4Et76ChZrEQLnnjPuAQAMbdkxoK6I3_Q8bHEUR36Q4XCmKuEJgwMozehJNaFkJZvlyozZbbdPKGnm_EhHeW8-H7hQJW0YeKnLKOBjsPpF6JaS7kyw0as9HVU3jY_-0W89w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -72118,10 +72364,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0971 161733",
+        "phone": "+595 971 161733",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 971 161733"
       },
       "faq": {
         "items": [
@@ -72152,39 +72398,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEUJPAR71YztBKKiU-z9rz6FRvZQNGO3P7DEcsdfdBCZh2YFKX-AHOO_QsZ7ReVOu0OGN80_vhqQRdi36sspyFYnQ4A3shdkejwvTKVJ4R2pj57YWVKdHzMvN9WU1DTi9JTdtfZeEh0rv-Jfm8B6vE8Mi5uwePxpwl6jzwhBz7gwLcvuohbKrAr77joD1WALnGysRMvTjDxhPvWalFSr3ILg-KLQscEZOFD9G3Olpk1qftqg8NU0Ks1F4Gs8JdLvqinD20YyK_RMxwB87LWZG_rhuqi9tBMesiGwvF4MOGR5g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHsDGONcvKfxZToQPsgHd0jJD_qWW9148CeQHPog7MWQ-K6fvhxEo3CxAkCwXvjot2xvnxPyncg4MH7EGPJCLh1fEvjdsOZwlPGtvDBMz-5OJnV3e2v3Aq7du6SVlv2Kx8AoeJ1SOIvnj2TmUflgGuAGpdj3kmKIoznWKLpNM0U6yCJtZ8KQUeln7GRwRITOWrJ09HLi8A1SVqhN18n852Wl5-yYxfNTbUipZNlGqlPnVF0TaFFwhP4rsMEI3CtY2Rk-i3UtmhnNTv_av7QtZF4HYQW__roRCftFu7r-IGnaLs1L0EucpLrDOzVjlnveErdykuG2dNjkgcjOqJc43W8z6eZ1lfBqu2UdKenHnQDXr-pYv_RsBRjfBqmkMSHDDW51DfbhHOf-PWTWB_EX0QSCicYpQAN3hxkQGs_h2o&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEETmW2-SPo5cA8cgmQ75R4uYsDYV6BvqkqSGIP8nnfL1C-Tj4-nx6VT-9QAXNLGb9paMEfJs1lXMTh75tAz9lYJfFo3kSbYZIhgZI3nmGR2LCjRcco8rXI4_8eSrjTtdRHOWj0BwN4-xDst2W8Ix0RjO0K90RytwV6hwWk0Zr0hhIPRogkehd-Ml2_YmYZygmSEzeZ4Fj40f04XCfT9qGtsxx58mGKLsFX8Zs8v9fmW_DME-7Zc7R-HwtTT67FuOgBsD7EEXDGbInWBJzk9G3l31a5s9GYgfmGGElcmfn7h_w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE9NxjPMYf6fJgzqK6QRrgwM1sAic2jS5L199Q2NNfXo6hZxTGlNK26T8CsOUkS6dvd85230_R4tchg9EJtUdFr6toKddJIl2qrmsxOOdJf37W7djPU3N2cIBgngoZuOsF4mJ4OyzGH9zjp2k26MyxVYJMRAUV6mcZeuGoyjJVuMPNiNPLrA8cDWtpKJoxvljwFM60py0BHaLYk9g28fr1Wud_BtIfHwWOArUJkv-tJrk8QXL61IsgsucDb6Nb-Gzd4iFQH-fgN4NJ0Kc10UOa7GY2oKJQCSKuSSzxtc1THMA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFE_LVVWN09Qlw4vyopF9P27jsZt_YFnrFMBi91rAt6AbLQx-3soBy2qjv3aip2ibiHzb2YcVayNPcX0xbdYR2bymkyHo2MHNSPgbitNtH9NV2yK01QpRuH-oe4xD3HZTs0QocSR661qdaBlF2p1DQz_k6_45BUp5MWAhvbVKCCtohlCansLScHotfXmbNs8fqROuDks_XsWIg5M1K7h92iDEYqfjuvqst9g-rAgHexb-OX4Zxl9kiB7EEeYYv1JYPhGrVjf9aPuGpbSRDmxjybCvM8b0HmNEnF7BYOXpBjaA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEX5LPN5OJOprFzgslTtWF14ddA8zJWErYRCD8d1Miu-Ut4oz1CCQVwf5Qsb4guChwnlqjnMiRzgbsr5UZQAr-iHo2oMA9zMAKJUZrrLAHP_K0HmgQo1PAdGK301MpQYzGpj2ceIOmydJHGjbb4Fij4xwzVoUX6Cc52UL29bkatdxrsibT6VqRR561AFYQmQ34ALvPkvnFSA9hvrA1D0o3q_00EenoQBMKXwURx-BUJBGyyQvwcZnkkqy1STZY4QFQYfAmK5obLts0Ts-aqt7rvesImLSVSKyFaQuxlKerNUQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -73498,7 +73743,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Asunción",
-        "phone": "0985 881864"
+        "phone": "+595 985 881864",
+        "whatsapp": "+595 985 881864"
       },
       "faq": {
         "items": [
@@ -73525,23 +73771,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Consultorio",
-            "caption": "Consultorio privado",
-            "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFk-jO61mI4fT5l9MVMjHtYpmq9vfdrDmYRgKaPxENRvLMt3Fk2NL3Wdar4NrNBli2sm-RPdl7VLdRaPPAMpwSLw6cShSmiu7-RkIW6LMgaJW-kYwFvtppOA9Mft99VK-m_DaIM7FW6xzpik5BoZVH6cmREAmjylIshYIv5Uy5bbfUMaUlmq-OZML-RUjBzJ2RwZZXfy-ryMUOFWOmlkSvLS7BVgqt4YfbTA3lqT-zM_9TeMYXieuqRXnihkByi3mmsX49Foz2D9hXHB4UqCs671xYY2EEoAD6l1MPlXY_DLQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Equipo láser",
-            "caption": "Tecnología láser diode",
-            "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGn_EHXxh3wBuym3hCFdZXVSpL9Apab8tt1oKfcchJqJM7PAtwvrw1LqdOYu11JJUkcJnxK8-cBTlvNcK6JAzsnSqN8MZbVVNXoms8bm8J8tTJOT2tzvzKuQERj-l9LRd0pWjfpuomfLK8tSpimXHqgI--kN9OhQrGP-ymV3EMNaYN8SfVbCAg508V1FCmzw7X_VqeblYnivjcG3pCqeoo9ykzXfvnJr0bUOHhPi3rc-HVw8PckodDcCeTbxxeR37agMa4xPL4FIxoYylbllf5IKwGU78fnSiY6T3mRSANgvg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento",
-            "caption": "Sesión de depilación",
-            "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH66ez3JFJDoKo72AEmNU7AgkDB7In6ZNbrisZmeJoppKOk-O3RE3rv5Fkv4PXS6DjAIGJNCvDTFRmDrhn5Npy84bxn3HfOcgfr4NHHdx484GCqhwG1e2sgjWBLnm7_pzDrBXiqcZ7_DFoULDe2UyiZwAplCS59IpmuatjhwpRsgPKhhEtx5InqAbu4fVAFj6FGsPaCOI7qTxIomYbKEQ-4pyVDVDZaW1DQBkO0FQ7vryUP_V4cybZDSRo313GUdBc8ex_H2S2cfmUgkEiT2hYJkrfh7gPn6J-CnCmYxf93vQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEziDuiM9RB6g-5I8jt_AWgpAXhNYiJZdJxeY9Tyr5Z3q8piIhonIikdroSNE-k7lsd2rwXZuERV_lZkPF_kVD-veI1fTLQbRsHhgx_9BodMmmDlanSfOT3vPcu0EHtoYprU4JK8FKW5nLuxR86boFXlu1G-BCpYb61bInwiaE4C-z_ZGVMCT8yOgxG1_QSeEpfAOHt8B8L_94BXg_VtUEfJD5ESQX0CQmAOS6ejTPSSsdlWWSWVFEJTSDtio4FHdO_IZ_EZtqVfp7WvVbHgnkMtayA1shSKXcPhSLMWl2OP6-9-axXSw8GsvjGsnRm0PImyrSsg1uJ9h2T8rwv9jfzyiBWV4YaSPlXWN_d9F1AYkV8GdNwnVn15-ObkPS7iMBHD2WpwDx4FCxWqjh_UKHz1KXDtxWVV0XZhb9MgaX2tA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHlRdJAWGDz0GRf67_O1ga1gucYol3c0jTTzTfF8QZSFeJke9zJxAG9lFwGUkiEcCAOMm28rSV25h88RMhZ3qKh8ux7lChqeoplY9IcQTmuqD7f2i8mkNKkgz2bnmjC6AI728LfsBlDaDFeS4B7K0-m862L8k08vHt-eqGIZcLgHmsLMjOFG7QWfd50gaUddyAXVV80ZD8bN3UrAlDx7r1tdTKR0KIej9yh0Udd1g83RQou-c4f3A1GyLi_v1wH-_YyGkoO0BP_9vHQRvutJgm4zBU3BslrGM77ZlOVNOVV1Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEDi82qa3jtOvNUWD2p1E6ULvpJ30AKJde0TBpJpH25JUtWd-iQkfEohtqeQrREnRuUV9bSExesG3xf39ylrD81tZNNALTWc0KuHddbXF7ztWgvJUnccQpnrNMFt4QirujmnyLu1syctcqNuf1Vk_VfCsQ3Xh5IBg_8CApfT6OL3PBq6WWqP0IQFxR_HIBOAR-CGhSeW4MkuEOs8O1n_2nZaYHpHotbta1j3SEvljNJ7NF5y29uQmp2G0PJHxI-t8gLerSJKE_c_R_hWNCAzPoFj8hC4cSUE8P5qBDwKcLjdQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "subtitle": "Instalaciones modernas y equipadas",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu evaluación",
@@ -74323,10 +74584,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0986 457613",
+        "phone": "+595 986 457613",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 986 457613"
       },
       "faq": {
         "items": [
@@ -74344,6 +74605,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGc5Cs-0H2O5rHOjxFq4IHCs0r0CXGNDegGCK3y2jszqx3VEXLcKvnDZlm3HB77-EdzW5ce2vpjPhKjRtv1hp8IsNYA7yeauZf0Sqsn4OM3_OCIJyBzdzohZwS-zbryE_wnF1sQS4aRKEglXX_0_pT71UP4sm3hoq6AcmPvy0Kn5Y9Vn5djcSRDMohGfXaSkz37dv0VrKlGQIWG6tlRHSs76XWn0tyjW313Se7LuPcXJCBp8FuaZglzJKQL8UEjztWbUVaa3O4KqMjxmum4_lPI70G9GGE3U6Y0zweGmv1qeQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHPbzVg3S5_cl8FkBTvXMtGriMfW78phje5SRTlNy5eg54jYeBgkxPQISLzzzPbGwYiAgoSyBGmTO8cOX7DKvzM-j1geavczftH-AqwYV-yz1JAjRk5Pb-8A_THwvwYeCYma1rlccTJnzFPMCT071DyxOBYwXDO30iB5kG65yc9YFLZJ4mNXSbw9CoB9a3WLhhMu3U-j-10TGIvE4l8r_yQxyyTbPwbmwwbJ1ooG7eSKsScfnhhl3_y4CdS6NUnekQoWHm3nivS3iV4DPJEgG2u1z2ASFTspwhXMg2jSq0ROA8VPLd8OBFD7N-3x8e7T7YDNglUotLANm8jMXgpTFKTHzxCCK1BKjnksgL-DT7nf081TzrRHefT7tdPxcrcSa0sqSuD2SfVYrmbVIQzWLUgnKqwl-K6vfxX3lvK1DD0wT5c&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHqLTJJkPQ6FyyxY7Fz-7dW5r3HwhBuei5l0X4sopaGCMYZZWDU1wzP1EFWEDgEteNsl2Ac2tpl6lfRasJsws_L_v5oTOjE_di__PKeTVwEm1NL5L_S8l_uH7s57iRbAXdcvuqof2DoCPx7LlpSuDDRFB9IYYMFM_uw0cP6gMgqae55d6YqpkhSuuAUjiS4Dz5hmugr0IC5jzAu1cTi2ffOFx2H1lY45_s9JzYWZKFr1gaSWkPPb_GDlajSUlkdzm-uspPgR1zMKapFCsMvlU8W_JJHDkNPQfn6nKzXSI8dsh5FIrBOq9dWgmd4Nut5wsiw9_K6EEYuf7ZA-cd4jxpltwiF31TGFY8bDQPMzVkrsTZTr_RbFUT78lPK1hGPflV0UhZpFEUUyre7OvECszZhOofft_ZmKXPIG7_G65LnnQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEQtqjS6R3ITjW7prnHc2N0vZa77CoIR2I4rNTneCRWxJRNUHWf1JptCnRslrVSc9srnZWMGh6wfZkxyquX-j39SwsmSiYl_RyGQKr5f7VUOr3sC1BCYsnRFFP-xcDA_XYmNn_c7jb3U3QWGOFNvIB144HcUVA1zX3Bf5pnCuc9RedH2qMjIzPcuwObrCjk9geL7QYn0uPREQxFHe_TEV0PnpBZioN-r8tB7G5esFsvg3Bt0U7YHmYQcw8otdiVViOpPk2CFUucrEdXdjyD8Rom1jC0m-2EHeq0UTEEBK3zVukFPxLLvxPYcMAGlr1wo-1dluy6q5iZIvFpPAqg_iVAUm_DtM5NHnQs9lKFz8eik-hSKgHHv7DxS8IJ20VdviPwW0KT1yEBsj6HIWwmoFVMen0EVHe0d5FTPThxglPFUw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGdytsZ1DdA_LSZmjD6fXr-1iR4szsvicb2zW_DTxuGRDD7oM6Piug8sLhLxuIpDP5-cKSahb72mwvneI7BFG3sp1n9HZLQToh9do7oIngIct-tdb3wZMkHRUuPtztyK62j6Fib3XQOFcE0cTqDC2Jq0vJvP4qQYEdkfrTNEQ_00GapL21L3_X-EGm61CFFOXR7pabv8RweP4UIMrAMhYlx49JyDp0iEqFhiEkR_hhPP0KgthBZ4N-KVTPw6Xs8LuzsT7fIp3ttoYoUXxpqxeTSBDKpeg0dPvGRCaJJ8645tWHhJTqJcDJDDNpztIPzWz94UwNeXgDtWM9eLcWunb9f7tOl5a8BmrwcEW3HYVHSwrZ6zOkp6DZp5seizRqtFcLODih4kWmAiyK9YmwwLuJf0UX3wRCU_jjkuijy4YU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEL1Wd4NLEx-U5_ZqYvRPm61Bfe59SbtCrnH3dgLGPfn6I_CK05UX9h_PqOjS9367JiMXQKsnS0X3dRMnTHwCRtVORDGY7NLdu2njx0fjHwNfeINCCJcOn6Oky_zMT4R-kTjkc4Ku9BLekWOGlimgWVqfB82KpJjYjFAyn1h-UnFSzALdIu0WdVUHHUWqdP8-tRLmeqLum8384wvhraDnUKcqNgbzKyxsBAYUZLS3hwILQMMwx5o9EpRgRIi7qWvpqu8Qi6p_mye6BzwnvqIttWVxHjjQDSBhlH70nNf4LOnAwsEoksBGFIfcAEeRWbRELDXn-2aPZNuCYJVe4gXfNaCENC5IVY5jIQWUAqONMP2fKutWwWj9PgRNnXgu9e6oOsQB8pfETcWUmmk8o9ODfafcIRqwK9nQTRmmX-Sfw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -75305,10 +75603,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0987 310953",
+        "phone": "+595 987 310953",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 987 310953"
       },
       "faq": {
         "items": [
@@ -75339,39 +75637,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGzd8wI9NNBHXUNmWRyhKfBFu0bq58JoyIBxVlGDsGgUTtjReFWtOEirTWr37l24P_gv7izFLHVGVF14QPS0_9xCc0RdKYHmsjjI31xfZJlFj13KLXDsEUS_Ya_u3WysEphklSzd623XnGeHk0ksubo3px2BlmEW2JRLDC8LOr0uLh44hkUJrQnq2ZM20mRSvdBaj5Cb_15HMO8sX8hMFWcpOhVWlilakmEou9081bwo3F5s46YzuoF8tqfdYgXzMilrRQ-Cx9yIr0jR7kcQpO9CKC9sPqKFsKZUiTVb-sNAg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHXdCV8s1cXre5vhe93LM6bW022VOFfLOvQpdqjxS2CcC8w7mfNFpQPAoPr3iBfgkhJ_Kjj6Oawj-KflHPaQh_9l0H54Oo-BLCSDBQnrsz2m_VF7bgCy2bNLcg27jbUvoQZDoj_-EdBjGuVIik4YRwd8jf0GK-2V_8OWc5L0pXVw3ukN6nKK2aMmOdRfeckuh6EXLG2oOesH4Vq9mqaZGExoHmr034xPl2wALQUXFC11MpvMgbANb6odb_EmbtOSRgex2u8dQbTiEinzYo69zTJgjJdiKjDmqO7c7AvI0tOtA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFWWKGS_pIZgpwxUXjNZllZmmLqVmlqjo3vuE4UiciNoVAnMRSb5yqUFwvjhiRittTDVBCYR08ML7Pez0x1EuHgh_jUP41vmbAA8hRZBcTqUQ9HZnGeDUcMIky28rOI__BNIH7bnQr3weHk7Ri0-O4l8ZdS1ClAX7hsYT-IzRWNAJidJH9K0iblAnPZXSZBbcFDcbMTR9si_W_4rRQBTPyo6fwbzY7m2kY02GPJ-U3YhnFDHFEit4n2DKKrk_fm0VVc7Wlc8s-_9j2wQQ08Bu4E5i-bzTHPevD07WjEy6BO8g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHDveqmhDxjCkLt1zkzbj_8lsE3BbnwkTI9xSj2yZv6OcMfpZ_co-NyKo1WOHAkDNvn7tDElCuzFubr4Aqikm5J6OMQ8Jy_ZUPhvwj4F38nWBkMnccw_Cq0CYPXEONVqwUhKD2aWhqHz2GoyD6CO6KuiBYOZeV2l4jWYO2sDAHJC7lNyxh7KABtj6l3tTDVoy_qIHJRAG5uolGHc8SILvmB4YpINkWg_Fk9OHsyGWtH0-r9abIcNOj44rkrPxt5M_RXLIRRGwsw31HMFAdG_z9zWbU1Mfb_QVVHDXGHXMqkFQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHppwMjPUQjx0xoLwX_ZMbH0eMS0yXl1Pe9nk6hQhIFV8TtICd69k-rXjuyTfOYdfiJGonwVin10pkJCBNvgPLCP2HDBPZZEDauUzFEm8hvHmf7wpL5ODtKlmyfif_cn8m9BaWC3_HYrSM30GK7PspfOiW7Zme_2RzhfrfPm4LWTLqx-FWpaWbK3mlPsZw5Epo_UonBzypJGz7Qi85b0KZ-2mY_2KDZmhBpv-BbLT9OltPRH0rBqgMOZEKc-Vhg47PoCKTmyZlhTjHwUEKoeIgzz6vgKPLSSik8nOyC-VL4MMRmWAmF_yslda6QXGnCpfj4UT6vvoQrnTs8rOjeGSrGFKvlTnPEdwAf4UEcboYtGd1LaXmZwu6bqmHq7c8X1TpUMzau9lb-1Nl-vHreoH55Y7aQXZreYj8JsxoXNjo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH4bUAbeG5W-W4sBmaqnwIi5D65Efyexy0XtEOvmyOs6e4ODnbcppizVqROmwAMs17j4rFn4VUu_Y7fFhHcGaMDHOEa7Xsf1Ch5U76ioWYZGfFBaISSrg0vaJPUUvYC-SkpKnw5IGozaWZxheFY4qh0ComflGgKWQhwH48AFIBCqvpUWquTPrKqWBoOCabR6__ibnAYsh-Z-9AfYikidw-TU6QCKEviLwLnQhBleTPF3MZyXUsf7bOgkegfaD-k0yeS87prUPduzXb7FQnneTlwQ81YWZttMIkrBYnZ5u__ow&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -75759,10 +76056,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0985 105541",
+        "phone": "+595 985 105541",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 985 105541"
       },
       "faq": {
         "items": [
@@ -75793,39 +76090,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGpXitaXj8YKLSwb8ujd8lo68e8v2Ukh7AHfKwx3NkchS_SydS_wD5iNoONM0-R2qzlCirjryOewv-n7wutVZGrT-sRgd7yk-NN_jv9vdNyb9QgFO2DGY7ZqQSlS8PW29PXLiPAyGv7SRXhKbQxLGXa8Q8nJTkxZbXFHb26VJUuVTkGbShRqnoZcr6RTReAqH2EF_pxD8C21tUm6haxm6hrGa4qaeifgjVtpXiLBtd1ZVTibSIKTb5lo8jtgD48Pe-CaRS3Q86cTcGZm_XfWrmJRKQfalMU09md0uYLn5cSm35NH490n4iuYJ20_o4T9AAW4SPgpLzzvXiJPiMAWKYY0E7t3yiN7r5F7CbcFEydtjcPX9RicDHzEWPDvh3sicdSKas7h4FDQI4GebplscJH1wP2tXPvo3MGMTko6f4SgABzLX0a5dFavUqthw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEV8oqtwyEKoPgcujRYyRfoOby9PUo1II64jDY9BYHzrQgogEi_QSwXJQhwjZfNLa8f_S_AW_R7pC7uPXqfSu2I40vHlNck17AXT7TgT5NgSrkvyr3ecZAZwsObOyP2Cp6syneLqe_2Px6hGLRtnwSBzUtDWs9FcjLbEKBs3KN7rV5UM3tLJWEGRDpD2MT2dSfCIstxNrSYqN0WRsV8xN2wQGvdDBbhPJjoa6k9WM4GV6Ln2cwLvh9QzAAm6h4wuUzVmk-y-P_cCOIY5kUvdTd_v-R03pxw2KV99mshvJY-ZIddyv_ipN0TNL4yJwDxuxWxMO3U1Dy6URjTRYD5MHhrKqGLR9qcsiW0YSrRxjFw9nH1HtpAh6foFj5tkuzA1fmnjVXrt3CGiWq8n2un_g0gYYXFzPp1BUWTsPZDWYY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG6T4NVzWi9jUfYPtDqZohIQgB0LRuhZpK928JLx04Y7mejdAjdBapoQI_bMjTSanKmWG4fYup_tXdsSKIiVjO3wxiHSFQKGsfaq8EMZcTsi2I8DK_HEJEtwSoNiNYvUkOgTooCKSe8ciMuuazfkPdXR7Uj7JpokzGZl-9R5lai50M3cWKraYI21ksMKsptt1wwc1Hacz1W9BncO3vci59VmmWd1e2H3DDPdqg-mFqyQdslzhff07D1ld12gNLzjhb9oV5ziTSUK2ZmpgRzso5tbIB6FlIEnoU5mtMhenLV1A0qDJU-77kWeZgJknzu6bYWWRdi81RATPPZ-Zozw3go4PO0xS82gRfijqsHEBFy4wpxbGHIh5b0GMVuSYt-E1ETUuwawPs4yL6575aZHFkCwESbc_HIAgw-Aw7B7NJWMA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEENLVSXIqqih9aY9X993-vnm4iFWF5UTTUXxvpY9QFmzdqoMnNhqSTdCIivYwbnGcc4L3Ey8Eql7d6JKFhxHDxAa3t5nFmBtyfFYoscCrpNUCixRyUg_J5TUgHeLSIG9wE_kP-yUskn_3cvTpbVJQcykEXCGsyNwAlQeTMoquxbiIO_mLMvT7cf3fgDXNcVek4WqTgR30XngQnwaoEfbq3FAKek12u-O7Tlzrgo2mrS8K5Arr5CPiW3eRKtx5Xi09VO9Xr-14-R2Y-yy9EMa2d1wv_n0V90gwuCcYgfr0VcA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFRVYv36dpELk2ft4RHxpC5VoBtGThtbojmqhW72EFnQ23JYAGv77v1IzevmgRiikR8NbJE01EJX315jezIZDAhadCJQzCszP_fdpjHIQTAxiYmjUFjerQ38LFQugSYY7cJVfjKSs_BS3RzzuNfLc2-anMzAZFpdMj8YdFs5HSfEiNvZHytj4sr0R8RN9MeLLH-nOeg6Pyt_u1H0FdBNaU7g8SuuNS4dfB5QZZ4lecP0Rb-O5sUayjCPbL38KurMLHN-I92obiCmeve15cCo1vKXETFm0WOj3tcXhNNYmmKmw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGmPCmUoANd8LtfA7YUT39vN3K7ohl_2ecdVHES7lU3ZV-DfC9FM_Jz54FHhTceMAr56FNN7hfcGvGRhAAUdWjlXU9Xp73jBrD1RBtsHr2V40Tppmohzk3mVH9qR9WJTinWj21jlPoVQTDhs4Rz2V2qZGrJuPi_4G7buBk9PgrG4zOYrQRLXzSw3TPA6rS_sVAJ-LH41vI0YknSeSckJiEUc-u96y4KUNx3Bj8XYUKNAY0Y96TjXCvVlR6LB8b6eSH6GWDKXzFkkDn9g5AutcMVIe7Oc8AIcVrgQ3IVhV1rbphF0S4qFffM0gbR4-BUXzuMwvaWDBJ-WVCCrr4q6IA4Nk2ujXD5ngXMYJK5Oin6wKvfbcHs5sr6qAB-I8D3e2ac7YuhyVlPWMesIVcNb4uG48zBwiJ0dpiExz7wgsVeXHEayFNPEJFxzHwIg0Vg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -76213,10 +76509,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0985 105541",
+        "phone": "+595 985 105541",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 985 105541"
       },
       "faq": {
         "items": [
@@ -76247,39 +76543,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFbLyqs-vkxrxb_9bzmz8Wi5HOwh22TLst2RNlUPm0sic9pL6MQRz4RUj7_SQ2fL87MTpUiZEdTZXJ_YlTXFXsnoUp8IlTvEHQsXV0DbJcxpnhK8hcts9_uWMPYvAT3j-cRAuLeUGySUFdI1VMN7xwP76NCa1G7cRP_yY8DbLYNu3F9TrAlMF8IkQWqR-d5l6L3Wcc_F7gV8qAePKw8gpqhKCtfpEi7AyBOFXvBNqiXzO118ui164XUl6LZfxWR8ULcuT-dfCKWukrZCJq99YIgSGVugWaffK0Sj-GO1oKlzfdAfs9yc0ARwk7N2FY6Immtj0EXaTeEo55c6XUC7QQDJTRedD5XkiYVfLQtejjxvS5Ax3QqVZsGN9QpCO7DTcVF86YI5ozE509DpXWhrA1RqLSDi5Jx34u9Sw0ugFlm8KMiSsCqMSh2uKfTPg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEsaXTKzDtvYWTyqEpD-is5S7vaV64tlauEfN6FgOrhffF56oDm5wwEWt1NzRPMo5SBLJ2dFi4iamrUW0evZ6M7KAqyJoTcR0_nf4Db0P9m8PjzC_Lz2thSOfz-z2eqGxBadnWJjVs-eTNg5k62GFrcO2qCMOfOUfdEcoEmj3zNAuaBiA5YzlM6513dOom0iklnDNU4kcjEMeaUOJyIrL8M6TIyty4sLDrUFwn-gqTjP-42VSQcEkmr5mZd8aQk9wUuPLWpjrV7D7OES7j6L2ly5eipyE6w_xYDsS0nhTYla_LZi89uxL7BhO0Kmmo1envn-1flOMrD884eudu7BpMmCf3KfdFutwqXvo6hw9bYMRtcwofNHwJa1UDbccOsk_6Bt6DIzS8QBx8S41NVhthzpGogk0yE3sfKQmdl5jc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEXt89Icq42Dq2_n5Esj9yiV0NCqG6nLkk_MuBAQXSMzLuGTqpspOKJb_OViQH6WMJj1Hsh1lgoXzRB7QmJXOgOviDlQd91xyJJfiHz2e1b8QRdLDyI4UUAvjTheKBv2ItcChXutXNSq5HB9rWpLLKFfd0ZqisXpeZ9qfrUs9hKdaPcIT-DjwWzX5NJ9cWi-4ly3UQhLJ2Xchkl_Imb8Y8REkfVrht2NOA0NWW8E5GYjMP-88RyXa-cST5CnhEtA4W28E_N1ZNAkTQJ2dV3HOM-dl8SUgCvANimXyeiIdyRm61LCRXL3-f-cJ068vfdp8BOQR6hSX4GAxl-R2mpIBEhPeV3wylbGJV8zwIKsb_RX5t25gpcdRywl8u90ZhQt4csZBu2V-Rshz_dKerW3elY4I-DqKfi_vqoRm_WkikOJA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFRp8iamnrSB47D05JDwaCM_7aSVXRnr8VMHuLGu94BVlJBeC_zIzZ6x1xWQuZA94_hUyiA0cWBgy1EDVSM0DbkbW2a5m8-sysPJ3j2ebKaFbU307hBewMtF2XaKnSuV59Sb_Uty2l5P0zt436FdGosZQwpJkG4fwTU67CBjgCA2pn6GzRJn90fh0emQKHhk1jG009_qEEx2pj7QsAnbf1UA232ynxiiPqbtX78OMPRBloS0_bRFmC25vGejqZoMJTes2xmg_HXMqgFI4jY8GW7nG9-FXM9jR7PZnqR2CB_gA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHL8ixodCMzHoEkj6xSteT5cWbyuhklFj2sc68WPO2TUQhdT6VwpplVsOTHl0yphdzDxTNtqc8-PeED_sFKXMLSnmc-3OZx-_cL5ijHUktOwDx0JFOFPSEQCDmLu8p51Gja3nVIfPUeMMW_8A04qsHQs66dDIeif9q8CFx5hpr-_M7tmCHFf6pfhsoSIrFWDCuBH7m_vMprao0iQd5BU-1VLmGPXYsEf2Z9tUOk0H5Puol0E05MEgp1vY9e0Zxzpz5TYyLdflZaVfAl_DR3WezLw34eFksqSnXq3QcA4TYAkA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH2vcLaN_SZ3nw64qfVZcm4c7nh3jpYORRyD8tcrNBajTHNun3ueshGhyi208kXjmeZVLw2ExBAobGTstKDTaoRrUPsyS8TRJRc2MEsAAtj4hfRVK78woX3W74kgfnNoo6UbHo-EN8l7YLXBRb8eD1WX6C5IzyWW8gU3Wjf9p9A60GgtwPyKNKWbedBjkl_1b-TtSY_iKoY85-F2pvYBM8a_Ccs_RiPSzJWYYRAjOvvEED4BY2TsHchuSHmf3SPoaAWa6WR2_4IuM5S3p3TGeJPeZP2XGx0tGS5r0t_8rg3ZvNE0dJTei6IuWlAITFxk-7-dj9so_4lWE3FiY7f8-_PkBOTGHxjfCHBkQ4EBYJ63SYZ4RXYMBTSR_xsNhq3wnMigQ0G9_LSMjBfr0SMuvnja9cY_yLuMoaTXFFnVmyDkjKzmkwuUVBqE-eR_D2t&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -76667,10 +76962,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Atyrá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0982 101933",
+        "phone": "+595 982 101933",
         "subtitle": "Estamos en el centro de Atyrá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 982 101933"
       },
       "faq": {
         "items": [
@@ -76701,39 +76996,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFv4qJfKwyir79JrXMLWx9GNzI6aqWTwCDtQUW_S6mYKcMH4p8cZbAUQUCgyroTPTs43t7ziEjB-2tYy1FB7hKAcgPo0N--6hJ_Vb-9TsQJyMFVi-6litYUnHqGtgybK1-_Pti1KcxanK2B4aNZTAlui_1H3v1gLkeTBD1zEK0_2mEv_FnmQKz_gFpyLk9Zlx5I0-kauUsrRllRlJWErZ6pphGH-oy4Ad82TZVeK_MVcKaFBtq7B1f9cloKBbvAShVOj6QqCMzM-48GZQQkbRJcJXU-TjlshGjgS1OTG2wpzt_-01UwExgrSIWbaxIbsXyEa0uaQsBDKxOL3lwjWJ9HLdLAaVLe-tZ2Tf759F8-kXm5GNuF_nFwvoW9r3O_Y9vX1tyMSajKycQ3mnh_j-7MM4TRtuorJMMNSmPo-2w7GquN&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE0hj5m2RDCGUJbGPDe3t3BrKngDYhBpRb2WLgb0W_kVGE3kHFPbk_Hh8981optulXdrBZp7EAuVhXzB8TFDDJxe-Hn2k-TxcbdjQcQSbbMk_RiZ8HyhoHTogfbquGj8mxN23997atc3bjV2koUxoMESIa-iwWdfu9S0MP2AI867g3B8NpKKjAnYuo0wlTzSg94FHGv4CgUYe0L32DOv72-9AXkLMcdK3NDMBUAupoBBjTB4oJoD0Kh5gzmuD_kC9tgxVEh6NsUnYGctl29kNZs4R9lL0Z7dKX_0IxVAWuyh1GDLml8TkJQQ2wiXPGbjDXRhVzbFWCKbGQW9_5F3WjOw6prg6lvvKPFec5i7YY-EjJNYnzcMqsA_ARdMIjCYxqnZnR5O_1teumVwnjXtAur9WuQNpfanfO1lyyi4Mmv-O2j&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFstWly030EA2trdMjmKq7yy4CjceBIOtPISYIEwEybR_OB2fokfP4JLH9Ji5Lu1lhmueo5J7genm3AmZmKWWaPIwWoJ7z9cgxYluoYh7SmMbe3cWCmKcDEcZbKIF64reWoi2GuxE6pAYKTme1iXj5nkbCsKcxFDq7Mn-53uXtfVnnqRcxkFhkdrhX49GEVIssbZ1OgnMn-9CantwDDTLANIhqCwnCEUhI7n3l676m3wZmKsn78LkvR3q5XH6U_P86thYSSFWPdGoCL3huWEaIeIRcJeLwli61Xy2YhvyTXqn-PPc2AK6rwRtwNWyhLxx0W1z34M_0Ou9TitQPlUWbVBBhVnJI_XLDR1JUZwqSm9NFwTqwBnPqF4uaRYtUb6CuXU-JUfmOYblBUTBN4kk801JcOwMdxR45fqzmQHDhi2w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHCCrg6vITB4iOkyIzytaSQ3QHkIlt1OfEJk5e_uGCCyn1PmRy_22_frUDXRAwrDmTn7zODarycdJ8P-HSLK-Hs5Iy7wcU1dBFeUbHciuq3eo4AHT8ICINcbmGRr9Rf8eov6VCKjsz6latw_yDM30nS6KD3p2rA1VA98HpRn0K43zIwa45DFt0L4Pq90YuW6aUkdG2E2dH5zoLwZe2WdQ-_k95hjGYgKtV-CinDD6vHjrW4ys-6YBy3b0ld31e2stRpqRYHQBC1mW5wTDJeXYuDpQ_UITwE_SdZh6XSB5ynODNpocuw36e26qQSlEZWPw-gfAME-s-DkjNp-wLjifMpkQWATJHcvx7kM-DPup4a0SxlCd-JpCTLPfhQ-PLYe9jEPWKj-TlVG4jwP2c47Xtq9tNaXbVho3vq_iunqLnwBaQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEmTRXhn3vSGdlDWnCLotp4uo2uvn9IZRIy7eWV9ZMsMg7df38Igj-LwGB8dlGg7k4ZZBXZUL6gZ13z6p0UJyIgIX6pcMdvTucooP8kaGWW_5xmn14rkeB679VDzBGFVTxYcr00Y5CRvUKXcFIlEoY0--kMbMzfy9-cxkseYgmLTV3bsRK3__joH6YzfKH5q4_4OwcxCPak0KfiSQHJT7EEG-HRAGNr4JEP2h8GWpP0YRgvRGd1aQjUfjtBSK5ebHM8zvn0Ueqb7gQHqGzPKClL8bLMRDpRo4MpNbYOxqZqYqpZsWtfrnJ_ktH2VRAm_DusUYnc3OaECYz2oLDMV_EF---MctZAbtDhz6neX-qoughlhh1AQGH1sUymdlml6wR8Mk8qz4gzI_PDBCfG4NMNnmZ3tI0x5Jr9gc0FaeoE-uY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG3bLCBKyoUm2_SadZICzMiluDcKrH34_48bjKWCqqz-3UYdJ5AphdSNNhKeet7zXk1Cn96XSgBTyxyX0G6YWTRmxtDxDTUR1YpKdca8LlDHpUgCIZC6QV-2fcnwzehg5Ccx__byxdVFJyt3FNwtWhuvnfQjgMWOAlKZ3CaMYZU1UtbNwiBn_8CAiiBwUa2-1lcSYBfE9jgAKTd8iVMygoZdhtNqu6GV6brdrhqMKY04L8jO0lRFeBQr8gx2VizpNqlGXErKwXSik_wKh-keaVJO3yHzmGwoddClXYs2HnGKmavpwnZxjj_2GBMGnvmqOuuFFul-Y463pFU6I0nRUFQ2m-tQTUdItlSzcxQBSFFn-flXn_9km7K_dW9iwWAiXd2-kW4QZkyakAEllgngfbnLZFP5aM6Xl7XfVFvdtsNjd9ozwROc05gSfhJvg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -77118,10 +77412,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0986 691115",
+        "phone": "+595 986 691115",
         "subtitle": "Estamos en el centro de Itá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 986 691115"
       },
       "faq": {
         "items": [
@@ -77152,39 +77446,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH0Zu5syjKa8qp7vRzGpzfDgz5W0h4XFiBgL-FG78N73cVL6LIJxSvZpbluTBtrX8yD02BQXdT43K0TlN0pJ7HVAgxTUhLuDA_Txv4Oa0_2PKRvy9FYI1nBcrWqrKG841enWKnweUaho8AYoDWhHtK7sGGwzqWLsMdAeBjpeP5sXyRfk1YEYyO-EG04HP1enE3PUSm48Clu39jVmVKtNhyTxnYNvsnZc36Ik3vL4lSBpd52y-7zuzhchPwWaQJxqor55178T-ASVNY9zIXBcC4HZ6-VZ1nAJxDeFWq4QiyADxB9Lu83HcmGMab5iLCvzYN0E8vmjGQ1BT9OadKeMsMJ8wvGPzpw4tjuOk4jbirZD7PRDu1Uc-RPrCN7EqozaF3Dq5OA8Umsd-ptsAUEzpwtQrIJWs6i3B1UVglHyrlLzg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH6UW4mGPoIHEFJqXoF_xio11AdvWkmvzyev9Q_XFVh6glTmZWHVXfyZGSGoLCUk11iitEOd6pbJXpZF4xoNZtic68KMps-lZ52BLCq_OFkGmDaloItmjEZxchVnobPJRaB2IMkbwwut1Y3Z1muCOkKIMUCnHtxnYQ0GWNME7DWdNnbsJG7s5hDUJIbZJBlKjhAwxGHrXoww2_RMB27cw7cIZWzP65xi0isCgZM1f513rx9_i3HppIqy5cqI_4z2--3PKffohD7YEkq1DuAMgQkHdd1ewpmJXjT3-sMFW9l_ikMTu9pAil62hV-3n0zbrAO2aHd1lKJ71ubM9-n1zHPlQHQv4uRC0bvj1_LqqTJPuX7yvSYC0Y-tjx5xUYp8CrnVAJDFq9WKq8VFVquBcfXwXHtXJGEAcLpK-P7g1Eq2L4ED7tRPvAcNx836A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGU_j9tIWdZHzmUeGXt6Up_pkfyOLAyfwqfNkorCR70U0dKczlG8gr68mUEHWg1sVbpyi0nJ_IuM0cQ0c6ZbFXu-_CU6dRLlSzyITpGWuRhqu2UHyZvCWmWqQEYyBL4rZgVyo6gIGRXOY_qRfoFFX-Mg1I72kdQWE21uNAKBHTxtOqz9WI0Um3lsn-kQIxtkAxVx2wYc_qD0YWrmwQ7rCDlB2uuyHZ9Bu6VPCtXJQF1mbli0Uwj9FzkfWhjNCA9hq_LDJ43QNnx6iWMMLSggEIePtMkvZSTnSyWyajigebgFBR7L4AXqfa_5K8TsD1M9Fg0GeBe5h_TqPAQbK92e2f4gfrvo039cunCP92sLB8yQA25ROjjzvUc8nBLnfXEGL5dPfJUaTbbnUVgzdMmXRSUt_6qXO36F98Kl8VBY5jeMVw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGqogvdAY6OuYliqvjAT8T3wl4HiHXb6s0bwNK4RRorCUL-bHLZ-mMT5Yv2vsend6Tet_8xGnJzdlAvNRNSB-Xy43PlKiz8B9GYWGVBWayZ4m8g-yjvdD9Qp4SFqN8h7hqDKkXnBoy9ZgmCsFKFl_fumqb8vhtKZHJZV2Uo-2eJ_R-m7SP_v5vcsFM0ZDQiVlFPp7seqqE02drF065eicjbK2SJAsAgLoYTaYC0v0dw5d6qkf5ZmACJDo-fC1WOYoUNiviSMostdI7vVRMpdk8EOn6V1M4LcBER8miHPlxhwQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEASCUHJAj9ImOFRx40izxnxwC0PZkrt-1bUrtBZNb_kDnJYMPu_2bBpyi1qo8S-7RdYHNO0fg2OFxVPFhkQLOLS-VtulPFhgLnzKAWMNxVLwktcJQYzDvdO_CnTkahhPZb3R8KkP53iUUeGN69YcjhUDhGBFI3vQ34jfpddzrrp-z7WkWhLZrrK2KtJ-qNEgDRb7zcPBkFZy8YTY0CRIlhUuNjWjhJtuVUfx-mYeLGDRC5sQQslXBhcdvvhR4_93FSjZKFeehyKbqP5OBHS-Whne327I_HnJO3N41b7UhA3w9a20KQR0xAEiIcdRuUGVgm4oQaFeOHVqx3jib-FiGDy5s0bzdTgm_5EBBCgT9CJnm3u0ycDK74Fg9yzG_QzAC0N5pHBdBeG5bFkE9HUmYD4Ew08oFQKftdu3Biglc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF8HVp2YoVWJf9COfvw2Tg6JQxqjd62nOsLdpE74YYEbuhK2w11a-rCR_Egy9GuX6hmTCIXgxdFpuDxXfSwCemjEFMR-Wz2uG9K7Nl_7R7heMm0A850KlsDoZqWH5pdJ1CNTA8bvXHF8Z4JNkvp9OZS3CpKUZJTAIh0ToLIhImKni0sMlsBcGCuuiAC_r2V3I5YniCly_ZWPIRcGWQNDIUWHMfz3O66zCuF9hAqUvw9Upicr5jThHyxAOorsV9O7TsPpCnM1-t_h5jbwkyDy-6olNDUGEEIWLcAoPcKJzCMxfBOy1LeXr1D2KeyjO-YXBb24HNyUIupfcjZMInEmnf4fuztlKqzswugiqprFOeRBxRlQfuddTCRmo9pLv628MX7QQy2RKwZjFQaZV51mpB-qPjapH9yhFvlrz-7hCTDscD6wwgH_V1LJYxfhnzo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -77572,10 +77865,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0986 691115",
+        "phone": "+595 986 691115",
         "subtitle": "Estamos en el centro de Itá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 986 691115"
       },
       "faq": {
         "items": [
@@ -77606,39 +77899,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG6zVFdhJcvnnXkAo4nlAO9cLMfv_a99CWr7GycbRrHO5zYoTx-8VF-MwnSnqncb6eV8tBibvbGeK8SVmRnwyT9QzHIuD4HiQK25rpBH0EjTz3ZjLw_ssA1sdb6b0X10lkRd-VxEKjQGSRMCsHv6ZDoWe4mGCIAny8Q5cOqc48yenVXhaDDESRUNvFUoVPh0j4HzqGXiu7t-Mls07rksAob6VX-W3aSUQ89bUn30CEz9J-lJSHYW66omw6I16cfMZRXFcC8Uw3nopHcxDEpU1LnVLXuxlM-RMtmfzkd0GFk-JsVMga8Xe79cQOqfrf2kK3sFaRePhs0fGUs4nCug-jSAI6P73XP165yiMYT1QRIqIWm_UQ9rob7mwdls4SAHcMskE9ds3hJf3ci-Fzl3ZFDh4czsjvqx194o-wXdXllpw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHp8A-uHcb1qlNyHXn1Qc3iNpZyDx7FPglKbOAMhd3dVBOdGV355WMbiWx9xNoUYbTFPawVAaINp--HSYo07b62PloWwkzkjA0LBc5r6la6nYqeExxPiPvxGFrxy2T5d9mhxGdc9I_buMqzKhG_P2AlmzA_3nkhNhuOUPuVnZUgngjcJrGKn9cPfwet1O9yix9j0kHkKgqYbMXd0om6IP7gztalPGQ0mfLyhmYnvh4aWLpzRctRbQfjMy9ALjl4bEfYExgl9A1yCC-XISm5HqCTE7gozFo3BFPUwQOX8Oiu49FNdaNUyZanofkSm4bdCcX3kc__akSw35DkONUCW5ucmb8_jYzaTnvUksKQ5osy98YOdl_hTsP-KsQ4r9tVF8SW5GN-3SjVMaVdRSuqV-rhruZ22KL5bDU4hhY7fSL4f3Rm_1ouhqjI1WBIqA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGOlYCamJlX2PNfupZkQQ5OAsq0itfHxdmnJWrSIi8U7pJ3Sd8SnSW6s7-mqYYTI3kWp5ImTb3V729S-ecANlEFbz9dQg6uGCyQGVoMdFGKuQqizLBfbaJtUpHMBAI-Bzr0Kg_L69NgzjG6A16wAkcJWUEtkGHOglb3gIH7wl9S0SL-o8-q9gTKjLajTDMLq1G9Sz-7l9GuPWlUy9FqYRCoNjI6JGzYzDUloEsba_NKgN51A050tK6aFfSl4NHoYGRK_gw7RF3Qa8MyYmI42_aUxEhhZ9SAFHoCOVGCOT9QxRSgrGYfS5F46kPQrWb1pIJ6b7uQSSQbo8E7bem1FzbN5DBGKvec43-hWTa0I8njBMgEMz4PxWztgwhayTKIw3sQv0_vfOFSCDevIb-5BlNUI3L889pHe32xUmgkC_d0mlg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEGmI2UHNDq65oOqScw8f1bun9_SxypA1BO9A3YXXSP5mghVTGBf0RB_CLGOAvqwUjS1db10hMWC5g9nd368V9DsPW6_WAlCBfXSh5W_L2z0u_4OvCBV6vj3aIy_QszZU6ZwtnwzLpPum4dogyRb8q5gPOYgiY0er8SPmTJ1W3h2vv1LRe92PRDMGBt-kCCQz8iohqbb9PJ1l00689K1_P5TdwMaVkfNdxaZ5buold53WE3rxEJOLijeUp59aeA70XNpeC8NyTYa_7aHii9ZoR3-gV4GQZEYasMhleh2YjQww&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFDp7aOCHYh9NVEbC6DmO1FbjKaY0a5cXnipzxcGD1kevsRFDNSl7gufd8VX6Viy-cHmyvvOYH_ZQso0NnTnvms9840f0X6PLttLZXE2Yxea_Dy4AIV8jz6PwmMXhic3TaznItpouo_faB2YzBm8faUnx-s0rQmQV5vqg2YRtFD2pnYfkvdMNvW3c3lksxMPSEziae2RSAbHeffEyh9gSRgIwilScxytLZOOi1bH_OhCUHlxtOF41vR0jZWw_jDZTci9zmEHMe1xrJUgE535ZulWAk52_peymfuU22rd0fd6PrClDGea5fuEJRRwOwpBAv5yXFs6h1BcT9BFBh1VZrWpI2BkLEmKpP-qmC5RIR5rJb6jEqB8G3H5NT1DJPylBwisHG1LLJCiVCRxcMbPIi8-2iCZBrIt3V2vM0RFV8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFD7xJz1-W_Qgi4bN9uctRwT6p24WUvUVCbLW3P3cD7buJmgktKroioTsPna8nG44nqvZYIrCJGZjkiWBeJLlBvHuMIr5iVAGG63_VSvwK7ksJik3GjGrR-ftKs3AmJW8usImUsmCcI0tdE7g3yG4a9z88gEmPp5xiylQqBSBPKdI-PDDqNAz5nuJOaI0N0Mwlh-2theu2mwdWrodL6xIPG2YxO6M5jvVmuNs_N-n7whxiUBN4J6__3BxQs8VWMPp1nARQeFgs_rObDCuxBj3cLJWfhgc9x6clgyfLM_Gk32Ydi4DcSBOXlS1B6J9BslShp-26YuLFw7MwJo40f-EPMuKbKLJQ6_gMAwYgikbg3XJfPiDrZKoaaJ9Tta-MA5_f_1TTSr7UeKwx5qV8c3pkZaovgCIYYGFh1hKnbyJfOujVsZB1xAbiJPuGZKg9c&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -78403,10 +78695,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0971 568547",
+        "phone": "+595 971 568547",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 971 568547"
       },
       "faq": {
         "items": [
@@ -78437,39 +78729,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH0DIWkcd5-VFooFWYLeYT6bDyd9vOhd8c_dqfytXVXtIpWqHkDNYMmQGTJPMg6DnDtvldZk85nyGkAXYJxViXvad_mYzyHrGrAbvBOZ3Z0CLKbg-UdGhxA7s-vc9XkpQV3V7qI2M1CXpZMXzN3NG1pD9VFQwuUeAdtTOyrzLuvuASNtx9gdYgfzERB3-LIx5RJ7hdUBbfbR0yuaTafvxWmA88eM2N0Af7vRDBhbjrO1ZSFBHDvZUPQe-O3msU-_htzz4PEnMVEV-kTSSnUl-4r0Z42YEvqQ9ET6MGyJSMFOQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHM-UvXwzVyYDq8_nuz7_JcuSzkTPEmiYYkmNYrpPIJnegh2T_KoOsUG9VHlidi9Hw82h1_U9BH-VtMqRD9YTZgaxYnuX3VlaeZmhga-Lldra9Tm2Hf5YgolJRyoSnZKHLPyFtvxtA_C829JRNHigebhTy50cPVBDWLcOopVT20Hz0PoCvsINcTUcNIyztfdu_s526nMA9qzt6qxAHI6TqC6XdIMHHMW_CEi2pgroRZYEjSoW5oBRrYeaTf160g1RmMh2Xmz8WNcg2RbdD8JH36H2HKWyMEa-FbTUU4_I72YA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEETAJFbtdsX4x9MohFOO0yfoI2CF6PdGJUMhRyVXH_0gv5MQMQM5ZxoIN8N4Op3_Gv3bPTwJ_OXP4jUKFtNN9BbM5VwiFcPlktJ418ZWmkWWPTrvK4tunwUd8OxJ83w7p30vmUcBlPACospXJcqQ2QXcB-jWA3YuRQkoZAAxar5c5sw2gtazfYEfu5uH1PTdULXqgaRE3mJaRS5XtorrF1MYDvaWS3jegiqKx5h2JiN5dK2DnhRsF13-RoOXiIL_wkDKBvxUH146IcDM0HFqNS1CNog_dNeAXyZjzzPOFptRQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEmv9ha6X4jy1bgRAfXDrNsHEjf6a-je0iWKzDAJb450oBt-Y4b58LKpa087LkWFDtUggmMPqhtzblDfJCYEshv7dF3yQplbOhrKrkjidybUsmiF2GfGeVghZ713Z5c5ydxnqWMnNlV7rYU9PJCXAYREs3t_3aNThzUHbrc3R46fRK_VB_g6YAR84slzNp2AzwlsUzAaGySe3fmnelj4myEdElUBrwzmDC1Qg4Wq14sjZXUwQzvHn8JVKMGTA2aSroXIuNHqAbPAL0j7BSGjuY07-y54aobwLSt0zYYjjGxZiypgHCS42gJ9z6Mefj78QpMSDzxPBYLnGfm9NT4vNhgUxHcncJHiHLudcXeNjmG_TwB9-noV3eNwK5Wx5HAxrXc8z5Cmf37ej7bG_Upem7PJ1VvWJntgnl7ZugU7rzejA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE_IIZb-2b9CADMygYq35NJIBbt-kJTDJ3h9EkbbAkNLV75We7n6M4SjCsdk4m8fQNvXU7oginWYnVFS-K4aMlZp_EILuwdvpDVtCZV6uRHIKh3fZbJLzF8059DJDVAYYPgmroSrfsHEnUqwBO9bEHCbyhU_aOSU2Fy_AEVBXpEZ2Iyhr9AzOf497CT634FMaFYFXBdlpUZUpUodhCIyz868vpwPRXe1vgsak6Yh-c0bcwzM8MOE3cIOri3NZtQWR8vquiz4o-bc--4EsjlLhmKAucMrBnpNt1q7b4ZC0-sTPOAMZglxmNcm_u2Ap2nyjoWHpDRCfVfXLh6BlgVaOgNSZaqkaCKElvSgB2V2lliIThCSwViDDIXjXSD33AZ1MyVi5nz1Re6qwS3fe4TIAUD8gCKfN_9Wh4wD9v-HRBFTw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEGaI_fV_Rc8xM2JK9nMv-Z6mGeYnUMtjjd7RZwTgucBfCDwlIup8rRx22ARXL6vYyZPqnvJaEyk7WeEoEvhX4Mc5uOTihRVjinX-LA4lXla_PfLfNr-6G_1JSgqWlCeFEiyLCdOxT64JxRuZfg-feJU30-G4f0eLJF2X6XUT6XoBk6cvmtM4NnBb7mXIfnQ-rHvF2QJ4GP_Lv8PvUGvSxAYxNDx82C9E3VAL7I5FvshwHAG_LthTPdmF1y93R0wh0adHYUJhs-yJXtQfWw-DJNkpVJprS6NwUncNH0CIPwjcEMovHSDIy95aLhSYpmgOhJaFTyjNsx5AUF6Umjl7TWFUHStbJexzQfqfmAXaN6rIQ6ljc29A7TKtPiEiQG9O6-PpkJS0zR2_yIZ06eQqcxuQUKITPdsT6MdAQTD3w3diWJ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -78857,10 +79148,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 612 899",
+        "phone": "+595 21 612 899",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 612 899"
       },
       "faq": {
         "items": [
@@ -78891,39 +79182,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFCjx8M97GOXQBd4YaWrVAOMz6rseg_22zhuWukhgug9TLqwQvRJVEvIPy79TXtFIucKFGnaig5IKujvtaATr-r7FA1ItOnb6auyb7m0UJ9kRbfPJYBXipvUMf_J6f0v7u-JNanY4BbUtWnxElCggQV_MX_A4is_b7qhaKIqycDx3zh-0gXz6Lw_kHHwn8ZA-_dU9wIb9D6Y3s1xVsu3qg0eE_Iy5cIxhtZCpqvxsn2v0Eu7fSa2TmZgBH3PcbePOsZZI5aDSQRP6jyALGcbZt-74vd7akaRGc-L6IN9p3PRRMhyznTT6LJ7R-WfTL98DEu3lMmBkq1WMmcaMK-wSLwiWEhkUhREwap4NUOq_VwuEWhlmWL7Cj8_C0gU4ADKeXKFS120_h9noQ1Q-0AntPGZ58KppbXAALhcoC2WAXeKMvU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFFVN3nAP0YNQdY9kMDnjQVgOJaMM3mZZR-wqwtgsTNbi2Yp7ihVTaEHCBtdbZP-FP02l3zCNxzf7MYmdKr2HYByMBL3gZYhmT5WaHuzXvq7y2u649maKJBIim30ala4ng7wY4aD55HJgNiURl8UZMjw4dPGa-IBLF82a4c1RxL4oYEKu5s9Pc6gNnXXXT5kWQ2f6b0JEuXNiSB5DCHFEdulvuzSdSKBXmJxMsytVtJ02PfHYbYIdK6i92ubdmA2zQH8B8Ho6OqJV1CpnC8h1hVLeSKEfb253YYqSke063Lm9J65_Txrmmq1PqW-qX-MLiXPefoVgT1DaJRbf3K2yUXOOofNLBGxrjEtTPtTYICQIqoUVv4DoPpj4mnL7ukmBX0IlHgE-IGWz4dm6dRi8nRW61ViNNzpmUcEgVGYlI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHEzfg9wzz_FSD3BQQkDv8s4XPsJxWUXo_0OyvCiIPAVCmj22qopcMHsu3EOwTIS7zEmuP1yqvB9AHyeXhLQn8kyRkRUn-QMHz-1XBOJXrhIW83JSphoMJQDyeON-w6plXE73_ywWz58PtgMxyj3N6qSJPPeE6UAFQI0DAlwh1Z2oM-5J9c51eEX-xk1wazNREMbyfcCKa5BQ6Eb2STzrS3SeO6RtN7g5BqWNM-XqokWnvg0cT5AIux-_fdYBHkoZ3LrKN2P0RsXuIB3BdF6G_I2hIPrieSM9k_uKR3r4Rx0qsv_aCGuZj1gXEhSig9ljNBrD7BcNJrYgS3sgaGSp2vJFWGUAQ4qTe5_ATqusEyHqV-gHI5OTqFxTHMYX3Q63g8McuJv1hiJiVdI6dU1_ZoEAFokFEfcYb-tBy6smfGxw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF0RXgXPQg3R5VuUtglG9Vc_7f0a9tDuOVRxbkMlANMvnFkNjVkU4UL3SuEnbqrt7DUNhJpufPFzNcORWfA3dYpWiwbVUsofy2XQ9VHcjRUounNaYGOb71JbXEqvqO3ivCJEdZHKGpQ7lekBvWX1YW02l15TFX_8lnrHt7eB6WoEkmKKNXGqV2wkLp-e4LnRJIrIboEaGCqz-jwCV-OCGmZHCB7EchOUPPn3tfi78rd2r4zRqRiS_mJ1ZYuOWlT-ct5dKxzLCFcLC1sIJYDWKhLyTRE3IesGYF_1jo7Uu0yU_UEZNoKOW4XHjaHK25dJJaA_N-vNrgmdtQRJrudnqfUle9ZQwWJWxbH-5Pg-hZrZu0SOQx_hxEbx7BMRVVAEnHHLlARGzewyTTuxBrdovoAyQQU46_j91HUZzvcKiPhxvnf&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF5hFAbLUc0dOHNj7o_S36F0Y-22lSVUU7TEAlZ4SJNbGleYZJIHYX0iPXDECdhCa6NYkCONFhFMW-msD6a1Ilh6FCsGPYef7566sNZ7qCSedTcKPQ7kill880iIkEXTwT6b9Z7iv9cWWKY-mD6hIc1ae-QQSSNsr2PDql8RPFeGJs5-mDj4U9eLAPCvhwTYHeBYKpmJ-Eu917wyDg6NQfAyGLN-a9bGvFLNejvUo1zih2A0jgACCHa98bu8-eJwmG5zeTgiaPT6vsaZV0DI2fq6uKflR0xCQ_osBhlfDU6CYUhIKbFgQhol7YaDhUv3gSAv2n5BXpJU5-1pwl2D6NFtE5tAnaZtgTHGU_sd4L5zzuNJB2zjeWQHAGA67ITbKkNypFdcgzLVpjLT8rDswZm86lJSJzWwRfkghpHyc9u7P9N&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGJGvbwyHtMRlfw1CeYLA6IDdw510U67HqXAhdDYa_nET0I8a7azTbdqowzWAlpWUpQF1P-RU34k2f_XMyuuBi6ITGKQRfTXXrvFx10tr0AZmPGhrJUbeFaMp_NM_ApDOxOPdxump-WVdGSFUKYaxvUJqFbgjJn7unAPWjLcRvcbbsY6KjOmjN5-bXYaqfhCYW90E8_GoisoogQIVr3brACXKozBkqHYzlEpVdrLmI_vEbtMu5TkYlaAIjWylZHYxpJ5WlHgip17gMVmCv-oVFYJvYut7aranJFWdOGW1SaXCfRd0spBFpM0pmftpI0PUsqXzB3XNs-TS8-PJp_-ZDIQZchlVOCilIc4MtHyKoR8BHsq-5bPSJhpIiB_KIHfHmfbPtJ7y52XlPFHt2pxkAHE1Nm3ZSJ_WePIESsvfTaandX&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -79311,10 +79601,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Hohenau",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0982 112221",
+        "phone": "+595 982 112221",
         "subtitle": "Estamos en el centro de Hohenau",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 982 112221"
       },
       "faq": {
         "items": [
@@ -79345,39 +79635,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-Y1JoWwMKBXveEWfVkN6Zko-mGPzbVxjlK75BNfGwf6j5ZXzE50lru7H27exDVTYW9ZvXBKS_cupWrZWALfyZKsKGTXr6lS0HVsqsGGrOJ2TMbZVLX7S243RGLIGs322qtwbbirbHlFxxi9xyS4vPVj02QFwyf2NGHNZ2zWFeFM0XtVx9FyVSx1840IrAzK4DlJd_WDxTGL5DUtQLHe7j8TxU02dfVS5FdLA0sXHO-BmJu5VsHch8cLDPTKJge6GN3n0nnc8M1uZzuH_rd1RaKsUytgN3N_vtkBMHSUWKyLRAnCq5Lc8kdCQtVMlm6L_bDQiUm2PJEMxvAOVL-adPKYIjqHowOMhdmOWb7nJzlOv-WGx18OjRnVmIMyTYHrjWH05CAKd3KnwXGMgOFFiaNw9BSfCU2UmVLym6kMieDw2k&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHatBW15gT6cIhtDKeMckovnhx9zXIxpivJfuYLnwb-kvwXmS4nE9y4Gr8MwZPSJg_ilMy5Kg3l8jj34VXxdLINVEjYvBl0Ape88udGb1_YV4XOlDRfUf8LHTeKa9hudyBPKh44unVQnAkUFwN_7pTX7lS91BeP0Nm5-tYqroQwdC9yhSerWggbta4m-Bbfw2pBbVdtx9tUtO59Dycp-QXbZNYEODAD_389ZSIbwSiHBO5F8xffLOGUqIbzvQcWU4mjHX_nBUs5CITJhQiNgkZXiVk7NXM8z1ccdPBHYpewAFcpwG3rXhJegVZxS9A4ln07HzCDx9_y_lWlE8KQBvUrdyP908gB2QcWys0N6XizPN7KbL03qNCkpmoDbQroyUheKJL19m-BakOm6lIy8OFM2rNwmBAGOe5VFJAhAB0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE11wcJXNgxoMot9aPiIn5nqnXAYxWOqYaPGNmFlkYDvVB_yDTiHOmUyiT5x_eKeh8NuShTUNbu9Zr_-cyDhRSkfoQefoUa8WcQ1KdGrzgx3iTb7qHEJXJ1telWFoOIphRkjx49wrP-8Z3yaPUfGknZ5xE6X7CitVXMVWmSohAssOFv4xmOCtcHLp5Kwl-M3O0oWxIrH__hJLGgxk2dG99Ui3YIMlBQIFNrnKOZWXHNhKRQw9MeJSrWR_XFoUVxkLpErlMOb_DxAn8nseaKmioZTSFsFxaUEarAA0a9jLy-1oItn6kEaC_jyOKEr3vpOyD6NQ5jkKp09-6hyXAODhUuADlg9ToI65NGvs5X3SSAh9uTa4PQi1tjthnM8MNm1qXTrPI9YMl3zB0-RpM2ydzs35zOvOd26U91W4DB2kkQMWhfDZSLuiSJUPu8jA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFysTRjCUk72oSfpfXL8j_oTxy5mc6uVQYOU3ugPLD1OgW5E11CUsRXcuHf_p7fMflt4b6aIHK4xe_tMRItY4IiiJ_3bE68zL8AKmh38jm_HAVfi8BbRIa3iTdlNO7-HAaafU1EFt1Zh3F-7jUIkdXVbv5ZmFiQiJVAjKcGr5m8EaDL-Q78NhFev21qrNPCWA2zYGgNLsdmMkWlsxmORFVdit4B6MeiCaMgpcdC5vtl_lA7thzXXFuggplmJe1-C2m4hYxK3JMTw0aRuVZv1TzJb8SLT8gQf7A39WjNFOvz9oUJBHHrLFegDeY6wpr0dPi-YgDNtdrQxD-kjlXEomZqxP45kmC12RalW6wlvrJxPMRltBztSiKU7YubBmVyv8WDgGKjF2Phu093z1qMMUuVE6KNeH4VfdCTgdeE7vxNptzP&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG2qjflbzxpwyPuWa_lLJZh5L44LQt_7nw5cTol1kuAuc_yAdhb_UwKT06uORXO-1HpPrxpU82uHlSrRfQ0Cm08094cGUU-4_q4sUoluaHDGyV0g2g0-0xIAgo2bakzwpBzf55BAegXxm-4lGdiFiVLSyqTZWub8WsV5uod1eCvrAu0Vek83lLIEGgMf9gXKXCvEhhMYGgncD8G5fvCfLU9cqnYPls7sCZoW9ZtuMo1C5i8tUzFy5raO_nuZOk_lTX3wksjeN1xUBJjA9WeG1tVa3pOhCnYljCglG-jh3LGEKUbt-TTCi1Vq57C3GMFgIxSYsTnantRCe5ugF2VA2Wf9194SdBFX4FVLyQzK2iiPtQ64snZhyO021BOjPURjZ3CHpmgaEzh60meivwa9HhBTIYJC0_XhjylcaBhtFRsIcfD&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGV7hmqsaRNBtDh8WDH0VwlAvLfUnzjb4BXOAABdhbvzAa5FyqqQ-ykmze77gopTfOo6YEM52ppH4TXMfW2-moQg819rIR_i9_x8XqDLz4tgYSygMZf4ppn_4wXfGv73h2fm-Rolm4G1bUqEaFvGfXreUK9PM-Zmj4-FLI0TzU4OEy9fCvWijnLBxIAJYgvb9TAMZ1diLvHlpSNs8i_3rRutGxnmpFFdmLQEdbcTNUNQRxHbz2RxCiJVO50K0zBZeZ15R6fIDwjjSDJCOEw182jIewBY0y1bQlV29yHk73tC5GKS8swWB7IaIUrYYxGHHREc_R2oRUz4-feqlqx9uoO4clhuty212Io8-7W2aRNuyN1PDQyqmlI36DAZYikP7oW8PxeUXCM1QifbW8p9lVnW3VhMOsUIzzrUTvyUILzWQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -80289,7 +80578,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Asunción",
-        "phone": "0981 933247"
+        "phone": "+595 981 933247",
+        "whatsapp": "+595 981 933247"
       },
       "faq": {
         "items": [
@@ -81064,10 +81354,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0981 448335",
+        "phone": "+595 981 448335",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 981 448335"
       },
       "faq": {
         "items": [
@@ -81098,39 +81388,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFKwODrWXrTJPLduP5PO1INt3jAdFNkWxqqwR-vpw5Ab3vIFlV4cXtUfDa83zRQ23iNWDSFoHepvkEfbQR08DK3yauvUk_A1sTxNbF6-sWqZ8imBv3vj68xPHK50CDcR7G3ijhcXUGuqdnV-_po_4lYypR01GvsT8dUIbix2pFYoR5i4ZgAmRyjoT2rb3rBPOLPFyVsquV1BIRmA5-HaJ2_e4CVlwK3izKWWh8GTD5Q795eben0Ka3HWvDJNO_o6aQkA1lz5iMkbXKFQ6mjut7sRkYxO1KDY80FMckN8tC2-w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGywHW0U3xBUO-DDrJg06mKJoYCOw_JYN0aRP93_dyY2VyvOuNVfMzaMqgbpzRXh5VPQt4i-50ALORsg-J8uyikqsB1H7usjg5iz2IlcAoXJ6knVYnLrJbPJisQaV43ze4LmBTkbVGpsip4e97hs6zl_HUFiFVB9VznuWge7w-_WRahY5trD7AnhheksLjT6CCZ9Qy348lXX_-F3_ZIDZ01oAg1r6gRPxW6v_DU7mxm-2j0YdYRw0k3pnAsVK9ndzsa977vjfySItN_ZaqGBvlzqPKBTCytRselIjTG3rsZkXCBC5dFykVKEsq9rLeE8sTVehiO9JYHFXqwiQX9d8KoPx9YCs0xmTuWMdrFWm5v30jCnEKhvTugA-Yqs78aarFsSk_2u1Wb_jlTsQj8KFEF-J4I2SA8ObYd9FNbhHfKQg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG7zFpeqES1GAKm10dAeJPzxikUGQrWY7_25TCCq19l_qUEbBQgEJkmEvL_LsYCIrwY9nI3ckKK8n410zpqlMiBdUELg55Q47Cugt2V-vabHFZuSMgOO_GXfNs1cEV6fHsT6A3EpRHffqyf7gJ2qiFajyeeZ0YU0hZ1EK9Lg_zhzo0rmuNq6SfsgXtBnx07dsOEiGxtD-g2E7Zsvcn8Z6ugOwn50FW7vcLELnOl2yi5OFs0u7PBzfIv_s0CJ2oxudh_DiYyT5O9T1I2fLpkl5GstdGofCmu9KdvNRpFMquLQQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGETO8Ca9m_atTeW1U03CTwE5u21sPsWyBqFgkg655l8L_8E6lRT4Jr8FIz4WQtcTGsQqswMc3zYv2y-aB7JEpYMV6EgbqfKTaqDfc4lnWLzehrKYarRJ9EExZEJaCJje8brRxmbhbupcP3IE49wPIBU8qkkyWM3IRk490zw7-O5mq8g3BVUfY7I3nE-WmmPJ8CAqc7ohGet-Fi11NSukmBtMCWJ6zcBx47uWhiGRFTASNK3mItt2R407glyxXmcxLjEx7w1lKkLsfSOr01KQa82tciHUu4Se5ZisZDjm3Ihg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEG9Woxnz-yW0TZYELYetkA99MXMfc8npYafShlQifcmlhjdr4dk96hzj3lLpBDecchuAz9vtPWzmZm4bT-_70nJrJ15IHKjYQkvdcMEFJQPPpkRCMfy0SQsC_LNVhvkOVIWnQSmGj9In3EJoGDUACoTe6xLbC6WNORTthwnka0wrjU9hA5zd5MXBioxGOTqXB5KRhTUn8JFpJqBUY0Xy7mkeKIkp7X8_fipHzYUyPR9mgiXWI4gKy46Zlr9UD0R4qqmFWVDYZmgYgI_eNtQ87KaiYoSrwlksvdQye9PMbMsw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGRHGrRu1WWvyc6C1n44b8W3ogW0tfIRbvPQ-KlQrTjwutC46AwbzYzDURC5HdftfYWw1HNO3yYvK3tYEqo1MBaHTzEBSd0UtEHUxY8YKl_FOnUEv1FxK6_x4s7_dBwxQ7tBIfjKhJzSvkXsZLgzdakYNRmvlEy9rmyq-c7i5_Ry5qThDDHMCUQoQHGp_2psTedDZA0JvpSIVVgZSF9Wl2wVJ3yPNZu_qkbFZzPGUX96MHe_WReeZtSnLW5VAPhA6tNDpBzUpvHUw4hgjb_CWaOzS6qZhv6u2tII2bjUrjNkg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -81514,10 +81803,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0981 448335",
+        "phone": "+595 981 448335",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 981 448335"
       },
       "faq": {
         "items": [
@@ -81548,39 +81837,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH3lRHNQvOcPXJQAKWSGxeGMMcABiJfyK5Cnw7qbN35pIb7n_9fPj0nCo029hDaw8dQb4uC8Bn78hnULjKf0ecgRatQzcvsi2dHtYtNbdodx3_3M8juyLOj7VmbCubCkCjZEx7xHX16yh3bsn3WGjG5r8Zo-yFsE2KGr6SeErnglWg0Hrugl-NCpqA9NbTZzK5UpaSkcFHzPshMWUnattOE4Dugpv6PjibXdaDu_XJTm-FC46_qOsAxjsH59JFLTmeGcugDJQLhysZqqsA52wCmX2zlm0NyNCXM3RnwFuDpyA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFAKxUkkXLi_TjFB2_lwPrpA2b829ZrbQM75gNsgCQdboIuyVPjMtwPS7IQdW_jV7_E7UaQwXxnqgyx6v0ML-tA_eGERssnJRJYP18o9T2DXK2HX2j9thcAcpszwxp2YzElrNoF6_eB7OKvmqc_kxJU5HZvhRTYZM97uu3RDcLobfQoZR4wbpwQoZGVYHGQWscdpxeL8aPysmIIF26NbVQe3z91fPM-2CstX5UVmHPdS4Bf11txnOmaG7PUF-Lw7NeVR8RFFH80O7vucCMwDSgddwBz2JYN7MNIwWXyt-DShNOlZWrEMGK4OsnbWVrecM8OdXRiC6W5q8hH8e9DgQ7UPullexUXkQLa4HJJEEYPMtXy1p_ZWPqtn0Af6n93M5mh2yVZyBZdSLJj--RqWVRglZlLSMd4pPTPanE9-mrL6w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGc819VfKOlDMuK0zxneDeO-jJwEJfQbnMwkb32jOlLpDR12RYoWWz1xbkeZzI1DbKOS9NQ6wIS3jLvmlRO7_YFCzBK5DYdXkdART1JgsWRVTBpgd9WBVAYSt4dEDuEWVlhtSd6V4l8upsfdpyJNW7XlHD67hKBlmXM71jaJmQ8YKWxMkzEFCGDfHfQ5cm0VExX9aDid9C19qulQR_4x_GD0ARwBT6HDPg4jESGy3WOuA8wcLLNd2JHYC5SaFBVw76Ue_noerUGcU1YQilWTK4AP5KyQU4zv_8Opn3k86g7ww&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGpDv-6fMzSv6ItQx3yZyngVat_aE320r1oRLsA-X8T9Q4rKf38wNyNI366AO_7ksY_hdiYdp-cP4zQ0fmDKXRDliplZ8zy5QdsFoZXPALxWTqKjGUigrp1R-iDfry64snhZy-OO3ch6Ion2469WuchR4yPARvpfdb-iTVYNyEKh8F5XpK-mxMR4WnSYp3-9NjLTNEgIcIgHgxecsSF-WVaKLcVNFNoeUksfdyHA9y9Hb4AQZJ2-NPBcFtTS9Z_fWRdIafzbT1u-i-M1YzBCSUarwDAA6UyYJ1BmUMM2B67-w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHM4E_NRIfIH98aGK-gEoK8xFi5a8OCFqnii4bjgqvfvbMYNh7-SAmtDem_AjTIXis8z6zhpr744LmwZ5p6XQYUZ9dM49Z1zyVHRlqh3uMU_fLSknplmgrwUghDG4s7u8fvdnSvJeV8Cll3u0RqXKO-tNRgTAc9bn-YT7ZCVbcvG6zXImOZHOsa6d47ruFwF5envCBb67PE5ly4Y_qAWjBL8FdCtqkgwE1BXgss0VOIuQmx0uu8cB4qZByFNoVPRxIUhJet4G5zS2xdraseHbUKTlAcE3SPOizJHjifEI349w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFfCI0CWh9Ie7CSx4CaPXo1_fLhHaclYcL6xW6uX0QyO9tqn-KhlEAgkHX0P9-wWlWbh2nJIYfq1mdQ2F_2fzGSUaOzbrC5Y36XyNKj47awOp8bKhE6BFyc_X8z2X6Cg2U4ShAvEZmzoFUBnVoWLLwO4JRHyoihjW5EVt17XkiiCmqW8bPV2-0QQORByTqGlmwd8674DQPVQkl2AUB8SSkBpSPUPh_ka_zwn_dTn--2t1qgLtBOm20m1Ot4Q1ks2E1CPoGKpZRWHg9U80L3af-a8Jv1LLBV_ZOvHsZbcTTrLg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -81989,10 +82277,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0986 106062",
+        "phone": "+595 986 106062",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 986 106062"
       },
       "faq": {
         "items": [
@@ -82010,6 +82298,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE8a-1yGbCceXdcD8tF__HdlNSQtG-kfurHfs1DNb_FJ2eZiL2p9Av0VhrUDORJVbpN2hlwlbGxTOpwOnPFJsv_NBFwebDyiM6AzeWvkKWa3NkVP3Sc2e-Rh1Rc-Js6U7LB4GOJ0mdiDaxJ2zkRGYsW-Zy2AGweU2BUU8bTRiSTQahZicj1G_wRX-WvaYwHs-l6y_dydJV1Jut_vtink52UWvbqbFYqB4s792bmG6kOm7IMKsTkeT84_yHEEM7sGY0-i1apqoUc3WZ8ax5AlKHs_PD8Gd-O2cGaBvMP9RRLEAX0gyvsMkN19IDZoK7CpBOpYIv_c2S2l7j0jdllT_8q1TLpc_HuNlfh3QP6VIN9DPqTDO43diWPRxZ60Mwdsuuzbj3Y3RQOWW16adiAngGJmkpHFmlSmwxRmhxNX1TQjQk&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHssuP-pDS7PfmLS9krByB0qY4d1difqbo4xtgg4BJX7Q1TzVnP_oKt8TBAAICprkZs8IYD402K90UMTX9vPRjCqrwTo0x7pjZK99xEEJpixgvTpbIvkiNT1O3PnpGfw5-9xvCNkYkl4epyhuOQkJFYA_p4ySpnMfmRpF_yl5Dem9fvQ3YLhrbTikiKtgruUYpjJ0PnhD3Hua06KOGA3iaT_fmxO3wNu7Oh-jwSHA9abYaxvRCL9KJ8wo_ZJ1McQeaYo76D3XA10EM80zVC3rpM0iGCuLOHZQRJd8a2kwCJm7tX8uXhJu0mWJJvLMjefDSedv8fL41yfYXYxD4gryemkDND9HXhQ2Ovl6qi9rYqeK3wcb_krhXiykfxiEpVPUYuQkLXUEompXkxtcXJ5aTHR1I9BZqsghzx1byRqQ2bE_Kp&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGYMne5hU2asrbEJeP8Q6Svm8GFQUmViTIyH5WScBos5OFV0ZcyXTv5FB1nL-uYRX_L5UpzrbFAs6hAkYUFDZLwwSwXuRaIrTh1wB0EBj7T4kVA9Op1I6DwP66w0vQyYhyEWgrudbohn21dYCB5e3xS8toTc80H0HCZlIMdTjVHKM57cN6FCkzvIshMl7uV2sSeVc2a8FJSBnroFPL4xbWcgntL5kfiMYgDAT5A21iugKOVLRGGnalHunm1MGyt-uQqLJ5_sgFB5J1_dwL8EmYe7IQkR3QNTaCltLISRYthP_Cr1t6CpDBmFWvQrrxegfVvGD9iaaKMyhqVPqFrzAg61f0X1Pr8IAM03lrQDxJ4WN5Px9Pm1a1edoTTgzKORwgHrzLAemsoB75kxbhoEHxUdPzKBUmU3tVTcYBNp0r2AQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMuOfrxchg46Sk9Wgzz3OXs7oM-s5hDytkxYMw_DkOjGnUHEOWgbEI_mdu1QIFCw7HZeGpCokxjmaADprd04StdYxtwxyHoRqfiVkrr0lqNjz8P4hnj8Vu7Y6SzhwmpR8J5HdRz1DYKygDr0VXcfkOrdWJqfdz9qijqks6hjg27oh8wYv_iUTtT5fSNK9yFaMQNGHJwKjqvU6TVLGhK_JSlq3Ct23S5nw1EypH_CF1eB-8c5Fr595-upC3Aj8SNij6M5lwwI8Nj1rBABhgOBnKEq_kogWWXCxHRxIFpqqhaE-v2qDFfnOo9M5LeUw6RrHQE7q7PTHzW0gJxmAVci925pPb26jgMJROM2ENcWOCbQ_KJYXCsKAvZgIv7iDBYGwqXnc8FvScE4b4y6R-OWqO8tvaJ_uzuUWFfDd0_Q8yDRFY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEMmwVTXl2VdoXuMI7Fh8xcWTYEb6Z_xWZ0_mO7QN0gq-AgWpLPUHpAmmXMfhf1k0WaT-s44WAl9J52VNCwLFjZQGUftbIGCoedAOKNhWkuZxhv5c6jL9eD2rLL3NvTYETSEnqRgGGolnctE1SMno1dzPgfLKwfF3Nkweir9iprmwQt9SaGUp4rfUKypfqgQBQEYwjpEMvGnhZdsZdr685EsThmC8i9Z_Q1HqMu3qHo_30_q5bdLjy4dMPYRQElrhNaRV5dlNxdK1C8T7Suc0iUDt9XSeCakqLE763V7AOcPKdnaLeyEzc5vwhQEcTkydfNQhb1CRxABMIkw_6mXzfUTA5NKTZ7B0Zax57-A_VRTvvEZmPpqu1GqbQ0UNj3PiriuUISWgZpiw3Ekm58jiI-wpxAfn17FpXfSd6FVDyFgg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH09S7cqadXvT5JRwP2sADU4iC9p4Kyulpy1Ewek0njUJGRoBiPmbTjPaKxME4SqqNwm9ltXsSc0UIgoIP-xOjvhrNS-PCHOI5p4PUd_6F9GXArBpn9tJ_8JA2HRdVdx717MxfBnM8g70bUFFZ8Z5OSkQ_Mj_HZGqdKLXHZEktnUq7L2jfKTRHFAsbUlqsChJzQ8_a6KE4uk26HOACyFN-iOk9Az8Q5G_zT8W5WHUidTXr8J2revpot4AakIM8S9GxnyW3ncUtliK9OuByG-5OdQ7Usvp_g1lBXS-ZZfY8JIlGXBWGyyo6XihfloFR2ULYhO-bWtj8v-h5LcMvo27PZ9VYjIeYGcAOMRTEmokFyepc-vWjWgGgirrrxdSIYonIQeOibFD-4ZLlK9AfW8fPA_8TuXcN-kSYg-vJmD7F-kRw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -83545,10 +83870,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Bernardino",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0983 104489",
+        "phone": "+595 983 104489",
         "subtitle": "Estamos en el centro de San Bernardino",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 983 104489"
       },
       "faq": {
         "items": [
@@ -83579,39 +83904,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFG6EBk70cSzXjL6kTH_I8M_Wrp-v8i4LBS4NQfoDhvpx7UVon9GajeZ3b_8akAVgl2N9fHKd76DGZ90XHVjXncZ92SV3ncoo9xm_n1LuaYsZnum42FkE-rZu_WmqAX8IvJ8482a2vt7tmEMZBFikF7ot7LrI-QOatF9VgO380hNYnEAkzfeoDg8Xw0GZRDidpHCJlSEc3IQtuZo8NK3CTnwfg7-6C9GKvWZVEKAqgjXYfJWTIK10TdF7AyjeG-tgdQFJR_m7DAONmaQhoSkYx9BJaDRqUxEcE2WhqoCtCJtw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGIdizu01Ry48J1M34io3RotoVmibKQVWQy_fW-cCmrTn3w1jGFVBKJqnAMy83Fd-8OzJ5Dr6soOWj5lo_hbaStiemvN0Pl30m-ZWH6S7OI49ZoUI76GJg-IjlZRM-zUFlH_qfS63seXLxrcapxyK_WshlW7t_64pglIOrb18bUltA5IM0_Bx20rBiK-F1aYOSqqX6kvvyCXZ7rdSivA__qD5q1hV237DZA0m7XlN4qU-GHpmDEKwZdPu5gKWQpZrrVHhjm7d6U-FnLo3nNioRhxYfGxlJ5moqcxf8j4kBX3A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEq3vdYpBD2WTqNKtP-Sb-hQ05m402vm6AkFoCSyfQm0NTiehPXnLpSH499byknm2IWFgrRis7dXRO0zRXuKqSLau-mnuHt3jCb77IEz8gZtQR7Wtl9iF_q7mnhMcfi6KmW0bra5kLQQG-R00cg2L_suEuwgIQFSay1IW-ZB78RXeoyuJa57i3b8xbI5COsp3VNhJyMEwl_NZz7Ljzq22LkRaQNYzDEuohM7ZlP5t2_wK5-dG1_yjg81_aAlT5ecdYqoCO3nNdnCiZpfVIzyrQhTqsdo-Zl7T97Lg6uyX_56hBSGi3EMtdc9ihBnpIvcdI06-22pD1DbHu7-PbRKTfw9k5BVO33w7-yVEEYdEmwwkJGzatW2As8oidvMPUOov6f649kTDvXgo_rHHLoK4tdLcF0xa4kTFMxirO1gpPCoekhGgTIYdNBBjVXCNmH&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFsSUO4z0urthdBbNsbFPxxD7i1jrPAFvtVqnfvg7q1VhzDbxVRF149DYrdMorovZkXOkUvHSf4hkIPq_4dezOAJrq3Jz57Cj-ET-kXUtObKZ0Bw89DDUz-dkdQ4KiEG1QCybTgm6A3wY-BIGnMXrSkS4w5PxURHqtJOJ1ix2DemO26OHtfQZAp8i6YHVwoJ8OvBxQhy3b3mt2z71LcqBkRsEfLoquW1f19FSm6CN4orzRKXBY6vX9IueyQp5byaR3bcIZ1RsEvj05s-fPRiF8sVKnSMOIec4oKKCv8y8AhRQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGM8Z-lLby0KUjxdHU2oLoxvfZa5jDj3-JZrVQRvDDarJ9WHdjks2TAWVKLtW7ONAK0op1fHuh8rNu6-_gUk99Bx_sc79RxuFudRFfK6pmeTBtiwsgBXzjfE8r3bKxdy8isVfglbP9Fn017whCBd8N_Us7A-RAKkoncPFbiEJvGdBvcfuupGKREgIgLPgPUOSOujXyaCPoHWA25uRGGcExqL1otNqUPeGpzXZAOtHGIkb6aH8NwmBUCvFlo0jFnwNNIou4FES2JHZkLHb3MX4yYDQgvhdnIN5jMO8FsRRfE9sFbbk6vek32VddnColfIwJhmlYli5g3xcnu2v3CX39InYc7MU9AHgGRnleQt_BQ2MmCiSr65-3-MGGPl7fR8tUucpOs8yNYI0b14uV-Rabjrm0PxknmIpFNpqTyGTMJNDFlsgxfdHcAhu6_1Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEE8rzRqbAvdyq8WiwwnCCTCnCjndT4TSl6oVLV7j3Tru7jzRIZT8TLHQO73OiIbb7FPlMp0ZsKU_tYuUVLMBQ3oryDMz2RD5dDuLku8fyyIE1EfIbKhU6ZuDjK4q-dC_T1FWLl0neSNw1I2c3RoicinNhKD9isj2KArMcIH-N0fan23wXeJm2uFgoz04NQefijBlirqtXmXT5p1v8GAz6DbBOY1zN1MjN-Tan5zJD1GSTmQAT5_vfjCdCjqjJJv8Y1RIh5nefBL09PEaXc44ro8r5af_4ujbjAGI7bXzNLXA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -86626,10 +86950,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0971 226221",
+        "phone": "+595 971 226221",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 971 226221"
       },
       "faq": {
         "items": [
@@ -86660,39 +86984,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHPZq7Ow-FK2wQkTDX9KNZ7-HMOmFcOB0RPrzEllGtuj_BrXID7hzlEfn9NyRsFbqEVQTYKD_rk12Qby1TZLDXLmqK2WdOQxzJS5QfnncoCwjee_Hox6FelM7g_wNxhFMAswTh77EQeprWVc-QdU77MdLQ1Eq2mGTPoUet8TFteUboZg9aYw-OkxmUHhdBW8t5serFlTxsPkDwe3a3G3QpmEm_uAgDeOVFzR_MGEtTPP1fwym-L8UgHSyrzUGJ3PUJcMo2TghXIg8LNpAzs1ytqp73JCfwkaNAt8pGuWVYjZyy0M2dHuXVz24Yq4GIsiGamHkdd6Klba5KYD_XCsv-OEyPAZaQ_dP6W0AKYs1kqAW7MLrFDjPRs_DGP-t2uR3xJI6pGiYfwByW4KsfV3wYXaEjXLNQ5Oa3ZmLX8JESsZg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFism-Ru_gAFjgRJolqRznBbTQX6nrkfESl_hOsh5-uUtIUkZ0OW79BSGST1bHEdNT2OPUN-6N1T0wpDYtdTOfKKD1RTz9DlP9zpYHom1hBe256TcyBuEt9lESpwlYhyuQMwtsiO4pKbhoyV72fq8PFZDuEUcRrtIh61uOI5rxYAG1yNroeeaTVrOb5j5UOhOT9GOJX6F7vBjjGYvfMWWcLzZqYmCbRyUVg5vPYLY1t-meD8erHvj4pxMre_1_7w6pTtbOPRwM2TjFQCEvdD1lM9xssFEmsf5P3vA2qHnvU99paPvtEWp-QhNLUsVmynYvbHfE8hS7z9EMDkOagSfxSQRQpq8_nszl98qRnXrj4dMBgaMApZhdJnH3RBco4o_TZ8NIiPW0GOx6BFOrrKflkqSjKZOzvwaqqcoVIFi9AYJlc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGra_VcZis4rIIICnfJBXXlpdI2NeGjr3V5haSq3TdTTUxWqapOg4Tdm8qtWdIVXdSaWTvWN2MPBgY8FlBA4kfmHAKNlWN9JNflkSCBQDe1LpNm-QjKCsWrZYEBIF0PjrWzdTVezYgPDomtIWQEusCh3s-U1jY_j54pMuOp9XHVk_5PdUWwPCP6hcJAxcWneZgbIgmdttFJcYNt7vf1KTQIg9nDWuaWzwiKewAxIzcNpcNsCl_KEgLS8HdGb9-J92I5n-DXNYvFtPKThYK2RZBM28tbwzj321HQGy6uaTN-w3IkDR0TECNAU6iyRfCWSLto3Cxv5ccnWI64zrdyHP6Da7V7foyZ_K7DgscNDxe-aH0yqrgMhSVU_06q3PAaDvisKe_yl73sF-Vu6dOS9zIW6htH6gYKY9tFUjkvcJSmRgI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEFbUB2CqVhOaCjWwOmITNbrMlBVrOL0AJ435rwV_xtdAaaTfQVvLS84HdHMHxqQMT3xVPYDuKMaol9gzJh6OGFl46wIlIqNBe8jVDR_PSbm_6i3z8v-wERWbyFDMQ9CwBKogHqKRroVg3IUqIFfdawXS_3Q1X_5vsWV-RaYh8gzB17ZuF63ti_mUmzNvA7yPnqjM-z0g8kcIDZKY6w1J0hH9O0a9ZV_tP307uL-fYBWkYeDc6FYRGb40sFn-ZZbXvjjH0V5-ycCjuT7CsLXn280trZPtA_3ft0WZPrhFES_MaOmvDlWPYp6e312u-8Xjb2RitIMHZusitrbeTSKMTDs5zVhXap2Ru5Gx-Cruy0lbARJqHVpuFmpdakC8Bc5Ffa6WB6bD3h3hBTLxNMUi8fDQIRYjpnRxoCEIZ380ZvZYso&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHF-x8ah_fXSU6akOgKz-GzDX9SlWsqYSpnVTsyvG_z23WXYs7Waqx7YFLCWDUyaTh6p5aCkl1SzRTQiKAzR-lMGGqv7uA8B9lgV0w0h945dnutmxxwriAoXuJ4VCS8B5nMFR5xB00KIw6wm4kORY3r5mO5CPO8G3bnxv1V9GiTHSQNY7Ow66Fl-m5ZqyXGqN9kZ_2YxzuiAopyq5tUWYt6oF0A4iuDazCJrM_DhMGfmrjtLlJoqSr9WBLL3Cr1UpLoFKs6yhsAPTC8YUu1FeNEVnyzxpZgfihFxiE5aRil_Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEi40XG8dISqqEQ_QKEnYVpu3faEcx3BfI1_1IYAKpRcqhx7wCkV7x5bf-wm8GRdgVV55GhyOa-AFpIe8IYzu-V8vI867Ofif_KKv92UEUK_B7Cf6ckI0AeYYuqxg22iNIxf51t24FlMrrprSmJNgQcC49XMVxRk1KKEOsK01m_MnghKXryOqpu6IClwXLOqoa-26XxhY2_hmj_IjR9ip-9535-iRMvSmXdnFCFPBQtumHAlNYMQmewy6N9sGV_fEv2mAzGlEud136Dt4JB3RoM_5JuYP28HhvAlB2EEgR4OA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -87080,10 +87403,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0982 272328",
+        "phone": "+595 982 272328",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 982 272328"
       },
       "faq": {
         "items": [
@@ -87114,39 +87437,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8PIBi8vemu19LoesuJM9E27MxpZOxhreEMTXqQLEM06_8Mb81pT2rFmdFhL3dxYPKnMM2_kRxEMLzc16aqJNceJZGPpeG1yJsJP8iYfoJ9PoitNWD31O3PFREIfnmA13weSebKa7UQvfyHkEkefc3pmaQ2vdh_E9icFhNbwJOWXfntH4QMhXplYeiSI6ECl4eTN4ELHrUstKXRdGmRqkPE87cqJk0_u_hY_amG5Q37kzFD5Zfa60Y3o2mxjz6Q_TWYF1nfI7SF72C8ytzO-2dnRJdE3DAO9nJLSau9OaAe_iUhiJhDkrO-wEXTupHkrGaGARXOIjV9TlmLFr0Q5-OrF83pxLHXpEbX5AcpoTV7VPkKIzmwH0MpBRvaOrr30_q8N9veaX58bjLAS2OnF6R2chi1FI-NIUOtXU0uxrhUgr-&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGii0J9m3S6cOEPYpOaQ75ZTRbBeflaDs_XFWax1FeoFGCRMZs7iiC1BEWfmxHd-vgXtq51rpiu1J5BmIJTLZ4nAYzzJuVmiw_vz25TMNeaFV3bw4pvZSj6Jj-D1n095hAmzHufSxgOsSgCHDcFUjTTB9iWCGnTIhg7jwXMfoPV3uVRYUsLXdYwDZfEA3YYcHvza4HRCNupjJzBBDRvhBHWe6HmwS5-NjHYJlrfEIthBEM2HlylN2YQyYm7RXlxpGbwN4kfwkR3mvm-zbekn0f02DTKPulrlOMv14yUtyDl6hycjhQZBm2dybB5KQ1SzJBK8fwACMDZp4spfKjg2rnvSgSKbKfqFmOjq9AJd5jDn78cJUBtfSqNRkeZ4aO9ylRtQKBqW2I_3ylMJxjKfArvKx8AGn0SMqgQxNyA3a_VRQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFaT_vcokPVr_Yr-WebR7JYaahGMvKHE66YP2VqMQKMlHWzCuIEGAvU7Il2fmiOIHTlx2JNT-jL0_WYNtUdfBDM-Epgq6h-NAmJmaqcscF7goa1zRM4RzFqWK--5Ose8D4s-bktayv8tc-PyI7Ez0NQMOhLJ5AVTo3WGKISYeUuJN9oXbFUDrQXNjPAc2CNfs-sYuztWSY8btYWEGP83b-TGnZ07YDs1RftBBOrI5kneug6z6vtra3lbB3wnnGnw8WiSKjAZlRAZx7lzmQEZpYVX9vcU5XmTfZy2MPJXc5RTt8xKB0WZmLYNzyPsEgfKVZuyDCo6a7er_s-eU6aDWLjCOaS54mwoSpDq4SsJcDZJSvOWH-uqSS3yH-geNjxQIx8E9MCBpMR8sbLsfCBix_hFScIAlPqAoeTw_69xN4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGz1YH-kDJAXq4yhgKz_PkaCvo6iUt0QBrWPhOSyJZXnMvwNH8Xi2mrLMzVP5SukZuvJM9sUT9c412lE4gW5xuCntBFFbMayXnjyPaRfBap4ikOUj5I88jTWig8Y4kUcSoFPlvSE5inGcSvIharxbKYtFjUb2Kl1nvnUtZoIUjMbq_sCMo5IaJJ5aamn-6stMwPE4cBjpD1Ra0oYKCm8AGWvtSz-zMCKPd9zr9N7EzQN3Qa8WdOV86_LjwNJrej5C2hThFqO-hwiizL5vot1fqopJE0jIRTPIxD0Dnd-ZjqsqfwAKamsqdzEPJrtSvINRHtCC230_GbBVPNTLYnRDJTZgxYaNIVlW288c1hD-QVLVlC6dbNQ4CcutYF0__m5ybazMTmksg7QgXVNBbBX3-0wrMZPlIMmokeF2sloSsqCg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHwup105P-uK5KUdGHzqf6Ksy0q4XbUiH8i8cfaAtBx7Ernz1Xpfyx_VFTa3qSYDR-C68LJ83a9FaOTttl5BUOXWrLYGI_8AwVJuQ3hsh-VcIQRWjYmtWTDpACLNdy3TX64z2dxNOTG1dAISywvpV1-wyLIYjBRXbO-miKiNMjgvHuBrkOls5RyvXFKY3UgLZ8lxly8EyIsCbSc94xxUx2G9ZqOm2tgu5fejoaSVseyhMKizXlN4GeAHXPf-ltjucewN-Xs8ivvdtFKEVA0z7RWRe4f_KCT9e_glM6OuDN81wPSxl64MidL_F2lUsxltEB_gOelQph81F39ALCy_qcu9DqyZhans-EPbXVu_Vx4tJ0IHjgJ5wcBpM2H6uG5ykjdcVDc5-Cqvaj93c3riATqA538SQFBnOIs0g3qTNFId_stvTf3Ixe40V5fJkQd&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHHwpsV_gMzu_fvOr0TPO1lANgH7ZeWjmjmvPtKwQyuXFhYwqgjQgaR-uEmED8fLonRyNQgmXqgiRRwgblERQGhCae_RZKLGzjlKvEypuTFfm_qevzhljS49BDAjMYQk2blmxQIlx9YnFqvVu0uTGqr0lrwLIM_gmHjbf8EVS0KGJ0VDAduGDa2Ls4fAPhs7Oy5rrkoSPRIauTw_nPKyN1dpkcMgi03jrFYXMmz_IcjsjDjSy4_KoLwz9WXh4TPC-k8O_f5M909cyfAxcQSALWUL8sCRTPJluVJXqu70sS5vy3kOFHe-xWGssaPInLTPeyznB3gY9I6VO66iCrDGKfcz9_YPTzhvSfebfC85_iRfdleOvai-6pNj8T7a11BLmZwwjFrdQ4hg970pCNMr_eiAaK3T3F-HdPzHApPFJUMmJ48_1Qu5_OdLne0jQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -87536,10 +87858,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "0982 338886",
+        "phone": "+595 982 338886",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 982 338886"
       },
       "faq": {
         "items": [
@@ -87570,39 +87892,28 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEcuqeouhlzNaViAUQhmhy4wNbvBHhHSaXaroHraStKCFDCpgk4WgKVC-gO2r-7tbDpPZU8luTuElkM0Y-OlddTx85eTtHMMTiwhdX-8xLhRZVLXI8JmexKXQC3xduXKBlP9oYEoFKOIejLt-jMoXCfW9fF2geVcQLH4-z7lzTOCeVWFrbitlQzpqkuP_Srf2Djr47zLjGpMVwimFgcgEmstBwZcbgdllSTmDx8d5zQrosXgTJYxpQHjuYnMqfuEBgpXhJk4Uof5lpGKlY3RxeRRW8xGkYbKL027VFUEsfAriOvGGdvd3NqMlT0H3XZ3RCDqQVIPwVexN9C9qWbSnaFcQJHLyT2LGn6ZrYR6FCI3xOcgOKYFStF7qcSkGZcpLFHbb3C8FzGWNMOpYKEKSS_jCfMCYD6mn0ogkIRkTQmHQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG0LDeaxTxUicubiuR09DCF_LjVkU6z4vsNtmUlxh42C0S1VtwppaiIlpJRYtPRIefUU1_crzf_I7a7GtoFY9J4EZbB8Ex5jiBLLb_sTVD2KfD5zJO67BnZ2DHpPAljhromqOsHjx-d4O6u-qghD9bXlsIWOQylORTL7t255KdSq_9ZrpeUA4mcR9g5R3XFxfBcbl8K7kasPOR4J991BbYMBpSRkkb-TUiviJS7kJXPUVkl08sFixPQ1vdY1j7R7o_eDWBVQeyK0y_pW3Z0l9M-QnafiA2uZpuV6JclYEIk1gzJdb01dHVhQLmSGhP0jmo3Dga9CVZapqzr-BphSzfQIOq3sMrP_f1OheyTNSwBP7818u2Hs7SmytpyN0StffTxmqw_0ldaoypbsy4Bb65gn4l4T34O6SFSyeQDY4gzloZh&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGk1FAx3xj76tPn3XzQrhpGMN1myowZ-8dt_1ZACm8_trujuaQ8jCqk_iNsffLWDSMMQBJTw0F-0JC8Uk4oqlP98G5OCHv7NrH0KgMXKGxMXWbLVVb7F5K9mQPeXeIKqv9E_cJpDonRAB9if9OgMqS35UK-Sz2Q6CJSyhCfagiL3mzgcoLxa_fhQkrKaLcPnLcGaqX4m_82Z2Ufq-YTJnHX0GrBLUELfTcgDGvR-XvFLLxCfNaWH7SoeCflxcjZ-TS4ST57FlKBHTRkzdnzozcVDUp8mCicEN9rDmqaSToRGOLCDXeuTjXyFolKDMpQjoCRJN-2HI1T7jVQMNvQ-VT7MVV9MW1WjaaC4GO_dir38muUa8VA5DD7-Kvzr9fo6w68dcb-KFK7dswVdT7UD2KMHBHVnLs308WHDHlkGZb0HA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
-          },
-          {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
-          },
-          {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF4817nGOQ0oo-yl_HY9tnJetLztcN7VsXF34W9c1bkkt7i0x4cnuVOrCeu8SEnwr_xsqbMICm--orRdFxMTUJnpYdJkSMtvEWtGrVtLXB8g47PWsnrAf68tciDFHJGZ8By4F5-tlLhUH-ng5Dl5mI2gaL49NVKlmFSB7YKt_yBqNzBAB1o1SoOI0PQLMktqbFy1RFaDGIgZ-K71Fh_nyUcBXvFhsJm8_f9WDO3RhcoN51T6JDiFqO3BIK0S7DupWeGWn91Pk-nWzPraGisFgwX4QWfo9_YLrKqy5CFhgqG6eHasIXGtG2unt6jMrJYGTDGYuHhXEh6T2rRj_QJwbSoeVL6oUJac99suumeXbWavVzNHfYpRmJ7VQKXpvyxbjQf7H6ukD37OP9t4sDpc7Nxi393Rhg8trUJ_E6LW-I&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -87839,10 +88150,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0991 204913",
+        "phone": "+595 991 204913",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 991 204913"
       },
       "faq": {
         "items": [
@@ -87873,39 +88184,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEW6po0HNsCuJw3yBBmm5SJnLUIi6CH66amDkgv6UB1lOyicPn3bc7xisVA4Y8928xnYv35qcPoSL1uuRpNcfQmd-qjU_tV3XsuLzQUX8PkMeEP2UOzA8Vgx5j_2Ewiwv3YAv31PInTXg34ZStSZT0dWrSLUIbP9_gCI1eTEIftpFGQsnCmnnURMJ7l1fZVc54fRE-oFEyVeModYCUZ9WPeKHma0IdpzU2AmHbe1M4ZiAOR3Wiw4JLdBjw4Cn-oIPf1GJjeEI5doeiF_gC2mpqUmJoGSs__thfwQKiBa0qbgty5QXta1j1rTU4B5JtIekHuc0_MWUbXBGtTVyYkD1XkiUyfRs08na8PO5YOoZj-x-xvkEgdRr-QrZpAC1NDgxkaZ1ISEqCpt4ozB27jtTHbSFtssr2lYtebyq-m8I5_DA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHsImZ34te4BaRH8uBsE6Tmy6O8bD_je8iEOKoVO5fvf9MqgUJruducK4DGPMWatJdB7nIsQMg2eiwIJgSP1ZjoP2kdARzNyE_rAFCg430-O4TwIZhVO_5GGUiWJMlJTfDojS3p0ntXmHYnCyMV_FgViDmYb3kzAUzCPQy6TdSlNT9TryhQ5bbUmYgsh4E-wDDe81INJgH-C2IlVgH37UfFguCB69VWnSfnzQ0qOcwkQYPLToq9JmDhSiGCer8VkqqdRMPIus7s5nORqskaFCjXiez5cxJ6drBMKymxmLt4AiKNNbjYtcbVjbyh5XFdoB7e3KksHhkgMBbbI-iwCydVkp8KRZTO083BskdAElr5ARuxmWioH1q6vV1OaaUd7PF-l5WDHEBG7b9wZAlKYZQZVVZ4l6_MeM6X3H6hw49C8A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHIo9SnMvNCd9OWebCo79AgxD5R-z-AtxrrcJSqCp6tDPOwIDaCYatqVx5iTnvdyKCPXuo99z8pAUu9Qm-rPNI74D5qeZ5lrL2_zR_yUTXx28DhhyU-45FQE9nxemwp-bsDFJLjzPnKps3hVSrrHrsuVIDFjFoo4hRe1q9Qq183448WoNR8D332sUEfOPDJ40mnADtb99O4SBVoN1cMdyMW6mw9_9-a-kEliu4qASXmiAIWlNJZgc4naaFabzpIYpGbszOnlx0tZAF3rIN6YlQxLuYlsXfkTnp1RRrfZ72Cu6eKLs6mlPfbn6Uw_dWqMraZMc5_9sRD1tGcrhfp4K8O9lTP1jxiMsr-BZb569bbC2a5ChTYDJ3a4khqaWj5XoH35LG4hxOh31xICl5p3xEcSEgeiv5VJN7cgaEdw4c&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF7BUpbjJWySpXj8uL75kBg-7BZKnc55hDDnv5EdPWP-TqzITpwODQonspw06nqyq0QBlTjYwkX3dHq076uJP9pAgtQ0JRpNuM3_uJo1XnVh59jW7HTa0uIu1vcLpntVJ65gupCDbZw3ZTG427_xICSKkSLPVc10Td5iT1lwlGdiGR68UTB_UjNR6NTQTqcHxjyU3ZhS_fVM69-RdGKDJnLNgJmjklcXfvyc7DL12F3qfh5eCuStqoQNfy7Lh1un6YfqsyYE_fSeFH7bYS_4PBBY51Z2vJoGH7NBT4Ml9oKPe9TggNNHS4KQR-irYMhcgxh12N1Llod0lc8zE9lCxi8uhq9W-JPxhISuhuHfKY5d_RL-tr4pN7olaLxD-LPeSRR5rqO2KbGkIdE1Hfm6lPeahm-wr5LiMpENktDfyzHFQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFA3qWhD3Jun0GdrxAWKoi1d7IWPDXvUKArmPgYykvx3EePSB3mHpVvBwoiiOzf1u0-5s2Sw5npbANHHMmk_AKvv3Ud-oW7DcI0ltVD25JMzy_GDXRGaSY_7Vuqeg-_Y2kWRgKDVdE-_7vu5m5l-tVllGko-iD8jso_oL-ipXybVMoVBGIzwUuSra7AdlWZ0KHAwap-XcwuOi-rHi8MpA0v_DRt8iL8qFoiB1IDgeXdGkuE6D9LQeQta6Sz_c2f39s_jYnLRTviPyZtWdFgpPaPgj-lLbBck32NFm_INPXc93GcJVIUBYofMJtCogXbd4qmOQyXuB6dU6azhkdDbgGkA4CDc2vG7D0ZR99CvlrpujjPKfWT9sHi--h1bi5KS3lthaAl8IElzgnbHjp1gu3bKTV0V7GtFMTXUKXryWPTnKhz&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEowqq2hZog2zbAnuVvn7ADIgwZi-hf-vHKttJ14svQe-Yx0_fZhllBYJfnNWxTCxU-EcP6-JvTtKDX9ej6EAxyMAonlzzPFzfp5x_7B6ErP-SRnzpSZxVVPJ7wMxWAN7myCW64GI0MBdUmqAWSO80xgPc3ZenJhqlcr9DLLtjGt0M0tFY2CwDXHSshmlCQoClNgqvTuyj39iwkDSkGI9jKApJen9T2hLqQHsPsh-dIKESwjdbV0fpemiYNdreFuuXEMU2-H3GTRF2YcdZA_YHpo4kelEMh1KulZrOEICKLumNqCG4AEIK8Bda0rBcLjE6rbyM31YrWtwKi2wahysJqYyk2x3xMbhKxWsRrnl23QDAY9VlUepXJl2cJF4Nt0nrAK3GBdZ7Vmf2T3wb-kV2ZkyJsBvRWGVUdka7dvJ1Fxg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -90273,10 +90583,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Fernando de la Mora",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0982 116619",
+        "phone": "+595 982 116619",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 982 116619"
       },
       "faq": {
         "items": [
@@ -90294,6 +90604,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHdXeDFcAqMzZ2LT0C8Twxp2PpmGtOJKtlBE8ye11Ox0FUV7AW9-tmaWr2pFdeoyJ1_4FJ9RoFSn6E_3aPLCo7rO8Km3mi2480SMgU1uVuFhxHwLcIiSRzOgBE2kvcySNS2-bAn8FELrUGnbinJfa5hwXplKdf4_n5rYLEZUotu1Sjbuvt61QtlSF4UPOccP6KWgn_yOtO4BRdH9X-dN3iTU713jucABYnr-TeF8auwULPFRhZX48HNa99pQ4wT1i1Vq64NfMpLKOtCFnbN6QvIs0XrPCYzXTmIz1QimRHc0Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE1S7ethMxgeVrFCSjwUT94U-8F30ZKFLrXv2P8Lw6Xjb5hBYIJhSPLRE_nm4mn377vAbDZPKMFyzUJJjdN0tvaeeQLr4w-5GPzLeQl8N4BKC57nSwvADeyN-jQAxrGqmZs7WP9aHjlbO7l-Uv5aZDz4lrgFxntXBCJmO28CKmaumU9xlS_YyvA7af1545zj1lSu4GKwfUWQic3HYAds0lC4VJ-q_ewS-iFvtzf6pMn8tl3jfu6UhLR6qBijAYMRnMeH5S0o3Bw25p8j1o1sa0zvgQUZpfVOtPJRWn3xLxGdA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFxblpXC-JSyLn4Kb1EiasGxD6XQAk-MRHnGl7ZjhVqsZ_rOhjFeDIMvRjl5Zlzw-h1YXSeseUcLDRXllXAjd134LPrd8DYxY-JBb3YaC6m9bA8WUnWnzrXo_vDyMtpfbQtuoOkVL4sQzMl9vj2VNr76Op6PyYSUGKB7kXtYcCPO4sMaKjRM7p27YXerv__GQgaY7s-5PDwLQubmIr-yfZphedAKINnB33aIvr1woGHHmdy4Ut3PLEHHg1nHOXBOVMHbYupA5tSh0uz3clYPz55ghbPQ1jjQsmcMbxI28CuBg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-BGitR6zETvjfC5PlE5163m1-u2xICzcchot2RRfkY_sgnnmNhah02EfHqRyY44_GTy31oj8yg1A8nub9toOfNX915hvEWx3_I0ZnUOyysrcZAKYUrswrsfgndLSaz_PRSIoRSxq8H6frognoFEBrKA7mo3hP4MkTbHGAhZOrJbfDXLP9UR_AgOYdEnPB2KUPNTJJoGgKfwM3MopNP9YrsgrcdBy0wl0wFLb2ZKqFPdGjP8XovxmnmDbX4e-oEItGZjluxWPf9Bi4yaqMbl9YXe9mQxhhnCm8zaCxvVsv4w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHw0AJVGdfwO2nxsbqq75VGc2VBeGSZT1IDVevMmUOIJ6_9fwYlp_rgYchVRq8sHNqD4rPeU3utPwvH0LuQSR_OU4MoSyHUxgU9zYuBBgNMB8g-TqtMJCtfG8cWFQzm68ULrJBSV7aeXbFFXDJ2Xr1adeyLzI_emx_LOaD5IxPqmwfXWf3F9UAHpZ8Kl1nIMDF4U6aMWAWi5kJx-Ae_ByHDhEhcro0jwVTNxzyayylRx7FizeuCW6MBTMH_Lp74loqXOHpk9yOdVv9d5CuX0r5p5ktEt36jPgkwuaW3-bTSCA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFl1Pk8SVj9T1mGKhZxOl4l2gDrVEFWA18D1V9MIaIDGO8CFJ0slycGn-SSdLozUJQn3aEzVVHF7tlu0oME8ZxellPtsv7rcOfw62Fe-tP1A2fWrY4L5gzOM0GOb9CyNNCAp_zScii2I-xnr86AL5O2acZjGMGM7KxLW-fAgkoAJ2xqXj0sTK0B3dQ7vbePVkKhUAFo36yvHK33_3tBBTxDCvvnBoM0UvpDN9rqZhfJ9PYR45VBfAOVuNlwTUQrN3sVY2jWM0Jp3wVwBmB5BNXsGlmdoYU8-xiLQa7dfu6KHA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -90752,10 +91099,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Luque",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "(021) 640 740",
+        "phone": "+595 21 640 740",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 21 640 740"
       },
       "faq": {
         "items": [
@@ -90773,6 +91120,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEwbtMLyICuw6hlx5fqhzIFOwFtFdx83_HAB0DzgO0hqmMjQytDBVSUs6X19AA0GdmaMYBiPDREX_uYVm0KdiLWAMNrC5F25GZIlIzPOqCdERljMjZKASXreHwubuI_VURqtad44QOFCo2g6IMl-xnFOP2Rw-VJWhGmB7hBkw_j-S9YNZS0za2FBTDbSEOAcQvuSE8fquSJqgH5nGyH-sY-FH5xAdeDI6fjBCo9LWyN9p3JpOaybcFX1iUiBYmDhxsCFVgZ4OrDB6QqA-s93LNpE7wxOcg3Uo1p4-9h0e794yVQjhQU6KXluvMa0iyBECkFmv5B7ln9zulsYl1qr0HAT8oB4iLI_XB5vQkCFVX_vzYfQTkMOHEI0L-QnXLcGSg6IHW53Y9q4LYQcv-bwMO4n7hidzQAqofDJyH1PIo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEu6cJWRFds_Z83wGtRclFePjtmrDlXWD07sEnhSfuywQnCl6t-tCOWz2QvB2aozpINwS2VLPE7SjfA7LpekMmTsSRTWaKI4IFVm3sA72lh6YJi7tsX1XFChk3MVskBRCe-n7LsiSOMy6juI-7fHoSixCD29qo89CK5-O-LkT3W0QZaPGy55QTS7VYwKUeEiNP_YPncKNK6N59kjR0RqNoGs3sLzWSa48fv1xRQkp7XjJ2fP55YwCQCjOb9hE3Ey1cK7cZHQ8aaSdp-z8EC20IVQlP99aFiWQNC85_p3BIotV1tkyG_T2WyZCZUFoNX9HsNAwrD1o2EDNVnwkVrdnSScUjbvM-BUiioNtPD_TGSvHqV-FGs8p1bJeYdAjiknv0uxDTDvdALcD0Jvg2aWc_quEBVXek984grvbHsbpMqvg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEYBYE6uXneeNPtSO48h6fjyDJr2ra0E7CXafKodWIZrqt8F7bdp5uIIUuHe0fSHrUr0CVKNzKwoGHB6GKsY_PzMkAoExK1HDKEA-HMSDlziQTsyxTaAWyiqoXbCJNP5L3HdjE1nkcDvl55CsxCCVMWcaVl0YlJnl9AlVJ5NzHPUa3Bn7DpKlfCwLrkC3zfDac_ZO6LNMIiTcCwh6DhrJHyf88z4O0cmLLJscJ6rSTapCgzZUMN6ss9kadirIgtQE534Qg8V9RIw88TrR7BS5heiJm06BiGRL8CqPmvAUMQru9eMjeaRQKJoPe8j12i6zFROu-3x_ioqroJmmwEOnVqaLm8Jv-eACUYNit4BEgkVQtX1yILHpRlvBq0qKS6v999YUndRNSW7jEH22lllghEBs_i89sVsDFyLBkVV-meBiac&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEMpgOXP42Jlx1X-ey14I7-kT5smCxA2Fsrr6Kd7D8Y3vTe2zzl18LD7PM9_cGqGjywN9ak4xYmF9KjDRvsgPi5mwbymJ2MxBOMrGuikkHLlUQhkfEcFTJbpp2kgJ36I4mZOuk_FTG4p7411UCBRSo3GDxWJj0oRC-XGyJPOPqntGSryMK76b6eiYXfMKqdVE1q7K4jkhTP1SVp75XKN4zEAUu6EqeQnCxWYGe6fK48Mdln8vwpX62KHA4U8Qyg_T-bUMey0tH0pjwxit_mNE4kaXU0pyFKr2364IaeTIoBKPxrroPDxU_8RNSYUZRSuvKRKorVNB4B30MZy14InRo9oAmzdRBwoajz85sgrXh0VBEHhUqAw1PD77fC5ucufwMHCPRyOu7zCUmzrs9d1YGhQptC0DSaiF8UgvqJ05NP_4xFznzgMNk6Ysw7iZx9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHzhtLeNEZ2xi1UFaP-nyzV4igrgBn-rUH3Td1XqYnBq3l7k4Rj3Uqgnn-WUBmynyigYrunFE5K_mZlLuspmjXuVPgaVTwlWq95bQjCiXRp77iZzB2N92j_vhurxh4sDjPrGrLrWFNICe3ue-t3q4TC2ZhSYxUB1TNzp4omZwZjynkdAcbiLZED-ozhEJQat_oMEhzZ1VyYKbBb7INJ78KPeWB1rV9aG6pYNF6s3z8Xep_FbbxUqObopP3ZWZac-B21GkT2Av6K1vXBe6pfNkbtMp8fqzXLqsf1dZalBXZPPrJZUthCayc8lX0T-9zUk1F1WxUhfajsaztsEhWsh1vzdaO4ZWACZoozJtU6yAhfsa82ymiP2beME-pIsR0vgTk2uCc8HvNxlUc6eN0e-ncwp5jD2mpk7V0v_J7LBZzM5Lg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGhzxsqHyNVNl-gANoovsbWluAM4vxP5aZItgxzHzHdLRc2yjCiqiAARehYGMAAReQnOnpJaq8G-0H9CHDoNh4He_eyaI6ENI38r249xjSubH7jp6nFKE-K1bww5p1vCUj0UjAhv-YzxUdRPQQbML64WIerJjRdHE3RVid6eXiv7BUCI6ZGpI5JhnbKHp0jlmAsO0iThTqP1iZqSd7DaTX3E2JqhsADUCJdWWq-VbvsfYSkb4RWLTmM7RUPAwvmdiWgK9dg4WhBRW7JI_e-dVtbl8gcf2UUKc09j0C8I5Q1CDAUjrm_OosMaklzcviC7-oCxTxVQUzHpT5MgYyZG1Bh9TQ_Cq14Doo5Ic8sY5-ALTIktEyULfnOUIIk49G3VqKeMHQ5wZoRl6gJXhwvmsBDjEEuWaVo-GXPBlH9H8qO9w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -91232,10 +91616,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0981 423913",
+        "phone": "+595 981 423913",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 981 423913"
       },
       "faq": {
         "items": [
@@ -91253,6 +91637,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMyiv531HXb3SPWh7IsLGapaIrv0xyLfpXxUJI5QIOSMzEmv6SH2g7LBRX8rFhzXVLcmpX9Zi9xL_36C1J_bhxMv7FbcrXehVAezh45SzHWzwErS4ABgm96XgduywBaQTNBKPiWpZDJWl284b9lIF60BJoq0zzzpr8C38AZTSAqHqqB-SEAY2G2EC5BeVRc4axnkuclh8h_FVvyGEEsJcoxaC64gF4VHb_TntYt_IZO1YoPPCKEdJslFreLqtO7LMOJO9CTgfd_U7E7E7_99jjZ9D4kRsRrOi5z1ilo7sQ2q4zDC_aoUkL-cmZwZ1gDYaqZGm4MV9XE1oRjN14ilSlLKwdxCZRf-kd_HxYUN5JeNeypTMIE4lcdKn5BCfAO53IWrgvUIz-gdzPX3QucV51x38Awkx8-YEVQT5Yke5slw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFgLpWgUSGPQnpLOPn5fGGGi9asiIdUF5pjmxFDLLQ1J3EEzTeuILM0VnDZNY6t6Kwpc5iKz6uB46FwR5R9slchk0Pj3Ad8cCPmhLrNu5DUQ-oV9TlOhzeQl4uR0AHCgXEayg8FkuXJ7qm2sin996lke4TTbYRnG0bVIjs_w2MrR-dVtl176EIrhAiM6AEK-Cq9BOfdYLCvPju4lahhfHfO1-CKS2TcGGuJnbXxPfPNjXeHVq8oSl2TexpjnKviJxnGZlGGocczXs0EmvUK68JUEDQDiJErfwI39PC5EYBWenArxb16wFqgeTzPEYMMfaZq0oJrU5IUvUchnj4BRyA7MStINccTYBSOPo8X9CPdEn55XEkEfPjWC0TDUgwP15GqunX-wsLJbSyaLKFAfRX1mAyF9pwcwknfHz4y3NKS-1w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF-ifroSUdgPbUSYeNtv2xBDs8CEeWWD7SaST94N4z-STcWj4VyHdKHAuOqpKv74TxjKVDz6BTmq_Mi78Pci55YwKLiNdKIQwqgC718WaFHbcxi6EBqNl-fXet9A2CAVWBel3bjxSnWIjgFHho0aU5PalKOzN3hmm3TO3NBCEN6zJjivn5QuTOGUkGy1BkzT4ALYUnqlwGtSERoj87C8Lk2N0ohQONuxkUTUj6sJ5ihOnegZTz8LEfR4oV-lIqyKYc1R8_iODhVxmhJ2lIUdf6XfEuPrSgjtFXj8EXFGtSHBfHOo-INeqvFZkRgaimciW_mBU7EUzsmzx4OfcPwRgoi2K1031Wdq6EQ3U1mO8TzfoLtmU8SQt0CR0nvchd0SuP9q5hRugj33sQ9PydbuE6AKXHqai5yV0HCR_Sf9O6DenfJ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEevDpEaP9tccZzAgSCxFnjRzjJxI9orMihqmMopPIyUrHxK1TS1p0xKXA_fM1bE_iA86VZH60pXB2MSKI_IdeZTPaQsUIw-HZtgjQ3Z-LnPZCt59TbUZv5dbzyvt2yBKZiZOw7uxidR1bbqVttY3M4zWGOAbBvMbqKCgmXu4awnK1Qd_YeNHBbZ0DwmAA8i70sEty3VsuCfALsyoDfdZSsA7F9Zy0JPzG03s4UM43PTwhcp6TIMg82rN3S3OOIbGrFI64-lO8oZTdu_8xu9py4CUmrMUhSEbSjToMiYZbqUZ-wKZ_3_xVoVDEoq0WVn-4f_dBK973FsgDePoXPGKh6Xjp7BlCUNztzjczdotEiLTtA5g1fsNwwtMp57CnhjtivFQaTwhIB6adumBD8GrtYEulSA1CFbm9ahKRcdHy3NfkV&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFjfP4MPlwyT7JJI149a_sgfm1kP8kdWGtFKgJwSLz_e41SP-BpOCYPiiiE2mRo2yOTqgTeLper1HZXBUTUIg-yCXemfQUVXkmtgFzg0kwvat-G-EIy_OKsz8h1grtlJDPlQV6oaZ7Z4rhLaeVL-3lifkZZX84shDR9rc_owBUfBUnRDHrFb2DEQs1aYt9C6Q2ThqAyQ0zaPRs_ndm-HPa74LC8dYyO4fEpra1XLZCATnWdJKxmUwGYEiyTIublCGdQDyxc7kiPe8APDQLd2tn5vgA05Mdpr7ZNrURvDHtUgEGJDMhtO8qsbY6fBwrhQBivuJBtguo40qgaDQ3gyhghKC09oemJQqPCRsRwqrP4VHupBZEyo5KaTPBDf_RGh84mMc7yKPCXQLJ2XX5Keg4JBUlRZfuIbCNdHU-B10unbg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHnVAN-SzA0x9ogkvhwCMq5Or4LOO7ylshxQKs4YZHA0eXY8OmUcklV6JaTxzwAsIHWogHkIk9-1QS3h4UbI-xwRpcAAe3DuO4voMhTd1w9JyYtODtMImzEFr18osph6s7tVU12gdke-KAiq80Ed4EWctLLPkFpm4MoUmRFSmp3ejwqHgUqW08PQzDDDluyAxrEsuMD-2QRd0UJkkRBjR1wxoSP7JFJNBQA25A4altg2mfQwfid4eW1s3Psd-C0BxAEdOl95_L4-PHHw3z0YwIm4AoZZ_cxrYZIIzH9K2VpsG7FUAYJjbouKQ6ohQ8jHKNTcG34p5fk5gTiiYJF6Tia0lqN0bJNSCg5VMBT5pivpP41Mm6boYjK-XjpTuYdraquutypq84AALPkRr2LNSt3j0hT_5Spwp1F0eR0adpotTEm&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -91712,10 +92133,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0981 423913",
+        "phone": "+595 981 423913",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 981 423913"
       },
       "faq": {
         "items": [
@@ -91733,6 +92154,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFHlMe22cG6xKx6vGlp3r-MTGhaQF16PSDIzxmXEnTFv1KEAEfyB7fH-kF4eMkU8mtTtwDeFPbvw5sqsB2xztfKAEExFZwxnXJ4xSYHWc2ZJabe9gkQ5FhHJh7z9kiYr7ScIY4VxY2LgAo-PY6hLKuzXzrkOVBiY75vBf-PZORgUYFXgr3nZFnHJPSegwGZAB9m5WY08fBagJEgjFt8vYPaAg-2cptdUs5f8fJNLwA1Pwexh_SOY_--KLCi-ekEBy-NLT693feu71OXHOB-PslTtW6ekjkjgytveZdw5HfjczaZnPflOialmTKOzKo5taB8ZE55_QBvOIuSrYEmnL9-HOwq0aQ6-jpBNy6bZyffF8Pr5P6ApceokmODL0X2Ij8jzq1Ek7UaMkb2laianua9O0nz4_QOyHxGcSS4dtTO6Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE1FSUpCOmVlNT9zxIWSdTe1khR4xaLfnSBCgLDc2-KM3JfqhRq1Z_7_T5Qkt3vznP3UzXhyY7tghw-U8qDVF5hHcatFQiavy1GiytXPyfA1P-neD0kK__QukCRdCDnR3fG8UYnx9CEFtOFDD3ammYgHSjvqU62TWmwkFdmtZnc2kkdto9pIm8NO_FURpapgRDBqZU1zfycjnn67fXxPsI79SnY3ubq7hMA8YB-KAxvkcIrq1yI-TeTRxZBNJ9ytVVdg2jiyk1GeTossHDHGlRw7pzB8B77z3QQdl4JcoHgCFBm9Zi0MhzN582uZEPGO7B5YEY0CkBe3L1azrIr_xJeRGjthYjorAQLyQ-ZAz9nOvcbXOtmu2tg8cpPJX4mC-flsjF02uZEquhYsPPmQ0G3KLhsytkWIUahKDLaIVzfbts&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFKdLkj7STegWVbBdA18Q4aqUplGs9l6zzMhkEok9q_d1B22s0PY-OhEob1MoA7RCCiGMizeYR4oU7Tou3VoVBjY5Xw_wKN2RRSk91xy4lCAfHSDSsvQd5L73yLq01iaD2Y4-EiJ8J8qpUxSbtwP8864U747t9cKCklk7IQDO5SBLprI2D3c1H2mT6vYSgOAmSSgANPQZo20ZF9Y2GuPQVMP2fvARjTY8TOih3DJPIrodjn6DYCOnrjixBLnTEcX0de_OenkAz_-kAAfrzDGCh1PnTrohI2HjASt1H3c8R-8B7MKfHAIeacl5Ey19ypKP9bFJPe3B-Y3LJO9N_B0IEccbX7pJiU4mTzuNTjg9kOziksO0df5uzzqdF5A_XQXZj0PiIj9T51fVF4gglZBgD0k02H88qDQrpFD47TeZ6Qy6aA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGz7eyls9Ylo_DLmziRiPPgc5fGCUaIQl6oG09Do7D2rvZuDxkZOyoF7A8d2Ga4oh3kG5A2p8d-igudWWEtmYKE15aA0lB-a5_TzrVBeqNXjWQDOd_NUmcLp8zK8wUxADDzc_xOIksljZ5Ntz55pqXhCUhMG3I3XAu5M9RsqcCLzF2rtAXoYJlPnwD4sKAyIVjRQQ9rmOP2-q-Sb5bR2C5YK2G4lq3yAwrgsSw-6W7fjBesUzcIjph3_SRkUNAzEgesd0Td3P5UQ23lAgnSdV4pp940KFcUinh1KKsxy-znkVCFDcpreHWYa7BiVXF4VRLHiocNDuGkxqwT9MDC2HaOWVAYEKUhscl2lRwjyUHfZMy5tab2bzyY13EiCDnNq7XFbP0GNrddluSKZXIxvtNVXN4MOBxvFjT1rH445tm1Rvvt&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHX2EYAsboSw3Qfsg9lOESLheKzHx4QIJ38VSE7i7zwZFVzbwFqXPoNjWZPFMY1CXwFnWtVGm7U-aH9BGkuY4mur11YBWHdM0GWwCKGrSkPhNZV-o5nzSbWS9k6MPLHUwogH5BgZz2joCyDsXF8jhPh8emXcLEkK2QAeDdGBCgHQOfotn5D9ng4R5bbRklpY2SNmjhEqU0pl0_KO71Ikr0DFWdN8U3Fi0y5VuBHABCRfg_v0w2J6q60JbqjhtO5piyF34dY52hYHdicO7LDuDV8tpPZ8NzK0FEvQaFuStQNyrN2L9Y_fzIx_g-0YrwNZIQsAjTbypLCAOuWpYN_qUpRjLE07GhC612qVP_WHL1KvLXssWTmdBZuxYMWgKo9FdhqYXOBueX2-HZ75JOM9DooPUu3TmKyXzl4yhOXDWMRiQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE95oJU6Q00pM77_AEueJRCfQcnIGguQoS3-8MeCFNk7b5R-0x-0WwHAT8LUMQWyqRh2OHyt7Mrf1RdgOYUQfbwrwy1RnDEeRDbCh3dEC_AA0NVDHXLlO0kJvODWOeRvRqluNNJf82Kkl4qJvxZ_dB-DGIua1KEkZQDlVGwIadGgGqtVTSypEoqylhHnhDhQERDgK-sImcNLbVB0fPA0E8HIc6A8D16XHf4wNUtQkrqmbA5Kjl7UIISKQZZ0dmraLz94GzokDPx9ThJZyv08xGfxuw1OUZ977fOOECqbYFbXnXKzDye58cmvjxM1bkjwK2jwKgk8I-NZm2HG_0r_prr2akH7-ar9patK4-qHOPrq7gtLEiU2KN3ZPqAXHLUMsfgEjdOItsLJYmBVkYkqf_U_2K3wG2DUK_nmSi2xav0UeGe&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -92166,10 +92624,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0994 681789",
+        "phone": "+595 994 681789",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 994 681789"
       },
       "faq": {
         "items": [
@@ -92200,39 +92658,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF1O1vJ3fi6mat9CsGtcN6YXGZPvmgVal4Tw6fqvJXMbaONfBbqpsfMUHyv17J2qusSWz5_Tgb05iMK3pw1haDnEXj5-ihZhSkimlAQMHJ_XrrjhzSdERBe_jKYAxMGephNedwxhZlH1WQTWidVAF_7iFc3bI82TdvTUnxKUOWJr55xgpoWpwW6Ki-VcJSm3GHDbk2msVSHLA597S3CLD82eWbTQNEKDvaUuSN5tW8xS-W6UIuti5P3NMtqIxItQylLMeKusKmAKD_CdrBGREB_DegvFrPYr8DCMkbAykk9pA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEECM5aFIJf0wYktu9nSKBWoqTxOAXiiNhtttjiFVT_RkTFwiSIbXpgme61A_yi7wowKGRFHvLliB5E8727U2gAP_-auxIxrGZILADqB0k2Htoii7idZ5FOZwQ-dQTf6CNPDveqvDEULBhQaoSpm5xSO-Etxliz_6l72FHu-cYj7ZBGgVHX1tyIF41Hu_JMuA4B-ru6WHGoKHXEbkZWpA6VJIhT73dyZucdecy9jjLaSsNWpYHAZmxfbpAP8Xvx5Es7wwhavbR4y0iSVX4KwND3Wd9mz6hbB0f6ngRf-rFazdw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEPBibvGNcxJYNT1UaTTcOomiw4VpP3Ee5RuUyS73iMr0vb1sb0zLU-TLaKjp0mcmbARh6PJBP9GTvum2XrOFABAbDibS3Az7VH9aMJnFbBnWm3DsClonalasBg8URffgXiTVW3m2GOAQyKmmpMnsvd5ITawOpVWOjfX2uoR67CoY0ASmyTxPKlsemkBujekUzk3wGuTwt2d8gRyjX-tU0GgNGFezlAft4ObbMbjErEzMgDP_r0Nv0QbOK3lqjrlbVuRS7rVva8mRqD5KDv5LrddIEcb4wF6nY9zRFiVDNE0tBI1dYd8b82XqAxiUss1HtH39T4rTbTbxVcQvYLfcA2LTEQvXGh2zApqgrZRUK0NPb9KfGRlLiInaIylijK3lSSxaxAO2_3Tq7FaK9UWR5PBP8P5ACpJyhqAGziDg4Tbw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEkOz9IzKZUnhk2hWynTBs2sIROILSLnXShTamCImqXzbaorEZxHoNa9ON6pN3urLc7m4QUNtaQZU8-5ZhZLKDzGcttcftQFY4uuc3SmhDP4ZO0XeStdF9bxQU1MChDmeBPElyajPibncJtY82Z7lKOhsV31tQrbvdiYfyLBQOdYCQZuXmvFkjb0qjLdawt5KDNPtFfifHY8P5quG0N9lAWtKigmtJM_CvCDBmV9iivn3Y1WjpxFDgPytDUBhLd-espLl5HgY_T0nT7eys6R3jFwKXOyRowWEal8BZucyt1zVRiYepfR_urFb7z9wfDFMEhCMjujCkzMhfzVHeguoA5_Nsv33KE3UC59JWrZn7jNyEqtuwzUQKdCOmUbDHOy-9D5y_HGqHnMGdGwVWdFoZYzw3UjldUf4ltOd9nFUcpVdz8H-nM3v1rq8LJDw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHOS8EeH3cNLOUL-v18tmSTiOJJD4ARMJ7OOfu5gVFlALvRIyiYBK_DSNmSaemSMZMgvv11BqX6D5w6aQ8FSF7_Q-WmaI7lKxBUvJwanqiaxRzOGsqsoR3hYPN9H2okjt49lUjkxJLW3eu4wHjqcYeojO1fEqG--qRxPs5r2d1qf04mygENAanyweI_54fG2Awuy44h9sJ9i8OJnDCjQbCU6XIM4JUUzNUq-80J3cKiHxP8tPMC8TENphtQwqUkrbgPLmahZLlvLB4SBva4gIospp2ISN71_bc09SsKbKaJdhiBk5hCqlLZCU2wt6fgfYhkLJg1K95fOAx91Va4hS7qpdcKKYdmmlSMH7jwKq9RSwkoxjfBWVU76fwfITFZme2oB1YSvjCfv_ut0IYAfew9fSTJ5-6jHJ6wL5AtfVJ1_g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG-bEzBrMmH24UHz5ja6ylZF3jjVWc4V8iNSfWMECAQJPy2AUCd-46mrBZLZZNyitXYaBaJHeTdbYc2TikRki3wUxEcqoYPL4x77Xgu4LHoIVxdcFqW93YX_ZNckrIdyNkWDpB9sTSMCwV3sNZSOof5NwWl5rQ6_NSVaJNd8RCmhRio6igKSZz3O2uNVtG-VaB2SJh5sV8OPEt_Fp8O7oq3xayIpe7xMCzAJY-dHdNofgeZZWUogEZ0a5pA7vbst6hr7TyYw7oFLpI94vUmTR4IFaKoN0Z6PxL4vaPApq94hRhZi2TtCnAGkkkYS3AF9tscYPKN3rbtTwdbR0dheBHk4pI-r5-l6bAa16kvZtl-_GElCpkT1f04QVMeGymAOmhGZFV6-_FEoO89jCdXIBKgHBq5ApHPuoaRA4gIBiM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -94246,10 +94703,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Encarnación",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0975 625018",
+        "phone": "+595 975 625018",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 975 625018"
       },
       "faq": {
         "items": [
@@ -94267,6 +94724,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFiWvKlhxKpUq7Sy9BbLHqoS9ADfc7rJa2vInUiE8Vbt13FjsYfnGlTRgM9Gg_IybFHBMTRSJxC77gIbf27UKRTWUqqOrbZRMlfLKnDMNxFKFOhB0cSO7ulA6cO-jCFkDKHTZOJu3vtbrng-FMsn4k8YP1YQOfsujWOynGRXv7MD_xhyPvdAgheEawm17sy3pfGSevP0Nma0j1KZjPAncPJPsnpXxhX1Pae7xkgykLRhsu97SQw6QiLU0uJ0o4AYgaCsi5H6RWqkFXc9yk9nglc0G0VxiXQnonfiZaz2pV1WdnuXEilmNF2iXz7smSEk8aH2Uxt60bz4nmHih23MLN-Ks15tvkuneIhvi28ClrVBMvukBeTZyGNXAeLl9QlRbCrgsBENlsvsNuoyDfvrKX_TMX7e56Z3wooNpHnLD52yA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFYKFmQ3r9CkEAnYs_qJTpsbL0wtr-s8ucoOAmyLHrdJRiD8cquh4NKfGR9Euhsgp90V1ybFGhQ71juuPWaJqGMIh07r69OHGHrC11jO-ylSwK3PPqmO5CdBcCCxRXtcGPXyml-Os_G08Z5ub0caLXYLfdSuIdX90d-0-57jXW_rLoHxOnvSjm6r65AKTYJAuQjKfscZZ1afjbx6HFs8TkCAcHPcS8PqJCfWfOVXzoWfxVbgNc2nGNoNywsaZigbhTkYwJLE8dW8-aBEqU_FAuWus7Q_9973ft2JLsa98dhJaXta99LZKolyNnBxp4UDgBI9zOzhQ2CkGLM5hpabuobk_KKJtEW6F3Ohoe_7cxbExB7YXlz8TEBgIzJjInzUAXsV4HK7lSMhV5dHJ2qxUM-4sveCtoiXp-diaiaSP6p5pbG&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEP8DJoiEw4fnsVxKnz9vJyVl3uO8Ln_pfFJc-n69xFu6KZmSsx2TwvoiWjosXfZqBoE2M0NGoCVTaxKCXlMm2c5pqyDwzeoPyfXfCxJw_EJCa6K8TT_4ENAJZDm5PIXLjdQ_rZDxPVkneEbqCiv3hDOd7rt7WTFKPvvUPYbAqfQM9y-9Suehk42Je9z3Yd8tuA6rgQN_w9OeUv6dQM4dh5DZxlIcptYltmt17wQDRxMwvXr2qBYSTrFYttupovK78sNmIRNp33a3NC56Ec8kZZddT5O_IGLUfFkoYsYdyRPjoEnh-3DnOGOSdoNUXuR7LwYgrxAZLiXYn2JC7qf4SguUXLIQZODR-GiqLwlPak4SlgSEXUvWaSJMrhNiNGOg0Ke19f5_V4fSvKo46GZXRW4tF04M0WJrcZua3RUA6Wgg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHwA2VPeH0jDWHrIetxdMZMpqoa4QzmTfNP4V6olYgVdzv8b5p5GBnUwks_-4zfI80LwsJQTeUug5tYKgArEXHRUJE69seeWedBYy8f3GySqa0QMyrezvKO4Alw24BVT8gGOIYwpivKZgYH4x21MqJM6Sxq-dx5LtH813hng9QtGhJY8cFeH5ZFuhAWMSw6MovzedQnDvn3HKWQ8cjMxMO7Wpd6x3qT27hmbzRbvxj5OJY6YVMxoYXARVietMAfta8dpafgIcnCDMaTrvQog4ct6cdDnqlcBLh_e2OllPzLKSpCPNT5ROqUHS_mb6TvesOWVeK5VlFqxnPpH_29SqDqQE-7S9RZh66X61MQPyMoIgFVefwJ1XoPcpuV-j4-KkCiRLCCB70tmfBfx1XxFnk4vbXs4-YI2Tm97wEBC0urHq1z&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH65Pym-qv0x2GPRYuFaDTObs8g6DkiUjPH5S7uK73TrpHzMk3QBiNoPUYuTioH2yj6n-_KeLMj4gkt8l-dI5wXA4jYjUqAFK8slQ8rxN-xejDDbR16tLAwVqN1mgIDR4LnYbYZIHRFLNdnxylroH2MVSlHFAYfCSoAwvHzYgAOaOoTjjoaOvOzSccERyAuD4wIUTLgrPnqRWBCaVGyyZc890nI2YDhfsU4eE1CqbrivrHzD-JUSmS73HQXX3BJJoaPYpx9MFZTBimEuDNRBwXDfyptLl7OJkVEPiWtRo7hheXczUygAwSpm0AcAzKrOV3BykXIofX_nb8f3qpSO78hf1_I0oaO_F0AQYhcFAg1L2kv8llcVjWSvRKo5J8UVIVKGEKQVguxGYTBOZp1yjypb8EqOepk5PACO2Bov9Vn8z4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHcvGVy5J9S2jwG1_n9ERsnHuN2XZ8oEuXAB3QeAI9iRgb0R-i9FbUmoq35t53I7ect5vaXLc0nCVYWW1mBOqWaSoHjmVBJyLETdYj0UJ53zxYW-nLzqRMCK4ZBBK-rc1nhjjuixGPjVPja4skKWEb50qE-6nsYTNDf7lyU-yu831vWDNJ08Oklk8Gcbq4Z2PZDT-fEcvate8DMxT5lxV3vZ0bGp71BlRj5YCOv9_ZzSQonQobP3z9IZW_xgoQiWviI4vVKr4SuFTPw182hn44iOPJ9TgNZTqdzAtzFuA9ARFAhmTnD5cBar4TYimUcqIKiRbCb4Cigcq-X8VIc6ZmelZSA6wi7TOZiA8iUC4zYFdtVjoy6agCnDKNsJVBxXunM_lBQqbF3YPwQjeHriSLhMOrYDAaHbAX0xWNpB_WmtQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -95276,10 +95770,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "(021) 490 074",
+        "phone": "+595 21 490 074",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 21 490 074"
       },
       "faq": {
         "items": [
@@ -95297,6 +95791,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFhxcrvAZKaokJ8H74hYrRCzJbVC4Q6TpKe6KVMmVCVOmVJrU8ChG9SkNxmUw-Z-sHeLkAdeUw86bXeDRRPQty_YPJwyrFxeScK1-w7vf26_llgWfnXanY7BSE_KOUK-smgRq0swnOBo1njojamDWSLfTziMDK0gitF478CRJxcYwFi4Zn1TuP-1PmuXJNq7lqDrElDc-dtvY6WuDWov5TIQhXpdBDp4JL6UiL8faYrq4QMLKIaBhGvsyA97h0t4H_W2uRBjU3EJpfv6qnboen4J1aCvpAkr_VeAM1K9AvcaiQGffn1XXU7GkaHi_uXmTALyGOOcOfbZ3L6KeotheccyP58YFivGk7BxURdLc0OC98wzs80TVUa7GG_1MQ2uDg6WizhkUaZ-hTEnXXbkbyiQtJTvhptiuWpJUpF4QrKoIPE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH0dURyk9rbcT1ift3oGOCG8_IoKCyjvMViLuDdd7S601FhvxRievncwcICtVTG92Qb5rKBWCMCjCcPdmgYwWD11D0qnip2WofFjX2x8u6X75dkEhfdVdTNXJf4qLhmIxOd8dF1Jz5-TKl9cz-B6SUfdEhjeIzesQnJO9FGCo2VUX6w6kLwyYPOVVpiLnnHjLZAUT6ayrVq7ACi6u47EvjpJSFnzrvg3q6wnOczKD6_fCPpDg2Z4pv40HKLfWHNUH6HHzkpYr5CLszXqeNG_PitJmdEprN5Po9UDr9vgPSqrVoIHF_RsUuaCh0wGWh6uac7ghK279iVsTvFQEDJW9_OzCyIJySrEMRIW-kqg1RkyjdchXt8vtikgYQLKIa_XQYxKewhW9TeXAyoDW7d6GgVCNa2tpi7FGlvue-w5ukiYw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGi_v5r-LDQCWr5jR5rnUh9nSL4pjI6rifiJ1y9l-YN6BdVX4g_mJbEicAWzigET5egqQD_igVDuoRk8ezLHePQfjGxXaRfYWjarpFYf5tgVmgROqB0CRXe8kP8fuw6f09yDz3XKKy10x5Kp3ViHpiDzLgMCmDvU4MeNRA8rcf208HOV0TWR0Ms1kjeAocCEHVI3EFygx3grj0tVCk_lS0c89e6qQlyFhf5xoYpf20DToa3mhVfV0As_AhOdfMaSfqD_dluxQBV5Bbr1wZCyvC7a6knYNolsyvJNwXOx0vGVT3fzYWbBaKONH7dIHkn_jbgGct2AEJG0AyKQU3NVfPgpnshtJtsDLBgWD32vOXHf8wI_paSeOPGiDhRTBAIqHd8zpAZoKnDGM3-Ar30DUDHi6kZBZxXv4UKyff5Xu9pvXhI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGdlwegPNLqjAHV3FVwkeyl1fEjY6O-XltDubvA2lsB4EX45sLm4I_LzUJm-eON7IopWIg9fUbZAywadfUg4ynHrNCRKMLs2r0yoyeFntfeJ3XrBXAva7x_9mWJYMa0NC6mrwnvmJbmT00jJhSi2sMdh5BGHNEVm-4UlTwUMvhUyTCnm8U8PDbSF3EFsY5BfL_1AzcfspQ6dqdjbCN3n_mdhiiHZPpOq7efhyTAwVES3IwCEtt0Uy7wgLAmOaRXREda4YiUikhx3MX1yv90s8-WMCMPZtLU-bDVe3Z4qEQFz0zEe8fcnXIlC3lSmUU68nI_gZiaCo6WjstznsAJGcoBlGz5VKshROP6pr_4BniMEUes-GdHhsH8ZlylFgRR2DW8EuLuXR5z5hMYnsxjWbad1WB_43ORZMsHwmopd7I&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGWNXSKWDq1_ktoctPLDSf3r7rGE4Qg0zDExAjc6SHipeMn8Eoo52NT5YSfGqWxiW09kmRjtzZQXhk1c9aYiv1TP_uFUpBBi5CwTsAktoQNcFFh7WsJnG0MHroeAqK6_7tEQJ9wohWlI-RhAiY40tM5WufMXCMKFOGmSZbqO4nRj7nSBDaxqrdCkGwtvZ20yCUX78k1dbwVOR8418x_gKew0_vxEdMEV-qKf8fRj67oV7IuhytAg0f7zx2zjMkazTzfz1t8fc0SLzAjRuKGixccKYv-MyTFyyBkbXIFT63j0GKLO2iEm06hsuzyOE5MSvibHLMFH4wfIPIiyVT_VRXAA89VA2nCdYyZeCjcLVc7wHJ2NgsnZmkMJ7ainJHpCexojhxB70t8OI2bCGtbC6-7G0uIJRCvfFSfbWSFvXCbRHAu&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFd8Xfbe9aXE1dTSQZdGRacTogCMRMdPAXY5p8vc2lcvwxTV6V482E6cZCwZGGIUBOq5B_AFN5raPF6HAKSSGf9Cijd3UxGCx890nOqHLDjEp30RazaRIkaf2SvvrBCXfwUZaKuN4VGGVq4U9_aB8TY4d1ILOklsU78haJ9fRfWgqFUStG20L1sgVcKGClV3U4KEfEgBllUQQKVuT3e3GtUXdjgj3v4TBUKylpyCYpLLdtHdNUrGRP6UJtpOLMQagTfjMk1_DwLFXHEwdIKgtlSnZgiFthVgklmsefnD12_JHHy8MKNxqK5rbbouMMNpDAleeIgWZgSnjhl5aKRSpClZkDDMnKGJDDqbTFVb-joOQtiH8xsm98WVIl0cNRELJfg92OVqmovjdoULHd1Op-qSgp9sJG6noJtFmLoiBq3H2g3&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -96832,10 +97363,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itauguá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0974 363674",
+        "phone": "+595 974 363674",
         "subtitle": "Estamos en el centro de Itauguá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 974 363674"
       },
       "faq": {
         "items": [
@@ -96866,39 +97397,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGUBn98suuvvS9mJR0IdnmCoQRxUhoBltsDaiJDj27W3LBhnlkV1kRrrAoeIxd7bQIzQmDoo6coOP1Lw13KVTjd28MkHkfLWlUJ6Hn7qNbTBbHpuNhYHZ41pwkF6pBm0OeyX2f09_cGLt7x7Petdyv5Xs4sOV_P2xVpRzKtZEKy7xOlf6RdWw4SUBcDXpkYgnKSY0GvJ95yHI9V_D_9QJi4bvgUjd0fl-YwFTyzSBn7tzJXy4zl0RqW4kvAziAn6TQrWVvEHA9byOz6FqKczRh0iISwIY6DVUxDb-WbB_GvFdFGdD6ds0EOUBdlsd3Jxk6lZny9IOTVfxrqBi4kXliTlXCipR65IoZ8rX0ntl7koDLkEKPz9DoGkwjGeB4aDjJpDY3eXfpvN8oGFCS8erb0ngB8P56ftlZu3ZQuCrxrkk2QK-VL8PAnOsjOTqfF&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG1ZzqbUDdgkBsrj8PKvgI8WwjXOPOTSHmj09cl0aBRZLD1wD1bbIhWODjkyiQyrYiUOW4D0VXxnjaejftpGvijZel6enc8ipBp-uhij5QCeVLzS4o1-zu9aEv0ZQ9XvFudjcP6B8bFWXcUNZtIpNJ_Me1btN1VH8T01R9IQgn_mxJ8bYQM0uLPce39dYuKG9qegxaOnzSjk7wd7XlgHlOScE4Onhj8HuvEvFCWtonKIHN6oLdL7jFZtl7nEX-A1oGgyaje6tyKJYbpnx6tI1XUqOHw_k6ku55EU6iyclV7eY0DzDFC7BxIqfYZSJbMx12gQRnVYHjzGc0LBOK7DLmkaVeOa-DN3F_YkfZAw7u18tx2X6eK9aBKM0SMlyZu2Tc5oeBfuPmFfPvmp25ok3TdDDOUxIsLw2DOSOrsymtdzg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFBfUjLQjCL1NAArBpXKAXLrJBr42fGqOxtEIPPCt8o3KARPmB7U0LQU_yt0bhx3pPUg5fG3XUEYkLMa97qZ6UxHD8n-g4Av6_i4DO46Xv1nmBwGVIx188DWfEvNc2BI7o2NWxUyTzRI6CEnaLKzj-PlIFaWqqxQWC17KoLVyp-0yF3EKvGEBfx9xtp1MjujMxYyRzmiKIZqrKfFBeekUKbN_j7x8td94fOipnKz9RFtsQjR8C87q-_X4QbqzSLCgeFsDc6OaZgZAsK0thQ38t4pq4PZAz4BuPv7VuIkBO0TTRHD3O9akRPceguSZH7__5Vl6N5FdBR32vGgP7vvY9cNso6M0MEOCCeIlefG0E6jV4wWZvj8b_HeZg8A3k255-VQQMR2WUx1LykRcZ3UtROalr9mpDdVxPPkDvG-6v4PPYb&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGgXwO9sVyY5MArjMYWnrS1Y5PsoWzx_O5z2MdlSSi3TdmZEzMSOdS0A2xlnP-cIUI0LLYOT321pK33brroVDPwlVr4K_xuiWtwkJ_CayFnJtQ7Cqze_3Q3Jc_NKj01R60o6BJFaEd70XU_AYePGmdrCfvnK8hYcarFoTNZVo1SA7gdmOUgezAYTV9nPRPE5VLFoF6UYPadyr9MZcYg2iXBeHDsun9WMldtffDH2GD4-NPJ_8SMl4lftnuIcqg-hCdyvw3Urd_g3G62eDikzJM7rCWwy6aZqlP_hoay3GUtBJS_wJM0duzHaxCgO4619ZXKAdXtADT1kKz-DE7TsB0PUlvc_5p1RX4rlqHk0My0wNMV9Fn0T34DgBFK9ygJdDvKc3WxKL9TWYeHDg017ANfkPIt7EEF54faCfBK4sjCPyLRPA5kNEcSnmMFtg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGQZHtealUpmhK0ul_c_n16ZWrYf6Y22QgQpTy15tNkx1lC_sylKUSIEYRtQ-wctGTppdQ_M5QLhtMKjati_o--_2-VsmpOg9z9wB_PsWqdlhMwHap8na7MX0oY__DaDkhTLQObQwBVd6_9bVGYFlXBdUjwf_hmSUwBnLuzQRmeBnleTS06Fmfe3M1OlbwOb4aOTstfTRaIiSOu_xiD7T_ED5wKVBuYBZzaLIGkQRENaueG2lR5CArUpqhLjVkOm-829D-2vwPYJ542XnTc7Nw56UW7IlLMY1--r6bQY23eDL8LNgW4kaxE-DOsdn7_XyV-PcRj_LKRLLjcauR4zjl7wPMf-_z_5I5DaC7oxOdn2inrss_57y2zmucXxshc9xXfmjqFDI0ETfwRcjDuK8MzC_lOm_iUK4CLiMzA0kynFu09VzvyIcA7NAPGQKOD&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHrkzIq61isxmMbijdDLdV9RIK15hnyreu7AFjrzZMlLNnFU9esBg2viU2voz4LI0QLvtchXqPivxSF79Bby9o1pqpW-HHiNAKjrQ7prTl-6Q_29MnwcMn_GUnWnv6LJR7OPsjjZq2APFi2gGFxe6nFsyu2iENF2mjugq7U0vV8VKftaRJOUb9yd29t31sehCffD_MR5pzdNLt-dORRp8gp_pVfFdo9oIXqFMS60XSIZW5c1D7v9XK74btUL0ogXQb-JmT5Br0y7SiQZicar4HV25FmifwsP_5sJ0PZbEVO_VMahlrN8qg6h9BrWMOLtuBIvFqou5m4n7sN5DaORLOLRMmhEGCYeB_ksAQrEEZ88zNZjVwzniX6XgbaMAMfGIlsNR6Mdm6BYaOXjVpplu6bQbrsw11fqo8UG81lXWyZ5iol&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -97862,10 +98392,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0981 400632",
+        "phone": "+595 981 400632",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 981 400632"
       },
       "faq": {
         "items": [
@@ -97883,6 +98413,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHEF-gD6pcxqH0REzFHnf-_iYb7kxsi0S5p7hDiamffsU4N0iIlg4NVLw1XRyDpxEnq5XoYh_L_mZ7Wa0pECA9dl-USO1llzxv4vys_D1qlJ_JQ_OEuNA0NpPlJQi7xtoEdHd74wa-ESYKl9RmyIl6ok6sZ5tbNdYd6Kr42Q5o7ZraCoYfbvtT3P5dZfPTKRIlfsedGtzpQe8qLacDbkk_ZJFPiaEZKGwakS2ULH-kypE3xrJ_AocXBTOuVFgVuqUigehiKK349H77sRDjqaJCXofSC9f0FbsKzZcs18rh79X-KC8LMRQ3VaKTmGyWUOET9MMdnU16UN2N_qK9gajl8NxfkTx2Q9upb1BEeMzo-4xZvZ2oxOU7w7z9MtnCOrzew4qDxl4dodJLNHdHKZEPIaSsh-Q_W1ofb3hrAK5Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG6vU_fNiXCxTrRP7lIUOr8IlWfH2SwtD2JHYYusQsXKmPUWGhlu_MD-3-7lntrZDH0HI2WGUCJ-Ax5mmeBFyPfTGL6NsBuwJJLdYKE_6bke36eVU0f89cU1Xv0MNNbqsk6l7S_NWxVTnQNY2gtTVjV4DUoyHicnn8Ppr_-sDvX8c-yWLYWJlQm6dojnnb3msq4XE_XcHm14yx6r-xpoccSKALLry_ycCRrFahFxIJMDtseNpot-P_nFcEVg-ACnH0gD7gSVNCTvQwjLaaRgg0vkiftuzZU4D0VhxvdVSz3h7uYqzPhOT_MJUobr4L0JOJO-6-x7bHb751TSVKdTRZdCD5JN4yzUHpxJoOT0srBR-rnjYeXzeRUR61ppineTtxgSQPg-Xr4tZp5fGv6iuGe_zofH4OT-7DjnWpUQ_SspCM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFpE3-u_zxMGnM7fcRDpvjGZJn1Gc3gUmsnpREYRAU8Cf-FE45wbfWCQEaiH6x6T5dSd2owTduSfjsVsRSpucOmfNEIA6stjB6D_korp8SMd_sER7bFmeCczD484ea73GJPQMx3PdhCEjn93hdP-WPEcXNAtEIVXk9BbdjAzOiW0xaBtLjMGnAyqGLU_OQf2GdM-JpOL0uaI5qEcBTEu3u9BOBx7WKohDwKOZvxeqm34ofd24oIaPrp02RfuMybwrqnq4tpoGRyHS7iSdnsRjB4OOvubtufG_wv_4k1Z3DJHxXSWFmJp75iHVbOJJxftjiC8cR5gk_0ZyvVyTlQNSsWqqRSCqqV25eYELGxm_Y8w4hKd9HxeL3pltaN5J59lNIoDMOUIM2IyLavfMVtx5s8OeOy9u9HlZd9axvcNN7l4w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE6D0CXb9RjeUpI_uwKzwUILT9HoQK-Ms1jvWZStp66QEGkq57MqW2FLR6j0Vl-0mDDjYIyQYs4yNtYRS_xN6u_FMRbtcvZWzEOeRKXclyuPqPOE9ajLF7_pKnYsOX26Q7GBntUXA0RIG9JzGa6ThHV1-E85qEn3wOSwQ816EbS1y7K7m1xrbuXwxspPwCxHXIPmgoszRUkii4n0YOAiFiyyd2zHOKXrSK2Yw8SJXCpIrIgLLJR1ARAluhKSpPRIkWf5iznCCWQnkRREWMhHyoMK6RngXfF3681tORcvC_m7HqY_bgPdhvq7d1Fs644FnTeDYkWAaWZNlTlojrSNcHmq-hqSsE0z0GX29T_3XJfzGh-D1In22ffqGIN1DQcLIlZc0eUfNHM6O5tH69VPjC2TwpmLDS_H6oUB8zNs5qFf6k6&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH2QAzk-nZDUJVK5HkPU4ce26veCMj6eKm2eyf0v02y1x-IC6TSMsYN9utnWJsbc4MvvnysvsdTiePuQg8NFfjIT47icjcYV8XfROufLVGBlH8dtRu31j8553tTSHrickXYwcoqdnPLXxXqvVwYiM4jxqOXuQoVCqfQbgZqFulmREyXtADxF3l3qBqbVNOztdiXkIKvmJXpxZwXwLbM-K45llq69OgNHpSBN7RITu9CpknNl3qwUDSXdHPzMsweb5o1UKYjmHvFc1VKzV1cNuRfAl9tDhzqF4gshcXgH99gNu_W-R5H6yClr3SRQxvo1LqeBqH07Cg4lF_k5TJ8FPSQZYr3101fLALUTpzvVjQmDIIdbubNI0vyTFXa5IhSr6EcfJuiHQbiwzfjXocOVITabpn0zPxop-mXHiBhV1wgHXSg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFoVpMmBKi_n0I8bshIO_Bs0-ildN3UXYQkJk4JEhTpcv7F9o0KIWhaNgSJdkmdra3WTH-x4xq9G26nmpyX_-Xf4dhi14tLPmbleafnKAm5SKzLJdI_l6WczJZ8NN7wbBFco3w3Q3pNf8FWYlAYvh3NeG0N258KiFiu5Xb7g0_nJC7xrHxKBJjaPIaKeVeA3v7YqruUcANrJ-7zpr_awqtVeRqjOtHzP988XymR4GVE9uhGiVKRMXlrkciueI-ZBA68gWDCQLDNLPakLGE5GqaVitnZoOzvQs5SxX7OH0SM0IkL36AvKI1h5EQt30Th0I-X0KmqkJtvwFznq5hUrhtXrGLVepSrGv9UQDs4SxctxT-jnGKKVVUAv2Y6sZXOYqPJev5_67Jg3nE5nnuoT3E_cr44FjcYl5fJ2jRInnnYKLaC&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -98316,10 +98883,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Puerto Iguazú",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "03757 45-1896",
+        "phone": "+54 3757 45-1896",
         "subtitle": "Estamos en el centro de Puerto Iguazú",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+54 3757 45-1896"
       },
       "faq": {
         "items": [
@@ -98350,39 +98917,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHK7wA_ybblLXxP2wYciBXkaiA7WOwy83TsqTb5JVlW0Se7YVzb9LLVvik-sLDGUguLpTngrRsOqUuLfdDIQkC_KnBhB-7oPLsjITrKSWL-R5Rf6lh0HQAFGfe8eDSfNOSJNNA5ueW1JTgR3TnoCw09lKOEb4lyaJF41tt7MT_i9qRImLuAsB5XibRXBdcFDNnsf0CxlB3Np8BjN0d9Bg9s47Xs4melRDwtvMaqK9pdyCsSUoSw0fh_JCQ89xexEcHehxvwRh39p-mzaIqg3R-M6svwN5ICSYXL_wy4X9GPeBrlXXzQdrZ0UtDYn8Q_HP5Ax1STUCitlHUTv_dNRzk6dFbg2Aw_RPtKgv-XGqdVC4v_E6x9es1YkIcNGYhxJq10dCs_rjRIF35pabDHhtYWweY43WEyQ8W3rhQe9b4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEWiTFODUCFgriY61X71VkpghCt5Z_AMPbicJSJXaddU6vMJodGo-pT3iTFGFXbAQx9NahSRsg_15sr9_NO4oyOU7ZZFG_4HS1KiZ7UD3a8N4MuE29IvoqHQVI15n_ODM5-r81g9dEkq4vWvgNWKeSpWE520lmV3Uv3ILGK8sbiOUUobVa6JWeHl25kG-FKI-UBOpkYug2HgBoIFEsrck9rZflasxPDtnLrrg0Jxdhi-M_Lx5X_a6Gsj-0VnqK20SaHJ9aOcLfMvriBHjaJ7Fw9txMGfMJO79MVeamPVn4xJzX--c8GVzogrBFsaoUVnHIZXDw72s53iGsrDCGOYmD603Jqwa0ThgDjN86aaHC8v_hv4pvX77w7twkR71LyXz4z5NGy7TzpSB9PHb1cu4cWUfUyVaVAPRw783EWglXZQw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFepsFgJuo5wvblO7c0uu7OvGOjlpi1wiuIlVJ3xqH_dVEAtxqyJUdTOfwmTAR1Qg5XUjGkaioex2XIUjI1_7kPzCTyw3Lwipxccz9-2iJnfWpW-KPMpaBQ_7Mv894Ok-h3nAdK5vtX6N8_xyw3wApa9WAFPKQmL2tuORDx0i9j-0mSXt8GWxNi4waFLJYO3ZZ19FZ2tK4J5zFIFoj2Nf0w3wx9Bja3ugxMgvVx5JWd1aaGYFauywiCR0N8ulz7cpIN-i1G9rrzlz7OR1XXEXyVBnVg7adPwbd27iZZzsIqe5lM8I1U5T974HSY37JSJuUQXPHkaDuGTatI47a0Ppcd8QuLDB1do03ckJFgZs3CdSORFtNOMICVT7tcShlo-iLLO9RHBQCU0HB0S-GjatTh7y3hgmchrVSvmornlCKuHw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHZOiDBu_Zogqw-4a4ucqfDIkk-s8y1gM6-F6oP1QpQsm9meJcymaF3vPM-NCYaZ4G1c8sy8oX6fHu4p4cgfQuzNVBJszl1XUiqxvHaqVNrYfiPw6pRGFaErICM_-K-HtWiVC2nOXqbGiEuhTyvSAAxztI5rzy70iJnsi4DH1efekq1EOMVNN2i6A6BXsjvfAV3Sm9E32tzLDroXoJWCmgEQ67s7mspN9o-2x4UdvCPdK-owLT9xTCVUkcdO-cEjl0cfE3H17TOSptyYWjrGUMFmh5hICwnmimDso87HseP1KE_jwZfHbMO3k3FXWfrMLC2UQgQF5AH4m4fcwH8uNQ29OgXGaFtywKFl4YVBu8a4IAryTPfdw_No1lQid2sUa5pSnPYgM5y1GDoOlM592eKTA6CN6ySJLYY-A6obtOJ-Cs&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEIkK8p1rUApKRQewU5bqHMidrcqkZ8yGp1Yskj3rtQOSL0J0u5i6Rdl3ipE8TOe8pbIC1EvCdnuoJqY3-ygokOnr_mjkzrLqD0Q7nQu0QGcDFLA_uQd38HxvZ_2soz78J5J7MWSBwb2Bf0Q6_wZIZjDOXyfje6VVr8AlxdMcQvFqrpqR-bKrliY8hCpqsbLfihS5ClkuRZ8atComxeOegd8ALbea-XYlt9ND3h8MuMXEbcfVrMhLVDZitNNbOROp3AVc7Uf1s5nyQZMw0n_A_8D7Ivf8MaLfI1IeaIhIs1pKoSe6gRFOyKc6SYNM1Oy1n4TTvSCn4BsvwW1rMP07A-UaChB-DecBynqnfgFnmVRta0D-I3CwMEkSvoPiW-MDP2xuYVaM1Bb307As0AQLQYx_vpwxwGxr-vu_1UUKW44A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-Z45jqjlDTa8Dp0E4rG_xw-u8dWcwSS1qLasNkNAa0oJJb1iRUfCGvNSqep90wjOvvTpJU80UzBTMFsQ_i7sGc1sO7ilDVy48au6kLtCR99HqXeVI02LK5hiEDpQFQkKnsbptZsn2P9zGK7aU7_RvAA4K37rrQmbo6b-NeTg0Bhcl5PbqN-JfQNAhmgawvjwBds6hTJ_RqmbI5PX1-oD_vdlN74eQ47ozbsQR1ftglHdH5nOgSPyKYgFpTt81d7u1dVaCazaIwvkKL9QCo6B-ajm5bKXFUIYFDgSUHRURknVi87Yu-TZ5AZtqF-1AhPyfLc-2vV7SQfMp5YpCJmdFbEZsZia_2NmY13LwWcxXZg2AdEbxdr4xDSZHyDgX1swt8K0kJwzBmuTclreH6lwBr87FHkrgljWhDECY6cIhtc9X&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -98770,10 +99336,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Puerto Iguazú",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "03757 45-1896",
+        "phone": "+54 3757 45-1896",
         "subtitle": "Estamos en el centro de Puerto Iguazú",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+54 3757 45-1896"
       },
       "faq": {
         "items": [
@@ -98804,39 +99370,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE4VELTMhPzXNqqMaMIoEl1vuejEl2N2hshnF-viJNv45WE2gX_aFXXM8tJ-JIL4Qm_O6Px3KVlE75qytkDYfiUKHrlxd3AyThhaMNy8z49xRgkPqhrNJjywlygB9kd0_AQDThyE7ON-JSWOe90s7YF7fViYntjrt3LQPMUN7oU5K6IInfdU6PGmApRSH9pMQh3Z7xn4g3O_wAVMGmNGhURhnkqX1pFHV3HyiYP-7I-xGyeoUV3dJyaLNJQrHdjuhaLCOGTZSXVlo96PP_hLRj2UcHeZbUa__Ms-Fi97wrGlbMnmg2jLI7-SD1Ehh02lhB6Q5NGy9tnqfzYrxmHKGdo5RUOP52dBCmkl-BHXZfi-kurAMoZ8K9BkvCZK11M6-81DJPd1BBv0j6070mPWjlxx_X0mxABUnYK9kYWZZw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFdCXfxIG65DboYzC3aNOvO5m-85Dpof9gUmFLsD3_5iQPXUItyMMFeu1HFz1WQwnfnqQS3jvpMdlKS7MGWO81imSy3uNPDVOUz1-Vccdp1Qx6KBY-qkD0GWNzPNr_0iuQV5--KNut9D9UjcjHDjxi5FaOkKO8BIKTd4ktvboqNOffphNcVlLLbI4iLVcZHTYsUUumMPlp1gzjn_F8paBRZOTAekOx9115_a9MGwsiaOb7ybnA2cJ-l5WPWBdoZ67_ArSBpsQzvwgw6-CHflBIgMQHqBOKBqyZTPQjRSaXgK6mCuC_cgZJjW0g1Ay898N0QR4GOHDWoVvgvwd_qsVryWHl2V5XvrByK45AFbyD-qo37tESWoDlLncAXh-JVSpH_7C1wfiWveBhrGSASLWAsEBac5ZuHEYyoKjCnSa1qRA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE9PpwMtqRnbkiY5rCpnO3-N5c3MQCyi1WJx6UeBizZU2aYHL-NTlnvBFXWoTPAbwIvC-1_DVEm8bdZncGWz-g7s_1i-ODI0OG3C10GmO1Be6Xxlf8MfetQ6uJBGorZGtUXjXzaLVqrN68OyLQbB47kacje_RwZxG2j-J6FR1XvkXUywXH3L0awnmsQBpIiQ8uLoGTuy5QYK9m-eR-j_5W1-LTX4q5DR_dOYp1x4Fd8MriwxyDKX303FRwM21_ulrPkc3aPRuCscoJn3sto6st8hnZ6fno4mbIUZEEQa5kRVOyqXhN2o2i47KqYmbO2BK_nAM7guRN_51PQy8FnyWqOKYkXtvnRXw1bCtCjX64oE8h1odij56p28h92AkfzT353aL6l96rHj8lY4Er1Ty-bE0FTThxHSH4NUssJOXhYeg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFi_9a4pqGURZ4cUX4xUS9nA7ygtbLqOJrEfkEc9-n8HHtzSlAczZeYNeD0ScO7ghP8S_lF_SCzuxUZCx3v-7rzZHkY6ArNqSqO-RzZKa3X2EsjCLMBBurc9HPOfXaAUF62t8UHkGVo1BY1vZaHljCRLBMyg6MLiBZPhy2PWt3SlgdulstLnn_2Wlg0zlBNNisfHMmHt7LWRN-2Ouls3p5ykgcFiGhtLN8yrdXAm9luhZ9A09270KsYgMeggnPoJp-lijHJ490R6UdA400mIApLzy4GRKFCqdbEC2UqtB5QnFXN9ABjvbXWmKp_X05YkAZGomCAkL-D-hbIad69wRuMm6Yjmb4pIgfaCvPlCM20R7T9nELO6AcP3DJynVevjfVEPQ9d7OactOCkcHpX3Ig04HbB1F4S-zWbeG7oh8xajyk&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEElkAX-ypaJ0ML5SPDnOnNYXPFeJ0FP-wTZO-pej7oNcQzNmzRCyfGrJJuj48t2UjjuMpVqIYwZGYglZd-i8tU0n-2S4Cf-n2wUFCxDv8QVkP50nNmb5OjITAxNZwDPPoJ3fgHi4Ssw2rQc6ifexstupDtRxauYSK-v3BEd0LPpkAsdPIOURKd5Nn-2rKk1eML-JmSUHj6G9eCme6WsiPqUKAOlYowbJ2-QRrdN7s7-QSF5re1BWrTx8Z3EOlJXWtE1CkMnc7peIktBJgSqB5EMa289EioBypvlgBENJIZwwZKtR_VU9shlMnQxmBYxSqk6MTlJRJExJ0P8CPOZQY_LXZaeIw_MSZ8iRQ0UnSmFf0vrwrGMceRYkh3AuhfAH17ZYAMqVqzg3oeRefjjuJ_-k2hvITkSg95rYlfNOS0jBg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEqfYf08xTl0fCNMVenGXBgEzNYEpOMTpRYLrA0cFgOclgOjkh3dkyN_Jaqmz9YE2qZsuXCZTS4FpDe32dzJfJrvos9qlKMg7IBzleZaqx8lpuGed4zJrrLZWtoxfL35OjlnzW9wJQCxRaORdM2gkuoXhZSQr_WrE18OYT32q7MQEvUjF47ucK6PXgDhrvC5Tjcq24JakqDk3_7BH7kdQpvPgG0Q087-yIVIbQ9YI9KYLIB3RTSpXbzac2GCM15u5vjeaktCgn5LH6q_y_hQz2xrH4KyKYhCCp1803FkG-GAp2ptuZoOZJUzefr_aVmX8rXbvJ3h3qRZ_Wfx0coYwwLogbQYtPEQFc2nNiwfWy9R66RYZ54TxLd4vKWeBjLHynHV6cPTi-w0RnwePr-geZWm7oIAz2ptmr2BMcnluTFwB45&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -99226,10 +99791,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "0993 444000",
+        "phone": "+595 993 444000",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 993 444000"
       },
       "faq": {
         "items": [
@@ -99260,39 +99825,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFAthALcB6gHFCDTxSmUzo1hwFJxEBj_G5u4QAIMP5uiwjXHsJiBq6602NJBDQGDQw8HcuVIhYNtlKibnsxaRJacUAyrvy7Z_CWcRfFokqSf9gwuXg4G4SVpSrH1H7f9YylWQP-OxyeofAFyFFDTzGR3IFA9YhAomWAkgpna8DmygL83BvWfdFM41PXN0v8VasgOZ3hu3yCMreywHlEcG0e6AlLoevSmpfeMDiANDh-kT5lgnvdpbxtt3hafYi4L6SGHlXveFlDovp_B9gLLZG_wF81bfsP_CDG8kBwN5ZR2Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE9M0aSaaOT56ZBC0L05FN4oiAeUkhDbQ9lfaCRXWvsj_r2iQ09rQnXgroDrdo3pfMDw5pSe8z_-J8-Nsb4QpM2EWPioVU16ix-9NzbIiZXU_vZ5TTThrsjQ_UYyDtG2xX6-gjr1Yn-cArJql_VHZhknW8yVIqOkXZOvwj4bhEFCReWT1iJTt6jI750YnYvJag0LC5stlf6a7YXhcfR7gmx3KUFaydVrrWiVogei8EY5BV5GaMMykgWfadjY1XeIPQ8l8kM_I9tt8QrcS7dtGe8sSHXa7wfWrV6XH7_Rd0jMhnB11Wp_Qt7mQLojWsFHHZbly6EhQmwaR86bliwGUutu32GRAEFyUQ2rSIynPjo-BVHPculB2QfC4Lp3h1_rqdLXItf1Xti_YUWjBCD03pH3UG3EtKo3AZADti62ldZxA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGbi3sx31pHBEcJpC5pSKd0HNVJ5mjskpZULoPh8tuWa_Ru0XRhPMMK797qNmq2yEr-chO3ZwF9oOLfX0C6N8DLi39bECID0r8zw3jHXIMreXvJGcEXxGdTs41tjvkvIUaEfIamwhurrWjBLFj5f4EA2FzRvh90k6Qp8fMlDdIRGm6cIS_J0kYojdDv5_2F8et3xdVkdJOyh-8V_tzkW7Axb0P4aRUGm6DSODO6tWs3kQVqZtro3UKjO4g_IsRf62cTyBMQhQpoa7wjkO-ybojC8XBquhfIjHN2eIPajB91ydUk31sUKg9YEtVUj-bG6QNsI9vIO1wW2PWzxVQnm9eofT-vy62zOmiK14N5_SZdo3vZgj6U6BBp7_4AvJfgI3NWwWWOJmFWwYDS2Mzk1L49Fjh_T92Mjo1xNijh3vjjrw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGhTZLsiuB862uX_YirKYD2OkvLT6o6TBqKJEb5wkU_NxtWwbg9OhTxMoyXn6W12ghTI-A6K_kcOsOYIcZ7bA4chErwVlUaexK_QpD5jkz3yUpM5GzNzAa7KUgrM_0tkO2ZdBe2H9lgM5nbcxSqxr2yhlq9829lvHqoJDgdvO8KoWXexQaOnobuAf2zz4XJ28SKVWJBAT2oZryFfcqw7LmPJeRugNZ-iUiPJk4vtYlI7lCbo-HnC9M9mcEVr_6V3S-wxEhkX7JdpF4TeVecbW2J80Iz0ITwDEJpdUbfAe9k94xUtgeXg-P5aLCDRfVlgoH9C0iuPEm-I-OqrMg_9wIqFpGW6lX0Z-kbSncGFKUsYdIjb5cnMpjp5oT9vKmFRfE9zHVPJFPtP_8GLBydf-3fAwGLYKQao70Xa7GGx1K-jQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEq3qRKWDUUYAEDsPuiAk1nzDxByv-rg3TS2sMUpxcuwBqZpFbTX3Fg0GlX9JNmwIT9RHE6lQZ6Vjq-u5Es2XfLGTd7GY-Q2J3dBao_9kYABlwNSTMbeY6XmPxvGT6xVKVDqXP2sJ9L3oX7nY2MJzH9ocAAh88EijsVlwVPJnoTq7CLCb4U7cisW1A28DsUurY44n4rC_oKntgsCatcSDWKp3-E-zg8V7jKjWBJhR6sDs4_zNevM-sibOlkklLF-xW-uGWUPQ-YCiQZLFLp993P3jx8d3y5ElD-W1nlo9O0Z56x3-dhVIMdk4zpWQ_UQkLdf65S9GQRKyP5mAkH_aYCw4HkMIguF0Jz1QcqKAtpegxqNPKgi_fjUlgRaCt_OZT3wpOZeHOM-muQ9O70CpIXV3zFICgnUi51WKwXaZ8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGN2siGDUjbl4XNRXE6WpyyPdbPZEi8Z_fLJFr6KvGo3fBpAtcCJMfPbZGKp8qFNnNyNktO7kUZX8TCHDl6BZ_bMV_h0jbC2pD9lIBeIcNDsFlw2pM0VeoqRW5EWzploV3wpKX_5nUsccLxj6DOuwZcT-PITg2aYgtUtlT9LWj4EO35X7lvrW4ljwK9i_C939R9PNpqsjDHpJAbVVhburo2aCUV0cOuBTK_VxvC42fC-DyDqOHckLL9fCawc69BUTfhYFlv6RtRtUabLUwmx_unn9EoY8SNTTFMO-3dygTjTnRn2O1Zgs3mhhwJfURs6d33MdzXFNSWD-84-hICFFC_ejlvP6bfSi0LVXukpZq7aUzO7PMYraWjT7fG5H52qZmov9LGufMdR_uvbTfTfHdVVNhAdLhvau4_3dI2U3q6Yg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -99530,10 +100094,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "0993 444300",
+        "phone": "+595 993 444300",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 993 444300"
       },
       "faq": {
         "items": [
@@ -99564,39 +100128,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGpaMLzqSP9Z_HyUOsEUq0k4KQkz6D1L-uFzqRvjOqGTtI1T-aEaSoNsBu0Zojj6cK4XixPSgbXUKU8XAQvw-jep33jJmt_E2KmmEWMkkF_bAL_nnlhGG-9wZn1fmgzVFEVqvu6Wg8Octv7oThzkuSz_933djKnBkMhOOCFeWYadSIdq9jI6hAQ9vP32VaPJY4Aj9u0-5YQBj9fYWiMCT10rJbnE90IaxD3-GlXRLueCd4FhqRAKmhNx5UtqFT7HTYd-VdgsVLO7Q7DznyOabMzHEGdw2D3PuQYS9e_6kk4yipvowgTMySz_fxmZ1xuRvIKEmUZrZUOXxCjpsJqrMQH5vYZNFqs16-jCBg-7XLc-QFc3U5SyNsFiL3XGNygRLGC6Krq-UCJz22arM6i5kbjZmlYQnWYSc8PaWg0sgXfsFz8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEB06K4BN1hg06O_cuRtvJXnhBT8XRAPDIq_Xwxgh8phGOSxvkdkdNzfRAgHLxJXYO9TgoJfQMdXBTZl2ZVB-RepfBUPrNNdPNTxRqnMf4Dku7o88t85U9MfiCudN35zdtuP8IvBP-xQWjEcHyfPz2nes_ZZuCaqv4IWgF9c7JUgEoFpNUmXgVefacbPI2QV28cXDEM1YNx-wH7f9MLIGr1lXjAVrFBIn1Y9KNNJZQzqHisPDNZbMLm17cEbwvrCvwo6uPey7U7BoggfrQUSk39FFFuvLCxoDkgsnVMGPv5A7oO5nQ9Cm2L2LHOy9TBSp5_66g20KCD4JHmjnj9MmG_yxqtTUWWF6tLN2xFOw1Z3ygVTbVxyBygzCmY9cnqjsi_jpLz33Dsx7XqQVVz6vihz57OATkWaAF1_jpetmGfhLJjUDgbdlACcOukxQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFblRS__DxjZF2comAvK38L8HYsDPkj__624Fk4qJiV6IJChcYgF80T7JxlFfYQ65syk5cne0GGD-4mEV_SWC5labWRTReqt_QM3RkwLLVr294QlZvnJa4sGlL1rTdqOLXPacqDfKm9CLaJT2SHHsmqmzkl8wSF3q5Ykr_Zps-BPlB58mGFM0KKjtZCCEE9zkmfi_b6FWW961IjOwDXe6DzWScHsTIWoZMRpmal_Ho5SeuaUMaaf_wD4quOkp-GUy-CJB1y9LpGw1x-w2EJq7pHnQuQIdaSZdgzyKkQlaf3jA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHW013HYV99aI1QYeHYy0Ve5nbLoE1tUMgsuQiXlHoW10Ewa0GrSFtuwE5PZ_k8nPN3eFM4ouJnpGZyejyc8posaDInYRXav-7lQVYd7Rd4jafHgGK2sqWKoJ9tPF54bJ_pbtep9rm_u1RpEjsA678PoAD1GsarLeIj8QgXsBiehgX6BMvfIPYOppWrzC55nGvqfqlyA3yHrN7NP5-bAjrPN4vz5N5Y-KQVqEF-IdO76SKjBIf-z1AlB0Pk1Eux0cn45KLs0OWFpC0klVkHsYggqr8g4gzGty6mXTyg9tZv4B-8DE46D_rgA_MsYGB4GKjyinbST2wD-S40m1vjrLMqn6hf5W_LF-Rxu8vb8VulKv1iRinUKG3E3F2GdSMKRg4RvU8bQgtIrkDh-6uD995OhLKpuEJLjEYR2bYWvOAQNYeYtFMQMBYAQ4p38w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEE3keSmb7kceVOJVfpyWtN0LvjJzkZvYuSA-V4Ey1G5BywGuykUYawa5yc5ECyKi5A6bPcjSjsKsguViqrulzZPKqbaHEbxY0dnAG_RSM8uZO8Ml1yuG7k4cPfLDsRliDa2mZ7k69Nq3tgdd1dVisrXpICmUqrDjDDhyRXXxw7v8AOUOrQZVxDkzPmYJXzCybk_EXAhm8Ip65fLUflSdmXB0FbGiRI2tjS6OppGs5WcRNA8YQN7OaK9WjiVxdMTpKJ9EdWvRO91oNZAsYQKUPZmUV7MnM22QuKVWBE4iPCBQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEXKJsaj5aKy2FPl6ReZIHQ_FMwphKX_7F5wenYsXsybPzCtdvQdgDHyWUUBWxpLQH5S7LvVbBKLk4iqZzM8TNk1EJKTN1rTGPrbgB1PvBBv0Jw5iBnZ1CenPfUF4wd4xZo3hnMSi0PoSkwDScwgQJPRMQd43hpz6dSoNSQAwvHlh-oPhqg6DstDn9dUAkiMwC6fFD9Jo6jrJxyWv-x28kr_ClOmpobeOGUs9CQL42fcrbSSTCXDjOOFAmyN2SbmOkfrhnJqqA1obua-gIOtJvHrUTrcWu96RWUD6a4zplwVcbA79CZIgO5bPidJosU63pFtNMBKGyc2cTPqe8A23ld0AmZaaZRvH4GDxewxqS9ZzCpWKGJHg1PYmcFAnWQ969XREnjkY8ftV-Gh4qUCWYwO9R0NgQFM69sUee-9knzDZ74&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -99832,10 +100395,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itauguá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 728 9325",
+        "phone": "+595 21 728 9325",
         "subtitle": "Estamos en el centro de Itauguá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 728 9325"
       },
       "faq": {
         "items": [
@@ -99866,39 +100429,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFTWYtNziCnpdE4srNjaN9yB2kGIjsWvuTUQMHTjLwkvuN5cxyUE9n47zC7cHlPApkYYeEcqbZ_Gb5gU3mvbKYV6jum0KJ6v_5HyRbqz3H-T7HKXKCiznG52BKlIGmrN22DYgQFN85H8NUYtTEr6Trfnu8L4GRExo1q5VJKwHlvZAEmwS5Te9UYb2LruOaJzIggr-naWzEOG7K3zianOpH2iy1yq1nBW8lYMxD6gcjqmrY-evnXulOmYIL2euOGhig5VAQKyESXsUkLQPA-xp5Dannv6IKhLHRkPvd8ww9_ybBjEG8QqfGrdVJwsmaIy3In7vmaymaOJh9NlMWqBV0_qA5i0_IfhLXEER47_rr5rBC-Ay-NHIq-8osJjQ1D-m8dxMG1RNYCVlQ03rfXd0sLgokntfE5q734pT6UrwSRnA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEIo1OLYlwV1ABz7C1P4PpzIqIq_FIrqmeGYPTBlSrdDQ17KfI7gy-oCHLKYpdoCyCo-JUZtSCMGHFYWIySNG6qN99wfF5Y5VV9E1jGrxdNczPJgB6FhaNxUeoXe5MuQUf60bOa5x_5XTJtNgZ4LFFAm7rqyxC2R-_PMxj_bCIyMlSyx5p1jTYhYc6RpQ3DfUIuJ_2iILr6YdSFEOyHugystKYsyuUHooK1PwQFubDxxgRawZmJyQP7-LizHD353s51M-GPoUgEXuB75YtqXnNNyp0-zHr1YUw93MID8082ekuIytcih4jNduINMQyPIUSEacqIEYPdcsi4OljEatiOPf4RpulOwiTnFwc58bY8UnYgWXkbqqgzOB9ByDFbamKnJv2b041_mSmJHhjOPiiqVVO-Pr1e6Imq9WJwGYIxum0t&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEHTJm6ISIbP5Qp-CbhdWmXZcK1-5qVyZb-bJxcohHmm8FL9Btq8xmLzRrv8LCsBA1ese9ZJ4kDLTqPleLup-rBkdmmkpCjl9NForcIwK4LxkKY4Zpc5yO8IAPW4atAbdghL2O_8ED9g_3GEYD1pRzsJc2FKOfhK512b1SuOluEyU3gHnPZuVkJY7kG7KSPULuDvvLRHxCaj_fw2TI3_Dj4Rw53CLY9-Arx70vqFNlVmaxdLCxdvDLXotNwxMRO9e3iCa116N1qc_k6vFgXIDps78lMOFkWa8oM-Wx-jjsjzZuKUiOV5A2lbd10QMiBH_xFyGbbmAs-JtBVG5_S-pWRFo-bLh_bw0UZwboRwIkKmSo5VMCWYuVu_cZ-nEz9OfFd3hWeVHKNU_DXD4mtxEyrSqEa1kaJ9XF9m7ABmIpYAvSz&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFQs9k6O6Maz6HkbO2EkrMnygXIKrSgKwhgc2HqMxUmU7l4Ww-pcg0L8HorN65xF-nVKaZOlQosI1Maa3Q9mxddYZ6zuIpUj3bEVp3KXhrbEF7cvq5K7WN7ZkyGDbvS6PKBn-bQBeXZXG2p_qOwAfI40mSZhD_XB8ssFjb1mgMZtS7TYB28xbB-9Hhf_fapl6uwPc_1D5393w7PnoQH19e33XgEJg2fsmmhvt2ImGdj1dJNFo02Bqma45YHFM19KcTKgySyzCKy-kXIBHcqurQR6c8jFFhVWfpVgLBXxVxdhcoJdHFMGQXoBiovxsFOtte57tqezlz5ZZmnP4luV3UcRdDsLcTTp7DU2BsfRWesQHjIbFg41Szp9CipbrF1-DwE9FQbbFmBLawJPXUuAmNr3zf2S5NC6fKjTt6_K0rA0Zw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGJQzFg-aCz5R6dVgWl8m8na4a06Vu8VZeUEWyn3vfhFVcgE_OIVZOFxTaYgSTkEODHoFgH3tXcrXnatYYIiTFccVkXXC_IfNVZHXyEWwB7FqxchoU2sYeuZPGZpvfFi1pJ1RanSEmCvQMmOHzqFPlMds6-OUHQrXjdGZRTScQwUPRzBe5V4YG-lElocZZvCay72iQmkQhSHcMicGixZUiUrKmiuO3Og4X1I1iJ7lPzN-vEva6X_hqTH1MEAm0pqguyeVa3Z3N2z7-9G-LiAPg9Gr_NEoo07xmE9irdT-SBJQ0-0w6bT9dh-HZrazAxiOvLaSLVHFz1c0Bz1fqYHIWBC32DGFNkOKhSkuJ77mbF2p-ycrSWN1z_aaO0J14vjmAOavJJmUrpgqTAxjt7Ux1DWMKJnc6TLXkhwdECfV3rMw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE2rz7xNDSpq2Bme7dmD3Sr75wJCseRc0iHMRRoWzmuZO5lyqzc8rmVdL_R3dzk3WJSLzuQG5mZli27bQMiSrrZj8xK_0cR_tRYyKl-A-tvg9YbsK_2L_NEIBV05TR0bQ67WFoT3oKNsRa37_XcEDxthJy0klBYzzYjDFBqAyEkH2XcNBpKTJA7g-aUuS7a6vo86yCxaWzzCGYXdgKInUtsz83JKyRQkESFJ3EL4NCTD2WBzM5bQXAcB78bFEMJn1SDGmLwmGhmHpwwmtCKXVx_C0SumjaDjml2JcbWmaqodW_ZIt9cLp80OuMBkPu29QhKMg7D0dUnhd-esdLewZQ68EYRefqk54ayuQ_tQbGgMJOdaWaVFNKuxLd11Wk9PQiOKuRklqmrSxNJZld36AbOhAAQvIYUS_y7O7NVtPYlrV0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -100286,10 +100848,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0981 195626",
+        "phone": "+595 981 195626",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 981 195626"
       },
       "faq": {
         "items": [
@@ -100320,39 +100882,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEGPk92bk5Ve24BIiwBHu1DiXQ58NO2esqHrem81RUwpmTexe1qF0HkAnvWjPM6ORccpGJrzIqX0D4308rvt3V-k8v5ggtRcJw_JnVaJzuaD_OJN9vaZNjeVlwd3rVsjw5SvIkDtesjvEVPt1egh59TgNxSsRQZYZJaLDmWKETF46Cb5H8p40sQ4DhBXONZcUI-RDTKw1EZP6oSFADSdWxe52aedQISQjnywjWpKy6jPWd15R_eetfhX65GPdefw581891142lNNwL6UJ0H_zEyhI6aNxQwOMSQeTxOYVwzrQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEXtgyqS3DvN1o67FU-KxojVxexltbVS2loO9M29R5FN7_Y4bYBQFTsaZlj4JRpoBOliNywuWAmQv2b5Urko1HTSX2UOZDMq9NO2BIKHyvgBwTFAz_ebwq6Ji3mB3BNiy3DjAE2pO0qxQAM4mA2yxyjmxov5V2NASHACh7RGHi9j1lN156YhQh9s73peFtbzM19rDZr1O6idZ3-Gy4mnAXYG6V9irBAqLQfVylRnx-JjkasvNoS-j2xvfKGcqkj3vkOKRhL_Lwk2wX5A5IHnYYZna8lG-dXuU482FYVKxDgrQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGM-poUk2nHGF4yJXae1Ysfh_4st8-JVzDtC4YvDxWDp0OhqhfepHzrkgVRx042CDRpUjfUdNQyxZiC1VgQlU1GnNsePZENBZBqMY03-H0Aws-Fpki8IbZykah7Xs5-SOCTOoyO4FW761JdXM5BGCLuL2reo1llqfZDvpH3gpT37Mk3c03qWpc5v_K76lsJW7q82K9qGtv2-jgvkqoCtCqqd2FEX-O3ly1NBf9tgW39n9KOEhTaG-7vnCu-vjRwJ3hk_l9ghZUtlV7c6pxi14nbnFoQpzmz_-NBi8-FhY13pQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEEEv4jbOXMLUVGlmntOOPa_nIRZFfwWiVnMK2amiliKrjR_-dsntG9ysH6gc4_DEdFAmWTyx5dljX0XRByIQoTHa1-aMh6-hc0hlsGMNC5qWBXqJu2KcsJGLos313x1hLdiBQzgnD9atwUPi3I-_cpCxYkgnu05G3SW6ZIPT7fJuAUsis7I8qcsFB6h0HnLUyidyJqC1coGmb8Il5pqeuX2JAwqW9ZYPs309_rtAyjD-jDckTmMqSdfaptPdTawBRnOx08_iwby-5x-onT7Oc6XxHBiBwhAqxXl-M0jqMR7Lylbu6oadUd-pYEOgiM2xNG6YZCqOSVzdfTBINh97JqnnHQi5fDdku76EaVliheU5vzU0sAoSeE07TnoD2S4Rk0rqKzBq0EzcdwuqrwZEtSUG2RPbEtsb1l5WpQlmCaG7c4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHn6w9JnPpwSoY6qfi9r7s-W9Ce99qbf-4EbMO7IX014E7ju3LqeSDHI_PV4by01ismqwcEImm-1XAUJT3yq5wpJqM0XE3f7bMpFXNd_6nwqSM4TmNzYDM2-hNYuaoPVebIhsYFOG6ALdzRqkgkrxuECWEzq6WdoFy-FOj0uXfLFGB0dRREQ4vIcw33SHqqV5KzBRKOh1IejWJhSFU5Wy04AZnerefU3HiiP99XT-Zb4RwELJEFiRTq9v6HIgM8bIMbBmDTPumgkQwvfLGTgnVvIkT0qIFpa1RpGRGSxxD_QVvegZhYmQBtnqTUC0az3A_pviZQhlsf6rLKiauZw95S9ncEvgcw_yQshI4pOGgy8rn0d2P0ZNSi69NKUX7kRWENld7-eszbv-0TIG4Onm3E1gCqUStpk3P1u6csTkGM0Mv8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE5H2xgx5o8OiuZFxYx3HFS3tgcHH4PlA-Vty7KpdGrr54oUpWkvny50hpon9FMMWo49f6vfuM4foLUNyoAhjmtQa0UdSOog-3k-Mr5nLd17DVMcwvwATdo9v-tznIwGt-krXNXcRiLH6t9L7RbQVVfXA44Gnjwal1RZdqc8Bm3Y7R16q69YgcZhOTdd-DPFlNvVXcxJhd_PiDTp5XTMStt0eYUXo_E_FI2fO7pynzjiNP6C63mWqoCDRMDMQRkXmCTAZDuCAn2xLVZySOyG3LTA_DmNRxfohSYTgSH1D91TImi0pZo-Taaph9EDYEJGnVF7-lFOFMLbOYnmmL_Dg_d-KaWYB-jdgYoGdyRNBiOCGswaJFey5K0k_kNgekCxo55NYmo0pdXmTyUoKBwyASImql4l_RZ3mluytIuVsqmEIq0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -100740,10 +101301,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0994 176777",
+        "phone": "+595 994 176777",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 994 176777"
       },
       "faq": {
         "items": [
@@ -100774,39 +101335,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGHV7-pCQ9Tr8YZxbUfZRVpkGGC4gq-u-4BkAl4dQz5_I71kWa8Y8U06BpHDFQ5UhzSM9rPvFrXbiIpuzcADuwo6X5mufizp1L-a8t3hn87pb_RxhMl_V0ExPhKdhYPFJX0K1clNC8mrJ4NXops5-1OKw_5g3W9F_0zLI-WmrjTm7geR1XDrxZqL-Nk7lWBKSQAG9wWdTAS1R5c9YiEbiuSqFoWVdPiS9omR_m1WkRTFOrPCeRa4cppTJ0Kj4YFnlke24-l2hP_X1JYT8KKm2S_rmk8UUSViouWNMUurPlqiQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEeboDkL7eaR3h293g0BkGYXHyuRYMZx7rctXuF9cqyRpxd2rve77JF21umFHP0E7eoIIwHCPUmdrZD8Oauz4VwxEdwo25VDKnjXTt2Mvf4g7T7I_rKEtIX1wVizS2DDDcTS39ikAskFLWxccvJYKtvtBVhfQoJIhXlvtkth7KsJ2kZb_DKrGK4Yyu1ojf6tkccY1W6gE6gsdoU7TL44erv7_FtYiBkyV0UwI8fbngvoyE3I1MlDFLY8bpF7BYSGAEHDtRn9abFeIRz1EeCNJZYuqA8TQq7nl_fT2IbF_oKbw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE3iQgEooOiSbZ1mcFUxsHgYYzZPdRaUpA3Ygmzsh1o9GkRTmv9vZa6Oabjp_qwJqtB1QeuZ9y7DNjn1nfEh6su1nPXiEgpxGA5fpqfyks3dVbNEqH_oshR80iZa0CCuaK_kLEAQcic14IwWSGg4N5h7PDmMjaGvWS_2S45xeOsGfd84tp1Y-pkK3dSMQqWaRQx3fZhXaWoopTSqSQCXPX_-UcWhutoE6mKe_fmREUhDRODdDnuJFi2Y6oFdUQehv1thizZbQU1LtSil0yA3b6O0hFSCSphqtLYInXD6LzXAA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFPn0Mbt9Bd1sQYKNJg2aBCYwn7_bG2SpT1KGJJhg9OhfMWAUwcXLAvxbiE2VwFAy9X-lyOc0d8hQoReIBPGyoCQHTBS3wlPP4dFP2Ilq2_Tw3wKKSpjG5vcnFaLRzAZlsD7tbWpfNTMlefG5y3QbU5Lzr6h9bK4AVfvigpGsFZ5W9PEDYRr2b8SBXmDZQkIQSBVOo-IcK3Y4dM2wrJxMbYQ-nIMEeruTZzFIRn5pDZvIS_iOS3prsMc9GP3dlXU9E62Vpf1vAWucMKglbXosLxxa1UAJ3PH1g2G6cia_VJbw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHPMUaAwCpqrCArT25y_oZE4oLNnaM5swPIw25A7MJsKJDvJ7jyjfZf_7AXp02ylytqzq5zP00FSlK28pIDx3VeQn02yr2rz_93a9UTNB-ayyEUI2Z_h9csm1qSV8lGnHYbnKTny6h2zaun2lZuvZUREk3_8tLgFEhtp1Ak_BrvRLdaZ7uM17ErkWLeXTZPmb9p0F9-jL4f0roNzyKzwegll63ENPfBxeYclABU0NM2vgrXHBMffAn9wb_PUmMRtkWSqNgo8Barr-WbDINlPSlghNYno6rVjzmt6SpSF-KrrMUZHrMOZkxd6q4MgigfUZa1Kh1LYz50yhSXCSKflgP2P7mfUXUVfuMlufLKGazV01qVT0wAi5q4RQwRmsEpj5hzDQ5lMp2MbE51IWmZqf5gYMd4l6B2qq5FiFJf0Ts_TyVs&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF5sIfhXlb2-YzJtHR4apE1NuKxVjoqDqLxan_f4Fwf_JugsfzcWISXBEG3svzt9MLHWvKhWFSjyeEIfigqOaLCjg8FsP0OOmhOdMEbknWBww_tEIaqfWLEjtl7urOhMQyqewxhnHtHL-4G1DUNGWqLwHjSy01Npf9wHrcDRaCRH1qWmwkbUTeDi7yzt40NwyjW73f9bf9F-5_zsm8U6zXJI15FYk8cvoFupA5cLOqXHK5CXGDtTXgVQtNacAqRL3b2ZZG7G9ufwhojsoliIlotwWD5ZMcU6X7C2xw4nE_CxQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -101194,10 +101754,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0994 176777",
+        "phone": "+595 994 176777",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 994 176777"
       },
       "faq": {
         "items": [
@@ -101228,39 +101788,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGn4iISZ2UmjBi7B7dL5Eq7ifQTO223E7WfLtGA-GVw6V0mxs6cnnk2mvuR92Td-ZgSW0JjveSVCADqMSvnFIJd0dHLm_6oqyTqH42ECllraTG4bC3NXmCjDsq5MlrycxLzWMhQy0v4ANsRVScZg_8BmkvfzLvgQ43nzZ0ii0cFbC5bfQYodgx5kRTRX6p5dNcjFrlMrm_6duSn5ISmw7gyfsuwLG0JTsTVl3GcDigAidQ1F12jUKBUDha8ecew-hU-XXjzSgJpIoyIsAYmIvZ-iGz8IVhWKdowLnLLeNyyTg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF7_0H5ZRRgjPmzf-ks1KcBOX6-ZF6in-QI-h5ixoShADgM3w1JsXUPysDy4Th7kBTb3NkQaeKyGjW9iJeNHbhciEmy_qUORxIv4aTJOdMuDr4xwJy8Cya2cFR1NH-8vSdtg7MjwYRzlsE1M6UKivCYZHw52k0wfZonvD487udDdAVXn9MZ0j4irSoYZERX8lrXdiqH8guQcUaznjp25GeKUHMQuhEz3FZ8sY-1o4cfquVTZmQJ8cb1CgFZUSjbeg_YdvDfXT4GVKtf_QRPHIj1tzD0VVaLkYZSw7PX5YH76g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFfKyPLg5ZR-hirvZvcN8y9m5m_n_ZM1J4KwtXS50xATSLv7o-JqY8koA7W5F0fjvP3dN7yk23VF2vvX6vixaX5Fbyc8NrkrVqdn8weAz2xbYpdT34defQK_x0HQ1907xC5MqzGqaWLgsEB_6AdKU4Mt0kqchA78HvZJNU2WynZZVQe_O_aKFTiz2AGT-OpON7OE1nvI53bRDio6aFRQUKj3NT0-PWsFxx4SQHw_sQN2yIx-S-MIKLr3tJIkuFIkcpFvaLgO4XG7oOFqgOl-TvExSd_UNENan4OFhbYeJn-LQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHdxjVkvRn9BtPUF1u2cRMEDzxAJe5L0iZTZcKSltnFlF6WV3OoTk_xwPmDas0isU8Qt76JVeRgImwAzL_9OLcLpZ2mGXNrL0rg1C7o3gGgT7sfQ0Ifbggo_h6vBLYzrr8DED36CC4yk8KLTn0jSW8usEBBu130fpGn3otrA0TsX3lUcwGc1BZOYR2v7jQkAhxmAcQxP7ogPgvKAbMVOkOsIH7gEHty0BZ3YpI4SejRZ-irNAVsNZ_uw3h0rIYnEKAk2y3t5-nUmylyRd5d499Bs-DmZwfChl9_hUUrxDtMJQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFrw1NDcfaqKKnffj7jXEBnYEGTiaZuvXx1xuE3MBARuBOeTa1UiTZlb2Octam6aiRjDctQYM9S9F_e6ZPRxsCv9cNm-P4Q5UhXsQAwGIrvKWfNbf73U67tvlnx7ZBkPbclyB9rL3NZ0g6VM3-46k06gWRZRcDxs3ShiXW_HRyutC-Q17Ywk-LcolD6X9YLMk1e402hci46R-1PcEES-_eEfKaQvR70dFSLzxabXhVqUUhsQN5RJa8hbP_F8pUEy7pCRv_pTPqUDueKJ5rQ31g2HGc_CuD0yicFECesDSBKd45_KMsztHTZF-W0RZreaIZpzjd135RrKSF0RN5bdpgCqChsRC6PX190gOMBm4Yg4TQxHByl_QUjdO7D3J0mjC5LVeg8WgO4mYmiXx31JEs1go3U6TfB4-617sUgv3ReNPPS&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFdl6CoG932FvWizIvGue58K7vdHRzXkOVC2XlV_xVa5nzplqZ2dLNbt2SXL8UyiGqry3ZbGz0W0UvRZzhsFxV6whHfmeASq2fdUjuDFYloFWNGeygge3FBt9uFg2dEbWeNAi0SUeJT-9bjF4qUYbpoITrSd5Cst3V5FBURWVvZIZ_J3XIteFfZe168GoyMsaSLyJiyFocWsjaoaPeFwP1jnJb8jKWQdm789YmnJm2TCqLGeNhO2FkR6humG7f1H9pL8WPoYnD2H5p5pyNItXW0kIeOTb2AOZkD4hR2JAYxYg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -103226,10 +103785,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Colonia Hohenau Itapúa Paraguay",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0994 862766",
+        "phone": "+595 994 862766",
         "subtitle": "Estamos en el centro de Colonia Hohenau Itapúa Paraguay",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 994 862766"
       },
       "faq": {
         "items": [
@@ -103260,39 +103819,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH_whqJYUGb1luAVWnayOwbkpinq3NpPWUuKOx7NZECxTiz0vnryhWR3bTzcXw1fv8CsN2SX81J7v0X-_nxsmP-6bFUuqVpA0cwuKcKUyZdqoQH57jzrGNrW3o5-7VU6RYWVeQR0S-V0L-gS85s2ZqpKJbAv11rVOXmUX37FHBNg_lkvEFl_lT94mgKUXZNcjl0pr2gOPtTCF3qc2q8AVYOoxMJBLAtmZrbxKAJBhzfP_1l6KSzLlT7q9fhDY0V6BvX9c2ee26rkaBSmMjVms8QBw2Dj9QKquOwrVGDdrE0Eg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEyMWVAaZHYx0a7Dy6xiDL8q2UoMxovKwA9TRBf12CvzXsjQ59DNmI5vWJjebl2DNQGYHr096aMcGVzlSr8NeerJ4KAUlcC9D5TKsyzJa_s9dlmGWxmtcf8xPFnilJQdxGpTApuFI3dTe3JwhUUe01QhP9j1TdicfYEcVZVuaJZg_5uwYBMrOyV7FxT1VIUtjau1ulY0g_RLa3guFzFhbS0kPNAoBz-WGSiRRfiwDDYDBFgYj2goQVBdz-sNJtlNmCGQbcQTbZU_Devz-6_NeakSiMllZn4zY1cRkpK1eAfew&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGjGALJOTLIcljIt7E3LqcXfIZYNBumRdFZ8kZhZsly8bnF1-bxZUonaqODnM3PjKGpqEHIIFzkrt6QSJ5C2GDL9JPBhzWOoJVzv4kHmBmxekQUXtr7xruq04kCNpyxGd_kA_ZtDIFR_WJnfiDKM_kA03ThzyHORAykF5Joa3EHI882LmHQELVAbrxWgIYmvC9B7reEajSX4Jz3cf-RyioxkuMDn0og1F6DPzjPaS3Sovoz2E1M1VpgWIOkxlt1y_pWoALSwmzeD8iaCRmIHgsyMt0Puf4nltLRMmDqN0kqJU_W41AOJ1kCHczfNzOsdE_Fjv0WgPlZvxfzxAQqQBbKzqS6E9M_gOFwsVs_aY7DkDsO8iXYnGWp9azYpsLYfkmBQl_dA6uwfp0SRt5bZhwGSQZ6KbdMAZuSbIlCYnIZSIRu&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGSK0r2CoV8vNyMz3x1v27KzmwAlEm1l6h9n5imI1r8YiWMAXY1913CvacJNxSiPmTPqiFSH2TC3NRBVy7YIadRaNRvO_XcOBkjKB30iSinhC4j3ryA9sCvi0lrOePvQZMumKGkODJqCytYqfq1AOlnAUI9HRq1hWxk1to1JyPovK_4S49Hs6yIN42UYJkPGa9giOz6NUH2yS740yRE4VztxvS2OIcD4B4yv0RhsJemYhD4imWp0APWCeFD8Rsa7P9UyFYb9gog6ep4gW5Y2Zt0nHgWz2sNeq7sJ69ydY2H8g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFi-abkP8HLSVEazi8aWRUi_jpI1UzBAtrQtsHf9YO2DWWuZmpkmAFMiQmstYEXHKCC7_sPfpV1GFTUCAgk4mngoHRSwSJuB2Ssn-XNGRTuvHq_xJwO1BOy2srUv0lZFDN4GHdFft7J72LoT6tVyYplc2yCv9CqaC07OBX147uDYJhXSByfvqGyZPFm0lowwcSjGaXREZlCcEbO-eLRmemTyt-UjTxVEfD1uDOmVYkYHt39XzZOfe2S4QO72oA9lFyuIf7Ya1qAduyS5JdDYC3VHo71akejNNQ-QRuINbFt3A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGo74JXfe6TA_vRXq47oRAndoZc4uEZF5YfU1F1iT3r5F-QrEKpf2fPLrMgdHc4l6drD5wDXTHGMHg9ePgVH6u73ODywcq7X9kEKUkk3Ee0t9xSGsmPSjc6WDR9ovT8k-8sG5YaNjzUC6gtHz301YPkZeGqNhWfqb3-rHmvHH127P-kHMZohHiN66MA_KKnhko5ts71vC5kwAmOHTbz0NiVjg0L7Sf1reHrDCTBeemWErn72TN18UwJeS0t_3LaPFbXJyV92zedePZv98A_GzHL9IUROR5wLFsXQcBzk_c7ZA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -106211,10 +106769,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Lambaré",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0981 961766",
+        "phone": "+595 981 961766",
         "subtitle": "Estamos en el centro de Lambaré",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 981 961766"
       },
       "faq": {
         "items": [
@@ -106245,39 +106803,33 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHnDFMPrZFkfY9ozob4UvxIT7Vksyrbitttu_f9GydJisT_BGUcRP_ba28BNK2HV2OUdqVPN_vtrayD1mRlh1rYxTbbFGCoRH89TdK42MG2mkv0y2XA_M-KkVYAdXjzF-U1Yzssf1DtEHNwbo9OKdRsvlMczrEBJ4OGnjV6MuTl6jY5pFv-37HwodvIGT38C9AZ8V_8EQ1AKIe6fi5bnDBQ5Xiouq0QmP-31kUUHUrk_2h8wnHNaLcjawWRjlH0svi9uENVRd9qKuB1GPkhxfm9-Civ6qTkb_sAu0dsfmki-P583lzaBP6cX35HLvAm7PoutuIawTXXOsdZAU60Pg81Ch6ohdNIluB3lI6N90QA5AP3at7CzxSEo6aVnHGNmg0thxfOQo0MCaCwNwdPqOmIIJZjO510fOPml8JFSo6x1wU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGqqFO1uvqtm2kvUkSORWpGlGN9xUIp3S56sV4696TWJzU6IqS2yzZkG5PKIKtnmEko3Dv6arWRhAae6KhqohznJtt43Ec4mad1vxSoy77b0gRpeG_LETOAoMqIqrzp8BeLermGHynKY4l0kSnY3hQA8VwTMMVi3xnmHSN-KToo6kFI_-ZeIb8ujFYLnoBts8HwAXIHgTyAMk0_gcW_gluzvG5xB5_hat94VdJtlpGBHIe5JdJDq5ekVGxITqZR2K64fmXo9bxKbJdsjjPkhza36MeLAQzOCJ4acL-A9QrI7BsOT1p52Bq-gyJMDELyjI2Ed7bmxYQahDBwpoTLCMB6AZIBVaOLZpBx0vbqk4XF3C18w3AgGsNQxg77HksYPRpsRYxpcbdB3hqYwbeWrlAdOiJVa_8_gNvrP_dfW7qAxHg-&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEqZj7_KrIqv-jHkFwRfgSkLTuiVeHiWYFAw81p5jg5OBWQj6nDXAr31Zvu5L0NbYJLbJW7L672mUS2WvckwKoAfstG7_OD-3wmNkXpzdH54KoAqQxiZxYv4FHMR9Pw-xmxEi1qY0hPMuphL0yEaWChZwq80YUTheoOurc5h_sfbeFNZWVT07CtF3kWMwUggYhVHsoOh8XYG5yDrYb4tJILRUoJx7l_Btc6PehAcebAyoJ3_GAW0VEg1zFKSe2Sxn3qGACjDNvJzUMEkTuoKvpS0K-b8_Qia4Kss_EIRXwVZaodnpTMB_sYtap4iJF-DIjfKb34-kaTQF68Q3PcUyk5F7d2AVMLVYJiwd89B-vecjYkjUbZdGGCxWPtgZrUovPzL6f3razgdXeX5PIGTMSZCt6qttn8SB_sZrdpgpkQjJM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFybH1STskTQiZ5us9mhVBP6dKA9r9qCDSLXgOOS-oXxuIV0s3zsDsbW_6ZwEMUtOoa5Zjm1ddI0GXzNve2sd_LTLzXUiAD4ChCpsSRV1MCtAxzqS_FIAt8-wndQie-8WRfXm2yQNFwxokEmJdqXCFfV95h8LUp5-q8xfZ4ZrThniPIePsaz5lfSwQHEYNzZFNv79ycV4JsmRB1AI-xy1QsoSTQSUZMJtldMQGhFhOcvuiX9wD_yKdMwwERb6GR914-lkSqdazcNZq57-DEZAqVuFK2guYyGolHChpvf_ug3CdFkZl6s2T1jcksxHwFo0AXX7FglflIkJWNjPpYrzsSKExw-NrftWcBykiz4GISE9ESNp4til9npyNaalWiGQfAG5QTgPZKEIAXPfh07dL0fCNyVtLLVG1wwegeSVggiQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
-          },
-          {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHUfAjr5bh1mpPJqJuQChNgPqwmbpSGfMg5ZqknW9Faxnb_1ZDAN4yLF_tRDSqx3WL_c2hADi4EP8gk6pgFqSxrnhdL9ZAxoRTIyxgxPhi08uBl_aK39-wz0dw9BN6ciRwQ_Y4cdNSOkYzpwy6xY0XkgXNIYK8NDR3s5ewO1bU-6-TG6DgZknEttquWPg8yuCFzAm9Eqihu6FOBzcduGJYxW124SS76vO3Jjj4fNqsCVpBDM6pFeduTrYcgZ5EelgU_ZbpotaCSLkvHIXr1rzTLhUQqIN7GFHMSaPxZ8ODZHGLLZzF5hUDT4i5GzaSoo3GXhzsKiYccbnh194gaWCsTtAv8HON70Dg1yjllDGQMoezQX9PHhRSQVv6zDnc3LjJtfSrF3cEHpW-gOE8BMu3gl83QI1zhuYa1Sd2r7tOG1STL&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -106665,10 +107217,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0971 527527",
+        "phone": "+595 971 527527",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 971 527527"
       },
       "faq": {
         "items": [
@@ -106699,39 +107251,23 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEExJ8Shpk5Vzerw_NlhbWXKbTukAOMNWG1yzw89HCAzVXs5Nqi4vcH3Gm-6Yjp-E_H6T_n4WPCci6f9LGtu93j_64JFMsg35Olo7dO-XWelKrVuVM4Yo1TsSR1FnAGRuBX8E40okZnv0r9fFBMsS8M1-Wgy3VTPb08v0cvDdF6rGxqcKi1OrOMjgowuex-aiiFTwxEUiYJWjCgkN5EzEDseY16EYqDEoTtp1l81kzXc7FPTtq4eIviVsmsK32U-2Sos1pbFGWrCf3N_mXJAa1sPLmGm3lDUKRNMaEauR1KMsd2FLqf2db1T073FF5sCR8B8qU80ptFBC_Z5cBkFjOnU82La3lqMJsIaklNwOj31WWvImgfNJstm-N0HEbxDLdiYm_qFSokVnGSmX6NLVpun6Np1QASAsxeJs_W4UxdyHw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFzKOFOTSDsehzo3J7BPJLsIN9fcXXq2FJs0clvPZUZN3iVpOfDjEuunqbcJMv2A3sCVWWSEP0_oMuG94dRlsdYBFMzV_BG3jTPQ8mYPnHL2LkWxVozVo0muCYViFCowQ_dhpv1h12lUCcYWdE3c-Cm2_0YR0tsIeaAuJHI2f5gILzpDWorgo6el2NFT5gdDnFyGUc74z9cc4K0bUjF8_SHCYagjlybxEUs-H1VpQBqKEOTf3wg2dcVHi1hvDj5HZhtiW0-UvZFDVNRQ5stz9PbxezRzrMX9KvLvXQnPuLjG3ZkPpEve4RD5QVFYPAVcvVRm9uoghwXemmbE-Fj9hd7zg9mEh6bfM4MWOxR_aIadXC1p1AcVB38d42jypCKZkDbBox0mGeRolYkfZC0NKxOW81zLqax4QImyyp4C1wsZQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
-          },
-          {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
-          },
-          {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
-          },
-          {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEcGtzud-k0IojnzFKri-EOJ9sJpinK6TTia83_E8ieH7imYsM8rA-xh4kGAwEePyRygs_uicOoWNrucE5VSkDPDiNDD82H38QIQib2qlHgvB72arpk3oRRuXcmSrvVjnRpVqtPsguQWJO_UFoDkjFS2s4kZ2DpE776CQUZfPnWpp10lfr-BGuHetcL1N2_xfzH4M85KpR-qWZNnKt98fCmAhN_5SgS16HUfX08BIvq7XdHczi_s5SnOcSx3ZxCVRaDcG8SM71MQbbDt2elxugwrHDAseua9xdmCEHKXtTKkczLihwjLJp9VSwkOTdGF1T9EHQML8_nfmX1Xh901ZE8tsgQVLuIhx8r7QGM_1P7fdQeGe1th0-AfN07rvGqrIClOf7S9aF89WrDyhennmb-54uelobrmroLeNDH-3nz6-8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -108747,10 +109283,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0983 940571",
+        "phone": "+595 983 940571",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 983 940571"
       },
       "faq": {
         "items": [
@@ -108781,39 +109317,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFZpYwF-6t2PqH48CePwRGSXm38o3oK0ofye8y0q2BRSODPfx_MqDZfDI-1DoFPL_Lil07W-fKXA4nSnjWXmuL9gJIkG4-7tTCstY3-D_d5lHS9QbJXZPMCnZRoUlWul9_BibZXkSx32EIolzoJjhO4zEFowP4sKwv-KxrHBS7cbTi_cFjba2FLoi9Yo4qkVnWD5bejN-yF7T0dXPTwSvcOa4Pi_WlEejWVECEdqWKi7HPGLLq67Ax3GCj6_Bp_w9rB7XKPw9vqnWAtWLGWX1dQ91OLKmlZQbwSboRQFoo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGM_PxbYX-ANdXW4ROiKS72du9FFUETZfS_4NYFYEZQXj9ZjAsQ6VqMYLDUGk3wuGjCyjhRZdrYFXx87BZnC1TRei_UCMroF-dQEIM18KHB0C7CnOFKwYBl3d8FyljRNUuMVKruHKkbepiR9x7JW6JwU3eUl_ZfUHnNGH6jnQ1lbPcN13gU75NuF5tWJ2JG9IJz1jGAvi47rCLzKNwwUpbNrnZYZ7EkILB-r3B07Ku2cQNU1N5nWDfBIg0OFvOvwqgIjS0Btq9neuIYcnyBbk2yORnVTgrLsbyfk26h73E3G7XaNQBo1NmHrz_tww7i52pIhmDzkENfntOmdv3w8U0Fa_WqXzG_elH9xcO0BV3qqAOrm2-zYBflR3F5WyEb1itx77qJ4z6fXTke186Dlt4qbdatAkA0ELt2f5UWznos8so&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFVLZ__NYsBLMT2BL-7FSdz4q5MOfTB2ckyf12d7rjxcFz7BpxlPSqRt767mcqXrjIsisUwm4mrxmrsJ0lLWKCO0vLnKeXPHrS46yWFfHRLIngVvHBk21L_PyePWS7TLSHjZ5CU4maitPNk08StLU2VqGWq35bhmiEKHr2OsomU1z-kdHmAIRvC2Fp4s9gBNbt4gazm_yuq59wFvCA1cxTOfmDTtc9U6-0pmGBoMKdm-leO_-fXc-ImAIa5HSmCxA_d9iyHbKDrnHQq6uwOUklBvOyHHUtri2UtN8SdHmvfXEBjsy132RfW-zOwwLpjnb9bMKNmWBIvr4xa94LfpU6827WKHf0stfC93dA83k4heYD9gzUg0r4rmKK9uVHXEP0iQh1iKOosw3qxIEQMqRVgTm2HvedeS29Z-IWk4It83kg0PfJhRdddckqikWQ_&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFBDfeR6MM7ZA83W8oTGPCi3X4swZTWEF8tNOI3s9Cnre0GI0W4DR9x1jQj6R5YpqKvJMMNQDRY4jJ-GJKq3yZsP0kQz9rutLKZjYwQmZok6m7mLWjXVt24TRNhyiNxsVakpzkfStTMy_6HBfgNG4jbT_2Xyzofk8qbZ0XSPaZny8NZ1VwDnCDk0CcU5NoBAU4p1IlOebk3Ca8YSrHEtMTRUWCOCpOINd5aL3qI-zfPd6SNEv8AHbFx3SMSI8_jLE1-pND2u2204D8nhMfdh4AW_KedOvsrmiLl5G7X0M1UE5Rmz-LenGv19vNX3cRfJyuK43vywtaeDpATmE6Mk7PX81OZ88kehHOLOHTlA50VAe0bZ13X17J2yjbT-3iNrHejVarXxnrwj3Cx4n3Y2jQildo50v1kIcmYM1wO3RWkpAPWbcG4j2764DMr9A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHBCxO5fxP2RMdva7I0E1SsgVOmlCZ6ZGBn6viie2v9ySfrMF_izLNqUquadURGr9fSxPvhT_cvLMffBhdIB6icvF7tVyi0i-32IRZNZRkTfRjlD7GPsef-GUrlpc_7KehxZ1e50heathfZuVvWFT9jgpImguZGlqSI6yEQR_jttV862PHQU2EMt6Yt1A7kjSyqcAqbh5Jk5vGPL-l4mZsBANtFcFgH0YlTGhcy35bMIOXxWdF2BpXsuod-tMuP-9UELq4fYtWbZ-WKgMqlmeAJnbDvBoTcvk_wtwdvhDWjZBuB2NrQSk1W77QmLYRvNqceiSlaq-GtZ2nDW5I8Ay6Nxg-vUqymL32UbvOBwlVsV3IHcHP0y02DgZ0kHcuruSa1zzVcqmuiqEmG99HzRw0Hx7TfGt_g72UwoPsN3kI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEX86cp4Pl2MydEHaRytcZ02gZDwUeRNfQx6CICLTsTjm3bDrIrDbf_gGZ3PahAq1eK31mrofIpU4WUOe9kSD30Rqf9rhp2ELlw6qiUDWobGkZY-h1eO8_q8wv6qX5If8Rbxb3Zg9F2F4hBUIogWf9Oi4Pug66xsuyyHCG3PZJq8vm6F5xUjbBF4kKPDtZe7QI960D507g1PQaSuY0Bn31dE4JmGpN2-0L4qul-W3vHdb8uFzzLlH6yL7b3wisstLuAFtpXO-m99TJesCFJ0rvUi5_Jo6vKbnxktgIcndY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -111605,7 +112140,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Fernando de la Mora",
-        "phone": "0984 904215"
+        "phone": "+595 984 904215",
+        "whatsapp": "+595 984 904215"
       },
       "faq": {
         "items": [
@@ -111632,23 +112168,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Maquillaje social",
-            "caption": "Maquillaje social natural",
-            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFUaxB_Hh7w6vOHXTPG6V7t9vCfGflkjcvruj2LAqLk5WZKaeM9qfbNwKVERNlxOdi6hTyhBKGxYmu-7T8oBg8QSMgJLX64UzxOzCjWXtX53Hf44LfGQXxvGCTkYPW6SG58GR2SwoIfrj9NXVzh3-eyA_0dbqFI2fwIpVCXwvXbAEla3wGtFGwm6I4cYmTpRNXbya-6cuYP6rbfpu9Wky5WcUmPhvZG4GsUAfwzE6mgDPR8qdbrOcBBQNS4yJTuWaDU35ahfITnc9gshYlxYsbyjERrbv9Cp4LhNTRq-rZZlw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Maquillaje novia",
-            "caption": "Maquillaje para novia",
-            "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFoH-NvhK53OmiN8fKqAGJjUMsJSgOoaRnqnrg8duFAfn61KWZjhQOkRoNO0fa59FE14DQreRkX8GNqoVzogW9BTY6jzAsIgAGE9jYNsIEzdU6fzN4ZytIMkkBFCYl5LBrCJt7TzqVo6D5dtxuoYsX2EeGNwzsmXoB2vfvvICWA9gtzyZR3ltac0cTaf5tem5ZOESAMjmcxHhQOg3-YJ6SF0HUIm9wKA_FXLLYXphQyyuuTWWh5T3dQ7jeKgA_MzjVFoejyu4splTMrzj1A4MXPZNR6R0pBj3u6nGnGEB2_Dg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Maquillaje artístico",
-            "caption": "Maquillaje artístico",
-            "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFXjbVjVDK_KICRZppAe0ppfHuOQf4mGOVGVRhSQ0DTePQ0XJbftClzKNNWUW0OVP8lH0YiNXMhQapUsNEEQb86-KlWbkspO3eLDh4lMauH2xnFEv81afqxaTqWFG-EPw2nNvMlDr1HV5UcCxhC7DplUT0ZxGCRwxenIO90wvNXBPRQ1t0AvwcT_ufKpSaFNsN_OHYPjGmFNN_UmW9SP4mVIPNVpsQvA-pdKTSceyXSt3oc0xBQ5UZOPxFF3slRxy2uZUYHTy66zAqLeeDCETfHCNX6z_LphFm_E7VwMX_tXQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHkk2v3rmlksJcDTvXtsNDw-LYYYuXuzySL5z6hYqRnWTHoNLvM_bcI-Uh2xRg1c0sgBINOg0fgK9z5xZlYUreoJvoktXAIe8KwxgvXhTZ50gjtWIejlTto2x1rf63euv1RtqjMdz2KCf0jxL3Ic49JV3JN9hhQ8a9y0TF7jVtMqiORFS3jEkYjzd7_I4FuNeLXqwRh8XNh7uw9xtC_t2vd9DtwCGoOil5UOT_kTZncFb_tEvDOvEt88FmSujHQTbKRvW7fDRDC9Fv5oowxol26BTaREnfdZfMNHVr-V97rbQ9V7mvUfKqyF6DHZf0hBH7b9TYMaWeJkmYSYjRPhSMsk1dsQgx-5wzY2H0iYxKdZtngYPSKsNIRhEyJ-34pUTypELXGYNTX-IqztHHUEOs1QAcekZh6Jk_u8gxtrPg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGyJ52feJOhZkH83J9UwASe70pDuSdU3hbrsRjsSnLx09EGFofg6QzUCZrSLFR9iYX3Y2nNlCPQ_KC3G5Fyy-KhJq_YhIhFXD9Pja1_jCJOZ_lSyhhB9lAJGgS68bisv7k8jOsqT05pQjRWGRb7zYsOnLTIl54-5h3I5Z19hJspIXO29XUQOz6HfdHtr7wJz1HQ4KMeXpe1l8X0UPgqtZU_9QiTKsN-d-8op1BbkzDOFiuGtmejFEM8e2ASqdoyN2kZ4L001dc59OSQqIpJb1qyj3hRSo8mmeakPEV03v3gQw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHab3xPJqHpCHANst_zEshBheLYSKiWBwoCQGFjkD0nlkBAyyydkEnJRkYiDxxuKmzZSbOm8irzeXIzmknMQMta1jXsP852l5l3e4r7AWdJVNCK5l6OE0XDkQP5fJDGfqWS_jZ0p9biIlS2JWg0Lmln8qsakHTahGqtaoYy1jd9Qm2n1EXw6UcaI-nZcGBGeje5C2NMuL3XHx2T7ptiJbPOlJvGRuvs1XqXL1bnESLKgqH7UakYVfGjt1pTXq1nt41_nCx6BLhE-9T3ExaCbBSbQADMYBq6-R6muhU8Cyb8qS6-GeYQJJpaeWiNIGDSTiLrNJyHh8VaHv3GsvLrSAc7Gws3v6nYMzMHCPhchjzUpSGp5VRmfoCY5ok8lSTtVyXrzvVqqamgSIUhmlOkuV7WuUDSMKX90VS4CLRYH9hjdhTNW_vcg6Mr74ipYw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "subtitle": "Looks reales de nuestras clientas",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu fecha",
@@ -111846,7 +112397,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Fernando de la Mora",
-        "phone": "0984 904215"
+        "phone": "+595 984 904215",
+        "whatsapp": "+595 984 904215"
       },
       "faq": {
         "items": [
@@ -111873,23 +112425,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Maquillaje social",
-            "caption": "Maquillaje social natural",
-            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFtLNo6jXOhlrWb4HH5eyxBc6aYmm7zv2iXeMSZTT2fbbmMZssDw-nYWz9mRdik1k9_aMnBcOhDaFG7ihKO1nLM8LogXA4BLWYBbs0oGmEbFvbj59ojCEbLiEJSS1oDEbbc_ojhjWE8cx-i7eZ5M4YLMr3U4HsT0wev9ayBIewzCsbh3MU5BIRq7ByvVwWEJlsNAOSNkigmN1DwHRhOIMBhHjOf2wu4H6jNV7QQjvuyagCpmb7l1bblygoJRDkkfxLYNBYXhMfoRGI7Dep7Vqz51Hxml0eLQDDfOrf1NjiSkA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Maquillaje novia",
-            "caption": "Maquillaje para novia",
-            "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGmT6eF6TLdTd1edDToV3bCkUzigvGgVh2k2BM1SvxE73PbWdTQ8_8u2o0sNZhhNy_fZ_3yQ2RZqzXUB-w-5LrvMgO14mki-nUcnAhxgc-qmoVP_Hfn28QAGpn7oGZgGoWGWZyCEB4qwI4KSUvcfHgYP9IEzvLtG4qVeGtg1bi-yyWRmDL3oM5-L_uC8Yf_394K_Spn6U0td15iRMkMODiUtA4kG2Ge-Qu-kfv1vQYm5IgHx4c-8hM4Ts5y53rV-MW22-5R12ufCO6YSi9ccJNkBTi6DzUNeyETZXUoQ-uyWg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Maquillaje artístico",
-            "caption": "Maquillaje artístico",
-            "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGwRmncPYwe_riq2U5ADneZqyEvBbF3THpLP8CTDHjLZ1inuhQsgRG7yeuDkiNAq4e30qBfNcdJNh_bAAvLqdgYcsHtfKpZceViQgpB6JOxQGTTOP_LJSDQDdkIp75e3Y_FuSG1J911kD_0TEgJkQvZmz4ecYrVKF4bHBg_x-S2Xq9Snfi_JQ3r2jVYNIjpmbFSAal3p4qaFbhf9WkIdhQvkPX9NW94HbFZoQHZdqpRbnVfrfF3Bf8_8XhoSEQcr5iCbri8lIsl1dMU0fpb7aACPBJq-DAMPTs6r0hFp9n3Fg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEyMWvq7YGfxWaFGVLdUhuqSVyfaVJoZjR92ktyj_YP84uMIz59rz4w4LCOYCe1-AbF2S3IcppDiaxm1GcravZENg7YRCC0BwM1cIgvbNYXQB3_SPC1WwyeAzAbp3adBwfqUvdIPN5YMhb6UkFJ3O2kNTUbLdfXVwwjG3vC4PC_nBi6zjZs45p1fhQBMOaPSnfhmLoYegE3ZIob0t0P5iJGxvmAFPmsvRaXh_IHkE5c_kKfpbCWSL9_rW8_EnP5q_xOWGaqmvnw82vAvrlej6LJQEPM8B4BUldqV8ttK8HNM5leBIYrqDXX51OVl_y53Y_KJyQcYX4CmWtDUBoIcYh0FVUldtN0qGCvjRglP9k3fnrSodUiWmfnFMmV7dOAYncDs6E_2iSz5c3cUoGkaFNohHV81mDoTPs0pQMxp-M&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGhhQuHi48IiT4iG6OvzzP4NucinkiZMBBGM2xj3K68nL16NcW2hIl6rT1Vfg4RmQscJ83IIb1m5PvH4SROg--DVldAwLfBqyViyia6mijSi1nLQWs33kSbGbjoox-FeLDKxwb2ZojQs8EIdN-9Y0DY4v_K5nD4ao5SReQmfVoWL_HYM12sH-o2ifeewWfK5KkXgCh703KoDjv1mp2H9ZHy4Mg6q0yesagcS0iVEEVZaqgCYY41epTdWGYpO39xWP9_ahoLGTz5p34mjME2qMiynV8bu3XTLUCaMwyvdM64nA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHJc-5ro3blR78CN7T4jRt68OnGg4B5d2zzmq2t2QY0xIaO_ehSRSZgsTZHR8TH8YX37XRTdi6mfek46XpuDDdQy5vHJPnUd-M6N1YOULWRSZd4VE1aqcNWC-SaBwMWjdcak3Z7rHH6-q3g1ak4LS4G4Evh1b30ZZ6L-_eSJau3WkmFMyQd7baV3OgmtYiCMdBc82qvBYMBARjR7BffRGOfS9h8Z_HeMI8FtohBCgoSS5UsmctzMTsaBcTaCJsFefaF8JbM8so8MPup3oTBmDCC8ArRub6iRqnuh2tnI8GO9q-qSNyv4vlZIpxtXVNc5PbYV2znJaC02qwHVzI53wjCznaMMUrqBEtY-zFcrC2ZbC3aJC_pAEy8EuFDDC1Ht_nuNb8Qid6K1wU4-7h2aQcKLn-lYH8sYZxb9raHiue5NgiBbPaIRhQmoMQFew&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "subtitle": "Looks reales de nuestras clientas",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu fecha",
@@ -112094,10 +112661,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 329 2436",
+        "phone": "+595 21 329 2436",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 329 2436"
       },
       "faq": {
         "items": [
@@ -112128,39 +112695,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGeO3w_DIdeHLIrnvG6FYgERI7YetLGFNbTK2NxR-qxBaREHyBoJS8A19Cz0ZKBnKDF1DxnJInwhWJLpPd5Br2i-m_0Gr69k_wht3d0FsfHKcjl4qyk_Amsi_j25AEm15VI1SULSOXHWiFtG8W5Hw9WAtXc62mfqnpjIWVWiI6ND5LzM6860U_tllB37q83X9NPG1cmO1MRJBcskH16m7-z8GyZDVW8ljO2y_BnMOuCD9HSHgvMiH6fLH5WTvA1zQ3WE1JZFiPOfGWzR6eZS5yntIRN7VDsFyB_TBBJheytwcz_UlQm1UeoQvybAu9freCvosOmt0zpyHdcGNISjZEyQ6h_-O3-I3LG8ro708jgc0p34uunIQ1NI4NpbXGXRxjRFVx46x9K5k9ilATiN421yaQ36EKPOBF49o5km9BMPQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHrhgn3_VbebHGw4iOje3op6k-pbmTAo1OwgYceECbo8TsfkpZKQem2oJt-8CB4wMQ06Yq7xXixAFdjYQj9QdlYpuqlcdl12Cn6w-bXIrwjO_p2mkGrWVesDBHdDyZd63JsYPnJVa1cmf640wvf1YHhScly_sTl0yu_u7cOYQGRyBVHUhzAPBaQIT4oocUZxbbS01HQHtAMQmTupxzk2Uhc7l3hdb-nMd9u4oNHCcOdpCgCXjjShxlqq8y5GPSyjO1nfM04cS7FgDQok7pUacIpH-C0JmW-AKdRa8NuT7_Wbo_sCKff4vOlMZu22WOj3zMF_pQo4O-UvrwiFex-EaRNGL-GNk4Cy_ub2lqrtMP1ORktfHMptpioyZEWAl-zDvxMNqNyb8etVaW3Dj0YsEIgnP_hOs0ndaAYTWyS_ibq5g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGpHlPRBIPsER6pTHH5Z7H36ZkHt7LSxiMjRBsH_adeO5qJmb8U51sBOgX-wlA51z4Jh-rHienM1g4_nvSRh6S3FOyEY_VVLp01Cj-V0PsRTbndsR72I-eL-N9c73zfYRqElptDuLBveueWkdeACNCuqZ2mVi64Y6ESmWek_fkSuianFe6FzAEhvZJVEeQv61cqmIvUJEkHrpNSfUGUie22VNlHfZhmn22I7lgAKQB6ZbH2EYeFV4w6mlP1BDSF52tVV-7HTCs693MesI7A3oQQDcon4qsz8WsdHHrJO3JOZMnyphTgpZuWMcdoyG7rKHZmc798o0qdo_AqQeeel-EJRBBcEotpz8ws007Lsf3w87X21ddHVkVesLOvS09lRAuc_iChUCBK704jKlLOmf2j6UaAfjTqRWiB6swb3m4Rlw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHgowawXypT7jexrKmak7sycogJTM3qCqTvuNUzv8Qq5BPPcnRce1OMPgSX2tWu6-tSOpsDP8j2Fzw2lALTIAoqUy0yMa9dsMs3RBpck3y_EWWsshnVOg91GUO2yjT-Q5TpGcpk9RN34HOCycgbWwXrlWf9GlXNn8Jpr1JHY0iftSQs3U2DLLJDd-b9DpTzMdhT3Yd5EpEVeW5mC2dOuGc8a08zoBRcHZK8g2vr7ryiOiVL1RdzPSi3gpodoRdTx2PixeIMJJQcg_8cJR0AgAXUNFZla5rt8DpUDo09716AOzqg3UuiINQG2MqKckfJxmGFDbARlsfG1uBXjS0vgoIfi3dH39dY4-LWL8ADdzXYWip1NlfcTpuTE1aaWLDHvGfnWZ-E0g8HKB5B9SPUuUbYK9xOMykKJKt4mQ04j_63Lw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFjcBuPFdN0XKXhrNstlLiBmpMsAdRL5y7-pq3mNMNErMjKQXcSrnWlmJG0L7drmprXaEUFb9-6nLSdeXdEhgh4vphdmGPCcABULW_AY9UQLbciBTRinh46p4B8g39EKmcB6u8nygCHrBbYkkN5QHDH2S4pCb_VKJdHhCGKIF08RLN9bCarRoKb_o6ke8jHck6pvDGEKgls2X2CwHSu94vXYivalnIOHtirVY25grZDIFF_SQHDIEMBxqZAGC_LhjJ3Y_LYFK-dEbCqUckNW0PfdQQaZh7rb53BgC8ClVWbuRBKE_95j5j8m7xcwjFsKHmm2TofFuo_x1yTTihiBjnPUzsGDMD9-jXfBXocaMlsTdA-oKEbD4z2Py1ox9h3RS0uC_o-XPrToxtirgt_12iOBPiKiNlc0mMO-gLa5zJ2Kb-9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMAySQ77ARI4hR_VoLR5cKq4Ud5vuziepLpjf1YpzKfEk1IKXaaEqQ1J90_947VTR6sfuaela99a7eWX7ZeSnWeI17nDTjME-8lssYc7vKa1EKMaQIdZYy1GyBr6kU0atdgIwAEgw687OTA64GuQb0l5DjXapbHM9RFB99rGm6T--Q0deuzS5jNLUurPSYsOADPXqmIXU9WcGLPVB2Yd91d0bJdSFbeAg2M-2wqe51rPy-k_NFRFEhE0_4MCczw_jEoEKKRyL-zUa_Aa_ZbmmjC6ZH5VoCxXoLhmkmZLjEj8dnqoo1psz2TaKTHDWQx3NX6sAxzIsfCdin3O2gnuLJXiKLCIVtSpoM4hGtZ1ymn2hfSKBiTOu46pV_nVO5anXlKvM-PXSzK1ryHJ3YM2MsnG1NpJjmF9jBY5rh_gfU7OA9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -116028,10 +116594,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Altos",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0981 200260",
+        "phone": "+595 981 200260",
         "subtitle": "Estamos en el centro de Altos",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 981 200260"
       },
       "faq": {
         "items": [
@@ -116062,39 +116628,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH2fopcMFLQyKIAFwWs73_oE1-4ekQmhCFdhyqJJPL5KfCHUk9eqAvPGU5Ghxkx73X_E6Mm4zF3a8onrbWrYvXarnI0Yk4LH2TprLC31BlP8Ay95zBr4KNHpAh3U_wyy_qz43qo35YMjtFLoQssllRlKlzd8zLUQAI6wB8T9AD5eEUVNy6Rje6879S8RK2rOCbIhU8JKfY0A6SdI9s2yrjqDen3eGgiZhoIhRNsJqXtI9HuxSA8QqPQHuf37GelKMzSojB8n9XHgXFio4Vo0iPea4OWALfvhCA_8cu0ZlmM2w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHiOO8yhrz5sllqP6anWMPP7c5hyMxdeXhf6Uwy9Pf8bL70egGC3sFxnsjY-AsTLop5pUL7zDaHowP6GCdgS_ZfZY-x_rdwOdx3pLLF6rGqp3L5NZmfJpUJrk652-UwbxRxomfKpSW1hVBDmiXc4NK_ERNMx7zH26kN54_330TtpjGIRWPrBsTU2_OBNUz6_kN-GUAa-lVvObMTKk6_ebzjsJqTBOkufLzxiVQ2RGmq16JLi_TksqvAK1ZGh4J-piXTd0jAVriZZaACRQbcEOgtwhBWT6AN6zEHoa1-eycbLQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGK0dkF_UWSN323s7M2fr0ZB9AxPPtVwJCoW1ZiNcJDACnrW_p9wTy9bKc1zcWrvHmdiBRadRnsY99LX-i9OIfDmAJinIJIv0R_9MPDWU1cX9NWXk1yYKZ451KbS9CuhQv6IkFDlbmxszBYAl3tYP1b34x6yH2SvQNl1HrNQiTg83eT7wZluI6d7fGuKJcHNfqnCdU-_8oA_Y8fyLUFjpHtlwYkJdzNS8vMt__eVrZ_Utl4uFZSB6QWwk0b_myT3OmzE0f1VtKjePDwin9eat-JNn9_Ggj0ceMai_BGQM5Qxg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGAFip74QTqOnLRFF0RfVeLtYP8uRQ4S7iVYr4zFT9qcYh48k-99rRFEMbNeJz2uL6r2DoUTsfycoGcqHZlk9Xg2Mt9m0n3ggTPPIjPzsW9ODDiOFkVOCwgefpIu8e9CNwOe7czTdVeC6TYHpopiG7mDr9DWH1hryuKtPgtzeYTlHHhdrfQpp04aZMCi9hzIggH9u2hkDAzwJz5SWE_sa6pwrqEUMycvsvfYfAXjA3vZa20zfCvW5gMqHI4_-iS9bOWur5uunoC8CcDo6oakCIi6-KFC3XSRJlmVE7ObDJ12Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFpmKmVqPN-yXFrHLpS1HEc8Zt1pNgSWar4JvN72jl1owh4VQvikcfQM-iTR8l22p8IVqXWloZp1DAfsP-K-iY04_hTrPiTc-n4N6ZyTp5p0-S2cfCJEIHCZtNHEikuuspRDdRqSkPcZPRn2qGegldbw5DgpN8X2PuJBeBfpF6vlSrhRc-aBjXAPmXE_J2hOkV5u0cLdWhgnixu5AhFjRM8bsDI6dbfIWcgEEbvJCF072tVf69pVvYNyQYK_hb_JJGxX1U7FgRIKR8RYuitAVkNj7kVWwrJFZ3Ycf3jQso3sw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE3iaJKlr-2mn3SNPtTjZRoLr-tkYZPJ-NQgJ5uOoBGi28KiBo8y3kDHEoN3TPBNSd6l-uAHPaFhM2NW66hz3DiCOKszlJm9CqNWRrieOvCN0DdV9aD95q-zKKdor3127AIxAfQm3-BsVzDczMvGQSEuB_nlXPRtJZaNBnxT-7fB4-BkPfwoG7eKH1KY6is7HgUBnYVFc_MX4Kvf5tFm5Lauqivts2T6AmiEJU5EtQx_gUekYL-zCfVF5KPDR-F6JtxmXjpTVIUye6SudwO7iwojaCej_rSDaIgoZHJ3Q6FRA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -116854,10 +117419,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 604 817",
+        "phone": "+595 21 604 817",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 604 817"
       },
       "faq": {
         "items": [
@@ -116888,39 +117453,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHMTRZ8bmyCgTzZyNixLKDixbae87gA4jgvIobxDCUMcJ-0jl99XBdmBdeDoAUnSO7Ta9cuslMSzd1z80lA-5BqVFmPxFVYxgicG3c_9EWVbBYsdhJZO9xKugUD8eRV9AT5UZr6ZOcqKSQ5pAvvErlujnNgEG_JbGSJr-Sy5FsjKBPeCK8fBvnNPefQG4hVjNhlr7u_9kxjyehS4nYsNWfn7uLi1rttqDUKxVh-rj_ZkqifAov3eu3icmo9zyYEE93kyRzDbh4P_0dhqy6KKjbmuCTHiXobaA9taCFIGUv_QqVdT5PxldwLA8oGRvL8ZeM0eJRKg2oC9lU85Q59GFmIKfltuFrIPR3_91UTRETDIR0CwjPNUbnq-eRsHJEdqeT_3kxSMHYHfkxRPSk6bnoeqVpaH5pf_qmJhB42-Cj2aLOM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEDnXLdDO774KOjvF7jxGgnlYyTAy1Odi_GZrR7kYZUD3-6T0YoxGju8jijigLPkI2pGuLq6lltQ0bVI2SeyJPH1MhUcTjod2JPHJR2BTFYoSpXADGR0dVQXm1pQgwfY45QYodQhPdBAFq3rmwI2C-JXXueUyRzzB6XENOybBGps5qvWqfEUjOibVxTVFU84IDV73BRyAu65zIORGUZE4g4xSIExZYcgvz8rCByenFQ1to42Jk-H1IEzScaw65Z0TJcJQnZm3SVXAX7OBJDkzF1G4YlzX3luCGtAi9kOb6nu-mwnQTYAYwG4C_bKZMRDVdkx7-daW4vy00RL8Yg78OPnkTLRv27jKnPO3SVSCPnNJfy_C81FLh7mdMPaPLPkmQwfjsaRECYhVOq0NSGX-jHzLZ1hwXdyHEiBQUWdH2gOA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEMFYpb2GsMVIO-mAaR0GhZHeFOK-RqItMMixPZ1bSdxmmGuypU8dfhM-G4BHqf6KAeIl6NNIburUXYJn2uawCb23qqHCrqU7YP9HR3QuDrrt5wDEyfiuLXuRZIsv8V4mCgCtHfoH-DLmBdYlSz8Jde8eMEmI7DKA_6s1CtWpnm-cqV6YomXIsfd-Rvt6-Fv9OVleHhksFxq6bVeKtq6XbWO18LbXPbIiVzMPbE4lA0fPCqIMHuXV_XGuW1bYm_4SIG3P4JfuC2cpiu6wGWoySE_5PQOEjvuCanEX7_aJXYpG4wPbIf5JD1aW2K-HHcGmCAM1cRDlABaCiNxUL4XX-Tg8dIpdg9zY1Ujwt0VJduueBDYqbbdwYUhXuOaPPS3MnD2VLuLpoyVQJMRAYe82bZQRpZOQ5hDgAh7pB2fG4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-lTivrVyAs9-ZLMDVqE850LXK--r1iefMrPJVkqvlxqFgODShpUCAn8Fv9k0C913mHM8Wo2T9Sa24Exhqm4DOyxjylw7oCGFx-w3POSvj3q0OJzb5Z3U2M3hhVC6lKONpImmD675yhSuZcYPILCLwnQcJwIgPD5R7qcSkdGfsTiBnkJMmQn5lMUNYpfQfCPfMVPGee7ks02hNCfv3YU0sC4l6_IpCYnzk1vVcfi0u7rWKVyQDccFZpkMos5AUXhNidMt4sIWttygLd0t6Y1INY0SWouSgMkqx2SFV3p_7lG5Y0LcbcX0pzGtspiRXiFrtiHF2hlGMu5Um1iav1l_GeeQJ0oewwjH24i82NqUyXrq59nR-SvbEHo1d7tvtQ0o1BD9Fy7FFt5wGo0rRVHWXaAvKTs9jVxQwoaN5ASw2SdQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF1toqj_Pz1z_cbWMb145JTYWMt6CjlrCT5vQcNARZ4Qx2-XJhu0Eni3sehp2VuQ1be-P8SsC03LnwQcjCl0KH1i2u7ITPuNad-jM3HAl13LXVwTRj6lvjXGKJKlWf3gmOOG550lUUvsO4u99hJw-tQne2lV1DItpTmtAHdokChiPu549ddO9mvlTvqaFVQXS9xl2GQ_i2sKWK5HMEu2mTZbNfUyR3bcg_tkWoNZIy9cwuLo42afx5QGZPeWOiDss2W020BPdHMHwBhMN5mbTNzWExNva-nMo45OPfPiXi4tWtxK7SrTVFD8dWNugjB_PRrCOPnLgCNHvqBNC5mDtszBqGFWFpp2GM_eKGfnKwJixUhximQomVRUb5WQDDdFPfkhuo2AJd_t2IoZtu0ed1H2kQikmhOy1IGxvkiJnLzRg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGGCAQEYhN8HphxvLjO5trdRFeTKFk5A5OUxMQrQtL2HloI_qCCzfn5t0_SDG89pDkQ7Z-Om_KFkhpOWi3csS-ymD04Ohm3HPJSwHdvFOYkR6voj-bPB2kettLhea006tN0oHo4Lvh65erZfsqt-W9b0iOA0dSBU1ilXjJBIwQolOnxybk0ZTli3N-bBVCRH4Jfi0axfbtm6yNX4-jg4hBKtImMkSQuijt3PVY9_1-Qcaykh7I0-etEc2V_aggkq4yiksODWAoVUU35VsXkhp-fal2GU5RdGhdQiUDnFpaGQBqsVwSXJ9wYu8H_h7iN4xpayIZK5YWUb6UlRMwFxtMwcsNV-4b_T7KeM2Rfq3vnUt0OZ7-GNxsYU0jQ93wQBu1NxiHC2KEXe9KiD7jd59_PMThX3mgX2YwMVsvFQMNHoAZM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -117885,10 +118449,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0986 657777",
+        "phone": "+595 986 657777",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 986 657777"
       },
       "faq": {
         "items": [
@@ -117906,6 +118470,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH4fXHs3NGj_1QU3VuoqhXp8XPALLkUk58kEY4ZLwDrpQMGr-GHJESxoB9xt5kmFn_spP1wyH_Z0qHsUfi-Ypf4jEe0fA1-vmlEaRb8W_igNyTMJkHzrvbwfVaTBGF3uXFFhLztPkHzbTyqYf0zMC7xs-rGzm2L60SuU0e---wz11e2GnIsDG2_Ejvya9Ng36MZB9lPTvWxzX3uS2TBIgkXe3_EmzjwRUxrRzGLpIYca81H_mFS5K_WY7ncuK_J8lUXtKgqcFW3kSXl9C_WJRsTQbiLkpGH85nXknLfSTI-nyUjzbAuL00Rao1EtQJOqIxOzdgya6tIi-KMm-cYhbYZDJ8BC7vK7PlVutTfUa9bmUJ1GckMltv6MVvcOBn84WVNkqsukWfytMXxMuwU3m7o1Q8NVh4uIOl1rFXlGHXu1Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEbVCSfj2xurYmtyBQqAtq7ALpefX_Z1QMNUKIPNlJHWBPyXhXwMtABers2KQbE1JbKYQ6bJLzaflCMrEPXlwwvYLu0ZfU1rePnxbPYE4CyZTneQvs7stokwjbaRxHr9sB9bAluXwz6gAA-sjJJ1lN5pF5owNvpA0yq3r8lBlbsl0-W8X0_fWUVe5HMXkeuXMqbP_T-QDMEY2gh1tAz07MzrzLMngUoFmU-C8UpgoWElkUaemj3kVfsyipByK02HhgAngvLroviUMaYxASRu5WhLMlGZNElPFULAKN6I-yrPyYDtksnzeWciUEDcfmk0JaHZ5S6jXY46dy7xzWiuSIAB5Lcbs6bhMk_0pK3aiHqw_eA33zb9pEksNCp8uajsugqSPAQvNz7squ3i5XbssXk3fBjboG2EjkabKIpi4Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEwy4JqAVKbgyBii-UAlyq0q7pefSjB4ErzsGVRsJHkQcG-ouEuGyE2i2XTb7BJjXdcDW0wG-K3uiPAVNN9CGuDLzDI6w6berDDNi7PrYaN-Lb5ZLZickRPyA_G94BF0UBLXirEMASwRytg-8_vpiu2daCQAX23BnPDdz2GHaQfauKqIN6vcmDTAXkBdjazDDTL5xV4R2hI1nktyH6MxMnKj6M8CzZZCxVkaB6YOlqaJNG4A9gTcbi0LEr6AHB3ALqPMTCTeRphSuwwPHZgWX-31bPR4gdRQwK_URGy820T-tT2aImD6t_f4xKb4f1RqWSOpL_BuF5l3RuxV4EBhIohhcNHjviw5DBHt6JA-QemIgtXQQRygj_1v97Nv4PYzZfCdgTEn5a8iGfLJqjlm9NMU0uzEJ_uL3gOWJrgaD1--w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHw7LwdD38yI0egGPYRWie-wjCYeJh36PKcHxWykAK_sXhxNwm-9qtYoRYA_8-DNvY6QA-1UM2VNIJ0ijPp1iDsV3g69dxgQHKjdtQHDCJ1MPS19iuURP-EX0Fpu6npDE4Dpp-oJp6Dg6A0xiMyEodWQMUb5noH_e6k9OwyJptaGMFH9K9x-jD7-KTauBL9AM-M_ix-4I1uIEmsLCf41qkuSFlF3CAtPNGsUi65gyxGCk1xxcDJyCQx9-CqKoVD3oR_0Soe93dSjdNNxSEoqjovJ42Gz5AW5dOhCLqeQj31tiP62AaJZJ0l-N8ax2gF_xH9Mg7eLEu35Rq-CrDNsPF1XezXR_Nt6XMD2CFlxIbfXMnN5Re1RUgRc7-U3Ajc2_fLmiOClzR-nOekdK7mucj6cso7IjVLJiXioHSi_lg2914C&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGZdjmqUG-fI0srVPQ_eu3I5oxrPY1cWRpPa88AyZU5UgYk3dF7uQD0QJ2ZgD5R8xR-ivBTwzRs5I08fHw9GVJ_Yv2ljO7KrIEgfvhjnYROA8_dQD8iN4jyo_pz4nKuurf89jY7cIFPzJo5BE2pX6Z_9-zEnJDXp1sZgEK5zvL-1uYYzNy9wF4XCrPsZ6AMsaPh_iR1ITJq5Ga4X2XIrNoxX4TJJkqFTYC2JjsZXoBNvIlnS8t-leRZWoLz6IjAoymhOURcDCv9Ipi7ri-SFLgY1s68qUpmc_CBzYvUP3Zkc7wAH9AR1E6fWpjdE48VLGGaXby-HykIYZ1IOr5HN_q5CpvMizHq9PQoRhEtVDh9A8dkBpEUIUVHU0vlzmVzG2Le49W5txJZtY2MM-BbAnfgo8aB-ajx-u_S7BVGsdG9Ew&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHQRzMqxJwPJRFTJPh1DojHtGG-PSppcCCozADlbrntee1i8TC-pLzpvk2-jz5qgu9BFAtD_sqmFGAVJk98ReUQ1kCaC81ghHvr6zpQk_tNDpHPIFb7_hNEMduvm4iEbIGBloSmJ85kYs7Wyt8riLEEv02jZCdAqiLOQTKeyDrt6F7o-D49q1JybILOpVli_7_Hk0eu82t-b2CdVQ8tmITtWfgqEoI0DVARAI4um_R96o3DaDJ-nDJSVAsY_Zh3uEnFOcC-q3xFWw6xmPbXhVqZ2Wp9J9i7ok8vUU2ZjIF51OFUVvY29hUUxMBW5KmNZFRL07dbSnsobah-Lf7YHoArzfMNwhmonWmwilbs_0BD-055PYDgQL8w-Cm9HBxe8EJgI0I2tVTYsmQFhyJ6RSNPpeY-swB315aHxqCzeCA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -118339,10 +118940,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ñemby",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0971 754545",
+        "phone": "+595 971 754545",
         "subtitle": "Estamos en el centro de Ñemby",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 971 754545"
       },
       "faq": {
         "items": [
@@ -118373,39 +118974,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHs9EyCQkNpScHOdmf7xrtR4cT86pVrZbbiT0dfY8_qBLMl6m2ZlhjSTEENFZNSPzY-EUlMhJ9ez8NA9vDo4XatsFi0eeQBG8jSeueEBcl1wVWubauQMRR9KKJPkiv_uIx1-_TwUyqWt_ZIQltIn1wz5PXZOfZESCDpPzzQvgLwLD5meTkoJPShEOuFWNl42YhIFStS8Bc7YgfjRcMUf_Pet-ohZcTh6OQ_LsJP2B03FdyJMwbxhACSwHW0PW9z3tKL0XVtGCrm1GFnXQsbmPOhiZhjeW8MWPCWVOIBPbsn6OLduXbgWVLLrO2f3OyfzyCgO8u43QyuUOrwX5O9Urv6EOKfZOTnaTL6mO3UVlsAHavvzaEb9C1WElrIPtJ21c16fjeI_UIh2QHxrOC6xtzAa2mb7Nt8P06vKgNbwCrc5A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEuLJQuviCTQaAU6rNzLFD11ADvW42nq34Rw3ifwEl-3uqBLWnieTVpXqV-VQC-K_fu9_eMu6x5kRZ6cjIA-rCogZ9eYjGYLSqYTocpabe-W4_C-A6_JGQLh2lbheRBHa8iUuO2YvADd_kURZI4XK-5G1iGC1bzwbgqLuP_Xklb3WqKZwCtLzsFsXwN0jYX3UEm4Xhgvg12qORUotjLq5orEj9mCjuN_y9YcVk0iW5pQnLGHrNnf9KJF8OI7i2ku3DNdeD3QKANx13eNVxX14HdONdTuCPojaSpY6aIv_yPtpjz7BmyiqRVbn0bHJrcvQfZwE1uPhMfEXqEd47fUmpXdt7XTlpaQTts4-7pMC_uqd800UMnFPB7DXEsQgGn_WlGZ6vWvZBYaOJKqB2V7_ihiLhQgYq-ThOg3PFoTwkOYA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGSXUI5VVOoX9b6hS02ZzA1vgkU_nakJ-R0Fw8ez2dmQmgvioqacHoh4Fl9s3X0zPYSiclxmCEjtGE0fRXsZMCm-HCb0JPsv9xza6UE6mrAOfrt65vXx_Y3VrD1kK-vtpGPY731Z5w8mHlIbsUpcfXKzE2V7RkWDa2komgzJD6phqRimcBM1X0ycwZ_n5wck9ctZKMOcJ_z5P7M0AYIm76mumDPQ2fTKhJvcpgceH_OJTP1r9meKOGi-u19VoNl_7P_2zOWvfW7rjE7T03D0-igCDaH_cTNYxnHrolazdcsRsuoXJ0gcRD1PghEQd_GQR_gJnaVNSGIvpMcIMdaqDshbgjxtJ4Gmiq_PugSYmqOhOzdv2083Sa7ei6Fid7k8yZ7sr3lV0GC4_MKbIf6KIFFJNg1nz5S0XXJ9TebD2dj3fQB&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFXEx4antcOZb4gBhH9-DIX4S_X7iSh44Y7WI--d9GrcDGDRIuTgNlcYdoaUtGRyrGICsfr1Z3m5X9nM-EYFqtei3-lJUUcXXKbwQoUsSq7CQCQ26-94qzMMSs_OCqQz7bW0HUFc-34XXEmZoJfo79-YvR4TAfzoM49eUaicUswPdSbCUR-i6QA83bmPkWfIMxHKbHV8wIi1a_vVvUtaii6arGRC0bGAd8wXnRVZVquzgHz36hIWbEwKf1K4NsAJAxYH-1ezNivmbmY1fWlkNrcBmUNuJvDvCgJmZNEmzwoRo-30tNynM64PJaJR_Fs75Rc7WE8WTN5JaadCC-D8F3OPzLa5Xd0w8FFJdvLedsvtsUoB3vOJSof1c0XjcvdHMv9Mms65ZKIkkZZJB4YmhZG0aEmYEmlVId-Ig&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHVx8S_NcUQK9lJCJ8Sn9eAF9so3-K0IIv_cC7ibX6fghl8HkwKEp6tVmEcd6CiHtQJodDN8Q5on3HU_q5Vgr59HR6sCzvaYbwZ9GiAp1yBqVzDV-erKIdZZTEJIM1oGrKXWpURAYHU9xY5ILctLGbesSp4d9ws_Yeg68-kIVTrquWxmzXZXsHWGEnAgFthBt7LJlQTZZ7zrfidUfi58jhaTFTGeMvl_Exj6pbKP4ia9Vwmq34-Yz_I_A2RHtuIU07hpvnziTAO2bsnuLub4FnxkJydzUSPjDq1OzhFLR-ct45m5wUEMs1tfsVpTvlXw_MlmC7GrQqi_t2RxSKn_-R4v4YtWAKl3ZIMwC3Flj4mFPPpjkxZFPfx6yqzDPKPy_nfdlGMrDRWyrLvkixkrZdeVJ6h5ly1KwknU0BemqFrHD5-&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF7fhPfSAsdriqRcRN92yWXl6_kW_qOFF53YyO9BQGlL-5Vec_8qBnCoxYkhahyjaLFASHTlbE_7JJlrvWBNVj9pNyc0kKx3hw3TS2OPGkX4hFGo1KxZtbE-_cg3ST77dEWh0zY2EHeWEoqO6DxFbxBm-AN41n4XAOdxwQUkw04nsxoKwI_us91CZOkhQP35FLOB62296jMi58_bAJi1jwSFKzhXvTS9a0eePKstPRtAeCZKKharul-2EUknY3yvoHIrK0Oq1TR4E6ehdW1t3OdsyuHTL2ck5Cx9GCiAERCSeSUObEsicpl-HZqwpvPei2v238tSaXy4wArBDFOwK8yT3497xwTVj6n_ecCXsYHKKfaypTJN0c7b5R3JbPNpI-uj751PEH1G9xBl0fkXbac989iwlXPp-otWt-1wg1WUQz6&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -118793,10 +119393,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 558 289",
+        "phone": "+595 21 558 289",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 558 289"
       },
       "faq": {
         "items": [
@@ -118827,39 +119427,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFFs7bdEBPPWoLUFwInONyCgrvQmY39d_zat_SWrT079-0_0ZP7gD2xwPe8rsmlN_GAxKtfHJVXxoCc0Cryc0nccKzcGxYX7ip4lE42pDmsb8TEMNxRHrniK9m8V_V6ReayIp4xPwfM1MGDXvt-NQGv5TQShi9sLFnb49_rsR8y7Wdik1CjORzlIfVBYUOtgRNhdQdToF30brTIItylf8zriZV5UclpxHXopwnspmYzT6HTAr6YfJfwCXD4-rpyMXjypVjqNVRq_epdn4zQmwkBEG3LiOFz7DIFQYGsZBqMmNjCr4cJ570VpnUOpmZ7dfXE4ql2wKWKVWBERHMe09Ciqa5D6vokGCdQPkzToRR_lweizSh81AQyb7cxooqXMLxVQA2T0N8RHgqn0uxm1mQyudO7FZc_q0KwuZB3U8Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGCk9Sc3zWkQDukAB282oH91WmFUmrfAMPpdbKm6etgGuuJWT9OD_CerE1Iw47nvKCWg7KuHo-DVvBKTe11NOzSbdnjuB24K_0sp55zLVfXZZxPRufJVx46jJ11nEFCGDsJB-GhglhZlr3XyTv9cIj5YESP285iTqq7UsFjxKRDMy8ClnTN-QmLZkkejygukaa18DWKMEpcVEwd2nhbIXL9J4K8nJf-GNehGKC2eESYFnVSmUdfG0l4GrLDD_0J7jtq-PbPMy6sCejsu9_NhBUrBFEtrWaqq6MYQHgeDsTKasNCUDMTW5yD0jithr9NOnNvp2XJkRUsCBY6ZJw2PjpXtwsn3nT7KYU1vJHD3p9LbiLWbRxAYrGHStZgCU_h74D9crAerRUTj6XvZoqimNXAO1EVP94goJnEWIalq5r6bIIa&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGv567FJB2_QTaLtpMIYX-VfScNywwfkyWmHCRXCk1cfHSYjbcao3G7ebf7kRXKB3r9HHy54ttCPKaHOeW51mUZ9ujXTdC3_QiK_OmdvXxXEuC6XoXhDkDm2N4SSqecqE_bfBQVTek89vKBqw6M_5CRHdQ4oVr1R8Ms_BYJZRHBhQgrac3WcPf2Hm7A0_p6idl2_5u71VNwxGXg4ONO3ygHkxoBK9ENE2z_mc30TIOAZA8EqQMM2FzU9v4nBj0O4wIfsGEwmGqxYInY3Ajl1nuGH_retQl--3eYy53xqe1JVgtfEp_8q22xFA8AFE4R6c06cvUf0BST2_0oiS9WNf5yMyXwbDCzJRe7OGS2IA7wXZ6YTJ_gO0BgyJ8iXCsYBb8ZByL670VHUfdJUnW3QXJOWr8CcyISg3rEWkGYbZdcc54&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE40fjVR-ny8EpGORDoWm35vDyPeUBJBGhw0xpD4EOksAKMIATK21hogvTQduU1De1eCyWjH0xFMVuzt2iPwPzwjt13XPg2pnvQouyeWfzSER2CvdMPxCFQKpQNu9Fo7m5A8dLAt0d_mNhhFvBJnStbSebVvvWZ7UgOVwujsDbDy4eSLCVZnWrNA5neaZpRqZ_ZmP6cdlT3TBXpNd7a-kG6mAeH8P9IoXnL8Q99Cn3PaolO8v5lbFybfkIGZTamRRMcXjbB8yMKIxgXmCnLe1BQwlD9Q_pvP0XZIT9wsKE5Zt8UfIdzdgtzzAO7PHHanTGUWf3yphET3ywsZcJasFRz6V4ywi2ifvGaC27t7A2cVQQ2TOmBQbXKdN5phAAIAg3wjgYPt_-qHAZZDCeAzb1L8q6wyW4uPfYvAdEmjCM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGYe_yw3UXLcludkGemZkWDqVs50qn3Fl522MwE-Lqb3oXrAqHJB51UmbEtJtQDRzFUkrM38PbZXWIN61PpyIPOkEuM-s8apM-efeF85M-z2upWeLClFU5bdqrtYapWkysQOXICA00cNNrXWgv1MGuXjJi_mTHt8Ok-7q1SXjnMmaD7sgTA1Yt0SDlXS17fpZ242HmsZqpLxLJZEO5LmOkSc_yQXTFr2cxvuUrn4g3wfNC7yTcgnVNInENuddN-auGUc5RYCgEzbyxAQOHx9GwEQFQ_4i_6ZYA8EWD_e7ORB0lqwWIbVM7Irtw4JX7pObZA5Kzd2RpWMThn-K52E-ogh0vyxrDexEBWDPtYjdzrrxgLVRh8CD33GUkzDZYxf3u-Jc9sITmL_F0ZBDP90X0A-xY15cE_DXJEd9cxAyR23YC9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG153cQ3cyb89unvt5XTYkeP_B-zKmIbs-yC69XW1Qr7bKtYGZHx1oyaWze8A4cBTlJXiyL0mYWzio-JYJ4yGjC27wBo9kSsRZr1K1BrRx8uEMB1LPMx-iJwu1u3JciaqVAPv8_4QyjZsyXKm7WDMQ_W5S5poAdda2rnh_Esatt9E32POQsSvk1QX7kGeH3573C5-stSwxzDuP2ElY0moIUPMn6-e7QblfnvIm2pfwJAHsVGMzY6mRY76N_EnFTvMll0ZDAV32N1HBd_8E44x14DgboBbIiVQDt75Tr5ch-AJRWgiPgKT42HAiTTjsyCZp7MEGeuxrZo6XvCadKSeJDiiiGsDRi6_t6M1t4cQEJtNZPhyRTlaEbMOwCo9jJRqv0n7UZqmXqnhCWToWdEK8FJUdJxiwuqY-mVAD-pXg2cw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -120524,10 +121123,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Lambaré",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 921 827",
+        "phone": "+595 21 921 827",
         "subtitle": "Estamos en el centro de Lambaré",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 921 827"
       },
       "faq": {
         "items": [
@@ -120558,39 +121157,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGtuig86qzJjcuBqe33QsEEi8t-E1c4VbPxJUGOoVdwVoS0dtrBeznNw5rVuosIVBWwC7lKxksc6pwUCCNKl6YuM7rJmBUbw2Sm0-Pp3IIJ8uc1Kg9n2ziCacpWLG_hq3UeKQf1ULGMhZg8lvVTjke_L7HOqe3LUQ_-g0Pt1QL1jDnfB8v_m3fcqIMsgfuoa7tUlJIuVucHJ40l65iFhGyjyfe95B-ePEVvBLnpA8Df3gUn-152rB5JkRTl_rXB38m2Hs07M4-KQ07fT2-X8YyAjW3mSc75aMjn1KjMUFmANgEz3p4ORqzlay6r29eLoesopzu6mtQHC0nm4LZhdqOCJ_OKJvj7IkQXYsDWtF9ZTuYQ9SeZmBqpBQPsCCBHrPcREdhDANYCX-jnluyf-3SgHIyvfiHzNgJILlvbIIraANjh&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHUaP9mqlb5Agiv8WiLqIbhk0WIlOuiYtz_BFLCw69hS_B3RI06MzlVdhM6kZa1fFwvR9eMNIiqYYskAtPbd3yjBlnnOBWhdNIMBci9zIZmEerjR2xfeIgpoI8rAN34bpkbIIWhhWvFDwWTXtpqZ68qXBwei_JL8a6cZfXIzlRA3wcq_lK8JX6D_rYyajk0zE2mo9wVXKCOJop8GU1dpdrcAvD2MoIVRQzhmN1muYO_jX88eLrDHiRJHKapXcYvJ_5tCVCLZPAaTYFY4Zk2t66BzcgD6EY9J9zcWCUmAtMejLOduH1d8Zi8lEcK9qQc8iZH8uhnr8EkVH_z_5PA7-9Ygd-IvhgRm8vmAVMioxZa-RexEVsFhnzdpAvuMMryyHDrxM79wDMuutqo7HIWMWMJ1o43Hy_RXehtIh73hnesMon4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHvntGnBzI3ClZhel34hAeA9IsEPq1ZI2RQ5wyE4FehhKguxWxuH284-oUEq8pIxpCvnV4XZ7KMVbR8scPgz556teDrDHxPfQ9Wths6tgV6HY1th53WWpk3zzVVRLgSqCkY19EF3is7JgAwJTMCBMSzLHSR8bXAhHBVnyr9ztGemEOq2tiNstBsefMKOHkeXjBpap2o6b0k1d4S82c86NpSCsSnFuu8MoiLptj0dGxMflfJVO633U2OWBGyq6qvR-CRYOZlh7AKFLS5AwzCxRELQFDA_DnFIzqSNLDI9i_k4fEw8EGPvbergTmdm_nF_gStE08IpkZJyhe7Pj1Cy3o23d2pFjhNsExyz0T6DvXWIRY7lHG-oVrJo8i_NT2oQEiCxSiYR4FAyVgWNH5QvZi0-x1ADRInrLAy4tpj-2FfWn06&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG3KZmlqLkYIfswEFmk3tytmW4CfTspzwkcxgOPxwsKvfylS3oIscz1IuVidwcTuCSsip8zAMkVhAkjyqM5NDF9jhLRGvmSvRXj9RA6Nk94iUXLB55YoFuLj0i_HOUdFN1IOiUk6EAx1S5Ou7Po-GozRrfEGTFcfe_zNWTvj8XrxorP4CCVtlK_Tum6nE8e2zTNovk3JGFFYlfma9zXeKS63hCeoiQ34LG_0j5KooNrhkozkHJ-IhUq4IyiZQpu0E0V7bRjXV-sLOK7Wn2Y4vbLfoSG2PAAfGdSZF2vGN6FVug2MUUEw8C_Rrx2rTkOqT46AHo9JXj5kdVaQSc4hrgko9_0QZDOwr3Hx7PwH4LzYg3mSU6eIUTgHX7cE85g9TJIKN0ghMHPoqvYPI1eqoOnPwgC-Obg668eLhdhk18&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHdEwR8kzMLkBDsSujpluLY5wqQStBpxzrgW2sBMPmidheS0ZxhQoGymipGTgPU0F_lViquC4-9AFRXIGWgqfbI0xj69sGma5fiLTFob2w7P6PA1RXqI1e5GyoM4mFdkkstkOMSedqxRLyrSaEKGQBjwCbYHhH2A8LJyE-Vr0f1MJAEuQSkghmznSuAorw2qL0h4cN33zbJQ8OrbFb0ePR3udE5LHlURDB7obMz2aB2L8XufiKW36tabA_OtYxrNF511Rn4pcmWKqLLZFgVDjNv_gmb3NKV95Nh4RjVaaogwsRmHf1WrvPj-QJWeShXRaobh8oAObWpvPU0PLC-G5Tve5HfSxI1mcRvub1npWFYF9OjdPE49T_caJFuBxz4N-7ej_9_4NAeEbRbgnvu8CN1OUIpSmC7r-08iPefVpR7TQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH__fdNd0YoTr__3-JMlr9aFQJwcir_xLRdnjNFpUH-X92diLKhJ2-APVrfBzmjWJqR6hjhqFN0hNb5T8aAbPjo8FAPMc_7fsqxG4kp9YfYmOGh_OgIuBmefDF_f21h6IN4tHlCd-mU08FNmOHicSwWpMOlZz61WG9PGSXloaJ0bkUIgsvPG3bPZXrmnZINy5Qw9fgH5C_6iZEOOWKHe_A-Ly8iuhSgCO5not8JTXjAxtZvUQWtVPXZS7ccp1jwl2NsYNYMBRP71ejdZPdRNYL74ojJNDj81fc59Y9b_QbQcc39B8zhUh3BzS7vf7EPSHO86UE1Tcmerqk0ArGVAsuMzTQIIWFXzBPpTKwsYHzyHqPwBl0_PE9ARX3PP0WH5sznX8TTpLMQtCCkEOL3NnbA2a3I68IhNE7yosOXKN5p2LXm&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -121354,10 +121952,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Atyrá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(0520) 20188",
+        "phone": "+595 520 20188",
         "subtitle": "Estamos en el centro de Atyrá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 520 20188"
       },
       "faq": {
         "items": [
@@ -121388,39 +121986,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEMJq9ffv9yGvjv6NpJ7M5bwVPEbEk9JeW2QswzVa01bb9myW5vKZA2LDBsEek28zBbbpZj8sxigTfVOyfkkJGH-Dwcsg-Np74zoLLXZynEkZH35sPIyUhloC1Uc98oc4PrANXUek5j_WozSJoQzOpth0WgNH1LnfI99k9Nup9DC3QtZwwuJfnoRZVF1PBlrzgkF625EXqr1XqbfGSZaBA8BglcxVzt8Wcr0yeEdyx8wfi_l87xv4isN-sqcsltDA7wkqbXbP5KMOstN40pwD5UGCjeUejGUQL8coHf3txFqPrkOLO3EKpmsp8Yf-VyWfbE_jMsIGdhrZ9rV5WKDc41CS4LwtwcZlTBET_NTFiEipRvfFYOzGvnEDYGFvSdt-OX5Mp9LpWMaHqdgkbZob_uAycGNo2elbBtB2cloUGCn4GoGrj4iMQT6AL9Yq48&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHdRB80-_lcS1ZdM3mhEvnz3ucLy-00njzOCf642lo-ktqWvqfXriN-vgC8iU8s5523UVkSRtbB252ccMyfvAbO0lgAz2WLcLnA7ijAhkdyjIc-EufPtjbpqS9o6bb_RYKc--G7f8eQZyEWLVyJ8mSHRvsEemQcBUVL_fC9Pr0hE7wl1LBOs9y3KsiiTzx5GVTH3qURZJijDXqAyj-AgupYFP6xtmIgutVKsSynS0Dw4WjkhBHyk7uvMrNJ1F8V9QUQinTR2uEM38D2TTS5ixJu7VkaK83tBLYsQwV2Il8R_KcynNX-2imI0sIw_JxLaqPXxqM442oGhY4hvDwNCICC9j8ckEa0OtRdE8dzLVlGUpE4c5kY3y8Zc4Ls-03NlIXBYiRHtkpkGjk663ZLRF0FQstgD_Ph-Jf92HMjx4313A8f5b59DmDO-UEQd1f2&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEFuP-jPBF-3dDgfdkDFguzp-SkVu3_bWWLWl6kwAG__dQ_6j36B_hlppwBiaDrQdLOlITugUnfZNOXNalpzq111YJqGgZUrk320Igw-TZr64Zr_Z_1ZRt81QG5sroFFW1-UY3RVS8MC3K9jPrxRmq5FBoqJP5HQAvNVKII1RkRV3rt_nacUcSOVWkBipi9Fcgdd5JxYXg1s22tMyAdcGPGR-3QuWzCAdsS6JclQNyV684Eyy-hUJe45jQx_UQhFmG8WrO8-HStmRlQg9Iv5PHWw_Fo0TbkilYie3E0mDkmxuwUHjXPJWj5znM2QyUvPsN5Z4oSwqoOH5YTBsUjX4oOsrK7_ESw-Z9is7Jp7gRG4WEnxzxwo_RfqxynGsZxt6NMb61HKG-Rb4lo25bPROa6e_gTfp8dlZt4GhVLolCKmP-Vt0G1adGtVQB8JA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGrg850xblE_SeTY5Ab5Lo0TA0ZW9Agq3n_BNH64Hp4EnQSBhYyW1c7W41WbmeSVzya3BWmUMmVJ6TL6lofpd3Ir8i2vmdUsuowtvxUoixmpQBZ69AMphG10n9a7YRBh-UUToCFhhX-bRrBm64Yw6kS_QIhFOTllIrn4yt4YL5kivb5-UUbaSvKbYIyYU_vpoHtXV315g_dGr5rApRFTfSv4CJWH8KRBxVb6IIbglOnz97p7sAJzFXF51-4mMFDuTLc7gPEv1zI-LpggJmlZjWDrFwWIOzjybNvxoiZ5bnsCv0MiLld04nXZmfhCC6FN3-67cEw8Kzj8-YmhCLAXLTUmIes8SE7nIkoSvFAQ-580aRJVBABVeWTqC1_4xeSZXGiOBFhlU7q6bW37Tlm8XbX07ngOYSdmq49A2SDACodJC4wBz9Q0DPJFZtUrBm_&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFtC-JbdnDJxtunF8HogiGaRT2Nq8484-mfAWMKbfSNoLpZkUKao5dxEBhtAXPi9ymUsR60mnht1UN2YRJG3aSWbtFikF8ZlC27gVm_VnLKpjXeMh8CKmU15sdfPjgKlZTL1ctKE1Xt_zGh1fRUIhmTn8OsfbeS7kpIKE7Lf4giw6PYNMbRz1K_U9geaKxB9h8qus_2VKkOIKEsDGJlOttgCRUOhm9b_UqSRr6HDTp5zM7PCiTFB4JjY-cCiJQnK_e4FGBJogYStI98vv6gWI77IhsfVD54hEXyPM0yAPI4dauLTvvP-7tBg3IijCWD7p6GKD0QNmyS-ezeSyxT_T1drtrFg5Q0qHIhvGGSV87bPqlVV5I1z-auEhQ53NwyjmqjyC1fFpidFtJzQhCMcpz_z1-GvClhe-VM7z0Ov8RSgOD9kejdho41_gdbNIof&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH_yRrK0lZdBhDP3c_tsIy-OaTGeAiyfJPH1auEUnlKqb_OVOvcuY2cwMJxan7suti6Qb99W0jeJ_bcyHiXi_sZZ5umns6Uig_7L2lGacpcZ9VKawuhc3DNEe58XVwegQFCv7YBYG9rK8UezFNLjzJb7wDVk1ohNvz6faq80xD2LAjheyyYA1uq6xdX1HArGiXjZaJ2AxpXGfN4mnPR9KsmqD97qJ8obSSkTisoaXXSNa7Y916rjUHS4CGdkRWddKvwbUn5igzzQKo9Y29r6dT0MI5VDARCEygYyeACVJ_z0mv6N55rsbny-9-i5N5kJawH2A5xOkqEM6bJcrwuM513Xcd_Nz5g60iDVoO2if0-epPjfm2U4NxIfX3X2QCC5fMq7vYGhk7uEGqraMENY2yXREVZLGb-dwzUeiIyP3Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -122736,10 +123333,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Fernando de la Mora",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0981 162190",
+        "phone": "+595 981 162190",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 981 162190"
       },
       "faq": {
         "items": [
@@ -122757,6 +123354,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE7dI77q8nL24LfjxZy50kW_YfH1FyEgSLwbHTQD7IA65_wFG0JFPYH_CSVrPnQhXHHyvo-at-AZVWx8kJZfLNjR1PyZE-ddcIAXCkj27mmlvaz9R571VGsu09DNgtT33wBKwvsYoLHLk44H5bTzDBNE7hgX7kaP3_BOmJgQxpxL4bjlNARuFbUIL2xO_yORANPAZSn5Ihk8XA2ZALZDokZ3FCTIK_cKc7Igb5JG7N8v2NbyMzdeYyPmoHBXLOvF0S370ASB9L4OtKIC0qwo-1ML9q1wyiboLXL_z9h_Cf1brx7eS08XfptzsM4RRaZW-vrgCri81fzJoneKGz4Fc-3REh3z6VDOi4mJB-dsZ0MAwKjaTzh_y9_C0rIV_57nxlvtd_DgEj1C7PQ0_r7_q0i_szQpPKsQSQEzw5QDxFHUQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFC3L4JGVpmxfKLCy4W9ckMOjO0mKt1QI57oq6DrO8yh3zHNrm7cL6WiNZXKauYLoCYvdc94lfOAhOtl7HA45LI4nwITrCF3OEOJkGmIqb0pBnsVewnQLdZMJZJE-proaZz5rwnguqJA1-i3IZquv91JmcAD0ONkTejKjLCp55aIL2Y-31_gl3HMItWFpj5N3Qn5sUSuej-LMd-FeY9T3a1gkzdwGK3koJoIH4ztE8nztGxmQ8aWFCsRrL14vV1Y8xyjpzsXoZIb_cQZz1_bj0y2X_IgzbaF6aBK0pMRnEFSbe-4RWv2Gwcw96oehVj7sZJxQkE8OrjyUtmlevg99LTPEmBK2efTb5RDtqghc_3MZ7QVFHJv-pSsXx-dbCZTcXLG5q2UaYAn32Nb5QmOm4JQ94FwGX-c6j1tMMY4uPuoqc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFP11BmvRAKEvRtwLFgS-L4j0b2HmPi9qm9dyYuaDwH9oeAseSExfCcsBIQ39_yPzQ4VOL84NbT02PJCj8LvE0WWiCxK3qhcU0Gb_smcTA3pVm7lDGeb-yarl9Y43NtT2tWZRJVsLfgV5EhTVsYJZQmfJ2D15Z0nk6Qb3mtsjNh7Sr_2Zodhs033dFM_KBdYpOgVXTLHWf06JYz7vxoHjtEys9Ibgas32M0vXzx0ScQXwcMDzZ78AVtUOKCnJP1xRJhznzA3UytJIo2twE2wUQGUnlxv7OasOAlY02FVbZHZOjqUmGpXlJ0mdI8o8LrPMmtVX9h64czZDCO2XooeSp88Vx4qsJwC2zTKq_eiQUSA7R2IJ31Zs01NO_1CCqIC5Pt7VLPMl3ot6Y2jT4mFsrrDUIXiIR0AY879fFzOrfJ1sY0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHWHxM_4urPKVihz-sPrix3GxmsVwwWF1h4rVWXX3H_7IikdgYXVXWHDmUKu7W6wDs29ejEHF0O_2M-FGcuS5TKeb0GizX31Ce3ctsiog7dsNb1yx9vyW8yIqSJBSs97oiHb1uN163Ug6D9ES6WJzZwU5kRJMQMbrkqmM3KS-8t6M37LZMJkCaTHx7nyOZhdRq9AZE8rPfKjqvkT73aaGj0rRFtK3A8c_qrVlTHDRQvWrwUlTUBC7XoO3X3A7rvSKNVo5veInrJzK2xgomUL7tkPVpT4CPYF0tiNVcU_kQYjaMsz4anchna84e6CfY70BZQbktiM98Ko7nKcY-OHQeWZtQcIY5mojR54vPYR4NytdtPvGhYAjKRYspYX3z8uUejhSU3QyVXo3uXrZU6NPaslUGzr3F-wPUn_8Cq7T5HN7TnoouXaDQTu1djJylc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGNhYL5hIn9WpXPioS2Wv3xLwEs87oRVDI-QIksPFTj2BCHv-45yd6jINuKsNvjcAuhfmUb0aDDH-6KLy5zwCgQpPL-C8s9ML6hvNbGeBBgCrRVrv-uoH4S0iWE1yMmTlIsTQBysULUXc0BCJduX_owfMCQGTDfv2nYM7MXxIOcajVWUaAR_fxzgaj5JKGnJA-8vWmMLVv2x_d-CUUhflAbG7kBMODg6bj-WwvSmN3RlLc6Ipt9O8s0QkJk0Z2oi95V8N4o-sGUnMUfGZlDXgWDPOl8Eq3dmCq-6As_MuTt4dKgsDEQDPZUt2-BDSzeFXcjIafRsQZ3tO5S5kCtpAQrbdrcMDU2XzzVl6jTMvcL4mCOhh93FUdKaFfLWBX1bhj0ykzLlxXcNEtRHQut9_M1U4wE3GelqKKrLIK4RbCVutct&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFi3XsZTAQG7UsMNJuR4svC8O0zKDyontyLC_iqhVLcslisYTVs93vGmpzPA69y04aJfSL6HF2Fdho64EZnO09kKUjQwLndfF6idv64L8ayBDA1q7SW-p40HJaAWkKh3Zy4_D7VLEzzXOx0SOCZVue4HZz2Y3whlMey-qB-XtAGWPITEdrjvQbjRkKwqXqfbuGjDgaYNZa50EeseZMAlX9HFrvg7HJqOc2xqEZ5lIGhsGbJEp0F-7-xgZbnAvxS_EuXx8kTeP758lNKyBqqEzfd4i8ga7rMn-PHflNQin1irBsEVMdBc_9-HcFNTW0_sIZgKIem7NwN62u-tZOBzcR8DkbFGgmQjjfFWElRKOtXiA83XhhqPJ7mcL5RvD4YTtJN5FOCvRlzIYMfoA9YhgpjW6ivs6BfYyf9DPc-sLw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -123190,10 +123824,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0986 477733",
+        "phone": "+595 986 477733",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 986 477733"
       },
       "faq": {
         "items": [
@@ -123224,39 +123858,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE2jKabtTrPb1cm-iMxCMqbNNRevQ5Hi_PX7Uw7bLypTcEtre8Dzi5JfKYJrj25_mLzpA3XtrAAgufLgseTPfgQ2NmzenOiDi8R3TfLpz0cMDRfAR1HOzi1viKaV0uAT0PAxg2r3I2z7J6-I8PqqZVLbiCRueS75zHCvktf66Btv5nEbdAX-E9vcVKbmce6r7xlwT3nD19kqbC0AM_OCYwOlliLrlXmYG5U6_JOeznywBKDortlWTRq26AgcFO2SiAcmo1oXXvIo_rDn13APfqUHEIvQDtkyX35YuNhJBiI8E1yWjsdX7QLjevnZ9n-BRUmt2Hu6Z4EVIYZPR0j_baMkdEdFaislRnLZyDrvGJVSn-oAmLaym9m7abLoRdQXIiaMzveVEpAJkfnnYFojXD2k5ufMPI7NUfROBp9Z133zQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGvcjhqMsLdA4IyADFIXj2kHJBJa_kKiOnBZ9PAj-SgCX_m0LTTpQWqZji-ipImIAIJUMFdCwR1rKZjBOPvyyEKY-rrfdYztFvLaVW3exzq1oczS9a0tDWH4r6ahT9eBgWXPLDtXQvDc2fYgUt3dso7HUIpNNS8tuw4b3jfm9NnzfjpHYBQXdftZMEvojpzpGGTpHO-TJEVMNE6BgNANx4nDgFI7EHlU-aDPBgjZyx9I56JV3LCTXa0pEA7rBYaulnvkrB5FeIJOvH6y2WBmF-tvPMgQ5Gn17BDqcRTn1rKFUe3V69RZ_a1nDRZUIr0dcEkKLL1JAhMYP3mESSmDA8yZm0YLkFBu-3jZK2f-uBZkVW6hocJtyRHG-WMmiV2VfjGfkbPCS5Lvs7AhRT_L-0qaaoXHCVa5DvUmH-CWTEtqK4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGgHooc0XB9kqO75bPE6tGP-qc5qfbtjwFFuDeGRvBZ9kgCeFrimAP5k1sr0yO1ug8dAIFQlAmdHwyzIoAem9TFZLkahADiRM1f4bOgFKXHpIs1NAJ_mje_zTGs3Tj899zUFbESn55gv02nR-Cs6W-WyaGWPRJnCkJbhlO4lN1OHz_w-uFIKkVvvtoP8m7YRjLkx4ulYIHyEgXhy_D_B3yvBH76xD8qEnTeG8vr7OemIKv6mN9PnluHgGol_2RMHkMvL2XFnQr91VDOvDvm3--Z4cpdOAef10OS0DZYtkM_3t07WWcdF7sF8AQlRh8os93aCF2FCS6wAKseDYwhw3qBSH4rnKf8K7gZZwE4OGBQ-MT3okrd9DtyNk9IReSg-EbPSbC9y38OS_kqJlRNzsJ_x6Wldhjp7H4uc2YPCpCWBfo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF-4QQL4u-ow3bVicSTvp6qs0KUGUa4oQsfKmG6cyeql1_t5Y5NKmBVj0BjGO_XjQNbNf00HF4QKvjKOrIiOXFl5KSATfRm85608bxzhP7vrMmtHVPJ7og6q_b5yP130TM4bH-opxTT2BbjwE4HpEKRqsIjUbgCFRo9giwjOm4dNuywhimDG4g2rSybIQ_l1V8CroRFEcqKy2W7qu7LoR7aaShR1SKsetLzUO0Kv1qhQ07B2ZFRBoAacctw7yrJJhztcJYAYyFmyJhA_LDbIUHGx62K9hv1dV-GYmd0hvMvVUsYQybPg-mh4PhSPDbYGiZk-hMlivDYNwg7JR5WjmIE6dLsN8UXDGcuuMlhePmoJmwlGluJ1YiiHQbikoT9_hFL0a1cdYrmsuZ7w4POxK6OZIWXHT84gJAA2wwaq5k&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHR7eh5WmC5EFP6l15ttQvMCx7HfsctJWobuDWmq-BOtcZAIR7cxVlIZ5S040ibeGPV5kHKmy3H-uEP6nGaruv-HhuTtSj2sHrSRhkcBuJEFC893ldUx-lb0l8gYux3f1YGaf2RmIhHFmNfo__J13XppGmGHGoiBk0tfaQScBSP_jKQ7AuoW_BqBs87uyF8U4wCWuzUeR5HTZELspm9xAUkn1rGnPMZSawkwAYp-nrbXZjQvKzMyBAzRhBh3R7fTATyYyTx3Iau9_sdJcT_v-OLXDwUksh1qF43hXSgV9UQnXGdRVi7c_1Rq-_f3QlY2Lx9-TU0gXQPTW2xYyeVFGBUamtLRLwIZkkTmUu2QpRSRztfS-zGxEl7UZpg4Moxb-ipF5R2RLdlzqIe0A2R6mkLX57ms5joadBF7CTRXLWXdw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHTw9CqnjIJ7uQrEtV1I1kvFHOpau_CjxrCnsWMJNNZ0-xbY9Cf7a5dhtidLlU9c_xDoKPMDXbRK_4KMMXkAQ6W8BX9KCHPOFOiEJf0jQ5LEt_6JN6ExTZpuu5iZZKHyqT1K8qYcRC2-qqXs76-zG7qMlXjrsgp7ATDxTMCwhy64VqDL_mj1BhJyNS-KWlZ1fDr6SOxl1GG5mIOHz30p9rexWhYNt_zC7xJYsgbqQ7HETY2Mlmv2HXCsmIomx6tgzav2PEr_gzd_g9AzoQPbaMtcyvD61Aw_qvbg40Pr-YVulTH1PwB2CSlsb05pBUzYtnHQcSORvId8diP7Nch9-LeFZDjtbW-V8kJvXaxOHQJOfJVhnum8sI5YXdhJC0Qxns80pICDho6OJNZgFlAlI5BgWVfEpJZWEBBw7mYXAGJkv8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -123669,10 +124302,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0981 191146",
+        "phone": "+595 981 191146",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 981 191146"
       },
       "faq": {
         "items": [
@@ -123690,6 +124323,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMTHToeEX7rHkUz2Nsko2rEZClOeYOc1RmEZ35NBlvmrMmi-FNiAJNZozDvmxIxqiMoOTLwsP6WTrBuObdbO8OxFpA5WhYeUXOItSL3eoSR_fs2lg7HHSudKNxc-nKuBCCI3HWjXAAGjQKRwOtKB7hDNzW6Pa9LOyeM0fOSOnyBvrINF8X_7nzgQ4fcR-sjfH7xZ9FChO_gqdN6KidMsHK4IHUE6scOyl9lAd1UvwaIB3simlMYJPq7CjchKgO_LheSGIqEEiMgqPDQpnSrSyYT_rbrOZCJqGWn2i_vDO0Z14Hbd-9JatZ8Shtoc9NUwVQb3uRFe_Q6cTqi92XstvK6DDraRbfClu5WcJYF76n8JoT465CbPb9cfiNNSJFQblmV5GHat8__0N0yurPzgJvcfc_A-oBQSRxLgT2Ij4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF2V08FvrBtbq3FlZFPIZMgMyuoKWYPPlxSmv_9Bog4wcnujpi2rbE78wBIV6ZAel14VgDqc42P_krPFMpWkVW23K5-hsqTp9uuWWfu6NfcwVoWCcbAtf08ofZYFgSROB8YRVIfxJS3VzskgSHAyFyCaRH8vIqBCZWjdMSgEJ4GrT7hTc9OdrHv9Vs2xW655l_qQvde_ohQzH1RdcSSryAKM2mFc9xy5iUG0uBLlDrUCfgl75sMMh27Szhh1mVqsxVnno-rNLwooGL6N9ujZWf39-qZlRT_ww_xzGMQ9o3AQqX18CqFTz1mXRYwPcT1vYygdeEAz95CVFgLw8MwTboT-LwxrfU8gO1a2kpphAx4Cbmw7JUw2qNXIZHnNXdSRAkqZAfvZfIB9AOsS-uYnPzZVL_uG4sGG1FqO4P1knE_gPXtO0OMDprWyrMK12Pl&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF4P13PXA2z8pMYmNEja-HGtO_OfnkBI1aZ4MB6l99huWRDm_VDssBehLUPaGw6_CNHMeJABte7S7XnW3M5agGGp_6Q8dPC1x6VC7be-QGnK7NA69sIsMGKXmEO9MA9UTEcS0zH9h8aBVBz7CAuboCI8sIJ4JT-2bY0OTnFTkoSCnpmncgqgveJG6ldjSlHOD2ihyhVI5HICwVDo-0uD8gotC1uY1CqnUjZZZyRxEVAGUFDHytesgmJP_vDzIqSoBggv8fNkc56DcZrL-gjl7fENpj6SYxnoqcFvLkabkrjiqSWPFai7FaXbcPPAc090Ss79-scBFMuLtsumyVe4X_BtDcdMraeA955iJRWE_SeAC0HxpfnPMjGvzbXYbdCQbQlK16gOPDvhp77TLW-v8tBf-ikGTeypRehos_htM-o-E0F&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHpUAKTEt8vBkkGBALtuHSF21aKqd7UkpzuohVkS_OulobyXgZzWCX5jM77w56SN-cwO77DU49tBqVa3VyMXkJWK8bqb0F5IgbpstYh8stD0t4WMfOcQQOy8XxMiuCkrnd84REtXCn0N3s9yFth8nJ1VSoXcZEqkrOTvBjsSbaKRbcjE9E7FYK5TqWmtlX2wWEnCUR2NEewfhZqjh-rugz0c7MUP5c4x22SPwPZ_Lrxvr4xEbBZ2iSQccmvXW0HuouxNFWem4MtRVlUvK18X6MKwc7LDdSXpUZzyAa31y-mrcDGo9Q3GDZSy6x9K6xDNyufDbKbO7rvBQd0PUFXSWHu7ud5GRWEeb0015trpnb9E3_KRhnFpzZ5Dtkr0_SGyl34mgDCzG5opvUxmo1MDvEBoOE2BYnXNcXxFXMp16T_UQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGtiLJGMFQVqRqi8m4SIxJ8EmkIejQAp0ny-4gLuDtE6w4vy1It22U4NX9KsJfNm-SBWn3gKEjlux_vUaZavLetmwtscLGvARGufZwvkaBIemW-ULkcI836beWloaVqSh3ag3cCCvwtxJNwT7IsMNkUA9i38Wx3QIZjj8WNx5QFQElxf-l1GLzN4eWB6RWPfXPeHxIJJW8opUkG73GBYndJYWD6tNGYL472ZChOct1KawllEDgbGE7eWfOnHooxM5-ILGCZJRm8FarbKSUwmhRH4BGQvvSabeolisqCres3je_pskHaYP0zDrcaXyssbgFhvku2qW9zWdZESuOjzkFbc9ybyxTqIEqqtIEFMgMG9qCa2EwbloqZ572lQeAETFRS83H2fvFlaA1jXRef9F04S5JcU4dDKwWklfeqEXSdcr0W&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHk-ftvZVMQXe2_CxW-3fScjLM26GuyxpA9OKXS55MMR9OD38U4K0eMGa9fvjzoNMKIm8kChxkR8Y1-DCSSzO23ATdHsb2pfYpQL5L2uM1ssquDHv-CfAoxs-pQnxP9eH_a3HFIc3AkM9c2U98csgCngg-VeTdlYxss9-zilocDM9ASjCcptOfZx6XO2KVDqVthjiPrGOnsja2ARdfQobQkUU7Fw_up37-n7sgiZe6TQiWI3mGOSlhSBJJizS4qvS3TIrwm-ov8CMpDckVyE6ngqSEDWnC8ngc0pldN8orsIAPmA3910VjiVu5vISF2myyXrEH-Nc2qgJRFQ4I_tPeuZaXkPqZ86Kg-40ZzK9dBFNCVBzyHXRxNNwY5SwzU6dqvg9Gett7hcAxg2DeTOj1q9JXkxue_2GkEh3ALQHJo90gZ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -124148,10 +124818,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0981 191146",
+        "phone": "+595 981 191146",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 981 191146"
       },
       "faq": {
         "items": [
@@ -124169,6 +124839,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE9rcsiIolCuhV4ra-uruZG66fx1nrm6AJTP4PMUkALd_aYL3f4kIHc4DB6T-RB2PPHJ3V25jvSEnNixvmTBUjDd-LOQidfiRyqI7vYzgWWgrdCJosOV7uGOnIVwJFl-m2UwtaAknesmFI2bc0MZA0ii5oa1b4QolAzkai1ipeFv0mCtb9Knn_y2M32Fm5ssfZR4ZRYnYRcY5pyCKHLsj81YrmkXSQeiVfRcwtmN1dYELY_eb-MpSAZeZPnb24EDxY4Nf950SIASdlSswRrTjwSuVb_6upT4BK2AsVoSiMgPsFoFgvCrJ450w6oZ4GpbVT99lbnORa1019acqrR4Qu8WosQi_GDo770jgJ0_y8_lGipRQgp8mSV71Pw96oJrbBLg-gsgi5gtgu8GawO4ig1LwfAskifeGRTYp6CNG8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFZj3UYwjO66bl-5DxxGFi5qtebQDJ02EYumf1DXM7tYBIwdBNwKgC3vTegpGF0IS3-35AGHwR6G15g0YQrgOf6A7Cp9B_6lp6T7AyWLGK_TO32perK5UNLdpygbLRzbc5lNT1sFc3jbNO_t-LjbngqB_CzOKxAQyBBE6sp99vi7qG3yq4yuExeeXJ3Jkos57VnsfC_8Af4fYAxgXyapN3IE3r0HFVO1h0wforr0nNMKW4p4a6_7T4xNtYXDdisoId0QXezva9YElDsmwiTO_V5WthnrRaxjL7Cv1rfGE2PFsL3k5tjfw2Fr1j_cC9D2rGKNaNjTkQDt99sfqUHkLcJXFhW3C3PAwW6De0Y5P_KYJtZDxDrk-1-ZhRel044kptEP7KuevS6F6I80CvmVY6sCBUNpqijb5Fr_AOt_55jUiDuwpzoZuoyu-LiVpXe&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGdE8RlAqbOO_0DM6q_YTy2wAVZebsvo-AidvlT4ngmdN2IAeWEs3l6W1QKUhGtsbRj8EwT5q-S36C5l0u_KLX5TIGdq3BFiTxAgy957nta5N3zmoTDiQFJOqmlJqPuyl94JOAdLcwgRD9OIghOZ5z8XlGIauNX_r6XVOevFwnW-dco_yAKg_pj_8Qp_YCuBj58dDR1MGB4Nh2kNLkg9gFCfJmPUNvLLD9RXgGKXunW9MGgb8nQrMFVlhDTgMuD7lXbU7zQeKs1L8dOCktT0O2YLsMfuSpaVa8jydA7-WVl0qlpzXLw7DQhXtdwULJsZ98shFL3gr6vUK3SEJsGYHGaJX_bQxUWuXJUDZYeqR3Pm4CwtD1O7Y4Y8vrpeBo6JJIlmCI2NPBDQXfi4sCY5_PzFPWoQwrwnbdZWOFrWtPJXM5r&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEiE5p8wrRygUPbszD6UbrNhZ6a5HQdSwWu2xpssJwre8oALunpTtP1Xfri1VKtv3TH-rf3S4_2-ZTbK4b6sylmEiCNIkNScrgjIse9mXYoq-_4-UOm2Ugw7IoLeBUBlm2FASV2ejGySgZME4emp_wPv-xiF5fOH3_uO91weW-rmdYF_PfgMgj9OFF0BhAhHTVAhu9dZRnld99fcoanCuLam9zMpGk34wTV13OnR0bYOsYmeyLsTPpe3zqI-VXNhs6-XNv5X2AlyBnd_J1rcaYQAgeXbhJLmHwWG2d2ySk58tk4tFmAUyqEEhb1DB9xDEli7IIT-G6KYZ1ZD1oZYJkwZoqcOZoe93ikrIGEWNi-Ujnq5KqfwbQiMKjr4BkTFT7l2MwBKqCrqGBPzCA6hbRsJJaeG1vc4iO-EuAn4sPzvg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGqCaJLHR9cSB2MXMNuK7kBjMvxkiS8AefR8YfAPn5CgUP-7wQTnKwfOPREE37efJT3s2UrNom8tGEHq4fLW6oTjawSFLBUjcUWsHf29KlxAi2-CFQEoJksijvVoTtgx9FbuhAVTaVPUzFgpPbXQi_VIFuuSOYHmFwmO0uDRxUa9Jdou2z6oSrFcnw_i5PJ_alq8Wsm7-XbgdD_Gg8KqVEEkrZTVR3c_wTP_o1EzdzfFkkNLi4p0Avj-HHfuXOD6ZcmDleYqU3ZkJ3OU4F0utJ_f8HI5nMy_pgRUVTFrtIJFRXtpsub4-oyc9UUUPy_YH2k5ixJBRPicn-V1Vt0H7rouR3iJ4x29iaCrV3cRThxOr71zhtQIxWFK1mWtK01BqKRcJnP-SQr3imE9SG0fnGKgop8rdas5RJoPGPoIXqnWarX&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGklLdPlzFaDW0-3Bt8HLlBARJbnVdOqyOEeezGcoDhjOTipwk1IOOqiuGo-JfzXP2zdqjBC3sJ7x3Wwi3ue4D5bAdJ5Ql0g9fYBUf2Y0N8fd-Wx2fAihv_BZXoC7K7JkfbyU39BznmG4XRqmFM-eduDsQfinkv47hi5mEg6vVJn_xmqVDK1b9Qfmrk_FPSaDrZLW0q0LG4M1CJWZmBTKibiOJSMN4i1kjVzb3t_MyGqRK6xNdSKif8zN4qnEtzqgrZRgW5jcMv9bghPUAh5Yv_0iyMT7thsySafHeXcjuzZdgwCKQWDG2fWAK4bm-yoiX3nPPIU4LrVznHp0S39DN0UoqALu1WLM1bjl_HBpExU-bbBt7p9FqWEITV5V849EUdilSiWgNO_3d1nFRSaHIUv_rL4U_BbslWUV90ZSNqeQ1P&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -125127,7 +125834,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Asunción",
-        "phone": "(45) 3025-4100"
+        "phone": "+55 45 3025-4100",
+        "whatsapp": "+55 45 3025-4100"
       },
       "faq": {
         "items": [
@@ -125154,23 +125862,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Consultorio",
-            "caption": "Consultorio privado",
-            "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEFr64IclQvT4Rosic4Dkz-e1QVHOMwzGn9UgPtu2dw7O8w839zBa5O1ahxr7L1zvbYe_etOfNH3Jhf4yOiC0m3PdN8T929ppv-gGkGCWoBF5_WyE18NpHrwG3FbJmgKKlgC-idNPknk_3KE9fwwLDuN-zYj1lB3dzvS4db2CfJYKv7dVhOUP3gKJQwVwASL6il_jLkHn98Zl7phtRb_cTaR2uw38xkXXK3mUhQm74uUtHvLR3No37Hp5fojeH9Yx_EXzZvzHmTmkpLKcFa7cvDlYt85NFnG1yz2s7rLhG_fQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Equipo láser",
-            "caption": "Tecnología láser diode",
-            "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEL2_NUN_yPSrrDBnrzCsT4mMny-G3_bEcyalQn7fVess5QsYNojj1Yuyv7x_kGqjsQV0f36rJ8CjDa7Q23G9weFH3tF3RR_XlxmmjB2P9GGeZ2gCFpz06h2WRY600xdFld4hlkIsGZXuq4ga0IewK5LiaX1KZkBb56GElNrgkzqMZYIaVnVfUEtMLrNcrn58ldlnpFTGUUo__TnA9EFo-HziTj59ZzTB42VzCkvO_pbN64W-kmal4uVObIrevwk7LDqXLEz3_u2788D_QJrkXHY6SniXTlZB_466PemlPUc0tV7KtEFplORAEU8ZyOez-RFefv0aXj0BC_EKGtitJEFiYK_OHUxd2LUoxbtbaAogMzm8P6MUXl6ko2FTC7st-XLLI5HCKGsZA__DGPd1naBXwnLXjzB-Uwszmv5CGe-Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento",
-            "caption": "Sesión de depilación",
-            "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHO50h5xump8CHz58GzJOla6zd-1M5M_uAKMct9zjODK4jQu6fNWXlyFHPu3zoZId8nhGT3rpap11_A7uGClMJIgw7Xi--JH-N5cUlPOXiki0a8pr6OW4FJxerrZeHYmBHoq52-S_y9hqqSPpovLZgtQix6jLLQADRJcBefGFXHow2eeUYVmNLRUMcZx8gXz9pmBJUMHZC6t_fIITIJchFUfQWgCHuAH07XYE6St4S_dMaNWDKqe0XVe501t9zXORgjKKV5jtvL6L1X2s4EcPrIC_INctWT2lGqxQRFmpmNgT-VU3mXS81sTzx5sYcWxkpb2tg7TaBkuAGC1jRBVzJ8SaHTeETs-5LJW-cDRqG2bXNNX9ZAS7W6OPmGKSOgTSLKJT5_CsIhINmRsS3LvS-qHpdpYQvyGwRGQ3HLbeE0jqw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEwqJJiJvZwzgHiAsNHAFqDNEEkdnrjf9HcIDgkOyxWn7Xvrcp5V6bG8PBvlIvRYOUGH_tl3kwmJZjwn5_YVUXX0Epvfv1MMSAYiSmh5f3KH4Ljaqr8pZ5ssm65B28UHeTMfkjf-srZFCQyLHVahGJ4E6FYZTYSCPfZmJKg_o7Q3MeDSJOpz9IZs3g5lrgwELCMg-y6lAdmYS_qkXVei8n56KCJT_dFdxqCsXbmxJi2ogkE8dXldUQUgYQs92yHmWXnVcus60w-DVFas8M9U-6mExKiS6ZXubcExI-9T6Ge5JiCb0rN_SUWfA6wTaodot4N7sD_3oASDRk7Z66Rvw5ll3K3WA4NjS2bV_fedXpYtHqImQPgrkbD_xcMquwQ3srdxc5hqTq7-kKt4rVvgzJWpWGKA8GCD3VqH5TbsDy1eQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEDc10rOleCQAio6b2xsLbv6hBpaT_xqdOl55qFWyz6JVncrb96qIGuecfUz_cF8JptjTWmxqW-uh2uLcG2Q1S1R0d9tAQc8ACF8LfsXTu6w9ECI8Q-i2jGxpqbSfAvl9DnEV9nwEj3tRc9WVp_8gphZlGO0VeG7SlHEkbdZpph9XLZvO51SDry4wYWyCSY_i-IwmY2IP6bpDjX3xdTkcJpITpTpyvoEkUBaLaj3EkWLG_HsrQ7y-OlWC4p8QLhrJyJiWNqGpYQbXL7hyulFF72KscmTEOyGoprpNdncU4X-w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFN-Z0cQdn4FrdHBuoGLDQNBEbJwL3Lp7ZJ6GBiyWkdGPmYqIhFl8wpWFfA_7qhUgvyFZIhk47w4wCprNqq6huNE3iuMpQob9faCqCFuHjg-JPercDtfG6R2tvZwreynPUmcbGx8rt72mpzMfUDo2vOSyIrwfBNL2K4JPEP7Z8CtrOwqpMB1hI5gg81He43SbPULhANhOdhNxg2yua46jmY1HRCvMqJCJPLI__aqXNHNDWZvpjc9PeJEFnEJoFQQz3NVmSSAIAbRDnp-KAm-NAIc5zMcbknz0xp5YTHxUWqOg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "subtitle": "Instalaciones modernas y equipadas",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu evaluación",
@@ -126804,10 +127527,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0983 342707",
+        "phone": "+595 983 342707",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 983 342707"
       },
       "faq": {
         "items": [
@@ -126838,39 +127561,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGNce4e6QyjpbXsEahqXiua2cJDz9t5vaFY1olWuTCLTQiyFqsCtZRMlLXd4ephIGBEYpb7ORwCQi0LSnNxyqWAgT95YhUzJsLB_ztXOMbPA5yRJdacOEz880Z7xCRTgiISSK080CKxxcxFkhHyNYMWILr5hQZuW6Teiv-hPKqwrCkrWBh0QyZ9JzuJ8inlHsN8dgpsT8pYjsXhlyvswF6zqUsdZ15F4y0V79OJe4J1Dv0N5LK1JoKlbmSB9wGgkLnn3XLtzriJHKB2Ib6NK18gCZSGOaK7FlbYUN5JFbdYK-e40gNQqiOkF12Dtid6aniUcwEXQLIxuxBjbBQEwMrJZW3Rh8atkqDJyAH_45pcTZYlw6q6yBZAmD1XBuPZFASTrEsuAoBKBLlASzDmtxne1moDKbFJ3ZLQo4arOFqL042lOf3UmNrQzF7bAXat&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF3BOvdhUailNHYnetDxSCEwmXn211OyFN4gjlwv4fHLr6qWhBC_NtELnH0IkmnNu-TRu1508f6Wae0wXT0-l-fIKwBGyarIZX4ibyPQTtfW66PctoUCRuNfnChO8Y-oLlrATIW-uPMsiLrCDSDYK8V_QwSWhykpsV0xfMXJrnc67duMT6Ki3ZtclRdloIOSXmhaPmPD_uohhcvePRCICgUHinZ2A6QwmTi4o0YfLzelZG-yQ8GfkgHqzcQyiwjoJsQj_CFfy3F6ogKBxvE9nm1umGIlJZL5E_ptTA2VRai3sQ-Nhzmvr6AAz0U2WJFDyKo9mAzAR5yPkVmnY5tD9jQzBPAIhB8bMzbWEPpTbbSkhFg-mSLXU26w9zzjh860e_IYHnVno5Lus5vIe2hWn0Jf7u4YjlHHu_oBRV1sYmc7E3M&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF38Axp8RSRoCDqEB18njeBLMYp3oaQHPAnXb1qDxWLeK3dC4beAEuEza70HyMuoY3dkiG_m448n6knNU3q0FGCm55nzb8Px2oqwGJ4nojF2qNpybJUQZbQZEvQ2jJofSeSaVlJvjtGdimMPGeSVlg3BkgOrFAXrA5R6Hr74G2h66v6LJ83mCQKzwm9iEzGlFWVKDOW49jTM4AkdxKMepsRQ6pejWoM51ebuIRrhs4kAzIN90QN_t2yP3H5E4wXYhpAX6DsYRqAnbyR1LK7SMbJW0CMXNDHmolk2PC58ooxnknWL1Fs4Yh4ZGNsApbZVeJMDF1o5U1lCFjeO22e61-XIsn0NplUvvZkXaKRjUxnzLgnMyXTFhfPEJo5hmK0C7eTmWmMCg03kHJ2oMmKMUZObcc1hN9r_vJiaicQ8HlEt7x7&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-Se2-Thn3Ix_SkBd4en3Ox7ittGpNydGNjfhMjpQPkPsogDcvhJPM1M3cMIHQ4flfbuXEPX6EAqzMoA8C2AWarz2oBEXShRdh4cdoVf2schrHZIMTo6EAP9oTcuuigB1qyIlOQubX9dza6LxT_V-xV7b14-Fr7XpO4fW3l5JfNC20RMWKi7dfL3Kiw_pau-ROJJB_kiB2jtmygq52Qcx7Bi7RilZ-dkrxT90gXHEazNw9tj01lVKi2p0kHFnXb9ZZvYiRmmdAqFZTEHY-wXhP1NSn2N9U1WioHTnKcKMWvEVN0iOZzoC0PiXxBZbq1lNJ5j5o29GE74gQozd0eY0UeAnoo_ZxJpr2EIUUX1xK1fSMYFfaW-HltlMdkZTnWJ-wGX0mfJGXMqs591Tcp_4-FT8NyIJL_2805zt1VmFQeg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEErzxaUw1s1iZDzi8EviKAQw25cnw60c5RQ6UJzPabYPVooimJcjMzaui5VDhE5i9BcasHJ9UVmFNKHrAzkJC75zY4-cWI0wNAfkoTKFpTPGexoNUXaPjxfw6z8T3Vn5kOWBj17Mbo0JBWuXwS5PZ2ukj46HaZjZq54KrQ8J8rXhz2Ysw4slZxBx8UiO0Se4p3LAbWzJa-V-iHLwlbNN47zlMBl8B4mFsm6xo6s2bWQLjltgxcnNMzdYCYdZKKHQ7uleYJvxBD-M99r50Lid_KEyh9MPizJFdatKKei5XxFJ9Av-9i32Zsrlg2QPlRa29KWaKU2x6GfwOHkdm-1uNZMJaUn8OawxT125zzg93Hx-x31phjU2LlqTVAGum6OgkspRuCtkbiU9fw8rXPmp1ucJKBtSjxBHxwlpFo_8zunAw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFsGXXtA1hKkeLpXdpu0wNpSomNm6-vHk2e1tvox1lQ-xk9QObQgw6y6ocWtBn-PkAvqjOb7AN12Py_64tjH8_RB9TbkUVhSBnxD2alDmlqSDi3C58gtcuZLOyKtTamvaLQ2ouplKIgwIyRav9iE0F_MttbZVn8ogo2gRXclMXeMgv-GfzoM5qJO7Ol3QHttlpIKTDhPyE-LM1MwUQofCGuxyApHUguAa3LbYpsU4_AgcN1kTSc6nLiahlNTn-TNuojNdVF5XP4VzenOK81NNr3XyGvia_Tp2jhPHJa7SEwpgh6Fh8VsdibJUU2ihZBu4oF_FlRirWA8ffTh0NeGahGnhrKezxj94BFjEEtpnkeMqH1rkEM5yI5-2rH9IUYrfKDHtsSD2m7vBkLBU_0hVQOl4L7Cjhk35Ort8eN_KSD5sX7W9XiMezJVJxC4Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -127258,10 +127980,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Presidente Franco",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0973 117473",
+        "phone": "+595 973 117473",
         "subtitle": "Estamos en el centro de Presidente Franco",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 973 117473"
       },
       "faq": {
         "items": [
@@ -127292,39 +128014,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF8ISamR2zZsvg4YpOICcJ4v0Js9oiRqyO8LXj2WiIUFOz87O3K6eW6CzXoC6QUtz497-kl7xNSehTi2ko49hipJE7dO1RwvVqgsbG23bEhM0L0qRSnalBW1l7uttDwpVzod-6teu_r4-2LQOQymQOOleQD7mgMtkzdOdp4n1_BlPvlLH9gPoG80m7nbTjCem_TCmgQ6yP8H0dxb_3JN-nJHoIwtN2pTobgrCQcTkLqpw6sPNcpQGP6tPFlJ0fGPnAwtfuWPtyDhQfdqW1tZTBrlNp-V0bVM87bSlQS6qxeqw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGRXk93-L_gczIg_xZyhO_bWS_T-BB1GhGnbTvrHE0mIJt9Zj6DRD5_ZV56edKpLy_hp4hGO78tY_ECYaJ6COBwC-wYD7T7O0KGS1zWzzt5DvkHmcT_PO_Htgo4r_vy-iqviABE5OISOpp53qLIsq_Jn2LZXsAiGUqlQuZ33Svwq56prDeRAYBVHjMuFC0SRb7VAjFPNngUiVo-snPn1CjZqg1rI0cyterMPJcSQhPHj7dSblTHG1EIc57n43z2ofNjjpWXzU1W6W66Re7imjSM_aZmSMaMvpcmi04dTRCCaVGtycylrT2LC5WeDep_6q0tbTw6rUr2Wp1Jzfvd88swrJaExnyhWRlAB-qtRBmbHFeUV9rNbDAORH9d-gyxVsG0rb2tmUGTalKBIF9PNq8o0Dk2qN-CMOwzruEYXKU_0-hb&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHUTxLKVDVO6qoF0cm2n3ZStWOBOLOlExaCRZjnxlOG72xrvQTKv28U-jpDgZ-JnJf7gX_rj_yuaKgUhgOetbB-3EZEOKMdtv5CAbDOACEGMMT54DfHbHyH4KP4jD4_qeruEksNCrlo29SvmOqz1g45zxWVHijvxl3pW-CvK9X3e6Dj5swhnnDQ2C3h5c4jTEzL8vdbKz-CvKdCVdtOtd0WSzJAm8bZvTTlaPoJbDrkpaak7-78DF6qIqaDrqrv8s6l3JEA-aTq-4mVrh9tDsbU1X4gO2KncH6m5q7bObqPZJnCUkpbBjV-MoipkuPINTNHndX6PJ_ma9B1vJhejEMsemhaRS-6G0MYZgcVjBXasZnfBBcTuO-jWek2iv8_A5Q51QYLO7_vRbyUeLJO-uSkjfqF0wHX7pCvDLiau77pJYVHfwp0KcEj-foMgw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEnwPyAGRGVOZJg_BTeS27U4zURBnuDhG4XbmtMUrAYw-kHrpQQCWsx1wSs1mZJEh61Fxy91flI_eIZvaEhUk1NJ4AZnULjPVtgw8WYrsymWr5KZmKbTscaMqkB87RfLQuS0mnwqiuCa7ueEg4eyjyQPhXBF0gUg2C-EtkOpqw022ARvfMWyJU3SLzBj0mr2fEVFTnJBUQtB9IvD3gO1HoeXfLWpWMN35vGh4b6_xXAN6OoR4TX_mH20Xp8X_saMsaBx6MpS7evN020CU6tc_xI9o2djMuwb-QVGIytisU-DOv4H1apRhu2CuSCcsPqjDmDNGStrOT0FQHCDmpfmOcZPem5qlQTVAnAIqJ1OMDcz48zH-DJe4u4zJChhs7nZ54UK2jnuSIdlzCuTRTbw3hRCezga9C5Jid6gyb87my0Llk54VEHMC2stCZbUA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGZY4P6Hgy-YYS-MUsKg1D6OLJ2YJUydEyWMWWWwRoKxjno2S4-X446CMRgDnCZ1xICjceeSDm_relENCVM1gKYtnhG9VXFqg7OUNam92MULTKGfWBCF4-rvO746uy4SEdyYU_LZM6ivAjNbfNq6djqHczB2fvhKERfbSXKxcxhsdh8pFwRK-wgXBuic2CAY4GtdnximfRnDKcfLXPAAp9CXIRYcRREdBATz_X27xETvCPju0HbnD4YaCGX1xr6DZrVPgltTdy1S8jPiaLWHPHyQc5oHWhWQp-amGu8eqjMRX9me55LXFOM9n3XvGBsuOakcde7oZ03qGYjzl1VjTdArS69KE3pC5VOLCfs732DodK767i_5IQIarrRkMBIjAyUw0aHAByrtqcfwSNbZ3PE2NqpSll9J7gmcBqMW_uPxRAut8Tut6a7hifOxuvJ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHP4frSvPuct_p8KdCPNbvD2B-ZnF_OYI9yOtG9ZqR0--8I48Pdk9f6kU6Agp635bupAm6tx4oCYshSIn2MqPukuhOlP9pe-b8gPsBvM4kNGWl6H7QklSP3oaA_6eybPDiR3VfNKfyckQSAl3YdhdbWuVD5Dct4FusWJq1hsnvqdW6OMYpxGcJBZo4RYrN6hFb6q5A6DIg879f0JsrRFpRK-6k5_SGEGXcWAVPYrOxoo5vLNN0GDQhw2ONFqE5Ua-xK1rDtTYAUyJj7Q9qvE8maeBecyo-FqrCPoihd4IDZpz6Jac-94d5WBlxeFX_13OwJm_5aM-nRezbcNd4L2SSKN61vm8sIzSrxc3r72OMlIb-3QJLOhFD3FwSL3ZypDDo0vnCAnM0hhco7ZivkhwCTvis1Y5i0CDSRNIvd8ZSqwfXEHFK8LVNgsAffRBbb&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -127712,10 +128433,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Presidente Franco",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0973 117473",
+        "phone": "+595 973 117473",
         "subtitle": "Estamos en el centro de Presidente Franco",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 973 117473"
       },
       "faq": {
         "items": [
@@ -127746,39 +128467,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHpZAeQaPniKD4h_ahDBwF5zvkqMz3rqynr-V9mjoSNqkAaPbxb7ud30f5Ee9zYjW7KqzVm6G6bODnnglqAHNx0LXSue4cArY_ttkgRWPpLarx9U8it-TVvTlP2WaInu-8wkq5OYori_MH1tLjVWQD-hZ433IC_E0cXknMzoPPfc9Fv3P3sr6Lju0-BfRIi2mvO0oudpcA2vChXfnsXs5VZz4AfEplI4zyW8piBoGidxKlflIoE9nuS3nodTvPwEA36TcjpP6Qb7AQKa2LXw29r7hUuiIWuYunMYR3gaOShWA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGMso13v9S5Rtr-7lUyhg9xJQzOASyVCWY3-GtX811xwh4F1FQcbu4bOdPRYZL5-DSKtOIQG4fL-_vvj2TRp1kUBR8S60ye9eKMUKGjTYoRPR1iM7le6z2b0y5BXdNw_PQI_cq7pdq-ATvy0tVI-CjsITBWgvUR3LfEsG5aBheaatQWq50Y4991vQy4QflPRcq-U511-2M9RCATrw46Q8BRg9akWKWkMUQE_J0RoJ1vlUdwAxI84sJk-VNTl5TqMNvQ2eckdpwkUj6jVfP-0rzzYQ3L14_uYeshsHBcZ9kXhdbElHu7FAKchnZM5xGMoRd7IDlFa21kRGzmK6EYo8IwQWgSPrqtvIQLC_juqn5E1QViKbBo4tPIcUWCuaf5zlTDLmn4sHeeFSUNh5ZDcNQZiKUq6lwoBAOXsUcDJ-AbINJc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEmjSNK1zcKT6tmtBUl2kxviHHHA9djzOg0NOtkrq5opXQmTbu2UyWfR5iaqWUSTxLhLw8oKKssso2m0xMyOP7F6FLvpxp7WdJstwN_7nicuNt68MWBg-CPy26-Xa3RRKZKeiEuT8rFohtwgB36IOrwvMwH8zcJ-t5yhf9iAM82MD5Z_ED-0txRp34GtKCr09j12zRyKnCRpBOB2s_BvUHCYp6EXqgKatU6qutRI7vrQkoLpOBabcJzghlXZ0zbSTAfngHT9z3rLczjj8jpvh4eLQjcu1Pb4QCSKcaSZUbTYAqUAlH1YBUEYsCOggNmzel18Mk6Chwv_qjHQ2mckOajcazG-sq28uJBISxGyprlELBicgt1nZb4R_KQR5_itwznuXYTne1dl4GaK2ClBr8HWWEWh8kUtWLviQvPU7b6DthKZhSv125YNo5Baw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGe5w0wWAtlY_j1cATKhD3LQlvEN_7N2DcwkMRtt3fUPY4n66xFPEwz9g1r69oCBxCAWH4cP4ofBS0LXfYjk93H4xTFPzOxVkBn4ZtYK_igwGOw4OXgbPLsoR2Q4rxDlDq2taMO2T5Oveo67CebPnntBU2ty-rWNuiUHdB-E9g7_Scz5CkgQ02XP6_bEyokBJlPle3hnMMQyDx5EDwGomRVPM4VfxaL3g4JXADMvFE-tIZyHaupgJySomgI8rkY-guoOGPUaQsBJalgnRzBZO6ZeunpS4dJ3Jbw9ZzvhgogpC6KU5lhgKLKTJEVaBMWigm5uDELhXHHvOWWndJh4MdtSPi9BtrPBsmKBuU4uhVie7yBfI2ONsLpOZWQhO-O1rwCM7qfn9wF7-5xYuY40t7S3k8cfYZkYj-4C8y-kX_Qu2snkoba9fEUfXtNUg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHGz2iYTLjmu0D3Y9rkQd781SBwzKrOP0fzKoKC3RFJVE1EkxlTzDPoo6CnjHfddehAm-Bn8KiY7XpKV3EhYYlqSJJ0frdHySwkuRbGRrdnGiXbvuDGlyk-aAwP2LBaC67UXNN-_WTvqV69GFRHNp1NEHdIQnCFADEWGt59qan80Q-xIGcGeR_lA9GttMV37i6qcpzFWoUi1-ZmpOMyCVMR_6767BPHwoV5HqLvZj8KmVpXx7GhzXpbz_oX48rIIvvPx3C-7N_ERp4UQnIZ_yzx_8d3KYQ8UFELO2m5gPZTqDTmIfTTJLi_4iBYzsUQZSxi6t4NjgOkoul2_DoDNoBXsHvGwR79bcdPal_x7R69JPD7pOUO2JqjmCRdnsSIr6BXTFRH-GmH2U8d9qLLFTNzuXjpHLEuWC8SmOJXF0UFduslLw9wh22jeS0bvhnX&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGsAd5nzEn1G5fVMnS-Rtz8-iVkauFcpiRBVqAbWFoz7IiNGS_5Gx6wuvU10vluLuYCXMVZYx-pDeyzyAR0IECMVNd3uZQbfYxuOxWfLTfsEGZMFClexn8JIr65MzihVZbe8KDgWroeCvLq43a7lqT07KEi6dAlvpRtF6hslUGz-wZyZzwumRgOnsCU1zNEMVQDZsjGwAtItmM5o5ZcWlz5Fp6Q7KxsCKHT3AFE9xuAewLf9HkOYngFVUVG4Wc-krWdeOxeVOitiqOkV30Jdhkcy0TepghsO9HTEWfeq_wcynsRatNgDs8X3AqhoBPTgONfUZwnbEyonVFw6L6mgll_RL8S6b_tE8XT_3j5pf3wjg28JNqd58Cc_zp5FiGRtZXIsQUmD-OuYJDG2yH0P33TuTBWQwF5iNBczPkmadvRyiuADmPJOBOZy1zZ8Xx5&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -128694,10 +129414,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Presidente Franco",
         "email": "contacto@demospa.com.py",
-        "phone": "0961 715906",
+        "phone": "+595 961 715906",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 961 715906"
       },
       "faq": {
         "items": [
@@ -128728,39 +129448,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHjEysiyWT7X76BNdE-s8hzUf7ytPWleuLOzC-jQA4yhGdiyv5NMTQSXvlH0_KQglnQr-jKhrgD6_83PI8PtzAnucak2BBxTmmoscDv1QbFEzz9dB8j3WXY1dzrcDlAZ-UZ07gDicrOC07JgyUotYPWcxiMup5Sptv8KsooltrJQfJXJLrSBA1WR6PlWCPXQR6QnEtf1HcUsNQOL-6FVv-_BgwdDU9Qs-fgeDEC4pN9mHnThIoifRJiqNbsgbDcgkMiyNMPaE2hZfmIHWAWPSNcf7Cdy8lddivqKA7wEIwNbwc0fidN3UMXZcymCLiPb54RW9cBRNHqZVKBwFxdAsmIfokFgjao21G2ZCLc7ab0X5HURIwYsdQ4lECv_d2vgAoYLA601hyEHY2wpbkIMb6q_BIrPgCuyisfJa4drlc6nsGhiDEV1WLVbrLWavqD&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGb-Hg1iZ3kIN4wbv2OVfhcCzcYmRwx0v-wcUlZiMRpqfe9LnkkDW62JFvfAq7320Lsb_WYZqnSte8cpoiGi7ZFYlGaacrNt6ePyY3xo48M7z-NqlyTECvPgmFE_lXorVGXetprlq2bX3syjGOKhuKsD7d7LvKfcgzi_uTPyUujCYRiFXFuXR9JoXo6OR_Tz2e4Qy0wEO6A_Dp5y5cCVf9RPCywJ9LxNdd51dz5EkMer2In-AStoaP07GEkFB_k1cCgKx7IMmnaHRzAR2-RkfTeA0oi_qSouUr5A_hzOfVplyq8GxvDeTH4X39gZepDaQlM7T1fOLUN2ANkLnbXbnUWlhv2bYJOZYRbZzEMDY9wpfV7rg_7zIhrOoOPd-uNq09FZ2S0mfrZ7Oj_zI2n_nu6Av4a07N8QQ4qMx3mQXMuMw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFt93m2m4xVm-G6GCYBYgv366L5Os6GFooWI40L2iqhz4iWR6Cd7YVaeSyo9F3u_A46gEl0_n4LAh4J62oGEjHAYvp6et5MZ6yJPj2J0VkvB7rcOreaDKVql3DufREPeDYWoRHgk0zTUQFOnW_3rFuD0A3e1HtGw7-i-oa8QEIFgerAkFtBvc9-IZBWNrNb8uKIi53R-ZiJa_p-f0uGxnWH_SxMOH_CTVOrhHrMFAOT0kSDh3Eiw1nLasl2RgMxDKUQtHdNsgDM_pIOavqvMGqG1DAcrEjbSjsd_0tWLn4LHj9tJXfwxxx02KPXdt0ccU8osweEC3cVVALqkksNE2G_SzBK-QWkWw2WAY1Kpds8BmOdSsW29RPPQf93MWHC06XRtZ2_XM5U3oL5JMyjoovIfSwp6Fd4ZOg8Izm-3t7iSgoy&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFB4v34_66zCwXEkgIPcz0C_e8HFITbr1yaf685hmTpqQ9fQkjFGnejRuy5apK05XTIoFvoeYeE2x3QkGQ3Nv9q_A7MnZU9JWOw0Lod8Stuo5pG-ln8Wxtryx6YlRwX0hy7uncPaZ2hoCQR2T15nd1wQ4Ay1T2I9BBbJKJwrMMmY2oFB18URpBm5AAyXJnHyGsqjJixQvEJ8hSap9luccxDkG0CVykei7_Ll9STRIG0eQ1ZB08GhNnhHxmFvD4_8BfaCxtd_oGPwaBOCZ7IPc_1ZNI2xTeGyWVQ1GbkLOmEe0NdWDSYMWlyqZorzJyI-BP5Vj3bF78iASs-Y88-bDBYbaM1Wl1DlV4N2oOqi82oZnmM92PoD4HQfGQ7hqaaptsWK-IJwcW6vkwFOkw-EgUxMmu-VNoYqJUbH-iiFzOWuw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFzObOLq_asFMJWEdd1smJilTCfwX73-jFB3oAKlvja5bN5BWcgvdSi6dRy-u79QaIeBN8G52E6lrmSEkLpFooAGPar6qySQ2sSCmRNdI_uwLRkovjeqTWMkjH6BUlbi5yNzNDA8B0i2LWyCnr5LBjx7PS9fqqkCluSSCbWKVYVuuXeCJc6cqmr8gYWa35i3bWZPr-8C15EwV-eI5OukiGFE57JMG8LyLsP5RuVMD46MbOAALSh07nbPrdIVL6Dp4jeQC-C01xFrKX6Ek8LTn8nMdPGx3g_8Upd0SZl1u1_ZbJX26VbCrMqnQMm1a6Icp_aymqRD8X7jWiP6ro_ZBUCFCKWpE97OIq8x4hh2FU8onA8L81HdGbzq3b_63E64hjTa9qNnA4JSaDdKu39KvbhxSblJ5aQ4_6rCfunElD8BmBXrRJedlaZI7tRFDEY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEELZ7y_Mj05AO_yQbee5s3SHgWPFm_l7wyFyHIcITvAayLcAx1XlYYukVtRSagQCzz32M3TWgiCF-ZYZ7baXClq7ASEHW143tVqekbAXuKQ1YEUMwCun2tr-odxiW0m7F9D3-I3IVucYzTjFXBKfKrDOyrcBfBr2Wfj5tyR6EC-ABWSBrFEFDed1jPS9PBsiNwZPn9mUVKM2aH4zDQfAe0ViQwynRiMNKPunDwGaLPqC66rffjXRVNDOCiIv7oBS5h0qY5mcppYewP3N9vHJrCLsq11tcIA6WUSVNQN3wdXFigA-2PqiGaBVDBi0GRpam7quqHvCpSnfblx8sQUXM0QCLP5gjwiSma5XnB4ba4pbBTs6LvVTyedlUKIAOfvcMnO6pLGgQ8kkQNx17N9pqua-yjYa-OmEDHOvKIeG9h9yQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -128998,10 +129717,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Presidente Franco",
         "email": "contacto@demospa.com.py",
-        "phone": "0961 715906",
+        "phone": "+595 961 715906",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 961 715906"
       },
       "faq": {
         "items": [
@@ -129032,39 +129751,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEGlGtDMEzXgkZnWIgPg_nad8AIEraJHJ1h6PoskUJGnrq3CeIh8Ujee-pa6RKRLPZuDhrEU7UtjlOCDDktcKzBqgcTr0IBjs7pNtENO6SojcbsbkeN4DobG6eJXxj9JDRhu2_c4_1NOaVSUIXlEzROZZaW0OiDsvmcqonybkxOHhyCgW4-LzdGZ2TRpAuQENk_uaMDujV8fvR9WAsGkNXoNzN03dLooSKfhP25SpF5-oVEzqrws0BQJqSkh354VfASbphSBykivUj-_nYDhFNPUhxRpRHWUpfO0ZYlOQ4hSH-TkuZZ6Jxa4tivBRRO876X5D3dFSXmIpAF4Amif6TsGqgR0ATHlOIpIuwsdpjSk8UJjc8EOkyo0IVLfgv0BvjkeudyUYWj8V0fwt6DyLzgnEwOYRWJUSscq2wu3WcFQEtlUdnTxx3Fm4qE6tx0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGWVvSHdRoxGEDpCT1Q3me7X1tsAurNPvDhtjz8S6-DlMgAQ_g5mjWCPLXWGR48B4DAvwvmiOZHZLfJegkcSytyyHciub4MB6n_oSQoGQ8-vTCLPB2LR9LAooPKFH9BC8SIdDylIHlTgeBpIbQ-51XapiO-q04HbK7qTxeIHgg8gpiNUL87tp9FxBrwRlh_mJgrRVXj6K4rVoDXxhLsZSB22b75C-X1tesjI9d4m5mTQCIS6-VVasH_19OU-CzrUMqAT-44PUSs_JU7FgzzbFBI5t7w7W7YFieZhqxqXwLTXPu6BQKEZRzeNscjWqjuAMR_FAYatKb_rL_1eoHib9HZnEatmoM35w1Y7IcuNodPUf10nRkJiwG3T76147NhFnDrjHFbcVEZIw3tigAN0_y4o9fQ140ACCVCxl23-QUr7g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFCu7QzPrVynIjAy2RzvtWDzdJWmMC_eM_vfFo0cOjUBNBdI-sy0VrMPTdCPm4mqVwjrv56WJqWusjsbJksO8VkDz8AJgw66qNK7MbpOrLZs3HQGfk4ZqdBjOpCxdOK0zjkkm4GQZo5Nanu7mObW50nlaSS_Or9UfDi52-aQ0BvljKaP3HMw346xzG0dxwi_cRpju6JULS4jh0Gowc5qvpB4_kgBQPHcDB8LIx_JIph-aB_akdY_9dOa5qlW9C1MocQTMSdDgy6uXwADUWL2n1u9fny_Njnnbo6E7tN4chH8pXJax2mi4UOQouRZ_i7mKKhUm1FVDF0vEupsZ_PLhBm8z1WXHiX5sL3U0_46d0pKeIOQW8cn0-_M5O1rIuTfVNpfs910WZAE6_71n2eZfXGZsB2xfMPl52vVU0oXMd0VloB&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHwVOwgs-6IIXZYkAbuEM-VRXT0n_-xzuvJ5MEwabNMEKJcn5bMAyfSFBr_HTjL33jJc-Oq8EssbbHEIGEBIPIPkTpjCA-MVlwb-BF4eBZJWKaQ1JjZaD8PysnfYt3zpIZKy7XKoZjM1rE2iPHTR_R8Xp076dw2GZjsCcwYjqBc5j7FS6sg9u_GvlDozAktMiT1kSR915_5xEcm4ObgSTkxn-3hmCJIiQXQNY9Q2670iXRr8Sfmg9Va0wNSO3w1ccREqfNPyvFaqeuxh4SNNC2ip3jeaQgIAbCkJ3vwqebBB4-DzOUChXi4EVnD9Ybv5BavU8TDULLFSVuxhXPUHXuxKlQnCKQcbWj3NszQ-RmnquXYXgxuGjAXcC54EZh3U0NkCrIxZiOci5Ja3qsWvLH3FDNhUQPcc9xYN6rpiO0wvg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGXWrXGDqeLkgmeB_wimOHc5groJ5_x2RC3PgUUT4wZa-6ufz23un5nXDUzbI_jIbmRhgh9AmaWOXx49FnFODEHyhG2Tek-tBdm4rY0GT4nigBVAPNfryq1LWrtOZsYlI332Dd6SEyAhMp27x9qLlmnMx8W-HkApnn0OjGg9Cly4iLReQQtMRRR4lFzrzZXr-sMRJueF8OrCUKT00t5KX45C5TzFF8kdPafskHgx73QIoX1bdeSLRs5p72gSEUVEv7gKDW7-EtyGi_iqicnZjI9JhiJhtqPQk6nRoC2GboU_RlywCpUvsyBOcg70m9zLT3SpGhGRryCmuijS60sP5sipiUMM4IkfCNwHLnvIPnGOb03tYYevPlCAxjIw-0H-nRjqFT79KmEAapfF8tNH4g0bmhRmhZ0ND8rjMXfhOlxqKP594566IPeFwGGVbXm&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE5HjjU_RjJ6U0f9tIzDXNj3Z4VR6hw_kpg_QsfELBpufyeEtFX1X8W4q54INNaAWQ83-XDGnIJan2JHTn7eb5d5w0WVBhwGPptISJ5O-KTnT7JfnDC6kDdBe9M__dtd77AikU-QN-NK4ZvjBaMbFHx8iq_oafGTiz66fH8hauykbIjWCjwamMW8-pls6mkREdvihP_iM3aMwLEU7-SHw6W-0MtvBaH4r52J8sMi0dHHYrEmIR2wKGwCV2HLSFsQAoIZxndqsJ9wtTtr_Z6mMrJm02c6Gdos2IRY8Icp2xQd8ZTLxvMAJ9YZgJPjjqtJL2jXDIGAYGA2WyLKC8DZDLeifZ7GVc99Oxe1vKM3bZXB3IprLg31a7imDZDxIBW3viVbw6X6m3yCKQmY3XX5jvdN7rl3tau-Pgxhtxrzkmszg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -129302,10 +130020,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "0982 357778",
+        "phone": "+595 982 357778",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 982 357778"
       },
       "faq": {
         "items": [
@@ -129336,39 +130054,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF73I3BrK7oLOlGbr5ZDKd-kMXqsoCaOS9UcsaKzLrokfwu1CUox7ZjeZTlwGg5R-eGYzXCcB-5-5q5_HBO2BqZPGH6X4qpZ0TGpcdy84O5c6tG3Z0cDPM2eceoMDj9wbKklcPSF8MtUYn_y7EY0nl-eystj4yWPymBHw4FNhDUEeeWh5aRRFAP3kKm0w3E7F-AKexWF6_-lWw9g8Bluwolzi0Mr8hyKY7_IMyJ9h2jfVRW1zFeLc5UlNkmsijXcSYvKlcjMxt0DQ_VFAzxUI_WTzXes0Y8d57EFecnLv8rykj2-kYYcPHeARlAZAzEpFyR3Min1fWihcpFrFK2Cd71-qMNiIgjOIGsg8cpBztAiHZt4OcLZ6IfPOBEVvHYT32gI44IuLC3Jr8tp18Z2HB7HAhisfL_oShftHlOT6s2NokhcV1fJooJofvhHhNd&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFuCOzrY36qGY8H1dG3_Nl_AodgObEV86UtKEQqZH7jH432Yr2Jk0VLXzYzPFZjl9dzUP-zIKZh92RmmeTskevDmU95tCzsf18fVbH4WvcxyZWNYmg5EV90VZqqi63RdG36OXbEFIxlNeb6q3i-TKntHAE8kvlPAKG3BezFHlKGd3v3gK7wta1Xsb_WeV2h9x9LlPUDr6llC5ePSY7LOFulRZIHUS7MhH3BF4Y-pXgK1RiQ3mGwYMH2vuRmsM1DvkQJ6rGeLJKuNIp0O35_F3EjCoWXrSGjifetlxCBC1mOlZMVyLCL7pqBXk_kz0Nox9bSwa7EyOQ_kyj27VUkrZD0QDAmaaJxIg_DPpTqjSFz6SfaamfxSo9Rlb1UlXbLtaSzcwyX08icuFxPT_rWx0BIK3QmDEtSuuHbKfBO3dAAGtc6&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHlEeMQyueTDitr4hANWvVNpUgdXIKlCRmauu3zwxMCGL_je8jlTuKddWMxGBjLYRzhf2KvZ5arbOZnTAFDnporiQlOPe6vVY4lQhKZb0Op9AUamhgpuATag0AY9kgY9k_FwTzq31ynvwBd3siZ-p6O4LTwMqPMFaw92APoHHxrxP2Q5_Udsn0RfttOe-0dIHiIrP3gZK3r9y8w2TLTYhMMCE_FYrwPzZD0WyDv7ZhbXIamJ-P0XET251I9TvVH8ErRv7IkOXcgUaEEQSIwJ7IfKn8mcAww-PM6l2aPJsHbEmPzut1-d_pPyD7Ig6IkMpgC_sYCUS0UFZuq1DPXJnTeJaPy8lsaqIm7-SQaNvdIDWDFfUNkZ7ycoRXtY-GOqzEnoTShupwRIeMP6iVs_oQPXTMBZj4I37NhJo7Xbjyf5w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE72TbfGuMesF0mJIKBNFM4vo2sNpU7CHxe18xd3dRxsPXuCHopxMVwjZ7ci8GxSpoYFDtOxQcg4RefrPsIm4-Q8-O5xHMjBJPgHskmCBlYJHawspBdRHEWA0Mw_aYOwg78cvVOnBrAEca8kY9hNa_wDBJFaWt1Ljc8wmQwMoI37My322L0lsqjW5Ep-0hTY1xTlo-DdWAzVhOf3Z5LX4X6oxWIDsF_uXGvoCUkob6UguMDPzrpI-zrS8ApWK0QHWOsOKv745NV0-0us3xx8lhMQHtxPb3rmdZsaijCdk33TC-7RmX7IpD9qULg2ufCkTJdiCBlv4TZQp1R1ko3mm5mjtakQVPO1_zv57Z41egbUCUqgFrghAYjfMc2uBolCHUYCkK64imMVoeS7UXTeukjJXTrP4p-VR25q4-mG3GriAY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFHCKrpiOfKRG0xYrdRNn3lMWDCd0PRK79azNxwrRyge_s_CR2gZM4XeJlm93WTdCMQcxhRgzX9dBC1a_We05SDF7bSvKksoU-ecPjPnofutnsICnzTeRP06FDITZ9e1nGlE_EgczOTYOmvoalTvfoIP_QKpoB4aJLW6T4C76hn0aL9lq4ubcO7qJEDfKxDhf5w5odh6iFvK7TkVAwj3iVJ3PzLDedaPcOjy7UrB6Yp2fm47bU_4FnOCWtjmMk0kBM7Cte1Pk2dnLN_gOKDBoW_-tqfwmyvP7r6aaNPWQjkYm3bywy86Qimy0hDcCWuU-exvAz0RPC4lzBZ6umgKTyP2gSPFlkVG49px7uRdW8UI9vzZ4AJ2_D1Os3V1q5_nfhLe8l9_znVKNUqnOiUXJE_9Q3KcvlRBgxdCwqQtg5v_5Y&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGUUXien0R3u4BIVBhc0TeB_ivhdLDRTr1WbWvTCSEKrMWgg5QARKKbW04fLMQr1lQ1lu2pX6mPZ5RAGEZilps2DKJQTmBa7N_Hfa3rUa00RDOSzQg-4J5fTQaSFMc6T0QR3B5kCSpbbuPgG5pXPE_d_rHjMl8DYqs3zjmyIRnFkuTuaCekRzG2qfIml_haV5p43GEz_AIdEg09Q48Q2VM8KsNd9QQn04UIaPxHT8tCOnvoCqgBBTTl3EwOWa0f3fij5t5SbkgmH-l4JTRfMJwaUXOzAT099YIaUHbsTnoCnymOsrFzvzQWDmaGy5FV4xaXKe0xj1kWaI4ZvLwT5Kb75WJ3wLR_V2K1B7CZdKQXvX6trjuyi9nqZM7CWXM6v8QbLQ30vlXC9fbMSEH2KhCzNSOoxMaqJJKVJ9unq7gmYf0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -129629,10 +130346,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Capiatá",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0994 700029",
+        "phone": "+595 994 700029",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 994 700029"
       },
       "faq": {
         "items": [
@@ -129650,6 +130367,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEa3X-H6utP9vk3sKG5R63jXhxDII0nAuIuWWiqhIU0f6NwgEovXLTPjEE5aRD1LFGKKqAV6xYtLasBmYFXdmxNa8UNvRyINlKQdh7Q-EFDP3lA_IGwKCN58km1trUttFiNVtINLny94wpspWRQUh_8q3oO-n2YcCxIoXWnCAr8V9dOnlU0NISvqQEit9T87d-HZnAzWxT_H677jhC3dOZTW-NmMmMaFYYdaUe-7HjD1MYT_bD0UlydJ1hJDEu2AH2fjw5V6_LPpZVxnegWFG3xkFvJCjQfQU44DRhg-VGe2r0aZ0C0vfueiWk7MXeExpjseH6J_3s02x8l_WhQO33iQl4HDEf6ha9QigOCaw3SupXcVyd-OESA7qyjiXj6iDomWXiZa9ptVDdxUld5eiVF_DODrSkmbP7031FQIqxAIvqS&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGghQNHVQICWn2LfVI07GDSb1KltCIn6JgdTwzHAtNn2Vfw8PAJP56I1BOcBAuUUP7DnT8eoReHZGd3d-cFAhYLFtZgiNqM_6PRUhCmtgPS3kyVqlQ_GXYdRunvpjusBZewCOQl3CyUgw7DEif84KASfjlCfiKpjiQJ3lUr5HeQlk1yW1C3cIDbtuuv1bKpdb3Q_fxScecjjRuzW6uBumQt4feyu7d0S2RxQoPcWAW1458DGtFfrEnz8IhoOSoR2eAy-SZKVbDGAVEWFY9UE4UEqfZfSL3XPKmOmXUfiC9ixak2Q3iJ6M39vCEONyjQcmb3QMUxFoD374nsISNToqjD8cKaBFNbDR6iQrGLk8FZOS0wrMobarJqhwyQsjCqmLRIOTmiuyc4rgxulpqqauOjU5793QAzScDNZtDhNFJAPiy5&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHNDOvJjUupXuSoXhIJtyTgk61ydAT-7Le4CZZFaGVnKN2eV3cqsq0f-JZmA9nbVy760yUIwM9lFykBPNV09eNNz-SUsRzSH_95bXbfTpFS8vdhtyVFt_6SxIvMp56th90Q_FK9BW_iHToPl5k0oRJLHGnihUVGOXtWrkqXqAbin9fz0N2DRIYw4yG_t6qaLKxGBKxybMje2CAKB6vymLO8na7tV902_ce_VSzVy_caDMC3R42XJVGKY6uKA6ljq8gMYjQrpO6YYT-E5lPb1tAHN97VxTcbpAb_Mtjwbs12lTgQc39k3X6sDuOBuarIZonMH8wCQhjiVjIyRw6LdVXS2M3lj65SJgg1yCjS8Ws-x-K_3Ez7RYl7aa7Ic2mBNEhpefdnqYoSIoq9tMFlG-hamcmhKFVCq5lBTPlVDLAagqqq&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGY2HeohnbtCr2uL_hEEaN4Eyo1GtSB6YmM138oUqNZj1LhvcMbSQFAKjc-mWUdnoTyKX9dhHAktGxcLw8yi7TUdP3yUxrShyBxL0QcCgcHO6FQsYWXzKDHYKsgzCq-MEEsU4ZYX3bU_U60icrYqRhzef7j0pZT32dD85KsYBbvnuXY9bf9gMTFflcjvSQw_tpwu3J4bRSzCuBOSAN5VDdZXxa5qChvoAt59JMUj75AbYGNT4otIMEPEDqSr2KHCP3_C2A2-VNWzas801bxKB9AG2Sv0W2rYYTjlOR7ZILEZUOQWB66lss9A8OA_lazJrQrtzhjEGcGjEtakVOfNDzwTxUe4HcjArIee2jyzfgXcXA122iUnvTWB3QJkViAZVBm2aRq8pclS2d0uC2vx2UsR2DxA4yzG6GM6W1wtPwxeQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHhOwTUPZG1b10VBcr-nuFzOkgweetliElLKzhDMw2Cfb6ewhOcFEl1zKGOySNhX4x089e5oYf3eh4yedqhdD3TCJ0DEgehO3foXfOjkfU2ae73f7lt-NR7buQL5BFdMpDfrE4_G7Z6YoAjC0i1zt3_xHWg6QBpJANdfo5lBBd9E4r_zAHMzuJ6dpX8KR5A9adpLMx_GtfIvJCk6pAwdPvSfEzPPMWHWqenZbRlRE1xwVFij86ulOlkmioGEQAd_FlikqrdjYr0EC9HcNEtZkHPKzfRuyWHsXoj5N_LIphFQqwbgAwiTX475pqM3w28afeSch_FhLRRWci7r_tWjAJfeVre00QS8XkluQ5sgjYMzC0j91pob93pmzaJnSra8znms-vj-ft8aNjgeg2cUiO6qo7fCbO8SkhuIh0oyGAQRsE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFI3xo93BGEoypUyYUH21f1qtxUxgRUcbiCco08nqare6vI5XRQNZzexB0o0Kyh2P0HXwX8EWq-kCSV2A4jOksap3hj51Fpw7D08eLyNGBlU2B8hpJHLDlbp5SjOhDFPfN2Ri7T-fMcmlPaqkJHOwFCy60ZRSNzpdg0Q0b5sf7wTEguB1iSyiwaAJTchJ8-xgEnL6a29hVdLqpgUoelRTQG04BYjhgWfXTshL1L3fsU5477o-a8s0pGtvtkWFellB6euIZA6_FH7tRQaYY81K7mNFUwF-W82zRR2VVGdGCLMlnGAXImM3qN5h1GgW23xfmRitaL-ZWmiHlPd4kvPEtmPCHbuVWtBSRe_fExGOpe4Y_uEHPr10hDoktrO-D7uQJA5lvRduclqFLg8Wn4IUPxj1MUG4pSU7E0xsNV04vjpGHO&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -130108,10 +130862,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Capiatá",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "0994 700029",
+        "phone": "+595 994 700029",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 994 700029"
       },
       "faq": {
         "items": [
@@ -130129,6 +130883,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFmLk9TWoqQvemODps90-A-SOD9do0L4WzH9YQnTrSvPfo6vJ0Ghv5tLaA0M4_TSqo_wACGIVh5aq4M26zvjWiJ5ve95u7PR3Jh-0ekWa6wIf5sKrNhrTfEx7G_yEPM_I-sB3NjTeQLmWG4XWflsAHkQFYKsrFGawCxg9RwaHE9dkjfoi2BVizizKywsSnpVnrqVpn3ixuNfl3Xyl57IqVdlM3G-e2XY_mOGihBNxs2ECMrarsyb4N9ufV6HnE7eOQU1T0nQfrE9Hh2Uh5AIMdBw4Q5YNIerAU9JM-_24M5CfBp-padr5wXjcmqnPZcoWomUdRLbskYttjjluvai0mG0th1Pht6BidQTw9EhIxSLauM0xto8A6z5rtmT9Pucab0iMPUqx-BgWnJGOM_qlTH2Dj8OxtO4Ckc1bSTNs3hH8fQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFXJaM_1cJmLhkunpox59I_U5DN9kEHTxNWuRs-iEbuV95nFU6rgGAydxma5Hf0flF9O81a0OCpK6-pWw85fr9LCpUPqLS7-IJ2GooExwyu1wFLeWQg1ODPNXDHMWJTHONvYRM-a7c5nO7kJnjQn2H6lkhvNIVqa-6SmPvqviHg_Q3Gh5ghv7tKGWgoI1CBZuXIFbddrE5UA-9ZsEqVJLri70zD05PaDLwJITIUCwpNdmXEi_RC59IX_AQ4wLr0em7JhJlE9Oxi0mkbhvARbASojMQlB2VQioLrs3FU61BbcwlDmLvJkrB3j4SEi6_pwWlVObJ3VyZR0Ti6oz9zWgYZ7OQV-eJoZO2BDBb-evyJQlm4q1jtT9aYCkGCVxpOPMyzyi__YbopMcqx7a1LTZ1YUwE9_Ub14XOLdJ1qaKX6a5q1&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGZjcTVrbsoT5jZNmxEgP8xhWlQ1VX5cUGFCr72cQve93fWTcdEnw1epCgrwawdGUFRPvtuuewoUIPlM5MJ2tjM5efanoC3glheSfdlX_dr7ibv89pzewV9j6lCEVs9QzK6cRGOJtTee5-hY972r42RttTxQMEXR1zTq_xiFdhxdcTqBG0pG2T0KjJ5c2Js7Cbd6wb1qbFczHMSaFCNbUg09yRv8WjIFE60qcJ2jSIQrfOaZYIdl6SUNWOhiSvj_v01Egb8JGDnfo0KUYdFuofRoqlol13XZY1LQGnuAb1afoNHh600ImC2F-dWSguKt56ExwWspgogfyURdGJKf34_wIumJTizsFuWfs1PSlAkKQOctTaVLAZdJ-qGQH4FG7LoCps0Fy6zfsNx6ezlKOMqaBLRy5cLVTcpkBkFAgCwD6Lq&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFJ2O3GkqCZFYqSu_3xOhSUrZJK6Cnl29dbcuUF1DlwffRNYHrB6ztkBE4ZPrDVIYCfBI7ptJJJKG_EVs7QiwmTRIHFRja8ubiA4zkrqL3yQOVrz7KJn8UFqvj8ihCeDzavXaA2xWMn7KYUZellVmgieu0j3QY3ezOs745M376vIOxPHsyOqMS8nmMVB2SHsJu-zzTRQ19SbrHJTcGiQ629SdfIKXadoA3La-Z7drUiVTSE40lr7gYVJ5R1Tzj1d4ZSNdrpqqGOMrcnxnGP17anytd_9mJw1GZAx0iG6R1uFphWTzGhaFhCa-ce-I16KtwdlLWg8HFiyDCww2Zyz4yL1nU_omQ8o-PA6iaX8M0qeERhmDFVdlS3Kx1sZH4JOYPS-b8bC_sySGZ0WSiw-85dKi6QN6KeV1Py8UKBQs85nw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFCA0zAmFV3Jj4_ux7Q9gogScVBK3zP_TVMxmlioWaiuBbFCYVQkNFdZw2L3AX79_W_CEfQ03LhWDbdVNuW7mzbtb_bPTAK8nrN0IBupiXS01rZN41MIOP4RkJg1URWRn6j6UR6RtkEFj90pu_pG5_Y-KrNTp_JoW1tk5XPerFjE852FRuQ3LAXcOxu5U60ruDzFZovXsRwyKCamspfQVjYYgYAFfotmFDNaP4bchQushXSvoSj8mgG_WD5bp2fj6ys30vZ4fFrelQwlnUQFgilJKUEpN0N93iB1hNneRk1YN6bWZhzufHl74YdrMZruvOP9braSsHId0ryknX7ONmwcGTVXTcHh7aGPKQYaD2Z4MhH0DazR9WwIvjrpLu7hsIkmGoV68sh5gzIDFAGKQXXH7ADaBsurXhzimfrnGBai3I&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGW3OjzYM83WufSugL18e7r1eI505rYq-toACoOgFRDWGqsZhcCdKGuHkuUAM7C5d0lADGuD_CQCtkPykCRNhrG7R0p7ozb35AezPOtwnz3kjWrK38Z5Z7do4E5NeILZW_zP-xCQY8HIv7hjB4r-wq5j7b63h5xDCXvdvhE1mVxi340IrOLV7FxWVJ_8Cl9CIiMMlo5-d3jQ7rcuQY7xiVWqG2eBHNy7kjdq9ixEHOfQYnMTs7PFiZB--hLl5kou2169F7De2IUkMycIpXxb3TSKIX_vDuUgkA9rwFYrh14CxaUZMDP8aBQqTe0DNC9PZX9LNY6XwWIulAo4Rx7elgC2_tXAuKuB9gyx95LeB5f8JSGai4jYfHbIGOelEp0wURyQNkHxzgGLGCUmrOFmCgTk9WUFzBkhBtCK5BUeZWOXj7x&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -130556,7 +131347,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Mariano Roque Alonso",
-        "phone": "0981 775554"
+        "phone": "+595 981 775554",
+        "whatsapp": "+595 981 775554"
       },
       "faq": {
         "items": [
@@ -130583,23 +131375,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Maquillaje social",
-            "caption": "Maquillaje social natural",
-            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8Me1g62wFVuhOkzU4nHyV4yHdcxsmDoP72OVrj_EJdoZBPiJTtx92_XgThZ51Lpvl47IflWs6M775mZgL461xV06FkDx_u0TOF_muMh8Dsc6O_IcoQ3_EV3QWtKnrOVc884MKHpmeMzoz3y3y947ZFr1zsaBRg-HN_F94jdAmVSYjdUdomrqu7jWwZPqo4Yyp5picY0QnBSwxpDZPtweuXQnX7IfUhr0t4FUTchF-aemBz0_zINPN7hujLJj4BnCdVAcOdjIAPmObxtS6kfC-U4XQB8hupJCpvUDIetxDCVsmLzXeYrcvRg-zv9JgkEmkYlZmyPyHvVSavTq_eus1EmuNhBENcbLknpyRja0QnmsbUoDj8rwZWxYBTfB677_Ha04eoXK2bYZWXf6D7-Up9u6AjAW_bokJJTm7AzhM1uFckZPe7USepFaXlKg4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Maquillaje novia",
-            "caption": "Maquillaje para novia",
-            "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGds36QOKOkfqlNzC9koISh6xad6k8HZEtL6xgOPVIgBokFbmtR1LFbjpsk0N8Ae0R1YKfrFac-jHvRV9YmecVVHT_xDH3vjHm8aAkjaYZIbWpYy4regYno5fmZgDMlj1DG01vuuS8wQfrNrB3AxsB3kwWuWuAqRAMyIpxFuCqVLJhYHFwikV3LTiSuDGrUbnrSx8lgWMwj17XO4txi6MyRNcvCeVGKYym_fQ10zXCmDtIDVp5y4NsUW8in1rjxjOhj6CKLaqOqfYBXuRM1X4fgswOdwAGqavWNE8wsEgSbpRMg0O9zArcw84hVOk_XVpjssWKt7Yk15afzx68uaPa4Z1cYmFVdtz0uhRe3qNhokoRlSHxTeyOC1iLivmumBTAxll35U12qjRBkwcdnh_8poj8E-qOOU_MKd53C57uR5pjs&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Maquillaje artístico",
-            "caption": "Maquillaje artístico",
-            "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHo8JXIB6Xq-ji1XQKZpWMJIaddcHN--_igraoZyvlcBFjndqBlXRRcrqN8-LjE6c2pGmq8ABUusf3MRvX8JQSKbQEZVWfFSgSOx1I4qMBAahvGbi8W-yhAw1D7Gs-vXd3ympNqP_J10d6ycyc8TY41tBI8xCx3lf7Im8a7iw93291u9rFHbFqeMIyBsSfDFHlEKu3VHlw0JJcGjuhLYg-jrPsZ-D0qE6mGMJCRvj747ts0yVTE5rfXufYa9NMSSbDRHx5rDtWO_em9wEVyevUOdoRT864Jv7FxfQ0HR4kViiMxPgcfk3aolhSmznuZrFiC9cRAFn8TqCQFYMhHKqz_KUYEBprKaF_SJoJxjYIJ-cmYzkJKweCc8fCqOnDvY2tdfciQArHCeXXG09PJ4hcR_CBUWUkV34vQth1q0m9wKQ6u&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGlet7LZS7Le0RO5ipUJtY4bPniEBP6jZ_eEIJ-ocovCkfo68r_x7TsRcEEXRmQFd83BZiVqDoNMCFrjrRHfp-jcmSmvK8CHjH-lauRYuitGICKo3A2frGiV4czTL2ysvMHyq25tnKza7wGSg9cYplf2K9XulmoQzYZ3rRvAVN0MqLoGCPgHu5wKyrfmV19lSlWy6aFq-JMz6eYrMBQFczIm3dlg3pWioTsXrVoGHEGkiwV9BcV0dzW6l_wQfa-HNN33NnVpjxpVnL0vPy0paRF75CoYAmyjGBg0GWvAXwATdtZpuA6QD_EsIEWSn4uWbboLnjqI0E9dNhJ-VMZlbRQrbQJd5EWJC-B1FQfTp5wJrcEH5a5XIGK5jJxMGIrsxcEsDsqKlvupQpk_m_pOPut9YdKGS-pw9U8kXIBpdiJJI6WSxw_7z9QwRbS8fyL&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEJ_pRfoQHprnuhrF2uFTsl0zxYFFG1_Q3FHrQpsjigLTbXDlWDRLKb2bYDwqVTxbKp2kl715N4Mm5dCZU1PEDwJRxbUZcHGGrIWlKT8Ho1qqWXoOrZXvhe1dODi-m8T70yr07C9unV-YxsBunkzatITQPt5_LnLjvJi74GJ091S85uu3xeUIT7iB3XUBBJW1wsSoWBhXu2CNC-wjBFPtYu6luYtPCYLayTHG9vaQeg4j-Y7lJFQzgOEowCuv8uQifgHm8JzKq4gXPGDrCLMJHbVdBjVEJWsNEkDWlbJ9gc-D8PRe6GeDNRi9OucZVoot2teZQxFIbwB_kBMzLKz5SiQprYBpK4GZC-2l4zxg2qZq-ua3ijH59PZ2cK8DOhfaYxS1NzMvXyaorbC8T09s_A5SRY8W4yXo8wqAE3RwCqFMxcYN4Jax3L6cHnjA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHM_2Aeq32pXQ9vvQ4AShhZyKUWSBGaPQe63uGDEgacU8eiK-2-wAAUUOcM-c1wqRWczrgU8DTctw7EP0GU4V6tkc2zBXt9uxIh7YcayQN9TZfRjUcP_tgsdBn8D_NU6VQPwRE59AZUA5mUrX0h-JnBBgDgJciRnJweQqi3lQHOKsMCr_JBeRzbJzZoExh8DtxockNMcZYCJk6EBBpKc020MYTxdnnkPEnVWDo18TIS4l1uIqtDpg9k5U4mzjELZceqrzqb2O0C3SthEorKUasvI9ZYwby-26NU9SycVOqEiva_Wj_3yY1fY0Wk0-ClMBFJ0VKPRKZR_5wA0j_kx6Ab6eePuQURZK2zatRYHSMFK3i_mg0nIxN_G_xkztSamMts7NQMb6JkAvLm7u-kjvo0yTN06-RA8SEnhlMEJW7Q4hshhPSQF32HhL_3S8-M&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "subtitle": "Looks reales de nuestras clientas",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu fecha",
@@ -131330,10 +132137,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 606 360",
+        "phone": "+595 21 606 360",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 606 360"
       },
       "faq": {
         "items": [
@@ -131364,39 +132171,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHZXWr1bibQod0zaPov2RfQYMf-yHhDQ1wYMjDELGBq5z5rLIB5ANVCCyWXBSFaGwA0qEB987StKYEotaa3ov5fHbxuBGFo4gBv63m61ucyKFBKCozMYfL80teuNF3PebtbQLnAZIea9aOWPsTX01ueDVTYbmYg6fQ6yo3zYnbF2WHRL6ssCqOWp5giR1EuOHx-YHIf3smjj-lYgF_1v-g3TrJYMbiBN9iYTTDl1p36MMhkWmQ_Kjj5UGpRG0ul1m9AXcuCk2DUYuJocVl1ZuGCYRPWxkRmyXO0EsXEtQfqoirQrM2gapD27HVAiqUKyX6qH2yCeJGwhRC2U2WyJ8kYK63mfb6iIuNNQl7OBEvayW-rXapH0mBWzYpwB06yRCxn8wMt8disaUpMkhzyPlqa5JEV99m-kk9hN6PmYvY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHzgBaECOzuy2AoiOJUrzBjjykyBgEUZ9cZOIICFuQt_zZg6gSX0dUvPBOhCIA0s3HCQYun2TYg4zBUYmxhNTeOFxNXhPp2u50Vk85LGvPzzR6HXyG6du-IidrRrkrjs6CkyEnqnReJqYgmR_RoLiFD3H3SedZ245cRYXpKbMrwUcn8HJt9OJF4PcV_QWW5gZW7t5ns7iVaTDrCmQksLzvEt33Wm_yJ3pdCWhLOiUZwTzxaUMDHwfi7hRLmACgOoW2YryjUGW_78RvNzszGuAcdMYKfw8I2_YuIWKGZ7wqfAicls_omQs4E5zJHs4HSjjVlesSUmutSe0qW7CG1lc6QyCdQf0I3aIZQomdaHM9ub7yxmU3Gy3OtlTe8UeHjm3cVLIIKteP3Y7AefCqFSE4HXQLnu1iqEOnNgq6ax3-Ldg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFmPAfDjUj5Cagi9mBFTB9epAbDDM9JMkJLZrY1OtQBRaOpxY0sOiuT1W6dhAxz9CJt6dGG8FrKmbOsQJ9Ofp6I-SwuUBxWSoDIAkuTSt_UrvDjYPuIZ-hq4iBihdFffPCrQUBiGYz-R_GaiedWobsIQiZRjEtf61-O5iPkldk53ZgjuYxBiTkeXVF1UlU5HZSWBGN2UGnkbI_1kfBaxBTY5LxY_edBFbDE4EMkfzfkL_8jLx41eZaLcs3fhXu90B8omdODpIxpq4bRmTRgnbNTP8jp-J7TKVFxJ4y6Hga4iYVpN8B2eItl34dr47XumVZ6Et1NWPXwVc2662uiViyB7nB0o7-nIacUfmjxFEehDTqgtEDrprLt9g8qyf6iB3FOW3B2OwHNm1J3PS4uNVJMqF97j7ieMG4cKvUd6vx1fQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHxEnMFd40elQ0Xx2L5Y1MCNnrVphsKv1BM6oueiR_c_u7vBTg-17oSlNcUto0Bv1EqVddouK7ye2nJRIWfzrXFRVPnyxpW85rC7VWTnUhRMzWsHV2hASol9Dvd7HYPe3irG91HI9XecdSPlOOtVSq0xUgqR52C7MUKKuGt9E24ev4HBc-QCaCYs-OUBicSLBlv2WcWPfMya2SXFaPKOZq0ftAFmp9amE46wbbATVOs-7fGMSvw8bds-oIBfPZise6ZJwCVmTNxVptjQJhc8xzAN9PljFqSUogo2HWLGDc9iTO3ijFGFI9X6QyV9Tvt-pR61JdeEZus7vIBP7oX6S_s9YwVXyXGRiHZ6DovX3EOwKYwVnsr6hZUS0J-RmLt33WgV9YSX-BaSXTCnrSQ7Ze1cp9esq3EUmaldBzV7rHCkg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHbRaMotksFhwhwv0W9NCI9cFpshIr1f-w-gyUbsDfb3T792dBvo2OaTPSXgALW-p05R9szjwrG2NIHXwL-byflEJ8LSgZPhRypUYJjwNcLZAfp2u3tV4hOWj-AjtRdzMqeJ7J-hCT6OwFUgQsaHs5CeOvmFmPfseUyFQa1yCsQVDYxk4rDC871gcs1ODW0_6xzL8nFGHRw-Iyu348mJOswLDpxhm27cW-Z5C4PtbPjqclwESrMsebdYyiN7sXh6cZib8vjPLxXZ09Qm85dd6UR-sQGMMRXDhQejULzPGh8WbwZUflq4oVU2FUuKxGiZ9UE0tsat7B7cfmbJArGOzMdHXZR4ZtNR92i5CRaDZO2O9sF9ndcbXy_kvlen6pYIaHeyJckTLHDArVXYHOpUKwikDyKP4CUFoeZ5eGPCVo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHCAo_75fn9muc6iKEwJ22vXieZ_VDSwChRp8csCTOYIYW9zEGlsj75U9zRTSTcxB0U35smohv48JtzUMKR_iVynSrHqHERGaY3SF9RQyoBcE_McfL2BJkkOcUO_EkyHJqqIwnOSMlZkUty9eQLDH44dlYqob6ZojagQ2V4vsYtja_hrROhs2PgUNmN2TzjiWNfQrWJWyBblPdUaalDs1eZSaAlLnSWaS1_O_TmSBSujPE8zax9oh3cOyij2Z1sBcfVXAuQx26rv0SEWBL741-AHMmILgL_lF2TGQuZXjsY7M3UWEt4xNqEZsSc1l0cDj-jSQKrrUUibsPu8Hgq_rLgVqNln2EBqpB1bdRv5sNTD0GiRBAr87adEI4ysg4hwSr3PAm3XgvZInY7eBX6juL6KOfbZNE1QqoiC_ZJvZLQgQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -131784,10 +132590,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0982 453302",
+        "phone": "+595 982 453302",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 982 453302"
       },
       "faq": {
         "items": [
@@ -131818,39 +132624,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFckpR1488uN9II5XKskbLygUK2ZmVbcsDEtYY396U4azVDEIqR4cJAhwkYmsUfjDYzmZ5k_rqmtq0zxPZt0tf76YoK2NsGaKTkBtdLG43Wzk122qL5kSjQ3GeJPs9DIUw2LxQAmeyJymm3VYWOawGqmmUftFGJNtibOqhX-60v_8gjUTUrMzrKIdZyXHncQTOfIuSFPnZdIBXuOBJoHPT75_-_wXkcjXE9GOh9fm8HD3bBnduwPfU3Ydsk_1Lua6ABFXozCuW2Bkm99cE_GO5BpTJXp_OznqzHCVGXhfFqFHHlDW0i8h0snxtIPy6tO1kZuaGObAMNLPaB1lpk-82zvDbvCvyjlVZZVuUL6XBkPsL57ByCTLyktyZFyr-YURZH2McKl1CEBkTTAyCa3TCr-D-jYJCo9-YG2bmooQ525yc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH26oMXukj2gqazK-B_bVyJStNkQA937VH6YeTBNEPxL5H_w7bOYLYECiYqmZkw62UGrV_bwTznJODY8Q8hK-e84VmxgUHetmm7Sh7w9cMRwUePss2iVcNIC2apZrsiZYPFtPWWbkK50BJ3sb9pSYaS9VnJrwrL99hxHXyOWWfLLOnWefxt10eBrvXKDvKNm1E4oUQEI1m-m9ICGyR4B4Ro5p5uE9J90KwabTMtl2BjBiXmyk0SijYQE07ZhGi8xoHE1b2Xl0Yn34EVo2gX7JasaCVujs1whXlgZjzHnrGq8_biOkhD0Y2yK9Wzy2AGp3Ofkp2q9imV7lhJZ9870UBHJoTo6Z6xiXV177_Y_0QFQFkhVz3MI5-sYS1xLVtzd0SKDuMmyCGPto3tDhXB8p5z1Ty-yoQuIZAzkPECm1o2Oc0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHtz6qcEfsByWJM7nprhxuqihw4xE5XHToHVJQSejum-TrmbnXuMnu95lJBgiu0f8eftHeWqitIJLhIyvG5tRa5TnGuntYLoJXkKboDzQ5GmCKoYbNg0xPhC-tQDAjLtrHbHV3tc3Q1NmcjFdwzgMiQ2mtLQQ0zHYokHt05utFOoRhcmtDLR6pZuqD7eRE7O9UaSwWUJZuwI_9mK85DDSm3gEAIRGL9Wg5lIbwr5cF-AOQQxRUNixUzoOiEm2hLEY1-5J9uNXqtGlzNJ-JJxqI5T2yFftavqNKT-HgdgTxFFTWSDT1EM7L6dmBMcrpVaNXe6O-u_U480bFdt8QoGYjpFq_r7Lqsnc1KRHwXyoniRtp4UKfNCDXeha2sM39E_Q3kHW0ZTSeX2KfMlSdDJXkYZkG1IxxG9A6QMQtR_DsOwg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF_kAxPHy4jHJXbE6Irb2a-7xNG7q2gy3guvqkrvBRElhD_KoZdyDoFIc8j1IA4-6GmMpePhL2dVAQZGkC2YjqqoO_B-izK7n2saRBfn5L9NYFaptC7rq6aVoB5nzjrjOa8KFIw2pSp5w8WuayAlkYKlccvpK8Ue7UQuV0TU9SgUW1VcvJti1p150rJz5_IOTeDv-sLai7ITrvsseLgEqOnFWZeTqL4SMTMMBxRU1zZ9oXHBaqNO0BvqZcFr9hXM95H6VCBHqlVGUHt4GOnXmDND5suiyFdruAUeXazQbUnup3tFJN5vidu0CIdxbYjMgsjJHpZKNVYsyMaK-2XnMjK57bXHu_nmGUGP2QT2twcHNRkQmhNvWhbQvwAIsJ59K7KF4kbi3o_cpFOXY8eE3ZGf62g_zzOV38scp1hlheDrIGZ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEECCNqWewmAmG7rtyiLUBjtPM1geTwgkUyIr5ifD9VU-a5nBL94FoAR13uWUb_3ucHkOkFsGsoqDQYlh8C4n_wBnwtZ1a6KWLw-l-i1heIwHLnDrm3Adifwob7bZ4CP0DIoA5cFkIIxdy3Vg6x2Cx95MVKpPfE2Bw7WkMBycnMoNJSABNja_Xvf7SQEMniVpn56kZTPFPrJw-wMkT5GJ35XI_nKDEg8VEVIE1e0ZF05Z-dY1k0Sej3wrZmqPEuzYzdPx3xyfWOkdcz0rWCDy0BYWLjYwVf4Ko6portRohEsc-NeO-nleB5m-WAgEaJX5SIkAK4PhrriXRzwWvE4DTmqomnlAglPghE9XC5IO96-ylJWNIV0x8hMSrxT2DyJv048OpyoMeEDCT48LEK-EzkYlBl5Ep8YZJx9kzbm7CY_Wg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEQrDrcuOQ3mzGjIAsN82vua6_KU7y8izU4vol6wMwDEospab4fqjtNqEQ8uHfGAyCcJe2oXn24xUGcF_8YCP-OC0VM0XzXqYhWAPojuuMqgnerx_DfMY0qAwRIZrr5zjTpTVUIC0LM1VMTS8nrjH9n_mTD0kdrHNY8evoZtSQB3-6F_FBUOWjXtnwXK-fYXbislzD8x37-GaJwU0ym_WvtlR9t7-5M7rH5GQWrXIqYmbSliiDRZT06km1BUREnDA9ZjmS_ilrHUFuWQ-CVMwa_SLySq6efTIHpjUi-ndY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -132238,10 +133043,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0976 545347",
+        "phone": "+595 976 545347",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 976 545347"
       },
       "faq": {
         "items": [
@@ -132272,39 +133077,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEEtStGEegAXnhp4Oke-AoUNGgD80rLduH8G-T64B6e_DS9i4ER8ilQG4dbCzaNZIPgfzqftopNVSEtY6nRfJmqbIcVtLY0W1iGCJ_VlFnHx4rf46FzynKbJ27WlPTri1WJwdeOv_4YEg5p8WpgN5o7OUxM3SvykV_SJ6nVSTPg7fYvanBxtuOnqkduPneofFfyjba3OzNHUADxeeuRZvRmW1R76gm2BQprxCmlPK0LxKzfE27rK4OIC4hFE0doPYjl3PtNXc356XMoUXkiViAsONyw69EqQvOCni46XqpZnfkFozalEuYX6yGX9ixLPj8-W7zBV7Ydzn94H_cZIWfmpof-rOk6YkmRao9v0SrYRbXs-6tjtJ-uvhAK0qaR1rAY_jdvRgGdEouOnehQ8Foqs_w9_csbiAqxJ-_8W4leXw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF2eLXSLIsfc4ol9vIDDnzaoAGLXK9K91rN478L-6nDjDtH05YsOTNufFZd9xyQalVE9VZeWRxiQfjfQkVTPti_ybWoMm1QbZ5EJLizvnvaC1KiEgkiLX84lK3iWo01RxjZiz9__-pOYStZivMiozYhm8ERSRYHju2QJBP7FEc3vPKpYn3dbf4ApILI05jHTDILgqf65A5_2A4_pICCGzwxbXQaIw3c85Pz0Umqv8iLS0k3XgRt71w7I_mxhn-n0S20apHKczqwhtCydmeDII_cl55oqkEJr8bVioMBRn0QOSETgAwoxth_vCM7Zk0BYNfoDJTmscPhjlqTBmJ7Ven_jIMvbuwqyo2NRdaKIyUhVNBwY8-7qsOiRgAEhteJ3Xc9_xyjuIzVOeYSQd1dbR6gDtpApfNrt6Caji18_QnsnEar&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEaqNncan2z5hHYGIpOrGzRJCwoH-xQfvsFMDC6kZ2Msc5gqdUQ7nZDxN1n6gKZvBwCATUKaBNUwrBGw0BhaCajRaeZUgqJAVujjvz1haECWR8xx7HIWlROtRyvT2KqzBUiczAQHSFwE-AV4aGzDbWS-TxC9xCbsQm8rQlYc2xYdW_KNdXdLWo3bjkmPtZGhe-TA1FCFPKP4geMmfsHPAbvZNqA3xipAPVC8ycyuloIs1u-niBWao09WVBoykH-IAR_Ry1U3dlzGropUqHjQmSPTSy_Z57Pqe44s2REJ23w_-mX8bPrBhBnjEd5jH5po8ya16vJska9g0mlLUNfvO_sM1MBHZ22h2jRhd54eAPe0Z6P6q0YKgjVWAUcYpRPxTO_ZL8REWEqrKQ9vy99ztAvFghdIdx17RoW2OdTUA6x-L3J&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFUVP9F2CZgp5_dJI60pXb12idZlaEbtnyVdOpP3PFLLtsYkMtp5AuU8qXLjydJUHEsmlK_AzHEeMcZltNPlZ9wUTv2jYh51EJW_WASNbNKNhbII7RayLuc1ed5f6TAGlFYR1Ic03daNpFXul81j9Ys-cxDh7J14KCPEY_j2WDETjpa4MFXD8T3DXcX5t6th4WZ55Ezlgpja_UgS-XOM7A4MJlPZhCtZCNKuOPMY7L-HZIcMhwyNYtRtaEvGR5t5aNkDsAnV1v7Ac9QrqO3AnkCOEh13Pioco2w-R9FrHs1fXcmAkmmqhnHtmn9_PJ5NRIYGxsqsZ46pC94Uqtu_JWFHo_JkEUh9eArwGRCIZYLL33TQ3iy1RRBImGQc-rmpFYhCoJo1q-OIzUBMFmEoD7ucaupEtgVTPoqRd78mtI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGx5OcYoUfuc-d3twGnAZIcTm5wMxI6965WHAIuKpGw4D0W0K0HJjTD_DUJYASDWvQRjVGW8IEYP-PcaYCijkmcBnxnNv27xz_Hqig_S-ZZBSlVrFVJpt7ILgvrTv7PZ6d5Tf9tLql3wHZyQ2tThf7RAovdh5Jsj0lzo5XfHtPx7YGZp6vmlWjB0Pf3sJhCi1TW7iFdJnlWaFe6jZNmTMJ3fRjoB3IsPb8w_K_TEL7lcmPP1jL9bS5QFyDloFWBvcef8kBV27HtsAIajPbIJp-X1NwXTpefNmEG-A3drf5HxpI5hNpCaRgslteUOagNFHBi5N4CPvcwvKMU7QP0jJ2o6CvroVk8LaZDlUHvl8ZAoLWLpvQJOOVx29_MJ5OP9ZmTL5Oy8y25ic5o3CW71XVWt8sISWDSrNuOc1VPKJ3n5YvP&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEOnBfKpd63nd4kuifBz3ZmzTJ_I0a5sCz_7mupWnWn5m1eoinjavYLOKAXO-UnXW35UFc7bxVWGjVzROJY6KFfcSKvrhD0RcaJESJSj2KrkaSknY_l3Asfw4d4DbZx7YVII9rPre60HJjZBtfWmWZwx9ISICr0_Z2VuYL8bxRcrgFWQkmFbrXrx6svly-WxT1pBRerilzAsQcPdR7oBGuJrzYTTxvZDM1ciNlUNwx4OIrleTI-a1lkIyS6-ktJL_DaYmNiaZ_gXFxQ3z9eJ54VyP_FqYKLDxkJDW3IVeTobd2IAM3yc_ySd1oDXAXSM-Hs8cJ8AiR-dHbvAwAYUrc1mR2_hEUssm4dHs63ht6JnG8yCbk8IFKcdBecCzeLwUx8KOU5PuTlGXGhi493kmHPUcEc-KCoE8DvFBBSMpwMJu1a&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -135347,10 +136151,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0972 651474",
+        "phone": "+595 972 651474",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 972 651474"
       },
       "faq": {
         "items": [
@@ -135381,39 +136185,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFiJeFGa03QZa-Nm5yJZlRWqWPyEFfs4DKg9LPnb8QScbEnTcSt3mPch8InVt7nBelsno5g5KzUN-rrlfY5eIQM1gbNaUO-I2sTI1igjZgsmXBA_w83kwf03Q98yY1gHx1-75GZHaNTvuidnTYTy5OV4HOTEjyAdW2kvVM84dnDiHJcw9QL02xrTI5rMcdiYm6QdWOlB4I0VKbmoGDTCgofS6bTrEXGIJjLDSgNPMySp6VTjkDsN4ZjILc3ED6fOFJBHI8StbSF5JzF_6FRNSHvSNR-Uy5G29ZfqIiemGPZcdo1JEGdaTTb22xqyP-WQgWgf8_fFfj6ydDhSDhmtRA3ubkvxCBw0Bno2nqaGKwwN9DWUGVdoKvt21RGpU15TjKepGbsVg1yjU3tA5qdu_nzMB0TUTykxdPd_85vkk68QQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFbO8vAHzb1kE0nD0h6-JDM5anON0Lkg0K6iM16wtHrEFCNkrjdLaUatlU_-XHLXWz8c75tX8rQqGAQkbYqozDr83qYVUU3MXGyeiiVjnW9ibrTW13_0LGk4d_i1KIlQhVfueUGLxcyAOCNOspOXHcp1tvuMsRbcimX2DVQsGaYnoYTqj8CLhZ9xruYL0AmSvzFDELy3ViN9aGegkS5aGlXgnejNFGzazLKdtVBL_eksC46JD2xOQ82PWLlAHxvbeclqwUcqwaBHKwbYavaB__FJgSDcc-hgvssKHoJN7wIUk6tu270aNpFokX2_Cst-F3hcrnZO1DFd-fWPZOpK3S7xJjM2pI9UGWHwRub-n5-Jec3KNoYciNdzXxxO0pL4F69KlEstIgkdFh8hjKVUX2sqOK_uQz1FdXBUvlL1DQmjKLB&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEdFk3UYVa9Tk8x3cyZvorjqa3y5S9cEfI_BpzBa8ecSkRIxSWCazI-PZMwQGZWxJyIzoq2i3a7ATD_oIbSWZNFIhlbxYOly8O9kNXvI5WCbnkGsyeNv0rZh9RyqqAL4sH_6L_uVeS3qd9lmJXkhoTZ1cVOzyD0Ft8JSuTDteF55O7zbZbDYvZYnOklQeIYpET75fywj7cWeHlf8eeTAum9EX_GWJb8iH9Yyr1wP-pUq0DloCnaldjJ7a4kbmPt5MnWKajLw7n_cjoLTU7hp1Bv8OIRVAGv3dKJ1li1GOqoBl4IXZzcCUxN2G3TSWTNgkWTsuePSPvWRALxspJjqVXN81V1pdFJdpNLs8NDup22fOgy3Alo2enxsy4wwbaqc3YYkgNWVqUxYyUX_ursyOZmKlpZeq1ILA4xhu-nqIj-93FcPHNNJokfGMfOrw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH5h3H8RzfpkmgGtboanXSxsESO_L-X8EOsXwIaNlqqx3LIyEU4kAlz9aDD174md-LjufKE0SKiWvKYHVWZwh7lyRhly0nfABJxqZSzyVQZiH9O2lsWvt09J723tlAMMJ-b0er2QmZt2X-SCfYPoBm3sINZv-FQBfpO9zZiBR1KgrIpZFI8RGTxu5CXJ4P4ILgOdtyhbKVYDAdAGQkCsIFi7Tb3G36vT2l_lOsX-hsBCRSCZEXN4FvDlImUgh8WsvmhcRK3h_lAVzbtFAA4QhSZVvUaac4-AsilCGZv9vg7owqiDhkthpspckZvExJrDvd-cD-NTiWPyHHRS-lKJ_kfbg926p-RZMqhB8Er5bXxg1NqSl4ZCpN4HXU4eMPpQKb3XFEF6qzjXsJUZWaPpww2skRToS2UJlIRI-SG-hfMopM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG93sD7SaInzrqO5GvAZCm6C4rpMDSsjI_w1kzhCSao7eqhATK_q8mTeOMdylN9--5_Pjv50swAL8FdmNLX7oWqSEEWNgu05BLWY2422LWkBMeXg5oP7viCAuGtC3tRTWdDT-LNQrksetWv1tgCzFeN-d0nd_yXnLqXx6OC-spZMVal1c672z_mFAvqMSaUZV8Dhhte0wsq7fhpbHGzrcJyZIhH__oPSD73xK_5UBNVw_9W46MO49SePXTnh7Gyp4xUPLXxN12PHB4o5tEcfAeOIzTGxjL-jARTf8a-T08kqjazJg0UKZgT-9CDnHAQNqshbjJLGf-L5dO2aG1IEVEenr6UUDBYXLmjhqHY7_pyXIaHxGDCrgWQPq5-TIxrpFDQU_xlAP_jz8NlgDgepUe0rf3oZr3YpfooAGD1MnIG7Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHYQwaXj2HPDzmeyBC_2NpP9_tSeztJL8O4dFXkTbVlmbsskX40WUZTFRtHCZ4rxzek_ToTHk6Lzb96163wQRfm08GLR3Ojt6oM_bHcVFZelZNzGCrrKpqc8V5TTWFFBJg3uKq3cfm_J-jwjG92OR7pOQits7KjmIYR9iAUm79J3bcMZMFxy_jFNDIIGGmlsmS1DmYNrzmJrE8sG0EHgSgcGl2bFX_fLcPFqEWQpkXYBV8dNIcH82f5nCOLUmCkhQAFphUNIiB0Gsp3elCnNijQ2i-IlLF9vWZ24c6tHASEKx4llsdnbaPKUUrOcTZrerMEDniF2oQCWh14HKi4VsTcGdAlfZQ5lWkZuKzucKZxTu1lg9V761bIyRqVAnRDLPffEZtkj3megXmR7fwQpktOEfWyDxeTKw-pAt4nmIZrZ_3lVwT5VqKgyoWzadiZ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -135797,10 +136600,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0972 651474",
+        "phone": "+595 972 651474",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 972 651474"
       },
       "faq": {
         "items": [
@@ -135831,39 +136634,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGbqKLw6xd1G0pWwZiCoDBUwqY46KX4HI96pEQOpx4wqT4jQZYFJHYp85VUMGm0CEq4bUl--ARwOLltzQEUan3bUdxZk9GzWzd5t4pRgMeRkIPb5cFuexRkmNSvbimp4lo7C2MgANrpLHt-y4mrEV2I2a0sJFfLDKdPeg59oJ6HVD6HGs5_q-TAYCyaQ0cFwTxLZF32jMc0b5mpM1ZR_b4GI9uBg3Vs9B3ijiFPt6IVDd-m2_b4VmGNcXqWT955iQpdLp6L02-zPibpNR2-hT5ePgavNabxCsajahPNOt2vhRx2UtMX7cbpLdHCxrkFZzt1nMROmyVJGJTpR8ox6NUPUx6GRiH9eiq6OsSEzJikz_3Gw7s6pbtENUM4CsNgWJaEFEapawu-zumfh9PBnohc0CKSyYuPZjT_TYPXoC10AQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHu05cYGhwpGjHNrX4lg1E6RPBXMl-JCygCSN0N-0PNCIau2302i4xyZw0ZdWmWl_XDwIhvPa0Tp5bzMX1cHqFLEDCe3qUsHQ2__GHHgCMQgtFXJ5O9rUj_uUdIV-XYamNbJN0--oR87xX6wH2dcwif9jOmzywSWBqBdPPTEZgMzDUv5TfWIiN5eUXCpW8svqujQdTzX0vtkh2HOBb-8DrY_Ne__f0FbfAKREyQTHbOvAFBFPlV_4g9dvXBvahNPl-jpikvq4H9mGBjAC8f6_-u-kf4Cz5eIPnT_Zx0tiQwaUN7c9UR5h8joAABHGASoCWo15jAMoJkHTaX7t7ExZxXZImwWKvhPCOrC5jsmfvduW2py-OOdTw2my7ONpQN0pmWKUms1Z-dJGQ05tNMrty4ATMpquFjt2gEfgQACRBxPMcI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEExqeguOwSxXUHyauMp4cbCdiBHO-Ws5vy65G2Ta6s9ZeiMFRDFErU7pUvadhQpuVbbLoRpqlXy3I5z5-3OLsmhzR8wIaH-l4STbalcLMlSrcwqzzMvdaV9MrP8JHr9k_p_PUQfAuwh0RNd56cbb2inj5fhlZjIH-skO5gCtEASzg4TG5fqYjSjg4kKZ32GSJGT97xuFSFwRjJ6WYpkahTA-c5o3pbHxkURIAP30sRc_N5NtC3Phd7BU51TMASmFv-RtHvK-1pTpHo4kQ_hI0d8VODQL4OFN0VuN4BOtMQXTnd4ZAc1xU1dZHQYzcFztGi_IzdOOV_0PohAN6lNlSamORpdAV2XE0iK7vIVkroI5hcemIcjkH_ORiUOFUcM6386gtwaa5aD8v9xu3cnLAKhjLiuoL_LIHJNVYBd6jnf_EcRns44yx5lxuNejg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFvq0coKUiSwWJhp8rQdxG7P_6jbAaPjV5us5L-nvAGtfKU4OsqFPEZZl0Mkpax5brE8knE2-En_Idkhl384G4Zi0xUdrscS6x-rzFAj3ml9We6X69xk7ItBORpweSnRn65wnz6h76tBdjYG8c7NzZh1CBRXhT8DnJs2L4YKX97bzgRsoO9mGg79gfYD1sV27DpnoHJeC7208MxGDahXL1Sygmq39xvMIgR-U4YYot-NjJY1IyqZkppjkPCGdOjZT3yDQ-xIxkNlD6D8928x-kDcFt0inU7MWLVc9KLoxPrwAn8msdVQOGd-OBS8C7EdTMe4QvMIn4xzc9IBCSDL2dxIuO2pVHCyUukuzpTsN3yCb7LRIsogshDq9EDpbpkIOw6BxEIYjVxRQmTXIh1JvHLueTvpnFEd8xV6f7D28x_fgc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFQgjhWm0kFAH8c3_OUqM3IuHEFJCJMZg1gBhjAYBk_wv6Iq7G8FgHzUnAhI446U9c46gVoXh_nQaJGFwFVjVCRzv90Jb2ZamzsTgdzJQVQ6OiKC9C-e_jTbKxX9THakElXdm4dxD6mqORE82SMIufAijO7zzqrV8HGuqWBGXwZwIe1Nz8ovYqkiKVpDjqzcw8RwyjUYOP1i8rqYVFaMzdK2JLnT0Fm1JAfqjQaTi_w3Gfv1qnULj5wYAr_6lF6hpkccIKbjrBjAIiyj6m4ZhhlTg8uki29Rlsr-wSf8tmzfvJeiIzVKb6TjN3rtfOwSY2BEOtnDeye1Q4IbOe2eP2hmizw3QrSYF5KdqJI3ezslNPd_AMidtvvXc5hetQ46jMcMztnXaAEFCIcELx-rnlsIEJJCOILZGDT1qYqOTAIZA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHJbz6Fw1VOjCtMlT7FZn3iT46dgxOcUPiULQxp2lH-aB9L5hyHvYb6DsHL7wpwvbTiq3uK1f5vseR1UGOewhyn1XLG_DhXk0Sj-n2pfc2yaDfgzUr3ssfnLXepWr73L-3egnfyWmJjuzGZHMf-Rus3HJDfnNjY-Rek4TSraocv6YUaUAFsXNnFPYgX5SMcDkb9iIM0k3hGSJpgC81JBUShbssviYcQfX867t80hehDg3TlInBMgrXSoYf6cia0yNgsF2JSmKOxi-voTo2CRw7nH459lO7Vm79lv_2O-PDUwbFhUPn5LYt7CeCxkcN-37NjT_1XqMQDWmP8XSQwwMVeZYNw87IrHVb-A106iJqzCl946A8cKBghEiz-llUqwoLHN1xycyAczdBYO0ZQkZf6Ns9vLzaccpxJ17xeip7VLURfMldAmA0MOTI7uvuk&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -136247,10 +137049,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Capiatá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0983 905773",
+        "phone": "+595 983 905773",
         "subtitle": "Estamos en el centro de Capiatá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 983 905773"
       },
       "faq": {
         "items": [
@@ -136281,39 +137083,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHx6ayq22SfWEqvQWTxb41iz-_8w6l-yZXigIqLuw5QI_TDF7JKVoz8UUMB6Pc6RiQJqHv6giauwbdEvEdvrE9FP1-k6-6t8wY-vwQzbJ18vvzCYMianyG5784JHYqdBGmF0mRJ_vr6zvtT13gMSVGTwHjmgX6lIuPYWHSH2Etzqo0FlV-G5lYHG2TwcGPjiriFOWlIe44W_kB5xpoBnydpzp95uSpcuRshITJOniu76dFyRnWbxru84lMC-I4ulIBsUZk2746PupjDSsCMdP4kggej9Z0ZSwPV7ACKvFCuli1kxLxVa6ECJ3g-VjNRw_l-AuoiJNOkDf_sRIGc3sfscMDuRC9w1pTUXmdQN705jph655UCTCTmhv7Y-35Y2EIK3SqV8mN053UvIEaKqq3M1xtyUxBjiovSG0mNlKLE4CrQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFA1gXRujFNApc3pNegGDkd5Ugj-fqONMNTq0mumNP6p9T5Xl7yKmC71YU1NSbmiyBNPJebZ0krpLObR6pjeZfCUsJc1UIoCAYzZPnkdX6OR6T74fluHA4cNSggGVIPz2sK6WB-lOUX2WijVIRpFdt7nKsmzVinTR2WyE11Uv-47ptHwLE4cxnAPmTlHPjEgaJHYxVjJGub7qLL5BCcwwQJrq5zR1lLx5MiQilNU6Ksig3mr0cAhSe6khapL9MW0xea4fkd8wmpWkZ7qC-hn_twx56wBGMFylk6W33DiTra64BAsmzZAybTaEYP27DwGPqMlxP-c6KA3vfJuO0SoysedqVqg07aw-UbnDAC-XKCAeLNMbCCdLet3LnO8yOtF7OuVJLmGKGaqAPJz1mnvhZ2vbqOV5-GlFMCVW0jDGPQjA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEdDlXTHnUc2IE6xhdfYVS0egGbxgt-SL_ngT-vSwjcXkxQWHnvTt6bG9HYnLRmZlao8NxFM6S8BbtYBXddGiZROGG-T80uMD9HfXpU5GKRQA9alSo323Y-DeNEfk29jqYvEAguKTbrH0YxSEvt-25nRI90gTz7mbD5a_mTsWfNKkFnA1cMvsFcX_eDPCb6LILXPoMJyQzGKSE0DYltlmmcJcX3G8Ztk9saU8Ox6p0iWebM4BFNDNuh8xxzM37pTLkKYkQSgb9B653ReNxOg1KB5iGyDMx6Svh90vYfv3BsNoixfEF2FEvoVugV9_DQEn90ZleyroZdHhRmYIPSApMXfUvUY_x1mmOr8J9DF-1FjriEK3PgyCYSeAkQpCK7qHioiFFplnpCQ0G1eIRzrk7k6OYaG274bJ2OfTAIgoLiIotY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG9oU87oTSp7H30fnRUstdJQ5kPPCDlMGZss90UZOOa_FFMuuwheJFqJAQggHxWTSYKFG0aAZHSBLHz9uiZByP66PLkhUZadRRTb7Jx1BcNFmwMTRzd7_IRs3Gi677TTuIIpist9mUFBWd2tUQhJzcwMhU1PN9Wtc5dmF3UVnQZoPVKjVTnQOEdnacwFAR9H_Uc4fpuAmYAl7D_SJtbnH7vA4aj7RBtblYlErvxBqnXt4XAhpdGCj1X_h9zxZ0q9fBv2myK4nhRuxVuJqMXaHvActg09k5ZtoVJPywLzvYroPLtadcbihGRhn6MLxVJOp1HKtoNigvSbTy1rt8irq7RWiQeuCTVTNSLyt2VF1LCij43HMTkYsOlnsoUKtmFugQJel9-8RqgdkkNTp-TewKA1cHq3DtoEBCGl9KVoaWTdact&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF5shnNtws2qLoW-zg9-0lPQrsQk_kF3nqshete1IH7YurWZVEMWmOmA_bnX0X29YhJA4zxW2ESWUSVFuGb2Ag-VQDajUjzO6S2fMetFZiSRHLqc3CT0XHAN5S-nEkA1Y_jThtvKxeGcPRW8BP4PHZcnOOuSvyY1MuK5UXLJXPfkU6SW7ejvBUolNysbdRXAu4VK4zOLmKL9FGJTQZD35QU6-XWKF047AE1Eb2LffvKGxT8Y4tWuWgSDR3ef7udDkwGW40Odz5ZSpQNoSuluv4syIaCAQYlYcmoxBjDjWIZjpyzQr1a_jah_OSixlDzeafukIuG-0WLaqL8sahVS1pvwp-LX82503QEtAs1DdDhSZa6kSCqPZxkUsly7GBe-AEU6lqYk1VEDIkz8uvnExDMPhhYmsLxDexqaePBnt524Xw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHmCKbKkT5APMtESlXQeSz46MclIh-2f1f_gsUfO5e_vPOqx2j3ed0IaVrGaZy5tVIAwnXACqJEH7tFedHK2Hss_sbeY12BYO33VuzogG2GVoD9JkKmUoeDEIXzJWpl9SdQ23hFjwz5feM1CaFgJzsN4SmNLmPzLKFvBli-5S0RHXvv71rtGOGTjHIgBaqbImYbZcyoKbAYriRAMt2v6lvGW1uI0yl-AalJLPdXyShODVXU4305YiHXa1FIP1o6IMYIo8hkuYeSmHHLsotSaX01ywQN2okSQD1KqzO3XzG0zC75N42eGnlQSFyPaZP4ytz4wcfIkIWZ2Kay0VZS9DU5dkLkpKzxEAuaD4qPqkL93OhneoheG_mbdxpDsEnWjhz8rrRDDcNIMdG7vYwAYR01KnV-2PXfd7o3YJxubUsFZwU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -137090,10 +137891,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Fernando de la Mora",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "0994 215627",
+        "phone": "+595 994 215627",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
-        "whatsapp": "+595985123456"
+        "whatsapp": "+595 994 215627"
       },
       "faq": {
         "items": [
@@ -137128,39 +137929,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Degradado medio",
-            "caption": "Mid fade",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHRVg1Q7qmZJ-f6qFiygAo1W-sxCH1e58njY9viZD8zwf9pLdVTNYOcj52dxxO4cVsxObXiLdsoT5r3IVorkKVehLmEOTuDiGuTfliAFOpPmSbfoi1nbOv6IJAK_Ls6njCComo7WwLuX8CBx1-4p2meXD89V5jxmartWmoeNTvBsG4-B7uiokci7KCgpSMwEvorlbaUGT4dz8WfbaeWpDA4E7aXZynQNCobs5diVExs6SxiCP-4RdRbpRRNMjEfkGH-W83Z2rnDaroOGlXsSq16CYgKsVST1yQnouXvuvqAGfwbLINCHM7ceHYGIZMV_7R4ASgAbC96wh33-cR71eO_IjZ48AFmGQOqyxu786KFBH5tg5HPvgOERr8SdtfpJy1voDr_RPOiEHOQfLiQ2d6_Vfk5M6fqvv0wl11ni7OJSxJ5rfYc7aDSmAsSkkSt&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Degradado alto",
-            "caption": "High fade premium",
-            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGs8Wd041hWhZNDJF2ciYwX-6fXFVQwRBPzb63dJHrRpCvsQ45Xm418yCP8nL8Ft2if2z6YJtL6V5zuKnATBq6ennsXRspdVqLmWvu0UJpOBwckZUGSLDbsDFZSbsKzcfSIvj_tKQGCgp6f_TMo0ZT7u8lxeXtz5DJVPPAMo2_fzBxWaW8pAiNG84CtQBfpXXG5PXCCxOd7LMVsktJe5xe5M4hX9srZjZ_eXXe4tvdKTX9OTB5MOCUER04o8fkwN6G8ycy0QcvDpiQqoJqohD-UHH5XcuZExM99Gv_TdmQLsA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Barba perfilada",
-            "caption": "Perfilado de barba",
-            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE01o8jJ-QNPUhjY7MlK4BWpHGa8XRqY0NLKeunvXiNRO5xGe6DF7gdfrdvygJncMWD9_7SgxbR_s6YdMtkjJf1nP0ctFpmI6zNlV0JILcWoEV4VLjRTZM3pCLFPdAvzqjv5WX66Cub4o1MQXzsqIq_-EM6gxixmo2GK49Y3EuAgRJeSpQds3fH-xg9CIb39K4qELkhmWi7mqmZBp7toxk-M9JkXQ2VxUg47WbkgFuWWI7TMxrhXVsFlrho3q_Zy_N5nYeoXzRYVya6BmrstHCuKd-bIUHaqxMRISJ7gCPZW56kve-DrIslx05fE6w-kka6U5aLbuqBI9UddBWSHRHwSGzHXPVUKs2lX5XcFaqsv-uzUkpe1UApGPW64-AVL4QagsBTbwRiK0jNUspe1NvHiMHWP0gC1v2MxBw7l-fTLQyn&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte clásico",
-            "caption": "Corte ejecutivo",
-            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGdEoMscCrBq3_OVDJqd3k3nAirV8etTBUQjnbymJ71YSZVDx9mQ5h8p1CnifsNn8jvMketaEDQJQDYyLTDt2rJKKsjW7S-opavqy6h61FUqXcjA1aJO1YUsngjqVCOk9WL5dhbaHjI2u15xkaYxjKxBwGANHQW5ZCNFBVUxQsD3h2MwPFKUcxvsuwSLuj5ptRCZ4B9w0R31EHtP5Q23KJpNFGuF0Yvip9aIFLTSvxR3w4ug8POsBVBzSqrzSIpho0h5ahgLm-fWLSgdxFQUzjWV2rRMq8roN1LMmSUcCRTW5YQzQWWEYFP-8yVs25gQbfXyLHnC6-nTNe_VsdItyAfufdoOszapmM3vz8OFJrG-6VSCQHdFTRlIaV3LvkikEFuKjvLlD0BJA5amfHdptAzuyK8sIDFMnM5kcxtEmQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Afeitado tradicional",
-            "caption": "Afeitado con navaja",
-            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGkX24JAiTclGTzQsdEkfDjhk_X5QA9RTQ7b1qKpWzCObB0zqtvfm0QvGBUbmgM5ANHj_JO__1N9mD6ikVFhfJkF6yGkW-IDqp7exJCT1j-dGHB-ohHhDARx9YMTtyZWRdwz5SSRRkL8AQXyOigu6LyLljAnJYBpwqCHWAj2BYMvqZeSZxfv__rRkG86n4IEVCQzGU6u9ZQw9XRvg-1BiAe90zcRF24DvasYxpVA14AeM008AYAgg0PbKxyembfDXSSWBHzj5k1dEwFKtMHXy6iY2tJXSUx4e6KmJYDcImjBKWHQKpJKx1H4ryl2uwnEqq-TtFGD4mdfWezRrhok0cLxv4l-C1OM7VPxOe8B8Vj-47VUN94D_mYe66gXpyUK58HrVowDIb70gUw5nDpNVNyFg0KqrRgko7Y0wiDbeROEg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Interior barbería",
-            "caption": "Nuestro espacio",
-            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEdDO519FKE5jBRzp1jLJpSvHXXGkloZwnoE_aOGCnll4V8lp0BwSJOV-qZb92ttm647RBWBxjMNgF1lglK1cD0ZkYczk3B-7iK_CYonc4AbgSpOKClSV2CUyzeINSV7VK0TXRE-_bfwxPvErq20CUH7W-P_83I5cdxtiYug-JL3XbANr_1beFRD1aof8CtiiyMRx8IERc2Mrd4PmVnykxmDnvx92dFhP_IyfMC62i8d8wbsEBid0u23RYQCXpzJunR9PQKAHx3L8X7euCxy1hqPYL_3BHhVkaM0yBSGZ3rfzK1lpwpBXhuwwDyICEtPKVC6GTnHnIKCXTa1HCyVx6ccjpvax5SKm4mIsrBP7dDh70C1Y2SP9WhJ_OCGG7b6FNHThhC3LnizU9BXrSsP_GVf1yiF9qj5pHd4XYA6EgAiQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Galería de estilos, degradados y transformaciones",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryHref": "#reservar",
@@ -139088,10 +139888,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "0982 450269",
+        "phone": "+595 982 450269",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 982 450269"
       },
       "faq": {
         "items": [
@@ -139122,39 +139922,33 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFFnZlabZpeSZU9mFPekiIxZmv7HQoTvT5HOEDmDH5aJjzRD1uGtetbxp-auD8HCyYPSRH-ld4fidcaq415WLBnae4Bb_iuXDFqibnNvIQ7nVvKOC12PZaJJJF8jWGaeVAde4uZQIX1Ga9mK3xuOWXeTVpRJeRdHpcunUwNuM4JkydWc6YqRkHi-bLT6sPRyZs9IIQciAXxS5IsOb-Dh_lULdCW4I4Eylkd-bpXiVAwSy8uEnYOeJTmRmTcWWY9-hdgYusBzHjkXbhy0VYcJMorXoMHizNIImK9v2AaYC8zc8mDFGc1Ky-4bhj6xdzmE5oNiiLMtTGaa8FKUnCQNndjLo4qtuPSG1mR7tEQLFMpx1I6lVFqZIj7ai9GfU7fK7voe3GZdk1JEE5NopcCzmdDKitfcdZ6rep5Brzy0FnjTw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGYlyYZP-QlVuaJQRj-aTNl-pHdmZW8EfxGDIQfLR2XvFiGz0DaavJuojcsI0XH2U6oYZ9L-r2XxEjtgBLiHwQoKPGPxF1cP0tXMRMyguqXAtjMEosRq16tWruZoUUn5otkESbc0yoBcpoJ_FjpMuKeRk-2YptFjkatmMcx1sYWMIKzuVsu4CPA5QYvMge6XrQ4GwNUAlbrdo_RtsWIhrFkCOpINwFwxsL3mQ0y5yhqtCIKrJj4JptSbm8i8zVyh2Ql-tSuuPKKafkwx_Dsc1RgiuWzYY1Cj-JHtf39d1XFbRyrCx32eQBWHbfZ0DxdyAZgyWNJgrUdf6OEZjRmSUedyaypd-mk_kK_GFnc9u_weO2wfjTE9RIzQoUDuEGjd4oS27ycQF8RQnYW-E70JxSP9BiXH_CLBnIzPYnKZHFvf8gN&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF6VIKn4xevonGUPILZkGORcoLjJFED_vo2vFYExWlo43HCG0D0ohAAshT0CMxRLiuuxayaRCXeAMz0Bj9Mf8RScrjGSLwOa2L_EHl3s4L1ngix2_ca_8wNTQ1GMbhNPGQj3baTJzpY0OgS1CAxDm83DNph2MFB-vcviW5eGve9uIvWSPsIiE_9a7vj5ODDJ1wKd6235nIVn1JyVSsqh8Up15sv9MJoIIOQhmuWdKbbYWArhk7hPoPLR8Ojs5i7hUsaXZPSFYQsZW5DXm1mKycOEP5dS16VK28c1_q5gBrbwoeR-j3vva31ccxcIt7ZLS9gyEpDRTjQtnPwRfPMUoktbU-Yvp09uSKNGWP3pUqlSUCMBKkkr9hxyJ7QQuI6nTgLpTC1JNGS_cDIb-afc1loDgdQ52D3aNTazkZtTCz3dKvj&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFCfT8S3p0tiQYr4-8Be4cem9_CmLWvwg5EfC62OH4bllSi464T0eLqNz_E_F-5criy95uKTtziqWL_G-tR_XjIi3Hw-EmzyHDk6wauOWWepP1aZjdjBuAMi1D0xujxDongEdHcZQlkEhvkQtQkxHh2MjeqfpoqGkxOSLgllsNQDWKMDDsgqvFW0yOasVbrOmIih43Gn92Fkdg5odg14_gD1tL19y9VbkV2cUX9PhzZ0dYIWAOG_KTu_UaJqYNYdLKMedpcseaeuvsIarSpVHJhPKhKA6M57E57uxQfe41XplVLlYDehObLZfpKRBmSARoa_HgjvRs93thY-jY8tpYFId4PX86vHMLHqc358PJ-6iWLuYYhdJhRhj_JhGD2glieM5tMIXn4zJ4lTQjhBNKIIlM8253l_34mBQnK4lLvnQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
-          },
-          {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEZNaOyiH5YHtfc9Z7FrsxAD_M1Mp745ppF71nj7X_4YCqmPtUPwqUsdxJvwcJto7WXi4W6s8VZfbpKefCEuhQwfYUuCbi89CJBCyS8AsKTQHaXk1JwFrS_Svz3Pt0fPSe1m68Bnuktp4iyKhLIEj63IO9YrzUVhB50c8i0LZEOo8g3GrkEk2li9k2Vg57eDPDde_oXbC56zua8Y4z3hzsjo8EhLShqIlcapjHGKoDXahYoy-JCW9xlmvc9E9JqLeJ-xpgRZaSnnbV8IpI8rRvnXQr-0BjdVe7wx7Uxsa2McLPjgiEhnwHe0fYfxqhRo040eF6IA88RRqAkFm306ndVaAElVAvR4HKWFeKNqUR4mG4J8mVZKcFMUnPxzX1iZZtXlNifDyLjfuLTzqS9JIefuYKhcmTvJgMellygMn490HI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -139388,7 +140182,8 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "city": "Asunción",
-        "phone": "0981 521527"
+        "phone": "+595 981 521527",
+        "whatsapp": "+595 981 521527"
       },
       "faq": {
         "items": [
@@ -139415,23 +140210,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Consultorio",
-            "caption": "Consultorio privado",
-            "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFlmRms0rtHO6y8_hOeWWR9W2UamPwEgQYskGsqhg4rSPDTZ5x4j-1n_MgHrHVAiOFjkD3b5sDPI3XCJsn4b_uXT3l3-rLxkmlmvkPKoq128o8AO3oc1tzGZW2qUaatjWEkKh8KGzp4-ALnOQyKVep9y4Gq7h3Iy2WDyxmNZQJCU4Lf0ZwDh-XLI03jeegg4ZOWxAe0O-WlqLiHlRQwGHcJpMoQHUK5Wg93Qm4wh8pY60ctfKx5LoINBw4YXItqYaQc2frDZnCb9dF71K5nonf5151XrwEzeCvsYA4-LG2efg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Equipo láser",
-            "caption": "Tecnología láser diode",
-            "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG5yLVxKmJsW8vgdwT80A5gBaifCiaRLkzy9eMddPMxSjvEhVnCxG7yui1oRPRwowDq1TjFXlbdMOcm0FLFiTVcILEJnqFy4vjrWqZ5XZsmkLqlPH9WnQKpSTrqMcEZ0g_SnGA040kPUBVNaG1xNCKXRRBOaUDnTYNmbjnjDCXqJGMzQzttWLoDHbGKSInPtBz5v00mCXCw_XvzraX-fkb2mOptkx93iTzVioemCqyXN9XBfUCuCkIVnz4AUJSPHR70VECdQSjOb-HGpzYX_4nTGjTRhoYdD__DCRAyMg-_WBZ1bqyjJ3clcthYMCkz5IcMU6GSkxmO1YUVuV2vsFjLsSXXpdFx3uGi1n8pL77-8hEjbsha1N7s44T86rrQomdE20ehazHYNqwAK4VcwcMwlU3CC_PyzfCfBCFUvdyn8H6iOn7M5n4GMCtkEA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento",
-            "caption": "Sesión de depilación",
-            "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFtAhQbOFQRH5r6Hkg0-z-NkUt_U1gO7nNObCWOF4VWyMUBuHZwwQaPgWi51PXasElQl8Ddr1rN6PA186JpexonS9YIrnhLeZr4-CUa6gLd7fp-7UM9E6XMdd3rQarzc54W-NsSiQ0NRf-aINhL6S951dEnGOq8CY_EyMQvbiiPgz5_n_rn1nH7mvM5ka3NtcenX34QjPIbMV27b5QvVprBOmJa6zB548STVcbQaXPIGppjiUTYvF90jN9M7Kh6xbyopCXD_kOvmEH2vcmUr755ZWp0LD7WWZDDdH7xuB8TzQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHPOytw3JsmEdSwu8l2oqkKfylhuykIzS2zlJ3lfgJuniv8RwskwAA0eCN_fK1U9lfZMu8HtRAR7FyM2XYciC5A-znRun7WdJCPr1Q7ellp_GObPKPS33mLf4XEgMldBQbbKTozMY1atvcikzaccAiY5oNGIw5wHvm8-G8P-KubhDleKrAi3wflO-R5io7yG2Nt6p7Wi6Bz9H8VV4tFNMnGkZNzWRIJgubF_Zsre6JJyA1RfsoZlaKCiKtKvn2kWAHWn3EJX5P9UdoID4CUUIoZS4Hplq7YaAdFvEepqK-J8Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHypfuuoMd-uRcfn0GAXgGa-5_iW9B87QPI7w1q2V1bUk4sdQBz94tkWNwnxPya_y48fSsQjRM1nOKmMFAdoDX0FYcbHJYVlYji-i85zfl6AxnB-ve4eoDEJVhXPwoOdmKZ7dBDsytoZiMiE2h95MUvUyS7HePvRI9gD9sc-URsEVz0irbtq0SzkKhEKyzY3snPUFeEMeuwftrHJtVt5UiFZFeris004QN9ZXIMd4zt-treBj9-3hU0ydcu25E5iK_e7jnIlm6_AseogO6Ndv97szJZL7npfVpzoCfqcQmlyA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEF0RK01lk6iUxs9FN_XirzvuRSxzV2a69dUggx-c_4Wiu4qrQfqGzAuDS2xbayh6DGMwGM0ZqwgKyN5wcN4LPvAj-sxnuopkuQwDQQvJ349nu2Kmja8qPJx4njYs0xdagJRgfcimZt-N-0V2eV8hHHh2hA1eYtQNZmzDU4_-t4H48oniFvyj9iW-xF3TFGeO8xu8bupfzGBgiXKU5OHUK41YDuSeQRph4JgtAND4fSZxic1aJlu6Wx93gXUOkMgHcrDwgNul9RDHCWmUZxw8vF16auJGCjI7rFCTPSXL3kpw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "subtitle": "Instalaciones modernas y equipadas",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu evaluación",
@@ -139637,10 +140447,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Atyrá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0986 661271",
+        "phone": "+595 986 661271",
         "subtitle": "Estamos en el centro de Atyrá",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 986 661271"
       },
       "faq": {
         "items": [
@@ -139671,39 +140481,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFjZoIE90INThud3TAPWUy7HgdSpFA91XsdeKOxr-Fy_wLIeWUNxoHMl5LqztzsNYogcOmBeq3QLFT9cSxYvSp4xnWudjmXUU0O_NR2o0mN1to8z0kLX4VbMCRaU0pKfRhVDk12OXw2xz99fOz_iZacKOqKaq2a4Luj-erTFhgNwl3UYxn3T3FHKdAojBeC5wnKgeFMbyv-K6BM3fRb5U6ff90ZHz3CnTkPYzVaZV16Z92E9r8TfTzztLcN0JLlPp4BzucUwMG6E4PkbFwZbvpihewRaygbnyrPzwehogrRvHXnZvdvS0VCAv4x7N9UBB-KUUpEavyxNMTlq8nEaEkTSZfaAzGsYAVBIiSGJHpF8e8A-eg6uHjVlBM4jdfXWVgZXpf7sjg9UeBb8Onb7TLGrTKe6djCvsJGCBIMDNg3Qg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHR1vLnOd40E2clDaY5UlmjIF-Bupv_YXd0Bal77-mQ4s_0s7zCqQrV9ejJcFTHRPS_6F1qVJkuRYPOBJe1GVpeiVKalB6oZVYWz6CB0UChumHb8hW-YdvsrgAF4ECJs_7NK__nU7rL1EKgBl6alNUd71A76DnGPAlfsjDh7kQ3lVLo2mIX03Fg5bE-bjxbou1jqlncZCtDGIZc5l11hBTnFR1ELEFd_4Kx5cKyX5G2zDFcbxgTQ6GI_2jDJyCzCskE5h75IMSEgy-gLv8ndgZpcJ0h-EAFao3sT7DvjrJbK5kDXbQnLqSRBkvGanfipDpVSpuR72k7KJ44ezQOOwO6qutSca-FDvCGzl1jQ6HSgiFrcoeqA5drn4U4ZbMELqAYAgEOxRw2j8qWZnDBMC8s2WQ1VI5AO4BKNiTPsKBf6A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFmE9AD5qKTwlSYbllJTMIy-YR6UvqtWnG-DDmGEwoWVGiHiDPFrkmlr58BE5faybGp4ZRUMFvz-7n68vTFYXvaSIHSdO56833yWr_lDjzfJjAgg7LF36IfUGHTA8I-mlQ7YMwN00tBzaHOYsAySimZF0dyw8njudMyPoxsUlIC7RsRHz24Ci-w3mc12QHDsKIbKdd7nWcnGer_5IYdhleK0unZfPaC94D7QswAVUHp1Qn30A7R2VcSOJznjf0tfrmdCpq-Q9COmBAsr1V7_xAF3sQqffeVIEh39vlbh6pSGRZWKry1DmtLM_jo9Hjn380tvwrWvr8ONTgaKIaN17ignf8xdhvOJGQfStQMgdwEqSEqYgsCh8VQHVBTJEIukaS-iOnH_jE6_DiXuYvfceSVgdM6WEEusz8AuwXJqPg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFavVmrpi96XNc1BNXOIhT7O8VE1qAkjquYOO9QCCNFE5-chmLz2F5_PMcrfIBZDrfccUAJZ4Q5diwBW8evulwaftRoYnlimcaLouK94K8jx2T0j8uKMuFaNsMQZL493C5xCzCTfJiv_mPA0lqICKjX4MTjOVnVTsWkxNLSDTN5jB5-ly2-KsMqK6fz6oOF15ZYqqJbWDteWVgIlvmifxkvXHHDVYUaReAvd8dpduZnwLK_7iO6BExKsiKt6Idd-U-MI6ZcmGc9XU54ygoNk_No0fB19T6PhTH6Np2D6H8FRiI7NFxcNBuKr5xeffIw0BqYv9gYVHpkoDW-tG44Uwnj3BLkCY6jk-qwbXfOMZro9My9NbkLbd-XJcr75IPgqlqX9RFVMcBQ7y6DvDyxqzuHKgQyKujUnIWU-3ip0gaYxg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHGYZAup6yvtgduHIOsxUn7UJfvF4NWajYVyzGJC1qmjg-PMhYU9OjtdxIql4GHrNgYAGkc8swnETWYSTDmkdxnI8_NAKZJvR25cFP0yDeFrsTUidFe40B-JkehCNE_2Cwa4M4g2P5lorZfbQ6M14XbPwflRcGAKiz1lSqEcN7ugmBsW8ZO_qbKN1byhdAlLuJ4KbwqPfNwTmuu0LexgzWE48QnYOqpYUB0KDHIjkgpROTz6UQDEShtRAiviRf2lPjq3XIoRvpk95uqEJBkOaDA5u6iQl1-88Sk-IEtejrf9lTTW6SfUwpByJDyIUqwfLHJ4yxPzZYp3E8dW5iW6m0W_I_8IAAREJx7kBNPk9Gu7OTjCMf1aUjMrpPORiKE8h1tHw5L5fmg2ptGuj9F7-i5IT5QpvuL2HwXLA0FpUY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHDnlMUQNrBgV1pjU4_Sz4EoCW9QHZ-Q1KpeckbpuWrxA-_LkvIE2lkIi2qyPJUCSUZdjq0BSuu0UE7TKTwm511YUsupZ3i-GMoAOvB-sPRBUk-utLt0xE6XPPUSRp_NaTKuf8blW8iiHVfUsNseVtIDT_ghlEEQOG2IGvOG7r6aMauP1U_jvv9womN6gHfoCQLwvJSgoCy8kX65XovHzug2JV-ZgqdAaCme1wt9R_rAbRniDIJCGjd4Kp0dLm_hvhO3tQRzz-RAloX8jcYVYJ5oIWECEYy0-Mb9TXJLMfyuwsc9mCsScagsL_LFzTkqRQMdnlbE0LIIoWori0Jk2D8how0L-B_Fj0dWDdj5F-xRo0TOr71IgTUajZY9mpssaV4Po7VrcESje-UNS-rPLZ5ZdXapnyAFrHSAlgfsZwxS_g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -141144,10 +141953,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(061) 509 986",
+        "phone": "+595 61 509 986",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 61 509 986"
       },
       "faq": {
         "items": [
@@ -141178,39 +141987,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHc60d-Xe_Dz5xzKB_r6Skb_KKLiuKlga8t1oaKE4yf93bRnYx5lzWli7i2yjE11tp7TN9KARfOVP8i2Xzzeqn52Gt4RYss3XTVHK5TYWLL6dd25ntsYBHQ-9Wu4dfTUPRqrsCTBJX52MqjSyOFxR8vtHPkhaOXxIVi0BOFUzQNfIKE7FLHui1TTrMJ5h82SUSyoYHkFbdjy0yMev8_X1QlLDrQFx-eu_YCuceYR8EgUijxh_BWfww77ml0hMOEryZGvg4iHMcb9etsNIehaNJzxTD2WzgJB94suKRfuDW1dHDzLSQVGLiafbHZlu2n1w00OJ4yhg6KgRi0EEDwJK3ctsTPWfr9vl7PfIc1UeM8UpvcdjEu1SICuiVEQ5SrboMwImcAL5KoeI_ptFFG_BaiXJUNgzUlOSjX8u2nXVC5kA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHsgIM8oEpW5oCVP5tIpOXuEofJJrhHsK3B5ihvrySwpJ9nu7h-icejg63V2rPDhbXTT8sVeaXBDWWhhR7zP6mkR5HYWq1np26Ew9DPHa8XzpoppYt1Ds5L0nDyiHiaMH1Aph4oFUlYpBj4aS84sMJgrdWQFgd9eixRGzivUkL7xyBjVFL4ETBlTZOeI0vOlQufjuw1TgmjMjZBvd8xiklJ0iS5qC52VHArxF3LKle6_QQBnkblIjeesQdhidaKF7aZxKwbtkvQ1fUrN67QE-fLRGiRX2L2dR4e_nCHE-0BG582tyI4dDct5FTcZeLI4LrFluqHGaBcymuY8XNYFSGD3v3BGtixv6i3pXRAdfEumBF6AnbUjC6NfL6Ph-W7vMJtJgqdPorzZB2d2jkQjEghJNDm2_wCGmy2DDqB6b_a_g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEVbzCk_F71K_UEpJXZ5ilnx_FobAPdH-_wuYGgewd4R-Ly3eK2Z8f4_GcctlKqlhDIeAW1-mnS_gWuYl4FlYRmUW7xkqLnhEKVPb3L1bA_LIKNR7LgnpUnrYzGuJhCCr1OYP7vB7sl3Kbh4D1MObuC4qtn7WipfCxO4dmXgUHZ2poL3SeIoaog0sfO85G89EyEAr1-vcp2N5w_TYG_yYxXY1RcAZ4M_Bq_mFYfCrMEIOYCcJUnozr5DSikjUVbAFHge1cfEPCZcmvnvFvNbkcgo-C3zqwH9BaX5-rEFXZKROPTI4sYA8DupyTpiU4ohZlYFmrcRrLaawTXUogDD2BqgAYLFMCDXgiKT3b52njHpKWX7e_YSLMWUn6i-hDsuEVuop3wkI80icPjl4XssO7dXdSQtBYUm_bedPX9s_pKVK4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHCq6yTErpMpW8uKNuOoZy6aYk0Hi6UZgIZtF4JA1uaDMbxkys2ote7ppvV7JhK_lmZ2neT5ylAmI0h3uENxa7ZBhzjccoxUrgf285CLCukxbkWu-Mixpmxsrnqqmx8WcRp9g6tLj5Pu_kDFX72SxGd7tMv0DYOrAlFSBDuK0y7hjgQt_FwzkigFS9LUadO4qRAIoB3NTz0Qjsc0Sf2AjDFGuinaQ3IZj7xKSVR1AFSWVmwKCjOHsbv5M0XI6NUcO_pyeLYRBgfwgQJXvZr-6ifr3-GrOWVTHpDq29DyRwgw28qUFAyQdOcszdb_qX4ucWm_Bn7nLMI2-m1OwA2K_LE-Bi_0u5GvJ1flaDtmNL0supCvT0YLmR8xNhKjD89hgqrOSbbBY_kcYeAR5MeyLvLW9XJ4LbyFKGnDJNuFFVtwEA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH0b_7i1Iax-seHrBEbkqjFx_qyYyPBMPe8tZLPN3B_1-63YIMgzqjcl8AdZL_xydW-VXEiFf2xu5qbTPxBnejyDL3xl_ypXq6GBG_z44nGkdQNm3W8pLd9aUfaaM2Aym7JCJYbGPNCVD1lI8eypiGLgYNo-T-SEn6Jr7lnna8uDe_dsgR_MoV5CfvrpJ8FXEOqRlQ6ms43BUab9yeF9xwwgaLn4oUbLRi1MbBjaEGJiGBpDgHSfsTn6FBKvTpXU3AoL0R04_pJ2hEdgn-M9QyrVK4KdqLX2JvX-vDPHDgKTZBahxvQQGOMsQWCLw9iL6Wi-VeXdqjUDLT3Tw5DWZ9jKBhJS7gM4EP510lLhfJShLBgrgEJMKfTHO3fURRDsU57-51_i0QTErKjNeATEWWmCGoYpQWcBP9UPFHR3kCjdw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGVF5OeqqQIPYJAuP7GstW0kWp5Vw9ERVaY860SGuSV0l4Chd5_Qm9S-B6cSHPIHPsr2VQWLvjxkFJS8cb3mhGHALnKlrH4attl7puNaGzX-uCn6rKzdiAT9_FEhtsAtYYQevG2Nm6HIH2g50gEAVoejXMZ10GIrCtLwuoWEXwhJpjiNty3MLbRrtOnIYWRI-zABeEs_8l3wrAxb4AIZOxviggQf-rCdcW27uy9cQ9YAytdMHMUAzfeCiYJO02SKdxFd1o6j-c_TizMAe3oLhRKedBkg6Q2VBqYD4oretWQC0HOD1KmiM2ZgaCTaeceCa1svU8YKZ5r0snpNrNXp4l8IQR7log64fXsTJZX0FJTKkmIzCAmNRSpLBvwc3iMG9zFYNswzBtQM4hIkzxVdg2qdDt_7aqer08fEPxxQICzrOTS&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -141598,10 +142406,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(061) 509 986",
+        "phone": "+595 61 509 986",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 61 509 986"
       },
       "faq": {
         "items": [
@@ -141632,39 +142440,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFWhxzgUXmkwBKee-I-DtfCgSqb9ntHacwSaZVI4dvT-smxlgwEWYGSifAxRFkio34X8bmBLfh-yrx7LIJY400aeHSwurxGwAsJ1BfKkt5qC61b-Ic-rZlXys-oy-5ib8tvZ3Ugqu1Zyhy6VSndca4CbgTLVaNeV8Ypjdxp-S2o8Llq0ss80Mo0Qdmtxi81M6kUAHL-1r_BShdl73w-8msEO6f_l8WCrA4cD5x5Spg-n8nw20vN9GcQLON6OzxyAjrdec2QcmLnB2QqjyX8oq3wXHlgZFmDkBGYcJFhQyIWYvE-_JzQCe-1A5WzqYoyYYzwfLzr7k2sA-jSGUE2D4y2txVbSY6jiXDfDQJUUiNdMXf_IPLhF5g5FlBnMSiAHCOtDFMS5J5rqNdqRGCbjF49-XogmMOem9kJ7Z_MUi2C3Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFYCjOptnKezv6TOSxyDyMEaL0BKT8skgdTz9vw7dXzAA8uFUmL90NZVIo5qq-QsDQmfsz2PE4kLJWbgRWoGAHdFmPA8JgM42WtT6k2d-oJKW5Q3Vr9CpV7LmJG3EH4TYnrHVVynvvuJfDBsZopyswBa5qgyINMucY9IZO7R6EzAfXOfOsDJ23RsFnsuEiqw1036JcKGDSNUzlIm4i1fN5Zof72vh0m7nkATt4hWeq3Zq5J4zhijOTTPZIEbrGj-LhDanGKVBSG88EzIUQLK7_hNSavEUYqL_z0M655hECFxU1ASw-URdBzqYtuwU7np5a84xG1p70_Cs-DDtlwvBq4JX6UeY2Xl4wsIUrXTo-_5_O4MMlOTTg5_bLeA2pT6Sg-J1PYqDr8Mew4A0N5-b3T6KjVcfopnUnMQ6LaD93KlQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGTTTiKpFCVcF3wrzzFLzmScEuAjp3XPQlKUxt2nklMkjCu5v4c9pFilK4wk9uLiyphPdHTLMb88v9Bn0k-bKm8QFfyKkbYyKi0XzTQDH-Kduz2zwNzZ8NSuT1k760j5-mBFC_Y8s8gaUTdKc2Kb8-k8uHDV8_rxdJsurp3HhwOwHrdPXhCwRELxH4BrVU0PN6MUehmoKfjgeGcaVO_Ytk455jz2jbduQMFyFDD-Gac4_0GxCNkWXlfKMfjgfq2IE69hlHNHaVNUwVLjJjRhCNZ0vGTnRfAFDugdQUK3GysEmkqUiOUSwJX98eDFhlOggbySSUQnc2VZXFUmwWfGphnJVgJYXB6xjansZzJlKeCFuJvtKY0DUFYzur_YjjF2cZtklXPKXzvOFj5o6Qo9aS756VgsIZh-ofOBi-5zt4iQ2c&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8BMl-UcA60SsGp5XgRgn9zvoAqepENPJ_iKGswvIkcmKjqoi2MtPo3Ni9va6cAxHOisyscu5h_UkltHm2oSmCBL3j1QQTGyWIXdq2E2ZsJrOryftvCxjzIXspVcuvwDgQVrxLlVx9CbOL0LL0ed72rfm_J4k_sQhp4cYyWDO2kLfBdIoV_Su6dXTTt82zNCzTwb1UjDV3bGH6wGDfhHzG0zAQ_Cf-QkDfOkRWFMS4mXXyVyiNqaVR4hRfiO9dKje6fwLmU2cCF7hlTnjA3UrmXFYsjMspafgI4hA3w1NVgo0SnnCpa8ptS-Whl8mMkOfX5zZP_S0In9X4BdO6znLK0aYZM9jGlL6PSWtRD8x9jKW9CTXHKnPfeJkMXYK9qSYhxY2GAc3KoA-BC5cK4eiUfrhZ0w8G-i1fOBi22SKftug&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFR3p8t2_klNgB9fdkE9R6K5bF8OE318kUq6tqPidYXd-jZbkctw39fGaO-qoTUSR8uCOhNuDyoJjcKgYEkjziQQpGYZFyxp-QY_c556k-pZzhndp_YoExnEsAooZ5Qk0OL9P4FeLgHKaaC_-pD5vUWhAyMp9jWQee-bi5eceedQMqiO3eLP_8UFBUmbdFfB5PSuwn2B4k5RckYm3dyqWf-4zYWEPPdHGIYR4XErdpegFEtyrB8tftBz4NFkFEHP_Ur87Nd-_hemHLILk_Vp2sNlTbHGrnyW83s9JHUMPSGOwePPRzr_9TluqmWU7cFMHDk9wrwsbUMs-q5OQOXusGP-QLApcxhXZpi6ZqF6NQeYkIWcs0vjJcvs9p9TIxaJVMzSnVtGZxS3R-8R93puc3i993p2u8WhtRys7xgucDZAA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGFZ1gH1HR2C1wk2mC7CyTFOlU7Asn6bpqxkrdO5o3nDs47RWZcQ5DCe6aLwMtfGaZXNr-GtQjRw5sk-8DUdXz-BYggpZrRx3-SY_QMRFW1RBlL7ASpwkIF5dhhO9PQVKo2IJRl2AAJ4KlKjR7rQOj1tddV7ycEyHPXtqkDKWBfP3a_Xyofsle0t_MincAH4PuuXONnGp1K6xbOj435uDMzdzsnCv3xbRfhlJnGQOnhForChsDYIbqRg6CMo1tNVSlewfBotpjnbPZMIBkarUG37CsQYPkWwIfr7pnY1emSycHN_jXVro4V1L4qe-v_TXZwnAXd8J_9xvJg-P2gisjJIkxdU0dc_4MVyimrXX6O_w7voZaUnPaD9Kum7JyMughXG5s-vkDxseZurfEzy4KvpV0ctC5m7iyBLU6-jCueyaO5&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -145610,10 +146417,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0991 758633",
+        "phone": "+595 991 758633",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 991 758633"
       },
       "faq": {
         "items": [
@@ -145644,39 +146451,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFZRvVFjUYWtNKZVHhkjJWlCuE8Ca0oHvZx-0JJGse3vmr_ZfrH7ppOXayeB5BGG_B2qxRaaE4hjD3DR1zxRRHzWW0S1OwWPtIJpzCJfu8MdejBTCuH14UtZKlpdcFPmm-4zBYuv0E2joqN9yHYjuKxac0p8hGVcC-Hx2pDCIFUOoJb7wm5t9INuNClmIB0EHviECbrbE95W3gnvE3emUZRrIYYazx4L3tlhaz0JMD5UZzZaxDRnpjur1ACyCs7XFxd5WNJHeQ_j54C5E2kOxKoYE66PpE9Xa4nF5HGM7k0MPnaCSvhmRJxabuMYTBjzFJLP0xhktooQLO4xgUe-sltEspG_pVS6LJFDbTU5lFr_1lYEUctSdi-VhPdKJkO-uzVrf6t6BM0jzYe_ROzUOJJUhfqDaz89i3s9d-78pGDYQUC&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG8OO0Gh5AOVvj2AC7xXeW3Yb4uaJC7sbrXOf_f460J4ZKIQBhzTyqc2wqioniCtFFwD_RoydPRvZ09qV8Kzvc3wW2K_WARpuUUK2vmZB1d6o49O5Cs-wBKQyOQb2pCR_gfHp9JnhRO8F5-mNVEnnHYrJe5A7s7d7FnwFFUnwHCvQBwucXPk0Nd9Q5J57Rv5Jvw1C-HY0kfZEB1OnHpnDst7jzLpmhXsFaZJU9xAFL28V2RwOtJ3ssPIPpPo1SrpBUJ9arHaVy6A26Zbt4ytyTjcuJ0htsAhBgv4e4kIKTWqaNkO0ODOc9nxNHYJRp2kUqg4frfuy_4VV3Egre2pknuPUbjxB4QYlorDqAMXw3PWB0hm-daI_GX3m8C774C2EEgfJbAW4WSKejWVjmbUm4XhQfRB4ekTIzN-HiTaJ4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHEsNE3GdO25fSxGG7wHX_bXFfFfEAkDpJIZqoEdPEc-8-o6MNMrTBbQTd8DrWAaF-2ga1-RCf-oXl-Bwi8HcnimuAb6HcKWdw_NVULanddmTurEU1VF4CdrKpH17tjzNvuP8AgjpxCW6ndNa4cvx6Dw9eVxwRz_Ti_Zb_TB3Fr01ZgGnoHiZ2a3TwXU9YCc0HMjSpAzKHz0kuJuXSEQrTyx5DpWq_4CTIL-XTy_QYHtwOuqeJGZNru9WXkBfOiTE65nFnObbAyPY9b85jT9z3T_ffdr9291wDBxwqF4ZjRaPtKR2i5mHS32SohHvFFCeTZehZDaRPRk1dYMTu-jUFH59nQvMIhnoCF95pM7ef4fg3aaE9XhLIYKLMNd83eH_vnKfmjRbLSmfQjCI-21Z-86liMKjSKKrPrwkg3KK1nLOZ5&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGyzmV1GaFMt390ZTci-z2qQLJk80T-kwITgIwctKUuMqYIirH18YaTcj7jwCX-Qtdt5qaKSpVEuznwotVs0pGkXzV_BWH7gJ7ZSrEZRZ-CXGFO0t5cNKvzCLxX5zKJceQNixrIWCwCfnQJ9EHSRCWPSt1SQPfEPKu8Ht7Kb4oKsgPd7P9UV_hY1Cuo0sC6Fs7DyEmADyHZ5i06TE6pirTeST1uPzpYenOP7QrV3jBYWzJZaakAyp8GNQkTwUtQIt1Sye3hJfsy8bR6A_Lwg520XCMUCLrOibVVxWeMfN8Wwz66FM1NI7xT1Kt4jFgqkQ4Ne1ujt3Awwam7fmeKt_G5F6jmL-Dcqdkhnr4RaKYYskAiD03aC_iGg1clX6PNOevTnBKnOnWIfFSOPNFhtabcmwMGIFwH-XnCwpte9wLWgg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEXJzca9jDBlLgxspSAhNJEDwp8z6Yn04fcw-j7t4vC4zrreoAVEcs7xB0n5oXuHT_bbL-6PL7FCtQRxfIqWcpmfepnQsbYTMxNLn04LdvYCF4ZkN4kOuMTbrxNWtmq5BOEi4B_aeOhRdES2-uMVjYJhqnxgYR2cGHH4I6hNiEOl84Is3zuUz1rkYj01CUIBGaueAKyQnN7EjDUiw2yRRAzvb1KuM6h_Q3cQuLajqXK-zKV5gQeEwQdWHf3XtZZ13YmA1cuiRJhYDjXLwPJJ3r7Zj_pUMDhd8a3vcZlhfy5Ai8o3JHobDQPneGKPebs641FjeFuxWlrZnL4yJs7k3ipBaX93su3xtp_SoWfQpVjnfenY3C_aZs2OxyJpPtbNR3euXsH4oTKRUpLEHPmeInAZL7bGAScibUKRzUFLUGaw4vM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHDjMVAhUVmxi7Po2U4kdop2YfOidqm9giROCIMKW0plqqrW_XapsZaXHlcJKGLrK3VC9rme7MKGIwHKdccVnxFVtW9IdYFncwF82pTAnx7JnGGHrcfBu9G4-owIjLr1Isho7URhsaGLyUbpnJ3OeZo-2NRpDiANVn5YXJX15sTWdMmjuJ1_u8ppfE471dcbTycU3celeILXYMYdwtpvKMzvOTwVmyIxY-WKtUV5jjowaLgpoQcmuKEIZiBzadLkVkxm2DanE11Qup4fdKj8y6KU7lktO0B_QLav5z4fR5zZw8y4kzCdmH4-OOWsICjfZk_TWg6661JJE-x-XxLmOKU05EaRKgDPHOF5-1fjr17a21xK3wHlAVuKC0XMytMpFBxg1-fG55vq9qQjWCpJQGyb6DpxrbISlb5-ezb3iCYnpJ4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -146064,10 +146870,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0983 816627",
+        "phone": "+595 983 816627",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 983 816627"
       },
       "faq": {
         "items": [
@@ -146098,39 +146904,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHndo0t_XaC-NKLD696TzdEqarmg4FvVB_z_6JCt64_BPXaHpXjuaUtzZNKZbWzdZs27dSNzkST2YThyt-1c6Tm75hhSSlNlQKJADj4S01kgSaRXFLfrGPj-x7dXrfRDr5Iz0algH91HOlOzVEGhGuuTPvFbyqWgP2jZAASpu1mQ2qyGlTNKmRVFn3uWW-fVQoIl1UkSjKeHVkDVeZL8MpaIH_b5YqPdEBBt9bFJiSKNvhgLvVL_2owL_apqJc8A8MJ3qUA5Oq-pVuyvDc3SsAMHeVIrjIa7Y0tldwlTP5pJQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFeRpZHk27yPGCkNavM5ZMgpg3aGkU57_59UhlQpT5Up2eYHpPjITK9A5fGW0MUpfr2Q6lfN7jT0v4IMu8nKaE3xyr7NJUWtWRcf3UPr1nlk-aF3ZUV8oqVNE9yKPVu9DtzkG2P5PiI2Dt7-fOrWGVwx-zO5nbLzCn1KDjmC2fxi9Nnrtb8nceaojfCy9aQBs4AyJMu8xYqArYdOYgz-DbeLM_TicFh0uHCQvM6smjFg8CQ6FG8G9eNA1wbIhWAiBiz0X7P4T8qVRdKKAeiC9wgZ5GxozLVSOXWXVsPRMVwBA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFtnrqLAIeHnKwdQ-nLYZGIWeCztO_eeqPuprf8RXvlyNqKGpD-_R3_badLKly8UcaAHM3iqNq-H1kR8D3mPihn-J6oWagRI5Ywi-XXXnCnZ8q-zIZxDfOdNfr3RJZUn0mQj5NkxyHmQG2W9MBkAlIq9QYpEIRtLhMoAahD2nv6K6gxdAM6MbwxxJJvvnF-r-xxqeVlQcxdO5lWDnXkOhmZHMdb6SVcjh-ezoiV0bLjfn3P60_-p5Vl6Ry76IARWVhw_b2MyOhdDmDB_eZ5nkzEWAkXdt9BB-3T3H_a87R6Wg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGHPK-Cc2_rrNK943VsJFumZHKMoiLsFiFU3QH9XIea6XjM4touPN-VO_7r0el-JBPFmXwXXpQuy7zqNtXEw8-wJ5JyOtrBXItiKgbtFk6I5x1Ni_aI8k_teAto0wAY1RO3pGXFs3h5VqUlejRe9MnK_XYXh55AU1F9zDgSP9iD5rGQ5wu5K3XFZ6AuOdkiIuUUV3fBlBSiSMqv9nFvAJyRPzN-WDZtOLZcWrpbayV5hrYEikWzHuR8K8ae87Q1870As2DgRkZpBsIOe0RYorNvkWIQHvOeBtV5DNNR_YLGWg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHSi-YWEpl43aC2MMYSockJXOWZ_rKCc5ttim6vvTUeNM6Z1OLre6u_tcQOsg_Px-sRUdBNz9K5RgQ0H1tscDwizODzuBCrr8nIrZyRaWy-5fYGCORT83EWD6uEoY72zZrM-essFw8y0lsmN4zHT02zkx-dIUwOTwJV9rIQ1_wwMKxIYLpgcBnTtnLB76PInJUuXpGF3JMOsD8RY-UMZ_INdbkjWDrr5NTHoSRg0KZYHyN8Zc990lXc-IJFzptdlLcie3mxE2gSrWjrRF03JjVWXyUyXy5ZoZMhw2Vm4jSMVg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEBqLWB-CE9_B5NJVuCehXVcnv1dk8wK4bfcF01Ufs6x0IfKXWU9ZlfsufyGgHIAWnN3ga4nrmj1zaZOfHda9smhhWf7WT3OqrNndM1siHnuzaVDLa60FzjeurnNr56_FmjJLzecSgaX80bzQqZvFS2GB0G2KqQJs6YY3j8UpedQm-gBGai3Pkpphh6MF5UxtVSmM6Pcb4sdwgvhOSiH4X1Wt5TPrFf0Anl-UqUg8i5xJa4d54KFu2o1hBAnVTfIh5TmjOdPNj56cAROzHAhUhuJt-DB8mf6A2ebunnhWMmgw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -146515,10 +147320,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Lorenzo",
         "email": "contacto@demospa.com.py",
-        "phone": "0981 555597",
+        "phone": "+595 981 555597",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 981 555597"
       },
       "faq": {
         "items": [
@@ -146549,39 +147354,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF1JtqbwPskTqnn31z0K26uE91KVHJQhp3SaCIB_hPz5v6yAgYC4_hHz4I5hCa1Lte_cGUWYcrDTSnetz8mUKEEg_3KMgWYa725OY98RfBaIWMoX7yEMxDLvoEZdQN3gDnWlRAdcIo-AigVpstvgaL8nxEKBWevnT53-GyyQRUPuRqJpPZ1pHy_MRdGxrCux89xZRr9PNCvn15omMdTxXjlDkaHoeYbeA218k3ajeJXPwLDkpDySVhFicAdrOPqdRCkt1HwmpcBFgbWf978mpRh9VOntpd-2u3Aclc4yT0p4g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFkx3VYoasZfoMv9HIRsGpUR307iFId9ItMTJ07GtEGJKvfVyePO0Q_zCVqayasmkBJ3WKd-pZsW9qx2L1wcyM0uynbCnfQBwZH2PMQcd7IGja1YlSw9x_AdibVOHDoY3t-YF16gKjmKq8qWEuRdUZ5EqgBPawZLRG9urexbmqHvhM09fJtlUm7sIfIhtXX99ZFfSwxqOycD4Vsm95JZBLrV8afSIL4WZJua5hL4LvWqd2j2_Y1hHkCBKmsPidmaxnKJHDC-ZoEPxgAfZIOoFlCuxK4Gi3UcQsZCrxhe2uO3A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHzWBo_ocKoFOPzY086Y1dYF19WFhFKqKjcUesMaKmQu3o0H-1K36pebyML9ZF3sOc7KoHMerrjvtdaARGJd8lqJ53wi8n1-25lkzBmrqVyB-oNTHs_KJZ_iW47iUzxttIdGWxCxHWWzM4yvU6ya4YwmmJUUvDw1nAci_hpT4iCECsyg6sNYLId82Zz7B-lt-GT-97eTjvErnpheMdLVghFaOuJ7GR9i39dMSs0P-rSpD4fqzMdAh1pbIiMHTrEzjgf_Abv_aeLYARFTumGxK28F9fmd-dv5iBVHFkum4QqIQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGhIUYIr0pQXhAO_Uk-HY-vrkV4HGccq2b88kwAQe7ZIBkG3EuGoLqOsu4JBUDbWzyr-ma7KysLIYQ7e6NJ7RQUmflLDkCDYHGINZF9tJd5L54N5o_I0c1BL4ieQCaVQ6OFsBNszQsmsDxE1tLiSTFaAj2RrJQzEZ5zbGb6hOaq3aGFnMM6_TRM5dPzpGNvvI2KK7hQ7oqGlA2v_vqBkIjjaova4jxCsyFbodnPneRrjEuYmKZB1z7ZjxrlyNdCBeEwM-ZWIt7hhp05FDcaEoTNlo5pmle-b6XWfxiAv2c0l7zYU9XgDrGYVCkblpQy8250YPUiBS79IvA6BKlvJTeaGyDqWaevZm5ICr5tfxGWItKmX9cYo6WyWzX-IekrDXBsgi1o7S2zvm0d9InPjdvVxQGSiKc4fRMRLOhYt-S-dFQQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEl8kMmH2jbcVeDqxGAcYXZ5AcWcPV_T4gY3PLvEeEPolAZdbTaiwlNRY-t8L5_NTxJ8qxkTVFYMOD7eXYE259xKsMICrggAxHXVb7mucsf3Yspz1AtVrniNOmLqDa3e7lR__JAs1NP2HqVv_gTZByQkSAB59bGNV-Io7cfxnofRW4YAAy-YUG3tRjax7-e-Nzawz3axp5U2t1uOhT5ZpAvEtz9QAzqpCd6HeQVJ7Y7Rq5iv-d16ojJ_s2_US5aJO2eLrnZygUdfI_VGc-Gg_Li70YMKr62Nbd0SAxE7a1KPW5KTrg6i3VROaFjX1j0kOvEZVliV9SY6l7r_SX_MCwYqBryU_-HoDXb8AK04NU_gcRKGA3NXkXEfA3d6x9CTYId8M_93qhcnbBoUxEAxUuKptZFh41cFM5Zklwb9Pj4ew&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHN6rKE3xY-MenS9Ewy5qmG3pI1FiJqVs110P355K0o072Bu6wz1Q-r57x4XI7PD9q2HAK9oz6XW0ZTCo8my-32zAgeGM_dhaXM8fYCOovRalMdORPXbZQrVKAYhx8XK5TrjqEqJF_H1qVkGvzfz2kiQor3aM5UGYMjsNm8UfSbdvgSN7Nc0dre6spBJAbQ6qqzwwwit4zqr53dI9v0DNL87UFVFo_fYTEsp2vgcwNBniBS0TACDzPnk9I-P7f4X2Cx2ttRT4A1EfhAHUOWYZi9fKu02s2E3OevxKPsfYxCn3PUUcXbtdiIMmk-s6DFzX0y_QSpkswvHhrHnHCMsHZT_2g_OInVf0KAp54ADGpWsnzdOFCjC6nBNzw-prrOuYAHP03_NqlNSRJEYHq7FqiA-wf_xXY2sXD58Twosm9084-GwjwezyRl2o-smg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -146818,10 +147622,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ayolas",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(072) 222 624",
+        "phone": "+595 72 222 624",
         "subtitle": "Estamos en el centro de Ayolas",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 72 222 624"
       },
       "faq": {
         "items": [
@@ -146852,39 +147656,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHE1YSAco5BoKfpG08ypJsAN1puoCY2cS3hQiEEQDcrJzSfCUlZW3wUdasbA3la9tA-wYPKjr8CYzwce9XJ2kiSelGDGUgNPVLBP1a5RM-fNL0l-t3veE0Fd4mIllRyx1Qvguivhn8_zjCoHf0xNmDU91mHcP9q_mWbEyoNO9Y7UR2boPgsPri5iL-UKMX2fiQpalBASYWVmTW3U64qPjz9m3N2UowDn_vZIsuknR2TS-z86t-CofIwUIrwSYdvkE0s4X6PnMqD2DgIBW-m_9S7Q1lWHchbf0cjXVqs074_KYbrpJMpUn_d49lJUKwNG-lvHV-nZkHM3icWXG4emQNxVdj6ucK_atl7Zdjl5ilIeIL-_vK0QNEh8i2_gmXi1n3fnx9i_3-6Ia04c4eba9Fuxh7zCd2GJv03FKhSdNXWyw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF8dQap_F4uOkQBpPwgotuOMBaQ3RLHBgnHIktGRXIHmBt0sJmB3trZ-3UwWmccb4ZwubpsM4iYjcReKQNqy09B0M09YdstZHxIqhRwILylLNyO8B6VAcA8wFpz_WnRhAu3b4KwD1JMZX5cEKxql-Bd5kYZVfOMhPMWTP-OdfSwMY445UG7K3Dia4iszK8N_6Esvc2GtzB1EhRVrxEIqEvusbYS-J28CMbE_rmM7lYjWZduYq8uLhTCG_MuymiU7ljINlnsMdmXSLEw3McnO9PoKY0metUmRKOu8Pl2l7lo-nxA2sUZKFe2cgzCnQJiABi5E8yzvCc6EnrkdI_OAcB5L-P6uIXguEL2EeJUsa_X0UQqVICiePU3oM734AC5bS1mWnEey5lTE2uvbZm0z7Z2Ybg58OSRkPh2c7cZ49UUAj9l&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMrfMWk-UPNMw4wDI0HWVMtUIf029Lus4FMwsWUvbkqDYI6KkiOOla4aSosBUP3muxQWS2Idc1t3U8LS41txoOru_WK54ba5BttCxdqhomz9z3pO4d5UJTZtd8n1aEInMqwSit_jX5tIBWTAewKPWSqOQL7kmyffOiBmXZluFFkUGOUVCODlKDCLAOREdtZSRptXSqrCgT1Ohb_DOyvMYDOYRypG6VW9NjgZQHAYJAn5e4fI181ikzNMEgk5dM8h91HT36nDkCdvwtjcoXLUPnjWtlx-Fp9OO1WjlO600p8cxkAg0ZO8No8Je9603kYp_q1mq0bPeL9nwjtE2N6QItrVvDNLFXF3D5XoEIetYtXZJGCo2RCCy3Oigk84AdmiJyYYaShDTSWXPNCf-TUwh94XPow8NHdj7G7h9HtCDufA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG15Gjj6E_h9in8AKBJ8o9C8bIZVc01rXhI1ffjbtRExiD0M_XD6EfwuRrVmSCs8yqHsX8lRbi6iEjrib8IpoHW7Hd3hP6X749ct2kjFlL-Y4EhVmb-RAdT5wq7f4gJCMKqqTIXKm7ES5_VoehP8z468hr_13Ml3u9BHjUSCMNJxsFzG_Xr3FHSXBCLPDOW-QAriSDOA2z4k8aauu6T6rrwVpYrLkHIgF2u60h-vxEyFHWWcOQI8G0xJpusuvo8JWBE-bsirroWItB6opi6MZHim88ANvksq66suGbPzJpVu2IKwBDJhxogItEJsYoqBHrgKa68yw2MrROx06k2lgRKR0WbBzHY1HQSaoNOYSS_gRWRewG37GLkfoLkrPyZV-2EZqD0lwfDtgkamXwa0L0BttEwC0-prHjVIo98JGNqEcqo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFrr9kIsuchfXdFsPsdkrJPLs2aQFlYd5ei-Y_tj0SIbLwoWhPmsIANobEPECZE5S-K6BhUbUKFOdljQ7RTETedlqc6GCfYuuG0vmkcVYFtFEMLOoZQKOZ6oOm9zBJHObDtfN12YBRRpQuSeGGEQlTsBXiac1ZozR6XfKVJ8jQg0BK43srwxkgjiAWOGSVvpEXMG_LAASYiJVM5yDYogNFVoSg-uZjYMAjZ6qc3mFu3MKx3wM7QnrYpSUW9qgTPp0gfN3QxvO5OcHbYaBzNo-HbParj_glg-IfcWckw_Iuo2Ku3NlFyP__ubyXxd3YVyjzZOEJL-WLBr3r7ILvYMjWZKnj8ga6RCbUaTuA3TcQ5uJuPTdSU0fWfMU6Ca1unpvfw9Utfj3C6eqwsETmKzqnqed4mRilMXOB3D7Ck_KVVJZB6&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEG6GQ1F23sqB9xK3bJHOHXtRn6HZVz04boII490mdulI6_iR8GmF13J_44Qc8uCAodcbNMCX8D-rjkwTEHFNjier8hO3lOrhTyIzWsadLQBYOgutZZoiQ70JMXakiO7PeUuhifEze8aRDYS3VIYjqfzSPvMm9xtN1G3mp2uZFJuNCg9dloy2lMO7EkUlBcDJhZm8A3EDskMxh8j8Q-w0GME7z4shzBRmloARQ2Es6pY8cf5TL-NVdb1qBOR3h3EbwqVXP1Bz5FCZTBtrVbt8pqPG0w4_NSqSwaoHX2Df28nNK0W7n7TzUCE9_EJDq1ZxsbLi1Nk6c90tteuTxJQyhBxfBNF4BylzCYvNxR8ffgJgmSDhIDHFGEOFQUmnXoWJxNIWurrbh_sP4v2gFYb3qxKduCkPVt4-42tauZ3Lr9OME&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -147297,10 +148100,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Luque",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "(021) 655 172",
+        "phone": "+595 21 655 172",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
-        "whatsapp": "+595983789012"
+        "whatsapp": "+595 21 655 172"
       },
       "faq": {
         "items": [
@@ -147318,6 +148121,43 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHOkuuNogBvJjKcwUKvLT-sK6Hrzcx-GtOESH5q4JVkM8eCUZ3ExO-c51afGSOJuuCg5YBpKAIPZMmpoAnu9JPWsojJT7daEg2WZcdN6y_9C8AmN-MFcyTW1o6pVzOlpWmZTLKwJQErGkEhbszHxLBp_bxypzrGwFm11_ViNt-0DNg-RT9B2ehawi_XOWyjIh-BdIpKf8dlpQo6ISvnb3fvYCd40CKeb2hnev6UsVC_a33A-dprlIPNhlUx7CWqhDp_8x1Uf6TuDPK7xWTliCq624V7Q_2UueNR4IkE3PTVY0jInirCNTAjevGlMSeIngadeY9gSTuMU_fWzfy1yahv4Q5IAsb05-7Weg62JDi0JxkjyXj4yiEmdoinvVMxEa6fRJsGwSNtEWjJHa7nY9gJmSchI1i8Uj7deTSgdr7kcxnR&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFLCoH_2tHnLPCMKruOxpwd9LHZVbXgTRlOANZX2n5lcgucqIKgazq-VgP2QMEyW08igw9MNTxP9ugMs142xPyIBfN8rmUHWxz-0ScrmKGC_LIK-43aW_3pcmDG0iCeFwua9M9AF_-mrCuRHSOI1cINcLeSPO5LzIUc1k0WI071itPYQfsWClhFtdZTHyNiy_6l9E4S-hXIKQmtAj6mkmkTAAETQ6P7lyZLre4Fm8kDEm_7AOE_ubCd0RC-aDLd8JkqPFCZDZ5nF-1nqEKFrrK0YvDrUFWEKEWjjOUVkBB9zZh77KAhdmVQSLHEj8HMkPcbuG1kE6gr1T8-M1THZ94rMOJTYSsowisF_NbwqyT4g88tzQ5WDWxXRhvcE-cXa9Vd8rWv5Gxjzhk4EzgwINVYqPrHh2cviS5QOAxa-Ej3pZA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG2z05G7QRe26x-nSvMTBwsl4OYqrFtASPZYG6uUyrfZKPneYXfcXLrzaV0IiC-4mhuC-nxidggLHZbOtXI0ROIiKr75XVQGzncVP7vJfzqyipCmiosjXJ7O_M8PNaPFbQIHOxxVnVYMi7z9HU-bbHGzNk_MWbu7XEkTQxS7HO_7esVYKz5Sza3LuPRjAn9t-pQzGtERqlG9n01cV_ekhHEuVOv9bQA8rcc-pgAC510LA_dCFl2vSPKIFf5wVTplD3wvkgWKTHvHHT28KzTWYAs8uDCRXkrlgGVu-FtIuIgYQv8TF9e5qf6Owqqtya5CP2yzfvCrxl94_1e0WVAVfG1Y6Jo6FGeZbiHF507mcQJOQN4iGsIjv6ByaYPExdf_yEpUU01CZ3PEBAHgadLkNGaM8NpcEBQgCmaYHpsrFNDaw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGTTEZCwoZu-ursWO1FtEdZlAPvb8PMzeBLg2BmKkrDFxVnK41AqT4NzjVTFc4CwHvi_LN6XmBVD0CrIO2V01ss7qQRrBMWsaDKBUkMgWheon93vtcan6iFTW25723CPdUxnKkUy-FDp9R7V2iQMEhHxiYH_rQRn5LXqX1r8NLrhOLJG7UQCyZkTdvksmDCqkU_72i2B54CCgOPHLdiZz4ae1D2lRWmLWJZ74OpLhv5yIf04aiM1ncli51l0wZzVuCb9cRsbgiVfuM3Kqe4z-Kr-qeZ3mwAqyceyoutECJs93jAdMqQ1xfANG2cXK1hcodfOjKGpUNgqSAFimGl5CIlARz1RO6hDFEl7PUxZ0575Qe0vNxN7LlRoN7QwrFmrwhC9-D6RxGnqK71SeljXSWYH4xOQO9o-ZZumuYmuRZfpsxl&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFX72--zqGkSBcywALNii19qfXh2ZuHAqU3AWvVA7XYbxfRE189cj1Q6AR9pAynWBph_8Fd5XhA8M0AbjMvbdlb7PPXPeJAqwUnfRQAN60_79I4y06ipJDFODKiguuwOnOzeB5jGxEp67LlWRLDXTrHvKNs0DyW2tAxI1CxXEKmHo4Ddh_Vkf_RDUM95HIyMAinI5IAnBTxCMgJ90Qu5AXo4A6ct4X9LkRGRGUAal5iiqMeFUc7ZgbZoRbWJ-dqGounpIf9LMkycdr2Z2FFNyuEIaSubP7kfgv1M-pUBZiCChYsgyCA-p9YypFVzRB2zDc1mu3nah046YLiVgd7oV-8Xl46uqaU_1hOu_AmE_dLYNgIklPW3sYCnGh6Ky_YXPZ744I4WAZ6iWnOj20UYkiyp6c3DVy7AktH7wvMdbVdkrw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          },
+          {
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGjubaJ9dRRod3UQ4TzfFdZyBAFtJVRP7pmBKTHFa2NegsIKdpbQsqaxsFYHK290IEp4iQIwaZQB6LpfAzi6wSEFimn7dLrN1UBii4K5JqEJ7Wv3Qa7lDgNwev-V45oaEKhFEwGHefxps38J5dn-YDGByUIbAufr--dqlN9Ol5Zaje_ReBfSnbQGgckOSwP-RO7eUoeljtp8zPJRf0PgfR0xRjdczFQp2aZR3hceh9OtJ2c9YnSA2tF9cLvwEMi84FqpIJs1ogl7tatnqZR5_oRzXCSLG663qglGYYMyxgq8RshQefa-n3K1uynyC2nZeOPVN7ZsoV88XoHs12mki4QU5pbip4YYO12BTAt4YQaO4xHHpk1Zn51N_qTT1aYhwXnqzLndM0ZAmnz1tRndeDv5rWbAHie0NythVk6XBmh1P_A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
+          }
+        ],
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Empezá hoy",
@@ -147764,10 +148604,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "Asunción",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "0982 473078",
+        "phone": "+595 982 473078",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
-        "whatsapp": "+595985123456"
+        "whatsapp": "+595 982 473078"
       },
       "faq": {
         "items": [
@@ -147802,39 +148642,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Degradado medio",
-            "caption": "Mid fade",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHBjdwoTpAE2p9CafeDM1mHH_mupsKJu87eEEyLHsbuRBwjjYD4XI3hpkYkSy11J1ZxgsqETs8Z1lQjTp03Dd758bin1ZjEnZvtJOLqHelnvHcoCnZh2C4hwe7qWfyXLl8bS1OlYImDmfOWjIiz9EOzIlfxZp3udplnCnJ0m6B9LzpIobs1oSP3jsaDud6Zt9NYBe_fY19Nj9I86lgE-jZpoHovA6Ii4MW6gbz5taYTGTrq1Pznnf3Xtl-zNfdeSUovGMOgZybkZQab-M3nRa5o_u39MhUAW-1OV0KhvKxrFA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Degradado alto",
-            "caption": "High fade premium",
-            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFVm45RBAdyNJojMAyeeHNwC6JKRqpgIVvciPax1OyWa6TzjlKnV2jfcFELJSObsLpL-hL0-kMEVFhKhchEWMy3nKkAP5ja6wtm2g2r8zm7H2OfzcATOUZjV2OLRuemvCx3SZ6vFboAo8bwhSS30yDh4DceZQL3p1gX1zpj9uRvpmywiu_w7KtoVHe75jPSh1nm66l3pcZH89_6CxR5mS_FtoGf9muKrj1RudIpANeK2EK62WBkpLsH7_fto6Xs5tE11qduNs7iFbnrB3-b12PSkHDvmLaReURBCWZlukjstA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Barba perfilada",
-            "caption": "Perfilado de barba",
-            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF2xz_5Vcs0GFgzu3w5bf_30FlqAYP0QO5Syy7vpnGvOa2BKfaADed0KQhXg3G3U-R4D9TMYT8aAqsaXgROyB60OVGHMOxk_r8g-LapVvduZzqi9qupAHbDgE69drU6McSqWIpx0aHTAQOVNCK_VpugSMIaEZG5zw0xu1u0GGrrMABC6KMuvPi3ZH6i9dgqoORSUxVaFUGA0vgn8xSfa-N2ccvaRrDtPzCiqbjaPHYfdWEXCtzJxuftzBbEsHXpohO8yPyyEhuN7YuwrMdy0WK6X7M_sMA0CfeUw1rbYwPka_RlvVItimYoemrinw9Ti6NwPoYkQD07rpv8CvrHy_9YkmOe9QjRr5Sjx3Sx2yQiCcvkSGvfGAkvmj4wc2rCpzjt_uM5lBTPEcyx2D4mIwB-5q5TZXYy-MTIFveqNq-zKgs&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte clásico",
-            "caption": "Corte ejecutivo",
-            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGORiJRJEYr7Q-6-06IWxJ8ZKQqKvI92bYIFFm4xY6WhQjE4979cHpoJ3IHC-Kmkx4VktRaMaFalc5vi12ae3JCV50lxEkDL4r3sWkX1W1YMvm2Cn1j4h7Z5nSiqP25Yg9bik24TgQz4qnBj8dDRuXfA9BVXCmdW_JGDo-huxKY-l1zTJt_5FCpDsjc3MijQ3cFjY_Jm8-ZUudLF64gjYW1ybaMj3afHm8ttcg0bDm_cKF4Vl9aXCx9-hfYN-s-kUk6j8___VbA6g8zPwvGBVWstuAbGTk18sIOEitdsXwHww&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Afeitado tradicional",
-            "caption": "Afeitado con navaja",
-            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEzFspV5n2Gn4BxiwTsITgdhjIHmdB7FPW8EsJwL_tUZslB4eP1n6BV2kQmxSDpo5EcEXMLe6y3FIsWqSq-PWR5WiE54OsuVd-3G4D4yMtiMiRlFy0mBWMezGas8G1je2Ghi21MaQzhr-HShIqCSHEy7Wg9sL00eTSHdqc2j3JDMj87W9Z-68BhhyjX2-ax2LGRkWyHqnqIzmwgLpyoTFeb0rkzwjtj6rfMK6E082xT0dyE2TUnk6MKKu1PKfVrfcmprGsRzAIu1peMvTJjUXz_zHcQSGjFKcEN_j6XUtv82sfnxcia4yHZMvC6d0oiPIl5QNNbo0J75bwmt_AjN9_V5zSYtzf5i49Dnb76OcDRdbCbDf7OW3dEkpf6mlgGro3M9lmV9FRY0vabKnIA_x4vW_UoZp5-nWgbuWVTE64&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Interior barbería",
-            "caption": "Nuestro espacio",
-            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEagvyGut1y8rKynFBclpcBHDnsl7DUwmfGBqmwojSn-W5tFAda_wqYMC_wVqU2haN6QM-lMn8iejj7ujbjLqystyLBDODJM13bJm7-G5wysa5g08VDUZUDoiXMSuk3aI8cwVBmfkqELAB7ZdlFH_wkvExRcXDsyZfOA9PFnp5tUqJzU9zEinkVHmgFOrl_orfFiknYYPGghKuOtXjlsINAxIIN6EdMCU5LLczg-Q0bhgs6T8Twa8a7qaLZAXb4L8Cdd_TJPOCRq-EzhSGQPEUGX2NVrQRQVL2hBfpsOkFU0Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Galería de estilos, degradados y transformaciones",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryHref": "#reservar",
@@ -148544,10 +149383,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0985 857700",
+        "phone": "+595 985 857700",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 985 857700"
       },
       "faq": {
         "items": [
@@ -148578,39 +149417,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFeJuLUWZP554lYn1d4HAf3TMwg4IEttUEtw6gYSjaY4tvUfKSIjZei2cR3KrZOa-YQhHGgO64xksPQUDly_AEV4nkvl-5xpMu7z0mpwNB9mw-HZo4KvKT_YbQpGBRcYi0Gwxm8ELRd8u97Dkv02fiN3mq6jRLGAPNlXMn9NW3GRcHtVqU0Wha5ubxIgusdepzIVHqDwXeS5ccH0_C4c0ZVFfP5XMYdKxwuoaHohuVtGh-1Uiz6xzsiScD5xYKTUcvT27k3RGQUfAhBnxybndZgodDPkwigF3jblx9KrALZlw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHL6uopm1SCM1fy9NgPLiiIeabmxPox8vPg22_AKA7NaKAR7-vmhmPmCyY4O7AG1MwbVYtCQ5u3oiipEKQA3HLhm6HIAOhf9tfF0qpvRXnNyJwl41AboblUUgLQwghp4dvDmJBUUdE9XKdIqhWu4_C2eUBs_foq4tdivgVIjyd6oaeh2y720CGRHgu8VlbdJ0dExvroVjL0R6kqoz8RngEYLbeX18_4XMyTlWplYuK9Ek0cZZprqV_21YuPuS6lA7TWk8USoP2TehrjVoXmt14f6XZdYq_w29SZEP7kHBmg3A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFNWR_eTXl_m_JIfqbQd3zuEpiQFuQvM8m-obDzWV0H2-IVPAv4Sm8iB3e81vdmEcym3x-1hwDM1ee0ZKAOzlX7_kDHPeAgMxQKqgYagp_zZBiVrxV9jyV2diQUjISMEoMV3Bn6NEsnk_--_0QnqcidAP5Rg0L0_spdjAg1PjWcWCMg8g2uuy5e781rDK5Y3eGgba9Y0bqtFkuRcvBHNrBXK-zYULKS3QkaG13vjdM8MoCgN-_rR-dQDuRfjKkQKOIXckKGc-bIpVK0jkbIj3rzkOkjdWedkFZsTQH3GE1mwg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFK9ozX1Dg8oMO6b5ocTr1A3AJ_GWN7m9UHMiJnUiqM_pi5c19GvsaMj5DPqj-XhZCRErTCpAbao6Fkw1ftdb0GdysGmi9jc5l8l-h6RGmN3tChDMFoBbdxgf_lVCf8xCASznm18nu8aAbo8AQuWF4hNTyKelSAChPZ9JucHMl_lNQJyRnRkJLR5B6klYjZ7kW_njQuu0bIk8itQ4xrrvhqDyywE820ZnW_QPa75rsqpecGdt9SA_InZnO66eVILG-WIBTmJxEJY-yM0hny9yDfhiNCfUmml55flUwF55UbWTx38Fual0AB7_kqTptrmPu7YeTa76c2woYZQZgHlfFJyv0T60VHBRQWCRUTETEG6C6MTqP1ojcRwM2Fgn8Ovl8kdIKcB1245hax63Tu711OHW02CoYV-qLZoGkDLI_YVg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEy5W6dbYTRkgHVRhQmEoMWdEA_8riwM2xQdWU_synEu6NqyhnP2rb2jHR_VV3UUxt18IAtKX39Lawq2YdMgZpANqEzOMEfvZmShx8yEK_f54r10kk9m8O8Z3wRncwMUF-cQBz9f_DOSINRGHluQXMx79726OEWvjO0USv-OWJS32MamK-wS0Xee6nZMWqbgRzDMtnjxjYZI47EjSMDkgZVvLW7fwjNkbh8I17AAPXE1L65h7KghqgzjJjju7nnFdV85g7bvkCykqJO3pm0anO9MOM2KmtcLQw8_ic2azPENA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEuGX9hCXWw-aHHXIuscNhg6BL-6LjbwRMPKl7y7OZvclYIDy24g79cJPAq4AYphctz_EHnAJW7N1RfLgo3AQv1VyEGkupjy1RVqujntp21xzKTP7iS_4oRyJuz_t6JjLYLXHDDtVlgjs6nmZ5khtXj2ORJyrzObSXkxEgNGLv-y9mIa7U7BQYEPFyxgxqZ37KDWvUyfJmbKaGLx1F9B_f1zTIz6jePV9287Ri4bM-qGcB1sgvR30A709_YRTfgKu-pIOfmdUwl0rBU_nPlZieroOOKEZCrg456E9Bmy7tKeA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -149000,10 +149838,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "0971 252626",
+        "phone": "+595 971 252626",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 971 252626"
       },
       "faq": {
         "items": [
@@ -149034,39 +149872,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGyJauuF2Lf8gppvcL18VX1LH4qqrq2QX_oIh66CprNz4CPRUNHTA5E8lNow4ryIVAUgaWeK1htfKPlQMfTw56H2yh-fyi8vRYFZTYpdNJ6fuxjukNtTFinAWz8-a9zSeC8VLRy2MdIkgWE4KIRkqsSYzWjaiAjFNIhkWfycIrCeA2XBeM4o3iE9wmU118JbhA8zW_UYNJB0z09MXwbqTUHOnA3Dhm0tJ_fe7U_EaH1keZ5QakA4zeL8ASGQsTGsodyC-HkgR6dXd-3MHTMQSENBToI-KclsqrbyZjzAjopgqP30i0iLEc_CBklMOg-s2g3ryFkcUBT4BxquQjZvm4dXQZBMfWbfKycfbw3aX_chq-EOthtNRhf77HpCNqWEqpMJatJErlSWE3xk6gbwIYZ1WP5hCkFht9wgPnTJzg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH7W4auJNVXkHMHSYF7rlG-Lo4Wmx7L6_MY1ThecRlDr_vuadYzKpdFDomCVFWHgoFFCOY-SRCWXzjLgjUK_SgQ6XCdLZavTsQN42aFnWUKx0w4M_AuTd-UUVleEojNcUpKCjZHYx6ak3vX2ejJqlmBFgtzbS1lLg20KOWFX9fI8qETuHpi9rOy5Kn_y5RkyW0HDLH1gXsnYVrcjIIz7KSAh_rcnS1GSjcfCCAowxoHNSkNac2qjmKzsjUbM69DNsfqY6dbAYXo7MrlxlKZH57LJ6ZRX8XQWXTgmOX7j1gwtORiXB5_7N-Z0j8iy6q47Hdf7fM6rVQiwU6f1iklOxBKL8VxKITUpGTQXJhzuYcOEzeOFZpBzSkBjUfUoe1Jc0Nk5cSvwbo8Om0Py8rvterlE3QR9mwQ6NWNrO7TKQmg1KE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEER-YzT4wKFo2U4TOGEzmWuDR04N9WrMrvfFBGXQ_pyZetwprohF5WVpYpFgOqvhsTUJQHxEK9oNomNgUs_kNF_HPJqNhnUPncUqSF2feJ97eKDzLcBnBLg3mkvGQptg4fpTGBZKaL_wWzNkyTK3AHfZeMvycWWsjaH8kwDtOQY60glgDlTCGXGJB6ECnl2WSxV9MeyqyySkWNZI4y6UE-NX-NJU_VupfcW4PK2BvED22Fx9ZbRaR7L5kunsy8TPOx0gFqy8mq0FAsRg50QOZXDtA6022YvYzIhYPVaYKCQ48VB6LZaIqRFWI9NFIFoT_r4dvYoxAfkE8crwg1R1pKzYah98aj8JSMNLxJ_y0W5II65u9q9TW5onyxNZRUs9RnJ2jI9yWmjx30FsL5lsLT6x-dKwhxriY4BbSe-lQZDakg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEA51gx8-2Eoy7F-oOv52ws7Wd5xMh45vsZtu-B0fiyNFSb_Ky_9B-x7iYojzQia91qSkiG_SvbWgX8X9ksfsRxAccLZrVbHvUuRNbfsSa0awjmm2eJKUe60I2kVHWGbY7yIP4r1S_FUnf5f5M-unttBAT0_uZOHqbNSxDmVU_sOCXIlnk1bhvKMYDvL0BxsBnNyUV9xnDoR9h1LLi3LKJeu8xOSdeuM-dqFrjoTwvIc6i1n4JBk18xBlvpVnFleXkn9hmIIfhvDY3wu0hy81LMHFtooudhUxp8fnJIPHNpzb3-fZvXhe6LJ5mXve6JYrxQj2kO8XF9OSEFgiupSQfwqgl0Lwh5KXb-RQ39sFlFiQ1IAMbBZX8-aJttk-kC_kMx3bo-YgplccSNpsjtosOtNYZF5tDPFL2A0EJ0k8qMezjb&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEmAioZS0sWkO3DaKpnEawqiSfKYvtimR0ngQRGh47MncnojbB95LBVPl2AiEXbpPMBzin3REL-ci43B5NUzJ9eiS9kx8yZpxW7V4tBwXunW67-mZUMTmjcLAbWQLLQlT9VF6hxegA_qLAfYKJt8iIJt8p-sm6Fymm2Z-Q2DdyYiAOubTF1132i_XsBASidm9pi7yzkdNfWA_NylN-v4EZpty66kds8WSarUo34AWzUCQIfQfibbvcIKYKSd4hgqYBLJxj5U7B7m2ZcnZM82tvkAB8G1LPJpQkjjdxaO10J9tP_z9cI0CtAbuud1QwN_OLwKBKQNonpwx4eX1scqM_cFDIizVnPVOMLw1CQPXLvEmxY4YbeUHwX02HuabRAG59wRkzr30b5nvNN6KaDlrOPJUJOO6bpAeIZce4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH3XsnYdbOVtnjh0FNakSDYC7POzNEncCDUayyK8k2LRua0oojIuypoSlJzVWwX2YaMRJuYP8TQvcTbYFVbicGUsWHOBdkc5EARkeY_-MmkhqHsJ1ras9sv8UIplL7NCMTIKJPjOgcx-dHHJEd8s2we0Ytx8K7ZLn6reWwi_XF6t3HtS_d0XAytBXv8rJctV8T_B3JpxHo9a-GJTjsq8nigkcG_ocA9zPd5wXZHidn1fysBwty_G6aRhZeEvPDZ5kGlqJPvQmY-dYLn74JHIbPBElquO1Tm93Y7AVISa05X63wH1J_rTKDXHrRPnGQmbNr4ARYf00Egye0XTxBsBqBypZSsIVbKzvN-W5-u7M520xrgH9ZM-tQuckp_le5-Xpt0so4AyAxFNzTsWuHF52TFOCYOcZkZ3j9f3GqWZDY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -150267,10 +151104,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "0961 281515",
+        "phone": "+595 961 281515",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 961 281515"
       },
       "faq": {
         "items": [
@@ -150301,39 +151138,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGL4-Hm5L8YkFrPteDTGGJcBpEc8HzOy2rRfEjknQhsKfFOJL4HX_IWuCofS1webf_4Jj8sf-aAd9lCtLgpRxbRVq4mPiUaFbVxXMLV1qqNVUFROyBDG-d-8iuxbFeaSf5z4DWqVTa32dX_KJx4Dg6GYs7PWXG6_WpEiSTB5ZqmcIdPhOEO1aknrpZZhWGsSWg-a1XoA2vWDHRhEFeAQBG8LK1g9S8_GclvJ0qwbsVI_sgrGZPI7KvkY_fv4SJF7PMmlSVXFvqmGVXWMjs_2MZa706WShmBkaneVwl2xAWC1Fakp8Ww-2wqXZ0siPsmytciNfpBRe-xj4ZCUhc-2oTj69ULCCLZjMJ_8yyzNwNNwmgv0vPIZa9IEORg0YH_YyGX8hVm0dfNOdDchjGhcz6977D3TonzpVxXu66hDOL6soQXfsqAdeX5jh_WRWR9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMcYEqld5Mf1lVhQbYo2Cb75JkRjCeivawc9UtwrHrLiY7oU66oi21cKvFTegGbwQCDnMiQv_C6OLklJBA5G19vyRZ6KWNAoUfarr9mc4NK485mJyDenGCUu0sKkA47d9ErXu6hl8Jgx40bqZZhhljkh6IP-NqN2i2sJGL2v5p4hbUivPaLOp-fSIoLBtxp5DTD8xvpo35MSaS4HAGS5Nitt7kiWkqD_w7x6WE8p76PDB5urLZPYCwNqYBcHID5DXGaVJ2-h4yL1RcEPb-Mgw3gPC8qTx3ZpvGWFNXmuuvRg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHnxS6_iapUwbkJfVf5UmWwvQJ1fYLHAoaoj3Pp3On3VZkzu4ktjbNZ1j3Oiu3zQpU6P8hCgE1cBtGQJJwQdxTPX1ehpTH3cEn3wFc7pvq02OCNZUp6e-uXe-8CEY1IqtCVA6prX8uOEZICjdIvmRIOfgvCtVP-mpjyac6FND7o4CnmqcoJJ9XWfCzJY2a4Ybw3sKdLRtpF2Zym-RHAkLJJ7VaEoBxeDc18WevrlEgVa-UGpfC3dOjsjeX0mDrIvhPEN_ttUF1ip8f_MSSolQc48inzFboQkg94_PFtJn0UHTJ47mJsPaXTZUzReGdkXZBn2-Kd-qgYwsr00xd8j0Jy4aVXzvFlAoZDoVq749_M18XRriX2HMT1fN7CXJyuWlYWUjzwDf_O7ehMekdZ-L8mw0T1RRwwJiUYWz5Tmxv-qMXM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGysQg2dgvaPPGh13Ur0_uc8rxtNcqwk29GvZru-NNJshyaNGWAslSBCI2xfyYpSsU4A9N-6GNr2zf4qfbrrPK45lkouqpbzJQUXPRMe3MuriWGVMGpBRpGe9CONojNJU-Sbl-I2bnUlMP__OZu1OzcNEj9H5QkVb1nz7oDqPsjruJGh-bEVhhYJeWyLk-GAvgmkHfsNewmLzZOV99UCQwXPadrYtEsKYwanQauL1p-mJVnUZlKolyk-pwj9G-_wWKg6TyQb6qwcGBcb3zzqiJS9F-b1Cq10Gq1oe9TWCfEhQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG8LLDBcZ0vljQjhIbsHGMktuSBz4gy9FnAn0evUNnpzak7Ap61GzZk0PiRMtAAlOO2FzgtTTPHmxj5QO9gR9_XJjtsVNxojny9kJg1YPyA32e7f5YEZR_UJN7pLh409vyN7c4_me_R9iozKDjp_TXTtphrOy7aUK7cUGTdrhPKaF5kITN3I4qe2l7hoEdT0ZvSv9GumKBI0b3qXKPfzyByIil0unq2OTAjFwdqY4FxujqV1eHlrLMAnXgJRs7BkeqSZ1-QDY46_40MEkWZNZAoYs-gsvUd8QWVLNSpPMNw1w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEECgytimlQchsEGDsb5WT1K1j7H6Z82UjMGIM94ZI-3s6zy3tGc3Vhl4hZ7DyuUIGcifgwy04wUdr4dnBAHiZMrAXomCVnuNnpj4OvY7phIG8qSZb-gTGPnDru4IJ75LV-trAc1X5hQVtwjrLwuBw-TWqVOP_zmpLOcc9BU8Hf_Kpp4f9LvWtOJafavwpbG4992TxmGhhjATOCHF-NOlRlgsAbHqDfsAILDIdXvTuoZZF1qgPuTKGwX_lI10NbfS_5Z3T1g6DT2RfuXtqNOEBzKzsMEPxS-JFzfi8jwL8_Scw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -151013,10 +151849,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Villa Hayes",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0981 806623",
+        "phone": "+595 981 806623",
         "subtitle": "Estamos en el centro de Villa Hayes",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 981 806623"
       },
       "faq": {
         "items": [
@@ -151047,39 +151883,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFhnDtOSmR2N0q3yWPRbIgAxypdUjTpFGfxoVR4cWmQLRzkzW2FZE4kenP8DUKsTLLOwvlpQia-7SBOy0Uo0Adk-ktLMxvG5pp7XX3icLpcGfiHkOIECV0GLEQu8JE0Iut_P1WcZlh43EptNSygcU_cdJTcFXEYIRpY55o-sVyAfadzTMabXuT1zZqZvYg5wqf6wQhQ9gQRvEL1Zbk2KoaZLZLHLHLqFKIIMp0sxr2ed1kLqkv2eIKKiGHjHfvfksFcgMHTjdCMy-PqfLcoZQ1wdeyeniEYYcI_xOFUlXwtpFWXWFV2qpPX91rN4FdthawXNQCsvjEypbZAydmTxWyvt8-jvBaFxQwhZQ_eLVge2ZYDDJhZ8dfaerL3LFnj3nTrkSRWefv8CAu3m_Ysx6RmE_b7IBp-nlWitDudZX6kHnOh20WXI7afoLzdLWxO&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG3jpFDZzQ1OD5PxOaoKBz5ooe95BQ0QkKDmuqeUEkLoFxGNSpm4Su4YwMCknfy64gfVLze8WQPmhwPy104WOJBj6lWxwk4Jhe4buOPBhEp1ZLX_KlTR0Wc2LGUkwf_5Q13ygTrIzuniy0HOTfV0sCb_hAIDKZZ7-VqSFdn6Zr4adgCR6W1vlI_RVV3XaX1jRFXz2kALNErExAH7Qn_Z207kzFhZON-h95B-E6ClOT1RA5AZfBbxGJ-tA1-KxgvXjjtwfrslG8JWd26qrPeEvE2FLRymWD--cYgolJuZ72W3rP6Ylyx3L8GbDn0fJgtIgVD0lyQXyJPWb4bBj5QVSqPsqrkwCPWfWF1LiIcp_jNeXiLTSzTwH0FN8GTC3idxNXwEsfoStCmNzVrf6o8pvL37aaGBPvuftkQFbpbhGHPI6FpOV5XDPSdbALjZlKX&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFjhm_TeiHTCxWzaYOg4ZatB5Y8PLUbh3wOiKajpYtMMAMLT2mdnFymZt7aYZCYI3O5OIX6lVxLCpTziheJb51RETdjQuPQe-71p-32ypKnREnGEb1DcQLS1USwkUprTM92F8tbW7B528wHYW5onQcl-oUGJXDRAmZ0ws057i0mhNgqEF_GanlTzomRofyNmqyTuaCGPpIclNYeGzBLe7cb4x1pL5KMgq-lWef1y3uFiShbCp1SBpy2ZGdZYZdNQAwSNpVSdNg1xN_xrXcXl9SIWXthE7tvhp0OJHR_jgkpc_VNceqhOp7YjbjK9uj__iB0adf5qShLl8l5CVx5xs6E5CjpQx67rs8DX6FfhgdOQM8W1IWusht0uezxjm5iTly0CQ0NnXBUZch75XhXXAyfoWsqRc7vzgI-zJ4paeH8cUTv&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE6HCJsuCklb9tdH4hyeKbCHU9OTTaWA55BJPYsarRlcFUPW84g4C0hOeFQ0iZruxHTu8TUIfhMIJ4dJBUrnIwrqu3xB2JoE-vZdZHJWm47wCjiN3b8wcryGzTk8p2UKLo2wmb68f_jr9sHP6I5rHHDwo8bVDw2_b4ytOkw6qVVVYGCjvDLoXkwgmhmCMB6_3TavorjsRYDwLsRtv-itEiJ2RL7Kg8LVhT5qeatJ-T2TelWlest18bhb_qkQuGWqvk6wcFIMeVx7YQ5_29nveekZNhoJ6pPuOq8GvquQw4slNCCAViOAWVtkbVD_P5Ua-8sSAV0oYrd5dCt7uN3CwvLXU62o4pn-0xPZeKBv8AVQSofPtIxJsH7LiUZp6ibvYxsfncQw-pV6757Hltmwniyy_8tWarPgSZXpss_AOfXxQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEsAoGgalb9M3huymUujtFLzBoEXjL6Eh7j2KP7FV28AxGd21fPadYlN6XWxU5DOHr6-265lAfCh8qmHG0eksHGK0OAlSt9kTKlak-2GxD-VwCk7tIpjEwkjfX8Eq1ssqlR2-lydn8F4oN4uFXrenzlZ90btovT_Up0WntmqKolCbRvMCEq2bzhqHOJeU71GMur1tVQXG8wWIbkAR_ao5hb80q7XyA6Q-09vYPZA4M4y88pgFSRm7D5IJ6T8Y_Y_s1kpuIqzYP5EYtHlt5w1BaVwMMNyH80-0ZSeBWT8WSfrtNrW_vOES9kyS7VE6vknRM5KIkdvVTTMm315yoE3l-OSYlj18Nvpmpi4yNqmeyTfBt-MMXD952nmIbO38yP61cfmqKimGOjHVfPWjaR0p44iggqCcegDwZehPSBOAdfRMfph8HyPdxmQhHm9w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHeymZAhal-USzjo7B735C-4h2muNFPc7IiGz27wrl1WDtGOh4NbVm21jKGUWLDjRUSTW1pjHJLv3hdBc7ApoEoZYQbFEIA8kf9SES6_Z8TkPx9RaTEIJo8qfGG3NseKB0tq2uwyOP7sC61WQk6suVzdoBnJcOdJtlkhYwYl4uSGR1KC3iEumPhuPRKsjcyCS_cIcdBN2f7RFi88iP13v2KEj4m6ESVITvxofJ-al9WRqPXzsU6uMJecvYazWHNmExjXmZ1dYJeO6RRT3SoxYUyLhTycHVwdZRouUIdkkW2BwPVPTrJXkLXsXJgCKNvbxmUOOpNZ7UFB0uodHhlgpP14JB1ITTz1gVRbYx8QC5hRca3tzrNhEm3-XL7x-5ijERvN_7ruey6sCvp1Bq1ldzxms_TgPcjbyHk7BTJZxPw7DwJ27s8telVjm4_pw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -151467,10 +152302,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "0986 506223",
+        "phone": "+595 986 506223",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 986 506223"
       },
       "faq": {
         "items": [
@@ -151501,39 +152336,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEODXUD0xXG-XABv5GdLzpUmM7hHeKfTfsvyGLloqDbjvki1Bq6PvKAKbEHNoRL8PIRT8yl4rGM8QIjZB929lhJ4D8pS-TVMYJWxdS44QzbMorMTe000Pp3ylO_WcmIWcfikscdE9M-gHYkwUDMghlH9VLa5TNiGl-LEPk6bnYUUpBRfW-Uv8UdtLoMXPdeq7Cb9t5kN6h-AMMz48d9lV0bl_H3KSmxo2POOWANCwfr5C2GoiKQwWZoXs0HbX5xKuQjdhzNxWl0ytwr2XZzOrPKM6qxfg2Q6sI4kpV2dUNl_8xcdx_K5iIrgmaY1IAcWfXHs81z6r69jLjdH4J_cApAMKKliQ9gELbBm4bAzowl8LR6W3kJTFudgWzGatVZJ3m66PTUdAKBhJN3aLHXVqn7_asAmeeGfok-O4e4DcGHTTPD&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEELgFTF9Eyc7f3L15SF2dgbKZ1xF4MNu_XJaU_rdBBaEDtGRBzDiGqKGsGudynXdkvxkJ8OGlN0Bf40r1igHZdbnjiJVV6VwXe726mev3IcRd5QvO22GuWY5exygmvATd9-HezKLUh7kp9YjiasmgDpXCSw856QhUASEw9ejkvMXlJfI-ojQSr67heUFVuHiVj5T-z_HlS_CL1Y3Win1xg7nSgXiz-wg3qDuia8qeLFnTFq1r54O8MQTGw7rMQqksmAJm0Lhamy8k9kClcVy7BnJdGebni9XobFLu7XWh79mp67sHFKFTDUjamULRh45DaLyNj-4N03QUQsRj2SSfxNfmOQTQ0dqKH23n3kcO87Gdji4-D9eLnNLz0C8dqIDB2OpS8Hk4YLwyPogjmvsLV4CFlzQpdYdrvZv2vPExNgKb4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFudXENlF2vH1aP4RWHtYAT1GBo75ZLNtAfk0yppL-NAYfffMUw6gps_FOw1veQeyq48Yfd6yA6Qmf11tRf5g0Ww1ItGrDJXrAzP8YS6iKHbO-gXrAG0mbWcj4GfoR10rq8Eqk9duc60ugyQfkf8wODAFQ60NjZorcNlUtumC3kzLk5L_vYEuAbX_ssRMIOqSbu9_C6dA3Vkplt_HXWJstg2OUTuEn7NtEYzHAIehs3LkBya7RbOpC7qgbla44WroZ9xAPDte-FUVa4apsXNCQIkiCc_r2nA-Cp9QwyCxmmKOD5FVaSGrvGgpLmqlT6oVO5o-4F75VK_vRjfICGtLWQn73FsaSNm_oVP3bR9HoK5Iu2FGc-BG-caZ8QL5xUhXcxLy5EmDcljkfBVZROxSue3hInAlBtsrqFXIqUXBw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH-FzGZH70bx4oyqO1TDkKDpOYW43lq0b6O0pb45VbdopY-ocuHzlhpV0mG2r2bb690xHqAhFXJL4DsrFJvSoPViINX2DL4QQfxVvbTy_4WM9xZQokiH42HeubeFjcZNUbOrJWDh6qNVTcy1NRONPcvolviwzLWt0Prhr1IAzZDvO_hrbd3zkZ64RMbEOF3NQU2OXrPz0ePKyt_vWhhkDjO4vBcII8rOgC6HroF5QbBxyFbsGGDV_aDc40MBSq--5IRdIqZo1YQG-Y9VjOcTRklyAz2ru9_DXuH6E8oTkKT7bBD6FJ3hw1mbHRJ-FSX1v6yRevQnMjtU45RUvR4KdBaB3GdEFAPM-ZcRIPhiFMkD_c8rH2uxYYatrRD2edJHdtqUjuUlfBGPUOFMlSYvrmJsuhNR9R6q0v-LjnUVPx99nGc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEimAhB59YaRDjjFU_Mt-nCRU9YQnQYMqCTi98pJZOx0OMyT38RvhR6KekO3CSfaqCSugr8028_SK5nAij7RyB2Tb8IskGEmV0RuedhUlDSttVOiOzF_s-0z05qpf3-1Anr5eZ4sq44paDv8ACKI6PI7epOSugYH8k7TjRgQFFA-iQCXnMmbe-RS04uSzSgJIJHEVwEA4mVexnzHgMbl7yOVmgw4q6EETJvZX3GPcEHEKmySJ7Im8oDYaYAvAXETZofTBm1hUGXFn40A0LB-5HLgTNM-bXWjYH5qnV-6QhYnLAzsh-MH-l7HyBhoGiRFOE1vq2USVIlUB7GcQMp5_4jcsrnk4HkWW_kJ_Wbmz8cKha6FN9vS8Nu4bTqp9mIrpZBbReOwZBez9hpbFyxNcWYgj9e9XXBmEQkxMTmXg6TPpYY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFPXKjL2lJvbmDoaxRuag9kzWILepvZ8LmhGIf6cEdFjsAEK50khuk_BtmD1johAdBuc5s-00tfom2efnEFVqmf-6W_Ffn2TuXtBQtRrxfW8ZIsluYrnFvmqk36yE6y_u30O1aVN7jsheH2NUhJvVqqyqMPRuwjtgi9yRSjl8NTrwkIYUfZVn6lRHdCbpZucget5ZI4gjYs5Bsffck2JcX43k7VOAwjjClZDwkhfP26f0ThImKA2XEuT6oVN7ySsOvI2E0rEAGwHnRsuOskDBRvxiXLPsadvAmUOHF0PtzAo2Cste4RahLcum2mQVm9k1SHOyxXlRLDd9v5GReZzyD4VEQZd9B7BMg1GjkCqsWmw82EedMz9sYBuugyOKidOo2fdYtPXWzghsfYJ-m_WBpiQszipkB5V_xXJdRagrjiNvyw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -151921,10 +152755,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "(021) 590 730",
+        "phone": "+595 21 590 730",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
-        "whatsapp": "+595981654321"
+        "whatsapp": "+595 21 590 730"
       },
       "faq": {
         "items": [
@@ -151955,39 +152789,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Corte moderno",
-            "caption": "Corte y coloración",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE3CTPGknUdPzh4kQI5oIAOxGlzCgYhL_kfKWGnUIRneIou3zHQMQvCllO3cLFqQmd9Xg9JRaTqh1-8feN5hLfNFaW_QIK2pRFXoMlALCDkzyyEAtgFL0LX5wcLLJqoyW-KEXRrw8LdAIbD0S9RKrC8PhzRaULI1VaFb3KvbQaL2TsSePYWPDz1nvKB6E_zFDC5V9rZggWrqOqNLg7w90SZdQBHoVD1zpAoHDbjPAVHQhwmtPQMrNd6SonYT01Ff1IcBPlbvy0pm3aRsXb32iMDKur_t-FkkWfTnLTWZ2U9WMJGeHZ25Eayri6Bl7PEgtimjWSKQLSpetQG_Ncpq1NnZAjbpdm6ZIAN3_x0buFNJ57RfAyDodbo4w7PuWlo0sPvH-reO9Al5q3jPJdCW9CrrvAX_Kgiqkzc7aGV-tc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Mechas balayage",
-            "caption": "Balayage dorado",
-            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEO69djhVd79JYVlVyWpd4HPyjeCp1XVDXQsVrGxcjuHZyZcNvYAqTb5UPWXK5Idv2OifIzmoylNJoBv3VpsebmpEu9fRPR3Kmz-HYoddFsM3y2SgSWSZ_ZdHYrGcyNvIjVm6NmLcfIfS7Sh7lEWVH5HjDDoW0Sv_tXrY-9Gm-68A5UCMUXFGNaN_OQsLF5CQKvbyTe5rSryX5JMBXC2QQzbTTmeqlewqt-eanufDAXj5n-G0JCZkDgejFHZH289GpO4OZdUUdH8MVIuIMdSe4-bC1MbZ9tRnhjh3yuEulhPGYDU7FXrZw7Cm-M-mgtMYcq68BIzPQg9OLC4jm9OB7LTxoA84JBsS6kxqHL8uo1XXboSj5tFv0ghbk7a-NF4LcreZceefksaGH_J4_7SMS-VkZ-4m0tzSc-r84CkIKyWw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Peinado",
-            "caption": "Peinado para novia",
-            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGqKQ7liiVUXOU3SgEEIaARcj4GXW1F4ez9AtjVkQ-gJmIM09ac-RZwoqaIUluYjthuXkpjD8kYcex7IZYyQ6mjXVF1ZbiFre5IkuwtvzOaVB0cSdnx6rfphbKjJxJ4ZKssiH5errcHmGq7esd2LEgcITB7GRBbdtD17WuccXhipxrfGbCSxK5hq7pi6QbB2mXCAXnrUM9ZxIOp4TR70SebFvG4-gxQl-hYsGLPjQbwgs3I_Z1Uvy1dsESAwSSwDEM-klbuDCX6UqFhpLrUizDPntnsYT6JeZF4gR8c9M6m9ZQuCW5Ya-F49sTEt7xQ2GNwTv5LmWv4PHX51V7MinO97uzIUlmumKYIetUNxuaAmFaN8aVOCM8tCdELU-6pbIHvSVA000PBrm81qXUGoi35XJNMiAIG36rRC0abS2mDhT3b&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Botox capilar",
-            "caption": "Botox capilar",
-            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGrICTIK01m4z06NwUNpHwvjVbAqb8eBAX1zC36IvhyS5N676VBEQxJSekjZg6Ou0lfNSOuj-m-gsUgpWNs6wdoWNSKQLA9UkNc3xE2c-fXBal4AWN0OOqfGf9tRuHTW54io8C6xL1IqQvqfowvh6jZWvMucZSLnS_cxCWSb-ut22DtBRKCNin79Pmp0YDWmAV-rxfJ1Ny6LfZvO5JHCgUv91suNqhSO3MI2zPlrSOKFxqV6dcQADND0T0MzGETGo5MY-KBdzK2cuLH_kJAt_zGgqHI-6CBS4RwnoKR72VkCOAgSypi9S1IYb-HUjqtIQO7oQLC8SDqc2c8tqlhayH1SVjZaam1qh3rfhlfUeanu_vtDu15yiug7M1in554hv83JVQaNOypkVdAmms4HSPOLSSTR-n6nszdRlODQKEFdwcE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Manicura",
-            "caption": "Manicura semipermanente",
-            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGiY7Y5q7yEDx5NHOZWnIeYCIl3UMJMx_s57sYkHECVUB1pOxkaOyU8_3xO3DLPMZvRtN7lFhqwNQGgB68zkOz0iN5HcMTcJ-VgnW1c_paqp0OfXxA9clrdDcNgUJAezoHt0-BUhvd1V0C90cRHu6DO6ANM9IAszQlrW5k88t6S4uoLC4X9voKcr2xFhgFo5nrbH2Ng6FKCP1YyArJceybb_M20-mirVNiOpre-7uk0FvvLrP7tQDT7qv5H3qDEBfFaWsLH5bSt9ZK9kC8-6Bs8OLMnxkEHkVe0wxhz6dN05GyEAJAY3mLZ2zLMsfQ2I7Y40CuuEJryEmhi2h_hO1EYjFENOLVFWZDgMOSrdyMmzM1X2AyAqJftrJ45fn4m_9RZf0X__-tPsSbKwb-OyTvxyjDbvdNWu9Zs1OPuMmWLZA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Corte caballero",
-            "caption": "Corte degradado",
-            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEE7x2VfDB9XPGYNJl4R5qa9bd7vJYQXF6m2VHLOKF3BMKtnGHuB-N77IGcdD2NY74FNrPMxRMkVarzd0QHR8aQ92SqymVWyEWwjObWVJXer9ZmrPDcuruT7suWrVyffiKzNg0xSYUp1o5w6sWYsACuutcYDvgNkfYm1ZzryRvh5O5MRtnrMcuDeGP7SsCB_JULi3Rcpo1My-d9_ZexgPQPRifirTOtGwXV6YvXy0NJIDSAmdV0eGggu_WCrzKFJtWoTSIJXf_GhzYOJE67TUj6O3lp53yT1dND0GHE1s2cFH4uOe-3da4xtJp8TOniCrqQNfqjk4TRz0gdH7yd1BB1u_VqFU_f9OwsqXqIRa132UgUmP1Jz1MCVwOvy03xNNePbfs7Brqlanc74eDMkEgeDUuvnoCRlP7857bbrvtO1A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Transformaciones reales de nuestros clientes",
-        "title": "Nuestros trabajos"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -152928,10 +153761,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Antonio",
         "email": "contacto@demospa.com.py",
-        "phone": "0981 618000",
+        "phone": "+595 981 618000",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 981 618000"
       },
       "faq": {
         "items": [
@@ -152962,39 +153795,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHhh6_21w1iBybNR4IFJ_K8ja9k-JQKgT-OcgDlQ2R33yKFHNfPAVCPPElkvh-ispwBl---kivsXD-KfOhFTsOfm95pPlm1j2JkO1FJJX03vEM4kw84WLdhmAkpGv6NNvziUatC44G2vGFx0tzGDcY4gbIdMaH0oS2AdhX8MIHLgDS8kbSf-7kCUkPfTEPYW3Sk_JXKqhrabumgZYVDS3r4J7JEWoAnXqBfa7VUCJ5SWv3jQXcweE-MpH-b3gY19owaBS0h7vIjbpSas27r7UWIJ4VmY8tBOCElgsIFcCx8tg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEh5rtbn00qkO5Optmg7lWdXgHvTd7aulF6y98XXeZHv2Gx9WNiR0JNFrPMxxqiDt4MRBgtJFW4o7JhSWvWFyJuUE2f5jrhuBlLVk5wpVqLWmzrLgK0NySbzbjgcIYVBRecxvYThr0wNER-T2f7gbD4Vy-AcyF-Pwp-fmLSzQ92LG6o7rFL_FfJIRqFgyqfmpYWC6Jr3esGXPMHiA2V5ZWpaHYuwnX4wtcV7pjYouCmuDXBcnzL_xV26AP0NsrFAOF-CUR9Hatmgnz1uwZWvsOUQie0Xg-9ZPXzRQUMt3NU-Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGXzEXq56jmF2uXd6Mc5NEOugBFDukfNddS9qtWqweZjKDj0zT32E8vI1FCLcMKKSZ7CYqAfJn8N2q1m0VmMpF38OP5ObWceCpFhaZLL-PdaCG-V_oDPmjeywHMIGEc2BfklVwsub5dUSL74xYGmErnYvR8uMFKIlQQzR6aCDsgRSN7up2ZH7uD_IEsBImgxRAKwSzoymHl7dmR73WWWWh8a0mD78J936mOHQYMjtHo0WnDVUrv9Ud_3fDRhXaCDIwhgEJQKv-0g4eOVawPbGc18B63FYWc3vZUNfAcKeZ5HUR5rPwQfJieCVL8JbtRIO58jAeJvNL4nN1XmlJvpOxfyldxfC0G5xOEFOaxhhtqvYUYu5kSAmQsapfNIJPVazzs6vvJJvdBtv3ugSfvwnSpan5L7X6EIscz3DF9eDL41PKU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFfOxxCaGa5LF-8TOluHMBeo4wrtcwh6WLtqG2seK4vTR8BILqKyMfG5RYUm0DnJe0FllyDWc5Pd4o4-kDH7oUczQUVOy5mvCF75B408dl1HtJ43a4M0qfj9OVmz8-lyuJBDo5UFIcKtVBe3ICkJzsakIAYH6SfHaNJk-n2CmzgaFOmFQT64K_vxIU0vchV074KmvzD2frC1wJZ4-SW2dNeENMqD9o2SBuP3-6E4wwzCuFAtqpRLh0FrooFajHzjL3N7c9naIhxaydmN_qCN7d4P6JnB3PPWzJLOss1witd5L-8fPYhaYTExmBw7AjCbBt88SBoTtJu4AX55PUNDRlM7zjdICIZEbilbdsTlBhLXFPdWCH3IK2N1Q6QtRWely7BG11zj8sjW-jqil4a4bi51qNI6ZyZ0Tp7oSYNmrd-C4As&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGM7AbiTqFZIm9T2q3xK8cvDficMOKNJSwczoh5icod-HTmNGPWACpgkz09zW9iLAQ0EidYa-leSbC2bkaVTt4ga3cdNMtGejN_wgEEA-FVz4d42ACiuRzuLtg-_m2olsMf3qGJWSgUyvo-VHX7HR6Vq-9twneSsMJk0Ws27QnYXdqm-QXAAZyEJQBiRt9x9sW5O0Xb8xsA5gUFgYyPxSoyLwtMA91kKsMCfen3B42Jm3VYTOA2E4_kkodYhciT4p-iHZ6JY8KjR4a6NmN-mz8Ot27x5Lih7ICYHLJL2gTutthpS86Af5wnDWdXKxp70nhzsJieB49yLHRM5zZ2pr97u51J8hpLhsro4DmGSDZ7vtkV63SpioWcyu0vd9X-cFMZ9XpYPZzyRwyWkB6yIqFU5qpt5waYiGRmra8y7R1cWn0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG1fINP6Um_wdud6sUny4HOgmilFmZJSKCkinOLvH3TqYETylvOZDk0NipYxaV88FygHziLSTDsU06eeLpboM67q5k97_NU1XCmcDA-18cpaE8Y01G9pahltB65Z4zZs8cgf8UDWpLBv1WT6h1_e46HeNzS1jFWkQ8a_dc8H1T4xDNl3OXaRj6IaoqIIdtgvVYSk3sz-ByDYxc3jbQoVVwkBl_yn2YE-7sxDWXqrUeq3J28apZDWlW-CtKn0LeFzUBFadIQWMJyeGMDPUTOxJ40LmgUz-pODvYXKY_qIweJrIMpw_R4BjzdXGVDrgFKZpWUD-FAWXG3vbfWi7qu1DYPIERFRBQwrmZizqwSEyGSsUN6PcGu9MiUZblG50zmgclprmWIJkX_LrKQyKjeLUUixiKMacLe5Jp6nBFwDSjsng&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",
@@ -153233,10 +154065,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Antonio",
         "email": "contacto@demospa.com.py",
-        "phone": "0981 618000",
+        "phone": "+595 981 618000",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
-        "whatsapp": "+595981726354"
+        "whatsapp": "+595 981 618000"
       },
       "faq": {
         "items": [
@@ -153267,39 +154099,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 3,
         "images": [
           {
-            "alt": "Sala de masajes",
-            "caption": "Sala de masajes con aromaterapia",
-            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+            "alt": "Foto 1",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGUykhqsG31Sg8XzZGNSU8hoGpsH6YzfSh1wyBMnPUe9rKM7Pem_YILU7k7HQWaVlKetNIaDmj4L7wXA4badT7F51LPPvut_0fIbLDpyfOdaY2inA8NdN-oMlFKCg-dTg3yKs0etYxmMkWt-2Bc9uoG24bp-Ka0rXuCYGSzssbhs91SJgdBTF_wQlTdQwUJAgCydqNQkWYBKfMA-xJ5xbuSugM3rHnYKCLewBOXhBXbGdq8cBXOnxSQZfmrZltGRw7PsqYD8Yu8VSAnf76PEWAm4HO1VPU8Pry3-t24Q1L7Pg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento facial",
-            "caption": "Limpieza facial profunda",
-            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+            "alt": "Foto 2",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFGR2UGC7s5Ijyz_3_REIaO7aeLLRoCnq7CxupKi8JvRZ9fieGM29imUnerHCWK8oN6FzGbmCuOnCWfF0rb6SkQLYnpP-aigytkYvz7g6jGnUuWElp4Uwh5QlIOvZhafTOE8sTuRzOGjgLJPx8fNYip2YeDiFrUIOcT0WSN2LlVTzoeAk0dMiqd9RfgYnXcO6RQ9GALP7LQcQQ9gGbx2KO2PkdxfIedvVUcy89HhPj2bbBKHM1tw_oKeUV7EMuuNOuSJMxKzXmh5HGt6k890uMS9O5c2bEtyLG4Zvc4P7yZiQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Velas y ambiente spa",
-            "caption": "Ambiente de relax",
-            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+            "alt": "Foto 3",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFNUKHVw3EvJuNIxd-oXK9ljCnNPNrpyJ-2JeTFHCOHELr5TJ0MIZP3IFYJT5d1XX6m2UefzPEJxR3XRHe-GgBVn2klV_xC-FAd7DJx446KNmelMCQU5YPblZuAED3fo1mBhO5bSRW0tUfFHBDVeh6QovGejPx3l1VbRVWOG_vkjGS1nWBTE8oVV6Fx8giwpnV8aEtKAhS9iKqVEpWcDS2LZe-ZmxstOsRST-PlId1a_v3MA-pLKz4VwbQt4ow4tynjHdOrqYumfymROhIGvOTuPJr5tFPJJC_kV47Q-_f157EbYQWQ00JFRfzHmBzP-eg2gN3XyiZBhVni6BQrP_3wYqkpx4vHwXYhcB3p2pLQfq7cx4_ZQyf7Ww7vqOWctjuxBMm9XzeAZOpMlZf_UC56EyUxnq5FinjnM_ih7gi7Somh&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Masaje de espalda",
-            "caption": "Masaje descontracturante",
-            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+            "alt": "Foto 4",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH7Qmq1lp6g0YUSrpan-SgmilwlXxe1s2s5KR-oLpKB_kxWu3aiET6H8lbJ18l7ryeSyzfszdXvXsYerM9JMw6cVwc78h5ldxQMDLfuvOAwwLGPVgzGrrqjNCqwK8RO2eZjwFgNzSz81BejYdAAlOYn1YAtuDyqW1XV1TUcCl8v-0yozFcpO9GpY9fomHzOu-76S-8GqPXndhz3LgY-1Zk28vxizhoqJPbEJopGnz9Nb27Gp6mmPPdkbrd4HcOpXeMcAUvvorZU1WvfVjlQ_HYLr3gWR7LZ8__OADGcecmV4LmlqBbYkkq5am0trNsw7yOIL0pT03TJ22pHCN8JgHND_PZZG36jpmVfjmvWEzRdMp27-7i1MHinT6Gx3bWFRrWh-40oT70TioryNG9by2kxbQXi_IWLWOP1SOKGleaaP79P&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Tratamiento corporal",
-            "caption": "Envoltura detox",
-            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+            "alt": "Foto 5",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHDO3YAnyOpBrEZnQQpVIe7kMjxrpUN46usi0rvQ0Agdjrw5rRqdfds200dWgOKxGBmyVLC2hIDDGsV0UQVjSLW1LuVtQADjNZavuRUINKmNB-792sDpGO330FZ2fefT01irC__vKWveMroHR2vHCr5yCX1E4wzNPrnhKx2RExDQKumsSOV-862zmv2ISyxt9fPE7mDgxR-umV16YTCoUSe8siqlv-Efj8OjXD1g09vysyEwMosySxf4joquVVJRot9zFvaMvvop80i8CD6ONQfUlZ5_pXHjmjA-3Zx5tsqpFq9uYGtLwvO4VV1n1sWTWtDs8YEjk4mZS--FVWSOt9ilidQ7cgutCuURLJ94zKGe8PSa73vpLAu_bQuJ4pOXS_xBp0eodLU_WsUzXjufVXOXBt9TmcNYUIo4W6DTub1Dw8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           },
           {
-            "alt": "Sauna",
-            "caption": "Sauna finlandesa",
-            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+            "alt": "Foto 6",
+            "caption": "",
+            "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHXkGWsYcvOzjDYkaoOVJfcjmZCkmor_NHaSRLJFGGaj9F-OrYpFLdTiPjGohpVjs0xp-n1PCeiOwPhAeRIBKL7grTwmBwKlUUyPrWyjSqeffatJuSFzipeQ8eG5zH4zz39hrNkGTFW1poHaiLU_XfY-uusTwmxlwJ2JCSA_dyknLh8cHS8VZQyb5bUcdPoOY4nRwMDSpqwZ6AHQZzjRpfwZzho2qLhCW-Ti7oUT0dRzSq4SYJtesF5k0mQVRCjMKYrMQp-Tdo7IyNBGpqIwGFXbNuqNTFqKW9x3G89jQWmFSwp9215GnPJRU47WuyQF8QScF8AUjRtsZUADxIimptPDquhVbx4Z48zFBUv9V4FE0_I_hpyWCjYYxD3-YxE7glZ5Wwx-C2FxEMd43_3cZ5SO_eFlFoPaZMMaAduc33i5g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
           }
         ],
-        "lightbox": true,
-        "subtitle": "Un ambiente pensado para tu relajación",
-        "title": "Nuestro espacio"
+        "subtitle": "Fotos reales de nuestro espacio",
+        "title": "Nuestro local"
       },
       "hero": {
         "ctaPrimaryText": "Reservá tu turno",

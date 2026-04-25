@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(0520) 20188",
+    "whatsapp": "+595 520 20188",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(0520) 20188"
+    "phone": "+595 520 20188"
   },
   "location": {
     "city": "Atyrá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "aaceabbb-6b88-4060-8012-aeca79aa80d5",
-  "createdAt": "2026-04-25T04:08:08.877Z"
+  "createdAt": "2026-04-25T04:08:08.877Z",
+  "google_maps_url": "https://maps.google.com/?cid=15613635418999771988",
+  "business_status": "OPERATIONAL"
 }

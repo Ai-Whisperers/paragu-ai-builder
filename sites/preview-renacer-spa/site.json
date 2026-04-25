@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 450269",
+    "whatsapp": "+595 982 450269",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0982 450269"
+    "phone": "+595 982 450269"
   },
   "location": {
     "city": "Luque",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "175a2a9f-d252-44f0-8ecb-a329c70bcad7"
+  "previewLeadId": "175a2a9f-d252-44f0-8ecb-a329c70bcad7",
+  "google_maps_url": "https://maps.google.com/?cid=6111254885413663332",
+  "business_status": "OPERATIONAL"
 }

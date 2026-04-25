@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0972 413121",
+    "whatsapp": "+595 972 413121",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberiah2o",
-    "phone": "0972 413121"
+    "phone": "+595 972 413121"
   },
   "location": {
     "city": "San Lorenzo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "364c2c83-5b0a-476e-9bad-fb5161645df3",
-  "createdAt": "2026-04-25T04:08:08.846Z"
+  "createdAt": "2026-04-25T04:08:08.846Z",
+  "google_maps_url": "https://maps.google.com/?cid=17015207088656677308",
+  "business_status": "OPERATIONAL"
 }

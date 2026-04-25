@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(061) 509 986",
+    "whatsapp": "+595 61 509 986",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(061) 509 986"
+    "phone": "+595 61 509 986"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "815c52ce-fe95-47b6-85ae-d27b8d08c5c8",
-  "createdAt": "2026-04-25T04:08:08.813Z"
+  "createdAt": "2026-04-25T04:08:08.813Z",
+  "google_maps_url": "https://maps.google.com/?cid=5077394796386187308",
+  "business_status": "OPERATIONAL"
 }

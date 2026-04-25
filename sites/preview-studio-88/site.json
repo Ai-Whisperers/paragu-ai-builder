@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 555597",
+    "whatsapp": "+595 981 555597",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0981 555597"
+    "phone": "+595 981 555597"
   },
   "location": {
     "city": "San Lorenzo",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "6acca091-bc60-4442-b614-f60639cf426d"
+  "previewLeadId": "6acca091-bc60-4442-b614-f60639cf426d",
+  "google_maps_url": "https://maps.google.com/?cid=12281442820233291140",
+  "business_status": "OPERATIONAL"
 }

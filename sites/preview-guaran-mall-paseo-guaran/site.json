@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0974 363674",
+    "whatsapp": "+595 974 363674",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0974 363674"
+    "phone": "+595 974 363674"
   },
   "location": {
     "city": "Itauguá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "a14b0ae9-4487-4662-b3f8-07b65407514e",
-  "createdAt": "2026-04-25T04:08:08.817Z"
+  "createdAt": "2026-04-25T04:08:08.817Z",
+  "google_maps_url": "https://maps.google.com/?cid=8867828365473234749",
+  "business_status": "OPERATIONAL"
 }

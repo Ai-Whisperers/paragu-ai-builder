@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el barrio Villa Morra, Asunción",
       "address": "Av. Santa Teresa 1250 c/ San Martín",
       "city": "San Antonio",
-      "phone": "0981 618000",
+      "phone": "+595 981 618000",
       "email": "contacto@demospa.com.py",
-      "whatsapp": "+595981726354"
+      "whatsapp": "+595 981 618000"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
@@ -119,40 +119,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Un ambiente pensado para tu relajación",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
-          "alt": "Sala de masajes",
-          "caption": "Sala de masajes con aromaterapia"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHhh6_21w1iBybNR4IFJ_K8ja9k-JQKgT-OcgDlQ2R33yKFHNfPAVCPPElkvh-ispwBl---kivsXD-KfOhFTsOfm95pPlm1j2JkO1FJJX03vEM4kw84WLdhmAkpGv6NNvziUatC44G2vGFx0tzGDcY4gbIdMaH0oS2AdhX8MIHLgDS8kbSf-7kCUkPfTEPYW3Sk_JXKqhrabumgZYVDS3r4J7JEWoAnXqBfa7VUCJ5SWv3jQXcweE-MpH-b3gY19owaBS0h7vIjbpSas27r7UWIJ4VmY8tBOCElgsIFcCx8tg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
-          "alt": "Tratamiento facial",
-          "caption": "Limpieza facial profunda"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEh5rtbn00qkO5Optmg7lWdXgHvTd7aulF6y98XXeZHv2Gx9WNiR0JNFrPMxxqiDt4MRBgtJFW4o7JhSWvWFyJuUE2f5jrhuBlLVk5wpVqLWmzrLgK0NySbzbjgcIYVBRecxvYThr0wNER-T2f7gbD4Vy-AcyF-Pwp-fmLSzQ92LG6o7rFL_FfJIRqFgyqfmpYWC6Jr3esGXPMHiA2V5ZWpaHYuwnX4wtcV7pjYouCmuDXBcnzL_xV26AP0NsrFAOF-CUR9Hatmgnz1uwZWvsOUQie0Xg-9ZPXzRQUMt3NU-Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
-          "alt": "Velas y ambiente spa",
-          "caption": "Ambiente de relax"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGXzEXq56jmF2uXd6Mc5NEOugBFDukfNddS9qtWqweZjKDj0zT32E8vI1FCLcMKKSZ7CYqAfJn8N2q1m0VmMpF38OP5ObWceCpFhaZLL-PdaCG-V_oDPmjeywHMIGEc2BfklVwsub5dUSL74xYGmErnYvR8uMFKIlQQzR6aCDsgRSN7up2ZH7uD_IEsBImgxRAKwSzoymHl7dmR73WWWWh8a0mD78J936mOHQYMjtHo0WnDVUrv9Ud_3fDRhXaCDIwhgEJQKv-0g4eOVawPbGc18B63FYWc3vZUNfAcKeZ5HUR5rPwQfJieCVL8JbtRIO58jAeJvNL4nN1XmlJvpOxfyldxfC0G5xOEFOaxhhtqvYUYu5kSAmQsapfNIJPVazzs6vvJJvdBtv3ugSfvwnSpan5L7X6EIscz3DF9eDL41PKU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
-          "alt": "Masaje de espalda",
-          "caption": "Masaje descontracturante"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFfOxxCaGa5LF-8TOluHMBeo4wrtcwh6WLtqG2seK4vTR8BILqKyMfG5RYUm0DnJe0FllyDWc5Pd4o4-kDH7oUczQUVOy5mvCF75B408dl1HtJ43a4M0qfj9OVmz8-lyuJBDo5UFIcKtVBe3ICkJzsakIAYH6SfHaNJk-n2CmzgaFOmFQT64K_vxIU0vchV074KmvzD2frC1wJZ4-SW2dNeENMqD9o2SBuP3-6E4wwzCuFAtqpRLh0FrooFajHzjL3N7c9naIhxaydmN_qCN7d4P6JnB3PPWzJLOss1witd5L-8fPYhaYTExmBw7AjCbBt88SBoTtJu4AX55PUNDRlM7zjdICIZEbilbdsTlBhLXFPdWCH3IK2N1Q6QtRWely7BG11zj8sjW-jqil4a4bi51qNI6ZyZ0Tp7oSYNmrd-C4As&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
-          "alt": "Tratamiento corporal",
-          "caption": "Envoltura detox"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGM7AbiTqFZIm9T2q3xK8cvDficMOKNJSwczoh5icod-HTmNGPWACpgkz09zW9iLAQ0EidYa-leSbC2bkaVTt4ga3cdNMtGejN_wgEEA-FVz4d42ACiuRzuLtg-_m2olsMf3qGJWSgUyvo-VHX7HR6Vq-9twneSsMJk0Ws27QnYXdqm-QXAAZyEJQBiRt9x9sW5O0Xb8xsA5gUFgYyPxSoyLwtMA91kKsMCfen3B42Jm3VYTOA2E4_kkodYhciT4p-iHZ6JY8KjR4a6NmN-mz8Ot27x5Lih7ICYHLJL2gTutthpS86Af5wnDWdXKxp70nhzsJieB49yLHRM5zZ2pr97u51J8hpLhsro4DmGSDZ7vtkV63SpioWcyu0vd9X-cFMZ9XpYPZzyRwyWkB6yIqFU5qpt5waYiGRmra8y7R1cWn0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
-          "alt": "Sauna",
-          "caption": "Sauna finlandesa"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG1fINP6Um_wdud6sUny4HOgmilFmZJSKCkinOLvH3TqYETylvOZDk0NipYxaV88FygHziLSTDsU06eeLpboM67q5k97_NU1XCmcDA-18cpaE8Y01G9pahltB65Z4zZs8cgf8UDWpLBv1WT6h1_e46HeNzS1jFWkQ8a_dc8H1T4xDNl3OXaRj6IaoqIIdtgvVYSk3sz-ByDYxc3jbQoVVwkBl_yn2YE-7sxDWXqrUeq3J28apZDWlW-CtKn0LeFzUBFadIQWMJyeGMDPUTOxJ40LmgUz-pODvYXKY_qIweJrIMpw_R4BjzdXGVDrgFKZpWUD-FAWXG3vbfWi7qu1DYPIERFRBQwrmZizqwSEyGSsUN6PcGu9MiUZblG50zmgclprmWIJkX_LrKQyKjeLUUixiKMacLe5Jp6nBFwDSjsng&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },

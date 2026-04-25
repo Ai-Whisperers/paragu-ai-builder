@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 105541",
+    "whatsapp": "+595 985 105541",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 105541"
+    "phone": "+595 985 105541"
   },
   "location": {
     "city": "Encarnación",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "04d751a1-cd14-4413-8644-c164a355dd07",
-  "createdAt": "2026-04-25T04:08:08.824Z"
+  "createdAt": "2026-04-25T04:08:08.824Z",
+  "google_maps_url": "https://maps.google.com/?cid=9113074060982642668",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 106062",
+    "whatsapp": "+595 986 106062",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0986 106062"
+    "phone": "+595 986 106062"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "3680f9cf-3ceb-4ece-ba5b-93b2fe55b24c",
-  "createdAt": "2026-04-25T04:08:08.816Z"
+  "createdAt": "2026-04-25T04:08:08.816Z",
+  "google_maps_url": "https://maps.google.com/?cid=476619260746789209",
+  "business_status": "OPERATIONAL"
 }

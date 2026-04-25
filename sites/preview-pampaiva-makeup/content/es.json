@@ -112,24 +112,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Looks reales de nuestras clientas",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600",
-          "alt": "Maquillaje social",
-          "caption": "Maquillaje social natural"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8Me1g62wFVuhOkzU4nHyV4yHdcxsmDoP72OVrj_EJdoZBPiJTtx92_XgThZ51Lpvl47IflWs6M775mZgL461xV06FkDx_u0TOF_muMh8Dsc6O_IcoQ3_EV3QWtKnrOVc884MKHpmeMzoz3y3y947ZFr1zsaBRg-HN_F94jdAmVSYjdUdomrqu7jWwZPqo4Yyp5picY0QnBSwxpDZPtweuXQnX7IfUhr0t4FUTchF-aemBz0_zINPN7hujLJj4BnCdVAcOdjIAPmObxtS6kfC-U4XQB8hupJCpvUDIetxDCVsmLzXeYrcvRg-zv9JgkEmkYlZmyPyHvVSavTq_eus1EmuNhBENcbLknpyRja0QnmsbUoDj8rwZWxYBTfB677_Ha04eoXK2bYZWXf6D7-Up9u6AjAW_bokJJTm7AzhM1uFckZPe7USepFaXlKg4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600",
-          "alt": "Maquillaje novia",
-          "caption": "Maquillaje para novia"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGds36QOKOkfqlNzC9koISh6xad6k8HZEtL6xgOPVIgBokFbmtR1LFbjpsk0N8Ae0R1YKfrFac-jHvRV9YmecVVHT_xDH3vjHm8aAkjaYZIbWpYy4regYno5fmZgDMlj1DG01vuuS8wQfrNrB3AxsB3kwWuWuAqRAMyIpxFuCqVLJhYHFwikV3LTiSuDGrUbnrSx8lgWMwj17XO4txi6MyRNcvCeVGKYym_fQ10zXCmDtIDVp5y4NsUW8in1rjxjOhj6CKLaqOqfYBXuRM1X4fgswOdwAGqavWNE8wsEgSbpRMg0O9zArcw84hVOk_XVpjssWKt7Yk15afzx68uaPa4Z1cYmFVdtz0uhRe3qNhokoRlSHxTeyOC1iLivmumBTAxll35U12qjRBkwcdnh_8poj8E-qOOU_MKd53C57uR5pjs&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600",
-          "alt": "Maquillaje artístico",
-          "caption": "Maquillaje artístico"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHo8JXIB6Xq-ji1XQKZpWMJIaddcHN--_igraoZyvlcBFjndqBlXRRcrqN8-LjE6c2pGmq8ABUusf3MRvX8JQSKbQEZVWfFSgSOx1I4qMBAahvGbi8W-yhAw1D7Gs-vXd3ympNqP_J10d6ycyc8TY41tBI8xCx3lf7Im8a7iw93291u9rFHbFqeMIyBsSfDFHlEKu3VHlw0JJcGjuhLYg-jrPsZ-D0qE6mGMJCRvj747ts0yVTE5rfXufYa9NMSSbDRHx5rDtWO_em9wEVyevUOdoRT864Jv7FxfQ0HR4kViiMxPgcfk3aolhSmznuZrFiC9cRAFn8TqCQFYMhHKqz_KUYEBprKaF_SJoJxjYIJ-cmYzkJKweCc8fCqOnDvY2tdfciQArHCeXXG09PJ4hcR_CBUWUkV34vQth1q0m9wKQ6u&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGlet7LZS7Le0RO5ipUJtY4bPniEBP6jZ_eEIJ-ocovCkfo68r_x7TsRcEEXRmQFd83BZiVqDoNMCFrjrRHfp-jcmSmvK8CHjH-lauRYuitGICKo3A2frGiV4czTL2ysvMHyq25tnKza7wGSg9cYplf2K9XulmoQzYZ3rRvAVN0MqLoGCPgHu5wKyrfmV19lSlWy6aFq-JMz6eYrMBQFczIm3dlg3pWioTsXrVoGHEGkiwV9BcV0dzW6l_wQfa-HNN33NnVpjxpVnL0vPy0paRF75CoYAmyjGBg0GWvAXwATdtZpuA6QD_EsIEWSn4uWbboLnjqI0E9dNhJ-VMZlbRQrbQJd5EWJC-B1FQfTp5wJrcEH5a5XIGK5jJxMGIrsxcEsDsqKlvupQpk_m_pOPut9YdKGS-pw9U8kXIBpdiJJI6WSxw_7z9QwRbS8fyL&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEJ_pRfoQHprnuhrF2uFTsl0zxYFFG1_Q3FHrQpsjigLTbXDlWDRLKb2bYDwqVTxbKp2kl715N4Mm5dCZU1PEDwJRxbUZcHGGrIWlKT8Ho1qqWXoOrZXvhe1dODi-m8T70yr07C9unV-YxsBunkzatITQPt5_LnLjvJi74GJ091S85uu3xeUIT7iB3XUBBJW1wsSoWBhXu2CNC-wjBFPtYu6luYtPCYLayTHG9vaQeg4j-Y7lJFQzgOEowCuv8uQifgHm8JzKq4gXPGDrCLMJHbVdBjVEJWsNEkDWlbJ9gc-D8PRe6GeDNRi9OucZVoot2teZQxFIbwB_kBMzLKz5SiQprYBpK4GZC-2l4zxg2qZq-ua3ijH59PZ2cK8DOhfaYxS1NzMvXyaorbC8T09s_A5SRY8W4yXo8wqAE3RwCqFMxcYN4Jax3L6cHnjA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHM_2Aeq32pXQ9vvQ4AShhZyKUWSBGaPQe63uGDEgacU8eiK-2-wAAUUOcM-c1wqRWczrgU8DTctw7EP0GU4V6tkc2zBXt9uxIh7YcayQN9TZfRjUcP_tgsdBn8D_NU6VQPwRE59AZUA5mUrX0h-JnBBgDgJciRnJweQqi3lQHOKsMCr_JBeRzbJzZoExh8DtxockNMcZYCJk6EBBpKc020MYTxdnnkPEnVWDo18TIS4l1uIqtDpg9k5U4mzjELZceqrzqb2O0C3SthEorKUasvI9ZYwby-26NU9SycVOqEiva_Wj_3yY1fY0Wk0-ClMBFJ0VKPRKZR_5wA0j_kx6Ab6eePuQURZK2zatRYHSMFK3i_mg0nIxN_G_xkztSamMts7NQMb6JkAvLm7u-kjvo0yTN06-RA8SEnhlMEJW7Q4hshhPSQF32HhL_3S8-M&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -226,8 +241,9 @@
       "Domingo": "Open 24 hours"
     },
     "contact": {
-      "phone": "0981 775554",
-      "city": "Mariano Roque Alonso"
+      "phone": "+595 981 775554",
+      "city": "Mariano Roque Alonso",
+      "whatsapp": "+595 981 775554"
     }
   },
   "footer": {
