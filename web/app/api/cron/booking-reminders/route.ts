@@ -7,20 +7,16 @@ export const runtime = 'nodejs'
 
 const CRON_SECRET = process.env.CRON_SECRET
 
-/**
- * Sends WhatsApp reminders 24h before bookings.
- *
- * Runs daily at 09:00 Asunción time (12:00 UTC).
- * Finds all confirmed bookings for TOMORROW where the business
- * has a connected WhatsApp instance, and sends a reminder.
- */
 export async function POST(request: Request) {
   try {
     if (CRON_SECRET && request.headers.get('x-cron-secret') !== CRON_SECRET) {
       return NextResponse.json({ error: 'forbidden' }, { status: 403 })
     }
 
-    const supabase = await createAdminClient()
+    let supabase
+    try { supabase = await createAdminClient() } catch {
+      return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+    }
     const tomorrow = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString().split('T')[0]
 
     // Fetch all confirmed bookings for tomorrow with business info
