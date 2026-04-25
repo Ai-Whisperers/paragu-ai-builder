@@ -331,12 +331,9 @@
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00",
-        "Domingo": "Cerrado"
-      }
+      "Lunes a Viernes": "09:00 - 20:00",
+      "Sábado": "09:00 - 18:00",
+      "Domingo": "Cerrado"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

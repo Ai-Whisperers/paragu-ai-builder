@@ -30,8 +30,16 @@
     "blog-index",
     "blog-post",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "full",
-  "locales": ["es", "en"]
+  "locales": [
+    "es",
+    "en"
+  ]
 }

@@ -270,12 +270,9 @@
       ]
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00",
-        "Domingo": "Cerrado"
-      }
+      "Lunes a Viernes": "09:00 - 21:00",
+      "Sábado": "10:00 - 20:00",
+      "Domingo": "Cerrado"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

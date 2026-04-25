@@ -20714,7 +20714,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -20806,7 +20806,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -21962,7 +21962,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -22064,7 +22064,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -22335,7 +22335,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -22509,7 +22509,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -22611,7 +22611,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -24040,7 +24040,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -24132,7 +24132,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -24234,7 +24234,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -25564,7 +25564,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -25656,7 +25656,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -25748,7 +25748,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -25840,7 +25840,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26106,7 +26106,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26300,7 +26300,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26392,7 +26392,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26494,7 +26494,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26586,7 +26586,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26688,7 +26688,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26872,7 +26872,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -26974,7 +26974,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -28341,7 +28341,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -28443,7 +28443,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -28801,7 +28801,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -28903,7 +28903,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -29763,7 +29763,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -29865,7 +29865,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -30233,7 +30233,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -30335,7 +30335,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -30688,7 +30688,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -30790,7 +30790,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -31742,7 +31742,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -31916,7 +31916,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -32008,7 +32008,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -33104,7 +33104,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -33196,7 +33196,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -33974,7 +33974,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -34583,7 +34583,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -34685,7 +34685,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -34787,7 +34787,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -36015,7 +36015,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -36440,7 +36440,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -37454,7 +37454,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -37710,7 +37710,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -37812,7 +37812,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.pricing",
         "id": "pricing-table",
-        "variant": "tiered"
+        "variant": "default"
       },
       {
         "content": "home.team",
@@ -65185,12 +65185,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -65711,12 +65708,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Areguá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -66160,12 +66154,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -66534,12 +66525,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -67062,12 +67050,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -67415,12 +67400,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -67887,12 +67869,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -68459,12 +68438,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -68985,12 +68961,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -69532,12 +69505,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -69890,12 +69860,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -70327,12 +70294,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -70685,12 +70649,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -71043,12 +71004,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -71480,12 +71438,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -71917,12 +71872,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -72354,12 +72306,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -72691,12 +72640,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Coronel Oviedo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -73217,12 +73163,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Providencia"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -73643,12 +73586,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -74194,12 +74134,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -74766,12 +74703,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -75215,12 +75149,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -75568,12 +75499,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -76111,11 +76039,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -76354,12 +76279,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -76905,12 +76827,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -77398,12 +77317,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -77924,12 +77840,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -78371,12 +78284,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -78818,12 +78728,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -79265,12 +79172,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Atyrá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -79712,12 +79616,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -80159,12 +80060,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -80608,12 +80506,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Villa Elisa"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -80982,12 +80877,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -81429,12 +81321,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -81876,12 +81765,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Hohenau"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -82323,12 +82209,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -82820,11 +82703,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -83084,12 +82964,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ayolas"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -83610,12 +83487,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -84057,12 +83931,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -84483,12 +84354,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -84955,12 +84823,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -85506,12 +85371,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -86078,12 +85940,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Bernardino"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -86525,12 +86384,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -87051,12 +86907,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -87577,12 +87430,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -88103,12 +87953,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Pilar"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -88629,12 +88476,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Pilar"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -89155,12 +88999,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -89602,12 +89443,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -90051,12 +89889,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -90346,12 +90181,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -90793,12 +90625,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Santa Rita"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -91319,12 +91148,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -91845,12 +91671,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Ignacio Guazú"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -92373,12 +92196,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -92726,12 +92546,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -93198,12 +93015,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -93670,12 +93484,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -94142,12 +93953,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -94635,12 +94443,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -95082,12 +94887,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ñemby"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -95587,12 +95389,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -96159,12 +95958,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Paraguarí"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -96664,12 +96460,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -97136,12 +96929,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -97687,12 +97477,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -98159,12 +97946,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -98710,12 +98494,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -99282,12 +99063,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itauguá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -99708,12 +99486,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -100259,12 +100034,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -100752,12 +100524,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Puerto Iguazú"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -101199,12 +100968,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Puerto Iguazú"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -101648,12 +101414,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -101945,12 +101708,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -102240,12 +102000,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itauguá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -102687,12 +102444,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -103134,12 +102888,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -103581,12 +103332,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -104028,12 +103776,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Hernandarias"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -104554,12 +104299,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Ignacio Guazú"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -105080,12 +104822,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa del Rosario"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -105606,12 +105345,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Colonia Hohenau Itapúa Paraguay"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -106053,12 +105789,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -106579,12 +106312,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -107107,12 +106837,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Güímar"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -107460,12 +107187,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -108011,12 +107735,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -108583,12 +108304,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Lambaré"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -109030,12 +108748,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -109477,12 +109192,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -109982,12 +109694,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -110533,12 +110242,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -111105,12 +110811,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -111552,12 +111255,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa del Rosario"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -112078,12 +111778,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -112604,12 +112301,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Presidente Franco"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -113096,11 +112790,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Villa Elisa"
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "10:00 - 19:00",
-          "Sábado": "10:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "10:00 - 19:00",
+        "Sábado": "10:00 - 17:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -113433,12 +113124,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -113925,11 +113613,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "10:00 - 19:00",
-          "Sábado": "10:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "10:00 - 19:00",
+        "Sábado": "10:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -114149,11 +113834,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "10:00 - 19:00",
-          "Sábado": "10:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "10:00 - 19:00",
+        "Sábado": "10:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -114407,12 +114089,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -114833,12 +114512,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -115384,12 +115060,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -115956,12 +115629,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -116484,12 +116154,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Villa Elisa"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -116860,12 +116527,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Villa Elisa"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -117213,12 +116877,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -117764,12 +117425,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -118336,12 +117994,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Altos"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -118785,12 +118440,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -119159,12 +118811,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -119585,12 +119234,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -120136,12 +119782,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -120629,12 +120272,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ñemby"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -121076,12 +120716,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -121523,12 +121160,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -122051,12 +121685,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Concepción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -122427,12 +122058,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Concepción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -122801,12 +122429,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Lambaré"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -123250,12 +122875,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -123624,12 +123246,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Atyrá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -124071,12 +123690,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villarrica"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -124599,12 +124215,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -124952,12 +124565,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -125445,12 +125055,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -125871,12 +125478,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -126343,12 +125947,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -126836,12 +126437,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -127333,11 +126931,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -127597,12 +127192,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -128125,12 +127717,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -128499,12 +128088,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Lambaré"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -129025,12 +128611,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -129472,12 +129055,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Presidente Franco"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -129919,12 +129499,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Presidente Franco"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -130366,12 +129943,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -130894,12 +130468,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Presidente Franco"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -131191,12 +130762,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Presidente Franco"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -131488,12 +131056,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -131762,12 +131327,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -132234,12 +131796,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -132693,11 +132252,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Mariano Roque Alonso"
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "10:00 - 19:00",
-          "Sábado": "10:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "10:00 - 19:00",
+        "Sábado": "10:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -132951,12 +132507,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -133477,12 +133030,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -133924,12 +133474,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -134371,12 +133918,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -134818,12 +134362,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa Hayes"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -135344,12 +134885,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Coronel Oviedo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -135870,12 +135408,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Coronel Oviedo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -136375,12 +135910,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -136947,12 +136479,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -137473,12 +137002,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -137920,12 +137446,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -138367,12 +137890,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Capiatá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -138816,12 +138336,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -139211,12 +138728,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -139527,12 +139041,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -140078,12 +139589,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -140629,12 +140137,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -141203,12 +140708,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -141469,11 +140971,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
       },
       "hours": {
-        "schedules": {
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 17:00"
-        },
-        "title": "Horarios"
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 17:00"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -141733,12 +141232,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Atyrá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -142180,12 +141676,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -142706,12 +142199,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -143232,12 +142722,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -143679,12 +143166,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -144126,12 +143610,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -144652,12 +144133,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -145178,12 +144656,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Capiatá"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -145704,12 +145179,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Mariano Roque Alonso"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -146230,12 +145702,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -146758,12 +146227,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -147111,12 +146577,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -147683,12 +147146,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -148130,12 +147590,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -148579,12 +148036,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -148874,12 +148328,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ayolas"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -149300,12 +148751,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -149814,12 +149262,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -150172,12 +149617,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -150588,12 +150030,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -151037,12 +150476,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -151353,12 +150789,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -151769,12 +151202,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Santa Rita"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -152297,12 +151727,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -152592,12 +152019,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -153039,12 +152463,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa Hayes"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -153486,12 +152907,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -153933,12 +153351,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 20:00",
-          "Sábado": "09:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -154359,12 +153774,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -154933,12 +154345,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Antonio"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -155230,12 +154639,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Antonio"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "Cerrado",
-          "Lunes a Viernes": "09:00 - 21:00",
-          "Sábado": "10:00 - 20:00"
-        },
-        "title": "Horarios"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 21:00",
+        "Sábado": "10:00 - 20:00"
       },
       "instagramFeed": {
         "columns": 4,
@@ -155504,12 +154910,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -156055,12 +155458,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
       },
       "hours": {
-        "schedules": {
-          "Domingo": "09:00 - 13:00",
-          "Lunes a Viernes": "05:00 - 22:00",
-          "Sábado": "07:00 - 18:00"
-        },
-        "title": "Horarios"
+        "Domingo": "09:00 - 13:00",
+        "Lunes a Viernes": "05:00 - 22:00",
+        "Sábado": "07:00 - 18:00"
       },
       "packagesGiftcards": {
         "giftCards": [
@@ -160211,7 +159611,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "newsletter-signup",
       "cta-banner",
       "blog-index",
-      "blog-post"
+      "blog-post",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "agriculture_base",
     "defaultStarterKit": "minimal",
@@ -160243,7 +159648,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "business-hours",
       "google-maps",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "entertainment_base",
     "defaultStarterKit": "minimal",
@@ -160278,7 +159688,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "google-maps",
       "emergency-indicator",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "automotive_base",
     "defaultStarterKit": "minimal",
@@ -160313,7 +159728,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "contact",
       "cta-banner",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "professional_services_base",
     "defaultStarterKit": "minimal",
@@ -160361,7 +159781,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "reviews-widget",
       "packages-giftcards",
       "google-reviews",
-      "branches"
+      "branches",
+      "pricing-table",
+      "pricing"
     ],
     "baseType": "beauty_base",
     "defaultStarterKit": "minimal",
@@ -160395,7 +159817,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "business-hours",
       "google-maps",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "death_care_base",
     "defaultStarterKit": "minimal",
@@ -160427,7 +159854,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "contact",
       "cta-banner",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "education_base",
     "defaultStarterKit": "minimal",
@@ -160462,7 +159894,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "lead-form",
       "contact",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "finance_insurance_base",
     "defaultStarterKit": "minimal",
@@ -160511,7 +159948,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "lead-form",
       "weekly-cadence-calendar",
       "sample-week-preview",
-      "delivery-slot-picker"
+      "delivery-slot-picker",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "restaurant_base",
     "defaultStarterKit": "minimal",
@@ -160556,7 +159998,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "reviews-widget",
       "packages-giftcards",
       "google-reviews",
-      "branches"
+      "branches",
+      "pricing-table",
+      "pricing"
     ],
     "baseType": "health_wellness_base",
     "defaultStarterKit": "minimal",
@@ -160595,7 +160039,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "blog-index",
       "blog-post",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "defaultStarterKit": "full",
     "description": "Hotels, hostels, boutique lodgings, event venues, camping/glamping. Room-catalog + venue-booking flows.",
@@ -160630,7 +160079,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "quote-form",
       "contact",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "logistics_base",
     "defaultStarterKit": "minimal",
@@ -160661,7 +160115,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "lead-form",
       "contact",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "media_base",
     "defaultStarterKit": "minimal",
@@ -160693,7 +160152,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "lead-form",
       "contact",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "membership_base",
     "defaultStarterKit": "minimal",
@@ -160726,7 +160190,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "business-hours",
       "google-maps",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "pets_base",
     "defaultStarterKit": "minimal",
@@ -160784,7 +160253,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "reviews-widget",
       "packages-giftcards",
       "google-reviews",
-      "branches"
+      "branches",
+      "pricing-table"
     ],
     "defaultStarterKit": "full",
     "description": "Project-showcase businesses: photographers, videographers, architects, interior designers, agencies, freelance designers. Portfolio + case-study + quote-request flow.",
@@ -160836,7 +160306,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "tax-savings-calculator",
       "intake-wizard",
       "newsletter-signup",
-      "resources-list"
+      "resources-list",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "defaultStarterKit": "full",
     "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",
@@ -160904,7 +160379,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "reviews-widget",
       "packages-giftcards",
       "google-reviews",
-      "branches"
+      "branches",
+      "pricing-table",
+      "pricing"
     ],
     "baseType": "retail_base",
     "defaultStarterKit": "minimal",
@@ -160949,7 +160426,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "reviews-widget",
       "packages-giftcards",
       "google-reviews",
-      "branches"
+      "branches",
+      "pricing-table",
+      "pricing"
     ],
     "defaultStarterKit": "full",
     "description": "Any business whose core offering is a bookable service: gyms, yoga studios, pilates, crossfit, dance academies, language academies, music schools, swimming pools, martial arts, personal trainers, nutritionists, therapists, masseurs. Shares the same page composition, parameterised by data only.",
@@ -160991,7 +160470,9 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "reviews-widget",
       "packages-giftcards",
       "google-reviews",
-      "branches"
+      "branches",
+      "pricing-table",
+      "pricing"
     ],
     "baseType": "sports_base",
     "defaultStarterKit": "minimal",
@@ -161041,7 +160522,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "contact",
       "maturity-assessment",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "technology_base",
     "defaultStarterKit": "minimal",
@@ -161076,7 +160562,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "contact",
       "cta-banner",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "trades_base",
     "defaultStarterKit": "minimal",
@@ -161109,7 +160600,12 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "quote-form",
       "contact",
       "footer",
-      "whatsapp-float"
+      "whatsapp-float",
+      "pricing-table",
+      "pricing",
+      "packages-giftcards",
+      "google-reviews",
+      "branches"
     ],
     "baseType": "industrial_base",
     "defaultStarterKit": "minimal",

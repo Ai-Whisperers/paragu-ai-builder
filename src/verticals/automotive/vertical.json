@@ -13,11 +13,29 @@
     "businessHours": true
   },
   "allowedSections": [
-    "header", "hero", "services", "service-menu", "before-after",
-    "quote-form", "testimonials", "faq", "process", "contact",
-    "business-hours", "google-maps", "emergency-indicator",
-    "footer", "whatsapp-float"
+    "header",
+    "hero",
+    "services",
+    "service-menu",
+    "before-after",
+    "quote-form",
+    "testimonials",
+    "faq",
+    "process",
+    "contact",
+    "business-hours",
+    "google-maps",
+    "emergency-indicator",
+    "footer",
+    "whatsapp-float",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
-  "locales": ["es"]
+  "locales": [
+    "es"
+  ]
 }

@@ -14,11 +14,26 @@
   "navigation": {
     "businessName": "Spa",
     "navItems": [
-      { "label": "Inicio", "path": "" },
-      { "label": "Servicios", "path": "#servicios" },
-      { "label": "Galería", "path": "#galeria" },
-      { "label": "Equipo", "path": "#equipo" },
-      { "label": "Contacto", "path": "#contacto" }
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
     ],
     "ctaText": "Reservar",
     "ctaHref": "#contacto"
@@ -196,12 +211,36 @@
       "subtitle": "Elegí el servicio y el horario que más te convenga",
       "phone": "+595981726354",
       "services": [
-        { "name": "Masaje Relajante", "duration": "60 min", "category": "masajes" },
-        { "name": "Masaje Descontracturante", "duration": "60 min", "category": "masajes" },
-        { "name": "Limpieza Facial Profunda", "duration": "45 min", "category": "faciales" },
-        { "name": "Tratamiento Corporal Detox", "duration": "90 min", "category": "corporales" },
-        { "name": "Sauna y Baño de Vapor", "duration": "30 min", "category": "sauna" },
-        { "name": "Pedicura Spa", "duration": "60 min", "category": "belleza" }
+        {
+          "name": "Masaje Relajante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "duration": "45 min",
+          "category": "faciales"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "duration": "90 min",
+          "category": "corporales"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "duration": "30 min",
+          "category": "sauna"
+        },
+        {
+          "name": "Pedicura Spa",
+          "duration": "60 min",
+          "category": "belleza"
+        }
       ],
       "ctaText": "Reservar por WhatsApp"
     },
@@ -231,12 +270,9 @@
       ]
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00",
-        "Domingo": "Cerrado"
-      }
+      "Lunes a Viernes": "09:00 - 21:00",
+      "Sábado": "10:00 - 20:00",
+      "Domingo": "Cerrado"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

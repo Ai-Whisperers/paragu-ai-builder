@@ -34,7 +34,12 @@
     "newsletter-signup",
     "cta-banner",
     "blog-index",
-    "blog-post"
+    "blog-post",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

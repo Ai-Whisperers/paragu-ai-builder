@@ -13,10 +13,28 @@
     "whatsappFloat": true
   },
   "allowedSections": [
-    "header", "hero", "programs-comparison", "services", "class-schedule",
-    "team", "testimonials", "faq", "process", "contact",
-    "cta-banner", "footer", "whatsapp-float"
+    "header",
+    "hero",
+    "programs-comparison",
+    "services",
+    "class-schedule",
+    "team",
+    "testimonials",
+    "faq",
+    "process",
+    "contact",
+    "cta-banner",
+    "footer",
+    "whatsapp-float",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
-  "locales": ["es", "en"]
+  "locales": [
+    "es",
+    "en"
+  ]
 }

@@ -53,7 +53,9 @@
     "reviews-widget",
     "packages-giftcards",
     "google-reviews",
-    "branches"
+    "branches",
+    "pricing-table",
+    "pricing"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

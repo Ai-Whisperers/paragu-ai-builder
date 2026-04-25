@@ -12,10 +12,29 @@
     "whatsappFloat": true
   },
   "allowedSections": [
-    "header", "hero", "services", "features", "process",
-    "team", "testimonials", "case-studies", "faq", "lead-form",
-    "contact", "cta-banner", "footer", "whatsapp-float"
+    "header",
+    "hero",
+    "services",
+    "features",
+    "process",
+    "team",
+    "testimonials",
+    "case-studies",
+    "faq",
+    "lead-form",
+    "contact",
+    "cta-banner",
+    "footer",
+    "whatsapp-float",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
-  "locales": ["es", "en"]
+  "locales": [
+    "es",
+    "en"
+  ]
 }

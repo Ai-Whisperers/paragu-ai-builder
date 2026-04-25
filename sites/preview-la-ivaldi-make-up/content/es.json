@@ -206,11 +206,8 @@
       ]
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "10:00 - 19:00",
-        "Sábado": "10:00 - 17:00"
-      }
+      "Lunes a Viernes": "10:00 - 19:00",
+      "Sábado": "10:00 - 17:00"
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
