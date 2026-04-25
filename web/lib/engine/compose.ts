@@ -473,7 +473,14 @@ export async function composePageForType(
   }
 
   const registry = loadRegistry(business.type)
-  const content = loadContent(business.type)
+  let content = loadContent(business.type)
+
+  // Merge DB-stored content overrides → static content. Tenant edits
+  // saved via the content editor (businesses.data_json.content) take
+  // precedence over the type-level default templates.
+  if (content && business.contentOverrides) {
+    content = deepMergeContent(content, business.contentOverrides)
+  }
 
   if (!registry || !content) {
     logger.error('Composition failed — missing registry or content', {
@@ -600,4 +607,16 @@ export function buildSectionData(
   const builder = SECTION_BUILDERS[type]
   if (!builder) return null
   return builder({ business, content, templateData, navItems, registry, pageType })
+}
+
+function deepMergeContent(base: ContentTemplate, overrides: Record<string, unknown>): ContentTemplate {
+  const merged = { ...base }
+  for (const [key, value] of Object.entries(overrides)) {
+    if (value && typeof value === 'object' && !Array.isArray(value) && typeof merged[key] === 'object') {
+      merged[key] = { ...merged[key], ...value }
+    } else if (value !== undefined && value !== null) {
+      merged[key] = value as never
+    }
+  }
+  return merged
 }
