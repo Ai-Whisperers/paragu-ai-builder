@@ -14,44 +14,9 @@
       "content": "home.hero"
     },
     {
-      "id": "promo-banner",
-      "variant": "simple",
-      "content": "home.promoBanner"
-    },
-    {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "home.trustBadges"
-    },
-    {
       "id": "services",
       "variant": "cards",
       "content": "home.services"
-    },
-    {
-      "id": "booking",
-      "variant": "wizard",
-      "content": "home.booking"
-    },
-    {
-      "id": "class-schedule",
-      "variant": "grid",
-      "content": "home.schedule"
-    },
-    {
-      "id": "pricing-table",
-      "variant": "default",
-      "content": "home.pricing"
-    },
-    {
-      "id": "team",
-      "variant": "cards",
-      "content": "home.team"
-    },
-    {
-      "id": "before-after",
-      "variant": "slider",
-      "content": "home.transformations"
     },
     {
       "id": "testimonials",
@@ -59,24 +24,9 @@
       "content": "home.testimonials"
     },
     {
-      "id": "blog-index",
-      "variant": "grid",
-      "content": "home.blog"
-    },
-    {
-      "id": "faq",
-      "variant": "accordion",
-      "content": "home.faq"
-    },
-    {
       "id": "contact",
       "variant": "split",
       "content": "home.contact"
-    },
-    {
-      "id": "open-hours-status",
-      "variant": "standard",
-      "content": "home.hours"
     },
     {
       "id": "footer",
