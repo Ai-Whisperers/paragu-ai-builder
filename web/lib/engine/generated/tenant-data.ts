@@ -167508,7 +167508,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "entertainment_base",
     "defaultStarterKit": "minimal",
@@ -167569,7 +167570,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "automotive_base",
     "defaultStarterKit": "minimal",
@@ -167627,7 +167629,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "professional_services_base",
     "defaultStarterKit": "minimal",
@@ -167691,7 +167694,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "beauty_base",
     "defaultStarterKit": "minimal",
@@ -167752,7 +167756,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "death_care_base",
     "defaultStarterKit": "minimal",
@@ -167807,7 +167812,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "education_base",
     "defaultStarterKit": "minimal",
@@ -167866,7 +167872,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "finance_insurance_base",
     "defaultStarterKit": "minimal",
@@ -167936,7 +167943,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "restaurant_base",
     "defaultStarterKit": "minimal",
@@ -168001,7 +168009,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "health_wellness_base",
     "defaultStarterKit": "minimal",
@@ -168064,7 +168073,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "defaultStarterKit": "full",
     "description": "Hotels, hostels, boutique lodgings, event venues, camping/glamping. Room-catalog + venue-booking flows.",
@@ -168125,7 +168135,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "logistics_base",
     "defaultStarterKit": "minimal",
@@ -168183,7 +168194,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "media_base",
     "defaultStarterKit": "minimal",
@@ -168241,7 +168253,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "membership_base",
     "defaultStarterKit": "minimal",
@@ -168436,7 +168449,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "defaultStarterKit": "full",
     "description": "Consolidated vertical: relocation services (residency, incorporation, bank account) + real estate (listings, rentals, land). Folder stays at src/verticals/relocacion/ for the Nexa Paraguay tenant path.",
@@ -168574,7 +168588,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "defaultStarterKit": "full",
     "description": "Any business whose core offering is a bookable service: gyms, yoga studios, pilates, crossfit, dance academies, language academies, music schools, swimming pools, martial arts, personal trainers, nutritionists, therapists, masseurs. Shares the same page composition, parameterised by data only.",
@@ -168632,7 +168647,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "sports_base",
     "defaultStarterKit": "minimal",
@@ -168697,7 +168713,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "technology_base",
     "defaultStarterKit": "minimal",
@@ -168757,7 +168774,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "trades_base",
     "defaultStarterKit": "minimal",
@@ -168816,7 +168834,8 @@ export const VERTICALS: Record<string, JsonRecord> = {
       "resource-list",
       "video-embed",
       "stats-counter",
-      "logo-strip"
+      "logo-strip",
+      "product-catalog"
     ],
     "baseType": "industrial_base",
     "defaultStarterKit": "minimal",
