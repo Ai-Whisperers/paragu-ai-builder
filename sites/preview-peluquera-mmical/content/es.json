@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 177 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "María F."
+          "author": "Letizia Sotelo",
+          "quote": "I flew from Tampa to Asunción and needed a full-service salon for hair, nails, and Peluqueria Mmical was perfect! Scheduling via WhatsApp was a breeze, and their English-speaking staff made communicat",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carlos G."
+          "author": "GABRIELA ELIZABETH BOLAÑOS LUGO",
+          "quote": "The best hair salon in Asuncion, located in a strategic area, with excellent service and professionalism. I always leave very happy with the pampering I receive at MMical.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Ana L."
+          "author": "Ana Ines Martinez Decoud",
+          "quote": "When the owner saw me using a cane, she kindly offered to drive me to a small restaurant so I wouldn't have to walk there, which I greatly appreciate since it was their decision. I was very grateful a",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Diego H."
+          "author": "Melissa Gomez",
+          "quote": "Mical's makeup service is excellent; she has been making me more beautiful for 10 years and was with me during the most important moments, like my wedding.",
+          "rating": 5
+        },
+        {
+          "author": "FRANCISCO OLMEDO",
+          "quote": "Top-notch... Uncle Porfirio is a master. The service was 100% excellent.",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "8:00 AM – 8:00 PM",
+      "Martes": "8:00 AM – 8:00 PM",
+      "Miercoles": "8:00 AM – 8:00 PM",
+      "Jueves": "8:00 AM – 8:00 PM",
+      "Viernes": "8:00 AM – 8:00 PM",
+      "Sabado": "8:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

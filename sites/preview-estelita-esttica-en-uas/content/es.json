@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 286 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Jinnah Paranderi",
+          "quote": "Excellent service and top-notch attention 👏😊",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Ana L."
+          "author": "Carmen Sena",
+          "quote": "Without a doubt, when you go to Paraguay, this is a place where you can pamper yourself. Great work!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Diego H."
+          "author": "Leticia Ortiz Candado",
+          "quote": "You're the best!! You're kind and professional!! And the price is affordable!!! Thank you all so much!!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Valentina R."
+          "author": "Alex F Jensen",
+          "quote": "This is the first place in Asunción where they've done my eyebrows properly and not super thin. Even better than the eyebrow bar. I loved the service; the girl who did my nails was very nice and did e",
+          "rating": 5
+        },
+        {
+          "author": "Sil Ramirez",
+          "quote": "The service is wonderful and her professionalism is outstanding... I'm delighted. Carolina Mora is a gem!",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 7:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

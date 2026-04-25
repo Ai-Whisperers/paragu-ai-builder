@@ -62840,9 +62840,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Areguá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 9:00 PM",
+        "Jueves": "1:00 – 6:00 PM",
+        "Lunes": "1:00 – 6:00 PM",
+        "Martes": "1:00 – 6:00 PM",
+        "Miercoles": "1:00 – 6:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "1:00 – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -62937,30 +62941,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Marie-Anne Savard",
+            "quote": "The place is so nice. The rooms are cute and the house is really cozy. The garden is just amazing! And the house is near the lake. The owners are just perfect! They help us a lot . They learn us many ",
+            "rating": 5
+          },
+          {
+            "author": "Amina Tan",
+            "quote": "This was a place heaven of attention. The owner was welcoming and helped us get comfortable, she also showed us how to get around areguà.\nThe Hostel is clean and very pretty and full of beautiful art ",
+            "rating": 5
+          },
+          {
+            "author": "Alicia Martínez Trueba",
+            "quote": "Brilliant. The concept of the inn, and the genius locci that Gloria offers are fantastic.",
+            "rating": 5
+          },
+          {
+            "author": "Sofia Lopez King",
+            "quote": "Excellent inn to stay in Areguá. An old house of immense historical value that makes you feel like you've stepped back in time. The owner, Gloria, provides warm and helpful service, the breakfasts inc",
+            "rating": 5
+          },
+          {
+            "author": "Rosa Mussi.",
+            "quote": "Two people made the decision to stay based on the photos of the rooms on Google Maps (here we need to UPDATE photos of the inn and add them to Instagram), in addition to some photos of the rooms we re",
             "rating": 3
-          },
-          {
-            "author": "Laura E.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 194 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -64835,9 +64844,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "9:00 AM – 1:30 AM",
+        "Jueves": "9:00 AM – 1:30 AM",
+        "Lunes": "9:00 AM – 1:30 AM",
+        "Martes": "9:00 AM – 1:30 AM",
+        "Miercoles": "9:00 AM – 1:30 AM",
+        "Sabado": "9:00 AM – 1:30 AM",
+        "Viernes": "9:00 AM – 1:30 AM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -64969,30 +64982,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
-          },
-          {
-            "author": "Jorge C.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Hugo Marcelo Cristaldo Monzon",
+            "quote": "The complex has three indoor courts and one outdoor court, good restrooms, a barbecue area, and a snack bar with a variety of drinks. Recommended.",
             "rating": 3
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Alex Carrasco",
+            "quote": "A special place to share with friends, work group and family.",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "federico veyrat",
+            "quote": "A spectacle, the facilities and the attention are highly recommended.",
+            "rating": 5
+          },
+          {
+            "author": "Oscar Daniel Gonzalez Escobar",
+            "quote": "Excellent padel courts, covered, you can also eat on site, even grills to use at no extra cost",
+            "rating": 5
+          },
+          {
+            "author": "Ricardo López",
+            "quote": "Excellent padel courts in a spacious and comfortable location, with the added benefit of being covered, so you can play year-round. A food service option would be a welcome addition.",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 272 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -66947,9 +66965,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -67066,40 +67088,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
-          },
-          {
-            "author": "Martín D.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Ricardo Adolfo Rolon Alderete",
+            "quote": "Nice place, good service, clean. You can have a cold one while you wait. Parking is a bit tight.",
             "rating": 4
           },
           {
-            "author": "Florencia T.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Sebastián Barreto",
+            "quote": "The haircut is terrible, and it's way too expensive for how badly they do it. I wouldn't recommend paying 70,000 for a haircut like that.",
+            "rating": 1
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "javier arbo",
+            "quote": "Excellent service... Highly recommended",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Hugo Ricardo López Garcete",
+            "quote": "A cozy place with excellent service, for those looking for good service and a chance to watch a game or other sport. Near Villa Elisa and Lambare.",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Humberto Recalde",
+            "quote": "Excellent service and good treatment",
+            "rating": 5
           }
         ],
-        "title": "Opiniones de nuestros clientes"
+        "subtitle": "Basado en 137 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -67740,9 +67757,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "9:00 AM – 9:00 PM",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -67859,40 +67880,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "ollie read",
+            "quote": "Would not recommend to any foreign travellers visiting Iguazú falls. The barber was rude and threw insults about when I was unhappy with my haircut. I understand western haircuts are hard to understan",
+            "rating": 2
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Rosh Vaidya (Rosh16)",
+            "quote": "Great barbershop ! Whilst visiting falls Iguazu. Unfortunately, on a busy Friday night, they weren’t able to cut my beard without a prior appointment as I was a walkin. However, they let me use all of",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Alan Marquez (alan)",
+            "quote": "Top",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Emilio Pérez Todoroff",
+            "quote": "Great place. Excellent service. They do a fantastic job with haircuts and beard trims. Recommendation: arrive early because appointments are first-come, first-served. It gets very busy on weekends.",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
-          },
-          {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "flavio marcelo juliano",
+            "quote": "Que buen lugar atendido por sus dueños unos pibes de oro soy de bs as. Y la verdad excelente es poco. Muy bien.",
+            "rating": 5
           }
         ],
-        "title": "Opiniones de nuestros clientes"
+        "subtitle": "Basado en 184 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -68096,9 +68112,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "9:00 AM – 9:00 PM",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -68215,40 +68235,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "ollie read",
+            "quote": "Would not recommend to any foreign travellers visiting Iguazú falls. The barber was rude and threw insults about when I was unhappy with my haircut. I understand western haircuts are hard to understan",
+            "rating": 2
           },
           {
-            "author": "Andrés P.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Rosh Vaidya (Rosh16)",
+            "quote": "Great barbershop ! Whilst visiting falls Iguazu. Unfortunately, on a busy Friday night, they weren’t able to cut my beard without a prior appointment as I was a walkin. However, they let me use all of",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Alan Marquez (alan)",
+            "quote": "Top",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Emilio Pérez Todoroff",
+            "quote": "Great place. Excellent service. They do a fantastic job with haircuts and beard trims. Recommendation: arrive early because appointments are first-come, first-served. It gets very busy on weekends.",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "flavio marcelo juliano",
+            "quote": "Que buen lugar atendido por sus dueños unos pibes de oro soy de bs as. Y la verdad excelente es poco. Muy bien.",
+            "rating": 5
           }
         ],
-        "title": "Opiniones de nuestros clientes"
+        "subtitle": "Basado en 184 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -69764,9 +69779,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 8:30 PM",
+        "Lunes": "10:00 AM – 8:30 PM",
+        "Martes": "10:00 AM – 8:30 PM",
+        "Miercoles": "10:00 AM – 8:30 PM",
+        "Sabado": "10:00 AM – 8:30 PM",
+        "Viernes": "10:00 AM – 8:30 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -69883,40 +69902,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Tony Rivera",
+            "quote": "Perfect service. Wonderful haircut skills.",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "VR PY",
+            "quote": "Excellent service as always 🙌🏻",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Emilio Ginzo",
+            "quote": "Excellent service and good price",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Rodrigo Fulchini",
+            "quote": "The barbers are top-notch; they understand exactly what you want. The new location adds so much to the overall excellent experience! I've been a customer for five years and I'm not going anywhere else",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Andrés P.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Fulgencio Samudio Benitez",
+            "quote": "In my opinion, the best barbershop in San Lorenzo. The service is fantastic, and the prices are very fair. They accept appointments and walk-ins. The atmosphere is great and pleasant. Oh, and they hav",
+            "rating": 5
           }
         ],
-        "title": "Opiniones de nuestros clientes"
+        "subtitle": "Basado en 194 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -70625,9 +70639,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Providencia con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 5:00 PM",
+        "Lunes": "10:00 AM – 5:00 PM",
+        "Martes": "10:00 AM – 5:00 PM",
+        "Miercoles": "10:00 AM – 5:00 PM",
+        "Sabado": "10:00 AM – 5:00 PM",
+        "Viernes": "10:00 AM – 5:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -70722,30 +70740,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ally Weisblatt",
+            "quote": "Julio is incredible! He was so kind and gentle the entire time! Me and my friend each got a tattoo and both had an incredible experience. I would recommend him to anyone and everyone!",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Silvia Veermäe",
+            "quote": "Julio is one of a kind - he captured my idea perfectly and the whole process was so fun and enjoyable! And it goes without mentioning that I love the outcome! Thanks Julio for turning memories into be",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Jo Lee",
+            "quote": "Got a tattoo around my leg just above the ankles. 10/10 experience with Julio, he was very patient in trying to know what I wanted before confirming the design. He was very accommodating throughout th",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "samuel dean",
+            "quote": "Was walking past this studio on random day and my wife was feeling sick, so she went to the hostel and decided to get a tattoo. I already had a great idea in mind so i have been wanting a tattoo. I ra",
+            "rating": 5
+          },
+          {
+            "author": "Amanda Thacker Powell",
+            "quote": "We visited this studio yesterday and everyone in our group was very happy with the professionalism of the staff and how our tattoos came out! They were very patient with us to overcome our language ba",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 351 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -72170,9 +72193,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 7:00 PM",
+        "Lunes": "1:00 – 7:00 PM",
+        "Martes": "9:00 AM – 7:00 PM",
+        "Miercoles": "9:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 7:00 PM",
+        "Viernes": "9:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -72267,30 +72294,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Rizqa Armien-Yang",
+            "quote": "This is my go-to waxing and nails salon when I'm in Asunción! They're super kind even with my very broken Spanish :) The salon is clean and comfortable and the services are done quickly and profession",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Lorna Diwa",
+            "quote": "Wonderful salon! Very clean, beautifully organized and the service was very kind. They do a great kapping gel manicure!",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Dra L L",
+            "quote": "Efficient Depilacion, economic and friendly service in a neighborhood salón hidden next to travelin truck lomitos.",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Yulia Traidova Broker",
+            "quote": "Excellent service. Book your appointment in advance. I had a semi-permanent manicure and pedicure done there, as well as waxing. I highly recommend Bleu Depilación beauty salon. Thanks, ladies! 🥰",
+            "rating": 5
+          },
+          {
+            "author": "Olga Nunez",
+            "quote": "The service was fantastic!!! Very professional.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 143 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -73518,8 +73550,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 17:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 7:00 PM",
+        "Lunes": "9:00 AM – 7:00 PM",
+        "Martes": "9:00 AM – 7:00 PM",
+        "Miercoles": "9:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 5:00 PM",
+        "Viernes": "9:00 AM – 7:00 PM"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -73587,30 +73624,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Soluciones para cada necesidad"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Neva Nadja Pietzsch",
+            "quote": "Good service and perfect epilation. The toilet couldt need some soap, but that's all I can complain about. The price is fair.",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Rocío Romero",
+            "quote": "Excellent service from the moment we walked in. Beautiful dresses available for rent.",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Raquel Orue Gamarra",
+            "quote": "The best place! Excellent service and affordable prices.",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Romina Alejandra Lovera Ruffinelli",
+            "quote": "Excellent service and price.",
+            "rating": 5
+          },
+          {
+            "author": "Lorena González",
+            "quote": "Very friendly and good price",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 232 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -74310,9 +74352,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:00 AM – 9:00 PM",
+        "Lunes": "6:00 AM – 9:00 PM",
+        "Martes": "6:00 AM – 9:00 PM",
+        "Miercoles": "6:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 3:00 PM",
+        "Viernes": "6:00 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -74444,30 +74490,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Laura Gomez",
+            "quote": "I have to give it to them, they learn fast how to adapt to customers. My friend and I told them about the kind of music we like and they changed it. We don't need earbuds or any other kind of stimulus",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Mostaza Mostaza",
+            "quote": "Great place, good WOD and the community is awesome!",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Fabián Lopez",
+            "quote": "A fully equipped box with top-quality equipment and professionals. It's also important to note that the gym is also open during non-CrossFit classes. If you're already experienced and your schedule do",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Monica Martinez",
+            "quote": "Excellent atmosphere and top-notch teachers! Dynamic, motivating classes with an incredible community. The best place 😎👌🏾",
+            "rating": 5
+          },
+          {
+            "author": "Guille _668",
+            "quote": "Excellent gym, the instructors are great, the equipment is top-notch, and the service is fantastic. Highly recommended, by far the best gym in Lambaré.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 157 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -75329,9 +75380,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 4:00 PM",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "9:00 AM – 9:00 PM",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -75426,30 +75481,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Walter Ezequiel Cabañas Penayo",
+            "quote": "Crack 💯",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Angel Dani",
+            "quote": "God",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Angel Ramirez",
+            "quote": "TERRIBLE SERVICE!!!\nIt was my first time going to this barbershop, and I had a terrible experience. I arrived at the advertised opening time, but they didn't open on time. I waited about 20 minutes, a",
+            "rating": 1
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Néstor Cabrera",
+            "quote": "The facial analysis they offer consists solely of questions; they don't take photos, use computer programs, or AI. I asked the barber not to cut too much hair on the sides and forehead, and he almost ",
+            "rating": 1
+          },
+          {
+            "author": "Dalila Almazan",
+            "quote": "Excellent service and the staff were very attentive. Highly recommended!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 210 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -75774,9 +75834,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "10:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -75871,30 +75935,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Kathia Ramírez",
+            "quote": "The girl who washed my hair was very kind, and I loved the massage. She treated me politely. The girl who trimmed my hair was also very nice. Today was my first time. The only thing that left me wonde",
             "rating": 4
           },
           {
-            "author": "María F.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Gia Ribero",
+            "quote": "I asked the price of the service for myself before starting, but not for my daughter. When it came time to pay, they charged us double for her service, even though I saw someone else get paid less for",
+            "rating": 2
           },
           {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Arami “Ara” BOGADO",
+            "quote": "Hi, I visited this place a week ago. I thought the salon was nice. The receptionist who helped me was friendly. But they DON'T ACCEPT ARGENTINE PESOS, so I couldn't get my hair done. I looked for anot",
+            "rating": 1
           },
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Ainhoa Lopez",
+            "quote": "I'm a regular customer; I go quite often. Every time I travel to Encarnación, I make a point of stopping by the salon. I used to be a big fan of the place, the way the girls treated me, and the excell",
+            "rating": 1
+          },
+          {
+            "author": "Andru Ferreira",
+            "quote": "The girls were super fast! Only my curls didn't last 🥲",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 248 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -76219,9 +76288,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "10:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -76316,30 +76389,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
-          },
-          {
-            "author": "Carlos G.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Kathia Ramírez",
+            "quote": "The girl who washed my hair was very kind, and I loved the massage. She treated me politely. The girl who trimmed my hair was also very nice. Today was my first time. The only thing that left me wonde",
             "rating": 4
           },
           {
-            "author": "Ana L.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Gia Ribero",
+            "quote": "I asked the price of the service for myself before starting, but not for my daughter. When it came time to pay, they charged us double for her service, even though I saw someone else get paid less for",
+            "rating": 2
           },
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Arami “Ara” BOGADO",
+            "quote": "Hi, I visited this place a week ago. I thought the salon was nice. The receptionist who helped me was friendly. But they DON'T ACCEPT ARGENTINE PESOS, so I couldn't get my hair done. I looked for anot",
+            "rating": 1
+          },
+          {
+            "author": "Ainhoa Lopez",
+            "quote": "I'm a regular customer; I go quite often. Every time I travel to Encarnación, I make a point of stopping by the salon. I used to be a big fan of the place, the way the girls treated me, and the excell",
+            "rating": 1
+          },
+          {
+            "author": "Andru Ferreira",
+            "quote": "The girls were super fast! Only my curls didn't last 🥲",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 248 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -76761,30 +76839,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Andrew Mathewson",
+            "quote": "Hidden gem, we were told about this place in a coffee shop in town. Well worth a visit if only for the amazing craftsmanship of the building. I'm sure if toy stayed there you would have a very relaxin",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Tom Google",
+            "quote": "Calm and beautiful place.",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Lys Saint Aubin",
+            "quote": "Castillo Marianela is a  beautiful spiritual place a true sanctuary.  Words don't do justice! A must visit for those looking for peace and quiet.",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Misael Valdez",
+            "quote": "The most beautifull place!!",
+            "rating": 5
+          },
+          {
+            "author": "Rolando Páez",
+            "quote": "Is",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 602 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -77110,9 +77193,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Itá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "8:00 AM – 10:00 PM",
+        "Jueves": "8:00 AM – 6:00 PM",
+        "Lunes": "8:00 AM – 6:00 PM",
+        "Martes": "8:00 AM – 6:00 PM",
+        "Miercoles": "8:00 AM – 6:00 PM",
+        "Sabado": "8:00 AM – 10:00 PM",
+        "Viernes": "8:00 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -77207,30 +77294,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Trevor Jacob",
+            "quote": "A store selling mostly ceramic and wood decorative art and functional art. Some of the ceramic pieces were beautiful. I will return again to buy some of the individual artist's functional works, as I ",
             "rating": 4
           },
           {
-            "author": "Diego H.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Ben Mitnick Richthöfen",
+            "quote": "Awesome!",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Fabio Gutierrez",
+            "quote": "Es la primera vez que visité el lugar a pesar que he pasado por en frente muchísimas veces camino a Encarnación.\nMe sorprendió la cantidad y calidad de la artesanía, un lugar que vale la pena visitar ",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Francisco Palomo",
+            "quote": "Excellent! It was lovely how they welcomed us with music. The harpist, Alejandro Candia, was very good, and the explanations from the artisan Albina Diarte and the other artisans were excellent.",
+            "rating": 5
+          },
+          {
+            "author": "Anyhi Sánchez",
+            "quote": "Beautiful place, very cozy, the food is 10/10, good portions and delicious, affordable price, friendly and welcoming service! You have to visit. Highly recommended.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 385 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -77555,9 +77647,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Itá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "8:00 AM – 10:00 PM",
+        "Jueves": "8:00 AM – 6:00 PM",
+        "Lunes": "8:00 AM – 6:00 PM",
+        "Martes": "8:00 AM – 6:00 PM",
+        "Miercoles": "8:00 AM – 6:00 PM",
+        "Sabado": "8:00 AM – 10:00 PM",
+        "Viernes": "8:00 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -77652,30 +77748,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Trevor Jacob",
+            "quote": "A store selling mostly ceramic and wood decorative art and functional art. Some of the ceramic pieces were beautiful. I will return again to buy some of the individual artist's functional works, as I ",
             "rating": 4
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Ben Mitnick Richthöfen",
+            "quote": "Awesome!",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Fabio Gutierrez",
+            "quote": "Es la primera vez que visité el lugar a pesar que he pasado por en frente muchísimas veces camino a Encarnación.\nMe sorprendió la cantidad y calidad de la artesanía, un lugar que vale la pena visitar ",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Francisco Palomo",
+            "quote": "Excellent! It was lovely how they welcomed us with music. The harpist, Alejandro Candia, was very good, and the explanations from the artisan Albina Diarte and the other artisans were excellent.",
+            "rating": 5
+          },
+          {
+            "author": "Anyhi Sánchez",
+            "quote": "Beautiful place, very cozy, the food is 10/10, good portions and delicious, affordable price, friendly and welcoming service! You have to visit. Highly recommended.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 385 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -78377,9 +78478,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 12:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -78474,30 +78579,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Deidamia Muñoz",
+            "quote": "A unique place, excellent service starting with Dr. Ana, who captivated us with her usual kindness. I'm very grateful for the attention I received from Licensed Professionals Sofia and Karen, as well ",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Victor Paredes",
+            "quote": "Excellent service and impeccable attention from Yenny Rodas. She is a fantastic professional, and I am very satisfied with the service and the special care she provides me at all times. ❤️",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Ludmila Ysabel Duarte Centurión",
+            "quote": "Excellent service from Lic. Sofia Carracela 👏👏",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Cynthia Dávalos",
+            "quote": "Excellent care from Lic. Sofi, especially Lic. Karen León and Dr. Ana Rodas.\nI receive Myers intravenous therapy periodically, as it helps me have more energy, eliminate toxins, and reverse the signs ",
+            "rating": 5
+          },
+          {
+            "author": "Miguel Baez",
+            "quote": "Excellent, friendly, and highly professional service from Sofia Carracela. Highly recommended. The atmosphere is very pleasant and comfortable. Top-notch facilities, state-of-the-art equipment, and hi",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 259 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -78822,9 +78932,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "10:00 AM – 9:00 PM",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "9:00 AM – 9:00 PM",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -78919,30 +79033,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
-          },
-          {
-            "author": "Camila B.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Larissa Morimoto",
+            "quote": "Great salon, but the prices are never the same as what they tell you.",
             "rating": 3
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Maggie Portillo",
+            "quote": "I took my daughter for a children's haircut with the owner of the salon. We scheduled an appointment and waited almost an hour longer than we asked for. I complained about the delay. While we waited, ",
+            "rating": 1
+          },
+          {
+            "author": "Ventas Mkt",
+            "quote": "They charged us over $212, and we don't understand why they charge for everything, even breathing. Besides, they don't give you a refund when you ask about the payment. You don't even know what the pr",
+            "rating": 1
+          },
+          {
+            "author": "Soy Fatima Fleitas",
+            "quote": "Whenever I go, they attend to me right away and take the time to provide the service. I always feel a good vibe from the people who serve me.",
+            "rating": 5
+          },
+          {
+            "author": "Lorenzo Acosta",
+            "quote": "A pleasant atmosphere, excellent service, and unparalleled comfort—definitely recommended for a relaxing getaway!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 299 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -79267,9 +79386,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Hohenau con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "11:00 AM – 11:59 PM",
+        "Jueves": "11:00 AM – 11:59 PM",
+        "Lunes": "11:00 AM – 3:00 PM",
+        "Martes": "11:00 AM – 11:59 PM",
+        "Miercoles": "11:00 AM – 11:59 PM",
+        "Sabado": "11:00 AM – 11:59 PM",
+        "Viernes": "11:00 AM – 11:59 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -79364,30 +79487,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Xander",
+            "quote": "Nicely renovated! lots of seating, big screens, good music and good selection of dishes. They offer both buffet and regular menu. Clean toilets.",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Astor Dlubak",
+            "quote": "The presentacion of the burger was amazing, the burger was massive and the bacon tasted old, like if they would heat up bacon from another day.The bun was rich in flavor and the pickles where sliced p",
             "rating": 4
           },
           {
-            "author": "Florencia T.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Annette",
+            "quote": "Great food and good service. They sometimes have very loud music playing, which makes it uncomfortable to sit there. The preparation of the food also takes too long. I was there multiple times and eve",
+            "rating": 4
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Javier Kartsch",
+            "quote": "We came actually for sushi and it was very tasty. The service was ok. Just a bit noisy due to the road being so close.",
             "rating": 4
+          },
+          {
+            "author": "Jorge Sarubbi",
+            "quote": "The best place to eat so far ! Everything is perfect",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 298 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -80213,8 +80341,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 17:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 7:00 PM",
+        "Lunes": "8:00 AM – 7:00 PM",
+        "Martes": "8:00 AM – 7:00 PM",
+        "Miercoles": "8:00 AM – 7:00 PM",
+        "Sabado": "8:00 AM – 7:00 PM",
+        "Viernes": "8:00 AM – 7:00 PM"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -80282,30 +80415,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Soluciones para cada necesidad"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "PJ Traveller",
+            "quote": "Truthfully, the best back wax I have ever had. Normally, when I am in England, I get my back waxed at my regular local establishment that does male grooming. I have used the same people for years. How",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Ana Escobar",
+            "quote": "I love ciria",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Alba Ale",
+            "quote": "Super",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Claudia Cabrera",
+            "quote": "Excellent service and attention... Well-trained and friendly staff...",
+            "rating": 5
+          },
+          {
+            "author": "María A. Jara",
+            "quote": "Recommended for those who are hesitant to undergo the service; you won't regret it. The professionalism and kindness of Ciria and the staff make the sessions safe and pain-free.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 152 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -81098,30 +81236,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Open Mind",
+            "quote": "Nasty, rude staff. Making up prices for entry and drinks as they go along. Unfriendly, rude. We will never go back.",
+            "rating": 1
           },
           {
-            "author": "Sofía A.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Jorge C.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Belén",
+            "quote": "Cool 👌",
             "rating": 3
           },
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Mario Montiel A",
+            "quote": "Super",
+            "rating": 5
+          },
+          {
+            "author": "Mara Morinigo",
+            "quote": "The place is truly beautiful, and the cabin was lovely and clean. However, starting around 7:00 AM, people begin arriving with loud speakers and playing music at very high volume, and there's no contr",
+            "rating": 4
+          },
+          {
+            "author": "LC BJ",
+            "quote": "Very nice place, very polite people, the staff are great. The only thing missing is more sinks for washing cutlery in the back sink because there are only two in the whole property and they're practic",
+            "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 840 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -81543,30 +81686,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Open Mind",
+            "quote": "Nasty, rude staff. Making up prices for entry and drinks as they go along. Unfriendly, rude. We will never go back.",
+            "rating": 1
+          },
+          {
+            "author": "Belén",
+            "quote": "Cool 👌",
+            "rating": 3
+          },
+          {
+            "author": "Mario Montiel A",
+            "quote": "Super",
+            "rating": 5
+          },
+          {
+            "author": "Mara Morinigo",
+            "quote": "The place is truly beautiful, and the cabin was lovely and clean. However, starting around 7:00 AM, people begin arriving with loud speakers and playing music at very high volume, and there's no contr",
             "rating": 4
           },
           {
-            "author": "Laura E.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "LC BJ",
+            "quote": "Very nice place, very polite people, the staff are great. The only thing missing is more sinks for washing cutlery in the back sink because there are only two in the whole property and they're practic",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 840 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -81870,9 +82018,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:00 AM – 9:00 PM",
+        "Lunes": "6:00 AM – 9:00 PM",
+        "Martes": "6:00 AM – 9:00 PM",
+        "Miercoles": "6:00 AM – 9:00 PM",
+        "Sabado": "8:00 AM – 12:00 PM",
+        "Viernes": "6:00 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -82004,30 +82156,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Oscar Anibal Escobar Abbate",
+            "quote": "8h",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Maiela Bron",
+            "quote": "Their own parking lot is very small and just barely adequate; it's very difficult to park when it's full of cars because there's not enough room to maneuver. For that reason, it's better to park in th",
             "rating": 3
           },
           {
-            "author": "Valentina R.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Diego Alfredo Mendoza Battilana",
+            "quote": "Swimming school for children, excellent instructors who are very attentive and focused on the kids; they learn quickly with good techniques.\nThere are separate changing rooms for boys and girls. There",
             "rating": 4
           },
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Olivia Boscarino",
+            "quote": "Excellent, the water was super clean and warm. Everyone was friendly.",
+            "rating": 5
+          },
+          {
+            "author": "Adrian Fernandez",
+            "quote": "A great place, the heated pool is quite good and the large parking lot is also very good.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 269 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -83463,9 +83620,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Bernardino con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 8:00 PM",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "Closed",
+        "Martes": "Closed",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -83560,30 +83721,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "G Hall",
+            "quote": "Really fantastic, friendly,  relaxing location and could not fault the food. Everything was delicious. Quality.",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "SALIN",
+            "quote": "Best food in town, very friendly. Clean and large  appartement for your stay in SanBer",
+            "rating": 5
+          },
+          {
+            "author": "Karodim",
+            "quote": "Top!",
+            "rating": 5
+          },
+          {
+            "author": "Lilly Sandoval",
+            "quote": "I love the food and the service is very good",
+            "rating": 5
+          },
+          {
+            "author": "Norbert Weisheitel",
+            "quote": "Schnitzeltag Casa Vital.",
             "rating": 4
-          },
-          {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 165 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -86535,9 +86701,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 6:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -86632,30 +86802,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "A. W.",
+            "quote": "Clean salon with friendly staff, would recommend Had the pleasure to receive a service from Cecilia",
+            "rating": 5
+          },
+          {
+            "author": "Dra L L",
+            "quote": "Their wax is excellent for sensitive skin, and the girls are very professional. They do the whole body in under 30 minutes. Unfortunately, they do leave quite a bit of hair behind, so you have to be m",
             "rating": 4
           },
           {
-            "author": "Laura E.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Effy",
+            "quote": "I love this place. They have amazing deals, impossible to pass up!",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Katherin Gonzalez",
+            "quote": "I love it!! The best service, highly recommended. I also had the opportunity to go to DepiSanlo and they did a great job. Thank you very much!",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Angeles Vidal",
+            "quote": "The worst service. I've never had such a bad time, and in front of minors. I hope they move because living under the abuse of this \"entity/owner\" of the salon is torture, and we clients don't deserve ",
+            "rating": 1
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 185 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -86980,9 +87155,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 2:00 AM",
+        "Jueves": "9:00 AM – 2:00 AM",
+        "Lunes": "9:00 AM – 2:00 AM",
+        "Martes": "9:00 AM – 2:00 AM",
+        "Miercoles": "9:00 AM – 2:00 AM",
+        "Sabado": "9:00 AM – 2:00 AM",
+        "Viernes": "9:00 AM – 2:00 AM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -87077,30 +87256,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Matthew Dominy",
+            "quote": "Wow is all I need to say. I went to a wedding here and the place is stunning. Beautifully designed",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Cynthia Bernal",
+            "quote": "The venue is simply beautiful. It's spacious. You reach it via a cobblestone street, but before arriving, there's a very steep block that can be difficult for small cars or minibuses (photo).\nThe venu",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Santiago Lopez",
+            "quote": "Excellent place! Beautiful view and top-notch facilities",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "RIGOBERTO PY AVENTURERO",
+            "quote": "The place is beautiful, it's a new event venue, the rental cost is extremely high, and getting there is quite an ordeal 😅",
+            "rating": 5
+          },
+          {
+            "author": "Carlos Aguinaga",
+            "quote": "A true Paraguayan Grill. It is one of the best or maybe the Best..... Congratulations Paraguay",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 183 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -87427,9 +87611,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -87519,30 +87707,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Nicole Lynn Vilaca",
+            "quote": "Excellent! Went to see Adriana and she was great and very kind. Thank you!",
+            "rating": 5
+          },
+          {
+            "author": "Diego Sena",
+            "quote": "Excellent service and assistment. Good prices and attention.\nExcellent massages",
+            "rating": 5
+          },
+          {
+            "author": "nelubludurakov",
+            "quote": "Goo's place.",
             "rating": 4
           },
           {
-            "author": "Valentina R.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Marcio Camargo",
+            "quote": "Super",
+            "rating": 5
+          },
+          {
+            "author": "Monica Margarita Martinez Mora",
+            "quote": "The place is well located, it has a strong smell of humidity, the service is average, there I discovered the Wella Fusion hair wash, which leaves hair beautiful!",
             "rating": 3
-          },
-          {
-            "author": "Andrés P.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 285 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -87721,9 +87914,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 7:00 PM",
+        "Lunes": "Closed",
+        "Martes": "9:00 AM – 7:00 PM",
+        "Miercoles": "9:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 7:00 PM",
+        "Viernes": "9:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -87818,30 +88015,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Jinnah Paranderi",
+            "quote": "Excellent service and top-notch attention 👏😊",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Carmen Sena",
+            "quote": "Without a doubt, when you go to Paraguay, this is a place where you can pamper yourself. Great work!",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Leticia Ortiz Candado",
+            "quote": "You're the best!! You're kind and professional!! And the price is affordable!!! Thank you all so much!!",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Alex F Jensen",
+            "quote": "This is the first place in Asunción where they've done my eyebrows properly and not super thin. Even better than the eyebrow bar. I loved the service; the girl who did my nails was very nice and did e",
+            "rating": 5
+          },
+          {
+            "author": "Sil Ramirez",
+            "quote": "The service is wonderful and her professionalism is outstanding... I'm delighted. Carolina Mora is a gem!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 286 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -90100,9 +90302,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "5:00 AM – 10:00 PM",
+        "Lunes": "5:00 AM – 10:00 PM",
+        "Martes": "5:00 AM – 10:00 PM",
+        "Miercoles": "5:00 AM – 10:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "5:00 AM – 10:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -90234,30 +90440,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Enzo Montiel",
+            "quote": "fav gym",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Susana Portillo",
+            "quote": "Excellent gym. The instructors' attention was outstanding 🫶🏻🙏🏻 I highly recommend it.",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "MARIA VERONICA BUENO KNOOP",
+            "quote": "It's the BEST gym in Fernando Zona Norte. And I've tried others like Medina or Atlas, but none of them can hold a candle to Fran Gym.\nThere's a very cheerful atmosphere that makes you want to go every",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Efrén Guillén",
+            "quote": "A very well-equipped gym with excellent instructors. The owner, in addition to helping you with routines and workouts, has a great attitude and is very helpful to all the members. The monthly fee is u",
+            "rating": 5
+          },
+          {
+            "author": "Eduardo Gonzalez",
+            "quote": "Spotlessly clean! Great vibe... if you want to change and grow, this is the place for you!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 139 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -90570,9 +90781,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:00 AM – 9:00 PM",
+        "Lunes": "6:00 AM – 9:00 PM",
+        "Martes": "6:00 AM – 9:00 PM",
+        "Miercoles": "6:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 12:30 PM",
+        "Viernes": "6:00 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -90704,30 +90919,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Guillermo Zapattini",
+            "quote": "Cool",
+            "rating": 5
+          },
+          {
+            "author": "Jose Pane",
+            "quote": "Excellent, it has its own store FITFACTORY SUPPLEMENTS AND LOOK SPORT where you can buy high-quality products or clothing",
+            "rating": 5
+          },
+          {
+            "author": "Joel Franco",
+            "quote": "Excellent equipment, air-conditioned, good lighting, good cleanliness.",
+            "rating": 5
+          },
+          {
+            "author": "Jorge C",
+            "quote": "Excellent atmosphere and well equipped",
+            "rating": 5
+          },
+          {
+            "author": "Hernando Adrián",
+            "quote": "Very good gym located in a busy area, its facilities have a large number of machines for training, the place is spacious and well organized, already with years operating in the area it is one of the b",
             "rating": 4
-          },
-          {
-            "author": "Carolina M.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
-          },
-          {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 197 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -91041,9 +91261,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:30 AM – 9:00 PM",
+        "Lunes": "6:30 AM – 9:00 PM",
+        "Martes": "6:30 AM – 9:00 PM",
+        "Miercoles": "6:30 AM – 9:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "6:30 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -91175,30 +91399,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "jsin sullivan",
+            "quote": "The gym reminds me of the gyms i went to growing up.its a good place to work out. Not fancy, and i like it like this. I also enjoy that people are friendly but they dont bother you when you work out.\n",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Rodrigo Britez",
+            "quote": "I don't know how they can say this gym is good with those machines from the Chaco War. You have to have a tetanus shot to be able to train, and the dumbbells are all rusty.",
+            "rating": 1
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "José Paredes",
+            "quote": "If you're new, forget about the personal trainers being of any help. Unless you're a woman. Then you have four personal trainers available. Aside from that, the monthly cost is reasonable for the equi",
+            "rating": 3
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Maria Elena Villalba",
+            "quote": "Excellent place, quiet, perfect for training and de-stressing. The management team is very friendly.",
+            "rating": 5
+          },
+          {
+            "author": "Luis Antonio Espinoza",
+            "quote": "It's a spacious place with a variety of machines, good professionals, and excellent service.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 148 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -91512,9 +91741,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:30 AM – 9:00 PM",
+        "Lunes": "6:30 AM – 9:00 PM",
+        "Martes": "6:30 AM – 9:00 PM",
+        "Miercoles": "6:30 AM – 9:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "6:30 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -91646,30 +91879,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "jsin sullivan",
+            "quote": "The gym reminds me of the gyms i went to growing up.its a good place to work out. Not fancy, and i like it like this. I also enjoy that people are friendly but they dont bother you when you work out.\n",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Rodrigo Britez",
+            "quote": "I don't know how they can say this gym is good with those machines from the Chaco War. You have to have a tetanus shot to be able to train, and the dumbbells are all rusty.",
+            "rating": 1
+          },
+          {
+            "author": "José Paredes",
+            "quote": "If you're new, forget about the personal trainers being of any help. Unless you're a woman. Then you have four personal trainers available. Aside from that, the monthly cost is reasonable for the equi",
             "rating": 3
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Maria Elena Villalba",
+            "quote": "Excellent place, quiet, perfect for training and de-stressing. The management team is very friendly.",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Luis Antonio Espinoza",
+            "quote": "It's a spacious place with a variety of machines, good professionals, and excellent service.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 148 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -92100,30 +92338,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Regina González Paris",
+            "quote": "Very clean",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Camila Garcete",
+            "quote": "Pleasant place, excellent service, super friendly staff! Very good service",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "vicente baruja gonzalez",
+            "quote": "Excellent place and service. I recommend it.",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Meg A.G",
+            "quote": "Excellent service, very friendly, a lovely place to relax and the staff are incredibly kind. 1000/10",
+            "rating": 5
+          },
+          {
+            "author": "teresita gonzalez",
+            "quote": "The place is beautiful, clean, and relaxing, but what stood out most was the friendliness and professionalism. Excellent service; I highly recommend it.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 402 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -94032,9 +94275,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "5:30 AM – 10:00 PM",
+        "Lunes": "5:30 AM – 10:00 PM",
+        "Martes": "5:30 AM – 10:00 PM",
+        "Miercoles": "5:30 AM – 10:00 PM",
+        "Sabado": "10:00 AM – 2:00 PM",
+        "Viernes": "5:30 AM – 10:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -94166,30 +94413,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Yana Troitskaya",
+            "quote": "Super gym with all necessary equipment.  Good and nice hosts",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Marina Benítez Delvalle",
+            "quote": "It's an amazing environment... everything is prepared and equipped so you can train peacefully and avoid catching any kind of illness.",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Milka Mujica",
+            "quote": "Good equipment, very friendly owners, and pleasant background music!",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Vadim Kiritsa",
+            "quote": "The best gym in Encarnación. I LOVE IT.",
+            "rating": 5
+          },
+          {
+            "author": "Gerardo Rubén Montiel A.",
+            "quote": "Body Training Review\n\nBody Training is much more than a gym; it's a place where you feel motivated and cared for from the very first moment. The owner, Karina, is the heart and soul of the place and s",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 156 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -95053,9 +95305,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:00 AM – 11:00 PM",
+        "Lunes": "6:00 AM – 11:00 PM",
+        "Martes": "6:00 AM – 11:00 PM",
+        "Miercoles": "6:00 AM – 11:00 PM",
+        "Sabado": "10:00 AM – 5:00 PM",
+        "Viernes": "6:00 AM – 11:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -95187,30 +95443,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Oscar Duarte Fonseca",
+            "quote": "Excelent choice for full energy",
+            "rating": 5
+          },
+          {
+            "author": "rakelita31",
+            "quote": "A full",
             "rating": 4
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Pierre Florentín",
+            "quote": "Fabulous 👌",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Lucho Benítez",
+            "quote": "Excellent place",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Miguel Gaona",
+            "quote": "Top!!!!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 203 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -96646,9 +96907,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Itauguá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "7:00 AM – 12:00 AM",
+        "Jueves": "7:00 AM – 12:00 AM",
+        "Lunes": "7:00 AM – 12:00 AM",
+        "Martes": "7:00 AM – 12:00 AM",
+        "Miercoles": "7:00 AM – 12:00 AM",
+        "Sabado": "7:00 AM – 12:00 AM",
+        "Viernes": "7:00 AM – 12:00 AM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -96743,30 +97008,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "I RMoreno",
+            "quote": "My Daughter Loves trips to the Mall, she can't wait for the other business to open",
+            "rating": 5
+          },
+          {
+            "author": "Ivan M",
+            "quote": "Great place to shop and eat",
+            "rating": 5
+          },
+          {
+            "author": "Termos Empresariales Promocioná tu marca!",
+            "quote": "A lovely space that includes a top-notch cinema 🙌🏽✨😊",
             "rating": 4
           },
           {
-            "author": "María F.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "christian Gonzalez (chrisgonzalezoficial)",
+            "quote": "It's great for the entire Itaugua area and its surroundings. A quiet, family-friendly atmosphere with many options, plus the Itaú cinema is now open, which for many is the closest place to enjoy this ",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Esteban N",
+            "quote": "McDonald's is open until midnight and the service is fast. I recommend it when you don't know what to have for dinner and you're in a hurry, boss.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 273 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -97621,9 +97891,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "5:00 AM – 9:30 PM",
+        "Lunes": "5:00 AM – 9:30 PM",
+        "Martes": "5:00 AM – 9:30 PM",
+        "Miercoles": "5:00 AM – 9:30 PM",
+        "Sabado": "9:00 AM – 7:00 PM",
+        "Viernes": "5:00 AM – 9:30 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -97755,30 +98029,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Alejandro Dario Grance",
+            "quote": "Full HD",
             "rating": 4
           },
           {
-            "author": "Valentina R.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Liliana Lopez",
+            "quote": "I love it",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Edgar Reyes",
+            "quote": "Up",
+            "rating": 2
           },
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Rosa Roman",
+            "quote": "I don't know him personally, but one of the best agi instructors, Ms. Julia Montiel, is there, so this gym must be the best.",
+            "rating": 5
+          },
+          {
+            "author": "Julia Inés Montiel Gastó",
+            "quote": "Large selection of heavy and varied machines, air-conditioned environment, clean and comfortable restrooms, excellent service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 251 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -98112,9 +98391,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "Closed",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -98209,30 +98492,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Chris C",
+            "quote": "Eddie did a remarkable job on my haircut. I do not live in the area, and he gave me one of the best haircuts I have ever had! I showed him the style I wanted, and since he is an artist, he saw the vis",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Brigitte K.",
+            "quote": "I relied on the good reviews, but I have to say that I felt pretty ripped off as a tourist here.\n\nFirst of all, the hairdresser combed my curls with a brush and pulled on them so hard that she pulled ",
+            "rating": 1
           },
           {
-            "author": "Diego H.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "William Heron",
+            "quote": "Quoted my daughter 7000 and at the end demanded 10000! Didn't cut it the way she wanted and showed him in the picture. Refused to take a credit card despite it being advertised as taking credit cards.",
+            "rating": 1
           },
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Georg Brantzen",
+            "quote": "Would be nice if they update their opening times... Just went there for nothing",
+            "rating": 2
+          },
+          {
+            "author": "vidrieratv Loberia",
+            "quote": "Esteban, the hairdresser, was a genius. He cut my hair quickly and gave me a new look.\nVery grateful.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 135 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -98557,9 +98845,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "Closed",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -98654,30 +98946,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Chris C",
+            "quote": "Eddie did a remarkable job on my haircut. I do not live in the area, and he gave me one of the best haircuts I have ever had! I showed him the style I wanted, and since he is an artist, he saw the vis",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Brigitte K.",
+            "quote": "I relied on the good reviews, but I have to say that I felt pretty ripped off as a tourist here.\n\nFirst of all, the hairdresser combed my curls with a brush and pulled on them so hard that she pulled ",
+            "rating": 1
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "William Heron",
+            "quote": "Quoted my daughter 7000 and at the end demanded 10000! Didn't cut it the way she wanted and showed him in the picture. Refused to take a credit card despite it being advertised as taking credit cards.",
+            "rating": 1
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Georg Brantzen",
+            "quote": "Would be nice if they update their opening times... Just went there for nothing",
+            "rating": 2
+          },
+          {
+            "author": "vidrieratv Loberia",
+            "quote": "Esteban, the hairdresser, was a genius. He cut my hair quickly and gave me a new look.\nVery grateful.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 135 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -99004,9 +99301,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 7:00 PM",
+        "Lunes": "9:00 AM – 7:00 PM",
+        "Martes": "9:00 AM – 7:00 PM",
+        "Miercoles": "9:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 7:00 PM",
+        "Viernes": "9:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -99096,30 +99397,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
-          },
-          {
-            "author": "Ana L.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Vero Acuña",
+            "quote": "Excellent service, they are very patient and caring, the place is great. Highly recommended! Unfortunately, sometimes they make you wait in the parking lot.",
             "rating": 4
           },
           {
-            "author": "Diego H.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Fátima Mendieta",
+            "quote": "I highly recommend them; the service is excellent, they take great care of babies and children, are very loving with them, and are very hygienic.",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Brenda Grassi",
+            "quote": "The place is excellent, the atmosphere, the professionals and the treatment from the moment I entered I felt the affection of the aunts and my baby, needless to say the images speak for themselves, it",
+            "rating": 5
+          },
+          {
+            "author": "Leticia Colman",
+            "quote": "Very good service, very patient! Excellent service and the girls who work there are lovely 💕",
+            "rating": 5
+          },
+          {
+            "author": "Roxana Mendoza",
+            "quote": "Excellent service and great treatment! Maxen relaxed and enjoyed his first spa experience at 2 months (post-vaccine). We'll definitely be back for his 4th birthday! 😻",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 736 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -99299,9 +99605,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 7:00 PM",
+        "Lunes": "9:00 AM – 7:00 PM",
+        "Martes": "9:00 AM – 7:00 PM",
+        "Miercoles": "9:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 5:00 PM",
+        "Viernes": "9:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -99391,30 +99701,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Camila Rivarola",
+            "quote": "Everything was super good, Aunt Magali was very kind. 🥰 My son fell asleep very relaxed when he got home. Excellent service. ❤️",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Carolina Collante",
+            "quote": "Lea thoroughly enjoyed her 4-month spa day again. She chatted and relaxed 🤣 She loves her aunts. Thank you!!!",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Gabriela Agüero",
+            "quote": "Excellent service, Aunt Ana is so sweet 🥰 We'll be back soon for the ear piercing for the earrings 🥰❤️ Thank you ❤️",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Karen Ayala",
+            "quote": "100% recommended. Excellent service, the staff were very professional and patient. Happy baby, happy mom. We'll definitely be back!",
+            "rating": 5
+          },
+          {
+            "author": "mirta",
+            "quote": "A lovely first experience for my baby! Aunt Ana gave him some anti-colic massages that really improved his mood, as he was restless before. That night he slept super relaxed thanks to the Hidrobaby sp",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 196 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -99592,9 +99907,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Itauguá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "7:30 AM – 9:00 PM",
+        "Jueves": "7:30 AM – 9:00 PM",
+        "Lunes": "7:30 AM – 10:00 PM",
+        "Martes": "7:30 AM – 9:00 PM",
+        "Miercoles": "7:30 AM – 9:00 PM",
+        "Sabado": "7:30 AM – 9:30 PM",
+        "Viernes": "7:30 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -99689,30 +100008,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
-          },
-          {
-            "author": "Gabriel N.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "M K (Maci Kun)",
+            "quote": "Positive is that most non food items are well sorted, in top condition new and presented on a large, clean and new shopping area. So far the best Luisito market experience.\n\nNegative downside for less",
             "rating": 4
           },
           {
-            "author": "Camila B.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Alam A.B",
+            "quote": "Xd",
+            "rating": 4
           },
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "David Ocampos",
+            "quote": "Regular",
+            "rating": 5
+          },
+          {
+            "author": "Jeronimo Garcia",
+            "quote": "This supermarket is like an icebox. I usually shop here very often, but for over a month now, you go in feeling fine and come out with the flu. The staff inside have to wear heavy coats, bundled up to",
+            "rating": 1
+          },
+          {
+            "author": "Kai",
+            "quote": "Little by little, I'm starting to think they're really trying to pull the wool over my eyes. I can't put it any other way. First, they forgot the remote control for the solar lamp. Yesterday, I went t",
+            "rating": 1
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 1403 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -100037,9 +100361,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 7:00 PM",
+        "Lunes": "9:00 AM – 7:00 PM",
+        "Martes": "9:00 AM – 7:00 PM",
+        "Miercoles": "9:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 7:00 PM",
+        "Viernes": "9:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -100134,30 +100462,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Pedro Miranda",
+            "quote": "Very good service and excellent work done",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Luis Gonzalez Rodriguez",
+            "quote": "Terrible service. I took my daughter there even though she had made an appointment in advance, and they didn't see her until 40 minutes later. I don't know why they even bother making appointments if ",
+            "rating": 1
           },
           {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Otilia Segobia",
+            "quote": "Excellent service from the professionals there, and the attention is undoubtedly the best. Highly recommended!",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ada Lozano",
+            "quote": "Excellent and very friendly service...\nTop-notch service!!!\nHighly recommended!!!",
+            "rating": 5
+          },
+          {
+            "author": "Dolly Garcete",
+            "quote": "Excellent service, the place is super clean and tidy, and all the girls are excellent.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 218 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -100482,9 +100815,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "10:00 AM – 9:00 PM",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "9:00 AM – 9:00 PM",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 10:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -100579,30 +100916,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Adam O'Leary",
+            "quote": "Alex was my barber. He's less of a barber, and more of a skilled artist. Quality in every way. 10/10. Highly recommend the shave & cut combo. Worth every penny. Also the owner Rodrigo speaks English. ",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Yerlis Ferrari",
+            "quote": "While visiting Encarnación Paraguay husband was in need to having a haircut.\nI found this place and contacted them to organise an appointment. Rodrigo promptly answered and within 10 minutes husband w",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Brasil Man",
+            "quote": "I went yesterday to have hair cut and beard cut. Nice people good service but not good job at all.paid  130 000 guarani",
+            "rating": 1
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Damian Kellogg",
+            "quote": "I was very lucky to find this place. Luis gave me a great haircut, as well as a very friendly reception. I will definitely come back next time I visit Encarnacion",
+            "rating": 5
+          },
+          {
+            "author": "Ralf Ihle",
+            "quote": "I enjoyed the stay at the barberia very much and the service of the haircut and the atmosphere was perfect. The haircut was exactly the way I wanted to.\nThanks Rodrigo!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 141 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -100927,9 +101269,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "10:00 AM – 9:00 PM",
+        "Jueves": "9:00 AM – 9:00 PM",
+        "Lunes": "9:00 AM – 9:00 PM",
+        "Martes": "9:00 AM – 9:00 PM",
+        "Miercoles": "9:00 AM – 9:00 PM",
+        "Sabado": "9:00 AM – 10:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -101024,30 +101370,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Adam O'Leary",
+            "quote": "Alex was my barber. He's less of a barber, and more of a skilled artist. Quality in every way. 10/10. Highly recommend the shave & cut combo. Worth every penny. Also the owner Rodrigo speaks English. ",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Yerlis Ferrari",
+            "quote": "While visiting Encarnación Paraguay husband was in need to having a haircut.\nI found this place and contacted them to organise an appointment. Rodrigo promptly answered and within 10 minutes husband w",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Brasil Man",
+            "quote": "I went yesterday to have hair cut and beard cut. Nice people good service but not good job at all.paid  130 000 guarani",
+            "rating": 1
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Damian Kellogg",
+            "quote": "I was very lucky to find this place. Luis gave me a great haircut, as well as a very friendly reception. I will definitely come back next time I visit Encarnacion",
+            "rating": 5
+          },
+          {
+            "author": "Ralf Ihle",
+            "quote": "I enjoyed the stay at the barberia very much and the service of the haircut and the atmosphere was perfect. The haircut was exactly the way I wanted to.\nThanks Rodrigo!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 141 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -102950,9 +103301,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Colonia Hohenau Itapúa Paraguay con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Open 24 hours",
+        "Jueves": "Open 24 hours",
+        "Lunes": "Open 24 hours",
+        "Martes": "Open 24 hours",
+        "Miercoles": "Open 24 hours",
+        "Sabado": "Open 24 hours",
+        "Viernes": "Open 24 hours"
       },
       "instagramFeed": {
         "columns": 4,
@@ -103047,30 +103402,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Dmitri Osipov",
+            "quote": "This is an excellent hotel. Very clean, modern, conveniently located. The hotel has a swimming pool and a small gym. Breakfast is included. The staff is fabulous. Highly recommended, excellent value f",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+            "author": "Cintia Pereyra",
+            "quote": "It is a great option specially for people that needs to visit to the Adventist Hospital.",
+            "rating": 5
+          },
+          {
+            "author": "Fátima Schulz",
+            "quote": "to improve cleaning of the rooms. No elevator.",
             "rating": 4
           },
           {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Lider agronecios Compra y venta",
+            "quote": "Top",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "José Soto",
+            "quote": "I went with a fairly large group of friends and they were very patient with us. They were very kind and attentive at all times, especially Tatiana, who was amazing!\n\nA very nice place, good spaces, an",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 378 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -105926,9 +106286,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 6:00 PM",
+        "Lunes": "8:00 AM – 6:00 PM",
+        "Martes": "8:00 AM – 6:00 PM",
+        "Miercoles": "8:00 AM – 6:00 PM",
+        "Sabado": "8:00 AM – 6:00 PM",
+        "Viernes": "8:00 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -106023,30 +106387,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Julia Magdalena Gamarra De Rojas (The Queens)",
+            "quote": "Hi everyone... I went to have a look around because they have a lot of advertising... and I was delighted. Their prices are super affordable. I just went to look and couldn't resist buying something..",
+            "rating": 5
+          },
+          {
+            "author": "Aillen Arce Rolón",
+            "quote": "They have everything! But the service isn't good; they don't offer help with what you're looking for or provide advice.",
             "rating": 4
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Carolina Reyes",
+            "quote": "They treat me incredibly well, even though there are always some grumpy, unfriendly people. I wait patiently and receive the best service.\nThe staff is very well-trained and polite.\nThank you for alwa",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Ignacia Peralta",
+            "quote": "Bad customer service on social media, I wrote to them on Instagram to find out the prices and they transferred me to WhatsApp and there they just left me on read and never responded, just as you are s",
+            "rating": 2
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "mercedes montañez",
+            "quote": "Excellent service. Prices are competitive. A wide selection of good products.",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 211 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -106371,9 +106740,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 7:00 PM",
+        "Lunes": "Closed",
+        "Martes": "10:00 AM – 7:00 PM",
+        "Miercoles": "10:00 AM – 7:00 PM",
+        "Sabado": "9:00 AM – 5:00 PM",
+        "Viernes": "10:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -106468,30 +106841,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "cyber el bosque",
+            "quote": "Sss",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Ruth Serafini",
+            "quote": "I went three times in one week. I had a facial and derma-planing with Paloma. My skin looked beautiful; she was super professional. I went back a week later for Nanobrows with Jazmin, and I loved her ",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "andrea beatriz salcedo riquelme",
+            "quote": "Excellent service\nExcellent attention",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Maria Ines Samsung",
+            "quote": "Impeccable care. My husband had a facial treatment with professional Paloma. She was very thorough and provided top-notch service. I had eyelid/eye micropigmentation with Jazmin. I'm so happy I don't ",
+            "rating": 5
+          },
+          {
+            "author": "Tavo Ayala",
+            "quote": "Top-notch service and attention! Highly recommended!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 157 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -108444,9 +108822,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 6:00 PM",
+        "Jueves": "Closed",
+        "Lunes": "Closed",
+        "Martes": "Closed",
+        "Miercoles": "Closed",
+        "Sabado": "9:00 AM – 6:00 PM",
+        "Viernes": "Closed"
       },
       "instagramFeed": {
         "columns": 4,
@@ -108541,30 +108923,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Caro Sánchez",
+            "quote": "Essential for recharging your energy! A magical place! Personalized attention.\nIf you need to recharge with good vibes, visit Amatista del Sur, The Little House of Crystals.",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Anna Tenace SAC - CSAT",
+            "quote": "Visiting this place is a lovely experience. They have a wide variety of crystals and stones. They also have a small museum. They explain and teach you about the properties of each stone. It's ideal to",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Diego Ruiz",
+            "quote": "Otro lugar más que nos ayuda a conectarse, un hermoso espacio que te llena de paz y tranquilidad, verás varios tipos de minerales, cristales que relajan con sus sonidos.",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Gloria Barrios",
+            "quote": "I loved the place!!! When I found it on Instagram I said I had to visit it, and I finally did this year, 2026! Highly recommended, the owners are lovely.",
+            "rating": 5
+          },
+          {
+            "author": "Alexander van der Pol",
+            "quote": "A small museum brimming with wonders for all ages. The collection of crystals and gemstones is fascinating, and the experience is even more special for children, who can learn interactively.\n\nThe expl",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 155 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -111270,8 +111657,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "10:00 - 19:00",
-        "Sábado": "10:00 - 17:00"
+        "Domingo": "11:00 AM – 3:00 PM",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "11:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -111339,25 +111731,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Maquillaje para cada momento"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Antonella Giménez Bernadet",
+            "quote": "Excellent service! They take care of every detail. 😊 I loved it, as always.",
+            "rating": 5
+          },
+          {
+            "author": "Maria Jose Acosta",
+            "quote": "I got my hair dyed there a week ago and the color came out way too blonde! When I complained, they were super helpful 🤩🤩 without charging me extra! I only paid for the blow-dry I chose as an add-on. I",
             "rating": 4
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Andrea Riveros",
+            "quote": "Excellent attention and service, they take care of every detail 😍 I'm delighted",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Zuelí Zeballos",
+            "quote": "Excellent service. They treat hair properly. They wash carefully and use heat protectant. They don't use harsh tugging; they take their time styling. Delighted with the salon.",
+            "rating": 5
+          },
+          {
+            "author": "Micaeli Hczernek",
+            "quote": "It has super affordable makeup and hairstyling services and the girls are very friendly.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 206 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -111496,8 +111898,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "10:00 - 19:00",
-        "Sábado": "10:00 - 17:00"
+        "Domingo": "11:00 AM – 3:00 PM",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "11:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 9:00 PM",
+        "Viernes": "9:00 AM – 9:00 PM"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -111565,25 +111972,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Maquillaje para cada momento"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Antonella Giménez Bernadet",
+            "quote": "Excellent service! They take care of every detail. 😊 I loved it, as always.",
+            "rating": 5
+          },
+          {
+            "author": "Maria Jose Acosta",
+            "quote": "I got my hair dyed there a week ago and the color came out way too blonde! When I complained, they were super helpful 🤩🤩 without charging me extra! I only paid for the blow-dry I chose as an add-on. I",
             "rating": 4
           },
           {
-            "author": "Ana L.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Andrea Riveros",
+            "quote": "Excellent attention and service, they take care of every detail 😍 I'm delighted",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Zuelí Zeballos",
+            "quote": "Excellent service. They treat hair properly. They wash carefully and use heat protectant. They don't use harsh tugging; they take their time styling. Delighted with the salon.",
+            "rating": 5
+          },
+          {
+            "author": "Micaeli Hczernek",
+            "quote": "It has super affordable makeup and hairstyling services and the girls are very friendly.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 206 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -111752,9 +112169,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -111849,30 +112270,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Samuel Hawley",
+            "quote": "My wife got an excellent haircut here and wanted me to post a review. Very courteous staff, and highly skilled. Will definitely go back next time we're in Asuncion. Gracias!",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
-          },
-          {
-            "author": "Martín D.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
-          },
-          {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Zalex Company",
+            "quote": "Cool",
             "rating": 4
+          },
+          {
+            "author": "Pastor Rolón",
+            "quote": "I went on a Saturday after noon. There weren't many people around, and I was served by a young man who was apparently an apprentice. His first-timer's nerves were evident, but he was able to accuratel",
+            "rating": 3
+          },
+          {
+            "author": "Maria Josefina Gonzalez",
+            "quote": "Going to L'EVEL...it's been the best ever since I arrived, greeted by Lourdes, it's wonderful.\n\nAnd Gloria keeps my hair cut,\nshe's an artist with her hands. Blessings to the staff.",
+            "rating": 5
+          },
+          {
+            "author": "Carolina Ruffinelli",
+            "quote": "Excellent professionals Gloria and Óscar Marín... fantastic service from the whole team... Highly recommended...",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 144 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -115774,30 +116200,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Laureano Cabrera",
+            "quote": "A very peaceful place where you can relax without any problems. You can even get there by bus just a few blocks from the main avenue and away from the noise of the city...",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "MariaGloria Benitez",
+            "quote": "Beautiful, peaceful, and welcoming place. Run by the owners. Mrs. Graciela is very kind and attentive to everything. The cabins have everything you need: bedroom, kitchen, grill—everything for a great",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Hugo Blanco",
+            "quote": "Spectacular from the first moment. Welcoming and private facilities. Affordable price. Spectacular from every point of view.",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Israel Talavera",
+            "quote": "Ideal for getting away from it all.\nBeautiful and peaceful place.\n5 minutes from downtown Altos and less than half an hour from San Bernardino.\nA very complete breakfast is delivered directly to the r",
+            "rating": 5
+          },
+          {
+            "author": "Jazmín Soledad González",
+            "quote": "Highly recommended!!!! Excellent place, quiet, totally relaxing, pool, very comfortable rooms, the bathroom was very clean and in perfect condition.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 135 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -116498,9 +116929,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "1:00 – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -116595,30 +117030,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Erika Diehm",
+            "quote": "Excellent! Luis is super professional, reliable, and friendly. He gave me the most beautiful highlights I've ever had! Exactly as I wanted them, perfect color and a perfect finish. It looks incredibly",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Osmar Monges",
+            "quote": "Professionalism and great talent, excellent customer service. English spoken.\nGracias Luis !",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Jesus Pintos",
+            "quote": "Super",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "NORMITA PENAYO",
+            "quote": "The Best!!!!",
+            "rating": 5
+          },
+          {
+            "author": "Iris Gras",
+            "quote": "I am absolutely thrilled with my experience here! At first, the color wasn't exactly what I had asked for, but the team listened to me very carefully and patiently, and made a perfect correction. The ",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 145 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -117474,9 +117914,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "4:00 – 7:00 PM",
+        "Jueves": "5:00 AM – 10:00 PM",
+        "Lunes": "5:00 AM – 10:00 PM",
+        "Martes": "5:00 AM – 10:00 PM",
+        "Miercoles": "5:00 AM – 10:00 PM",
+        "Sabado": "1:00 – 8:00 PM",
+        "Viernes": "5:00 AM – 10:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -117608,30 +118052,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Gisell García",
+            "quote": "Zumba 💪🏻🥳",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "jorge chaparro esquivel",
+            "quote": "Super",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Sergio Benitez",
+            "quote": "Super",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ingrid Vera",
+            "quote": "The air conditioning is insufficient, and basic amenities like phone chargers and a working water fountain are lacking. This urgently needs improvement.",
+            "rating": 1
+          },
+          {
+            "author": "santiago almada",
+            "quote": "The machines are old, but there are many of them. The air conditioning doesn't work well, and there's a strong smell of sweat. Parking is on the street, and the area is dangerous; there's no on-site p",
+            "rating": 2
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 148 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -117965,9 +118414,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Ñemby con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "7:00 AM – 6:00 PM",
+        "Lunes": "7:00 AM – 6:00 PM",
+        "Martes": "7:00 AM – 6:00 PM",
+        "Miercoles": "7:00 AM – 6:00 PM",
+        "Sabado": "7:00 AM – 12:00 PM",
+        "Viernes": "7:00 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -118062,30 +118515,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Martínez Aguirre Carlos Domiciano",
+            "quote": "Excellent",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "R.O Alvarez",
+            "quote": "Excellent attention and service 👌",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Jessica Aguirre",
+            "quote": "Excellent service\nAnd good price",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ubaldina Grance",
+            "quote": "Excellent service with very affordable prices 🙌",
+            "rating": 5
+          },
+          {
+            "author": "Milagros Curtido",
+            "quote": "Excellent service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 188 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -118410,9 +118868,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 6:00 PM",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "Closed",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -118507,30 +118969,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Maria del Carmen Lugo V.",
+            "quote": "Excellent service and men's hair salon with a minibar. Enjoy an open bar during your stay during the hot summer holidays.",
+            "rating": 5
+          },
+          {
+            "author": "Cynthia Fernández",
+            "quote": "Wow, the hair salon of your dreams! No complaints whatsoever, they're very professional and the quality is top-notch. I give it 5 stars, keep it up!",
+            "rating": 5
+          },
+          {
+            "author": "Mateo Gabriel Nicoli Melgarejo",
+            "quote": "Excellent service, very pleasant place and a very professional team, no complaints.",
+            "rating": 5
+          },
+          {
+            "author": "stefanie gigglberger",
+            "quote": "The salon is lovely, beautifully decorated with a natural style, and they have great products. The owner and her mother work at the register and are very friendly. They do beautiful color (Cynthia in ",
             "rating": 4
           },
           {
-            "author": "Lucía V.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
-          },
-          {
-            "author": "Martín D.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Laura Patricia Escobar",
+            "quote": "I love the service at that place. Dani gave me a wonderful haircut. And Nani has angelic hands. They do their work with so much care.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 217 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -120132,9 +120599,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -120229,30 +120700,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Humberto Rojas Gomez",
+            "quote": "Excellent service, very kind and attentive.",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Fernando Raul Mendieta Diaz",
+            "quote": "Super very good service, highly recommended",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Izela Soler",
+            "quote": "I came looking for an affordable and good haircut and I found it ❤️❤️ thank you!!",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Héctor Daniel Salazar",
+            "quote": "Excellent service, impeccable attention",
+            "rating": 5
+          },
+          {
+            "author": "Flora Casco",
+            "quote": "Excellent service, I'm even prettier",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 195 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -120953,9 +121429,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Atyrá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+        "Jueves": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+        "Lunes": "Closed",
+        "Martes": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+        "Miercoles": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+        "Sabado": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+        "Viernes": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -121050,30 +121530,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "S & C",
+            "quote": "Amazing to see a great building.  It seems to be used for many great things as well.",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Rolando Páez",
+            "quote": "Is loo",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Juan Chaparro",
+            "quote": "Hernosooooo",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Anisis Wellness (Anne-Ruth Becker)",
+            "quote": "I was blown away how beautifully the stonework and mosaics are. So very peaceful and marvelous. I lived it it's enchanting. They offer food as well and retreats. I can't comment on them. I'll return",
+            "rating": 5
+          },
+          {
+            "author": "Gustavo Horvath",
+            "quote": "Retreat house. The peace and tranquility of this place are something you must experience. A great option for a day trip and sightseeing. The church, hallways, and gardens are incredible. Highly recomm",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 152 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -122280,9 +122765,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:00 AM – 10:00 PM",
+        "Lunes": "6:00 AM – 10:00 PM",
+        "Martes": "6:00 AM – 10:00 PM",
+        "Miercoles": "6:00 AM – 10:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "6:00 AM – 10:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -122414,30 +122903,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Luis Miguel Sandoval Vera",
+            "quote": "Training level good",
+            "rating": 5
+          },
+          {
+            "author": "edith jovina ramirez arce",
+            "quote": "Any contact number please",
+            "rating": 5
+          },
+          {
+            "author": "Susana Ruiz Diaz",
+            "quote": "The gym constantly updates its equipment, is clean, and has very friendly instructors both morning and afternoon. The machines are in good condition, and when they do have a problem, they're repaired ",
+            "rating": 4
+          },
+          {
+            "author": "Veronica Samudio silva",
+            "quote": "Great place to exercise and excellent service. The only downside is that the bathroom is upstairs and the stairs are a bit unsteady.",
             "rating": 3
           },
           {
-            "author": "Sofía A.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Jorge C.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Emiliano Gamarra",
+            "quote": "The place is very nice, I like it.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 183 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -122771,9 +123265,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -122868,30 +123366,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Fatima Trinidad",
+            "quote": "Ok",
+            "rating": 5
+          },
+          {
+            "author": "Rosani Biondo",
+            "quote": "Mega Cosméticos has a good variety of products and an organized store. However, it's inconvenient that even small handbags have to be placed inside a large, lockable bag to be brought in. For those of",
             "rating": 4
           },
           {
-            "author": "Valentina R.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Lilian Talavera",
+            "quote": "Today I went to the store looking for hair solutions, and I found so much more! I tried the recommended products and was more than satisfied; I'll definitely be back! Excellent service; I was helped b",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Irene Raquel Rolòn Verdùn",
+            "quote": "Excelente atención de las chicas, te muestran los productos, brindando la amplia opción de precios que tienen. Entré con intenciones de comprar dos productos y me llevé una bolsa de cosas, mediante la",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Gloria Gisselle",
+            "quote": "The website says they open at 8:00 AM, but when I got to the store, there was a sign on the door saying they open at 9:00 AM. I went there and couldn't complete my purchase because it was closed. Plea",
             "rating": 3
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 564 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -123195,9 +123698,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "5:00 AM – 10:00 PM",
+        "Lunes": "5:00 AM – 10:00 PM",
+        "Martes": "5:00 AM – 10:00 PM",
+        "Miercoles": "5:00 AM – 10:00 PM",
+        "Sabado": "9:00 AM – 6:00 PM",
+        "Viernes": "5:00 AM – 10:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -123329,30 +123836,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Samuel Charotti",
+            "quote": "Very good place to train if you live by Lambaré le Villa Elisa.",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Marcelo Rosso",
+            "quote": "Good equipment and trainers available for the new members",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Brandon Aguilera",
+            "quote": "Purete",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Daniel Santander",
+            "quote": "Super",
+            "rating": 5
+          },
+          {
+            "author": "Mario Cazal",
+            "quote": "Fitness",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 228 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -123665,9 +124177,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "5:00 AM – 10:00 PM",
+        "Lunes": "5:00 AM – 10:00 PM",
+        "Martes": "5:00 AM – 10:00 PM",
+        "Miercoles": "5:00 AM – 10:00 PM",
+        "Sabado": "9:00 AM – 6:00 PM",
+        "Viernes": "5:00 AM – 10:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -123799,30 +124315,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Samuel Charotti",
+            "quote": "Very good place to train if you live by Lambaré le Villa Elisa.",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Marcelo Rosso",
+            "quote": "Good equipment and trainers available for the new members",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Brandon Aguilera",
+            "quote": "Purete",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Daniel Santander",
+            "quote": "Super",
+            "rating": 5
+          },
+          {
+            "author": "Mario Cazal",
+            "quote": "Fitness",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 228 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -124658,8 +125179,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 17:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 6:00 PM",
+        "Lunes": "Closed",
+        "Martes": "9:00 AM – 6:00 PM",
+        "Miercoles": "9:00 AM – 6:00 PM",
+        "Sabado": "9:00 AM – 3:00 PM",
+        "Viernes": "9:00 AM – 6:00 PM"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -124727,30 +125253,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Soluciones para cada necesidad"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "WILLO GAMER",
+            "quote": "Conheço os trabalhos da niege desde quando o atendimento era na vila c.\nOque falar dos trabalhos dela?  Os melhores dos melhores.\nDepois de passar atender  em outro endereço que alias um espaço amplo ",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Cristina Teixeira",
+            "quote": "Atendimento pós micro é ruim, principalmente se a pigmentação não pegar. Precisei agendar retoque com profissional de outra clínica de tão falhada e clara que a minha sobrancelha ficou em apenas 5 dia",
+            "rating": 1
           },
           {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Denise Burmann",
+            "quote": "Atendimento de excelência, primeira vez que visito, fiz a sobrancelha na linha e a técnica dela é rápida e doeu menos que do que o usual. Também fiz henna pela primeira vez e estou apaixonada, a cor d",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Karoline Almeida",
+            "quote": "Fiz henna com a Camila, além de ser um amor de pessoa é muito caprichosa e detalhista.\nAmeiii minha sombrancelhas e já indiquei a Camila para minha irmã que esta indo semana que vem já fazer a dela e ",
+            "rating": 5
+          },
+          {
+            "author": "Juliana Santos",
+            "quote": "Todo o atendimento é impecável. Desde o agendamento com o Valdir, faço com a profissional Mary Lemes que é muito atenciosa e caprichosa. Sem contar no espaço físico que é charmoso, acolhedor e muito a",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 150 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -126348,9 +126879,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "7:30 AM – 6:00 PM",
+        "Lunes": "7:30 AM – 6:00 PM",
+        "Martes": "7:30 AM – 6:00 PM",
+        "Miercoles": "7:30 AM – 6:00 PM",
+        "Sabado": "7:30 AM – 6:00 PM",
+        "Viernes": "7:30 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -126445,30 +126980,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
-          },
-          {
-            "author": "Andrés P.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Anahi Torales O.",
+            "quote": "Cosmetics for all tastes, including hairdressing, manicure, spa products, wigs, and makeup. A wide range of prices. The only downside is the lack of privacy while shopping, as they follow you everywhe",
             "rating": 3
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Wilma Mixco",
+            "quote": "The staff is very kind, especially Cinthia. Congratulations!",
+            "rating": 5
+          },
+          {
+            "author": "Azu Leal",
+            "quote": "Recommended. Good service. Quality and good price.",
+            "rating": 5
+          },
+          {
+            "author": "Aldana Bordon",
+            "quote": "Excellent service, great selection of products, and the best prices.",
+            "rating": 5
+          },
+          {
+            "author": "Mirna Ruiz Diaz",
+            "quote": "Excelente lugar y los más bellos productos",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 203 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -126793,9 +127333,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "7:00 AM – 8:30 PM",
+        "Jueves": "7:00 AM – 8:30 PM",
+        "Lunes": "7:00 AM – 8:30 PM",
+        "Martes": "7:00 AM – 8:30 PM",
+        "Miercoles": "7:00 AM – 8:30 PM",
+        "Sabado": "Closed",
+        "Viernes": "7:00 AM – 5:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -126890,30 +127434,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Gerhard V",
+            "quote": "It's a safe and convenient place very close to the Monday Falls. We didn't visit the falls as we arrived late and continued the next morning towards the south, but if you want to visit the falls (expe",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Suraphot Piokliang",
+            "quote": "The staff, especially Julieta, she was extremely helpful and kind! She made our stay very pleasant and wonderful. The hotel is nice and clean! The view is amazing. We hope to come back soon in the fut",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Ambra di Nuzzo",
+            "quote": "A Wonderful Discovery – NatuCenter Vegetarian Restaurant\n\nWhat a gem! NatuCenter offers a delicious and generous plato único at an incredibly low price. The food was fresh, flavorful, and clearly made",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "J H",
+            "quote": "Incredible experience! The hotel staff is very welcoming. The facility And location are fantastic. The good might be the best part! View of Salto De Mobsay from the hotel or a 5 minute walk to see it ",
+            "rating": 5
+          },
+          {
+            "author": "Leonie Steinrück",
+            "quote": "Elizia and her husband are so adorable and kind. The food was always amazing and very delicious. Thank you both for the wonderful evenings and breakfast.\nLeonie and Philipp",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 504 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -127238,9 +127787,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "7:00 AM – 8:30 PM",
+        "Jueves": "7:00 AM – 8:30 PM",
+        "Lunes": "7:00 AM – 8:30 PM",
+        "Martes": "7:00 AM – 8:30 PM",
+        "Miercoles": "7:00 AM – 8:30 PM",
+        "Sabado": "Closed",
+        "Viernes": "7:00 AM – 5:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -127335,30 +127888,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Gerhard V",
+            "quote": "It's a safe and convenient place very close to the Monday Falls. We didn't visit the falls as we arrived late and continued the next morning towards the south, but if you want to visit the falls (expe",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Suraphot Piokliang",
+            "quote": "The staff, especially Julieta, she was extremely helpful and kind! She made our stay very pleasant and wonderful. The hotel is nice and clean! The view is amazing. We hope to come back soon in the fut",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Ambra di Nuzzo",
+            "quote": "A Wonderful Discovery – NatuCenter Vegetarian Restaurant\n\nWhat a gem! NatuCenter offers a delicious and generous plato único at an incredibly low price. The food was fresh, flavorful, and clearly made",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "J H",
+            "quote": "Incredible experience! The hotel staff is very welcoming. The facility And location are fantastic. The good might be the best part! View of Salto De Mobsay from the hotel or a 5 minute walk to see it ",
+            "rating": 5
+          },
+          {
+            "author": "Leonie Steinrück",
+            "quote": "Elizia and her husband are so adorable and kind. The food was always amazing and very delicious. Thank you both for the wonderful evenings and breakfast.\nLeonie and Philipp",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 504 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -128211,9 +128769,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "7:00 AM – 9:00 PM",
+        "Lunes": "7:00 AM – 9:00 PM",
+        "Martes": "7:00 AM – 9:00 PM",
+        "Miercoles": "7:00 AM – 9:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "7:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -128303,30 +128865,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "B. Logan Riquelme",
+            "quote": "I like it because it has a lot of equipment and you don't have to waste a lot of time waiting when it's busy. The equipment is in excellent condition, the place is clean, and the instructors are very ",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Pablo Alexis González Emerick",
+            "quote": "A very familiar and warm environment, in which I feel comfortable when training, a good amount of equipment, highly recommended 👍🏽",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Lider Noguera",
+            "quote": "Impeccable, a safe place",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Romeu 113",
+            "quote": "Academia muito boa. Espaçosa e variedade em equipamentos e pesos. Não tem ar condicionado, ventilador e suor são seus parceiros de treino.",
+            "rating": 5
+          },
+          {
+            "author": "Teresa Ranoni",
+            "quote": "Fantastic! I love it and I recommend it to everyone to take care of their health and physique. Nocho Wellness Gym is the best and affordable for everyone.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 139 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -128506,9 +129073,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "7:00 AM – 9:00 PM",
+        "Lunes": "7:00 AM – 9:00 PM",
+        "Martes": "7:00 AM – 9:00 PM",
+        "Miercoles": "7:00 AM – 9:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "7:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -128598,30 +129169,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "B. Logan Riquelme",
+            "quote": "I like it because it has a lot of equipment and you don't have to waste a lot of time waiting when it's busy. The equipment is in excellent condition, the place is clean, and the instructors are very ",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Pablo Alexis González Emerick",
+            "quote": "A very familiar and warm environment, in which I feel comfortable when training, a good amount of equipment, highly recommended 👍🏽",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Lider Noguera",
+            "quote": "Impeccable, a safe place",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Romeu 113",
+            "quote": "Academia muito boa. Espaçosa e variedade em equipamentos e pesos. Não tem ar condicionado, ventilador e suor são seus parceiros de treino.",
+            "rating": 5
+          },
+          {
+            "author": "Teresa Ranoni",
+            "quote": "Fantastic! I love it and I recommend it to everyone to take care of their health and physique. Nocho Wellness Gym is the best and affordable for everyone.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 139 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -128801,9 +129377,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 7:00 PM",
+        "Lunes": "Closed",
+        "Martes": "8:00 AM – 7:00 PM",
+        "Miercoles": "8:00 AM – 7:00 PM",
+        "Sabado": "8:00 AM – 7:00 PM",
+        "Viernes": "8:00 AM – 7:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -128893,30 +129473,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Richard Escobar",
+            "quote": "Excellent service, the nurse was wonderful, very kind and friendly, and an excellent professional with extensive knowledge of baby care 😍",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Natalia Mendieta",
+            "quote": "Excellent care for babies and parents 🫶🏻✨ Highly recommended 🫶🏻",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Maria Baez",
+            "quote": "She botched the ear piercing on my baby, completely unprofessional. As a professional, that shouldn't happen. It wasn't a pharmacy; it was supposedly a place we paid for, and there shouldn't have been",
+            "rating": 1
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Alicia Vera",
+            "quote": "Our second experience with our baby, and we were very satisfied once again with the service provided—high quality and very caring. Excellent! Highly recommended.",
+            "rating": 5
+          },
+          {
+            "author": "SELAH CASA DE REPRESENTACION",
+            "quote": "Excellent service. I love it 😍\nSuper grateful 🙌",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 161 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -129073,9 +129658,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "7:00 AM – 9:00 PM",
+        "Lunes": "7:00 AM – 9:00 PM",
+        "Martes": "7:00 AM – 9:00 PM",
+        "Miercoles": "7:00 AM – 9:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "7:00 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -129207,30 +129796,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Gabriela Ortega",
+            "quote": "Execelente",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Valianett Oporto",
+            "quote": "SUPER",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Elizabeeht Pereira Duarte",
+            "quote": "Excellent place to train, very spacious.",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "gustavo adolfo Salina",
+            "quote": "Great atmosphere, lots of machines to train on, and a very pleasant place,\nand constant innovation 👍🏼",
+            "rating": 5
+          },
+          {
+            "author": "Cinthya Guerrero",
+            "quote": "It has all the machines, excellent service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 159 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -129543,9 +130137,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "7:00 AM – 9:00 PM",
+        "Lunes": "7:00 AM – 9:00 PM",
+        "Martes": "7:00 AM – 9:00 PM",
+        "Miercoles": "7:00 AM – 9:00 PM",
+        "Sabado": "Closed",
+        "Viernes": "7:00 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -129677,30 +130275,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Gabriela Ortega",
+            "quote": "Execelente",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Valianett Oporto",
+            "quote": "SUPER",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Elizabeeht Pereira Duarte",
+            "quote": "Excellent place to train, very spacious.",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "gustavo adolfo Salina",
+            "quote": "Great atmosphere, lots of machines to train on, and a very pleasant place,\nand constant innovation 👍🏼",
+            "rating": 5
+          },
+          {
+            "author": "Cinthya Guerrero",
+            "quote": "It has all the machines, excellent service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 159 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -130005,8 +130608,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Mariano Roque Alonso con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "10:00 - 19:00",
-        "Sábado": "10:00 - 17:00"
+        "Domingo": "Open 24 hours",
+        "Jueves": "Open 24 hours",
+        "Lunes": "Open 24 hours",
+        "Martes": "Open 24 hours",
+        "Miercoles": "Open 24 hours",
+        "Sabado": "Open 24 hours",
+        "Viernes": "Open 24 hours"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -130074,25 +130682,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Maquillaje para cada momento"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Fabian Caballero",
+            "quote": "Ok",
             "rating": 4
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Pamela Paiva",
+            "quote": "Thank you for your continued support ❤️‍🩹",
+            "rating": 5
           },
           {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Selva Fleitas Ovelar",
+            "quote": "EXCELLENT PROFESSIONALS PAM PAIVA ACCOUNT",
+            "rating": 5
+          },
+          {
+            "author": "Regina Pereira",
+            "quote": "Great service, the girls were very friendly and did an excellent job!",
+            "rating": 5
+          },
+          {
+            "author": "Gloria Insfran",
+            "quote": "I loved it, highly recommended, and the service was beyond excellent. For me, the best! 💕",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 166 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -130787,9 +131405,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -130884,30 +131506,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Letizia Sotelo",
+            "quote": "I flew from Tampa to Asunción and needed a full-service salon for hair, nails, and Peluqueria Mmical was perfect! Scheduling via WhatsApp was a breeze, and their English-speaking staff made communicat",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "GABRIELA ELIZABETH BOLAÑOS LUGO",
+            "quote": "The best hair salon in Asuncion, located in a strategic area, with excellent service and professionalism. I always leave very happy with the pampering I receive at MMical.",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Ana Ines Martinez Decoud",
+            "quote": "When the owner saw me using a cane, she kindly offered to drive me to a small restaurant so I wouldn't have to walk there, which I greatly appreciate since it was their decision. I was very grateful a",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Melissa Gomez",
+            "quote": "Mical's makeup service is excellent; she has been making me more beautiful for 10 years and was with me during the most important moments, like my wedding.",
+            "rating": 5
+          },
+          {
+            "author": "FRANCISCO OLMEDO",
+            "quote": "Top-notch... Uncle Porfirio is a master. The service was 100% excellent.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 177 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -131232,9 +131859,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -131329,30 +131960,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Gabriel N.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Francisco Galeano",
+            "quote": "Excellent, congratulations for the good service!!!!!",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Horacio Velaztiqui",
+            "quote": "Quality service, excellent attention and price.",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Adriano Irala",
+            "quote": "More than an experience, I went to relive fond memories of Don Sánchez from my childhood and adolescence. I witnessed the comments and merriment once again, as his children continue in their parents' ",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "yuyila Rober",
+            "quote": "Friendly atmosphere, very clean and tidy, excellent service and affordable price",
+            "rating": 5
+          },
+          {
+            "author": "Cris Stiward",
+            "quote": "More than impeccable service! I've been going to this barbershop for over 30 years; it's like a tradition. First my grandfather, then my father, and now me, at 43 years old, I still go to his barbersh",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 251 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -131677,9 +132313,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "1:00 – 8:00 PM",
+        "Lunes": "1:00 – 8:00 PM",
+        "Martes": "1:00 – 8:00 PM",
+        "Miercoles": "1:00 – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "1:00 – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -131774,30 +132414,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Hyunjin Choi",
+            "quote": "He cuts my son's hair very carefully with the sissors. Kind and skillful",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Jonathan Rossow",
+            "quote": "Very skilled and friendly personal. Fair prices",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Camilo Pardo",
+            "quote": "El father",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Angel Villanueva",
+            "quote": "Capo total",
+            "rating": 5
+          },
+          {
+            "author": "Franco Ojeda",
+            "quote": "He gives great haircuts, and José's service is excellent—he's a total pro!\nThe atmosphere is perfect, with great climate control for hot days, including two air conditioners. There's a bathroom if you",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 169 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -134874,30 +135519,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "edgard felix",
+            "quote": "Just a nice place",
+            "rating": 5
+          },
+          {
+            "author": "Rolando Páez",
+            "quote": "Is",
             "rating": 3
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Credi Muebles CONCEPCIÓN",
+            "quote": "Purete",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "guido cardozo",
+            "quote": "A great place to relax, and the room we had was perfect for a couple. Very clean and organized, and the service was excellent. The accommodation includes a basic but satisfying breakfast. You can also",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Yanina Daiana Reyes Martinez",
+            "quote": "A very peaceful place, beautiful pool, and excellent service from the staff! Besides being affordable, the room is clean and comfortable, ideal for spending time as a couple or with family. I highly r",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 458 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -135319,30 +135969,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "edgard felix",
+            "quote": "Just a nice place",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Rolando Páez",
+            "quote": "Is",
             "rating": 3
+          },
+          {
+            "author": "Credi Muebles CONCEPCIÓN",
+            "quote": "Purete",
+            "rating": 5
+          },
+          {
+            "author": "guido cardozo",
+            "quote": "A great place to relax, and the room we had was perfect for a couple. Very clean and organized, and the service was excellent. The accommodation includes a basic but satisfying breakfast. You can also",
+            "rating": 5
+          },
+          {
+            "author": "Yanina Daiana Reyes Martinez",
+            "quote": "A very peaceful place, beautiful pool, and excellent service from the staff! Besides being affordable, the room is clean and comfortable, ideal for spending time as a couple or with family. I highly r",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 458 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -135667,9 +136322,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Open 24 hours",
+        "Jueves": "Open 24 hours",
+        "Lunes": "Open 24 hours",
+        "Martes": "Open 24 hours",
+        "Miercoles": "Open 24 hours",
+        "Sabado": "Open 24 hours",
+        "Viernes": "Open 24 hours"
       },
       "instagramFeed": {
         "columns": 4,
@@ -135764,30 +136423,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Lorena Ramirez",
+            "quote": "Great place, the service is excellent and the food is delicious",
+            "rating": 5
+          },
+          {
+            "author": "Eduardo Gonzalez",
+            "quote": "The hamburger was delicious... The steak sandwich... everything was quite tasty. The service was so-so, it could be improved, I mean the table service.",
             "rating": 4
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Andrea González",
+            "quote": "Their chivito was a real treat 😍 and the service was excellent and fast. Highly recommended ✨😎",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Diana Ramirez",
+            "quote": "The Arab-style steak sandwich is very bland; it doesn't taste like anything except bread with meat.",
+            "rating": 2
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Jose Maqueda",
+            "quote": "The hamburgers are very good, and the homemade ones are even better.",
             "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 157 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -136509,9 +137173,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 8:30 PM",
+        "Lunes": "10:00 AM – 8:30 PM",
+        "Martes": "10:30 AM – 8:30 PM",
+        "Miercoles": "10:00 AM – 8:30 PM",
+        "Sabado": "9:00 AM – 8:30 PM",
+        "Viernes": "10:00 AM – 8:30 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -136628,40 +137296,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Marcelo Cardozo",
+            "quote": "Super",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Jose Eduardo Mora",
+            "quote": "Durooo 🔥🔥🔥",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "José HM Distefano",
+            "quote": "🔝💯",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Manu Gonzalez",
+            "quote": "Excellent service and great cuts",
+            "rating": 5
           },
           {
-            "author": "Pedro S.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Lucía V.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Daysi",
+            "quote": "Excellent service, great customer service, great treatment of children, and the final work was impeccable! Highly recommended!",
+            "rating": 5
           }
         ],
-        "title": "Opiniones de nuestros clientes"
+        "subtitle": "Basado en 162 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -138500,9 +139163,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -138592,30 +139259,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Ana Belén Agüero Galeano",
+            "quote": "The guy who does the wash and cut is excellent, the girl who does manicures and pedicures is very friendly and does a great job. The atmosphere isn't great because the owner is really grumpy, but her ",
             "rating": 4
           },
           {
-            "author": "Lucía V.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "M Pablina Ibañez",
+            "quote": "Excellent service, highly recommended.\nYou can tell when the professionals are trained! And the place is very comfortable.",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Pedro Recalde",
+            "quote": "Excellent service, great massages",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Belén Román",
+            "quote": "The best hair wash in Luque! Highly recommended, I loved it, loved it, loved it!!!! 😍 And the massages too! They're geniuses!",
+            "rating": 5
+          },
+          {
+            "author": "Emilce Acosta Coronel",
+            "quote": "Terrible service!!! Late!!\nThe staff doesn't show up on time for your scheduled appointment for moon bathing and nails.\nThey also tell you that you don't have an appointment to get your nails done bec",
+            "rating": 1
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 163 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -138768,8 +139440,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 17:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 6:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "promoBanner": {
         "ctaText": "Reservar ahora",
@@ -138837,30 +139514,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Soluciones para cada necesidad"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Candace Fuller",
+            "quote": "If I could give it less than one star I would.  I'll start with the positive - the technicians were polite and kind.  The services punctual. Nothing special, however.  The bad - so first, I knew what ",
+            "rating": 1
           },
           {
-            "author": "Carolina M.",
-            "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Kris Kelley",
+            "quote": "My work was done by Doctor Myrian  Alvarenga dermatologist. Dr Myrian is very talented cosmetic Dermatologist!\nI had quite a bit of work done on my face in the last few weeks by her, more than $4000.0",
+            "rating": 1
           },
           {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Rosarito Paredes",
+            "quote": "I had a very satisfactory experience at Renuva Clinic. From the very first moment, I received professional, warm, and very respectful care. The team inspires confidence and takes care of every detail ",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Tinta y Papel Tinta y Papel",
+            "quote": "HIGHLY RECOMMENDED. The clinic's service and facilities are excellent; from the moment you walk in, you feel modern and professional. What I appreciate most is the quality of the specialists who treat",
+            "rating": 5
+          },
+          {
+            "author": "Cynthya Rocio Torres Solalinde",
+            "quote": "RENUVA is a clinic of excellence, with highly trained professionals and a team dedicated to each patient.\n\nMy experience was extremely positive, with constant support throughout the entire treatment p",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestras clientas"
+        "subtitle": "Basado en 260 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -139030,9 +139712,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Atyrá con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 5:00 PM",
+        "Jueves": "9:00 AM – 12:00 AM",
+        "Lunes": "Closed",
+        "Martes": "9:00 AM – 12:00 AM",
+        "Miercoles": "9:00 AM – 12:00 AM",
+        "Sabado": "9:00 AM – 12:00 AM",
+        "Viernes": "9:00 AM – 12:00 AM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -139127,30 +139813,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Pedro S.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Paraguay Mike",
+            "quote": "This is the best restaurant in Atyra. They have a good selection of food, from traditional Paraguayan dishes to hamburgers to lomitos. They also have a good selection of beers as well as a well stocke",
+            "rating": 5
+          },
+          {
+            "author": "Rose Marie Dawson",
+            "quote": "Amazing food!!! The milanesas, spaghetti and the side dishes were to die for.\nService was great!\nI would highly recommend a visit!",
+            "rating": 5
+          },
+          {
+            "author": "Chip W",
+            "quote": "Quick and friendly service and good food.",
             "rating": 4
           },
           {
-            "author": "Lucía V.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "R S",
+            "quote": "The best of food of Atyra!",
+            "rating": 5
           },
           {
-            "author": "Martín D.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
-          },
-          {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "lorena gaona",
+            "quote": "An incredible experience! The food was delicious, I highly recommend it. We came to look at some leather goods in the area. Look at the photos! We had pot roast, the meat was super tender, and the noo",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 244 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -140528,9 +141219,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "2:00 – 7:00 PM",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 9:00 PM",
+        "Viernes": "8:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -140625,30 +141320,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Bia Albuquerque",
+            "quote": "Top!",
+            "rating": 5
+          },
+          {
+            "author": "Alexis Ramon Rivas Ayal",
+            "quote": "Amazing",
+            "rating": 5
+          },
+          {
+            "author": "Lilia Valdez",
+            "quote": "Poor price-quality ratio.",
             "rating": 3
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Genesis Ostos",
+            "quote": "Excellent service, highly recommended",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Pablo Silva",
+            "quote": "Excellent attention and impeccable service.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 283 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -140973,9 +141673,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "2:00 – 7:00 PM",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 9:00 PM",
+        "Viernes": "8:00 AM – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -141070,30 +141774,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Bia Albuquerque",
+            "quote": "Top!",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Alexis Ramon Rivas Ayal",
+            "quote": "Amazing",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Lilia Valdez",
+            "quote": "Poor price-quality ratio.",
             "rating": 3
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Genesis Ostos",
+            "quote": "Excellent service, highly recommended",
+            "rating": 5
+          },
+          {
+            "author": "Pablo Silva",
+            "quote": "Excellent attention and impeccable service.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 283 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -144976,9 +145685,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "9:00 AM – 8:00 PM",
+        "Lunes": "9:00 AM – 8:00 PM",
+        "Martes": "9:00 AM – 8:00 PM",
+        "Miercoles": "9:00 AM – 8:00 PM",
+        "Sabado": "9:00 AM – 8:00 PM",
+        "Viernes": "9:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -145073,30 +145786,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Valentina R.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Daniel Racchi",
+            "quote": "Excellent work and service, my wife has been going for 6 years, it's top-notch",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Dana camila Pedretti",
+            "quote": "I came to get my nails and toes done by my aunt, it took four and a half hours just for that, and on top of that, one girl did my hands and the other my feet, and it took another four and a half hours",
+            "rating": 2
           },
           {
-            "author": "Carolina M.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Patty Garcia",
+            "quote": "I had an appointment 🙌🏻 I waited 1 hour and 30 minutes... and it was for a simple extraction.",
+            "rating": 1
           },
           {
-            "author": "Sofía A.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Deyanire Samaniego",
+            "quote": "I liked the service, but after about 10 days all the nails were already peeling off, and 12 days later one of my nails fell off. I wouldn't go back.",
+            "rating": 5
+          },
+          {
+            "author": "Andrea Acuña",
+            "quote": "They make you wait too long, they demand punctuality, you arrive on time but they still make you wait 15 to 30 minutes, and not because the girl who's supposed to help you is with another customer or ",
             "rating": 3
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 137 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -145421,9 +146139,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 7:30 PM",
+        "Lunes": "10:00 AM – 7:30 PM",
+        "Martes": "10:00 AM – 7:30 PM",
+        "Miercoles": "10:00 AM – 7:30 PM",
+        "Sabado": "10:00 AM – 6:00 PM",
+        "Viernes": "10:00 AM – 7:30 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -145518,30 +146240,30 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Mercedes Bogado",
+            "quote": "Ame🫶🏻",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "ara",
+            "quote": "Excellent service! They're very friendly and explain everything clearly, showing you that it's properly sterilized. It's very comfortable and hygienic—the best place for piercings, no comparison to ot",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Soledad Godoy",
+            "quote": "Excellent service, the work was done almost painlessly, and they provided all the information you need before getting one of their services. Everything was impeccable. You won't find another place lik",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Julio César Vázquez",
+            "quote": "Excellent service 👌, friendly and attentive, highly recommended 👍",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 959 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -145868,9 +146590,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 8:00 PM",
+        "Lunes": "10:00 AM – 8:00 PM",
+        "Martes": "10:00 AM – 8:00 PM",
+        "Miercoles": "10:00 AM – 8:00 PM",
+        "Sabado": "10:00 AM – 8:00 PM",
+        "Viernes": "10:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -145960,30 +146686,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
-          },
-          {
-            "author": "Carolina M.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Travelers",
+            "quote": "Almost passed out, was so hot inside, friendly stuff, but I feel they charge you by your face and look,",
             "rating": 3
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Michellss Salvioni",
+            "quote": "good",
+            "rating": 5
+          },
+          {
+            "author": "Faby L. Miers Robles",
+            "quote": "Excellent experience, they treated me very kindly. They follow up on the work they do. 100% recommended.",
+            "rating": 5
+          },
+          {
+            "author": "Jose Miguel Candia Arzamendia",
+            "quote": "Mr. Pavetti the best Artistic tattoo artist. Hygienic and beautiful place! Everything optimal",
+            "rating": 5
+          },
+          {
+            "author": "Javier Alcaraz",
+            "quote": "Great service, excellent work.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 180 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -146162,9 +146893,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Ayolas con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "8:00 AM – 12:00 PM",
+        "Jueves": "7:00 AM – 12:00 PM, 2:00 – 9:00 PM",
+        "Lunes": "7:00 AM – 12:00 PM, 2:00 – 9:00 PM",
+        "Martes": "7:00 AM – 12:00 PM, 2:00 – 9:00 PM",
+        "Miercoles": "7:00 AM – 12:00 PM, 2:00 – 9:00 PM",
+        "Sabado": "7:00 AM – 12:00 PM, 2:00 – 9:00 PM",
+        "Viernes": "7:00 AM – 12:00 PM, 2:00 – 9:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -146259,30 +146994,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "Lourdes Gonzalez",
+            "quote": "Everything is very expensive, and the official invoice is color-coded and therefore useless to the accountant.",
+            "rating": 1
+          },
+          {
+            "author": "Rilcci Perez",
+            "quote": "It has everything... It's spacious",
             "rating": 4
           },
           {
-            "author": "María F.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Gilberto VaQuez",
+            "quote": "Good good, many varieties of products",
+            "rating": 5
           },
           {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Valentina Chamorro",
+            "quote": "Super good, the employees are super cool, their products are good quality, and their prices are normal 😊",
+            "rating": 5
           },
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "tomas alberto baez vera",
+            "quote": "It's a really complete minimarket. Great variety of products. But what really wins you over is the service. The staff are so kind and helpful. I like it on Facebook.",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 195 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -146586,9 +147326,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "09:00 - 13:00",
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "6:00 AM – 9:00 PM",
+        "Lunes": "6:00 AM – 9:00 PM",
+        "Martes": "6:00 AM – 9:00 PM",
+        "Miercoles": "6:00 AM – 9:00 PM",
+        "Sabado": "8:00 AM – 12:30 PM",
+        "Viernes": "6:00 AM – 9:00 PM"
       },
       "pricing": {
         "subtitle": "Elegí el plan que mejor se adapte a vos",
@@ -146720,30 +147464,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestros trainers"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
-          },
-          {
-            "author": "Gabriel N.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
-          },
-          {
-            "author": "Camila B.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "Axel Cano",
+            "quote": "Excellent location, well-equipped, qualified staff, and a well-ventilated and pleasant atmosphere. The entire team is always in good spirits. If I had to say anything negative, I'd say the space is a ",
             "rating": 4
           },
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Victor Adrian Roa",
+            "quote": "Excellent place to train 💪",
+            "rating": 5
+          },
+          {
+            "author": "Rex",
+            "quote": "Overpriced... 165,000 is expensive. If you want to go to the second floor and use it, you have to pay more... over 250,000 in total. I came from the United States, a first-world country. How can such ",
+            "rating": 3
+          },
+          {
+            "author": "Elizabeth Benitez",
+            "quote": "A clean, quiet place with all the necessary equipment to do the exercises.",
+            "rating": 5
+          },
+          {
+            "author": "D S",
+            "quote": "Taqño Tabarelli! Their \"trainers\" and employees aren't very professional, and it's a filthy place! There's never any toilet paper in the bathrooms, and they don't maintain their equipment, which is da",
+            "rating": 1
           }
         ],
-        "title": "Lo que dicen nuestros alumnos"
+        "subtitle": "Basado en 153 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "transformations": {
         "items": [
@@ -147098,9 +147847,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "9:00 AM – 2:00 AM",
+        "Jueves": "9:00 AM – 7:30 PM",
+        "Lunes": "9:00 AM – 7:30 PM",
+        "Martes": "9:00 AM – 7:30 PM",
+        "Miercoles": "9:00 AM – 7:30 PM",
+        "Sabado": "9:00 AM – 7:30 PM",
+        "Viernes": "9:00 AM – 7:30 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -147217,40 +147970,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ole Cornelius",
+            "quote": "70.000 Gs for shaving the sides with a fade, which took 5 mins. Cut wasn't very good, the transition to my top hair was quite uneven.",
+            "rating": 1
           },
           {
-            "author": "Carolina M.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "M. Merritt",
+            "quote": "Great service. One of the best cuts I've had in a very long time!\n\nI'd recommend asking for Elias. He takes his time and pays attention to details.",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Radim Kozub",
+            "quote": "Excelent services for a reasonable price. I  was here 3 times in 3 years and always had a good experience.",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ömer Kuruüzüm",
+            "quote": "I wanted to have my hair cut, but the barber didn't understand, so I just made my neck shave. Still they took full haircut money from me. I explained the situation to the woman at the entrance, but sh",
+            "rating": 1
           },
           {
-            "author": "Laura E.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Pedro S.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "judah mooney",
+            "quote": "Small place. Detail orientated, you can tell they know what they are doing. Friendly.",
+            "rating": 5
           }
         ],
-        "title": "Opiniones de nuestros clientes"
+        "subtitle": "Basado en 240 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -147871,9 +148619,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "11:00 AM – 8:00 PM",
+        "Lunes": "11:00 AM – 8:00 PM",
+        "Martes": "11:00 AM – 8:00 PM",
+        "Miercoles": "11:00 AM – 8:00 PM",
+        "Sabado": "11:00 AM – 8:00 PM",
+        "Viernes": "11:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -147968,30 +148720,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "James J",
+            "quote": "Lety was fantastic, very flexible working hours, great price and extremely professional. My cover-up came out great, super recommend!",
+            "rating": 5
           },
           {
-            "author": "Sofía A.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Ben",
+            "quote": "New favourite tattoo studio, really happy with how it turned out. Definitely coming back for more before I go back home 🙏",
+            "rating": 5
           },
           {
-            "author": "Jorge C.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Mark",
+            "quote": "Aldo an amazing freestyle artist,  can not recommend him enough.",
+            "rating": 5
           },
           {
-            "author": "Laura E.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Antonia Paredes",
+            "quote": "I traveled from Aregua, spent money on gas and parking, was made to wait an hour, and was never seen for a service I had scheduled and paid for in advance. Thankfully, they refunded my deposit, but I ",
+            "rating": 1
+          },
+          {
+            "author": "Anahi Orrego",
+            "quote": "Exelente atencion y hermoso trabajo super recomendado ✨️🫶",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 192 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -148318,9 +149075,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "11:00 AM – 8:00 PM",
+        "Lunes": "11:00 AM – 8:00 PM",
+        "Martes": "11:00 AM – 8:00 PM",
+        "Miercoles": "11:00 AM – 8:00 PM",
+        "Sabado": "11:00 AM – 8:00 PM",
+        "Viernes": "11:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -148410,30 +149171,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Ingve Skaret",
+            "quote": "Excellent service and massage",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+            "author": "홍도리",
+            "quote": "not good",
             "rating": 3
           },
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Juan Lucas Ruffolo",
+            "quote": "I think I've been to every spa in Asunción. At Teranu, the service is excellent in every way. The location, the service, and the massage are all superb. I highly recommend it.",
+            "rating": 5
+          },
+          {
+            "author": "Viviana Peña",
+            "quote": "A first-class spa, with trained professionals focused on ensuring you leave free of any pain or stress.\nAn exquisite and healthy menu accompanied by the best natural juices from all of Paraguay.\nThe w",
+            "rating": 5
+          },
+          {
+            "author": "Alejandra Acevedo Noguera",
+            "quote": "Beautiful, super clean, the girls are super professional!!! The massage is perfect!!!!",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 183 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -149576,9 +150342,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "10:00 AM – 8:00 PM",
+        "Lunes": "10:00 AM – 8:00 PM",
+        "Martes": "10:00 AM – 8:00 PM",
+        "Miercoles": "10:00 AM – 8:00 PM",
+        "Sabado": "10:00 AM – 7:00 PM",
+        "Viernes": "10:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -149668,30 +150438,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Betül Akdag",
+            "quote": "Really amazing spa experience, we booked a 90min massage and it was the best I ever had, so relaxing and she really paid attention to where I'm more stiff. I loved the rooms and the calming music and ",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "MaNo",
+            "quote": "Very good service. Fast communication, got a spontaneous appointment. The service was excellent, I felt in safe hands and always relaxed. Can highly recommend this studio.",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Tess U",
+            "quote": "Amazing massage and so relaxing! Just what I needed after a long bus ride.",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Aurena Agathe Fohler",
+            "quote": "Omg I fell asleep\nFootreflexology massage\nAnd\nFull-body\nSoon good",
+            "rating": 5
+          },
+          {
+            "author": "MOHAVE ANATOLIAN",
+            "quote": "Lived the service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 310 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -150313,9 +151088,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Villa Hayes con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Open 24 hours",
+        "Jueves": "Open 24 hours",
+        "Lunes": "Closed",
+        "Martes": "Open 24 hours",
+        "Miercoles": "Open 24 hours",
+        "Sabado": "Open 24 hours",
+        "Viernes": "Open 24 hours"
       },
       "instagramFeed": {
         "columns": 4,
@@ -150410,30 +151189,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Diego H.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Maríana Flores",
+            "quote": "I'm looking good, I loved it",
+            "rating": 5
           },
           {
-            "author": "Valentina R.",
-            "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 3
+            "author": "Yguer Garcete",
+            "quote": "Beautiful place near the river",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "Edit Diaz",
+            "quote": "Well, beautiful.",
+            "rating": 5
           },
           {
-            "author": "Carolina M.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Delia Vazquez",
+            "quote": "Hermoso lugar para visitar",
+            "rating": 5
+          },
+          {
+            "author": "isabel valdez",
+            "quote": "My favorite place",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 152 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -150758,9 +151542,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 6:00 PM",
+        "Lunes": "8:00 AM – 6:00 PM",
+        "Martes": "8:00 AM – 6:00 PM",
+        "Miercoles": "8:00 AM – 6:00 PM",
+        "Sabado": "8:00 AM – 1:00 PM",
+        "Viernes": "8:00 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -150855,30 +151643,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "Arnaldo Ruben Alvarenga Garcia",
+            "quote": "Excellent place, variety of products and service",
+            "rating": 5
           },
           {
-            "author": "Diego H.",
-            "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Veronica Ojeda Elgue",
+            "quote": "Today I went shopping and to my surprise, \"No children allowed.\" I was with my 2-year-old daughter, so I had to leave. Honestly, this is the first time I've seen such a measure. 1) The products they s",
+            "rating": 1
           },
           {
-            "author": "Valentina R.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "Rosa Vera",
+            "quote": "If you want to be pampered by the salon experts, take a stroll through Vita Chic.",
+            "rating": 5
           },
           {
-            "author": "Andrés P.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "victoria añazco",
+            "quote": "One of my favorite places; you can find everything for women's beauty. A wide variety of products from all brands. Excellent advice when shopping; the saleswomen help you and recommend products. Good ",
+            "rating": 5
+          },
+          {
+            "author": "Cynthia Flecha",
+            "quote": "They have henna dye and many good quality brands",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 179 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -151203,9 +151996,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 6:00 PM",
+        "Lunes": "8:00 AM – 6:00 PM",
+        "Martes": "8:00 AM – 6:00 PM",
+        "Miercoles": "8:00 AM – 6:00 PM",
+        "Sabado": "8:00 AM – 3:30 PM",
+        "Viernes": "8:00 AM – 6:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -151300,30 +152097,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
-          },
-          {
-            "author": "María F.",
-            "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
-          },
-          {
-            "author": "Carlos G.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
-          },
-          {
-            "author": "Ana L.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+            "author": "FKING LOST",
+            "quote": "Employees didn't knew about makeup :/ what's that?",
             "rating": 3
+          },
+          {
+            "author": "mirtha arrua",
+            "quote": "Excellent",
+            "rating": 5
+          },
+          {
+            "author": "Miriam Gauna",
+            "quote": "Excellent service, and Mrs. Alba was very kind. I would definitely return.",
+            "rating": 5
+          },
+          {
+            "author": "Maria lourdes Riveros",
+            "quote": "Excellent service and good treatment...efficient",
+            "rating": 5
+          },
+          {
+            "author": "Zully Nair",
+            "quote": "Very good variety of products, good prices",
+            "rating": 4
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 413 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -152201,9 +153003,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Antonio con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -152293,30 +153099,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Martín D.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "David Lezcano",
+            "quote": "Add",
+            "rating": 5
           },
           {
-            "author": "Florencia T.",
-            "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Mimimi Lilili",
+            "quote": "I got acrylic nails done and one nail came off out of nowhere within a week. I always go somewhere else and they last me a month. In a rush, I went to that place and it was a disaster.",
+            "rating": 1
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 4
+            "author": "MaAle Pitta Skowronek",
+            "quote": "Excellent place, well-organized and follows all health protocols. Very good work, very friendly and professional.",
+            "rating": 5
           },
           {
-            "author": "Camila B.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Analia Rivas",
+            "quote": "I love this space for relaxing, enhancing beauty from head to toe... they take care of every detail... and we are all pampered 🥰",
+            "rating": 5
+          },
+          {
+            "author": "Marta Saldivar",
+            "quote": "Excellent service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 204 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [
@@ -152497,9 +153308,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En San Antonio con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "Cerrado",
-        "Lunes a Viernes": "09:00 - 21:00",
-        "Sábado": "10:00 - 20:00"
+        "Domingo": "Closed",
+        "Jueves": "8:00 AM – 8:00 PM",
+        "Lunes": "8:00 AM – 8:00 PM",
+        "Martes": "8:00 AM – 8:00 PM",
+        "Miercoles": "8:00 AM – 8:00 PM",
+        "Sabado": "8:00 AM – 8:00 PM",
+        "Viernes": "8:00 AM – 8:00 PM"
       },
       "instagramFeed": {
         "columns": 4,
@@ -152589,30 +153404,35 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Conocé a nuestro equipo"
       },
       "testimonials": {
-        "columns": 2,
         "items": [
           {
-            "author": "Florencia T.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 4
+            "author": "David Lezcano",
+            "quote": "Add",
+            "rating": 5
           },
           {
-            "author": "Gabriel N.",
-            "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-            "rating": 4
+            "author": "Mimimi Lilili",
+            "quote": "I got acrylic nails done and one nail came off out of nowhere within a week. I always go somewhere else and they last me a month. In a rush, I went to that place and it was a disaster.",
+            "rating": 1
           },
           {
-            "author": "Camila B.",
-            "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-            "rating": 3
+            "author": "MaAle Pitta Skowronek",
+            "quote": "Excellent place, well-organized and follows all health protocols. Very good work, very friendly and professional.",
+            "rating": 5
           },
           {
-            "author": "María F.",
-            "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-            "rating": 3
+            "author": "Analia Rivas",
+            "quote": "I love this space for relaxing, enhancing beauty from head to toe... they take care of every detail... and we are all pampered 🥰",
+            "rating": 5
+          },
+          {
+            "author": "Marta Saldivar",
+            "quote": "Excellent service",
+            "rating": 5
           }
         ],
-        "title": "Lo que dicen nuestros clientes"
+        "subtitle": "Basado en 204 reseñas",
+        "title": "Lo que dicen en Google"
       },
       "trustBadges": {
         "items": [

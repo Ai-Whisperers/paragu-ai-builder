@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 152 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "S & C",
+          "quote": "Amazing to see a great building.  It seems to be used for many great things as well.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
+          "author": "Rolando Páez",
+          "quote": "Is loo",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
+          "author": "Juan Chaparro",
+          "quote": "Hernosooooo",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Anisis Wellness (Anne-Ruth Becker)",
+          "quote": "I was blown away how beautifully the stonework and mosaics are. So very peaceful and marvelous. I lived it it's enchanting. They offer food as well and retreats. I can't comment on them. I'll return",
+          "rating": 5
+        },
+        {
+          "author": "Gustavo Horvath",
+          "quote": "Retreat house. The peace and tranquility of this place are something you must experience. A great option for a day trip and sightseeing. The church, hallways, and gardens are incredible. Highly recomm",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+      "Miercoles": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+      "Jueves": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+      "Viernes": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+      "Sabado": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
+      "Domingo": "8:00 AM – 12:00 PM, 1:00 – 5:00 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

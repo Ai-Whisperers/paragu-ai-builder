@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 248 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "María F."
+          "author": "Kathia Ramírez",
+          "quote": "The girl who washed my hair was very kind, and I loved the massage. She treated me politely. The girl who trimmed my hair was also very nice. Today was my first time. The only thing that left me wonde",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carlos G."
+          "author": "Gia Ribero",
+          "quote": "I asked the price of the service for myself before starting, but not for my daughter. When it came time to pay, they charged us double for her service, even though I saw someone else get paid less for",
+          "rating": 2
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Ana L."
+          "author": "Arami “Ara” BOGADO",
+          "quote": "Hi, I visited this place a week ago. I thought the salon was nice. The receptionist who helped me was friendly. But they DON'T ACCEPT ARGENTINE PESOS, so I couldn't get my hair done. I looked for anot",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Diego H."
+          "author": "Ainhoa Lopez",
+          "quote": "I'm a regular customer; I go quite often. Every time I travel to Encarnación, I make a point of stopping by the salon. I used to be a big fan of the place, the way the girls treated me, and the excell",
+          "rating": 1
+        },
+        {
+          "author": "Andru Ferreira",
+          "quote": "The girls were super fast! Only my curls didn't last 🥲",
+          "rating": 4
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "10:00 AM – 8:00 PM",
+      "Martes": "8:00 AM – 8:00 PM",
+      "Miercoles": "8:00 AM – 8:00 PM",
+      "Jueves": "8:00 AM – 8:00 PM",
+      "Viernes": "8:00 AM – 8:00 PM",
+      "Sabado": "8:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

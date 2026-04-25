@@ -202,28 +202,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 269 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Oscar Anibal Escobar Abbate",
+          "quote": "8h",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Diego H."
+          "author": "Maiela Bron",
+          "quote": "Their own parking lot is very small and just barely adequate; it's very difficult to park when it's full of cars because there's not enough room to maneuver. For that reason, it's better to park in th",
+          "rating": 3
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Valentina R."
+          "author": "Diego Alfredo Mendoza Battilana",
+          "quote": "Swimming school for children, excellent instructors who are very attentive and focused on the kids; they learn quickly with good techniques.\nThere are separate changing rooms for boys and girls. There",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "Olivia Boscarino",
+          "quote": "Excellent, the water was super clean and warm. Everyone was friendly.",
+          "rating": 5
+        },
+        {
+          "author": "Adrian Fernandez",
+          "quote": "A great place, the heated pool is quite good and the large parking lot is also very good.",
+          "rating": 5
         }
       ]
     },
@@ -266,9 +271,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "6:00 AM – 9:00 PM",
+      "Martes": "6:00 AM – 9:00 PM",
+      "Miercoles": "6:00 AM – 9:00 PM",
+      "Jueves": "6:00 AM – 9:00 PM",
+      "Viernes": "6:00 AM – 9:00 PM",
+      "Sabado": "8:00 AM – 12:00 PM",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [

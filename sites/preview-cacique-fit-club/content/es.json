@@ -202,28 +202,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 157 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "Laura Gomez",
+          "quote": "I have to give it to them, they learn fast how to adapt to customers. My friend and I told them about the kind of music we like and they changed it. We don't need earbuds or any other kind of stimulus",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carolina M."
+          "author": "Mostaza Mostaza",
+          "quote": "Great place, good WOD and the community is awesome!",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Sofía A."
+          "author": "Fabián Lopez",
+          "quote": "A fully equipped box with top-quality equipment and professionals. It's also important to note that the gym is also open during non-CrossFit classes. If you're already experienced and your schedule do",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Monica Martinez",
+          "quote": "Excellent atmosphere and top-notch teachers! Dynamic, motivating classes with an incredible community. The best place 😎👌🏾",
+          "rating": 5
+        },
+        {
+          "author": "Guille _668",
+          "quote": "Excellent gym, the instructors are great, the equipment is top-notch, and the service is fantastic. Highly recommended, by far the best gym in Lambaré.",
+          "rating": 5
         }
       ]
     },
@@ -266,9 +271,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "6:00 AM – 9:00 PM",
+      "Martes": "6:00 AM – 9:00 PM",
+      "Miercoles": "6:00 AM – 9:00 PM",
+      "Jueves": "6:00 AM – 9:00 PM",
+      "Viernes": "6:00 AM – 9:00 PM",
+      "Sabado": "9:00 AM – 3:00 PM",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [

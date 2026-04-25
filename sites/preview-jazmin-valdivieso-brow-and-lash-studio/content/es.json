@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 157 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
+          "author": "cyber el bosque",
+          "quote": "Sss",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Pedro S."
+          "author": "Ruth Serafini",
+          "quote": "I went three times in one week. I had a facial and derma-planing with Paloma. My skin looked beautiful; she was super professional. I went back a week later for Nanobrows with Jazmin, and I loved her ",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Lucía V."
+          "author": "andrea beatriz salcedo riquelme",
+          "quote": "Excellent service\nExcellent attention",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "Maria Ines Samsung",
+          "quote": "Impeccable care. My husband had a facial treatment with professional Paloma. She was very thorough and provided top-notch service. I had eyelid/eye micropigmentation with Jazmin. I'm so happy I don't ",
+          "rating": 5
+        },
+        {
+          "author": "Tavo Ayala",
+          "quote": "Top-notch service and attention! Highly recommended!",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "10:00 AM – 7:00 PM",
+      "Miercoles": "10:00 AM – 7:00 PM",
+      "Jueves": "10:00 AM – 7:00 PM",
+      "Viernes": "10:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 5:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

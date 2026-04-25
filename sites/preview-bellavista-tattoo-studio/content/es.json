@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 351 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Ally Weisblatt",
+          "quote": "Julio is incredible! He was so kind and gentle the entire time! Me and my friend each got a tattoo and both had an incredible experience. I would recommend him to anyone and everyone!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Diego H."
+          "author": "Silvia Veermäe",
+          "quote": "Julio is one of a kind - he captured my idea perfectly and the whole process was so fun and enjoyable! And it goes without mentioning that I love the outcome! Thanks Julio for turning memories into be",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Valentina R."
+          "author": "Jo Lee",
+          "quote": "Got a tattoo around my leg just above the ankles. 10/10 experience with Julio, he was very patient in trying to know what I wanted before confirming the design. He was very accommodating throughout th",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "samuel dean",
+          "quote": "Was walking past this studio on random day and my wife was feeling sick, so she went to the hostel and decided to get a tattoo. I already had a great idea in mind so i have been wanting a tattoo. I ra",
+          "rating": 5
+        },
+        {
+          "author": "Amanda Thacker Powell",
+          "quote": "We visited this studio yesterday and everyone in our group was very happy with the professionalism of the staff and how our tattoos came out! They were very patient with us to overcome our language ba",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "10:00 AM – 5:00 PM",
+      "Martes": "10:00 AM – 5:00 PM",
+      "Miercoles": "10:00 AM – 5:00 PM",
+      "Jueves": "10:00 AM – 5:00 PM",
+      "Viernes": "10:00 AM – 5:00 PM",
+      "Sabado": "10:00 AM – 5:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

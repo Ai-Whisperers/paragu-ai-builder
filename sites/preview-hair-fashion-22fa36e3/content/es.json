@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 135 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Chris C",
+          "quote": "Eddie did a remarkable job on my haircut. I do not live in the area, and he gave me one of the best haircuts I have ever had! I showed him the style I wanted, and since he is an artist, he saw the vis",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Ana L."
+          "author": "Brigitte K.",
+          "quote": "I relied on the good reviews, but I have to say that I felt pretty ripped off as a tourist here.\n\nFirst of all, the hairdresser combed my curls with a brush and pulled on them so hard that she pulled ",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Diego H."
+          "author": "William Heron",
+          "quote": "Quoted my daughter 7000 and at the end demanded 10000! Didn't cut it the way she wanted and showed him in the picture. Refused to take a credit card despite it being advertised as taking credit cards.",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Valentina R."
+          "author": "Georg Brantzen",
+          "quote": "Would be nice if they update their opening times... Just went there for nothing",
+          "rating": 2
+        },
+        {
+          "author": "vidrieratv Loberia",
+          "quote": "Esteban, the hairdresser, was a genius. He cut my hair quickly and gave me a new look.\nVery grateful.",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "9:00 AM – 9:00 PM",
+      "Miercoles": "9:00 AM – 9:00 PM",
+      "Jueves": "9:00 AM – 9:00 PM",
+      "Viernes": "9:00 AM – 9:00 PM",
+      "Sabado": "9:00 AM – 9:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

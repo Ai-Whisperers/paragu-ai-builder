@@ -210,38 +210,33 @@
       ]
     },
     "testimonials": {
-      "title": "Opiniones de nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 240 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "Ole Cornelius",
+          "quote": "70.000 Gs for shaving the sides with a fade, which took 5 mins. Cut wasn't very good, the transition to my top hair was quite uneven.",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carolina M."
+          "author": "M. Merritt",
+          "quote": "Great service. One of the best cuts I've had in a very long time!\n\nI'd recommend asking for Elias. He takes his time and pays attention to details.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Sofía A."
+          "author": "Radim Kozub",
+          "quote": "Excelent services for a reasonable price. I  was here 3 times in 3 years and always had a good experience.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Ömer Kuruüzüm",
+          "quote": "I wanted to have my hair cut, but the barber didn't understand, so I just made my neck shave. Still they took full haircut money from me. I explained the situation to the woman at the entrance, but sh",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
-        },
-        {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
+          "author": "judah mooney",
+          "quote": "Small place. Detail orientated, you can tell they know what they are doing. Friendly.",
+          "rating": 5
         }
       ]
     },
@@ -333,9 +328,13 @@
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 7:30 PM",
+      "Martes": "9:00 AM – 7:30 PM",
+      "Miercoles": "9:00 AM – 7:30 PM",
+      "Jueves": "9:00 AM – 7:30 PM",
+      "Viernes": "9:00 AM – 7:30 PM",
+      "Sabado": "9:00 AM – 7:30 PM",
+      "Domingo": "9:00 AM – 2:00 AM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

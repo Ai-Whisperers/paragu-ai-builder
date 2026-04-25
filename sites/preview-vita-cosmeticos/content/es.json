@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 413 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "FKING LOST",
+          "quote": "Employees didn't knew about makeup :/ what's that?",
+          "rating": 3
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
+          "author": "mirtha arrua",
+          "quote": "Excellent",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
+          "author": "Miriam Gauna",
+          "quote": "Excellent service, and Mrs. Alba was very kind. I would definitely return.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Maria lourdes Riveros",
+          "quote": "Excellent service and good treatment...efficient",
+          "rating": 5
+        },
+        {
+          "author": "Zully Nair",
+          "quote": "Very good variety of products, good prices",
+          "rating": 4
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "8:00 AM – 6:00 PM",
+      "Martes": "8:00 AM – 6:00 PM",
+      "Miercoles": "8:00 AM – 6:00 PM",
+      "Jueves": "8:00 AM – 6:00 PM",
+      "Viernes": "8:00 AM – 6:00 PM",
+      "Sabado": "8:00 AM – 3:30 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

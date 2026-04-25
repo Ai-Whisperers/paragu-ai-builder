@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 143 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
+          "author": "Rizqa Armien-Yang",
+          "quote": "This is my go-to waxing and nails salon when I'm in Asunción! They're super kind even with my very broken Spanish :) The salon is clean and comfortable and the services are done quickly and profession",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Gabriel N."
+          "author": "Lorna Diwa",
+          "quote": "Wonderful salon! Very clean, beautifully organized and the service was very kind. They do a great kapping gel manicure!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Camila B."
+          "author": "Dra L L",
+          "quote": "Efficient Depilacion, economic and friendly service in a neighborhood salón hidden next to travelin truck lomitos.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "María F."
+          "author": "Yulia Traidova Broker",
+          "quote": "Excellent service. Book your appointment in advance. I had a semi-permanent manicure and pedicure done there, as well as waxing. I highly recommend Bleu Depilación beauty salon. Thanks, ladies! 🥰",
+          "rating": 5
+        },
+        {
+          "author": "Olga Nunez",
+          "quote": "The service was fantastic!!! Very professional.",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "1:00 – 7:00 PM",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 7:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

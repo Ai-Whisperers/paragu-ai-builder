@@ -135,28 +135,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestras clientas",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 150 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
+          "author": "WILLO GAMER",
+          "quote": "Conheço os trabalhos da niege desde quando o atendimento era na vila c.\nOque falar dos trabalhos dela?  Os melhores dos melhores.\nDepois de passar atender  em outro endereço que alias um espaço amplo ",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Pedro S."
+          "author": "Cristina Teixeira",
+          "quote": "Atendimento pós micro é ruim, principalmente se a pigmentação não pegar. Precisei agendar retoque com profissional de outra clínica de tão falhada e clara que a minha sobrancelha ficou em apenas 5 dia",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Lucía V."
+          "author": "Denise Burmann",
+          "quote": "Atendimento de excelência, primeira vez que visito, fiz a sobrancelha na linha e a técnica dela é rápida e doeu menos que do que o usual. Também fiz henna pela primeira vez e estou apaixonada, a cor d",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "Karoline Almeida",
+          "quote": "Fiz henna com a Camila, além de ser um amor de pessoa é muito caprichosa e detalhista.\nAmeiii minha sombrancelhas e já indiquei a Camila para minha irmã que esta indo semana que vem já fazer a dela e ",
+          "rating": 5
+        },
+        {
+          "author": "Juliana Santos",
+          "quote": "Todo o atendimento é impecável. Desde o agendamento com o Valdir, faço com a profissional Mary Lemes que é muito atenciosa e caprichosa. Sem contar no espaço físico que é charmoso, acolhedor e muito a",
+          "rating": 5
         }
       ]
     },
@@ -218,8 +223,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 17:00"
+      "Lunes": "Closed",
+      "Martes": "9:00 AM – 6:00 PM",
+      "Miercoles": "9:00 AM – 6:00 PM",
+      "Jueves": "9:00 AM – 6:00 PM",
+      "Viernes": "9:00 AM – 6:00 PM",
+      "Sabado": "9:00 AM – 3:00 PM",
+      "Domingo": "Closed"
     },
     "contact": {
       "phone": "(45) 3025-4100",

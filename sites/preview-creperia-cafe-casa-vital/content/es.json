@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 165 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "G Hall",
+          "quote": "Really fantastic, friendly,  relaxing location and could not fault the food. Everything was delicious. Quality.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Florencia T."
+          "author": "SALIN",
+          "quote": "Best food in town, very friendly. Clean and large  appartement for your stay in SanBer",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Gabriel N."
+          "author": "Karodim",
+          "quote": "Top!",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "Lilly Sandoval",
+          "quote": "I love the food and the service is very good",
+          "rating": 5
+        },
+        {
+          "author": "Norbert Weisheitel",
+          "quote": "Schnitzeltag Casa Vital.",
+          "rating": 4
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "Closed",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "9:00 AM – 8:00 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

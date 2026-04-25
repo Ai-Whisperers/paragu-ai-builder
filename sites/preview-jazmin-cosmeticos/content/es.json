@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 211 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "Julia Magdalena Gamarra De Rojas (The Queens)",
+          "quote": "Hi everyone... I went to have a look around because they have a lot of advertising... and I was delighted. Their prices are super affordable. I just went to look and couldn't resist buying something..",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Florencia T."
+          "author": "Aillen Arce Rolón",
+          "quote": "They have everything! But the service isn't good; they don't offer help with what you're looking for or provide advice.",
+          "rating": 4
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Gabriel N."
+          "author": "Carolina Reyes",
+          "quote": "They treat me incredibly well, even though there are always some grumpy, unfriendly people. I wait patiently and receive the best service.\nThe staff is very well-trained and polite.\nThank you for alwa",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "Ignacia Peralta",
+          "quote": "Bad customer service on social media, I wrote to them on Instagram to find out the prices and they transferred me to WhatsApp and there they just left me on read and never responded, just as you are s",
+          "rating": 2
+        },
+        {
+          "author": "mercedes montañez",
+          "quote": "Excellent service. Prices are competitive. A wide selection of good products.",
+          "rating": 4
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "8:00 AM – 6:00 PM",
+      "Martes": "8:00 AM – 6:00 PM",
+      "Miercoles": "8:00 AM – 6:00 PM",
+      "Jueves": "8:00 AM – 6:00 PM",
+      "Viernes": "8:00 AM – 6:00 PM",
+      "Sabado": "8:00 AM – 6:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

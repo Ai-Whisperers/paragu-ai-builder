@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 155 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "Caro Sánchez",
+          "quote": "Essential for recharging your energy! A magical place! Personalized attention.\nIf you need to recharge with good vibes, visit Amatista del Sur, The Little House of Crystals.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
+          "author": "Anna Tenace SAC - CSAT",
+          "quote": "Visiting this place is a lovely experience. They have a wide variety of crystals and stones. They also have a small museum. They explain and teach you about the properties of each stone. It's ideal to",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
+          "author": "Diego Ruiz",
+          "quote": "Otro lugar más que nos ayuda a conectarse, un hermoso espacio que te llena de paz y tranquilidad, verás varios tipos de minerales, cristales que relajan con sus sonidos.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Gloria Barrios",
+          "quote": "I loved the place!!! When I found it on Instagram I said I had to visit it, and I finally did this year, 2026! Highly recommended, the owners are lovely.",
+          "rating": 5
+        },
+        {
+          "author": "Alexander van der Pol",
+          "quote": "A small museum brimming with wonders for all ages. The collection of crystals and gemstones is fascinating, and the experience is even more special for children, who can learn interactively.\n\nThe expl",
+          "rating": 4
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "Closed",
+      "Miercoles": "Closed",
+      "Jueves": "Closed",
+      "Viernes": "Closed",
+      "Sabado": "9:00 AM – 6:00 PM",
+      "Domingo": "9:00 AM – 6:00 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

@@ -202,28 +202,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 203 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Sofía A."
+          "author": "Oscar Duarte Fonseca",
+          "quote": "Excelent choice for full energy",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Jorge C."
+          "author": "rakelita31",
+          "quote": "A full",
+          "rating": 4
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Laura E."
+          "author": "Pierre Florentín",
+          "quote": "Fabulous 👌",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Pedro S."
+          "author": "Lucho Benítez",
+          "quote": "Excellent place",
+          "rating": 5
+        },
+        {
+          "author": "Miguel Gaona",
+          "quote": "Top!!!!",
+          "rating": 5
         }
       ]
     },
@@ -266,9 +271,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "6:00 AM – 11:00 PM",
+      "Martes": "6:00 AM – 11:00 PM",
+      "Miercoles": "6:00 AM – 11:00 PM",
+      "Jueves": "6:00 AM – 11:00 PM",
+      "Viernes": "6:00 AM – 11:00 PM",
+      "Sabado": "10:00 AM – 5:00 PM",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [

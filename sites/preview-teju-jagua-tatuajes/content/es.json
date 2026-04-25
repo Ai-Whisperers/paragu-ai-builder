@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 192 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carolina M."
+          "author": "James J",
+          "quote": "Lety was fantastic, very flexible working hours, great price and extremely professional. My cover-up came out great, super recommend!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Sofía A."
+          "author": "Ben",
+          "quote": "New favourite tattoo studio, really happy with how it turned out. Definitely coming back for more before I go back home 🙏",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Jorge C."
+          "author": "Mark",
+          "quote": "Aldo an amazing freestyle artist,  can not recommend him enough.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
+          "author": "Antonia Paredes",
+          "quote": "I traveled from Aregua, spent money on gas and parking, was made to wait an hour, and was never seen for a service I had scheduled and paid for in advance. Thankfully, they refunded my deposit, but I ",
+          "rating": 1
+        },
+        {
+          "author": "Anahi Orrego",
+          "quote": "Exelente atencion y hermoso trabajo super recomendado ✨️🫶",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "11:00 AM – 8:00 PM",
+      "Martes": "11:00 AM – 8:00 PM",
+      "Miercoles": "11:00 AM – 8:00 PM",
+      "Jueves": "11:00 AM – 8:00 PM",
+      "Viernes": "11:00 AM – 8:00 PM",
+      "Sabado": "11:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

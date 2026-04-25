@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 152 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Diego H."
+          "author": "Maríana Flores",
+          "quote": "I'm looking good, I loved it",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Valentina R."
+          "author": "Yguer Garcete",
+          "quote": "Beautiful place near the river",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Andrés P."
+          "author": "Edit Diaz",
+          "quote": "Well, beautiful.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carolina M."
+          "author": "Delia Vazquez",
+          "quote": "Hermoso lugar para visitar",
+          "rating": 5
+        },
+        {
+          "author": "isabel valdez",
+          "quote": "My favorite place",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "Open 24 hours",
+      "Miercoles": "Open 24 hours",
+      "Jueves": "Open 24 hours",
+      "Viernes": "Open 24 hours",
+      "Sabado": "Open 24 hours",
+      "Domingo": "Open 24 hours"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
