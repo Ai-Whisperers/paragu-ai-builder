@@ -14,25 +14,37 @@
   },
   "location": {
     "city": "Luque",
-    "address": "Av. Gral. Aquino 890"
+    "address": "Av. Gral. Aquino 890",
+    "coordinates": {
+      "lat": -25.2746,
+      "lng": -57.488
+    },
+    "googleMapsId": "ChIJ9VqLRTcRmZQR9WmL5T5j8tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-estetica-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-estetica"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "estetica",
-  "demoWave": 1,
-  "demoCluster": "A Booking",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-estetica",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-estetica"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-estetica",
+  "social": {
+    "facebook": "esteticaluque",
+    "tiktok": "@esteticaluque",
+    "instagram": "@estetica.luque.py"
+  }
 }

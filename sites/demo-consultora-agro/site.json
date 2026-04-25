@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Encarnación",
-    "address": "Av. Irrazábal 2345"
+    "address": "Av. Irrazábal 2345",
+    "coordinates": {
+      "lat": -27.33,
+      "lng": -55.9
+    },
+    "googleMapsId": "ChIJ3WqPRTcRmZQR3WnP5T5j2tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-consultora-agro-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-consultora-agro"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "consultora_agro",
-  "demoWave": 2,
-  "demoCluster": "B B2B",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-consultora-agro",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-agro"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-agro",
+  "social": {
+    "linkedin": "consultora-agro-encarnacion",
+    "instagram": "@consultora.agro.enc.py"
+  }
 }

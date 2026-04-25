@@ -14,25 +14,37 @@
   },
   "location": {
     "city": "San Lorenzo",
-    "address": "Ruta 2 Km 12, Barrio San Isidro"
+    "address": "Ruta 2 Km 12, Barrio San Isidro",
+    "coordinates": {
+      "lat": -25.342,
+      "lng": -57.51
+    },
+    "googleMapsId": "ChIJ1WqNRTcRmZQR1WnN5T5j0tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-veterinaria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-veterinaria"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "veterinaria",
-  "demoWave": 1,
-  "demoCluster": "I Pets",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-veterinaria",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-veterinaria"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-veterinaria",
+  "social": {
+    "facebook": "veterinariasanlorenzo",
+    "tiktok": "@vetsanlorenzo",
+    "instagram": "@veterinaria.sanlorenzo.py"
+  }
 }

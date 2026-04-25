@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Capiatá",
-    "address": "Ruta 1 Km 23, Barrio Centro"
+    "address": "Ruta 1 Km 23, Barrio Centro",
+    "coordinates": {
+      "lat": -25.36,
+      "lng": -57.43
+    },
+    "googleMapsId": "ChIJ9WqVRTcRmZQR9WnV5T5j8tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-panaderia-artesanal-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-panaderia-artesanal"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "artisan_bakery",
-  "demoWave": 3,
-  "demoCluster": "C E-commerce",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-panaderia-artesanal",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-panaderia-artesanal"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-panaderia-artesanal",
+  "social": {
+    "facebook": "panaderiacapiata",
+    "instagram": "@panaderia.capiata.py"
+  }
 }

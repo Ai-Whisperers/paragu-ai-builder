@@ -12,9 +12,31 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Veterinaria Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Veterinaria",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Blog",
+        "path": "#blog"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -146,34 +168,34 @@
       "lightbox": true,
       "images": [
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600",
           "alt": "Consultorio",
-          "caption": "Consultorio principal"
+          "caption": "Consultorio"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600",
+          "alt": "Perro",
+          "caption": "Atención canina"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600",
           "alt": "Quirófano",
-          "caption": "Quirófano equipado"
+          "caption": "Quirófano"
         },
         {
-          "src": "",
-          "alt": "Laboratorio",
-          "caption": "Laboratorio propio"
+          "src": "https://images.unsplash.com/photo-1607619056574-7b8d3ee809b0?w=600",
+          "alt": "Gato",
+          "caption": "Atención felina"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=600",
           "alt": "Peluquería",
-          "caption": "Área de peluquería"
+          "caption": "Peluquería canina"
         },
         {
-          "src": "",
-          "alt": "Recepción",
-          "caption": "Sala de espera"
-        },
-        {
-          "src": "",
-          "alt": "Farmacia",
-          "caption": "Farmacia veterinaria"
+          "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600",
+          "alt": "Laboratorio",
+          "caption": "Laboratorio"
         }
       ]
     },
@@ -221,6 +243,13 @@
         "Sábado": "08:00 - 16:00",
         "Domingo": "Emergencias 24h"
       }
+    },
+    "promoBanner": {
+      "title": "🐾 Primera consulta",
+      "subtitle": "10% de descuento en tu primera consulta veterinaria",
+      "ctaText": "Reservar",
+      "variant": "standard",
+      "dismissible": true
     }
   },
   "footer": {

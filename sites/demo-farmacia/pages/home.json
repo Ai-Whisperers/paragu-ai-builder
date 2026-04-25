@@ -54,6 +54,11 @@
       "content": "home.hours"
     },
     {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
       "id": "footer",
       "variant": "standard",
       "content": "footer"

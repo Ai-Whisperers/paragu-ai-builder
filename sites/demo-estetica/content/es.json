@@ -12,9 +12,31 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Estetica Luque",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Estetica",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Tratamientos",
+        "path": "#servicios"
+      },
+      {
+        "label": "Resultados",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -113,34 +135,34 @@
       "lightbox": true,
       "images": [
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
           "alt": "Limpieza facial",
-          "caption": "Antes y después"
+          "caption": "Limpieza facial profunda"
         },
         {
-          "src": "",
-          "alt": "Peeling",
-          "caption": "Peeling químico"
+          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
+          "alt": "Tratamiento",
+          "caption": "Tratamiento facial"
         },
         {
-          "src": "",
-          "alt": "Mesoterapia",
-          "caption": "Mesoterapia facial"
-        },
-        {
-          "src": "",
-          "alt": "Radiofrecuencia",
-          "caption": "Radiofrecuencia"
-        },
-        {
-          "src": "",
-          "alt": "Masajes",
+          "src": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600",
+          "alt": "Masaje",
           "caption": "Masajes relajantes"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
           "alt": "Depilación",
           "caption": "Depilación láser"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
+          "alt": "Radiofrecuencia",
+          "caption": "Radiofrecuencia facial"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
+          "alt": "Corporal",
+          "caption": "Tratamientos corporales"
         }
       ]
     },
@@ -233,6 +255,14 @@
         "Sábado": "09:00 - 14:00",
         "Domingo": "Cerrado"
       }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@estetica.luque.py — mostramos nuestro trabajo todos los días",
+      "handle": "@estetica.luque.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
     }
   },
   "footer": {

@@ -12,9 +12,31 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Hamburgueseria Fernando de la Mora",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Hamburgueseria",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Menú",
+        "path": "#menu"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Delivery",
+        "path": "#delivery"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -151,32 +173,32 @@
       "lightbox": true,
       "images": [
         {
-          "src": "",
-          "alt": "Hamburguesa clásica",
-          "caption": "Clásica"
+          "src": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+          "alt": "Clásica",
+          "caption": "Hamburguesa clásica"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600",
           "alt": "Criolla",
           "caption": "Hamburguesa criolla"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1586816001966-79b736744398?w=600",
           "alt": "Papas",
           "caption": "Papas cheddar y bacon"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=600",
           "alt": "Texana",
           "caption": "Texana doble carne"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600",
           "alt": "Veggie",
           "caption": "Opción vegetariana"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
           "alt": "Combos",
           "caption": "Combo completo"
         }
@@ -241,6 +263,14 @@
         "Viernes y Sábado": "11:00 - 01:00",
         "Domingo": "Cerrado"
       }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@hamburgueseria.py — mostramos nuestro trabajo todos los días",
+      "handle": "@hamburgueseria.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
     }
   },
   "footer": {

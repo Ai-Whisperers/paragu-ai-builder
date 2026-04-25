@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Asunción",
-    "address": "Av. Mcal. López 3456"
+    "address": "Av. Mcal. López 3456",
+    "coordinates": {
+      "lat": -25.286,
+      "lng": -57.58
+    },
+    "googleMapsId": "ChIJ8WqURTcRmZQR8WnU5T5j7tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-inmobiliaria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-inmobiliaria"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "inmobiliaria",
-  "demoWave": 3,
-  "demoCluster": "D Property",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-inmobiliaria",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-inmobiliaria"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-inmobiliaria",
+  "social": {
+    "facebook": "inmobiliariapy",
+    "instagram": "@inmobiliaria.asuncion.py"
+  }
 }

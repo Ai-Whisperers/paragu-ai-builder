@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Asunción",
-    "address": "Av. Santísimo Sacramento 123"
+    "address": "Av. Santísimo Sacramento 123",
+    "coordinates": {
+      "lat": -25.285,
+      "lng": -57.58
+    },
+    "googleMapsId": "ChIJ0WqWRTcRmZQR0WnW5T5j9tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-hamburgueseria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-hamburgueseria"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "hamburgueseria",
-  "demoWave": 3,
-  "demoCluster": "C E-commerce",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-hamburgueseria",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-hamburgueseria"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-hamburgueseria",
+  "social": {
+    "facebook": "hamburgueseriapy",
+    "instagram": "@hamburgueseria.py"
+  }
 }

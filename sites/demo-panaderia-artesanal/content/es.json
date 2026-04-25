@@ -12,9 +12,31 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Panaderia Artesanal Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Artisan Bakery",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Productos",
+        "path": "#menu"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Delivery",
+        "path": "#delivery"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -181,32 +203,32 @@
       "lightbox": true,
       "images": [
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
           "alt": "Pan francés",
-          "caption": "Pan francés artesanal"
+          "caption": "Pan artesanal"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1486427944544-d2c246c4e1d2?w=600",
           "alt": "Facturas",
           "caption": "Facturas variadas"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1555507036-ab1f40380243?w=600",
           "alt": "Chipa",
           "caption": "Chipa tradicional"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1549931319-a5457534672d?w=600",
           "alt": "Masa madre",
           "caption": "Pan de masa madre"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
           "alt": "Tortas",
           "caption": "Tortas caseras"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
           "alt": "Pan integral",
           "caption": "Pan integral con semillas"
         }
@@ -270,6 +292,14 @@
         "Lunes a Sábado": "06:00 - 20:00",
         "Domingo": "06:00 - 12:00"
       }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@panaderia.capiata.py — mostramos nuestro trabajo todos los días",
+      "handle": "@panaderia.capiata.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
     }
   },
   "footer": {

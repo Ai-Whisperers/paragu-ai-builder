@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Asunción",
-    "address": "Eusebio Ayala 2345"
+    "address": "Eusebio Ayala 2345",
+    "coordinates": {
+      "lat": -25.282,
+      "lng": -57.633
+    },
+    "googleMapsId": "ChIJ6WqSRTcRmZQR6WnS5T5j5tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-contador-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-contador"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "contador",
-  "demoWave": 2,
-  "demoCluster": "B B2B",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-contador",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-contador"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-contador",
+  "social": {
+    "linkedin": "estudio-contable-asuncion",
+    "instagram": "@contador.asuncion.py"
+  }
 }

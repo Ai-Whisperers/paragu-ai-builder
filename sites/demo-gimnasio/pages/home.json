@@ -19,6 +19,11 @@
       "content": "home.promoBanner"
     },
     {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
       "id": "services",
       "variant": "grid",
       "content": "home.services"

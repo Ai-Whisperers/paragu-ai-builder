@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Encarnación",
-    "address": "Av. Caballero 345"
+    "address": "Av. Caballero 345",
+    "coordinates": {
+      "lat": -27.3467,
+      "lng": -55.8667
+    },
+    "googleMapsId": "ChIJ2WqORTcRmZQR2WnO5T5j1tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-farmacia-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-farmacia"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "farmacia",
-  "demoWave": 3,
-  "demoCluster": "K Health",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-farmacia",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-farmacia"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-farmacia",
+  "social": {
+    "facebook": "farmaciaencarnacion",
+    "instagram": "@farmacia.encarnacion.py"
+  }
 }

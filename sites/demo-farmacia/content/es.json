@@ -12,9 +12,27 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Farmacia Encarnacion",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Farmacia",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -153,6 +171,27 @@
         "Sábado": "08:00 - 20:00",
         "Domingo": "09:00 - 13:00"
       }
+    },
+    "testimonials": {
+      "title": "Opiniones de clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Marta R.",
+          "text": "Excelente atención y precios. Siempre compro aquí.",
+          "rating": 5
+        },
+        {
+          "name": "José L.",
+          "text": "La mejor farmacia de Encarnación. Delivery rápido.",
+          "rating": 5
+        },
+        {
+          "name": "Andrea F.",
+          "text": "Tienen de todo y el personal es muy amable.",
+          "rating": 5
+        }
+      ]
     }
   },
   "footer": {
