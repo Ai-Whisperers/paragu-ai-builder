@@ -123,6 +123,7 @@
   "/api/webhooks/pagopar/route": "/api/webhooks/pagopar",
   "/api/webhooks/resend/route": "/api/webhooks/resend",
   "/api/whatsapp-webhook/route": "/api/whatsapp-webhook",
+  "/api/whatsapp/catalog/route": "/api/whatsapp/catalog",
   "/api/whatsapp/connect/route": "/api/whatsapp/connect",
   "/auth/callback/page": "/auth/callback",
   "/blog/[slug]/page": "/blog/[slug]",
