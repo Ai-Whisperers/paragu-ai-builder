@@ -8,9 +8,9 @@ import { waLink } from '@/lib/landing/marketing-data'
 
 const NAV_LINKS = [
   { href: '/casos', label: 'Casos' },
+  { href: '/previews', label: 'Previews' },
   { href: '/p', label: 'Plantillas' },
   { href: '/precios', label: 'Precios' },
-  { href: '/comparacion', label: 'Comparación' },
   { href: '/demo', label: 'Demo' },
 ] as const
 
