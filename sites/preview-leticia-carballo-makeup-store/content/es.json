@@ -1,0 +1,54 @@
+{
+  "_meta": { "translationQuality": "human", "author": "enrich-batch", "lastReviewed": "2026-04-25" },
+  "siteName": "Leticia Carballo Makeup & Store",
+  "tagline": "Maquillaje profesional para toda ocasión",
+  "placeholders": { "businessName": "Leticia Carballo Makeup & Store", "city": "Fernando de la Mora", "year": 2026 },
+  "navigation": { "businessName": "Maquillaje Profesional", "navItems": [
+    { "label": "Inicio", "path": "" },
+    { "label": "Servicios", "path": "#servicios" },
+    { "label": "Contacto", "path": "#contacto" }
+  ], "ctaText": "Reservar turno", "ctaHref": "#reservar" },
+  "home": {
+    "seo": { "title": "Leticia Carballo Makeup & Store - Maquillaje Social y Novias", "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Fernando de la Mora." },
+    "hero": { "headline": "Resaltá tu belleza natural", "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Fernando de la Mora", "ctaPrimaryText": "Reservá tu fecha", "ctaSecondaryText": "Ver trabajos" },
+    "promoBanner": { "title": "Promoción de Lanzamiento", "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis", "ctaText": "Reservar ahora", "variant": "standard", "dismissible": true },
+    "services": { "eyebrow": "Servicios", "title": "Maquillaje para cada momento", "items": [
+      { "name": "Maquillaje Social", "description": "Maquillaje natural y moderno para el día a día y eventos", "price": "Gs. 120.000", "icon": "Sparkles", "duration": 45, "category": "Social" },
+      { "name": "Maquillaje Novias", "description": "Maquillaje profesional para tu gran día. Incluye prueba + sesión", "price": "Gs. 350.000", "icon": "Heart", "duration": 90, "category": "Novias" },
+      { "name": "Maquillaje Quinceañeras", "description": "Look espectacular para tus 15 años", "price": "Gs. 250.000", "icon": "Star", "duration": 60, "category": "Eventos" },
+      { "name": "Maquillaje Artístico", "description": "Maquillaje creativo para sesiones de fotos y producciones", "price": "Gs. 200.000", "icon": "Palette", "duration": 60, "category": "Artístico" },
+      { "name": "Clase de Maquillaje", "description": "Aprendé a maquillarte. Técnicas profesionales para tu día a día", "price": "Gs. 150.000", "icon": "BookOpen", "duration": 90, "category": "Clases" },
+      { "name": "Maquillaje a domicilio", "description": "Te maquillamos en la comodidad de tu hogar", "price": "Gs. 180.000", "icon": "Home", "duration": 60, "category": "Domicilio" }
+    ] },
+    "trustBadges": { "items": ["Productos hipoalergénicos", "5 años de experiencia", "Maquillaje a prueba de agua", "Tendencia y calidad"] },
+    "gallery": { "title": "Nuestros trabajos", "subtitle": "Looks reales de nuestras clientas", "columns": 3, "images": [
+      { "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600", "alt": "Maquillaje social", "caption": "Maquillaje social natural" },
+      { "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600", "alt": "Maquillaje novia", "caption": "Maquillaje para novia" },
+      { "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600", "alt": "Maquillaje artístico", "caption": "Maquillaje artístico" }
+    ] },
+    "testimonials": { "title": "Lo que dicen nuestras clientas", "columns": 2, "items": [
+      { "name": "María C.", "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto.", "rating": 5 },
+      { "name": "Julia A.", "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado.", "rating": 5 },
+      { "name": "Camila L.", "text": "Los productos que usan son de primera calidad y se nota en el resultado.", "rating": 5 }
+    ] },
+    "booking": { "title": "Reservá tu turno", "subtitle": "Elegí el servicio que necesitás", "services": [
+      { "name": "Maquillaje social", "duration": 45, "category": "Social" },
+      { "name": "Maquillaje novias", "duration": 90, "category": "Novias" },
+      { "name": "Maquillaje quinceañera", "duration": 60, "category": "Eventos" },
+      { "name": "Clase de maquillaje", "duration": 90, "category": "Clases" },
+      { "name": "Maquillaje a domicilio", "duration": 60, "category": "Domicilio" }
+    ] },
+    "faq": { "title": "Preguntas frecuentes", "items": [
+      { "question": "¿Cuánto dura el maquillaje?", "answer": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques." },
+      { "question": "¿Hacen prueba de maquillaje?", "answer": "Sí, para novias incluimos una sesión de prueba sin costo adicional." },
+      { "question": "¿Usan productos hipoalergénicos?", "answer": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles." },
+      { "question": "¿Cuánto antes debo reservar?", "answer": "Recomendamos al menos 2 semanas de anticipación para eventos especiales." }
+    ] },
+    "hours": { "title": "Horarios", "schedules": {
+      "Lunes a Viernes": "10:00 - 19:00",
+      "Sábado": "10:00 - 17:00"
+    } }
+  },
+  "footer": { "businessName": "Leticia Carballo Makeup & Store", "copyright": "© {{year}} Leticia Carballo Makeup & Store", "disclaimer": "Esta es una demostración." },
+  "whatsapp": { "defaultMessage": "Hola, vi el de Maquillaje y me interesa un sitio para mi negocio" }
+}

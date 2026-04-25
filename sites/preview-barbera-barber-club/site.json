@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "barberia",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "03757 46-5921",
+    "email": "info@barberiasanlorenzo.com.py",
+    "instagram": "@barberia.sanlorenzo.py",
+    "phone": "03757 46-5921"
+  },
+  "location": {
+    "city": "Puerto Iguazú",
+    "address": "Av. Nestor Kirchner N° 29, N3370 Puerto Iguazú, Misiones, Argentina",
+    "coordinates": {
+      "lat": -25.6195625,
+      "lng": -54.5767859
+    },
+    "googleMapsId": "ChIJ8UqKRTcRmZQR8WjK5T5j7tZ"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-barberia-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-barberia"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-barbera-barber-club",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-barbera-barber-club",
+  "social": {
+    "facebook": "barberiasanlorenzo",
+    "tiktok": "@barberiasanlorenzo",
+    "instagram": "@barberia.sanlorenzo.py"
+  },
+  "preview": true,
+  "previewLeadId": "c4cbbf12-3793-4cd8-ba62-b7c64a80fc15",
+  "createdAt": "2026-04-25T04:08:08.850Z"
+}

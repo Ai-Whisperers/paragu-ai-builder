@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "peluqueria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0986 506223",
+    "email": "contacto@peluqueriacentro.com.py",
+    "instagram": "@peluqueria.centro.py",
+    "phone": "0986 506223"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "MCW8+FH2, Cruz del Defensor, Asunción 001414, Paraguay",
+    "coordinates": {
+      "lat": -25.3038706,
+      "lng": -57.58362320000001
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-peluqueria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-peluqueria"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-vita-chic",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-vita-chic",
+  "social": {
+    "facebook": "peluqueriacentropy",
+    "tiktok": "@peluqueriacentro",
+    "instagram": "@peluqueria.centro.py"
+  },
+  "preview": true,
+  "previewLeadId": "996c5cca-4af9-4e30-8cdd-80218b5a1742",
+  "createdAt": "2026-04-25T04:08:08.857Z"
+}

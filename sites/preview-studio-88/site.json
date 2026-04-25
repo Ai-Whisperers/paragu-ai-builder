@@ -1,0 +1,59 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "spa",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0981 555597",
+    "email": "contacto@demospa.com.py",
+    "instagram": "@demo.spa.py",
+    "phone": "0981 555597"
+  },
+  "location": {
+    "city": "San Lorenzo",
+    "address": "Gaspar R De Francia, San Lorenzo 111423, Paraguay",
+    "coordinates": {
+      "lat": -25.3414343,
+      "lng": -57.5079174
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-spa"
+      }
+    },
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-spa-form"
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "spa",
+  "demoWave": 1,
+  "demoCluster": "Bienestar",
+  "noindex": true,
+  "createdAt": "2026-04-25T04:08:08.856Z",
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-studio-88",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-studio-88",
+  "social": {
+    "facebook": "demospaasuncion",
+    "tiktok": "@demo.spa.py",
+    "instagram": "@demo.spa.py"
+  },
+  "preview": true,
+  "previewLeadId": "6acca091-bc60-4442-b614-f60639cf426d"
+}

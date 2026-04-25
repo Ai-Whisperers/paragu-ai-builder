@@ -1,0 +1,53 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "peluqueria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "(021) 728 9325",
+    "email": "contacto@peluqueriacentro.com.py",
+    "instagram": "@peluqueria.centro.py",
+    "phone": "(021) 728 9325"
+  },
+  "location": {
+    "city": "Itauguá",
+    "address": "JJ2V+J5X Estacionamiento, Itauguá 110611, Paraguay",
+    "coordinates": {
+      "lat": -25.3983893,
+      "lng": -57.357028
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-peluqueria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-peluqueria"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-hipermercado-luisito-itaugu",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-hipermercado-luisito-itaugu",
+  "social": {
+    "facebook": "peluqueriacentropy",
+    "tiktok": "@peluqueriacentro",
+    "instagram": "@peluqueria.centro.py"
+  },
+  "preview": true,
+  "previewLeadId": "fb8cbd04-661a-492b-b704-07bd415befe2",
+  "createdAt": "2026-04-25T04:08:08.774Z"
+}

@@ -1,0 +1,276 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Peluqueria Asunción",
+  "tagline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+  "placeholders": {
+    "businessName": "Peluqueria Asunción",
+    "city": "San Bernardino",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Peluqueria",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Peluqueria Asunción - Peluqueria en San Bernardino | Servicios y Precios",
+      "description": "Cortes, coloracion y tratamientos en San Bernardino. Reserva tu cita online. Precios desde Consultar."
+    },
+    "hero": {
+      "headline": "Tu estilo, nuestra pasión",
+      "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Bernardino",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Conocé nuestros servicios"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos en el centro de San Bernardino",
+      "address": "Palma 550 c/ 15 de Agosto",
+      "city": "San Bernardino",
+      "phone": "+595981654321",
+      "email": "contacto@peluqueriacentro.com.py",
+      "whatsapp": "+595981654321"
+    },
+    "promoBanner": {
+      "title": "🎉 Promoción de Lanzamiento",
+      "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo lo que necesitás para lucir espectacular",
+      "items": [
+        {
+          "name": "Corte de Cabello",
+          "description": "Corte moderno y personalizado para damas y caballeros",
+          "price": "Gs. 60.000",
+          "icon": "Scissors"
+        },
+        {
+          "name": "Coloración",
+          "description": "Tintura, mechas, balayage y reflejos con productos profesionales",
+          "price": "Gs. 150.000",
+          "icon": "Palette"
+        },
+        {
+          "name": "Tratamientos Capilares",
+          "description": "Botox capilar, keratina, hidratación profunda y reconstrucción",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Peinados",
+          "description": "Peinados para eventos, fiestas, bodas y ocasiones especiales",
+          "price": "Gs. 80.000",
+          "icon": "Feather"
+        },
+        {
+          "name": "Manicura y Pedicura",
+          "description": "Cuidado profesional de uñas con esmaltado tradicional o semipermanente",
+          "price": "Gs. 70.000",
+          "icon": "Hand"
+        },
+        {
+          "name": "Cepillado y Alisado",
+          "description": "Cepillado con keratina, alisado permanente y planchita",
+          "price": "Gs. 90.000",
+          "icon": "Wind"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos profesionales",
+        "10 años de experiencia",
+        "Ambiente climatizado",
+        "Estacionamiento gratis",
+        "Resultados garantizados"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestros trabajos",
+      "subtitle": "Transformaciones reales de nuestros clientes",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
+          "alt": "Corte moderno",
+          "caption": "Corte y coloración"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
+          "alt": "Mechas balayage",
+          "caption": "Balayage dorado"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
+          "alt": "Peinado",
+          "caption": "Peinado para novia"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
+          "alt": "Botox capilar",
+          "caption": "Botox capilar"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
+          "alt": "Manicura",
+          "caption": "Manicura semipermanente"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
+          "alt": "Corte caballero",
+          "caption": "Corte degradado"
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Profesionales apasionados por tu belleza",
+      "items": [
+        {
+          "name": "María González",
+          "role": "Directora y Estilista Senior",
+          "description": "10 años de experiencia en cortes y coloración"
+        },
+        {
+          "name": "Carlos Benítez",
+          "role": "Barbero Profesional",
+          "description": "Especialista en cortes masculinos y degradados"
+        },
+        {
+          "name": "Ana Martínez",
+          "role": "Colorista",
+          "description": "Experta en balayage, mechas y tintura"
+        },
+        {
+          "name": "Laura Silva",
+          "role": "Manicurista",
+          "description": "Diseño de uñas y nail art"
+        },
+        {
+          "name": "Pedro Ramírez",
+          "role": "Estilista",
+          "description": "Peinados para eventos y ocasiones especiales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Sofía L.",
+          "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!",
+          "rating": 5
+        },
+        {
+          "name": "Marcos A.",
+          "text": "El mejor barbero de San Bernardino. Siempre salvo con el degradado perfecto.",
+          "rating": 5
+        },
+        {
+          "name": "Lucía R.",
+          "text": "Me hicieron un balayage espectacular. Volveré sin dudas.",
+          "rating": 5
+        },
+        {
+          "name": "Jorge P.",
+          "text": "Ambiente agradable, profesionales y precios accesibles. 10/10",
+          "rating": 4
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "services": [
+        { "name": "Corte de Cabello", "duration": 30, "category": "Corte" },
+        { "name": "Coloración completa", "duration": 90, "category": "Color" },
+        { "name": "Mechas y Balayage", "duration": 90, "category": "Color" },
+        { "name": "Tratamiento capilar", "duration": 45, "category": "Tratamiento" },
+        { "name": "Manicura semipermanente", "duration": 45, "category": "Uñas" },
+        { "name": "Peinado para eventos", "duration": 60, "category": "Peinado" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas de crédito?",
+          "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "question": "¿Cuánto dura un servicio de coloración?",
+          "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas."
+        },
+        {
+          "question": "¿Hacen peinados a domicilio?",
+          "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional."
+        },
+        {
+          "question": "¿Usan productos profesionales?",
+          "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado."
+        },
+        {
+          "question": "¿Cómo puedo reservar un turno?",
+          "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 20:00",
+        "Sábado": "09:00 - 18:00",
+        "Domingo": "Cerrado"
+      }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
+      "handle": "@peluqueria.centro.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
+    }
+  },
+  "footer": {
+    "businessName": "Peluqueria Asunción",
+    "copyright": "© {{year}} Peluqueria Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Peluqueria y me interesa un sitio para mi negocio"
+  }
+}
