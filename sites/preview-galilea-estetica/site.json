@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 681789",
+    "whatsapp": "+595 994 681789",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0994 681789"
+    "phone": "+595 994 681789"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "88987c3b-4ff5-4a6a-88cc-bdd6b92ce59c",
-  "createdAt": "2026-04-25T04:08:08.800Z"
+  "createdAt": "2026-04-25T04:08:08.800Z",
+  "google_maps_url": "https://maps.google.com/?cid=9709581609310070444",
+  "business_status": "OPERATIONAL"
 }

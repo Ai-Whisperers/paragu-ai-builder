@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 400632",
+    "whatsapp": "+595 981 400632",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasiovictorniella",
-    "phone": "0981 400632"
+    "phone": "+595 981 400632"
   },
   "location": {
     "city": "Lambaré",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "7faacef6-e0c3-4932-9721-ab11a7369072",
-  "createdAt": "2026-04-25T04:08:08.820Z"
+  "createdAt": "2026-04-25T04:08:08.820Z",
+  "google_maps_url": "https://maps.google.com/?cid=15582198587900990085",
+  "business_status": "OPERATIONAL"
 }

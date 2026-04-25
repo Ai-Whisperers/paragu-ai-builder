@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 490 074",
+    "whatsapp": "+595 21 490 074",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "(021) 490 074"
+    "phone": "+595 21 490 074"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "df0c2234-613b-42ab-9c21-ae9aa99c6d7e",
-  "createdAt": "2026-04-25T04:08:08.838Z"
+  "createdAt": "2026-04-25T04:08:08.838Z",
+  "google_maps_url": "https://maps.google.com/?cid=16747540562058215546",
+  "business_status": "OPERATIONAL"
 }

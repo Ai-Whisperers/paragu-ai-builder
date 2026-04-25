@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 905773",
+    "whatsapp": "+595 983 905773",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 905773"
+    "phone": "+595 983 905773"
   },
   "location": {
     "city": "Capiatá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "74103048-a595-4e7d-90cb-bc5a45ae181a",
-  "createdAt": "2026-04-25T04:08:08.867Z"
+  "createdAt": "2026-04-25T04:08:08.867Z",
+  "google_maps_url": "https://maps.google.com/?cid=9859655411402279937",
+  "business_status": "OPERATIONAL"
 }

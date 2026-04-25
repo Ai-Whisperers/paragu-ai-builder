@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 521527",
+    "whatsapp": "+595 981 521527",
     "email": "ventas@paragu-ai.com",
     "instagram": "@clinica.renuva",
-    "phone": "0981 521527"
+    "phone": "+595 981 521527"
   },
   "location": {
     "city": "Asunción",
@@ -32,5 +32,7 @@
   "preview": true,
   "previewLeadId": "2af37432-960b-4f01-8103-bcbbc23b5e51",
   "createdAt": "2026-04-25T04:08:08.823Z",
-  "is_demo": false
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=11547781399002133935",
+  "business_status": "OPERATIONAL"
 }

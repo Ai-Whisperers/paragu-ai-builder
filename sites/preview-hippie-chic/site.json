@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 195626",
+    "whatsapp": "+595 981 195626",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 195626"
+    "phone": "+595 981 195626"
   },
   "location": {
     "city": "San Lorenzo",
@@ -49,5 +49,8 @@
   },
   "preview": true,
   "previewLeadId": "9a2af4e5-8473-45d7-bd89-9fbfdb4b2795",
-  "createdAt": "2026-04-25T04:08:08.832Z"
+  "createdAt": "2026-04-25T04:08:08.832Z",
+  "website": "https://hippiechic.com.py/",
+  "google_maps_url": "https://maps.google.com/?cid=14104368144058393560",
+  "business_status": "OPERATIONAL"
 }

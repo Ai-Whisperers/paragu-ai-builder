@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 272328",
+    "whatsapp": "+595 982 272328",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0982 272328"
+    "phone": "+595 982 272328"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "f48045ab-9a60-4349-92bf-7d0d0386cf01",
-  "createdAt": "2026-04-25T04:08:08.855Z"
+  "createdAt": "2026-04-25T04:08:08.855Z",
+  "google_maps_url": "https://maps.google.com/?cid=12782200818079180279",
+  "business_status": "OPERATIONAL"
 }

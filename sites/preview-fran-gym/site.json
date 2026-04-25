@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 116619",
+    "whatsapp": "+595 982 116619",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0982 116619"
+    "phone": "+595 982 116619"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "349c9b1f-d4f5-4ccb-a30a-8e001cc76092",
-  "createdAt": "2026-04-25T04:08:08.890Z"
+  "createdAt": "2026-04-25T04:08:08.890Z",
+  "google_maps_url": "https://maps.google.com/?cid=9938922957936756486",
+  "business_status": "OPERATIONAL"
 }

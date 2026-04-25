@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 357778",
+    "whatsapp": "+595 982 357778",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0982 357778"
+    "phone": "+595 982 357778"
   },
   "location": {
     "city": "Luque",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "4e6853bc-851d-4e9d-8469-4c45eaae6f20"
+  "previewLeadId": "4e6853bc-851d-4e9d-8469-4c45eaae6f20",
+  "google_maps_url": "https://maps.google.com/?cid=12042638060722940679",
+  "business_status": "OPERATIONAL"
 }

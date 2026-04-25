@@ -113,24 +113,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Instalaciones modernas y equipadas",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
-          "alt": "Consultorio",
-          "caption": "Consultorio privado"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEFr64IclQvT4Rosic4Dkz-e1QVHOMwzGn9UgPtu2dw7O8w839zBa5O1ahxr7L1zvbYe_etOfNH3Jhf4yOiC0m3PdN8T929ppv-gGkGCWoBF5_WyE18NpHrwG3FbJmgKKlgC-idNPknk_3KE9fwwLDuN-zYj1lB3dzvS4db2CfJYKv7dVhOUP3gKJQwVwASL6il_jLkHn98Zl7phtRb_cTaR2uw38xkXXK3mUhQm74uUtHvLR3No37Hp5fojeH9Yx_EXzZvzHmTmkpLKcFa7cvDlYt85NFnG1yz2s7rLhG_fQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600",
-          "alt": "Equipo láser",
-          "caption": "Tecnología láser diode"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEL2_NUN_yPSrrDBnrzCsT4mMny-G3_bEcyalQn7fVess5QsYNojj1Yuyv7x_kGqjsQV0f36rJ8CjDa7Q23G9weFH3tF3RR_XlxmmjB2P9GGeZ2gCFpz06h2WRY600xdFld4hlkIsGZXuq4ga0IewK5LiaX1KZkBb56GElNrgkzqMZYIaVnVfUEtMLrNcrn58ldlnpFTGUUo__TnA9EFo-HziTj59ZzTB42VzCkvO_pbN64W-kmal4uVObIrevwk7LDqXLEz3_u2788D_QJrkXHY6SniXTlZB_466PemlPUc0tV7KtEFplORAEU8ZyOez-RFefv0aXj0BC_EKGtitJEFiYK_OHUxd2LUoxbtbaAogMzm8P6MUXl6ko2FTC7st-XLLI5HCKGsZA__DGPd1naBXwnLXjzB-Uwszmv5CGe-Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600",
-          "alt": "Tratamiento",
-          "caption": "Sesión de depilación"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHO50h5xump8CHz58GzJOla6zd-1M5M_uAKMct9zjODK4jQu6fNWXlyFHPu3zoZId8nhGT3rpap11_A7uGClMJIgw7Xi--JH-N5cUlPOXiki0a8pr6OW4FJxerrZeHYmBHoq52-S_y9hqqSPpovLZgtQix6jLLQADRJcBefGFXHow2eeUYVmNLRUMcZx8gXz9pmBJUMHZC6t_fIITIJchFUfQWgCHuAH07XYE6St4S_dMaNWDKqe0XVe501t9zXORgjKKV5jtvL6L1X2s4EcPrIC_INctWT2lGqxQRFmpmNgT-VU3mXS81sTzx5sYcWxkpb2tg7TaBkuAGC1jRBVzJ8SaHTeETs-5LJW-cDRqG2bXNNX9ZAS7W6OPmGKSOgTSLKJT5_CsIhINmRsS3LvS-qHpdpYQvyGwRGQ3HLbeE0jqw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEwqJJiJvZwzgHiAsNHAFqDNEEkdnrjf9HcIDgkOyxWn7Xvrcp5V6bG8PBvlIvRYOUGH_tl3kwmJZjwn5_YVUXX0Epvfv1MMSAYiSmh5f3KH4Ljaqr8pZ5ssm65B28UHeTMfkjf-srZFCQyLHVahGJ4E6FYZTYSCPfZmJKg_o7Q3MeDSJOpz9IZs3g5lrgwELCMg-y6lAdmYS_qkXVei8n56KCJT_dFdxqCsXbmxJi2ogkE8dXldUQUgYQs92yHmWXnVcus60w-DVFas8M9U-6mExKiS6ZXubcExI-9T6Ge5JiCb0rN_SUWfA6wTaodot4N7sD_3oASDRk7Z66Rvw5ll3K3WA4NjS2bV_fedXpYtHqImQPgrkbD_xcMquwQ3srdxc5hqTq7-kKt4rVvgzJWpWGKA8GCD3VqH5TbsDy1eQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEDc10rOleCQAio6b2xsLbv6hBpaT_xqdOl55qFWyz6JVncrb96qIGuecfUz_cF8JptjTWmxqW-uh2uLcG2Q1S1R0d9tAQc8ACF8LfsXTu6w9ECI8Q-i2jGxpqbSfAvl9DnEV9nwEj3tRc9WVp_8gphZlGO0VeG7SlHEkbdZpph9XLZvO51SDry4wYWyCSY_i-IwmY2IP6bpDjX3xdTkcJpITpTpyvoEkUBaLaj3EkWLG_HsrQ7y-OlWC4p8QLhrJyJiWNqGpYQbXL7hyulFF72KscmTEOyGoprpNdncU4X-w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFN-Z0cQdn4FrdHBuoGLDQNBEbJwL3Lp7ZJ6GBiyWkdGPmYqIhFl8wpWFfA_7qhUgvyFZIhk47w4wCprNqq6huNE3iuMpQob9faCqCFuHjg-JPercDtfG6R2tvZwreynPUmcbGx8rt72mpzMfUDo2vOSyIrwfBNL2K4JPEP7Z8CtrOwqpMB1hI5gg81He43SbPULhANhOdhNxg2yua46jmY1HRCvMqJCJPLI__aqXNHNDWZvpjc9PeJEFnEJoFQQz3NVmSSAIAbRDnp-KAm-NAIc5zMcbknz0xp5YTHxUWqOg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -232,8 +247,9 @@
       "Domingo": "Closed"
     },
     "contact": {
-      "phone": "(45) 3025-4100",
-      "city": "Asunción"
+      "phone": "+55 45 3025-4100",
+      "city": "Asunción",
+      "whatsapp": "+55 45 3025-4100"
     }
   },
   "footer": {

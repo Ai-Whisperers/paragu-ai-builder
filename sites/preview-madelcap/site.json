@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 754545",
+    "whatsapp": "+595 971 754545",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 754545"
+    "phone": "+595 971 754545"
   },
   "location": {
     "city": "Ñemby",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "8644ba86-71b7-45e8-9d3a-8066f3f13a3b",
-  "createdAt": "2026-04-25T04:08:08.849Z"
+  "createdAt": "2026-04-25T04:08:08.849Z",
+  "google_maps_url": "https://maps.google.com/?cid=7965721267699241644",
+  "business_status": "OPERATIONAL"
 }

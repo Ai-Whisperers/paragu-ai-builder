@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0976 545347",
+    "whatsapp": "+595 976 545347",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0976 545347"
+    "phone": "+595 976 545347"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "e3b9c44d-7aa4-426d-99dc-3848cd4b6158",
-  "createdAt": "2026-04-25T04:08:08.859Z"
+  "createdAt": "2026-04-25T04:08:08.859Z",
+  "google_maps_url": "https://maps.google.com/?cid=13612519650688807813",
+  "business_status": "OPERATIONAL"
 }

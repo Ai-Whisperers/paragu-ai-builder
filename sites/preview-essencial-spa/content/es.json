@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el barrio Villa Morra, Asunción",
       "address": "Av. Santa Teresa 1250 c/ San Martín",
       "city": "Luque",
-      "phone": "0982 338886",
+      "phone": "+595 982 338886",
       "email": "contacto@demospa.com.py",
-      "whatsapp": "+595981726354"
+      "whatsapp": "+595 982 338886"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
@@ -119,40 +119,29 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Un ambiente pensado para tu relajación",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
-          "alt": "Sala de masajes",
-          "caption": "Sala de masajes con aromaterapia"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEcuqeouhlzNaViAUQhmhy4wNbvBHhHSaXaroHraStKCFDCpgk4WgKVC-gO2r-7tbDpPZU8luTuElkM0Y-OlddTx85eTtHMMTiwhdX-8xLhRZVLXI8JmexKXQC3xduXKBlP9oYEoFKOIejLt-jMoXCfW9fF2geVcQLH4-z7lzTOCeVWFrbitlQzpqkuP_Srf2Djr47zLjGpMVwimFgcgEmstBwZcbgdllSTmDx8d5zQrosXgTJYxpQHjuYnMqfuEBgpXhJk4Uof5lpGKlY3RxeRRW8xGkYbKL027VFUEsfAriOvGGdvd3NqMlT0H3XZ3RCDqQVIPwVexN9C9qWbSnaFcQJHLyT2LGn6ZrYR6FCI3xOcgOKYFStF7qcSkGZcpLFHbb3C8FzGWNMOpYKEKSS_jCfMCYD6mn0ogkIRkTQmHQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
-          "alt": "Tratamiento facial",
-          "caption": "Limpieza facial profunda"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG0LDeaxTxUicubiuR09DCF_LjVkU6z4vsNtmUlxh42C0S1VtwppaiIlpJRYtPRIefUU1_crzf_I7a7GtoFY9J4EZbB8Ex5jiBLLb_sTVD2KfD5zJO67BnZ2DHpPAljhromqOsHjx-d4O6u-qghD9bXlsIWOQylORTL7t255KdSq_9ZrpeUA4mcR9g5R3XFxfBcbl8K7kasPOR4J991BbYMBpSRkkb-TUiviJS7kJXPUVkl08sFixPQ1vdY1j7R7o_eDWBVQeyK0y_pW3Z0l9M-QnafiA2uZpuV6JclYEIk1gzJdb01dHVhQLmSGhP0jmo3Dga9CVZapqzr-BphSzfQIOq3sMrP_f1OheyTNSwBP7818u2Hs7SmytpyN0StffTxmqw_0ldaoypbsy4Bb65gn4l4T34O6SFSyeQDY4gzloZh&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
-          "alt": "Velas y ambiente spa",
-          "caption": "Ambiente de relax"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGk1FAx3xj76tPn3XzQrhpGMN1myowZ-8dt_1ZACm8_trujuaQ8jCqk_iNsffLWDSMMQBJTw0F-0JC8Uk4oqlP98G5OCHv7NrH0KgMXKGxMXWbLVVb7F5K9mQPeXeIKqv9E_cJpDonRAB9if9OgMqS35UK-Sz2Q6CJSyhCfagiL3mzgcoLxa_fhQkrKaLcPnLcGaqX4m_82Z2Ufq-YTJnHX0GrBLUELfTcgDGvR-XvFLLxCfNaWH7SoeCflxcjZ-TS4ST57FlKBHTRkzdnzozcVDUp8mCicEN9rDmqaSToRGOLCDXeuTjXyFolKDMpQjoCRJN-2HI1T7jVQMNvQ-VT7MVV9MW1WjaaC4GO_dir38muUa8VA5DD7-Kvzr9fo6w68dcb-KFK7dswVdT7UD2KMHBHVnLs308WHDHlkGZb0HA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
-          "alt": "Masaje de espalda",
-          "caption": "Masaje descontracturante"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
-          "alt": "Tratamiento corporal",
-          "caption": "Envoltura detox"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
-          "alt": "Sauna",
-          "caption": "Sauna finlandesa"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF4817nGOQ0oo-yl_HY9tnJetLztcN7VsXF34W9c1bkkt7i0x4cnuVOrCeu8SEnwr_xsqbMICm--orRdFxMTUJnpYdJkSMtvEWtGrVtLXB8g47PWsnrAf68tciDFHJGZ8By4F5-tlLhUH-ng5Dl5mI2gaL49NVKlmFSB7YKt_yBqNzBAB1o1SoOI0PQLMktqbFy1RFaDGIgZ-K71Fh_nyUcBXvFhsJm8_f9WDO3RhcoN51T6JDiFqO3BIK0S7DupWeGWn91Pk-nWzPraGisFgwX4QWfo9_YLrKqy5CFhgqG6eHasIXGtG2unt6jMrJYGTDGYuHhXEh6T2rRj_QJwbSoeVL6oUJac99suumeXbWavVzNHfYpRmJ7VQKXpvyxbjQf7H6ukD37OP9t4sDpc7Nxi393Rhg8trUJ_E6LW-I&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
         }
       ]
     },

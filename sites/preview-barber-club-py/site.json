@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 888665",
+    "whatsapp": "+595 971 888665",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@thebarberclubpy",
-    "phone": "0971 888665"
+    "phone": "+595 971 888665"
   },
   "location": {
     "city": "Lambaré",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "362ddf00-e8e2-4847-8277-4526ad1d83a3",
-  "createdAt": "2026-04-25T04:08:08.891Z"
+  "createdAt": "2026-04-25T04:08:08.891Z",
+  "google_maps_url": "https://maps.google.com/?cid=16345705719610828437",
+  "business_status": "OPERATIONAL"
 }

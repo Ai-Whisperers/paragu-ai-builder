@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "03757 45-1896",
+    "whatsapp": "+54 3757 45-1896",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "03757 45-1896"
+    "phone": "+54 3757 45-1896"
   },
   "location": {
     "city": "Puerto Iguazú",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "3be0fe8a-2758-4c8f-a33c-1d05064dd5f2",
-  "createdAt": "2026-04-25T04:08:08.893Z"
+  "createdAt": "2026-04-25T04:08:08.893Z",
+  "google_maps_url": "https://maps.google.com/?cid=11036180149685626085",
+  "business_status": "OPERATIONAL"
 }

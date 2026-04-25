@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 338886",
+    "whatsapp": "+595 982 338886",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0982 338886"
+    "phone": "+595 982 338886"
   },
   "location": {
     "city": "Luque",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "a656bea6-dc63-4009-818a-4dfb46bec92b"
+  "previewLeadId": "a656bea6-dc63-4009-818a-4dfb46bec92b",
+  "google_maps_url": "https://maps.google.com/?cid=7653777304160970693",
+  "business_status": "OPERATIONAL"
 }

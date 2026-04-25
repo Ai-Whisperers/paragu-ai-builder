@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 857700",
+    "whatsapp": "+595 985 857700",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 857700"
+    "phone": "+595 985 857700"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "c52049b5-fb29-4ae5-a623-c1b519be8b87",
-  "createdAt": "2026-04-25T04:08:08.848Z"
+  "createdAt": "2026-04-25T04:08:08.848Z",
+  "google_maps_url": "https://maps.google.com/?cid=556955517361001291",
+  "business_status": "OPERATIONAL"
 }

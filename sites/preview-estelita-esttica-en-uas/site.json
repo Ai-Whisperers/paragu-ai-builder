@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0991 204913",
+    "whatsapp": "+595 991 204913",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0991 204913"
+    "phone": "+595 991 204913"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "e74f2ebb-82e7-4324-85b8-a695379eae48",
-  "createdAt": "2026-04-25T04:08:08.810Z"
+  "createdAt": "2026-04-25T04:08:08.810Z",
+  "google_maps_url": "https://maps.google.com/?cid=14620720557529725635",
+  "business_status": "OPERATIONAL"
 }

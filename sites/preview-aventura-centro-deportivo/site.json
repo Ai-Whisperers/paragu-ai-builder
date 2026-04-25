@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 500023",
+    "whatsapp": "+595 985 500023",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0985 500023"
+    "phone": "+595 985 500023"
   },
   "location": {
     "city": "Lambaré",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "f34323c2-a097-4b75-aa90-4603fabeeeb4",
-  "createdAt": "2026-04-25T04:08:08.815Z"
+  "createdAt": "2026-04-25T04:08:08.815Z",
+  "google_maps_url": "https://maps.google.com/?cid=11223341781116509498",
+  "business_status": "OPERATIONAL"
 }

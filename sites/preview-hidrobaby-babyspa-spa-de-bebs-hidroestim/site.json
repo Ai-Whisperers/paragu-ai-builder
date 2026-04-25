@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0993 444000",
+    "whatsapp": "+595 993 444000",
     "email": "contacto@demospa.com.py",
     "instagram": "@aguadulcebebes",
-    "phone": "0993 444000"
+    "phone": "+595 993 444000"
   },
   "location": {
     "city": "Asunción",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "96e3a6dc-28c4-48d9-8e27-70a6091303c6"
+  "previewLeadId": "96e3a6dc-28c4-48d9-8e27-70a6091303c6",
+  "google_maps_url": "https://maps.google.com/?cid=1525524535421847738",
+  "business_status": "OPERATIONAL"
 }

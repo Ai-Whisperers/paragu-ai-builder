@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "03757 46-5921",
+    "whatsapp": "+54 3757 46-5921",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberia.sanlorenzo.py",
-    "phone": "03757 46-5921"
+    "phone": "+54 3757 46-5921"
   },
   "location": {
     "city": "Puerto Iguazú",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "509ea18b-c04e-43ee-86a9-05fdaedab96a",
-  "createdAt": "2026-04-25T04:08:08.851Z"
+  "createdAt": "2026-04-25T04:08:08.851Z",
+  "google_maps_url": "https://maps.google.com/?cid=8901623658087506776",
+  "business_status": "OPERATIONAL"
 }

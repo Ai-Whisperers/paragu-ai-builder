@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 661271",
+    "whatsapp": "+595 986 661271",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0986 661271"
+    "phone": "+595 986 661271"
   },
   "location": {
     "city": "Atyrá",
@@ -49,5 +49,11 @@
   },
   "preview": true,
   "previewLeadId": "8562aa3f-64a5-4e58-becd-bf4df4dec3c4",
-  "createdAt": "2026-04-25T04:08:08.826Z"
+  "createdAt": "2026-04-25T04:08:08.826Z",
+  "google_maps_url": "https://maps.google.com/?cid=12260883049280344518",
+  "price_level": 1,
+  "seo": {
+    "priceRange": "$"
+  },
+  "business_status": "OPERATIONAL"
 }

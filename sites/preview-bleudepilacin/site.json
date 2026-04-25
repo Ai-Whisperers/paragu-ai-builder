@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 161733",
+    "whatsapp": "+595 971 161733",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 161733"
+    "phone": "+595 971 161733"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "3a865e52-b5e3-4a82-9d65-5ef29f0dda5f",
-  "createdAt": "2026-04-25T04:08:08.884Z"
+  "createdAt": "2026-04-25T04:08:08.884Z",
+  "google_maps_url": "https://maps.google.com/?cid=18115143589449709051",
+  "business_status": "OPERATIONAL"
 }

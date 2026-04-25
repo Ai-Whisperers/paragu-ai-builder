@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "9 4598 8898",
+    "whatsapp": "+56 9 4598 8898",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "9 4598 8898"
+    "phone": "+56 9 4598 8898"
   },
   "location": {
     "city": "Providencia",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "c1c3e4a1-9603-49a4-93cc-e86bf963e176",
-  "createdAt": "2026-04-25T04:08:08.806Z"
+  "createdAt": "2026-04-25T04:08:08.806Z",
+  "google_maps_url": "https://maps.google.com/?cid=11156223865358125737",
+  "business_status": "OPERATIONAL"
 }

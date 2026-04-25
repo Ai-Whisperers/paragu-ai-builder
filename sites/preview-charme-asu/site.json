@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 612 899",
+    "whatsapp": "+595 21 612 899",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(021) 612 899"
+    "phone": "+595 21 612 899"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "0a0cd786-484e-4c30-9b5c-aee6587a2834",
-  "createdAt": "2026-04-25T04:08:08.808Z"
+  "createdAt": "2026-04-25T04:08:08.808Z",
+  "google_maps_url": "https://maps.google.com/?cid=4725796778415548342",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 691115",
+    "whatsapp": "+595 986 691115",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0986 691115"
+    "phone": "+595 986 691115"
   },
   "location": {
     "city": "Itá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "3b4140fe-e696-4a5a-b2fa-902592145299",
-  "createdAt": "2026-04-25T04:08:08.801Z"
+  "createdAt": "2026-04-25T04:08:08.801Z",
+  "google_maps_url": "https://maps.google.com/?cid=5856201725392773846",
+  "business_status": "OPERATIONAL"
 }

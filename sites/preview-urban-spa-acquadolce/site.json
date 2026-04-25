@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0961 281515",
+    "whatsapp": "+595 961 281515",
     "email": "contacto@demospa.com.py",
     "instagram": "@acquadolcespa",
-    "phone": "0961 281515"
+    "phone": "+595 961 281515"
   },
   "location": {
     "city": "Asunción",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "234a92b4-d3cd-4101-9491-aab632a8087d"
+  "previewLeadId": "234a92b4-d3cd-4101-9491-aab632a8087d",
+  "google_maps_url": "https://maps.google.com/?cid=8318301802922384466",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 940571",
+    "whatsapp": "+595 983 940571",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 940571"
+    "phone": "+595 983 940571"
   },
   "location": {
     "city": "Piribebuy",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "7d7877d5-8cfc-4e69-8262-0e11938fe387",
-  "createdAt": "2026-04-25T04:08:08.874Z"
+  "createdAt": "2026-04-25T04:08:08.874Z",
+  "google_maps_url": "https://maps.google.com/?cid=3064456133843446894",
+  "business_status": "OPERATIONAL"
 }

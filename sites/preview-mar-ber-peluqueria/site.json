@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 921 827",
+    "whatsapp": "+595 21 921 827",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(021) 921 827"
+    "phone": "+595 21 921 827"
   },
   "location": {
     "city": "Lambaré",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "d60a0c9b-9fc5-43d9-87c4-b9c017a3ed09",
-  "createdAt": "2026-04-25T04:08:08.844Z"
+  "createdAt": "2026-04-25T04:08:08.844Z",
+  "google_maps_url": "https://maps.google.com/?cid=16770438961419916992",
+  "business_status": "OPERATIONAL"
 }

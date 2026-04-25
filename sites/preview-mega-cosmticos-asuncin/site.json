@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 477733",
+    "whatsapp": "+595 986 477733",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0986 477733"
+    "phone": "+595 986 477733"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "aa406cfe-6aaa-4f33-98e8-1dca01ff75dd",
-  "createdAt": "2026-04-25T04:08:08.789Z"
+  "createdAt": "2026-04-25T04:08:08.789Z",
+  "google_maps_url": "https://maps.google.com/?cid=3798205955766216123",
+  "business_status": "OPERATIONAL"
 }

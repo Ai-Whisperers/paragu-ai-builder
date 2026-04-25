@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 104489",
+    "whatsapp": "+595 983 104489",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 104489"
+    "phone": "+595 983 104489"
   },
   "location": {
     "city": "San Bernardino",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "cb7f41ba-9c64-42c2-a3d9-057427223191",
-  "createdAt": "2026-04-25T04:08:08.860Z"
+  "createdAt": "2026-04-25T04:08:08.860Z",
+  "google_maps_url": "https://maps.google.com/?cid=16899716625025622722",
+  "business_status": "OPERATIONAL"
 }

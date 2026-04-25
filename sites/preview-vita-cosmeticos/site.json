@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 590 730",
+    "whatsapp": "+595 21 590 730",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(021) 590 730"
+    "phone": "+595 21 590 730"
   },
   "location": {
     "city": "San Lorenzo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "ba0705a2-e811-4023-b2b3-4ec2d0181548",
-  "createdAt": "2026-04-25T04:08:08.799Z"
+  "createdAt": "2026-04-25T04:08:08.799Z",
+  "google_maps_url": "https://maps.google.com/?cid=4291096972182026003",
+  "business_status": "OPERATIONAL"
 }

@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Ayolas",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Ayolas",
-      "phone": "(072) 222 624",
+      "phone": "+595 72 222 624",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 72 222 624"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHE1YSAco5BoKfpG08ypJsAN1puoCY2cS3hQiEEQDcrJzSfCUlZW3wUdasbA3la9tA-wYPKjr8CYzwce9XJ2kiSelGDGUgNPVLBP1a5RM-fNL0l-t3veE0Fd4mIllRyx1Qvguivhn8_zjCoHf0xNmDU91mHcP9q_mWbEyoNO9Y7UR2boPgsPri5iL-UKMX2fiQpalBASYWVmTW3U64qPjz9m3N2UowDn_vZIsuknR2TS-z86t-CofIwUIrwSYdvkE0s4X6PnMqD2DgIBW-m_9S7Q1lWHchbf0cjXVqs074_KYbrpJMpUn_d49lJUKwNG-lvHV-nZkHM3icWXG4emQNxVdj6ucK_atl7Zdjl5ilIeIL-_vK0QNEh8i2_gmXi1n3fnx9i_3-6Ia04c4eba9Fuxh7zCd2GJv03FKhSdNXWyw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF8dQap_F4uOkQBpPwgotuOMBaQ3RLHBgnHIktGRXIHmBt0sJmB3trZ-3UwWmccb4ZwubpsM4iYjcReKQNqy09B0M09YdstZHxIqhRwILylLNyO8B6VAcA8wFpz_WnRhAu3b4KwD1JMZX5cEKxql-Bd5kYZVfOMhPMWTP-OdfSwMY445UG7K3Dia4iszK8N_6Esvc2GtzB1EhRVrxEIqEvusbYS-J28CMbE_rmM7lYjWZduYq8uLhTCG_MuymiU7ljINlnsMdmXSLEw3McnO9PoKY0metUmRKOu8Pl2l7lo-nxA2sUZKFe2cgzCnQJiABi5E8yzvCc6EnrkdI_OAcB5L-P6uIXguEL2EeJUsa_X0UQqVICiePU3oM734AC5bS1mWnEey5lTE2uvbZm0z7Z2Ybg58OSRkPh2c7cZ49UUAj9l&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMrfMWk-UPNMw4wDI0HWVMtUIf029Lus4FMwsWUvbkqDYI6KkiOOla4aSosBUP3muxQWS2Idc1t3U8LS41txoOru_WK54ba5BttCxdqhomz9z3pO4d5UJTZtd8n1aEInMqwSit_jX5tIBWTAewKPWSqOQL7kmyffOiBmXZluFFkUGOUVCODlKDCLAOREdtZSRptXSqrCgT1Ohb_DOyvMYDOYRypG6VW9NjgZQHAYJAn5e4fI181ikzNMEgk5dM8h91HT36nDkCdvwtjcoXLUPnjWtlx-Fp9OO1WjlO600p8cxkAg0ZO8No8Je9603kYp_q1mq0bPeL9nwjtE2N6QItrVvDNLFXF3D5XoEIetYtXZJGCo2RCCy3Oigk84AdmiJyYYaShDTSWXPNCf-TUwh94XPow8NHdj7G7h9HtCDufA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG15Gjj6E_h9in8AKBJ8o9C8bIZVc01rXhI1ffjbtRExiD0M_XD6EfwuRrVmSCs8yqHsX8lRbi6iEjrib8IpoHW7Hd3hP6X749ct2kjFlL-Y4EhVmb-RAdT5wq7f4gJCMKqqTIXKm7ES5_VoehP8z468hr_13Ml3u9BHjUSCMNJxsFzG_Xr3FHSXBCLPDOW-QAriSDOA2z4k8aauu6T6rrwVpYrLkHIgF2u60h-vxEyFHWWcOQI8G0xJpusuvo8JWBE-bsirroWItB6opi6MZHim88ANvksq66suGbPzJpVu2IKwBDJhxogItEJsYoqBHrgKa68yw2MrROx06k2lgRKR0WbBzHY1HQSaoNOYSS_gRWRewG37GLkfoLkrPyZV-2EZqD0lwfDtgkamXwa0L0BttEwC0-prHjVIo98JGNqEcqo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFrr9kIsuchfXdFsPsdkrJPLs2aQFlYd5ei-Y_tj0SIbLwoWhPmsIANobEPECZE5S-K6BhUbUKFOdljQ7RTETedlqc6GCfYuuG0vmkcVYFtFEMLOoZQKOZ6oOm9zBJHObDtfN12YBRRpQuSeGGEQlTsBXiac1ZozR6XfKVJ8jQg0BK43srwxkgjiAWOGSVvpEXMG_LAASYiJVM5yDYogNFVoSg-uZjYMAjZ6qc3mFu3MKx3wM7QnrYpSUW9qgTPp0gfN3QxvO5OcHbYaBzNo-HbParj_glg-IfcWckw_Iuo2Ku3NlFyP__ubyXxd3YVyjzZOEJL-WLBr3r7ILvYMjWZKnj8ga6RCbUaTuA3TcQ5uJuPTdSU0fWfMU6Ca1unpvfw9Utfj3C6eqwsETmKzqnqed4mRilMXOB3D7Ck_KVVJZB6&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEG6GQ1F23sqB9xK3bJHOHXtRn6HZVz04boII490mdulI6_iR8GmF13J_44Qc8uCAodcbNMCX8D-rjkwTEHFNjier8hO3lOrhTyIzWsadLQBYOgutZZoiQ70JMXakiO7PeUuhifEze8aRDYS3VIYjqfzSPvMm9xtN1G3mp2uZFJuNCg9dloy2lMO7EkUlBcDJhZm8A3EDskMxh8j8Q-w0GME7z4shzBRmloARQ2Es6pY8cf5TL-NVdb1qBOR3h3EbwqVXP1Bz5FCZTBtrVbt8pqPG0w4_NSqSwaoHX2Df28nNK0W7n7TzUCE9_EJDq1ZxsbLi1Nk6c90tteuTxJQyhBxfBNF4BylzCYvNxR8ffgJgmSDhIDHFGEOFQUmnXoWJxNIWurrbh_sP4v2gFYb3qxKduCkPVt4-42tauZ3Lr9OME&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },

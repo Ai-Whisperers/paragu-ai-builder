@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0972 651474",
+    "whatsapp": "+595 972 651474",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0972 651474"
+    "phone": "+595 972 651474"
   },
   "location": {
     "city": "Piribebuy",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "122acb10-e472-4c48-b071-5f4ee788f40f",
-  "createdAt": "2026-04-25T04:08:08.796Z"
+  "createdAt": "2026-04-25T04:08:08.796Z",
+  "google_maps_url": "https://maps.google.com/?cid=61317240187585486",
+  "business_status": "OPERATIONAL"
 }

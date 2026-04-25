@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 728 9325",
+    "whatsapp": "+595 21 728 9325",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(021) 728 9325"
+    "phone": "+595 21 728 9325"
   },
   "location": {
     "city": "Itauguá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "fb8cbd04-661a-492b-b704-07bd415befe2",
-  "createdAt": "2026-04-25T04:08:08.774Z"
+  "createdAt": "2026-04-25T04:08:08.774Z",
+  "google_maps_url": "https://maps.google.com/?cid=15000693536542578511",
+  "business_status": "OPERATIONAL"
 }
