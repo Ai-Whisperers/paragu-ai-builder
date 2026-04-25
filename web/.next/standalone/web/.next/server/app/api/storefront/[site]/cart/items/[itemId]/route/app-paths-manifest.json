@@ -1,3 +1,0 @@
-{
-  "/api/storefront/[site]/cart/items/[itemId]/route": "app/api/storefront/[site]/cart/items/[itemId]/route.js"
-}

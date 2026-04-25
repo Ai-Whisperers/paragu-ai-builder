@@ -1,3 +1,0 @@
-{
-  "/api/tenant/[businessId]/settings/route": "app/api/tenant/[businessId]/settings/route.js"
-}
