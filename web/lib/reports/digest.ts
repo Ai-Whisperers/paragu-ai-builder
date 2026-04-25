@@ -3,12 +3,19 @@
  * to business owners via WhatsApp (Evolution API).
  */
 
-import { createClient } from '@supabase/supabase-js'
+import { createClient, SupabaseClient } from '@supabase/supabase-js'
 import { sendText } from '@/lib/integrations/whatsapp/evolution'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || ''
-const supabase = createClient(supabaseUrl, supabaseKey)
+let _supabase: SupabaseClient | null = null
+function getDb(): SupabaseClient {
+  if (!_supabase) {
+    _supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!,
+    )
+  }
+  return _supabase
+}
 
 interface BusinessInfo {
   id: string
@@ -30,8 +37,8 @@ async function getBusinessesWithWA(): Promise<BusinessInfo[]> {
 async function getDailyStats(businessId: string) {
   const today = new Date().toISOString().split('T')[0]
   const [bookings, orders] = await Promise.all([
-    supabase.from('bookings').select('id, customer_name, booking_time, status').eq('business_id', businessId).eq('booking_date', today),
-    supabase.from('orders').select('id, total_cents, status').eq('business_id', businessId).gte('created_at', today),
+    getDb().from('bookings').select('id, customer_name, booking_time, status').eq('business_id', businessId).eq('booking_date', today),
+    getDb().from('orders').select('id, total_cents, status').eq('business_id', businessId).gte('created_at', today),
   ])
   return {
     bookings: bookings.data || [],
@@ -48,8 +55,8 @@ async function getWeeklyStats(businessId: string) {
   const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0]
   const today = new Date().toISOString().split('T')[0]
   const [bookings, orders] = await Promise.all([
-    supabase.from('bookings').select('id, status').eq('business_id', businessId).gte('booking_date', weekAgo).lte('booking_date', today),
-    supabase.from('orders').select('id, total_cents, status').eq('business_id', businessId).gte('created_at', weekAgo),
+    getDb().from('bookings').select('id, status').eq('business_id', businessId).gte('booking_date', weekAgo).lte('booking_date', today),
+    getDb().from('orders').select('id, total_cents, status').eq('business_id', businessId).gte('created_at', weekAgo),
   ])
   return {
     totalBookings: bookings.data?.length || 0,
@@ -65,8 +72,8 @@ async function getMonthlyStats(businessId: string) {
   const monthAgo = new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0]
   const today = new Date().toISOString().split('T')[0]
   const [bookings, orders] = await Promise.all([
-    supabase.from('bookings').select('id, status').eq('business_id', businessId).gte('booking_date', monthAgo).lte('booking_date', today),
-    supabase.from('orders').select('id, total_cents, status').eq('business_id', businessId).gte('created_at', monthAgo),
+    getDb().from('bookings').select('id, status').eq('business_id', businessId).gte('booking_date', monthAgo).lte('booking_date', today),
+    getDb().from('orders').select('id, total_cents, status').eq('business_id', businessId).gte('created_at', monthAgo),
   ])
   const monthBookings = bookings.data || []
   return {
