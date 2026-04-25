@@ -6,6 +6,19 @@ import json, os, time, urllib.request, urllib.parse, re
 API_KEY = "AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI"
 SITES_DIR = os.path.join(os.path.dirname(__file__), '../..', 'sites')
 
+# Spanish text detection
+SPANISH_CHARS = re.compile(r'[ñáéíóúü¿¡]', re.IGNORECASE)
+ENGLISH_WORDS = {'the','and','for','was','are','had','has','not','but','this','that','with','from','they','have','been','were','would','could','should','their','there','which','when','what','after','before','great','service','place','very','good','nice','love','best','ever','get','got','first','time','back','here','them','some','just','also','than','then','only','way','been','said','its','over','such','year','into'}
+
+def is_spanish(text):
+    if not text: return False
+    if SPANISH_CHARS.search(text): return True
+    words = set(re.findall(r'\b[a-záéíóúüñ]+\b', text.lower()))
+    english_count = sum(1 for w in words if w in ENGLISH_WORDS)
+    total = len(words)
+    if total == 0: return False
+    return english_count / total < 0.3
+
 PHOTO_FIELDS = "name,rating,user_ratings_total,reviews,formatted_address,international_phone_number,opening_hours,website,price_level,url,vicinity,business_status,photos"
 
 def api_get(url):
@@ -35,8 +48,10 @@ def update_preview(slug, details):
     home = content.get('home', {})
     changed = False
     
-    # 1. REAL REVIEWS
-    real_reviews = details.get('reviews', [])[:5]
+    # 1. REAL REVIEWS — FILTER TO SPANISH ONLY
+    all_reviews = details.get('reviews', [])
+    spanish_reviews = [r for r in all_reviews if is_spanish(r.get('text', ''))]
+    real_reviews = (spanish_reviews if spanish_reviews else all_reviews)[:5]
     if real_reviews:
         items = []
         for r in real_reviews:
