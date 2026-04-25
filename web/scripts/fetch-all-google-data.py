@@ -48,6 +48,14 @@ def update_preview(slug, details):
     home = content.get('home', {})
     changed = False
     
+    # 0. FIX FAQ FIELDS — content uses q/a, not question/answer
+    faq_items = home.get('faq', {}).get('items', [])
+    for faq in faq_items:
+        if 'question' in faq and 'q' not in faq:
+            faq['q'] = faq.pop('question')
+        if 'answer' in faq and 'a' not in faq:
+            faq['a'] = faq.pop('answer')
+    
     # 1. REAL REVIEWS — FILTER TO SPANISH ONLY, SKIP IF NONE
     all_reviews = details.get('reviews', [])
     spanish_reviews = [r for r in all_reviews if is_spanish(r.get('text', ''))]
