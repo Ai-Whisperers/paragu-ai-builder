@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { DEMO_PHONE } from '@/lib/constants'
 
 interface Props {
   businessId: string
@@ -85,7 +86,7 @@ export function SubscriptionLinkGenerator(props: Props) {
           <input
             name="payerPhone"
             defaultValue={props.defaultPhone}
-            placeholder="+595 9XX XXX XXX"
+            placeholder={DEMO_PHONE}
             className="block w-full rounded border border-[color:var(--border,#e5e7eb)] bg-white px-3 py-2 text-sm"
           />
         </label>

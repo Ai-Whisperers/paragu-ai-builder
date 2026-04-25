@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { DEMO_PHONE, DEMO_WHATSAPP } from '@/lib/constants'
 
 const ALL_SECTIONS = [
   { id: 'hero', label: 'Hero principal', default: true },
@@ -135,8 +136,8 @@ export function OnboardingWizard({
 
               <Field label="Nombre del negocio" value={form.name} onChange={(v) => setForm({ ...form, name: v })} />
               <div className="grid grid-cols-2 gap-3">
-                <Field label="Teléfono" value={form.phone} onChange={(v) => setForm({ ...form, phone: v })} placeholder="+595 9XX XXX XXX" />
-                <Field label="WhatsApp" value={form.whatsapp} onChange={(v) => setForm({ ...form, whatsapp: v })} placeholder="+595 9XX XXX XXX" />
+                <Field label="Teléfono" value={form.phone} onChange={(v) => setForm({ ...form, phone: v })} placeholder={DEMO_PHONE} />
+                <Field label="WhatsApp" value={form.whatsapp} onChange={(v) => setForm({ ...form, whatsapp: v })} placeholder={DEMO_WHATSAPP} />
               </div>
               <Field label="Email" value={form.email} onChange={(v) => setForm({ ...form, email: v })} type="email" />
               <Field label="Dirección" value={form.address} onChange={(v) => setForm({ ...form, address: v })} />

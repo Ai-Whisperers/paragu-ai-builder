@@ -165,6 +165,9 @@ export const env = {
   BANCARD_PUBLIC_KEY: optionalEnvOrUndefined('BANCARD_PUBLIC_KEY'),
   BANCARD_PRIVATE_KEY: optionalEnvOrUndefined('BANCARD_PRIVATE_KEY'),
   BANCARD_ENVIRONMENT: optionalEnv('BANCARD_ENVIRONMENT', 'sandbox'),
+  MERCADOPAGO_PUBLIC_KEY: optionalEnvOrUndefined('MERCADOPAGO_PUBLIC_KEY'),
+  MERCADOPAGO_ACCESS_TOKEN: optionalEnvOrUndefined('MERCADOPAGO_ACCESS_TOKEN'),
+  MERCADOPAGO_WEBHOOK_SECRET: optionalEnvOrUndefined('MERCADOPAGO_WEBHOOK_SECRET'),
 
   // AES-256 key (64 hex) used to encrypt per-merchant payment
   // credentials at rest. Generate: openssl rand -hex 32
