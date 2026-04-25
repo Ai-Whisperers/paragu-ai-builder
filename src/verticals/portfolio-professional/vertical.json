@@ -52,7 +52,15 @@
     "packages-giftcards",
     "google-reviews",
     "branches",
-    "pricing-table"
+    "pricing-table",
+    "booking",
+    "membership-plans",
+    "class-schedule",
+    "programs-comparison",
+    "resource-list",
+    "video-embed",
+    "stats-counter",
+    "logo-strip"
   ],
   "defaultStarterKit": "full",
   "locales": [
