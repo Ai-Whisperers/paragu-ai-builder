@@ -91,63 +91,9 @@ export function PackagesSection({
         {/* Packages */}
         {activeTab === 'packages' && (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {packages.map((pkg) => (
-              <Card 
-                key={pkg.id}
-                className={cn(
-                  "relative overflow-hidden",
-                  pkg.popular && "border-2 border-[var(--primary)]"
-                )}
-              >
-                {pkg.popular && (
-                  <div className="absolute top-0 right-0 bg-[var(--primary)] text-white text-xs px-3 py-1 rounded-bl-lg">
-                    Más Popular
-                  </div>
-                )}
-                
-                <CardHeader className="pb-4">
-                  <Heading level={3} className="text-xl font-bold">{pkg.name}</Heading>
-                  <p className="text-sm text-[var(--muted-foreground)]">{pkg.description}</p>
-                </CardHeader>
-                
-                <CardContent>
-                  {/* Price */}
-                  <div className="flex items-baseline gap-2 mb-4">
-                    <span className="text-3xl font-bold text-[var(--primary)]">
-                      {formatPrice(pkg.sale_price)}
-                    </span>
-                    <span className="text-lg text-[var(--muted-foreground)] line-through">
-                      {formatPrice(pkg.original_price)}
-                    </span>
-                    <Badge variant="secondary" className="ml-auto">
-                      Ahorra {calculateSavings(pkg.original_price, pkg.sale_price)}%
-                    </Badge>
-                  </div>
-                  
-                  {/* Services included */}
-                  <ul className="space-y-2 mb-6">
-                    {pkg.services.map((service, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm">
-                        <Check className="w-4 h-4 text-green-500 mt-0.5" />
-                        {service}
-                      </li>
-                    ))}
-                  </ul>
-                  
-                  <Button className="w-full">
-                    Comprar Pack
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        )}
-        
-        {/* Gift Cards */}
-        {activeTab === 'giftcards' && giftCards && (
-          <div className="max-w-2xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {giftCards.map((card) => (
+            {(packages || []).map((pkg) => (
+                    {(pkg?.services || []).map((service, idx) => (
+              {(giftCards || []).map((card) => (
                 <Card 
                   key={card.id}
                   className="cursor-pointer hover:border-[var(--primary)] transition-colors"

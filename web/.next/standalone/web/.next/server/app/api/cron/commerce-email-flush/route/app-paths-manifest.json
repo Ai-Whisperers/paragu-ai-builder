@@ -1,3 +1,0 @@
-{
-  "/api/cron/commerce-email-flush/route": "app/api/cron/commerce-email-flush/route.js"
-}

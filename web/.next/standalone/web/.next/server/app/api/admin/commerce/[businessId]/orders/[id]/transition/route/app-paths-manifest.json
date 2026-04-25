@@ -1,3 +1,0 @@
-{
-  "/api/admin/commerce/[businessId]/orders/[id]/transition/route": "app/api/admin/commerce/[businessId]/orders/[id]/transition/route.js"
-}
