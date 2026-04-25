@@ -2,14 +2,15 @@
  * POST /api/calendly-webhook — receives Calendly booking events.
  * Persists `invitee.created` as a lead (source=calendly). `invitee.canceled`
  * is logged (future: mark the lead row cancelled once we persist the
- * calendly event_uri on the lead).
+ * calendly event_uri on the lead). Unknown event types return 400.
+ *
+ * Valid event types: invitee.created, invitee.canceled, invitee.no_show
  *
  * Signature verification: Calendly signs each webhook with HMAC-SHA256.
  * The `calendly-webhook-signature` header has the format
  * `t=<unix-timestamp>,v1=<hex-hmac>`. Signed payload is
  * `${timestamp}.${rawBody}`. Without `CALENDLY_SIGNING_KEY` configured
- * the route fail-closes (401) — previously the route accepted any
- * payload with any header value (TODO had been left open).
+ * the route fail-closes (401).
  */
 
 import { NextResponse } from 'next/server'
@@ -96,6 +97,12 @@ export const POST = withRequestLog(async (req, { log }) => {
   }
   const kind = body.event
   const invitee = body.payload?.invitee
+
+  if (!kind || !['invitee.created', 'invitee.canceled', 'invitee.no_show'].includes(kind)) {
+    log.warn('calendly.webhook.unknown_event_type', { type: kind })
+    return NextResponse.json({ error: 'unknown_event_type' }, { status: 400 })
+  }
+
   log.info('calendly webhook received', {
     type: kind,
     email: invitee?.email,
