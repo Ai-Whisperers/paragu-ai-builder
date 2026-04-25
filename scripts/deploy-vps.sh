@@ -59,6 +59,7 @@ docker build -f web/Dockerfile \
   --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY="$NEXT_PUBLIC_SUPABASE_ANON_KEY" \
   --build-arg SUPABASE_SERVICE_ROLE_KEY="$SUPABASE_SERVICE_ROLE_KEY" \
   --build-arg NEXT_PUBLIC_APP_URL="$APP_URL" \
+  --build-arg GOOGLE_PLACES_API_KEY="$GOOGLE_PLACES_API_KEY" \
   -t "$TAG" .
 
 SERVICE="paragu-ai_web"
