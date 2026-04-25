@@ -1,0 +1,53 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0981 927558",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "0981 927558"
+  },
+  "location": {
+    "city": "Kapi'atã",
+    "address": "D027, Kapi'atã 110245, Paraguay",
+    "coordinates": {
+      "lat": -25.3899701,
+      "lng": -57.4700421
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-posta-vital-gym",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-posta-vital-gym",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "18cd1c96-432e-4bbd-b614-6eec51182a0e",
+  "createdAt": "2026-04-25T05:23:41.460Z"
+}

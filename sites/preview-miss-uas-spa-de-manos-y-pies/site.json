@@ -1,0 +1,59 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "spa",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0984 186294",
+    "email": "contacto@demospa.com.py",
+    "instagram": "@demo.spa.py",
+    "phone": "0984 186294"
+  },
+  "location": {
+    "city": "San Lorenzo",
+    "address": "JFXP+RRH, Tte Benitez, San Lorenzo 111431, Paraguay",
+    "coordinates": {
+      "lat": -25.350429,
+      "lng": -57.5129025
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-spa"
+      }
+    },
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-spa-form"
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "spa",
+  "demoWave": 1,
+  "demoCluster": "Bienestar",
+  "noindex": true,
+  "createdAt": "2026-04-25T05:23:41.363Z",
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-miss-uas-spa-de-manos-y-pies",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-miss-uas-spa-de-manos-y-pies",
+  "social": {
+    "facebook": "demospaasuncion",
+    "tiktok": "@demo.spa.py",
+    "instagram": "@demo.spa.py"
+  },
+  "preview": true,
+  "previewLeadId": "7d0837a6-2378-4780-9104-080adec942f3"
+}

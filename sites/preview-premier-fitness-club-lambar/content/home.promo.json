@@ -1,0 +1,28 @@
+{
+  "promotions": [
+    {
+      "id": "1",
+      "title": "¡Verano Fit!",
+      "description": "3 meses sin matrícula + 1 mes gratis",
+      "code": "VERANO2026",
+      "expiresAt": "2026-12-31T23:59:59",
+      "bgColor": "bg-gradient-to-r from-orange-500 to-red-500",
+      "textColor": "text-white"
+    },
+    {
+      "id": "2",
+      "title": "Pack Pareja",
+      "description": "2 membresías con 30% de descuento",
+      "code": "PAREJA30",
+      "expiresAt": "2026-12-31T23:59:59",
+      "bgColor": "bg-gradient-to-r from-blue-500 to-cyan-500",
+      "textColor": "text-white"
+    }
+  ],
+  "settings": {
+    "autoRotate": true,
+    "rotateInterval": 5000,
+    "dismissible": true,
+    "position": "top"
+  }
+}

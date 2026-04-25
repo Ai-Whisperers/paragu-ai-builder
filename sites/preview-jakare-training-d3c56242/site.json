@@ -1,0 +1,53 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0983 619790",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "0983 619790"
+  },
+  "location": {
+    "city": "Ciudad del Este",
+    "address": "Avenida Buongermini casi Lomas Valentinas Ciudad del Este, Ciudad del Este 7000, Paraguay",
+    "coordinates": {
+      "lat": -25.5246806,
+      "lng": -54.61941479999999
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-jakare-training-d3c56242",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-jakare-training-d3c56242",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "d3c56242-57f7-4552-81f5-ff20b168c1ba",
+  "createdAt": "2026-04-25T05:23:41.442Z"
+}
