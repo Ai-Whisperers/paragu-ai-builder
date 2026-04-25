@@ -1410,6 +1410,12 @@
       "namedRegex": "^/api/webhooks/resend(?:/)?$"
     },
     {
+      "page": "/api/whatsapp/catalog",
+      "regex": "^/api/whatsapp/catalog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/whatsapp/catalog(?:/)?$"
+    },
+    {
       "page": "/api/whatsapp/connect",
       "regex": "^/api/whatsapp/connect(?:/)?$",
       "routeKeys": {},

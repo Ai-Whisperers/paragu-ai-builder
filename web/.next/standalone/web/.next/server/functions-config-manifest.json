@@ -115,6 +115,7 @@
     "/api/webhooks/pagopar": {},
     "/api/webhooks/resend": {},
     "/api/whatsapp-webhook": {},
+    "/api/whatsapp/catalog": {},
     "/api/whatsapp/connect": {},
     "/auth/callback": {},
     "/c/[ciudad]/[rubro]/opengraph-image/[__metadata_id__]": {},
