@@ -45,11 +45,11 @@
   "home": {
     "seo": {
       "title": "Barbería Azuaga | Cortes Clásicos y Modernos en San Lorenzo",
-      "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online."
+      "description": "Barbería Azuaga en Ñemby. 4 estrellas y 120 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Estilo clásico, actitud moderna",
-      "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium",
+      "subheadline": "En Ñemby con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu cita",
       "ctaPrimaryHref": "#reservar",
       "ctaSecondaryText": "Ver servicios",
@@ -59,7 +59,7 @@
     },
     "promoBanner": {
       "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
-      "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+      "subtitle": "Con 120 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar",
       "variant": "standard",
       "dismissible": true
@@ -142,7 +142,8 @@
         "8 años de experiencia",
         "Ambiente VIP con aire acondicionado",
         "WiFi gratis",
-        "Estacionamiento"
+        "Estacionamiento",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -213,17 +214,17 @@
       "items": [
         {
           "name": "Andrés P.",
-          "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina.",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Ricardo G.",
-          "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar.",
+          "text": " Uno de los mejores negocios de Ñemby. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Fernando D.",
-          "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {
@@ -324,8 +325,8 @@
       "title": "Contacto",
       "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
       "address": "Av. Defensores del Chaco 1450",
-      "city": "San Lorenzo",
-      "phone": "+595985123456",
+      "city": "Ñemby",
+      "phone": "0971 274507",
       "email": "info@barberiasanlorenzo.com.py",
       "whatsapp": "+595985123456",
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
@@ -345,7 +346,7 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 120 reseñas en Google",
+      "subtitle": "Basado en 120 resenas en Google - 4.8 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -362,7 +363,9 @@
           "rating": 5,
           "text": "Salió todo perfecto. Volveré sin dudas."
         }
-      ]
+      ],
+      "avgRating": 4.8,
+      "reviewCount": 120
     },
     "packagesGiftcards": {
       "packages": [

@@ -41,11 +41,11 @@
   "home": {
     "seo": {
       "title": "Gym New One Life - Gimnasio en Hernandarias | Membresias y Clases",
-      "description": "Gimnasio en Hernandarias con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes."
+      "description": "Gym New One Life en Hernandarias. 4 estrellas y 118 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Transformá tu cuerpo, transformá tu vida",
-      "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más",
+      "subheadline": "En Hernandarias con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Empezá hoy",
       "ctaSecondaryText": "Conocé nuestros planes"
     },
@@ -53,14 +53,14 @@
       "title": "Contacto",
       "subtitle": "Visitanos en Fernando de la Mora",
       "address": "Ruta 2 y Av. Mcal. López Km 8",
-      "city": "Fernando de la Mora",
-      "phone": "+595983789012",
+      "city": "Hernandarias",
+      "phone": "0981 775282",
       "email": "ventas@gimnasiopower.com.py",
       "whatsapp": "+595983789012"
     },
     "promoBanner": {
       "title": "💪 Promo Verano",
-      "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+      "subtitle": "Con 118 resenas positivas en Google. Te esperamos!",
       "ctaText": "Aprovechar",
       "variant": "standard",
       "dismissible": true
@@ -207,17 +207,17 @@
       "items": [
         {
           "name": "Carlos G.",
-          "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año.",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "María J.",
-          "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel.",
+          "text": " Uno de los mejores negocios de Hernandarias. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Diego R.",
-          "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {
@@ -276,12 +276,13 @@
         "Equipos modernos",
         "Clases ilimitadas",
         "Evaluación gratis",
-        "Estacionamiento"
+        "Estacionamiento",
+        "4/5 estrellas en Google"
       ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 118 reseñas en Google",
+      "subtitle": "Basado en 118 resenas en Google - 4.7 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -298,7 +299,9 @@
           "rating": 5,
           "text": "Salió todo perfecto. Volveré sin dudas."
         }
-      ]
+      ],
+      "avgRating": 4.7,
+      "reviewCount": 118
     },
     "packagesGiftcards": {
       "packages": [

@@ -41,11 +41,11 @@
   "home": {
     "seo": {
       "title": "Peluqueria Asunción - Peluqueria en Piribebuy | Servicios y Precios",
-      "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar."
+      "description": "Complejo Barparaíso Deportivo en Piribebuy. 4 estrellas y 838 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Tu estilo, nuestra pasión",
-      "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy",
+      "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu turno",
       "ctaSecondaryText": "Conocé nuestros servicios"
     },
@@ -54,13 +54,13 @@
       "subtitle": "Estamos en el centro de Piribebuy",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Piribebuy",
-      "phone": "+595981654321",
+      "phone": "0981 448335",
       "email": "contacto@peluqueriacentro.com.py",
       "whatsapp": "+595981654321"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
-      "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+      "subtitle": "Con 838 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -113,7 +113,8 @@
         "10 años de experiencia",
         "Ambiente climatizado",
         "Estacionamiento gratis",
-        "Resultados garantizados"
+        "Resultados garantizados",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -191,17 +192,17 @@
       "items": [
         {
           "name": "Sofía L.",
-          "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Marcos A.",
-          "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto.",
+          "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Lucía R.",
-          "text": "Me hicieron un balayage espectacular. Volveré sin dudas.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {
