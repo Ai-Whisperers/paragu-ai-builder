@@ -1,0 +1,22 @@
+{
+  "id": "special_education_tutor",
+  "nameEs": "Tutor de Educacion Especial",
+  "nameEn": "Special Ed Tutor",
+  "verticalId": "service-booking",
+  "subVertical": "tutoring-private",
+  "extends": "gimnasio",
+  "tokens": "special_education_tutor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Tutor de Educacion Especial en {{city}}",
+    "descriptionTemplate": "Tutor de Educacion Especial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tutor de educacion especial {{city}}",
+      "special ed tutor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tutor de Educacion Especial",
+    "subheadlineTemplate": "Tutor de Educacion Especial profesional en {{city}}."
+  }
+}

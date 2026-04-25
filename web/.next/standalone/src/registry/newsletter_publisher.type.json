@@ -1,0 +1,22 @@
+{
+  "id": "newsletter_publisher",
+  "nameEs": "Publicador Newsletter",
+  "nameEn": "Newsletter Publisher",
+  "verticalId": "media-publishing",
+  "subVertical": "content-creator",
+  "extends": "media_base",
+  "tokens": "newsletter_publisher",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Publicador Newsletter en {{city}}",
+    "descriptionTemplate": "Publicador Newsletter profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "publicador newsletter {{city}}",
+      "newsletter publisher {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Publicador Newsletter",
+    "subheadlineTemplate": "Publicador Newsletter profesional en {{city}}."
+  }
+}

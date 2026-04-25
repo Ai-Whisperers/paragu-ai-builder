@@ -1,0 +1,25 @@
+{
+  "id": "peo_professional_employer",
+  "nameEs": "PEO",
+  "nameEn": "PEO",
+  "verticalId": "b2b-professional",
+  "subVertical": "hr-recruiting",
+  "extends": "professional_services_base",
+  "tokens": "peo_professional_employer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - PEO en {{city}}",
+    "descriptionTemplate": "PEO profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "peo {{city}}",
+      "peo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - PEO",
+    "subheadlineTemplate": "PEO profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

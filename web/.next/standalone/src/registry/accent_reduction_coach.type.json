@@ -1,0 +1,22 @@
+{
+  "id": "accent_reduction_coach",
+  "nameEs": "Coach Acento",
+  "nameEn": "Accent Coach",
+  "verticalId": "education-training",
+  "subVertical": "language",
+  "extends": "educacion",
+  "tokens": "accent_reduction_coach",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Coach Acento en {{city}}",
+    "descriptionTemplate": "Coach Acento profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coach acento {{city}}",
+      "accent coach {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Coach Acento",
+    "subheadlineTemplate": "Coach Acento profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hiit_bootcamp_studio",
+  "nameEs": "Estudio HIIT",
+  "nameEn": "HIIT Studio",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "hiit_bootcamp_studio",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Estudio HIIT en {{city}}",
+    "descriptionTemplate": "Estudio HIIT profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio hiit {{city}}",
+      "hiit studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio HIIT",
+    "subheadlineTemplate": "Estudio HIIT profesional en {{city}}."
+  }
+}

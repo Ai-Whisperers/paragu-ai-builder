@@ -1,0 +1,22 @@
+{
+  "id": "military_relo_specialist",
+  "nameEs": "Relo Militar",
+  "nameEn": "Military Relo",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "residential-brokerage",
+  "extends": "inmobiliaria",
+  "tokens": "military_relo_specialist",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Relo Militar en {{city}}",
+    "descriptionTemplate": "Relo Militar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "relo militar {{city}}",
+      "military relo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Relo Militar",
+    "subheadlineTemplate": "Relo Militar profesional en {{city}}."
+  }
+}

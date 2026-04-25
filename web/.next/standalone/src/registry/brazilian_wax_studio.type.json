@@ -1,0 +1,22 @@
+{
+  "id": "brazilian_wax_studio",
+  "nameEs": "Depilacion Brasilena",
+  "nameEn": "Brazilian Wax",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "body-hair-removal",
+  "extends": "beauty_base",
+  "tokens": "brazilian_wax_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Depilacion Brasilena en {{city}}",
+    "descriptionTemplate": "Depilacion Brasilena profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "depilacion brasilena {{city}}",
+      "brazilian wax {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Depilacion Brasilena",
+    "subheadlineTemplate": "Depilacion Brasilena profesional en {{city}}."
+  }
+}

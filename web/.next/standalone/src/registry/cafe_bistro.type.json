@@ -1,0 +1,22 @@
+{
+  "id": "cafe_bistro",
+  "nameEs": "Cafe Bistro",
+  "nameEn": "Cafe Bistro",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "cafe_bistro",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Cafe Bistro en {{city}}",
+    "descriptionTemplate": "Cafe Bistro profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cafe bistro {{city}}",
+      "cafe bistro {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cafe Bistro",
+    "subheadlineTemplate": "Cafe Bistro profesional en {{city}}."
+  }
+}

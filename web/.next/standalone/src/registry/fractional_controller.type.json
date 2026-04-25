@@ -1,0 +1,25 @@
+{
+  "id": "fractional_controller",
+  "nameEs": "Controller Fraccional",
+  "nameEn": "Fractional Controller",
+  "verticalId": "finance-insurance",
+  "subVertical": "accounting-bookkeeping",
+  "extends": "finance_insurance_base",
+  "tokens": "fractional_controller",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Controller Fraccional en {{city}}",
+    "descriptionTemplate": "Controller Fraccional profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "controller fraccional {{city}}",
+      "fractional controller {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Controller Fraccional",
+    "subheadlineTemplate": "Controller Fraccional profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "industrial_maintenance",
+  "nameEs": "Mantenimiento Industrial",
+  "nameEn": "Industrial Maintenance",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-maintenance",
+  "extends": "industrial_base",
+  "tokens": "industrial_maintenance",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Mantenimiento Industrial en {{city}}",
+    "descriptionTemplate": "Mantenimiento Industrial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mantenimiento industrial {{city}}",
+      "industrial maintenance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mantenimiento Industrial",
+    "subheadlineTemplate": "Mantenimiento Industrial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

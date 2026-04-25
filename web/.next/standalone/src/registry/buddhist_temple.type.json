@@ -1,0 +1,22 @@
+{
+  "id": "buddhist_temple",
+  "nameEs": "Templo Budista",
+  "nameEn": "Buddhist Temple",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "buddhist_temple",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Templo Budista en {{city}}",
+    "descriptionTemplate": "Templo Budista profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "templo budista {{city}}",
+      "buddhist temple {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Templo Budista",
+    "subheadlineTemplate": "Templo Budista profesional en {{city}}."
+  }
+}

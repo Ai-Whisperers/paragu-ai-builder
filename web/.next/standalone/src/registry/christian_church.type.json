@@ -1,0 +1,22 @@
+{
+  "id": "christian_church",
+  "nameEs": "Iglesia Cristiana",
+  "nameEn": "Christian Church",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "christian_church",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Iglesia Cristiana en {{city}}",
+    "descriptionTemplate": "Iglesia Cristiana profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "iglesia cristiana {{city}}",
+      "christian church {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Iglesia Cristiana",
+    "subheadlineTemplate": "Iglesia Cristiana profesional en {{city}}."
+  }
+}

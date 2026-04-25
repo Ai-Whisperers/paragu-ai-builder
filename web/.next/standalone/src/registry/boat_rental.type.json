@@ -1,0 +1,22 @@
+{
+  "id": "boat_rental",
+  "nameEs": "Alquiler Embarcaciones",
+  "nameEn": "Boat Rental",
+  "verticalId": "automotive",
+  "subVertical": "rental",
+  "extends": "automotive_base",
+  "tokens": "boat_rental",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Embarcaciones en {{city}}",
+    "descriptionTemplate": "Alquiler Embarcaciones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler embarcaciones {{city}}",
+      "boat rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Embarcaciones",
+    "subheadlineTemplate": "Alquiler Embarcaciones profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mommy_and_me_class",
+  "nameEs": "Clase Mama y Bebe",
+  "nameEn": "Mommy and Me Class",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "mommy_and_me_class",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Clase Mama y Bebe en {{city}}",
+    "descriptionTemplate": "Clase Mama y Bebe profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clase mama y bebe {{city}}",
+      "mommy and me class {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clase Mama y Bebe",
+    "subheadlineTemplate": "Clase Mama y Bebe profesional en {{city}}."
+  }
+}

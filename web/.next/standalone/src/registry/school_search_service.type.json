@@ -1,0 +1,22 @@
+{
+  "id": "school_search_service",
+  "nameEs": "Busqueda Escuelas",
+  "nameEn": "School Search",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "relocation-services",
+  "extends": "inmobiliaria",
+  "tokens": "school_search_service",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Busqueda Escuelas en {{city}}",
+    "descriptionTemplate": "Busqueda Escuelas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "busqueda escuelas {{city}}",
+      "school search {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Busqueda Escuelas",
+    "subheadlineTemplate": "Busqueda Escuelas profesional en {{city}}."
+  }
+}

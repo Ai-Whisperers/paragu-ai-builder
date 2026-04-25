@@ -1,0 +1,22 @@
+{
+  "id": "general_dental_practice",
+  "nameEs": "Odontologia General",
+  "nameEn": "Dental Practice",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "general_dental_practice",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Odontologia General en {{city}}",
+    "descriptionTemplate": "Odontologia General profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "odontologia general {{city}}",
+      "dental practice {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Odontologia General",
+    "subheadlineTemplate": "Odontologia General profesional en {{city}}."
+  }
+}

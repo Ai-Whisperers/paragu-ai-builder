@@ -1,0 +1,25 @@
+{
+  "id": "conference_producer",
+  "nameEs": "Productor Conferencias",
+  "nameEn": "Conference Producer",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "events-festivals",
+  "extends": "entertainment_base",
+  "tokens": "conference_producer",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Productor Conferencias en {{city}}",
+    "descriptionTemplate": "Productor Conferencias profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "productor conferencias {{city}}",
+      "conference producer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Productor Conferencias",
+    "subheadlineTemplate": "Productor Conferencias profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

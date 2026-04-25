@@ -1,0 +1,22 @@
+{
+  "id": "go_kart_track",
+  "nameEs": "Pista Karts",
+  "nameEn": "Go-Kart Track",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "amusement-family",
+  "extends": "entertainment_base",
+  "tokens": "go_kart_track",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Pista Karts en {{city}}",
+    "descriptionTemplate": "Pista Karts profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pista karts {{city}}",
+      "go-kart track {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pista Karts",
+    "subheadlineTemplate": "Pista Karts profesional en {{city}}."
+  }
+}

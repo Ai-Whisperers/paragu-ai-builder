@@ -1,0 +1,25 @@
+{
+  "id": "analytics_implementation",
+  "nameEs": "Implementacion Analitica",
+  "nameEn": "Analytics Implementation",
+  "verticalId": "technology-digital",
+  "subVertical": "data-analytics",
+  "extends": "technology_base",
+  "tokens": "analytics_implementation",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Implementacion Analitica en {{city}}",
+    "descriptionTemplate": "Implementacion Analitica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "implementacion analitica {{city}}",
+      "analytics implementation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Implementacion Analitica",
+    "subheadlineTemplate": "Implementacion Analitica profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

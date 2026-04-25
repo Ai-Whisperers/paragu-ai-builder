@@ -1,0 +1,22 @@
+{
+  "id": "cosmetic_dentist",
+  "nameEs": "Odontologia Estetica",
+  "nameEn": "Cosmetic Dentist",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "cosmetic_dentist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Odontologia Estetica en {{city}}",
+    "descriptionTemplate": "Odontologia Estetica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "odontologia estetica {{city}}",
+      "cosmetic dentist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Odontologia Estetica",
+    "subheadlineTemplate": "Odontologia Estetica profesional en {{city}}."
+  }
+}

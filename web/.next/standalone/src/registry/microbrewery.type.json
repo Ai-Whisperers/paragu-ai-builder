@@ -1,0 +1,22 @@
+{
+  "id": "microbrewery",
+  "nameEs": "Microcerveceria",
+  "nameEn": "Microbrewery",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "microbrewery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Microcerveceria en {{city}}",
+    "descriptionTemplate": "Microcerveceria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "microcerveceria {{city}}",
+      "microbrewery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Microcerveceria",
+    "subheadlineTemplate": "Microcerveceria profesional en {{city}}."
+  }
+}

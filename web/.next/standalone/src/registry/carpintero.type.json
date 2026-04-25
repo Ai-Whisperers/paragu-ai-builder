@@ -1,0 +1,22 @@
+{
+  "id": "carpintero",
+  "nameEs": "Carpinteria",
+  "nameEn": "Carpenter",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "carpintero",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Carpinteria en {{city}}",
+    "descriptionTemplate": "Muebles a medida, placares, cocinas y carpinteria de obra.",
+    "keywords": [
+      "carpintero {{city}}",
+      "muebles a medida {{city}}",
+      "placares {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Madera trabajada con oficio",
+    "subheadlineTemplate": "Muebles a medida, placares, cocinas y carpinteria de obra."
+  }
+}

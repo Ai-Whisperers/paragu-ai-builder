@@ -1,0 +1,25 @@
+{
+  "id": "trade_journal_publisher",
+  "nameEs": "Revista Sectorial",
+  "nameEn": "Trade Journal",
+  "verticalId": "media-publishing",
+  "subVertical": "magazine-niche",
+  "extends": "media_base",
+  "tokens": "trade_journal_publisher",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Revista Sectorial en {{city}}",
+    "descriptionTemplate": "Revista Sectorial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "revista sectorial {{city}}",
+      "trade journal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Revista Sectorial",
+    "subheadlineTemplate": "Revista Sectorial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "corporate_training_firm",
+  "nameEs": "Capacitacion Corporativa",
+  "nameEn": "Corporate Training",
+  "verticalId": "education-training",
+  "subVertical": "corporate-training",
+  "extends": "educacion",
+  "tokens": "corporate_training_firm",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Capacitacion Corporativa en {{city}}",
+    "descriptionTemplate": "Capacitacion Corporativa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capacitacion corporativa {{city}}",
+      "corporate training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capacitacion Corporativa",
+    "subheadlineTemplate": "Capacitacion Corporativa profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

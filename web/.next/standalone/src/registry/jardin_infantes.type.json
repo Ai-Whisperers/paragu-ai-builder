@@ -1,0 +1,27 @@
+{
+  "id": "jardin_infantes",
+  "nameEs": "Jardin de Infantes",
+  "nameEn": "Preschool",
+  "verticalId": "education-training",
+  "extends": "educacion",
+  "tokens": "jardin_infantes",
+  "seo": {
+    "schemaType": "Preschool",
+    "titleTemplate": "{{businessName}} - Jardin de Infantes en {{city}}",
+    "descriptionTemplate": "Jardin de infantes con pedagogia activa y ambiente seguro en {{city}}.",
+    "keywords": [
+      "jardin infantes {{city}}",
+      "guarderia {{city}}",
+      "preescolar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Primera infancia con amor y juego",
+    "subheadlineTemplate": "Jardin de infantes con pedagogia activa y ambiente seguro en {{city}}."
+  },
+  "serviceCategories": [
+    "maternal",
+    "jardin",
+    "extensiones"
+  ]
+}

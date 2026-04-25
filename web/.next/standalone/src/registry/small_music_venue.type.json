@@ -1,0 +1,25 @@
+{
+  "id": "small_music_venue",
+  "nameEs": "Sala de Conciertos",
+  "nameEn": "Music Venue",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "live-music-venue",
+  "extends": "entertainment_base",
+  "tokens": "small_music_venue",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Sala de Conciertos en {{city}}",
+    "descriptionTemplate": "Sala de Conciertos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sala de conciertos {{city}}",
+      "music venue {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sala de Conciertos",
+    "subheadlineTemplate": "Sala de Conciertos profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

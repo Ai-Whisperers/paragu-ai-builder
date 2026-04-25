@@ -1,0 +1,22 @@
+{
+  "id": "tv_repair_shop",
+  "nameEs": "Reparacion TV",
+  "nameEn": "TV Repair",
+  "verticalId": "technology-digital",
+  "subVertical": "repair-tech",
+  "extends": "technology_base",
+  "tokens": "tv_repair_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reparacion TV en {{city}}",
+    "descriptionTemplate": "Reparacion TV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reparacion tv {{city}}",
+      "tv repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparacion TV",
+    "subheadlineTemplate": "Reparacion TV profesional en {{city}}."
+  }
+}

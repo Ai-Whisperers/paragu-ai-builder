@@ -1,0 +1,22 @@
+{
+  "id": "lasik_clinic",
+  "nameEs": "Clinica LASIK",
+  "nameEn": "LASIK Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "vision-hearing",
+  "extends": "health_wellness_base",
+  "tokens": "lasik_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica LASIK en {{city}}",
+    "descriptionTemplate": "Clinica LASIK profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica lasik {{city}}",
+      "lasik clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica LASIK",
+    "subheadlineTemplate": "Clinica LASIK profesional en {{city}}."
+  }
+}

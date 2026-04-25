@@ -1,0 +1,22 @@
+{
+  "id": "organic_farm",
+  "nameEs": "Granja Organica",
+  "nameEn": "Organic Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "crop-farming",
+  "extends": "agriculture_base",
+  "tokens": "organic_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Granja Organica en {{city}}",
+    "descriptionTemplate": "Granja Organica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "granja organica {{city}}",
+      "organic farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Granja Organica",
+    "subheadlineTemplate": "Granja Organica profesional en {{city}}."
+  }
+}

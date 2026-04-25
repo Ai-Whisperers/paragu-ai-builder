@@ -1,0 +1,20 @@
+{
+  "id": "materiales_construccion",
+  "nameEs": "Materiales de Construccion",
+  "nameEn": "Construction Materials",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "materiales_construccion",
+  "seo": {
+    "schemaType": "HardwareStore",
+    "titleTemplate": "{{businessName}} - Materiales de Construccion en {{city}}",
+    "descriptionTemplate": "Cemento, ladrillos, arena, hierros y acabados con entrega a obra.",
+    "keywords": [
+      "materiales construccion {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Todo para tu obra",
+    "subheadlineTemplate": "Cemento, ladrillos, arena, hierros y acabados con entrega a obra."
+  }
+}

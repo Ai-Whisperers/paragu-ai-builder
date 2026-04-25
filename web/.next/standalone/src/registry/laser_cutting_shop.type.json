@@ -1,0 +1,25 @@
+{
+  "id": "laser_cutting_shop",
+  "nameEs": "Corte Laser",
+  "nameEn": "Laser Cutting",
+  "verticalId": "trades-industrial",
+  "subVertical": "machining-fabrication",
+  "extends": "industrial_base",
+  "tokens": "laser_cutting_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Corte Laser en {{city}}",
+    "descriptionTemplate": "Corte Laser profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "corte laser {{city}}",
+      "laser cutting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Corte Laser",
+    "subheadlineTemplate": "Corte Laser profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

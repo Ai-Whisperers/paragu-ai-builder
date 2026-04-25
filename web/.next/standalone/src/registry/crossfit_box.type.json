@@ -1,0 +1,22 @@
+{
+  "id": "crossfit_box",
+  "nameEs": "Box de CrossFit",
+  "nameEn": "CrossFit Box",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "crossfit_box",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Box de CrossFit en {{city}}",
+    "descriptionTemplate": "Box de CrossFit profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "box de crossfit {{city}}",
+      "crossfit box {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Box de CrossFit",
+    "subheadlineTemplate": "Box de CrossFit profesional en {{city}}."
+  }
+}

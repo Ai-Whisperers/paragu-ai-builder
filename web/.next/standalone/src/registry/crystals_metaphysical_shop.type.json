@@ -1,0 +1,22 @@
+{
+  "id": "crystals_metaphysical_shop",
+  "nameEs": "Cristales",
+  "nameEn": "Crystal Shop",
+  "verticalId": "retail-local",
+  "subVertical": "toys-gifts",
+  "extends": "retail_base",
+  "tokens": "crystals_metaphysical_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Cristales en {{city}}",
+    "descriptionTemplate": "Cristales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cristales {{city}}",
+      "crystal shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cristales",
+    "subheadlineTemplate": "Cristales profesional en {{city}}."
+  }
+}

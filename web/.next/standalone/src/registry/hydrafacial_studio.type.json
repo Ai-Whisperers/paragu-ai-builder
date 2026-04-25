@@ -1,0 +1,22 @@
+{
+  "id": "hydrafacial_studio",
+  "nameEs": "Hidrafacial",
+  "nameEn": "HydraFacial Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "skin-aesthetic",
+  "extends": "beauty_base",
+  "tokens": "hydrafacial_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Hidrafacial en {{city}}",
+    "descriptionTemplate": "Hidrafacial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hidrafacial {{city}}",
+      "hydrafacial studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hidrafacial",
+    "subheadlineTemplate": "Hidrafacial profesional en {{city}}."
+  }
+}

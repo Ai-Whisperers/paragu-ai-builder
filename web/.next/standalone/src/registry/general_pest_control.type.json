@@ -1,0 +1,22 @@
+{
+  "id": "general_pest_control",
+  "nameEs": "Control de Plagas",
+  "nameEn": "Pest Control",
+  "verticalId": "trades-home-services",
+  "subVertical": "pest-control",
+  "extends": "trades_base",
+  "tokens": "general_pest_control",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Control de Plagas en {{city}}",
+    "descriptionTemplate": "Control de Plagas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "control de plagas {{city}}",
+      "pest control {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Control de Plagas",
+    "subheadlineTemplate": "Control de Plagas profesional en {{city}}."
+  }
+}

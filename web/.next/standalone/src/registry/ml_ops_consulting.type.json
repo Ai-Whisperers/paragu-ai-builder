@@ -1,0 +1,25 @@
+{
+  "id": "ml_ops_consulting",
+  "nameEs": "Consultoria MLOps",
+  "nameEn": "MLOps Consulting",
+  "verticalId": "technology-digital",
+  "subVertical": "data-analytics",
+  "extends": "technology_base",
+  "tokens": "ml_ops_consulting",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultoria MLOps en {{city}}",
+    "descriptionTemplate": "Consultoria MLOps profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultoria mlops {{city}}",
+      "mlops consulting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultoria MLOps",
+    "subheadlineTemplate": "Consultoria MLOps profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

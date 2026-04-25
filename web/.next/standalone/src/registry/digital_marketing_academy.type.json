@@ -1,0 +1,22 @@
+{
+  "id": "digital_marketing_academy",
+  "nameEs": "Academia Marketing Digital",
+  "nameEn": "Digital Marketing Academy",
+  "verticalId": "education-training",
+  "subVertical": "tech-bootcamp",
+  "extends": "educacion",
+  "tokens": "digital_marketing_academy",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Academia Marketing Digital en {{city}}",
+    "descriptionTemplate": "Academia Marketing Digital profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "academia marketing digital {{city}}",
+      "digital marketing academy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Academia Marketing Digital",
+    "subheadlineTemplate": "Academia Marketing Digital profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "family_divorce_lawyer",
+  "nameEs": "Abogado Familia",
+  "nameEn": "Family Lawyer",
+  "verticalId": "b2b-professional",
+  "subVertical": "legal",
+  "extends": "professional_services_base",
+  "tokens": "family_divorce_lawyer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Abogado Familia en {{city}}",
+    "descriptionTemplate": "Abogado Familia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "abogado familia {{city}}",
+      "family lawyer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Abogado Familia",
+    "subheadlineTemplate": "Abogado Familia profesional en {{city}}."
+  }
+}

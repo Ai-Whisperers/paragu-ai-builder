@@ -1,0 +1,22 @@
+{
+  "id": "music_rehearsal_space",
+  "nameEs": "Sala Ensayo",
+  "nameEn": "Rehearsal Space",
+  "verticalId": "membership-community",
+  "subVertical": "coworking-makerspace",
+  "extends": "membership_base",
+  "tokens": "music_rehearsal_space",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Sala Ensayo en {{city}}",
+    "descriptionTemplate": "Sala Ensayo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sala ensayo {{city}}",
+      "rehearsal space {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sala Ensayo",
+    "subheadlineTemplate": "Sala Ensayo profesional en {{city}}."
+  }
+}

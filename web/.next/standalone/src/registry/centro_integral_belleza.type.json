@@ -1,0 +1,21 @@
+{
+  "id": "centro_integral_belleza",
+  "nameEs": "Centro Integral de Belleza",
+  "nameEn": "Beauty Center",
+  "verticalId": "beauty-personal-care",
+  "extends": "salon_belleza",
+  "tokens": "centro_integral_belleza",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Centro Integral de Belleza en {{city}}",
+    "descriptionTemplate": "Peluqueria, estetica, uñas, masajes y tratamientos en {{city}}.",
+    "keywords": [
+      "centro belleza {{city}}",
+      "salon integral {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Todo lo que necesitas, en un solo lugar",
+    "subheadlineTemplate": "Peluqueria, estetica, uñas, masajes y tratamientos en {{city}}."
+  }
+}

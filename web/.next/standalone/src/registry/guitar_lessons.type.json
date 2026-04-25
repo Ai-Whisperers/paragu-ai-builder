@@ -1,0 +1,22 @@
+{
+  "id": "guitar_lessons",
+  "nameEs": "Clases Guitarra",
+  "nameEn": "Guitar Lessons",
+  "verticalId": "education-training",
+  "subVertical": "music-art",
+  "extends": "educacion",
+  "tokens": "guitar_lessons",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Clases Guitarra en {{city}}",
+    "descriptionTemplate": "Clases Guitarra profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clases guitarra {{city}}",
+      "guitar lessons {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clases Guitarra",
+    "subheadlineTemplate": "Clases Guitarra profesional en {{city}}."
+  }
+}

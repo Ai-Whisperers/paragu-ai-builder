@@ -1,0 +1,22 @@
+{
+  "id": "childrens_museum",
+  "nameEs": "Museo Infantil",
+  "nameEn": "Childrens Museum",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "museum-gallery",
+  "extends": "entertainment_base",
+  "tokens": "childrens_museum",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Museo Infantil en {{city}}",
+    "descriptionTemplate": "Museo Infantil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "museo infantil {{city}}",
+      "childrens museum {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Museo Infantil",
+    "subheadlineTemplate": "Museo Infantil profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "medical_society_local",
+  "nameEs": "Sociedad Medica",
+  "nameEn": "Medical Society",
+  "verticalId": "membership-community",
+  "subVertical": "professional-society",
+  "extends": "membership_base",
+  "tokens": "medical_society_local",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Sociedad Medica en {{city}}",
+    "descriptionTemplate": "Sociedad Medica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sociedad medica {{city}}",
+      "medical society {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sociedad Medica",
+    "subheadlineTemplate": "Sociedad Medica profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fair_carnival_operator",
+  "nameEs": "Operador Feria",
+  "nameEn": "Fair Operator",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "events-festivals",
+  "extends": "entertainment_base",
+  "tokens": "fair_carnival_operator",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Operador Feria en {{city}}",
+    "descriptionTemplate": "Operador Feria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "operador feria {{city}}",
+      "fair operator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Operador Feria",
+    "subheadlineTemplate": "Operador Feria profesional en {{city}}."
+  }
+}

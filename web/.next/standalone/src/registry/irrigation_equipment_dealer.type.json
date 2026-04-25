@@ -1,0 +1,25 @@
+{
+  "id": "irrigation_equipment_dealer",
+  "nameEs": "Equipos Riego",
+  "nameEn": "Irrigation Dealer",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "ag-equipment",
+  "extends": "agriculture_base",
+  "tokens": "irrigation_equipment_dealer",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Equipos Riego en {{city}}",
+    "descriptionTemplate": "Equipos Riego profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "equipos riego {{city}}",
+      "irrigation dealer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Equipos Riego",
+    "subheadlineTemplate": "Equipos Riego profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

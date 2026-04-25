@@ -1,0 +1,25 @@
+{
+  "id": "co_packing_service",
+  "nameEs": "Co-Envasador",
+  "nameEn": "Co-Packer",
+  "verticalId": "trades-industrial",
+  "subVertical": "packaging-labeling",
+  "extends": "industrial_base",
+  "tokens": "co_packing_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Co-Envasador en {{city}}",
+    "descriptionTemplate": "Co-Envasador profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "co-envasador {{city}}",
+      "co-packer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Co-Envasador",
+    "subheadlineTemplate": "Co-Envasador profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

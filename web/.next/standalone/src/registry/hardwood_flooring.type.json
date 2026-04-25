@@ -1,0 +1,22 @@
+{
+  "id": "hardwood_flooring",
+  "nameEs": "Pisos de Madera",
+  "nameEn": "Hardwood Flooring",
+  "verticalId": "trades-home-services",
+  "subVertical": "flooring",
+  "extends": "trades_base",
+  "tokens": "hardwood_flooring",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Pisos de Madera en {{city}}",
+    "descriptionTemplate": "Pisos de Madera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pisos de madera {{city}}",
+      "hardwood flooring {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pisos de Madera",
+    "subheadlineTemplate": "Pisos de Madera profesional en {{city}}."
+  }
+}

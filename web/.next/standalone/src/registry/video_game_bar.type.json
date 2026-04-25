@@ -1,0 +1,25 @@
+{
+  "id": "video_game_bar",
+  "nameEs": "Bar Videojuegos",
+  "nameEn": "Video Game Bar",
+  "verticalId": "sports-recreation",
+  "subVertical": "esports-gaming",
+  "extends": "sports_base",
+  "tokens": "video_game_bar",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Bar Videojuegos en {{city}}",
+    "descriptionTemplate": "Bar Videojuegos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bar videojuegos {{city}}",
+      "video game bar {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bar Videojuegos",
+    "subheadlineTemplate": "Bar Videojuegos profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

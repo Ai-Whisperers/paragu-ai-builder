@@ -1,0 +1,22 @@
+{
+  "id": "independent_insurance_agent",
+  "nameEs": "Agente Seguros",
+  "nameEn": "Independent Agent",
+  "verticalId": "finance-insurance",
+  "subVertical": "insurance-brokerage",
+  "extends": "finance_insurance_base",
+  "tokens": "independent_insurance_agent",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Agente Seguros en {{city}}",
+    "descriptionTemplate": "Agente Seguros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agente seguros {{city}}",
+      "independent agent {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agente Seguros",
+    "subheadlineTemplate": "Agente Seguros profesional en {{city}}."
+  }
+}

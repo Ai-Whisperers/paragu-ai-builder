@@ -1,0 +1,22 @@
+{
+  "id": "university_alumni_chapter",
+  "nameEs": "Capitulo Alumni",
+  "nameEn": "Alumni Chapter",
+  "verticalId": "membership-community",
+  "subVertical": "alumni-fan",
+  "extends": "membership_base",
+  "tokens": "university_alumni_chapter",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Capitulo Alumni en {{city}}",
+    "descriptionTemplate": "Capitulo Alumni profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capitulo alumni {{city}}",
+      "alumni chapter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capitulo Alumni",
+    "subheadlineTemplate": "Capitulo Alumni profesional en {{city}}."
+  }
+}

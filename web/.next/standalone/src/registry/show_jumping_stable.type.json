@@ -1,0 +1,22 @@
+{
+  "id": "show_jumping_stable",
+  "nameEs": "Salto Ecuestre",
+  "nameEn": "Show Jumping",
+  "verticalId": "sports-recreation",
+  "subVertical": "equestrian",
+  "extends": "sports_base",
+  "tokens": "show_jumping_stable",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Salto Ecuestre en {{city}}",
+    "descriptionTemplate": "Salto Ecuestre profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "salto ecuestre {{city}}",
+      "show jumping {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Salto Ecuestre",
+    "subheadlineTemplate": "Salto Ecuestre profesional en {{city}}."
+  }
+}

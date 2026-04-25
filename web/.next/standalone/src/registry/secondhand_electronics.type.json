@@ -1,0 +1,22 @@
+{
+  "id": "secondhand_electronics",
+  "nameEs": "Electronica Usada",
+  "nameEn": "Secondhand Electronics",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "secondhand_electronics",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Electronica Usada en {{city}}",
+    "descriptionTemplate": "Electronica Usada profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "electronica usada {{city}}",
+      "secondhand electronics {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Electronica Usada",
+    "subheadlineTemplate": "Electronica Usada profesional en {{city}}."
+  }
+}

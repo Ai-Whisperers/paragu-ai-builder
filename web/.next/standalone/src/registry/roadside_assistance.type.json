@@ -1,0 +1,22 @@
+{
+  "id": "roadside_assistance",
+  "nameEs": "Auxilio Mecanico",
+  "nameEn": "Roadside Assistance",
+  "verticalId": "automotive",
+  "subVertical": "towing-roadside",
+  "extends": "automotive_base",
+  "tokens": "roadside_assistance",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Auxilio Mecanico en {{city}}",
+    "descriptionTemplate": "Auxilio Mecanico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "auxilio mecanico {{city}}",
+      "roadside assistance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Auxilio Mecanico",
+    "subheadlineTemplate": "Auxilio Mecanico profesional en {{city}}."
+  }
+}

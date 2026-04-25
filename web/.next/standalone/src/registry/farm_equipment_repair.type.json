@@ -1,0 +1,22 @@
+{
+  "id": "farm_equipment_repair",
+  "nameEs": "Taller Maquinaria Agricola",
+  "nameEn": "Farm Equipment Repair",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "ag-equipment",
+  "extends": "agriculture_base",
+  "tokens": "farm_equipment_repair",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Taller Maquinaria Agricola en {{city}}",
+    "descriptionTemplate": "Taller Maquinaria Agricola profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller maquinaria agricola {{city}}",
+      "farm equipment repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller Maquinaria Agricola",
+    "subheadlineTemplate": "Taller Maquinaria Agricola profesional en {{city}}."
+  }
+}

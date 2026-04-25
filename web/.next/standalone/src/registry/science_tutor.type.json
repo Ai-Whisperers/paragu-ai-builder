@@ -1,0 +1,22 @@
+{
+  "id": "science_tutor",
+  "nameEs": "Tutor de Ciencias",
+  "nameEn": "Science Tutor",
+  "verticalId": "service-booking",
+  "subVertical": "tutoring-private",
+  "extends": "gimnasio",
+  "tokens": "science_tutor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Tutor de Ciencias en {{city}}",
+    "descriptionTemplate": "Tutor de Ciencias profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tutor de ciencias {{city}}",
+      "science tutor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tutor de Ciencias",
+    "subheadlineTemplate": "Tutor de Ciencias profesional en {{city}}."
+  }
+}

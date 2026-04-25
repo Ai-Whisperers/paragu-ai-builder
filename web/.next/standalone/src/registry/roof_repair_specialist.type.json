@@ -1,0 +1,22 @@
+{
+  "id": "roof_repair_specialist",
+  "nameEs": "Reparacion Techos",
+  "nameEn": "Roof Repair",
+  "verticalId": "trades-home-services",
+  "subVertical": "roofing",
+  "extends": "trades_base",
+  "tokens": "roof_repair_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Reparacion Techos en {{city}}",
+    "descriptionTemplate": "Reparacion Techos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reparacion techos {{city}}",
+      "roof repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparacion Techos",
+    "subheadlineTemplate": "Reparacion Techos profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hockey_academy",
+  "nameEs": "Academia Hockey",
+  "nameEn": "Hockey Academy",
+  "verticalId": "sports-recreation",
+  "subVertical": "team-sports-league",
+  "extends": "sports_base",
+  "tokens": "hockey_academy",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Academia Hockey en {{city}}",
+    "descriptionTemplate": "Academia Hockey profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "academia hockey {{city}}",
+      "hockey academy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Academia Hockey",
+    "subheadlineTemplate": "Academia Hockey profesional en {{city}}."
+  }
+}

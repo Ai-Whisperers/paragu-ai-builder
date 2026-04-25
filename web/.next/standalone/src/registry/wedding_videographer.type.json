@@ -1,0 +1,22 @@
+{
+  "id": "wedding_videographer",
+  "nameEs": "Videografo Bodas",
+  "nameEn": "Wedding Videographer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "videography-film",
+  "extends": "diseno_grafico",
+  "tokens": "wedding_videographer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Videografo Bodas en {{city}}",
+    "descriptionTemplate": "Videografo Bodas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "videografo bodas {{city}}",
+      "wedding videographer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Videografo Bodas",
+    "subheadlineTemplate": "Videografo Bodas profesional en {{city}}."
+  }
+}

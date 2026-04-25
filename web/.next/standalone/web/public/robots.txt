@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /private/
+Sitemap: https://nexaparaguay.com/sitemap.xml

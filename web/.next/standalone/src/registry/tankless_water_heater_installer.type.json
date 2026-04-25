@@ -1,0 +1,22 @@
+{
+  "id": "tankless_water_heater_installer",
+  "nameEs": "Instalador Calentador Sin Tanque",
+  "nameEn": "Tankless Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "plumbing",
+  "extends": "trades_base",
+  "tokens": "tankless_water_heater_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador Calentador Sin Tanque en {{city}}",
+    "descriptionTemplate": "Instalador Calentador Sin Tanque profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador calentador sin tanque {{city}}",
+      "tankless installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador Calentador Sin Tanque",
+    "subheadlineTemplate": "Instalador Calentador Sin Tanque profesional en {{city}}."
+  }
+}

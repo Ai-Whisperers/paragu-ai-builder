@@ -1,0 +1,22 @@
+{
+  "id": "dna_genetic_testing",
+  "nameEs": "Pruebas Geneticas",
+  "nameEn": "Genetic Testing",
+  "verticalId": "health-wellness",
+  "subVertical": "diagnostics-imaging",
+  "extends": "health_wellness_base",
+  "tokens": "dna_genetic_testing",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Pruebas Geneticas en {{city}}",
+    "descriptionTemplate": "Pruebas Geneticas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pruebas geneticas {{city}}",
+      "genetic testing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pruebas Geneticas",
+    "subheadlineTemplate": "Pruebas Geneticas profesional en {{city}}."
+  }
+}

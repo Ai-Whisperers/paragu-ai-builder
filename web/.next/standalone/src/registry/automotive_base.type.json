@@ -1,0 +1,38 @@
+{
+  "id": "automotive_base",
+  "nameEs": "Base Automotriz",
+  "nameEn": "Automotive Base",
+  "verticalId": "automotive",
+  "abstract": true,
+  "tokens": "automotive_base",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "services", "beforeAfter", "process", "testimonials", "faq", "quoteForm", "businessHours", "googleMaps", "contact", "footer"],
+      "requiredSections": ["header", "hero", "services", "contact", "footer"]
+    }
+  },
+  "features": {
+    "quoteForm": { "enabled": true },
+    "serviceMenu": { "enabled": true, "showPrices": false },
+    "beforeAfter": { "enabled": true },
+    "emergencyIndicator": { "enabled": false, "available24h": false },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Servicios automotrices en {{city}}. Cotizacion rapida por WhatsApp."
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Trabajos", "Contacto"],
+    "cta": { "text": "Cotizar", "action": "whatsapp" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}}",
+    "subheadlineTemplate": "Tu vehiculo en manos expertas en {{city}}",
+    "ctaPrimary": { "text": "Cotizar Servicio", "action": "whatsapp" },
+    "ctaSecondary": { "text": "Ver Servicios", "action": "scrollTo:services" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pool_maintenance_service",
+  "nameEs": "Mantenimiento Piletas",
+  "nameEn": "Pool Maintenance",
+  "verticalId": "trades-home-services",
+  "subVertical": "pool-spa",
+  "extends": "trades_base",
+  "tokens": "pool_maintenance_service",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Mantenimiento Piletas en {{city}}",
+    "descriptionTemplate": "Mantenimiento Piletas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mantenimiento piletas {{city}}",
+      "pool maintenance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mantenimiento Piletas",
+    "subheadlineTemplate": "Mantenimiento Piletas profesional en {{city}}."
+  }
+}

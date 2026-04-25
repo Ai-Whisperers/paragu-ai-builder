@@ -1,0 +1,22 @@
+{
+  "id": "golf_simulator_lounge",
+  "nameEs": "Simulador Golf",
+  "nameEn": "Golf Simulator",
+  "verticalId": "sports-recreation",
+  "subVertical": "golf",
+  "extends": "sports_base",
+  "tokens": "golf_simulator_lounge",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Simulador Golf en {{city}}",
+    "descriptionTemplate": "Simulador Golf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "simulador golf {{city}}",
+      "golf simulator {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Simulador Golf",
+    "subheadlineTemplate": "Simulador Golf profesional en {{city}}."
+  }
+}

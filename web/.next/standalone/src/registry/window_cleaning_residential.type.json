@@ -1,0 +1,22 @@
+{
+  "id": "window_cleaning_residential",
+  "nameEs": "Limpieza Ventanas",
+  "nameEn": "Window Cleaning",
+  "verticalId": "trades-home-services",
+  "subVertical": "cleaning-residential",
+  "extends": "trades_base",
+  "tokens": "window_cleaning_residential",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Limpieza Ventanas en {{city}}",
+    "descriptionTemplate": "Limpieza Ventanas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "limpieza ventanas {{city}}",
+      "window cleaning {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Limpieza Ventanas",
+    "subheadlineTemplate": "Limpieza Ventanas profesional en {{city}}."
+  }
+}

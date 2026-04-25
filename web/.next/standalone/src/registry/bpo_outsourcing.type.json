@@ -1,0 +1,25 @@
+{
+  "id": "bpo_outsourcing",
+  "nameEs": "BPO",
+  "nameEn": "BPO",
+  "verticalId": "b2b-professional",
+  "subVertical": "business-process-outsource",
+  "extends": "professional_services_base",
+  "tokens": "bpo_outsourcing",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - BPO en {{city}}",
+    "descriptionTemplate": "BPO profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bpo {{city}}",
+      "bpo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - BPO",
+    "subheadlineTemplate": "BPO profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

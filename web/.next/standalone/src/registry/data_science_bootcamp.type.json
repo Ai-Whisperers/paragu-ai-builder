@@ -1,0 +1,22 @@
+{
+  "id": "data_science_bootcamp",
+  "nameEs": "Bootcamp Data",
+  "nameEn": "Data Science Bootcamp",
+  "verticalId": "education-training",
+  "subVertical": "tech-bootcamp",
+  "extends": "educacion",
+  "tokens": "data_science_bootcamp",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Bootcamp Data en {{city}}",
+    "descriptionTemplate": "Bootcamp Data profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bootcamp data {{city}}",
+      "data science bootcamp {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bootcamp Data",
+    "subheadlineTemplate": "Bootcamp Data profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "luxury_resort",
+  "nameEs": "Resort de Lujo",
+  "nameEn": "Luxury Resort",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "hotel-resort",
+  "extends": "restaurant",
+  "tokens": "luxury_resort",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Resort de Lujo en {{city}}",
+    "descriptionTemplate": "Resort de Lujo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "resort de lujo {{city}}",
+      "luxury resort {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Resort de Lujo",
+    "subheadlineTemplate": "Resort de Lujo profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hops_farm",
+  "nameEs": "Lupulo",
+  "nameEn": "Hops Farm",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "specialty-crop",
+  "extends": "agriculture_base",
+  "tokens": "hops_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Lupulo en {{city}}",
+    "descriptionTemplate": "Lupulo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lupulo {{city}}",
+      "hops farm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lupulo",
+    "subheadlineTemplate": "Lupulo profesional en {{city}}."
+  }
+}

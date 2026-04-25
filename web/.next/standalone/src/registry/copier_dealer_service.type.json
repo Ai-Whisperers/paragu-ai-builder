@@ -1,0 +1,24 @@
+{
+  "id": "copier_dealer_service",
+  "nameEs": "Fotocopiadoras e Impresoras",
+  "nameEn": "Copier & Printer Dealer",
+  "verticalId": "b2b-professional",
+  "subVertical": "office-equipment",
+  "extends": "professional_services_base",
+  "tokens": "copier_dealer_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotocopiadoras e Impresoras en {{city}}",
+    "descriptionTemplate": "Venta, alquiler y mantenimiento de fotocopiadoras e impresoras para oficinas en {{city}}. Contratos por volumen y servicio tecnico.",
+    "keywords": [
+      "fotocopiadoras {{city}}",
+      "alquiler impresoras {{city}}",
+      "servicio tecnico copiadoras {{neighborhood}}",
+      "toner {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fotocopiadoras e Impresoras",
+    "subheadlineTemplate": "Venta, alquiler y mantenimiento de equipos de oficina en {{city}}."
+  }
+}

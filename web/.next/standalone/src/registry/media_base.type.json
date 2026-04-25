@@ -1,0 +1,70 @@
+{
+  "id": "media_base",
+  "nameEs": "Base Medios",
+  "nameEn": "Media Base",
+  "verticalId": "media-publishing",
+  "abstract": true,
+  "tokens": "media_base",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "about",
+        "blogIndex",
+        "services",
+        "testimonials",
+        "leadForm",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "blog": {
+      "enabled": true
+    },
+    "newsletterSignup": {
+      "enabled": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    }
+  },
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - {{nameEs}} en {{city}}",
+    "descriptionTemplate": "Base Medios profesional en {{city}}."
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Articulos",
+      "Suscribirse",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Suscribirse",
+      "action": "leadForm"
+    }
+  },
+  "hero": {
+    "style": "minimal",
+    "headlineTemplate": "{{businessName}} - Historias que importan",
+    "subheadlineTemplate": "Contenido independiente y de calidad.",
+    "ctaPrimary": {
+      "text": "Suscribirse",
+      "action": "leadForm"
+    },
+    "ctaSecondary": {
+      "text": "Leer",
+      "action": "scrollTo:blogIndex"
+    }
+  }
+}

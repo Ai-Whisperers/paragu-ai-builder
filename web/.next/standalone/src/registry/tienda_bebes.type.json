@@ -1,0 +1,25 @@
+{
+  "id": "tienda_bebes",
+  "nameEs": "Tienda de Bebes",
+  "nameEn": "Baby Store",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "tienda_bebes",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda de Bebes en {{city}}",
+    "descriptionTemplate": "Ropa, cunas, coches, accesorios y pañales en un solo lugar.",
+    "keywords": [
+      "tienda bebes {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Todo para el bebe, con cuidado",
+    "subheadlineTemplate": "Ropa, cunas, coches, accesorios y pañales en un solo lugar."
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG"
+  }
+}

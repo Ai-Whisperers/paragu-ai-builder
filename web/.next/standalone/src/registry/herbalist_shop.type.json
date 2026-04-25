@@ -1,0 +1,22 @@
+{
+  "id": "herbalist_shop",
+  "nameEs": "Herbolaria",
+  "nameEn": "Herbalist",
+  "verticalId": "health-wellness",
+  "subVertical": "alternative-medicine",
+  "extends": "health_wellness_base",
+  "tokens": "herbalist_shop",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Herbolaria en {{city}}",
+    "descriptionTemplate": "Herbolaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "herbolaria {{city}}",
+      "herbalist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Herbolaria",
+    "subheadlineTemplate": "Herbolaria profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "crypto_tax_specialist",
+  "nameEs": "Impuestos Crypto",
+  "nameEn": "Crypto Tax",
+  "verticalId": "finance-insurance",
+  "subVertical": "tax-prep",
+  "extends": "finance_insurance_base",
+  "tokens": "crypto_tax_specialist",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Impuestos Crypto en {{city}}",
+    "descriptionTemplate": "Impuestos Crypto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "impuestos crypto {{city}}",
+      "crypto tax {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Impuestos Crypto",
+    "subheadlineTemplate": "Impuestos Crypto profesional en {{city}}."
+  }
+}

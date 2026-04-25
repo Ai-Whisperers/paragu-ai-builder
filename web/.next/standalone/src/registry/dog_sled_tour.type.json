@@ -1,0 +1,22 @@
+{
+  "id": "dog_sled_tour",
+  "nameEs": "Tour Trineo Perros",
+  "nameEn": "Dog Sled Tour",
+  "verticalId": "sports-recreation",
+  "subVertical": "winter-sports",
+  "extends": "sports_base",
+  "tokens": "dog_sled_tour",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Tour Trineo Perros en {{city}}",
+    "descriptionTemplate": "Tour Trineo Perros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour trineo perros {{city}}",
+      "dog sled tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour Trineo Perros",
+    "subheadlineTemplate": "Tour Trineo Perros profesional en {{city}}."
+  }
+}

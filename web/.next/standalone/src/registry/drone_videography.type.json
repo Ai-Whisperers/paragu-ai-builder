@@ -1,0 +1,22 @@
+{
+  "id": "drone_videography",
+  "nameEs": "Video con Drone",
+  "nameEn": "Drone Videography",
+  "verticalId": "portfolio-professional",
+  "subVertical": "videography-film",
+  "extends": "diseno_grafico",
+  "tokens": "drone_videography",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Video con Drone en {{city}}",
+    "descriptionTemplate": "Video con Drone profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "video con drone {{city}}",
+      "drone videography {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Video con Drone",
+    "subheadlineTemplate": "Video con Drone profesional en {{city}}."
+  }
+}

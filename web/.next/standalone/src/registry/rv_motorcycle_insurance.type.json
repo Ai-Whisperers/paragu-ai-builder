@@ -1,0 +1,22 @@
+{
+  "id": "rv_motorcycle_insurance",
+  "nameEs": "Seguro RV",
+  "nameEn": "RV Insurance",
+  "verticalId": "finance-insurance",
+  "subVertical": "insurance-specialty",
+  "extends": "finance_insurance_base",
+  "tokens": "rv_motorcycle_insurance",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Seguro RV en {{city}}",
+    "descriptionTemplate": "Seguro RV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "seguro rv {{city}}",
+      "rv insurance {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Seguro RV",
+    "subheadlineTemplate": "Seguro RV profesional en {{city}}."
+  }
+}

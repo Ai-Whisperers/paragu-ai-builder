@@ -1,0 +1,22 @@
+{
+  "id": "bbq_catering",
+  "nameEs": "Catering de Parrilla",
+  "nameEn": "BBQ Catering",
+  "verticalId": "food-beverage",
+  "subVertical": "catering",
+  "extends": "restaurant",
+  "tokens": "bbq_catering",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Catering de Parrilla en {{city}}",
+    "descriptionTemplate": "Catering de Parrilla profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "catering de parrilla {{city}}",
+      "bbq catering {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Catering de Parrilla",
+    "subheadlineTemplate": "Catering de Parrilla profesional en {{city}}."
+  }
+}

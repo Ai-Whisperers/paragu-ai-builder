@@ -1,0 +1,22 @@
+{
+  "id": "montessori_school",
+  "nameEs": "Escuela Montessori",
+  "nameEn": "Montessori School",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "montessori_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Montessori en {{city}}",
+    "descriptionTemplate": "Escuela Montessori profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela montessori {{city}}",
+      "montessori school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Montessori",
+    "subheadlineTemplate": "Escuela Montessori profesional en {{city}}."
+  }
+}

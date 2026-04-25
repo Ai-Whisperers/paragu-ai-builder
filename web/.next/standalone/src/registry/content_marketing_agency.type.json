@@ -1,0 +1,22 @@
+{
+  "id": "content_marketing_agency",
+  "nameEs": "Agencia Contenido",
+  "nameEn": "Content Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "marketing-agency",
+  "extends": "professional_services_base",
+  "tokens": "content_marketing_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia Contenido en {{city}}",
+    "descriptionTemplate": "Agencia Contenido profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia contenido {{city}}",
+      "content agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Contenido",
+    "subheadlineTemplate": "Agencia Contenido profesional en {{city}}."
+  }
+}

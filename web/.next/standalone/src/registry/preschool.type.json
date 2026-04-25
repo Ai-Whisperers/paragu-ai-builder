@@ -1,0 +1,22 @@
+{
+  "id": "preschool",
+  "nameEs": "Jardin de Infantes",
+  "nameEn": "Preschool",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "preschool",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Jardin de Infantes en {{city}}",
+    "descriptionTemplate": "Jardin de Infantes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "jardin de infantes {{city}}",
+      "preschool {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Jardin de Infantes",
+    "subheadlineTemplate": "Jardin de Infantes profesional en {{city}}."
+  }
+}

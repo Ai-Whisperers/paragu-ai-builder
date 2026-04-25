@@ -1,0 +1,22 @@
+{
+  "id": "headstone_monument_maker",
+  "nameEs": "Lapidas",
+  "nameEn": "Monument Maker",
+  "verticalId": "death-care",
+  "subVertical": "monument-headstone",
+  "extends": "death_care_base",
+  "tokens": "headstone_monument_maker",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Lapidas en {{city}}",
+    "descriptionTemplate": "Lapidas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lapidas {{city}}",
+      "monument maker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lapidas",
+    "subheadlineTemplate": "Lapidas profesional en {{city}}."
+  }
+}

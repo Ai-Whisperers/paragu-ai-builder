@@ -1,0 +1,25 @@
+{
+  "id": "hard_money_lender",
+  "nameEs": "Hard Money",
+  "nameEn": "Hard Money Lender",
+  "verticalId": "finance-insurance",
+  "subVertical": "lending-retail",
+  "extends": "finance_insurance_base",
+  "tokens": "hard_money_lender",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Hard Money en {{city}}",
+    "descriptionTemplate": "Hard Money profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hard money {{city}}",
+      "hard money lender {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hard Money",
+    "subheadlineTemplate": "Hard Money profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

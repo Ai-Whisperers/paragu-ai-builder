@@ -1,0 +1,22 @@
+{
+  "id": "country_social_club",
+  "nameEs": "Country Social",
+  "nameEn": "Country Club",
+  "verticalId": "membership-community",
+  "subVertical": "social-club",
+  "extends": "membership_base",
+  "tokens": "country_social_club",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Country Social en {{city}}",
+    "descriptionTemplate": "Country Social profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "country social {{city}}",
+      "country club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Country Social",
+    "subheadlineTemplate": "Country Social profesional en {{city}}."
+  }
+}

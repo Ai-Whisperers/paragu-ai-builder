@@ -1,0 +1,22 @@
+{
+  "id": "radiator_specialist",
+  "nameEs": "Especialista Radiadores",
+  "nameEn": "Radiator Specialist",
+  "verticalId": "automotive",
+  "subVertical": "repair-maintenance",
+  "extends": "automotive_base",
+  "tokens": "radiator_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Especialista Radiadores en {{city}}",
+    "descriptionTemplate": "Especialista Radiadores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista radiadores {{city}}",
+      "radiator specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Radiadores",
+    "subheadlineTemplate": "Especialista Radiadores profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "all_inclusive_resort",
+  "nameEs": "Resort Todo Incluido",
+  "nameEn": "All-Inclusive Resort",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "hotel-resort",
+  "extends": "restaurant",
+  "tokens": "all_inclusive_resort",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Resort Todo Incluido en {{city}}",
+    "descriptionTemplate": "Resort Todo Incluido profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "resort todo incluido {{city}}",
+      "all-inclusive resort {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Resort Todo Incluido",
+    "subheadlineTemplate": "Resort Todo Incluido profesional en {{city}}."
+  }
+}

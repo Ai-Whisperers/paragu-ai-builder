@@ -1,0 +1,22 @@
+{
+  "id": "direct_cremation_provider",
+  "nameEs": "Cremacion Directa",
+  "nameEn": "Direct Cremation",
+  "verticalId": "death-care",
+  "subVertical": "funeral-home",
+  "extends": "death_care_base",
+  "tokens": "direct_cremation_provider",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Cremacion Directa en {{city}}",
+    "descriptionTemplate": "Cremacion Directa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cremacion directa {{city}}",
+      "direct cremation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cremacion Directa",
+    "subheadlineTemplate": "Cremacion Directa profesional en {{city}}."
+  }
+}

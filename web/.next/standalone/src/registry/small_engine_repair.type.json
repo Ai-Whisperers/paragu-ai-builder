@@ -1,0 +1,22 @@
+{
+  "id": "small_engine_repair",
+  "nameEs": "Reparacion Motores Pequenos",
+  "nameEn": "Small Engine Repair",
+  "verticalId": "technology-digital",
+  "subVertical": "repair-tech",
+  "extends": "technology_base",
+  "tokens": "small_engine_repair",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reparacion Motores Pequenos en {{city}}",
+    "descriptionTemplate": "Reparacion Motores Pequenos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reparacion motores pequenos {{city}}",
+      "small engine repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparacion Motores Pequenos",
+    "subheadlineTemplate": "Reparacion Motores Pequenos profesional en {{city}}."
+  }
+}

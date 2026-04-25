@@ -1,0 +1,22 @@
+{
+  "id": "grocery_delivery",
+  "nameEs": "Delivery Supermercado",
+  "nameEn": "Grocery Delivery",
+  "verticalId": "logistics-transport",
+  "subVertical": "courier-lastmile",
+  "extends": "logistics_base",
+  "tokens": "grocery_delivery",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Delivery Supermercado en {{city}}",
+    "descriptionTemplate": "Delivery Supermercado profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "delivery supermercado {{city}}",
+      "grocery delivery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Delivery Supermercado",
+    "subheadlineTemplate": "Delivery Supermercado profesional en {{city}}."
+  }
+}

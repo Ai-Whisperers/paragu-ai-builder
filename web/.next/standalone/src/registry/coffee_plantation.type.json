@@ -1,0 +1,22 @@
+{
+  "id": "coffee_plantation",
+  "nameEs": "Cafetal",
+  "nameEn": "Coffee Plantation",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "specialty-crop",
+  "extends": "agriculture_base",
+  "tokens": "coffee_plantation",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Cafetal en {{city}}",
+    "descriptionTemplate": "Cafetal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cafetal {{city}}",
+      "coffee plantation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cafetal",
+    "subheadlineTemplate": "Cafetal profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "photography_tour",
+  "nameEs": "Tour Fotografico",
+  "nameEn": "Photography Tour",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "photography_tour",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tour Fotografico en {{city}}",
+    "descriptionTemplate": "Tour Fotografico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour fotografico {{city}}",
+      "photography tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour Fotografico",
+    "subheadlineTemplate": "Tour Fotografico profesional en {{city}}."
+  }
+}
