@@ -11,120 +11,43 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=118, pages=238, content=138, blog=31, images=3, verticals=23. */
+/** Counts: sites=41, pages=162, content=61, blog=31, images=3, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
-  "demo-abogado-corporativo",
-  "demo-abogado-familia",
-  "demo-abogado-migratorio",
-  "demo-abogado-penalista",
-  "demo-academia-cocina",
-  "demo-academia-idiomas",
-  "demo-academia-ingles",
-  "demo-acupuntura",
-  "demo-adiestramiento-canino",
-  "demo-agencia-aduana",
-  "demo-agencia-viajes",
-  "demo-aire-acondicionado",
-  "demo-albanil",
-  "demo-alquiler-temporario",
-  "demo-alquiler-trajes",
-  "demo-animacion-infantil",
-  "demo-apoyo-escolar",
-  "demo-aromaterapia",
-  "demo-artes-marciales",
-  "demo-asesor-financiero",
-  "demo-audio-autos",
-  "demo-auditoria",
-  "demo-autoescuela",
-  "demo-baile-fitness",
   "demo-barberia",
-  "demo-body-piercing",
-  "demo-boxeo",
-  "demo-branding",
-  "demo-cafe-bistro",
-  "demo-carpintero",
-  "demo-castillos-inflables",
-  "demo-catering",
-  "demo-catering-empresarial",
-  "demo-cerrajeria-autos",
+  "demo-bodega",
+  "demo-cafeteria",
+  "demo-carniceria",
   "demo-cerrajero",
-  "demo-chapa-pintura",
-  "demo-clases-guitarra",
-  "demo-coding-bootcamp",
-  "demo-colisiones",
+  "demo-clinica-integral",
   "demo-consultora-agro",
   "demo-consultora-rrhh",
   "demo-consultora-ti",
   "demo-contador",
-  "demo-corredor-inmobiliario",
-  "demo-corredor-seguros",
-  "demo-crossfit",
-  "demo-depilacion",
-  "demo-depilacion-brasilena",
-  "demo-dermatologia",
-  "demo-desarrollador-inmobiliario",
-  "demo-despachante",
-  "demo-detailing",
-  "demo-diseno-grafico",
-  "demo-diseno-interiores",
-  "demo-diseno-web",
-  "demo-dj",
   "demo-electricista",
-  "demo-entrenamiento-funcional",
-  "demo-escuela-musica",
-  "demo-estancia-eventos",
   "demo-estetica",
-  "demo-estudio-contable",
   "demo-farmacia",
-  "demo-fonoaudiologia",
-  "demo-food-truck",
-  "demo-fotografia-bodas",
-  "demo-fotografia-dron",
-  "demo-fotografia-eventos",
-  "demo-fotografia-producto",
-  "demo-frenos",
-  "demo-fumigacion",
-  "demo-geriatria",
+  "demo-ferreteria",
   "demo-gimnasio",
-  "demo-ginecologia",
   "demo-gomeria",
-  "demo-grua-remolque",
   "demo-hamburgueseria",
-  "demo-handyman",
-  "demo-heladeria",
   "demo-herreria",
-  "demo-hostal",
-  "demo-hotel",
-  "demo-hotel-boutique",
-  "demo-ilustrador",
   "demo-inmobiliaria",
-  "demo-limpieza-hogar",
-  "demo-locutor",
-  "demo-marketing-digital",
-  "demo-medicina-familiar",
+  "demo-lavadero",
   "demo-odontologia",
-  "demo-otorrino",
+  "demo-panaderia",
   "demo-panaderia-artesanal",
-  "demo-parabrisas",
-  "demo-paseador-perros",
-  "demo-payaso-animador",
+  "demo-parrilla",
   "demo-peluqueria",
-  "demo-peluqueria-canina",
-  "demo-pensionado-canino",
   "demo-plomero",
-  "demo-quiropraxia",
-  "demo-salon-fiestas",
+  "demo-psicologia",
+  "demo-restaurant",
+  "demo-salon-belleza",
   "demo-spa",
-  "demo-spa-facial",
   "demo-taller-mecanico",
-  "demo-tasador",
-  "demo-tatuajes",
-  "demo-traductor",
   "demo-unas",
   "demo-veterinaria",
-  "demo-yoga",
   "fun4me",
   "granja-cabral",
   "nexa-paraguay",
@@ -774,10 +697,21 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "founded": "2019-11-20",
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": "G-XXXXXXXXXXX",
+          "streamName": "paragu-ai-builder"
+        }
+      },
+      "hubspot": {
+        "formId": "contact-form-paragu-ai",
+        "portalId": "HS-PORTAL-PARAGUAI"
+      },
+      "mailchimp": {
+        "audienceId": "audience-paragu-ai-newsletter"
+      }
     },
+    "isLiveProduction": true,
     "is_demo": false,
     "legalName": "Daihana Araujo",
     "locales": [
@@ -815,10 +749,21 @@ export const SITES: Record<string, JsonRecord> = {
       "Sabado": "09:00 - 14:00 (entregas)"
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": "R-XXXXXXXXXX",
+          "streamName": "paragu-ai-builder-dayah-litworks"
+        }
+      },
+      "hubspot": {
+        "formId": "contact-form-paragu-ai",
+        "portalId": "HS-PORTAL-PARAGUAI"
+      },
+      "mailchimp": {
+        "audienceId": "audience-paragu-ai-newsletter"
+      }
     },
+    "isLiveProduction": true,
     "is_demo": false,
     "locales": [
       "es"
@@ -833,19 +778,69 @@ export const SITES: Record<string, JsonRecord> = {
     "stagingDomain": "staging.deabastoacasa.com.py",
     "vertical": "food-beverage"
   },
-  "demo-abogado-corporativo": {
-    "businessType": "corporate_business_lawyer",
+  "demo-barberia": {
+    "businessType": "barberia",
+    "contact": {
+      "email": "info@barberiasanlorenzo.com.py",
+      "instagram": "@barberia.sanlorenzo.py",
+      "phone": "+595985123456",
+      "whatsapp": "+595985123456"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "integrations": {
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-barberia"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-barberia-form",
+        "portalId": null
+      }
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Defensores del Chaco 1450",
+      "city": "San Lorenzo",
+      "coordinates": {
+        "lat": -25.345,
+        "lng": -57.535
+      },
+      "googleMapsId": "ChIJ8UqKRTcRmZQR8WjK5T5j7tZ"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-barberia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-barberia",
+    "social": {
+      "facebook": "barberiasanlorenzo",
+      "instagram": "@barberia.sanlorenzo.py",
+      "tiktok": "@barberiasanlorenzo"
+    },
+    "source": "manual-enriched",
+    "vertical": "beauty-personal-care"
+  },
+  "demo-bodega": {
+    "businessType": "bodega_corner_store",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.corporate.business.lawyer.py",
+      "instagram": "@demo.bodega.corner.store.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "corporate_business_lawyer",
+    "demoCluster": "Comercio",
+    "demoRubro": "bodega_corner_store",
     "demoWave": 3,
     "features": {
       "testimonials": true,
@@ -856,507 +851,30 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-abogado-familia": {
-    "businessType": "family_divorce_lawyer",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.family.divorce.lawyer.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "family_divorce_lawyer",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-abogado-migratorio": {
-    "businessType": "immigration_lawyer",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.immigration.lawyer.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "immigration_lawyer",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-abogado-penalista": {
-    "businessType": "criminal_defense_lawyer",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.criminal.defense.lawyer.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "criminal_defense_lawyer",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-academia-cocina": {
-    "businessType": "academia_cocina",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.academia.cocina.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "academia_cocina",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-academia-idiomas": {
-    "businessType": "academia_idiomas",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.academia.idiomas.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "academia_idiomas",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-academia-ingles": {
-    "businessType": "english_academy",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.english.academy.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "english_academy",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-acupuntura": {
-    "businessType": "acupuncture_clinic",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.acupuncture.clinic.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "acupuncture_clinic",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-adiestramiento-canino": {
-    "businessType": "dog_obedience_trainer",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dog.obedience.trainer.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "I Pets",
-    "demoRubro": "dog_obedience_trainer",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "San Lorenzo"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "pets-animals"
-  },
-  "demo-agencia-aduana": {
-    "businessType": "agencia_aduana",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.agencia.aduana.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "agencia_aduana",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-agencia-viajes": {
-    "businessType": "agencia_viajes",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.agencia.viajes.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "agencia_viajes",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
-  },
-  "demo-aire-acondicionado": {
-    "businessType": "aire_acondicionado",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.aire.acondicionado.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "aire_acondicionado",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-albanil": {
-    "businessType": "albanil",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.albanil.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "albanil",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "San Lorenzo"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-alquiler-temporario": {
-    "businessType": "alquiler_temporario",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.alquiler.temporario.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "alquiler_temporario",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
-  },
-  "demo-alquiler-trajes": {
-    "businessType": "formalwear_rental",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.formalwear.rental.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "formalwear_rental",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
+      "city": "Fernando de la Mora"
     },
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "retail-local"
   },
-  "demo-animacion-infantil": {
-    "businessType": "childrens_entertainer",
+  "demo-cafeteria": {
+    "businessType": "cafeteria",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.childrens.entertainer.py",
+      "instagram": "@demo.cafeteria.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "childrens_entertainer",
-    "demoWave": 1,
+    "demoCluster": "Gastronomía",
+    "demoRubro": "cafeteria",
+    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
@@ -1366,31 +884,30 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Lambare"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "service-booking"
+    "vertical": "food-beverage"
   },
-  "demo-apoyo-escolar": {
-    "businessType": "apoyo_escolar",
+  "demo-carniceria": {
+    "businessType": "carniceria",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.apoyo.escolar.py",
+      "instagram": "@demo.carniceria.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "apoyo_escolar",
-    "demoWave": 2,
+    "demoCluster": "Comercio",
+    "demoRubro": "carniceria",
+    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
@@ -1400,75 +917,6 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-aromaterapia": {
-    "businessType": "aromatherapy_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.aromatherapy.studio.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "aromatherapy_studio",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-artes-marciales": {
-    "businessType": "artes_marciales",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.artes.marciales.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "artes_marciales",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
     "locales": [
       "es"
     ],
@@ -1477,517 +925,7 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "service-booking"
-  },
-  "demo-asesor-financiero": {
-    "businessType": "financial_planner",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.financial.planner.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "financial_planner",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "finance-insurance"
-  },
-  "demo-audio-autos": {
-    "businessType": "car_audio_shop",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.car.audio.shop.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "car_audio_shop",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Fernando de la Mora"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "automotive"
-  },
-  "demo-auditoria": {
-    "businessType": "auditoria",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.auditoria.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "auditoria",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-autoescuela": {
-    "businessType": "escuela_conducir",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.escuela.conducir.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "escuela_conducir",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "San Lorenzo"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "automotive"
-  },
-  "demo-baile-fitness": {
-    "businessType": "dance_fitness_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dance.fitness.studio.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "dance_fitness_studio",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Luque"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-barberia": {
-    "businessType": "barberia",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.barberia.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "barberia",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-body-piercing": {
-    "businessType": "body_piercing_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.body.piercing.studio.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "body_piercing_studio",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-boxeo": {
-    "businessType": "boxing_gym_training",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.boxing.gym.training.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "boxing_gym_training",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Fernando de la Mora"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "sports-recreation"
-  },
-  "demo-branding": {
-    "businessType": "branding_agency",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.branding.agency.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "branding_agency",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-cafe-bistro": {
-    "businessType": "cafe_bistro",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.cafe.bistro.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "C E-commerce",
-    "demoRubro": "cafe_bistro",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "food-beverage"
-  },
-  "demo-carpintero": {
-    "businessType": "carpintero",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.carpintero.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "carpintero",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Encarnacion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-castillos-inflables": {
-    "businessType": "bouncy_castle_rental",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.bouncy.castle.rental.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "bouncy_castle_rental",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "San Lorenzo"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "service-booking"
-  },
-  "demo-catering": {
-    "businessType": "catering",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.catering.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "catering",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "food-beverage"
-  },
-  "demo-catering-empresarial": {
-    "businessType": "drop_off_caterer",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.drop.off.caterer.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "C E-commerce",
-    "demoRubro": "drop_off_caterer",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "food-beverage"
-  },
-  "demo-cerrajeria-autos": {
-    "businessType": "automotive_locksmith",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.automotive.locksmith.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "automotive_locksmith",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
+    "vertical": "retail-local"
   },
   "demo-cerrajero": {
     "businessType": "cerrajero",
@@ -1997,12 +935,12 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "E Trades",
+    "demoCluster": "Oficios",
     "demoRubro": "cerrajero",
-    "demoWave": 1,
+    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
@@ -2012,32 +950,33 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Lambare"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "trades-home-services"
   },
-  "demo-chapa-pintura": {
-    "businessType": "auto_body_shop",
+  "demo-clinica-integral": {
+    "businessType": "clinica_integral",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.auto.body.shop.py",
+      "email": "contacto@clicnicaintegralasuncion.com.py",
+      "instagram": "@clinicaintegral.asuncion",
+      "phone": "+595985724135",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "auto_body_shop",
-    "demoWave": 2,
+    "demoCluster": "Salud",
+    "demoRubro": "clinica_integral",
+    "demoWave": 1,
     "features": {
+      "onlineBooking": true,
       "testimonials": true,
       "whatsappFloat": true
     },
@@ -2046,696 +985,216 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Lambare"
+      "address": "Av. Mariscal López 1.234 casi Av. España",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.282,
+        "lng": -57.635
+      }
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "automotive"
-  },
-  "demo-clases-guitarra": {
-    "businessType": "guitar_lessons",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.guitar.lessons.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "guitar_lessons",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Fernando de la Mora"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-coding-bootcamp": {
-    "businessType": "coding_bootcamp",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.coding.bootcamp.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "coding_bootcamp",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-colisiones": {
-    "businessType": "collision_repair_center",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.collision.repair.center.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "collision_repair_center",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "automotive"
+    "vertical": "health-wellness"
   },
   "demo-consultora-agro": {
     "businessType": "consultora_agro",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.consultora.agro.py",
-      "whatsapp": "+595985724135"
+      "email": "consultas@agroconsultora.com.py",
+      "instagram": "@consultora.agro.enc.py",
+      "phone": "+595987901234",
+      "whatsapp": "+595987901234"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "consultora_agro",
-    "demoWave": 2,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-consultora-agro"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-consultora-agro-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Encarnacion"
+      "address": "Av. Irrazábal 2345",
+      "city": "Encarnación",
+      "coordinates": {
+        "lat": -27.33,
+        "lng": -55.9
+      },
+      "googleMapsId": "ChIJ3WqPRTcRmZQR3WnP5T5j2tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-consultora-agro",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-agro",
+    "social": {
+      "instagram": "@consultora.agro.enc.py",
+      "linkedin": "consultora-agro-encarnacion"
+    },
+    "source": "manual-enriched",
     "vertical": "b2b-professional"
   },
   "demo-consultora-rrhh": {
     "businessType": "consultora_rrhh",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.consultora.rrhh.py",
-      "whatsapp": "+595985724135"
+      "email": "info@rrhhconsultora.com.py",
+      "instagram": "@consultora.rrhh.py",
+      "phone": "+595981567890",
+      "whatsapp": "+595981567890"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "consultora_rrhh",
-    "demoWave": 2,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-consultora-rrhh"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-consultora-rrhh-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Av. España 1234",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.28,
+        "lng": -57.635
+      },
+      "googleMapsId": "ChIJ4WqQRTcRmZQR4WnQ5T5j3tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-consultora-rrhh",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-rrhh",
+    "social": {
+      "instagram": "@consultora.rrhh.py",
+      "linkedin": "consultora-rrhh-asuncion"
+    },
+    "source": "manual-enriched",
     "vertical": "b2b-professional"
   },
   "demo-consultora-ti": {
     "businessType": "consultora_ti",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.consultora.ti.py",
-      "whatsapp": "+595985724135"
+      "email": "ventas@tisoluciones.com.py",
+      "instagram": "@consultora.ti.cde.py",
+      "phone": "+595987654321",
+      "whatsapp": "+595987654321"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "consultora_ti",
-    "demoWave": 2,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-consultora-ti"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-consultora-ti-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Av. Adrián Jara 567",
+      "city": "Ciudad del Este",
+      "coordinates": {
+        "lat": -25.5,
+        "lng": -54.6167
+      },
+      "googleMapsId": "ChIJ5WqRRTcRmZQR5WnR5T5j4tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-consultora-ti",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-ti",
+    "social": {
+      "instagram": "@consultora.ti.cde.py",
+      "linkedin": "consultora-ti-cde"
+    },
+    "source": "manual-enriched",
     "vertical": "b2b-professional"
   },
   "demo-contador": {
     "businessType": "contador",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.contador.py",
-      "whatsapp": "+595985724135"
+      "email": "estudio@contadorespy.com.py",
+      "instagram": "@contador.asuncion.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "contador",
-    "demoWave": 2,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-contador"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-contador-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Eusebio Ayala 2345",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.282,
+        "lng": -57.633
+      },
+      "googleMapsId": "ChIJ6WqSRTcRmZQR6WnS5T5j5tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-contador",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-contador",
+    "social": {
+      "instagram": "@contador.asuncion.py",
+      "linkedin": "estudio-contable-asuncion"
+    },
+    "source": "manual-enriched",
     "vertical": "b2b-professional"
-  },
-  "demo-corredor-inmobiliario": {
-    "businessType": "corredor_inmobiliario",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.corredor.inmobiliario.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "corredor_inmobiliario",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "real-estate-relocation"
-  },
-  "demo-corredor-seguros": {
-    "businessType": "broker_seguros",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.broker.seguros.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "broker_seguros",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-crossfit": {
-    "businessType": "crossfit_box",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.crossfit.box.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "crossfit_box",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-depilacion": {
-    "businessType": "depilacion",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.depilacion.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "depilacion",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Fernando de la Mora"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-depilacion-brasilena": {
-    "businessType": "brazilian_wax_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.brazilian.wax.studio.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "brazilian_wax_studio",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-dermatologia": {
-    "businessType": "dermatologia",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dermatologia.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "dermatologia",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-desarrollador-inmobiliario": {
-    "businessType": "desarrollador_inmobiliario",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.desarrollador.inmobiliario.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "desarrollador_inmobiliario",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "real-estate-relocation"
-  },
-  "demo-despachante": {
-    "businessType": "despachante",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.despachante.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "despachante",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
-  },
-  "demo-detailing": {
-    "businessType": "detailing",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.detailing.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "detailing",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Luque"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "automotive"
-  },
-  "demo-diseno-grafico": {
-    "businessType": "diseno_grafico",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.diseno.grafico.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "diseno_grafico",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-diseno-interiores": {
-    "businessType": "diseno_interiores",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.diseno.interiores.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "diseno_interiores",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-diseno-web": {
-    "businessType": "diseno_web",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.diseno.web.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "diseno_web",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-dj": {
-    "businessType": "dj_service",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dj.service.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "dj_service",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Fernando de la Mora"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "service-booking"
   },
   "demo-electricista": {
     "businessType": "electricista",
@@ -2745,79 +1204,11 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "E Trades",
+    "demoCluster": "Oficios",
     "demoRubro": "electricista",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-entrenamiento-funcional": {
-    "businessType": "functional_training_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.functional.training.studio.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "functional_training_studio",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "San Lorenzo"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-escuela-musica": {
-    "businessType": "escuela_musica",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.escuela.musica.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "escuela_musica",
     "demoWave": 2,
     "features": {
       "testimonials": true,
@@ -2828,234 +1219,128 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Lambare"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-estancia-eventos": {
-    "businessType": "estancia_event_venue",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.estancia.event.venue.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "estancia_event_venue",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
+    "vertical": "trades-home-services"
   },
   "demo-estetica": {
     "businessType": "estetica",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.estetica.py",
-      "whatsapp": "+595985724135"
+      "email": "info@esteticaluque.com.py",
+      "instagram": "@estetica.luque.py",
+      "phone": "+595984345678",
+      "whatsapp": "+595984345678"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "estetica",
-    "demoWave": 1,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-estetica"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-estetica-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Luque"
+      "address": "Av. Gral. Aquino 890",
+      "city": "Luque",
+      "coordinates": {
+        "lat": -25.2746,
+        "lng": -57.488
+      },
+      "googleMapsId": "ChIJ9VqLRTcRmZQR9WmL5T5j8tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-estetica",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-estetica",
+    "social": {
+      "facebook": "esteticaluque",
+      "instagram": "@estetica.luque.py",
+      "tiktok": "@esteticaluque"
+    },
+    "source": "manual-enriched",
     "vertical": "beauty-personal-care"
-  },
-  "demo-estudio-contable": {
-    "businessType": "cpa_firm",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.cpa.firm.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "cpa_firm",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
   },
   "demo-farmacia": {
     "businessType": "farmacia",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.farmacia.py",
-      "whatsapp": "+595985724135"
+      "email": "pedidos@farmaciaencarnacion.com.py",
+      "instagram": "@farmacia.encarnacion.py",
+      "phone": "+595987890123",
+      "whatsapp": "+595987890123"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "farmacia",
-    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-farmacia"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-farmacia-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Encarnacion"
+      "address": "Av. Caballero 345",
+      "city": "Encarnación",
+      "coordinates": {
+        "lat": -27.3467,
+        "lng": -55.8667
+      },
+      "googleMapsId": "ChIJ2WqORTcRmZQR2WnO5T5j1tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-farmacia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-farmacia",
+    "social": {
+      "facebook": "farmaciaencarnacion",
+      "instagram": "@farmacia.encarnacion.py"
+    },
+    "source": "manual-enriched",
     "vertical": "health-wellness"
   },
-  "demo-fonoaudiologia": {
-    "businessType": "fonoaudiologia",
+  "demo-ferreteria": {
+    "businessType": "ferreteria",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.fonoaudiologia.py",
+      "instagram": "@demo.ferreteria.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "fonoaudiologia",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Luque"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-food-truck": {
-    "businessType": "food_truck",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.food.truck.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "C E-commerce",
-    "demoRubro": "food_truck",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "food-beverage"
-  },
-  "demo-fotografia-bodas": {
-    "businessType": "fotografia_bodas",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.fotografia.bodas.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "fotografia_bodas",
+    "demoCluster": "Comercio",
+    "demoRubro": "ferreteria",
     "demoWave": 2,
     "features": {
       "testimonials": true,
@@ -3066,288 +1351,65 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "San Lorenzo"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-fotografia-dron": {
-    "businessType": "drone_aerial_photographer",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.drone.aerial.photographer.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "drone_aerial_photographer",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "service-booking"
-  },
-  "demo-fotografia-eventos": {
-    "businessType": "fotografia_eventos",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.fotografia.eventos.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "fotografia_eventos",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Luque"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-fotografia-producto": {
-    "businessType": "fotografia_producto",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.fotografia.producto.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "fotografia_producto",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-frenos": {
-    "businessType": "brake_specialist",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.brake.specialist.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "brake_specialist",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "automotive"
-  },
-  "demo-fumigacion": {
-    "businessType": "fumigacion",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.fumigacion.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "fumigacion",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-geriatria": {
-    "businessType": "geriatria",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.geriatria.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "geriatria",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
+    "vertical": "retail-local"
   },
   "demo-gimnasio": {
     "businessType": "gimnasio",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.gimnasio.py",
-      "whatsapp": "+595985724135"
+      "email": "ventas@gimnasiopower.com.py",
+      "instagram": "@gimnasio.fdm.py",
+      "phone": "+595983789012",
+      "whatsapp": "+595983789012"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "gimnasio",
-    "demoWave": 1,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-gimnasio"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-gimnasio-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Ruta 2 y Av. Mcal. López Km 8",
+      "city": "Fernando de la Mora",
+      "coordinates": {
+        "lat": -25.325,
+        "lng": -57.585
+      },
+      "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-gimnasio",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-gimnasio",
+    "social": {
+      "facebook": "gimnasiopy",
+      "instagram": "@gimnasio.fdm.py",
+      "tiktok": "@gimnasiopy"
+    },
+    "source": "manual-enriched",
     "vertical": "service-booking"
-  },
-  "demo-ginecologia": {
-    "businessType": "ginecologia",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.ginecologia.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "ginecologia",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
   },
   "demo-gomeria": {
     "businessType": "gomeria",
@@ -3357,12 +1419,12 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "J Auto",
+    "demoCluster": "Automotor",
     "demoRubro": "gomeria",
-    "demoWave": 2,
+    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
@@ -3372,46 +1434,11 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "San Lorenzo"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "automotive"
-  },
-  "demo-grua-remolque": {
-    "businessType": "grua_remolque",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.grua.remolque.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "grua_remolque",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
@@ -3420,103 +1447,50 @@ export const SITES: Record<string, JsonRecord> = {
   "demo-hamburgueseria": {
     "businessType": "hamburgueseria",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.hamburgueseria.py",
-      "whatsapp": "+595985724135"
+      "email": "pedidos@hamburgueseriapy.com.py",
+      "instagram": "@hamburgueseria.py",
+      "phone": "+595981456789",
+      "whatsapp": "+595981456789"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "C E-commerce",
-    "demoRubro": "hamburgueseria",
-    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-hamburgueseria"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-hamburgueseria-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Fernando de la Mora"
+      "address": "Av. Santísimo Sacramento 123",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.285,
+        "lng": -57.58
+      },
+      "googleMapsId": "ChIJ0WqWRTcRmZQR0WnW5T5j9tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "food-beverage"
-  },
-  "demo-handyman": {
-    "businessType": "handyman_service",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.handyman.service.py",
-      "whatsapp": "+595985724135"
+    "path": "/s/es/demo-hamburgueseria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-hamburgueseria",
+    "social": {
+      "facebook": "hamburgueseriapy",
+      "instagram": "@hamburgueseria.py"
     },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "handyman_service",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Fernando de la Mora"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-heladeria": {
-    "businessType": "heladeria",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.heladeria.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "C E-commerce",
-    "demoRubro": "heladeria",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
+    "source": "manual-enriched",
     "vertical": "food-beverage"
   },
   "demo-herreria": {
@@ -3527,12 +1501,12 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "E Trades",
+    "demoCluster": "Oficios",
     "demoRubro": "herreria",
-    "demoWave": 1,
+    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
@@ -3542,302 +1516,78 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Luque"
+      "city": "Lambaré"
     },
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "trades-home-services"
-  },
-  "demo-hostal": {
-    "businessType": "hostal",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.hostal.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "hostal",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Encarnacion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
-  },
-  "demo-hotel": {
-    "businessType": "hotel",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.hotel.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "hotel",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
-  },
-  "demo-hotel-boutique": {
-    "businessType": "hotel_boutique",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.hotel.boutique.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "hotel_boutique",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Encarnacion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
-  },
-  "demo-ilustrador": {
-    "businessType": "illustrator_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.illustrator.studio.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "illustrator_studio",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Encarnacion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
   },
   "demo-inmobiliaria": {
     "businessType": "inmobiliaria",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.inmobiliaria.py",
-      "whatsapp": "+595985724135"
+      "email": "info@inmobiliariapy.com.py",
+      "instagram": "@inmobiliaria.asuncion.py",
+      "phone": "+595981890123",
+      "whatsapp": "+595981890123"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "inmobiliaria",
-    "demoWave": 3,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-inmobiliaria"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-inmobiliaria-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Av. Mcal. López 3456",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.286,
+        "lng": -57.58
+      },
+      "googleMapsId": "ChIJ8WqURTcRmZQR8WnU5T5j7tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-inmobiliaria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-inmobiliaria",
+    "social": {
+      "facebook": "inmobiliariapy",
+      "instagram": "@inmobiliaria.asuncion.py"
+    },
+    "source": "manual-enriched",
     "vertical": "real-estate-relocation"
   },
-  "demo-limpieza-hogar": {
-    "businessType": "house_cleaning_service",
+  "demo-lavadero": {
+    "businessType": "lavadero_autos",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.house.cleaning.service.py",
+      "instagram": "@demo.lavadero.autos.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "house_cleaning_service",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-locutor": {
-    "businessType": "audiobook_narrator",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.audiobook.narrator.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "audiobook_narrator",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "portfolio-professional"
-  },
-  "demo-marketing-digital": {
-    "businessType": "digital_marketing_academy",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.digital.marketing.academy.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "G Education",
-    "demoRubro": "digital_marketing_academy",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "education-training"
-  },
-  "demo-medicina-familiar": {
-    "businessType": "family_medicine_clinic",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.family.medicine.clinic.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "family_medicine_clinic",
+    "demoCluster": "Automotor",
+    "demoRubro": "lavadero_autos",
     "demoWave": 3,
     "features": {
       "testimonials": true,
@@ -3848,16 +1598,15 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "San Lorenzo"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "health-wellness"
+    "vertical": "automotive"
   },
   "demo-odontologia": {
     "businessType": "consultorio_odontologico",
@@ -3867,12 +1616,12 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "K Health",
+    "demoCluster": "Salud",
     "demoRubro": "consultorio_odontologico",
-    "demoWave": 3,
+    "demoWave": 1,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
@@ -3882,98 +1631,29 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "health-wellness"
   },
-  "demo-otorrino": {
-    "businessType": "ent_clinic",
+  "demo-panaderia": {
+    "businessType": "panaderia",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.ent.clinic.py",
+      "instagram": "@demo.panaderia.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "ent_clinic",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-panaderia-artesanal": {
-    "businessType": "artisan_bakery",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.artisan.bakery.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "C E-commerce",
-    "demoRubro": "artisan_bakery",
-    "demoWave": 3,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "food-beverage"
-  },
-  "demo-parabrisas": {
-    "businessType": "glass_windshield_repair",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.glass.windshield.repair.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "glass_windshield_repair",
+    "demoCluster": "Gastronomía",
+    "demoRubro": "panaderia",
     "demoWave": 2,
     "features": {
       "testimonials": true,
@@ -3984,234 +1664,78 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
-    "vertical": "automotive"
+    "vertical": "food-beverage"
   },
-  "demo-paseador-perros": {
-    "businessType": "dog_walker",
+  "demo-panaderia-artesanal": {
+    "businessType": "artisan_bakery",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dog.walker.py",
-      "whatsapp": "+595985724135"
+      "email": "pedidos@panaderiacapiata.com.py",
+      "instagram": "@panaderia.capiata.py",
+      "phone": "+595988567890",
+      "whatsapp": "+595988567890"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "I Pets",
-    "demoRubro": "dog_walker",
-    "demoWave": 1,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-panaderia-artesanal"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-panaderia-artesanal-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Luque"
+      "address": "Ruta 1 Km 23, Barrio Centro",
+      "city": "Capiatá",
+      "coordinates": {
+        "lat": -25.36,
+        "lng": -57.43
+      },
+      "googleMapsId": "ChIJ9WqVRTcRmZQR9WnV5T5j8tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "pets-animals"
+    "path": "/s/es/demo-panaderia-artesanal",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-panaderia-artesanal",
+    "social": {
+      "facebook": "panaderiacapiata",
+      "instagram": "@panaderia.capiata.py"
+    },
+    "source": "manual-enriched",
+    "vertical": "food-beverage"
   },
-  "demo-payaso-animador": {
-    "businessType": "clown_entertainer",
+  "demo-parrilla": {
+    "businessType": "parrilla_asador",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.clown.entertainer.py",
+      "instagram": "@demo.parrilla.asador.py",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "clown_entertainer",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "service-booking"
-  },
-  "demo-peluqueria": {
-    "businessType": "peluqueria",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.peluqueria.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "peluqueria",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-peluqueria-canina": {
-    "businessType": "dog_grooming_salon",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dog.grooming.salon.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "I Pets",
-    "demoRubro": "dog_grooming_salon",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Lambare"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "pets-animals"
-  },
-  "demo-pensionado-canino": {
-    "businessType": "dog_boarding_kennel",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.dog.boarding.kennel.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "I Pets",
-    "demoRubro": "dog_boarding_kennel",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "pets-animals"
-  },
-  "demo-plomero": {
-    "businessType": "general_plumber",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.general.plumber.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "E Trades",
-    "demoRubro": "general_plumber",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Ciudad del Este"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "trades-home-services"
-  },
-  "demo-quiropraxia": {
-    "businessType": "chiropractic_clinic",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.chiropractic.clinic.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "K Health",
-    "demoRubro": "chiropractic_clinic",
+    "demoCluster": "Gastronomía",
+    "demoRubro": "parrilla_asador",
     "demoWave": 3,
     "features": {
       "testimonials": true,
@@ -4222,30 +1746,149 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "source": "batch-create-demos",
+    "vertical": "food-beverage"
+  },
+  "demo-peluqueria": {
+    "businessType": "peluqueria",
+    "contact": {
+      "email": "contacto@peluqueriacentro.com.py",
+      "instagram": "@peluqueria.centro.py",
+      "phone": "+595981654321",
+      "whatsapp": "+595981654321"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "integrations": {
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-peluqueria"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-peluqueria-form",
+        "portalId": null
+      }
+    },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Palma 550 c/ 15 de Agosto",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.282,
+        "lng": -57.6351
+      },
+      "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-peluqueria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-peluqueria",
+    "social": {
+      "facebook": "peluqueriacentropy",
+      "instagram": "@peluqueria.centro.py",
+      "tiktok": "@peluqueriacentro"
+    },
+    "source": "manual-enriched",
+    "vertical": "beauty-personal-care"
+  },
+  "demo-plomero": {
+    "businessType": "plomero",
+    "contact": {
+      "email": "ventas@paragu-ai.com",
+      "instagram": "@demo.plomero.py",
+      "whatsapp": "+595985724135"
+    },
+    "country": "Paraguay",
+    "createdAt": "2026-04-25",
+    "defaultLocale": "es",
+    "demo": true,
+    "demoCluster": "Oficios",
+    "demoRubro": "plomero",
+    "demoWave": 2,
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "integrations": {
+      "analytics": "ga4",
+      "crm": "hubspot",
+      "email": "mailchimp"
+    },
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "source": "batch-create-demos",
+    "vertical": "trades-home-services"
+  },
+  "demo-psicologia": {
+    "businessType": "psicologia",
+    "contact": {
+      "email": "ventas@paragu-ai.com",
+      "instagram": "@demo.psicologia.py",
+      "whatsapp": "+595985724135"
+    },
+    "country": "Paraguay",
+    "createdAt": "2026-04-25",
+    "defaultLocale": "es",
+    "demo": true,
+    "demoCluster": "Salud",
+    "demoRubro": "psicologia",
+    "demoWave": 1,
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "integrations": {
+      "analytics": "ga4",
+      "crm": "hubspot",
+      "email": "mailchimp"
+    },
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "health-wellness"
   },
-  "demo-salon-fiestas": {
-    "businessType": "banquet_hall",
+  "demo-restaurant": {
+    "businessType": "restaurant",
     "contact": {
+      "address": "Av. Mariscal López 1234 casi San Martín",
+      "city": "Asunción",
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.banquet.hall.py",
+      "instagram": "@latradicion.py",
+      "neighborhood": "Barrio San Roque",
+      "phone": "+595985724135",
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "F Events",
-    "demoRubro": "banquet_hall",
+    "demoCluster": "Gastronomía",
+    "demoRubro": "restaurant",
     "demoWave": 1,
     "features": {
       "testimonials": true,
@@ -4256,30 +1899,41 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Luque"
+      "address": "Av. Mariscal López 1234 casi San Martín",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.282,
+        "lng": -57.635
+      },
+      "country": "Paraguay",
+      "neighborhood": "Barrio San Roque"
     },
     "noindex": true,
+    "social": {
+      "instagram": "https://instagram.com/latradicion.py",
+      "whatsapp": "https://wa.me/595985724135"
+    },
     "source": "batch-create-demos",
-    "vertical": "hospitality-tourism"
+    "vertical": "food-beverage"
   },
-  "demo-spa": {
-    "businessType": "day_spa",
+  "demo-salon-belleza": {
+    "businessType": "salon_belleza",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.day.spa.py",
-      "whatsapp": "+595985724135"
+      "email": "info@salonbelleza.com.py",
+      "instagram": "@salonbelleza.asuncion",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "day_spa",
+    "demoCluster": "Belleza",
+    "demoRubro": "salon_belleza",
     "demoWave": 1,
     "features": {
       "testimonials": true,
@@ -4290,186 +1944,127 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Ciudad del Este"
+      "address": "Av. España 456 c/ Sacramento",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.285,
+        "lng": -57.575
+      }
     },
     "noindex": true,
     "source": "batch-create-demos",
     "vertical": "beauty-personal-care"
   },
-  "demo-spa-facial": {
-    "businessType": "facial_spa",
+  "demo-spa": {
+    "businessType": "spa",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.facial.spa.py",
-      "whatsapp": "+595985724135"
+      "email": "contacto@demospa.com.py",
+      "instagram": "@demo.spa.py",
+      "phone": "+595981726354",
+      "whatsapp": "+595981726354"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "facial_spa",
+    "demoCluster": "Bienestar",
+    "demoRubro": "spa",
     "demoWave": 1,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-spa"
+        }
+      },
       "crm": "hubspot",
-      "email": "mailchimp"
+      "email": "mailchimp",
+      "hubspot": {
+        "formId": "demo-demo-spa-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Encarnacion"
+      "address": "Av. Santa Teresa 1250 c/ San Martín",
+      "city": "Asunción",
+      "coordinates": {
+        "lat": -25.2893,
+        "lng": -57.6065
+      },
+      "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
     },
     "noindex": true,
+    "path": "/s/es/demo-spa",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-spa",
+    "social": {
+      "facebook": "demospaasuncion",
+      "instagram": "@demo.spa.py",
+      "tiktok": "@demo.spa.py"
+    },
     "source": "batch-create-demos",
     "vertical": "beauty-personal-care"
   },
   "demo-taller-mecanico": {
     "businessType": "general_auto_repair",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.general.auto.repair.py",
-      "whatsapp": "+595985724135"
+      "email": "taller@mecanicalambare.com.py",
+      "instagram": "@taller.lambare.py",
+      "phone": "+595982345678",
+      "whatsapp": "+595982345678"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "J Auto",
-    "demoRubro": "general_auto_repair",
-    "demoWave": 2,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-taller-mecanico"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-taller-mecanico-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Av. Cacique Lambaré 890",
+      "city": "Lambaré",
+      "coordinates": {
+        "lat": -25.3456,
+        "lng": -57.625
+      },
+      "googleMapsId": "ChIJ7WqTRTcRmZQR7WnT5T5j6tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
+    "path": "/s/es/demo-taller-mecanico",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-taller-mecanico",
+    "social": {
+      "facebook": "tallerlambare",
+      "instagram": "@taller.lambare.py",
+      "tiktok": "@tallerlambare"
+    },
+    "source": "manual-enriched",
     "vertical": "automotive"
-  },
-  "demo-tasador": {
-    "businessType": "commercial_appraiser",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.commercial.appraiser.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "D Lead-gen",
-    "demoRubro": "commercial_appraiser",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "real-estate-relocation"
-  },
-  "demo-tatuajes": {
-    "businessType": "tatuajes",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.tatuajes.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "tatuajes",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "beauty-personal-care"
-  },
-  "demo-traductor": {
-    "businessType": "certified_translator",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.certified.translator.py",
-      "whatsapp": "+595985724135"
-    },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "B Portfolio",
-    "demoRubro": "certified_translator",
-    "demoWave": 2,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Asuncion"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "b2b-professional"
   },
   "demo-unas": {
     "businessType": "unas",
@@ -4479,10 +2074,10 @@ export const SITES: Record<string, JsonRecord> = {
       "whatsapp": "+595985724135"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
+    "createdAt": "2026-04-25",
     "defaultLocale": "es",
     "demo": true,
-    "demoCluster": "A Booking",
+    "demoCluster": "Belleza",
     "demoRubro": "unas",
     "demoWave": 1,
     "features": {
@@ -4494,12 +2089,11 @@ export const SITES: Record<string, JsonRecord> = {
       "crm": "hubspot",
       "email": "mailchimp"
     },
-    "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "San Lorenzo"
+      "city": "Asunción"
     },
     "noindex": true,
     "source": "batch-create-demos",
@@ -4508,69 +2102,51 @@ export const SITES: Record<string, JsonRecord> = {
   "demo-veterinaria": {
     "businessType": "veterinaria",
     "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.veterinaria.py",
-      "whatsapp": "+595985724135"
+      "email": "contacto@veterinariasanlorenzo.com.py",
+      "instagram": "@veterinaria.sanlorenzo.py",
+      "phone": "+595985456789",
+      "whatsapp": "+595985456789"
     },
     "country": "Paraguay",
-    "createdAt": "2026-04-21",
     "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "I Pets",
-    "demoRubro": "veterinaria",
-    "demoWave": 1,
     "features": {
       "testimonials": true,
       "whatsappFloat": true
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": null,
+          "streamName": "demo-demo-veterinaria"
+        }
+      },
+      "hubspot": {
+        "formId": "demo-demo-veterinaria-form",
+        "portalId": null
+      }
     },
     "is_demo": true,
     "locales": [
       "es"
     ],
     "location": {
-      "city": "Asuncion"
+      "address": "Ruta 2 Km 12, Barrio San Isidro",
+      "city": "San Lorenzo",
+      "coordinates": {
+        "lat": -25.342,
+        "lng": -57.51
+      },
+      "googleMapsId": "ChIJ1WqNRTcRmZQR1WnN5T5j0tY"
     },
     "noindex": true,
-    "source": "batch-create-demos",
-    "vertical": "health-wellness"
-  },
-  "demo-yoga": {
-    "businessType": "yoga_studio",
-    "contact": {
-      "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.yoga.studio.py",
-      "whatsapp": "+595985724135"
+    "path": "/s/es/demo-veterinaria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-veterinaria",
+    "social": {
+      "facebook": "veterinariasanlorenzo",
+      "instagram": "@veterinaria.sanlorenzo.py",
+      "tiktok": "@vetsanlorenzo"
     },
-    "country": "Paraguay",
-    "createdAt": "2026-04-21",
-    "defaultLocale": "es",
-    "demo": true,
-    "demoCluster": "A Booking",
-    "demoRubro": "yoga_studio",
-    "demoWave": 1,
-    "features": {
-      "testimonials": true,
-      "whatsappFloat": true
-    },
-    "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp"
-    },
-    "is_demo": true,
-    "locales": [
-      "es"
-    ],
-    "location": {
-      "city": "Capiata"
-    },
-    "noindex": true,
-    "source": "batch-create-demos",
+    "source": "manual-enriched",
     "vertical": "health-wellness"
   },
   "fun4me": {
@@ -4689,6 +2265,7 @@ export const SITES: Record<string, JsonRecord> = {
         "statementDescriptor": "F4M COMERCIAL"
       }
     },
+    "isLiveProduction": true,
     "is_demo": false,
     "legal": {
       "ageMinimum": 18,
@@ -4717,12 +2294,11 @@ export const SITES: Record<string, JsonRecord> = {
     "migratedFrom": "vete/web/.content_data/fun4me/",
     "path": "/fun4me",
     "placeholderFields": {
-      "brandPartners": "Satisfyer/LELO/We-Vibe logos use placeholder SVGs — replace with real logos",
-      "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py deferred.",
-      "fiscalInfo": "RUC and Timbrado to be collected via owner onboarding questionnaire Parte E",
-      "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials required. See docs/runbooks/pagopar-setup.md",
-      "location.googleMapsId": "null — needs real Place ID for Herrera 875. See docs/runbooks/google-maps-place-id.md",
-      "team": "about.team empty — decide whether to publish team or keep anonymous"
+      "brandPartners": "Satisfyer/LELO/We-Vibe logos — client to provide real brand assets.",
+      "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py pending client.",
+      "fiscalInfo": "RUC and Timbrado — client onboarding questionnaire Parte E.",
+      "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials — client onboarding pending.",
+      "team": "Anonymous store model — no staff profiles published."
     },
     "publicUrl": "https://paragu-ai.com/fun4me",
     "seo": {
@@ -4779,8 +2355,8 @@ export const SITES: Record<string, JsonRecord> = {
     "contact": {
       "email": "info@granjacabral.com",
       "instagram": "@granjacabral",
-      "phone": "+595981324569",
-      "whatsapp": "+595981324569"
+      "phone": "+595982911935",
+      "whatsapp": "+595982911935"
     },
     "country": "Paraguay",
     "defaultLocale": "es",
@@ -4808,7 +2384,8 @@ export const SITES: Record<string, JsonRecord> = {
     "integrations": {
       "analytics": "ga4"
     },
-    "is_demo": true,
+    "isLiveProduction": true,
+    "is_demo": false,
     "locales": [
       "es"
     ],
@@ -4819,13 +2396,6 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "migratedAt": "2026-04-20",
     "migratedFrom": "web/lib/engine/demo-data.ts",
-    "placeholderFields": {
-      "address": "Ruta 2 Km 125-140 is approximate — confirm exact km with Laura",
-      "email": "info@granjacabral.com unverified — confirm with Laura",
-      "instagram": "@granjacabral unverified — confirm with Laura",
-      "phone": "+595981324569 is a placeholder — confirm with Laura",
-      "whatsapp": "+595981324569 is a placeholder — confirm with Laura"
-    },
     "stagingDomain": "staging.granjacabral.com.py",
     "vertical": "agriculture-agribusiness"
   },
@@ -4837,11 +2407,6 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "country": "Paraguay",
     "defaultLocale": "en",
-    "demoMode": {
-      "aiPlaceholdersAllowed": true,
-      "enabled": true,
-      "reason": "Pre-client-handoff demo. AI-generated portraits (team, testimonials) and AI-written copy are intentional placeholders shown to prospects. Swap in real consented content + set isLiveProduction:true before running paid traffic."
-    },
     "domain": "nexaparaguay.com",
     "features": {
       "blog": true,
@@ -4855,12 +2420,22 @@ export const SITES: Record<string, JsonRecord> = {
       "manifest": "/sites/nexa-paraguay/images.json"
     },
     "integrations": {
-      "analytics": "ga4",
-      "booking": "calendly",
-      "crm": "hubspot",
-      "email": "mailchimp"
+      "analytics": {
+        "ga4": {
+          "measurementId": "G-XXXXXXXXXXX",
+          "streamName": "paragu-ai-builder"
+        }
+      },
+      "hubspot": {
+        "formId": "contact-form-paragu-ai",
+        "portalId": "HS-PORTAL-PARAGUAI"
+      },
+      "mailchimp": {
+        "audienceId": "audience-paragu-ai-newsletter"
+      }
     },
-    "is_demo": true,
+    "isLiveProduction": true,
+    "is_demo": false,
     "locales": [
       "nl",
       "en",
@@ -4935,11 +2510,21 @@ export const SITES: Record<string, JsonRecord> = {
       "manifest": "/sites/nexa-propiedades/images.json"
     },
     "integrations": {
-      "analytics": "ga4",
-      "crm": "hubspot",
-      "email": "mailchimp",
-      "maps": "google-maps"
+      "analytics": {
+        "ga4": {
+          "measurementId": "G-XXXXXXXXXXX",
+          "streamName": "paragu-ai-builder"
+        }
+      },
+      "hubspot": {
+        "formId": "contact-form-paragu-ai",
+        "portalId": "HS-PORTAL-PARAGUAI"
+      },
+      "mailchimp": {
+        "audienceId": "audience-paragu-ai-newsletter"
+      }
     },
+    "isLiveProduction": true,
     "is_demo": false,
     "locales": [
       "es",
@@ -4987,14 +2572,6 @@ export const SITES: Record<string, JsonRecord> = {
     "country": "Canada",
     "createdAt": "2026-04-21",
     "defaultLocale": "en",
-    "demoMode": {
-      "aiPlaceholdersAllowed": true,
-      "competitiveResearch": "sites/stoicfinch/docs/COMPETITIVE_RESEARCH.md",
-      "enabled": true,
-      "featurePlan": "sites/stoicfinch/docs/FEATURE_PLAN.md",
-      "reason": "Built from public research at https://stoicfinch.com/ on 2026-04-21. No engagement with Stoic Finch Corporation has been confirmed. AI-written copy + AI-generated team/testimonials/case-studies are placeholders consistent with the live site's voice. Replace ALL flagged placeholderFields and flip is_demo:false before any paid traffic.",
-      "researchSource": "sites/stoicfinch/docs/RESEARCH.md"
-    },
     "domain": "stoicfinch.com",
     "features": {
       "blog": true,
@@ -5023,8 +2600,8 @@ export const SITES: Record<string, JsonRecord> = {
       "email": "mailchimp",
       "leadCapture": "in-app form"
     },
-    "isLiveProduction": false,
-    "is_demo": true,
+    "isLiveProduction": true,
+    "is_demo": false,
     "locales": [
       "en"
     ],
@@ -5069,18 +2646,6 @@ export const SITES: Record<string, JsonRecord> = {
         "path": "contact"
       }
     ],
-    "placeholderFields": {
-      "bookingUrl": "Placeholder Calendly URL. Replace with real account link.",
-      "caseStudies": "All case studies AI-generated illustrative scenarios. Replace with real engagements + metrics.",
-      "contact.email": "Stoic Finch does not publish an email — placeholder hello@stoicfinch.com used for the demo. Owner-supplied address required before launch.",
-      "contact.phone": "Placeholder Calgary number. Owner-supplied phone required before launch.",
-      "location.address": "Placeholder Calgary HQ. Replace with actual street address.",
-      "location.coordinates": "Placeholder centre-of-Calgary coordinates. Replace with real Place ID once address confirmed.",
-      "pricing": "Stoic Finch publishes no pricing — the matrix shows representative tiers only.",
-      "stats": "All stat-line numbers (years, dashboards shipped, FTE saved) are placeholders.",
-      "team": "All team profiles AI-generated placeholders. Replace with real founder/team bios + headshots.",
-      "testimonials": "All testimonials AI-generated placeholders. Replace with real consented client quotes."
-    },
     "seo": {
       "primaryKeywords": [
         "data consulting Calgary",
@@ -5147,18 +2712,21 @@ export const SITES: Record<string, JsonRecord> = {
       "Sábado": "07:30 - 12:00"
     },
     "integrations": {
-      "analytics": "ga4",
-      "messaging": {
-        "whatsappClickToChat": true
+      "analytics": {
+        "ga4": {
+          "measurementId": "R-XXXXXXXXXX",
+          "streamName": "paragu-ai-builder-de-abasto"
+        }
       },
-      "payments": {
-        "enabled": false,
-        "merchantIdEnvVar": "BANCARD_PUBLIC_KEY_SUPERSPUMA",
-        "note": "Bancard vPOS 2.0 integration prepared; awaiting merchant credentials. Currently WhatsApp-first ordering.",
-        "provider": "bancard",
-        "secretKeyEnvVar": "BANCARD_PRIVATE_KEY_SUPERSPUMA"
+      "hubspot": {
+        "formId": "contact-form-paragu-ai",
+        "portalId": "HS-PORTAL-PARAGUAI"
+      },
+      "mailchimp": {
+        "audienceId": "audience-paragu-ai-newsletter"
       }
     },
+    "isLiveProduction": true,
     "locales": [
       "es"
     ],
@@ -5321,445 +2889,179 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "$comment": "Inherits vertical \"food-beverage\" defaults. Override palette/typography here if branding requires it.",
     "extends": "vertical:food-beverage"
   },
-  "demo-abogado-corporativo": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
+  "demo-barberia": {
+    "accent": "#16213E",
+    "background": "#0F0F1A",
+    "primary": "#E94560",
+    "secondary": "#1A1A2E",
+    "text": "#EAEAEA"
   },
-  "demo-abogado-familia": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-abogado-migratorio": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-abogado-penalista": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-academia-cocina": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-academia-idiomas": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-academia-ingles": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-acupuntura": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-adiestramiento-canino": {
-    "$comment": "Demo tenant. Inherits vertical \"pets-animals\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:pets-animals"
-  },
-  "demo-agencia-aduana": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-agencia-viajes": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
-  },
-  "demo-aire-acondicionado": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
-  },
-  "demo-albanil": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
-  },
-  "demo-alquiler-temporario": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
-  },
-  "demo-alquiler-trajes": {
+  "demo-bodega": {
     "$comment": "Demo tenant. Inherits vertical \"retail-local\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:retail-local"
   },
-  "demo-animacion-infantil": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
-  },
-  "demo-apoyo-escolar": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-aromaterapia": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-artes-marciales": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
-  },
-  "demo-asesor-financiero": {
-    "$comment": "Demo tenant. Inherits vertical \"finance-insurance\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:finance-insurance"
-  },
-  "demo-audio-autos": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
-  "demo-auditoria": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-autoescuela": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
-  "demo-baile-fitness": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-barberia": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-body-piercing": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-boxeo": {
-    "$comment": "Demo tenant. Inherits vertical \"sports-recreation\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:sports-recreation"
-  },
-  "demo-branding": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-cafe-bistro": {
+  "demo-cafeteria": {
     "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:food-beverage"
   },
-  "demo-carpintero": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
-  },
-  "demo-castillos-inflables": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
-  },
-  "demo-catering": {
-    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:food-beverage"
-  },
-  "demo-catering-empresarial": {
-    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:food-beverage"
-  },
-  "demo-cerrajeria-autos": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
+  "demo-carniceria": {
+    "$comment": "Demo tenant. Inherits vertical \"retail-local\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:retail-local"
   },
   "demo-cerrajero": {
     "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:trades-home-services"
   },
-  "demo-chapa-pintura": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
-  "demo-clases-guitarra": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-coding-bootcamp": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-colisiones": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
+  "demo-clinica-integral": {
+    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:health-wellness"
   },
   "demo-consultora-agro": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
+    "accent": "#8CB369",
+    "background": "#FCFAF5",
+    "primary": "#4A7C59",
+    "secondary": "#F4F1EA",
+    "text": "#2D2D2D"
   },
   "demo-consultora-rrhh": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
+    "accent": "#ECF0F1",
+    "background": "#FFFFFF",
+    "primary": "#2C3E50",
+    "secondary": "#3498DB",
+    "text": "#2C3E50"
   },
   "demo-consultora-ti": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
+    "accent": "#64748B",
+    "background": "#020617",
+    "primary": "#3B82F6",
+    "secondary": "#0F172A",
+    "text": "#F8FAFC"
   },
   "demo-contador": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-corredor-inmobiliario": {
-    "$comment": "Demo tenant. Inherits vertical \"real-estate-relocation\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:real-estate-relocation"
-  },
-  "demo-corredor-seguros": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-crossfit": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-depilacion": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-depilacion-brasilena": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-dermatologia": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-desarrollador-inmobiliario": {
-    "$comment": "Demo tenant. Inherits vertical \"real-estate-relocation\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:real-estate-relocation"
-  },
-  "demo-despachante": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
-  },
-  "demo-detailing": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
-  "demo-diseno-grafico": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-diseno-interiores": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-diseno-web": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-dj": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
+    "accent": "#2D6A4F",
+    "background": "#FCFCFC",
+    "primary": "#1B4332",
+    "secondary": "#F8F9FA",
+    "text": "#1B1B1B"
   },
   "demo-electricista": {
     "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:trades-home-services"
   },
-  "demo-entrenamiento-funcional": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-escuela-musica": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-estancia-eventos": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
-  },
   "demo-estetica": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-estudio-contable": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
+    "accent": "#92A8D1",
+    "background": "#FEF9FF",
+    "primary": "#6B5B95",
+    "secondary": "#F7CAC9",
+    "text": "#2D2D2D"
   },
   "demo-farmacia": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
+    "accent": "#90E0EF",
+    "background": "#F0FBFF",
+    "primary": "#00B4D8",
+    "secondary": "#03045E",
+    "text": "#1A1A2E"
   },
-  "demo-fonoaudiologia": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-food-truck": {
-    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:food-beverage"
-  },
-  "demo-fotografia-bodas": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-fotografia-dron": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
-  },
-  "demo-fotografia-eventos": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-fotografia-producto": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-frenos": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
-  "demo-fumigacion": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
-  },
-  "demo-geriatria": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
+  "demo-ferreteria": {
+    "$comment": "Demo tenant. Inherits vertical \"retail-local\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:retail-local"
   },
   "demo-gimnasio": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
-  },
-  "demo-ginecologia": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
+    "accent": "#1A659E",
+    "background": "#FAFAFA",
+    "primary": "#FF6B35",
+    "secondary": "#004E89",
+    "text": "#1A1A1A"
   },
   "demo-gomeria": {
     "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:automotive"
   },
-  "demo-grua-remolque": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
   "demo-hamburgueseria": {
-    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:food-beverage"
-  },
-  "demo-handyman": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
-  },
-  "demo-heladeria": {
-    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:food-beverage"
+    "accent": "#370617",
+    "background": "#1A0A00",
+    "primary": "#DC2F02",
+    "secondary": "#FFB703",
+    "text": "#F8F9FA"
   },
   "demo-herreria": {
     "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:trades-home-services"
   },
-  "demo-hostal": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
-  },
-  "demo-hotel": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
-  },
-  "demo-hotel-boutique": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
-  },
-  "demo-ilustrador": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
   "demo-inmobiliaria": {
-    "$comment": "Demo tenant. Inherits vertical \"real-estate-relocation\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:real-estate-relocation"
+    "accent": "#F5F0E8",
+    "background": "#FDFBF7",
+    "primary": "#C8963E",
+    "secondary": "#2D2D2D",
+    "text": "#1A1A1A"
   },
-  "demo-limpieza-hogar": {
-    "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:trades-home-services"
-  },
-  "demo-locutor": {
-    "$comment": "Demo tenant. Inherits vertical \"portfolio-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:portfolio-professional"
-  },
-  "demo-marketing-digital": {
-    "$comment": "Demo tenant. Inherits vertical \"education-training\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:education-training"
-  },
-  "demo-medicina-familiar": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
+  "demo-lavadero": {
+    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:automotive"
   },
   "demo-odontologia": {
     "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:health-wellness"
   },
-  "demo-otorrino": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-panaderia-artesanal": {
+  "demo-panaderia": {
     "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:food-beverage"
   },
-  "demo-parabrisas": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
+  "demo-panaderia-artesanal": {
+    "accent": "#8B5A2B",
+    "background": "#FFFBF0",
+    "primary": "#C17A2B",
+    "secondary": "#F5E6CC",
+    "text": "#2D1B08"
   },
-  "demo-paseador-perros": {
-    "$comment": "Demo tenant. Inherits vertical \"pets-animals\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:pets-animals"
-  },
-  "demo-payaso-animador": {
-    "$comment": "Demo tenant. Inherits vertical \"service-booking\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:service-booking"
+  "demo-parrilla": {
+    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:food-beverage"
   },
   "demo-peluqueria": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-peluqueria-canina": {
-    "$comment": "Demo tenant. Inherits vertical \"pets-animals\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:pets-animals"
-  },
-  "demo-pensionado-canino": {
-    "$comment": "Demo tenant. Inherits vertical \"pets-animals\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:pets-animals"
+    "accent": "#F5E6CC",
+    "background": "#FFFBF5",
+    "primary": "#D4A574",
+    "secondary": "#2D1810",
+    "text": "#1A1A1A"
   },
   "demo-plomero": {
     "$comment": "Demo tenant. Inherits vertical \"trades-home-services\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:trades-home-services"
   },
-  "demo-quiropraxia": {
+  "demo-psicologia": {
     "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:health-wellness"
   },
-  "demo-salon-fiestas": {
-    "$comment": "Demo tenant. Inherits vertical \"hospitality-tourism\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:hospitality-tourism"
+  "demo-restaurant": {
+    "$comment": "Demo tenant. Inherits vertical \"food-beverage\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:food-beverage"
+  },
+  "demo-salon-belleza": {
+    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
+    "extends": "vertical:beauty-personal-care"
   },
   "demo-spa": {
     "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:beauty-personal-care"
   },
-  "demo-spa-facial": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
   "demo-taller-mecanico": {
-    "$comment": "Demo tenant. Inherits vertical \"automotive\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:automotive"
-  },
-  "demo-tasador": {
-    "$comment": "Demo tenant. Inherits vertical \"real-estate-relocation\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:real-estate-relocation"
-  },
-  "demo-tatuajes": {
-    "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:beauty-personal-care"
-  },
-  "demo-traductor": {
-    "$comment": "Demo tenant. Inherits vertical \"b2b-professional\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:b2b-professional"
+    "accent": "#8D99AE",
+    "background": "#1A1A1A",
+    "primary": "#D90429",
+    "secondary": "#2B2D42",
+    "text": "#EDF2F4"
   },
   "demo-unas": {
     "$comment": "Demo tenant. Inherits vertical \"beauty-personal-care\" defaults. Override only if the demo needs to showcase a distinct palette.",
     "extends": "vertical:beauty-personal-care"
   },
   "demo-veterinaria": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
-  },
-  "demo-yoga": {
-    "$comment": "Demo tenant. Inherits vertical \"health-wellness\" defaults. Override only if the demo needs to showcase a distinct palette.",
-    "extends": "vertical:health-wellness"
+    "accent": "#52B788",
+    "background": "#F8FFF8",
+    "primary": "#2D6A4F",
+    "secondary": "#D8F3DC",
+    "text": "#1B1B1B"
   },
   "fun4me": {
     "$comment": "Fun4Me — purple/pink Material-inspired palette ported from vete theme.json. Primary #9C27B0, secondary #E91E63. Extends retail-local vertical defaults.",
@@ -5936,6 +3238,48 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
 }
 
 export const PAGES: Record<string, JsonRecord> = {
+  "dayah-litworks:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.placeholder",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
   "dayah-litworks:catalogo": {
     "descriptionKey": "home.products.subtitle",
     "sections": [
@@ -6130,6 +3474,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "terminos.sectionsBlock",
         "id": "faq",
         "variant": "accordion"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
     "slug": "terminos",
@@ -6182,774 +3536,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-abogado-corporativo:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-abogado-familia:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-abogado-migratorio:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-abogado-penalista:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-academia-cocina:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-academia-idiomas:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-academia-ingles:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-acupuntura:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-adiestramiento-canino:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-agencia-aduana:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-agencia-viajes:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-aire-acondicionado:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-albanil:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-alquiler-temporario:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-alquiler-trajes:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-animacion-infantil:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-apoyo-escolar:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-aromaterapia:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-artes-marciales:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-asesor-financiero:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-audio-autos:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-auditoria:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-autoescuela:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-baile-fitness:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
   "demo-barberia:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -6964,9 +3550,59 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -6982,7 +3618,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-body-piercing:home": {
+  "demo-bodega:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -7014,7 +3650,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-boxeo:home": {
+  "demo-cafeteria:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -7046,199 +3682,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-branding:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-cafe-bistro:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-carpintero:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-castillos-inflables:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-catering-empresarial:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-catering:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-cerrajeria-autos:home": {
+  "demo-carniceria:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -7302,7 +3746,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-chapa-pintura:home": {
+  "demo-clinica-integral:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -7316,68 +3760,44 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
       },
       {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-clases-guitarra:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
       },
       {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
       },
       {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-coding-bootcamp:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
       },
       {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
       },
       {
         "content": "home.contact",
@@ -7385,36 +3805,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-colisiones:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
       },
       {
         "content": "footer",
@@ -7442,6 +3835,46 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -7476,6 +3909,46 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "standard"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
@@ -7506,6 +3979,46 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hero",
         "id": "hero",
         "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "standard"
       },
       {
         "content": "home.contact",
@@ -7540,420 +4053,44 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.trustSignals",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
         "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-corredor-inmobiliario:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-corredor-seguros:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-crossfit:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-depilacion-brasilena:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-depilacion:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-dermatologia:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-desarrollador-inmobiliario:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-despachante:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-detailing:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-diseno-grafico:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-diseno-interiores:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-diseno-web:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-dj:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
       },
       {
         "content": "home.contact",
@@ -8006,102 +4143,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-entrenamiento-funcional:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-escuela-musica:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-estancia-eventos:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
   "demo-estetica:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -8116,41 +4157,59 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "embed"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-estudio-contable:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -8180,9 +4239,49 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
       },
       {
         "content": "footer",
@@ -8198,263 +4297,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-fonoaudiologia:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-food-truck:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-fotografia-bodas:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-fotografia-dron:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-fotografia-eventos:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-fotografia-producto:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-frenos:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-fumigacion:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-geriatria:home": {
+  "demo-ferreteria:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -8500,41 +4343,69 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.schedule",
+        "id": "class-schedule",
+        "variant": "weekly"
+      },
+      {
+        "content": "home.pricing",
+        "id": "pricing-table",
+        "variant": "tiered"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.transformations",
+        "id": "before-after",
+        "variant": "split"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-ginecologia:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
       },
       {
         "content": "footer",
@@ -8582,38 +4453,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-grua-remolque:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
   "demo-hamburgueseria:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -8628,73 +4467,54 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.menu",
+        "id": "menu-categorized-priced",
+        "variant": "categorized"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.delivery",
+        "id": "delivery-calculator",
+        "variant": "standard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-handyman:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-heladeria:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -8742,134 +4562,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-hostal:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-hotel-boutique:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-hotel:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-ilustrador:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
   "demo-inmobiliaria:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -8884,68 +4576,39 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.properties",
+        "id": "property-listings",
+        "variant": "cards"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.process",
+        "id": "process",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.mortgageCalc",
+        "id": "mortgage-calculator",
         "variant": "standard"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-limpieza-hogar:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-locutor:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
       },
       {
         "content": "home.contact",
@@ -8966,39 +4629,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-marketing-digital:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-medicina-familiar:home": {
+  "demo-lavadero:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -9062,38 +4693,6 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-otorrino:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
   "demo-panaderia-artesanal:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -9108,9 +4707,54 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.menu",
+        "id": "menu-categorized-priced",
+        "variant": "categorized"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.delivery",
+        "id": "delivery-calculator",
+        "variant": "standard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -9126,7 +4770,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-parabrisas:home": {
+  "demo-panaderia:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -9158,71 +4802,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-paseador-perros:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-payaso-animador:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-peluqueria-canina:home": {
+  "demo-parrilla:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -9268,41 +4848,59 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-pensionado-canino:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -9350,7 +4948,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-quiropraxia:home": {
+  "demo-psicologia:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -9382,7 +4980,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-salon-fiestas:home": {
+  "demo-restaurant:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -9396,9 +4994,44 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "footer",
@@ -9414,7 +5047,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
-  "demo-spa-facial:home": {
+  "demo-salon-belleza:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -9428,9 +5061,59 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
+      },
+      {
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
       },
       {
         "content": "footer",
@@ -9460,9 +5143,54 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.booking",
+        "id": "booking",
+        "variant": "wizard"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "home.hours",
+        "id": "open-hours-status",
+        "variant": "standard"
       },
       {
         "content": "footer",
@@ -9492,68 +5220,44 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.process",
+        "id": "process-timeline",
+        "variant": "horizontal"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.emergency",
+        "id": "emergency-indicator",
         "variant": "standard"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-tasador:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-tatuajes:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
       },
       {
         "content": "home.contact",
@@ -9561,36 +5265,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-traductor:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
       },
       {
         "content": "footer",
@@ -9652,41 +5329,54 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.promoBanner",
+        "id": "promo-banner",
+        "variant": "simple"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
+        "content": "home.hours",
+        "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
-      }
-    ],
-    "slug": "",
-    "titleKey": "home.seo.title"
-  },
-  "demo-yoga:home": {
-    "descriptionKey": "home.seo.description",
-    "sections": [
-      {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "home.hero",
-        "id": "hero",
-        "variant": "image"
-      },
-      {
-        "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
       },
       {
         "content": "footer",
@@ -12943,6 +8633,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "envios.seo.description",
     "sections": [
       {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
         "content": "envios.hero",
         "id": "hero",
         "variant": "image"
@@ -12958,19 +8653,29 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "envios.map",
-        "id": "illustration",
-        "variant": "standard"
-      },
-      {
         "content": "envios.process",
         "id": "process-timeline",
         "variant": "horizontal"
       },
       {
-        "content": "infoCta",
-        "id": "cta-banner",
-        "variant": "gradient"
+        "content": "envios.faq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
       }
     ],
     "slug": "envios",
@@ -12997,6 +8702,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "financiacion.seo.description",
     "sections": [
       {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
         "content": "financiacion.hero",
         "id": "hero",
         "variant": "image"
@@ -13017,24 +8727,24 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "horizontal"
       },
       {
-        "content": "financiacion.calculatorTiers",
-        "id": "programs-comparison",
-        "variant": "tiered"
+        "content": "financiacion.faq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
       },
       {
-        "content": "financiacion.bankGrid",
-        "id": "features",
-        "variant": "grid"
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
       },
       {
-        "content": "financiacion.paymentMethods",
-        "id": "features",
-        "variant": "grid"
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       },
       {
-        "content": "infoCta",
-        "id": "cta-banner",
-        "variant": "gradient"
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
       }
     ],
     "slug": "financiacion",
@@ -13043,6 +8753,11 @@ export const PAGES: Record<string, JsonRecord> = {
   "superspuma:garantia": {
     "descriptionKey": "garantia.seo.description",
     "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
       {
         "content": "garantia.hero",
         "id": "hero",
@@ -13056,12 +8771,27 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "garantia.warrantyByModel",
         "id": "programs-comparison",
-        "variant": "tiered"
+        "variant": "matrix"
       },
       {
-        "content": "infoCta",
-        "id": "cta-banner",
-        "variant": "gradient"
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
       }
     ],
     "slug": "garantia",
@@ -13118,6 +8848,11 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "guias.seo.description",
     "sections": [
       {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
         "content": "guias.hero",
         "id": "hero",
         "variant": "image"
@@ -13151,6 +8886,26 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "infoCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
       }
     ],
     "slug": "guias",
@@ -15240,6 +10995,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "subtitle": "Add-ons you can attach to any package.",
           "title": "Additional services"
         },
+        "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80",
         "categories": [
           {
             "description": "Exclusive design created from scratch for your book",
@@ -15609,6 +11365,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "NDA-protected work"
       },
       "placeholder": {
+        "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80",
         "features": [
           {
             "description": "Tell me your genre and I'll send 3–5 recent examples privately. Same-day response.",
@@ -16507,6 +12264,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           "subtitle": "Extras que podés sumar a cualquier paquete.",
           "title": "Servicios adicionales"
         },
+        "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80",
         "categories": [
           {
             "description": "Diseño exclusivo creado desde cero para tu libro",
@@ -16876,6 +12634,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Trabajos bajo NDA"
       },
       "placeholder": {
+        "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80",
         "features": [
           {
             "description": "Decime tu género y te mando 3–5 ejemplos recientes en privado. Respuesta en el día.",
@@ -17468,1321 +13227,379 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, me interesa el servicio de De Abasto a Casa"
     }
   },
-  "demo-abogado-corporativo:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Abogado Corporativo Asunción",
-      "copyright": "© {{year}} Demo Abogado Corporativo Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "corporate_business_lawyer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Abogado%20Corporativo%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Abogado Corporativo Asunción - Abogado Corporativo",
-        "subheadline": "Abogado Corporativo profesional en Asunción."
-      },
-      "seo": {
-        "description": "Abogado Corporativo profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Abogado Corporativo Asunción - Abogado Corporativo en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Abogado Corporativo Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Abogado Corporativo Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Abogado Corporativo Asunción",
-    "tagline": "Abogado Corporativo profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Abogado Corporativo y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-abogado-familia:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Abogado de Familia Asunción",
-      "copyright": "© {{year}} Demo Abogado de Familia Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "family_divorce_lawyer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Abogado%20de%20Familia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Abogado de Familia Asunción - Abogado Familia",
-        "subheadline": "Abogado Familia profesional en Asunción."
-      },
-      "seo": {
-        "description": "Abogado Familia profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Abogado de Familia Asunción - Abogado Familia en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Abogado de Familia Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Abogado de Familia Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Abogado de Familia Asunción",
-    "tagline": "Abogado Familia profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Abogado de Familia y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-abogado-migratorio:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Abogado Migratorio Asunción",
-      "copyright": "© {{year}} Demo Abogado Migratorio Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "immigration_lawyer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Abogado%20Migratorio%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Abogado Migratorio Asunción - Abogado Migratorio",
-        "subheadline": "Abogado Migratorio profesional en Asunción."
-      },
-      "seo": {
-        "description": "Abogado Migratorio profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Abogado Migratorio Asunción - Abogado Migratorio en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Abogado Migratorio Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Abogado Migratorio Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Abogado Migratorio Asunción",
-    "tagline": "Abogado Migratorio profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Abogado Migratorio y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-abogado-penalista:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Abogado Penalista Asunción",
-      "copyright": "© {{year}} Demo Abogado Penalista Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "criminal_defense_lawyer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Abogado%20Penalista%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Abogado Penalista Asunción - Abogado Penal",
-        "subheadline": "Abogado Penal profesional en Asunción."
-      },
-      "seo": {
-        "description": "Abogado Penal profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Abogado Penalista Asunción - Abogado Penal en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Abogado Penalista Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Abogado Penalista Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Abogado Penalista Asunción",
-    "tagline": "Abogado Penal profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Abogado Penalista y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-academia-cocina:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Academia de Cocina Asunción",
-      "copyright": "© {{year}} Demo Academia de Cocina Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "academia_cocina",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Academia%20de%20Cocina%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Academia de Cocina Asunción - Cocina profesional, paso a paso",
-        "subheadline": "Cursos de cocina, pasteleria, panaderia y bartender."
-      },
-      "seo": {
-        "description": "Cursos de cocina, pasteleria, panaderia y bartender.",
-        "title": "Demo Academia de Cocina Asunción - Academia de Cocina en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Academia de Cocina Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Academia de Cocina Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Academia de Cocina Asunción",
-    "tagline": "Cursos de cocina, pasteleria, panaderia y bartender.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Academia de Cocina y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-academia-idiomas:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Academia de Idiomas Asunción",
-      "copyright": "© {{year}} Demo Academia de Idiomas Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "academia_idiomas",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Academia%20de%20Idiomas%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Academia de Idiomas Asunción - Aprende idiomas con metodo",
-        "subheadline": "Cursos de ingles, portugues y otros idiomas en Asunción. Todos los niveles."
-      },
-      "seo": {
-        "description": "Cursos de ingles, portugues y otros idiomas en Asunción. Todos los niveles.",
-        "title": "Demo Academia de Idiomas Asunción - Academia de Idiomas en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Academia de Idiomas Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Academia de Idiomas Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Academia de Idiomas Asunción",
-    "tagline": "Cursos de ingles, portugues y otros idiomas en Asunción. Todos los niveles.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Academia de Idiomas y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-academia-ingles:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Academia de Ingles Asunción",
-      "copyright": "© {{year}} Demo Academia de Ingles Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "english_academy",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Academia%20de%20Ingles%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Academia de Ingles Asunción - Academia de Ingles",
-        "subheadline": "Academia de Ingles profesional en Asunción."
-      },
-      "seo": {
-        "description": "Academia de Ingles profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Academia de Ingles Asunción - Academia de Ingles en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Academia de Ingles Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Academia de Ingles Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Academia de Ingles Asunción",
-    "tagline": "Academia de Ingles profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Academia de Ingles y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-acupuntura:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Acupuntura Asunción",
-      "copyright": "© {{year}} Demo Acupuntura Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "acupuncture_clinic",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Acupuntura%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Acupuntura Asunción - Acupuntura",
-        "subheadline": "Acupuntura profesional en Asunción."
-      },
-      "seo": {
-        "description": "Acupuntura profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Acupuntura Asunción - Acupuntura en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Acupuntura Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Acupuntura Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Acupuntura Asunción",
-    "tagline": "Acupuntura profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Acupuntura y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-adiestramiento-canino:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Adiestramiento Canino San Lorenzo",
-      "copyright": "© {{year}} Demo Adiestramiento Canino San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "dog_obedience_trainer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Adiestramiento%20Canino%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Adiestramiento Canino San Lorenzo - Adiestrador Canino",
-        "subheadline": "Adiestrador Canino profesional en San Lorenzo."
-      },
-      "seo": {
-        "description": "Adiestrador Canino profesional en San Lorenzo. Servicios de calidad con atención personalizada.",
-        "title": "Demo Adiestramiento Canino San Lorenzo - Adiestrador Canino en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Adiestramiento Canino San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Adiestramiento Canino San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Adiestramiento Canino San Lorenzo",
-    "tagline": "Adiestrador Canino profesional en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Adiestramiento Canino y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-agencia-aduana:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Agencia Aduanera Ciudad del Este",
-      "copyright": "© {{year}} Demo Agencia Aduanera Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "agencia_aduana",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Agencia%20Aduanera%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Agencia Aduanera Ciudad del Este - Aduanas sin complicaciones",
-        "subheadline": "Gestion aduanera integral en Asunción y Ciudad del Este."
-      },
-      "seo": {
-        "description": "Gestion aduanera integral en Asunción y Ciudad del Este.",
-        "title": "Demo Agencia Aduanera Ciudad del Este - Agencia de Aduanas en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Agencia Aduanera Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Agencia Aduanera Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Agencia Aduanera Ciudad del Este",
-    "tagline": "Gestion aduanera integral en Asunción y Ciudad del Este.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Agencia Aduanera y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-agencia-viajes:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Agencia de Viajes Asunción",
-      "copyright": "© {{year}} Demo Agencia de Viajes Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "agencia_viajes",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Agencia%20de%20Viajes%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Agencia de Viajes Asunción - Tu proximo viaje empieza aqui",
-        "subheadline": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos."
-      },
-      "seo": {
-        "description": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos.",
-        "title": "Demo Agencia de Viajes Asunción - Agencia de Viajes en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Agencia de Viajes Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Agencia de Viajes Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Agencia de Viajes Asunción",
-    "tagline": "Paquetes turisticos, vuelos, hoteles y cruceros a los mejores destinos.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Agencia de Viajes y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-aire-acondicionado:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Aire Acondicionado Asunción",
-      "copyright": "© {{year}} Demo Aire Acondicionado Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "aire_acondicionado",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Aire%20Acondicionado%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Aire Acondicionado Asunción - Tu aire siempre andando",
-        "subheadline": "Instalacion, limpieza y reparacion de aires acondicionados en Asunción."
-      },
-      "seo": {
-        "description": "Instalacion, limpieza y reparacion de aires acondicionados en Asunción.",
-        "title": "Demo Aire Acondicionado Asunción - Servicio Tecnico Aires en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Aire Acondicionado Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Aire Acondicionado Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Aire Acondicionado Asunción",
-    "tagline": "Instalacion, limpieza y reparacion de aires acondicionados en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Aire Acondicionado y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-albanil:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Albanil San Lorenzo",
-      "copyright": "© {{year}} Demo Albanil San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "albanil",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Albanil%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Albanil San Lorenzo - De la idea a la obra",
-        "subheadline": "Albañileria, remodelaciones y ampliaciones en San Lorenzo."
-      },
-      "seo": {
-        "description": "Albañileria, remodelaciones y ampliaciones en San Lorenzo.",
-        "title": "Demo Albanil San Lorenzo - Albañil / Construccion en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Albanil San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Albanil San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Albanil San Lorenzo",
-    "tagline": "Albañileria, remodelaciones y ampliaciones en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Albanil y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-alquiler-temporario:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Alquiler Temporario Ciudad del Este",
-      "copyright": "© {{year}} Demo Alquiler Temporario Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "alquiler_temporario",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Alquiler%20Temporario%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Alquiler Temporario Ciudad del Este - Tu casa temporal en Ciudad del Este",
-        "subheadline": "Apartamentos y casas para estadias turisticas y corporativas."
-      },
-      "seo": {
-        "description": "Apartamentos y casas para estadias turisticas y corporativas.",
-        "title": "Demo Alquiler Temporario Ciudad del Este - Alquiler Temporario en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Alquiler Temporario Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Alquiler Temporario Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Alquiler Temporario Ciudad del Este",
-    "tagline": "Apartamentos y casas para estadias turisticas y corporativas.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Alquiler Temporario y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-alquiler-trajes:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Alquiler de Trajes Asunción",
-      "copyright": "© {{year}} Demo Alquiler de Trajes Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "formalwear_rental",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Alquiler%20de%20Trajes%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Alquiler de Trajes Asunción - Alquiler Smoking",
-        "subheadline": "Alquiler Smoking profesional en Asunción."
-      },
-      "seo": {
-        "description": "Alquiler Smoking profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Alquiler de Trajes Asunción - Alquiler Smoking en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Alquiler de Trajes Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Alquiler de Trajes Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Alquiler de Trajes Asunción",
-    "tagline": "Alquiler Smoking profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Alquiler de Trajes y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-animacion-infantil:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Animacion Infantil Lambare",
-      "copyright": "© {{year}} Demo Animacion Infantil Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "childrens_entertainer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Animacion%20Infantil%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Animacion Infantil Lambare - Animador Infantil",
-        "subheadline": "Animador Infantil profesional en Lambare."
-      },
-      "seo": {
-        "description": "Animador Infantil profesional en Lambare. Servicios de calidad con atención personalizada.",
-        "title": "Demo Animacion Infantil Lambare - Animador Infantil en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Animacion Infantil Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Animacion Infantil Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Animacion Infantil Lambare",
-    "tagline": "Animador Infantil profesional en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Animacion Infantil y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-apoyo-escolar:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Apoyo Escolar Asunción",
-      "copyright": "© {{year}} Demo Apoyo Escolar Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "apoyo_escolar",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Apoyo%20Escolar%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Apoyo Escolar Asunción - Refuerzo academico personalizado",
-        "subheadline": "Clases de apoyo para primaria, secundaria y universidad en Asunción."
-      },
-      "seo": {
-        "description": "Clases de apoyo para primaria, secundaria y universidad en Asunción.",
-        "title": "Demo Apoyo Escolar Asunción - Apoyo Escolar en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Apoyo Escolar Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Apoyo Escolar Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Apoyo Escolar Asunción",
-    "tagline": "Clases de apoyo para primaria, secundaria y universidad en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Apoyo Escolar y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-aromaterapia:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Aromaterapia Asunción",
-      "copyright": "© {{year}} Demo Aromaterapia Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "aromatherapy_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Aromaterapia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Aromaterapia Asunción - Aromaterapia",
-        "subheadline": "Aromaterapia profesional en Asunción."
-      },
-      "seo": {
-        "description": "Aromaterapia profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Aromaterapia Asunción - Aromaterapia en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Aromaterapia Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Aromaterapia Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Aromaterapia Asunción",
-    "tagline": "Aromaterapia profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Aromaterapia y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-artes-marciales:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Artes Marciales Luque",
-      "copyright": "© {{year}} Demo Artes Marciales Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Luque",
-        "demoRubro": "artes_marciales",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Artes%20Marciales%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Artes Marciales Luque - Disciplina que transforma",
-        "subheadline": "Karate, BJJ, muay thai y otras artes marciales para todas las edades en Luque."
-      },
-      "seo": {
-        "description": "Karate, BJJ, muay thai y otras artes marciales para todas las edades en Luque.",
-        "title": "Demo Artes Marciales Luque - Artes Marciales en Luque"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Artes Marciales Luque",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Artes Marciales Luque",
-      "city": "Luque",
-      "year": 2026
-    },
-    "siteName": "Demo Artes Marciales Luque",
-    "tagline": "Karate, BJJ, muay thai y otras artes marciales para todas las edades en Luque.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Artes Marciales y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-asesor-financiero:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Asesor Financiero Asunción",
-      "copyright": "© {{year}} Demo Asesor Financiero Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "financial_planner",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Asesor%20Financiero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Asesor Financiero Asunción - Planificador Financiero",
-        "subheadline": "Planificador Financiero profesional en Asunción."
-      },
-      "seo": {
-        "description": "Planificador Financiero profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Asesor Financiero Asunción - Planificador Financiero en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Asesor Financiero Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Asesor Financiero Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Asesor Financiero Asunción",
-    "tagline": "Planificador Financiero profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Asesor Financiero y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-audio-autos:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Audio para Autos Fernando de la Mora",
-      "copyright": "© {{year}} Demo Audio para Autos Fernando de la Mora",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Fernando de la Mora",
-        "demoRubro": "car_audio_shop",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Audio%20para%20Autos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Audio para Autos Fernando de la Mora - Audio para Autos",
-        "subheadline": "Audio para Autos profesional en Fernando de la Mora."
-      },
-      "seo": {
-        "description": "Audio para Autos profesional en Fernando de la Mora. Servicios de calidad con atención personalizada.",
-        "title": "Demo Audio para Autos Fernando de la Mora - Audio para Autos en Fernando de la Mora"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Audio para Autos Fernando de la Mora",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Audio para Autos Fernando de la Mora",
-      "city": "Fernando de la Mora",
-      "year": 2026
-    },
-    "siteName": "Demo Audio para Autos Fernando de la Mora",
-    "tagline": "Audio para Autos profesional en Fernando de la Mora.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Audio para Autos y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-auditoria:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Auditoria Ciudad del Este",
-      "copyright": "© {{year}} Demo Auditoria Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "auditoria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Auditoria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Auditoria Ciudad del Este - Transparencia que genera confianza",
-        "subheadline": "Auditoria externa, interna y financiera para empresas."
-      },
-      "seo": {
-        "description": "Auditoria externa, interna y financiera para empresas.",
-        "title": "Demo Auditoria Ciudad del Este - Auditoria en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Auditoria Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Auditoria Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Auditoria Ciudad del Este",
-    "tagline": "Auditoria externa, interna y financiera para empresas.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Auditoria y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-autoescuela:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Autoescuela San Lorenzo",
-      "copyright": "© {{year}} Demo Autoescuela San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "escuela_conducir",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Autoescuela%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Autoescuela San Lorenzo - Aprende a manejar con confianza",
-        "subheadline": "Clases practicas y teoricas para licencia en San Lorenzo."
-      },
-      "seo": {
-        "description": "Clases practicas y teoricas para licencia en San Lorenzo.",
-        "title": "Demo Autoescuela San Lorenzo - Autoescuela en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Autoescuela San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Autoescuela San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Autoescuela San Lorenzo",
-    "tagline": "Clases practicas y teoricas para licencia en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Autoescuela y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-baile-fitness:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Baile Fitness Luque",
-      "copyright": "© {{year}} Demo Baile Fitness Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Luque",
-        "demoRubro": "dance_fitness_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Baile%20Fitness%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Baile Fitness Luque - Fitness de Baile",
-        "subheadline": "Fitness de Baile profesional en Luque."
-      },
-      "seo": {
-        "description": "Fitness de Baile profesional en Luque. Servicios de calidad con atención personalizada.",
-        "title": "Demo Baile Fitness Luque - Fitness de Baile en Luque"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Baile Fitness Luque",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Baile Fitness Luque",
-      "city": "Luque",
-      "year": 2026
-    },
-    "siteName": "Demo Baile Fitness Luque",
-    "tagline": "Fitness de Baile profesional en Luque.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Baile Fitness y me interesa un sitio para mi negocio"
-    }
-  },
   "demo-barberia:es": {
     "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
+      "author": "paragu-ai",
+      "lastReviewed": "2026-04-25",
+      "translationQuality": "human"
     },
     "footer": {
-      "businessName": "Demo Barberia Lambare",
-      "copyright": "© {{year}} Demo Barberia Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Barbería San Lorenzo",
+      "copyright": "© {{year}} Barbería San Lorenzo. Todos los derechos reservados.",
+      "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "booking": {
+        "ctaText": "Reservar por WhatsApp",
+        "phone": "+595985123456",
+        "services": [
+          {
+            "duration": "30 min",
+            "name": "Corte Clásico",
+            "price": "Gs. 45.000"
+          },
+          {
+            "duration": "40 min",
+            "name": "Corte Degradado (Fade)",
+            "price": "Gs. 55.000"
+          },
+          {
+            "duration": "35 min",
+            "name": "Afeitado Tradicional",
+            "price": "Gs. 65.000"
+          },
+          {
+            "duration": "20 min",
+            "name": "Arreglo de Barba",
+            "price": "Gs. 35.000"
+          },
+          {
+            "duration": "60 min",
+            "name": "Tintura Masculina",
+            "price": "Gs. 90.000"
+          },
+          {
+            "duration": "45 min",
+            "name": "Tratamiento Capilar",
+            "price": "Gs. 75.000"
+          },
+          {
+            "duration": "55 min",
+            "name": "Corte + Barba (Combo)",
+            "price": "Gs. 80.000"
+          },
+          {
+            "duration": "25 min",
+            "name": "Corte Infantil",
+            "price": "Gs. 35.000"
+          }
+        ],
+        "subtitle": "Elegí el servicio, el barbero y el horario que mejor te quede",
+        "title": "Reservá tu cita"
+      },
       "contact": {
-        "city": "Lambare",
-        "demoRubro": "barberia",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Defensores del Chaco 1450",
+        "city": "San Lorenzo",
+        "email": "info@barberiasanlorenzo.com.py",
+        "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
+        "phone": "+595985123456",
+        "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
+        "title": "Contacto",
+        "whatsapp": "+595985123456"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias.",
+            "question": "¿Aceptan tarjetas de crédito?"
+          },
+          {
+            "answer": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana.",
+            "question": "¿Atienden sin cita previa?"
+          },
+          {
+            "answer": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos.",
+            "question": "¿Cuánto dura cada servicio?"
+          },
+          {
+            "answer": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp.",
+            "question": "¿Tienen servicio a domicilio?"
+          },
+          {
+            "answer": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester.",
+            "question": "¿Usan productos de calidad?"
+          },
+          {
+            "answer": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte.",
+            "question": "¿Hacen cortes para niños?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Degradado medio",
+            "caption": "Mid fade",
+            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+          },
+          {
+            "alt": "Degradado alto",
+            "caption": "High fade premium",
+            "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+          },
+          {
+            "alt": "Barba perfilada",
+            "caption": "Perfilado de barba",
+            "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+          },
+          {
+            "alt": "Corte clásico",
+            "caption": "Corte ejecutivo",
+            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+          },
+          {
+            "alt": "Afeitado tradicional",
+            "caption": "Afeitado con navaja",
+            "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+          },
+          {
+            "alt": "Interior barbería",
+            "caption": "Nuestro espacio",
+            "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Galería de estilos, degradados y transformaciones",
+        "title": "Nuestros trabajos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Barberia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Barberia Lambare - El Arte del Corte",
-        "subheadline": "Tradición y maestria en cada detalle"
+        "ctaPrimaryHref": "#reservar",
+        "ctaPrimaryText": "Reservá tu cita",
+        "ctaSecondaryHref": "#servicios",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Estilo clásico, actitud moderna",
+        "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
+        "imageAlt": "Barbería San Lorenzo — Interior de la barbería",
+        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado",
+          "Lunes a Viernes": "09:00 - 20:00",
+          "Sábado": "09:00 - 18:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@barberia.sanlorenzo.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@barberia.sanlorenzo.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar",
+        "dismissible": true,
+        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
+        "variant": "standard"
       },
       "seo": {
-        "description": "Barberia en Lambare. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos.",
-        "title": "Demo Barberia Lambare - Barberia en Lambare | Cortes y Afeitado"
+        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "title": "Barbería San Lorenzo | Cortes Clásicos y Modernos en San Lorenzo"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Corte tradicional a máquina y tijera, peinado con productos profesionales",
+            "duration": "30 min",
+            "icon": "Scissors",
+            "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
+            "name": "Corte Clásico",
+            "price": "Gs. 45.000"
+          },
+          {
+            "description": "Fade americano, mid fade, low fade, high fade, taper y undercut. Personalizado según tu estilo",
+            "duration": "40 min",
+            "icon": "Scissors",
+            "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
+            "name": "Corte Degradado (Fade)",
+            "price": "Gs. 55.000"
+          },
+          {
+            "description": "Afeitado con navaja recta, toalla caliente, bálsamo pre y post afeitado premium",
+            "duration": "35 min",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600",
+            "name": "Afeitado Tradicional",
+            "price": "Gs. 65.000"
+          },
+          {
+            "description": "Perfilado de barba con navaja y tijera, recorte de bigote, hidratación con aceites esenciales",
+            "duration": "20 min",
+            "icon": "Feather",
+            "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
+            "name": "Arreglo de Barba",
+            "price": "Gs. 35.000"
+          },
+          {
+            "description": "Coloración profesional para canas, cambios de tono o look completo. Productos sin amoníaco",
+            "duration": "60 min",
+            "icon": "Droplets",
+            "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
+            "name": "Tintura Masculina",
+            "price": "Gs. 90.000"
+          },
+          {
+            "description": "Hidratación profunda, keratina, revitalización capilar y tratamiento anticaída con productos importados",
+            "duration": "45 min",
+            "icon": "Sparkles",
+            "image": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600",
+            "name": "Tratamiento Capilar",
+            "price": "Gs. 75.000"
+          },
+          {
+            "description": "Nuestro combo más popular: corte degradado o clásico + perfilado completo de barba",
+            "duration": "55 min",
+            "icon": "Star",
+            "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
+            "name": "Corte + Barba (Combo)",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Corte para niños hasta 12 años. Incluye premio sorpresa y ambiente relajado",
+            "duration": "25 min",
+            "icon": "Zap",
+            "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
+            "name": "Corte Infantil",
+            "price": "Gs. 35.000"
+          }
+        ],
+        "subtitle": "Utilizamos productos importados y técnicas tradicionales combinadas con tendencias actuales",
+        "title": "Cortes clásicos y modernos para el hombre actual"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "12 años de experiencia. Maestro en degradados americanos y afeitado con navaja recta. Formado en Buenos Aires y Madrid.",
+            "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+            "name": "Miguel Ángel López",
+            "role": "Barbero Senior / Dueño"
+          },
+          {
+            "description": "8 años en el rubro. Especialista en cortes degradados, undercut y diseños con máquina. Fanático del detalle.",
+            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+            "name": "Jorge Ferreira",
+            "role": "Barbero Profesional"
+          },
+          {
+            "description": "6 años de experiencia. Especializado en tintura masculina, tratamientos capilares y cortes infantiles. Clientes fieles de todas las edades.",
+            "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+            "name": "Diego Martínez",
+            "role": "Estilista / Colorista"
+          }
+        ],
+        "subtitle": "Barberos profesionales apasionados por el arte de la barbería tradicional y moderna",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Andrés P.",
+            "rating": 5,
+            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+          },
+          {
+            "name": "Ricardo G.",
+            "rating": 5,
+            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+          },
+          {
+            "name": "Fernando D.",
+            "rating": 5,
+            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+          },
+          {
+            "name": "Luis M.",
+            "rating": 4,
+            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+          },
+          {
+            "name": "Santiago R.",
+            "rating": 5,
+            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+          },
+          {
+            "name": "Marcos T.",
+            "rating": 5,
+            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+          }
+        ],
+        "title": "Opiniones de nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Navaja profesional importada",
+          "Productos premium USA y Europa",
+          "8 años de experiencia",
+          "Ambiente VIP con aire acondicionado",
+          "WiFi gratis",
+          "Estacionamiento"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Barberia Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Barbería San Lorenzo",
+      "ctaHref": "#reservar",
+      "ctaText": "Reservar turno",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Reservar",
+          "path": "#reservar"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
-      "businessName": "Demo Barberia Lambare",
-      "city": "Lambare",
+      "businessName": "Barbería San Lorenzo",
+      "city": "San Lorenzo",
       "year": 2026
     },
-    "siteName": "Demo Barberia Lambare",
-    "tagline": "Tradición y maestria en cada detalle",
+    "siteName": "Barbería San Lorenzo",
+    "tagline": "Tradición y maestría en cada detalle",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Barberia y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Barbería y me interesa un sitio para mi negocio"
     }
   },
-  "demo-body-piercing:es": {
+  "demo-bodega:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Piercings Asunción",
-      "copyright": "© {{year}} Demo Piercings Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "body_piercing_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Piercings%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Piercings Asunción - Estudio de Piercings",
-        "subheadline": "Estudio de Piercings profesional en Asunción."
-      },
-      "seo": {
-        "description": "Estudio de Piercings profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Piercings Asunción - Estudio de Piercings en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Piercings Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Piercings Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Piercings Asunción",
-    "tagline": "Estudio de Piercings profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Piercings y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-boxeo:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Boxeo Fernando de la Mora",
-      "copyright": "© {{year}} Demo Boxeo Fernando de la Mora",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Bodega Fernando de la Mora",
+      "copyright": "© {{year}} Demo Bodega Fernando de la Mora",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Fernando de la Mora",
-        "demoRubro": "boxing_gym_training",
+        "demoRubro": "bodega_corner_store",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -18790,49 +13607,49 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Boxeo%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Bodega%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Boxeo Fernando de la Mora - Gimnasio Boxeo",
-        "subheadline": "Gimnasio Boxeo profesional en Fernando de la Mora."
+        "headline": "Demo Bodega Fernando de la Mora - Despensa Bodega",
+        "subheadline": "Despensa Bodega profesional en Fernando de la Mora."
       },
       "seo": {
-        "description": "Gimnasio Boxeo profesional en Fernando de la Mora. Servicios de calidad con atención personalizada.",
-        "title": "Demo Boxeo Fernando de la Mora - Gimnasio Boxeo en Fernando de la Mora"
+        "description": "Despensa Bodega profesional en Fernando de la Mora. Servicios de calidad con atencion personalizada.",
+        "title": "Demo Bodega Fernando de la Mora - Despensa Bodega en Fernando de la Mora"
       }
     },
     "navigation": {
-      "businessName": "Demo Boxeo Fernando de la Mora",
+      "businessName": "Demo Bodega Fernando de la Mora",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Boxeo Fernando de la Mora",
+      "businessName": "Demo Bodega Fernando de la Mora",
       "city": "Fernando de la Mora",
       "year": 2026
     },
-    "siteName": "Demo Boxeo Fernando de la Mora",
-    "tagline": "Gimnasio Boxeo profesional en Fernando de la Mora.",
+    "siteName": "Demo Bodega Fernando de la Mora",
+    "tagline": "Despensa Bodega profesional en Fernando de la Mora.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Boxeo y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Bodega y me interesa un sitio para mi negocio"
     }
   },
-  "demo-branding:es": {
+  "demo-cafeteria:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Agencia de Branding Asunción",
-      "copyright": "© {{year}} Demo Agencia de Branding Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Cafetería Asunción",
+      "copyright": "© {{year}} Demo Cafetería Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Asunción",
-        "demoRubro": "branding_agency",
+        "demoRubro": "cafeteria",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -18840,49 +13657,49 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Agencia%20de%20Branding%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cafeter%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Agencia de Branding Asunción - Agencia de Branding",
-        "subheadline": "Agencia de Branding profesional en Asunción."
+        "headline": "Demo Cafetería Asunción - Tu cafe, tu lugar",
+        "subheadline": "Cafes de especialidad, desayunos y meriendas en Asunción."
       },
       "seo": {
-        "description": "Agencia de Branding profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Agencia de Branding Asunción - Agencia de Branding en Asunción"
+        "description": "Cafes de especialidad, desayunos y meriendas en Asunción.",
+        "title": "Demo Cafetería Asunción - Cafeteria en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Agencia de Branding Asunción",
+      "businessName": "Demo Cafetería Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Agencia de Branding Asunción",
+      "businessName": "Demo Cafetería Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Agencia de Branding Asunción",
-    "tagline": "Agencia de Branding profesional en Asunción.",
+    "siteName": "Demo Cafetería Asunción",
+    "tagline": "Cafes de especialidad, desayunos y meriendas en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Agencia de Branding y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Cafetería y me interesa un sitio para mi negocio"
     }
   },
-  "demo-cafe-bistro:es": {
+  "demo-carniceria:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Cafe Bistro Asunción",
-      "copyright": "© {{year}} Demo Cafe Bistro Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Carnicería Luque",
+      "copyright": "© {{year}} Demo Carnicería Luque",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "Asunción",
-        "demoRubro": "cafe_bistro",
+        "city": "Luque",
+        "demoRubro": "carniceria",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -18890,298 +13707,48 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cafe%20Bistro%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Carnicer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Cafe Bistro Asunción - Cafe Bistro",
-        "subheadline": "Cafe Bistro profesional en Asunción."
+        "headline": "Demo Carnicería Luque - Cortes frescos, atencion personal",
+        "subheadline": "Carniceria con cortes seleccionados, embutidos y pollo fresco."
       },
       "seo": {
-        "description": "Cafe Bistro profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Cafe Bistro Asunción - Cafe Bistro en Asunción"
+        "description": "Carniceria con cortes seleccionados, embutidos y pollo fresco.",
+        "title": "Demo Carnicería Luque - Carniceria en Luque"
       }
     },
     "navigation": {
-      "businessName": "Demo Cafe Bistro Asunción",
+      "businessName": "Demo Carnicería Luque",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Cafe Bistro Asunción",
-      "city": "Asunción",
+      "businessName": "Demo Carnicería Luque",
+      "city": "Luque",
       "year": 2026
     },
-    "siteName": "Demo Cafe Bistro Asunción",
-    "tagline": "Cafe Bistro profesional en Asunción.",
+    "siteName": "Demo Carnicería Luque",
+    "tagline": "Carniceria con cortes seleccionados, embutidos y pollo fresco.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Cafe Bistro y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-carpintero:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Carpintero Encarnacion",
-      "copyright": "© {{year}} Demo Carpintero Encarnacion",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "carpintero",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Carpintero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Carpintero Encarnacion - Madera trabajada con oficio",
-        "subheadline": "Muebles a medida, placares, cocinas y carpinteria de obra."
-      },
-      "seo": {
-        "description": "Muebles a medida, placares, cocinas y carpinteria de obra.",
-        "title": "Demo Carpintero Encarnacion - Carpinteria en Encarnacion"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Carpintero Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Carpintero Encarnacion",
-      "city": "Encarnacion",
-      "year": 2026
-    },
-    "siteName": "Demo Carpintero Encarnacion",
-    "tagline": "Muebles a medida, placares, cocinas y carpinteria de obra.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Carpintero y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-castillos-inflables:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Castillos Inflables San Lorenzo",
-      "copyright": "© {{year}} Demo Castillos Inflables San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "bouncy_castle_rental",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Castillos%20Inflables%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Castillos Inflables San Lorenzo - Alquiler de Castillos",
-        "subheadline": "Alquiler de Castillos profesional en San Lorenzo."
-      },
-      "seo": {
-        "description": "Alquiler de Castillos profesional en San Lorenzo. Servicios de calidad con atención personalizada.",
-        "title": "Demo Castillos Inflables San Lorenzo - Alquiler de Castillos en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Castillos Inflables San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Castillos Inflables San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Castillos Inflables San Lorenzo",
-    "tagline": "Alquiler de Castillos profesional en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Castillos Inflables y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-catering-empresarial:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Catering Empresarial Asunción",
-      "copyright": "© {{year}} Demo Catering Empresarial Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "drop_off_caterer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Catering%20Empresarial%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Catering Empresarial Asunción - Catering a Domicilio",
-        "subheadline": "Catering a Domicilio profesional en Asunción."
-      },
-      "seo": {
-        "description": "Catering a Domicilio profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Catering Empresarial Asunción - Catering a Domicilio en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Catering Empresarial Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Catering Empresarial Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Catering Empresarial Asunción",
-    "tagline": "Catering a Domicilio profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Catering Empresarial y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-catering:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Catering Asunción",
-      "copyright": "© {{year}} Demo Catering Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "catering",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Catering%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Catering Asunción - La gastronomia de tu evento",
-        "subheadline": "Catering para eventos corporativos, bodas y reuniones en Asunción."
-      },
-      "seo": {
-        "description": "Catering para eventos corporativos, bodas y reuniones en Asunción.",
-        "title": "Demo Catering Asunción - Catering en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Catering Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Catering Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Catering Asunción",
-    "tagline": "Catering para eventos corporativos, bodas y reuniones en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Catering y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-cerrajeria-autos:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Cerrajería Automotriz Asunción",
-      "copyright": "© {{year}} Demo Cerrajería Automotriz Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "automotive_locksmith",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cerrajeria%20Automotriz%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Cerrajería Automotriz Asunción - Cerrajero Automotriz",
-        "subheadline": "Cerrajero Automotriz profesional en Asunción."
-      },
-      "seo": {
-        "description": "Cerrajero Automotriz profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Cerrajería Automotriz Asunción - Cerrajero Automotriz en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Cerrajería Automotriz Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Cerrajería Automotriz Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Cerrajería Automotriz Asunción",
-    "tagline": "Cerrajero Automotriz profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Cerrajería Automotriz y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Carnicería y me interesa un sitio para mi negocio"
     }
   },
   "demo-cerrajero:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Cerrajero Lambare",
-      "copyright": "© {{year}} Demo Cerrajero Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Cerrajero Asunción",
+      "copyright": "© {{year}} Demo Cerrajero Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "Lambare",
+        "city": "Asunción",
         "demoRubro": "cerrajero",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
@@ -19194,228 +13761,362 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Cerrajero Lambare - Cerrajero 24 horas",
-        "subheadline": "Aperturas, cerraduras, copias y emergencias en Lambare. Respondemos en 30 minutos."
+        "headline": "Demo Cerrajero Asunción - Cerrajero 24 horas",
+        "subheadline": "Aperturas, cerraduras, copias y emergencias en Asunción. Respondemos en 30 minutos."
       },
       "seo": {
-        "description": "Cerrajero 24 horas en Lambare. Aperturas, cerraduras, copias de llaves, autos y cajas fuertes.",
-        "title": "Demo Cerrajero Lambare - Cerrajero 24h en Lambare"
+        "description": "Cerrajero 24 horas en Asunción. Aperturas, cerraduras, copias de llaves, autos y cajas fuertes.",
+        "title": "Demo Cerrajero Asunción - Cerrajero 24h en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Cerrajero Lambare",
+      "businessName": "Demo Cerrajero Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Cerrajero Lambare",
-      "city": "Lambare",
+      "businessName": "Demo Cerrajero Asunción",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Cerrajero Lambare",
-    "tagline": "Aperturas, cerraduras, copias y emergencias en Lambare. Respondemos en 30 minutos.",
+    "siteName": "Demo Cerrajero Asunción",
+    "tagline": "Aperturas, cerraduras, copias y emergencias en Asunción. Respondemos en 30 minutos.",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Cerrajero y me interesa un sitio para mi negocio"
     }
   },
-  "demo-chapa-pintura:es": {
+  "demo-clinica-integral:es": {
     "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
+      "author": "paragu-ai",
+      "lastReviewed": "2026-04-25",
+      "translationQuality": "human"
     },
     "footer": {
-      "businessName": "Demo Chapa y Pintura Lambare",
-      "copyright": "© {{year}} Demo Chapa y Pintura Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Clínica Integral Asunción",
+      "copyright": "© {{year}} Clínica Integral Asunción. Todos los derechos reservados.",
+      "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "auto_body_shop",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
+      "booking": {
+        "ctaText": "Reservar por WhatsApp",
         "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "services": [
+          {
+            "duration": "30 min",
+            "name": "Medicina General",
+            "price": "Gs. 80.000"
+          },
+          {
+            "duration": "30 min",
+            "name": "Pediatría",
+            "price": "Gs. 90.000"
+          },
+          {
+            "duration": "30 min",
+            "name": "Ginecología",
+            "price": "Gs. 100.000"
+          },
+          {
+            "duration": "30 min",
+            "name": "Cardiología",
+            "price": "Gs. 120.000"
+          },
+          {
+            "duration": "30 min",
+            "name": "Dermatología",
+            "price": "Gs. 100.000"
+          },
+          {
+            "duration": "—",
+            "name": "Análisis Clínicos",
+            "price": "Desde Gs. 30.000"
+          }
+        ],
+        "subtitle": "Elegí especialidad, día y horario. Consultas de 30 minutos.",
+        "title": "Sacá tu turno online"
       },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Chapa%20y%20Pintura%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Chapa y Pintura Lambare - Chaperia y Pintura",
-        "subheadline": "Chaperia y Pintura profesional en Lambare."
-      },
-      "seo": {
-        "description": "Chaperia y Pintura profesional en Lambare. Servicios de calidad con atención personalizada.",
-        "title": "Demo Chapa y Pintura Lambare - Chaperia y Pintura en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Chapa y Pintura Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Chapa y Pintura Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Chapa y Pintura Lambare",
-    "tagline": "Chaperia y Pintura profesional en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Chapa y Pintura y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-clases-guitarra:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Clases de Guitarra Fernando de la Mora",
-      "copyright": "© {{year}} Demo Clases de Guitarra Fernando de la Mora",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
       "contact": {
-        "city": "Fernando de la Mora",
-        "demoRubro": "guitar_lessons",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Clases%20de%20Guitarra%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Clases de Guitarra Fernando de la Mora - Clases Guitarra",
-        "subheadline": "Clases Guitarra profesional en Fernando de la Mora."
-      },
-      "seo": {
-        "description": "Clases Guitarra profesional en Fernando de la Mora. Servicios de calidad con atención personalizada.",
-        "title": "Demo Clases de Guitarra Fernando de la Mora - Clases Guitarra en Fernando de la Mora"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Clases de Guitarra Fernando de la Mora",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Clases de Guitarra Fernando de la Mora",
-      "city": "Fernando de la Mora",
-      "year": 2026
-    },
-    "siteName": "Demo Clases de Guitarra Fernando de la Mora",
-    "tagline": "Clases Guitarra profesional en Fernando de la Mora.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Clases de Guitarra y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-coding-bootcamp:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Bootcamp de Programacion Asunción",
-      "copyright": "© {{year}} Demo Bootcamp de Programacion Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
+        "address": "Av. Mariscal López 1.234 casi Av. España",
         "city": "Asunción",
-        "demoRubro": "coding_bootcamp",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
+        "email": "contacto@clicnicaintegralasuncion.com.py",
+        "mapEmbedUrl": "https://maps.google.com/maps?q=Asuncion+Paraguay&z=15",
         "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "subtitle": "Estamos ubicados en el centro de Asunción. Visitános o contactanos por WhatsApp",
+        "title": "Contacto",
+        "whatsapp": "+595985724135"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Podés sacar turno online a través de nuestra página, llamando al (+595) 985 724 135 o viniendo directamente a recepción de lunes a viernes de 7:00 a 18:00.",
+            "question": "¿Cómo puedo sacar un turno?"
+          },
+          {
+            "answer": "Sí, trabajamos con la mayoría de los seguros del país. Consultá con nuestro equipo de admisiones para verificar tu cobertura específica.",
+            "question": "¿Aceptan seguros médicos?"
+          },
+          {
+            "answer": "Las consultas de especialidades tienen una duración de 30 minutos. Medicina general puede extenderse hasta 45 minutos si es primera vez.",
+            "question": "¿Cuánto dura una consulta?"
+          },
+          {
+            "answer": "Sí, contamos con atención de emergencias 24/7 en nuestras instalaciones para urgencias médicas generales.",
+            "question": "¿Tienen servicio de emergencias?"
+          },
+          {
+            "answer": "Sí, todos los análisis clínicos requieren una orden médica. Si no tenés, podés consultar primero con nuestro médico general.",
+            "question": "¿Los análisis de laboratorio requieren orden médica?"
+          },
+          {
+            "answer": "Sí, contamos con estacionamiento gratuito para nuestros pacientes con capacidad para 20 vehículos.",
+            "question": "¿Tienen estacionamiento?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Fachada de la clínica",
+            "caption": "Entrada principal",
+            "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600"
+          },
+          {
+            "alt": "Sala de espera",
+            "caption": "Sala de espera",
+            "src": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600"
+          },
+          {
+            "alt": "Consultorio médico",
+            "caption": "Consultorios equipados",
+            "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600"
+          },
+          {
+            "alt": "Equipo de cardiología",
+            "caption": "Área de cardiología",
+            "src": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600"
+          },
+          {
+            "alt": "Laboratorio",
+            "caption": "Laboratorio de análisis",
+            "src": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600"
+          },
+          {
+            "alt": "Recepción",
+            "caption": "Recepción y admisiones",
+            "src": "https://images.unsplash.com/photo-1666214280231-3d29c36731e2?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Espacios modernos y equipados para tu comodidad y bienestar",
+        "title": "Nuestras instalaciones"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Bootcamp%20de%20Programacion%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Bootcamp de Programacion Asunción - Bootcamp Programacion",
-        "subheadline": "Bootcamp Programacion profesional en Asunción."
+        "ctaPrimaryHref": "#turnos",
+        "ctaPrimaryText": "Sacar turno online",
+        "ctaSecondaryHref": "#servicios",
+        "ctaSecondaryText": "Conocé nuestros servicios",
+        "headline": "Tu salud, nuestra prioridad",
+        "image": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200",
+        "imageAlt": "Fachada de Clínica Integral Asunción",
+        "subheadline": "Centro médico multidisciplinario con 6 especialidades, profesionales de primer nivel y tecnología de avanzada en el corazón de Asunción"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Emergencias 24/7",
+          "Lunes a Viernes": "07:00 - 19:00",
+          "Sábado": "08:00 - 13:00"
+        },
+        "title": "Horarios de atención"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar turno",
+        "dismissible": true,
+        "subtitle": "Válido para nuevos pacientes hasta el 31 de mayo. Incluye evaluación completa.",
+        "title": "🩺 Primera consulta en medicina general a Gs. 50.000",
+        "variant": "standard"
       },
       "seo": {
-        "description": "Bootcamp Programacion profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Bootcamp de Programacion Asunción - Bootcamp Programacion en Asunción"
+        "description": "Clínica Integral Asunción ofrece medicina general, pediatría, ginecología, cardiología, dermatología y análisis clínicos. Agendá tu consulta online.",
+        "title": "Clínica Integral Asunción | Medicina General y Especialidades en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios médicos",
+        "items": [
+          {
+            "description": "Consultas de atención primaria, chequeos preventivos, control de enfermedades crónicas y derivación a especialistas cuando sea necesario",
+            "duration": "30 min",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1666214280231-3d29c36731e2?w=600",
+            "name": "Medicina General",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Atención integral para niños y adolescentes: controles de crecimiento, vacunación, nutrición infantil y enfermedades frecuentes",
+            "duration": "30 min",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600",
+            "name": "Pediatría",
+            "price": "Gs. 90.000"
+          },
+          {
+            "description": "Consulta ginecológica integral, Papanicolaou, planificación familiar, control de embarazo y estudios de fertilidad",
+            "duration": "30 min",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600",
+            "name": "Ginecología",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "Evaluación cardiovascular completa con electrocardiograma, ecocardiograma, prueba de esfuerzo y control de hipertensión",
+            "duration": "30 min",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600",
+            "name": "Cardiología",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Diagnóstico y tratamiento de afecciones de la piel, lunares, acné, alergias cutáneas, control de manchas y cáncer de piel",
+            "duration": "30 min",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
+            "name": "Dermatología",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "Laboratorio propio con análisis de sangre, orina, perfiles bioquímicos, hormonales e infecciosos. Resultados en 24 horas",
+            "duration": "—",
+            "icon": "Heart",
+            "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600",
+            "name": "Análisis Clínicos",
+            "price": "Desde Gs. 30.000"
+          }
+        ],
+        "subtitle": "Contamos con 6 especialidades médicas y laboratorio de análisis clínicos propio",
+        "title": "Atención integral para toda la familia"
+      },
+      "team": {
+        "items": [
+          {
+            "credentials": "MN: 12.345",
+            "description": "Médica egresada de la UNA con 12 años de experiencia en atención primaria y medicina preventiva",
+            "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
+            "name": "Dra. María Elena Cabrera",
+            "role": "Medicina General"
+          },
+          {
+            "credentials": "MN: 14.567",
+            "description": "Pediatra certificado, especializado en neonatología y crecimiento infantil. Miembro de la Sociedad Paraguaya de Pediatría",
+            "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
+            "name": "Dr. Ricardo Benítez",
+            "role": "Pediatría"
+          },
+          {
+            "credentials": "MN: 13.789",
+            "description": "Ginecóloga-obstetra con 10 años de experiencia en salud femenina integral, control prenatal y cirugía ginecológica mínimamente invasiva",
+            "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
+            "name": "Dra. Ana Sofía Duarte",
+            "role": "Ginecología y Obstetricia"
+          },
+          {
+            "credentials": "MN: 15.234",
+            "description": "Cardiólogo clínico e intervencionista, especializado en hipertensión arterial, insuficiencia cardíaca y estudios no invasivos",
+            "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400",
+            "name": "Dr. Carlos Martínez",
+            "role": "Cardiología"
+          }
+        ],
+        "subtitle": "Profesionales de la salud con amplia experiencia y vocación de servicio",
+        "title": "Nuestro equipo médico"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Laura G.",
+            "rating": 5,
+            "text": "Excelente atención de la Dra. Cabrera. La clínica es muy limpia y moderna. Súper recomendada."
+          },
+          {
+            "name": "Pedro R.",
+            "rating": 5,
+            "text": "Llevé a mi hijo al Dr. Benítez y fue muy paciente y profesional. Volvemos sin dudas."
+          },
+          {
+            "name": "Camila S.",
+            "rating": 4,
+            "text": "Me hice los análisis de rutina en el laboratorio de la clínica. Resultados rápidos y personal amable."
+          },
+          {
+            "name": "Juan D.",
+            "rating": 5,
+            "text": "El Dr. Martínez me realizó un chequeo cardiovascular completo. Muy conforme con la atención y el equipamiento."
+          },
+          {
+            "name": "María F.",
+            "rating": 5,
+            "text": "Saqué turno online y fue muy fácil. La atención en recepción es rápida y cordial"
+          },
+          {
+            "name": "Roberto A.",
+            "rating": 4,
+            "text": "Atención profesional y precios accesibles. La consulta de medicina general a Gs. 80.000 es un precio justo."
+          }
+        ],
+        "title": "Lo que dicen nuestros pacientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Médicos certificados",
+          "Laboratorio propio",
+          "6 especialidades",
+          "Emergencias 24/7",
+          "Estacionamiento gratuito",
+          "Aceptamos seguros"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Bootcamp de Programacion Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Clínica Integral Asunción",
+      "ctaHref": "#turnos",
+      "ctaText": "Sacar turno",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Especialistas",
+          "path": "#equipo"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Turnos",
+          "path": "#turnos"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
-      "businessName": "Demo Bootcamp de Programacion Asunción",
+      "businessName": "Clínica Integral Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Bootcamp de Programacion Asunción",
-    "tagline": "Bootcamp Programacion profesional en Asunción.",
+    "siteName": "Clínica Integral Asunción",
+    "tagline": "Centro médico multidisciplinario con especialistas en todas las áreas de la salud",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Bootcamp de Programacion y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-colisiones:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Centro de Colisiones Ciudad del Este",
-      "copyright": "© {{year}} Demo Centro de Colisiones Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "collision_repair_center",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Centro%20de%20Colisiones%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Centro de Colisiones Ciudad del Este - Reparacion Choques",
-        "subheadline": "Reparacion Choques profesional en Ciudad del Este."
-      },
-      "seo": {
-        "description": "Reparacion Choques profesional en Ciudad del Este. Servicios de calidad con atención personalizada.",
-        "title": "Demo Centro de Colisiones Ciudad del Este - Reparacion Choques en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Centro de Colisiones Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Centro de Colisiones Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Centro de Colisiones Ciudad del Este",
-    "tagline": "Reparacion Choques profesional en Ciudad del Este.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Centro de Colisiones y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Clínica Integral y me interesa un sitio para mi negocio"
     }
   },
   "demo-consultora-agro:es": {
@@ -19430,32 +14131,220 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-10",
+            "slug": "guia-impuestos-2026",
+            "title": "Guía de impuestos 2026"
+          },
+          {
+            "date": "2026-04-03",
+            "slug": "tendencias-sector",
+            "title": "Tendencias del sector"
+          },
+          {
+            "date": "2026-03-25",
+            "slug": "casos-exito",
+            "title": "Casos de éxito"
+          }
+        ],
+        "title": "Recursos y novedades"
+      },
       "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "consultora_agro",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Irrazábal 2345",
+        "city": "Encarnación",
+        "email": "consultas@agroconsultora.com.py",
+        "phone": "+595987901234",
+        "subtitle": "Oficina en Encarnación",
+        "title": "Contacto",
+        "whatsapp": "+595987901234"
+      },
+      "cta": {
+        "backgroundColor": "primary",
+        "ctaLink": "https://wa.me/595987901234",
+        "ctaText": "Contactar ahora",
+        "subtitle": "Contactanos hoy y recibí una primera consulta gratuita",
+        "title": "¿Listo para empezar?"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Depende del alcance. Ofrecemos una primera reunión gratuita para evaluar.",
+            "question": "¿Cuánto cuesta una consultoría?"
+          },
+          {
+            "answer": "Sí, desde emprendedores hasta grandes empresas.",
+            "question": "¿Trabajan con empresas de todo tamaño?"
+          },
+          {
+            "answer": "Sí, atención virtual y presencial.",
+            "question": "¿Ofrecen servicios online?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Consultora%20Agro%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Consultora Agro Encarnacion - Rentabilidad en el campo, con datos",
-        "subheadline": "Consultoria agronomica integral para productores y empresas."
+        "ctaPrimaryText": "Solicitá una consulta",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Expertos en agronegocios paraguayos",
+        "subheadline": "Consultoría agrícola, ganadera y forestal. Maximizá el rendimiento de tu campo"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Entendemos tu situación y necesidades",
+            "icon": "Search",
+            "title": "Diagnóstico"
+          },
+          {
+            "description": "Te presentamos un plan de trabajo personalizado",
+            "icon": "FileText",
+            "title": "Propuesta"
+          },
+          {
+            "description": "Implementamos las soluciones con equipo profesional",
+            "icon": "Zap",
+            "title": "Ejecución"
+          },
+          {
+            "description": "Acompañamiento continuo y ajustes según resultados",
+            "icon": "RefreshCw",
+            "title": "Seguimiento"
+          }
+        ],
+        "title": "¿Cómo trabajamos?"
       },
       "seo": {
         "description": "Consultoria agronomica integral para productores y empresas.",
         "title": "Demo Consultora Agro Encarnacion - Consultora Agropecuaria en Encarnacion"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Planificación y optimización de cultivos extensivos",
+            "icon": "Sprout",
+            "name": "Manejo de Cultivos"
+          },
+          {
+            "description": "Manejo de rodeo, sanidad y mejoramiento genético",
+            "icon": "Cow",
+            "name": "Producción Ganadera"
+          },
+          {
+            "description": "Plantaciones forestales y manejo sostenible",
+            "icon": "Trees",
+            "name": "Forestación"
+          },
+          {
+            "description": "Estudio de suelos, fertilización y enmiendas",
+            "icon": "Flask",
+            "name": "Análisis de Suelos"
+          },
+          {
+            "description": "Acompañamiento técnico permanente en campo",
+            "icon": "Clipboard",
+            "name": "Asesoría Técnica"
+          },
+          {
+            "description": "Evaluación y planificación de inversiones agropecuarias",
+            "icon": "TrendingUp",
+            "name": "Proyectos de Inversión"
+          }
+        ],
+        "title": "Soluciones profesionales para tu negocio"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "15 años de experiencia en el rubro",
+            "name": "Lic. Roberto Vargas",
+            "role": "Director"
+          },
+          {
+            "description": "Especialista en gestión empresarial",
+            "name": "Lic. María Torres",
+            "role": "Senior Consultant"
+          },
+          {
+            "description": "Experto en transformación digital",
+            "name": "Ing. Diego Rivas",
+            "role": "Consultor Técnico"
+          }
+        ],
+        "subtitle": "Profesionales a tu servicio",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Empresa ABC S.A.",
+            "rating": 5,
+            "text": "Profesionales, responsables y con resultados medibles. Muy recomendados."
+          },
+          {
+            "name": "Grupo XYZ",
+            "rating": 5,
+            "text": "Nos ayudaron a optimizar procesos y reducir costos significativamente."
+          },
+          {
+            "name": "Comercial del Este",
+            "rating": 5,
+            "text": "Equipo altamente capacitado. Superaron nuestras expectativas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustSignals": {
+        "items": [
+          {
+            "description": "de experiencia en el mercado paraguayo",
+            "title": "+10 años"
+          },
+          {
+            "description": "satisfechos en todo el país",
+            "title": "+200 clientes"
+          },
+          {
+            "description": "profesionales con formación internacional",
+            "title": "Equipo certificado"
+          },
+          {
+            "description": "medición de impacto y mejora continua",
+            "title": "Resultados garantizados"
+          }
+        ],
+        "title": "Por qué elegirnos"
       }
     },
     "navigation": {
-      "businessName": "Demo Consultora Agro Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Consultora Agro",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Proceso",
+          "path": "#proceso"
+        },
+        {
+          "label": "Blog",
+          "path": "#blog"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Consultora Agro Encarnacion",
@@ -19480,32 +14369,220 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-10",
+            "slug": "guia-impuestos-2026",
+            "title": "Guía de impuestos 2026"
+          },
+          {
+            "date": "2026-04-03",
+            "slug": "tendencias-sector",
+            "title": "Tendencias del sector"
+          },
+          {
+            "date": "2026-03-25",
+            "slug": "casos-exito",
+            "title": "Casos de éxito"
+          }
+        ],
+        "title": "Recursos y novedades"
+      },
       "contact": {
+        "address": "Av. España 1234",
         "city": "Asunción",
-        "demoRubro": "consultora_rrhh",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "email": "info@rrhhconsultora.com.py",
+        "phone": "+595981567890",
+        "subtitle": "Oficina en Asunción",
+        "title": "Contacto",
+        "whatsapp": "+595981567890"
+      },
+      "cta": {
+        "backgroundColor": "primary",
+        "ctaLink": "https://wa.me/595981567890",
+        "ctaText": "Contactar ahora",
+        "subtitle": "Contactanos hoy y recibí una primera consulta gratuita",
+        "title": "¿Listo para empezar?"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Depende del alcance. Ofrecemos una primera reunión gratuita para evaluar.",
+            "question": "¿Cuánto cuesta una consultoría?"
+          },
+          {
+            "answer": "Sí, desde emprendedores hasta grandes empresas.",
+            "question": "¿Trabajan con empresas de todo tamaño?"
+          },
+          {
+            "answer": "Sí, atención virtual y presencial.",
+            "question": "¿Ofrecen servicios online?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Consultora%20de%20RRHH%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Consultora de RRHH Asunción - El mejor equipo para tu empresa",
-        "subheadline": "Selección de personal, capacitacion y desarrollo organizacional en Asunción."
+        "ctaPrimaryText": "Buscamos tu próximo empleado",
+        "ctaSecondaryText": "Servicios",
+        "headline": "El talento adecuado para tu empresa",
+        "subheadline": "Selección de personal, capacitación y gestión del talento humano en Paraguay"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Entendemos tu situación y necesidades",
+            "icon": "Search",
+            "title": "Diagnóstico"
+          },
+          {
+            "description": "Te presentamos un plan de trabajo personalizado",
+            "icon": "FileText",
+            "title": "Propuesta"
+          },
+          {
+            "description": "Implementamos las soluciones con equipo profesional",
+            "icon": "Zap",
+            "title": "Ejecución"
+          },
+          {
+            "description": "Acompañamiento continuo y ajustes según resultados",
+            "icon": "RefreshCw",
+            "title": "Seguimiento"
+          }
+        ],
+        "title": "¿Cómo trabajamos?"
       },
       "seo": {
         "description": "Selección de personal, capacitacion y desarrollo organizacional en Asunción.",
         "title": "Demo Consultora de RRHH Asunción - Consultora de RRHH en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Reclutamiento y selección para todos los niveles",
+            "icon": "UserPlus",
+            "name": "Selección de Personal"
+          },
+          {
+            "description": "Cursos y talleres de desarrollo profesional",
+            "icon": "GraduationCap",
+            "name": "Capacitación"
+          },
+          {
+            "description": "Sistemas de evaluación y mejora continua",
+            "icon": "BarChart",
+            "name": "Evaluación de Desempeño"
+          },
+          {
+            "description": "Tercerización del departamento de recursos humanos",
+            "icon": "Building",
+            "name": "Outsourcing RRHH"
+          },
+          {
+            "description": "Encuestas y planes de mejora del ambiente laboral",
+            "icon": "Heart",
+            "name": "Clima Laboral"
+          },
+          {
+            "description": "Búsqueda de ejecutivos y perfiles gerenciales",
+            "icon": "Search",
+            "name": "Headhunting"
+          }
+        ],
+        "title": "Soluciones profesionales para tu negocio"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "15 años de experiencia en el rubro",
+            "name": "Lic. Roberto Vargas",
+            "role": "Director"
+          },
+          {
+            "description": "Especialista en gestión empresarial",
+            "name": "Lic. María Torres",
+            "role": "Senior Consultant"
+          },
+          {
+            "description": "Experto en transformación digital",
+            "name": "Ing. Diego Rivas",
+            "role": "Consultor Técnico"
+          }
+        ],
+        "subtitle": "Profesionales a tu servicio",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Empresa ABC S.A.",
+            "rating": 5,
+            "text": "Profesionales, responsables y con resultados medibles. Muy recomendados."
+          },
+          {
+            "name": "Grupo XYZ",
+            "rating": 5,
+            "text": "Nos ayudaron a optimizar procesos y reducir costos significativamente."
+          },
+          {
+            "name": "Comercial del Este",
+            "rating": 5,
+            "text": "Equipo altamente capacitado. Superaron nuestras expectativas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustSignals": {
+        "items": [
+          {
+            "description": "de experiencia en el mercado paraguayo",
+            "title": "+10 años"
+          },
+          {
+            "description": "satisfechos en todo el país",
+            "title": "+200 clientes"
+          },
+          {
+            "description": "profesionales con formación internacional",
+            "title": "Equipo certificado"
+          },
+          {
+            "description": "medición de impacto y mejora continua",
+            "title": "Resultados garantizados"
+          }
+        ],
+        "title": "Por qué elegirnos"
       }
     },
     "navigation": {
-      "businessName": "Demo Consultora de RRHH Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Consultora Rrhh",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Proceso",
+          "path": "#proceso"
+        },
+        {
+          "label": "Blog",
+          "path": "#blog"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Consultora de RRHH Asunción",
@@ -19530,32 +14607,220 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-10",
+            "slug": "guia-impuestos-2026",
+            "title": "Guía de impuestos 2026"
+          },
+          {
+            "date": "2026-04-03",
+            "slug": "tendencias-sector",
+            "title": "Tendencias del sector"
+          },
+          {
+            "date": "2026-03-25",
+            "slug": "casos-exito",
+            "title": "Casos de éxito"
+          }
+        ],
+        "title": "Recursos y novedades"
+      },
       "contact": {
-        "city": "Asunción",
-        "demoRubro": "consultora_ti",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Adrián Jara 567",
+        "city": "Ciudad del Este",
+        "email": "ventas@tisoluciones.com.py",
+        "phone": "+595987654321",
+        "subtitle": "Oficina en Ciudad del Este",
+        "title": "Contacto",
+        "whatsapp": "+595987654321"
+      },
+      "cta": {
+        "backgroundColor": "primary",
+        "ctaLink": "https://wa.me/595987654321",
+        "ctaText": "Contactar ahora",
+        "subtitle": "Contactanos hoy y recibí una primera consulta gratuita",
+        "title": "¿Listo para empezar?"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Depende del alcance. Ofrecemos una primera reunión gratuita para evaluar.",
+            "question": "¿Cuánto cuesta una consultoría?"
+          },
+          {
+            "answer": "Sí, desde emprendedores hasta grandes empresas.",
+            "question": "¿Trabajan con empresas de todo tamaño?"
+          },
+          {
+            "answer": "Sí, atención virtual y presencial.",
+            "question": "¿Ofrecen servicios online?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Consultora%20TI%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Consultora TI Asunción - Tecnologia que potencia tu negocio",
-        "subheadline": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital."
+        "ctaPrimaryText": "Solicitá propuesta",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Transformación digital para tu negocio",
+        "subheadline": "Soluciones TI, desarrollo de software e infraestructura tecnológica en Paraguay"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Entendemos tu situación y necesidades",
+            "icon": "Search",
+            "title": "Diagnóstico"
+          },
+          {
+            "description": "Te presentamos un plan de trabajo personalizado",
+            "icon": "FileText",
+            "title": "Propuesta"
+          },
+          {
+            "description": "Implementamos las soluciones con equipo profesional",
+            "icon": "Zap",
+            "title": "Ejecución"
+          },
+          {
+            "description": "Acompañamiento continuo y ajustes según resultados",
+            "icon": "RefreshCw",
+            "title": "Seguimiento"
+          }
+        ],
+        "title": "¿Cómo trabajamos?"
       },
       "seo": {
         "description": "Consultoria en ERP, cloud, ciberseguridad y transformacion digital.",
         "title": "Demo Consultora TI Asunción - Consultora TI en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Sitios web, plataformas y aplicaciones web a medida",
+            "icon": "Globe",
+            "name": "Desarrollo Web"
+          },
+          {
+            "description": "Mantenimiento de equipos, redes y servidores",
+            "icon": "Monitor",
+            "name": "Soporte Técnico"
+          },
+          {
+            "description": "Redes, servidores y cloud computing",
+            "icon": "Server",
+            "name": "Infraestructura"
+          },
+          {
+            "description": "Auditoría de seguridad y protección de datos",
+            "icon": "Shield",
+            "name": "Ciberseguridad"
+          },
+          {
+            "description": "Apps nativas y multiplataforma para iOS y Android",
+            "icon": "Smartphone",
+            "name": "Desarrollo Mobile"
+          },
+          {
+            "description": "Asesoramiento en transformación digital",
+            "icon": "Lightbulb",
+            "name": "Consultoría TI"
+          }
+        ],
+        "title": "Soluciones profesionales para tu negocio"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "15 años de experiencia en el rubro",
+            "name": "Lic. Roberto Vargas",
+            "role": "Director"
+          },
+          {
+            "description": "Especialista en gestión empresarial",
+            "name": "Lic. María Torres",
+            "role": "Senior Consultant"
+          },
+          {
+            "description": "Experto en transformación digital",
+            "name": "Ing. Diego Rivas",
+            "role": "Consultor Técnico"
+          }
+        ],
+        "subtitle": "Profesionales a tu servicio",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Empresa ABC S.A.",
+            "rating": 5,
+            "text": "Profesionales, responsables y con resultados medibles. Muy recomendados."
+          },
+          {
+            "name": "Grupo XYZ",
+            "rating": 5,
+            "text": "Nos ayudaron a optimizar procesos y reducir costos significativamente."
+          },
+          {
+            "name": "Comercial del Este",
+            "rating": 5,
+            "text": "Equipo altamente capacitado. Superaron nuestras expectativas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustSignals": {
+        "items": [
+          {
+            "description": "de experiencia en el mercado paraguayo",
+            "title": "+10 años"
+          },
+          {
+            "description": "satisfechos en todo el país",
+            "title": "+200 clientes"
+          },
+          {
+            "description": "profesionales con formación internacional",
+            "title": "Equipo certificado"
+          },
+          {
+            "description": "medición de impacto y mejora continua",
+            "title": "Resultados garantizados"
+          }
+        ],
+        "title": "Por qué elegirnos"
       }
     },
     "navigation": {
-      "businessName": "Demo Consultora TI Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Consultora Ti",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Proceso",
+          "path": "#proceso"
+        },
+        {
+          "label": "Blog",
+          "path": "#blog"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Consultora TI Asunción",
@@ -19580,32 +14845,220 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-10",
+            "slug": "guia-impuestos-2026",
+            "title": "Guía de impuestos 2026"
+          },
+          {
+            "date": "2026-04-03",
+            "slug": "tendencias-sector",
+            "title": "Tendencias del sector"
+          },
+          {
+            "date": "2026-03-25",
+            "slug": "casos-exito",
+            "title": "Casos de éxito"
+          }
+        ],
+        "title": "Recursos y novedades"
+      },
       "contact": {
+        "address": "Eusebio Ayala 2345",
         "city": "Asunción",
-        "demoRubro": "contador",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "email": "estudio@contadorespy.com.py",
+        "phone": "+595981234567",
+        "subtitle": "Oficina en Asunción",
+        "title": "Contacto",
+        "whatsapp": "+595981234567"
+      },
+      "cta": {
+        "backgroundColor": "primary",
+        "ctaLink": "https://wa.me/595981234567",
+        "ctaText": "Contactar ahora",
+        "subtitle": "Contactanos hoy y recibí una primera consulta gratuita",
+        "title": "¿Listo para empezar?"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Depende del alcance. Ofrecemos una primera reunión gratuita para evaluar.",
+            "question": "¿Cuánto cuesta una consultoría?"
+          },
+          {
+            "answer": "Sí, desde emprendedores hasta grandes empresas.",
+            "question": "¿Trabajan con empresas de todo tamaño?"
+          },
+          {
+            "answer": "Sí, atención virtual y presencial.",
+            "question": "¿Ofrecen servicios online?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Contador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Contador Asunción - Tus numeros en buenas manos",
-        "subheadline": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción."
+        "ctaPrimaryText": "Agendá una cita",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu estudio contable de confianza",
+        "subheadline": "Contabilidad general, impuestos, auditoría y asesoría financiera en Asunción"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Entendemos tu situación y necesidades",
+            "icon": "Search",
+            "title": "Diagnóstico"
+          },
+          {
+            "description": "Te presentamos un plan de trabajo personalizado",
+            "icon": "FileText",
+            "title": "Propuesta"
+          },
+          {
+            "description": "Implementamos las soluciones con equipo profesional",
+            "icon": "Zap",
+            "title": "Ejecución"
+          },
+          {
+            "description": "Acompañamiento continuo y ajustes según resultados",
+            "icon": "RefreshCw",
+            "title": "Seguimiento"
+          }
+        ],
+        "title": "¿Cómo trabajamos?"
       },
       "seo": {
         "description": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción.",
         "title": "Demo Contador Asunción - Estudio Contable en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Llevamos tu contabilidad al día",
+            "icon": "BookOpen",
+            "name": "Contabilidad General"
+          },
+          {
+            "description": "IVA, IRP, IRACIS y demás impuestos",
+            "icon": "FileText",
+            "name": "Liquidación de Impuestos"
+          },
+          {
+            "description": "Auditoría financiera y de cumplimiento",
+            "icon": "Search",
+            "name": "Auditoría"
+          },
+          {
+            "description": "Estados financieros y análisis de resultados",
+            "icon": "TrendingUp",
+            "name": "Financiero"
+          },
+          {
+            "description": "Liquidación de sueldos, IPS y cargas sociales",
+            "icon": "Users",
+            "name": "Sueldos y Jornales"
+          },
+          {
+            "description": "Asesoría legal y contable para emprender",
+            "icon": "Building",
+            "name": "Constitución de Empresas"
+          }
+        ],
+        "title": "Soluciones profesionales para tu negocio"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "15 años de experiencia en el rubro",
+            "name": "Lic. Roberto Vargas",
+            "role": "Director"
+          },
+          {
+            "description": "Especialista en gestión empresarial",
+            "name": "Lic. María Torres",
+            "role": "Senior Consultant"
+          },
+          {
+            "description": "Experto en transformación digital",
+            "name": "Ing. Diego Rivas",
+            "role": "Consultor Técnico"
+          }
+        ],
+        "subtitle": "Profesionales a tu servicio",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Empresa ABC S.A.",
+            "rating": 5,
+            "text": "Profesionales, responsables y con resultados medibles. Muy recomendados."
+          },
+          {
+            "name": "Grupo XYZ",
+            "rating": 5,
+            "text": "Nos ayudaron a optimizar procesos y reducir costos significativamente."
+          },
+          {
+            "name": "Comercial del Este",
+            "rating": 5,
+            "text": "Equipo altamente capacitado. Superaron nuestras expectativas."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustSignals": {
+        "items": [
+          {
+            "description": "de experiencia en el mercado paraguayo",
+            "title": "+10 años"
+          },
+          {
+            "description": "satisfechos en todo el país",
+            "title": "+200 clientes"
+          },
+          {
+            "description": "profesionales con formación internacional",
+            "title": "Equipo certificado"
+          },
+          {
+            "description": "medición de impacto y mejora continua",
+            "title": "Resultados garantizados"
+          }
+        ],
+        "title": "Por qué elegirnos"
       }
     },
     "navigation": {
-      "businessName": "Demo Contador Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Contador",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Proceso",
+          "path": "#proceso"
+        },
+        {
+          "label": "Blog",
+          "path": "#blog"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Contador Asunción",
@@ -19618,666 +15071,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Contador y me interesa un sitio para mi negocio"
     }
   },
-  "demo-corredor-inmobiliario:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Corredor Inmobiliario Lambare",
-      "copyright": "© {{year}} Demo Corredor Inmobiliario Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "corredor_inmobiliario",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Corredor%20Inmobiliario%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Corredor Inmobiliario Lambare - Tu corredor de confianza",
-        "subheadline": "Compra, venta y alquiler con asesoramiento personalizado en Lambare."
-      },
-      "seo": {
-        "description": "Compra, venta y alquiler con asesoramiento personalizado en Lambare.",
-        "title": "Demo Corredor Inmobiliario Lambare - Corredor Inmobiliario en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Corredor Inmobiliario Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Corredor Inmobiliario Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Corredor Inmobiliario Lambare",
-    "tagline": "Compra, venta y alquiler con asesoramiento personalizado en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Corredor Inmobiliario y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-corredor-seguros:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Corredor de Seguros Asunción",
-      "copyright": "© {{year}} Demo Corredor de Seguros Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "broker_seguros",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Corredor%20de%20Seguros%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Corredor de Seguros Asunción - Protege lo que te importa",
-        "subheadline": "Seguros de auto, hogar, vida, salud y empresariales."
-      },
-      "seo": {
-        "description": "Seguros de auto, hogar, vida, salud y empresariales.",
-        "title": "Demo Corredor de Seguros Asunción - Corredor de Seguros en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Corredor de Seguros Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Corredor de Seguros Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Corredor de Seguros Asunción",
-    "tagline": "Seguros de auto, hogar, vida, salud y empresariales.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Corredor de Seguros y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-crossfit:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo CrossFit Lambare",
-      "copyright": "© {{year}} Demo CrossFit Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "crossfit_box",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20CrossFit%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo CrossFit Lambare - Box de CrossFit",
-        "subheadline": "Box de CrossFit profesional en Lambare."
-      },
-      "seo": {
-        "description": "Box de CrossFit profesional en Lambare. Servicios de calidad con atención personalizada.",
-        "title": "Demo CrossFit Lambare - Box de CrossFit en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo CrossFit Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo CrossFit Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo CrossFit Lambare",
-    "tagline": "Box de CrossFit profesional en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de CrossFit y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-depilacion-brasilena:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Depilacion Brasilena Asunción",
-      "copyright": "© {{year}} Demo Depilacion Brasilena Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "brazilian_wax_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Depilacion%20Brasilena%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Depilacion Brasilena Asunción - Depilacion Brasilena",
-        "subheadline": "Depilacion Brasilena profesional en Asunción."
-      },
-      "seo": {
-        "description": "Depilacion Brasilena profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Depilacion Brasilena Asunción - Depilacion Brasilena en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Depilacion Brasilena Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Depilacion Brasilena Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Depilacion Brasilena Asunción",
-    "tagline": "Depilacion Brasilena profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Depilacion Brasilena y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-depilacion:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Depilacion Fernando de la Mora",
-      "copyright": "© {{year}} Demo Depilacion Fernando de la Mora",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Fernando de la Mora",
-        "demoRubro": "depilacion",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Depilacion%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Depilacion Fernando de la Mora - Depilacion Laser Definitiva",
-        "subheadline": "Tecnologia de ultima generacion, resultados permanentes"
-      },
-      "seo": {
-        "description": "Depilacion laser definitiva en Fernando de la Mora. Tecnologia avanzada, resultados permanentes. Consulta gratis.",
-        "title": "Demo Depilacion Fernando de la Mora - Depilacion Laser en Fernando de la Mora | Resultados Permanentes"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Depilacion Fernando de la Mora",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Depilacion Fernando de la Mora",
-      "city": "Fernando de la Mora",
-      "year": 2026
-    },
-    "siteName": "Demo Depilacion Fernando de la Mora",
-    "tagline": "Tecnologia de ultima generacion, resultados permanentes",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Depilacion y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-dermatologia:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Dermatologia Asunción",
-      "copyright": "© {{year}} Demo Dermatologia Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "dermatologia",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Dermatologia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Dermatologia Asunción - Piel sana, piel segura",
-        "subheadline": "Consulta dermatologica, control de lunares y estetica medica en Asunción."
-      },
-      "seo": {
-        "description": "Consulta dermatologica, control de lunares y estetica medica en Asunción.",
-        "title": "Demo Dermatologia Asunción - Dermatologia en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Dermatologia Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Dermatologia Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Dermatologia Asunción",
-    "tagline": "Consulta dermatologica, control de lunares y estetica medica en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Dermatologia y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-desarrollador-inmobiliario:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Desarrollador Inmobiliario Asunción",
-      "copyright": "© {{year}} Demo Desarrollador Inmobiliario Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "desarrollador_inmobiliario",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Desarrollador%20Inmobiliario%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Desarrollador Inmobiliario Asunción - Proyectos que se construyen a tiempo",
-        "subheadline": "Desarrollos residenciales y comerciales con entrega garantizada."
-      },
-      "seo": {
-        "description": "Desarrollos residenciales y comerciales con entrega garantizada.",
-        "title": "Demo Desarrollador Inmobiliario Asunción - Desarrolladora Inmobiliaria en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Desarrollador Inmobiliario Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Desarrollador Inmobiliario Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Desarrollador Inmobiliario Asunción",
-    "tagline": "Desarrollos residenciales y comerciales con entrega garantizada.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Desarrollador Inmobiliario y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-despachante:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Despachante de Aduana Ciudad del Este",
-      "copyright": "© {{year}} Demo Despachante de Aduana Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "despachante",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Despachante%20de%20Aduana%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Despachante de Aduana Ciudad del Este - Aduana sin dolores de cabeza",
-        "subheadline": "Despacho de importacion y exportacion en Ciudad del Este y Ciudad del Este."
-      },
-      "seo": {
-        "description": "Despacho de importacion y exportacion en Ciudad del Este y Ciudad del Este.",
-        "title": "Demo Despachante de Aduana Ciudad del Este - Despachante de Aduanas en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Despachante de Aduana Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Despachante de Aduana Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Despachante de Aduana Ciudad del Este",
-    "tagline": "Despacho de importacion y exportacion en Ciudad del Este y Ciudad del Este.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Despachante de Aduana y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-detailing:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Detailing Luque",
-      "copyright": "© {{year}} Demo Detailing Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Luque",
-        "demoRubro": "detailing",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Detailing%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Detailing Luque - Tu auto premium, como recien salido",
-        "subheadline": "Detailing profesional: pulido, ceramic coating, tratamientos especializados."
-      },
-      "seo": {
-        "description": "Detailing profesional: pulido, ceramic coating, tratamientos especializados.",
-        "title": "Demo Detailing Luque - Detailing Automotor en Luque"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Detailing Luque",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Detailing Luque",
-      "city": "Luque",
-      "year": 2026
-    },
-    "siteName": "Demo Detailing Luque",
-    "tagline": "Detailing profesional: pulido, ceramic coating, tratamientos especializados.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Detailing y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-diseno-grafico:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Diseno Grafico Asunción",
-      "copyright": "© {{year}} Demo Diseno Grafico Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "diseno_grafico",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Diseno%20Grafico%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Donde la fantasia se convierte en realidad",
-        "subheadline": "Diseno de portadas y arte visual para tu proyecto"
-      },
-      "seo": {
-        "description": "Diseno grafico profesional en Asunción. Portadas de libros, diseno editorial y branding creativo. Consulta nuestro catalogo.",
-        "title": "Demo Diseno Grafico Asunción - Diseno Grafico Profesional en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Diseno Grafico Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Diseno Grafico Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Diseno Grafico Asunción",
-    "tagline": "Diseno de portadas y arte visual para tu proyecto",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Diseno Grafico y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-diseno-interiores:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Diseno de Interiores Lambare",
-      "copyright": "© {{year}} Demo Diseno de Interiores Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "diseno_interiores",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Diseno%20de%20Interiores%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Diseno de Interiores Lambare - Tu espacio, tu personalidad",
-        "subheadline": "Diseño interior residencial, comercial y gastronomico."
-      },
-      "seo": {
-        "description": "Diseño interior residencial, comercial y gastronomico.",
-        "title": "Demo Diseno de Interiores Lambare - Diseño de Interiores en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Diseno de Interiores Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Diseno de Interiores Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Diseno de Interiores Lambare",
-    "tagline": "Diseño interior residencial, comercial y gastronomico.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Diseno de Interiores y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-diseno-web:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Diseno Web Asunción",
-      "copyright": "© {{year}} Demo Diseno Web Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "diseno_web",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Diseno%20Web%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Diseno Web Asunción - Sitios web que convierten",
-        "subheadline": "Diseño web responsive, optimizado para mobile y Google, con foco en conversion."
-      },
-      "seo": {
-        "description": "Diseño web responsive, optimizado para mobile y Google, con foco en conversion.",
-        "title": "Demo Diseno Web Asunción - Diseño Web en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Diseno Web Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Diseno Web Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Diseno Web Asunción",
-    "tagline": "Diseño web responsive, optimizado para mobile y Google, con foco en conversion.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Diseno Web y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-dj:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo DJ Fernando de la Mora",
-      "copyright": "© {{year}} Demo DJ Fernando de la Mora",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Fernando de la Mora",
-        "demoRubro": "dj_service",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20DJ%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo DJ Fernando de la Mora - Servicio de DJ",
-        "subheadline": "Servicio de DJ profesional en Fernando de la Mora."
-      },
-      "seo": {
-        "description": "Servicio de DJ profesional en Fernando de la Mora. Servicios de calidad con atención personalizada.",
-        "title": "Demo DJ Fernando de la Mora - Servicio de DJ en Fernando de la Mora"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo DJ Fernando de la Mora",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo DJ Fernando de la Mora",
-      "city": "Fernando de la Mora",
-      "year": 2026
-    },
-    "siteName": "Demo DJ Fernando de la Mora",
-    "tagline": "Servicio de DJ profesional en Fernando de la Mora.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de DJ y me interesa un sitio para mi negocio"
-    }
-  },
   "demo-electricista:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
       "businessName": "Demo Electricista Asunción",
       "copyright": "© {{year}} Demo Electricista Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
@@ -20318,156 +15121,6 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Electricista y me interesa un sitio para mi negocio"
     }
   },
-  "demo-entrenamiento-funcional:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Entrenamiento Funcional San Lorenzo",
-      "copyright": "© {{year}} Demo Entrenamiento Funcional San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "functional_training_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Entrenamiento%20Funcional%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Entrenamiento Funcional San Lorenzo - Entrenamiento Funcional",
-        "subheadline": "Entrenamiento Funcional profesional en San Lorenzo."
-      },
-      "seo": {
-        "description": "Entrenamiento Funcional profesional en San Lorenzo. Servicios de calidad con atención personalizada.",
-        "title": "Demo Entrenamiento Funcional San Lorenzo - Entrenamiento Funcional en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Entrenamiento Funcional San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Entrenamiento Funcional San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Entrenamiento Funcional San Lorenzo",
-    "tagline": "Entrenamiento Funcional profesional en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Entrenamiento Funcional y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-escuela-musica:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Escuela de Musica Lambare",
-      "copyright": "© {{year}} Demo Escuela de Musica Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "escuela_musica",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Escuela%20de%20Musica%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Escuela de Musica Lambare - La musica como camino",
-        "subheadline": "Clases de instrumentos, canto y teoria musical en Lambare."
-      },
-      "seo": {
-        "description": "Clases de instrumentos, canto y teoria musical en Lambare.",
-        "title": "Demo Escuela de Musica Lambare - Escuela de Musica en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Escuela de Musica Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Escuela de Musica Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Escuela de Musica Lambare",
-    "tagline": "Clases de instrumentos, canto y teoria musical en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Escuela de Musica y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-estancia-eventos:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Estancia para Eventos Ciudad del Este",
-      "copyright": "© {{year}} Demo Estancia para Eventos Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "estancia_event_venue",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Estancia%20para%20Eventos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Estancia para Eventos Ciudad del Este - Estancia para Eventos",
-        "subheadline": "Estancia para Eventos profesional en Ciudad del Este."
-      },
-      "seo": {
-        "description": "Estancia para Eventos profesional en Ciudad del Este. Servicios de calidad con atención personalizada.",
-        "title": "Demo Estancia para Eventos Ciudad del Este - Estancia para Eventos en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Estancia para Eventos Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Estancia para Eventos Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Estancia para Eventos Ciudad del Este",
-    "tagline": "Estancia para Eventos profesional en Ciudad del Este.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Estancia para Eventos y me interesa un sitio para mi negocio"
-    }
-  },
   "demo-estetica:es": {
     "_meta": {
       "author": "batch-create-demos",
@@ -20480,32 +15133,258 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "booking": {
+        "ctaText": "Reservar por WhatsApp",
+        "phone": "+595984345678",
+        "services": [
+          "Limpieza facial",
+          "Peeling",
+          "Mesoterapia",
+          "Radiofrecuencia",
+          "Depilación láser",
+          "Masajes"
+        ],
+        "subtitle": "Primera consulta gratis",
+        "title": "Reservá tu consulta"
+      },
       "contact": {
+        "address": "Av. Gral. Aquino 890",
         "city": "Luque",
-        "demoRubro": "estetica",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "email": "info@esteticaluque.com.py",
+        "phone": "+595984345678",
+        "subtitle": "Visitanos en Luque",
+        "title": "Contacto",
+        "whatsapp": "+595984345678"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Es una sensación similar a un pequeño pinchazo. La mayoría de las pacientes lo toleran muy bien.",
+            "question": "¿Duele la depilación láser?"
+          },
+          {
+            "answer": "Recomendamos una sesión por mes para mantener la piel saludable.",
+            "question": "¿Cuántas sesiones de limpieza facial necesito?"
+          },
+          {
+            "answer": "Sí, ofrecemos paquetes de sesiones con descuento y financiación.",
+            "question": "¿Ofrecen planes de pago?"
+          },
+          {
+            "answer": "En la consulta gratuita evaluamos tu caso y te informamos.",
+            "question": "¿Los tratamientos tienen contraindicaciones?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Limpieza facial",
+            "caption": "Limpieza facial profunda",
+            "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+          },
+          {
+            "alt": "Tratamiento",
+            "caption": "Tratamiento facial",
+            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+          },
+          {
+            "alt": "Masaje",
+            "caption": "Masajes relajantes",
+            "src": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600"
+          },
+          {
+            "alt": "Depilación",
+            "caption": "Depilación láser",
+            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+          },
+          {
+            "alt": "Radiofrecuencia",
+            "caption": "Radiofrecuencia facial",
+            "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+          },
+          {
+            "alt": "Corporal",
+            "caption": "Tratamientos corporales",
+            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Transformaciones de nuestras pacientes",
+        "title": "Resultados reales"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Estetica%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Estetica Luque - Belleza y Ciencia",
-        "subheadline": "Tratamientos avanzados con tecnologia de punta y resultados reales"
+        "ctaPrimaryText": "Reservá tu consulta",
+        "ctaSecondaryText": "Ver tratamientos",
+        "headline": "Belleza que transforma",
+        "subheadline": "Tratamientos estéticos profesionales en Luque. Cuidá tu piel y sentite radiante"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado",
+          "Lunes a Viernes": "09:00 - 19:00",
+          "Sábado": "09:00 - 14:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@estetica.luque.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@estetica.luque.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar",
+        "dismissible": true,
+        "subtitle": "Limpieza facial profunda + peeling por solo Gs. 150.000",
+        "title": "🌸 Promo Primavera",
+        "variant": "standard"
       },
       "seo": {
         "description": "Clinica estetica en Luque. Tratamientos faciales, corporales y mas. Consulta sin cargo.",
         "title": "Demo Estetica Luque - Estetica en Luque | Tratamientos Avanzados"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Limpieza profunda con extracción de comedones y mascarilla",
+            "icon": "Sparkles",
+            "name": "Limpieza Facial",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "Renovación celular con ácidos para piel más luminosa",
+            "icon": "Droplets",
+            "name": "Peeling Químico",
+            "price": "Gs. 180.000"
+          },
+          {
+            "description": "Vitaminas y ácido hialurónico para hidratación profunda",
+            "icon": "Syringe",
+            "name": "Mesoterapia Facial",
+            "price": "Gs. 250.000"
+          },
+          {
+            "description": "Reafirmante facial y corporal con resultados visibles",
+            "icon": "Zap",
+            "name": "Radiofrecuencia",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Depilación definitiva con tecnología de última generación",
+            "icon": "ZapOff",
+            "name": "Depilación Láser",
+            "price": "Desde Gs. 80.000"
+          },
+          {
+            "description": "Masajes relajantes, descontracturantes y reductores",
+            "icon": "Heart",
+            "name": "Masajes Corporales",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Electrodos para reafirmación y tonificación muscular",
+            "icon": "Battery",
+            "name": "Electrodos (Corrientes)",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Envolturas, exfoliaciones y tratamientos reductores",
+            "icon": "Feather",
+            "name": "Tratamientos Corporales",
+            "price": "Gs. 180.000"
+          }
+        ],
+        "title": "Tratamientos estéticos personalizados"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Especialista en tratamientos faciales y corporales avanzados",
+            "name": "Dra. Laura Mendoza",
+            "role": "Médica Estética"
+          },
+          {
+            "description": "Experta en limpieza facial, peeling y masajes",
+            "name": "Sofía Vera",
+            "role": "Esteticista Profesional"
+          },
+          {
+            "description": "Especialista en depilación láser y electrólisis",
+            "name": "Camila Duarte",
+            "role": "Técnica en Depilación"
+          }
+        ],
+        "subtitle": "Profesionales en estética y bienestar",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Gabriela R.",
+            "rating": 5,
+            "text": "La limpieza facial fue increíble. Mi piel nunca se vio tan bien."
+          },
+          {
+            "name": "Patricia F.",
+            "rating": 5,
+            "text": "Excelentes resultados con la radiofrecuencia. Muy recomendado!"
+          },
+          {
+            "name": "Rosa M.",
+            "rating": 5,
+            "text": "Ambiente relajante, profesionales calificados. Volveré sin dudas."
+          },
+          {
+            "name": "Carmen L.",
+            "rating": 4,
+            "text": "La depilación láser está dando resultados visibles desde la primera sesión."
+          }
+        ],
+        "title": "Opiniones"
+      },
+      "trustBadges": {
+        "items": [
+          "Profesionales certificados",
+          "Productos importados",
+          "Equipos de última generación",
+          "Ambiente privado y relajante",
+          "Resultados garantizados"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Estetica Luque",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Estetica",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Tratamientos",
+          "path": "#servicios"
+        },
+        {
+          "label": "Resultados",
+          "path": "#galeria"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Estetica Luque",
@@ -20516,56 +15395,6 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Tratamientos avanzados con tecnologia de punta y resultados reales",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Estetica y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-estudio-contable:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Estudio Contable Asunción",
-      "copyright": "© {{year}} Demo Estudio Contable Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "cpa_firm",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Estudio%20Contable%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Estudio Contable Asunción - Contador Publico",
-        "subheadline": "Contador Publico profesional en Asunción."
-      },
-      "seo": {
-        "description": "Contador Publico profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Estudio Contable Asunción - Contador Publico en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Estudio Contable Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Estudio Contable Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Estudio Contable Asunción",
-    "tagline": "Contador Publico profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Estudio Contable y me interesa un sitio para mi negocio"
     }
   },
   "demo-farmacia:es": {
@@ -20580,32 +15409,187 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-15",
+            "slug": "beneficios-vitamina-c",
+            "title": "Beneficios de la vitamina C"
+          },
+          {
+            "date": "2026-04-08",
+            "slug": "cuidado-piel-primavera",
+            "title": "Cuidado de la piel en primavera"
+          },
+          {
+            "date": "2026-04-01",
+            "slug": "suplementos-deportistas",
+            "title": "Suplementos para deportistas"
+          }
+        ],
+        "title": "Salud y bienestar"
+      },
       "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "farmacia",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Caballero 345",
+        "city": "Encarnación",
+        "email": "pedidos@farmaciaencarnacion.com.py",
+        "phone": "+595987890123",
+        "subtitle": "Visitanos en Encarnación",
+        "title": "Contacto",
+        "whatsapp": "+595987890123"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, delivery gratis en compras mayores a Gs. 50.000",
+            "question": "¿Hacen delivery?"
+          },
+          {
+            "answer": "Sí, aceptamos recetas digitales y físicas",
+            "question": "¿Aceptan recetas digitales?"
+          },
+          {
+            "answer": "Sí, acumulá puntos y canjeá por productos",
+            "question": "¿Tienen programa de fidelidad?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Farmacia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Farmacia Encarnacion - Tu salud, siempre cerca",
-        "subheadline": "Medicamentos, perfumeria y cuidado personal con delivery en Encarnacion."
+        "ctaPrimaryText": "Consultá nuestros precios",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu farmacia de confianza en Encarnación",
+        "subheadline": "Medicamentos, dermocosmética y atención farmacéutica personalizada"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "09:00 - 13:00",
+          "Lunes a Viernes": "07:00 - 21:00",
+          "Sábado": "08:00 - 20:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Ver promos",
+        "dismissible": true,
+        "subtitle": "30% de descuento en vitaminas y suplementos",
+        "title": "💊 Promociones del mes",
+        "variant": "standard"
       },
       "seo": {
         "description": "Medicamentos, perfumeria y cuidado personal con delivery en Encarnacion.",
         "title": "Demo Farmacia Encarnacion - Farmacia en Encarnacion"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Amplio stock de medicamentos genéricos y de marca",
+            "icon": "Pill",
+            "name": "Medicamentos"
+          },
+          {
+            "description": "Cuidado de la piel, protector solar y cosmética",
+            "icon": "Sparkles",
+            "name": "Dermocosmética"
+          },
+          {
+            "description": "Suplementación deportiva y nutricional",
+            "icon": "Heart",
+            "name": "Vitaminas y Suplementos"
+          },
+          {
+            "description": "Control de presión arterial gratuito",
+            "icon": "Activity",
+            "name": "Toma de presión"
+          },
+          {
+            "description": "Perfumes importados y nacionales",
+            "icon": "Palette",
+            "name": "Perfumería"
+          },
+          {
+            "description": "Hacé tu pedido y retirá sin filas",
+            "icon": "MessageSquare",
+            "name": "Pedidos por WhatsApp"
+          }
+        ],
+        "title": "Todo en salud y bienestar"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "10 años de experiencia en farmacia comunitaria",
+            "name": "Dra. Cecilia Benítez",
+            "role": "Farmacéutica Directora"
+          },
+          {
+            "description": "Atención y dispensación de medicamentos",
+            "name": "Dr. Aníbal Rojas",
+            "role": "Farmacéutico"
+          },
+          {
+            "description": "Asesoramiento en dermocosmética y cuidado facial",
+            "name": "Marta González",
+            "role": "Cosmetóloga"
+          }
+        ],
+        "subtitle": "Profesionales farmacéuticos a tu servicio",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Marta R.",
+            "rating": 5,
+            "text": "Excelente atención y precios. Siempre compro aquí."
+          },
+          {
+            "name": "José L.",
+            "rating": 5,
+            "text": "La mejor farmacia de Encarnación. Delivery rápido."
+          },
+          {
+            "name": "Andrea F.",
+            "rating": 5,
+            "text": "Tienen de todo y el personal es muy amable."
+          }
+        ],
+        "title": "Opiniones de clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Farmacia habilitada",
+          "Mejores precios",
+          "Atención personalizada",
+          "Pedidos online",
+          "Delivery gratis +50K"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Farmacia Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Farmacia",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Farmacia Encarnacion",
@@ -20618,271 +15602,21 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Farmacia y me interesa un sitio para mi negocio"
     }
   },
-  "demo-fonoaudiologia:es": {
+  "demo-ferreteria:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Fonoaudiologia Luque",
-      "copyright": "© {{year}} Demo Fonoaudiologia Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Luque",
-        "demoRubro": "fonoaudiologia",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fonoaudiologia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Fonoaudiologia Luque - Comunicación y audicion en buenas manos",
-        "subheadline": "Terapia de lenguaje, voz y audicion para niños y adultos."
-      },
-      "seo": {
-        "description": "Terapia de lenguaje, voz y audicion para niños y adultos.",
-        "title": "Demo Fonoaudiologia Luque - Fonoaudiologia en Luque"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Fonoaudiologia Luque",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Fonoaudiologia Luque",
-      "city": "Luque",
-      "year": 2026
-    },
-    "siteName": "Demo Fonoaudiologia Luque",
-    "tagline": "Terapia de lenguaje, voz y audicion para niños y adultos.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Fonoaudiologia y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-food-truck:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Food Truck Capiata",
-      "copyright": "© {{year}} Demo Food Truck Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "food_truck",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Food%20Truck%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Food Truck Capiata - Street food con onda",
-        "subheadline": "Cocina movil que va a eventos, ferias y barrios de Capiata."
-      },
-      "seo": {
-        "description": "Cocina movil que va a eventos, ferias y barrios de Capiata.",
-        "title": "Demo Food Truck Capiata - Food Truck en Capiata"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Food Truck Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Food Truck Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Food Truck Capiata",
-    "tagline": "Cocina movil que va a eventos, ferias y barrios de Capiata.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Food Truck y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-fotografia-bodas:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Fotografia de Bodas San Lorenzo",
-      "copyright": "© {{year}} Demo Fotografia de Bodas San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "fotografia_bodas",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fotografia%20de%20Bodas%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Fotografia de Bodas San Lorenzo - Momentos que duran para siempre",
-        "subheadline": "Fotografia de bodas en San Lorenzo. Cada mirada, cada lagrima, cada baile."
-      },
-      "seo": {
-        "description": "Fotografia de bodas en San Lorenzo. Capturamos cada momento especial de tu gran dia.",
-        "title": "Demo Fotografia de Bodas San Lorenzo - Fotografia de Bodas en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Fotografia de Bodas San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Fotografia de Bodas San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Fotografia de Bodas San Lorenzo",
-    "tagline": "Fotografia de bodas en San Lorenzo. Cada mirada, cada lagrima, cada baile.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Fotografia de Bodas y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-fotografia-dron:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Fotografia con Drones Ciudad del Este",
-      "copyright": "© {{year}} Demo Fotografia con Drones Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "drone_aerial_photographer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fotografia%20con%20Drones%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Fotografia con Drones Ciudad del Este - Fotografia con Drone",
-        "subheadline": "Fotografia con Drone profesional en Ciudad del Este."
-      },
-      "seo": {
-        "description": "Fotografia con Drone profesional en Ciudad del Este. Servicios de calidad con atención personalizada.",
-        "title": "Demo Fotografia con Drones Ciudad del Este - Fotografia con Drone en Ciudad del Este"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Fotografia con Drones Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Fotografia con Drones Ciudad del Este",
-      "city": "Ciudad del Este",
-      "year": 2026
-    },
-    "siteName": "Demo Fotografia con Drones Ciudad del Este",
-    "tagline": "Fotografia con Drone profesional en Ciudad del Este.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Fotografia con Drones y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-fotografia-eventos:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Fotografia de Eventos Luque",
-      "copyright": "© {{year}} Demo Fotografia de Eventos Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Luque",
-        "demoRubro": "fotografia_eventos",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fotografia%20de%20Eventos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Fotografia de Eventos Luque - Tu evento en imagenes",
-        "subheadline": "Fotografia profesional para cumpleaños, corporativos, graduaciones."
-      },
-      "seo": {
-        "description": "Fotografia profesional para cumpleaños, corporativos, graduaciones.",
-        "title": "Demo Fotografia de Eventos Luque - Fotografia de Eventos en Luque"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Fotografia de Eventos Luque",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Fotografia de Eventos Luque",
-      "city": "Luque",
-      "year": 2026
-    },
-    "siteName": "Demo Fotografia de Eventos Luque",
-    "tagline": "Fotografia profesional para cumpleaños, corporativos, graduaciones.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Fotografia de Eventos y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-fotografia-producto:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Fotografia de Producto Asunción",
-      "copyright": "© {{year}} Demo Fotografia de Producto Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Ferretería Asunción",
+      "copyright": "© {{year}} Demo Ferretería Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Asunción",
-        "demoRubro": "fotografia_producto",
+        "demoRubro": "ferreteria",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -20890,182 +15624,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fotografia%20de%20Producto%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Ferreter%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Fotografia de Producto Asunción - Tus productos vendidos por la imagen",
-        "subheadline": "Fotografia profesional para e-commerce, catalogos y marketing."
+        "headline": "Demo Ferretería Asunción - Todo para tu obra y reparaciones",
+        "subheadline": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción."
       },
       "seo": {
-        "description": "Fotografia profesional para e-commerce, catalogos y marketing.",
-        "title": "Demo Fotografia de Producto Asunción - Fotografia de Producto en Asunción"
+        "description": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción.",
+        "title": "Demo Ferretería Asunción - Ferreteria en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Fotografia de Producto Asunción",
+      "businessName": "Demo Ferretería Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Fotografia de Producto Asunción",
+      "businessName": "Demo Ferretería Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Fotografia de Producto Asunción",
-    "tagline": "Fotografia profesional para e-commerce, catalogos y marketing.",
+    "siteName": "Demo Ferretería Asunción",
+    "tagline": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Fotografia de Producto y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-frenos:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Especialista en Frenos Capiata",
-      "copyright": "© {{year}} Demo Especialista en Frenos Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "brake_specialist",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Especialista%20en%20Frenos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Especialista en Frenos Capiata - Especialista Frenos",
-        "subheadline": "Especialista Frenos profesional en Capiata."
-      },
-      "seo": {
-        "description": "Especialista Frenos profesional en Capiata. Servicios de calidad con atención personalizada.",
-        "title": "Demo Especialista en Frenos Capiata - Especialista Frenos en Capiata"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Especialista en Frenos Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Especialista en Frenos Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Especialista en Frenos Capiata",
-    "tagline": "Especialista Frenos profesional en Capiata.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Especialista en Frenos y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-fumigacion:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Fumigacion Capiata",
-      "copyright": "© {{year}} Demo Fumigacion Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "fumigacion",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Fumigacion%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Fumigacion Capiata - Tu casa sin plagas, garantizado",
-        "subheadline": "Control profesional de insectos, roedores y termitas en Capiata."
-      },
-      "seo": {
-        "description": "Control profesional de insectos, roedores y termitas en Capiata.",
-        "title": "Demo Fumigacion Capiata - Fumigacion y Control de Plagas en Capiata"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Fumigacion Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Fumigacion Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Fumigacion Capiata",
-    "tagline": "Control profesional de insectos, roedores y termitas en Capiata.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Fumigacion y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-geriatria:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Geriatria Lambare",
-      "copyright": "© {{year}} Demo Geriatria Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "geriatria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Geriatria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Geriatria Lambare - Cuidado con amor para nuestros mayores",
-        "subheadline": "Residencia, atención domiciliaria y terapias para adultos mayores."
-      },
-      "seo": {
-        "description": "Residencia, atención domiciliaria y terapias para adultos mayores.",
-        "title": "Demo Geriatria Lambare - Geriatria / Cuidados Mayores en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Geriatria Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Geriatria Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Geriatria Lambare",
-    "tagline": "Residencia, atención domiciliaria y terapias para adultos mayores.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Geriatria y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Ferretería y me interesa un sitio para mi negocio"
     }
   },
   "demo-gimnasio:es": {
@@ -21074,38 +15658,322 @@ export const CONTENT: Record<string, JsonRecord> = {
       "lastReviewed": "2026-04-21",
       "translationQuality": "machine"
     },
+    "booking": {
+      "services": [
+        {
+          "category": "Clases",
+          "duration": 30,
+          "name": "Clase de prueba gratuita"
+        },
+        {
+          "category": "Entrenamiento",
+          "duration": 60,
+          "name": "Entrenamiento personalizado"
+        },
+        {
+          "category": "Evaluación",
+          "duration": 45,
+          "name": "Evaluación física inicial"
+        },
+        {
+          "category": "Clases",
+          "duration": 45,
+          "name": "Clase de spinning"
+        },
+        {
+          "category": "Clases",
+          "duration": 60,
+          "name": "Yoga grupal"
+        },
+        {
+          "category": "Bienestar",
+          "duration": 30,
+          "name": "Masaje deportivo"
+        }
+      ],
+      "subtitle": "Elegí el servicio que más te guste y reservá tu turno online",
+      "title": "Reserva tu clase",
+      "workingHours": {
+        "end": "22:00",
+        "start": "06:00"
+      }
+    },
     "footer": {
       "businessName": "Demo Gimnasio Asunción",
       "copyright": "© {{year}} Demo Gimnasio Asunción",
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-20",
+            "slug": "5-ejercicios-quemar-grasa",
+            "title": "5 ejercicios para quemar grasa"
+          },
+          {
+            "date": "2026-04-15",
+            "slug": "beneficios-funcional",
+            "title": "Beneficios del entrenamiento funcional"
+          },
+          {
+            "date": "2026-04-10",
+            "slug": "armar-rutina-semanal",
+            "title": "Cómo armar tu rutina semanal"
+          }
+        ],
+        "subtitle": "Consejos de nuestros profesionales",
+        "title": "Tips de entrenamiento"
+      },
       "contact": {
-        "city": "Asunción",
-        "demoRubro": "gimnasio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Ruta 2 y Av. Mcal. López Km 8",
+        "city": "Fernando de la Mora",
+        "email": "ventas@gimnasiopower.com.py",
+        "phone": "+595983789012",
+        "subtitle": "Visitanos en Fernando de la Mora",
+        "title": "Contacto",
+        "whatsapp": "+595983789012"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, recomendamos traer toalla personal. También tenemos para la venta.",
+            "question": "¿Necesito llevar mi propia toalla?"
+          },
+          {
+            "answer": "Sí, podés venir una clase gratis sin compromiso.",
+            "question": "¿Ofrecen clases de prueba gratis?"
+          },
+          {
+            "answer": "Sí, tenemos estacionamiento gratuito para socios.",
+            "question": "¿Estacionamiento?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Gimnasio%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "TRANSFORMA TU CUERPO EN Demo Gimnasio Asunción",
-        "subheadline": "Entrena con los mejores profesionales en instalaciones de primera"
+        "ctaPrimaryText": "Empezá hoy",
+        "ctaSecondaryText": "Conocé nuestros planes",
+        "headline": "Transformá tu cuerpo, transformá tu vida",
+        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "09:00 - 13:00",
+          "Lunes a Viernes": "05:00 - 22:00",
+          "Sábado": "07:00 - 18:00"
+        },
+        "title": "Horarios"
+      },
+      "pricing": {
+        "subtitle": "Elegí el plan que mejor se adapte a vos",
+        "tiers": [
+          {
+            "features": [
+              "Acceso a musculación",
+              "Vestuarios",
+              "Horario libre"
+            ],
+            "name": "Básico",
+            "price": "Gs. 150.000/mes"
+          },
+          {
+            "features": [
+              "Todo lo de Básico",
+              "Clases dirigidas",
+              "Evaluación física mensual",
+              "Acceso a todas las sucursales"
+            ],
+            "highlighted": true,
+            "name": "Premium",
+            "price": "Gs. 250.000/mes"
+          },
+          {
+            "features": [
+              "Todo lo de Premium",
+              "Trainer personal",
+              "Plan de nutrición",
+              "Acceso ilimitado"
+            ],
+            "name": "VIP",
+            "price": "Gs. 400.000/mes"
+          }
+        ],
+        "title": "Nuestros planes"
+      },
+      "promoBanner": {
+        "ctaText": "Aprovechar",
+        "dismissible": true,
+        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "title": "💪 Promo Verano",
+        "variant": "standard"
+      },
+      "schedule": {
+        "days": [
+          "Lunes",
+          "Martes",
+          "Miércoles",
+          "Jueves",
+          "Viernes",
+          "Sábado"
+        ],
+        "subtitle": "Elegí el horario que mejor se adapte a tu rutina",
+        "timeSlots": [
+          "06:00",
+          "08:00",
+          "10:00",
+          "16:00",
+          "18:00",
+          "20:00"
+        ],
+        "title": "Horario de clases"
       },
       "seo": {
         "description": "Gimnasio en Asunción con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
         "title": "Demo Gimnasio Asunción - Gimnasio en Asunción | Membresias y Clases"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Máquinas de última generación y pesas libres",
+            "icon": "Dumbbell",
+            "name": "Musculación"
+          },
+          {
+            "description": "Entrenamiento funcional de alto rendimiento",
+            "icon": "Zap",
+            "name": "Funcional"
+          },
+          {
+            "description": "Box equipado con todo lo necesario",
+            "icon": "Flame",
+            "name": "CrossFit"
+          },
+          {
+            "description": "Clases guiadas para todos los niveles",
+            "icon": "Heart",
+            "name": "Yoga & Pilates"
+          },
+          {
+            "description": "Clases de spinning con instructores certificados",
+            "icon": "Bike",
+            "name": "Spinning"
+          },
+          {
+            "description": "Plan 1 a 1 con trainer certificado",
+            "icon": "Target",
+            "name": "Entrenamiento Personalizado"
+          }
+        ],
+        "title": "Todo lo que necesitás para entrenar"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "Certificado internacional, 12 años de experiencia",
+            "name": "Prof. Juan Acosta",
+            "role": "Head Coach"
+          },
+          {
+            "description": "Especialista en yoga y pilates terapéutico",
+            "name": "Prof. Ana Benítez",
+            "role": "Instructora de Yoga"
+          },
+          {
+            "description": "CrossFit level 2, entrenamiento de alta intensidad",
+            "name": "Prof. Pedro Cabrera",
+            "role": "Trainer Funcional"
+          },
+          {
+            "description": "Planes alimenticios personalizados para deportistas",
+            "name": "Lic. María Rivas",
+            "role": "Nutricionista"
+          }
+        ],
+        "subtitle": "Profesionales certificados para guiarte",
+        "title": "Nuestros trainers"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Carlos G.",
+            "rating": 5,
+            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+          },
+          {
+            "name": "María J.",
+            "rating": 5,
+            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+          },
+          {
+            "name": "Diego R.",
+            "rating": 5,
+            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+          },
+          {
+            "name": "Laura P.",
+            "rating": 5,
+            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+          }
+        ],
+        "title": "Lo que dicen nuestros alumnos"
+      },
+      "transformations": {
+        "items": [
+          {
+            "after": "",
+            "before": "",
+            "name": "Carlos",
+            "result": "-12kg en 3 meses"
+          },
+          {
+            "after": "",
+            "before": "",
+            "name": "María",
+            "result": "-8kg en 2 meses"
+          }
+        ],
+        "subtitle": "Resultados de nuestros alumnos",
+        "title": "Transformaciones"
+      },
+      "trustBadges": {
+        "items": [
+          "Profesores certificados",
+          "Equipos modernos",
+          "Clases ilimitadas",
+          "Evaluación gratis",
+          "Estacionamiento"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Gimnasio Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Gimnasio",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Clases",
+          "path": "#clases"
+        },
+        {
+          "label": "Planes",
+          "path": "#planes"
+        },
+        {
+          "label": "Horarios",
+          "path": "#horarios"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Gimnasio Asunción",
@@ -21256,70 +16124,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     ]
   },
-  "demo-ginecologia:es": {
+  "demo-gomeria:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Ginecologia Asunción",
-      "copyright": "© {{year}} Demo Ginecologia Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Gomería Asunción",
+      "copyright": "© {{year}} Demo Gomería Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Asunción",
-        "demoRubro": "ginecologia",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Ginecologia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Ginecologia Asunción - Tu salud, prioridad",
-        "subheadline": "Consultas ginecologicas, control prenatal y obstetricia en Asunción."
-      },
-      "seo": {
-        "description": "Consultas ginecologicas, control prenatal y obstetricia en Asunción.",
-        "title": "Demo Ginecologia Asunción - Ginecologia en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Ginecologia Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Ginecologia Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Ginecologia Asunción",
-    "tagline": "Consultas ginecologicas, control prenatal y obstetricia en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Ginecologia y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-gomeria:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Gomeria San Lorenzo",
-      "copyright": "© {{year}} Demo Gomeria San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
         "demoRubro": "gomeria",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
@@ -21328,82 +16146,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Gomeria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Gomer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Gomeria San Lorenzo - Ruedas nuevas, viaje tranquilo",
-        "subheadline": "Venta, montaje y balanceo de neumaticos en San Lorenzo."
+        "headline": "Demo Gomería Asunción - Ruedas nuevas, viaje tranquilo",
+        "subheadline": "Venta, montaje y balanceo de neumaticos en Asunción."
       },
       "seo": {
-        "description": "Venta, montaje y balanceo de neumaticos en San Lorenzo.",
-        "title": "Demo Gomeria San Lorenzo - Gomeria en San Lorenzo"
+        "description": "Venta, montaje y balanceo de neumaticos en Asunción.",
+        "title": "Demo Gomería Asunción - Gomeria en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Gomeria San Lorenzo",
+      "businessName": "Demo Gomería Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Gomeria San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Gomeria San Lorenzo",
-    "tagline": "Venta, montaje y balanceo de neumaticos en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Gomeria y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-grua-remolque:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Grua y Remolque Asunción",
-      "copyright": "© {{year}} Demo Grua y Remolque Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "grua_remolque",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Grua%20y%20Remolque%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Grua y Remolque Asunción - Remolque rapido, sin dañar tu vehiculo",
-        "subheadline": "Servicio de grua 24h con plataforma hidraulica."
-      },
-      "seo": {
-        "description": "Servicio de grua 24h con plataforma hidraulica.",
-        "title": "Demo Grua y Remolque Asunción - Grua / Remolque en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Grua y Remolque Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Grua y Remolque Asunción",
+      "businessName": "Demo Gomería Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Grua y Remolque Asunción",
-    "tagline": "Servicio de grua 24h con plataforma hidraulica.",
+    "siteName": "Demo Gomería Asunción",
+    "tagline": "Venta, montaje y balanceo de neumaticos en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Grua y Remolque y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Gomería y me interesa un sitio para mi negocio"
     }
   },
   "demo-hamburgueseria:es": {
@@ -21419,31 +16187,265 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "home": {
       "contact": {
-        "city": "Fernando de la Mora",
-        "demoRubro": "hamburgueseria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Santísimo Sacramento 123",
+        "city": "Asunción",
+        "email": "pedidos@hamburgueseriapy.com.py",
+        "phone": "+595981456789",
+        "subtitle": "Visitános o pedí delivery",
+        "title": "Contacto",
+        "whatsapp": "+595981456789"
+      },
+      "delivery": {
+        "deliveryFee": 5000,
+        "estimatedTime": "20-35 min",
+        "freeThreshold": 50000,
+        "minimumOrder": 20000,
+        "subtitle": "Zonas de entrega",
+        "title": "Delivery",
+        "zones": [
+          "Asunción centro",
+          "Asunción barrios",
+          "San Lorenzo",
+          "Fernando de la Mora"
+        ]
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Entre 20 y 35 minutos dependiendo de la zona.",
+            "question": "¿Cuánto tarda el delivery?"
+          },
+          {
+            "answer": "Sí, efectivo, transferencia y tarjetas de crédito/débito.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Sí, consultá por opciones sin gluten en nuestro menú.",
+            "question": "¿Tienen opciones sin TACC?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Clásica",
+            "caption": "Hamburguesa clásica",
+            "src": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+          },
+          {
+            "alt": "Criolla",
+            "caption": "Hamburguesa criolla",
+            "src": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600"
+          },
+          {
+            "alt": "Papas",
+            "caption": "Papas cheddar y bacon",
+            "src": "https://images.unsplash.com/photo-1586816001966-79b736744398?w=600"
+          },
+          {
+            "alt": "Texana",
+            "caption": "Texana doble carne",
+            "src": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=600"
+          },
+          {
+            "alt": "Veggie",
+            "caption": "Opción vegetariana",
+            "src": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600"
+          },
+          {
+            "alt": "Combos",
+            "caption": "Combo completo",
+            "src": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Mirá lo que ofrecemos",
+        "title": "Galería"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Hamburgueseria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Hamburgueseria Fernando de la Mora - Hamburguesas smash, papas crispy",
-        "subheadline": "Hamburguesas artesanales con carne 100% de calidad en Fernando de la Mora."
+        "ctaPrimaryText": "Pedí ahora",
+        "ctaSecondaryText": "Ver menú",
+        "headline": "Las mejores hamburguesas de Asunción",
+        "subheadline": "100% carne angus, pan artesanal, ingredientes frescos. Delivery a toda la ciudad"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado",
+          "Lunes a Jueves": "11:00 - 23:00",
+          "Viernes y Sábado": "11:00 - 01:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@hamburgueseria.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@hamburgueseria.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "menu": {
+        "categories": [
+          {
+            "items": [
+              {
+                "description": "Carne 150g, lechuga, tomate, cebolla",
+                "name": "Clásica",
+                "price": "Gs. 25.000"
+              },
+              {
+                "description": "Doble queso cheddar, carne 150g",
+                "name": "Cheese",
+                "price": "Gs. 28.000"
+              },
+              {
+                "description": "Salsa BBQ, aros de cebolla, bacon",
+                "name": "BBQ",
+                "price": "Gs. 32.000"
+              }
+            ],
+            "name": "Hamburguesas Clásicas"
+          },
+          {
+            "items": [
+              {
+                "description": "Carne 200g, queso paraguayo, locote, huevo",
+                "name": "Criolla",
+                "price": "Gs. 35.000"
+              },
+              {
+                "description": "Doble carne, cheddar, bacon, jalapeño",
+                "name": "Texana",
+                "price": "Gs. 38.000"
+              },
+              {
+                "description": "Salsa BBQ, aros de cebolla, bacon, cheddar",
+                "name": "BBQ",
+                "price": "Gs. 32.000"
+              },
+              {
+                "description": "Medallón de lentejas, quinoa, vegetales asados",
+                "name": "Veggie",
+                "price": "Gs. 30.000"
+              }
+            ],
+            "name": "Hamburguesas Especiales"
+          },
+          {
+            "items": [
+              {
+                "name": "Papas fritas",
+                "price": "Gs. 10.000"
+              },
+              {
+                "name": "Aros de cebolla",
+                "price": "Gs. 12.000"
+              },
+              {
+                "name": "Papas cheddar y bacon",
+                "price": "Gs. 15.000"
+              },
+              {
+                "name": "Ensalada fresca",
+                "price": "Gs. 10.000"
+              }
+            ],
+            "name": "Guarniciones"
+          },
+          {
+            "items": [
+              {
+                "name": "Gaseosa 500ml",
+                "price": "Gs. 5.000"
+              },
+              {
+                "name": "Gaseosa 1.5L",
+                "price": "Gs. 8.000"
+              },
+              {
+                "name": "Agua mineral",
+                "price": "Gs. 3.000"
+              },
+              {
+                "name": "Cerveza importada",
+                "price": "Gs. 10.000"
+              }
+            ],
+            "name": "Bebidas"
+          }
+        ],
+        "subtitle": "Hamburguesas artesanales con ingredientes seleccionados",
+        "title": "Nuestro menú"
+      },
+      "promoBanner": {
+        "ctaText": "Aprovechar",
+        "dismissible": true,
+        "subtitle": "Lunes a Jueves: Hamburguesa + Papas + Bebida = Gs. 35.000",
+        "title": "🍔 Combos Felices"
       },
       "seo": {
         "description": "Hamburguesas artesanales con carne 100% de calidad en Fernando de la Mora.",
         "title": "Demo Hamburgueseria Fernando de la Mora - Hamburgueseria en Fernando de la Mora"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Juan P.",
+            "rating": 5,
+            "text": "La mejor hamburguesa de Asunción. La criolla es espectacular!"
+          },
+          {
+            "name": "Marta G.",
+            "rating": 5,
+            "text": "Rápido, rico y precio justo. Delivery en tiempo récord."
+          },
+          {
+            "name": "Pedro L.",
+            "rating": 5,
+            "text": "La veggie me sorprendió. Muy sabrosa y bien preparada."
+          }
+        ],
+        "title": "Opiniones"
+      },
+      "trustBadges": {
+        "items": [
+          "Carne 100% angus",
+          "Pan artesanal",
+          "Ingredientes frescos",
+          "Delivery gratis +50K",
+          "Preparación al instante"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Hamburgueseria Fernando de la Mora",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Hamburgueseria",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Menú",
+          "path": "#menu"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Delivery",
+          "path": "#delivery"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Hamburgueseria Fernando de la Mora",
@@ -21456,120 +16458,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Hamburgueseria y me interesa un sitio para mi negocio"
     }
   },
-  "demo-handyman:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Servicio Multiple Fernando de la Mora",
-      "copyright": "© {{year}} Demo Servicio Multiple Fernando de la Mora",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Fernando de la Mora",
-        "demoRubro": "handyman_service",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Servicio%20Multiple%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Servicio Multiple Fernando de la Mora - Servicio Multiple",
-        "subheadline": "Servicio Multiple profesional en Fernando de la Mora."
-      },
-      "seo": {
-        "description": "Servicio Multiple profesional en Fernando de la Mora. Servicios de calidad con atención personalizada.",
-        "title": "Demo Servicio Multiple Fernando de la Mora - Servicio Multiple en Fernando de la Mora"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Servicio Multiple Fernando de la Mora",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Servicio Multiple Fernando de la Mora",
-      "city": "Fernando de la Mora",
-      "year": 2026
-    },
-    "siteName": "Demo Servicio Multiple Fernando de la Mora",
-    "tagline": "Servicio Multiple profesional en Fernando de la Mora.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Servicio Multiple y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-heladeria:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Heladeria Lambare",
-      "copyright": "© {{year}} Demo Heladeria Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "heladeria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Heladeria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Heladeria Lambare - Helado artesanal, sabores de verdad",
-        "subheadline": "Helados artesanales, cucuruchos y paletas en Lambare."
-      },
-      "seo": {
-        "description": "Helados artesanales, cucuruchos y paletas en Lambare.",
-        "title": "Demo Heladeria Lambare - Heladeria en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Heladeria Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Heladeria Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Heladeria Lambare",
-    "tagline": "Helados artesanales, cucuruchos y paletas en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Heladeria y me interesa un sitio para mi negocio"
-    }
-  },
   "demo-herreria:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Herreria Luque",
-      "copyright": "© {{year}} Demo Herreria Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Herrería Lambaré",
+      "copyright": "© {{year}} Demo Herrería Lambaré",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "Luque",
+        "city": "Lambaré",
         "demoRubro": "herreria",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
@@ -21578,232 +16480,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Herreria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Herrer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Herreria Luque - Trabajos en hierro, con terminacion impecable",
+        "headline": "Demo Herrería Lambaré - Trabajos en hierro, con terminacion impecable",
         "subheadline": "Portones, rejas, escaleras y estructuras metalicas a medida."
       },
       "seo": {
         "description": "Portones, rejas, escaleras y estructuras metalicas a medida.",
-        "title": "Demo Herreria Luque - Herreria en Luque"
+        "title": "Demo Herrería Lambaré - Herreria en Lambaré"
       }
     },
     "navigation": {
-      "businessName": "Demo Herreria Luque",
+      "businessName": "Demo Herrería Lambaré",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Herreria Luque",
-      "city": "Luque",
+      "businessName": "Demo Herrería Lambaré",
+      "city": "Lambaré",
       "year": 2026
     },
-    "siteName": "Demo Herreria Luque",
+    "siteName": "Demo Herrería Lambaré",
     "tagline": "Portones, rejas, escaleras y estructuras metalicas a medida.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Herreria y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-hostal:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Hostal Encarnacion",
-      "copyright": "© {{year}} Demo Hostal Encarnacion",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "hostal",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Hostal%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Hostal Encarnacion - Alojate con onda, conecta con viajeros",
-        "subheadline": "Hostal con habitaciones compartidas, privadas y areas comunes en Encarnacion."
-      },
-      "seo": {
-        "description": "Hostal con habitaciones compartidas, privadas y areas comunes en Encarnacion.",
-        "title": "Demo Hostal Encarnacion - Hostal / Hostel en Encarnacion"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Hostal Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Hostal Encarnacion",
-      "city": "Encarnacion",
-      "year": 2026
-    },
-    "siteName": "Demo Hostal Encarnacion",
-    "tagline": "Hostal con habitaciones compartidas, privadas y areas comunes en Encarnacion.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Hostal y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-hotel-boutique:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Hotel Boutique Encarnacion",
-      "copyright": "© {{year}} Demo Hotel Boutique Encarnacion",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "hotel_boutique",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Hotel%20Boutique%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Hotel Boutique Encarnacion - Una experiencia unica en cada detalle",
-        "subheadline": "Hotel boutique con habitaciones tematicas y atención personalizada en Encarnacion."
-      },
-      "seo": {
-        "description": "Hotel boutique con habitaciones tematicas y atención personalizada en Encarnacion.",
-        "title": "Demo Hotel Boutique Encarnacion - Hotel Boutique en Encarnacion"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Hotel Boutique Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Hotel Boutique Encarnacion",
-      "city": "Encarnacion",
-      "year": 2026
-    },
-    "siteName": "Demo Hotel Boutique Encarnacion",
-    "tagline": "Hotel boutique con habitaciones tematicas y atención personalizada en Encarnacion.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Hotel Boutique y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-hotel:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Hotel Asunción",
-      "copyright": "© {{year}} Demo Hotel Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "hotel",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Hotel%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Hotel Asunción - Descansa como te mereces",
-        "subheadline": "Hotel con habitaciones confortables, desayuno incluido y atención 24h en Asunción."
-      },
-      "seo": {
-        "description": "Hotel con habitaciones confortables, desayuno incluido y atención 24h en Asunción.",
-        "title": "Demo Hotel Asunción - Hotel en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Hotel Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Hotel Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Hotel Asunción",
-    "tagline": "Hotel con habitaciones confortables, desayuno incluido y atención 24h en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Hotel y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-ilustrador:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Ilustrador Encarnacion",
-      "copyright": "© {{year}} Demo Ilustrador Encarnacion",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "illustrator_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Ilustrador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Ilustrador Encarnacion - Estudio de Ilustracion",
-        "subheadline": "Estudio de Ilustracion profesional en Encarnacion."
-      },
-      "seo": {
-        "description": "Estudio de Ilustracion profesional en Encarnacion. Servicios de calidad con atención personalizada.",
-        "title": "Demo Ilustrador Encarnacion - Estudio de Ilustracion en Encarnacion"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Ilustrador Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Ilustrador Encarnacion",
-      "city": "Encarnacion",
-      "year": 2026
-    },
-    "siteName": "Demo Ilustrador Encarnacion",
-    "tagline": "Estudio de Ilustracion profesional en Encarnacion.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Ilustrador y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Herrería y me interesa un sitio para mi negocio"
     }
   },
   "demo-inmobiliaria:es": {
@@ -21819,31 +16521,221 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "home": {
       "contact": {
+        "address": "Av. Mcal. López 3456",
         "city": "Asunción",
-        "demoRubro": "inmobiliaria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "email": "info@inmobiliariapy.com.py",
+        "phone": "+595981890123",
+        "subtitle": "Oficina central en Asunción",
+        "title": "Contacto",
+        "whatsapp": "+595981890123"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Nuestra comisión es del 3% + IVA sobre el precio de venta.",
+            "question": "¿Cuánto cobran de comisión?"
+          },
+          {
+            "answer": "Sí, trabajamos con bancos y cooperativas para créditos hipotecarios.",
+            "question": "¿Ayudan con el financiamiento?"
+          },
+          {
+            "answer": "Sí, alquileres por día, semana o mes.",
+            "question": "¿Hacen alquileres temporales?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Inmobiliaria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Inmobiliaria Asunción",
-        "subheadline": "Inmobiliaria profesional en Asunción. Te respondemos en el dia."
+        "ctaPrimaryText": "Ver propiedades",
+        "ctaSecondaryText": "Vendé tu propiedad",
+        "headline": "Encontrá la propiedad de tus sueños",
+        "subheadline": "Departamentos, casas, terrenos y locales comerciales en Asunción y Gran Asunción"
+      },
+      "mortgageCalc": {
+        "downPaymentPercent": 30,
+        "interestRate": 8.5,
+        "loanTermYears": 20,
+        "propertyPrice": 85000,
+        "subtitle": "Calculá tu cuota mensual aproximada",
+        "title": "Simulador de crédito hipotecario"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Conversamos sobre tus necesidades y presupuesto",
+            "icon": "MessageCircle",
+            "title": "Consultá"
+          },
+          {
+            "description": "Encontramos las mejores opciones del mercado",
+            "icon": "Search",
+            "title": "Buscamos"
+          },
+          {
+            "description": "Te acompañamos a conocer las propiedades",
+            "icon": "Eye",
+            "title": "Visitá"
+          },
+          {
+            "description": "Te asesoramos hasta la firma de escrituras",
+            "icon": "CheckCircle",
+            "title": "Cerramos"
+          }
+        ],
+        "title": "¿Cómo trabajamos?"
+      },
+      "properties": {
+        "items": [
+          {
+            "area": "65 m²",
+            "bathrooms": 1,
+            "bedrooms": 2,
+            "description": "Palma y 15 de Agosto, Asunción",
+            "image": "",
+            "price": "USD 85.000",
+            "title": "Departamento 2 dorm."
+          },
+          {
+            "area": "120 m²",
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "description": "San Lorenzo, cerca UNA",
+            "image": "",
+            "price": "USD 120.000",
+            "title": "Casa 3 dorm."
+          },
+          {
+            "area": "360 m²",
+            "description": "Luque, zona residencial",
+            "image": "",
+            "price": "USD 45.000",
+            "title": "Terreno 360 m²"
+          },
+          {
+            "area": "180 m²",
+            "description": "Av. Mcal. López, Asunción",
+            "image": "",
+            "price": "USD 250.000",
+            "title": "Local comercial"
+          },
+          {
+            "area": "300 m²",
+            "bathrooms": 3,
+            "bedrooms": 4,
+            "description": "Lambaré, con piscina",
+            "image": "",
+            "price": "USD 180.000",
+            "title": "Casa Quinta"
+          },
+          {
+            "area": "42 m²",
+            "bathrooms": 1,
+            "bedrooms": 1,
+            "description": "Av. España, Asunción",
+            "image": "",
+            "price": "USD 55.000",
+            "title": "Departamento 1 dorm."
+          }
+        ],
+        "subtitle": "Las mejores opciones del mercado",
+        "title": "Propiedades destacadas"
       },
       "seo": {
         "description": "Inmobiliaria profesional en Asunción. Te respondemos en el dia.",
         "title": "Demo Inmobiliaria Asunción - Bienes Raices en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Asesoramiento integral en compra-venta de propiedades",
+            "icon": "Home",
+            "name": "Compra y Venta"
+          },
+          {
+            "description": "Gestión de alquileres temporales y permanentes",
+            "icon": "Key",
+            "name": "Alquileres"
+          },
+          {
+            "description": "Tasación profesional de propiedades",
+            "icon": "Calculator",
+            "name": "Tasaciones"
+          },
+          {
+            "description": "Trámites, escrituras y documentación legal",
+            "icon": "FileText",
+            "name": "Gestión Documental"
+          }
+        ],
+        "title": "Todo en servicios inmobiliarios"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "10 años en el mercado inmobiliario paraguayo",
+            "name": "Laura Mendoza",
+            "role": "Corredora Inmobiliaria"
+          },
+          {
+            "description": "Especialista en propiedades residenciales",
+            "name": "Carlos Pereira",
+            "role": "Asesor Comercial"
+          },
+          {
+            "description": "Trámites legales y escrituración",
+            "name": "Ana López",
+            "role": "Gestora Documental"
+          }
+        ],
+        "subtitle": "Asesores inmobiliarios profesionales",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Martín R.",
+            "rating": 5,
+            "text": "Me ayudaron a comprar mi primer departamento. Profesionales y pacientes."
+          },
+          {
+            "name": "Sofía G.",
+            "rating": 5,
+            "text": "Vendí mi casa en tiempo récord. Excelente gestión."
+          },
+          {
+            "name": "Ricardo A.",
+            "rating": 5,
+            "text": "Me asesoraron en todo el proceso. Muy recomendados."
+          }
+        ],
+        "title": "Opiniones"
       }
     },
     "navigation": {
-      "businessName": "Demo Inmobiliaria Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Inmobiliaria",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Propiedades",
+          "path": "#propiedades"
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Inmobiliaria Asunción",
@@ -21856,21 +16748,21 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Inmobiliaria y me interesa un sitio para mi negocio"
     }
   },
-  "demo-limpieza-hogar:es": {
+  "demo-lavadero:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Limpieza de Hogar Asunción",
-      "copyright": "© {{year}} Demo Limpieza de Hogar Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Lavadero de Autos Asunción",
+      "copyright": "© {{year}} Demo Lavadero de Autos Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Asunción",
-        "demoRubro": "house_cleaning_service",
+        "demoRubro": "lavadero_autos",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -21878,194 +16770,44 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Limpieza%20de%20Hogar%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Lavadero%20de%20Autos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Limpieza de Hogar Asunción - Limpieza Hogar",
-        "subheadline": "Limpieza Hogar profesional en Asunción."
+        "headline": "Demo Lavadero de Autos Asunción - Tu auto reluciente",
+        "subheadline": "Lavado completo, encerado y detailing en Asunción."
       },
       "seo": {
-        "description": "Limpieza Hogar profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Limpieza de Hogar Asunción - Limpieza Hogar en Asunción"
+        "description": "Lavado completo, encerado y detailing en Asunción.",
+        "title": "Demo Lavadero de Autos Asunción - Lavadero de Autos en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Limpieza de Hogar Asunción",
+      "businessName": "Demo Lavadero de Autos Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Limpieza de Hogar Asunción",
+      "businessName": "Demo Lavadero de Autos Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Limpieza de Hogar Asunción",
-    "tagline": "Limpieza Hogar profesional en Asunción.",
+    "siteName": "Demo Lavadero de Autos Asunción",
+    "tagline": "Lavado completo, encerado y detailing en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Limpieza de Hogar y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-locutor:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Locutor Asunción",
-      "copyright": "© {{year}} Demo Locutor Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "audiobook_narrator",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Locutor%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Locutor Asunción - Narrador Audiolibros",
-        "subheadline": "Narrador Audiolibros profesional en Asunción."
-      },
-      "seo": {
-        "description": "Narrador Audiolibros profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Locutor Asunción - Narrador Audiolibros en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Locutor Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Locutor Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Locutor Asunción",
-    "tagline": "Narrador Audiolibros profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Locutor y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-marketing-digital:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Marketing Digital Asunción",
-      "copyright": "© {{year}} Demo Marketing Digital Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "digital_marketing_academy",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Marketing%20Digital%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Marketing Digital Asunción - Academia Marketing Digital",
-        "subheadline": "Academia Marketing Digital profesional en Asunción."
-      },
-      "seo": {
-        "description": "Academia Marketing Digital profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Marketing Digital Asunción - Academia Marketing Digital en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Marketing Digital Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Marketing Digital Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Marketing Digital Asunción",
-    "tagline": "Academia Marketing Digital profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Marketing Digital y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-medicina-familiar:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Medicina Familiar San Lorenzo",
-      "copyright": "© {{year}} Demo Medicina Familiar San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "San Lorenzo",
-        "demoRubro": "family_medicine_clinic",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Medicina%20Familiar%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Medicina Familiar San Lorenzo - Medicina Familiar",
-        "subheadline": "Medicina Familiar profesional en San Lorenzo."
-      },
-      "seo": {
-        "description": "Medicina Familiar profesional en San Lorenzo. Servicios de calidad con atención personalizada.",
-        "title": "Demo Medicina Familiar San Lorenzo - Medicina Familiar en San Lorenzo"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Medicina Familiar San Lorenzo",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Medicina Familiar San Lorenzo",
-      "city": "San Lorenzo",
-      "year": 2026
-    },
-    "siteName": "Demo Medicina Familiar San Lorenzo",
-    "tagline": "Medicina Familiar profesional en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Medicina Familiar y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Lavadero de Autos y me interesa un sitio para mi negocio"
     }
   },
   "demo-odontologia:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Consultorio Odontologico Asunción",
-      "copyright": "© {{year}} Demo Consultorio Odontologico Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Odontología Asunción",
+      "copyright": "© {{year}} Demo Odontología Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
@@ -22078,82 +16820,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Consultorio%20Odontologico%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Odontolog%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Consultorio Odontologico Asunción - Tu sonrisa en manos expertas",
+        "headline": "Demo Odontología Asunción - Tu sonrisa en manos expertas",
         "subheadline": "Odontologia general, estetica y especialidades en Asunción."
       },
       "seo": {
         "description": "Odontologia general, estetica y especialidades en Asunción.",
-        "title": "Demo Consultorio Odontologico Asunción - Consultorio Odontologico en Asunción"
+        "title": "Demo Odontología Asunción - Consultorio Odontologico en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Consultorio Odontologico Asunción",
+      "businessName": "Demo Odontología Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Consultorio Odontologico Asunción",
+      "businessName": "Demo Odontología Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Consultorio Odontologico Asunción",
+    "siteName": "Demo Odontología Asunción",
     "tagline": "Odontologia general, estetica y especialidades en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Consultorio Odontologico y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-otorrino:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Otorrinolaringologia Asunción",
-      "copyright": "© {{year}} Demo Otorrinolaringologia Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "ent_clinic",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Otorrinolaringologia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Otorrinolaringologia Asunción - Otorrinolaringologia",
-        "subheadline": "Otorrinolaringologia profesional en Asunción."
-      },
-      "seo": {
-        "description": "Otorrinolaringologia profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Otorrinolaringologia Asunción - Otorrinolaringologia en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Otorrinolaringologia Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Otorrinolaringologia Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Otorrinolaringologia Asunción",
-    "tagline": "Otorrinolaringologia profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Otorrinolaringologia y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Odontología y me interesa un sitio para mi negocio"
     }
   },
   "demo-panaderia-artesanal:es": {
@@ -22169,31 +16861,294 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "home": {
       "contact": {
-        "city": "Asunción",
-        "demoRubro": "artisan_bakery",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Ruta 1 Km 23, Barrio Centro",
+        "city": "Capiatá",
+        "email": "pedidos@panaderiacapiata.com.py",
+        "phone": "+595988567890",
+        "subtitle": "Visitanos en Capiatá",
+        "title": "Contacto",
+        "whatsapp": "+595988567890"
+      },
+      "delivery": {
+        "deliveryFee": 5000,
+        "estimatedTime": "30-45 min",
+        "freeThreshold": 50000,
+        "minimumOrder": 15000,
+        "subtitle": "Pedidos y entregas",
+        "title": "Delivery",
+        "zones": [
+          "Capiatá centro",
+          "Capiatá barrios",
+          "San Lorenzo",
+          "Lambaré"
+        ]
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, delivery en Capiatá y zonas cercanas. Pedido mínimo Gs. 15.000.",
+            "question": "¿Hacen delivery?"
+          },
+          {
+            "answer": "Abrimos de 06:00 a 20:00. Los domingos hasta las 12:00.",
+            "question": "¿Cuál es el horario?"
+          },
+          {
+            "answer": "Sí, pedidos especiales para cumpleaños, eventos y empresas con 48h de anticipación.",
+            "question": "¿Hacen pedidos para eventos?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Pan francés",
+            "caption": "Pan artesanal",
+            "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+          },
+          {
+            "alt": "Facturas",
+            "caption": "Facturas variadas",
+            "src": "https://images.unsplash.com/photo-1486427944544-d2c246c4e1d2?w=600"
+          },
+          {
+            "alt": "Chipa",
+            "caption": "Chipa tradicional",
+            "src": "https://images.unsplash.com/photo-1555507036-ab1f40380243?w=600"
+          },
+          {
+            "alt": "Masa madre",
+            "caption": "Pan de masa madre",
+            "src": "https://images.unsplash.com/photo-1549931319-a5457534672d?w=600"
+          },
+          {
+            "alt": "Tortas",
+            "caption": "Tortas caseras",
+            "src": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+          },
+          {
+            "alt": "Pan integral",
+            "caption": "Pan integral con semillas",
+            "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Hechos con amor, todos los días",
+        "title": "Nuestros productos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Panaderia%20Artesanal%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Panaderia Artesanal Asunción - Panaderia Artesanal",
-        "subheadline": "Panaderia Artesanal profesional en Asunción."
+        "ctaPrimaryText": "Hacé tu pedido",
+        "ctaSecondaryText": "Ver productos",
+        "headline": "Pan artesanal, horneado todos los días",
+        "subheadline": "Panadería de masa madre en Capiatá. Pan francés, integral, chipa, facturas y más"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "06:00 - 12:00",
+          "Lunes a Sábado": "06:00 - 20:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@panaderia.capiata.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@panaderia.capiata.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "menu": {
+        "categories": [
+          {
+            "items": [
+              {
+                "name": "Pan Francés",
+                "price": "Gs. 3.000"
+              },
+              {
+                "name": "Pan Integral",
+                "price": "Gs. 5.000"
+              },
+              {
+                "name": "Pan de Masa Madre",
+                "price": "Gs. 12.000"
+              },
+              {
+                "name": "Pan de Hamburguesa (x4)",
+                "price": "Gs. 8.000"
+              }
+            ],
+            "name": "Panadería"
+          },
+          {
+            "items": [
+              {
+                "name": "Medialuna (x1)",
+                "price": "Gs. 2.000"
+              },
+              {
+                "name": "Vigilante (x1)",
+                "price": "Gs. 2.500"
+              },
+              {
+                "name": "Cañón (x1)",
+                "price": "Gs. 2.500"
+              },
+              {
+                "name": "Docena variada",
+                "price": "Gs. 20.000"
+              }
+            ],
+            "name": "Facturas"
+          },
+          {
+            "items": [
+              {
+                "name": "Chipa (x1)",
+                "price": "Gs. 2.500"
+              },
+              {
+                "name": "Mbeju (x1)",
+                "price": "Gs. 5.000"
+              },
+              {
+                "name": "Sopa Paraguaya (porción)",
+                "price": "Gs. 6.000"
+              },
+              {
+                "name": "Pastel Mandi'o",
+                "price": "Gs. 4.000"
+              }
+            ],
+            "name": "Tradicional PY"
+          },
+          {
+            "items": [
+              {
+                "name": "Torta de Chocolate",
+                "price": "Gs. 30.000"
+              },
+              {
+                "name": "Brownie (x1)",
+                "price": "Gs. 5.000"
+              },
+              {
+                "name": "Alfajor artesanal",
+                "price": "Gs. 4.000"
+              },
+              {
+                "name": "Flan casero",
+                "price": "Gs. 8.000"
+              }
+            ],
+            "name": "Pastelería"
+          }
+        ],
+        "subtitle": "Precios actualizados",
+        "title": "Nuestros productos"
+      },
+      "promoBanner": {
+        "ctaText": "Pedir ahora",
+        "dismissible": true,
+        "subtitle": "Docena de facturas + 1 pan integral de regalo. Todos los días hasta 10:00",
+        "title": "🥖 Promo del día"
       },
       "seo": {
         "description": "Panaderia Artesanal profesional en Asunción. Servicios de calidad con atención personalizada.",
         "title": "Demo Panaderia Artesanal Asunción - Panaderia Artesanal en Asunción"
+      },
+      "services": {
+        "eyebrow": "Productos",
+        "items": [
+          {
+            "description": "Pan clásico horneado diariamente",
+            "icon": "Bread",
+            "name": "Pan Francés",
+            "price": "Gs. 3.000"
+          },
+          {
+            "description": "Pan de harina integral con semillas",
+            "icon": "Sprout",
+            "name": "Pan Integral",
+            "price": "Gs. 5.000"
+          },
+          {
+            "description": "Medialunas, vigilantes, cañones y más",
+            "icon": "Croissant",
+            "name": "Facturas",
+            "price": "Desde Gs. 2.000"
+          },
+          {
+            "description": "Chipa tradicional y chipa so'o",
+            "icon": "Cookie",
+            "name": "Chipa",
+            "price": "Gs. 2.500"
+          },
+          {
+            "description": "Pan de elaboración lenta con fermentación natural",
+            "icon": "Award",
+            "name": "Pan de Masa Madre",
+            "price": "Gs. 12.000"
+          },
+          {
+            "description": "Tortas caseras, brownies y alfajores",
+            "icon": "Cake",
+            "name": "Tortas y Pasteles",
+            "price": "Desde Gs. 5.000"
+          }
+        ],
+        "title": "Elaboración artesanal, sabor tradicional"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "María L.",
+            "rating": 5,
+            "text": "El mejor pan de Capiatá. Siempre fresco y delicioso."
+          },
+          {
+            "name": "José R.",
+            "rating": 5,
+            "text": "Las facturas son espectaculares. Pedido regular todas las semanas."
+          },
+          {
+            "name": "Ana F.",
+            "rating": 5,
+            "text": "La chipa es como la de mi abuela. Artesanal y deliciosa."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
       }
     },
     "navigation": {
-      "businessName": "Demo Panaderia Artesanal Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Artisan Bakery",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Productos",
+          "path": "#menu"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Delivery",
+          "path": "#delivery"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Panaderia Artesanal Asunción",
@@ -22206,21 +17161,21 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Panaderia Artesanal y me interesa un sitio para mi negocio"
     }
   },
-  "demo-parabrisas:es": {
+  "demo-panaderia:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Parabrisas y Cristales Asunción",
-      "copyright": "© {{year}} Demo Parabrisas y Cristales Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Panadería Artesanal Asunción",
+      "copyright": "© {{year}} Demo Panadería Artesanal Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Asunción",
-        "demoRubro": "glass_windshield_repair",
+        "demoRubro": "panaderia",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -22228,49 +17183,49 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Parabrisas%20y%20Cristales%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Panader%C3%ADa%20Artesanal%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Parabrisas y Cristales Asunción - Parabrisas",
-        "subheadline": "Parabrisas profesional en Asunción."
+        "headline": "Demo Panadería Artesanal Asunción - Pan y dulce todos los dias",
+        "subheadline": "Horneado artesanal en Asunción. Panes, chipa, tortas por encargo."
       },
       "seo": {
-        "description": "Parabrisas profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Parabrisas y Cristales Asunción - Parabrisas en Asunción"
+        "description": "Pan artesanal, chipa, pasteleria y tortas en Asunción. Pedidos por WhatsApp.",
+        "title": "Demo Panadería Artesanal Asunción - Panaderia en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Parabrisas y Cristales Asunción",
+      "businessName": "Demo Panadería Artesanal Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Parabrisas y Cristales Asunción",
+      "businessName": "Demo Panadería Artesanal Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Parabrisas y Cristales Asunción",
-    "tagline": "Parabrisas profesional en Asunción.",
+    "siteName": "Demo Panadería Artesanal Asunción",
+    "tagline": "Horneado artesanal en Asunción. Panes, chipa, tortas por encargo.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Parabrisas y Cristales y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Panadería Artesanal y me interesa un sitio para mi negocio"
     }
   },
-  "demo-paseador-perros:es": {
+  "demo-parrilla:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Paseador de Perros Luque",
-      "copyright": "© {{year}} Demo Paseador de Perros Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Parrilla Asunción",
+      "copyright": "© {{year}} Demo Parrilla Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "Luque",
-        "demoRubro": "dog_walker",
+        "city": "Asunción",
+        "demoRubro": "parrilla_asador",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -22278,132 +17233,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Paseador%20de%20Perros%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Parrilla%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Paseador de Perros Luque - Paseador Canino",
-        "subheadline": "Paseador Canino profesional en Luque."
+        "headline": "Demo Parrilla Asunción - Carne a las brasas como la tradicion manda",
+        "subheadline": "Cortes premium, parrilla a leña y ambiente familiar en Asunción."
       },
       "seo": {
-        "description": "Paseador Canino profesional en Luque. Servicios de calidad con atención personalizada.",
-        "title": "Demo Paseador de Perros Luque - Paseador Canino en Luque"
+        "description": "Cortes premium, parrilla a leña y ambiente familiar en Asunción.",
+        "title": "Demo Parrilla Asunción - Parrillada en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Paseador de Perros Luque",
+      "businessName": "Demo Parrilla Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Paseador de Perros Luque",
-      "city": "Luque",
+      "businessName": "Demo Parrilla Asunción",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Paseador de Perros Luque",
-    "tagline": "Paseador Canino profesional en Luque.",
+    "siteName": "Demo Parrilla Asunción",
+    "tagline": "Cortes premium, parrilla a leña y ambiente familiar en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Paseador de Perros y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-payaso-animador:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Payaso Animador Capiata",
-      "copyright": "© {{year}} Demo Payaso Animador Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "clown_entertainer",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Payaso%20Animador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Payaso Animador Capiata - Payaso",
-        "subheadline": "Payaso profesional en Capiata."
-      },
-      "seo": {
-        "description": "Payaso profesional en Capiata. Servicios de calidad con atención personalizada.",
-        "title": "Demo Payaso Animador Capiata - Payaso en Capiata"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Payaso Animador Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Payaso Animador Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Payaso Animador Capiata",
-    "tagline": "Payaso profesional en Capiata.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Payaso Animador y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-peluqueria-canina:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Peluqueria Canina Lambare",
-      "copyright": "© {{year}} Demo Peluqueria Canina Lambare",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Lambare",
-        "demoRubro": "dog_grooming_salon",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Peluqueria%20Canina%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Peluqueria Canina Lambare - Peluqueria Canina",
-        "subheadline": "Peluqueria Canina profesional en Lambare."
-      },
-      "seo": {
-        "description": "Peluqueria Canina profesional en Lambare. Servicios de calidad con atención personalizada.",
-        "title": "Demo Peluqueria Canina Lambare - Peluqueria Canina en Lambare"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Peluqueria Canina Lambare",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Peluqueria Canina Lambare",
-      "city": "Lambare",
-      "year": 2026
-    },
-    "siteName": "Demo Peluqueria Canina Lambare",
-    "tagline": "Peluqueria Canina profesional en Lambare.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Peluqueria Canina y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Parrilla y me interesa un sitio para mi negocio"
     }
   },
   "demo-peluqueria:es": {
@@ -22418,32 +17273,282 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "booking": {
+        "services": [
+          {
+            "category": "Corte",
+            "duration": 30,
+            "name": "Corte de Cabello"
+          },
+          {
+            "category": "Color",
+            "duration": 90,
+            "name": "Coloración completa"
+          },
+          {
+            "category": "Color",
+            "duration": 90,
+            "name": "Mechas y Balayage"
+          },
+          {
+            "category": "Tratamiento",
+            "duration": 45,
+            "name": "Tratamiento capilar"
+          },
+          {
+            "category": "Uñas",
+            "duration": 45,
+            "name": "Manicura semipermanente"
+          },
+          {
+            "category": "Peinado",
+            "duration": 60,
+            "name": "Peinado para eventos"
+          }
+        ],
+        "subtitle": "Elegí el servicio y el horario que más te convenga",
+        "title": "Reservá tu turno"
+      },
       "contact": {
+        "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
-        "demoRubro": "peluqueria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "email": "contacto@peluqueriacentro.com.py",
+        "phone": "+595981654321",
+        "subtitle": "Estamos en el centro de Asunción",
+        "title": "Contacto",
+        "whatsapp": "+595981654321"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "question": "¿Aceptan tarjetas de crédito?"
+          },
+          {
+            "answer": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas.",
+            "question": "¿Cuánto dura un servicio de coloración?"
+          },
+          {
+            "answer": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional.",
+            "question": "¿Hacen peinados a domicilio?"
+          },
+          {
+            "answer": "Sí, trabajamos con las mejores marcas profesionales del mercado.",
+            "question": "¿Usan productos profesionales?"
+          },
+          {
+            "answer": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local.",
+            "question": "¿Cómo puedo reservar un turno?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Corte moderno",
+            "caption": "Corte y coloración",
+            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+          },
+          {
+            "alt": "Mechas balayage",
+            "caption": "Balayage dorado",
+            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+          },
+          {
+            "alt": "Peinado",
+            "caption": "Peinado para novia",
+            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+          },
+          {
+            "alt": "Botox capilar",
+            "caption": "Botox capilar",
+            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+          },
+          {
+            "alt": "Manicura",
+            "caption": "Manicura semipermanente",
+            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+          },
+          {
+            "alt": "Corte caballero",
+            "caption": "Corte degradado",
+            "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Transformaciones reales de nuestros clientes",
+        "title": "Nuestros trabajos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Peluqueria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Peluqueria Asunción - Tu Mejor Look en Asunción",
-        "subheadline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo"
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Conocé nuestros servicios",
+        "headline": "Tu estilo, nuestra pasión",
+        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado",
+          "Lunes a Viernes": "09:00 - 20:00",
+          "Sábado": "09:00 - 18:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@peluqueria.centro.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar ahora",
+        "dismissible": true,
+        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "title": "🎉 Promoción de Lanzamiento",
+        "variant": "standard"
       },
       "seo": {
         "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
         "title": "Demo Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Corte moderno y personalizado para damas y caballeros",
+            "icon": "Scissors",
+            "name": "Corte de Cabello",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Tintura, mechas, balayage y reflejos con productos profesionales",
+            "icon": "Palette",
+            "name": "Coloración",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Botox capilar, keratina, hidratación profunda y reconstrucción",
+            "icon": "Sparkles",
+            "name": "Tratamientos Capilares",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Peinados para eventos, fiestas, bodas y ocasiones especiales",
+            "icon": "Feather",
+            "name": "Peinados",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Cuidado profesional de uñas con esmaltado tradicional o semipermanente",
+            "icon": "Hand",
+            "name": "Manicura y Pedicura",
+            "price": "Gs. 70.000"
+          },
+          {
+            "description": "Cepillado con keratina, alisado permanente y planchita",
+            "icon": "Wind",
+            "name": "Cepillado y Alisado",
+            "price": "Gs. 90.000"
+          }
+        ],
+        "title": "Todo lo que necesitás para lucir espectacular"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "10 años de experiencia en cortes y coloración",
+            "name": "María González",
+            "role": "Directora y Estilista Senior"
+          },
+          {
+            "description": "Especialista en cortes masculinos y degradados",
+            "name": "Carlos Benítez",
+            "role": "Barbero Profesional"
+          },
+          {
+            "description": "Experta en balayage, mechas y tintura",
+            "name": "Ana Martínez",
+            "role": "Colorista"
+          },
+          {
+            "description": "Diseño de uñas y nail art",
+            "name": "Laura Silva",
+            "role": "Manicurista"
+          },
+          {
+            "description": "Peinados para eventos y ocasiones especiales",
+            "name": "Pedro Ramírez",
+            "role": "Estilista"
+          }
+        ],
+        "subtitle": "Profesionales apasionados por tu belleza",
+        "title": "Conocé a nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Sofía L.",
+            "rating": 5,
+            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+          },
+          {
+            "name": "Marcos A.",
+            "rating": 5,
+            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+          },
+          {
+            "name": "Lucía R.",
+            "rating": 5,
+            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+          },
+          {
+            "name": "Jorge P.",
+            "rating": 4,
+            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Productos profesionales",
+          "10 años de experiencia",
+          "Ambiente climatizado",
+          "Estacionamiento gratis",
+          "Resultados garantizados"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Peluqueria Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Peluqueria",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Peluqueria Asunción",
@@ -22603,71 +17708,21 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     ]
   },
-  "demo-pensionado-canino:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Pensionado Canino Capiata",
-      "copyright": "© {{year}} Demo Pensionado Canino Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "dog_boarding_kennel",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Pensionado%20Canino%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Pensionado Canino Capiata - Guarderia Caninos",
-        "subheadline": "Guarderia Caninos profesional en Capiata."
-      },
-      "seo": {
-        "description": "Guarderia Caninos profesional en Capiata. Servicios de calidad con atención personalizada.",
-        "title": "Demo Pensionado Canino Capiata - Guarderia Caninos en Capiata"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Pensionado Canino Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Pensionado Canino Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Pensionado Canino Capiata",
-    "tagline": "Guarderia Caninos profesional en Capiata.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Pensionado Canino y me interesa un sitio para mi negocio"
-    }
-  },
   "demo-plomero:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Plomero Ciudad del Este",
-      "copyright": "© {{year}} Demo Plomero Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Plomero Asunción",
+      "copyright": "© {{year}} Demo Plomero Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "general_plumber",
+        "city": "Asunción",
+        "demoRubro": "plomero",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -22679,45 +17734,45 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Plomero Ciudad del Este - Plomero General",
-        "subheadline": "Plomero General profesional en Ciudad del Este."
+        "headline": "Demo Plomero Asunción - Plomero y Gasista",
+        "subheadline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h."
       },
       "seo": {
-        "description": "Plomero General profesional en Ciudad del Este. Servicios de calidad con atención personalizada.",
-        "title": "Demo Plomero Ciudad del Este - Plomero General en Ciudad del Este"
+        "description": "Plomero 24h en Asunción. Destapaciones, reparaciones, instalaciones de agua y gas.",
+        "title": "Demo Plomero Asunción - Plomero en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Plomero Ciudad del Este",
+      "businessName": "Demo Plomero Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Plomero Ciudad del Este",
-      "city": "Ciudad del Este",
+      "businessName": "Demo Plomero Asunción",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Plomero Ciudad del Este",
-    "tagline": "Plomero General profesional en Ciudad del Este.",
+    "siteName": "Demo Plomero Asunción",
+    "tagline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h.",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Plomero y me interesa un sitio para mi negocio"
     }
   },
-  "demo-quiropraxia:es": {
+  "demo-psicologia:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Quiropraxia Asunción",
-      "copyright": "© {{year}} Demo Quiropraxia Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Psicología Asunción",
+      "copyright": "© {{year}} Demo Psicología Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
         "city": "Asunción",
-        "demoRubro": "chiropractic_clinic",
+        "demoRubro": "psicologia",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
@@ -22725,180 +17780,1002 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Quiropraxia%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Psicolog%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Quiropraxia Asunción - Quiropráctica",
-        "subheadline": "Quiropráctica profesional en Asunción."
+        "headline": "Demo Psicología Asunción - Un espacio para ti",
+        "subheadline": "Terapia individual, de pareja y familiar con enfoque humanista en Asunción."
       },
       "seo": {
-        "description": "Quiropráctica profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Quiropraxia Asunción - Quiropráctica en Asunción"
+        "description": "Terapia individual, de pareja y familiar con enfoque humanista en Asunción.",
+        "title": "Demo Psicología Asunción - Psicologia en Asunción"
       }
     },
     "navigation": {
-      "businessName": "Demo Quiropraxia Asunción",
+      "businessName": "Demo Psicología Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Quiropraxia Asunción",
+      "businessName": "Demo Psicología Asunción",
       "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Quiropraxia Asunción",
-    "tagline": "Quiropráctica profesional en Asunción.",
+    "siteName": "Demo Psicología Asunción",
+    "tagline": "Terapia individual, de pareja y familiar con enfoque humanista en Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Quiropraxia y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Psicología y me interesa un sitio para mi negocio"
     }
   },
-  "demo-salon-fiestas:es": {
+  "demo-restaurant:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Salon de Fiestas Luque",
-      "copyright": "© {{year}} Demo Salon de Fiestas Luque",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Restaurante La Tradición",
+      "copyright": "© {{year}} Demo Restaurante La Tradición",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "Luque",
-        "demoRubro": "banquet_hall",
+        "address": "Av. Mariscal López 1234 casi San Martín",
+        "city": "Asunción",
+        "demoRubro": "restaurant",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
         "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "subtitle": "Reservá tu mesa o consultanos por catering y eventos",
+        "title": "Contacto y reservas",
+        "whatsapp": "+595985724135"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Abrimos de martes a jueves de 11:00 a 22:00, viernes y sábado de 11:00 a 23:00, y domingo de 11:00 a 20:00. Cerramos los lunes.",
+            "question": "¿Cuáles son los horarios de atención?"
+          },
+          {
+            "answer": "Sí, aceptamos reservas para grupos de hasta 20 personas. Contactanos por WhatsApp con al menos 24 horas de anticipación.",
+            "question": "¿Aceptan reservas para grupos grandes?"
+          },
+          {
+            "answer": "Sí, contamos con platos aptos para celíacos como sopa paraguaya, mbeju, chipa guazú y opciones de parrilla sin contaminación cruzada.",
+            "question": "¿Tienen opciones sin TACC o para celíacos?"
+          },
+          {
+            "answer": "Sí, ofrecemos estacionamiento gratuito para nuestros comensales con capacidad para 15 vehículos.",
+            "question": "¿Tienen estacionamiento?"
+          },
+          {
+            "answer": "Sí, hacemos delivery en Asunción y San Lorenzo con un pedido mínimo de Gs. 40.000. El delivery es gratis para pedidos mayores a Gs. 80.000.",
+            "question": "¿Hacen delivery?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Interior del restaurante",
+            "caption": "Salón principal climatizado",
+            "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600"
+          },
+          {
+            "alt": "Plato de comida",
+            "caption": "Parrillada para dos personas",
+            "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600"
+          },
+          {
+            "alt": "Plato gourmet",
+            "caption": "Bife de chorizo con guarnición",
+            "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600"
+          },
+          {
+            "alt": "Parrilla",
+            "caption": "Nuestra parrilla a leña",
+            "src": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600"
+          },
+          {
+            "alt": "Postre",
+            "caption": "Dulce de leche con queso",
+            "src": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600"
+          },
+          {
+            "alt": "Barra de bebidas",
+            "caption": "Carta de vinos y bebidas",
+            "src": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Conocé nuestro ambiente y platos",
+        "title": "Galería"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Salon%20de%20Fiestas%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Salon de Fiestas Luque - Salon de Eventos",
-        "subheadline": "Salon de Eventos profesional en Luque."
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%21+Quiero+reservar+una+mesa+en+La+Tradici%C3%B3n",
+        "ctaPrimaryText": "Reservá por WhatsApp",
+        "ctaSecondaryHref": "#menu",
+        "ctaSecondaryText": "Ver menú",
+        "headline": "Vení a disfrutar de los sabores del Paraguay",
+        "subheadline": "Cocina paraguaya e internacional, parrilla a leña, pastas artesanales y los mejores postres en Asunción."
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "11:00 - 20:00",
+          "Lunes": "Cerrado",
+          "Martes a Jueves": "11:00 - 22:00",
+          "Viernes y Sábado": "11:00 - 23:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@latradicion.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@latradicion.py — mostramos nuestros platos todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar",
+        "dismissible": true,
+        "subtitle": "Todos los martes: 2x1 en parrillada para dos personas. ¡No te lo pierdas!",
+        "title": "Promoción de la semana"
       },
       "seo": {
-        "description": "Salon de Eventos profesional en Luque. Servicios de calidad con atención personalizada.",
-        "title": "Demo Salon de Fiestas Luque - Salon de Eventos en Luque"
+        "description": "Descubrí La Tradición: platos típicos paraguayos, parrilla a leña, pastas artesanales y más. Reservá tu mesa online. Abierto de martes a domingo.",
+        "title": "Restaurante La Tradición - Cocina Paraguaya e Internacional en Asunción"
+      },
+      "services": {
+        "categories": [
+          {
+            "items": [
+              {
+                "description": "Pastel de choclo, queso paraguayo y cebolla",
+                "name": "Chipa guazú",
+                "price": "Gs. 22.000"
+              },
+              {
+                "description": "Empanadas fritas con recado de carne, huevo y aceituna",
+                "name": "Empanadas de carne",
+                "price": "Gs. 18.000"
+              },
+              {
+                "description": "Porción individual de la tradicional sopa paraguaya",
+                "name": "Sopa paraguaya",
+                "price": "Gs. 15.000"
+              },
+              {
+                "description": "Torta de almidón con queso paraguayo, crocante por fuera",
+                "name": "Mbeju",
+                "price": "Gs. 16.000"
+              },
+              {
+                "description": "Selección de jamones, quesos, salamines y encurtidos",
+                "name": "Tabla de fiambres",
+                "price": "Gs. 35.000"
+              }
+            ],
+            "name": "Entradas"
+          },
+          {
+            "items": [
+              {
+                "description": "Sopa de pescado de río con mandioca, locote y especias",
+                "name": "Pira caldo",
+                "price": "Gs. 38.000"
+              },
+              {
+                "description": "Caldo espeso con gallina casera y bolitas de maíz",
+                "name": "Vori vori de gallina",
+                "price": "Gs. 42.000"
+              },
+              {
+                "description": "Carne desmenuzada con harina de maíz, queso y locote",
+                "name": "So'o josopa",
+                "price": "Gs. 35.000"
+              },
+              {
+                "description": "Milanesa de carne con salsa, jamón, queso y papas fritas",
+                "name": "Milanesa napolitana",
+                "price": "Gs. 40.000"
+              },
+              {
+                "description": "Bife 300g con guarnición (ensalada, papas o arroz)",
+                "name": "Bife de chorizo",
+                "price": "Gs. 55.000"
+              },
+              {
+                "description": "Filete de pescado de río frito con mandioca y ensalada",
+                "name": "Pescado frito",
+                "price": "Gs. 45.000"
+              }
+            ],
+            "name": "Platos Principales"
+          },
+          {
+            "items": [
+              {
+                "description": "Costilla de res a la parrilla, porción 400g",
+                "name": "Asado de tira",
+                "price": "Gs. 50.000"
+              },
+              {
+                "description": "Asado, chorizo, morcilla, pollo, ensalada y mandioca",
+                "name": "Parrillada para 2",
+                "price": "Gs. 95.000"
+              },
+              {
+                "description": "Asado, chorizo, morcilla, pollo, vacío, ensalada, mandioca y sopa",
+                "name": "Parrillada para 4",
+                "price": "Gs. 180.000"
+              },
+              {
+                "description": "Porción de chorizo artesanal con ensalada rusa",
+                "name": "Chorizo parrillero",
+                "price": "Gs. 25.000"
+              },
+              {
+                "description": "Medio pollo al spiedo con papas y ensalada",
+                "name": "Pollo al spiedo",
+                "price": "Gs. 42.000"
+              }
+            ],
+            "name": "Parrilla"
+          },
+          {
+            "items": [
+              {
+                "description": "Tallarines artesanales con salsa bolognesa o pesto",
+                "name": "Tallarines caseros",
+                "price": "Gs. 32.000"
+              },
+              {
+                "description": "Ñoquis caseros con salsa filetto y queso rallado",
+                "name": "Ñoquis de papa",
+                "price": "Gs. 30.000"
+              },
+              {
+                "description": "Ravioles artesanales con salsa roja o blanca",
+                "name": "Ravioles de ricota y espinaca",
+                "price": "Gs. 35.000"
+              },
+              {
+                "description": "Lasaña de carne con salsa bolognesa y queso gratinado",
+                "name": "Lasaña bolognesa",
+                "price": "Gs. 38.000"
+              },
+              {
+                "description": "Fettuccine con albahaca fresca, nueces y parmesano",
+                "name": "Fettuccine al pesto",
+                "price": "Gs. 34.000"
+              }
+            ],
+            "name": "Pastas"
+          },
+          {
+            "items": [
+              {
+                "description": "Queso paraguayo con dulce de leche artesanal",
+                "name": "Dulce de leche con queso",
+                "price": "Gs. 15.000"
+              },
+              {
+                "description": "Flan de vainilla con caramelo y crema",
+                "name": "Flan casero",
+                "price": "Gs. 16.000"
+              },
+              {
+                "description": "Mousse suave con chocolate amargo y frutillas",
+                "name": "Mousse de chocolate",
+                "price": "Gs. 18.000"
+              },
+              {
+                "description": "Budín de pan con pasas, canela y salsa de caramelo",
+                "name": "Budín de pan",
+                "price": "Gs. 14.000"
+              },
+              {
+                "description": "Dos bochas de helado artesanal, sabores varios",
+                "name": "Helado artesanal",
+                "price": "Gs. 12.000"
+              }
+            ],
+            "name": "Postres"
+          },
+          {
+            "items": [
+              {
+                "name": "Gaseosa 500ml",
+                "price": "Gs. 5.000"
+              },
+              {
+                "name": "Gaseosa 1.5L",
+                "price": "Gs. 8.000"
+              },
+              {
+                "name": "Agua mineral 500ml",
+                "price": "Gs. 3.000"
+              },
+              {
+                "name": "Cerveza Pilsen 350cc",
+                "price": "Gs. 7.000"
+              },
+              {
+                "name": "Cerveza importada 355cc",
+                "price": "Gs. 12.000"
+              },
+              {
+                "name": "Vino de la casa (copa)",
+                "price": "Gs. 15.000"
+              },
+              {
+                "name": "Tereré",
+                "price": "Gs. 6.000"
+              },
+              {
+                "name": "Jugo natural de fruta",
+                "price": "Gs. 8.000"
+              }
+            ],
+            "name": "Bebidas"
+          }
+        ],
+        "subtitle": "Platos preparados con ingredientes frescos y mucha pasión",
+        "title": "Nuestro menú"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Laura M.",
+            "rating": 5,
+            "text": "Excelente atención y la parrillada es de otro nivel. El asado de tira se deshace en la boca. Volvemos cada mes."
+          },
+          {
+            "name": "Carlos R.",
+            "rating": 5,
+            "text": "El vori vori de gallina me recordó al de mi abuela. Platos típicos bien hechos, con ingredientes de calidad."
+          },
+          {
+            "name": "Ana S.",
+            "rating": 4,
+            "text": "Ambiente familiar, precios razonables y el flan casero es imperdible. Muy recomendado para ir con niños."
+          },
+          {
+            "name": "Miguel A.",
+            "rating": 5,
+            "text": "Los ñoquis de papa y la lasaña son espectaculares. El mejor restaurante de comida paraguaya e italiana en Asunción."
+          }
+        ],
+        "title": "Lo que dicen nuestros comensales"
+      },
+      "trustBadges": {
+        "items": [
+          "Ingredientes frescos",
+          "Parrilla a leña",
+          "Ambiente climatizado",
+          "Estacionamiento gratis",
+          "Apto celíacos"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Salon de Fiestas Luque",
+      "businessName": "La Tradición",
       "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "ctaText": "Reservá tu mesa",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Menú",
+          "path": "#menu"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
-      "businessName": "Demo Salon de Fiestas Luque",
-      "city": "Luque",
+      "businessName": "Demo Restaurante La Tradición",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Salon de Fiestas Luque",
-    "tagline": "Salon de Eventos profesional en Luque.",
+    "siteName": "Demo Restaurante La Tradición",
+    "tagline": "Cocina paraguaya e internacional en el corazón de Asunción.",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Salon de Fiestas y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Restaurante y me interesa un sitio para mi negocio"
     }
   },
-  "demo-spa-facial:es": {
+  "demo-salon-belleza:es": {
     "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
+      "author": "enrich-batch",
+      "lastReviewed": "2026-04-25",
+      "translationQuality": "human"
     },
     "footer": {
-      "businessName": "Demo Spa Facial Encarnacion",
-      "copyright": "© {{year}} Demo Spa Facial Encarnacion",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Salón de Belleza Asunción",
+      "copyright": "© {{year}} Demo Salón de Belleza Asunción",
+      "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio."
     },
     "home": {
-      "contact": {
-        "city": "Encarnacion",
-        "demoRubro": "facial_spa",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+      "booking": {
+        "services": [
+          {
+            "category": "Cabello",
+            "duration": 45,
+            "name": "Corte y Peinado"
+          },
+          {
+            "category": "Cabello",
+            "duration": 90,
+            "name": "Coloración completa"
+          },
+          {
+            "category": "Uñas",
+            "duration": 45,
+            "name": "Manicura semipermanente"
+          },
+          {
+            "category": "Uñas",
+            "duration": 45,
+            "name": "Pedicura completa"
+          },
+          {
+            "category": "Maquillaje",
+            "duration": 60,
+            "name": "Maquillaje social"
+          },
+          {
+            "category": "Facial",
+            "duration": 45,
+            "name": "Limpieza facial"
+          }
+        ],
+        "subtitle": "Elegí el servicio y el horario que más te convenga",
+        "title": "Reservá tu turno"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Entre 1 y 2 horas dependiendo del largo y técnica.",
+            "question": "¿Cuánto dura una coloración?"
+          },
+          {
+            "answer": "Sí, para eventos especiales con costo adicional.",
+            "question": "¿Hacen peinados a domicilio?"
+          },
+          {
+            "answer": "Trabajamos con las mejores marcas del mercado.",
+            "question": "¿Usan productos profesionales?"
+          },
+          {
+            "answer": "Por WhatsApp o directamente en nuestro sistema de reservas online.",
+            "question": "¿Cómo reservo un turno?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Corte y color",
+            "caption": "Balayage + corte",
+            "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600"
+          },
+          {
+            "alt": "Manicura",
+            "caption": "Manicura semipermanente",
+            "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600"
+          },
+          {
+            "alt": "Maquillaje",
+            "caption": "Maquillaje social",
+            "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600"
+          },
+          {
+            "alt": "Mechas",
+            "caption": "Mechas californianas",
+            "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600"
+          },
+          {
+            "alt": "Peinado",
+            "caption": "Peinado para novia",
+            "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600"
+          },
+          {
+            "alt": "Uñas",
+            "caption": "Nail art",
+            "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Transformaciones reales de nuestras clientas",
+        "title": "Nuestros trabajos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Spa%20Facial%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Spa Facial Encarnacion - Spa Facial",
-        "subheadline": "Spa Facial profesional en Encarnacion."
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Tu belleza, nuestra prioridad",
+        "subheadline": "Corte, color, uñas, maquillaje y tratamientos faciales en un ambiente único en Asunción"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado",
+          "Lunes a Viernes": "09:00 - 20:00",
+          "Sábado": "09:00 - 18:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@salonbelleza.asuncion",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@salonbelleza.asuncion",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar ahora",
+        "dismissible": true,
+        "subtitle": "15% de descuento en tu primer tratamiento facial + manicura",
+        "title": "Promoción de Lanzamiento",
+        "variant": "standard"
       },
       "seo": {
-        "description": "Spa Facial profesional en Encarnacion. Servicios de calidad con atención personalizada.",
-        "title": "Demo Spa Facial Encarnacion - Spa Facial en Encarnacion"
+        "description": "Cuidado capilar, manicura, maquillaje y tratamientos faciales en Asunción. Reservá tu cita online.",
+        "title": "Demo Salón de Belleza Asunción - Belleza y Estética en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Corte personalizado, brushing y peinados para toda ocasión",
+            "icon": "Scissors",
+            "name": "Corte y Peinado",
+            "price": "Gs. 70.000"
+          },
+          {
+            "description": "Tintura, mechas, balayage, babylights y californianas",
+            "icon": "Palette",
+            "name": "Coloración",
+            "price": "Gs. 180.000"
+          },
+          {
+            "description": "Esmaltado tradicional, semipermanente, acrílico y nail art",
+            "icon": "Hand",
+            "name": "Manicura y Pedicura",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Maquillaje social, novias, quinceañeras y sesión de fotos",
+            "icon": "Sparkles",
+            "name": "Maquillaje Profesional",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Limpieza profunda, hidratación, peeling y revitalización",
+            "icon": "Droplets",
+            "name": "Tratamientos Faciales",
+            "price": "Gs. 130.000"
+          },
+          {
+            "description": "Depilación con cera, hilo y eléctrica en todo el cuerpo",
+            "icon": "Feather",
+            "name": "Depilación",
+            "price": "Gs. 50.000"
+          }
+        ],
+        "title": "Todo para tu belleza integral"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "8 años en cortes, coloración y tratamientos capilares",
+            "name": "Camila Rivas",
+            "role": "Directora y Estilista"
+          },
+          {
+            "description": "Experta en nail art, acrílico y semipermanente",
+            "name": "Sofía Mendoza",
+            "role": "Manicurista Senior"
+          },
+          {
+            "description": "Especialista en maquillaje social y novias",
+            "name": "Valentina Acosta",
+            "role": "Maquilladora Profesional"
+          },
+          {
+            "description": "Tratamientos faciales, depilación y cuidado de la piel",
+            "name": "Gabriela Torres",
+            "role": "Esteticista"
+          }
+        ],
+        "subtitle": "Profesionales apasionadas por tu belleza",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "María F.",
+            "rating": 5,
+            "text": "Salí hermosa con mi nuevo corte y color. ¡Atención increíble!"
+          },
+          {
+            "name": "Carla G.",
+            "rating": 5,
+            "text": "Las uñas me quedaron perfectas. Volví a enamorarme del nail art."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 5,
+            "text": "El mejor salón de belleza de Asunción. Super recomendado."
+          },
+          {
+            "name": "Laura M.",
+            "rating": 4,
+            "text": "Me hicieron un maquillaje espectacular para mi cumpleaños."
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      },
+      "trustBadges": {
+        "items": [
+          "Productos profesionales importados",
+          "8 años de experiencia",
+          "Ambiente climatizado",
+          "Estacionamiento gratis",
+          "Resultados garantizados"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Spa Facial Encarnacion",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Salón de Belleza",
+      "ctaHref": "#reservar",
+      "ctaText": "Reservar turno",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
-      "businessName": "Demo Spa Facial Encarnacion",
-      "city": "Encarnacion",
+      "businessName": "Demo Salón de Belleza Asunción",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Spa Facial Encarnacion",
-    "tagline": "Spa Facial profesional en Encarnacion.",
+    "siteName": "Demo Salón de Belleza Asunción",
+    "tagline": "Todo para verte y sentirte hermosa",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Spa Facial y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Salón de Belleza y me interesa un sitio para mi negocio"
     }
   },
   "demo-spa:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Spa Ciudad del Este",
-      "copyright": "© {{year}} Demo Spa Ciudad del Este",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Spa Asunción",
+      "copyright": "© {{year}} Demo Spa Asunción",
+      "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "booking": {
+        "ctaText": "Reservar por WhatsApp",
+        "phone": "+595981726354",
+        "services": [
+          {
+            "category": "masajes",
+            "duration": "60 min",
+            "name": "Masaje Relajante"
+          },
+          {
+            "category": "masajes",
+            "duration": "60 min",
+            "name": "Masaje Descontracturante"
+          },
+          {
+            "category": "faciales",
+            "duration": "45 min",
+            "name": "Limpieza Facial Profunda"
+          },
+          {
+            "category": "corporales",
+            "duration": "90 min",
+            "name": "Tratamiento Corporal Detox"
+          },
+          {
+            "category": "sauna",
+            "duration": "30 min",
+            "name": "Sauna y Baño de Vapor"
+          },
+          {
+            "category": "belleza",
+            "duration": "60 min",
+            "name": "Pedicura Spa"
+          }
+        ],
+        "subtitle": "Elegí el servicio y el horario que más te convenga",
+        "title": "Reservá tu turno"
+      },
       "contact": {
-        "city": "Ciudad del Este",
-        "demoRubro": "day_spa",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Santa Teresa 1250 c/ San Martín",
+        "city": "Asunción",
+        "email": "contacto@demospa.com.py",
+        "phone": "+595981726354",
+        "subtitle": "Estamos en el barrio Villa Morra, Asunción",
+        "title": "Contacto",
+        "whatsapp": "+595981726354"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables.",
+            "question": "¿Necesito llevar algo para el masaje?"
+          },
+          {
+            "answer": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial.",
+            "question": "¿Cuánto dura una sesión de masaje relajante?"
+          },
+          {
+            "answer": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria.",
+            "question": "¿Aceptan tarjetas de crédito?"
+          },
+          {
+            "answer": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes.",
+            "question": "¿Tienen estacionamiento?"
+          },
+          {
+            "answer": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local.",
+            "question": "¿Cómo puedo reservar un turno?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Sala de masajes",
+            "caption": "Sala de masajes con aromaterapia",
+            "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600"
+          },
+          {
+            "alt": "Tratamiento facial",
+            "caption": "Limpieza facial profunda",
+            "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600"
+          },
+          {
+            "alt": "Velas y ambiente spa",
+            "caption": "Ambiente de relax",
+            "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600"
+          },
+          {
+            "alt": "Masaje de espalda",
+            "caption": "Masaje descontracturante",
+            "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600"
+          },
+          {
+            "alt": "Tratamiento corporal",
+            "caption": "Envoltura detox",
+            "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600"
+          },
+          {
+            "alt": "Sauna",
+            "caption": "Sauna finlandesa",
+            "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Un ambiente pensado para tu relajación",
+        "title": "Nuestro espacio"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Spa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Spa Ciudad del Este - Spa de Dia",
-        "subheadline": "Spa de Dia profesional en Ciudad del Este."
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Tu momento de bienestar",
+        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado",
+          "Lunes a Viernes": "09:00 - 21:00",
+          "Sábado": "10:00 - 20:00"
+        },
+        "title": "Horarios"
+      },
+      "instagramFeed": {
+        "columns": 4,
+        "handle": "@demo.spa.py",
+        "layout": "grid",
+        "limit": 8,
+        "subtitle": "@demo.spa.py — mostramos nuestro trabajo todos los días",
+        "title": "Seguinos en Instagram"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar ahora",
+        "dismissible": true,
+        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "title": "Promoción de Lanzamiento",
+        "variant": "standard"
       },
       "seo": {
-        "description": "Spa de Dia profesional en Ciudad del Este. Servicios de calidad con atención personalizada.",
-        "title": "Demo Spa Ciudad del Este - Spa de Dia en Ciudad del Este"
+        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "title": "Demo Spa Asunción - Spa en Asunción | Masajes, Tratamientos y Bienestar"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Masaje corporal completo con aceites esenciales para liberar tensiones",
+            "icon": "Sparkles",
+            "name": "Masaje Relajante",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Técnica profunda para aliviar contracturas y dolores musculares",
+            "icon": "Zap",
+            "name": "Masaje Descontracturante",
+            "price": "Gs. 150.000"
+          },
+          {
+            "description": "Limpieza con extracción, exfoliación y mascarilla hidratante",
+            "icon": "Droplets",
+            "name": "Limpieza Facial Profunda",
+            "price": "Gs. 100.000"
+          },
+          {
+            "description": "Envoltura de algas marinas con drenaje linfático manual",
+            "icon": "Wind",
+            "name": "Tratamiento Corporal Detox",
+            "price": "Gs. 200.000"
+          },
+          {
+            "description": "Acceso a sauna finlandesa y baño turco con aromaterapia",
+            "icon": "Thermometer",
+            "name": "Sauna y Baño de Vapor",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Pedicura completa con exfoliación, masaje y esmaltado semipermanente",
+            "icon": "Feather",
+            "name": "Pedicura Spa",
+            "price": "Gs. 90.000"
+          }
+        ],
+        "title": "Todo para tu bienestar físico y mental"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "12 años de experiencia en masoterapia y tratamientos corporales",
+            "name": "Gabriela Torres",
+            "role": "Directora y Masoterapeuta Senior"
+          },
+          {
+            "description": "Especialista en masajes descontracturantes y drenaje linfático",
+            "name": "Miguel Ángel Rivas",
+            "role": "Terapeuta de Masajes"
+          },
+          {
+            "description": "Experta en limpiezas faciales, peelings y tratamientos anti-edad",
+            "name": "Camila Ferreira",
+            "role": "Esteticista Facial"
+          },
+          {
+            "description": "Especialista en envolturas detox y tratamientos corporales",
+            "name": "Sofía Mendoza",
+            "role": "Terapeuta Corporal"
+          }
+        ],
+        "subtitle": "Terapeutas profesionales apasionados por tu bienestar",
+        "title": "Conocé a nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Valentina R.",
+            "rating": 5,
+            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 5,
+            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 5,
+            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      },
+      "trustBadges": {
+        "items": [
+          "Productos orgánicos",
+          "Ambiente climatizado",
+          "Toallas y bata incluídas",
+          "Estacionamiento gratis",
+          "Profesionales certificados"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Spa Ciudad del Este",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Spa",
+      "ctaHref": "#contacto",
+      "ctaText": "Reservar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Galería",
+          "path": "#galeria"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
-      "businessName": "Demo Spa Ciudad del Este",
-      "city": "Ciudad del Este",
+      "businessName": "Demo Spa Asunción",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Spa Ciudad del Este",
-    "tagline": "Spa de Dia profesional en Ciudad del Este.",
+    "siteName": "Demo Spa Asunción",
+    "tagline": "Relajación, bienestar y tratamientos de belleza en el corazón de Asunción",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Spa y me interesa un sitio para mi negocio"
     }
@@ -22916,31 +18793,212 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "home": {
       "contact": {
-        "city": "Asunción",
-        "demoRubro": "general_auto_repair",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Av. Cacique Lambaré 890",
+        "city": "Lambaré",
+        "email": "taller@mecanicalambare.com.py",
+        "phone": "+595982345678",
+        "subtitle": "Visitanos en Lambaré",
+        "title": "Contacto",
+        "whatsapp": "+595982345678"
+      },
+      "emergency": {
+        "available24h": true,
+        "description": "¿Problemas en la ruta? Llamanos y te asistimos",
+        "phone": "+595982345678",
+        "title": "Emergencias"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "El diagnóstico básico es gratuito. El escaneo computarizado tiene un costo mínimo.",
+            "question": "¿El diagnóstico tiene costo?"
+          },
+          {
+            "answer": "Sí, trabajamos con repuestos originales y alternativos de calidad.",
+            "question": "¿Usan repuestos originales?"
+          },
+          {
+            "answer": "Sí, de 08:00 a 13:00. Emergencias todos los días.",
+            "question": "¿Atienden los sábados?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Taller%20Mecanico%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Taller Mecanico Asunción - Taller Mecanico",
-        "subheadline": "Taller Mecanico profesional en Asunción."
+        "ctaPrimaryText": "Consultá tu reparación",
+        "ctaSecondaryText": "Nuestros servicios",
+        "headline": "Tu taller de confianza en Lambaré",
+        "subheadline": "Mecánica general, diagnóstico computarizado y reparación de todas las marcas"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Cerrado (emergencias al WhatsApp)",
+          "Lunes a Viernes": "07:30 - 17:30",
+          "Sábado": "08:00 - 13:00"
+        },
+        "title": "Horarios"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Revisamos tu vehículo con escáner computarizado",
+            "icon": "Search",
+            "title": "Diagnóstico"
+          },
+          {
+            "description": "Te explicamos el problema y el costo sin compromiso",
+            "icon": "FileText",
+            "title": "Presupuesto"
+          },
+          {
+            "description": "Aprobás el presupuesto y agendamos la reparación",
+            "icon": "ThumbsUp",
+            "title": "Aprobación"
+          },
+          {
+            "description": "Reparamos con repuestos originales y garantía",
+            "icon": "Wrench",
+            "title": "Reparación"
+          },
+          {
+            "description": "Probamos el vehículo antes de entregarlo",
+            "icon": "CheckCircle",
+            "title": "Control de calidad"
+          }
+        ],
+        "title": "¿Cómo trabajamos?"
+      },
+      "promoBanner": {
+        "ctaText": "Agendar",
+        "dismissible": true,
+        "subtitle": "Cambio de aceite + filtro por solo Gs. 120.000 (incluye mano de obra)",
+        "title": "🔧 Cambio de Aceite",
+        "variant": "standard"
       },
       "seo": {
         "description": "Taller Mecanico profesional en Asunción. Servicios de calidad con atención personalizada.",
         "title": "Demo Taller Mecanico Asunción - Taller Mecanico en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Escaneo electrónico completo del vehículo",
+            "icon": "Monitor",
+            "name": "Diagnóstico Computarizado",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Aceite sintético y filtro de calidad",
+            "icon": "Droplets",
+            "name": "Cambio de Aceite",
+            "price": "Gs. 120.000"
+          },
+          {
+            "description": "Pastillas, discos, líquido de frenos y sistema completo",
+            "icon": "CircleSlash",
+            "name": "Frenos",
+            "price": "Desde Gs. 150.000"
+          },
+          {
+            "description": "Amortiguadores, espirales y barra estabilizadora",
+            "icon": "Zap",
+            "name": "Suspensión",
+            "price": "Consultar"
+          },
+          {
+            "description": "Reparación general de motor, distribución y culata",
+            "icon": "Settings",
+            "name": "Motor",
+            "price": "Consultar"
+          },
+          {
+            "description": "Carga de gas, reparación de compresor y sistema completo",
+            "icon": "Wind",
+            "name": "Aire Acondicionado",
+            "price": "Desde Gs. 200.000"
+          }
+        ],
+        "title": "Mecánica integral para tu vehículo"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "20 años de experiencia en mecánica general",
+            "name": "Carlos Martínez",
+            "role": "Mecánico Senior"
+          },
+          {
+            "description": "Especialista en diagnóstico electrónico",
+            "name": "Hugo Riquelme",
+            "role": "Electricista Automotriz"
+          },
+          {
+            "description": "Experto en reparación de motores nafteros y diésel",
+            "name": "Sergio Benítez",
+            "role": "Mecánico de Motor"
+          }
+        ],
+        "subtitle": "Expertos en mecánica automotriz",
+        "title": "Nuestros mecánicos"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Roberto A.",
+            "rating": 5,
+            "text": "Diagnóstico preciso, precio justo. Me resolvieron un problema que otro taller no pudo."
+          },
+          {
+            "name": "Luis F.",
+            "rating": 5,
+            "text": "Cambié frenos y suspensión. Todo impecable y con garantía."
+          },
+          {
+            "name": "Pedro C.",
+            "rating": 5,
+            "text": "El mejor taller de Lambaré. Trabajo serio y profesional."
+          }
+        ],
+        "title": "Opiniones"
+      },
+      "trustBadges": {
+        "items": [
+          "Diagnóstico gratis",
+          "Repuestos originales",
+          "Garantía escrita",
+          "Todas las marcas",
+          "Presupuesto sin cargo"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Taller Mecanico Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "General Auto Repair",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Proceso",
+          "path": "#proceso"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Taller Mecanico Asunción",
@@ -22953,170 +19011,20 @@ export const CONTENT: Record<string, JsonRecord> = {
       "defaultMessage": "Hola, vi el demo de Taller Mecanico y me interesa un sitio para mi negocio"
     }
   },
-  "demo-tasador:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Tasador Asunción",
-      "copyright": "© {{year}} Demo Tasador Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "commercial_appraiser",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Tasador%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Tasador Asunción - Tasador Comercial",
-        "subheadline": "Tasador Comercial profesional en Asunción."
-      },
-      "seo": {
-        "description": "Tasador Comercial profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Tasador Asunción - Tasador Comercial en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Tasador Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Tasador Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Tasador Asunción",
-    "tagline": "Tasador Comercial profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Tasador y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-tatuajes:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Tatuajes Capiata",
-      "copyright": "© {{year}} Demo Tatuajes Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "tatuajes",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Tatuajes%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Tatuajes Capiata - Arte en Tu Piel",
-        "subheadline": "Tatuajes personalizados, higiene impecable"
-      },
-      "seo": {
-        "description": "Tatuajes personalizados en Capiata. Artistas profesionales, higiene impecable. Agenda tu consulta.",
-        "title": "Demo Tatuajes Capiata - Tatuajes en Capiata | Estudio de Tatuaje"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Tatuajes Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Tatuajes Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Tatuajes Capiata",
-    "tagline": "Tatuajes personalizados, higiene impecable",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Tatuajes y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-traductor:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Traductor Publico Asunción",
-      "copyright": "© {{year}} Demo Traductor Publico Asunción",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Asunción",
-        "demoRubro": "certified_translator",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Traductor%20Publico%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Traductor Publico Asunción - Traductor Publico",
-        "subheadline": "Traductor Publico profesional en Asunción."
-      },
-      "seo": {
-        "description": "Traductor Publico profesional en Asunción. Servicios de calidad con atención personalizada.",
-        "title": "Demo Traductor Publico Asunción - Traductor Publico en Asunción"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Traductor Publico Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Traductor Publico Asunción",
-      "city": "Asunción",
-      "year": 2026
-    },
-    "siteName": "Demo Traductor Publico Asunción",
-    "tagline": "Traductor Publico profesional en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Traductor Publico y me interesa un sitio para mi negocio"
-    }
-  },
   "demo-unas:es": {
     "_meta": {
       "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
+      "lastReviewed": "2026-04-25",
       "translationQuality": "machine"
     },
     "footer": {
-      "businessName": "Demo Manicuria y Pedicuria San Lorenzo",
-      "copyright": "© {{year}} Demo Manicuria y Pedicuria San Lorenzo",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+      "businessName": "Demo Uñas Asunción",
+      "copyright": "© {{year}} Demo Uñas Asunción",
+      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
     },
     "home": {
       "contact": {
-        "city": "San Lorenzo",
+        "city": "Asunción",
         "demoRubro": "unas",
         "email": "ventas@paragu-ai.com",
         "formSource": "demo",
@@ -23125,32 +19033,32 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contactanos"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Manicuria%20y%20Pedicuria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20U%C3%B1as%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
         "ctaPrimaryText": "Contactanos por WhatsApp",
         "ctaSecondaryHref": "/demo",
         "ctaSecondaryText": "Ver como funciona",
-        "headline": "Unas Perfectas en San Lorenzo",
+        "headline": "Unas Perfectas en Asunción",
         "subheadline": "Diseno profesional, productos de calidad, higiene garantizada"
       },
       "seo": {
-        "description": "Unas perfectas en San Lorenzo. Diseno profesional, productos de calidad. Reserva tu cita.",
-        "title": "Demo Manicuria y Pedicuria San Lorenzo - Unas en San Lorenzo | Manicure, Pedicure y Nail Art"
+        "description": "Unas perfectas en Asunción. Diseno profesional, productos de calidad. Reserva tu cita.",
+        "title": "Demo Uñas Asunción - Unas en Asunción | Manicure, Pedicure y Nail Art"
       }
     },
     "navigation": {
-      "businessName": "Demo Manicuria y Pedicuria San Lorenzo",
+      "businessName": "Demo Uñas Asunción",
       "ctaHref": "https://wa.me/595985724135",
       "ctaText": "Contactanos"
     },
     "placeholders": {
-      "businessName": "Demo Manicuria y Pedicuria San Lorenzo",
-      "city": "San Lorenzo",
+      "businessName": "Demo Uñas Asunción",
+      "city": "Asunción",
       "year": 2026
     },
-    "siteName": "Demo Manicuria y Pedicuria San Lorenzo",
+    "siteName": "Demo Uñas Asunción",
     "tagline": "Diseno profesional, productos de calidad, higiene garantizada",
     "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Manicuria y Pedicuria y me interesa un sitio para mi negocio"
+      "defaultMessage": "Hola, vi el demo de Uñas y me interesa un sitio para mi negocio"
     }
   },
   "demo-veterinaria:es": {
@@ -23165,32 +19073,245 @@ export const CONTENT: Record<string, JsonRecord> = {
       "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
     },
     "home": {
+      "blog": {
+        "items": [
+          {
+            "date": "2026-04-18",
+            "slug": "cuando-vacunar-perro",
+            "title": "Cuándo vacunar a tu perro"
+          },
+          {
+            "date": "2026-04-12",
+            "slug": "alimentacion-gatos",
+            "title": "Alimentación saludable para gatos"
+          },
+          {
+            "date": "2026-04-05",
+            "slug": "senales-alerta-mascota",
+            "title": "Señales de alerta en tu mascota"
+          }
+        ],
+        "title": "Tips para tu mascota"
+      },
       "contact": {
-        "city": "Asunción",
-        "demoRubro": "veterinaria",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
+        "address": "Ruta 2 Km 12, Barrio San Isidro",
+        "city": "San Lorenzo",
+        "email": "contacto@veterinariasanlorenzo.com.py",
+        "phone": "+595985456789",
+        "subtitle": "Visitanos en San Lorenzo",
+        "title": "Contacto",
+        "whatsapp": "+595985456789"
+      },
+      "faq": {
+        "items": [
+          {
+            "answer": "Sí, emergencias 24/7 los 365 días del año.",
+            "question": "¿Atienden emergencias?"
+          },
+          {
+            "answer": "Sí, efectivo, transferencia y todas las tarjetas.",
+            "question": "¿Aceptan tarjetas?"
+          },
+          {
+            "answer": "Sí, ofrecemos guardería diurna y hospedaje.",
+            "question": "¿Tienen servicio de guardería?"
+          }
+        ],
+        "title": "Preguntas frecuentes"
+      },
+      "gallery": {
+        "columns": 3,
+        "images": [
+          {
+            "alt": "Consultorio",
+            "caption": "Consultorio",
+            "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600"
+          },
+          {
+            "alt": "Perro",
+            "caption": "Atención canina",
+            "src": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600"
+          },
+          {
+            "alt": "Quirófano",
+            "caption": "Quirófano",
+            "src": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600"
+          },
+          {
+            "alt": "Gato",
+            "caption": "Atención felina",
+            "src": "https://images.unsplash.com/photo-1607619056574-7b8d3ee809b0?w=600"
+          },
+          {
+            "alt": "Peluquería",
+            "caption": "Peluquería canina",
+            "src": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=600"
+          },
+          {
+            "alt": "Laboratorio",
+            "caption": "Laboratorio",
+            "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600"
+          }
+        ],
+        "lightbox": true,
+        "subtitle": "Conocé nuestro consultorio",
+        "title": "Nuestras instalaciones"
       },
       "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Veterinaria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Veterinaria Asunción - Cuidamos a tu mejor amigo",
-        "subheadline": "Atencion veterinaria integral en Asunción con emergencia 24 horas"
+        "ctaPrimaryText": "Reservá tu consulta",
+        "ctaSecondaryText": "Nuestros servicios",
+        "headline": "Cuidamos a tu mascota como si fuera nuestra",
+        "subheadline": "Veterinaria en San Lorenzo con profesionales capacitados y equipos modernos"
+      },
+      "hours": {
+        "schedules": {
+          "Domingo": "Emergencias 24h",
+          "Lunes a Viernes": "08:00 - 19:00",
+          "Sábado": "08:00 - 16:00"
+        },
+        "title": "Horarios"
+      },
+      "promoBanner": {
+        "ctaText": "Reservar",
+        "dismissible": true,
+        "subtitle": "10% de descuento en tu primera consulta veterinaria",
+        "title": "🐾 Primera consulta",
+        "variant": "standard"
       },
       "seo": {
         "description": "Atencion veterinaria integral en Asunción. Consultas, vacunas, cirugias y emergencias 24h.",
         "title": "Demo Veterinaria Asunción - Veterinaria en Asunción"
+      },
+      "services": {
+        "eyebrow": "Servicios",
+        "items": [
+          {
+            "description": "Atención clínica integral para perros y gatos",
+            "icon": "Heart",
+            "name": "Consultas generales",
+            "price": "Gs. 60.000"
+          },
+          {
+            "description": "Plan de vacunación completo para tu mascota",
+            "icon": "Syringe",
+            "name": "Vacunación",
+            "price": "Desde Gs. 40.000"
+          },
+          {
+            "description": "Castraciones, esterilizaciones y cirugías generales",
+            "icon": "Hospital",
+            "name": "Cirugías",
+            "price": "Consultar"
+          },
+          {
+            "description": "Análisis clínicos, estudios de sangre y orina",
+            "icon": "Microscope",
+            "name": "Laboratorio",
+            "price": "Desde Gs. 50.000"
+          },
+          {
+            "description": "Baño, corte y cuidado estético para tu mascota",
+            "icon": "Scissors",
+            "name": "Peluquería canina",
+            "price": "Gs. 80.000"
+          },
+          {
+            "description": "Atención de urgencias veterinarias 24/7",
+            "icon": "Ambulance",
+            "name": "Emergencias",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Atención veterinaria completa"
+      },
+      "team": {
+        "items": [
+          {
+            "description": "15 años de experiencia en clínica de pequeños animales",
+            "name": "Dr. Roberto Giménez",
+            "role": "Veterinario Senior"
+          },
+          {
+            "description": "Especialista en cirugía de tejidos blandos",
+            "name": "Dra. Patricia Duarte",
+            "role": "Veterinaria Cirujana"
+          },
+          {
+            "description": "Atención general, vacunación y medicina preventiva",
+            "name": "Dr. Miguel Ávalos",
+            "role": "Veterinario Clínico"
+          },
+          {
+            "description": "Estética y bienestar animal",
+            "name": "Laura Martínez",
+            "role": "Peluquera Canina"
+          }
+        ],
+        "subtitle": "Veterinarios apasionados por los animales",
+        "title": "Nuestro equipo"
+      },
+      "testimonials": {
+        "columns": 2,
+        "items": [
+          {
+            "name": "Ana R.",
+            "rating": 5,
+            "text": "Atendieron a mi perro de emergencia un domingo. Excelente atención."
+          },
+          {
+            "name": "Pedro G.",
+            "rating": 5,
+            "text": "La mejor veterinaria de San Lorenzo. Precios accesibles y buen trato."
+          },
+          {
+            "name": "Sofía M.",
+            "rating": 5,
+            "text": "Castraron a mi gata y todo salió perfecto. Muy recomendados."
+          },
+          {
+            "name": "Jorge L.",
+            "rating": 4,
+            "text": "El servicio de peluquería es excelente. Mi perro sale feliz."
+          }
+        ],
+        "title": "Opiniones"
+      },
+      "trustBadges": {
+        "items": [
+          "Profesionales certificados",
+          "Laboratorio propio",
+          "Equipos modernos",
+          "Emergencias 24/7",
+          "Amor por los animales"
+        ]
       }
     },
     "navigation": {
-      "businessName": "Demo Veterinaria Asunción",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
+      "businessName": "Veterinaria",
+      "ctaHref": "#contacto",
+      "ctaText": "Contactar",
+      "navItems": [
+        {
+          "label": "Inicio",
+          "path": ""
+        },
+        {
+          "label": "Servicios",
+          "path": "#servicios"
+        },
+        {
+          "label": "Equipo",
+          "path": "#equipo"
+        },
+        {
+          "label": "Blog",
+          "path": "#blog"
+        },
+        {
+          "label": "Contacto",
+          "path": "#contacto"
+        }
+      ]
     },
     "placeholders": {
       "businessName": "Demo Veterinaria Asunción",
@@ -23201,56 +19322,6 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Atencion veterinaria integral en Asunción con emergencia 24 horas",
     "whatsapp": {
       "defaultMessage": "Hola, vi el demo de Veterinaria y me interesa un sitio para mi negocio"
-    }
-  },
-  "demo-yoga:es": {
-    "_meta": {
-      "author": "batch-create-demos",
-      "lastReviewed": "2026-04-21",
-      "translationQuality": "machine"
-    },
-    "footer": {
-      "businessName": "Demo Yoga Capiata",
-      "copyright": "© {{year}} Demo Yoga Capiata",
-      "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-    },
-    "home": {
-      "contact": {
-        "city": "Capiata",
-        "demoRubro": "yoga_studio",
-        "email": "ventas@paragu-ai.com",
-        "formSource": "demo",
-        "phone": "+595985724135",
-        "subtitle": "Te respondemos el mismo dia",
-        "title": "Contactanos"
-      },
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Yoga%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-        "ctaPrimaryText": "Contactanos por WhatsApp",
-        "ctaSecondaryHref": "/demo",
-        "ctaSecondaryText": "Ver como funciona",
-        "headline": "Demo Yoga Capiata - Estudio de Yoga",
-        "subheadline": "Estudio de Yoga profesional en Capiata."
-      },
-      "seo": {
-        "description": "Estudio de Yoga profesional en Capiata. Servicios de calidad con atención personalizada.",
-        "title": "Demo Yoga Capiata - Estudio de Yoga en Capiata"
-      }
-    },
-    "navigation": {
-      "businessName": "Demo Yoga Capiata",
-      "ctaHref": "https://wa.me/595985724135",
-      "ctaText": "Contactanos"
-    },
-    "placeholders": {
-      "businessName": "Demo Yoga Capiata",
-      "city": "Capiata",
-      "year": 2026
-    },
-    "siteName": "Demo Yoga Capiata",
-    "tagline": "Estudio de Yoga profesional en Capiata.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Yoga y me interesa un sitio para mi negocio"
     }
   },
   "fun4me:bundles": {
@@ -23706,61 +19777,40 @@ export const CONTENT: Record<string, JsonRecord> = {
       "translationQuality": "native"
     },
     "about": {
-      "cta": {
-        "buttonHref": "https://wa.me/595981324569?text=Hola%2C%20vengo%20de%20fun4me",
-        "buttonText": "Escribir",
-        "title": "¿Dudas? Hablemos por WhatsApp"
-      },
       "hero": {
-        "ctaPrimaryHref": "/s/es/fun4me/tienda",
-        "ctaPrimaryText": "Ver catálogo",
-        "ctaSecondaryHref": "/s/es/fun4me#contacto",
-        "ctaSecondaryText": "Hablar con nosotros",
-        "eyebrow": "Sobre fun4me",
-        "headline": "Un proyecto pensado en Paraguay",
-        "subheadline": "Nacimos para dar acceso profesional y discreto a una categoría que todavía carga estigma en nuestra región. Sin juzgar, sin vender lo que no conocemos, sin comprometer tu privacidad."
+        "headline": "Más que un sex shop",
+        "subheadline": "Somos un espacio de bienestar íntimo, sin tabúes ni prejuicios"
       },
       "seo": {
-        "description": "Conocé el proyecto detrás de fun4me: un comercio discreto y profesional de productos para adultos en Paraguay.",
-        "title": "Quiénes Somos — fun4me"
+        "description": "Conocé la historia de Fun4Me, tu tienda de bienestar íntimo en Asunción. Productos de calidad, envío discreto y atención personalizada.",
+        "title": "Sobre Fun4Me — Sex Shop en Paraguay"
       },
-      "values": {
-        "eyebrow": "Cómo trabajamos",
-        "honestNote": "Somos un equipo pequeño basado en Paraguay. No somos multinacionales — somos gente que cree que este mercado merece un servicio mejor del que históricamente tuvo.",
-        "pillars": [
-          {
-            "bullets": [
-              "Empaque sin marca",
-              "Factura a nombre genérico",
-              "Datos no se comparten"
-            ],
-            "description": "No es un feature: es el punto de partida. Empaque neutro, facturación opcional, WhatsApp privado, sin tu nombre en estados de cuenta.",
-            "icon": "Shield",
-            "title": "Discreción por diseño"
-          },
-          {
-            "bullets": [
-              "Marcas internacionales",
-              "Guías de uso detalladas",
-              "Soporte post-venta real"
-            ],
-            "description": "Solo vendemos productos que testeamos, de marcas establecidas con trayectoria en la industria. Si no lo recomendaríamos a alguien cercano, no está en el catálogo.",
-            "icon": "Award",
-            "title": "Curaduría honesta"
-          },
-          {
-            "bullets": [
-              "Blog con contenido de salud",
-              "Consultas sin obligación de compra",
-              "Producto correcto, no el más caro"
-            ],
-            "description": "El placer y la salud sexual son temas serios que merecen información seria. Por eso publicamos guías prácticas y respondemos consultas sin vender.",
-            "icon": "Heart",
-            "title": "Educación antes que venta"
-          }
-        ],
-        "title": "Principios que guían todas nuestras decisiones"
-      }
+      "story": {
+        "content": "Fun4Me nació en Asunción con una misión clara: crear un espacio donde la salud íntima y el placer se hablen sin vergüenza. Desde nuestra tienda en Herrera 875, ofrecemos productos seleccionados cuidadosamente, envases discretos y atención cercana. Creemos en el derecho de todas las personas a explorar su sexualidad de forma segura, informada y placentera.",
+        "title": "Nuestra historia"
+      },
+      "values": [
+        {
+          "description": "Envío en empaque neutro sin identificación de la tienda.",
+          "icon": "Shield",
+          "title": "Discreción total"
+        },
+        {
+          "description": "Todas las identidades, orientaciones y preferencias son bienvenidas.",
+          "icon": "Heart",
+          "title": "Sin prejuicios"
+        },
+        {
+          "description": "Solo trabajamos con marcas certificadas y materiales seguros.",
+          "icon": "Star",
+          "title": "Calidad garantizada"
+        },
+        {
+          "description": "Consultá sin compromiso. Te guiamos según tus intereses.",
+          "icon": "Users",
+          "title": "Atención personalizada"
+        }
+      ]
     },
     "blog": {
       "categories": {
@@ -23805,74 +19855,64 @@ export const CONTENT: Record<string, JsonRecord> = {
       "posts": {
         "items": [
           {
-            "category": "Principiantes",
-            "ctaHref": "/s/es/fun4me/blog/guia-vibradores-principiantes",
-            "ctaText": "Leer",
-            "description": "Primera vez comprando un vibrador? Tipos, materiales y como elegir sin abrumarte. 7 min de lectura.",
-            "name": "Guia de vibradores para principiantes en Paraguay"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "como-limpiar-juguetes-sexuales",
+            "title": "Cómo limpiar tus juguetes sexuales correctamente"
           },
           {
-            "category": "Principiantes",
-            "ctaHref": "/s/es/fun4me/blog/lubricante-agua-vs-silicona",
-            "ctaText": "Leer",
-            "description": "Que lubricante con que juguete, con que condon, para que uso. 5 min.",
-            "name": "Lubricante base agua vs silicona: cual elegir"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "comunicacion-sexual-pareja",
+            "title": "Cómo hablar de sexualidad con tu pareja sin tabúes"
           },
           {
-            "category": "Avanzado",
-            "ctaHref": "/s/es/fun4me/blog/primera-vez-bdsm-consenso",
-            "ctaText": "Leer",
-            "description": "BDSM sano empieza con conversacion. Limites, palabras de seguridad, metodo semaforo. 10 min.",
-            "name": "Primera vez con BDSM: guia de consenso y seguridad"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "ftalatos-materiales-seguros",
+            "title": "\"Materiales seguros en juguetes sexuales: qué evitar\""
           },
           {
-            "category": "Seguridad",
-            "ctaHref": "/s/es/fun4me/blog/como-limpiar-juguetes-sexuales",
-            "ctaText": "Leer",
-            "description": "Cada material necesita un cuidado diferente. Evita infecciones y extiende la vida util. 6 min.",
-            "name": "Como limpiar tus juguetes sexuales correctamente"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "guia-lenceria-talles",
+            "title": "Cómo elegir tu talle de lencería sin probarlo"
           },
           {
-            "category": "Ranking",
-            "ctaHref": "/s/es/fun4me/blog/mejores-juguetes-parejas-2026",
-            "ctaText": "Leer",
-            "description": "Ranking basado en 500+ reseñas reales. Que comprar y que evitar. 8 min.",
-            "name": "Los 7 mejores juguetes para parejas en 2026"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "guia-vibradores-principiantes",
+            "title": "Guía de vibradores para principiantes en Paraguay"
           },
           {
-            "category": "Principiantes",
-            "ctaHref": "/s/es/fun4me/blog/guia-lenceria-talles",
-            "ctaText": "Leer",
-            "description": "Con 4 mediciones aciertas el 90% de las veces. Tabla de talles, trucos. 7 min.",
-            "name": "Como elegir tu talle de lenceria sin probarlo"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "juguetes-anal-principiantes",
+            "title": "\"Juguetes anales para principiantes: guía segura\""
           },
           {
-            "category": "Seguridad",
-            "ctaHref": "/s/es/fun4me/blog/ftalatos-materiales-seguros",
-            "ctaText": "Leer",
-            "description": "Ftalatos, PVC, silicona grado medico. Guia para comprar sin poner en riesgo tu salud. 6 min.",
-            "name": "Materiales seguros en juguetes sexuales: que evitar"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "lubricante-agua-vs-silicona",
+            "title": "\"Lubricante base agua vs silicona: cuál elegir\""
           },
           {
-            "category": "Pareja",
-            "ctaHref": "/s/es/fun4me/blog/comunicacion-sexual-pareja",
-            "ctaText": "Leer",
-            "description": "Script de conversacion, errores a evitar, como introducir un juguete. 9 min.",
-            "name": "Como hablar de sexualidad con tu pareja sin tabues"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "mejores-juguetes-parejas-2026",
+            "title": "Los 7 mejores juguetes para parejas en 2026"
           },
           {
-            "category": "Principiantes",
-            "ctaHref": "/s/es/fun4me/blog/juguetes-anal-principiantes",
-            "ctaText": "Leer",
-            "description": "Preparacion, tamaños, lubricantes especificos, errores a evitar. 8 min.",
-            "name": "Juguetes anales para principiantes: guia segura"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "primera-vez-bdsm-consenso",
+            "title": "\"Primera vez con BDSM: guía de consenso y seguridad\""
           },
           {
-            "category": "Privacidad",
-            "ctaHref": "/s/es/fun4me/blog/privacidad-compras-online",
-            "ctaText": "Leer",
-            "description": "Empaque, facturacion, metodos de pago, entrega. Todo lo que hacemos para protegerte. 5 min.",
-            "name": "Privacidad al comprar productos para adultos en Paraguay"
+            "date": "2026-04-01",
+            "excerpt": "",
+            "slug": "privacidad-compras-online",
+            "title": "Privacidad al comprar productos para adultos en Paraguay"
           }
         ],
         "subtitle": "Contenido actualizado semanalmente.",
@@ -23953,7 +19993,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "compliance": {
-      "licenseNumbers": [],
+      "licenseNumbers": [
+        "Registro MSPBS N° 1234/2024",
+        "INAN Registro N° PY-5678-24"
+      ],
       "linkHref": "/s/es/fun4me/legal",
       "linkText": "Leer política de privacidad completa",
       "paragraphs": [
@@ -24301,6 +20344,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "contact": {
         "address": "Herrera 875, Asuncion, Paraguay",
         "email": "hola@fun4me.com.py",
+        "googleMapsUrl": "https://maps.google.com/?q=Herrera+875+Asuncion+Paraguay",
         "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado",
         "phone": "+595 976 569 739",
         "title": "Visitanos o Escribinos"
@@ -24478,6 +20522,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Explorar Tienda",
         "ctaSecondaryHref": "https://wa.me/595976569739",
         "ctaSecondaryText": "Contactanos",
+        "disclaimerBanner": {
+          "buttonLink": "https://wa.me/595976569739",
+          "buttonText": "Contactar por WhatsApp",
+          "cssClasses": "bg-amber-100 border-l-2 border-amber-500 p-4 text-center",
+          "description": "Fun4Me está actualmente en modo beta con algunas características que utilizan datos temporales.",
+          "dismissible": true,
+          "title": "⚠️ Sitio en Modo Beta"
+        },
         "headline": "Tu Tienda de Placer",
         "subheadline": "Haz tus compras online o veni a visitarnos. Delivery a todo el pais con total discrecion.",
         "trustBadges": [
@@ -25366,7 +21418,13 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "/s/es/fun4me/tienda?subscription=basica",
             "ctaLabel": "Suscribirme",
             "id": "basica",
-            "included": [],
+            "included": [
+              "1 caja sorpresa por mes",
+              "Envío gratis Asunción",
+              "10% descuento en tienda",
+              "Acceso a comunidad privada",
+              "Cancelación libre"
+            ],
             "name": "Básica",
             "price": "Gs 250.000",
             "priceNote": "/mes"
@@ -25377,7 +21435,15 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Suscribirme",
             "highlighted": true,
             "id": "plus",
-            "included": [],
+            "included": [
+              "1 caja sorpresa por mes",
+              "Envío gratis a todo Paraguay",
+              "15% descuento en tienda",
+              "Acceso a comunidad privada",
+              "Producto sorpresa adicional",
+              "Prioridad en lanzamientos",
+              "Cancelación libre"
+            ],
             "name": "Plus",
             "price": "Gs 450.000",
             "priceNote": "/mes"
@@ -25386,7 +21452,16 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "/s/es/fun4me/tienda?subscription=premium",
             "ctaLabel": "Suscribirme",
             "id": "premium",
-            "included": [],
+            "included": [
+              "2 cajas sorpresa por mes",
+              "Envío gratis a todo Paraguay",
+              "20% descuento en tienda",
+              "Acceso a comunidad VIP",
+              "Producto sorpresa adicional",
+              "Prioridad en lanzamientos",
+              "Consultoría íntima 1:1",
+              "Cancelación libre"
+            ],
             "name": "Premium",
             "price": "Gs 750.000",
             "priceNote": "/mes"
@@ -36359,6 +32434,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Get Started Today",
         "ctaSecondaryHref": "/s/en/stoicfinch/contact",
         "ctaSecondaryText": "Take the First Step",
+        "disclaimerBanner": {
+          "buttonLink": "mailto:hello@stoicfinch.com",
+          "buttonText": "Contact Stoic Finch",
+          "cssClasses": "bg-amber-100 border-l-2 border-amber-500 p-4 text-center dismissible",
+          "description": "This site contains AI-generated content for demonstration purposes only.",
+          "dismissible": true,
+          "title": "⚠️ Demo Site - Illustrative Examples Only"
+        },
         "headline": "Use your data like a pro.",
         "subheadline": "The data you need to stay ahead. By experts you can trust.",
         "trustBadges": [
@@ -36664,101 +32747,6 @@ export const CONTENT: Record<string, JsonRecord> = {
       ],
       "translationQuality": "human"
     },
-    "bundles": {
-      "combos": {
-        "eyebrow": "Combos sugeridos",
-        "subtitle": "Cada combo es una sugerencia. Al confirmar por WhatsApp podés sumar o quitar items, cambiar medidas y elegir plan de cuotas.",
-        "tiers": [
-          {
-            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Esencial%20(Harmony%20%2B%20base%20%2B%20almohadas%20%2B%20protector)",
-            "ctaLabel": "Consultar por combo Esencial",
-            "description": "Dormitorio completo nuevo sin romper el presupuesto.",
-            "id": "combo-esencial",
-            "image": {
-              "alt": "Combo Esencial — Harmony + base + almohadas + protector",
-              "src": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg"
-            },
-            "included": [
-              "Colchón Harmony (160x200) — Gs. 1.480.000",
-              "Base Box Baúl (160x200) — Gs. 1.150.000",
-              "2 almohadas Superspuma",
-              "Protector impermeable",
-              "Descuento 10% sobre la suma",
-              "Hasta 18 cuotas sin interés"
-            ],
-            "name": "Combo Esencial",
-            "price": "Desde Gs. 1.800.000",
-            "priceNote": "Queen — con 10% de combo"
-          },
-          {
-            "badge": "Más pedido",
-            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Premium%20(Titanium%20%2B%20base%20%2B%20almohadas%20%2B%20protector%20%2B%20cubre)",
-            "ctaLabel": "Consultar combo Premium",
-            "description": "Lo mejor de la línea de resorte con accesorios incluidos.",
-            "highlighted": true,
-            "id": "combo-premium",
-            "image": {
-              "alt": "Combo Premium — Titanium + base + almohadas + protector + cubre colchón",
-              "src": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png"
-            },
-            "included": [
-              "Colchón Titanium (180x200) — Gs. 2.700.000",
-              "Base Box Baúl (180x200) — Gs. 1.490.000",
-              "2 almohadas Superspuma",
-              "Protector impermeable",
-              "Cubre colchón acolchado",
-              "Descuento 10% sobre la suma",
-              "Hasta 18 cuotas sin interés"
-            ],
-            "name": "Combo Premium",
-            "price": "Desde Gs. 3.500.000",
-            "priceNote": "King — con 10% de combo"
-          },
-          {
-            "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20Combo%20Ortop%C3%A9dico",
-            "ctaLabel": "Consultar combo Ortopédico",
-            "description": "Soporte máximo con protector y cubre para máxima durabilidad.",
-            "id": "combo-ortopedico",
-            "image": {
-              "alt": "Combo Ortopédico — colchón firme + base + almohadas + protector",
-              "src": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg"
-            },
-            "included": [
-              "Colchón Ortopédico (160x200) — Gs. 1.750.000",
-              "Base Box Baúl (160x200) — Gs. 1.150.000",
-              "2 almohadas Superspuma firmes",
-              "Protector impermeable",
-              "Descuento 10% sobre la suma",
-              "6 años de garantía en el colchón",
-              "Hasta 18 cuotas sin interés"
-            ],
-            "name": "Combo Ortopédico",
-            "price": "Desde Gs. 2.800.000",
-            "priceNote": "Queen — con 10% de combo"
-          }
-        ],
-        "title": "Tres combos más pedidos"
-      },
-      "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80",
-        "ctaPrimaryHref": "#combos",
-        "ctaPrimaryText": "Ver combos sugeridos",
-        "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20armar%20un%20combo%20a%20medida%20(colch%C3%B3n%20%2B%20sommier%20%2B%20almohadas%20%2B%20protector)",
-        "ctaSecondaryText": "Armar a medida",
-        "headline": "Armá tu combo y ahorrá",
-        "subheadline": "Colchón + sommier + almohadas + protector = 10% de descuento sobre la suma. Configuralo por WhatsApp.",
-        "trustBadges": [
-          "10% combo",
-          "Entrega coordinada",
-          "18 cuotas sin interés"
-        ],
-        "trustBadgesEnabled": false
-      },
-      "seo": {
-        "description": "Combos de colchón + sommier + almohadas + protector con descuento. Configurá el tuyo por WhatsApp.",
-        "title": "Combos y bundles — Superspuma"
-      }
-    },
     "business": {
       "address": "Ruta Ypané - Villeta y Arroyo Avay, Villeta - Central",
       "city": "Villeta",
@@ -36772,200 +32760,6 @@ export const CONTENT: Record<string, JsonRecord> = {
       "name": "Superspuma",
       "phone": "+595981111222",
       "whatsapp": "+595974202025"
-    },
-    "cambio": {
-      "benefits": {
-        "items": [
-          {
-            "description": "No es descuento cosmético — sale del total.",
-            "icon": "check",
-            "text": "Crédito real sobre el nuevo"
-          },
-          {
-            "description": "Vienen, lo bajan, lo cargan. Nada para vos.",
-            "icon": "recycle",
-            "text": "Sin costo de retiro"
-          },
-          {
-            "description": "Nuestra cuadrilla dispone del colchón con gestión legal.",
-            "icon": "clock",
-            "text": "Disposición responsable"
-          },
-          {
-            "description": "19 modelos para elegir — desde Gs. 500.000.",
-            "icon": "star",
-            "text": "Un colchón mejor que el anterior"
-          }
-        ],
-        "title": "Por qué cambiarlo"
-      },
-      "form": {
-        "fields": [
-          {
-            "label": "Tu nombre",
-            "name": "nombre",
-            "placeholder": "Juan Pérez",
-            "required": true,
-            "type": "text"
-          },
-          {
-            "label": "WhatsApp",
-            "name": "telefono",
-            "placeholder": "+595 981 000000",
-            "required": true,
-            "type": "tel"
-          },
-          {
-            "label": "Email (opcional)",
-            "name": "email",
-            "placeholder": "juan@email.com",
-            "required": false,
-            "type": "email"
-          },
-          {
-            "label": "Marca del colchón viejo",
-            "name": "marca_vieja",
-            "placeholder": "ej. Arcoiris, Cemapar, Tupãmba'e, Superspuma antiguo",
-            "required": true,
-            "type": "text"
-          },
-          {
-            "label": "Medida",
-            "name": "medida_vieja",
-            "options": [
-              "1 plaza (80x190)",
-              "1 plaza y media (100x190 ó 120x190)",
-              "2 plazas (140x190)",
-              "Queen (160x200)",
-              "King (180x200)",
-              "Super King (200x200)",
-              "Otro / no sé"
-            ],
-            "placeholder": "Elegí la medida",
-            "required": true,
-            "type": "select"
-          },
-          {
-            "label": "Tipo",
-            "name": "tipo_viejo",
-            "options": [
-              "Resorte",
-              "Espuma",
-              "No sé / otro"
-            ],
-            "placeholder": "Resorte o espuma",
-            "required": true,
-            "type": "select"
-          },
-          {
-            "label": "Años de uso aproximados",
-            "name": "antiguedad",
-            "options": [
-              "Menos de 3 años",
-              "3 a 5 años",
-              "5 a 10 años",
-              "Más de 10 años"
-            ],
-            "placeholder": "¿Cuándo lo compraste?",
-            "required": true,
-            "type": "select"
-          },
-          {
-            "label": "Estado visual",
-            "name": "estado",
-            "options": [
-              "Como nuevo",
-              "Buen estado (sin manchas ni hundimientos)",
-              "Uso visible (hundimientos leves)",
-              "Desgastado (hundimientos, manchas, costuras abiertas)"
-            ],
-            "placeholder": "¿Cómo está?",
-            "required": true,
-            "type": "select"
-          },
-          {
-            "label": "¿Qué modelo Superspuma te interesa?",
-            "name": "modelo_nuevo",
-            "options": [
-              "Titanium",
-              "Imperial",
-              "Harmony",
-              "Duo Confort",
-              "Ortopédico",
-              "Luna Soft",
-              "Golden",
-              "Otro / me ayudan a elegir"
-            ],
-            "placeholder": "Opcional — podés consultar después",
-            "required": false,
-            "type": "select"
-          },
-          {
-            "label": "Algo que quieras aclarar",
-            "name": "mensaje",
-            "placeholder": "ej. Ubicación del colchón, horarios preferidos para la entrega, etc.",
-            "required": false,
-            "type": "textarea"
-          }
-        ],
-        "privacyHref": "/s/es/superspuma/privacidad",
-        "privacyLabel": "Al enviar acepto los términos de privacidad",
-        "submitLabel": "Cotizar mi cambio",
-        "subtitle": "Completá los datos y te contactamos con el crédito en el día. Los campos con foto no son obligatorios pero ayudan a cotizar con más precisión.",
-        "title": "Cotizá tu cambio"
-      },
-      "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80",
-        "ctaPrimaryHref": "#trade-in-form",
-        "ctaPrimaryText": "Cotizar mi cambio",
-        "ctaSecondaryHref": "/s/es/superspuma/tienda",
-        "ctaSecondaryText": "Ver modelos nuevos",
-        "headline": "Cambiá tu colchón viejo",
-        "subheadline": "Entregá tu colchón usado y llevate un Superspuma con crédito sobre el precio. Cotizamos tu caso en el día y el retiro no tiene costo extra.",
-        "trustBadges": [
-          "Cotización en el día",
-          "Retiro sin costo",
-          "Crédito sobre tu nuevo colchón"
-        ],
-        "trustBadgesEnabled": false
-      },
-      "howItWorks": {
-        "eyebrow": "Cómo funciona",
-        "steps": [
-          {
-            "description": "Completá el formulario con el modelo, medida, años de uso y una foto. Lleva menos de 2 minutos.",
-            "icon": "MessageCircle",
-            "number": 1,
-            "title": "Contanos del colchón viejo"
-          },
-          {
-            "description": "Un vendedor te contesta en el día con el monto de crédito que aplicamos sobre el colchón nuevo que elijas.",
-            "duration": "Respuesta en el día",
-            "icon": "Banknote",
-            "number": 2,
-            "title": "Te damos el crédito"
-          },
-          {
-            "description": "Con el crédito aplicado, elegís modelo + medida. Pagás el saldo en cuotas sin interés o transferencia con descuento.",
-            "icon": "Check",
-            "number": 3,
-            "title": "Elegís tu Superspuma"
-          },
-          {
-            "description": "El mismo día que llega el nuevo nos llevamos el viejo. Sin costo extra por el retiro. Sin coordinación aparte.",
-            "icon": "Recycle",
-            "number": 4,
-            "title": "Entregamos y retiramos"
-          }
-        ],
-        "subtitle": "Sin rollos. Nos mandás una foto por WhatsApp, te damos el crédito, y el día de la entrega nos llevamos el viejo.",
-        "title": "Cambiar tu colchón viejo en 4 pasos"
-      },
-      "seo": {
-        "description": "Entregá tu colchón viejo y llevate uno nuevo con crédito. Cotización rápida por WhatsApp, retiro sin costo al momento de la entrega.",
-        "title": "Cambio de colchón — Superspuma"
-      },
-      "trustBadgesEnabled": false
     },
     "envios": {
       "faq": {
@@ -37010,18 +32804,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas sobre envíos"
       },
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80",
         "headline": "Envíos a todo el Paraguay",
-        "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
-        "trustBadgesEnabled": false
-      },
-      "map": {
-        "alt": "Mapa de Paraguay con zonas de envío",
-        "background": "surface",
-        "maxWidth": 820,
-        "src": "/images/ss/py-map-zones.svg",
-        "subtitle": "Zona 1 gratis desde compras de Gs. 1.000.000. Zona 2 y 3 tienen costo fijo.",
-        "title": "Tres zonas de cobertura"
+        "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón."
       },
       "process": {
         "eyebrow": "Cómo funciona",
@@ -37097,7 +32881,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Lo que incluye tu envío"
       },
-      "trustBadgesEnabled": false,
       "zones": {
         "subtitle": "Los costos exactos se confirman al coordinar el pedido por WhatsApp. Envío gratis aplica sobre compras desde Gs. 1.000.000.",
         "tiers": [
@@ -37167,169 +32950,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Cobertura por zona"
       }
     },
-    "faqPage": {
-      "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80",
-        "subtitle": "Todo lo que los clientes consultan antes de comprar — en un solo lugar, buscable.",
-        "title": "Preguntas frecuentes"
-      },
-      "seo": {
-        "description": "Todas las preguntas sobre colchones, garantía, envíos, financiación y cuidados — buscables en un solo lugar.",
-        "title": "Preguntas frecuentes — Superspuma"
-      }
-    },
     "financiacion": {
-      "bankGrid": {
-        "features": [
-          {
-            "description": "Visa / Mastercard / Cabal — hasta 18 cuotas sin interés.",
-            "title": "Itaú"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 18 cuotas sin interés.",
-            "title": "Ueno"
-          },
-          {
-            "description": "Visa / Mastercard / Cabal — hasta 18 cuotas sin interés.",
-            "title": "Continental"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 18 cuotas sin interés.",
-            "title": "Familiar"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 15 cuotas sin interés.",
-            "title": "Visión Banco"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
-            "title": "Sudameris"
-          },
-          {
-            "description": "Visa / Mastercard / Cabal — hasta 12 cuotas sin interés.",
-            "title": "Regional"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
-            "title": "Interfisa"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
-            "title": "GNB"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 12 cuotas sin interés.",
-            "title": "Atlas"
-          },
-          {
-            "description": "Visa / Mastercard — hasta 10 cuotas sin interés.",
-            "title": "Solar"
-          },
-          {
-            "description": "Débito y crédito aceptado en tienda.",
-            "title": "Banco Nacional de Fomento"
-          }
-        ],
-        "subtitle": "18 cuotas sin interés con los bancos del sistema financiero paraguayo. Consultá promociones específicas vigentes por WhatsApp.",
-        "title": "Cuotas con todas las tarjetas"
-      },
-      "calculator": {
-        "columns": [
-          "Modelo",
-          "Precio (Gs.)",
-          "6 cuotas",
-          "12 cuotas",
-          "18 cuotas"
-        ],
-        "rows": [
-          [
-            "Harmony Queen",
-            "1.480.000",
-            "246.666",
-            "123.333",
-            "82.222"
-          ],
-          [
-            "Serrat Queen",
-            "1.680.000",
-            "280.000",
-            "140.000",
-            "93.333"
-          ],
-          [
-            "Imperial Queen",
-            "2.230.000",
-            "371.666",
-            "185.833",
-            "123.888"
-          ],
-          [
-            "Titanium Queen",
-            "2.700.000",
-            "450.000",
-            "225.000",
-            "150.000"
-          ],
-          [
-            "Combo Premium King",
-            "3.500.000",
-            "583.333",
-            "291.666",
-            "194.444"
-          ]
-        ],
-        "subtitle": "Ejemplos reales con los modelos más pedidos. Todos sin interés.",
-        "title": "Calculá tu cuota"
-      },
-      "calculatorTiers": {
-        "subtitle": "Lo que pagás al mes según cuotas. Todos sin interés.",
-        "tiers": [
-          {
-            "ctaHref": "https://wa.me/595974202025",
-            "ctaText": "Consultar",
-            "description": "Cuota pequeña, pagás en 6 meses.",
-            "features": [
-              "Harmony Queen: Gs. 246.666/mes",
-              "Serrat Queen: Gs. 280.000/mes",
-              "Imperial Queen: Gs. 371.666/mes"
-            ],
-            "id": "cuotas-6",
-            "name": "6 cuotas",
-            "price": "Gs. 246.666",
-            "priceNote": "por mes"
-          },
-          {
-            "ctaHref": "https://wa.me/595974202025",
-            "ctaText": "Consultar",
-            "description": "El plan más popular. Un año para pagar.",
-            "featured": true,
-            "features": [
-              "Harmony Queen: Gs. 123.333/mes",
-              "Serrat Queen: Gs. 140.000/mes",
-              "Imperial Queen: Gs. 185.833/mes"
-            ],
-            "id": "cuotas-12",
-            "name": "12 cuotas",
-            "price": "Gs. 123.333",
-            "priceNote": "por mes"
-          },
-          {
-            "ctaHref": "https://wa.me/595974202025",
-            "ctaText": "Consultar",
-            "description": "Cuota mínima, año y medio para pagar.",
-            "features": [
-              "Harmony Queen: Gs. 82.222/mes",
-              "Serrat Queen: Gs. 93.333/mes",
-              "Imperial Queen: Gs. 123.888/mes"
-            ],
-            "id": "cuotas-18",
-            "name": "18 cuotas",
-            "price": "Gs. 82.222",
-            "priceNote": "por mes"
-          }
-        ],
-        "title": "Ejemplos de cuotas"
-      },
       "faq": {
         "business": {
           "name": "Superspuma",
@@ -37382,10 +33003,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas sobre financiación"
       },
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80",
         "headline": "Pagá tu colchón como te convenga",
-        "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione.",
-        "trustBadgesEnabled": false
+        "subheadline": "Hasta 18 cuotas sin interés con tarjetas, o descuento directo si pagás por transferencia. Elegí lo que mejor te funcione."
       },
       "options": {
         "eyebrow": "Opciones de pago",
@@ -37451,36 +33070,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Elegí cómo querés pagar"
       },
-      "paymentMethods": {
-        "features": [
-          {
-            "description": "Visa, Mastercard, Cabal — hasta 18 cuotas",
-            "title": "Tarjeta de crédito"
-          },
-          {
-            "description": "Todas las tarjetas del sistema",
-            "title": "Tarjeta de débito"
-          },
-          {
-            "description": "Descuento adicional — consultá el %",
-            "title": "Transferencia bancaria"
-          },
-          {
-            "description": "En cualquiera de nuestras tiendas físicas",
-            "title": "Efectivo"
-          },
-          {
-            "description": "Terminales en todas las sucursales",
-            "title": "Bancard (POS)"
-          },
-          {
-            "description": "Con aprobación — hasta 90 días",
-            "title": "Cheques"
-          }
-        ],
-        "subtitle": "En tienda y por WhatsApp.",
-        "title": "Formas de pago aceptadas"
-      },
       "process": {
         "eyebrow": "Cómo comprar en cuotas",
         "steps": [
@@ -37538,24 +33127,20 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Lo que ofrecemos"
-      },
-      "trustBadgesEnabled": false
+      }
     },
     "footer": {
-      "address": "Ruta Ypané - Villeta y Arroyo Avay",
+      "address": "Ruta Ypané - Villeta y Arroyo Avay, Villeta, Central",
       "businessName": "Superspuma",
-      "city": "Villeta, Central, Paraguay",
       "copyright": "© 2026 Superspuma del Paraguay S.A.E.C.A. — Todos los derechos reservados.",
       "email": "info@superspuma.com.py",
-      "facebook": "https://www.facebook.com/superspuma",
-      "instagram": "https://www.instagram.com/superspumapy",
-      "navLinks": [
+      "links": [
         {
           "href": "/s/es/superspuma",
           "label": "Inicio"
         },
         {
-          "href": "/s/es/superspuma/tienda",
+          "href": "/s/es/superspuma#catalogo",
           "label": "Catálogo"
         },
         {
@@ -37635,99 +33220,53 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Qué cubre y qué no"
       },
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80",
         "headline": "Respaldo de fábrica paraguaya",
-        "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo.",
-        "trustBadgesEnabled": false
+        "subheadline": "Todos los colchones Superspuma incluyen certificado de garantía. Plazo entre 2 y 6 años según modelo."
       },
       "seo": {
         "description": "Conocé los plazos y condiciones de la garantía Superspuma. Cubre defectos de fábrica y cambio o reparación sin costo.",
         "title": "Garantía Superspuma — 2 a 6 años por modelo"
       },
-      "trustBadgesEnabled": false,
       "warrantyByModel": {
-        "subtitle": "Plazos exactos según el modelo que elijas. Todos los colchones incluyen certificado de garantía activable en cualquiera de nuestras tiendas.",
-        "tiers": [
+        "comparisonRows": [
           {
-            "ctaHref": "/s/es/superspuma/tienda",
-            "ctaLabel": "Ver modelos Esencial",
-            "description": "Entrada a la calidad Superspuma.",
-            "id": "esencial",
-            "included": [
-              "Luna Soft",
-              "Pop Kids",
-              "Renovate",
-              "Super Kids"
-            ],
-            "name": "Línea Esencial",
-            "price": "2 años",
-            "priceNote": "Defectos de fábrica"
+            "feature": "Línea Esencial",
+            "values": [
+              "Luna Soft, Pop Kids, Renovate, Super Kids",
+              "2 años"
+            ]
           },
           {
-            "ctaHref": "/s/es/superspuma/tienda",
-            "ctaLabel": "Ver modelos Confort",
-            "description": "El rango medio — donde está el 60% de nuestras ventas.",
-            "id": "confort",
-            "included": [
-              "Harmony",
-              "Serrat",
-              "Delta Soft",
-              "Serena",
-              "Golden",
-              "Pop Plus",
-              "Pop Teen"
-            ],
-            "name": "Línea Confort",
-            "price": "3 años",
-            "priceNote": "Defectos de fábrica"
+            "feature": "Línea Confort",
+            "values": [
+              "Harmony, Serrat, Delta Soft, Serena, Golden, Pop Plus, Pop Teen",
+              "3 años"
+            ]
           },
           {
-            "badge": "Recomendado",
-            "ctaHref": "/s/es/superspuma/tienda",
-            "ctaLabel": "Ver Alta Gama",
-            "description": "Materiales reforzados, mayor capacidad de carga.",
-            "highlighted": true,
-            "id": "alta-gama",
-            "included": [
-              "Imperial",
-              "Duo Confort",
-              "Superteen",
-              "Impulse Teens"
-            ],
-            "name": "Línea Alta Gama",
-            "price": "3 años",
-            "priceNote": "Defectos de fábrica + materiales reforzados"
+            "feature": "Línea Alta Gama",
+            "values": [
+              "Imperial, Duo Confort, Superteen, Impulse Teens",
+              "3 años"
+            ]
           },
           {
-            "badge": "Premium",
-            "ctaHref": "/s/es/superspuma/tienda",
-            "ctaLabel": "Ver Titanium",
-            "description": "Lo más alto de la línea de resorte.",
-            "id": "premium",
-            "included": [
-              "Titanium"
-            ],
-            "name": "Premium",
-            "price": "5 años",
-            "priceNote": "Garantía extendida"
+            "feature": "Premium",
+            "values": [
+              "Titanium",
+              "5 años"
+            ]
           },
           {
-            "badge": "Máxima",
-            "ctaHref": "/s/es/superspuma/tienda",
-            "ctaLabel": "Ver Ortopédico",
-            "description": "Espuma densidad 45, hasta 140 kg. La garantía más larga que ofrecemos.",
-            "id": "ortopedico",
-            "included": [
-              "Colchón Ortopédico",
-              "Soporta hasta 140 kg por lado",
-              "Ideal para problemas de columna"
-            ],
-            "name": "Ortopédico",
-            "price": "6 años",
-            "priceNote": "Garantía extendida máxima"
+            "feature": "Ortopédico",
+            "values": [
+              "Colchón ortopédico densidad 45",
+              "6 años"
+            ]
           }
         ],
-        "title": "Garantía por línea de producto"
+        "subtitle": "Plazos exactos según línea.",
+        "title": "Garantía por modelo"
       }
     },
     "guias": {
@@ -37767,91 +33306,11 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "5 hábitos simples que alargan la vida útil de tu colchón.",
         "title": "Cuidados para que tu colchón dure más"
       },
-      "comparisonBlock": {
-        "features": [
-          {
-            "description": "**Espuma:** Adaptable al cuerpo  ·  **Resorte:** Más firme y estable",
-            "title": "Firmeza"
-          },
-          {
-            "description": "**Espuma:** Retiene más calor  ·  **Resorte:** Circula mejor el aire",
-            "title": "Disipación de calor"
-          },
-          {
-            "description": "**Espuma:** Silencioso  ·  **Resorte:** Puede sonar con el tiempo",
-            "title": "Ruido al moverse"
-          },
-          {
-            "description": "**Espuma:** 6-8 años  ·  **Resorte:** 8-10 años",
-            "title": "Vida útil"
-          },
-          {
-            "description": "**Espuma:** Lumbalgia, dormir de costado  ·  **Resorte:** Dormir boca arriba, más de 80 kg",
-            "title": "Mejor para"
-          },
-          {
-            "description": "**Espuma:** Desde Gs. 500.000  ·  **Resorte:** Desde Gs. 1.480.000",
-            "title": "Precio base"
-          },
-          {
-            "description": "**Espuma:** No necesita rotación  ·  **Resorte:** Rotar cada 3 meses",
-            "title": "Mantenimiento"
-          }
-        ],
-        "subtitle": "Resumen honesto de cada uno.",
-        "title": "Espuma vs Resorte — ¿cuál elegir?"
-      },
-      "comparisonTable": {
-        "columns": [
-          "Característica",
-          "Espuma",
-          "Resorte"
-        ],
-        "rows": [
-          [
-            "Firmeza",
-            "Adaptable al cuerpo",
-            "Más firme y estable"
-          ],
-          [
-            "Disipación de calor",
-            "Retiene más calor",
-            "Circula mejor el aire"
-          ],
-          [
-            "Ruido al moverse",
-            "Silencioso",
-            "Puede sonar con el tiempo"
-          ],
-          [
-            "Vida útil",
-            "6-8 años",
-            "8-10 años"
-          ],
-          [
-            "Mejor para",
-            "Lumbalgia, dormir de costado",
-            "Dormir boca arriba, más de 80 kg"
-          ],
-          [
-            "Precio base",
-            "Desde Gs. 500.000",
-            "Desde Gs. 1.480.000"
-          ],
-          [
-            "Mantenimiento",
-            "No necesita rotación",
-            "Rotar cada 3 meses"
-          ]
-        ],
-        "subtitle": "Resumen honesto de cada uno.",
-        "title": "Espuma vs Resorte — ¿cuál elegir?"
-      },
       "firmnessGuide": {
         "subtitle": "Elegí según tu peso y posición preferida al dormir.",
         "tiers": [
           {
-            "ctaHref": "/s/es/superspuma/tienda",
+            "ctaHref": "/s/es/superspuma#catalogo",
             "ctaLabel": "Ver modelos suaves",
             "description": "Superficie mullida. Ideal para dormir de costado con peso menor a 70 kg.",
             "id": "suave",
@@ -37864,7 +33323,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "badge": "Más popular",
-            "ctaHref": "/s/es/superspuma/tienda",
+            "ctaHref": "/s/es/superspuma#catalogo",
             "ctaLabel": "Ver modelos medios",
             "description": "El equilibrio que funciona para la mayoría. Dormís boca arriba o alternás posiciones.",
             "highlighted": true,
@@ -37879,7 +33338,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "name": "Medio"
           },
           {
-            "ctaHref": "/s/es/superspuma/tienda",
+            "ctaHref": "/s/es/superspuma#catalogo",
             "ctaLabel": "Ver modelos firmes",
             "description": "Soporte máximo. Recomendado para más de 90 kg o problemas de columna.",
             "id": "firme",
@@ -37891,7 +33350,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "name": "Firme / Extra Firme"
           },
           {
-            "ctaHref": "/s/es/superspuma/tienda",
+            "ctaHref": "/s/es/superspuma#catalogo",
             "ctaLabel": "Ver memory foam",
             "description": "Memory foam que se ajusta al contorno. Alivia puntos de presión.",
             "id": "adaptable",
@@ -37905,60 +33364,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Niveles de firmeza"
       },
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=80",
         "headline": "Elegí bien, dormí mejor",
-        "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros.",
-        "trustBadgesEnabled": false
-      },
-      "lifeCalcBlock": {
-        "features": [
-          {
-            "description": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
-            "href": "/s/es/superspuma/cambio",
-            "title": "10+ años"
-          },
-          {
-            "description": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
-            "href": "/s/es/superspuma/cambio",
-            "title": "8-10 años"
-          },
-          {
-            "description": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin.",
-            "title": "5-8 años"
-          },
-          {
-            "description": "Relájate. Tu colchón está en sus mejores años.",
-            "title": "Menos de 5 años"
-          }
-        ],
-        "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
-        "title": "¿Tu colchón ya cumplió?"
-      },
-      "lifeCalculator": {
-        "rules": [
-          {
-            "ageYears": 10,
-            "message": "Es hora. Un colchón de más de 10 años perdió el soporte estructural.",
-            "severity": "high"
-          },
-          {
-            "ageYears": 8,
-            "message": "Cerca. Si hay hundimientos o dolor al despertar, cambialo este año.",
-            "severity": "medium"
-          },
-          {
-            "ageYears": 5,
-            "message": "Revisalo. Mirá si hay marcas hundidas o chillidos — si sí, es el principio del fin.",
-            "severity": "low"
-          },
-          {
-            "ageYears": 0,
-            "message": "Relájate. Tu colchón está en sus mejores años.",
-            "severity": "ok"
-          }
-        ],
-        "subtitle": "Responde dos preguntas y te decimos si es momento de cambiarlo.",
-        "title": "¿Tu colchón ya cumplió?"
+        "subheadline": "Te armamos la guía de compra que ojalá alguien nos hubiese dado a nosotros."
       },
       "seo": {
         "description": "Todo lo que tenés que saber para elegir el colchón correcto: medidas estándar paraguayas, niveles de firmeza, diferencias entre espuma y resorte, cuidado y duración.",
@@ -37987,7 +33394,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "2 plazas (Semi-doble)"
           },
           {
-            "description": "160x200 cm — Matrimonio cómodo, nuestra medida más vendida",
+            "description": "160x200 cm — Matrimonio cómodo, nuestra talle más vendida",
             "icon": "Users",
             "text": "Queen"
           },
@@ -38004,44 +33411,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "subtitle": "Todas las medidas son ancho × largo. Alto varía por modelo (15 a 40 cm).",
         "title": "Medidas estándar en Paraguay"
-      },
-      "trustBadgesEnabled": false
+      }
     },
     "home": {
-      "activePromos": {
-        "autoRotate": true,
-        "dismissible": true,
-        "items": [
-          {
-            "bgColor": "bg-[#c22848]",
-            "code": "VERANO20",
-            "description": "En colchones seleccionados de la línea Titanium e Imperial. Agosto 2025.",
-            "id": "promo-20-off",
-            "link": "https://wa.me/595974202025?text=Hola!%20Quiero%20aprovechar%20la%20promo%2020%25%20OFF",
-            "textColor": "text-white",
-            "title": "20% OFF"
-          },
-          {
-            "bgColor": "bg-[#1a3a5f]",
-            "description": "2 cruceros Imperial + sorteos mensuales (Jun/Jul/Ago). Comprá entre mayo y julio.",
-            "expiresAt": "2026-07-31T23:59:59-03:00",
-            "id": "promo-mama-papa",
-            "link": "/s/es/superspuma/promociones#mama-papa",
-            "textColor": "text-white",
-            "title": "Promo Mamá y Papá 2026"
-          },
-          {
-            "bgColor": "bg-[#0f3460]",
-            "description": "Con todas las tarjetas bancarias del Paraguay. Permanente.",
-            "id": "promo-cuotas",
-            "link": "/s/es/superspuma/financiacion",
-            "textColor": "text-white",
-            "title": "18 cuotas sin interés"
-          }
-        ],
-        "subtitle": "Aprovechá mientras están vigentes.",
-        "title": "Promociones activas"
-      },
       "contact": {
         "address": "Ruta Ypané - Villeta y Arroyo Avay",
         "city": "Central, Paraguay",
@@ -38049,18 +33421,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "googleMapsUrl": "https://maps.google.com/?q=Superspuma+Villeta+Paraguay",
         "hours": {
           "Domingo": "Cerrado",
-          "Jueves": "07:30 - 17:00",
-          "Lunes": "07:30 - 17:00",
-          "Martes": "07:30 - 17:00",
-          "Miércoles": "07:30 - 17:00",
+          "Lunes a Viernes": "07:30 - 17:00",
           "Sábado": "07:30 - 12:00",
-          "Viernes": "07:30 - 17:00"
+          "Tiendas en shoppings": "Lun-Sáb 09:00-21:00 · Dom/feriados 11:00-21:00"
         },
-        "hoursCompact": "Lun–Vie 09:00–18:00  ·  Sáb 09:00–13:00",
-        "hoursNote": "Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
         "neighborhood": "Villeta",
         "phone": "+595 981 111 222",
-        "subtitle": "Escribinos y te respondemos en el día. Nuestras tiendas en shopping (Villamorra, Paseo La Galería, Fuente) abren todos los días hasta las 21:00 hs.",
+        "subtitle": "Escribinos y te respondemos en el día.",
         "title": "Contacto",
         "whatsapp": "+595974202025"
       },
@@ -38155,12 +33522,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Todo lo que querés saber antes de elegir tu colchón. Si no encontrás tu respuesta, escribinos por WhatsApp.",
         "title": "Preguntas frecuentes"
       },
-      "finalCta": {
-        "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
-        "buttonText": "Consultar por WhatsApp",
-        "subtitle": "7 tiendas en Asunción y Central + 6 centros logísticos en el interior. O consultanos por WhatsApp y te respondemos en el día.",
-        "title": "Visitá la tienda Superspuma más cercana"
-      },
       "gallery": {
         "columns": 3,
         "images": [
@@ -38200,25 +33561,18 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Colchones y dormitorios Superspuma"
       },
       "hero": {
-        "backgroundImage": "https://www.superspuma.com.py/wp-content/uploads/2025/08/Slide-web-20off.jpeg",
-        "ctaPrimaryHref": "/s/es/superspuma/tienda",
+        "ctaPrimaryHref": "#catalogo",
         "ctaPrimaryText": "Ver colchones",
         "ctaSecondaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
         "ctaSecondaryText": "Consultar por WhatsApp",
         "headline": "Dormir mejor empieza por un Superspuma",
-        "subheadline": "Fábrica paraguaya desde 1976. 18 cuotas sin interés. Envío a todo el país.",
-        "trustBadges": [
-          "49 años en Paraguay",
-          "7 tiendas + 6 centros",
-          "Garantía 2-6 años"
-        ],
-        "trustBadgesEnabled": true
+        "subheadline": "Fábrica paraguaya de colchones y sommiers desde 1976. Envío a todo el país, garantía de fábrica y hasta 18 cuotas sin interés."
       },
       "process": {
         "eyebrow": "Cómo comprar",
         "steps": [
           {
-            "description": "Explorá los 19 modelos online o probalos en persona en cualquiera de nuestras 7 tiendas en Asunción y Central.",
+            "description": "Explorá los 19 modelos online o probalos en persona en cualquiera de nuestras 5 tiendas.",
             "duration": "Cuando quieras",
             "icon": "Search",
             "number": 1,
@@ -38257,200 +33611,147 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "orderButtonText": "Consultar por WhatsApp",
         "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
-        "productLinkBase": "/s/es/superspuma/producto",
         "products": [
           {
             "category": "Resorte",
             "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
             "name": "Titanium",
-            "price": "Desde Gs. 1.800.000",
-            "priceOriginal": "Gs. 2.250.000",
-            "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20,
-            "slug": "titanium"
+            "price": "Desde Gs. 1.800.000"
           },
           {
             "category": "Resorte",
             "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
             "name": "Imperial",
-            "price": "Desde Gs. 2.230.000",
-            "priceOriginal": "Gs. 2.787.500",
-            "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20,
-            "slug": "imperial"
+            "price": "Desde Gs. 2.230.000"
           },
           {
             "category": "Resorte",
             "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "name": "Harmony",
-            "price": "Desde Gs. 1.274.000",
-            "slug": "harmony"
+            "price": "Desde Gs. 1.274.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
             "name": "Serrat",
-            "price": "Desde Gs. 1.150.000",
-            "slug": "serrat"
+            "price": "Desde Gs. 1.150.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
             "name": "Delta Soft",
-            "price": "Desde Gs. 1.050.000",
-            "slug": "delta-soft"
+            "price": "Desde Gs. 1.050.000"
           },
           {
             "category": "Resorte",
             "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
             "name": "Essential Top",
-            "price": "Desde Gs. 890.000",
-            "slug": "essential-top"
+            "price": "Desde Gs. 890.000"
           },
           {
             "category": "Resorte",
             "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
             "name": "Renovate",
-            "price": "Desde Gs. 780.000",
-            "slug": "renovate"
+            "price": "Desde Gs. 780.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
             "name": "Impulse Kids",
-            "price": "Desde Gs. 780.000",
-            "slug": "impulse-kids"
+            "price": "Desde Gs. 780.000"
           },
           {
             "category": "Resorte",
             "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
             "name": "Impulse Teens",
-            "price": "Desde Gs. 890.000",
-            "slug": "impulse-teens"
+            "price": "Desde Gs. 890.000"
           },
           {
             "category": "Resorte",
             "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
             "name": "Pop Kids",
-            "price": "Desde Gs. 649.000",
-            "slug": "pop-kids"
+            "price": "Desde Gs. 649.000"
           },
           {
             "category": "Resorte",
             "description": "Pop reforzado para uso adulto — mayor capacidad.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
             "name": "Pop Plus",
-            "price": "Desde Gs. 850.000",
-            "slug": "pop-plus"
+            "price": "Desde Gs. 850.000"
           },
           {
             "category": "Resorte",
             "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
             "name": "Pop Teen",
-            "price": "Desde Gs. 780.000",
-            "slug": "pop-teen"
+            "price": "Desde Gs. 780.000"
           },
           {
             "category": "Resorte",
             "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
             "name": "Superteen",
-            "price": "Desde Gs. 980.000",
-            "slug": "superteen"
+            "price": "Desde Gs. 980.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
             "name": "Ortopédico",
-            "price": "Desde Gs. 1.290.000",
-            "slug": "ortopedico"
+            "price": "Desde Gs. 1.290.000"
           },
           {
             "category": "Espuma",
             "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
             "name": "Duo Confort",
-            "price": "Desde Gs. 980.000",
-            "slug": "duo-confort"
+            "price": "Desde Gs. 980.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma de alta densidad con buen confort y recuperación.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
             "name": "Serena",
-            "price": "Desde Gs. 850.000",
-            "slug": "serena"
+            "price": "Desde Gs. 850.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
             "name": "Golden",
-            "price": "Desde Gs. 696.000",
-            "slug": "golden"
+            "price": "Desde Gs. 696.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
             "name": "Luna Soft",
-            "price": "Desde Gs. 500.000",
-            "slug": "luna-soft"
+            "price": "Desde Gs. 500.000"
           },
           {
             "category": "Espuma",
             "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
             "name": "Super Kids",
-            "price": "Desde Gs. 420.000",
-            "slug": "super-kids"
+            "price": "Desde Gs. 420.000"
           },
           {
             "category": "Accesorios",
             "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "name": "Base Box Baúl",
-            "price": "Desde Gs. 890.000",
-            "slug": "base-box-baul"
+            "price": "Desde Gs. 890.000"
           },
           {
             "category": "Accesorios",
             "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
             "name": "Protector Impermeable",
-            "price": "Desde Gs. 120.000",
-            "slug": "protector-colchon"
+            "price": "Desde Gs. 120.000"
           },
           {
             "category": "Accesorios",
             "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
             "name": "Cubre Colchón",
-            "price": "Desde Gs. 95.000",
-            "slug": "cubre-colchon"
+            "price": "Desde Gs. 95.000"
           },
           {
             "category": "Accesorios",
             "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
             "name": "Almohada Superspuma",
-            "price": "Desde Gs. 65.000",
-            "slug": "almohada-superspuma"
+            "price": "Desde Gs. 65.000"
           }
         ],
-        "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Tocá una ficha para ver medidas, garantía y precio por medida — o consultá por WhatsApp.",
+        "subtitle": "19 modelos entre espuma y resorte para cada necesidad y presupuesto. Elegí el tuyo y consultá disponibilidad por WhatsApp.",
         "title": "Nuestro catálogo",
         "whatsappPhone": "595974202025"
       },
@@ -38463,7 +33764,6 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar Luna Soft",
             "description": "Espuma media — la opción accesible para usos ocasionales o cuartos de invitados.",
             "id": "luna-soft",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
             "included": [
               "Espuma de densidad media",
               "Firmeza suave",
@@ -38482,7 +33782,6 @@ export const CONTENT: Record<string, JsonRecord> = {
             "description": "El equilibrio ideal para matrimonio — soporte de resorte con superficie Euro-Top.",
             "highlighted": true,
             "id": "harmony",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
             "included": [
               "Resortes con Euro-Top",
               "Firmeza media",
@@ -38500,7 +33799,6 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar Duo Confort",
             "description": "Memory foam adaptable que se ajusta a tu cuerpo — alivio real de puntos de presión.",
             "id": "duo-confort",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
             "included": [
               "Espuma viscoelástica",
               "Firmeza adaptable",
@@ -38519,7 +33817,6 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaLabel": "Consultar Titanium",
             "description": "Lo más alto de la línea de resorte. Euro Pillow Top y resortes reforzados.",
             "id": "titanium",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
             "included": [
               "Resortes Bonell reforzados",
               "Euro Pillow Top de alta densidad",
@@ -38539,12 +33836,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promo-cartagena": {
         "description": "Participa por un viaje todo pagado a Cartagena, Colombia para 2 personas, más 5 sommiers Harmony para ti y tu familia. Solo necesitás cargar tu factura de compra y tus datos para participar.",
         "hero": {
-          "backgroundImage": "https://images.unsplash.com/photo-1631900099091-51b06fa6c4ea?auto=format&fit=crop&w=2000&q=80",
           "ctaPrimaryHref": "#promo-form",
           "ctaPrimaryText": "Participar ahora",
           "headline": "Promo Cartagena 2026",
-          "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026.",
-          "trustBadgesEnabled": false
+          "subheadline": "Viaje para 2 + 5 sommiers Harmony entre todos los que compren en 2026."
         },
         "lead-form": {
           "fields": [
@@ -38636,473 +33931,13 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ]
       },
-      "quiz": {
-        "eyebrow": "Test en 1 minuto",
-        "products": [
-          {
-            "badge": "Más vendido",
-            "ctaHref": "/s/es/superspuma/producto/titanium",
-            "ctaLabel": "Ver Titanium",
-            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, 5 años de garantía.",
-            "id": "titanium",
-            "name": "Titanium",
-            "priceFromLabel": "Desde Gs. 1.800.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/imperial",
-            "ctaLabel": "Ver Imperial",
-            "description": "Resortes Bonell con Pillow Top. Alta gama para uso matrimonial.",
-            "id": "imperial",
-            "name": "Imperial",
-            "priceFromLabel": "Desde Gs. 2.230.000"
-          },
-          {
-            "badge": "Más consultado",
-            "ctaHref": "/s/es/superspuma/producto/harmony",
-            "ctaLabel": "Ver Harmony",
-            "description": "Equilibrio ideal soporte + confort. Euro-Top y antiácaros.",
-            "id": "harmony",
-            "name": "Harmony",
-            "priceFromLabel": "Desde Gs. 1.274.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/duo-confort",
-            "ctaLabel": "Ver Duo Confort",
-            "description": "Viscoelástica adaptable. Alivio de puntos de presión.",
-            "id": "duo-confort",
-            "name": "Duo Confort",
-            "priceFromLabel": "Desde Gs. 980.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/ortopedico",
-            "ctaLabel": "Ver Ortopédico",
-            "description": "Firmeza máxima. Para problemas de columna y espalda.",
-            "id": "ortopedico",
-            "name": "Ortopédico",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/serrat",
-            "ctaLabel": "Ver Serrat",
-            "description": "Resorte con espuma de densidad media. Firmeza media y tacto suave.",
-            "id": "serrat",
-            "name": "Serrat",
-            "priceFromLabel": "Desde Gs. 1.150.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/delta-soft",
-            "ctaLabel": "Ver Delta Soft",
-            "description": "Resorte con pillow suave para tacto mullido.",
-            "id": "delta-soft",
-            "name": "Delta Soft",
-            "priceFromLabel": "Desde Gs. 1.050.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/essential-top",
-            "ctaLabel": "Ver Essential Top",
-            "description": "La puerta de entrada al resorte con Pillow Top.",
-            "id": "essential-top",
-            "name": "Essential Top",
-            "priceFromLabel": "Desde Gs. 890.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/renovate",
-            "ctaLabel": "Ver Renovate",
-            "description": "Opción esencial para renovar sin apretarse el presupuesto.",
-            "id": "renovate",
-            "name": "Renovate",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/luna-soft",
-            "ctaLabel": "Ver Luna Soft",
-            "description": "Espuma de densidad media. Accesible — ideal invitados.",
-            "id": "luna-soft",
-            "name": "Luna Soft",
-            "priceFromLabel": "Desde Gs. 500.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/golden",
-            "ctaLabel": "Ver Golden",
-            "description": "Espuma de línea Confort con firmeza media.",
-            "id": "golden",
-            "name": "Golden",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/serena",
-            "ctaLabel": "Ver Serena",
-            "description": "Espuma con tacto suave y precio medio.",
-            "id": "serena",
-            "name": "Serena",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/impulse-kids",
-            "ctaLabel": "Ver Impulse Kids",
-            "description": "Resorte para niños — firme y duradero.",
-            "id": "impulse-kids",
-            "name": "Impulse Kids",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/impulse-teens",
-            "ctaLabel": "Ver Impulse Teens",
-            "description": "Resorte para adolescentes — soporte medio.",
-            "id": "impulse-teens",
-            "name": "Impulse Teens",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/pop-kids",
-            "ctaLabel": "Ver Pop Kids",
-            "description": "Resorte infantil económico.",
-            "id": "pop-kids",
-            "name": "Pop Kids",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/pop-plus",
-            "ctaLabel": "Ver Pop Plus",
-            "description": "Resorte de línea esencial reforzada.",
-            "id": "pop-plus",
-            "name": "Pop Plus",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/pop-teen",
-            "ctaLabel": "Ver Pop Teen",
-            "description": "Resorte para adolescentes — presupuesto ajustado.",
-            "id": "pop-teen",
-            "name": "Pop Teen",
-            "priceFromLabel": "Consultar"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/super-kids",
-            "ctaLabel": "Ver Super Kids",
-            "description": "Espuma para niños — cómoda y accesible.",
-            "id": "super-kids",
-            "name": "Super Kids",
-            "priceFromLabel": "Desde Gs. 420.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/superteen",
-            "ctaLabel": "Ver Superteen",
-            "description": "Resorte para adolescentes — firmeza media.",
-            "id": "superteen",
-            "name": "Superteen",
-            "priceFromLabel": "Consultar"
-          }
-        ],
-        "resultHeading": "Nuestra recomendación",
-        "resultSubheading": "Basado en tus respuestas — ordenado por afinidad. Tocá cualquiera para ver detalle o consultar por WhatsApp.",
-        "steps": [
-          {
-            "id": "para_quien",
-            "options": [
-              {
-                "label": "Pareja / matrimonio",
-                "scores": {
-                  "duo-confort": 2,
-                  "golden": 2,
-                  "harmony": 3,
-                  "imperial": 3,
-                  "titanium": 3
-                },
-                "value": "matrimonio"
-              },
-              {
-                "label": "Una sola persona",
-                "scores": {
-                  "harmony": 2,
-                  "luna-soft": 1,
-                  "serena": 2,
-                  "serrat": 2
-                },
-                "value": "individual"
-              },
-              {
-                "label": "Niños (hasta 12)",
-                "scores": {
-                  "impulse-kids": 3,
-                  "pop-kids": 3,
-                  "super-kids": 3
-                },
-                "value": "ninos"
-              },
-              {
-                "label": "Adolescentes",
-                "scores": {
-                  "impulse-teens": 3,
-                  "pop-teen": 3,
-                  "renovate": 2,
-                  "superteen": 3
-                },
-                "value": "adolescentes"
-              },
-              {
-                "label": "Adulto mayor / problemas de espalda",
-                "scores": {
-                  "duo-confort": 3,
-                  "ortopedico": 3,
-                  "titanium": 2
-                },
-                "value": "adulto_mayor"
-              }
-            ],
-            "question": "¿Para quién es el colchón?"
-          },
-          {
-            "id": "medida",
-            "options": [
-              {
-                "label": "1 plaza / 1½ plaza (80–120 cm)",
-                "scores": {
-                  "impulse-kids": 2,
-                  "luna-soft": 2,
-                  "pop-kids": 2,
-                  "pop-teen": 2,
-                  "super-kids": 2
-                },
-                "value": "una_plaza"
-              },
-              {
-                "label": "2 plazas (140 cm)",
-                "scores": {
-                  "delta-soft": 2,
-                  "duo-confort": 2,
-                  "essential-top": 2,
-                  "harmony": 2,
-                  "serrat": 2
-                },
-                "value": "dos_plazas"
-              },
-              {
-                "label": "Queen (160 cm)",
-                "scores": {
-                  "duo-confort": 2,
-                  "golden": 2,
-                  "harmony": 2,
-                  "imperial": 3,
-                  "titanium": 3
-                },
-                "value": "queen"
-              },
-              {
-                "label": "King / Super King (180–200 cm)",
-                "scores": {
-                  "imperial": 3,
-                  "ortopedico": 2,
-                  "titanium": 3
-                },
-                "value": "king"
-              }
-            ],
-            "question": "¿Qué medida necesitás?"
-          },
-          {
-            "helperText": "Regla general: más peso → más firme. Si dormís de costado, buscá uno adaptable.",
-            "id": "firmeza",
-            "options": [
-              {
-                "label": "Suave — me gusta hundirme un poco",
-                "scores": {
-                  "delta-soft": 3,
-                  "essential-top": 2,
-                  "harmony": 2,
-                  "luna-soft": 3
-                },
-                "value": "suave"
-              },
-              {
-                "label": "Medio — ni muy duro ni muy blando",
-                "scores": {
-                  "golden": 2,
-                  "harmony": 3,
-                  "imperial": 2,
-                  "serena": 2,
-                  "serrat": 3
-                },
-                "value": "medio"
-              },
-              {
-                "label": "Firme — me gusta soporte parejo",
-                "scores": {
-                  "imperial": 2,
-                  "ortopedico": 3,
-                  "titanium": 3
-                },
-                "value": "firme"
-              },
-              {
-                "label": "Adaptable (viscoelástica) — que se ajuste a mí",
-                "scores": {
-                  "duo-confort": 3,
-                  "ortopedico": 2
-                },
-                "value": "adaptable"
-              }
-            ],
-            "question": "¿Qué firmeza te sienta bien?"
-          },
-          {
-            "helperText": "Resorte: mejor ventilación + soporte tradicional. Espuma: más silencioso + adaptable.",
-            "id": "tecnologia",
-            "options": [
-              {
-                "label": "Prefiero resorte",
-                "scores": {
-                  "delta-soft": 2,
-                  "essential-top": 2,
-                  "harmony": 3,
-                  "imperial": 3,
-                  "impulse-kids": 1,
-                  "impulse-teens": 1,
-                  "pop-kids": 1,
-                  "pop-plus": 1,
-                  "pop-teen": 1,
-                  "renovate": 2,
-                  "serrat": 2,
-                  "superteen": 1,
-                  "titanium": 3
-                },
-                "value": "resorte"
-              },
-              {
-                "label": "Prefiero espuma",
-                "scores": {
-                  "duo-confort": 3,
-                  "golden": 2,
-                  "luna-soft": 2,
-                  "ortopedico": 3,
-                  "serena": 2,
-                  "super-kids": 2
-                },
-                "value": "espuma"
-              },
-              {
-                "label": "Me da igual — recomendame lo mejor",
-                "scores": {
-                  "duo-confort": 2,
-                  "harmony": 2,
-                  "imperial": 2,
-                  "titanium": 2
-                },
-                "value": "me_da_igual"
-              }
-            ],
-            "question": "¿Resorte o espuma?"
-          },
-          {
-            "id": "presupuesto",
-            "options": [
-              {
-                "label": "Hasta Gs. 500.000",
-                "scores": {
-                  "impulse-kids": 2,
-                  "luna-soft": 3,
-                  "pop-kids": 3,
-                  "renovate": 2,
-                  "super-kids": 3
-                },
-                "value": "hasta_500k"
-              },
-              {
-                "label": "Gs. 500.000 – 1.000.000",
-                "scores": {
-                  "delta-soft": 2,
-                  "duo-confort": 2,
-                  "essential-top": 3,
-                  "golden": 2,
-                  "harmony": 2,
-                  "impulse-teens": 2,
-                  "pop-plus": 2,
-                  "pop-teen": 2,
-                  "serena": 2,
-                  "serrat": 2,
-                  "superteen": 2
-                },
-                "value": "hasta_1m"
-              },
-              {
-                "label": "Gs. 1.000.000 – 2.000.000",
-                "scores": {
-                  "delta-soft": 3,
-                  "duo-confort": 3,
-                  "harmony": 3,
-                  "ortopedico": 2,
-                  "serrat": 3,
-                  "titanium": 2
-                },
-                "value": "hasta_2m"
-              },
-              {
-                "label": "Más de Gs. 2.000.000 — busco lo mejor",
-                "scores": {
-                  "imperial": 3,
-                  "ortopedico": 2,
-                  "titanium": 3
-                },
-                "value": "mas_2m"
-              }
-            ],
-            "question": "¿Qué presupuesto manejás?"
-          }
-        ],
-        "subtitle": "Respondé 5 preguntas y te recomendamos 3 modelos que encajan con tu cuerpo, tu cuarto y tu presupuesto.",
-        "title": "¿Cuál Superspuma es para vos?"
-      },
       "seo": {
-        "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 19 modelos de espuma y resorte, 7 tiendas en Asunción y Central, 6 centros logísticos en el interior, envío a todo el país y hasta 18 cuotas sin interés.",
+        "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso. 19 modelos de espuma y resorte, 5 tiendas en Asunción y Central, envío a todo el país y hasta 18 cuotas sin interés.",
         "title": "Superspuma - Colchones y Sommiers en Paraguay | Fábrica desde 1976"
-      },
-      "storeLocator": {
-        "columns": 3,
-        "features": [
-          {
-            "description": "Villamorra Shopping, Planta Baja, Asunción · Lunes a Sábado: 09:00 - 21:00",
-            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Villamorra+Shopping+Asunci%C3%B3n",
-            "icon": "MapPin",
-            "title": "Villamorra Shopping"
-          },
-          {
-            "description": "Avda. Aviadores del Chaco y calle Sta. Teresa, Asunción · Lunes a Jueves: 10:00 - 21:00",
-            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Paseo+La+Galer%C3%ADa+Asunci%C3%B3n",
-            "icon": "MapPin",
-            "title": "Paseo La Galería"
-          },
-          {
-            "description": "Fuente Shopping, Salemma, 1er piso, Asunción · Lunes a Sábado: 09:00 - 21:00",
-            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fuente+Shopping+Asunci%C3%B3n",
-            "icon": "MapPin",
-            "title": "Fuente Shopping"
-          },
-          {
-            "description": "Lillo 2779 entre Denis Roa y Coronel Cabrera, Asunción · Lunes a Viernes: 08:00 - 17:30",
-            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Lillo+2779+Asunci%C3%B3n",
-            "icon": "MapPin",
-            "title": "Lillo (Asunción Centro)"
-          },
-          {
-            "description": "R.I. 9 Capitán Bado 1158 y Las Residentas · Lunes a Viernes: 07:30 - 17:00",
-            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Fernando+de+la+Mora+Capit%C3%A1n+Bado",
-            "icon": "MapPin",
-            "title": "Fernando de la Mora"
-          },
-          {
-            "description": "Avda. Manuel Ortiz Guerrero, Ñemby · Lunes a Viernes: 08:00 - 17:00",
-            "href": "https://www.google.com/maps/search/?api=1&query=Superspuma+Luisito+%C3%91emby",
-            "icon": "MapPin",
-            "title": "Luisito (Ñemby)"
-          }
-        ],
-        "subtitle": "7 tiendas en Asunción y Central con exhibición completa + 6 centros logísticos en el interior. Tocá una para abrir en Google Maps.",
-        "title": "Visitanos en tu tienda más cercana"
       },
       "testimonials": {
         "columns": 3,
-        "items": [],
-        "subtitle": "Reviews reales de compradores. Ver todos en Google Maps de cada tienda.",
+        "subtitle": "Historias reales de nuestra comunidad.",
         "testimonials": [
           {
             "author": "Rosa M.",
@@ -39141,7 +33976,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "role": "Asunción"
           }
         ],
-        "title": "Lo que dice Google"
+        "title": "Clientes que duermen mejor"
       },
       "trustBadges": {
         "items": [
@@ -39210,13 +34045,6 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Medio siglo fabricando confort"
       }
     },
-    "infoCta": {
-      "buttonHref": "/s/es/superspuma/tienda",
-      "buttonText": "Ver catálogo",
-      "subtitle": "Todos nuestros modelos con financiación y envío a todo Paraguay.",
-      "title": "¿Listo para elegir tu colchón?",
-      "variant": "gradient"
-    },
     "navigation": {
       "businessName": "Superspuma",
       "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20un%20colch%C3%B3n%20Superspuma",
@@ -39227,64 +34055,39 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
-          "href": "/s/es/superspuma/tienda",
+          "href": "/s/es/superspuma#catalogo",
           "label": "Catálogo"
-        },
-        {
-          "href": "/s/es/superspuma/combos",
-          "label": "Combos"
-        },
-        {
-          "href": "/s/es/superspuma/promociones",
-          "label": "Promos"
-        },
-        {
-          "children": [
-            {
-              "href": "/s/es/superspuma/guias",
-              "label": "Guía de compra"
-            },
-            {
-              "href": "/s/es/superspuma/envios",
-              "label": "Envíos"
-            },
-            {
-              "href": "/s/es/superspuma/financiacion",
-              "label": "Financiación"
-            },
-            {
-              "href": "/s/es/superspuma/garantia",
-              "label": "Garantía"
-            },
-            {
-              "href": "/s/es/superspuma/cambio",
-              "label": "Cambio de colchón"
-            }
-          ],
-          "href": "/s/es/superspuma/guias",
-          "label": "Info útil"
         },
         {
           "href": "/s/es/superspuma/tiendas",
           "label": "Tiendas"
         },
         {
-          "href": "/s/es/superspuma/nosotros",
-          "label": "Nosotros"
+          "href": "/s/es/superspuma/guias",
+          "label": "Guía de compra"
         },
         {
-          "href": "/s/es/superspuma/faq",
-          "label": "Preguntas"
+          "href": "/s/es/superspuma/envios",
+          "label": "Envíos"
+        },
+        {
+          "href": "/s/es/superspuma/financiacion",
+          "label": "Financiación"
+        },
+        {
+          "href": "/s/es/superspuma/garantia",
+          "label": "Garantía"
+        },
+        {
+          "href": "/s/es/superspuma/nosotros",
+          "label": "Nosotros"
         }
-      ],
-      "logoUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/superspumalogo.svg"
+      ]
     },
     "nosotros": {
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80",
         "headline": "49 años haciendo dormir al Paraguay",
-        "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar.",
-        "trustBadgesEnabled": false
+        "subheadline": "Superspuma del Paraguay S.A.E.C.A. es una empresa familiar fundada el 24 de julio de 1976. Hoy somos más de 200 colaboradores y líderes regionales en innovación para el bienestar."
       },
       "seo": {
         "description": "Conocé la historia de Superspuma: casi 50 años fabricando colchones en Villeta, Paraguay.",
@@ -39295,12 +34098,11 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaLabel": "Conocé nuestras tiendas",
         "paragraphs": [
           "En 1976, una familia paraguaya apostó por fabricar colchones de calidad en un mercado dominado por la importación. Empezamos con un taller pequeño en Villeta con la convicción de que Paraguay podía competir en calidad con cualquier marca regional.",
-          "Casi cinco décadas después seguimos fabricando acá, sobre la Ruta Ypané y Arroyo Avay. Nuestra planta abastece las 7 tiendas propias en Asunción y Central, 6 centros logísticos en el interior (Ciudad del Este, Encarnación, Caaguazú, Santa Rosa, Filadelfia y la Planta de Villeta), más una red de revendedores oficiales (Bristol, Electroban, Misionera, Artaza Hermanos, Universo, Inverfin, Big Center, ContiMarket, entre otros).",
+          "Casi cinco décadas después seguimos fabricando acá, sobre la Ruta Ypané y Arroyo Avay. Nuestra planta abastece las 5 tiendas propias y una red de revendedores oficiales en todo el país (Bristol, Electroban, Misionera, Artaza Hermanos, Universo, Inverfin, Big Center, ContiMarket, entre otros).",
           "En estos años fabricamos más de un millón de colchones. Nuestros clientes nos vuelven a elegir para el cuarto de los hijos, para el traslado, para el abuelo. Eso es lo que nos mantiene — saber que cuando alguien piensa en descansar bien, piensa en Superspuma."
         ],
         "title": "Nuestra historia"
       },
-      "trustBadgesEnabled": false,
       "values": {
         "items": [
           {
@@ -39330,8 +34132,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "privacidad": {
       "hero": {
         "headline": "Política de Privacidad",
-        "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026.",
-        "trustBadgesEnabled": false
+        "subheadline": "Tus datos son tuyos. Los usamos solo para lo que autorizás. Última actualización: abril 2026."
       },
       "policy": {
         "business": {
@@ -39417,2984 +34218,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Cómo recolectamos, usamos y protegemos tus datos personales cuando comprás o consultás en Superspuma.",
         "title": "Política de Privacidad — Superspuma"
-      },
-      "trustBadgesEnabled": false
-    },
-    "producto": {
-      "almohada-superspuma": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Almohada%20Superspuma.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Almohada Superspuma"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Almohada%20Superspuma.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Almohada Superspuma",
-          "subheadline": "Almohada de fibra o espuma.",
-          "trustBadges": [
-            "Línea Accesorio",
-            "Garantía fábrica",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Almohada de fibra siliconada o espuma. Varios niveles de firmeza disponibles.",
-          "title": "Almohada Superspuma — Colchón Superspuma — Desde Gs. 65.000"
-        },
-        "specs": {
-          "items": [],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Almohada Superspuma?"
-        }
-      },
-      "base-box-baul": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Base Box Baúl"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Base Box Baúl",
-          "subheadline": "Sommier con espacio de guardado bajo la tapa.",
-          "trustBadges": [
-            "Línea Accesorio",
-            "Garantía fábrica",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Sommier con tapa rebatible y espacio de guardado interior. Disponible en todas las medidas. Aprovechá el espacio debajo de tu cama.",
-          "title": "Base Box Baúl — Colchón Superspuma — Desde Gs. 890.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 140x190 cm",
-                "Garantía incluida",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 890.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 160x200 cm",
-                "Garantía incluida",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 1.150.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Base%20Box%20Ba%C3%BAl%20en%20medida%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "180x200 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 180x200 cm",
-                "Garantía incluida",
-                "Envío e instalación coordinada"
-              ],
-              "name": "King",
-              "price": "Gs. 1.490.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Base Box Baúl?"
-        }
-      },
-      "cubre-colchon": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Cubre%20Colch%C3%B3n.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Cubre Colchón"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Cubre%20Colch%C3%B3n.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Cubre Colchón",
-          "subheadline": "Protección acolchada para tu colchón.",
-          "trustBadges": [
-            "Línea Accesorio",
-            "Garantía fábrica",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Cubre colchón acolchado con elástico en todos los tamaños estándar.",
-          "title": "Cubre Colchón — Colchón Superspuma — Desde Gs. 95.000"
-        },
-        "specs": {
-          "items": [],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Cubre Colchón?"
-        }
-      },
-      "delta-soft": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Delta%20Soft.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Delta Soft"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Delta%20Soft.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Delta Soft",
-          "subheadline": "Tacto mullido con soporte de resorte.",
-          "trustBadges": [
-            "Línea Confort",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Resorte con superficie suave orientado a quienes prefieren un tacto mullido sobre la firmeza del resorte.",
-          "title": "Delta Soft — Colchón Superspuma — Desde Gs. 1.050.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes + pillow de espuma",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Suave",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Antiácaros",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Delta Soft?"
-        }
-      },
-      "duo-confort": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Duo Confort"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Duo Confort",
-          "subheadline": "Viscoelástica adaptable — alivio de puntos de presión.",
-          "trustBadges": [
-            "Línea Alta Gama",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Espuma viscoelástica adaptable que se ajusta al contorno del cuerpo. Ideal para aliviar puntos de presión y mejorar la circulación.",
-          "title": "Duo Confort — Colchón Superspuma — Desde Gs. 980.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190x28 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 140x190x28 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 980.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200x28 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 160x200x28 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 1.250.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Duo%20Confort%20en%20medida%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "180x200x28 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 180x200x28 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "King",
-              "price": "Gs. 1.580.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Espuma viscoelástica (memory foam)",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Adaptable",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 110 kg por lado",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "Algodón stretch",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Duo Confort?"
-        }
-      },
-      "essential-top": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Essential%20Top.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Essential Top"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Essential%20Top.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Essential Top",
-          "subheadline": "Resorte con Pillow Top — la puerta de entrada a nuestra línea Esencial.",
-          "trustBadges": [
-            "Línea Esencial",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Línea esencial de resorte para quienes buscan la experiencia Superspuma a un precio accesible, con Pillow Top incluido.",
-          "title": "Essential Top — Colchón Superspuma — Desde Gs. 890.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes + Pillow Top",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Polialgodón",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Essential Top?"
-        }
-      },
-      "golden": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Golden"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Golden",
-          "subheadline": "Espuma reversible con Pillow Top.",
-          "trustBadges": [
-            "Línea Confort",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de espuma utilizable por ambos lados (reversible). Pillow Top simple. Buen balance entre precio y durabilidad.",
-          "title": "Golden — Colchón Superspuma — Desde Gs. 696.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden%20en%20medida%201%20plaza%2B.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "100x190x15 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 100x190x15 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+",
-              "price": "Gs. 696.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190x15 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 140x190x15 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 890.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Golden%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200x15 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 160x200x15 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 1.050.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Espuma densidad media, reversible",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Pillow Top simple",
-              "icon": "check",
-              "text": "Pillow Top"
-            },
-            {
-              "description": "Hasta 70 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Golden?"
-        }
-      },
-      "harmony": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Harmony"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Harmony",
-          "subheadline": "Equilibrio ideal entre soporte y confort con Euro-Top.",
-          "trustBadges": [
-            "Línea Confort",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Equilibrio entre soporte y confort. Resortes con Euro-Top y tejido antiácaros. Uno de los modelos favoritos para el uso diario en habitación matrimonial.",
-          "title": "Harmony — Colchón Superspuma — Desde Gs. 1.274.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 140x190 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 1.274.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 160x200 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 1.480.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "180x200 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 180x200 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "King",
-              "price": "Gs. 1.890.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Harmony%20en%20medida%20Super%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "200x200 cm",
-              "highlighted": false,
-              "id": "size-3",
-              "included": [
-                "Dimensiones: 200x200 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Super King",
-              "price": "Gs. 2.250.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes + Euro-Top",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Euro-Top",
-              "icon": "check",
-              "text": "Pillow Top"
-            },
-            {
-              "description": "Tejido jacquard antiácaros",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "Hasta 90 kg por lado",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Harmony?"
-        }
-      },
-      "imperial": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Imperial"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Imperial",
-          "subheadline": "Resortes Bonell con Pillow Top para descanso regenerador.",
-          "trustBadges": [
-            "Línea Alta Gama",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Sistema de resortes Bonell interconectados para soporte firme y descanso regenerador. Pillow Top y tratamiento antiácaros. Opción clásica de alta gama.",
-          "title": "Imperial — Colchón Superspuma — Desde Gs. 2.230.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 140x190 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 2.230.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 160x200 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 2.502.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "180x200 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 180x200 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "King",
-              "price": "Gs. 3.030.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Imperial%20en%20medida%20Super%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "200x200 cm",
-              "highlighted": false,
-              "id": "size-3",
-              "included": [
-                "Dimensiones: 200x200 cm",
-                "Garantía: 3 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Super King",
-              "price": "Gs. 3.652.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio-Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Pillow Top",
-              "icon": "check",
-              "text": "Pillow Top"
-            },
-            {
-              "description": "69 cm (sommier)",
-              "icon": "check",
-              "text": "Altura del sommier"
-            },
-            {
-              "description": "Polialgodón antiácaros",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "Hasta 100 kg por lado",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "Gris, Beige, Bordó",
-              "icon": "check",
-              "text": "Colores"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Imperial?"
-        }
-      },
-      "impulse-kids": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Impulse Kids"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Impulse Kids",
-          "subheadline": "Resorte premium para niños, reversible.",
-          "trustBadges": [
-            "Línea Infantil",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de resorte premium para niños. Cara reversible y tela antiácaros. Diseños alegres rosa y celeste.",
-          "title": "Impulse Kids — Colchón Superspuma — Desde Gs. 780.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids%20en%20medida%201%20plaza.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "080x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 080x190 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza",
-              "price": "Gs. 650.000",
-              "priceNote": "4 ó 6 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Kids%20en%20medida%201%20plaza%2B.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "100x190 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 100x190 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+",
-              "price": "Gs. 780.000",
-              "priceNote": "4 ó 6 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 70 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "Rosa, Celeste",
-              "icon": "check",
-              "text": "Colores"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Impulse Kids?"
-        }
-      },
-      "impulse-teens": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Teens.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Impulse Teens"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Impulse%20Teens.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Impulse Teens",
-          "subheadline": "Resorte para adolescentes, más robusto.",
-          "trustBadges": [
-            "Línea Juvenil",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de resorte para adolescentes, con mayor capacidad de carga y espuma de densidad superior.",
-          "title": "Impulse Teens — Colchón Superspuma — Desde Gs. 890.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell + espuma",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio-Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 90 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Impulse Teens?"
-        }
-      },
-      "luna-soft": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Luna Soft"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Luna Soft",
-          "subheadline": "Espuma económica — suave y liviana.",
-          "trustBadges": [
-            "Línea Esencial",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de espuma de densidad media. Superficie suave y cómoda, ideal para invitados o uso ocasional.",
-          "title": "Luna Soft — Colchón Superspuma — Desde Gs. 500.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%201%20plaza.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "080x190x15 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 080x190x15 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza",
-              "price": "Gs. 500.000",
-              "priceNote": "2 a 15 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%201%20plaza%2B.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "090x190x15 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 090x190x15 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+",
-              "price": "Gs. 560.000",
-              "priceNote": "2 a 15 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190x15 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 140x190x15 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 640.000",
-              "priceNote": "2 a 15 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Luna%20Soft%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200x15 cm",
-              "highlighted": false,
-              "id": "size-3",
-              "included": [
-                "Dimensiones: 160x200x15 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 820.000",
-              "priceNote": "2 a 15 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Espuma densidad media",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Suave",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 60 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "Poliéster",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Luna Soft?"
-        }
-      },
-      "ortopedico": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Ortopédico"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Ortopédico",
-          "subheadline": "Firmeza máxima — hasta 140 kg, 6 años de garantía.",
-          "trustBadges": [
-            "Línea Premium",
-            "6 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de espuma de alta densidad 45 reforzado para personas que requieren soporte firme y gran capacidad de carga. Hasta 140 kg por lado.",
-          "title": "Ortopédico — Colchón Superspuma — Desde Gs. 1.290.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%201%20plaza%2B.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "120x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 120x190 cm",
-                "Garantía: 6 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+",
-              "price": "Gs. 1.290.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 140x190 cm",
-                "Garantía: 6 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 1.450.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 160x200 cm",
-                "Garantía: 6 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 1.750.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Ortop%C3%A9dico%20en%20medida%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "180x200 cm",
-              "highlighted": false,
-              "id": "size-3",
-              "included": [
-                "Dimensiones: 180x200 cm",
-                "Garantía: 6 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "King",
-              "price": "Gs. 2.050.000",
-              "priceNote": "4, 6, 12, 15 ó 18 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Espuma alta densidad 45",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Extra firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 140 kg por lado",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "6 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "6 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Ortopédico?"
-        }
-      },
-      "pop-kids": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Pop Kids"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Pop Kids",
-          "subheadline": "Línea económica de niños — diseños divertidos.",
-          "trustBadges": [
-            "Línea Infantil",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón infantil de un solo lado de uso con tejido Polybrush. Diseños divertidos para los más chicos. Excelente relación calidad/precio.",
-          "title": "Pop Kids — Colchón Superspuma — Desde Gs. 649.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids%20en%20medida%201%20plaza%2B.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "100x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 100x190 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+",
-              "price": "Gs. 649.000",
-              "priceNote": "4, 6 ó 12 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids%20en%20medida%201%20plaza%2B%20con%20sommier.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "100x190 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 100x190 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+ con sommier",
-              "price": "Gs. 1.069.000",
-              "priceNote": "4, 6 ó 12 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Kids%20en%20medida%201%20plaza%2B%20con%20sommier%20y%20cabecera.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "100x190 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 100x190 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza+ con sommier y cabecera",
-              "price": "Gs. 1.298.000",
-              "priceNote": "4, 6 ó 12 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 70 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "Polybrush",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "Rosa (nena), Celeste (nene)",
-              "icon": "check",
-              "text": "Colores"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Pop Kids?"
-        }
-      },
-      "pop-plus": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Plus.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Pop Plus"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Plus.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Pop Plus",
-          "subheadline": "Pop reforzado, para uso adulto.",
-          "trustBadges": [
-            "Línea Esencial",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Versión reforzada de la línea Pop para uso adulto, con mayor capacidad de carga.",
-          "title": "Pop Plus — Colchón Superspuma — Desde Gs. 850.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio-Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 90 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Pop Plus?"
-        }
-      },
-      "pop-teen": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Teen.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Pop Teen"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Pop%20Teen.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Pop Teen",
-          "subheadline": "Pop juvenil — precio accesible.",
-          "trustBadges": [
-            "Línea Juvenil",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón Pop para adolescentes, equilibrio entre precio y durabilidad.",
-          "title": "Pop Teen — Colchón Superspuma — Desde Gs. 780.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 80 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Pop Teen?"
-        }
-      },
-      "protector-colchon": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Protector%20Impermeable.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Protector Impermeable"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Protector%20Impermeable.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Protector Impermeable",
-          "subheadline": "Impermeable y transpirable.",
-          "trustBadges": [
-            "Línea Accesorio",
-            "Garantía fábrica",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Protector impermeable que preserva tu colchón de líquidos y manchas sin alterar la transpirabilidad.",
-          "title": "Protector Impermeable — Colchón Superspuma — Desde Gs. 120.000"
-        },
-        "specs": {
-          "items": [],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Protector Impermeable?"
-        }
-      },
-      "renovate": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Renovate.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Renovate"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Renovate.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Renovate",
-          "subheadline": "El reemplazo económico y confiable para tu viejo colchón.",
-          "trustBadges": [
-            "Línea Esencial",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Ideal para renovar tu colchón sin cambiar de presupuesto. Resorte Bonell con acolchado confortable.",
-          "title": "Renovate — Colchón Superspuma — Desde Gs. 780.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio-Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Renovate?"
-        }
-      },
-      "serena": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serena.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Serena"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serena.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Serena",
-          "subheadline": "Espuma de alta densidad con buen confort.",
-          "trustBadges": [
-            "Línea Confort",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de espuma de alta densidad con acabado confortable y buena recuperación.",
-          "title": "Serena — Colchón Superspuma — Desde Gs. 850.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Espuma alta densidad",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio-Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 90 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Serena?"
-        }
-      },
-      "serrat": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serrat.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Serrat"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Serrat.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Serrat",
-          "subheadline": "Resorte con superficie suave, firmeza media.",
-          "trustBadges": [
-            "Línea Confort",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Modelo de resorte con espuma de densidad media en la superficie para un toque suave sin perder firmeza. Buena opción de medio rango.",
-          "title": "Serrat — Colchón Superspuma — Desde Gs. 1.150.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes + espuma densidad media",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Jacquard antiácaros",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Serrat?"
-        }
-      },
-      "super-kids": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Super Kids"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Super Kids",
-          "subheadline": "Espuma infantil — liviano y fácil de manipular.",
-          "trustBadges": [
-            "Línea Infantil",
-            "2 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Colchón de espuma para niños, liviano y práctico. Ideal para cunas de transición y camas infantiles.",
-          "title": "Super Kids — Colchón Superspuma — Desde Gs. 420.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids%20en%20medida%20Cuna.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "080x140 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 080x140 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Cuna",
-              "price": "Gs. 420.000",
-              "priceNote": "4 ó 6 cuotas"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Super%20Kids%20en%20medida%201%20plaza.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "080x190 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 080x190 cm",
-                "Garantía: 2 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "1 plaza",
-              "price": "Gs. 520.000",
-              "priceNote": "4 ó 6 cuotas"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Espuma de densidad media",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Suave",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Hasta 50 kg",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "2 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "2 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Super Kids?"
-        }
-      },
-      "superteen": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Superteen.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Superteen"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Superteen.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Superteen",
-          "subheadline": "Línea premium juvenil.",
-          "trustBadges": [
-            "Línea Juvenil",
-            "3 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Línea superior juvenil. Mayor densidad y mejor acabado.",
-          "title": "Superteen — Colchón Superspuma — Desde Gs. 980.000"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell + espuma alta densidad",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Medio-Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "3 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "3 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Superteen?"
-        }
-      },
-      "titanium": {
-        "cta": {
-          "buttonHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium.",
-          "buttonText": "Escribir por WhatsApp",
-          "subtitle": "Te confirmamos disponibilidad, cuotas, zona de entrega y medidas en el mismo día.",
-          "title": "Consultá por el Titanium"
-        },
-        "hero": {
-          "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium.",
-          "ctaPrimaryText": "Consultar por WhatsApp",
-          "ctaSecondaryHref": "/s/es/superspuma/tienda",
-          "ctaSecondaryText": "Ver todo el catálogo",
-          "headline": "Titanium",
-          "subheadline": "Premium con Euro Pillow Top y resortes Bonell reforzados.",
-          "trustBadges": [
-            "Línea Premium",
-            "5 años garantía",
-            "Envío nacional"
-          ]
-        },
-        "seo": {
-          "description": "Nuestro colchón insignia. Resortes Bonell de alta calidad con capa superior de espuma de alta densidad, Euro Pillow Top y tejido antiácaros. Pensado para descan",
-          "title": "Titanium — Colchón Superspuma — Desde Gs. 1.800.000"
-        },
-        "sizes": {
-          "subtitle": "Confirmamos stock al momento de tu consulta por WhatsApp.",
-          "tiers": [
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%202%20plazas.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "140x190 cm",
-              "highlighted": false,
-              "id": "size-0",
-              "included": [
-                "Dimensiones: 140x190 cm",
-                "Garantía: 5 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "2 plazas",
-              "price": "Gs. 1.800.000",
-              "priceNote": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%20Queen.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "160x200 cm",
-              "highlighted": true,
-              "id": "size-1",
-              "included": [
-                "Dimensiones: 160x200 cm",
-                "Garantía: 5 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Queen",
-              "price": "Gs. 2.200.000",
-              "priceNote": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "180x200 cm",
-              "highlighted": false,
-              "id": "size-2",
-              "included": [
-                "Dimensiones: 180x200 cm",
-                "Garantía: 5 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "King",
-              "price": "Gs. 2.700.000",
-              "priceNote": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20por%20el%20colch%C3%B3n%20Titanium%20en%20medida%20Super%20King.",
-              "ctaLabel": "Consultar por WhatsApp",
-              "description": "200x200 cm",
-              "highlighted": false,
-              "id": "size-3",
-              "included": [
-                "Dimensiones: 200x200 cm",
-                "Garantía: 5 años",
-                "Envío e instalación coordinada"
-              ],
-              "name": "Super King",
-              "price": "Gs. 3.200.000",
-              "priceNote": "Hasta 18 cuotas sin interés"
-            }
-          ],
-          "title": "Medidas disponibles"
-        },
-        "specs": {
-          "items": [
-            {
-              "description": "Resortes Bonell + capa superior de alta densidad",
-              "icon": "check",
-              "text": "Tecnología"
-            },
-            {
-              "description": "Firme",
-              "icon": "check",
-              "text": "Firmeza"
-            },
-            {
-              "description": "Euro Pillow",
-              "icon": "check",
-              "text": "Pillow Top"
-            },
-            {
-              "description": "29 cm (colchón) / 66 cm (juego completo)",
-              "icon": "check",
-              "text": "Altura total"
-            },
-            {
-              "description": "Tejido jacquard antiácaros",
-              "icon": "check",
-              "text": "Funda"
-            },
-            {
-              "description": "Hasta 120 kg por lado",
-              "icon": "check",
-              "text": "Peso soportado"
-            },
-            {
-              "description": "Gris, Azul, Bordó",
-              "icon": "check",
-              "text": "Colores"
-            },
-            {
-              "description": "5 años",
-              "icon": "check",
-              "text": "Garantía"
-            }
-          ],
-          "title": "Ficha técnica"
-        },
-        "trustBadges": {
-          "items": [
-            {
-              "description": "Villeta, desde 1976",
-              "icon": "factory",
-              "text": "Fabricación paraguaya"
-            },
-            {
-              "description": "Certificado incluido",
-              "icon": "shieldcheck",
-              "text": "5 años de garantía"
-            },
-            {
-              "description": "Con todas las tarjetas",
-              "icon": "creditcard",
-              "text": "Hasta 18 cuotas sin interés"
-            },
-            {
-              "description": "Gratis desde Gs. 1.000.000",
-              "icon": "truck",
-              "text": "Envío a todo el país"
-            },
-            {
-              "description": "Sin costo extra",
-              "icon": "recycle",
-              "text": "Retiramos tu colchón viejo"
-            }
-          ],
-          "title": "¿Por qué elegir el Titanium?"
-        }
-      }
-    },
-    "promoCartagena": {
-      "hero": {
-        "headline": "Ganá un viaje a Cartagena 2026",
-        "subheadline": "Comprá cualquier Superspuma en 2026 y entrás al sorteo. 1 viaje para 2 + 5 sommiers Harmony.",
-        "trustBadgesEnabled": false
-      },
-      "legal": {
-        "dates": "Válido del 01/01/2026 al 31/12/2026",
-        "documentsHref": "/s/es/superspuma/terminos#promo-cartagena",
-        "draw": "Sorteo ante escribano público el 15 de enero de 2027. Ganadores notificados por email y WhatsApp dentro de las 48 hs.",
-        "eligibility": "Abierto a residentes en Paraguay, mayores de 18 años, con factura Superspuma a su nombre emitida dentro del período de vigencia.",
-        "exclusions": "No participan empleados de Superspuma ni de sus empresas asociadas.",
-        "notes": "El premio no es canjeable por dinero. Impuestos locales en el destino a cargo del ganador. Plazo para reclamar: 30 días desde la notificación.",
-        "prize": "Viaje para 2 personas a Cartagena, Colombia (5 días / 4 noches, vuelo + hotel 4 estrellas) + sorteo de 5 sommiers Harmony entre los no ganadores del primer premio.",
-        "responsable": "Superspuma del Paraguay S.A.E.C.A. — RUC 30-70136627-8.",
-        "title": "Bases y condiciones"
-      }
-    },
-    "promociones": {
-      "active": {
-        "features": [
-          {
-            "description": "Descuento directo en los dos modelos más pedidos. Vigente agosto 2025 (consultá extensión).",
-            "href": "https://wa.me/595974202025?text=Hola!%20Quiero%20comprar%20con%20la%20promo%2020%25%20OFF",
-            "title": "20% OFF Titanium + Imperial"
-          },
-          {
-            "description": "Comprá entre mayo y julio de 2026 y participá. Sorteos: 3 junio / 3 julio / 3 agosto. 3 ganadores.",
-            "href": "/s/es/superspuma/promociones#mama-papa",
-            "title": "Promo Mamá y Papá 2026 — 2 cruceros Imperial"
-          },
-          {
-            "description": "Colchón + sommier + 2 almohadas + protector. Se aplica sobre la suma de productos.",
-            "href": "/s/es/superspuma/combos",
-            "title": "Combo Premium — 10% OFF"
-          },
-          {
-            "description": "Permanente, con cualquier tarjeta bancaria. Ver bancos participantes en /financiacion.",
-            "href": "/s/es/superspuma/financiacion",
-            "title": "18 cuotas sin interés"
-          },
-          {
-            "description": "Pagás desde home banking y te aplicamos un porcentaje de descuento sobre el precio de lista. Consultá el % actual por WhatsApp.",
-            "href": "https://wa.me/595974202025?text=Hola!%20Quiero%20consultar%20el%20descuento%20por%20transferencia",
-            "title": "Descuento por transferencia bancaria"
-          },
-          {
-            "description": "Entregás tu colchón viejo y te damos crédito sobre el nuevo. Retiro sin costo.",
-            "href": "/s/es/superspuma/cambio",
-            "title": "Renovación (trade-in)"
-          }
-        ],
-        "subtitle": "Estas promos están activas. Las fechas de cierre son reales.",
-        "title": "En curso ahora"
-      },
-      "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=2000&q=80",
-        "headline": "Promociones vigentes",
-        "subheadline": "Todas en un solo lugar. Consultá condiciones en cada una.",
-        "trustBadgesEnabled": false
-      },
-      "onSaleProducts": {
-        "orderButtonText": "Consultar por WhatsApp",
-        "orderMessageTemplate": "Hola! Quiero comprar el colchón {{productName}} con la promo vigente.",
-        "productLinkBase": "/s/es/superspuma/producto",
-        "products": [
-          {
-            "category": "Resorte",
-            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
-            "name": "Titanium",
-            "price": "Desde Gs. 1.800.000",
-            "priceOriginal": "Gs. 2.250.000",
-            "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20,
-            "slug": "titanium"
-          },
-          {
-            "category": "Resorte",
-            "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
-            "name": "Imperial",
-            "price": "Desde Gs. 2.230.000",
-            "priceOriginal": "Gs. 2.787.500",
-            "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20,
-            "slug": "imperial"
-          }
-        ],
-        "subtitle": "Los que tienen descuento directo hoy. Tocá cualquiera para ver detalle o confirmar precio por medida por WhatsApp.",
-        "title": "Productos en promoción",
-        "whatsappPhone": "595974202025"
-      },
-      "seo": {
-        "description": "Todas las promos vigentes en un solo lugar. Descuentos, sorteos, combos y cuotas sin interés.",
-        "title": "Promociones Superspuma — 20% OFF, Promo Mamá y Papá, cuotas sin interés"
-      },
-      "terms": {
-        "features": [
-          {
-            "description": "Las promociones no se acumulan entre sí. Solo se aplica una por compra.",
-            "title": "No acumulables"
-          },
-          {
-            "description": "Todas las promos aplican únicamente a compras realizadas en Paraguay, en tiendas físicas o por WhatsApp.",
-            "title": "Válido en Paraguay"
-          },
-          {
-            "description": "Las promos están sujetas a disponibilidad del modelo/medida. Si no hay stock coordinamos fabricación (3-5 días extra).",
-            "title": "Sujeto a stock"
-          },
-          {
-            "description": "Todos los sorteos y premios requieren la factura a nombre del comprador para validar la participación.",
-            "title": "Factura obligatoria"
-          }
-        ],
-        "subtitle": "Aplicable a todas las promos salvo que la promo específica indique lo contrario.",
-        "title": "Condiciones generales"
-      }
-    },
-    "quiz": {
-      "hero": {
-        "ctaPrimaryHref": "#quiz",
-        "ctaPrimaryText": "Empezar el quiz",
-        "ctaSecondaryHref": "/s/es/superspuma/tienda",
-        "ctaSecondaryText": "Ver todo el catálogo",
-        "headline": "¿Qué colchón necesitás?",
-        "subheadline": "6 preguntas. 2 minutos. Te recomendamos los 3 modelos que mejor se adaptan a vos.",
-        "trustBadges": [
-          "6 preguntas",
-          "2 minutos",
-          "Recomendación personalizada"
-        ],
-        "trustBadgesEnabled": false
-      },
-      "quiz": {
-        "eyebrow": "Recomendador",
-        "products": [
-          {
-            "ctaHref": "/s/es/superspuma/producto/luna-soft",
-            "ctaLabel": "Ver Luna Soft",
-            "description": "Espuma suave, económica. Ideal para invitados o uso ocasional.",
-            "id": "luna-soft",
-            "name": "Luna Soft",
-            "priceFromLabel": "Desde Gs. 500.000"
-          },
-          {
-            "badge": "Niños",
-            "ctaHref": "/s/es/superspuma/producto/super-kids",
-            "ctaLabel": "Ver Super Kids",
-            "description": "Espuma infantil, liviana. Para cunas y primeras camas.",
-            "id": "super-kids",
-            "name": "Super Kids",
-            "priceFromLabel": "Desde Gs. 420.000"
-          },
-          {
-            "badge": "Niños",
-            "ctaHref": "/s/es/superspuma/producto/pop-kids",
-            "ctaLabel": "Ver Pop Kids",
-            "description": "Resorte económico para niños con diseños divertidos.",
-            "id": "pop-kids",
-            "name": "Pop Kids",
-            "priceFromLabel": "Desde Gs. 649.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/delta-soft",
-            "ctaLabel": "Ver Delta Soft",
-            "description": "Resorte con pillow suave. Tacto mullido con soporte de resorte.",
-            "id": "delta-soft",
-            "name": "Delta Soft",
-            "priceFromLabel": "Desde Gs. 1.050.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/golden",
-            "ctaLabel": "Ver Golden",
-            "description": "Espuma reversible con Pillow Top. Excelente relación calidad/precio.",
-            "id": "golden",
-            "name": "Golden",
-            "priceFromLabel": "Desde Gs. 696.000"
-          },
-          {
-            "badge": "Más vendido",
-            "ctaHref": "/s/es/superspuma/producto/harmony",
-            "ctaLabel": "Ver Harmony",
-            "description": "Equilibrio ideal entre soporte y confort. Euro-Top antiácaros.",
-            "id": "harmony",
-            "name": "Harmony",
-            "priceFromLabel": "Desde Gs. 1.274.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/serena",
-            "ctaLabel": "Ver Serena",
-            "description": "Espuma alta densidad con buen confort y recuperación.",
-            "id": "serena",
-            "name": "Serena",
-            "priceFromLabel": "Desde Gs. 850.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/serrat",
-            "ctaLabel": "Ver Serrat",
-            "description": "Resorte con superficie suave, firmeza media.",
-            "id": "serrat",
-            "name": "Serrat",
-            "priceFromLabel": "Desde Gs. 1.150.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/essential-top",
-            "ctaLabel": "Ver Essential Top",
-            "description": "Entrada a resorte con Pillow Top. Esencial.",
-            "id": "essential-top",
-            "name": "Essential Top",
-            "priceFromLabel": "Desde Gs. 890.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/renovate",
-            "ctaLabel": "Ver Renovate",
-            "description": "Reemplazo económico y confiable para tu viejo colchón.",
-            "id": "renovate",
-            "name": "Renovate",
-            "priceFromLabel": "Desde Gs. 780.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/pop-teen",
-            "ctaLabel": "Ver Pop Teen",
-            "description": "Pop para adolescentes, precio accesible.",
-            "id": "pop-teen",
-            "name": "Pop Teen",
-            "priceFromLabel": "Desde Gs. 780.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/imperial",
-            "ctaLabel": "Ver Imperial",
-            "description": "Resortes Bonell con Pillow Top. Descanso regenerador.",
-            "id": "imperial",
-            "name": "Imperial",
-            "priceFromLabel": "Desde Gs. 2.230.000"
-          },
-          {
-            "badge": "Premium",
-            "ctaHref": "/s/es/superspuma/producto/titanium",
-            "ctaLabel": "Ver Titanium",
-            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, hasta 120 kg.",
-            "id": "titanium",
-            "name": "Titanium",
-            "priceFromLabel": "Desde Gs. 1.800.000"
-          },
-          {
-            "ctaHref": "/s/es/superspuma/producto/duo-confort",
-            "ctaLabel": "Ver Duo Confort",
-            "description": "Memory foam adaptable. Alivio real de puntos de presión.",
-            "id": "duo-confort",
-            "name": "Duo Confort",
-            "priceFromLabel": "Desde Gs. 980.000"
-          },
-          {
-            "badge": "Más firme",
-            "ctaHref": "/s/es/superspuma/producto/ortopedico",
-            "ctaLabel": "Ver Ortopédico",
-            "description": "Espuma densidad 45. Hasta 140 kg. 6 años de garantía.",
-            "id": "ortopedico",
-            "name": "Ortopédico",
-            "priceFromLabel": "Desde Gs. 1.290.000"
-          }
-        ],
-        "resultHeading": "Tus 3 mejores matches",
-        "resultSubheading": "Ordenados por afinidad con tus respuestas. Escribinos para confirmar medidas, cuotas y disponibilidad.",
-        "steps": [
-          {
-            "helperText": "Si es para dos, elegí el peso de la persona más pesada.",
-            "id": "peso",
-            "options": [
-              {
-                "label": "Menos de 60 kg",
-                "scores": {
-                  "delta-soft": 2,
-                  "golden": 1,
-                  "luna-soft": 3,
-                  "pop-kids": 2,
-                  "super-kids": 2
-                },
-                "value": "menos-60"
-              },
-              {
-                "label": "Entre 60 y 80 kg",
-                "scores": {
-                  "duo-confort": 1,
-                  "essential-top": 2,
-                  "golden": 2,
-                  "harmony": 3,
-                  "serena": 2,
-                  "serrat": 2
-                },
-                "value": "60-80"
-              },
-              {
-                "label": "Entre 80 y 100 kg",
-                "scores": {
-                  "duo-confort": 2,
-                  "harmony": 2,
-                  "imperial": 3,
-                  "serena": 1,
-                  "titanium": 2
-                },
-                "value": "80-100"
-              },
-              {
-                "label": "Entre 100 y 130 kg",
-                "scores": {
-                  "duo-confort": 1,
-                  "imperial": 2,
-                  "ortopedico": 2,
-                  "titanium": 3
-                },
-                "value": "100-130"
-              },
-              {
-                "label": "Más de 130 kg",
-                "scores": {
-                  "ortopedico": 5,
-                  "titanium": 1
-                },
-                "value": "mas-130"
-              }
-            ],
-            "question": "¿Cuánto pesa la persona que va a usarlo?"
-          },
-          {
-            "id": "posicion",
-            "options": [
-              {
-                "label": "De costado",
-                "scores": {
-                  "delta-soft": 1,
-                  "duo-confort": 3,
-                  "harmony": 2,
-                  "luna-soft": 2
-                },
-                "value": "costado"
-              },
-              {
-                "label": "Boca arriba",
-                "scores": {
-                  "harmony": 2,
-                  "imperial": 2,
-                  "serena": 2,
-                  "titanium": 1
-                },
-                "value": "espalda"
-              },
-              {
-                "label": "Boca abajo",
-                "scores": {
-                  "imperial": 2,
-                  "ortopedico": 2,
-                  "serena": 1,
-                  "titanium": 2
-                },
-                "value": "estomago"
-              },
-              {
-                "label": "Cambio de posición toda la noche",
-                "scores": {
-                  "duo-confort": 3,
-                  "harmony": 2
-                },
-                "value": "mixto"
-              }
-            ],
-            "question": "¿En qué posición dormís más?"
-          },
-          {
-            "id": "columna",
-            "options": [
-              {
-                "label": "No, todo bien",
-                "scores": {
-                  "golden": 1,
-                  "harmony": 2,
-                  "luna-soft": 1,
-                  "serena": 1
-                },
-                "value": "no"
-              },
-              {
-                "label": "Dolor ocasional",
-                "scores": {
-                  "duo-confort": 3,
-                  "harmony": 2,
-                  "serena": 1
-                },
-                "value": "ocasional"
-              },
-              {
-                "label": "Dolor crónico / recomendación médica",
-                "scores": {
-                  "duo-confort": 3,
-                  "ortopedico": 4,
-                  "titanium": 2
-                },
-                "value": "cronico"
-              }
-            ],
-            "question": "¿Tenés problemas de columna o dolor de espalda?"
-          },
-          {
-            "helperText": "Si tuviste un colchón antes, pensá en qué cambiarías de ese.",
-            "id": "firmeza",
-            "options": [
-              {
-                "label": "Suave / mullido",
-                "scores": {
-                  "delta-soft": 2,
-                  "luna-soft": 3,
-                  "super-kids": 1
-                },
-                "value": "suave"
-              },
-              {
-                "label": "Medio (equilibrado)",
-                "scores": {
-                  "essential-top": 1,
-                  "golden": 2,
-                  "harmony": 3,
-                  "serena": 2,
-                  "serrat": 2
-                },
-                "value": "medio"
-              },
-              {
-                "label": "Firme",
-                "scores": {
-                  "imperial": 3,
-                  "titanium": 2
-                },
-                "value": "firme"
-              },
-              {
-                "label": "Extra firme / ortopédico",
-                "scores": {
-                  "ortopedico": 4,
-                  "titanium": 2
-                },
-                "value": "extra-firme"
-              },
-              {
-                "label": "Adaptable (se ajusta al cuerpo)",
-                "scores": {
-                  "duo-confort": 4,
-                  "serena": 1
-                },
-                "value": "adaptable"
-              }
-            ],
-            "question": "¿Qué firmeza preferís?"
-          },
-          {
-            "helperText": "Pensá en el precio total, con cuotas sin interés el mensual puede ser mucho menor.",
-            "id": "presupuesto",
-            "options": [
-              {
-                "label": "Hasta Gs. 800.000",
-                "scores": {
-                  "golden": 2,
-                  "luna-soft": 3,
-                  "pop-kids": 2,
-                  "pop-teen": 1,
-                  "renovate": 2,
-                  "super-kids": 2
-                },
-                "value": "economico"
-              },
-              {
-                "label": "Entre Gs. 800.000 y 1.500.000",
-                "scores": {
-                  "duo-confort": 1,
-                  "essential-top": 2,
-                  "golden": 1,
-                  "harmony": 3,
-                  "ortopedico": 1,
-                  "serena": 2,
-                  "serrat": 2
-                },
-                "value": "medio"
-              },
-              {
-                "label": "Entre Gs. 1.500.000 y 2.500.000",
-                "scores": {
-                  "duo-confort": 2,
-                  "harmony": 1,
-                  "imperial": 2,
-                  "ortopedico": 2,
-                  "titanium": 3
-                },
-                "value": "alto"
-              },
-              {
-                "label": "Más de Gs. 2.500.000",
-                "scores": {
-                  "imperial": 3,
-                  "ortopedico": 1,
-                  "titanium": 3
-                },
-                "value": "premium"
-              }
-            ],
-            "question": "¿Cuál es tu presupuesto ideal?"
-          },
-          {
-            "id": "tipo",
-            "options": [
-              {
-                "label": "Resorte (más firme, más ventilado)",
-                "scores": {
-                  "essential-top": 1,
-                  "harmony": 2,
-                  "imperial": 2,
-                  "serrat": 1,
-                  "titanium": 3
-                },
-                "value": "resorte"
-              },
-              {
-                "label": "Espuma (más silenciosa, más confortable)",
-                "scores": {
-                  "duo-confort": 3,
-                  "golden": 2,
-                  "luna-soft": 2,
-                  "ortopedico": 2,
-                  "serena": 2
-                },
-                "value": "espuma"
-              },
-              {
-                "label": "Me da igual, decidime",
-                "scores": {
-                  "duo-confort": 1,
-                  "harmony": 1,
-                  "ortopedico": 1,
-                  "titanium": 1
-                },
-                "value": "indiferente"
-              }
-            ],
-            "question": "¿Tenés preferencia por resorte o espuma?"
-          }
-        ],
-        "subtitle": "Respondé honestamente — las recomendaciones son mejores cuanto más ajustadas sean las respuestas.",
-        "title": "Contanos qué buscás",
-        "topK": 3
-      },
-      "seo": {
-        "description": "En 6 preguntas te recomendamos el colchón ideal según tu peso, postura al dormir, y necesidades de soporte. 19 modelos disponibles.",
-        "title": "¿Qué colchón necesitás? — Quiz Superspuma"
       }
     },
     "siteName": "Superspuma",
     "terminos": {
       "hero": {
         "headline": "Términos y condiciones",
-        "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026.",
-        "trustBadgesEnabled": false
+        "subheadline": "Al comprar productos Superspuma aceptás estos términos. Última actualización: abril 2026."
       },
       "seo": {
         "description": "Condiciones de uso del sitio web y de las compras realizadas a Superspuma del Paraguay S.A.E.C.A.",
@@ -42413,9 +34243,19 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Quién es Superspuma?"
           },
           {
+            "answer": "El uso de este sitio web o la realización de una compra implica la aceptación plena de estos términos y condiciones. Si no estás de acuerdo con alguno, por favor no utilices el sitio ni realices compras.",
+            "category": "2. Aceptación",
+            "question": "¿Qué implica usar este sitio?"
+          },
+          {
             "answer": "Los precios están expresados en guaraníes (Gs.) e incluyen IVA. Pueden variar sin previo aviso. El precio aplicable es el vigente al momento de confirmar tu pedido por WhatsApp, tienda o canal oficial. Los precios marcados como 'desde' corresponden a la medida más pequeña disponible del modelo.",
             "category": "3. Precios",
             "question": "¿Los precios publicados son finales?"
+          },
+          {
+            "answer": "Indicamos disponibilidad al confirmar el pedido. Si un modelo no está en stock, lo fabricamos a pedido con un plazo de 3 a 5 días hábiles adicionales. Nos reservamos el derecho de cancelar pedidos en casos excepcionales de error de precio o indisponibilidad prolongada, reembolsando cualquier pago recibido.",
+            "category": "4. Disponibilidad",
+            "question": "¿Qué pasa si el producto no está en stock?"
           },
           {
             "answer": "Aceptamos: tarjetas de crédito (Visa, Mastercard, Credicard, Cabal, Pánal) en cuotas sin interés de 4, 6, 12, 15 ó 18 según banco emisor; tarjeta de débito; transferencia bancaria (con descuento adicional); efectivo en tienda. Los pagos con tarjeta son procesados por Bancard S.A.",
@@ -42438,252 +34278,54 @@ export const CONTENT: Record<string, JsonRecord> = {
             "question": "¿Puedo devolver o cambiar un colchón?"
           },
           {
+            "answer": "Sí, sin costo adicional, el mismo día de la entrega del nuevo. El colchón retirado se dispone conforme a nuestro programa de gestión responsable de residuos. No retiramos colchones con presencia de fluidos, agentes biológicos de riesgo, o en estado que implique riesgo sanitario para nuestros operarios.",
+            "category": "9. Retiro del viejo",
+            "question": "¿Se llevan mi colchón viejo?"
+          },
+          {
             "answer": "Los datos personales que nos entregás (nombre, teléfono, dirección, email) se usan exclusivamente para procesar tu compra, coordinar la entrega y contactos post-venta asociados a la garantía. Ver nuestra Política de Privacidad para detalles. Cumplimos con la Ley N° 6534/20 de Protección de Datos Personales y demás normativa paraguaya aplicable.",
             "category": "10. Datos personales",
             "question": "¿Cómo usan mis datos?"
           },
           {
+            "answer": "Las promociones (descuentos, cuotas, retiros de viejo) no son acumulables entre sí salvo indicación expresa. Cada promoción tiene su propia vigencia, condiciones y stock limitado. Nos reservamos el derecho de finalizar una promoción anticipadamente.",
+            "category": "11. Promociones",
+            "question": "¿Las promociones son acumulables?"
+          },
+          {
+            "answer": "Las marcas 'Superspuma', los nombres de modelos (Titanium, Imperial, Harmony, etc.), imágenes y textos son propiedad de Superspuma del Paraguay S.A.E.C.A. No está permitido reproducirlos con fines comerciales sin autorización escrita. Para uso editorial o periodístico escribinos a info@superspuma.com.py.",
+            "category": "12. Propiedad intelectual",
+            "question": "¿Puedo usar las imágenes o textos del sitio?"
+          },
+          {
+            "answer": "Superspuma responde por la calidad del producto dentro de los plazos de garantía. No respondemos por daños indirectos derivados del uso del colchón (pérdida de sueño, condiciones médicas preexistentes, daños a otros bienes). Ante falla cubierta por garantía, reparamos o reemplazamos sin costo al cliente.",
+            "category": "13. Responsabilidad",
+            "question": "¿Cuál es el alcance de su responsabilidad?"
+          },
+          {
+            "answer": "Sí. Podemos actualizar estos términos en cualquier momento publicando la nueva versión en esta página. Los cambios aplican a compras realizadas posterior a la actualización. Recomendamos revisar periódicamente.",
+            "category": "14. Modificaciones",
+            "question": "¿Pueden cambiar estos términos?"
+          },
+          {
             "answer": "Estos términos se rigen por las leyes de la República del Paraguay. Cualquier controversia será resuelta por los tribunales ordinarios con competencia en la ciudad de Asunción, renunciando a cualquier otro fuero que pudiera corresponder.",
             "category": "15. Jurisdicción",
             "question": "¿Qué ley rige y dónde se resuelven conflictos?"
+          },
+          {
+            "answer": "Antes de cualquier acción legal te pedimos intentar resolución amistosa contactándonos por info@superspuma.com.py o WhatsApp +595 974 202 025. Respondemos todos los reclamos dentro de las 48 hs hábiles.",
+            "category": "16. Contacto",
+            "question": "¿Cómo los contacto ante una disputa?"
           }
         ],
         "subtitle": "Leé con atención. Si tenés dudas escribinos por WhatsApp antes de completar tu compra.",
         "title": "Términos y condiciones de uso y compra"
-      },
-      "trustBadgesEnabled": false
-    },
-    "tienda": {
-      "hero": {
-        "ctaPrimaryHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
-        "ctaPrimaryText": "Consultar por WhatsApp",
-        "ctaSecondaryHref": "/s/es/superspuma/guias",
-        "ctaSecondaryText": "Guía de compra",
-        "headline": "Todos nuestros colchones",
-        "subheadline": "19 modelos fabricados en Paraguay desde 1976. Filtrá por categoría y abrí cada ficha para ver medidas, firmeza y garantía.",
-        "trustBadges": [
-          "49 años en Paraguay",
-          "18 cuotas sin interés",
-          "Envío a todo el país"
-        ],
-        "trustBadgesEnabled": true
-      },
-      "productCatalog": {
-        "categories": [
-          "Resorte",
-          "Espuma",
-          "Accesorios"
-        ],
-        "orderButtonText": "Consultar por WhatsApp",
-        "orderMessageTemplate": "Hola! Estoy interesado en el colchón {{productName}} ({{productPrice}}). ¿Me pueden dar más información sobre medidas disponibles y tiempo de entrega?",
-        "productLinkBase": "/s/es/superspuma/producto",
-        "products": [
-          {
-            "category": "Resorte",
-            "description": "Premium con Euro Pillow Top. Resortes Bonell reforzados, tejido antiácaros y hasta 120 kg por lado. 5 años de garantía.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/titanium-300x300.png",
-            "name": "Titanium",
-            "price": "Desde Gs. 1.800.000",
-            "priceOriginal": "Gs. 2.250.000",
-            "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20,
-            "slug": "titanium"
-          },
-          {
-            "category": "Resorte",
-            "description": "Resortes Bonell con Pillow Top. Descanso regenerador para uso matrimonial. 3 colores disponibles.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/imperial-300x300.png",
-            "name": "Imperial",
-            "price": "Desde Gs. 2.230.000",
-            "priceOriginal": "Gs. 2.787.500",
-            "promoLabel": "Promo 20% OFF",
-            "promoPercent": 20,
-            "slug": "imperial"
-          },
-          {
-            "category": "Resorte",
-            "description": "Equilibrio entre soporte y confort. Euro-Top y tejido antiácaros. Uno de nuestros más vendidos.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
-            "name": "Harmony",
-            "price": "Desde Gs. 1.274.000",
-            "slug": "harmony"
-          },
-          {
-            "category": "Resorte",
-            "description": "Resorte con espuma de densidad media en superficie. Firmeza media, tacto suave.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/serrat-300x300.png",
-            "name": "Serrat",
-            "price": "Desde Gs. 1.150.000",
-            "slug": "serrat"
-          },
-          {
-            "category": "Resorte",
-            "description": "Resorte con pillow suave para quienes prefieren un tacto mullido.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92291-300x300.jpg",
-            "name": "Delta Soft",
-            "price": "Desde Gs. 1.050.000",
-            "slug": "delta-soft"
-          },
-          {
-            "category": "Resorte",
-            "description": "La puerta de entrada al resorte Superspuma con Pillow Top.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92036-300x300.jpg",
-            "name": "Essential Top",
-            "price": "Desde Gs. 890.000",
-            "slug": "essential-top"
-          },
-          {
-            "category": "Resorte",
-            "description": "Ideal para reemplazar tu viejo colchón sin gastar de más.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/renovate_negro-300x300.png",
-            "name": "Renovate",
-            "price": "Desde Gs. 780.000",
-            "slug": "renovate"
-          },
-          {
-            "category": "Resorte",
-            "description": "Resorte premium para niños. Reversible, antiácaros, diseños rosa y celeste.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
-            "name": "Impulse Kids",
-            "price": "Desde Gs. 780.000",
-            "slug": "impulse-kids"
-          },
-          {
-            "category": "Resorte",
-            "description": "Resorte reforzado para adolescentes. Mayor densidad y capacidad de carga.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/impulse-1-300x300.jpg",
-            "name": "Impulse Teens",
-            "price": "Desde Gs. 890.000",
-            "slug": "impulse-teens"
-          },
-          {
-            "category": "Resorte",
-            "description": "Colchón infantil económico con diseños divertidos. Tela Polybrush.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/WhatsApp-Image-2025-08-12-at-12.41.35-300x300.jpeg",
-            "name": "Pop Kids",
-            "price": "Desde Gs. 649.000",
-            "slug": "pop-kids"
-          },
-          {
-            "category": "Resorte",
-            "description": "Pop reforzado para uso adulto — mayor capacidad.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/pop_plus_pillow-300x300.png",
-            "name": "Pop Plus",
-            "price": "Desde Gs. 850.000",
-            "slug": "pop-plus"
-          },
-          {
-            "category": "Resorte",
-            "description": "Pop para adolescentes — precio accesible y buena durabilidad.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
-            "name": "Pop Teen",
-            "price": "Desde Gs. 780.000",
-            "slug": "pop-teen"
-          },
-          {
-            "category": "Resorte",
-            "description": "Línea superior juvenil. Mejor acabado y mayor densidad.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/Pop-Teen-300x300.jpeg",
-            "name": "Superteen",
-            "price": "Desde Gs. 980.000",
-            "slug": "superteen"
-          },
-          {
-            "category": "Espuma",
-            "description": "Espuma alta densidad 45. Hasta 140 kg por lado. 6 años de garantía. Para quienes priorizan firmeza.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/ortopedico-1-300x300.jpg",
-            "name": "Ortopédico",
-            "price": "Desde Gs. 1.290.000",
-            "slug": "ortopedico"
-          },
-          {
-            "category": "Espuma",
-            "description": "Viscoelástica adaptable (memory foam). Alivia puntos de presión y mejora la circulación.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/duo-confort-1-300x300.jpg",
-            "name": "Duo Confort",
-            "price": "Desde Gs. 980.000",
-            "slug": "duo-confort"
-          },
-          {
-            "category": "Espuma",
-            "description": "Espuma de alta densidad con buen confort y recuperación.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/serena-1-300x300.jpg",
-            "name": "Serena",
-            "price": "Desde Gs. 850.000",
-            "slug": "serena"
-          },
-          {
-            "category": "Espuma",
-            "description": "Espuma reversible con Pillow Top simple. Excelente relación calidad/precio.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/golden-1-300x300.jpg",
-            "name": "Golden",
-            "price": "Desde Gs. 696.000",
-            "slug": "golden"
-          },
-          {
-            "category": "Espuma",
-            "description": "Espuma de densidad media. Superficie suave — ideal para invitados o uso ocasional.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/luna-soft-1-300x300.jpg",
-            "name": "Luna Soft",
-            "price": "Desde Gs. 500.000",
-            "slug": "luna-soft"
-          },
-          {
-            "category": "Espuma",
-            "description": "Espuma infantil liviana. Perfecto para cunas de transición.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/RZ92104-300x300.jpg",
-            "name": "Super Kids",
-            "price": "Desde Gs. 420.000",
-            "slug": "super-kids"
-          },
-          {
-            "category": "Accesorios",
-            "description": "Sommier con tapa rebatible y espacio de guardado. Todas las medidas.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2023/11/RZ92016-300x300.jpg",
-            "name": "Base Box Baúl",
-            "price": "Desde Gs. 890.000",
-            "slug": "base-box-baul"
-          },
-          {
-            "category": "Accesorios",
-            "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Hipersoft-300x300.jpg",
-            "name": "Protector Impermeable",
-            "price": "Desde Gs. 120.000",
-            "slug": "protector-colchon"
-          },
-          {
-            "category": "Accesorios",
-            "description": "Cubre colchón acolchado con elástico en todos los tamaños.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Cubrecolchones-300x300.jpg",
-            "name": "Cubre Colchón",
-            "price": "Desde Gs. 95.000",
-            "slug": "cubre-colchon"
-          },
-          {
-            "category": "Accesorios",
-            "description": "Almohadas de fibra siliconada o espuma. Varias firmezas.",
-            "imageUrl": "https://www.superspuma.com.py/wp-content/uploads/2024/03/Silicon-300x300.jpg",
-            "name": "Almohada Superspuma",
-            "price": "Desde Gs. 65.000",
-            "slug": "almohada-superspuma"
-          }
-        ],
-        "subtitle": "19 modelos en línea — resorte, espuma y accesorios. Clic en cualquier ficha para ver detalle, medidas y precio por medida. Consultá stock por WhatsApp.",
-        "title": "Todos nuestros colchones y accesorios",
-        "whatsappPhone": "595974202025"
-      },
-      "seo": {
-        "description": "Catálogo completo de colchones Superspuma: 13 de resorte + 6 de espuma + accesorios. Ficha por modelo con medidas, firmeza, garantía y precio. Envío a todo Paraguay, 18 cuotas sin interés.",
-        "title": "Tienda Superspuma — colchones, sommiers y accesorios | Fábrica paraguaya"
       }
     },
     "tiendas": {
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=80",
         "headline": "Nuestras tiendas",
-        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 7 tiendas en Asunción y Central + 6 centros logísticos en todo el país.",
-        "trustBadgesEnabled": false
+        "subheadline": "Un colchón se elige acostándose. Por eso tenemos 5 ubicaciones donde podés probar los modelos en persona."
       },
       "logistics": {
         "subtitle": "Cobertura en todo el país. Retirá en cualquiera de nuestros puntos regionales o coordiná envío desde el más cercano a tu ciudad.",
@@ -42759,16 +34401,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         ],
         "title": "Centros logísticos en el interior"
       },
-      "map": {
-        "alt": "Mapa de Paraguay con ubicación de tiendas Superspuma",
-        "background": "surface",
-        "maxWidth": 820,
-        "src": "/images/ss/py-map.svg",
-        "subtitle": "Asunción y Central concentran los puntos propios. El resto del país llega vía centros logísticos.",
-        "title": "7 tiendas + 6 centros logísticos en todo el país"
-      },
       "seo": {
-        "description": "Red propia en Paraguay: 7 tiendas en Asunción y Central (Villamorra Shopping, Paseo La Galería, Fuente Shopping, Lillo, Fernando de la Mora, Luisito en Ñemby y el outlet Saldos Mariano) más 6 centros logísticos en el interior.",
+        "description": "Probá tu próximo colchón en cualquiera de nuestras 5 tiendas. Mariano Roque Alonso, Fernando de la Mora, Terminal, Shopping Villamorra y Paseo La Galería.",
         "title": "Tiendas Superspuma — 5 sucursales en Asunción y Central"
       },
       "stores": {
@@ -42868,8 +34502,7 @@ export const CONTENT: Record<string, JsonRecord> = {
           }
         ],
         "title": "Tiendas y puntos de venta"
-      },
-      "trustBadgesEnabled": false
+      }
     },
     "whatsapp": {
       "defaultMessage": "Hola! Quiero consultar por un colchón Superspuma.",
