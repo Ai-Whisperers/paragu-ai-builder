@@ -813,6 +813,14 @@
       "namedRegex": "^/dashboard/(?<nxtPslug>[^/]+?)/productos(?:/)?$"
     },
     {
+      "page": "/dashboard/[slug]/reservas",
+      "regex": "^/dashboard/([^/]+?)/reservas(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/dashboard/(?<nxtPslug>[^/]+?)/reservas(?:/)?$"
+    },
+    {
       "page": "/demo/[rubro]",
       "regex": "^/demo/([^/]+?)(?:/)?$",
       "routeKeys": {
