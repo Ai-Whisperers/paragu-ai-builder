@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 630185",
+    "whatsapp": "+595 986 630185",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0986 630185"
+    "phone": "+595 986 630185"
   },
   "location": {
     "city": "Concepción",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "5023b79d-0046-4e3b-a86f-46bf991b1bc3"
+  "previewLeadId": "5023b79d-0046-4e3b-a86f-46bf991b1bc3",
+  "google_maps_url": "https://maps.google.com/?cid=894008180677580580",
+  "business_status": "OPERATIONAL"
 }

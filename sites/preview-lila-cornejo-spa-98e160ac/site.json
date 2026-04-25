@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 376951",
+    "whatsapp": "+595 983 376951",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0983 376951"
+    "phone": "+595 983 376951"
   },
   "location": {
     "city": "Villa Elisa",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "98e160ac-81ef-4154-93cf-37d37f1404d1"
+  "previewLeadId": "98e160ac-81ef-4154-93cf-37d37f1404d1",
+  "google_maps_url": "https://maps.google.com/?cid=10825694757581540163",
+  "business_status": "OPERATIONAL"
 }

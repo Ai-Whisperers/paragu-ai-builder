@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 575176",
+    "whatsapp": "+595 981 575176",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 575176"
+    "phone": "+595 981 575176"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "f5ccd4f7-26d9-4d41-8d20-9427d2e4e03a",
-  "createdAt": "2026-04-25T05:23:41.472Z"
+  "createdAt": "2026-04-25T05:23:41.472Z",
+  "google_maps_url": "https://maps.google.com/?cid=11934467319277284435",
+  "business_status": "OPERATIONAL"
 }

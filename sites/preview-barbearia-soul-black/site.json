@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(21) 97585-1255",
+    "whatsapp": "+55 21 97585-1255",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "(21) 97585-1255"
+    "phone": "+55 21 97585-1255"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "926a2be4-e16d-45e2-8a7b-1f57404acb8a",
-  "createdAt": "2026-04-25T05:23:41.378Z"
+  "createdAt": "2026-04-25T05:23:41.378Z",
+  "google_maps_url": "https://maps.google.com/?cid=10638475599549575833",
+  "business_status": "OPERATIONAL"
 }

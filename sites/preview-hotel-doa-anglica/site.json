@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 520182",
+    "whatsapp": "+595 981 520182",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 520182"
+    "phone": "+595 981 520182"
   },
   "location": {
     "city": "San Ignacio Guazú",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "c28aba64-9941-4575-9389-ce0704ee7fb4",
-  "createdAt": "2026-04-25T05:23:41.355Z"
+  "createdAt": "2026-04-25T05:23:41.355Z",
+  "google_maps_url": "https://maps.google.com/?cid=8378308527694222546",
+  "business_status": "OPERATIONAL"
 }

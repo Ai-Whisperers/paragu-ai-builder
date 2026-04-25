@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0972 138340",
+    "whatsapp": "+595 972 138340",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0972 138340"
+    "phone": "+595 972 138340"
   },
   "location": {
     "city": "Villa Hayes",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "45bddc2f-20e0-4dfc-a435-d9456d6717da",
-  "createdAt": "2026-04-25T05:23:41.444Z"
+  "createdAt": "2026-04-25T05:23:41.444Z",
+  "google_maps_url": "https://maps.google.com/?cid=2238153349339021561",
+  "business_status": "OPERATIONAL"
 }

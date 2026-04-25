@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Asunción",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Asunción",
-      "phone": "0986 747555",
+      "phone": "+595 986 747555",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 986 747555"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,24 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEGtv5mZjonEM_qWtJILFe7BYBICmWjSeSXTbqpVzTbbaPJog3wsZnjN8Me-DgfTN0dimGgN79xaB5KJzMC9Npp20TFNYorGEB10Lv5ys6R-W3zXcV5Of0hWhiHkgIgzLwJvgPBQ-E0JB-a8W0zFynTD2Y1QxMXaoWVXDjSKEBxlseiLPZkeD0H8CUWkPBS6TeiZtQ8Q-68Isbo9TkoLqkF-JybMkMmsGhJdixtaOG4OCOLySl-J4qkYl3S9VPYyN4Qv6euPG9GyqWspxHwk6kLVHqmXVls1R1D4DNIURfI_1A0sFL1ZhNZMpUyf-OtughPzP0J9zASnxtG7KdK479-ASQlU5lamvBFV9dgud-dJpLV8YQ_P54M2mfnM_a2t9pN6XPZoPMf14x1RxUj632g4JQP4Mx-nJPT4MGK9Aco&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEHKqcs2_jqq1BpfAWT_l3nUW4pBAtd7qJm5i1jF3RFS-RV4xr_mwlCei_IghQa4i-IBcAYr3kKkJ-_WIyhrY9FhyO9yP_hx1hZku3gb1u_2azLhlObHPtHZcQUDyHX_6UUJcS-eK-okwlPh6Bm5kiEB3mSy9X-XFmikqyFMk6QAM561-pMfmN2tVeSvWm0u_KFsAxDHFNPhzPl9ym-QlH_vhUoYIK49-3To5ifw7UxHinWQHtsPtAZ0HtUsRgxP_mJq5EoXqYuyj2XBVesrBEHphBasZblRYXHiSK0D0au_AbdLlxvj9oAcxngoK2F0TF9ru3HJNKH3H-KSmNYvDPYb1hSwIKiiwADS2oGLXKMaaAJTGlzJzxbXohBdipjSiuMX6PUAnLOmaGYLgpaYuuDCk-IseMwH18esqrd7BbWrrg&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEEm8gh2kw9g3ax5AWcP-N9qWijPy1gt4tWOxlc8JeuJXPDB2XoWw5irK8sIJx3Lvy1fch8MVAcODVx7EPgvjLIcPpN0ev8BSobW2UzWCZ1ju2vMoGEUOFMuBHiM6q-wnz5i2W3fv4BZGw_CCxM4LQkuf7gV9gJZqJCactk9QrWQjhLI-K7R_M5ZEbVUK1t4QdeC7Vwt7d3SlBzqsKAoDgMehsNKv2_jFqasuEYAVgcKJEFo4Z1c0tX1Z7KlejyoMhzqVebr2efIew04WsB3pPzG1sa-ChBJokuW_VlRPkMusA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +171,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 91 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
-        },
-        {
-          "rating": 3,
-          "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carolina M."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Sofía A."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Arnaldo Dominguez",
+          "quote": "Ok",
+          "rating": 5
         }
       ]
     },
@@ -274,36 +243,49 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "10:00 AM – 7:00 PM",
+      "Martes": "10:00 AM – 7:00 PM",
+      "Miercoles": "10:00 AM – 7:00 PM",
+      "Jueves": "10:00 AM – 7:00 PM",
+      "Viernes": "10:00 AM – 7:00 PM",
+      "Sabado": "Closed",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 91 resenas en Google - 4.9 estrellas",
+      "subtitle": "Basado en 91 reseñas en Google - 4.9 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Arnaldo Dominguez",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Ok"
         }
       ],
       "avgRating": 4.9,
@@ -364,6 +346,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

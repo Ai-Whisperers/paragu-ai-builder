@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 336903",
+    "whatsapp": "+595 986 336903",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0986 336903"
+    "phone": "+595 986 336903"
   },
   "location": {
     "city": "San Lorenzo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "4a993250-bf53-4924-934a-4d277c281316",
-  "createdAt": "2026-04-25T05:23:41.410Z"
+  "createdAt": "2026-04-25T05:23:41.410Z",
+  "google_maps_url": "https://maps.google.com/?cid=16492063776725439587",
+  "business_status": "OPERATIONAL"
 }

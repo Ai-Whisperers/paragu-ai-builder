@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el barrio Villa Morra, Asunción",
       "address": "Av. Santa Teresa 1250 c/ San Martín",
       "city": "Caaguazú",
-      "phone": "+595981726354",
+      "phone": "+595 972 541126",
       "email": "contacto@demospa.com.py",
-      "whatsapp": "+595981726354"
+      "whatsapp": "+595 972 541126"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
@@ -117,40 +117,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Un ambiente pensado para tu relajación",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
-          "alt": "Sala de masajes",
-          "caption": "Sala de masajes con aromaterapia"
+          "src": "/api/place-photo?ref=AU_ZVEEMFgXxSg0pqmwbPkft4-jAk7Ob5IaIQ5dU8UuwNEhbrpzOy1bkWmUCgZymklCNtTPBBgETSXTJcOPMR5FzepweBXD9vGkfB1cJzHfDHTRkv5A7GYbYc1xJceBH6t0K1Vp0-7OP4D1H4AC1WUNPHz21o0Ub4JdEdsHNC35aoNtzqIIUKSHTJtkMVymcKj1sUuGZ8ts3bFA0sgfJsG5wI5xst-lYnf5KDa696Ra-NRnU9Jz9WYREU4wyE_fGWiYJRvEUmdhfw72nZEYXLE2FSBA5BEK0Qnu8fjKsPrpvX9QPKQ&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
-          "alt": "Tratamiento facial",
-          "caption": "Limpieza facial profunda"
+          "src": "/api/place-photo?ref=AU_ZVEHJXlvMreTqOh9XsdUM87jLyD5cZzyHs44No8tE6mr3W09jmvpVB8-Ygldu58ePae8wsKBOsajI9nF5LB_wmSNn_M7cIXenkYXbJiFMDIe510MdBksIZDN2IAdQwGs8xPhZqUKGeCO9RTBpMpT_JOnlcfCKFY0gaLUBjmhXW1izkZS5Il4ZMiwgjO3Nk9ZhsUCSE9IVpkdIsRrn_23qs_cASanfFam6m7nXiEFlMRnmtS6zD9GQF_qjdSyNacluo38UOL0Rxf4a7bbL6iLL21VUoKpYbxxQoEDBNSOsnwE_9Q&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
-          "alt": "Velas y ambiente spa",
-          "caption": "Ambiente de relax"
+          "src": "/api/place-photo?ref=AU_ZVEFY0QmJ1WChr_9v2nJB-qcQghFf1x9CA1KnCvgnkK0gITBPGYaNbFw5iwLDHd2JC3HhWO-oxa9G72JfEpSjMd6DoXxGiTl3MWZG_Ym-0Hg4JYLsHYyoCwaMKz2AzmBsp42GU9SMcIMspsIuwqhgTrgpzfndrDVy-pnmvaNW5Mxy5ZbUUlHKq9NSQMhH2SIuzZWHuita9704UwHbsMIxZXv6G2BUnZ6RDWVBWGPoVZix_i2ZWJwswxzMlIv4-YaWMRC4lyke7daWrUiXc0J6zOYTM-JxoZW0fON0LdMK6mzTnA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
-          "alt": "Masaje de espalda",
-          "caption": "Masaje descontracturante"
+          "src": "/api/place-photo?ref=AU_ZVEGSyDPzLACAHGh5ApeJd101ZymtXgIcnNW60835KjZuZwvFhjR1_FKqRsHVV5TiExk7sTNmDXka0URfVjqx92HjQ4vVGdy9KFYW1XgbyM2oqYHFKsJyqk86y2HahqJU_hgc9GR17slawEDWJ4XwEXGKfwUrYHvmTzER_7Xe8UkQH4r4FnHwF3PTuMcmKwJxcAp1ROoHparbc3jM71EkB0DkDBfGPM5dLNuvqDQo3Umf0xcJMDcnfyy-_8CUy0bZM4NKHff1v9MAzFpNowC0AdqDA6M3aaEQV-KoXD11Qld7_w&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
-          "alt": "Tratamiento corporal",
-          "caption": "Envoltura detox"
+          "src": "/api/place-photo?ref=AU_ZVEHJ5Tt6Nqzr0nahzuLosiNXo2iexUPHiInx6x6JLnHLyB0YQmggiEi63h3grB1ITxyxksCd-D5xFN1yB5r9G_V_LIJe0VKN9kBWDGoa2siergC-2P9dwFGBg6qYdWAqplxB5GliKejJWWUn0AuTUVgjpnbFdsnXuNCvt0J3jBLEfAzCReHTpn8E9CI7iwkxFARYSzdJOzf7JOo7f1KznZbF9Tk88pYdnU6Y5q030shh8YR49PfS1M1_aC0eLhpo6-bmmjklJdooHnfDD3zLiioGwRxmsMuhyeuz2UuiIx5tAcA22DPFzwlJwPk6WD_c8mC5iK1k6IStxmQ_1steCiNws_dsNn6UW6LdL-wFgA8LOuOauaNkl42qXJT8na-TSO-B8TbHwsBbAWpEQL7aaY2lFZij6AdS8lKSZ-4iKiAAGEB1&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
-          "alt": "Sauna",
-          "caption": "Sauna finlandesa"
+          "src": "/api/place-photo?ref=AU_ZVEHDMGDe-lBWWysWsrBJXOS0zkooF72qvz4rrZgFeHk6k7FyLyDxLFncdOhFSTnkrQ-xbU_8GgoIqFovA5ZXxYv2448jLH8zQspL8bzDWGPGekNzgqXR1WI7brQQs-Q3mnFQ73lsmILqOt1Gdd0W565b-JJ9NcqQZ3s7cF2V11Sc85hlFnpvSB4whS2GCvS5HRrvVpA_pTawo6OZEMklT7et2_ZOyU0DtsdibNyTWlhBuNgeogsaxt8SV8DVLQE1ain_S0RDLixiC6oRruykbtsfKGhhlRcxhp6G09XbLR8_ACTud7Hixf8rM8m5ED5fdnjNuFW_SGXkWoO8RbfS78ckxejCtXr7yll-glEnbymiv2IDkQcLTOsweKG7p2kx-SV_RlASL8g9ldZSuA1O8x0cGUeS5USFA2e2dSzZBrz0TQ&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -181,30 +180,9 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 73 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu turno",
@@ -270,16 +248,56 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "08:00 - 20:00",
-      "Sábado": "09:00 - 18:00"
+      "Lunes": "5:30 AM – 8:30 PM",
+      "Martes": "5:30 AM – 9:00 PM",
+      "Miercoles": "5:30 AM – 9:00 PM",
+      "Jueves": "5:30 AM – 9:00 PM",
+      "Viernes": "5:30 AM – 9:00 PM",
+      "Sabado": "5:30 AM – 9:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@demo.spa.py — mostramos nuestro trabajo todos los días",
-      "handle": "@demo.spa.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
     }
   },
   "footer": {

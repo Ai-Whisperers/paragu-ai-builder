@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 524075",
+    "whatsapp": "+595 982 524075",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0982 524075"
+    "phone": "+595 982 524075"
   },
   "location": {
     "city": "Mariano Roque Alonso",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "9735caac-7fce-4f19-a4f3-fcae30b6de50",
-  "createdAt": "2026-04-25T05:23:41.344Z"
+  "createdAt": "2026-04-25T05:23:41.344Z",
+  "google_maps_url": "https://maps.google.com/?cid=14238995697202345820",
+  "business_status": "OPERATIONAL"
 }

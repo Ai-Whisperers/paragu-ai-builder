@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0991 208143",
+    "whatsapp": "+595 991 208143",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0991 208143"
+    "phone": "+595 991 208143"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "0c1e4c06-a03d-4690-af1d-b43cf7edaed5",
-  "createdAt": "2026-04-25T05:23:41.422Z"
+  "createdAt": "2026-04-25T05:23:41.422Z",
+  "google_maps_url": "https://maps.google.com/?cid=15631524525644842008",
+  "business_status": "OPERATIONAL"
 }

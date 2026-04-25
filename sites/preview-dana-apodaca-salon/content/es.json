@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Encarnación",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Encarnación",
-      "phone": "0985 772800",
+      "phone": "+595 985 772800",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 985 772800"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -119,40 +119,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEGxL_XCe8MgXPTr97ZllQO7HMQUh5Fdh4Yr9JrV2HjTH_u2Zm1G0cSLZK3Rg3jAxKV3D4rqCXhyJzHgF4DDZOL5Uan8Xrm3Lrr7VmKmRU0BO2NVjYkx9Ud-S-kDpMCfOzJotfgyOU3w7k3Fq5-Wp0dXzCfWF5f250xQ9gJ6winaneognQmK-xd03Fu2DCqVGa4Q-Cuc3Fs7hX9sx0Cd5XaFXii4WYVgZFzegA3tad2Ees83XuFfw0hckr1eURWe-gK8lmYTsmA7A_Jdcz_wnVVF5yNl0dpcrEja-_y8JL4MWg&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEFQLzIsYc9SgJSEfPjKQoZyAhp-Q0S9S0WIF6f75xQ9UL6whgz_K-Jii-1VmbB_meuJiEvdLWSBSdTQVzyWCLY8fi6coPiGT4uc1AFTCc10COxjDEpEWi6X5LDiJGS5UMRslL3-3lDtmi8m_XHqVdvnrFAaOR1vdkLXw_IMD9FZco4v1hKgiVS1wieNBD43VwpqE6KLfHWrks_8Clf6HWHfxbU0bhzF34sz0_TEIR7GKJrvz_CqJsw0QPK44P6a59ulMrIo_9EETt_-rTQoVFP1v2QsqibeXn1W9V5F3b1Njw&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEEEZewNcoVqBPuksUHckCfoxUa-IFZFldD_Hp8ppcproxj1Ko0gHB83B2iS7jtfTMnAty0GqRg4ezC72lnZpJo-V3aMd20umee_OEkIVtoC6qaiqY1ZStx9LsQdPUKBIuHlm7sgAh9i6D1rSVC1Ves69LPNRCiay_yAFZ1cJMHpUQpOuKg1zougdoD15azMvRN_tovlRJwj7F8ofGdnAmT3lwFNU6HlKA9ElbSmCsB3v8IOA_b8mbgny-pcky6R5VFf6NCrP8KXCPJPTW20l2nn5NcqO7pKFXA5Cqg8H0uhWHRQOf5SqWMXYtPomcrAWJRZFg8azerGrzH13sZhD1AQ-U27sALfLaSAozFb3pRqcmy4-BgitBQ_3xKHrVkoMQB3hxm-EctEipc8u2pqY9vm7boZeTDJKOpZ7WW5LexZDA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEHo_g0i_IZQG6vaGfpVQvyUAtK2bCbn8aVn7KRGag6gxgzVNQbiM3CETRzc7AQscr9K47IlvkGm57php-AS3YIEU-l3iYC6nuX0XICE74FB5oNEzi3GIobsUHm9da3siLa5ON0jyJSwhUAi_1z5_DUUV9oSU68YjEZqSw33dBrqpWMwOYrqAZxyYeYnqL4otYyvEwPgHjapioD2Qu3Cr_OqWAZusVt4lQdFlj_KinzxMz2kFSa8tym4w7XkanT4yizcc6wXU3Qxafmc-CWbMiAocW1xxFrULZ7cmLUPE6t6cw&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEGQiJaLUOHBlRspAQoX44cxziPFdlQcTR0ZE5f1FdZ3PZUvg0OLAd0_Jy1UG3iFoFg64cE65L_KNXsqUUwvWRLJyGMBJbVtfuDXUrcMrrKGbMs68dExXFQf5NDqQVsbJnd0RlmbPdhvc57QTmExBhew26J3qPDc_Pypm3Ch7V9cTD7NXlYwpxSmMkO_AlNtlzF_k8t0lVcmJ6pJolgJJTJb_kozmpPSwSquesmR4PZuAIg-VPK4LHkqUn0xNjV7wIlZVHImpGB9IDkli18RklJvonDKWZfQxTUywirwSPlKcg&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEFew12XeeV0gXGrvw6_NUo4s9We5A0JK1KZofeLYse-wd2XdmT1jR-YDi3lRoNlB6N-bYnppn3_Y8NvcZ-FL7Y6pqP--XJkjJJN6VgRKeStdJVlHrOh6V4ou2BP2yE0VP4_YsKRTVbBRG7u88K8AJsE6CF1TcnClBiZg_QexaaFF-3vztD4F575JUHXhDC-UYfoyMROyRyNKmOXDRn4f5mEjOZ8buyvUxJZnJMTNBitPDWbMloE3aExwoeRrQ_NGwtKD1WB68Uuq90MPw4mgCu4PF8tppEqRrlzKadDnZQAjg&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -188,28 +187,18 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 103 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "Ada Luz",
+          "quote": "Beautiful place... I loved its professional staff... quiet place especially for women... speechless, excellent... I traveled from Asunción and found such a comfortable place for the first time.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carolina M."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Sofía A."
-        },
-        {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Augusto Barrios Hermosa",
+          "quote": "The place is lovely, the service is excellent, and the product quality is superb (L'Oréal, Revlon, etc.). However, the prices are outrageously high. A standard hair dye can cost almost AR$2,000.",
+          "rating": 2
         }
       ]
     },
@@ -275,36 +264,54 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "1:00 – 7:00 PM",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 7:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 103 resenas en Google - 4.7 estrellas",
+      "subtitle": "Basado en 103 reseñas en Google - 4.7 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Ada Luz",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "Beautiful place... I loved its professional staff... quiet place especially for women... speechless, excellent... I traveled from Asunción and found s"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "author": "Augusto Barrios Hermosa",
+          "rating": 2,
+          "text": "The place is lovely, the service is excellent, and the product quality is superb (L'Oréal, Revlon, etc.). However, the prices are outrageously high. A"
         }
       ],
       "avgRating": 4.7,
@@ -365,6 +372,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

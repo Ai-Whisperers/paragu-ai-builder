@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 999955",
+    "whatsapp": "+595 994 999955",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0994 999955"
+    "phone": "+595 994 999955"
   },
   "location": {
     "city": "Hernandarias",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "22be448d-a55c-4345-86af-b632622a5ce1",
-  "createdAt": "2026-04-25T05:23:41.453Z"
+  "createdAt": "2026-04-25T05:23:41.453Z",
+  "google_maps_url": "https://maps.google.com/?cid=456782028770347889",
+  "business_status": "OPERATIONAL"
 }

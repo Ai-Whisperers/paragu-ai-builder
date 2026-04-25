@@ -70,6 +70,7 @@ export type SectionType =
   | 'googleReviews'
   | 'packagesGiftcards'
   | 'branches'
+  | 'instagramFeed'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -435,6 +436,7 @@ export const SECTION_MAP: Record<string, SectionType> = {
   branches: 'branches',
   sucursales: 'branches',
   locations: 'branches',
+  instagramFeed: 'instagramFeed',
   galleryPreview: 'gallery',
   gallery: 'gallery',
   team: 'team',

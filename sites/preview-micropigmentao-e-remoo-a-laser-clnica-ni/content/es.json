@@ -118,67 +118,41 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEjNaTi8ct0IxgyMXXqqh5TNPHLSBsWKNKxppkokLX_ngBbW5-erZCLpdkErMkMk2TbgTgGLoz0su84f6SAMOr6f-lrKisUOglggVK35wtmc6URQNGwRjg8vxvqKVWIHFgC87LMp3v7og6kr6Qliud3vdiWjXoPpNsWQx0mqdNxHAYwhz3xaNy4PwPNJZLhMvZDi14qXvRf7zO3jguoCntxM6TJ8EhAjw5-UAHezOfSLfXfO-NIGDuWFPp6x5BZYOCpDvFZKP_ryS5irhFmluykXqc8tYgQVFkpwugDdhd4ug&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "/api/place-photo?ref=AU_ZVEEITbXsypdyYi8Q7bNN5r-JLKOt_J2CJIfnlSUlOLqZRX6kPpqMN-FM-PTIiV7nAIMzysXfcMMWZy35owOZOfPXtnLNeIWazzPAoHZjpOPWPJ6rC9PdAoBHAEE7-Ri9VypvrB9dkwrlbFwtGud9IzcJufAcBsczJ7g0Q4Ri0obiUFgsNC3efldYtIaxXatd4fGZZB25l4qe4Lo04YOrygUi_46dxTOD4LXc1oOZ1BAKYJsMpAk0mnRmDTS6k7mrI-zAobTiFr6nDhenllcRCNQzEzxKNrunLQDPOm_DAY5qFQ&maxwidth=800",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH7ooyTmdKKscZVYQD19esNkUR-f1900m09341QEN_48wScAca4BcArNUmVhJiFg8YY0qQHDcCi1PKybSfpp6DKU39WfNq1NHIQi9yfirXupnyKzmgg-nCZa369HLzzh5F7WtkWRF4n-S0mbykXA8EVgdkicPbeQxqa6wBNY01hNqKysLRQA_NpfYAf3UXaggQV2p5KJGiJtH2otaPsn2fUclhWoes1dgKahFCT4Bg7esG4tws1UzqfVBxjTHByymHdq6UFSnqq-KN5ky-62LQ8J5Q80Qf0EDH_vnVXNg0SwMmJLXJjBUiS7oFTdwGu9pM-yF1z3rrCfc5lP1QPzFD4z3ZlO27D-ia3uDySSl5QwfFPOw8vtAS0YHbJL6aKgtROKVyB1LoLlXEwdbwQeiOzMYUceW3X-svE3cjPyv5IKg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "/api/place-photo?ref=AU_ZVEFn6_KU2p1W9wJWUqBQ6lqdPQq0Bov2_Gwg_m7774Pijon7jHGoKOimLAvcGoZnOSRqvfzEtqa9xk4dco8Q3MxzRgJJZP60LN3L8rv_wAd0pdaFVQNqSymXPfXQh3pgorFjULNtriCoA0NzLPdPzL9e8xGem6AjBfvmR18v6KM4ubM5Xnc-dHsfFhTyckCrQk6hs_4TnDGm9ypwlWu_SY1IYJeSKvqLr7ldBDVNouwWptedYAuVta9VLFyt5hJGhWxW_IMAz_k2q9bCCCwWYtAc_KhBweLM0-cTPpRDMQBgxzz13CIQG5whT5Ggp8IOqbiCUtFkVOErEV8DTYA458fud0JU6pkgJESIEF46aElpnEv8v9HP5x-S1M511mGSS31rWz5m7JrHuNgJLVfRyrrIwUSBlw7AX5PTepPCqh_8vjZ5tAtDYuxc21dDhA&maxwidth=800",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG901PJjhRkeXbIo44g8UPb_XW6IiPJZ21cqoU1IScNBR7LBQxRboP_NfkDzk8S0kJLHHpc0-FETAwVUA6m4xH_VuIwYvhzxcCkP6DAti2C8KoyM_FZgJV89WTT9onDJCguGAhMEkUAlpC0I53FgFp0GZ0nVv9hg188D_khOyHBKdIAhSSfr2vtP7TdTMGJJC2H7NWvhsldQLnFUYYERJgrRcFMLItgG25EvpyayLfTvgAMj5vKhH5LX2xCfaxvJqyK-SMZ-4smNVEqQWUB-VOjaWbp3rLGWIeFYYYmPvlegRHmIQ9g0ccqtN8_1NsO2-j1E0AEhLmRHZrloAwGG-SYM_Cf86pyZCUX2l5nIfzpt5HwdJJYSfKbhwGIGTO-7F0n9h2_giLrMtdzqjr8sVSR99sA_5PcAwAQmmln5a38VrI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "/api/place-photo?ref=AU_ZVEEsG2kE7PWbnc-SNTk1A-FBTovOZ5DAndSuy-hAHkq0GbWQxD8mmeNklkMqq8Je77HKxn7sf42XNoKOTrHZBq-AwpP6bqG_TUMejzrd9KpPaNjavofg5E-qG76yGceQLYQC08KcD3F0BzM9LPiKn4hWql0ewph637_gwpi-CHkxx_uW3pw1t-B47I_7VyWy2bcpVSay8XZjEPCbOX30s07jKrL2JNPJHgDZ07R4cy3XtCbdnImsuIgJ6Oqxhk5PaVPekz3SYcBMqJbOPcG2mT9QweduZvvF8CrCjLRqw18QRg&maxwidth=800",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEk5g-YelLjYStWuUfUwReF2P0IynlyI8MEPHsfh9ySJwtrE8mxTd_lqHZF4UraIxFHatfIzDqw3La3tCeyLxMuhshdzlfTGeIK8Ynrhzv-Xl2xo64H6dWGyIgbeaULUYlopvjhyVKhYY7-MBJa_AzliPRuLuGIjnk1zdvIO4I9gr-ezRr_eCDThURm9MbMRzt_OsrQMdjiovs6cHVrP-d6ZW9267WM3jLR6OTLwK3JyaS4x64reHCeh4R8a5LlJKF6gJ-2QgJeRuGeGLN5DDLP1rGbSwo0srnNWoCm0WqBQqFDpALPaGfykdfh2IZa6E_EVn-DiN14TQsh6taq_VAduzDGpRklP8PWHsEeEWPbPb9FBy1GhWhPox8SKkK_QNUledeXoW5PBQlBEahU1sdYncMPzUIoKFiOM1E_n5ODfA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "/api/place-photo?ref=AU_ZVEHBvVj2HALyEVCQut4ueioPgb7mCJp13M31c-L5B611MHH2xlAjpXwMgWEJehkb1mUY92nnM0xZukt_eE5SzuDbmH6T6-nUQg1slijetpxxL9dFTjqe15cxDFduj7hbjTG8p8KeEYDTiTPGGPuUt9JL9BhwvQK6nZ6BYcpSXfdB4dUf5cxQNK4vZn7W_uEj_X_V-DCQ7zmUCbXwDHtUH-S0U6J25wu_co5LBvtJiSXgwAo7Kb2SFICillY27of4qxmaSGLA7yLRSAO9T5tJyTLpW8dLQZWd8TCbeE6ioK3MFw&maxwidth=800",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGL1Veqq8QYhI6gDHOwvKUY0oQbR77-UD4fAUVrDY8V9lwpXo_wvsH-N3xNkXkcvCzf6DLDHFmsggXWkSqyoRQr0LfikRqUeUUq7zzs904yrspGXnQSKq-n8PIoaiGQEOZteHPdnuXCvgGu6egRMCLesW-aKhVW4yXIXk3dH8ykSmkmwopjGQPvl3sccdtdhIcag7dxrUXUcNKuUFKxLClEUZ0DVtNjsqDnta1haF6jonTROkpXp86t62vnCw93Zf3TtdT-fxmkPs05HvYsJGdZ50sTWjLV7N0r0_LzrySByA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "/api/place-photo?ref=AU_ZVEEedxxdhJ-nHpjMub6qgo_k2OzYAzp3V7Rg2FyWQOY0YycozEAynOPV-w-owdHmVxWSu4HAG7I9BNrijmUMWQy0IALVCEKJAHotY9d4DFNONfpLkyZoDEdP656k79d4vq0uKFQmzDz3wUvuN6ypB329PHgpXMBECnOf6yFPmdErj26_SYxcpce9PJLO_YcH-wDPrVpqXH4RVwpkUpweRn2cdJuwpc_7HYwv8MC8ywFCgKTYYQPgP1SNI6zIuotirOhJNsLtMJRUB_wDbDtWN0CQRoy6ODfwlFv8PDIyrqqDUw&maxwidth=800",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHnviD0NXJIRyB6voieHftD_lmYmtqdIVE7ErXDAIs1YKPnv6f3d5mUAHNGQOMm9ybwcuNw1iHEjc53QU1vUBR8Q8DyyPw27la7mfRJZPLdwaxGaJfLSzgHFuO_2Qj4xNfEZUw_aHzgZok0ZHrSBjv-TivepKDvWdX2Qe_ebtgGyIoN2AeQpcn-M1T3RUG6vKCODq4hUltT7hsYkhjfTP6RrDYnj09dq7buMRNtQQZ_-lbqwp82NBtRPVQEOFIzSb_VEsA7m0xUELfzz5Qd-Bha-6K668dQNP9Mdw55YAc0GA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "/api/place-photo?ref=AU_ZVEFdjujwv_sWOxRJzu49Pjelz6yEjrtL1PPvAZghZMs75utWoL0eWfCU4zHnxTqUSvNus0aM1URhhu8WxMhNqMCFjiNL4_TlDZySS3MnlyLJSyLFlSm7n49HF_4ARp5zjyDCAHG0es8AmyTf-o5Bs_S3-9_NJMe-uHMfIlY4CIcqPBrTlEsWXgdS9E1pt56vQkuvwvM4PZ9J8xe1BEwhtr_HdaSWtc5Y3_0yd1LY3zxtBDPwRNI8JsBaJ6ROX2TvWV1m5WwuRjMe1dWDK8kFRi2BbAP6BctgzqJDFkavgD1gcw&maxwidth=800",
           "alt": "Foto 6",
           "caption": ""
         }
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 150 reseñas",
-      "items": [
-        {
-          "author": "WILLO GAMER",
-          "quote": "Conheço os trabalhos da niege desde quando o atendimento era na vila c.\nOque falar dos trabalhos dela?  Os melhores dos melhores.\nDepois de passar atender  em outro endereço que alias um espaço amplo ",
-          "rating": 5
-        },
-        {
-          "author": "Cristina Teixeira",
-          "quote": "Atendimento pós micro é ruim, principalmente se a pigmentação não pegar. Precisei agendar retoque com profissional de outra clínica de tão falhada e clara que a minha sobrancelha ficou em apenas 5 dia",
-          "rating": 1
-        },
-        {
-          "author": "Denise Burmann",
-          "quote": "Atendimento de excelência, primeira vez que visito, fiz a sobrancelha na linha e a técnica dela é rápida e doeu menos que do que o usual. Também fiz henna pela primeira vez e estou apaixonada, a cor d",
-          "rating": 5
-        },
-        {
-          "author": "Karoline Almeida",
-          "quote": "Fiz henna com a Camila, além de ser um amor de pessoa é muito caprichosa e detalhista.\nAmeiii minha sombrancelhas e já indiquei a Camila para minha irmã que esta indo semana que vem já fazer a dela e ",
-          "rating": 5
-        },
-        {
-          "author": "Juliana Santos",
-          "quote": "Todo o atendimento é impecável. Desde o agendamento com o Valdir, faço com a profissional Mary Lemes que é muito atenciosa e caprichosa. Sem contar no espaço físico que é charmoso, acolhedor e muito a",
-          "rating": 5
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 260 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu sesión",
@@ -238,18 +212,61 @@
       ]
     },
     "hours": {
-      "Lunes": "Closed",
-      "Martes": "9:00 AM – 6:00 PM",
-      "Miercoles": "9:00 AM – 6:00 PM",
-      "Jueves": "9:00 AM – 6:00 PM",
-      "Viernes": "9:00 AM – 6:00 PM",
-      "Sabado": "9:00 AM – 3:00 PM",
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "8:00 AM – 6:00 PM",
       "Domingo": "Closed"
     },
     "contact": {
-      "phone": "+55 45 3025-4100",
+      "phone": "+595 981 521527",
       "city": "Asunción",
-      "whatsapp": "+55 45 3025-4100"
+      "whatsapp": "+595 981 521527"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
     }
   },
   "footer": {

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(061) 502 459",
+    "whatsapp": "+595 61 502 459",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "(061) 502 459"
+    "phone": "+595 61 502 459"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "a52e68f6-4a51-439d-bc38-f6a03f988b66"
+  "previewLeadId": "a52e68f6-4a51-439d-bc38-f6a03f988b66",
+  "google_maps_url": "https://maps.google.com/?cid=1237657013920623937",
+  "business_status": "OPERATIONAL"
 }

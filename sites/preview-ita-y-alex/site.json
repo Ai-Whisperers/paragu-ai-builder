@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "922 09 11 32",
+    "whatsapp": "+34 922 09 11 32",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "922 09 11 32"
+    "phone": "+34 922 09 11 32"
   },
   "location": {
     "city": "Güímar",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "99d321ca-8e5f-44b3-9e65-6aa4f7bfa2b1"
+  "previewLeadId": "99d321ca-8e5f-44b3-9e65-6aa4f7bfa2b1",
+  "google_maps_url": "https://maps.google.com/?cid=1070707201293016613",
+  "business_status": "OPERATIONAL"
 }

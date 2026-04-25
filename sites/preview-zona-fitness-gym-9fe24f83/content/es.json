@@ -54,9 +54,9 @@
       "subtitle": "Visitanos en Fernando de la Mora",
       "address": "Ruta 2 y Av. Mcal. López Km 8",
       "city": "Fernando de la Mora",
-      "phone": "+595983789012",
+      "phone": "+595 972 151365",
       "email": "ventas@gimnasiopower.com.py",
-      "whatsapp": "+595983789012"
+      "whatsapp": "+595 972 151365"
     },
     "promoBanner": {
       "title": "💪 Promo Verano",
@@ -202,28 +202,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 98 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
-        },
-        {
-          "rating": 3,
-          "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
-        },
-        {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Bruno Ojeda",
+          "quote": "Purete",
+          "rating": 5
         }
       ]
     },
@@ -266,9 +251,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "7:00 AM – 10:00 PM",
+      "Martes": "7:00 AM – 10:00 PM",
+      "Miercoles": "7:00 AM – 10:00 PM",
+      "Jueves": "7:00 AM – 10:00 PM",
+      "Viernes": "7:00 AM – 10:00 PM",
+      "Sabado": "Closed",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [
@@ -281,24 +270,16 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 98 reseñas en Google",
+      "subtitle": "Basado en 98 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Bruno Ojeda",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Purete"
         }
-      ]
+      ],
+      "avgRating": 4.8,
+      "reviewCount": 98
     },
     "packagesGiftcards": {
       "packages": [
@@ -355,6 +336,86 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEA8kEaaAFZo_O5GGUQm_N8UrBEyoA9_Sl8soFEK93cNawXtXwW901pIeLyFFxJV56_f48lswPuvvL29hu7ryR2IkYN6l83SM2RqTtZ3NJNQA4BEEXMN9DSU3HDagfDiLzUeI7IcaA05HyFvYd4z7niuhuGzu6r83IyVIfGiNdN1lIFUUDAlEAHxi3mSnVgdAIuxpRmiLSBgUPhO1XW4kh213BuRGaIqnB4M4-t8M0gBNOussQgSS4VFACpSp2utoTLG2bU7JWMsPkiKjVqLok9ci53wdOEf5WURV-xEO6D9-SoUUB83KnGKSbp7ON9i4d1OA8pw_lnUSX687pRADzvS2psl3JNTV1Nwp-pumszkYRnpauIph6Q0Yg5b7MMXA7rDPRxUgqHU2v4TcHRwThl1-zQR9k2rCYccrpufiHhbTE9&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHOBE-hkRim3nGbljqeC64vHR4ksegmYMhYPu79tA4ktUA2k4Xr3Y3j5qcVZcD47gdITmv0ELRLh_ir6c5bw34YJBMV5v6K5mYkT90lKTgDdsn9OTbXBZEF9cpm18jAeEHR-INgc1SWsz9NWKJTHSi6zQEdpnSoQ8xK5IKoAVzBAZIxAqoYVcvNkaCKSJ1UTlC0WLdi9YBY_3oxkrIdvoUhlAErrAOpSFYo92fk6J-AHUpkpc8ySOahTDz1MxeTwmlGf-cwEfW1-I-gD45mupLj64Dk_HOeVZiuP15oGz76M1Kdjye34B0ovniidhsBHOh8jruoPoHp1BVXXv1qdtDBo4TzhXrUenzix97M70_qY7yad9VjpEuhLY6566eXcV0DGOi9sBHlc_qWgEK50kueyqDAfgdT0IvB9k6YFsQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEH3-tp-X3Y3ZI4KD_jPup_GT76HV7fHKin0YzY9bc2TLdmmp8jkPeYBSyxYt5w8iYu8QjifpZ-Oga63m8YQX6blHIJOxEudL3IW5_YZLBd8rxwfZxkSpj7hIlrl9wlk0bvADI3HL3WLEYdiPRiBGz0NRK8KoHtbNzYKQ2ibzSscli_ANBxF1CDzL9Vrm6b1m2uYA6nbNKeOosf83rjslqa0RXQ1qCFRfCSeTTGn-3ZalJnm4vg0HDB0WvyoZ0V3dq4h0fJARpZQMdSb3188eV979T0BOPfkilp3SzWHN3gX2jb0hB5J8eBSSEWokWQHWb-l86H18kdV85NqAjoBAgn12YWdXxNX428xPCYNkKTvCzb72BZfg-_DKxhH2peOs-kx41A6efJymLAqxRzu_z6XwV-eE3EzA90HxGM6SNe9mGHU&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHulL9KMHgEOfrqZrCpnuXeTMgdARC3xddoRZB5rL-tEBVwU6UcXihhPkOIi0DQABPEBBL9mEoq07H03Gui-vz44_hhkiKumKjqnx4MY88XMm8JpjWImxjHDSwOTvcEvWfU6Zo8a9Sw0Ccerjo_x5Bke4U33AonTggW8tjuMlVmpJjdLAZnSI1UD0J-9yM1rRr4f4hEd3R0e15XCPx2XI6KhMC__kfISEs8AcHauRUm5-IUbpSmJxQsbt6c_7kWhnMwD2aGgi3TW822nKq-JTG3xOYY4UrD2TI2P6l9WUFykgLo6un_aOyLlF6Q2HEi3-oM6S6fqnw5A1MJu5t0sQWFIW5m1vd1wSGuvl_Ahy2IDOGXSCOzPRIIV3oJmvgyerN6iGf2ACUVJnN52Ai4grBCqEaFeAe8BQCb8A_H-PjViqfB&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEwrl6Fk_Xzjh2kHsQSyleq3NQsZppCb2IYvIzs36oB5xP6LBfJVgK8aE0MoFQAKVMzMEvkgZyqsQ1-bGXEAkl67EGvCGCb0gQROcdpz2wISlorhA5suLSNc0UqQqhJai2CH0luxpfcAYDvIvCt5kzmwyRuobqlQnH7mDbcjZFeAcMRUeQnIKE8T5y7cjCIOPeJAPg2bu2tKhPp10_Ohu8nPUe9Fvs2s9BvYMcYG1l_8Yvpk__x6x6EY694iKiOSvSLBtSFAHdFVpx9ehSBSAI-E0L7YIyhkOXqt-dC9E5TXenBlimM62ljsyhJxFNz93i3eYKZX7VJbcnBolyH3u07ytuQa-RCZLDLg4Jsn-tMBf9RAQiKGWj6OR3wnysD9tex9IRQatAb2KJYEMXJzUyEYo9d1BsVX5QlOuZwE7LnuA&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGVQckHuHCoReF55rw9Mx68aXEvlqewnsW7HVu-MfxbwvPU2vpLApgynLs4U22Cx_cT2noIGLeNtNDMowTo27TXp3rVi55FYHxZtS0P13hoWmSSIZJpleGm_QUneAYBOLdxCO62Vqtw8SbbC76VHr9Z8m1PCve593UvzfyTbITV1D1qKDbpoHluLcn82M3QyllSjf4Tb5P9urYZP9OGETNruYpmSziFV0YcV0ktuVybhAVvYS4xEZFrYW11kclii1b86FRepYFIbFHOvq7r3kUY4A51P28IPZKMPvGh-HkQy4ebqVp3ZB8roEzH3XDrrVmtR_QUjaynkJ1OOXskmZtF-n7O9Vj95S3WFDiijNcwo6NQISCXQJ41nxIBdYm9QUOJH-IJ3mxuppGf5C9HyoRCXSFDEIEglSqTxJZrXZBmhRIe&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

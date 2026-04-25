@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/admin/tenants/[slug]/assets/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__06ompj_._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__04~fwkh._.js")
 R.c("server/chunks/ssr/web_lib_engine_generated_tenant-data_ts_0cbpaum._.js")
 R.c("server/chunks/ssr/063q_next_dist_esm_build_templates_app-page_09p2.29.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0688-7h._.js")

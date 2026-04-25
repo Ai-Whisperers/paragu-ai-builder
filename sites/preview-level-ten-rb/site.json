@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 850152",
+    "whatsapp": "+595 985 850152",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0985 850152"
+    "phone": "+595 985 850152"
   },
   "location": {
     "city": "Limpio",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "43b6cb6f-e917-4aa6-b066-5cb5e156176e",
-  "createdAt": "2026-04-25T05:23:41.397Z"
+  "createdAt": "2026-04-25T05:23:41.397Z",
+  "google_maps_url": "https://maps.google.com/?cid=13011678227443724455",
+  "business_status": "OPERATIONAL"
 }

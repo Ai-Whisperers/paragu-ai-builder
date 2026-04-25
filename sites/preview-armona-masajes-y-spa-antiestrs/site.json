@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 893290",
+    "whatsapp": "+595 983 893290",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0983 893290"
+    "phone": "+595 983 893290"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "131fdeb8-75b4-4aa2-bd55-3aaf58846ba5"
+  "previewLeadId": "131fdeb8-75b4-4aa2-bd55-3aaf58846ba5",
+  "google_maps_url": "https://maps.google.com/?cid=7415517611499153900",
+  "business_status": "OPERATIONAL"
 }

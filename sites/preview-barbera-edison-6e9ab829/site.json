@@ -7,14 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 166358",
+    "whatsapp": "+595 981 116938",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberia.sanlorenzo.py",
-    "phone": "0994 166358"
+    "phone": "+595 981 116938"
   },
   "location": {
     "city": "Villarrica",
-    "address": "Blvd. Bicentenario casi, Villarrica 040103, Paraguay",
+    "address": "6HC3+G53, Villarrica 040103, Paraguay",
     "coordinates": {
       "lat": -25.7742252,
       "lng": -56.4466799
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "6e9ab829-0fc8-48b2-bc69-eae3e699c90f",
-  "createdAt": "2026-04-25T05:23:41.402Z"
+  "createdAt": "2026-04-25T05:23:41.402Z",
+  "google_maps_url": "https://maps.google.com/?cid=612006507528948918",
+  "business_status": "OPERATIONAL"
 }

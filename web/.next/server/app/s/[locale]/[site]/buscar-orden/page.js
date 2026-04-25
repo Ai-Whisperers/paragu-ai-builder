@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/s/[locale]/[site]/buscar-orden/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0fd3t_w._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0wvp3fz._.js")
 R.c("server/chunks/ssr/web_07whx61._.js")
 R.c("server/chunks/ssr/063q_next_dist_esm_build_templates_app-page_0yegtje.js")
 R.c("server/chunks/ssr/063q_@supabase_supabase-js_dist_index_mjs_0l5zcqi._.js")

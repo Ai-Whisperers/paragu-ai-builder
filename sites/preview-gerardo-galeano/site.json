@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 907086",
+    "whatsapp": "+595 971 907086",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 907086"
+    "phone": "+595 971 907086"
   },
   "location": {
     "city": "Paraguarí",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "8d7bf333-c82f-45fd-835d-43bc146f7e63",
-  "createdAt": "2026-04-25T05:23:41.466Z"
+  "createdAt": "2026-04-25T05:23:41.466Z",
+  "google_maps_url": "https://maps.google.com/?cid=16444649037250761784",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 927558",
+    "whatsapp": "+595 981 927558",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0981 927558"
+    "phone": "+595 981 927558"
   },
   "location": {
     "city": "Kapi'atã",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "18cd1c96-432e-4bbd-b614-6eec51182a0e",
-  "createdAt": "2026-04-25T05:23:41.460Z"
+  "createdAt": "2026-04-25T05:23:41.460Z",
+  "google_maps_url": "https://maps.google.com/?cid=14711719845002578850",
+  "business_status": "OPERATIONAL"
 }

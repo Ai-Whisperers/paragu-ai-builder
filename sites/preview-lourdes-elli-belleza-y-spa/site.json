@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 503 329",
+    "whatsapp": "+595 21 503 329",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "(021) 503 329"
+    "phone": "+595 21 503 329"
   },
   "location": {
     "city": "Asunción",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "436f6181-8f43-44f0-a416-b69b5c6b2df6"
+  "previewLeadId": "436f6181-8f43-44f0-a416-b69b5c6b2df6",
+  "google_maps_url": "https://maps.google.com/?cid=3356486750230436613",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 619790",
+    "whatsapp": "+595 983 619790",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0983 619790"
+    "phone": "+595 983 619790"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "d3c56242-57f7-4552-81f5-ff20b168c1ba",
-  "createdAt": "2026-04-25T05:23:41.442Z"
+  "createdAt": "2026-04-25T05:23:41.442Z",
+  "google_maps_url": "https://maps.google.com/?cid=4132261190983683836",
+  "business_status": "OPERATIONAL"
 }

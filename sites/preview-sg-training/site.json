@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0992 315496",
+    "whatsapp": "+595 992 315496",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0992 315496"
+    "phone": "+595 992 315496"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "26857255-6137-4458-bce8-f987debd15bd",
-  "createdAt": "2026-04-25T05:23:41.469Z"
+  "createdAt": "2026-04-25T05:23:41.469Z",
+  "google_maps_url": "https://maps.google.com/?cid=13800220766922745050",
+  "business_status": "OPERATIONAL"
 }

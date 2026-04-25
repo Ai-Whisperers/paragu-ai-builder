@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 374490",
+    "whatsapp": "+595 983 374490",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 374490"
+    "phone": "+595 983 374490"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "aea81497-2649-41b0-ac6c-c3d3384d77e0",
-  "createdAt": "2026-04-25T05:23:41.432Z"
+  "createdAt": "2026-04-25T05:23:41.432Z",
+  "google_maps_url": "https://maps.google.com/?cid=11980186766116171583",
+  "business_status": "OPERATIONAL"
 }

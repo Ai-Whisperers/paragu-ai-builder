@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 709907",
+    "whatsapp": "+595 985 709907",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 709907"
+    "phone": "+595 985 709907"
   },
   "location": {
     "city": "Santa Rita",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "b2fc0b61-41d1-493b-b6e8-9309feb3e5c9",
-  "createdAt": "2026-04-25T05:23:41.468Z"
+  "createdAt": "2026-04-25T05:23:41.468Z",
+  "google_maps_url": "https://maps.google.com/?cid=2533521448795057440",
+  "business_status": "OPERATIONAL"
 }

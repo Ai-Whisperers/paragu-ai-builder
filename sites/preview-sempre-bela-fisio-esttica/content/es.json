@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el barrio Villa Morra, Asunción",
       "address": "Av. Santa Teresa 1250 c/ San Martín",
       "city": "Asunción",
-      "phone": "0986 663434",
+      "phone": "+595 986 663434",
       "email": "contacto@demospa.com.py",
-      "whatsapp": "+595981726354"
+      "whatsapp": "+595 986 663434"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Un ambiente pensado para tu relajación",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
-          "alt": "Sala de masajes",
-          "caption": "Sala de masajes con aromaterapia"
+          "src": "/api/place-photo?ref=AU_ZVEFopzxgQoiEVqEESHG7xL05LtWFRWe99dRpODD8LEFWi1eiQ-YKgKgNDYvuvMU0KLtj34hLTsX31mGk1mwzbULK6RyU6cxCvHJSedlUm2ZAtlO-yt3BMkGJvBYTuroZEKlcFHfYDzZowkTkPQMenrdkoP0ph7ozcBe0m6C4TYfKIJGM3csGv4unQzeLJDszEHjVz_0W-VfqmSO7j7LwX1Zn3RwLYkj3lZQRb2Yt8QFF4yAbViP-uknPBPwQ2XqVGB3KP_HR_waChuvRfdyctghfpKs8Ci8tDQJzfsOx1bDz2w&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
-          "alt": "Tratamiento facial",
-          "caption": "Limpieza facial profunda"
+          "src": "/api/place-photo?ref=AU_ZVEF-qwZ3puEBoNwly5UaAIxQk5u8C6yWbRP6Z3myo1kKk4zvfZ8hvBOXa_afg9A-WpWPpf5Rw_c9GFclN6v-DlQKLy1F0ddNJWprB7ovGZv3Z1QGnDQrqzwdlr7rVL9kFsYHyVLN_Bztw7wB8sKCRTr9VA9xV6Si1JDXLPyYqHRuCzd4ohILSbAlO6rUGK_qkMfyaEpBfOFLb8RmYDT5SnQmA5Ko2FcWY8sfpybqXYObUAlOcPV-HweiPI7ZyztKxUb8PD3WBMuwIcGxzav4iYLzM8RAhzJuCMOviIaSLB5iiQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
-          "alt": "Velas y ambiente spa",
-          "caption": "Ambiente de relax"
+          "src": "/api/place-photo?ref=AU_ZVEG_KXFB9yhv7PHr8BrcuO6weHfbha7Z7UPlmA8lfXPKhvLZ20HInPKmmd0HUHvDXh6IxElXuqWb54DgrG36LU90XqYirJNYaYvT96YSZHhM4YVHpAFITj1oM1y3LVw61l1PT1ir7zsbQLtqcnGZ9BDNuCMMNTSpyMFPxhIPEjnLKbHPmn2jhs9FfFRwbeJQ4G7fPtDtBUfCr3AfQ2ZDiB2nkDoDjg32Y8QPd3dX6SCTgGscyQNraPETNtUdvxYFgm45LSzOzwNyvsV4o2jfYqPL5edmV830_GCuMKUGKxzTSQ&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
-          "alt": "Masaje de espalda",
-          "caption": "Masaje descontracturante"
+          "src": "/api/place-photo?ref=AU_ZVEFI3bHV1igqrYVWFxAn_e1XX9nXwQvqY42ePl7VrleAIxdxQZQTPbzPE6QiA5Qkvw_YjlRB0aIoHHn1Jq-KnGVAUAjIXnb_eJyWiwxotj76Dd68Ltq0PTkDe3X0EuhjP2pol7jgmQGilEmsIe7sybvlDtJO0uosV0akD3NlmTGcqDXdMnGnYgQbgvWIQL_PCdyEcDWyIzrVcRJIVFUpjizqAlc_SZoU_O9K8Unv1YLAyHi_x_6XhMyFF19Wzf9x68ZVkmiW185SZpBQ7Bm91FF0F14QMclT6IJLjoYkAC9cQg&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
-          "alt": "Tratamiento corporal",
-          "caption": "Envoltura detox"
+          "src": "/api/place-photo?ref=AU_ZVEE6gfFppsmoO6Nw8bhWsjGEtih7tJD5ogQNNNhEpQqMBdTalJpISPVp3fgIik5q_fFPqPk46HW1j4Kx2WRMVW8xBaGfuEzkSuc1j4Fa8zBR1F6flkviJ7z-Dt7IIeB8nPOTrNGa-Q9X02J30QaHZ5YhZJp60hpL6hKZwCHKpQkstFqYT1WIVwH_KqCkJ2UM7rIA2HWDaX2B4o_dG_I0UmTIfcqkyySPQhCmr60yiU_qLIBNfi8FKW7fcAlvXgo1YvplkxeAVIftWn_Ep72pM7u_amwGJFk4deQsZuZlqKDRmxlC-gHF9QChOn7S1H0TJhz3q32apTSDOH2lsJQU0m7i31qG97L1gXfvJOWgeKC_SFm6evq4ydAC50mLq0lDNJ9akMZyJXuKIEZEW7_jxJ-IXqbw0XXDF541uQWsm50&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
-          "alt": "Sauna",
-          "caption": "Sauna finlandesa"
+          "src": "/api/place-photo?ref=AU_ZVEH9U0LXgnD9LI2RVkgAQ4xnxRzVhwdciiDqVVqBnPRKYJNdV1-RynjGcpOnO1gmrxU8g_yrrNr6d2fUg2Zh0nk49MBD8RZXbsVGXV0O6ubxYmUj653Nd7NLfzKI7qwmN-X6NtNo8mBguDYvkMgBaDMDqhg4cXnnybDE0k3x0c8oqTw0ZHQTqrjEHncNTMtR22qgslsTTdVtvKIjpTfDAl7Kvfyb0RSdkrcURmhEP07lcxl6ABvUl0CtOF9dlM__YC4HhHhJcPiXvGhlsdFWRZm4o34w39PaBLhzxcwf0qnhxh1PZQJYSPSPlKWMGZ7aTalgbRRTXxL3y7EUo3gIk2EzxMwrH2xb7YMYVV2-CXum65T7Si1HO-fj6obL1YR4W-dGccCqFm_UNgbHyxELaF_JbSztZbQMIrGBzEn6jb7lGRc&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -182,28 +181,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 117 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
-        },
-        {
-          "rating": 3,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "María Sara Apud",
+          "quote": "I've known Sempre Bela for four years, and from my first appointment, I was delighted with the professionalism of its owner, Valeria Camassuti, who constantly stays up-to-date in this dynamic field.\nT",
+          "rating": 5
         }
       ]
     },
@@ -271,40 +255,53 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 21:00",
-      "Sábado": "10:00 - 20:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 7:00 PM",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 5:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@demo.spa.py — mostramos nuestro trabajo todos los días",
-      "handle": "@demo.spa.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 116 resenas en Google - 4.9 estrellas",
+      "subtitle": "Basado en 117 reseñas en Google - 4.9 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "María Sara Apud",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "I've known Sempre Bela for four years, and from my first appointment, I was delighted with the professionalism of its owner, Valeria Camassuti, who co"
         }
       ],
       "avgRating": 4.9,
-      "reviewCount": 116
+      "reviewCount": 117
     },
     "packagesGiftcards": {
       "packages": [
@@ -361,6 +358,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

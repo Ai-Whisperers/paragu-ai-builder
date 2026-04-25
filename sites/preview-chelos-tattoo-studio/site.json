@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0975 805915",
+    "whatsapp": "+595 975 805915",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0975 805915"
+    "phone": "+595 975 805915"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "3bc1a693-c650-4040-a522-7af212cd676f",
-  "createdAt": "2026-04-25T05:23:41.420Z"
+  "createdAt": "2026-04-25T05:23:41.420Z",
+  "google_maps_url": "https://maps.google.com/?cid=357155940559461908",
+  "business_status": "OPERATIONAL"
 }

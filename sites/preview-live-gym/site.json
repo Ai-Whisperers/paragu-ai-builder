@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0975 624254",
+    "whatsapp": "+595 975 624254",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0975 624254"
+    "phone": "+595 975 624254"
   },
   "location": {
     "city": "Encarnación",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "8c0c869d-6f3c-4e78-af15-772d8c75e465",
-  "createdAt": "2026-04-25T05:23:41.375Z"
+  "createdAt": "2026-04-25T05:23:41.375Z",
+  "google_maps_url": "https://maps.google.com/?cid=2071845111508754682",
+  "business_status": "OPERATIONAL"
 }

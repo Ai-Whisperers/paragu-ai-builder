@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 271073",
+    "whatsapp": "+595 985 271073",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 271073"
+    "phone": "+595 985 271073"
   },
   "location": {
     "city": "Ayolas",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "d13e0ee8-1bbc-47e8-86df-c7a0d898dc09",
-  "createdAt": "2026-04-25T05:23:41.349Z"
+  "createdAt": "2026-04-25T05:23:41.349Z",
+  "google_maps_url": "https://maps.google.com/?cid=14966403570681332342",
+  "business_status": "OPERATIONAL"
 }

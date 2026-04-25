@@ -32,7 +32,8 @@ def api_get(url):
 def search_place(name, city):
     q = urllib.parse.quote(f"{name} {city} Paraguay")
     data = api_get(f"https://maps.googleapis.com/maps/api/place/textsearch/json?query={q}&key={API_KEY}")
-    return data.get('results', [None])[0]
+    results = data.get('results') or []
+    return results[0] if results else None
 
 def fetch_all(place_id):
     data = api_get(f"https://maps.googleapis.com/maps/api/place/details/json?place_id={place_id}&fields={PHOTO_FIELDS}&key={API_KEY}")
@@ -89,7 +90,7 @@ def update_preview(slug, details):
             ref = p.get('photo_reference', '')
             if ref:
                 gallery_items.append({
-                    'src': f"https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference={ref}&key={API_KEY}",
+                    'src': f"/api/place-photo?ref={ref}&maxwidth=800",
                     'alt': f"Foto {i+1}",
                     'caption': f"",
                 })
@@ -184,20 +185,25 @@ def update_preview(slug, details):
     
     return changed, rc, rt, len(photos)
 
+def get_biz_name_from_site(slug):
+    sp = os.path.join(SITES_DIR, slug, 'site.json')
+    if not os.path.exists(sp): return slug.replace('preview-', '').replace('-', ' ').title(), 'Asunción'
+    with open(sp) as f:
+        s = json.load(f)
+    loc = s.get('location', {})
+    return s.get('contact', {}).get('businessName', slug), loc.get('city', 'Asunción')
+
 def main():
-    # Load from premium-outreach, dedup by slug
-    with open(os.path.join(SITES_DIR, 'premium-outreach.json')) as f:
-        raw = json.load(f)['leads']
+    # Load ALL preview directories
+    preview_dirs = sorted([d for d in os.listdir(SITES_DIR) if d.startswith('preview-') and os.path.isdir(os.path.join(SITES_DIR, d))])
     
     seen = set()
     leads = []
-    for l in raw:
-        url = l.get('preview_url', '') or ''
-        slug = url.rstrip('/').split('/')[-1] if url else ''
-        if slug and slug not in seen:
+    for slug in preview_dirs:
+        if slug not in seen:
             seen.add(slug)
-            l['_slug'] = slug
-            leads.append(l)
+            name, city = get_biz_name_from_site(slug)
+            leads.append({'_slug': slug, 'business_name': name, 'city': city})
     
     print(f"Processing {len(leads)} leads...\n")
     

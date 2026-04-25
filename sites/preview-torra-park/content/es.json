@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Santa Rita",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Santa Rita",
-      "phone": "0984 763610",
+      "phone": "+595 984 763610",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 984 763610"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEEkXIbyNEDHh0Y4QihZH9x1UpRqhauy7zym0EmrltfZKkwOzSfJJrHCFLQn7Qc1hL2QAxSgx1gz77QJjOsvLh0uAVNqLxeIS4IvPvIgsNaICil4iwOUpwPgTBS7gGP2XOJqBBI1iMrW_higghv8fx8J4RasHIVfv1AQpLjoX0vgypD3hg-YuhzhPZLo4jhxHNXvFeyhOzkasUvcHllacWwivRSAHyp0nP1695TDAQBj66nU9TtSB390-98wuHZYaJqV2pZIN0pXNeGEi8RbKAYGQLUn9MzO0vSYQ7UkyZ_WhKQ4DTgVnEYRPZjbTTzYtbIKqRtNh3dLj00lnm85AhW7i3YvLqtlEQxeRiqJ16X0tLIqXlSqzXAIBNKZ_Yzq1u4jYccl6hS34IQvqsm8m6R6JCA3tKoUMaMBX4ngj0tkwg&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEFmJ9kZdzmdAd3YRsqZvSoQ9YsiSqCPDKK7K7RTSzIZjxi_zgke88_Y16PA8V_LqX5LTpt6CcYUxqLXUXJOIGFuAkvSLa-iJETP2yzadt9LKp0QTrBbt2xq2gGP1FKI_cHqmMkJjGIuOJs5ASwXlc2Yvo0WPJMEe1T-jZHQVkU_qQDq-kyn0bxQLFaYOhwf4P0jaetaP9pcr8TCABzgrK_sXgu5h2yiCMtLAEIJkPjSicA_kRX5bkLsTC7y37l6fn9YJXJ2z6qOi8dZH4TstWAabgUX6xrUJ2nJjNp0s2_Cp1Y41GjHl0N8S3T76z8bMjZjerbjhkdX_Lw3U74j_VEnykftygZbv6RO95XN-wEqQiqmRxnO9Y-97UMx_orekzIgQs1IqULN0-Os8AhA0RQ4IafiOKzl0cgPYHmdrYtgrQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEEdzyOljkYQiTqn3KDBdLs44grac2eVoCmpizHxTRAS0JunSmmEhZ4ophuGbidqVuTp9H9lLaNzBMP1sAdSnP2vRZaZdETnMopd0NBmUwEDKbHevnWipUegh7vUsu_wKFBb7ZO5kg8qnnUgUX12jqcwFdPz8KmBfIMEHV5qUDWdBM3fafYr325bbBuuupc2ARgcWJNjeiEhoWxM88vcgn8UTgubYL-x97qXiPPiju0DksaJL5ZuA5E1tIyfVujHIHyyv8AAjQRSl-ctj9T-CrywzLxdUST-T3NuyaarwCzM16MMLTJXqz4MtqjUF61vHWTtYLBRFhe3ZfH2-V92pViRYIUbCP4wzIiFh-35pY7xUo9c5S-P-mFFbzqJWjMOd7H7cK2dNtaitI199TuXVExx-PTZdaxd2GCMrveC7yGeY2SV&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEFpvPcD0xnTdo4vaXpPK17KR7mI4J4ufJj6H6VgqkSDXNpzru_x9dzJ41MMo3_aTA2WwKOaCW1wQJ2BTynUaey8AOhZuV0hCJvFuILcqZ0K14hTAikMN-1GdNZPQHc9wPlPXZ_Yehc5VGii24qu8wnxBLqAFa2f-_1KAgF9QENmTArBw9Xx3hAMmQiDYT8gLTt31TG57mZimq8UhME7sd2v7cmhb5fI-F_Ov6sBUqbSo2kSqCLb9Dh_o9rF116UibbzXBedJTapGu6pqLZ5gQ7yuYzcN3cwO06uAjTEBuCrLaoWFu7Len2NbO2mPOd1gIKrdfy1BRaOVJHeP-DOIeqe-BdeBAQCbrIqSjEBDQV3YEveRZB_4zPt9tN9nJAoSJ5EilNw3HbmgEbTaYp10PkPw5koX4pTUHTf9wntAJ-Mm9Vt&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEFx_q5pWSN75S4UURT_CyBx8Fz4UCtw3EAf7NSlWCwcqNMxuZ0EzXtZYeWt5kPMM_4S7m-G7qb3-4oZVIYFIFuVvBqRXOVxrggQU6Moi3ihMJMAnUBE7nhxHhuUDrUtb7aA4gsyD8qWBNEokFNAieQ7HoNRwqKp9Yyo_bS-Ryras3SyjWcERq-gwNAo9YENEg6xQPyekrjMSwkFxkktMbtprqki-VFKcDt2rqWSLTf5A609cR3ac2PL_1FixG9ppMIAjCGQr4eXtAg7kha8SQ9o5lq7KyLIdR0p_brE-PorrpH6w-aokyk5Lc0wusvUy_CeNYDM3ag8CnVszuZGWwkE9ebwFO_q3PPNYrkg-V53nZpCpgGoNOGNC1OfHKHLaPvOT4UVmTIWUCpVCvnb6w1L_L1zkJ8t8S-ScNF4c-OenuzmzL9EH7by7niCa8qp&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEGFKG2cg5YWnlqcWIvVOsYSyvOyONxZEFmoQQEZLO-xhuZj_BHJtS7cKJJ4tgHHSUydLdQm36NFMgFPK1e97pzQ-omgDUZg1u4nMxOoo9bjRLMsd-t87qsRpGJ1JtJ4XOGw5m_qOLQ6X7Tjo40hCrw4qj_k5XxyqB4bC8dj1HVPXM25UI8d02N0xGZUfmu4LMpMBt4Wfx2luk_hS9FARW1G7a0Jbi5bEpAMbW1Xeg2HwvTBo0m70WegHpmoXOtu66mFayxgDwQYEwlflbMfOoXT14ChhSob-5Z-2gbnEJ50YxFggxdfIcHHdcTtdMXKEyQcIYUdSAn5f5EHiL3exaiZAdqcgs2yGkrhuYBAYsviFDj5W-0zxjNLNjSGZiSw515aE383M-OoEN1xiH5zUjbf5IJGqT9I2xsOjxO1eIUOM-mC&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,23 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 88 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Sirlei Lores - KIKIU",
+          "quote": "Top",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Martín D."
+          "author": "Moica B.",
+          "quote": "Surpreendente! Piscina, jacuzzi aquecida, vestiários e jardinagem tão bons quanto em um resort!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Florencia T."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "Roberto Neunfeld",
+          "quote": "Esse lugar e incrível conta com um bar dentro da picina e tem um salão de festas muito bonito",
+          "rating": 5
         }
       ]
     },
@@ -280,30 +274,49 @@
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 88 resenas en Google - 4.7 estrellas",
+      "subtitle": "Basado en 88 reseñas en Google - 4.7 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Sirlei Lores - KIKIU",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "Top"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
+          "author": "Moica B.",
+          "rating": 5,
+          "text": "Surpreendente! Piscina, jacuzzi aquecida, vestiários e jardinagem tão bons quanto em um resort!"
         },
         {
-          "author": "Cliente",
+          "author": "Roberto Neunfeld",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Esse lugar e incrível conta com um bar dentro da picina e tem um salão de festas muito bonito"
         }
       ],
       "avgRating": 4.7,
@@ -364,6 +377,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

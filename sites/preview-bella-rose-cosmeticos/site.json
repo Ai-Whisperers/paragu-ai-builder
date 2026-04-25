@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 235689",
+    "whatsapp": "+595 994 235689",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0994 235689"
+    "phone": "+595 994 235689"
   },
   "location": {
     "city": "Coronel Oviedo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "f3e9e083-ce38-45c9-ac86-fb9033bc0dd2",
-  "createdAt": "2026-04-25T05:23:41.463Z"
+  "createdAt": "2026-04-25T05:23:41.463Z",
+  "google_maps_url": "https://maps.google.com/?cid=7107764640525100307",
+  "business_status": "OPERATIONAL"
 }

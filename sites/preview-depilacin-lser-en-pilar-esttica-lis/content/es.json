@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Pilar",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Pilar",
-      "phone": "011 2391-0450",
+      "phone": "+54 11 2391-0450",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+54 11 2391-0450"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -119,40 +119,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEFId058Hts9EU2PxANLcNEEzkbrOr0HWbbKQWwHCj0bLoQCxEuHrajbBLKFAVBVdXNiDIN1g1mMooY1kw2Kiw_vxLM6cuqOYaylTkQfmBljJWUQfJiILrqasvH_sRmbVkpq82tXeJX7EsYY5_uXDZbNUhFyj74CPq3ghN7xd9VKq_9GQr3J6LL8r8_VCRps30awvQ6W_2vE3P7hk1SGg2BM6w2678CusElc4KGB04d9u1MCZcPoaDK9ixHqLyi-TUp14YyYmRlV79EMMaay0U80dq4BxqtdYl_4ShX4GBGvQtrUI5Hrf07cxuFYljdmHBjXcCyVPBkPHMDBvAxYUo5Kt_437sYFyFhl3pSttjNjnA06O0BWz-p2qFOG7D08CYaC8WHyqMHgrvwRVQhRWCS_znJiuDP0BaIw1_fLisSBlxH9MCxllx_h74ltKjlj&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEEHF2H6FrJVP6u5pYUDzkVYTShOR7pbhQCKuJXfn84UECEmc8ASovTV1A4v4cGxDw_xmaDpmYYO3T-e6aX4J8-qVy_GeET0LgO8Gm9z5pIHeThqJB6VSXwZTpRoG_tBxFOpAawoAln14iMfE2v8Wz8ze33reuIdw4Ms4lNoBjz8wAVDeutQYRPj1vR9OB6IwGALrIo5e-DKR5msYeWgzzRHXzOOvEavZgQ1p3pbI7buKPCkLGkZAyXcRbgclTPJ7wkpCcMZebkqH6SS5hx6j2Oek8FGQFfEH3iwQ5puBlgvx5-QU9kCbQE0VKe7D5rUSume75wBiuP5nvlf9VXpfilcE9xDFxChmSNaDzVp6ZZzDVLNUMrErk9e2_oHZqVyEbNBZJ82Sqo-WQMs_TaO2twe70BinA5fbTwpklJN7bJYO-WW2lsxgNRySyOYJ_bv&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEHxtd48I4fInOgAfvk9V-rZBkPINZpA7Nc7Jnx67qIxTSG5nEpkZgDzohWQxJjLQi3Xc8LkYmF6bJSpA0O6Ld8zUK23bUAgFIjsTVaCgHeMgiqzPJ_PnJV0BA9UDh49DKGxWlod05PZ-MNYRlmFRbjOjsl5vpq7Z8fPHS_h59NqGeKdwRPFDVty8cTWkVG0bKx58dg6Evd5j57J6qdYt_AlQogcgWqRKBwdtOv59ORyvlRknzeGwv9dIFOFAzon7FORr8622JNw2DCujZerHhFAv_BDVePM6tx-1bU3ODN7PeRtrL9HRmwxicy4tLKmmKC6iSzdcooq4jncWaYzKT0ywuir8kTC1phs1ecRHABPNvVe-zLKxhCoB97v3uxY2x1Wv9ebyytEK8ysW-7cidTuOhTHiLIQU_5JCNe1KDvNKTiahQKgf4kpNQV0g57F&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEE6-UacopTAdl-yzAS3xtUa8bi05STIgDQuMUc8e6IqGqb1oIDlnZsKElIsiniU3A5Y4POKTAvL9jOvlAFefjOj-N2kmwE39N4kVjslTzb3xsNdrurggO2ys9_vTw5NB_LY76NrByvtqIwZuhMhFaany5MAq1paqHKuJ8LLKVQW76LlhsYXoM8mwrTprqYp8VDdpG0bq_xN0daVO6R3nHjfOqRYceOE-1QsfVnkohVYlBp1Mv-LlKdzJIyRBk6Ac_IcFeS2PB4X9X-XgGW90FQtBHFMUA42ikapsJndxoSb_M5qls4jS9CXp7m1nnhpyvEaRBfyQTehotBFr804cMHFVMm7UKBoGF5gL-4VNiH9RQB82yaC2w6GPtQnxoqH8BMS7ZDL6mVcdajZIHC4k82-VEn7_uoX2UH3HoM4XLaPvKzmek7GiXYhlulW_A&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEF1204lVx-hzj2fYWxdZh32AYw3sL9GkbNVVzcjwHVRGmt2fRwWI1XfEf6Fjaf1LSgA_-aqkhur0CwVaT0mlyyOOSRLDEQrr_JSZpvnLI_LSlp59R2MhtKUhXygtaNMlPiIg-4vIyhdUYLAcKxKu32UbBGhkULjcRwSEpNozPSkFmjq-JF7efaheFY_9uQT3vmQivfkbHHTo5tZAwr5FmnWYwnudGsbyz1KXQoGmCNL0rKXtReNSL1A02iTMeYC9EIY3MhN69RNiu7yrgNH0_nMxtPGrR5xyWT-Yp4fiboBXydu2cg84BkzLD_RBqSfZK8-d1A2kTExPY6rEX696rv2hpw53UYJHuql77hHlYfsPgkQGI3waLKNYIC2jsBh5zvcO0XtFtTZUTh0vaPMVeyZgeCRkMeZE7MdI00XN0rbHKjSjwD6JC1qOdlTzq67&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEFiTXqmiod_aJhrmCSi5GwcvtABT7EoaQL01BLCJ2bvPVSS9TWPCULbLeP5h5ztCfESlA5vfGaco3qc6DKucta-plWWIEwx29nC4j7k20Nf_fkKZZAND1ITO4LHqgkf9X9MRZXF8vS06sy-DZ_QXACl2wkAL7QcCzXWpGP43gU0n-OTLJJ-2727ejxZWdEVJxRZ1TFYT6fCXTKD-tXJ7zz0JunzEXRVW1y1Ymrb-VW-e9dokpY_SeVblO6CmNQfbIqtPlsd-Bh5rYZ50sEGjtkOfUOCzTuC6fFhOCFKI5M8ean6fP9rBttEGThUYwjolQNzzZWbSYGObvDR1gqOPRCiQz8w_OpaETPBJd61VHiHphwBl9RGv_aZPTGPR2nDQclbN3MM6461q5iSzRO-8AEnIiUY2aBADn9aO8xxYlmFT0Ib&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -188,28 +187,18 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 127 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Pedro S."
+          "author": "Isaias Llopis",
+          "quote": "clean",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Lucía V."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Martín D."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
+          "author": "Sol Estefanía Altube Vilariño",
+          "quote": "Me hice la depilación definitiva en Estética Lis y la verdad es que fue un antes y un después. Venía de otra experiencia en el polo de Pilar donde no vi ningún resultado, pero con Estética Lis empecé ",
+          "rating": 5
         }
       ]
     },
@@ -281,34 +270,48 @@
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 123 resenas en Google - 4.9 estrellas",
+      "subtitle": "Basado en 127 reseñas en Google - 4.9 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Isaias Llopis",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "clean"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
+          "author": "Sol Estefanía Altube Vilariño",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Me hice la depilación definitiva en Estética Lis y la verdad es que fue un antes y un después. Venía de otra experiencia en el polo de Pilar donde no "
         }
       ],
       "avgRating": 4.9,
-      "reviewCount": 123
+      "reviewCount": 127
     },
     "packagesGiftcards": {
       "packages": [
@@ -365,6 +368,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 678 171",
+    "whatsapp": "+595 21 678 171",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "(021) 678 171"
+    "phone": "+595 21 678 171"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "4c2170bf-97a8-430f-a21d-1b46e756cdc3",
-  "createdAt": "2026-04-25T05:23:41.362Z"
+  "createdAt": "2026-04-25T05:23:41.362Z",
+  "google_maps_url": "https://maps.google.com/?cid=9635591087129773508",
+  "business_status": "OPERATIONAL"
 }

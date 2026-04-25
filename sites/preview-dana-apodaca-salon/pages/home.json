@@ -24,6 +24,11 @@
       "content": "home.services"
     },
     {
+      "id": "product-catalog",
+      "variant": "grid",
+      "content": "home.products"
+    },
+    {
       "id": "trust-badges",
       "variant": "strip",
       "content": "home.trustBadges"
@@ -32,6 +37,11 @@
       "id": "gallery",
       "variant": "grid",
       "content": "home.gallery"
+    },
+    {
+      "id": "before-after",
+      "variant": "slider",
+      "content": "home.beforeAfter"
     },
     {
       "id": "team",

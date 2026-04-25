@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 991925",
+    "whatsapp": "+595 981 991925",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 991925"
+    "phone": "+595 981 991925"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "71e1be9a-8724-4aa7-8661-cf174116621c",
-  "createdAt": "2026-04-25T05:23:41.426Z"
+  "createdAt": "2026-04-25T05:23:41.426Z",
+  "google_maps_url": "https://maps.google.com/?cid=2411242998337160021",
+  "business_status": "OPERATIONAL"
 }

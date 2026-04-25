@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 125820",
+    "whatsapp": "+595 985 125820",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 125820"
+    "phone": "+595 985 125820"
   },
   "location": {
     "city": "Villa del Rosario",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "a61dc58f-7f27-4dcf-be95-b38f38a13b33",
-  "createdAt": "2026-04-25T05:23:41.406Z"
+  "createdAt": "2026-04-25T05:23:41.406Z",
+  "google_maps_url": "https://maps.google.com/?cid=6495318627504500730",
+  "business_status": "OPERATIONAL"
 }

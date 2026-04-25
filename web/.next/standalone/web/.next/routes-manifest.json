@@ -829,6 +829,14 @@
       "namedRegex": "^/en/p/(?<nxtPrubro>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/onboarding/[token]",
+      "regex": "^/onboarding/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPtoken": "nxtPtoken"
+      },
+      "namedRegex": "^/onboarding/(?<nxtPtoken>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/p/[rubro]",
       "regex": "^/p/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -1298,10 +1306,22 @@
       "namedRegex": "^/api/newsletter(?:/)?$"
     },
     {
+      "page": "/api/onboarding/submit",
+      "regex": "^/api/onboarding/submit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/onboarding/submit(?:/)?$"
+    },
+    {
       "page": "/api/outreach/track",
       "regex": "^/api/outreach/track(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/outreach/track(?:/)?$"
+    },
+    {
+      "page": "/api/place-photo",
+      "regex": "^/api/place\\-photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/place\\-photo(?:/)?$"
     },
     {
       "page": "/api/properties",

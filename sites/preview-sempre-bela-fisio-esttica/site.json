@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0986 663434",
+    "whatsapp": "+595 986 663434",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0986 663434"
+    "phone": "+595 986 663434"
   },
   "location": {
     "city": "Asunción",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "88a56cf2-3ada-4e90-9237-2425220fc916"
+  "previewLeadId": "88a56cf2-3ada-4e90-9237-2425220fc916",
+  "google_maps_url": "https://maps.google.com/?cid=2423845964427969905",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0984 558085",
+    "whatsapp": "+595 984 558085",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0984 558085"
+    "phone": "+595 984 558085"
   },
   "location": {
     "city": "Capiatá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "79bda4b5-0e8a-4d10-a073-57a717ff1920",
-  "createdAt": "2026-04-25T05:23:41.419Z"
+  "createdAt": "2026-04-25T05:23:41.419Z",
+  "google_maps_url": "https://maps.google.com/?cid=2260636996462675357",
+  "business_status": "OPERATIONAL"
 }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 410318",
+    "whatsapp": "+595 981 410318",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 410318"
+    "phone": "+595 981 410318"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "7d3b9d07-7c31-4f6c-9ad3-fd85f3015a2d",
-  "createdAt": "2026-04-25T05:23:41.367Z"
+  "createdAt": "2026-04-25T05:23:41.367Z",
+  "google_maps_url": "https://maps.google.com/?cid=11676557072294818364",
+  "business_status": "OPERATIONAL"
 }

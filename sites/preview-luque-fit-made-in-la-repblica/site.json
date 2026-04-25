@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0992 263249",
+    "whatsapp": "+595 992 263249",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0992 263249"
+    "phone": "+595 992 263249"
   },
   "location": {
     "city": "Luque",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "f553d105-264f-4193-9250-a7585858b8d0",
-  "createdAt": "2026-04-25T05:23:41.451Z"
+  "createdAt": "2026-04-25T05:23:41.451Z",
+  "google_maps_url": "https://maps.google.com/?cid=14338706821024634329",
+  "business_status": "OPERATIONAL"
 }

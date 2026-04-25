@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 515028",
+    "whatsapp": "+595 971 515028",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0971 515028"
+    "phone": "+595 971 515028"
   },
   "location": {
     "city": "Limpio",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "015996c3-9b40-4e82-9358-d663e633325b",
-  "createdAt": "2026-04-25T05:23:41.353Z"
+  "createdAt": "2026-04-25T05:23:41.353Z",
+  "google_maps_url": "https://maps.google.com/?cid=1259812998624110780",
+  "business_status": "OPERATIONAL"
 }

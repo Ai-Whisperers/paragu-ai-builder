@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 499769",
+    "whatsapp": "+595 985 499769",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 499769"
+    "phone": "+595 985 499769"
   },
   "location": {
     "city": "Encarnación",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "8190769a-84ea-4fd5-a62d-3a5177cafcb8",
-  "createdAt": "2026-04-25T05:23:41.400Z"
+  "createdAt": "2026-04-25T05:23:41.400Z",
+  "google_maps_url": "https://maps.google.com/?cid=697137514726837076",
+  "business_status": "OPERATIONAL"
 }
