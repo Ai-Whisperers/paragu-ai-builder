@@ -110,13 +110,13 @@ export function PackagesSection({
             </div>
             
             <div className="mt-8 bg-[var(--muted)] rounded-lg p-6">
-              <h4 className="font-semibold mb-2">¿Cómo funcionan las Gift Cards?</h4>
+              <h4 className="font-semibold mb-2">&iquest;C&oacute;mo funcionan las Gift Cards?</h4>
               <ul className="text-sm text-[var(--muted-foreground)] space-y-1">
                 <li>1. Selecciona el monto</li>
                 <li>2. Ingresa los datos del destinatario</li>
                 <li>3. Agrega un mensaje personalizado</li>
                 <li>4. La enviamos por email o WhatsApp</li>
-                <li>5. Válida por 12 meses</li>
+                <li>5. V&aacute;lida por 12 meses</li>
               </ul>
             </div>
           </div>
