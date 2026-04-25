@@ -3,6 +3,7 @@ import { logger } from '@/lib/logger'
 import { resendAdapter } from '@/lib/integrations/email/resend'
 import { bookingConfirmationEmail } from '@/lib/commerce/email-templates'
 import { sendText, notifyNewBooking } from '@/lib/integrations/whatsapp/evolution'
+import { createAdminClient } from '@/lib/supabase/admin'
 
 export async function POST(request: NextRequest) {
   try {
@@ -28,8 +29,7 @@ export async function POST(request: NextRequest) {
       )
     }
     
-    const { createClient: createAdmin } = await import('@/lib/supabase/admin')
-    const adminSupabase = await createAdmin()
+    const adminSupabase = await createAdminClient()
 
     const { data: business, error: businessError } = await adminSupabase
       .from('businesses')
