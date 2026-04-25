@@ -1,7 +1,7 @@
 [
   {
     "route": "/s/[locale]/[site]/tienda",
-    "firstLoadUncompressedJsBytes": 4575916,
+    "firstLoadUncompressedJsBytes": 4575925,
     "firstLoadChunkPaths": [
       ".next/static/chunks/0cfihoccpkdrv.js",
       ".next/static/chunks/08u0o2r56cm5q.js",
@@ -13,7 +13,7 @@
       ".next/static/chunks/0s~8iijs~tauy.js",
       ".next/static/chunks/15glwmq94m0h9.js",
       ".next/static/chunks/0ewiidh3iod0_.js",
-      ".next/static/chunks/0ns~gt0zw52s7.js",
+      ".next/static/chunks/0as-wa_fdbrac.js",
       ".next/static/chunks/0a5-b7svyama1.js",
       ".next/static/chunks/0bybfolb87k7-.js",
       ".next/static/chunks/0uer3xoymdfkj.js",
@@ -26,7 +26,7 @@
   },
   {
     "route": "/s/[locale]/[site]/producto/[slug]",
-    "firstLoadUncompressedJsBytes": 4570625,
+    "firstLoadUncompressedJsBytes": 4570634,
     "firstLoadChunkPaths": [
       ".next/static/chunks/0cfihoccpkdrv.js",
       ".next/static/chunks/08u0o2r56cm5q.js",
@@ -38,7 +38,7 @@
       ".next/static/chunks/0s~8iijs~tauy.js",
       ".next/static/chunks/15glwmq94m0h9.js",
       ".next/static/chunks/0ewiidh3iod0_.js",
-      ".next/static/chunks/0ns~gt0zw52s7.js",
+      ".next/static/chunks/0as-wa_fdbrac.js",
       ".next/static/chunks/16f90v8v-sidp.js",
       ".next/static/chunks/0bybfolb87k7-.js",
       ".next/static/chunks/0uer3xoymdfkj.js",
@@ -51,7 +51,7 @@
   },
   {
     "route": "/s/[locale]/[site]/[[...page]]",
-    "firstLoadUncompressedJsBytes": 4541822,
+    "firstLoadUncompressedJsBytes": 4541831,
     "firstLoadChunkPaths": [
       ".next/static/chunks/0cfihoccpkdrv.js",
       ".next/static/chunks/08u0o2r56cm5q.js",
@@ -65,7 +65,7 @@
       ".next/static/chunks/0f_ke71g50a1t.js",
       ".next/static/chunks/0ewiidh3iod0_.js",
       ".next/static/chunks/15glwmq94m0h9.js",
-      ".next/static/chunks/0ns~gt0zw52s7.js",
+      ".next/static/chunks/0as-wa_fdbrac.js",
       ".next/static/chunks/0bybfolb87k7-.js",
       ".next/static/chunks/0uer3xoymdfkj.js",
       ".next/static/chunks/0adrv_8y7i7h2.js",
@@ -358,7 +358,7 @@
   },
   {
     "route": "/demo/[rubro]",
-    "firstLoadUncompressedJsBytes": 1778940,
+    "firstLoadUncompressedJsBytes": 1778949,
     "firstLoadChunkPaths": [
       ".next/static/chunks/0cfihoccpkdrv.js",
       ".next/static/chunks/08u0o2r56cm5q.js",
@@ -367,7 +367,7 @@
       ".next/static/chunks/0ozin6.yu3myo.js",
       ".next/static/chunks/0s~8iijs~tauy.js",
       ".next/static/chunks/08saze040ewfh.js",
-      ".next/static/chunks/0ns~gt0zw52s7.js",
+      ".next/static/chunks/0as-wa_fdbrac.js",
       ".next/static/chunks/0145s5~5xg509.js",
       ".next/static/chunks/0ewiidh3iod0_.js",
       ".next/static/chunks/0bybfolb87k7-.js",

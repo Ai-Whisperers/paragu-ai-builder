@@ -29,11 +29,6 @@
       "content": "home.trustBadges"
     },
     {
-      "id": "gallery",
-      "variant": "grid",
-      "content": "home.gallery"
-    },
-    {
       "id": "team",
       "variant": "cards",
       "content": "home.team"
@@ -44,9 +39,14 @@
       "content": "home.testimonials"
     },
     {
-      "id": "booking",
-      "variant": "wizard",
-      "content": "home.booking"
+      "id": "google-reviews",
+      "variant": "carousel",
+      "content": "home.reviewsWidget"
+    },
+    {
+      "id": "packages-giftcards",
+      "variant": "tabs",
+      "content": "home.packagesGiftcards"
     },
     {
       "id": "faq",
