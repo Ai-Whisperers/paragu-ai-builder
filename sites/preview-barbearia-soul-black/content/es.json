@@ -191,23 +191,23 @@
       "columns": 2,
       "items": [
         {
-          "name": "Sofía L.",
-          "text": "Excelente atencion. 5 estrellas bien merecidas.",
-          "rating": 5
+          "name": "Ana L.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 3
         },
         {
-          "name": "Marcos A.",
-          "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado.",
-          "rating": 5
+          "name": "Diego H.",
+          "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "rating": 4
         },
         {
-          "name": "Lucía R.",
-          "text": "Llevo anos viniendo y siempre cumplen. 5/5.",
-          "rating": 5
+          "name": "Valentina R.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 4
         },
         {
-          "name": "Jorge P.",
-          "text": "Ambiente agradable, profesionales y precios accesibles. 10/10",
+          "name": "Andrés P.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
           "rating": 4
         }
       ]

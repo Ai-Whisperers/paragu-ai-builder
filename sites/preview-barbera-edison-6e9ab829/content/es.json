@@ -212,34 +212,34 @@
       "columns": 2,
       "items": [
         {
-          "name": "Andrés P.",
-          "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina.",
-          "rating": 5
-        },
-        {
-          "name": "Ricardo G.",
-          "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar.",
-          "rating": 5
-        },
-        {
-          "name": "Fernando D.",
-          "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso.",
-          "rating": 5
-        },
-        {
-          "name": "Luis M.",
-          "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona.",
+          "name": "Pedro S.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
           "rating": 4
         },
         {
-          "name": "Santiago R.",
-          "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo.",
-          "rating": 5
+          "name": "Lucía V.",
+          "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "rating": 4
         },
         {
-          "name": "Marcos T.",
-          "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo.",
-          "rating": 5
+          "name": "Martín D.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 4
+        },
+        {
+          "name": "Florencia T.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 4
+        },
+        {
+          "name": "Gabriel N.",
+          "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "rating": 3
+        },
+        {
+          "name": "Camila B.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 4
         }
       ]
     },

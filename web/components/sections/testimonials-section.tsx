@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils'
 
 export interface Testimonial {
   quote: string
+  text?: string
   /** Preferred. Legacy content may use `name` instead — both accepted. */
   author?: string
   /** Legacy content shape alias for `author`. */
@@ -147,7 +148,7 @@ export function TestimonialsSection({
                   className="mb-6 text-base sm:text-lg leading-relaxed"
                   style={{ color: 'var(--text)' }}
                 >
-                  &ldquo;{testimonial.quote}&rdquo;
+                  &ldquo;{testimonial.text || testimonial.quote}&rdquo;
                 </blockquote>
 
                 {/* Author */}

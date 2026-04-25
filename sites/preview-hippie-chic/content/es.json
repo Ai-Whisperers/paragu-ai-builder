@@ -191,23 +191,23 @@
       "columns": 2,
       "items": [
         {
-          "name": "Sofía L.",
-          "text": "Excelente atencion. 4 estrellas bien merecidas.",
-          "rating": 5
+          "name": "Laura E.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 4
         },
         {
-          "name": "Marcos A.",
-          "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado.",
-          "rating": 5
+          "name": "Pedro S.",
+          "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "rating": 3
         },
         {
-          "name": "Lucía R.",
-          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
-          "rating": 5
+          "name": "Lucía V.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 4
         },
         {
-          "name": "Jorge P.",
-          "text": "Ambiente agradable, profesionales y precios accesibles. 10/10",
+          "name": "Martín D.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
           "rating": 4
         }
       ]
