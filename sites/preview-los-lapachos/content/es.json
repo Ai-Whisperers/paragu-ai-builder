@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGad1aYQjboUKFS5CdkHxvNMSXC_YderiTvEBmZIyKHOc99g7mZCOXmxGL0fmrkNSXU-BIHiLuJf8rRVjtc9oFzTTJbHq1ynsPdkJSWQx4Ndk0AQMOVhUNVvxaLg0HZO-ckoC1idcJ34ER73-9gsgQNPcUTwFL6bwEL87RnFTOY9NfIXDMDbaw5_JbgQPVRBG0jWEhNofah4x0H-gA1ZCx07gEa0MWHGw0l4IoeYFGvvFiACtsljmKvi6qN6mHy_S5rcNk5uA8dkmhm4sTC7sjzgKR0XkUhiTyy3dDq_SdVjg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH9MF2zlkTQsmDm-7lIAuB5mprQN7Eg7D33voqHKL_G0UYeKW2EEqbQAF6l9jZae-s4duTzz2ugrkor-x-IILEr9lgiC8-gJ1OXu-60TkBSaP0fRaSTm6fzIt5bV47tZ3DujmjExVNUwTBp_faKXJQPTvs538zZ3nfML2PSBrn_s-yCQ87RfL1J7-hvCRoM89FgJIOy5kQ-BFTw5mCBzNfZEbfLazb5iWum-uLfmu45VP0jZBL_MlaBTB3hHTfGHF25-6vAnqzfwVSJjU52Tvwgbq-YA8FmuO-qXBbpH24SvQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGe2iDKy0WCsszu99hPGUa7YUH5ngzBUwnXY0_zU7Mnb2MxZ998oKqAmxC_v6oUua8-H03J3tPvNYJn1WHcBzKvY-yUaOSrRyTjVo4ftOOhHfk7fIY4GUtzyqv1apOtV6W9O0Uz58mSDTdlptiwnD3RYPd_8b1-qJf6I93d_eYaq-tmCRaWWZucHFFBlnstMnkQdtB6LNF4xWk-DM8TjCpHEzvvvAaDE0f1YS8Ulj2-nkmTRikd_60U5HTY5JMBF-vxnq305Hp2XSPSqBmw2OaVhif9cNLu8WYzU8RYY6dqjA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFmdz6uEpCPF2Y-vknP3rT0_7fs7ZSy4T10Mja2Ohp66NbHquyjcCxsR9Z4o9mksX-8PeGznP5mcz4u03VTLJq0WA_Zxx8N1Z5ELs9KZX6qFJ3HQuqx4Vwg4xfBljtnIKHuMa8YlaIzX1GgDMR8ZxkmNEM3QR0nzUpMOtgAKwn-1z_OuD--oKg0eGn61uhHAIIlGf-kdG2azLXh10GLTcOZ7B3UADsvqn68QPK8l3t3QWe1ZLJnGkt29RLeMUiFNSWqNKGfRZEN1js00EkzpnVPuk1vvXbfZlAckdovYNsOXA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF3sM_IgoIN_GNNnsdCOe8K2XK1O9AhohRm48oTYdPxpYXaHtgH6UENJJsWRqIYYxoYFh-NAx4JTMPT3vcBJBkwIsuH5SUm5BH2OXshZd3UqYis237aBpviHWmN7DQe6LPcSkX-VDpxLWiBc0LLY1P8ca3rYkMwmyXCUe5XXhCnRwv-8ang_J5r6okBawPX7jjl985pOIOP8YxZ_KkVzU2ND06v6rvDw2_PqSP32EtMAC6dCWT73WdTNumUUgYup9GdFeq_tmtq2IXFHIpXFk0kLh2is_jqXwYemOxkP-D_Nw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGJDGe8M432nhyS62Ks1Ir2ppN6ZM-ZG1QENYm2pLWvKBfl3JYm_UbtIu8had-Q91OgixYU2rQ0OF1vCn6embgOtZ4palbwAWYREWWyIipB0lkwapQMmR6x2q_UJsi1fHwOqszWunHL82BvC7m-lqHfX0w2emJ9iWJIJcABNjHYuXE5gZYpHRfsOTEZ6GEoRDueHWxD2XHLPNx-tDqPxRXOK0JkpHeNPEAkH4kzYidaJ0ONcWIpo4po4FyxlUzFs_9s7PazJInIGU9dhEG40JmYUqmGWotZrI5NG9gz6LZKng&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHN4pt7WQxYcB_ZH-AsPmBibVlsqYFOIWTkK0dMkHgRBn4rvHHBPOop6eFcnWwaeOT1NAT_6JQ46VWi4r4fCzPwJZabbit0r0P5YuzjNMiR5uVnPaF4wjWWb1FESpomW5S_9JLlqZrJ-Cgk29PAPVz8x9zj95ZHXIDMaeKvXCnafJ684I74e_f1yTn0LhC_tBGaO6rm0YMfbo4CX3V4DratVC9R7Ikv-iHw7a02yTgVfetUt_i46UmwT28UUnUmVC09EkJUKEGznovP9QpTzme3VF2LYvOda1nsziwdYhbQxg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGY1aEmtuIdRs3cbR2N1ByZrhleIo4aYUIdxM2xVnC3FrvcIktu1bcKkPGw7wHPlsk-EyYvHSAYv6rRwAkkBYlpUSerj3WdwlnLtJ481nUD8cCTrK4217Mri37f5zcJR955nGtjlICWjMoH7fBrSWmIDbW3xfuYNJUZy7aaGxHRex-0oRoxcO4tB28v2t3F4w52nmI0l4zfO3TDQMXdyfndA_nJRZNR5SEaemVV1wEjEiDlDengkfwfHHwg-B2EDNz498D94HGpiy3Byl6LylCZ9YhTjnF93YvNGmXH-8KBTw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE-nW7uq8iHuA_6Vne8PXTbV7xyTVFrbX_OfmwobzCUFoboUQibzyA8vAsne-gTyS44u6uvUxwz2H937ev3STWVuY3qFG6r4J3HnIxDJ9gK5b5eTRlQy3qHo1e9l-dfsBgNNXrSk4pC3I2KZu83B9d4w6dOAtbwitONKKln_Yel6nW2ADv4fwDd6akh5kIPP1oIMXZHQWVOtgw4hboi2sVlVLqpkSVRKdgfKklgusP8fUkGDXnyCn5Z86QjPL3aj0grlX-QVF8PFwR_2tiYmjRVyBtpqUaLN3SVH2fFjkbtLg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEElWZTJbsfKjzEP9DavD0nodegTfwTWPh9UFcsR8kl9H5Wd-oCXGVJ5Hv0wh1j-1Oqmkw5F0ZTuvDjQW--5_rHuC3XqnZfg6aYyFH-LmJIVVo5KFtAIP91Rps9T9F-W5tyB_chKwrgsBhSWDtlERdugYKxT2BFb6b8bbElqHgyULVkd5pvZj3m1BUzWhriKDi6R61eSoGI8UF_07IbKMQO-Oq7jis9pgTErPuWF3-lCruf1_jCuqaj0-j_QjAmjJ0kpWzg1wJL81JTr4RMKH71efB93cQ2FHTfITBpVXLyhqg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEZhkVbV2zOykaCuw5V4WY_ALMmwJBEXqP-J7TiNG5mUwYwNMybclwWz4F8oikPTtSrXP_gjWPrvMsnXWUjatYqq2oVL5EXN2B6PC74R4tqzoL4mwO8UjSV7STcTZYEwiKtsKU6o7hUT7fwNpDApGQ49EIRRNu4sRVNJ_jPt3ldQS4yiBWFsY-IznH7D6tGDZjr9B5JSzBJzasqIHtOAp7vgnnBLUPzmCKcQQ9yqCBViydgOBgLk6hHVS6fgE9ZB6Y-LuAf6MAaNEahlAs6_h4FV2w_GqHrQ87A17Z0QMl0kA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFJKNJ4R4jWUgtzk87CN0EcpupfYdK1GR-UbS3elzzBwhQq8zUD5-ZRy0Is4Mw1Mq726f28w0Rbyulgjug3MfL_JcF7vY8rFpYLdqeBrQV9Ip3lwXcsNiZr6JXpapAu5_Sjed8Jhzy-SZVgJ1F7n-ffJN_mwIiw25kUp7VuAIpkgdjTnylaa6sleH084jG3H6NKWUaLLuMIOvEEwRqgKOJLbPslOzfrPGJGvMHIWijCIbP_hGTHgGtbZEcAuPm6ierQvJCbY9K4UEmHunSlo_tyXltEjKFKUGxaT6hO18ebIw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -186,35 +186,9 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 135 reseñas",
-      "items": [
-        {
-          "author": "Laureano Cabrera",
-          "quote": "A very peaceful place where you can relax without any problems. You can even get there by bus just a few blocks from the main avenue and away from the noise of the city...",
-          "rating": 5
-        },
-        {
-          "author": "MariaGloria Benitez",
-          "quote": "Beautiful, peaceful, and welcoming place. Run by the owners. Mrs. Graciela is very kind and attentive to everything. The cabins have everything you need: bedroom, kitchen, grill—everything for a great",
-          "rating": 5
-        },
-        {
-          "author": "Hugo Blanco",
-          "quote": "Spectacular from the first moment. Welcoming and private facilities. Affordable price. Spectacular from every point of view.",
-          "rating": 5
-        },
-        {
-          "author": "Israel Talavera",
-          "quote": "Ideal for getting away from it all.\nBeautiful and peaceful place.\n5 minutes from downtown Altos and less than half an hour from San Bernardino.\nA very complete breakfast is delivered directly to the r",
-          "rating": 5
-        },
-        {
-          "author": "Jazmín Soledad González",
-          "quote": "Highly recommended!!!! Excellent place, quiet, totally relaxing, pool, very comfortable rooms, the bathroom was very clean and in perfect condition.",
-          "rating": 5
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 135 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu turno",

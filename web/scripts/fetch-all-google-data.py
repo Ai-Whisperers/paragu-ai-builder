@@ -8,7 +8,7 @@ SITES_DIR = os.path.join(os.path.dirname(__file__), '../..', 'sites')
 
 # Spanish text detection
 SPANISH_CHARS = re.compile(r'[ñáéíóúü¿¡]', re.IGNORECASE)
-ENGLISH_WORDS = {'the','and','for','was','are','had','has','not','but','this','that','with','from','they','have','been','were','would','could','should','their','there','which','when','what','after','before','great','service','place','very','good','nice','love','best','ever','get','got','first','time','back','here','them','some','just','also','than','then','only','way','been','said','its','over','such','year','into'}
+ENGLISH_WORDS = {'the','and','for','was','are','had','has','not','but','this','that','with','from','they','have','been','were','would','could','should','their','there','which','when','what','after','before','great','service','place','very','good','nice','love','best','ever','get','got','first','time','back','here','them','some','just','also','than','then','only','way','been','said','its','over','such','year','into','all','can','did','get','had','has','him','his','how','its','may','new','now','old','one','our','out','own','see','she','two','use','who','all','any','day','few','her','him','his','its','let','man','say','she','too','try','way','all','any','day','few','her','let','man','say','she','too','try','hair','cut','every','most','need','think','want','each','more','some','than','your','about','could','down','life','like','made','make','many','much','only','over','part','same','take','help','here','high','home','keep','know','last','less','long','look','love','make','more','move','much','must','name','need','new','next','now','only','open','over','own','part','past','pick','plan','play','pull','push','put','quit','read','real','rent','rest','rich','ride','ring','rise','risk','role','roll','room','rule','safe','said','same','save','seem','self','send','shop','show','shut','side','sign','size','slow','some','sort','star','stay','step','stop','such','sure','take','talk','tall','tell','them','then','they','thin','this','thus','till','time','tiny','told','toll','tone','took','tool','tops','total','tour','town','track','trade','trail','train','treat','tree','trial','tried','trip','true','trust','truth','turn','twin','type','ugly','unit','upon','used','uses','valid','value','visit','voice','wait','walk','wall','want','warm','warn','wash','waste','watch','water','wave','ways','weak','wear','week','weigh','welcome','well','went','were','west','what','wheel','when','where','which','while','white','whole','whom','wide','wife','will','win','wind','wine','wing','wire','wise','wish','with','within','without','woman','wonder','word','work','world','worry','worse','worst','worth','would','write','wrong','wrote'}
 
 def is_spanish(text):
     if not text: return False
@@ -17,7 +17,7 @@ def is_spanish(text):
     english_count = sum(1 for w in words if w in ENGLISH_WORDS)
     total = len(words)
     if total == 0: return False
-    return english_count / total < 0.3
+    return english_count / total < 0.2
 
 PHOTO_FIELDS = "name,rating,user_ratings_total,reviews,formatted_address,international_phone_number,opening_hours,website,price_level,url,vicinity,business_status,photos"
 
@@ -53,6 +53,7 @@ def update_preview(slug, details):
     spanish_reviews = [r for r in all_reviews if is_spanish(r.get('text', ''))]
     if not spanish_reviews:
         home['testimonials'] = {'title': 'Reseñas', 'subtitle': f"Basado en {details.get('user_ratings_total',0)} reseñas en Google", 'items': []}
+        changed = True
     real_reviews = spanish_reviews[:5]
     if real_reviews:
         items = []

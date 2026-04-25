@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFw3hmPMGsCtpECpRysKiSe2a8-l5V8wXy1yebmc1AJsfstq7vMwlHcWxvPS0x24WwduVtdDNT6unxkxjcNxyXhkbiAME0_ae8TuW6g2GNrl72tB0TEryvpNdyHt8JudsjdQ3VgxjUBnJ_wRa9R-TC_Y--VCf4cZwq1xlCPZd2bn8dZYSb0K0xm_oAIGvzwTflBx5esw0M5rc1nHH_HviIzPhn3x31uKCQzjR277TvNujur5N5I8tTA5czSyRP5BGvpr0sr39efpCqV0qUu8PFLDYgibdw3RVlyIEDcc4ER6IXtTMnbm5w2qgNDy2vQ0LuxhGNJa76qmfPx6n3XrndwfZlegXQrkhCeBegxOYjsK2yS7h27_0cgI3pNtVPB4ZQ-YP0EYQ-zPSal8k0lOML40t1Q5j5klWII8fai6ozuuA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGmgMFZuwgg-X-eQ1IeJVlIGSNx-9Ya0Xr1K0OReTNOa5TTF0KZTijVsG1X7UOW51vF5Eh1IxwrTB_PduGtcskvpNpotqnkOTRbsBFP2NO0B-UGMS1MEL_7EKj2XCCcxz4DyEnR4a1q5VksIIOEG61aAzs-6293ffVQPHSY8VsDbtTpKNddePxRIb6uhnjTlUHkdPdVW_HhXnIeUqw8Od2bYsUbnOPsZlRYQwp6AioJIVdnwMLym9jTIzwO0Gs46rPbKRFMZjFcQXdOXUEMPITDPmDJT6sSqV9DUqdgwXmjFwPIr5hCkFScNk-va40r3NOT1cwqFIENxSby4EsxYzUmj7qKHYQ_GvdhJl7gxY1eN0rKsSN_QrlkbN23gJLthz9p4nqKZku-h0lyEXBiFr_TroSPrAKtnOi4H-5rudOIww&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG3LRmwe1PRA-RJ4RU7h8Lcq1-KGzDz4MoCBOoeKODRwa2-sINJ1Dvlsejr-_yi3KZ1lwpjeRC1Qu1mi0aLp3J44H7LHQK2Qim0MWvSfFJFmU_f27veZEDKEYrPxOB9lh3k5awMErgruA41s-WAOqpRQQ-MFZ8186SMrB5hdW-5Hemmshku30VyQppOpEOCWUnXtVqr8tfE2ixi4PuRqBYTBW3g74OW2inNJWjdAg99X7SZyrUIe4cEkinTmPIUXjfSRLqaCMV6-ucvrRhrO6hEAPjK9QX-ijgzK0Bd8UlAGkc5l0njpFq0yyKv8sk4_czACDS7pAyRLxjugzcqE58lhxZezMmqHMbmQhZUY1y_qtR5RLiCXVMa8DHSJ-nJk5aciAIWfTmulE_6fHT6yvsL_yCtaBbeWxl9vNYdlb-17fO9&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFqjyzWhVUreSqJX8SFB5A50ZsWujgX_U0J4bxMaBezrQZT4UdbQNSLpf5IxNLfDMydC05TaakXVI0w9fulxVdR7YygcUs_Dfmpn4T7f7YHr65Rm3xsWKTyl2NoJFQCEkyQ0KoRZIbZYpTFjv4skz1Q1riCECIcYSB6WSRO6ClBO8T9V1AjLHOLdpfst_hT3byoEsd003YW2Q9eNjqJAdiK0ZNta11Pk90_ThwI0CiB3tTXQdPhdfXmge-q12o1RtzQrlDOOXgMsA7YNUj5pCFoW_CX5eSkQ5cgw07AA8YFoUporrc8jjc5X8PTT_cnRyxSlx-Zua-FOZSlKnLdn1N-fd2pL8CLraf8ZOVZ3bN2TOgxmITwr3QTF3zTDgYLC70fBFMlyI2rzkaUDYW9DkNQQqkoWnttIKAXoCWwb6kueMCf&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHEZX1D6P13CMlCDdeYGHkLyp4ylV-h1zlnE0EBbdszrHH_PcbVBWwDFlmC9LoqGpENMgqGk5EZUq0xCUIg8Hgo1-Dfk5wIhceMd7WlaGAXozXRGkJXYysdlzMCTY2nXeA-BOKYyKBDTLe8bC2UtLggE0HHtyoNRD3Mhij41Yt1J93JgYoXj8uyTx17qxBQUBZqRxsLC2H-qhtqAUpq1QHGYRBboZRXlk0L6xVqO-X58V--1IvOtgrhG2ovjrmMfojIKLMZHaA2wR1sEByxECoJkcaSRbK4_z-BWD-MkKEGFLYvkYuaT10FVKFZrEdLKVlmIu9idWM3lb0-1SDXxC_iNE2eFN_EiDhNFaLMd11nd7byWK7gakP4Ic12RBfgMNtZEWezMnNXoSZzyKDDSRK52yIj7M1cqaXa3qzYWqhsBm6S&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGhmimUGBUQ-q7fTRxIPTTn2UIXW45EaY-h3UlKAx6PjZLghbWP6F9Bfqa2jizx9-1H2q_HWTwzYjkqNd4pnUanqDTqY8gTosl5EbzLn1lc59cQwL00iJMS_ocyW_mMXDEnXz8sOk4haBebtaGCyg2vncl-VL24kZA4du36h3vtAzPyxR6T0P85GzWKvbRY4_fYRNb3TAoWQQlI9L3GIXKFUzcMO-tyMr8e_77zdF4HrH3DefIUQF0q10qXSLIhQ4RblwPG1g7phmLiOphp8S0bCiSeEu0kvo65NhoaXhl_cN4PUmzp0-bu1csvGNvnE-OVhI8Cvz-7Aa3gv0Ia2eCa_OXnPt0ePsKN_VVh78gTeeyVeqnIiJT0j3NiTINmKoI7lk-pzbVdu-jOAk1ABarn4WcAqdoK6Mw8EJVorNXgutm4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEBzoQX1H_Bqo1LiqbjDr6CAWenyDD1_dTR6LJr2bjdJ10HAF_2B2bl3JjYowtRDx50nebgMx5Rgb51Kj4BaGBw7dIMeiJu0HfQmJDq-bZn7oEXbimDK14cZln77iYL6VFGGSCpKuU10ScnXNwhZeRF6GsEkfx1QkcDg-pHUis03iu4Hl2cZZyU6444uSTXS_xsFzXKHrpUESLmquhx0-59jlmiXdtdFGxucrrZg3b8mbeVOPKQcJ8Ru2KtxV-NezY8QqDWW4pFYP00HnRAt03VB1nv9lBFWeXNulw2tKrWHuASBkRjYf39KnPFLf1yxo_6RuTI8w7OmJ9Zs-HzcxXipWq6XujD810z7sJ_HMTuYhUWS4gp27XhTzgny3ncQ9QQLXwcsry5LXTFGS1qG76l-TImVqBreBAeftJHPBgqz8c&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGVQACUatYQS9I-H2X8h4XpIexr12AuPGXVobCBHFBTpM6-ppXfMlNzPNE20rsSsw12xS_s1kCpXsft5lvIobeu_yK-3E4CC4fHfaS1WLTgvfaxJDuOsXCPGsGBLdAQgcCeKUE22zVhzEckfxD9yQ1ZZVvzSjmAOBBrHbaKTEPMPcdSgyjmAQhCmXWwTuiqGk2Ams-g0lItkahbUZcijsrV2P0GOexjH4esoLwnHpqJzt7FqfPkA2HSLQw1_4JNj7jHStFcL_D_nQTLlMA2kppy7ni_4318Lml4-ikoA-_eBCUszhNYZPp_RKS_-QQhpITeu-EKsfjnq7IcWxLPFz71w9g_75SSm4lCL7HSKihhMHbgP7_ECrY4K4h5yWw344OvO1AWY8dK5copgHUu1YhiRKHh6bzLOhi9kfE5f7aXF0Y&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFek8qUR8h2rwe8ddtkaH2X0Z4kgcpXl6pDmRzeJxbR3EoXaHjU9W8rBK9YCAWhHX0YsYEn9Z2GKFCqs-IoyjP7ZI2d87T8FN33KFj-14dq0yt5x9WEuUCMazzwOP1CG1KQo3vKt9dwOhrhHeB1vHknuMC8j6nfBZy_YuiXT8xN_U_vm6tVsDLJ8fXSLsuhxc3vHACXNSE1uPdmIKAzbAFNsrNO34R2ZgLidb0OrxHsJg1rfz-Sp-IO-plSyQhbV6K1zZ_TcM0mdcMFVqP-JV9quAifyhDObWaPWRfEMFgeCII5WwSUMuNJfRcXQ4lgQ_Z4QYGPCt-4soGygRkHOyxtPhmy9-4lTKlPnDhLx7IAAYc02gDwqSzNPdfsgLZZtADv6bG1T6qprNjTunVqS6zsByWEhKVKKLXiLsJXbab-Iw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHB1QgBwAJBDe0RC8snsnWw-BOtbZEpW124_aqaWgfk1r8ytXUNMy3Xf3vzPL1zxaFlZAiCzINvuxjlKEBcPAySoLMtGloX-5Pp5Prz4Xz4A_41GcjfDNfD5e41jATtaEU6HxZfhM_VqQbaQNUKXLZtJ4kK5ub68zNNuin9NwOKzbZFCfKf_5C_xnLQzhZD2SXLZSe5TfLIalkXvAooUbJpEbWQE7T9vTRb655hxhrJ2ucX39eoQJaZI1Z70RxzirjATSvOFDdbalNL1WjFtL5IPDmm9KN0gYu4RBvh6ZJP1KFIny46IHfuhFEYkJK39GVPkKDO3-W1IpoN7KwSBR310mit0ZKhGOyyDz47Dy2fDbXFJpDrXFq9NFXP8_prLxCH76lS1oFPY3aaROJ3htnsCChyqCgwsU5wyibec3s7Yg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFDjS4CeOZHHR3FLROaFCrqh5bzPOydwXndF_HuUkG9IaLFvtzAc0PMox9fXx3DdnI0JV8KY5re2kYUpNS0xXtQoKmw2epOAwXkgX-jTBTWBDX4MRoCLBBlPQpvqcuuGW9wtYiCEDmiYYhpQWwo4rBjYjUpZHrkVZctcbQwxmbuir361bR6c3F33wNZ6ylWmklMXKf8NUauFE49Q_dERY7ktML4Lg1MgRDZAVKsmvQIuhidBIRS3qLFIi48hT3xWsgnDaksLTzYYR4avZaiaJ_V1pSYI7zaBbtoB7X3yjyo6G6lwWsM8vMgrhHbObNFH-CVe_NQbC0rCF6dauXshnrZUXhO8Cp1ljy3W8_MQ1LnfLyn_LN-3ya39NuxlyaqgCN_87jVZ-gweEDnPhjU0qJAaGwTFK9RzYOLunhHic7Xm2s&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH-no1Ll3LQ7mcnJG7O35tlXULcQT8aXH7h0IGKmTqX6IXg79WVSUTNTswvOj43HeB2_NflMCU0L9wtk7bkDMiKztBqdPfDn8BHCUKdzQ70a3abEk7GTchF2XQAlkGWofkkF93nZzwZQVIigw2m4sO9NgpAVADrFg1KOv_oL0FLhKCPRMwOLPhOQRKVTD8cUjjPssKmva1hpIVOyC-exCjEP8X6T7Wbn7fWKn4UNRMstKlyI0cxDhc1C06ZuSKxr6UCZRvaNLJ_bf77oJKoutpOeNq6K8ua492AoLkTySHVXDTjrMyPxfuKzBkguHkarZa8SVHGW8HaPzr_8A3Se8IRwwj0Dg3GvgeJwruN8w_kIpvqZC-a5FIbFSd1m2fvtVO83H0OqVKw3zk01FTJnqr-nvwrhq5hlcnw044LDqIfdj0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -190,11 +190,6 @@
       "subtitle": "Basado en 1403 reseñas",
       "items": [
         {
-          "author": "M K (Maci Kun)",
-          "quote": "Positive is that most non food items are well sorted, in top condition new and presented on a large, clean and new shopping area. So far the best Luisito market experience.\n\nNegative downside for less",
-          "rating": 4
-        },
-        {
           "author": "Alam A.B",
           "quote": "Xd",
           "rating": 4
@@ -203,16 +198,6 @@
           "author": "David Ocampos",
           "quote": "Regular",
           "rating": 5
-        },
-        {
-          "author": "Jeronimo Garcia",
-          "quote": "This supermarket is like an icebox. I usually shop here very often, but for over a month now, you go in feeling fine and come out with the flu. The staff inside have to wear heavy coats, bundled up to",
-          "rating": 1
-        },
-        {
-          "author": "Kai",
-          "quote": "Little by little, I'm starting to think they're really trying to pull the wool over my eyes. I can't put it any other way. First, they forgot the remote control for the solar lamp. Yesterday, I went t",
-          "rating": 1
         }
       ]
     },

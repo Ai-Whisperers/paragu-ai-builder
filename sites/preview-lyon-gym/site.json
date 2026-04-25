@@ -14,7 +14,7 @@
   },
   "location": {
     "city": "Asunción",
-    "address": "Av. Primer Presidente, Asunción 001518, Paraguay",
+    "address": "Av. Gral. José Gervasio Artigas 4289, Asunción 001518, Paraguay",
     "coordinates": {
       "lat": -25.2518711,
       "lng": -57.57947919999999
@@ -50,6 +50,6 @@
   "preview": true,
   "previewLeadId": "943bc363-0b7b-4339-a75f-1a4c332d774f",
   "createdAt": "2026-04-25T04:08:08.881Z",
-  "google_maps_url": "https://maps.google.com/?cid=10883299485349986975",
+  "google_maps_url": "https://maps.google.com/?cid=4099233870187612272",
   "business_status": "OPERATIONAL"
 }
