@@ -34682,6 +34682,21 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.instagramFeed",
+        "id": "instagram-feed",
+        "variant": "grid"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
+      },
+      {
         "content": "home.booking",
         "id": "booking",
         "variant": "wizard"
@@ -153831,13 +153846,9 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
-        "Domingo": "9:00 AM – 2:00 AM",
-        "Jueves": "9:00 AM – 7:30 PM",
-        "Lunes": "9:00 AM – 7:30 PM",
-        "Martes": "9:00 AM – 7:30 PM",
-        "Miercoles": "9:00 AM – 7:30 PM",
-        "Sabado": "9:00 AM – 7:30 PM",
-        "Viernes": "9:00 AM – 7:30 PM"
+        "Domingo": "Cerrado",
+        "Lunes a Viernes": "09:00 - 19:30",
+        "Sabado": "09:00 - 19:30"
       },
       "instagramFeed": {
         "handle": "@seguinos",
@@ -153873,9 +153884,16 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
+      "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 240,
+        "reviews": [],
+        "subtitle": "Basado en 240 resenas en Google - 4.9 estrellas",
+        "title": "Lo que dicen en Google"
+      },
       "seo": {
-        "description": "TAJOS Barberos (Central) en Asunción. 4 estrellas y 237 resenas en Google. Conocenos!",
-        "title": "TAJOS Barberos (Central) | Cortes Clásicos y Modernos en San Lorenzo"
+        "description": "TAJOS Barberos (Central) en Asuncion. 240 resenas en Google, 4.9 estrellas. Cortes clasicos y modernos. Reserva online.",
+        "title": "TAJOS Barberos (Central) - Barberia en Asuncion | 4.9 estrellas"
       },
       "services": {
         "eyebrow": "Servicios",
