@@ -1174,6 +1174,12 @@
       "namedRegex": "^/api/calendly\\-webhook(?:/)?$"
     },
     {
+      "page": "/api/cron/booking-reminders",
+      "regex": "^/api/cron/booking\\-reminders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cron/booking\\-reminders(?:/)?$"
+    },
+    {
       "page": "/api/cron/commerce-abandoned-cart",
       "regex": "^/api/cron/commerce\\-abandoned\\-cart(?:/)?$",
       "routeKeys": {},

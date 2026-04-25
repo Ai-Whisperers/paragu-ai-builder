@@ -60,6 +60,7 @@
   "/api/booking/availability/route": "/api/booking/availability",
   "/api/booking/create/route": "/api/booking/create",
   "/api/calendly-webhook/route": "/api/calendly-webhook",
+  "/api/cron/booking-reminders/route": "/api/cron/booking-reminders",
   "/api/cron/commerce-abandoned-cart/route": "/api/cron/commerce-abandoned-cart",
   "/api/cron/commerce-back-in-stock/route": "/api/cron/commerce-back-in-stock",
   "/api/cron/commerce-email-flush/route": "/api/cron/commerce-email-flush",

@@ -60,6 +60,7 @@
   "/api/booking/availability/route": "app/api/booking/availability/route.js",
   "/api/booking/create/route": "app/api/booking/create/route.js",
   "/api/calendly-webhook/route": "app/api/calendly-webhook/route.js",
+  "/api/cron/booking-reminders/route": "app/api/cron/booking-reminders/route.js",
   "/api/cron/commerce-abandoned-cart/route": "app/api/cron/commerce-abandoned-cart/route.js",
   "/api/cron/commerce-back-in-stock/route": "app/api/cron/commerce-back-in-stock/route.js",
   "/api/cron/commerce-email-flush/route": "app/api/cron/commerce-email-flush/route.js",
