@@ -90,6 +90,11 @@ self.__SERVER_FILES_MANIFEST={
           "protocol": "https",
           "hostname": "www.superspuma.com.py",
           "pathname": "/wp-content/uploads/**"
+        },
+        {
+          "protocol": "https",
+          "hostname": "maps.googleapis.com",
+          "pathname": "/maps/api/place/photo/**"
         }
       ],
       "qualities": [

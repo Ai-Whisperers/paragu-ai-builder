@@ -72,6 +72,11 @@
         "protocol": "https",
         "hostname": "^(?:^(?:www\\.superspuma\\.com\\.py)$)$",
         "pathname": "^(?:\\/wp-content\\/uploads(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$"
+      },
+      {
+        "protocol": "https",
+        "hostname": "^(?:^(?:maps\\.googleapis\\.com)$)$",
+        "pathname": "^(?:\\/maps\\/api\\/place\\/photo(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$"
       }
     ],
     "qualities": [
