@@ -1,0 +1,25 @@
+{
+  "id": "lottery_retailer",
+  "nameEs": "Loteria",
+  "nameEn": "Lottery Retailer",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "casino-gambling",
+  "extends": "entertainment_base",
+  "tokens": "lottery_retailer",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Loteria en {{city}}",
+    "descriptionTemplate": "Loteria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "loteria {{city}}",
+      "lottery retailer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Loteria",
+    "subheadlineTemplate": "Loteria profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated regulated"
+  ]
+}

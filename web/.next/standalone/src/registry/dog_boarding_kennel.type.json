@@ -1,0 +1,22 @@
+{
+  "id": "dog_boarding_kennel",
+  "nameEs": "Guarderia Caninos",
+  "nameEn": "Dog Boarding",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-boarding-daycare",
+  "extends": "pets_base",
+  "tokens": "dog_boarding_kennel",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Guarderia Caninos en {{city}}",
+    "descriptionTemplate": "Guarderia Caninos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guarderia caninos {{city}}",
+      "dog boarding {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guarderia Caninos",
+    "subheadlineTemplate": "Guarderia Caninos profesional en {{city}}."
+  }
+}

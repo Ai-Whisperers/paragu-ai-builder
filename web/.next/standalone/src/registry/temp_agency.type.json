@@ -1,0 +1,22 @@
+{
+  "id": "temp_agency",
+  "nameEs": "Trabajo Temporal",
+  "nameEn": "Temp Agency",
+  "verticalId": "b2b-professional",
+  "subVertical": "hr-recruiting",
+  "extends": "professional_services_base",
+  "tokens": "temp_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Trabajo Temporal en {{city}}",
+    "descriptionTemplate": "Trabajo Temporal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "trabajo temporal {{city}}",
+      "temp agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Trabajo Temporal",
+    "subheadlineTemplate": "Trabajo Temporal profesional en {{city}}."
+  }
+}

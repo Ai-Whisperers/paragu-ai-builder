@@ -1,0 +1,25 @@
+{
+  "id": "industrial_adhesive",
+  "nameEs": "Adhesivos Industriales",
+  "nameEn": "Adhesive Supplier",
+  "verticalId": "trades-industrial",
+  "subVertical": "chemicals-materials",
+  "extends": "industrial_base",
+  "tokens": "industrial_adhesive",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Adhesivos Industriales en {{city}}",
+    "descriptionTemplate": "Adhesivos Industriales profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "adhesivos industriales {{city}}",
+      "adhesive supplier {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Adhesivos Industriales",
+    "subheadlineTemplate": "Adhesivos Industriales profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

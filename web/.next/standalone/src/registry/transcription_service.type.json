@@ -1,0 +1,22 @@
+{
+  "id": "transcription_service",
+  "nameEs": "Transcripcion",
+  "nameEn": "Transcription",
+  "verticalId": "b2b-professional",
+  "subVertical": "business-process-outsource",
+  "extends": "professional_services_base",
+  "tokens": "transcription_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Transcripcion en {{city}}",
+    "descriptionTemplate": "Transcripcion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "transcripcion {{city}}",
+      "transcription {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Transcripcion",
+    "subheadlineTemplate": "Transcripcion profesional en {{city}}."
+  }
+}

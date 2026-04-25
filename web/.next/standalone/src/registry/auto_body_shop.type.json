@@ -1,0 +1,22 @@
+{
+  "id": "auto_body_shop",
+  "nameEs": "Chaperia y Pintura",
+  "nameEn": "Auto Body Shop",
+  "verticalId": "automotive",
+  "subVertical": "body-collision",
+  "extends": "automotive_base",
+  "tokens": "auto_body_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Chaperia y Pintura en {{city}}",
+    "descriptionTemplate": "Chaperia y Pintura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "chaperia y pintura {{city}}",
+      "auto body shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Chaperia y Pintura",
+    "subheadlineTemplate": "Chaperia y Pintura profesional en {{city}}."
+  }
+}

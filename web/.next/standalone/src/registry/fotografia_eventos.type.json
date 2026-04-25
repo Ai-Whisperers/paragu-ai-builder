@@ -1,0 +1,26 @@
+{
+  "id": "fotografia_eventos",
+  "nameEs": "Fotografia de Eventos",
+  "nameEn": "Event Photography",
+  "verticalId": "portfolio-professional",
+  "extends": "fotografia_bodas",
+  "tokens": "fotografia_eventos",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografia de Eventos en {{city}}",
+    "descriptionTemplate": "Fotografia profesional para cumpleaños, corporativos, graduaciones.",
+    "keywords": [
+      "fotografo eventos {{city}}",
+      "fotografia cumpleaños {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu evento en imagenes",
+    "subheadlineTemplate": "Fotografia profesional para cumpleaños, corporativos, graduaciones."
+  },
+  "serviceCategories": [
+    "cumpleanos",
+    "corporativo",
+    "graduaciones"
+  ]
+}

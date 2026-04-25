@@ -1,0 +1,22 @@
+{
+  "id": "bankruptcy_petition_preparer",
+  "nameEs": "Petitorio Quiebra",
+  "nameEn": "Bankruptcy Prep",
+  "verticalId": "finance-insurance",
+  "subVertical": "debt-credit-services",
+  "extends": "finance_insurance_base",
+  "tokens": "bankruptcy_petition_preparer",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Petitorio Quiebra en {{city}}",
+    "descriptionTemplate": "Petitorio Quiebra profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "petitorio quiebra {{city}}",
+      "bankruptcy prep {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Petitorio Quiebra",
+    "subheadlineTemplate": "Petitorio Quiebra profesional en {{city}}."
+  }
+}

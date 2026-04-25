@@ -1,0 +1,22 @@
+{
+  "id": "bridal_gown_designer",
+  "nameEs": "Disenador de Vestidos Novia",
+  "nameEn": "Bridal Designer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fashion-design",
+  "extends": "diseno_grafico",
+  "tokens": "bridal_gown_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Disenador de Vestidos Novia en {{city}}",
+    "descriptionTemplate": "Disenador de Vestidos Novia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disenador de vestidos novia {{city}}",
+      "bridal designer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disenador de Vestidos Novia",
+    "subheadlineTemplate": "Disenador de Vestidos Novia profesional en {{city}}."
+  }
+}

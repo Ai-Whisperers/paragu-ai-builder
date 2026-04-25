@@ -1,0 +1,27 @@
+{
+  "id": "academia_idiomas",
+  "nameEs": "Academia de Idiomas",
+  "nameEn": "Language Academy",
+  "verticalId": "education-training",
+  "extends": "educacion",
+  "tokens": "academia_idiomas",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Academia de Idiomas en {{city}}",
+    "descriptionTemplate": "Cursos de ingles, portugues y otros idiomas en {{city}}. Todos los niveles.",
+    "keywords": [
+      "academia ingles {{city}}",
+      "clases ingles {{city}}",
+      "portugues {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Aprende idiomas con metodo",
+    "subheadlineTemplate": "Cursos de ingles, portugues y otros idiomas en {{city}}. Todos los niveles."
+  },
+  "serviceCategories": [
+    "ingles",
+    "portugues",
+    "otros"
+  ]
+}

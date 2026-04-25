@@ -1,0 +1,22 @@
+{
+  "id": "flat_roof_specialist",
+  "nameEs": "Techos Planos",
+  "nameEn": "Flat Roof Specialist",
+  "verticalId": "trades-home-services",
+  "subVertical": "roofing",
+  "extends": "trades_base",
+  "tokens": "flat_roof_specialist",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Techos Planos en {{city}}",
+    "descriptionTemplate": "Techos Planos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "techos planos {{city}}",
+      "flat roof specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Techos Planos",
+    "subheadlineTemplate": "Techos Planos profesional en {{city}}."
+  }
+}

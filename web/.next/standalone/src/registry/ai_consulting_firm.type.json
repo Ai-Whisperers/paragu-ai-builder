@@ -1,0 +1,25 @@
+{
+  "id": "ai_consulting_firm",
+  "nameEs": "Consultoria IA",
+  "nameEn": "AI Consulting",
+  "verticalId": "technology-digital",
+  "subVertical": "ai-ml-services",
+  "extends": "technology_base",
+  "tokens": "ai_consulting_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Consultoria IA en {{city}}",
+    "descriptionTemplate": "Consultoria IA profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consultoria ia {{city}}",
+      "ai consulting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consultoria IA",
+    "subheadlineTemplate": "Consultoria IA profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

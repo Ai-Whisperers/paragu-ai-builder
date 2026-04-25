@@ -1,0 +1,22 @@
+{
+  "id": "retail_florist",
+  "nameEs": "Floreria",
+  "nameEn": "Retail Florist",
+  "verticalId": "retail-local",
+  "subVertical": "florist",
+  "extends": "retail_base",
+  "tokens": "retail_florist",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Floreria en {{city}}",
+    "descriptionTemplate": "Floreria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "floreria {{city}}",
+      "retail florist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Floreria",
+    "subheadlineTemplate": "Floreria profesional en {{city}}."
+  }
+}

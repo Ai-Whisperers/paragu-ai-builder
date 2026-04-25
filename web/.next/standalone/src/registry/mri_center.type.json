@@ -1,0 +1,22 @@
+{
+  "id": "mri_center",
+  "nameEs": "Resonancia Magnetica",
+  "nameEn": "MRI Center",
+  "verticalId": "health-wellness",
+  "subVertical": "diagnostics-imaging",
+  "extends": "health_wellness_base",
+  "tokens": "mri_center",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Resonancia Magnetica en {{city}}",
+    "descriptionTemplate": "Resonancia Magnetica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "resonancia magnetica {{city}}",
+      "mri center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Resonancia Magnetica",
+    "subheadlineTemplate": "Resonancia Magnetica profesional en {{city}}."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "farmacia",
+  "nameEs": "Farmacia",
+  "nameEn": "Pharmacy",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "farmacia",
+  "seo": {
+    "schemaType": "Pharmacy",
+    "titleTemplate": "{{businessName}} - Farmacia en {{city}}",
+    "descriptionTemplate": "Medicamentos, perfumeria y cuidado personal con delivery en {{city}}.",
+    "keywords": [
+      "farmacia {{city}}",
+      "farmacia 24 horas {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu salud, siempre cerca",
+    "subheadlineTemplate": "Medicamentos, perfumeria y cuidado personal con delivery en {{city}}."
+  },
+  "serviceCategories": [
+    "medicamentos",
+    "perfumeria",
+    "receta_magistral"
+  ]
+}

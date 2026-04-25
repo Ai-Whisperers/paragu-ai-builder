@@ -1,0 +1,22 @@
+{
+  "id": "pediatric_dentist",
+  "nameEs": "Odontopediatria",
+  "nameEn": "Pediatric Dentist",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "pediatric_dentist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Odontopediatria en {{city}}",
+    "descriptionTemplate": "Odontopediatria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "odontopediatria {{city}}",
+      "pediatric dentist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Odontopediatria",
+    "subheadlineTemplate": "Odontopediatria profesional en {{city}}."
+  }
+}

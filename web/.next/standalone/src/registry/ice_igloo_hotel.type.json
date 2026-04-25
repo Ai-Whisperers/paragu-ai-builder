@@ -1,0 +1,22 @@
+{
+  "id": "ice_igloo_hotel",
+  "nameEs": "Hotel de Hielo",
+  "nameEn": "Ice Hotel",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "specialty-lodging",
+  "extends": "restaurant",
+  "tokens": "ice_igloo_hotel",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Hotel de Hielo en {{city}}",
+    "descriptionTemplate": "Hotel de Hielo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hotel de hielo {{city}}",
+      "ice hotel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hotel de Hielo",
+    "subheadlineTemplate": "Hotel de Hielo profesional en {{city}}."
+  }
+}

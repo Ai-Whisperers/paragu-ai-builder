@@ -1,0 +1,22 @@
+{
+  "id": "child_adolescent_therapist",
+  "nameEs": "Terapia Infantil",
+  "nameEn": "Child Therapist",
+  "verticalId": "health-wellness",
+  "subVertical": "mental-health",
+  "extends": "health_wellness_base",
+  "tokens": "child_adolescent_therapist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Terapia Infantil en {{city}}",
+    "descriptionTemplate": "Terapia Infantil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "terapia infantil {{city}}",
+      "child therapist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Terapia Infantil",
+    "subheadlineTemplate": "Terapia Infantil profesional en {{city}}."
+  }
+}

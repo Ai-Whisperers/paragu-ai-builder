@@ -1,0 +1,22 @@
+{
+  "id": "maternity_photographer",
+  "nameEs": "Fotografia de Embarazo",
+  "nameEn": "Maternity Photographer",
+  "verticalId": "service-booking",
+  "subVertical": "photography",
+  "extends": "gimnasio",
+  "tokens": "maternity_photographer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografia de Embarazo en {{city}}",
+    "descriptionTemplate": "Fotografia de Embarazo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fotografia de embarazo {{city}}",
+      "maternity photographer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fotografia de Embarazo",
+    "subheadlineTemplate": "Fotografia de Embarazo profesional en {{city}}."
+  }
+}

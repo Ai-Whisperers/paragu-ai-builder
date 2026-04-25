@@ -1,0 +1,22 @@
+{
+  "id": "art_museum",
+  "nameEs": "Museo Arte",
+  "nameEn": "Art Museum",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "museum-gallery",
+  "extends": "entertainment_base",
+  "tokens": "art_museum",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Museo Arte en {{city}}",
+    "descriptionTemplate": "Museo Arte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "museo arte {{city}}",
+      "art museum {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Museo Arte",
+    "subheadlineTemplate": "Museo Arte profesional en {{city}}."
+  }
+}

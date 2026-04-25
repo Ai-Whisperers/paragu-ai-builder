@@ -1,0 +1,22 @@
+{
+  "id": "pottery_studio_classes",
+  "nameEs": "Clases de Ceramica",
+  "nameEn": "Pottery Classes",
+  "verticalId": "education-training",
+  "subVertical": "music-art",
+  "extends": "educacion",
+  "tokens": "pottery_studio_classes",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Clases de Ceramica en {{city}}",
+    "descriptionTemplate": "Clases de Ceramica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clases de ceramica {{city}}",
+      "pottery classes {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clases de Ceramica",
+    "subheadlineTemplate": "Clases de Ceramica profesional en {{city}}."
+  }
+}

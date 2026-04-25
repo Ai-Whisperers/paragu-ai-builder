@@ -1,0 +1,22 @@
+{
+  "id": "deli_charcuterie",
+  "nameEs": "Delicatessen",
+  "nameEn": "Delicatessen",
+  "verticalId": "food-beverage",
+  "subVertical": "specialty-food-retail",
+  "extends": "restaurant",
+  "tokens": "deli_charcuterie",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Delicatessen en {{city}}",
+    "descriptionTemplate": "Delicatessen profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "delicatessen {{city}}",
+      "delicatessen {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Delicatessen",
+    "subheadlineTemplate": "Delicatessen profesional en {{city}}."
+  }
+}

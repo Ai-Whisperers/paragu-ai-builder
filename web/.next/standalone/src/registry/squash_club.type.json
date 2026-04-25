@@ -1,0 +1,22 @@
+{
+  "id": "squash_club",
+  "nameEs": "Club Squash",
+  "nameEn": "Squash Club",
+  "verticalId": "sports-recreation",
+  "subVertical": "racquet-sports",
+  "extends": "sports_base",
+  "tokens": "squash_club",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Club Squash en {{city}}",
+    "descriptionTemplate": "Club Squash profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club squash {{city}}",
+      "squash club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club Squash",
+    "subheadlineTemplate": "Club Squash profesional en {{city}}."
+  }
+}

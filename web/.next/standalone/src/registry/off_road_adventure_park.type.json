@@ -1,0 +1,22 @@
+{
+  "id": "off_road_adventure_park",
+  "nameEs": "Parque Off-Road",
+  "nameEn": "Off-Road Park",
+  "verticalId": "sports-recreation",
+  "subVertical": "motorsports",
+  "extends": "sports_base",
+  "tokens": "off_road_adventure_park",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Parque Off-Road en {{city}}",
+    "descriptionTemplate": "Parque Off-Road profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "parque off-road {{city}}",
+      "off-road park {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Parque Off-Road",
+    "subheadlineTemplate": "Parque Off-Road profesional en {{city}}."
+  }
+}

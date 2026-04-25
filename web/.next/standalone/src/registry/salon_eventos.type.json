@@ -1,0 +1,40 @@
+{
+  "id": "salon_eventos",
+  "nameEs": "Salon de Eventos",
+  "nameEn": "Event Venue",
+  "verticalId": "hospitality-tourism",
+  "tokens": "salon_eventos",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "about", "eventVenues", "gallery", "packages", "testimonials", "availabilityCalendar", "quoteForm", "contact", "footer"],
+      "requiredSections": ["header", "hero", "eventVenues", "gallery", "quoteForm", "contact", "footer"]
+    }
+  },
+  "features": {
+    "eventVenues": { "enabled": true, "showCapacity": true, "virtualTour": true },
+    "gallery": { "enabled": true, "categories": ["bodas", "quinceaneras", "corporativos", "cumpleanos"] },
+    "packages": { "enabled": true, "showFrom": true },
+    "quoteForm": { "enabled": true },
+    "availabilityCalendar": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true }
+  },
+  "eventTypes": ["bodas", "quinceaneras", "cumpleanos", "corporativos", "graduaciones", "bautismos"],
+  "seo": {
+    "schemaType": "EventVenue",
+    "titleTemplate": "{{businessName}} - Salon de Eventos en {{city}}",
+    "descriptionTemplate": "Celebra tu evento en {{city}}. Bodas, quinceaneras, eventos corporativos. Reserva con tiempo.",
+    "keywords": ["salon eventos {{city}}", "salon bodas {{city}}", "quinta eventos {{city}}", "quinceanera {{city}}"]
+  },
+  "nav": {
+    "items": ["Inicio", "Salones", "Paquetes", "Galeria", "Contacto"],
+    "cta": { "text": "Cotizar Evento", "action": "quoteForm" }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - El escenario de tus mejores momentos",
+    "subheadlineTemplate": "Salones y quintas para bodas, quinceaneras y eventos corporativos en {{city}}",
+    "ctaPrimary": { "text": "Cotizar Evento", "action": "quoteForm" },
+    "ctaSecondary": { "text": "Ver Salones", "action": "scrollTo:eventVenues" }
+  }
+}

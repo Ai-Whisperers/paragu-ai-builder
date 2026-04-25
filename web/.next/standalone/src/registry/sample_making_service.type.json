@@ -1,0 +1,25 @@
+{
+  "id": "sample_making_service",
+  "nameEs": "Muestras",
+  "nameEn": "Sample Maker",
+  "verticalId": "trades-industrial",
+  "subVertical": "textiles-apparel-mfg",
+  "extends": "industrial_base",
+  "tokens": "sample_making_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Muestras en {{city}}",
+    "descriptionTemplate": "Muestras profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "muestras {{city}}",
+      "sample maker {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Muestras",
+    "subheadlineTemplate": "Muestras profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

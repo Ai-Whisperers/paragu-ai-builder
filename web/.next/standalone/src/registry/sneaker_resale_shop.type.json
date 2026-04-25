@@ -1,0 +1,22 @@
+{
+  "id": "sneaker_resale_shop",
+  "nameEs": "Resale Sneakers",
+  "nameEn": "Sneaker Resale",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "sneaker_resale_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Resale Sneakers en {{city}}",
+    "descriptionTemplate": "Resale Sneakers profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "resale sneakers {{city}}",
+      "sneaker resale {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Resale Sneakers",
+    "subheadlineTemplate": "Resale Sneakers profesional en {{city}}."
+  }
+}

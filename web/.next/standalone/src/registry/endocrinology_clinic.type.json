@@ -1,0 +1,22 @@
+{
+  "id": "endocrinology_clinic",
+  "nameEs": "Endocrinologia",
+  "nameEn": "Endocrinology",
+  "verticalId": "health-wellness",
+  "subVertical": "specialty-medical",
+  "extends": "health_wellness_base",
+  "tokens": "endocrinology_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Endocrinologia en {{city}}",
+    "descriptionTemplate": "Endocrinologia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "endocrinologia {{city}}",
+      "endocrinology {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Endocrinologia",
+    "subheadlineTemplate": "Endocrinologia profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "weight_loss_clinic",
+  "nameEs": "Clinica Perdida de Peso",
+  "nameEn": "Weight Loss Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "medical-aesthetics",
+  "extends": "health_wellness_base",
+  "tokens": "weight_loss_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica Perdida de Peso en {{city}}",
+    "descriptionTemplate": "Clinica Perdida de Peso profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica perdida de peso {{city}}",
+      "weight loss clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica Perdida de Peso",
+    "subheadlineTemplate": "Clinica Perdida de Peso profesional en {{city}}."
+  }
+}

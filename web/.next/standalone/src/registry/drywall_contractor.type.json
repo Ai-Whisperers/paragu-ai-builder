@@ -1,0 +1,22 @@
+{
+  "id": "drywall_contractor",
+  "nameEs": "Yesero",
+  "nameEn": "Drywall Contractor",
+  "verticalId": "trades-home-services",
+  "subVertical": "painting-finishing",
+  "extends": "trades_base",
+  "tokens": "drywall_contractor",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Yesero en {{city}}",
+    "descriptionTemplate": "Yesero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "yesero {{city}}",
+      "drywall contractor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Yesero",
+    "subheadlineTemplate": "Yesero profesional en {{city}}."
+  }
+}

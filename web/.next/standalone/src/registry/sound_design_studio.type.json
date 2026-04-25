@@ -1,0 +1,22 @@
+{
+  "id": "sound_design_studio",
+  "nameEs": "Diseno de Sonido",
+  "nameEn": "Sound Design",
+  "verticalId": "portfolio-professional",
+  "subVertical": "music-audio",
+  "extends": "diseno_grafico",
+  "tokens": "sound_design_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Diseno de Sonido en {{city}}",
+    "descriptionTemplate": "Diseno de Sonido profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "diseno de sonido {{city}}",
+      "sound design {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Diseno de Sonido",
+    "subheadlineTemplate": "Diseno de Sonido profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "neighborhood_association",
+  "nameEs": "Asociacion Vecinal",
+  "nameEn": "Neighborhood Association",
+  "verticalId": "membership-community",
+  "subVertical": "advocacy-civic",
+  "extends": "membership_base",
+  "tokens": "neighborhood_association",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Asociacion Vecinal en {{city}}",
+    "descriptionTemplate": "Asociacion Vecinal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asociacion vecinal {{city}}",
+      "neighborhood association {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asociacion Vecinal",
+    "subheadlineTemplate": "Asociacion Vecinal profesional en {{city}}."
+  }
+}

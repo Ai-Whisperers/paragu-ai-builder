@@ -1,0 +1,22 @@
+{
+  "id": "skilled_nursing_facility",
+  "nameEs": "Geriatrico",
+  "nameEn": "Skilled Nursing",
+  "verticalId": "health-wellness",
+  "subVertical": "senior-homecare",
+  "extends": "health_wellness_base",
+  "tokens": "skilled_nursing_facility",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Geriatrico en {{city}}",
+    "descriptionTemplate": "Geriatrico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "geriatrico {{city}}",
+      "skilled nursing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Geriatrico",
+    "subheadlineTemplate": "Geriatrico profesional en {{city}}."
+  }
+}

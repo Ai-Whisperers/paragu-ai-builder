@@ -1,0 +1,22 @@
+{
+  "id": "hip_hop_dance_studio",
+  "nameEs": "Escuela Hip Hop",
+  "nameEn": "Hip Hop Studio",
+  "verticalId": "education-training",
+  "subVertical": "music-art",
+  "extends": "educacion",
+  "tokens": "hip_hop_dance_studio",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Hip Hop en {{city}}",
+    "descriptionTemplate": "Escuela Hip Hop profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela hip hop {{city}}",
+      "hip hop studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Hip Hop",
+    "subheadlineTemplate": "Escuela Hip Hop profesional en {{city}}."
+  }
+}

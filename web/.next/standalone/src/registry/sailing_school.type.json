@@ -1,0 +1,22 @@
+{
+  "id": "sailing_school",
+  "nameEs": "Escuela Vela",
+  "nameEn": "Sailing School",
+  "verticalId": "sports-recreation",
+  "subVertical": "water-sports",
+  "extends": "sports_base",
+  "tokens": "sailing_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Vela en {{city}}",
+    "descriptionTemplate": "Escuela Vela profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela vela {{city}}",
+      "sailing school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Vela",
+    "subheadlineTemplate": "Escuela Vela profesional en {{city}}."
+  }
+}

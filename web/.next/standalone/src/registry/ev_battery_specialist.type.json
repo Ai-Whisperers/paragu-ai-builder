@@ -1,0 +1,22 @@
+{
+  "id": "ev_battery_specialist",
+  "nameEs": "Baterias EV",
+  "nameEn": "EV Battery Specialist",
+  "verticalId": "automotive",
+  "subVertical": "ev-hybrid",
+  "extends": "automotive_base",
+  "tokens": "ev_battery_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Baterias EV en {{city}}",
+    "descriptionTemplate": "Baterias EV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "baterias ev {{city}}",
+      "ev battery specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Baterias EV",
+    "subheadlineTemplate": "Baterias EV profesional en {{city}}."
+  }
+}

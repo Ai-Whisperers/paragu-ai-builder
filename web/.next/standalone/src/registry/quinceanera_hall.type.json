@@ -1,0 +1,22 @@
+{
+  "id": "quinceanera_hall",
+  "nameEs": "Salon de Quince",
+  "nameEn": "Quinceanera Hall",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "event-venue",
+  "extends": "restaurant",
+  "tokens": "quinceanera_hall",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Salon de Quince en {{city}}",
+    "descriptionTemplate": "Salon de Quince profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "salon de quince {{city}}",
+      "quinceanera hall {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Salon de Quince",
+    "subheadlineTemplate": "Salon de Quince profesional en {{city}}."
+  }
+}

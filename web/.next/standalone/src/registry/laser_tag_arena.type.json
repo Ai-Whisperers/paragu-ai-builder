@@ -1,0 +1,22 @@
+{
+  "id": "laser_tag_arena",
+  "nameEs": "Laser Tag",
+  "nameEn": "Laser Tag",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "escape-room-arcade",
+  "extends": "entertainment_base",
+  "tokens": "laser_tag_arena",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Laser Tag en {{city}}",
+    "descriptionTemplate": "Laser Tag profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "laser tag {{city}}",
+      "laser tag {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Laser Tag",
+    "subheadlineTemplate": "Laser Tag profesional en {{city}}."
+  }
+}

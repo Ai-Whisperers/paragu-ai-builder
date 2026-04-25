@@ -1,0 +1,22 @@
+{
+  "id": "bookkeeper",
+  "nameEs": "Tenedor de Libros",
+  "nameEn": "Bookkeeper",
+  "verticalId": "b2b-professional",
+  "subVertical": "accounting-tax",
+  "extends": "professional_services_base",
+  "tokens": "bookkeeper",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Tenedor de Libros en {{city}}",
+    "descriptionTemplate": "Tenedor de Libros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tenedor de libros {{city}}",
+      "bookkeeper {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tenedor de Libros",
+    "subheadlineTemplate": "Tenedor de Libros profesional en {{city}}."
+  }
+}

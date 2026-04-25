@@ -1,0 +1,22 @@
+{
+  "id": "textile_designer",
+  "nameEs": "Disenador Textil",
+  "nameEn": "Textile Designer",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fashion-design",
+  "extends": "diseno_grafico",
+  "tokens": "textile_designer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Disenador Textil en {{city}}",
+    "descriptionTemplate": "Disenador Textil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "disenador textil {{city}}",
+      "textile designer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disenador Textil",
+    "subheadlineTemplate": "Disenador Textil profesional en {{city}}."
+  }
+}

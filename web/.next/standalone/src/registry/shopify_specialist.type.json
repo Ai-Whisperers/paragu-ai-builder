@@ -1,0 +1,25 @@
+{
+  "id": "shopify_specialist",
+  "nameEs": "Especialista Shopify",
+  "nameEn": "Shopify Specialist",
+  "verticalId": "technology-digital",
+  "subVertical": "web-digital-agency",
+  "extends": "technology_base",
+  "tokens": "shopify_specialist",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Especialista Shopify en {{city}}",
+    "descriptionTemplate": "Especialista Shopify profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "especialista shopify {{city}}",
+      "shopify specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Especialista Shopify",
+    "subheadlineTemplate": "Especialista Shopify profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

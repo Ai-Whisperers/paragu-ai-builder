@@ -1,0 +1,22 @@
+{
+  "id": "arena_stadium_venue",
+  "nameEs": "Estadio",
+  "nameEn": "Arena Stadium",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "live-music-venue",
+  "extends": "entertainment_base",
+  "tokens": "arena_stadium_venue",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Estadio en {{city}}",
+    "descriptionTemplate": "Estadio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estadio {{city}}",
+      "arena stadium {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estadio",
+    "subheadlineTemplate": "Estadio profesional en {{city}}."
+  }
+}

@@ -1,0 +1,427 @@
+'use client'
+
+import Link from 'next/link'
+import { Container } from '@/components/ui/container'
+import { Heading } from '@/components/ui/heading'
+import { Card, CardContent, CardImage, CardTitle, CardDescription } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { useState } from 'react'
+import { trackWhatsappClick } from '@/lib/analytics/tenant-events'
+
+export interface ProductItem {
+  name: string
+  description?: string
+  price?: string
+  /** Original price shown crossed out when promoPercent is present. */
+  priceOriginal?: string
+  /** Percent off — renders a corner discount ribbon + crosses out priceOriginal. */
+  promoPercent?: number
+  /** Optional label shown on the ribbon. Defaults to "-{promoPercent}%". */
+  promoLabel?: string
+  imageUrl?: string
+  category?: string
+  available?: boolean
+  /**
+   * If set, the product card image + title become a link to this URL
+   * (usually a PDP), and a "Ver detalle" secondary CTA is rendered below
+   * the primary WhatsApp button. Shape-equivalent to `href` — callers can
+   * pass either; `href` wins when both are present.
+   */
+  slug?: string
+  href?: string
+}
+
+export interface ProductCatalogSectionProps {
+  title: string
+  subtitle?: string
+  products?: ProductItem[]
+  /** Legacy alias */
+  items?: ProductItem[]
+  categories?: string[]
+  showPrices?: boolean
+  whatsappPhone?: string
+  orderButtonText?: string
+  orderMessageTemplate?: string
+  emailAddress?: string
+  /**
+   * If set, each product without an explicit `href` gets a link to
+   * `<productLinkBase>/<product.slug>`. Enables a one-line toggle: set
+   * `productLinkBase: "/s/es/superspuma/producto"` in content and every
+   * card becomes a PDP entry point.
+   */
+  productLinkBase?: string
+  __locale?: string
+}
+
+const CATALOG_LABELS: Record<
+  string,
+  {
+    all: string
+    orderButton: string
+    detailButton: string
+    orderTemplate: string
+    emailSubject: (name: string) => string
+    emailBody: (name: string, price?: string) => string
+  }
+> = {
+  en: {
+    all: 'All',
+    orderButton: 'Ask via WhatsApp',
+    detailButton: 'View details',
+    orderTemplate:
+      "Hi! I'm interested in: {{productName}} (${{productPrice}}). Could you tell me more?",
+    emailSubject: (name) => `Inquiry: ${name}`,
+    emailBody: (name, price) =>
+      `Hi! I'm interested in "${name}"${price ? ` ($${price})` : ''}. Could you send more info?`,
+  },
+  es: {
+    all: 'Todos',
+    orderButton: 'Consultar por WhatsApp',
+    detailButton: 'Ver detalle',
+    orderTemplate:
+      'Hola! Me interesa el diseno: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
+    emailSubject: (name) => `Consulta: ${name}`,
+    emailBody: (name, price) =>
+      `Hola! Me interesa el diseno "${name}"${price ? ` ($${price})` : ''}. Quisiera mas informacion.`,
+  },
+  de: {
+    all: 'Alle',
+    orderButton: 'Über WhatsApp anfragen',
+    detailButton: 'Details ansehen',
+    orderTemplate:
+      'Hallo! Ich interessiere mich für: {{productName}} (${{productPrice}}). Können Sie mir mehr Informationen geben?',
+    emailSubject: (name) => `Anfrage: ${name}`,
+    emailBody: (name, price) =>
+      `Hallo! Ich interessiere mich für "${name}"${price ? ` ($${price})` : ''}. Können Sie mir mehr Informationen senden?`,
+  },
+  pt: {
+    all: 'Todos',
+    orderButton: 'Consultar pelo WhatsApp',
+    detailButton: 'Ver detalhes',
+    orderTemplate:
+      'Olá! Tenho interesse em: {{productName}} (${{productPrice}}). Poderia me enviar mais informações?',
+    emailSubject: (name) => `Consulta: ${name}`,
+    emailBody: (name, price) =>
+      `Olá! Tenho interesse em "${name}"${price ? ` ($${price})` : ''}. Poderia me enviar mais informações?`,
+  },
+  nl: {
+    all: 'Alle',
+    orderButton: 'Vraag via WhatsApp',
+    detailButton: 'Bekijk details',
+    orderTemplate:
+      'Hallo! Ik heb interesse in: {{productName}} (${{productPrice}}). Kunt u mij meer vertellen?',
+    emailSubject: (name) => `Aanvraag: ${name}`,
+    emailBody: (name, price) =>
+      `Hallo! Ik heb interesse in "${name}"${price ? ` ($${price})` : ''}. Kunt u mij meer informatie sturen?`,
+  },
+}
+
+function buildWhatsAppUrl(
+  phone: string,
+  product: ProductItem,
+  messageTemplate: string
+): string {
+  const cleanPhone = phone.replace(/\D/g, '')
+  const message = messageTemplate
+    .replace('{{productName}}', product.name)
+    .replace('{{productPrice}}', product.price || 'consultar')
+  return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
+}
+
+function buildEmailUrl(
+  email: string,
+  product: ProductItem,
+  labels: (typeof CATALOG_LABELS)[string],
+): string {
+  const subject = encodeURIComponent(labels.emailSubject(product.name))
+  const body = encodeURIComponent(labels.emailBody(product.name, product.price))
+  return `mailto:${email}?subject=${subject}&body=${body}`
+}
+
+function ProductCard({
+  product,
+  showPrices,
+  whatsappPhone,
+  orderButtonText,
+  orderMessageTemplate,
+  emailAddress,
+  index,
+  labels,
+  unavailableText,
+  detailHref,
+}: {
+  product: ProductItem
+  showPrices: boolean
+  whatsappPhone?: string
+  orderButtonText: string
+  orderMessageTemplate: string
+  emailAddress?: string
+  index: number
+  labels: (typeof CATALOG_LABELS)[string]
+  unavailableText: string
+  /** Resolved PDP link — explicit `product.href`, else `product.slug`
+   * joined to the catalog-level `productLinkBase`. Undefined when neither
+   * is set (card stays non-clickable, only the WhatsApp CTA works). */
+  detailHref?: string
+}) {
+  const isAvailable = product.available !== false
+
+  // Image + title are the natural click target for a PDP entry. Wrap each
+  // optionally so the component still works without a link (pre-existing
+  // tenants like demo catalogs that never set `slug`).
+  const imageNode = product.imageUrl ? (
+    <CardImage src={product.imageUrl} alt={product.name} className="h-64" />
+  ) : (
+    <div
+      className="flex h-64 items-center justify-center px-6"
+      style={{
+        background:
+          'linear-gradient(135deg, var(--surface) 0%, var(--surface-light, var(--surface)) 100%)',
+        borderBottom: '1px solid var(--border)',
+      }}
+      aria-label={`${product.name} — foto próximamente`}
+    >
+      <div className="text-center">
+        <p
+          className="font-semibold tracking-wide"
+          style={{
+            color: 'var(--primary)',
+            fontFamily: 'var(--font-heading)',
+            fontSize: 'clamp(1.25rem, 3vw, 1.75rem)',
+          }}
+        >
+          {product.name}
+        </p>
+        {product.category && (
+          <p
+            className="mt-2 text-xs uppercase tracking-widest"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            {product.category}
+          </p>
+        )}
+      </div>
+    </div>
+  )
+
+  return (
+    <AnimateOnScroll stagger={index}>
+      <Card className="relative flex flex-col overflow-hidden">
+        {product.promoPercent && product.promoPercent > 0 && (
+          <div
+            className="absolute right-3 top-3 z-10 rounded-full px-3 py-1 text-xs font-bold shadow-lg"
+            style={{
+              backgroundColor: 'var(--secondary)',
+              color: 'var(--secondary-foreground)',
+            }}
+          >
+            {product.promoLabel || `-${product.promoPercent}%`}
+          </div>
+        )}
+        {detailHref ? (
+          <Link
+            href={detailHref}
+            aria-label={product.name}
+            className="block transition-transform hover:scale-[1.02]"
+          >
+            {imageNode}
+          </Link>
+        ) : (
+          imageNode
+        )}
+        <CardContent className="flex flex-1 flex-col">
+          <div className="flex items-start justify-between gap-2">
+            {detailHref ? (
+              <Link
+                href={detailHref}
+                className="hover:underline"
+                style={{ color: 'inherit' }}
+              >
+                <CardTitle>{product.name}</CardTitle>
+              </Link>
+            ) : (
+              <CardTitle>{product.name}</CardTitle>
+            )}
+            {showPrices && product.price && (
+              <div className="flex flex-col items-end gap-0.5">
+                {product.priceOriginal && product.promoPercent && (
+                  <span
+                    className="text-xs line-through"
+                    style={{ color: 'var(--text-muted)' }}
+                  >
+                    {product.priceOriginal}
+                  </span>
+                )}
+                <Badge variant="default">{product.price}</Badge>
+              </div>
+            )}
+          </div>
+          {product.description && (
+            <CardDescription>{product.description}</CardDescription>
+          )}
+          {product.category && (
+            <p className="mt-2 text-xs text-[var(--text-muted)]">{product.category}</p>
+          )}
+
+          <div className="mt-auto flex flex-col gap-2 pt-4">
+            {!isAvailable && (
+              <Badge variant="muted" className="self-start">{unavailableText}</Badge>
+            )}
+            {isAvailable && whatsappPhone && (
+              <Button
+                variant="primary"
+                size="sm"
+                href={buildWhatsAppUrl(whatsappPhone, product, orderMessageTemplate)}
+                onClick={() =>
+                  trackWhatsappClick({ source: 'catalog', productSlug: product.slug })
+                }
+              >
+                <svg viewBox="0 0 24 24" className="mr-2 h-4 w-4 fill-current">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                {orderButtonText}
+              </Button>
+            )}
+            {isAvailable && emailAddress && !whatsappPhone && (
+              <Button
+                variant="primary"
+                size="sm"
+                href={buildEmailUrl(emailAddress, product, labels)}
+              >
+                {orderButtonText}
+              </Button>
+            )}
+            {isAvailable && detailHref && (
+              <Link
+                href={detailHref}
+                className="text-center text-sm font-medium hover:underline"
+                style={{ color: 'var(--primary)' }}
+              >
+                {labels.detailButton} →
+              </Link>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+    </AnimateOnScroll>
+  )
+}
+
+export function ProductCatalogSection({
+  title,
+  subtitle,
+  products: productsProp,
+  items,
+  categories,
+  showPrices = true,
+  whatsappPhone,
+  orderButtonText,
+  orderMessageTemplate,
+  emailAddress,
+  productLinkBase,
+  __locale = 'es',
+}: ProductCatalogSectionProps) {
+  const labels = CATALOG_LABELS[__locale] ?? CATALOG_LABELS.es
+  const resolvedOrderButton = orderButtonText ?? labels.orderButton
+  const resolvedOrderTemplate = orderMessageTemplate ?? labels.orderTemplate
+  const unavailableText = __locale === 'en' ? 'Unavailable' : 'No disponible'
+  const products = productsProp || items || []
+
+  // Hooks must be called before any early return — conditional hook calls
+  // break React's ordering invariant. Derive a stable category set even
+  // when there are zero products, then early-return just the render.
+  const [activeCategory, setActiveCategory] = useState<string | null>(null)
+
+  if (products.length === 0) return null
+
+  // Build categories list from products if not explicitly provided
+  const allCategories = categories || [
+    ...new Set(products.filter((p) => p.category).map((p) => p.category!)),
+  ]
+  const hasCategories = allCategories.length > 0
+
+  const filteredProducts = activeCategory
+    ? products.filter((p) => p.category === activeCategory)
+    : products
+
+  return (
+    <section id="catalogo" className="bg-[var(--surface-light)] py-16 sm:py-20">
+      <Container>
+        <AnimatedSectionHeader>
+          <Heading level={2}>{title}</Heading>
+          {subtitle && (
+            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+          )}
+        </AnimatedSectionHeader>
+
+        {/* Category filter tabs */}
+        {hasCategories && (
+          <div className="mb-10 flex flex-wrap justify-center gap-2">
+            <button
+              onClick={() => setActiveCategory(null)}
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-normal ${
+                activeCategory === null
+                  ? 'bg-[var(--secondary)] text-white shadow-button'
+                  : 'bg-[var(--surface)] text-[var(--text-muted)] hover:bg-[var(--surface)] hover:text-[var(--text)]'
+              }`}
+            >
+              {labels.all}
+            </button>
+            {allCategories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-normal ${
+                  activeCategory === cat
+                    ? 'bg-[var(--secondary)] text-white shadow-button'
+                    : 'bg-[var(--surface)] text-[var(--text-muted)] hover:bg-[var(--surface)] hover:text-[var(--text)]'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Product grid */}
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {filteredProducts.map((product, index) => {
+            // Prefer explicit per-product `href`, else derive from
+            // `productLinkBase` + product.slug. Falsy (or no slug) means
+            // the card stays non-navigable — existing demo catalogs keep
+            // working unchanged.
+            const detailHref = product.href
+              ?? (productLinkBase && product.slug
+                ? `${productLinkBase.replace(/\/$/, '')}/${product.slug}`
+                : undefined)
+            return (
+              <ProductCard
+                key={`${product.name}-${index}`}
+                product={product}
+                showPrices={showPrices}
+                whatsappPhone={whatsappPhone}
+                orderButtonText={resolvedOrderButton}
+                orderMessageTemplate={resolvedOrderTemplate}
+                emailAddress={emailAddress}
+                index={index}
+                labels={labels}
+                unavailableText={unavailableText}
+                detailHref={detailHref}
+              />
+            )
+          })}
+        </div>
+
+        {filteredProducts.length === 0 && (
+          <p className="py-12 text-center text-[var(--text-muted)]">
+            {__locale === 'en'
+              ? 'No products available in this category.'
+              : 'No hay productos disponibles en esta categoria.'}
+          </p>
+        )}
+      </Container>
+    </section>
+  )
+}

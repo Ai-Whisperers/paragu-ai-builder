@@ -1,0 +1,22 @@
+{
+  "id": "in_home_daycare",
+  "nameEs": "Guarderia Domiciliaria",
+  "nameEn": "In-Home Daycare",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "in_home_daycare",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Guarderia Domiciliaria en {{city}}",
+    "descriptionTemplate": "Guarderia Domiciliaria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guarderia domiciliaria {{city}}",
+      "in-home daycare {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guarderia Domiciliaria",
+    "subheadlineTemplate": "Guarderia Domiciliaria profesional en {{city}}."
+  }
+}

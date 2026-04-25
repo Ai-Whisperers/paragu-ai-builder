@@ -1,0 +1,22 @@
+{
+  "id": "car_auction_house",
+  "nameEs": "Subasta de Autos",
+  "nameEn": "Car Auction",
+  "verticalId": "automotive",
+  "subVertical": "dealership-sales",
+  "extends": "automotive_base",
+  "tokens": "car_auction_house",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Subasta de Autos en {{city}}",
+    "descriptionTemplate": "Subasta de Autos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "subasta de autos {{city}}",
+      "car auction {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Subasta de Autos",
+    "subheadlineTemplate": "Subasta de Autos profesional en {{city}}."
+  }
+}

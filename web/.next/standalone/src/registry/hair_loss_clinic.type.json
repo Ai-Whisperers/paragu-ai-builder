@@ -1,0 +1,22 @@
+{
+  "id": "hair_loss_clinic",
+  "nameEs": "Clinica Capilar",
+  "nameEn": "Hair Loss Clinic",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "hair",
+  "extends": "beauty_base",
+  "tokens": "hair_loss_clinic",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Clinica Capilar en {{city}}",
+    "descriptionTemplate": "Clinica Capilar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica capilar {{city}}",
+      "hair loss clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica Capilar",
+    "subheadlineTemplate": "Clinica Capilar profesional en {{city}}."
+  }
+}

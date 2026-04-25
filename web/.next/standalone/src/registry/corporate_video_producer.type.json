@@ -1,0 +1,22 @@
+{
+  "id": "corporate_video_producer",
+  "nameEs": "Video Corporativo",
+  "nameEn": "Corporate Video",
+  "verticalId": "portfolio-professional",
+  "subVertical": "videography-film",
+  "extends": "diseno_grafico",
+  "tokens": "corporate_video_producer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Video Corporativo en {{city}}",
+    "descriptionTemplate": "Video Corporativo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "video corporativo {{city}}",
+      "corporate video {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Video Corporativo",
+    "subheadlineTemplate": "Video Corporativo profesional en {{city}}."
+  }
+}

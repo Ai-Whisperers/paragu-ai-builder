@@ -1,0 +1,25 @@
+{
+  "id": "forklift_dealer",
+  "nameEs": "Autoelevadores",
+  "nameEn": "Forklift Dealer",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-equipment",
+  "extends": "industrial_base",
+  "tokens": "forklift_dealer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Autoelevadores en {{city}}",
+    "descriptionTemplate": "Autoelevadores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "autoelevadores {{city}}",
+      "forklift dealer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Autoelevadores",
+    "subheadlineTemplate": "Autoelevadores profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

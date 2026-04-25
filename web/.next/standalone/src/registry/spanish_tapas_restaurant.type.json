@@ -1,0 +1,22 @@
+{
+  "id": "spanish_tapas_restaurant",
+  "nameEs": "Restaurante de Tapas",
+  "nameEn": "Tapas Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "spanish_tapas_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante de Tapas en {{city}}",
+    "descriptionTemplate": "Restaurante de Tapas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante de tapas {{city}}",
+      "tapas restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante de Tapas",
+    "subheadlineTemplate": "Restaurante de Tapas profesional en {{city}}."
+  }
+}

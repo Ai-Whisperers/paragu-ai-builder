@@ -1,0 +1,22 @@
+{
+  "id": "speechwriter",
+  "nameEs": "Redactor de Discursos",
+  "nameEn": "Speechwriter",
+  "verticalId": "portfolio-professional",
+  "subVertical": "writing-editorial",
+  "extends": "diseno_grafico",
+  "tokens": "speechwriter",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Redactor de Discursos en {{city}}",
+    "descriptionTemplate": "Redactor de Discursos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "redactor de discursos {{city}}",
+      "speechwriter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Redactor de Discursos",
+    "subheadlineTemplate": "Redactor de Discursos profesional en {{city}}."
+  }
+}

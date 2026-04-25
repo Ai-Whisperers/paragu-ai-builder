@@ -1,0 +1,22 @@
+{
+  "id": "house_sitter",
+  "nameEs": "Cuidador de Casas",
+  "nameEn": "House Sitter",
+  "verticalId": "service-booking",
+  "subVertical": "errands-concierge",
+  "extends": "gimnasio",
+  "tokens": "house_sitter",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Cuidador de Casas en {{city}}",
+    "descriptionTemplate": "Cuidador de Casas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cuidador de casas {{city}}",
+      "house sitter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidador de Casas",
+    "subheadlineTemplate": "Cuidador de Casas profesional en {{city}}."
+  }
+}

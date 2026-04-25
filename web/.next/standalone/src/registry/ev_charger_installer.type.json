@@ -1,0 +1,22 @@
+{
+  "id": "ev_charger_installer",
+  "nameEs": "Instalador Cargador EV",
+  "nameEn": "EV Charger Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "ev_charger_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador Cargador EV en {{city}}",
+    "descriptionTemplate": "Instalador Cargador EV profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador cargador ev {{city}}",
+      "ev charger installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador Cargador EV",
+    "subheadlineTemplate": "Instalador Cargador EV profesional en {{city}}."
+  }
+}

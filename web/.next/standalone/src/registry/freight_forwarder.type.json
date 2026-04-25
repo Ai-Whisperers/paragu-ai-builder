@@ -1,0 +1,25 @@
+{
+  "id": "freight_forwarder",
+  "nameEs": "Agente de Carga",
+  "nameEn": "Freight Forwarder",
+  "verticalId": "logistics-transport",
+  "subVertical": "freight-brokerage",
+  "extends": "logistics_base",
+  "tokens": "freight_forwarder",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agente de Carga en {{city}}",
+    "descriptionTemplate": "Agente de Carga profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agente de carga {{city}}",
+      "freight forwarder {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agente de Carga",
+    "subheadlineTemplate": "Agente de Carga profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

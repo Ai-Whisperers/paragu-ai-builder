@@ -1,0 +1,28 @@
+{
+  "id": "aire_acondicionado",
+  "nameEs": "Servicio Tecnico Aires",
+  "nameEn": "HVAC Service",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "aire_acondicionado",
+  "seo": {
+    "schemaType": "HVACBusiness",
+    "titleTemplate": "{{businessName}} - Servicio Tecnico Aires en {{city}}",
+    "descriptionTemplate": "Instalacion, limpieza y reparacion de aires acondicionados en {{city}}.",
+    "keywords": [
+      "aire acondicionado {{city}}",
+      "instalacion aire {{city}}",
+      "carga gas aire {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu aire siempre andando",
+    "subheadlineTemplate": "Instalacion, limpieza y reparacion de aires acondicionados en {{city}}."
+  },
+  "serviceCategories": [
+    "instalacion",
+    "limpieza",
+    "reparacion",
+    "carga_gas"
+  ]
+}

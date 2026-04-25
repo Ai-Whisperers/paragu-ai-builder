@@ -1,0 +1,22 @@
+{
+  "id": "life_coach",
+  "nameEs": "Coach de Vida",
+  "nameEn": "Life Coach",
+  "verticalId": "health-wellness",
+  "subVertical": "mental-health",
+  "extends": "health_wellness_base",
+  "tokens": "life_coach",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Coach de Vida en {{city}}",
+    "descriptionTemplate": "Coach de Vida profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coach de vida {{city}}",
+      "life coach {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Coach de Vida",
+    "subheadlineTemplate": "Coach de Vida profesional en {{city}}."
+  }
+}

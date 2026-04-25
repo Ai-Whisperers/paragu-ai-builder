@@ -1,0 +1,25 @@
+{
+  "id": "geotechnical_engineer",
+  "nameEs": "Geotecnia",
+  "nameEn": "Geotech Engineer",
+  "verticalId": "b2b-professional",
+  "subVertical": "engineering-consulting",
+  "extends": "professional_services_base",
+  "tokens": "geotechnical_engineer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Geotecnia en {{city}}",
+    "descriptionTemplate": "Geotecnia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "geotecnia {{city}}",
+      "geotech engineer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Geotecnia",
+    "subheadlineTemplate": "Geotecnia profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

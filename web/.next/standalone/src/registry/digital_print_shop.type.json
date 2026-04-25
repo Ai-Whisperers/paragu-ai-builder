@@ -1,0 +1,22 @@
+{
+  "id": "digital_print_shop",
+  "nameEs": "Imprenta Digital",
+  "nameEn": "Digital Printer",
+  "verticalId": "trades-industrial",
+  "subVertical": "printing-signage",
+  "extends": "industrial_base",
+  "tokens": "digital_print_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Imprenta Digital en {{city}}",
+    "descriptionTemplate": "Imprenta Digital profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "imprenta digital {{city}}",
+      "digital printer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Imprenta Digital",
+    "subheadlineTemplate": "Imprenta Digital profesional en {{city}}."
+  }
+}

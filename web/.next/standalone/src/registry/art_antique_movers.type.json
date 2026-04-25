@@ -1,0 +1,22 @@
+{
+  "id": "art_antique_movers",
+  "nameEs": "Mudanza de Arte",
+  "nameEn": "Art Movers",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "moving-storage",
+  "extends": "inmobiliaria",
+  "tokens": "art_antique_movers",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Mudanza de Arte en {{city}}",
+    "descriptionTemplate": "Mudanza de Arte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mudanza de arte {{city}}",
+      "art movers {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mudanza de Arte",
+    "subheadlineTemplate": "Mudanza de Arte profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gutter_installation",
+  "nameEs": "Instalacion Canaletas",
+  "nameEn": "Gutter Installation",
+  "verticalId": "trades-home-services",
+  "subVertical": "roofing",
+  "extends": "trades_base",
+  "tokens": "gutter_installation",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalacion Canaletas en {{city}}",
+    "descriptionTemplate": "Instalacion Canaletas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalacion canaletas {{city}}",
+      "gutter installation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalacion Canaletas",
+    "subheadlineTemplate": "Instalacion Canaletas profesional en {{city}}."
+  }
+}

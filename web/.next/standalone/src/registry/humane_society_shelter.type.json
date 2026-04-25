@@ -1,0 +1,22 @@
+{
+  "id": "humane_society_shelter",
+  "nameEs": "Refugio Humanitario",
+  "nameEn": "Humane Shelter",
+  "verticalId": "pets-animals",
+  "subVertical": "animal-rescue-shelter",
+  "extends": "pets_base",
+  "tokens": "humane_society_shelter",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Refugio Humanitario en {{city}}",
+    "descriptionTemplate": "Refugio Humanitario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "refugio humanitario {{city}}",
+      "humane shelter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Refugio Humanitario",
+    "subheadlineTemplate": "Refugio Humanitario profesional en {{city}}."
+  }
+}

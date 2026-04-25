@@ -1,0 +1,22 @@
+{
+  "id": "kbeauty_skincare_studio",
+  "nameEs": "Skincare Coreano",
+  "nameEn": "K-Beauty Skincare",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "skin-aesthetic",
+  "extends": "beauty_base",
+  "tokens": "kbeauty_skincare_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Skincare Coreano en {{city}}",
+    "descriptionTemplate": "Skincare Coreano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "skincare coreano {{city}}",
+      "k-beauty skincare {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Skincare Coreano",
+    "subheadlineTemplate": "Skincare Coreano profesional en {{city}}."
+  }
+}

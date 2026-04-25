@@ -1,0 +1,22 @@
+{
+  "id": "frozen_meal_brand",
+  "nameEs": "Comida Congelada",
+  "nameEn": "Frozen Meal Brand",
+  "verticalId": "food-beverage",
+  "subVertical": "meal-prep-delivery",
+  "extends": "restaurant",
+  "tokens": "frozen_meal_brand",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Comida Congelada en {{city}}",
+    "descriptionTemplate": "Comida Congelada profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "comida congelada {{city}}",
+      "frozen meal brand {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Comida Congelada",
+    "subheadlineTemplate": "Comida Congelada profesional en {{city}}."
+  }
+}

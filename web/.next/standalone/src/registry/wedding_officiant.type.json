@@ -1,0 +1,22 @@
+{
+  "id": "wedding_officiant",
+  "nameEs": "Oficiante de Bodas",
+  "nameEn": "Wedding Officiant",
+  "verticalId": "service-booking",
+  "subVertical": "officiant-celebrant",
+  "extends": "gimnasio",
+  "tokens": "wedding_officiant",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Oficiante de Bodas en {{city}}",
+    "descriptionTemplate": "Oficiante de Bodas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "oficiante de bodas {{city}}",
+      "wedding officiant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Oficiante de Bodas",
+    "subheadlineTemplate": "Oficiante de Bodas profesional en {{city}}."
+  }
+}

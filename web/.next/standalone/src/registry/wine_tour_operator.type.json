@@ -1,0 +1,22 @@
+{
+  "id": "wine_tour_operator",
+  "nameEs": "Tour de Vinos",
+  "nameEn": "Wine Tour",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "wine_tour_operator",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tour de Vinos en {{city}}",
+    "descriptionTemplate": "Tour de Vinos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour de vinos {{city}}",
+      "wine tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour de Vinos",
+    "subheadlineTemplate": "Tour de Vinos profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "exotic_pet_vet",
+  "nameEs": "Veterinaria Exoticos",
+  "nameEn": "Exotic Pet Vet",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "exotic_pet_vet",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Veterinaria Exoticos en {{city}}",
+    "descriptionTemplate": "Veterinaria Exoticos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "veterinaria exoticos {{city}}",
+      "exotic pet vet {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Veterinaria Exoticos",
+    "subheadlineTemplate": "Veterinaria Exoticos profesional en {{city}}."
+  }
+}

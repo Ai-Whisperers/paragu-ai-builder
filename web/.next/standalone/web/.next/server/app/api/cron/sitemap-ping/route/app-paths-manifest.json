@@ -1,0 +1,3 @@
+{
+  "/api/cron/sitemap-ping/route": "app/api/cron/sitemap-ping/route.js"
+}

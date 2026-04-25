@@ -1,0 +1,22 @@
+{
+  "id": "mens_clothing_store",
+  "nameEs": "Ropa Hombre",
+  "nameEn": "Mens Clothing",
+  "verticalId": "retail-local",
+  "subVertical": "apparel-fashion",
+  "extends": "retail_base",
+  "tokens": "mens_clothing_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Ropa Hombre en {{city}}",
+    "descriptionTemplate": "Ropa Hombre profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ropa hombre {{city}}",
+      "mens clothing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ropa Hombre",
+    "subheadlineTemplate": "Ropa Hombre profesional en {{city}}."
+  }
+}

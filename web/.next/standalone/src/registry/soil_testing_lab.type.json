@@ -1,0 +1,22 @@
+{
+  "id": "soil_testing_lab",
+  "nameEs": "Laboratorio Suelos",
+  "nameEn": "Soil Testing Lab",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "ag-services",
+  "extends": "agriculture_base",
+  "tokens": "soil_testing_lab",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Laboratorio Suelos en {{city}}",
+    "descriptionTemplate": "Laboratorio Suelos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "laboratorio suelos {{city}}",
+      "soil testing lab {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Laboratorio Suelos",
+    "subheadlineTemplate": "Laboratorio Suelos profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "nursing_assistant_school",
+  "nameEs": "Escuela Auxiliar Enfermeria",
+  "nameEn": "CNA School",
+  "verticalId": "education-training",
+  "subVertical": "trade-vocational",
+  "extends": "educacion",
+  "tokens": "nursing_assistant_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Auxiliar Enfermeria en {{city}}",
+    "descriptionTemplate": "Escuela Auxiliar Enfermeria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela auxiliar enfermeria {{city}}",
+      "cna school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Auxiliar Enfermeria",
+    "subheadlineTemplate": "Escuela Auxiliar Enfermeria profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "adult_recreational_league",
+  "nameEs": "Liga Adulta",
+  "nameEn": "Adult League",
+  "verticalId": "sports-recreation",
+  "subVertical": "team-sports-league",
+  "extends": "sports_base",
+  "tokens": "adult_recreational_league",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Liga Adulta en {{city}}",
+    "descriptionTemplate": "Liga Adulta profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "liga adulta {{city}}",
+      "adult league {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Liga Adulta",
+    "subheadlineTemplate": "Liga Adulta profesional en {{city}}."
+  }
+}

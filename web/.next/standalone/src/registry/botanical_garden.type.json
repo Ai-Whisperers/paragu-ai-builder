@@ -1,0 +1,22 @@
+{
+  "id": "botanical_garden",
+  "nameEs": "Jardin Botanico",
+  "nameEn": "Botanical Garden",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "museum-gallery",
+  "extends": "entertainment_base",
+  "tokens": "botanical_garden",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Jardin Botanico en {{city}}",
+    "descriptionTemplate": "Jardin Botanico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "jardin botanico {{city}}",
+      "botanical garden {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Jardin Botanico",
+    "subheadlineTemplate": "Jardin Botanico profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "kung_fu_school",
+  "nameEs": "Escuela Kung Fu",
+  "nameEn": "Kung Fu School",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "kung_fu_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Kung Fu en {{city}}",
+    "descriptionTemplate": "Escuela Kung Fu profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela kung fu {{city}}",
+      "kung fu school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Kung Fu",
+    "subheadlineTemplate": "Escuela Kung Fu profesional en {{city}}."
+  }
+}

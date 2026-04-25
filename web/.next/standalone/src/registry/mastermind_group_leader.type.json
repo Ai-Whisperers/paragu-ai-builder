@@ -1,0 +1,22 @@
+{
+  "id": "mastermind_group_leader",
+  "nameEs": "Grupo Mastermind",
+  "nameEn": "Mastermind",
+  "verticalId": "education-training",
+  "subVertical": "online-courses",
+  "extends": "educacion",
+  "tokens": "mastermind_group_leader",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Grupo Mastermind en {{city}}",
+    "descriptionTemplate": "Grupo Mastermind profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "grupo mastermind {{city}}",
+      "mastermind {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Grupo Mastermind",
+    "subheadlineTemplate": "Grupo Mastermind profesional en {{city}}."
+  }
+}

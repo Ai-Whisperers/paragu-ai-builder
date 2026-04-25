@@ -1,0 +1,25 @@
+{
+  "id": "cnc_machine_shop",
+  "nameEs": "Taller CNC",
+  "nameEn": "CNC Shop",
+  "verticalId": "trades-industrial",
+  "subVertical": "machining-fabrication",
+  "extends": "industrial_base",
+  "tokens": "cnc_machine_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Taller CNC en {{city}}",
+    "descriptionTemplate": "Taller CNC profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller cnc {{city}}",
+      "cnc shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller CNC",
+    "subheadlineTemplate": "Taller CNC profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

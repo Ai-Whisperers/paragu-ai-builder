@@ -1,0 +1,25 @@
+{
+  "id": "meat_processing_plant",
+  "nameEs": "Frigorifico",
+  "nameEn": "Meat Processing",
+  "verticalId": "trades-industrial",
+  "subVertical": "food-processing",
+  "extends": "industrial_base",
+  "tokens": "meat_processing_plant",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Frigorifico en {{city}}",
+    "descriptionTemplate": "Frigorifico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "frigorifico {{city}}",
+      "meat processing {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Frigorifico",
+    "subheadlineTemplate": "Frigorifico profesional en {{city}}."
+  },
+  "flags": [
+    "B2B regulated"
+  ]
+}

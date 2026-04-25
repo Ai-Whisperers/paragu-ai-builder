@@ -1,0 +1,22 @@
+{
+  "id": "aromatherapy_studio",
+  "nameEs": "Aromaterapia",
+  "nameEn": "Aromatherapy",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "wellness-spa",
+  "extends": "beauty_base",
+  "tokens": "aromatherapy_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Aromaterapia en {{city}}",
+    "descriptionTemplate": "Aromaterapia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "aromaterapia {{city}}",
+      "aromatherapy {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Aromaterapia",
+    "subheadlineTemplate": "Aromaterapia profesional en {{city}}."
+  }
+}

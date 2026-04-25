@@ -1,0 +1,22 @@
+{
+  "id": "barre_studio",
+  "nameEs": "Estudio Barre",
+  "nameEn": "Barre Studio",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "barre_studio",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Estudio Barre en {{city}}",
+    "descriptionTemplate": "Estudio Barre profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio barre {{city}}",
+      "barre studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio Barre",
+    "subheadlineTemplate": "Estudio Barre profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "baby_food_service",
+  "nameEs": "Comida para Bebes",
+  "nameEn": "Baby Food Service",
+  "verticalId": "food-beverage",
+  "subVertical": "meal-prep-delivery",
+  "extends": "restaurant",
+  "tokens": "baby_food_service",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Comida para Bebes en {{city}}",
+    "descriptionTemplate": "Comida para Bebes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "comida para bebes {{city}}",
+      "baby food service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Comida para Bebes",
+    "subheadlineTemplate": "Comida para Bebes profesional en {{city}}."
+  }
+}

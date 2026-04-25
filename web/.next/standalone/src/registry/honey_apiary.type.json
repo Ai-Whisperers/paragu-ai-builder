@@ -1,0 +1,22 @@
+{
+  "id": "honey_apiary",
+  "nameEs": "Apicultura",
+  "nameEn": "Apiary",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "apiary",
+  "extends": "agriculture_base",
+  "tokens": "honey_apiary",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Apicultura en {{city}}",
+    "descriptionTemplate": "Apicultura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "apicultura {{city}}",
+      "apiary {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Apicultura",
+    "subheadlineTemplate": "Apicultura profesional en {{city}}."
+  }
+}

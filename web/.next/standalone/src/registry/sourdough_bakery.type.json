@@ -1,0 +1,22 @@
+{
+  "id": "sourdough_bakery",
+  "nameEs": "Panaderia de Masa Madre",
+  "nameEn": "Sourdough Bakery",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "sourdough_bakery",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Panaderia de Masa Madre en {{city}}",
+    "descriptionTemplate": "Panaderia de Masa Madre profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "panaderia de masa madre {{city}}",
+      "sourdough bakery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Panaderia de Masa Madre",
+    "subheadlineTemplate": "Panaderia de Masa Madre profesional en {{city}}."
+  }
+}

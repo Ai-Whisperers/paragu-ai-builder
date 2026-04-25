@@ -1,0 +1,25 @@
+{
+  "id": "instagram_tiktok_agency",
+  "nameEs": "Agencia Creadores",
+  "nameEn": "Creator Agency",
+  "verticalId": "media-publishing",
+  "subVertical": "content-creator",
+  "extends": "media_base",
+  "tokens": "instagram_tiktok_agency",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Agencia Creadores en {{city}}",
+    "descriptionTemplate": "Agencia Creadores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia creadores {{city}}",
+      "creator agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia Creadores",
+    "subheadlineTemplate": "Agencia Creadores profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

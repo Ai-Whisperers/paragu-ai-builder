@@ -1,0 +1,25 @@
+{
+  "id": "intermodal_container_service",
+  "nameEs": "Servicio Intermodal",
+  "nameEn": "Intermodal Service",
+  "verticalId": "logistics-transport",
+  "subVertical": "rail-intermodal",
+  "extends": "logistics_base",
+  "tokens": "intermodal_container_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Servicio Intermodal en {{city}}",
+    "descriptionTemplate": "Servicio Intermodal profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio intermodal {{city}}",
+      "intermodal service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio Intermodal",
+    "subheadlineTemplate": "Servicio Intermodal profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

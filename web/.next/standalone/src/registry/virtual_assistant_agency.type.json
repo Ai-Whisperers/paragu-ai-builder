@@ -1,0 +1,22 @@
+{
+  "id": "virtual_assistant_agency",
+  "nameEs": "Asistente Virtual",
+  "nameEn": "Virtual Assistant",
+  "verticalId": "b2b-professional",
+  "subVertical": "business-process-outsource",
+  "extends": "professional_services_base",
+  "tokens": "virtual_assistant_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Asistente Virtual en {{city}}",
+    "descriptionTemplate": "Asistente Virtual profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asistente virtual {{city}}",
+      "virtual assistant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asistente Virtual",
+    "subheadlineTemplate": "Asistente Virtual profesional en {{city}}."
+  }
+}

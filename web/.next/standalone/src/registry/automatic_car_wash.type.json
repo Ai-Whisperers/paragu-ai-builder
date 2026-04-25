@@ -1,0 +1,22 @@
+{
+  "id": "automatic_car_wash",
+  "nameEs": "Lavadero Automatico",
+  "nameEn": "Automatic Car Wash",
+  "verticalId": "automotive",
+  "subVertical": "wash-detail",
+  "extends": "automotive_base",
+  "tokens": "automatic_car_wash",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Lavadero Automatico en {{city}}",
+    "descriptionTemplate": "Lavadero Automatico profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lavadero automatico {{city}}",
+      "automatic car wash {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lavadero Automatico",
+    "subheadlineTemplate": "Lavadero Automatico profesional en {{city}}."
+  }
+}

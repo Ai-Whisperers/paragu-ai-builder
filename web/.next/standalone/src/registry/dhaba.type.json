@@ -1,0 +1,22 @@
+{
+  "id": "dhaba",
+  "nameEs": "Dhaba",
+  "nameEn": "Dhaba",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "dhaba",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Dhaba en {{city}}",
+    "descriptionTemplate": "Dhaba profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "dhaba {{city}}",
+      "dhaba {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Dhaba",
+    "subheadlineTemplate": "Dhaba profesional en {{city}}."
+  }
+}

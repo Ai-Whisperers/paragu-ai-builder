@@ -1,0 +1,22 @@
+{
+  "id": "cultural_heritage_tour",
+  "nameEs": "Tour Cultural",
+  "nameEn": "Heritage Tour",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "tour-operator",
+  "extends": "restaurant",
+  "tokens": "cultural_heritage_tour",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tour Cultural en {{city}}",
+    "descriptionTemplate": "Tour Cultural profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour cultural {{city}}",
+      "heritage tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour Cultural",
+    "subheadlineTemplate": "Tour Cultural profesional en {{city}}."
+  }
+}

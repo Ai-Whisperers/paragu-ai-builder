@@ -1,0 +1,22 @@
+{
+  "id": "consignment_shop",
+  "nameEs": "Consignacion",
+  "nameEn": "Consignment Shop",
+  "verticalId": "retail-local",
+  "subVertical": "thrift-resale",
+  "extends": "retail_base",
+  "tokens": "consignment_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Consignacion en {{city}}",
+    "descriptionTemplate": "Consignacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "consignacion {{city}}",
+      "consignment shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Consignacion",
+    "subheadlineTemplate": "Consignacion profesional en {{city}}."
+  }
+}

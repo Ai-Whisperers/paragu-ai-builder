@@ -1,0 +1,22 @@
+{
+  "id": "international_relocation",
+  "nameEs": "Reubicacion Internacional",
+  "nameEn": "International Relo",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "relocation-services",
+  "extends": "inmobiliaria",
+  "tokens": "international_relocation",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Reubicacion Internacional en {{city}}",
+    "descriptionTemplate": "Reubicacion Internacional profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reubicacion internacional {{city}}",
+      "international relo {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reubicacion Internacional",
+    "subheadlineTemplate": "Reubicacion Internacional profesional en {{city}}."
+  }
+}

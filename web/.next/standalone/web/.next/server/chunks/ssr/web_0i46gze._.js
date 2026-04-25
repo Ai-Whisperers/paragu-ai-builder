@@ -1,0 +1,3 @@
+module.exports=[349231,(a,b,c)=>{"use strict";b.exports=a.r(640881).vendored["react-ssr"].ReactServerDOMTurbopackClient},951541,a=>{"use strict";var b=a.i(256856);a.s(["ReceiptPrintButton",0,function(){return(0,b.jsx)("button",{type:"button",onClick:()=>window.print(),className:"rounded-md bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90",children:"📄 Descargar / Imprimir recibo"})}])}];
+
+//# sourceMappingURL=web_0i46gze._.js.map

@@ -1,0 +1,22 @@
+{
+  "id": "vacation_rental_manager",
+  "nameEs": "Alquiler Vacacional",
+  "nameEn": "Vacation Rental",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "short-term-rental",
+  "extends": "restaurant",
+  "tokens": "vacation_rental_manager",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Vacacional en {{city}}",
+    "descriptionTemplate": "Alquiler Vacacional profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler vacacional {{city}}",
+      "vacation rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Vacacional",
+    "subheadlineTemplate": "Alquiler Vacacional profesional en {{city}}."
+  }
+}

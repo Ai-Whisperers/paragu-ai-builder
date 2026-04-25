@@ -1,0 +1,22 @@
+{
+  "id": "event_photographer",
+  "nameEs": "Fotografo de Eventos",
+  "nameEn": "Event Photographer",
+  "verticalId": "service-booking",
+  "subVertical": "photography",
+  "extends": "gimnasio",
+  "tokens": "event_photographer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Fotografo de Eventos en {{city}}",
+    "descriptionTemplate": "Fotografo de Eventos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fotografo de eventos {{city}}",
+      "event photographer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fotografo de Eventos",
+    "subheadlineTemplate": "Fotografo de Eventos profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mandarin_school",
+  "nameEs": "Escuela Mandarin",
+  "nameEn": "Mandarin School",
+  "verticalId": "education-training",
+  "subVertical": "language",
+  "extends": "educacion",
+  "tokens": "mandarin_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Mandarin en {{city}}",
+    "descriptionTemplate": "Escuela Mandarin profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela mandarin {{city}}",
+      "mandarin school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Mandarin",
+    "subheadlineTemplate": "Escuela Mandarin profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "brewpub",
+  "nameEs": "Cerveceria con Cocina",
+  "nameEn": "Brewpub",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "brewpub",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Cerveceria con Cocina en {{city}}",
+    "descriptionTemplate": "Cerveceria con Cocina profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cerveceria con cocina {{city}}",
+      "brewpub {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cerveceria con Cocina",
+    "subheadlineTemplate": "Cerveceria con Cocina profesional en {{city}}."
+  }
+}

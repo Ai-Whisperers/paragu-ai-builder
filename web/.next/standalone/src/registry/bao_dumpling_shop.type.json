@@ -1,0 +1,22 @@
+{
+  "id": "bao_dumpling_shop",
+  "nameEs": "Bao y Dumpling",
+  "nameEn": "Bao Dumpling",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "bao_dumpling_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Bao y Dumpling en {{city}}",
+    "descriptionTemplate": "Bao y Dumpling profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bao y dumpling {{city}}",
+      "bao dumpling {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bao y Dumpling",
+    "subheadlineTemplate": "Bao y Dumpling profesional en {{city}}."
+  }
+}

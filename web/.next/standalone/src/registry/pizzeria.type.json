@@ -1,0 +1,27 @@
+{
+  "id": "pizzeria",
+  "nameEs": "Pizzeria",
+  "nameEn": "Pizzeria",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "pizzeria",
+  "seo": {
+    "schemaType": "Restaurant",
+    "titleTemplate": "{{businessName}} - Pizzeria en {{city}}",
+    "descriptionTemplate": "Pizzas artesanales al horno a leña en {{city}}.",
+    "keywords": [
+      "pizzeria {{city}}",
+      "pizza {{city}}",
+      "delivery pizza {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pizza al horno, tradicion de barrio",
+    "subheadlineTemplate": "Pizzas artesanales al horno a leña en {{city}}."
+  },
+  "serviceCategories": [
+    "tradicionales",
+    "especiales",
+    "empanadas"
+  ]
+}

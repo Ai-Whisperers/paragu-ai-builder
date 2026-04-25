@@ -1,0 +1,22 @@
+{
+  "id": "service_dog_training",
+  "nameEs": "Perros Asistencia",
+  "nameEn": "Service Dog Training",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-training",
+  "extends": "pets_base",
+  "tokens": "service_dog_training",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Perros Asistencia en {{city}}",
+    "descriptionTemplate": "Perros Asistencia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "perros asistencia {{city}}",
+      "service dog training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Perros Asistencia",
+    "subheadlineTemplate": "Perros Asistencia profesional en {{city}}."
+  }
+}

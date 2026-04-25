@@ -1,0 +1,25 @@
+{
+  "id": "mep_engineer",
+  "nameEs": "Ingeniero MEP",
+  "nameEn": "MEP Engineer",
+  "verticalId": "b2b-professional",
+  "subVertical": "engineering-consulting",
+  "extends": "professional_services_base",
+  "tokens": "mep_engineer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Ingeniero MEP en {{city}}",
+    "descriptionTemplate": "Ingeniero MEP profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ingeniero mep {{city}}",
+      "mep engineer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ingeniero MEP",
+    "subheadlineTemplate": "Ingeniero MEP profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

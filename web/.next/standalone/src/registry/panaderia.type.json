@@ -1,0 +1,36 @@
+{
+  "id": "panaderia",
+  "nameEs": "Panaderia",
+  "nameEn": "Bakery",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "panaderia",
+  "pages": {
+    "homepage": {
+      "sections": ["header", "hero", "about", "productCatalog", "featuredMenu", "gallery", "testimonials", "businessHours", "location", "footer"],
+      "requiredSections": ["header", "hero", "productCatalog", "businessHours", "footer"]
+    }
+  },
+  "features": {
+    "onlineOrdering": { "enabled": true, "method": "whatsapp" },
+    "reservations": { "enabled": false },
+    "productCatalog": { "enabled": true, "showPrices": true, "categories": true, "whatsappOrder": true },
+    "menuDisplay": { "enabled": true, "showPrices": true },
+    "businessHours": { "enabled": true, "earlyOpen": true }
+  },
+  "menuCategories": ["panes", "viennoiserie", "pasteleria", "chipa", "empanadas", "tortas_especiales", "bebidas"],
+  "seo": {
+    "schemaType": "Bakery",
+    "titleTemplate": "{{businessName}} - Panaderia en {{city}}",
+    "descriptionTemplate": "Pan artesanal, chipa, pasteleria y tortas en {{city}}. Pedidos por WhatsApp.",
+    "keywords": ["panaderia {{city}}", "pan fresco {{city}}", "chipa {{city}}", "torta cumpleanos {{city}}"]
+  },
+  "nav": {
+    "items": ["Inicio", "Productos", "Tortas", "Ubicacion"],
+    "cta": { "text": "Pedir por WhatsApp", "action": "whatsapp" }
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pan y dulce todos los dias",
+    "subheadlineTemplate": "Horneado artesanal en {{city}}. Panes, chipa, tortas por encargo."
+  }
+}

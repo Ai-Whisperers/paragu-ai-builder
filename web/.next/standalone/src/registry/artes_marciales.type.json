@@ -1,0 +1,28 @@
+{
+  "id": "artes_marciales",
+  "nameEs": "Artes Marciales",
+  "nameEn": "Martial Arts",
+  "verticalId": "service-booking",
+  "extends": "gimnasio",
+  "tokens": "artes_marciales",
+  "seo": {
+    "schemaType": "HealthClub",
+    "titleTemplate": "{{businessName}} - Artes Marciales en {{city}}",
+    "descriptionTemplate": "Karate, BJJ, muay thai y otras artes marciales para todas las edades en {{city}}.",
+    "keywords": [
+      "artes marciales {{city}}",
+      "karate {{city}}",
+      "jiu jitsu {{city}}",
+      "muay thai {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Disciplina que transforma",
+    "subheadlineTemplate": "Karate, BJJ, muay thai y otras artes marciales para todas las edades en {{city}}."
+  },
+  "serviceCategories": [
+    "karate",
+    "bjj",
+    "muay_thai"
+  ]
+}

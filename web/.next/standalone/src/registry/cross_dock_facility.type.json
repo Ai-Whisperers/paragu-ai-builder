@@ -1,0 +1,25 @@
+{
+  "id": "cross_dock_facility",
+  "nameEs": "Cross-Dock",
+  "nameEn": "Cross-Dock",
+  "verticalId": "logistics-transport",
+  "subVertical": "warehousing",
+  "extends": "logistics_base",
+  "tokens": "cross_dock_facility",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Cross-Dock en {{city}}",
+    "descriptionTemplate": "Cross-Dock profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cross-dock {{city}}",
+      "cross-dock {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cross-Dock",
+    "subheadlineTemplate": "Cross-Dock profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

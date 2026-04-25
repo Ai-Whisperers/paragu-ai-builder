@@ -1,0 +1,22 @@
+{
+  "id": "comic_publisher",
+  "nameEs": "Editorial Comics",
+  "nameEn": "Comic Publisher",
+  "verticalId": "media-publishing",
+  "subVertical": "indie-publisher",
+  "extends": "media_base",
+  "tokens": "comic_publisher",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Editorial Comics en {{city}}",
+    "descriptionTemplate": "Editorial Comics profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "editorial comics {{city}}",
+      "comic publisher {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Editorial Comics",
+    "subheadlineTemplate": "Editorial Comics profesional en {{city}}."
+  }
+}

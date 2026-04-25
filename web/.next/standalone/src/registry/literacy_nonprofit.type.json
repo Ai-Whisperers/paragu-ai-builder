@@ -1,0 +1,22 @@
+{
+  "id": "literacy_nonprofit",
+  "nameEs": "ONG Alfabetizacion",
+  "nameEn": "Literacy Nonprofit",
+  "verticalId": "membership-community",
+  "subVertical": "nonprofit-charity",
+  "extends": "membership_base",
+  "tokens": "literacy_nonprofit",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - ONG Alfabetizacion en {{city}}",
+    "descriptionTemplate": "ONG Alfabetizacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ong alfabetizacion {{city}}",
+      "literacy nonprofit {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - ONG Alfabetizacion",
+    "subheadlineTemplate": "ONG Alfabetizacion profesional en {{city}}."
+  }
+}

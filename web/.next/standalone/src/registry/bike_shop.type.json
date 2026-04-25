@@ -1,0 +1,22 @@
+{
+  "id": "bike_shop",
+  "nameEs": "Bicicleteria",
+  "nameEn": "Bike Shop",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "bike_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Bicicleteria en {{city}}",
+    "descriptionTemplate": "Bicicleteria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bicicleteria {{city}}",
+      "bike shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bicicleteria",
+    "subheadlineTemplate": "Bicicleteria profesional en {{city}}."
+  }
+}

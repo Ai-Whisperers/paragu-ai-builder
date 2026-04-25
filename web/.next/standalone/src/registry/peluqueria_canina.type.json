@@ -1,0 +1,27 @@
+{
+  "id": "peluqueria_canina",
+  "nameEs": "Peluqueria Canina",
+  "nameEn": "Pet Grooming",
+  "verticalId": "beauty-personal-care",
+  "extends": "beauty_base",
+  "tokens": "peluqueria_canina",
+  "seo": {
+    "schemaType": "PetStore",
+    "titleTemplate": "{{businessName}} - Peluqueria Canina en {{city}}",
+    "descriptionTemplate": "Bano, corte y estetica canina en {{city}} con productos hipoalergenicos.",
+    "keywords": [
+      "peluqueria canina {{city}}",
+      "bano perros {{city}}",
+      "estetica canina {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tu mascota siempre impecable",
+    "subheadlineTemplate": "Bano, corte y estetica canina en {{city}} con productos hipoalergenicos."
+  },
+  "serviceCategories": [
+    "bano",
+    "corte",
+    "desanudar"
+  ]
+}

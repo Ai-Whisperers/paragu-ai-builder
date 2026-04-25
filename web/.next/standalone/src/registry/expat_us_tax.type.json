@@ -1,0 +1,22 @@
+{
+  "id": "expat_us_tax",
+  "nameEs": "Impuestos Expat",
+  "nameEn": "Expat Tax",
+  "verticalId": "finance-insurance",
+  "subVertical": "tax-prep",
+  "extends": "finance_insurance_base",
+  "tokens": "expat_us_tax",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Impuestos Expat en {{city}}",
+    "descriptionTemplate": "Impuestos Expat profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "impuestos expat {{city}}",
+      "expat tax {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Impuestos Expat",
+    "subheadlineTemplate": "Impuestos Expat profesional en {{city}}."
+  }
+}

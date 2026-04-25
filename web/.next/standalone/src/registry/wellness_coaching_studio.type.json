@@ -1,0 +1,22 @@
+{
+  "id": "wellness_coaching_studio",
+  "nameEs": "Coach de Bienestar",
+  "nameEn": "Wellness Coach",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "wellness_coaching_studio",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Coach de Bienestar en {{city}}",
+    "descriptionTemplate": "Coach de Bienestar profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coach de bienestar {{city}}",
+      "wellness coach {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Coach de Bienestar",
+    "subheadlineTemplate": "Coach de Bienestar profesional en {{city}}."
+  }
+}

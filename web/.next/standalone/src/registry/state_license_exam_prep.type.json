@@ -1,0 +1,22 @@
+{
+  "id": "state_license_exam_prep",
+  "nameEs": "Examen Profesional",
+  "nameEn": "License Exam Prep",
+  "verticalId": "education-training",
+  "subVertical": "test-prep",
+  "extends": "educacion",
+  "tokens": "state_license_exam_prep",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Examen Profesional en {{city}}",
+    "descriptionTemplate": "Examen Profesional profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "examen profesional {{city}}",
+      "license exam prep {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Examen Profesional",
+    "subheadlineTemplate": "Examen Profesional profesional en {{city}}."
+  }
+}

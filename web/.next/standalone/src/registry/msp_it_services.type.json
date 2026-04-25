@@ -1,0 +1,25 @@
+{
+  "id": "msp_it_services",
+  "nameEs": "MSP",
+  "nameEn": "MSP",
+  "verticalId": "technology-digital",
+  "subVertical": "it-managed-services",
+  "extends": "technology_base",
+  "tokens": "msp_it_services",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - MSP en {{city}}",
+    "descriptionTemplate": "MSP profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "msp {{city}}",
+      "msp {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - MSP",
+    "subheadlineTemplate": "MSP profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

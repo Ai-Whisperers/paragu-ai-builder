@@ -1,0 +1,22 @@
+{
+  "id": "drone_repair_shop",
+  "nameEs": "Reparacion Drones",
+  "nameEn": "Drone Repair",
+  "verticalId": "technology-digital",
+  "subVertical": "repair-tech",
+  "extends": "technology_base",
+  "tokens": "drone_repair_shop",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Reparacion Drones en {{city}}",
+    "descriptionTemplate": "Reparacion Drones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "reparacion drones {{city}}",
+      "drone repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparacion Drones",
+    "subheadlineTemplate": "Reparacion Drones profesional en {{city}}."
+  }
+}

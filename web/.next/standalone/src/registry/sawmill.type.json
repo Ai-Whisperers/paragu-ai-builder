@@ -1,0 +1,22 @@
+{
+  "id": "sawmill",
+  "nameEs": "Aserradero",
+  "nameEn": "Sawmill",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "forestry",
+  "extends": "agriculture_base",
+  "tokens": "sawmill",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Aserradero en {{city}}",
+    "descriptionTemplate": "Aserradero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "aserradero {{city}}",
+      "sawmill {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Aserradero",
+    "subheadlineTemplate": "Aserradero profesional en {{city}}."
+  }
+}

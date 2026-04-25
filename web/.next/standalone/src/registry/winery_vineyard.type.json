@@ -1,0 +1,22 @@
+{
+  "id": "winery_vineyard",
+  "nameEs": "Vinedo",
+  "nameEn": "Winery",
+  "verticalId": "food-beverage",
+  "subVertical": "beverage-production",
+  "extends": "restaurant",
+  "tokens": "winery_vineyard",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Vinedo en {{city}}",
+    "descriptionTemplate": "Vinedo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "vinedo {{city}}",
+      "winery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Vinedo",
+    "subheadlineTemplate": "Vinedo profesional en {{city}}."
+  }
+}

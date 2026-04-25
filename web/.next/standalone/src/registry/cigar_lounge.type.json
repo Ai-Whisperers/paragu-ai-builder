@@ -1,0 +1,25 @@
+{
+  "id": "cigar_lounge",
+  "nameEs": "Lounge de Puros",
+  "nameEn": "Cigar Lounge",
+  "verticalId": "food-beverage",
+  "subVertical": "bar-nightlife",
+  "extends": "restaurant",
+  "tokens": "cigar_lounge",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Lounge de Puros en {{city}}",
+    "descriptionTemplate": "Lounge de Puros profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lounge de puros {{city}}",
+      "cigar lounge {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lounge de Puros",
+    "subheadlineTemplate": "Lounge de Puros profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

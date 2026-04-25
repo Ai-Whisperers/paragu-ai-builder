@@ -1,0 +1,22 @@
+{
+  "id": "ice_skating_rink",
+  "nameEs": "Pista Patinaje Hielo",
+  "nameEn": "Ice Rink",
+  "verticalId": "sports-recreation",
+  "subVertical": "winter-sports",
+  "extends": "sports_base",
+  "tokens": "ice_skating_rink",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Pista Patinaje Hielo en {{city}}",
+    "descriptionTemplate": "Pista Patinaje Hielo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "pista patinaje hielo {{city}}",
+      "ice rink {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Pista Patinaje Hielo",
+    "subheadlineTemplate": "Pista Patinaje Hielo profesional en {{city}}."
+  }
+}

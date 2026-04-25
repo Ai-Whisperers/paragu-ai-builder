@@ -1,0 +1,22 @@
+{
+  "id": "cremation_urn_retailer",
+  "nameEs": "Urnas",
+  "nameEn": "Urn Retailer",
+  "verticalId": "death-care",
+  "subVertical": "monument-headstone",
+  "extends": "death_care_base",
+  "tokens": "cremation_urn_retailer",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Urnas en {{city}}",
+    "descriptionTemplate": "Urnas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "urnas {{city}}",
+      "urn retailer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Urnas",
+    "subheadlineTemplate": "Urnas profesional en {{city}}."
+  }
+}

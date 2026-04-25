@@ -1,0 +1,22 @@
+{
+  "id": "commercial_roofer",
+  "nameEs": "Techador Comercial",
+  "nameEn": "Commercial Roofer",
+  "verticalId": "trades-home-services",
+  "subVertical": "roofing",
+  "extends": "trades_base",
+  "tokens": "commercial_roofer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Techador Comercial en {{city}}",
+    "descriptionTemplate": "Techador Comercial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "techador comercial {{city}}",
+      "commercial roofer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Techador Comercial",
+    "subheadlineTemplate": "Techador Comercial profesional en {{city}}."
+  }
+}

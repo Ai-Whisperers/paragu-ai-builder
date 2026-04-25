@@ -1,0 +1,22 @@
+{
+  "id": "taekwondo_dojang",
+  "nameEs": "Escuela Taekwondo",
+  "nameEn": "Taekwondo School",
+  "verticalId": "sports-recreation",
+  "subVertical": "martial-arts",
+  "extends": "sports_base",
+  "tokens": "taekwondo_dojang",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Taekwondo en {{city}}",
+    "descriptionTemplate": "Escuela Taekwondo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela taekwondo {{city}}",
+      "taekwondo school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Taekwondo",
+    "subheadlineTemplate": "Escuela Taekwondo profesional en {{city}}."
+  }
+}

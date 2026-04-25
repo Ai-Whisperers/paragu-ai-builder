@@ -1,0 +1,22 @@
+{
+  "id": "welding_school",
+  "nameEs": "Escuela Soldadura",
+  "nameEn": "Welding School",
+  "verticalId": "education-training",
+  "subVertical": "trade-vocational",
+  "extends": "educacion",
+  "tokens": "welding_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Soldadura en {{city}}",
+    "descriptionTemplate": "Escuela Soldadura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela soldadura {{city}}",
+      "welding school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Soldadura",
+    "subheadlineTemplate": "Escuela Soldadura profesional en {{city}}."
+  }
+}

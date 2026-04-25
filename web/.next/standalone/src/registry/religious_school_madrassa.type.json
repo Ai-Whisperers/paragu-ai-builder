@@ -1,0 +1,22 @@
+{
+  "id": "religious_school_madrassa",
+  "nameEs": "Escuela Religiosa",
+  "nameEn": "Religious School",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "religious_school_madrassa",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Escuela Religiosa en {{city}}",
+    "descriptionTemplate": "Escuela Religiosa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela religiosa {{city}}",
+      "religious school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Religiosa",
+    "subheadlineTemplate": "Escuela Religiosa profesional en {{city}}."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "digital_payment_processor",
+  "nameEs": "Procesador Pagos",
+  "nameEn": "Payment Processor",
+  "verticalId": "finance-insurance",
+  "subVertical": "fintech-local",
+  "extends": "finance_insurance_base",
+  "tokens": "digital_payment_processor",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Procesador Pagos en {{city}}",
+    "descriptionTemplate": "Procesador Pagos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "procesador pagos {{city}}",
+      "payment processor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Procesador Pagos",
+    "subheadlineTemplate": "Procesador Pagos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vietnamese_pho_restaurant",
+  "nameEs": "Restaurante de Pho",
+  "nameEn": "Pho Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "vietnamese_pho_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante de Pho en {{city}}",
+    "descriptionTemplate": "Restaurante de Pho profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante de pho {{city}}",
+      "pho restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante de Pho",
+    "subheadlineTemplate": "Restaurante de Pho profesional en {{city}}."
+  }
+}

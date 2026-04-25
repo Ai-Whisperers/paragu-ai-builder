@@ -1,0 +1,22 @@
+{
+  "id": "animation_studio",
+  "nameEs": "Estudio de Animacion",
+  "nameEn": "Animation Studio",
+  "verticalId": "portfolio-professional",
+  "subVertical": "videography-film",
+  "extends": "diseno_grafico",
+  "tokens": "animation_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Estudio de Animacion en {{city}}",
+    "descriptionTemplate": "Estudio de Animacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de animacion {{city}}",
+      "animation studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Animacion",
+    "subheadlineTemplate": "Estudio de Animacion profesional en {{city}}."
+  }
+}

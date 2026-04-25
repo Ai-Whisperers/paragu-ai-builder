@@ -1,0 +1,22 @@
+{
+  "id": "landscape_designer",
+  "nameEs": "Paisajista",
+  "nameEn": "Landscape Designer",
+  "verticalId": "trades-home-services",
+  "subVertical": "landscaping",
+  "extends": "trades_base",
+  "tokens": "landscape_designer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Paisajista en {{city}}",
+    "descriptionTemplate": "Paisajista profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "paisajista {{city}}",
+      "landscape designer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Paisajista",
+    "subheadlineTemplate": "Paisajista profesional en {{city}}."
+  }
+}

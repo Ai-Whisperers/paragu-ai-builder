@@ -1,0 +1,22 @@
+{
+  "id": "student_youth_travel",
+  "nameEs": "Viajes Estudiantiles",
+  "nameEn": "Student Travel",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "travel-agency",
+  "extends": "restaurant",
+  "tokens": "student_youth_travel",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Viajes Estudiantiles en {{city}}",
+    "descriptionTemplate": "Viajes Estudiantiles profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "viajes estudiantiles {{city}}",
+      "student travel {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Viajes Estudiantiles",
+    "subheadlineTemplate": "Viajes Estudiantiles profesional en {{city}}."
+  }
+}

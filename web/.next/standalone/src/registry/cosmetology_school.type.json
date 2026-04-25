@@ -1,0 +1,22 @@
+{
+  "id": "cosmetology_school",
+  "nameEs": "Escuela Belleza",
+  "nameEn": "Cosmetology School",
+  "verticalId": "education-training",
+  "subVertical": "trade-vocational",
+  "extends": "educacion",
+  "tokens": "cosmetology_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela Belleza en {{city}}",
+    "descriptionTemplate": "Escuela Belleza profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela belleza {{city}}",
+      "cosmetology school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Belleza",
+    "subheadlineTemplate": "Escuela Belleza profesional en {{city}}."
+  }
+}

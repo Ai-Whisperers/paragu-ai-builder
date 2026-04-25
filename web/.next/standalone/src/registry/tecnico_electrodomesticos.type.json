@@ -1,0 +1,21 @@
+{
+  "id": "tecnico_electrodomesticos",
+  "nameEs": "Servicio Tecnico de Electrodomesticos",
+  "nameEn": "Appliance Repair",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "tecnico_electrodomesticos",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Servicio Tecnico de Electrodomesticos en {{city}}",
+    "descriptionTemplate": "Lavarropas, heladeras, microondas, cocinas y mas.",
+    "keywords": [
+      "reparacion electrodomesticos {{city}}",
+      "tecnico lavarropas {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Reparamos lo que parece perdido",
+    "subheadlineTemplate": "Lavarropas, heladeras, microondas, cocinas y mas."
+  }
+}

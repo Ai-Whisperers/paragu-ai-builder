@@ -1,0 +1,22 @@
+{
+  "id": "illustrator_studio",
+  "nameEs": "Estudio de Ilustracion",
+  "nameEn": "Illustration Studio",
+  "verticalId": "portfolio-professional",
+  "subVertical": "graphic-design",
+  "extends": "diseno_grafico",
+  "tokens": "illustrator_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Estudio de Ilustracion en {{city}}",
+    "descriptionTemplate": "Estudio de Ilustracion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estudio de ilustracion {{city}}",
+      "illustration studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estudio de Ilustracion",
+    "subheadlineTemplate": "Estudio de Ilustracion profesional en {{city}}."
+  }
+}

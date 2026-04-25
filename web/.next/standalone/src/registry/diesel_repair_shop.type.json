@@ -1,0 +1,22 @@
+{
+  "id": "diesel_repair_shop",
+  "nameEs": "Taller Diesel",
+  "nameEn": "Diesel Repair",
+  "verticalId": "automotive",
+  "subVertical": "repair-maintenance",
+  "extends": "automotive_base",
+  "tokens": "diesel_repair_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Taller Diesel en {{city}}",
+    "descriptionTemplate": "Taller Diesel profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller diesel {{city}}",
+      "diesel repair {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller Diesel",
+    "subheadlineTemplate": "Taller Diesel profesional en {{city}}."
+  }
+}

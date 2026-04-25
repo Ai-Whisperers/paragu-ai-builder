@@ -1,0 +1,25 @@
+{
+  "id": "aircraft_ground_handling",
+  "nameEs": "Handling Aereo",
+  "nameEn": "Ground Handling",
+  "verticalId": "logistics-transport",
+  "subVertical": "aviation-cargo",
+  "extends": "logistics_base",
+  "tokens": "aircraft_ground_handling",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Handling Aereo en {{city}}",
+    "descriptionTemplate": "Handling Aereo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "handling aereo {{city}}",
+      "ground handling {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Handling Aereo",
+    "subheadlineTemplate": "Handling Aereo profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

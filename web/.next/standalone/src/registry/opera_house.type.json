@@ -1,0 +1,22 @@
+{
+  "id": "opera_house",
+  "nameEs": "Opera",
+  "nameEn": "Opera House",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "theater-performing",
+  "extends": "entertainment_base",
+  "tokens": "opera_house",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Opera en {{city}}",
+    "descriptionTemplate": "Opera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "opera {{city}}",
+      "opera house {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Opera",
+    "subheadlineTemplate": "Opera profesional en {{city}}."
+  }
+}
